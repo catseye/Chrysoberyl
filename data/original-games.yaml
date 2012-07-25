@@ -56,31 +56,36 @@ nodes:
     implementation-language: Perl 5.8
     run-requirements: ANSI Terminal
 
-<item>
-  <name>Zzrk</name>
-  <type>design</type>
-  <project>zzrk</project>
-  <year>2005</year>
-  <day>0110</day>
-  <genre>adventure</genre>
-  <platform>Zz</platform>
-  <controls>terminal</controls>
-  <abstract>
-<p>A tiny adventure game written in "pure" Zz (a meta-language normally
-used for defining compilers.)</p>
-  </abstract>
-</item>
+  'Zzrk':
+    subtitle: Adventures in the Great Unsaturated Grammar
+    type: Game
+    genre: Text Adventure
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 2005
+    abstract: |-
+      A tiny adventure game written in "pure" Zz (a meta-language normally
+      used for defining compilers.)
+    implementations:
+    - 'Zzrk in Zz'
 
-<item>
-  <name>Sumper Wumpus Land</name>
-  <type>design</type>
-  <project>swl</project>
-  <year>1999</year>
-  <day>0110</day>
-  <genre>adventure/logic</genre>
-  <platform>Perl</platform>
-  <controls>terminal</controls>
-  <abstract>
-<p>An "extended dance mix" version of Hunt the Wumpus.</p>
-  </abstract>
-</item>
+  'Zzrk in Zz':
+    type: Game Implementation
+    implementation-language: Zz
+
+  'Super Wumpus Land':
+    type: Game
+    genres:
+    - Text Adventure
+    - Logic
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1999
+    abstract: |-
+      An "extended dance mix" version of [[Hunt the Wumpus]].
+    implementations:
+    - 'swl'
+
+  'swl':
+    type: Game Implementation
+    implementation-language: Perl 5.8
