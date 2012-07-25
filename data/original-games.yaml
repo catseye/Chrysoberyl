@@ -1,0 +1,30 @@
+nodes:
+  'Corona: Realm of Magic':
+    type: Game
+    genre: Roguelike
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca Sep 2000
+    abstract: |-
+      An unfinished roguelike, written in Perl.  This was written on an engine
+      called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
+      Entertainment Modules.)
+
+  'Bubble Escape':
+    type: Game
+    genres:
+    - Maze Game
+    - Video Game
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1988?
+    abstract: |-
+      A video game written for the Commodore 64 where you must
+      guide a bubble through a multi-screen maze.  Was originally written in BASIC by a young me in the 80's.
+      Was rewritten in 6502 assembly language by a middle-aged me in the late oughts.  Was pared
+      down so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Competition 2009
+      where (surprisingly, to me!) it got first place in its class.
+    implementations:
+    - 'Bubble Escape: BASIC'
+    - 'Bubble Escape 2K'
+    - 'Bubble Escape 8K'
