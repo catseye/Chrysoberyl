@@ -1,0 +1,24 @@
+nodes:
+  'beta-Juliet distribution':
+    type: Language Implementation
+    reference: yes
+    license: BSD
+    development:
+      github: https://github.com/catseye/beta-Juliet
+      bitbucket: https://bitbucket.org/catseye/beta-juliet/
+    implementation-languages:
+    - C99+SUSEv3
+    - Perl 5.8
+    releases:
+    - "http://catseye.tc/distfiles/b_juliet-2001.0201.zip"
+    - etc.
+  '8ebed2c.py':
+    type: Language Implementation
+    reference: yes
+    implementation-type: compiler
+    source-language: Eightebed
+    host-language: Python
+    target-language: ANSI C
+    development:
+      github: https://github.com/catseye/Eightebed
+      bitbucket: https://bitbucket.org/catseye/eightebed/
