@@ -1,0 +1,73 @@
+nodes:
+  'Hunt the Wumpus':
+    type: Game
+    genre: Logic
+    author: Gregory Yob
+    abstract: |-
+      The classic topological mythical-beast-hunting game, implemented in Erlang.
+    implementations:
+    - 'wumpus.erl'
+
+  'wumpus.erl':
+    type: Game Implementation
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1999?
+    implementation-language: Erlang
+
+  'Animals':
+    type: Game
+    genre: Guessing
+    abstract: |-
+      A classic "expert system" game.  The computer asks you to think of an
+      animal, and then asks you a series of yes/no questions in an attempt to
+      discover what animal you chose.  If it comes to the wrong conclusion, it
+      asks you for a question that would distinguish the animal that you chose,
+      and adds it to its database.  In this way it "learns" about more animals
+      as more games are played.
+    implementations:
+    - 'animals.erl'
+
+  'animals.erl':
+    type: Game Implementation
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1999?
+    implementation-language: Erlang
+    interface: terminal
+
+  'Flip':
+    type: Game
+    genre: Guessing
+    abstract: |-
+      A classic game that demonstrates simple "artificial intelligence".
+    implementations:
+    - 'flip.erl'
+
+  'flip.erl':
+    type: Game Implementation
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1999?
+    implementation-language: Erlang
+    interface: terminal
+
+  'Sokoban':
+    type: Game
+    genre: Puzzle
+    abstract: |-
+      The classic Japanese game about lean manufacturing (well, sort of).
+    implementations:
+    - 'esoko'
+
+  'esoko':
+    type: Game Implementation
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca 1999?
+    implementation-language: Erlang
+    run-requirements: Tk/Tcl
+    abstract: |-
+      This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
+    interface: GUI window
+    controls: keyboard

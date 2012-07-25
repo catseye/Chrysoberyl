@@ -23,6 +23,7 @@ nodes:
     implementation-language: Commodore BASIC 2.0
     run-requirements:
     - Commodore 64
+    controls: joystick
 
   'Bubble Escape 2K':
     type: Game Implementation
@@ -31,12 +32,14 @@ nodes:
     - CRUNCHER AB+
     run-requirements:
     - Commodore 64
+    controls: joystick
 
   'Bubble Escape 8K':
     type: Game Implementation
     implementation-language: 6502 Assembler (Ophis 2.0)
     run-requirements:
     - Commodore 64
+    controls: joystick
 
   'Corona: Realm of Magic':
     type: Game
@@ -55,6 +58,7 @@ nodes:
     type: Game Implementation
     implementation-language: Perl 5.8
     run-requirements: ANSI Terminal
+    interface: ANSI Terminal
 
   'Zzrk':
     subtitle: Adventures in the Great Unsaturated Grammar
@@ -72,6 +76,7 @@ nodes:
   'Zzrk in Zz':
     type: Game Implementation
     implementation-language: Zz
+    interface: terminal
 
   'Super Wumpus Land':
     type: Game
@@ -89,3 +94,4 @@ nodes:
   'swl':
     type: Game Implementation
     implementation-language: Perl 5.8
+    interface: terminal
