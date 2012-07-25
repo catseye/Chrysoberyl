@@ -1,15 +1,4 @@
 nodes:
-  'Corona: Realm of Magic':
-    type: Game
-    genre: Roguelike
-    author: Chris Pressey
-    auspices: Cat's Eye Technologies
-    inception-date: ca Sep 2000
-    abstract: |-
-      An unfinished roguelike, written in Perl.  This was written on an engine
-      called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
-      Entertainment Modules.)
-
   'Bubble Escape':
     type: Game
     genres:
@@ -28,3 +17,70 @@ nodes:
     - 'Bubble Escape: BASIC'
     - 'Bubble Escape 2K'
     - 'Bubble Escape 8K'
+
+  'Bubble Escape: BASIC':
+    type: Game Implementation
+    implementation-language: Commodore BASIC 2.0
+    run-requirements:
+    - Commodore 64
+
+  'Bubble Escape 2K':
+    type: Game Implementation
+    implementation-language: 6502 Assembler (Ophis 2.0)
+    build-requirements:
+    - CRUNCHER AB+
+    run-requirements:
+    - Commodore 64
+
+  'Bubble Escape 8K':
+    type: Game Implementation
+    implementation-language: 6502 Assembler (Ophis 2.0)
+    run-requirements:
+    - Commodore 64
+
+  'Corona: Realm of Magic':
+    type: Game
+    genre: Roguelike
+    author: Chris Pressey
+    auspices: Cat's Eye Technologies
+    inception-date: ca Sep 2000
+    abstract: |-
+      An unfinished roguelike, written in Perl.  This was written on an engine
+      called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
+      Entertainment Modules.)
+    implementations:
+    - 'Corona: Realm of Magic: Perl'
+
+  'Corona: Realm of Magic: Perl':
+    type: Game Implementation
+    implementation-language: Perl 5.8
+    run-requirements: ANSI Terminal
+
+<item>
+  <name>Zzrk</name>
+  <type>design</type>
+  <project>zzrk</project>
+  <year>2005</year>
+  <day>0110</day>
+  <genre>adventure</genre>
+  <platform>Zz</platform>
+  <controls>terminal</controls>
+  <abstract>
+<p>A tiny adventure game written in "pure" Zz (a meta-language normally
+used for defining compilers.)</p>
+  </abstract>
+</item>
+
+<item>
+  <name>Sumper Wumpus Land</name>
+  <type>design</type>
+  <project>swl</project>
+  <year>1999</year>
+  <day>0110</day>
+  <genre>adventure/logic</genre>
+  <platform>Perl</platform>
+  <controls>terminal</controls>
+  <abstract>
+<p>An "extended dance mix" version of Hunt the Wumpus.</p>
+  </abstract>
+</item>
