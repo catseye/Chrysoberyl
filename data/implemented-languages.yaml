@@ -1,0 +1,270 @@
+nodes:
+  pibfi:
+    type: Language Implementation
+    reference: no
+    license: BSD
+    source-language: brainfuck
+    host-language: Erlang
+    implementation-type: interpreter
+    abstract: |-
+      In contrast to all the ultra-minimal Brainfuck interpreters and
+      compilers out there, I figured I should write a monster: the Platonic Ideal BrainFuck Interpreter.
+      Written in Erlang, it contains just about every feature under the sun, including the kitchen sink.
+      I sort of lost interest when I was adding profiling and discovered there were several different
+      extant reckonings of a "number of instructions executed" metric for Brainfuck.  I guess it was that
+      point that made me recognize just how silly this project was...
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+    releases: []
+
+  muriel.pl:
+    type: Language Implementation
+    reference: no
+    license: BSD
+    source-language: Muriel
+    host-language: Perl
+    implementation-type: interpreter
+    abstract: |-
+      This is an interpeter, written in Perl, for Matthew Westcott's
+      quine-based language Muriel.  It was probably
+      the first full implementation of that language.
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+    development:
+      github: https://github.com/catseye/Muriel
+      bitbucket: https://bitbucket.org/catseye/muriel/
+    releases: []
+
+  valgol.erl:
+    type: Language Implementation
+    reference: no
+    license: BSD
+    source-language: VALGOL
+    host-language: Erlang
+    implementation-type: parser
+    abstract: |-
+      A parser, in Erlang, for the Lesser-Known Language VALGOL.
+      It, like, totally demonstrates how a parser can be written so
+      that a separate scanner is totally not needed.  Bitchen!
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  sf2tab:
+    type: Language Implementation
+    reference: no
+    license: BSD
+    source-language: Smallfuck
+    host-language: C
+    target-language: lookup table
+    implementation-type: compiler
+    abstract: |-
+      Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
+      can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
+      (generally gigantic) lookup-tables.
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  stringie:
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Underload
+    host-language: C
+    implementation-type: interpreter
+    abstract: |-
+      Seeing that there was no *non*-pathological implementation of Alex Smith's
+      beautiful [[Underload]] language in C, I undertook that project one evening.
+      (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)
+      The result is one of the most pedantic and boring Underload interpreters known to
+      man.  Perhaps the most interesting property of it is its name, `stringie`, which was
+      an accident.
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'PL-{GOTO}.NET':
+    type: Language Implementation
+    reference: no
+    license: BSD
+    source-language: PL-{GOTO}
+    host-language: Haskell
+    target-language: MSIL
+    implementation-type: compiler
+    abstract: |-
+      I've been idly fascinated by the primitive recursive example programming language
+      PL-{GOTO} from Brainerd and Landweber's *Theory of Computation* for some time.
+      And for some reason I will never be able to explain, I had the craving to implement a compiler
+      which could produce .NET executables by generating MSIL assembly language.  And putting
+      those two together — well, that struck me as a respectably absurd match, so that's what I did.
+      The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
+      to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
+      keeping the `←` symbol for assignment.
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.ale':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Ale
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.backflip':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Backflip
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.black':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Black
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.lnusp':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: LNUSP
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.onela':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: 1L_a
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.onelaoi':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: 1L_AOI
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.onelaoi':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: PATH
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.qdeql':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Qdeql
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.sceql':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: Sceql
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.snusp':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: SNUSP
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.twoill':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: 2-ill
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
+
+  'tc.catseye.yoob.twol':
+    type: Language Implementation
+    reference: no
+    license: Public Domain
+    source-language: 2L
+    host-language: Java
+    host-framework: yoob
+    implementation-type: interpreter
+    authors:
+    - Chris Pressey
+    auspices:
+    - Cat's Eye Technologies
