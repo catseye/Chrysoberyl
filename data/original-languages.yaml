@@ -1,143 +1,142 @@
-nodes:
-  beta-Juliet:
-    type: Programming Language
-    categories:
-    - esolang
-    summary: A minimal event-oriented programming language
-    abstract: |-
-      beta-Juliet is a minimal event-based language.  Each event is caused by some other event.
-      Event causation is conditional based on which of two given events occurred more recently.
-      
-      Portia is a preprocessor for beta-Juliet which allows large, regular, finite sets of events
-      to be described succinctly.
-      
-      Version 2.0 of beta-Juliet (formerly known as "2iota") allows infinite sets of events to be
-      specified, allowing the language to be Turing-complete.
-    authors:
-    - Chris Pressey
-    auspices:
-    - Cat's Eye Technologies
-    inception-date: ca 2002
-    computational-class: believed Turing-complete
-    reference-distribution: 'beta-Juliet distribution'
-    implementations:
-    - 'http://catseye.tc/projects/beta-juliet/'
+beta-Juliet:
+  type: Programming Language
+  categories:
+  - esolang
+  summary: A minimal event-oriented programming language
+  abstract: |-
+    beta-Juliet is a minimal event-based language.  Each event is caused by some other event.
+    Event causation is conditional based on which of two given events occurred more recently.
+    
+    Portia is a preprocessor for beta-Juliet which allows large, regular, finite sets of events
+    to be described succinctly.
+    
+    Version 2.0 of beta-Juliet (formerly known as "2iota") allows infinite sets of events to be
+    specified, allowing the language to be Turing-complete.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 2002
+  computational-class: believed Turing-complete
+  reference-distribution: 'beta-Juliet distribution'
+  implementations:
+  - 'http://catseye.tc/projects/beta-juliet/'
 
-  'Full Moon Fever':
-    type: Programming Language
-    categories:
-    - esolang
-    summary: A language for describing ANSI terminal animations
-    abstract: |-
-      Full Moon Fever is a language for describing ASCII animations.
-      It was used to deliver animated screens on Chris Pressey's BBS
-      (when it was operational in the early 90's) via ANSI terminal control codes.
-      This probably counts as his first proper language, even though
-      it wasn't a full programming language, because it had
-      the usual machinery (syntax, parser, interpreter...)
-      Lives on, in a somewhat distended form, as a sub-language of
-      [[ILLGOL]].
-    commentary: |-
-      I believe the name "Full Moon Fever" came from a mis-remembering
-      of the title of the song "Full Moon Boogie" by Jan Hammer and
-      that other guy.
-    etymology:
-    - song title
-    - error
-    sample: |-
-      GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
-      GO 1 3 CLREOL
-      PAUSE 70
-      GO 76 19
-      PRINT "0"
-      PAUSE 20
-      DO 20
-          LF PRINT " " LF LF PRINT "0" PAUSE 5;
-    authors:
-    - Chris Pressey
-    auspices:
-    - Cat's Eye Technologies
-    inception-date: ca 1993
-    computational-class: known not Turing-complete
-    implemented: true
+'Full Moon Fever':
+  type: Programming Language
+  categories:
+  - esolang
+  summary: A language for describing ANSI terminal animations
+  abstract: |-
+    Full Moon Fever is a language for describing ASCII animations.
+    It was used to deliver animated screens on Chris Pressey's BBS
+    (when it was operational in the early 90's) via ANSI terminal control codes.
+    This probably counts as his first proper language, even though
+    it wasn't a full programming language, because it had
+    the usual machinery (syntax, parser, interpreter...)
+    Lives on, in a somewhat distended form, as a sub-language of
+    [[ILLGOL]].
+  commentary: |-
+    I believe the name "Full Moon Fever" came from a mis-remembering
+    of the title of the song "Full Moon Boogie" by Jan Hammer and
+    that other guy.
+  etymology:
+  - song title
+  - error
+  sample: |-
+    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
+    GO 1 3 CLREOL
+    PAUSE 70
+    GO 76 19
+    PRINT "0"
+    PAUSE 20
+    DO 20
+        LF PRINT " " LF LF PRINT "0" PAUSE 5;
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1993
+  computational-class: known not Turing-complete
+  implemented: true
 
-  'Maentwrog':
-    type: Programming Language
-    categories:
-    - esolang
-    summary: A simple RPN-calculator-based language
-    abstract: |-
-      Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
-      probably counts as Chris Pressey's first proper programming language.
-      It was implemented on his Amiga 500 in 1993, then lost and unearthed
-      multiple times.  It is hardly remarkable, save that it spawned Befunge-93.
-    commentary: |-
-      Maentwrog is the name of a town in Wales, but the usage of its name
-      for this language came via Douglas Adams' "The Meaning of Liff",
-      wherein it is defined thusly:
-      "MAENTWROG (n. Welsh) Celtic word for a computer spelling mistake."
-    etymology:
-    - place name
-    - welsh
-    sample: |-
-      GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
-      GO 1 3 CLREOL
-      PAUSE 70
-      GO 76 19
-      PRINT "0"
-      PAUSE 20
-      DO 20
-          LF PRINT " " LF LF PRINT "0" PAUSE 5;
-    authors:
-    - Chris Pressey
-    auspices:
-    - Cat's Eye Technologies
-    inception-date: ca 1993
-    computational-class: known not Turing-complete
-    implemented: true
-    reference-distribution: http://catseye.tc/projects/maentw/
+'Maentwrog':
+  type: Programming Language
+  categories:
+  - esolang
+  summary: A simple RPN-calculator-based language
+  abstract: |-
+    Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
+    probably counts as Chris Pressey's first proper programming language.
+    It was implemented on his Amiga 500 in 1993, then lost and unearthed
+    multiple times.  It is hardly remarkable, save that it spawned Befunge-93.
+  commentary: |-
+    Maentwrog is the name of a town in Wales, but the usage of its name
+    for this language came via Douglas Adams' "The Meaning of Liff",
+    wherein it is defined thusly:
+    "MAENTWROG (n. Welsh) Celtic word for a computer spelling mistake."
+  etymology:
+  - place name
+  - welsh
+  sample: |-
+    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
+    GO 1 3 CLREOL
+    PAUSE 70
+    GO 76 19
+    PRINT "0"
+    PAUSE 20
+    DO 20
+        LF PRINT " " LF LF PRINT "0" PAUSE 5;
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1993
+  computational-class: known not Turing-complete
+  implemented: true
+  reference-distribution: http://catseye.tc/projects/maentw/
 
-  'Eightebed':
-    type: Programming Language
-    categories:
-    - esolang
-    summary: A simple RPN-calculator-based language
-    abstract: |-
-      Eightebed is a small language with explicit `malloc` and `free`.
-      Through a modicum of static analysis
-      and runtime support, Eightebed is safe: it is not possible to dereference a dangling
-      pointer or otherwise incorrectly-populated memory.
-      
-      Eightebed was designed as a counter-example to Gregor Richards' claim that such
-      a language would either need a garbage collector, or not actually implement `free`.
-      Eightebed has a real `free` and has no garbage collector.
-    etymology:
-    - typo
-    sample: |-
-      type node struct {
-          int value;
-          ptr to node next;
-      };
-      var ptr to node jim;
-      var ptr to node george;
-      {    
-          jim = malloc node;
-          if valid jim {
-              [@jim].value = (1 + 4);
-              george = jim;
-          }
-          if valid george {
-              print [@george].value;
-          }
-          free george;
-          free jim;
-      }
-    authors:
-    - Chris Pressey
-    auspices:
-    - Cat's Eye Technologies
-    inception-date: ca Sep 1, 2010
-    computational-class: believed Turing-complete
-    implemented: true
-    implementations:
-    - 8ebed2c.py
+'Eightebed':
+  type: Programming Language
+  categories:
+  - esolang
+  summary: A simple RPN-calculator-based language
+  abstract: |-
+    Eightebed is a small language with explicit `malloc` and `free`.
+    Through a modicum of static analysis
+    and runtime support, Eightebed is safe: it is not possible to dereference a dangling
+    pointer or otherwise incorrectly-populated memory.
+    
+    Eightebed was designed as a counter-example to Gregor Richards' claim that such
+    a language would either need a garbage collector, or not actually implement `free`.
+    Eightebed has a real `free` and has no garbage collector.
+  etymology:
+  - typo
+  sample: |-
+    type node struct {
+        int value;
+        ptr to node next;
+    };
+    var ptr to node jim;
+    var ptr to node george;
+    {    
+        jim = malloc node;
+        if valid jim {
+            [@jim].value = (1 + 4);
+            george = jim;
+        }
+        if valid george {
+            print [@george].value;
+        }
+        free george;
+        free jim;
+    }
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Sep 1, 2010
+  computational-class: believed Turing-complete
+  implemented: true
+  implementations:
+  - 8ebed2c.py
