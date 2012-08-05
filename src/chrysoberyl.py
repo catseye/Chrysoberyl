@@ -25,4 +25,7 @@ if __name__ == '__main__':
 
     for key in data:
       print key
-
+      type_ = data[key]['type']
+      # type_ should exist in data, and it should be of type "type"
+      assert data[type_]['type'] == 'type', \
+          "%s has bad type '%s'" % (key, type_)
