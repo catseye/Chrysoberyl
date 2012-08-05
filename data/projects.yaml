@@ -1953,7 +1953,6 @@ velo:
     latest: true
     url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
 version: 
-""
   title: The Version Programming Language
   summary: Interpreter for the <b>Version</b> language
   byline: Conceived and implemented by Chris Pressey
