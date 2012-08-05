@@ -1,3 +1,4 @@
+# encoding: UTF-8
 'Hunt the Wumpus':
   type: Game
   genre: Logic
