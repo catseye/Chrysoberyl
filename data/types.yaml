@@ -1,6 +1,8 @@
 # encoding: UTF-8
 type:
   type: type
+'Distribution':
+  type: type
 'Game':
   type: type
 'Game Implementation':
