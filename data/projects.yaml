@@ -15,15 +15,15 @@ alpaca:
   releases: 
   - version: 0.94
     revision: 2007.0502
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/alpaca-0.94-2007.0502.zip
   - version: 0.93
     revision: 0.93
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/alpaca-0.93.zip
   - version: 0.90
     revision: 0.90
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
 animals: 
   title: The Game of Animals
@@ -41,11 +41,11 @@ animals:
   releases: 
   - version: 1.0
     revision: 2004.0919
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/animals-2004.0919.zip
   - version: 1.1
     revision: 2010.0429
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
 apple-befunge: 
   title: Apple Befunge
@@ -75,11 +75,11 @@ apple-befunge:
   releases: 
   - version: 1.1
     revision: 2012.0220
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip
   - version: 1.0
     revision: 2000.0703
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip
 arboretuum: 
   title: The Arboretuum Programming Language
@@ -95,19 +95,19 @@ arboretuum:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.1105
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/arboretuum-1.0-2010.1105.zip
   - version: 1.0
     revision: 2010.0427
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/arboretuum-1.0-2010.0427.zip
   - version: 1.0
     revision: 2008.0304
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
   references: 
   - project: treacle
@@ -129,11 +129,11 @@ bef:
   releases: 
   - version: 2.22
     revision: 2011.0318
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/bef-2.22-2011.0318.zip
   - version: 2.21
     revision: 2004.0920
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bef-2.21.zip
   references: 
   - project: befunge93
@@ -158,11 +158,11 @@ befos:
   releases: 
   - version: 0.9
     revision: 2011.0427
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/befos-0.9-2011.0427.zip
   - version: 0.8
     revision: 2006.0204
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/befos-2006.0204.zip
   references: 
   - project: befunge93
@@ -189,7 +189,7 @@ befunge93:
   releases: 
   - version: 1.0
     revision: 2004.0920
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
   references: 
   - project: bef
@@ -218,27 +218,27 @@ beta-juliet:
   releases: 
   - version: 2.0
     revision: 2012.0714
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip
   - version: 1.0
     revision: 2011.1214
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip
   - version: 1.0
     revision: 2010.0430
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip
   - version: 0.8
     revision: 2004.0423
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/2iota-0.8.zip
   - version: 1.0
     revision: 2001.0201
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
 beturing: 
   title: The Beturing Programming Language
@@ -255,15 +255,15 @@ beturing:
   releases: 
   - version: 1.1
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip
   - version: 1.1
     revision: 2005.0623
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0623.zip
   - version: 1.0
     revision: 2005.0606
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0606.zip
 bhuna: 
   title: The Bhuna Programming Language
@@ -277,39 +277,39 @@ bhuna:
   releases: 
   - version: 0.1
     revision: 2005.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.1.zip
   - version: 0.2
     revision: 2005.0722
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.2.zip
   - version: 0.3
     revision: 2005.0723
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.3.zip
   - version: 0.4
     revision: 2005.0724
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.4.zip
   - version: 0.5
     revision: 2005.0725
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.5.zip
   - version: 0.6
     revision: 2005.0726
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.6.zip
   - version: 0.7
     revision: 2005.0727
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.7.zip
   - version: 0.7
     revision: 2011.0427
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip
   - version: 0.7
     revision: 2012.0616
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
 braktif: 
   title: The Braktif Cellular Automaton
@@ -326,7 +326,7 @@ braktif:
   releases: 
   - version: 1.0
     revision: 2007.0503
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
   references: 
   - project: pibfi
@@ -364,11 +364,11 @@ bubble-escape:
   releases: 
   - version: 1.0
     revision: 2012.0520
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
   - version: 1.0
     revision: 2009.0707
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
 burro: 
   title: The Burro Programming Language
@@ -384,15 +384,15 @@ burro:
   releases: 
   - version: 2.0
     revision: 2011.0525
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/burro-2.0-2011.0525.zip
   - version: 2.0
     revision: 2010.0607
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/burro-2.0-2010.0607.zip
   - version: 1.0
     revision: 2007.1026
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/burro-2007.1026.zip
   references: 
   - project: cabra
@@ -411,15 +411,15 @@ cabra:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0429
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/cabra-1.0-2010.0429.zip
   - version: 1.0
     revision: 2007.1101
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/cabra-2007.1101.zip
   references: 
   - project: burro
@@ -441,7 +441,7 @@ circute:
   releases: 
   - version: 1.0
     revision: 2007.0503
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
 console-virtual: 
   title: 
@@ -468,11 +468,11 @@ console-virtual:
   releases: 
   - version: 2.0
     revision: 2007.1122
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
   - version: 1.0
     revision: 2003.0325
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
 corona-realm-of-magic: 
   title: 'Corona: Realm of Magic'
@@ -494,7 +494,7 @@ corona-realm-of-magic:
   releases: 
   - version: 0.19
     revision: 2000.1204
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
 crone: 
   title: crone
@@ -513,7 +513,7 @@ crone:
   releases: 
   - version: 1.0
     revision: 2004.0301
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
 didigm: 
   title: The Didigm Reflective Cellular Automaton
@@ -531,15 +531,15 @@ didigm:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0429
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/didigm-1.0-2010.0429.zip
   - version: 1.0
     revision: 2007.1117
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/didigm-2007.1117.zip
 dieter: 
   title: The Dieter Programming Language
@@ -554,15 +554,15 @@ dieter:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0426
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/dieter-1.0-2010.0426.zip
   - version: 1.0
     revision: 2009.1003
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
 eightebed: 
   title: The Eightebed Programming Language
@@ -576,11 +576,11 @@ eightebed:
   releases: 
   - version: 1.1
     revision: 2011.0510
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip
   - version: 1.0
     revision: 2010.0901
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip
 emmental: 
   title: The Emmental Programming Language
@@ -597,15 +597,15 @@ emmental:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/emmental-1.0-2010.0721.zip
   - version: 1.0
     revision: 2007.1111
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/emmental-2007.1111.zip
   references: 
   - project: mascarpone
@@ -626,7 +626,7 @@ etcha:
   releases: 
   - version: 1.0
     revision: 2009.1004
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
 falderal: 
   title: 'Falderal: Literate Testing for Languages'
@@ -656,27 +656,27 @@ falderal:
   releases: 
   - version: 0.6
     revision: 2012.0102
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
   - version: 0.5
     revision: 2011.1214
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
   - version: 0.4
     revision: 2011.1010
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
   - version: 0.3
     revision: 2011.1007
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
   - version: 0.2
     revision: 2011.0627
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
   - version: 0.1
     revision: 2011.0517
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
 fbbi: 
   title: Flaming Bovine Befunge Interpreter
@@ -704,11 +704,11 @@ fbbi:
   releases: 
   - version: 1.0
     revision: 2011.1003
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip
   - version: 0.98a
     revision: 2004.0301
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
   references: 
   - project: funge98
@@ -729,7 +729,7 @@ flip:
   releases: 
   - version: 1.0
     revision: 2002.0731
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
 flobnar: 
   title: The Flobnar Programming Language
@@ -751,11 +751,11 @@ flobnar:
   releases: 
   - version: 0.1
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip
   - version: 0.1
     revision: 2011.1028
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip
   references: 
   - project: befunge93
@@ -778,7 +778,7 @@ funge98:
   releases: 
   - version: 1.0
     revision: 2004.0301
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/funge98-2004.0301.zip
   references: 
   - project: fbbi
@@ -797,7 +797,7 @@ granolam:
   releases: 
   - version: 1.0
     revision: 2002.0314
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/granolam-2002.0314.zip
   references: 
   - project: tamerlane
@@ -821,11 +821,11 @@ hev:
   releases: 
   - version: 1.0
     revision: 2007.0617
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/hev-2007.0617.zip
   - version: 1.0
     revision: 2010.0427
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
 hunter: 
   title: The Hunter Programming Language
@@ -848,15 +848,15 @@ hunter:
   releases: 
   - version: 1.0
     revision: 2002.0126
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/hunter-2002.0126.zip
   - version: 1.0
     revision: 2007.1123
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/hunter-2007.1123.zip
   - version: 1.0
     revision: 2011.1031
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
 illberon: 
   title: The Illberon Programming Language
@@ -875,7 +875,7 @@ illberon:
   releases: 
   - version: 1.0
     revision: 2007.0409
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/illberon-2007.0409.zip
   references: 
   - project: illgol
@@ -897,11 +897,11 @@ illgol:
   releases: 
   - version: 1.0
     revision: 2000.0122
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/illgol-2000.0122.zip
   - version: 1.0
     revision: 2001.0706
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/illgol-2001.0706.zip
   references: 
   - project: illgola-2
@@ -923,11 +923,11 @@ illgola-2:
   releases: 
   - version: 1.0
     revision: 2000.0420
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/illgola-2-2000.0420.zip
   - version: 1.0
     revision: 2007.0409
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/illgola-2-2007.0409.zip
   references: 
   - project: illgol
@@ -953,7 +953,7 @@ illgolpp:
   releases: 
   - version: 1.0
     revision: 2007.0409
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/illgolpp-2007.0409.zip
   references: 
   - project: illgol
@@ -972,15 +972,15 @@ iphigeneia:
   releases: 
   - version: 1.0
     revision: 2011.1010
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/iphi-1.0-2010.0721.zip
   - version: 1.0
     revision: 2007.1125
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
 jaccia: 
   title: The Jaccia and Jacciata Cellular Automata
@@ -996,11 +996,11 @@ jaccia:
   releases: 
   - version: 1.0
     revision: 2009.0411
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip
   - version: 1.0
     revision: 2010.0205
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
 kiceberg: 
   title: The Kangaroo Iceberg Programming Language
@@ -1016,15 +1016,15 @@ kiceberg:
   releases: 
   - version: 0.5
     revision: 2011.0509
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip
   - version: 0.5
     revision: 2011.0426
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip
   - version: 0.5
     revision: 2007.0406
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
   references: 
   - project: tamerlane
@@ -1043,11 +1043,11 @@ kitsilano:
   releases: 
   - version: 1.0
     revision: 2011.0524
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
   - version: 1.0
     revision: 2008.0905
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
 larabee: 
   title: The Larabee Programming Language
@@ -1063,15 +1063,15 @@ larabee:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/larabee-1.0-2010.0721.zip
   - version: 1.0
     revision: 2008.0110
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/larabee-2008.0110.zip
 led386: 
   title: A 386-based LED blinker
@@ -1086,7 +1086,7 @@ led386:
   releases: 
   - version: 1.0
     revision: 2004.0227
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/led386-2004.0227.zip
 madison: 
   title: The Madison Proof-Checking Language
@@ -1102,7 +1102,7 @@ madison:
   releases: 
   - version: 0.1
     revision: 2011.1202
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
 maentwrog: 
   title: The Maentwrog Programming Language
@@ -1129,11 +1129,11 @@ maentwrog:
   releases: 
   - version: 1.1
     revision: 2011.0426
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip
   - version: 1.1
     revision: 2007.0930
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
 mascarpone: 
   title: The Mascarpone Programming Language
@@ -1155,19 +1155,19 @@ mascarpone:
   releases: 
   - version: 1.0
     revision: 2012.0312
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
   - version: 1.0
     revision: 2011.1214
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip
   - version: 1.0
     revision: 2007.1208
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
   references: 
   - project: emmental
@@ -1185,7 +1185,7 @@ mdpn:
   releases: 
   - version: 1.0
     revision: 2004.0302
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
 mildred: 
   title: Mildred
@@ -1202,11 +1202,11 @@ mildred:
   releases: 
   - version: 1.0
     revision: 2003.0110
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/mildred-2003.0110.zip
   - version: 1.0
     revision: 2011.0414
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
 muriel: 
   title: The Muriel Programming Language
@@ -1225,7 +1225,7 @@ muriel:
   releases: 
   - version: 1.0
     revision: 2001.0323
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/muriel-2001.0323.zip
   references: 
   - title: Muriel Home Page
@@ -1245,7 +1245,7 @@ n-dcnc:
   releases: 
   - version: 1.0
     revision: 2000.0808
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/n-dcnc-2000.0808.zip
 nhohnhehr: 
   title: The Nhohnhehr Programming Language
@@ -1262,7 +1262,7 @@ nhohnhehr:
   releases: 
   - version: 1.0
     revision: 2011.0510
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
 oozlybub-and-murphy: 
   title: The Oozlybub and Murphy Programming Language
@@ -1276,11 +1276,11 @@ oozlybub-and-murphy:
   releases: 
   - version: 1.1
     revision: 2011.0427
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.1-2011.0427.zip
   - version: 1.0
     revision: 2010.1201
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
 openflax: 
   title: OpenFlax
@@ -1299,7 +1299,7 @@ openflax:
   releases: 
   - version: 1.0
     revision: 2004.0919
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/openflax-2004.0919.zip
   references: 
   - title: Inets
@@ -1330,7 +1330,7 @@ opus-2:
   releases: 
   - version: 0.5
     revision: 2001.0325
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
 pail: 
   title: The Pail Programming Language
@@ -1351,15 +1351,15 @@ pail:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/pail-1.0-2011.1214.zip
   - version: 1.0
     revision: 2011.1007
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pail-1.0-2011.1007.zip
   - version: 1.0
     revision: 2011.0527
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
   references: 
   - project: pixley
@@ -1380,7 +1380,7 @@ petulant:
   releases: 
   - version: 1.0
     revision: 2008.0401
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/petulant-2008.0401.zip
 pibfi: 
   title: Platonic Ideal Brainf*ck Interpreter
@@ -1398,7 +1398,7 @@ pibfi:
   releases: 
   - version: 1.0
     revision: 2003.0505
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
 pixley: 
   title: The Pixley Programming Language
@@ -1419,19 +1419,19 @@ pixley:
   releases: 
   - version: 1.0
     revision: 2009.0501
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip
   - version: 1.1
     revision: 2010.1105
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip
   - version: 2.0
     revision: 2011.1209
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip
   - version: 2.0
     revision: 2012.0219
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip
   references: 
   - project: pail
@@ -1463,15 +1463,15 @@ pl-goto.net:
   releases: 
   - version: 1.1
     revision: 2012.0619
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip
   - version: 1.1
     revision: 2011.1011
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.1011.zip
   - version: 1.1
     revision: 2011.0804
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
 quylthulg: 
   title: The Quylthulg Programming Language
@@ -1492,23 +1492,23 @@ quylthulg:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip
   - version: 1.0
     revision: 2011.1007
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip
   - version: 1.0
     revision: 2011.0517
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip
   - version: 1.0
     revision: 2010.0205
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip
   - version: 1.0
     revision: 2008.1206
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
 redgreen: 
   title: The REDGREEN Cellular Automaton
@@ -1525,19 +1525,19 @@ redgreen:
   releases: 
   - version: 1.1
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip
   - version: 1.1
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip
   - version: 1.1
     revision: 2007.0722
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/redgreen-2007.0722.zip
   - version: 1.0
     revision: 2007.0503
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/redgreen-2007.0503.zip
   references: 
   - project: rube
@@ -1561,11 +1561,11 @@ ribos:
   releases: 
   - version: 1.0
     revision: 2007.0410
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/ribos-2007.0410.zip
   - version: 1.1
     revision: 2010.0430
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
 rube: 
   title: The RUBE Programming Language
@@ -1582,23 +1582,23 @@ rube:
   releases: 
   - version: 1.5
     revision: 2011.0119
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/rube-1.5-2011.0119.zip
   - version: 1.4
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/rube-1.4-2010.0721.zip
   - version: 1.4
     revision: 2010.0428
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/rube-1.4-2010.0428.zip
   - version: 1.3
     revision: 2010.0204
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/rube-1.3-2010.0204.zip
   - version: 1.02
     revision: 1997.0715
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/rube-1997.0715.zip
   references: 
   - project: rube_ii
@@ -1619,7 +1619,7 @@ rube_ii:
   releases: 
   - version: 1.0
     revision: 2001.0201
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/rube_ii-2001.0201.zip
   references: 
   - project: rube
@@ -1636,15 +1636,15 @@ sally:
   releases: 
   - version: 1.0
     revision: 2003.1104
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/sally-2003.1104.zip
   - version: 1.0
     revision: 2010.0428
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/sally-1.0-2010.0428.zip
   - version: 1.0
     revision: 2010.0721
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
 sbeezg: 
   title: The sbeezg Programming Language
@@ -1660,7 +1660,7 @@ sbeezg:
   releases: 
   - version: 1.0
     revision: 2002.0317
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
 shelta: 
   title: The Shelta Programming Language
@@ -1678,11 +1678,11 @@ shelta:
   releases: 
   - version: 1.0
     revision: 1999.1223
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/shelta-1999.1223.zip
   - version: 1.1
     revision: 2009.0307
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
 smetana: 
   title: The SMETANA Programming Language
@@ -1701,7 +1701,7 @@ smetana:
   releases: 
   - version: 1.0
     revision: 2004.0227
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/smetana-2004.0227.zip
 smith: 
   title: The SMITH Programming Language
@@ -1717,15 +1717,15 @@ smith:
   releases: 
   - version: 2.0L
     revision: 2.0L
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/smith-2.0L.zip
   - version: 2.1
     revision: 2007.0722
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/smith-2007.0722.zip
   - version: 2.1
     revision: 2011.0922
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
 squishy2k: 
   title: The Squishy2K Programming Language
@@ -1741,7 +1741,7 @@ squishy2k:
   releases: 
   - version: 1.0
     revision: 2000.1006
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
 strelnokoff: 
   title: The Strelnokoff Programming Language
@@ -1757,7 +1757,7 @@ strelnokoff:
   releases: 
   - version: 1.0
     revision: 2001.0324
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
 super-wumpus-land: 
   title: Super Wumpus Land
@@ -1782,11 +1782,11 @@ super-wumpus-land:
   releases: 
   - version: 1.0
     revision: 2004.0227
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/swl-2004.0227.zip
   - version: 1.0
     revision: 2007.1216
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
 tamerlane: 
   title: The Tamerlane Programming Language
@@ -1801,7 +1801,7 @@ tamerlane:
   releases: 
   - version: 1.0
     revision: 2001.0127
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/tamerlane-2001.0127.zip
   references: 
   - project: kiceberg
@@ -1832,11 +1832,11 @@ thue:
   releases: 
   - version: 1.0
     revision: 2004.0301
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/thue-2004.0301.zip
   - version: 1.5
     revision: 2010.1218
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
 tpis: 
   title: tpis - Total Procedures in Scheme
@@ -1856,7 +1856,7 @@ tpis:
   releases: 
   - version: 1.0
     revision: 2006.0528
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 treacle: 
   title: The Treacle Programming Language
@@ -1872,11 +1872,11 @@ treacle:
   releases: 
   - version: 1.0
     revision: 2008.0412
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/treacle-2008.0412.zip
   - version: 1.0
     revision: 2010.0427
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
   references: 
   - project: arboretuum
@@ -1899,15 +1899,15 @@ unlikely:
   releases: 
   - version: 1.0
     revision: 2012.0316
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip
   - version: 1.0
     revision: 2010.0427
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip
   - version: 1.0
     revision: 2009.0315
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
 urreading: 
   title: You are Reading the Name of this Esolang
@@ -1923,15 +1923,15 @@ urreading:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/urreading-1.0-2010.0721.zip
   - version: 1.0
     revision: 2007.1105
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/urreading-2007.1105.zip
 velo: 
   title: The Velo Programming Language
@@ -1950,7 +1950,7 @@ velo:
   releases: 
   - version: 0.1
     revision: 2012.0714
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
 version: 
   title: The Version Programming Language
@@ -1967,11 +1967,11 @@ version:
   releases: 
   - version: 1.0
     revision: 2001.1211
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/version-2001.1211.zip
   - version: 1.0
     revision: 2010.0429
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/version-1.0-2010.0429.zip
 whothm: 
   title: The Whothm Drawing Language
@@ -1992,15 +1992,15 @@ whothm:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/whothm-1.0-2011.1214.zip
   - version: 1.0
     revision: 2011.0116
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/whothm-1.0-2011.0116.zip
   - version: 1.0
     revision: 2010.0629
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip
 wierd: 
   title: The Wierd Programming Language
@@ -2019,7 +2019,7 @@ wierd:
   releases: 
   - version: 1.0
     revision: 2004.0302
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
 worb: 
   title: The noit o' mnain worb Language
@@ -2049,23 +2049,23 @@ worb:
   releases: 
   - version: 1.1
     revision: 1.1
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/worb-1.1.zip
   - version: 1.1
     revision: 2007.1123
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/worb-2007.1123.zip
   - version: 1.1
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/worb-1.1-2010.0721.zip
   - version: 1.1
     revision: 2011.0428
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/worb-1.1-2011.0428.zip
   - version: 1.1
     revision: 2011.1031
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
 xigxag: 
   title: The Xigxag Automaton
@@ -2082,15 +2082,15 @@ xigxag:
   releases: 
   - version: 1.0
     revision: 2011.1214
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip
   - version: 1.0
     revision: 2010.0721
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip
   - version: 1.0
     revision: 2007.0602
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
 xoomonk: 
   title: The Xoomonk Programming Language
@@ -2104,7 +2104,7 @@ xoomonk:
   releases: 
   - version: 0.1
     revision: 2011.0807
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip
 yoob: 
   title: yoob
@@ -2137,11 +2137,11 @@ yoob:
   releases: 
   - version: 0.3
     revision: 2011.0920
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
   - version: 0.2
     revision: 2011.0624
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
 ypsilax: 
   title: The Ypsilax Programming Language
@@ -2173,23 +2173,23 @@ ypsilax:
   releases: 
   - version: 0.9
     revision: 0.9
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/ypsilax-0.9.zip
   - version: 0.9
     revision: 2007.1202
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/ypsilax-2007.1202.zip
   - version: 1.0
     revision: 2010.0430
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip
   - version: 1.1
     revision: 2011.0428
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip
   - version: 1.1
     revision: 2011.1130
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
 yucca: 
   title: yucca
@@ -2214,7 +2214,7 @@ yucca:
   releases: 
   - version: 1.0
     revision: 2012.0610
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
 zowie: 
   title: The ZOWIE Programming Language
@@ -2235,15 +2235,15 @@ zowie:
   releases: 
   - version: 1.0
     revision: 2012.0325
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/zowie-1.0-2012.0325.zip
   - version: 1.0
     revision: 2011.1214
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/zowie-1.0-2011.1214.zip
   - version: 1.0
     revision: 2009.1229
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip
 zzrk: 
   title: Zzrk
@@ -2262,9 +2262,9 @@ zzrk:
   releases: 
   - version: 1.0
     revision: 2012.0616
-    latest: yes
+    latest: true
     url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip
   - version: 1.0
     revision: 2007.0506
-    latest: no
+    latest: false
     url: http://catseye.tc/distfiles/zzrk-2007.0506.zip
