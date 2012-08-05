@@ -6,6 +6,14 @@ import sys
 import re
 
 for line in sys.stdin:
+    match = re.match(r'^(\s*\-?\s*version:\s*)([0123456789.]*?)$', line)
+    if match:
+        sys.stdout.write(match.group(1) + '"' + match.group(2) + '"\n')
+        continue
+    match = re.match(r'^(\s*\-?\s*revision:\s*)([0123456789.]*?)$', line)
+    if match:
+        sys.stdout.write(match.group(1) + '"' + match.group(2) + '"\n')
+        continue
     match = re.match(r'^(.*?): yes$', line)
     if match:
         sys.stdout.write(match.group(1) + ": true\n")
