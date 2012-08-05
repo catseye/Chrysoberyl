@@ -1,0 +1,2269 @@
+# A naive dump from Cat's Eye Technologies' website's project database
+alpaca:
+  title: The ALPACA Meta-Language
+  summary: Compiler for the <b>ALPACA</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: ALPACA
+  esowiki: ALPACA
+  keywords:
+  - bsdl
+  - ca
+  - lang
+  - meta
+  - perl
+  releases:
+  - version: 0.94
+    revision: 2007.0502
+    latest: yes
+    url: http://catseye.tc/distfiles/alpaca-0.94-2007.0502.zip
+  - version: 0.93
+    revision: 0.93
+    latest: no
+    url: http://catseye.tc/distfiles/alpaca-0.93.zip
+  - version: 0.90
+    revision: 0.90
+    latest: no
+    url: http://catseye.tc/distfiles/alpaca-0.90.zip
+animals:
+  title: The Game of Animals
+  summary: Classic game of <i>Animals</i>
+  byline: Implemented in Erlang by Chris Pressey
+  abstract: |-
+    <p>Animals is a classic game that demonstrates an <dfn>expert system</dfn>.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - erl
+  - game
+  - vintage
+  releases:
+  - version: 1.0
+    revision: 2004.0919
+    latest: no
+    url: http://catseye.tc/distfiles/animals-2004.0919.zip
+  - version: 1.1
+    revision: 2010.0429
+    latest: yes
+    url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
+apple-befunge:
+  title: Apple Befunge
+  summary: Editor and interpreter and docs for <b>Apple Befunge</b>
+  byline: Conceived and implemented by Chris Pressey
+  abstract: |-
+    <p>Apple Befunge is a variant of Befunge for the Apple ][+, implemented
+        in Applesoft BASIC.
+        Resembles Befunge-93, with some extra 96-esque instructions, and some
+        Apple-specific instructions.  Active development of this language
+        was abandoned years ago, but the sources are retained here for historical preservation.</p>
+  develop: |-
+    Although Apple Befunge is no longer being actively developed, its sources are stored in a 
+         <a class="external" href="https://bitbucket.org/catseye/apple-befunge/">Mercurial repository</a> hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
+  language: None
+  esowiki: None
+  keywords:
+  - 2d
+  - apple
+  - basic
+  - bef
+  - eso
+  - lang
+  - pd
+  - vintage
+  releases:
+  - version: 1.1
+    revision: 2012.0220
+    latest: yes
+    url: http://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip
+  - version: 1.0
+    revision: 2000.0703
+    latest: no
+    url: http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip
+arboretuum:
+  title: The Arboretuum Programming Language
+  summary: Interpreter for the <b>Arboretuum</b> forest-rewriter
+  byline: Designed and implemented by Chris Pressey
+  language: Arboretuum
+  esowiki: None
+  keywords:
+  - bsdl
+  - scheme
+  - lang
+  - rew
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.1105
+    latest: no
+    url: http://catseye.tc/distfiles/arboretuum-1.0-2010.1105.zip
+  - version: 1.0
+    revision: 2010.0427
+    latest: no
+    url: http://catseye.tc/distfiles/arboretuum-1.0-2010.0427.zip
+  - version: 1.0
+    revision: 2008.0304
+    latest: no
+    url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
+  references:
+  - project: treacle
+bef:
+  title: 'bef: Reference implementation of Befunge-93'
+  summary: Reference interpreter etc for <b>Befunge-93</b>
+  byline: by Chris Pressey
+  abstract: |-
+    <p/>
+  language: None
+  esowiki: None
+  keywords:
+  - 2d
+  - bef
+  - bsdl
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 2.22
+    revision: 2011.0318
+    latest: yes
+    url: http://catseye.tc/distfiles/bef-2.22-2011.0318.zip
+  - version: 2.21
+    revision: 2004.0920
+    latest: no
+    url: http://catseye.tc/distfiles/bef-2.21.zip
+  references:
+  - project: befunge93
+  - project: flobnar
+befos:
+  title: 'BefOS: An Operating System for the Linearly Challenged'
+  summary: <b>Befunge</b>-themed miniature operating system
+  byline: by Chris Pressey
+  abstract: |-
+    <p>This is a project I began in the late 90's, to write an &quot;operating system&quot;
+    in the theme of Befunge.  It never got very far, but it does boot and do some
+    cute things, so I have modernized it (from Turbo Assembler to NASM) and
+    made it available here.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - 2d
+  - asm
+  - bef
+  - eso
+  - os
+  releases:
+  - version: 0.9
+    revision: 2011.0427
+    latest: yes
+    url: http://catseye.tc/distfiles/befos-0.9-2011.0427.zip
+  - version: 0.8
+    revision: 2006.0204
+    latest: no
+    url: http://catseye.tc/distfiles/befos-2006.0204.zip
+  references:
+  - project: befunge93
+befunge93:
+  title: The Befunge-93 Programming Language
+  summary: Documentation for <b>Befunge-93</b>
+  byline: Conceived and first implemented by Chris Pressey
+  abstract: |-
+    <p>Please note that this project contains only the
+    documentation for, and example programs in, the Befunge-93 programming
+    language.  Implementations and other tools can be found at the links
+    below.</p>
+  develop: |-
+    You can experiment with Befunge-93 online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: None
+  esowiki: Befunge-93
+  keywords:
+  - 2d
+  - bef
+  - eso
+  - lang
+  - spec
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2004.0920
+    latest: yes
+    url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
+  references:
+  - project: bef
+  - project: funge98
+  - project: flobnar
+  - title: Befunge Jargon File Entry
+    desc: Citation in The New Hacker's Dictionary
+    url: http://jargon.watson-net.com/jargon.asp?w=Befunge
+beta-juliet:
+  title: The beta-Juliet Programming Language
+  summary: Interpreter for the <b>beta-Juliet</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    beta-Juliet
+        <a class="external" href="https://bitbucket.org/catseye/beta-juliet/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/beta-Juliet">git mirror on githib</a>.
+  language: beta-Juliet and Portia
+  esowiki: beta-Juliet
+  keywords:
+  - bsdl
+  - c
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 2.0
+    revision: 2012.0714
+    latest: yes
+    url: http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip
+  - version: 1.0
+    revision: 2011.1214
+    latest: no
+    url: http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2010.0430
+    latest: no
+    url: http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip
+  - version: 0.8
+    revision: 2004.0423
+    latest: no
+    url: http://catseye.tc/distfiles/2iota-0.8.zip
+  - version: 1.0
+    revision: 2001.0201
+    latest: no
+    url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
+beturing:
+  title: The Beturing Programming Language
+  summary: Interpreter for the <b>Beturing</b> machine
+  byline: Conceived and implemented by Chris Pressey
+  language: Beturing
+  esowiki: Beturing
+  keywords:
+  - 2d
+  - bsdl
+  - eso
+  - lang
+  - lua
+  releases:
+  - version: 1.1
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip
+  - version: 1.1
+    revision: 2005.0623
+    latest: no
+    url: http://catseye.tc/distfiles/beturing-2005.0623.zip
+  - version: 1.0
+    revision: 2005.0606
+    latest: no
+    url: http://catseye.tc/distfiles/beturing-2005.0606.zip
+bhuna:
+  title: The Bhuna Programming Language
+  summary: Interpreter and docs for the <b>Bhuna</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Bhuna
+  esowiki: None
+  keywords:
+  - c
+  - lang
+  releases:
+  - version: 0.1
+    revision: 2005.0721
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.1.zip
+  - version: 0.2
+    revision: 2005.0722
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.2.zip
+  - version: 0.3
+    revision: 2005.0723
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.3.zip
+  - version: 0.4
+    revision: 2005.0724
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.4.zip
+  - version: 0.5
+    revision: 2005.0725
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.5.zip
+  - version: 0.6
+    revision: 2005.0726
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.6.zip
+  - version: 0.7
+    revision: 2005.0727
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.7.zip
+  - version: 0.7
+    revision: 2011.0427
+    latest: no
+    url: http://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip
+  - version: 0.7
+    revision: 2012.0616
+    latest: yes
+    url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
+braktif:
+  title: The Braktif Cellular Automaton
+  summary: The <b>Braktif</b> cellular automaton
+  byline: Formulated by Chris Pressey
+  language: Braktif
+  esowiki: Braktif
+  keywords:
+  - 2d
+  - bsdl
+  - ca
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2007.0503
+    latest: yes
+    url: http://catseye.tc/distfiles/braktif-2007.0503.zip
+  references:
+  - project: pibfi
+bubble-escape:
+  title: Bubble Escape
+  summary: The tiny C64 video game <i>Bubble Escape 2K</i>
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p>A video game I wrote for the Commodore 64 where you must
+        guide a bubble through a multi-screen maze.  Was originally written
+        in BASIC by a young me in the 80's.  Was rewritten in 6502 assembly
+        language by a middle-aged me in the late oughts.  Was pared down so
+        that (crunched) it fit into 2K, and was submitted to the
+        <em>Mini Game Competition 2009</em>
+        where (surprisingly, to me!) it got first place in its class.</p>
+        <p>This distribution contains the original version, binaries and
+        source code for the 2K version, and an 8K cartridge version.</p>
+  develop: |-
+    Bubble Escape is hosted in a
+         <a class="external" href="https://bitbucket.org/catseye/bubble-escape/">Mercurial repo on Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/Bubble-Escape">git mirror on githib</a>.
+  develop: |-
+    You can now play Bubble Escape 2K online
+        in a Java applet (JaC64) in our
+        <a href="http://catseye.tc/gallery/c64/bubble-escape-2k/">Commodore 64 Gallery</a>.
+        Try it!  Enjoy!
+  language: None
+  esowiki: None
+  keywords:
+  - basic
+  - bsdl
+  - game
+  - cbm
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2012.0520
+    latest: yes
+    url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
+  - version: 1.0
+    revision: 2009.0707
+    latest: no
+    url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
+burro:
+  title: The Burro Programming Language
+  summary: Interpreter and docs for the <b>Burro</b> language
+  byline: Designed and implemented by Chris Pressey
+  language: Burro
+  esowiki: None
+  keywords:
+  - eso
+  - hs
+  - lang
+  - theory
+  releases:
+  - version: 2.0
+    revision: 2011.0525
+    latest: yes
+    url: http://catseye.tc/distfiles/burro-2.0-2011.0525.zip
+  - version: 2.0
+    revision: 2010.0607
+    latest: no
+    url: http://catseye.tc/distfiles/burro-2.0-2010.0607.zip
+  - version: 1.0
+    revision: 2007.1026
+    latest: no
+    url: http://catseye.tc/distfiles/burro-2007.1026.zip
+  references:
+  - project: cabra
+cabra:
+  title: The Cabra Programming Language
+  summary: Interpreter and docs for the <b>Cabra</b> language
+  byline: Designed and implemented by Chris Pressey
+  language: Cabra
+  esowiki: None
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  - theory
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0429
+    latest: no
+    url: http://catseye.tc/distfiles/cabra-1.0-2010.0429.zip
+  - version: 1.0
+    revision: 2007.1101
+    latest: no
+    url: http://catseye.tc/distfiles/cabra-2007.1101.zip
+  references:
+  - project: burro
+circute:
+  title: The Circute Cellular Automaton
+  summary: The <b>Circute</b> cellular automaton
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    You can experiment with Circute online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: Circute
+  esowiki: Circute
+  keywords:
+  - 2d
+  - bsdl
+  - ca
+  - eso
+  - lang
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2007.0503
+    latest: yes
+    url: http://catseye.tc/distfiles/circute-2007.0503.zip
+console-virtual:
+  title: 
+    
+  
+  summary: '<code>Console::Virtual</code> Perl module'
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p><code>Console::Virtual</code> is a simple, lightweight abstraction layer which allows Perl code to interact
+        with the user through a console, which is emulated on whatever user interface is really available.</p>
+  develop: |-
+    <code>Console::Virtual</code>
+         <a class="external" href="https://bitbucket.org/catseye/console-virtual/">development</a>,
+         <a class="external" href="https://bitbucket.org/catseye/console-virtual/wiki">wiki</a>, and
+         <a class="external" href="https://bitbucket.org/catseye/console-virtual/issues">issue tracker</a> are hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - lib
+  - perl
+  - ui
+  releases:
+  - version: 2.0
+    revision: 2007.1122
+    latest: yes
+    url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
+  - version: 1.0
+    revision: 2003.0325
+    latest: no
+    url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
+corona-realm-of-magic:
+  title: 'Corona: Realm of Magic'
+  summary: 'Elaborate roguelike <i>Corona: Realm of Magic</i> in Perl'
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p>Corona: Realm of Magic is an elaborate roguelike coded in Perl.  Development of this game
+        was abandoned years ago, but the sources are retained here for historical preservation.</p>
+  develop: |-
+    Although Corona: Realm of Magic is no longer being actively developed, its sources are stored in a 
+         <a class="external" href="https://bitbucket.org/catseye/corona-realm-of-magic/">Mercurial repository</a> hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - game
+  - perl
+  releases:
+  - version: 0.19
+    revision: 2000.1204
+    latest: yes
+    url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
+crone:
+  title: crone
+  summary: Simple <tt>cron</tt>-like scheduler
+  byline: 
+  abstract: |-
+    <p>A simple <code>cron</code>-like facility written in Erlang.  Unlike most <code>cron</code>s, it does
+        not periodically activate and run whatever tasks are due to run; instead it calculates the amount of time between
+        now and when the next is due to run and sleeps exactly that long.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - erl
+  - util
+  releases:
+  - version: 1.0
+    revision: 2004.0301
+    latest: yes
+    url: http://catseye.tc/distfiles/crone-2004.0301.zip
+didigm:
+  title: The Didigm Reflective Cellular Automaton
+  summary: Docs on the <b>Didigm</b> reflective CA
+  byline: Conceived by Chris Pressey
+  language: Didigm
+  esowiki: Didigm
+  keywords:
+  - 2d
+  - ca
+  - eso
+  - lang
+  - refl
+  - spec
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0429
+    latest: no
+    url: http://catseye.tc/distfiles/didigm-1.0-2010.0429.zip
+  - version: 1.0
+    revision: 2007.1117
+    latest: no
+    url: http://catseye.tc/distfiles/didigm-2007.1117.zip
+dieter:
+  title: The Dieter Programming Language
+  summary: Docs and type checker for the <b>Dieter</b> language
+  byline: Conceived and partially implemented by Chris Pressey
+  language: Dieter
+  esowiki: None
+  keywords:
+  - py
+  - lang
+  - oo
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0426
+    latest: no
+    url: http://catseye.tc/distfiles/dieter-1.0-2010.0426.zip
+  - version: 1.0
+    revision: 2009.1003
+    latest: no
+    url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
+eightebed:
+  title: The Eightebed Programming Language
+  summary: Docs and implementation of the <b>Eightebed</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Eightebed
+  esowiki: None
+  keywords:
+  - py
+  - lang
+  releases:
+  - version: 1.1
+    revision: 2011.0510
+    latest: yes
+    url: http://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip
+  - version: 1.0
+    revision: 2010.0901
+    latest: no
+    url: http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip
+emmental:
+  title: The Emmental Programming Language
+  summary: Interpeter and docs for the <b>Emmental</b> language
+  byline: Designed and implemented by Chris Pressey
+  language: Emmental
+  esowiki: Emmental
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  - refl
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/emmental-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2007.1111
+    latest: no
+    url: http://catseye.tc/distfiles/emmental-2007.1111.zip
+  references:
+  - project: mascarpone
+etcha:
+  title: The Etcha Programming Language
+  summary: Spec and Interpreter for the <b>Etcha</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    You can experiment with Etcha online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: Etcha
+  esowiki: Etcha
+  keywords:
+  - 2d
+  - eso
+  - java
+  - lang
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2009.1004
+    latest: yes
+    url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
+falderal:
+  title: 'Falderal: Literate Testing for Languages'
+  summary: Literate Testing framework for Literate Haskell
+  byline: 
+  abstract: |-
+    <p>Falderal is a file format for literate test suites.  It is particularly
+    suited for documenting programming languages (or other specifications of
+    ways to transform text) and testing their implementation(s) in a
+    language-agnostic fashion.  The dumbed-down sound-bite version: &quot;doctests
+    for DSLs&quot;.  <code>Test.Falderal</code> is the reference implementation, in Haskell,
+    of tools for formatting and running tests written in Falderal.
+    </p>
+  develop: |-
+    Falderal
+         <a class="external" href="https://bitbucket.org/catseye/falderal/">development</a>,
+         <a class="external" href="https://bitbucket.org/catseye/falderal/wiki">wiki</a>, and
+         <a class="external" href="https://bitbucket.org/catseye/falderal/issues">issue tracker</a> are hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/Falderal">git mirror on githib</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - hs
+  - util
+  releases:
+  - version: 0.6
+    revision: 2012.0102
+    latest: yes
+    url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
+  - version: 0.5
+    revision: 2011.1214
+    latest: no
+    url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
+  - version: 0.4
+    revision: 2011.1010
+    latest: no
+    url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
+  - version: 0.3
+    revision: 2011.1007
+    latest: no
+    url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
+  - version: 0.2
+    revision: 2011.0627
+    latest: no
+    url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
+  - version: 0.1
+    revision: 2011.0517
+    latest: no
+    url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
+fbbi:
+  title: Flaming Bovine Befunge Interpreter
+  summary: Interpreter for the <b>Befunge-98</b> language
+  byline: Implemented by Chris Pressey
+  abstract: |-
+    <p>The <dfn>Flaming Bovine Befunge Interpreter</dfn> is
+        Cat's Eye Technologies' implementation of Befunge-98, in ANSI C.
+        It was developed concurrently with the writing of the Funge-98
+        specification, and, until recently, suffered from several major bugs.</p>
+  develop: |-
+    FBBI
+         <a class="external" href="https://bitbucket.org/catseye/fbbi/">development</a> ishosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/FBBI">git mirror on githib</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - 2d
+  - bef
+  - bsdl
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2011.1003
+    latest: yes
+    url: http://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip
+  - version: 0.98a
+    revision: 2004.0301
+    latest: no
+    url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
+  references:
+  - project: funge98
+flip:
+  title: The Game of FLIP
+  summary: Venerable and ancient game of <i>FLIP</i>
+  byline: Implemented in Erlang by Chris Pressey
+  abstract: |-
+    <p>A classic game that demonstrates simple
+    &quot;artificial intelligence&quot;.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - erl
+  - game
+  - vintage
+  releases:
+  - version: 1.0
+    revision: 2002.0731
+    latest: yes
+    url: http://catseye.tc/distfiles/flip-2002.0731.zip
+flobnar:
+  title: The Flobnar Programming Language
+  summary: Docs, tests, and interpreter for the <b>Flobnar</b> language
+  byline: Designed and implemented by Chris Pressey
+  develop: |-
+    Flobnar
+         <a class="external" href="https://bitbucket.org/catseye/flobnar/">development</a>
+         is hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="http://github.com/catseye/Flobnar">mirror on github</a>.
+  language: Flobnar
+  esowiki: Flobnar
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  releases:
+  - version: 0.1
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip
+  - version: 0.1
+    revision: 2011.1028
+    latest: no
+    url: http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip
+  references:
+  - project: befunge93
+funge98:
+  title: The Funge-98 Programming Language Family
+  summary: Documentation for <b>Funge-98</b>
+  byline: Conceived by the Befunge Mailing List Working Group
+  abstract: |-
+    <p>Please note that this project contains only
+    the documentation and ancillary materials for Funge-98.
+    Implementations and other tools can be found in the links below.</p>
+  language: None
+  esowiki: Funge-98
+  keywords:
+  - 2d
+  - bef
+  - eso
+  - lang
+  - spec
+  releases:
+  - version: 1.0
+    revision: 2004.0301
+    latest: yes
+    url: http://catseye.tc/distfiles/funge98-2004.0301.zip
+  references:
+  - project: fbbi
+  - project: befunge93
+granolam:
+  title: The GraNoLa/M Programming Language
+  summary: Interpreter and docs for <b>GraNoLa/M</b>
+  byline: Conceived and implemented by Chris Pressey
+  language: GraNoLa/M
+  esowiki: GraNoLa/M
+  keywords:
+  - erl
+  - eso
+  - lang
+  - pd
+  releases:
+  - version: 1.0
+    revision: 2002.0314
+    latest: yes
+    url: http://catseye.tc/distfiles/granolam-2002.0314.zip
+  references:
+  - project: tamerlane
+  - project: kiceberg
+hev:
+  title: The Hev Programming Language
+  summary: Docs and interpreter for the <b>Hev</b> language
+  byline: Designed and implemented by Chris Pressey
+  develop: |-
+    The Hev project is hosted in a
+         <a class="external" href="https://bitbucket.org/catseye/hev/">Mercurial repo on Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/Hev">git mirror on githib</a>.
+  language: Hev
+  esowiki: Hev
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  - rew
+  releases:
+  - version: 1.0
+    revision: 2007.0617
+    latest: no
+    url: http://catseye.tc/distfiles/hev-2007.0617.zip
+  - version: 1.0
+    revision: 2010.0427
+    latest: yes
+    url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
+hunter:
+  title: The Hunter Programming Language
+  summary: Interpreter for the <b>Hunter</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    The Hunter implementation requires
+        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
+        to run.
+        However, an appropriate version of this library (v2007.1122) is included in the Hunter distribution
+        as of v1.0-2011.1031, so there's nothing special you need to do to make this happen.
+  language: Hunter
+  esowiki: Hunter
+  keywords:
+  - 2d
+  - bsdl
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 1.0
+    revision: 2002.0126
+    latest: no
+    url: http://catseye.tc/distfiles/hunter-2002.0126.zip
+  - version: 1.0
+    revision: 2007.1123
+    latest: no
+    url: http://catseye.tc/distfiles/hunter-2007.1123.zip
+  - version: 1.0
+    revision: 2011.1031
+    latest: yes
+    url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
+illberon:
+  title: The Illberon Programming Language
+  summary: Preprocessor and doc for <b>Illberon</b>
+  byline: Once again, Chris Pressey must be blamed
+  abstract: |-
+    <p>This is a re-creation of the original Illberon (ILLGOL 3) distribution.
+    Sources and executable appear to be missing (at least, I haven't
+    found them yet,) but the release notes and preprocessor are intact.</p>
+  language: None
+  esowiki: ILLGOL
+  keywords:
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2007.0409
+    latest: yes
+    url: http://catseye.tc/distfiles/illberon-2007.0409.zip
+  references:
+  - project: illgol
+  - project: illgola-2
+  - project: illgolpp
+illgol:
+  title: The ILLGOL Programming Language
+  summary: Compiler and doc for the original <b>ILLGOL</b>
+  byline: You can blame Chris Pressey
+  abstract: |-
+    <p>This is a re-creation of the original ILLGOL distribution, including sources
+    which were not included with the original distribution.</p>
+  language: None
+  esowiki: ILLGOL
+  keywords:
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2000.0122
+    latest: yes
+    url: http://catseye.tc/distfiles/illgol-2000.0122.zip
+  - version: 1.0
+    revision: 2001.0706
+    latest: no
+    url: http://catseye.tc/distfiles/illgol-2001.0706.zip
+  references:
+  - project: illgola-2
+  - project: illberon
+  - project: illgolpp
+illgola-2:
+  title: The Illgola-2 Programming Language
+  summary: Compiler and doc for <b>Illgola-2</b>
+  byline: You can blame Chris Pressey again
+  abstract: |-
+    <p>This is a re-creation of the original Illgola-2 distribution, including sources
+    which were not included with the original distribution.</p>
+  language: None
+  esowiki: ILLGOL
+  keywords:
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2000.0420
+    latest: no
+    url: http://catseye.tc/distfiles/illgola-2-2000.0420.zip
+  - version: 1.0
+    revision: 2007.0409
+    latest: yes
+    url: http://catseye.tc/distfiles/illgola-2-2007.0409.zip
+  references:
+  - project: illgol
+  - project: illberon
+  - project: illgolpp
+illgolpp:
+  title: Open Sores Illgol##
+  summary: Sources and doc for <b>Illgol##</b>
+  byline: Yet again, blame Chris Pressey for this mess
+  abstract: |-
+    <p>This is a reshuffling of the Open Sores Illgol## distribution, now that its
+    predecessors (ILLGOL, Illgola-2, and Illberon) have been split into their
+    own distributions.  (Of course, you will heed the readme in this distibution
+    and not ever think of using those DISCONTINUED, OBSOLETE, ANCIENT
+    LEGACY PRODUCTS since Open Sores Illgol## is far superior in every
+    conceivable dimension!)</p>
+  language: None
+  esowiki: ILLGOL
+  keywords:
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2007.0409
+    latest: yes
+    url: http://catseye.tc/distfiles/illgolpp-2007.0409.zip
+  references:
+  - project: illgol
+  - project: illgola-2
+  - project: illberon
+iphigeneia:
+  title: The Iphigeneia Programming Language
+  summary: Docs and interpreter for <b>Iphigeneia</b>
+  byline: Conceived and implemented by Chris Pressey
+  language: Iphigeneia
+  esowiki: None
+  keywords:
+  - bsdl
+  - hs
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2011.1010
+    latest: yes
+    url: http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/iphi-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2007.1125
+    latest: no
+    url: http://catseye.tc/distfiles/iphi-2007.1125.zip
+jaccia:
+  title: The Jaccia and Jacciata Cellular Automata
+  summary: <span class="summary">The <b>Jaccia</b> and <b>Jacciata</b> cellular automata</span>
+  byline: Formulated by Chris Pressey
+  language: Jaccia and Jacciata
+  esowiki: None
+  keywords:
+  - 2d
+  - ca
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2009.0411
+    latest: no
+    url: http://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip
+  - version: 1.0
+    revision: 2010.0205
+    latest: yes
+    url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
+kiceberg:
+  title: The Kangaroo Iceberg Programming Language
+  summary: Interpreter for <b>Kangaroo Iceberg</b>
+  byline: Conceived and implemented by Chris Pressey
+  language: Kangaroo Iceberg
+  esowiki: None
+  keywords:
+  - bsdl
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 0.5
+    revision: 2011.0509
+    latest: yes
+    url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip
+  - version: 0.5
+    revision: 2011.0426
+    latest: no
+    url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip
+  - version: 0.5
+    revision: 2007.0406
+    latest: no
+    url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
+  references:
+  - project: tamerlane
+  - project: granolam
+kitsilano:
+  title: The Kitsilano Oscillator Circuit
+  summary: 2-NPN-transistor, 1-capacitor oscillator
+  byline: Designed by Chris Pressey
+  abstract: |-
+    <p>An oscillator circuit that contains two NPN transistors and
+        a single capacitor.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - elec
+  releases:
+  - version: 1.0
+    revision: 2011.0524
+    latest: yes
+    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
+  - version: 1.0
+    revision: 2008.0905
+    latest: no
+    url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
+larabee:
+  title: The Larabee Programming Language
+  summary: Documentation and interpreter for <b>Larabee</b>
+  byline: Conceived and implemented by Chris Pressey
+  language: Larabee
+  esowiki: Larabee
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - scheme
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/larabee-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2008.0110
+    latest: no
+    url: http://catseye.tc/distfiles/larabee-2008.0110.zip
+led386:
+  title: A 386-based LED blinker
+  summary: LED blinker based on LM386 audio amp IC
+  byline: Designed and constructed by Chris Pressey
+  abstract: |-
+    <p>The LM386 audio amplifier IC, that is...</p>
+  language: None
+  esowiki: None
+  keywords:
+  - elec
+  releases:
+  - version: 1.0
+    revision: 2004.0227
+    latest: yes
+    url: http://catseye.tc/distfiles/led386-2004.0227.zip
+madison:
+  title: The Madison Proof-Checking Language
+  summary: Specification and tests for the <b>Madison</b> proof checker
+  byline: Conceived by Chris Pressey
+  language: Madison
+  esowiki: None
+  keywords:
+  - lang
+  - rew
+  - spec
+  - theory
+  releases:
+  - version: 0.1
+    revision: 2011.1202
+    latest: yes
+    url: http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
+maentwrog:
+  title: The Maentwrog Programming Language
+  summary: Interpreter for the <b>Maentwrog</b> language
+  byline: By Chris Pressey
+  abstract: |-
+    <p>This oddity was the predecessor to Befunge-93.  There are no extant
+    example programs from the time — I tried writing the Sieve of Eratosthenes in it once,
+    but never got it to work, probably because <code>==</code> was not
+    implemented correctly.  Recently, example programs and a description of the
+    language (which has become the provisional spec) have been provided by
+    Marinus — thanks Marinus!</p>
+        <p>Also included in this distribution, just for fun, are some other
+    contemporaneous C programs of mine: an RPN
+    calculator which was the predecessor of Maentwrog, a simple
+    recursive-descent expression parser, and a simple cellular automata
+    parser (a distant ancestor of ALPACA, perhaps?)</p>
+  language: None
+  esowiki: Maentwrog
+  keywords:
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.1
+    revision: 2011.0426
+    latest: yes
+    url: http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip
+  - version: 1.1
+    revision: 2007.0930
+    latest: no
+    url: http://catseye.tc/distfiles/maentw-2007.0930.zip
+mascarpone:
+  title: The Mascarpone Programming Language
+  summary: Reference interpreter for <b>Mascarpone</b>
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    Mascarpone
+        <a class="external" href="https://bitbucket.org/catseye/mascarpone/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/Mascarpone">git mirror on githib</a>.
+  language: Mascarpone
+  esowiki: Mascarpone
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  - refl
+  releases:
+  - version: 1.0
+    revision: 2012.0312
+    latest: yes
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
+  - version: 1.0
+    revision: 2011.1214
+    latest: no
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2007.1208
+    latest: no
+    url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
+  references:
+  - project: emmental
+mdpn:
+  title: The MDPN Meta-Language
+  summary: <b>M</b>ulti-<b>D</b>irectional <b>P</b>attern <b>N</b>otation
+  byline: Conceived by Chris Pressey
+  language: MDPN
+  esowiki: MDPN
+  keywords:
+  - 2d
+  - lang
+  - meta
+  - spec
+  releases:
+  - version: 1.0
+    revision: 2004.0302
+    latest: yes
+    url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
+mildred:
+  title: Mildred
+  summary: Homebrew Z80-based computer
+  byline: Designed and constructed by Chris Pressey
+  abstract: |-
+    <p>Mildred is a 4MHz Z80-based homebrew computer
+    with 40K of memory (8K EEPROM, 32K SRAM.)</p>
+  language: None
+  esowiki: None
+  keywords:
+  - elec
+  - z80
+  releases:
+  - version: 1.0
+    revision: 2003.0110
+    latest: no
+    url: http://catseye.tc/distfiles/mildred-2003.0110.zip
+  - version: 1.0
+    revision: 2011.0414
+    latest: yes
+    url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
+muriel:
+  title: The Muriel Programming Language
+  summary: Interpreter for the <b>Muriel</b> language
+  byline: Conceived by Matthew Westcott; this implementation by Chris Pressey
+  abstract: |-
+    <p>This is the home of <code>muriel.pl</code>, an interpreter for
+    the Muriel language, written in Perl.</p>
+  language: None
+  esowiki: Muriel
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 1.0
+    revision: 2001.0323
+    latest: yes
+    url: http://catseye.tc/distfiles/muriel-2001.0323.zip
+  references:
+  - title: Muriel Home Page
+    desc: Headquarters of the language itself
+    url: http://demo.raww.net/muriel/
+n-dcnc:
+  title: The 'N-DCNC Programming Language
+  summary: Docs and compilers for <b>'N-DCNC</b>
+  byline: Conceived and implemented by Chris Pressey
+  language: \'N-DCNC
+  esowiki: \'N-DCNC
+  keywords:
+  - bef
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 1.0
+    revision: 2000.0808
+    latest: yes
+    url: http://catseye.tc/distfiles/n-dcnc-2000.0808.zip
+nhohnhehr:
+  title: The Nhohnhehr Programming Language
+  summary: Docs and Interpreter for the <b>Nhohnhehr</b> language
+  byline: Designed by Chris Pressey; implemented by Marinus
+  language: Nhohnhehr
+  esowiki: Nhohnhehr
+  keywords:
+  - 2d
+  - eso
+  - lang
+  - pd
+  - py
+  releases:
+  - version: 1.0
+    revision: 2011.0510
+    latest: yes
+    url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
+oozlybub-and-murphy:
+  title: The Oozlybub and Murphy Programming Language
+  summary: Specification of <b>Oozlybub and Murphy</b>
+  byline: Conceived by Chris Pressey
+  language: Oozlybub and Murphy
+  esowiki: Oozlybub_and_Murphy
+  keywords:
+  - lang
+  - spec
+  releases:
+  - version: 1.1
+    revision: 2011.0427
+    latest: yes
+    url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.1-2011.0427.zip
+  - version: 1.0
+    revision: 2010.1201
+    latest: no
+    url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
+openflax:
+  title: OpenFlax
+  summary: Experimental web server written in Erlang
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p>OpenFlax is an experimental open-source web server written in 100% Erlang,
+    designed with security and simplicity in mind.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - erl
+  - util
+  - www
+  releases:
+  - version: 1.0
+    revision: 2004.0919
+    latest: yes
+    url: http://catseye.tc/distfiles/openflax-2004.0919.zip
+  references:
+  - title: Inets
+    desc: Standard Erlang Webserver
+    url: http://www.erlang.org/doc/r9b/lib/inets-3.0/doc/
+  - title: yaws
+    desc: High-Performance Erlang Webserver
+    url: http://sourceforge.net/projects/erlyaws/
+  - title: 'femto'
+    desc: Tiny Erlang Webserver
+    url: http://www.sics.se/~joe/tutorials/web_server/web_server.html
+  - title: RFC 2616
+    desc: Spec for HTTP/1.1
+    url: http://www.ietf.org/rfc/rfc2616.txt
+  - title: RFC 2616 Errata
+    desc: Corrections in spec for HTTP/1.1
+    url: http://skrb.org/ietf/http_errata.html
+opus-2:
+  title: Opus-2
+  summary: Description of the abstract conlang <b>Opus-2</b>
+  byline: Conceived by Chris Pressey
+  language: Opus-2
+  esowiki: None
+  keywords:
+  - eso
+  - lang
+  - spec
+  releases:
+  - version: 0.5
+    revision: 2001.0325
+    latest: yes
+    url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
+pail:
+  title: The Pail Programming Language
+  summary: Interpreter and test suite for the <b>Pail</b> language
+  byline: Designed and implemented by Chris Pressey
+  develop: |-
+    Pail
+         <a class="external" href="https://bitbucket.org/catseye/pail/">development</a> is hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/Pail">git mirror on githib</a>.
+  language: Pail
+  esowiki: None
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/pail-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2011.1007
+    latest: no
+    url: http://catseye.tc/distfiles/pail-1.0-2011.1007.zip
+  - version: 1.0
+    revision: 2011.0527
+    latest: no
+    url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
+  references:
+  - project: pixley
+petulant:
+  title: The PETulant Cursor
+  summary: The PETulant Cursor, a tiny C64 &quot;display hack&quot;
+  byline: Written by Chris Pressey
+  abstract: |-
+    <p>A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - asm
+  - cbm
+  - gfx
+  - pd
+  - vintage
+  releases:
+  - version: 1.0
+    revision: 2008.0401
+    latest: yes
+    url: http://catseye.tc/distfiles/petulant-2008.0401.zip
+pibfi:
+  title: Platonic Ideal Brainf*ck Interpreter
+  summary: Platonic Ideal <b>Brainf*ck</b> Interpreter
+  byline: Implemented by Chris Pressey
+  abstract: |-
+    <p/>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - erl
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2003.0505
+    latest: yes
+    url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
+pixley:
+  title: The Pixley Programming Language
+  summary: Reference Interpreter for <b>Pixley</b>
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    Pixley
+         <a class="external" href="https://bitbucket.org/catseye/pixley/">development</a> is hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/Pixley">git mirror on githib</a>.
+  language: Pixley
+  esowiki: None
+  keywords:
+  - boot
+  - bsdl
+  - lang
+  - scheme
+  releases:
+  - version: 1.0
+    revision: 2009.0501
+    latest: no
+    url: http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip
+  - version: 1.1
+    revision: 2010.1105
+    latest: no
+    url: http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip
+  - version: 2.0
+    revision: 2011.1209
+    latest: no
+    url: http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip
+  - version: 2.0
+    revision: 2012.0219
+    latest: yes
+    url: http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip
+  references:
+  - project: pail
+pl-goto.net:
+  title: PL-{GOTO}.NET
+  summary: MSIL compiler for <b>PL-{GOTO}</b>
+  byline: Implemented by Chris Pressey
+  abstract: |-
+    <p>PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
+        from Brainerd and Landweber's <i>Theory of Computation</i>
+        (1974; ISBN 0471095850). PL-{GOTO} can express exactly the
+        primitive recursive functions, and thus PL-{GOTO} programs
+        always terminate. PL-{GOTO}.NET generates MSIL code which
+        can then (using <code>ilasm</code>) be turned into a .NET
+        executable.  It can also execute PL-{GOTO} programs
+        directly.</p>
+  develop: |-
+    PL-{GOTO}.NET
+         <a class="external" href="https://bitbucket.org/catseye/pl-goto-.net/">development</a> is hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/PL-GOTO.NET">git mirror on githib</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - dotnet
+  - hs
+  - lang
+  - pd
+  releases:
+  - version: 1.1
+    revision: 2012.0619
+    latest: yes
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip
+  - version: 1.1
+    revision: 2011.1011
+    latest: no
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.1011.zip
+  - version: 1.1
+    revision: 2011.0804
+    latest: no
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
+quylthulg:
+  title: The Quylthulg Programming Language
+  summary: Docs and reference interpreter for <b>Quylthulg</b>
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    Quylthulg
+        <a class="external" href="https://bitbucket.org/catseye/quylthulg/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/Qylthulg">git mirror on githib</a>.
+  language: Quylthulg
+  esowiki: Quylthulg
+  keywords:
+  - bsdl
+  - eso
+  - hs
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2011.1007
+    latest: no
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip
+  - version: 1.0
+    revision: 2011.0517
+    latest: no
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip
+  - version: 1.0
+    revision: 2010.0205
+    latest: no
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip
+  - version: 1.0
+    revision: 2008.1206
+    latest: no
+    url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
+redgreen:
+  title: The REDGREEN Cellular Automaton
+  summary: The <b>REDGREEN</b> cellular automaton
+  byline: Conceived and implemented by Chris Pressey; with Apologies to Steve Smith
+  language: REDGREEN
+  esowiki: REDGREEN
+  keywords:
+  - 2d
+  - bsdl
+  - ca
+  - eso
+  - lang
+  releases:
+  - version: 1.1
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip
+  - version: 1.1
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip
+  - version: 1.1
+    revision: 2007.0722
+    latest: no
+    url: http://catseye.tc/distfiles/redgreen-2007.0722.zip
+  - version: 1.0
+    revision: 2007.0503
+    latest: no
+    url: http://catseye.tc/distfiles/redgreen-2007.0503.zip
+  references:
+  - project: rube
+  - project: rube_ii
+ribos:
+  title: Ribos
+  summary: Well-commented C64 raster interrupt example
+  byline: Written by Chris Pressey
+  abstract: |-
+    <p>A simple Commodore 64 graphics demo that uses the raster interrupt facility
+    of the VIC-II chip: the colour of the border of the screen is inverted, but only in
+    the middle part of the screen.  Includes well-commented source in 6502 assembly language.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - asm
+  - bsdl
+  - cbm
+  - gfx
+  - vintage
+  releases:
+  - version: 1.0
+    revision: 2007.0410
+    latest: no
+    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
+  - version: 1.1
+    revision: 2010.0430
+    latest: yes
+    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+rube:
+  title: The RUBE Programming Language
+  summary: Interpeter/debugger for the <b>RUBE</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: RUBE
+  esowiki: RUBE
+  keywords:
+  - 2d
+  - c
+  - eso
+  - freere
+  - lang
+  releases:
+  - version: 1.5
+    revision: 2011.0119
+    latest: yes
+    url: http://catseye.tc/distfiles/rube-1.5-2011.0119.zip
+  - version: 1.4
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/rube-1.4-2010.0721.zip
+  - version: 1.4
+    revision: 2010.0428
+    latest: no
+    url: http://catseye.tc/distfiles/rube-1.4-2010.0428.zip
+  - version: 1.3
+    revision: 2010.0204
+    latest: no
+    url: http://catseye.tc/distfiles/rube-1.3-2010.0204.zip
+  - version: 1.02
+    revision: 1997.0715
+    latest: no
+    url: http://catseye.tc/distfiles/rube-1997.0715.zip
+  references:
+  - project: rube_ii
+  - project: redgreen
+rube_ii:
+  title: 'RUBE II: Das Klickenklacker'
+  summary: Interpeter for the <b>RUBE II</b> language
+  byline: Derived from RUBE and implemented by John Colagioia
+  abstract: |-
+    <p>A close descendent of RUBE, with cleaner semantics and implementation.</p>
+  language: None
+  esowiki: 'RUBE II: Das Klickenklacker'
+  keywords:
+  - 2d
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2001.0201
+    latest: yes
+    url: http://catseye.tc/distfiles/rube_ii-2001.0201.zip
+  references:
+  - project: rube
+sally:
+  title: The Sally Programming Language
+  summary: Compiler for the <b>Sally</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Sally
+  esowiki: None
+  keywords:
+  - bsdl
+  - c
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2003.1104
+    latest: no
+    url: http://catseye.tc/distfiles/sally-2003.1104.zip
+  - version: 1.0
+    revision: 2010.0428
+    latest: no
+    url: http://catseye.tc/distfiles/sally-1.0-2010.0428.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: yes
+    url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
+sbeezg:
+  title: The sbeezg Programming Language
+  summary: Interpreter for the <b>Sbeezg</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Sbeezg
+  esowiki: Sbeezg
+  keywords:
+  - bsdl
+  - erl
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2002.0317
+    latest: yes
+    url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
+shelta:
+  title: The Shelta Programming Language
+  summary: Compilers for the <b>Shelta</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Shelta
+  esowiki: Shelta
+  keywords:
+  - asm
+  - eso
+  - freere
+  - lang
+  - boot
+  - x86
+  releases:
+  - version: 1.0
+    revision: 1999.1223
+    latest: no
+    url: http://catseye.tc/distfiles/shelta-1999.1223.zip
+  - version: 1.1
+    revision: 2009.0307
+    latest: yes
+    url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
+smetana:
+  title: The SMETANA Programming Language
+  summary: Interpreter for the <b>SMETANA</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    You can experiment with SMETANA online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: SMETANA
+  esowiki: SMETANA
+  keywords:
+  - eso
+  - lang
+  - pd
+  - perl
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2004.0227
+    latest: yes
+    url: http://catseye.tc/distfiles/smetana-2004.0227.zip
+smith:
+  title: The SMITH Programming Language
+  summary: Interpreter for the <b>SMITH</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: SMITH
+  esowiki: SMITH
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 2.0L
+    revision: 2.0L
+    latest: no
+    url: http://catseye.tc/distfiles/smith-2.0L.zip
+  - version: 2.1
+    revision: 2007.0722
+    latest: no
+    url: http://catseye.tc/distfiles/smith-2007.0722.zip
+  - version: 2.1
+    revision: 2011.0922
+    latest: yes
+    url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
+squishy2k:
+  title: The Squishy2K Programming Language
+  summary: Interpreter for the <b>Squishy2K</b> language
+  byline: Designed and implemented by Chris Pressey
+  language: Squishy2K
+  esowiki: Squishy2K
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 1.0
+    revision: 2000.1006
+    latest: yes
+    url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
+strelnokoff:
+  title: The Strelnokoff Programming Language
+  summary: Interpreter for the <b>Strelnokoff</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Strelnokoff
+  esowiki: Strelnokoff
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - perl
+  releases:
+  - version: 1.0
+    revision: 2001.0324
+    latest: yes
+    url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
+super-wumpus-land:
+  title: Super Wumpus Land
+  summary: Rather odd game of <i>Super Wumpus Land</i>
+  byline: Designed and implemented by Chris Pressey; based on an
+          original game by Gregory Yob
+  abstract: |-
+    <p>A very involved variation of the classic game of
+           Hunt the Wumpus.</p>
+  develop: |-
+    Super Wumpus Land
+        <a class="external" href="https://bitbucket.org/catseye/super-wumpus-land/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/Super-Wumpus-Land">git mirror on githib</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - game
+  - perl
+  - vintage
+  releases:
+  - version: 1.0
+    revision: 2004.0227
+    latest: no
+    url: http://catseye.tc/distfiles/swl-2004.0227.zip
+  - version: 1.0
+    revision: 2007.1216
+    latest: yes
+    url: http://catseye.tc/distfiles/swl-2007.1216.zip
+tamerlane:
+  title: The Tamerlane Programming Language
+  summary: Documents on the <b>Tamerlane</b> language
+  byline: Devised by Chris Pressey
+  language: Tamerlane
+  esowiki: Tamerlane
+  keywords:
+  - eso
+  - lang
+  - spec
+  releases:
+  - version: 1.0
+    revision: 2001.0127
+    latest: yes
+    url: http://catseye.tc/distfiles/tamerlane-2001.0127.zip
+  references:
+  - project: kiceberg
+  - project: granolam
+thue:
+  title: The Thue Programming Language
+  summary: Interpreter for the <b>Thue</b> language
+  byline: Conceived by John Colagioia; implementations by John Colagioia and
+    Frédéric van der Plancke
+  abstract: |-
+    <p>The Thue programming language was invented by
+    John Colagioia in early 2000.  It is named after the computational
+    regimen it is based on — a pure string-rewriting process called a
+    <dfn>semi-Thue grammar</dfn>, which is named for (and possibly created
+    by) the Norwegian mathematician Axel Thue (pronounced &quot;TOO-ay&quot;).</p>
+        <p>Thue represents one of the simplest possible ways
+    to construe constraint-based programming.  It is to the constraint-based
+    paradigm what languages like OISC are to the imperative paradigm;
+    in other words, it's a tar pit.</p>
+  language: None
+  esowiki: Thue
+  keywords:
+  - c
+  - eso
+  - lang
+  - py
+  - rew
+  releases:
+  - version: 1.0
+    revision: 2004.0301
+    latest: no
+    url: http://catseye.tc/distfiles/thue-2004.0301.zip
+  - version: 1.5
+    revision: 2010.1218
+    latest: yes
+    url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
+tpis:
+  title: tpis - Total Procedures in Scheme
+  summary: Totality-checker for Scheme procedures
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p>This is a static analyzer, written in Scheme, which can check if
+    given Scheme procedures are total (always terminate, on any input) by checking that
+    they are specified primitive-recursively.  What's more, it is written almost entirely in
+    a primitive-recursive style, so it can check itself!</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - scheme
+  - util
+  releases:
+  - version: 1.0
+    revision: 2006.0528
+    latest: yes
+    url: http://catseye.tc/distfiles/tpis-2006.0528.zip
+treacle:
+  title: The Treacle Programming Language
+  summary: Interpreter for the <b>Treacle</b> rewriting language
+  byline: Designed and implemented by Chris Pressey
+  language: Treacle
+  esowiki: None
+  keywords:
+  - bsdl
+  - scheme
+  - lang
+  - rew
+  releases:
+  - version: 1.0
+    revision: 2008.0412
+    latest: no
+    url: http://catseye.tc/distfiles/treacle-2008.0412.zip
+  - version: 1.0
+    revision: 2010.0427
+    latest: yes
+    url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
+  references:
+  - project: arboretuum
+unlikely:
+  title: The Unlikely Programming Language
+  summary: Docs and static analyzer for the <b>Unlikely</b> language
+  byline: Conceived and partially implemented by Chris Pressey
+  develop: |-
+    Unlikely
+        <a class="external" href="https://bitbucket.org/catseye/unlikely/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/Unlikely">git mirror on githib</a>.
+  language: Unlikely
+  esowiki: Unlikely
+  keywords:
+  - py
+  - eso
+  - lang
+  - oo
+  releases:
+  - version: 1.0
+    revision: 2012.0316
+    latest: yes
+    url: http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip
+  - version: 1.0
+    revision: 2010.0427
+    latest: no
+    url: http://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip
+  - version: 1.0
+    revision: 2009.0315
+    latest: no
+    url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
+urreading:
+  title: You are Reading the Name of this Esolang
+  summary: <b>You are Reading the Name of this Esolang</b>
+  byline: Designed by Chris Pressey
+  language: You are Reading the Name of this Esolang
+  esowiki: You_are_Reading_the_Name_of_this_Esolang
+  keywords:
+  - eso
+  - lang
+  - spec
+  - theory
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/urreading-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2007.1105
+    latest: no
+    url: http://catseye.tc/distfiles/urreading-2007.1105.zip
+velo:
+  title: The Velo Programming Language
+  summary: Spec and Interpreter for the <b>Velo</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    Velo
+        <a class="external" href="https://bitbucket.org/catseye/velo/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/Velo">git mirror on githib</a>.
+  language: Velo
+  esowiki: None
+  keywords:
+  - lang
+  - ruby
+  releases:
+  - version: 0.1
+    revision: 2012.0714
+    latest: yes
+    url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
+version:
+  title: The Version Programming Language
+  summary: Interpreter for the <b>Version</b> language
+  byline: Conceived and implemented by Chris Pressey
+  language: Version
+  esowiki: Version
+  keywords:
+  - bsdl
+  - eso
+  - lang
+  - perl
+  - regex
+  releases:
+  - version: 1.0
+    revision: 2001.1211
+    latest: no
+    url: http://catseye.tc/distfiles/version-2001.1211.zip
+  - version: 1.0
+    revision: 2010.0429
+    latest: yes
+    url: http://catseye.tc/distfiles/version-1.0-2010.0429.zip
+whothm:
+  title: The Whothm Drawing Language
+  summary: Definition and Implementation of the <b>Whothm</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    You can experiment with Whothm online in the <a href="http://catseye.tc/gallery/esolangs/jwhothm/">JWhothm exhibit</a>
+        in our <a href="http://catseye.tc/gallery/esolangs/">Gallery of Interactive Esolangs</a>.  Try it!
+  language: Whothm
+  esowiki: Whothm
+  keywords:
+  - 2d
+  - eso
+  - gfx
+  - java
+  - lang
+  - interact
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/whothm-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2011.0116
+    latest: no
+    url: http://catseye.tc/distfiles/whothm-1.0-2011.0116.zip
+  - version: 1.0
+    revision: 2010.0629
+    latest: no
+    url: http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip
+wierd:
+  title: The Wierd Programming Language
+  summary: Interpreters for the <b>Wierd</b> language
+  byline: |-
+    Conceived by Chris Pressey; developed by Chris Pressey,
+    Ben Olmstead, and John Colagioia; implementations by John
+    Colagioia and Milo van Handel
+  language: Wierd
+  esowiki: Wierd
+  keywords:
+  - 2d
+  - c
+  - eso
+  - lang
+  releases:
+  - version: 1.0
+    revision: 2004.0302
+    latest: yes
+    url: http://catseye.tc/distfiles/wierd-2004.0302.zip
+worb:
+  title: The noit o' mnain worb Language
+  summary: Interpreter for <b>noit o' mnain worb</b>
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    <p>The Perl implementation of noit o' mnain worb requires
+        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
+        to run.
+        However, an appropriate version of this library is included in the worb distribution
+        as of v1.1-2011.1031, so there's nothing special you need to do to make this happen.</p>
+        <p>The Java implementation of noit o' mnain worb runs inside the
+        <a class="external" href="https://bitbucket.org/catseye/yoob/">yoob</a>
+        framework.</p>
+  develop: |-
+    You can experiment with worb online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: noit o' mnain worb
+  esowiki: noit_o'_mnain_worb
+  keywords:
+  - 2d
+  - bsdl
+  - eso
+  - java
+  - lang
+  - perl
+  - interact
+  releases:
+  - version: 1.1
+    revision: 1.1
+    latest: no
+    url: http://catseye.tc/distfiles/worb-1.1.zip
+  - version: 1.1
+    revision: 2007.1123
+    latest: no
+    url: http://catseye.tc/distfiles/worb-2007.1123.zip
+  - version: 1.1
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/worb-1.1-2010.0721.zip
+  - version: 1.1
+    revision: 2011.0428
+    latest: no
+    url: http://catseye.tc/distfiles/worb-1.1-2011.0428.zip
+  - version: 1.1
+    revision: 2011.1031
+    latest: yes
+    url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
+xigxag:
+  title: The Xigxag Automaton
+  summary: Implementation of the <b>Xigxag</b> automaton
+  byline: Conceived and implemented by Chris Pressey
+  language: Xigxag
+  esowiki: Xigxag
+  keywords:
+  - eso
+  - lang
+  - pd
+  - perl
+  - theory
+  releases:
+  - version: 1.0
+    revision: 2011.1214
+    latest: yes
+    url: http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2010.0721
+    latest: no
+    url: http://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip
+  - version: 1.0
+    revision: 2007.0602
+    latest: no
+    url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
+xoomonk:
+  title: The Xoomonk Programming Language
+  summary: Specification and tests for the <b>Xoomonk</b> language
+  byline: Conceived by Chris Pressey
+  language: Xoomonk
+  esowiki: None
+  keywords:
+  - lang
+  - spec
+  releases:
+  - version: 0.1
+    revision: 2011.0807
+    latest: yes
+    url: http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip
+yoob:
+  title: yoob
+  summary: The <em>yoob</em> framework for esolang implementation
+  byline: Designed and implemented by Chris Pressey
+  abstract: |-
+    <p><em>yoob</em> is a framework for implementing esoteric
+        programming languages in Java. It aims to make it easy for a user
+        to experiment with a large number of esolangs with a minimal
+        install burden (i.e. in a Java applet), and to make it easy for
+        designers to rapidly implement and showcase their esolangs.</p>
+  develop: |-
+    yoob
+         <a class="external" href="https://bitbucket.org/catseye/yoob/">development</a>,
+         <a class="external" href="https://bitbucket.org/catseye/yoob/wiki">wiki</a>, and
+         <a class="external" href="https://bitbucket.org/catseye/yoob/issues">issue tracker</a> are hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/yoob">git mirror on githib</a>.
+  develop: |-
+    You can experiment online with the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: None
+  esowiki: yoob
+  keywords:
+  - 2d
+  - eso
+  - java
+  - lang
+  - pd
+  - interact
+  releases:
+  - version: 0.3
+    revision: 2011.0920
+    latest: yes
+    url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
+  - version: 0.2
+    revision: 2011.0624
+    latest: no
+    url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
+ypsilax:
+  title: The Ypsilax Programming Language
+  summary: Interpreter for the <b>Ypsilax</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    <p>The Perl implementation of Ypsilax requires
+        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
+        to run.
+        However, an appropriate version of this library (v2007.1122) is included in the Ypsilax distribution
+        as of v1.1-2011.1130, so there's nothing special you need to do to make this happen.</p>
+        <p>The Java implementation of Ypsilax runs inside the
+        <a class="external" href="https://bitbucket.org/catseye/yoob/">yoob</a>
+        framework.</p>
+  develop: |-
+    You can experiment with Ypsilax online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
+  language: Ypsilax
+  esowiki: Ypsilax
+  keywords:
+  - 2d
+  - bsdl
+  - eso
+  - java
+  - lang
+  - perl
+  - refl
+  - rew
+  - interact
+  releases:
+  - version: 0.9
+    revision: 0.9
+    latest: no
+    url: http://catseye.tc/distfiles/ypsilax-0.9.zip
+  - version: 0.9
+    revision: 2007.1202
+    latest: no
+    url: http://catseye.tc/distfiles/ypsilax-2007.1202.zip
+  - version: 1.0
+    revision: 2010.0430
+    latest: no
+    url: http://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip
+  - version: 1.1
+    revision: 2011.0428
+    latest: no
+    url: http://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip
+  - version: 1.1
+    revision: 2011.1130
+    latest: yes
+    url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
+yucca:
+  title: yucca
+  summary: Static analyzer for 8-bit BASIC programs
+  byline: 
+  abstract: |-
+    <p><code>yucca</code> is a dialect-agnostic static analyzer for 8-bit BASIC
+        programs.  It can find <code>GOTO</code>'s and <code>GOSUB</code>'s
+        which refer to non-existent line numbers, or line numbers which contain only
+        a <code>REM</code>, among a few other modest features.</p>
+  develop: |-
+    yucca
+         <a class="external" href="https://bitbucket.org/catseye/yucca/">development</a> is hosted on
+         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+         <a class="external" href="https://github.com/catseye/yucca">git mirror on githib</a>.
+  language: None
+  esowiki: None
+  keywords:
+  - mitl
+  - py
+  - util
+  releases:
+  - version: 1.0
+    revision: 2012.0610
+    latest: yes
+    url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
+zowie:
+  title: The ZOWIE Programming Language
+  summary: Spec and Interpreter for the <b>ZOWIE</b> language
+  byline: Conceived and implemented by Chris Pressey
+  develop: |-
+    ZOWIE
+        <a class="external" href="https://bitbucket.org/catseye/zowie/">development</a> is hosted on
+        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
+        <a class="external" href="https://github.com/catseye/ZOWIE">git mirror on githib</a>.
+  language: ZOWIE
+  esowiki: ZOWIE
+  keywords:
+  - eso
+  - lang
+  - pd
+  - py
+  releases:
+  - version: 1.0
+    revision: 2012.0325
+    latest: yes
+    url: http://catseye.tc/distfiles/zowie-1.0-2012.0325.zip
+  - version: 1.0
+    revision: 2011.1214
+    latest: no
+    url: http://catseye.tc/distfiles/zowie-1.0-2011.1214.zip
+  - version: 1.0
+    revision: 2009.1229
+    latest: no
+    url: http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip
+zzrk:
+  title: Zzrk
+  summary: Toy text adventure game of <i>Zzrk</i>
+  byline: Implemented by Chris Pressey
+  abstract: |-
+    <p>Zzrk is a toy text adventure game written in &quot;100% pure Zz&quot; — assuming such
+    a concept even makes sense, given that Zz is a dynamic meta-language that might be
+    better described as a self-modifying grammar.</p>
+  language: None
+  esowiki: None
+  keywords:
+  - bsdl
+  - game
+  - meta
+  releases:
+  - version: 1.0
+    revision: 2012.0616
+    latest: yes
+    url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip
+  - version: 1.0
+    revision: 2007.0506
+    latest: no
+    url: http://catseye.tc/distfiles/zzrk-2007.0506.zip
