@@ -28,7 +28,7 @@ def check_chrysoberyl_data(data):
       assert 'type' in data[key], \
           "'%s' does not specify a type" % key
       type_ = data[key]['type']
-      assert type_ in data,
+      assert type_ in data, \
           "'%s' specifies undefined type '%s'" % (key, type_)
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
