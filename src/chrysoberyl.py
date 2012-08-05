@@ -10,9 +10,7 @@ except ImportError:
     from yaml import Loader
 
 
-if __name__ == '__main__':
-    dirname = sys.argv[1]
-
+def load_chrysoberyl_dir(dirname):
     data = {}
 
     for root, dirnames, filenames in os.walk(dirname):
@@ -23,9 +21,18 @@ if __name__ == '__main__':
                 file.close()
         del dirnames[:]  # don't automatically descend
 
+    return data
+
+def check_chrysoberyl_data(data):
     for key in data:
-      print key
+      assert 'type' in data[key], \
+          "'%s' does not specify a type" % key
       type_ = data[key]['type']
-      # type_ should exist in data, and it should be of type "type"
-      assert data[type_]['type'] == 'type', \
-          "%s has bad type '%s'" % (key, type_)
+      assert type_ in data,
+          "'%s' specifies undefined type '%s'" % (key, type_)
+      assert 'type' in data[type_] and data[type_]['type'] == 'type', \
+          "'%s' has bad type '%s'" % (key, type_)
+
+if __name__ == '__main__':
+    data = load_chrysoberyl_dir(sys.argv[1])
+    check_chrysoberyl_data(data)
