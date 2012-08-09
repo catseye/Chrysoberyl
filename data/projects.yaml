@@ -26,29 +26,6 @@ alpaca:
     revision: "0.90"
     latest: false
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
-animals: 
-  type: Distribution
-  title: The Game of Animals
-  summary: Classic game of <i>Animals</i>
-  byline: Implemented in Erlang by Chris Pressey
-  abstract: |-
-    <p>Animals is a classic game that demonstrates an <dfn>expert system</dfn>.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - game
-  - vintage
-  releases: 
-  - version: "1.0"
-    revision: "2004.0919"
-    latest: false
-    url: http://catseye.tc/distfiles/animals-2004.0919.zip
-  - version: "1.1"
-    revision: "2010.0429"
-    latest: true
-    url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
 apple-befunge: 
   type: Distribution
   title: Apple Befunge
@@ -341,47 +318,6 @@ braktif:
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
   references: 
   - project: pibfi
-bubble-escape: 
-  type: Distribution
-  title: Bubble Escape
-  summary: The tiny C64 video game <i>Bubble Escape 2K</i>
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>A video game I wrote for the Commodore 64 where you must
-        guide a bubble through a multi-screen maze.  Was originally written
-        in BASIC by a young me in the 80's.  Was rewritten in 6502 assembly
-        language by a middle-aged me in the late oughts.  Was pared down so
-        that (crunched) it fit into 2K, and was submitted to the
-        <em>Mini Game Competition 2009</em>
-        where (surprisingly, to me!) it got first place in its class.</p>
-        <p>This distribution contains the original version, binaries and
-        source code for the 2K version, and an 8K cartridge version.</p>
-  develop: |-
-    Bubble Escape is hosted in a
-         <a class="external" href="https://bitbucket.org/catseye/bubble-escape/">Mercurial repo on Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Bubble-Escape">git mirror on githib</a>.
-  develop: |-
-    You can now play Bubble Escape 2K online
-        in a Java applet (JaC64) in our
-        <a href="http://catseye.tc/gallery/c64/bubble-escape-2k/">Commodore 64 Gallery</a>.
-        Try it!  Enjoy!
-  language: None
-  esowiki: None
-  keywords: 
-  - basic
-  - bsdl
-  - game
-  - cbm
-  - interact
-  releases: 
-  - version: "1.0"
-    revision: "2012.0520"
-    latest: true
-    url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
-  - version: "1.0"
-    revision: "2009.0707"
-    latest: false
-    url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
 burro: 
   type: Distribution
   title: The Burro Programming Language
@@ -458,79 +394,6 @@ circute:
     revision: "2007.0503"
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
-console-virtual: 
-  type: Distribution
-  title: Console::Virtual
-  summary: Perl package for simulating a virtual console
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p><code>Console::Virtual</code> is a simple, lightweight abstraction layer which allows Perl code to interact
-        with the user through a console, which is emulated on whatever user interface is really available.</p>
-  develop: |-
-    <code>Console::Virtual</code>
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - lib
-  - perl
-  - ui
-  releases: 
-  - version: "2.0"
-    revision: "2007.1122"
-    latest: true
-    url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
-  - version: "1.0"
-    revision: "2003.0325"
-    latest: false
-    url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
-corona-realm-of-magic: 
-  type: Distribution
-  title: 'Corona: Realm of Magic'
-  summary: 'Elaborate roguelike <i>Corona: Realm of Magic</i> in Perl'
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>Corona: Realm of Magic is an elaborate roguelike coded in Perl.  Development of this game
-        was abandoned years ago, but the sources are retained here for historical preservation.</p>
-  develop: |-
-    Although Corona: Realm of Magic is no longer being actively developed, its sources are stored in a 
-         <a class="external" href="https://bitbucket.org/catseye/corona-realm-of-magic/">Mercurial repository</a> hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - perl
-  releases: 
-  - version: "0.19"
-    revision: "2000.1204"
-    latest: true
-    url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
-crone: 
-  type: Distribution
-  title: crone
-  summary: Simple <tt>cron</tt>-like scheduler
-  byline: 
-  abstract: |-
-    <p>A simple <code>cron</code>-like facility written in Erlang.  Unlike most <code>cron</code>s, it does
-        not periodically activate and run whatever tasks are due to run; instead it calculates the amount of time between
-        now and when the next is due to run and sleeps exactly that long.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - util
-  releases: 
-  - version: "1.0"
-    revision: "2004.0301"
-    latest: true
-    url: http://catseye.tc/distfiles/crone-2004.0301.zip
 didigm: 
   type: Distribution
   title: The Didigm Reflective Cellular Automaton
@@ -649,57 +512,6 @@ etcha:
     revision: "2009.1004"
     latest: true
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
-falderal: 
-  type: Distribution
-  title: 'Falderal: Literate Testing for Languages'
-  summary: Literate Testing framework for Literate Haskell
-  byline: 
-  abstract: |-
-    <p>Falderal is a file format for literate test suites.  It is particularly
-    suited for documenting programming languages (or other specifications of
-    ways to transform text) and testing their implementation(s) in a
-    language-agnostic fashion.  The dumbed-down sound-bite version: &quot;doctests
-    for DSLs&quot;.  <code>Test.Falderal</code> is the reference implementation, in Haskell,
-    of tools for formatting and running tests written in Falderal.
-    </p>
-  develop: |-
-    Falderal
-         <a class="external" href="https://bitbucket.org/catseye/falderal/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/falderal/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/falderal/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Falderal">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - hs
-  - util
-  releases: 
-  - version: "0.6"
-    revision: "2012.0102"
-    latest: true
-    url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
-  - version: "0.5"
-    revision: "2011.1214"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
-  - version: "0.4"
-    revision: "2011.1010"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
-  - version: "0.3"
-    revision: "2011.1007"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
-  - version: "0.2"
-    revision: "2011.0627"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
-  - version: "0.1"
-    revision: "2011.0517"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
 fbbi: 
   type: Distribution
   title: Flaming Bovine Befunge Interpreter
@@ -735,26 +547,6 @@ fbbi:
     url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
   references: 
   - project: funge98
-flip: 
-  type: Distribution
-  title: The Game of FLIP
-  summary: Venerable and ancient game of <i>FLIP</i>
-  byline: Implemented in Erlang by Chris Pressey
-  abstract: |-
-    <p>A classic game that demonstrates simple
-    &quot;artificial intelligence&quot;.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - game
-  - vintage
-  releases: 
-  - version: "1.0"
-    revision: "2002.0731"
-    latest: true
-    url: http://catseye.tc/distfiles/flip-2002.0731.zip
 flobnar: 
   type: Distribution
   title: The Flobnar Programming Language
@@ -1065,27 +857,6 @@ kiceberg:
   references: 
   - project: tamerlane
   - project: granolam
-kitsilano: 
-  type: Distribution
-  title: The Kitsilano Oscillator Circuit
-  summary: 2-NPN-transistor, 1-capacitor oscillator
-  byline: Designed by Chris Pressey
-  abstract: |-
-    <p>An oscillator circuit that contains two NPN transistors and
-        a single capacitor.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - elec
-  releases: 
-  - version: "1.0"
-    revision: "2011.0524"
-    latest: true
-    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
-  - version: "1.0"
-    revision: "2008.0905"
-    latest: false
-    url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
 larabee: 
   type: Distribution
   title: The Larabee Programming Language
@@ -1111,22 +882,6 @@ larabee:
     revision: "2008.0110"
     latest: false
     url: http://catseye.tc/distfiles/larabee-2008.0110.zip
-led386: 
-  type: Distribution
-  title: A 386-based LED blinker
-  summary: LED blinker based on LM386 audio amp IC
-  byline: Designed and constructed by Chris Pressey
-  abstract: |-
-    <p>The LM386 audio amplifier IC, that is...</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - elec
-  releases: 
-  - version: "1.0"
-    revision: "2004.0227"
-    latest: true
-    url: http://catseye.tc/distfiles/led386-2004.0227.zip
 madison: 
   type: Distribution
   title: The Madison Proof-Checking Language
@@ -1230,28 +985,6 @@ mdpn:
     revision: "2004.0302"
     latest: true
     url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
-mildred: 
-  type: Distribution
-  title: Mildred
-  summary: Homebrew Z80-based computer
-  byline: Designed and constructed by Chris Pressey
-  abstract: |-
-    <p>Mildred is a 4MHz Z80-based homebrew computer
-    with 40K of memory (8K EEPROM, 32K SRAM.)</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - elec
-  - z80
-  releases: 
-  - version: "1.0"
-    revision: "2003.0110"
-    latest: false
-    url: http://catseye.tc/distfiles/mildred-2003.0110.zip
-  - version: "1.0"
-    revision: "2011.0414"
-    latest: true
-    url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
 muriel: 
   type: Distribution
   title: The Muriel Programming Language
@@ -1330,42 +1063,6 @@ oozlybub-and-murphy:
     revision: "2010.1201"
     latest: false
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
-openflax: 
-  type: Distribution
-  title: OpenFlax
-  summary: Experimental web server written in Erlang
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>OpenFlax is an experimental open-source web server written in 100% Erlang,
-    designed with security and simplicity in mind.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - util
-  - www
-  releases: 
-  - version: "1.0"
-    revision: "2004.0919"
-    latest: true
-    url: http://catseye.tc/distfiles/openflax-2004.0919.zip
-  references: 
-  - title: Inets
-    desc: Standard Erlang Webserver
-    url: http://www.erlang.org/doc/r9b/lib/inets-3.0/doc/
-  - title: yaws
-    desc: High-Performance Erlang Webserver
-    url: http://sourceforge.net/projects/erlyaws/
-  - title: 'femto'
-    desc: Tiny Erlang Webserver
-    url: http://www.sics.se/~joe/tutorials/web_server/web_server.html
-  - title: RFC 2616
-    desc: Spec for HTTP/1.1
-    url: http://www.ietf.org/rfc/rfc2616.txt
-  - title: RFC 2616 Errata
-    desc: Corrections in spec for HTTP/1.1
-    url: http://skrb.org/ietf/http_errata.html
 opus-2: 
   type: Distribution
   title: Opus-2
@@ -1825,36 +1522,6 @@ strelnokoff:
     revision: "2001.0324"
     latest: true
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
-super-wumpus-land: 
-  type: Distribution
-  title: Super Wumpus Land
-  summary: Rather odd game of <i>Super Wumpus Land</i>
-  byline: Designed and implemented by Chris Pressey; based on an
-          original game by Gregory Yob
-  abstract: |-
-    <p>A very involved variation of the classic game of
-           Hunt the Wumpus.</p>
-  develop: |-
-    Super Wumpus Land
-        <a class="external" href="https://bitbucket.org/catseye/super-wumpus-land/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Super-Wumpus-Land">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - perl
-  - vintage
-  releases: 
-  - version: "1.0"
-    revision: "2004.0227"
-    latest: false
-    url: http://catseye.tc/distfiles/swl-2004.0227.zip
-  - version: "1.0"
-    revision: "2007.1216"
-    latest: true
-    url: http://catseye.tc/distfiles/swl-2007.1216.zip
 tamerlane: 
   type: Distribution
   title: The Tamerlane Programming Language
@@ -1907,27 +1574,6 @@ thue:
     revision: "2010.1218"
     latest: true
     url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
-tpis: 
-  type: Distribution
-  title: tpis - Total Procedures in Scheme
-  summary: Totality-checker for Scheme procedures
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>This is a static analyzer, written in Scheme, which can check if
-    given Scheme procedures are total (always terminate, on any input) by checking that
-    they are specified primitive-recursively.  What's more, it is written almost entirely in
-    a primitive-recursive style, so it can check itself!</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - scheme
-  - util
-  releases: 
-  - version: "1.0"
-    revision: "2006.0528"
-    latest: true
-    url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 treacle: 
   type: Distribution
   title: The Treacle Programming Language
@@ -2273,32 +1919,6 @@ ypsilax:
     revision: "2011.1130"
     latest: true
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
-yucca: 
-  type: Distribution
-  title: yucca
-  summary: Static analyzer for 8-bit BASIC programs
-  byline: 
-  abstract: |-
-    <p><code>yucca</code> is a dialect-agnostic static analyzer for 8-bit BASIC
-        programs.  It can find <code>GOTO</code>'s and <code>GOSUB</code>'s
-        which refer to non-existent line numbers, or line numbers which contain only
-        a <code>REM</code>, among a few other modest features.</p>
-  develop: |-
-    yucca
-         <a class="external" href="https://bitbucket.org/catseye/yucca/">development</a> is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/yucca">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - mitl
-  - py
-  - util
-  releases: 
-  - version: "1.0"
-    revision: "2012.0610"
-    latest: true
-    url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
 zowie: 
   type: Distribution
   title: The ZOWIE Programming Language
@@ -2329,27 +1949,3 @@ zowie:
     revision: "2009.1229"
     latest: false
     url: http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip
-zzrk: 
-  type: Distribution
-  title: Zzrk
-  summary: Toy text adventure game of <i>Zzrk</i>
-  byline: Implemented by Chris Pressey
-  abstract: |-
-    <p>Zzrk is a toy text adventure game written in &quot;100% pure Zz&quot; — assuming such
-    a concept even makes sense, given that Zz is a dynamic meta-language that might be
-    better described as a self-modifying grammar.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - meta
-  releases: 
-  - version: "1.0"
-    revision: "2012.0616"
-    latest: true
-    url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip
-  - version: "1.0"
-    revision: "2007.0506"
-    latest: false
-    url: http://catseye.tc/distfiles/zzrk-2007.0506.zip
