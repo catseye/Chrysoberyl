@@ -5,6 +5,10 @@ type:
   type: type
 'Game':
   type: type
+'Library':
+  type: type
+'Tool':
+  type: type
 'Game Implementation':
   type: type
 'Programming Language':
