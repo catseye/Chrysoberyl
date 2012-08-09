@@ -1,6 +1,7 @@
 # encoding: UTF-8
 # A naive dump from Cat's Eye Technologies' website's project database
 alpaca: 
+  type: Distribution
   title: The ALPACA Meta-Language
   summary: Compiler for the <b>ALPACA</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -26,6 +27,7 @@ alpaca:
     latest: false
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
 animals: 
+  type: Distribution
   title: The Game of Animals
   summary: Classic game of <i>Animals</i>
   byline: Implemented in Erlang by Chris Pressey
@@ -48,6 +50,7 @@ animals:
     latest: true
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
 apple-befunge: 
+  type: Distribution
   title: Apple Befunge
   summary: Editor and interpreter and docs for <b>Apple Befunge</b>
   byline: Conceived and implemented by Chris Pressey
@@ -82,6 +85,7 @@ apple-befunge:
     latest: false
     url: http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip
 arboretuum: 
+  type: Distribution
   title: The Arboretuum Programming Language
   summary: Interpreter for the <b>Arboretuum</b> forest-rewriter
   byline: Designed and implemented by Chris Pressey
@@ -112,6 +116,7 @@ arboretuum:
   references: 
   - project: treacle
 bef: 
+  type: Distribution
   title: 'bef: Reference implementation of Befunge-93'
   summary: Reference interpreter etc for <b>Befunge-93</b>
   byline: by Chris Pressey
@@ -139,6 +144,7 @@ bef:
   - project: befunge93
   - project: flobnar
 befos: 
+  type: Distribution
   title: 'BefOS: An Operating System for the Linearly Challenged'
   summary: <b>Befunge</b>-themed miniature operating system
   byline: by Chris Pressey
@@ -167,6 +173,7 @@ befos:
   references: 
   - project: befunge93
 befunge93: 
+  type: Distribution
   title: The Befunge-93 Programming Language
   summary: Documentation for <b>Befunge-93</b>
   byline: Conceived and first implemented by Chris Pressey
@@ -199,6 +206,7 @@ befunge93:
     desc: Citation in The New Hacker's Dictionary
     url: http://jargon.watson-net.com/jargon.asp?w=Befunge
 beta-juliet: 
+  type: Distribution
   title: The beta-Juliet Programming Language
   summary: Interpreter for the <b>beta-Juliet</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -241,6 +249,7 @@ beta-juliet:
     latest: false
     url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
 beturing: 
+  type: Distribution
   title: The Beturing Programming Language
   summary: Interpreter for the <b>Beturing</b> machine
   byline: Conceived and implemented by Chris Pressey
@@ -266,6 +275,7 @@ beturing:
     latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0606.zip
 bhuna: 
+  type: Distribution
   title: The Bhuna Programming Language
   summary: Interpreter and docs for the <b>Bhuna</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -312,6 +322,7 @@ bhuna:
     latest: true
     url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
 braktif: 
+  type: Distribution
   title: The Braktif Cellular Automaton
   summary: The <b>Braktif</b> cellular automaton
   byline: Formulated by Chris Pressey
@@ -331,6 +342,7 @@ braktif:
   references: 
   - project: pibfi
 bubble-escape: 
+  type: Distribution
   title: Bubble Escape
   summary: The tiny C64 video game <i>Bubble Escape 2K</i>
   byline: Designed and implemented by Chris Pressey
@@ -371,6 +383,7 @@ bubble-escape:
     latest: false
     url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
 burro: 
+  type: Distribution
   title: The Burro Programming Language
   summary: Interpreter and docs for the <b>Burro</b> language
   byline: Designed and implemented by Chris Pressey
@@ -397,6 +410,7 @@ burro:
   references: 
   - project: cabra
 cabra: 
+  type: Distribution
   title: The Cabra Programming Language
   summary: Interpreter and docs for the <b>Cabra</b> language
   byline: Designed and implemented by Chris Pressey
@@ -424,6 +438,7 @@ cabra:
   references: 
   - project: burro
 circute: 
+  type: Distribution
   title: The Circute Cellular Automaton
   summary: The <b>Circute</b> cellular automaton
   byline: Conceived and implemented by Chris Pressey
@@ -444,10 +459,9 @@ circute:
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
 console-virtual: 
-  title: 
-    
-  
-  summary: '<code>Console::Virtual</code> Perl module'
+  type: Distribution
+  title: Console::Virtual
+  summary: Perl package for simulating a virtual console
   byline: Designed and implemented by Chris Pressey
   abstract: |-
     <p><code>Console::Virtual</code> is a simple, lightweight abstraction layer which allows Perl code to interact
@@ -475,6 +489,7 @@ console-virtual:
     latest: false
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
 corona-realm-of-magic: 
+  type: Distribution
   title: 'Corona: Realm of Magic'
   summary: 'Elaborate roguelike <i>Corona: Realm of Magic</i> in Perl'
   byline: Designed and implemented by Chris Pressey
@@ -497,6 +512,7 @@ corona-realm-of-magic:
     latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
 crone: 
+  type: Distribution
   title: crone
   summary: Simple <tt>cron</tt>-like scheduler
   byline: 
@@ -516,6 +532,7 @@ crone:
     latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
 didigm: 
+  type: Distribution
   title: The Didigm Reflective Cellular Automaton
   summary: Docs on the <b>Didigm</b> reflective CA
   byline: Conceived by Chris Pressey
@@ -542,6 +559,7 @@ didigm:
     latest: false
     url: http://catseye.tc/distfiles/didigm-2007.1117.zip
 dieter: 
+  type: Distribution
   title: The Dieter Programming Language
   summary: Docs and type checker for the <b>Dieter</b> language
   byline: Conceived and partially implemented by Chris Pressey
@@ -565,6 +583,7 @@ dieter:
     latest: false
     url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
 eightebed: 
+  type: Distribution
   title: The Eightebed Programming Language
   summary: Docs and implementation of the <b>Eightebed</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -583,6 +602,7 @@ eightebed:
     latest: false
     url: http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip
 emmental: 
+  type: Distribution
   title: The Emmental Programming Language
   summary: Interpeter and docs for the <b>Emmental</b> language
   byline: Designed and implemented by Chris Pressey
@@ -610,6 +630,7 @@ emmental:
   references: 
   - project: mascarpone
 etcha: 
+  type: Distribution
   title: The Etcha Programming Language
   summary: Spec and Interpreter for the <b>Etcha</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -629,6 +650,7 @@ etcha:
     latest: true
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
 falderal: 
+  type: Distribution
   title: 'Falderal: Literate Testing for Languages'
   summary: Literate Testing framework for Literate Haskell
   byline: 
@@ -679,6 +701,7 @@ falderal:
     latest: false
     url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
 fbbi: 
+  type: Distribution
   title: Flaming Bovine Befunge Interpreter
   summary: Interpreter for the <b>Befunge-98</b> language
   byline: Implemented by Chris Pressey
@@ -713,6 +736,7 @@ fbbi:
   references: 
   - project: funge98
 flip: 
+  type: Distribution
   title: The Game of FLIP
   summary: Venerable and ancient game of <i>FLIP</i>
   byline: Implemented in Erlang by Chris Pressey
@@ -732,6 +756,7 @@ flip:
     latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
 flobnar: 
+  type: Distribution
   title: The Flobnar Programming Language
   summary: Docs, tests, and interpreter for the <b>Flobnar</b> language
   byline: Designed and implemented by Chris Pressey
@@ -760,6 +785,7 @@ flobnar:
   references: 
   - project: befunge93
 funge98: 
+  type: Distribution
   title: The Funge-98 Programming Language Family
   summary: Documentation for <b>Funge-98</b>
   byline: Conceived by the Befunge Mailing List Working Group
@@ -784,6 +810,7 @@ funge98:
   - project: fbbi
   - project: befunge93
 granolam: 
+  type: Distribution
   title: The GraNoLa/M Programming Language
   summary: Interpreter and docs for <b>GraNoLa/M</b>
   byline: Conceived and implemented by Chris Pressey
@@ -803,6 +830,7 @@ granolam:
   - project: tamerlane
   - project: kiceberg
 hev: 
+  type: Distribution
   title: The Hev Programming Language
   summary: Docs and interpreter for the <b>Hev</b> language
   byline: Designed and implemented by Chris Pressey
@@ -828,6 +856,7 @@ hev:
     latest: true
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
 hunter: 
+  type: Distribution
   title: The Hunter Programming Language
   summary: Interpreter for the <b>Hunter</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -859,6 +888,7 @@ hunter:
     latest: true
     url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
 illberon: 
+  type: Distribution
   title: The Illberon Programming Language
   summary: Preprocessor and doc for <b>Illberon</b>
   byline: Once again, Chris Pressey must be blamed
@@ -882,6 +912,7 @@ illberon:
   - project: illgola-2
   - project: illgolpp
 illgol: 
+  type: Distribution
   title: The ILLGOL Programming Language
   summary: Compiler and doc for the original <b>ILLGOL</b>
   byline: You can blame Chris Pressey
@@ -908,6 +939,7 @@ illgol:
   - project: illberon
   - project: illgolpp
 illgola-2: 
+  type: Distribution
   title: The Illgola-2 Programming Language
   summary: Compiler and doc for <b>Illgola-2</b>
   byline: You can blame Chris Pressey again
@@ -934,6 +966,7 @@ illgola-2:
   - project: illberon
   - project: illgolpp
 illgolpp: 
+  type: Distribution
   title: Open Sores Illgol##
   summary: Sources and doc for <b>Illgol##</b>
   byline: Yet again, blame Chris Pressey for this mess
@@ -960,6 +993,7 @@ illgolpp:
   - project: illgola-2
   - project: illberon
 iphigeneia: 
+  type: Distribution
   title: The Iphigeneia Programming Language
   summary: Docs and interpreter for <b>Iphigeneia</b>
   byline: Conceived and implemented by Chris Pressey
@@ -983,6 +1017,7 @@ iphigeneia:
     latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
 jaccia: 
+  type: Distribution
   title: The Jaccia and Jacciata Cellular Automata
   summary: <span class="summary">The <b>Jaccia</b> and <b>Jacciata</b> cellular automata</span>
   byline: Formulated by Chris Pressey
@@ -1003,6 +1038,7 @@ jaccia:
     latest: true
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
 kiceberg: 
+  type: Distribution
   title: The Kangaroo Iceberg Programming Language
   summary: Interpreter for <b>Kangaroo Iceberg</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1030,6 +1066,7 @@ kiceberg:
   - project: tamerlane
   - project: granolam
 kitsilano: 
+  type: Distribution
   title: The Kitsilano Oscillator Circuit
   summary: 2-NPN-transistor, 1-capacitor oscillator
   byline: Designed by Chris Pressey
@@ -1050,6 +1087,7 @@ kitsilano:
     latest: false
     url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
 larabee: 
+  type: Distribution
   title: The Larabee Programming Language
   summary: Documentation and interpreter for <b>Larabee</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1074,6 +1112,7 @@ larabee:
     latest: false
     url: http://catseye.tc/distfiles/larabee-2008.0110.zip
 led386: 
+  type: Distribution
   title: A 386-based LED blinker
   summary: LED blinker based on LM386 audio amp IC
   byline: Designed and constructed by Chris Pressey
@@ -1089,6 +1128,7 @@ led386:
     latest: true
     url: http://catseye.tc/distfiles/led386-2004.0227.zip
 madison: 
+  type: Distribution
   title: The Madison Proof-Checking Language
   summary: Specification and tests for the <b>Madison</b> proof checker
   byline: Conceived by Chris Pressey
@@ -1105,6 +1145,7 @@ madison:
     latest: true
     url: http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
 maentwrog: 
+  type: Distribution
   title: The Maentwrog Programming Language
   summary: Interpreter for the <b>Maentwrog</b> language
   byline: By Chris Pressey
@@ -1136,6 +1177,7 @@ maentwrog:
     latest: false
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
 mascarpone: 
+  type: Distribution
   title: The Mascarpone Programming Language
   summary: Reference interpreter for <b>Mascarpone</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1172,6 +1214,7 @@ mascarpone:
   references: 
   - project: emmental
 mdpn: 
+  type: Distribution
   title: The MDPN Meta-Language
   summary: <b>M</b>ulti-<b>D</b>irectional <b>P</b>attern <b>N</b>otation
   byline: Conceived by Chris Pressey
@@ -1188,6 +1231,7 @@ mdpn:
     latest: true
     url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
 mildred: 
+  type: Distribution
   title: Mildred
   summary: Homebrew Z80-based computer
   byline: Designed and constructed by Chris Pressey
@@ -1209,6 +1253,7 @@ mildred:
     latest: true
     url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
 muriel: 
+  type: Distribution
   title: The Muriel Programming Language
   summary: Interpreter for the <b>Muriel</b> language
   byline: Conceived by Matthew Westcott; this implementation by Chris Pressey
@@ -1232,6 +1277,7 @@ muriel:
     desc: Headquarters of the language itself
     url: http://demo.raww.net/muriel/
 n-dcnc: 
+  type: Distribution
   title: The 'N-DCNC Programming Language
   summary: Docs and compilers for <b>'N-DCNC</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1248,6 +1294,7 @@ n-dcnc:
     latest: true
     url: http://catseye.tc/distfiles/n-dcnc-2000.0808.zip
 nhohnhehr: 
+  type: Distribution
   title: The Nhohnhehr Programming Language
   summary: Docs and Interpreter for the <b>Nhohnhehr</b> language
   byline: Designed by Chris Pressey; implemented by Marinus
@@ -1265,6 +1312,7 @@ nhohnhehr:
     latest: true
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
 oozlybub-and-murphy: 
+  type: Distribution
   title: The Oozlybub and Murphy Programming Language
   summary: Specification of <b>Oozlybub and Murphy</b>
   byline: Conceived by Chris Pressey
@@ -1283,6 +1331,7 @@ oozlybub-and-murphy:
     latest: false
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
 openflax: 
+  type: Distribution
   title: OpenFlax
   summary: Experimental web server written in Erlang
   byline: Designed and implemented by Chris Pressey
@@ -1318,6 +1367,7 @@ openflax:
     desc: Corrections in spec for HTTP/1.1
     url: http://skrb.org/ietf/http_errata.html
 opus-2: 
+  type: Distribution
   title: Opus-2
   summary: Description of the abstract conlang <b>Opus-2</b>
   byline: Conceived by Chris Pressey
@@ -1333,6 +1383,7 @@ opus-2:
     latest: true
     url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
 pail: 
+  type: Distribution
   title: The Pail Programming Language
   summary: Interpreter and test suite for the <b>Pail</b> language
   byline: Designed and implemented by Chris Pressey
@@ -1364,6 +1415,7 @@ pail:
   references: 
   - project: pixley
 petulant: 
+  type: Distribution
   title: The PETulant Cursor
   summary: The PETulant Cursor, a tiny C64 &quot;display hack&quot;
   byline: Written by Chris Pressey
@@ -1401,6 +1453,7 @@ pibfi:
     latest: true
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
 pixley: 
+  type: Distribution
   title: The Pixley Programming Language
   summary: Reference Interpreter for <b>Pixley</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1436,6 +1489,7 @@ pixley:
   references: 
   - project: pail
 pl-goto.net: 
+  type: Distribution
   title: PL-{GOTO}.NET
   summary: MSIL compiler for <b>PL-{GOTO}</b>
   byline: Implemented by Chris Pressey
@@ -1474,6 +1528,7 @@ pl-goto.net:
     latest: false
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
 quylthulg: 
+  type: Distribution
   title: The Quylthulg Programming Language
   summary: Docs and reference interpreter for <b>Quylthulg</b>
   byline: Conceived and implemented by Chris Pressey
@@ -1511,6 +1566,7 @@ quylthulg:
     latest: false
     url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
 redgreen: 
+  type: Distribution
   title: The REDGREEN Cellular Automaton
   summary: The <b>REDGREEN</b> cellular automaton
   byline: Conceived and implemented by Chris Pressey; with Apologies to Steve Smith
@@ -1543,6 +1599,7 @@ redgreen:
   - project: rube
   - project: rube_ii
 ribos: 
+  type: Distribution
   title: Ribos
   summary: Well-commented C64 raster interrupt example
   byline: Written by Chris Pressey
@@ -1568,6 +1625,7 @@ ribos:
     latest: true
     url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
 rube: 
+  type: Distribution
   title: The RUBE Programming Language
   summary: Interpeter/debugger for the <b>RUBE</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1604,6 +1662,7 @@ rube:
   - project: rube_ii
   - project: redgreen
 rube_ii: 
+  type: Distribution
   title: 'RUBE II: Das Klickenklacker'
   summary: Interpeter for the <b>RUBE II</b> language
   byline: Derived from RUBE and implemented by John Colagioia
@@ -1624,6 +1683,7 @@ rube_ii:
   references: 
   - project: rube
 sally: 
+  type: Distribution
   title: The Sally Programming Language
   summary: Compiler for the <b>Sally</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1647,6 +1707,7 @@ sally:
     latest: true
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
 sbeezg: 
+  type: Distribution
   title: The sbeezg Programming Language
   summary: Interpreter for the <b>Sbeezg</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1663,6 +1724,7 @@ sbeezg:
     latest: true
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
 shelta: 
+  type: Distribution
   title: The Shelta Programming Language
   summary: Compilers for the <b>Shelta</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1685,6 +1747,7 @@ shelta:
     latest: true
     url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
 smetana: 
+  type: Distribution
   title: The SMETANA Programming Language
   summary: Interpreter for the <b>SMETANA</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1704,6 +1767,7 @@ smetana:
     latest: true
     url: http://catseye.tc/distfiles/smetana-2004.0227.zip
 smith: 
+  type: Distribution
   title: The SMITH Programming Language
   summary: Interpreter for the <b>SMITH</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1728,6 +1792,7 @@ smith:
     latest: true
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
 squishy2k: 
+  type: Distribution
   title: The Squishy2K Programming Language
   summary: Interpreter for the <b>Squishy2K</b> language
   byline: Designed and implemented by Chris Pressey
@@ -1744,6 +1809,7 @@ squishy2k:
     latest: true
     url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
 strelnokoff: 
+  type: Distribution
   title: The Strelnokoff Programming Language
   summary: Interpreter for the <b>Strelnokoff</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1760,6 +1826,7 @@ strelnokoff:
     latest: true
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
 super-wumpus-land: 
+  type: Distribution
   title: Super Wumpus Land
   summary: Rather odd game of <i>Super Wumpus Land</i>
   byline: Designed and implemented by Chris Pressey; based on an
@@ -1789,6 +1856,7 @@ super-wumpus-land:
     latest: true
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
 tamerlane: 
+  type: Distribution
   title: The Tamerlane Programming Language
   summary: Documents on the <b>Tamerlane</b> language
   byline: Devised by Chris Pressey
@@ -1807,6 +1875,7 @@ tamerlane:
   - project: kiceberg
   - project: granolam
 thue: 
+  type: Distribution
   title: The Thue Programming Language
   summary: Interpreter for the <b>Thue</b> language
   byline: Conceived by John Colagioia; implementations by John Colagioia and
@@ -1839,6 +1908,7 @@ thue:
     latest: true
     url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
 tpis: 
+  type: Distribution
   title: tpis - Total Procedures in Scheme
   summary: Totality-checker for Scheme procedures
   byline: Designed and implemented by Chris Pressey
@@ -1859,6 +1929,7 @@ tpis:
     latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 treacle: 
+  type: Distribution
   title: The Treacle Programming Language
   summary: Interpreter for the <b>Treacle</b> rewriting language
   byline: Designed and implemented by Chris Pressey
@@ -1881,6 +1952,7 @@ treacle:
   references: 
   - project: arboretuum
 unlikely: 
+  type: Distribution
   title: The Unlikely Programming Language
   summary: Docs and static analyzer for the <b>Unlikely</b> language
   byline: Conceived and partially implemented by Chris Pressey
@@ -1910,6 +1982,7 @@ unlikely:
     latest: false
     url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
 urreading: 
+  type: Distribution
   title: You are Reading the Name of this Esolang
   summary: <b>You are Reading the Name of this Esolang</b>
   byline: Designed by Chris Pressey
@@ -1934,6 +2007,7 @@ urreading:
     latest: false
     url: http://catseye.tc/distfiles/urreading-2007.1105.zip
 velo: 
+  type: Distribution
   title: The Velo Programming Language
   summary: Spec and Interpreter for the <b>Velo</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1953,6 +2027,7 @@ velo:
     latest: true
     url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
 version: 
+  type: Distribution
   title: The Version Programming Language
   summary: Interpreter for the <b>Version</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -1974,6 +2049,7 @@ version:
     latest: true
     url: http://catseye.tc/distfiles/version-1.0-2010.0429.zip
 whothm: 
+  type: Distribution
   title: The Whothm Drawing Language
   summary: Definition and Implementation of the <b>Whothm</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -2003,6 +2079,7 @@ whothm:
     latest: false
     url: http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip
 wierd: 
+  type: Distribution
   title: The Wierd Programming Language
   summary: Interpreters for the <b>Wierd</b> language
   byline: |-
@@ -2022,6 +2099,7 @@ wierd:
     latest: true
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
 worb: 
+  type: Distribution
   title: The noit o' mnain worb Language
   summary: Interpreter for <b>noit o' mnain worb</b>
   byline: Conceived and implemented by Chris Pressey
@@ -2068,6 +2146,7 @@ worb:
     latest: true
     url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
 xigxag: 
+  type: Distribution
   title: The Xigxag Automaton
   summary: Implementation of the <b>Xigxag</b> automaton
   byline: Conceived and implemented by Chris Pressey
@@ -2093,6 +2172,7 @@ xigxag:
     latest: false
     url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
 xoomonk: 
+  type: Distribution
   title: The Xoomonk Programming Language
   summary: Specification and tests for the <b>Xoomonk</b> language
   byline: Conceived by Chris Pressey
@@ -2107,6 +2187,7 @@ xoomonk:
     latest: true
     url: http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip
 yoob: 
+  type: Distribution
   title: yoob
   summary: The <em>yoob</em> framework for esolang implementation
   byline: Designed and implemented by Chris Pressey
@@ -2144,6 +2225,7 @@ yoob:
     latest: false
     url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
 ypsilax: 
+  type: Distribution
   title: The Ypsilax Programming Language
   summary: Interpreter for the <b>Ypsilax</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -2192,6 +2274,7 @@ ypsilax:
     latest: true
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
 yucca: 
+  type: Distribution
   title: yucca
   summary: Static analyzer for 8-bit BASIC programs
   byline: 
@@ -2217,6 +2300,7 @@ yucca:
     latest: true
     url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
 zowie: 
+  type: Distribution
   title: The ZOWIE Programming Language
   summary: Spec and Interpreter for the <b>ZOWIE</b> language
   byline: Conceived and implemented by Chris Pressey
@@ -2246,6 +2330,7 @@ zowie:
     latest: false
     url: http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip
 zzrk: 
+  type: Distribution
   title: Zzrk
   summary: Toy text adventure game of <i>Zzrk</i>
   byline: Implemented by Chris Pressey
