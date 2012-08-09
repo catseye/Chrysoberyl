@@ -2,22 +2,27 @@
 'Hunt the Wumpus':
   type: Game
   genre: Logic
+  vintage: true
   author: Gregory Yob
   abstract: |-
     The classic topological mythical-beast-hunting game, implemented in Erlang.
   implementations:
-  - 'wumpus.erl'
+  - wumpus.erl
 
 'wumpus.erl':
   type: Game Implementation
+  in-distribution: 'Hunt the Wumpus distribution'
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
+  license: BSD
   inception-date: ca 1999?
   implementation-language: Erlang
 
 'Animals':
   type: Game
   genre: Guessing
+  vintage: true
   abstract: |-
     A classic "expert system" game.  The computer asks you to think of an
     animal, and then asks you a series of yes/no questions in an attempt to
@@ -26,12 +31,15 @@
     and adds it to its database.  In this way it "learns" about more animals
     as more games are played.
   implementations:
-  - 'animals.erl'
+  - animals.erl
 
 'animals.erl':
   type: Game Implementation
+  in-distribution: Animals distribution
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
+  license: BSD
   inception-date: ca 1999?
   implementation-language: Erlang
   interface: terminal
@@ -39,6 +47,7 @@
 'Flip':
   type: Game
   genre: Guessing
+  vintage: true
   abstract: |-
     A classic game that demonstrates simple "artificial intelligence".
   implementations:
@@ -46,8 +55,11 @@
 
 'flip.erl':
   type: Game Implementation
+  in-distribution: Flip distribution
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
+  license: BSD
   inception-date: ca 1999?
   implementation-language: Erlang
   interface: terminal
@@ -55,6 +67,7 @@
 'Sokoban':
   type: Game
   genre: Puzzle
+  vintage: false
   abstract: |-
     The classic Japanese game about lean manufacturing (well, sort of).
   implementations:
@@ -62,8 +75,11 @@
 
 'esoko':
   type: Game Implementation
+  in-distribution: esoko distribution
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
+  license: BSD
   inception-date: ca 1999?
   implementation-language: Erlang
   run-requirements: Tk/Tcl

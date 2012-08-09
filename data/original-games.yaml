@@ -5,7 +5,8 @@
   - Maze Game
   - Video Game
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca 1988?
   abstract: |-
     A video game written for the Commodore 64 where you must
@@ -17,9 +18,12 @@
   - 'Bubble Escape: BASIC'
   - 'Bubble Escape 2K'
   - 'Bubble Escape 8K'
+  reference-distribution: 'Bubble Escape distribution'
 
 'Bubble Escape: BASIC':
   type: Game Implementation
+  in-distribution: 'Bubble Escape distribution'
+  license: BSD
   implementation-language: Commodore BASIC 2.0
   run-requirements:
   - Commodore 64
@@ -27,15 +31,21 @@
 
 'Bubble Escape 2K':
   type: Game Implementation
+  in-distribution: 'Bubble Escape distribution'
+  license: BSD
   implementation-language: 6502 Assembler (Ophis 2.0)
   build-requirements:
   - CRUNCHER AB+
   run-requirements:
   - Commodore 64
+  online-implementations:
+  - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
   controls: joystick
 
 'Bubble Escape 8K':
   type: Game Implementation
+  in-distribution: 'Bubble Escape distribution'
+  license: BSD
   implementation-language: 6502 Assembler (Ophis 2.0)
   run-requirements:
   - Commodore 64
@@ -45,7 +55,8 @@
   type: Game
   genre: Roguelike
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca Sep 2000
   abstract: |-
     An unfinished roguelike, written in Perl.  This was written on an engine
@@ -53,9 +64,12 @@
     Entertainment Modules.)
   implementations:
   - 'Corona: Realm of Magic: Perl'
+  reference-distribution: 'Corona: Realm of Magic distribution'
 
 'Corona: Realm of Magic: Perl':
   type: Game Implementation
+  in-distribution: 'Corona: Realm of Magic distribution'
+  license: BSD
   implementation-language: Perl 5.8
   run-requirements: ANSI Terminal
   interface: ANSI Terminal
@@ -65,17 +79,21 @@
   type: Game
   genre: Text Adventure
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca 2005
   abstract: |-
     A tiny adventure game written in "pure" Zz (a meta-language normally
     used for defining compilers.)
   implementations:
   - 'Zzrk in Zz'
+  reference-distribution: 'Zzrk distribution'
 
 'Zzrk in Zz':
   type: Game Implementation
+  in-distribution: 'Zzrk distribution'
   implementation-language: Zz
+  implemented-in-meta: true
   interface: terminal
 
 'Super Wumpus Land':
@@ -84,14 +102,18 @@
   - Text Adventure
   - Logic
   author: Chris Pressey
-  auspices: Cat's Eye Technologies
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca 1999
   abstract: |-
     An "extended dance mix" version of [[Hunt the Wumpus]].
   implementations:
   - 'swl'
+  reference-distribution: 'Super Wumpus Land distribution'
 
 'swl':
   type: Game Implementation
+  in-distribution: 'Super Wumpus Land distribution'
+  license: BSD
   implementation-language: Perl 5.8
   interface: terminal

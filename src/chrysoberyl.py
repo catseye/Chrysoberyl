@@ -35,12 +35,13 @@ def check_chrysoberyl_data(data):
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
 
-      if type_ == 'Distribution' and False:
-          assert 'distribution-of' in thing, \
-              "Distribution '%s' does not say what it is of" % key
-          assert thing['distribution-of'] in data, \
-              "Distribution '%s' is of non-existant '%s'" % \
-              (key, thing['distribution-of'])
+      if type_ == 'Distribution':
+          #assert 'distribution-of' in thing, \
+          #   "Distribution '%s' does not say what it is of" % key
+          if 'distribution-of' in thing:
+              assert thing['distribution-of'] in data, \
+                  "Distribution '%s' is of non-existant '%s'" % \
+                  (key, thing['distribution-of'])
 
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])

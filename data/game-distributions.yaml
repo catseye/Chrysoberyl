@@ -1,17 +1,6 @@
-animals: 
+'Animals distribution': 
   type: Distribution
-  title: The Game of Animals
-  summary: Classic game of <i>Animals</i>
-  byline: Implemented in Erlang by Chris Pressey
-  abstract: |-
-    <p>Animals is a classic game that demonstrates an <dfn>expert system</dfn>.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - game
-  - vintage
+  distribution-of: Animals
   releases: 
   - version: "1.0"
     revision: "2004.0919"
@@ -21,38 +10,12 @@ animals:
     revision: "2010.0429"
     latest: true
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
-bubble-escape: 
+'Bubble Escape distribution': 
   type: Distribution
-  title: Bubble Escape
-  summary: The tiny C64 video game <i>Bubble Escape 2K</i>
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>A video game I wrote for the Commodore 64 where you must
-        guide a bubble through a multi-screen maze.  Was originally written
-        in BASIC by a young me in the 80's.  Was rewritten in 6502 assembly
-        language by a middle-aged me in the late oughts.  Was pared down so
-        that (crunched) it fit into 2K, and was submitted to the
-        <em>Mini Game Competition 2009</em>
-        where (surprisingly, to me!) it got first place in its class.</p>
-        <p>This distribution contains the original version, binaries and
-        source code for the 2K version, and an 8K cartridge version.</p>
-  develop: |-
-    Bubble Escape is hosted in a
-         <a class="external" href="https://bitbucket.org/catseye/bubble-escape/">Mercurial repo on Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Bubble-Escape">git mirror on githib</a>.
-  develop: |-
-    You can now play Bubble Escape 2K online
-        in a Java applet (JaC64) in our
-        <a href="http://catseye.tc/gallery/c64/bubble-escape-2k/">Commodore 64 Gallery</a>.
-        Try it!  Enjoy!
-  language: None
-  esowiki: None
-  keywords: 
-  - basic
-  - bsdl
-  - game
-  - cbm
-  - interact
+  distribution-of: Bubble Escape
+  bitbucket: 'https://bitbucket.org/catseye/bubble-escape/'
+  github: 'https://github.com/catseye/Bubble-Escape.git'
+  issue-tracker: 'https://github.com/catseye/Bubble-Escape/issues'
   releases: 
   - version: "1.0"
     revision: "2012.0520"
@@ -62,70 +25,30 @@ bubble-escape:
     revision: "2009.0707"
     latest: false
     url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
-corona-realm-of-magic: 
+'Corona: Realm of Magic distribution': 
   type: Distribution
-  title: 'Corona: Realm of Magic'
-  summary: 'Elaborate roguelike <i>Corona: Realm of Magic</i> in Perl'
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>Corona: Realm of Magic is an elaborate roguelike coded in Perl.  Development of this game
-        was abandoned years ago, but the sources are retained here for historical preservation.</p>
-  develop: |-
-    Although Corona: Realm of Magic is no longer being actively developed, its sources are stored in a 
-         <a class="external" href="https://bitbucket.org/catseye/corona-realm-of-magic/">Mercurial repository</a> hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - perl
+  distribution-of: 'Corona: Realm of Magic'
+  bitbucket: 'https://bitbucket.org/catseye/corona-realm-of-magic/'
   releases: 
   - version: "0.19"
     revision: "2000.1204"
     latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
-flip: 
+'Flip distribution': 
   type: Distribution
-  title: The Game of FLIP
-  summary: Venerable and ancient game of <i>FLIP</i>
-  byline: Implemented in Erlang by Chris Pressey
-  abstract: |-
-    <p>A classic game that demonstrates simple
-    &quot;artificial intelligence&quot;.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - game
-  - vintage
+  distribution-of: Flip
+  bitbucket: 'https://bitbucket.org/catseye/flip/'
+  github: 'https://github.com/catseye/Flip.git'
   releases: 
   - version: "1.0"
     revision: "2002.0731"
     latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
-super-wumpus-land: 
+'Super Wumpus Land distribution': 
   type: Distribution
-  title: Super Wumpus Land
-  summary: Rather odd game of <i>Super Wumpus Land</i>
-  byline: Designed and implemented by Chris Pressey; based on an
-          original game by Gregory Yob
-  abstract: |-
-    <p>A very involved variation of the classic game of
-           Hunt the Wumpus.</p>
-  develop: |-
-    Super Wumpus Land
-        <a class="external" href="https://bitbucket.org/catseye/super-wumpus-land/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Super-Wumpus-Land">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - perl
-  - vintage
+  distribution-of: Super Wumpus Land
+  bitbucket: 'https://bitbucket.org/catseye/super-wumpus-land/'
+  github: 'https://github.com/catseye/Super-Wumpus-Land.git'
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -135,21 +58,11 @@ super-wumpus-land:
     revision: "2007.1216"
     latest: true
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
-zzrk: 
+'Zzrk distribution': 
   type: Distribution
-  title: Zzrk
-  summary: Toy text adventure game of <i>Zzrk</i>
-  byline: Implemented by Chris Pressey
-  abstract: |-
-    <p>Zzrk is a toy text adventure game written in &quot;100% pure Zz&quot; — assuming such
-    a concept even makes sense, given that Zz is a dynamic meta-language that might be
-    better described as a self-modifying grammar.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - game
-  - meta
+  distribution-of: Zzrk
+  bitbucket: 'https://bitbucket.org/catseye/zzrk/'
+  github: 'https://github.com/catseye/zzrk.git'
   releases: 
   - version: "1.0"
     revision: "2012.0616"
