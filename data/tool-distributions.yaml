@@ -1,26 +1,11 @@
 # encoding: UTF-8
-# also contains libraries (like Console::Virtual) but not frameworks (like yoob)
-console-virtual: 
+# also contains libraries (like Console::Virtual) and frameworks (like yoob)
+'Console::Virtual distribution': 
   type: Distribution
-  title: Console::Virtual
-  summary: Perl package for simulating a virtual console
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p><code>Console::Virtual</code> is a simple, lightweight abstraction layer which allows Perl code to interact
-        with the user through a console, which is emulated on whatever user interface is really available.</p>
-  develop: |-
-    <code>Console::Virtual</code>
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/console-virtual/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - lib
-  - perl
-  - ui
+  distribution-of: 'Console::Virtual'
+  bitbucket: 'https://bitbucket.org/catseye/console-virtual/'
+  issue-tracker: 'https://bitbucket.org/catseye/console-virtual/issues'
+  project-page: 'http://catseye.tc/projects/console-virtual/'
   releases: 
   - version: "2.0"
     revision: "2007.1122"
@@ -30,39 +15,22 @@ console-virtual:
     revision: "2003.0325"
     latest: false
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
-crone: 
+'crone distribution': 
   type: Distribution
-  title: crone
-  summary: Simple <tt>cron</tt>-like scheduler
-  byline: 
-  abstract: |-
-    <p>A simple <code>cron</code>-like facility written in Erlang.  Unlike most <code>cron</code>s, it does
-        not periodically activate and run whatever tasks are due to run; instead it calculates the amount of time between
-        now and when the next is due to run and sleeps exactly that long.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - util
+  distribution-of: crone
+  bitbucket: 'https://bitbucket.org/catseye/crone/'
+  github: 'https://github.com/catseye/crone.git'
+  issue-tracker: 'https://github.com/catseye/crone/issues'
+  project-page: 'http://catseye.tc/projects/crone/'
   releases: 
   - version: "1.0"
     revision: "2004.0301"
     latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
-falderal: 
+# needs cleanup after this point
+'Falderal distribution': 
   type: Distribution
-  title: 'Falderal: Literate Testing for Languages'
-  summary: Literate Testing framework for Literate Haskell
-  byline: 
-  abstract: |-
-    <p>Falderal is a file format for literate test suites.  It is particularly
-    suited for documenting programming languages (or other specifications of
-    ways to transform text) and testing their implementation(s) in a
-    language-agnostic fashion.  The dumbed-down sound-bite version: &quot;doctests
-    for DSLs&quot;.  <code>Test.Falderal</code> is the reference implementation, in Haskell,
-    of tools for formatting and running tests written in Falderal.
-    </p>
+  distribution-of: Falderal
   develop: |-
     Falderal
          <a class="external" href="https://bitbucket.org/catseye/falderal/">development</a>,
@@ -101,7 +69,7 @@ falderal:
     revision: "2011.0517"
     latest: false
     url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
-openflax: 
+'OpenFlax distribution': 
   type: Distribution
   title: OpenFlax
   summary: Experimental web server written in Erlang
@@ -121,54 +89,15 @@ openflax:
     revision: "2004.0919"
     latest: true
     url: http://catseye.tc/distfiles/openflax-2004.0919.zip
-  references: 
-  - title: Inets
-    desc: Standard Erlang Webserver
-    url: http://www.erlang.org/doc/r9b/lib/inets-3.0/doc/
-  - title: yaws
-    desc: High-Performance Erlang Webserver
-    url: http://sourceforge.net/projects/erlyaws/
-  - title: 'femto'
-    desc: Tiny Erlang Webserver
-    url: http://www.sics.se/~joe/tutorials/web_server/web_server.html
-  - title: RFC 2616
-    desc: Spec for HTTP/1.1
-    url: http://www.ietf.org/rfc/rfc2616.txt
-  - title: RFC 2616 Errata
-    desc: Corrections in spec for HTTP/1.1
-    url: http://skrb.org/ietf/http_errata.html
-tpis: 
+'TPiS distribution': 
   type: Distribution
-  title: tpis - Total Procedures in Scheme
-  summary: Totality-checker for Scheme procedures
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>This is a static analyzer, written in Scheme, which can check if
-    given Scheme procedures are total (always terminate, on any input) by checking that
-    they are specified primitive-recursively.  What's more, it is written almost entirely in
-    a primitive-recursive style, so it can check itself!</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - scheme
-  - util
   releases: 
   - version: "1.0"
     revision: "2006.0528"
     latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
-yoob: 
+'yoob distribution': 
   type: Distribution
-  title: yoob
-  summary: The <em>yoob</em> framework for esolang implementation
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p><em>yoob</em> is a framework for implementing esoteric
-        programming languages in Java. It aims to make it easy for a user
-        to experiment with a large number of esolangs with a minimal
-        install burden (i.e. in a Java applet), and to make it easy for
-        designers to rapidly implement and showcase their esolangs.</p>
   develop: |-
     yoob
          <a class="external" href="https://bitbucket.org/catseye/yoob/">development</a>,
@@ -176,17 +105,6 @@ yoob:
          <a class="external" href="https://bitbucket.org/catseye/yoob/issues">issue tracker</a> are hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/yoob">git mirror on githib</a>.
-  develop: |-
-    You can experiment online with the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: None
-  esowiki: yoob
-  keywords: 
-  - 2d
-  - eso
-  - java
-  - lang
-  - pd
-  - interact
   releases: 
   - version: "0.3"
     revision: "2011.0920"
@@ -196,27 +114,14 @@ yoob:
     revision: "2011.0624"
     latest: false
     url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
-yucca: 
+'yucca distribution': 
   type: Distribution
-  title: yucca
-  summary: Static analyzer for 8-bit BASIC programs
-  byline: 
-  abstract: |-
-    <p><code>yucca</code> is a dialect-agnostic static analyzer for 8-bit BASIC
-        programs.  It can find <code>GOTO</code>'s and <code>GOSUB</code>'s
-        which refer to non-existent line numbers, or line numbers which contain only
-        a <code>REM</code>, among a few other modest features.</p>
+  distribution-of: yucca
   develop: |-
     yucca
          <a class="external" href="https://bitbucket.org/catseye/yucca/">development</a> is hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/yucca">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - mitl
-  - py
-  - util
   releases: 
   - version: "1.0"
     revision: "2012.0610"

@@ -26,13 +26,21 @@ def load_chrysoberyl_dir(dirname):
 
 def check_chrysoberyl_data(data):
     for key in data:
-      assert 'type' in data[key], \
+      thing = data[key]
+      assert 'type' in thing, \
           "'%s' does not specify a type" % key
-      type_ = data[key]['type']
+      type_ = thing['type']
       assert type_ in data, \
           "'%s' specifies undefined type '%s'" % (key, type_)
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
+
+      if type_ == 'Distribution' and False:
+          assert 'distribution-of' in thing, \
+              "Distribution '%s' does not say what it is of" % key
+          assert thing['distribution-of'] in data, \
+              "Distribution '%s' is of non-existant '%s'" % \
+              (key, thing['distribution-of'])
 
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])

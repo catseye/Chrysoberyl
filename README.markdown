@@ -37,6 +37,8 @@ whose `type` is `type`.)
 Each node may have any of the following fields:
 
 *   `abstract` or `description` (equivalent)
+*   `summary`
+*   `subtitle`
 *   ...
 
 In addition, nodes of particular types may have fields that have meaning
@@ -55,6 +57,11 @@ A language may also have multiple implementations.  Each implementation
 may or may not be in a distribution; a distribution may contain
 multiple implementations.  Only one implementation can be the reference
 implementation for a language.
+
+A distribution has releases and, often, can be checked out of some version
+control system, and, often, has a place to report bugs.  An implementation,
+by itself, has none of those things (at least not in a structured way -- it
+might simply be a page on a wiki somewhere.)
 
 Any tool which understands a language may be considered an implementation:
 an interpreter, a compiler, a parser, a static analyzer, a pretty-printer,
