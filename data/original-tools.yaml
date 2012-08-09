@@ -1,5 +1,10 @@
 # encoding: UTF-8
 # also contains libraries (like Console::Virtual) and frameworks (like yoob)
+# Note: need to list implementations in here too.
+# Note: arguably:
+# - Falderal is a language, and the testing tools are implementations of it
+# - TPiS is an implementation of Scheme (a static checker) 
+# - yucca is an implementation of BASIC (a static checker) 
 'Console::Virtual':
   type: Library
   summary: Package for simulating a virtual console
@@ -12,7 +17,10 @@
     allows a program to interact with the user through a console, which
     is emulated on whatever user interface is really available.
   inception-date: ca 2003
+  implementations:
+  - 'Console::Virtual (Perl module)'
   reference-distribution: 'Console::Virtual distribution'
+
 crone: 
   type: Tool
   summary: Simple, non-polling cron-like scheduler
@@ -26,7 +34,10 @@ crone:
     it calculates the amount of time between now and when the next is due
     to run, and sleeps exactly that long.
   inception-date: Unknown
+  implementations:
+  - crone (Erlang)
   reference-distribution: 'crone distribution'
+
 Falderal: 
   type: Tool
   subtitle: Literate Testing for Languages
@@ -43,7 +54,11 @@ Falderal:
     "doctests for DSLs".  It can be embedded in both Markdown and Literate
     Haskell.
   inception-date: 2011
+  implementations:
+  - Falderal (Haskell)
+  - py-falderal
   reference-distribution: 'Falderal distribution'
+
 OpenFlax: 
   type: Tool
   summary: Experimental Erlang web server
@@ -55,6 +70,8 @@ OpenFlax:
     OpenFlax is an experimental open-source web server written in 100% Erlang,
     designed with security and simplicity in mind.
   inception-date: ca 2002
+  implementations:
+  - OpenFlax (Erlang)
   reference-distribution: 'OpenFlax distribution'
   references: 
   - title: Inets
@@ -72,6 +89,7 @@ OpenFlax:
   - title: RFC 2616 Errata
     description: Corrections in spec for HTTP/1.1
     url: http://skrb.org/ietf/http_errata.html
+
 TPiS: 
   type: Tool
   subtitle: Total Procedures in Scheme
@@ -85,7 +103,10 @@ TPiS:
     is written almost entirely in a primitive-recursive style, so it can
     check itself!
   inception-date: Unknown
+  implementations:
+  - TPiS (Scheme)
   reference-distribution: 'TPiS distribution'
+
 yoob: 
   type: Tool
   summary: A framework for interactive esolang implementation
@@ -102,8 +123,11 @@ yoob:
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   inception-date: Unknown
+  implementations:
+  - yoob (Java)
   reference-distribution: 'yoob distribution'
   esowiki: yoob
+
 yucca: 
   type: Tool
   summary: Static analyzer for 8-bit BASIC programs
@@ -117,4 +141,6 @@ yucca:
     which refer to non-existent line numbers, or line numbers which contain
     only a `REM`, among a few other modest features.
   inception-date: 2012
+  implementations:
+  - yucca (Python)
   reference-distribution: 'yucca distribution'

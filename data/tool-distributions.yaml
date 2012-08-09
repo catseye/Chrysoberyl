@@ -1,5 +1,4 @@
 # encoding: UTF-8
-# also contains libraries (like Console::Virtual) and frameworks (like yoob)
 'Console::Virtual distribution': 
   type: Distribution
   distribution-of: 'Console::Virtual'
@@ -15,6 +14,7 @@
     revision: "2003.0325"
     latest: false
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
+
 'crone distribution': 
   type: Distribution
   distribution-of: crone
@@ -27,23 +27,14 @@
     revision: "2004.0301"
     latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
-# needs cleanup after this point
+
 'Falderal distribution': 
   type: Distribution
   distribution-of: Falderal
-  develop: |-
-    Falderal
-         <a class="external" href="https://bitbucket.org/catseye/falderal/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/falderal/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/falderal/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Falderal">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - hs
-  - util
+  bitbucket: 'https://bitbucket.org/catseye/falderal/'
+  github: 'https://github.com/catseye/Falderal.git'
+  issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
+  project-page: 'http://catseye.tc/projects/falderal/'
   releases: 
   - version: "0.6"
     revision: "2012.0102"
@@ -69,42 +60,34 @@
     revision: "2011.0517"
     latest: false
     url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
+
+# needs cleanup after this point
+
 'OpenFlax distribution': 
   type: Distribution
-  title: OpenFlax
-  summary: Experimental web server written in Erlang
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p>OpenFlax is an experimental open-source web server written in 100% Erlang,
-    designed with security and simplicity in mind.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - util
-  - www
+  distribution-of: OpenFlax
   releases: 
   - version: "1.0"
     revision: "2004.0919"
     latest: true
     url: http://catseye.tc/distfiles/openflax-2004.0919.zip
+
 'TPiS distribution': 
   type: Distribution
+  distribution-of: TPiS
   releases: 
   - version: "1.0"
     revision: "2006.0528"
     latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
+
 'yoob distribution': 
   type: Distribution
-  develop: |-
-    yoob
-         <a class="external" href="https://bitbucket.org/catseye/yoob/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/yoob/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/yoob/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/yoob">git mirror on githib</a>.
+  distribution-of: yoob
+  bitbucket: 'https://bitbucket.org/catseye/yoob/'
+  github: 'https://github.com/catseye/yoob.git'
+  issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
+  project-page: 'http://catseye.tc/projects/yoob/'
   releases: 
   - version: "0.3"
     revision: "2011.0920"
@@ -114,14 +97,14 @@
     revision: "2011.0624"
     latest: false
     url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
+
 'yucca distribution': 
   type: Distribution
   distribution-of: yucca
-  develop: |-
-    yucca
-         <a class="external" href="https://bitbucket.org/catseye/yucca/">development</a> is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/yucca">git mirror on githib</a>.
+  bitbucket: 'https://bitbucket.org/catseye/yucca/'
+  github: 'https://github.com/catseye/yucca.git'
+  issue-tracker: 'https://github.com/catseye/yucca/issues'
+  project-page: 'http://catseye.tc/projects/yucca/'
   releases: 
   - version: "1.0"
     revision: "2012.0610"
