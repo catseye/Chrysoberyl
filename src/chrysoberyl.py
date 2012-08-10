@@ -64,8 +64,6 @@ def check_chrysoberyl_data(data):
                   "Distribution '%s' is of non-existant '%s'" % \
                   (key, node['distribution-of'])
 
-      check_list_ref(data, key, node, 'implementations')
-
       # this only makes sense for Distributions:
       # (and it has multiple possible types)
       check_optional_scalar_ref(data, key, node, 'distribution-of')
@@ -73,8 +71,16 @@ def check_chrysoberyl_data(data):
       check_optional_scalar_ref(data, key, node, 'license', type_='License')
       check_optional_scalar_ref(data, key, node, 'in-distribution',
                                 type_='Distribution')
-      # this only makes sense for Games and Programming Languages:
+      check_optional_scalar_ref(data, key, node, 'host-language',
+                                type_='Programming Language')
+      # ... these only make sense for compilers ...
+      check_optional_scalar_ref(data, key, node, 'source-language',
+                                type_='Programming Language')
+      check_optional_scalar_ref(data, key, node, 'target-language',
+                                type_='Programming Language')
+      # these only make sense for Games and Programming Languages:
       check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
+      check_list_ref(data, key, node, 'implementations')
 
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])

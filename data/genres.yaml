@@ -6,6 +6,8 @@ Joke language:
   type: Genre
 Pedagogical language:
   type: Genre
+Production language:
+  type: Genre
 
 Guessing:
   type: Genre

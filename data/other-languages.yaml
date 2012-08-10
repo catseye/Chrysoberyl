@@ -1,0 +1,31 @@
+ANSI C:
+  type: Programming Language
+  genre: Production language
+C99:
+  type: Programming Language
+  genre: Production language
+Java:
+  type: Programming Language
+  genre: Production language
+Perl:
+  type: Programming Language
+  genre: Production language
+Python:
+  type: Programming Language
+  genre: Production language
+Haskell:
+  type: Programming Language
+  genre: Production language
+Erlang:
+  type: Programming Language
+  genre: Production language
+Lua:
+  type: Programming Language
+  genre: Production language
+MSIL:
+  type: Programming Language
+  genre: Production language
+# heh.  for sf2tab:
+lookup table:
+  type: Programming Language
+  genre: Production language

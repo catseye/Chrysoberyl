@@ -94,7 +94,7 @@ sf2tab:
   reference: no
   license: BSD
   source-language: Smallfuck
-  host-language: C
+  host-language: ANSI C
   target-language: lookup table
   implementation-type: compiler
   abstract: |-
@@ -119,7 +119,7 @@ stringie:
   reference: no
   license: Public Domain
   source-language: Underload
-  host-language: C
+  host-language: ANSI C
   implementation-type: interpreter
   abstract: |-
     Seeing that there was no *non*-pathological implementation of Alex Smith's
