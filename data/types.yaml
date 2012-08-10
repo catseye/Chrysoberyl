@@ -5,6 +5,8 @@ Distribution:
   type: type
 License:
   type: type
+Implementation Type:
+  type: type
 Genre:
   type: type
 Game:

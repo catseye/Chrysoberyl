@@ -5,3 +5,5 @@ MIT:
   type: License
 Public Domain:
   type: License
+Unknown license:
+  type: License

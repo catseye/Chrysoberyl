@@ -25,6 +25,8 @@ def load_chrysoberyl_dir(dirname):
     return data
 
 def check_scalar_ref(data, key, node, property, type_=None):
+    assert property in node, \
+        "'%s' does not specify a %s" % (key, property)
     value = node[property]
     assert value in data, \
         "'%s' has undefined %s '%s'" % (key, property, value)
@@ -59,28 +61,32 @@ def check_chrysoberyl_data(data):
       if type_ == 'Distribution':
           #assert 'distribution-of' in node, \
           #   "Distribution '%s' does not say what it is of" % key
-          if 'distribution-of' in node:
-              assert node['distribution-of'] in data, \
-                  "Distribution '%s' is of non-existant '%s'" % \
-                  (key, node['distribution-of'])
+          # this only makes sense for Distributions:
+          # (and it has multiple possible types)
+          check_optional_scalar_ref(data, key, node, 'distribution-of')
 
-      # this only makes sense for Distributions:
-      # (and it has multiple possible types)
-      check_optional_scalar_ref(data, key, node, 'distribution-of')
       # these only make sense for Language Implementations:
-      check_optional_scalar_ref(data, key, node, 'license', type_='License')
-      check_optional_scalar_ref(data, key, node, 'in-distribution',
-                                type_='Distribution')
-      check_optional_scalar_ref(data, key, node, 'host-language',
-                                type_='Programming Language')
-      # ... these only make sense for compilers ...
-      check_optional_scalar_ref(data, key, node, 'source-language',
-                                type_='Programming Language')
-      check_optional_scalar_ref(data, key, node, 'target-language',
-                                type_='Programming Language')
+      if type_ == 'Language Implementation':
+          check_scalar_ref(data, key, node, 'license', type_='License')
+          check_optional_scalar_ref(data, key, node, 'in-distribution',
+                                    type_='Distribution')
+          check_scalar_ref(data, key, node, 'host-language',
+                           type_='Programming Language')
+          check_scalar_ref(data, key, node, 'implementation-type',
+                           type_='Implementation Type')
+          # ... these only make sense for compilers ...
+          if node['implementation-type'] == 'compiler':
+              check_scalar_ref(data, key, node, 'source-language',
+                               type_='Programming Language')
+              check_scalar_ref(data, key, node, 'target-language',
+                               type_='Programming Language')
+
       # these only make sense for Games and Programming Languages:
-      check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
-      check_list_ref(data, key, node, 'implementations')
+      if type_ in ['Game', 'Programming Language']:
+          check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
+          check_optional_scalar_ref(data, key, node, 'reference-distribution',
+                                    type_='Distribution')
+          check_list_ref(data, key, node, 'implementations')
 
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])

@@ -38,6 +38,7 @@ Muriel:
 
 muriel.pl:
   type: Language Implementation
+  in-distribution: Muriel distribution
   reference: no
   license: BSD
   source-language: Muriel
@@ -51,10 +52,9 @@ muriel.pl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  development:
-    github: https://github.com/catseye/Muriel
-    bitbucket: https://bitbucket.org/catseye/muriel/
-  releases: []
+  github: https://github.com/catseye/Muriel.git
+  bitbucket: https://bitbucket.org/catseye/muriel/
+
 
 VALGOL:
   type: Programming Language

@@ -191,8 +191,15 @@ Maentwrog:
     Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
     probably counts as Chris Pressey's first proper programming language.
     It was implemented on his Amiga 500 in 1993, then lost and unearthed
-    multiple times.  It is hardly remarkable, save that it spawned Befunge-93.
+    multiple times.  It is hardly remarkable, save that it spawned [[Befunge-93]].
   commentary: |-
+    There are no extant example programs from the time the language was first
+    implemented — I tried writing the Sieve of Eratosthenes in it once,
+    but never got it to work, probably because `==` was not
+    implemented correctly.  Recently, example programs and a description of the
+    language (which has become the provisional spec) have been provided by
+    Marinus — thanks Marinus!
+    
     Maentwrog is the name of a town in Wales, but the usage of its name
     for this language came via Douglas Adams' "The Meaning of Liff",
     wherein it is defined thusly:
@@ -217,3 +224,11 @@ Maentwrog:
   computational-class: known not Turing-complete
   implemented: true
   reference-distribution: Maentwrog distribution
+
+maentw.c:
+  type: Language Implementation
+  in-distribution: Maentwrog distribution
+  license: Unknown license
+  reference: yes
+  implementation-type: interpreter
+  host-language: ANSI C

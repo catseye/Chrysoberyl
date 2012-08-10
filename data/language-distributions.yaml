@@ -479,6 +479,7 @@ emmental:
     url: http://catseye.tc/distfiles/emmental-2007.1111.zip
   references: 
   - project: mascarpone
+
 etcha: 
   type: Distribution
   title: The Etcha Programming Language
@@ -499,6 +500,7 @@ etcha:
     revision: "2009.1004"
     latest: true
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
+
 fbbi: 
   type: Distribution
   title: Flaming Bovine Befunge Interpreter
@@ -534,6 +536,7 @@ fbbi:
     url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
   references: 
   - project: funge98
+
 flobnar: 
   type: Distribution
   title: The Flobnar Programming Language
@@ -563,6 +566,7 @@ flobnar:
     url: http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip
   references: 
   - project: befunge93
+
 funge98: 
   type: Distribution
   title: The Funge-98 Programming Language Family
@@ -588,6 +592,7 @@ funge98:
   references: 
   - project: fbbi
   - project: befunge93
+
 granolam: 
   type: Distribution
   title: The GraNoLa/M Programming Language
@@ -608,6 +613,7 @@ granolam:
   references: 
   - project: tamerlane
   - project: kiceberg
+
 hev: 
   type: Distribution
   title: The Hev Programming Language
@@ -634,6 +640,7 @@ hev:
     revision: "2010.0427"
     latest: true
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
+
 hunter: 
   type: Distribution
   title: The Hunter Programming Language
@@ -666,6 +673,7 @@ hunter:
     revision: "2011.1031"
     latest: true
     url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
+
 illberon: 
   type: Distribution
   title: The Illberon Programming Language
@@ -690,6 +698,7 @@ illberon:
   - project: illgol
   - project: illgola-2
   - project: illgolpp
+
 illgol: 
   type: Distribution
   title: The ILLGOL Programming Language
@@ -717,6 +726,7 @@ illgol:
   - project: illgola-2
   - project: illberon
   - project: illgolpp
+
 illgola-2: 
   type: Distribution
   title: The Illgola-2 Programming Language
@@ -744,6 +754,7 @@ illgola-2:
   - project: illgol
   - project: illberon
   - project: illgolpp
+
 illgolpp: 
   type: Distribution
   title: Open Sores Illgol##
@@ -771,6 +782,7 @@ illgolpp:
   - project: illgol
   - project: illgola-2
   - project: illberon
+
 iphigeneia: 
   type: Distribution
   title: The Iphigeneia Programming Language
@@ -795,6 +807,7 @@ iphigeneia:
     revision: "2007.1125"
     latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
+
 jaccia: 
   type: Distribution
   title: The Jaccia and Jacciata Cellular Automata
@@ -816,6 +829,7 @@ jaccia:
     revision: "2010.0205"
     latest: true
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
+
 kiceberg: 
   type: Distribution
   title: The Kangaroo Iceberg Programming Language
@@ -844,6 +858,7 @@ kiceberg:
   references: 
   - project: tamerlane
   - project: granolam
+
 larabee: 
   type: Distribution
   title: The Larabee Programming Language
@@ -869,6 +884,7 @@ larabee:
     revision: "2008.0110"
     latest: false
     url: http://catseye.tc/distfiles/larabee-2008.0110.zip
+
 madison: 
   type: Distribution
   title: The Madison Proof-Checking Language
@@ -886,29 +902,15 @@ madison:
     revision: "2011.1202"
     latest: true
     url: http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
-maentwrog: 
+
+Maentwrog distribution: 
   type: Distribution
-  title: The Maentwrog Programming Language
-  summary: Interpreter for the <b>Maentwrog</b> language
-  byline: By Chris Pressey
-  abstract: |-
-    <p>This oddity was the predecessor to Befunge-93.  There are no extant
-    example programs from the time — I tried writing the Sieve of Eratosthenes in it once,
-    but never got it to work, probably because <code>==</code> was not
-    implemented correctly.  Recently, example programs and a description of the
-    language (which has become the provisional spec) have been provided by
-    Marinus — thanks Marinus!</p>
-        <p>Also included in this distribution, just for fun, are some other
+  description: |-
+    Also included in this distribution, just for fun, are some other
     contemporaneous C programs of mine: an RPN
     calculator which was the predecessor of Maentwrog, a simple
     recursive-descent expression parser, and a simple cellular automata
-    parser (a distant ancestor of ALPACA, perhaps?)</p>
-  language: None
-  esowiki: Maentwrog
-  keywords: 
-  - c
-  - eso
-  - lang
+    parser (a distant ancestor of [[ALPACA]], perhaps?)
   releases: 
   - version: "1.1"
     revision: "2011.0426"
@@ -918,6 +920,7 @@ maentwrog:
     revision: "2007.0930"
     latest: false
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
+
 mascarpone: 
   type: Distribution
   title: The Mascarpone Programming Language
@@ -955,6 +958,7 @@ mascarpone:
     url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
   references: 
   - project: emmental
+
 mdpn: 
   type: Distribution
   title: The MDPN Meta-Language
@@ -972,30 +976,15 @@ mdpn:
     revision: "2004.0302"
     latest: true
     url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
-muriel: 
+
+Muriel distribution: 
   type: Distribution
-  title: The Muriel Programming Language
-  summary: Interpreter for the <b>Muriel</b> language
-  byline: Conceived by Matthew Westcott; this implementation by Chris Pressey
-  abstract: |-
-    <p>This is the home of <code>muriel.pl</code>, an interpreter for
-    the Muriel language, written in Perl.</p>
-  language: None
-  esowiki: Muriel
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - perl
   releases: 
   - version: "1.0"
     revision: "2001.0323"
     latest: true
     url: http://catseye.tc/distfiles/muriel-2001.0323.zip
-  references: 
-  - title: Muriel Home Page
-    desc: Headquarters of the language itself
-    url: http://demo.raww.net/muriel/
+
 n-dcnc: 
   type: Distribution
   title: The 'N-DCNC Programming Language
@@ -1013,6 +1002,7 @@ n-dcnc:
     revision: "2000.0808"
     latest: true
     url: http://catseye.tc/distfiles/n-dcnc-2000.0808.zip
+
 nhohnhehr: 
   type: Distribution
   title: The Nhohnhehr Programming Language
@@ -1031,6 +1021,7 @@ nhohnhehr:
     revision: "2011.0510"
     latest: true
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
+
 oozlybub-and-murphy: 
   type: Distribution
   title: The Oozlybub and Murphy Programming Language
@@ -1050,6 +1041,7 @@ oozlybub-and-murphy:
     revision: "2010.1201"
     latest: false
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
+
 opus-2: 
   type: Distribution
   title: Opus-2
@@ -1066,6 +1058,7 @@ opus-2:
     revision: "2001.0325"
     latest: true
     url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
+
 pail: 
   type: Distribution
   title: The Pail Programming Language
@@ -1098,6 +1091,7 @@ pail:
     url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
   references: 
   - project: pixley
+
 petulant: 
   type: Distribution
   title: The PETulant Cursor
@@ -1118,6 +1112,7 @@ petulant:
     revision: "2008.0401"
     latest: true
     url: http://catseye.tc/distfiles/petulant-2008.0401.zip
+
 pibfi: 
   title: Platonic Ideal Brainf*ck Interpreter
   summary: Platonic Ideal <b>Brainf*ck</b> Interpreter
@@ -1136,6 +1131,7 @@ pibfi:
     revision: "2003.0505"
     latest: true
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
+
 pixley: 
   type: Distribution
   title: The Pixley Programming Language
@@ -1172,6 +1168,7 @@ pixley:
     url: http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip
   references: 
   - project: pail
+
 pl-goto.net: 
   type: Distribution
   title: PL-{GOTO}.NET
@@ -1211,6 +1208,7 @@ pl-goto.net:
     revision: "2011.0804"
     latest: false
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
+
 quylthulg: 
   type: Distribution
   title: The Quylthulg Programming Language
@@ -1249,6 +1247,7 @@ quylthulg:
     revision: "2008.1206"
     latest: false
     url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
+
 redgreen: 
   type: Distribution
   title: The REDGREEN Cellular Automaton
@@ -1282,6 +1281,7 @@ redgreen:
   references: 
   - project: rube
   - project: rube_ii
+
 ribos: 
   type: Distribution
   title: Ribos
@@ -1308,6 +1308,7 @@ ribos:
     revision: "2010.0430"
     latest: true
     url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+
 rube: 
   type: Distribution
   title: The RUBE Programming Language
@@ -1345,6 +1346,7 @@ rube:
   references: 
   - project: rube_ii
   - project: redgreen
+
 rube_ii: 
   type: Distribution
   title: 'RUBE II: Das Klickenklacker'
@@ -1366,6 +1368,7 @@ rube_ii:
     url: http://catseye.tc/distfiles/rube_ii-2001.0201.zip
   references: 
   - project: rube
+
 sally: 
   type: Distribution
   title: The Sally Programming Language
@@ -1390,6 +1393,7 @@ sally:
     revision: "2010.0721"
     latest: true
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
+
 sbeezg: 
   type: Distribution
   title: The sbeezg Programming Language
@@ -1407,6 +1411,7 @@ sbeezg:
     revision: "2002.0317"
     latest: true
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
+
 shelta: 
   type: Distribution
   title: The Shelta Programming Language
@@ -1430,6 +1435,7 @@ shelta:
     revision: "2009.0307"
     latest: true
     url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
+
 smetana: 
   type: Distribution
   title: The SMETANA Programming Language
@@ -1450,6 +1456,7 @@ smetana:
     revision: "2004.0227"
     latest: true
     url: http://catseye.tc/distfiles/smetana-2004.0227.zip
+
 smith: 
   type: Distribution
   title: The SMITH Programming Language
@@ -1475,6 +1482,7 @@ smith:
     revision: "2011.0922"
     latest: true
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
+
 squishy2k: 
   type: Distribution
   title: The Squishy2K Programming Language
@@ -1492,6 +1500,7 @@ squishy2k:
     revision: "2000.1006"
     latest: true
     url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
+
 strelnokoff: 
   type: Distribution
   title: The Strelnokoff Programming Language

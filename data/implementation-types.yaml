@@ -1,0 +1,11 @@
+# encoding: UTF-8
+interpreter:
+  type: Implementation Type
+compiler:
+  type: Implementation Type
+parser:
+  type: Implementation Type
+typechecker:
+  type: Implementation Type
+static analyzer:
+  type: Implementation Type
