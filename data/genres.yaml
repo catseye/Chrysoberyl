@@ -1,0 +1,19 @@
+# encoding: UTF-8
+# A little weird, because there are genres for both languages and games here
+Esolang:
+  type: Genre
+Joke language:
+  type: Genre
+Pedagogical language:
+  type: Genre
+
+Guessing:
+  type: Genre
+Logic:
+  type: Genre
+Text Adventure:
+  type: Genre
+Puzzle:
+  type: Genre
+Roguelike:
+  type: Genre

@@ -1,4 +1,11 @@
 # encoding: UTF-8
+brainfuck:
+  type: Programming Language
+  genre: Esolang
+  author: Urban Müller
+  implementations:
+  - pibfi
+
 pibfi:
   type: Language Implementation
   reference: no
@@ -18,6 +25,14 @@ pibfi:
   auspices:
   - Cat's Eye Technologies
   releases: []
+
+Muriel:
+  type: Programming Language
+  genre: Esolang
+  author: Matthew Westcott
+  reference-distribution: Muriel distribution
+  implementations:
+  - muriel.pl
 
 muriel.pl:
   type: Language Implementation
@@ -39,6 +54,13 @@ muriel.pl:
     bitbucket: https://bitbucket.org/catseye/muriel/
   releases: []
 
+VALGOL:
+  type: Programming Language
+  genre: Joke language
+  source-document: Lesser Known Languages List
+  implementations:
+  - valgol.erl
+
 valgol.erl:
   type: Language Implementation
   reference: no
@@ -54,6 +76,14 @@ valgol.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+
+Smallfuck:
+  type: Programming Language
+  genre: Esolang
+  author: Nikita Ayzikovsky
+  inception-date: ca 2002
+  implementations:
+  - sf2tab
 
 sf2tab:
   type: Language Implementation
@@ -71,6 +101,13 @@ sf2tab:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+
+Underload:
+  type: Programming Language
+  genre: Esolang
+  author: Alex Smith (ais523)
+  implementations:
+  - stringie
 
 stringie:
   type: Language Implementation
@@ -90,6 +127,15 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+
+'PL-{GOTO}':
+  type: Programming Language
+  genre: Pedagogical language
+  authors:
+  - Brainerd
+  - Landweber
+  implementations:
+  - 'PL-{GOTO}.NET'
 
 'PL-{GOTO}.NET':
   type: Language Implementation
@@ -113,7 +159,14 @@ stringie:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.ale':
+Ale:
+  type: Programming Language
+  genre: Esolang
+  author: David Chipping
+  implementations:
+  - tc.catseye.yoob.ale
+
+tc.catseye.yoob.ale:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -125,6 +178,13 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+
+Backflip:
+  type: Programming Language
+  genre: Esolang
+  author: Alex Smith (ais523)
+  implementations:
+  - tc.catseye.yoob.backflip
 
 'tc.catseye.yoob.backflip':
   type: Language Implementation
@@ -139,6 +199,13 @@ stringie:
   auspices:
   - Cat's Eye Technologies
 
+Black:
+  type: Programming Language
+  genre: Esolang
+  author: Alex Smith (ais523)
+  implementations:
+  - tc.catseye.yoob.black
+
 'tc.catseye.yoob.black':
   type: Language Implementation
   reference: no
@@ -151,6 +218,8 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+
+# and so on, and so forth
 
 'tc.catseye.yoob.lnusp':
   type: Language Implementation

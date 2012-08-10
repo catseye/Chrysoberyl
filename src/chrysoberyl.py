@@ -68,6 +68,8 @@ def check_chrysoberyl_data(data):
 
       check_optional_scalar_ref(data, key, node, 'license', type_='License')
 
+      check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
+
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])
     check_chrysoberyl_data(data)
