@@ -19,7 +19,12 @@ beta-Juliet:
   - Cat's Eye Technologies
   inception-date: ca 2002
   computational-class: believed Turing-complete
-  reference-distribution: 'beta-Juliet distribution'
+  paradigms:
+  - Event-oriented
+  etymology:
+  - automotive pun
+  - feminine given name
+  reference-distribution: beta-Juliet distribution
   implementations:
   - b_juliet.pl
   - 2iota
@@ -222,13 +227,114 @@ Maentwrog:
   - Cat's Eye Technologies
   inception-date: ca 1993
   computational-class: known not Turing-complete
-  implemented: true
+  implementations:
+  - maentw.c
   reference-distribution: Maentwrog distribution
 
 maentw.c:
   type: Language Implementation
   in-distribution: Maentwrog distribution
-  license: Unknown license
+  license: Freely Redistributable
   reference: yes
   implementation-type: interpreter
   host-language: ANSI C
+
+
+SMETANA:
+  type: Programming Language
+  genre: Esolang
+  esowiki: SMETANA
+  acronym-for: Self-Modifying Extremely Tiny AutomatoN Application
+  summary: A pathological little self-modifying language
+  abstract: |-
+    SMETANA is a pathological little self-modifying language with only two
+    possible operations: Go to step *n*, and Swap steps *n* and *m*.
+    It has inspired a few variants and developments, notably a proof that
+    despite its minimalism, it is finite-automata-complete; it is also the
+    (great-?)grandfather of [[SMITH]].
+  etymology:
+  - dairy product
+  - russian
+  - surname
+  sample: |-
+    Step 1. Swap step 1 with step 2.
+    Step 2. Go to step 2.
+    Step 3. Go to step 1.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1994
+  computational-class: known not Turing-complete
+  notable: true
+  reference-distribution: SMETANA distribution
+  implementations:
+  - smetana.pl
+  - tc.catseye.yoob.smetana
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
+
+smetana.pl:
+  type: Language Implementation
+  in-distribution: SMETANA distribution
+  license: Public Domain
+  reference: yes
+  implementation-type: interpreter
+  host-language: Perl
+
+tc.catseye.yoob.smetana:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+
+
+SMITH:
+  type: Programming Language
+  genre: Esolang
+  esowiki: SMITH
+  acronym-for: Self-Modifying Indecent Turing Hack
+  summary: An assembly-like language with no jumps whatsoever
+  quotation: How many nights and weird mornings can this go on?
+  quotation-attribution: Hunter S. Thompson
+  abstract: |-
+    SMITH is a self-modifying assembly-like language which completely lacks
+    any kind of jump instructions *whatsoever*.  Despite this handicap, it
+    appears to be Turing-complete.
+  etymology:
+  - surname
+  sample: |-
+    MOV R0, 10
+    MOV R2, 0
+    SUB R2, 1
+    MOV R[R0], "Hello, world!"
+    MOV TTY, R[R0]
+    SUB R0, R2
+    MOV R1, R0
+    SUB R1, 23
+    NOT R1
+    NOT R1
+    MUL R1, 8
+    COR +1, -7, R1
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca July 2000
+  computational-class: believed Turing-complete
+  notable: true
+  significant: true
+  reference-distribution: SMITH distribution
+  implementations:
+  - smith.pl
+  influences:
+  - SMETANA
+
+smith.pl:
+  type: Language Implementation
+  in-distribution: SMITH distribution
+  reference: yes
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl

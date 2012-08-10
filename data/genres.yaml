@@ -24,3 +24,5 @@ Puzzle:
   type: Genre
 Roguelike:
   type: Genre
+Video Game:
+  type: Genre

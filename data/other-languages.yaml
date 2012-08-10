@@ -1,31 +1,45 @@
 ANSI C:
   type: Programming Language
   genre: Production language
+  computational-class: Finite-automata-complete
 C99:
   type: Programming Language
   genre: Production language
+  commentary: |-
+    Generally implies POSIX, too.
+  computational-class: Finite-automata-complete
 Java:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
 Perl:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
 Python:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
+  commentary: |-
+    Mostly harmless.
 Haskell:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
 Erlang:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
 Lua:
   type: Programming Language
   genre: Production language
+  computational-class: proved Turing-complete
 MSIL:
   type: Programming Language
   genre: Production language
+  computational-class: unknown computational class
 # heh.  for sf2tab:
 lookup table:
   type: Programming Language
   genre: Production language
+  computational-class: Finite-automata-complete

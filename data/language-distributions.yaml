@@ -1354,39 +1354,18 @@ shelta:
     latest: true
     url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
 
-smetana: 
+SMETANA distribution: 
   type: Distribution
-  title: The SMETANA Programming Language
-  summary: Interpreter for the <b>SMETANA</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    You can experiment with SMETANA online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: SMETANA
-  esowiki: SMETANA
-  keywords: 
-  - eso
-  - lang
-  - pd
-  - perl
-  - interact
+  distribution-of: SMETANA
   releases: 
   - version: "1.0"
     revision: "2004.0227"
     latest: true
     url: http://catseye.tc/distfiles/smetana-2004.0227.zip
 
-smith: 
+SMITH distribution: 
   type: Distribution
-  title: The SMITH Programming Language
-  summary: Interpreter for the <b>SMITH</b> language
-  byline: Conceived and implemented by Chris Pressey
-  language: SMITH
-  esowiki: SMITH
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - perl
+  distribution-of: SMITH
   releases: 
   - version: 2.0L
     revision: 2.0L

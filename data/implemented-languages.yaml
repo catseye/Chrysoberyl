@@ -4,6 +4,7 @@ brainfuck:
   genre: Esolang
   author: Urban Müller
   esowiki: brainfuck
+  computational-class: proved Turing-complete
   implementations:
   - pibfi
 
@@ -34,6 +35,7 @@ Muriel:
   author: Matthew Westcott
   esowiki: Muriel
   reference-distribution: Muriel distribution
+  computational-class: proved Turing-complete
   implementations:
   - muriel.pl
 
@@ -62,6 +64,7 @@ VALGOL:
   genre: Joke language
   source-document: Lesser Known Languages List
   esowiki: VALGOL
+  computational-class: unknown computational class
   implementations:
   - valgol.erl
 
@@ -87,6 +90,7 @@ Smallfuck:
   genre: Esolang
   author: Nikita Ayzikovsky
   esowiki: Smallfuck
+  computational-class: Finite-automata-complete
   inception-date: ca 2002
   implementations:
   - sf2tab
@@ -113,6 +117,7 @@ Underload:
   type: Programming Language
   genre: Esolang
   author: Alex Smith (ais523)
+  computational-class: believed Turing-complete
   esowiki: Underload
   implementations:
   - stringie
@@ -143,6 +148,7 @@ stringie:
   authors:
   - Brainerd
   - Landweber
+  computational-class: Primitive recursive
   implementations:
   - 'PL-{GOTO}.NET'
 
@@ -187,6 +193,7 @@ Ale:
   genre: Esolang
   author: David Chipping
   esowiki: Ale
+  computational-class: believed Turing-complete
   implementations:
   - tc.catseye.yoob.ale
 
@@ -208,6 +215,7 @@ Backflip:
   genre: Esolang
   author: Alex Smith (ais523)
   esowiki: Backflip
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.backflip
 
@@ -229,6 +237,7 @@ Black:
   genre: Esolang
   author: Alex Smith (ais523)
   esowiki: Black
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.black
 
@@ -249,6 +258,7 @@ LNUSP:
   type: Programming Language
   genre: Esolang
   esowiki: LNUSP
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.lnusp
 
@@ -269,6 +279,7 @@ tc.catseye.yoob.lnusp:
   type: Programming Language
   genre: Esolang
   esowiki: 1L_a
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.onela
 
@@ -289,6 +300,7 @@ tc.catseye.yoob.onela:
   type: Programming Language
   genre: Esolang
   esowiki: 1L_AOI
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.onelaoi
 
@@ -309,6 +321,7 @@ PATH:
   type: Programming Language
   genre: Esolang
   esowiki: PATH
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.path
 
@@ -329,6 +342,7 @@ Qdeql:
   type: Programming Language
   genre: Esolang
   esowiki: Qdeql
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.qdeql
 
@@ -349,6 +363,7 @@ Sceql:
   type: Programming Language
   genre: Esolang
   esowiki: Sceql
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.sceql
 
@@ -369,6 +384,7 @@ SNUSP:
   type: Programming Language
   genre: Esolang
   esowiki: SNUSP
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.snusp
 
@@ -389,6 +405,7 @@ tc.catseye.yoob.snusp:
   type: Programming Language
   genre: Esolang
   esowiki: 2-ill
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.twoill
 
@@ -409,6 +426,7 @@ tc.catseye.yoob.twoill:
   type: Programming Language
   genre: Esolang
   esowiki: 2L
+  computational-class: unknown computational class
   implementations:
   - tc.catseye.yoob.twol
 

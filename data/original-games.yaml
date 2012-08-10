@@ -1,9 +1,7 @@
 # encoding: UTF-8
 'Bubble Escape':
   type: Game
-  genres:
-  - Maze Game
-  - Video Game
+  genre: Video Game
   author: Chris Pressey
   auspices:
   - Cat's Eye Technologies
@@ -98,9 +96,8 @@
 
 'Super Wumpus Land':
   type: Game
-  genres:
-  - Text Adventure
-  - Logic
+  # also Text Adventure
+  genre: Logic
   author: Chris Pressey
   auspices:
   - Cat's Eye Technologies

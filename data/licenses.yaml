@@ -5,5 +5,7 @@ MIT:
   type: License
 Public Domain:
   type: License
-Unknown license:
+Freely Redistributable:
   type: License
+  commentary: |-
+    Freely redistributable unmodified for non-commercial purposes.

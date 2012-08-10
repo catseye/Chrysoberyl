@@ -83,10 +83,14 @@ def check_chrysoberyl_data(data):
 
       # these only make sense for Games and Programming Languages:
       if type_ in ['Game', 'Programming Language']:
-          check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
+          check_scalar_ref(data, key, node, 'genre', type_='Genre')
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
                                     type_='Distribution')
           check_list_ref(data, key, node, 'implementations')
+
+      if type_ == 'Programming Language':
+          check_scalar_ref(data, key, node, 'computational-class',
+                           type_='Computational Class')
 
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])

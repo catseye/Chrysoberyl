@@ -1,0 +1,13 @@
+# encoding: UTF-8
+believed Turing-complete:
+  type: Computational Class
+proved Turing-complete:
+  type: Computational Class
+known not Turing-complete:
+  type: Computational Class
+Finite-automata-complete:
+  type: Computational Class
+unknown computational class:
+  type: Computational Class
+Primitive recursive:
+  type: Computational Class
