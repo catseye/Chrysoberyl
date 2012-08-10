@@ -21,7 +21,20 @@ beta-Juliet:
   computational-class: believed Turing-complete
   reference-distribution: 'beta-Juliet distribution'
   implementations:
-  - 'http://catseye.tc/projects/beta-juliet/'
+  - b_juliet.pl
+  - 2iota
+
+b_juliet.pl:
+  type: Language Implementation
+  in-distribution: 'beta-Juliet distribution'
+  license: BSD
+  implementation-language: Perl
+
+2iota:
+  type: Language Implementation
+  in-distribution: 'beta-Juliet distribution'
+  license: BSD
+  implementation-language: C99
 
 'Full Moon Fever':
   type: Programming Language

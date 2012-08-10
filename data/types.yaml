@@ -1,17 +1,23 @@
 # encoding: UTF-8
 type:
   type: type
-'Distribution':
+Distribution:
   type: type
-'Game':
+License:
   type: type
-'Library':
+Game:
   type: type
-'Tool':
+Game Implementation:
   type: type
-'Game Implementation':
+Library:
   type: type
-'Programming Language':
+Library Implementation:
   type: type
-'Language Implementation':
+Tool:
+  type: type
+Tool Implementation:
+  type: type
+Programming Language:
+  type: type
+Language Implementation:
   type: type
