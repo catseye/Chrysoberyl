@@ -1,4 +1,55 @@
 # encoding: UTF-8
+Befunge-93:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    One of the more popular languages I ever designed and implemented.
+    Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
+    many others.  Cited in the New Hacker's Dictionary.
+  # also: known not Turing-complete
+  computational-class: can simulate some push-down automata
+  etymology:
+  - typo
+  influences:
+  - Maentwrog
+  sample: |2
+     v    <
+    >?"/",^
+     >"\",^
+  notable: true
+  significant: true
+  quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
+  quotation-attribution: Mark Topham
+  inception-date: Sep 1993
+  reference-distribution: Befunge-93 distribution
+  implementations:
+  - bef
+  other-implementations: true
+
+bef:
+  type: Language Implementation
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: ANSI C
+
+
+Befunge-97:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    An unimplemented attempt to improve upon Befunge-93, described
+    (fairly accurately) as "brain-damaged."  This was primarily due to the
+    fact that separate processes were specified\nas sharing a single stack.
+    Quickly gave way to [[Funge-98]].
+  inception-date: Dec 25, 1997
+  etymology:
+  - typo
+  failure: true
+  influences:
+  - Befunge-93
+
+
 beta-Juliet:
   type: Programming Language
   genre: Esolang
@@ -39,7 +90,7 @@ b_juliet.pl:
 2iota:
   type: Language Implementation
   reference: true
-  in-distribution: 'beta-Juliet distribution'
+  in-distribution: beta-Juliet distribution
   license: BSD
   implementation-type: interpreter
   host-language: C99
@@ -135,6 +186,7 @@ Eightebed:
   - Cat's Eye Technologies
   inception-date: ca Sep 1, 2010
   computational-class: believed Turing-complete
+  reference-distribution: Eightebed distribution
   implementations:
   - 8ebed2c.py
 
@@ -240,6 +292,43 @@ maentw.c:
   host-language: ANSI C
 
 
+RUBE:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    RUBE is an esoteric programming language in tribute to Rube Goldberg,
+    with bulldozers pushing around numbered crates, knocking them together to
+    perform computations.  It is based on a variant of a cellular automaton called
+    a *bully automaton*, where certain state changes canforce other state changes
+    to occur elsewhere in the playfield.
+  basis-for-game: true
+  inception-date: ca Jul 10, 2007
+  etymology:
+    - masculine given name
+    - acronym
+  notable: true
+  sample: |2
+      0a21646c726f77202c6f6c6c6548
+    , :::::::::::::::::::::::::::: ,
+     )
+     ==============================
+    F
+                                   O F
+                                   c
+                                   =
+  reference-distribution: RUBE distribution
+  implementations:
+  - rube.c
+
+rube.c:
+  type: Language Implementation
+  in-distribution: RUBE distribution
+  reference: true
+  license: Freely Redistributable
+  implementation-type: interpreter
+  host-language: ANSI C
+
+
 SMETANA:
   type: Programming Language
   genre: Esolang
@@ -340,145 +429,24 @@ smith.pl:
   host-language: Perl
 
 
-Befunge-93:
-  type: Programming Language
-  genre: Esolang
-  abstract: |-
-    One of the more popular languages I ever designed and implemented.
-    Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
-    many others.  Cited in the New Hacker's Dictionary.
-  # also: known not Turing-complete
-  computational-class: can simulate some push-down automata
-  etymology:
-  - typo
-  influences:
-  - Maentwrog
-  sample: |2
-     v    <
-    >?"/",^
-     >"\",^
-  notable: true
-  significant: true
-  quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
-  quotation-attribution: Mark Topham
-  inception-date: Sep 1993
-
-bef:
-  type: Language Implementation
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: ANSI C
-
-
-Befunge-97:
-  type: Programming Language
-  genre: Esolang
-  abstract: |-
-    An unimplemented attempt to improve upon Befunge-93, described
-    (fairly accurately) as "brain-damaged."  This was primarily due to the
-    fact that separate processes were specified\nas sharing a single stack.
-    Quickly gave way to [[Funge-98]].
-  inception-date: Dec 25, 1997
-  etymology:
-  - typo
-  failure: true
-  influences:
-  - Befunge-93
-
-
-# following languages need some massaging
-
-
-RUBE:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nRUBE is an esoteric programming language in tribute to Rube Goldberg,\
-    \ with bulldozers pushing around numbered\ncrates, knocking them together to\
-    \ perform computations.  It is based on a variant of\na cellular automaton called\
-    \ a *bully automaton*, where certain state changes can\nforce other state changes\
-    \ to occur elsewhere in the playfield.\n  "
-  "basis-for-game": !!null |-
-    null
-  "day": |-
-    0710
-  etymology:
-    "nametag":
-    - |-
-      masculine given name
-    - |-
-      acronym
-  #~ "implementations":
-    #~ "implementation":
-      #~ "host-language": |-
-        #~ C
-      #~ "name": |-
-        #~ rube.c
-      #~ "reference": |-
-        #~ yes
-      #~ "type": |-
-        #~ interpreter
-  "name": |-
-    RUBE
-  "notable": !!null |-
-    null
-  "project": |-
-    rube
-  sample: |2
-      0a21646c726f77202c6f6c6c6548
-    , :::::::::::::::::::::::::::: ,
-     )
-     ==============================
-    F
-                                   O F
-                                   c
-                                   =
-  "year": |-
-    1997
-
-
 Wierd:
   type: Programming Language
   genre: Esolang
-  abstract: "\nWierd is a language, inspired somewhat by Befunge-93, where instructions\
-    \ are not determined by\nthe symbols in a sequence of symbols, but by the *bends*\
-    \ in a sequence of symbols.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "collaborators": |-
-    John Colagioia and Ben Olmstead
-  "day": |-
-    0101
+  abstract: |-
+    Wierd is a language, inspired somewhat by Befunge-93, where instructions
+    are not determined by the symbols in a sequence of symbols, but by the *bends*
+    in a sequence of symbols.
+  authors:
+  - Chris Pressey
+  - John Colagioia
+  - Ben Olmstead
+  computational-class: believed Turing-complete
+  inception-date: 1997
   etymology:
-    "nametag": |-
-      typo
-  #~ "implementations":
-    #~ "implementation":
-    #~ - "author": |-
-        #~ John Colagaoia
-      #~ "host-language": |-
-        #~ C
-      #~ "name": |-
-        #~ wierd.c
-      #~ "type": |-
-        #~ interpreter
-    #~ - "author": |-
-        #~ Milo van Handel
-      #~ "host-language": |-
-        #~ C
-      #~ "name": |-
-        #~ wierd-milo.c
-      #~ "type": |-
-        #~ interpreter
-  "influences":
-    "influence": |-
-      Befunge-93
-  "name": |-
-    Wierd
-  "notable": !!null |-
-    null
-  "project": |-
-    wierd
+  - typo
+  influences:
+  - Befunge-93
+  notable: true
   sample: |
     *
      *
@@ -495,10 +463,30 @@ Wierd:
         *    *
         * ** *
         **  *
-  "sample-credit": |-
-    Milo van Handel
-  "year": |-
-    1997
+  sample-credit: Milo van Handel
+  reference-distribution: Wierd distribution
+  implementations:
+  - wierd.c
+  - wierd-milo.c
+
+wierd.c:
+  type: Language Implementation
+  in-distribution: Wierd distribution
+  author: John Colagioia
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: ANSI C
+
+wierd-milo.c:
+  type: Language Implementation
+  in-distribution: Wierd distribution
+  author: Milo van Handel
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: ANSI C
+
+
+# following languages need some massaging
 
 
 ALPACA:
