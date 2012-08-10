@@ -1092,40 +1092,8 @@ pail:
   references: 
   - project: pixley
 
-petulant: 
+pibfi distribution: 
   type: Distribution
-  title: The PETulant Cursor
-  summary: The PETulant Cursor, a tiny C64 &quot;display hack&quot;
-  byline: Written by Chris Pressey
-  abstract: |-
-    <p>A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - asm
-  - cbm
-  - gfx
-  - pd
-  - vintage
-  releases: 
-  - version: "1.0"
-    revision: "2008.0401"
-    latest: true
-    url: http://catseye.tc/distfiles/petulant-2008.0401.zip
-
-pibfi: 
-  title: Platonic Ideal Brainf*ck Interpreter
-  summary: Platonic Ideal <b>Brainf*ck</b> Interpreter
-  byline: Implemented by Chris Pressey
-  abstract: |-
-    <p/>
-  language: None
-  esowiki: None
-  keywords: 
-  - bsdl
-  - erl
-  - eso
-  - lang
   releases: 
   - version: "1.0"
     revision: "2003.0505"
@@ -1169,32 +1137,9 @@ pixley:
   references: 
   - project: pail
 
-pl-goto.net: 
+PL-{GOTO}.NET distribution: 
   type: Distribution
-  title: PL-{GOTO}.NET
-  summary: MSIL compiler for <b>PL-{GOTO}</b>
-  byline: Implemented by Chris Pressey
-  abstract: |-
-    <p>PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
-        from Brainerd and Landweber's <i>Theory of Computation</i>
-        (1974; ISBN 0471095850). PL-{GOTO} can express exactly the
-        primitive recursive functions, and thus PL-{GOTO} programs
-        always terminate. PL-{GOTO}.NET generates MSIL code which
-        can then (using <code>ilasm</code>) be turned into a .NET
-        executable.  It can also execute PL-{GOTO} programs
-        directly.</p>
-  develop: |-
-    PL-{GOTO}.NET
-         <a class="external" href="https://bitbucket.org/catseye/pl-goto-.net/">development</a> is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/PL-GOTO.NET">git mirror on githib</a>.
-  language: None
-  esowiki: None
-  keywords: 
-  - dotnet
-  - hs
-  - lang
-  - pd
+  distribution-of: PL-{GOTO}
   releases: 
   - version: "1.1"
     revision: "2012.0619"
@@ -1281,33 +1226,6 @@ redgreen:
   references: 
   - project: rube
   - project: rube_ii
-
-ribos: 
-  type: Distribution
-  title: Ribos
-  summary: Well-commented C64 raster interrupt example
-  byline: Written by Chris Pressey
-  abstract: |-
-    <p>A simple Commodore 64 graphics demo that uses the raster interrupt facility
-    of the VIC-II chip: the colour of the border of the screen is inverted, but only in
-    the middle part of the screen.  Includes well-commented source in 6502 assembly language.</p>
-  language: None
-  esowiki: None
-  keywords: 
-  - asm
-  - bsdl
-  - cbm
-  - gfx
-  - vintage
-  releases: 
-  - version: "1.0"
-    revision: "2007.0410"
-    latest: false
-    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
-  - version: "1.1"
-    revision: "2010.0430"
-    latest: true
-    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
 
 rube: 
   type: Distribution

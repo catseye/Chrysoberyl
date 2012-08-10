@@ -1,0 +1,48 @@
+# encoding: UTF-8
+ribos: 
+  type: Distribution
+  title: Ribos
+  summary: Well-commented C64 raster interrupt example
+  byline: Written by Chris Pressey
+  abstract: |-
+    <p>A simple Commodore 64 graphics demo that uses the raster interrupt facility
+    of the VIC-II chip: the colour of the border of the screen is inverted, but only in
+    the middle part of the screen.  Includes well-commented source in 6502 assembly language.</p>
+  language: None
+  esowiki: None
+  keywords: 
+  - asm
+  - bsdl
+  - cbm
+  - gfx
+  - vintage
+  releases: 
+  - version: "1.0"
+    revision: "2007.0410"
+    latest: false
+    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
+  - version: "1.1"
+    revision: "2010.0430"
+    latest: true
+    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+
+petulant: 
+  type: Distribution
+  title: The PETulant Cursor
+  summary: The PETulant Cursor, a tiny C64 &quot;display hack&quot;
+  byline: Written by Chris Pressey
+  abstract: |-
+    <p>A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.</p>
+  language: None
+  esowiki: None
+  keywords: 
+  - asm
+  - cbm
+  - gfx
+  - pd
+  - vintage
+  releases: 
+  - version: "1.0"
+    revision: "2008.0401"
+    latest: true
+    url: http://catseye.tc/distfiles/petulant-2008.0401.zip

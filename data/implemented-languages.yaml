@@ -9,6 +9,8 @@ brainfuck:
 
 pibfi:
   type: Language Implementation
+  in-distribution: pibfi distribution
+  acronym-for: Platonic Ideal Brainfuck Interpeter
   reference: no
   license: BSD
   source-language: brainfuck
@@ -25,7 +27,6 @@ pibfi:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  releases: []
 
 Muriel:
   type: Programming Language
@@ -79,6 +80,7 @@ valgol.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  # locate this in the dipple
 
 Smallfuck:
   type: Programming Language
@@ -105,6 +107,7 @@ sf2tab:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  # locate this in the dipple
 
 Underload:
   type: Programming Language
@@ -132,6 +135,7 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  # locate this in the esolangs archive
 
 'PL-{GOTO}':
   type: Programming Language
@@ -144,13 +148,24 @@ stringie:
 
 'PL-{GOTO}.NET':
   type: Language Implementation
+  in-distribution: PL-{GOTO}.NET distribution
   reference: no
-  license: BSD
+  license: Public Domain
   source-language: PL-{GOTO}
   host-language: Haskell
   target-language: MSIL
+  # ah, but it can also interpret.  meep!
   implementation-type: compiler
   abstract: |-
+    PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
+    from Brainerd and Landweber's *Theory of Computation*
+    (1974; ISBN 0471095850). PL-{GOTO} can express exactly the
+    primitive recursive functions, and thus PL-{GOTO} programs
+    always terminate. PL-{GOTO}.NET generates MSIL code which
+    can then (using `ilasm`) be turned into a .NET
+    executable.  It can also execute PL-{GOTO} programs
+    directly.
+  commentary: |-
     I've been idly fascinated by the primitive recursive example programming language
     PL-{GOTO} from Brainerd and Landweber's *Theory of Computation* for some time.
     And for some reason I will never be able to explain, I had the craving to implement a compiler
@@ -159,6 +174,9 @@ stringie:
     The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
     to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
     keeping the `←` symbol for assignment.
+  bitbucket: https://bitbucket.org/catseye/pl-goto-.net/
+  github: https://github.com/catseye/PL-GOTO.NET.git
+  issue-tracker: https://github.com/catseye/PL-GOTO.NET/issues
   authors:
   - Chris Pressey
   auspices:
