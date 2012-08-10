@@ -1,6 +1,6 @@
 # encoding: UTF-8
 # A naive dump from Cat's Eye Technologies' website's project database
-alpaca: 
+ALPACA distribution: 
   type: Distribution
   title: The ALPACA Meta-Language
   summary: Compiler for the <b>ALPACA</b> language
@@ -62,7 +62,7 @@ apple-befunge:
     latest: false
     url: http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip
 
-arboretuum: 
+Arboretuum distribution: 
   type: Distribution
   title: The Arboretuum Programming Language
   summary: Interpreter for the <b>Arboretuum</b> forest-rewriter
@@ -94,7 +94,7 @@ arboretuum:
   references: 
   - project: treacle
 
-bef: 
+bef distribution: 
   type: Distribution
   title: 'bef: Reference implementation of Befunge-93'
   summary: Reference interpreter etc for <b>Befunge-93</b>
@@ -123,7 +123,7 @@ bef:
   - project: befunge93
   - project: flobnar
 
-befos: 
+BefOS distribution: 
   type: Distribution
   title: 'BefOS: An Operating System for the Linearly Challenged'
   summary: <b>Befunge</b>-themed miniature operating system
@@ -153,7 +153,7 @@ befos:
   references: 
   - project: befunge93
 
-befunge93: 
+Befunge-93 distribution: 
   type: Distribution
   title: The Befunge-93 Programming Language
   summary: Documentation for <b>Befunge-93</b>
@@ -219,7 +219,7 @@ beta-Juliet distribution:
     latest: false
     url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
 
-beturing: 
+Beturing distribution: 
   type: Distribution
   title: The Beturing Programming Language
   summary: Interpreter for the <b>Beturing</b> machine
@@ -246,7 +246,7 @@ beturing:
     latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0606.zip
 
-bhuna: 
+Bhuna distribution: 
   type: Distribution
   title: The Bhuna Programming Language
   summary: Interpreter and docs for the <b>Bhuna</b> language
@@ -294,7 +294,7 @@ bhuna:
     latest: true
     url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
 
-braktif: 
+Braktif distribution: 
   type: Distribution
   title: The Braktif Cellular Automaton
   summary: The <b>Braktif</b> cellular automaton
@@ -315,7 +315,7 @@ braktif:
   references: 
   - project: pibfi
 
-burro: 
+Burro distribution: 
   type: Distribution
   title: The Burro Programming Language
   summary: Interpreter and docs for the <b>Burro</b> language
@@ -343,7 +343,7 @@ burro:
   references: 
   - project: cabra
 
-cabra: 
+Cabra distribution: 
   type: Distribution
   title: The Cabra Programming Language
   summary: Interpreter and docs for the <b>Cabra</b> language
@@ -371,7 +371,8 @@ cabra:
     url: http://catseye.tc/distfiles/cabra-2007.1101.zip
   references: 
   - project: burro
-circute: 
+
+Circute distribution: 
   type: Distribution
   title: The Circute Cellular Automaton
   summary: The <b>Circute</b> cellular automaton
@@ -393,7 +394,7 @@ circute:
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
 
-didigm: 
+Didigm distribution: 
   type: Distribution
   title: The Didigm Reflective Cellular Automaton
   summary: Docs on the <b>Didigm</b> reflective CA
@@ -451,7 +452,7 @@ Eightebed distribution:
     latest: false
     url: http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip
 
-emmental: 
+Emmental distribution: 
   type: Distribution
   title: The Emmental Programming Language
   summary: Interpeter and docs for the <b>Emmental</b> language
@@ -480,7 +481,7 @@ emmental:
   references: 
   - project: mascarpone
 
-etcha: 
+Etcha distribution: 
   type: Distribution
   title: The Etcha Programming Language
   summary: Spec and Interpreter for the <b>Etcha</b> language
@@ -501,7 +502,7 @@ etcha:
     latest: true
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
 
-fbbi: 
+FBBI distribution: 
   type: Distribution
   title: Flaming Bovine Befunge Interpreter
   summary: Interpreter for the <b>Befunge-98</b> language
@@ -537,7 +538,7 @@ fbbi:
   references: 
   - project: funge98
 
-flobnar: 
+Flobnar distribution: 
   type: Distribution
   title: The Flobnar Programming Language
   summary: Docs, tests, and interpreter for the <b>Flobnar</b> language
@@ -567,7 +568,7 @@ flobnar:
   references: 
   - project: befunge93
 
-funge98: 
+Funge-98 distribution: 
   type: Distribution
   title: The Funge-98 Programming Language Family
   summary: Documentation for <b>Funge-98</b>
@@ -593,7 +594,7 @@ funge98:
   - project: fbbi
   - project: befunge93
 
-granolam: 
+GraNoLa/M distribution: 
   type: Distribution
   title: The GraNoLa/M Programming Language
   summary: Interpreter and docs for <b>GraNoLa/M</b>
@@ -614,7 +615,7 @@ granolam:
   - project: tamerlane
   - project: kiceberg
 
-hev: 
+Hev distribution: 
   type: Distribution
   title: The Hev Programming Language
   summary: Docs and interpreter for the <b>Hev</b> language
@@ -641,7 +642,7 @@ hev:
     latest: true
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
 
-hunter: 
+Hunter distribution: 
   type: Distribution
   title: The Hunter Programming Language
   summary: Interpreter for the <b>Hunter</b> language
@@ -783,7 +784,7 @@ illgolpp:
   - project: illgola-2
   - project: illberon
 
-iphigeneia: 
+Iphigeneia distribution: 
   type: Distribution
   title: The Iphigeneia Programming Language
   summary: Docs and interpreter for <b>Iphigeneia</b>
@@ -808,7 +809,7 @@ iphigeneia:
     latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
 
-jaccia: 
+Jaccia and Jacciata distribution: 
   type: Distribution
   title: The Jaccia and Jacciata Cellular Automata
   summary: <span class="summary">The <b>Jaccia</b> and <b>Jacciata</b> cellular automata</span>
@@ -830,7 +831,7 @@ jaccia:
     latest: true
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
 
-kiceberg: 
+Kangaroo Iceberg distribution: 
   type: Distribution
   title: The Kangaroo Iceberg Programming Language
   summary: Interpreter for <b>Kangaroo Iceberg</b>
@@ -859,7 +860,7 @@ kiceberg:
   - project: tamerlane
   - project: granolam
 
-larabee: 
+Larabee distribution: 
   type: Distribution
   title: The Larabee Programming Language
   summary: Documentation and interpreter for <b>Larabee</b>
@@ -885,7 +886,7 @@ larabee:
     latest: false
     url: http://catseye.tc/distfiles/larabee-2008.0110.zip
 
-madison: 
+Madison distribution: 
   type: Distribution
   title: The Madison Proof-Checking Language
   summary: Specification and tests for the <b>Madison</b> proof checker
@@ -921,7 +922,7 @@ Maentwrog distribution:
     latest: false
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
 
-mascarpone: 
+Mascarpone distribution: 
   type: Distribution
   title: The Mascarpone Programming Language
   summary: Reference interpreter for <b>Mascarpone</b>
@@ -959,7 +960,7 @@ mascarpone:
   references: 
   - project: emmental
 
-mdpn: 
+MDPN distribution: 
   type: Distribution
   title: The MDPN Meta-Language
   summary: <b>M</b>ulti-<b>D</b>irectional <b>P</b>attern <b>N</b>otation
@@ -985,7 +986,7 @@ Muriel distribution:
     latest: true
     url: http://catseye.tc/distfiles/muriel-2001.0323.zip
 
-n-dcnc: 
+\'N-DCNC distribution: 
   type: Distribution
   title: The 'N-DCNC Programming Language
   summary: Docs and compilers for <b>'N-DCNC</b>
@@ -1003,7 +1004,7 @@ n-dcnc:
     latest: true
     url: http://catseye.tc/distfiles/n-dcnc-2000.0808.zip
 
-nhohnhehr: 
+Nhohnhehr distribution: 
   type: Distribution
   title: The Nhohnhehr Programming Language
   summary: Docs and Interpreter for the <b>Nhohnhehr</b> language
@@ -1022,7 +1023,7 @@ nhohnhehr:
     latest: true
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
 
-oozlybub-and-murphy: 
+Oozlybub and Murphy distribution: 
   type: Distribution
   title: The Oozlybub and Murphy Programming Language
   summary: Specification of <b>Oozlybub and Murphy</b>
@@ -1042,7 +1043,7 @@ oozlybub-and-murphy:
     latest: false
     url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
 
-opus-2: 
+Opus-2 distribution: 
   type: Distribution
   title: Opus-2
   summary: Description of the abstract conlang <b>Opus-2</b>
@@ -1059,7 +1060,7 @@ opus-2:
     latest: true
     url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
 
-pail: 
+PAIL distribution: 
   type: Distribution
   title: The Pail Programming Language
   summary: Interpreter and test suite for the <b>Pail</b> language
@@ -1100,7 +1101,7 @@ pibfi distribution:
     latest: true
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
 
-pixley: 
+Pixley distribution: 
   type: Distribution
   title: The Pixley Programming Language
   summary: Reference Interpreter for <b>Pixley</b>
@@ -1154,7 +1155,7 @@ PL-{GOTO}.NET distribution:
     latest: false
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
 
-quylthulg: 
+Quylthulg distribution: 
   type: Distribution
   title: The Quylthulg Programming Language
   summary: Docs and reference interpreter for <b>Quylthulg</b>
@@ -1193,7 +1194,7 @@ quylthulg:
     latest: false
     url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
 
-redgreen: 
+REDGREEN distribution: 
   type: Distribution
   title: The REDGREEN Cellular Automaton
   summary: The <b>REDGREEN</b> cellular automaton
@@ -1227,7 +1228,7 @@ redgreen:
   - project: rube
   - project: rube_ii
 
-rube: 
+RUBE distribution: 
   type: Distribution
   title: The RUBE Programming Language
   summary: Interpeter/debugger for the <b>RUBE</b> language
@@ -1265,7 +1266,7 @@ rube:
   - project: rube_ii
   - project: redgreen
 
-rube_ii: 
+RUBE II distribution: 
   type: Distribution
   title: 'RUBE II: Das Klickenklacker'
   summary: Interpeter for the <b>RUBE II</b> language
@@ -1287,7 +1288,7 @@ rube_ii:
   references: 
   - project: rube
 
-sally: 
+Sally distribution: 
   type: Distribution
   title: The Sally Programming Language
   summary: Compiler for the <b>Sally</b> language
@@ -1312,7 +1313,7 @@ sally:
     latest: true
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
 
-sbeezg: 
+Sbeezg distribution: 
   type: Distribution
   title: The sbeezg Programming Language
   summary: Interpreter for the <b>Sbeezg</b> language
@@ -1330,7 +1331,7 @@ sbeezg:
     latest: true
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
 
-shelta: 
+Shelta distribution: 
   type: Distribution
   title: The Shelta Programming Language
   summary: Compilers for the <b>Shelta</b> language
@@ -1357,6 +1358,9 @@ shelta:
 SMETANA distribution: 
   type: Distribution
   distribution-of: SMETANA
+  bitbucket: https://bitbucket.org/catseye/smetana/
+  github: https://github.com/catseye/SMETANA
+  issue-tracker: https://github.com/catseye/SMETANA/issues
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -1366,6 +1370,9 @@ SMETANA distribution:
 SMITH distribution: 
   type: Distribution
   distribution-of: SMITH
+  bitbucket: https://bitbucket.org/catseye/smith/
+  github: https://github.com/catseye/SMITH
+  issue-tracker: https://github.com/catseye/SMITH/issues
   releases: 
   - version: 2.0L
     revision: 2.0L
@@ -1380,7 +1387,7 @@ SMITH distribution:
     latest: true
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
 
-squishy2k: 
+Squishy2K distribution: 
   type: Distribution
   title: The Squishy2K Programming Language
   summary: Interpreter for the <b>Squishy2K</b> language
@@ -1398,7 +1405,7 @@ squishy2k:
     latest: true
     url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
 
-strelnokoff: 
+Strelnokoff distribution: 
   type: Distribution
   title: The Strelnokoff Programming Language
   summary: Interpreter for the <b>Strelnokoff</b> language
@@ -1415,7 +1422,8 @@ strelnokoff:
     revision: "2001.0324"
     latest: true
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
-tamerlane: 
+
+Tamerlane distribution: 
   type: Distribution
   title: The Tamerlane Programming Language
   summary: Documents on the <b>Tamerlane</b> language
@@ -1434,8 +1442,10 @@ tamerlane:
   references: 
   - project: kiceberg
   - project: granolam
-thue: 
+
+Thue distribution: 
   type: Distribution
+  distribution-of: Thue
   title: The Thue Programming Language
   summary: Interpreter for the <b>Thue</b> language
   byline: Conceived by John Colagioia; implementations by John Colagioia and
@@ -1467,7 +1477,8 @@ thue:
     revision: "2010.1218"
     latest: true
     url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
-treacle: 
+
+Treacle distribution: 
   type: Distribution
   title: The Treacle Programming Language
   summary: Interpreter for the <b>Treacle</b> rewriting language
@@ -1490,7 +1501,8 @@ treacle:
     url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
   references: 
   - project: arboretuum
-unlikely: 
+
+Unlikely distribution: 
   type: Distribution
   title: The Unlikely Programming Language
   summary: Docs and static analyzer for the <b>Unlikely</b> language
@@ -1520,7 +1532,8 @@ unlikely:
     revision: "2009.0315"
     latest: false
     url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
-urreading: 
+
+You are Reading the Name of this Esolang distribution: 
   type: Distribution
   title: You are Reading the Name of this Esolang
   summary: <b>You are Reading the Name of this Esolang</b>
@@ -1545,7 +1558,8 @@ urreading:
     revision: "2007.1105"
     latest: false
     url: http://catseye.tc/distfiles/urreading-2007.1105.zip
-velo: 
+
+Velo distribution: 
   type: Distribution
   title: The Velo Programming Language
   summary: Spec and Interpreter for the <b>Velo</b> language
@@ -1565,7 +1579,8 @@ velo:
     revision: "2012.0714"
     latest: true
     url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
-version: 
+
+Version distribution: 
   type: Distribution
   title: The Version Programming Language
   summary: Interpreter for the <b>Version</b> language
@@ -1587,7 +1602,8 @@ version:
     revision: "2010.0429"
     latest: true
     url: http://catseye.tc/distfiles/version-1.0-2010.0429.zip
-whothm: 
+
+Whothm distribution: 
   type: Distribution
   title: The Whothm Drawing Language
   summary: Definition and Implementation of the <b>Whothm</b> language
@@ -1617,7 +1633,8 @@ whothm:
     revision: "2010.0629"
     latest: false
     url: http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip
-wierd: 
+
+Wierd distribution: 
   type: Distribution
   title: The Wierd Programming Language
   summary: Interpreters for the <b>Wierd</b> language
@@ -1637,7 +1654,8 @@ wierd:
     revision: "2004.0302"
     latest: true
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
-worb: 
+
+noit o\' mnain worb distribution: 
   type: Distribution
   title: The noit o' mnain worb Language
   summary: Interpreter for <b>noit o' mnain worb</b>
@@ -1684,7 +1702,8 @@ worb:
     revision: "2011.1031"
     latest: true
     url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
-xigxag: 
+
+Xigxag distribution: 
   type: Distribution
   title: The Xigxag Automaton
   summary: Implementation of the <b>Xigxag</b> automaton
@@ -1710,7 +1729,8 @@ xigxag:
     revision: "2007.0602"
     latest: false
     url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
-xoomonk: 
+
+Xoomonk distribution: 
   type: Distribution
   title: The Xoomonk Programming Language
   summary: Specification and tests for the <b>Xoomonk</b> language
@@ -1725,45 +1745,8 @@ xoomonk:
     revision: "2011.0807"
     latest: true
     url: http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip
-yoob: 
-  type: Distribution
-  title: yoob
-  summary: The <em>yoob</em> framework for esolang implementation
-  byline: Designed and implemented by Chris Pressey
-  abstract: |-
-    <p><em>yoob</em> is a framework for implementing esoteric
-        programming languages in Java. It aims to make it easy for a user
-        to experiment with a large number of esolangs with a minimal
-        install burden (i.e. in a Java applet), and to make it easy for
-        designers to rapidly implement and showcase their esolangs.</p>
-  develop: |-
-    yoob
-         <a class="external" href="https://bitbucket.org/catseye/yoob/">development</a>,
-         <a class="external" href="https://bitbucket.org/catseye/yoob/wiki">wiki</a>, and
-         <a class="external" href="https://bitbucket.org/catseye/yoob/issues">issue tracker</a> are hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/yoob">git mirror on githib</a>.
-  develop: |-
-    You can experiment online with the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: None
-  esowiki: yoob
-  keywords: 
-  - 2d
-  - eso
-  - java
-  - lang
-  - pd
-  - interact
-  releases: 
-  - version: "0.3"
-    revision: "2011.0920"
-    latest: true
-    url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
-  - version: "0.2"
-    revision: "2011.0624"
-    latest: false
-    url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
-ypsilax: 
+
+Ypsilax distribution: 
   type: Distribution
   title: The Ypsilax Programming Language
   summary: Interpreter for the <b>Ypsilax</b> language
@@ -1812,7 +1795,8 @@ ypsilax:
     revision: "2011.1130"
     latest: true
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
-zowie: 
+
+ZOWIE distribution: 
   type: Distribution
   title: The ZOWIE Programming Language
   summary: Spec and Interpreter for the <b>ZOWIE</b> language

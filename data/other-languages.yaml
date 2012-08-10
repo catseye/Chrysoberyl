@@ -43,3 +43,8 @@ lookup table:
   type: Programming Language
   genre: Production language
   computational-class: Finite-automata-complete
+# I have not designed nor implemented this one, so it's here
+Thue:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete

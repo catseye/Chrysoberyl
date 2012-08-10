@@ -163,6 +163,9 @@ yoob:
   - tc.catseye.yoob
   reference-distribution: 'yoob distribution'
   esowiki: yoob
+  keywords:
+  - 2d
+  - animated
 
 'tc.catseye.yoob':
   type: Tool Implementation
