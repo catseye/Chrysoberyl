@@ -1,4 +1,40 @@
 # encoding: UTF-8
+ALPACA:
+  type: Programming Language
+  genre: Metalanguage
+  acronym-for: A Language for Programming Arbitrary Cellular Automata
+  abstract: |-
+    ALPACA is a meta-language for describing cellular automata. 
+  commentary: |-
+    The acronym is not quite accurate, as the automata are not in fact arbitrary, but it's
+    a nice acronym.
+    
+    ALPACA is one of the few of my languages in which I've actually implemented
+    other languages (or, well, cellular automata -- close enough).  These are, namely,
+    [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia and Jacciata]].
+  inception-date: 1998
+  etymology:
+  - acronym
+  notable: true
+  sample: |
+    /* John Conway's Game of Life, expressed in ALPACA. */
+    state Dead  " " to Alive when 3 Alive and 5 Dead;
+    state Alive "*" to Dead when 4 Alive or 7 Dead.
+  reference-distribution: ALPACA distribution
+  implementions:
+  - alpaca.pl
+
+alpaca.pl:
+  type: Language Implementation
+  reference: true
+  in-distribution: ALPACA distribution
+  license: BSD
+  implementation-type: compiler
+  source-language: ALPACA
+  host-language: Perl
+  target-language: Perl
+
+
 Befunge-93:
   type: Programming Language
   genre: Esolang
@@ -487,49 +523,6 @@ wierd-milo.c:
 
 
 # following languages need some massaging
-
-
-ALPACA:
-  type: Programming Language
-  genre: Metalanguage
-  abstract: "\nALPACA is a meta-language for describing cellular automata.\nIt\
-    \ is an acronym for A Language for Programming\nArbitrary Cellular Automata.\n\
-    This is not quite accurate, as the automata are not in fact arbitrary, but it's\
-    \ a nice acronym.\n\nALPACA is one of the few of my languages in which I've\
-    \ actually implemented\nother languages (or, well, cellular automata \u2014\
-    \ close enough).  These\nare, namely, REDGREEN, Braktif, Circute, and Jaccia\
-    \ and Jacciata.\n  "
-  "day": |-
-    0101
-  etymology:
-    "nametag": |-
-      acronym
-  #~ "implementations":
-    #~ "implementation":
-      #~ "host-language": |-
-        #~ Perl
-      #~ "name": |-
-        #~ alpaca.pl
-      #~ "reference": |-
-        #~ yes
-      #~ "target-language": |-
-        #~ Perl
-      #~ "type": |-
-        #~ compiler
-  "meta-language": !!null |-
-    null
-  "name": |-
-    ALPACA
-  "notable": !!null |-
-    null
-  "project": |-
-    alpaca
-  sample: |
-    /* John Conway's Game of Life, expressed in ALPACA. */
-    state Dead  " " to Alive when 3 Alive and 5 Dead;
-    state Alive "*" to Dead when 4 Alive or 7 Dead.
-  "year": |-
-    1998
 
 
 REDGREEN:
