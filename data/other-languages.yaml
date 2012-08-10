@@ -38,6 +38,21 @@ MSIL:
   type: Programming Language
   genre: Production language
   computational-class: unknown computational class
+Zz:
+  type: Programming Language
+  genre: Metalanguage
+  computational-class: unknown computational class
+Ophis Assembler:
+  type: Programming Language
+  # "Assembly language"?
+  genre: Production language
+  computational-class: Finite-automata-complete
+Commodore BASIC 2.0:
+  # should we consider 2.0 to be just a language version?
+  type: Programming Language
+  genre: Production language
+  computational-class: believed Turing-complete
+
 # heh.  for sf2tab:
 lookup table:
   type: Programming Language

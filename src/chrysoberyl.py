@@ -61,11 +61,9 @@ def check_chrysoberyl_data(data):
       if type_ == 'Distribution':
           #assert 'distribution-of' in node, \
           #   "Distribution '%s' does not say what it is of" % key
-          # this only makes sense for Distributions:
-          # (and it has multiple possible types)
+          # (this has multiple possible types)
           check_optional_scalar_ref(data, key, node, 'distribution-of')
 
-      # these only make sense for Language Implementations:
       if type_ == 'Language Implementation':
           check_scalar_ref(data, key, node, 'license', type_='License')
           check_optional_scalar_ref(data, key, node, 'in-distribution',
@@ -74,14 +72,19 @@ def check_chrysoberyl_data(data):
                            type_='Programming Language')
           check_scalar_ref(data, key, node, 'implementation-type',
                            type_='Implementation Type')
-          # ... these only make sense for compilers ...
           if node['implementation-type'] == 'compiler':
               check_scalar_ref(data, key, node, 'source-language',
                                type_='Programming Language')
               check_scalar_ref(data, key, node, 'target-language',
                                type_='Programming Language')
 
-      # these only make sense for Games and Programming Languages:
+      if type_ == 'Game Implementation':
+          check_scalar_ref(data, key, node, 'license', type_='License')
+          check_optional_scalar_ref(data, key, node, 'in-distribution',
+                                    type_='Distribution')
+          check_scalar_ref(data, key, node, 'implementation-language',
+                           type_='Programming Language')
+
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
