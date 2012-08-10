@@ -91,7 +91,7 @@ def check_chrysoberyl_data(data):
                                     type_='Distribution')
           check_list_ref(data, key, node, 'implementations')
 
-      if type_ == 'Programming Language':
+      if type_ == 'Programming Language' and False:
           check_scalar_ref(data, key, node, 'computational-class',
                            type_='Computational Class')
 

@@ -339,12 +339,16 @@ smith.pl:
   implementation-type: interpreter
   host-language: Perl
 
-# raw dump from lingography follows. it sucks, but it's better than nothing
 
-raw_dump_begins:
-  abstract: "\nOne of the more popular languages I ever designed and implemented.\
-    \  Eventually begat\nBefunge-97, Funge-98, and Wierd, and doubtlessly influenced\
-    \ many others.  Cited in the\nNew Hacker's Dictionary.\n  "
+# following languages need some massaging
+
+Befunge-93:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    One of the more popular languages I ever designed and implemented.
+    Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
+    many others.  Cited in the New Hacker's Dictionary.
   "can-simulate-some-push-down-automata": !!null |-
     null
   "day": |-
@@ -352,22 +356,22 @@ raw_dump_begins:
   "etymology":
     "nametag": |-
       typo
-  "implementations":
-    "implementation":
-    - "host-language": |-
-        C
-      "name": |-
-        bef
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-    - "host-language": |-
-        x86 assembly
-      "name": |-
-        befia
-      "type": |-
-        interpreter
+  #~ "implementations":
+    #~ "implementation":
+    #~ - "host-language": |-
+        #~ C
+      #~ "name": |-
+        #~ bef
+      #~ "reference": |-
+        #~ yes
+      #~ "type": |-
+        #~ interpreter
+    #~ - "host-language": |-
+        #~ x86 assembly
+      #~ "name": |-
+        #~ befia
+      #~ "type": |-
+        #~ interpreter
   "influences":
     "influence": |-
       Maentwrog
@@ -379,20 +383,23 @@ raw_dump_begins:
     null
   "project": |-
     befunge93
-  "sample": |2
+  sample: |2
      v    <
     >?"/",^
      >"\",^
   "significant": !!null |-
     null
-  "tagline": |-
+  quotation: |-
     Hey, my archive must be corrupt.  These sources all look like garbage.
   "tagline-attrib": |-
     Mark Topham
-  "type": |-
-    design
   "year": |-
     1993
+
+
+Befunge-97:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nAn unimplemented attempt to improve upon Befunge-93, described\
     \ (fairly accurately) as\n\"brain-damaged.\"  This was primarily due to the\
     \ fact that separate processes were specified\nas sharing a single stack.  Quickly\
@@ -409,10 +416,13 @@ raw_dump_begins:
       Befunge-93
   "name": |-
     Befunge-97
-  "type": |-
-    design
   "year": |-
     1997
+
+
+RUBE:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nRUBE is an esoteric programming language in tribute to Rube Goldberg,\
     \ with bulldozers pushing around numbered\ncrates, knocking them together to\
     \ perform computations.  It is based on a variant of\na cellular automaton called\
@@ -428,23 +438,23 @@ raw_dump_begins:
       masculine given name
     - |-
       acronym
-  "implementations":
-    "implementation":
-      "host-language": |-
-        C
-      "name": |-
-        rube.c
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  #~ "implementations":
+    #~ "implementation":
+      #~ "host-language": |-
+        #~ C
+      #~ "name": |-
+        #~ rube.c
+      #~ "reference": |-
+        #~ yes
+      #~ "type": |-
+        #~ interpreter
   "name": |-
     RUBE
   "notable": !!null |-
     null
   "project": |-
     rube
-  "sample": |2
+  sample: |2
       0a21646c726f77202c6f6c6c6548
     , :::::::::::::::::::::::::::: ,
      )
@@ -453,10 +463,13 @@ raw_dump_begins:
                                    O F
                                    c
                                    =
-  "type": |-
-    design
   "year": |-
     1997
+
+
+Wierd:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nWierd is a language, inspired somewhat by Befunge-93, where instructions\
     \ are not determined by\nthe symbols in a sequence of symbols, but by the *bends*\
     \ in a sequence of symbols.\n  "
@@ -469,24 +482,24 @@ raw_dump_begins:
   "etymology":
     "nametag": |-
       typo
-  "implementations":
-    "implementation":
-    - "author": |-
-        John Colagaoia
-      "host-language": |-
-        C
-      "name": |-
-        wierd.c
-      "type": |-
-        interpreter
-    - "author": |-
-        Milo van Handel
-      "host-language": |-
-        C
-      "name": |-
-        wierd-milo.c
-      "type": |-
-        interpreter
+  #~ "implementations":
+    #~ "implementation":
+    #~ - "author": |-
+        #~ John Colagaoia
+      #~ "host-language": |-
+        #~ C
+      #~ "name": |-
+        #~ wierd.c
+      #~ "type": |-
+        #~ interpreter
+    #~ - "author": |-
+        #~ Milo van Handel
+      #~ "host-language": |-
+        #~ C
+      #~ "name": |-
+        #~ wierd-milo.c
+      #~ "type": |-
+        #~ interpreter
   "influences":
     "influence": |-
       Befunge-93
@@ -496,7 +509,7 @@ raw_dump_begins:
     null
   "project": |-
     wierd
-  "sample": |
+  sample: |
     *
      *
       *
@@ -514,10 +527,13 @@ raw_dump_begins:
         **  *
   "sample-credit": |-
     Milo van Handel
-  "type": |-
-    design
   "year": |-
     1997
+
+
+ALPACA:
+  type: Programming Language
+  genre: Metalanguage
   abstract: "\nALPACA is a meta-language for describing cellular automata.\nIt\
     \ is an acronym for A Language for Programming\nArbitrary Cellular Automata.\n\
     This is not quite accurate, as the automata are not in fact arbitrary, but it's\
@@ -530,18 +546,18 @@ raw_dump_begins:
   "etymology":
     "nametag": |-
       acronym
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        alpaca.pl
-      "reference": |-
-        yes
-      "target-language": |-
-        Perl
-      "type": |-
-        compiler
+  #~ "implementations":
+    #~ "implementation":
+      #~ "host-language": |-
+        #~ Perl
+      #~ "name": |-
+        #~ alpaca.pl
+      #~ "reference": |-
+        #~ yes
+      #~ "target-language": |-
+        #~ Perl
+      #~ "type": |-
+        #~ compiler
   "meta-language": !!null |-
     null
   "name": |-
@@ -550,14 +566,17 @@ raw_dump_begins:
     null
   "project": |-
     alpaca
-  "sample": |
+  sample: |
     /* John Conway's Game of Life, expressed in ALPACA. */
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
-  "type": |-
-    design
   "year": |-
     1998
+
+
+REDGREEN:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
   abstract: "\nREDGREEN is a cellular automaton that simulates a little\n\"physical\
     \ world\", much like RUBE.\n  "
   "demonstrated-turing-complete": !!null |-
@@ -565,16 +584,16 @@ raw_dump_begins:
   "etymology":
     "nametag": |-
       television
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        redgreen.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
+  #~ "implementations":
+    #~ "implementation":
+      #~ "host-language": |-
+        #~ ALPACA
+      #~ "name": |-
+        #~ redgreen.alp
+      #~ "reference": |-
+        #~ yes
+      #~ "type": |-
+        #~ description
   "influences":
     "influence": |-
       RUBE
@@ -582,7 +601,7 @@ raw_dump_begins:
     REDGREEN
   "project": |-
     redgreen
-  "sample": |2
+  sample: |2
                                        # #
                      ......            # #
                                        #  ~                      #
@@ -600,25 +619,28 @@ raw_dump_begins:
     >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
                                                     %
                                                     T
-  "type": |-
-    design
   "year": |-
     1998
+
+
+Circute:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
   abstract: "\nCircute is a cellular automaton that simulates conduits that\n\
     carry digital signals and NAND gates that manipulate those signals.\n  "
   "etymology":
     "nametag": |-
       portmanteau
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        circute.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
+  #~ "implementations":
+    #~ "implementation":
+      #~ "host-language": |-
+        #~ ALPACA
+      #~ "name": |-
+        #~ circute.alp
+      #~ "reference": |-
+        #~ yes
+      #~ "type": |-
+        #~ description
   "influences":
     "influence": |-
       Wireworld
@@ -628,7 +650,7 @@ raw_dump_begins:
     Circute
   "project": |-
     circute
-  "sample": |2
+  sample: |2
                       =
                       =
        #######==   ===N===   =========
@@ -638,10 +660,13 @@ raw_dump_begins:
      =====     = ===== ===== =     =====
        =       =   =     =   =       =
        =============     =============
-  "type": |-
-    design
   "year": |-
     2005
+
+
+Braktif:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
   abstract: "\nBraktif is a cellular automaton modelled closely after the Brainfuck\
     \ programming language.\n  "
   "believed-turing-complete": !!null |-
@@ -654,16 +679,16 @@ raw_dump_begins:
       portmanteau
     - |-
       french
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        braktif.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
+  #~ "implementations":
+    #~ "implementation":
+      #~ "host-language": |-
+        #~ ALPACA
+      #~ "name": |-
+        #~ braktif.alp
+      #~ "reference": |-
+        #~ yes
+      #~ "type": |-
+        #~ description
   "influences":
     "influence": |-
       Brainfuck
@@ -671,15 +696,18 @@ raw_dump_begins:
     Braktif
   "project": |-
     braktif
-  "sample": |2
+  sample: |2
                                 *
                            <<*[--]*
     000000000000000000  *[-----  --]
     -----------------d-i--         --------
-  "type": |-
-    design
   "year": |-
     2005
+
+
+Funge-98:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nCulmination of attempts to improve upon Befunge.  Seemingly everything\
     \ except the\nkitchen sink was stuffed into it somehow.\n  "
   "collaborators": |-
@@ -688,24 +716,24 @@ raw_dump_begins:
     0101
   "demonstrated-turing-complete": !!null |-
     null
-  "implementations":
-    "implementation":
-    - "host-language": |-
-        C
-      "name":
-        "tool": |-
-          no
-      "type": |-
-        interpreter
-    - "author": |-
-        Ben Olmstead
-      "host-language": |-
-        C
-      "name":
-        "tool": |-
-          no
-      "type": |-
-        interpreter
+  #~ "implementations":
+    #~ "implementation":
+    #~ - "host-language": |-
+        #~ C
+      #~ "name":
+        #~ "tool": |-
+          #~ no
+      #~ "type": |-
+        #~ interpreter
+    #~ - "author": |-
+        #~ Ben Olmstead
+      #~ "host-language": |-
+        #~ C
+      #~ "name":
+        #~ "tool": |-
+          #~ no
+      #~ "type": |-
+        #~ interpreter
   "influences":
     "influence":
     - |-
@@ -718,7 +746,7 @@ raw_dump_begins:
     null
   "project": |-
     funge98
-  "sample": |
+  sample: |
     >>#v?v
     ^,A' <
      ^ C'
@@ -726,14 +754,17 @@ raw_dump_begins:
      ^ <<
         G
         '
-  "tagline": |-
+  quotation: |-
     Taking programming in new directions... all four of them
   "tagline-attrib": |-
     Jason
-  "type": |-
-    design
   "year": |-
     1998
+
+
+ETHEL:
+  type: Programming Language
+  genre: DSL
   abstract: "\nA language specifically for expressing quantity surveying\n(materials\
     \ estimating) formula and procedures,\ndesigned for Star Building Materials.\n\
     \  "
@@ -750,10 +781,13 @@ raw_dump_begins:
     1998
   "name": |-
     ETHEL
-  "type": |-
-    design
   "year": |-
     1998
+
+
+MDPN:
+  type: Programming Language
+  genre: Metalanguage
   abstract: "\nMDPN is an acronym for\nMulti-Directional Pattern Notation.\nIt\
     \ is a meta-language for describing\nmulti-directional and multi-dimensional\
     \ languages.\n  "
@@ -768,13 +802,17 @@ raw_dump_begins:
     MDPN
   "project": |-
     mdpn
-  "sample": |2
+  sample: |2
       Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-  "type": |-
-    design
   "year": |-
     1999
+
+
+#### following languages need heavy massaging ####
+
+raw_dump_of_languages_follow:
+  type: dump
   abstract: "\nShelta is an extremely minimal Forth-like language with barely\
     \ any semantics;\nit relies on inline machine code to be considered anywhere\
     \ near Turing-Complete.\nIn the spirit of compilers for languages such as [[FALSE]]\
@@ -818,10 +856,8 @@ raw_dump_begins:
     Shelta
   "project": |-
     shelta
-  "sample": |
+  sample: |
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-  "type": |-
-    design
   "year": |-
     1999
   abstract: "\nSally is a neat little functional language with minimal syntax,\
@@ -847,14 +883,12 @@ raw_dump_begins:
     Sally
   "project": |-
     sally
-  "sample": |
+  sample: |
     stdlib
     int factorial int if $1 mul $1 factorial sub $1 1 1
     int main int factorial $1
-  "tagline": |-
+  quotation: |-
     upside-down FORTH
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\nBear Food was a horrible language defined by an interpreter that\
@@ -880,10 +914,8 @@ raw_dump_begins:
         no
   "name": |-
     Bear Food
-  "tagline": |-
+  quotation: |-
     liquid insanity from Hell
-  "type": |-
-    design
   "year": |-
     1999
   abstract: "\nTamerlane is a multi-paradigmatic programming language, unimplemented\
@@ -899,13 +931,11 @@ raw_dump_begins:
     Tamerlane
   "project": |-
     tamerlane
-  "sample": |
+  sample: |
     Point-A: 1 Point-B,
     Point-B: 1 Point-C,
     Point-C: 1 Point-A.
     ?- 1 Point-A -> 0 Point-A @ Point-A
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\nSquishy2K is a language which is a hybrid of string rewriting\n\
@@ -933,10 +963,8 @@ raw_dump_begins:
     Squishy2K
   "project": |-
     squishy2k
-  "sample": |
+  sample: |
     * main { start many finish? "Hello, world!"! }
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\nnoit o' mnain worb is a probabilistic particle automaton\nthat\
@@ -971,7 +999,7 @@ raw_dump_begins:
     null
   "project": |-
     worb
-  "sample": |
+  sample: |
     #####         #####
     #   ###########   #
     # . >         < . #
@@ -981,12 +1009,10 @@ raw_dump_begins:
             #v#########
             # #
             ###
-  "tagline": |-
+  quotation: |-
     Under pressure
   "tagline-attrib": |-
     Queen
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\nHunter is a language I designed for the Esoteric Awards (\"Essies\"\
@@ -1016,7 +1042,7 @@ raw_dump_begins:
     Hunter
   "project": |-
     hunter
-  "sample": |
+  sample: |
     ##################
     #   1#2#         #
     # #### #         #
@@ -1028,10 +1054,8 @@ raw_dump_begins:
     ##################
     *12+>3
     *21+>3
-  "tagline": |-
+  quotation: |-
     maze-space rewriting with authentic inter-rodent communication
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\n'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')\n\
@@ -1061,10 +1085,8 @@ raw_dump_begins:
     'N-DCNC
   "project": |-
     n-dcnc
-  "sample": |
+  sample: |
     4*5+2/2,(9*`c)+1
-  "type": |-
-    design
   "year": |-
     2000
   abstract: "\nStrelnokoff is a non-deterministic imperative\nprogramming language.\
@@ -1097,7 +1119,7 @@ raw_dump_begins:
     Strelnokoff
   "project": |-
     strelnokoff
-  "sample": |
+  sample: |
     REM HELLO WORLD IN STRELNOKOFF
     REM CHRIS PRESSEY MARCH 24 2001
     X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
@@ -1115,8 +1137,6 @@ raw_dump_begins:
     X = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)
     X = (T = X) * 0 + (X > T) * X REM RESET FLAG
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
-  "type": |-
-    design
   "year": |-
     2001
   abstract: "\nJoke languages which parody the sort of language designed by the\
@@ -1154,7 +1174,7 @@ raw_dump_begins:
     ILLGOL
   "project": |-
     illgol
-  "sample": |
+  sample: |
     NB eh.ill
     10 *f = { print str(#0), EoL };
     20 do f(1);
@@ -1163,8 +1183,6 @@ raw_dump_begins:
     50 reinstate f;
     60 do f(3);
     FIN
-  "type": |-
-    design
   "year": |-
     2001
   abstract: "\nOpus-2 is not a programming language, but rather, an abstract artlang\
@@ -1176,7 +1194,7 @@ raw_dump_begins:
     Opus-2
   "project": |-
     opus-2
-  "sample":
+  sample:
     "mode": |-
       xhtml
     "table":
@@ -1200,8 +1218,6 @@ raw_dump_begins:
             mothballs (gentle whiff)
   "significant": !!null |-
     null
-  "type": |-
-    design
   "year": |-
     2001
   abstract: "\nYpsilax is a non-deterministic, reflective, two-dimensional grid-rewriting\n\
@@ -1229,7 +1245,7 @@ raw_dump_begins:
     Ypsilax
   "project": |-
     ypsilax
-  "sample": |
+  sample: |
     (      )  (      )
       #            #
       # ###    ### #
@@ -1240,8 +1256,6 @@ raw_dump_begins:
         #      #
         #      #
         #    ###
-  "type": |-
-    design
   "year": |-
     2001
   abstract: "\nVersion is an imperative programming language that uses\n_ignorance-spaces_\
@@ -1263,7 +1277,7 @@ raw_dump_begins:
     Version
   "project": |-
     version
-  "sample": |
+  sample: |
     START: ROOM = "VALLEY|BROOK|GLADE"
     CONT: IGNORE = ROOM
     VALLEY: OUTPUT = "You are standing in a valley."
@@ -1284,8 +1298,6 @@ raw_dump_begins:
     E: ROOM = "VALLEY|HILL|BROOK"
     W: ROOM = "VALLEY|HILL|GLADE"
     LASTLY: IGNORE = "START"
-  "type": |-
-    design
   "year": |-
     2001
   abstract: "\nSbeezg is a syntactically very simple language that attempts to\
@@ -1309,12 +1321,10 @@ raw_dump_begins:
     Sbeezg
   "project": |-
     sbeezg
-  "sample": |
+  sample: |
     f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
        k=j(h,b)|a};l=f(99,f)
-  "type": |-
-    design
   "year": |-
     2002
   abstract: "\nGraNoLa/M is a Graph-Node-based Language (possibly for Machines.)\n\
@@ -1343,10 +1353,8 @@ raw_dump_begins:
     GraNoLa/M
   "project": |-
     granolam
-  "sample": |
+  sample: |
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
-  "type": |-
-    design
   "year": |-
     2002
   abstract: "\nKangaroo Iceberg was a short-lived attempt to pare down Tamerlane\
@@ -1374,8 +1382,6 @@ raw_dump_begins:
     Kangaroo Iceberg
   "project": |-
     kiceberg
-  "type": |-
-    design
   "year": |-
     2004
   abstract: "\nBeturing is a \"Befunge-flavoured\" language for describing Turing\
@@ -1406,7 +1412,7 @@ raw_dump_begins:
     Beturing
   "project": |-
     beturing
-  "sample": |
+  sample: |
     # D(40, 4)
     # @(40, 4)
     $bbab$
@@ -1422,8 +1428,6 @@ raw_dump_begins:
     >/*^</*>*^.@*v
              . . .
     *@      *^*<*<
-  "type": |-
-    design
   "year": |-
     2005
   abstract: "\nBhuna is a small, garbage-collected language with a simple\nsyntax,\
@@ -1459,14 +1463,12 @@ raw_dump_begins:
     Bhuna
   "project": |-
     bhuna
-  "sample": |
+  sample: |
     Fib = ^ X {
       if X < 2 return 1 else
       return Fib(X - 1) + Fib(X - 2)
     }
     Print Fib(32), EoL
-  "type": |-
-    design
   "year": |-
     2005
   abstract: "\nXigxag is a simple string-copying automaton that has exponential\
@@ -1490,11 +1492,9 @@ raw_dump_begins:
     Xigxag
   "project": |-
     xigxag
-  "sample":
+  sample:
     "mode": |-
       output
-  "type": |-
-    design
   "unusual-computability-properties": !!null |-
     null
   "year": |-
@@ -1525,10 +1525,8 @@ raw_dump_begins:
     Hev
   "project": |-
     hev
-  "sample": |
+  sample: |
     71+8*27,19,29*99,6,37,7,61,47
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nBurro is a [[brainfuck]]-like programming language whose programs\n\
@@ -1567,7 +1565,7 @@ raw_dump_begins:
     Burro
   "project": |-
     burro
-  "sample": |
+  sample: |
     !--(--(--(!>/
       >>--(+<<+++++++>/+++>+++++>)<
     >)/
@@ -1577,8 +1575,6 @@ raw_dump_begins:
     >)<
   "significant": !!null |-
     null
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nCabra is a (somewhat) formal programming language whose programs\
@@ -1610,10 +1606,8 @@ raw_dump_begins:
     Cabra
   "project": |-
     cabra
-  "sample": |
+  sample: |
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nYou are Reading the Name of this Esolang is an exploration in\n\
@@ -1632,10 +1626,8 @@ raw_dump_begins:
     You are Reading the Name of this Esolang
   "project": |-
     urreading
-  "sample": |
+  sample: |
     001000000[0010000000111001000011]11100100001[0]
-  "type": |-
-    design
   "unusual-computability-properties": !!null |-
     null
   "year": |-
@@ -1669,10 +1661,8 @@ raw_dump_begins:
     Emmental
   "project": |-
     emmental
-  "sample": |
+  sample: |
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nDidigm is a reflective cellular automaton: the transition rules\
@@ -1687,7 +1677,7 @@ raw_dump_begins:
     Didigm
   "project": |-
     didigm
-  "sample": |
+  sample: |
     3333333333333
     3002300230073
     3111311132113
@@ -1703,10 +1693,8 @@ raw_dump_begins:
     111111111111333
     311111111111023
     111111111111113
-  "tagline": |-
+  quotation: |-
     Didigm = ALPACA + Ypsilax
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nIphigeneia is a toy programming language which contains features\
@@ -1736,11 +1724,9 @@ raw_dump_begins:
     Iphigeneia
   "project": |-
     iphi
-  "sample": "var a in a :=\n    let c = 5 in let d = 1 in\n        loop\n\t    if\
+  sample: "var a in a :=\n    let c = 5 in let d = 1 in\n        loop\n\t    if\
     \ c = 0 then\n\t        d\n\t    else\n\t        let d = d * c in\n\t      \
     \      let c = c - 1 in\n\t\t        repeat\n"
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nMascarpone is a self-modifying language able to\nalter the meta-circular\
@@ -1775,14 +1761,12 @@ raw_dump_begins:
     Mascarpone
   "project": |-
     mascarpone
-  "sample": |
+  sample: |
     v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
   "significant": !!null |-
     null
-  "tagline": |-
+  quotation: |-
     You are lost in a twisty little maze of meta-circular intepreters, all alike
-  "type": |-
-    design
   "year": |-
     2007
   abstract: "\nLarabee is an assembly-like programming language, with Scheme-like\
@@ -1810,7 +1794,7 @@ raw_dump_begins:
     Larabee
   "project": |-
     larabee
-  "sample": |-
+  sample: |-
     (store (input) (input)
       (store (input) (input)
         (label loop
@@ -1818,8 +1802,6 @@ raw_dump_begins:
             (store (input) (op - (fetch (input)) (input))
               (test (op > (fetch (input)) (input))
                 (goto loop) (print (fetch (input)))))))))
-  "type": |-
-    design
   "year": |-
     2008
   abstract: "\nArboretuum is an experimental language based on _forest-rewriting_,\n\
@@ -1853,7 +1835,7 @@ raw_dump_begins:
     Arboretuum
   "project": |-
     arboretuum
-  "sample": |-
+  sample: |-
     (
       (
         (ast:   (let a 4 (+ 3 (* a 3))) )
@@ -1873,8 +1855,6 @@ raw_dump_begins:
          (out: halt                         => (mul halt)         ))
       )
     )
-  "type": |-
-    design
   "year": |-
     2008
   abstract: "\nTreacle is an experimental compiler-definition language based on\n\
@@ -1909,11 +1889,9 @@ raw_dump_begins:
     Treacle
   "project": |-
     treacle
-  "sample":
+  sample:
     "mode": |-
       output
-  "type": |-
-    design
   "year": |-
     2008
   abstract: "\nQuylthulg is a programming language with but a single \ncontrol-flow\
@@ -1941,10 +1919,8 @@ raw_dump_begins:
     Quylthulg
   "project": |-
     quylthulg
-  "sample": |-
+  sample: |-
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
-  "type": |-
-    design
   "year": |-
     2008
   abstract: "\nUnlikely is a programming language that conflates objects with\
@@ -1969,7 +1945,7 @@ raw_dump_begins:
     Unlikely
   "project": |-
     unlikely
-  "sample": |-
+  sample: |-
     class Count(Count,Chain,Print,Add) extends Continuation
 
     class CountForever(Count,Chain,Print,Add) extends Program {
@@ -1994,8 +1970,6 @@ raw_dump_begins:
         goto p.continue(accumulator);
       }
     }
-  "type": |-
-    design
   "year": |-
     2009
   abstract: "\nJaccia and Jacciata are cellular automata inspired by the\n[Announcement\
@@ -2032,11 +2006,9 @@ raw_dump_begins:
     Jaccia and Jacciata
   "project": |-
     jaccia
-  "sample":
+  sample:
     "mode": |-
       output
-  "type": |-
-    design
   "year": |-
     2009
   abstract: "\nPixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS\
@@ -2072,10 +2044,8 @@ raw_dump_begins:
     Pixley
   "project": |-
     pixley
-  "sample": |-
+  sample: |-
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
-  "type": |-
-    design
   "year": |-
     2009
   abstract: "\nEtcha is a two-dimensional descendant of Jeffry Johnston's\n[BitChanger].\
@@ -2104,11 +2074,9 @@ raw_dump_begins:
     Etcha
   "project": |-
     etcha
-  "sample":
+  sample:
     "mode": |-
       output
-  "type": |-
-    design
   "year": |-
     2009
   abstract: "\nZOWIE is a machine-like language in which all operations *including\
@@ -2137,7 +2105,7 @@ raw_dump_begins:
     ZOWIE
   "project": |-
     zowie
-  "sample": |
+  sample: |
     MOV R10, 90
     MOV R1, R1
     MOV R0, R10
@@ -2147,8 +2115,6 @@ raw_dump_begins:
     MOV R8, R10
     MOV R5, 64
     MOV R3, R8
-  "type": |-
-    design
   "year": |-
     2009
   abstract: "\nOkapi is a language I designed as an anniversary present for my\
@@ -2174,8 +2140,6 @@ raw_dump_begins:
     null
   "name": |-
     Okapi
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nWhothm is a simple language for describing infinite\ntwo-colour\
@@ -2199,7 +2163,7 @@ raw_dump_begins:
     Whothm
   "project": |-
     whothm
-  "sample": |
+  sample: |
     r := (0, 0, 1, 2);
     s := (0, 0, 1, 2);
     XOR := TF/FT;
@@ -2216,8 +2180,6 @@ raw_dump_begins:
     s.h += 2;
     draw s, XOR;
     end
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nThe name of this language is Oozlybub and Murphy.\nDespite appearances,\
@@ -2237,7 +2199,7 @@ raw_dump_begins:
     Oozlybub and Murphy
   "project": |-
     oozlybub-and-murphy
-  "sample": |
+  sample: |
     VARIABLES ARE p /p*/, p /q*/.
     dynast(3) <->
       (. do (. if? not? exists/dynast 5 ,then
@@ -2246,8 +2208,6 @@ raw_dump_begins:
            for each prime /q*|q/ below /p*|pp/+1 do
              if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
                copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
-  "type": |-
-    design
   "unusual-computability-properties": !!null |-
     null
   "year": |-
@@ -2273,13 +2233,11 @@ raw_dump_begins:
       Etcha
   "name": |-
     Gemooy
-  "sample": "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
+  sample: "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
     \    @\n  @      @          @\n @@\n@                   @\n    $         @#\
     \ # @\n             #      @\n            #\n       @   @\n                \
     \    @\n         \n       @\n      #\n     #\n    @\n    @    @\n     @# @\n\
     @        @\n         @\n  @     @#@\n"
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nNhohnhehr is a remotely fungeoid language which explores the design\
@@ -2313,7 +2271,7 @@ raw_dump_begins:
     Nhohnhehr
   "project": |-
     nhohnhehr
-  "sample": |
+  sample: |
     +------+
     |    /}|
     |&#/$?@|
@@ -2322,8 +2280,6 @@ raw_dump_begins:
     | {    |
     |\\    |
     +------+
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
@@ -2343,13 +2299,11 @@ raw_dump_begins:
     null
   "name": |-
     Kelxquoia
-  "sample": " >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR\n\
+  sample: " >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR\n\
     $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n    ' '   '       '  '      '   \n    \
     \         '         '  '     \n ^      /*?-*P-*?-+*?-*P-* -+     <\n P     \
     \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
     \ 00 00\n"
-  "type": |-
-    design
   "year": |-
     2010
   abstract: "\nWunnel is a two-dimensional language which draws from the\n[[1L]]\
@@ -2377,7 +2331,7 @@ raw_dump_begins:
     null
   "name": |-
     Wunnel
-  "sample": |2
+  sample: |2
               o   ooo  o
 
 
@@ -2404,8 +2358,6 @@ raw_dump_begins:
              o
 
              o    oooo o
-  "type": |-
-    design
   "year": |-
     2011
   abstract: "\nPail is a programming language based on pairs; just as Lisp stands\
@@ -2434,7 +2386,7 @@ raw_dump_begins:
     Pail
   "project": |-
     pail
-  "sample": |
+  sample: |
     **[*let [
          [cadrg *[#fst ##*[#snd #g]]]
          **[*let [
@@ -2442,8 +2394,6 @@ raw_dump_begins:
               ***cadrg
            ]]
       ]]
-  "type": |-
-    design
   "year": |-
     2011
   abstract: "\nXoomonk is a programming language in which _malingering updatable\
@@ -2466,7 +2416,7 @@ raw_dump_begins:
     Xoomonk
   "project": |-
     xoomonk
-  "sample": |
+  sample: |
     l := $loop*
     counter := 5
     l.do := {
@@ -2478,8 +2428,6 @@ raw_dump_begins:
       ^.counter := o.result
       continue := o.result
     }
-  "type": |-
-    design
   "year": |-
     2011
   abstract: "\nOne day in September of 2011 \u2014 though I'm not sure precisely\
@@ -2509,10 +2457,8 @@ raw_dump_begins:
     Flobnar
   "project": |-
     flobnar
-  "sample": ">     v\n^\\ <   \n       \n:v    v   \\<@\n-<      : 6\n1 :   > *\n\
+  sample: ">     v\n^\\ <   \n       \n:v    v   \\<@\n-<      : 6\n1 :   > *\n\
     \  -|    <\n  11\n"
-  "type": |-
-    design
   "year": |-
     2011
   abstract: "\nMadison is a language in which one can state proofs of properties\n\
@@ -2535,7 +2481,7 @@ raw_dump_begins:
     Madison
   "project": |-
     madison
-  "sample": |
+  sample: |
     type tree is
       tree(leaf)        -> true
       tree(branch(X,Y)) -> and(tree(X),tree(Y))
@@ -2557,8 +2503,6 @@ raw_dump_begins:
         -> branch(S,reflect(reflect(T)))                   [by IH]
         -> branch(S,T)                                     [by IH]
     qed
-  "type": |-
-    design
   "year": |-
     2011
   abstract: "\nVelo is a vaguely Ruby-inspired \"scripting\" language which unifies\
@@ -2587,10 +2531,8 @@ raw_dump_begins:
     Velo
   "project": |-
     velo
-  "sample": "yes = {IO.print {Yes}}\nno = {IO.print {No}} \nif ({X}.equals {Y}),\
+  sample: "yes = {IO.print {Yes}}\nno = {IO.print {No}} \nif ({X}.equals {Y}),\
     \ yes, no \n"
-  "type": |-
-    design
   "year": |-
     2012
 

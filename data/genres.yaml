@@ -2,6 +2,8 @@
 # A little weird, because there are genres for both languages and games here
 Esolang:
   type: Genre
+Esolang (Cellular Automaton):
+  type: Genre
 Joke language:
   type: Genre
 Pedagogical language:
