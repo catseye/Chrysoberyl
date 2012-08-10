@@ -66,8 +66,14 @@ def check_chrysoberyl_data(data):
 
       check_list_ref(data, key, node, 'implementations')
 
+      # this only makes sense for Distributions:
+      # (and it has multiple possible types)
+      check_optional_scalar_ref(data, key, node, 'distribution-of')
+      # these only make sense for Language Implementations:
       check_optional_scalar_ref(data, key, node, 'license', type_='License')
-
+      check_optional_scalar_ref(data, key, node, 'in-distribution',
+                                type_='Distribution')
+      # this only makes sense for Games and Programming Languages:
       check_optional_scalar_ref(data, key, node, 'genre', type_='Genre')
 
 if __name__ == '__main__':

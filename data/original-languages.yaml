@@ -110,7 +110,7 @@ b_juliet.pl:
   implemented: true
   reference-distribution: http://catseye.tc/projects/maentw/
 
-'Eightebed':
+Eightebed:
   type: Programming Language
   categories:
   - esolang
@@ -154,3 +154,14 @@ b_juliet.pl:
   implemented: true
   implementations:
   - 8ebed2c.py
+
+8ebed2c.py:
+  type: Language Implementation
+  reference: yes
+  implementation-type: compiler
+  source-language: Eightebed
+  host-language: Python
+  target-language: ANSI C
+  development:
+    github: https://github.com/catseye/Eightebed
+    bitbucket: https://bitbucket.org/catseye/eightebed/

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 'beta-Juliet distribution':
-  type: Language Implementation
+  type: Distribution
   reference: yes
   license: BSD
   development:
@@ -12,14 +12,3 @@
   releases:
   - "http://catseye.tc/distfiles/b_juliet-2001.0201.zip"
   - etc.
-
-'8ebed2c.py':
-  type: Language Implementation
-  reference: yes
-  implementation-type: compiler
-  source-language: Eightebed
-  host-language: Python
-  target-language: ANSI C
-  development:
-    github: https://github.com/catseye/Eightebed
-    bitbucket: https://bitbucket.org/catseye/eightebed/

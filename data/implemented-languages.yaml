@@ -3,6 +3,7 @@ brainfuck:
   type: Programming Language
   genre: Esolang
   author: Urban Müller
+  esowiki: brainfuck
   implementations:
   - pibfi
 
@@ -30,6 +31,7 @@ Muriel:
   type: Programming Language
   genre: Esolang
   author: Matthew Westcott
+  esowiki: Muriel
   reference-distribution: Muriel distribution
   implementations:
   - muriel.pl
@@ -58,6 +60,7 @@ VALGOL:
   type: Programming Language
   genre: Joke language
   source-document: Lesser Known Languages List
+  esowiki: VALGOL
   implementations:
   - valgol.erl
 
@@ -81,6 +84,7 @@ Smallfuck:
   type: Programming Language
   genre: Esolang
   author: Nikita Ayzikovsky
+  esowiki: Smallfuck
   inception-date: ca 2002
   implementations:
   - sf2tab
@@ -106,6 +110,7 @@ Underload:
   type: Programming Language
   genre: Esolang
   author: Alex Smith (ais523)
+  esowiki: Underload
   implementations:
   - stringie
 
@@ -163,6 +168,7 @@ Ale:
   type: Programming Language
   genre: Esolang
   author: David Chipping
+  esowiki: Ale
   implementations:
   - tc.catseye.yoob.ale
 
@@ -183,10 +189,11 @@ Backflip:
   type: Programming Language
   genre: Esolang
   author: Alex Smith (ais523)
+  esowiki: Backflip
   implementations:
   - tc.catseye.yoob.backflip
 
-'tc.catseye.yoob.backflip':
+tc.catseye.yoob.backflip:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -203,10 +210,11 @@ Black:
   type: Programming Language
   genre: Esolang
   author: Alex Smith (ais523)
+  esowiki: Black
   implementations:
   - tc.catseye.yoob.black
 
-'tc.catseye.yoob.black':
+tc.catseye.yoob.black:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -219,9 +227,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-# and so on, and so forth
+LNUSP:
+  type: Programming Language
+  genre: Esolang
+  esowiki: LNUSP
+  implementations:
+  - tc.catseye.yoob.lnusp
 
-'tc.catseye.yoob.lnusp':
+tc.catseye.yoob.lnusp:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -234,7 +247,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.onela':
+1L_a:
+  type: Programming Language
+  genre: Esolang
+  esowiki: 1L_a
+  implementations:
+  - tc.catseye.yoob.onela
+
+tc.catseye.yoob.onela:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -247,7 +267,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.onelaoi':
+1L_AOI:
+  type: Programming Language
+  genre: Esolang
+  esowiki: 1L_AOI
+  implementations:
+  - tc.catseye.yoob.onelaoi
+
+tc.catseye.yoob.onelaoi:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -260,7 +287,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.onelaoi':
+PATH:
+  type: Programming Language
+  genre: Esolang
+  esowiki: PATH
+  implementations:
+  - tc.catseye.yoob.path
+
+tc.catseye.yoob.path:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -273,7 +307,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.qdeql':
+Qdeql:
+  type: Programming Language
+  genre: Esolang
+  esowiki: Qdeql
+  implementations:
+  - tc.catseye.yoob.qdeql
+
+tc.catseye.yoob.qdeql:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -286,7 +327,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.sceql':
+Sceql:
+  type: Programming Language
+  genre: Esolang
+  esowiki: Sceql
+  implementations:
+  - tc.catseye.yoob.sceql
+
+tc.catseye.yoob.sceql:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -299,7 +347,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.snusp':
+SNUSP:
+  type: Programming Language
+  genre: Esolang
+  esowiki: SNUSP
+  implementations:
+  - tc.catseye.yoob.snusp
+
+tc.catseye.yoob.snusp:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -312,7 +367,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.twoill':
+2-ill:
+  type: Programming Language
+  genre: Esolang
+  esowiki: 2-ill
+  implementations:
+  - tc.catseye.yoob.twoill
+
+tc.catseye.yoob.twoill:
   type: Language Implementation
   reference: no
   license: Public Domain
@@ -325,7 +387,14 @@ Black:
   auspices:
   - Cat's Eye Technologies
 
-'tc.catseye.yoob.twol':
+2L:
+  type: Programming Language
+  genre: Esolang
+  esowiki: 2L
+  implementations:
+  - tc.catseye.yoob.twol
+
+tc.catseye.yoob.twol:
   type: Language Implementation
   reference: no
   license: Public Domain

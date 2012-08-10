@@ -34,6 +34,10 @@
     revision: "2000.1204"
     latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
+'esoko distribution': 
+  type: Distribution
+  distribution-of: esoko
+  releases: []
 'Flip distribution': 
   type: Distribution
   distribution-of: Flip
@@ -44,6 +48,10 @@
     revision: "2002.0731"
     latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
+'Hunt the Wumpus distribution': 
+  type: Distribution
+  distribution-of: Hunt the Wumpus
+  releases: []
 'Super Wumpus Land distribution': 
   type: Distribution
   distribution-of: Super Wumpus Land
