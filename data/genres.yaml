@@ -8,6 +8,11 @@ Pedagogical language:
   type: Genre
 Production language:
   type: Genre
+Experimental language:
+  type: Genre
+DSL:
+  acronym-for: Domain-Specific Language
+  type: Genre
 
 Guessing:
   type: Genre

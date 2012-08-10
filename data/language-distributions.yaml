@@ -61,6 +61,7 @@ apple-befunge:
     revision: "2000.0703"
     latest: false
     url: http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip
+
 arboretuum: 
   type: Distribution
   title: The Arboretuum Programming Language
@@ -92,6 +93,7 @@ arboretuum:
     url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
   references: 
   - project: treacle
+
 bef: 
   type: Distribution
   title: 'bef: Reference implementation of Befunge-93'
@@ -120,6 +122,7 @@ bef:
   references: 
   - project: befunge93
   - project: flobnar
+
 befos: 
   type: Distribution
   title: 'BefOS: An Operating System for the Linearly Challenged'
@@ -149,6 +152,7 @@ befos:
     url: http://catseye.tc/distfiles/befos-2006.0204.zip
   references: 
   - project: befunge93
+
 befunge93: 
   type: Distribution
   title: The Befunge-93 Programming Language
@@ -182,24 +186,13 @@ befunge93:
   - title: Befunge Jargon File Entry
     desc: Citation in The New Hacker's Dictionary
     url: http://jargon.watson-net.com/jargon.asp?w=Befunge
-beta-juliet: 
+
+beta-Juliet distribution: 
   type: Distribution
-  title: The beta-Juliet Programming Language
-  summary: Interpreter for the <b>beta-Juliet</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    beta-Juliet
-        <a class="external" href="https://bitbucket.org/catseye/beta-juliet/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/beta-Juliet">git mirror on githib</a>.
-  language: beta-Juliet and Portia
-  esowiki: beta-Juliet
-  keywords: 
-  - bsdl
-  - c
-  - eso
-  - lang
-  - perl
+  distribution-of: beta-Juliet
+  github: https://github.com/catseye/beta-Juliet.git
+  bitbucket: https://bitbucket.org/catseye/beta-juliet/
+  issue-tracker: https://github.com/catseye/beta-Juliet/issues
   releases: 
   - version: "2.0"
     revision: "2012.0714"
@@ -225,6 +218,7 @@ beta-juliet:
     revision: "2001.0201"
     latest: false
     url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
+
 beturing: 
   type: Distribution
   title: The Beturing Programming Language
@@ -251,6 +245,7 @@ beturing:
     revision: "2005.0606"
     latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0606.zip
+
 bhuna: 
   type: Distribution
   title: The Bhuna Programming Language
@@ -298,6 +293,7 @@ bhuna:
     revision: "2012.0616"
     latest: true
     url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
+
 braktif: 
   type: Distribution
   title: The Braktif Cellular Automaton
@@ -318,6 +314,7 @@ braktif:
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
   references: 
   - project: pibfi
+
 burro: 
   type: Distribution
   title: The Burro Programming Language
@@ -345,6 +342,7 @@ burro:
     url: http://catseye.tc/distfiles/burro-2007.1026.zip
   references: 
   - project: cabra
+
 cabra: 
   type: Distribution
   title: The Cabra Programming Language
@@ -394,6 +392,7 @@ circute:
     revision: "2007.0503"
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
+
 didigm: 
   type: Distribution
   title: The Didigm Reflective Cellular Automaton
@@ -421,17 +420,10 @@ didigm:
     revision: "2007.1117"
     latest: false
     url: http://catseye.tc/distfiles/didigm-2007.1117.zip
-dieter: 
+
+Dieter distribution: 
   type: Distribution
-  title: The Dieter Programming Language
-  summary: Docs and type checker for the <b>Dieter</b> language
-  byline: Conceived and partially implemented by Chris Pressey
-  language: Dieter
-  esowiki: None
-  keywords: 
-  - py
-  - lang
-  - oo
+  distribution-of: Dieter
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -445,16 +437,10 @@ dieter:
     revision: "2009.1003"
     latest: false
     url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
-eightebed: 
+
+Eightebed distribution: 
   type: Distribution
-  title: The Eightebed Programming Language
-  summary: Docs and implementation of the <b>Eightebed</b> language
-  byline: Conceived and implemented by Chris Pressey
-  language: Eightebed
-  esowiki: None
-  keywords: 
-  - py
-  - lang
+  distribution-of: Eightebed
   releases: 
   - version: "1.1"
     revision: "2011.0510"
@@ -464,6 +450,7 @@ eightebed:
     revision: "2010.0901"
     latest: false
     url: http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip
+
 emmental: 
   type: Distribution
   title: The Emmental Programming Language

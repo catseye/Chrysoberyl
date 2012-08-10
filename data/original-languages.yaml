@@ -1,8 +1,8 @@
 # encoding: UTF-8
 beta-Juliet:
   type: Programming Language
-  categories:
-  - esolang
+  genre: Esolang
+  esowiki: beta-Juliet
   summary: A minimal event-oriented programming language
   abstract: |-
     beta-Juliet is a minimal event-based language.  Each event is caused by some other event.
@@ -26,20 +26,127 @@ beta-Juliet:
 
 b_juliet.pl:
   type: Language Implementation
-  in-distribution: 'beta-Juliet distribution'
+  in-distribution: beta-Juliet distribution
   license: BSD
-  implementation-language: Perl
+  implementation-type: interpreter
+  host-language: Perl
 
 2iota:
   type: Language Implementation
+  reference: true
   in-distribution: 'beta-Juliet distribution'
   license: BSD
-  implementation-language: C99
+  implementation-type: interpreter
+  host-language: C99
 
-'Full Moon Fever':
+
+Dieter:
   type: Programming Language
-  categories:
-  - esolang
+  genre: Experimental language
+  summary: A language which conflates modules and type qualifiers
+  abstract: |-
+    Dieter (as in the German masculine given name Dieter, not dieter as in
+    "one who diets") is a little experimental programming language that
+    conflates *type qualifiers* with *modules* to produce something
+    reminiscent of object-orientation.  It demonstrates another way of
+    thinking about objects, or rather, classes: not so much as
+    *aggregates of data* as *associations of predicates*.
+    
+    Dieter was intended as a way to make Hungarian notation part of the type
+    system, and thus automatically checkable.  However, it also suggests
+    possible ways of dealing with the problems of aliasing — that is,
+    determining if two pointers cannot possibly point to the same data, for
+    safety and optimization considerations.
+  paradigms:
+  - Object-oriented
+  etymology:
+  - masculine given name
+  sample: |-
+    module beefy
+      procedure beef_up(x: ♥t): beefy ♥t
+      begin
+        return (bestow beefy x)
+      end
+    end.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Oct 3, 2009
+  computational-class: believed Turing-complete
+  reference-distribution: Dieter distribution
+  implementations:
+  - dieter.py
+
+dieter.py:
+  type: Language Implementation
+  in-distribution: Dieter distribution
+  reference: true
+  license: BSD
+  implementation-type: typechecker
+  host-language: Python
+
+
+Eightebed:
+  type: Programming Language
+  genre: Esolang
+  esowiki: Eightebed
+  summary: A safe language with explicit memory deallocation
+  abstract: |-
+    Eightebed is a small language with explicit `malloc` and `free`.
+    Through a modicum of static analysis
+    and runtime support, Eightebed is safe: it is not possible to dereference a dangling
+    pointer or otherwise incorrectly-populated memory.
+    
+    Eightebed was designed as a counter-example to Gregor Richards' claim that such
+    a language would either need a garbage collector, or not actually implement `free`.
+    Eightebed has a real `free` and has no garbage collector.
+  commentary: |-
+    The name "Eightebed" came from a typo by [[Alise]] for the word "enlightened".
+  etymology:
+  - typo
+  sample: |-
+    type node struct {
+        int value;
+        ptr to node next;
+    };
+    var ptr to node jim;
+    var ptr to node george;
+    {    
+        jim = malloc node;
+        if valid jim {
+            [@jim].value = (1 + 4);
+            george = jim;
+        }
+        if valid george {
+            print [@george].value;
+        }
+        free george;
+        free jim;
+    }
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Sep 1, 2010
+  computational-class: believed Turing-complete
+  implementations:
+  - 8ebed2c.py
+
+8ebed2c.py:
+  type: Language Implementation
+  in-distribution: Eightebed distribution
+  reference: yes
+  license: BSD
+  implementation-type: compiler
+  source-language: Eightebed
+  host-language: Python
+  target-language: ANSI C
+
+
+Full Moon Fever:
+  type: Programming Language
+  genre: DSL
   summary: A language for describing ANSI terminal animations
   abstract: |-
     Full Moon Fever is a language for describing ASCII animations.
@@ -74,10 +181,11 @@ b_juliet.pl:
   computational-class: known not Turing-complete
   implemented: true
 
-'Maentwrog':
+
+Maentwrog:
   type: Programming Language
-  categories:
-  - esolang
+  genre: Pedagogical language
+  esowiki: Maentwrog
   summary: A simple RPN-calculator-based language
   abstract: |-
     Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
@@ -108,60 +216,4 @@ b_juliet.pl:
   inception-date: ca 1993
   computational-class: known not Turing-complete
   implemented: true
-  reference-distribution: http://catseye.tc/projects/maentw/
-
-Eightebed:
-  type: Programming Language
-  categories:
-  - esolang
-  summary: A simple RPN-calculator-based language
-  abstract: |-
-    Eightebed is a small language with explicit `malloc` and `free`.
-    Through a modicum of static analysis
-    and runtime support, Eightebed is safe: it is not possible to dereference a dangling
-    pointer or otherwise incorrectly-populated memory.
-    
-    Eightebed was designed as a counter-example to Gregor Richards' claim that such
-    a language would either need a garbage collector, or not actually implement `free`.
-    Eightebed has a real `free` and has no garbage collector.
-  etymology:
-  - typo
-  sample: |-
-    type node struct {
-        int value;
-        ptr to node next;
-    };
-    var ptr to node jim;
-    var ptr to node george;
-    {    
-        jim = malloc node;
-        if valid jim {
-            [@jim].value = (1 + 4);
-            george = jim;
-        }
-        if valid george {
-            print [@george].value;
-        }
-        free george;
-        free jim;
-    }
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca Sep 1, 2010
-  computational-class: believed Turing-complete
-  implemented: true
-  implementations:
-  - 8ebed2c.py
-
-8ebed2c.py:
-  type: Language Implementation
-  reference: yes
-  implementation-type: compiler
-  source-language: Eightebed
-  host-language: Python
-  target-language: ANSI C
-  development:
-    github: https://github.com/catseye/Eightebed
-    bitbucket: https://bitbucket.org/catseye/eightebed/
+  reference-distribution: Maentwrog distribution
