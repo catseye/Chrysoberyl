@@ -986,7 +986,7 @@ Muriel distribution:
     latest: true
     url: http://catseye.tc/distfiles/muriel-2001.0323.zip
 
-\'N-DCNC distribution: 
+"'N-DCNC distribution": 
   type: Distribution
   title: The 'N-DCNC Programming Language
   summary: Docs and compilers for <b>'N-DCNC</b>
@@ -1060,7 +1060,7 @@ Opus-2 distribution:
     latest: true
     url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
 
-PAIL distribution: 
+Pail distribution: 
   type: Distribution
   title: The Pail Programming Language
   summary: Interpreter and test suite for the <b>Pail</b> language
@@ -1655,7 +1655,7 @@ Wierd distribution:
     latest: true
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
 
-noit o\' mnain worb distribution: 
+"noit o' mnain worb distribution": 
   type: Distribution
   title: The noit o' mnain worb Language
   summary: Interpreter for <b>noit o' mnain worb</b>

@@ -84,6 +84,7 @@ Befunge-97:
   failure: true
   influences:
   - Befunge-93
+  has-reference-distribution: false
 
 
 beta-Juliet:
@@ -272,6 +273,7 @@ Full Moon Fever:
   - Cat's Eye Technologies
   inception-date: ca 1993
   computational-class: known not Turing-complete
+  has-reference-distribution: false
   implemented: true
 
 
@@ -328,13 +330,64 @@ maentw.c:
   host-language: ANSI C
 
 
+"noit o' mnain worb":
+  type: Programming Language
+  genre: Esolang
+  quotation: |-
+    Under pressure
+  quotation-attribution: |-
+    Queen
+  abstract: |-
+    noit o' mnain worb is a probabilistic particle automaton that
+    uses pressure between randomly moving particles to approximate the behaviour
+    of circuits.  It can approximate computation with these circuits, too, but
+    it's so lossy that it has more value as just a neat toy to watch.
+    
+    (The name of this language contains a *secret message*! Can *you* find it?)
+  inception-date: Sep 15, 2000
+  etymology:
+  - neologism
+  - hidden message
+  - celtic
+  notable: true
+  sample: |
+    #####         #####
+    #   ###########   #
+    # . >         < . #
+    #   #####v#####   #
+    #####   #  ########
+            #       >!#
+            #v#########
+            # #
+            ###
+  reference-distribution: noit o' mnain worb distribution
+  implementations:
+  - worb.pl
+  - tc.catseye.yoob.worb
+
+worb.pl:
+  type: Language Implementation
+  in-distribution: noit o' mnain worb distribution
+  license: BSD
+  reference: yes
+  implementation-type: interpreter
+  host-language: Perl
+
+tc.catseye.yoob.worb:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+
+
 REDGREEN:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
   abstract: |-
     REDGREEN is a cellular automaton that simulates a little
     "physical world", much like [[RUBE]].
-  computational-class: known Turing-complete
+  computational-class: shown Turing-complete
   etymology:
   - television program
   influences:
@@ -508,6 +561,36 @@ smith.pl:
   host-language: Perl
 
 
+Treacle:
+  type: Programming Language
+  genre: Experimental language
+  abstract: |-
+    Treacle is an experimental compiler-definition language based on
+    _context rewriting_, an expressive variant of term rewriting that generalizes
+    the forest-rewriting used by its predecessor [[Arboretuum]].  In context rewriting,
+    a separation is made between _names_ and _variables_, and patterns may contain
+    _holes_ inside which subpatterns may match at any depth.
+  computational-class: believed Turing-complete
+  inception-date: Apr 12, 2008
+  etymology:
+  - british
+  - condiment
+  influences:
+  - Arboretuum
+  sample: |-
+    XXX needs sample here
+  reference-distribution: Treacle distribution
+  implementations:
+  - treacle.scm
+
+treacle.scm:
+  type: Language Implementation
+  license: Unknown license
+  reference: true
+  host-language: Scheme
+  implementation-type: interpreter
+
+
 Wierd:
   type: Programming Language
   genre: Esolang
@@ -575,7 +658,7 @@ ZOWIE:
     `goto`s, or offsets or labels of any kind.  Instead, the program writes to
     a memory location to mark the beginning or end of a loop or conditional.
   inception-date: Dec 29, 2009
-  computational-class: known Turing-complete
+  computational-class: shown Turing-complete
   influences:
   - BitChanger
   sample: |
@@ -644,6 +727,7 @@ Circute:
        =============     =============
   "year": |-
     2005
+  reference-distribution: Circute distribution
 
 
 Braktif:
@@ -685,6 +769,7 @@ Braktif:
     -----------------d-i--         --------
   "year": |-
     2005
+  reference-distribution: Braktif distribution
 
 
 Funge-98:
@@ -742,6 +827,7 @@ Funge-98:
     Jason
   "year": |-
     1998
+  reference-distribution: Funge-98 distribution
 
 
 ETHEL:
@@ -765,6 +851,7 @@ ETHEL:
     ETHEL
   "year": |-
     1998
+  has-reference-distribution: false
 
 
 MDPN:
@@ -789,6 +876,7 @@ MDPN:
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
   "year": |-
     1999
+  reference-distribution: MDPN distribution
 
 
 Shelta:
@@ -841,6 +929,7 @@ Shelta:
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
   "year": |-
     1999
+  reference-distribution: Shelta distribution
 
 
 Sally:
@@ -877,6 +966,7 @@ Sally:
     upside-down FORTH
   "year": |-
     2000
+  reference-distribution: Sally distribution
 
 
 Bear Food:
@@ -909,6 +999,7 @@ Bear Food:
     liquid insanity from Hell
   "year": |-
     1999
+  has-reference-distribution: false
 
 
 Tamerlane:
@@ -934,6 +1025,7 @@ Tamerlane:
     ?- 1 Point-A -> 0 Point-A @ Point-A
   "year": |-
     2000
+  reference-distribution: Tamerlane distribution
 
 
 Squishy2K:
@@ -968,59 +1060,7 @@ Squishy2K:
     * main { start many finish? "Hello, world!"! }
   "year": |-
     2000
-
-
-noit o\' mnain worb:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nnoit o' mnain worb is a probabilistic particle automaton\nthat\
-    \ uses pressure between randomly moving particles\nto approximate the behaviour\
-    \ of circuits.  It can approximate\ncomputation with these circuits, too, but\
-    \ it's so lossy that it\nhas more value as just a neat toy to watch.\n\n(The\
-    \ name of this language contains a *secret message*!\nCan *you* find it?)\n\
-    \  "
-  "day": |-
-    0915
-  etymology:
-    "nametag":
-    - |-
-      neologism
-    - |-
-      hidden message
-    - |-
-      celtic
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        worb.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    noit o' mnain worb
-  "notable": !!null |-
-    null
-  "project": |-
-    worb
-  sample: |
-    #####         #####
-    #   ###########   #
-    # . >         < . #
-    #   #####v#####   #
-    #####   #  ########
-            #       >!#
-            #v#########
-            # #
-            ###
-  quotation: |-
-    Under pressure
-  "tagline-attrib": |-
-    Queen
-  "year": |-
-    2000
+  reference-distribution: Squishy2K distribution
 
 
 Hunter:
@@ -1067,9 +1107,10 @@ Hunter:
     maze-space rewriting with authentic inter-rodent communication
   "year": |-
     2000
+  reference-distribution: Hunter distribution
 
 
-\'N-DCNC:
+"'N-DCNC":
   type: Programming Language
   genre: Joke language
   abstract: "\n'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')\n\
@@ -1101,6 +1142,7 @@ Hunter:
     4*5+2/2,(9*`c)+1
   "year": |-
     2000
+  reference-distribution: "'N-DCNC distribution"
 
 
 Strelnokoff:
@@ -1156,6 +1198,7 @@ Strelnokoff:
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   "year": |-
     2001
+  reference-distribution: Strelnokoff distribution
 
 
 ILLGOL:
@@ -1205,6 +1248,7 @@ ILLGOL:
     FIN
   "year": |-
     2001
+  reference-distribution: illgol
 
 
 Opus-2:
@@ -1244,6 +1288,7 @@ Opus-2:
     null
   "year": |-
     2001
+  reference-distribution: Opus-2 distribution
 
 Ypsilax:
   type: Programming Language
@@ -1286,6 +1331,7 @@ Ypsilax:
         #    ###
   "year": |-
     2001
+  reference-distribution: Ypsilax distribution
 
 
 Version:
@@ -1333,6 +1379,7 @@ Version:
     LASTLY: IGNORE = "START"
   "year": |-
     2001
+  reference-distribution: Version distribution
 
 
 Sbeezg:
@@ -1365,6 +1412,7 @@ Sbeezg:
        k=j(h,b)|a};l=f(99,f)
   "year": |-
     2002
+  reference-distribution: Sbeezg distribution
 
 
 GraNoLa/M:
@@ -1401,6 +1449,7 @@ GraNoLa/M:
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
   "year": |-
     2002
+  reference-distribution: GraNoLa/M distribution
 
 
 Kangaroo Iceberg:
@@ -1433,6 +1482,7 @@ Kangaroo Iceberg:
     kiceberg
   "year": |-
     2004
+  reference-distribution: Kangaroo Iceberg distribution
 
 
 Beturing:
@@ -1484,6 +1534,7 @@ Beturing:
     *@      *^*<*<
   "year": |-
     2005
+  reference-distribution: Beturing distribution
 
 
 Bhuna:
@@ -1530,6 +1581,7 @@ Bhuna:
     Print Fib(32), EoL
   "year": |-
     2005
+  reference-distribution: Bhuna distribution
 
 
 Xigxag:
@@ -1564,6 +1616,7 @@ Xigxag:
     null
   "year": |-
     2007
+  reference-distribution: Xigxag distribution
 
 
 Hev:
@@ -1599,6 +1652,8 @@ Hev:
     71+8*27,19,29*99,6,37,7,61,47
   "year": |-
     2007
+  reference-distribution: Hev distribution
+
 
 
 Burro:
@@ -1648,10 +1703,10 @@ Burro:
     >)/
       >>--(+++>+>/+<<+++>)<
     >)<
-  "significant": !!null |-
-    null
+  significant: true
   "year": |-
     2010
+  reference-distribution: Burro distribution
 
 
 Cabra:
@@ -1690,6 +1745,7 @@ Cabra:
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
   "year": |-
     2007
+  reference-distribution: Cabra distribution
 
 
 You are Reading the Name of this Esolang:
@@ -1717,6 +1773,7 @@ You are Reading the Name of this Esolang:
     null
   "year": |-
     2007
+  reference-distribution: You are Reading the Name of this Esolang distribution
 
 
 Emmental:
@@ -1755,6 +1812,7 @@ Emmental:
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
   "year": |-
     2007
+  reference-distribution: Emmental distribution
 
 
 Didigm:
@@ -1792,6 +1850,7 @@ Didigm:
     Didigm = ALPACA + Ypsilax
   "year": |-
     2007
+  reference-distribution: Didigm distribution
 
 
 Iphigeneia:
@@ -1829,6 +1888,7 @@ Iphigeneia:
     \      let c = c - 1 in\n\t\t        repeat\n"
   "year": |-
     2007
+  reference-distribution: Iphigeneia distribution
 
 
 Mascarpone:
@@ -1874,6 +1934,8 @@ Mascarpone:
     You are lost in a twisty little maze of meta-circular intepreters, all alike
   "year": |-
     2007
+  reference-distribution: Mascarpone distribution
+
 
 Larabee:
   type: Programming Language
@@ -1913,6 +1975,7 @@ Larabee:
                 (goto loop) (print (fetch (input)))))))))
   "year": |-
     2008
+  reference-distribution: Larabee distribution
 
 
 Arboretuum:
@@ -1971,47 +2034,7 @@ Arboretuum:
     )
   "year": |-
     2008
-
-
-Treacle:
-  type: Programming Language
-  genre: Experimental language
-  abstract: "\nTreacle is an experimental compiler-definition language based on\n\
-    _context rewriting_, an expressive variant of term rewriting\nthat generalizes\
-    \ the forest-rewriting used by its predecessor [[Arboretuum]].\nIn context rewriting,\
-    \ a separation is made between _names_ and _variables_,\nand patterns may contain\
-    \ _holes_\ninside which subpatterns may match at any depth.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0412
-  etymology:
-    "nametag":
-    - |-
-      british
-    - |-
-      condiment
-  "influences":
-    "influence": |-
-      Arboretuum
-  "name": |-
-    Treacle
-  "project": |-
-    treacle
-  sample:
-    "mode": |-
-      output
-  "year": |-
-    2008
-  implementations:
-  - treacle.scm
-
-treacle.scm:
-  type: Language Implementation
-  license: Unknown license
-  reference: true
-  host-language: Scheme
-  implementation-type: interpreter
+  reference-distribution: Arboretuum distribution
 
 
 Quylthulg:
@@ -2046,6 +2069,7 @@ Quylthulg:
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
   "year": |-
     2008
+  reference-distribution: Quylthulg distribution
 
 
 Unlikely:
@@ -2100,6 +2124,7 @@ Unlikely:
     }
   "year": |-
     2009
+  reference-distribution: Unlikely distribution
 
 
 # TODO: split up?
@@ -2145,6 +2170,7 @@ Jaccia and Jacciata:
       output
   "year": |-
     2009
+  reference-distribution: Jaccia and Jacciata distribution
 
 
 Pixley:
@@ -2187,6 +2213,7 @@ Pixley:
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
   "year": |-
     2009
+  reference-distribution: Pixley distribution
 
 
 Etcha:
@@ -2223,6 +2250,7 @@ Etcha:
       output
   "year": |-
     2009
+  reference-distribution: Etcha distribution
 
 
 Okapi: 
@@ -2253,6 +2281,7 @@ Okapi:
     Okapi
   "year": |-
     2010
+  has-reference-distribution: false
 
 
 Whothm: 
@@ -2298,6 +2327,7 @@ Whothm:
     end
   "year": |-
     2010
+  reference-distribution: Whothm distribution
 
 
 Oozlybub and Murphy: 
@@ -2333,6 +2363,7 @@ Oozlybub and Murphy:
     null
   "year": |-
     2010
+  reference-distribution: Oozlybub and Murphy distribution
 
 
 Gemooy: 
@@ -2366,6 +2397,7 @@ Gemooy:
     @        @\n         @\n  @     @#@\n"
   "year": |-
     2010
+  has-reference-distribution: false
 
 
 Nhohnhehr: 
@@ -2413,6 +2445,7 @@ Nhohnhehr:
     +------+
   "year": |-
     2010
+  reference-distribution: Nhohnhehr distribution
 
 
 Kelxquoia: 
@@ -2442,6 +2475,7 @@ Kelxquoia:
     \ 00 00\n"
   "year": |-
     2010
+  has-reference-distribution: false
 
 
 Wunnel: 
@@ -2501,6 +2535,7 @@ Wunnel:
              o    oooo o
   "year": |-
     2011
+  has-reference-distribution: false
 
 
 Pail: 
@@ -2542,6 +2577,7 @@ Pail:
       ]]
   "year": |-
     2011
+  reference-distribution: Pail distribution
 
 
 Xoomonk: 
@@ -2581,6 +2617,7 @@ Xoomonk:
     }
   "year": |-
     2011
+  reference-distribution: Xoomonk distribution
 
 
 Flobnar: 
@@ -2617,6 +2654,7 @@ Flobnar:
     \  -|    <\n  11\n"
   "year": |-
     2011
+  reference-distribution: Flobnar distribution
 
 
 Madison: 
@@ -2666,6 +2704,7 @@ Madison:
     qed
   "year": |-
     2011
+  reference-distribution: Madison distribution
 
 
 Velo: 
@@ -2701,3 +2740,4 @@ Velo:
     \ yes, no \n"
   "year": |-
     2012
+  reference-distribution: Velo distribution

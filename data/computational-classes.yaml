@@ -1,7 +1,7 @@
 # encoding: UTF-8
 believed Turing-complete:
   type: Computational Class
-proved Turing-complete:
+shown Turing-complete:
   type: Computational Class
 known not Turing-complete:
   type: Computational Class
@@ -10,4 +10,6 @@ Finite-automata-complete:
 unknown computational class:
   type: Computational Class
 Primitive recursive:
+  type: Computational Class
+can simulate some push-down automata:
   type: Computational Class

@@ -1,69 +1,86 @@
+# encoding: UTF-8
+# actually some of these do have reference distributions
 ANSI C:
   type: Programming Language
   genre: Production language
   computational-class: Finite-automata-complete
+  has-reference-distribution: false
 C99:
   type: Programming Language
   genre: Production language
   commentary: |-
     Generally implies POSIX, too.
   computational-class: Finite-automata-complete
+  has-reference-distribution: false
 Java:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Perl:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Python:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
   commentary: |-
     Mostly harmless.
 Scheme: 
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Haskell:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Erlang:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Lua:
   type: Programming Language
   genre: Production language
-  computational-class: proved Turing-complete
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 MSIL:
   type: Programming Language
   genre: Production language
   computational-class: unknown computational class
+  has-reference-distribution: false
 Zz:
   type: Programming Language
   genre: Metalanguage
   computational-class: unknown computational class
+  has-reference-distribution: false
 Ophis Assembler:
   type: Programming Language
   # "Assembly language"?
   genre: Production language
   computational-class: Finite-automata-complete
+  has-reference-distribution: false
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
   type: Programming Language
   genre: Production language
   computational-class: believed Turing-complete
+  has-reference-distribution: false
 
 # heh.  for sf2tab:
 lookup table:
   type: Programming Language
   genre: Production language
   computational-class: Finite-automata-complete
+  has-reference-distribution: false
 # I have not designed nor implemented this one, so it's here
 Thue:
   type: Programming Language
   genre: Esolang
   computational-class: believed Turing-complete
+  has-reference-distribution: false
