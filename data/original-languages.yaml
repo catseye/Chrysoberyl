@@ -133,6 +133,73 @@ b_juliet.pl:
   host-language: C99
 
 
+Braktif:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
+  abstract: |-
+    Braktif is a cellular automaton modelled closely after the [[brainfuck]]
+    programming language.
+  computational-class: believed Turing-complete
+  etymology:
+  - television character
+  - portmanteau
+  - french
+  influences:
+  - brainfuck
+  sample: |2
+                                *
+                           <<*[--]*
+    000000000000000000  *[-----  --]
+    -----------------d-i--         --------
+  inception-date: 2005
+  reference-distribution: Braktif distribution
+  implementations:
+  - braktif.alp
+
+braktif.alp:
+  type: Language Implementation
+  reference: true
+  in-distribution: Braktif distribution
+  license: BSD
+  implementation-type: formal description
+  host-language: ALPACA
+
+
+Circute:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
+  abstract: |-
+    Circute is a cellular automaton that simulates conduits that
+    carry digital signals and NAND gates that manipulate those signals.
+  etymology:
+  - portmanteau
+  influences:
+  - Wireworld
+  computational-class: known not Turing-complete
+  sample: |2
+                      =
+                      =
+       #######==   ===N===   =========
+       #       =   =     =   =       =
+     ==N==     = ==N== ==N== =     ==N==
+     =   =     = =   = =   = =     =   =
+     =====     = ===== ===== =     =====
+       =       =   =     =   =       =
+       =============     =============
+  inception-date: 2005
+  reference-distribution: Circute distribution
+  implementations:
+  - circute.alp
+
+circute.alp:
+  type: Language Implementation
+  reference: true
+  in-distribution: Circute distribution
+  license: BSD
+  implementation-type: formal description
+  host-language: ALPACA
+
+
 Dieter:
   type: Programming Language
   genre: Experimental language
@@ -685,91 +752,7 @@ zowie.py:
 
 
 
-#### following languages need some massaging ###
-
-
-Circute:
-  type: Programming Language
-  genre: Esolang (Cellular Automaton)
-  abstract: "\nCircute is a cellular automaton that simulates conduits that\n\
-    carry digital signals and NAND gates that manipulate those signals.\n  "
-  etymology:
-    "nametag": |-
-      portmanteau
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        circute.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
-  "influences":
-    "influence": |-
-      Wireworld
-  "known-not-turing-complete": !!null |-
-    null
-  "name": |-
-    Circute
-  "project": |-
-    circute
-  sample: |2
-                      =
-                      =
-       #######==   ===N===   =========
-       #       =   =     =   =       =
-     ==N==     = ==N== ==N== =     ==N==
-     =   =     = =   = =   = =     =   =
-     =====     = ===== ===== =     =====
-       =       =   =     =   =       =
-       =============     =============
-  "year": |-
-    2005
-  reference-distribution: Circute distribution
-
-
-Braktif:
-  type: Programming Language
-  genre: Esolang (Cellular Automaton)
-  abstract: "\nBraktif is a cellular automaton modelled closely after the Brainfuck\
-    \ programming language.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  etymology:
-    "nametag":
-    - |-
-      television
-    - |-
-      portmanteau
-    - |-
-      french
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        braktif.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
-  "influences":
-    "influence": |-
-      Brainfuck
-  "name": |-
-    Braktif
-  "project": |-
-    braktif
-  sample: |2
-                                *
-                           <<*[--]*
-    000000000000000000  *[-----  --]
-    -----------------d-i--         --------
-  "year": |-
-    2005
-  reference-distribution: Braktif distribution
+###---### following languages need some massaging ###---###
 
 
 Funge-98:
