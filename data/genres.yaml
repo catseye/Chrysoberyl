@@ -15,6 +15,9 @@ Experimental language:
 DSL:
   acronym-for: Domain-Specific Language
   type: Genre
+# Maybe this is just a kind of DSL
+Proof language:
+  type: Genre
 # this should maybe be a paradigm? you can combine this with any of the above,
 # is the thing
 Metalanguage:

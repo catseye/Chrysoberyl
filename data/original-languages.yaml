@@ -535,16 +535,16 @@ REDGREEN:
   etymology:
     "nametag": |-
       television
-  #~ "implementations":
-    #~ "implementation":
-      #~ "host-language": |-
-        #~ ALPACA
-      #~ "name": |-
-        #~ redgreen.alp
-      #~ "reference": |-
-        #~ yes
-      #~ "type": |-
-        #~ description
+  "implementations":
+    "implementation":
+      "host-language": |-
+        ALPACA
+      "name": |-
+        redgreen.alp
+      "reference": |-
+        yes
+      "type": |-
+        description
   "influences":
     "influence": |-
       RUBE
@@ -582,16 +582,16 @@ Circute:
   etymology:
     "nametag": |-
       portmanteau
-  #~ "implementations":
-    #~ "implementation":
-      #~ "host-language": |-
-        #~ ALPACA
-      #~ "name": |-
-        #~ circute.alp
-      #~ "reference": |-
-        #~ yes
-      #~ "type": |-
-        #~ description
+  "implementations":
+    "implementation":
+      "host-language": |-
+        ALPACA
+      "name": |-
+        circute.alp
+      "reference": |-
+        yes
+      "type": |-
+        description
   "influences":
     "influence": |-
       Wireworld
@@ -630,16 +630,16 @@ Braktif:
       portmanteau
     - |-
       french
-  #~ "implementations":
-    #~ "implementation":
-      #~ "host-language": |-
-        #~ ALPACA
-      #~ "name": |-
-        #~ braktif.alp
-      #~ "reference": |-
-        #~ yes
-      #~ "type": |-
-        #~ description
+  "implementations":
+    "implementation":
+      "host-language": |-
+        ALPACA
+      "name": |-
+        braktif.alp
+      "reference": |-
+        yes
+      "type": |-
+        description
   "influences":
     "influence": |-
       Brainfuck
@@ -667,24 +667,24 @@ Funge-98:
     0101
   "demonstrated-turing-complete": !!null |-
     null
-  #~ "implementations":
-    #~ "implementation":
-    #~ - "host-language": |-
-        #~ C
-      #~ "name":
-        #~ "tool": |-
-          #~ no
-      #~ "type": |-
-        #~ interpreter
-    #~ - "author": |-
-        #~ Ben Olmstead
-      #~ "host-language": |-
-        #~ C
-      #~ "name":
-        #~ "tool": |-
-          #~ no
-      #~ "type": |-
-        #~ interpreter
+  "implementations":
+    "implementation":
+    - "host-language": |-
+        C
+      "name":
+        "tool": |-
+          no
+      "type": |-
+        interpreter
+    - "author": |-
+        Ben Olmstead
+      "host-language": |-
+        C
+      "name":
+        "tool": |-
+          no
+      "type": |-
+        interpreter
   "influences":
     "influence":
     - |-
@@ -760,10 +760,9 @@ MDPN:
     1999
 
 
-#### following languages need heavy massaging ####
-
-raw_dump_of_languages_follow:
-  type: dump
+Shelta:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nShelta is an extremely minimal Forth-like language with barely\
     \ any semantics;\nit relies on inline machine code to be considered anywhere\
     \ near Turing-Complete.\nIn the spirit of compilers for languages such as [[FALSE]]\
@@ -811,6 +810,11 @@ raw_dump_of_languages_follow:
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
   "year": |-
     1999
+
+
+Sally:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nSally is a neat little functional language with minimal syntax,\
     \ strict typing, and some\ninteresting parameter rules.\n  "
   "day": |-
@@ -842,6 +846,11 @@ raw_dump_of_languages_follow:
     upside-down FORTH
   "year": |-
     2000
+
+
+Bear Food:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nBear Food was a horrible language defined by an interpreter that\
     \ evolved\n(no... let's be honest, it *devolved*) from a small\npiece of example\
     \ code showing how to parse and intepret\na simple reverse-polish notation language.\
@@ -869,6 +878,11 @@ raw_dump_of_languages_follow:
     liquid insanity from Hell
   "year": |-
     1999
+
+
+Tamerlane:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nTamerlane is a multi-paradigmatic programming language, unimplemented\
     \ and possibly unimplementable.\nOne of its core execution mechanisms is the\
     \ traversing of a graph (representing the program)\nwhile rewriting that same\
@@ -889,6 +903,11 @@ raw_dump_of_languages_follow:
     ?- 1 Point-A -> 0 Point-A @ Point-A
   "year": |-
     2000
+
+
+Squishy2K:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nSquishy2K is a language which is a hybrid of string rewriting\n\
     and finite state automata; as an added twist, it also lets program\nstates serve\
     \ as functions.  It was based largely on an earlier grammar-based\nlanguage\
@@ -918,6 +937,11 @@ raw_dump_of_languages_follow:
     * main { start many finish? "Hello, world!"! }
   "year": |-
     2000
+
+
+noit o\' mnain worb:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nnoit o' mnain worb is a probabilistic particle automaton\nthat\
     \ uses pressure between randomly moving particles\nto approximate the behaviour\
     \ of circuits.  It can approximate\ncomputation with these circuits, too, but\
@@ -966,6 +990,11 @@ raw_dump_of_languages_follow:
     Queen
   "year": |-
     2000
+
+
+Hunter:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nHunter is a language I designed for the Esoteric Awards (\"Essies\"\
     ).\nIts abstract starts out like this:\n\n> It is perceived that one of the\
     \ biggest problems in maintaining\n> interest in programming is the above linear\
@@ -977,8 +1006,6 @@ raw_dump_of_languages_follow:
   etymology:
     "nametag": |-
       masculine given name
-  "funny": !!null |-
-    null
   "implementations":
     "implementation":
       "host-language": |-
@@ -1009,13 +1036,16 @@ raw_dump_of_languages_follow:
     maze-space rewriting with authentic inter-rodent communication
   "year": |-
     2000
+
+
+\'N-DCNC:
+  type: Programming Language
+  genre: Joke language
   abstract: "\n'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')\n\
     It is based on a conspiracy theory involving\nUFOs and a 5-member boy band,\
     \ or something.\n  "
   "day": |-
     1001
-  "funny": !!null |-
-    null
   "implementations":
     "implementation":
     - "host-language": |-
@@ -1040,6 +1070,11 @@ raw_dump_of_languages_follow:
     4*5+2/2,(9*`c)+1
   "year": |-
     2000
+
+
+Strelnokoff:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nStrelnokoff is a non-deterministic imperative\nprogramming language.\
     \  Despite this apparent handicap,\nit appears to be Turing-complete (thanks\
     \ to a short-circuiting multiplication\noperator,) but a critical feature (arrays)\
@@ -1090,6 +1125,11 @@ raw_dump_of_languages_follow:
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   "year": |-
     2001
+
+
+ILLGOL:
+  type: Programming Language
+  genre: Joke language
   abstract: "\nJoke languages which parody the sort of language designed by the\
     \ sheer fact\nthat a compiler for it has been hacked together.\n  "
   "day": |-
@@ -1105,8 +1145,6 @@ raw_dump_of_languages_follow:
   etymology:
     "nametag": |-
       parody
-  "funny": !!null |-
-    null
   "implementations":
     "implementation":
       "host-language": |-
@@ -1136,6 +1174,10 @@ raw_dump_of_languages_follow:
     FIN
   "year": |-
     2001
+
+
+Opus-2:
+  type: Abstract Artlang
   abstract: "\nOpus-2 is not a programming language, but rather, an abstract artlang\
     \ (i.e.,\na conlang designed independently from any conception of society.)\n\
     The sole design principle was to entirely eliminate word order.\n  "
@@ -1171,6 +1213,10 @@ raw_dump_of_languages_follow:
     null
   "year": |-
     2001
+
+Ypsilax:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nYpsilax is a non-deterministic, reflective, two-dimensional grid-rewriting\n\
     language.  Rewriting rules look for patterns in the grid and\nreplace them with\
     \ other patterns.  These rules are themselves represented by patterns in\nthe\
@@ -1209,6 +1255,11 @@ raw_dump_of_languages_follow:
         #    ###
   "year": |-
     2001
+
+
+Version:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nVersion is an imperative programming language that uses\n_ignorance-spaces_\
     \ for flow control; the implementation\nignores instructions which matches the\
     \ current ignorance pattern.\n  "
@@ -1251,6 +1302,11 @@ raw_dump_of_languages_follow:
     LASTLY: IGNORE = "START"
   "year": |-
     2001
+
+
+Sbeezg:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nSbeezg is a syntactically very simple language that attempts to\
     \ take the single-assignment concept\nto a logical extreme.\n  "
   "day": |-
@@ -1278,6 +1334,12 @@ raw_dump_of_languages_follow:
        k=j(h,b)|a};l=f(99,f)
   "year": |-
     2002
+
+
+GraNoLa/M:
+  type: Programming Language
+  genre: Esolang
+  acronym-for: GRAph-NOde LAnguage (possibly for Machines)
   abstract: "\nGraNoLa/M is a Graph-Node-based Language (possibly for Machines.)\n\
     It was one of my submissions for the Esoteric Awards.\nNot unlike Tamerlane,\
     \ its execution model involves both\ntraversing and rewriting a graph at the\
@@ -1308,6 +1370,11 @@ raw_dump_of_languages_follow:
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
   "year": |-
     2002
+
+
+Kangaroo Iceberg:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nKangaroo Iceberg was a short-lived attempt to pare down Tamerlane\
     \ to something implementable,\nand implement it.  Although it got a fair ways\
     \ along (e.g. the parser for graphs seems to be complete,)\nI lost interest\
@@ -1335,6 +1402,11 @@ raw_dump_of_languages_follow:
     kiceberg
   "year": |-
     2004
+
+
+Beturing:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nBeturing is a \"Befunge-flavoured\" language for describing Turing\
     \ machines; both the tape and\nthe finite control are laid out two-dimensionally.\
     \  In addition, the finite control must be\nexpressed as a planar graph (no\
@@ -1381,6 +1453,11 @@ raw_dump_of_languages_follow:
     *@      *^*<*<
   "year": |-
     2005
+
+
+Bhuna:
+  type: Programming Language
+  genre: Production language
   abstract: "\nBhuna is a small, garbage-collected language with a simple\nsyntax,\
     \ closures, inferred types, lightweight processes, and support for UTF-8\nsource\
     \ code.  It was implemented partly to see how closely I could match\nthe performance\
@@ -1422,6 +1499,12 @@ raw_dump_of_languages_follow:
     Print Fib(32), EoL
   "year": |-
     2005
+
+
+Xigxag:
+  # hmm... well, no.  but for now, yes.
+  type: Programming Language
+  genre: Esolang
   abstract: "\nXigxag is a simple string-copying automaton that has exponential\
     \ growth almost everywhere\n(i.e. there are only a finite number of initial\
     \ configurations that don't blow up.)\n  "
@@ -1450,6 +1533,11 @@ raw_dump_of_languages_follow:
     null
   "year": |-
     2007
+
+
+Hev:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nHev is a programming language that attempts to solve the \"central\
     \ problem of\ninfix notation\": how do you allow it without requiring the programmer\
     \ to either\nmemorize precedence tables or litter parentheses everywhere?  Hev\
@@ -1480,6 +1568,11 @@ raw_dump_of_languages_follow:
     71+8*27,19,29*99,6,37,7,61,47
   "year": |-
     2007
+
+
+Burro:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nBurro is a [[brainfuck]]-like programming language whose programs\n\
     form an algebraical _group_ (modulo the equivalence relation of \"computes the\
     \ same function\")\nunder the operation of concatenation.\nThe upshot of this\
@@ -1528,6 +1621,11 @@ raw_dump_of_languages_follow:
     null
   "year": |-
     2010
+
+
+Cabra:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nCabra is a (somewhat) formal programming language whose programs\
     \ form an algebraical\n_dioid_ (an idempotent semiring), modulo the equivalence\
     \ relation of \"computes the same function\",\nunder the operations of parallel\
@@ -1561,6 +1659,11 @@ raw_dump_of_languages_follow:
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
   "year": |-
     2007
+
+
+You are Reading the Name of this Esolang:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nYou are Reading the Name of this Esolang is an exploration in\n\
     the design space of programming languages with undecidable elements.\nIts syntax\
     \ is only recursively enumerable:\nthe problem of determining whether or not\n\
@@ -1583,6 +1686,11 @@ raw_dump_of_languages_follow:
     null
   "year": |-
     2007
+
+
+Emmental:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nEmmental is a self-modifying programming language.  It is defined\
     \ in terms\nof a meta-circular interpreter, and this meta-circular interpreter\
     \ provides\nan operation that redefines operations of the meta-circular interpreter.\
@@ -1616,6 +1724,11 @@ raw_dump_of_languages_follow:
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
   "year": |-
     2007
+
+
+Didigm:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nDidigm is a reflective cellular automaton: the transition rules\
     \ for the\nautomaton are defined by forms in the very playfield governed by\
     \ those transition rules.\n  "
@@ -1648,6 +1761,11 @@ raw_dump_of_languages_follow:
     Didigm = ALPACA + Ypsilax
   "year": |-
     2007
+
+
+Iphigeneia:
+  type: Programming Language
+  genre: Pedagogical language
   abstract: "\nIphigeneia is a toy programming language which contains features\
     \ from both\nimperative programming (assignments to mutable variables, `while`\
     \ loops,)\nand functional programming (immutable name bindings,\nScheme-style\
@@ -1680,6 +1798,11 @@ raw_dump_of_languages_follow:
     \      let c = c - 1 in\n\t\t        repeat\n"
   "year": |-
     2007
+
+
+Mascarpone:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nMascarpone is a self-modifying language able to\nalter the meta-circular\
     \ interpreter which defines it, like its predecessor\nEmmental.  Unlike Emmental\
     \ however, in Mascarpone\ninterpreters are first-class objects,\nmaking the\
@@ -1720,6 +1843,10 @@ raw_dump_of_languages_follow:
     You are lost in a twisty little maze of meta-circular intepreters, all alike
   "year": |-
     2007
+
+Larabee:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nLarabee is an assembly-like programming language, with Scheme-like\
     \ syntax,\nthat borrows the notion of branch prediction from computer architecture\n\
     and abuses it, creating a path that leads only to existential angst and self-destruction.\n\
@@ -1755,6 +1882,11 @@ raw_dump_of_languages_follow:
                 (goto loop) (print (fetch (input)))))))))
   "year": |-
     2008
+
+
+Arboretuum:
+  type: Programming Language
+  genre: Experimental language
   abstract: "\nArboretuum is an experimental language based on _forest-rewriting_,\n\
     a variant of tree-rewriting in which multiple trees are rewritten simultaneously.\n\
     The language was intended for specifying compilers, with each tree representing\n\
@@ -1808,6 +1940,11 @@ raw_dump_of_languages_follow:
     )
   "year": |-
     2008
+
+
+Treacle:
+  type: Programming Language
+  genre: Experimental language
   abstract: "\nTreacle is an experimental compiler-definition language based on\n\
     _context rewriting_, an expressive variant of term rewriting\nthat generalizes\
     \ the forest-rewriting used by its predecessor [[Arboretuum]].\nIn context rewriting,\
@@ -1845,6 +1982,11 @@ raw_dump_of_languages_follow:
       output
   "year": |-
     2008
+
+
+Quylthulg:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nQuylthulg is a programming language with but a single \ncontrol-flow\
     \ construct: `foreach`.  In fact, it \ndoes also have a `goto`, but that can\
     \ only appear \ninside data structures.\n  "
@@ -1874,6 +2016,11 @@ raw_dump_of_languages_follow:
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
   "year": |-
     2008
+
+
+Unlikely:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nUnlikely is a programming language that conflates objects with\
     \ continuations,\nand methods with labels.  It exposes program structures as\
     \ objects with\ncommensurate inheritance relationships.  It also takes dependency\
@@ -1898,7 +2045,7 @@ raw_dump_of_languages_follow:
     unlikely
   sample: |-
     class Count(Count,Chain,Print,Add) extends Continuation
-
+    
     class CountForever(Count,Chain,Print,Add) extends Program {
       Count c;
       method continue(Passive accumulator) {
@@ -1906,7 +2053,7 @@ raw_dump_of_languages_follow:
         goto c.continue(new 1(Passive));
       }
     }
-
+    
     class Count() extends Continuation {
       Count c;
       Print p;
@@ -1923,6 +2070,12 @@ raw_dump_of_languages_follow:
     }
   "year": |-
     2009
+
+
+# TODO: split up?
+Jaccia and Jacciata:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
   abstract: "\nJaccia and Jacciata are cellular automata inspired by the\n[Announcement\
     \ of Scientific Proof that Slime Molds are\nIntelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).\n\
     Jaccia can solve mazes too, by a similar mechanism (shrinking).\nJacciata builds\
@@ -1962,6 +2115,11 @@ raw_dump_of_languages_follow:
       output
   "year": |-
     2009
+
+
+Pixley:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nPixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS\
     \ Scheme),\nsupporting four datatypes (boolean, cons cell, function, and symbol)\
     \ and\na dozen built-in symbols.  The reference implementation of Pixley\nis\
@@ -1999,6 +2157,11 @@ raw_dump_of_languages_follow:
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
   "year": |-
     2009
+
+
+Etcha:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nEtcha is a two-dimensional descendant of Jeffry Johnston's\n[BitChanger].\
     \  Like BitChanger, it has four instructions;\nunlike BitChanger, its storage\
     \ model is based on turtle graphics, which permits it to be immediately used\
@@ -2030,6 +2193,11 @@ raw_dump_of_languages_follow:
       output
   "year": |-
     2009
+
+
+ZOWIE:
+  type: Programming Language
+  genre: Esolang
   abstract: "\nZOWIE is a machine-like language in which all operations *including\
     \ structured control flow* are memory-mapped.\nControl flow is structured in\
     \ the sense of structured programming \u2014\nthe programmer never deals with\
@@ -2068,6 +2236,11 @@ raw_dump_of_languages_follow:
     MOV R3, R8
   "year": |-
     2009
+
+
+Okapi: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nOkapi is a language I designed as an anniversary present for my\
     \ wife(!).\nIn it, the only means of control flow is throwing exceptions, and\
     \ as if this wasn't\nenough, there are two restrictions on exceptions that are\
@@ -2093,6 +2266,11 @@ raw_dump_of_languages_follow:
     Okapi
   "year": |-
     2010
+
+
+Whothm: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nWhothm is a simple language for describing infinite\ntwo-colour\
     \ bitmapped drawings.\n  "
   "day": |-
@@ -2118,7 +2296,7 @@ raw_dump_of_languages_follow:
     r := (0, 0, 1, 2);
     s := (0, 0, 1, 2);
     XOR := TF/FT;
-
+    
     begin
     r.x += r.w;
     r.x += -1;
@@ -2133,6 +2311,11 @@ raw_dump_of_languages_follow:
     end
   "year": |-
     2010
+
+
+Oozlybub and Murphy: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nThe name of this language is Oozlybub and Murphy.\nDespite appearances,\
     \ this name refers to a single language.\nThe majority of the language is named\
     \ Oozlybub.\nThe fact that the language is not entirely named Oozlybub is named\
@@ -2163,6 +2346,11 @@ raw_dump_of_languages_follow:
     null
   "year": |-
     2010
+
+
+Gemooy: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nGemooy is really just a two-dimensional bagatelle of sorts; it\
     \ combines features from\n[[2-ill]] and [[Etcha]], and adds self-modification.\
     \ It came about when I noticed\nthe tape-related semantics of 2-ill were essentially\
@@ -2191,6 +2379,11 @@ raw_dump_of_languages_follow:
     @        @\n         @\n  @     @#@\n"
   "year": |-
     2010
+
+
+Nhohnhehr: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nNhohnhehr is a remotely fungeoid language which explores the design\
     \ space between having\na fixed playfield versus an expandable one.  When the\
     \ instruction pointer reaches the edge of\nthe playfield (the \"room\"), whether\
@@ -2233,6 +2426,11 @@ raw_dump_of_languages_follow:
     +------+
   "year": |-
     2010
+
+
+Kelxquoia: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
     \ \u2014 in fact,\nself-destroying.  As instructions are executed, they are\
     \ erased.  In order to execute\nindefinitely, new instructions of some sort\
@@ -2257,6 +2455,11 @@ raw_dump_of_languages_follow:
     \ 00 00\n"
   "year": |-
     2010
+
+
+Wunnel: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nWunnel is a two-dimensional language which draws from the\n[[1L]]\
     \ family of languages and incorporates features from [[reMorse]].\nThe name\
     \ is both a play on the pronunciation of \"1L\", and\na recursive portmanteau\
@@ -2311,6 +2514,11 @@ raw_dump_of_languages_follow:
              o    oooo o
   "year": |-
     2011
+
+
+Pail: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nPail is a programming language based on pairs; just as Lisp stands\
     \ for\nLISt Processing, Pail stands for PAIr Language.\nIts original working\
     \ title was \"Bizaaro[sic]-Pixley\", as it attempts to resemble\n[[Pixley]]\
@@ -2347,6 +2555,11 @@ raw_dump_of_languages_follow:
       ]]
   "year": |-
     2011
+
+
+Xoomonk: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nXoomonk is a programming language in which _malingering updatable\
     \ stores_\nare first-class objects.  Malingering updatable stores unify several\
     \ language\nconstructs, including procedure activations, named parameters, and\
@@ -2381,6 +2594,11 @@ raw_dump_of_languages_follow:
     }
   "year": |-
     2011
+
+
+Flobnar: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nOne day in September of 2011 \u2014 though I'm not sure precisely\
     \ which\none \u2014 marked [[Befunge-93]]'s 18th birthday.  That means that\
     \ Befunge is\nnow old enough to drink in its native land of Canada.  To celebrate\
@@ -2412,6 +2630,11 @@ raw_dump_of_languages_follow:
     \  -|    <\n  11\n"
   "year": |-
     2011
+
+
+Madison: 
+  type: Programming Language
+  genre: Proof language
   abstract: "\nMadison is a language in which one can state proofs of properties\n\
     of term-rewriting systems.  Classical methods of automated reasoning,\nsuch\
     \ as resolution, are not used; indeed, term-rewriting itself is\nused to check\
@@ -2456,6 +2679,11 @@ raw_dump_of_languages_follow:
     qed
   "year": |-
     2011
+
+
+Velo: 
+  type: Programming Language
+  genre: Esolang
   abstract: "\nVelo is a vaguely Ruby-inspired \"scripting\" language which unifies\
     \ strings\nwith code blocks, and scripts with object classes.  Curly braces\
     \ delimit string\nliterals, and there is no difference between a string literal\
@@ -2486,4 +2714,3 @@ raw_dump_of_languages_follow:
     \ yes, no \n"
   "year": |-
     2012
-
