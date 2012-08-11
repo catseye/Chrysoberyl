@@ -23,6 +23,8 @@ Tool:
   type: type
 Tool Implementation:
   type: type
+Programming Language Family:
+  type: type
 Programming Language:
   type: type
 Language Implementation:

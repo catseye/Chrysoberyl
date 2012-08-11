@@ -95,6 +95,11 @@ def check_chrysoberyl_data(data):
           check_scalar_ref(data, key, node, 'computational-class',
                            type_='Computational Class')
 
+      if type_ == 'Programming Language Family':
+          check_scalar_ref(data, key, node, 'genre', type_='Genre')
+          check_optional_scalar_ref(data, key, node, 'reference-distribution',
+                                    type_='Distribution')
+
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])
     check_chrysoberyl_data(data)

@@ -328,6 +328,49 @@ maentw.c:
   host-language: ANSI C
 
 
+REDGREEN:
+  type: Programming Language
+  genre: Esolang (Cellular Automaton)
+  abstract: |-
+    REDGREEN is a cellular automaton that simulates a little
+    "physical world", much like [[RUBE]].
+  computational-class: known Turing-complete
+  etymology:
+  - television program
+  influences:
+  - RUBE
+  sample: |2
+                                       # #
+                     ......            # #
+                                       #  ~                      #
+                                       #######################   #
+                                      %#                         #
+                           . . .      T #####                    #
+                                      ###   #  :                 #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+    >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
+                                                    %
+                                                    T
+  inception-date: 1998
+  implementations:
+  - redgreen.alp
+  reference-distribution: REDGREEN distribution
+
+redgreen.alp:
+  type: Language Implementation
+  reference: true
+  in-distribution: REDGREEN distribution
+  license: BSD
+  implementation-type: formal description
+  host-language: ALPACA
+
+
 RUBE:
   type: Programming Language
   genre: Esolang
@@ -522,56 +565,44 @@ wierd-milo.c:
   host-language: ANSI C
 
 
-# following languages need some massaging
-
-
-REDGREEN:
+ZOWIE:
   type: Programming Language
-  genre: Esolang (Cellular Automaton)
-  abstract: "\nREDGREEN is a cellular automaton that simulates a little\n\"physical\
-    \ world\", much like RUBE.\n  "
-  "demonstrated-turing-complete": !!null |-
-    null
-  etymology:
-    "nametag": |-
-      television
-  "implementations":
-    "implementation":
-      "host-language": |-
-        ALPACA
-      "name": |-
-        redgreen.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
-  "influences":
-    "influence": |-
-      RUBE
-  "name": |-
-    REDGREEN
-  "project": |-
-    redgreen
-  sample: |2
-                                       # #
-                     ......            # #
-                                       #  ~                      #
-                                       #######################   #
-                                      %#                         #
-                           . . .      T #####                    #
-                                      ###   #  :                 #
-                                            #                    #
-                                            #  .                 #
-                                            #                    #
-                                            #                    #
-                                            #  .                 #
-                                            #                    #
-                                            #                    #
-    >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
-                                                    %
-                                                    T
-  "year": |-
-    1998
+  genre: Esolang
+  abstract: |-
+    ZOWIE is a machine-like language in which all operations *including
+    structured control flow* are memory-mapped.  Control flow is structured in
+    the sense of structured programming -- the programmer never deals with
+    `goto`s, or offsets or labels of any kind.  Instead, the program writes to
+    a memory location to mark the beginning or end of a loop or conditional.
+  inception-date: Dec 29, 2009
+  computational-class: known Turing-complete
+  influences:
+  - BitChanger
+  sample: |
+    MOV R10, 90
+    MOV R1, R1
+    MOV R0, R10
+    MOV R8, R10
+    MOV R5, 1
+    MOV R10, R8
+    MOV R8, R10
+    MOV R5, 64
+    MOV R3, R8
+  reference-distribution: ZOWIE distribution
+  implementations:
+  - zowie.py
+
+zowie.py:
+  type: Language Implementation
+  reference: true
+  in-distribution: ZOWIE distribution
+  license: Public Domain
+  host-language: Python
+  implementation-type: interpreter
+
+
+
+#### following languages need some massaging ###
 
 
 Circute:
@@ -657,7 +688,7 @@ Braktif:
 
 
 Funge-98:
-  type: Programming Language
+  type: Programming Language Family
   genre: Esolang
   abstract: "\nCulmination of attempts to improve upon Befunge.  Seemingly everything\
     \ except the\nkitchen sink was stuffed into it somehow.\n  "
@@ -1727,7 +1758,7 @@ Emmental:
 
 
 Didigm:
-  type: Programming Language
+  type: Programming Language Family
   genre: Esolang
   abstract: "\nDidigm is a reflective cellular automaton: the transition rules\
     \ for the\nautomaton are defined by forms in the very playfield governed by\
@@ -1960,16 +1991,6 @@ Treacle:
       british
     - |-
       condiment
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Scheme
-      "name": |-
-        treacle.scm
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
   "influences":
     "influence": |-
       Arboretuum
@@ -1982,6 +2003,15 @@ Treacle:
       output
   "year": |-
     2008
+  implementations:
+  - treacle.scm
+
+treacle.scm:
+  type: Language Implementation
+  license: Unknown license
+  reference: true
+  host-language: Scheme
+  implementation-type: interpreter
 
 
 Quylthulg:
@@ -2191,49 +2221,6 @@ Etcha:
   sample:
     "mode": |-
       output
-  "year": |-
-    2009
-
-
-ZOWIE:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nZOWIE is a machine-like language in which all operations *including\
-    \ structured control flow* are memory-mapped.\nControl flow is structured in\
-    \ the sense of structured programming \u2014\nthe programmer never deals with\
-    \ `goto`s, or offsets or labels of any kind.\nInstead, the program writes to\
-    \ a memory location to mark the beginning or end of a loop or conditional.\n\
-    \  "
-  "day": |-
-    1229
-  "demonstrated-turing-complete": !!null |-
-    null
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Python
-      "name":
-        "tool": |-
-          yes
-      "type": |-
-        interpreter
-  "influences":
-    "influence": |-
-      BitChanger
-  "name": |-
-    ZOWIE
-  "project": |-
-    zowie
-  sample: |
-    MOV R10, 90
-    MOV R1, R1
-    MOV R0, R10
-    MOV R8, R10
-    MOV R5, 1
-    MOV R10, R8
-    MOV R8, R10
-    MOV R5, 64
-    MOV R3, R8
   "year": |-
     2009
 

@@ -22,6 +22,10 @@ Python:
   computational-class: proved Turing-complete
   commentary: |-
     Mostly harmless.
+Scheme: 
+  type: Programming Language
+  genre: Production language
+  computational-class: proved Turing-complete
 Haskell:
   type: Programming Language
   genre: Production language

@@ -9,3 +9,5 @@ typechecker:
   type: Implementation Type
 static analyzer:
   type: Implementation Type
+formal description:
+  type: Implementation Type
