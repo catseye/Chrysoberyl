@@ -344,6 +344,77 @@ Full Moon Fever:
   implemented: true
 
 
+Funge-98:
+  type: Programming Language Family
+  genre: Esolang
+  abstract: |-
+    Culmination of attempts to improve upon Befunge.  Seemingly everything
+    except the kitchen sink was stuffed into it somehow.
+  with:
+  - Befunge Mailing List Working Group
+  inception-date: 1998
+  computational-class: shown Turing-complete
+  influences:
+  - Befunge-93
+  - Befunge-97
+  notable: true
+  sample: |
+    >>#v?v
+    ^,A' <
+     ^ C'
+        T
+     ^ <<
+        G
+        '
+  quotation: |-
+    Taking programming in new directions... all four of them
+  quotation-attribution: |-
+    Jason
+  "year": |-
+    1998
+  reference-distribution: Funge-98 distribution
+  implementations:
+  - FBBI
+
+FBBI:
+  type: Language Implementation
+  reference: false
+  in-distribution: FBBI distribution
+  license: BSD
+  host-language: ANSI C
+  implementation-type: interpreter
+
+
+Gemooy: 
+  type: Programming Language
+  genre: Esolang
+  abstract: "\nGemooy is really just a two-dimensional bagatelle of sorts; it\
+    \ combines features from\n[[2-ill]] and [[Etcha]], and adds self-modification.\
+    \ It came about when I noticed\nthe tape-related semantics of 2-ill were essentially\
+    \ the same as those of\n[[BitChanger]].\n\n(Information on this language is\
+    \ only available on the esowiki for now.)\n  "
+  inception-date: Dec 2, 2010
+  computational-class: believed Turing-complete
+  implementations:
+  - tc.catseye.yoob.gemooy
+  influences:
+  - 2-ill
+  - Etcha
+  sample: "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
+    \    @\n  @      @          @\n @@\n@                   @\n    $         @#\
+    \ # @\n             #      @\n            #\n       @   @\n                \
+    \    @\n         \n       @\n      #\n     #\n    @\n    @    @\n     @# @\n\
+    @        @\n         @\n  @     @#@\n"
+  has-reference-distribution: false
+
+tc.catseye.yoob.gemooy:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+
+
 Kelxquoia: 
   type: Programming Language
   genre: Esolang
@@ -915,61 +986,6 @@ zowie.py:
 ###---### following languages need some massaging ###---###
 
 
-Funge-98:
-  type: Programming Language Family
-  genre: Esolang
-  abstract: "\nCulmination of attempts to improve upon Befunge.  Seemingly everything\
-    \ except the\nkitchen sink was stuffed into it somehow.\n  "
-  "collaborators": |-
-    input from many, many others
-  "day": |-
-    0101
-  "demonstrated-turing-complete": !!null |-
-    null
-  "implementations":
-    "implementation":
-    - "host-language": |-
-        C
-      "name":
-        "tool": |-
-          no
-      "type": |-
-        interpreter
-    - "author": |-
-        Ben Olmstead
-      "host-language": |-
-        C
-      "name":
-        "tool": |-
-          no
-      "type": |-
-        interpreter
-  "influences":
-  - Befunge-93
-  - Befunge-97
-  "name": |-
-    Funge-98
-  "notable": !!null |-
-    null
-  "project": |-
-    funge98
-  sample: |
-    >>#v?v
-    ^,A' <
-     ^ C'
-        T
-     ^ <<
-        G
-        '
-  quotation: |-
-    Taking programming in new directions... all four of them
-  "tagline-attrib": |-
-    Jason
-  "year": |-
-    1998
-  reference-distribution: Funge-98 distribution
-
-
 ETHEL:
   type: Programming Language
   genre: DSL
@@ -1031,17 +1047,15 @@ Shelta:
     \ written in Shelta, which was compiled with the\noriginal compiler, and then\
     \ compiled again with the resulting compiler,\nproducing a wholly self-hosted\
     \ executable!\n  "
-  "bootstrapped": !!null |-
-    null
+  with:
+  - Ben Olmstead
+  bootstrapped: true
   "day": |-
     0601
   etymology:
-    "nametag":
-    - |-
-      language
-    - |-
-      celtic
-  "implementations":
+  - spoken language
+  - celtic
+  "ximplementations":
     "implementation":
     - "host-language": |-
         x86 assembly
@@ -1084,7 +1098,7 @@ Bear Food:
     1201
   "failure": !!null |-
     null
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1145,7 +1159,7 @@ Squishy2K:
     null
   "day": |-
     0901
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1180,7 +1194,7 @@ Hunter:
   etymology:
     "nametag": |-
       masculine given name
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1221,7 +1235,7 @@ Hunter:
     \ or something.\n  "
   "day": |-
     1001
-  "implementations":
+  "ximplementations":
     "implementation":
     - "host-language": |-
         Perl
@@ -1266,7 +1280,7 @@ ILLGOL:
   etymology:
     "nametag": |-
       parody
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         C
@@ -1351,7 +1365,7 @@ Ypsilax:
   etymology:
     "nametag": |-
       neologism
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1389,7 +1403,7 @@ Version:
     \ current ignorance pattern.\n  "
   "day": |-
     0901
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1439,7 +1453,7 @@ Sbeezg:
   etymology:
     "nametag": |-
       neologism
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Erlang
@@ -1475,7 +1489,7 @@ GraNoLa/M:
   etymology:
     "nametag": |-
       acronym
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Erlang
@@ -1509,7 +1523,7 @@ Kangaroo Iceberg:
     0601
   "failure": !!null |-
     null
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         C
@@ -1547,7 +1561,7 @@ Beturing:
   etymology:
     "nametag": |-
       portmanteau
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Lua
@@ -1601,7 +1615,7 @@ Bhuna:
       indian
     - |-
       dish
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         C
@@ -1637,7 +1651,7 @@ Xigxag:
     \ configurations that don't blow up.)\n  "
   "day": |-
     0423
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Perl
@@ -1678,7 +1692,7 @@ Hev:
   etymology:
     "nametag": |-
       neologism
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -1720,7 +1734,7 @@ Burro:
   etymology:
     "nametag": |-
       spanish
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -1765,7 +1779,7 @@ Cabra:
   etymology:
     "nametag": |-
       spanish
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -1835,7 +1849,7 @@ Emmental:
       dairy
     - |-
       swiss
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -1910,7 +1924,7 @@ Iphigeneia:
       classical greek
     - |-
       mythological
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -1944,7 +1958,7 @@ Larabee:
   etymology:
     "nametag": |-
       television
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Scheme
@@ -1993,7 +2007,7 @@ Arboretuum:
       latin
     - |-
       portmanteau
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Scheme
@@ -2045,7 +2059,7 @@ Quylthulg:
   etymology:
     "nametag": |-
       mythological
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -2079,7 +2093,7 @@ Unlikely:
     null
   "day": |-
     0315
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Python
@@ -2136,7 +2150,7 @@ Jaccia and Jacciata:
   etymology:
     "nametag": |-
       neologism
-  "implementations":
+  "ximplementations":
     "implementation":
     - "host-language": |-
         ALPACA
@@ -2189,7 +2203,7 @@ Pixley:
       placename
     - |-
       television
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Pixley
@@ -2224,7 +2238,7 @@ Etcha:
     1004
   "demonstrated-turing-complete": !!null |-
     null
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Java
@@ -2260,7 +2274,7 @@ Okapi:
     0523
   "demonstrated-turing-complete": !!null |-
     null
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Python
@@ -2283,7 +2297,7 @@ Whothm:
     \ bitmapped drawings.\n  "
   "day": |-
     0628
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Java
@@ -2332,8 +2346,6 @@ Oozlybub and Murphy:
     \ typing, and\nonly-conjectural Turing completeness.\n  "
   "day": |-
     1201
-  "implementations": !!null |-
-    null
   "name": |-
     Oozlybub and Murphy
   "project": |-
@@ -2354,37 +2366,6 @@ Oozlybub and Murphy:
   reference-distribution: Oozlybub and Murphy distribution
 
 
-Gemooy: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nGemooy is really just a two-dimensional bagatelle of sorts; it\
-    \ combines features from\n[[2-ill]] and [[Etcha]], and adds self-modification.\
-    \ It came about when I noticed\nthe tape-related semantics of 2-ill were essentially\
-    \ the same as those of\n[[BitChanger]].\n\n(Information on this language is\
-    \ only available on the esowiki for now.)\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1202
-  "implementations": !!null |-
-    null
-  "implemented": !!null |-
-    null
-  influences:
-  - 2-ill
-  - Etcha
-  "name": |-
-    Gemooy
-  sample: "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
-    \    @\n  @      @          @\n @@\n@                   @\n    $         @#\
-    \ # @\n             #      @\n            #\n       @   @\n                \
-    \    @\n         \n       @\n      #\n     #\n    @\n    @    @\n     @# @\n\
-    @        @\n         @\n  @     @#@\n"
-  "year": |-
-    2010
-  has-reference-distribution: false
-
-
 Nhohnhehr: 
   type: Programming Language
   genre: Esolang
@@ -2399,7 +2380,7 @@ Nhohnhehr:
     null
   "day": |-
     1208
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Python
@@ -2441,7 +2422,7 @@ Wunnel:
     null
   "day": |-
     0213
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Java
@@ -2499,7 +2480,7 @@ Pail:
     null
   "day": |-
     0525
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -2543,7 +2524,7 @@ Xoomonk:
     null
   "day": |-
     0807
-  "implementations": !!null |-
+  "ximplementations": !!null |-
     null
   "name": |-
     Xoomonk
@@ -2580,7 +2561,7 @@ Flobnar:
     null
   "day": |-
     1028
-  "implementations":
+  "ximplementations":
     "implementation":
       "host-language": |-
         Haskell
@@ -2618,8 +2599,6 @@ Madison:
     null
   "day": |-
     1202
-  "implementations": !!null |-
-    null
   "name": |-
     Madison
   "project": |-
