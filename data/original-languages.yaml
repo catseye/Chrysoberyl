@@ -397,6 +397,41 @@ maentw.c:
   host-language: ANSI C
 
 
+Mascarpone:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Mascarpone is a self-modifying language able to alter the meta-circular
+    interpreter which defines it, like its predecessor Emmental.  Unlike Emmental
+    however, in Mascarpone interpreters are first-class objects, making the
+    job of reflective interpreter-modification quite a bit cleaner and richer.
+  inception-date: Dec 10, 2007
+  computational-class: believed Turing-complete
+  etymology:
+  - dairy product
+  - italian
+  influences:
+  - emmental
+  sample: |
+    v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
+  significant: true
+  quotation: |-
+    You are lost in a twisty little maze of meta-circular intepreters, all alike
+  quotation-attribution: |-
+    "Colossal Cave", Crowther and Woods
+  reference-distribution: Mascarpone distribution
+  implementations:
+  - mascarpone.hs
+
+mascarpone.hs:
+  type: Language Implementation
+  in-distribution: Mascarpone distribution
+  license: BSD
+  reference: yes
+  implementation-type: interpreter
+  host-language: Haskell
+
+
 "noit o' mnain worb":
   type: Programming Language
   genre: Esolang
@@ -528,6 +563,36 @@ rube.c:
   host-language: ANSI C
 
 
+Sally:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Sally is a cute but naive little functional language with a minimal syntax,
+    a strict type system, and some unusual rules for parameters and return values.
+  tagline: |-
+    upside-down FORTH
+  inception-date: 2000
+  etymology:
+  - feminine given name
+  sample: |
+    stdlib
+    int factorial int if $1 mul $1 factorial sub $1 1 1
+    int main int factorial $1
+  reference-distribution: Sally distribution
+  implementations:
+  - sally2c
+
+sally2c:
+  type: Language Implementation
+  in-distribution: Sally distribution
+  reference: true
+  license: BSD
+  implementation-type: compiler
+  source-language: Sally
+  host-language: ANSI C
+  target-language: ANSI C
+
+
 SMETANA:
   type: Programming Language
   genre: Esolang
@@ -628,6 +693,51 @@ smith.pl:
   host-language: Perl
 
 
+Strelnokoff:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Strelnokoff is a non-deterministic imperative programming language.
+    Despite this apparent handicap, it appears to be Turing-complete (thanks
+    to a short-circuiting multiplication operator,) but a critical feature (arrays)
+    has never yet been implemented.  The name "Strelnokoff" was taken from
+    a fictional brand of vodka featured in a mock advertisement on the television
+    show [[SCTV]].
+  computational-class: believed Turing-complete
+  etymology:
+  - surname
+  - fictional
+  - television show
+  sample: |
+    REM HELLO WORLD IN STRELNOKOFF
+    REM CHRIS PRESSEY MARCH 24 2001
+    X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
+    X = (X / X) * X + (X = 0) * (T =  1) * (PRINT CHAR 'e' - 'e' +  2)
+    X = (X / X) * X + (X = 0) * (T =  2) * (PRINT CHAR 'l' - 'l' +  3)
+    X = (X / X) * X + (X = 0) * (T =  3) * (PRINT CHAR 'l' - 'l' +  4)
+    X = (X / X) * X + (X = 0) * (T =  4) * (PRINT CHAR 'o' - 'o' +  5)
+    X = (X / X) * X + (X = 0) * (T =  5) * (PRINT CHAR ',' - ',' +  6)
+    X = (X / X) * X + (X = 0) * (T =  6) * (PRINT CHAR ' ' - ' ' +  7)
+    X = (X / X) * X + (X = 0) * (T =  7) * (PRINT CHAR 'w' - 'w' +  8)
+    X = (X / X) * X + (X = 0) * (T =  8) * (PRINT CHAR 'o' - 'o' +  9)
+    X = (X / X) * X + (X = 0) * (T =  9) * (PRINT CHAR 'r' - 'r' + 10)
+    X = (X / X) * X + (X = 0) * (T = 10) * (PRINT CHAR 'l' - 'l' + 11)
+    X = (X / X) * X + (X = 0) * (T = 11) * (PRINT CHAR 'd' - 'd' + 12)
+    X = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)
+    X = (T = X) * 0 + (X > T) * X REM RESET FLAG
+    T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
+  inception-date: Apr 2001
+  reference-distribution: Strelnokoff distribution
+
+strelnokoff.pl:
+  type: Language Implementation
+  in-distribution: Strelnokoff distribution
+  reference: yes
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
+
+
 Treacle:
   type: Programming Language
   genre: Experimental language
@@ -652,9 +762,38 @@ Treacle:
 
 treacle.scm:
   type: Language Implementation
+  in-distribution: Treacle distribution
   license: Unknown license
   reference: true
   host-language: Scheme
+  implementation-type: interpreter
+
+
+Velo: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Velo is a vaguely Ruby-inspired "scripting" language which unifies
+    strings with code blocks, and scripts with object classes.  Curly braces
+    delimit string literals, and there is no difference between a string literal
+    and a block of code given to, say, an `if` statement.  Any given script is
+    an object, which inherits from the root object in delegation-OO style.
+  computational-class: believed Turing-complete
+  inception-date: July 14, 2012
+  influences:
+  - Ruby
+  sample: |-
+    yes = {IO.print {Yes}}
+    no = {IO.print {No}}
+    if ({X}.equals {Y}), yes, no
+  reference-distribution: Velo distribution
+
+velo.rb:
+  type: Language Implementation
+  in-distribution: Velo distribution
+  license: Unknown license
+  reference: true
+  host-language: Ruby
   implementation-type: interpreter
 
 
@@ -915,43 +1054,6 @@ Shelta:
   reference-distribution: Shelta distribution
 
 
-Sally:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nSally is a neat little functional language with minimal syntax,\
-    \ strict typing, and some\ninteresting parameter rules.\n  "
-  "day": |-
-    0101
-  etymology:
-    "nametag": |-
-      feminine given name
-  "implementations":
-    "implementation":
-      "host-language": |-
-        C
-      "name": |-
-        sally2c
-      "reference": |-
-        yes
-      "target-language": |-
-        C
-      "type": |-
-        compiler
-  "name": |-
-    Sally
-  "project": |-
-    sally
-  sample: |
-    stdlib
-    int factorial int if $1 mul $1 factorial sub $1 1 1
-    int main int factorial $1
-  quotation: |-
-    upside-down FORTH
-  "year": |-
-    2000
-  reference-distribution: Sally distribution
-
-
 Bear Food:
   type: Programming Language
   genre: Esolang
@@ -1126,62 +1228,6 @@ Hunter:
   "year": |-
     2000
   reference-distribution: "'N-DCNC distribution"
-
-
-Strelnokoff:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nStrelnokoff is a non-deterministic imperative\nprogramming language.\
-    \  Despite this apparent handicap,\nit appears to be Turing-complete (thanks\
-    \ to a short-circuiting multiplication\noperator,) but a critical feature (arrays)\
-    \ has never yet been implemented.\n\nThe name \"Strelnokoff\" was taken from\
-    \ a fictional brand\nof vodka featured in a mock advertisement on the television\
-    \ show\nSCTV.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0401
-  etymology:
-    "nametag":
-    - |-
-      family name
-    - |-
-      television
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        strelnokoff.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Strelnokoff
-  "project": |-
-    strelnokoff
-  sample: |
-    REM HELLO WORLD IN STRELNOKOFF
-    REM CHRIS PRESSEY MARCH 24 2001
-    X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
-    X = (X / X) * X + (X = 0) * (T =  1) * (PRINT CHAR 'e' - 'e' +  2)
-    X = (X / X) * X + (X = 0) * (T =  2) * (PRINT CHAR 'l' - 'l' +  3)
-    X = (X / X) * X + (X = 0) * (T =  3) * (PRINT CHAR 'l' - 'l' +  4)
-    X = (X / X) * X + (X = 0) * (T =  4) * (PRINT CHAR 'o' - 'o' +  5)
-    X = (X / X) * X + (X = 0) * (T =  5) * (PRINT CHAR ',' - ',' +  6)
-    X = (X / X) * X + (X = 0) * (T =  6) * (PRINT CHAR ' ' - ' ' +  7)
-    X = (X / X) * X + (X = 0) * (T =  7) * (PRINT CHAR 'w' - 'w' +  8)
-    X = (X / X) * X + (X = 0) * (T =  8) * (PRINT CHAR 'o' - 'o' +  9)
-    X = (X / X) * X + (X = 0) * (T =  9) * (PRINT CHAR 'r' - 'r' + 10)
-    X = (X / X) * X + (X = 0) * (T = 10) * (PRINT CHAR 'l' - 'l' + 11)
-    X = (X / X) * X + (X = 0) * (T = 11) * (PRINT CHAR 'd' - 'd' + 12)
-    X = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)
-    X = (T = X) * 0 + (X > T) * X REM RESET FLAG
-    T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
-  "year": |-
-    2001
-  reference-distribution: Strelnokoff distribution
 
 
 ILLGOL:
@@ -1872,52 +1918,6 @@ Iphigeneia:
   "year": |-
     2007
   reference-distribution: Iphigeneia distribution
-
-
-Mascarpone:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nMascarpone is a self-modifying language able to\nalter the meta-circular\
-    \ interpreter which defines it, like its predecessor\nEmmental.  Unlike Emmental\
-    \ however, in Mascarpone\ninterpreters are first-class objects,\nmaking the\
-    \ job of reflective interpreter-modification quite a bit cleaner and\nricher.\n\
-    \  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1210
-  etymology:
-    "nametag":
-    - |-
-      dairy
-    - |-
-      italian
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        mascarpone.hs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "influences":
-    "influence": |-
-      Emmental
-  "name": |-
-    Mascarpone
-  "project": |-
-    mascarpone
-  sample: |
-    v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
-  "significant": !!null |-
-    null
-  quotation: |-
-    You are lost in a twisty little maze of meta-circular intepreters, all alike
-  "year": |-
-    2007
-  reference-distribution: Mascarpone distribution
 
 
 Larabee:
@@ -2688,39 +2688,3 @@ Madison:
   "year": |-
     2011
   reference-distribution: Madison distribution
-
-
-Velo: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nVelo is a vaguely Ruby-inspired \"scripting\" language which unifies\
-    \ strings\nwith code blocks, and scripts with object classes.  Curly braces\
-    \ delimit string\nliterals, and there is no difference between a string literal\
-    \ and a block of code\ngiven to, say, an `if` statement.  Any given script is\
-    \ an object,\nwhich inherits from the root object in delegation-OO style.\n\
-    \  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0714
-  "implementations":
-    "implementation":
-      "host-language": |-
-        Ruby
-      "name": |-
-        velo.rb
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "influences": !!null |-
-    null
-  "name": |-
-    Velo
-  "project": |-
-    velo
-  sample: "yes = {IO.print {Yes}}\nno = {IO.print {No}} \nif ({X}.equals {Y}),\
-    \ yes, no \n"
-  "year": |-
-    2012
-  reference-distribution: Velo distribution

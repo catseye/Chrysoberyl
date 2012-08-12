@@ -90,6 +90,7 @@ def check_chrysoberyl_data(data):
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
                                     type_='Distribution')
           #check_list_ref(data, key, node, 'implementations')
+          #check_list_ref(data, key, node, 'influences')
 
       if type_ == 'Programming Language':
           check_optional_scalar_ref(data, key, node, 'computational-class',

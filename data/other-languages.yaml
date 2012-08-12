@@ -29,6 +29,11 @@ Python:
   has-reference-distribution: false
   commentary: |-
     Mostly harmless.
+Ruby:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
 Scheme: 
   type: Programming Language
   genre: Production language
