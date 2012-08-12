@@ -59,10 +59,8 @@ def check_chrysoberyl_data(data):
           "'%s' has bad type '%s'" % (key, type_)
 
       if type_ == 'Distribution':
-          #assert 'distribution-of' in node, \
-          #   "Distribution '%s' does not say what it is of" % key
           # (this has multiple possible types)
-          check_optional_scalar_ref(data, key, node, 'distribution-of')
+          check_scalar_ref(data, key, node, 'distribution-of')
 
       if type_ == 'Language Implementation':
           check_scalar_ref(data, key, node, 'license', type_='License')

@@ -1,6 +1,7 @@
 # encoding: UTF-8
 ribos: 
   type: Distribution
+  distribution-of: ribos
   title: Ribos
   summary: Well-commented C64 raster interrupt example
   byline: Written by Chris Pressey
@@ -28,8 +29,9 @@ ribos:
 
 petulant: 
   type: Distribution
+  distribution-of: petulant
   title: The PETulant Cursor
-  summary: The PETulant Cursor, a tiny C64 &quot;display hack&quot;
+  summary: The PETulant Cursor, a tiny C64 "display hack"
   byline: Written by Chris Pressey
   abstract: |-
     <p>A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.</p>

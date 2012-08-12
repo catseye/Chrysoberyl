@@ -2,10 +2,10 @@
 # A naive dump from Cat's Eye Technologies' website's project database
 ALPACA distribution: 
   type: Distribution
+  distribution-of: ALPACA
   title: The ALPACA Meta-Language
   summary: Compiler for the <b>ALPACA</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: ALPACA
   esowiki: ALPACA
   keywords: 
   - bsdl
@@ -26,8 +26,11 @@ ALPACA distribution:
     revision: "0.90"
     latest: false
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
-apple-befunge: 
+
+# XXX is this a language or not?
+Apple Befunge: 
   type: Distribution
+  distribution-of: Apple Befunge
   title: Apple Befunge
   summary: Editor and interpreter and docs for <b>Apple Befunge</b>
   byline: Conceived and implemented by Chris Pressey
@@ -41,7 +44,6 @@ apple-befunge:
     Although Apple Befunge is no longer being actively developed, its sources are stored in a 
          <a class="external" href="https://bitbucket.org/catseye/apple-befunge/">Mercurial repository</a> hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
-  language: None
   esowiki: None
   keywords: 
   - 2d
@@ -64,10 +66,10 @@ apple-befunge:
 
 Arboretuum distribution: 
   type: Distribution
+  distribution-of: Arboretuum
   title: The Arboretuum Programming Language
   summary: Interpreter for the <b>Arboretuum</b> forest-rewriter
   byline: Designed and implemented by Chris Pressey
-  language: Arboretuum
   esowiki: None
   keywords: 
   - bsdl
@@ -96,12 +98,12 @@ Arboretuum distribution:
 
 bef distribution: 
   type: Distribution
+  distribution-of: Befunge-93
   title: 'bef: Reference implementation of Befunge-93'
   summary: Reference interpreter etc for <b>Befunge-93</b>
   byline: by Chris Pressey
   abstract: |-
     <p/>
-  language: None
   esowiki: None
   keywords: 
   - 2d
@@ -125,6 +127,8 @@ bef distribution:
 
 BefOS distribution: 
   type: Distribution
+  # XXX wheeee
+  distribution-of: BefOS distribution
   title: 'BefOS: An Operating System for the Linearly Challenged'
   summary: <b>Befunge</b>-themed miniature operating system
   byline: by Chris Pressey
@@ -133,7 +137,6 @@ BefOS distribution:
     in the theme of Befunge.  It never got very far, but it does boot and do some
     cute things, so I have modernized it (from Turbo Assembler to NASM) and
     made it available here.</p>
-  language: None
   esowiki: None
   keywords: 
   - 2d
@@ -155,6 +158,7 @@ BefOS distribution:
 
 Befunge-93 distribution: 
   type: Distribution
+  distribution-of: Befunge-93
   title: The Befunge-93 Programming Language
   summary: Documentation for <b>Befunge-93</b>
   byline: Conceived and first implemented by Chris Pressey
@@ -165,7 +169,6 @@ Befunge-93 distribution:
     below.</p>
   develop: |-
     You can experiment with Befunge-93 online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: None
   esowiki: Befunge-93
   keywords: 
   - 2d
@@ -221,10 +224,10 @@ beta-Juliet distribution:
 
 Beturing distribution: 
   type: Distribution
+  distribution-of: Beturing
   title: The Beturing Programming Language
   summary: Interpreter for the <b>Beturing</b> machine
   byline: Conceived and implemented by Chris Pressey
-  language: Beturing
   esowiki: Beturing
   keywords: 
   - 2d
@@ -248,10 +251,10 @@ Beturing distribution:
 
 Bhuna distribution: 
   type: Distribution
+  distribution-of: Bhuna
   title: The Bhuna Programming Language
   summary: Interpreter and docs for the <b>Bhuna</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Bhuna
   esowiki: None
   keywords: 
   - c
@@ -296,10 +299,10 @@ Bhuna distribution:
 
 Braktif distribution: 
   type: Distribution
+  distribution-of: Braktif
   title: The Braktif Cellular Automaton
   summary: The <b>Braktif</b> cellular automaton
   byline: Formulated by Chris Pressey
-  language: Braktif
   esowiki: Braktif
   keywords: 
   - 2d
@@ -317,10 +320,10 @@ Braktif distribution:
 
 Burro distribution: 
   type: Distribution
+  distribution-of: Burro
   title: The Burro Programming Language
   summary: Interpreter and docs for the <b>Burro</b> language
   byline: Designed and implemented by Chris Pressey
-  language: Burro
   esowiki: None
   keywords: 
   - eso
@@ -345,10 +348,10 @@ Burro distribution:
 
 Cabra distribution: 
   type: Distribution
+  distribution-of: Cabra
   title: The Cabra Programming Language
   summary: Interpreter and docs for the <b>Cabra</b> language
   byline: Designed and implemented by Chris Pressey
-  language: Cabra
   esowiki: None
   keywords: 
   - bsdl
@@ -374,12 +377,12 @@ Cabra distribution:
 
 Circute distribution: 
   type: Distribution
+  distribution-of: Circute
   title: The Circute Cellular Automaton
   summary: The <b>Circute</b> cellular automaton
   byline: Conceived and implemented by Chris Pressey
   develop: |-
     You can experiment with Circute online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: Circute
   esowiki: Circute
   keywords: 
   - 2d
@@ -396,10 +399,10 @@ Circute distribution:
 
 Didigm distribution: 
   type: Distribution
+  distribution-of: Didigm
   title: The Didigm Reflective Cellular Automaton
   summary: Docs on the <b>Didigm</b> reflective CA
   byline: Conceived by Chris Pressey
-  language: Didigm
   esowiki: Didigm
   keywords: 
   - 2d
@@ -454,10 +457,10 @@ Eightebed distribution:
 
 Emmental distribution: 
   type: Distribution
+  distribution-of: Emmental
   title: The Emmental Programming Language
   summary: Interpeter and docs for the <b>Emmental</b> language
   byline: Designed and implemented by Chris Pressey
-  language: Emmental
   esowiki: Emmental
   keywords: 
   - bsdl
@@ -483,12 +486,12 @@ Emmental distribution:
 
 Etcha distribution: 
   type: Distribution
+  distribution-of: Etcha
   title: The Etcha Programming Language
   summary: Spec and Interpreter for the <b>Etcha</b> language
   byline: Conceived and implemented by Chris Pressey
   develop: |-
     You can experiment with Etcha online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: Etcha
   esowiki: Etcha
   keywords: 
   - 2d
@@ -504,6 +507,8 @@ Etcha distribution:
 
 FBBI distribution: 
   type: Distribution
+  # XXX wrong.
+  distribution-of: Funge-98
   title: Flaming Bovine Befunge Interpreter
   summary: Interpreter for the <b>Befunge-98</b> language
   byline: Implemented by Chris Pressey
@@ -517,7 +522,6 @@ FBBI distribution:
          <a class="external" href="https://bitbucket.org/catseye/fbbi/">development</a> ishosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/FBBI">git mirror on githib</a>.
-  language: None
   esowiki: None
   keywords: 
   - 2d
@@ -540,6 +544,7 @@ FBBI distribution:
 
 Flobnar distribution: 
   type: Distribution
+  distribution-of: Flobnar
   title: The Flobnar Programming Language
   summary: Docs, tests, and interpreter for the <b>Flobnar</b> language
   byline: Designed and implemented by Chris Pressey
@@ -549,7 +554,6 @@ Flobnar distribution:
          is hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="http://github.com/catseye/Flobnar">mirror on github</a>.
-  language: Flobnar
   esowiki: Flobnar
   keywords: 
   - bsdl
@@ -570,6 +574,7 @@ Flobnar distribution:
 
 Funge-98 distribution: 
   type: Distribution
+  distribution-of: Funge-98
   title: The Funge-98 Programming Language Family
   summary: Documentation for <b>Funge-98</b>
   byline: Conceived by the Befunge Mailing List Working Group
@@ -577,7 +582,6 @@ Funge-98 distribution:
     <p>Please note that this project contains only
     the documentation and ancillary materials for Funge-98.
     Implementations and other tools can be found in the links below.</p>
-  language: None
   esowiki: Funge-98
   keywords: 
   - 2d
@@ -596,10 +600,10 @@ Funge-98 distribution:
 
 GraNoLa/M distribution: 
   type: Distribution
+  distribution-of: GraNoLa/M
   title: The GraNoLa/M Programming Language
   summary: Interpreter and docs for <b>GraNoLa/M</b>
   byline: Conceived and implemented by Chris Pressey
-  language: GraNoLa/M
   esowiki: GraNoLa/M
   keywords: 
   - erl
@@ -624,7 +628,7 @@ Hev distribution:
     The Hev project is hosted in a
          <a class="external" href="https://bitbucket.org/catseye/hev/">Mercurial repo on Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/Hev">git mirror on githib</a>.
-  language: Hev
+  distribution-of: Hev
   esowiki: Hev
   keywords: 
   - bsdl
@@ -653,7 +657,7 @@ Hunter distribution:
         to run.
         However, an appropriate version of this library (v2007.1122) is included in the Hunter distribution
         as of v1.0-2011.1031, so there's nothing special you need to do to make this happen.
-  language: Hunter
+  distribution-of: Hunter
   esowiki: Hunter
   keywords: 
   - 2d
@@ -684,7 +688,7 @@ illberon:
     <p>This is a re-creation of the original Illberon (ILLGOL 3) distribution.
     Sources and executable appear to be missing (at least, I haven't
     found them yet,) but the release notes and preprocessor are intact.</p>
-  language: None
+  distribution-of: ILLGOL
   esowiki: ILLGOL
   keywords: 
   - c
@@ -708,7 +712,7 @@ illgol:
   abstract: |-
     <p>This is a re-creation of the original ILLGOL distribution, including sources
     which were not included with the original distribution.</p>
-  language: None
+  distribution-of: ILLGOL
   esowiki: ILLGOL
   keywords: 
   - c
@@ -736,7 +740,7 @@ illgola-2:
   abstract: |-
     <p>This is a re-creation of the original Illgola-2 distribution, including sources
     which were not included with the original distribution.</p>
-  language: None
+  distribution-of: ILLGOL
   esowiki: ILLGOL
   keywords: 
   - c
@@ -768,7 +772,7 @@ illgolpp:
     and not ever think of using those DISCONTINUED, OBSOLETE, ANCIENT
     LEGACY PRODUCTS since Open Sores Illgol## is far superior in every
     conceivable dimension!)</p>
-  language: None
+  distribution-of: ILLGOL
   esowiki: ILLGOL
   keywords: 
   - c
@@ -789,7 +793,7 @@ Iphigeneia distribution:
   title: The Iphigeneia Programming Language
   summary: Docs and interpreter for <b>Iphigeneia</b>
   byline: Conceived and implemented by Chris Pressey
-  language: Iphigeneia
+  distribution-of: Iphigeneia
   esowiki: None
   keywords: 
   - bsdl
@@ -814,7 +818,7 @@ Jaccia and Jacciata distribution:
   title: The Jaccia and Jacciata Cellular Automata
   summary: <span class="summary">The <b>Jaccia</b> and <b>Jacciata</b> cellular automata</span>
   byline: Formulated by Chris Pressey
-  language: Jaccia and Jacciata
+  distribution-of: Jaccia and Jacciata
   esowiki: None
   keywords: 
   - 2d
@@ -836,7 +840,7 @@ Kangaroo Iceberg distribution:
   title: The Kangaroo Iceberg Programming Language
   summary: Interpreter for <b>Kangaroo Iceberg</b>
   byline: Conceived and implemented by Chris Pressey
-  language: Kangaroo Iceberg
+  distribution-of: Kangaroo Iceberg
   esowiki: None
   keywords: 
   - bsdl
@@ -865,7 +869,7 @@ Larabee distribution:
   title: The Larabee Programming Language
   summary: Documentation and interpreter for <b>Larabee</b>
   byline: Conceived and implemented by Chris Pressey
-  language: Larabee
+  distribution-of: Larabee
   esowiki: Larabee
   keywords: 
   - bsdl
@@ -891,7 +895,7 @@ Madison distribution:
   title: The Madison Proof-Checking Language
   summary: Specification and tests for the <b>Madison</b> proof checker
   byline: Conceived by Chris Pressey
-  language: Madison
+  distribution-of: Madison
   esowiki: None
   keywords: 
   - lang
@@ -906,6 +910,7 @@ Madison distribution:
 
 Maentwrog distribution: 
   type: Distribution
+  distribution-of: Maentwrog
   description: |-
     Also included in this distribution, just for fun, are some other
     contemporaneous C programs of mine: an RPN
@@ -932,7 +937,7 @@ Mascarpone distribution:
         <a class="external" href="https://bitbucket.org/catseye/mascarpone/">development</a> is hosted on
         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
         <a class="external" href="https://github.com/catseye/Mascarpone">git mirror on githib</a>.
-  language: Mascarpone
+  distribution-of: Mascarpone
   esowiki: Mascarpone
   keywords: 
   - bsdl
@@ -965,7 +970,7 @@ MDPN distribution:
   title: The MDPN Meta-Language
   summary: <b>M</b>ulti-<b>D</b>irectional <b>P</b>attern <b>N</b>otation
   byline: Conceived by Chris Pressey
-  language: MDPN
+  distribution-of: MDPN
   esowiki: MDPN
   keywords: 
   - 2d
@@ -980,6 +985,7 @@ MDPN distribution:
 
 Muriel distribution: 
   type: Distribution
+  distribution-of: Muriel
   releases: 
   - version: "1.0"
     revision: "2001.0323"
@@ -991,8 +997,8 @@ Muriel distribution:
   title: The 'N-DCNC Programming Language
   summary: Docs and compilers for <b>'N-DCNC</b>
   byline: Conceived and implemented by Chris Pressey
-  language: \'N-DCNC
-  esowiki: \'N-DCNC
+  distribution-of: "'N-DCNC"
+  esowiki: "'N-DCNC"
   keywords: 
   - bef
   - eso
@@ -1009,7 +1015,7 @@ Nhohnhehr distribution:
   title: The Nhohnhehr Programming Language
   summary: Docs and Interpreter for the <b>Nhohnhehr</b> language
   byline: Designed by Chris Pressey; implemented by Marinus
-  language: Nhohnhehr
+  distribution-of: Nhohnhehr
   esowiki: Nhohnhehr
   keywords: 
   - 2d
@@ -1028,7 +1034,7 @@ Oozlybub and Murphy distribution:
   title: The Oozlybub and Murphy Programming Language
   summary: Specification of <b>Oozlybub and Murphy</b>
   byline: Conceived by Chris Pressey
-  language: Oozlybub and Murphy
+  distribution-of: Oozlybub and Murphy
   esowiki: Oozlybub_and_Murphy
   keywords: 
   - lang
@@ -1048,7 +1054,7 @@ Opus-2 distribution:
   title: Opus-2
   summary: Description of the abstract conlang <b>Opus-2</b>
   byline: Conceived by Chris Pressey
-  language: Opus-2
+  distribution-of: Opus-2
   esowiki: None
   keywords: 
   - eso
@@ -1070,7 +1076,7 @@ Pail distribution:
          <a class="external" href="https://bitbucket.org/catseye/pail/">development</a> is hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/Pail">git mirror on githib</a>.
-  language: Pail
+  distribution-of: Pail
   esowiki: None
   keywords: 
   - bsdl
@@ -1095,6 +1101,7 @@ Pail distribution:
 
 pibfi distribution: 
   type: Distribution
+  distribution-of: brainfuck
   releases: 
   - version: "1.0"
     revision: "2003.0505"
@@ -1111,7 +1118,7 @@ Pixley distribution:
          <a class="external" href="https://bitbucket.org/catseye/pixley/">development</a> is hosted on
          <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
          <a class="external" href="https://github.com/catseye/Pixley">git mirror on githib</a>.
-  language: Pixley
+  distribution-of: Pixley
   esowiki: None
   keywords: 
   - boot
@@ -1165,7 +1172,7 @@ Quylthulg distribution:
         <a class="external" href="https://bitbucket.org/catseye/quylthulg/">development</a> is hosted on
         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
         <a class="external" href="https://github.com/catseye/Qylthulg">git mirror on githib</a>.
-  language: Quylthulg
+  distribution-of: Quylthulg
   esowiki: Quylthulg
   keywords: 
   - bsdl
@@ -1199,7 +1206,7 @@ REDGREEN distribution:
   title: The REDGREEN Cellular Automaton
   summary: The <b>REDGREEN</b> cellular automaton
   byline: Conceived and implemented by Chris Pressey; with Apologies to Steve Smith
-  language: REDGREEN
+  distribution-of: REDGREEN
   esowiki: REDGREEN
   keywords: 
   - 2d
@@ -1233,7 +1240,7 @@ RUBE distribution:
   title: The RUBE Programming Language
   summary: Interpeter/debugger for the <b>RUBE</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: RUBE
+  distribution-of: RUBE
   esowiki: RUBE
   keywords: 
   - 2d
@@ -1273,7 +1280,8 @@ RUBE II distribution:
   byline: Derived from RUBE and implemented by John Colagioia
   abstract: |-
     <p>A close descendent of RUBE, with cleaner semantics and implementation.</p>
-  language: None
+  # XXX no.
+  distribution-of: RUBE
   esowiki: 'RUBE II: Das Klickenklacker'
   keywords: 
   - 2d
@@ -1293,7 +1301,7 @@ Sally distribution:
   title: The Sally Programming Language
   summary: Compiler for the <b>Sally</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Sally
+  distribution-of: Sally
   esowiki: None
   keywords: 
   - bsdl
@@ -1318,7 +1326,7 @@ Sbeezg distribution:
   title: The sbeezg Programming Language
   summary: Interpreter for the <b>Sbeezg</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Sbeezg
+  distribution-of: Sbeezg
   esowiki: Sbeezg
   keywords: 
   - bsdl
@@ -1336,7 +1344,7 @@ Shelta distribution:
   title: The Shelta Programming Language
   summary: Compilers for the <b>Shelta</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Shelta
+  distribution-of: Shelta
   esowiki: Shelta
   keywords: 
   - asm
@@ -1392,7 +1400,7 @@ Squishy2K distribution:
   title: The Squishy2K Programming Language
   summary: Interpreter for the <b>Squishy2K</b> language
   byline: Designed and implemented by Chris Pressey
-  language: Squishy2K
+  distribution-of: Squishy2K
   esowiki: Squishy2K
   keywords: 
   - bsdl
@@ -1410,7 +1418,7 @@ Strelnokoff distribution:
   title: The Strelnokoff Programming Language
   summary: Interpreter for the <b>Strelnokoff</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Strelnokoff
+  distribution-of: Strelnokoff
   esowiki: Strelnokoff
   keywords: 
   - bsdl
@@ -1428,7 +1436,7 @@ Tamerlane distribution:
   title: The Tamerlane Programming Language
   summary: Documents on the <b>Tamerlane</b> language
   byline: Devised by Chris Pressey
-  language: Tamerlane
+  distribution-of: Tamerlane
   esowiki: Tamerlane
   keywords: 
   - eso
@@ -1460,7 +1468,7 @@ Thue distribution:
     to construe constraint-based programming.  It is to the constraint-based
     paradigm what languages like OISC are to the imperative paradigm;
     in other words, it's a tar pit.</p>
-  language: None
+  distribution-of: Thue
   esowiki: Thue
   keywords: 
   - c
@@ -1483,7 +1491,7 @@ Treacle distribution:
   title: The Treacle Programming Language
   summary: Interpreter for the <b>Treacle</b> rewriting language
   byline: Designed and implemented by Chris Pressey
-  language: Treacle
+  distribution-of: Treacle
   esowiki: None
   keywords: 
   - bsdl
@@ -1512,7 +1520,7 @@ Unlikely distribution:
         <a class="external" href="https://bitbucket.org/catseye/unlikely/">development</a> is hosted on
         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
         <a class="external" href="https://github.com/catseye/Unlikely">git mirror on githib</a>.
-  language: Unlikely
+  distribution-of: Unlikely
   esowiki: Unlikely
   keywords: 
   - py
@@ -1538,7 +1546,7 @@ You are Reading the Name of this Esolang distribution:
   title: You are Reading the Name of this Esolang
   summary: <b>You are Reading the Name of this Esolang</b>
   byline: Designed by Chris Pressey
-  language: You are Reading the Name of this Esolang
+  distribution-of: You are Reading the Name of this Esolang
   esowiki: You_are_Reading_the_Name_of_this_Esolang
   keywords: 
   - eso
@@ -1569,7 +1577,7 @@ Velo distribution:
         <a class="external" href="https://bitbucket.org/catseye/velo/">development</a> is hosted on
         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
         <a class="external" href="https://github.com/catseye/Velo">git mirror on githib</a>.
-  language: Velo
+  distribution-of: Velo
   esowiki: None
   keywords: 
   - lang
@@ -1585,7 +1593,7 @@ Version distribution:
   title: The Version Programming Language
   summary: Interpreter for the <b>Version</b> language
   byline: Conceived and implemented by Chris Pressey
-  language: Version
+  distribution-of: Version
   esowiki: Version
   keywords: 
   - bsdl
@@ -1611,7 +1619,7 @@ Whothm distribution:
   develop: |-
     You can experiment with Whothm online in the <a href="http://catseye.tc/gallery/esolangs/jwhothm/">JWhothm exhibit</a>
         in our <a href="http://catseye.tc/gallery/esolangs/">Gallery of Interactive Esolangs</a>.  Try it!
-  language: Whothm
+  distribution-of: Whothm
   esowiki: Whothm
   keywords: 
   - 2d
@@ -1642,7 +1650,7 @@ Wierd distribution:
     Conceived by Chris Pressey; developed by Chris Pressey,
     Ben Olmstead, and John Colagioia; implementations by John
     Colagioia and Milo van Handel
-  language: Wierd
+  distribution-of: Wierd
   esowiki: Wierd
   keywords: 
   - 2d
@@ -1671,7 +1679,7 @@ Wierd distribution:
         framework.</p>
   develop: |-
     You can experiment with worb online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: noit o' mnain worb
+  distribution-of: noit o' mnain worb
   esowiki: noit_o'_mnain_worb
   keywords: 
   - 2d
@@ -1708,7 +1716,7 @@ Xigxag distribution:
   title: The Xigxag Automaton
   summary: Implementation of the <b>Xigxag</b> automaton
   byline: Conceived and implemented by Chris Pressey
-  language: Xigxag
+  distribution-of: Xigxag
   esowiki: Xigxag
   keywords: 
   - eso
@@ -1735,7 +1743,7 @@ Xoomonk distribution:
   title: The Xoomonk Programming Language
   summary: Specification and tests for the <b>Xoomonk</b> language
   byline: Conceived by Chris Pressey
-  language: Xoomonk
+  distribution-of: Xoomonk
   esowiki: None
   keywords: 
   - lang
@@ -1762,7 +1770,7 @@ Ypsilax distribution:
         framework.</p>
   develop: |-
     You can experiment with Ypsilax online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  language: Ypsilax
+  distribution-of: Ypsilax
   esowiki: Ypsilax
   keywords: 
   - 2d
@@ -1806,7 +1814,7 @@ ZOWIE distribution:
         <a class="external" href="https://bitbucket.org/catseye/zowie/">development</a> is hosted on
         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
         <a class="external" href="https://github.com/catseye/ZOWIE">git mirror on githib</a>.
-  language: ZOWIE
+  distribution-of: ZOWIE
   esowiki: ZOWIE
   keywords: 
   - eso

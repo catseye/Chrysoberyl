@@ -1,6 +1,7 @@
 # encoding: UTF-8
 kitsilano: 
   type: Distribution
+  distribution-of: kitsilano
   title: The Kitsilano Oscillator Circuit
   summary: 2-NPN-transistor, 1-capacitor oscillator
   byline: Designed by Chris Pressey
@@ -22,6 +23,7 @@ kitsilano:
     url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
 led386: 
   type: Distribution
+  distribution-of: led386
   title: A 386-based LED blinker
   summary: LED blinker based on LM386 audio amp IC
   byline: Designed and constructed by Chris Pressey
@@ -38,6 +40,7 @@ led386:
     url: http://catseye.tc/distfiles/led386-2004.0227.zip
 mildred: 
   type: Distribution
+  distribution-of: mildred
   title: Mildred
   summary: Homebrew Z80-based computer
   byline: Designed and constructed by Chris Pressey
