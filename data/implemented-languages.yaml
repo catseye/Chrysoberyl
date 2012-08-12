@@ -295,6 +295,15 @@ tc.catseye.yoob.lnusp:
   - Cat's Eye Technologies
 
 
+1L:
+  type: Programming Language Family
+  genre: Esolang
+  family-members:
+  - 1L_a
+  - 1L_AOI
+  esowiki: 1L
+
+
 1L_a:
   type: Programming Language
   genre: Esolang

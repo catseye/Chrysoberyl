@@ -83,9 +83,36 @@ lookup table:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-# I have not designed nor implemented this one, so it's here
+
+Wireworld:
+  type: Programming Language
+  genre: Cellular Automaton
+  computational-class: Finite-automata-complete
+  has-reference-distribution: false
+
+
+# These are esolangs, but not ones I have designed or implemented
 Thue:
   type: Programming Language
   genre: Esolang
   computational-class: believed Turing-complete
+  esowiki: Thue
+  has-reference-distribution: false
+reMorse:
+  type: Programming Language
+  genre: Esolang
+  computational-class: unknown computational class
+  esowiki: reMorse
+  has-reference-distribution: false
+BitChanger:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete
+  esowiki: BitChanger
+  has-reference-distribution: false
+Spoon:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete
+  esowiki: Spoon
   has-reference-distribution: false

@@ -344,6 +344,27 @@ Full Moon Fever:
   implemented: true
 
 
+Kelxquoia: 
+  type: Programming Language
+  genre: Esolang
+  abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
+    \ \u2014 in fact,\nself-destroying.  As instructions are executed, they are\
+    \ erased.  In order to execute\nindefinitely, new instructions of some sort\
+    \ must be created.\nLuckily the language provides as its main data-manipulation\
+    \ facility, grid-rewriting,\nwhich can be used to restore instructions that\
+    \ were previously erased after execution.\n\n(Information on this language is\
+    \ only available on the esowiki for now.)\n  "
+  inception-date: Dec 23, 2010
+  computational-class: believed Turing-complete
+  esowiki: Kelxquoia
+  sample: " >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR\n\
+    $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n    ' '   '       '  '      '   \n    \
+    \         '         '  '     \n ^      /*?-*P-*?-+*?-*P-* -+     <\n P     \
+    \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
+    \ 00 00\n"
+  has-reference-distribution: false
+
+
 Maentwrog:
   type: Programming Language
   genre: Pedagogical language
@@ -411,7 +432,7 @@ Mascarpone:
   - dairy product
   - italian
   influences:
-  - emmental
+  - Emmental
   sample: |
     v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
   significant: true
@@ -924,11 +945,8 @@ Funge-98:
       "type": |-
         interpreter
   "influences":
-    "influence":
-    - |-
-      Befunge-93
-    - |-
-      Befunge-97
+  - Befunge-93
+  - Befunge-97
   "name": |-
     Funge-98
   "notable": !!null |-
@@ -1467,9 +1485,8 @@ GraNoLa/M:
         yes
       "type": |-
         interpreter
-  "influences":
-    "influence": |-
-      Tamerlane
+  influences:
+  - Tamerlane
   "name": |-
     GraNoLa/M
   "project": |-
@@ -1502,9 +1519,8 @@ Kangaroo Iceberg:
         yes
       "type": |-
         interpreter (incomplete)
-  "influences":
-    "influence": |-
-      Tamerlane
+  influences:
+  - Tamerlane
   "name": |-
     Kangaroo Iceberg
   "project": |-
@@ -1595,9 +1611,8 @@ Bhuna:
         yes
       "type": |-
         interpreter
-  "influences":
-    "influence": |-
-      Lua
+  influences:
+  - Lua
   "name": |-
     Bhuna
   "project": |-
@@ -1717,9 +1732,8 @@ Burro:
         interpreter
   "inception": |-
     2005
-  "influences":
-    "influence": |-
-      Brainfuck
+  influences:
+  - brainfuck
   "name": |-
     Burro
   "project": |-
@@ -1761,9 +1775,8 @@ Cabra:
         yes
       "type": |-
         interpreter
-  "influences":
-    "influence": |-
-      Burro
+  influences:
+  - Burro
   "known-not-turing-complete": !!null |-
     null
   "name": |-
@@ -1789,9 +1802,8 @@ You are Reading the Name of this Esolang:
     1101
   "demonstrated-turing-complete": !!null |-
     null
-  "influences":
-    "influence": |-
-      Spoon
+  influences:
+  - Spoon
   "name": |-
     You are Reading the Name of this Esolang
   "project": |-
@@ -2221,9 +2233,8 @@ Etcha:
           yes
       "type": |-
         interpreter
-  "influences":
-    "influence": |-
-      BitChanger
+  influences:
+  - BitChanger
   "name": |-
     Etcha
   "project": |-
@@ -2258,8 +2269,6 @@ Okapi:
           yes
       "type": |-
         interpreter
-  "influences": !!null |-
-    null
   "name": |-
     Okapi
   "year": |-
@@ -2283,8 +2292,6 @@ Whothm:
           yes
       "type": |-
         interpreter
-  "influences": !!null |-
-    null
   "known-not-turing-complete": !!null |-
     null
   "name": |-
@@ -2327,8 +2334,6 @@ Oozlybub and Murphy:
     1201
   "implementations": !!null |-
     null
-  "influences": !!null |-
-    null
   "name": |-
     Oozlybub and Murphy
   "project": |-
@@ -2365,12 +2370,9 @@ Gemooy:
     null
   "implemented": !!null |-
     null
-  "influences":
-    "influence":
-    - |-
-      2-ill
-    - |-
-      Etcha
+  influences:
+  - 2-ill
+  - Etcha
   "name": |-
     Gemooy
   sample: "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
@@ -2407,12 +2409,6 @@ Nhohnhehr:
         interpreter
   "implemented": !!null |-
     null
-  "influences":
-    "influence":
-    - |-
-      2-ill
-    - |-
-      Etcha
   "name": |-
     Nhohnhehr
   "project": |-
@@ -2429,36 +2425,6 @@ Nhohnhehr:
   "year": |-
     2010
   reference-distribution: Nhohnhehr distribution
-
-
-Kelxquoia: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
-    \ \u2014 in fact,\nself-destroying.  As instructions are executed, they are\
-    \ erased.  In order to execute\nindefinitely, new instructions of some sort\
-    \ must be created.\nLuckily the language provides as its main data-manipulation\
-    \ facility, grid-rewriting,\nwhich can be used to restore instructions that\
-    \ were previously erased after execution.\n\n(Information on this language is\
-    \ only available on the esowiki for now.)\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1223
-  "implementations": !!null |-
-    null
-  "influences": !!null |-
-    null
-  "name": |-
-    Kelxquoia
-  sample: " >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR\n\
-    $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n    ' '   '       '  '      '   \n    \
-    \         '         '  '     \n ^      /*?-*P-*?-+*?-*P-* -+     <\n P     \
-    \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
-    \ 00 00\n"
-  "year": |-
-    2010
-  has-reference-distribution: false
 
 
 Wunnel: 
@@ -2485,10 +2451,9 @@ Wunnel:
         interpreter
   "implemented": !!null |-
     null
-  "influences": !!null |-
-    null
-  "name": |-
-    Wunnel
+  influences:
+  - 1L
+  - reMorse
   sample: |2
               o   ooo  o
 
@@ -2544,8 +2509,8 @@ Pail:
         yes
       "type": |-
         interpreter
-  "influences": !!null |-
-    null
+  influences:
+  - Pixley
   "name": |-
     Pail
   "project": |-
@@ -2579,8 +2544,6 @@ Xoomonk:
   "day": |-
     0807
   "implementations": !!null |-
-    null
-  "influences": !!null |-
     null
   "name": |-
     Xoomonk
@@ -2627,8 +2590,8 @@ Flobnar:
         yes
       "type": |-
         interpreter
-  "influences": !!null |-
-    null
+  influences:
+  - Befunge-93
   "name": |-
     Flobnar
   "project": |-
@@ -2656,8 +2619,6 @@ Madison:
   "day": |-
     1202
   "implementations": !!null |-
-    null
-  "influences": !!null |-
     null
   "name": |-
     Madison
