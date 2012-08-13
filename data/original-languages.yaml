@@ -35,6 +35,54 @@ alpaca.pl:
   target-language: Perl
 
 
+Arboretuum:
+  type: Programming Language
+  genre: Experimental language
+  abstract: |-
+    Arboretuum is an experimental language based on _forest-rewriting_,
+    a variant of tree-rewriting in which multiple trees are rewritten simultaneously.
+    The language was intended for specifying compilers, with each tree representing
+    a major compiler data structure (AST, symbol table, output buffer, etc.,)
+    however, this idea was not entirely successful.  Regardless, Arboretuum is
+    Turing-complete, as tree-rewriting is simply a special case of forest-rewriting.
+  computational-class: believed Turing-complete
+  inception-date: Mar 2008
+  etymology:
+  - latin
+  - portmanteau
+  sample: |-
+    (
+      (
+        (ast:   (let a 4 (+ 3 (* a 3))) )
+        (stab:  eot)
+        (out:   halt)
+      )
+      (
+        ((ast:  (let #(n sym) #(v) #(expr)) => #(expr)            )
+         (stab: eot                         => (#(n) #(v) EOT)    ))
+        ((ast:  #(n sym)                    => #(v)               )
+         (stab: (#(n) #(v) #(tab))          => (#(n) #(v) #(tab)) ))
+        ((ast: #(a num)                     => _                  )
+         (out: halt                         => (push #(a) halt)   ))
+        ((ast: (+ _ _)                      => _                  )
+         (out: halt                         => (add halt)         ))
+        ((ast: (* _ _)                      => _                  )
+         (out: halt                         => (mul halt)         ))
+      )
+    )
+  reference-distribution: Arboretuum distribution
+  implementations:
+  - forest-rewriter.scm
+
+forest-rewriter.scm:
+  type: Language Implementation
+  in-distribution: Arboretuum distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Scheme
+
+
 Befunge-93:
   type: Programming Language
   genre: Esolang
@@ -373,6 +421,43 @@ tc.catseye.yoob.etcha:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+
+
+Flobnar: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    One day in September of 2011 — though I'm not sure precisely
+    which one — marked [[Befunge-93]]'s 18th birthday.  That means that
+    Befunge is now old enough to drink in its native land of Canada.  To celebrate
+    this, I thought I'd get Befunge-93 drunk to see what would happen.  What
+    happened was Flobnar, an esolang which is in many respects a functional dual
+    of Befunge-93; most of the symbols have analogous meanings, but execution
+    proceeds in a much more dataflow-like fashion.
+  inception-date: Oct 28, 2011
+  computational-class: believed Turing-complete
+  influences:
+  - Befunge-93
+  sample: |-
+    >     v
+    ^\ <   
+           
+    :v    v   \<@
+    -<      : 6
+    1 :   > *
+      -|    <
+      11
+  reference-distribution: Flobnar distribution
+  implementations:
+  - Flobnar.hs
+
+Flobnar.hs:
+  type: Language Implementation
+  in-distribution: Flobnar distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Full Moon Fever:
@@ -830,6 +915,30 @@ tc.catseye.yoob.worb:
   host-language: Java
 
 
+Okapi: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Okapi is a language I designed as an anniversary present for my
+    wife(!). In it, the only means of control flow is throwing exceptions, and
+    as if this wasn't enough, there are two restrictions on exceptions that are
+    thrown — they must be divide-by-zero exceptions, and they must be caught
+    in a lexically enclosing block.  Nor is there any facility to "retry" after
+    an exception is caught. The language is nonetheless Turing-complete.
+  inception-date: May 23, 2010
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations:
+  - okapi.py
+
+okapi.py:
+  type: Language Implementation
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Python
+
+
 Pixley:
   type: Programming Language
   genre: Esolang
@@ -1000,6 +1109,79 @@ sally2c:
   target-language: ANSI C
 
 
+Sbeezg:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Sbeezg is a syntactically very simple language that attempts to
+    take the single-assignment concept to a logical extreme.
+  inception-date: 2002
+  etymology:
+  - neologism
+  implementations:
+  - sbeezg.erl
+  sample: |
+    f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
+       ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
+       k=j(h,b)|a};l=f(99,f)
+  reference-distribution: Sbeezg distribution
+
+sbeezg.erl:
+  type: Language Implementation
+  in-distribution: Sbeezg distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Erlang
+
+
+
+Shelta:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Shelta is an extremely minimal Forth-like language with barely
+    any semantics; it relies on inline machine code to be considered anywhere
+    near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]
+    and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from
+    Ben Olmstead) in less than 512 bytes of 80286 machine code. What's more,
+    it's also been bootstrapped — that is to say, a Shelta compiler was
+    written in Shelta, which was compiled with the original compiler, and then
+    compiled again with the resulting compiler, producing a wholly self-hosted
+    executable!
+  with:
+  - Ben Olmstead
+  inception-date: ca Jul 1999
+  etymology:
+  - spoken language
+  - celtic
+  sample: |
+    [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
+  reference-distribution: Shelta distribution
+  implementations:
+  - shelta
+  - sheltas
+
+shelta:
+  type: Language Implementation
+  reference: true
+  in-distribution: Shelta distribution
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Shelta
+  host-language: NASM Assembler
+  target-language: x86 machine code
+
+sheltas:
+  type: Language Implementation
+  in-distribution: Shelta distribution
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Shelta
+  host-language: Shelta
+  target-language: x86 machine code
+
+
 SMETANA:
   type: Programming Language
   genre: Esolang
@@ -1095,6 +1277,34 @@ smith.pl:
   type: Language Implementation
   in-distribution: SMITH distribution
   reference: yes
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
+
+
+Squishy2K:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Squishy2K is a language which is a hybrid of string rewriting
+    and finite state automata; as an added twist, it also lets program states serve
+    as functions.  It was based largely on an earlier grammar-based language
+    called SQUISHY, taking also some ideas from the language [[Thue]].  The
+    original SQUISHY was conceived sometime around 1998, but is now lost.  Because
+    it was based largely on EBNF, the author wanted to name it Wirth, but the
+    name SQUISHY was proposed and (somewhat unfortunately) stuck.
+  computational-class: believed Turing-complete
+  inception-date: Sep 2000
+  sample: |
+    * main { start many finish? "Hello, world!"! }
+  reference-distribution: Squishy2K distribution
+  implementations:
+  - squishy2k.pl
+
+squishy2k.pl:
+  type: Language Implementation
+  in-dstribution: Squishy2K distribution
+  reference: true
   license: BSD
   implementation-type: interpreter
   host-language: Perl
@@ -1532,9 +1742,9 @@ zowie.py:
 ETHEL:
   type: Programming Language
   genre: DSL
-  abstract: " A language specifically for expressing quantity surveying (materials\
-    \ estimating) formula and procedures, designed for Star Building Materials. \
-    \  "
+  abstract: |-
+    A language specifically for expressing quantity surveying (materials
+    estimating) formula and procedures, designed for Star Building Materials.
   computational-class: believed Turing-complete
   "day": |-
     1020
@@ -1550,51 +1760,6 @@ ETHEL:
   "year": |-
     1998
   has-reference-distribution: false
-
-
-Shelta:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Shelta is an extremely minimal Forth-like language with barely\
-    \ any semantics; it relies on inline machine code to be considered anywhere\
-    \ near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]\
-    \ and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from\
-    \ Ben Olmstead) in less than 512 bytes of 80286 machine code. What's more,\
-    \ it's also been bootstrapped — that is to say, a Shelta compiler was\
-    \ written in Shelta, which was compiled with the original compiler, and then\
-    \ compiled again with the resulting compiler, producing a wholly self-hosted\
-    \ executable!   "
-  with:
-  - Ben Olmstead
-  inception-date: ca Jul 1999
-  etymology:
-  - spoken language
-  - celtic
-  sample: |
-    [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-  reference-distribution: Shelta distribution
-  implementations:
-  - shelta
-  - sheltas
-
-shelta:
-  type: Language Implementation
-  reference: true
-  in-distribution: Shelta distribution
-  license: Unknown license
-  implementation-type: compiler
-  source-language: Shelta
-  host-language: NASM Assembler
-  target-language: x86 machine code
-
-sheltas:
-  type: Language Implementation
-  in-distribution: Shelta distribution
-  license: Unknown license
-  implementation-type: compiler
-  source-language: Shelta
-  host-language: Shelta
-  target-language: x86 machine code
 
 
 Bear Food:
@@ -1626,40 +1791,6 @@ bearfood.pl:
   implementation-type: interpreter
   host-language: Perl
   broken: true
-
-
-Squishy2K:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Squishy2K is a language which is a hybrid of string rewriting \
-    and finite state automata; as an added twist, it also lets program states serve\
-    \ as functions.  It was based largely on an earlier grammar-based language\
-    \ called SQUISHY, taking also some ideas from the language [[Thue]].  The\
-    \ original SQUISHY was conceived sometime around 1998, but is now lost.  Because\
-    \ it was based largely on EBNF, the author wanted to name it Wirth, but the\
-    \ name SQUISHY was proposed and (somewhat unfortunately) stuck.   "
-  computational-class: believed Turing-complete
-  "day": |-
-    0901
-  implementations:
-  - squishy2k.pl
-  "name": |-
-    Squishy2K
-  "project": |-
-    squishy2k
-  sample: |
-    * main { start many finish? "Hello, world!"! }
-  "year": |-
-    2000
-  reference-distribution: Squishy2K distribution
-
-squishy2k.pl:
-  type: Language Implementation
-  in-dstribution: Squishy2K distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Perl
 
 
 Hunter:
@@ -1790,35 +1921,6 @@ Opus-2:
   "year": |-
     2001
   reference-distribution: Opus-2 distribution
-
-
-Sbeezg:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Sbeezg is a syntactically very simple language that attempts to\
-    \ take the single-assignment concept to a logical extreme.   "
-  "day": |-
-    0101
-  etymology:
-    "nametag": |-
-      neologism
-  implementations:
-  - sbeezg.erl
-  sample: |
-    f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
-       ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
-       k=j(h,b)|a};l=f(99,f)
-  "year": |-
-    2002
-  reference-distribution: Sbeezg distribution
-
-sbeezg.erl:
-  type: Language Implementation
-  in-distribution: Sbeezg distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Erlang
 
 
 GraNoLa/M:
@@ -2195,60 +2297,6 @@ iphi:
   host-language: Haskell
 
 
-Arboretuum:
-  type: Programming Language
-  genre: Experimental language
-  abstract: " Arboretuum is an experimental language based on _forest-rewriting_, \
-    a variant of tree-rewriting in which multiple trees are rewritten simultaneously. \
-    The language was intended for specifying compilers, with each tree representing \
-    a major compiler data structure (AST, symbol table, output buffer, etc.,) \
-    however, this idea was not entirely successful.  Regardless, Arboretuum is \
-    Turing-complete, as tree-rewriting is simply a special case of forest-rewriting. \
-    \  "
-  computational-class: believed Turing-complete
-  "day": |-
-    0301
-  etymology:
-    "nametag":
-    - |-
-      latin
-    - |-
-      portmanteau
-  sample: |-
-    (
-      (
-        (ast:   (let a 4 (+ 3 (* a 3))) )
-        (stab:  eot)
-        (out:   halt)
-      )
-      (
-        ((ast:  (let #(n sym) #(v) #(expr)) => #(expr)            )
-         (stab: eot                         => (#(n) #(v) EOT)    ))
-        ((ast:  #(n sym)                    => #(v)               )
-         (stab: (#(n) #(v) #(tab))          => (#(n) #(v) #(tab)) ))
-        ((ast: #(a num)                     => _                  )
-         (out: halt                         => (push #(a) halt)   ))
-        ((ast: (+ _ _)                      => _                  )
-         (out: halt                         => (add halt)         ))
-        ((ast: (* _ _)                      => _                  )
-         (out: halt                         => (mul halt)         ))
-      )
-    )
-  "year": |-
-    2008
-  reference-distribution: Arboretuum distribution
-  implementations:
-  - forest-rewriter.scm
-
-forest-rewriter.scm:
-  type: Language Implementation
-  in-distribution: Arboretuum distribution
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Scheme
-
-
 # TODO: split up?
 Jaccia and Jacciata:
   type: Programming Language
@@ -2292,29 +2340,6 @@ jacciata.alp:
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
-
-
-Okapi: 
-  type: Programming Language
-  genre: Esolang
-  abstract: " Okapi is a language I designed as an anniversary present for my\
-    \ wife(!). In it, the only means of control flow is throwing exceptions, and\
-    \ as if this wasn't enough, there are two restrictions on exceptions that are\
-    \ thrown — they must be divide-by-zero exceptions, and they must be caught\
-    \ in a lexically enclosing block.  Nor is there any facility to \"retry\" after\
-    \ an exception is caught. The language is nonetheless Turing-complete.   "
-  inception-date: May 23, 2010
-  computational-class: shown Turing-complete
-  has-reference-distribution: false
-  implementations:
-  - okapi.py
-
-okapi.py:
-  type: Language Implementation
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Python
   
 
 Oozlybub and Murphy: 
@@ -2443,35 +2468,6 @@ Pail:
 Pail.lhs:
   type: Language Implementation
   in-distribution: Pail distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Haskell
-
-
-Flobnar: 
-  type: Programming Language
-  genre: Esolang
-  abstract: " One day in September of 2011 — though I'm not sure precisely\
-    \ which one — marked [[Befunge-93]]'s 18th birthday.  That means that\
-    \ Befunge is now old enough to drink in its native land of Canada.  To celebrate\
-    \ this, I thought I'd get Befunge-93 drunk to see what would happen.  What\
-    \ happened was Flobnar, an esolang which is in many respects a functional dual\
-    \ of Befunge-93; most of the symbols have analogous meanings, but execution\
-    \ proceeds in a much more dataflow-like fashion.   "
-  inception-date: Oct 28, 2011
-  computational-class: believed Turing-complete
-  influences:
-  - Befunge-93
-  sample: ">     v\n^\\ <   \n       \n:v    v   \\<@\n-<      : 6\n1 :   > *\n\
-    \  -|    <\n  11\n"
-  reference-distribution: Flobnar distribution
-  implementations:
-  - Flobnar.hs
-
-Flobnar.hs:
-  type: Language Implementation
-  in-distribution: Flobnar distribution
   reference: true
   license: BSD
   implementation-type: interpreter
