@@ -415,6 +415,35 @@ tc.catseye.yoob.gemooy:
   host-language: Java
 
 
+Kangaroo Iceberg:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Kangaroo Iceberg was a short-lived attempt to pare down Tamerlane
+    to something implementable, and implement it.  Although it got a fair ways
+    along (e.g. the parser for graphs seems to be complete, I lost interest
+    in it at the time, and put off finishing it indefinitely.
+    
+    Now, the challenge will be reconstructing the language from the partial
+    implementation and notes that I left behind...
+  failure: true
+  influences:
+  - Tamerlane
+  inception-date: Jul 2004
+  reference-distribution: Kangaroo Iceberg distribution
+  implementations:
+  - kiceberg
+
+kiceberg:
+  type: Language Implementation
+  in-distribution: Kangaroo Iceberg distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: ANSI C
+  broken: true
+
+
 Kelxquoia: 
   type: Programming Language
   genre: Esolang
@@ -522,6 +551,54 @@ mascarpone.hs:
   reference: yes
   implementation-type: interpreter
   host-language: Haskell
+
+
+MDPN:
+  type: Programming Language
+  genre: Metalanguage
+  acronym-for: Multi-Directional Pattern Notation
+  abstract: |-
+    MDPN is a meta-language for describing multi-directional and
+    multi-dimensional languages.
+  inception-date: 1999
+  etymology:
+  - acronym
+  sample: |2
+      Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
+              "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
+  reference-distribution: MDPN distribution
+
+
+"'N-DCNC":
+  type: Programming Language
+  genre: Joke language
+  abstract: |-
+    'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')
+    It is based on a conspiracy theory involving
+    UFOs and a 5-member boy band, or something.
+  entered-in:
+  - Esoteric Awards 2000
+  inception-date: Oct 2000
+  sample: |
+    4*5+2/2,(9*`c)+1
+  reference-distribution: "'N-DCNC distribution"
+  implementations:
+  - ndcnc.pl
+  - ndcnc.bf
+
+ndcnc.pl:
+  type: Language Implementation
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Perl
+
+ndcnc.bf:
+  type: Language Implementation
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Befunge-93
+  broken: true
 
 
 "noit o' mnain worb":
@@ -830,6 +907,25 @@ strelnokoff.pl:
   host-language: Perl
 
 
+Tamerlane:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Tamerlane is a multi-paradigmatic programming language, unimplemented
+    and possibly unimplementable. One of its core execution mechanisms is the
+    traversing of a graph (representing the program)\nwhile rewriting that same
+    graph.
+  inception-date: Aug 2000
+  etymology:
+  - masculine given name
+  sample: |
+    Point-A: 1 Point-B,
+    Point-B: 1 Point-C,
+    Point-C: 1 Point-A.
+    ?- 1 Point-A -> 0 Point-A @ Point-A
+  reference-distribution: Tamerlane distribution
+
+
 Treacle:
   type: Programming Language
   genre: Experimental language
@@ -886,6 +982,48 @@ velo.rb:
   license: Unknown license
   reference: true
   host-language: Ruby
+  implementation-type: interpreter
+
+
+Version:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Version is an imperative programming language that uses _ignorance-spaces_
+    for flow control; all  instructions which match the current ignorance pattern
+    are ignored during execution.
+  inception-date: Sep 2001
+  sample: |
+    START: ROOM = "VALLEY|BROOK|GLADE"
+    CONT: IGNORE = ROOM
+    VALLEY: OUTPUT = "You are standing in a valley."
+    HILL: OUTPUT = "You are on top of a hill."
+    BROOK: OUTPUT = "You are by a brook."
+    GLADE: OUTPUT = "You are standing in a sun-dappled glade."
+    ROOM: OUTPUT = EOL
+    ROOM: DIR = CHOP INPUT
+    ROOM: IGNORE = DIR
+    ROOM: MASK = "VAPOURS"
+    N: CAT = "|N"
+    S: CAT = "|S"
+    E: CAT = "|E"
+    W: CAT = "|W"
+    ROOM: IGNORE = MASK
+    N: ROOM = "VALLEY|BROOK|GLADE"
+    S: ROOM = "HILL|BROOK|GLADE"
+    E: ROOM = "VALLEY|HILL|BROOK"
+    W: ROOM = "VALLEY|HILL|GLADE"
+    LASTLY: IGNORE = "START"
+  reference-distribution: Version distribution
+  implementations:
+  - version.pl
+
+version.pl:
+  type: Language Implementation
+  in-distribution: Version distribution
+  license: BSD
+  reference: true
+  host-language: Perl
   implementation-type: interpreter
 
 
@@ -946,6 +1084,50 @@ wierd-milo.c:
   host-language: ANSI C
 
 
+Ypsilax:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Ypsilax is a non-deterministic, reflective, two-dimensional grid-rewriting
+    language.  Rewriting rules look for patterns in the grid and replace them
+    with other patterns.  These rules are themselves represented by patterns
+    in the grid, and therefore rules can match and rewrite other rules.
+  computational-class: believed Turing-complete
+  inception-date: Aug 2001
+  etymology:
+  - neologism
+  sample: |
+    (      )  (      )
+      #            #
+      # ###    ### #
+      #            #
+   
+        ###   ###
+   
+        #      #
+        #      #
+        #    ###
+  reference-distribution: Ypsilax distribution
+  implementations:
+  - ypsilax.pl
+  - tc.catseye.yoob.ypsilax
+
+ypsilax.pl:
+  type: Language Implementation
+  in-distribution: Ypsilax distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
+
+tc.catseye.yoob.ypsilax:
+  type: Language Implementation
+  in-distribution: Ypsilax distribution
+  license: BSD
+  implementation-type: interpreter
+  host-language: Java
+
+
 ZOWIE:
   type: Programming Language
   genre: Esolang
@@ -984,6 +1166,10 @@ zowie.py:
 
 
 ###---### following languages need some massaging ###---###
+###---### following languages need some massaging ###---###
+###---### following languages need some massaging ###---###
+###---### following languages need some massaging ###---###
+###---### following languages need some massaging ###---###
 
 
 ETHEL:
@@ -1008,31 +1194,6 @@ ETHEL:
   "year": |-
     1998
   has-reference-distribution: false
-
-
-MDPN:
-  type: Programming Language
-  genre: Metalanguage
-  abstract: "\nMDPN is an acronym for\nMulti-Directional Pattern Notation.\nIt\
-    \ is a meta-language for describing\nmulti-directional and multi-dimensional\
-    \ languages.\n  "
-  "day": |-
-    0101
-  etymology:
-    "nametag": |-
-      acronym
-  "meta-language": !!null |-
-    null
-  "name": |-
-    MDPN
-  "project": |-
-    mdpn
-  sample: |2
-      Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-              "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-  "year": |-
-    1999
-  reference-distribution: MDPN distribution
 
 
 Shelta:
@@ -1098,18 +1259,8 @@ Bear Food:
     1201
   "failure": !!null |-
     null
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        bearfood.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-      "working": |-
-        no
+  implementations:
+  - bearfood.pl
   "name": |-
     Bear Food
   quotation: |-
@@ -1118,31 +1269,13 @@ Bear Food:
     1999
   has-reference-distribution: false
 
-
-Tamerlane:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nTamerlane is a multi-paradigmatic programming language, unimplemented\
-    \ and possibly unimplementable.\nOne of its core execution mechanisms is the\
-    \ traversing of a graph (representing the program)\nwhile rewriting that same\
-    \ graph.\n  "
-  "day": |-
-    0801
-  etymology:
-    "nametag": |-
-      masculine given name
-  "name": |-
-    Tamerlane
-  "project": |-
-    tamerlane
-  sample: |
-    Point-A: 1 Point-B,
-    Point-B: 1 Point-C,
-    Point-C: 1 Point-A.
-    ?- 1 Point-A -> 0 Point-A @ Point-A
-  "year": |-
-    2000
-  reference-distribution: Tamerlane distribution
+bearfood.pl:
+  type: Language Implementation
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Perl
+  broken: true
 
 
 Squishy2K:
@@ -1159,16 +1292,8 @@ Squishy2K:
     null
   "day": |-
     0901
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        squishy2k.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  implementations:
+  - squishy2k.pl
   "name": |-
     Squishy2K
   "project": |-
@@ -1178,6 +1303,14 @@ Squishy2K:
   "year": |-
     2000
   reference-distribution: Squishy2K distribution
+
+squishy2k.pl:
+  type: Language Implementation
+  in-dstribution: Squishy2K distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
 
 
 Hunter:
@@ -1192,22 +1325,9 @@ Hunter:
   "day": |-
     0920
   etymology:
-    "nametag": |-
-      masculine given name
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        hunter.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Hunter
-  "project": |-
-    hunter
+  - masculine given name
+  implementations:
+  - hunter.pl
   sample: |
     ##################
     #   1#2#         #
@@ -1226,40 +1346,13 @@ Hunter:
     2000
   reference-distribution: Hunter distribution
 
-
-"'N-DCNC":
-  type: Programming Language
-  genre: Joke language
-  abstract: "\n'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')\n\
-    It is based on a conspiracy theory involving\nUFOs and a 5-member boy band,\
-    \ or something.\n  "
-  "day": |-
-    1001
-  "ximplementations":
-    "implementation":
-    - "host-language": |-
-        Perl
-      "name": |-
-        ndcnc.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-    - "host-language": |-
-        Befunge-93
-      "name": |-
-        ndcnc.bf
-      "type": |-
-        interpreter (broken)
-  "name": |-
-    'N-DCNC
-  "project": |-
-    n-dcnc
-  sample: |
-    4*5+2/2,(9*`c)+1
-  "year": |-
-    2000
-  reference-distribution: "'N-DCNC distribution"
+hunter.pl:
+  type: Language Implementation
+  in-dstribution: Hunter distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
 
 
 ILLGOL:
@@ -1351,97 +1444,6 @@ Opus-2:
     2001
   reference-distribution: Opus-2 distribution
 
-Ypsilax:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nYpsilax is a non-deterministic, reflective, two-dimensional grid-rewriting\n\
-    language.  Rewriting rules look for patterns in the grid and\nreplace them with\
-    \ other patterns.  These rules are themselves represented by patterns in\nthe\
-    \ grid, and therefore rules can match and rewrite other rules.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0801
-  etymology:
-    "nametag": |-
-      neologism
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        ypsilax.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Ypsilax
-  "project": |-
-    ypsilax
-  sample: |
-    (      )  (      )
-      #            #
-      # ###    ### #
-      #            #
-
-        ###   ###
-
-        #      #
-        #      #
-        #    ###
-  "year": |-
-    2001
-  reference-distribution: Ypsilax distribution
-
-
-Version:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nVersion is an imperative programming language that uses\n_ignorance-spaces_\
-    \ for flow control; the implementation\nignores instructions which matches the\
-    \ current ignorance pattern.\n  "
-  "day": |-
-    0901
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        version.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Version
-  "project": |-
-    version
-  sample: |
-    START: ROOM = "VALLEY|BROOK|GLADE"
-    CONT: IGNORE = ROOM
-    VALLEY: OUTPUT = "You are standing in a valley."
-    HILL: OUTPUT = "You are on top of a hill."
-    BROOK: OUTPUT = "You are by a brook."
-    GLADE: OUTPUT = "You are standing in a sun-dappled glade."
-    ROOM: OUTPUT = EOL
-    ROOM: DIR = CHOP INPUT
-    ROOM: IGNORE = DIR
-    ROOM: MASK = "VAPOURS"
-    N: CAT = "|N"
-    S: CAT = "|S"
-    E: CAT = "|E"
-    W: CAT = "|W"
-    ROOM: IGNORE = MASK
-    N: ROOM = "VALLEY|BROOK|GLADE"
-    S: ROOM = "HILL|BROOK|GLADE"
-    E: ROOM = "VALLEY|HILL|BROOK"
-    W: ROOM = "VALLEY|HILL|GLADE"
-    LASTLY: IGNORE = "START"
-  "year": |-
-    2001
-  reference-distribution: Version distribution
-
 
 Sbeezg:
   type: Programming Language
@@ -1453,20 +1455,8 @@ Sbeezg:
   etymology:
     "nametag": |-
       neologism
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Erlang
-      "name": |-
-        sbeezg.erl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Sbeezg
-  "project": |-
-    sbeezg
+  implementations:
+  - sbeezg.erl
   sample: |
     f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
@@ -1474,6 +1464,14 @@ Sbeezg:
   "year": |-
     2002
   reference-distribution: Sbeezg distribution
+
+sbeezg.erl:
+  type: Language Implementation
+  in-distribution: Sbeezg distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Erlang
 
 
 GraNoLa/M:
@@ -1489,16 +1487,6 @@ GraNoLa/M:
   etymology:
     "nametag": |-
       acronym
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Erlang
-      "name": |-
-        granolam.erl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
   influences:
   - Tamerlane
   "name": |-
@@ -1510,38 +1498,16 @@ GraNoLa/M:
   "year": |-
     2002
   reference-distribution: GraNoLa/M distribution
+  implementations:
+  - granolam.erl
 
-
-Kangaroo Iceberg:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nKangaroo Iceberg was a short-lived attempt to pare down Tamerlane\
-    \ to something implementable,\nand implement it.  Although it got a fair ways\
-    \ along (e.g. the parser for graphs seems to be complete,)\nI lost interest\
-    \ in it at the time, and put off finishing it indefinitely.\n  "
-  "day": |-
-    0601
-  "failure": !!null |-
-    null
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        C
-      "name": |-
-        kiceberg
-      "reference": |-
-        yes
-      "type": |-
-        interpreter (incomplete)
-  influences:
-  - Tamerlane
-  "name": |-
-    Kangaroo Iceberg
-  "project": |-
-    kiceberg
-  "year": |-
-    2004
-  reference-distribution: Kangaroo Iceberg distribution
+granolam.erl:
+  type: Language Implementation
+  in-distribution: GraNoLa/M distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Erlang
 
 
 Beturing:
