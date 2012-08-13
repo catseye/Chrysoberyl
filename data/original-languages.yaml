@@ -305,6 +305,34 @@ Eightebed:
   target-language: ANSI C
 
 
+Emmental:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Emmental is a self-modifying programming language.  It is defined
+    in terms of a meta-circular interpreter, and this meta-circular interpreter
+    provides an operation that redefines operations of the meta-circular interpreter.
+    In fact, this mechanism is required for Emmental to be Turing-complete.
+  computational-class: believed Turing-complete
+  inception-date: Nov 11, 2007
+  etymology:
+  - dairy product
+  - swiss
+  sample: |
+    ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
+  reference-distribution: Emmental distribution
+  implementations:
+  - emmental.hs
+
+emmental.hs:
+  type: Language Implementation
+  in-distribution: Emmental distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
+
+
 Full Moon Fever:
   type: Programming Language
   genre: DSL
@@ -463,6 +491,45 @@ Kelxquoia:
     \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
     \ 00 00\n"
   has-reference-distribution: false
+
+
+Madison: 
+  type: Programming Language
+  genre: Proof language
+  abstract: |-
+    Madison is a language in which one can state proofs of properties
+    of term-rewriting systems.  Classical methods of automated reasoning,
+    such as resolution, are not used; indeed, term-rewriting itself is
+    used to check the proofs.  Both direct proof and proof by induction
+    are supported.  Induction in a proof must be across a structure which
+    has a well-founded inductive definition.  Such structures can be thought
+    of as types, although this is largely nominal; the traditional typelessness
+    of term-rewiting systems is largely retained.
+  computational-class: believed Turing-complete
+  inception-date: Dec 2, 2011
+  sample: |
+    type tree is
+      tree(leaf)        -> true
+      tree(branch(X,Y)) -> and(tree(X),tree(Y))
+    in let
+      reflect(leaf)        -> leaf
+      reflect(branch(A,B)) -> branch(reflect(B),reflect(A))
+    in theorem
+      forall X where tree(X)
+        reflect(reflect(X)) ~> X
+    proof
+      case X = leaf
+        reflect(reflect(leaf))
+        -> reflect(leaf)        [by reflect.1]
+        -> leaf                 [by reflect.1]
+      case X = branch(S, T)
+        reflect(reflect(branch(S, T)))
+        -> reflect(branch(reflect(T),reflect(S)))          [by reflect.2]
+        -> branch(reflect(reflect(S)),reflect(reflect(T))) [by reflect.2]
+        -> branch(S,reflect(reflect(T)))                   [by IH]
+        -> branch(S,T)                                     [by IH]
+    qed
+  reference-distribution: Madison distribution
 
 
 Maentwrog:
@@ -646,8 +713,8 @@ worb.pl:
 
 tc.catseye.yoob.worb:
   type: Language Implementation
-  in-distribution: yoob distribution
-  license: Public Domain
+  in-distribution: noit o' mnain worb distribution
+  license: Unknown license
   implementation-type: interpreter
   host-language: Java
 
@@ -955,6 +1022,55 @@ treacle.scm:
   reference: true
   host-language: Scheme
   implementation-type: interpreter
+
+
+Unlikely:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Unlikely is a programming language that conflates objects with
+    continuations, and methods with labels.  It exposes program structures as
+    objects with commensurate inheritance relationships.  It also takes dependency
+    injection to the logical extreme: if some class is used by an object, that
+    class *must* be specified when the object is instantiated.
+  computational-class: believed Turing-complete
+  inception-date: Mar 15, 2009
+  sample: |-
+    class Count(Count,Chain,Print,Add) extends Continuation
+    
+    class CountForever(Count,Chain,Print,Add) extends Program {
+      Count c;
+      method continue(Passive accumulator) {
+        c = new Count(Passive,Count,Chain,Print,Add);
+        goto c.continue(new 1(Passive));
+      }
+    }
+    
+    class Count() extends Continuation {
+      Count c;
+      Print p;
+      Add a;
+      method continue(Passive accumulator) {
+        c = new Count(Passive,Count,Chain,Print,Add);
+        a = new Add(Passive,Chain);
+        a.value = new 1(Passive);
+        a.next = c;
+        p = new Print(Passive,Chain);
+        p.next = a;
+        goto p.continue(accumulator);
+      }
+    }
+  reference-distribution: Unlikely distribution
+  implementations:
+  - Coldwater
+
+Coldwater:
+  type: Language Implementation
+  in-distribution: Unlikely distribution
+  reference: true
+  license: Unknown license
+  implementation-type: static analyzer
+  host-language: Python
 
 
 Velo: 
@@ -1646,16 +1762,6 @@ Hev:
   etymology:
     "nametag": |-
       neologism
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        Hev.hs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
   "name": |-
     Hev
   "project": |-
@@ -1668,7 +1774,7 @@ Hev:
 
 Hev.hs:
   type: Language Implementation
-  in-dstribution: Hev distribution
+  in-distribution: Hev distribution
   reference: true
   license: BSD
   implementation-type: interpreter
@@ -1691,29 +1797,14 @@ Burro:
     \ shortcoming was rectified in summer of 2010.\n  "
   "day": |-
     0607
-  "demonstrated-turing-complete": !!null |-
-    null
+  computational-class: shown Turing-complete
   etymology:
-    "nametag": |-
-      spanish
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        Burro.lhs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  - spanish
+  - farm animal
   "inception": |-
     2005
   influences:
   - brainfuck
-  "name": |-
-    Burro
-  "project": |-
-    burro
   sample: |
     !--(--(--(!>/
       >>--(+<<+++++++>/+++>+++++>)<
@@ -1726,6 +1817,16 @@ Burro:
   "year": |-
     2010
   reference-distribution: Burro distribution
+  implementations:
+  - Burro.lhs
+
+Burro.lhs:
+  type: Language Implementation
+  in-distribution: Burro distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Cabra:
@@ -1739,18 +1840,8 @@ Cabra:
   "day": |-
     1030
   etymology:
-    "nametag": |-
-      spanish
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        cabra.hs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  - spanish
+  - farm animal
   influences:
   - Burro
   "known-not-turing-complete": !!null |-
@@ -1764,6 +1855,18 @@ Cabra:
   "year": |-
     2007
   reference-distribution: Cabra distribution
+  implementations:
+  - cabra.hs
+
+cabra.hs:
+  type: Language Implementation
+  in-distribution: Cabra distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
+  commentary: |-
+    No parser.
 
 
 You are Reading the Name of this Esolang:
@@ -1791,45 +1894,6 @@ You are Reading the Name of this Esolang:
   "year": |-
     2007
   reference-distribution: You are Reading the Name of this Esolang distribution
-
-
-Emmental:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nEmmental is a self-modifying programming language.  It is defined\
-    \ in terms\nof a meta-circular interpreter, and this meta-circular interpreter\
-    \ provides\nan operation that redefines operations of the meta-circular interpreter.\
-    \  In\nfact, this mechanism is required for Emmental to be Turing-complete.\n\
-    \  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1111
-  etymology:
-    "nametag":
-    - |-
-      dairy
-    - |-
-      swiss
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        emmental.hs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Emmental
-  "project": |-
-    emmental
-  sample: |
-    ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
-  "year": |-
-    2007
-  reference-distribution: Emmental distribution
 
 
 Didigm:
@@ -1886,26 +1950,22 @@ Iphigeneia:
       classical greek
     - |-
       mythological
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        iphi
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Iphigeneia
-  "project": |-
-    iphi
   sample: "var a in a :=\n    let c = 5 in let d = 1 in\n        loop\n\t    if\
     \ c = 0 then\n\t        d\n\t    else\n\t        let d = d * c in\n\t      \
     \      let c = c - 1 in\n\t\t        repeat\n"
   "year": |-
     2007
   reference-distribution: Iphigeneia distribution
+  implementations:
+  - iphi
+
+iphi:
+  type: Language Implementation
+  in-distribution: Iphigeneia distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Larabee:
@@ -1969,20 +2029,6 @@ Arboretuum:
       latin
     - |-
       portmanteau
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Scheme
-      "name": |-
-        forest-rewriter.scm
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Arboretuum
-  "project": |-
-    arboretuum
   sample: |-
     (
       (
@@ -2006,6 +2052,16 @@ Arboretuum:
   "year": |-
     2008
   reference-distribution: Arboretuum distribution
+  implementations:
+  - forest-rewriter.scm
+
+forest-rewriter.scm:
+  type: Language Implementation
+  in-distribution: Arboretuum distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Scheme
 
 
 Quylthulg:
@@ -2041,61 +2097,6 @@ Quylthulg:
   "year": |-
     2008
   reference-distribution: Quylthulg distribution
-
-
-Unlikely:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nUnlikely is a programming language that conflates objects with\
-    \ continuations,\nand methods with labels.  It exposes program structures as\
-    \ objects with\ncommensurate inheritance relationships.  It also takes dependency\
-    \ injection to\nthe logical extreme: if some class is used by an object, that\
-    \ class *must* be\nspecified when the object is instantiated.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0315
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Python
-      "name":
-        "tool": |-
-          no
-      "type": |-
-        static analyzer
-  "name": |-
-    Unlikely
-  "project": |-
-    unlikely
-  sample: |-
-    class Count(Count,Chain,Print,Add) extends Continuation
-    
-    class CountForever(Count,Chain,Print,Add) extends Program {
-      Count c;
-      method continue(Passive accumulator) {
-        c = new Count(Passive,Count,Chain,Print,Add);
-        goto c.continue(new 1(Passive));
-      }
-    }
-    
-    class Count() extends Continuation {
-      Count c;
-      Print p;
-      Add a;
-      method continue(Passive accumulator) {
-        c = new Count(Passive,Count,Chain,Print,Add);
-        a = new Add(Passive,Chain);
-        a.value = new 1(Passive);
-        a.next = c;
-        p = new Print(Passive,Chain);
-        p.next = a;
-        goto p.continue(accumulator);
-      }
-    }
-  "year": |-
-    2009
-  reference-distribution: Unlikely distribution
 
 
 # TODO: split up?
@@ -2160,11 +2161,8 @@ Pixley:
   "day": |-
     0501
   etymology:
-    "nametag":
-    - |-
-      placename
-    - |-
-      television
+  - place name
+  - television show
   "ximplementations":
     "implementation":
       "host-language": |-
@@ -2544,49 +2542,3 @@ Flobnar:
   "year": |-
     2011
   reference-distribution: Flobnar distribution
-
-
-Madison: 
-  type: Programming Language
-  genre: Proof language
-  abstract: "\nMadison is a language in which one can state proofs of properties\n\
-    of term-rewriting systems.  Classical methods of automated reasoning,\nsuch\
-    \ as resolution, are not used; indeed, term-rewriting itself is\nused to check\
-    \ the proofs.  Both direct proof and proof by induction\nare supported.  Induction\
-    \ in a proof must be across a structure which\nhas a well-founded inductive\
-    \ definition.  Such structures can be\nthought of as types, although this is\
-    \ largely nominal; the traditional\ntypelessness of term-rewiting systems is\
-    \ largely retained.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1202
-  "name": |-
-    Madison
-  "project": |-
-    madison
-  sample: |
-    type tree is
-      tree(leaf)        -> true
-      tree(branch(X,Y)) -> and(tree(X),tree(Y))
-    in let
-      reflect(leaf)        -> leaf
-      reflect(branch(A,B)) -> branch(reflect(B),reflect(A))
-    in theorem
-      forall X where tree(X)
-        reflect(reflect(X)) ~> X
-    proof
-      case X = leaf
-        reflect(reflect(leaf))
-        -> reflect(leaf)        [by reflect.1]
-        -> leaf                 [by reflect.1]
-      case X = branch(S, T)
-        reflect(reflect(branch(S, T)))
-        -> reflect(branch(reflect(T),reflect(S)))          [by reflect.2]
-        -> branch(reflect(reflect(S)),reflect(reflect(T))) [by reflect.2]
-        -> branch(S,reflect(reflect(T)))                   [by IH]
-        -> branch(S,T)                                     [by IH]
-    qed
-  "year": |-
-    2011
-  reference-distribution: Madison distribution
