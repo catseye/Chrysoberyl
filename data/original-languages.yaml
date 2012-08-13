@@ -83,6 +83,31 @@ forest-rewriter.scm:
   host-language: Scheme
 
 
+Bear Food:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Bear Food was a horrible language defined by an interpreter that
+    evolved (no... let's be honest, it *devolved*) from a small piece of example
+    code showing how to parse and intepret a simple reverse-polish notation language.
+    This same example code also took a very divergent line of evolution, eventually
+    becoming the programming language [[Var'aq]].
+  tagline: liquid insanity from Hell
+  inception-date: ca Dec 1999
+  failure: true
+  has-reference-distribution: false
+  implementations:
+  - bearfood.pl
+
+bearfood.pl:
+  type: Language Implementation
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Perl
+  broken: true
+
+
 Befunge-93:
   type: Programming Language
   genre: Esolang
@@ -181,6 +206,85 @@ b_juliet.pl:
   host-language: C99
 
 
+Beturing:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Beturing is a "Befunge-flavoured" language for describing Turing
+    machines; both the tape and the finite control are laid out two-dimensionally.
+    In addition, the finite control must be expressed as a planar graph (no
+    edge representing a transition may cross any other edge.) It was devised
+    this way as a test of the so-called "wire-crossing problem". It turns out
+    that there are universal Turing machines with finite controls that are planar
+    graphs, so Beturing is Turing-complete.
+  inception-date: Oct 20, 2005
+  computational-class: shown Turing-complete
+  etymology:
+  - portmanteau
+  sample: |
+    # D(40, 4)
+    # @(40, 4)
+    $bbab$
+    # C(0, 0)
+    # @(0, 0)
+     . . . . . .
+    *v*<*<*<*>*v
+    aa .ab . .aa .
+    >/*>./*^*^</*v
+    bb .ba . .bb .
+    >/*^./*^*^</*v
+    $$ .$$ . .$$ .
+    >/*^</*>*^.@*v
+             . . .
+    *@      *^*<*<
+  reference-distribution: Beturing distribution
+  implementations:
+  - beturing.lua
+
+beturing.lua:
+  type: Language Implementation
+  in-dstribution: Beturing distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Lua
+
+
+Bhuna:
+  type: Programming Language
+  genre: Production language
+  abstract: |-
+    Bhuna is a small, garbage-collected language with a simple syntax,
+    closures, inferred types, lightweight processes, and support for UTF-8 source
+    code.  It was implemented partly to see how closely I could match the performance
+    of Lua's interpreter.  It was meant more more as an experimental starting
+    point for branching new languages, than as a useful language in and of itself.
+  computational-class: believed Turing-complete
+  inception-date: Oct 21, 2005
+  etymology:
+  - indian
+  - dish
+  influences:
+  - Lua
+  sample: |
+    Fib = ^ X {
+      if X < 2 return 1 else
+      return Fib(X - 1) + Fib(X - 2)
+    }
+    Print Fib(32), EoL
+  reference-distribution: Bhuna distribution
+  implementations:
+  - bhuna
+
+bhuna:
+  type: Language Implementation
+  in-dstribution: Bhuna distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: C99
+
+
 Braktif:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
@@ -246,6 +350,38 @@ circute.alp:
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
+
+
+Didigm:
+  type: Programming Language Family
+  genre: Esolang
+  abstract: |-
+    Didigm is a reflective cellular automaton: the transition rules
+    for the automaton are defined by forms in the very playfield governed by
+    those transition rules.
+  tagline: |-
+    Didigm = ALPACA + Ypsilax
+  inception-date: Nov 20, 2007
+  etymology:
+  - neologism
+  sample: |
+    3333333333333
+    3002300230073
+    3111311132113
+    3311321131573
+    3111311131333
+    3333333333333
+    =F3
+    ,
+    =F1
+    111111111111111
+    111111131111111
+    111111111111574
+    111111111111333
+    311111111111023
+    111111111111113
+  reference-distribution: Didigm distribution
+  implementations: []
 
 
 Dieter:
@@ -423,6 +559,28 @@ tc.catseye.yoob.etcha:
   host-language: Java
 
 
+ETHEL:
+  type: Programming Language
+  genre: DSL
+  abstract: |-
+    A language specifically for expressing quantity surveying (materials
+    estimating) formula and procedures, designed for Star Building Materials.
+  computational-class: believed Turing-complete
+  inception-date: 1998
+  etymology:
+  - acronym
+  - monty python
+  has-reference-distribution: false
+  implementations:
+  - ethel.pl
+
+ethel.pl:
+  type: Language Implementation
+  license: Proprietary
+  host-language: Perl
+  implementation-type: interpreter
+
+
 Flobnar: 
   type: Programming Language
   genre: Esolang
@@ -543,11 +701,12 @@ FBBI:
 Gemooy: 
   type: Programming Language
   genre: Esolang
-  abstract: " Gemooy is really just a two-dimensional bagatelle of sorts; it\
-    \ combines features from [[2-ill]] and [[Etcha]], and adds self-modification.\
-    \ It came about when I noticed the tape-related semantics of 2-ill were essentially\
-    \ the same as those of [[BitChanger]].  (Information on this language is\
-    \ only available on the esowiki for now.)   "
+  abstract: |-
+    Gemooy is really just a two-dimensional bagatelle of sorts; it
+    combines features from [[2-ill]] and [[Etcha]], and adds self-modification.
+    It came about when I noticed the tape-related semantics of 2-ill were essentially
+    the same as those of [[BitChanger]].  (Information on this language is
+    only available on the esowiki for now.)
   inception-date: Dec 2, 2010
   computational-class: believed Turing-complete
   implementations:
@@ -555,11 +714,28 @@ Gemooy:
   influences:
   - 2-ill
   - Etcha
-  sample: "%### # ###   # #   ### # ###   # #   ### # ###@\n\n   @    @#     \
-    \    @\n  @      @          @\n @@\n@                   @\n    $         @#\
-    \ # @\n             #      @\n            #\n       @   @\n                \
-    \    @\n         \n       @\n      #\n     #\n    @\n    @    @\n     @# @\n\
-    @        @\n         @\n  @     @#@\n"
+  sample: |-
+    %### # ###   # #   ### # ###   # #   ### # ###@
+
+       @    @#         @
+      @      @          @
+     @@
+    @                   @
+        $         @# # @
+                 #      @
+                #
+           @   @
+                        @
+             
+           @
+          #
+         #
+        @
+        @    @
+         @# @
+    @        @
+             @
+      @     @#@
   has-reference-distribution: false
 
 tc.catseye.yoob.gemooy:
@@ -568,6 +744,117 @@ tc.catseye.yoob.gemooy:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+
+
+GraNoLa/M:
+  type: Programming Language
+  genre: Esolang
+  acronym-for: GRAph-NOde LAnguage (possibly for Machines)
+  abstract: |-
+    GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) 
+    It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,
+    its execution model involves both traversing and rewriting a graph at the
+    same time.
+  entered-in:
+  - Esoteric Awards
+  inception-date: Jul 2002
+  etymology:
+  - acronym
+  influences:
+  - Tamerlane
+  sample: |
+    a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
+  reference-distribution: GraNoLa/M distribution
+  implementations:
+  - granolam.erl
+
+granolam.erl:
+  type: Language Implementation
+  in-distribution: GraNoLa/M distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Erlang
+
+
+Hunter:
+  type: Programming Language
+  genre: Esolang
+  tagline: |-
+    maze-space rewriting with authentic inter-rodent communication
+  abstract: |-
+    Hunter is a language I designed for the Esoteric Awards ("Essies")
+    Its abstract starts out like this:
+    
+    > It is perceived that one of the biggest problems in maintaining
+    > interest in programming is the above linear growth of boredom
+    > compared to the usefulness of the program, resulting in an
+    > acute loss of enthusiasm on the part of the programmers and
+    > ultimately the abandonment of the software...
+  inception-date: ca Sep 20, 2000
+  entered-in:
+  - Esoteric Awards
+  etymology:
+  - masculine given name
+  sample: |
+    ##################
+    #   1#2#         #
+    # #### #         #
+    #      #         #
+    # ######    M    #
+    #     M#         #
+    #+######         #
+    #     !#         #
+    ##################
+    *12+>3
+    *21+>3
+  reference-distribution: Hunter distribution
+  implementations:
+  - hunter.pl
+
+hunter.pl:
+  type: Language Implementation
+  in-dstribution: Hunter distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Perl
+
+
+Iphigeneia:
+  type: Programming Language
+  genre: Pedagogical language
+  abstract: |-
+    Iphigeneia is a toy programming language which contains features
+    from both imperative programming (assignments to mutable variables, `while`
+    loops,) and functional programming (immutable name bindings, Scheme-style
+    "named `let`" loops.) It was originally intended as a testbed for algorithms
+    that convert programs between the two forms.
+  inception-date: Nov 20, 2007
+  etymology:
+  - classical greek
+  - mythological
+  sample: |-
+    var a in a :=
+        let c = 5 in let d = 1 in
+            loop
+                if c = 0 then
+                    d
+                else
+                    let d = d * c in
+                        let c = c - 1 in
+                            repeat
+  reference-distribution: Iphigeneia distribution
+  implementations:
+  - iphi
+
+iphi:
+  type: Language Implementation
+  in-distribution: Iphigeneia distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Kangaroo Iceberg:
@@ -934,9 +1221,45 @@ Okapi:
 okapi.py:
   type: Language Implementation
   reference: true
-  license: Unknown license
+  license: Proprietary
   implementation-type: interpreter
   host-language: Python
+
+
+Pail: 
+  type: Programming Language
+  genre: Esolang
+  acronym-for: PAIr Language
+  abstract: |-
+    Pail is a programming language based on pairs; just as Lisp stands
+    for LISt Processing, Pail stands for PAIr Language. Its original working
+    title was "Bizaaro[sic]-Pixley", as it attempts to resemble [[Pixley]]
+    while turning several concepts on their heads: use pairs instead of lists,
+    quote by default instead of eval by default, and allow not just values but also
+    names of bindings to be expressed.   "
+  computational-class: believed Turing-complete
+  inception-date: May 25, 2011
+  influences:
+  - Pixley
+  sample: |
+    **[*let [
+         [cadrg *[#fst ##*[#snd #g]]]
+         **[*let [
+              [g [x [y z]]]
+              ***cadrg
+           ]]
+      ]]
+  reference-distribution: Pail distribution
+  implementations:
+  - Pail.lhs
+
+Pail.lhs:
+  type: Language Implementation
+  in-distribution: Pail distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Pixley:
@@ -1739,102 +2062,6 @@ zowie.py:
 ###---### following languages need some massaging ###---###
 
 
-ETHEL:
-  type: Programming Language
-  genre: DSL
-  abstract: |-
-    A language specifically for expressing quantity surveying (materials
-    estimating) formula and procedures, designed for Star Building Materials.
-  computational-class: believed Turing-complete
-  "day": |-
-    1020
-  etymology:
-    "nametag": |-
-      acronym
-  "implemented": !!null |-
-    null
-  "inception": |-
-    1998
-  "name": |-
-    ETHEL
-  "year": |-
-    1998
-  has-reference-distribution: false
-
-
-Bear Food:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Bear Food was a horrible language defined by an interpreter that\
-    \ evolved (no... let's be honest, it *devolved*) from a small piece of example\
-    \ code showing how to parse and intepret a simple reverse-polish notation language.\
-    \  This same example code also took a very divergent line of evolution, eventually \
-    becoming the programming language [[Var'aq]].   "
-  "day": |-
-    1201
-  "failure": !!null |-
-    null
-  implementations:
-  - bearfood.pl
-  "name": |-
-    Bear Food
-  quotation: |-
-    liquid insanity from Hell
-  "year": |-
-    1999
-  has-reference-distribution: false
-
-bearfood.pl:
-  type: Language Implementation
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Perl
-  broken: true
-
-
-Hunter:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Hunter is a language I designed for the Esoteric Awards (\"Essies\"\
-    ). Its abstract starts out like this:  > It is perceived that one of the\
-    \ biggest problems in maintaining > interest in programming is the above linear\
-    \ growth of boredom > compared to the usefulness of the program, resulting\
-    \ in an > acute loss of enthusiasm on the part of the programmers and > ultimately\
-    \ the abandonment of the software...   "
-  "day": |-
-    0920
-  etymology:
-  - masculine given name
-  implementations:
-  - hunter.pl
-  sample: |
-    ##################
-    #   1#2#         #
-    # #### #         #
-    #      #         #
-    # ######    M    #
-    #     M#         #
-    #+######         #
-    #     !#         #
-    ##################
-    *12+>3
-    *21+>3
-  quotation: |-
-    maze-space rewriting with authentic inter-rodent communication
-  "year": |-
-    2000
-  reference-distribution: Hunter distribution
-
-hunter.pl:
-  type: Language Implementation
-  in-dstribution: Hunter distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Perl
-
-
 ILLGOL:
   type: Programming Language
   genre: Joke language
@@ -1923,126 +2150,6 @@ Opus-2:
   reference-distribution: Opus-2 distribution
 
 
-GraNoLa/M:
-  type: Programming Language
-  genre: Esolang
-  acronym-for: GRAph-NOde LAnguage (possibly for Machines)
-  abstract: " GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) \
-    It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,\
-    \ its execution model involves both traversing and rewriting a graph at the\
-    \ same time.   "
-  "day": |-
-    0601
-  etymology:
-    "nametag": |-
-      acronym
-  influences:
-  - Tamerlane
-  "name": |-
-    GraNoLa/M
-  "project": |-
-    granolam
-  sample: |
-    a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
-  "year": |-
-    2002
-  reference-distribution: GraNoLa/M distribution
-  implementations:
-  - granolam.erl
-
-granolam.erl:
-  type: Language Implementation
-  in-distribution: GraNoLa/M distribution
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Erlang
-
-
-Beturing:
-  type: Programming Language
-  genre: Esolang
-  abstract: " Beturing is a \"Befunge-flavoured\" language for describing Turing\
-    \ machines; both the tape and the finite control are laid out two-dimensionally.\
-    \  In addition, the finite control must be expressed as a planar graph (no\
-    \ edge representing a transition may cross any other edge.) It was devised\
-    \ this way as a test of the so-called \"wire-crossing problem\". It turns out\
-    \ that there are universal Turing machines with finite controls that are planar\
-    \ graphs, so Beturing is Turing-complete.   "
-  "day": |-
-    1020
-  computational-class: shown Turing-complete
-  etymology:
-  - portmanteau
-  sample: |
-    # D(40, 4)
-    # @(40, 4)
-    $bbab$
-    # C(0, 0)
-    # @(0, 0)
-     . . . . . .
-    *v*<*<*<*>*v
-    aa .ab . .aa .
-    >/*>./*^*^</*v
-    bb .ba . .bb .
-    >/*^./*^*^</*v
-    $$ .$$ . .$$ .
-    >/*^</*>*^.@*v
-             . . .
-    *@      *^*<*<
-  "year": |-
-    2005
-  reference-distribution: Beturing distribution
-  implementations:
-  - beturing.lua
-
-beturing.lua:
-  type: Language Implementation
-  in-dstribution: Beturing distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Lua
-
-
-Bhuna:
-  type: Programming Language
-  genre: Production language
-  abstract: " Bhuna is a small, garbage-collected language with a simple syntax,\
-    \ closures, inferred types, lightweight processes, and support for UTF-8 source\
-    \ code.  It was implemented partly to see how closely I could match the performance\
-    \ of Lua's interpreter.  It was meant more more as an experimental starting\
-    \ point for branching new languages, than as a useful language in and of itself. \
-    \  "
-  computational-class: believed Turing-complete
-  "day": |-
-    1021
-  etymology:
-  - indian
-  - dish
-  influences:
-  - Lua
-  sample: |
-    Fib = ^ X {
-      if X < 2 return 1 else
-      return Fib(X - 1) + Fib(X - 2)
-    }
-    Print Fib(32), EoL
-  "year": |-
-    2005
-  reference-distribution: Bhuna distribution
-  implementations:
-  - bhuna
-
-bhuna:
-  type: Language Implementation
-  in-dstribution: Bhuna distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: C99
-
-
 Xigxag:
   # hmm... well, no.  but for now, yes.
   type: Programming Language
@@ -2082,11 +2189,12 @@ xigxag.pl:
 Hev:
   type: Programming Language
   genre: Esolang
-  abstract: " Hev is a programming language that attempts to solve the \"central\
-    \ problem of infix notation\": how do you allow it without requiring the programmer\
-    \ to either memorize precedence tables or litter parentheses everywhere?  Hev\
-    \ has a way! In Hev, *all* operators are infix, yet no tiresome memorization\
-    \ of any dreadful precedence table is required!   "
+  abstract: |-
+    Hev is a programming language that attempts to solve the "central
+    problem of infix notation": how do you allow it without requiring the programmer
+    to either memorize precedence tables or litter parentheses everywhere?  Hev
+    has a way! In Hev, *all* operators are infix, yet no tiresome memorization
+    of any dreadful precedence table is required!
   computational-class: believed Turing-complete
   "day": |-
     0523
@@ -2116,16 +2224,17 @@ Hev.hs:
 Burro:
   type: Programming Language
   genre: Esolang
-  abstract: " Burro is a [[brainfuck]]-like programming language whose programs \
-    form an algebraical _group_ (modulo the equivalence relation of \"computes the\
-    \ same function\") under the operation of concatenation. The upshot of this\
-    \ is that, for every Burro program, we can find an _antiprogram_ which, when\
-    \ appended to the program, forms a \"no-op\" program which has no effect. \
-     This is a form of reversible computing, but unlike most reversible languages \
-    where it is the execution of the program that is \"undone\", in Burro, it is\
-    \ the program itself which is annihiliated by its antiprogram.  Burro 1.0\
-    \ was released in fall of 2007, but proved not to form a proper group. This\
-    \ shortcoming was rectified in summer of 2010.   "
+  abstract: |-
+    Burro is a [[brainfuck]]-like programming language whose programs
+    form an algebraical _group_ (modulo the equivalence relation of "computes the
+    same function") under the operation of concatenation. The upshot of this
+    is that, for every Burro program, we can find an _antiprogram_ which, when
+    appended to the program, forms a "no-op" program which has no effect.
+     This is a form of reversible computing, but unlike most reversible languages
+    where it is the execution of the program that is "undone", in Burro, it is
+    the program itself which is annihiliated by its antiprogram.  Burro 1.0
+    was released in fall of 2007, but proved not to form a proper group. This
+    shortcoming was rectified in summer of 2010.
   "day": |-
     0607
   computational-class: shown Turing-complete
@@ -2163,11 +2272,12 @@ Burro.lhs:
 Cabra:
   type: Programming Language
   genre: Esolang
-  abstract: " Cabra is a (somewhat) formal programming language whose programs\
-    \ form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence\
-    \ relation of \"computes the same function\", under the operations of parallel\
-    \ execution (as the additive operator) and sequential composition (as the multiplicative\
-    \ operator).   "
+  abstract: |-
+    Cabra is a (somewhat) formal programming language whose programs
+    form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence
+    relation of "computes the same function", under the operations of parallel
+    execution (as the additive operator) and sequential composition (as the multiplicative
+    operator).
   "day": |-
     1030
   etymology:
@@ -2225,78 +2335,6 @@ You are Reading the Name of this Esolang:
   reference-distribution: You are Reading the Name of this Esolang distribution
 
 
-Didigm:
-  type: Programming Language Family
-  genre: Esolang
-  abstract: " Didigm is a reflective cellular automaton: the transition rules\
-    \ for the automaton are defined by forms in the very playfield governed by\
-    \ those transition rules.   "
-  "day": |-
-    1120
-  etymology:
-    "nametag": |-
-      neologism
-  "name": |-
-    Didigm
-  "project": |-
-    didigm
-  sample: |
-    3333333333333
-    3002300230073
-    3111311132113
-    3311321131573
-    3111311131333
-    3333333333333
-    =F3
-    ,
-    =F1
-    111111111111111
-    111111131111111
-    111111111111574
-    111111111111333
-    311111111111023
-    111111111111113
-  quotation: |-
-    Didigm = ALPACA + Ypsilax
-  "year": |-
-    2007
-  reference-distribution: Didigm distribution
-
-
-Iphigeneia:
-  type: Programming Language
-  genre: Pedagogical language
-  abstract: " Iphigeneia is a toy programming language which contains features\
-    \ from both imperative programming (assignments to mutable variables, `while`\
-    \ loops,) and functional programming (immutable name bindings, Scheme-style\
-    \ \"named `let`\" loops.) It was originally intended as a testbed for algorithms\
-    \ that convert programs between the two forms.   "
-  "day": |-
-    1120
-  etymology:
-    "nametag":
-    - |-
-      classical greek
-    - |-
-      mythological
-  sample: "var a in a :=\n    let c = 5 in let d = 1 in\n        loop\n\t    if\
-    \ c = 0 then\n\t        d\n\t    else\n\t        let d = d * c in\n\t      \
-    \      let c = c - 1 in\n\t\t        repeat\n"
-  "year": |-
-    2007
-  reference-distribution: Iphigeneia distribution
-  implementations:
-  - iphi
-
-iphi:
-  type: Language Implementation
-  in-distribution: Iphigeneia distribution
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Haskell
-
-
 # TODO: split up?
 Jaccia and Jacciata:
   type: Programming Language
@@ -2345,13 +2383,14 @@ jacciata.alp:
 Oozlybub and Murphy: 
   type: Programming Language
   genre: Esolang
-  abstract: " The name of this language is Oozlybub and Murphy. Despite appearances,\
-    \ this name refers to a single language. The majority of the language is named\
-    \ Oozlybub. The fact that the language is not entirely named Oozlybub is named\
-    \ Murphy. Deal with it.  For the sake of providing an \"olde tyme esoterickal\
-    \ de-sign\", the language combines several unusual features, including multiple\
-    \ interleaved parse streams, infinitely long variable names, gratuitously strong\
-    \ typing, and only-conjectural Turing completeness.   "
+  abstract: |
+    The name of this language is Oozlybub and Murphy. Despite appearances,
+    this name refers to a single language. The majority of the language is named
+    Oozlybub. The fact that the language is not entirely named Oozlybub is named
+    Murphy. Deal with it.  For the sake of providing an "olde tyme esoterickal
+    de-sign", the language combines several unusual features, including multiple
+    interleaved parse streams, infinitely long variable names, gratuitously strong
+    typing, and only-conjectural Turing completeness.
   "day": |-
     1201
   "name": |-
@@ -2378,9 +2417,10 @@ Oozlybub and Murphy:
 Wunnel: 
   type: Programming Language
   genre: Esolang
-  abstract: " Wunnel is a two-dimensional language which draws from the [[1L]]\
+  abstract: |
+    " Wunnel is a two-dimensional language which draws from the [[1L]]\
     \ family of languages and incorporates features from [[reMorse]]. The name\
-    \ is both a play on the pronunciation of \"1L\", and a recursive portmanteau\
+    \ is both a play on the pronunciation of "1L", and a recursive portmanteau\
     \ of the words _Wunnel_ and _tunnel_ which is used to describe the long sequences\
     \ of identical instructions (often nops) used in Wunnel programs to sync up\
     \ remote parts of the program.  (Information on this language is only available\
@@ -2431,44 +2471,3 @@ tc.catseye.yoob.wunnel:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
-
-
-Pail: 
-  type: Programming Language
-  genre: Esolang
-  abstract: " Pail is a programming language based on pairs; just as Lisp stands\
-    \ for LISt Processing, Pail stands for PAIr Language. Its original working\
-    \ title was \"Bizaaro[sic]-Pixley\", as it attempts to resemble [[Pixley]]\
-    \ while turning several concepts on their heads: use pairs instead of lists, \
-    quote by default instead of eval by default, and allow not just values but also \
-    names of bindings to be expressed.   "
-  computational-class: believed Turing-complete
-  "day": |-
-    0525
-  influences:
-  - Pixley
-  "name": |-
-    Pail
-  "project": |-
-    pail
-  sample: |
-    **[*let [
-         [cadrg *[#fst ##*[#snd #g]]]
-         **[*let [
-              [g [x [y z]]]
-              ***cadrg
-           ]]
-      ]]
-  "year": |-
-    2011
-  reference-distribution: Pail distribution
-  implementations:
-  - Pail.lhs
-
-Pail.lhs:
-  type: Language Implementation
-  in-distribution: Pail distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Haskell

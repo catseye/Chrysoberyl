@@ -9,5 +9,7 @@ Freely Redistributable:
   type: License
   commentary: |-
     Freely redistributable unmodified for non-commercial purposes.
+Proprietary:
+  type: License
 Unknown license:
   type: License
