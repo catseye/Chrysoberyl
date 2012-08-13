@@ -1522,25 +1522,9 @@ Beturing:
     \ graphs, so Beturing is Turing-complete.\n  "
   "day": |-
     1020
-  "demonstrated-turing-complete": !!null |-
-    null
+  computational-class: shown Turing-complete
   etymology:
-    "nametag": |-
-      portmanteau
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Lua
-      "name": |-
-        beturing.lua
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Beturing
-  "project": |-
-    beturing
+  - portmanteau
   sample: |
     # D(40, 4)
     # @(40, 4)
@@ -1560,6 +1544,16 @@ Beturing:
   "year": |-
     2005
   reference-distribution: Beturing distribution
+  implementations:
+  - beturing.lua
+
+beturing.lua:
+  type: Language Implementation
+  in-dstribution: Beturing distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Lua
 
 
 Bhuna:
@@ -1576,27 +1570,10 @@ Bhuna:
   "day": |-
     1021
   etymology:
-    "nametag":
-    - |-
-      indian
-    - |-
-      dish
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        C
-      "name": |-
-        bhuna
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  - indian
+  - dish
   influences:
   - Lua
-  "name": |-
-    Bhuna
-  "project": |-
-    bhuna
   sample: |
     Fib = ^ X {
       if X < 2 return 1 else
@@ -1606,6 +1583,16 @@ Bhuna:
   "year": |-
     2005
   reference-distribution: Bhuna distribution
+  implementations:
+  - bhuna
+
+bhuna:
+  type: Language Implementation
+  in-dstribution: Bhuna distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: C99
 
 
 Xigxag:
@@ -1617,16 +1604,6 @@ Xigxag:
     \ configurations that don't blow up.)\n  "
   "day": |-
     0423
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Perl
-      "name": |-
-        xigxag.pl
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
   "inception": |-
     2001
   "name": |-
@@ -1634,6 +1611,7 @@ Xigxag:
   "project": |-
     xigxag
   sample:
+    # XXX needs sample
     "mode": |-
       output
   "unusual-computability-properties": !!null |-
@@ -1641,6 +1619,16 @@ Xigxag:
   "year": |-
     2007
   reference-distribution: Xigxag distribution
+  implementations:
+  - xigxag.pl
+
+xigxag.pl:
+  type: Language Implementation
+  in-dstribution: Xigxag distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Perl
 
 
 Hev:
@@ -1677,6 +1665,14 @@ Hev:
   "year": |-
     2007
   reference-distribution: Hev distribution
+
+Hev.hs:
+  type: Language Implementation
+  in-dstribution: Hev distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 
