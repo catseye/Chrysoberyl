@@ -10,7 +10,7 @@ ALPACA:
     a nice acronym.
     
     ALPACA is one of the few of my languages in which I've actually implemented
-    other languages (or, well, cellular automata -- close enough).  These are, namely,
+    other languages (or, well, cellular automata — close enough).  These are, namely,
     [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia and Jacciata]].
   inception-date: 1998
   etymology:
@@ -333,6 +333,48 @@ emmental.hs:
   host-language: Haskell
 
 
+Etcha:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Etcha is a two-dimensional descendant of Jeffry Johnston's [BitChanger].
+    Like BitChanger, it has four instructions; unlike BitChanger, its storage
+    model is based on turtle graphics, which permits it to be immediately used
+    for an alternative purpose: graphical composition. Unlike the turtle in LOGO
+    however, the turtle in Etcha is an integral part of the computation, playing
+    a role similar to the tape head of a Turing machine.
+  inception-date: Oct 4, 2009
+  computational-class: believed Turing-complete
+  influences:
+  - BitChanger
+  sample: |-
+    >+++>+++>+++>+++>[+]>>>>+
+  sample-output: |-
+    #####
+       #
+       #
+     ###
+  reference-distribution: Etcha distribution
+  implementations:
+  - tc.catseye.etcha
+  - tc.catseye.yoob.etcha
+
+tc.catseye.etcha:
+  type: Language Implementation
+  in-distribution: Etcha distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Java
+
+tc.catseye.yoob.etcha:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+
+
 Full Moon Fever:
   type: Programming Language
   genre: DSL
@@ -476,7 +518,7 @@ Kelxquoia:
   type: Programming Language
   genre: Esolang
   abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
-    \ \u2014 in fact,\nself-destroying.  As instructions are executed, they are\
+    \ — in fact,\nself-destroying.  As instructions are executed, they are\
     \ erased.  In order to execute\nindefinitely, new instructions of some sort\
     \ must be created.\nLuckily the language provides as its main data-manipulation\
     \ facility, grid-rewriting,\nwhich can be used to restore instructions that\
@@ -491,6 +533,39 @@ Kelxquoia:
     \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
     \ 00 00\n"
   has-reference-distribution: false
+
+
+Larabee:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Larabee is an assembly-like programming language, with Scheme-like
+    syntax, that borrows the notion of branch prediction from computer architecture
+    and abuses it, creating a path that leads only to existential angst and self-destruction.
+  inception-date: Jan 10, 2008
+  etymology:
+  - surname
+  - television show
+  computational-class: known not Turing-complete
+  sample: |-
+    (store (input) (input)
+      (store (input) (input)
+        (label loop
+          (store (input) (op * (fetch (input)) (fetch (input)))
+            (store (input) (op - (fetch (input)) (input))
+              (test (op > (fetch (input)) (input))
+                (goto loop) (print (fetch (input)))))))))
+  reference-distribution: Larabee distribution
+  implementations:
+  - larabee.scm
+
+larabee.scm:
+  type: Language Implementation
+  in-distribution: Larabee distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Scheme
 
 
 Madison: 
@@ -668,6 +743,41 @@ ndcnc.bf:
   broken: true
 
 
+Nhohnhehr: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Nhohnhehr is a remotely fungeoid language which explores the design
+    space between having a fixed playfield versus an expandable one.  When the
+    instruction pointer reaches the edge of the playfield (the "room"), whether
+    it wraps around or creates a new room and adjoins it to that edge, depends
+    on the current _edge mode_ of the program.  New copies of rooms may be rotated
+    before being adjoined to existing rooms, but rooms are otherwise immutable.
+  computational-class: can simulate some push-down automata
+  inception-date: Dec 8, 2010
+  sample: |
+    +------+
+    |    /}|
+    |&#/$?@|
+    |  / \&|
+    |      |
+    | {    |
+    |\\    |
+    +------+
+  reference-distribution: Nhohnhehr distribution
+  implementations:
+  - nhohnhehr.py
+
+nhohnhehr.py:
+  type: Language Implementation
+  in-distribution: Nhohnhehr distribution
+  author: Marinus
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Python
+
+
 "noit o' mnain worb":
   type: Programming Language
   genre: Esolang
@@ -717,6 +827,34 @@ tc.catseye.yoob.worb:
   license: Unknown license
   implementation-type: interpreter
   host-language: Java
+
+
+Quylthulg:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Quylthulg is a programming language with but a single control-flow
+    construct: `foreach`.  In fact, it does also have a `goto`, but that can
+    only appear \ninside data structures.
+  computational-class: believed Turing-complete
+  inception-date: Dec 6, 2008
+  etymology:
+  - mythological
+  - roguelike
+  - Lovecraftian
+  sample: |-
+    foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
+  reference-distribution: Quylthulg distribution
+  implementations:
+  - Qlzqqlzuup, the Lord of Flesh
+
+Qlzqqlzuup, the Lord of Flesh:
+  type: Language Implementation
+  in-distribution: Quylthulg distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 REDGREEN:
@@ -1143,6 +1281,44 @@ version.pl:
   implementation-type: interpreter
 
 
+Whothm: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Whothm is a simple language for describing infinite two-colour
+    bitmapped drawings.
+  inception-date: Jun 28, 2010
+  computational-class: known not Turing-complete
+  sample: |
+    r := (0, 0, 1, 2);
+    s := (0, 0, 1, 2);
+    XOR := TF/FT;
+    
+    begin
+    r.x += r.w;
+    r.x += -1;
+    r.w += 1;
+    r.h += 1;
+    draw r, XOR;
+    s.x += s.w;
+    s.x += -1;
+    s.w += 1;
+    s.h += 2;
+    draw s, XOR;
+    end
+  reference-distribution: Whothm distribution
+  implementations:
+  - tc.catseye.whothm
+
+tc.catseye.whothm:
+  type: Language Implementation
+  in-distribution: Whothm distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Java
+
+
 Wierd:
   type: Programming Language
   genre: Esolang
@@ -1200,6 +1376,38 @@ wierd-milo.c:
   host-language: ANSI C
 
 
+Xoomonk: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Xoomonk is a programming language in which _malingering updatable
+    stores_ are first-class objects.  Malingering updatable stores unify several
+    language constructs, including procedure activations, named parameters, and
+    object-like data structures.
+    
+    The Xoomonk project is also a bit of an experiment
+    in _test-driven language design_. The specification includes examples in
+    the format of [[Falderal]] tests, which were written while the language was
+    being designed and could be used to compare an implementation (when one is
+    written) against the spec.
+  computational-class: believed Turing-complete
+  inception-date: Aug 7, 2011
+  sample: |
+    l := $loop*
+    counter := 5
+    l.do := {
+      y := x
+      print ^.counter
+      o := $sub*
+      o.x := ^.counter
+      o.y := 1
+      ^.counter := o.result
+      continue := o.result
+    }
+  reference-distribution: Xoomonk distribution
+  implementations: []
+
+
 Ypsilax:
   type: Programming Language
   genre: Esolang
@@ -1250,7 +1458,7 @@ ZOWIE:
   abstract: |-
     ZOWIE is a machine-like language in which all operations *including
     structured control flow* are memory-mapped.  Control flow is structured in
-    the sense of structured programming -- the programmer never deals with
+    the sense of structured programming — the programmer never deals with
     `goto`s, or offsets or labels of any kind.  Instead, the program writes to
     a memory location to mark the beginning or end of a loop or conditional.
   inception-date: Dec 29, 2009
@@ -1320,7 +1528,7 @@ Shelta:
     \ near Turing-Complete.\nIn the spirit of compilers for languages such as [[FALSE]]\
     \ and [[brainfuck]],\na Shelta-to-8086 compiler was implemented (with help from\
     \ Ben Olmstead) in less than\n512 bytes of 80286 machine code.\nWhat's more,\
-    \ it's also been bootstrapped \u2014 that is to say,\na Shelta compiler was\
+    \ it's also been bootstrapped — that is to say,\na Shelta compiler was\
     \ written in Shelta, which was compiled with the\noriginal compiler, and then\
     \ compiled again with the resulting compiler,\nproducing a wholly self-hosted\
     \ executable!\n  "
@@ -1844,8 +2052,7 @@ Cabra:
   - farm animal
   influences:
   - Burro
-  "known-not-turing-complete": !!null |-
-    null
+  computational-class: known not Turing-complete
   "name": |-
     Cabra
   "project": |-
@@ -1968,47 +2175,6 @@ iphi:
   host-language: Haskell
 
 
-Larabee:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nLarabee is an assembly-like programming language, with Scheme-like\
-    \ syntax,\nthat borrows the notion of branch prediction from computer architecture\n\
-    and abuses it, creating a path that leads only to existential angst and self-destruction.\n\
-    \  "
-  "day": |-
-    0110
-  etymology:
-    "nametag": |-
-      television
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Scheme
-      "name": |-
-        larabee.scm
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "known-not-turing-complete": !!null |-
-    null
-  "name": |-
-    Larabee
-  "project": |-
-    larabee
-  sample: |-
-    (store (input) (input)
-      (store (input) (input)
-        (label loop
-          (store (input) (op * (fetch (input)) (fetch (input)))
-            (store (input) (op - (fetch (input)) (input))
-              (test (op > (fetch (input)) (input))
-                (goto loop) (print (fetch (input)))))))))
-  "year": |-
-    2008
-  reference-distribution: Larabee distribution
-
-
 Arboretuum:
   type: Programming Language
   genre: Experimental language
@@ -2064,41 +2230,6 @@ forest-rewriter.scm:
   host-language: Scheme
 
 
-Quylthulg:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nQuylthulg is a programming language with but a single \ncontrol-flow\
-    \ construct: `foreach`.  In fact, it \ndoes also have a `goto`, but that can\
-    \ only appear \ninside data structures.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1206
-  etymology:
-    "nametag": |-
-      mythological
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name":
-        "tool": |-
-          no
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Quylthulg
-  "project": |-
-    quylthulg
-  sample: |-
-    foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
-  "year": |-
-    2008
-  reference-distribution: Quylthulg distribution
-
-
 # TODO: split up?
 Jaccia and Jacciata:
   type: Programming Language
@@ -2111,28 +2242,8 @@ Jaccia and Jacciata:
   "day": |-
     0411
   etymology:
-    "nametag": |-
-      neologism
-  "ximplementations":
-    "implementation":
-    - "host-language": |-
-        ALPACA
-      "name": |-
-        jaccia.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
-    - "host-language": |-
-        ALPACA
-      "name": |-
-        jacciata.alp
-      "reference": |-
-        yes
-      "type": |-
-        description
-  "known-not-turing-complete": !!null |-
-    null
+  - neologism
+  computational-class: known not Turing-complete
   "name": |-
     Jaccia and Jacciata
   "project": |-
@@ -2143,6 +2254,25 @@ Jaccia and Jacciata:
   "year": |-
     2009
   reference-distribution: Jaccia and Jacciata distribution
+  implementations:
+  - jaccia.alp
+  - jacciata.alp
+
+jaccia.alp:
+  type: Language Implementation
+  reference: true
+  in-distribution: Jaccia and Jacciata distribution
+  license: BSD
+  implementation-type: formal description
+  host-language: ALPACA
+
+jacciata.alp:
+  type: Language Implementation
+  reference: true
+  in-distribution: Jaccia and Jacciata distribution
+  license: BSD
+  implementation-type: formal description
+  host-language: ALPACA
 
 
 Pixley:
@@ -2185,49 +2315,13 @@ Pixley:
   reference-distribution: Pixley distribution
 
 
-Etcha:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nEtcha is a two-dimensional descendant of Jeffry Johnston's\n[BitChanger].\
-    \  Like BitChanger, it has four instructions;\nunlike BitChanger, its storage\
-    \ model is based on turtle graphics, which permits it to be immediately used\
-    \ for an\nalternative purpose: graphical composition. Unlike the turtle in LOGO\
-    \ however, the turtle in Etcha is an integral part of the\ncomputation, playing\
-    \ a role similar to the tape head of a Turing machine.\n  "
-  "day": |-
-    1004
-  "demonstrated-turing-complete": !!null |-
-    null
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Java
-      "name":
-        "tool": |-
-          yes
-      "type": |-
-        interpreter
-  influences:
-  - BitChanger
-  "name": |-
-    Etcha
-  "project": |-
-    etcha
-  sample:
-    "mode": |-
-      output
-  "year": |-
-    2009
-  reference-distribution: Etcha distribution
-
-
 Okapi: 
   type: Programming Language
   genre: Esolang
   abstract: "\nOkapi is a language I designed as an anniversary present for my\
     \ wife(!).\nIn it, the only means of control flow is throwing exceptions, and\
     \ as if this wasn't\nenough, there are two restrictions on exceptions that are\
-    \ thrown \u2014 they\nmust be divide-by-zero exceptions, and they must be caught\
+    \ thrown — they\nmust be divide-by-zero exceptions, and they must be caught\
     \ in a lexically\nenclosing block.  Nor is there any facility to \"retry\" after\
     \ an exception is caught.\nThe language is nonetheless Turing-complete.\n  "
   "day": |-
@@ -2248,50 +2342,6 @@ Okapi:
   "year": |-
     2010
   has-reference-distribution: false
-
-
-Whothm: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nWhothm is a simple language for describing infinite\ntwo-colour\
-    \ bitmapped drawings.\n  "
-  "day": |-
-    0628
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Java
-      "name":
-        "tool": |-
-          yes
-      "type": |-
-        interpreter
-  "known-not-turing-complete": !!null |-
-    null
-  "name": |-
-    Whothm
-  "project": |-
-    whothm
-  sample: |
-    r := (0, 0, 1, 2);
-    s := (0, 0, 1, 2);
-    XOR := TF/FT;
-    
-    begin
-    r.x += r.w;
-    r.x += -1;
-    r.w += 1;
-    r.h += 1;
-    draw r, XOR;
-    s.x += s.w;
-    s.x += -1;
-    s.w += 1;
-    s.h += 2;
-    draw s, XOR;
-    end
-  "year": |-
-    2010
-  reference-distribution: Whothm distribution
 
 
 Oozlybub and Murphy: 
@@ -2324,48 +2374,7 @@ Oozlybub and Murphy:
   "year": |-
     2010
   reference-distribution: Oozlybub and Murphy distribution
-
-
-Nhohnhehr: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nNhohnhehr is a remotely fungeoid language which explores the design\
-    \ space between having\na fixed playfield versus an expandable one.  When the\
-    \ instruction pointer reaches the edge of\nthe playfield (the \"room\"), whether\
-    \ it wraps around or creates a new room and adjoins it to that\nedge, depends\
-    \ on the current _edge mode_ of the program.  New copies of rooms may\nbe rotated\
-    \ before being adjoined to existing rooms, but rooms are otherwise immutable.\n\
-    \  "
-  "can-simulate-some-push-down-automata": !!null |-
-    null
-  "day": |-
-    1208
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Python
-      "name": |-
-        nhohnhehr.py
-      "type": |-
-        interpreter
-  "implemented": !!null |-
-    null
-  "name": |-
-    Nhohnhehr
-  "project": |-
-    nhohnhehr
-  sample: |
-    +------+
-    |    /}|
-    |&#/$?@|
-    |  / \&|
-    |      |
-    | {    |
-    |\\    |
-    +------+
-  "year": |-
-    2010
-  reference-distribution: Nhohnhehr distribution
+  implementations: []
 
 
 Wunnel: 
@@ -2382,16 +2391,6 @@ Wunnel:
     null
   "day": |-
     0213
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Java
-      "name": |-
-        WunnelState.java
-      "type": |-
-        interpreter
-  "implemented": !!null |-
-    null
   influences:
   - 1L
   - reMorse
@@ -2425,6 +2424,16 @@ Wunnel:
   "year": |-
     2011
   has-reference-distribution: false
+  implementations:
+  - tc.catseye.yoob.wunnel
+
+tc.catseye.yoob.wunnel:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
 
 
 Pail: 
@@ -2440,16 +2449,6 @@ Pail:
     null
   "day": |-
     0525
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        Pail.lhs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
   influences:
   - Pixley
   "name": |-
@@ -2467,78 +2466,42 @@ Pail:
   "year": |-
     2011
   reference-distribution: Pail distribution
+  implementations:
+  - Pail.lhs
 
-
-Xoomonk: 
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nXoomonk is a programming language in which _malingering updatable\
-    \ stores_\nare first-class objects.  Malingering updatable stores unify several\
-    \ language\nconstructs, including procedure activations, named parameters, and\
-    \ object-like\ndata structures.\n\nThe Xoomonk project is also a bit of an experiment\
-    \ in _test-driven language design_.\nThe specification includes examples in\
-    \ the format of [[Falderal]] tests,\nwhich were written while the language was\
-    \ being designed and could be used to\ncompare an implementation (when one is\
-    \ written) against the spec.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    0807
-  "ximplementations": !!null |-
-    null
-  "name": |-
-    Xoomonk
-  "project": |-
-    xoomonk
-  sample: |
-    l := $loop*
-    counter := 5
-    l.do := {
-      y := x
-      print ^.counter
-      o := $sub*
-      o.x := ^.counter
-      o.y := 1
-      ^.counter := o.result
-      continue := o.result
-    }
-  "year": |-
-    2011
-  reference-distribution: Xoomonk distribution
+Pail.lhs:
+  type: Language Implementation
+  in-distribution: Pail distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Flobnar: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nOne day in September of 2011 \u2014 though I'm not sure precisely\
-    \ which\none \u2014 marked [[Befunge-93]]'s 18th birthday.  That means that\
+  abstract: "\nOne day in September of 2011 — though I'm not sure precisely\
+    \ which\none — marked [[Befunge-93]]'s 18th birthday.  That means that\
     \ Befunge is\nnow old enough to drink in its native land of Canada.  To celebrate\
     \ this,\nI thought I'd get Befunge-93 drunk to see what would happen.\n\nWhat\
     \ happened was Flobnar, an esolang which is in many respects a\nfunctional dual\
     \ of Befunge-93; most of the symbols have analogous\nmeanings, but execution\
     \ proceeds in a much more dataflow-like fashion.\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "day": |-
-    1028
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Haskell
-      "name": |-
-        Flobnar.hs
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
+  inception-date: Oct 28, 2011
+  computational-class: believed Turing-complete
   influences:
   - Befunge-93
-  "name": |-
-    Flobnar
-  "project": |-
-    flobnar
   sample: ">     v\n^\\ <   \n       \n:v    v   \\<@\n-<      : 6\n1 :   > *\n\
     \  -|    <\n  11\n"
-  "year": |-
-    2011
   reference-distribution: Flobnar distribution
+  implementations:
+  - Flobnar.hs
+
+Flobnar.hs:
+  type: Language Implementation
+  in-distribution: Flobnar distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
