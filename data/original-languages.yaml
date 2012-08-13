@@ -76,7 +76,7 @@ Befunge-97:
   abstract: |-
     An unimplemented attempt to improve upon Befunge-93, described
     (fairly accurately) as "brain-damaged."  This was primarily due to the
-    fact that separate processes were specified\nas sharing a single stack.
+    fact that separate processes were specified as sharing a single stack.
     Quickly gave way to [[Funge-98]].
   inception-date: Dec 25, 1997
   etymology:
@@ -458,11 +458,11 @@ FBBI:
 Gemooy: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nGemooy is really just a two-dimensional bagatelle of sorts; it\
-    \ combines features from\n[[2-ill]] and [[Etcha]], and adds self-modification.\
-    \ It came about when I noticed\nthe tape-related semantics of 2-ill were essentially\
-    \ the same as those of\n[[BitChanger]].\n\n(Information on this language is\
-    \ only available on the esowiki for now.)\n  "
+  abstract: " Gemooy is really just a two-dimensional bagatelle of sorts; it\
+    \ combines features from [[2-ill]] and [[Etcha]], and adds self-modification.\
+    \ It came about when I noticed the tape-related semantics of 2-ill were essentially\
+    \ the same as those of [[BitChanger]].  (Information on this language is\
+    \ only available on the esowiki for now.)   "
   inception-date: Dec 2, 2010
   computational-class: believed Turing-complete
   implementations:
@@ -517,13 +517,14 @@ kiceberg:
 Kelxquoia: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nKelxquoia is another remotely fungeoid language, this one self-modifying\
-    \ — in fact,\nself-destroying.  As instructions are executed, they are\
-    \ erased.  In order to execute\nindefinitely, new instructions of some sort\
-    \ must be created.\nLuckily the language provides as its main data-manipulation\
-    \ facility, grid-rewriting,\nwhich can be used to restore instructions that\
-    \ were previously erased after execution.\n\n(Information on this language is\
-    \ only available on the esowiki for now.)\n  "
+  abstract: |-
+    Kelxquoia is another remotely fungeoid language, this one self-modifying
+    — in fact, self-destroying.  As instructions are executed, they are
+    erased.  In order to execute indefinitely, new instructions of some sort
+    must be created. Luckily the language provides as its main data-manipulation
+    facility, grid-rewriting, which can be used to restore instructions that
+    were previously erased after execution.  (Information on this language is
+    only available on the esowiki for now.)
   inception-date: Dec 23, 2010
   computational-class: believed Turing-complete
   esowiki: Kelxquoia
@@ -827,6 +828,38 @@ tc.catseye.yoob.worb:
   license: Unknown license
   implementation-type: interpreter
   host-language: Java
+
+
+Pixley:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Pixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS
+    Scheme), supporting four datatypes (boolean, cons cell, function, and symbol)
+    and a dozen built-in symbols.  The reference implementation of Pixley is
+    written in 124 lines of Pixley (or, if you prefer, 124 lines of Scheme;
+    and if you prefer more Scheme-ly metrics, it consists of 413 instances of
+    54 unique symbols in 684 cons cells.)
+  computational-class: believed Turing-complete
+  subset-of: Scheme
+  bootstrapped: true
+  inception-date: May 2009
+  etymology:
+  - place name
+  - television show
+  sample: |-
+    (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
+  reference-distribution: Pixley distribution
+  implementations:
+  - pixley.pix
+
+pixley.pix:
+  type: Language Implementation
+  in-distribution: Pixley distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Pixley
 
 
 Quylthulg:
@@ -1499,11 +1532,10 @@ zowie.py:
 ETHEL:
   type: Programming Language
   genre: DSL
-  abstract: "\nA language specifically for expressing quantity surveying\n(materials\
-    \ estimating) formula and procedures,\ndesigned for Star Building Materials.\n\
+  abstract: " A language specifically for expressing quantity surveying (materials\
+    \ estimating) formula and procedures, designed for Star Building Materials. \
     \  "
-  "believed-turing-complete": !!null |-
-    null
+  computational-class: believed Turing-complete
   "day": |-
     1020
   etymology:
@@ -1523,62 +1555,56 @@ ETHEL:
 Shelta:
   type: Programming Language
   genre: Esolang
-  abstract: "\nShelta is an extremely minimal Forth-like language with barely\
-    \ any semantics;\nit relies on inline machine code to be considered anywhere\
-    \ near Turing-Complete.\nIn the spirit of compilers for languages such as [[FALSE]]\
-    \ and [[brainfuck]],\na Shelta-to-8086 compiler was implemented (with help from\
-    \ Ben Olmstead) in less than\n512 bytes of 80286 machine code.\nWhat's more,\
-    \ it's also been bootstrapped — that is to say,\na Shelta compiler was\
-    \ written in Shelta, which was compiled with the\noriginal compiler, and then\
-    \ compiled again with the resulting compiler,\nproducing a wholly self-hosted\
-    \ executable!\n  "
+  abstract: " Shelta is an extremely minimal Forth-like language with barely\
+    \ any semantics; it relies on inline machine code to be considered anywhere\
+    \ near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]\
+    \ and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from\
+    \ Ben Olmstead) in less than 512 bytes of 80286 machine code. What's more,\
+    \ it's also been bootstrapped — that is to say, a Shelta compiler was\
+    \ written in Shelta, which was compiled with the original compiler, and then\
+    \ compiled again with the resulting compiler, producing a wholly self-hosted\
+    \ executable!   "
   with:
   - Ben Olmstead
-  bootstrapped: true
-  "day": |-
-    0601
+  inception-date: ca Jul 1999
   etymology:
   - spoken language
   - celtic
-  "ximplementations":
-    "implementation":
-    - "host-language": |-
-        x86 assembly
-      "name": |-
-        shelta
-      "reference": |-
-        yes
-      "target-language": |-
-        x86 executable
-      "type": |-
-        compiler
-    - "host-language": |-
-        Shelta
-      "name": |-
-        sheltas
-      "target-language": |-
-        x86 executable
-      "type": |-
-        compiler
-  "name": |-
-    Shelta
-  "project": |-
-    shelta
   sample: |
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-  "year": |-
-    1999
   reference-distribution: Shelta distribution
+  implementations:
+  - shelta
+  - sheltas
+
+shelta:
+  type: Language Implementation
+  reference: true
+  in-distribution: Shelta distribution
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Shelta
+  host-language: NASM Assembler
+  target-language: x86 machine code
+
+sheltas:
+  type: Language Implementation
+  in-distribution: Shelta distribution
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Shelta
+  host-language: Shelta
+  target-language: x86 machine code
 
 
 Bear Food:
   type: Programming Language
   genre: Esolang
-  abstract: "\nBear Food was a horrible language defined by an interpreter that\
-    \ evolved\n(no... let's be honest, it *devolved*) from a small\npiece of example\
-    \ code showing how to parse and intepret\na simple reverse-polish notation language.\
-    \  This same example\ncode also took a very divergent line of evolution, eventually\n\
-    becoming the programming language [[Var'aq]].\n  "
+  abstract: " Bear Food was a horrible language defined by an interpreter that\
+    \ evolved (no... let's be honest, it *devolved*) from a small piece of example\
+    \ code showing how to parse and intepret a simple reverse-polish notation language.\
+    \  This same example code also took a very divergent line of evolution, eventually \
+    becoming the programming language [[Var'aq]].   "
   "day": |-
     1201
   "failure": !!null |-
@@ -1605,15 +1631,14 @@ bearfood.pl:
 Squishy2K:
   type: Programming Language
   genre: Esolang
-  abstract: "\nSquishy2K is a language which is a hybrid of string rewriting\n\
-    and finite state automata; as an added twist, it also lets program\nstates serve\
-    \ as functions.  It was based largely on an earlier grammar-based\nlanguage\
-    \ called SQUISHY, taking also some ideas from the language [[Thue]].\n\nThe\
-    \ original SQUISHY was conceived sometime around 1998, but is now\nlost.  Because\
-    \ it was based largely on EBNF, the author wanted to name\nit Wirth, but the\
-    \ name SQUISHY was proposed and (somewhat unfortunately)\nstuck.\n  "
-  "believed-turing-complete": !!null |-
-    null
+  abstract: " Squishy2K is a language which is a hybrid of string rewriting \
+    and finite state automata; as an added twist, it also lets program states serve\
+    \ as functions.  It was based largely on an earlier grammar-based language\
+    \ called SQUISHY, taking also some ideas from the language [[Thue]].  The\
+    \ original SQUISHY was conceived sometime around 1998, but is now lost.  Because\
+    \ it was based largely on EBNF, the author wanted to name it Wirth, but the\
+    \ name SQUISHY was proposed and (somewhat unfortunately) stuck.   "
+  computational-class: believed Turing-complete
   "day": |-
     0901
   implementations:
@@ -1640,12 +1665,12 @@ squishy2k.pl:
 Hunter:
   type: Programming Language
   genre: Esolang
-  abstract: "\nHunter is a language I designed for the Esoteric Awards (\"Essies\"\
-    ).\nIts abstract starts out like this:\n\n> It is perceived that one of the\
-    \ biggest problems in maintaining\n> interest in programming is the above linear\
-    \ growth of boredom\n> compared to the usefulness of the program, resulting\
-    \ in an\n> acute loss of enthusiasm on the part of the programmers and\n> ultimately\
-    \ the abandonment of the software...\n  "
+  abstract: " Hunter is a language I designed for the Esoteric Awards (\"Essies\"\
+    ). Its abstract starts out like this:  > It is perceived that one of the\
+    \ biggest problems in maintaining > interest in programming is the above linear\
+    \ growth of boredom > compared to the usefulness of the program, resulting\
+    \ in an > acute loss of enthusiasm on the part of the programmers and > ultimately\
+    \ the abandonment of the software...   "
   "day": |-
     0920
   etymology:
@@ -1682,8 +1707,8 @@ hunter.pl:
 ILLGOL:
   type: Programming Language
   genre: Joke language
-  abstract: "\nJoke languages which parody the sort of language designed by the\
-    \ sheer fact\nthat a compiler for it has been hacked together.\n  "
+  abstract: " Joke languages which parody the sort of language designed by the\
+    \ sheer fact that a compiler for it has been hacked together.   "
   "day": |-
     0601
   "descendants":
@@ -1695,20 +1720,7 @@ ILLGOL:
     - |-
       Illgol##
   etymology:
-    "nametag": |-
-      parody
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        C
-      "name": |-
-        ILLGOL.COM
-      "reference": |-
-        yes
-      "target-language": |-
-        x86 executable
-      "type": |-
-        compiler
+  - parody
   "inception": |-
     2000
   "name": |-
@@ -1727,13 +1739,24 @@ ILLGOL:
   "year": |-
     2001
   reference-distribution: illgol
+  implementations:
+  - ILLGOL.COM
+
+ILLGOL.COM:
+  type: Language Implementation
+  in-distribution: illgol
+  license: Unknown license
+  implementation-type: compiler
+  source-language: ILLGOL
+  host-language: ANSI C
+  target-language: x86 machine code
 
 
 Opus-2:
   type: Abstract Artlang
-  abstract: "\nOpus-2 is not a programming language, but rather, an abstract artlang\
-    \ (i.e.,\na conlang designed independently from any conception of society.)\n\
-    The sole design principle was to entirely eliminate word order.\n  "
+  abstract: " Opus-2 is not a programming language, but rather, an abstract artlang\
+    \ (i.e., a conlang designed independently from any conception of society.) \
+    The sole design principle was to entirely eliminate word order.   "
   "day": |-
     0701
   "name": |-
@@ -1772,8 +1795,8 @@ Opus-2:
 Sbeezg:
   type: Programming Language
   genre: Esolang
-  abstract: "\nSbeezg is a syntactically very simple language that attempts to\
-    \ take the single-assignment concept\nto a logical extreme.\n  "
+  abstract: " Sbeezg is a syntactically very simple language that attempts to\
+    \ take the single-assignment concept to a logical extreme.   "
   "day": |-
     0101
   etymology:
@@ -1802,10 +1825,10 @@ GraNoLa/M:
   type: Programming Language
   genre: Esolang
   acronym-for: GRAph-NOde LAnguage (possibly for Machines)
-  abstract: "\nGraNoLa/M is a Graph-Node-based Language (possibly for Machines.)\n\
-    It was one of my submissions for the Esoteric Awards.\nNot unlike Tamerlane,\
-    \ its execution model involves both\ntraversing and rewriting a graph at the\
-    \ same time.\n  "
+  abstract: " GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) \
+    It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,\
+    \ its execution model involves both traversing and rewriting a graph at the\
+    \ same time.   "
   "day": |-
     0601
   etymology:
@@ -1837,13 +1860,13 @@ granolam.erl:
 Beturing:
   type: Programming Language
   genre: Esolang
-  abstract: "\nBeturing is a \"Befunge-flavoured\" language for describing Turing\
-    \ machines; both the tape and\nthe finite control are laid out two-dimensionally.\
-    \  In addition, the finite control must be\nexpressed as a planar graph (no\
-    \ edge representing a transition may cross any other edge.)\nIt was devised\
-    \ this way as a test of the so-called \"wire-crossing problem\".\nIt turns out\
-    \ that there are universal Turing machines with finite controls that are\nplanar\
-    \ graphs, so Beturing is Turing-complete.\n  "
+  abstract: " Beturing is a \"Befunge-flavoured\" language for describing Turing\
+    \ machines; both the tape and the finite control are laid out two-dimensionally.\
+    \  In addition, the finite control must be expressed as a planar graph (no\
+    \ edge representing a transition may cross any other edge.) It was devised\
+    \ this way as a test of the so-called \"wire-crossing problem\". It turns out\
+    \ that there are universal Turing machines with finite controls that are planar\
+    \ graphs, so Beturing is Turing-complete.   "
   "day": |-
     1020
   computational-class: shown Turing-complete
@@ -1883,14 +1906,13 @@ beturing.lua:
 Bhuna:
   type: Programming Language
   genre: Production language
-  abstract: "\nBhuna is a small, garbage-collected language with a simple\nsyntax,\
-    \ closures, inferred types, lightweight processes, and support for UTF-8\nsource\
-    \ code.  It was implemented partly to see how closely I could match\nthe performance\
-    \ of Lua's interpreter.  It was meant more more as an experimental\nstarting\
-    \ point for branching new languages, than as a useful language in and of itself.\n\
+  abstract: " Bhuna is a small, garbage-collected language with a simple syntax,\
+    \ closures, inferred types, lightweight processes, and support for UTF-8 source\
+    \ code.  It was implemented partly to see how closely I could match the performance\
+    \ of Lua's interpreter.  It was meant more more as an experimental starting\
+    \ point for branching new languages, than as a useful language in and of itself. \
     \  "
-  "believed-turing-complete": !!null |-
-    null
+  computational-class: believed Turing-complete
   "day": |-
     1021
   etymology:
@@ -1923,9 +1945,9 @@ Xigxag:
   # hmm... well, no.  but for now, yes.
   type: Programming Language
   genre: Esolang
-  abstract: "\nXigxag is a simple string-copying automaton that has exponential\
-    \ growth almost everywhere\n(i.e. there are only a finite number of initial\
-    \ configurations that don't blow up.)\n  "
+  abstract: " Xigxag is a simple string-copying automaton that has exponential\
+    \ growth almost everywhere (i.e. there are only a finite number of initial\
+    \ configurations that don't blow up.)   "
   "day": |-
     0423
   "inception": |-
@@ -1958,13 +1980,12 @@ xigxag.pl:
 Hev:
   type: Programming Language
   genre: Esolang
-  abstract: "\nHev is a programming language that attempts to solve the \"central\
-    \ problem of\ninfix notation\": how do you allow it without requiring the programmer\
-    \ to either\nmemorize precedence tables or litter parentheses everywhere?  Hev\
-    \ has a way!\nIn Hev, *all* operators are infix, yet no tiresome memorization\
-    \ of any\ndreadful precedence table is required!\n  "
-  "believed-turing-complete": !!null |-
-    null
+  abstract: " Hev is a programming language that attempts to solve the \"central\
+    \ problem of infix notation\": how do you allow it without requiring the programmer\
+    \ to either memorize precedence tables or litter parentheses everywhere?  Hev\
+    \ has a way! In Hev, *all* operators are infix, yet no tiresome memorization\
+    \ of any dreadful precedence table is required!   "
+  computational-class: believed Turing-complete
   "day": |-
     0523
   etymology:
@@ -1993,16 +2014,16 @@ Hev.hs:
 Burro:
   type: Programming Language
   genre: Esolang
-  abstract: "\nBurro is a [[brainfuck]]-like programming language whose programs\n\
+  abstract: " Burro is a [[brainfuck]]-like programming language whose programs \
     form an algebraical _group_ (modulo the equivalence relation of \"computes the\
-    \ same function\")\nunder the operation of concatenation.\nThe upshot of this\
-    \ is that, for every Burro program, we can find\nan _antiprogram_ which, when\
-    \ appended to the program,\nforms a \"no-op\" program which has no effect.\n\
-    \nThis is a form of reversible computing, but unlike most reversible languages\n\
+    \ same function\") under the operation of concatenation. The upshot of this\
+    \ is that, for every Burro program, we can find an _antiprogram_ which, when\
+    \ appended to the program, forms a \"no-op\" program which has no effect. \
+     This is a form of reversible computing, but unlike most reversible languages \
     where it is the execution of the program that is \"undone\", in Burro, it is\
-    \ the\nprogram itself which is annihiliated by its antiprogram.\n\nBurro 1.0\
-    \ was released in fall of 2007, but proved not to form a proper group.\nThis\
-    \ shortcoming was rectified in summer of 2010.\n  "
+    \ the program itself which is annihiliated by its antiprogram.  Burro 1.0\
+    \ was released in fall of 2007, but proved not to form a proper group. This\
+    \ shortcoming was rectified in summer of 2010.   "
   "day": |-
     0607
   computational-class: shown Turing-complete
@@ -2040,11 +2061,11 @@ Burro.lhs:
 Cabra:
   type: Programming Language
   genre: Esolang
-  abstract: "\nCabra is a (somewhat) formal programming language whose programs\
-    \ form an algebraical\n_dioid_ (an idempotent semiring), modulo the equivalence\
-    \ relation of \"computes the same function\",\nunder the operations of parallel\
-    \ execution (as the additive operator) and sequential composition\n(as the multiplicative\
-    \ operator).\n  "
+  abstract: " Cabra is a (somewhat) formal programming language whose programs\
+    \ form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence\
+    \ relation of \"computes the same function\", under the operations of parallel\
+    \ execution (as the additive operator) and sequential composition (as the multiplicative\
+    \ operator).   "
   "day": |-
     1030
   etymology:
@@ -2079,15 +2100,14 @@ cabra.hs:
 You are Reading the Name of this Esolang:
   type: Programming Language
   genre: Esolang
-  abstract: "\nYou are Reading the Name of this Esolang is an exploration in\n\
-    the design space of programming languages with undecidable elements.\nIts syntax\
-    \ is only recursively enumerable:\nthe problem of determining whether or not\n\
-    a given string of symbols is a well-formed\nYou are Reading the Name of this\
-    \ Esolang program is undecidable.\n  "
+  abstract: " You are Reading the Name of this Esolang is an exploration in \
+    the design space of programming languages with undecidable elements. Its syntax\
+    \ is only recursively enumerable: the problem of determining whether or not \
+    a given string of symbols is a well-formed You are Reading the Name of this\
+    \ Esolang program is undecidable.   "
   "day": |-
     1101
-  "demonstrated-turing-complete": !!null |-
-    null
+  computational-class: shown Turing-complete
   influences:
   - Spoon
   "name": |-
@@ -2106,9 +2126,9 @@ You are Reading the Name of this Esolang:
 Didigm:
   type: Programming Language Family
   genre: Esolang
-  abstract: "\nDidigm is a reflective cellular automaton: the transition rules\
-    \ for the\nautomaton are defined by forms in the very playfield governed by\
-    \ those transition rules.\n  "
+  abstract: " Didigm is a reflective cellular automaton: the transition rules\
+    \ for the automaton are defined by forms in the very playfield governed by\
+    \ those transition rules.   "
   "day": |-
     1120
   etymology:
@@ -2144,11 +2164,11 @@ Didigm:
 Iphigeneia:
   type: Programming Language
   genre: Pedagogical language
-  abstract: "\nIphigeneia is a toy programming language which contains features\
-    \ from both\nimperative programming (assignments to mutable variables, `while`\
-    \ loops,)\nand functional programming (immutable name bindings,\nScheme-style\
-    \ \"named `let`\" loops.)\nIt was originally intended as a testbed for\nalgorithms\
-    \ that convert programs between the two forms.\n  "
+  abstract: " Iphigeneia is a toy programming language which contains features\
+    \ from both imperative programming (assignments to mutable variables, `while`\
+    \ loops,) and functional programming (immutable name bindings, Scheme-style\
+    \ \"named `let`\" loops.) It was originally intended as a testbed for algorithms\
+    \ that convert programs between the two forms.   "
   "day": |-
     1120
   etymology:
@@ -2178,15 +2198,14 @@ iphi:
 Arboretuum:
   type: Programming Language
   genre: Experimental language
-  abstract: "\nArboretuum is an experimental language based on _forest-rewriting_,\n\
-    a variant of tree-rewriting in which multiple trees are rewritten simultaneously.\n\
-    The language was intended for specifying compilers, with each tree representing\n\
-    a major compiler data structure (AST, symbol table, output buffer, etc.,)\n\
-    however, this idea was not entirely successful.  Regardless, Arboretuum is\n\
-    Turing-complete, as tree-rewriting is simply a special case of forest-rewriting.\n\
+  abstract: " Arboretuum is an experimental language based on _forest-rewriting_, \
+    a variant of tree-rewriting in which multiple trees are rewritten simultaneously. \
+    The language was intended for specifying compilers, with each tree representing \
+    a major compiler data structure (AST, symbol table, output buffer, etc.,) \
+    however, this idea was not entirely successful.  Regardless, Arboretuum is \
+    Turing-complete, as tree-rewriting is simply a special case of forest-rewriting. \
     \  "
-  "believed-turing-complete": !!null |-
-    null
+  computational-class: believed Turing-complete
   "day": |-
     0301
   etymology:
@@ -2234,10 +2253,10 @@ forest-rewriter.scm:
 Jaccia and Jacciata:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
-  abstract: "\nJaccia and Jacciata are cellular automata inspired by the\n[Announcement\
-    \ of Scientific Proof that Slime Molds are\nIntelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).\n\
-    Jaccia can solve mazes too, by a similar mechanism (shrinking).\nJacciata builds\
-    \ upon this to find the shortest path through a maze, if one exists and is unique.\n\
+  abstract: " Jaccia and Jacciata are cellular automata inspired by the [Announcement\
+    \ of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm). \
+    Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds\
+    \ upon this to find the shortest path through a maze, if one exists and is unique. \
     \  "
   "day": |-
     0411
@@ -2275,85 +2294,39 @@ jacciata.alp:
   host-language: ALPACA
 
 
-Pixley:
-  type: Programming Language
-  genre: Esolang
-  abstract: "\nPixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS\
-    \ Scheme),\nsupporting four datatypes (boolean, cons cell, function, and symbol)\
-    \ and\na dozen built-in symbols.  The reference implementation of Pixley\nis\
-    \ written in 124 lines of Pixley (or, if you prefer, 124 lines of Scheme;\n\
-    and if you prefer more Scheme-ly metrics, it consists of 413 instances of\n\
-    54 unique symbols in 684 cons cells.)\n  "
-  "believed-turing-complete": !!null |-
-    null
-  "bootstrapped": !!null |-
-    null
-  "day": |-
-    0501
-  etymology:
-  - place name
-  - television show
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Pixley
-      "name":
-        "tool": |-
-          yes
-      "reference": |-
-        yes
-      "type": |-
-        interpreter
-  "name": |-
-    Pixley
-  "project": |-
-    pixley
-  sample: |-
-    (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
-  "year": |-
-    2009
-  reference-distribution: Pixley distribution
-
-
 Okapi: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nOkapi is a language I designed as an anniversary present for my\
-    \ wife(!).\nIn it, the only means of control flow is throwing exceptions, and\
-    \ as if this wasn't\nenough, there are two restrictions on exceptions that are\
-    \ thrown — they\nmust be divide-by-zero exceptions, and they must be caught\
-    \ in a lexically\nenclosing block.  Nor is there any facility to \"retry\" after\
-    \ an exception is caught.\nThe language is nonetheless Turing-complete.\n  "
-  "day": |-
-    0523
-  "demonstrated-turing-complete": !!null |-
-    null
-  "ximplementations":
-    "implementation":
-      "host-language": |-
-        Python
-      "name":
-        "tool": |-
-          yes
-      "type": |-
-        interpreter
-  "name": |-
-    Okapi
-  "year": |-
-    2010
+  abstract: " Okapi is a language I designed as an anniversary present for my\
+    \ wife(!). In it, the only means of control flow is throwing exceptions, and\
+    \ as if this wasn't enough, there are two restrictions on exceptions that are\
+    \ thrown — they must be divide-by-zero exceptions, and they must be caught\
+    \ in a lexically enclosing block.  Nor is there any facility to \"retry\" after\
+    \ an exception is caught. The language is nonetheless Turing-complete.   "
+  inception-date: May 23, 2010
+  computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations:
+  - okapi.py
 
+okapi.py:
+  type: Language Implementation
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Python
+  
 
 Oozlybub and Murphy: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nThe name of this language is Oozlybub and Murphy.\nDespite appearances,\
-    \ this name refers to a single language.\nThe majority of the language is named\
-    \ Oozlybub.\nThe fact that the language is not entirely named Oozlybub is named\
-    \ Murphy.\nDeal with it.\n\nFor the sake of providing an \"olde tyme esoterickal\
-    \ de-sign\",\nthe language combines several unusual features, including multiple\
-    \ interleaved\nparse streams, infinitely long variable names, gratuitously strong\
-    \ typing, and\nonly-conjectural Turing completeness.\n  "
+  abstract: " The name of this language is Oozlybub and Murphy. Despite appearances,\
+    \ this name refers to a single language. The majority of the language is named\
+    \ Oozlybub. The fact that the language is not entirely named Oozlybub is named\
+    \ Murphy. Deal with it.  For the sake of providing an \"olde tyme esoterickal\
+    \ de-sign\", the language combines several unusual features, including multiple\
+    \ interleaved parse streams, infinitely long variable names, gratuitously strong\
+    \ typing, and only-conjectural Turing completeness.   "
   "day": |-
     1201
   "name": |-
@@ -2380,15 +2353,14 @@ Oozlybub and Murphy:
 Wunnel: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nWunnel is a two-dimensional language which draws from the\n[[1L]]\
-    \ family of languages and incorporates features from [[reMorse]].\nThe name\
-    \ is both a play on the pronunciation of \"1L\", and\na recursive portmanteau\
-    \ of the words _Wunnel_ and _tunnel_\nwhich is used to describe the long sequences\
-    \ of identical instructions (often nops) used in\nWunnel programs to sync up\
-    \ remote parts of the program.\n\n(Information on this language is only available\
-    \ on the esowiki for now.)\n  "
-  "believed-turing-complete": !!null |-
-    null
+  abstract: " Wunnel is a two-dimensional language which draws from the [[1L]]\
+    \ family of languages and incorporates features from [[reMorse]]. The name\
+    \ is both a play on the pronunciation of \"1L\", and a recursive portmanteau\
+    \ of the words _Wunnel_ and _tunnel_ which is used to describe the long sequences\
+    \ of identical instructions (often nops) used in Wunnel programs to sync up\
+    \ remote parts of the program.  (Information on this language is only available\
+    \ on the esowiki for now.)   "
+  computational-class: believed Turing-complete
   "day": |-
     0213
   influences:
@@ -2439,14 +2411,13 @@ tc.catseye.yoob.wunnel:
 Pail: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nPail is a programming language based on pairs; just as Lisp stands\
-    \ for\nLISt Processing, Pail stands for PAIr Language.\nIts original working\
-    \ title was \"Bizaaro[sic]-Pixley\", as it attempts to resemble\n[[Pixley]]\
-    \ while turning several concepts on their heads: use pairs instead of lists,\n\
-    quote by default instead of eval by default, and allow not just values but also\n\
-    names of bindings to be expressed.\n  "
-  "believed-turing-complete": !!null |-
-    null
+  abstract: " Pail is a programming language based on pairs; just as Lisp stands\
+    \ for LISt Processing, Pail stands for PAIr Language. Its original working\
+    \ title was \"Bizaaro[sic]-Pixley\", as it attempts to resemble [[Pixley]]\
+    \ while turning several concepts on their heads: use pairs instead of lists, \
+    quote by default instead of eval by default, and allow not just values but also \
+    names of bindings to be expressed.   "
+  computational-class: believed Turing-complete
   "day": |-
     0525
   influences:
@@ -2481,13 +2452,13 @@ Pail.lhs:
 Flobnar: 
   type: Programming Language
   genre: Esolang
-  abstract: "\nOne day in September of 2011 — though I'm not sure precisely\
-    \ which\none — marked [[Befunge-93]]'s 18th birthday.  That means that\
-    \ Befunge is\nnow old enough to drink in its native land of Canada.  To celebrate\
-    \ this,\nI thought I'd get Befunge-93 drunk to see what would happen.\n\nWhat\
-    \ happened was Flobnar, an esolang which is in many respects a\nfunctional dual\
-    \ of Befunge-93; most of the symbols have analogous\nmeanings, but execution\
-    \ proceeds in a much more dataflow-like fashion.\n  "
+  abstract: " One day in September of 2011 — though I'm not sure precisely\
+    \ which one — marked [[Befunge-93]]'s 18th birthday.  That means that\
+    \ Befunge is now old enough to drink in its native land of Canada.  To celebrate\
+    \ this, I thought I'd get Befunge-93 drunk to see what would happen.  What\
+    \ happened was Flobnar, an esolang which is in many respects a functional dual\
+    \ of Befunge-93; most of the symbols have analogous meanings, but execution\
+    \ proceeds in a much more dataflow-like fashion.   "
   inception-date: Oct 28, 2011
   computational-class: believed Turing-complete
   influences:

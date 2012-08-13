@@ -70,11 +70,24 @@ Ophis Assembler:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+NASM Assembler:
+  type: Programming Language
+  # "Assembly language"?
+  genre: Production language
+  computational-class: Finite-automata-complete
+  has-reference-distribution: false
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
   type: Programming Language
   genre: Production language
   computational-class: believed Turing-complete
+  has-reference-distribution: false
+
+# for targets of compilers:
+x86 machine code:
+  type: Programming Language
+  genre: Production language
+  computational-class: Finite-automata-complete
   has-reference-distribution: false
 
 # heh.  for sf2tab:
