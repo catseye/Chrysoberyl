@@ -193,9 +193,9 @@ Befunge-93 distribution:
 beta-Juliet distribution: 
   type: Distribution
   distribution-of: beta-Juliet
-  github: https://github.com/catseye/beta-Juliet.git
-  bitbucket: https://bitbucket.org/catseye/beta-juliet/
-  issue-tracker: https://github.com/catseye/beta-Juliet/issues
+  github: catseye/beta-Juliet
+  bitbucket: catseye/beta-juliet
+  issue-tracker: github
   releases: 
   - version: "2.0"
     revision: "2012.0714"
@@ -397,20 +397,11 @@ Circute distribution:
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
 
+#*#
+
 Didigm distribution: 
   type: Distribution
   distribution-of: Didigm
-  title: The Didigm Reflective Cellular Automaton
-  summary: Docs on the <b>Didigm</b> reflective CA
-  byline: Conceived by Chris Pressey
-  esowiki: Didigm
-  keywords: 
-  - 2d
-  - ca
-  - eso
-  - lang
-  - refl
-  - spec
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -428,6 +419,9 @@ Didigm distribution:
 Dieter distribution: 
   type: Distribution
   distribution-of: Dieter
+  bitbucket: catseye/dieter
+  github: catseye/Dieter
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -787,6 +781,10 @@ illgolpp:
   - project: illgol
   - project: illgola-2
   - project: illberon
+
+'Illgol: Grand Mal':
+  type: Distribution
+  distribution-of: ILLGOL
 
 Iphigeneia distribution: 
   type: Distribution
@@ -1366,9 +1364,9 @@ Shelta distribution:
 SMETANA distribution: 
   type: Distribution
   distribution-of: SMETANA
-  bitbucket: https://bitbucket.org/catseye/smetana/
-  github: https://github.com/catseye/SMETANA
-  issue-tracker: https://github.com/catseye/SMETANA/issues
+  bitbucket: catseye/smetana
+  github: catseye/SMETANA
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -1378,9 +1376,9 @@ SMETANA distribution:
 SMITH distribution: 
   type: Distribution
   distribution-of: SMITH
-  bitbucket: https://bitbucket.org/catseye/smith/
-  github: https://github.com/catseye/SMITH
-  issue-tracker: https://github.com/catseye/SMITH/issues
+  bitbucket: catseye/smith
+  github: catseye/SMITH
+  issue-tracker: github
   releases: 
   - version: 2.0L
     revision: 2.0L
