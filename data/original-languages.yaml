@@ -1140,11 +1140,17 @@ Kelxquoia:
   inception-date: Dec 23, 2010
   computational-class: believed Turing-complete
   esowiki: Kelxquoia
-  sample: " >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR\n\
-    $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v\n    ' '   '       '  '      '   \n    \
-    \         '         '  '     \n ^      /*?-*P-*?-+*?-*P-* -+     <\n P     \
-    \ PPPPPPPPPPPPPPPPPP PP     P\n ^      /*?-*P-*?-+*?-*P-* -+     <\n\n 00 00\
-    \ 00 00\n"
+  sample: |2
+     >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
+     RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR
+    $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
+        ' '   '       '  '      '   
+                 '         '  '     
+     ^      /*?-*P-*?-+*?-*P-* -+     <
+     P      PPPPPPPPPPPPPPPPPP PP     P
+     ^      /*?-*P-*?-+*?-*P-* -+     <
+    
+     00 00 00 00
   has-reference-distribution: false
 
 
@@ -1585,7 +1591,8 @@ Quylthulg:
   abstract: |
     Quylthulg is a programming language with but a single control-flow
     construct: `foreach`.  In fact, it does also have a `goto`, but that can
-    only appear \ninside data structures.
+    only appear inside data structures.
+  esowiki: Quylthulg
   computational-class: believed Turing-complete
   inception-date: Dec 6, 2008
   etymology:
@@ -1969,7 +1976,7 @@ Tamerlane:
   abstract: |
     Tamerlane is a multi-paradigmatic programming language, unimplemented
     and possibly unimplementable. One of its core execution mechanisms is the
-    traversing of a graph (representing the program)\nwhile rewriting that same
+    traversing of a graph (representing the program) while rewriting that same
     graph.
   inception-date: Aug 2000
   etymology:

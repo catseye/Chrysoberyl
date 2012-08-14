@@ -189,9 +189,6 @@ stringie:
     The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
     to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
     keeping the `←` symbol for assignment.
-  bitbucket: https://bitbucket.org/catseye/pl-goto-.net/
-  github: https://github.com/catseye/PL-GOTO.NET.git
-  issue-tracker: https://github.com/catseye/PL-GOTO.NET/issues
   authors:
   - Chris Pressey
   auspices:

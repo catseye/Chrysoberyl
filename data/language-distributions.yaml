@@ -1091,21 +1091,10 @@ pibfi distribution:
 
 Pixley distribution: 
   type: Distribution
-  title: The Pixley Programming Language
-  summary: Reference Interpreter for <b>Pixley</b>
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    Pixley
-         <a class="external" href="https://bitbucket.org/catseye/pixley/">development</a> is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Pixley">git mirror on githib</a>.
   distribution-of: Pixley
-  esowiki: None
-  keywords: 
-  - boot
-  - bsdl
-  - lang
-  - scheme
+  bitbucket: catseye/pixley
+  github: catseye/Pixley
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.0501"
@@ -1123,8 +1112,6 @@ Pixley distribution:
     revision: "2012.0219"
     latest: true
     url: http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip
-  references: 
-  - project: pail
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
@@ -1148,21 +1135,10 @@ PL-{GOTO}.NET distribution:
 
 Quylthulg distribution: 
   type: Distribution
-  title: The Quylthulg Programming Language
-  summary: Docs and reference interpreter for <b>Quylthulg</b>
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    Quylthulg
-        <a class="external" href="https://bitbucket.org/catseye/quylthulg/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Qylthulg">git mirror on githib</a>.
   distribution-of: Quylthulg
-  esowiki: Quylthulg
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
+  bitbucket: catseye/quylthulg
+  github: catseye/Quylthulg
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
