@@ -1,0 +1,32 @@
+# encoding: UTF-8
+Chris Pressey:
+  type: Individual
+John Colagioia:
+  type: Individual
+Ben Olmstead:
+  type: Individual
+Brainerd:
+  type: Individual
+Landweber:
+  type: Individual
+Zzo38:
+  type: Individual
+Marinus:
+  type: Individual
+Nikita Ayzikovsky:
+  type: Individual
+Alex Smith (ais523):
+  type: Individual
+Befunge Mailing List Working Group:
+  # we'll pretend, for now
+  type: Individual
+Matthew Westcott:
+  type: Individual
+Gregory Yob:
+  type: Individual
+David Chipping:
+  type: Individual
+Urban Müller:
+  type: Individual
+Anonymous:
+  type: Individual

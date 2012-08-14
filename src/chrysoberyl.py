@@ -41,11 +41,18 @@ def check_optional_scalar_ref(data, key, node, property, type_=None):
         check_scalar_ref(data, key, node, property, type_=type_)
 
 def check_list_ref(data, key, node, property):
+    assert property in node, \
+        "'%s' has no %s list" % (key, property)
+    assert isinstance(node[property], list), \
+        "'%s' has non-list %s" % (key, property)
+    for value in node[property]:
+        assert value in data, \
+            "'%s' has undefined %s '%s'" % \
+            (key, property, value)
+
+def check_optional_list_ref(data, key, node, property):
     if property in node:
-        for value in node[property]:
-            assert value in data, \
-                "'%s' has undefined %s '%s'" % \
-                (key, property, value)
+        check_list_ref(data, key, node, property)
 
 def check_chrysoberyl_data(data):
     for key in data:
@@ -57,6 +64,9 @@ def check_chrysoberyl_data(data):
           "'%s' specifies undefined type '%s'" % (key, type_)
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
+
+      if 'see-also' in node:
+          check_list_ref(data, key, node, 'see-also')
 
       if type_ == 'Distribution':
           # (this has multiple possible types)
@@ -75,6 +85,7 @@ def check_chrysoberyl_data(data):
                                type_='Programming Language')
               check_scalar_ref(data, key, node, 'target-language',
                                type_='Programming Language')
+          check_optional_list_ref(data, key, node, 'authors')
 
       if type_ == 'Game Implementation':
           check_scalar_ref(data, key, node, 'license', type_='License')
@@ -82,13 +93,15 @@ def check_chrysoberyl_data(data):
                                     type_='Distribution')
           check_scalar_ref(data, key, node, 'implementation-language',
                            type_='Programming Language')
+          check_optional_list_ref(data, key, node, 'authors')
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
                                     type_='Distribution')
           check_list_ref(data, key, node, 'implementations')
-          check_list_ref(data, key, node, 'influences')
+          check_optional_list_ref(data, key, node, 'influences')
+          check_list_ref(data, key, node, 'authors')
 
       if type_ == 'Programming Language':
           check_optional_scalar_ref(data, key, node, 'computational-class',

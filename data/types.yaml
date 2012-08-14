@@ -11,6 +11,8 @@ Computational Class:
   type: type
 Genre:
   type: type
+Individual:
+  type: type
 Game:
   type: type
 Game Implementation:

@@ -5,6 +5,8 @@ ANSI C:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 C99:
   type: Programming Language
   genre: Production language
@@ -12,21 +14,29 @@ C99:
     Generally implies POSIX, too.
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Java:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Perl:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Python:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
   commentary: |-
     Mostly harmless.
 Ruby:
@@ -34,59 +44,81 @@ Ruby:
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Scheme: 
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Haskell:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Erlang:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Lua:
   type: Programming Language
   genre: Production language
   computational-class: shown Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 MSIL:
   type: Programming Language
   genre: Production language
   computational-class: unknown computational class
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Zz:
   type: Programming Language
   genre: Metalanguage
   computational-class: unknown computational class
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Ophis Assembler:
   type: Programming Language
   # "Assembly language"?
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 NASM Assembler:
   type: Programming Language
   # "Assembly language"?
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
   type: Programming Language
   genre: Production language
   computational-class: believed Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Applesoft BASIC:
   type: Programming Language
   genre: Production language
   computational-class: believed Turing-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 
 # for targets of compilers:
 x86 machine code:
@@ -94,6 +126,8 @@ x86 machine code:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 
 # heh.  for sf2tab:
 lookup table:
@@ -101,12 +135,16 @@ lookup table:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 
 Wireworld:
   type: Programming Language
   genre: Cellular Automaton
   computational-class: Finite-automata-complete
   has-reference-distribution: false
+  implementations: []
+  authors: []
 
 
 # These are esolangs, but not ones I have designed or implemented
@@ -116,7 +154,8 @@ Thue:
   computational-class: believed Turing-complete
   esowiki: Thue
   has-reference-distribution: false
-  author: John Colagioia
+  authors:
+  - John Colagioia
   paradigms:
   - String-rewriting
   abstract: |
@@ -130,6 +169,7 @@ Thue:
     to construe constraint-based programming.  It is to the constraint-based
     paradigm what languages like OISC are to the imperative paradigm;
     in other words, it's a tar pit.
+  implementations: []
 
 #  byline: Conceived by John Colagioia; implementations by John Colagioia and
 #    Frédéric van der Plancke
@@ -141,15 +181,21 @@ reMorse:
   computational-class: unknown computational class
   esowiki: reMorse
   has-reference-distribution: false
+  implementations: []
+  authors: []
 BitChanger:
   type: Programming Language
   genre: Esolang
   computational-class: believed Turing-complete
   esowiki: BitChanger
   has-reference-distribution: false
+  implementations: []
+  authors: []
 Spoon:
   type: Programming Language
   genre: Esolang
   computational-class: believed Turing-complete
   esowiki: Spoon
   has-reference-distribution: false
+  implementations: []
+  authors: []

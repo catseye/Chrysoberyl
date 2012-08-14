@@ -2,7 +2,8 @@
 'Bubble Escape':
   type: Game
   genre: Video Game
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1988?
@@ -54,7 +55,8 @@
 'Corona: Realm of Magic':
   type: Game
   genre: Roguelike
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 2000
@@ -80,7 +82,8 @@
   subtitle: Adventures in the Great Unsaturated Grammar
   type: Game
   genre: Text Adventure
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 2005
@@ -103,7 +106,8 @@
   type: Game
   # also Text Adventure
   genre: Logic
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1999

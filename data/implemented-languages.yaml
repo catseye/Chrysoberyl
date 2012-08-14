@@ -3,7 +3,8 @@
 brainfuck:
   type: Programming Language
   genre: Esolang
-  author: Urban Müller
+  authors:
+  - Urban Müller
   esowiki: brainfuck
   computational-class: shown Turing-complete
   has-reference-distribution: false
@@ -35,7 +36,8 @@ pibfi:
 Muriel:
   type: Programming Language
   genre: Esolang
-  author: Matthew Westcott
+  authors:
+  - Matthew Westcott
   esowiki: Muriel
   reference-distribution: Muriel distribution
   computational-class: shown Turing-complete
@@ -64,6 +66,8 @@ muriel.pl:
 VALGOL:
   type: Programming Language
   genre: Joke language
+  authors:
+  - Anonymous
   source-document: Lesser Known Languages List
   esowiki: VALGOL
   computational-class: unknown computational class
@@ -92,7 +96,8 @@ valgol.erl:
 Smallfuck:
   type: Programming Language
   genre: Esolang
-  author: Nikita Ayzikovsky
+  authors:
+  - Nikita Ayzikovsky
   esowiki: Smallfuck
   computational-class: Finite-automata-complete
   inception-date: ca 2002
@@ -122,7 +127,8 @@ sf2tab:
 Underload:
   type: Programming Language
   genre: Esolang
-  author: Alex Smith (ais523)
+  authors:
+  - Alex Smith (ais523)
   computational-class: believed Turing-complete
   esowiki: Underload
   has-reference-distribution: false
@@ -198,7 +204,8 @@ stringie:
 Ale:
   type: Programming Language
   genre: Esolang
-  author: David Chipping
+  authors:
+  - David Chipping
   esowiki: Ale
   computational-class: believed Turing-complete
   has-reference-distribution: false
@@ -222,7 +229,8 @@ tc.catseye.yoob.ale:
 Backflip:
   type: Programming Language
   genre: Esolang
-  author: Alex Smith (ais523)
+  authors:
+  - Alex Smith (ais523)
   esowiki: Backflip
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -246,7 +254,8 @@ tc.catseye.yoob.backflip:
 Black:
   type: Programming Language
   genre: Esolang
-  author: Alex Smith (ais523)
+  authors:
+  - Alex Smith (ais523)
   esowiki: Black
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -270,6 +279,7 @@ tc.catseye.yoob.black:
 LNUSP:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: LNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -302,6 +312,7 @@ tc.catseye.yoob.lnusp:
 1L_a:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: 1L_a
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -325,6 +336,7 @@ tc.catseye.yoob.onela:
 1L_AOI:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: 1L_AOI
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -348,6 +360,7 @@ tc.catseye.yoob.onelaoi:
 PATH:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: PATH
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -371,6 +384,7 @@ tc.catseye.yoob.path:
 Qdeql:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: Qdeql
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -394,6 +408,7 @@ tc.catseye.yoob.qdeql:
 Sceql:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: Sceql
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -417,6 +432,7 @@ tc.catseye.yoob.sceql:
 SNUSP:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: SNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -440,7 +456,11 @@ tc.catseye.yoob.snusp:
 2-ill:
   type: Programming Language
   genre: Esolang
+  authors:
+  - Zzo38
   esowiki: 2-ill
+  influences:
+  - 2L
   computational-class: unknown computational class
   has-reference-distribution: false
   implementations:
@@ -463,6 +483,7 @@ tc.catseye.yoob.twoill:
 2L:
   type: Programming Language
   genre: Esolang
+  authors: []
   esowiki: 2L
   computational-class: unknown computational class
   has-reference-distribution: false

@@ -3,7 +3,8 @@
   type: Game
   genre: Logic
   vintage: true
-  author: Gregory Yob
+  authors:
+  - Gregory Yob
   abstract: |-
     The classic topological mythical-beast-hunting game, implemented in Erlang.
   implementations:
@@ -12,7 +13,8 @@
 'wumpus.erl':
   type: Game Implementation
   in-distribution: 'Hunt the Wumpus distribution'
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   license: BSD
@@ -32,11 +34,13 @@
     as more games are played.
   implementations:
   - animals.erl
+  authors: []
 
 'animals.erl':
   type: Game Implementation
   in-distribution: Animals distribution
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   license: BSD
@@ -52,11 +56,13 @@
     A classic game that demonstrates simple "artificial intelligence".
   implementations:
   - 'flip.erl'
+  authors: []
 
 'flip.erl':
   type: Game Implementation
   in-distribution: Flip distribution
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   license: BSD
@@ -72,11 +78,13 @@
     The classic Japanese game about lean manufacturing (well, sort of).
   implementations:
   - 'esoko'
+  authors: []
 
 'esoko':
   type: Game Implementation
   in-distribution: esoko distribution
-  author: Chris Pressey
+  authors:
+  - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   license: BSD

@@ -47,15 +47,10 @@ Apple Befunge distribution:
 Arboretuum distribution: 
   type: Distribution
   distribution-of: Arboretuum
-  title: The Arboretuum Programming Language
-  summary: Interpreter for the <b>Arboretuum</b> forest-rewriter
-  byline: Designed and implemented by Chris Pressey
-  esowiki: None
-  keywords: 
-  - bsdl
-  - scheme
-  - lang
-  - rew
+  development-stage: dormant
+  github: catseye/Arboretuum
+  bitbucket: catseye/arboretuum
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -73,8 +68,6 @@ Arboretuum distribution:
     revision: "2008.0304"
     latest: false
     url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
-  references: 
-  - project: treacle
 
 bef distribution: 
   type: Distribution
@@ -341,26 +334,15 @@ Cabra distribution:
 Circute distribution: 
   type: Distribution
   distribution-of: Circute
-  title: The Circute Cellular Automaton
-  summary: The <b>Circute</b> cellular automaton
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    You can experiment with Circute online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  esowiki: Circute
-  keywords: 
-  - 2d
-  - bsdl
-  - ca
-  - eso
-  - lang
-  - interact
+  github: catseye/Circute
+  bitbucket: catseye/circute
+  issue-tracker: github
+  development-stage: dormant
   releases: 
   - version: "1.0"
     revision: "2007.0503"
     latest: true
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
-
-#*#
 
 Didigm distribution: 
   type: Distribution
@@ -402,6 +384,9 @@ Dieter distribution:
 Eightebed distribution: 
   type: Distribution
   distribution-of: Eightebed
+  bitbucket: catseye/eightebed
+  github: catseye/Eightebed
+  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "2011.0510"
@@ -415,16 +400,9 @@ Eightebed distribution:
 Emmental distribution: 
   type: Distribution
   distribution-of: Emmental
-  title: The Emmental Programming Language
-  summary: Interpeter and docs for the <b>Emmental</b> language
-  byline: Designed and implemented by Chris Pressey
-  esowiki: Emmental
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
-  - refl
+  bitbucket: catseye/emmental
+  github: catseye/Emmental
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -438,24 +416,13 @@ Emmental distribution:
     revision: "2007.1111"
     latest: false
     url: http://catseye.tc/distfiles/emmental-2007.1111.zip
-  references: 
-  - project: mascarpone
 
 Etcha distribution: 
   type: Distribution
   distribution-of: Etcha
-  title: The Etcha Programming Language
-  summary: Spec and Interpreter for the <b>Etcha</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    You can experiment with Etcha online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  esowiki: Etcha
-  keywords: 
-  - 2d
-  - eso
-  - java
-  - lang
-  - interact
+  bitbucket: catseye/etcha
+  github: catseye/Etcha
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.1004"
@@ -502,21 +469,9 @@ FBBI distribution:
 Flobnar distribution: 
   type: Distribution
   distribution-of: Flobnar
-  title: The Flobnar Programming Language
-  summary: Docs, tests, and interpreter for the <b>Flobnar</b> language
-  byline: Designed and implemented by Chris Pressey
-  develop: |-
-    Flobnar
-         <a class="external" href="https://bitbucket.org/catseye/flobnar/">development</a>
-         is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="http://github.com/catseye/Flobnar">mirror on github</a>.
-  esowiki: Flobnar
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
+  bitbucket: catseye/flobnar
+  github: catseye/Flobnar
+  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "2011.1214"
@@ -526,8 +481,6 @@ Flobnar distribution:
     revision: "2011.1028"
     latest: false
     url: http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip
-  references: 
-  - project: befunge93
 
 Funge-98 distribution: 
   type: Distribution
@@ -558,41 +511,21 @@ Funge-98 distribution:
 GraNoLa/M distribution: 
   type: Distribution
   distribution-of: GraNoLa/M
-  title: The GraNoLa/M Programming Language
-  summary: Interpreter and docs for <b>GraNoLa/M</b>
-  byline: Conceived and implemented by Chris Pressey
-  esowiki: GraNoLa/M
-  keywords: 
-  - erl
-  - eso
-  - lang
-  - pd
+  bitbucket: catseye/granola-m
+  github: catseye/GraNoLa-M
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0314"
     latest: true
     url: http://catseye.tc/distfiles/granolam-2002.0314.zip
-  references: 
-  - project: tamerlane
-  - project: kiceberg
 
 Hev distribution: 
   type: Distribution
-  title: The Hev Programming Language
-  summary: Docs and interpreter for the <b>Hev</b> language
-  byline: Designed and implemented by Chris Pressey
-  develop: |-
-    The Hev project is hosted in a
-         <a class="external" href="https://bitbucket.org/catseye/hev/">Mercurial repo on Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Hev">git mirror on githib</a>.
   distribution-of: Hev
-  esowiki: Hev
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
-  - rew
+  bitbucket: catseye/hev
+  github: catseye/Hev
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0617"
@@ -605,23 +538,10 @@ Hev distribution:
 
 Hunter distribution: 
   type: Distribution
-  title: The Hunter Programming Language
-  summary: Interpreter for the <b>Hunter</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    The Hunter implementation requires
-        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
-        to run.
-        However, an appropriate version of this library (v2007.1122) is included in the Hunter distribution
-        as of v1.0-2011.1031, so there's nothing special you need to do to make this happen.
   distribution-of: Hunter
-  esowiki: Hunter
-  keywords: 
-  - 2d
-  - bsdl
-  - eso
-  - lang
-  - perl
+  bitbucket: catseye/hunter
+  github: catseye/Hunter
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0126"
@@ -751,15 +671,10 @@ illgolpp:
 
 Iphigeneia distribution: 
   type: Distribution
-  title: The Iphigeneia Programming Language
-  summary: Docs and interpreter for <b>Iphigeneia</b>
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Iphigeneia
-  esowiki: None
-  keywords: 
-  - bsdl
-  - hs
-  - lang
+  bitbucket: catseye/iphigeneia
+  github: catseye/Iphigeneia
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1010"
@@ -773,6 +688,8 @@ Iphigeneia distribution:
     revision: "2007.1125"
     latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
+
+#***
 
 Jaccia and Jacciata distribution: 
   type: Distribution

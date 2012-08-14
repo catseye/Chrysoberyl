@@ -26,7 +26,7 @@ ALPACA:
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
   reference-distribution: ALPACA distribution
-  implementions:
+  implementations:
   - alpaca.pl
 
 alpaca.pl:
@@ -57,7 +57,7 @@ Apple Befunge:
   auspices:
   - Cat's Eye Technologies
   reference-distribution: Apple Befunge distribution
-  implementions:
+  implementations:
   - APPLE BEFUNGE EDITOR
 
 APPLE BEFUNGE EDITOR:
@@ -81,6 +81,8 @@ Arboretuum:
     however, this idea was not entirely successful.  Regardless, Arboretuum is
     Turing-complete, as tree-rewriting is simply a special case of forest-rewriting.
   computational-class: believed Turing-complete
+  paradigms:
+  - Forest-rewriting
   inception-date: Mar 2008
   authors:
   - Chris Pressey
@@ -112,12 +114,14 @@ Arboretuum:
   reference-distribution: Arboretuum distribution
   implementations:
   - forest-rewriter.scm
+  see-also:
+  - Treacle
 
 forest-rewriter.scm:
   type: Language Implementation
   in-distribution: Arboretuum distribution
   reference: true
-  license: Unknown license
+  license: BSD
   implementation-type: interpreter
   host-language: Scheme
 
@@ -162,6 +166,8 @@ Befunge-93:
   # also: known not Turing-complete
   computational-class: can simulate some push-down automata
   esowiki: Befunge-93
+  authors:
+  - Chris Pressey
   etymology:
   - typo
   influences:
@@ -196,6 +202,9 @@ Befunge-97:
     (fairly accurately) as "brain-damaged."  This was primarily due to the
     fact that separate processes were specified as sharing a single stack.
     Quickly gave way to [[Funge-98]].
+  authors:
+  - Chris Pressey
+  - Befunge Mailing List Working Group
   inception-date: Dec 25, 1997
   etymology:
   - typo
@@ -203,6 +212,7 @@ Befunge-97:
   influences:
   - Befunge-93
   has-reference-distribution: false
+  implementations: []
 
 
 beta-Juliet:
@@ -358,6 +368,8 @@ Braktif:
   - french
   influences:
   - brainfuck
+  paradigms:
+  - Cellular automaton
   dimensionality: 2
   sample: |2
                                 *
@@ -475,10 +487,14 @@ Circute:
   abstract: |
     Circute is a cellular automaton that simulates conduits that
     carry digital signals and NAND gates that manipulate those signals.
+  esowiki: Circute
+  paradigms:
+  - Cellular automaton
   etymology:
   - portmanteau
   influences:
   - Wireworld
+  dimensionality: 2
   computational-class: known not Turing-complete
   authors:
   - Chris Pressey
@@ -498,6 +514,16 @@ Circute:
   reference-distribution: Circute distribution
   implementations:
   - circute.alp
+  - tc.catseye.yoob.circute
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
+
+tc.catseye.yoob.circute:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
 
 circute.alp:
   type: Language Implementation
@@ -661,6 +687,9 @@ Emmental:
     provides an operation that redefines operations of the meta-circular interpreter.
     In fact, this mechanism is required for Emmental to be Turing-complete.
   computational-class: believed Turing-complete
+  esowiki: Emmental
+  paradigms:
+  - Meta-circular
   authors:
   - Chris Pressey
   auspices:
@@ -674,6 +703,8 @@ Emmental:
   reference-distribution: Emmental distribution
   implementations:
   - emmental.hs
+  see-also:
+  - Mascarpone
 
 emmental.hs:
   type: Language Implementation
@@ -700,6 +731,7 @@ Etcha:
   auspices:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
+  esowiki: Etcha
   influences:
   - BitChanger
   sample: |-
@@ -713,6 +745,8 @@ Etcha:
   implementations:
   - tc.catseye.etcha
   - tc.catseye.yoob.etcha
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 tc.catseye.etcha:
   type: Language Implementation
@@ -773,6 +807,7 @@ Flobnar:
   auspices:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
+  esowiki: Flobnar
   influences:
   - Befunge-93
   sample: |-
@@ -833,7 +868,8 @@ Full Moon Fever:
   inception-date: ca 1993
   computational-class: known not Turing-complete
   has-reference-distribution: false
-  implemented: true
+  # well, there's one in illgola-2, so this is factually wrong:
+  implementations: []
 
 
 Funge-98:
@@ -842,7 +878,8 @@ Funge-98:
   abstract: |
     Culmination of attempts to improve upon Befunge.  Seemingly everything
     except the kitchen sink was stuffed into it somehow.
-  with:
+  authors:
+  - Chris Pressey
   - Befunge Mailing List Working Group
   inception-date: 1998
   computational-class: shown Turing-complete
@@ -944,6 +981,7 @@ GraNoLa/M:
   - Cat's Eye Technologies
   entered-in:
   - Esoteric Awards
+  esowiki: GraNoLa/M
   inception-date: Jul 2002
   etymology:
   - acronym
@@ -954,12 +992,14 @@ GraNoLa/M:
   reference-distribution: GraNoLa/M distribution
   implementations:
   - granolam.erl
+  see-also:
+  - Kangaroo Iceberg
 
 granolam.erl:
   type: Language Implementation
   in-distribution: GraNoLa/M distribution
   reference: true
-  license: Unknown license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Erlang
 
@@ -974,16 +1014,21 @@ Hev:
     has a way! In Hev, *all* operators are infix, yet no tiresome memorization
     of any dreadful precedence table is required!
   computational-class: believed Turing-complete
+  paradigms:
+  - Tree-rewriting
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  esowiki: Hev
   inception-date: May 23, 2007
   etymology:
   - neologism
   sample: |
     71+8*27,19,29*99,6,37,7,61,47
   reference-distribution: Hev distribution
+  implementations:
+  - Hev.hs
 
 Hev.hs:
   type: Language Implementation
@@ -1008,11 +1053,17 @@ Hunter:
     > compared to the usefulness of the program, resulting in an
     > acute loss of enthusiasm on the part of the programmers and
     > ultimately the abandonment of the software...
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca Sep 20, 2000
+  esowiki: Hunter
   entered-in:
   - Esoteric Awards
   etymology:
   - masculine given name
+  dimensionality: 2
   sample: |
     ##################
     #   1#2#         #
@@ -1044,6 +1095,10 @@ ILLGOL:
   abstract: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: ca Jun 2000
   etymology:
   - parody
@@ -1075,6 +1130,10 @@ Illgola-2:
   abstract: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: ca Jun 2000
   etymology:
@@ -1088,6 +1147,10 @@ Illberon:
   abstract: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: ca Jun 2000
   etymology:
@@ -1101,6 +1164,10 @@ Open Sores Illgol##:
   abstract: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: ca Jun 2000
   etymology:
@@ -1118,6 +1185,10 @@ Iphigeneia:
     loops,) and functional programming (immutable name bindings, Scheme-style
     "named `let`" loops.) It was originally intended as a testbed for algorithms
     that convert programs between the two forms.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Nov 20, 2007
   etymology:
   - classical greek
@@ -1154,6 +1225,10 @@ Jaccia and Jacciata:
     of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
     upon this to find the shortest path through a maze, if one exists and is unique.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Apr 11, 2009
   etymology:
   - neologism
@@ -1215,6 +1290,10 @@ Kangaroo Iceberg:
     
     Now, the challenge will be reconstructing the language from the partial
     implementation and notes that I left behind...
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   failure: true
   influences:
   - Tamerlane
@@ -1244,6 +1323,10 @@ Kelxquoia:
     facility, grid-rewriting, which can be used to restore instructions that
     were previously erased after execution.  (Information on this language is
     only available on the esowiki for now.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Dec 23, 2010
   computational-class: believed Turing-complete
   esowiki: Kelxquoia
@@ -1259,6 +1342,7 @@ Kelxquoia:
     
      00 00 00 00
   has-reference-distribution: false
+  implementations: []
 
 
 Larabee:
@@ -1268,6 +1352,10 @@ Larabee:
     Larabee is an assembly-like programming language, with Scheme-like
     syntax, that borrows the notion of branch prediction from computer architecture
     and abuses it, creating a path that leads only to existential angst and self-destruction.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Jan 10, 2008
   etymology:
   - surname
@@ -1306,6 +1394,10 @@ Madison:
     has a well-founded inductive definition.  Such structures can be thought
     of as types, although this is largely nominal; the traditional typelessness
     of term-rewiting systems is largely retained.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
   sample: |
@@ -1331,6 +1423,7 @@ Madison:
         -> branch(S,T)                                     [by IH]
     qed
   reference-distribution: Madison distribution
+  implementations: []
 
 
 Maentwrog:
@@ -1369,8 +1462,6 @@ Maentwrog:
         LF PRINT " " LF LF PRINT "0" PAUSE 5;
   authors:
   - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
   inception-date: ca 1993
   computational-class: known not Turing-complete
   implementations:
@@ -1394,6 +1485,10 @@ Mascarpone:
     interpreter which defines it, like its predecessor Emmental.  Unlike Emmental
     however, in Mascarpone interpreters are first-class objects, making the
     job of reflective interpreter-modification quite a bit cleaner and richer.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Dec 10, 2007
   computational-class: believed Turing-complete
   etymology:
@@ -1428,6 +1523,10 @@ MDPN:
   abstract: |
     MDPN is a meta-language for describing multi-directional and
     multi-dimensional languages.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 1999
   etymology:
   - acronym
@@ -1435,6 +1534,7 @@ MDPN:
       Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
   reference-distribution: MDPN distribution
+  implementations: []
 
 
 "'N-DCNC":
@@ -1444,6 +1544,10 @@ MDPN:
     'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')
     It is based on a conspiracy theory involving
     UFOs and a 5-member boy band, or something.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   entered-in:
   - Esoteric Awards 2000
   inception-date: Oct 2000
@@ -1479,6 +1583,10 @@ Nhohnhehr:
     it wraps around or creates a new room and adjoins it to that edge, depends
     on the current _edge mode_ of the program.  New copies of rooms may be rotated
     before being adjoined to existing rooms, but rooms are otherwise immutable.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: can simulate some push-down automata
   esowiki: Nhohnhehr
   dimensionality: 2
@@ -1520,6 +1628,10 @@ nhohnhehr.py:
     it's so lossy that it has more value as just a neat toy to watch.
     
     (The name of this language contains a *secret message*! Can *you* find it?)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Sep 15, 2000
   etymology:
   - neologism
@@ -1567,6 +1679,8 @@ Okapi:
     thrown — they must be divide-by-zero exceptions, and they must be caught
     in a lexically enclosing block.  Nor is there any facility to "retry" after
     an exception is caught. The language is nonetheless Turing-complete.
+  authors:
+  - Chris Pressey
   inception-date: May 23, 2010
   computational-class: shown Turing-complete
   has-reference-distribution: false
@@ -1592,6 +1706,10 @@ Oozlybub and Murphy:
     de-sign", the language combines several unusual features, including multiple
     interleaved parse streams, infinitely long variable names, gratuitously strong
     typing, and only-conjectural Turing completeness.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Dec 2010
   sample: |
     VARIABLES ARE p /p*/, p /q*/.
@@ -1613,6 +1731,10 @@ Opus-2:
     Opus-2 is not a programming language, but rather, an abstract artlang
     (i.e., a conlang designed independently from any conception of society.)
     The sole design principle was to entirely eliminate word order.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Jul 2001
   sample: |
     + pale green
@@ -1635,6 +1757,10 @@ Pail:
     while turning several concepts on their heads: use pairs instead of lists,
     quote by default instead of eval by default, and allow not just values but also
     names of bindings to be expressed.   "
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: May 25, 2011
   influences:
@@ -1670,6 +1796,10 @@ Pixley:
     written in 124 lines of Pixley (or, if you prefer, 124 lines of Scheme;
     and if you prefer more Scheme-ly metrics, it consists of 413 instances of
     54 unique symbols in 684 cons cells.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   subset-of: Scheme
   bootstrapped: true
@@ -1699,6 +1829,10 @@ Quylthulg:
     Quylthulg is a programming language with but a single control-flow
     construct: `foreach`.  In fact, it does also have a `goto`, but that can
     only appear inside data structures.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   esowiki: Quylthulg
   computational-class: believed Turing-complete
   inception-date: Dec 6, 2008
@@ -1727,6 +1861,10 @@ REDGREEN:
   abstract: |
     REDGREEN is a cellular automaton that simulates a little
     "physical world", much like [[RUBE]].
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: shown Turing-complete
   etymology:
   - television program
@@ -1773,6 +1911,10 @@ RUBE:
     perform computations.  It is based on a variant of a cellular automaton called
     a *bully automaton*, where certain state changes canforce other state changes
     to occur elsewhere in the playfield.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   basis-for-game: true
   inception-date: ca Jul 10, 2007
   etymology:
@@ -1807,6 +1949,10 @@ Sally:
   abstract: |
     Sally is a cute but naive little functional language with a minimal syntax,
     a strict type system, and some unusual rules for parameters and return values.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   tagline: |-
     upside-down FORTH
   inception-date: 2000
@@ -1837,6 +1983,10 @@ Sbeezg:
   abstract: |
     Sbeezg is a syntactically very simple language that attempts to
     take the single-assignment concept to a logical extreme.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2002
   etymology:
   - neologism
@@ -1871,6 +2021,10 @@ Shelta:
     written in Shelta, which was compiled with the original compiler, and then
     compiled again with the resulting compiler, producing a wholly self-hosted
     executable!
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   with:
   - Ben Olmstead
   inception-date: ca Jul 1999
@@ -2015,6 +2169,10 @@ Squishy2K:
     original SQUISHY was conceived sometime around 1998, but is now lost.  Because
     it was based largely on EBNF, the author wanted to name it Wirth, but the
     name SQUISHY was proposed and (somewhat unfortunately) stuck.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Sep 2000
   sample: |
@@ -2042,6 +2200,10 @@ Strelnokoff:
     has never yet been implemented.  The name "Strelnokoff" was taken from
     a fictional brand of vodka featured in a mock advertisement on the television
     show [[SCTV]].
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   etymology:
   - surname
@@ -2067,6 +2229,8 @@ Strelnokoff:
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   inception-date: Apr 2001
   reference-distribution: Strelnokoff distribution
+  implementations:
+  - strelnokoff.pl
 
 strelnokoff.pl:
   type: Language Implementation
@@ -2085,6 +2249,10 @@ Tamerlane:
     and possibly unimplementable. One of its core execution mechanisms is the
     traversing of a graph (representing the program) while rewriting that same
     graph.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Aug 2000
   etymology:
   - masculine given name
@@ -2094,6 +2262,7 @@ Tamerlane:
     Point-C: 1 Point-A.
     ?- 1 Point-A -> 0 Point-A @ Point-A
   reference-distribution: Tamerlane distribution
+  implementations: []
 
 
 Treacle:
@@ -2105,6 +2274,10 @@ Treacle:
     the forest-rewriting used by its predecessor [[Arboretuum]].  In context rewriting,
     a separation is made between _names_ and _variables_, and patterns may contain
     _holes_ inside which subpatterns may match at any depth.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Apr 12, 2008
   etymology:
@@ -2143,6 +2316,10 @@ Unlikely:
     objects with commensurate inheritance relationships.  It also takes dependency
     injection to the logical extreme: if some class is used by an object, that
     class *must* be specified when the object is instantiated.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Mar 15, 2009
   sample: |-
@@ -2192,6 +2369,10 @@ Velo:
     delimit string literals, and there is no difference between a string literal
     and a block of code given to, say, an `if` statement.  Any given script is
     an object, which inherits from the root object in delegation-OO style.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: July 14, 2012
   influences:
@@ -2201,6 +2382,8 @@ Velo:
     no = {IO.print {No}}
     if ({X}.equals {Y}), yes, no
   reference-distribution: Velo distribution
+  implementations:
+  - velo.rb
 
 velo.rb:
   type: Language Implementation
@@ -2240,6 +2423,10 @@ Version:
     E: ROOM = "VALLEY|HILL|BROOK"
     W: ROOM = "VALLEY|HILL|GLADE"
     LASTLY: IGNORE = "START"
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   reference-distribution: Version distribution
   implementations:
   - version.pl
@@ -2259,6 +2446,10 @@ Whothm:
   abstract: |
     Whothm is a simple language for describing infinite two-colour
     bitmapped drawings.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Jun 28, 2010
   computational-class: known not Turing-complete
   sample: |
@@ -2359,6 +2550,10 @@ Wunnel:
     of identical instructions (often nops) used in Wunnel programs to sync up
     remote parts of the program.  (Information on this language is only available
     on the esowiki for now.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Feb 13, 2011
   influences:
@@ -2408,9 +2603,14 @@ Xigxag:
   # hmm... well, no.  but for now, yes.
   type: Programming Language
   genre: Esolang
-  abstract: " Xigxag is a simple string-copying automaton that has exponential\
-    \ growth almost everywhere (i.e. there are only a finite number of initial\
-    \ configurations that don't blow up.)   "
+  abstract: |
+    Xigxag is a simple string-copying automaton that has exponential
+    growth almost everywhere (i.e. there are only a finite number of initial
+    configurations that don't blow up.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   # started 2001
   inception-date: Apr 23, 2007
   sample: |
@@ -2450,6 +2650,10 @@ Xoomonk:
     the format of [[Falderal]] tests, which were written while the language was
     being designed and could be used to compare an implementation (when one is
     written) against the spec.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Aug 7, 2011
   sample: |
@@ -2477,6 +2681,10 @@ You are Reading the Name of this Esolang:
     is only recursively enumerable: the problem of determining whether or not
     a given string of symbols is a well-formed You are Reading the Name of this
     Esolang program is undecidable.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Nov 2007
   computational-class: shown Turing-complete
   unusual-computability-properties: true
@@ -2485,6 +2693,7 @@ You are Reading the Name of this Esolang:
   sample: |
     001000000[0010000000111001000011]11100100001[0]
   reference-distribution: You are Reading the Name of this Esolang distribution
+  implementations: []
 
 
 Ypsilax:
@@ -2495,6 +2704,10 @@ Ypsilax:
     language.  Rewriting rules look for patterns in the grid and replace them
     with other patterns.  These rules are themselves represented by patterns
     in the grid, and therefore rules can match and rewrite other rules.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Aug 2001
   etymology:
@@ -2540,6 +2753,10 @@ ZOWIE:
     the sense of structured programming — the programmer never deals with
     `goto`s, or offsets or labels of any kind.  Instead, the program writes to
     a memory location to mark the beginning or end of a loop or conditional.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Dec 29, 2009
   computational-class: shown Turing-complete
   influences:
