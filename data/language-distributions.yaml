@@ -27,33 +27,13 @@ ALPACA distribution:
     latest: false
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
 
-# XXX is this a language or not?
-Apple Befunge: 
+Apple Befunge distribution: 
   type: Distribution
   distribution-of: Apple Befunge
-  title: Apple Befunge
-  summary: Editor and interpreter and docs for <b>Apple Befunge</b>
-  byline: Conceived and implemented by Chris Pressey
-  abstract: |-
-    <p>Apple Befunge is a variant of Befunge for the Apple ][+, implemented
-        in Applesoft BASIC.
-        Resembles Befunge-93, with some extra 96-esque instructions, and some
-        Apple-specific instructions.  Active development of this language
-        was abandoned years ago, but the sources are retained here for historical preservation.</p>
-  develop: |-
-    Although Apple Befunge is no longer being actively developed, its sources are stored in a 
-         <a class="external" href="https://bitbucket.org/catseye/apple-befunge/">Mercurial repository</a> hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a> that you can clone.
-  esowiki: None
-  keywords: 
-  - 2d
-  - apple
-  - basic
-  - bef
-  - eso
-  - lang
-  - pd
-  - vintage
+  development-stage: archival
+  github: catseye/Apple-Befunge
+  bitbucket: catseye/apple-befunge
+  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "2012.0220"
@@ -225,16 +205,10 @@ beta-Juliet distribution:
 Beturing distribution: 
   type: Distribution
   distribution-of: Beturing
-  title: The Beturing Programming Language
-  summary: Interpreter for the <b>Beturing</b> machine
-  byline: Conceived and implemented by Chris Pressey
-  esowiki: Beturing
-  keywords: 
-  - 2d
-  - bsdl
-  - eso
-  - lang
-  - lua
+  github: catseye/Beturing
+  bitbucket: catseye/beturing
+  issue-tracker: github
+  development-stage: dormant
   releases: 
   - version: "1.1"
     revision: "2011.1214"
@@ -252,13 +226,10 @@ Beturing distribution:
 Bhuna distribution: 
   type: Distribution
   distribution-of: Bhuna
-  title: The Bhuna Programming Language
-  summary: Interpreter and docs for the <b>Bhuna</b> language
-  byline: Conceived and implemented by Chris Pressey
-  esowiki: None
-  keywords: 
-  - c
-  - lang
+  github: catseye/Bhuna
+  bitbucket: catseye/bhuna
+  issue-tracker: github
+  development-stage: archival
   releases: 
   - version: "0.1"
     revision: "2005.0721"
@@ -300,23 +271,15 @@ Bhuna distribution:
 Braktif distribution: 
   type: Distribution
   distribution-of: Braktif
-  title: The Braktif Cellular Automaton
-  summary: The <b>Braktif</b> cellular automaton
-  byline: Formulated by Chris Pressey
-  esowiki: Braktif
-  keywords: 
-  - 2d
-  - bsdl
-  - ca
-  - eso
-  - lang
+  github: catseye/Braktif
+  bitbucket: catseye/braktif
+  issue-tracker: github
+  development-stage: dormant
   releases: 
   - version: "1.0"
     revision: "2007.0503"
     latest: true
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
-  references: 
-  - project: pibfi
 
 Burro distribution: 
   type: Distribution

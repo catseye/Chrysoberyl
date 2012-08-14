@@ -82,6 +82,11 @@ Commodore BASIC 2.0:
   genre: Production language
   computational-class: believed Turing-complete
   has-reference-distribution: false
+Applesoft BASIC:
+  type: Programming Language
+  genre: Production language
+  computational-class: believed Turing-complete
+  has-reference-distribution: false
 
 # for targets of compilers:
 x86 machine code:

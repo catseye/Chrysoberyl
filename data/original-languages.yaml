@@ -12,6 +12,11 @@ ALPACA:
     ALPACA is one of the few of my languages in which I've actually implemented
     other languages (or, well, cellular automata — close enough).  These are, namely,
     [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia and Jacciata]].
+  esowiki: ALPACA
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 1998
   etymology:
   - acronym
@@ -35,6 +40,36 @@ alpaca.pl:
   target-language: Perl
 
 
+Apple Befunge: 
+  type: Programming Language
+  genre: Esolang
+  variant-of: Befunge-93
+  abstract: |-
+    Apple Befunge is a variant of Befunge for the Apple ][+, implemented
+    in Applesoft BASIC.
+    Resembles Befunge-93, with some extra 96-esque instructions, and some
+    Apple-specific instructions.  Active development of this language
+    was abandoned years ago, but the sources are retained here for historical
+    preservation.
+  inception-date: Jul 3, 2000
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  reference-distribution: Apple Befunge distribution
+  implementions:
+  - APPLE BEFUNGE EDITOR
+
+APPLE BEFUNGE EDITOR:
+  type: Language Implementation
+  reference: true
+  in-distribution: Apple Befunge distribution
+  license: Public Domain
+  # also: editor
+  implementation-type: interpreter
+  host-language: Applesoft BASIC
+
+
 Arboretuum:
   type: Programming Language
   genre: Experimental language
@@ -47,6 +82,10 @@ Arboretuum:
     Turing-complete, as tree-rewriting is simply a special case of forest-rewriting.
   computational-class: believed Turing-complete
   inception-date: Mar 2008
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   etymology:
   - latin
   - portmanteau
@@ -93,6 +132,11 @@ Bear Food:
     This same example code also took a very divergent line of evolution, eventually
     becoming the programming language [[Var'aq]].
   tagline: liquid insanity from Hell
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  esowiki: Bear_Food
   inception-date: ca Dec 1999
   failure: true
   has-reference-distribution: false
@@ -117,6 +161,7 @@ Befunge-93:
     many others.  Cited in the New Hacker's Dictionary.
   # also: known not Turing-complete
   computational-class: can simulate some push-down automata
+  esowiki: Befunge-93
   etymology:
   - typo
   influences:
@@ -218,7 +263,13 @@ Beturing:
     that there are universal Turing machines with finite controls that are planar
     graphs, so Beturing is Turing-complete.
   inception-date: Oct 20, 2005
+  esowiki: Beturing
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: shown Turing-complete
+  dimensionality: 2
   etymology:
   - portmanteau
   sample: |
@@ -260,6 +311,10 @@ Bhuna:
     of Lua's interpreter.  It was meant more more as an experimental starting
     point for branching new languages, than as a useful language in and of itself.
   computational-class: believed Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Oct 21, 2005
   etymology:
   - indian
@@ -292,12 +347,18 @@ Braktif:
     Braktif is a cellular automaton modelled closely after the [[brainfuck]]
     programming language.
   computational-class: believed Turing-complete
+  esowiki: Braktif
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   etymology:
   - television character
   - portmanteau
   - french
   influences:
   - brainfuck
+  dimensionality: 2
   sample: |2
                                 *
                            <<*[--]*
@@ -307,6 +368,8 @@ Braktif:
   reference-distribution: Braktif distribution
   implementations:
   - braktif.alp
+  see-also:
+  - pibfi
 
 braktif.alp:
   type: Language Implementation
@@ -334,6 +397,10 @@ Burro:
   # started thinking about it 2005, finally achieved 2010
   inception-date: 2007
   computational-class: shown Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   etymology:
   - spanish
   - farm animal
@@ -371,6 +438,10 @@ Cabra:
     execution (as the additive operator) and sequential composition (as the multiplicative
     operator).
   inception-date: Oct 30, 2007
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   etymology:
   - spanish
   - farm animal
@@ -409,6 +480,10 @@ Circute:
   influences:
   - Wireworld
   computational-class: known not Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   sample: |2
                       =
                       =
@@ -443,6 +518,10 @@ Didigm:
     those transition rules.
   tagline: |-
     Didigm = ALPACA + Ypsilax
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   esowiki: Didigm
   dimensionality: 2
   inception-date: Nov 20, 2007
@@ -582,6 +661,10 @@ Emmental:
     provides an operation that redefines operations of the meta-circular interpreter.
     In fact, this mechanism is required for Emmental to be Turing-complete.
   computational-class: believed Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Nov 11, 2007
   etymology:
   - dairy product
@@ -612,6 +695,10 @@ Etcha:
     however, the turtle in Etcha is an integral part of the computation, playing
     a role similar to the tape head of a Turing machine.
   inception-date: Oct 4, 2009
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   influences:
   - BitChanger
@@ -646,6 +733,10 @@ tc.catseye.yoob.etcha:
 ETHEL:
   type: Programming Language
   genre: DSL
+  authors:
+  - Chris Pressey
+  auspices:
+  - Star Building Materials
   abstract: |
     A language specifically for expressing quantity surveying (materials
     estimating) formula and procedures, designed for Star Building Materials.
@@ -677,6 +768,10 @@ Flobnar:
     of Befunge-93; most of the symbols have analogous meanings, but execution
     proceeds in a much more dataflow-like fashion.
   inception-date: Oct 28, 2011
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   influences:
   - Befunge-93
@@ -792,6 +887,10 @@ Gemooy:
     the same as those of [[BitChanger]].  (Information on this language is
     only available on the esowiki for now.)
   inception-date: Dec 2, 2010
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   computational-class: believed Turing-complete
   implementations:
   - tc.catseye.yoob.gemooy
@@ -839,6 +938,10 @@ GraNoLa/M:
     It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,
     its execution model involves both traversing and rewriting a graph at the
     same time.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   entered-in:
   - Esoteric Awards
   inception-date: Jul 2002
@@ -871,6 +974,10 @@ Hev:
     has a way! In Hev, *all* operators are infix, yet no tiresome memorization
     of any dreadful precedence table is required!
   computational-class: believed Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: May 23, 2007
   etymology:
   - neologism
