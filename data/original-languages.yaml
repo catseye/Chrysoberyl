@@ -1367,6 +1367,8 @@ Nhohnhehr:
     on the current _edge mode_ of the program.  New copies of rooms may be rotated
     before being adjoined to existing rooms, but rooms are otherwise immutable.
   computational-class: can simulate some push-down automata
+  esowiki: Nhohnhehr
+  dimensionality: 2
   inception-date: Dec 8, 2010
   sample: |
     +------+

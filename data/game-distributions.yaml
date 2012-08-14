@@ -13,9 +13,9 @@
 'Bubble Escape distribution': 
   type: Distribution
   distribution-of: Bubble Escape
-  bitbucket: 'https://bitbucket.org/catseye/bubble-escape/'
-  github: 'https://github.com/catseye/Bubble-Escape.git'
-  issue-tracker: 'https://github.com/catseye/Bubble-Escape/issues'
+  bitbucket: catseye/bubble-escape
+  github: catseye/Bubble-Escape
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0520"
@@ -41,8 +41,9 @@
 'Flip distribution': 
   type: Distribution
   distribution-of: Flip
-  bitbucket: 'https://bitbucket.org/catseye/flip/'
-  github: 'https://github.com/catseye/Flip.git'
+  bitbucket: catseye/flip
+  github: catseye/Flip
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0731"
@@ -55,8 +56,9 @@
 'Super Wumpus Land distribution': 
   type: Distribution
   distribution-of: Super Wumpus Land
-  bitbucket: 'https://bitbucket.org/catseye/super-wumpus-land/'
-  github: 'https://github.com/catseye/Super-Wumpus-Land.git'
+  bitbucket: catseye/super-wumpus-land
+  github: catseye/Super-Wumpus-Land
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -69,8 +71,9 @@
 'Zzrk distribution': 
   type: Distribution
   distribution-of: Zzrk
-  bitbucket: 'https://bitbucket.org/catseye/zzrk/'
-  github: 'https://github.com/catseye/zzrk.git'
+  bitbucket: catseye/zzrk
+  github: catseye/Zzrk
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0616"

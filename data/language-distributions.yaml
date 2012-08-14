@@ -984,6 +984,9 @@ MDPN distribution:
 Muriel distribution: 
   type: Distribution
   distribution-of: Muriel
+  bitbucket: catseye/muriel
+  github: catseye/Muriel
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0323"
@@ -1010,17 +1013,10 @@ Muriel distribution:
 
 Nhohnhehr distribution: 
   type: Distribution
-  title: The Nhohnhehr Programming Language
-  summary: Docs and Interpreter for the <b>Nhohnhehr</b> language
-  byline: Designed by Chris Pressey; implemented by Marinus
   distribution-of: Nhohnhehr
-  esowiki: Nhohnhehr
-  keywords: 
-  - 2d
-  - eso
-  - lang
-  - pd
-  - py
+  bitbucket: catseye/nhohnhehr
+  github: catseye/Nhohnhehr
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.0510"
@@ -1066,21 +1062,10 @@ Opus-2 distribution:
 
 Pail distribution: 
   type: Distribution
-  title: The Pail Programming Language
-  summary: Interpreter and test suite for the <b>Pail</b> language
-  byline: Designed and implemented by Chris Pressey
-  develop: |-
-    Pail
-         <a class="external" href="https://bitbucket.org/catseye/pail/">development</a> is hosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/Pail">git mirror on githib</a>.
   distribution-of: Pail
-  esowiki: None
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
+  bitbucket: catseye/pail
+  github: catseye/Pail
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1094,8 +1079,6 @@ Pail distribution:
     revision: "2011.0527"
     latest: false
     url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
-  references: 
-  - project: pixley
 
 pibfi distribution: 
   type: Distribution
@@ -1146,6 +1129,9 @@ Pixley distribution:
 PL-{GOTO}.NET distribution: 
   type: Distribution
   distribution-of: PL-{GOTO}
+  bitbucket: catseye/pl-goto-.net
+  github: catseye/PL-GOTO.NET
+  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "2012.0619"
@@ -1452,28 +1438,9 @@ Tamerlane distribution:
 Thue distribution: 
   type: Distribution
   distribution-of: Thue
-  title: The Thue Programming Language
-  summary: Interpreter for the <b>Thue</b> language
-  byline: Conceived by John Colagioia; implementations by John Colagioia and
-    Frédéric van der Plancke
-  abstract: |-
-    <p>The Thue programming language was invented by
-    John Colagioia in early 2000.  It is named after the computational
-    regimen it is based on — a pure string-rewriting process called a
-    <dfn>semi-Thue grammar</dfn>, which is named for (and possibly created
-    by) the Norwegian mathematician Axel Thue (pronounced &quot;TOO-ay&quot;).</p>
-        <p>Thue represents one of the simplest possible ways
-    to construe constraint-based programming.  It is to the constraint-based
-    paradigm what languages like OISC are to the imperative paradigm;
-    in other words, it's a tar pit.</p>
-  distribution-of: Thue
-  esowiki: Thue
-  keywords: 
-  - c
-  - eso
-  - lang
-  - py
-  - rew
+  bitbucket: catseye/thue
+  github: catseye/Thue
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0301"

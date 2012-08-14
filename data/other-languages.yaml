@@ -111,6 +111,25 @@ Thue:
   computational-class: believed Turing-complete
   esowiki: Thue
   has-reference-distribution: false
+  author: John Colagioia
+  paradigms:
+  - String-rewriting
+  abstract: |
+    The Thue programming language was invented by
+    John Colagioia in early 2000.  It is named after the computational
+    regimen it is based on — a pure string-rewriting process called a
+    _semi-Thue grammar_, which is named for (and possibly created
+    by) the Norwegian mathematician Axel Thue (pronounced "TOO-ay").
+    
+    Thue represents one of the simplest possible ways
+    to construe constraint-based programming.  It is to the constraint-based
+    paradigm what languages like OISC are to the imperative paradigm;
+    in other words, it's a tar pit.
+
+#  byline: Conceived by John Colagioia; implementations by John Colagioia and
+#    Frédéric van der Plancke
+# implementations in C and Python
+
 reMorse:
   type: Programming Language
   genre: Esolang

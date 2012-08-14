@@ -2,7 +2,7 @@
 'Console::Virtual distribution': 
   type: Distribution
   distribution-of: 'Console::Virtual'
-  bitbucket: 'https://bitbucket.org/catseye/console-virtual/'
+  bitbucket: catseye/console-virtual
   issue-tracker: 'https://bitbucket.org/catseye/console-virtual/issues'
   project-page: 'http://catseye.tc/projects/console-virtual/'
   releases: 
@@ -18,9 +18,9 @@
 'crone distribution': 
   type: Distribution
   distribution-of: crone
-  bitbucket: 'https://bitbucket.org/catseye/crone/'
-  github: 'https://github.com/catseye/crone.git'
-  issue-tracker: 'https://github.com/catseye/crone/issues'
+  bitbucket: catseye/crone
+  github: catseye/crone
+  issue-tracker: github
   project-page: 'http://catseye.tc/projects/crone/'
   releases: 
   - version: "1.0"
@@ -31,8 +31,8 @@
 'Falderal distribution': 
   type: Distribution
   distribution-of: Falderal
-  bitbucket: 'https://bitbucket.org/catseye/falderal/'
-  github: 'https://github.com/catseye/Falderal.git'
+  bitbucket: catseye/falderal
+  github: catseye/Falderal
   issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
   project-page: 'http://catseye.tc/projects/falderal/'
   releases: 
@@ -84,8 +84,8 @@
 'yoob distribution': 
   type: Distribution
   distribution-of: yoob
-  bitbucket: 'https://bitbucket.org/catseye/yoob/'
-  github: 'https://github.com/catseye/yoob.git'
+  bitbucket: catseye/yoob
+  github: catseye/yoob
   issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
   project-page: 'http://catseye.tc/projects/yoob/'
   releases: 
@@ -101,9 +101,9 @@
 'yucca distribution': 
   type: Distribution
   distribution-of: yucca
-  bitbucket: 'https://bitbucket.org/catseye/yucca/'
-  github: 'https://github.com/catseye/yucca.git'
-  issue-tracker: 'https://github.com/catseye/yucca/issues'
+  bitbucket: catseye/yucca
+  github: catseye/yucca
+  issue-tracker: github
   project-page: 'http://catseye.tc/projects/yucca/'
   releases: 
   - version: "1.0"
