@@ -317,6 +317,87 @@ braktif.alp:
   host-language: ALPACA
 
 
+Burro:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Burro is a [[brainfuck]]-like programming language whose programs
+    form an algebraical _group_ (modulo the equivalence relation of "computes the
+    same function") under the operation of concatenation. The upshot of this
+    is that, for every Burro program, we can find an _antiprogram_ which, when
+    appended to the program, forms a "no-op" program which has no effect.
+     This is a form of reversible computing, but unlike most reversible languages
+    where it is the execution of the program that is "undone", in Burro, it is
+    the program itself which is annihiliated by its antiprogram.  Burro 1.0
+    was released in fall of 2007, but proved not to form a proper group. This
+    shortcoming was rectified in summer of 2010.
+  # started thinking about it 2005, finally achieved 2010
+  inception-date: 2007
+  computational-class: shown Turing-complete
+  etymology:
+  - spanish
+  - farm animal
+  influences:
+  - brainfuck
+  sample: |
+    !--(--(--(!>/
+      >>--(+<<+++++++>/+++>+++++>)<
+    >)/
+      >>--(+++>+++++>/+++<<<<<+++>)<
+    >)/
+      >>--(+++>+>/+<<+++>)<
+    >)<
+  significant: true
+  reference-distribution: Burro distribution
+  implementations:
+  - Burro.lhs
+
+Burro.lhs:
+  type: Language Implementation
+  in-distribution: Burro distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
+
+
+Cabra:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Cabra is a (somewhat) formal programming language whose programs
+    form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence
+    relation of "computes the same function", under the operations of parallel
+    execution (as the additive operator) and sequential composition (as the multiplicative
+    operator).
+  inception-date: Oct 30, 2007
+  etymology:
+  - spanish
+  - farm animal
+  influences:
+  - Burro
+  computational-class: known not Turing-complete
+  "name": |-
+    Cabra
+  "project": |-
+    cabra
+  sample: |
+    (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
+  reference-distribution: Cabra distribution
+  implementations:
+  - cabra.hs
+
+cabra.hs:
+  type: Language Implementation
+  in-distribution: Cabra distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
+  commentary: |-
+    No parser.
+
+
 Circute:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
@@ -775,6 +856,32 @@ granolam.erl:
   license: Unknown license
   implementation-type: interpreter
   host-language: Erlang
+
+
+Hev:
+  type: Programming Language
+  genre: Esolang
+  abstract: |-
+    Hev is a programming language that attempts to solve the "central
+    problem of infix notation": how do you allow it without requiring the programmer
+    to either memorize precedence tables or litter parentheses everywhere?  Hev
+    has a way! In Hev, *all* operators are infix, yet no tiresome memorization
+    of any dreadful precedence table is required!
+  computational-class: believed Turing-complete
+  inception-date: May 23, 2007
+  etymology:
+  - neologism
+  sample: |
+    71+8*27,19,29*99,6,37,7,61,47
+  reference-distribution: Hev distribution
+
+Hev.hs:
+  type: Language Implementation
+  in-distribution: Hev distribution
+  reference: true
+  license: BSD
+  implementation-type: interpreter
+  host-language: Haskell
 
 
 Hunter:
@@ -1942,6 +2049,94 @@ wierd-milo.c:
   host-language: ANSI C
 
 
+Wunnel: 
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    Wunnel is a two-dimensional language which draws from the [[1L]]
+    family of languages and incorporates features from [[reMorse]]. The name
+    is both a play on the pronunciation of "1L", and a recursive portmanteau
+    of the words _Wunnel_ and _tunnel_ which is used to describe the long sequences
+    of identical instructions (often nops) used in Wunnel programs to sync up
+    remote parts of the program.  (Information on this language is only available
+    on the esowiki for now.)
+  computational-class: believed Turing-complete
+  inception-date: Feb 13, 2011
+  influences:
+  - 1L
+  - reMorse
+  sample: |2
+              o   ooo  o
+
+
+    o
+    o
+    o
+    o         o
+    o         o
+    o         o
+    o         o
+    o
+    o        o     o
+    o         o
+    o
+    o        o
+    o              o
+    o        o     o
+    o              o
+
+             o
+    o oooooooo     o
+             o
+             o
+             o
+
+             o    oooo o
+  has-reference-distribution: false
+  implementations:
+  - tc.catseye.yoob.wunnel
+
+tc.catseye.yoob.wunnel:
+  type: Language Implementation
+  in-distribution: yoob distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+
+
+Xigxag:
+  # hmm... well, no.  but for now, yes.
+  type: Programming Language
+  genre: Esolang
+  abstract: " Xigxag is a simple string-copying automaton that has exponential\
+    \ growth almost everywhere (i.e. there are only a finite number of initial\
+    \ configurations that don't blow up.)   "
+  # started 2001
+  inception-date: Apr 23, 2007
+  sample: |
+    ><<
+  sample-output: |
+    ><<
+    <<>><
+    <><<<<>>
+    <<<<>><><><<><<<><<<>
+    ...
+  computational-class: unknown computational class
+  unusual-computability-properties: true
+  reference-distribution: Xigxag distribution
+  implementations:
+  - xigxag.pl
+
+xigxag.pl:
+  type: Language Implementation
+  in-dstribution: Xigxag distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Perl
+
+
 Xoomonk: 
   type: Programming Language
   genre: Esolang
@@ -1972,6 +2167,25 @@ Xoomonk:
     }
   reference-distribution: Xoomonk distribution
   implementations: []
+
+
+You are Reading the Name of this Esolang:
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    You are Reading the Name of this Esolang is an exploration in
+    the design space of programming languages with undecidable elements. Its syntax
+    is only recursively enumerable: the problem of determining whether or not
+    a given string of symbols is a well-formed You are Reading the Name of this
+    Esolang program is undecidable.
+  inception-date: Nov 2007
+  computational-class: shown Turing-complete
+  unusual-computability-properties: true
+  influences:
+  - Spoon
+  sample: |
+    001000000[0010000000111001000011]11100100001[0]
+  reference-distribution: You are Reading the Name of this Esolang distribution
 
 
 Ypsilax:
@@ -2150,191 +2364,6 @@ Opus-2:
   reference-distribution: Opus-2 distribution
 
 
-Xigxag:
-  # hmm... well, no.  but for now, yes.
-  type: Programming Language
-  genre: Esolang
-  abstract: " Xigxag is a simple string-copying automaton that has exponential\
-    \ growth almost everywhere (i.e. there are only a finite number of initial\
-    \ configurations that don't blow up.)   "
-  "day": |-
-    0423
-  "inception": |-
-    2001
-  "name": |-
-    Xigxag
-  "project": |-
-    xigxag
-  sample:
-    # XXX needs sample
-    "mode": |-
-      output
-  "unusual-computability-properties": !!null |-
-    null
-  "year": |-
-    2007
-  reference-distribution: Xigxag distribution
-  implementations:
-  - xigxag.pl
-
-xigxag.pl:
-  type: Language Implementation
-  in-dstribution: Xigxag distribution
-  reference: true
-  license: Public Domain
-  implementation-type: interpreter
-  host-language: Perl
-
-
-Hev:
-  type: Programming Language
-  genre: Esolang
-  abstract: |-
-    Hev is a programming language that attempts to solve the "central
-    problem of infix notation": how do you allow it without requiring the programmer
-    to either memorize precedence tables or litter parentheses everywhere?  Hev
-    has a way! In Hev, *all* operators are infix, yet no tiresome memorization
-    of any dreadful precedence table is required!
-  computational-class: believed Turing-complete
-  "day": |-
-    0523
-  etymology:
-    "nametag": |-
-      neologism
-  "name": |-
-    Hev
-  "project": |-
-    hev
-  sample: |
-    71+8*27,19,29*99,6,37,7,61,47
-  "year": |-
-    2007
-  reference-distribution: Hev distribution
-
-Hev.hs:
-  type: Language Implementation
-  in-distribution: Hev distribution
-  reference: true
-  license: BSD
-  implementation-type: interpreter
-  host-language: Haskell
-
-
-
-Burro:
-  type: Programming Language
-  genre: Esolang
-  abstract: |-
-    Burro is a [[brainfuck]]-like programming language whose programs
-    form an algebraical _group_ (modulo the equivalence relation of "computes the
-    same function") under the operation of concatenation. The upshot of this
-    is that, for every Burro program, we can find an _antiprogram_ which, when
-    appended to the program, forms a "no-op" program which has no effect.
-     This is a form of reversible computing, but unlike most reversible languages
-    where it is the execution of the program that is "undone", in Burro, it is
-    the program itself which is annihiliated by its antiprogram.  Burro 1.0
-    was released in fall of 2007, but proved not to form a proper group. This
-    shortcoming was rectified in summer of 2010.
-  "day": |-
-    0607
-  computational-class: shown Turing-complete
-  etymology:
-  - spanish
-  - farm animal
-  "inception": |-
-    2005
-  influences:
-  - brainfuck
-  sample: |
-    !--(--(--(!>/
-      >>--(+<<+++++++>/+++>+++++>)<
-    >)/
-      >>--(+++>+++++>/+++<<<<<+++>)<
-    >)/
-      >>--(+++>+>/+<<+++>)<
-    >)<
-  significant: true
-  "year": |-
-    2010
-  reference-distribution: Burro distribution
-  implementations:
-  - Burro.lhs
-
-Burro.lhs:
-  type: Language Implementation
-  in-distribution: Burro distribution
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Haskell
-
-
-Cabra:
-  type: Programming Language
-  genre: Esolang
-  abstract: |-
-    Cabra is a (somewhat) formal programming language whose programs
-    form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence
-    relation of "computes the same function", under the operations of parallel
-    execution (as the additive operator) and sequential composition (as the multiplicative
-    operator).
-  "day": |-
-    1030
-  etymology:
-  - spanish
-  - farm animal
-  influences:
-  - Burro
-  computational-class: known not Turing-complete
-  "name": |-
-    Cabra
-  "project": |-
-    cabra
-  sample: |
-    (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
-  "year": |-
-    2007
-  reference-distribution: Cabra distribution
-  implementations:
-  - cabra.hs
-
-cabra.hs:
-  type: Language Implementation
-  in-distribution: Cabra distribution
-  reference: true
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Haskell
-  commentary: |-
-    No parser.
-
-
-You are Reading the Name of this Esolang:
-  type: Programming Language
-  genre: Esolang
-  abstract: " You are Reading the Name of this Esolang is an exploration in \
-    the design space of programming languages with undecidable elements. Its syntax\
-    \ is only recursively enumerable: the problem of determining whether or not \
-    a given string of symbols is a well-formed You are Reading the Name of this\
-    \ Esolang program is undecidable.   "
-  "day": |-
-    1101
-  computational-class: shown Turing-complete
-  influences:
-  - Spoon
-  "name": |-
-    You are Reading the Name of this Esolang
-  "project": |-
-    urreading
-  sample: |
-    001000000[0010000000111001000011]11100100001[0]
-  "unusual-computability-properties": !!null |-
-    null
-  "year": |-
-    2007
-  reference-distribution: You are Reading the Name of this Esolang distribution
-
-
 # TODO: split up?
 Jaccia and Jacciata:
   type: Programming Language
@@ -2412,62 +2441,3 @@ Oozlybub and Murphy:
     2010
   reference-distribution: Oozlybub and Murphy distribution
   implementations: []
-
-
-Wunnel: 
-  type: Programming Language
-  genre: Esolang
-  abstract: |
-    " Wunnel is a two-dimensional language which draws from the [[1L]]\
-    \ family of languages and incorporates features from [[reMorse]]. The name\
-    \ is both a play on the pronunciation of "1L", and a recursive portmanteau\
-    \ of the words _Wunnel_ and _tunnel_ which is used to describe the long sequences\
-    \ of identical instructions (often nops) used in Wunnel programs to sync up\
-    \ remote parts of the program.  (Information on this language is only available\
-    \ on the esowiki for now.)   "
-  computational-class: believed Turing-complete
-  "day": |-
-    0213
-  influences:
-  - 1L
-  - reMorse
-  sample: |2
-              o   ooo  o
-
-
-    o
-    o
-    o
-    o         o
-    o         o
-    o         o
-    o         o
-    o
-    o        o     o
-    o         o
-    o
-    o        o
-    o              o
-    o        o     o
-    o              o
-
-             o
-    o oooooooo     o
-             o
-             o
-             o
-
-             o    oooo o
-  "year": |-
-    2011
-  has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.wunnel
-
-tc.catseye.yoob.wunnel:
-  type: Language Implementation
-  in-distribution: yoob distribution
-  reference: true
-  license: Public Domain
-  implementation-type: interpreter
-  host-language: Java
