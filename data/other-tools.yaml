@@ -9,3 +9,8 @@ Commodore 64:
   type: Platform
 Parsec:
   type: Tool
+MS-DOS:
+  type: Tool
+  commentary: |
+    I think the only thing that requires MS-DOS is shelta; and even then, it might
+    rely only on the BIOS interface, I forget.

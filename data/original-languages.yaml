@@ -1172,7 +1172,21 @@ Illgola-2:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Illgola-2 distribution
-  implementations: []
+  implementations:
+  - ILLGOLA-2.COM
+
+# name is wrong, oh well.
+ILLGOLA-2.COM:
+  type: Language Implementation
+  in-distribution: 'Illgol: Grand Mal'
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Illgola-2
+  host-language: ANSI C
+  target-language: x86 machine code
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - Perl
 
 Illberon:
   type: Programming Language
@@ -1190,7 +1204,21 @@ Illberon:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Illberon distribution
-  implementations: []
+  implementations:
+  - ILLBERON.COM
+
+# name is wrong, oh well.
+ILLBERON.COM:
+  type: Language Implementation
+  in-distribution: 'Illgol: Grand Mal'
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Illberon
+  host-language: ANSI C
+  target-language: x86 machine code
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - Perl
 
 Open Sores Illgol##:
   type: Programming Language
@@ -1208,7 +1236,21 @@ Open Sores Illgol##:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Open Sores Illgol## distribution
-  implementations: []
+  implementations:
+  - ILLGOL##.COM
+
+# name is wrong, oh well.
+ILLGOL##.COM:
+  type: Language Implementation
+  in-distribution: 'Illgol: Grand Mal'
+  license: Unknown license
+  implementation-type: compiler
+  source-language: Open Sores Illgol##
+  host-language: ANSI C
+  target-language: x86 machine code
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - Perl
 
 
 Iphigeneia:
@@ -1590,6 +1632,7 @@ MDPN:
 "'N-DCNC":
   type: Programming Language
   genre: Joke language
+  tagline: The Official Language of Pride and Envy
   abstract: |
     'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')
     It is based on a conspiracy theory involving
@@ -1613,14 +1656,18 @@ ndcnc.pl:
   type: Language Implementation
   reference: true
   license: Unknown license
-  implementation-type: interpreter
+  implementation-type: compiler
+  source-language: "'N-DCNC"
   host-language: Perl
+  target-language: FALSE
 
 ndcnc.bf:
   type: Language Implementation
   license: Unknown license
-  implementation-type: interpreter
+  implementation-type: compiler
+  source-language: "'N-DCNC"
   host-language: Befunge-93
+  target-language: FALSE
   broken: true
 
 
@@ -2076,7 +2123,6 @@ sbeezg.erl:
   host-language: Erlang
 
 
-
 Shelta:
   type: Programming Language
   genre: Esolang
@@ -2117,6 +2163,8 @@ shelta:
   source-language: Shelta
   host-language: NASM Assembler
   target-language: x86 machine code
+  run-requirements:
+  - MS-DOS
 
 sheltas:
   type: Language Implementation
@@ -2126,6 +2174,8 @@ sheltas:
   source-language: Shelta
   host-language: Shelta
   target-language: x86 machine code
+  run-requirements:
+  - MS-DOS
 
 
 SMETANA:

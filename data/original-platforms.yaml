@@ -25,12 +25,16 @@ BefOS:
   reference-distribution: BefOS distribution
   esowiki: BefOS
 
-tc.catseye.yoob:
+BefOS (NASM):
   type: Platform Implementation
   in-distribution: BefOS distribution
   license: Freely Redistributable
-  # and also some C and some Perl, but mainly
   host-language: NASM Assembler
+  build-requirements:
+  - ANSI C
+  - Perl
+  run-requirements:
+  - x86 machine code
 
 BefOS distribution: 
   type: Distribution
