@@ -427,45 +427,20 @@ Hunter distribution:
     latest: true
     url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
 
-illberon: 
+Illberon distribution: 
   type: Distribution
-  title: The Illberon Programming Language
-  summary: Preprocessor and doc for <b>Illberon</b>
-  byline: Once again, Chris Pressey must be blamed
-  abstract: |-
-    <p>This is a re-creation of the original Illberon (ILLGOL 3) distribution.
-    Sources and executable appear to be missing (at least, I haven't
-    found them yet,) but the release notes and preprocessor are intact.</p>
-  distribution-of: ILLGOL
-  esowiki: ILLGOL
-  keywords: 
-  - c
-  - eso
-  - lang
+  distribution-of: Illberon
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2007.0409"
     latest: true
     url: http://catseye.tc/distfiles/illberon-2007.0409.zip
-  references: 
-  - project: illgol
-  - project: illgola-2
-  - project: illgolpp
 
-illgol: 
+ILLGOL distribution:
   type: Distribution
-  title: The ILLGOL Programming Language
-  summary: Compiler and doc for the original <b>ILLGOL</b>
-  byline: You can blame Chris Pressey
-  abstract: |-
-    <p>This is a re-creation of the original ILLGOL distribution, including sources
-    which were not included with the original distribution.</p>
   distribution-of: ILLGOL
-  esowiki: ILLGOL
-  keywords: 
-  - c
-  - eso
-  - lang
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2000.0122"
@@ -475,25 +450,11 @@ illgol:
     revision: "2001.0706"
     latest: false
     url: http://catseye.tc/distfiles/illgol-2001.0706.zip
-  references: 
-  - project: illgola-2
-  - project: illberon
-  - project: illgolpp
 
-illgola-2: 
+Illgola-2 distribution: 
   type: Distribution
-  title: The Illgola-2 Programming Language
-  summary: Compiler and doc for <b>Illgola-2</b>
-  byline: You can blame Chris Pressey again
-  abstract: |-
-    <p>This is a re-creation of the original Illgola-2 distribution, including sources
-    which were not included with the original distribution.</p>
-  distribution-of: ILLGOL
-  esowiki: ILLGOL
-  keywords: 
-  - c
-  - eso
-  - lang
+  distribution-of: Illgola-2
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2000.0420"
@@ -503,42 +464,25 @@ illgola-2:
     revision: "2007.0409"
     latest: true
     url: http://catseye.tc/distfiles/illgola-2-2007.0409.zip
-  references: 
-  - project: illgol
-  - project: illberon
-  - project: illgolpp
 
-illgolpp: 
+Open Sores Illgol## distribution: 
   type: Distribution
-  title: Open Sores Illgol##
-  summary: Sources and doc for <b>Illgol##</b>
-  byline: Yet again, blame Chris Pressey for this mess
-  abstract: |-
-    <p>This is a reshuffling of the Open Sores Illgol## distribution, now that its
-    predecessors (ILLGOL, Illgola-2, and Illberon) have been split into their
-    own distributions.  (Of course, you will heed the readme in this distibution
-    and not ever think of using those DISCONTINUED, OBSOLETE, ANCIENT
-    LEGACY PRODUCTS since Open Sores Illgol## is far superior in every
-    conceivable dimension!)</p>
-  distribution-of: ILLGOL
-  esowiki: ILLGOL
-  keywords: 
-  - c
-  - eso
-  - lang
+  distribution-of: Open Sores Illgol##
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2007.0409"
     latest: true
     url: http://catseye.tc/distfiles/illgolpp-2007.0409.zip
-  references: 
-  - project: illgol
-  - project: illgola-2
-  - project: illberon
 
 'Illgol: Grand Mal':
   type: Distribution
+  # actually, it's a distribution of several languages.
   distribution-of: ILLGOL
+  bitbucket: catseye/illgol-grand-mal
+  github: catseye/Illgol-Grand-Mal
+  issue-tracker: github
+  releases: []
 
 Iphigeneia distribution: 
   type: Distribution

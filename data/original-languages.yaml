@@ -1138,12 +1138,13 @@ ILLGOL:
     60 do f(3);
     FIN
   reference-distribution: 'Illgol: Grand Mal'
+  #other-distributions: ILLGOL distribution
   implementations:
   - ILLGOL.COM
 
 ILLGOL.COM:
   type: Language Implementation
-  in-distribution: illgol
+  in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
   source-language: ILLGOL
@@ -1165,6 +1166,7 @@ Illgola-2:
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
+  #other-distributions: Illgola-2 distribution
   implementations: []
 
 Illberon:
@@ -1182,6 +1184,7 @@ Illberon:
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
+  #other-distributions: Illberon distribution
   implementations: []
 
 Open Sores Illgol##:
@@ -1199,6 +1202,7 @@ Open Sores Illgol##:
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
+  #other-distributions: Open Sores Illgol## distribution
   implementations: []
 
 
