@@ -1,4 +1,6 @@
 # encoding: UTF-8
+Anonymous:
+  type: Individual
 Chris Pressey:
   type: Individual
 John Colagioia:
@@ -28,5 +30,11 @@ David Chipping:
   type: Individual
 Urban Müller:
   type: Individual
-Anonymous:
+Wouter van Oortmerssen:
+  type: Individual
+Jeffrey Johnston:
+  type: Individual
+Ryan Kusnery:
+  type: Individual
+Frédéric van der Plancke:
   type: Individual

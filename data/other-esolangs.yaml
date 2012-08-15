@@ -1,0 +1,100 @@
+# encoding: UTF-8
+# actually some of these do have reference distributions
+# These are esolangs, but not ones I have designed or implemented
+BitChanger:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete
+  esowiki: BitChanger
+  influences:
+  - brainfuck
+  authors:
+  - Jeffrey Johnston
+  has-reference-distribution: false
+  implementations: []
+
+FALSE:
+  type: Programming Language
+  genre: Esolang
+  computational-class: shown Turing-complete
+  esowiki: FALSE
+  authors:
+  - Wouter van Oortmerssen
+  # patently false...
+  has-reference-distribution: false
+  implementations: []
+
+reMorse:
+  type: Programming Language
+  genre: Esolang
+  computational-class: unknown computational class
+  esowiki: reMorse
+  has-reference-distribution: false
+  implementations: []
+  authors:
+  - Ryan Kusnery
+
+'RUBE II: Das Klickenklacker': 
+  type: Programming Language
+  genre: Esolang
+  computational-class: unknown computational class
+  variant-of: RUBE
+  authors:
+  - John Colagioia
+  abstract: |
+    A close descendant of RUBE, with cleaner semantics and implementation.
+  esowiki: 'RUBE II: Das Klickenklacker'
+  dimensionality: 2
+  reference-distribution: RUBE II distribution
+  # patently false
+  implementations: []
+
+Spoon:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete
+  esowiki: Spoon
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+
+Thue:
+  type: Programming Language
+  genre: Esolang
+  computational-class: believed Turing-complete
+  esowiki: Thue
+  has-reference-distribution: false
+  authors:
+  - John Colagioia
+  paradigms:
+  - String-rewriting
+  abstract: |
+    The Thue programming language was invented by
+    John Colagioia in early 2000.  It is named after the computational
+    regimen it is based on — a pure string-rewriting process called a
+    _semi-Thue grammar_, which is named for (and possibly created
+    by) the Norwegian mathematician Axel Thue (pronounced "TOO-ay").
+    
+    Thue represents one of the simplest possible ways
+    to construe constraint-based programming.  It is to the constraint-based
+    paradigm what languages like OISC are to the imperative paradigm;
+    in other words, it's a tar pit.
+  implementations:
+  - thue.c
+  - thue.py
+
+thue.c:
+  type: Language Implementation
+  authors:
+  - John Colagioia
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: ANSI C
+
+thue.py:
+  type: Language Implementation
+  authors:
+  - Frédéric van der Plancke
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Python

@@ -172,6 +172,8 @@ Befunge-93:
   - typo
   influences:
   - Maentwrog
+  - brainfuck
+  - FALSE
   sample: |2
      v    <
     >?"/",^

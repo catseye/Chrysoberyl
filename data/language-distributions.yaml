@@ -1075,26 +1075,12 @@ RUBE distribution:
 
 RUBE II distribution: 
   type: Distribution
-  title: 'RUBE II: Das Klickenklacker'
-  summary: Interpeter for the <b>RUBE II</b> language
-  byline: Derived from RUBE and implemented by John Colagioia
-  abstract: |-
-    <p>A close descendent of RUBE, with cleaner semantics and implementation.</p>
-  # XXX no.
-  distribution-of: RUBE
-  esowiki: 'RUBE II: Das Klickenklacker'
-  keywords: 
-  - 2d
-  - c
-  - eso
-  - lang
+  distribution-of: 'RUBE II: Das Klickenklacker'
   releases: 
   - version: "1.0"
     revision: "2001.0201"
     latest: true
     url: http://catseye.tc/distfiles/rube_ii-2001.0201.zip
-  references: 
-  - project: rube
 
 Sally distribution: 
   type: Distribution
