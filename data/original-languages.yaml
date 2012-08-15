@@ -690,6 +690,7 @@ Emmental:
   esowiki: Emmental
   paradigms:
   - Meta-circular
+  - Reflective
   authors:
   - Chris Pressey
   auspices:
@@ -1230,6 +1231,7 @@ Jaccia and Jacciata:
   auspices:
   - Cat's Eye Technologies
   inception-date: Apr 11, 2009
+  dimensionality: 2
   etymology:
   - neologism
   computational-class: known not Turing-complete
@@ -1361,6 +1363,7 @@ Larabee:
   - surname
   - television show
   computational-class: known not Turing-complete
+  esowiki: Larabee
   sample: |-
     (store (input) (input)
       (store (input) (input)
@@ -1496,6 +1499,10 @@ Mascarpone:
   - italian
   influences:
   - Emmental
+  paradigms:
+  - Meta-circular
+  - Reflective
+  esowiki: Mascarpone
   sample: |
     v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
   significant: true
@@ -1553,6 +1560,7 @@ MDPN:
   - Cat's Eye Technologies
   entered-in:
   - Esoteric Awards 2000
+  esowiki: "'N-DCNC"
   inception-date: Oct 2000
   sample: |
     4*5+2/2,(9*`c)+1
@@ -1641,6 +1649,8 @@ nhohnhehr.py:
   - hidden message
   - celtic
   notable: true
+  esowiki: noit_o'_mnain_worb
+  dimensionality: 2
   sample: |
     #####         #####
     #   ###########   #
@@ -1655,6 +1665,8 @@ nhohnhehr.py:
   implementations:
   - worb.pl
   - tc.catseye.yoob.worb
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 worb.pl:
   type: Language Implementation
@@ -2034,6 +2046,7 @@ Shelta:
   etymology:
   - spoken language
   - celtic
+  esowiki: Shelta
   sample: |
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
   reference-distribution: Shelta distribution
@@ -2045,7 +2058,7 @@ shelta:
   type: Language Implementation
   reference: true
   in-distribution: Shelta distribution
-  license: Unknown license
+  license: Freely Redistributable
   implementation-type: compiler
   source-language: Shelta
   host-language: NASM Assembler
@@ -2054,7 +2067,7 @@ shelta:
 sheltas:
   type: Language Implementation
   in-distribution: Shelta distribution
-  license: Unknown license
+  license: Freely Redistributable
   implementation-type: compiler
   source-language: Shelta
   host-language: Shelta
@@ -2290,6 +2303,8 @@ Treacle:
   - condiment
   influences:
   - Arboretuum
+  paradigms:
+  - Tree-rewriting
   sample-input: |-
     (x this (x descends (x to (x the (x right (y 1 2))))))
   sample: |
@@ -2327,6 +2342,11 @@ Unlikely:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Mar 15, 2009
+  esowiki: Unlikely
+  paradigms:
+  - Continuation-passing
+  - Object-oriented
+  - Dependency injection
   sample: |-
     class Count(Count,Chain,Print,Add) extends Continuation
     
@@ -2625,6 +2645,7 @@ Xigxag:
   auspices:
   - Cat's Eye Technologies
   # started 2001
+  esowiki: Xigxag
   inception-date: Apr 23, 2007
   sample: |
     ><<
@@ -2701,6 +2722,7 @@ You are Reading the Name of this Esolang:
   inception-date: Nov 2007
   computational-class: shown Turing-complete
   unusual-computability-properties: true
+  esowiki: You_are_Reading_the_Name_of_this_Esolang
   influences:
   - Spoon
   sample: |

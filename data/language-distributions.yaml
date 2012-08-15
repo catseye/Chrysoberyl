@@ -689,20 +689,12 @@ Iphigeneia distribution:
     latest: false
     url: http://catseye.tc/distfiles/iphi-2007.1125.zip
 
-#***
-
 Jaccia and Jacciata distribution: 
   type: Distribution
-  title: The Jaccia and Jacciata Cellular Automata
-  summary: <span class="summary">The <b>Jaccia</b> and <b>Jacciata</b> cellular automata</span>
-  byline: Formulated by Chris Pressey
   distribution-of: Jaccia and Jacciata
-  esowiki: None
-  keywords: 
-  - 2d
-  - ca
-  - eso
-  - lang
+  bitbucket: catseye/jaccia
+  github: catseye/Jaccia
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.0411"
@@ -744,16 +736,10 @@ Kangaroo Iceberg distribution:
 
 Larabee distribution: 
   type: Distribution
-  title: The Larabee Programming Language
-  summary: Documentation and interpreter for <b>Larabee</b>
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Larabee
-  esowiki: Larabee
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - scheme
+  bitbucket: catseye/larabee
+  github: catseye/Larabee
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -810,22 +796,10 @@ Maentwrog distribution:
 
 Mascarpone distribution: 
   type: Distribution
-  title: The Mascarpone Programming Language
-  summary: Reference interpreter for <b>Mascarpone</b>
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    Mascarpone
-        <a class="external" href="https://bitbucket.org/catseye/mascarpone/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Mascarpone">git mirror on githib</a>.
   distribution-of: Mascarpone
-  esowiki: Mascarpone
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
-  - refl
+  bitbucket: catseye/mascarpone
+  github: catseye/Mascarpone
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0312"
@@ -843,8 +817,6 @@ Mascarpone distribution:
     revision: "2007.1208"
     latest: false
     url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
-  references: 
-  - project: emmental
 
 MDPN distribution: 
   type: Distribution
@@ -869,16 +841,10 @@ Muriel distribution:
 
 "'N-DCNC distribution": 
   type: Distribution
-  title: The 'N-DCNC Programming Language
-  summary: Docs and compilers for <b>'N-DCNC</b>
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: "'N-DCNC"
-  esowiki: "'N-DCNC"
-  keywords: 
-  - bef
-  - eso
-  - lang
-  - perl
+  bitbucket: catseye/n-dcnc
+  github: catseye/N-DCNC
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2000.0808"
@@ -1175,18 +1141,10 @@ Sbeezg distribution:
 
 Shelta distribution: 
   type: Distribution
-  title: The Shelta Programming Language
-  summary: Compilers for the <b>Shelta</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Shelta
-  esowiki: Shelta
-  keywords: 
-  - asm
-  - eso
-  - freere
-  - lang
-  - boot
-  - x86
+  bitbucket: catseye/shelta
+  github: catseye/Shelta
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "1999.1223"
@@ -1291,16 +1249,10 @@ Thue distribution:
 
 Treacle distribution: 
   type: Distribution
-  title: The Treacle Programming Language
-  summary: Interpreter for the <b>Treacle</b> rewriting language
-  byline: Designed and implemented by Chris Pressey
   distribution-of: Treacle
-  esowiki: None
-  keywords: 
-  - bsdl
-  - scheme
-  - lang
-  - rew
+  bitbucket: catseye/treacle
+  github: catseye/Treacle
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2008.0412"
@@ -1310,26 +1262,13 @@ Treacle distribution:
     revision: "2010.0427"
     latest: true
     url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
-  references: 
-  - project: arboretuum
 
 Unlikely distribution: 
   type: Distribution
-  title: The Unlikely Programming Language
-  summary: Docs and static analyzer for the <b>Unlikely</b> language
-  byline: Conceived and partially implemented by Chris Pressey
-  develop: |-
-    Unlikely
-        <a class="external" href="https://bitbucket.org/catseye/unlikely/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Unlikely">git mirror on githib</a>.
   distribution-of: Unlikely
-  esowiki: Unlikely
-  keywords: 
-  - py
-  - eso
-  - lang
-  - oo
+  bitbucket: catseye/unlikely
+  github: catseye/Unlikely
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0316"
@@ -1346,16 +1285,7 @@ Unlikely distribution:
 
 You are Reading the Name of this Esolang distribution: 
   type: Distribution
-  title: You are Reading the Name of this Esolang
-  summary: <b>You are Reading the Name of this Esolang</b>
-  byline: Designed by Chris Pressey
   distribution-of: You are Reading the Name of this Esolang
-  esowiki: You_are_Reading_the_Name_of_this_Esolang
-  keywords: 
-  - eso
-  - lang
-  - spec
-  - theory
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1429,30 +1359,7 @@ Wierd distribution:
 
 "noit o' mnain worb distribution": 
   type: Distribution
-  title: The noit o' mnain worb Language
-  summary: Interpreter for <b>noit o' mnain worb</b>
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    <p>The Perl implementation of noit o' mnain worb requires
-        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
-        to run.
-        However, an appropriate version of this library is included in the worb distribution
-        as of v1.1-2011.1031, so there's nothing special you need to do to make this happen.</p>
-        <p>The Java implementation of noit o' mnain worb runs inside the
-        <a class="external" href="https://bitbucket.org/catseye/yoob/">yoob</a>
-        framework.</p>
-  develop: |-
-    You can experiment with worb online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
   distribution-of: noit o' mnain worb
-  esowiki: noit_o'_mnain_worb
-  keywords: 
-  - 2d
-  - bsdl
-  - eso
-  - java
-  - lang
-  - perl
-  - interact
   releases: 
   - version: "1.1"
     revision: "1.1"
@@ -1477,17 +1384,7 @@ Wierd distribution:
 
 Xigxag distribution: 
   type: Distribution
-  title: The Xigxag Automaton
-  summary: Implementation of the <b>Xigxag</b> automaton
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Xigxag
-  esowiki: Xigxag
-  keywords: 
-  - eso
-  - lang
-  - pd
-  - perl
-  - theory
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1504,14 +1401,7 @@ Xigxag distribution:
 
 Xoomonk distribution: 
   type: Distribution
-  title: The Xoomonk Programming Language
-  summary: Specification and tests for the <b>Xoomonk</b> language
-  byline: Conceived by Chris Pressey
   distribution-of: Xoomonk
-  esowiki: None
-  keywords: 
-  - lang
-  - spec
   releases: 
   - version: "0.1"
     revision: "2011.0807"
