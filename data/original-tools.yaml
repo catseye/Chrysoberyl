@@ -1,5 +1,5 @@
 # encoding: UTF-8
-# also contains libraries (like Console::Virtual) and frameworks (like yoob)
+# also contains libraries (like Console::Virtual)
 # Note: arguably:
 # - Falderal is a language, and the testing tools are implementations of it
 # - TPiS is an implementation of Scheme (a static checker) 
@@ -24,7 +24,7 @@
   type: Library Implementation
   in-distribution: 'Console::Virtual distribution'
   license: BSD
-  implementation-language: Perl
+  host-language: Perl
 
 crone: 
   type: Tool
@@ -47,7 +47,7 @@ crone:
   type: Tool Implementation
   in-distribution: 'crone distribution'
   license: BSD
-  implementation-language: Erlang
+  host-language: Erlang
 
 Falderal: 
   type: Tool
@@ -74,14 +74,14 @@ Falderal:
   type: Tool Implementation
   in-distribution: 'Falderal distribution'
   license: BSD
-  implementation-language: Haskell
+  host-language: Haskell
 
 'py-falderal':
   type: Tool Implementation
   # well, this is actually not true yet, but:
   in-distribution: 'Falderal distribution'
   license: BSD
-  implementation-language: Python
+  host-language: Python
 
 OpenFlax: 
   type: Tool
@@ -118,7 +118,7 @@ OpenFlax:
   type: Tool Implementation
   in-distribution: 'OpenFlax distribution'
   license: BSD
-  implementation-language: Erlang
+  host-language: Erlang
 
 TPiS: 
   type: Tool
@@ -141,37 +141,7 @@ TPiS:
   type: Tool Implementation
   in-distribution: 'TPiS distribution'
   license: BSD
-  implementation-language: Scheme
-
-yoob: 
-  type: Tool
-  summary: A framework for interactive esolang implementation
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  abstract: |-
-    `yoob` is a framework for implementing esoteric programming languages
-    in Java.  It aims to make it easy for a user to experiment with a large
-    number of esolangs with a minimal install burden (i.e. in a Java applet),
-    and to make it easy for designers to rapidly implement and showcase
-    their esolangs.
-  online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
-  inception-date: Unknown
-  implementations:
-  - tc.catseye.yoob
-  reference-distribution: 'yoob distribution'
-  esowiki: yoob
-  keywords:
-  - 2d
-  - animated
-
-'tc.catseye.yoob':
-  type: Tool Implementation
-  in-distribution: 'yoob distribution'
-  license: Public Domain
-  implementation-language: Java
+  host-language: Scheme
 
 yucca: 
   type: Tool
@@ -194,4 +164,4 @@ yucca:
   type: Tool Implementation
   in-distribution: 'yucca distribution'
   license: MIT
-  implementation-language: Python
+  host-language: Python

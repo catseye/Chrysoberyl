@@ -72,12 +72,15 @@ def check_chrysoberyl_data(data):
           # (this has multiple possible types)
           check_scalar_ref(data, key, node, 'distribution-of')
 
-      if type_ == 'Language Implementation':
+      if type_.endswith(' Implementation'):
           check_scalar_ref(data, key, node, 'license', type_='License')
           check_optional_scalar_ref(data, key, node, 'in-distribution',
                                     type_='Distribution')
           check_scalar_ref(data, key, node, 'host-language',
                            type_='Programming Language')
+          check_optional_list_ref(data, key, node, 'authors')
+
+      if type_ == 'Language Implementation':
           check_scalar_ref(data, key, node, 'implementation-type',
                            type_='Implementation Type')
           if node['implementation-type'] == 'compiler':
@@ -85,15 +88,6 @@ def check_chrysoberyl_data(data):
                                type_='Programming Language')
               check_scalar_ref(data, key, node, 'target-language',
                                type_='Programming Language')
-          check_optional_list_ref(data, key, node, 'authors')
-
-      if type_ == 'Game Implementation':
-          check_scalar_ref(data, key, node, 'license', type_='License')
-          check_optional_scalar_ref(data, key, node, 'in-distribution',
-                                    type_='Distribution')
-          check_scalar_ref(data, key, node, 'implementation-language',
-                           type_='Programming Language')
-          check_optional_list_ref(data, key, node, 'authors')
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')

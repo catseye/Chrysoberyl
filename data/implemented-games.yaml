@@ -19,7 +19,7 @@
   - Cat's Eye Technologies
   license: BSD
   inception-date: ca 1999?
-  implementation-language: Erlang
+  host-language: Erlang
 
 'Animals':
   type: Game
@@ -45,7 +45,7 @@
   - Cat's Eye Technologies
   license: BSD
   inception-date: ca 1999?
-  implementation-language: Erlang
+  host-language: Erlang
   interface: terminal
 
 'Flip':
@@ -67,7 +67,7 @@
   - Cat's Eye Technologies
   license: BSD
   inception-date: ca 1999?
-  implementation-language: Erlang
+  host-language: Erlang
   interface: terminal
 
 'Sokoban':
@@ -89,7 +89,7 @@
   - Cat's Eye Technologies
   license: BSD
   inception-date: ca 1999?
-  implementation-language: Erlang
+  host-language: Erlang
   run-requirements: Tk/Tcl
   abstract: |-
     This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.

@@ -23,7 +23,7 @@
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   license: BSD
-  implementation-language: Commodore BASIC 2.0
+  host-language: Commodore BASIC 2.0
   run-requirements:
   - Commodore 64
   controls: joystick
@@ -32,8 +32,8 @@
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   license: BSD
-  implementation-language: Ophis Assembler
-  implementation-language-version: "2.0"
+  host-language: Ophis Assembler
+  host-language-version: "2.0"
   build-requirements:
   - CRUNCHER AB+
   run-requirements:
@@ -46,8 +46,8 @@
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   license: BSD
-  implementation-language: Ophis Assembler
-  implementation-language-version: "2.0"
+  host-language: Ophis Assembler
+  host-language-version: "2.0"
   run-requirements:
   - Commodore 64
   controls: joystick
@@ -72,9 +72,9 @@
   type: Game Implementation
   in-distribution: 'Corona: Realm of Magic distribution'
   license: BSD
-  implementation-language: Perl
+  host-language: Perl
   # TODO: we should handle language versions better than this
-  implementation-language-version: "5.8"
+  host-language-version: "5.8"
   run-requirements: ANSI Terminal
   interface: ANSI Terminal
 
@@ -98,7 +98,7 @@
   type: Game Implementation
   in-distribution: 'Zzrk distribution'
   license: BSD
-  implementation-language: Zz
+  host-language: Zz
   implemented-in-meta: true
   interface: terminal
 
@@ -121,6 +121,6 @@
   type: Game Implementation
   in-distribution: 'Super Wumpus Land distribution'
   license: BSD
-  implementation-language: Perl
-  implementation-language-version: "5.8"
+  host-language: Perl
+  host-language-version: "5.8"
   interface: terminal

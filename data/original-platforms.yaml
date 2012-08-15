@@ -1,0 +1,97 @@
+# encoding: UTF-8
+# a platform is something you write something else "on"
+# (or "in" -- thus it includes "frameworks".)
+# NB: we don't have a seperate "platform distributions" file
+
+BefOS: 
+  type: Platform
+  subtitle: An Operating System for the Linearly Challenged
+  summary: Befunge-themed miniature operating system
+  abstract: |
+    This is a project I began in the late 90's, to write an "operating system"
+    in the theme of Befunge.  It never got very far, but it does boot and do some
+    cute things, so I have modernized it (from Turbo Assembler to NASM) and
+    made it available here.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  influences:
+  - Befunge-93
+  inception-date: Unknown
+  implementations:
+  - BefOS (NASM)
+  dimensionality: 2
+  reference-distribution: BefOS distribution
+  esowiki: BefOS
+
+tc.catseye.yoob:
+  type: Platform Implementation
+  in-distribution: BefOS distribution
+  license: Freely Redistributable
+  # and also some C and some Perl, but mainly
+  host-language: NASM Assembler
+
+BefOS distribution: 
+  type: Distribution
+  distribution-of: BefOS
+  bitbucket: catseye/befos
+  github: catseye/BefOS
+  issue-tracker: github
+  releases: 
+  - version: "0.9"
+    revision: "2011.0427"
+    latest: true
+    url: http://catseye.tc/distfiles/befos-0.9-2011.0427.zip
+  - version: "0.8"
+    revision: "2006.0204"
+    latest: false
+    url: http://catseye.tc/distfiles/befos-2006.0204.zip
+
+
+yoob: 
+  type: Platform
+  summary: A framework for interactive esolang implementation
+  abstract: |-
+    `yoob` is a framework for implementing esoteric programming languages
+    in Java.  It aims to make it easy for a user to experiment with a large
+    number of esolangs with a minimal install burden (i.e. in a Java applet),
+    and to make it easy for designers to rapidly implement and showcase
+    their esolangs.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  inception-date: Unknown
+  implementations:
+  - tc.catseye.yoob
+  reference-distribution: 'yoob distribution'
+  esowiki: yoob
+  #keywords:
+  #- 2d
+  #- animated
+
+tc.catseye.yoob:
+  type: Platform Implementation
+  in-distribution: yoob distribution
+  license: Public Domain
+  host-language: Java
+
+'yoob distribution': 
+  type: Distribution
+  distribution-of: yoob
+  bitbucket: catseye/yoob
+  github: catseye/yoob
+  issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
+  project-page: 'http://catseye.tc/projects/yoob/'
+  releases: 
+  - version: "0.3"
+    revision: "2011.0920"
+    latest: true
+    url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
+  - version: "0.2"
+    revision: "2011.0624"
+    latest: false
+    url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip

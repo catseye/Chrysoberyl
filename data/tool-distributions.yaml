@@ -81,23 +81,6 @@
     latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 
-'yoob distribution': 
-  type: Distribution
-  distribution-of: yoob
-  bitbucket: catseye/yoob
-  github: catseye/yoob
-  issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
-  project-page: 'http://catseye.tc/projects/yoob/'
-  releases: 
-  - version: "0.3"
-    revision: "2011.0920"
-    latest: true
-    url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
-  - version: "0.2"
-    revision: "2011.0624"
-    latest: false
-    url: http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip
-
 'yucca distribution': 
   type: Distribution
   distribution-of: yucca
