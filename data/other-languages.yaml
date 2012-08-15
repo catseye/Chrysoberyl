@@ -7,6 +7,7 @@ ANSI C:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 C99:
   type: Programming Language
   genre: Production language
@@ -19,6 +20,7 @@ C99:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Java:
   type: Programming Language
   genre: Production language
@@ -26,6 +28,7 @@ Java:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Perl:
   type: Programming Language
   genre: Production language
@@ -36,6 +39,7 @@ Perl:
   commentary: |
     We mean Perl 5 here; probably Perl 5.10 is the best version to
     make sure everything runs.
+
 Python:
   type: Programming Language
   genre: Production language
@@ -45,6 +49,7 @@ Python:
   authors: []
   commentary: |-
     Mostly harmless.
+
 Ruby:
   type: Programming Language
   genre: Production language
@@ -52,6 +57,7 @@ Ruby:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Scheme: 
   type: Programming Language
   genre: Production language
@@ -59,6 +65,7 @@ Scheme:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Haskell:
   type: Programming Language
   genre: Production language
@@ -66,6 +73,7 @@ Haskell:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Erlang:
   type: Programming Language
   genre: Production language
@@ -73,6 +81,7 @@ Erlang:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Lua:
   type: Programming Language
   genre: Production language
@@ -82,6 +91,7 @@ Lua:
   authors: []
   commentary: |
     We mean Lua 5.0 here.
+
 MSIL:
   type: Programming Language
   genre: Production language
@@ -89,6 +99,7 @@ MSIL:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Zz:
   type: Programming Language
   genre: Metalanguage
@@ -96,6 +107,7 @@ Zz:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Ophis Assembler:
   type: Programming Language
   # "Assembly language"?
@@ -103,7 +115,20 @@ Ophis Assembler:
   computational-class: Finite-automata-complete
   has-reference-distribution: false
   implementations: []
-  authors: []
+  authors:
+  - Michael C. Martin
+  links:
+  - 'http://hkn.eecs.berkeley.edu/~mcmartin/ophis/'
+  - 'https://github.com/michaelcmartin/Ophis'
+  description: |
+    Ophis is an assembler for the 6502 series of microprocessors.
+    Files in the Ophis assembler format often have the file extension `.oph`,
+    although files written the Ophis' predecessor, P65, with the `.p65` file extension,
+    will generally build with Ophis too.
+    You'll need an assembler that conforms to Ophis' syntax in order
+    to build executables from these files, and your best bet with that is
+    probably the Ophis assembler itself.
+
 NASM Assembler:
   type: Programming Language
   # "Assembly language"?
@@ -112,6 +137,7 @@ NASM Assembler:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
   type: Programming Language
@@ -120,6 +146,7 @@ Commodore BASIC 2.0:
   has-reference-distribution: false
   implementations: []
   authors: []
+
 Applesoft BASIC:
   type: Programming Language
   genre: Production language
@@ -127,6 +154,19 @@ Applesoft BASIC:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - 'http://www.zophar.net/apple2.html'
+  description: |
+    Programs written in Applesoft BASIC assume that they
+    will be running on an Apple ][+, great microcomputer of old.
+    Most such software will also run on an Apple //e or similar model.
+    Of course, these days, it's more likely you'd be running
+    this software on an emulator instead of a museum piece.
+  commentary: |
+    I've found AppleWin to be a decent Apple emulator on Windows;
+    I have yet to find one for *nix that's
+    good enough to be my go-to emulator (pun? what pun?).
+
 
 # for targets of compilers:
 x86 machine code:
@@ -134,8 +174,29 @@ x86 machine code:
   genre: Production language
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
+  implementations:
+  - Bochs
   authors: []
+  description: |
+      Programs in this format assume that they will be running on a fairly
+      standard x86-based (IA-32) computer architecture, from the 
+      lineage that dates back to those old IBM PC's.  Probably a 486
+      with a BIOS, keyboard, and basic VGA is the minimum to make
+      it worthwhile.  While most modern PC's can handle that reasonably
+      well, often a better choice — because it can run under a modern OS,
+      rather than actually dedicating the entire computer to it —
+      is to run such things under an emulator.  In which case,
+      we recommend Bochs.
+
+Bochs:
+  type: Language Implementation
+  links:
+  - 'http://www.bochs.org/'
+  # I think it's BSD, but
+  license: Unknown license
+  # I think...
+  host-language: C99
+  implementation-type: interpreter
 
 # heh.  for sf2tab:
 lookup table:
@@ -165,24 +226,18 @@ dummy:
       If an implementation is in "Haskell" we expect you to be able to deal with that.
       If an implementation is in "Python" we expect you to be able to deal with that.
       If an implementation is in "Erlang" we expect you to be able to deal with that.
-    apple-befunge:
+      If an implementation is in "Java" we expect you to know that:
       requirements:
-        run: apple_ii
+        build: jdk6 not_required
+        run: jre6
     befos:
       requirements:
         build: nasm and ansi_c and perl5
         run: x86
-    etcha:
-      requirements:
-        build: jdk6 not_required
-        run: jre6
     illberon:
       requirements:
         build: bcc
         run: perl5
-    illgol:
-      requirements:
-        build: bcc
     illgola-2:
       requirements:
         build: bcc
@@ -195,39 +250,11 @@ dummy:
       requirements:
         build: ansi_c
         run: perl5
-    pail:
-      requirements:
-        run: hs and parsec
-    pl-goto.net:
-      requirements:
-        run: hs and parsec and ilasm
     redgreen:
       requirements:
         build: alpaca
         run: perl5
-    rube:
-      requirements:
-        build: bcc or ansi_c or (c99 and posix)
-        run: ansiterm
-    rube_ii:
-      requirements:
-        build: bcc or ansi_c
-        run: ansiterm
     shelta:
       requirements:
         build: nasm
         run: msdos
-    whothm:
-      requirements:
-        build: jdk6 not_required
-        run: jre6
-    worb:
-      requirements:
-        run: perl5 or yoob
-    yoob:
-      requirements:
-        build: jdk6 not_required
-        run: jre6
-    ypsilax:
-      requirements:
-        run: perl5 or yoob

@@ -198,6 +198,7 @@ bef:
   license: BSD
   implementation-type: interpreter
   host-language: ANSI C
+  can-be-built-with-borland-c: true
 
 
 Befunge-97:
@@ -1153,6 +1154,7 @@ ILLGOL.COM:
   source-language: ILLGOL
   host-language: ANSI C
   target-language: x86 machine code
+  can-be-built-with-borland-c: true
 
 Illgola-2:
   type: Programming Language
@@ -1838,6 +1840,8 @@ Pail.lhs:
   license: BSD
   implementation-type: interpreter
   host-language: Haskell
+  required-libraries:
+  - Parsec
 
 
 Pixley:
@@ -1999,7 +2003,11 @@ rube.c:
   reference: true
   license: Freely Redistributable
   implementation-type: interpreter
+  # can also be built with C99
   host-language: ANSI C
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - ANSI Terminal
 
 
 Sally:

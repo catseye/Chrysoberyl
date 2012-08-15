@@ -199,6 +199,8 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  required-libraries:
+  - Parsec
 
 
 Ale:

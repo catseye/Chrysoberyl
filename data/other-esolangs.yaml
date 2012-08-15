@@ -46,8 +46,20 @@ reMorse:
   esowiki: 'RUBE II: Das Klickenklacker'
   dimensionality: 2
   reference-distribution: RUBE II distribution
-  # patently false
-  implementations: []
+  implementations:
+  - rube_ii
+
+rube_ii:
+  type: Language Implementation
+  in-distribution: RUBE II distribution
+  reference: true
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: ANSI C
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - ANSI Terminal
+
 
 Spoon:
   type: Programming Language
@@ -90,6 +102,7 @@ thue.c:
   license: Unknown license
   implementation-type: interpreter
   host-language: ANSI C
+  can-be-built-with-borland-c: true
 
 thue.py:
   type: Language Implementation
