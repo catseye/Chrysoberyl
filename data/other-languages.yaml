@@ -10,8 +10,11 @@ ANSI C:
 C99:
   type: Programming Language
   genre: Production language
-  commentary: |-
-    Generally implies POSIX, too.
+  commentary: |
+    If an implementation of something here is written in C99,
+    that implies you need POSIX to compile it, too.
+    But some things here written in C99 can also be compiled as
+    ANSI C by defining a symbol -- see the Makefile as appropriate.
   computational-class: Finite-automata-complete
   has-reference-distribution: false
   implementations: []
@@ -30,6 +33,9 @@ Perl:
   has-reference-distribution: false
   implementations: []
   authors: []
+  commentary: |
+    We mean Perl 5 here; probably Perl 5.10 is the best version to
+    make sure everything runs.
 Python:
   type: Programming Language
   genre: Production language
@@ -74,6 +80,8 @@ Lua:
   has-reference-distribution: false
   implementations: []
   authors: []
+  commentary: |
+    We mean Lua 5.0 here.
 MSIL:
   type: Programming Language
   genre: Production language
@@ -145,3 +153,81 @@ Wireworld:
   has-reference-distribution: false
   implementations: []
   authors: []
+
+dummy:
+  type: type
+  unsorted-requirements:
+    what: |
+      If an implementation is in "ANSI C" we expect you to be able to deal with that.
+      If an implementation is in "Perl" we expect you to be able to deal with that.
+      If an implementation is in "Scheme" we expect you to be able to deal with that.
+      If an implementation is in "Lua" we expect you to be able to deal with that.
+      If an implementation is in "Haskell" we expect you to be able to deal with that.
+      If an implementation is in "Python" we expect you to be able to deal with that.
+      If an implementation is in "Erlang" we expect you to be able to deal with that.
+    apple-befunge:
+      requirements:
+        run: apple_ii
+    befos:
+      requirements:
+        build: nasm and ansi_c and perl5
+        run: x86
+    etcha:
+      requirements:
+        build: jdk6 not_required
+        run: jre6
+    illberon:
+      requirements:
+        build: bcc
+        run: perl5
+    illgol:
+      requirements:
+        build: bcc
+    illgola-2:
+      requirements:
+        build: bcc
+        run: perl5
+    illgolpp:
+      requirements:
+        build: bcc
+        run: perl5
+    n-dcnc:
+      requirements:
+        build: ansi_c
+        run: perl5
+    pail:
+      requirements:
+        run: hs and parsec
+    pl-goto.net:
+      requirements:
+        run: hs and parsec and ilasm
+    redgreen:
+      requirements:
+        build: alpaca
+        run: perl5
+    rube:
+      requirements:
+        build: bcc or ansi_c or (c99 and posix)
+        run: ansiterm
+    rube_ii:
+      requirements:
+        build: bcc or ansi_c
+        run: ansiterm
+    shelta:
+      requirements:
+        build: nasm
+        run: msdos
+    whothm:
+      requirements:
+        build: jdk6 not_required
+        run: jre6
+    worb:
+      requirements:
+        run: perl5 or yoob
+    yoob:
+      requirements:
+        build: jdk6 not_required
+        run: jre6
+    ypsilax:
+      requirements:
+        run: perl5 or yoob

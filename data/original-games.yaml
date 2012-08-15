@@ -31,6 +31,7 @@
 'Bubble Escape 2K':
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
+  prebuilt-in-distribution: true
   license: BSD
   host-language: Ophis Assembler
   host-language-version: "2.0"
@@ -75,8 +76,10 @@
   host-language: Perl
   # TODO: we should handle language versions better than this
   host-language-version: "5.8"
-  run-requirements: ANSI Terminal
+  run-requirements:
+  - ANSI Terminal
   interface: ANSI Terminal
+
 
 'Zzrk':
   subtitle: Adventures in the Great Unsaturated Grammar

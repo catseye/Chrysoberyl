@@ -1,4 +1,5 @@
 # encoding: UTF-8
+# TODO: clean this up!
 ribos: 
   type: Distribution
   distribution-of: ribos
@@ -17,6 +18,9 @@ ribos:
   - cbm
   - gfx
   - vintage
+  requirements:
+    build: ophis py not_required
+    run: c64
   releases: 
   - version: "1.0"
     revision: "2007.0410"
@@ -43,6 +47,9 @@ petulant:
   - gfx
   - pd
   - vintage
+  requirements:
+    build: ophis py not_required
+    run: c64
   releases: 
   - version: "1.0"
     revision: "2008.0401"

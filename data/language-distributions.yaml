@@ -91,6 +91,7 @@ beta-Juliet distribution:
   github: catseye/beta-Juliet
   bitbucket: catseye/beta-juliet
   issue-tracker: github
+  has-makefile: true
   releases: 
   - version: "2.0"
     revision: "2012.0714"
@@ -144,6 +145,7 @@ Bhuna distribution:
   github: catseye/Bhuna
   bitbucket: catseye/bhuna
   issue-tracker: github
+  has-makefile: true
   development-stage: archival
   releases: 
   - version: "0.1"
@@ -340,6 +342,7 @@ FBBI distribution:
   bitbucket: catseye/fbbi
   github: catseye/FBBI
   issue-tracker: github
+  has-makefile: true
   releases: 
   - version: "1.0"
     revision: "2011.1003"
@@ -356,6 +359,7 @@ Flobnar distribution:
   bitbucket: catseye/flobnar
   github: catseye/Flobnar
   issue-tracker: github
+  has-falderal-tests: true
   releases: 
   - version: "0.1"
     revision: "2011.1214"
@@ -490,6 +494,7 @@ Iphigeneia distribution:
   bitbucket: catseye/iphigeneia
   github: catseye/Iphigeneia
   issue-tracker: github
+  has-falderal-tests: true
   releases: 
   - version: "1.0"
     revision: "2011.1010"
@@ -526,6 +531,7 @@ Kangaroo Iceberg distribution:
   bitbucket: catseye/kangaroo-iceberg
   github: catseye/Kangaroo-Iceberg
   issue-tracker: github
+  has-makefile: true
   releases: 
   - version: "0.5"
     revision: "2011.0509"
@@ -563,6 +569,7 @@ Larabee distribution:
 Madison distribution: 
   type: Distribution
   distribution-of: Madison
+  has-falderal-tests: true
   releases: 
   - version: "0.1"
     revision: "2011.1202"
@@ -688,6 +695,7 @@ Pail distribution:
   bitbucket: catseye/pail
   github: catseye/Pail
   issue-tracker: github
+  has-falderal-tests: true
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -717,6 +725,7 @@ Pixley distribution:
   bitbucket: catseye/pixley
   github: catseye/Pixley
   issue-tracker: github
+  has-falderal-tests: true
   releases: 
   - version: "1.0"
     revision: "2009.0501"
@@ -741,6 +750,7 @@ PL-{GOTO}.NET distribution:
   bitbucket: catseye/pl-goto-.net
   github: catseye/PL-GOTO.NET
   issue-tracker: github
+  has-falderal-tests: true
   releases: 
   - version: "1.1"
     revision: "2012.0619"
@@ -844,6 +854,7 @@ Sally distribution:
   bitbucket: catseye/sally
   github: catseye/Sally
   issue-tracker: github
+  has-makefile: true
   releases: 
   - version: "1.0"
     revision: "2003.1104"
@@ -1122,6 +1133,7 @@ Xigxag distribution:
 Xoomonk distribution: 
   type: Distribution
   distribution-of: Xoomonk
+  has-falderal-tests: true
   releases: 
   - version: "0.1"
     revision: "2011.0807"

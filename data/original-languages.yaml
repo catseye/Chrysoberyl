@@ -264,6 +264,7 @@ b_juliet.pl:
   in-distribution: beta-Juliet distribution
   license: BSD
   implementation-type: interpreter
+  # but you can also build it with ANSI C
   host-language: C99
 
 
@@ -393,6 +394,7 @@ braktif.alp:
   type: Language Implementation
   reference: true
   in-distribution: Braktif distribution
+  prebuilt-in-distribution: true
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
@@ -539,6 +541,7 @@ circute.alp:
   type: Language Implementation
   reference: true
   in-distribution: Circute distribution
+  prebuilt-in-distribution: true
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
@@ -1297,6 +1300,7 @@ jaccia.alp:
   type: Language Implementation
   reference: true
   in-distribution: Jaccia and Jacciata distribution
+  prebuilt-in-distribution: true
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
@@ -1305,6 +1309,7 @@ jacciata.alp:
   type: Language Implementation
   reference: true
   in-distribution: Jaccia and Jacciata distribution
+  prebuilt-in-distribution: true
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
@@ -1948,6 +1953,7 @@ redgreen.alp:
   type: Language Implementation
   reference: true
   in-distribution: REDGREEN distribution
+  prebuilt-in-distribution: true
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
