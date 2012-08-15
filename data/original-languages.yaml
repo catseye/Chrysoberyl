@@ -1305,6 +1305,8 @@ Kangaroo Iceberg:
   reference-distribution: Kangaroo Iceberg distribution
   implementations:
   - kiceberg
+  see-also:
+  - GraNoLa/M
 
 kiceberg:
   type: Language Implementation
@@ -1403,6 +1405,8 @@ Madison:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  paradigms:
+  - Term-rewriting
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
   sample: |
@@ -1728,6 +1732,7 @@ Oozlybub and Murphy:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 2010
+  esowiki: Oozlybub_and_Murphy
   sample: |
     VARIABLES ARE p /p*/, p /q*/.
     dynast(3) <->
@@ -1887,6 +1892,8 @@ REDGREEN:
   - television program
   influences:
   - RUBE
+  dimensionality: 2
+  esowiki: REDGREEN
   sample: |2
                                        # #
                      ......            # #
@@ -1937,6 +1944,8 @@ RUBE:
   etymology:
     - masculine given name
     - acronym
+  esowiki: RUBE
+  dimensionality: 2
   notable: true
   sample: |2
       0a21646c726f77202c6f6c6c6548
@@ -1975,6 +1984,7 @@ Sally:
   inception-date: 2000
   etymology:
   - feminine given name
+  esowiki: Sally
   sample: |
     stdlib
     int factorial int if $1 mul $1 factorial sub $1 1 1
@@ -2007,6 +2017,7 @@ Sbeezg:
   inception-date: 2002
   etymology:
   - neologism
+  esowiki: Sbeezg
   implementations:
   - sbeezg.erl
   sample: |

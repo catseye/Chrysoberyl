@@ -707,16 +707,10 @@ Jaccia and Jacciata distribution:
 
 Kangaroo Iceberg distribution: 
   type: Distribution
-  title: The Kangaroo Iceberg Programming Language
-  summary: Interpreter for <b>Kangaroo Iceberg</b>
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Kangaroo Iceberg
-  esowiki: None
-  keywords: 
-  - bsdl
-  - c
-  - eso
-  - lang
+  bitbucket: catseye/kangaroo-iceberg
+  github: catseye/Kangaroo-Iceberg
+  issue-tracker: github
   releases: 
   - version: "0.5"
     revision: "2011.0509"
@@ -730,9 +724,6 @@ Kangaroo Iceberg distribution:
     revision: "2007.0406"
     latest: false
     url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
-  references: 
-  - project: tamerlane
-  - project: granolam
 
 Larabee distribution: 
   type: Distribution
@@ -756,16 +747,7 @@ Larabee distribution:
 
 Madison distribution: 
   type: Distribution
-  title: The Madison Proof-Checking Language
-  summary: Specification and tests for the <b>Madison</b> proof checker
-  byline: Conceived by Chris Pressey
   distribution-of: Madison
-  esowiki: None
-  keywords: 
-  - lang
-  - rew
-  - spec
-  - theory
   releases: 
   - version: "0.1"
     revision: "2011.1202"
@@ -865,14 +847,7 @@ Nhohnhehr distribution:
 
 Oozlybub and Murphy distribution: 
   type: Distribution
-  title: The Oozlybub and Murphy Programming Language
-  summary: Specification of <b>Oozlybub and Murphy</b>
-  byline: Conceived by Chris Pressey
   distribution-of: Oozlybub and Murphy
-  esowiki: Oozlybub_and_Murphy
-  keywords: 
-  - lang
-  - spec
   releases: 
   - version: "1.1"
     revision: "2011.0427"
@@ -885,15 +860,7 @@ Oozlybub and Murphy distribution:
 
 Opus-2 distribution: 
   type: Distribution
-  title: Opus-2
-  summary: Description of the abstract conlang <b>Opus-2</b>
-  byline: Conceived by Chris Pressey
   distribution-of: Opus-2
-  esowiki: None
-  keywords: 
-  - eso
-  - lang
-  - spec
   releases: 
   - version: "0.5"
     revision: "2001.0325"
@@ -1003,17 +970,7 @@ Quylthulg distribution:
 
 REDGREEN distribution: 
   type: Distribution
-  title: The REDGREEN Cellular Automaton
-  summary: The <b>REDGREEN</b> cellular automaton
-  byline: Conceived and implemented by Chris Pressey; with Apologies to Steve Smith
   distribution-of: REDGREEN
-  esowiki: REDGREEN
-  keywords: 
-  - 2d
-  - bsdl
-  - ca
-  - eso
-  - lang
   releases: 
   - version: "1.1"
     revision: "2011.1214"
@@ -1031,23 +988,10 @@ REDGREEN distribution:
     revision: "2007.0503"
     latest: false
     url: http://catseye.tc/distfiles/redgreen-2007.0503.zip
-  references: 
-  - project: rube
-  - project: rube_ii
 
 RUBE distribution: 
   type: Distribution
-  title: The RUBE Programming Language
-  summary: Interpeter/debugger for the <b>RUBE</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: RUBE
-  esowiki: RUBE
-  keywords: 
-  - 2d
-  - c
-  - eso
-  - freere
-  - lang
   releases: 
   - version: "1.5"
     revision: "2011.0119"
@@ -1069,9 +1013,6 @@ RUBE distribution:
     revision: "1997.0715"
     latest: false
     url: http://catseye.tc/distfiles/rube-1997.0715.zip
-  references: 
-  - project: rube_ii
-  - project: redgreen
 
 RUBE II distribution: 
   type: Distribution
@@ -1084,15 +1025,10 @@ RUBE II distribution:
 
 Sally distribution: 
   type: Distribution
-  title: The Sally Programming Language
-  summary: Compiler for the <b>Sally</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Sally
-  esowiki: None
-  keywords: 
-  - bsdl
-  - c
-  - lang
+  bitbucket: catseye/sally
+  github: catseye/Sally
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2003.1104"
@@ -1109,16 +1045,10 @@ Sally distribution:
 
 Sbeezg distribution: 
   type: Distribution
-  title: The sbeezg Programming Language
-  summary: Interpreter for the <b>Sbeezg</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Sbeezg
-  esowiki: Sbeezg
-  keywords: 
-  - bsdl
-  - erl
-  - eso
-  - lang
+  bitbucket: catseye/sbeezg
+  github: catseye/Sbeezg
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0317"
