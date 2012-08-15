@@ -1,6 +1,7 @@
 # encoding: UTF-8
-# favourite video games
-# (ranking should be external)
+# top 10 favourite video games (ranking should be external)
+# excluding any and all non-"action" games from this list
+# excluding any and all Commodore 64 games from this list
 Typhoon Thompson:
   type: Game
   genre: Shoot-'em-Up
@@ -61,6 +62,9 @@ Katamari Damacy:
   controls: dual analog joystick
   implementations: []
   authors: []
+  # but it's not like i've collected every special item or anything
+  solved-by:
+  - Chris Pressey
   wikipedia: Katamari_Damacy
   commentary: |
     An extremely original game — sort of a four-dimensional 
@@ -82,3 +86,87 @@ Liquid Kids:
     Story, since you play what appears to be a platypus, and there are oblique
     references to TNZS (in one of the secret chambers, the platforms are arranged
     in the shape of the kiwi.)
+
+
+Lost Tomb:
+  type: Game
+  genre: Shoot-'em-Up
+  platform: Arcade
+  controls: dual joystick
+  implementations: []
+  authors: []
+  wikipedia: Lost_Tomb
+  commentary: |
+    Gnarly game, but very hard.  I especially liked the 3D effect on the
+    intermediate levels with the staircases.  (Even though it's awkward to
+    control and far too easy to die on these.)  The "word from our
+    sponsor" interruptions are also quite cute.
+    
+    There is something coherent and unified about the design of
+    this game that you don't often see in other games; you get the impression
+    that it was *crafted* rather than simply produced.
+    
+    Well, maybe I'm overstating it a bit, but you get the idea.
+
+
+New Zealand Story, The:
+  type: Game
+  genre: Platformer
+  platform: Arcade
+  controls: joystick and 2 buttons
+  implementations: []
+  authors: []
+  wikipedia: The_New_Zealand_Story
+  commentary: |
+    "This game is dedicated to all maze fans."  However, that should not deter
+    fans of kiwis, archery, flying machines shaped like bears' heads,
+    laser pistols, magical fireball-belching staffs, and the like.
+
+
+CoolBoarders 2:
+  type: Game
+  genre: Sports
+  platform: PlayStation
+  controls: D-pad and 6 button
+  implementations: []
+  authors: []
+  solved-by:
+  - Chris Pressey
+  wikipedia: CoolBoarders_2
+  commentary: |
+    The only sports game on my list, but that's probably because it doesn't
+    really feel anything like sport.  It's only barely realistic — for example,
+    there is clearly no limit to the amount of spin you can impart to
+    your jump.  The longer you keep holding X and right, the more rotational
+    velocity you'll have when you catch air.  Whee!  And it has another
+    soundtrack that can't be beat, too.
+
+
+Super Monkeyball 2:
+  type: Game
+  genre: Maze-Runner
+  platform: GameCube
+  controls: analog joystick
+  implementations: []
+  authors: []
+  wikipedia: Super Monkeyball 2
+  commentary: |
+    I didn't think I'd like this one, since I really don't like those wooden mazes
+    that you tilt with the two dials — which is essentially what this game
+    is.  But somehow it manages to be fun.  Especially when you start barrelling
+    down a spiral, completely out of control.  The party games I could mostly
+    do without, with the exception of racing, which is at least as fun as the main game.
+
+
+Cloak and Dagger:
+  type: Game
+  genre: Shoot-'em-Up
+  platform: Arcade
+  controls: dual joystick
+  implementations: []
+  authors: []
+  wikipedia: Cloak_and_Dagger
+  commentary: |
+    There's something that's always attracted me about being able
+    to shoot out bits of wall.  The boxes and conveyor belts hold a similar
+    draw.  Not sure if I can put my finger on exactly what it is, though.

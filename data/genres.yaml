@@ -43,3 +43,5 @@ Maze-Runner:
   type: Genre
 Platformer:
   type: Genre
+Sports:
+  type: Genre
