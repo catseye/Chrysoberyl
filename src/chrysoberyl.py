@@ -79,6 +79,9 @@ def check_chrysoberyl_data(data):
           check_scalar_ref(data, key, node, 'host-language',
                            type_='Programming Language')
           check_optional_list_ref(data, key, node, 'authors')
+          check_optional_list_ref(data, key, node, 'build-requirements')
+          check_optional_list_ref(data, key, node, 'required-libraries')
+          check_optional_list_ref(data, key, node, 'run-requirements')
 
       if type_ == 'Language Implementation':
           check_scalar_ref(data, key, node, 'implementation-type',

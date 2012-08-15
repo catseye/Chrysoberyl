@@ -90,7 +90,8 @@
   license: BSD
   inception-date: ca 1999?
   host-language: Erlang
-  run-requirements: Tk/Tcl
+  required-libraries:
+  - Tcl/Tk
   abstract: |-
     This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
   interface: GUI window
