@@ -37,3 +37,9 @@ Roguelike:
   type: Genre
 Video Game:
   type: Genre
+Maze-Runner:
+  type: Genre
+"Shoot-'em-Up":
+  type: Genre
+Platformer:
+  type: Genre

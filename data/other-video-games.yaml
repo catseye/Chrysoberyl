@@ -1,0 +1,84 @@
+# encoding: UTF-8
+# favourite video games
+# (ranking should be external)
+Typhoon Thompson:
+  type: Game
+  genre: Shoot-'em-Up
+  # meaning, I got to the end of it.  I think.
+  solved-by:
+  - Chris Pressey
+  platform: Amiga
+  controls: mouse
+  implementations: []
+  authors: []
+  wikipedia: Typhoon_Thompson
+  commentary: |
+    Quite possibly the cutest game ever.
+    
+    Not actually a shoot-'em-up, as the author pointed out in that one
+    interview which I'll have to link in here at some point.
+    
+    Was also released for the Atari ST, but I never played it there.
+
+
+Pepper II:
+  type: Game
+  genre: Maze-Runner
+  platform: Arcade
+  controls: joystick
+  implementations: []
+  authors: []
+  wikipedia: Pepper_II
+  commentary: |
+    To the untrained eye, it's a ripoff of Pac-Man: fill in all the regions
+    instead of eat all the dots.  But there's something about it that sets it
+    apart — maybe it's that the action is more frenetic and somehow
+    smoother (if slightly buggier,) maybe it's because the
+    strategy is different (more emphasis on getting the power-ups just to
+    stay alive.)
+
+
+City Connection:
+  type: Game
+  genre: Platformer
+  platform: Arcade
+  controls: joystick and 1 button
+  implementations: []
+  authors: []
+  wikipedia: City_Connection
+  commentary: |
+    A jumping minivan?  Yes, a jumping minivan.  And European police.
+    And a devil-cat-thing with a checkered flag.  And a balloon that warps
+    you to other cities.  How can you not love it?
+    
+    Not sure if it's truly a platformer, though.
+
+
+Katamari Damacy:
+  type: Game
+  genre: Maze-Runner
+  platform: PlayStation 2
+  controls: dual analog joystick
+  implementations: []
+  authors: []
+  wikipedia: Katamari_Damacy
+  commentary: |
+    An extremely original game — sort of a four-dimensional 
+    maze game where the fourth dimension is *scale*.  Rolling things
+    up is also surprisingly satisfying and disturbingly addictive.  To top it all off,
+    the soundtrack can't be beat.
+
+
+Liquid Kids:
+  type: Game
+  genre: Platformer
+  platform: Arcade
+  controls: joystick and 2 buttons
+  implementations: []
+  authors: []
+  wikipedia: Liquid_Kids
+  commentary: |
+    Very cute.  Quite possibly a sequel or pseudo-sequel to The New Zealand
+    Story, since you play what appears to be a platypus, and there are oblique
+    references to TNZS (in one of the secret chambers, the platforms are arranged
+    in the shape of the kiwi.)
