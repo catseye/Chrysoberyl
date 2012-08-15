@@ -1527,7 +1527,10 @@ MDPN:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  esowiki: MDPN
   inception-date: 1999
+  # in terms of the languages it describes
+  dimensionality: 2
   etymology:
   - acronym
   sample: |2
@@ -2174,6 +2177,7 @@ Squishy2K:
   auspices:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
+  esowiki: Squishy2K
   inception-date: Sep 2000
   sample: |
     * main { start many finish? "Hello, world!"! }
@@ -2209,6 +2213,7 @@ Strelnokoff:
   - surname
   - fictional
   - television show
+  esowiki: Strelnokoff
   sample: |
     REM HELLO WORLD IN STRELNOKOFF
     REM CHRIS PRESSEY MARCH 24 2001
@@ -2402,6 +2407,9 @@ Version:
     for flow control; all  instructions which match the current ignorance pattern
     are ignored during execution.
   inception-date: Sep 2001
+  esowiki: Version
+  paradigms:
+  - Regular-expression-based
   sample: |
     START: ROOM = "VALLEY|BROOK|GLADE"
     CONT: IGNORE = ROOM
@@ -2452,6 +2460,8 @@ Whothm:
   - Cat's Eye Technologies
   inception-date: Jun 28, 2010
   computational-class: known not Turing-complete
+  # in output, at least, this is true:
+  dimensionality: 2
   sample: |
     r := (0, 0, 1, 2);
     s := (0, 0, 1, 2);
@@ -2472,6 +2482,8 @@ Whothm:
   reference-distribution: Whothm distribution
   implementations:
   - tc.catseye.whothm
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/jwhothm/'
 
 tc.catseye.whothm:
   type: Language Implementation
@@ -2500,6 +2512,7 @@ Wierd:
   influences:
   - Befunge-93
   notable: true
+  dimensionality: 2
   sample: |
     *
      *
@@ -2708,8 +2721,13 @@ Ypsilax:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  esolang: Ypsilax
   computational-class: believed Turing-complete
   inception-date: Aug 2001
+  paradigms:
+  - Grid-rewriting
+  - Reflective
+  dimensionality: 2
   etymology:
   - neologism
   sample: |
@@ -2727,6 +2745,8 @@ Ypsilax:
   implementations:
   - ypsilax.pl
   - tc.catseye.yoob.ypsilax
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 ypsilax.pl:
   type: Language Implementation
@@ -2759,6 +2779,7 @@ ZOWIE:
   - Cat's Eye Technologies
   inception-date: Dec 29, 2009
   computational-class: shown Turing-complete
+  esowiki: ZOWIE
   influences:
   - BitChanger
   sample: |

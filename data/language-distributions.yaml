@@ -789,6 +789,9 @@ Madison distribution:
 Maentwrog distribution: 
   type: Distribution
   distribution-of: Maentwrog
+  bitbucket: catseye/maentwrog
+  github: catseye/Maentwrog
+  issue-tracker: github
   description: |-
     Also included in this distribution, just for fun, are some other
     contemporaneous C programs of mine: an RPN
@@ -845,16 +848,7 @@ Mascarpone distribution:
 
 MDPN distribution: 
   type: Distribution
-  title: The MDPN Meta-Language
-  summary: <b>M</b>ulti-<b>D</b>irectional <b>P</b>attern <b>N</b>otation
-  byline: Conceived by Chris Pressey
   distribution-of: MDPN
-  esowiki: MDPN
-  keywords: 
-  - 2d
-  - lang
-  - meta
-  - spec
   releases: 
   - version: "1.0"
     revision: "2004.0302"
@@ -1237,16 +1231,10 @@ SMITH distribution:
 
 Squishy2K distribution: 
   type: Distribution
-  title: The Squishy2K Programming Language
-  summary: Interpreter for the <b>Squishy2K</b> language
-  byline: Designed and implemented by Chris Pressey
   distribution-of: Squishy2K
-  esowiki: Squishy2K
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - perl
+  bitbucket: catseye/squishy2k
+  github: catseye/Squishy2K
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2000.1006"
@@ -1255,16 +1243,10 @@ Squishy2K distribution:
 
 Strelnokoff distribution: 
   type: Distribution
-  title: The Strelnokoff Programming Language
-  summary: Interpreter for the <b>Strelnokoff</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Strelnokoff
-  esowiki: Strelnokoff
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - perl
+  bitbucket: catseye/strelnokoff
+  github: catseye/Strelnokoff
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0324"
@@ -1390,19 +1372,10 @@ You are Reading the Name of this Esolang distribution:
 
 Velo distribution: 
   type: Distribution
-  title: The Velo Programming Language
-  summary: Spec and Interpreter for the <b>Velo</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    Velo
-        <a class="external" href="https://bitbucket.org/catseye/velo/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/Velo">git mirror on githib</a>.
   distribution-of: Velo
-  esowiki: None
-  keywords: 
-  - lang
-  - ruby
+  bitbucket: catseye/velo
+  github: catseye/Velo
+  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "2012.0714"
@@ -1411,17 +1384,10 @@ Velo distribution:
 
 Version distribution: 
   type: Distribution
-  title: The Version Programming Language
-  summary: Interpreter for the <b>Version</b> language
-  byline: Conceived and implemented by Chris Pressey
   distribution-of: Version
-  esowiki: Version
-  keywords: 
-  - bsdl
-  - eso
-  - lang
-  - perl
-  - regex
+  bitbucket: catseye/version
+  github: catseye/Version
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.1211"
@@ -1434,21 +1400,7 @@ Version distribution:
 
 Whothm distribution: 
   type: Distribution
-  title: The Whothm Drawing Language
-  summary: Definition and Implementation of the <b>Whothm</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    You can experiment with Whothm online in the <a href="http://catseye.tc/gallery/esolangs/jwhothm/">JWhothm exhibit</a>
-        in our <a href="http://catseye.tc/gallery/esolangs/">Gallery of Interactive Esolangs</a>.  Try it!
   distribution-of: Whothm
-  esowiki: Whothm
-  keywords: 
-  - 2d
-  - eso
-  - gfx
-  - java
-  - lang
-  - interact
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1465,19 +1417,10 @@ Whothm distribution:
 
 Wierd distribution: 
   type: Distribution
-  title: The Wierd Programming Language
-  summary: Interpreters for the <b>Wierd</b> language
-  byline: |-
-    Conceived by Chris Pressey; developed by Chris Pressey,
-    Ben Olmstead, and John Colagioia; implementations by John
-    Colagioia and Milo van Handel
   distribution-of: Wierd
-  esowiki: Wierd
-  keywords: 
-  - 2d
-  - c
-  - eso
-  - lang
+  bitbucket: catseye/wierd
+  github: catseye/Wierd
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0302"
@@ -1577,32 +1520,10 @@ Xoomonk distribution:
 
 Ypsilax distribution: 
   type: Distribution
-  title: The Ypsilax Programming Language
-  summary: Interpreter for the <b>Ypsilax</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    <p>The Perl implementation of Ypsilax requires
-        <a class="external" href="https://bitbucket.org/catseye/console-virtual/">Console::Virtual</a>
-        to run.
-        However, an appropriate version of this library (v2007.1122) is included in the Ypsilax distribution
-        as of v1.1-2011.1130, so there's nothing special you need to do to make this happen.</p>
-        <p>The Java implementation of Ypsilax runs inside the
-        <a class="external" href="https://bitbucket.org/catseye/yoob/">yoob</a>
-        framework.</p>
-  develop: |-
-    You can experiment with Ypsilax online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
   distribution-of: Ypsilax
-  esowiki: Ypsilax
-  keywords: 
-  - 2d
-  - bsdl
-  - eso
-  - java
-  - lang
-  - perl
-  - refl
-  - rew
-  - interact
+  bitbucket: catseye/ypsilax
+  github: catseye/Ypsilax
+  issue-tracker: github
   releases: 
   - version: "0.9"
     revision: "0.9"
@@ -1627,21 +1548,10 @@ Ypsilax distribution:
 
 ZOWIE distribution: 
   type: Distribution
-  title: The ZOWIE Programming Language
-  summary: Spec and Interpreter for the <b>ZOWIE</b> language
-  byline: Conceived and implemented by Chris Pressey
-  develop: |-
-    ZOWIE
-        <a class="external" href="https://bitbucket.org/catseye/zowie/">development</a> is hosted on
-        <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-        <a class="external" href="https://github.com/catseye/ZOWIE">git mirror on githib</a>.
   distribution-of: ZOWIE
-  esowiki: ZOWIE
-  keywords: 
-  - eso
-  - lang
-  - pd
-  - py
+  bitbucket: catseye/zowie
+  github: catseye/ZOWIE
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0325"
