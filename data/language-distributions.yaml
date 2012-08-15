@@ -36,7 +36,7 @@ Apple Befunge distribution:
 Arboretuum distribution: 
   type: Distribution
   distribution-of: Arboretuum
-  development-stage: dormant
+  development-stage: mature
   github: catseye/Arboretuum
   bitbucket: catseye/arboretuum
   issue-tracker: github
@@ -124,7 +124,7 @@ Beturing distribution:
   github: catseye/Beturing
   bitbucket: catseye/beturing
   issue-tracker: github
-  development-stage: dormant
+  development-stage: mature
   releases: 
   - version: "1.1"
     revision: "2011.1214"
@@ -191,7 +191,7 @@ Braktif distribution:
   github: catseye/Braktif
   bitbucket: catseye/braktif
   issue-tracker: github
-  development-stage: dormant
+  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2007.0503"
@@ -244,7 +244,7 @@ Circute distribution:
   github: catseye/Circute
   bitbucket: catseye/circute
   issue-tracker: github
-  development-stage: dormant
+  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2007.0503"

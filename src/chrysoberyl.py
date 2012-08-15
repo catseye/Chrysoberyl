@@ -71,11 +71,15 @@ def check_chrysoberyl_data(data):
       if type_ == 'Distribution':
           # (this has multiple possible types)
           check_scalar_ref(data, key, node, 'distribution-of')
+          check_optional_scalar_ref(data, key, node, 'development-stage',
+                                    type_='Development Stage')
 
       if type_.endswith(' Implementation'):
           check_scalar_ref(data, key, node, 'license', type_='License')
           check_optional_scalar_ref(data, key, node, 'in-distribution',
                                     type_='Distribution')
+          check_optional_scalar_ref(data, key, node, 'development-stage',
+                                    type_='Development Stage')
           check_scalar_ref(data, key, node, 'host-language',
                            type_='Programming Language')
           check_optional_list_ref(data, key, node, 'authors')
@@ -103,6 +107,10 @@ def check_chrysoberyl_data(data):
       if type_ == 'Programming Language':
           check_optional_scalar_ref(data, key, node, 'computational-class',
                                     type_='Computational Class')
+          check_optional_scalar_ref(data, key, node, 'member-of',
+                                    type_='Programming Language Family')
+          check_optional_scalar_ref(data, key, node, 'development-stage',
+                                    type_='Development Stage')
           if node.get('has-reference-distribution', True):
               check_scalar_ref(data, key, node, 'reference-distribution',
                                type_='Distribution')
