@@ -174,7 +174,7 @@ Befunge-93:
   influences:
   - Maentwrog
   - brainfuck
-  - FALSE
+  - "FALSE"
   sample: |2
      v    <
     >?"/",^
@@ -1659,7 +1659,7 @@ ndcnc.pl:
   implementation-type: compiler
   source-language: "'N-DCNC"
   host-language: Perl
-  target-language: FALSE
+  target-language: "FALSE"
 
 ndcnc.bf:
   type: Language Implementation
@@ -1667,7 +1667,7 @@ ndcnc.bf:
   implementation-type: compiler
   source-language: "'N-DCNC"
   host-language: Befunge-93
-  target-language: FALSE
+  target-language: "FALSE"
   broken: true
 
 
@@ -2320,7 +2320,7 @@ Strelnokoff:
     to a short-circuiting multiplication operator,) but a critical feature (arrays)
     has never yet been implemented.  The name "Strelnokoff" was taken from
     a fictional brand of vodka featured in a mock advertisement on the television
-    show [[SCTV]].
+    show SCTV.
   authors:
   - Chris Pressey
   auspices:

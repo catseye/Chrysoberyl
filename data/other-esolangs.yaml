@@ -13,11 +13,11 @@ BitChanger:
   has-reference-distribution: false
   implementations: []
 
-FALSE:
+"FALSE":
   type: Programming Language
   genre: Esolang
   computational-class: shown Turing-complete
-  esowiki: FALSE
+  esowiki: "FALSE"
   authors:
   - Wouter van Oortmerssen
   # patently false...
@@ -111,3 +111,14 @@ thue.py:
   license: Public Domain
   implementation-type: interpreter
   host-language: Python
+
+"Var'aq":
+  type: Programming Language
+  genre: Esolang
+  computational-class: unknown computational class
+  esowiki: "Var'aq"
+  has-reference-distribution: false
+  implementations: []
+  authors:
+  - Brian Connors
+

@@ -485,7 +485,8 @@ tc.catseye.yoob.twoill:
 2L:
   type: Programming Language
   genre: Esolang
-  authors: []
+  authors:
+  - Gregor Richards
   esowiki: 2L
   computational-class: unknown computational class
   has-reference-distribution: false

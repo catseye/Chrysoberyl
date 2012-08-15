@@ -2,6 +2,7 @@
 # encoding: UTF-8
 
 import os
+import re
 import sys
 
 import yaml
@@ -54,6 +55,15 @@ def check_optional_list_ref(data, key, node, property):
     if property in node:
         check_list_ref(data, key, node, property)
 
+def resolve_internal_links(data, key, property, text):
+    if text is None:
+        return True
+    for match in re.finditer(r'\[\[(.*?)\]\]', text):
+        link = match.group(1)
+        assert link in data, \
+            "'%s' mentions undefined '%s' in '%s'" % \
+            (key, link, property)
+
 def check_chrysoberyl_data(data):
     for key in data:
       node = data[key]
@@ -67,6 +77,21 @@ def check_chrysoberyl_data(data):
 
       if 'see-also' in node:
           check_list_ref(data, key, node, 'see-also')
+
+      if 'abstract' in node and 'description' in node:
+          assert False, "'%s' defines both 'abtsract' and 'description'" % key
+
+      description = None
+      if 'abstract' in node:
+          description = node['abstract']
+      if 'description' in node:
+          description = node['description']
+      resolve_internal_links(data, key, 'description', description)
+
+      commentary = None
+      if 'commentary' in node:
+          commentary = node['commentary']
+      resolve_internal_links(data, key, 'commentary', commentary)
 
       if type_ == 'Distribution':
           # (this has multiple possible types)
