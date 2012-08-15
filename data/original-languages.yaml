@@ -166,6 +166,7 @@ Befunge-93:
   # also: known not Turing-complete
   computational-class: can simulate some push-down automata
   esowiki: Befunge-93
+  jargon-file: http://jargon.watson-net.com/jargon.asp?w=Befunge
   authors:
   - Chris Pressey
   etymology:
@@ -180,13 +181,16 @@ Befunge-93:
      >"\",^
   notable: true
   significant: true
+  dimensionality: 2
   quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
   quotation-attribution: Mark Topham
   inception-date: Sep 1993
   reference-distribution: Befunge-93 distribution
   implementations:
   - bef
-  other-implementations: true
+  see-also:
+  - Funge-98
+  - Flobnar
 
 bef:
   type: Language Implementation
@@ -415,6 +419,7 @@ Burro:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  esowiki: Burro
   etymology:
   - spanish
   - farm animal
@@ -432,6 +437,8 @@ Burro:
   reference-distribution: Burro distribution
   implementations:
   - Burro.lhs
+  see-also:
+  - Cabra
 
 Burro.lhs:
   type: Language Implementation
@@ -459,6 +466,7 @@ Cabra:
   etymology:
   - spanish
   - farm animal
+  esowiki: Cabra
   influences:
   - Burro
   computational-class: known not Turing-complete
@@ -881,6 +889,10 @@ Funge-98:
   abstract: |
     Culmination of attempts to improve upon Befunge.  Seemingly everything
     except the kitchen sink was stuffed into it somehow.
+  quotation: |-
+    Taking programming in new directions... all four of them
+  quotation-attribution: |-
+    Jason
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -898,18 +910,29 @@ Funge-98:
      ^ <<
         G
         '
-  quotation: |-
-    Taking programming in new directions... all four of them
-  quotation-attribution: |-
-    Jason
-  "year": |-
-    1998
   reference-distribution: Funge-98 distribution
+  implementations: []
+
+Befunge-98:
+  type: Programming Language
+  genre: Esolang
+  member-of: Funge-98
+  has-reference-distribution: false
   implementations:
   - FBBI
+  # the following should be derivable, but isn't yet
+  authors:
+  - Chris Pressey
+  - Befunge Mailing List Working Group
 
 FBBI:
   type: Language Implementation
+  acronym-for: Flaming Bovine Befunge Interpreter
+  description: |
+    The _Flaming Bovine Befunge Interpreter_ is
+    Cat's Eye Technologies' implementation of Befunge-98, in ANSI C.
+    It was developed concurrently with the writing of the Funge-98
+    specification, and, until recently, suffered from several major bugs.
   reference: false
   in-distribution: FBBI distribution
   license: BSD
@@ -2285,6 +2308,7 @@ Tamerlane:
   auspices:
   - Cat's Eye Technologies
   inception-date: Aug 2000
+  esowiki: Tamerlane
   etymology:
   - masculine given name
   sample: |
@@ -2294,6 +2318,9 @@ Tamerlane:
     ?- 1 Point-A -> 0 Point-A @ Point-A
   reference-distribution: Tamerlane distribution
   implementations: []
+  see-also:
+  - Kangaroo Iceberg
+  - GraNoLa/M
 
 
 Treacle:

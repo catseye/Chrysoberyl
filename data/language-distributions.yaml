@@ -1,18 +1,7 @@
 # encoding: UTF-8
-# A naive dump from Cat's Eye Technologies' website's project database
 ALPACA distribution: 
   type: Distribution
   distribution-of: ALPACA
-  title: The ALPACA Meta-Language
-  summary: Compiler for the <b>ALPACA</b> language
-  byline: Conceived and implemented by Chris Pressey
-  esowiki: ALPACA
-  keywords: 
-  - bsdl
-  - ca
-  - lang
-  - meta
-  - perl
   releases: 
   - version: "0.94"
     revision: "2007.0502"
@@ -69,22 +58,10 @@ Arboretuum distribution:
     latest: false
     url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
 
+# this shall be merged with Befunge-93 at some point
 bef distribution: 
   type: Distribution
   distribution-of: Befunge-93
-  title: 'bef: Reference implementation of Befunge-93'
-  summary: Reference interpreter etc for <b>Befunge-93</b>
-  byline: by Chris Pressey
-  abstract: |-
-    <p/>
-  esowiki: None
-  keywords: 
-  - 2d
-  - bef
-  - bsdl
-  - c
-  - eso
-  - lang
   releases: 
   - version: "2.22"
     revision: "2011.0318"
@@ -94,43 +71,19 @@ bef distribution:
     revision: "2004.0920"
     latest: false
     url: http://catseye.tc/distfiles/bef-2.21.zip
-  references: 
-  - project: befunge93
-  - project: flobnar
 
 Befunge-93 distribution: 
   type: Distribution
   distribution-of: Befunge-93
-  title: The Befunge-93 Programming Language
-  summary: Documentation for <b>Befunge-93</b>
-  byline: Conceived and first implemented by Chris Pressey
-  abstract: |-
-    <p>Please note that this project contains only the
+  description: |
+    This distribution contains only the
     documentation for, and example programs in, the Befunge-93 programming
-    language.  Implementations and other tools can be found at the links
-    below.</p>
-  develop: |-
-    You can experiment with Befunge-93 online in the <b>yoob</b> Java applet: <a href="http://catseye.tc/gallery/esolangs/yoob/">http://catseye.tc/gallery/esolangs/yoob/</a>.  Try it!
-  esowiki: Befunge-93
-  keywords: 
-  - 2d
-  - bef
-  - eso
-  - lang
-  - spec
-  - interact
+    language.
   releases: 
   - version: "1.0"
     revision: "2004.0920"
     latest: true
     url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
-  references: 
-  - project: bef
-  - project: funge98
-  - project: flobnar
-  - title: Befunge Jargon File Entry
-    desc: Citation in The New Hacker's Dictionary
-    url: http://jargon.watson-net.com/jargon.asp?w=Befunge
 
 beta-Juliet distribution: 
   type: Distribution
@@ -246,15 +199,9 @@ Braktif distribution:
 Burro distribution: 
   type: Distribution
   distribution-of: Burro
-  title: The Burro Programming Language
-  summary: Interpreter and docs for the <b>Burro</b> language
-  byline: Designed and implemented by Chris Pressey
-  esowiki: None
-  keywords: 
-  - eso
-  - hs
-  - lang
-  - theory
+  github: catseye/Burro
+  bitbucket: catseye/burro
+  issue-tracker: github
   releases: 
   - version: "2.0"
     revision: "2011.0525"
@@ -268,22 +215,13 @@ Burro distribution:
     revision: "2007.1026"
     latest: false
     url: http://catseye.tc/distfiles/burro-2007.1026.zip
-  references: 
-  - project: cabra
 
 Cabra distribution: 
   type: Distribution
   distribution-of: Cabra
-  title: The Cabra Programming Language
-  summary: Interpreter and docs for the <b>Cabra</b> language
-  byline: Designed and implemented by Chris Pressey
-  esowiki: None
-  keywords: 
-  - bsdl
-  - eso
-  - hs
-  - lang
-  - theory
+  github: catseye/Cabra
+  bitbucket: catseye/cabra
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -297,8 +235,6 @@ Cabra distribution:
     revision: "2007.1101"
     latest: false
     url: http://catseye.tc/distfiles/cabra-2007.1101.zip
-  references: 
-  - project: burro
 
 Circute distribution: 
   type: Distribution
@@ -400,29 +336,10 @@ Etcha distribution:
 
 FBBI distribution: 
   type: Distribution
-  # XXX wrong.
-  distribution-of: Funge-98
-  title: Flaming Bovine Befunge Interpreter
-  summary: Interpreter for the <b>Befunge-98</b> language
-  byline: Implemented by Chris Pressey
-  abstract: |-
-    <p>The <dfn>Flaming Bovine Befunge Interpreter</dfn> is
-        Cat's Eye Technologies' implementation of Befunge-98, in ANSI C.
-        It was developed concurrently with the writing of the Funge-98
-        specification, and, until recently, suffered from several major bugs.</p>
-  develop: |-
-    FBBI
-         <a class="external" href="https://bitbucket.org/catseye/fbbi/">development</a> ishosted on
-         <a class="external" href="http://bitbucket.org/">Bitbucket</a>, with a
-         <a class="external" href="https://github.com/catseye/FBBI">git mirror on githib</a>.
-  esowiki: None
-  keywords: 
-  - 2d
-  - bef
-  - bsdl
-  - c
-  - eso
-  - lang
+  distribution-of: Befunge-98
+  bitbucket: catseye/fbbi
+  github: catseye/FBBI
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1003"
@@ -432,8 +349,6 @@ FBBI distribution:
     revision: "2004.0301"
     latest: false
     url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
-  references: 
-  - project: funge98
 
 Flobnar distribution: 
   type: Distribution
@@ -454,28 +369,15 @@ Flobnar distribution:
 Funge-98 distribution: 
   type: Distribution
   distribution-of: Funge-98
-  title: The Funge-98 Programming Language Family
-  summary: Documentation for <b>Funge-98</b>
-  byline: Conceived by the Befunge Mailing List Working Group
-  abstract: |-
-    <p>Please note that this project contains only
+  description: |
+    Please note that this project contains only
     the documentation and ancillary materials for Funge-98.
-    Implementations and other tools can be found in the links below.</p>
   esowiki: Funge-98
-  keywords: 
-  - 2d
-  - bef
-  - eso
-  - lang
-  - spec
   releases: 
   - version: "1.0"
     revision: "2004.0301"
     latest: true
     url: http://catseye.tc/distfiles/funge98-2004.0301.zip
-  references: 
-  - project: fbbi
-  - project: befunge93
 
 GraNoLa/M distribution: 
   type: Distribution
@@ -1098,23 +1000,12 @@ Strelnokoff distribution:
 
 Tamerlane distribution: 
   type: Distribution
-  title: The Tamerlane Programming Language
-  summary: Documents on the <b>Tamerlane</b> language
-  byline: Devised by Chris Pressey
   distribution-of: Tamerlane
-  esowiki: Tamerlane
-  keywords: 
-  - eso
-  - lang
-  - spec
   releases: 
   - version: "1.0"
     revision: "2001.0127"
     latest: true
     url: http://catseye.tc/distfiles/tamerlane-2001.0127.zip
-  references: 
-  - project: kiceberg
-  - project: granolam
 
 Thue distribution: 
   type: Distribution
