@@ -1,0 +1,54 @@
+# encoding: UTF-8
+miniscm:
+  type: Language Implementation
+  in-distribution: Minischeme distribution
+  license: Public Domain
+  # R4RS Scheme, maybe
+  implementation-of: Scheme
+  implementation-type: interpreter
+  host-language: ANSI C
+
+Minischeme distribution: 
+  type: Distribution
+  description: |
+    Cat's Eye Technologies' fork of the original Mini-scheme distribution.
+  distribution-of: miniscm
+  github: catseye/minischeme
+  issue-tracker: github
+  releases: []
+
+JaC64:
+  type: Tool Implementation
+  in-distribution: JaC64 distribution
+  license: GPL
+  implementation-of: Commodore 64
+  implementation-type: emulator
+  host-language: Java
+
+JaC64 distribution: 
+  type: Distribution
+  description: |
+    Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
+    a Java applet.
+  distribution-of: JaC64
+  github: catseye/JaC64
+  issue-tracker: github
+  releases: []
+
+OpenZz:
+  type: Language Implementation
+  in-distribution: OpenZz distribution
+  license: GPL
+  implementation-of: Zz
+  implementation-type: interpreter
+  host-language: C99
+
+OpenZz distribution: 
+  type: Distribution
+  description: |
+    Cat's Eye Technologies' fork of OpenZz, an open-source implementation
+    of the dynamic grammar-based language Zz.
+  distribution-of: OpenZz
+  github: catseye/OpenZz
+  issue-tracker: github
+  releases: []
