@@ -1,4 +1,6 @@
 # encoding: UTF-8
+GPL:
+  type: License
 BSD:
   type: License
 MIT:

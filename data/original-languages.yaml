@@ -5,7 +5,7 @@ ALPACA:
   acronym-for: A Language for Programming Arbitrary Cellular Automata
   abstract: |
     ALPACA is a meta-language for describing cellular automata. 
-  commentary: |-
+  commentary: |
     The acronym is not quite accurate, as the automata are not in fact arbitrary, but it's
     a nice acronym.
     
@@ -490,7 +490,7 @@ cabra.hs:
   license: Unknown license
   implementation-type: interpreter
   host-language: Haskell
-  commentary: |-
+  commentary: |
     No parser.
 
 
@@ -648,7 +648,7 @@ Eightebed:
     Eightebed was designed as a counter-example to Gregor Richards' claim that such
     a language would either need a garbage collector, or not actually implement `free`.
     Eightebed has a real `free` and has no garbage collector.
-  commentary: |-
+  commentary: |
     The name "Eightebed" came from a typo by [[Alise]] for the word "enlightened".
   etymology:
   - typo
@@ -860,7 +860,7 @@ Full Moon Fever:
     the usual machinery (syntax, parser, interpreter...)
     Lives on, in a somewhat distended form, as a sub-language of
     [[ILLGOL]].
-  commentary: |-
+  commentary: |
     I believe the name "Full Moon Fever" came from a mis-remembering
     of the title of the song "Full Moon Boogie" by Jan Hammer and
     that other guy.
@@ -1521,7 +1521,7 @@ Maentwrog:
     probably counts as Chris Pressey's first proper programming language.
     It was implemented on his Amiga 500 in 1993, then lost and unearthed
     multiple times.  It is hardly remarkable, save that it spawned [[Befunge-93]].
-  commentary: |-
+  commentary: |
     There are no extant example programs from the time the language was first
     implemented — I tried writing the Sieve of Eratosthenes in it once,
     but never got it to work, probably because `==` was not

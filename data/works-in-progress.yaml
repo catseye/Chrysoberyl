@@ -1,0 +1,69 @@
+# encoding: UTF-8
+Deturgenchry:
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    Deturgenchry is an object-oriented language with both `self` and `other`,
+    and each of these is a continuation (or something.)
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2011
+  etymology:
+  - neologism
+  reference-distribution: Deturgenchry distribution
+  implementations:
+  - Deturgenchry.hs
+
+Deturgenchry.hs:
+  type: Language Implementation
+  reference: true
+  in-distribution: Deturgenchry distribution
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Haskell
+
+Deturgenchry distribution: 
+  type: Distribution
+  distribution-of: Deturgenchry
+  development-stage: work in progress
+  github: catseye/Deturgenchry
+  bitbucket: catseye/deturgenchry
+  issue-tracker: github
+  releases: []
+
+Pophery:
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    Pophery is an imperative string-rewriting language.  I know right?
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2010
+  etymology:
+  - neologism
+  reference-distribution: Pophery distribution
+  implementations:
+  - pophery.py
+
+pophery.py:
+  type: Language Implementation
+  reference: true
+  in-distribution: Pophery distribution
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Python
+
+Pophery distribution: 
+  type: Distribution
+  distribution-of: Pophery
+  development-stage: work in progress
+  github: catseye/Pophery
+  bitbucket: catseye/pophery
+  issue-tracker: github
+  releases: []
