@@ -998,6 +998,14 @@ Treacle distribution:
     latest: true
     url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
 
+Troupe distribution: 
+  type: Distribution
+  distribution-of: Troupe
+  bitbucket: catseye/troupe
+  github: catseye/Troupe
+  issue-tracker: github
+  releases: []
+
 Unlikely distribution: 
   type: Distribution
   distribution-of: Unlikely

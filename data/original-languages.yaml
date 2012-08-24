@@ -2435,6 +2435,24 @@ treacle.scm:
   implementation-type: interpreter
 
 
+Troupe:
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
+    fairly neatly to the definition of a Turing machine, so it is almost certainly
+    Turing-complete.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  computational-class: believed Turing-complete
+  inception-date: Jun 25, 2012
+  esowiki: Troupe
+  reference-distribution: Troupe distribution
+  implementations: []
+
+
 Unlikely:
   type: Programming Language
   genre: Esolang

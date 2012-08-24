@@ -3,7 +3,8 @@
   type: Distribution
   distribution-of: 'Console::Virtual'
   bitbucket: catseye/console-virtual
-  issue-tracker: 'https://bitbucket.org/catseye/console-virtual/issues'
+  github: catseye/Console-Virtual
+  issue-tracker: github
   project-page: 'http://catseye.tc/projects/console-virtual/'
   releases: 
   - version: "2.0"
