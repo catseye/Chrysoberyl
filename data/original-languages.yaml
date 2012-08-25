@@ -734,7 +734,7 @@ Etcha:
   type: Programming Language
   genre: Esolang
   abstract: |
-    Etcha is a two-dimensional descendant of Jeffry Johnston's [BitChanger].
+    Etcha is a two-dimensional descendant of [Jeffry Johnston]'s [BitChanger].
     Like BitChanger, it has four instructions; unlike BitChanger, its storage
     model is based on turtle graphics, which permits it to be immediately used
     for an alternative purpose: graphical composition. Unlike the turtle in LOGO
@@ -896,7 +896,7 @@ Funge-98:
   quotation: |-
     Taking programming in new directions... all four of them
   quotation-attribution: |-
-    Jason
+    Jason Reed
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
