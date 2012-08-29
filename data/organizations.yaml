@@ -1,0 +1,107 @@
+# encoding: UTF-8
+"Cat's Eye Technologies":
+  type: Organization
+  description: |
+    Cat's Eye Technologies is an independent esoteric programming language
+    ([[Esolang]]) concern run by [[Chris Pressey]].
+    
+    It was established in 1995 in Winnipeg, Manitoba, Canada, originally
+    as a custom software development and consulting outfit, serving several
+    local clients.
+    
+    As the years passed and Chris moved around the world and became more
+    and more involved in programming language issues, Cat's Eye
+    Technologies became less and less of a software consulting firm and
+    more and more of a... a what?  Whatever the hell it is now.
+    
+    A sponsoring organization for experimental programming language
+    development.
+    
+    An aegis for the curation, and appreciation, of programming languages
+    as art.  Especially weird ones.
+    
+    An excuse to refer to ourselves with a plural pronoun.
+    
+    We'd call it a brand, but we'd feel awfully dirty afterwards.
+    
+    We believe that, in an environment of rapidly changing requirements,
+    *maintainability of source code* has the greatest effect on software
+    quality, and that choice of [[Programming Language]]  profoundly
+    affects maintainability.
+    
+    That is our official excuse for being interested in experimental
+    programming languages.  The real reason is perhaps more frivolous.
+   
+    We also believe that [[Open-source]]
+    software has an important civic and didactic role in modern society. For
+    this reason, many of our software projects have been placed under
+    permissive and [OSI Certified](http://www.opensource.org/docs/certification_mark.php)
+    licenses such as the [[BSD]] license, and made available for public
+    download from the Internet.
+
+
+# thass right, catseye.tc is just a concept now.  and what a concept!
+catseye.tc:
+  type: Concept
+  description: |
+    `catseye.tc` is [[Cat's Eye Technologies]]' website:
+    [http://catseye.tc/](http://catseye.tc/).
+    
+    It was, until recently, the official distribution channel of Cat's Eye
+    Technologies' public offerings — mostly software distributions, but also some
+    electronics projects, unsolicited opinions, and other miscellany.  And in fact, it
+    will continue to be canonical, in many respects; but many software
+    services, such as public and distributed version-control repositories,
+    and issue tracking, are now handled offsite, at Cat's Eye Technologies'
+    accounts on 
+    [Github](https://github.com/catseye/) and
+    [Bitbucket](https://bitbucket.org/catseye/).
+    
+    In years past, the Cat's Eye Technologies web site was hosted on
+    various different domains.  From most recently to least recently, they
+    were:
+    
+    *   `catseye.tc`
+    *   `catseye.webhop.net`
+    *   `catseye.mine.nu:8080`
+    *   `www.catseye.mb.ca`
+    *   `www.cats-eye.com`
+    *   and way back in the mists of time, `www.pangea.ca/cet/`.
+    
+    This frequent relocation of our web address was done specifically to
+    please [[Phantom Hoover]].
+        
+    `catseye.tc` has turned out to be more-or-less permanent.  Feel free to
+    make links to this site using URLs that begin with
+    `http://catseye.tc/`. The `www` prefix is not required.
+        
+    Our aim in making this website is that it both conforms to W3C
+    standards and provides a reasonable user experience. Given the
+    sheer variation that exists between browsers, this is not always easy.
+        
+    We use [[CSS]] for layout of these pages; we no longer use tables, or
+    anything resembling tables (like `display: table-cell`), for layout.
+    
+    We do use [[Javascript]] on the pages on this site, but we try to do
+    so judiciously.
+    
+    Our webpages strive to
+    conform to the W3C Recommendation [XHTML 1.0
+    Strict](http://www.w3.org/TR/xhtml1/).
+    Most of the webpages on this site are generated from underlying XML
+    documents using XSLT stylesheets, even the pages which do not have any
+    significant data structure to them. This is not just for buzzword
+    conformance — it helps in catching XHTML errors early, as well as
+    providing formatting and layout that is consistent across the site while
+    being easy to change.
+    
+    However, everything in the above paragraph is likely going to change
+    in the near future.  Our working plan is to generate the website as
+    HTML 5 from a loosely-structured database of things we've done and
+    seen, stored in YAML files, called [[Chrysoberyl]].  Stay tuned.
+
+Chrysoberyl:
+  type: Concept
+
+Befunge Mailing List Working Group:
+  type: Organization

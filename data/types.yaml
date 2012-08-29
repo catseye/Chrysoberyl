@@ -18,6 +18,8 @@ Genre:
   type: type
 Individual:
   type: type
+Organization:
+  type: type
 Game:
   type: type
 Game Implementation:
