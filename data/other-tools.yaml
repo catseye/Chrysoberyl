@@ -1,9 +1,41 @@
 # encoding: UTF-8
-Tcl/Tk:
-  type: Tool
+Borland C++:
+  type: Language Implementation
+  reference: no
+  license: Proprietary
+  source-language: C++
+  host-language: x86 machine code
+  target-language: x86 machine code
+  implementation-type: compiler
+  as-a-prequisite: |
+    The source code for this project was developed with Borland C++ 3.1
+    (although it is almost certainly written in C, not C++.) It may use
+    Borland C++-specific extensions and libraries. Borland C++ 3.1 is not
+    free software, although you can apparently download a set of Borland's
+    later tools free of charge. I don't know if they'd be useful to compile
+    these sources.
+    
+    Note that there are no projects at Cat's Eye Technologies that strictly
+    require Borland C++ anymore; they've all been converted to use portable
+    features (such as [[ANSI Terminal]] control codes and should
+    be quite buildable with any conforming [[C99]] compiler.
 
 CRUNCHER AB+:
   type: Tool
+
+make:
+  type: Tool
+  links:
+  - http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
+  - http://www.gnu.org/software/make/
+  as-a-prerequisite: |
+    In order to build this project automatically, you will need a `make`
+    utility capable of handling fairly generic Makefiles. GNU `make` should
+    be generally capable of handling these kind of Makefiles.
+    
+    Without a `make`, you can still build the project; you will just have to
+    find another way to invoke the compiler (or whatever) on all the source
+    files.
 
 Parsec:
   type: Tool
@@ -14,3 +46,6 @@ Parsec:
     define a parser. Parsec comes with some implementations of Haskell, and
     if it didn't come with yours, it's available as a [Cabal
     package](http://hackage.haskell.org/package/parsec-3.1.1).
+
+Tcl/Tk:
+  type: Tool

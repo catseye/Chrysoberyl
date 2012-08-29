@@ -156,6 +156,49 @@ CSS:
     the week, but at least it probably won't hang, or crash, or corrupt the
     browser's state.
 
+Haskell:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  links:
+  - http://www.haskell.org/
+  - http://www.haskell.org/ghc/
+  - http://www.haskell.org/hugs/
+  as-a-prerequisite: |
+    Any Haskell 98-conforming implementation of Haskell should be able to
+    handle the sources for this project. In order to compile a binary with a
+    Haskell compiler such as `ghc`, you may need to add some driver code.
+
+Erlang:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  links:
+  - 'http://www.erlang.org/'
+  as-a-prerequisite: |
+    Some or all of the programs in this project are Erlang modules, and
+    running them requires a copy of the Erlang/OTP runtime system, version
+    R13B03 or later, or a fully-compatible runtime system.
+    
+    Note that compiled Erlang modules are `.beam` files in the `ebin`
+    directory. The source code lives in the `src` directory, and an Erlang
+    compiler (such as the one which ships with Erlang/OTP) is required to
+    build the modules.
+    
+    Also note that the `.beam` files will have to be recompiled in order to
+    run under recent versions (e.g. R13B) of Erlang/OTP, as the
+    binary format has changed.
+    
+    Also note there is a good chance that the sources will compile and run
+    on an older version (say, R9C) of Erlang/OTP, but you may need
+    to make some manual changes and system setup.
+
 Java:
   type: Programming Language
   genre: Production language
@@ -163,11 +206,29 @@ Java:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-      If an implementation is in "Java" we expect you to know that:
-      requirements:
-        build: jdk6 not_required
-        run: jre6
+  links:
+  - http://java.sun.com/
+  as-a-prerequisite: |
+    Java SE 6 JDK 1.6.0
+    
+    Some or all of the programs are written in Java 6 source code, and
+    creating Java classes from them requires a copy of the Java Development
+    Kit, version 1.6.0 or later, or a fully-compatible compilation
+    environment.
+    
+    Note that the Java source code lives in the project's `src` directory,
+    and a Java compiler such as the one which ships with JDK 1.6.0 is
+    required to build the class files from the sources.
+    
+    Java SE 6 JRE 1.6.0
+    
+    Some or all of the programs this project are implemented by Java 6
+    classes, and running them requires a copy of the Java Runtime
+    Environment, version 1.6.0 or later, or a fully-compatible runtime
+    environment.
+    
+    Note that compiled Java classes are `.class` files in some subdirectory
+    of the project's `bin` directory.
 
 Javascript:
   type: Programming Language
@@ -236,6 +297,34 @@ Javascript:
         more usable? If the answers to any of these are "yes" then there's a
         good chance that the script they're being asked about won't get
         written.
+
+Lua:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  links:
+  - 'http://www.lua.org/versions.html#5.0'
+  as-a-prerequisite: |
+    Some or all of the programs in this project are Lua scripts, and running
+    them requires a Lua interpreter, version 5.0.x. (The latest version, as
+    of this writing, is 5.0.3, and this version is recommended. Note that
+    the 5.1.x series of Lua is not generally compatible with the 5.0.x
+    series.)
+    
+    While there are several implementations of Lua, we're not aware of any
+    standards documents defining the language aside from the reference
+    implementation produced by the Lua project, which we've linked to here.
+
+MSIL:
+  type: Programming Language
+  genre: Production language
+  computational-class: unknown computational class
+  has-reference-distribution: false
+  implementations: []
+  authors: []
 
 Perl:
   type: Programming Language
@@ -331,7 +420,6 @@ PHP:
     **/internal/directory/structure/home/website/include/oh\_drat.php** on
     line **444**
 
-
 Python:
   type: Programming Language
   genre: Production language
@@ -358,7 +446,6 @@ Python:
   commentary: |
     Mostly harmless.
 
-
 R:
   type: Programming Language
   genre: Production language
@@ -370,7 +457,6 @@ R:
   - 'http://www.r-project.org/'
   as-a-prerequisite: |
     You're on your own, mate.
-
 
 Ruby:
   type: Programming Language
@@ -456,77 +542,6 @@ Scheme:
     blood, sweat, *or* tears. In fact, we wonder why this holdover from LISP
     has not driven Scheme on to become *the* program-analysis language.
 
-Haskell:
-  type: Programming Language
-  genre: Production language
-  computational-class: shown Turing-complete
-  has-reference-distribution: false
-  implementations: []
-  authors: []
-  links:
-  - http://www.haskell.org/
-  - http://www.haskell.org/ghc/
-  - http://www.haskell.org/hugs/
-  as-a-prerequisite: |
-    Any Haskell 98-conforming implementation of Haskell should be able to
-    handle the sources for this project. In order to compile a binary with a
-    Haskell compiler such as `ghc`, you may need to add some driver code.
-
-Erlang:
-  type: Programming Language
-  genre: Production language
-  computational-class: shown Turing-complete
-  has-reference-distribution: false
-  implementations: []
-  authors: []
-  links:
-  - 'http://www.erlang.org/'
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Erlang modules, and
-    running them requires a copy of the Erlang/OTP runtime system, version
-    R13B03 or later, or a fully-compatible runtime system.
-    
-    Note that compiled Erlang modules are `.beam` files in the `ebin`
-    directory. The source code lives in the `src` directory, and an Erlang
-    compiler (such as the one which ships with Erlang/OTP) is required to
-    build the modules.
-    
-    Also note that the `.beam` files will have to be recompiled in order to
-    run under recent versions (e.g. R13B) of Erlang/OTP, as the
-    binary format has changed.
-    
-    Also note there is a good chance that the sources will compile and run
-    on an older version (say, R9C) of Erlang/OTP, but you may need
-    to make some manual changes and system setup.
-
-Lua:
-  type: Programming Language
-  genre: Production language
-  computational-class: shown Turing-complete
-  has-reference-distribution: false
-  implementations: []
-  authors: []
-  links:
-  - 'http://www.lua.org/versions.html#5.0'
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Lua scripts, and running
-    them requires a Lua interpreter, version 5.0.x. (The latest version, as
-    of this writing, is 5.0.3, and this version is recommended. Note that
-    the 5.1.x series of Lua is not generally compatible with the 5.0.x
-    series.)
-    
-    While there are several implementations of Lua, we're not aware of any
-    standards documents defining the language aside from the reference
-    implementation produced by the Lua project, which we've linked to here.
-
-MSIL:
-  type: Programming Language
-  genre: Production language
-  computational-class: unknown computational class
-  has-reference-distribution: false
-  implementations: []
-  authors: []
-
 # note our fork here somehow
 Zz:
   type: Programming Language
@@ -545,6 +560,8 @@ Zz:
       project, the only freely available implementation of Zz that we're aware
       of is OpenZz.
       Our projects have been tested with the OpenZz interpreter version 1.0.4-4.
+
+#----------------------------------------------------------------------------
 
 Ophis Assembler:
   type: Programming Language
@@ -622,7 +639,6 @@ Applesoft BASIC:
     I've found AppleWin to be a decent Apple emulator on Windows;
     I have yet to find one for *nix that's
     good enough to be my go-to emulator (pun? what pun?).
-
 
 # for targets of compilers:
 x86 machine code:
