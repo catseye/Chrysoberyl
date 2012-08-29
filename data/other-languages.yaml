@@ -213,9 +213,17 @@ Perl:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - http://www.cpan.org/ports/
   as-a-prerequisite: |
-    We mean Perl 5 here; probably Perl 5.10 is the best version to
-    make sure everything runs.
+    Some or all of the programs in this project are Perl scripts, and
+    running them requires a Perl interpreter, version 5.8.8 or later. We'll
+    try to make sure they still run the same on later 5.x versions of Perl,
+    but we won't make any guarantees there.
+    
+    We're not aware of any implementation of Perl which conforms to version
+    5.8.8 that isn't based on Larry Wall's source base, so that's the link
+    we've given here.
   commentary: |
     Perl is what happens when you play [[Katamari Damacy]]
     with the Unix toolchain.
@@ -300,7 +308,23 @@ Python:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |-
+  links:
+  - 'http://www.python.org/'
+  - 'http://www.jython.org/'
+  as-a-prerequisite: |
+    Some or all of the programs in this project are Python scripts, and
+    running them requires a Python interpreter, version 2.5.2 or later.
+    (Actually it's quite possible older versions of Python will work, but we
+    haven't confirmed them.)
+    
+    While there are several implementations of Python, we're not aware of
+    any standards documents defining the language aside from the reference
+    implementation and manual produced by the Python project, which we've
+    linked to here.
+    
+    We have also tested our Python scripts on Jython 2.5.1 and found that
+    they seem to run quite well on it.
+  commentary: |
     Mostly harmless.
 
 Ruby:
@@ -310,6 +334,11 @@ Ruby:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - http://www.ruby-lang.org/
+  as-a-prerequisite: |
+      Some or all of the programs in this project are Ruby scripts, and running them
+      requires a Ruby interpreter, version 1.8.7 or later.
 
 Scheme: 
   type: Programming Language
@@ -318,8 +347,13 @@ Scheme:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - 'http://schemers.org/Documents/Standards/R5RS/'
+  - 'http://www.plt-scheme.org/'
   as-a-prerequisite: |
-    If an implementation is in "Scheme" we expect you to be able to deal with that.
+    Any R5RS-conforming Scheme implementation should be able to handle the
+    sources for this project. In order to compile a binary with a Scheme
+    compiler, you may need to add some driver code.
   description: |
     Scheme is a simple programming language with an extremely regular syntax
     and a [succinct, well-defined
@@ -394,8 +428,25 @@ Erlang:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-      If an implementation is in "Erlang" we expect you to be able to deal with that.
+  links:
+  - 'http://www.erlang.org/'
+  as-a-prerequisite: |
+    Some or all of the programs in this project are Erlang modules, and
+    running them requires a copy of the Erlang/OTP runtime system, version
+    R13B03 or later, or a fully-compatible runtime system.
+    
+    Note that compiled Erlang modules are `.beam` files in the `ebin`
+    directory. The source code lives in the `src` directory, and an Erlang
+    compiler (such as the one which ships with Erlang/OTP) is required to
+    build the modules.
+    
+    Also note that the `.beam` files will have to be recompiled in order to
+    run under recent versions (e.g. R13B) of Erlang/OTP, as the
+    binary format has changed.
+    
+    Also note there is a good chance that the sources will compile and run
+    on an older version (say, R9C) of Erlang/OTP, but you may need
+    to make some manual changes and system setup.
 
 Lua:
   type: Programming Language
@@ -404,8 +455,18 @@ Lua:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-    We mean Lua 5.0 here.
+  links:
+  - 'http://www.lua.org/versions.html#5.0'
+  as-a-prerequisite: |
+    Some or all of the programs in this project are Lua scripts, and running
+    them requires a Lua interpreter, version 5.0.x. (The latest version, as
+    of this writing, is 5.0.3, and this version is recommended. Note that
+    the 5.1.x series of Lua is not generally compatible with the 5.0.x
+    series.)
+    
+    While there are several implementations of Lua, we're not aware of any
+    standards documents defining the language aside from the reference
+    implementation produced by the Lua project, which we've linked to here.
 
 MSIL:
   type: Programming Language
@@ -415,6 +476,7 @@ MSIL:
   implementations: []
   authors: []
 
+# note our fork here somehow
 Zz:
   type: Programming Language
   genre: Metalanguage
@@ -422,6 +484,16 @@ Zz:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - 'http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html'
+  - 'http://openzz.sourceforge.net/'
+  - 'https://github.com/catseye/OpenZz'
+  as-a-prerequisite: |
+      The project contains grammars written in the dynamic language of Zz,
+      version 2.0.  While Zz was implemented as part of the APE100 parallel computing
+      project, the only freely available implementation of Zz that we're aware
+      of is OpenZz.
+      Our projects have been tested with the OpenZz interpreter version 1.0.4-4.
 
 Ophis Assembler:
   type: Programming Language
@@ -452,6 +524,24 @@ NASM Assembler:
   has-reference-distribution: false
   implementations: []
   authors: []
+  links:
+  - 'http://nasm.sourceforge.net/'
+  as-a-prerequisite: |
+    Some files in this project are x86 (a.k.a IA-32)
+    assembly-language sources written in the syntax of the NASM assembler.
+    You'll need an assembler that conforms to NASM's syntax,
+    version 0.98.39 or later, in order
+    to build executables from these files.  Since the only assembler we
+    know of that uses NASM's syntax is NASM, and since that's the
+    assembler we tested the project with, well, that's the assembler we'll
+    recommend that you use here.
+    
+    Many of these NASM files were converted from older
+    assembly-language sources written in the syntax of Turbo Assembler 3.1.
+    This is an old-school x86 assembler for DOS, written by Borland.
+    In some cases the Turbo Assembler sources are still included in the
+    project for historical interest, but the newer NASM sources are what
+    the binaries are built from.
 
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?

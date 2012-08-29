@@ -11,10 +11,19 @@
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |-
+  abstract: |
     `Console::Virtual` is a simple, lightweight abstraction layer which
     allows a program to interact with the user through a console, which
     is emulated on whatever user interface is really available.
+  as-a-prerequisite: |
+      This [[Perl]] project uses [[Cat's Eye Technologies]]' own
+      `Console::Virtual` interface to provide a simulated console on
+      which to display random-access, coloured textual
+      output, and from which to take raw key input.
+      Running the programs of the project will require that
+      version 2007.1122 or later of the `Console::Virtual`
+      module, or some other module which provides a compatible
+      interface, be installed.
   inception-date: ca 2003
   implementations:
   - 'Console::Virtual (Perl module)'

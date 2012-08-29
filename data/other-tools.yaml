@@ -5,47 +5,12 @@ ANSI Terminal:
   type: Tool
 CRUNCHER AB+:
   type: Tool
-Commodore 64:
-  type: Platform
 Parsec:
   type: Tool
-MS-DOS:
-  type: Tool
-  commentary: |
-    I think the only thing that requires MS-DOS is shelta; and even then, it might
-    rely only on the BIOS interface, I forget.
-
-# platform! not a tool!
-Cygwin:
-  type: Platform
-  description: |
-    [Cygwin](http://www.cygwin.com/) is a compatibility layer for Windows
-    which lets you build and run software which expects a Unix-like
-    operating system.
-  commentary: |    
-    Cygwin is really nice when you're stuck using Windows, but you want to
-    play with [open-source software](opensource.html), most of which expects
-    to be run on a Unix-like operating system.
-    
-    But there is one annoying thing about Cygwin: in its default install,
-    you have to use it through a console window, of the kind provided by
-    Windows for running Command Prompt. The editing capabilities and general
-    usability of this console window are just short of atrocious.
-    
-    Fortunately, on modern Windowses, you're not stuck with this: you can
-    make Cygwin use a PowerShell window. While not paradise, it's not quite
-    as frustrating to use. Here's how to set it up:
-    
-    1.  Find PowerShell on your Windows installation. The easiest way to do
-        this is probably to use the search facility in the Start menu, and
-        type in `powershell`.
-    2.  Once you find an icon for PowerShell, create a shortcut for it.
-        Alt-drag it to the desktop or something.
-    3.  Edit the properties of that shortcut. The target will be something
-        like `%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe`.
-        Add the location of your `cygwin.bat` file to it, so that it's
-        something like:
-        `%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe C:\cygwin\cygwin.bat`.
-    4.  Probably you should rename your shortcut "Cygwin Powershell" or
-        something, to minimize confusion.
-    5.  Double-click your new shortcut. It should totally just work.
+  links:
+  - 'http://legacy.cs.uu.nl/daan/parsec.html'
+  as-a-prerequisite: |
+    This [[Haskell]] project uses the Parsec parser combinator library to
+    define a parser. Parsec comes with some implementations of Haskell, and
+    if it didn't come with yours, it's available as a [Cabal
+    package](http://hackage.haskell.org/package/parsec-3.1.1).

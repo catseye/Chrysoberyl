@@ -4,7 +4,18 @@ ALPACA:
   genre: Metalanguage
   acronym-for: A Language for Programming Arbitrary Cellular Automata
   abstract: |
-    ALPACA is a meta-language for describing cellular automata. 
+    ALPACA is a meta-language for describing cellular automata.
+  as-a-prerequisite: |
+    Some of the files in this project are descriptions of cellular automata,
+    written in the ALPACA meta-language, version 0.97 or later. Using them
+    to direct (in some automatic fashion) the evolution of a cellular
+    automaton will require some tool which implements the ALPACA language.
+    
+    We're not aware of any implementations of ALPACA besides
+    [[Cat's Eye Technologies]] own ALPACA-to-Perl compiler written in [[Perl]],
+    which we've linked to here (which will serve as a reference
+    implementation, until such time as we get around to writing a
+    specification for ALPACA).
   commentary: |
     The acronym is not quite accurate, as the automata are not in fact arbitrary, but it's
     a nice acronym.
