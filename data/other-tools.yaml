@@ -1,10 +1,10 @@
 # encoding: UTF-8
 Tcl/Tk:
   type: Tool
-ANSI Terminal:
-  type: Tool
+
 CRUNCHER AB+:
   type: Tool
+
 Parsec:
   type: Tool
   links:

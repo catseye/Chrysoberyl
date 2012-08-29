@@ -106,6 +106,14 @@ Falderal:
     language-agnostic fashion.  The dumbed-down sound-bite version:
     "doctests for DSLs".  It can be embedded in both Markdown and Literate
     Haskell.
+  as-a-prerequisite: |
+    In order to run the tests (and possibly rebuild the documentation) for
+    this project, you will need the `Test.Falderal` Haskell package (or some
+    other tool which understands the Falderal Literate Test Format, version
+    0.4) installed.
+    
+    (Note: update the version number in the above paragraph and mention
+    py-falderal.)
   inception-date: 2011
   implementations:
   - Test.Falderal

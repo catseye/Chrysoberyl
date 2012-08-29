@@ -7,8 +7,22 @@ ANSI C:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-    If an implementation is in "ANSI C" we expect you to be able to deal with that.
+  links:
+  - http://clc-wiki.net/wiki/C89
+  as-a-prerequisite: |
+    The C-language source files in this project conform to C89 (also,
+    and more popularly, known as ANSI C.)
+    We usually test them with [gcc 3.4](http://gcc.gnu.org/gcc-3.4/),
+    but they may work with a gcc version as old as
+    [gcc 2.95.3](http://gcc.gnu.org/gcc-2.95/), as well. 
+    
+    The souce files compile with the `-ansi` flag (and usually `-pedantic`,
+    too,) and should (in theory at least) be buildable with any ANSI C
+    compiler.
+    
+    Many of our C projects will compile both as [[C99]] and as
+    ANSI C (perhaps omitting some features) by passing the environment
+    variable `ANSI=yes` to `make`.
 
 C99:
   type: Programming Language
@@ -17,11 +31,28 @@ C99:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-    If an implementation of something here is written in C99,
-    that implies you need POSIX to compile it, too.
-    But some things here written in C99 can also be compiled as
-    ANSI C by defining a symbol -- see the Makefile as appropriate.
+  links:
+  - http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
+  - http://gcc.gnu.org/gcc-3.4/
+  - http://www.opengroup.org/onlinepubs/9699919799/
+  as-a-prerequisite: |
+    The C-language source files in this project conform to the C99 standard.
+    These souce files generally are such that they *would* compile with the
+    `-ansi` flag *except* that they rely on libraries specified by the Single
+    UNIX Specification version 3 (also, and more popularly, known as POSIX)
+    to provide access to resources such as clock information and network sockets.
+    
+    Most modern UNIX-like operating systems implement something
+    approximating the POSIX interface. For Windows, compatibility layers
+    such as [[Cygwin]] fill this role.
+    
+    Note that the specification linked to is actually SUSv7, which is very
+    similar to SUSv3, but unlike SUSv3 has freely-accessible documentation
+    on the web.
+    
+    Many of our C projects will compile both as C99 and as
+    [[ANSI C]] (perhaps omitting some features) by passing the environment
+    variable `ANSI=yes` to `make`.
 
 C++:
   type: Programming Language
@@ -432,8 +463,14 @@ Haskell:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-      If an implementation is in "Haskell" we expect you to be able to deal with that.
+  links:
+  - http://www.haskell.org/
+  - http://www.haskell.org/ghc/
+  - http://www.haskell.org/hugs/
+  as-a-prerequisite: |
+    Any Haskell 98-conforming implementation of Haskell should be able to
+    handle the sources for this project. In order to compile a binary with a
+    Haskell compiler such as `ghc`, you may need to add some driver code.
 
 Erlang:
   type: Programming Language
