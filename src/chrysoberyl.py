@@ -85,8 +85,9 @@ def check_chrysoberyl_data(data):
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
 
-      if 'see-also' in node:
-          check_list_ref(data, key, node, 'see-also')
+      check_optional_list_ref(data, key, node, 'see-also')
+      check_optional_list_ref(data, key, node, 'authors')
+      check_optional_list_ref(data, key, node, 'auspices', type_='Organization')
 
       if 'abstract' in node and 'description' in node:
           assert False, "'%s' defines both 'abtsract' and 'description'" % key
@@ -117,7 +118,6 @@ def check_chrysoberyl_data(data):
                                     type_='Development Stage')
           check_scalar_ref(data, key, node, 'host-language',
                            type_='Programming Language')
-          check_optional_list_ref(data, key, node, 'authors')
           check_optional_list_ref(data, key, node, 'build-requirements')
           check_optional_list_ref(data, key, node, 'required-libraries')
           check_optional_list_ref(data, key, node, 'run-requirements')

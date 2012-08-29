@@ -1,6 +1,9 @@
-'Animals distribution': 
+Animals distribution: 
   type: Distribution
   distribution-of: Animals
+  bitbucket: catseye/animals
+  github: catseye/Animals
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0919"
@@ -10,7 +13,8 @@
     revision: "2010.0429"
     latest: true
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
-'Bubble Escape distribution': 
+
+Bubble Escape distribution: 
   type: Distribution
   distribution-of: Bubble Escape
   bitbucket: catseye/bubble-escape
@@ -25,6 +29,7 @@
     revision: "2009.0707"
     latest: false
     url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
+
 'Corona: Realm of Magic distribution': 
   type: Distribution
   distribution-of: 'Corona: Realm of Magic'
@@ -34,11 +39,13 @@
     revision: "2000.1204"
     latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
-'esoko distribution': 
+
+esoko distribution: 
   type: Distribution
   distribution-of: esoko
   releases: []
-'Flip distribution': 
+
+Flip distribution: 
   type: Distribution
   distribution-of: Flip
   bitbucket: catseye/flip
@@ -49,11 +56,13 @@
     revision: "2002.0731"
     latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
-'Hunt the Wumpus distribution': 
+
+Hunt the Wumpus distribution: 
   type: Distribution
   distribution-of: Hunt the Wumpus
   releases: []
-'Super Wumpus Land distribution': 
+
+Super Wumpus Land distribution:  
   type: Distribution
   distribution-of: Super Wumpus Land
   bitbucket: catseye/super-wumpus-land
@@ -68,7 +77,8 @@
     revision: "2007.1216"
     latest: true
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
-'Zzrk distribution': 
+
+Zzrk distribution: 
   type: Distribution
   distribution-of: Zzrk
   bitbucket: catseye/zzrk

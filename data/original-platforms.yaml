@@ -28,7 +28,7 @@ BefOS:
 BefOS (NASM):
   type: Platform Implementation
   in-distribution: BefOS distribution
-  license: Freely Redistributable
+  license: Public Domain
   host-language: NASM Assembler
   build-requirements:
   - ANSI C

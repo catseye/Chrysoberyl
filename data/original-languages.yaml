@@ -195,6 +195,7 @@ Befunge-93:
 bef:
   type: Language Implementation
   reference: true
+  in-distribution: Befunge-93 distribution
   license: BSD
   implementation-type: interpreter
   host-language: ANSI C
@@ -546,6 +547,52 @@ circute.alp:
   license: BSD
   implementation-type: formal description
   host-language: ALPACA
+
+
+Cfluviurrh:
+  type: Programming Language
+  genre: Esolang
+  abstract: |
+    Cfluviurrh is, as far as I am aware, the first programming language designed
+    for writing programs that can *feel*. Cfluviurrh defines a mechanism by which a
+    program can be instructed to experience particular emotions.
+    
+    You might, thus, on first blush, consider Cfluviurrh to be unimplementable,
+    as modern-day computers are not capable of experiencing emotions (you guess.)
+    However, this is demonstrably untrue.  The reference interpreter demonstrates it.
+  esowiki: Cfluviurrh
+  paradigms:
+  - Imperative
+  etymology:
+  - portmanteau
+  computational-class: believed Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  sample: |
+    (print ASCII table while experiencing a bewildering array of emotions)
+    a=8
+    a*=8
+    b=a
+    b+=a
+    b-=2
+    :X
+    a+=1
+    a>
+    z@=X
+    z?a<b
+  inception-date: Aug 26 2012
+  reference-distribution: Cfluviurrh distribution
+  implementations:
+  - cfluviurrh
+
+cfluviurrh:
+  type: Language Implementation
+  in-distribution: Cfluviurrh distribution
+  license: BSD
+  implementation-type: interpreter
+  host-language: ANSI C
 
 
 Didigm:
@@ -1423,7 +1470,7 @@ Kelxquoia:
      ^      /*?-*P-*?-+*?-*P-* -+     <
     
      00 00 00 00
-  has-reference-distribution: false
+  reference-distribution: Kelxquoia distribution
   implementations: []
 
 
@@ -2048,7 +2095,7 @@ rube.c:
   type: Language Implementation
   in-distribution: RUBE distribution
   reference: true
-  license: Freely Redistributable
+  license: BSD
   implementation-type: interpreter
   # can also be built with C99
   host-language: ANSI C

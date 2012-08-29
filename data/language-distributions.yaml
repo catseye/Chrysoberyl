@@ -2,6 +2,9 @@
 ALPACA distribution: 
   type: Distribution
   distribution-of: ALPACA
+  github: catseye/ALPACA
+  bitbucket: catseye/alpaca
+  issue-tracker: github
   releases: 
   - version: "0.94"
     revision: "2007.0502"
@@ -58,32 +61,25 @@ Arboretuum distribution:
     latest: false
     url: http://catseye.tc/distfiles/arboretuum-2008.0304.zip
 
-# this shall be merged with Befunge-93 at some point
-bef distribution: 
-  type: Distribution
-  distribution-of: Befunge-93
-  releases: 
-  - version: "2.22"
-    revision: "2011.0318"
-    latest: true
-    url: http://catseye.tc/distfiles/bef-2.22-2011.0318.zip
-  - version: "2.21"
-    revision: "2004.0920"
-    latest: false
-    url: http://catseye.tc/distfiles/bef-2.21.zip
-
 Befunge-93 distribution: 
   type: Distribution
   distribution-of: Befunge-93
-  description: |
-    This distribution contains only the
-    documentation for, and example programs in, the Befunge-93 programming
-    language.
+  github: catseye/Befunge-93
+  bitbucket: catseye/befunge-93
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0920"
-    latest: true
     url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
+  - version: "2.21"
+    revision: "2004.0920"
+    url: http://catseye.tc/distfiles/bef-2.21.zip
+  - version: "2.22"
+    revision: "2011.0318"
+    url: http://catseye.tc/distfiles/bef-2.22-2011.0318.zip
+  - version: "2.23"
+    revision: "2012.0825"
+    url: http://catseye.tc/distfiles/befunge-93-2.23-2012.0825.zip
 
 beta-Juliet distribution: 
   type: Distribution
@@ -237,6 +233,19 @@ Cabra distribution:
     revision: "2007.1101"
     latest: false
     url: http://catseye.tc/distfiles/cabra-2007.1101.zip
+
+Cfluviurrh distribution: 
+  type: Distribution
+  distribution-of: Cfluviurrh
+  github: catseye/Cfluviurrh
+  bitbucket: catseye/cfluviurrh
+  issue-tracker: github
+  development-stage: mature
+  releases: 
+  - version: "1.0"
+    revision: "2012.0826"
+    latest: true
+    url: http://catseye.tc/distfiles/cfluviurrh-1.0-2012.0826.zip
 
 Circute distribution: 
   type: Distribution
@@ -546,6 +555,14 @@ Kangaroo Iceberg distribution:
     latest: false
     url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
 
+Kelxquoia distribution: 
+  type: Distribution
+  distribution-of: Kelxquoia
+  bitbucket: catseye/klexquoia
+  github: catseye/Kelxquoia
+  issue-tracker: github
+  releases: []
+
 Larabee distribution: 
   type: Distribution
   distribution-of: Larabee
@@ -717,6 +734,9 @@ Pail distribution:
 pibfi distribution: 
   type: Distribution
   distribution-of: brainfuck
+  bitbucket: catseye/pibfi
+  github: catseye/pibfi
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2003.0505"
@@ -800,6 +820,9 @@ Quylthulg distribution:
 REDGREEN distribution: 
   type: Distribution
   distribution-of: REDGREEN
+  bitbucket: catseye/redgreen
+  github: catseye/REDGREEN
+  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "2011.1214"
@@ -821,6 +844,9 @@ REDGREEN distribution:
 RUBE distribution: 
   type: Distribution
   distribution-of: RUBE
+  github: catseye/RUBE
+  bitbucket: catseye/rube
+  issue-tracker: github
   releases: 
   - version: "1.5"
     revision: "2011.0119"
@@ -846,6 +872,9 @@ RUBE distribution:
 RUBE II distribution: 
   type: Distribution
   distribution-of: 'RUBE II: Das Klickenklacker'
+  github: catseye/RUBE-II
+  bitbucket: catseye/rube-ii
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0201"
@@ -1074,6 +1103,9 @@ Version distribution:
 Whothm distribution: 
   type: Distribution
   distribution-of: Whothm
+  bitbucket: catseye/whothm
+  github: catseye/Whothm
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1103,6 +1135,9 @@ Wierd distribution:
 "noit o' mnain worb distribution": 
   type: Distribution
   distribution-of: noit o' mnain worb
+  bitbucket: catseye/noit-o-mnain-worb
+  github: catseye/noit-o-mnain-worb
+  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "1.1"
@@ -1128,6 +1163,9 @@ Wierd distribution:
 Xigxag distribution: 
   type: Distribution
   distribution-of: Xigxag
+  bitbucket: catseye/xigxag
+  github: catseye/Xigxag
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.1214"
@@ -1145,6 +1183,9 @@ Xigxag distribution:
 Xoomonk distribution: 
   type: Distribution
   distribution-of: Xoomonk
+  bitbucket: catseye/xoomonk
+  github: catseye/Xoomonk
+  issue-tracker: github
   has-falderal-tests: true
   releases: 
   - version: "0.1"

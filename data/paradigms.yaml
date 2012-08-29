@@ -76,7 +76,11 @@ Dependency injection:
   type: Programming Paradigm
 Forest-rewriting:
   type: Programming Paradigm
+Functional:
+  type: Programming Paradigm
 Grid-rewriting:
+  type: Programming Paradigm
+Imperative:
   type: Programming Paradigm
 Meta-circular:
   type: Programming Paradigm
