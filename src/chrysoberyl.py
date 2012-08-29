@@ -25,6 +25,7 @@ def load_chrysoberyl_dir(dirname):
 
     return data
 
+
 def check_scalar_ref(data, key, node, property, type_=None):
     assert property in node, \
         "'%s' does not specify a %s" % (key, property)
@@ -37,11 +38,13 @@ def check_scalar_ref(data, key, node, property, type_=None):
         "'%s' has %s '%s' which is a %s, not a %s" % (
             key, property, value, data[value]['type'], type_)
 
+
 def check_optional_scalar_ref(data, key, node, property, type_=None):
     if property in node:
         check_scalar_ref(data, key, node, property, type_=type_)
 
-def check_list_ref(data, key, node, property):
+
+def check_list_ref(data, key, node, property, type_=None):
     assert property in node, \
         "'%s' has no %s list" % (key, property)
     assert isinstance(node[property], list), \
@@ -50,10 +53,16 @@ def check_list_ref(data, key, node, property):
         assert value in data, \
             "'%s' has undefined %s '%s'" % \
             (key, property, value)
+        if type_ is not None:
+            assert data[value]['type'] == type_, \
+                "'%s' has %s '%s' which is a %s, not a %s" % (
+                    key, property, value, data[value]['type'], type_)
+          
 
-def check_optional_list_ref(data, key, node, property):
+def check_optional_list_ref(data, key, node, property, type_=None):
     if property in node:
-        check_list_ref(data, key, node, property)
+        check_list_ref(data, key, node, property, type_)
+
 
 def resolve_internal_links(data, key, property, text):
     if text is None:
@@ -63,6 +72,7 @@ def resolve_internal_links(data, key, property, text):
         assert link in data, \
             "'%s' mentions undefined '%s' in '%s'" % \
             (key, link, property)
+
 
 def check_chrysoberyl_data(data):
     for key in data:
@@ -136,6 +146,8 @@ def check_chrysoberyl_data(data):
                                     type_='Programming Language Family')
           check_optional_scalar_ref(data, key, node, 'development-stage',
                                     type_='Development Stage')
+          check_optional_list_ref(data, key, node, 'paradigms',
+                                  type_='Programming Paradigm')
           if node.get('has-reference-distribution', True):
               check_scalar_ref(data, key, node, 'reference-distribution',
                                type_='Distribution')

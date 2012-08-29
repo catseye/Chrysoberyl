@@ -1,0 +1,30 @@
+# encoding: UTF-8
+# these probably go a bit beyond what you'd normally think of as
+#   programming paradigms...
+# a lot of these are subtypes of rewriting, we may want to capture that.
+Cellular automaton:
+  type: Programming Paradigm
+Continuation-passing:
+  type: Programming Paradigm
+Dependency injection:
+  type: Programming Paradigm
+Forest-rewriting:
+  type: Programming Paradigm
+Grid-rewriting:
+  type: Programming Paradigm
+Meta-circular:
+  type: Programming Paradigm
+Object-oriented:
+  type: Programming Paradigm
+Reflective:
+  type: Programming Paradigm
+Regular-expression-based:
+  type: Programming Paradigm
+String-rewriting:
+  type: Programming Paradigm
+Tree-rewriting:
+  type: Programming Paradigm
+Term-rewriting:
+  type: Programming Paradigm
+Event-oriented:
+  type: Programming Paradigm

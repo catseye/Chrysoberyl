@@ -8,7 +8,7 @@ ANSI C:
   implementations: []
   authors: []
   commentary: |
-      If an implementation is in "ANSI C" we expect you to be able to deal with that.
+    If an implementation is in "ANSI C" we expect you to be able to deal with that.
 
 C99:
   type: Programming Language
