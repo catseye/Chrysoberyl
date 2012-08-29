@@ -23,6 +23,108 @@ C99:
     But some things here written in C99 can also be compiled as
     ANSI C by defining a symbol -- see the Makefile as appropriate.
 
+C++:
+  type: Programming Language
+  genre: Production language
+  computational-class: Finite-automata-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  commentary: |
+    For any software project, it's important that you choose the right
+    language to develop it in. That's why you'll always choose C++, no
+    matter what the project is!
+    
+    Why will you choose C++? Because it's popular, so a lot of programmers
+    know it. And a lot of programmers means a lot of competition, and that
+    means you'll be able to hire programmers at the lowest rate! This will
+    surely offset whatever costs might be incurred from choosing an
+    ill-suited programming language and hiring programmers who work at the
+    lowest rate.
+    
+    And why *is* C++ such a popular programming language?
+    
+    Is it because it's a good programming language? Hardly. That's like
+    saying that coffee is a popular beverage because it's healthful.
+    
+    No, C++ is popular because C++ is popular. Hey, Google is a big,
+    successful company, and I hear they use C++... it must be *why* they're
+    successful! You should use C++ too!
+    
+    But that's not the only reason. C++ is popular because programmers
+    *like* it. I suppose the question then is, *why* do programmers like it?
+    
+    Is it because C++ makes it easy to write correct, maintainable code? Is
+    it because C++ is easy to learn? Is it because there are things you can
+    do in C++ that you can't do in any other language? Is it that C++ lets
+    your programs run as fast as they possibly can?
+    
+    Anyone who has ever used C++ can tell you the answer to all of those
+    questions: No. (No, not even when it comes to making your program run as
+    fast as it can. C++ allows so much control over the low-level workings
+    of the program that the compiler cannot make optimizations that it
+    otherwise could, if the programmer were constrained to working at a
+    higher level of abstraction.)
+    
+    So what is it about C++ that makes programmers like it?
+    
+    Well, I have a theory. While most "normal" people feel that their lives
+    are too complicated, too full of arbitrary rules and boring details and
+    essentially meaningless things to remember, there's a certain strain of
+    psychology that actually *thrives* on complexity like this, because such
+    complexity *generates gratuitous expertise*.
+    
+    What I mean by this is that if a system is easy to master, then there's
+    no opportunity to show off your mastery of it. There's no way to display
+    your dominance through your command of minutiae and knowledge of trivia.
+    And if that's what really motivates you, then, well, you're going to
+    avoid that system, because it doesn't provide you anything to work with
+    in the social game you want to play. Instead, you'll look for something
+    with a lot of nooks and crannies and bells and whistles and jargon and
+    buzzwords that you can familiarize yourself with, and you'll take every
+    opportunity to demonstrate that you are More Familiar with It than Thou.
+    You'll look for something like... well, like C++.
+    
+    And if it so happens that programmers with this general personality type
+    *also* like the idea of *total control over their program* — and while
+    I'm no expert on psychology, somehow that seems likely — C++'ll have'em
+    downright hooked.
+
+CSS:
+  type: Programming Language
+  genre: Production language
+  computational-class: unknown computational class
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  commentary: |
+    If I, as a programmer, were to tell you that CSS is the ultimate hacking
+    language, would you be surprised? After all, it's not even a
+    [Programming Language], really. But that doesn't really
+    matter, does it? It meets the only possible criterion there could be for
+    the ultimate hacking language: in order to achieve the effect that what
+    you want, you have to hack and hack and hack...
+    
+    So, I have a question. If CSS is so superior to [those awful tables
+    which should never ever be used for
+    layout](http://phrogz.net/CSS/HowToDevelopWithCSS.html#tables), how come
+    a simple and much desired three-column layout, so trivial to construct
+    with a table, is considered [one of the holy grails of
+    CSS](http://www.alistapart.com/articles/holygrail)?
+    
+    Seems that the real solution to this would be to have some set of
+    elements that has the layout behaviour of tables but without the "treat
+    this as tabular data, would you please" semantics. I suppose that's what
+    `display: table-cell` *et al* is for — if only more browsers supported
+    it.
+    
+    I kvetch, but there *is* one very nice thing about CSS: unlike
+    [[Javascript]], it's declarative, and nowhere near as
+    [powerful as a Turing machine](universality.html). So, it might make
+    your page look ugly in nine out of ten browsers six out of seven days of
+    the week, but at least it probably won't hang, or crash, or corrupt the
+    browser's state.
+
 Java:
   type: Programming Language
   genre: Production language
@@ -35,6 +137,74 @@ Java:
       requirements:
         build: jdk6 not_required
         run: jre6
+
+Javascript:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  description: |
+    Javascript (also and more properly known as ECMAScript) is a
+    [[Programming Language]] that some web browsers implement
+    in order to let scripts control the dynamic behaviour of a web page,
+    such as what happens when the user clicks on some region of text.
+  commentary: |    
+    We at [[Cat's Eye Technologies]] have long taken a dim view of this
+    predominant application of Javascript. It's gratuitous; web pages exist
+    in order to convey information, not be playthings. Managing the user
+    interface is the *browser*'s job; what makes the *page* think it can do
+    it better? But more to the point, putting a
+    [[shown Turing-complete]] control language in a browser is a
+    way to let web pages be just as impossible to predict, and just as
+    buggy, as general computer programs. Multiply this by the number and
+    degree of variations between Javascript specifications and
+    implementations to experience the full hellishness of this fact.
+    
+    Or, as we used to say, *web pages shouldn't crash your browser*.
+    
+    But we also admit that Javascript, used judiciously, can improve the
+    usability of a web page.
+    
+    So we have decided to compromise. Our policy regarding Javascript is as
+    follows.
+    
+    -   *If you don't like it, turn it off.*
+    
+        Everything on this website is navigable even with Javascript
+        disabled. (It even looks acceptable without styling. So if you don't
+        like our far-out background graphics, or you want the genuine
+        experience of surfing the web circa 1996, try turning off
+        [[CSS]] too.) If you're using a browser that doesn't allow
+        you to disable these features, you might want to consider why you
+        chose to use a tool that takes that power away from you.
+    
+    -   *Use commodity components.*
+    
+        As much as we like to "roll our own" computational stuff here at
+        Cat's Eye Technologies, the application domain of Javascript
+        generally makes that option too risky. Correct Javascript must not
+        only encode a correct algorithm, it must correctly account for
+        differences between Javascript implementations and browsers. In
+        addition, being interactive, any incorrect Javascript will have a
+        direct negative impact on the user experience.
+    
+        So what we do is we use commodity components -- open-source
+        Javascript modules that are community-developed. The broad base of
+        users and developers helps ensure that the scripts are tested both
+        deeply and broadly (that is, across a large cross-section of
+        browsers.)
+    
+    -   *Keep it simple, stupid.*
+    
+        When writing our own Javascript is unavoidable, we keep it as simple
+        as possible. Is there a way to write it that doesn't involve a loop?
+        Is there a way to accomplish the same thing using stylesheets
+        instead? Does the interactive feature actually not make the site
+        more usable? If the answers to any of these are "yes" then there's a
+        good chance that the script they're being asked about won't get
+        written.
 
 Perl:
   type: Programming Language

@@ -35,9 +35,42 @@ Programming Language Family:
   type: type
 Programming Language:
   type: type
+  commentary: |
+    There are two things about programming languages that every programmer
+    should know.
+    
+    One is that a programming language is an abstract entity. Much like
+    Beethoven's 7th Symphony, it just doesn't exist in the same sense a tree
+    or a street exists. Sure, there are *recordings* of *performances* of
+    Beethoven's 7th, and there are *transcriptions* of Beethoven's 7th, but
+    these are only attempts to capture the symphony, they aren't the
+    symphony itself.
+    
+    Simlarly, take a programming language, like Java. There are
+    implementations of Java -- there's Sun's `javac`, for instance, but
+    there are also IBM's `jikes` and GNU's `gcj`. And there are
+    specifications of Java -- the official spec is from Sun (much like the
+    official version of Beethoven's 7th issued straight from Ludwig von's
+    pen,) but there are countless books on learning Java that also explain
+    the features and rules of Java, in their own words.
+    
+    In short, languages aren't the tools that implement them or the
+    documents that describe them.
+    
+    Ponder this fact, for fully appreciating it will mean you'll be able to
+    save yourself from appearing ignorant by referring to how this or that
+    language is "not fast enough" or "widely available."
+    
+    The other thing that every programmer should know about programming
+    languages is that it's very important to choose the right programming
+    language for every software project. That's why you'll always choose
+    [[C++]] no matter *what* the software project is.
+
 Programming Paradigm:
   type: type
 Language Implementation:
   type: type
 Abstract Artlang:
+  type: type
+Discipline:
   type: type

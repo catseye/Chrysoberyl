@@ -2,6 +2,72 @@
 # these probably go a bit beyond what you'd normally think of as
 #   programming paradigms...
 # a lot of these are subtypes of rewriting, we may want to capture that.
+Aspect-oriented programming:
+  type: Programming Paradigm
+  description: |
+    Aspect-oriented programming (AOP) is a programming technique which
+    collects logic into units called aspects. Like modules or object
+    classes, aspects centralize related code and data. Unlike modules or
+    classes, that code and data is inserted into *many different places* in
+    a program. The places are determined by where patterns, specified by the
+    aspect, match the program's static and dynamic makeup.
+  commentary: |
+    Here is [[Cat's Eye Technologies]]' official position on AOP:
+    
+    **If being aware that some aspect will be applied to code you are
+    writing causes you to write that code differently, then that aspect is
+    broken.**
+    
+    Why? Because, if knowing about that aspect *were* to change how you
+    write your code, that would means that it was introducing *implicit
+    dependencies* into your program. And because patterns are used to
+    determine where aspects should be applied in your program, these
+    implicit dependencies potentially extend *throughout the entire
+    program*. This is hardly different from the kind of situation you get
+    into when you, say, communicate through a *global variable*, or program
+    to the *implementation* of an object instead of its interface: **you
+    can't change it without breaking all of the code that uses it**. (And
+    if, in trying to protect yourself from this, you set up an interface for
+    code to adhere to if it will have an aspect applied to it — well, what's
+    the point of using an aspect in that case? The client code, being aware
+    of what should be done when, might as well just call methods on some
+    object!)
+    
+    This position has a few implications. It means that the best roles for
+    aspects are ones that do not involve the functioning of the program
+    proper, such as debugging and logging. And in fact, if you look at how
+    aspects are most heavily employed in industry, you see that these are
+    two of the most popular jobs for them.
+    
+    That doesn't mean that aspects are restricted to playing supporting
+    roles strictly outside of the application domain. For example, say some
+    of the clients of your web-based application have special needs: perhaps
+    there is some extra functionality they want, or there are some
+    configuration options they don't need to see. As long as these concerns
+    *really do not interfere* with your standard functionality, you can
+    continue to build the core application to that specification (and *only*
+    that specification,) while you write your custom solutions as aspects.
+    
+    It does, however, mean that **AOP is generally better thought of as a
+    meta-language facility than an object-language facility**. To stoop to a
+    corny analogy, aspects are a bit like Star Trek's Starfleet: they have a
+    Prime Directive, namely *don't meddle*.
+    
+    Unfortunately, many researchers argue that aspects *are* an
+    object-language facility. Riding a wave of popularity, some promote them
+    as the Next Big Thing of [[Software Engineering]], the Brand
+    New Way in which programmers will modularize their code. Some go so far
+    as to claim that aspects are capable of modularizing design patterns —
+    never mind that design patterns are *defined* as unmodularizable...
+    
+    We suspect that these researchers consider such banal, pedestrian tasks
+    as debugging and logging to be beneath them: not at all sexy, and of no
+    interest to their lofty, scholarly minds. If they were to look around,
+    however, they might see what a huge percentage of day-to-day programming
+    these tasks actually comprise. But it seems they'd rather see what they
+    want to see. Which is really too bad, because some would say that
+    finding ways to improve this situation is *supposed* to be their job.
+
 Cellular automaton:
   type: Programming Paradigm
 Continuation-passing:

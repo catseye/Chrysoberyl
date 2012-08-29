@@ -19,9 +19,6 @@ Nikita Ayzikovsky:
   type: Individual
 Alex Smith (ais523):
   type: Individual
-Befunge Mailing List Working Group:
-  # we'll pretend, for now
-  type: Individual
 Matthew Westcott:
   type: Individual
 Gregory Yob:
@@ -45,4 +42,10 @@ Gregor Richards:
 Alise:
   type: Individual
 Brian Connors:
+  type: Individual
+
+# these are actually organizations, but for now, we'll pretend
+"Cat's Eye Technologies":
+  type: Individual
+Befunge Mailing List Working Group:
   type: Individual

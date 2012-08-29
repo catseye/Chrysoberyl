@@ -1,7 +1,16 @@
 # encoding: UTF-8
-GPL:
-  type: License
 BSD:
+  type: License
+  commentary: |
+    In releasing software as [open-source](opensource.html),
+    [[Cat's Eye Technologies]] has a preference for the 3-clause BSD
+    License. It is an OSI Certified license (for whatever that's worth)
+    which is succinct, pointific, and written entirely in readable legal
+    language. It does not come off like a manifesto, nor does it contain any
+    cute puns. (Call us stodgy if you like, but a license just doesn't
+    strike us as an appropriate place for those things.)
+
+GPL:
   type: License
 MIT:
   type: License
