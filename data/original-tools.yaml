@@ -194,7 +194,7 @@ erlaunch.c:
   type: Tool Implementation
   in-distribution: erlaunch distribution
   license: BSD
-  host-language: C
+  host-language: C99
 
 erlaunch distribution: 
   type: Distribution

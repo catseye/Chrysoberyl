@@ -6,6 +6,14 @@ mature:
   type: Development Stage
 archival:
   type: Development Stage
+  description: |
+    This means it has a repository on Github and/or Bitbucket, but I have
+    no plans to develop it at all.
+archived:
+  type: Development Stage
+  description: |
+    This means I have no plans for it all not, not even putting it in
+    a repository on Github and/or Bitbucket.
 abandoned:
   type: Development Stage
 lost:
