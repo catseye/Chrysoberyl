@@ -1,0 +1,162 @@
+# encoding: UTF-8
+Software Engineering:
+  type: Discipline
+  commentary: |
+    Software engineering is the act of coordinating software workers
+    (designers, developers, testers, etc.) for the purpose of producing and
+    maintaining software.
+    
+    The central problem of software engineering is thus:
+    
+    -   The best way to develop the implementation of a software module is
+        by frequent incremental changes.
+    -   The *worst* way to develop the *interfaces between software modules*
+        is by frequent incremental changes.
+    
+    These two things are often referred to as "programming in the small" and
+    "programming in the large", although size really has nothing to do with
+    it — it's all about the number of cross-references.
+    
+    There are, of course, other problems of software engineering, but they
+    all tend to relate to the central problem.
+    
+    That said, here is [[Cat's Eye Technologies]] official position on
+    software engineering:
+    
+    **Don't.**
+    
+    Obviously we don't mean that. Or do we?
+    
+    There are two schools of thought about how to maintain systems that are
+    "larger" (read: have more cross-references) than a single person, or a
+    single team, can fully comprehend. Most modern software falls into this
+    category.
+    
+    One is to throw resources at it, on the model of evolutionary growth, or
+    trial and error: look for things that look promising to change (perhaps
+    because it looks like others changed them when trying to do something
+    similar,) change them, and once it does more or less what you want, hope
+    nothing else has been broken and **for God's sake don't touch it
+    again!!**
+    
+    The other is to try to *understand* the system, possibly by reducing it
+    into smaller systems that are easier to understand while codifying and
+    documenting the interfaces between the systems.
+    
+    If the first is the approach embodied by mainstream software engineering
+    — and I'd like to *believe* it isn't but from what I've seen *it is* —
+    then no. We don't want any part of that. Nondeterministic behaviour from
+    a `Makefile`? We want to know *why*. It's not enough to throw in targets
+    and dependencies (and perhaps even pauses) so that it doesn't *usually*
+    happen. Yes, you can get back to work on your "real" project that way,
+    but you're digging a huge hole for yourself in the long view — you're
+    not solving the underlying problem *and* you're increasing the
+    complexity of the system.
+    
+    You might say we belong to the [Edsger Dijkstra school of software
+    engineering](http://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1305.html "Answers to questions from students of Software Engineering").
+    ([Education, too](cs-education.html "About CS Education").)
+
+
+Release Engineering:
+  type: Discipline
+  description: |
+    Historically, Cat's Eye Technologies has usually identified each release
+    of a software project with only a release number. The release number is
+    really just the date that the software was released, formatted as
+    `YYYY.MMDD`. Each of `Y`, `M`, and `D` is a single digit, so that it
+    sorts nicely, even in a purely lexicographical sort order. In
+    retrospect, `YYYY.MM.DD` might have been a more structurally consistent
+    choice, but it's not as nicely symmetrical.
+    
+    Using only the release date to identify releases mostly suffices for
+    projects like ours, which rarely have any maintenance needs warranting
+    branches and such. But most of our projects do implement [programming
+    languages](languages.html), and these languages may or may not change
+    between releases. For example, if we're just fixing bugs in a feature of
+    the implementation, or clarifying the documentation or whatever, that's
+    not a change to the language. But if all we use to identify it is a
+    release number, you can't tell if it's a change to the language or not.
+    
+    In addition, some of our projects used a different convention, usually
+    two numbers `A.B` which resembled a fraction in decimal notation: often
+    `B` would be two digits (like 94) which did not count the number of
+    minor releases since the last major release cycle, but rather tried to
+    measure "how close" it was to the *next* major release cycle. Version
+    numbers like this were sometimes also followed by an (essentially
+    meaningless) letter.
+    
+    Realizing what a mess this is, we have strived to revise our release
+    identification system, as well as to make it more consistent.
+    
+    With few exceptions, every project now carries both a version and a
+    revision. The version consists of a major version number and a minor
+    version number, in the format `A.B`, where `A` and `B` are both
+    non-negative integers. The revision is the same as the old release
+    number, that is, it is the date in `YYYY.MMDD` format. The version and
+    revision are separated by hyphens, so a new-style "distfile" name
+    typically looks like `foo-1.3-2009.0116.zip` (although we are by and
+    large still providing only the legacy distfiles for download).
+    
+    The rules for when these numbers change are as follows:
+    
+    -   If a new release of a project has the same interface (syntax and
+        semantics, API, protocol, or what have you depending on what kind of
+        project it is) as the previous release of that project, then the
+        version will be the same as the old project, but the revision will
+        be different.
+    -   If a new release of a project is more-or-less backwards-compatible
+        with the previous release, then the major version will be the same,
+        but the minor version and revision will be different.
+    -   If a new release of a project is distinctly *not*
+        backwards-compatible with the previous release, then the major
+        version will be different, the minor version is typically reset to
+        zero, and the revision will of course be the date of the release.
+
+
+Project Organization:
+  type: Discipline
+  description: |
+    This is a rough guide to how projects in Cat's Eye Technologies'
+    [Project Space](../projects/) are laid out. It is both descriptive,
+    surveying how projects currently are laid out, and prescriptive,
+    specifying how projects should be laid out. It is currently a work in
+    progress and should not be considered complete yet.
+    
+    Certain subdirectories of the root directory of a project have standard
+    meanings:
+    
+    -   `bin` -- where executables shoud be kept. Projects should not ship
+        with native executables, but this is where they will be written when
+        built. Java `.class` files should be kept here, in a directory tree
+        matching the package names (and projects may ship with pre-compiled
+        `.class` files for convenience.) In the case of executable scripts,
+        they should be kept in `src`, though they may be copied to `bin`
+        upon build.
+    -   `disk` -- where disk images should be kept.
+    -   `ebin` -- where compiled Erlang modules (`.beam` files) executables
+        shoud be kept. Erlang projects may ship with pre-compiled `.beam`
+        files for convenience.) `.app` files may be contained here as well,
+        but these are generally deprecated at this point.
+    -   `eg` -- where examples should be kept, particularly example programs
+        in projects which implement programming languages.
+    -   `doc` -- where documentation should be kept. Exceptions include
+        `README` and other files which may appear in the root directory.
+        Images may be included in `doc` if they are part of the
+        documentation.
+    -   `priv` -- where data files for Erlang applications are kept.
+    -   `script` -- where scripts are kept, although this is generally
+        deprecated; executable scripts should be kept in `src`.
+    -   `src` -- where source code is kept.
+    
+    Certain files in the root project directory have standard meanings as
+    well:
+    
+    -   `README` or `README.txt` -- A short text document summarizing what
+        the project's about, and such.
+    -   `Makefile` -- description forthcoming.
+    -   `make.sh` -- description forthcoming.
+    -   `test.sh` -- A script which runs tests for the project. The tests
+        can test anything they like, but should produce output which
+        conforms to Portent format, which we haven't exactly defined yet, so
+        don't worry about it.

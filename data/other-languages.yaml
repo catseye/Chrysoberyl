@@ -213,9 +213,85 @@ Perl:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
+  as-a-prerequisite: |
     We mean Perl 5 here; probably Perl 5.10 is the best version to
     make sure everything runs.
+  commentary: |
+    Perl is what happens when you play [[Katamari Damacy]]
+    with the Unix toolchain.
+    
+    Ah, but the world should thank Perl for being the experiment that
+    demonstrated the effect of [designing a programming language around
+    natural-language principles](http://www.wall.org/~larry/natural.html)
+    (because for some reason, we learned so little from COBOL.) And of
+    course we should thank the experimenters for being so candid and
+    unbiased about their results. Finally, we have data that shows us what
+    we already knew, namely that [programming, no, "scripting" is really a
+    fuzzy endeavour](http://www.perl.com/pub/a/2007/12/06/soto-11.html) —
+    much like talking, or thinking. This is why Perl scripts, and by
+    extension all computer programs, have so few bugs.
+    
+    But if you can psychologically overcome all of that — perhaps with the
+    aid of some sort of nuclear-powered ninja weaponry — Perl's not *that*
+    bad. Unlike [[C++]], it has garbage collection. It has
+    anonymous [function closures](closures.html) (unlike [[PHP]],)
+    and they can consist of more than one expression (unlike [[Python]].) And
+    things like `use strict` at least smell like an attempt to approach some
+    sort of trying to permit, I don't know, enforcing discipline, or
+    something, if you think that would help.
+
+PHP:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  commentary: |
+    PHP is language defined by a tool built by some guys who saw a
+    [Perl](perl.html) interpreter once and thought it was really neat. They
+    thought that it would just rock to make a similar tool that lived in a
+    webserver and whose default operation was `print`.
+    
+    > "One of the most interesting aspects [of PHP version 2] included the
+    > way `while` loops were implemented. The hand-crafted lexical scanner
+    > would go through the script and when it hit the `while` keyword it
+    > would remember its position in the file. At the end of the loop, the
+    > file pointer sought back to the saved position, and the whole loop was
+    > reread and re-executed."
+    >
+    > — [PHP 5 Power
+    > Programming](http://ptgmedia.pearsoncmg.com/images/013147149X/downloads/013147149X_book.pdf)
+    > by Andi Gutmans, Stig Sæther Bakken, and Derick Rethans
+    
+    'Nuff said, I guess.
+    
+    No, no — you can *never* say enough about PHP!
+    
+    I would have to say the single greatest [[Software Engineering]]
+    achievement of PHP is how it taught us all that
+    programming should never be done without having constantly within arm's
+    reach a book with a photo of the author's face on it. Preferably on the
+    cover, and preferably amidst the [photos of his or her 8
+    co-authors](http://www.amazon.com/dp/0470055200/). Even more preferably
+    described as a ["Cookbook"](http://www.amazon.com/dp/0672323257/), or a
+    collection of ["Hacks"](http://www.amazon.com/dp/0596101392/) — hey, if
+    it didn't save me from having to understand what I'm doing, I wouldn't
+    have spent the \$30 on it.
+    
+    However, this is not to diminish the other great advance that PHP has
+    brought us. Truly, the shortest path from point A to point B is to slap
+    some B-coloured paint onto point A and put up a sign next to it saying
+    "Welcome to Point B, Population: You!" And does not PHP help us achieve
+    such a software development style — so *effective*, so *powerful*, so
+    downright worthy of this maxim?
+    
+    **Fatal error**: require\_once() [[function.require](function.require)]:
+    Failed opening required 'config.php'
+    (include\_path='.:/usr/local/share/pear') in
+    **/internal/directory/structure/home/website/include/oh\_drat.php** on
+    line **444**
+
 
 Python:
   type: Programming Language
@@ -242,8 +318,64 @@ Scheme:
   has-reference-distribution: false
   implementations: []
   authors: []
-  commentary: |
-      If an implementation is in "Scheme" we expect you to be able to deal with that.
+  as-a-prerequisite: |
+    If an implementation is in "Scheme" we expect you to be able to deal with that.
+  description: |
+    Scheme is a simple programming language with an extremely regular syntax
+    and a [succinct, well-defined
+    semantics](http://www.swiss.ai.mit.edu/~jaffer/r5rs_toc.html "Revised^5 Report on the Algorithmic Language Scheme").
+  commentary: |    
+    Scheme is often looked at historically, and described as a variant of
+    LISP. While useful, this historical viewpoint frequently gets in the way
+    of thinking about Scheme's significance *today*. In brief, if you are
+    evaluating Scheme for your own needs, evaluate *Scheme*, and don't worry
+    about LISP or functional programming.
+    
+    That said, let's go ahead and examine Scheme historically. Its history
+    has been one of shedding baggage from its LISP heritage: it has lexical
+    (instead of dynamic) scoping, guaranteed (rather than
+    if-your-vendor-supports-it) tail-recursive behaviour at execution time,
+    hygenic (instead of textual) macros, and continuations as first-class
+    objects. These are generally considered significant improvements, and we
+    fully agree.
+    
+    But there's one thing of LISP's that Scheme hasn't shed: its syntax...
+    or lack thereof!
+    
+    Whether you love it or hate it, you have to admit that Scheme's
+    S-expression syntax is extremely — no, *pathologically* — regular. Just
+    about as orthogonal as syntax can get.
+    
+    As far as we know, the reason LISP has such a mind-bogglingly minimal
+    syntax is that it's a consequence of how it approached higher-order
+    functions: *represent functions as lists*. You can already pass lists to
+    and return lists from functions, so if functions "are" lists, then
+    problem solved, right? And there's no sense having two different
+    syntaxes for the same kind of data.
+    
+    But that didn't turn out too happily, and times have changed. In Scheme,
+    function values are *not* lists: they're [closures](closures.html). This
+    is overall a nice thing — it avoids the ugliness of trying to determine
+    which list is the "right" representation, and allows free variables to
+    be captured in function values instead using the crutch of dynamic
+    binding.
+    
+    But that syntax is still there, like some kind of vestigial organ. What
+    purpose does it serve now?
+    
+    Well, the interesting thing about it is that it makes it impossible to
+    syntactically distinguish between code and data. Depending on the
+    circumstance, this can be a horror or a delight.
+    
+    Here's the horror: say you're looking at a snippet of a Scheme program.
+    You can't tell what `(+ 1 2)` is supposed to be — code, or data? —
+    without looking at what context it's in. This can be as confusing as all
+    git-out. (And don't get me started on `quasiquote`.)
+    
+    Here's the delight: it makes it trivial to read and write Scheme
+    programs from other Scheme programs. No parsing, no backpatching. No
+    blood, sweat, *or* tears. In fact, we wonder why this holdover from LISP
+    has not driven Scheme on to become *the* program-analysis language.
 
 Haskell:
   type: Programming Language
