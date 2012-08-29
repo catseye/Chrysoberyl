@@ -160,3 +160,20 @@ Project Organization:
         can test anything they like, but should produce output which
         conforms to Portent format, which we haven't exactly defined yet, so
         don't worry about it.
+
+Computer Science Education:
+  type: Discipline
+  commentary: |
+    Well, here we are — 2008. We've been teaching computer science for,
+    what, half a century so far? Wow. We must be getting pretty good at it
+    by now. Let's look as the state of the art...
+    
+    Oh, interesting. In January, some professors wrote a
+    [paper](http://www.stsc.hill.af.mil/CrossTalk/2008/01/0801DewarSchonberg.html "Computer Science Education: Where Are the Software Engineers of Tomorrow?")
+    that claims that CS education lacks mathematical rigour and leaves
+    students ill-equipped for genuine software development, and suggests
+    that CS curricula emphasize formal methods.
+    
+    Egad! Is it really
+    [1988](http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html "On the cruelty of really teaching computing science")
+    *again*? So *soon*?

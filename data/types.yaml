@@ -1,6 +1,9 @@
 # encoding: UTF-8
 type:
   type: type
+# horribly vague:
+Concept:
+  type: type
 Distribution:
   type: type
 License:
