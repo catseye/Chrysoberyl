@@ -5,6 +5,63 @@
 # - Falderal is a language, and the testing tools are implementations of it
 # - TPiS is an implementation of Scheme (a static checker) 
 # - yucca is an implementation of BASIC (a static checker) 
+
+basedump: 
+  type: Tool
+  summary: Views data or files in any base
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - basedump.erl
+  reference-distribution: basedump distribution
+
+basedump.erl:
+  type: Tool Implementation
+  in-distribution: basedump distribution
+  license: BSD
+  host-language: Erlang
+
+basedump distribution: 
+  type: Distribution
+  distribution-of: basedump
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2002.1010"
+    latest: true
+    url: http://catseye.tc/distfiles/basedump-2002.1010.zip
+
+
+brace: 
+  type: Tool
+  summary: Utility to translate I/O interactively
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - brace.c
+  reference-distribution: brace distribution
+
+brace.c:
+  type: Tool Implementation
+  in-distribution: brace distribution
+  license: BSD
+  host-language: C99
+
+brace distribution: 
+  type: Distribution
+  distribution-of: brace
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0920"
+    latest: true
+    url: http://catseye.tc/distfiles/brace-2004.0920.zip
+
+
 'Console::Virtual':
   type: Library
   summary: Package for simulating a virtual console
@@ -89,6 +146,65 @@ crone distribution:
     revision: "2004.0301"
     latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
+
+
+ec: 
+  type: Tool
+  summary: Simple build utility for Erlang projects
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - ec.erl
+  reference-distribution: ec distribution
+
+ec.erl:
+  type: Tool Implementation
+  in-distribution: ec distribution
+  license: BSD
+  host-language: Erlang
+
+ec distribution: 
+  type: Distribution
+  distribution-of: ec
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0228"
+    latest: true
+    url: http://catseye.tc/distfiles/ec-2004.0228.zip
+
+
+erlaunch: 
+  type: Tool
+  summary: Reduces startup time for Erlang/OTP programs
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - erlaunch.c
+  reference-distribution: erlaunch distribution
+  commentary: |
+    Not really useful anymore, as startup time for recent versions
+    of Erlang/OTP is pretty good.
+
+erlaunch.c:
+  type: Tool Implementation
+  in-distribution: erlaunch distribution
+  license: BSD
+  host-language: C
+
+erlaunch distribution: 
+  type: Distribution
+  distribution-of: erlaunch
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0309"
+    latest: true
+    url: http://catseye.tc/distfiles/erlaunch-2004.0309.zip
 
 
 Falderal: 

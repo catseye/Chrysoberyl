@@ -43,7 +43,11 @@ Bubble Escape distribution:
 esoko distribution: 
   type: Distribution
   distribution-of: esoko
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "2002.1104"
+    latest: true
+    url: http://catseye.tc/distfiles/esoko-2002.1104.zip
 
 Flip distribution: 
   type: Distribution
@@ -60,7 +64,11 @@ Flip distribution:
 Hunt the Wumpus distribution: 
   type: Distribution
   distribution-of: Hunt the Wumpus
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "2002.0630"
+    latest: true
+    url: http://catseye.tc/distfiles/wumpus-2002.0630.zip
 
 Super Wumpus Land distribution:  
   type: Distribution

@@ -1,5 +1,5 @@
 # encoding: UTF-8
-'Hunt the Wumpus':
+Hunt the Wumpus:
   type: Game
   genre: Logic
   vintage: true
@@ -10,9 +10,9 @@
   implementations:
   - wumpus.erl
 
-'wumpus.erl':
+wumpus.erl:
   type: Game Implementation
-  in-distribution: 'Hunt the Wumpus distribution'
+  in-distribution: Hunt the Wumpus distribution
   authors:
   - Chris Pressey
   auspices:
@@ -21,7 +21,7 @@
   inception-date: ca 1999?
   host-language: Erlang
 
-'Animals':
+Animals:
   type: Game
   genre: Guessing
   vintage: true
@@ -36,7 +36,7 @@
   - animals.erl
   authors: []
 
-'animals.erl':
+animals.erl:
   type: Game Implementation
   in-distribution: Animals distribution
   authors:
@@ -48,17 +48,17 @@
   host-language: Erlang
   interface: terminal
 
-'Flip':
+Flip:
   type: Game
   genre: Guessing
   vintage: true
   abstract: |-
     A classic game that demonstrates simple "artificial intelligence".
   implementations:
-  - 'flip.erl'
+  - flip.erl
   authors: []
 
-'flip.erl':
+flip.erl:
   type: Game Implementation
   in-distribution: Flip distribution
   authors:
@@ -70,17 +70,17 @@
   host-language: Erlang
   interface: terminal
 
-'Sokoban':
+Sokoban:
   type: Game
   genre: Puzzle
   vintage: false
   abstract: |-
     The classic Japanese game about lean manufacturing (well, sort of).
   implementations:
-  - 'esoko'
+  - esoko
   authors: []
 
-'esoko':
+esoko:
   type: Game Implementation
   in-distribution: esoko distribution
   authors:
