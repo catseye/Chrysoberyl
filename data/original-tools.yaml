@@ -1,4 +1,5 @@
 # encoding: UTF-8
+# also contains the distributions for these tools
 # also contains libraries (like Console::Virtual)
 # Note: arguably:
 # - Falderal is a language, and the testing tools are implementations of it
@@ -35,6 +36,24 @@
   license: BSD
   host-language: Perl
 
+'Console::Virtual distribution': 
+  type: Distribution
+  distribution-of: 'Console::Virtual'
+  bitbucket: catseye/console-virtual
+  github: catseye/Console-Virtual
+  issue-tracker: github
+  project-page: 'http://catseye.tc/projects/console-virtual/'
+  releases: 
+  - version: "2.0"
+    revision: "2007.1122"
+    latest: true
+    url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
+  - version: "1.0"
+    revision: "2003.0325"
+    latest: false
+    url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
+
+
 crone: 
   type: Tool
   summary: Simple, non-polling cron-like scheduler
@@ -50,13 +69,27 @@ crone:
   inception-date: Unknown
   implementations:
   - crone.erl
-  reference-distribution: 'crone distribution'
+  reference-distribution: crone distribution
 
-'crone.erl':
+crone.erl:
   type: Tool Implementation
   in-distribution: 'crone distribution'
   license: BSD
   host-language: Erlang
+
+crone distribution: 
+  type: Distribution
+  distribution-of: crone
+  bitbucket: catseye/crone
+  github: catseye/crone
+  issue-tracker: github
+  project-page: 'http://catseye.tc/projects/crone/'
+  releases: 
+  - version: "1.0"
+    revision: "2004.0301"
+    latest: true
+    url: http://catseye.tc/distfiles/crone-2004.0301.zip
+
 
 Falderal: 
   type: Tool
@@ -91,6 +124,75 @@ Falderal:
   in-distribution: 'Falderal distribution'
   license: BSD
   host-language: Python
+
+'Falderal distribution': 
+  type: Distribution
+  distribution-of: Falderal
+  bitbucket: catseye/falderal
+  github: catseye/Falderal
+  issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
+  project-page: 'http://catseye.tc/projects/falderal/'
+  releases: 
+  - version: "0.6"
+    revision: "2012.0102"
+    latest: true
+    url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
+  - version: "0.5"
+    revision: "2011.1214"
+    latest: false
+    url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
+  - version: "0.4"
+    revision: "2011.1010"
+    latest: false
+    url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
+  - version: "0.3"
+    revision: "2011.1007"
+    latest: false
+    url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
+  - version: "0.2"
+    revision: "2011.0627"
+    latest: false
+    url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
+  - version: "0.1"
+    revision: "2011.0517"
+    latest: false
+    url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
+
+
+mzstorkipiwanbotbotbot: 
+  type: Tool
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  abstract: |-
+    An IRC bot with no purpose or plan.
+  inception-date: Unknown
+  implementations:
+  - mzstorkipiwanbotbotbot (Lua)
+  - Rtype
+  reference-distribution: mzstorkipiwanbotbotbot distribution
+
+'mzstorkipiwanbotbotbot (Lua)':
+  type: Tool Implementation
+  in-distribution: mzstorkipiwanbotbotbot distribution
+  license: Public Domain
+  host-language: Lua
+
+Rtype:
+  type: Tool Implementation
+  in-distribution: mzstorkipiwanbotbotbot distribution
+  license: Public Domain
+  host-language: R
+
+mzstorkipiwanbotbotbot distribution: 
+  type: Distribution
+  distribution-of: mzstorkipiwanbotbotbot
+  bitbucket: catseye/mzstorkipiwanbotbotbot
+  github: catseye/mzstorkipiwanbotbotbot
+  issue-tracker: github
+  releases: []
+
 
 OpenFlax: 
   type: Tool
@@ -129,6 +231,47 @@ OpenFlax:
   license: BSD
   host-language: Erlang
 
+'OpenFlax distribution': 
+  type: Distribution
+  distribution-of: OpenFlax
+  releases: 
+  - version: "1.0"
+    revision: "2004.0919"
+    latest: true
+    url: http://catseye.tc/distfiles/openflax-2004.0919.zip
+
+
+toolshelf: 
+  type: Tool
+  summary: A "package manager" that doesn't actually install anything
+  authors:
+  - Chris Pressey
+  abstract: |-
+    `toolshelf` is a "package manager" which doesn't actually install any files.
+    Instead, it stores the source trees of sundry packages in a single directory,
+    and manages your search paths to include the relevant subdirectories of
+    those trees. The source trees are typically the working directories of
+    local git or Mercurial clones, or they can be source distributions from tarballs.
+  inception-date: 2012
+  implementations:
+  - toolshelf.py
+  reference-distribution: toolshelf distribution
+
+toolshelf.py:
+  type: Tool Implementation
+  in-distribution: toolshelf distribution
+  license: MIT
+  host-language: Python
+
+toolshelf distribution: 
+  type: Distribution
+  distribution-of: toolshelf
+  bitbucket: catseye/toolshelf
+  github: catseye/toolshelf
+  issue-tracker: github
+  releases: []
+
+
 TPiS: 
   type: Tool
   subtitle: Total Procedures in Scheme
@@ -141,16 +284,29 @@ TPiS:
     checking that they are specified primitive-recursively.  What's more, it
     is written almost entirely in a primitive-recursive style, so it can
     check itself!
-  inception-date: Unknown
+  inception-date: ca 2006
   implementations:
   - TPiS (Scheme)
   reference-distribution: 'TPiS distribution'
 
 'TPiS (Scheme)':
   type: Tool Implementation
-  in-distribution: 'TPiS distribution'
+  in-distribution: TPiS distribution
   license: BSD
   host-language: Scheme
+
+TPiS distribution: 
+  type: Distribution
+  distribution-of: TPiS
+  bitbucket: catseye/tpis
+  github: catseye/TPiS
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2006.0528"
+    latest: true
+    url: http://catseye.tc/distfiles/tpis-2006.0528.zip
+
 
 yucca: 
   type: Tool
@@ -167,10 +323,23 @@ yucca:
   inception-date: 2012
   implementations:
   - yucca (Python)
-  reference-distribution: 'yucca distribution'
+  reference-distribution: yucca distribution
 
 'yucca (Python)':
   type: Tool Implementation
-  in-distribution: 'yucca distribution'
+  in-distribution: yucca distribution
   license: MIT
   host-language: Python
+
+yucca distribution: 
+  type: Distribution
+  distribution-of: yucca
+  bitbucket: catseye/yucca
+  github: catseye/yucca
+  issue-tracker: github
+  project-page: 'http://catseye.tc/projects/yucca/'
+  releases: 
+  - version: "1.0"
+    revision: "2012.0610"
+    latest: true
+    url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip

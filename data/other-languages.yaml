@@ -327,6 +327,20 @@ Python:
   commentary: |
     Mostly harmless.
 
+
+R:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  links:
+  - 'http://www.r-project.org/'
+  as-a-prerequisite: |
+    You're on your own, mate.
+
+
 Ruby:
   type: Programming Language
   genre: Production language
