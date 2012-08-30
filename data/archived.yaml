@@ -28,6 +28,34 @@ basedump distribution:
     url: http://catseye.tc/distfiles/basedump-2002.1010.zip
 
 
+belld: 
+  # Kernel Module?  Tool is close enough
+  type: Tool
+  summary: FreeBSD 4.x syscons bell hook to run executable
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - belld.c
+
+belld.c:
+  type: Tool Implementation
+  in-distribution: belld distribution
+  license: BSD
+  host-language: C99
+
+belld distribution: 
+  type: Distribution
+  distribution-of: basedump
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0303"
+    latest: true
+    url: http://catseye.tc/distfiles/belld-2004.0303.zip
+
+
 brace: 
   type: Tool
   summary: Utility to translate I/O interactively
@@ -53,6 +81,34 @@ brace distribution:
     revision: "2004.0920"
     latest: true
     url: http://catseye.tc/distfiles/brace-2004.0920.zip
+
+
+ce: 
+  # library
+  type: Tool
+  summary: Library of common Erlang utility functions
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - ce (Erlang)
+
+ce (Erlang):
+  type: Tool Implementation
+  in-distribution: ce distribution
+  license: BSD
+  host-language: Erlang
+
+ce distribution: 
+  type: Distribution
+  distribution-of: ce
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2003.0522"
+    latest: true
+    url: http://catseye.tc/distfiles/ce-2003.0522.zip
 
 
 ec: 
@@ -156,3 +212,32 @@ OpenFlax distribution:
     revision: "2004.0919"
     latest: true
     url: http://catseye.tc/distfiles/openflax-2004.0919.zip
+
+
+peruse: 
+  type: Tool
+  summary: Views Erlang log files interactively on terminal
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - peruse.erl
+  commentary: |
+    ISTR it had some bugs in it, and who uses the Erlang logfile format anyway?
+
+peruse.erl:
+  type: Tool Implementation
+  in-distribution: peruse distribution
+  license: BSD
+  host-language: Erlang
+
+peruse distribution: 
+  type: Distribution
+  distribution-of: peruse
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2002.1204"
+    latest: true
+    url: http://catseye.tc/distfiles/peruse-2002.1204.zip
