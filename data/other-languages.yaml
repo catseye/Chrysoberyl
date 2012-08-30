@@ -7,8 +7,11 @@ ANSI C:
   has-reference-distribution: false
   implementations: []
   authors: []
-  links:
-  - http://clc-wiki.net/wiki/C89
+  reference-link: http://clc-wiki.net/wiki/C89
+  references: 
+  - title: ANSI C docs
+    description: Interesting documents about the standardization of C
+    url: http://www.lysator.liu.se/c/
   as-a-prerequisite: |
     The C-language source files in this project conform to C89 (also,
     and more popularly, known as ANSI C.)
@@ -31,8 +34,8 @@ C99:
   has-reference-distribution: false
   implementations: []
   authors: []
+  reference-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   links:
-  - http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   - http://gcc.gnu.org/gcc-3.4/
   - http://www.opengroup.org/onlinepubs/9699919799/
   as-a-prerequisite: |
@@ -61,6 +64,22 @@ C++:
   has-reference-distribution: false
   implementations: []
   authors: []
+  references:
+  - title: C++ FAQ Lite
+    description: Comprehensive compilation of C++ questions and answers
+    url: http://www.parashift.com/c++-faq-lite/
+  - title: C++ FQA Lite
+    description: 'A "Rebuttal" to C++ FAQ Lite: Frequently Questioned Answers'
+    url: http://yosefk.com/c++fqa/
+  - title: STL
+    description: SGI's Standard Template Library Programmer's Guide
+    url: http://www.sgi.com/tech/stl/index.html
+  - title: Boost
+    description: Boost provides free peer-reviewed portable C++ source libraries
+    url: http://www.boost.org/
+  - title: TFoo::operator=
+    description: The Anatomy of the Assignment Operator
+    url: http://icu-project.org/docs/papers/cpp_report/the_anatomy_of_the_assignment_operator.html
   commentary: |
     For any software project, it's important that you choose the right
     language to develop it in. That's why you'll always choose C++, no
@@ -179,8 +198,10 @@ Erlang:
   has-reference-distribution: false
   implementations: []
   authors: []
-  links:
-  - 'http://www.erlang.org/'
+  references:
+  - title: Open Source Erlang/OTP
+    description: Ericsson's official distribution site
+    url: http://www.erlang.org/
   as-a-prerequisite: |
     Some or all of the programs in this project are Erlang modules, and
     running them requires a copy of the Erlang/OTP runtime system, version
@@ -206,8 +227,13 @@ Java:
   has-reference-distribution: false
   implementations: []
   authors: []
-  links:
-  - http://java.sun.com/
+  references:
+  - title: Oracle Technology Network > Java
+    description: Official website of the Java™ Platform
+    url: http://www.oracle.com/technetwork/java/index.html
+  - title: Java Specs
+    description: The Java™ Virtual Machine and Language Specifications
+    url: http://docs.oracle.com/javase/specs/
   as-a-prerequisite: |
     Java SE 6 JDK 1.6.0
     
@@ -305,8 +331,11 @@ Lua:
   has-reference-distribution: false
   implementations: []
   authors: []
-  links:
-  - 'http://www.lua.org/versions.html#5.0'
+  references:
+  - title: Lua
+    description: Official Lua website
+    url: http://www.lua.org/
+  reference-link: http://www.lua.org/versions.html#5.0
   as-a-prerequisite: |
     Some or all of the programs in this project are Lua scripts, and running
     them requires a Lua interpreter, version 5.0.x. (The latest version, as
