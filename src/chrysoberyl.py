@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # encoding: UTF-8
 
+import codecs
 import os
 import re
 import sys
 
+import jinja2
+import markdown
 import yaml
 try:
     from yaml import CLoader as Loader
@@ -159,6 +162,52 @@ def check_chrysoberyl_data(data):
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
                                     type_='Distribution')
 
+
+def markdown_field(node, field):
+    if field in node:
+        # XXX also resolve internal links here
+        return markdown.markdown(node[field])
+    else:
+        return None
+
+
+def filekey(key):
+    return key.replace('/', '_').replace(' ', '_') + ".html"
+
+class Renderer(object):
+    def __init__(self, output_dir):
+        template_dir = 'templates'
+        self.output_dir = output_dir
+        self.loader = jinja2.FileSystemLoader(template_dir, encoding='utf-8')
+        self.env = jinja2.Environment(loader=self.loader)
+
+    def render(self, template, output_filename, context):
+        with codecs.open(output_filename, 'w', 'utf-8') as html:
+            html.write(template.render(context))
+    
+    def get_template(self, node):
+        template_filename = 'default.html' # for now
+        template = self.env.get_template(template_filename)
+        return template
+
+    def render_node(self, key, node):
+        node = node.copy()
+        node['key'] = key
+        node['description'] = markdown_field(node, 'description')
+        node['commentary'] = markdown_field(node, 'commentary')
+        node['as_a_prerequisite'] = markdown_field(node, 'as-a-prerequisite')
+        # print node
+        template = self.get_template(node)
+        self.render(template, os.path.join(self.output_dir, filekey(key)), node)
+
+    def render_chrysoberyl_data(self, data):
+        for key in data:
+            node = data[key]
+            self.render_node(key, node)
+
+
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])
     check_chrysoberyl_data(data)
+    r = Renderer('www')
+    r.render_chrysoberyl_data(data)
