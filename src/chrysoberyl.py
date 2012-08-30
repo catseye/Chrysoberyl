@@ -18,14 +18,17 @@ except ImportError:
 def load_chrysoberyl_dir(dirname):
     data = {}
 
+    count = 0
     for root, dirnames, filenames in os.walk(dirname):
         for filename in filenames:
             if filename.endswith('.yaml'):
+                count += 1
                 file = open(os.path.join(root, filename))
                 data.update(yaml.load(file, Loader=Loader))
                 file.close()
         del dirnames[:]  # don't automatically descend
 
+    print "%d files read." % count
     return data
 
 
@@ -140,7 +143,7 @@ def check_chrysoberyl_data(data):
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
-          if node.get('has-reference-distribution', True):
+          if node.setdefault('has-reference-distribution', True):
               if 'reference-distribution' not in node:
                   node['reference-distribution'] = '%s distribution' % key
               check_scalar_ref(data, key, node, 'reference-distribution',
@@ -166,20 +169,27 @@ def check_chrysoberyl_data(data):
 
     print "%d nodes checked." % count
 
-def markdown_field(node, field):
+
+def filekey(key):
+    return re.sub(r'(\/|\s|\:)', '_', key) + ".html"
+
+
+def markdown_field(data, node, field):
+    def linker(match):
+        text = match.group(1)
+        return '<a href="%s">%s</a>' % (filekey(text), text)
     if field in node:
-        # XXX also resolve internal links here
-        return markdown.markdown(node[field])
+        html = markdown.markdown(node[field])
+        html = re.sub(r'\[\[(.*?)\]\]', linker, html)
+        return html
     else:
         return None
 
 
-def filekey(key):
-    return key.replace('/', '_').replace(' ', '_') + ".html"
-
 class Renderer(object):
-    def __init__(self, output_dir):
-        self.template_dir = 'templates'
+    def __init__(self, data, template_dir, output_dir):
+        self.data = data
+        self.template_dir = template_dir
         self.output_dir = output_dir
         self.loader = jinja2.FileSystemLoader(self.template_dir,
                                               encoding='utf-8')
@@ -199,18 +209,19 @@ class Renderer(object):
 
     def render_node(self, key, node):
         context = node.copy()
+        context['data'] = self.data
         context['key'] = key
         for field in ('description', 'commentary', 'as-a-prerequisite'):
-            context[field] = markdown_field(node, field)
+            context[field] = markdown_field(self.data, context, field)
         new_fields = {}
-        for field in node.keys():
-            new_fields[field.replace('-', '_')] = node[field]
+        for field in context.keys():
+            new_fields[field.replace('-', '_')] = context[field]
         context.update(new_fields)
         context['filekey'] = filekey
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
 
-    def render_chrysoberyl_data(self, data):
+    def render_chrysoberyl_data(self):
         count = 0
         for key in data:
             count += 1
@@ -222,5 +233,5 @@ class Renderer(object):
 if __name__ == '__main__':
     data = load_chrysoberyl_dir(sys.argv[1])
     check_chrysoberyl_data(data)
-    r = Renderer('www')
-    r.render_chrysoberyl_data(data)
+    r = Renderer(data, 'templates', 'www')
+    r.render_chrysoberyl_data()

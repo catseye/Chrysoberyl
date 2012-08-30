@@ -5,16 +5,41 @@
 </head>
 <body>
   <h1>{{ key }}</h1>
-  <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a></p>
+  {% block showtype %}
+    <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a></p>
+  {% endblock showtype %}
+
   {% if genre %}
     <p id="genre">Genre: <a href="{{ filekey(genre) }}">{{ genre }}</a></p>
   {% endif %}
+  {% if esowiki %}
+    <p id="esowiki">Esowiki: <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a></p>
+  {% endif %}
+  {% if wikipedia %}
+    <p id="wikipedia">Wikipedia: <a href="http://wikipedia.org/wiki/{{ wikipedia }}">{{ wikipedia }}</a></p>
+  {% endif %}
+
   {% if description %}
+    <h2>Description</h2>
     <p id="description">{{ description }}</p>
   {% endif %}
+
+  {% block content %}
+  {% endblock content %}
+
+  {% if references %}
+  <h2>References</h2>
+  <ul>
+    {% for reference in references %}
+    <li>
+      <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description }}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   {% if commentary %}
     <p id="commentary">Commentary:<br>{{ commentary }}</p>
   {% endif %}
-  {% block content %}
-  {% endblock content %}
+  
 </body>

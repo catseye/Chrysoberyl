@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{# don't show "Type: type", that's just silly #}
+{% block showtype %}{% endblock showtype %}
+
+{% block content %}
+
+<h2>All nodes of type "{{ key }}"</h2>
+
+<ul>
+{% for thing in data.keys()|sort %}
+  {% if data[thing].type == key %}
+    <li>
+      <a href="{{ filekey(thing) }}">{{ thing }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}

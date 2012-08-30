@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if has_reference_distribution %}
+<p>Reference distribution: <a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
+{% endif %}
+
+{% endblock content %}

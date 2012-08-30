@@ -406,8 +406,8 @@ PHP:
   authors: []
   commentary: |
     PHP is language defined by a tool built by some guys who saw a
-    [Perl](perl.html) interpreter once and thought it was really neat. They
-    thought that it would just rock to make a similar tool that lived in a
+    [[Perl]] interpreter once and thought it was really neat. They
+    thought that it would just *rock* to make a similar tool that lived in a
     webserver and whose default operation was `print`.
     
     > "One of the most interesting aspects [of PHP version 2] included the
