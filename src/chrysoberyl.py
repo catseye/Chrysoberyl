@@ -94,7 +94,7 @@ def check_chrysoberyl_data(data):
           "'%s' has bad type '%s'" % (key, type_)
 
       check_optional_list_ref(data, key, node, 'see-also')
-      check_optional_list_ref(data, key, node, 'authors', type_='Individual')
+      check_optional_list_ref(data, key, node, 'authors')
       check_optional_list_ref(data, key, node, 'auspices', type_='Organization')
 
       assert 'abstract' not in node, "legacy field 'abstract' in '%s'" % key

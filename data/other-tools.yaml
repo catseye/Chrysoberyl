@@ -1,9 +1,9 @@
 # encoding: UTF-8
 Borland C++:
   type: Language Implementation
+  implementation-of: C++
   reference: no
   license: Proprietary
-  source-language: C++
   host-language: x86 machine code
   target-language: x86 machine code
   implementation-type: compiler

@@ -47,7 +47,6 @@ alpaca.pl:
   in-distribution: ALPACA distribution
   license: BSD
   implementation-type: compiler
-  source-language: ALPACA
   host-language: Perl
   target-language: Perl
 
@@ -750,7 +749,6 @@ Eightebed:
   reference: yes
   license: BSD
   implementation-type: compiler
-  source-language: Eightebed
   host-language: Python
   target-language: ANSI C
 
@@ -1221,7 +1219,6 @@ ILLGOL.COM:
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
-  source-language: ILLGOL
   host-language: ANSI C
   target-language: x86 machine code
   can-be-built-with-borland-c: true
@@ -1252,7 +1249,6 @@ ILLGOLA-2.COM:
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
-  source-language: Illgola-2
   host-language: ANSI C
   target-language: x86 machine code
   can-be-built-with-borland-c: true
@@ -1285,7 +1281,6 @@ ILLBERON.COM:
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
-  source-language: Illberon
   host-language: ANSI C
   target-language: x86 machine code
   can-be-built-with-borland-c: true
@@ -1318,7 +1313,6 @@ ILLGOL##.COM:
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
-  source-language: Open Sores Illgol##
   host-language: ANSI C
   target-language: x86 machine code
   can-be-built-with-borland-c: true
@@ -1737,7 +1731,7 @@ ndcnc.bf:
   type: Language Implementation
   implementation-of: "'N-DCNC"
   license: Unknown license
-  source-language: "'N-DCNC"
+  implementation-type: compiler
   host-language: Befunge-93
   target-language: "FALSE"
   broken: true
@@ -1992,6 +1986,7 @@ Pixley:
 
 pixley.pix:
   type: Language Implementation
+  implementation-of: Pixley
   in-distribution: Pixley distribution
   reference: true
   license: BSD
@@ -2187,6 +2182,7 @@ Sbeezg:
 
 sbeezg.erl:
   type: Language Implementation
+  implementation-of: Sbeezg
   in-distribution: Sbeezg distribution
   reference: true
   license: BSD
@@ -2225,11 +2221,11 @@ Shelta:
 
 shelta:
   type: Language Implementation
+  implementation-of: Shelta
   reference: true
   in-distribution: Shelta distribution
   license: Freely Redistributable
   implementation-type: compiler
-  source-language: Shelta
   host-language: NASM Assembler
   target-language: x86 machine code
   run-requirements:
@@ -2237,10 +2233,10 @@ shelta:
 
 sheltas:
   type: Language Implementation
+  implementation-of: Shelta
   in-distribution: Shelta distribution
   license: Freely Redistributable
   implementation-type: compiler
-  source-language: Shelta
   host-language: Shelta
   target-language: x86 machine code
   run-requirements:
@@ -2281,6 +2277,7 @@ SMETANA:
 
 smetana.pl:
   type: Language Implementation
+  implementation-of: SMETANA
   in-distribution: SMETANA distribution
   license: Public Domain
   reference: yes
@@ -2289,6 +2286,7 @@ smetana.pl:
 
 tc.catseye.yoob.smetana:
   type: Language Implementation
+  implementation-of: SMETANA
   in-distribution: yoob distribution
   license: Public Domain
   implementation-type: interpreter
@@ -2338,6 +2336,7 @@ SMITH:
 
 smith.pl:
   type: Language Implementation
+  implementation-of: SMITH
   in-distribution: SMITH distribution
   reference: yes
   license: BSD
@@ -2371,6 +2370,7 @@ Squishy2K:
 
 squishy2k.pl:
   type: Language Implementation
+  implementation-of: Squishy2K
   in-distribution: Squishy2K distribution
   reference: true
   license: BSD
@@ -2519,7 +2519,6 @@ Troupe:
   computational-class: believed Turing-complete
   inception-date: Jun 25, 2012
   esowiki: Troupe
-  implementations: []
 
 
 Unlikely:

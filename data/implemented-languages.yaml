@@ -263,8 +263,6 @@ Black:
   esowiki: Black
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.black
 
 tc.catseye.yoob.black:
   type: Language Implementation

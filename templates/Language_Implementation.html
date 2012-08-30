@@ -2,19 +2,19 @@
 
 {% block content %}
 
+<p>Implementation type: <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a></p>
+
+<p>Implementation of <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>
+  in <a href="{{ filekey(host_language) }}">{{ host_language }}</a></p>
+
+{% if implementation_type == 'compiler' %}
+<p>Target language: <a href="{{ filekey(target_language) }}">{{ target_language }}</a></p>
+{% endif %}
+
 {% if in_distribution %}
   <p>In distribution: <a href="{{ filekey(in_distribution) }}">{{ in_distribution }}</a></p>
 {% endif %}
 
 <p>License: <a href="{{ filekey(license) }}">{{ license }}</a></p>
-
-<p>Implementation type: <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a></p>
-
-<p>Implementation language: <a href="{{ filekey(host_language) }}">{{ host_language }}</a></p>
-
-{% if implementation_type == 'compiler' %}
-<p>Source language: <a href="{{ filekey(source_language) }}">{{ source_language }}</a></p>
-<p>Target language: <a href="{{ filekey(target_language) }}">{{ target_language }}</a></p>
-{% endif %}
 
 {% endblock content %}
