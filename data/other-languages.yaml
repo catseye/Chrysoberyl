@@ -175,22 +175,6 @@ CSS:
     the week, but at least it probably won't hang, or crash, or corrupt the
     browser's state.
 
-Haskell:
-  type: Programming Language
-  genre: Production language
-  computational-class: shown Turing-complete
-  has-reference-distribution: false
-  implementations: []
-  authors: []
-  links:
-  - http://www.haskell.org/
-  - http://www.haskell.org/ghc/
-  - http://www.haskell.org/hugs/
-  as-a-prerequisite: |
-    Any Haskell 98-conforming implementation of Haskell should be able to
-    handle the sources for this project. In order to compile a binary with a
-    Haskell compiler such as `ghc`, you may need to add some driver code.
-
 Erlang:
   type: Programming Language
   genre: Production language
@@ -219,6 +203,22 @@ Erlang:
     Also note there is a good chance that the sources will compile and run
     on an older version (say, R9C) of Erlang/OTP, but you may need
     to make some manual changes and system setup.
+
+Haskell:
+  type: Programming Language
+  genre: Production language
+  computational-class: shown Turing-complete
+  has-reference-distribution: false
+  implementations: []
+  authors: []
+  links:
+  - http://www.haskell.org/
+  - http://www.haskell.org/ghc/
+  - http://www.haskell.org/hugs/
+  as-a-prerequisite: |
+    Any Haskell 98-conforming implementation of Haskell should be able to
+    handle the sources for this project. In order to compile a binary with a
+    Haskell compiler such as `ghc`, you may need to add some driver code.
 
 Java:
   type: Programming Language
@@ -456,9 +456,16 @@ Python:
   has-reference-distribution: false
   implementations: []
   authors: []
-  links:
-  - 'http://www.python.org/'
-  - 'http://www.jython.org/'
+  references:
+  - title: Python
+    description: Official website of the Python Programming Language
+    url: http://www.python.org/
+  - title: Python IAQ
+    description: Infrequently Answered Questions about Python
+    url: http://norvig.com/python-iaq.html
+  - title: Jython
+    description: Implementation of Python for the JVM
+    url: http://www.jython.org/
   as-a-prerequisite: |
     Some or all of the programs in this project are Python scripts, and
     running them requires a Python interpreter, version 2.5.2 or later.

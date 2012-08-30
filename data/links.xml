@@ -1,0 +1,951 @@
+<link>
+  <keywords>
+    <keyword>6502</keyword>
+  </keywords>
+  <url>http://www.obelisk.demon.co.uk/6502/instructions.html</url>
+  <title>6502 Instruction Set</title>
+  <description>6502 Instruction Set Reference</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>asm</keyword>
+    <keyword>x86</keyword>
+  </keywords>
+  <url>http://nasm.sourceforge.net/</url>
+  <title>NASM</title>
+  <description>The Netwide Assembler (x86)</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>6502</keyword>
+    <keyword>asm</keyword>
+    <keyword>cbm</keyword>
+  </keywords>
+  <url>http://hkn.berkeley.edu/~mcmartin/P65/</url>
+  <title>P65</title>
+  <description>Portable 6502-family Assembler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>asm</keyword>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.int80h.org/bsdasm/</url>
+  <title>BSDAsm</title>
+  <description>FreeBSD Assembly Language Programming</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.bsdinstaller.org/</url>
+  <title>BSD Installer</title>
+  <description>A system installer project for BSD-like OS'es</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.freebsd.org/</url>
+  <title>FreeBSD</title>
+  <description>Official site of the FreeBSD operating system</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.netbsd.org/</url>
+  <title>NetBSD</title>
+  <description>Official site of the NetBSD operating system</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.dragonflybsd.org/</url>
+  <title>DragonFlyBSD</title>
+  <description>Official site of the DragonFlyBSD operating system</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>bsd</keyword>
+  </keywords>
+  <url>http://www.khmere.com/freebsd_book/</url>
+  <title>FreeBSD System Programming</title>
+  <description>A book about system programming under FreeBSD</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://gcc.gnu.org/</url>
+  <title>GCC</title>
+  <description>The GNU Compiler Collection</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+    <keyword>msdos</keyword>
+  </keywords>
+  <url>http://www.delorie.com/djgpp/</url>
+  <title>DJGPP</title>
+  <description>DJ Delorie's port of GCC to MS-DOS</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.openwatcom.org/</url>
+  <title>OpenWatcom</title>
+  <description>Open-source Watcom C/C++</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.ten15.org/</url>
+  <title>TenDRA</title>
+  <description>BSD-licensed, ANDF-based C/C++ compiler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://clang.llvm.org/</url>
+  <title>clang</title>
+  <description>C language family frontend for LLVM</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.cs.princeton.edu/software/lcc/</url>
+  <title>lcc</title>
+  <description>Retargetable compiler for ANSI C</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.desmet-c.com/</url>
+  <title>DeSmet C</title>
+  <description>Reasonably sized open-source ANSI C compiler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.tinycc.org/</url>
+  <title>TCC</title>
+  <description>Tiny, fast, LGPL C compiler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.cpm.z80.de/small_c.html</url>
+  <title>Small-C</title>
+  <description>Older, 8-bit portable C-subset compiler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>6502</keyword>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.reocities.com/SiliconValley/Way/4588/scc6502.html</url>
+  <title>scc6502</title>
+  <description>Small-C for 6502 and LUnix</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>6502</keyword>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.cc65.org/</url>
+  <title>cc65</title>
+  <description>Freeware C compiler for 6502-based systems</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://sdcc.sourceforge.net/</url>
+  <title>SDCC</title>
+  <description>Small Device C Compiler</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>c</keyword>
+    <keyword>pd</keyword>
+    <keyword>theory</keyword>
+  </keywords>
+  <url>http://burtleburtle.net/bob/hash/doobs.html</url>
+  <title>Bob Jenkins</title>
+  <description>Comparison of an assortment of hash functions</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>cbm</keyword>
+  </keywords>
+  <url>http://www.viceteam.org/</url>
+  <title>VICE</title>
+  <description>Emulator for Commodore 64/128, Vic 20, PET, ...</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>cbm</keyword>
+  </keywords>
+  <url>http://www.zimmers.net/anonftp/pub/cbm/</url>
+  <title>/pub/cbm/</title>
+  <description>Schematics, manuals, etc for Commodore computers</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>css</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://phrogz.net/CSS/</url>
+  <title>Assorted CSS samples on Phrogz.net</title>
+  <description>Useful and insightful CSS articles</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>css</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://www.csszengarden.com/</url>
+  <title>css Zen Garden</title>
+  <description>Demonstrates what can be accomplished visually with CSS</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>css</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://www.noupe.com/css/css-techniques-i-wish-i-knew-when-i-started-designing-websites.html</url>
+  <title>CSS Techniques</title>
+  <description>CSS Techniques I Wish I Knew When I Started Designing Websites</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.intio.or.jp/jf10zl/</url>
+  <title>JF10ZL</title>
+  <description>Beautifully perverse Ham Radio projects</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+    <keyword>z80</keyword>
+  </keywords>
+  <url>http://www.hanssummers.com/</url>
+  <title>Hans Summers' Projects</title>
+  <description>Nixie Clocks, The Great Z80 Computer, Asynch CPU design, and more</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.dsaprojects.110mb.com/</url>
+  <title>David's Home Page</title>
+  <description>Truly minimal EPROM &amp; GAL programmers, and more</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.reocities.com/CapeCanaveral/Lab/5185/electronics.html</url>
+  <title>The Electric Wave</title>
+  <description>Interesting circuits for oscillators, converters, and more</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.afrotechmods.com/</url>
+  <title>Afrotech</title>
+  <description>"Ghetto hardware fun"</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.all-electric.com/b&amp;cmain.html</url>
+  <title>Bread &amp; Circuits</title>
+  <description>Audio engineering and other circuits at the All Electric Kitchen</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+    <keyword>z80</keyword>
+  </keywords>
+  <url>http://www.z80.info/</url>
+  <title>Home of the Z80 CPU</title>
+  <description>Lots of useful Z80 information, plus a clock circuit</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.dpfwiw.com/</url>
+  <title>Batteries @ dpFWIW</title>
+  <description>Gobs of info about batteries (not just in digital cameras)</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.du.edu/~etuttle/electron/elecindx.htm</url>
+  <title>A Review of Electronics</title>
+  <description>Many tested experiments, plus theory and history</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.kingswood-consulting.co.uk/giicm/</url>
+  <title>GIICM</title>
+  <description>Pinouts for many common IC's</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.alldatasheet.com/</url>
+  <title>Alldatasheet.com</title>
+  <description>Large, free datasheet database</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>elec</keyword>
+  </keywords>
+  <url>http://www.falstad.com/circuit/</url>
+  <title>Circuit Simulator</title>
+  <description>Circuit Simulator in a Java Applet</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>eso</keyword>
+  </keywords>
+  <url>http://esolangs.org/wiki/Main_Page</url>
+  <title>Esolang Wiki</title>
+  <description>Wiki for Esoteric programming languages (Esolangs)</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>eso</keyword>
+  </keywords>
+  <url>http://www.p-nand-q.com/humor/programming_languages.html</url>
+  <title>programming languages at p-nand-q</title>
+  <description>Gerson Kurz' Esolangs</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>eso</keyword>
+  </keywords>
+  <url>http://www.reocities.com/ResearchTriangle/Station/2266/tarpit/tarpit.html</url>
+  <title>The Turing Tarpit</title>
+  <description>"all the best weirdness that language designers can come up with"</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>eso</keyword>
+    <keyword>game</keyword>
+    <keyword>6502</keyword>
+  </keywords>
+  <url>http://kidsquid.99k.org/dokuwiki/doku.php?id=main</url>
+  <title>kidsquid.99k.org</title>
+  <description>calamari's Home Page: Esolangs and Atari 2600/5200 games</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+    <keyword>all</keyword>
+  </keywords>
+  <url>http://umlautllama.com/searchlist.php?All=ColinMochrie</url>
+  <title>Scott Lawrence's Projects</title>
+  <description>Games, Utilities, Programming Languages, Multimedia, ...</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+  </keywords>
+  <url>http://www.zophar.net/</url>
+  <title>Zophar's Domain</title>
+  <description>Lots of game-platform emulators and utilities</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+  </keywords>
+  <url>http://mollyrocket.com/350</url>
+  <title>Molly Rocket</title>
+  <description>A game company with an attitude I happen to like</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+    <keyword>vintage</keyword>
+  </keywords>
+  <url>http://www.llamasoft.co.uk/frontpage.php</url>
+  <title>Llamasoft</title>
+  <description>A legendary game company with many retro titles now in PD</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+    <keyword>cbm</keyword>
+  </keywords>
+  <url>http://tnd64.unikat.sk/</url>
+  <title>The New Dimension</title>
+  <description>Richard Bayliss' C64 games as far as the eye can see</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>game</keyword>
+  </keywords>
+  <url>http://www.dadgum.com/halcyon/</url>
+  <title>Halcyon Days</title>
+  <description>Interviews with Classic Computer and Video Game Programmers</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>hs</keyword>
+  </keywords>
+  <url>http://www.haskell.org/</url>
+  <title>Haskell</title>
+  <description>Official website of the Haskell Programming Language</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>hs</keyword>
+  </keywords>
+  <url>http://cs.anu.edu.au/Student/comp1100/haskell/tourofsyntax.html</url>
+  <title>Tour of Haskell Syntax</title>
+  <description>Informal overview of the syntax of Haskell</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>hs</keyword>
+    <keyword>regex</keyword>
+  </keywords>
+  <url>http://www.serpentine.com/blog/2007/02/27/a-haskell-regular-expression-tutorial/</url>
+  <title>A Haskell regular expression tutorial</title>
+  <description>A Haskell regular expression tutorial</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>hs</keyword>
+  </keywords>
+  <url>http://sequence.complete.org/node/258</url>
+  <title>A simple TCP server</title>
+  <description>Short tutorial for network programming in Haskell</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>java</keyword>
+  </keywords>
+  <url>http://asm.ow2.org/</url>
+  <title>ASM</title>
+  <description>Lightweight JVM bytecode manipulator</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>js</keyword>
+  </keywords>
+  <url>http://www.ecma-international.org/publications/standards/Ecma-262.htm</url>
+  <title>Standard ECMA-262</title>
+  <description>Official, browser-neutral specification of ECMAScript</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>js</keyword>
+  </keywords>
+  <url>http://www.quirksmode.org/js/contents.html</url>
+  <title>JavaScript at quirksmode</title>
+  <description>Nice, large set of JS documents, examples, explanations</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>js</keyword>
+  </keywords>
+  <url>http://onlinetools.org/articles/unobtrusivejavascript/</url>
+  <title>Unobtrustive JavaScript</title>
+  <description>Seperation of concerns between Javascript, CSS, &amp; HTML</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>js</keyword>
+  </keywords>
+  <url>http://betterexplained.com/articles/speed-up-your-javascript-load-time/</url>
+  <title>Speed Up Your Javascript Load Time</title>
+  <description>Assorted useful tips for, uh, speeding up Javascript load time</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>lang</keyword>
+  </keywords>
+  <url>http://hopl.murdoch.edu.au/</url>
+  <title>HoPL</title>
+  <description>An interactive Roster of Programming Languages</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>lang</keyword>
+  </keywords>
+  <url>http://strlen.com/proglang/</url>
+  <title>Wouter's programming language page</title>
+  <description>Wouter van Oortmerssen's Programming Languages</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>lang</keyword>
+    <keyword>eso</keyword>
+  </keywords>
+  <url>http://esoteric.voxelperfect.net/wiki/User:Zzo38</url>
+  <title>Zzo38's Esowiki user page</title>
+  <description>List of Aaron "Zzo38" Black's Programming Languages</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>lang</keyword>
+  </keywords>
+  <url>http://linuxfinances.info/info/languages.html</url>
+  <title>Computer Languages</title>
+  <description>Christopher B. Browne's material on Programming Languages</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>lang</keyword>
+  </keywords>
+  <url>http://lambda-the-ultimate.org/</url>
+  <title>Lambda the Ultimate</title>
+  <description>Programming Languages Weblog with news and discussion</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>msdos</keyword>
+    <keyword>game</keyword>
+  </keywords>
+  <url>http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/</url>
+  <title>x2ftp</title>
+  <description>MS-DOS game programming archive</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>net</keyword>
+  </keywords>
+  <url>http://www.msdn.microsoft.com/netframework/</url>
+  <title>MSDN .NET</title>
+  <description>Microsoft .NET Developer Center</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>net</keyword>
+  </keywords>
+  <url>http://plas.fit.qut.edu.au/gpcp/</url>
+  <title>GPCP</title>
+  <description>Gardens Point Component Pascal</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.osdev.org/osfaq2/</url>
+  <title>OSDev.org FAQ</title>
+  <description>'Write your own OS' FAQ</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.unix.org/single_unix_specification/</url>
+  <title>SUSv3</title>
+  <description>Single Unix Specification v3 ('POSIX')</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.unixpapa.com/incnote/</url>
+  <title>Unix Incompatibility Notes</title>
+  <description>Notes on quirks and variations between different Unices</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.art.net/~hopkins/Don/unix-haters/handbook.html</url>
+  <title>UHH</title>
+  <description>The Unix Hater's Handbook</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://tunes.org/</url>
+  <title>TUNES</title>
+  <description>TUNES is a Useful, Not Expedient, System</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.memetech.com/</url>
+  <title>oiu</title>
+  <description>oiu isn't unix</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.losethos.com/</url>
+  <title>LoseThos</title>
+  <description>The LoseThos 64-bit PC Operating System</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://torsion.org/</url>
+  <title>Torsion</title>
+  <description>Torsion Operating System</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>os</keyword>
+  </keywords>
+  <url>http://www.mpeforth.com/arena/cwgtLinux.txt</url>
+  <title>cwgtLinux</title>
+  <description>Compiler Writer's Guide to Linux</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>refl</keyword>
+  </keywords>
+  <url>http://web.archive.org/web/20010616211233/tunes.org/papers/Glossary/index.html#reflection</url>
+  <title>tunes: Reflection</title>
+  <description>Reflection definition in tunes.org glossary (Wayback)</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>regex</keyword>
+  </keywords>
+  <url>http://www.arglist.com/regex/</url>
+  <title>regex</title>
+  <description>Henry Spencer's regular expression libraries</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>regex</keyword>
+  </keywords>
+  <url>http://swtch.com/~rsc/regexp/regexp1.html</url>
+  <title>Regular Expression Matching Can Be Simple And Fast</title>
+  <description>(but is slow in Java, Perl, PHP, Python, Ruby, ...) </description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>rew</keyword>
+    <keyword>theory</keyword>
+  </keywords>
+  <url>http://rtaloop.mancoosi.univ-paris-diderot.fr/</url>
+  <title>RTA LoOP</title>
+  <description>Open Problems in Term Rewriting</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>rss</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://diveintomark.org/archives/2004/02/04/incompatible-rss</url>
+  <title>The myth of RSS compatibility</title>
+  <description>"There are 9 versions of RSS, all of which are incompatible with various other versions."</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>ruby</keyword>
+  </keywords>
+  <url>http://ruby-lang.org/</url>
+  <title>Ruby</title>
+  <description>Official website of the Ruby Programming Language</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>ruby</keyword>
+  </keywords>
+  <url>http://www.fincher.org/tips/Languages/Ruby/</url>
+  <title>Ruby Tutorial</title>
+  <description>Ruby Tutorial with Code Samples</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>soap</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/</url>
+  <title>The S stands for Simple</title>
+  <description>Don't worry about it.  No one has read it.  Besides, your tools will handle it.</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>scheme</keyword>
+  </keywords>
+  <url>http://www.swiss.ai.mit.edu/~jaffer/r5rs_toc.html</url>
+  <title>R<sup>5</sup>RS</title>
+  <description>Revised^5 Report on the Algorithmic Language Scheme</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>theory</keyword>
+    <keyword>scheme</keyword>
+    <keyword>all</keyword>
+  </keywords>
+  <url>http://pobox.com/~oleg/ftp/</url>
+  <title>Oleg Kiselyov's Projects</title>
+  <description>Algorithms, Theorems, Functional Programming, ...</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>scheme</keyword>
+  </keywords>
+  <url>http://steve.yegge.googlepages.com/scheming-is-believing</url>
+  <title>"Scheming is Believing"</title>
+  <description>Ramblings by Steve Yegge on Languages and Scheme</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>theory</keyword>
+  </keywords>
+  <url>http://theoryofcomputing.org/</url>
+  <title>ToC</title>
+  <description>Theory of Computing, an Open-Access Journal</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>ui</keyword>
+    <keyword>www</keyword>
+  </keywords>
+  <url>http://www.useit.com/alertbox/</url>
+  <title>AlertBox</title>
+  <description>Popular column on Web usability</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>util</keyword>
+  </keywords>
+  <url>http://www.tinyapps.org/</url>
+  <title>TinyApps.org</title>
+  <description>'A guide to very small software for your PC'</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>vintage</keyword>
+  </keywords>
+  <url>http://www.catb.org/retro/</url>
+  <title>The Retrocomputing Museum</title>
+  <description>'Freaks, Jokes, and Fossils' of Computer History</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>vintage</keyword>
+  </keywords>
+  <url>http://mirror.cc.vt.edu/pub/projects/Ancient_Unix/</url>
+  <title>Ancient Unix</title>
+  <description>Ancient Unix Distributions</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>vintage</keyword>
+  </keywords>
+  <url>http://heirloom.sourceforge.net/</url>
+  <title>The Heirloom Project</title>
+  <description>Traditional implementations of standard Unix utilities</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+  </keywords>
+  <url>http://www.piclist.com/techref/os/win/api/index.html</url>
+  <title>Win32 API Reference</title>
+  <description>API Reference for Win32</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.winprog.org/tutorial/</url>
+  <title>Win32 tutorial</title>
+  <description>theForger's Win32 API programming tutorial</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+    <keyword>asm</keyword>
+  </keywords>
+  <url>http://www.piclist.com/techref/language/asm/win32asm.htm</url>
+  <title>Win32Asm</title>
+  <description>Windows Assembly Language Programming</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://mingw.sourceforge.net/</url>
+  <title>MinGW</title>
+  <description>Headers, import libraries, and Windows runtime</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+    <keyword>c</keyword>
+  </keywords>
+  <url>http://www.delorie.com/howto/cygwin/mno-cygwin-howto.html</url>
+  <title>-mno-cygwin</title>
+  <description>Building MinGW Executables using Cygwin</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>win</keyword>
+    <keyword>ui</keyword>
+  </keywords>
+  <url>http://www.autohotkey.com/docs/misc/Styles.htm</url>
+  <title>GUI Styles</title>
+  <description>Brief descriptions of Windows GUI constants</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>x86</keyword>
+  </keywords>
+  <url>http://www.freedos.org/</url>
+  <title>FreeDOS</title>
+  <description>An open-source MS-DOS workalike</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>x86</keyword>
+  </keywords>
+  <url>http://www.cs.cmu.edu/afs/cs/user/ralf/pub/WWW/files.html</url>
+  <title>RBIL</title>
+  <description>Ralf Brown's Interrupt List</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>x86</keyword>
+  </keywords>
+  <url>http://www.win.tue.nl/~aeb/linux/kbd/scancodes.html</url>
+  <title>Keyboard Scancodes</title>
+  <description>Raw codes generated by PC keyboards</description>
+</link>
+
+<link>
+  <keywords>
+    <keyword>z80</keyword>
+    <keyword>asm</keyword>
+  </keywords>
+  <url>http://www.sealiesoftware.com/ti-asm/</url>
+  <title>TI-85 Assembler Programming</title>
+  <description>Z80 tutorial for the TI-85 calculator</description>
+</link>
