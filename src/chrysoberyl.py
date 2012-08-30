@@ -114,6 +114,9 @@ def check_chrysoberyl_data(data):
           as_a_prerequisite = node['as-a-prerequisite']
       resolve_internal_links(data, key, 'commentary', as_a_prerequisite)
 
+      if 'auspices' in node:
+          assert 'authors' in node, "auspices but no authors in '%s'" % key
+
       if type_ == 'Distribution':
           # (this has multiple possible types)
           check_scalar_ref(data, key, node, 'distribution-of')
@@ -133,13 +136,19 @@ def check_chrysoberyl_data(data):
           check_optional_list_ref(data, key, node, 'run-requirements')
 
       if type_ == 'Language Implementation':
+          check_scalar_ref(data, key, node, 'implementation-of',
+                           type_='Programming Language')
           check_scalar_ref(data, key, node, 'implementation-type',
                            type_='Implementation Type')
           if node['implementation-type'] == 'compiler':
-              check_scalar_ref(data, key, node, 'source-language',
-                               type_='Programming Language')
               check_scalar_ref(data, key, node, 'target-language',
                                type_='Programming Language')
+          assert 'source-language' not in node, \
+              "in %s use implementation-of instead" % key
+          if 'authors' not in node:
+              pl_node = data[node['implementation-of']]
+              node['authors'] = pl_node.get('authors', None)
+              node['auspices'] = pl_node.get('auspices', None)
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
@@ -148,6 +157,7 @@ def check_chrysoberyl_data(data):
                   node['reference-distribution'] = '%s distribution' % key
               check_scalar_ref(data, key, node, 'reference-distribution',
                                type_='Distribution')
+          # XXX other way around now -- this key should not exist
           check_list_ref(data, key, node, 'implementations')
           check_optional_list_ref(data, key, node, 'influences')
           check_list_ref(data, key, node, 'authors')

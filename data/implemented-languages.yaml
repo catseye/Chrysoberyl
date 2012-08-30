@@ -10,16 +10,14 @@ brainfuck:
   esowiki: brainfuck
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations:
-  - pibfi
 
 pibfi:
   type: Language Implementation
+  implementation-of: brainfuck
   in-distribution: pibfi distribution
   acronym-for: Platonic Ideal Brainfuck Interpeter
   reference: no
   license: BSD
-  source-language: brainfuck
   host-language: Erlang
   implementation-type: interpreter
   description: |
@@ -46,11 +44,10 @@ Muriel:
   reference-distribution: Muriel distribution
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations:
-  - muriel.pl
 
 muriel.pl:
   type: Language Implementation
+  implementation-of: Muriel
   in-distribution: Muriel distribution
   reference: no
   license: BSD
@@ -78,11 +75,10 @@ VALGOL:
   esowiki: VALGOL
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - valgol.erl
 
 valgol.erl:
   type: Language Implementation
+  implementation-of: VALGOL
   reference: no
   license: BSD
   source-language: VALGOL
@@ -110,14 +106,12 @@ Smallfuck:
   computational-class: Finite-automata-complete
   inception-date: ca 2002
   has-reference-distribution: false
-  implementations:
-  - sf2tab
 
 sf2tab:
   type: Language Implementation
+  implementation-of: Smallfuck
   reference: no
   license: BSD
-  source-language: Smallfuck
   host-language: ANSI C
   target-language: lookup table
   implementation-type: compiler
@@ -142,11 +136,10 @@ Underload:
   computational-class: believed Turing-complete
   esowiki: Underload
   has-reference-distribution: false
-  implementations:
-  - stringie
 
 stringie:
   type: Language Implementation
+  implementation-of: Underload
   reference: no
   license: Public Domain
   source-language: Underload
@@ -176,11 +169,10 @@ stringie:
   - Landweber
   computational-class: Primitive recursive
   has-reference-distribution: false
-  implementations:
-  - 'PL-{GOTO}.NET'
 
 'PL-{GOTO}.NET':
   type: Language Implementation
+  implementation-of: PL-{GOTO}
   in-distribution: PL-{GOTO}.NET distribution
   reference: no
   license: Public Domain
@@ -225,11 +217,10 @@ Ale:
   esowiki: Ale
   computational-class: believed Turing-complete
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.ale
 
 tc.catseye.yoob.ale:
   type: Language Implementation
+  implementation-of: Ale
   reference: no
   license: Public Domain
   source-language: Ale
@@ -252,11 +243,10 @@ Backflip:
   esowiki: Backflip
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.backflip
 
 tc.catseye.yoob.backflip:
   type: Language Implementation
+  implementation-of: Backflip
   reference: no
   license: Public Domain
   source-language: Backflip

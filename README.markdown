@@ -64,6 +64,9 @@ may or may not be in a distribution; a distribution may contain
 multiple implementations.  Only one implementation can be the reference
 implementation for a language.
 
+If a language implementation does not give authors, they are assumed to
+be the authors of the language.  Ditto auspices.
+
 A distribution has releases and, often, can be checked out of some version
 control system, and, often, has a place to report bugs.  An implementation,
 by itself, has none of those things (at least not in a structured way -- it
