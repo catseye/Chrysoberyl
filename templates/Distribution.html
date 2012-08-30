@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Distribution of: <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a></p>
+
+{% if releases %}
+<ul>
+  {% for release in releases %}
+  <li>
+    <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% endblock content %}

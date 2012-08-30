@@ -78,7 +78,9 @@ def resolve_internal_links(data, key, property, text):
 
 
 def check_chrysoberyl_data(data):
+    count = 0
     for key in data:
+      count += 1
       node = data[key]
       assert 'type' in node, \
           "'%s' does not specify a type" % key
@@ -162,6 +164,7 @@ def check_chrysoberyl_data(data):
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
                                     type_='Distribution')
 
+    print "%d nodes checked." % count
 
 def markdown_field(node, field):
     if field in node:
@@ -176,9 +179,10 @@ def filekey(key):
 
 class Renderer(object):
     def __init__(self, output_dir):
-        template_dir = 'templates'
+        self.template_dir = 'templates'
         self.output_dir = output_dir
-        self.loader = jinja2.FileSystemLoader(template_dir, encoding='utf-8')
+        self.loader = jinja2.FileSystemLoader(self.template_dir,
+                                              encoding='utf-8')
         self.env = jinja2.Environment(loader=self.loader)
 
     def render(self, template, output_filename, context):
@@ -186,24 +190,33 @@ class Renderer(object):
             html.write(template.render(context))
     
     def get_template(self, node):
-        template_filename = 'default.html' # for now
+        template_filename = 'default.html'
+        filename = filekey(node['type'])
+        if os.path.exists(os.path.join(self.template_dir, filename)):
+            template_filename = filename
         template = self.env.get_template(template_filename)
         return template
 
     def render_node(self, key, node):
-        node = node.copy()
-        node['key'] = key
-        node['description'] = markdown_field(node, 'description')
-        node['commentary'] = markdown_field(node, 'commentary')
-        node['as_a_prerequisite'] = markdown_field(node, 'as-a-prerequisite')
-        # print node
+        context = node.copy()
+        context['key'] = key
+        for field in ('description', 'commentary', 'as-a-prerequisite'):
+            context[field] = markdown_field(node, field)
+        new_fields = {}
+        for field in node.keys():
+            new_fields[field.replace('-', '_')] = node[field]
+        context.update(new_fields)
+        context['filekey'] = filekey
         template = self.get_template(node)
-        self.render(template, os.path.join(self.output_dir, filekey(key)), node)
+        self.render(template, os.path.join(self.output_dir, filekey(key)), context)
 
     def render_chrysoberyl_data(self, data):
+        count = 0
         for key in data:
+            count += 1
             node = data[key]
             self.render_node(key, node)
+        print "%d files written." % count
 
 
 if __name__ == '__main__':
