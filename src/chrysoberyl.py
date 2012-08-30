@@ -153,6 +153,8 @@ def check_chrysoberyl_data(data):
           check_list_ref(data, key, node, 'authors')
 
       if type_ == 'Programming Language':
+          check_list_ref(data, key, node, 'paradigms',
+                         type_='Programming Paradigm')
           check_optional_scalar_ref(data, key, node, 'computational-class',
                                     type_='Computational Class')
           check_optional_scalar_ref(data, key, node, 'member-of',

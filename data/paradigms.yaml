@@ -68,27 +68,66 @@ Aspect-oriented programming:
     want to see. Which is really too bad, because some would say that
     finding ways to improve this situation is *supposed* to be their job.
 
+2-dimensional:
+  type: Programming Paradigm
+Algebraic:
+  type: Programming Paradigm
+Assembly:
+  type: Programming Paradigm
+Bully automaton:
+  type: Programming Paradigm
 Cellular automaton:
   type: Programming Paradigm
 Continuation-passing:
   type: Programming Paradigm
+Declarative:
+  type: Programming Paradigm
 Dependency injection:
+  type: Programming Paradigm
+Event-oriented:
   type: Programming Paradigm
 Forest-rewriting:
   type: Programming Paradigm
 Functional:
   type: Programming Paradigm
+Graph-rewriting:
+  type: Programming Paradigm
 Grid-rewriting:
   type: Programming Paradigm
 Imperative:
   type: Programming Paradigm
+Lazy:
+  type: Programming Paradigm
+Maze-space-rewriting:
+  type: Programming Paradigm
+Memory-mapped:
+  type: Programming Paradigm
 Meta-circular:
   type: Programming Paradigm
+Metalanguage:
+  type: Programming Paradigm
+Non-deterministic:
+  type: Programming Paradigm
 Object-oriented:
+  type: Programming Paradigm
+Queue-based:
+  type: Programming Paradigm
+Quine-based:
+  type: Programming Paradigm
+Particle automaton:
+  type: Programming Paradigm
+Probabilistic:
   type: Programming Paradigm
 Reflective:
   type: Programming Paradigm
 Regular-expression-based:
+  type: Programming Paradigm
+Self-modifying:
+  # this is pretty close to Reflective
+  type: Programming Paradigm
+Stack-based:
+  type: Programming Paradigm
+State machine:
   type: Programming Paradigm
 String-rewriting:
   type: Programming Paradigm
@@ -96,5 +135,5 @@ Tree-rewriting:
   type: Programming Paradigm
 Term-rewriting:
   type: Programming Paradigm
-Event-oriented:
+Turning tarpit:
   type: Programming Paradigm

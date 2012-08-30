@@ -2,6 +2,16 @@
 
 {% block content %}
 
+<h2>Programming Paradigms</h2>
+
+<ul>
+  {% for paradigm in paradigms %}
+    <li>
+      <a href="{{ filekey(paradigm) }}">{{ paradigm }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 {% if has_reference_distribution %}
   <h2>Reference distribution</h2>
   {# maybe include this inline somehow #}

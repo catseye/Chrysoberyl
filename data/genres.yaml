@@ -35,10 +35,6 @@ Esolang:
     programs written in esolangs, are freely redistributable if not formally
     [[Open-source]] or [[Public Domain]].)
 
-Esolang (Cellular Automaton):
-  type: Genre
-Cellular Automaton:
-  type: Genre
 Joke language:
   type: Genre
 Pedagogical language:
@@ -52,10 +48,6 @@ DSL:
   type: Genre
 # Maybe this is just a kind of DSL
 Proof language:
-  type: Genre
-# this should maybe be a paradigm? you can combine this with any of the above,
-# is the thing
-Metalanguage:
   type: Genre
 
 Guessing:

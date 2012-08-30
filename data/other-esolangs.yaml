@@ -4,6 +4,8 @@
 BitChanger:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   computational-class: believed Turing-complete
   esowiki: BitChanger
   influences:
@@ -17,6 +19,8 @@ BitChanger:
 "FALSE":
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Stack-based
   computational-class: shown Turing-complete
   esowiki: "FALSE"
   authors:
@@ -29,6 +33,8 @@ BitChanger:
 reMorse:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   computational-class: unknown computational class
   esowiki: reMorse
   has-reference-distribution: false
@@ -41,6 +47,8 @@ RUBE II:
   type: Programming Language
   subtitle: Das Klickenklacker
   genre: Esolang
+  paradigms:
+  - 2-dimensional
   computational-class: unknown computational class
   variant-of: RUBE
   authors:
@@ -67,6 +75,8 @@ rube_ii:
 Spoon:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   computational-class: believed Turing-complete
   esowiki: Spoon
   has-reference-distribution: false
@@ -77,12 +87,13 @@ Spoon:
 Thue:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - String-rewriting
+  - Non-deterministic
   computational-class: believed Turing-complete
   esowiki: Thue
   authors:
   - John Colagioia
-  paradigms:
-  - String-rewriting
   description: |
     The Thue programming language was invented by
     John Colagioia in early 2000.  It is named after the computational
@@ -118,6 +129,8 @@ thue.py:
 
 "Var'aq":
   type: Programming Language
+  paradigms:
+  - Stack-based
   genre: Esolang
   computational-class: unknown computational class
   esowiki: "Var'aq"

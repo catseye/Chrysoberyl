@@ -2,6 +2,8 @@
 # actually some of these do have reference distributions
 brainfuck:
   type: Programming Language
+  paradigms:
+  - Imperative
   genre: Esolang
   authors:
   - Urban Müller
@@ -36,6 +38,8 @@ pibfi:
 Muriel:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Quine-based
   authors:
   - Matthew Westcott
   esowiki: Muriel
@@ -66,6 +70,8 @@ muriel.pl:
 VALGOL:
   type: Programming Language
   genre: Joke language
+  paradigms:
+  - Imperative
   authors:
   - Anonymous
   source-document: Lesser Known Languages List
@@ -96,6 +102,8 @@ valgol.erl:
 Smallfuck:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   authors:
   - Nikita Ayzikovsky
   esowiki: Smallfuck
@@ -127,6 +135,8 @@ sf2tab:
 Underload:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Stack-based
   authors:
   - Alex Smith (ais523)
   computational-class: believed Turing-complete
@@ -159,6 +169,8 @@ stringie:
 'PL-{GOTO}':
   type: Programming Language
   genre: Pedagogical language
+  paradigms:
+  - Imperative
   authors:
   - Brainerd
   - Landweber
@@ -206,6 +218,8 @@ stringie:
 Ale:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   authors:
   - David Chipping
   esowiki: Ale
@@ -230,6 +244,8 @@ tc.catseye.yoob.ale:
 
 Backflip:
   type: Programming Language
+  paradigms:
+  - 2-dimensional
   genre: Esolang
   authors:
   - Alex Smith (ais523)
@@ -256,6 +272,8 @@ tc.catseye.yoob.backflip:
 Black:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - 2-dimensional
   authors:
   - Alex Smith (ais523)
   esowiki: Black
@@ -281,6 +299,8 @@ tc.catseye.yoob.black:
 LNUSP:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
   authors: []
   esowiki: LNUSP
   computational-class: unknown computational class
@@ -305,6 +325,8 @@ tc.catseye.yoob.lnusp:
 1L:
   type: Programming Language Family
   genre: Esolang
+  paradigms:
+  - 2-dimensional
   family-members:
   - 1L_a
   - 1L_AOI
@@ -314,6 +336,9 @@ tc.catseye.yoob.lnusp:
 1L_a:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors: []
   esowiki: 1L_a
   computational-class: unknown computational class
@@ -338,6 +363,9 @@ tc.catseye.yoob.onela:
 1L_AOI:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors: []
   esowiki: 1L_AOI
   computational-class: unknown computational class
@@ -362,6 +390,9 @@ tc.catseye.yoob.onelaoi:
 PATH:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors: []
   esowiki: PATH
   computational-class: unknown computational class
@@ -386,6 +417,8 @@ tc.catseye.yoob.path:
 Qdeql:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Queue-based
   authors: []
   esowiki: Qdeql
   computational-class: unknown computational class
@@ -410,6 +443,8 @@ tc.catseye.yoob.qdeql:
 Sceql:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Queue-based
   authors: []
   esowiki: Sceql
   computational-class: unknown computational class
@@ -434,6 +469,9 @@ tc.catseye.yoob.sceql:
 SNUSP:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors: []
   esowiki: SNUSP
   computational-class: unknown computational class
@@ -458,6 +496,9 @@ tc.catseye.yoob.snusp:
 2-ill:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors:
   - Zzo38
   esowiki: 2-ill
@@ -485,6 +526,9 @@ tc.catseye.yoob.twoill:
 2L:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - 2-dimensional
   authors:
   - Gregor Richards
   esowiki: 2L

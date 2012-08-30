@@ -2,6 +2,9 @@
 Deturgenchry:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Object-oriented
+  - Continuation-passing
   description: |
     Deturgenchry is an object-oriented language with both `self` and `other`,
     and each of these is a continuation (or something.)
@@ -36,6 +39,9 @@ Deturgenchry distribution:
 Pophery:
   type: Programming Language
   genre: Esolang
+  paradigms:
+  - Imperative
+  - String-rewriting
   description: |
     Pophery is an imperative string-rewriting language.  I know right?
   development-stage: work in progress
