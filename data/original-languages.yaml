@@ -818,7 +818,7 @@ Etcha:
   paradigms:
   - Imperative
   description: |
-    Etcha is a two-dimensional descendant of [Jeffry Johnston]'s [BitChanger].
+    Etcha is a two-dimensional descendant of [[Jeffry Johnston]]'s [[BitChanger]].
     Like BitChanger, it has four instructions; unlike BitChanger, its storage
     model is based on turtle graphics, which permits it to be immediately used
     for an alternative purpose: graphical composition. Unlike the turtle in LOGO

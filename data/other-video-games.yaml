@@ -87,10 +87,10 @@ Liquid Kids:
   wikipedia: Liquid_Kids
   has-reference-distribution: false
   commentary: |
-    Very cute.  Quite possibly a sequel or pseudo-sequel to The New Zealand
-    Story, since you play what appears to be a platypus, and there are oblique
-    references to TNZS (in one of the secret chambers, the platforms are arranged
-    in the shape of the kiwi.)
+    Very cute.  Quite possibly a sequel or pseudo-sequel to
+    [[The New Zealand Story]], since you play what appears to be a platypus,
+    and there are oblique references to TNZS (in one of the secret chambers,
+    the platforms are arranged in the shape of the kiwi.)
 
 
 Lost Tomb:
@@ -115,7 +115,7 @@ Lost Tomb:
     Well, maybe I'm overstating it a bit, but you get the idea.
 
 
-New Zealand Story, The:
+The New Zealand Story:
   type: Game
   genre: Platformer
   platform: Arcade

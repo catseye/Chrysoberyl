@@ -6,8 +6,12 @@
 {% for thing in entries %}
   <li>
     <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
-    <p>{{ data[thing].description }}</p>
-    <p>{{ data[thing].commentary }}</p>
+    {% if data[thing].description_html %}
+      <p>{{ data[thing].description_html }}</p>
+    {% endif %}
+    {% if data[thing].commentary_html %}
+      <p>{{ data[thing].commentary_html }}</p>
+    {% endif %}
   </li>
 {% endfor %}
 </ol>

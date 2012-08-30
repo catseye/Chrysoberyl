@@ -178,6 +178,20 @@ def check_chrysoberyl_data(data):
     print "%d nodes checked." % count
 
 
+def convert_chrysoberyl_data(data):
+    count = 0
+    for key in data:
+        count += 1
+        node = data[key]
+        new_fields = {}
+        for field in node.keys():
+            new_fields[field.replace('-', '_')] = node[field]
+        node.update(new_fields)
+        for field in ('description', 'commentary', 'as_a_prerequisite'):
+            node[field + '_html'] = markdown_field(data, node, field)
+    print "%d nodes converted." % count
+
+
 def filekey(key):
     return re.sub(r'(\/|\s|\:|\#)', '_', key) + ".html"
 
@@ -220,19 +234,6 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
 
-        # XXX we should maybe use different field names for these
-        # (e.g. description_html, ...)
-        for field in ('description', 'commentary', 'as-a-prerequisite'):
-            context[field] = markdown_field(self.data, context, field)
-
-        # XXX we should probably do this transformation early...
-        # template may want to snuffle though data themselves, and
-        # currently need to use keys['like-this'].
-        new_fields = {}
-        for field in context.keys():
-            new_fields[field.replace('-', '_')] = context[field]
-        context.update(new_fields)
-
         context['filekey'] = filekey
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
@@ -247,7 +248,9 @@ class Renderer(object):
 
 
 if __name__ == '__main__':
+    print "Loading Chrysoberyl data..."
     data = load_chrysoberyl_dir(sys.argv[1])
     check_chrysoberyl_data(data)
+    convert_chrysoberyl_data(data)
     r = Renderer(data, 'templates', 'www')
     r.render_chrysoberyl_data()

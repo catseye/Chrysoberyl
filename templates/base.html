@@ -35,7 +35,7 @@
 
   {% if description %}
     <h2>Description</h2>
-    <p id="description">{{ description }}</p>
+    <p id="description">{{ description_html }}</p>
   {% endif %}
 
   {% block content %}
@@ -53,7 +53,8 @@
   {% endif %}
 
   {% if commentary %}
-    <p id="commentary">Commentary:<br>{{ commentary }}</p>
+    <h2>Commentary</h2>
+    <p id="commentary">{{ commentary_html }}</p>
   {% endif %}
   
   <p>

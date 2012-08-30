@@ -13,7 +13,8 @@ fuzzy, flexible, incomplete, and subject to change and the drop of a hat.
 
 It does not contain only those things produced by Cat's Eye Technologies;
 in theory, anything can be in it.  In these cases, the entry may consist
-simply of commentary on the item.
+simply of commentary on the item, or a short explanation of how it relates
+to Cat's Eye Technologies.
 
 General Format
 --------------
@@ -81,3 +82,23 @@ License
 For now, freely redistributable unmodified -- plus you are allowed
 to fork the repository for the purpose of submitting corrections to the
 information.
+
+TODO
+----
+
+Every language may (or must, if it does not have a reference distribution)
+have a link to its specification body and/or its specification documents.
+
+Perhaps nodes can "belong to" other nodes: lingography and favourite
+video games "belong" to Chris Pressey, etc.
+
+Script to troll for documentation from reference distributions and
+collect it into some place (possibly another Yaml file but in a different
+format.)  And link to those documentations.  Or incorporate them.
+
+Have `Implementation` be a type, with a field `implementation_of_type`
+being another type (`Programming Language` or `Game`), to unify all the
+things that are common to implementations.
+
+Allow internal links to have a different presentation, e.g.
+[[Esolang|esoteric programming language]].

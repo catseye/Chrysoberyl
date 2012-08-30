@@ -7,7 +7,7 @@
 <ul>
 {% for thing in data.keys()|sort %}
   {% if data[thing].type == 'Language Implementation' and
-        data[thing]['implementation-type'] == key %}
+        data[thing].implementation_type == key %}
     <li>
       <a href="{{ filekey(thing) }}">{{ thing }}</a>
     </li>

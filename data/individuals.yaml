@@ -3,45 +3,76 @@ Anonymous:
   type: Individual
 Chris Pressey:
   type: Individual
+  esowiki: Chris Pressey
 John Colagioia:
   type: Individual
+  esowiki: John Colagioia
 Ben Olmstead:
   type: Individual
+  esowiki: Ben Olmstead
 Brainerd:
   type: Individual
 Landweber:
   type: Individual
 Zzo38:
   type: Individual
+  esowiki: 'User:Zzo38'
 Marinus:
   type: Individual
+  esowiki: 'User:Marinus'
 Phantom Hoover:
   type: Individual
+  esowiki: 'User:Phantom_Hoover'
 Nikita Ayzikovsky:
   type: Individual
+  esowiki: Nikita Ayzikovsky
 Alex Smith (ais523):
   type: Individual
+  esowiki: User:Ais523
 Matthew Westcott:
   type: Individual
+  esowiki: Matthew Westcott
 Gregory Yob:
   type: Individual
+  description: |
+    Gregory Yob invented the classic game [[Hunt the Wumpus]], which
+    [[Cat's Eye Technologies]] has implemented several times, and on which
+    [[Super Wumpus Land]] was based.
 David Chipping:
   type: Individual
+  esowiki: David Chipping
 Urban Müller:
   type: Individual
+  esowiki: Urban Müller
 Wouter van Oortmerssen:
   type: Individual
+  esowiki: Wouter van Oortmerssen
 Jeffry Johnston:
   type: Individual
+  esowiki: Jeffry Johnston
 Ryan Kusnery:
   type: Individual
+  esowiki: Ryan Kusnery
 Frédéric van der Plancke:
   type: Individual
+  esowiki: Frédéric_van_der_Plancke
 Michael C. Martin:
   type: Individual
 Gregor Richards:
   type: Individual
+  esowiki: Gregor Richards
 Alise:
   type: Individual
+  description: |
+    Alise mistyped "enlightened" as "eightebed" in chat, leading
+    [[Cat's Eye Technologies]] to use it as the name of the
+    [[Esolang]] [[Eightebed]].
+Curtis Coleman:
+  type: Individual
+  description: |
+    Curtis mistyped "before" as "befunge" in chat, leading
+    [[Cat's Eye Technologies]] to use it as the name of the
+    [[Esolang]] [[Befunge-93]].
 Brian Connors:
   type: Individual
+  esowiki: Brian Connors
