@@ -12,6 +12,8 @@ BSD:
 
 GPL:
   type: License
+LGPL:
+  type: License
 MIT:
   type: License
 Public Domain:

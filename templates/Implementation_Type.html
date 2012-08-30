@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>All Language Implementations of type "{{ key }}"</h2>
+
+<ul>
+{% for thing in data.keys()|sort %}
+  {% if data[thing].type == 'Language Implementation' and
+        data[thing]['implementation-type'] == key %}
+    <li>
+      <a href="{{ filekey(thing) }}">{{ thing }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}

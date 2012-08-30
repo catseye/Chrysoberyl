@@ -9,6 +9,20 @@
     <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a></p>
   {% endblock showtype %}
 
+  {% if authors %}
+    <p>By
+      {% for author in authors %}
+        <a href="{{ filekey(author) }}">{{ author }}</a>
+      {% endfor %}
+      {%- if auspices -%}
+        ,
+        {% for auspice in auspices %}
+          <a href="{{ filekey(auspice) }}">{{ auspice }}</a>
+        {% endfor %}
+      {%- endif -%}
+    </p>
+  {% endif %}
+
   {% if genre %}
     <p id="genre">Genre: <a href="{{ filekey(genre) }}">{{ genre }}</a></p>
   {% endif %}

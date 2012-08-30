@@ -171,7 +171,7 @@ def check_chrysoberyl_data(data):
 
 
 def filekey(key):
-    return re.sub(r'(\/|\s|\:)', '_', key) + ".html"
+    return re.sub(r'(\/|\s|\:|\#)', '_', key) + ".html"
 
 
 def markdown_field(data, node, field):
@@ -211,12 +211,20 @@ class Renderer(object):
         context = node.copy()
         context['data'] = self.data
         context['key'] = key
+
+        # XXX we should maybe use different field names for these
+        # (e.g. description_html, ...)
         for field in ('description', 'commentary', 'as-a-prerequisite'):
             context[field] = markdown_field(self.data, context, field)
+
+        # XXX we should probably do this transformation early...
+        # template may want to snuffle though data themselves, and
+        # currently need to use keys['like-this'].
         new_fields = {}
         for field in context.keys():
             new_fields[field.replace('-', '_')] = context[field]
         context.update(new_fields)
+
         context['filekey'] = filekey
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)

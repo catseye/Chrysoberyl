@@ -8,15 +8,4 @@
   <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
 {% endif %}
 
-{% if implementations %}
-  <h2>Implementations</h2>
-  <ul>
-    {% for implementation in implementations %}
-      <li>
-        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
 {% endblock content %}

@@ -685,7 +685,7 @@ x86 machine code:
   implementations:
   - Bochs
   authors: []
-  description: |
+  as-a-prerequisite: |
       Programs in this format assume that they will be running on a fairly
       standard x86-based (IA-32) computer architecture, from the 
       lineage that dates back to those old IBM PC's.  Probably a 486
@@ -699,11 +699,9 @@ x86 machine code:
 Bochs:
   type: Language Implementation
   links:
-  - 'http://www.bochs.org/'
-  # I think it's BSD, but
-  license: Unknown license
-  # I think...
-  host-language: C99
+  - 'http://bochs.sourceforge.net/'
+  license: LGPL
+  host-language: C++
   implementation-type: interpreter
 
 # heh.  for sf2tab:

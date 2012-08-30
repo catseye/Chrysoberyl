@@ -29,7 +29,7 @@ Bubble Escape distribution:
 'Corona: Realm of Magic distribution': 
   type: Distribution
   distribution-of: 'Corona: Realm of Magic'
-  bitbucket: 'https://bitbucket.org/catseye/corona-realm-of-magic/'
+  bitbucket: catseye/corona-realm-of-magic
   releases: 
   - version: "0.19"
     revision: "2000.1204"
