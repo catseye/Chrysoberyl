@@ -13,6 +13,7 @@ BitChanger:
   has-reference-distribution: false
   implementations: []
 
+
 "FALSE":
   type: Programming Language
   genre: Esolang
@@ -24,6 +25,7 @@ BitChanger:
   has-reference-distribution: false
   implementations: []
 
+
 reMorse:
   type: Programming Language
   genre: Esolang
@@ -34,18 +36,19 @@ reMorse:
   authors:
   - Ryan Kusnery
 
-'RUBE II: Das Klickenklacker': 
+
+RUBE II: 
   type: Programming Language
+  subtitle: Das Klickenklacker
   genre: Esolang
   computational-class: unknown computational class
   variant-of: RUBE
   authors:
   - John Colagioia
-  abstract: |
+  description: |
     A close descendant of RUBE, with cleaner semantics and implementation.
   esowiki: 'RUBE II: Das Klickenklacker'
   dimensionality: 2
-  reference-distribution: RUBE II distribution
   implementations:
   - rube_ii
 
@@ -70,17 +73,17 @@ Spoon:
   implementations: []
   authors: []
 
+
 Thue:
   type: Programming Language
   genre: Esolang
   computational-class: believed Turing-complete
   esowiki: Thue
-  has-reference-distribution: false
   authors:
   - John Colagioia
   paradigms:
   - String-rewriting
-  abstract: |
+  description: |
     The Thue programming language was invented by
     John Colagioia in early 2000.  It is named after the computational
     regimen it is based on — a pure string-rewriting process called a
@@ -112,6 +115,7 @@ thue.py:
   implementation-type: interpreter
   host-language: Python
 
+
 "Var'aq":
   type: Programming Language
   genre: Esolang
@@ -121,4 +125,3 @@ thue.py:
   implementations: []
   authors:
   - Brian Connors
-

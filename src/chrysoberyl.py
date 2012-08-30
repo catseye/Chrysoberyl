@@ -89,12 +89,9 @@ def check_chrysoberyl_data(data):
       check_optional_list_ref(data, key, node, 'authors')
       check_optional_list_ref(data, key, node, 'auspices', type_='Organization')
 
-      if 'abstract' in node and 'description' in node:
-          assert False, "'%s' defines both 'abtsract' and 'description'" % key
+      assert 'abstract' not in node, "legacy field 'abstract' in '%s'" % key
 
       description = None
-      if 'abstract' in node:
-          description = node['abstract']
       if 'description' in node:
           description = node['description']
       resolve_internal_links(data, key, 'description', description)
@@ -103,6 +100,11 @@ def check_chrysoberyl_data(data):
       if 'commentary' in node:
           commentary = node['commentary']
       resolve_internal_links(data, key, 'commentary', commentary)
+
+      as_a_prerequisite = None
+      if 'as-a-prerequisite' in node:
+          as_a_prerequisite = node['as-a-prerequisite']
+      resolve_internal_links(data, key, 'commentary', as_a_prerequisite)
 
       if type_ == 'Distribution':
           # (this has multiple possible types)
@@ -133,8 +135,11 @@ def check_chrysoberyl_data(data):
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
-          check_optional_scalar_ref(data, key, node, 'reference-distribution',
-                                    type_='Distribution')
+          if node.get('has-reference-distribution', True):
+              if 'reference-distribution' not in node:
+                  node['reference-distribution'] = '%s distribution' % key
+              check_scalar_ref(data, key, node, 'reference-distribution',
+                               type_='Distribution')
           check_list_ref(data, key, node, 'implementations')
           check_optional_list_ref(data, key, node, 'influences')
           check_list_ref(data, key, node, 'authors')
@@ -148,9 +153,6 @@ def check_chrysoberyl_data(data):
                                     type_='Development Stage')
           check_optional_list_ref(data, key, node, 'paradigms',
                                   type_='Programming Paradigm')
-          if node.get('has-reference-distribution', True):
-              check_scalar_ref(data, key, node, 'reference-distribution',
-                               type_='Distribution')
 
       if type_ == 'Programming Language Family':
           check_scalar_ref(data, key, node, 'genre', type_='Genre')

@@ -7,7 +7,7 @@ BefOS:
   type: Platform
   subtitle: An Operating System for the Linearly Challenged
   summary: Befunge-themed miniature operating system
-  abstract: |
+  description: |
     This is a project I began in the late 90's, to write an "operating system"
     in the theme of Befunge.  It never got very far, but it does boot and do some
     cute things, so I have modernized it (from Turbo Assembler to NASM) and
@@ -56,7 +56,7 @@ BefOS distribution:
 yoob: 
   type: Platform
   summary: A framework for interactive esolang implementation
-  abstract: |-
+  description: |
     `yoob` is a framework for implementing esoteric programming languages
     in Java.  It aims to make it easy for a user to experiment with a large
     number of esolangs with a minimal install burden (i.e. in a Java applet),

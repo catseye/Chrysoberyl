@@ -13,6 +13,7 @@ Typhoon Thompson:
   implementations: []
   authors: []
   wikipedia: Typhoon_Thompson
+  has-reference-distribution: false
   commentary: |
     Quite possibly the cutest game ever.
     
@@ -30,6 +31,7 @@ Pepper II:
   implementations: []
   authors: []
   wikipedia: Pepper_II
+  has-reference-distribution: false
   commentary: |
     To the untrained eye, it's a ripoff of Pac-Man: fill in all the regions
     instead of eat all the dots.  But there's something about it that sets it
@@ -47,6 +49,7 @@ City Connection:
   implementations: []
   authors: []
   wikipedia: City_Connection
+  has-reference-distribution: false
   commentary: |
     A jumping minivan?  Yes, a jumping minivan.  And European police.
     And a devil-cat-thing with a checkered flag.  And a balloon that warps
@@ -66,6 +69,7 @@ Katamari Damacy:
   solved-by:
   - Chris Pressey
   wikipedia: Katamari_Damacy
+  has-reference-distribution: false
   commentary: |
     An extremely original game — sort of a four-dimensional 
     maze game where the fourth dimension is *scale*.  Rolling things
@@ -81,6 +85,7 @@ Liquid Kids:
   implementations: []
   authors: []
   wikipedia: Liquid_Kids
+  has-reference-distribution: false
   commentary: |
     Very cute.  Quite possibly a sequel or pseudo-sequel to The New Zealand
     Story, since you play what appears to be a platypus, and there are oblique
@@ -96,6 +101,7 @@ Lost Tomb:
   implementations: []
   authors: []
   wikipedia: Lost_Tomb
+  has-reference-distribution: false
   commentary: |
     Gnarly game, but very hard.  I especially liked the 3D effect on the
     intermediate levels with the staircases.  (Even though it's awkward to
@@ -117,6 +123,7 @@ New Zealand Story, The:
   implementations: []
   authors: []
   wikipedia: The_New_Zealand_Story
+  has-reference-distribution: false
   commentary: |
     "This game is dedicated to all maze fans."  However, that should not deter
     fans of kiwis, archery, flying machines shaped like bears' heads,
@@ -133,6 +140,7 @@ CoolBoarders 2:
   solved-by:
   - Chris Pressey
   wikipedia: CoolBoarders_2
+  has-reference-distribution: false
   commentary: |
     The only sports game on my list, but that's probably because it doesn't
     really feel anything like sport.  It's only barely realistic — for example,
@@ -149,7 +157,8 @@ Super Monkeyball 2:
   controls: analog joystick
   implementations: []
   authors: []
-  wikipedia: Super Monkeyball 2
+  wikipedia: Super_Monkeyball_2
+  has-reference-distribution: false
   commentary: |
     I didn't think I'd like this one, since I really don't like those wooden mazes
     that you tilt with the two dials — which is essentially what this game
@@ -166,6 +175,7 @@ Cloak and Dagger:
   implementations: []
   authors: []
   wikipedia: Cloak_and_Dagger
+  has-reference-distribution: false
   commentary: |
     There's something that's always attracted me about being able
     to shoot out bits of wall.  The boxes and conveyor belts hold a similar

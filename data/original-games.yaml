@@ -7,19 +7,18 @@
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1988?
-  abstract: |-
+  description: |
     A video game written for the Commodore 64 where you must
     guide a bubble through a multi-screen maze.  Was originally written in BASIC by a young me in the 80's.
     Was rewritten in 6502 assembly language by a middle-aged me in the late oughts.  Was pared
     down so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Competition 2009
     where (surprisingly, to me!) it got first place in its class.
   implementations:
-  - 'Bubble Escape: BASIC'
-  - 'Bubble Escape 2K'
-  - 'Bubble Escape 8K'
-  reference-distribution: 'Bubble Escape distribution'
+  - Bubble Escape (BASIC)
+  - Bubble Escape 2K
+  - Bubble Escape 8K
 
-'Bubble Escape: BASIC':
+Bubble Escape (BASIC):
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   license: BSD
@@ -28,7 +27,7 @@
   - Commodore 64
   controls: joystick
 
-'Bubble Escape 2K':
+Bubble Escape 2K:
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   prebuilt-in-distribution: true
@@ -43,7 +42,7 @@
   - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
   controls: joystick
 
-'Bubble Escape 8K':
+Bubble Escape 8K:
   type: Game Implementation
   in-distribution: 'Bubble Escape distribution'
   license: BSD
@@ -53,6 +52,7 @@
   - Commodore 64
   controls: joystick
 
+
 'Corona: Realm of Magic':
   type: Game
   genre: Roguelike
@@ -61,15 +61,14 @@
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 2000
-  abstract: |-
+  description: |
     An unfinished roguelike, written in Perl.  This was written on an engine
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
     Entertainment Modules.)
   implementations:
-  - 'Corona: Realm of Magic: Perl'
-  reference-distribution: 'Corona: Realm of Magic distribution'
+  - 'Corona: Realm of Magic (Perl)'
 
-'Corona: Realm of Magic: Perl':
+'Corona: Realm of Magic (Perl)':
   type: Game Implementation
   in-distribution: 'Corona: Realm of Magic distribution'
   license: BSD
@@ -81,7 +80,7 @@
   interface: ANSI Terminal
 
 
-'Zzrk':
+Zzrk:
   subtitle: Adventures in the Great Unsaturated Grammar
   type: Game
   genre: Text Adventure
@@ -90,39 +89,37 @@
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 2005
-  abstract: |-
+  description: |
     A tiny adventure game written in "pure" Zz (a meta-language normally
     used for defining compilers.)
   implementations:
-  - 'Zzrk in Zz'
-  reference-distribution: 'Zzrk distribution'
+  - Zzrk (Zz)
 
-'Zzrk in Zz':
+Zzrk (Zz):
   type: Game Implementation
-  in-distribution: 'Zzrk distribution'
+  in-distribution: Zzrk distribution
   license: BSD
   host-language: Zz
   implemented-in-meta: true
   interface: terminal
 
-'Super Wumpus Land':
+Super Wumpus Land:
   type: Game
-  # also Text Adventure
+  # also Text Adventure, sort of
   genre: Logic
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1999
-  abstract: |-
+  description: |
     An "extended dance mix" version of [[Hunt the Wumpus]].
   implementations:
-  - 'swl'
-  reference-distribution: 'Super Wumpus Land distribution'
+  - swl
 
-'swl':
+swl:
   type: Game Implementation
-  in-distribution: 'Super Wumpus Land distribution'
+  in-distribution: Super Wumpus Land distribution
   license: BSD
   host-language: Perl
   host-language-version: "5.8"

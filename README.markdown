@@ -53,6 +53,11 @@ implementation of the language.  (Although, this "distribution" might
 just be a page on a wiki.)  Only one distribution can be the reference
 distribution for a language.
 
+If `has-reference-distribution` is not false, we expect a language to
+have a `reference-distribution`.  If that key is not present, we look
+for a distribution called `Language distribution` where `Language`
+is the name of the language.
+
 A language may also have multiple implementations.  Each implementation
 may or may not be in a distribution; a distribution may contain
 multiple implementations.  Only one implementation can be the reference

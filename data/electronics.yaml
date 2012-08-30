@@ -5,9 +5,9 @@ kitsilano:
   title: The Kitsilano Oscillator Circuit
   summary: 2-NPN-transistor, 1-capacitor oscillator
   byline: Designed by Chris Pressey
-  abstract: |-
-    <p>An oscillator circuit that contains two NPN transistors and
-        a single capacitor.</p>
+  description: |
+    An oscillator circuit that contains two NPN transistors and
+    a single capacitor.
   language: None
   esowiki: None
   keywords: 
@@ -21,14 +21,15 @@ kitsilano:
     revision: "2008.0905"
     latest: false
     url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
+
 led386: 
   type: Distribution
   distribution-of: led386
   title: A 386-based LED blinker
   summary: LED blinker based on LM386 audio amp IC
   byline: Designed and constructed by Chris Pressey
-  abstract: |-
-    <p>The LM386 audio amplifier IC, that is...</p>
+  description: |
+    The LM386 audio amplifier IC, that is...
   language: None
   esowiki: None
   keywords: 
@@ -44,9 +45,9 @@ mildred:
   title: Mildred
   summary: Homebrew Z80-based computer
   byline: Designed and constructed by Chris Pressey
-  abstract: |-
-    <p>Mildred is a 4MHz Z80-based homebrew computer
-    with 40K of memory (8K EEPROM, 32K SRAM.)</p>
+  description: |
+    Mildred is a 4MHz Z80-based homebrew computer
+    with 40K of memory (8K EEPROM, 32K SRAM.)
   language: None
   esowiki: None
   keywords: 

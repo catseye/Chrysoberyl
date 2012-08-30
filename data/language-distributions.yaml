@@ -871,7 +871,7 @@ RUBE distribution:
 
 RUBE II distribution: 
   type: Distribution
-  distribution-of: 'RUBE II: Das Klickenklacker'
+  distribution-of: RUBE II
   github: catseye/RUBE-II
   bitbucket: catseye/rube-ii
   issue-tracker: github

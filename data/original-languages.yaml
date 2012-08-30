@@ -3,7 +3,7 @@ ALPACA:
   type: Programming Language
   genre: Metalanguage
   acronym-for: A Language for Programming Arbitrary Cellular Automata
-  abstract: |
+  description: |
     ALPACA is a meta-language for describing cellular automata.
   as-a-prerequisite: |
     Some of the files in this project are descriptions of cellular automata,
@@ -36,7 +36,6 @@ ALPACA:
     /* John Conway's Game of Life, expressed in ALPACA. */
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
-  reference-distribution: ALPACA distribution
   implementations:
   - alpaca.pl
 
@@ -55,7 +54,7 @@ Apple Befunge:
   type: Programming Language
   genre: Esolang
   variant-of: Befunge-93
-  abstract: |-
+  description: |-
     Apple Befunge is a variant of Befunge for the Apple ][+, implemented
     in Applesoft BASIC.
     Resembles Befunge-93, with some extra 96-esque instructions, and some
@@ -67,7 +66,6 @@ Apple Befunge:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  reference-distribution: Apple Befunge distribution
   implementations:
   - APPLE BEFUNGE EDITOR
 
@@ -84,7 +82,7 @@ APPLE BEFUNGE EDITOR:
 Arboretuum:
   type: Programming Language
   genre: Experimental language
-  abstract: |
+  description: |
     Arboretuum is an experimental language based on _forest-rewriting_,
     a variant of tree-rewriting in which multiple trees are rewritten simultaneously.
     The language was intended for specifying compilers, with each tree representing
@@ -122,7 +120,6 @@ Arboretuum:
          (out: halt                         => (mul halt)         ))
       )
     )
-  reference-distribution: Arboretuum distribution
   implementations:
   - forest-rewriter.scm
   see-also:
@@ -140,7 +137,7 @@ forest-rewriter.scm:
 Bear Food:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Bear Food was a horrible language defined by an interpreter that
     evolved (no... let's be honest, it *devolved*) from a small piece of example
     code showing how to parse and intepret a simple reverse-polish notation language.
@@ -170,7 +167,7 @@ bearfood.pl:
 Befunge-93:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     One of the more popular languages I ever designed and implemented.
     Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
     many others.  Cited in the New Hacker's Dictionary.
@@ -196,7 +193,6 @@ Befunge-93:
   quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
   quotation-attribution: Mark Topham
   inception-date: Sep 1993
-  reference-distribution: Befunge-93 distribution
   implementations:
   - bef
   see-also:
@@ -216,7 +212,7 @@ bef:
 Befunge-97:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     An unimplemented attempt to improve upon Befunge-93, described
     (fairly accurately) as "brain-damaged."  This was primarily due to the
     fact that separate processes were specified as sharing a single stack.
@@ -239,7 +235,7 @@ beta-Juliet:
   genre: Esolang
   esowiki: beta-Juliet
   summary: A minimal event-oriented programming language
-  abstract: |
+  description: |
     beta-Juliet is a minimal event-based language.  Each event is caused by some other event.
     Event causation is conditional based on which of two given events occurred more recently.
     
@@ -259,7 +255,6 @@ beta-Juliet:
   etymology:
   - automotive pun
   - feminine given name
-  reference-distribution: beta-Juliet distribution
   implementations:
   - b_juliet.pl
   - 2iota
@@ -284,7 +279,7 @@ b_juliet.pl:
 Beturing:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Beturing is a "Befunge-flavoured" language for describing Turing
     machines; both the tape and the finite control are laid out two-dimensionally.
     In addition, the finite control must be expressed as a planar graph (no
@@ -318,7 +313,6 @@ Beturing:
     >/*^</*>*^.@*v
              . . .
     *@      *^*<*<
-  reference-distribution: Beturing distribution
   implementations:
   - beturing.lua
 
@@ -334,7 +328,7 @@ beturing.lua:
 Bhuna:
   type: Programming Language
   genre: Production language
-  abstract: |
+  description: |
     Bhuna is a small, garbage-collected language with a simple syntax,
     closures, inferred types, lightweight processes, and support for UTF-8 source
     code.  It was implemented partly to see how closely I could match the performance
@@ -357,7 +351,6 @@ Bhuna:
       return Fib(X - 1) + Fib(X - 2)
     }
     Print Fib(32), EoL
-  reference-distribution: Bhuna distribution
   implementations:
   - bhuna
 
@@ -373,7 +366,7 @@ bhuna:
 Braktif:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
-  abstract: |
+  description: |
     Braktif is a cellular automaton modelled closely after the [[brainfuck]]
     programming language.
   computational-class: believed Turing-complete
@@ -397,7 +390,6 @@ Braktif:
     000000000000000000  *[-----  --]
     -----------------d-i--         --------
   inception-date: 2005
-  reference-distribution: Braktif distribution
   implementations:
   - braktif.alp
   see-also:
@@ -416,7 +408,7 @@ braktif.alp:
 Burro:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Burro is a [[brainfuck]]-like programming language whose programs
     form an algebraical _group_ (modulo the equivalence relation of "computes the
     same function") under the operation of concatenation. The upshot of this
@@ -449,7 +441,6 @@ Burro:
       >>--(+++>+>/+<<+++>)<
     >)<
   significant: true
-  reference-distribution: Burro distribution
   implementations:
   - Burro.lhs
   see-also:
@@ -467,7 +458,7 @@ Burro.lhs:
 Cabra:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Cabra is a (somewhat) formal programming language whose programs
     form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence
     relation of "computes the same function", under the operations of parallel
@@ -491,7 +482,6 @@ Cabra:
     cabra
   sample: |
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
-  reference-distribution: Cabra distribution
   implementations:
   - cabra.hs
 
@@ -509,7 +499,7 @@ cabra.hs:
 Circute:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
-  abstract: |
+  description: |
     Circute is a cellular automaton that simulates conduits that
     carry digital signals and NAND gates that manipulate those signals.
   esowiki: Circute
@@ -536,7 +526,6 @@ Circute:
        =       =   =     =   =       =
        =============     =============
   inception-date: 2005
-  reference-distribution: Circute distribution
   implementations:
   - circute.alp
   - tc.catseye.yoob.circute
@@ -563,7 +552,7 @@ circute.alp:
 Cfluviurrh:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Cfluviurrh is, as far as I am aware, the first programming language designed
     for writing programs that can *feel*. Cfluviurrh defines a mechanism by which a
     program can be instructed to experience particular emotions.
@@ -594,7 +583,6 @@ Cfluviurrh:
     z@=X
     z?a<b
   inception-date: Aug 26 2012
-  reference-distribution: Cfluviurrh distribution
   implementations:
   - cfluviurrh
 
@@ -610,7 +598,7 @@ Didigm:
   type: Programming Language Family
   summary: A reflective cellular automaton
   genre: Esolang
-  abstract: |
+  description: |
     Didigm is a reflective cellular automaton: the transition rules
     for the automaton are defined by forms in the very playfield governed by
     those transition rules.
@@ -641,7 +629,6 @@ Didigm:
     111111111111333
     311111111111023
     111111111111113
-  reference-distribution: Didigm distribution
   implementations: []
 
 
@@ -649,7 +636,7 @@ Dieter:
   type: Programming Language
   genre: Experimental language
   summary: A language which conflates modules and type qualifiers
-  abstract: |
+  description: |
     Dieter (as in the German masculine given name Dieter, not dieter as in
     "one who diets") is a little experimental programming language that
     conflates *type qualifiers* with *modules* to produce something
@@ -679,7 +666,6 @@ Dieter:
   - Cat's Eye Technologies
   inception-date: ca Oct 3, 2009
   computational-class: believed Turing-complete
-  reference-distribution: Dieter distribution
   implementations:
   - dieter.py
 
@@ -697,7 +683,7 @@ Eightebed:
   genre: Esolang
   esowiki: Eightebed
   summary: A safe language with explicit memory deallocation
-  abstract: |
+  description: |
     Eightebed is a small language with explicit `malloc` and `free`.
     Through a modicum of static analysis
     and runtime support, Eightebed is safe: it is not possible to dereference a dangling
@@ -735,7 +721,6 @@ Eightebed:
   - Cat's Eye Technologies
   inception-date: ca Sep 1, 2010
   computational-class: believed Turing-complete
-  reference-distribution: Eightebed distribution
   implementations:
   - 8ebed2c.py
 
@@ -753,7 +738,7 @@ Eightebed:
 Emmental:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Emmental is a self-modifying programming language.  It is defined
     in terms of a meta-circular interpreter, and this meta-circular interpreter
     provides an operation that redefines operations of the meta-circular interpreter.
@@ -773,7 +758,6 @@ Emmental:
   - swiss
   sample: |
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
-  reference-distribution: Emmental distribution
   implementations:
   - emmental.hs
   see-also:
@@ -791,7 +775,7 @@ emmental.hs:
 Etcha:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Etcha is a two-dimensional descendant of [Jeffry Johnston]'s [BitChanger].
     Like BitChanger, it has four instructions; unlike BitChanger, its storage
     model is based on turtle graphics, which permits it to be immediately used
@@ -814,7 +798,6 @@ Etcha:
        #
        #
      ###
-  reference-distribution: Etcha distribution
   implementations:
   - tc.catseye.etcha
   - tc.catseye.yoob.etcha
@@ -844,7 +827,7 @@ ETHEL:
   - Chris Pressey
   auspices:
   - Star Building Materials
-  abstract: |
+  description: |
     A language specifically for expressing quantity surveying (materials
     estimating) formula and procedures, designed for Star Building Materials.
   computational-class: believed Turing-complete
@@ -866,7 +849,7 @@ ethel.pl:
 Flobnar: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     One day in September of 2011 — though I'm not sure precisely
     which one — marked [[Befunge-93]]'s 18th birthday.  That means that
     Befunge is now old enough to drink in its native land of Canada.  To celebrate
@@ -892,7 +875,6 @@ Flobnar:
     1 :   > *
       -|    <
       11
-  reference-distribution: Flobnar distribution
   implementations:
   - Flobnar.hs
 
@@ -909,7 +891,7 @@ Full Moon Fever:
   type: Programming Language
   genre: DSL
   summary: A language for describing ANSI terminal animations
-  abstract: |
+  description: |
     Full Moon Fever is a language for describing ASCII animations.
     It was used to deliver animated screens on Chris Pressey's BBS
     (when it was operational in the early 90's) via ANSI terminal control codes.
@@ -948,7 +930,7 @@ Full Moon Fever:
 Funge-98:
   type: Programming Language Family
   genre: Esolang
-  abstract: |
+  description: |
     Culmination of attempts to improve upon Befunge.  Seemingly everything
     except the kitchen sink was stuffed into it somehow.
   quotation: |-
@@ -972,7 +954,6 @@ Funge-98:
      ^ <<
         G
         '
-  reference-distribution: Funge-98 distribution
   implementations: []
 
 Befunge-98:
@@ -1005,7 +986,7 @@ FBBI:
 Gemooy: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Gemooy is really just a two-dimensional bagatelle of sorts; it
     combines features from [[2-ill]] and [[Etcha]], and adds self-modification.
     It came about when I noticed the tape-related semantics of 2-ill were essentially
@@ -1058,7 +1039,7 @@ GraNoLa/M:
   type: Programming Language
   genre: Esolang
   acronym-for: GRAph-NOde LAnguage (possibly for Machines)
-  abstract: |
+  description: |
     GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) 
     It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,
     its execution model involves both traversing and rewriting a graph at the
@@ -1077,7 +1058,6 @@ GraNoLa/M:
   - Tamerlane
   sample: |
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
-  reference-distribution: GraNoLa/M distribution
   implementations:
   - granolam.erl
   see-also:
@@ -1095,7 +1075,7 @@ granolam.erl:
 Hev:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Hev is a programming language that attempts to solve the "central
     problem of infix notation": how do you allow it without requiring the programmer
     to either memorize precedence tables or litter parentheses everywhere?  Hev
@@ -1114,7 +1094,6 @@ Hev:
   - neologism
   sample: |
     71+8*27,19,29*99,6,37,7,61,47
-  reference-distribution: Hev distribution
   implementations:
   - Hev.hs
 
@@ -1132,7 +1111,7 @@ Hunter:
   genre: Esolang
   tagline: |-
     maze-space rewriting with authentic inter-rodent communication
-  abstract: |
+  description: |
     Hunter is a language I designed for the Esoteric Awards ("Essies")
     Its abstract starts out like this:
     
@@ -1164,7 +1143,6 @@ Hunter:
     ##################
     *12+>3
     *21+>3
-  reference-distribution: Hunter distribution
   implementations:
   - hunter.pl
 
@@ -1180,7 +1158,7 @@ hunter.pl:
 ILLGOL:
   type: Programming Language
   genre: Joke language
-  abstract: |
+  description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
   authors:
@@ -1217,7 +1195,7 @@ ILLGOL.COM:
 Illgola-2:
   type: Programming Language
   genre: Joke language
-  abstract: |
+  description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
   authors:
@@ -1249,7 +1227,7 @@ ILLGOLA-2.COM:
 Illberon:
   type: Programming Language
   genre: Joke language
-  abstract: |
+  description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
   authors:
@@ -1281,7 +1259,7 @@ ILLBERON.COM:
 Open Sores Illgol##:
   type: Programming Language
   genre: Joke language
-  abstract: |
+  description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
   authors:
@@ -1314,7 +1292,7 @@ ILLGOL##.COM:
 Iphigeneia:
   type: Programming Language
   genre: Pedagogical language
-  abstract: |
+  description: |
     Iphigeneia is a toy programming language which contains features
     from both imperative programming (assignments to mutable variables, `while`
     loops,) and functional programming (immutable name bindings, Scheme-style
@@ -1338,7 +1316,6 @@ Iphigeneia:
                     let d = d * c in
                         let c = c - 1 in
                             repeat
-  reference-distribution: Iphigeneia distribution
   implementations:
   - iphi
 
@@ -1355,7 +1332,7 @@ iphi:
 Jaccia and Jacciata:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
-  abstract: |
+  description: |
     Jaccia and Jacciata are cellular automata inspired by the [Announcement
     of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
@@ -1393,7 +1370,6 @@ Jaccia and Jacciata:
     # # ###:###
     #   #  :::#
     #########F#
-  reference-distribution: Jaccia and Jacciata distribution
   implementations:
   - jaccia.alp
   - jacciata.alp
@@ -1420,7 +1396,7 @@ jacciata.alp:
 Kangaroo Iceberg:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Kangaroo Iceberg was a short-lived attempt to pare down Tamerlane
     to something implementable, and implement it.  Although it got a fair ways
     along (e.g. the parser for graphs seems to be complete, I lost interest
@@ -1436,7 +1412,6 @@ Kangaroo Iceberg:
   influences:
   - Tamerlane
   inception-date: Jul 2004
-  reference-distribution: Kangaroo Iceberg distribution
   implementations:
   - kiceberg
   see-also:
@@ -1455,7 +1430,7 @@ kiceberg:
 Kelxquoia: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Kelxquoia is another remotely fungeoid language, this one self-modifying
     — in fact, self-destroying.  As instructions are executed, they are
     erased.  In order to execute indefinitely, new instructions of some sort
@@ -1481,14 +1456,13 @@ Kelxquoia:
      ^      /*?-*P-*?-+*?-*P-* -+     <
     
      00 00 00 00
-  reference-distribution: Kelxquoia distribution
   implementations: []
 
 
 Larabee:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Larabee is an assembly-like programming language, with Scheme-like
     syntax, that borrows the notion of branch prediction from computer architecture
     and abuses it, creating a path that leads only to existential angst and self-destruction.
@@ -1510,7 +1484,6 @@ Larabee:
             (store (input) (op - (fetch (input)) (input))
               (test (op > (fetch (input)) (input))
                 (goto loop) (print (fetch (input)))))))))
-  reference-distribution: Larabee distribution
   implementations:
   - larabee.scm
 
@@ -1526,7 +1499,7 @@ larabee.scm:
 Madison: 
   type: Programming Language
   genre: Proof language
-  abstract: |
+  description: |
     Madison is a language in which one can state proofs of properties
     of term-rewriting systems.  Classical methods of automated reasoning,
     such as resolution, are not used; indeed, term-rewriting itself is
@@ -1565,7 +1538,6 @@ Madison:
         -> branch(S,reflect(reflect(T)))                   [by IH]
         -> branch(S,T)                                     [by IH]
     qed
-  reference-distribution: Madison distribution
   implementations: []
 
 
@@ -1574,7 +1546,7 @@ Maentwrog:
   genre: Pedagogical language
   esowiki: Maentwrog
   summary: A simple RPN-calculator-based language
-  abstract: |
+  description: |
     Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
     probably counts as Chris Pressey's first proper programming language.
     It was implemented on his Amiga 500 in 1993, then lost and unearthed
@@ -1609,7 +1581,6 @@ Maentwrog:
   computational-class: known not Turing-complete
   implementations:
   - maentw.c
-  reference-distribution: Maentwrog distribution
 
 maentw.c:
   type: Language Implementation
@@ -1623,7 +1594,7 @@ maentw.c:
 Mascarpone:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Mascarpone is a self-modifying language able to alter the meta-circular
     interpreter which defines it, like its predecessor Emmental.  Unlike Emmental
     however, in Mascarpone interpreters are first-class objects, making the
@@ -1650,7 +1621,6 @@ Mascarpone:
     You are lost in a twisty little maze of meta-circular intepreters, all alike
   quotation-attribution: |-
     "Colossal Cave", Crowther and Woods
-  reference-distribution: Mascarpone distribution
   implementations:
   - mascarpone.hs
 
@@ -1667,7 +1637,7 @@ MDPN:
   type: Programming Language
   genre: Metalanguage
   acronym-for: Multi-Directional Pattern Notation
-  abstract: |
+  description: |
     MDPN is a meta-language for describing multi-directional and
     multi-dimensional languages.
   authors:
@@ -1683,7 +1653,6 @@ MDPN:
   sample: |2
       Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-  reference-distribution: MDPN distribution
   implementations: []
 
 
@@ -1691,7 +1660,7 @@ MDPN:
   type: Programming Language
   genre: Joke language
   tagline: The Official Language of Pride and Envy
-  abstract: |
+  description: |
     'N-DCNC was my entry for the 2000 Esoteric Awards ('Essies')
     It is based on a conspiracy theory involving
     UFOs and a 5-member boy band, or something.
@@ -1705,7 +1674,6 @@ MDPN:
   inception-date: Oct 2000
   sample: |
     4*5+2/2,(9*`c)+1
-  reference-distribution: "'N-DCNC distribution"
   implementations:
   - ndcnc.pl
   - ndcnc.bf
@@ -1732,7 +1700,7 @@ ndcnc.bf:
 Nhohnhehr: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Nhohnhehr is a remotely fungeoid language which explores the design
     space between having a fixed playfield versus an expandable one.  When the
     instruction pointer reaches the edge of the playfield (the "room"), whether
@@ -1756,7 +1724,6 @@ Nhohnhehr:
     | {    |
     |\\    |
     +------+
-  reference-distribution: Nhohnhehr distribution
   implementations:
   - nhohnhehr.py
 
@@ -1777,7 +1744,7 @@ nhohnhehr.py:
     Under pressure
   quotation-attribution: |-
     Queen
-  abstract: |
+  description: |
     noit o' mnain worb is a probabilistic particle automaton that
     uses pressure between randomly moving particles to approximate the behaviour
     of circuits.  It can approximate computation with these circuits, too, but
@@ -1806,7 +1773,6 @@ nhohnhehr.py:
             #v#########
             # #
             ###
-  reference-distribution: noit o' mnain worb distribution
   implementations:
   - worb.pl
   - tc.catseye.yoob.worb
@@ -1832,7 +1798,7 @@ tc.catseye.yoob.worb:
 Okapi: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Okapi is a language I designed as an anniversary present for my
     wife(!). In it, the only means of control flow is throwing exceptions, and
     as if this wasn't enough, there are two restrictions on exceptions that are
@@ -1858,7 +1824,7 @@ okapi.py:
 Oozlybub and Murphy: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     The name of this language is Oozlybub and Murphy. Despite appearances,
     this name refers to a single language. The majority of the language is named
     Oozlybub. The fact that the language is not entirely named Oozlybub is named
@@ -1882,13 +1848,12 @@ Oozlybub and Murphy:
              if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
                copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
   unusual-computability-properties: true
-  reference-distribution: Oozlybub and Murphy distribution
   implementations: []
 
 
 Opus-2:
   type: Abstract Artlang
-  abstract: |
+  description: |
     Opus-2 is not a programming language, but rather, an abstract artlang
     (i.e., a conlang designed independently from any conception of society.)
     The sole design principle was to entirely eliminate word order.
@@ -1904,14 +1869,13 @@ Opus-2:
     + C, tubular bells, piano
     + mothballs (gentle whiff)
   significant: true
-  reference-distribution: Opus-2 distribution
 
 
 Pail: 
   type: Programming Language
   genre: Esolang
   acronym-for: PAIr Language
-  abstract: |
+  description: |
     Pail is a programming language based on pairs; just as Lisp stands
     for LISt Processing, Pail stands for PAIr Language. Its original working
     title was "Bizaaro[sic]-Pixley", as it attempts to resemble [[Pixley]]
@@ -1934,7 +1898,6 @@ Pail:
               ***cadrg
            ]]
       ]]
-  reference-distribution: Pail distribution
   implementations:
   - Pail.lhs
 
@@ -1952,7 +1915,7 @@ Pail.lhs:
 Pixley:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Pixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS
     Scheme), supporting four datatypes (boolean, cons cell, function, and symbol)
     and a dozen built-in symbols.  The reference implementation of Pixley is
@@ -1972,7 +1935,6 @@ Pixley:
   - television show
   sample: |-
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
-  reference-distribution: Pixley distribution
   implementations:
   - pixley.pix
 
@@ -1988,7 +1950,7 @@ pixley.pix:
 Quylthulg:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Quylthulg is a programming language with but a single control-flow
     construct: `foreach`.  In fact, it does also have a `goto`, but that can
     only appear inside data structures.
@@ -2005,7 +1967,6 @@ Quylthulg:
   - Lovecraftian
   sample: |-
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
-  reference-distribution: Quylthulg distribution
   implementations:
   - Qlzqqlzuup, the Lord of Flesh
 
@@ -2021,7 +1982,7 @@ Qlzqqlzuup, the Lord of Flesh:
 REDGREEN:
   type: Programming Language
   genre: Esolang (Cellular Automaton)
-  abstract: |
+  description: |
     REDGREEN is a cellular automaton that simulates a little
     "physical world", much like [[RUBE]].
   authors:
@@ -2056,7 +2017,6 @@ REDGREEN:
   inception-date: 1998
   implementations:
   - redgreen.alp
-  reference-distribution: REDGREEN distribution
 
 redgreen.alp:
   type: Language Implementation
@@ -2071,7 +2031,7 @@ redgreen.alp:
 RUBE:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     RUBE is an esoteric programming language in tribute to Rube Goldberg,
     with bulldozers pushing around numbered crates, knocking them together to
     perform computations.  It is based on a variant of a cellular automaton called
@@ -2098,7 +2058,6 @@ RUBE:
                                    O F
                                    c
                                    =
-  reference-distribution: RUBE distribution
   implementations:
   - rube.c
 
@@ -2118,7 +2077,7 @@ rube.c:
 Sally:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Sally is a cute but naive little functional language with a minimal syntax,
     a strict type system, and some unusual rules for parameters and return values.
   authors:
@@ -2135,7 +2094,6 @@ Sally:
     stdlib
     int factorial int if $1 mul $1 factorial sub $1 1 1
     int main int factorial $1
-  reference-distribution: Sally distribution
   implementations:
   - sally2c
 
@@ -2153,7 +2111,7 @@ sally2c:
 Sbeezg:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Sbeezg is a syntactically very simple language that attempts to
     take the single-assignment concept to a logical extreme.
   authors:
@@ -2170,7 +2128,6 @@ Sbeezg:
     f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
        k=j(h,b)|a};l=f(99,f)
-  reference-distribution: Sbeezg distribution
 
 sbeezg.erl:
   type: Language Implementation
@@ -2184,7 +2141,7 @@ sbeezg.erl:
 Shelta:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Shelta is an extremely minimal Forth-like language with barely
     any semantics; it relies on inline machine code to be considered anywhere
     near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]
@@ -2207,7 +2164,6 @@ Shelta:
   esowiki: Shelta
   sample: |
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-  reference-distribution: Shelta distribution
   implementations:
   - shelta
   - sheltas
@@ -2242,7 +2198,7 @@ SMETANA:
   esowiki: SMETANA
   acronym-for: Self-Modifying Extremely Tiny AutomatoN Application
   summary: A pathological little self-modifying language
-  abstract: |
+  description: |
     SMETANA is a pathological little self-modifying language with only two
     possible operations: Go to step *n*, and Swap steps *n* and *m*.
     It has inspired a few variants and developments, notably a proof that
@@ -2263,7 +2219,6 @@ SMETANA:
   inception-date: ca 1994
   computational-class: known not Turing-complete
   notable: true
-  reference-distribution: SMETANA distribution
   implementations:
   - smetana.pl
   - tc.catseye.yoob.smetana
@@ -2294,7 +2249,7 @@ SMITH:
   summary: An assembly-like language with no jumps whatsoever
   quotation: How many nights and weird mornings can this go on?
   quotation-attribution: Hunter S. Thompson
-  abstract: |
+  description: |
     SMITH is a self-modifying assembly-like language which completely lacks
     any kind of jump instructions *whatsoever*.  Despite this handicap, it
     appears to be Turing-complete.
@@ -2321,7 +2276,6 @@ SMITH:
   computational-class: believed Turing-complete
   notable: true
   significant: true
-  reference-distribution: SMITH distribution
   implementations:
   - smith.pl
   influences:
@@ -2339,7 +2293,7 @@ smith.pl:
 Squishy2K:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Squishy2K is a language which is a hybrid of string rewriting
     and finite state automata; as an added twist, it also lets program states serve
     as functions.  It was based largely on an earlier grammar-based language
@@ -2356,7 +2310,6 @@ Squishy2K:
   inception-date: Sep 2000
   sample: |
     * main { start many finish? "Hello, world!"! }
-  reference-distribution: Squishy2K distribution
   implementations:
   - squishy2k.pl
 
@@ -2372,7 +2325,7 @@ squishy2k.pl:
 Strelnokoff:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Strelnokoff is a non-deterministic imperative programming language.
     Despite this apparent handicap, it appears to be Turing-complete (thanks
     to a short-circuiting multiplication operator,) but a critical feature (arrays)
@@ -2408,7 +2361,6 @@ Strelnokoff:
     X = (T = X) * 0 + (X > T) * X REM RESET FLAG
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   inception-date: Apr 2001
-  reference-distribution: Strelnokoff distribution
   implementations:
   - strelnokoff.pl
 
@@ -2424,7 +2376,7 @@ strelnokoff.pl:
 Tamerlane:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Tamerlane is a multi-paradigmatic programming language, unimplemented
     and possibly unimplementable. One of its core execution mechanisms is the
     traversing of a graph (representing the program) while rewriting that same
@@ -2442,7 +2394,6 @@ Tamerlane:
     Point-B: 1 Point-C,
     Point-C: 1 Point-A.
     ?- 1 Point-A -> 0 Point-A @ Point-A
-  reference-distribution: Tamerlane distribution
   implementations: []
   see-also:
   - Kangaroo Iceberg
@@ -2452,7 +2403,7 @@ Tamerlane:
 Treacle:
   type: Programming Language
   genre: Experimental language
-  abstract: |
+  description: |
     Treacle is an experimental compiler-definition language based on
     _context rewriting_, an expressive variant of term rewriting that generalizes
     the forest-rewriting used by its predecessor [[Arboretuum]].  In context rewriting,
@@ -2480,7 +2431,6 @@ Treacle:
     )
   sample-output: |-
     (xx (xx (xx (xx (xx (y 1 2) left) the) to) descends) this)
-  reference-distribution: Treacle distribution
   implementations:
   - treacle.scm
 
@@ -2496,7 +2446,7 @@ treacle.scm:
 Troupe:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
     fairly neatly to the definition of a Turing machine, so it is almost certainly
     Turing-complete.
@@ -2507,14 +2457,13 @@ Troupe:
   computational-class: believed Turing-complete
   inception-date: Jun 25, 2012
   esowiki: Troupe
-  reference-distribution: Troupe distribution
   implementations: []
 
 
 Unlikely:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Unlikely is a programming language that conflates objects with
     continuations, and methods with labels.  It exposes program structures as
     objects with commensurate inheritance relationships.  It also takes dependency
@@ -2556,7 +2505,6 @@ Unlikely:
         goto p.continue(accumulator);
       }
     }
-  reference-distribution: Unlikely distribution
   implementations:
   - Coldwater
 
@@ -2572,7 +2520,7 @@ Coldwater:
 Velo: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Velo is a vaguely Ruby-inspired "scripting" language which unifies
     strings with code blocks, and scripts with object classes.  Curly braces
     delimit string literals, and there is no difference between a string literal
@@ -2590,7 +2538,6 @@ Velo:
     yes = {IO.print {Yes}}
     no = {IO.print {No}}
     if ({X}.equals {Y}), yes, no
-  reference-distribution: Velo distribution
   implementations:
   - velo.rb
 
@@ -2606,7 +2553,7 @@ velo.rb:
 Version:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Version is an imperative programming language that uses _ignorance-spaces_
     for flow control; all  instructions which match the current ignorance pattern
     are ignored during execution.
@@ -2639,7 +2586,6 @@ Version:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  reference-distribution: Version distribution
   implementations:
   - version.pl
 
@@ -2655,7 +2601,7 @@ version.pl:
 Whothm: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Whothm is a simple language for describing infinite two-colour
     bitmapped drawings.
   authors:
@@ -2683,7 +2629,6 @@ Whothm:
     s.h += 2;
     draw s, XOR;
     end
-  reference-distribution: Whothm distribution
   implementations:
   - tc.catseye.whothm
   online-implementations:
@@ -2701,7 +2646,7 @@ tc.catseye.whothm:
 Wierd:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Wierd is a language, inspired somewhat by Befunge-93, where instructions
     are not determined by the symbols in a sequence of symbols, but by the *bends*
     in a sequence of symbols.
@@ -2734,7 +2679,6 @@ Wierd:
         * ** *
         **  *
   sample-credit: Milo van Handel
-  reference-distribution: Wierd distribution
   implementations:
   - wierd.c
   - wierd-milo.c
@@ -2759,7 +2703,7 @@ wierd-milo.c:
 Wunnel: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Wunnel is a two-dimensional language which draws from the [[1L]]
     family of languages and incorporates features from [[reMorse]]. The name
     is both a play on the pronunciation of "1L", and a recursive portmanteau
@@ -2820,7 +2764,7 @@ Xigxag:
   # hmm... well, no.  but for now, yes.
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Xigxag is a simple string-copying automaton that has exponential
     growth almost everywhere (i.e. there are only a finite number of initial
     configurations that don't blow up.)
@@ -2841,7 +2785,6 @@ Xigxag:
     ...
   computational-class: unknown computational class
   unusual-computability-properties: true
-  reference-distribution: Xigxag distribution
   implementations:
   - xigxag.pl
 
@@ -2857,7 +2800,7 @@ xigxag.pl:
 Xoomonk: 
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Xoomonk is a programming language in which _malingering updatable
     stores_ are first-class objects.  Malingering updatable stores unify several
     language constructs, including procedure activations, named parameters, and
@@ -2886,14 +2829,13 @@ Xoomonk:
       ^.counter := o.result
       continue := o.result
     }
-  reference-distribution: Xoomonk distribution
   implementations: []
 
 
 You are Reading the Name of this Esolang:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     You are Reading the Name of this Esolang is an exploration in
     the design space of programming languages with undecidable elements. Its syntax
     is only recursively enumerable: the problem of determining whether or not
@@ -2911,14 +2853,13 @@ You are Reading the Name of this Esolang:
   - Spoon
   sample: |
     001000000[0010000000111001000011]11100100001[0]
-  reference-distribution: You are Reading the Name of this Esolang distribution
   implementations: []
 
 
 Ypsilax:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Ypsilax is a non-deterministic, reflective, two-dimensional grid-rewriting
     language.  Rewriting rules look for patterns in the grid and replace them
     with other patterns.  These rules are themselves represented by patterns
@@ -2947,7 +2888,6 @@ Ypsilax:
         #      #
         #      #
         #    ###
-  reference-distribution: Ypsilax distribution
   implementations:
   - ypsilax.pl
   - tc.catseye.yoob.ypsilax
@@ -2973,7 +2913,7 @@ tc.catseye.yoob.ypsilax:
 ZOWIE:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     ZOWIE is a machine-like language in which all operations *including
     structured control flow* are memory-mapped.  Control flow is structured in
     the sense of structured programming — the programmer never deals with
@@ -2998,7 +2938,6 @@ ZOWIE:
     MOV R8, R10
     MOV R5, 64
     MOV R3, R8
-  reference-distribution: ZOWIE distribution
   implementations:
   - zowie.py
 

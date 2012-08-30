@@ -1,0 +1,158 @@
+# encoding: UTF-8
+# also contains the distributions for these tools
+
+basedump: 
+  type: Tool
+  summary: Views data or files in any base
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - basedump.erl
+
+basedump.erl:
+  type: Tool Implementation
+  in-distribution: basedump distribution
+  license: BSD
+  host-language: Erlang
+
+basedump distribution: 
+  type: Distribution
+  distribution-of: basedump
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2002.1010"
+    latest: true
+    url: http://catseye.tc/distfiles/basedump-2002.1010.zip
+
+
+brace: 
+  type: Tool
+  summary: Utility to translate I/O interactively
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - brace.c
+
+brace.c:
+  type: Tool Implementation
+  in-distribution: brace distribution
+  license: BSD
+  host-language: C99
+
+brace distribution: 
+  type: Distribution
+  distribution-of: brace
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0920"
+    latest: true
+    url: http://catseye.tc/distfiles/brace-2004.0920.zip
+
+
+ec: 
+  type: Tool
+  summary: Simple build utility for Erlang projects
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - ec.erl
+
+ec.erl:
+  type: Tool Implementation
+  in-distribution: ec distribution
+  license: BSD
+  host-language: Erlang
+
+ec distribution: 
+  type: Distribution
+  distribution-of: ec
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0228"
+    latest: true
+    url: http://catseye.tc/distfiles/ec-2004.0228.zip
+
+
+erlaunch: 
+  type: Tool
+  summary: Reduces startup time for Erlang/OTP programs
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  implementations:
+  - erlaunch.c
+  commentary: |
+    Not really useful anymore, as startup time for recent versions
+    of Erlang/OTP is pretty good.
+
+erlaunch.c:
+  type: Tool Implementation
+  in-distribution: erlaunch distribution
+  license: BSD
+  host-language: C99
+
+erlaunch distribution: 
+  type: Distribution
+  distribution-of: erlaunch
+  development-stage: archived
+  releases: 
+  - version: "1.0"
+    revision: "2004.0309"
+    latest: true
+    url: http://catseye.tc/distfiles/erlaunch-2004.0309.zip
+
+
+OpenFlax: 
+  type: Tool
+  summary: Experimental Erlang web server
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    OpenFlax is an experimental open-source web server written in 100% Erlang,
+    designed with security and simplicity in mind.
+  inception-date: ca 2002
+  implementations:
+  - OpenFlax (Erlang)
+  references: 
+  - title: Inets
+    description: Standard Erlang Webserver
+    url: http://www.erlang.org/doc/r9b/lib/inets-3.0/doc/
+  - title: yaws
+    description: High-Performance Erlang Webserver
+    url: http://sourceforge.net/projects/erlyaws/
+  - title: 'femto'
+    description: Tiny Erlang Webserver
+    url: http://www.sics.se/~joe/tutorials/web_server/web_server.html
+  - title: RFC 2616
+    description: Spec for HTTP/1.1
+    url: http://www.ietf.org/rfc/rfc2616.txt
+  - title: RFC 2616 Errata
+    description: Corrections in spec for HTTP/1.1
+    url: http://skrb.org/ietf/http_errata.html
+
+OpenFlax (Erlang):
+  type: Tool Implementation
+  in-distribution: 'OpenFlax distribution'
+  license: BSD
+  host-language: Erlang
+
+OpenFlax distribution: 
+  type: Distribution
+  distribution-of: OpenFlax
+  releases: 
+  - version: "1.0"
+    revision: "2004.0919"
+    latest: true
+    url: http://catseye.tc/distfiles/openflax-2004.0919.zip

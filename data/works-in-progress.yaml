@@ -2,7 +2,7 @@
 Deturgenchry:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Deturgenchry is an object-oriented language with both `self` and `other`,
     and each of these is a continuation (or something.)
   development-stage: work in progress
@@ -13,7 +13,6 @@ Deturgenchry:
   inception-date: 2011
   etymology:
   - neologism
-  reference-distribution: Deturgenchry distribution
   implementations:
   - Deturgenchry.hs
 
@@ -37,7 +36,7 @@ Deturgenchry distribution:
 Pophery:
   type: Programming Language
   genre: Esolang
-  abstract: |
+  description: |
     Pophery is an imperative string-rewriting language.  I know right?
   development-stage: work in progress
   authors:
@@ -47,7 +46,6 @@ Pophery:
   inception-date: 2010
   etymology:
   - neologism
-  reference-distribution: Pophery distribution
   implementations:
   - pophery.py
 

@@ -6,62 +6,6 @@
 # - TPiS is an implementation of Scheme (a static checker) 
 # - yucca is an implementation of BASIC (a static checker) 
 
-basedump: 
-  type: Tool
-  summary: Views data or files in any base
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  implementations:
-  - basedump.erl
-  reference-distribution: basedump distribution
-
-basedump.erl:
-  type: Tool Implementation
-  in-distribution: basedump distribution
-  license: BSD
-  host-language: Erlang
-
-basedump distribution: 
-  type: Distribution
-  distribution-of: basedump
-  development-stage: archived
-  releases: 
-  - version: "1.0"
-    revision: "2002.1010"
-    latest: true
-    url: http://catseye.tc/distfiles/basedump-2002.1010.zip
-
-
-brace: 
-  type: Tool
-  summary: Utility to translate I/O interactively
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  implementations:
-  - brace.c
-  reference-distribution: brace distribution
-
-brace.c:
-  type: Tool Implementation
-  in-distribution: brace distribution
-  license: BSD
-  host-language: C99
-
-brace distribution: 
-  type: Distribution
-  distribution-of: brace
-  development-stage: archived
-  releases: 
-  - version: "1.0"
-    revision: "2004.0920"
-    latest: true
-    url: http://catseye.tc/distfiles/brace-2004.0920.zip
-
-
 'Console::Virtual':
   type: Library
   summary: Package for simulating a virtual console
@@ -69,7 +13,7 @@ brace distribution:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |
+  description: |
     `Console::Virtual` is a simple, lightweight abstraction layer which
     allows a program to interact with the user through a console, which
     is emulated on whatever user interface is really available.
@@ -85,7 +29,6 @@ brace distribution:
   inception-date: ca 2003
   implementations:
   - 'Console::Virtual (Perl module)'
-  reference-distribution: 'Console::Virtual distribution'
 
 'Console::Virtual (Perl module)':
   type: Library Implementation
@@ -118,7 +61,7 @@ crone:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |-
+  description: |
     `crone` is a simple `cron`-like facility.  Unlike most `cron`s, it does
     not periodically activate and run whatever tasks are due to run; instead
     it calculates the amount of time between now and when the next is due
@@ -126,7 +69,6 @@ crone:
   inception-date: Unknown
   implementations:
   - crone.erl
-  reference-distribution: crone distribution
 
 crone.erl:
   type: Tool Implementation
@@ -148,65 +90,6 @@ crone distribution:
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
 
 
-ec: 
-  type: Tool
-  summary: Simple build utility for Erlang projects
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  implementations:
-  - ec.erl
-  reference-distribution: ec distribution
-
-ec.erl:
-  type: Tool Implementation
-  in-distribution: ec distribution
-  license: BSD
-  host-language: Erlang
-
-ec distribution: 
-  type: Distribution
-  distribution-of: ec
-  development-stage: archived
-  releases: 
-  - version: "1.0"
-    revision: "2004.0228"
-    latest: true
-    url: http://catseye.tc/distfiles/ec-2004.0228.zip
-
-
-erlaunch: 
-  type: Tool
-  summary: Reduces startup time for Erlang/OTP programs
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  implementations:
-  - erlaunch.c
-  reference-distribution: erlaunch distribution
-  commentary: |
-    Not really useful anymore, as startup time for recent versions
-    of Erlang/OTP is pretty good.
-
-erlaunch.c:
-  type: Tool Implementation
-  in-distribution: erlaunch distribution
-  license: BSD
-  host-language: C99
-
-erlaunch distribution: 
-  type: Distribution
-  distribution-of: erlaunch
-  development-stage: archived
-  releases: 
-  - version: "1.0"
-    revision: "2004.0309"
-    latest: true
-    url: http://catseye.tc/distfiles/erlaunch-2004.0309.zip
-
-
 Falderal: 
   type: Tool
   subtitle: Literate Testing for Languages
@@ -215,7 +98,7 @@ Falderal:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |-
+  description: |
     Falderal is a file format for literate test suites.  It is particularly
     suited for documenting programming languages (or other specifications of
     ways to transform text) and testing their implementation(s) in a
@@ -234,22 +117,21 @@ Falderal:
   implementations:
   - Test.Falderal
   - py-falderal
-  reference-distribution: 'Falderal distribution'
 
-'Test.Falderal':
+Test.Falderal:
   type: Tool Implementation
   in-distribution: 'Falderal distribution'
   license: BSD
   host-language: Haskell
 
-'py-falderal':
+py-falderal:
   type: Tool Implementation
   # well, this is actually not true yet, but:
-  in-distribution: 'Falderal distribution'
+  in-distribution: Falderal distribution
   license: BSD
   host-language: Python
 
-'Falderal distribution': 
+Falderal distribution: 
   type: Distribution
   distribution-of: Falderal
   bitbucket: catseye/falderal
@@ -289,15 +171,14 @@ mzstorkipiwanbotbotbot:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |-
+  description: |
     An IRC bot with no purpose or plan.
   inception-date: Unknown
   implementations:
   - mzstorkipiwanbotbotbot (Lua)
   - Rtype
-  reference-distribution: mzstorkipiwanbotbotbot distribution
 
-'mzstorkipiwanbotbotbot (Lua)':
+mzstorkipiwanbotbotbot (Lua):
   type: Tool Implementation
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
@@ -318,59 +199,12 @@ mzstorkipiwanbotbotbot distribution:
   releases: []
 
 
-OpenFlax: 
-  type: Tool
-  summary: Experimental Erlang web server
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  abstract: |-
-    OpenFlax is an experimental open-source web server written in 100% Erlang,
-    designed with security and simplicity in mind.
-  inception-date: ca 2002
-  implementations:
-  - OpenFlax (Erlang)
-  reference-distribution: 'OpenFlax distribution'
-  references: 
-  - title: Inets
-    description: Standard Erlang Webserver
-    url: http://www.erlang.org/doc/r9b/lib/inets-3.0/doc/
-  - title: yaws
-    description: High-Performance Erlang Webserver
-    url: http://sourceforge.net/projects/erlyaws/
-  - title: 'femto'
-    description: Tiny Erlang Webserver
-    url: http://www.sics.se/~joe/tutorials/web_server/web_server.html
-  - title: RFC 2616
-    description: Spec for HTTP/1.1
-    url: http://www.ietf.org/rfc/rfc2616.txt
-  - title: RFC 2616 Errata
-    description: Corrections in spec for HTTP/1.1
-    url: http://skrb.org/ietf/http_errata.html
-
-'OpenFlax (Erlang)':
-  type: Tool Implementation
-  in-distribution: 'OpenFlax distribution'
-  license: BSD
-  host-language: Erlang
-
-'OpenFlax distribution': 
-  type: Distribution
-  distribution-of: OpenFlax
-  releases: 
-  - version: "1.0"
-    revision: "2004.0919"
-    latest: true
-    url: http://catseye.tc/distfiles/openflax-2004.0919.zip
-
-
 toolshelf: 
   type: Tool
   summary: A "package manager" that doesn't actually install anything
   authors:
   - Chris Pressey
-  abstract: |-
+  description: |
     `toolshelf` is a "package manager" which doesn't actually install any files.
     Instead, it stores the source trees of sundry packages in a single directory,
     and manages your search paths to include the relevant subdirectories of
@@ -379,7 +213,6 @@ toolshelf:
   inception-date: 2012
   implementations:
   - toolshelf.py
-  reference-distribution: toolshelf distribution
 
 toolshelf.py:
   type: Tool Implementation
@@ -402,7 +235,7 @@ TPiS:
   summary: Totality-checker for Scheme procedures
   authors:
   - Chris Pressey
-  abstract: |-
+  description: |
     This is a static analyzer, written in Scheme, which can check if
     given Scheme procedures are total (always terminate, on any input) by
     checking that they are specified primitive-recursively.  What's more, it
@@ -411,7 +244,6 @@ TPiS:
   inception-date: ca 2006
   implementations:
   - TPiS (Scheme)
-  reference-distribution: 'TPiS distribution'
 
 'TPiS (Scheme)':
   type: Tool Implementation
@@ -439,7 +271,7 @@ yucca:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  abstract: |-
+  description: |
     `yucca` is a dialect-agnostic static analyzer for 8-bit BASIC
     programs.  It can find `GOTO`'s and `GOSUB`'s
     which refer to non-existent line numbers, or line numbers which contain
@@ -447,7 +279,6 @@ yucca:
   inception-date: 2012
   implementations:
   - yucca (Python)
-  reference-distribution: yucca distribution
 
 'yucca (Python)':
   type: Tool Implementation

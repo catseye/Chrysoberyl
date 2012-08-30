@@ -5,8 +5,9 @@ Hunt the Wumpus:
   vintage: true
   authors:
   - Gregory Yob
-  abstract: |-
+  description: |
     The classic topological mythical-beast-hunting game, implemented in Erlang.
+  has-reference-distribution: false
   implementations:
   - wumpus.erl
 
@@ -21,17 +22,19 @@ wumpus.erl:
   inception-date: ca 1999?
   host-language: Erlang
 
+
 Animals:
   type: Game
   genre: Guessing
   vintage: true
-  abstract: |-
+  description: |
     A classic "expert system" game.  The computer asks you to think of an
     animal, and then asks you a series of yes/no questions in an attempt to
     discover what animal you chose.  If it comes to the wrong conclusion, it
     asks you for a question that would distinguish the animal that you chose,
     and adds it to its database.  In this way it "learns" about more animals
     as more games are played.
+  has-reference-distribution: false
   implementations:
   - animals.erl
   authors: []
@@ -48,12 +51,14 @@ animals.erl:
   host-language: Erlang
   interface: terminal
 
+
 Flip:
   type: Game
   genre: Guessing
   vintage: true
-  abstract: |-
+  description: |
     A classic game that demonstrates simple "artificial intelligence".
+  has-reference-distribution: false
   implementations:
   - flip.erl
   authors: []
@@ -70,12 +75,14 @@ flip.erl:
   host-language: Erlang
   interface: terminal
 
+
 Sokoban:
   type: Game
   genre: Puzzle
   vintage: false
-  abstract: |-
+  description: |
     The classic Japanese game about lean manufacturing (well, sort of).
+  has-reference-distribution: false
   implementations:
   - esoko
   authors: []
@@ -92,7 +99,7 @@ esoko:
   host-language: Erlang
   required-libraries:
   - Tcl/Tk
-  abstract: |-
+  description: |
     This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
   interface: GUI window
   controls: keyboard

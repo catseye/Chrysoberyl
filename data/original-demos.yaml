@@ -6,10 +6,10 @@ ribos:
   title: Ribos
   summary: Well-commented C64 raster interrupt example
   byline: Written by Chris Pressey
-  abstract: |-
-    <p>A simple Commodore 64 graphics demo that uses the raster interrupt facility
+  description: |
+    A simple Commodore 64 graphics demo that uses the raster interrupt facility
     of the VIC-II chip: the colour of the border of the screen is inverted, but only in
-    the middle part of the screen.  Includes well-commented source in 6502 assembly language.</p>
+    the middle part of the screen.  Includes well-commented source in 6502 assembly language.
   language: None
   esowiki: None
   keywords: 
@@ -37,8 +37,8 @@ petulant:
   title: The PETulant Cursor
   summary: The PETulant Cursor, a tiny C64 "display hack"
   byline: Written by Chris Pressey
-  abstract: |-
-    <p>A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.</p>
+  description: |
+    A tiny (44 byte) &quot;display hack&quot; for the Commodore 64.
   language: None
   esowiki: None
   keywords: 

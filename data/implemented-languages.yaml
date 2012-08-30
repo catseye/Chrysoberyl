@@ -20,7 +20,7 @@ pibfi:
   source-language: brainfuck
   host-language: Erlang
   implementation-type: interpreter
-  abstract: |-
+  description: |
     In contrast to all the ultra-minimal Brainfuck interpreters and
     compilers out there, I figured I should write a monster: the Platonic Ideal BrainFuck Interpreter.
     Written in Erlang, it contains just about every feature under the sun, including the kitchen sink.
@@ -53,7 +53,7 @@ muriel.pl:
   source-language: Muriel
   host-language: Perl
   implementation-type: interpreter
-  abstract: |-
+  description: |
     This is an interpeter, written in Perl, for Matthew Westcott's
     quine-based language Muriel.  It was probably
     the first full implementation of that language.
@@ -82,7 +82,7 @@ valgol.erl:
   source-language: VALGOL
   host-language: Erlang
   implementation-type: parser
-  abstract: |-
+  description: |
     A parser, in Erlang, for the Lesser-Known Language VALGOL.
     It, like, totally demonstrates how a parser can be written so
     that a separate scanner is totally not needed.  Bitchen!
@@ -113,7 +113,7 @@ sf2tab:
   host-language: ANSI C
   target-language: lookup table
   implementation-type: compiler
-  abstract: |-
+  description: |
     Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
     can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
     (generally gigantic) lookup-tables.
@@ -142,7 +142,7 @@ stringie:
   source-language: Underload
   host-language: ANSI C
   implementation-type: interpreter
-  abstract: |-
+  description: |
     Seeing that there was no *non*-pathological implementation of Alex Smith's
     beautiful [[Underload]] language in C, I undertook that project one evening.
     (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)
@@ -177,7 +177,7 @@ stringie:
   target-language: MSIL
   # ah, but it can also interpret.  meep!
   implementation-type: compiler
-  abstract: |-
+  description: |
     PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
     from Brainerd and Landweber's *Theory of Computation*
     (1974; ISBN 0471095850). PL-{GOTO} can express exactly the

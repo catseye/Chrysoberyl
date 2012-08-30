@@ -11,6 +11,7 @@
   platform: Infocom
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     I was stuck on this one for a long time, because I couldn't seem to
     remove common sense from my brain.  Whether I had gotten the game
@@ -26,6 +27,7 @@ Winter Wonderland:
   platform: Commodore 64
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     With graphics.  This was apparently a demo for an adventure authoring system of
     some kind, but it stands on its own as a game, although perhaps not the best one.
@@ -38,6 +40,7 @@ Africa Adventure, The:
   platform: Commodore 64
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     Treasure-oriented.  An interesting game, although parts are probably
     borderline politically incorrect at this point in history (but really, the
@@ -54,6 +57,7 @@ Cranston Manor:
   platform: Apple ][
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     With graphics.  Treasure-oriented.  Not the best adventure game, certainly,
     but memorable for some reason.  Never solved it, but pretty sure I could without
@@ -65,6 +69,7 @@ Creature Venture:
   platform: Apple ][
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     With graphics.  Might have been treasure-oriented; I don't remember.  The
     main feature, though, is the Oozlybub, a creature which has popped up in a
@@ -77,6 +82,7 @@ Time & Magick:
   platform: Amiga 500
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     With graphics.  Actually a trilogy of three games, some of which are treasure-oriented.
     The one about venturing through time to stop the Timelords from destroying the world
@@ -90,6 +96,7 @@ Time & Magick:
   platform: Commodore 64
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     Intriguing, but difficult.  Unlike most of the others on this list, I only came across
     this game a few years back, and have never gotten very far in it.  I will probably end up
@@ -101,6 +108,7 @@ Dungeon (MIT):
   platform: Amiga 500
   implementations: []
   authors: []
+  has-reference-distribution: false
   commentary: |
     Treasure-oriented.  A classic, which captured some of the MIT hacker culture of
     the time, and foisted it on a general audience when it was repackaged as the Zork
