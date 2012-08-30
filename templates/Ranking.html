@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ol>
+{% for thing in entries %}
+  <li>
+    <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+    <p>{{ data[thing].description }}</p>
+    <p>{{ data[thing].commentary }}</p>
+  </li>
+{% endfor %}
+</ol>
+
+{% endblock content %}

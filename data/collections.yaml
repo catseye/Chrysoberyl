@@ -1,0 +1,29 @@
+# encoding: UTF-8
+"Chris Pressey's Lingography":
+  type: Collection
+  description: |
+    (What is a "lingography", you ask?  Well, if bands have
+    _disc_ographies and directors have _film_ographies...)
+    
+    This is a list, given in approximate chronological order, of the languages
+    I've designed and/or implemented.
+    It is more-or-less unabridged, but not intended to be *completely* exhaustive.
+    Most of these language are programming languages; some of them are
+    formal languages, and
+    some of them are automata of some kind.  Many of them are esolangs.
+    Some of them possibly aren't even languages at all; they just seem to fit
+    the general theme of the list.  Most of them have been implemented, and
+    these implementations are available in downloadable distrbutions.
+    At the bottom there is also a list of languages that I've implemented,
+    but which were designed by someone else.
+    
+    You may also be interested in reading about what it was like to design these
+    and/or the ones that got away.  And,
+    since the distinction between languages and games is not always that clear,
+    you may also be interested in the (much less voluminous)
+    list of games I've designed and implemented.
+  include-types:
+  - Programming Language
+  - Abstract Artlang
+  include-authors:
+  - Chris Pressey

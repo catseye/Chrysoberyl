@@ -1,0 +1,26 @@
+# encoding: UTF-8
+"Chris Pressey's Favourite Video Games":
+  type: Ranking
+  description: |
+    Well, I figured that if
+    [Wouter could have such a page](http://strlen.com/rants/fav_games.html),
+    and that since I've been told I have good taste in video games...
+    
+    Gameplay impresses me far more than the graphics or sound
+    effects or "realism" of the game.   Music does has some influence
+    on me though, in that an exceptional soundtrack will count for some
+    extra points.
+
+# You may also be interested in the <a href="adventure-games.html">adventure games I've played</a> and
+# <a href="games.html">the few games I've designed and implemented</a>.</p>
+  entries:
+  - Typhoon Thompson
+  - Pepper II
+  - City Connection
+  - Katamari Damacy
+  - Liquid Kids
+  - Lost Tomb
+  - New Zealand Story, The
+  - CoolBoarders 2
+  - Super Monkey Ball 2
+  - Cloak and Dagger

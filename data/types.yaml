@@ -83,3 +83,7 @@ Abstract Artlang:
   type: type
 Discipline:
   type: type
+Ranking:
+  type: type
+Collection:
+  type: type

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul>
+{% for thing in data %}
+  {# XXX FIX THIS #}
+  {% if data[thing].type in include_types and
+        include_authors[0] in data[thing].authors %}
+    <li>
+      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      <p>{{ data[thing].description }}</p>
+      <p>{{ data[thing].commentary }}</p>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}
