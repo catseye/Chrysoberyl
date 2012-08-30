@@ -244,7 +244,17 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
 
+        def implementations():
+            i = []
+            for thing in data:
+                if data[thing].get('implementation-of', None) == key:
+                    i.append(thing)
+            return i
+
+        # functions
         context['filekey'] = filekey
+        context['implementations'] = implementations
+
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
 

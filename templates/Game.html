@@ -1,11 +1,7 @@
-{% extends "base.html" %}
+{% extends "implementable.html" %}
 
-{% block content %}
+{% block implementable_content %}
 
-{% if has_reference_distribution %}
-  <h2>Reference distribution</h2>
-  {# maybe include this inline somehow #}
-  <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
-{% endif %}
+<p>stuff about joysticks</p>
 
-{% endblock content %}
+{% endblock implementable_content %}

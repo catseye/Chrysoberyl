@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% block implementable_content %}
+{% endblock %}
+
+{% if has_reference_distribution %}
+  <h2>Reference distribution</h2>
+  {# maybe include info about this inline somehow #}
+  <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
+{% endif %}
+
+{% if implementations() %}
+  <h2>Implementations</h2>
+  <ul>
+    {% for implementation in implementations() %}
+      <li>
+        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock content %}
