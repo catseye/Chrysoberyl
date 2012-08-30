@@ -39,11 +39,10 @@ ALPACA:
     /* John Conway's Game of Life, expressed in ALPACA. */
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
-  implementations:
-  - alpaca.pl
 
 alpaca.pl:
   type: Language Implementation
+  implementation-of: ALPACA
   reference: true
   in-distribution: ALPACA distribution
   license: BSD
@@ -73,11 +72,10 @@ Apple Befunge:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - APPLE BEFUNGE EDITOR
 
 APPLE BEFUNGE EDITOR:
   type: Language Implementation
+  implementation-of: Apple Befunge
   reference: true
   in-distribution: Apple Befunge distribution
   license: Public Domain
@@ -127,13 +125,12 @@ Arboretuum:
          (out: halt                         => (mul halt)         ))
       )
     )
-  implementations:
-  - forest-rewriter.scm
   see-also:
   - Treacle
 
 forest-rewriter.scm:
   type: Language Implementation
+  implementation-of: Arboretuum
   in-distribution: Arboretuum distribution
   reference: true
   license: BSD
@@ -161,11 +158,10 @@ Bear Food:
   inception-date: ca Dec 1999
   failure: true
   has-reference-distribution: false
-  implementations:
-  - bearfood.pl
 
 bearfood.pl:
   type: Language Implementation
+  implementation-of: Bear Food
   reference: true
   license: Unknown license
   implementation-type: interpreter
@@ -206,14 +202,13 @@ Befunge-93:
   quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
   quotation-attribution: Mark Topham
   inception-date: Sep 1993
-  implementations:
-  - bef
   see-also:
   - Funge-98
   - Flobnar
 
 bef:
   type: Language Implementation
+  implementation-of: Befunge-93
   reference: true
   in-distribution: Befunge-93 distribution
   license: BSD
@@ -272,12 +267,10 @@ beta-Juliet:
   etymology:
   - automotive pun
   - feminine given name
-  implementations:
-  - b_juliet.pl
-  - 2iota
 
 b_juliet.pl:
   type: Language Implementation
+  implementation-of: beta-Juliet
   in-distribution: beta-Juliet distribution
   license: BSD
   implementation-type: interpreter
@@ -285,6 +278,7 @@ b_juliet.pl:
 
 2iota:
   type: Language Implementation
+  implementation-of: beta-Juliet
   reference: true
   in-distribution: beta-Juliet distribution
   license: BSD

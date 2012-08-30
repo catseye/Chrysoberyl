@@ -13,7 +13,6 @@ BitChanger:
   authors:
   - Jeffry Johnston
   has-reference-distribution: false
-  implementations: []
 
 
 "FALSE":
@@ -27,7 +26,6 @@ BitChanger:
   - Wouter van Oortmerssen
   # patently false...
   has-reference-distribution: false
-  implementations: []
 
 
 reMorse:
@@ -57,11 +55,10 @@ RUBE II:
     A close descendant of RUBE, with cleaner semantics and implementation.
   esowiki: 'RUBE II: Das Klickenklacker'
   dimensionality: 2
-  implementations:
-  - rube_ii
 
 rube_ii:
   type: Language Implementation
+  implementation-of: RUBE II
   in-distribution: RUBE II distribution
   reference: true
   license: Unknown license
@@ -80,7 +77,6 @@ Spoon:
   computational-class: believed Turing-complete
   esowiki: Spoon
   has-reference-distribution: false
-  implementations: []
   authors: []
 
 
@@ -105,12 +101,10 @@ Thue:
     to construe constraint-based programming.  It is to the constraint-based
     paradigm what languages like OISC are to the imperative paradigm;
     in other words, it's a tar pit.
-  implementations:
-  - thue.c
-  - thue.py
 
 thue.c:
   type: Language Implementation
+  implementation-of: Thue
   authors:
   - John Colagioia
   license: Unknown license
@@ -120,6 +114,7 @@ thue.c:
 
 thue.py:
   type: Language Implementation
+  implementation-of: Thue
   authors:
   - Frédéric van der Plancke
   license: Public Domain
@@ -135,6 +130,5 @@ thue.py:
   computational-class: unknown computational class
   esowiki: "Var'aq"
   has-reference-distribution: false
-  implementations: []
   authors:
   - Brian Connors

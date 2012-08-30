@@ -16,11 +16,10 @@ Deturgenchry:
   inception-date: 2011
   etymology:
   - neologism
-  implementations:
-  - Deturgenchry.hs
 
 Deturgenchry.hs:
   type: Language Implementation
+  implementation-of: Deturgenchry
   reference: true
   in-distribution: Deturgenchry distribution
   license: Unknown license
@@ -35,6 +34,7 @@ Deturgenchry distribution:
   bitbucket: catseye/deturgenchry
   issue-tracker: github
   releases: []
+
 
 Pophery:
   type: Programming Language
@@ -52,11 +52,10 @@ Pophery:
   inception-date: 2010
   etymology:
   - neologism
-  implementations:
-  - pophery.py
 
 pophery.py:
   type: Language Implementation
+  implementation-of: Pophery
   reference: true
   in-distribution: Pophery distribution
   license: Unknown license

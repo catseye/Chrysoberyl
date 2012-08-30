@@ -291,15 +291,15 @@ LNUSP:
   genre: Esolang
   paradigms:
   - Imperative
+  - 2-dimensional
   authors: []
   esowiki: LNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.lnusp
 
 tc.catseye.yoob.lnusp:
   type: Language Implementation
+  implementation-of: LNUSP
   reference: no
   license: Public Domain
   source-language: LNUSP
@@ -333,11 +333,10 @@ tc.catseye.yoob.lnusp:
   esowiki: 1L_a
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.onela
 
 tc.catseye.yoob.onela:
   type: Language Implementation
+  implementation-of: 1L_a
   reference: no
   license: Public Domain
   source-language: 1L_a
@@ -360,11 +359,10 @@ tc.catseye.yoob.onela:
   esowiki: 1L_AOI
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.onelaoi
 
 tc.catseye.yoob.onelaoi:
   type: Language Implementation
+  implementation-of: 1L_AOI
   reference: no
   license: Public Domain
   source-language: 1L_AOI
@@ -387,11 +385,10 @@ PATH:
   esowiki: PATH
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.path
 
 tc.catseye.yoob.path:
   type: Language Implementation
+  implementation-of: PATH
   reference: no
   license: Public Domain
   source-language: PATH
@@ -413,11 +410,10 @@ Qdeql:
   esowiki: Qdeql
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.qdeql
 
 tc.catseye.yoob.qdeql:
   type: Language Implementation
+  implementation-of: Qdeql
   reference: no
   license: Public Domain
   source-language: Qdeql
@@ -439,11 +435,10 @@ Sceql:
   esowiki: Sceql
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.sceql
 
 tc.catseye.yoob.sceql:
   type: Language Implementation
+  implementation-of: Sceql
   reference: no
   license: Public Domain
   source-language: Sceql
@@ -466,11 +461,10 @@ SNUSP:
   esowiki: SNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.snusp
 
 tc.catseye.yoob.snusp:
   type: Language Implementation
+  implementation-of: SNUSP
   reference: no
   license: Public Domain
   source-language: SNUSP
@@ -496,11 +490,10 @@ tc.catseye.yoob.snusp:
   - 2L
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.twoill
 
 tc.catseye.yoob.twoill:
   type: Language Implementation
+  implementation-of: 2-ill
   reference: no
   license: Public Domain
   source-language: 2-ill
@@ -524,11 +517,10 @@ tc.catseye.yoob.twoill:
   esowiki: 2L
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.twol
 
 tc.catseye.yoob.twol:
   type: Language Implementation
+  implementation-of: 2L
   reference: no
   license: Public Domain
   source-language: 2L
