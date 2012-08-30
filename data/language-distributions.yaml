@@ -80,30 +80,24 @@ beta-Juliet distribution:
   issue-tracker: github
   has-makefile: true
   releases: 
-  - version: "2.0"
-    revision: "2012.0714"
-    latest: true
-    url: http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip
-  - version: "1.0"
-    revision: "2011.1214"
-    latest: false
-    url: http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip
-  - version: "1.0"
-    revision: "2010.0721"
-    latest: false
-    url: http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip
-  - version: "1.0"
-    revision: "2010.0430"
-    latest: false
-    url: http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip
-  - version: "0.8"
-    revision: "2004.0423"
-    latest: false
-    url: http://catseye.tc/distfiles/2iota-0.8.zip
   - version: "1.0"
     revision: "2001.0201"
-    latest: false
     url: http://catseye.tc/distfiles/b_juliet-2001.0201.zip
+  - version: "0.8"
+    revision: "2004.0423"
+    url: http://catseye.tc/distfiles/2iota-0.8.zip
+  - version: "1.0"
+    revision: "2010.0430"
+    url: http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip
+  - version: "1.0"
+    revision: "2010.0721"
+    url: http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip
+  - version: "1.0"
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip
+  - version: "2.0"
+    revision: "2012.0714"
+    url: http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip
 
 Beturing distribution: 
   type: Distribution
@@ -113,18 +107,15 @@ Beturing distribution:
   issue-tracker: github
   development-stage: mature
   releases: 
-  - version: "1.1"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip
-  - version: "1.1"
-    revision: "2005.0623"
-    latest: false
-    url: http://catseye.tc/distfiles/beturing-2005.0623.zip
   - version: "1.0"
     revision: "2005.0606"
-    latest: false
     url: http://catseye.tc/distfiles/beturing-2005.0606.zip
+  - version: "1.1"
+    revision: "2005.0623"
+    url: http://catseye.tc/distfiles/beturing-2005.0623.zip
+  - version: "1.1"
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip
 
 Bhuna distribution: 
   type: Distribution
@@ -137,39 +128,30 @@ Bhuna distribution:
   releases: 
   - version: "0.1"
     revision: "2005.0721"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.1.zip
   - version: "0.2"
     revision: "2005.0722"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.2.zip
   - version: "0.3"
     revision: "2005.0723"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.3.zip
   - version: "0.4"
     revision: "2005.0724"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.4.zip
   - version: "0.5"
     revision: "2005.0725"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.5.zip
   - version: "0.6"
     revision: "2005.0726"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.6.zip
   - version: "0.7"
     revision: "2005.0727"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.7.zip
   - version: "0.7"
     revision: "2011.0427"
-    latest: false
     url: http://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip
   - version: "0.7"
     revision: "2012.0616"
-    latest: true
     url: http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip
 
 Braktif distribution: 
@@ -182,7 +164,6 @@ Braktif distribution:
   releases: 
   - version: "1.0"
     revision: "2007.0503"
-    latest: true
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
 
 Burro distribution: 
@@ -248,17 +229,14 @@ Didigm distribution:
   distribution-of: Didigm
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
+    revision: "2007.1117"
+    url: http://catseye.tc/distfiles/didigm-2007.1117.zip
   - version: "1.0"
     revision: "2010.0429"
-    latest: false
     url: http://catseye.tc/distfiles/didigm-1.0-2010.0429.zip
   - version: "1.0"
-    revision: "2007.1117"
-    latest: false
-    url: http://catseye.tc/distfiles/didigm-2007.1117.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
 
 Dieter distribution: 
   type: Distribution
@@ -268,17 +246,14 @@ Dieter distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip
+    revision: "2009.1003"
+    url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
   - version: "1.0"
     revision: "2010.0426"
-    latest: false
     url: http://catseye.tc/distfiles/dieter-1.0-2010.0426.zip
   - version: "1.0"
-    revision: "2009.1003"
-    latest: false
-    url: http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip
 
 Eightebed distribution: 
   type: Distribution
@@ -302,17 +277,14 @@ Emmental distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip
+    revision: "2007.1111"
+    url: http://catseye.tc/distfiles/emmental-2007.1111.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/emmental-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2007.1111"
-    latest: false
-    url: http://catseye.tc/distfiles/emmental-2007.1111.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip
 
 Etcha distribution: 
   type: Distribution
@@ -416,7 +388,6 @@ Illberon distribution:
   releases: 
   - version: "1.0"
     revision: "2007.0409"
-    latest: true
     url: http://catseye.tc/distfiles/illberon-2007.0409.zip
 
 ILLGOL distribution:
@@ -426,11 +397,9 @@ ILLGOL distribution:
   releases: 
   - version: "1.0"
     revision: "2000.0122"
-    latest: true
     url: http://catseye.tc/distfiles/illgol-2000.0122.zip
   - version: "1.0"
     revision: "2001.0706"
-    latest: false
     url: http://catseye.tc/distfiles/illgol-2001.0706.zip
 
 Illgola-2 distribution: 
@@ -440,11 +409,9 @@ Illgola-2 distribution:
   releases: 
   - version: "1.0"
     revision: "2000.0420"
-    latest: false
     url: http://catseye.tc/distfiles/illgola-2-2000.0420.zip
   - version: "1.0"
     revision: "2007.0409"
-    latest: true
     url: http://catseye.tc/distfiles/illgola-2-2007.0409.zip
 
 Open Sores Illgol## distribution: 
@@ -454,7 +421,6 @@ Open Sores Illgol## distribution:
   releases: 
   - version: "1.0"
     revision: "2007.0409"
-    latest: true
     url: http://catseye.tc/distfiles/illgolpp-2007.0409.zip
 
 'Illgol: Grand Mal':
@@ -475,17 +441,14 @@ Iphigeneia distribution:
   has-falderal-tests: true
   releases: 
   - version: "1.0"
-    revision: "2011.1010"
-    latest: true
-    url: http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip
+    revision: "2007.1125"
+    url: http://catseye.tc/distfiles/iphi-2007.1125.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/iphi-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2007.1125"
-    latest: false
-    url: http://catseye.tc/distfiles/iphi-2007.1125.zip
+    revision: "2011.1010"
+    url: http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip
 
 Jaccia and Jacciata distribution: 
   type: Distribution
@@ -496,11 +459,9 @@ Jaccia and Jacciata distribution:
   releases: 
   - version: "1.0"
     revision: "2009.0411"
-    latest: false
     url: http://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip
   - version: "1.0"
     revision: "2010.0205"
-    latest: true
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
 
 Kangaroo Iceberg distribution: 
@@ -512,17 +473,14 @@ Kangaroo Iceberg distribution:
   has-makefile: true
   releases: 
   - version: "0.5"
-    revision: "2011.0509"
-    latest: true
-    url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip
+    revision: "2007.0406"
+    url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
   - version: "0.5"
     revision: "2011.0426"
-    latest: false
     url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip
   - version: "0.5"
-    revision: "2007.0406"
-    latest: false
-    url: http://catseye.tc/distfiles/kiceberg-2007.0406.zip
+    revision: "2011.0509"
+    url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip
 
 Kelxquoia distribution: 
   type: Distribution
@@ -540,17 +498,14 @@ Larabee distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
+    revision: "2008.0110"
+    url: http://catseye.tc/distfiles/larabee-2008.0110.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/larabee-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2008.0110"
-    latest: false
-    url: http://catseye.tc/distfiles/larabee-2008.0110.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
 
 Madison distribution: 
   type: Distribution
@@ -575,13 +530,11 @@ Maentwrog distribution:
     parser (a distant ancestor of [[ALPACA]], perhaps?)
   releases: 
   - version: "1.1"
-    revision: "2011.0426"
-    latest: true
-    url: http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip
-  - version: "1.1"
     revision: "2007.0930"
-    latest: false
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
+  - version: "1.1"
+    revision: "2011.0426"
+    url: http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip
 
 Mascarpone distribution: 
   type: Distribution
@@ -591,21 +544,17 @@ Mascarpone distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2012.0312"
-    latest: true
-    url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
-  - version: "1.0"
-    revision: "2011.1214"
-    latest: false
-    url: http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip
+    revision: "2007.1208"
+    url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2007.1208"
-    latest: false
-    url: http://catseye.tc/distfiles/mascarpone-2007.1208.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2012.0312"
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
 
 MDPN distribution: 
   type: Distribution
@@ -650,7 +599,6 @@ Nhohnhehr distribution:
   releases: 
   - version: "1.0"
     revision: "2011.0510"
-    latest: true
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
 
 Oozlybub and Murphy distribution: 
@@ -681,17 +629,14 @@ Pail distribution:
   has-falderal-tests: true
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/pail-1.0-2011.1214.zip
+    revision: "2011.0527"
+    url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
   - version: "1.0"
     revision: "2011.1007"
-    latest: false
     url: http://catseye.tc/distfiles/pail-1.0-2011.1007.zip
   - version: "1.0"
-    revision: "2011.0527"
-    latest: false
-    url: http://catseye.tc/distfiles/pail-1.0-2011.0527.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/pail-1.0-2011.1214.zip
 
 pibfi distribution: 
   type: Distribution
@@ -714,19 +659,15 @@ Pixley distribution:
   releases: 
   - version: "1.0"
     revision: "2009.0501"
-    latest: false
     url: http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip
   - version: "1.1"
     revision: "2010.1105"
-    latest: false
     url: http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip
   - version: "2.0"
     revision: "2011.1209"
-    latest: false
     url: http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip
   - version: "2.0"
     revision: "2012.0219"
-    latest: true
     url: http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip
 
 PL-{GOTO}.NET distribution: 
@@ -755,25 +696,20 @@ Quylthulg distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip
-  - version: "1.0"
-    revision: "2011.1007"
-    latest: false
-    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip
-  - version: "1.0"
-    revision: "2011.0517"
-    latest: false
-    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip
+    revision: "2008.1206"
+    url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
   - version: "1.0"
     revision: "2010.0205"
-    latest: false
     url: http://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip
   - version: "1.0"
-    revision: "2008.1206"
-    latest: false
-    url: http://catseye.tc/distfiles/quylthulg-2008.1206.zip
+    revision: "2011.0517"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip
+  - version: "1.0"
+    revision: "2011.1007"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip
+  - version: "1.0"
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip
 
 REDGREEN distribution: 
   type: Distribution
@@ -782,22 +718,18 @@ REDGREEN distribution:
   github: catseye/REDGREEN
   issue-tracker: github
   releases: 
-  - version: "1.1"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip
-  - version: "1.1"
-    revision: "2010.0721"
-    latest: false
-    url: http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip
-  - version: "1.1"
-    revision: "2007.0722"
-    latest: false
-    url: http://catseye.tc/distfiles/redgreen-2007.0722.zip
   - version: "1.0"
     revision: "2007.0503"
-    latest: false
     url: http://catseye.tc/distfiles/redgreen-2007.0503.zip
+  - version: "1.1"
+    revision: "2007.0722"
+    url: http://catseye.tc/distfiles/redgreen-2007.0722.zip
+  - version: "1.1"
+    revision: "2010.0721"
+    url: http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip
+  - version: "1.1"
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip
 
 RUBE distribution: 
   type: Distribution
@@ -806,26 +738,21 @@ RUBE distribution:
   bitbucket: catseye/rube
   issue-tracker: github
   releases: 
-  - version: "1.5"
-    revision: "2011.0119"
-    latest: true
-    url: http://catseye.tc/distfiles/rube-1.5-2011.0119.zip
-  - version: "1.4"
-    revision: "2010.0721"
-    latest: false
-    url: http://catseye.tc/distfiles/rube-1.4-2010.0721.zip
-  - version: "1.4"
-    revision: "2010.0428"
-    latest: false
-    url: http://catseye.tc/distfiles/rube-1.4-2010.0428.zip
-  - version: "1.3"
-    revision: "2010.0204"
-    latest: false
-    url: http://catseye.tc/distfiles/rube-1.3-2010.0204.zip
   - version: "1.02"
     revision: "1997.0715"
-    latest: false
     url: http://catseye.tc/distfiles/rube-1997.0715.zip
+  - version: "1.3"
+    revision: "2010.0204"
+    url: http://catseye.tc/distfiles/rube-1.3-2010.0204.zip
+  - version: "1.4"
+    revision: "2010.0428"
+    url: http://catseye.tc/distfiles/rube-1.4-2010.0428.zip
+  - version: "1.4"
+    revision: "2010.0721"
+    url: http://catseye.tc/distfiles/rube-1.4-2010.0721.zip
+  - version: "1.5"
+    revision: "2011.0119"
+    url: http://catseye.tc/distfiles/rube-1.5-2011.0119.zip
 
 RUBE II distribution: 
   type: Distribution
@@ -848,15 +775,12 @@ Sally distribution:
   releases: 
   - version: "1.0"
     revision: "2003.1104"
-    latest: false
     url: http://catseye.tc/distfiles/sally-2003.1104.zip
   - version: "1.0"
     revision: "2010.0428"
-    latest: false
     url: http://catseye.tc/distfiles/sally-1.0-2010.0428.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: true
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
 
 Sbeezg distribution: 
@@ -904,15 +828,12 @@ SMITH distribution:
   releases: 
   - version: 2.0L
     revision: 2.0L
-    latest: false
     url: http://catseye.tc/distfiles/smith-2.0L.zip
   - version: "2.1"
     revision: "2007.0722"
-    latest: false
     url: http://catseye.tc/distfiles/smith-2007.0722.zip
   - version: "2.1"
     revision: "2011.0922"
-    latest: true
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
 
 Squishy2K distribution: 
@@ -989,34 +910,28 @@ Unlikely distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2012.0316"
-    latest: true
-    url: http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip
+    revision: "2009.0315"
+    url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
   - version: "1.0"
     revision: "2010.0427"
-    latest: false
     url: http://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip
   - version: "1.0"
-    revision: "2009.0315"
-    latest: false
-    url: http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip
+    revision: "2012.0316"
+    url: http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip
 
 You are Reading the Name of this Esolang distribution: 
   type: Distribution
   distribution-of: You are Reading the Name of this Esolang
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
+    revision: "2007.1105"
+    url: http://catseye.tc/distfiles/urreading-2007.1105.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/urreading-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2007.1105"
-    latest: false
-    url: http://catseye.tc/distfiles/urreading-2007.1105.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
 
 Velo distribution: 
   type: Distribution
@@ -1080,23 +995,18 @@ Wierd distribution:
   releases: 
   - version: "1.1"
     revision: "1.1"
-    latest: false
     url: http://catseye.tc/distfiles/worb-1.1.zip
   - version: "1.1"
     revision: "2007.1123"
-    latest: false
     url: http://catseye.tc/distfiles/worb-2007.1123.zip
   - version: "1.1"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/worb-1.1-2010.0721.zip
   - version: "1.1"
     revision: "2011.0428"
-    latest: false
     url: http://catseye.tc/distfiles/worb-1.1-2011.0428.zip
   - version: "1.1"
     revision: "2011.1031"
-    latest: true
     url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
 
 Xigxag distribution: 
@@ -1107,17 +1017,14 @@ Xigxag distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2011.1214"
-    latest: true
-    url: http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip
+    revision: "2007.0602"
+    url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
   - version: "1.0"
     revision: "2010.0721"
-    latest: false
     url: http://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip
   - version: "1.0"
-    revision: "2007.0602"
-    latest: false
-    url: http://catseye.tc/distfiles/xigxag-2007.0602.zip
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip
 
 Xoomonk distribution: 
   type: Distribution
@@ -1140,23 +1047,18 @@ Ypsilax distribution:
   releases: 
   - version: "0.9"
     revision: "0.9"
-    latest: false
     url: http://catseye.tc/distfiles/ypsilax-0.9.zip
   - version: "0.9"
     revision: "2007.1202"
-    latest: false
     url: http://catseye.tc/distfiles/ypsilax-2007.1202.zip
   - version: "1.0"
     revision: "2010.0430"
-    latest: false
     url: http://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip
   - version: "1.1"
     revision: "2011.0428"
-    latest: false
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip
   - version: "1.1"
     revision: "2011.1130"
-    latest: true
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
 
 ZOWIE distribution: 
