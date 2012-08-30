@@ -1,7 +1,15 @@
 #!/usr/bin/env python
 # encoding: UTF-8
 
+"""
+A script to process the Chrysoberyl database.
+
+If no options are given, the database will simply be loaded and checked
+for consistency.\
+"""
+
 import codecs
+from optparse import OptionParser
 import os
 import re
 import sys
@@ -275,9 +283,36 @@ class Renderer(object):
 
 
 if __name__ == '__main__':
+    optparser = OptionParser("[python] chrysoberyl.py {options} datadir\n" + \
+                             __doc__)
+    optparser.add_option("-l", "--check-links",
+                         dest="check_links", action='store_true', default=False,
+                         help="check all web links for sanity "
+                              "(no 404's, etc.)")
+    optparser.add_option("-r", "--render-to",
+                         dest="render_to", metavar='DIR',
+                         help="render all nodes (as HTML5 files) and "
+                              "write into given directory")
+    optparser.add_option("-t", "--troll-docs-from",
+                         dest="troll_docs_from", metavar='DIR',
+                         help="assume that clones of reference distributions "
+                              "are available in DIR, and look through each "
+                              "reference distribution for anything that looks "
+                              "like documentation, and update "
+                              "documentation.yaml with those filenames.")
+    (options, args) = optparser.parse_args(sys.argv[1:])
+
     print "Loading Chrysoberyl data..."
-    data = load_chrysoberyl_dir(sys.argv[1])
+    data = load_chrysoberyl_dir(args[0])
     check_chrysoberyl_data(data)
-    convert_chrysoberyl_data(data)
-    r = Renderer(data, 'templates', 'www')
-    r.render_chrysoberyl_data()
+
+    if options.check_links:
+        raise NotImplementedError
+
+    if options.troll_docs_from:
+        raise NotImplementedError
+
+    if options.render_to:
+        convert_chrysoberyl_data(data)
+        r = Renderer(data, 'templates', options.render_to)
+        r.render_chrysoberyl_data()
