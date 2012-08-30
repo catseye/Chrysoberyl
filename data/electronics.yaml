@@ -14,13 +14,11 @@ kitsilano:
   - elec
   releases: 
   - version: "1.0"
-    revision: "2011.0524"
-    latest: true
-    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
-  - version: "1.0"
     revision: "2008.0905"
-    latest: false
     url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
+  - version: "1.0"
+    revision: "2011.0524"
+    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
 
 led386: 
   type: Distribution
@@ -37,8 +35,8 @@ led386:
   releases: 
   - version: "1.0"
     revision: "2004.0227"
-    latest: true
     url: http://catseye.tc/distfiles/led386-2004.0227.zip
+
 mildred: 
   type: Distribution
   distribution-of: mildred
@@ -56,9 +54,7 @@ mildred:
   releases: 
   - version: "1.0"
     revision: "2003.0110"
-    latest: false
     url: http://catseye.tc/distfiles/mildred-2003.0110.zip
   - version: "1.0"
     revision: "2011.0414"
-    latest: true
     url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip

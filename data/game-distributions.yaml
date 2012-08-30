@@ -7,11 +7,9 @@ Animals distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0919"
-    latest: false
     url: http://catseye.tc/distfiles/animals-2004.0919.zip
   - version: "1.1"
     revision: "2010.0429"
-    latest: true
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
 
 Bubble Escape distribution: 
@@ -22,13 +20,11 @@ Bubble Escape distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2012.0520"
-    latest: true
-    url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
-  - version: "1.0"
     revision: "2009.0707"
-    latest: false
     url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
+  - version: "1.0"
+    revision: "2012.0520"
+    url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
 
 'Corona: Realm of Magic distribution': 
   type: Distribution
@@ -37,7 +33,6 @@ Bubble Escape distribution:
   releases: 
   - version: "0.19"
     revision: "2000.1204"
-    latest: true
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
 
 esoko distribution: 
@@ -46,7 +41,6 @@ esoko distribution:
   releases:
   - version: "1.0"
     revision: "2002.1104"
-    latest: true
     url: http://catseye.tc/distfiles/esoko-2002.1104.zip
 
 Flip distribution: 
@@ -58,7 +52,6 @@ Flip distribution:
   releases: 
   - version: "1.0"
     revision: "2002.0731"
-    latest: true
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
 
 Hunt the Wumpus distribution: 
@@ -67,7 +60,6 @@ Hunt the Wumpus distribution:
   releases:
   - version: "1.0"
     revision: "2002.0630"
-    latest: true
     url: http://catseye.tc/distfiles/wumpus-2002.0630.zip
 
 Super Wumpus Land distribution:  
@@ -79,11 +71,9 @@ Super Wumpus Land distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0227"
-    latest: false
     url: http://catseye.tc/distfiles/swl-2004.0227.zip
   - version: "1.0"
     revision: "2007.1216"
-    latest: true
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
 
 Zzrk distribution: 
@@ -94,10 +84,8 @@ Zzrk distribution:
   issue-tracker: github
   releases: 
   - version: "1.0"
-    revision: "2012.0616"
-    latest: true
-    url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip
-  - version: "1.0"
     revision: "2007.0506"
-    latest: false
     url: http://catseye.tc/distfiles/zzrk-2007.0506.zip
+  - version: "1.0"
+    revision: "2012.0616"
+    url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip

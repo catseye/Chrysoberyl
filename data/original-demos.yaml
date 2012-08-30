@@ -24,11 +24,9 @@ ribos:
   releases: 
   - version: "1.0"
     revision: "2007.0410"
-    latest: false
     url: http://catseye.tc/distfiles/ribos-2007.0410.zip
   - version: "1.1"
     revision: "2010.0430"
-    latest: true
     url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
 
 petulant: 
@@ -53,5 +51,4 @@ petulant:
   releases: 
   - version: "1.0"
     revision: "2008.0401"
-    latest: true
     url: http://catseye.tc/distfiles/petulant-2008.0401.zip

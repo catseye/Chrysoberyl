@@ -24,7 +24,6 @@ basedump distribution:
   releases: 
   - version: "1.0"
     revision: "2002.1010"
-    latest: true
     url: http://catseye.tc/distfiles/basedump-2002.1010.zip
 
 
@@ -52,7 +51,6 @@ belld distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0303"
-    latest: true
     url: http://catseye.tc/distfiles/belld-2004.0303.zip
 
 
@@ -79,7 +77,6 @@ brace distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0920"
-    latest: true
     url: http://catseye.tc/distfiles/brace-2004.0920.zip
 
 
@@ -107,7 +104,6 @@ ce distribution:
   releases: 
   - version: "1.0"
     revision: "2003.0522"
-    latest: true
     url: http://catseye.tc/distfiles/ce-2003.0522.zip
 
 
@@ -134,7 +130,6 @@ ec distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0228"
-    latest: true
     url: http://catseye.tc/distfiles/ec-2004.0228.zip
 
 
@@ -164,7 +159,6 @@ erlaunch distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0309"
-    latest: true
     url: http://catseye.tc/distfiles/erlaunch-2004.0309.zip
 
 
@@ -210,7 +204,6 @@ OpenFlax distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0919"
-    latest: true
     url: http://catseye.tc/distfiles/openflax-2004.0919.zip
 
 
@@ -239,5 +232,4 @@ peruse distribution:
   releases: 
   - version: "1.0"
     revision: "2002.1204"
-    latest: true
     url: http://catseye.tc/distfiles/peruse-2002.1204.zip

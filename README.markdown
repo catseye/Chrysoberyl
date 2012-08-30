@@ -68,6 +68,9 @@ control system, and, often, has a place to report bugs.  An implementation,
 by itself, has none of those things (at least not in a structured way -- it
 might simply be a page on a wiki somewhere.)
 
+The releases of a distribution should be sorted from earliest to latest.
+(If it has a `latest: true` or `false`, it ain't been converted to this yet.)
+
 Any tool which understands a language may be considered an implementation:
 an interpreter, a compiler, a parser, a static analyzer, a pretty-printer,
 etc., are all implementations.

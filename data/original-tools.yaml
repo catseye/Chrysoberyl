@@ -44,14 +44,12 @@
   issue-tracker: github
   project-page: 'http://catseye.tc/projects/console-virtual/'
   releases: 
-  - version: "2.0"
-    revision: "2007.1122"
-    latest: true
-    url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
   - version: "1.0"
     revision: "2003.0325"
-    latest: false
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
+  - version: "2.0"
+    revision: "2007.1122"
+    url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
 
 
 crone: 
@@ -86,7 +84,6 @@ crone distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0301"
-    latest: true
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
 
 
@@ -139,30 +136,24 @@ Falderal distribution:
   issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
   project-page: 'http://catseye.tc/projects/falderal/'
   releases: 
-  - version: "0.6"
-    revision: "2012.0102"
-    latest: true
-    url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
-  - version: "0.5"
-    revision: "2011.1214"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
-  - version: "0.4"
-    revision: "2011.1010"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
-  - version: "0.3"
-    revision: "2011.1007"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
-  - version: "0.2"
-    revision: "2011.0627"
-    latest: false
-    url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
   - version: "0.1"
     revision: "2011.0517"
-    latest: false
     url: http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip
+  - version: "0.2"
+    revision: "2011.0627"
+    url: http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip
+  - version: "0.3"
+    revision: "2011.1007"
+    url: http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip
+  - version: "0.4"
+    revision: "2011.1010"
+    url: http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip
+  - version: "0.5"
+    revision: "2011.1214"
+    url: http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip
+  - version: "0.6"
+    revision: "2012.0102"
+    url: http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip
 
 
 mzstorkipiwanbotbotbot: 
@@ -260,7 +251,6 @@ TPiS distribution:
   releases: 
   - version: "1.0"
     revision: "2006.0528"
-    latest: true
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 
 
@@ -296,5 +286,4 @@ yucca distribution:
   releases: 
   - version: "1.0"
     revision: "2012.0610"
-    latest: true
     url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
