@@ -228,7 +228,7 @@ Universality:
     *set of strings* that the machine accepts which is Turing-complete. But
     for convenience, a certain amount of abuse of notation goes on.)
     
-    Most [[Programming Language]]s, or at least idealized
+    Most [[Programming Language|programming languages]], or at least idealized
     versions of them, are universal; for example, you can write a
     [[Scheme]] interpreter in Scheme, and then run
     every Scheme program you can imagine on that interpreter.

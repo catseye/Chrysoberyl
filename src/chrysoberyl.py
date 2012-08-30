@@ -75,9 +75,11 @@ def resolve_internal_links(data, key, property, text):
         return True
     for match in re.finditer(r'\[\[(.*?)\]\]', text):
         link = match.group(1)
-        assert link in data, \
+        segments = link.split('|')
+        thing = segments[0]
+        assert thing in data, \
             "'%s' mentions undefined '%s' in '%s'" % \
-            (key, link, property)
+            (key, thing, property)
 
 
 def check_chrysoberyl_data(data):
@@ -209,7 +211,12 @@ def filekey(key):
 def markdown_field(data, node, field):
     def linker(match):
         text = match.group(1)
-        return '<a href="%s">%s</a>' % (filekey(text), text)
+        segments = text.split('|')
+        thing = segments[0]
+        link_text = thing
+        if len(segments) > 1:
+            link_text = segments[1]
+        return '<a href="%s">%s</a>' % (filekey(thing), link_text)
     if field in node:
         html = markdown.markdown(node[field])
         html = re.sub(r'\[\[(.*?)\]\]', linker, html)

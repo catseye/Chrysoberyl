@@ -101,6 +101,3 @@ format.)  And link to those documentations.  Or incorporate them.
 Have `Implementation` be a type, with a field `implementation_of_type`
 being another type (`Programming Language` or `Game`), to unify all the
 things that are common to implementations.
-
-Allow internal links to have a different presentation, e.g.
-[[Esolang|esoteric programming language]].

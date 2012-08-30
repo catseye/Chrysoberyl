@@ -175,7 +175,7 @@ CSS:
     
     I kvetch, but there *is* one very nice thing about CSS: unlike
     [[Javascript]], it's declarative, and nowhere near as
-    [powerful as a Turing machine](universality.html). So, it might make
+    [[Universality|powerful as a Turing machine]].  So, it might make
     your page look ugly in nine out of ten browsers six out of seven days of
     the week, but at least it probably won't hang, or crash, or corrupt the
     browser's state.
@@ -278,7 +278,7 @@ Javascript:
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
-    [[Programming Language]] that some web browsers implement
+    [[Programming Language|programming language]] that some web browsers implement
     in order to let scripts control the dynamic behaviour of a web page,
     such as what happens when the user clicks on some region of text.
   commentary: |    
@@ -287,7 +287,7 @@ Javascript:
     in order to convey information, not be playthings. Managing the user
     interface is the *browser*'s job; what makes the *page* think it can do
     it better? But more to the point, putting a
-    [[shown Turing-complete]] control language in a browser is a
+    [[Universality|Turing-complete]] control language in a browser is a
     way to let web pages be just as impossible to predict, and just as
     buggy, as general computer programs. Multiply this by the number and
     degree of variations between Javascript specifications and
@@ -448,7 +448,7 @@ PHP:
     
     No, no — you can *never* say enough about PHP!
     
-    I would have to say the single greatest [[Software Engineering]]
+    I would have to say the single greatest [[Software Engineering|software engineering]]
     achievement of PHP is how it taught us all that
     programming should never be done without having constantly within arm's
     reach a book with a photo of the author's face on it. Preferably on the
