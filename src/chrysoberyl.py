@@ -160,13 +160,15 @@ def check_chrysoberyl_data(data):
               node['authors'] = pl_node.get('authors', None)
               node['auspices'] = pl_node.get('auspices', None)
 
-      if type_ in ['Game', 'Programming Language']:
-          check_scalar_ref(data, key, node, 'genre', type_='Genre')
+      if type_ in ['Game', 'Programming Language', 'Library', 'Tool']:
           if node.setdefault('has-reference-distribution', True):
               if 'reference-distribution' not in node:
                   node['reference-distribution'] = '%s distribution' % key
               check_scalar_ref(data, key, node, 'reference-distribution',
                                type_='Distribution')
+
+      if type_ in ['Game', 'Programming Language']:
+          check_scalar_ref(data, key, node, 'genre', type_='Genre')
           assert 'implementations' not in node, \
               "'%s' has 'implementations' but shouldn't" % key
           check_optional_list_ref(data, key, node, 'influences')
@@ -282,6 +284,28 @@ class Renderer(object):
         print "%d files written." % count
 
 
+def troll_docs(data, clone_dir):
+    for key in data:
+        if data[key]['type'] != 'Distribution':
+            continue
+        distribution_of = data[key]['distribution-of']
+        if not data[distribution_of].get('has-reference-distribution', True):
+            continue
+        if 'reference-distribution' not in data[distribution_of]:
+            # ah jeez, it might be a distribution of an implementation, we can't expect this
+            print "### %s %s has a distribution %s, but no reference distribution" % (data[distribution_of]['type'], distribution_of, key)
+            continue
+        if data[distribution_of]['reference-distribution'] != key:
+            print "#-- Found non-reference distribution of %s: %s" % (distribution_of, key)
+            continue
+
+        if 'github' not in data[key]:
+            print "#_? %s not on github" % key
+            continue
+
+        print "--> %s -> %s" % (distribution_of, data[key]['github'])
+
+
 if __name__ == '__main__':
     optparser = OptionParser("[python] chrysoberyl.py {options} datadir\n" + \
                              __doc__)
@@ -310,7 +334,7 @@ if __name__ == '__main__':
         raise NotImplementedError
 
     if options.troll_docs_from:
-        raise NotImplementedError
+        troll_docs(data, options.troll_docs_from)
 
     if options.render_to:
         convert_chrysoberyl_data(data)

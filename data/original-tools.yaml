@@ -32,6 +32,7 @@
 
 'Console::Virtual (Perl module)':
   type: Library Implementation
+  implementation-of: 'Console::Virtual'
   in-distribution: 'Console::Virtual distribution'
   license: BSD
   host-language: Perl
@@ -65,11 +66,10 @@ crone:
     it calculates the amount of time between now and when the next is due
     to run, and sleeps exactly that long.
   inception-date: Unknown
-  implementations:
-  - crone.erl
 
 crone.erl:
   type: Tool Implementation
+  implementation-of: crone
   in-distribution: 'crone distribution'
   license: BSD
   host-language: Erlang
