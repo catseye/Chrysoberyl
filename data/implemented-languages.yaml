@@ -51,7 +51,6 @@ muriel.pl:
   in-distribution: Muriel distribution
   reference: no
   license: BSD
-  source-language: Muriel
   host-language: Perl
   implementation-type: interpreter
   description: |
@@ -81,7 +80,6 @@ valgol.erl:
   implementation-of: VALGOL
   reference: no
   license: BSD
-  source-language: VALGOL
   host-language: Erlang
   implementation-type: parser
   description: |
@@ -142,7 +140,6 @@ stringie:
   implementation-of: Underload
   reference: no
   license: Public Domain
-  source-language: Underload
   host-language: ANSI C
   implementation-type: interpreter
   description: |
@@ -176,7 +173,6 @@ stringie:
   in-distribution: PL-{GOTO}.NET distribution
   reference: no
   license: Public Domain
-  source-language: PL-{GOTO}
   host-language: Haskell
   target-language: MSIL
   # ah, but it can also interpret.  meep!
@@ -223,7 +219,6 @@ tc.catseye.yoob.ale:
   implementation-of: Ale
   reference: no
   license: Public Domain
-  source-language: Ale
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -249,7 +244,6 @@ tc.catseye.yoob.backflip:
   implementation-of: Backflip
   reference: no
   license: Public Domain
-  source-language: Backflip
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -274,9 +268,9 @@ Black:
 
 tc.catseye.yoob.black:
   type: Language Implementation
+  implementation-of: Black
   reference: no
   license: Public Domain
-  source-language: Black
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -302,7 +296,6 @@ tc.catseye.yoob.lnusp:
   implementation-of: LNUSP
   reference: no
   license: Public Domain
-  source-language: LNUSP
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -339,7 +332,6 @@ tc.catseye.yoob.onela:
   implementation-of: 1L_a
   reference: no
   license: Public Domain
-  source-language: 1L_a
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -365,7 +357,6 @@ tc.catseye.yoob.onelaoi:
   implementation-of: 1L_AOI
   reference: no
   license: Public Domain
-  source-language: 1L_AOI
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -391,7 +382,6 @@ tc.catseye.yoob.path:
   implementation-of: PATH
   reference: no
   license: Public Domain
-  source-language: PATH
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -416,7 +406,6 @@ tc.catseye.yoob.qdeql:
   implementation-of: Qdeql
   reference: no
   license: Public Domain
-  source-language: Qdeql
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -441,7 +430,6 @@ tc.catseye.yoob.sceql:
   implementation-of: Sceql
   reference: no
   license: Public Domain
-  source-language: Sceql
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -467,7 +455,6 @@ tc.catseye.yoob.snusp:
   implementation-of: SNUSP
   reference: no
   license: Public Domain
-  source-language: SNUSP
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -496,7 +483,6 @@ tc.catseye.yoob.twoill:
   implementation-of: 2-ill
   reference: no
   license: Public Domain
-  source-language: 2-ill
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter
@@ -523,7 +509,6 @@ tc.catseye.yoob.twol:
   implementation-of: 2L
   reference: no
   license: Public Domain
-  source-language: 2L
   host-language: Java
   host-framework: yoob
   implementation-type: interpreter

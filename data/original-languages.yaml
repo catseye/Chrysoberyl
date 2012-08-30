@@ -239,7 +239,6 @@ Befunge-97:
   influences:
   - Befunge-93
   has-reference-distribution: false
-  implementations: []
 
 
 beta-Juliet:
@@ -327,12 +326,11 @@ Beturing:
     >/*^</*>*^.@*v
              . . .
     *@      *^*<*<
-  implementations:
-  - beturing.lua
 
 beturing.lua:
   type: Language Implementation
-  in-dstribution: Beturing distribution
+  implementation-of: Beturing
+  in-distribution: Beturing distribution
   reference: true
   license: BSD
   implementation-type: interpreter
@@ -368,12 +366,11 @@ Bhuna:
       return Fib(X - 1) + Fib(X - 2)
     }
     Print Fib(32), EoL
-  implementations:
-  - bhuna
 
 bhuna:
   type: Language Implementation
-  in-dstribution: Bhuna distribution
+  implementation-of: Bhuna
+  in-distribution: Bhuna distribution
   reference: true
   license: BSD
   implementation-type: interpreter
@@ -409,13 +406,12 @@ Braktif:
     000000000000000000  *[-----  --]
     -----------------d-i--         --------
   inception-date: 2005
-  implementations:
-  - braktif.alp
   see-also:
   - pibfi
 
 braktif.alp:
   type: Language Implementation
+  implementation-of: Braktif
   reference: true
   in-distribution: Braktif distribution
   prebuilt-in-distribution: true
@@ -463,13 +459,12 @@ Burro:
       >>--(+++>+>/+<<+++>)<
     >)<
   significant: true
-  implementations:
-  - Burro.lhs
   see-also:
   - Cabra
 
 Burro.lhs:
   type: Language Implementation
+  implementation-of: Burro
   in-distribution: Burro distribution
   reference: true
   license: Unknown license
@@ -501,17 +496,12 @@ Cabra:
   influences:
   - Burro
   computational-class: known not Turing-complete
-  "name": |-
-    Cabra
-  "project": |-
-    cabra
   sample: |
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
-  implementations:
-  - cabra.hs
 
 cabra.hs:
   type: Language Implementation
+  implementation-of: Cabra
   in-distribution: Cabra distribution
   reference: true
   license: Unknown license
@@ -553,14 +543,12 @@ Circute:
        =       =   =     =   =       =
        =============     =============
   inception-date: 2005
-  implementations:
-  - circute.alp
-  - tc.catseye.yoob.circute
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 tc.catseye.yoob.circute:
   type: Language Implementation
+  implementation-of: Circute
   in-distribution: yoob distribution
   license: Public Domain
   implementation-type: interpreter
@@ -568,6 +556,7 @@ tc.catseye.yoob.circute:
 
 circute.alp:
   type: Language Implementation
+  implementation-of: Circute
   reference: true
   in-distribution: Circute distribution
   prebuilt-in-distribution: true
@@ -612,11 +601,11 @@ Cfluviurrh:
     z@=X
     z?a<b
   inception-date: Aug 26 2012
-  implementations:
-  - cfluviurrh
 
 cfluviurrh:
   type: Language Implementation
+  implementation-of: Cfluviurrh
+  reference: true
   in-distribution: Cfluviurrh distribution
   license: BSD
   implementation-type: interpreter
@@ -661,7 +650,6 @@ Didigm:
     111111111111333
     311111111111023
     111111111111113
-  implementations: []
 
 
 Dieter:
@@ -698,11 +686,10 @@ Dieter:
   - Cat's Eye Technologies
   inception-date: ca Oct 3, 2009
   computational-class: believed Turing-complete
-  implementations:
-  - dieter.py
 
 dieter.py:
   type: Language Implementation
+  implementation-of: Dieter
   in-distribution: Dieter distribution
   reference: true
   license: BSD
@@ -723,7 +710,7 @@ Eightebed:
     and runtime support, Eightebed is safe: it is not possible to dereference a dangling
     pointer or otherwise incorrectly-populated memory.
     
-    Eightebed was designed as a counter-example to Gregor Richards' claim that such
+    Eightebed was designed as a counter-example to [[Gregor Richards]]' claim that such
     a language would either need a garbage collector, or not actually implement `free`.
     Eightebed has a real `free` and has no garbage collector.
   commentary: |
@@ -755,11 +742,10 @@ Eightebed:
   - Cat's Eye Technologies
   inception-date: ca Sep 1, 2010
   computational-class: believed Turing-complete
-  implementations:
-  - 8ebed2c.py
 
 8ebed2c.py:
   type: Language Implementation
+  implementation-of: Eightebed
   in-distribution: Eightebed distribution
   reference: yes
   license: BSD
@@ -792,13 +778,12 @@ Emmental:
   - swiss
   sample: |
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
-  implementations:
-  - emmental.hs
   see-also:
   - Mascarpone
 
 emmental.hs:
   type: Language Implementation
+  implementation-of: Emmental
   in-distribution: Emmental distribution
   reference: true
   license: BSD
@@ -834,14 +819,12 @@ Etcha:
        #
        #
      ###
-  implementations:
-  - tc.catseye.etcha
-  - tc.catseye.yoob.etcha
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 tc.catseye.etcha:
   type: Language Implementation
+  implementation-of: Etcha
   in-distribution: Etcha distribution
   reference: true
   license: Unknown license
@@ -850,6 +833,7 @@ tc.catseye.etcha:
 
 tc.catseye.yoob.etcha:
   type: Language Implementation
+  implementation-of: Etcha
   in-distribution: yoob distribution
   license: Public Domain
   implementation-type: interpreter
@@ -858,6 +842,7 @@ tc.catseye.yoob.etcha:
 
 ETHEL:
   type: Programming Language
+  acronym-form: Easy-To-Handle Estimating Language
   genre: DSL
   paradigms:
   - Functional
@@ -874,11 +859,10 @@ ETHEL:
   - acronym
   - monty python
   has-reference-distribution: false
-  implementations:
-  - ethel.pl
 
 ethel.pl:
   type: Language Implementation
+  implementation-of: ETHEL
   license: Proprietary
   host-language: Perl
   implementation-type: interpreter
@@ -916,11 +900,10 @@ Flobnar:
     1 :   > *
       -|    <
       11
-  implementations:
-  - Flobnar.hs
 
 Flobnar.hs:
   type: Language Implementation
+  implementation-of: Flobnar
   in-distribution: Flobnar distribution
   reference: true
   license: BSD
@@ -966,8 +949,7 @@ Full Moon Fever:
   inception-date: ca 1993
   computational-class: known not Turing-complete
   has-reference-distribution: false
-  # well, there's one in illgola-2, so this is factually wrong:
-  implementations: []
+  # well, there's one in illgola-2, so there are implementations, but...
 
 
 Funge-98:
@@ -1000,7 +982,6 @@ Funge-98:
      ^ <<
         G
         '
-  implementations: []
 
 Befunge-98:
   type: Programming Language
@@ -1011,15 +992,13 @@ Befunge-98:
   - Self-modifying
   member-of: Funge-98
   has-reference-distribution: false
-  implementations:
-  - FBBI
-  # the following should be derivable, but isn't yet
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
 
 FBBI:
   type: Language Implementation
+  implementation-of: Befunge-98
   acronym-for: Flaming Bovine Befunge Interpreter
   description: |
     The _Flaming Bovine Befunge Interpreter_ is
@@ -1050,8 +1029,6 @@ Gemooy:
   auspices:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
-  implementations:
-  - tc.catseye.yoob.gemooy
   influences:
   - 2-ill
   - Etcha
@@ -1081,6 +1058,7 @@ Gemooy:
 
 tc.catseye.yoob.gemooy:
   type: Language Implementation
+  implementation-of: Gemooy
   in-distribution: yoob distribution
   license: Public Domain
   implementation-type: interpreter
@@ -1113,13 +1091,12 @@ GraNoLa/M:
   - Tamerlane
   sample: |
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
-  implementations:
-  - granolam.erl
   see-also:
   - Kangaroo Iceberg
 
 granolam.erl:
   type: Language Implementation
+  implementation-of: GraNoLa/M
   in-distribution: GraNoLa/M distribution
   reference: true
   license: Public Domain
@@ -1149,11 +1126,10 @@ Hev:
   - neologism
   sample: |
     71+8*27,19,29*99,6,37,7,61,47
-  implementations:
-  - Hev.hs
 
 Hev.hs:
   type: Language Implementation
+  implementation-of: Hev
   in-distribution: Hev distribution
   reference: true
   license: BSD
@@ -1201,12 +1177,11 @@ Hunter:
     ##################
     *12+>3
     *21+>3
-  implementations:
-  - hunter.pl
 
 hunter.pl:
   type: Language Implementation
-  in-dstribution: Hunter distribution
+  implementation-of: Hunter
+  in-distribution: Hunter distribution
   reference: true
   license: BSD
   implementation-type: interpreter
@@ -1239,11 +1214,10 @@ ILLGOL:
     FIN
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: ILLGOL distribution
-  implementations:
-  - ILLGOL.COM
 
 ILLGOL.COM:
   type: Language Implementation
+  implementation-of: ILLGOL
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1270,12 +1244,11 @@ Illgola-2:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Illgola-2 distribution
-  implementations:
-  - ILLGOLA-2.COM
 
 # name is wrong, oh well.
 ILLGOLA-2.COM:
   type: Language Implementation
+  implementation-of: Illgola-2
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1304,12 +1277,11 @@ Illberon:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Illberon distribution
-  implementations:
-  - ILLBERON.COM
 
 # name is wrong, oh well.
 ILLBERON.COM:
   type: Language Implementation
+  implementation-of: Illberon
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1338,12 +1310,11 @@ Open Sores Illgol##:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
   #other-distributions: Open Sores Illgol## distribution
-  implementations:
-  - ILLGOL##.COM
 
 # name is wrong, oh well.
 ILLGOL##.COM:
   type: Language Implementation
+  implementation-of: Open Sores Illgol##
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1385,11 +1356,10 @@ Iphigeneia:
                     let d = d * c in
                         let c = c - 1 in
                             repeat
-  implementations:
-  - iphi
 
 iphi:
   type: Language Implementation
+  implementation-of: Iphigeneia
   in-distribution: Iphigeneia distribution
   reference: true
   license: Unknown license
@@ -1441,12 +1411,10 @@ Jaccia and Jacciata:
     # # ###:###
     #   #  :::#
     #########F#
-  implementations:
-  - jaccia.alp
-  - jacciata.alp
 
 jaccia.alp:
   type: Language Implementation
+  implementation-of: Jaccia and Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-in-distribution: true
@@ -1456,6 +1424,7 @@ jaccia.alp:
 
 jacciata.alp:
   type: Language Implementation
+  implementation-of: Jaccia and Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-in-distribution: true
@@ -1485,13 +1454,12 @@ Kangaroo Iceberg:
   influences:
   - Tamerlane
   inception-date: Jul 2004
-  implementations:
-  - kiceberg
   see-also:
   - GraNoLa/M
 
 kiceberg:
   type: Language Implementation
+  implementation-of: Kangaroo Iceberg
   in-distribution: Kangaroo Iceberg distribution
   reference: true
   license: BSD
@@ -1533,7 +1501,6 @@ Kelxquoia:
      ^      /*?-*P-*?-+*?-*P-* -+     <
     
      00 00 00 00
-  implementations: []
 
 
 Larabee:
@@ -1563,11 +1530,10 @@ Larabee:
             (store (input) (op - (fetch (input)) (input))
               (test (op > (fetch (input)) (input))
                 (goto loop) (print (fetch (input)))))))))
-  implementations:
-  - larabee.scm
 
 larabee.scm:
   type: Language Implementation
+  implementation-of: Larabee
   in-distribution: Larabee distribution
   reference: true
   license: Unknown license
@@ -1619,7 +1585,6 @@ Madison:
         -> branch(S,reflect(reflect(T)))                   [by IH]
         -> branch(S,T)                                     [by IH]
     qed
-  implementations: []
 
 
 Maentwrog:
@@ -1662,11 +1627,10 @@ Maentwrog:
   - Chris Pressey
   inception-date: ca 1993
   computational-class: known not Turing-complete
-  implementations:
-  - maentw.c
 
 maentw.c:
   type: Language Implementation
+  implementation-of: Maentwrog
   in-distribution: Maentwrog distribution
   license: Freely Redistributable
   reference: yes
@@ -1704,11 +1668,10 @@ Mascarpone:
     You are lost in a twisty little maze of meta-circular intepreters, all alike
   quotation-attribution: |-
     "Colossal Cave", Crowther and Woods
-  implementations:
-  - mascarpone.hs
 
 mascarpone.hs:
   type: Language Implementation
+  implementation-of: Mascarpone
   in-distribution: Mascarpone distribution
   license: BSD
   reference: yes
@@ -1738,7 +1701,6 @@ MDPN:
   sample: |2
       Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-  implementations: []
 
 
 "'N-DCNC":
@@ -1761,23 +1723,20 @@ MDPN:
   inception-date: Oct 2000
   sample: |
     4*5+2/2,(9*`c)+1
-  implementations:
-  - ndcnc.pl
-  - ndcnc.bf
 
 ndcnc.pl:
   type: Language Implementation
+  implementation-of: "'N-DCNC"
   reference: true
   license: Unknown license
   implementation-type: compiler
-  source-language: "'N-DCNC"
   host-language: Perl
   target-language: "FALSE"
 
 ndcnc.bf:
   type: Language Implementation
+  implementation-of: "'N-DCNC"
   license: Unknown license
-  implementation-type: compiler
   source-language: "'N-DCNC"
   host-language: Befunge-93
   target-language: "FALSE"
@@ -1813,11 +1772,10 @@ Nhohnhehr:
     | {    |
     |\\    |
     +------+
-  implementations:
-  - nhohnhehr.py
 
 nhohnhehr.py:
   type: Language Implementation
+  implementation-of: Nhohnhehr
   in-distribution: Nhohnhehr distribution
   author: Marinus
   reference: true
@@ -1865,14 +1823,12 @@ nhohnhehr.py:
             #v#########
             # #
             ###
-  implementations:
-  - worb.pl
-  - tc.catseye.yoob.worb
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 worb.pl:
   type: Language Implementation
+  implementation-of: noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
   license: BSD
   reference: yes
@@ -1881,6 +1837,7 @@ worb.pl:
 
 tc.catseye.yoob.worb:
   type: Language Implementation
+  implementation-of: noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
   license: Unknown license
   implementation-type: interpreter
@@ -1904,11 +1861,10 @@ Okapi:
   inception-date: May 23, 2010
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations:
-  - okapi.py
 
 okapi.py:
   type: Language Implementation
+  implementation-of: Okapi
   reference: true
   license: Proprietary
   implementation-type: interpreter
@@ -1944,7 +1900,6 @@ Oozlybub and Murphy:
              if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
                copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
   unusual-computability-properties: true
-  implementations: []
 
 
 Opus-2:
@@ -1996,11 +1951,10 @@ Pail:
               ***cadrg
            ]]
       ]]
-  implementations:
-  - Pail.lhs
 
 Pail.lhs:
   type: Language Implementation
+  implementation-of: Pail
   in-distribution: Pail distribution
   reference: true
   license: BSD
@@ -2035,8 +1989,6 @@ Pixley:
   - television show
   sample: |-
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
-  implementations:
-  - pixley.pix
 
 pixley.pix:
   type: Language Implementation
@@ -2069,11 +2021,10 @@ Quylthulg:
   - Lovecraftian
   sample: |-
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
-  implementations:
-  - Qlzqqlzuup, the Lord of Flesh
 
 Qlzqqlzuup, the Lord of Flesh:
   type: Language Implementation
+  implementation-of: Quylthulg
   in-distribution: Quylthulg distribution
   reference: true
   license: BSD
@@ -2119,11 +2070,10 @@ REDGREEN:
                                                     %
                                                     T
   inception-date: 1998
-  implementations:
-  - redgreen.alp
 
 redgreen.alp:
   type: Language Implementation
+  implementation-of: REDGREEN
   reference: true
   in-distribution: REDGREEN distribution
   prebuilt-in-distribution: true
@@ -2165,11 +2115,10 @@ RUBE:
                                    O F
                                    c
                                    =
-  implementations:
-  - rube.c
 
 rube.c:
   type: Language Implementation
+  implementation-of: RUBE
   in-distribution: RUBE distribution
   reference: true
   license: BSD
@@ -2203,16 +2152,14 @@ Sally:
     stdlib
     int factorial int if $1 mul $1 factorial sub $1 1 1
     int main int factorial $1
-  implementations:
-  - sally2c
 
 sally2c:
   type: Language Implementation
+  implementation-of: Sally
   in-distribution: Sally distribution
   reference: true
   license: BSD
   implementation-type: compiler
-  source-language: Sally
   host-language: ANSI C
   target-language: ANSI C
 
@@ -2233,8 +2180,6 @@ Sbeezg:
   etymology:
   - neologism
   esowiki: Sbeezg
-  implementations:
-  - sbeezg.erl
   sample: |
     f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
@@ -2277,9 +2222,6 @@ Shelta:
   esowiki: Shelta
   sample: |
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-  implementations:
-  - shelta
-  - sheltas
 
 shelta:
   type: Language Implementation
@@ -2334,9 +2276,6 @@ SMETANA:
   inception-date: ca 1994
   computational-class: known not Turing-complete
   notable: true
-  implementations:
-  - smetana.pl
-  - tc.catseye.yoob.smetana
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
@@ -2394,8 +2333,6 @@ SMITH:
   computational-class: believed Turing-complete
   notable: true
   significant: true
-  implementations:
-  - smith.pl
   influences:
   - SMETANA
 
@@ -2431,12 +2368,10 @@ Squishy2K:
   inception-date: Sep 2000
   sample: |
     * main { start many finish? "Hello, world!"! }
-  implementations:
-  - squishy2k.pl
 
 squishy2k.pl:
   type: Language Implementation
-  in-dstribution: Squishy2K distribution
+  in-distribution: Squishy2K distribution
   reference: true
   license: BSD
   implementation-type: interpreter
@@ -2485,11 +2420,10 @@ Strelnokoff:
     X = (T = X) * 0 + (X > T) * X REM RESET FLAG
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   inception-date: Apr 2001
-  implementations:
-  - strelnokoff.pl
 
 strelnokoff.pl:
   type: Language Implementation
+  implementation-of: Strelnokoff
   in-distribution: Strelnokoff distribution
   reference: yes
   license: BSD
@@ -2521,7 +2455,6 @@ Tamerlane:
     Point-B: 1 Point-C,
     Point-C: 1 Point-A.
     ?- 1 Point-A -> 0 Point-A @ Point-A
-  implementations: []
   see-also:
   - Kangaroo Iceberg
   - GraNoLa/M
@@ -2558,11 +2491,10 @@ Treacle:
     )
   sample-output: |-
     (xx (xx (xx (xx (xx (y 1 2) left) the) to) descends) this)
-  implementations:
-  - treacle.scm
 
 treacle.scm:
   type: Language Implementation
+  implementation-of: Treacle
   in-distribution: Treacle distribution
   license: Unknown license
   reference: true
@@ -2635,11 +2567,10 @@ Unlikely:
         goto p.continue(accumulator);
       }
     }
-  implementations:
-  - Coldwater
 
 Coldwater:
   type: Language Implementation
+  implementation-of: Unlikely
   in-distribution: Unlikely distribution
   reference: true
   license: Unknown license
@@ -2670,11 +2601,10 @@ Velo:
     yes = {IO.print {Yes}}
     no = {IO.print {No}}
     if ({X}.equals {Y}), yes, no
-  implementations:
-  - velo.rb
 
 velo.rb:
   type: Language Implementation
+  implementation-of: Velo
   in-distribution: Velo distribution
   license: Unknown license
   reference: true
@@ -2720,11 +2650,10 @@ Version:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - version.pl
 
 version.pl:
   type: Language Implementation
+  implementation-of: Version
   in-distribution: Version distribution
   license: BSD
   reference: true
@@ -2763,13 +2692,12 @@ Whothm:
     s.h += 2;
     draw s, XOR;
     end
-  implementations:
-  - tc.catseye.whothm
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/jwhothm/'
 
 tc.catseye.whothm:
   type: Language Implementation
+  implementation-of: Whothm
   in-distribution: Whothm distribution
   reference: true
   license: Unknown license
@@ -2816,12 +2744,11 @@ Wierd:
         * ** *
         **  *
   sample-credit: Milo van Handel
-  implementations:
-  - wierd.c
-  - wierd-milo.c
 
 wierd.c:
   type: Language Implementation
+  # well, "John Wierd"
+  implementation-of: Wierd
   in-distribution: Wierd distribution
   author: John Colagioia
   license: Unknown license
@@ -2830,6 +2757,8 @@ wierd.c:
 
 wierd-milo.c:
   type: Language Implementation
+  # well, "Milo Wierd"
+  implementation-of: Wierd
   in-distribution: Wierd distribution
   author: Milo van Handel
   license: Unknown license
@@ -2887,11 +2816,10 @@ Wunnel:
 
              o    oooo o
   has-reference-distribution: false
-  implementations:
-  - tc.catseye.yoob.wunnel
 
 tc.catseye.yoob.wunnel:
   type: Language Implementation
+  implementation-of: Wunnel
   in-distribution: yoob distribution
   reference: true
   license: Public Domain
@@ -2926,12 +2854,11 @@ Xigxag:
     ...
   computational-class: unknown computational class
   unusual-computability-properties: true
-  implementations:
-  - xigxag.pl
 
 xigxag.pl:
   type: Language Implementation
-  in-dstribution: Xigxag distribution
+  implementation-of: Xigxag
+  in-distribution: Xigxag distribution
   reference: true
   license: Public Domain
   implementation-type: interpreter
@@ -2973,7 +2900,6 @@ Xoomonk:
       ^.counter := o.result
       continue := o.result
     }
-  implementations: []
 
 
 You are Reading the Name of this Esolang:
@@ -2999,7 +2925,6 @@ You are Reading the Name of this Esolang:
   - Spoon
   sample: |
     001000000[0010000000111001000011]11100100001[0]
-  implementations: []
 
 
 Ypsilax:
@@ -3038,14 +2963,12 @@ Ypsilax:
         #      #
         #      #
         #    ###
-  implementations:
-  - ypsilax.pl
-  - tc.catseye.yoob.ypsilax
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 ypsilax.pl:
   type: Language Implementation
+  implementation-of: Ypsilax
   in-distribution: Ypsilax distribution
   reference: true
   license: BSD
@@ -3054,8 +2977,9 @@ ypsilax.pl:
 
 tc.catseye.yoob.ypsilax:
   type: Language Implementation
+  implementation-of: Ypsilax
   in-distribution: Ypsilax distribution
-  license: BSD
+  license: Public Domain
   implementation-type: interpreter
   host-language: Java
 
@@ -3091,11 +3015,10 @@ ZOWIE:
     MOV R8, R10
     MOV R5, 64
     MOV R3, R8
-  implementations:
-  - zowie.py
 
 zowie.py:
   type: Language Implementation
+  implementation-of: ZOWIE
   reference: true
   in-distribution: ZOWIE distribution
   license: Public Domain

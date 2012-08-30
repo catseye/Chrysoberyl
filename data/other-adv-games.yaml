@@ -9,7 +9,6 @@
   solved-by:
   - Chris Pressey
   platform: Infocom
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -25,7 +24,6 @@ Winter Wonderland:
   solved-by:
   - Chris Pressey
   platform: Commodore 64
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -38,7 +36,6 @@ Africa Adventure, The:
   type: Game
   genre: Text Adventure
   platform: Commodore 64
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -55,7 +52,6 @@ Cranston Manor:
   type: Game
   genre: Text Adventure
   platform: Apple ][
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -67,7 +63,6 @@ Creature Venture:
   type: Game
   genre: Text Adventure
   platform: Apple ][
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -80,7 +75,6 @@ Time & Magick:
   type: Game
   genre: Text Adventure
   platform: Amiga 500
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -94,7 +88,6 @@ Time & Magick:
   type: Game
   genre: Text Adventure
   platform: Commodore 64
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |
@@ -106,7 +99,6 @@ Dungeon (MIT):
   type: Game
   genre: Text Adventure
   platform: Amiga 500
-  implementations: []
   authors: []
   has-reference-distribution: false
   commentary: |

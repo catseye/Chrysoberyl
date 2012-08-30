@@ -7,7 +7,6 @@ ANSI C:
   - Imperative
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   reference-link: http://clc-wiki.net/wiki/C89
   references: 
@@ -36,7 +35,6 @@ C99:
   - Imperative
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   reference-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   links:
@@ -69,7 +67,6 @@ C++:
   - Object-oriented
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   references:
   - title: C++ FAQ Lite
@@ -154,7 +151,6 @@ CSS:
   - Declarative
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations: []
   authors: []
   commentary: |
     If I, as a programmer, were to tell you that CSS is the ultimate hacking
@@ -191,7 +187,6 @@ Erlang:
   - Functional
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   references:
   - title: Open Source Erlang/OTP
@@ -223,7 +218,6 @@ Haskell:
   - Lazy
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - http://www.haskell.org/
@@ -242,7 +236,6 @@ Java:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   references:
   - title: Oracle Technology Network > Java
@@ -282,7 +275,6 @@ Javascript:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
@@ -354,7 +346,6 @@ Lua:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   references:
   - title: Lua
@@ -380,7 +371,6 @@ MSIL:
   - Assembly
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations: []
   authors: []
 
 Perl:
@@ -392,7 +382,6 @@ Perl:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - http://www.cpan.org/ports/
@@ -437,7 +426,6 @@ PHP:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   commentary: |
     PHP is language defined by a tool built by some guys who saw a
@@ -493,7 +481,6 @@ Python:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   references:
   - title: Python
@@ -529,7 +516,6 @@ R:
   - Functional
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - 'http://www.r-project.org/'
@@ -545,7 +531,6 @@ Ruby:
   - Object-oriented
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - http://www.ruby-lang.org/
@@ -560,7 +545,6 @@ Scheme:
   - Functional
   computational-class: shown Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - 'http://schemers.org/Documents/Standards/R5RS/'
@@ -634,7 +618,6 @@ Zz:
   - Metalanguage
   computational-class: unknown computational class
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - 'http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html'
@@ -657,7 +640,6 @@ Ophis Assembler:
   - Assembly
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors:
   - Michael C. Martin
   links:
@@ -680,7 +662,6 @@ NASM Assembler:
   - Assembly
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - 'http://nasm.sourceforge.net/'
@@ -709,7 +690,6 @@ Commodore BASIC 2.0:
   - Imperative
   computational-class: believed Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
 
 Applesoft BASIC:
@@ -719,7 +699,6 @@ Applesoft BASIC:
   - Imperative
   computational-class: believed Turing-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
   links:
   - 'http://www.zophar.net/apple2.html'
@@ -742,8 +721,6 @@ x86 machine code:
   - Imperative
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations:
-  - Bochs
   authors: []
   as-a-prerequisite: |
       Programs in this format assume that they will be running on a fairly
@@ -756,8 +733,10 @@ x86 machine code:
       is to run such things under an emulator.  In which case,
       we recommend Bochs.
 
+# urk.  We actually need an 'emulator' implementation-type, don't we
 Bochs:
   type: Language Implementation
+  implementation-of: x86 machine code
   links:
   - 'http://bochs.sourceforge.net/'
   license: LGPL
@@ -772,7 +751,6 @@ lookup table:
   - Declarative
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []
 
 Wireworld:
@@ -783,5 +761,4 @@ Wireworld:
   - Cellular automaton
   computational-class: Finite-automata-complete
   has-reference-distribution: false
-  implementations: []
   authors: []

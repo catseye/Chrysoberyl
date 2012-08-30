@@ -13,13 +13,10 @@
     Was rewritten in 6502 assembly language by a middle-aged me in the late oughts.  Was pared
     down so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Competition 2009
     where (surprisingly, to me!) it got first place in its class.
-  implementations:
-  - Bubble Escape (BASIC)
-  - Bubble Escape 2K
-  - Bubble Escape 8K
 
 Bubble Escape (BASIC):
   type: Game Implementation
+  implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   license: BSD
   host-language: Commodore BASIC 2.0
@@ -29,6 +26,7 @@ Bubble Escape (BASIC):
 
 Bubble Escape 2K:
   type: Game Implementation
+  implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   prebuilt-in-distribution: true
   license: BSD
@@ -44,6 +42,7 @@ Bubble Escape 2K:
 
 Bubble Escape 8K:
   type: Game Implementation
+  implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   license: BSD
   host-language: Ophis Assembler
@@ -65,11 +64,10 @@ Bubble Escape 8K:
     An unfinished roguelike, written in Perl.  This was written on an engine
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
     Entertainment Modules.)
-  implementations:
-  - 'Corona: Realm of Magic (Perl)'
 
 'Corona: Realm of Magic (Perl)':
   type: Game Implementation
+  implementation-of: 'Corona: Realm of Magic'
   in-distribution: 'Corona: Realm of Magic distribution'
   license: BSD
   host-language: Perl
@@ -92,11 +90,10 @@ Zzrk:
   description: |
     A tiny adventure game written in "pure" Zz (a meta-language normally
     used for defining compilers.)
-  implementations:
-  - Zzrk (Zz)
 
 Zzrk (Zz):
   type: Game Implementation
+  implementation-of: Zzrk
   in-distribution: Zzrk distribution
   license: BSD
   host-language: Zz
@@ -114,11 +111,10 @@ Super Wumpus Land:
   inception-date: ca 1999
   description: |
     An "extended dance mix" version of [[Hunt the Wumpus]].
-  implementations:
-  - swl
 
 swl:
   type: Game Implementation
+  implementation-of: Super Wumpus Land
   in-distribution: Super Wumpus Land distribution
   license: BSD
   host-language: Perl

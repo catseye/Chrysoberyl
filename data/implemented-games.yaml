@@ -8,11 +8,10 @@ Hunt the Wumpus:
   description: |
     The classic topological mythical-beast-hunting game, implemented in Erlang.
   has-reference-distribution: false
-  implementations:
-  - wumpus.erl
 
 wumpus.erl:
   type: Game Implementation
+  implementation-of: Hunt the Wumpus
   in-distribution: Hunt the Wumpus distribution
   authors:
   - Chris Pressey
@@ -35,12 +34,11 @@ Animals:
     and adds it to its database.  In this way it "learns" about more animals
     as more games are played.
   has-reference-distribution: false
-  implementations:
-  - animals.erl
   authors: []
 
 animals.erl:
   type: Game Implementation
+  implementation-of: Animals
   in-distribution: Animals distribution
   authors:
   - Chris Pressey
@@ -59,12 +57,11 @@ Flip:
   description: |
     A classic game that demonstrates simple "artificial intelligence".
   has-reference-distribution: false
-  implementations:
-  - flip.erl
   authors: []
 
 flip.erl:
   type: Game Implementation
+  implementation-of: Flip
   in-distribution: Flip distribution
   authors:
   - Chris Pressey
@@ -83,12 +80,11 @@ Sokoban:
   description: |
     The classic Japanese game about lean manufacturing (well, sort of).
   has-reference-distribution: false
-  implementations:
-  - esoko
   authors: []
 
 esoko:
   type: Game Implementation
+  implementation-of: Sokoban
   in-distribution: esoko distribution
   authors:
   - Chris Pressey
