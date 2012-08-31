@@ -56,7 +56,7 @@ Applesoft BASIC:
 
 6502 machine code:
   type: Programming Language
-  genre: Production language
+  genre: Machine language
   paradigms:
   - Imperative
   wikipedia: MOS_Technology_6502
@@ -121,7 +121,7 @@ IBM PC compatible:
 
 80286 machine code:
   type: Programming Language
-  genre: Production language
+  genre: Machine language
   paradigms:
   - Imperative
   wikipedia: X86

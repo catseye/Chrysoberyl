@@ -301,6 +301,17 @@ class Renderer(object):
                     i.append(thing)
             return i
 
+        def supported_on_platforms(key=key):
+            i = []
+            for thing in data:
+                if data[thing].get('native-language', None) == key:
+                    i.append(thing)
+                    continue
+                if key in data[thing].get('other-languages', []):
+                    i.append(thing)
+                    continue
+            return i
+
         def documentation(key=key):
             doc_node = data['Documentation Index']
             return doc_node['entries'].get(key, [])
@@ -316,6 +327,7 @@ class Renderer(object):
         context['filekey'] = filekey
         context['implementations'] = implementations
         context['contained_implementations'] = contained_implementations
+        context['supported_on_platforms'] = supported_on_platforms
         context['documentation'] = documentation
         context['indefart'] = indefart
 

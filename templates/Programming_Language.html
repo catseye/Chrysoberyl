@@ -12,4 +12,15 @@
   {% endfor %}
 </ul>
 
+{% if supported_on_platforms() %}
+  <h2>Supported on Platforms</h2>
+  <ul>
+    {% for platform in supported_on_platforms() %}
+      <li>
+        <a href="{{ filekey(platform) }}">{{ platform }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% endblock implementable_content %}

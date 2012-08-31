@@ -90,11 +90,11 @@ but implementations do.  The license of a distribution can be inferred from
 the licenses of the implementations contained with it.
 
 Each implementation has an implementation-type.  For a programming language,
-this may be interpreter, compiler, etc.  For an architecture, this must be
-"emulator".
+this may be interpreter, compiler, etc.  For a platform, this currently must
+be "emulator".
 
-Each architecture must specify what its native language is.  Implementations
-may specify, along with a host language, a host platform/architecture.
+Each platform must specify what its native language is.  Implementations
+may specify, along with a host language, a host platform.
 
 ### side note ###
 
@@ -130,16 +130,14 @@ Generalize "Family" to be families of anything, perhaps.
 Perhaps nodes can "belong to" other nodes: lingography and favourite
 video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
-Compilers might be optionally able to specify a
-target architecture (distinct from target language.)
+Compilers should be able to specify a target platform (distinct from target
+language.)
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
 
 ### templates ###
 
 Better provision of documentation in templates.
-
-List all the emulators for an architecture.
 
 Compute if an implementation requires building, based on what language
 it's in (C, yes, Python, no, Java and Erlang, depends on the distribution).
@@ -154,9 +152,6 @@ If an implementation allows visual debugging or animation, note that.
 List all implementations whose host-language is this language.
 
 List all (compiler) implementations whose target-language is this language.
-
-List all architectures whose native-language is this language, and whose
-other-languages include this language.
 
 ### content ###
 
