@@ -1781,7 +1781,8 @@ nhohnhehr.py:
   type: Implementation
   implementation-of: Nhohnhehr
   in-distribution: Nhohnhehr distribution
-  author: Marinus
+  authors:
+  - Marinus
   reference: true
   license: Public Domain
   implementation-type: interpreter
@@ -2583,7 +2584,7 @@ Coldwater:
   implementation-of: Unlikely
   in-distribution: Unlikely distribution
   reference: true
-  license: Unknown license
+  license: BSD license
   implementation-type: static analyzer
   host-language: Python
 

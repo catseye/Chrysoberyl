@@ -92,6 +92,7 @@ def resolve_internal_links(data, key, property, text):
 
 LEGACY_FIELDS = (
     'abstract',
+    'author',
     'implementations',
     'has-reference-distribution',
     'required-libraries',

@@ -191,6 +191,41 @@ mzstorkipiwanbotbotbot distribution:
   releases: []
 
 
+Rooibos:
+  type: Library
+  summary: Simple, single-module parser combinator library
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    Rooibos is a parser combinator library for Python. Modelled somewhat
+    after yeanpypa (self-contained, public domain), but compensates for what
+    I considered a fatal flaw in yeanpypa (no good way to describe a
+    recursive grammar.) Has a fatal flaw of its own (can only parse
+    strictly LL(1) grammars — no backtracking is yet possible.) Originally
+    used in [[Eightebed]], but provided here for ease of transplanting into
+    other projects.
+  inception-date: '2011'
+
+rooibos.py:
+  type: Implementation
+  implementation-of: Rooibos
+  in-distributions:
+  - Rooibos distribution
+  - Eightebed distribution
+  license: Public Domain
+  host-language: Python
+
+Rooibos distribution: 
+  type: Distribution
+  distribution-of: Rooibos
+  bitbucket: catseye/rooibos
+  github: catseye/Rooibos
+  issue-tracker: github
+  releases: []
+
+
 toolshelf: 
   type: Tool
   summary: A "package manager" that doesn't actually install anything
