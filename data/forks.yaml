@@ -22,8 +22,7 @@ JaC64:
   in-distribution: JaC64 distribution
   license: GPL
   implementation-of: Commodore 64
-  # XXX SHOULD BE EMULATOR
-  implementation-type: interpreter
+  implementation-type: emulator
   host-language: Java
 
 JaC64 distribution: 

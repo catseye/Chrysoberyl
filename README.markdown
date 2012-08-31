@@ -96,6 +96,11 @@ pretty-printer, etc., are all implementations.
 This is actually kind of weird (e.g. yucca is an implementation of BASIC?)
 but we'll go with it for now.
 
+An implementation with an implementation-type of emulator must
+implement an architecture.  Each architecture must specify what its
+native langauge is.  Compilers might be optionally able to specify a
+target architecture (distinct from target language.)
+
 License
 -------
 
@@ -108,23 +113,9 @@ TODO
 
 ### structure ###
 
-Every language may (or must, if it does not have a reference distribution)
-have a link to its specification body and/or its specification documents.
-
-Perhaps nodes can "belong to" other nodes: lingography and favourite
-video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
-
 Some documentation in a reference distribution relates to the implementable
 and some of it relates to the distribution and some of it relates to
 the implementation(s) within the distribution.  Split it up so.
-
-We need an `emulator` implementation type which specified both a language
-and an architecture (e.g. VICE, language = 6502, arch = C64;
-Bochs, language = IA-32, arch = PC.)
-
-We need some way of linking an assembly language to a machine language;
-I guess we can consider the implementation to be a compiler (Ophis,
-implements Ophis assembly, target-language 6502.)
 
 Some implementations can both compile and interpret.  Some compilers
 can target multiple target languages.  Handle both of these.
@@ -133,6 +124,9 @@ Check multiple types in checker (e.g. each author can be an Individual or
 an Organization.)
 
 Generalize "Family" to be families of anything, perhaps.
+
+Perhaps nodes can "belong to" other nodes: lingography and favourite
+video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
 ### templates ###
 
@@ -143,6 +137,8 @@ specified description.)  Customize by `implementation-of-type`.
 
 Give each distribution an automatic description (followed by any
 specified description.)
+
+List all the emulators for an architecture.
 
 ### content ###
 

@@ -161,7 +161,11 @@ def check_chrysoberyl_data(data):
           check_optional_list_ref(data, key, node, 'required-libraries')
           check_optional_list_ref(data, key, node, 'run-requirements')
 
-          if impl_of_type == 'Programming Language':
+          if impl_of_type == 'Architecture':
+              assert node['implementation-type'] == 'emulator', \
+                  "Architecture %s has implementation %s not an emulator" % \
+                      (node['implementation-of'], key)
+          elif impl_of_type == 'Programming Language':
               check_scalar_ref(data, key, node, 'implementation-type',
                                type_='Implementation Type')
               if node['implementation-type'] == 'compiler':
@@ -177,6 +181,7 @@ def check_chrysoberyl_data(data):
               node['auspices'] = pl_node.get('auspices', None)
 
       # All "implementables" need to pass these checks.
+      # XXX 'Architecture'
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool']:
           if not node.get('no-specification', False):
               if ('specification-link' not in node and
@@ -191,6 +196,10 @@ def check_chrysoberyl_data(data):
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
           check_list_ref(data, key, node, 'authors')
+
+      if type_ == 'Architecture':
+          check_scalar_ref(data, key, node, 'native-language', type_='Programming Language')
+          check_list_ref(data, key, node, 'other-languages', type_='Programming Language')
 
       if type_ == 'Programming Language':
           check_list_ref(data, key, node, 'paradigms',

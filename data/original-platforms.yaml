@@ -33,7 +33,7 @@ BefOS (NASM):
   - ANSI C
   - Perl
   run-requirements:
-  - x86 machine code
+  - 80286 machine code
 
 BefOS distribution: 
   type: Distribution

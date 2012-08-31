@@ -1,17 +1,4 @@
 # encoding: UTF-8
-Commodore 64:
-  type: Platform
-  links:
-  - 'http://vice-emu.sourceforge.net/'
-  as-a-prerequisite: |
-    This project assumes that it will be running on a stock
-    Commodore 64, great microcomputer of old (well, if you consider
-    things from the early 80's to be old...)
-    
-    Of course, not everyone owns a Commodore 64, but these days,
-    quite good open-source C64 emulators are available for most
-    platforms.  We suggest VICE.
-
 MS-DOS:
   type: Platform
   links:
@@ -87,36 +74,3 @@ ANSI Terminal:
     of a particular terminal standard which includes them, such as `vt100`
     or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
     need to be loaded.
-
-
-Apple II:
-  type: Platform
-  links:
-  - 'http://www.zophar.net/apple2.html'
-  as-a-prerequisite: |
-    This project assumes that it will be running on an Apple ][+, great
-    microcomputer of old. Most such software will also run on an Apple //e
-    or similar model.
-    
-    Of course, these days, it's more likely you'd be running this software
-    on an emulator instead of a museum piece. We can't say we've found an
-    Apple ][+ emulator yet that's good enough to be our go-to emulator (pun?
-    what pun?), but the link above offers a great variety of choices.
-    
-    Strike that -- AppleWin is definitely the nicest one we've found for Windows.
-    Linux?  Still looking.
-
-
-x86 (IA-32) architecture:
-  type: Platform
-  links:
-  - 'http://www.bochs.org/'
-  as-a-prerequisite: |
-    This project assumes that it will be running on a fairly standard
-    x86-based (IA-32) computer architecture, from the lineage that dates
-    back to those old IBM PC's. Probably a 486 with a BIOS, keyboard, and
-    basic VGA is the minimum to make it worthwhile. While most modern PC's
-    can handle that reasonably well, often a better choice — because it can
-    run under a modern OS, rather than actually dedicating the entire
-    computer to it — is to run such things under an emulator. In which case,
-    we recommend Bochs.

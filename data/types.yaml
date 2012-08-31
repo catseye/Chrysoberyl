@@ -18,6 +18,18 @@ Individual:
   type: type
 Organization:
   type: type
+Programming Paradigm:
+  type: type
+Abstract Artlang:
+  type: type
+Discipline:
+  type: type
+Ranking:
+  type: type
+Collection:
+  type: type
+Metadata:
+  type: type
 # implementations:
 Implementation:
   type: type
@@ -35,6 +47,8 @@ Library:
 Tool:
   type: type
 Platform:
+  type: type
+Architecture:
   type: type
 Programming Language:
   type: type
@@ -70,16 +84,4 @@ Programming Language:
     [[C++]] no matter *what* the software project is.
 
 Programming Language Family:
-  type: type
-Programming Paradigm:
-  type: type
-Abstract Artlang:
-  type: type
-Discipline:
-  type: type
-Ranking:
-  type: type
-Collection:
-  type: type
-Metadata:
   type: type

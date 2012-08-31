@@ -4,8 +4,8 @@ Borland C++:
   implementation-of: C++
   reference: no
   license: Proprietary
-  host-language: x86 machine code
-  target-language: x86 machine code
+  host-language: 80286 machine code
+  target-language: 80286 machine code
   implementation-type: compiler
   as-a-prequisite: |
     The source code for this project was developed with Borland C++ 3.1

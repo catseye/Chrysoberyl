@@ -1223,7 +1223,7 @@ ILLGOL.COM:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: x86 machine code
+  target-language: 80286 machine code
   can-be-built-with-borland-c: true
 
 Illgola-2:
@@ -1253,7 +1253,7 @@ ILLGOLA-2.COM:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: x86 machine code
+  target-language: 80286 machine code
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -1285,7 +1285,7 @@ ILLBERON.COM:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: x86 machine code
+  target-language: 80286 machine code
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -1317,7 +1317,7 @@ ILLGOL##.COM:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: x86 machine code
+  target-language: 80286 machine code
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -2230,7 +2230,7 @@ shelta:
   license: Freely Redistributable
   implementation-type: compiler
   host-language: NASM Assembler
-  target-language: x86 machine code
+  target-language: 80286 machine code
   run-requirements:
   - MS-DOS
 
@@ -2241,7 +2241,7 @@ sheltas:
   license: Freely Redistributable
   implementation-type: compiler
   host-language: Shelta
-  target-language: x86 machine code
+  target-language: 80286 machine code
   run-requirements:
   - MS-DOS
 

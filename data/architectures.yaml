@@ -1,0 +1,145 @@
+# encoding: UTF-8
+# architectures, also their machine languages and other supported languages,
+# and emulators for them
+Apple II:
+  type: Architecture
+  native-language: 6502 machine code
+  other-languages:
+  - Applesoft BASIC
+  links:
+  - 'http://www.zophar.net/apple2.html'
+  as-a-prerequisite: |
+    This project assumes that it will be running on an Apple ][+, great
+    microcomputer of old. Most such software will also run on an Apple //e
+    or similar model.
+    
+    Of course, these days, it's more likely you'd be running this software
+    on an emulator instead of a museum piece. We can't say we've found an
+    Apple ][+ emulator yet that's good enough to be our go-to emulator (pun?
+    what pun?), but the link above offers a great variety of choices.
+    
+    Strike that -- AppleWin is definitely the nicest one we've found for Windows.
+    Linux?  Still looking.
+
+AppleWin:
+  type: Implementation
+  implementation-of: Apple II
+  implementation-type: emulator
+  links:
+  - 'http://applewin.berlios.de/'
+  license: GPL
+  host-language: C++
+
+Applesoft BASIC:
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  computational-class: believed Turing-complete
+  specification-link: http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual
+  authors: []
+  links:
+  - 'http://www.zophar.net/apple2.html'
+  description: |
+    Programs written in Applesoft BASIC assume that they
+    will be running on an Apple ][+, great microcomputer of old.
+    Most such software will also run on an Apple //e or similar model.
+    Of course, these days, it's more likely you'd be running
+    this software on an emulator instead of a museum piece.
+  commentary: |
+    I've found AppleWin to be a decent Apple emulator on Windows;
+    I have yet to find one for *nix that's
+    good enough to be my go-to emulator (pun? what pun?).
+
+
+6502 machine code:
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  wikipedia: MOS_Technology_6502
+  computational-class: Finite-automata-complete
+  specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+  authors: []
+  as-a-prerequisite: |
+      TODO say stuff about 6502 code here
+
+
+Commodore 64:
+  type: Architecture
+  native-language: 6502 machine code
+  other-languages:
+  - Commodore BASIC 2.0
+  as-a-prerequisite: |
+    This project assumes that it will be running on a stock
+    Commodore 64, great microcomputer of old (well, if you consider
+    things from the early 80's to be old...)
+    
+    Of course, not everyone owns a Commodore 64, but these days,
+    quite good open-source C64 emulators are available for most
+    platforms.  We suggest VICE.
+
+VICE x64:
+  type: Implementation
+  implementation-of: Commodore 64
+  implementation-type: emulator
+  license: GPL
+  links:
+  - 'http://vice-emu.sourceforge.net/'
+  host-language: C99
+
+Commodore BASIC 2.0:
+  # should we consider 2.0 to be just a language version?
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  computational-class: believed Turing-complete
+  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
+  authors: []
+
+
+x86 architecture:
+  type: Architecture
+  native-language: 80286 machine code
+  other-languages: []
+  links:
+  - 'http://www.bochs.org/'
+  as-a-prerequisite: |
+    This project assumes that it will be running on a fairly standard
+    x86-based (IA-32) computer architecture, from the lineage that dates
+    back to those old IBM PC's. Probably a 486 with a BIOS, keyboard, and
+    basic VGA is the minimum to make it worthwhile. While most modern PC's
+    can handle that reasonably well, often a better choice — because it can
+    run under a modern OS, rather than actually dedicating the entire
+    computer to it — is to run such things under an emulator. In which case,
+    we recommend Bochs.
+
+80286 machine code:
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  wikipedia: X86
+  computational-class: Finite-automata-complete
+  specification-link: http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html
+  authors: []
+  as-a-prerequisite: |
+      Programs in this format assume that they will be running on a fairly
+      standard x86-based (IA-32) computer architecture, from the 
+      lineage that dates back to those old IBM PC's.  Probably a 486
+      with a BIOS, keyboard, and basic VGA is the minimum to make
+      it worthwhile.  While most modern PC's can handle that reasonably
+      well, often a better choice — because it can run under a modern OS,
+      rather than actually dedicating the entire computer to it —
+      is to run such things under an emulator.  In which case,
+      we recommend Bochs.
+
+Bochs:
+  type: Implementation
+  implementation-of: x86 architecture
+  links:
+  - 'http://bochs.sourceforge.net/'
+  license: LGPL
+  host-language: C++
+  implementation-type: emulator

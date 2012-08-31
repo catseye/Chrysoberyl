@@ -11,3 +11,5 @@ static analyzer:
   type: Implementation Type
 formal description:
   type: Implementation Type
+emulator:
+  type: Implementation Type
