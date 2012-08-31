@@ -16,9 +16,9 @@
       <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
     {% endif %}
     written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-    {#-
-      for the blah architecture or platform
-    -#}
+    {% if host_platform %}
+      for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+    {% endif %}
     {%- if implementation_type == 'compiler' %}
       that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
     {%- endif -%}.

@@ -81,6 +81,7 @@ APPLE BEFUNGE EDITOR:
   # also: editor
   implementation-type: interpreter
   host-language: Applesoft BASIC
+  host-platform: Apple II
 
 
 Arboretuum:
@@ -554,6 +555,7 @@ tc.catseye.yoob.circute:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 circute.alp:
   type: Implementation
@@ -838,6 +840,7 @@ tc.catseye.yoob.etcha:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 ETHEL:
@@ -1064,6 +1067,7 @@ tc.catseye.yoob.gemooy:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 GraNoLa/M:
@@ -1478,8 +1482,7 @@ Kelxquoia:
     erased.  In order to execute indefinitely, new instructions of some sort
     must be created. Luckily the language provides as its main data-manipulation
     facility, grid-rewriting, which can be used to restore instructions that
-    were previously erased after execution.  (Information on this language is
-    only available on the esowiki for now.)
+    were previously erased after execution.
   authors:
   - Chris Pressey
   auspices:
@@ -1840,6 +1843,7 @@ tc.catseye.yoob.worb:
   license: Unknown license
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 Okapi: 
@@ -2231,6 +2235,7 @@ shelta:
   license: Freely Redistributable
   implementation-type: compiler
   host-language: NASM Assembler
+  host-platform: MS-DOS
   target-language: 80286 machine code
   run-requirements:
   - MS-DOS
@@ -2242,6 +2247,7 @@ sheltas:
   license: Freely Redistributable
   implementation-type: compiler
   host-language: Shelta
+  host-platform: MS-DOS
   target-language: 80286 machine code
   run-requirements:
   - MS-DOS
@@ -2295,6 +2301,7 @@ tc.catseye.yoob.smetana:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 SMITH:
@@ -2829,6 +2836,7 @@ tc.catseye.yoob.wunnel:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 Xigxag:
@@ -2986,6 +2994,7 @@ tc.catseye.yoob.ypsilax:
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
+  host-platform: yoob
 
 
 ZOWIE:

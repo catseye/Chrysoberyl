@@ -89,19 +89,22 @@ On the other hand, neither distributions nor implementables have licenses,
 but implementations do.  The license of a distribution can be inferred from
 the licenses of the implementations contained with it.
 
+Each implementation has an implementation-type.  For a programming language,
+this may be interpreter, compiler, etc.  For an architecture, this must be
+"emulator".
+
+Each architecture must specify what its native language is.  Implementations
+may specify, along with a host language, a host platform/architecture.
+
 ### side note ###
 
 Any tool which understands a language may be considered an implementation
 of that language: an interpreter, a compiler, a parser, a static analyzer, a
 pretty-printer, etc., are all implementations.
 
-This is actually kind of weird (e.g. yucca is an implementation of BASIC?)
-but we'll go with it for now.
-
-An implementation with an implementation-type of emulator must
-implement an architecture.  Each architecture must specify what its
-native langauge is.  Compilers might be optionally able to specify a
-target architecture (distinct from target language.)
+This is actually kind of weird (e.g. yucca is an implementation of BASIC?
+maybe say "partial implementation" in the template if the implementation
+type is not interpreter or compiler) but we'll go with it for now.
 
 License
 -------
@@ -129,7 +132,8 @@ video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
 Are "Architecture" and "Platform" unifiable?
 
-`host-architecture` and/or `host-platform` on implementations.
+Compilers might be optionally able to specify a
+target architecture (distinct from target language.)
 
 ### templates ###
 
@@ -145,10 +149,14 @@ List what you need to build or run an implementation.
 Extrapolate the above two for distributions (do that for each implementation
 in the distribution.)
 
-If an implementation is in a framework, display that
-(e.g. " It is an interpreter, written in Java, in the yoob framework")
-
 If an implementation allows visual debugging or animation, note that.
+
+List all implementations whose host-language is this language.
+
+List all (compiler) implementations whose target-language is this language.
+
+List all architectures whose native-language is this language, and whose
+other-languages include this language.
 
 ### content ###
 

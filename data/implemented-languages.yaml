@@ -222,7 +222,7 @@ tc.catseye.yoob.ale:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -247,7 +247,7 @@ tc.catseye.yoob.backflip:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -272,7 +272,7 @@ tc.catseye.yoob.black:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -298,7 +298,7 @@ tc.catseye.yoob.lnusp:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -335,7 +335,7 @@ tc.catseye.yoob.onela:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -361,7 +361,7 @@ tc.catseye.yoob.onelaoi:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -387,7 +387,7 @@ tc.catseye.yoob.path:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -412,7 +412,7 @@ tc.catseye.yoob.qdeql:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -437,7 +437,7 @@ tc.catseye.yoob.sceql:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -463,7 +463,7 @@ tc.catseye.yoob.snusp:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -491,7 +491,7 @@ tc.catseye.yoob.twoill:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey
@@ -517,7 +517,7 @@ tc.catseye.yoob.twol:
   reference: no
   license: Public Domain
   host-language: Java
-  host-framework: yoob
+  host-platform: yoob
   implementation-type: interpreter
   authors:
   - Chris Pressey

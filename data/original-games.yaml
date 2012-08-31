@@ -20,6 +20,7 @@ Bubble Escape (BASIC):
   in-distribution: 'Bubble Escape distribution'
   license: BSD license
   host-language: Commodore BASIC 2.0
+  host-platform: Commodore 64
   run-requirements:
   - Commodore 64
   controls: joystick
@@ -32,6 +33,7 @@ Bubble Escape 2K:
   license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
+  host-platform: Commodore 64
   build-requirements:
   - CRUNCHER AB+
   run-requirements:
@@ -47,6 +49,7 @@ Bubble Escape 8K:
   license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
+  host-platform: Commodore 64
   run-requirements:
   - Commodore 64
   controls: joystick
