@@ -192,6 +192,7 @@ def check_chrysoberyl_data(data):
                   'standards-body' not in node):
                   check_scalar_ref(data, key, node, 'reference-distribution',
                                    type_='Distribution')
+                  data[node['reference-distribution']]['reference'] = True
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')

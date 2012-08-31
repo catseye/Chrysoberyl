@@ -132,13 +132,26 @@ video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
 Better provision of documentation in templates.
 
-Give each implementation an automatic description (followed by any
-specified description.)  Customize by `implementation-of-type`.
-
-Give each distribution an automatic description (followed by any
-specified description.)
-
 List all the emulators for an architecture.
+
+Compute what implementations are in a distribution.
+
+Compute if an implementation requires building, based on what language
+it's in (C, yes, Python, no, Java and Erlang, depends on the distribution).
+
+List what you need to build or run an implementation.
+
+Extrapolate the above two for distributions (do that for each implementation
+in the distribution.)
+
+"a" vs. "an" ("a compiler", "an interpreter")
+
+Show the reference distribution for an implementable.
+
+If an implementation is in a framework, display that
+(e.g. " It is a interpreter, written in Java, in the yoob framework")
+
+If an implementation allows visual debugging or animation, note that.
 
 ### content ###
 
@@ -147,6 +160,10 @@ More descriptions on things.
 Add my music.
 
 Add LoUIE.
+
+License keys should be reworded, e.g. "BSD license"
+
+SMITH, Larabee, ZOWIE are "Assembly" languages (close 'nuff).
 
 ### other ###
 

@@ -1,7 +1,23 @@
 {% extends "base.html" %}
 
+{% block description %}
+  <p>
+    This is
+    {% if reference %}
+      the reference
+    {% else %}
+      a
+    {% endif %}
+    distribution of the
+    {{ data[distribution_of].type }}
+    <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a>.
+  </p>
+  {% if description %}
+    <p>{{ description }}</p>
+  {% endif %}
+{% endblock description %}
+
 {% block content %}
-<p>Distribution of: <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a></p>
 
 {% if github or bitbucket %}
   <h2>Development</h2>

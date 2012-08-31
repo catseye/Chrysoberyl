@@ -1,22 +1,41 @@
 {% extends "base.html" %}
 
+{% block description %}
+  <p>This is
+    {% if reference %}
+      the reference
+    {% else %}
+      an
+    {% endif %}
+    implementation of the
+    {{ data[implementation_of].type }}
+    <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>.
+    
+    It is
+    {% if implementation_type %}
+      a <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a>,
+    {% endif %}
+    written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+    {% if implementation_type == 'compiler' %}
+      that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
+    {% endif -%}
+    .
+    
+    {% if in_distribution %}
+      It is distributed in the <a href="{{ filekey(in_distribution) }}">{{ in_distribution }}</a>
+      and it
+    {% else %}
+      It
+    {% endif %}
+    {# TODO wording, public domain #}
+    is distributed under the
+    <a href="{{ filekey(license) }}">{{ license }}</a>
+    license.
+  </p>
+  {% if description %}
+    <p>{{ description }}</p>
+  {% endif %}
+{% endblock description %}
+
 {% block content %}
-
-{% if implementation_type %}
-  <p>Implementation type: <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a></p>
-{% endif %}
-
-<p>Implementation of <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>
-  in <a href="{{ filekey(host_language) }}">{{ host_language }}</a></p>
-
-{% if implementation_type == 'compiler' %}
-<p>Target language: <a href="{{ filekey(target_language) }}">{{ target_language }}</a></p>
-{% endif %}
-
-{% if in_distribution %}
-  <p>In distribution: <a href="{{ filekey(in_distribution) }}">{{ in_distribution }}</a></p>
-{% endif %}
-
-<p>License: <a href="{{ filekey(license) }}">{{ license }}</a></p>
-
 {% endblock content %}
