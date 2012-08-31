@@ -159,7 +159,11 @@ def check_chrysoberyl_data(data):
           node['implementation-of-type'] = impl_of_type
 
           check_scalar_ref(data, key, node, 'license', types=['License'])
-          check_optional_scalar_ref(data, key, node, 'in-distribution',
+          if 'in-distribution' in node:
+              assert 'in-distributions' not in node
+              node['in-distributions'] = [node['in-distribution']]
+              del node['in-distribution']
+          check_optional_list_ref(data, key, node, 'in-distributions',
                                     types=['Distribution'])
           check_scalar_ref(data, key, node, 'host-language',
                            types=['Programming Language'])
@@ -309,7 +313,7 @@ class Renderer(object):
         def contained_implementations(key=key):
             i = []
             for thing in data:
-                if data[thing].get('in-distribution', None) == key:
+                if key in data[thing].get('in-distributions', []):
                     i.append(thing)
             return i
 

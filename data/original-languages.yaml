@@ -2760,7 +2760,8 @@ wierd.c:
   # well, "John Wierd"
   implementation-of: Wierd
   in-distribution: Wierd distribution
-  author: John Colagioia
+  authors:
+  - John Colagioia
   license: Unknown license
   implementation-type: interpreter
   host-language: ANSI C
@@ -2770,7 +2771,8 @@ wierd-milo.c:
   # well, "Milo Wierd"
   implementation-of: Wierd
   in-distribution: Wierd distribution
-  author: Milo van Handel
+  authors:
+  - Milo van Handel
   license: Unknown license
   implementation-type: interpreter
   host-language: ANSI C

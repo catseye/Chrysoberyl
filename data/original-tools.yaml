@@ -31,7 +31,12 @@
 'Console::Virtual (Perl module)':
   type: Implementation
   implementation-of: 'Console::Virtual'
-  in-distribution: 'Console::Virtual distribution'
+  in-distributions:
+  - 'Console::Virtual distribution'
+  - 'Corona: Realm of Magic distribution'
+  - Ypsilax distribution
+  - noit o' mnain worb distribution
+  - Hunter distribution
   license: BSD license
   host-language: Perl
 

@@ -51,7 +51,8 @@ Specific Schema
 ---------------
 
 In the following, an "implementable" (for lack of a better term)
-refers to the programming language, or a game, or a tool or a library.
+refers to a programming language, or a game, or a platform, or a tool or
+a library.
 
 An implementable may have multiple distributions.  There will typically be
 a reference distribution, which contains the spec and/or reference
@@ -72,9 +73,9 @@ for a distribution called `FOO distribution` where `FOO` is the name of
 the implementable.
 
 An implementable may also have multiple implementations.  Each implementation
-may or may not be in a distribution, and a distribution may contain
-multiple implementations.  Only one implementation can be the reference
-implementation for an implementable.
+may be in zero or more distributions, and a distribution may contain multiple
+implementations.  Only one implementation can be the reference implementation
+for an implementable.
 
 If an implementation does not give authors, they are assumed to be the
 authors of the implementable it implements.  Ditto auspices.
@@ -149,6 +150,8 @@ Extrapolate the above two for distributions (do that for each implementation
 in the distribution.)
 
 If an implementation allows visual debugging or animation, note that.
+
+Allow bespoke templates for individual nodes.
 
 List all implementations whose host-language is this language.
 
