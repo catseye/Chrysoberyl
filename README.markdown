@@ -137,8 +137,6 @@ Better provision of documentation in templates.
 
 List all the emulators for an architecture.
 
-Compute what implementations are in a distribution.
-
 Compute if an implementation requires building, based on what language
 it's in (C, yes, Python, no, Java and Erlang, depends on the distribution).
 
@@ -159,8 +157,6 @@ More descriptions on things.
 Add my music.
 
 Add LoUIE.
-
-SMITH, Larabee, ZOWIE are "Assembly" languages (close 'nuff).
 
 ### other ###
 

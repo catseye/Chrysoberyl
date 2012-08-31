@@ -19,6 +19,17 @@
 
 {% block content %}
 
+{% if contained_implementations() %}
+  <h2>Contains Implementations</h2>
+  <ul>
+    {% for implementation in contained_implementations() %}
+      <li>
+        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% if github or bitbucket %}
   <h2>Development</h2>
   {% if github %}

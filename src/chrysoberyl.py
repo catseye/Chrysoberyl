@@ -286,10 +286,17 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
 
-        def implementations():
+        def implementations(key=key):
             i = []
             for thing in data:
                 if data[thing].get('implementation-of', None) == key:
+                    i.append(thing)
+            return i
+
+        def contained_implementations(key=key):
+            i = []
+            for thing in data:
+                if data[thing].get('in-distribution', None) == key:
                     i.append(thing)
             return i
 
@@ -307,6 +314,7 @@ class Renderer(object):
         # functions
         context['filekey'] = filekey
         context['implementations'] = implementations
+        context['contained_implementations'] = contained_implementations
         context['documentation'] = documentation
         context['indefart'] = indefart
 

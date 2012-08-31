@@ -1505,6 +1505,7 @@ Larabee:
   genre: Esolang
   paradigms:
   - Imperative
+  - Assembly
   description: |
     Larabee is an assembly-like programming language, with Scheme-like
     syntax, that borrows the notion of branch prediction from computer architecture
@@ -1602,7 +1603,7 @@ Maentwrog:
     but never got it to work, probably because `==` was not
     implemented correctly.  Recently, example programs and a description of the
     language (which has become the provisional spec) have been provided by
-    Marinus — thanks Marinus!
+    [[Marinus]] — thanks Marinus!
     
     Maentwrog is the name of a town in Wales, but the usage of its name
     for this language came via Douglas Adams' "The Meaning of Liff",
@@ -2302,6 +2303,7 @@ SMITH:
   paradigms:
   - Imperative
   - Self-modifying
+  - Assembly
   esowiki: SMITH
   acronym-for: Self-Modifying Indecent Turing Hack
   summary: An assembly-like language with no jumps whatsoever
@@ -2992,6 +2994,7 @@ ZOWIE:
   paradigms:
   - Imperative
   - Memory-mapped
+  - Assembly
   description: |
     ZOWIE is a machine-like language in which all operations *including
     structured control flow* are memory-mapped.  Control flow is structured in
