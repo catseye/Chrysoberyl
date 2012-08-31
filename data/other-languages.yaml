@@ -6,9 +6,8 @@ ANSI C:
   paradigms:
   - Imperative
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
   authors: []
-  reference-link: http://clc-wiki.net/wiki/C89
+  specification-link: http://clc-wiki.net/wiki/C89
   references: 
   - title: ANSI C docs
     description: Interesting documents about the standardization of C
@@ -34,9 +33,8 @@ C99:
   paradigms:
   - Imperative
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
   authors: []
-  reference-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
+  specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   links:
   - http://gcc.gnu.org/gcc-3.4/
   - http://www.opengroup.org/onlinepubs/9699919799/
@@ -66,8 +64,8 @@ C++:
   - Imperative
   - Object-oriented
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
   authors: []
+  standards-body: http://www.open-std.org/jtc1/sc22/wg21/
   references:
   - title: C++ FAQ Lite
     description: Comprehensive compilation of C++ questions and answers
@@ -150,7 +148,7 @@ CSS:
   paradigms:
   - Declarative
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: http://www.w3.org/TR/CSS2/
   authors: []
   commentary: |
     If I, as a programmer, were to tell you that CSS is the ultimate hacking
@@ -186,7 +184,7 @@ Erlang:
   paradigms:
   - Functional
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.erlang.org/
   authors: []
   references:
   - title: Open Source Erlang/OTP
@@ -217,7 +215,7 @@ Haskell:
   - Functional
   - Lazy
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.haskell.org/
   authors: []
   links:
   - http://www.haskell.org/
@@ -235,7 +233,7 @@ Java:
   - Imperative
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.oracle.com/technetwork/java/index.html
   authors: []
   references:
   - title: Oracle Technology Network > Java
@@ -274,7 +272,7 @@ Javascript:
   - Functional
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
@@ -345,13 +343,12 @@ Lua:
   - Functional
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.lua.org/
   authors: []
   references:
   - title: Lua
     description: Official Lua website
     url: http://www.lua.org/
-  reference-link: http://www.lua.org/versions.html#5.0
   as-a-prerequisite: |
     Some or all of the programs in this project are Lua scripts, and running
     them requires a Lua interpreter, version 5.0.x. (The latest version, as
@@ -370,7 +367,7 @@ MSIL:
   - Imperative
   - Assembly
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
   authors: []
 
 Perl:
@@ -381,10 +378,8 @@ Perl:
   - Functional
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.perl.org/
   authors: []
-  links:
-  - http://www.cpan.org/ports/
   as-a-prerequisite: |
     Some or all of the programs in this project are Perl scripts, and
     running them requires a Perl interpreter, version 5.8.8 or later. We'll
@@ -425,7 +420,7 @@ PHP:
   - Imperative
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.php.net/
   authors: []
   commentary: |
     PHP is language defined by a tool built by some guys who saw a
@@ -480,7 +475,7 @@ Python:
   - Functional
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.python.org/
   authors: []
   references:
   - title: Python
@@ -515,10 +510,8 @@ R:
   - Imperative
   - Functional
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.r-project.org/
   authors: []
-  links:
-  - 'http://www.r-project.org/'
   as-a-prerequisite: |
     You're on your own, mate.
 
@@ -530,10 +523,8 @@ Ruby:
   - Functional
   - Object-oriented
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  standards-body: http://www.ruby-lang.org/
   authors: []
-  links:
-  - http://www.ruby-lang.org/
   as-a-prerequisite: |
       Some or all of the programs in this project are Ruby scripts, and running them
       requires a Ruby interpreter, version 1.8.7 or later.
@@ -544,11 +535,8 @@ Scheme:
   paradigms:
   - Functional
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  specification-link: http://schemers.org/Documents/Standards/R5RS/
   authors: []
-  links:
-  - 'http://schemers.org/Documents/Standards/R5RS/'
-  - 'http://www.plt-scheme.org/'
   as-a-prerequisite: |
     Any R5RS-conforming Scheme implementation should be able to handle the
     sources for this project. In order to compile a binary with a Scheme
@@ -617,10 +605,9 @@ Zz:
   paradigms:
   - Metalanguage
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html
   authors: []
   links:
-  - 'http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html'
   - 'http://openzz.sourceforge.net/'
   - 'https://github.com/catseye/OpenZz'
   as-a-prerequisite: |
@@ -639,7 +626,6 @@ Ophis Assembler:
   - Imperative
   - Assembly
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
   authors:
   - Michael C. Martin
   links:
@@ -654,6 +640,23 @@ Ophis Assembler:
     to build executables from these files, and your best bet with that is
     probably the Ophis assembler itself.
 
+Ophis Assembler distribution:
+  type: Distribution
+  distribution-of: Ophis Assembler
+  github: michaelcmartin/Ophis
+
+Ophis:
+  type: Implementation
+  implementation-of: Ophis Assembler
+  # XXX ASSEMBLER PLZ
+  implementation-type: compiler
+  reference: true
+  license: MIT
+  host-language: Python
+  target-language: 6502 machine code
+  in-distribution: Ophis Assembler distribution
+
+
 NASM Assembler:
   type: Programming Language
   genre: Production language
@@ -661,10 +664,8 @@ NASM Assembler:
   - Imperative
   - Assembly
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
+  standards-body: http://nasm.sourceforge.net/
   authors: []
-  links:
-  - 'http://nasm.sourceforge.net/'
   as-a-prerequisite: |
     Some files in this project are x86 (a.k.a IA-32)
     assembly-language sources written in the syntax of the NASM assembler.
@@ -689,7 +690,7 @@ Commodore BASIC 2.0:
   paradigms:
   - Imperative
   computational-class: believed Turing-complete
-  has-reference-distribution: false
+  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
   authors: []
 
 Applesoft BASIC:
@@ -698,7 +699,7 @@ Applesoft BASIC:
   paradigms:
   - Imperative
   computational-class: believed Turing-complete
-  has-reference-distribution: false
+  specification-link: http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual
   authors: []
   links:
   - 'http://www.zophar.net/apple2.html'
@@ -719,8 +720,9 @@ x86 machine code:
   genre: Production language
   paradigms:
   - Imperative
+  wikipedia: X86
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
+  specification-link: http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html
   authors: []
   as-a-prerequisite: |
       Programs in this format assume that they will be running on a fairly
@@ -732,6 +734,19 @@ x86 machine code:
       rather than actually dedicating the entire computer to it —
       is to run such things under an emulator.  In which case,
       we recommend Bochs.
+
+# for targets of compilers:
+6502 machine code:
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  wikipedia: MOS_Technology_6502
+  computational-class: Finite-automata-complete
+  specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+  authors: []
+  as-a-prerequisite: |
+      TODO say stuff about 6502 code here
 
 # urk.  We actually need an 'emulator' implementation-type, don't we
 Bochs:
@@ -750,7 +765,8 @@ lookup table:
   paradigms:
   - Declarative
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
+  # it's, uh.  pretty self-explanatory, actually.
+  no-specification: true
   authors: []
 
 Wireworld:
@@ -760,5 +776,6 @@ Wireworld:
   paradigms:
   - Cellular automaton
   computational-class: Finite-automata-complete
-  has-reference-distribution: false
+  # i'll look it up someday
+  no-specification: true
   authors: []

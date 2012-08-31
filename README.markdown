@@ -37,7 +37,7 @@ whose `type` is `type`.)
 
 Each node may have any of the following fields:
 
-*   `abstract` or `description` (equivalent)
+*   `description`
 *   `summary`
 *   `subtitle`
 *   ...

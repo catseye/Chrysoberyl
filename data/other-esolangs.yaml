@@ -12,7 +12,7 @@ BitChanger:
   - brainfuck
   authors:
   - Jeffry Johnston
-  has-reference-distribution: false
+  specification-link: esowiki
 
 
 "FALSE":
@@ -24,8 +24,7 @@ BitChanger:
   esowiki: "FALSE"
   authors:
   - Wouter van Oortmerssen
-  # patently false...
-  has-reference-distribution: false
+  specification-link: esowiki
 
 
 reMorse:
@@ -35,7 +34,7 @@ reMorse:
   - Imperative
   computational-class: unknown computational class
   esowiki: reMorse
-  has-reference-distribution: false
+  specification-link: esowiki
   authors:
   - Ryan Kusnery
 
@@ -75,7 +74,7 @@ Spoon:
   - Imperative
   computational-class: believed Turing-complete
   esowiki: Spoon
-  has-reference-distribution: false
+  specification-link: esowiki
   authors: []
 
 
@@ -128,6 +127,6 @@ thue.py:
   genre: Esolang
   computational-class: unknown computational class
   esowiki: "Var'aq"
-  has-reference-distribution: false
+  specification-link: esowiki
   authors:
   - Brian Connors

@@ -178,13 +178,15 @@ def check_chrysoberyl_data(data):
 
       # All "implementables" need to pass these checks.
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool']:
-          if not (node.get('no-specification', False) or
-                  'specification-link' in node or
-                  'standards-body' in node or
-                  'reference-distribution' in node):
-              node['reference-distribution'] = '%s distribution' % key
-          check_scalar_ref(data, key, node, 'reference-distribution',
-                           type_='Distribution')
+          if not node.get('no-specification', False):
+              if ('specification-link' not in node and
+                  'standards-body' not in node and
+                  'reference-distribution' not in node):
+                  node['reference-distribution'] = '%s distribution' % key
+              if ('specification-link' not in node and
+                  'standards-body' not in node):
+                  check_scalar_ref(data, key, node, 'reference-distribution',
+                                   type_='Distribution')
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
