@@ -13,7 +13,7 @@ basedump.erl:
   type: Implementation
   implementation-of: basedump
   in-distribution: basedump distribution
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 basedump distribution: 
@@ -39,7 +39,7 @@ belld.c:
   type: Implementation
   implementation-of: belld
   in-distribution: belld distribution
-  license: BSD
+  license: BSD license
   host-language: C99
 
 belld distribution: 
@@ -64,7 +64,7 @@ brace.c:
   type: Implementation
   implementation-of: brace
   in-distribution: brace distribution
-  license: BSD
+  license: BSD license
   host-language: C99
 
 brace distribution: 
@@ -90,7 +90,7 @@ ce (Erlang):
   type: Implementation
   implementation-of: ce
   in-distribution: ce distribution
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 ce distribution: 
@@ -115,7 +115,7 @@ ec.erl:
   type: Implementation
   implementation-of: ec
   in-distribution: ec distribution
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 ec distribution: 
@@ -143,7 +143,7 @@ erlaunch.c:
   type: Implementation
   implementation-of: erlaunch
   in-distribution: erlaunch distribution
-  license: BSD
+  license: BSD license
   host-language: C99
 
 erlaunch distribution: 
@@ -169,7 +169,7 @@ noise (Perl):
   type: Implementation
   implementation-of: noise
   in-distribution: noise distribution
-  license: BSD
+  license: BSD license
   host-language: Perl
 
 noise distribution: 
@@ -214,7 +214,7 @@ OpenFlax (Erlang):
   type: Implementation
   implementation-of: OpenFlax
   in-distribution: 'OpenFlax distribution'
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 OpenFlax distribution: 
@@ -240,7 +240,7 @@ peruse.erl:
   type: Implementation
   implementation-of: peruse
   in-distribution: peruse distribution
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 peruse distribution: 

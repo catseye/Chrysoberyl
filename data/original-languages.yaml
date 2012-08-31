@@ -45,7 +45,7 @@ alpaca.pl:
   implementation-of: ALPACA
   reference: true
   in-distribution: ALPACA distribution
-  license: BSD
+  license: BSD license
   implementation-type: compiler
   host-language: Perl
   target-language: Perl
@@ -132,7 +132,7 @@ forest-rewriter.scm:
   implementation-of: Arboretuum
   in-distribution: Arboretuum distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Scheme
 
@@ -211,7 +211,7 @@ bef:
   implementation-of: Befunge-93
   reference: true
   in-distribution: Befunge-93 distribution
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: ANSI C
   can-be-built-with-borland-c: true
@@ -272,7 +272,7 @@ b_juliet.pl:
   type: Implementation
   implementation-of: beta-Juliet
   in-distribution: beta-Juliet distribution
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 
@@ -281,7 +281,7 @@ b_juliet.pl:
   implementation-of: beta-Juliet
   reference: true
   in-distribution: beta-Juliet distribution
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   # but you can also build it with ANSI C
   host-language: C99
@@ -333,7 +333,7 @@ beturing.lua:
   implementation-of: Beturing
   in-distribution: Beturing distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Lua
 
@@ -373,7 +373,7 @@ bhuna:
   implementation-of: Bhuna
   in-distribution: Bhuna distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: C99
 
@@ -416,7 +416,7 @@ braktif.alp:
   reference: true
   in-distribution: Braktif distribution
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   implementation-type: formal description
   host-language: ALPACA
 
@@ -561,7 +561,7 @@ circute.alp:
   reference: true
   in-distribution: Circute distribution
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   implementation-type: formal description
   host-language: ALPACA
 
@@ -608,7 +608,7 @@ cfluviurrh:
   implementation-of: Cfluviurrh
   reference: true
   in-distribution: Cfluviurrh distribution
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: ANSI C
 
@@ -693,7 +693,7 @@ dieter.py:
   implementation-of: Dieter
   in-distribution: Dieter distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: typechecker
   host-language: Python
 
@@ -749,7 +749,7 @@ Eightebed:
   implementation-of: Eightebed
   in-distribution: Eightebed distribution
   reference: yes
-  license: BSD
+  license: BSD license
   implementation-type: compiler
   host-language: Python
   target-language: ANSI C
@@ -786,7 +786,7 @@ emmental.hs:
   implementation-of: Emmental
   in-distribution: Emmental distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Haskell
 
@@ -907,7 +907,7 @@ Flobnar.hs:
   implementation-of: Flobnar
   in-distribution: Flobnar distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Haskell
 
@@ -1008,7 +1008,7 @@ FBBI:
     specification, and, until recently, suffered from several major bugs.
   reference: false
   in-distribution: FBBI distribution
-  license: BSD
+  license: BSD license
   host-language: ANSI C
   implementation-type: interpreter
 
@@ -1133,7 +1133,7 @@ Hev.hs:
   implementation-of: Hev
   in-distribution: Hev distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Haskell
 
@@ -1184,7 +1184,7 @@ hunter.pl:
   implementation-of: Hunter
   in-distribution: Hunter distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 
@@ -1415,7 +1415,7 @@ jaccia.alp:
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   implementation-type: formal description
   host-language: ALPACA
 
@@ -1425,7 +1425,7 @@ jacciata.alp:
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   implementation-type: formal description
   host-language: ALPACA
 
@@ -1459,7 +1459,7 @@ kiceberg:
   implementation-of: Kangaroo Iceberg
   in-distribution: Kangaroo Iceberg distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: ANSI C
   broken: true
@@ -1670,7 +1670,7 @@ mascarpone.hs:
   type: Implementation
   implementation-of: Mascarpone
   in-distribution: Mascarpone distribution
-  license: BSD
+  license: BSD license
   reference: yes
   implementation-type: interpreter
   host-language: Haskell
@@ -1827,7 +1827,7 @@ worb.pl:
   type: Implementation
   implementation-of: noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
-  license: BSD
+  license: BSD license
   reference: yes
   implementation-type: interpreter
   host-language: Perl
@@ -1954,7 +1954,7 @@ Pail.lhs:
   implementation-of: Pail
   in-distribution: Pail distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Haskell
   required-libraries:
@@ -1992,7 +1992,7 @@ pixley.pix:
   implementation-of: Pixley
   in-distribution: Pixley distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Pixley
 
@@ -2025,7 +2025,7 @@ Qlzqqlzuup, the Lord of Flesh:
   implementation-of: Quylthulg
   in-distribution: Quylthulg distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Haskell
 
@@ -2075,7 +2075,7 @@ redgreen.alp:
   reference: true
   in-distribution: REDGREEN distribution
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   implementation-type: formal description
   host-language: ALPACA
 
@@ -2119,7 +2119,7 @@ rube.c:
   implementation-of: RUBE
   in-distribution: RUBE distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   # can also be built with C99
   host-language: ANSI C
@@ -2156,7 +2156,7 @@ sally2c:
   implementation-of: Sally
   in-distribution: Sally distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: compiler
   host-language: ANSI C
   target-language: ANSI C
@@ -2188,7 +2188,7 @@ sbeezg.erl:
   implementation-of: Sbeezg
   in-distribution: Sbeezg distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Erlang
 
@@ -2341,8 +2341,8 @@ smith.pl:
   type: Implementation
   implementation-of: SMITH
   in-distribution: SMITH distribution
-  reference: yes
-  license: BSD
+  reference: true
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 
@@ -2376,7 +2376,7 @@ squishy2k.pl:
   implementation-of: Squishy2K
   in-distribution: Squishy2K distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 
@@ -2428,8 +2428,8 @@ strelnokoff.pl:
   type: Implementation
   implementation-of: Strelnokoff
   in-distribution: Strelnokoff distribution
-  reference: yes
-  license: BSD
+  reference: true
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 
@@ -2657,7 +2657,7 @@ version.pl:
   type: Implementation
   implementation-of: Version
   in-distribution: Version distribution
-  license: BSD
+  license: BSD license
   reference: true
   host-language: Perl
   implementation-type: interpreter
@@ -2973,7 +2973,7 @@ ypsilax.pl:
   implementation-of: Ypsilax
   in-distribution: Ypsilax distribution
   reference: true
-  license: BSD
+  license: BSD license
   implementation-type: interpreter
   host-language: Perl
 

@@ -18,7 +18,7 @@ Bubble Escape (BASIC):
   type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
-  license: BSD
+  license: BSD license
   host-language: Commodore BASIC 2.0
   run-requirements:
   - Commodore 64
@@ -29,7 +29,7 @@ Bubble Escape 2K:
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   prebuilt-in-distribution: true
-  license: BSD
+  license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
   build-requirements:
@@ -44,7 +44,7 @@ Bubble Escape 8K:
   type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
-  license: BSD
+  license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
   run-requirements:
@@ -69,7 +69,7 @@ Bubble Escape 8K:
   type: Implementation
   implementation-of: 'Corona: Realm of Magic'
   in-distribution: 'Corona: Realm of Magic distribution'
-  license: BSD
+  license: BSD license
   host-language: Perl
   # TODO: we should handle language versions better than this
   host-language-version: "5.8"
@@ -95,7 +95,7 @@ Zzrk (Zz):
   type: Implementation
   implementation-of: Zzrk
   in-distribution: Zzrk distribution
-  license: BSD
+  license: BSD license
   host-language: Zz
   implemented-in-meta: true
   interface: terminal
@@ -116,7 +116,7 @@ swl:
   type: Implementation
   implementation-of: Super Wumpus Land
   in-distribution: Super Wumpus Land distribution
-  license: BSD
+  license: BSD license
   host-language: Perl
   host-language-version: "5.8"
   interface: terminal

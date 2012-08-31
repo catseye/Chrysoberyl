@@ -13,13 +13,15 @@
     
     It is
     {% if implementation_type %}
-      a <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a>,
+      <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
     {% endif %}
     written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-    {% if implementation_type == 'compiler' %}
+    {#-
+      for the blah architecture or platform
+    -#}
+    {%- if implementation_type == 'compiler' %}
       that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
-    {% endif -%}
-    .
+    {%- endif -%}.
     
     {% if in_distribution %}
       It is distributed in the <a href="{{ filekey(in_distribution) }}">{{ in_distribution }}</a>
@@ -27,13 +29,21 @@
     {% else %}
       It
     {% endif %}
-    {# TODO wording, public domain #}
-    is distributed under the
-    <a href="{{ filekey(license) }}">{{ license }}</a>
-    license.
+    {% if license == 'Public Domain' %}
+      is in the <a href="{{ filekey('Public Domain') }}">public domain</a>
+    {% elif license == 'Freely Redistributable' %}
+      is freely redistributable unmodified for non-commercial purposes
+    {% elif license == 'Proprietary' %}
+      is proprietary software
+    {% elif license == 'Unknown license' %}
+      has unknown licensing terms
+    {% else %}
+      is distributed under the
+      <a href="{{ filekey(license) }}">{{ license }}</a>
+    {%- endif -%}.
   </p>
-  {% if description %}
-    <p>{{ description }}</p>
+  {% if description_html %}
+    <p>{{ description_html }}</p>
   {% endif %}
 {% endblock description %}
 

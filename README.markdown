@@ -37,9 +37,11 @@ whose `type` is `type`.)
 
 Each node may have any of the following fields:
 
-*   `description`
-*   `summary`
-*   `subtitle`
+*   `summary` -- a one-line summary of the node
+*   `description` -- a relatively objective description of the node
+*   `commentary` -- a subjective opinion, by Chris Pressey, of the node
+*   `subtitle` -- expanding on the name of the node
+*   `acronym-for` -- expanding the name of the node
 *   ...
 
 In addition, nodes of particular types may have fields that have meaning
@@ -128,6 +130,10 @@ Generalize "Family" to be families of anything, perhaps.
 Perhaps nodes can "belong to" other nodes: lingography and favourite
 video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
+Are "Architecture" and "Platform" unifiable?
+
+`host-architecture` and/or `host-platform` on implementations.
+
 ### templates ###
 
 Better provision of documentation in templates.
@@ -144,12 +150,8 @@ List what you need to build or run an implementation.
 Extrapolate the above two for distributions (do that for each implementation
 in the distribution.)
 
-"a" vs. "an" ("a compiler", "an interpreter")
-
-Show the reference distribution for an implementable.
-
 If an implementation is in a framework, display that
-(e.g. " It is a interpreter, written in Java, in the yoob framework")
+(e.g. " It is an interpreter, written in Java, in the yoob framework")
 
 If an implementation allows visual debugging or animation, note that.
 
@@ -160,8 +162,6 @@ More descriptions on things.
 Add my music.
 
 Add LoUIE.
-
-License keys should be reworded, e.g. "BSD license"
 
 SMITH, Larabee, ZOWIE are "Assembly" languages (close 'nuff).
 

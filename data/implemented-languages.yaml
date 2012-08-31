@@ -17,7 +17,7 @@ pibfi:
   in-distribution: pibfi distribution
   acronym-for: Platonic Ideal Brainfuck Interpeter
   reference: no
-  license: BSD
+  license: BSD license
   host-language: Erlang
   implementation-type: interpreter
   description: |
@@ -51,7 +51,7 @@ muriel.pl:
   implementation-of: Muriel
   in-distribution: Muriel distribution
   reference: no
-  license: BSD
+  license: BSD license
   host-language: Perl
   implementation-type: interpreter
   description: |
@@ -80,7 +80,7 @@ valgol.erl:
   type: Implementation
   implementation-of: VALGOL
   reference: no
-  license: BSD
+  license: BSD license
   host-language: Erlang
   implementation-type: parser
   description: |
@@ -111,7 +111,7 @@ sf2tab:
   type: Implementation
   implementation-of: Smallfuck
   reference: no
-  license: BSD
+  license: BSD license
   host-language: ANSI C
   target-language: lookup table
   implementation-type: compiler

@@ -652,7 +652,7 @@ Ophis:
   # XXX ASSEMBLER PLZ
   implementation-type: compiler
   reference: true
-  license: MIT
+  license: MIT license
   host-language: Python
   target-language: 6502 machine code
   in-distribution: Ophis Assembler distribution

@@ -17,7 +17,7 @@ wumpus.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD
+  license: BSD license
   inception-date: ca 1999?
   host-language: Erlang
 
@@ -45,7 +45,7 @@ animals.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD
+  license: BSD license
   inception-date: ca 1999?
   host-language: Erlang
   interface: terminal
@@ -69,7 +69,7 @@ flip.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD
+  license: BSD license
   inception-date: ca 1999?
   host-language: Erlang
   interface: terminal
@@ -93,7 +93,7 @@ esoko:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD
+  license: BSD license
   inception-date: ca 1999?
   host-language: Erlang
   required-libraries:

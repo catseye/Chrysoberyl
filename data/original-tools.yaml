@@ -32,7 +32,7 @@
   type: Implementation
   implementation-of: 'Console::Virtual'
   in-distribution: 'Console::Virtual distribution'
-  license: BSD
+  license: BSD license
   host-language: Perl
 
 'Console::Virtual distribution': 
@@ -69,7 +69,7 @@ crone.erl:
   type: Implementation
   implementation-of: crone
   in-distribution: 'crone distribution'
-  license: BSD
+  license: BSD license
   host-language: Erlang
 
 crone distribution: 
@@ -114,7 +114,7 @@ Test.Falderal:
   type: Implementation
   implementation-of: Falderal
   in-distribution: 'Falderal distribution'
-  license: BSD
+  license: BSD license
   host-language: Haskell
 
 py-falderal:
@@ -122,7 +122,7 @@ py-falderal:
   implementation-of: Falderal
   # well, this is actually not true yet, but:
   in-distribution: Falderal distribution
-  license: BSD
+  license: BSD license
   host-language: Python
 
 Falderal distribution: 
@@ -203,7 +203,7 @@ toolshelf.py:
   type: Implementation
   implementation-of: toolshelf
   in-distribution: toolshelf distribution
-  license: MIT
+  license: MIT license
   host-language: Python
 
 toolshelf distribution: 
@@ -233,7 +233,7 @@ TPiS (Scheme):
   type: Implementation
   implementation-of: TPiS
   in-distribution: TPiS distribution
-  license: BSD
+  license: BSD license
   host-language: Scheme
 
 TPiS distribution: 
@@ -266,7 +266,7 @@ yucca:
   type: Implementation
   implementation-of: yucca
   in-distribution: yucca distribution
-  license: MIT
+  license: MIT license
   host-language: Python
 
 yucca distribution: 

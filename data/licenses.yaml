@@ -1,5 +1,5 @@
 # encoding: UTF-8
-BSD:
+BSD license:
   type: License
   commentary: |
     In releasing software as [open-source](opensource.html),
@@ -14,7 +14,7 @@ GPL:
   type: License
 LGPL:
   type: License
-MIT:
+MIT license:
   type: License
 Public Domain:
   type: License

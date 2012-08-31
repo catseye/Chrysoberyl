@@ -296,10 +296,18 @@ class Renderer(object):
             doc_node = data['Documentation Index']
             return doc_node['entries'].get(key, [])
 
+        def indefart(text):
+            # "u" is dicey
+            if text.startswith(("a", "e", "i", "o", "u")):
+                return "an " + text
+            else:
+                return "a " + text
+
         # functions
         context['filekey'] = filekey
         context['implementations'] = implementations
         context['documentation'] = documentation
+        context['indefart'] = indefart
 
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)

@@ -12,8 +12,8 @@
     {{ data[distribution_of].type }}
     <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a>.
   </p>
-  {% if description %}
-    <p>{{ description }}</p>
+  {% if description_html %}
+    <p>{{ description_html }}</p>
   {% endif %}
 {% endblock description %}
 
