@@ -87,3 +87,5 @@ Ranking:
   type: type
 Collection:
   type: type
+Metadata:
+  type: type
