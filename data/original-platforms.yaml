@@ -19,14 +19,13 @@ BefOS:
   influences:
   - Befunge-93
   inception-date: Unknown
-  implementations:
-  - BefOS (NASM)
   dimensionality: 2
   reference-distribution: BefOS distribution
   esowiki: BefOS
 
 BefOS (NASM):
-  type: Platform Implementation
+  type: Implementation
+  implementation-of: BefOS
   in-distribution: BefOS distribution
   license: Public Domain
   host-language: NASM Assembler
@@ -67,16 +66,12 @@ yoob:
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   inception-date: Unknown
-  implementations:
-  - tc.catseye.yoob
   reference-distribution: 'yoob distribution'
   esowiki: yoob
-  #keywords:
-  #- 2d
-  #- animated
 
 tc.catseye.yoob:
-  type: Platform Implementation
+  type: Implementation
+  implementation-of: yoob
   in-distribution: yoob distribution
   license: Public Domain
   host-language: Java

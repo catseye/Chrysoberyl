@@ -1,6 +1,6 @@
 # encoding: UTF-8
 miniscm:
-  type: Language Implementation
+  type: Implementation
   in-distribution: Minischeme distribution
   license: Public Domain
   # R4RS Scheme, maybe
@@ -18,11 +18,12 @@ Minischeme distribution:
   releases: []
 
 JaC64:
-  type: Tool Implementation
+  type: Implementation
   in-distribution: JaC64 distribution
   license: GPL
   implementation-of: Commodore 64
-  implementation-type: emulator
+  # XXX SHOULD BE EMULATOR
+  implementation-type: interpreter
   host-language: Java
 
 JaC64 distribution: 
@@ -36,7 +37,7 @@ JaC64 distribution:
   releases: []
 
 OpenZz:
-  type: Language Implementation
+  type: Implementation
   in-distribution: OpenZz distribution
   license: GPL
   implementation-of: Zz

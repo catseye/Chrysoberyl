@@ -6,12 +6,6 @@ Concept:
   type: type
 Distribution:
   type: type
-License:
-  type: type
-Development Stage:
-  type: type
-Implementation Type:
-  type: type
 Computational Class:
   type: type
 Genre:
@@ -24,23 +18,23 @@ Individual:
   type: type
 Organization:
   type: type
-Game:
+# implementations:
+Implementation:
   type: type
-Game Implementation:
+Implementation Type:
+  type: type
+Development Stage:
+  type: type
+License:
+  type: type
+# implementables:
+Game:
   type: type
 Library:
   type: type
-Library Implementation:
-  type: type
 Tool:
   type: type
-Tool Implementation:
-  type: type
 Platform:
-  type: type
-Platform Implementation:
-  type: type
-Programming Language Family:
   type: type
 Programming Language:
   type: type
@@ -75,9 +69,9 @@ Programming Language:
     language for every software project. That's why you'll always choose
     [[C++]] no matter *what* the software project is.
 
-Programming Paradigm:
+Programming Language Family:
   type: type
-Language Implementation:
+Programming Paradigm:
   type: type
 Abstract Artlang:
   type: type

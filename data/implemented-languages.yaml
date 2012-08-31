@@ -12,7 +12,7 @@ brainfuck:
   has-reference-distribution: false
 
 pibfi:
-  type: Language Implementation
+  type: Implementation
   implementation-of: brainfuck
   in-distribution: pibfi distribution
   acronym-for: Platonic Ideal Brainfuck Interpeter
@@ -46,7 +46,7 @@ Muriel:
   has-reference-distribution: false
 
 muriel.pl:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Muriel
   in-distribution: Muriel distribution
   reference: no
@@ -76,7 +76,7 @@ VALGOL:
   has-reference-distribution: false
 
 valgol.erl:
-  type: Language Implementation
+  type: Implementation
   implementation-of: VALGOL
   reference: no
   license: BSD
@@ -106,7 +106,7 @@ Smallfuck:
   has-reference-distribution: false
 
 sf2tab:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Smallfuck
   reference: no
   license: BSD
@@ -136,7 +136,7 @@ Underload:
   has-reference-distribution: false
 
 stringie:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Underload
   reference: no
   license: Public Domain
@@ -168,7 +168,7 @@ stringie:
   has-reference-distribution: false
 
 'PL-{GOTO}.NET':
-  type: Language Implementation
+  type: Implementation
   implementation-of: PL-{GOTO}
   in-distribution: PL-{GOTO}.NET distribution
   reference: no
@@ -215,7 +215,7 @@ Ale:
   has-reference-distribution: false
 
 tc.catseye.yoob.ale:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Ale
   reference: no
   license: Public Domain
@@ -240,7 +240,7 @@ Backflip:
   has-reference-distribution: false
 
 tc.catseye.yoob.backflip:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Backflip
   reference: no
   license: Public Domain
@@ -265,7 +265,7 @@ Black:
   has-reference-distribution: false
 
 tc.catseye.yoob.black:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Black
   reference: no
   license: Public Domain
@@ -291,7 +291,7 @@ LNUSP:
   has-reference-distribution: false
 
 tc.catseye.yoob.lnusp:
-  type: Language Implementation
+  type: Implementation
   implementation-of: LNUSP
   reference: no
   license: Public Domain
@@ -328,7 +328,7 @@ tc.catseye.yoob.lnusp:
   has-reference-distribution: false
 
 tc.catseye.yoob.onela:
-  type: Language Implementation
+  type: Implementation
   implementation-of: 1L_a
   reference: no
   license: Public Domain
@@ -354,7 +354,7 @@ tc.catseye.yoob.onela:
   has-reference-distribution: false
 
 tc.catseye.yoob.onelaoi:
-  type: Language Implementation
+  type: Implementation
   implementation-of: 1L_AOI
   reference: no
   license: Public Domain
@@ -380,7 +380,7 @@ PATH:
   has-reference-distribution: false
 
 tc.catseye.yoob.path:
-  type: Language Implementation
+  type: Implementation
   implementation-of: PATH
   reference: no
   license: Public Domain
@@ -405,7 +405,7 @@ Qdeql:
   has-reference-distribution: false
 
 tc.catseye.yoob.qdeql:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Qdeql
   reference: no
   license: Public Domain
@@ -430,7 +430,7 @@ Sceql:
   has-reference-distribution: false
 
 tc.catseye.yoob.sceql:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Sceql
   reference: no
   license: Public Domain
@@ -456,7 +456,7 @@ SNUSP:
   has-reference-distribution: false
 
 tc.catseye.yoob.snusp:
-  type: Language Implementation
+  type: Implementation
   implementation-of: SNUSP
   reference: no
   license: Public Domain
@@ -484,7 +484,7 @@ tc.catseye.yoob.snusp:
   has-reference-distribution: false
 
 tc.catseye.yoob.twoill:
-  type: Language Implementation
+  type: Implementation
   implementation-of: 2-ill
   reference: no
   license: Public Domain
@@ -510,7 +510,7 @@ tc.catseye.yoob.twoill:
   has-reference-distribution: false
 
 tc.catseye.yoob.twol:
-  type: Language Implementation
+  type: Implementation
   implementation-of: 2L
   reference: no
   license: Public Domain

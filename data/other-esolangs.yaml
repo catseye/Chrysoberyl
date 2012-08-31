@@ -56,7 +56,7 @@ RUBE II:
   dimensionality: 2
 
 rube_ii:
-  type: Language Implementation
+  type: Implementation
   implementation-of: RUBE II
   in-distribution: RUBE II distribution
   reference: true
@@ -102,7 +102,7 @@ Thue:
     in other words, it's a tar pit.
 
 thue.c:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Thue
   authors:
   - John Colagioia
@@ -112,7 +112,7 @@ thue.c:
   can-be-built-with-borland-c: true
 
 thue.py:
-  type: Language Implementation
+  type: Implementation
   implementation-of: Thue
   authors:
   - Frédéric van der Plancke

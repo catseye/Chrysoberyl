@@ -10,7 +10,7 @@ Hunt the Wumpus:
   has-reference-distribution: false
 
 wumpus.erl:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Hunt the Wumpus
   in-distribution: Hunt the Wumpus distribution
   authors:
@@ -37,7 +37,7 @@ Animals:
   authors: []
 
 animals.erl:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Animals
   in-distribution: Animals distribution
   authors:
@@ -60,7 +60,7 @@ Flip:
   authors: []
 
 flip.erl:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Flip
   in-distribution: Flip distribution
   authors:
@@ -83,7 +83,7 @@ Sokoban:
   authors: []
 
 esoko:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Sokoban
   in-distribution: esoko distribution
   authors:

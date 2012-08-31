@@ -48,56 +48,110 @@ for that type.
 Specific Schema
 ---------------
 
-A language may have multiple distributions.  There will typically be
+In the following, an "implementable" (for lack of a better term)
+refers to the programming language, or a game, or a tool or a library.
+
+An implementable may have multiple distributions.  There will typically be
 a reference distribution, which contains the spec and/or reference
-implementation of the language.  (Although, this "distribution" might
-just be a page on a wiki.)  Only one distribution can be the reference
-distribution for a language.
+implementation of the implementable.  If there is no reference distribution,
+a link to its specification (even if it's just a page on a wiki) or
+standards body (even if it's just "the official website") is needed.
+Only one distribution can be the reference distribution for an implementable.
 
-If `has-reference-distribution` is not false, we expect a language to
+**NOTE: the following is currently a lie**
+
+Therefore, every implementable needs at least one of the following:
+
+*   `reference-distribution` (a key)
+*   `specification-link` (a URL)
+*   `standards-body` (a URL)
+
+If neither of the second two are present, we expect an implementable to
 have a `reference-distribution`.  If that key is not present, we look
-for a distribution called `Language distribution` where `Language`
-is the name of the language.
+for a distribution called `FOO distribution` where `FOO` is the name of
+the implementable.
 
-A language may also have multiple implementations.  Each implementation
-may or may not be in a distribution; a distribution may contain
+An implementable may also have multiple implementations.  Each implementation
+may or may not be in a distribution, and a distribution may contain
 multiple implementations.  Only one implementation can be the reference
-implementation for a language.
+implementation for an implementable.
 
-If a language implementation does not give authors, they are assumed to
-be the authors of the language.  Ditto auspices.
+If an implementation does not give authors, they are assumed to be the
+authors of the implementable it implements.  Ditto auspices.
 
 A distribution has releases and, often, can be checked out of some version
 control system, and, often, has a place to report bugs.  An implementation,
 by itself, has none of those things (at least not in a structured way -- it
-might simply be a page on a wiki somewhere.)
+might simply be a page on a wiki somewhere.)  The releases of a distribution
+should be sorted from earliest to latest.
 
-The releases of a distribution should be sorted from earliest to latest.
+On the other hand, neither distributions nor implementables have licenses,
+but implementations do.  The license of a distribution can be inferred from
+the licenses of the implementations contained with it.
 
-Any tool which understands a language may be considered an implementation:
-an interpreter, a compiler, a parser, a static analyzer, a pretty-printer,
-etc., are all implementations.
+### side note ###
+
+Any tool which understands a language may be considered an implementation
+of that language: an interpreter, a compiler, a parser, a static analyzer, a
+pretty-printer, etc., are all implementations.
+
+This is actually kind of weird (e.g. yucca is an implementation of BASIC?)
+but we'll go with it for now.
 
 License
 -------
 
-For now, freely redistributable unmodified -- plus you are allowed
-to fork the repository for the purpose of submitting corrections to the
-information.
+For now, freely redistributable unmodified for non-commercial purposes --
+plus you are allowed to fork the repository for the purpose of submitting
+corrections to the information.
 
 TODO
 ----
+
+### structure ###
 
 Every language may (or must, if it does not have a reference distribution)
 have a link to its specification body and/or its specification documents.
 
 Perhaps nodes can "belong to" other nodes: lingography and favourite
-video games "belong" to Chris Pressey, etc.
+video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
-Script to troll for documentation from reference distributions and
-collect it into some place (possibly another Yaml file but in a different
-format.)  And link to those documentations.  Or incorporate them.
+Some documentation in a reference distribution relates to the implementable
+and some of it relates to the distribution and some of it relates to
+the implementation(s) within the distribution.  Split it up so.
 
-Have `Implementation` be a type, with a field `implementation_of_type`
-being another type (`Programming Language` or `Game`), to unify all the
-things that are common to implementations.
+We need an `emulator` implementation type which specified both a language
+and an architecture (e.g. VICE, language = 6502, arch = C64;
+Bochs, language = IA-32, arch = PC.)
+
+We need some way of linking an assembly language to a machine language;
+I guess we can consider the implementation to be a compiler (Ophis,
+implements Ophis assembly, target-language 6502.)
+
+Some implementations can both compile and interpret.  Some compilers
+can target multiple target languages.  Handle both of these.
+
+Check multiple types in checker (e.g. each author can be an Individual or
+an Organization.)
+
+### templates ###
+
+Better provision of documentation in templates.
+
+Give each implementation an automatic description (followed by any
+specified description.)  Customize by `implementation-of-type`.
+
+Give each distribution an automatic description (followed by any
+specified description.)
+
+### content ###
+
+More descriptions on things.
+
+Add my music.
+
+Add LoUIE.
+
+### other ###
+
+Better collection of documentation.

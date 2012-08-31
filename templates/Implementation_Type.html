@@ -2,11 +2,11 @@
 
 {% block content %}
 
-<h2>All Language Implementations of type "{{ key }}"</h2>
+<h2>All implementations of type "{{ key }}"</h2>
 
 <ul>
 {% for thing in data.keys()|sort %}
-  {% if data[thing].type == 'Language Implementation' and
+  {% if data[thing].type == 'Implementation' and
         data[thing].implementation_type == key %}
     <li>
       <a href="{{ filekey(thing) }}">{{ thing }}</a>

@@ -8,11 +8,10 @@ basedump:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - basedump.erl
 
 basedump.erl:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: basedump
   in-distribution: basedump distribution
   license: BSD
   host-language: Erlang
@@ -35,11 +34,10 @@ belld:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - belld.c
 
 belld.c:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: belld
   in-distribution: belld distribution
   license: BSD
   host-language: C99
@@ -61,11 +59,10 @@ brace:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - brace.c
 
 brace.c:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: brace
   in-distribution: brace distribution
   license: BSD
   host-language: C99
@@ -88,11 +85,10 @@ ce:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - ce (Erlang)
 
 ce (Erlang):
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: ce
   in-distribution: ce distribution
   license: BSD
   host-language: Erlang
@@ -114,11 +110,10 @@ ec:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - ec.erl
 
 ec.erl:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: ec
   in-distribution: ec distribution
   license: BSD
   host-language: Erlang
@@ -140,14 +135,13 @@ erlaunch:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - erlaunch.c
   commentary: |
     Not really useful anymore, as startup time for recent versions
     of Erlang/OTP is pretty good.
 
 erlaunch.c:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: erlaunch
   in-distribution: erlaunch distribution
   license: BSD
   host-language: C99
@@ -169,12 +163,11 @@ noise:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - noise (Perl)
 
 # also in dipple
 noise (Perl):
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: noise
   in-distribution: noise distribution
   license: BSD
   host-language: Perl
@@ -200,8 +193,6 @@ OpenFlax:
     OpenFlax is an experimental open-source web server written in 100% Erlang,
     designed with security and simplicity in mind.
   inception-date: ca 2002
-  implementations:
-  - OpenFlax (Erlang)
   references: 
   - title: Inets
     description: Standard Erlang Webserver
@@ -220,7 +211,8 @@ OpenFlax:
     url: http://skrb.org/ietf/http_errata.html
 
 OpenFlax (Erlang):
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: OpenFlax
   in-distribution: 'OpenFlax distribution'
   license: BSD
   host-language: Erlang
@@ -241,13 +233,12 @@ peruse:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  implementations:
-  - peruse.erl
   commentary: |
     ISTR it had some bugs in it, and who uses the Erlang logfile format anyway?
 
 peruse.erl:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: peruse
   in-distribution: peruse distribution
   license: BSD
   host-language: Erlang

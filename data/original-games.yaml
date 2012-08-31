@@ -15,7 +15,7 @@
     where (surprisingly, to me!) it got first place in its class.
 
 Bubble Escape (BASIC):
-  type: Game Implementation
+  type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   license: BSD
@@ -25,7 +25,7 @@ Bubble Escape (BASIC):
   controls: joystick
 
 Bubble Escape 2K:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   prebuilt-in-distribution: true
@@ -41,7 +41,7 @@ Bubble Escape 2K:
   controls: joystick
 
 Bubble Escape 8K:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
   license: BSD
@@ -66,7 +66,7 @@ Bubble Escape 8K:
     Entertainment Modules.)
 
 'Corona: Realm of Magic (Perl)':
-  type: Game Implementation
+  type: Implementation
   implementation-of: 'Corona: Realm of Magic'
   in-distribution: 'Corona: Realm of Magic distribution'
   license: BSD
@@ -92,7 +92,7 @@ Zzrk:
     used for defining compilers.)
 
 Zzrk (Zz):
-  type: Game Implementation
+  type: Implementation
   implementation-of: Zzrk
   in-distribution: Zzrk distribution
   license: BSD
@@ -113,7 +113,7 @@ Super Wumpus Land:
     An "extended dance mix" version of [[Hunt the Wumpus]].
 
 swl:
-  type: Game Implementation
+  type: Implementation
   implementation-of: Super Wumpus Land
   in-distribution: Super Wumpus Land distribution
   license: BSD

@@ -735,7 +735,7 @@ x86 machine code:
 
 # urk.  We actually need an 'emulator' implementation-type, don't we
 Bochs:
-  type: Language Implementation
+  type: Implementation
   implementation-of: x86 machine code
   links:
   - 'http://bochs.sourceforge.net/'

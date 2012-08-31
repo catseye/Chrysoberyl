@@ -27,11 +27,9 @@
       module, or some other module which provides a compatible
       interface, be installed.
   inception-date: ca 2003
-  implementations:
-  - 'Console::Virtual (Perl module)'
 
 'Console::Virtual (Perl module)':
-  type: Library Implementation
+  type: Implementation
   implementation-of: 'Console::Virtual'
   in-distribution: 'Console::Virtual distribution'
   license: BSD
@@ -68,7 +66,7 @@ crone:
   inception-date: Unknown
 
 crone.erl:
-  type: Tool Implementation
+  type: Implementation
   implementation-of: crone
   in-distribution: 'crone distribution'
   license: BSD
@@ -111,18 +109,17 @@ Falderal:
     (Note: update the version number in the above paragraph and mention
     py-falderal.)
   inception-date: 2011
-  implementations:
-  - Test.Falderal
-  - py-falderal
 
 Test.Falderal:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: Falderal
   in-distribution: 'Falderal distribution'
   license: BSD
   host-language: Haskell
 
 py-falderal:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: Falderal
   # well, this is actually not true yet, but:
   in-distribution: Falderal distribution
   license: BSD
@@ -165,18 +162,17 @@ mzstorkipiwanbotbotbot:
   description: |
     An IRC bot with no purpose or plan.
   inception-date: Unknown
-  implementations:
-  - mzstorkipiwanbotbotbot (Lua)
-  - Rtype
 
 mzstorkipiwanbotbotbot (Lua):
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: mzstorkipiwanbotbotbot
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
   host-language: Lua
 
 Rtype:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: mzstorkipiwanbotbotbot
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
   host-language: R
@@ -202,11 +198,10 @@ toolshelf:
     those trees. The source trees are typically the working directories of
     local git or Mercurial clones, or they can be source distributions from tarballs.
   inception-date: 2012
-  implementations:
-  - toolshelf.py
 
 toolshelf.py:
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: toolshelf
   in-distribution: toolshelf distribution
   license: MIT
   host-language: Python
@@ -233,11 +228,10 @@ TPiS:
     is written almost entirely in a primitive-recursive style, so it can
     check itself!
   inception-date: ca 2006
-  implementations:
-  - TPiS (Scheme)
 
-'TPiS (Scheme)':
-  type: Tool Implementation
+TPiS (Scheme):
+  type: Implementation
+  implementation-of: TPiS
   in-distribution: TPiS distribution
   license: BSD
   host-language: Scheme
@@ -267,11 +261,10 @@ yucca:
     which refer to non-existent line numbers, or line numbers which contain
     only a `REM`, among a few other modest features.
   inception-date: 2012
-  implementations:
-  - yucca (Python)
 
 'yucca (Python)':
-  type: Tool Implementation
+  type: Implementation
+  implementation-of: yucca
   in-distribution: yucca distribution
   license: MIT
   host-language: Python

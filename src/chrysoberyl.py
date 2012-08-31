@@ -127,6 +127,9 @@ def check_chrysoberyl_data(data):
       if 'auspices' in node:
           assert 'authors' in node, "auspices but no authors in '%s'" % key
 
+      check_optional_scalar_ref(data, key, node, 'development-stage',
+                                type_='Development Stage')
+
       if type_ == 'Distribution':
           # (this has multiple possible types)
           check_scalar_ref(data, key, node, 'distribution-of')
@@ -145,16 +148,23 @@ def check_chrysoberyl_data(data):
           check_optional_list_ref(data, key, node, 'required-libraries')
           check_optional_list_ref(data, key, node, 'run-requirements')
 
-      if type_ == 'Language Implementation':
-          check_scalar_ref(data, key, node, 'implementation-of',
-                           type_='Programming Language')
-          check_scalar_ref(data, key, node, 'implementation-type',
-                           type_='Implementation Type')
-          if node['implementation-type'] == 'compiler':
-              check_scalar_ref(data, key, node, 'target-language',
-                               type_='Programming Language')
-          assert 'source-language' not in node, \
-              "in %s use implementation-of instead" % key
+      if type_ == 'Implementation':
+          check_scalar_ref(data, key, node, 'implementation-of')
+
+          # for convenience, bring in the type of the thing being implemented
+          impl_of_type = data[node['implementation-of']]['type']
+          node['implementation-of-type'] = impl_of_type
+
+          if impl_of_type == 'Programming Language':
+              check_scalar_ref(data, key, node, 'implementation-type',
+                               type_='Implementation Type')
+              if node['implementation-type'] == 'compiler':
+                  check_scalar_ref(data, key, node, 'target-language',
+                                   type_='Programming Language')
+          else:
+              check_optional_scalar_ref(data, key, node, 'implementation-type',
+                               type_='Implementation Type')
+
           if 'authors' not in node:
               pl_node = data[node['implementation-of']]
               node['authors'] = pl_node.get('authors', None)
@@ -166,12 +176,12 @@ def check_chrysoberyl_data(data):
                   node['reference-distribution'] = '%s distribution' % key
               check_scalar_ref(data, key, node, 'reference-distribution',
                                type_='Distribution')
+          check_optional_list_ref(data, key, node, 'influences')
+          assert 'implementations' not in node, \
+              "'%s' has 'implementations' but shouldn't" % key
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
-          assert 'implementations' not in node, \
-              "'%s' has 'implementations' but shouldn't" % key
-          check_optional_list_ref(data, key, node, 'influences')
           check_list_ref(data, key, node, 'authors')
 
       if type_ == 'Programming Language':
@@ -181,8 +191,6 @@ def check_chrysoberyl_data(data):
                                     type_='Computational Class')
           check_optional_scalar_ref(data, key, node, 'member-of',
                                     type_='Programming Language Family')
-          check_optional_scalar_ref(data, key, node, 'development-stage',
-                                    type_='Development Stage')
           check_optional_list_ref(data, key, node, 'paradigms',
                                   type_='Programming Paradigm')
 

@@ -2,7 +2,9 @@
 
 {% block content %}
 
-<p>Implementation type: <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a></p>
+{% if implementation_type %}
+  <p>Implementation type: <a href="{{ filekey(implementation_type) }}">{{ implementation_type }}</a></p>
+{% endif %}
 
 <p>Implementation of <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>
   in <a href="{{ filekey(host_language) }}">{{ host_language }}</a></p>

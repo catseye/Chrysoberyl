@@ -1,6 +1,6 @@
 # encoding: UTF-8
 Borland C++:
-  type: Language Implementation
+  type: Implementation
   implementation-of: C++
   reference: no
   license: Proprietary
