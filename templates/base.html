@@ -33,13 +33,37 @@
     <p id="wikipedia">Wikipedia: <a href="http://wikipedia.org/wiki/{{ wikipedia }}">{{ wikipedia }}</a></p>
   {% endif %}
 
-  {% if description %}
-    <h2>Description</h2>
-    <p id="description">{{ description_html }}</p>
-  {% endif %}
+  {% block description %}
+    {% if description %}
+      <h2>Description</h2>
+      <p id="description">{{ description_html }}</p>
+    {% endif %}
+  {% endblock description %}
+
+  {% block documentation %}
+    {% if documentation() %}
+      <h2>Documentation</h2>
+      <ul>
+        {% for document in documentation() %}
+          <li>{{ document }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endblock documentation %}
 
   {% block content %}
   {% endblock content %}
+
+  {% if see_also %}
+    <h2>See Also</h2>
+    <ul>
+      {% for thing in see_also %}
+      <li>
+        <a href="{{ filekey(thing) }}">{{ thing }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   {% if references %}
   <h2>References</h2>

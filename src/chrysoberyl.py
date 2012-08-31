@@ -268,9 +268,14 @@ class Renderer(object):
                     i.append(thing)
             return i
 
+        def documentation(key=key):
+            doc_node = data['Documentation Index']
+            return doc_node['entries'].get(key, [])
+
         # functions
         context['filekey'] = filekey
         context['implementations'] = implementations
+        context['documentation'] = documentation
 
         template = self.get_template(node)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)

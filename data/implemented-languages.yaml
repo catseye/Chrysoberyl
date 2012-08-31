@@ -284,7 +284,8 @@ LNUSP:
   paradigms:
   - Imperative
   - 2-dimensional
-  authors: []
+  authors:
+  - Zzo38
   esowiki: LNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -320,7 +321,8 @@ tc.catseye.yoob.lnusp:
   paradigms:
   - Imperative
   - 2-dimensional
-  authors: []
+  authors:
+  - Catatonic Porpoise
   esowiki: 1L_a
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -345,7 +347,8 @@ tc.catseye.yoob.onela:
   paradigms:
   - Imperative
   - 2-dimensional
-  authors: []
+  authors:
+  - Tslil Clingman
   esowiki: 1L_AOI
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -370,7 +373,8 @@ PATH:
   paradigms:
   - Imperative
   - 2-dimensional
-  authors: []
+  authors:
+  - Francis Rogers
   esowiki: PATH
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -394,7 +398,8 @@ Qdeql:
   genre: Esolang
   paradigms:
   - Queue-based
-  authors: []
+  authors:
+  - Catatonic Porpoise
   esowiki: Qdeql
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -418,7 +423,8 @@ Sceql:
   genre: Esolang
   paradigms:
   - Queue-based
-  authors: []
+  authors:
+  - Catatonic Porpoise
   esowiki: Sceql
   computational-class: unknown computational class
   has-reference-distribution: false
@@ -443,7 +449,8 @@ SNUSP:
   paradigms:
   - Imperative
   - 2-dimensional
-  authors: []
+  authors:
+  - Daniel Brockman
   esowiki: SNUSP
   computational-class: unknown computational class
   has-reference-distribution: false
