@@ -130,10 +130,10 @@ Generalize "Family" to be families of anything, perhaps.
 Perhaps nodes can "belong to" other nodes: lingography and favourite
 video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
-Are "Architecture" and "Platform" unifiable?
-
 Compilers might be optionally able to specify a
 target architecture (distinct from target language.)
+
+Maybe something other than "emulator" for yoob and BefOS, eh?
 
 ### templates ###
 
@@ -159,6 +159,8 @@ List all architectures whose native-language is this language, and whose
 other-languages include this language.
 
 ### content ###
+
+"ANSI Terminal" is not a platform.
 
 More descriptions on things.
 

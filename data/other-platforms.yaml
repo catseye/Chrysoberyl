@@ -1,9 +1,12 @@
 # encoding: UTF-8
 MS-DOS:
   type: Platform
+  standards-body: http://microsoft.com/
+  native-language: 80286 machine code
+  # I dunno, batch maybe?
+  other-languages: []
   links:
   - 'http://www.freedos.org/'
-  - 'http://www.dosbox.com/'
   - 'http://bochs.sourceforge.net/'
   as-a-prerequisite: |
     This project assumes that it will be running under MS-DOS or something
@@ -27,10 +30,23 @@ MS-DOS:
     I think the only thing that requires MS-DOS is shelta; and even then, it might
     rely only on the BIOS interface, I forget.
 
+DOSBox:
+  type: Implementation
+  implementation-of: MS-DOS
+  implementation-type: emulator
+  host-language: C++
+  license: GPL
+  links:
+  - 'http://www.dosbox.com/'
+
 Cygwin:
   type: Platform
+  standards-body: http://www.cygwin.com/
+  # XXX ok this is not the greatest data model
+  native-language: 80286 machine code
+  other-languages: []
   description: |
-    [Cygwin](http://www.cygwin.com/) is a compatibility layer for Windows
+    Cygwin is a compatibility layer for Windows
     which lets you build and run software which expects a Unix-like
     operating system.
   commentary: |    
@@ -64,8 +80,10 @@ Cygwin:
 
 ANSI Terminal:
   type: Platform
-  links:
-  - 'http://www.ecma-international.org/publications/standards/Ecma-048.htm'
+  # XXX ok this is not the greatest data model
+  native-language: 80286 machine code
+  other-languages: []
+  specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
   as-a-prerequisite: |
     Executables of this project need to run in a terminal which understand
     the ANSI terminal control codes (more formally known as "ECMA-48") in

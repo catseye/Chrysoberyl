@@ -2,7 +2,9 @@
 # architectures, also their machine languages and other supported languages,
 # and emulators for them
 Apple II:
-  type: Architecture
+  type: Platform
+  # haha
+  standards-body: http://apple.com/
   native-language: 6502 machine code
   other-languages:
   - Applesoft BASIC
@@ -66,7 +68,8 @@ Applesoft BASIC:
 
 
 Commodore 64:
-  type: Architecture
+  type: Platform
+  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
@@ -99,12 +102,13 @@ Commodore BASIC 2.0:
   authors: []
 
 
-x86 architecture:
-  type: Architecture
+IBM PC compatible:
+  type: Platform
+  # there are just so many damn specifications I could point to... for now:
+  no-specification: true
+  wikipedia: IBM PC compatible
   native-language: 80286 machine code
   other-languages: []
-  links:
-  - 'http://www.bochs.org/'
   as-a-prerequisite: |
     This project assumes that it will be running on a fairly standard
     x86-based (IA-32) computer architecture, from the lineage that dates
@@ -137,7 +141,7 @@ x86 architecture:
 
 Bochs:
   type: Implementation
-  implementation-of: x86 architecture
+  implementation-of: IBM PC compatible
   links:
   - 'http://bochs.sourceforge.net/'
   license: LGPL

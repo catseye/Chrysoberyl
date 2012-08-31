@@ -7,6 +7,9 @@ BefOS:
   type: Platform
   subtitle: An Operating System for the Linearly Challenged
   summary: Befunge-themed miniature operating system
+  # SORT OF TRUE
+  native-language: Befunge-93
+  other-languages: []
   description: |
     This is a project I began in the late 90's, to write an "operating system"
     in the theme of Befunge.  It never got very far, but it does boot and do some
@@ -26,6 +29,8 @@ BefOS:
 BefOS (NASM):
   type: Implementation
   implementation-of: BefOS
+  # um. I guess so?
+  implementation-type: emulator
   in-distribution: BefOS distribution
   license: Public Domain
   host-language: NASM Assembler
@@ -53,6 +58,8 @@ BefOS distribution:
 yoob: 
   type: Platform
   summary: A framework for interactive esolang implementation
+  native-language: Java
+  other-languages: []
   description: |
     `yoob` is a framework for implementing esoteric programming languages
     in Java.  It aims to make it easy for a user to experiment with a large
@@ -66,12 +73,14 @@ yoob:
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   inception-date: Unknown
-  reference-distribution: 'yoob distribution'
+  reference-distribution: yoob distribution
   esowiki: yoob
 
 tc.catseye.yoob:
   type: Implementation
   implementation-of: yoob
+  # um. I guess so?
+  implementation-type: emulator
   in-distribution: yoob distribution
   license: Public Domain
   host-language: Java

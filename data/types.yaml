@@ -48,8 +48,6 @@ Tool:
   type: type
 Platform:
   type: type
-Architecture:
-  type: type
 Programming Language:
   type: type
   commentary: |
