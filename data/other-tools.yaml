@@ -1,4 +1,16 @@
 # encoding: UTF-8
+ANSI Terminal:
+  type: Tool
+  specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
+  as-a-prerequisite: |
+    Executables of this project need to run in a terminal which understand
+    the ANSI terminal control codes (more formally known as "ECMA-48") in
+    order for their output to be intelligible. Almost all modern consoles
+    and terminal emulators understand these codes, sometimes under the guise
+    of a particular terminal standard which includes them, such as `vt100`
+    or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
+    need to be loaded.
+
 Borland C++:
   type: Implementation
   implementation-of: C++

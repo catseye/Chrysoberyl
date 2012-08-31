@@ -21,8 +21,6 @@ Bubble Escape (BASIC):
   license: BSD license
   host-language: Commodore BASIC 2.0
   host-platform: Commodore 64
-  run-requirements:
-  - Commodore 64
   controls: joystick
 
 Bubble Escape 2K:
@@ -36,8 +34,6 @@ Bubble Escape 2K:
   host-platform: Commodore 64
   build-requirements:
   - CRUNCHER AB+
-  run-requirements:
-  - Commodore 64
   online-implementations:
   - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
   controls: joystick
@@ -50,8 +46,6 @@ Bubble Escape 8K:
   host-language: Ophis Assembler
   host-language-version: "2.0"
   host-platform: Commodore 64
-  run-requirements:
-  - Commodore 64
   controls: joystick
 
 
@@ -76,6 +70,7 @@ Bubble Escape 8K:
   host-language: Perl
   # TODO: we should handle language versions better than this
   host-language-version: "5.8"
+  # not strictly
   run-requirements:
   - ANSI Terminal
   interface: ANSI Terminal

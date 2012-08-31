@@ -90,6 +90,14 @@ def resolve_internal_links(data, key, property, text):
             (key, thing, property)
 
 
+LEGACY_FIELDS = (
+    'abstract',
+    'implementations',
+    'has-reference-distribution',
+    'required-libraries',
+)
+
+
 def check_chrysoberyl_data(data):
     count = 0
     for key in data:
@@ -131,7 +139,7 @@ def check_chrysoberyl_data(data):
       resolve_internal_links(data, key, 'commentary', as_a_prerequisite)
 
       # No nodes may have legacy fields.
-      for legacy_field in ('abstract', 'implementations', 'has-reference-distribution'):
+      for legacy_field in LEGACY_FIELDS:
           assert legacy_field not in node, \
               "legacy field '%s' found in '%s'" % (legacy_field, key)
 
@@ -158,9 +166,11 @@ def check_chrysoberyl_data(data):
           check_optional_scalar_ref(data, key, node, 'host-platform',
                            types=['Platform'])
           # these shouldn't really be needed.  derive, derive!
-          check_optional_list_ref(data, key, node, 'build-requirements')
-          check_optional_list_ref(data, key, node, 'required-libraries')
-          check_optional_list_ref(data, key, node, 'run-requirements')
+          # I really don't like that 'Programming Language' is in these
+          check_optional_list_ref(data, key, node, 'build-requirements',
+                           types=['Library', 'Tool', 'Programming Language'])
+          check_optional_list_ref(data, key, node, 'run-requirements',
+                           types=['Library', 'Tool', 'Programming Language'])
 
           if impl_of_type == 'Platform':
               check_scalar_ref(data, key, node, 'implementation-type',
@@ -185,6 +195,8 @@ def check_chrysoberyl_data(data):
 
       # All "implementables" need to pass these checks.
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool', 'Platform']:
+          assert 'build-requirements' not in node
+          assert 'run-requirements' not in node
           if not node.get('no-specification', False):
               if ('specification-link' not in node and
                   'standards-body' not in node and

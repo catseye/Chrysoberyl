@@ -96,7 +96,7 @@ esoko:
   license: BSD license
   inception-date: ca 1999?
   host-language: Erlang
-  required-libraries:
+  run-requirements:
   - Tcl/Tk
   description: |
     This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.

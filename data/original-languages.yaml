@@ -216,6 +216,9 @@ bef:
   implementation-type: interpreter
   host-language: ANSI C
   can-be-built-with-borland-c: true
+  # not strictly
+  run-requirements:
+  - ANSI Terminal
 
 
 Befunge-97:
@@ -924,7 +927,7 @@ Full Moon Fever:
   description: |
     Full Moon Fever is a language for describing ASCII animations.
     It was used to deliver animated screens on Chris Pressey's BBS
-    (when it was operational in the early 90's) via ANSI terminal control codes.
+    (when it was operational in the early 90's) via [[ANSI Terminal|ANSI terminal]] control codes.
     This probably counts as his first proper language, even though
     it wasn't a full programming language, because it had
     the usual machinery (syntax, parser, interpreter...)
@@ -1962,7 +1965,7 @@ Pail.lhs:
   license: BSD license
   implementation-type: interpreter
   host-language: Haskell
-  required-libraries:
+  build-requirements:
   - Parsec
 
 
@@ -2237,8 +2240,6 @@ shelta:
   host-language: NASM Assembler
   host-platform: MS-DOS
   target-language: 80286 machine code
-  run-requirements:
-  - MS-DOS
 
 sheltas:
   type: Implementation
@@ -2249,8 +2250,6 @@ sheltas:
   host-language: Shelta
   host-platform: MS-DOS
   target-language: 80286 machine code
-  run-requirements:
-  - MS-DOS
 
 
 SMETANA:

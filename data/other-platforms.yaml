@@ -76,19 +76,3 @@ Cygwin:
     4.  Probably you should rename your shortcut "Cygwin Powershell" or
         something, to minimize confusion.
     5.  Double-click your new shortcut. It should totally just work.
-
-
-ANSI Terminal:
-  type: Platform
-  # XXX ok this is not the greatest data model
-  native-language: 80286 machine code
-  other-languages: []
-  specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
-  as-a-prerequisite: |
-    Executables of this project need to run in a terminal which understand
-    the ANSI terminal control codes (more formally known as "ECMA-48") in
-    order for their output to be intelligible. Almost all modern consoles
-    and terminal emulators understand these codes, sometimes under the guise
-    of a particular terminal standard which includes them, such as `vt100`
-    or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
-    need to be loaded.

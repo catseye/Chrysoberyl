@@ -48,4 +48,28 @@
 {% endblock description %}
 
 {% block content %}
+
+{# these are lame right now #}
+{% if build_requirements %}
+  <h2>To Build, you Need</h2>
+  <ul>
+    {% for requirement in build_requirements %}
+      <li>
+        <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if run_requirements %}
+  <h2>To Run, you Need</h2>
+  <ul>
+    {% for requirement in run_requirements %}
+      <li>
+        <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% endblock content %}

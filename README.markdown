@@ -135,14 +135,15 @@ language.)
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
 
+Run requirements and build requirements can be optional.
+
 ### templates ###
 
+**Compute if an implementation requires building, based on what language
+it's in (C, yes, Python, no, Java and Erlang, depends on the distribution),
+and what tools you need ("as a prerequisite") for building or running.**
+
 Better provision of documentation in templates.
-
-Compute if an implementation requires building, based on what language
-it's in (C, yes, Python, no, Java and Erlang, depends on the distribution).
-
-List what you need to build or run an implementation.
 
 Extrapolate the above two for distributions (do that for each implementation
 in the distribution.)
@@ -155,9 +156,7 @@ List all (compiler) implementations whose target-language is this language.
 
 ### content ###
 
-"ANSI Terminal" is not a platform.
-
-More descriptions on things.
+More descriptions on things.  Descriptions objective, commentary subjective.
 
 Add my music.
 
