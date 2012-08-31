@@ -7,7 +7,7 @@ Hunt the Wumpus:
   - Gregory Yob
   description: |
     The classic topological mythical-beast-hunting game, implemented in Erlang.
-  has-reference-distribution: false
+  specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
 
 wumpus.erl:
   type: Implementation
@@ -33,7 +33,8 @@ Animals:
     asks you for a question that would distinguish the animal that you chose,
     and adds it to its database.  In this way it "learns" about more animals
     as more games are played.
-  has-reference-distribution: false
+  # until i find a canonical description
+  no-specification: true
   authors: []
 
 animals.erl:
@@ -56,8 +57,9 @@ Flip:
   vintage: true
   description: |
     A classic game that demonstrates simple "artificial intelligence".
-  has-reference-distribution: false
-  authors: []
+  specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
+  authors:
+  - John S. James
 
 flip.erl:
   type: Implementation
@@ -79,7 +81,8 @@ Sokoban:
   vintage: false
   description: |
     The classic Japanese game about lean manufacturing (well, sort of).
-  has-reference-distribution: false
+  # need to look this up someday
+  no-specification: true
   authors: []
 
 esoko:

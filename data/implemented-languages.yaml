@@ -9,7 +9,7 @@ brainfuck:
   - Urban Müller
   esowiki: brainfuck
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  specification-link: esowiki
 
 pibfi:
   type: Implementation
@@ -43,7 +43,8 @@ Muriel:
   esowiki: Muriel
   reference-distribution: Muriel distribution
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  specification-link: esowiki
+
 
 muriel.pl:
   type: Implementation
@@ -73,7 +74,7 @@ VALGOL:
   source-document: Lesser Known Languages List
   esowiki: VALGOL
   computational-class: unknown computational class
-  has-reference-distribution: false
+  no-specification: true
 
 valgol.erl:
   type: Implementation
@@ -103,7 +104,8 @@ Smallfuck:
   esowiki: Smallfuck
   computational-class: Finite-automata-complete
   inception-date: ca 2002
-  has-reference-distribution: false
+  specification-link: esowiki
+
 
 sf2tab:
   type: Implementation
@@ -133,7 +135,7 @@ Underload:
   - Alex Smith (ais523)
   computational-class: believed Turing-complete
   esowiki: Underload
-  has-reference-distribution: false
+  specification-link: esowiki
 
 stringie:
   type: Implementation
@@ -162,10 +164,10 @@ stringie:
   paradigms:
   - Imperative
   authors:
-  - Brainerd
-  - Landweber
+  - Walter Brainerd
+  - Lawrence Landweber
   computational-class: Primitive recursive
-  has-reference-distribution: false
+  specification-link: http://www.amazon.com/Theory-Computation-Walter-S-Brainerd/dp/0471095850
 
 'PL-{GOTO}.NET':
   type: Implementation
@@ -212,7 +214,7 @@ Ale:
   - David Chipping
   esowiki: Ale
   computational-class: believed Turing-complete
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.ale:
   type: Implementation
@@ -237,7 +239,7 @@ Backflip:
   - Alex Smith (ais523)
   esowiki: Backflip
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.backflip:
   type: Implementation
@@ -262,7 +264,7 @@ Black:
   - Alex Smith (ais523)
   esowiki: Black
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.black:
   type: Implementation
@@ -288,7 +290,7 @@ LNUSP:
   - Zzo38
   esowiki: LNUSP
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.lnusp:
   type: Implementation
@@ -325,7 +327,7 @@ tc.catseye.yoob.lnusp:
   - Catatonic Porpoise
   esowiki: 1L_a
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.onela:
   type: Implementation
@@ -351,7 +353,7 @@ tc.catseye.yoob.onela:
   - Tslil Clingman
   esowiki: 1L_AOI
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.onelaoi:
   type: Implementation
@@ -377,7 +379,7 @@ PATH:
   - Francis Rogers
   esowiki: PATH
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.path:
   type: Implementation
@@ -402,7 +404,7 @@ Qdeql:
   - Catatonic Porpoise
   esowiki: Qdeql
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.qdeql:
   type: Implementation
@@ -427,7 +429,7 @@ Sceql:
   - Catatonic Porpoise
   esowiki: Sceql
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.sceql:
   type: Implementation
@@ -453,7 +455,7 @@ SNUSP:
   - Daniel Brockman
   esowiki: SNUSP
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.snusp:
   type: Implementation
@@ -481,7 +483,7 @@ tc.catseye.yoob.snusp:
   influences:
   - 2L
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.twoill:
   type: Implementation
@@ -507,7 +509,7 @@ tc.catseye.yoob.twoill:
   - Gregor Richards
   esowiki: 2L
   computational-class: unknown computational class
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.twol:
   type: Implementation

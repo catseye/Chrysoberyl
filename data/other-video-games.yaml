@@ -12,7 +12,7 @@ Typhoon Thompson:
   controls: mouse
   authors: []
   wikipedia: Typhoon_Thompson
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     Quite possibly the cutest game ever.
     
@@ -29,7 +29,7 @@ Pepper II:
   controls: joystick
   authors: []
   wikipedia: Pepper_II
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     To the untrained eye, it's a ripoff of Pac-Man: fill in all the regions
     instead of eat all the dots.  But there's something about it that sets it
@@ -46,7 +46,7 @@ City Connection:
   controls: joystick and 1 button
   authors: []
   wikipedia: City_Connection
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     A jumping minivan?  Yes, a jumping minivan.  And European police.
     And a devil-cat-thing with a checkered flag.  And a balloon that warps
@@ -65,7 +65,7 @@ Katamari Damacy:
   solved-by:
   - Chris Pressey
   wikipedia: Katamari_Damacy
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     An extremely original game — sort of a four-dimensional 
     maze game where the fourth dimension is *scale*.  Rolling things
@@ -80,7 +80,7 @@ Liquid Kids:
   controls: joystick and 2 buttons
   authors: []
   wikipedia: Liquid_Kids
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     Very cute.  Quite possibly a sequel or pseudo-sequel to
     [[The New Zealand Story]], since you play what appears to be a platypus,
@@ -95,7 +95,7 @@ Lost Tomb:
   controls: dual joystick
   authors: []
   wikipedia: Lost_Tomb
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     Gnarly game, but very hard.  I especially liked the 3D effect on the
     intermediate levels with the staircases.  (Even though it's awkward to
@@ -116,7 +116,7 @@ The New Zealand Story:
   controls: joystick and 2 buttons
   authors: []
   wikipedia: The_New_Zealand_Story
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     "This game is dedicated to all maze fans."  However, that should not deter
     fans of kiwis, archery, flying machines shaped like bears' heads,
@@ -132,7 +132,7 @@ CoolBoarders 2:
   solved-by:
   - Chris Pressey
   wikipedia: CoolBoarders_2
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     The only sports game on my list, but that's probably because it doesn't
     really feel anything like sport.  It's only barely realistic — for example,
@@ -149,7 +149,7 @@ Super Monkey Ball 2:
   controls: analog joystick
   authors: []
   wikipedia: Super_Monkey_Ball_2
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     I didn't think I'd like this one, since I really don't like those wooden mazes
     that you tilt with the two dials — which is essentially what this game
@@ -165,7 +165,7 @@ Cloak and Dagger:
   controls: dual joystick
   authors: []
   wikipedia: Cloak_and_Dagger
-  has-reference-distribution: false
+  no-specifcation: true
   commentary: |
     There's something that's always attracted me about being able
     to shoot out bits of wall.  The boxes and conveyor belts hold a similar

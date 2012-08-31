@@ -58,12 +58,10 @@ a link to its specification (even if it's just a page on a wiki) or
 standards body (even if it's just "the official website") is needed.
 Only one distribution can be the reference distribution for an implementable.
 
-**NOTE: the following is currently a lie**
-
 Therefore, every implementable needs at least one of the following:
 
 *   `reference-distribution` (a key)
-*   `specification-link` (a URL)
+*   `specification-link` (a URL, or `esowiki`)
 *   `standards-body` (a URL)
 
 If neither of the second two are present, we expect an implementable to
@@ -133,6 +131,8 @@ can target multiple target languages.  Handle both of these.
 
 Check multiple types in checker (e.g. each author can be an Individual or
 an Organization.)
+
+Generalize "Family" to be families of anything, perhaps.
 
 ### templates ###
 

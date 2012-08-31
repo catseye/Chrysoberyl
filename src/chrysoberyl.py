@@ -95,6 +95,8 @@ def check_chrysoberyl_data(data):
     for key in data:
       count += 1
       node = data[key]
+      
+      # Every node must have a valid type.
       assert 'type' in node, \
           "'%s' does not specify a type" % key
       type_ = node['type']
@@ -103,40 +105,51 @@ def check_chrysoberyl_data(data):
       assert 'type' in data[type_] and data[type_]['type'] == 'type', \
           "'%s' has bad type '%s'" % (key, type_)
 
+      # Every node may have some of these.
       check_optional_list_ref(data, key, node, 'see-also')
       check_optional_list_ref(data, key, node, 'authors')
       check_optional_list_ref(data, key, node, 'auspices', type_='Organization')
+      check_optional_list_ref(data, key, node, 'influences')
+      # These two fields go together.
+      if 'auspices' in node:
+          assert 'authors' in node, "auspices but no authors in '%s'" % key
 
-      assert 'abstract' not in node, "legacy field 'abstract' in '%s'" % key
-
+      # Every node may have these, and they may have internal links.
       description = None
       if 'description' in node:
           description = node['description']
       resolve_internal_links(data, key, 'description', description)
-
       commentary = None
       if 'commentary' in node:
           commentary = node['commentary']
       resolve_internal_links(data, key, 'commentary', commentary)
-
       as_a_prerequisite = None
       if 'as-a-prerequisite' in node:
           as_a_prerequisite = node['as-a-prerequisite']
       resolve_internal_links(data, key, 'commentary', as_a_prerequisite)
 
-      if 'auspices' in node:
-          assert 'authors' in node, "auspices but no authors in '%s'" % key
+      # No nodes may have legacy fields.
+      for legacy_field in ('abstract', 'implementations', 'has-reference-distribution'):
+          assert legacy_field not in node, \
+              "legacy field '%s' found in '%s'" % (legacy_field, key)
 
       check_optional_scalar_ref(data, key, node, 'development-stage',
                                 type_='Development Stage')
 
+      # On to checking fields specific to different types.
+
       if type_ == 'Distribution':
-          # (this has multiple possible types)
           check_scalar_ref(data, key, node, 'distribution-of')
           check_optional_scalar_ref(data, key, node, 'development-stage',
                                     type_='Development Stage')
 
-      if type_.endswith(' Implementation'):
+      if type_ == 'Implementation':
+          check_scalar_ref(data, key, node, 'implementation-of')
+
+          # for convenience, bring in the type of the thing being implemented
+          impl_of_type = data[node['implementation-of']]['type']
+          node['implementation-of-type'] = impl_of_type
+
           check_scalar_ref(data, key, node, 'license', type_='License')
           check_optional_scalar_ref(data, key, node, 'in-distribution',
                                     type_='Distribution')
@@ -147,13 +160,6 @@ def check_chrysoberyl_data(data):
           check_optional_list_ref(data, key, node, 'build-requirements')
           check_optional_list_ref(data, key, node, 'required-libraries')
           check_optional_list_ref(data, key, node, 'run-requirements')
-
-      if type_ == 'Implementation':
-          check_scalar_ref(data, key, node, 'implementation-of')
-
-          # for convenience, bring in the type of the thing being implemented
-          impl_of_type = data[node['implementation-of']]['type']
-          node['implementation-of-type'] = impl_of_type
 
           if impl_of_type == 'Programming Language':
               check_scalar_ref(data, key, node, 'implementation-type',
@@ -170,15 +176,15 @@ def check_chrysoberyl_data(data):
               node['authors'] = pl_node.get('authors', None)
               node['auspices'] = pl_node.get('auspices', None)
 
+      # All "implementables" need to pass these checks.
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool']:
-          if node.setdefault('has-reference-distribution', True):
-              if 'reference-distribution' not in node:
-                  node['reference-distribution'] = '%s distribution' % key
-              check_scalar_ref(data, key, node, 'reference-distribution',
-                               type_='Distribution')
-          check_optional_list_ref(data, key, node, 'influences')
-          assert 'implementations' not in node, \
-              "'%s' has 'implementations' but shouldn't" % key
+          if not (node.get('no-specification', False) or
+                  'specification-link' in node or
+                  'standards-body' in node or
+                  'reference-distribution' in node):
+              node['reference-distribution'] = '%s distribution' % key
+          check_scalar_ref(data, key, node, 'reference-distribution',
+                           type_='Distribution')
 
       if type_ in ['Game', 'Programming Language']:
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
@@ -191,8 +197,6 @@ def check_chrysoberyl_data(data):
                                     type_='Computational Class')
           check_optional_scalar_ref(data, key, node, 'member-of',
                                     type_='Programming Language Family')
-          check_optional_list_ref(data, key, node, 'paradigms',
-                                  type_='Programming Paradigm')
 
       if type_ == 'Programming Language Family':
           check_scalar_ref(data, key, node, 'genre', type_='Genre')
@@ -306,8 +310,6 @@ def troll_docs(data, clone_dir, data_dir):
         if data[key]['type'] != 'Distribution':
             continue
         distribution_of = data[key]['distribution-of']
-        if not data[distribution_of].get('has-reference-distribution', True):
-            continue
         if 'reference-distribution' not in data[distribution_of]:
             # ah jeez, it might be a distribution of an implementation, we can't expect this
             #print "### %s %s has a distribution %s, but no reference distribution" % (data[distribution_of]['type'], distribution_of, key)

@@ -13,9 +13,13 @@ John Colagioia:
 Ben Olmstead:
   type: Individual
   esowiki: Ben Olmstead
-Brainerd:
+  description: |
+    Ben Olmstead co-authored [[Wierd]] with [[Chris Pressey]] and [[John Colagioia]],
+    as well as advised on the implementation of [[Shelta]].
+    Also, Chris met him in person once, in Seattle, WA.
+Walter Brainerd:
   type: Individual
-Landweber:
+Lawrence Landweber:
   type: Individual
 Zzo38:
   type: Individual
@@ -29,6 +33,9 @@ Phantom Hoover:
 Nikita Ayzikovsky:
   type: Individual
   esowiki: Nikita Ayzikovsky
+  description: |
+    Nikita designed [[Smallfuck]], which [[Cat's Eye Technologies]] has implemented.
+    Also, [[Chris Pressey]] met him in person once, in Vancouver, BC.
 Alex Smith (ais523):
   type: Individual
   esowiki: User:Ais523
@@ -41,6 +48,11 @@ Gregory Yob:
     Gregory Yob invented the classic game [[Hunt the Wumpus]], which
     [[Cat's Eye Technologies]] has implemented several times, and on which
     [[Super Wumpus Land]] was based.
+John S. James:
+  type: Individual
+  description: |
+    John S. James invented the classic game [[Flip]], which
+    [[Cat's Eye Technologies]] has implemented.
 David Chipping:
   type: Individual
   esowiki: David Chipping
@@ -64,6 +76,9 @@ Michael C. Martin:
 Gregor Richards:
   type: Individual
   esowiki: Gregor Richards
+  description: |
+    Gregor designed [[2L]], which [[Cat's Eye Technologies]] has implemented,
+    and provided the loophole-finding impetus behind [[Eightebed]].
 Alise:
   type: Individual
   description: |

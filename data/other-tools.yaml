@@ -22,13 +22,12 @@ Borland C++:
 
 CRUNCHER AB+:
   type: Tool
-  has-reference-distribution: false
+  no-specification: true
 
 make:
   type: Tool
-  has-reference-distribution: false
+  specification-link: http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
   links:
-  - http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
   - http://www.gnu.org/software/make/
   as-a-prerequisite: |
     In order to build this project automatically, you will need a `make`
@@ -41,10 +40,7 @@ make:
 
 Parsec:
   type: Tool
-  # actually, this is true
-  has-reference-distribution: false
-  links:
-  - 'http://legacy.cs.uu.nl/daan/parsec.html'
+  specification-link: http://legacy.cs.uu.nl/daan/parsec.html
   as-a-prerequisite: |
     This [[Haskell]] project uses the Parsec parser combinator library to
     define a parser. Parsec comes with some implementations of Haskell, and
@@ -53,4 +49,5 @@ Parsec:
 
 Tcl/Tk:
   type: Tool
-  has-reference-distribution: false
+  # a bloody lie, but I don't care right now
+  no-specification: true

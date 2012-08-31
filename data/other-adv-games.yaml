@@ -10,7 +10,7 @@
   - Chris Pressey
   platform: Infocom
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     I was stuck on this one for a long time, because I couldn't seem to
     remove common sense from my brain.  Whether I had gotten the game
@@ -25,7 +25,7 @@ Winter Wonderland:
   - Chris Pressey
   platform: Commodore 64
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     With graphics.  This was apparently a demo for an adventure authoring system of
     some kind, but it stands on its own as a game, although perhaps not the best one.
@@ -37,7 +37,7 @@ Africa Adventure, The:
   genre: Text Adventure
   platform: Commodore 64
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     Treasure-oriented.  An interesting game, although parts are probably
     borderline politically incorrect at this point in history (but really, the
@@ -53,7 +53,7 @@ Cranston Manor:
   genre: Text Adventure
   platform: Apple ][
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     With graphics.  Treasure-oriented.  Not the best adventure game, certainly,
     but memorable for some reason.  Never solved it, but pretty sure I could without
@@ -64,7 +64,7 @@ Creature Venture:
   genre: Text Adventure
   platform: Apple ][
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     With graphics.  Might have been treasure-oriented; I don't remember.  The
     main feature, though, is the Oozlybub, a creature which has popped up in a
@@ -76,7 +76,7 @@ Time & Magick:
   genre: Text Adventure
   platform: Amiga 500
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     With graphics.  Actually a trilogy of three games, some of which are treasure-oriented.
     The one about venturing through time to stop the Timelords from destroying the world
@@ -89,7 +89,7 @@ Time & Magick:
   genre: Text Adventure
   platform: Commodore 64
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     Intriguing, but difficult.  Unlike most of the others on this list, I only came across
     this game a few years back, and have never gotten very far in it.  I will probably end up
@@ -100,7 +100,7 @@ Dungeon (MIT):
   genre: Text Adventure
   platform: Amiga 500
   authors: []
-  has-reference-distribution: false
+  no-specification: true
   commentary: |
     Treasure-oriented.  A classic, which captured some of the MIT hacker culture of
     the time, and foisted it on a general audience when it was repackaged as the Zork

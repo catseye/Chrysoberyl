@@ -156,7 +156,8 @@ Bear Food:
   esowiki: Bear_Food
   inception-date: ca Dec 1999
   failure: true
-  has-reference-distribution: false
+  # the reference interpreter is probably lost
+  no-specification: true
 
 bearfood.pl:
   type: Implementation
@@ -237,7 +238,8 @@ Befunge-97:
   failure: true
   influences:
   - Befunge-93
-  has-reference-distribution: false
+  # the documents from the time are probably lost
+  no-specification: true
 
 
 beta-Juliet:
@@ -856,7 +858,8 @@ ETHEL:
   etymology:
   - acronym
   - monty python
-  has-reference-distribution: false
+  # the reference interpreter is probably effectively lost
+  no-specification: true
 
 ethel.pl:
   type: Implementation
@@ -946,8 +949,7 @@ Full Moon Fever:
   - Cat's Eye Technologies
   inception-date: ca 1993
   computational-class: known not Turing-complete
-  has-reference-distribution: false
-  # well, there's one in illgola-2, so there are implementations, but...
+  specification-link: https://github.com/catseye/Illgol-Grand-Mal/blob/master/2.%20Illgola-2/doc/illgola2.txt
 
 
 Funge-98:
@@ -989,7 +991,8 @@ Befunge-98:
   - 2-dimensional
   - Self-modifying
   member-of: Funge-98
-  has-reference-distribution: false
+  # arrrgh
+  specification-link: see Funge-98
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -1052,7 +1055,7 @@ Gemooy:
     @        @
              @
       @     @#@
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.gemooy:
   type: Implementation
@@ -1854,7 +1857,7 @@ Okapi:
   - Chris Pressey
   inception-date: May 23, 2010
   computational-class: shown Turing-complete
-  has-reference-distribution: false
+  no-specification: true
 
 okapi.py:
   type: Implementation
@@ -2814,7 +2817,7 @@ Wunnel:
              o
 
              o    oooo o
-  has-reference-distribution: false
+  specification-link: esowiki
 
 tc.catseye.yoob.wunnel:
   type: Implementation
