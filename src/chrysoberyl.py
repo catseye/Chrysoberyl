@@ -40,25 +40,25 @@ def load_chrysoberyl_dir(dirname):
     return data
 
 
-def check_scalar_ref(data, key, node, property, type_=None):
+def check_scalar_ref(data, key, node, property, types=None):
     assert property in node, \
         "'%s' does not specify a %s" % (key, property)
     value = node[property]
     assert value in data, \
         "'%s' has undefined %s '%s'" % (key, property, value)
-    if type_ is None:
+    if types is None:
         return
-    assert data[value]['type'] == type_, \
+    assert data[value]['type'] in types, \
         "'%s' has %s '%s' which is a %s, not a %s" % (
-            key, property, value, data[value]['type'], type_)
+            key, property, value, data[value]['type'], types)
 
 
-def check_optional_scalar_ref(data, key, node, property, type_=None):
+def check_optional_scalar_ref(data, key, node, property, types=None):
     if property in node:
-        check_scalar_ref(data, key, node, property, type_=type_)
+        check_scalar_ref(data, key, node, property, types=types)
 
 
-def check_list_ref(data, key, node, property, type_=None):
+def check_list_ref(data, key, node, property, types=None):
     assert property in node, \
         "'%s' has no %s list" % (key, property)
     assert isinstance(node[property], list), \
@@ -67,15 +67,15 @@ def check_list_ref(data, key, node, property, type_=None):
         assert value in data, \
             "'%s' has undefined %s '%s'" % \
             (key, property, value)
-        if type_ is not None:
-            assert data[value]['type'] == type_, \
+        if types is not None:
+            assert data[value]['type'] in types, \
                 "'%s' has %s '%s' which is a %s, not a %s" % (
-                    key, property, value, data[value]['type'], type_)
+                    key, property, value, data[value]['type'], types)
           
 
-def check_optional_list_ref(data, key, node, property, type_=None):
+def check_optional_list_ref(data, key, node, property, types=None):
     if property in node:
-        check_list_ref(data, key, node, property, type_)
+        check_list_ref(data, key, node, property, types=types)
 
 
 def resolve_internal_links(data, key, property, text):
@@ -107,8 +107,10 @@ def check_chrysoberyl_data(data):
 
       # Every node may have some of these.
       check_optional_list_ref(data, key, node, 'see-also')
-      check_optional_list_ref(data, key, node, 'authors')
-      check_optional_list_ref(data, key, node, 'auspices', type_='Organization')
+      check_optional_list_ref(data, key, node, 'authors',
+          types=['Individual', 'Organization'])
+      check_optional_list_ref(data, key, node, 'auspices',
+          types=['Organization'])
       check_optional_list_ref(data, key, node, 'influences')
       # These two fields go together.
       if 'auspices' in node:
@@ -134,14 +136,12 @@ def check_chrysoberyl_data(data):
               "legacy field '%s' found in '%s'" % (legacy_field, key)
 
       check_optional_scalar_ref(data, key, node, 'development-stage',
-                                type_='Development Stage')
+                                types=['Development Stage'])
 
       # On to checking fields specific to different types.
 
       if type_ == 'Distribution':
           check_scalar_ref(data, key, node, 'distribution-of')
-          check_optional_scalar_ref(data, key, node, 'development-stage',
-                                    type_='Development Stage')
 
       if type_ == 'Implementation':
           check_scalar_ref(data, key, node, 'implementation-of')
@@ -150,13 +150,14 @@ def check_chrysoberyl_data(data):
           impl_of_type = data[node['implementation-of']]['type']
           node['implementation-of-type'] = impl_of_type
 
-          check_scalar_ref(data, key, node, 'license', type_='License')
+          check_scalar_ref(data, key, node, 'license', types=['License'])
           check_optional_scalar_ref(data, key, node, 'in-distribution',
-                                    type_='Distribution')
-          check_optional_scalar_ref(data, key, node, 'development-stage',
-                                    type_='Development Stage')
+                                    types=['Distribution'])
           check_scalar_ref(data, key, node, 'host-language',
-                           type_='Programming Language')
+                           types=['Programming Language'])
+          check_optional_scalar_ref(data, key, node, 'host-platform',
+                           types=['Platform', 'Architecture'])
+          # these shouldn't really be needed.  derive, derive!
           check_optional_list_ref(data, key, node, 'build-requirements')
           check_optional_list_ref(data, key, node, 'required-libraries')
           check_optional_list_ref(data, key, node, 'run-requirements')
@@ -167,13 +168,13 @@ def check_chrysoberyl_data(data):
                       (node['implementation-of'], key)
           elif impl_of_type == 'Programming Language':
               check_scalar_ref(data, key, node, 'implementation-type',
-                               type_='Implementation Type')
+                               types=['Implementation Type'])
               if node['implementation-type'] == 'compiler':
                   check_scalar_ref(data, key, node, 'target-language',
-                                   type_='Programming Language')
+                                   types=['Programming Language'])
           else:
               check_optional_scalar_ref(data, key, node, 'implementation-type',
-                               type_='Implementation Type')
+                               types=['Implementation Type'])
 
           if 'authors' not in node:
               pl_node = data[node['implementation-of']]
@@ -191,29 +192,29 @@ def check_chrysoberyl_data(data):
               if ('specification-link' not in node and
                   'standards-body' not in node):
                   check_scalar_ref(data, key, node, 'reference-distribution',
-                                   type_='Distribution')
+                                   types=['Distribution'])
                   data[node['reference-distribution']]['reference'] = True
 
       if type_ in ['Game', 'Programming Language']:
-          check_scalar_ref(data, key, node, 'genre', type_='Genre')
+          check_scalar_ref(data, key, node, 'genre', types=['Genre'])
           check_list_ref(data, key, node, 'authors')
 
       if type_ == 'Architecture':
-          check_scalar_ref(data, key, node, 'native-language', type_='Programming Language')
-          check_list_ref(data, key, node, 'other-languages', type_='Programming Language')
+          check_scalar_ref(data, key, node, 'native-language', types=['Programming Language'])
+          check_list_ref(data, key, node, 'other-languages', types=['Programming Language'])
 
       if type_ == 'Programming Language':
           check_list_ref(data, key, node, 'paradigms',
-                         type_='Programming Paradigm')
+                         types=['Programming Paradigm'])
           check_optional_scalar_ref(data, key, node, 'computational-class',
-                                    type_='Computational Class')
+                                    types=['Computational Class'])
           check_optional_scalar_ref(data, key, node, 'member-of',
-                                    type_='Programming Language Family')
+                                    types=['Programming Language Family'])
 
       if type_ == 'Programming Language Family':
-          check_scalar_ref(data, key, node, 'genre', type_='Genre')
+          check_scalar_ref(data, key, node, 'genre', types=['Genre'])
           check_optional_scalar_ref(data, key, node, 'reference-distribution',
-                                    type_='Distribution')
+                                    types=['Distribution'])
 
       if type_ == 'Ranking':
           check_list_ref(data, key, node, 'entries')

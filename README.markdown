@@ -122,9 +122,6 @@ the implementation(s) within the distribution.  Split it up so.
 Some implementations can both compile and interpret.  Some compilers
 can target multiple target languages.  Handle both of these.
 
-Check multiple types in checker (e.g. each author can be an Individual or
-an Organization.)
-
 Generalize "Family" to be families of anything, perhaps.
 
 Perhaps nodes can "belong to" other nodes: lingography and favourite
