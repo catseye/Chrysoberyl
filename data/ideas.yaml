@@ -75,7 +75,7 @@ Boo-yah!:
     previously executed instruction.  In other words, in *Boo*-yah!,
     instructions *overlap*.
     
-    Symbols are drawn from the alphabet {`/`, `\\`}.  This two-symbol alphabet
+    Symbols are drawn from the alphabet {`/`, `\`}.  This two-symbol alphabet
     gives us 2^4 = 16 possible instructions.  4 of these instructions
     would be used to direct the flow of the IP like Befunge's `><^v`:
     
@@ -173,7 +173,7 @@ GI:
     a strictly necessary step to defeat caching.
     
     (Oh, and each of the undirected, unlabeled graphs which represents an instruction
-    could be termed a "dogtag".  Get it?  Get it?  "GI"?  Get it?)
+    could be termed a "dogtag".  Get it?  Get it?  **GI**, get it?)
 
 
 Kig:
@@ -556,7 +556,7 @@ Seltzer Spigot:
     produce a simple inverted index.  Completely nothing special.
     But when I ran it, I was surprised to get the following beautiful
     output — it turns out I got a regular expression wrong (I always
-    think whitespace is `\\w` when it's really `\\s`...)
+    think whitespace is `\w` when it's really `\s`...)
     So, the challenge is to find a
     programming language in which this output is a meaningful program
     and, in general, programs look something like this:

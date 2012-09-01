@@ -5,6 +5,14 @@
 </head>
 <body>
   <h1>{{ key }}</h1>
+  {% if subtitle %}
+    <h2>{{ subtitle }}</h2>
+  {% endif %}
+
+  {% if acronym_for %}
+    <h2>({{ acronym_for }})</h2>
+  {% endif %}
+
   {% block showtype %}
     <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a></p>
   {% endblock showtype %}

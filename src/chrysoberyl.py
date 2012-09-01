@@ -236,9 +236,6 @@ def check_chrysoberyl_data(data):
 
       if type_ == 'Ranking':
           check_list_ref(data, key, node, 'entries')
-      if type_ == 'Collection':
-          check_list_ref(data, key, node, 'include-types', 'type')
-          check_list_ref(data, key, node, 'include-authors', 'Individual')
 
     print "%d nodes checked." % count
 

@@ -22,11 +22,6 @@
     since the distinction between languages and games is not always that clear,
     you may also be interested in the (much less voluminous)
     list of games I've designed and implemented.
-  include-types:
-  - Programming Language
-  - Abstract Artlang
-  include-authors:
-  - Chris Pressey
 
 LoUIE:
   type: Collection
@@ -48,9 +43,3 @@ LoUIE:
     Of course, if you do manage to complete something based on one of them,
     I would appreciate being given some credit (since you are a gracious
     individual as well, right?)
-  include-types:
-  - Programming Language
-  include-authors:
-  - Chris Pressey
-  include-development-stage:
-  - idea
