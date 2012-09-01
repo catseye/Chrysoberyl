@@ -1,0 +1,169 @@
+Boo-yah!:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - 2-dimensional
+  no-specification: true
+  summary: overlapping instructions in 2 dimensions
+  inception-date: ca 1998
+  description: |
+    This thing's terminally undesigned.  I started thinking about
+    it in the late nineties — possibly as early as 1998 — in Winnipeg.
+    
+    The challenge is to design a 2-dimensional language similar to [[Befunge-93]],
+    except where each instruction is is composed, not of a single symbol, but of a 2×2 square of
+    symbols.  As in Befunge, the IP should move at a rate of one cell per tick, and that
+    means that each executed instruction must in general share two symbols with the
+    previously executed instruction.  In other words, in *Boo*-yah!,
+    instructions *overlap*.
+    
+    Symbols are drawn from the alphabet {`/`, `\\`}.  This two-symbol alphabet
+    gives us 2^4 = 16 possible instructions.  4 of these instructions
+    would be used to direct the flow of the IP like Befunge's `><^v`:
+    
+        \\  //  /\  \/
+        //  \\  /\  \/
+    
+    That leaves 12 instructions to manipulate the state.
+    
+    One of the reasons that this has gone undesigned for so long is the difficulty in selecting
+    a sufficiently "sweet" combination of instructions: one which will allow the instructions to be
+    overlapped, while also having the instructions manipulate the state of the program in
+    useful and interesting and non-trivial ways.
+    
+    It would be very tempting to just riff on [[brainfuck]] and have a tape,
+    instructions that increment and decrement the current cell on that tape,
+    and instructions that move back and forth on the tape.  But I think that's a bit boring.
+    Ideally, each instruction would affect *several* different bits of state
+    in the runtime model simultaneously, and it should be possible to come up with
+    a series of instructions in which most, but not all, of those state changes
+    have been cancelled out, leaving only the desired change in state.  Since this
+    cancellation approach would naturally dovetail with overlapping, it would be a
+    good fit for the language.
+
+
+Kig:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - 2-dimensional
+  no-specification: true
+  summary: five points collapse and expand
+  inception-date: ca 2006
+  description: |
+    Kig was an idea I had while living in Vancouver
+    for an automaton based on a 2-dimensional, orthogonal, integral, Cartesian grid
+    containing only a set of five points.  The set of points would shrink until it could
+    shrink no more, at which point it would explode, and begin to shrink again.
+    The execution would be considered terminated once the pattern reached
+    an obvious fixed point, i.e. when the points would cluster in the exact
+    same way repeatedly before exploding.
+    
+    The shrinking occured in the following manner.  On each tick,
+    pick the northwesternmost midpoint of two of the points, and call it
+    the target.  (There is a
+    [cute pigeonhole proof](http://www.cut-the-knot.org/pigeonhole/grid_mid.shtml)
+    that, for 5 points with integral
+    coordinates, such a midpoint with integral coordinates will always exist.)
+    If the target is occupied by one other of the five points, stop — it's time to
+    explode.  Otherwise, move the furthest, northwesternmost point to
+    the target, and repeat.  Since there are still 5 points with integral
+    coordinates, the midpoint property is preserved and the operation can be
+    repeated as necessary.  We can also prove, fairly straightforwardly,
+    that this shrinking procedure always terminates, i.e. always reaches
+    the "it's time to explode" state.  (The "furthest, northwesternmost"
+    condition is just to disambiguate, in the case that there are more than
+    two points that have a midpoint.)
+    
+    Unfortunately, although I'm sure I had something in mind while I was
+    riding the 99 B-Line home once, I can't for the life of me remember now
+    how the explode phase was supposed to work.  Whatever it was, it
+    would need to position the points far apart, based on their last
+    shrink-phase configuration, in order to be interesting.  Extremely far
+    apart, like exponentially so, would be best.  Even then, it's
+    not clear if it would be possible to make this system Turing-complete.
+    With 5 points, you do have 10 unbounded counters at your disposal —
+    although your only real operation in the shrink-phase is something
+    akin to division by two...
+
+
+Paneer:
+  type: Programming Language
+  genre: Experimental language
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: comprehensive compositional language system
+  inception-date: ca 2008
+  description: |
+    A self-modifying programming language which is "input-universal".
+    That is, a programming language which can transform itself
+    in a way similar to how [[Mascarpone]] transforms itself,
+    but which also makes the guarantee that it can "turn itself
+    into any other language," meaning that after a finite
+    number of prefix symbols from the input program have been
+    interpreted, the remaining symbols can be interpreted as
+    a program in any other Turing-complete programming language.
+    
+    (Given a reasonable input alphabet, I suppose, and
+    ignoring tedious and trivial details of encoding.)
+    
+    This is a matroiska language, because the input can be
+    divided into distinct languages.  But it's possibly the
+    most flexible possible matroiska language.
+    
+    I'm not 100% certain that Mascarpone doesn't already qualify.
+    
+    One part of this process — say, turning Mascarpone into
+    Pascal — would be turning every symbol into a little state
+    machine that scans and parses itself (when encountered in
+    keyword context, or adds itself to a string constant if
+    encountered between quotes.)
+
+
+Psogumma:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: grammar self-modifies to accomodate program
+  inception-date: 2011
+  description: |
+    The Psogumma language provides a small, fixed grammar to start, possibly:
+    
+        Program ::= "+"* | "[" Program "]".
+    
+    However, when parsing a program, whenever there is a syntax error,
+    the grammar is modified in a way which is pseudorandom, but always
+    compatible with the input that caused the syntax error.  New productions
+    may be introduced, or existing productions may be modified, to accomodate
+    the input.  The semantics of the grammar modifications are similarly
+    pseudorandomly generated at the moment they are applied.  The pseudorandom
+    number generator is deterministic, starting with a fixed seed, but is
+    continually engaged (being called each time an input symbol is consumed).
+    
+    The result is that all programs are parsable, and all programs have
+    a well-defined meaning, although divining that meaning before parsing
+    the program is at best an arduous task and at worst unpredictable (without
+    having already parsed the program.)

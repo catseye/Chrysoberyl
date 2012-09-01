@@ -10,6 +10,8 @@ brainfuck:
   esowiki: brainfuck
   computational-class: shown Turing-complete
   specification-link: esowiki
+  commentary: |
+    Brainfuck is the 12-bar blues of [[Esolang]].
 
 pibfi:
   type: Implementation
