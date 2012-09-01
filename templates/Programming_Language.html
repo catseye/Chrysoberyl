@@ -28,4 +28,26 @@
   </ul>
 {% endif %}
 
+{% if related('host-language') %}
+  <h2>Implementations in {{ key }}</h2>
+  <ul>
+    {% for impl in related('host-language') %}
+      <li>
+        <a href="{{ filekey(impl) }}">{{ impl }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if related('target-language') %}
+  <h2>Compilers targeting {{ key }}</h2>
+  <ul>
+    {% for impl in related('target-language') %}
+      <li>
+        <a href="{{ filekey(impl) }}">{{ impl }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% endblock implementable_content %}

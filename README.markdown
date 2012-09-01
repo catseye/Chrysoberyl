@@ -149,15 +149,15 @@ in the distribution.)
 
 If an implementation allows visual debugging or animation, note that.
 
-List all implementations whose host-language is this language.
-
-List all (compiler) implementations whose target-language is this language.
-
 Better provision of documentation in templates.
 
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
+
+Names of implementations -- should they have the file extension (even when
+an executable is built, e.g. `thue.c`) or should they be the assumed name
+of the executable with a disambiguator (i.e. `thue (C)`)?
 
 Add my music.
 

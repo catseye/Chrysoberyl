@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block showtype %}
+  <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a>
+    of a
+    <a href="{{ filekey(data[implementation_of].type) }}">{{ data[implementation_of].type }}</a>
+  </p>
+{% endblock showtype %}
+
 {% block description %}
   <p>This is
     {% if reference %}
