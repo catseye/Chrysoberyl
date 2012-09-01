@@ -12,10 +12,15 @@
   {% endfor %}
 </ul>
 
-{% if supported_on_platforms() %}
+{% if related('native-language') or related('other-languages') %}
   <h2>Supported on Platforms</h2>
   <ul>
-    {% for platform in supported_on_platforms() %}
+    {% for platform in related('native-language') %}
+      <li>
+        <a href="{{ filekey(platform) }}">{{ platform }}</a>
+      </li>
+    {% endfor %}
+    {% for platform in related('other-languages') %}
       <li>
         <a href="{{ filekey(platform) }}">{{ platform }}</a>
       </li>

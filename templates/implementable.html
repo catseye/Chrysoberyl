@@ -11,10 +11,10 @@
   <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
 {% endif %}
 
-{% if implementations() %}
+{% if related('implementation-of') %}
   <h2>Implementations</h2>
   <ul>
-    {% for implementation in implementations() %}
+    {% for implementation in related('implementation-of') %}
       <li>
         <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
       </li>

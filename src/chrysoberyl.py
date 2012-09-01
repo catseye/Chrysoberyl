@@ -306,30 +306,19 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
 
-        def implementations(key=key):
-            i = []
+        def related(relationship, key=key):
+            objects = []
             for thing in data:
-                if data[thing].get('implementation-of', None) == key:
-                    i.append(thing)
-            return i
-
-        def contained_implementations(key=key):
-            i = []
-            for thing in data:
-                if key in data[thing].get('in-distributions', []):
-                    i.append(thing)
-            return i
-
-        def supported_on_platforms(key=key):
-            i = []
-            for thing in data:
-                if data[thing].get('native-language', None) == key:
-                    i.append(thing)
+                rel = data[thing].get(relationship, None)
+                if rel is None:
                     continue
-                if key in data[thing].get('other-languages', []):
-                    i.append(thing)
+                if rel == key:
+                    objects.append(thing)
                     continue
-            return i
+                if isinstance(rel, list) and key in rel:
+                    objects.append(thing)
+                    continue
+            return objects
 
         def documentation(key=key):
             doc_node = data['Documentation Index']
@@ -344,9 +333,7 @@ class Renderer(object):
 
         # functions
         context['filekey'] = filekey
-        context['implementations'] = implementations
-        context['contained_implementations'] = contained_implementations
-        context['supported_on_platforms'] = supported_on_platforms
+        context['related'] = related
         context['documentation'] = documentation
         context['indefart'] = indefart
 
