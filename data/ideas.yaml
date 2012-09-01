@@ -1,3 +1,56 @@
+# encoding: UTF-8
+
+Belabour:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - 2-dimensional
+  - Logic programming
+  no-specification: true
+  summary: 'relative entropy meets Prolog: a crossword logic game'
+  inception-date: ca 2006
+  description: |
+    While in Vancouver, I came across a copy of that classic book on Information
+    Theory, _The Mathematical Theory of Communication_
+    (Claude Shannon and Warren Weaver, University of Illinois Press, 1969),
+    and found this quoted on page 14:
+    
+    > "...[I]t is interesting to note that a language must have at least 50 per cent of real freedom (or relative entropy)
+    > in the choice of letters if one is to be able to construct satisfactory crossword puzzles.  If it has complete
+    > reedom, then every array of letters is a crossword puzzle.  If it has only 20 per cent of freedom, then
+    > it would be impossible to construct crossword puzzles in such complexity and number as would make the
+    > game popular.  Shannon has estimated that if the English language had only about 30 per cent redundancy,
+    > then it would be possible to construct three-dimensional crossword puzzles."
+    > — Warren Weaver, _Recent Contributions to the Mathematical Theory of Communication_
+    
+    So let us consider another puzzle game based on another language.  The language is not so strange;
+    take Prolog's semantics
+    and cast them in Forth's syntax (Reverse Polish Notation — RPN.)  That includes identifiers —
+    to construct the atom `cat` you might say `ca.t.`, or equally well, `tca..`.  To express a Horn clause like
+    `gp(X,Y) :- p(X,Z), p(Z,Y)`, you might say `XY,gp.*ZY,p*XZ,p*&:`, or
+    any of a number of other valid permutations.
+    
+    Now, let us say that that clause need not only be read left to right, but, like a crossword puzzle entry,
+    could be read top to bottom.  And that a set of such clauses shall be cast into a grid, with the rows and
+    columns *both* being clauses in the logic program, even though they are overlapping.
+    And, just to keep it feasible, we provide in the language a symbol `#` which does nothing
+    except waste space.
+    
+    So, here is the game: I give you a logic puzzle, hopefully of some moderate "interestingness", like that
+    old chestnut about the farmer with his goose and his fox who's trying to smuggle them onto a boat into Eurozone,
+    or get them to market, or something.  You give me a _n_×_n_ square
+    grid of symbols which contains a Belabour program which solves this
+    puzzle.  You get points for making _n_ small; you have points deducted for using `#`.
+    
+    What would this game tell us about the percent of relative entropy in logic?  If nothing
+    so profound could learned about "pure logic", per se, then what about Horn-clause-based
+    logic programming — and is that not still an interesting question?
+
 Boo-yah!:
   type: Programming Language
   genre: Esolang
@@ -173,6 +226,99 @@ Kig:
     akin to division by two...
 
 
+Milab:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: memory mapped, but where?
+  inception-date: ca Sep 2009
+  description: |
+    In the vein of [[ZOWIE]], some operation critical to Turing-completeness,
+    like control flow, is memory-mapped.  The twist is, you don't know where.  It could be any memory location
+    (out of an unlimited number), so you have to discover it in order to use it and write an arbitrary program.
+    
+    The most obvious way to discover this memory location would be through systematic probing,
+    much like you might probe for bad RAM.
+    Such probing, however, would seem to necessitate a loop and a test of some kind,
+    and with such operations available, chances are the language is already Turing-complete,
+    or at least so darn close as to not be very interesting.
+    
+    So the trick to making this a good design would be figuring out what to hide, and what to provide to
+    find it without making it unnecessary.
+
+
+Naoko:
+  type: Programming Language
+  genre: Experimental language
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: everything is explicit
+  inception-date: ca Sep 2008
+  description: |
+    While living in Hyde Park in Chicago, I had the idea to design a
+    high-level programming language where everything is explicit.
+    If you are reading that and thinking "how absurd", congratulations, your brain works!
+    Every string of symbols has multiple possible interpretations, so there will always be some
+    semantic function  providing the interpretation; that function must either be implicit, or must be
+    described in terms of some other system — i.e. some other strings of symbols —
+    which suffers the exact same problem.  So, if you try to make *everything* explicit, the best
+    you can really do is make it circularly defined.
+    
+    But still, it could be an interesting line of inquiry, if we tack onto "everything is explicit"
+    a disclaimer like "insofar as this is possible," and pick a few especially significant things to make
+    explcit.  It could be interesting because, in programming, explicit phenomena
+    are manageable phenomena — this is why I picked the name Naoko, which means
+    "obedient child" in Japanese.  It is also interesting because we are having it be a high-level
+    language, and one of the hallmarks of being "high-level" is that many things are taken care
+    of for the programmer, i.e. *not* explicit.
+    
+    For Naoko, I planned to start with a simple eager functional language, similar to
+    Scheme or Haskell (except eager), and aimed to make at least the following three things explicit:
+    
+    *   *Lexical environments for variable binding.*
+        
+        This was to be done by annotating every variable name with the environment it
+        comes from.  Since environment are lexically nested, the variable `foo`
+        in the immediate enclosing environment would be referred to by `foo^0`,
+        the one from the next level up `foo^1`, and so forth.
+    
+    *   *Control flow.*
+                
+        This was to be made explicit by continuations; functions could never return, but would
+        be forced to continue a continuation as their final act.  In addition, there could be no
+        "call-with-current-continuation"-like construct, as the "current continuation" is naturally
+        a somewhat implicit object.  These two things would force the entire program to be
+        written in a very verbose continuation-passing style.
+    
+    *   *Memory management.*
+                
+        The plan was to add explicit allocation and deallocation operations.
+        Explicit allocation does not add much except for, every time you create a list or
+        closure you should put `new` in front of it.  It's deallocation
+        where it gets interesting.  At the last use of a datum, you would need to mark it
+        `free`, and if you make copies of it to pass to functions, you
+        would need to explicitly mark them `copy`.  There's kind of
+        a simplistic syntactic linear typing thing going on.
+    
+    As if each of these wasn't bad enough alone, their combination and
+    interaction brings up a couple of further issues.  I never addressed them fully,
+    but similar ideas with similar interaction eventually materialized in my
+    programming language [[Unlikely]].
+
+
 Paneer:
   type: Programming Language
   genre: Experimental language
@@ -249,6 +395,116 @@ Poerhinekh:
     precedence or such.
 
 
+Potro:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Algebraic
+  no-specification: true
+  summary: programs form a ring
+  inception-date: ca 2007
+  description: |
+    Since finishing the first design for [[Burro]], I've been interested in
+    languages where the set of all programs in the language forms an abstract algebraic structure (over a semantic
+    equivalence relation) under some non-contrived binary operations.
+    
+    So, for instance, Burro programs form a _group_ under concatenation,
+    which means that, for every Burro program, you can find some other Burro program
+    that annihilates it (concatenating it to the first program yields a null program.)
+    
+    A _ring_ is a somewhat stricter algebraic structure: it is a set (of programs,
+    in this case) with *two* binary operations
+    (called the additive operation and the multiplicative operation).
+    The operations could be any transformation that can be applied to any two programs to produce
+    another program.  They must meet certain constraints, however — algebraic properties
+    which must hold for all members of the set.  Rings build on groups (Abelian groups, actually)
+    and extend them with a couple of further properties, including _distributivity_, which
+    should look familiar from even high school algebra:
+    (_a_ + _b_) * _c_ = (_a_ * _c_) + (_b_ * _c_).
+    
+    I set out looking for a language whose programs form a ring under some appropriate operations,
+    but I have yet to find one.
+    
+    I tried using sequential composition as the multiplicative
+    operation and parallel execution as the additive operation in
+    [[Cabra]], but the result
+    was a slightly different algebraic structure, an _idempotent semiring_
+    (also called a _dioid_.)
+    Another, somewhat more experimental (and unpublished) design I toyed with
+    treats a program as a map from a set of labels to basic blocks,
+    with Cartesian product of label sets as the multiplicative
+    operation, and set-union of label sets as the additive operation.
+    This too is only a dioid.
+    
+    So what semantics, specifically what choice of operations,
+    would lead to a proper ring?
+    
+    Obviously it'd be best if the operations weren't completely
+    contrived.  It's probably possible to have rather degenerate operations
+    where the additive operation is based directly on addition of numbers,
+    while the multiplicative operation is based on numerical multiplication.
+    It's possible this could be done by extending addition and multiplication to
+    unbounded arrays of numbers — that is, tapes — and have programs
+    manipulate the tapes.  But I don't think it's a very interesting route to explore.
+    
+    The most natural (in some sense) choice for the mulitplicative operator
+    is sequential composition (which corresponds to concatenation of program
+    texts in many simple languages.)  The problem is that when
+    you sequentially compose two programs, the first program might never
+    halt — so the second program doesn't ever run, and it doesn't matter
+    what that program is.  In algebraic terms, the first program *absorbs*
+    the second during sequential composition: _a_ * _b_ = _a_,
+    for any choice of _b_.  But in ring theory, this implies
+    _a_ + _a_ = _a_, and there is only
+    one element for which that fits: _a_ = 0.  Moreover, we need
+    _x_ + 0 = _x_ for some _x_ that's not zero.
+    That means we need some way to "ignore" a program which doesn't halt during addition, if it doesn't halt,
+    but some way to pay attention to it if it does halt
+    (to evaluate general statements like _x_ + _y_ = _z_.)
+    The problem is, that means we need some way to tell if programs halt or not,
+    which is (drum roll please) the Halting Problem.
+    
+    (So why do dioid languages seem much easier to get than ring languages?
+    Well, unlike rings, dioids *do* provide idempotency, as a property
+    of addition — _a_ + _a_ = _a_ for any choice of _a_ —
+    and that can be exploited here.
+    It's also worth noting that there are some fundamental theoretical computer science concepts which are
+    dioid-based; for example, regular expressions can be defined by _Kleene algebras_,
+    which are dioids with an extra "Kleene star" operation.)
+    
+    Even if we restrict ourselves to the programs that always halt,
+    multiplicative sequential composition poses an extremely tricky problem
+    when we try to address distributivity — in particular, right-distributivity.
+    We need (_a_ + _b_) * _c_ = (_a_ * _c_) + (_b_ * _c_).
+    If we think of the left side as combining the results of _a_ and _b_,
+    and then running _c_ on those results, then the right side means that we ought to
+    get the same thing if we combine the results of two runs: running _a_ then _c_,
+    and running _b_ then _c_.  Problem is, _c_ can do all kinds of
+    crazy things, even when it always halts.  It could check that its input is the result of what you would get by running
+    _a_ only, or _b_ only, but not anything else.  The right side
+    is then effectively _c_ + _c_, and how do you in general enforce that combining some result
+    with itself has the same semantics as combining two different results and possibly post-processing them?
+    
+    I suspect that the underlying reason that getting a ring language
+    is hard (at least when you insist on sticking
+    to "intuitive" operations) is because a ring is starting
+    to approach a structure (a Euclidean domain) in which you 
+    can perform the Euclidean algorithm and obtain greatest
+    common denominators.
+    Now, if you could perform that algorithm on programs, you'd
+    be able to decompose every program into "prime subprograms".
+    This sounds intuitively a little too powerful — you'd
+    be able to find programs which are in some sense optimal!
+    I'm not certain this would actually *violate* established
+    undecidability results like Rice's theorem, but it certainly
+    sounds like it's edging up against them.
+
+
 Psogumma:
   type: Programming Language
   genre: Esolang
@@ -280,3 +536,42 @@ Psogumma:
     a well-defined meaning, although divining that meaning before parsing
     the program is at best an arduous task and at worst unpredictable (without
     having already parsed the program.)
+
+
+Seltzer Spigot:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: computational ascii art
+  inception-date: ca Dec 2008
+  description: |
+    Once, quite innocently, I ran a Perl script I was writing to
+    produce a simple inverted index.  Completely nothing special.
+    But when I ran it, I was surprised to get the following beautiful
+    output — it turns out I got a regular expression wrong (I always
+    think whitespace is `\\w` when it's really `\\s`...)
+    So, the challenge is to find a
+    programming language in which this output is a meaningful program
+    and, in general, programs look something like this:
+    
+        :
+         :
+          :
+          ../../:
+          /:
+         ../../:
+         /:
+         \
+        :
+        ++.:
+        -:
+        .:
+        /:
+        : :

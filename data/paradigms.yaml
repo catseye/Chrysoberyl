@@ -101,6 +101,8 @@ Imperative:
   type: Programming Paradigm
 Lazy:
   type: Programming Paradigm
+Logic programming:
+  type: Programming Paradigm
 Maze-space-rewriting:
   type: Programming Paradigm
 Memory-mapped:
