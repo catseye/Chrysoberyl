@@ -1,6 +1,8 @@
 # encoding: UTF-8
 type:
   type: type
+Metadata:
+  type: type
 # horribly vague:
 Concept:
   type: type
@@ -20,6 +22,8 @@ Organization:
   type: type
 Programming Paradigm:
   type: type
+Language Construct:
+  type: type
 Abstract Artlang:
   type: type
 Discipline:
@@ -27,8 +31,6 @@ Discipline:
 Ranking:
   type: type
 Collection:
-  type: type
-Metadata:
   type: type
 # implementations:
 Implementation:

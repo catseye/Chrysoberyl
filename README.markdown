@@ -144,9 +144,7 @@ Run requirements and build requirements can be optional.
 it's in (C, yes, Python, no, Java and Erlang, depends on the distribution),
 and what tools you need ("as a prerequisite") for building or running.**
 
-Better provision of documentation in templates.
-
-Extrapolate the above two for distributions (do that for each implementation
+Extrapolate the above for distributions (do that for each implementation
 in the distribution.)
 
 If an implementation allows visual debugging or animation, note that.
@@ -155,13 +153,13 @@ List all implementations whose host-language is this language.
 
 List all (compiler) implementations whose target-language is this language.
 
+Better provision of documentation in templates.
+
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
 
 Add my music.
-
-Add LoUIE.
 
 ### other ###
 

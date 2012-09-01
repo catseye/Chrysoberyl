@@ -1,106 +1,6 @@
 # encoding: UTF-8
 # this one's a real grab-bag, for now
 
-Comment:
-  type: Concept
-  description: |
-    A comment is a part of a program that isn't part of the program.
-  commentary: |
-    Don't comment *who* or *when*. That's the source control system's job.
-    
-    Don't comment *what*. If I'm a programmer worth my salt, I can read your
-    code and figure out the *what*.
-    
-    Don't spend a lot of space commenting *how*. Just provide a reference,
-    like "Implements topological sort (see CLR)". If I'm an engineer worth
-    my salt, I can look it up if I'm not already familiar with it. If I
-    can't obtain the source, I can spend an hour or two studying the code,
-    and I'll probably pick up the gist of the *how*.
-    
-    PLEASE PLEASE PLEASE ALWAYS COMMENT *WHY*. No matter how good I am, no
-    amount of time I spend looking at your code will tell me what the hell
-    the reason for its existence is. I can only guess the *why*.
-    
-    Lastly, commenting *where* is optional, but can be quite entertaining.
-
-Exception:
-  type: Concept
-  description: |
-    An exception is a value which can be "thrown" or "raised" at some point in the
-    execution of a program. This act can be detected, and the exception
-    "caught", by an exception handler installed at some previous point in the
-    execution. Catching an exception causes execution to continue inside the
-    handler, which can then decide what to do next. An uncaught exception
-    generally causes the program to terminate.
-  commentary: |
-    Here is [[Cat's Eye Technologies]]' official position on exceptions:
-    
-    **Ask not where it makes sense to throw exceptions; ask where it makes
-    sense to *catch* them.**
-    
-    If exceptions denote truly *exceptional* events, then by definition, you
-    are not really *prepared* for them. You have to ask what your program
-    can possibly do to recover from them. Out of memory? Syntax error in the
-    configuration file? Database server down? Method doesn't exist? There's
-    probably nothing that your program *can* do about these things, aside
-    from giving up and notifying the person in charge that a problem has
-    occurred.
-    
-    In this view, the main reason to use an exception, rather than, say,
-    blithely dereferencing `NULL` and dumping core, is not because it is
-    really a better solution per se; it's just that it's *prettier*.
-    
-    Not that that's bad, especially for commercial software! A newspaper
-    article about a train wreck is a lot easier to handle psychologically
-    than having it happen in your back yard. But my point is,
-    [software-engineering](seng.html)-wise, the exception isn't really a
-    *solution* to anything. (And, for internal tools, you probably actually
-    *do* want to be at the scene of the train wreck — you'll need as many
-    grisly details as possible in order to diagnose the problem.)
-    
-    An approach that takes this to the extreme is
-    [[Erlang]]'s "let it crash" philosophy. Exceptions
-    are often touted as a way to avoid having a bunch of "error-return
-    checks" in your code. But if the problem is essemtially irrecoverable,
-    there's no sense having *any* error-return checks, even ones that are
-    dressed up as exception handlers. They'll just lead to a bunch of
-    seldom-taken code paths executing in hard-to-reason-about error-mode
-    states which run the risk of corrupting data (by e.g. inserting invalid
-    rows into a database.) Better by far to simply "let it crash" — log the
-    error and the condition that led to it, and abort the program. If the
-    program provides some kind of service, it can be restarted in a known
-    state by an external monitor program.
-    
-    If, on the other hand, the event isn't truly exceptional, then the
-    question to ask is "why is it being modelled as an exception?" Joel
-    Spolsky raises [some excellent points in regards to this
-    issue](http://www.joelonsoftware.com/items/2003/10/13.html) — multiple
-    return values are often a more coherent way to cast the flow of control.
-    The unique utility of exceptions is that they can perform non-local
-    returns — control need not return to the immediate caller, it can skip
-    back up to a procedure that called the procedure that called the
-    procedure that called this one, if that's where the handler was
-    installed.
-    
-    We believe that this property of exceptions should be taken into
-    consideration when deciding upon an exception strategy: Will the callers
-    of my caller ever care about this exception? When will the direct caller
-    of my code *not* want to catch it? What benefit does this exception
-    really have over an error-valued return value?
-    
-    [[Python]], for example, throws exceptions at the drop of a hat — when a
-    value is not found while searching a list, for example. But likely it
-    makes sense to catch that exception *always*, because *if you're
-    searching for something, it probably means it might not be there*. And
-    it makes sense to catch the exception *immediately after searching the
-    list*, because *your callers probably shouldn't care that you're
-    searching a list*. (If, in the future, you changed the implementation of
-    your function so that it looked things up in a dictionary instead, a
-    *different* exception would be thrown. Oi!)
-    
-    We feel that this is an injudicious use of exceptions, and that Python
-    is, sadly, hardly a unique language design in this regard.
-
 Galois connection:
   type: Concept
   description: |
@@ -255,7 +155,7 @@ Universality:
     grammar, and no universal finite-state automaton.
     
     It is not the case that only Turing machines can be universal. There
-    are, for example, universal [cellular automata](/projects/ca.html) which
+    are, for example, universal [[Cellular automaton|cellular automata]] which
     can simulate all other cellular automata. Note as well that cellular
     automata are unable to simulate Turing machines, since they cannot
     terminate.
