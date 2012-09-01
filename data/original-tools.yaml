@@ -73,7 +73,7 @@ crone:
 crone.erl:
   type: Implementation
   implementation-of: crone
-  in-distribution: 'crone distribution'
+  in-distribution: crone distribution
   license: BSD license
   host-language: Erlang
 
@@ -88,6 +88,37 @@ crone distribution:
   - version: "1.0"
     revision: "2004.0301"
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
+
+
+DiskSumo: 
+  type: Tool
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    DiskSumo is a program to transfer disk images off a Commodore 64 over
+    the RS-232 port via the XMODEM protocol at 300 baud.
+  inception-date: ca 2005
+
+DiskSumo (BASIC):
+  type: Implementation
+  implementation-of: DiskSumo
+  in-distribution: DiskSumo distribution
+  license: Public Domain
+  host-language: Commodore BASIC 2.0
+  host-platform: Commodore 64
+
+DiskSumo distribution: 
+  type: Distribution
+  distribution-of: DiskSumo
+  bitbucket: catseye/disksumo
+  github: catseye/DiskSumo
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2007.0726"
+    url: xxx
 
 
 Falderal: 

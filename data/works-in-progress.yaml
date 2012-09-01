@@ -36,6 +36,44 @@ Deturgenchry distribution:
   releases: []
 
 
+Kosheri:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Assembly
+  - Imperative
+  description: |
+    Kosheri is a virtual machine design that rose from the ashes
+    of [[Bhuna]].
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 2007
+  etymology:
+  - dish
+  - egyptian
+
+kosheri.c:
+  type: Implementation
+  implementation-of: Kosheri
+  reference: true
+  in-distribution: Kosheri distribution
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: C99
+
+Kosheri distribution: 
+  type: Distribution
+  distribution-of: Kosheri
+  development-stage: work in progress
+  github: catseye/Kosheri
+  bitbucket: catseye/kosheri
+  issue-tracker: github
+  releases: []
+
+
 Pophery:
   type: Programming Language
   genre: Esolang
@@ -68,5 +106,48 @@ Pophery distribution:
   development-stage: work in progress
   github: catseye/Pophery
   bitbucket: catseye/pophery
+  issue-tracker: github
+  releases: []
+
+
+Robin:
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Functional
+  description: |
+    Robin is a language drawing from [[Pixley]], [[Erlang]], and PicoLisp.
+    One distinctive feature of it is that it has an extremely small core semantics,
+    to the point where even [[Closure|closures]] are defined in terms of macros.
+    Another distinctive feature is that it is heavily resource-oriented; almost
+    everything, including concurrent processes, is (or should be) a virtual device
+    which must be acquired from a central resource arbiter.  This arbiter may
+    satisfy the constraints you specify when requesting a device any way it sees
+    fit; so the operating environment has potentially a lot of influence over
+    exactly what your program does.
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2011
+  etymology:
+  - bird
+
+Robin.lhs:
+  type: Implementation
+  implementation-of: Robin
+  reference: true
+  in-distribution: Robin distribution
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Haskell
+
+Robin distribution: 
+  type: Distribution
+  distribution-of: Robin
+  development-stage: work in progress
+  github: catseye/Robin
+  bitbucket: catseye/robin
   issue-tracker: github
   releases: []
