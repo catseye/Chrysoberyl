@@ -151,8 +151,6 @@ in the distribution.)
 
 If an implementation allows visual debugging or animation, note that.
 
-Allow bespoke templates for individual nodes.
-
 List all implementations whose host-language is this language.
 
 List all (compiler) implementations whose target-language is this language.

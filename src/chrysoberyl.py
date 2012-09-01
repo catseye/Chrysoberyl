@@ -291,11 +291,16 @@ class Renderer(object):
         with codecs.open(output_filename, 'w', 'utf-8') as html:
             html.write(template.render(context))
     
-    def get_template(self, node):
+    def get_template(self, key):
+        node = self.data[key]
         template_filename = 'default.html'
-        filename = filekey(node['type'])
-        if os.path.exists(os.path.join(self.template_dir, filename)):
+        filename = filekey(key)
+        if node['type'] != 'type' and os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
+        else:
+            filename = filekey(node['type'])
+            if os.path.exists(os.path.join(self.template_dir, filename)):
+                template_filename = filename
         template = self.env.get_template(template_filename)
         return template
 
@@ -348,7 +353,7 @@ class Renderer(object):
         context['documentation'] = documentation
         context['indefart'] = indefart
 
-        template = self.get_template(node)
+        template = self.get_template(key)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
 
     def render_chrysoberyl_data(self):
