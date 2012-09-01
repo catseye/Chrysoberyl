@@ -36,9 +36,36 @@ Deturgenchry distribution:
   releases: []
 
 
+Exanoke:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Functional
+  description: |
+    Exanoke is a functional language which is syntactically restricted to
+    expressing the primitive recursive functions.
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Jul 2012
+  etymology:
+  - typo
+
+Exanoke distribution: 
+  type: Distribution
+  distribution-of: Exanoke
+  development-stage: work in progress
+  github: catseye/Exanoke
+  bitbucket: catseye/exanoke
+  issue-tracker: github
+  releases: []
+
+
 Kosheri:
   type: Programming Language
-  genre: Esolang
+  genre: Production language
   paradigms:
   - Assembly
   - Imperative
