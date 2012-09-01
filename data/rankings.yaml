@@ -1,5 +1,5 @@
 # encoding: UTF-8
-"Chris Pressey's Favourite Video Games":
+Chris Pressey's Favourite Video Games:
   type: Ranking
   description: |
     Well, I figured that if
@@ -10,9 +10,9 @@
     effects or "realism" of the game.   Music does has some influence
     on me though, in that an exceptional soundtrack will count for some
     extra points.
-
-# You may also be interested in the <a href="adventure-games.html">adventure games I've played</a> and
-# <a href="games.html">the few games I've designed and implemented</a>.</p>
+  see-also:
+  - Chris Pressey's Favourite Text Adventures
+  - Games Designed by Chris Pressey
   entries:
   - Typhoon Thompson
   - Pepper II
@@ -24,3 +24,23 @@
   - CoolBoarders 2
   - Super Monkey Ball 2
   - Cloak and Dagger
+
+Chris Pressey's Favourite Text Adventures:
+  type: Ranking
+  description: |
+    Here is a list of [[Text Adventure|text adventure]] games that I've played (though some of
+    them do have supplementary graphics), and, while I'm a bit hesitant to call
+    some of them my favourites, I must have enjoyed them enough to remember them.
+    You'll notice that I am not actually particularly good at solving these things!
+  see-also:
+  - Chris Pressey's Favourite Video Games
+  - Games Designed by Chris Pressey
+  entries:
+  - The Hitch-Hiker's Guide to the Galaxy
+  - Winter Wonderland
+  - The Africa Adventure
+  - Cranston Manor
+  - Creature Venture
+  - Dungeon (MIT)
+  - The Secret of St. Bride's
+  - Time & Magick

@@ -3,7 +3,7 @@
 # (while I'm sure any of these *could* have multiple implementations,
 # in practice, no, that doesn't happen)  But I will have to figure out the
 # authors of these, someday.
-"Hitch-Hiker's Guide to the Galaxy, The":
+The Hitch-Hiker's Guide to the Galaxy:
   type: Game
   genre: Text Adventure
   solved-by:
@@ -32,7 +32,7 @@ Winter Wonderland:
     I'm proud to say that I solved this with no hints or walkthroughs, although I should add,
     it's not a particularly difficult game.
 
-Africa Adventure, The:
+The Africa Adventure:
   type: Game
   genre: Text Adventure
   platform: Commodore 64
@@ -84,7 +84,7 @@ Time & Magick:
     sanity but gradually lose it over time, but the third one, with the spells which require
     certain objects as foci, seemed kind of weak.
 
-"Secret of St. Bride's, The":
+The Secret of St. Bride's:
   type: Game
   genre: Text Adventure
   platform: Commodore 64

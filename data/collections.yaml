@@ -1,5 +1,5 @@
 # encoding: UTF-8
-"Chris Pressey's Lingography":
+Chris Pressey's Lingography:
   type: Collection
   description: |
     (What is a "lingography", you ask?  Well, if bands have
@@ -22,6 +22,23 @@
     since the distinction between languages and games is not always that clear,
     you may also be interested in the (much less voluminous)
     list of games I've designed and implemented.
+  see-also:
+  - Games Designed by Chris Pressey
+
+Games Designed by Chris Pressey:
+  type: Collection
+  description: |
+    Here is a list of games that I've designed and implemented.
+    It is much less extensive in scope than my
+    [[Chris Pressey's Lingography|lingography]],
+    but there are perhaps still a few worth mentioning here.
+    Besides, the distinction between games and languages is not always that clear...
+  see-also:
+  - Chris Pressey's Favourite Video Games
+  - Chris Pressey's Favourite Text Adventures
+  include-types:
+  - Game
+  include-author: Chris Pressey
 
 LoUIE:
   type: Collection
