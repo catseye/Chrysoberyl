@@ -23,9 +23,9 @@ Chris Pressey's Lingography:
     you may also be interested in the (much less voluminous)
     list of games I've designed and implemented.
   see-also:
-  - Games Designed by Chris Pressey
+  - Games by Chris Pressey
 
-Games Designed by Chris Pressey:
+Games by Chris Pressey:
   type: Collection
   description: |
     Here is a list of games that I've designed and implemented.
@@ -36,9 +36,6 @@ Games Designed by Chris Pressey:
   see-also:
   - Chris Pressey's Favourite Video Games
   - Chris Pressey's Favourite Text Adventures
-  include-types:
-  - Game
-  include-author: Chris Pressey
 
 LoUIE:
   type: Collection

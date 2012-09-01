@@ -195,8 +195,8 @@ def check_chrysoberyl_data(data):
 
           if 'authors' not in node:
               pl_node = data[node['implementation-of']]
-              node['authors'] = pl_node.get('authors', None)
-              node['auspices'] = pl_node.get('auspices', None)
+              node['authors'] = pl_node.get('authors', [])
+              node['auspices'] = pl_node.get('auspices', [])
 
       # All "implementables" need to pass these checks.
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool', 'Platform']:
