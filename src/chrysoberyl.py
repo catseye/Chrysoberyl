@@ -255,7 +255,10 @@ def convert_chrysoberyl_data(data):
 
 
 def filekey(key):
-    return re.sub(r'(\/|\s|\:|\#)', '_', key) + ".html"
+    key = re.sub(r'(\/|\s|\:|\#)', '_', key)
+    key = re.sub(u'ü', 'ue', key)
+    key = re.sub(u'é', 'e', key)
+    return key + ".html"
 
 
 def markdown_field(data, node, field):
