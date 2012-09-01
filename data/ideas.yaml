@@ -47,6 +47,82 @@ Boo-yah!:
     good fit for the language.
 
 
+Faradaisical:
+  type: Programming Language
+  genre: Joke language
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Self-modifying
+  no-specification: true
+  summary: programmagnetic induction
+  inception-date: ca 2009
+  description: |
+    Execution of instructions in one program creates a "programmagnetic field" which induces the execution of instructions
+    in another nearby program.
+    
+    Now, I think that's a pretty good joke language, as is.  But it could maybe even be developed into something usable.
+    Of course, it would ideally adhere to as many of the rules of electromagnetic induction as possible — cross product of
+    the flux, and all that jazz.  Being able to
+    wind a program around into a coil whose inductance can be measured in Turinghenries would be a bonus!  (Would it
+    add ringing to a computation of the Ackermann function...?)
+
+
+GI:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Graph-rewriting
+  no-specification: true
+  summary: execution entails solving instances of GI
+  inception-date: ca 2010
+  description: |
+    So we have a set of instructions, say two dozen or so.  So far, so good, right?
+    
+    Each of the instructions is identified by an undirected, unlabeled graph.  The program is a sequence
+    of undirected graphs.  Each graph in the program is, in sequence, matched up with the
+    instruction whose graph is isomorphic, and that instruction is executed.
+    
+    The result of this is that recognizing each instruction requires solving an instance of the
+    <a href="http://en.wikipedia.org/wiki/Graph_isomorphism_problem" class="external">graph isomorphism problem</a>.
+    This is an interesting problem, because (last I checked) no one knows whether this problem
+    can be solved in polynomial time, nor whether it is NP-complete, so it has been given its own
+    complexity class, **GI**.  The idea here is that the complexity of programs in the GI
+    language needs to be expressed in terms of the **GI** complexity class.
+    
+    But there is a small problem with this design; namely, if all the graphs in the program
+    are statically defined, an optimizing implementation could statically analyze the program,
+    find matching instructions for each graph in the program beforehand, and cache them.  This
+    would diminish the complexity of running the program to a finite number of instances of **GI**,
+    plus whatever the "usual" complexity of the program is.
+    
+    To defeat that, we can basically force the graphs in the program to be dynamically
+    defined: some subset of the instructions allows constructing a new graph (by creating an
+    empty graph in some kind of "graph accumulator", adding nodes and edges, etc);
+    newly assembled graphs can be executed via some kind of "eval" instruction; and
+    newly assembled graphs *must* be executed, in a "quining" fashion,
+    in order to enact repetition, a la [[Muriel]].
+    
+    Since new graphs would then be continually being generated, perhaps in
+    chaotic and undecidable ways, the ability of an implementation to recognize and
+    cache them would be severely limited, meaning that the complexity of a GI program
+    really would need to be effectively measured in terms of **GI**.  For extra fun, some
+    instruction could re-define the graphs which identify the instructions; while this
+    certainly doesn't make it any easier to optimize a GI program, I don't think it's
+    a strictly necessary step to defeat caching.
+    
+    (Oh, and each of the undirected, unlabeled graphs which represents an instruction
+    could be termed a "dogtag".  Get it?  Get it?  "GI"?  Get it?)
+
+
 Kig:
   type: Programming Language
   genre: Esolang
@@ -134,6 +210,43 @@ Paneer:
     machine that scans and parses itself (when encountered in
     keyword context, or adds itself to a string constant if
     encountered between quotes.)
+
+
+Poerhinekh:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  no-specification: true
+  summary: rectangles within rectangles
+  inception-date: 2009
+  description: |
+    Imagine a nominally graphical programming language, where the only
+    program element is the lowly rectangle.  A program consists of an
+    arrangement of rectangles; they may not overlap, but they may be nested
+    inside other rectangles, and in this case they may butt up against the
+    containing rectangle, so that they share a side.  Size of a rectangle
+    does not matter, not even relative size, except insofar as to permit
+    or disallow nesting.
+    
+    When a rectangle is nested within a larger containing
+    rectangle, it can share 0, 1, 2, or 3 sides with the containing
+    rectangle.  (For 3 sides, we consider the larger of the two
+    inner areas to be the nested rectangle.)  When 0 sides are shared,
+    there are no variations — position of the nested rectangle is
+    immaterial.  When 1 side or 3 sides are shared, there are
+    four variations (top, left, right, bottom).  When 2 sides are shared,
+    there are four other variations (top-left, top-right, bottom-left,
+    bottom-right).  All in all there are 4+4+4+1=13 possibilities for
+    nesting.  This could map to 13 different instructions or program
+    forms.  In addition, the nesting is a natural hierarchical pattern
+    for program formation, so could represent block structure or
+    precedence or such.
 
 
 Psogumma:
