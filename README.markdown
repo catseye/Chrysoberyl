@@ -153,8 +153,11 @@ and what tools you need ("as a prerequisite") for building or running.**
     for this purpose (e.g. generally recommend Perl 5.8.some).
 *   Have some way to indicate, on the implementation, that it needs
     building, even if the language is not always compiled (Haskell.)
-*   Related: even when the lnaguage is usually compiled, there might be
+*   Related: even when the language is usually compiled, there might be
     a compiler in some dists but not in others (JRE and JDK.)
+*   Related: account for the fact that some implementations can be
+    compiled or interpreted under two language (ANSI C and C99; or
+    in a more involved way, polyglots.)
 *   When it does not need building (dist has executables), still, tell
     how you would build it if you want to.
 

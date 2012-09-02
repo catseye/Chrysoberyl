@@ -7,6 +7,95 @@ Chris Pressey:
   domain: Cat's Eye Technologies
   description: |
     Hi, I'm Chris Pressey, and I'm a programming language composer.
+  old-homepage: |
+    Hello! I'm Chris Pressey. [I design programming
+    languages](retrospective.html). [Lots of 'em](lingography.html).
+    Unfortunately, there's no money in that, so to support my
+    three-times-a-day "food" habit I have a day job as a ~~computer
+    programmer~~ ~~systems analyst~~ ~~software developer~~ ~~software
+    engineer~~ ~~bit rassler~~ ~~cyborg babysitter~~ cable layer in a
+    Tinkertoy warehouse.
+    
+    In addition to languages, I also [write the occasional computer
+    game](games.html).
+    
+    I'm also active in [open-source](/about/opensource.html) development
+    (time permitting, of course.) Apart from all the [BSD
+    licensed](/projects/bsdl.html) projects at Cat's Eye Technologies, I've
+    also contributed to [The BSD Installer](http://www.bsdinstaller.org/),
+    [DragonFlyBSD](http://www.dragonflybsd.org/),
+    [FreeBSD](http://www.freebsd.org/) (ports),
+    [Perl](http://www.perl.com/), [Erlang](http://www.erlang.org/),
+    [Ruby](http://www.ruby-lang.org/), and [VICE](http://www.viceteam.org/).
+    
+    Things I Like
+    -------------
+    
+    -   programming languages (especially [esolangs](../about/esolang.html),
+        continuations, [reflection](../projects/refl.html), and abstract
+        interpretation)
+    -   [theory of computation](../projects/theory.html) (computability,
+        [universality](../about/universality.html), termination,
+        [rewriting](/projects/rew.html))
+    -   axiomatic mathematics (abstract algebra, topology, sometimes even
+        (*gakk*) category theory)
+    -   8-bit computers ([Commodore 64](../projects/cbm.html), Apple ][,
+        Sinclair ZX81)
+    -   arcade and video games (too many to list here, so they have [their
+        own page](vids.html))
+    -   [adventure games](adventure-games.html) (nowadays known as
+        "interactive fiction")
+    -   [electronics](../projects/elec.html)
+    -   music composition
+    -   hiking
+    
+    Things I Could Do Without
+    -------------------------
+    
+    -   [C++](../about/cplusplus.html)
+    -   headlong rushes to reduce language research to formal semantics and
+        type theory
+    -   humourless mathematicians, power-tripping academics, and other lost
+        souls
+    -   pedlars of profundity (Penrose, Wolfram, Hofstadter...)
+    
+    http://www.amazon.com/gp/registry/wishlist/1FDWC4EXHC59
+    
+    7-zip (windows)
+    bochs
+    colordiff
+    cutepdf (windows)
+    cygwin (windows)
+    dia
+    dosbox
+    drscheme/mzscheme
+    erlang/otp
+    filezilla (windows)
+    frotz
+    gimp
+    ghc6
+    hugs
+    inform
+    java6
+    lnks
+    nano
+    nasm
+    openoffice.org
+    patch
+    pidgin
+    putty (windows)
+    python
+    ruby
+    scite
+    screen
+    stella
+    subversion
+    tree
+    vice
+    winamp (windows)
+    winscp (windows)
+    zangband
+
   see-also:
   - Chris Pressey's Lingography
   - Games by Chris Pressey
