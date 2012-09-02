@@ -1,6 +1,12 @@
 {# bespoke template for Chris Pressey's Lingography #}
 {% extends "base.html" %}
 
+{# this bit may end up being common to collections #}
+{% block showtype %}{% endblock showtype %}
+{% block description %}
+  <p>{{ description_html }}</p>
+{% endblock description %}
+
 {% block content %}
 
 <h3>Languages I've Designed</h3>

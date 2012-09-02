@@ -1,7 +1,26 @@
 {% extends "base.html" %}
 
+{% block heading %}
+  <h1>Known {{ key }}s</h1>
+{% endblock %}
+
 {# don't show "Type: type", that's just silly #}
 {% block showtype %}{% endblock showtype %}
+
+{% block description %}
+  <p id="description">
+    This is a list of all {{ key|lower }}s with entries in {{ link('Chrysoberyl') }}.
+    {% if our_stuff %}
+      For a list of just those {{ key|lower }}s produced by
+      {{ link("Cat's Eye Technologies") }}, see
+      <a href="{{ filekey(our_stuff) }}">{{ our_stuff }}</a>.
+    {% endif %}
+  </p>
+  {% if description %}
+    <h2>Description</h2>
+    <p>{{ description_html }}</p>
+  {% endif %}
+{% endblock description %}
 
 {% block content %}
 
@@ -11,7 +30,7 @@
 {% for thing in data.keys()|sort %}
   {% if data[thing].type == key %}
     <li>
-      <a href="{{ filekey(thing) }}">{{ thing }}</a>
+      {{ link(thing) }}
     </li>
   {% endif %}
 {% endfor %}

@@ -364,16 +364,28 @@ class Renderer(object):
                 return "an " + text
             else:
                 return "a " + text
-        
+
+        def link(key, format="%s"):
+            return '<a href="%s">%s</a>' % (filekey(key), format % key)
+
         def breadcrumbs(key=key):
-            bc = [key]
-            if key == "Cat's Eye Technologies":
+            # ("This function's more like spaghetti than breadcrumbs,"
+            # quips Release Notes Girl...)
+            TOP = "Cat's Eye Technologies"
+            if data[key]['type'] == 'type':
+                bc = ["Known %ss" % key]
+            else:
+                bc = [key]
+            if key == TOP:
                 return bc
             while 'domain' in data[key]:
                 key = data[key]['domain']
-                bc.append('<a href="%s">%s</a>' % (filekey(key), key))
-            key = "Cat's Eye Technologies"
-            bc.append('<a href="%s">%s</a>' % (filekey(key), key))
+                if key == TOP:
+                    break
+                bc.append(link(key))
+            if key != TOP and data[key]['type'] != 'type':
+                bc.append(link(data[key]['type'], format="Known %ss"))
+            bc.append(link(TOP))
             bc.reverse()
             return bc
 
@@ -385,6 +397,7 @@ class Renderer(object):
         context['github_link'] = github_link
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs
+        context['link'] = link
 
         template = self.get_template(key)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)

@@ -5,7 +5,7 @@
 {% if reference_distribution %}
   <h2>Reference distribution</h2>
   {# maybe include info about this inline somehow #}
-  <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
+  <p>{{ link(reference_distribution) }}</p>
 {% elif standards_body %}
   <h2>Defined by</h2>
   <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>
@@ -19,7 +19,7 @@
   <ul>
     {% for implementation in related('implementation-of') %}
       <li>
-        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
+        {{ link(implementation) }}
       </li>
     {% endfor %}
   </ul>

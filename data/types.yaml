@@ -46,6 +46,7 @@ License:
 # implementables:
 Game:
   type: type
+  our-stuff: Games by Chris Pressey
 Library:
   type: type
 Tool:
@@ -54,6 +55,7 @@ Platform:
   type: type
 Programming Language:
   type: type
+  our-stuff: Chris Pressey's Lingography
   commentary: |
     There are two things about programming languages that every programmer
     should know.

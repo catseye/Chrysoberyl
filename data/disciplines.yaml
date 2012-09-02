@@ -71,8 +71,9 @@ Release Engineering:
     
     Using only the release date to identify releases mostly suffices for
     projects like ours, which rarely have any maintenance needs warranting
-    branches and such. But most of our projects do implement [programming
-    languages](languages.html), and these languages may or may not change
+    branches and such. But most of our projects do implement
+    [[Programming Language|programming languages]],
+    and these languages may or may not change
     between releases. For example, if we're just fixing bugs in a feature of
     the implementation, or clarifying the documentation or whatever, that's
     not a change to the language. But if all we use to identify it is a
@@ -117,8 +118,8 @@ Release Engineering:
 Project Organization:
   type: Discipline
   description: |
-    This is a rough guide to how projects in Cat's Eye Technologies'
-    [Project Space](../projects/) are laid out. It is both descriptive,
+    This is a rough guide to how [[Cat's Eye Technologies]]'
+    [[Distribution|distributions]] are laid out. It is both descriptive,
     surveying how projects currently are laid out, and prescriptive,
     specifying how projects should be laid out. It is currently a work in
     progress and should not be considered complete yet.

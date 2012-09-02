@@ -158,8 +158,7 @@ and what tools you need ("as a prerequisite") for building or running.**
 *   When it does not need building (dist has executables), still, tell
     how you would build it if you want to.
 
-On lists of things, list the ones from Cat's Eye Technologies first.
-(Or at least call out that it is a list of all things known to Chrysoberyl)
+Combine type and author into "byline" block.
 
 Call out works in progress and ideas in some obvious way.
 
