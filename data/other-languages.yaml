@@ -28,6 +28,14 @@ ANSI C:
     ANSI C (perhaps omitting some features) by passing the environment
     variable `ANSI=yes` to `make`.
 
+BASIC:
+  type: Programming Language Family
+  # close, but "Teaching language" might be better
+  genre: Pedagogical language
+  paradigms:
+  - Imperative
+  authors: []
+
 C99:
   type: Programming Language
   genre: Production language
@@ -616,6 +624,15 @@ Scheme:
     programs from other Scheme programs. No parsing, no backpatching. No
     blood, sweat, *or* tears. In fact, we wonder why this holdover from LISP
     has not driven Scheme on to become *the* program-analysis language.
+
+SETL: 
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Imperative
+  computational-class: shown Turing-complete
+  specification-link: http://setl.org/setl/doc/
+  authors: []
 
 # note our fork here somehow
 Zz:

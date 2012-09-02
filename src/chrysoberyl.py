@@ -60,16 +60,16 @@ def check_optional_scalar_ref(data, key, node, property, types=None):
 
 def check_list_ref(data, key, node, property, types=None):
     assert property in node, \
-        "'%s' has no %s list" % (key, property)
+        u"'%s' has no %s list" % (key, property)
     assert isinstance(node[property], list), \
-        "'%s' has non-list %s" % (key, property)
+        u"'%s' has non-list %s" % (key, property)
     for value in node[property]:
         assert value in data, \
-            "'%s' has undefined %s '%s'" % \
+            u"'%s' has undefined %s '%s'" % \
             (key, property, value)
         if types is not None:
             assert data[value]['type'] in types, \
-                "'%s' has %s '%s' which is a %s, not a %s" % (
+                u"'%s' has %s '%s' which is a %s, not a %s" % (
                     key, property, value, data[value]['type'], types)
           
 

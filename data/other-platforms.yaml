@@ -121,8 +121,8 @@ Windows:
   standards-body: http://microsoft.com/
   # \o/
   native-language: 80286 machine code
-  # I dunno, vbscript maybe?
-  other-languages: []
+  other-languages:
+  - VBScript
 
 WINE:
   type: Implementation
@@ -132,3 +132,11 @@ WINE:
   - Linux
   host-language: C++
   license: GPL
+
+VBScript:
+  type: Programming Language
+  genre: Production language
+  standards-body: http://microsoft.com/
+  paradigms:
+  - Object-oriented
+  authors: []

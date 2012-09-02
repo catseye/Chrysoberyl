@@ -24,6 +24,8 @@ Programming Paradigm:
   type: type
 Language Construct:
   type: type
+Book:
+  type: type
 Abstract Artlang:
   type: type
 Discipline:
@@ -34,6 +36,7 @@ Collection:
   type: type
 Programming Language Family:
   type: type
+
 # implementations:
 Implementation:
   type: type
@@ -43,6 +46,7 @@ Development Stage:
   type: type
 License:
   type: type
+
 # implementables:
 Game:
   type: type

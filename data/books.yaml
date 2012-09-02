@@ -1,0 +1,163 @@
+# encoding: UTF-8
+
+"Compilers: Principles, Techniques, and Tools (1st Ed.)":
+  type: Book
+  genre: Programming
+  # i have no idea where my copy is
+  copies-owned: 0
+  authors:
+  - Alfred V. Aho
+  - Ravi Sethi
+  - Jeffrey D. Ullman
+  isbn: 0-2011008-8-6
+  commentary: |
+    a.k.a "The Dragon Book".  The classic, borderline-incomprehensible book on compiler construction.
+
+Write your own Adventure Programs for your Microcomputer:
+  type: Book
+  genre: Programming
+  inception-date: 1983
+  copies-owned: 2
+  authors:
+  - Jenny Tyler
+  - Les Howarth
+  publisher: Usborne
+  isbn: 0-8602074-1-2
+  commentary: |
+    The *real* Dragon Book.  This one book is probably responsible for setting me off in
+    the direction of programming languages (because it describes how to write a simple
+    one-or-two word parser for an an adventure game.)
+    
+    Also, there are cute pictures of ghosts inside.
+
+Computer Battlegames:
+  type: Book
+  genre: Programming
+  inception-date: ca 1983
+  copies-owned: 1
+  authors: []
+  publisher: Usborne
+  commentary: |
+    Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
+
+Computer Spacegames:
+  type: Book
+  genre: Programming
+  inception-date: ca 1983
+  copies-owned: 1
+  authors: []
+  publisher: Usborne
+  commentary: |
+    Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
+
+"Gödel, Escher, Bach: An Eternal Golden Braid":
+  type: Book
+  genre: Philosophy
+  copies-owned: 0
+  authors:
+  - Douglas Hofstadter
+  publisher: Usborne
+  isbn: 0-4650265-6-7
+  commentary: |
+    OMG did I say Laws of Form will blow your mind? OMFG *this* book will TOTALLY BLOW your EVER-LOVIN' MIND!!1!
+
+A New Kind of Science:
+  type: Book
+  genre: Philosophy
+  copies-owned: 0
+  authors:
+  - Stephen Wolfram
+  isbn: 1-5795500-8-8
+  commentary: |
+    ZOMG FORGET WHAT I JUST SAID THIS IS IT THIS IS THE **ONE** THIS IS THE REAL DEAL OMFGGG!!!!!!!!!
+
+Microprocessor Programming for Computer Hobbyists:
+  type: Book
+  genre: Programming
+  # i might have a copy somewhere, but not here
+  copies-owned: 0
+  authors: []
+  publisher: TAB
+  commentary: |
+    Older computer science book, addressing machine-level programming with
+    a sort-of high level language called PL/M, which resembles PL/I.  Really not bad.
+
+1001 Things to Do With your Commodore 64:
+  type: Book
+  genre: Programming
+  # i might have a copy somewhere, but not here
+  copies-owned: 0
+  authors: []
+  publisher: TAB
+  commentary: |
+    Basically a font of mathematical/engineering/physical trivia and
+    random ideas for what could be done with a computer.  Although, I'm pretty
+    sure they re-published effectively the same book of ideas and [[BASIC]] program
+    fragments for every microcomputer on the market at the time, and this just
+    happened to the be [[Commodore 64]] one.
+
+Commodore 64 Programmer's Reference Guide:
+  type: Book
+  genre: Programming
+  copies-owned: 1
+  authors: []
+  commentary: |
+    Classic.  I urge you to read the "crunching" guide on pages 24-27, how the
+    screen editor works on pages 94-97, the vaguely condescending
+    paragraph at the top of page 153, and the comment on program line 20
+    on page 148, and tell me that the [[Commodore 64]] isn't an [[Esolang|esoteric architecture]].
+
+Mapping the 64:
+  type: Book
+  genre: Programming
+  # i might have my copy somewhere, but not here
+  copies-owned: 0
+  authors: []
+  commentary: |
+    Good reference work for the [[Commodore 64]].
+
+Mapping the Vic:
+  type: Book
+  genre: Programming
+  copies-owned: 0
+  authors: []
+  commentary: |
+    Good reference work for the Vic 20.
+
+#~ Algorithms:
+  #~ type: Book
+  #~ genre: Programming
+  #~ copies-owned: 0
+  #~ authors:
+  #~ - Cormen
+  #~ - L
+  #~ - R
+  #~ commentary: |
+    #~ Excellent textbook on algorithms.
+
+#~ ====The Cognitive Connection: Thought and Language in Man and Machine====
+#~ ''by Howard Levine and Howard Rheingold'' -- ISBN 0-1313961-9-6
+
+#~ Begins with a disclaimer that it contains at least one error -- which turns out to be a giant understatement.  The book is riddled with errors, but has a great attitude.  Touches on many of the weirder beliefs people have held about logic and language through history (for example, the "logic machines" of [http://en.wikipedia.org/wiki/Ramon_Llull Ramon Llull].)
+
+#~ ====Patterns of Software: Tales from the Software Community====
+#~ ''by Richard P Gabriel'' -- ISBN 0-1951212-3-6
+
+#~ Kind of goes all over the place, but worthwhile for its comparison of object-oriented programming to poetic compression, and for making a case that beauty may not be subjective.
+
+#~ ====Counterexamples in Topology====
+#~ ''by Lynn Arthur Steen and J. Arthur Seebach Jr.'' -- ISBN 0-4866873-5-X
+
+#~ Don't worry if you don't know topology -- it's not the topology that makes this a worthwhile read, it's the counterexamples.
+
+#~ ====Computation: Finite and Infinite Machines====
+#~ ''by Marvin Minsky'' -- ISBN 0-1316556-3-9
+
+#~ There are lots of books on computability, but this is one of the earlier ones (1967!) and one of the few that treat tarpits with any seriousness.
+
+#~ ====The Real Frank Zappa Book====
+#~ ''by Frank Zappa and Peter Occhiogrosso'' -- ISBN 0-6717057-2-5
+
+#~ Mainly for Zappa's theory of art ("entertainment objects") which describes quite nicely how I think of esolangs.  The rest of the book is pretty interesting too, though.
+
+
