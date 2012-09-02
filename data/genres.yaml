@@ -89,6 +89,10 @@ Platformer:
   type: Genre
 Sports:
   type: Genre
+Conquest:
+  type: Genre
+Role-playing:
+  type: Genre
 
 # MUSIC
 

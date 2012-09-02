@@ -13,6 +13,7 @@ Chris Pressey's Favourite Video Games:
     extra points.
   see-also:
   - Chris Pressey's Favourite Text Adventures
+  - Chris Pressey's Favourite Other Computer Games
   - Games by Chris Pressey
   entries:
   - Typhoon Thompson
@@ -36,6 +37,7 @@ Chris Pressey's Favourite Text Adventures:
     You'll notice that I am not actually particularly good at solving these things!
   see-also:
   - Chris Pressey's Favourite Video Games
+  - Chris Pressey's Favourite Other Computer Games
   - Games by Chris Pressey
   entries:
   - The Hitch-Hiker's Guide to the Galaxy
@@ -46,3 +48,24 @@ Chris Pressey's Favourite Text Adventures:
   - Dungeon (MIT)
   - The Secret of St. Bride's
   - Time & Magick
+
+Chris Pressey's Favourite Other Computer Games:
+  type: Ranking
+  domain: Chris Pressey
+  description: |
+    Please forgive the awkward title.  This is a list of computer games,
+    that are neither video games nor text adventure games,
+    that I've played and enjoyed.
+  see-also:
+  - Chris Pressey's Favourite Video Games
+  - Chris Pressey's Favourite Text Adventures
+  - Games by Chris Pressey
+  entries:
+  - Civilization II
+  - Dungeon Master
+  - The Incredible Machine 2
+  - Adventure Construction Set
+  - Zelazny Angband
+  - Dungeon Keeper II
+  - King's Quest V
+  - Ultima VII Part 2

@@ -1,13 +1,15 @@
 # encoding: UTF-8
-# top 10 favourite video games (ranking should be external)
+# top 10 favourite video games (ranking is external)
 # excluding any and all non-"action" games from this list
 # excluding any and all Commodore 64 games from this list
+# (actually they are here for now, but not in the ranking)
 Typhoon Thompson:
   type: Game
   genre: Shoot-'em-Up
-  # meaning, I got to the end of it.  I think.
+  # meaning, I got to the end of it.
   solved-by:
   - Chris Pressey
+  # Also Atari ST
   platform: Amiga
   controls: mouse
   authors: []
@@ -18,8 +20,6 @@ Typhoon Thompson:
     
     Not actually a shoot-'em-up, as the author pointed out in that one
     interview which I'll have to link in here at some point.
-    
-    Was also released for the Atari ST, but I never played it there.
 
 
 Pepper II:
@@ -94,7 +94,6 @@ Lost Tomb:
   platform: Arcade
   controls: dual joystick
   authors: []
-  wikipedia: Lost_Tomb
   no-specification: true
   commentary: |
     Gnarly game, but very hard.  I especially liked the 3D effect on the
@@ -170,3 +169,42 @@ Cloak and Dagger:
     There's something that's always attracted me about being able
     to shoot out bits of wall.  The boxes and conveyor belts hold a similar
     draw.  Not sure if I can put my finger on exactly what it is, though.
+
+
+Ultimate Wizard:
+  type: Game
+  genre: Platformer
+  platform: Commodore 64
+  controls: joystick and 1 button
+  authors: []
+  wikipedia: Ultimate_Wizard
+  no-specification: true
+  commentary: |
+    To this day, this stands as the best video game that EA ever released.
+    (I can't say best game in toto, because that might be better reserved for
+    [[Adventure Construction Set]].)  Sure, it was something of a ripoff of Jumpman.  But it added so
+    many elements, played really well, and best of all, had a level editor.
+    I'm a sucker for a level editor.
+
+Llamatron:
+  type: Game
+  genre: Shoot-'em-Up
+  # actually, Amiga; but I only ever played it on a PC; apparently this is ersatz
+  platform: IBM PC Compatible
+  controls: joystick and 1 button
+  authors:
+  - Jeff Minter
+  wikipedia: Llamatron
+  no-specification: true
+  commentary: |
+    Fast-paced, psychedaelic, mindless fun, like most Jeff Minter games.
+    Basically a clone of the arcade game Robotron, but with shaggy, smelly
+    quadrupeds.  And cans of Coke.  And Mandelbrot sets...
+
+#~ <!--
+  #~ Paradroid
+  #~ Stunts
+  #~ Street Surfer
+  #~ Dynamite Dan
+  #~ StarQuake
+#~ -->
