@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if related('authors') %}
+  <h2>Author of</h2>
+  <ul>
+    {% for x in related('authors')|sort %}
+      <li>
+        {{ link(x) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock content %}

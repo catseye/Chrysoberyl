@@ -1,5 +1,8 @@
 # encoding: UTF-8
 # A little weird, because there are genres for both languages and games here
+
+# LANGUAGES
+
 Esolang:
   type: Genre
   description: |
@@ -52,6 +55,8 @@ DSL:
 Proof language:
   type: Genre
 
+# GAMES
+
 Guessing:
   type: Genre
 Logic:
@@ -70,6 +75,8 @@ Platformer:
   type: Genre
 Sports:
   type: Genre
+
+# MUSIC
 
 Theme music:
   type: Genre
@@ -109,4 +116,13 @@ Dance:
 Techno:
   type: Genre
 Ragtime:
+  type: Genre
+
+# BOOKS
+
+Programming:
+  type: Genre
+Philosophy:
+  type: Genre
+Mathematics:
   type: Genre

@@ -5,7 +5,7 @@ Chris Pressey:
   type: Individual
   esowiki: Chris Pressey
   domain: Cat's Eye Technologies
-  commentary: |
+  description: |
     Hi, I'm Chris Pressey, and I'm a programming language composer.
   see-also:
   - Chris Pressey's Lingography
@@ -130,4 +130,28 @@ Alfred V. Aho:
 Ravi Sethi:
   type: Individual
 Jeffrey D. Ullman:
+  type: Individual
+Thomas H. Cormen:
+  type: Individual
+Charles E. Leiserson:
+  type: Individual
+Ronald L. Rivest:
+  type: Individual
+Clifford Stein:
+  type: Individual
+Howard Levine:
+  type: Individual
+Howard Rheingold:
+  type: Individual
+Richard P. Gabriel:
+  type: Individual
+Lynn Arthur Steen:
+  type: Individual
+J. Arthur Seebach Jr.:
+  type: Individual
+Marvin Minsky:
+  type: Individual
+Frank Zappa:
+  type: Individual
+Peter Occhiogrosso:
   type: Individual

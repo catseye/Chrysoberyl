@@ -7,7 +7,7 @@
 <ul>
   {% for paradigm in paradigms %}
     <li>
-      <a href="{{ filekey(paradigm) }}">{{ paradigm }}</a>
+        {{ link(paradigm) }}
     </li>
   {% endfor %}
 </ul>
@@ -17,12 +17,12 @@
   <ul>
     {% for platform in related('native-language') %}
       <li>
-        <a href="{{ filekey(platform) }}">{{ platform }}</a>
+        {{ link(platform) }}
       </li>
     {% endfor %}
     {% for platform in related('other-languages') %}
       <li>
-        <a href="{{ filekey(platform) }}">{{ platform }}</a>
+        {{ link(platform) }}
       </li>
     {% endfor %}
   </ul>
@@ -33,7 +33,7 @@
   <ul>
     {% for impl in related('host-language') %}
       <li>
-        <a href="{{ filekey(impl) }}">{{ impl }}</a>
+        {{ link(impl) }}
       </li>
     {% endfor %}
   </ul>
@@ -44,7 +44,7 @@
   <ul>
     {% for impl in related('target-language') %}
       <li>
-        <a href="{{ filekey(impl) }}">{{ impl }}</a>
+        {{ link(impl) }}
       </li>
     {% endfor %}
   </ul>

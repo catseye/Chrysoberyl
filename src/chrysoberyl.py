@@ -119,6 +119,7 @@ def check_chrysoberyl_data(data):
       # Every node may have some of these.
       check_optional_scalar_ref(data, key, node, 'domain')
       check_optional_list_ref(data, key, node, 'see-also')
+      check_optional_scalar_ref(data, key, node, 'genre')
       check_optional_list_ref(data, key, node, 'authors',
           types=['Individual', 'Organization'])
       check_optional_list_ref(data, key, node, 'auspices',
