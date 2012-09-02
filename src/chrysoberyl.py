@@ -193,6 +193,8 @@ def check_chrysoberyl_data(data):
               if node['implementation-type'] == 'compiler':
                   check_scalar_ref(data, key, node, 'target-language',
                                    types=['Programming Language'])
+                  check_optional_scalar_ref(data, key, node, 'target-platform',
+                                   types=['Platform'])
           else:
               check_optional_scalar_ref(data, key, node, 'implementation-type',
                                types=['Implementation Type'])

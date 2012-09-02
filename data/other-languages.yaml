@@ -712,7 +712,7 @@ NASM Assembler:
 # heh.  for sf2tab:
 lookup table:
   type: Programming Language
-  genre: Production language
+  genre: Pedagogical language
   paradigms:
   - Declarative
   computational-class: Finite-automata-complete

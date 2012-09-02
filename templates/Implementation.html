@@ -1,10 +1,6 @@
 {% extends "base.html" %}
 
 {% block showtype %}
-  <p id="type"><a href="{{ filekey(type) }}">{{ type }}</a>
-    of a
-    <a href="{{ filekey(data[implementation_of].type) }}">{{ data[implementation_of].type }}</a>
-  </p>
 {% endblock showtype %}
 
 {% block description %}
@@ -15,7 +11,7 @@
       an
     {% endif %}
     implementation of the
-    {{ data[implementation_of].type }}
+    {{ data[implementation_of].type|lower }}
     <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>.
     
     It is
@@ -28,8 +24,11 @@
     {%- endif %}
     {%- if implementation_type == 'compiler' %}
       that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
+      {%- if target_platform %}
+        for the <a href="{{ filekey(target_platform) }}">{{ target_platform }}</a> platform
+      {%- endif %}
     {%- endif -%}.
-    
+
     {% if in_distributions %}
       {% if in_distributions|length == 1 %}
         It is distributed in the <a href="{{ filekey(in_distributions[0]) }}">{{ in_distributions[0] }}</a>

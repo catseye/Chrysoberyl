@@ -1244,6 +1244,7 @@ ILLGOL.COM:
   implementation-type: compiler
   host-language: ANSI C
   target-language: 80286 machine code
+  target-platform: MS-DOS
   can-be-built-with-borland-c: true
 
 Illgola-2:
@@ -1275,6 +1276,7 @@ ILLGOLA-2.COM:
   implementation-type: compiler
   host-language: ANSI C
   target-language: 80286 machine code
+  target-platform: MS-DOS
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -1308,6 +1310,7 @@ ILLBERON.COM:
   implementation-type: compiler
   host-language: ANSI C
   target-language: 80286 machine code
+  target-platform: MS-DOS
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -1341,6 +1344,7 @@ ILLGOL##.COM:
   implementation-type: compiler
   host-language: ANSI C
   target-language: 80286 machine code
+  target-platform: MS-DOS
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
@@ -2266,6 +2270,7 @@ shelta:
   host-language: NASM Assembler
   host-platform: MS-DOS
   target-language: 80286 machine code
+  target-platform: MS-DOS
 
 sheltas:
   type: Implementation
@@ -2278,6 +2283,7 @@ sheltas:
   host-language: Shelta
   host-platform: MS-DOS
   target-language: 80286 machine code
+  target-platform: MS-DOS
 
 
 SMETANA:

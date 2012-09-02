@@ -22,6 +22,7 @@ Borland C++:
   prebuilt-for-platforms:
   - MS-DOS
   target-language: 80286 machine code
+  target-platform: MS-DOS
   implementation-type: compiler
   as-a-prequisite: |
     The source code for this project was developed with Borland C++ 3.1

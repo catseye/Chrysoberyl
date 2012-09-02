@@ -137,6 +137,10 @@ language.)
 
 Run requirements and build requirements can be optional.
 
+Each node can have a "domain", which influences how breadcrumbs are
+arranged.  For example, domain of lingography is Chris Pressey.  Domain
+of everything which does not specify a domain is Cat's Eye Technologies.
+
 ### templates ###
 
 **Compute if an implementation requires building, based on what language
@@ -149,19 +153,23 @@ and what tools you need ("as a prerequisite") for building or running.**
     for this purpose (e.g. generally recommend Perl 5.8.some).
 *   Have some way to indicate, on the implementation, that it needs
     building, even if the language is not always compiled (Haskell.)
+*   Related: even when the lnaguage is usually compiled, there might be
+    a compiler in some dists but not in others (JRE and JDK.)
 *   When it does not need building (dist has executables), still, tell
     how you would build it if you want to.
 
-Extrapolate the above for distributions (do that for each implementation
-in the distribution.)
+On lists of things, list the ones from Cat's Eye Technologies first.
 
-Render specification-link/standards-body if no reference-distribution.
+Call out works in progress and ideas in some obvious way.
 
-If an implementation allows visual debugging or animation, note that.
+Call out nodes abotu things that were not done by Cat's Eye Technologies
+in some obvious way.
 
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
+
+Objective descriptions on all my languages.
 
 Names of implementations -- should they have the file extension (even when
 an executable is built, e.g. `thue.c`) or should they be the assumed name
@@ -172,8 +180,5 @@ Add my music.
 ### perhaps ###
 
 Generalize "Family" to be families of anything, perhaps.
-
-Perhaps nodes can "belong to" other nodes: lingography and favourite
-video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
 
 Maybe something other than "emulator" for yoob and BefOS, eh?

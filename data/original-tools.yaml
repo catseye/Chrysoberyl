@@ -319,6 +319,36 @@ TPiS distribution:
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
 
 
+transmat: 
+  type: Tool
+  summary: An unremarkable but fairly robust network synchronization tool
+  authors:
+  - Chris Pressey
+  description: |
+    `transmat` is a network synchronization tool written in Python. It is not
+    particularly remarkable, but since it has been used in hostile
+    environments at points (e.g. unreliable dial-up connections, and
+    [[Cygwin]] on Vista,) it does go to some lengths to be robust, to support
+    lousy protocols (namely FTP), and to minimize transmission time during
+    synchronization.
+  inception-date: ca 2005
+
+transmat (Python):
+  type: Implementation
+  implementation-of: transmat
+  in-distribution: transmat distribution
+  license: Public Domain
+  host-language: Python
+
+transmat distribution: 
+  type: Distribution
+  distribution-of: transmat
+  bitbucket: catseye/transmat
+  github: catseye/transmat
+  issue-tracker: github
+  releases: []
+
+
 yucca: 
   type: Tool
   summary: Static analyzer for 8-bit BASIC programs

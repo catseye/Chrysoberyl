@@ -2,13 +2,16 @@
 
 {% block content %}
 
-{% block implementable_content %}
-{% endblock %}
-
 {% if reference_distribution %}
   <h2>Reference distribution</h2>
   {# maybe include info about this inline somehow #}
   <p><a href="{{ filekey(reference_distribution) }}">{{ reference_distribution }}</a></p>
+{% elif standards_body %}
+  <h2>Defined by</h2>
+  <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>
+{% elif specification_link %}
+  <h2>Defined by</h2>
+  <p><a href="{{ specification_link }}">{{ specification_link }}</a></p>
 {% endif %}
 
 {% if related('implementation-of') %}
@@ -21,5 +24,8 @@
     {% endfor %}
   </ul>
 {% endif %}
+
+{% block implementable_content %}
+{% endblock %}
 
 {% endblock content %}
