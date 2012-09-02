@@ -99,6 +99,19 @@
     </div>
   {% endif %}
 
+  {% if links %}
+    <div id="links">
+      <h2>Links</h2>
+      <ul>
+        {% for link in links %}
+        <li>
+          <a href="{{ link }}">{{ link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
   {% if references %}
     <div id="references">
       <h2>References</h2>

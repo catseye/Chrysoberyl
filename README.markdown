@@ -137,9 +137,6 @@ the implementation(s) within the distribution.  Split it up so.
 Some implementations can both compile and interpret.  Some compilers
 can target multiple target languages.  Handle both of these.
 
-Compilers should be able to specify a target platform (distinct from target
-language.)
-
 Run requirements and build requirements can be optional.
 
 Date parsing and sorting by it and stuff.
@@ -162,11 +159,18 @@ and what tools you need ("as a prerequisite") for building or running.**
     how you would build it if you want to.
 
 On lists of things, list the ones from Cat's Eye Technologies first.
+(Or at least call out that it is a list of all things known to Chrysoberyl)
 
 Call out works in progress and ideas in some obvious way.
 
-Call out nodes abotu things that were not done by Cat's Eye Technologies
+Call out nodes about things that were not done by Cat's Eye Technologies
 in some obvious way.
+
+Terminology on music pages:
+-   "implementation" -> "rendition"
+-   "is written in MP3" -> "as an MP3 file"
+-   "To run this implementation" -> "To listen to this rendition"
+-   "an implementation of MP3" -> "an MP3 player"
 
 ### content ###
 
@@ -178,7 +182,7 @@ Names of implementations -- should they have the file extension (even when
 an executable is built, e.g. `thue.c`) or should they be the assumed name
 of the executable with a disambiguator (i.e. `thue (C)`)?
 
-Add my music.
+Add rest of my music.
 
 ### perhaps ###
 

@@ -2,13 +2,37 @@
 
 # -----------------------------------------------
 
-MED:
-  type: Programming Language
-  genre: Production language
+SID:
+  type: Musical Notation
   no-specification: true
   authors: []
   paradigms: []
 
+MIDI:
+  type: Musical Notation
+  no-specification: true
+  authors: []
+  paradigms: []
+
+DMCS:
+  type: Musical Notation
+  no-specification: true
+  authors: []
+  paradigms: []
+
+MED:
+  type: Musical Notation
+  no-specification: true
+  authors: []
+  paradigms: []
+
+MP3:
+  type: Musical Notation
+  no-specification: true
+  authors: []
+  paradigms: []
+
+# -----------------------------------------------
 
 
 
@@ -23,6 +47,16 @@ After the Fact (MED):
   implementation-of: After the Fact
   host-language: MED
   license: Freely Redistributable
+
+After the Fact (MP3):
+  type: Implementation
+  implementation-of: After the Fact
+  host-language: MP3
+  converted-from: After the Fact (MED)
+  converted-using: xmp
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - After the Fact.mp3"
 
 
 Anagnoresis:

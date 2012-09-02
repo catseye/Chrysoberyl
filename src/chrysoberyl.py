@@ -171,8 +171,12 @@ def check_chrysoberyl_data(data):
                                     types=['Distribution'])
           check_optional_list_ref(data, key, node, 'prebuilt-for-platforms',
                                     types=['Platform', 'Programming Language'])
-          check_scalar_ref(data, key, node, 'host-language',
-                           types=['Programming Language'])
+          if impl_of_type == 'Musical Composition':
+              check_scalar_ref(data, key, node, 'host-language',
+                               types=['Musical Notation'])
+          else:
+              check_scalar_ref(data, key, node, 'host-language',
+                               types=['Programming Language'])
           check_optional_scalar_ref(data, key, node, 'host-platform',
                            types=['Platform'])
           # these shouldn't really be needed.  derive, derive!
