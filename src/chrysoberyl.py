@@ -209,6 +209,7 @@ def check_chrysoberyl_data(data):
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool', 'Platform']:
           assert 'build-requirements' not in node
           assert 'run-requirements' not in node
+          check_optional_scalar_ref(data, key, node, 'variant-of', type_)
           if not node.get('no-specification', False):
               if ('specification-link' not in node and
                   'standards-body' not in node and

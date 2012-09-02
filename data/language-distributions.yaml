@@ -450,7 +450,8 @@ Iphigeneia distribution:
 
 Jaccia and Jacciata distribution: 
   type: Distribution
-  distribution-of: Jaccia and Jacciata
+  # XXX and Jacciata
+  distribution-of: Jaccia
   bitbucket: catseye/jaccia
   github: catseye/Jaccia
   issue-tracker: github

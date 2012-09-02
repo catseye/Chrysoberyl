@@ -26,7 +26,7 @@ ALPACA:
     
     ALPACA is one of the few of my languages in which I've actually implemented
     other languages (or, well, cellular automata — close enough).  These are, namely,
-    [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia and Jacciata]].
+    [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia]] and [[Jacciata]].
   esowiki: ALPACA
   authors:
   - Chris Pressey
@@ -1391,12 +1391,12 @@ iphi:
   host-language: Haskell
 
 
-# TODO: split up?
-Jaccia and Jacciata:
+Jaccia:
   type: Programming Language
   genre: Esolang
   paradigms:
   - Cellular automaton
+  - 2-dimensional
   description: |
     Jaccia and Jacciata are cellular automata inspired by the [Announcement
     of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
@@ -1408,6 +1408,54 @@ Jaccia and Jacciata:
   - Cat's Eye Technologies
   inception-date: Apr 11, 2009
   dimensionality: 2
+  reference-distribution: Jaccia and Jacciata distribution
+  etymology:
+  - neologism
+  computational-class: known not Turing-complete
+  sample: |
+    #######S###
+    #:::::::::#
+    #:###:###:#
+    #:#:#:::#:#
+    #:#:#:#:###
+    #:::#:#:#:#
+    #####:#:#:#
+    #:#:::#:::#
+    #:#:###:###
+    #:::#:::::#
+    #########F#
+  sample-output: |
+    #######S###
+    #    :::  #
+    # ###:### #
+    # # #:::# #
+    # # # #:###
+    #   # #:# #
+    ##### #:# #
+    # #   #:  #
+    # # ###:###
+    #   #  :::#
+    #########F#
+
+Jacciata:
+  type: Programming Language
+  genre: Esolang
+  variant-of: Jaccia
+  paradigms:
+  - Cellular automaton
+  - 2-dimensional
+  description: |
+    Jaccia and Jacciata are cellular automata inspired by the [Announcement
+    of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
+    Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
+    upon this to find the shortest path through a maze, if one exists and is unique.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 11, 2009
+  dimensionality: 2
+  reference-distribution: Jaccia and Jacciata distribution
   etymology:
   - neologism
   computational-class: known not Turing-complete
@@ -1438,7 +1486,7 @@ Jaccia and Jacciata:
 
 jaccia.alp:
   type: Implementation
-  implementation-of: Jaccia and Jacciata
+  implementation-of: Jaccia
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
@@ -1449,7 +1497,7 @@ jaccia.alp:
 
 jacciata.alp:
   type: Implementation
-  implementation-of: Jaccia and Jacciata
+  implementation-of: Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
