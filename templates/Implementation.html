@@ -23,9 +23,9 @@
       <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
     {% endif %}
     written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-    {% if host_platform %}
+    {%- if host_platform %}
       for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
-    {% endif %}
+    {%- endif %}
     {%- if implementation_type == 'compiler' %}
       that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
     {%- endif -%}.
@@ -65,26 +65,43 @@
 {% block content %}
 
 {# these are lame right now #}
-{% if build_requirements %}
-  <h2>To Build, you Need</h2>
-  <ul>
-    {% for requirement in build_requirements %}
-      <li>
-        <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
 
-{% if run_requirements %}
-  <h2>To Run, you Need</h2>
-  <ul>
+<h2>Dependencies</h2>
+
+<p>To run this implementation, you need:</p>
+
+<ul>
+  {% if data[host_language].generally_compiled or build_requirements %}
+    <li>
+      to build it first, for which you will need:
+      <ul>
+        {% if data[host_language].generally_compiled %}
+          <li>
+            an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+          </li>
+        {% endif %}
+        {% if build_requirements %}
+          {% for requirement in build_requirements %}
+            <li>
+              <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </li>
+  {% endif %}
+  {% if not data[host_language].generally_compiled %}
+    <li>
+      an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+    </li>
+  {% endif %}
+  {% if run_requirements %}
     {% for requirement in run_requirements %}
       <li>
         <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
       </li>
     {% endfor %}
-  </ul>
-{% endif %}
+  {% endif %}
+</ul>
 
 {% endblock content %}

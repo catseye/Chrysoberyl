@@ -138,8 +138,20 @@ Run requirements and build requirements can be optional.
 it's in (C, yes, Python, no, Java and Erlang, depends on the distribution),
 and what tools you need ("as a prerequisite") for building or running.**
 
+*   Add some implementations of languages you might need (perl for Perl,
+    gcc for C, ...)
+*   Have some way to generally recommend a particular implementation
+    for this purpose (e.g. generally recommend Perl 5.8.some).
+*   Have some way to indicate, on the implementation, that it needs
+    building, even if the language is not always compiled (Haskell.)
+*   Have some way to indicate, on the implementation, that it does *not*
+    need building, even if the language is generally compiled
+    (Java, Erlang, C64 dists which include the compiled version.)
+
 Extrapolate the above for distributions (do that for each implementation
 in the distribution.)
+
+Render specification-link/standards-body if no reference-distribution.
 
 If an implementation allows visual debugging or animation, note that.
 

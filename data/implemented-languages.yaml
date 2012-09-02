@@ -146,7 +146,7 @@ stringie:
   license: Public Domain
   host-language: ANSI C
   implementation-type: interpreter
-  description: |
+  commentary: |
     Seeing that there was no *non*-pathological implementation of Alex Smith's
     beautiful [[Underload]] language in C, I undertook that project one evening.
     (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)

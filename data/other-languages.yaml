@@ -5,6 +5,7 @@ ANSI C:
   genre: Production language
   paradigms:
   - Imperative
+  generally-compiled: true
   computational-class: Finite-automata-complete
   authors: []
   specification-link: http://clc-wiki.net/wiki/C89
@@ -32,6 +33,7 @@ C99:
   genre: Production language
   paradigms:
   - Imperative
+  generally-compiled: true
   computational-class: Finite-automata-complete
   authors: []
   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
@@ -63,6 +65,7 @@ C++:
   paradigms:
   - Imperative
   - Object-oriented
+  generally-compiled: true
   computational-class: Finite-automata-complete
   authors: []
   standards-body: http://www.open-std.org/jtc1/sc22/wg21/
@@ -183,6 +186,8 @@ Erlang:
   genre: Production language
   paradigms:
   - Functional
+  # just, not to native code
+  generally-compiled: true
   computational-class: shown Turing-complete
   standards-body: http://www.erlang.org/
   authors: []
@@ -232,6 +237,8 @@ Java:
   paradigms:
   - Imperative
   - Object-oriented
+  # just, not to native code
+  generally-compiled: true
   computational-class: shown Turing-complete
   standards-body: http://www.oracle.com/technetwork/java/index.html
   authors: []
@@ -367,6 +374,7 @@ MSIL:
   paradigms:
   - Imperative
   - Assembly
+  generally-compiled: true
   computational-class: unknown computational class
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
   authors: []
@@ -640,6 +648,7 @@ Ophis Assembler:
   paradigms:
   - Imperative
   - Assembly
+  generally-compiled: true
   computational-class: Finite-automata-complete
   authors:
   - Michael C. Martin
@@ -678,6 +687,7 @@ NASM Assembler:
   paradigms:
   - Imperative
   - Assembly
+  generally-compiled: true
   computational-class: Finite-automata-complete
   standards-body: http://nasm.sourceforge.net/
   authors: []

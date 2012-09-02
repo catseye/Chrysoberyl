@@ -6,6 +6,7 @@ ALPACA:
   paradigms:
   - Metalanguage
   - Object-oriented
+  generally-compiled: true
   description: |
     ALPACA is a meta-language for describing cellular automata.
   as-a-prerequisite: |
@@ -708,6 +709,7 @@ Eightebed:
   genre: Esolang
   paradigms:
   - Imperative
+  generally-compiled: true
   esowiki: Eightebed
   summary: A safe language with explicit memory deallocation
   description: |
@@ -1201,6 +1203,7 @@ ILLGOL:
   genre: Joke language
   paradigms:
   - Imperative
+  generally-compiled: true
   description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
@@ -1238,6 +1241,7 @@ Illgola-2:
   genre: Joke language
   paradigms:
   - Imperative
+  generally-compiled: true
   description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
@@ -1270,6 +1274,7 @@ Illberon:
   genre: Joke language
   paradigms:
   - Imperative
+  generally-compiled: true
   description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
@@ -1302,6 +1307,7 @@ Open Sores Illgol##:
   genre: Joke language
   paradigms:
   - Imperative
+  generally-compiled: true
   description: |
     A joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
@@ -2142,6 +2148,7 @@ Sally:
   genre: Esolang
   paradigms:
   - Functional
+  generally-compiled: true
   description: |
     Sally is a cute but naive little functional language with a minimal syntax,
     a strict type system, and some unusual rules for parameters and return values.
@@ -2207,6 +2214,7 @@ Shelta:
   genre: Esolang
   paradigms:
   - Stack-based
+  generally-compiled: true
   description: |
     Shelta is an extremely minimal Forth-like language with barely
     any semantics; it relies on inline machine code to be considered anywhere
