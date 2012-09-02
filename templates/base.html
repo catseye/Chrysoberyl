@@ -68,7 +68,13 @@
         <h2>Documentation</h2>
         <ul>
           {% for document in documentation() %}
-            <li>{{ document }}</li>
+            <li>
+              {% if github_link(document) %}
+                <a href="{{ github_link(document) }}">{{ document }}</a>
+              {% else %}
+                {{ document }}
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
       </div>

@@ -326,6 +326,25 @@ class Renderer(object):
         def documentation(key=key):
             doc_node = data['Documentation Index']
             return doc_node['entries'].get(key, [])
+        
+        def github(key=key):
+            if 'github' in self.data[key]:
+                return self.data[key]['github']
+            d = None
+            if 'reference-distribution' in self.data[key]:
+                d = self.data[key]['reference-distribution']
+            elif 'in-distribution' in self.data[key]:
+                d = self.data[key]['in-distribution']
+            if d is None:
+                return None
+            return data[d].get('github', None)
+
+        def github_link(filename):
+            gh = github()
+            if gh is None:
+                return None
+            else:
+                return "https://github.com/%s/blob/master/%s" % (gh, filename)
 
         def indefart(text):
             # "u" is dicey
@@ -338,6 +357,8 @@ class Renderer(object):
         context['filekey'] = filekey
         context['related'] = related
         context['documentation'] = documentation
+        context['github'] = github
+        context['github_link'] = github_link
         context['indefart'] = indefart
 
         template = self.get_template(key)
@@ -355,6 +376,8 @@ class Renderer(object):
 
 
 def troll_docs(data, clone_dir, data_dir):
+    cwd = os.getcwd()
+
     count = 0
     docdict = {}
     for key in data:
@@ -376,9 +399,11 @@ def troll_docs(data, clone_dir, data_dir):
         (user, repo) = data[key]['bitbucket'].split('/')
         #print "--> %s -> %s" % (distribution_of, repo)
         docdict[distribution_of] = \
-            hunt_for_docs(clone_dir, os.path.join(clone_dir, repo))
+            hunt_for_docs(os.path.join(clone_dir, repo))
         count += 1
 
+    os.chdir(cwd)
+    
     docdata = {
         'Documentation Index': {
             'type': 'Metadata',
@@ -403,15 +428,17 @@ DOC_PATTERNS = (
     r'^.*?\.lhs$',
 )
 
-def hunt_for_docs(clone_dir, dirname):
+def hunt_for_docs(dirname):
+    os.chdir(dirname)
     docs = []
-    for root, dirnames, filenames in os.walk(dirname):
+    for root, dirnames, filenames in os.walk('.'):
         if root.endswith(".hg"):
+            del dirnames[:]
             continue
         for filename in filenames:
             for pattern in DOC_PATTERNS:
                 if re.match(pattern, filename):
-                    path = os.path.join(root, filename)[len(clone_dir)+1:]
+                    path = os.path.join(root, filename)[2:]
                     docs.append(path)
                     break
     return docs

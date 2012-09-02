@@ -485,7 +485,7 @@ Kangaroo Iceberg distribution:
 Kelxquoia distribution: 
   type: Distribution
   distribution-of: Kelxquoia
-  bitbucket: catseye/klexquoia
+  bitbucket: catseye/kelxquoia
   github: catseye/Kelxquoia
   issue-tracker: github
   releases: []

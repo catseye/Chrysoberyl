@@ -3,245 +3,303 @@
 Documentation Index:
   entries:
     '''N-DCNC':
-    - n-dcnc/doc/readme.txt
+    - doc/readme.txt
     ALPACA:
-    - alpaca/doc/ebnf.txt
-    - alpaca/doc/alpaca.html
+    - doc/ebnf.txt
+    - doc/alpaca.html
     Apple Befunge:
-    - apple-befunge/LICENSE
-    - apple-befunge/README.markdown
+    - LICENSE
+    - README.markdown
     Arboretuum:
-    - arboretuum/README.markdown
+    - README.markdown
     BefOS:
-    - befos/UNLICENSE
-    - befos/src/page/welcome.txt
-    - befos/contrib/zzo38/bootloader.txt
-    - befos/contrib/zzo38/zzo38os.txt
-    - befos/contrib/zzo38/README.txt
-    - befos/doc/README.txt
-    - befos/doc/TODO.txt
+    - UNLICENSE
+    - src/page/welcome.txt
+    - contrib/zzo38/bootloader.txt
+    - contrib/zzo38/zzo38os.txt
+    - contrib/zzo38/README.txt
+    - doc/README.txt
+    - doc/TODO.txt
     Befunge-93:
-    - befunge-93/LICENSE
-    - befunge-93/README.markdown
-    - befunge-93/eg/index.html
-    - befunge-93/doc/Befunge-93.markdown
+    - LICENSE
+    - README.markdown
+    - eg/index.html
+    - doc/Befunge-93.markdown
     Beturing:
-    - beturing/README.markdown
+    - README.markdown
     Bhuna:
-    - bhuna/doc/bhuna.txt
+    - doc/bhuna.txt
     Braktif: []
     Bubble Escape:
-    - bubble-escape/LICENSE
-    - bubble-escape/README.markdown
+    - LICENSE
+    - README.markdown
     Burro:
-    - burro/src/Burro.lhs
-    - burro/doc/burro-1.0.html
+    - src/Burro.lhs
+    - doc/burro-1.0.html
     Cabra:
-    - cabra/doc/cabra.html
+    - doc/cabra.html
     Cfluviurrh:
-    - cfluviurrh/LICENSE
-    - cfluviurrh/README.markdown
+    - LICENSE
+    - README.markdown
     Circute: []
     Console::Virtual:
-    - console-virtual/readme.txt
+    - readme.txt
     'Corona: Realm of Magic':
-    - corona-realm-of-magic/src/corona/sup/music/license.txt
-    - corona-realm-of-magic/src/corona/sup/image/license.txt
-    - corona-realm-of-magic/src/corona/doc/miscnotes.txt
-    - corona-realm-of-magic/src/corona/doc/license.txt
-    - corona-realm-of-magic/src/corona/doc/corona.html
-    - corona-realm-of-magic/doc/development.html
-    - corona-realm-of-magic/doc/license.txt
-    - corona-realm-of-magic/doc/object_model.html
-    - corona-realm-of-magic/doc/carpediem.html
-    - corona-realm-of-magic/doc/hints.txt
+    - src/corona/sup/music/license.txt
+    - src/corona/sup/image/license.txt
+    - src/corona/doc/miscnotes.txt
+    - src/corona/doc/license.txt
+    - src/corona/doc/corona.html
+    - doc/development.html
+    - doc/license.txt
+    - doc/object_model.html
+    - doc/carpediem.html
+    - doc/hints.txt
     Deturgenchry:
-    - deturgenchry/LICENSE
-    - deturgenchry/README.markdown
-    - deturgenchry/doc/Deturgenchry.markdown
+    - LICENSE
+    - README.markdown
+    - doc/Deturgenchry.markdown
     Dieter:
-    - dieter/README.markdown
+    - README.markdown
+    DiskSumo:
+    - README.markdown
+    - UNLICENSE
     Eightebed:
-    - eightebed/LICENSE
-    - eightebed/README.markdown
+    - LICENSE
+    - README.markdown
     Emmental:
-    - emmental/README.markdown
+    - README.markdown
     Etcha:
-    - etcha/README.markdown
-    - etcha/UNLICENSE
+    - README.markdown
+    - UNLICENSE
+    Exanoke:
+    - README.markdown
     Falderal:
-    - falderal/LICENSE
-    - falderal/README.markdown
-    - falderal/eg/LiterateHaskellDemo.lhs
-    - falderal/doc/Falderal_Literate_Test_Format.markdown
-    - falderal/doc/Theory_of_Operation.markdown
-    - falderal/doc/Quick_Start.markdown
+    - LICENSE
+    - README.markdown
+    - eg/LiterateHaskellDemo.lhs
+    - doc/Falderal_Literate_Test_Format.markdown
+    - doc/Theory_of_Operation.markdown
+    - doc/Quick_Start.markdown
     Flobnar:
-    - flobnar/README.markdown
+    - README.markdown
     GraNoLa/M:
-    - granola-m/granolam.txt
+    - granolam.txt
     Hev:
-    - hev/README.markdown
+    - README.markdown
     Hunter:
-    - hunter/README.markdown
-    - hunter/lib/console-virtual/readme.txt
+    - README.markdown
+    - lib/console-virtual/readme.txt
     ILLGOL:
-    - illgol-grand-mal/README.markdown
-    - illgol-grand-mal/3. Illberon/doc/index.html
-    - illgol-grand-mal/2. Illgola-2/prj/i2pptest.txt
-    - illgol-grand-mal/2. Illgola-2/doc/illgol.txt
-    - illgol-grand-mal/2. Illgola-2/doc/illgola2.txt
-    - illgol-grand-mal/2. Illgola-2/doc/index.html
-    - illgol-grand-mal/1. ILLGOL/doc/illgol.txt
-    - illgol-grand-mal/1. ILLGOL/doc/illgol.html
-    - illgol-grand-mal/4. Open Sores Illgol##/mod/index.html
-    - illgol-grand-mal/4. Open Sores Illgol##/prj/index.html
-    - illgol-grand-mal/4. Open Sores Illgol##/prj/i2pptest.txt
-    - illgol-grand-mal/4. Open Sores Illgol##/doc/illgol.txt
-    - illgol-grand-mal/4. Open Sores Illgol##/doc/poundpoundreadme.txt
-    - illgol-grand-mal/4. Open Sores Illgol##/doc/i2readme.txt
+    - README.markdown
+    - 3. Illberon/doc/index.html
+    - 2. Illgola-2/prj/i2pptest.txt
+    - 2. Illgola-2/doc/illgol.txt
+    - 2. Illgola-2/doc/illgola2.txt
+    - 2. Illgola-2/doc/index.html
+    - 1. ILLGOL/doc/illgol.txt
+    - 1. ILLGOL/doc/illgol.html
+    - 4. Open Sores Illgol##/mod/index.html
+    - 4. Open Sores Illgol##/prj/index.html
+    - 4. Open Sores Illgol##/prj/i2pptest.txt
+    - 4. Open Sores Illgol##/doc/illgol.txt
+    - 4. Open Sores Illgol##/doc/poundpoundreadme.txt
+    - 4. Open Sores Illgol##/doc/i2readme.txt
     Iphigeneia:
-    - iphigeneia/foo.txt
-    - iphigeneia/README.markdown
+    - foo.txt
+    - README.markdown
     Jaccia and Jacciata:
-    - jaccia/README.markdown
+    - README.markdown
     Kangaroo Iceberg:
-    - kangaroo-iceberg/README.markdown
-    Kelxquoia: []
+    - README.markdown
+    Kelxquoia:
+    - README.markdown
+    Kosheri:
+    - TODO.markdown
+    - README.markdown
+    - tests/Term.markdown
+    - tests/Assembly.markdown
     Larabee:
-    - larabee/README.markdown
+    - README.markdown
     Maentwrog:
-    - maentwrog/README.markdown
+    - README.markdown
     Mascarpone:
-    - mascarpone/README.markdown
+    - README.markdown
+    Muriel:
+    - license.txt
     Nhohnhehr:
-    - nhohnhehr/README.markdown
-    - nhohnhehr/UNLICENSE
+    - README.markdown
+    - UNLICENSE
     Pail:
-    - pail/src/Pail.lhs
+    - src/Pail.lhs
     Pixley:
-    - pixley/LICENSE
-    - pixley/README.markdown
-    - pixley/dialect/dialects.markdown
-    - pixley/tests/config/Pixley-as-Pixley^3.markdown
-    - pixley/tests/config/Pixley-as-Pixley^2.markdown
-    - pixley/tests/config/Pixley-as-Pixley.markdown
-    - pixley/tests/config/Pifxley-as-Pifxley.markdown
-    - pixley/tests/config/Pixley-as-Scheme.markdown
-    - pixley/tests/config/Pifxley-as-Scheme.markdown
-    - pixley/tests/config/Pixley-on-Pifxley.markdown
-    - pixley/tests/config/Pixley-as-Pixley^4.markdown
-    - pixley/tests/config/Crabwell-as-Crabwell.markdown
-    - pixley/tests/config/Pixley-on-P-Normal-Pixley.markdown
-    - pixley/tests/config/Pixley-on-Crabwell.markdown
-    - pixley/doc/Pixley.markdown
+    - LICENSE
+    - README.markdown
+    - dialect/dialects.markdown
+    - tests/config/Pixley-as-Pixley^3.markdown
+    - tests/config/Pixley-as-Pixley^2.markdown
+    - tests/config/Pixley-as-Pixley.markdown
+    - tests/config/Pifxley-as-Pifxley.markdown
+    - tests/config/Pixley-as-Scheme.markdown
+    - tests/config/Pifxley-as-Scheme.markdown
+    - tests/config/Pixley-on-Pifxley.markdown
+    - tests/config/Pixley-as-Pixley^4.markdown
+    - tests/config/Crabwell-as-Crabwell.markdown
+    - tests/config/Pixley-on-P-Normal-Pixley.markdown
+    - tests/config/Pixley-on-Crabwell.markdown
+    - doc/Pixley.markdown
     Pophery:
-    - pophery/README.markdown
+    - README.markdown
     Quylthulg:
-    - quylthulg/README.markdown
+    - README.markdown
     REDGREEN:
-    - redgreen/doc/redgreen.html
+    - doc/redgreen.html
     RUBE:
-    - rube/LICENSE
-    - rube/README.markdown
+    - LICENSE
+    - README.markdown
     RUBE II:
-    - rube-ii/doc/license.txt
-    - rube-ii/doc/klik.txt
-    - rube-ii/doc/impl.txt
+    - doc/license.txt
+    - doc/klik.txt
+    - doc/impl.txt
+    Robin:
+    - LICENSE
+    - Main.lhs
+    - README.markdown
+    - Robin/IEnv.lhs
+    - Robin/Parser.lhs
+    - Robin/Module.lhs
+    - Robin/Exception.lhs
+    - Robin/Console.lhs
+    - Robin/Core.lhs
+    - Robin/Metadata.lhs
+    - Robin/Env.lhs
+    - Robin/Eval.lhs
+    - Robin/Expr.lhs
+    - Robin/Random.lhs
+    - Robin/Chan.lhs
+    - Robin/CrudeIO.lhs
+    - Robin/Concurrency.lhs
+    - Robin/Small.lhs
+    - fixture/config/BuiltInSmall.markdown
+    - fixture/config/SmallInRobin.markdown
+    - doc/Practical_Matters.markdown
+    - doc/Object_Orientation.markdown
+    - doc/Design_Decisions.markdown
+    - doc/Style.markdown
+    - doc/Static_Analysis.markdown
+    - doc/Fundamental_Semantics.markdown
+    - doc/module/Miscellany.markdown
+    - doc/module/Bind-Args.markdown
+    - doc/module/Small.markdown
+    - doc/module/Concurrency.markdown
+    - doc/module/Core.markdown
+    - doc/module/List.markdown
+    - doc/module/Exception.markdown
+    - doc/module/Term.markdown
+    - doc/module/Device.markdown
+    - doc/module/Assert.markdown
+    - doc/module/Environment.markdown
+    - doc/module/Boolean.markdown
+    - doc/module/Arithmetic.markdown
+    - doc/module/CrudeIO.markdown
+    - doc/module/Pure.markdown
+    - doc/module/Metadata.markdown
+    - doc/module/Random.markdown
+    Rooibos:
+    - README.markdown
+    - UNLICENSE
     SMETANA:
-    - smetana/README.markdown
-    - smetana/UNLICENSE
+    - README.markdown
+    - UNLICENSE
     SMITH:
-    - smith/README.markdown
+    - README.markdown
     Sally:
-    - sally/LICENSE
-    - sally/doc/Sally.markdown
+    - LICENSE
+    - doc/Sally.markdown
     Sbeezg:
-    - sbeezg/README
+    - README
     Shelta:
-    - shelta/bin/null.txt
-    - shelta/doc/nasm2009.txt
-    - shelta/doc/readme.txt
-    - shelta/doc/bootstrp.txt
+    - bin/null.txt
+    - doc/nasm2009.txt
+    - doc/readme.txt
+    - doc/bootstrp.txt
     Squishy2K:
-    - squishy2k/README.txt
+    - README.txt
     Strelnokoff:
-    - strelnokoff/index.html
+    - index.html
     Super Wumpus Land: []
     TPiS:
-    - tpis/LICENSE
-    - tpis/README.markdown
+    - LICENSE
+    - README.markdown
     Thue:
-    - thue/README.markdown
-    - thue/doc/license.txt
-    - thue/doc/thue.txt
+    - README.markdown
+    - doc/license.txt
+    - doc/thue.txt
     Treacle:
-    - treacle/README.markdown
+    - README.markdown
     Troupe:
-    - troupe/README.markdown
+    - README.markdown
     Unlikely:
-    - unlikely/README.markdown
+    - LICENSE
+    - README.markdown
     Velo:
-    - velo/README.markdown
-    - velo/tests/config/Velo.markdown
+    - README.markdown
+    - tests/config/Velo.markdown
     Version:
-    - version/README.markdown
-    - version/.../zzrk/README.markdown
+    - README.markdown
     Whothm:
-    - whothm/LICENSE
-    - whothm/README.markdown
+    - LICENSE
+    - README.markdown
     Wierd:
-    - wierd/README.markdown
-    - wierd/doc/hellow.txt
-    - wierd/doc/output.doc.txt
-    - wierd/doc/cat.doc.txt
-    - wierd/doc/wierdspec.txt
-    - wierd/doc/random.doc.txt
-    - wierd/doc/quine.doc.txt
-    - wierd/doc/add.doc.txt
-    - wierd/doc/loop.doc.txt
-    - wierd/doc/count.doc.txt
-    - wierd/doc/half.doc.txt
+    - README.markdown
+    - doc/hellow.txt
+    - doc/output.doc.txt
+    - doc/cat.doc.txt
+    - doc/wierdspec.txt
+    - doc/random.doc.txt
+    - doc/quine.doc.txt
+    - doc/add.doc.txt
+    - doc/loop.doc.txt
+    - doc/count.doc.txt
+    - doc/half.doc.txt
     Xigxag:
-    - xigxag/UNLICENSE
-    - xigxag/doc/xigxag.html
+    - UNLICENSE
+    - doc/xigxag.html
     Xoomonk:
-    - xoomonk/LICENSE
-    - xoomonk/README.markdown
-    - xoomonk/src/Xoomonk.lhs
+    - LICENSE
+    - README.markdown
+    - src/Xoomonk.lhs
     Ypsilax:
-    - ypsilax/README.markdown
-    - ypsilax/lib/console-virtual/readme.txt
-    - ypsilax/bin/README.txt
+    - README.markdown
+    - lib/console-virtual/readme.txt
+    - bin/README.txt
     ZOWIE:
-    - zowie/README.markdown
-    - zowie/UNLICENSE
-    - zowie/.../zzrk/README.markdown
+    - README.markdown
+    - UNLICENSE
     Zzrk:
-    - zzrk/README.markdown
+    - README.markdown
     beta-Juliet:
-    - beta-juliet/LICENSE
-    - beta-juliet/README.markdown
+    - LICENSE
+    - README.markdown
     crone:
-    - crone/doc/crone.html
-    - crone/doc/crone_test.html
+    - doc/crone.html
+    - doc/crone_test.html
     mzstorkipiwanbotbotbot:
-    - mzstorkipiwanbotbotbot/README.markdown
-    - mzstorkipiwanbotbotbot/UNLICENSE
+    - README.markdown
+    - UNLICENSE
     noit o' mnain worb:
-    - noit-o-mnain-worb/README.markdown
-    - noit-o-mnain-worb/lib/console-virtual/readme.txt
-    - noit-o-mnain-worb/bin/README.txt
+    - README.markdown
+    - lib/console-virtual/readme.txt
+    - bin/README.txt
     toolshelf:
-    - toolshelf/README.markdown
-    - toolshelf/doc/Case_Studies.markdown
-    - toolshelf/doc/Theory_of_Operation.markdown
-    - toolshelf/doc/Heuristics_and_Hints.markdown
-    - toolshelf/doc/Motivation_and_Tradeoffs.markdown
+    - README.markdown
+    - doc/Case_Studies.markdown
+    - doc/Theory_of_Operation.markdown
+    - doc/Heuristics_and_Hints.markdown
+    - doc/Motivation_and_Tradeoffs.markdown
     yoob:
-    - yoob/README.markdown
-    - yoob/UNLICENSE
+    - README.markdown
+    - UNLICENSE
     yucca:
-    - yucca/README.markdown
-    - yucca/.../zzrk/README.markdown
+    - README.markdown
   type: Metadata

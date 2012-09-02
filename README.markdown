@@ -122,19 +122,13 @@ TODO
 Some documentation in a reference distribution relates to the implementable
 and some of it relates to the distribution and some of it relates to
 the implementation(s) within the distribution.  Split it up so.
+(Note: this is a hard problem.)
 
 Some implementations can both compile and interpret.  Some compilers
 can target multiple target languages.  Handle both of these.
 
-Generalize "Family" to be families of anything, perhaps.
-
-Perhaps nodes can "belong to" other nodes: lingography and favourite
-video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
-
 Compilers should be able to specify a target platform (distinct from target
 language.)
-
-Maybe something other than "emulator" for yoob and BefOS, eh?
 
 Run requirements and build requirements can be optional.
 
@@ -149,8 +143,6 @@ in the distribution.)
 
 If an implementation allows visual debugging or animation, note that.
 
-Better provision of documentation in templates.
-
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
@@ -161,6 +153,11 @@ of the executable with a disambiguator (i.e. `thue (C)`)?
 
 Add my music.
 
-### other ###
+### perhaps ###
 
-Better collection of documentation.
+Generalize "Family" to be families of anything, perhaps.
+
+Perhaps nodes can "belong to" other nodes: lingography and favourite
+video games "belong" to Chris Pressey, etc.  (For now it's `see-also`.)
+
+Maybe something other than "emulator" for yoob and BefOS, eh?
