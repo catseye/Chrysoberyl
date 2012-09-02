@@ -64,6 +64,10 @@ Applesoft BASIC:
   wikipedia: MOS_Technology_6502
   computational-class: Finite-automata-complete
   specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+  references:
+  - title: 6502 Instruction Set
+    description: 6502 Instruction Set reference
+    url: http://www.obelisk.demon.co.uk/6502/instructions.html
   authors: []
   as-a-prerequisite: |
       TODO say stuff about 6502 code here
@@ -72,6 +76,8 @@ Applesoft BASIC:
 Commodore 64:
   type: Platform
   specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
+  links:
+  - http://www.zimmers.net/anonftp/pub/cbm/
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
@@ -96,6 +102,9 @@ VICE x64:
   links:
   - 'http://vice-emu.sourceforge.net/'
   host-language: C99
+  description: |
+    The VICE distribution actually contains emulators for many
+    Commodore computers: Commodore 64, Commodore 128, Vic 20, PET, etc,
 
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
@@ -124,6 +133,10 @@ IBM PC compatible:
     run under a modern OS, rather than actually dedicating the entire
     computer to it — is to run such things under an emulator. In which case,
     we recommend Bochs.
+  references:
+  - title: RBIL
+    description: Ralf Brown's Interrupt List
+    url: http://www.cs.cmu.edu/afs/cs/user/ralf/pub/WWW/files.html
 
 80286 machine code:
   type: Programming Language

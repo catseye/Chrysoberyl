@@ -1,32 +1,3 @@
-<link>
-  <keywords>
-    <keyword>6502</keyword>
-  </keywords>
-  <url>http://www.obelisk.demon.co.uk/6502/instructions.html</url>
-  <title>6502 Instruction Set</title>
-  <description>6502 Instruction Set Reference</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>asm</keyword>
-    <keyword>x86</keyword>
-  </keywords>
-  <url>http://nasm.sourceforge.net/</url>
-  <title>NASM</title>
-  <description>The Netwide Assembler (x86)</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>6502</keyword>
-    <keyword>asm</keyword>
-    <keyword>cbm</keyword>
-  </keywords>
-  <url>http://hkn.berkeley.edu/~mcmartin/P65/</url>
-  <title>P65</title>
-  <description>Portable 6502-family Assembler</description>
-</link>
 
 <link>
   <keywords>
@@ -207,24 +178,6 @@
 
 <link>
   <keywords>
-    <keyword>cbm</keyword>
-  </keywords>
-  <url>http://www.viceteam.org/</url>
-  <title>VICE</title>
-  <description>Emulator for Commodore 64/128, Vic 20, PET, ...</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>cbm</keyword>
-  </keywords>
-  <url>http://www.zimmers.net/anonftp/pub/cbm/</url>
-  <title>/pub/cbm/</title>
-  <description>Schematics, manuals, etc for Commodore computers</description>
-</link>
-
-<link>
-  <keywords>
     <keyword>css</keyword>
     <keyword>www</keyword>
   </keywords>
@@ -365,44 +318,6 @@
 
 <link>
   <keywords>
-    <keyword>eso</keyword>
-  </keywords>
-  <url>http://esolangs.org/wiki/Main_Page</url>
-  <title>Esolang Wiki</title>
-  <description>Wiki for Esoteric programming languages (Esolangs)</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>eso</keyword>
-  </keywords>
-  <url>http://www.p-nand-q.com/humor/programming_languages.html</url>
-  <title>programming languages at p-nand-q</title>
-  <description>Gerson Kurz' Esolangs</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>eso</keyword>
-  </keywords>
-  <url>http://www.reocities.com/ResearchTriangle/Station/2266/tarpit/tarpit.html</url>
-  <title>The Turing Tarpit</title>
-  <description>"all the best weirdness that language designers can come up with"</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>eso</keyword>
-    <keyword>game</keyword>
-    <keyword>6502</keyword>
-  </keywords>
-  <url>http://kidsquid.99k.org/dokuwiki/doku.php?id=main</url>
-  <title>kidsquid.99k.org</title>
-  <description>calamari's Home Page: Esolangs and Atari 2600/5200 games</description>
-</link>
-
-<link>
-  <keywords>
     <keyword>game</keyword>
     <keyword>all</keyword>
   </keywords>
@@ -456,15 +371,6 @@
   <url>http://www.dadgum.com/halcyon/</url>
   <title>Halcyon Days</title>
   <description>Interviews with Classic Computer and Video Game Programmers</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>hs</keyword>
-  </keywords>
-  <url>http://www.haskell.org/</url>
-  <title>Haskell</title>
-  <description>Official website of the Haskell Programming Language</description>
 </link>
 
 <link>
@@ -911,24 +817,6 @@
   <url>http://www.autohotkey.com/docs/misc/Styles.htm</url>
   <title>GUI Styles</title>
   <description>Brief descriptions of Windows GUI constants</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>x86</keyword>
-  </keywords>
-  <url>http://www.freedos.org/</url>
-  <title>FreeDOS</title>
-  <description>An open-source MS-DOS workalike</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>x86</keyword>
-  </keywords>
-  <url>http://www.cs.cmu.edu/afs/cs/user/ralf/pub/WWW/files.html</url>
-  <title>RBIL</title>
-  <description>Ralf Brown's Interrupt List</description>
 </link>
 
 <link>
