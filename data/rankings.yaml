@@ -1,6 +1,7 @@
 # encoding: UTF-8
 Chris Pressey's Favourite Video Games:
   type: Ranking
+  domain: Chris Pressey
   description: |
     Well, I figured that if
     [Wouter could have such a page](http://strlen.com/rants/fav_games.html),
@@ -27,6 +28,7 @@ Chris Pressey's Favourite Video Games:
 
 Chris Pressey's Favourite Text Adventures:
   type: Ranking
+  domain: Chris Pressey
   description: |
     Here is a list of [[Text Adventure|text adventure]] games that I've played (though some of
     them do have supplementary graphics), and, while I'm a bit hesitant to call

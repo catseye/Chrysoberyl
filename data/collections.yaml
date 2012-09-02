@@ -1,6 +1,7 @@
 # encoding: UTF-8
 Chris Pressey's Lingography:
   type: Collection
+  domain: Chris Pressey
   description: |
     (What is a "lingography", you ask?  Well, if bands have
     _disc_ographies and directors have _film_ographies...)
@@ -27,6 +28,7 @@ Chris Pressey's Lingography:
 
 Games by Chris Pressey:
   type: Collection
+  domain: Chris Pressey
   description: |
     Here is a list of games that I've designed and implemented.
     It is much less extensive in scope than my
@@ -39,6 +41,7 @@ Games by Chris Pressey:
 
 LoUIE:
   type: Collection
+  domain: Chris Pressey
   acronym-for: List of Unfinished Interesting Esolangs
   summary: A list of "open problems" in esoteric programming language design
   description: |

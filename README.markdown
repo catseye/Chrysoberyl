@@ -44,6 +44,11 @@ Each node may have any of the following fields:
 *   `acronym-for` -- expanding the name of the node
 *   ...
 
+Each node can have a `domain`, which influences how breadcrumbs are
+arranged.  For example, domain of lingography is Chris Pressey.  Domain
+of everything which does not specify a domain is Cat's Eye Technologies.
+(This scheme is, of course, subject to modifications)
+
 In addition, nodes of particular types may have fields that have meaning
 for that type.
 
@@ -137,9 +142,7 @@ language.)
 
 Run requirements and build requirements can be optional.
 
-Each node can have a "domain", which influences how breadcrumbs are
-arranged.  For example, domain of lingography is Chris Pressey.  Domain
-of everything which does not specify a domain is Cat's Eye Technologies.
+Date parsing and sorting by it and stuff.
 
 ### templates ###
 
@@ -165,6 +168,8 @@ Call out works in progress and ideas in some obvious way.
 Call out nodes abotu things that were not done by Cat's Eye Technologies
 in some obvious way.
 
+Handle variants and families in lingography.
+
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
@@ -182,3 +187,6 @@ Add my music.
 Generalize "Family" to be families of anything, perhaps.
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
+
+Dump all Chrysoberyl data as a JSON blob, see how big it is, and if
+it can be reduced by making post-hoc rules about default values.

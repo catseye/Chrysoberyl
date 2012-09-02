@@ -2,8 +2,8 @@
 "Cat's Eye Technologies":
   type: Organization
   description: |
-    Cat's Eye Technologies is an independent esoteric programming language
-    ([[Esolang]]) concern run by [[Chris Pressey]].
+    Cat's Eye Technologies is an independent [[Esolang|esoteric programming language]]
+    concern run by [[Chris Pressey]].
     
     It was established in 1995 in Winnipeg, Manitoba, Canada, originally
     as a custom software development and consulting outfit, serving several
@@ -26,18 +26,18 @@
     
     We believe that, in an environment of rapidly changing requirements,
     *maintainability of source code* has the greatest effect on software
-    quality, and that choice of [[Programming Language]]  profoundly
+    quality, and that choice of [[Programming Language|programming language]]  profoundly
     affects maintainability.
     
     That is our official excuse for being interested in experimental
     programming languages.  The real reason is perhaps more frivolous.
    
-    We also believe that [[Open-source]]
+    We also believe that [[Open-source|open-source]]
     software has an important civic and didactic role in modern society. For
     this reason, many of our software projects have been placed under
     permissive and [OSI Certified](http://www.opensource.org/docs/certification_mark.php)
     licenses such as the [[BSD license]], and made available for public
-    download from the Internet.
+    download from [[catseye.tc]].
 
 
 # thass right, catseye.tc is just a concept now.  and what a concept!

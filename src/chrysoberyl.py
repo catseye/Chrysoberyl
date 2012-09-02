@@ -117,6 +117,7 @@ def check_chrysoberyl_data(data):
           "'%s' has bad type '%s'" % (key, type_)
 
       # Every node may have some of these.
+      check_optional_scalar_ref(data, key, node, 'domain')
       check_optional_list_ref(data, key, node, 'see-also')
       check_optional_list_ref(data, key, node, 'authors',
           types=['Individual', 'Organization'])
@@ -358,6 +359,18 @@ class Renderer(object):
                 return "an " + text
             else:
                 return "a " + text
+        
+        def breadcrumbs(key=key):
+            bc = [key]
+            if key == "Cat's Eye Technologies":
+                return bc
+            while 'domain' in data[key]:
+                key = data[key]['domain']
+                bc.append('<a href="%s">%s</a>' % (filekey(key), key))
+            key = "Cat's Eye Technologies"
+            bc.append('<a href="%s">%s</a>' % (filekey(key), key))
+            bc.reverse()
+            return bc
 
         # functions
         context['filekey'] = filekey
@@ -366,6 +379,7 @@ class Renderer(object):
         context['github'] = github
         context['github_link'] = github_link
         context['indefart'] = indefart
+        context['breadcrumbs'] = breadcrumbs
 
         template = self.get_template(key)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
