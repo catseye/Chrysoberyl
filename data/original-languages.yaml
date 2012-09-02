@@ -2065,8 +2065,15 @@ Pixley:
   etymology:
   - place name
   - television show
-  sample: |-
+  sample: |
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
+  commentary: |
+    Here are some languages it would be great to see Pixley implemented
+    in someday:
+    *   [[Javascript]]
+    *   [[VBScript]]
+    *   [[Commodore 64]], either [[Commodore BASIC 2.0]] or [[6502 machine code]]
+    *   [[Befunge-98]] (storage would probably be a killer in [[Befunge-93]])
 
 pixley.pix:
   type: Implementation

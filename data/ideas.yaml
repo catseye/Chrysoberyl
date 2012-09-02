@@ -1,5 +1,39 @@
 # encoding: UTF-8
 
+AINSNIA:
+  type: Programming Language
+  genre: Esolang
+  acronym-for: AINSNIA Is Not SETL, Nor Is AINSNIA
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Functional
+  no-specification: true
+  summary: fundamentally based on sets
+  inception-date: Unknown
+  description: |
+    When I first heard of [[SETL]], the "SET Language",
+    I was intrigued, but when I looked into it, I found it just wasn't
+    based on sets fundamentally enough for my taste.
+    
+    AINSNIA would be the remedy for that.  In AINSNIA,
+    functions take sets, return sets, and are built up *from* sets.
+    The key idea to achieve this is encode ordered pairs (_a_,_b_) as
+    Kuratowski pairs {{_a_}, {_a_,_b_}}.
+    
+    This could probably be put into a [[Scheme]]-like framework. Instead of
+    (ordered) s-expressions, you have (unordered) set-expressions. So
+    instead of `(list 1 2 3)` you have `(set 1 2 3)`. But actually this
+    should be at the lowest level, so that `(quote (1 2 3))` is a set. You would
+    do the Kuratowski thing to encode order, but you'd have to do it
+    **everywhere**, which would get, wow.
+    
+    On the other hand, `map` and friends stay mostly the same, they just
+    work on sets now.
+
 Belabour:
   type: Programming Language
   genre: Esolang
@@ -546,8 +580,7 @@ Seltzer Spigot:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  paradigms:
-  - Meta-circular
+  paradigms: []
   no-specification: true
   summary: computational ascii art
   inception-date: ca Dec 2008
@@ -575,3 +608,33 @@ Seltzer Spigot:
         .:
         /:
         : :
+
+
+YO_DAWG:
+  type: Programming Language
+  genre: Esolang
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Meta-circular
+  influences:
+  - Mascarpone
+  no-specification: true
+  summary: |
+    Yo dawg, I herd you like esolangs, so I put an esolang in your esolang
+    so you can esolang while you esolang
+  inception-date: ca 2012
+  description: |
+    YO_DAWG is an esolang with first-class [[Esolang|esolangs]. You can create
+    new [[Befunge-93]] objects, [[brainfuck]] objects, [[Underload]] objects,
+    and so forth, and probably stick them onto a stack, or into variables.
+    Presumably, you can apply these objects to strings of characters, to run
+    programs in those esolangs; but more interestingly, being first-class objects,
+    esolangs in YO_DAWG can take esolangs as arguments, and return esolangs...
+    and you can probably compose esolangs (in truly,
+    *truly* pointless style) to form new esolangs.
+    
+    Naturally, you can also create new YO_DAWG objects.
