@@ -205,7 +205,7 @@ def check_chrysoberyl_data(data):
               node['authors'] = pl_node.get('authors', [])
               node['auspices'] = pl_node.get('auspices', [])
 
-      # All "implementables" need to pass these checks.
+      # All "implementables" (except musical compositions) need to pass these checks.
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool', 'Platform']:
           assert 'build-requirements' not in node
           assert 'run-requirements' not in node
@@ -221,7 +221,7 @@ def check_chrysoberyl_data(data):
                                    types=['Distribution'])
                   data[node['reference-distribution']]['reference'] = True
 
-      if type_ in ['Game', 'Programming Language']:
+      if type_ in ['Game', 'Programming Language', 'Musical Composition']:
           check_scalar_ref(data, key, node, 'genre', types=['Genre'])
           check_list_ref(data, key, node, 'authors')
 

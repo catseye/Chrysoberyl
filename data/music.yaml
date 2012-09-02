@@ -1,5 +1,7 @@
 # encoding: UTF-8
 
+# -----------------------------------------------
+
 MED:
   type: Programming Language
   genre: Production language
@@ -61,5 +63,60 @@ Retrograde:
 You Drive Me Wild:
   type: Musical Composition
   genre: Pop
+  authors:
+  - Chris Pressey
+
+
+# ------------------------------------
+
+# Recorded from the JV-30 synthesizer itself:
+
+Ice Jam:
+  type: Musical Composition
+  genre: Alt rock
+  authors:
+  - Chris Pressey
+  commentary: |
+    "Bjork-esque".
+
+
+Jack and Jill:
+  type: Musical Composition
+  genre: Alt rock
+  authors:
+  - Chris Pressey
+
+
+A Moment in the Sun:
+  type: Musical Composition
+  genre: Reggae
+  authors:
+  - Chris Pressey
+
+
+Back to the Rain:
+  type: Musical Composition
+  genre: Jazz fusion
+  authors:
+  - Chris Pressey
+
+
+"Zoning Variance #5":
+  type: Musical Composition
+  genre: World beat
+  authors:
+  - Chris Pressey
+
+
+Go(Figure):
+  type: Musical Composition
+  genre: Jazz fusion
+  authors:
+  - Chris Pressey
+
+
+Smedley the Medley:
+  type: Musical Composition
+  genre: Experimental music
   authors:
   - Chris Pressey

@@ -88,3 +88,13 @@ Sci-fi:
     I use the term "sci-fi" to refer to, not only fiction, a few of my
     musical compositions which are too much like pop for me to call
     them techno.
+Alt rock:
+  type: Genre
+Jazz fusion:
+  type: Genre
+Reggae:
+  type: Genre
+World beat:
+  type: Genre
+Experimental music:
+  type: Genre
