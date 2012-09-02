@@ -71,13 +71,17 @@
 <p>To run this implementation, you need:</p>
 
 <ul>
-  {% if data[host_language].generally_compiled or build_requirements %}
+  {% if (data[host_language].generally_compiled or build_requirements) and
+        not prebuilt_in_distribution %}
     <li>
       to build it first, for which you will need:
       <ul>
         {% if data[host_language].generally_compiled %}
           <li>
             an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+            {% if host_platform %}
+              for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+            {% endif %}
           </li>
         {% endif %}
         {% if build_requirements %}
@@ -90,9 +94,12 @@
       </ul>
     </li>
   {% endif %}
-  {% if not data[host_language].generally_compiled %}
+  {% if prebuilt_in_distribution or not data[host_language].generally_compiled %}
     <li>
       an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+      {% if host_platform %}
+        for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+      {% endif %}
     </li>
   {% endif %}
   {% if run_requirements %}

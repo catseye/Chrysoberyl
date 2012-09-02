@@ -419,8 +419,8 @@ braktif.alp:
   type: Implementation
   implementation-of: Braktif
   reference: true
-  in-distribution: Braktif distribution
   prebuilt-in-distribution: true
+  in-distribution: Braktif distribution
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -833,6 +833,7 @@ tc.catseye.etcha:
   type: Implementation
   implementation-of: Etcha
   in-distribution: Etcha distribution
+  prebuilt-in-distribution: true
   reference: true
   license: Unknown license
   implementation-type: interpreter
@@ -842,6 +843,7 @@ tc.catseye.yoob.etcha:
   type: Implementation
   implementation-of: Etcha
   in-distribution: yoob distribution
+  prebuilt-in-distribution: true
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
@@ -2203,6 +2205,7 @@ sbeezg.erl:
   type: Implementation
   implementation-of: Sbeezg
   in-distribution: Sbeezg distribution
+  prebuilt-in-distribution: true
   reference: true
   license: BSD license
   implementation-type: interpreter
@@ -2244,6 +2247,7 @@ shelta:
   implementation-of: Shelta
   reference: true
   in-distribution: Shelta distribution
+  prebuilt-in-distribution: true
   license: Freely Redistributable
   implementation-type: compiler
   host-language: NASM Assembler
@@ -2254,6 +2258,7 @@ sheltas:
   type: Implementation
   implementation-of: Shelta
   in-distribution: Shelta distribution
+  prebuilt-in-distribution: true
   license: Freely Redistributable
   implementation-type: compiler
   host-language: Shelta
@@ -2718,6 +2723,7 @@ tc.catseye.whothm:
   type: Implementation
   implementation-of: Whothm
   in-distribution: Whothm distribution
+  prebuilt-in-distribution: true
   reference: true
   license: Unknown license
   implementation-type: interpreter

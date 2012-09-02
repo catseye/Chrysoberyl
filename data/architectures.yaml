@@ -27,6 +27,7 @@ AppleWin:
   type: Implementation
   implementation-of: Apple II
   implementation-type: emulator
+  prebuilt-in-distribution: true
   links:
   - 'http://applewin.berlios.de/'
   license: GPL
@@ -86,6 +87,7 @@ VICE x64:
   type: Implementation
   implementation-of: Commodore 64
   implementation-type: emulator
+  prebuilt-in-distribution: true
   license: GPL
   links:
   - 'http://vice-emu.sourceforge.net/'
@@ -142,6 +144,7 @@ IBM PC compatible:
 Bochs:
   type: Implementation
   implementation-of: IBM PC compatible
+  prebuilt-in-distribution: true
   links:
   - 'http://bochs.sourceforge.net/'
   license: LGPL

@@ -94,6 +94,11 @@ Each implementation has an implementation-type.  For a programming language,
 this may be interpreter, compiler, etc.  For a platform, this currently must
 be "emulator".
 
+An implementation may claim that it is prebuilt in its distribution.  This
+assumes it's only in one distribution.  Really, being built somewhere is
+a property of the distribution, but this fudging makes some things easier
+for now.
+
 Each platform must specify what its native language is.  Implementations
 may specify, along with a host language, a host platform.
 
@@ -144,9 +149,10 @@ and what tools you need ("as a prerequisite") for building or running.**
     for this purpose (e.g. generally recommend Perl 5.8.some).
 *   Have some way to indicate, on the implementation, that it needs
     building, even if the language is not always compiled (Haskell.)
-*   Have some way to indicate, on the implementation, that it does *not*
-    need building, even if the language is generally compiled
-    (Java, Erlang, C64 dists which include the compiled version.)
+*   When it does not need building (dist has executables), don't say
+    you still require the language to run it (if it's, say, C++).
+*   When it does not need building (dist has executables), still, tell
+    how you would build it if you want to.
 
 Extrapolate the above for distributions (do that for each implementation
 in the distribution.)

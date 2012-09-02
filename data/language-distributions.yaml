@@ -330,9 +330,6 @@ Flobnar distribution:
 Funge-98 distribution: 
   type: Distribution
   distribution-of: Funge-98
-  description: |
-    Please note that this project contains only
-    the documentation and ancillary materials for Funge-98.
   esowiki: Funge-98
   releases: 
   - version: "1.0"
@@ -427,6 +424,7 @@ Open Sores Illgol## distribution:
   type: Distribution
   # actually, it's a distribution of several languages.
   distribution-of: ILLGOL
+  # and it probably might as well have executables.  at some point.
   bitbucket: catseye/illgol-grand-mal
   github: catseye/Illgol-Grand-Mal
   issue-tracker: github

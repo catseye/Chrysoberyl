@@ -1,27 +1,4 @@
 # encoding: UTF-8
-Hunt the Wumpus:
-  type: Game
-  genre: Logic
-  vintage: true
-  authors:
-  - Gregory Yob
-  description: |
-    The classic topological mythical-beast-hunting game, implemented in Erlang.
-  specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
-
-wumpus.erl:
-  type: Implementation
-  implementation-of: Hunt the Wumpus
-  in-distribution: Hunt the Wumpus distribution
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  license: BSD license
-  inception-date: ca 1999?
-  host-language: Erlang
-
-
 Animals:
   type: Game
   genre: Guessing
@@ -41,6 +18,7 @@ animals.erl:
   type: Implementation
   implementation-of: Animals
   in-distribution: Animals distribution
+  prebuilt-in-distribution: true
   authors:
   - Chris Pressey
   auspices:
@@ -49,6 +27,20 @@ animals.erl:
   inception-date: ca 1999?
   host-language: Erlang
   interface: terminal
+
+Animals distribution: 
+  type: Distribution
+  distribution-of: Animals
+  bitbucket: catseye/animals
+  github: catseye/Animals
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2004.0919"
+    url: http://catseye.tc/distfiles/animals-2004.0919.zip
+  - version: "1.1"
+    revision: "2010.0429"
+    url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
 
 
 Flip:
@@ -65,6 +57,7 @@ flip.erl:
   type: Implementation
   implementation-of: Flip
   in-distribution: Flip distribution
+  prebuilt-in-distribution: true
   authors:
   - Chris Pressey
   auspices:
@@ -73,6 +66,49 @@ flip.erl:
   inception-date: ca 1999?
   host-language: Erlang
   interface: terminal
+
+Flip distribution: 
+  type: Distribution
+  distribution-of: Flip
+  bitbucket: catseye/flip
+  github: catseye/Flip
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2002.0731"
+    url: http://catseye.tc/distfiles/flip-2002.0731.zip
+
+
+Hunt the Wumpus:
+  type: Game
+  genre: Logic
+  vintage: true
+  authors:
+  - Gregory Yob
+  description: |
+    The classic topological mythical-beast-hunting game, implemented in Erlang.
+  specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
+
+wumpus.erl:
+  type: Implementation
+  implementation-of: Hunt the Wumpus
+  in-distribution: Hunt the Wumpus distribution
+  prebuilt-in-distribution: true
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  license: BSD license
+  inception-date: ca 1999?
+  host-language: Erlang
+
+Hunt the Wumpus distribution: 
+  type: Distribution
+  distribution-of: Hunt the Wumpus
+  releases:
+  - version: "1.0"
+    revision: "2002.0630"
+    url: http://catseye.tc/distfiles/wumpus-2002.0630.zip
 
 
 Sokoban:
@@ -89,6 +125,7 @@ esoko:
   type: Implementation
   implementation-of: Sokoban
   in-distribution: esoko distribution
+  prebuilt-in-distribution: true
   authors:
   - Chris Pressey
   auspices:
@@ -102,3 +139,11 @@ esoko:
     This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
   interface: GUI window
   controls: keyboard
+
+esoko distribution: 
+  type: Distribution
+  distribution-of: esoko
+  releases:
+  - version: "1.0"
+    revision: "2002.1104"
+    url: http://catseye.tc/distfiles/esoko-2002.1104.zip

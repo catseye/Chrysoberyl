@@ -34,6 +34,7 @@ DOSBox:
   type: Implementation
   implementation-of: MS-DOS
   implementation-type: emulator
+  prebuilt-in-distribution: true
   host-language: C++
   license: GPL
   links:

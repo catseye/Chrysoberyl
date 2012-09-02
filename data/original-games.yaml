@@ -1,7 +1,7 @@
 # encoding: UTF-8
 'Bubble Escape':
   type: Game
-  genre: Video Game
+  genre: Maze-Runner
   authors:
   - Chris Pressey
   auspices:
@@ -42,11 +42,26 @@ Bubble Escape 8K:
   type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
+  prebuilt-in-distribution: true
   license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
   host-platform: Commodore 64
   controls: joystick
+
+Bubble Escape distribution: 
+  type: Distribution
+  distribution-of: Bubble Escape
+  bitbucket: catseye/bubble-escape
+  github: catseye/Bubble-Escape
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2009.0707"
+    url: http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip
+  - version: "1.0"
+    revision: "2012.0520"
+    url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip
 
 
 'Corona: Realm of Magic':
@@ -75,6 +90,53 @@ Bubble Escape 8K:
   - ANSI Terminal
   interface: ANSI Terminal
 
+'Corona: Realm of Magic distribution': 
+  type: Distribution
+  distribution-of: 'Corona: Realm of Magic'
+  bitbucket: catseye/corona-realm-of-magic
+  github: catseye/Corona-Realm-of-Magic
+  issue-tracker: github  
+  releases: 
+  - version: "0.19"
+    revision: "2000.1204"
+    url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
+
+
+Super Wumpus Land:
+  type: Game
+  # also Text Adventure, sort of
+  genre: Logic
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1999
+  description: |
+    An "extended dance mix" version of [[Hunt the Wumpus]].
+
+swl:
+  type: Implementation
+  implementation-of: Super Wumpus Land
+  in-distribution: Super Wumpus Land distribution
+  license: BSD license
+  host-language: Perl
+  host-language-version: "5.8"
+  interface: terminal
+
+Super Wumpus Land distribution:  
+  type: Distribution
+  distribution-of: Super Wumpus Land
+  bitbucket: catseye/super-wumpus-land
+  github: catseye/Super-Wumpus-Land
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2004.0227"
+    url: http://catseye.tc/distfiles/swl-2004.0227.zip
+  - version: "1.0"
+    revision: "2007.1216"
+    url: http://catseye.tc/distfiles/swl-2007.1216.zip
+
 
 Zzrk:
   subtitle: Adventures in the Great Unsaturated Grammar
@@ -98,23 +160,16 @@ Zzrk (Zz):
   implemented-in-meta: true
   interface: terminal
 
-Super Wumpus Land:
-  type: Game
-  # also Text Adventure, sort of
-  genre: Logic
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 1999
-  description: |
-    An "extended dance mix" version of [[Hunt the Wumpus]].
-
-swl:
-  type: Implementation
-  implementation-of: Super Wumpus Land
-  in-distribution: Super Wumpus Land distribution
-  license: BSD license
-  host-language: Perl
-  host-language-version: "5.8"
-  interface: terminal
+Zzrk distribution: 
+  type: Distribution
+  distribution-of: Zzrk
+  bitbucket: catseye/zzrk
+  github: catseye/Zzrk
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2007.0506"
+    url: http://catseye.tc/distfiles/zzrk-2007.0506.zip
+  - version: "1.0"
+    revision: "2012.0616"
+    url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip

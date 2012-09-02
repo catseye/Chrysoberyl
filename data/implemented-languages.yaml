@@ -17,6 +17,7 @@ pibfi:
   type: Implementation
   implementation-of: brainfuck
   in-distribution: pibfi distribution
+  prebuilt-in-distribution: true
   acronym-for: Platonic Ideal Brainfuck Interpeter
   reference: no
   license: BSD license
