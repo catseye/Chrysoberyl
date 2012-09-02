@@ -96,6 +96,8 @@ LEGACY_FIELDS = (
     'implementations',
     'has-reference-distribution',
     'required-libraries',
+    'includes-executables',
+    'prebuilt-in-distribution',
 )
 
 
@@ -166,6 +168,8 @@ def check_chrysoberyl_data(data):
               del node['in-distribution']
           check_optional_list_ref(data, key, node, 'in-distributions',
                                     types=['Distribution'])
+          check_optional_list_ref(data, key, node, 'prebuilt-for-platforms',
+                                    types=['Platform', 'Programming Language'])
           check_scalar_ref(data, key, node, 'host-language',
                            types=['Programming Language'])
           check_optional_scalar_ref(data, key, node, 'host-platform',

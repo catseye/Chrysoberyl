@@ -18,7 +18,8 @@ animals.erl:
   type: Implementation
   implementation-of: Animals
   in-distribution: Animals distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   authors:
   - Chris Pressey
   auspices:
@@ -57,7 +58,8 @@ flip.erl:
   type: Implementation
   implementation-of: Flip
   in-distribution: Flip distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   authors:
   - Chris Pressey
   auspices:
@@ -93,7 +95,8 @@ wumpus.erl:
   type: Implementation
   implementation-of: Hunt the Wumpus
   in-distribution: Hunt the Wumpus distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   authors:
   - Chris Pressey
   auspices:
@@ -125,7 +128,8 @@ esoko:
   type: Implementation
   implementation-of: Sokoban
   in-distribution: esoko distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   authors:
   - Chris Pressey
   auspices:

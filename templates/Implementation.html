@@ -71,36 +71,47 @@
 <p>To run this implementation, you need:</p>
 
 <ul>
-  {% if (data[host_language].generally_compiled or build_requirements) and
-        not prebuilt_in_distribution %}
-    <li>
-      to build it first, for which you will need:
+  {% if prebuilt_for_platforms|length > 1 %}
+    <li>One of the following:
       <ul>
-        {% if data[host_language].generally_compiled %}
-          <li>
-            an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-            {% if host_platform %}
-              for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
-            {% endif %}
-          </li>
-        {% endif %}
-        {% if build_requirements %}
-          {% for requirement in build_requirements %}
-            <li>
-              <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
-            </li>
-          {% endfor %}
-        {% endif %}
+        {% for platform in prebuilt_for_platforms %}
+          <li>an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
+        {% endfor %}
       </ul>
     </li>
-  {% endif %}
-  {% if prebuilt_in_distribution or not data[host_language].generally_compiled %}
-    <li>
-      an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-      {% if host_platform %}
-        for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
-      {% endif %}
-    </li>
+  {% elif prebuilt_for_platforms %}
+    <li>an implementation of <a href="{{ filekey(prebuilt_for_platforms[0]) }}">{{ prebuilt_for_platforms[0] }}</a></li>
+  {% else %}
+    {% if data[host_language].generally_compiled or build_requirements %}
+      <li>
+        to build it first, for which you will need:
+        <ul>
+          {% if data[host_language].generally_compiled %}
+            <li>
+              an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+              {% if host_platform %}
+                for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+              {% endif %}
+            </li>
+          {% endif %}
+          {% if build_requirements %}
+            {% for requirement in build_requirements %}
+              <li>
+                <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+              </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </li>
+    {% endif %}
+    {% if not data[host_language].generally_compiled %}
+      <li>
+        an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+        {% if host_platform %}
+          for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+        {% endif %}
+      </li>
+    {% endif %}
   {% endif %}
   {% if run_requirements %}
     {% for requirement in run_requirements %}

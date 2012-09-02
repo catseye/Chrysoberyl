@@ -1,51 +1,25 @@
 # encoding: UTF-8
-MS-DOS:
+Linux:
   type: Platform
-  standards-body: http://microsoft.com/
+  # guhhh...
+  standards-body: http://linux.com/
+  # \o/
   native-language: 80286 machine code
-  # I dunno, batch maybe?
   other-languages: []
-  links:
-  - 'http://www.freedos.org/'
-  - 'http://bochs.sourceforge.net/'
-  as-a-prerequisite: |
-    This project assumes that it will be running under MS-DOS or something
-    which emulates MS-DOS sufficiently well. This includes both the standard
-    DOS INT 21h handler, and the standard DOS utilies like, for example,
-    DEBUG.COM.
-    
-    You can try (at your own risk, of course) using the project under some
-    more-or-less modern version of Windows and hope that it emulates DOS
-    well enough to work. It might, it might not. If not, you have options:
-    
-    *   DOSBox is an emulator, available for many systems, which
-        simulates both an x86-based IBM PC, and MS-DOS on top of it.  It
-        should be plenty sufficient for running DOS-based software found
-        here.
-    *   For a more heavyweight solution, you could install FreeDOS
-        on a PC emulator such as Bochs.
-    
-    All of the above software packages are open source.
-  commentary: |
-    I think the only thing that requires MS-DOS is shelta; and even then, it might
-    rely only on the BIOS interface, I forget.
-
-DOSBox:
-  type: Implementation
-  implementation-of: MS-DOS
-  implementation-type: emulator
-  prebuilt-in-distribution: true
-  host-language: C++
-  license: GPL
-  links:
-  - 'http://www.dosbox.com/'
 
 Cygwin:
-  type: Platform
-  standards-body: http://www.cygwin.com/
-  # XXX ok this is not the greatest data model
-  native-language: 80286 machine code
-  other-languages: []
+  type: Implementation
+  # WELL SORRRT OF
+  implementation-of: Linux
+  implementation-type: emulator
+  prebuilt-for-platforms:
+  - Windows
+  # guess
+  host-language: C++
+  # guess (i know it's actually more restrictive in some ways)
+  license: GPL
+  links:
+  - http://www.cygwin.com/
   description: |
     Cygwin is a compatibility layer for Windows
     which lets you build and run software which expects a Unix-like
@@ -77,3 +51,84 @@ Cygwin:
     4.  Probably you should rename your shortcut "Cygwin Powershell" or
         something, to minimize confusion.
     5.  Double-click your new shortcut. It should totally just work.
+
+
+MacOS:
+  type: Platform
+  standards-body: http://apple.com/
+  # \o/
+  native-language: 80286 machine code
+  # I dunno, applescript maybe?
+  other-languages: []
+
+
+MS-DOS:
+  type: Platform
+  standards-body: http://microsoft.com/
+  native-language: 80286 machine code
+  # I dunno, batch maybe?
+  other-languages: []
+  as-a-prerequisite: |
+    This project assumes that it will be running under MS-DOS or something
+    which emulates MS-DOS sufficiently well. This includes both the standard
+    DOS INT 21h handler, and the standard DOS utilies like, for example,
+    DEBUG.COM.
+    
+    You can try (at your own risk, of course) using the project under some
+    more-or-less modern version of Windows and hope that it emulates DOS
+    well enough to work. It might, it might not. If not, you have options:
+    
+    *   [[DOSBox]] is an emulator, available for many systems, which
+        simulates both an x86-based IBM PC, and MS-DOS on top of it.  It
+        should be plenty sufficient for running DOS-based software found
+        here.
+    *   For a more heavyweight solution, you could install [[FreeDOS]]
+        on a PC emulator such as [[Bochs]].
+    
+    All of the above software packages are open source.
+  commentary: |
+    I think the only thing that requires MS-DOS is shelta; and even then, it might
+    rely only on the BIOS interface, I forget.
+
+DOSBox:
+  type: Implementation
+  implementation-of: MS-DOS
+  implementation-type: emulator
+  prebuilt-for-platforms:
+  - Windows
+  - Linux
+  - MacOS
+  host-language: C++
+  license: GPL
+  links:
+  - 'http://www.dosbox.com/'
+
+FreeDOS:
+  type: Implementation
+  implementation-of: MS-DOS
+  implementation-type: emulator
+  prebuilt-for-platforms:
+  - IBM PC compatible
+  # a guess
+  host-language: C99
+  license: GPL
+  links:
+  - 'http://www.freedos.org/'
+
+
+Windows:
+  type: Platform
+  standards-body: http://microsoft.com/
+  # \o/
+  native-language: 80286 machine code
+  # I dunno, vbscript maybe?
+  other-languages: []
+
+WINE:
+  type: Implementation
+  implementation-of: Windows
+  implementation-type: emulator
+  prebuilt-for-platforms:
+  - Linux
+  host-language: C++
+  license: GPL

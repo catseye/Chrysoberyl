@@ -17,9 +17,10 @@ pibfi:
   type: Implementation
   implementation-of: brainfuck
   in-distribution: pibfi distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   acronym-for: Platonic Ideal Brainfuck Interpeter
-  reference: no
+  reference: false
   license: BSD license
   host-language: Erlang
   implementation-type: interpreter
@@ -48,12 +49,11 @@ Muriel:
   computational-class: shown Turing-complete
   specification-link: esowiki
 
-
 muriel.pl:
   type: Implementation
   implementation-of: Muriel
   in-distribution: Muriel distribution
-  reference: no
+  reference: false
   license: BSD license
   host-language: Perl
   implementation-type: interpreter
@@ -82,7 +82,7 @@ VALGOL:
 valgol.erl:
   type: Implementation
   implementation-of: VALGOL
-  reference: no
+  reference: false
   license: BSD license
   host-language: Erlang
   implementation-type: parser
@@ -109,11 +109,10 @@ Smallfuck:
   inception-date: ca 2002
   specification-link: esowiki
 
-
 sf2tab:
   type: Implementation
   implementation-of: Smallfuck
-  reference: no
+  reference: false
   license: BSD license
   host-language: ANSI C
   target-language: lookup table
@@ -143,7 +142,7 @@ Underload:
 stringie:
   type: Implementation
   implementation-of: Underload
-  reference: no
+  reference: false
   license: Public Domain
   host-language: ANSI C
   implementation-type: interpreter
@@ -176,7 +175,7 @@ stringie:
   type: Implementation
   implementation-of: PL-{GOTO}
   in-distribution: PL-{GOTO}.NET distribution
-  reference: no
+  reference: false
   license: Public Domain
   host-language: Haskell
   target-language: MSIL
@@ -222,7 +221,10 @@ Ale:
 tc.catseye.yoob.ale:
   type: Implementation
   implementation-of: Ale
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -247,7 +249,10 @@ Backflip:
 tc.catseye.yoob.backflip:
   type: Implementation
   implementation-of: Backflip
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -272,7 +277,10 @@ Black:
 tc.catseye.yoob.black:
   type: Implementation
   implementation-of: Black
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -298,7 +306,10 @@ LNUSP:
 tc.catseye.yoob.lnusp:
   type: Implementation
   implementation-of: LNUSP
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -335,7 +346,10 @@ tc.catseye.yoob.lnusp:
 tc.catseye.yoob.onela:
   type: Implementation
   implementation-of: 1L_a
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -361,7 +375,10 @@ tc.catseye.yoob.onela:
 tc.catseye.yoob.onelaoi:
   type: Implementation
   implementation-of: 1L_AOI
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -387,7 +404,10 @@ PATH:
 tc.catseye.yoob.path:
   type: Implementation
   implementation-of: PATH
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -412,7 +432,10 @@ Qdeql:
 tc.catseye.yoob.qdeql:
   type: Implementation
   implementation-of: Qdeql
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -437,7 +460,10 @@ Sceql:
 tc.catseye.yoob.sceql:
   type: Implementation
   implementation-of: Sceql
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -463,7 +489,10 @@ SNUSP:
 tc.catseye.yoob.snusp:
   type: Implementation
   implementation-of: SNUSP
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -491,7 +520,10 @@ tc.catseye.yoob.snusp:
 tc.catseye.yoob.twoill:
   type: Implementation
   implementation-of: 2-ill
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob
@@ -517,7 +549,10 @@ tc.catseye.yoob.twoill:
 tc.catseye.yoob.twol:
   type: Implementation
   implementation-of: 2L
-  reference: no
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
   license: Public Domain
   host-language: Java
   host-platform: yoob

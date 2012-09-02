@@ -419,7 +419,8 @@ braktif.alp:
   type: Implementation
   implementation-of: Braktif
   reference: true
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Perl
   in-distribution: Braktif distribution
   license: BSD license
   implementation-type: formal description
@@ -556,6 +557,8 @@ tc.catseye.yoob.circute:
   type: Implementation
   implementation-of: Circute
   in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
@@ -566,7 +569,8 @@ circute.alp:
   implementation-of: Circute
   reference: true
   in-distribution: Circute distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Perl
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -833,7 +837,8 @@ tc.catseye.etcha:
   type: Implementation
   implementation-of: Etcha
   in-distribution: Etcha distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Java
   reference: true
   license: Unknown license
   implementation-type: interpreter
@@ -843,7 +848,8 @@ tc.catseye.yoob.etcha:
   type: Implementation
   implementation-of: Etcha
   in-distribution: yoob distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - yoob
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
@@ -1071,6 +1077,8 @@ tc.catseye.yoob.gemooy:
   type: Implementation
   implementation-of: Gemooy
   in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
@@ -1429,7 +1437,8 @@ jaccia.alp:
   implementation-of: Jaccia and Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Perl
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -1439,7 +1448,8 @@ jacciata.alp:
   implementation-of: Jaccia and Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Perl
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -2091,7 +2101,8 @@ redgreen.alp:
   implementation-of: REDGREEN
   reference: true
   in-distribution: REDGREEN distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Perl
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -2205,7 +2216,8 @@ sbeezg.erl:
   type: Implementation
   implementation-of: Sbeezg
   in-distribution: Sbeezg distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Erlang
   reference: true
   license: BSD license
   implementation-type: interpreter
@@ -2247,7 +2259,8 @@ shelta:
   implementation-of: Shelta
   reference: true
   in-distribution: Shelta distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - MS-DOS
   license: Freely Redistributable
   implementation-type: compiler
   host-language: NASM Assembler
@@ -2258,7 +2271,8 @@ sheltas:
   type: Implementation
   implementation-of: Shelta
   in-distribution: Shelta distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - MS-DOS
   license: Freely Redistributable
   implementation-type: compiler
   host-language: Shelta
@@ -2311,6 +2325,8 @@ tc.catseye.yoob.smetana:
   type: Implementation
   implementation-of: SMETANA
   in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
   license: Public Domain
   implementation-type: interpreter
   host-language: Java
@@ -2723,7 +2739,8 @@ tc.catseye.whothm:
   type: Implementation
   implementation-of: Whothm
   in-distribution: Whothm distribution
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Java
   reference: true
   license: Unknown license
   implementation-type: interpreter
@@ -2848,6 +2865,8 @@ tc.catseye.yoob.wunnel:
   type: Implementation
   implementation-of: Wunnel
   in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
   reference: true
   license: Public Domain
   implementation-type: interpreter

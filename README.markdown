@@ -149,8 +149,6 @@ and what tools you need ("as a prerequisite") for building or running.**
     for this purpose (e.g. generally recommend Perl 5.8.some).
 *   Have some way to indicate, on the implementation, that it needs
     building, even if the language is not always compiled (Haskell.)
-*   When it does not need building (dist has executables), don't say
-    you still require the language to run it (if it's, say, C++).
 *   When it does not need building (dist has executables), still, tell
     how you would build it if you want to.
 

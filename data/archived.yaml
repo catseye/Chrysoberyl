@@ -13,6 +13,8 @@ basedump.erl:
   type: Implementation
   implementation-of: basedump
   in-distribution: basedump distribution
+  prebuilt-for-platforms:
+  - Erlang
   license: BSD license
   host-language: Erlang
 
@@ -38,6 +40,8 @@ belld:
 belld.c:
   type: Implementation
   implementation-of: belld
+  #build-requirements:
+  #- FreeBSD 4.x
   in-distribution: belld distribution
   license: BSD license
   host-language: C99
@@ -90,6 +94,8 @@ ce (Erlang):
   type: Implementation
   implementation-of: ce
   in-distribution: ce distribution
+  prebuilt-for-platforms:
+  - Erlang
   license: BSD license
   host-language: Erlang
 
@@ -115,6 +121,8 @@ ec.erl:
   type: Implementation
   implementation-of: ec
   in-distribution: ec distribution
+  prebuilt-for-platforms:
+  - Erlang
   license: BSD license
   host-language: Erlang
 
@@ -213,7 +221,9 @@ OpenFlax:
 OpenFlax (Erlang):
   type: Implementation
   implementation-of: OpenFlax
-  in-distribution: 'OpenFlax distribution'
+  in-distribution: OpenFlax distribution
+  prebuilt-for-platforms:
+  - Erlang
   license: BSD license
   host-language: Erlang
 
@@ -240,6 +250,8 @@ peruse.erl:
   type: Implementation
   implementation-of: peruse
   in-distribution: peruse distribution
+  prebuilt-for-platforms:
+  - Erlang
   license: BSD license
   host-language: Erlang
 

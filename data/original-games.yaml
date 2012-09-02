@@ -27,7 +27,8 @@ Bubble Escape 2K:
   type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Commodore 64
   license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
@@ -42,7 +43,8 @@ Bubble Escape 8K:
   type: Implementation
   implementation-of: Bubble Escape
   in-distribution: 'Bubble Escape distribution'
-  prebuilt-in-distribution: true
+  prebuilt-for-platforms:
+  - Commodore 64
   license: BSD license
   host-language: Ophis Assembler
   host-language-version: "2.0"
