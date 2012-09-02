@@ -16,5 +16,8 @@ archived:
     a repository on Github and/or Bitbucket.
 abandoned:
   type: Development Stage
+unfinished:
+  # pretty much the same as 'abandoned', really
+  type: Development Stage
 lost:
   type: Development Stage

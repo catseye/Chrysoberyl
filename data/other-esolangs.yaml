@@ -15,6 +15,20 @@ BitChanger:
   specification-link: esowiki
 
 
+Blank:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  computational-class: believed Turing-complete
+  esowiki: Blank
+  influences:
+  - Befunge-93
+  authors:
+  - Andrew Turley
+  specification-link: esowiki
+
+
 "FALSE":
   type: Programming Language
   genre: Esolang

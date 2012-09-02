@@ -74,8 +74,8 @@ Sports:
 Theme music:
   type: Genre
   commentary: |
-    Anything that was the theme to some [[Game|game]] or movie or just
-    *sounds* like it should be the theme to some game or movie.
+    Anything that was the theme to some [[Game|video game]] or movie or just
+    *sounds* like it should be the theme to some video game or movie.
 Pop ballad:
   type: Genre
 Pop:
@@ -97,4 +97,16 @@ Reggae:
 World beat:
   type: Genre
 Experimental music:
+  type: Genre
+Chamber music:
+  type: Genre
+Swing:
+  type: Genre
+Shuffle:
+  type: Genre
+Dance:
+  type: Genre
+Techno:
+  type: Genre
+Ragtime:
   type: Genre

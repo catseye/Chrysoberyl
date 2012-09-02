@@ -34,11 +34,84 @@ MP3:
 
 # -----------------------------------------------
 
+###### SID ######
 
+The Biftek Shuffle:
+  type: Musical Composition
+  genre: Shuffle
+  inception-date: ca 1987
+  authors:
+  - Chris Pressey
+  commentary: |
+    Apparently, when I was young, I was obsessed with
+    (a) the 12-bar blues progression,
+    (b) very small pitch ranges over the span of a melody or bass line
+    (sometimes only three or four semitones,) and (c)
+    repeating the same 4-bar melody ad naseum, with slightly different instrumentation
+    each time (well, this is easy to do on a computer, right?)
+
+
+Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
+  type: Musical Composition
+  genre: Experimental music
+  inception-date: ca 1987
+  authors:
+  - Chris Pressey
+  commentary: |
+    The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
+    (a cardboard box, similar to a cereal box, which contains two plastic bags of chips.)
+
+
+Theme to Nukeball:
+  type: Musical Composition
+  genre: Theme music
+  inception-date: ca 1988
+  authors:
+  - Chris Pressey
+  commentary: |
+    Nukeball was an idea I had for a [[Commodore 64]] [[Game]].
+
+
+Tears on my Catbox:
+  type: Musical Composition
+  genre: Experimental music
+  inception-date: ca 1988
+  authors:
+  - Chris Pressey
+
+
+Untitled Video Game Theme:
+  type: Musical Composition
+  genre: Theme music
+  inception-date: ca 1989
+  authors:
+  - Chris Pressey
+
+
+"Paige's Praise":
+  type: Musical Composition
+  genre: Swing
+  inception-date: ca 1989
+  # also redone in DCMS
+  authors:
+  - Chris Pressey
+
+
+Futons:
+  type: Musical Composition
+  genre: Sci-fi
+  inception-date: ca 1989
+  # redone as "Futons 1990" in DMCS and (unimpressively) as "Futon Landscape" in Cakewalk
+  authors:
+  - Chris Pressey
+
+
+###### MED ######
 
 After the Fact:
   type: Musical Composition
   genre: Theme music
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
@@ -47,13 +120,18 @@ After the Fact (MED):
   implementation-of: After the Fact
   host-language: MED
   license: Freely Redistributable
+  commentary: |
+    After the Fact used MED's ability to transpose an instrument, which most module players don't support.
+    However, `xmp` does support this feature.
 
 After the Fact (MP3):
   type: Implementation
   implementation-of: After the Fact
   host-language: MP3
   converted-from: After the Fact (MED)
-  converted-using: xmp
+  converted-using:
+  - xmp
+  - lame
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - After the Fact.mp3"
@@ -62,13 +140,36 @@ After the Fact (MP3):
 Anagnoresis:
   type: Musical Composition
   genre: Sci-fi
+  inception-date: ca 1992
   authors:
   - Chris Pressey
+
+Anagnoresis (MED):
+  type: Implementation
+  implementation-of: Anagnoresis
+  host-language: MED
+  license: Freely Redistributable
+  commentary: |
+    After the Fact used MED's ability to transpose an instrument, which most module players don't support.
+    However, `xmp` does support this feature.
+
+Anagnoresis (MP3):
+  type: Implementation
+  implementation-of: Anagnoresis
+  host-language: MP3
+  converted-from: Anagnoresis (MED)
+  converted-using:
+  - modplug123
+  - lame
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Anagnoresis.mp3"
 
 
 Autumn Kiss:
   type: Musical Composition
   genre: Pop ballad
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
@@ -76,6 +177,7 @@ Autumn Kiss:
 Rainbird:
   type: Musical Composition
   genre: Pop ballad
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
@@ -83,6 +185,7 @@ Rainbird:
 Red Quarks:
   type: Musical Composition
   genre: Sci-fi
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
@@ -90,6 +193,7 @@ Red Quarks:
 Retrograde:
   type: Musical Composition
   genre: Sci-fi
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
@@ -97,17 +201,97 @@ Retrograde:
 You Drive Me Wild:
   type: Musical Composition
   genre: Pop
+  inception-date: ca 1992
   authors:
   - Chris Pressey
 
 
-# ------------------------------------
+Go(Figure):
+  # MED now lost, but re-done up on Cakewalk w/JV30
+  type: Musical Composition
+  genre: Jazz fusion
+  inception-date: ca 1992
+  authors:
+  - Chris Pressey
+
+Osborne Village:
+  type: Musical Composition
+  genre: Jazz fusion
+  inception-date: ca 1994
+  development-stage: lost
+  authors:
+  - Chris Pressey
+
+
+###### DMCS ######
+
+Theme to LOGS:
+  type: Musical Composition
+  genre: Theme music
+  inception-date: ca 1991
+  authors:
+  - Chris Pressey
+  commentary: |
+    LOGS stood for "Low Organized Games".  How, exactly, a game can
+    be "low organized", I'll probably never figure out.
+
+Coffee Break:
+  type: Musical Composition
+  genre: Jazz fusion
+  instrumentation:
+  - Jazz Band
+  inception-date: ca 1991
+  authors:
+  - Chris Pressey
+
+Birdwatching:
+  type: Musical Composition
+  genre: Jazz fusion
+  instrumentation:
+  - Jazz Combo
+  inception-date: ca 1991
+  authors:
+  - Chris Pressey
+
+Radiance:
+  type: Musical Composition
+  genre: Jazz fusion
+  instrumentation:
+  - Jazz Combo
+  inception-date: ca 1992
+  authors:
+  - Chris Pressey
+
+Foxcub:
+  type: Musical Composition
+  genre: Swing
+  instrumentation:
+  - Jazz Band
+  inception-date: ca 1991
+  authors:
+  - Chris Pressey
+
+
+# art music...
+
+Sardonyx:
+  type: Musical Composition
+  genre: Experimental music
+  format: Overture
+  instrumentation:
+  - Orchestra
+  authors:
+  - Chris Pressey
+  
+
+###### Cakewalk ######
 
 # Recorded from the JV-30 synthesizer itself:
 
 Ice Jam:
   type: Musical Composition
   genre: Alt rock
+  inception-date: ca 1996
   authors:
   - Chris Pressey
   commentary: |
@@ -117,6 +301,7 @@ Ice Jam:
 Jack and Jill:
   type: Musical Composition
   genre: Alt rock
+  inception-date: ca 1996
   authors:
   - Chris Pressey
 
@@ -124,6 +309,7 @@ Jack and Jill:
 A Moment in the Sun:
   type: Musical Composition
   genre: Reggae
+  inception-date: ca 1996
   authors:
   - Chris Pressey
 
@@ -131,6 +317,7 @@ A Moment in the Sun:
 Back to the Rain:
   type: Musical Composition
   genre: Jazz fusion
+  inception-date: ca 1996
   authors:
   - Chris Pressey
 
@@ -138,13 +325,7 @@ Back to the Rain:
 "Zoning Variance #5":
   type: Musical Composition
   genre: World beat
-  authors:
-  - Chris Pressey
-
-
-Go(Figure):
-  type: Musical Composition
-  genre: Jazz fusion
+  inception-date: ca 1996
   authors:
   - Chris Pressey
 
@@ -152,5 +333,86 @@ Go(Figure):
 Smedley the Medley:
   type: Musical Composition
   genre: Experimental music
+  inception-date: ca 1996
   authors:
   - Chris Pressey
+
+
+### not recorded. ###
+
+Reality:
+  type: Musical Composition
+  genre: Alt rock
+  format: Song
+  inception-date: ca 1996
+  authors:
+  - Chris Pressey
+
+
+Fool:
+  type: Musical Composition
+  genre: Ragtime
+  format: Song
+  inception-date: ca 1997
+  authors:
+  - Chris Pressey
+
+
+The Blank Dance:
+  type: Musical Composition
+  genre: Dance
+  inception-date: ca 1997
+  development-stage: unfinished
+  authors:
+  - Chris Pressey
+  commentary: |
+    The word "blank" in the title refers to the [[Esolang|esolang]] [[Blank]].
+
+
+# art music
+
+String Quartet:
+  type: Musical Composition
+  genre: Chamber music
+  format: String quartet, four movements
+  instrumentation:
+  - Violin
+  - Violin
+  - Viola
+  - Cello
+  authors:
+  - Chris Pressey
+
+Rest Assured:
+  type: Musical Composition
+  genre: Chamber music
+  format: Appasionata for String quartet
+  instrumentation:
+  - Violin
+  - Violin
+  - Viola
+  - Cello
+  authors:
+  - Chris Pressey
+
+Interlude for Harp:
+  type: Musical Composition
+  genre: Chamber music
+  format: Harp solo
+  instrumentation:
+  - Harp
+  authors:
+  - Chris Pressey
+
+
+# favourite composers:
+# Prokofiev
+# Beethoven
+# Satie
+# Mendelssohn
+# Stravinsky
+# ...kind of drops off here... I mean these guys are alright but...
+# Vivaldi
+# Chopin
+# Handel
+# Bach
