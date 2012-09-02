@@ -624,7 +624,9 @@ cfluviurrh:
 
 
 Didigm:
-  type: Programming Language Family
+  # technically a family, but Didigm also refers to the member Didigm(8),
+  # and the family is not that interesting.
+  type: Programming Language
   summary: A reflective cellular automaton
   genre: Esolang
   paradigms:
@@ -2930,6 +2932,7 @@ tc.catseye.yoob.wunnel:
 
 Xigxag:
   # hmm... well, no.  but for now, yes.
+  # technically a family, but the family is not that interesting.
   type: Programming Language
   genre: Esolang
   paradigms:

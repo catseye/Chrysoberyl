@@ -335,7 +335,7 @@ class Renderer(object):
             doc_node = data['Documentation Index']
             return doc_node['entries'].get(key, [])
         
-        def github(key=key):
+        def related_github(key=key):
             if 'github' in self.data[key]:
                 return self.data[key]['github']
             d = None
@@ -348,7 +348,7 @@ class Renderer(object):
             return data[d].get('github', None)
 
         def github_link(filename):
-            gh = github()
+            gh = related_github()
             if gh is None:
                 return None
             else:
@@ -377,7 +377,7 @@ class Renderer(object):
         context['filekey'] = filekey
         context['related'] = related
         context['documentation'] = documentation
-        context['github'] = github
+        context['related_github'] = related_github
         context['github_link'] = github_link
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs

@@ -168,8 +168,6 @@ Call out works in progress and ideas in some obvious way.
 Call out nodes abotu things that were not done by Cat's Eye Technologies
 in some obvious way.
 
-Handle variants and families in lingography.
-
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.

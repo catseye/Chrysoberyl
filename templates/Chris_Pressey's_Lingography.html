@@ -14,7 +14,8 @@
                             ] and
         'Chris Pressey' in data[thing].authors and
         data[thing].development_stage not in ['idea', 'work in progress'] and
-        not data[thing].variant_of %}
+        not data[thing].variant_of and
+        not data[thing].member_of %}
     <li>
       <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
       {% if data[thing].description_html %}
@@ -22,6 +23,16 @@
       {% endif %}
       {% if data[thing].commentary_html %}
         <p>{{ data[thing].commentary_html }}</p>
+      {% endif %}
+      {% if related('member_of', key=thing) %}
+        <p>Members of {{thing}}:</p>
+        <ul>
+          {% for member in related('member_of', key=thing) %}
+            <li>
+              <p><a href="{{ filekey(member) }}">{{ member }}</a></p>
+            </li>
+          {% endfor %}
+        </ul>
       {% endif %}
       {% if related('variant_of', key=thing) %}
         <p>Variants of {{thing}}:</p>
