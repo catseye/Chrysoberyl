@@ -62,8 +62,6 @@ Puzzle:
   type: Genre
 Roguelike:
   type: Genre
-Video Game:
-  type: Genre
 Maze-Runner:
   type: Genre
 "Shoot-'em-Up":
@@ -72,3 +70,21 @@ Platformer:
   type: Genre
 Sports:
   type: Genre
+
+Theme music:
+  type: Genre
+  commentary: |
+    Anything that was the theme to some [[Game|game]] or movie or just
+    *sounds* like it should be the theme to some game or movie.
+Pop ballad:
+  type: Genre
+Pop:
+  type: Genre
+  commentary: |
+    Usually closer to dance than to rock.
+Sci-fi:
+  type: Genre
+  commentary: |
+    I use the term "sci-fi" to refer to, not only fiction, a few of my
+    musical compositions which are too much like pop for me to call
+    them techno.

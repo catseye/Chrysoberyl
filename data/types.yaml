@@ -32,6 +32,8 @@ Ranking:
   type: type
 Collection:
   type: type
+Programming Language Family:
+  type: type
 # implementations:
 Implementation:
   type: type
@@ -82,6 +84,5 @@ Programming Language:
     languages is that it's very important to choose the right programming
     language for every software project. That's why you'll always choose
     [[C++]] no matter *what* the software project is.
-
-Programming Language Family:
+Musical Composition:
   type: type

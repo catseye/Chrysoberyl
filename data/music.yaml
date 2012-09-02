@@ -1,0 +1,65 @@
+# encoding: UTF-8
+
+MED:
+  type: Programming Language
+  genre: Production language
+  no-specification: true
+  authors: []
+  paradigms: []
+
+
+
+
+After the Fact:
+  type: Musical Composition
+  genre: Theme music
+  authors:
+  - Chris Pressey
+
+After the Fact (MED):
+  type: Implementation
+  implementation-of: After the Fact
+  host-language: MED
+  license: Freely Redistributable
+
+
+Anagnoresis:
+  type: Musical Composition
+  genre: Sci-fi
+  authors:
+  - Chris Pressey
+
+
+Autumn Kiss:
+  type: Musical Composition
+  genre: Pop ballad
+  authors:
+  - Chris Pressey
+
+
+Rainbird:
+  type: Musical Composition
+  genre: Pop ballad
+  authors:
+  - Chris Pressey
+
+
+Red Quarks:
+  type: Musical Composition
+  genre: Sci-fi
+  authors:
+  - Chris Pressey
+
+
+Retrograde:
+  type: Musical Composition
+  genre: Sci-fi
+  authors:
+  - Chris Pressey
+
+
+You Drive Me Wild:
+  type: Musical Composition
+  genre: Pop
+  authors:
+  - Chris Pressey
