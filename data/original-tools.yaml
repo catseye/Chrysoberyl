@@ -68,7 +68,7 @@ crone:
     not periodically activate and run whatever tasks are due to run; instead
     it calculates the amount of time between now and when the next is due
     to run, and sleeps exactly that long.
-  inception-date: Unknown
+  inception-date: Mar 1 2004
 
 crone.erl:
   type: Implementation
@@ -197,7 +197,7 @@ mzstorkipiwanbotbotbot:
   - Cat's Eye Technologies
   description: |
     An IRC bot with no purpose or plan.
-  inception-date: Unknown
+  inception-date: 2010
 
 mzstorkipiwanbotbotbot (Lua):
   type: Implementation

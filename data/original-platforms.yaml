@@ -21,7 +21,7 @@ BefOS:
   - Cat's Eye Technologies
   influences:
   - Befunge-93
-  inception-date: Unknown
+  inception-date: ca 1999
   dimensionality: 2
   reference-distribution: BefOS distribution
   esowiki: BefOS
@@ -72,7 +72,7 @@ yoob:
   - Cat's Eye Technologies
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
-  inception-date: Unknown
+  inception-date: Mar 15 2011
   reference-distribution: yoob distribution
   esowiki: yoob
 

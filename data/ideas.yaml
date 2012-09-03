@@ -13,7 +13,6 @@ AINSNIA:
   - Functional
   no-specification: true
   summary: fundamentally based on sets
-  inception-date: Unknown
   description: |
     When I first heard of [[SETL]], the "SET Language",
     I was intrigued, but when I looked into it, I found it just wasn't

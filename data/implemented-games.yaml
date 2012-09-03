@@ -25,7 +25,7 @@ animals.erl:
   auspices:
   - Cat's Eye Technologies
   license: BSD license
-  inception-date: ca 1999?
+  inception-date: ca 1999
   host-language: Erlang
   interface: terminal
 
@@ -65,7 +65,7 @@ flip.erl:
   auspices:
   - Cat's Eye Technologies
   license: BSD license
-  inception-date: ca 1999?
+  inception-date: Jul 31 2002
   host-language: Erlang
   interface: terminal
 
@@ -102,7 +102,7 @@ wumpus.erl:
   auspices:
   - Cat's Eye Technologies
   license: BSD license
-  inception-date: ca 1999?
+  inception-date: Jun 30 2002
   host-language: Erlang
 
 Hunt the Wumpus distribution: 
@@ -135,7 +135,7 @@ esoko:
   auspices:
   - Cat's Eye Technologies
   license: BSD license
-  inception-date: ca 1999?
+  inception-date: Nov 4 2002
   host-language: Erlang
   run-requirements:
   - Tcl/Tk

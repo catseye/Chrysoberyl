@@ -129,9 +129,7 @@ TODO
 
 ### structure ###
 
-Date parsing and sorting by it and stuff.
-
-### templates ###
+Sort by dates.
 
 Display implementations in lingography.
 
@@ -183,8 +181,6 @@ Add implementations of languages you might need (perl for Perl, gcc for C, ...)
 Objective descriptions on all my languages.
 
 ### perhaps ###
-
-Generalize "Family" to be families of anything, perhaps.
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
 

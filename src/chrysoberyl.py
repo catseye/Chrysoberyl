@@ -23,6 +23,49 @@ except ImportError:
     from yaml import Loader, Dumper
 
 
+MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
+          'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+
+class ApproximateDate(object):
+    def __init__(self, s):
+        self.approximate = False
+        self.month = None
+        self.day = None
+        self.year = None
+        match = re.match(r'^\s*ca\s*(.*?)$', s)
+        if match:
+            self.approximate = True
+            s = match.group(1)
+
+        match = re.match(r'^(.*?)\s*(\d\d\d\d)\s*$', s)
+        if match:
+            self.year = int(match.group(2))
+            s = match.group(1)
+
+        mo = 0
+        for month in MONTHS:
+            if s.startswith(month):
+                self.month = mo
+                s = s[3:]
+                break
+
+        match = re.match(r'^\s*(\d+)', s)
+        if match:
+            self.day = int(match.group(1))
+
+    def __str__(self):
+        s = ""
+        if self.approximate:
+            s = "ca "
+        if self.month is not None:
+            s += MONTHS[self.month] + ' '
+            if self.day is not None:
+                s += '%s, ' % self.day
+        assert self.year is not None
+        s += '%s' % self.year
+        return s
+
+
 def load_chrysoberyl_dir(dirname):
     data = {}
 
@@ -117,6 +160,14 @@ def check_chrysoberyl_data(data):
           "'%s' has bad type '%s'" % (key, type_)
 
       # Every node may have some of these.
+      try:
+          if 'inception-date' in node:
+              assert node['inception-date'] != 'Unknown'
+              node['inception-date'] = ApproximateDate(str(node['inception-date']))
+              print node['inception-date']
+      except Exception as e:
+          print "'%s' has bad date '%s'" % (key, node['inception-date'])
+          raise
       check_optional_scalar_ref(data, key, node, 'domain')
       check_optional_list_ref(data, key, node, 'see-also')
       check_optional_scalar_ref(data, key, node, 'genre')
