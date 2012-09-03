@@ -7,6 +7,11 @@
   <p>{{ link(member_of) }}</p>
 {% endif %}
 
+{% if variant_of %}
+  <h2>Variant of</h2>
+  <p>{{ link(variant_of) }}</p>
+{% endif %}
+
 <h2>Programming Paradigms</h2>
 
 <ul>
@@ -36,7 +41,7 @@
 {% if related('host-language') %}
   <h2>Implementations in {{ key }}</h2>
   <ul>
-    {% for impl in related('host-language') %}
+    {% for impl in related('host-language')|sort %}
       <li>
         {{ link(impl) }}
       </li>
@@ -47,9 +52,20 @@
 {% if related('target-language') %}
   <h2>Compilers targeting {{ key }}</h2>
   <ul>
-    {% for impl in related('target-language') %}
+    {% for impl in related('target-language')|sort %}
       <li>
         {{ link(impl) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if related('variant-of') %}
+  <h2>Variants</h2>
+  <ul>
+    {% for language in related('variant-of')|sort %}
+      <li>
+        {{ link(language) }}
       </li>
     {% endfor %}
   </ul>

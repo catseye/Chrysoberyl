@@ -180,8 +180,6 @@ Article and Mathematical Construct types.
 
 ### templates ###
 
-List variants of programming languages, and what a PL is a variant of.
-
 Display implementations in lingography.
 
 Display online implementation in lingography.  And elsewhere.
@@ -235,6 +233,9 @@ Borland C++ as a language (it did have its own libraries.)
 shown Turing-complete => Turing-complete, and link to it in places
 
 ### perhaps ###
+
+Minimize the size of the dumped JSON: do not include `_html` fields,
+do not include articles, etc.
 
 `quotations` on anything?
 
