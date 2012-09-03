@@ -371,8 +371,9 @@ class Renderer(object):
 
         def breadcrumbs(key=key):
             # ("This function's more like spaghetti than breadcrumbs,"
-            # quips Release Notes Girl...)
-            TOP = "Cat's Eye Technologies"
+            # quips Release Notes Girl.  Captain Compiler responds:
+            # "Does that mean we're going to make it open-sauce?  HA, HA")
+            TOP = "Chrysoberyl"
             if data[key]['type'] == 'type':
                 bc = ["Known %ss" % key]
             else:

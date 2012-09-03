@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block breadcrumbs %}
+<p>&nbsp;</p>
+{% endblock breadcrumbs %}
+
+{% block showtype %}{% endblock showtype %}
+
+{% block description %}
+  {% if description %}
+    <p>{{ description_html }}</p>
+  {% endif %}
+{% endblock description %}
+
+{% block content %}
+
+<h2>Index of Categories</h2>
+<ul>
+{% for thing in data.keys()|sort %}
+  {% if data[thing].type == 'type'  %}
+    <li>
+      {{ link(thing) }}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}

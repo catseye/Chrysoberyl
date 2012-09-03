@@ -18,7 +18,9 @@
     </p>
   </div>
 
+  {% block breadcrumbs %}
   <p id="breadcrumbs">{{ breadcrumbs()|join(' » ') }}</p>
+  {% endblock breadcrumbs %}
 
   {% block heading %}
     <h1>{{ key }}</h1>

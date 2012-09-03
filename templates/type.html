@@ -24,8 +24,6 @@
 
 {% block content %}
 
-<h2>All nodes of type "{{ key }}"</h2>
-
 <ul>
 {% for thing in data.keys()|sort %}
   {% if data[thing].type == key %}
