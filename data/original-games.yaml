@@ -38,6 +38,9 @@ Bubble Escape 2K:
   online-implementations:
   - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
   controls: joystick
+  submitted-to:
+  - competition: Mini Game Compo 2009
+    prize: 1st place in 2K category
 
 Bubble Escape 8K:
   type: Implementation

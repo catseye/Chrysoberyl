@@ -214,6 +214,14 @@ The Real Frank Zappa Book:
     quite nicely how I think of [[Esolang|esolangs]].  The rest of the book is
     pretty interesting too, though.
 
-# The Devil's Dictionary, Ambrose Bierce
+The Devil's Dictionary:
+  type: Book
+  genre: Dictionary
+  copies-owned: 0
+  authors:
+  - Ambrose Bierce
+  links:
+  - http://www.thedevilsdictionary.com/
+
 # The Art of Computer Programming, Vol. 1, Donald Knuth
 # The Mathematical Theory of Communication, Claude Shannon and Warren Weaver

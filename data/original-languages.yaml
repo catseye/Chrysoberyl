@@ -2,31 +2,20 @@
 ALPACA:
   type: Programming Language
   genre: Esolang
-  acronym-for: A Language for Programming Arbitrary Cellular Automata
+  acronym-for: A Language for the Pithy Articulation of Cellular Automata
   paradigms:
   - Metalanguage
   - Object-oriented
   generally-compiled: true
   description: |
     ALPACA is a meta-language for describing cellular automata.
-  as-a-prerequisite: |
-    Some of the files in this project are descriptions of cellular automata,
-    written in the ALPACA meta-language, version 0.97 or later. Using them
-    to direct (in some automatic fashion) the evolution of a cellular
-    automaton will require some tool which implements the ALPACA language.
-    
-    We're not aware of any implementations of ALPACA besides
-    [[Cat's Eye Technologies]] own ALPACA-to-Perl compiler written in [[Perl]],
-    which we've linked to here (which will serve as a reference
-    implementation, until such time as we get around to writing a
-    specification for ALPACA).
   commentary: |
-    The acronym is not quite accurate, as the automata are not in fact arbitrary, but it's
-    a nice acronym.
+    The acronym used to be "A Language for Programming Arbitrary Cellular Automata".
+    This was not quite accurate, as the automata are not in fact arbitrary, so I changed
+    it.
     
     ALPACA is one of the few of my languages in which I've actually implemented
-    other languages (or, well, cellular automata — close enough).  These are, namely,
-    [[REDGREEN]], [[Braktif]], [[Circute]], and [[Jaccia]] and [[Jacciata]].
+    other languages (or, well, cellular automata — close enough).
   esowiki: ALPACA
   authors:
   - Chris Pressey
@@ -60,13 +49,11 @@ Apple Befunge:
   - Stack-based
   - 2-dimensional
   - Self-modifying
+  development-stage: archival
   description: |-
-    Apple Befunge is a variant of Befunge for the Apple ][+, implemented
-    in Applesoft BASIC.
-    Resembles Befunge-93, with some extra 96-esque instructions, and some
-    Apple-specific instructions.  Active development of this language
-    was abandoned years ago, but the sources are retained here for historical
-    preservation.
+    Apple Befunge is a variant of Befunge for the Apple ][+ which
+    Befunge-93, with some extra Befunge-96-esque instructions and some
+    Apple ][+-specific instructions.
   inception-date: Jul 3, 2000
   authors:
   - Chris Pressey
@@ -77,6 +64,7 @@ APPLE BEFUNGE EDITOR:
   type: Implementation
   implementation-of: Apple Befunge
   reference: true
+  development-stage: archival
   in-distribution: Apple Befunge distribution
   license: Public Domain
   # also: editor
@@ -179,9 +167,11 @@ Befunge-93:
   - 2-dimensional
   - Self-modifying
   description: |
-    One of the more popular languages I ever designed and implemented.
-    Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
-    many others.  Cited in the New Hacker's Dictionary.
+    Befunge-93 is an esoteric programming language where the program exists
+    in a two-dimensional grid of cells, where each cell contains a single
+    instruction, and execution can proceed in any cardinal direction across this
+    grid -- not just left-to-right, but also right-to-left, top-to-bottom, and
+    bottom-to-top.
   # also: known not Turing-complete
   computational-class: can simulate some push-down automata
   esowiki: Befunge-93
@@ -207,6 +197,10 @@ Befunge-93:
   see-also:
   - Funge-98
   - Flobnar
+  commentary: |
+    One of the more popular languages I ever designed and implemented.
+    Eventually begat [[Befunge-97]], [[Funge-98]], and [[Wierd]], and doubtless influenced
+    many others.  Cited in the New Hacker's Dictionary.
 
 bef:
   type: Implementation
@@ -241,10 +235,10 @@ Befunge-97:
   - 2-dimensional
   - Self-modifying
   description: |
-    An unimplemented attempt to improve upon Befunge-93, described
-    (fairly accurately) as "brain-damaged."  This was primarily due to the
-    fact that separate processes were specified as sharing a single stack.
-    Quickly gave way to [[Funge-98]].
+    Befunge-97 was an unimplemented attempt to design a successor to [[Befunge-93]].
+    The design, however, was not successful -- it has been described as
+    "brain-damaged" -- primarily due to the fact that separate processes were specified
+    as sharing a single stack.
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -258,6 +252,7 @@ Befunge-97:
   no-specification: true
 
 
+# XXX give Portia it's own node?
 beta-Juliet:
   type: Programming Language
   genre: Esolang
@@ -310,7 +305,7 @@ Beturing:
   - Imperative
   - State machine
   description: |
-    Beturing is a "Befunge-flavoured" language for describing Turing
+    Beturing is a "[[Befunge-93|Befunge]]-flavoured" language for describing Turing
     machines; both the tape and the finite control are laid out two-dimensionally.
     In addition, the finite control must be expressed as a planar graph (no
     edge representing a transition may cross any other edge.) It was devised
@@ -327,6 +322,8 @@ Beturing:
   dimensionality: 2
   etymology:
   - portmanteau
+  influences:
+  - Befunge-93
   sample: |
     # D(40, 4)
     # @(40, 4)
@@ -360,11 +357,12 @@ Bhuna:
   paradigms:
   - Imperative
   - Functional
+  development-stage: archival
   description: |
     Bhuna is a small, garbage-collected language with a simple syntax,
-    closures, inferred types, lightweight processes, and support for UTF-8 source
+    [[Closure|closures]], inferred types, lightweight processes, and support for UTF-8 source
     code.  It was implemented partly to see how closely I could match the performance
-    of Lua's interpreter.  It was meant more more as an experimental starting
+    of [[Lua]]'s interpreter.  It was meant more more as an experimental starting
     point for branching new languages, than as a useful language in and of itself.
   computational-class: believed Turing-complete
   authors:
@@ -386,6 +384,7 @@ Bhuna:
 
 bhuna:
   type: Implementation
+  development-stage: archival
   implementation-of: Bhuna
   in-distribution: Bhuna distribution
   reference: true
@@ -732,7 +731,7 @@ Eightebed:
   description: |
     Eightebed is a small language with explicit `malloc` and `free`.
     Through a modicum of static analysis
-    and runtime support, Eightebed is safe: it is not possible to dereference a dangling
+    and runtime support, Eightebed is "safe": it is not possible to dereference a dangling
     pointer or otherwise incorrectly-populated memory.
     
     Eightebed was designed as a counter-example to [[Gregor Richards]]' claim that such
@@ -880,8 +879,9 @@ ETHEL:
   auspices:
   - Star Building Materials
   description: |
-    A language specifically for expressing quantity surveying (materials
-    estimating) formula and procedures, designed for Star Building Materials.
+    ETHEL was a programming language specifically for expressing
+    quantity surveying (materials estimating) formula and procedures,
+    designed for Star Building Materials.
   computational-class: believed Turing-complete
   inception-date: 1998
   etymology:
@@ -988,8 +988,15 @@ Funge-98:
   - Stack-based
   - Self-modifying
   description: |
-    Culmination of attempts to improve upon Befunge.  Seemingly everything
-    except the kitchen sink was stuffed into it somehow.
+    Funge-98 is a family of programming languages designed as the successor
+    to [[Befunge-93]].  It generalizes Befunge-93's two-dimensional nature
+    somewhat, defining languages in one dimension ([[Unefunge-98]]),
+    two dimensions ([[Befunge-98]]), and three dimensions ([[Trefunge-98]]),
+    and suggests possibilities for other dimensions and topologies (but does
+    not specify exactly how they look or would behave.)
+    It also makes the playfield unbounded, allowing the language to be
+    Turing-complete, and tries to define mechanisms for interacting with the
+    operating system and engaging extensions to the language.
   quotation: |-
     Taking programming in new directions... all four of them
   quotation-attribution: |-
@@ -997,7 +1004,8 @@ Funge-98:
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
-  inception-date: 1998
+  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  inception-date: Sep 11, 1998
   computational-class: shown Turing-complete
   influences:
   - Befunge-93
@@ -1012,6 +1020,20 @@ Funge-98:
         G
         '
 
+Unefunge-98:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  - Self-modifying
+  member-of: Funge-98
+  description: |
+    Unefunge-98 is the one-dimensional member of the [[Funge-98]] language family.
+  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  authors:
+  - Chris Pressey
+  - Befunge Mailing List Working Group
+
 Befunge-98:
   type: Programming Language
   genre: Esolang
@@ -1020,8 +1042,24 @@ Befunge-98:
   - 2-dimensional
   - Self-modifying
   member-of: Funge-98
-  # arrrgh
-  specification-link: see Funge-98
+  description: |
+    Befunge-98 is the two-dimensional member of the [[Funge-98]] language family.
+  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  authors:
+  - Chris Pressey
+  - Befunge Mailing List Working Group
+
+Trefunge-98:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  - 3-dimensional
+  - Self-modifying
+  member-of: Funge-98
+  description: |
+    Trefunge-98 is the three-dimensional member of the [[Funge-98]] language family.
+  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -1050,9 +1088,8 @@ Gemooy:
   description: |
     Gemooy is really just a two-dimensional bagatelle of sorts; it
     combines features from [[2-ill]] and [[Etcha]], and adds self-modification.
-    It came about when I noticed the tape-related semantics of 2-ill were essentially
-    the same as those of [[BitChanger]].  (Information on this language is
-    only available on the esowiki for now.)
+    It came about when the author noticed the tape-related semantics of 2-ill were
+    essentially the same as those of [[BitChanger]].
   inception-date: Dec 2, 2010
   authors:
   - Chris Pressey
@@ -1107,15 +1144,16 @@ GraNoLa/M:
   acronym-for: GRAph-NOde LAnguage (possibly for Machines)
   description: |
     GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) 
-    It was one of my submissions for the Esoteric Awards. Not unlike Tamerlane,
+    It was one of my submissions for the Esoteric Awards. Not unlike [[Tamerlane]],
     its execution model involves both traversing and rewriting a graph at the
     same time.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  entered-in:
-  - Esoteric Awards
+  submitted-to:
+  - competition: Esoteric Awards
+    prize: false
   esowiki: GraNoLa/M
   inception-date: Jul 2002
   etymology:
@@ -1193,8 +1231,9 @@ Hunter:
   - Cat's Eye Technologies
   inception-date: ca Sep 20, 2000
   esowiki: Hunter
-  entered-in:
-  - Esoteric Awards
+  submitted-to:
+  - competition: Esoteric Awards
+    prize: false
   etymology:
   - masculine given name
   dimensionality: 2
@@ -1228,13 +1267,13 @@ ILLGOL:
   - Imperative
   generally-compiled: true
   description: |
-    A joke language which parodies the sort of language designed by the
+    ILLGOL is a joke language which parodies the sort of language designed by the
     sheer fact that a compiler for it has been hacked together.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  inception-date: ca Jun 2000
+  inception-date: ca Apr 2000
   etymology:
   - parody
   sample: |
@@ -1247,9 +1286,8 @@ ILLGOL:
     60 do f(3);
     FIN
   reference-distribution: 'Illgol: Grand Mal'
-  #other-distributions: ILLGOL distribution
 
-ILLGOL.COM:
+illgol.exe:
   type: Implementation
   implementation-of: ILLGOL
   in-distribution: 'Illgol: Grand Mal'
@@ -1259,6 +1297,8 @@ ILLGOL.COM:
   target-language: 80286 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
+  prebuilt-for-platforms:
+  - MS-DOS
 
 Illgola-2:
   type: Programming Language
@@ -1267,21 +1307,24 @@ Illgola-2:
   - Imperative
   generally-compiled: true
   description: |
-    A joke language which parodies the sort of language designed by the
-    sheer fact that a compiler for it has been hacked together.
+    Illgola-2 is the successor to [[ILLGOL]].  It, too, parodies the sort of
+    language that exists solely because there's some program that's been
+    written that takes a file in sort of that format as input and spits out
+    vaguely related code as output.
+    
+    Illgola-2 introduces a preprocessor `i2pp.pl`, and Release Notes Girl,
+    to ILLGOL.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   variant-of: ILLGOL
-  inception-date: ca Jun 2000
+  inception-date: ca Apr 2000
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
-  #other-distributions: Illgola-2 distribution
 
-# name is wrong, oh well.
-ILLGOLA-2.COM:
+illgola2.exe:
   type: Implementation
   implementation-of: Illgola-2
   in-distribution: 'Illgol: Grand Mal'
@@ -1293,6 +1336,8 @@ ILLGOLA-2.COM:
   can-be-built-with-borland-c: true
   run-requirements:
   - Perl
+  prebuilt-for-platforms:
+  - MS-DOS
 
 Illberon:
   type: Programming Language
@@ -1301,32 +1346,31 @@ Illberon:
   - Imperative
   generally-compiled: true
   description: |
-    A joke language which parodies the sort of language designed by the
-    sheer fact that a compiler for it has been hacked together.
+    Illberon is another language in the [[ILLGOL]] series of parodies;
+    in this case, the successor to [[Illgola-2]].  It consists solely of a
+    preprocessor, `i3pp.pl`, and release notes in the form of a comic
+    strip starring Release Notes Girl and Captain Compiler.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   variant-of: ILLGOL
-  inception-date: ca Jun 2000
+  inception-date: May 2000
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
-  #other-distributions: Illberon distribution
 
-# name is wrong, oh well.
-ILLBERON.COM:
+# uhhhhhhh...
+i3pp.pl:
   type: Implementation
   implementation-of: Illberon
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
+  # preprocessor...
   implementation-type: compiler
-  host-language: ANSI C
-  target-language: 80286 machine code
-  target-platform: MS-DOS
-  can-be-built-with-borland-c: true
-  run-requirements:
-  - Perl
+  host-language: Perl
+  # not accurate.  but in the scheme of things, who cares.
+  target-language: Illgola-2
 
 Open Sores Illgol##:
   type: Programming Language
@@ -1346,10 +1390,8 @@ Open Sores Illgol##:
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
-  #other-distributions: Open Sores Illgol## distribution
 
-# name is wrong, oh well.
-ILLGOL##.COM:
+Open Sores Illgol## (C):
   type: Implementation
   implementation-of: Open Sores Illgol##
   in-distribution: 'Illgol: Grand Mal'
@@ -1526,7 +1568,7 @@ Kangaroo Iceberg:
   paradigms:
   - Graph-rewriting
   description: |
-    Kangaroo Iceberg was a short-lived attempt to pare down Tamerlane
+    Kangaroo Iceberg was a short-lived attempt to pare down [[Tamerlane]]
     to something implementable, and implement it.  Although it got a fair ways
     along (e.g. the parser for graphs seems to be complete, I lost interest
     in it at the time, and put off finishing it indefinitely.
@@ -1596,7 +1638,7 @@ Larabee:
   - Imperative
   - Assembly
   description: |
-    Larabee is an assembly-like programming language, with Scheme-like
+    Larabee is an assembly-like programming language, with [[Scheme]]-like
     syntax, that borrows the notion of branch prediction from computer architecture
     and abuses it, creating a path that leads only to existential angst and self-destruction.
   authors:
@@ -1682,8 +1724,8 @@ Maentwrog:
   esowiki: Maentwrog
   summary: A simple RPN-calculator-based language
   description: |
-    Maentwrog is an RPN-calculator-turned-FORTH-interpreter, which
-    probably counts as Chris Pressey's first proper programming language.
+    Maentwrog is an RPN-calculator-turned-FORTH-interpreter which
+    probably counts as [[Chris Pressey]]'s first *proper* programming language.
     It was implemented on his Amiga 500 in 1993, then lost and unearthed
     multiple times.  It is hardly remarkable, save that it spawned [[Befunge-93]].
   commentary: |
@@ -1733,7 +1775,7 @@ Mascarpone:
   - Reflective
   description: |
     Mascarpone is a self-modifying language able to alter the meta-circular
-    interpreter which defines it, like its predecessor Emmental.  Unlike Emmental
+    interpreter which defines it, like its predecessor [[Emmental]].  Unlike Emmental
     however, in Mascarpone interpreters are first-class objects, making the
     job of reflective interpreter-modification quite a bit cleaner and richer.
   authors:
@@ -1804,8 +1846,9 @@ MDPN:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  entered-in:
-  - Esoteric Awards 2000
+  submitted-to:
+  - competition: Esoteric Awards
+    prize: false
   esowiki: "'N-DCNC"
   inception-date: Oct 2000
   sample: |
@@ -2187,7 +2230,7 @@ RUBE:
   - Bully automaton
   - 2-dimensional
   description: |
-    RUBE is an esoteric programming language in tribute to Rube Goldberg,
+    RUBE is an esoteric programming language in tribute to [[Rube Goldberg]],
     with bulldozers pushing around numbered crates, knocking them together to
     perform computations.  It is based on a variant of a cellular automaton called
     a *bully automaton*, where certain state changes canforce other state changes
@@ -2242,7 +2285,7 @@ Sally:
   auspices:
   - Cat's Eye Technologies
   tagline: |-
-    upside-down FORTH
+    upside-down FORTH cake
   inception-date: 2000
   etymology:
   - feminine given name
@@ -2307,7 +2350,7 @@ Shelta:
     any semantics; it relies on inline machine code to be considered anywhere
     near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]
     and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from
-    Ben Olmstead) in less than 512 bytes of 80286 machine code. What's more,
+    Ben Olmstead) in less than 512 bytes of [[80286 machine code]]. What's more,
     it's also been bootstrapped — that is to say, a Shelta compiler was
     written in Shelta, which was compiled with the original compiler, and then
     compiled again with the resulting compiler, producing a wholly self-hosted
@@ -2698,7 +2741,7 @@ Velo:
   paradigms:
   - Object-oriented
   description: |
-    Velo is a vaguely Ruby-inspired "scripting" language which unifies
+    Velo is a vaguely [[Ruby]]-inspired "scripting" language which unifies
     strings with code blocks, and scripts with object classes.  Curly braces
     delimit string literals, and there is no difference between a string literal
     and a block of code given to, say, an `if` statement.  Any given script is
@@ -2731,14 +2774,13 @@ Version:
   genre: Esolang
   paradigms:
   - Imperative
+  - Regular-expression-based
   description: |
     Version is an imperative programming language that uses _ignorance-spaces_
     for flow control; all  instructions which match the current ignorance pattern
     are ignored during execution.
   inception-date: Sep 2001
   esowiki: Version
-  paradigms:
-  - Regular-expression-based
   sample: |
     START: ROOM = "VALLEY|BROOK|GLADE"
     CONT: IGNORE = ROOM
@@ -2828,9 +2870,9 @@ Wierd:
   - Stack-based
   - 2-dimensional
   description: |
-    Wierd is a language, inspired somewhat by Befunge-93, where instructions
-    are not determined by the symbols in a sequence of symbols, but by the *bends*
-    in a sequence of symbols.
+    Wierd is a language, inspired somewhat by [[Befunge-93]] and [[brainfuck]],
+    where instructions are not determined by the symbols in a sequence of symbols,
+    but by the *bends* in a sequence of symbols.
   authors:
   - Chris Pressey
   - John Colagioia
@@ -2895,8 +2937,7 @@ Wunnel:
     is both a play on the pronunciation of "1L", and a recursive portmanteau
     of the words _Wunnel_ and _tunnel_ which is used to describe the long sequences
     of identical instructions (often nops) used in Wunnel programs to sync up
-    remote parts of the program.  (Information on this language is only available
-    on the esowiki for now.)
+    remote parts of the program.
   authors:
   - Chris Pressey
   auspices:
@@ -3047,6 +3088,12 @@ You are Reading the Name of this Esolang:
   - Spoon
   sample: |
     001000000[0010000000111001000011]11100100001[0]
+  commentary: |
+    The description makes it sound a bit more mind-blowing than it actually is.
+    In fact [[C++]] has essentially the same property: it's template system is
+    Turing-complete.  In practice, this means you can hang the compiler with
+    templates that expand unboundedly (and the compiler has no means by
+    which to detect all possible compiler-hanging-templates.)
 
 
 Ypsilax:

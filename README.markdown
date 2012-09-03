@@ -170,24 +170,11 @@ a compiler in some dists but not in others (JRE and JDK.)
 "An implementation of Java that can build" = JDK.
 
 Account for the fact that some implementations can be
-compiled or interpreted under two language (ANSI C and C99; or
-in a more involved way, polyglots.)  `host-languages`?
+compiled or interpreted under two language (ANSI C and C99
+and Borland C++; or in a more involved way, polyglots.)
+`host-languages`?  yeep.
 
-When it does not need building (dist has executables), still, tell
-how you would build it if you want to.
-
-Call out works in progress and ideas in some more obvious way.
-
-When listing things, list ones by Cat's Eye Technologies first, and
-put a heading or something.
-
-Use HTML5 (header, content, footer) instead of divs.
-
-Terminology on music pages:
--   "implementation" -> "rendition"
--   "is written in MP3" -> "as an MP3 file"
--   "To run this implementation" -> "To listen to this rendition"
--   "an implementation of MP3" -> "an MP3 player"
+Competitions and competition results.
 
 ### templates ###
 
@@ -207,11 +194,51 @@ Collection: Tools by Chris Pressey.  (include libraries too though)
 
 Collection: Works in Progress by Chris Pressey.
 
+For "Implementations in (this implementable)", change it to
+"Works written in (this implementable)", and also list the
+thing each implementation implements.
+
+When it does not need building (dist has executables), still, tell
+how you would build it if you want to.
+
+Call out works in progress and ideas in some more obvious way.
+
+When listing things, list ones by Cat's Eye Technologies first, and
+put a heading or something.
+
+Use HTML5 (header, content, footer) instead of divs.
+
+Terminology on music pages:
+-   "implementation" -> "rendition"
+-   "is written in MP3" -> "as an MP3 file"
+-   "To run this implementation" -> "To listen to this rendition"
+-   "an implementation of MP3" -> "an MP3 player"
+
+Show influences on implementables.
+
+Cited in Jargon File --> like esowiki and wikipedia.
+
+`specification-link: esowiki` -- resolve it.
+
+Render competitions and competition results.
+
 ### content ###
 
-Objective descriptions on all my languages.
+Borland C++ as a language (it did have its own libraries.)
+
+shown Turing-complete => Turing-complete, and link to it in places
 
 ### perhaps ###
+
+`quotations` on anything?
+
+`design-goals` on implementables?
+
+If a distribution is a 'X distribution', compute `distribution-of`.
+
+If an implementation is the reference implementation, and the
+language it's an implementation of has a reference distribution,
+assume it's in there, and compute `in-distribution`.
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
 

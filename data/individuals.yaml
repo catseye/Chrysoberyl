@@ -265,3 +265,17 @@ Tan Summers:
   type: Individual
 Jeff Minter:
   type: Individual
+
+Rube Goldberg:
+  type: Individual
+  wikipedia: Rube Goldberg
+  see-also:
+  - W. Heath Robinson
+W. Heath Robinson:
+  type: Individual
+  wikipedia: W. Heath Robinson
+  see-also:
+  - Rube Goldberg
+Ambrose Bierce:
+  type: Individual
+  wikipedia: Ambrose Bierce
