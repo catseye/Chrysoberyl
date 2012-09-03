@@ -1,0 +1,113 @@
+# encoding: UTF-8
+Save Alan from the Tar Pit:
+  type: Game
+  genre: Puzzle
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1999
+  platform: PC
+  controls: keyboard
+  development-stage: abandoned
+  description: |
+    Alan is suspended above a tar pit by a rope attached to a machine.
+    Your goal is to program the machine to lift him, rather than lower him
+    (which it does slowly, automatically.)  At each level, there is a new
+    program (which is a string of mystifying symbols), and a new goal.
+    The objective is to run the program and leave the state of the machine
+    at the goal.  What you can affect to make this happen is to swap the
+    semantics of any two symbols.
+  commentary: |
+    I originally started writing this in [[Borland C++]] for [[MS-DOS]]
+    but gave up rather quickly.  It would be interesting to undertake
+    again, perhaps in [[Java]] or PyGame or something, but I doubt I
+    will ever find the time.
+
+Nukeball:
+  type: Game
+  genre: Puzzle
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1989
+  platform: Commodore 64
+  controls: joystick plus one button
+  development-stage: work in progress
+  description: |
+    The year is 8088 and the exciting sport of NUKEBALL has replaced all other
+    forms of entertainment†.  In it, players have their consciousnesses projected
+    into sub-sub-atomic particles, and must co-operate to escape fiendish
+    mazes constructed deep within the bowels of an atomic nucleus.
+    
+    While each of the kinds of sub-sub-atomic particle -- the 'patabaryon,
+    'patalepton, and 'patatachyons -- can gain or lose energy (and requires a
+    certain amount of energy to pass particular barriers), each also has their
+    own unique capabilities and weaknesses.
+    
+    Perhaps the idea was not quite this developed when I first started trying to
+    implement it on my [[Commodore 64]] in the late 80's, but it was substantially
+    similar.  Implementation never got very far, but it had
+    [[Theme to Nukeball|a cool theme song]].
+    
+    †with apologies to whoever wrote that "Atomic Breakout" game on that one
+    club disk.  The general premise of a subatomic activity replacing all other forms
+    of entertainment is too good to *not* steal.  (I'll give you proper credit when/if
+    I ever find your game again.)
+
+Skyblade:
+  type: Game
+  genre: Shoot'-em-Up
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1990
+  platform: Commodore 64
+  controls: joystick plus one button
+  development-stage: work in progress
+  description: |
+    The prince has been kidnapped by the minions of the evil
+    something-or-other of the North Wind, and his sister is the
+    only one who can save him.  Her father, the king, bequeaths to her the
+    Skyblade for this purpose; she must master its abilities to defeat the evil
+    forces and rescue her brother.
+    
+    The main ability of the Skyblade is that you *fly* on it, through the air,
+    as if it were a surfboard.  The other abilities include being able to
+    slice gargoyles and other nasties apart with it (of course, in mid-air, this
+    takes some skill,) and, when straits are dire enough, to call lightning!
+    
+    Parallax scrolling in scenery, with water, trees, and mountains
+    moving at different rates.
+    
+    We hope to come out with a playable demo of this game sometime in 2012.
+
+
+Beseige:
+  type: Game
+  # not exactly.  also puzzle.
+  genre: Shoot'-em-Up
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1999
+  platform: PC
+  controls: keyboard
+  development-stage: work in progress
+  description: |
+    An action/puzzle game containing elements of [[Befunge-93]],
+    Paradroid, and Metal Gear.
+    
+    Not really graphical; used a character-based display with OEM graphics
+    characters.
+    
+    Partially implemented in [[Borland C++]] for [[MS-DOS]], and then
+    I decided to want to do it in assembly -- first Turbo Assembler, then at
+    some later point, a half-hearted conversion of the game engine to
+    [[NASM Assembler]].
+    
+    Since (being written in 1999) part of the premise originally revolved
+    around the Y2K bug, after 2000, the impetus to finish it kind of wore off.
