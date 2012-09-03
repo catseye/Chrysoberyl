@@ -9,7 +9,7 @@
         'Chris Pressey' in data[thing].authors and
         data[thing].development_stage in ['idea'] %}
     <li>
-      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>
       {% endif %}

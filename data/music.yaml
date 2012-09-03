@@ -26,7 +26,7 @@ MED:
   authors: []
   paradigms: []
 
-MP3:
+mp3:
   type: Musical Notation
   no-specification: true
   authors: []
@@ -125,10 +125,10 @@ After the Fact (MED):
     After the Fact used MED's ability to transpose an instrument, which most module players don't support.
     However, `xmp` does support this feature.
 
-After the Fact (MP3):
+After the Fact (mp3):
   type: Implementation
   implementation-of: After the Fact
-  host-language: MP3
+  host-language: mp3
   converted-from: After the Fact (MED)
   converted-using:
   - xmp
@@ -154,10 +154,10 @@ Anagnoresis (MED):
     After the Fact used MED's ability to transpose an instrument, which most module players don't support.
     However, `xmp` does support this feature.
 
-Anagnoresis (MP3):
+Anagnoresis (mp3):
   type: Implementation
   implementation-of: Anagnoresis
-  host-language: MP3
+  host-language: mp3
   converted-from: Anagnoresis (MED)
   converted-using:
   - modplug123
@@ -174,10 +174,10 @@ Autumn Kiss:
   authors:
   - Chris Pressey
 
-Autumn Kiss (MP3):
+Autumn Kiss (mp3):
   type: Implementation
   implementation-of: Autumn Kiss
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Autumn Kiss.mp3"
@@ -190,10 +190,10 @@ Rainbird:
   authors:
   - Chris Pressey
 
-Rainbird (MP3):
+Rainbird (mp3):
   type: Implementation
   implementation-of: Rainbird
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Rainbird.mp3"
@@ -206,10 +206,10 @@ Red Quarks:
   authors:
   - Chris Pressey
 
-Red Quarks (MP3):
+Red Quarks (mp3):
   type: Implementation
   implementation-of: Red Quarks
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Red Quarks.mp3"
@@ -222,10 +222,10 @@ Retrograde:
   authors:
   - Chris Pressey
 
-Retrograde (MP3):
+Retrograde (mp3):
   type: Implementation
   implementation-of: Retrograde
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Retrograde.mp3"
@@ -238,10 +238,10 @@ You Drive Me Wild:
   authors:
   - Chris Pressey
 
-You Drive Me Wild (MP3):
+You Drive Me Wild (mp3):
   type: Implementation
   implementation-of: You Drive Me Wild
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - You Drive Me Wild.mp3"
@@ -255,10 +255,10 @@ Go(Figure):
   authors:
   - Chris Pressey
 
-Go(Figure) (MP3):
+Go(Figure) (mp3):
   type: Implementation
   implementation-of: Go(Figure)
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Go(Figure).mp3"
@@ -347,10 +347,10 @@ Ice Jam:
   commentary: |
     "Bjork-esque".
 
-Ice Jam (MP3):
+Ice Jam (mp3):
   type: Implementation
   implementation-of: Ice Jam
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Ice Jam.mp3"
@@ -363,10 +363,10 @@ Jack and Jill:
   authors:
   - Chris Pressey
 
-Jack and Jill (MP3):
+Jack and Jill (mp3):
   type: Implementation
   implementation-of: Jack and Jill
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Jack and Jill.mp3"
@@ -379,10 +379,10 @@ A Moment in the Sun:
   authors:
   - Chris Pressey
 
-A Moment in the Sun (MP3):
+A Moment in the Sun (mp3):
   type: Implementation
   implementation-of: A Moment in the Sun
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - A Moment in the Sun.mp3"
@@ -395,10 +395,10 @@ Back to the Rain:
   authors:
   - Chris Pressey
 
-Back to the Rain (MP3):
+Back to the Rain (mp3):
   type: Implementation
   implementation-of: Back to the Rain
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Back to the Rain.mp3"
@@ -411,10 +411,10 @@ Back to the Rain (MP3):
   authors:
   - Chris Pressey
 
-"Zoning Variance #5 (MP3)":
+"Zoning Variance #5 (mp3)":
   type: Implementation
   implementation-of: "Zoning Variance #5"
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Zoning Variance No.5.mp3"
@@ -427,10 +427,10 @@ Smedley the Medley:
   authors:
   - Chris Pressey
 
-Smedley the Medley (MP3):
+Smedley the Medley (mp3):
   type: Implementation
   implementation-of: Smedley the Medley
-  host-language: MP3
+  host-language: mp3
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Smedley the Medley.mp3"

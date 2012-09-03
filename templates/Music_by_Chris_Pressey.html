@@ -10,7 +10,7 @@
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] and
         related('implementation-of', key=thing) %}
     <li>
-      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>
       {% endif %}
@@ -19,7 +19,7 @@
       {% endif %}
       <ul>
       {% for impl in related('implementation-of', key=thing)|sort %}
-        {% if data[impl].host_language == 'MP3' and 'links' in data[impl] %}
+        {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
           <li>
             Listen to <a href="{{ data[impl].links[0] }}">{{ impl }}</a>
           </li>

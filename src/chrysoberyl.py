@@ -29,6 +29,7 @@ MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
 
 class ApproximateDate(object):
     def __init__(self, s):
+        self.text = s
         self.approximate = False
         self.month = None
         self.day = None
@@ -49,22 +50,29 @@ class ApproximateDate(object):
                 self.month = mo
                 s = s[3:]
                 break
+            mo += 1
 
         match = re.match(r'^\s*(\d+)', s)
         if match:
             self.day = int(match.group(1))
 
-    def __str__(self):
-        s = ""
+    def __unicode__(self):
+        s = u""
         if self.approximate:
-            s = "ca "
+            s = u"ca "
         if self.month is not None:
-            s += MONTHS[self.month] + ' '
+            s += MONTHS[self.month] + u' '
             if self.day is not None:
-                s += '%s, ' % self.day
+                s += u'%s, ' % self.day
         assert self.year is not None
-        s += '%s' % self.year
+        s += u'%s' % self.year
         return s
+
+    def __str__(self):
+        return unicode(self)
+    
+    def __repr__(self):
+        return "ApproximateDate(%r)" % self.text
 
 
 def load_chrysoberyl_dir(dirname):

@@ -11,7 +11,7 @@
         'Chris Pressey' in data[thing].authors and
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] %}
     <li>
-      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>
       {% endif %}
@@ -42,6 +42,7 @@
         {% if data[thing].host_platform %}
           for <a href="{{ filekey(data[thing].host_platform) }}">{{ data[thing].host_platform }}</a>
         {% endif %}
+         ({{ data[thing].inception_date }})
       </p>
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>

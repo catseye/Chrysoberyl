@@ -184,7 +184,9 @@ Display online implementation in lingography.  And elsewhere.
 
 Display sample code in lingography and language node.
 
-Display date in lingography and other nodes.  Sort lingography by date.
+Sort lingography and other collections by date.
+
+Dates on implementable pages.
 
 Collection: Works in Progress by Chris Pressey.
 
@@ -216,9 +218,9 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 Render competitions and competition results.
 
-### content ###
+bylines for programming language familys
 
-MP3 should be lowercase.
+### content ###
 
 Descriptions on my musical compositions.
 
