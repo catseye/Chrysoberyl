@@ -32,27 +32,9 @@
     {% endif %}
   {% endblock %}
 
-  {% block showtype %}
-    <p id="type">{{ link(type) }}</a></p>
-  {% endblock showtype %}
+  {% block byline %}
+  {% endblock byline %}
 
-  {% if authors %}
-    <p id="authors">By
-      {% for author in authors %}
-        {{ link(author) }}
-      {%- endfor -%}
-      {%- if auspices -%}
-        ,
-        {% for auspice in auspices %}
-          {{ link(auspice) }}
-        {% endfor %}
-      {%- endif -%}
-    </p>
-  {% endif %}
-
-  {% if genre %}
-    <p id="genre">Genre: {{ link(genre) }}</p>
-  {% endif %}
   {% if esowiki %}
     <p id="esowiki">Esowiki: <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a></p>
   {% endif %}

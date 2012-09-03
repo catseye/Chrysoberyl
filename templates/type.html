@@ -1,11 +1,8 @@
 {% extends "base.html" %}
 
 {% block heading %}
-  <h1>Known {{ key }}s</h1>
+  <h1>{{ key }}s</h1>
 {% endblock %}
-
-{# don't show "Type: type", that's just silly #}
-{% block showtype %}{% endblock showtype %}
 
 {% block description %}
   <p id="description">

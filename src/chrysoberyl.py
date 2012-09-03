@@ -369,13 +369,28 @@ class Renderer(object):
         def link(key, format="%s"):
             return '<a href="%s">%s</a>' % (filekey(key), format % key)
 
+        def link_lower(key, format="%s"):
+            return '<a href="%s">%s</a>' % (filekey(key), format % key.lower())
+
+        def linked_list(keys, format="%s"):
+            if len(keys) == 1:
+                return link(keys[0], format=format)
+            elif len(keys) == 2:
+                return "%s and %s" % (link(keys[0], format=format),
+                                      link(keys[1], format=format))
+            else:
+                front = keys[:-1]
+                last = keys[-1]
+                return "%s and %s" % (', '.join([link(f, format=format) for f in front]),
+                                      link(last, format=format))
+
         def breadcrumbs(key=key):
             # ("This function's more like spaghetti than breadcrumbs,"
             # quips Release Notes Girl.  Captain Compiler responds:
             # "Does that mean we're going to make it open-sauce?  HA, HA")
             TOP = "Chrysoberyl"
             if data[key]['type'] == 'type':
-                bc = ["Known %ss" % key]
+                bc = ["%ss" % key]
             else:
                 bc = [key]
             if key == TOP:
@@ -386,7 +401,7 @@ class Renderer(object):
                     break
                 bc.append(link(key))
             if key != TOP and data[key]['type'] != 'type':
-                bc.append(link(data[key]['type'], format="Known %ss"))
+                bc.append(link(data[key]['type'], format="%ss"))
             bc.append(link(TOP))
             bc.reverse()
             return bc
@@ -400,6 +415,8 @@ class Renderer(object):
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs
         context['link'] = link
+        context['link_lower'] = link_lower
+        context['linked_list'] = linked_list
 
         template = self.get_template(key)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)

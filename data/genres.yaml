@@ -65,9 +65,6 @@ Machine language:
 DSL:
   acronym-for: Domain-Specific Language
   type: Genre
-# Maybe this is just a kind of DSL
-Proof language:
-  type: Genre
 
 # GAMES
 

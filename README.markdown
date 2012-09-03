@@ -161,8 +161,6 @@ and what tools you need ("as a prerequisite") for building or running.**
 *   When it does not need building (dist has executables), still, tell
     how you would build it if you want to.
 
-Combine type and author into "byline" block.
-
 Call out works in progress and ideas in some obvious way.
 
 Call out nodes about things that were not done by Cat's Eye Technologies
@@ -174,6 +172,10 @@ Terminology on music pages:
 -   "To run this implementation" -> "To listen to this rendition"
 -   "an implementation of MP3" -> "an MP3 player"
 
+Authors on books.
+
+List all implementations under a license.
+
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.
@@ -183,8 +185,6 @@ Objective descriptions on all my languages.
 Names of implementations -- should they have the file extension (even when
 an executable is built, e.g. `thue.c`) or should they be the assumed name
 of the executable with a disambiguator (i.e. `thue (C)`)?
-
-Add rest of my music.
 
 ### perhaps ###
 

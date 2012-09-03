@@ -1,7 +1,15 @@
 {% extends "base.html" %}
 
-{% block showtype %}
-{% endblock showtype %}
+{% block byline %}
+  {% if authors %}
+    <p id="byline">
+      by {{ linked_list(authors) }}
+      {%- if auspices -%}
+        , {{ linked_list(auspices) }}
+      {%- endif -%}
+    </p>
+  {% endif %}
+{% endblock byline %}
 
 {% block description %}
   <p>This is
