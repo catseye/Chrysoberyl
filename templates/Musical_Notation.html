@@ -1,0 +1,20 @@
+{% extends "implementable.html" %}
+
+{% block implementable_content %}
+
+{% if related('host-language') %}
+  <h2>Renditions in {{ key }} Format</h2>
+  <ul>
+    {% for impl in related('host-language')|sort %}
+      <li>
+        {{ link(impl) }}
+        {# a little special casing here, too #}
+        {% if 'links' in data[impl] %}
+          -- <a href="{{ data[impl].links[0] }}">download!</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock implementable_content %}

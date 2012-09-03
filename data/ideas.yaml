@@ -628,7 +628,7 @@ YO_DAWG:
     so you can esolang while you esolang
   inception-date: ca 2012
   description: |
-    YO_DAWG is an esolang with first-class [[Esolang|esolangs]. You can create
+    YO_DAWG is an esolang with first-class [[Esolang|esolangs]]. You can create
     new [[Befunge-93]] objects, [[brainfuck]] objects, [[Underload]] objects,
     and so forth, and probably stick them onto a stack, or into variables.
     Presumably, you can apply these objects to strings of characters, to run
