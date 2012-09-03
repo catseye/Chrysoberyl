@@ -3,6 +3,7 @@
 
 basedump: 
   type: Tool
+  development-stage: archived
   summary: Views data or files in any base
   authors:
   - Chris Pressey
@@ -31,6 +32,7 @@ basedump distribution:
 belld: 
   # Kernel Module?  Tool is close enough
   type: Tool
+  development-stage: archived
   summary: FreeBSD 4.x syscons bell hook to run executable
   authors:
   - Chris Pressey
@@ -58,6 +60,7 @@ belld distribution:
 
 brace: 
   type: Tool
+  development-stage: archived
   summary: Utility to translate I/O interactively
   authors:
   - Chris Pressey
@@ -84,6 +87,7 @@ brace distribution:
 ce: 
   # library
   type: Tool
+  development-stage: archived
   summary: Library of common Erlang utility functions
   authors:
   - Chris Pressey
@@ -111,6 +115,7 @@ ce distribution:
 
 ec: 
   type: Tool
+  development-stage: archived
   summary: Simple build utility for Erlang projects
   authors:
   - Chris Pressey
@@ -138,6 +143,7 @@ ec distribution:
 
 erlaunch: 
   type: Tool
+  development-stage: archived
   summary: Reduces startup time for Erlang/OTP programs
   authors:
   - Chris Pressey
@@ -166,6 +172,7 @@ erlaunch distribution:
 
 noise: 
   type: Tool
+  development-stage: archived
   summary: A fairly realistic line-noise generator
   authors:
   - Chris Pressey
@@ -192,6 +199,7 @@ noise distribution:
 
 OpenFlax: 
   type: Tool
+  development-stage: archived
   summary: Experimental Erlang web server
   authors:
   - Chris Pressey
@@ -238,6 +246,7 @@ OpenFlax distribution:
 
 peruse: 
   type: Tool
+  development-stage: archived
   summary: Views Erlang log files interactively on terminal
   authors:
   - Chris Pressey

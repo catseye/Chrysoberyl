@@ -186,13 +186,7 @@ Display sample code in lingography and language node.
 
 Display date in lingography and other nodes.  Sort lingography by date.
 
-Collection: Music by Chris Pressey.
-
-Collection: Tools by Chris Pressey.  (include libraries too though)
-
 Collection: Works in Progress by Chris Pressey.
-
-Retrospective under cpressey
 
 For "Implementations in (this implementable)", change it to
 "Works written in (this implementable)", and also list the
@@ -206,7 +200,7 @@ Call out works in progress and ideas in some more obvious way.
 When listing things, list ones by Cat's Eye Technologies first, and
 put a heading or something.
 
-Use HTML5 (header, content, footer) instead of divs.
+Use HTML5 sections instead of divs.
 
 Terminology on music pages:
 -   "implementation" -> "rendition"
@@ -223,6 +217,10 @@ Cited in Jargon File --> like esowiki and wikipedia.
 Render competitions and competition results.
 
 ### content ###
+
+MP3 should be lowercase.
+
+Descriptions on my musical compositions.
 
 Clean up retrospective.
 

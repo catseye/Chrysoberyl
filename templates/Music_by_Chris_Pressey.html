@@ -1,0 +1,34 @@
+{# bespoke template #}
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul>
+{% for thing in data|sort %}
+  {% if data[thing].type == 'Musical Composition' and
+        'Chris Pressey' in data[thing].authors and
+        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] and
+        related('implementation-of', key=thing) %}
+    <li>
+      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      {% if data[thing].description_html %}
+        <p>{{ data[thing].description_html }}</p>
+      {% endif %}
+      {% if data[thing].commentary_html %}
+        <p>{{ data[thing].commentary_html }}</p>
+      {% endif %}
+      <ul>
+      {% for impl in related('implementation-of', key=thing)|sort %}
+        {% if data[impl].host_language == 'MP3' and 'links' in data[impl] %}
+          <li>
+            Listen to <a href="{{ data[impl].links[0] }}">{{ impl }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}

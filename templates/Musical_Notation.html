@@ -8,10 +8,6 @@
     {% for impl in related('host-language')|sort %}
       <li>
         {{ link(impl) }}
-        {# a little special casing here, too #}
-        {% if 'links' in data[impl] %}
-          -- <a href="{{ data[impl].links[0] }}">download!</a>
-        {% endif %}
       </li>
     {% endfor %}
   </ul>

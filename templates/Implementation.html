@@ -119,14 +119,19 @@
     {% endif %}
     {% if not data[host_language].generally_compiled %}
       <li>
-        an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-        (we recommend
-          {% for impl in related('implementation-of', key=host_language) %}
-            {{ link(impl) }}
-          {% endfor %}
-        )
-        {% if host_platform %}
-          for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+        {# special case to make this not suck #}
+        {% if host_language=='MP3' %}
+          an {{ link('MP3') }} player (you're on your own here)
+        {% else %}
+          an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+          (we recommend
+            {% for impl in related('implementation-of', key=host_language) %}
+              {{ link(impl) }}
+            {% endfor %}
+          )
+          {% if host_platform %}
+            for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+          {% endif %}
         {% endif %}
       </li>
     {% endif %}

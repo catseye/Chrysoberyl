@@ -53,10 +53,13 @@ Game:
   our-stuff: Games by Chris Pressey
 Library:
   type: type
+  our-stuff: Tools by Chris Pressey
 Tool:
   type: type
+  our-stuff: Tools by Chris Pressey
 Platform:
   type: type
+  our-stuff: Tools by Chris Pressey
 Programming Language:
   type: type
   our-stuff: Chris Pressey's Lingography
@@ -92,5 +95,6 @@ Programming Language:
     [[C++]] no matter *what* the software project is.
 Musical Composition:
   type: type
+  our-stuff: Music by Chris Pressey
 Musical Notation:
   type: type

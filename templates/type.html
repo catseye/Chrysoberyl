@@ -7,11 +7,7 @@
 {% block description %}
   <p id="description">
     This is a list of all {{ key|lower }}s with entries in {{ link('Chrysoberyl') }}.
-    {# a little special case here to make our lives easier #}
-    {% if key == 'Musical Composition' %}
-      For a list of just those pieces you can listen to on this website,
-      see {{ link('MP3') }}.
-    {% elif our_stuff %}
+    {% if our_stuff %}
       For a list of just those {{ key|lower }}s produced by
       {{ link("Cat's Eye Technologies") }}, see
       <a href="{{ filekey(our_stuff) }}">{{ our_stuff }}</a>.
