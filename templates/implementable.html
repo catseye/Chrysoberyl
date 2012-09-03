@@ -27,14 +27,14 @@
   <p>{{ link(reference_distribution) }}</p>
 {% elif standards_body %}
   <h2>Defined by</h2>
-  <p>{{ link(standards_body) }}</p>
+  <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>
 {% elif specification_link %}
   <h2>Defined by</h2>
   <p>
     {% if specification_link == 'esowiki' %}
       Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
     {% else %}
-      {{ link(specification_link) }}
+      <a href="{{ specification_link }}">{{ specification_link }}</a></p>
     {% endif %}
   </p>
 {% endif %}

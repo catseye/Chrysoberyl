@@ -848,7 +848,7 @@ NASM Assembler:
   - Assembly
   generally-compiled: true
   computational-class: Finite-automata-complete
-  standards-body: http://nasm.sourceforge.net/
+  standards-body: http://nasm.us/
   authors: []
   commentary: |
     In our projects, many of these NASM files were converted from older
