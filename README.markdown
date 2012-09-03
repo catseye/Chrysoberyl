@@ -56,8 +56,15 @@ Specific Schema
 ---------------
 
 In the following, an "implementable" (for lack of a better term)
-refers to a programming language, or a game, or a platform, or a tool or
-a library.
+refers to any of the following:
+
+*   a programming language (which includes machine languages)
+*   a game
+*   a platform (which includes operating systems, architectures, and
+    frameworks)
+*   a tool
+*   a library
+*   a musical composition
 
 An implementable may have multiple distributions.  There will typically be
 a reference distribution, which contains the spec and/or reference
@@ -71,11 +78,12 @@ Therefore, every implementable needs at least one of the following:
 *   `reference-distribution` (a key)
 *   `specification-link` (a URL, or `esowiki`)
 *   `standards-body` (a URL)
+*   `no-specification: true`
 
-If neither of the second two are present, we expect an implementable to
-have a `reference-distribution`.  If that key is not present, we look
-for a distribution called `FOO distribution` where `FOO` is the name of
-the implementable.
+If none of the last three of that list are present, we expect an
+implementable to have a `reference-distribution`.  If that key is not present,
+we look for a distribution called `FOO distribution` where `FOO` is the name
+of the implementable.
 
 An implementable may also have multiple implementations.  Each implementation
 may be in zero or more distributions, and a distribution may contain multiple
@@ -97,11 +105,11 @@ the licenses of the implementations contained with it.
 
 Each implementation has an implementation-type.  For a programming language,
 this may be interpreter, compiler, etc.  For a platform, this currently must
-be "emulator".
+be "emulator" (even if the platform is a framework...)
 
 An implementation may claim that it is prebuilt in its distribution.  This
-assumes it's only in one distribution.  Really, being built somewhere is
-a property of the distribution, but this fudging makes some things easier
+assumes it's only in one distribution.  Really, being prebuilt somewhere is
+a property of the *distribution*, but this fudging makes some things easier
 for now.
 
 Each platform must specify what its native language is.  Implementations
@@ -148,24 +156,14 @@ TODO
 
 ### structure ###
 
-Display implementations in lingography.
+Permit sorting by date.
 
-Display online implementation in lingography.  And elsewhere.
-
-Display sample code in lingography and language node.
-
-Display date in lingography and other nodes.  Sort lingography by date.
-
-Collection: Music by Chris Pressey.
-
-Collection: Works in Progress by Chris Pressey.
+Dump dates sensibly to JSON.
 
 Have some way to generally recommend a particular implementation
 for this purpose (e.g. generally recommend Perl 5.8.some).
 (If there is only one implementation, just pick it.  Or an implementation
 can specify.)
-
-Don't say "requires Java for yoob".
 
 Even when the language is usually compiled, there might be
 a compiler in some dists but not in others (JRE and JDK.)
@@ -191,9 +189,25 @@ Terminology on music pages:
 -   "To run this implementation" -> "To listen to this rendition"
 -   "an implementation of MP3" -> "an MP3 player"
 
-### content ###
+### templates ###
 
-Add implementations of languages you might need (perl for Perl, gcc for C, ...)
+List variants of programming languages, and what a PL is a variant of.
+
+Display implementations in lingography.
+
+Display online implementation in lingography.  And elsewhere.
+
+Display sample code in lingography and language node.
+
+Display date in lingography and other nodes.  Sort lingography by date.
+
+Collection: Music by Chris Pressey.
+
+Collection: Tools by Chris Pressey.  (include libraries too though)
+
+Collection: Works in Progress by Chris Pressey.
+
+### content ###
 
 Objective descriptions on all my languages.
 

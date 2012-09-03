@@ -96,8 +96,14 @@
           {% if data[host_language].generally_compiled %}
             <li>
               an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+                (we recommend
+                  {% for impl in related('implementation-of', key=host_language) %}
+                    {{ link(impl) }}
+                  {% endfor %}
+                )
               {% if host_platform %}
-                for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+                {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
+                and the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
               {% endif %}
             </li>
           {% endif %}
@@ -114,6 +120,11 @@
     {% if not data[host_language].generally_compiled %}
       <li>
         an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+        (we recommend
+          {% for impl in related('implementation-of', key=host_language) %}
+            {{ link(impl) }}
+          {% endfor %}
+        )
         {% if host_platform %}
           for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
         {% endif %}

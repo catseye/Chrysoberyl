@@ -1,6 +1,7 @@
 # encoding: UTF-8
 miniscm:
   type: Implementation
+  reference: false
   in-distribution: Minischeme distribution
   license: Public Domain
   # R4RS Scheme, maybe
@@ -10,6 +11,7 @@ miniscm:
 
 Minischeme distribution: 
   type: Distribution
+  reference: false
   description: |
     Cat's Eye Technologies' fork of the original Mini-scheme distribution.
   distribution-of: miniscm
@@ -19,6 +21,7 @@ Minischeme distribution:
 
 JaC64:
   type: Implementation
+  reference: false
   in-distribution: JaC64 distribution
   license: GPL
   implementation-of: Commodore 64
@@ -27,6 +30,7 @@ JaC64:
 
 JaC64 distribution: 
   type: Distribution
+  reference: false
   description: |
     Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
     a Java applet.
@@ -37,14 +41,16 @@ JaC64 distribution:
 
 OpenZz:
   type: Implementation
+  reference: false
   in-distribution: OpenZz distribution
-  license: GPL
+  license: LGPL
   implementation-of: Zz
   implementation-type: interpreter
   host-language: C99
 
 OpenZz distribution: 
   type: Distribution
+  reference: false
   description: |
     Cat's Eye Technologies' fork of OpenZz, an open-source implementation
     of the dynamic grammar-based language Zz.
