@@ -39,12 +39,37 @@
   </p>
 {% endif %}
 
+{% if influences %}
+  <h2>Influences</h2>
+  <ul>
+    {% for influence in influences|sort %}
+      <li>
+        {{ link(influence) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if related('influences') %}
+  <h2>Influenced</h2>
+  <ul>
+    {% for influenced in related('influences')|sort %}
+      <li>
+        {{ link(influenced) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% if related('implementation-of') %}
   <h2>Implementations</h2>
   <ul>
-    {% for implementation in related('implementation-of') %}
+    {% for implementation in related('implementation-of')|sort %}
       <li>
-        {{ link(implementation) }}
+        {{ link(implementation) }} in {{ link(data[implementation].host_language) }}
+        {% if data[implementation].host_language == key %}
+          (Yo dawg, I herd you like {{ key }})
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

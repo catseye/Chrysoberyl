@@ -206,8 +206,6 @@ Terminology on music pages:
 -   "To run this implementation" -> "To listen to this rendition"
 -   "an implementation of MP3" -> "an MP3 player"
 
-Show influences on implementables.
-
 Cited in Jargon File --> like esowiki and wikipedia.
 
 Render competitions and competition results.
@@ -223,6 +221,8 @@ Clean up retrospective.
 Borland C++ as a language (it did have its own libraries.)
 
 shown Turing-complete => Turing-complete, and link to it in places
+
+Allll those variants of Pixley.
 
 ### perhaps ###
 
