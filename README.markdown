@@ -176,6 +176,8 @@ and Borland C++; or in a more involved way, polyglots.)
 
 Competitions and competition results.
 
+Article and Mathematical Construct types.
+
 ### templates ###
 
 List variants of programming languages, and what a PL is a variant of.
@@ -193,6 +195,8 @@ Collection: Music by Chris Pressey.
 Collection: Tools by Chris Pressey.  (include libraries too though)
 
 Collection: Works in Progress by Chris Pressey.
+
+Retrospective under cpressey
 
 For "Implementations in (this implementable)", change it to
 "Works written in (this implementable)", and also list the
@@ -223,6 +227,8 @@ Cited in Jargon File --> like esowiki and wikipedia.
 Render competitions and competition results.
 
 ### content ###
+
+Clean up retrospective.
 
 Borland C++ as a language (it did have its own libraries.)
 

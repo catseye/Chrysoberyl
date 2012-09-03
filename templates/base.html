@@ -5,10 +5,17 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
   <link rel="stylesheet" type="text/css" href="../stylesheet/chrysoberyl.css" />
   <script type="text/javascript" src="../scripts/chrysoberyl.js"></script>
+  <script type="text/javascript">
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('article');
+    document.createElement('footer');
+    document.createElement('aside');
+  </script>
 </head>
 <body>
 
-  <div id="header">
+  <aside id="alpha_disclaimer">
     <p>
       ALPHA VERSION.  UNDER CONSTRUCTION.
       This page was automatically generated from <a href="https://github.com/catseye/Chrysoberyl/">Chrysoberyl</a>.
@@ -16,108 +23,117 @@
       {# TODO: urlencode instead #}
       <a href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key) }}">Report it here!</a>
     </p>
-  </div>
+  </aside>
 
-  {% block breadcrumbs %}
-  <p id="breadcrumbs">{{ breadcrumbs()|join(' » ') }}</p>
-  {% endblock breadcrumbs %}
+  <header>
+    {% block breadcrumbs %}
+    <nav id="breadcrumbs">
+      <p>{{ breadcrumbs()|join(' » ') }}</p>
+    </nav>
+    {% endblock breadcrumbs %}
 
-  {% block heading %}
-    <h1>{{ key }}</h1>
-    {% if subtitle %}
-      <h2 id="subtitle">{{ subtitle }}</h2>
+    {% block heading %}
+      <hgroup id="heading">
+        <h1>{{ key }}</h1>
+        {% if subtitle %}
+          <h2 id="subtitle">{{ subtitle }}</h2>
+        {% endif %}
+        {% if acronym_for %}
+          <h2 id="acronym_for">({{ acronym_for }})</h2>
+        {% endif %}
+      </hgroup>
+    {% endblock %}
+
+    {% block byline %}
+    {% endblock byline %}
+
+    {# TODO: make these less obtrusive.  float to right or something. #}
+    {% if esowiki %}
+      <p id="esowiki">Esowiki: <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a></p>
     {% endif %}
-    {% if acronym_for %}
-      <h2 id="acronym_for">({{ acronym_for }})</h2>
+    {% if wikipedia %}
+      <p id="wikipedia">Wikipedia: <a href="http://wikipedia.org/wiki/{{ wikipedia }}">{{ wikipedia }}</a></p>
     {% endif %}
-  {% endblock %}
+  </header>
 
-  {% block byline %}
-  {% endblock byline %}
+  <article>
+    {% block description %}
+      {% if description %}
+        <h2>Description</h2>
+        <p id="description">{{ description_html }}</p>
+      {% endif %}
+    {% endblock description %}
 
-  {% if esowiki %}
-    <p id="esowiki">Esowiki: <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a></p>
-  {% endif %}
-  {% if wikipedia %}
-    <p id="wikipedia">Wikipedia: <a href="http://wikipedia.org/wiki/{{ wikipedia }}">{{ wikipedia }}</a></p>
-  {% endif %}
+    {% block documentation %}
+      {% if documentation() %}
+        <div id="documentation">
+          <h2>Documentation</h2>
+          <ul>
+            {% for document in documentation() %}
+              <li>
+                {% if github_link(document) %}
+                  <a href="{{ github_link(document) }}">{{ document }}</a>
+                {% else %}
+                  {{ document }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% endblock documentation %}
 
-  {% block description %}
-    {% if description %}
-      <h2>Description</h2>
-      <p id="description">{{ description_html }}</p>
-    {% endif %}
-  {% endblock description %}
+    {% block content %}
+    {% endblock content %}
 
-  {% block documentation %}
-    {% if documentation() %}
-      <div id="documentation">
-        <h2>Documentation</h2>
+    {% if see_also %}
+      <div id="see_also">
+        <h2>See Also</h2>
         <ul>
-          {% for document in documentation() %}
-            <li>
-              {% if github_link(document) %}
-                <a href="{{ github_link(document) }}">{{ document }}</a>
-              {% else %}
-                {{ document }}
-              {% endif %}
-            </li>
+          {% for thing in see_also %}
+          <li>
+            {{ link(thing) }}
+          </li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
-  {% endblock documentation %}
 
-  {% block content %}
-  {% endblock content %}
+    {% if links %}
+      <div id="links">
+        <h2>Links</h2>
+        <ul>
+          {% for link in links %}
+          <li>
+            <a href="{{ link }}">{{ link }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
-  {% if see_also %}
-    <div id="see_also">
-      <h2>See Also</h2>
-      <ul>
-        {% for thing in see_also %}
-        <li>
-          {{ link(thing) }}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if references %}
+      <div id="references">
+        <h2>References</h2>
+        <ul>
+          {% for reference in references %}
+          <li>
+            <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
-  {% if links %}
-    <div id="links">
-      <h2>Links</h2>
-      <ul>
-        {% for link in links %}
-        <li>
-          <a href="{{ link }}">{{ link }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if commentary %}
+      <h2>Commentary</h2>
+      <p id="commentary">{{ commentary_html }}</p>
+    {% endif %}
+  </article>
 
-  {% if references %}
-    <div id="references">
-      <h2>References</h2>
-      <ul>
-        {% for reference in references %}
-        <li>
-          <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description }}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-
-  {% if commentary %}
-    <h2>Commentary</h2>
-    <p id="commentary">{{ commentary_html }}</p>
-  {% endif %}
-
-  <div id="footer">
+  <footer>
     <p>
-      Copyright ©2012, Chris Pressey, Cat's Eye Technologies.  All rights reserved.
+      <small>Copyright ©2012, Chris Pressey, Cat's Eye Technologies.  All rights reserved.</small>
     </p>
   </div>
 </body>
