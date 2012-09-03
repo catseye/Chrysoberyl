@@ -190,10 +190,6 @@ Dates on implementable pages.
 
 Collection: Works in Progress by Chris Pressey.
 
-For "Implementations in (this implementable)", change it to
-"Works written in (this implementable)", and also list the
-thing each implementation implements.
-
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 

@@ -39,11 +39,17 @@
 {% endif %}
 
 {% if related('host-language') %}
-  <h2>Implementations in {{ key }}</h2>
+  <h2>Things written in {{ key }}</h2>
   <ul>
     {% for impl in related('host-language')|sort %}
       <li>
-        {{ link(impl) }}
+        {{ link(impl) }},
+        {% if 'implementation-type' in data[impl] %}
+          {{ indefart(data[impl].implementation_type) }} for
+        {% else %}
+          an implementation of
+        {% endif %}
+        {{ link(data[impl].implementation_of) }}
       </li>
     {% endfor %}
   </ul>
