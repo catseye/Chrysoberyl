@@ -124,12 +124,29 @@ For now, freely redistributable unmodified for non-commercial purposes --
 plus you are allowed to fork the repository for the purpose of submitting
 corrections to the information.
 
+Script
+------
+
+`chrysoberyl.py` is a Python script included in this distribution which
+can process the Chrysberyl database.  Things it can do include:
+
+*   check the data for consistency
+*   render Jinja2 templates with the data (one file per node)
+*   dump all nodes to a single JSON file
+
+As of this writing, it takes my computer about five seconds to load,
+and check the data and render the templates.
+
+The JSON file is, as of this writing, about 700K, meaning that, at
+broadband speeds it only takes a couple of seconds to download, making
+it feasible to implement a client-side query engine for Chrysoberyl
+in Javascript.  The side of this file could also be reduced, possibly
+substantially.
+
 TODO
 ----
 
 ### structure ###
-
-Sort by dates.
 
 Display implementations in lingography.
 
@@ -183,9 +200,6 @@ Objective descriptions on all my languages.
 ### perhaps ###
 
 Maybe something other than "emulator" for yoob and BefOS, eh?
-
-Dump all Chrysoberyl data as a JSON blob, see how big it is, and if
-it can be reduced by making post-hoc rules about default values.
 
 Some documentation in a reference distribution relates to the implementable
 and some of it relates to the distribution and some of it relates to

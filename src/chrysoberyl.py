@@ -9,6 +9,7 @@ for consistency.\
 """
 
 import codecs
+import json
 from optparse import OptionParser
 import os
 import re
@@ -164,7 +165,6 @@ def check_chrysoberyl_data(data):
           if 'inception-date' in node:
               assert node['inception-date'] != 'Unknown'
               node['inception-date'] = ApproximateDate(str(node['inception-date']))
-              print node['inception-date']
       except Exception as e:
           print "'%s' has bad date '%s'" % (key, node['inception-date'])
           raise
@@ -563,6 +563,9 @@ if __name__ == '__main__':
                          dest="data_dir", metavar='DIR', default='data',
                          help="specify location of the Chrysoberyl "
                               "Yaml data files (default: data)")
+    optparser.add_option("-j", "--json-to",
+                         dest="json_to", metavar='FILE',
+                         help="dump all nodes as JSON")
     optparser.add_option("-l", "--check-links",
                          dest="check_links", action='store_true',
                          default=False,
@@ -595,7 +598,12 @@ if __name__ == '__main__':
         print "Re-run to incorporate docs in loaded data."
         sys.exit(0)
 
+    convert_chrysoberyl_data(data)
+
+    if options.json_to:
+        with codecs.open(options.json_to, 'w', 'utf-8') as file:
+            json.dump(data, file, encoding='utf-8', default=unicode)
+
     if options.render_to:
-        convert_chrysoberyl_data(data)
         r = Renderer(data, 'templates', options.render_to)
         r.render_chrysoberyl_data()
