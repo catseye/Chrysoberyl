@@ -210,8 +210,6 @@ Show influences on implementables.
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-`specification-link: esowiki` -- resolve it.
-
 Render competitions and competition results.
 
 bylines for programming language familys
