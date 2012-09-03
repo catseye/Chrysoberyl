@@ -10,6 +10,7 @@ Save Alan from the Tar Pit:
   platform: PC
   controls: keyboard
   development-stage: abandoned
+  no-specification: true
   description: |
     Alan is suspended above a tar pit by a rope attached to a machine.
     Your goal is to program the machine to lift him, rather than lower him
@@ -35,6 +36,7 @@ Nukeball:
   platform: Commodore 64
   controls: joystick plus one button
   development-stage: work in progress
+  no-specification: true
   description: |
     The year is 8088 and the exciting sport of NUKEBALL has replaced all other
     forms of entertainment†.  In it, players have their consciousnesses projected
@@ -58,7 +60,7 @@ Nukeball:
 
 Skyblade:
   type: Game
-  genre: Shoot'-em-Up
+  genre: Shoot-'em-Up
   authors:
   - Chris Pressey
   auspices:
@@ -67,6 +69,7 @@ Skyblade:
   platform: Commodore 64
   controls: joystick plus one button
   development-stage: work in progress
+  no-specification: true
   description: |
     The prince has been kidnapped by the minions of the evil
     something-or-other of the North Wind, and his sister is the
@@ -88,7 +91,7 @@ Skyblade:
 Beseige:
   type: Game
   # not exactly.  also puzzle.
-  genre: Shoot'-em-Up
+  genre: Shoot-'em-Up
   authors:
   - Chris Pressey
   auspices:
@@ -97,6 +100,7 @@ Beseige:
   platform: PC
   controls: keyboard
   development-stage: work in progress
+  no-specification: true
   description: |
     An action/puzzle game containing elements of [[Befunge-93]],
     Paradroid, and Metal Gear.
