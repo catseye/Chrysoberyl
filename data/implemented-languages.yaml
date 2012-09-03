@@ -325,15 +325,13 @@ tc.catseye.yoob.lnusp:
   genre: Esolang
   paradigms:
   - 2-dimensional
-  family-members:
-  - 1L_a
-  - 1L_AOI
   esowiki: 1L
 
 
 1L_a:
   type: Programming Language
   genre: Esolang
+  member-of: 1L
   paradigms:
   - Imperative
   - 2-dimensional
@@ -363,6 +361,7 @@ tc.catseye.yoob.onela:
 1L_AOI:
   type: Programming Language
   genre: Esolang
+  member-of: 1L
   paradigms:
   - Imperative
   - 2-dimensional

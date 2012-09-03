@@ -221,6 +221,17 @@ bef:
   run-requirements:
   - ANSI Terminal
 
+tc.catseye.yoob.befunge93:
+  type: Implementation
+  implementation-of: Befunge-93
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+  host-platform: yoob
+
 
 Befunge-97:
   type: Programming Language
@@ -842,7 +853,7 @@ tc.catseye.etcha:
   prebuilt-for-platforms:
   - Java
   reference: true
-  license: Unknown license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Java
 
@@ -1612,7 +1623,7 @@ larabee.scm:
   implementation-of: Larabee
   in-distribution: Larabee distribution
   reference: true
-  license: Unknown license
+  license: BSD license
   implementation-type: interpreter
   host-language: Scheme
 
@@ -1916,7 +1927,7 @@ tc.catseye.yoob.worb:
   type: Implementation
   implementation-of: noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
-  license: Unknown license
+  license: BSD license
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
@@ -2805,7 +2816,7 @@ tc.catseye.whothm:
   prebuilt-for-platforms:
   - Java
   reference: true
-  license: Unknown license
+  license: BSD license
   implementation-type: interpreter
   host-language: Java
 

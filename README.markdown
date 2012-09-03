@@ -172,10 +172,6 @@ Terminology on music pages:
 -   "To run this implementation" -> "To listen to this rendition"
 -   "an implementation of MP3" -> "an MP3 player"
 
-Authors on books.
-
-List all implementations under a license.
-
 ### content ###
 
 More descriptions on things.  Descriptions objective, commentary subjective.

@@ -77,8 +77,11 @@ Microprocessor Programming for Computer Hobbyists:
   genre: Programming
   # i might have a copy somewhere, but not here
   copies-owned: 0
-  authors: []
+  authors:
+  - Neill Graham
+  isbn: 0-8306695-2-3
   publisher: TAB
+  inception-date: 1978
   commentary: |
     Older computer science book, addressing machine-level programming with
     a sort-of high level language called PL/M, which resembles PL/I.  Really not bad.
@@ -88,7 +91,10 @@ Microprocessor Programming for Computer Hobbyists:
   genre: Programming
   # i might have a copy somewhere, but not here
   copies-owned: 0
-  authors: []
+  authors:
+  - Mark Sawusch
+  - Tan Summers
+  isbn: 0-8306183-6-8
   publisher: TAB
   commentary: |
     Basically a font of mathematical/engineering/physical trivia and
@@ -101,7 +107,10 @@ Commodore 64 Programmer's Reference Guide:
   type: Book
   genre: Programming
   copies-owned: 1
-  authors: []
+  authors:
+  - Commodore Business Machines
+  publisher: Howard W. Sams & Co.
+  isbn: 0-672-22056-3
   commentary: |
     Classic.  I urge you to read the "crunching" guide on pages 24-27, how the
     screen editor works on pages 94-97, the vaguely condescending
@@ -135,6 +144,7 @@ Introduction to Algorithms:
   - Charles E. Leiserson
   - Ronald L. Rivest
   - Clifford Stein
+  isbn: 0-2620338-4-4
   commentary: |
     Excellent textbook on algorithms.
 
@@ -203,3 +213,7 @@ The Real Frank Zappa Book:
     Mainly for Zappa's theory of art ("entertainment objects") which describes
     quite nicely how I think of [[Esolang|esolangs]].  The rest of the book is
     pretty interesting too, though.
+
+# The Devil's Dictionary, Ambrose Bierce
+# The Art of Computer Programming, Vol. 1, Donald Knuth
+# The Mathematical Theory of Communication, Claude Shannon and Warren Weaver

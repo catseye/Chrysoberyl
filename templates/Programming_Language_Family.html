@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if related('member_of') %}
+  <h2>Members</h2>
+  <ul>
+    {% for language in related('member_of')|sort %}
+      <li>
+        {{ link(language) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock content %}

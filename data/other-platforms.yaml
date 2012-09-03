@@ -136,6 +136,7 @@ WINE:
 VBScript:
   type: Programming Language
   genre: Production language
+  member-of: BASIC
   standards-body: http://microsoft.com/
   paradigms:
   - Object-oriented

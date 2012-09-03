@@ -82,7 +82,7 @@ Kosheri:
   - dish
   - egyptian
 
-kosheri.c:
+kosheri (C):
   type: Implementation
   implementation-of: Kosheri
   reference: true

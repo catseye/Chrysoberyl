@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if related('license') %}
+  <h2>Implementations under this License ({{ related('license')|length }})</h2>
+  <ul>
+    {% for impl in related('license')|sort %}
+      <li>
+        {{ link(impl) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock content %}

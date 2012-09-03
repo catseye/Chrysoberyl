@@ -2,6 +2,11 @@
 
 {% block implementable_content %}
 
+{% if member_of %}
+  <h2>Member of Language Family</h2>
+  <p>{{ link(member_of) }}</p>
+{% endif %}
+
 <h2>Programming Paradigms</h2>
 
 <ul>

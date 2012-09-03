@@ -37,6 +37,7 @@ AppleWin:
 Applesoft BASIC:
   type: Programming Language
   genre: Production language
+  member-of: BASIC
   paradigms:
   - Imperative
   computational-class: believed Turing-complete
@@ -110,6 +111,7 @@ Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
   type: Programming Language
   genre: Production language
+  member-of: BASIC
   paradigms:
   - Imperative
   computational-class: believed Turing-complete

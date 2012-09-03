@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block byline %}
+  {% if authors %}
+    <p id="byline">
+      by {{ linked_list(authors) }}
+      {%- if auspices -%}
+        , {{ linked_list(auspices) }}
+      {%- endif -%}
+      {%- if isbn -%}
+      , ISBN: {{ isbn }}
+      {% endif %}
+    </p>
+  {% endif %}
+{% endblock byline %}
