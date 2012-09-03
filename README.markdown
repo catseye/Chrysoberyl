@@ -180,8 +180,6 @@ Article and Mathematical Construct types.
 
 ### templates ###
 
-Display implementations in lingography.
-
 Display online implementation in lingography.  And elsewhere.
 
 Display sample code in lingography and language node.

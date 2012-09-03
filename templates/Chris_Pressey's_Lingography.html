@@ -29,12 +29,22 @@
       {% if data[thing].commentary_html %}
         <p>{{ data[thing].commentary_html }}</p>
       {% endif %}
+      {% if related('implementation_of', key=thing) %}
+        <p>Implementations:</p>
+        <ul>
+          {% for implementation in related('implementation_of', key=thing) %}
+            <li>
+              <p>{{ link(implementation) }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
       {% if related('member_of', key=thing) %}
         <p>Members of {{thing}}:</p>
         <ul>
-          {% for member in related('member_of', key=thing) %}
+          {% for member in related('member_of', key=thing)|sort %}
             <li>
-              <p><a href="{{ filekey(member) }}">{{ member }}</a></p>
+              <p>{{ link(member) }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -42,9 +52,9 @@
       {% if related('variant_of', key=thing) %}
         <p>Variants of {{thing}}:</p>
         <ul>
-          {% for variant in related('variant_of', key=thing) %}
+          {% for variant in related('variant_of', key=thing)|sort %}
             <li>
-              <p><a href="{{ filekey(variant) }}">{{ variant }}</a></p>
+              <p>{{ link(variant) }}</p>
             </li>
           {% endfor %}
         </ul>
