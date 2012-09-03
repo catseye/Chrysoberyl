@@ -28,6 +28,15 @@ ANSI C:
     ANSI C (perhaps omitting some features) by passing the environment
     variable `ANSI=yes` to `make`.
 
+gcc -ansi -pedantic:
+  type: Implementation
+  implementation-of: ANSI C
+  implementation-type: compiler
+  host-language: C99
+  target-language: Native code
+  license: GPL
+
+
 BASIC:
   type: Programming Language Family
   # close, but "Teaching language" might be better
@@ -35,6 +44,7 @@ BASIC:
   paradigms:
   - Imperative
   authors: []
+
 
 C99:
   type: Programming Language
@@ -46,7 +56,6 @@ C99:
   authors: []
   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   links:
-  - http://gcc.gnu.org/gcc-3.4/
   - http://www.opengroup.org/onlinepubs/9699919799/
   as-a-prerequisite: |
     The C-language source files in this project conform to the C99 standard.
@@ -66,6 +75,17 @@ C99:
     Many of our C projects will compile both as C99 and as
     [[ANSI C]] (perhaps omitting some features) by passing the environment
     variable `ANSI=yes` to `make`.
+
+gcc 3.4:
+  type: Implementation
+  implementation-of: C99
+  implementation-type: compiler
+  host-language: C99
+  target-language: Native code
+  license: GPL
+  links:
+  - http://gcc.gnu.org/gcc-3.4/
+
 
 C++:
   type: Programming Language
@@ -153,6 +173,7 @@ C++:
     I'm no expert on psychology, somehow that seems likely — C++'ll have'em
     downright hooked.
 
+
 CSS:
   type: Programming Language
   genre: Production language
@@ -189,6 +210,7 @@ CSS:
     the week, but at least it probably won't hang, or crash, or corrupt the
     browser's state.
 
+
 Erlang:
   type: Programming Language
   genre: Production language
@@ -221,6 +243,17 @@ Erlang:
     on an older version (say, R9C) of Erlang/OTP, but you may need
     to make some manual changes and system setup.
 
+Erlang/OTP R13B:
+  type: Implementation
+  implementation-of: Erlang
+  # well, it builds beam files, but
+  implementation-type: interpreter
+  host-language: C99
+  license: Erlang Public License
+  links:
+  - http://www.erlang.org/
+
+
 Haskell:
   type: Programming Language
   genre: Production language
@@ -232,12 +265,22 @@ Haskell:
   authors: []
   links:
   - http://www.haskell.org/
-  - http://www.haskell.org/ghc/
   - http://www.haskell.org/hugs/
   as-a-prerequisite: |
     Any Haskell 98-conforming implementation of Haskell should be able to
     handle the sources for this project. In order to compile a binary with a
     Haskell compiler such as `ghc`, you may need to add some driver code.
+
+ghc:
+  type: Implementation
+  implementation-of: Haskell
+  implementation-type: compiler
+  host-language: Haskell
+  target-language: Native code
+  license: BSD license
+  links:
+  - http://www.haskell.org/ghc/
+
 
 Java:
   type: Programming Language
@@ -278,6 +321,18 @@ Java:
     
     Note that compiled Java classes are `.class` files in some subdirectory
     of the project's `bin` directory.
+
+Java SE 6 JDK 1.6.0:
+  type: Implementation
+  implementation-of: Java
+  # well, it builds class files, but
+  implementation-type: interpreter
+  host-language: Unknown language
+  # it's actually the "Oracle Binary Code License Agreement for Java SE"
+  license: Unknown license
+  links:
+  - http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html
+
 
 Javascript:
   type: Programming Language
@@ -350,6 +405,9 @@ Javascript:
         good chance that the script they're being asked about won't get
         written.
 
+# XXX implementation of Javascript.  "Just use your browser!"?
+
+
 Lua:
   type: Programming Language
   genre: Production language
@@ -375,7 +433,16 @@ Lua:
     standards documents defining the language aside from the reference
     implementation produced by the Lua project, which we've linked to here.
 
-# note ilasm as an implementation (compiler) here somehow
+lua 5.0.3:
+  type: Implementation
+  implementation-of: Lua
+  implementation-type: interpreter
+  host-language: C99
+  license: MIT license
+  links:
+  - http://www.lua.org/versions.html#5.0
+
+
 MSIL:
   type: Programming Language
   genre: Production language
@@ -387,6 +454,15 @@ MSIL:
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
   authors: []
 
+ilasm:
+  type: Implementation
+  implementation-of: MSIL
+  implementation-type: compiler
+  host-language: Unknown language
+  target-language: .NET executable
+  license: Unknown license
+
+
 Perl:
   type: Programming Language
   genre: Production language
@@ -397,15 +473,6 @@ Perl:
   computational-class: shown Turing-complete
   standards-body: http://www.perl.org/
   authors: []
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Perl scripts, and
-    running them requires a Perl interpreter, version 5.8.8 or later. We'll
-    try to make sure they still run the same on later 5.x versions of Perl,
-    but we won't make any guarantees there.
-    
-    We're not aware of any implementation of Perl which conforms to version
-    5.8.8 that isn't based on Larry Wall's source base, so that's the link
-    we've given here.
   commentary: |
     Perl is what happens when you play [[Katamari Damacy]]
     with the Unix toolchain.
@@ -429,6 +496,14 @@ Perl:
     things like `use strict` at least smell like an attempt to approach some
     sort of trying to permit, I don't know, enforcing discipline, or
     something, if you think that would help.
+
+perl 5.8.8:
+  type: Implementation
+  implementation-of: Perl
+  implementation-type: interpreter
+  host-language: C99
+  license: Artistic License
+
 
 PHP:
   type: Programming Language
@@ -528,6 +603,44 @@ Python:
     But I am weary.  I urge you to consider that Python may be pretty on
     the surface, but go on, scratch that surface.  See what you find.  Tell
     me if it's pretty.  Go on, do it.
+    
+    Here, I'll get you started.
+    
+        >>> a = 200
+        >>> b = 200
+        >>> c = 300
+        >>> d = 300
+        >>> a is b
+        True
+        >>> c is d
+        False
+        >>> 300 is 300
+        True
+    
+    But wait, there's more!
+    
+        >>> True = 4
+        >>> True
+        4
+        >>> 4 == True
+        True
+
+cPython 2.6.7:
+  type: Implementation
+  implementation-of: Python
+  implementation-type: interpreter
+  host-language: C99
+  # PSF LICENSE AGREEMENT FOR PYTHON : http://docs.python.org/license.html
+  license: Unknown license
+
+Jython 2.5.1:
+  type: Implementation
+  implementation-of: Python
+  implementation-type: interpreter
+  host-language: Java
+  # PSF LICENSE AGREEMENT FOR PYTHON : http://www.jython.org/license.html
+  license: Unknown license
+
 
 R:
   type: Programming Language
@@ -538,10 +651,9 @@ R:
   computational-class: shown Turing-complete
   standards-body: http://www.r-project.org/
   authors: []
-  as-a-prerequisite: |
-    You're on your own, mate.
   commentary: |
     R IS THE LANGUAGE OF THE FUTURE.
+
 
 Ruby:
   type: Programming Language
@@ -556,6 +668,9 @@ Ruby:
   as-a-prerequisite: |
       Some or all of the programs in this project are Ruby scripts, and running them
       requires a Ruby interpreter, version 1.8.7 or later.
+
+# xxx do the rest of these sometime
+
 
 Scheme: 
   type: Programming Language
@@ -745,5 +860,24 @@ Wireworld:
   - Cellular automaton
   computational-class: Finite-automata-complete
   # i'll look it up someday
+  no-specification: true
+  authors: []
+
+
+Unknown language:
+  type: Programming Language
+  genre: Production language
+  paradigms: []
+  no-specification: true
+  authors: []
+  commentary: |
+    This node represents the fact that I don't know what language some
+    implementation was written in.
+
+.NET executable:
+  type: Programming Language
+  # albeit virtual
+  genre: Machine language
+  paradigms: []
   no-specification: true
   authors: []

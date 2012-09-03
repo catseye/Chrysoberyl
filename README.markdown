@@ -129,42 +129,46 @@ TODO
 
 ### structure ###
 
-Some documentation in a reference distribution relates to the implementable
-and some of it relates to the distribution and some of it relates to
-the implementation(s) within the distribution.  Split it up so.
-(Note: this is a hard problem.)
-
-Some implementations can both compile and interpret.  Some compilers
-can target multiple target languages.  Handle both of these.
-
-Run requirements and build requirements can be optional.
-
 Date parsing and sorting by it and stuff.
 
 ### templates ###
 
-**Compute if an implementation requires building, based on what language
-it's in (C, yes, Python, no, Java and Erlang, depends on the distribution),
-and what tools you need ("as a prerequisite") for building or running.**
+Display implementations in lingography.
 
-*   Add some implementations of languages you might need (perl for Perl,
-    gcc for C, ...)
-*   Have some way to generally recommend a particular implementation
-    for this purpose (e.g. generally recommend Perl 5.8.some).
-*   Have some way to indicate, on the implementation, that it needs
-    building, even if the language is not always compiled (Haskell.)
-*   Related: even when the language is usually compiled, there might be
-    a compiler in some dists but not in others (JRE and JDK.)
-*   Related: account for the fact that some implementations can be
-    compiled or interpreted under two language (ANSI C and C99; or
-    in a more involved way, polyglots.)
-*   When it does not need building (dist has executables), still, tell
-    how you would build it if you want to.
+Display online implementation in lingography.  And elsewhere.
 
-Call out works in progress and ideas in some obvious way.
+Display sample code in lingography and language node.
 
-Call out nodes about things that were not done by Cat's Eye Technologies
-in some obvious way.
+Display date in lingography and other nodes.  Sort lingography by date.
+
+Collection: Music by Chris Pressey.
+
+Collection: Works in Progress by Chris Pressey.
+
+Have some way to generally recommend a particular implementation
+for this purpose (e.g. generally recommend Perl 5.8.some).
+(If there is only one implementation, just pick it.  Or an implementation
+can specify.)
+
+Don't say "requires Java for yoob".
+
+Even when the language is usually compiled, there might be
+a compiler in some dists but not in others (JRE and JDK.)
+"An implementation of Java that can build" = JDK.
+
+Account for the fact that some implementations can be
+compiled or interpreted under two language (ANSI C and C99; or
+in a more involved way, polyglots.)  `host-languages`?
+
+When it does not need building (dist has executables), still, tell
+how you would build it if you want to.
+
+Call out works in progress and ideas in some more obvious way.
+
+When listing things, list ones by Cat's Eye Technologies first, and
+put a heading or something.
+
+Use HTML5 (header, content, footer) instead of divs.
 
 Terminology on music pages:
 -   "implementation" -> "rendition"
@@ -174,13 +178,9 @@ Terminology on music pages:
 
 ### content ###
 
-More descriptions on things.  Descriptions objective, commentary subjective.
+Add implementations of languages you might need (perl for Perl, gcc for C, ...)
 
 Objective descriptions on all my languages.
-
-Names of implementations -- should they have the file extension (even when
-an executable is built, e.g. `thue.c`) or should they be the assumed name
-of the executable with a disambiguator (i.e. `thue (C)`)?
 
 ### perhaps ###
 
@@ -190,3 +190,20 @@ Maybe something other than "emulator" for yoob and BefOS, eh?
 
 Dump all Chrysoberyl data as a JSON blob, see how big it is, and if
 it can be reduced by making post-hoc rules about default values.
+
+Some documentation in a reference distribution relates to the implementable
+and some of it relates to the distribution and some of it relates to
+the implementation(s) within the distribution.  Split it up so.
+(Note: this is a hard problem.  Just list the specifications explicitly in
+the distribution node, as filenames relative to the distribution -- the rest
+is "other")
+
+Some implementations can both compile and interpret.  Some compilers
+can target multiple target languages.  Handle both of these.
+
+Run requirements and build requirements can be optional.
+
+Have some way to indicate, on the implementation, that it needs
+building, even if the language is not always compiled (Haskell.)
+Actually, it's usually obvious if a Haskell impl needs building, and
+usually optional, but anyway.

@@ -2,7 +2,7 @@
 BSD license:
   type: License
   commentary: |
-    In releasing software as [open-source](opensource.html),
+    In releasing software as [[Open-source|open-source]]
     [[Cat's Eye Technologies]] has a preference for the 3-clause BSD
     License. It is an OSI Certified license (for whatever that's worth)
     which is succinct, pointific, and written entirely in readable legal
@@ -12,12 +12,26 @@ BSD license:
 
 GPL:
   type: License
+  description: |
+    The GNU General Public License.
 LGPL:
   type: License
+  description: |
+    The GNU Lesser General Public License.
+Erlang Public License:
+  type: License
+  links:
+  - http://www.erlang.org/EPLICENSE
+Artistic License:
+  type: License
+  description: |
+    The "Artistic License".
 MIT license:
   type: License
 Public Domain:
   type: License
+  links:
+  - http://unlicense.org/
 Freely Redistributable:
   type: License
   commentary: |-
