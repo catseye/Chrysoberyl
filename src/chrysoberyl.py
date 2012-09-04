@@ -370,7 +370,7 @@ class Renderer(object):
     
     def get_template(self, key):
         node = self.data[key]
-        template_filename = 'default.html'
+        template_filename = 'base.html'
         filename = filekey(key)
         if node['type'] != 'type' and os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
