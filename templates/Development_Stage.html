@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if related('development-stage') %}
+  <h2>Things at this Development Stage</h2>
+  <ul>
+    {% for thing in related('development-stage')|sort %}
+      <li>
+        {{ link(thing) }} ({{ link(data[thing].type) }})
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock content %}

@@ -65,6 +65,8 @@ Machine language:
 DSL:
   acronym-for: Domain-Specific Language
   type: Genre
+Abstract Artlang:
+  type: Genre
 
 # GAMES
 

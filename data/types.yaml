@@ -3,10 +3,9 @@ type:
   type: type
 Metadata:
   type: type
-# horribly vague:
 Concept:
   type: type
-Distribution:
+Article:
   type: type
 Computational Class:
   type: type
@@ -24,9 +23,11 @@ Programming Paradigm:
   type: type
 Language Construct:
   type: type
+Mathematical Object:
+  type: type
 Book:
   type: type
-Abstract Artlang:
+Conlang:
   type: type
 Discipline:
   type: type
@@ -45,6 +46,10 @@ Implementation Type:
 Development Stage:
   type: type
 License:
+  type: type
+
+# distributions:
+Distribution:
   type: type
 
 # implementables:

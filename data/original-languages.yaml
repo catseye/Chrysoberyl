@@ -2054,7 +2054,8 @@ Oozlybub and Murphy:
 
 
 Opus-2:
-  type: Abstract Artlang
+  type: Conlang
+  genre: Abstract Artlang
   description: |
     Opus-2 is not a programming language, but rather, an abstract artlang
     (i.e., a conlang designed independently from any conception of society.)

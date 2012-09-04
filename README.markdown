@@ -176,8 +176,6 @@ and Borland C++; or in a more involved way, polyglots.)
 
 Competitions and competition results.
 
-Article and Mathematical Construct types.
-
 ### templates ###
 
 Display online implementation in lingography.  And elsewhere.
@@ -185,8 +183,6 @@ Display online implementation in lingography.  And elsewhere.
 Sort lingography and other collections by date.
 
 Dates on implementable pages.
-
-Collection: Works in Progress by Chris Pressey.
 
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
@@ -208,7 +204,7 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 Render competitions and competition results.
 
-bylines for programming language familys
+bylines for programming language familys and for conlangs
 
 ### content ###
 
