@@ -55,11 +55,11 @@
       is in the <a href="{{ filekey('Public Domain') }}">public domain</a>
     {% elif license == 'Freely Redistributable' %}
       is freely redistributable unmodified for non-commercial purposes
-    {% elif license == 'Proprietary' %}
+    {%- elif license == 'Proprietary' %}
       is proprietary software
-    {% elif license == 'Unknown license' %}
+    {%- elif license == 'Unknown license' %}
       has unknown licensing terms
-    {% else %}
+    {%- else %}
       is distributed under the
       <a href="{{ filekey(license) }}">{{ license }}</a>
     {%- endif -%}.
@@ -96,10 +96,10 @@
           {% if data[host_language].generally_compiled %}
             <li>
               an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-                (we recommend
+                (we suggest
                   {% for impl in related('implementation-of', key=host_language) %}
                     {{ link(impl) }}
-                  {% endfor %}
+                  {% endfor -%}
                 )
               {% if host_platform %}
                 {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
@@ -124,10 +124,10 @@
           an {{ link('mp3') }} player (you're on your own here)
         {% else %}
           an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-          (we recommend
+          (we suggest
             {% for impl in related('implementation-of', key=host_language) %}
               {{ link(impl) }}
-            {% endfor %}
+            {% endfor -%}
           )
           {% if host_platform %}
             for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform

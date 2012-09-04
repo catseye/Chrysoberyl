@@ -34,12 +34,14 @@ gcc -ansi -pedantic:
   implementation-type: compiler
   host-language: C99
   target-language: Native code
+  prebuilt-for-platforms:
+  - Native code
   license: GPL
 
 
 BASIC:
   type: Programming Language Family
-  # close, but "Teaching language" might be better
+  # close, but "Beginner language" might be better
   genre: Pedagogical language
   paradigms:
   - Imperative
@@ -83,6 +85,8 @@ gcc 3.4:
   host-language: C99
   target-language: Native code
   license: GPL
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://gcc.gnu.org/gcc-3.4/
 
@@ -251,6 +255,8 @@ Erlang/OTP R13B:
   implementation-type: interpreter
   host-language: C99
   license: Erlang Public License
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.erlang.org/
 
@@ -264,9 +270,6 @@ Haskell:
   computational-class: shown Turing-complete
   standards-body: http://www.haskell.org/
   authors: []
-  links:
-  - http://www.haskell.org/
-  - http://www.haskell.org/hugs/
   as-a-prerequisite: |
     Any Haskell 98-conforming implementation of Haskell should be able to
     handle the sources for this project. In order to compile a binary with a
@@ -279,8 +282,22 @@ ghc:
   host-language: Haskell
   target-language: Native code
   license: BSD license
+  recommended-implementation: true
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.haskell.org/ghc/
+
+hugs:
+  type: Implementation
+  implementation-of: Haskell
+  implementation-type: interpreter
+  host-language: Unknown language
+  license: Unknown license
+  prebuilt-for-platforms:
+  - Native code
+  links:
+  - http://www.haskell.org/hugs/
 
 
 Java:
@@ -332,6 +349,8 @@ Java SE 6 JDK 1.6.0:
   host-language: Unknown language
   # it's actually the "Oracle Binary Code License Agreement for Java SE"
   license: Unknown license
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html
 
@@ -442,6 +461,8 @@ lua 5.0.3:
   implementation-type: interpreter
   host-language: C99
   license: MIT license
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.lua.org/versions.html#5.0
 
@@ -463,6 +484,8 @@ ilasm:
   implementation-type: compiler
   host-language: Unknown language
   target-language: .NET executable
+  prebuilt-for-platforms:
+  - Native code
   license: Unknown license
 
 
@@ -506,6 +529,8 @@ perl 5.8.8:
   implementation-of: Perl
   implementation-type: interpreter
   host-language: C99
+  prebuilt-for-platforms:
+  - Native code
   license: Artistic License
 
 
@@ -637,6 +662,8 @@ cPython 2.6.7:
   implementation-type: interpreter
   host-language: C99
   license: Unknown license
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://docs.python.org/license.html
 
@@ -672,6 +699,8 @@ R 2.13.1:
   implementation-type: interpreter
   host-language: Unknown language
   license: GPL
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.r-project.org/
 
@@ -694,6 +723,8 @@ ruby 1.8.7:
   implementation-type: interpreter
   host-language: C99
   license: BSD license
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://www.ruby-lang.org/en/downloads/
     http://www.ruby-lang.org/en/about/license.txt
@@ -770,6 +801,9 @@ plt-r5rs:
   implementation-type: interpreter
   host-language: Unknown language
   license: LGPL
+  recommended-implementation: true
+  prebuilt-for-platforms:
+  - Native code
   links:
   - http://racket-lang.org/
 
@@ -906,7 +940,7 @@ Unknown language:
   paradigms: []
   no-specification: true
   authors: []
-  commentary: |
+  description: |
     This node represents the fact that I don't know what language some
     implementation was written in.
 

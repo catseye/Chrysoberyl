@@ -160,23 +160,34 @@ Permit sorting by date.
 
 Dump dates sensibly to JSON.
 
-Have some way to generally recommend a particular implementation
-for this purpose (e.g. generally recommend Perl 5.8.some).
-(If there is only one implementation, just pick it.  Or an implementation
-can specify.)
-
 Even when the language is usually compiled, there might be
 a compiler in some dists but not in others (JRE and JDK.)
 "An implementation of Java that can build" = JDK.
 
 Account for the fact that some implementations can be
 compiled or interpreted under two language (ANSI C and C99
-and Borland C++; or in a more involved way, polyglots.)
-`host-languages`?  yeep.
+and Borland C++; or in a more involved way, polyglots):
+
+    gcc 3.4:
+      implementation-of:
+      - ANSI C
+      - C99
+
+(that's an "and")
+
+    2iota:
+      implementation-of: beta-Juliet
+      host-languages:
+      - ANSI C
+      - C99
+
+(that's an "or")
 
 Competitions and competition results.
 
 ### templates ###
+
+Add indefart_link().
 
 Display online implementation in lingography.  And elsewhere.
 
@@ -205,6 +216,10 @@ Cited in Jargon File --> like esowiki and wikipedia.
 Render competitions and competition results.
 
 bylines for programming language familys and for conlangs
+
+Use `recommended-implementation` to generate "we suggest".
+(If there is only one implementation, just pick it.  Also, in the future,
+an implementation can specify.)
 
 ### content ###
 

@@ -64,10 +64,15 @@
 {% if related('implementation-of') %}
   <h2>Implementations</h2>
   <ul>
-    {% for implementation in related('implementation-of')|sort %}
+    {% for impl in related('implementation-of')|sort %}
       <li>
-        {{ link(implementation) }} in {{ link(data[implementation].host_language) }}
-        {% if data[implementation].host_language == key %}
+        {{ link(impl) }},
+        {% if 'implementation-type' in data[impl] %}
+          {{ indefart(data[impl].implementation_type) }}
+        {% else %}
+        {% endif %}
+        in {{ link(data[impl].host_language) }}
+        {% if data[impl].host_language == key %}
           (Yo dawg, I herd you like {{ key }})
         {% endif %}
       </li>
