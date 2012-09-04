@@ -278,6 +278,25 @@ beta-Juliet:
   etymology:
   - automotive pun
   - feminine given name
+  sample: |
+    event WindowSwitchBroken;
+    event MotionDetectorTriggered;
+    
+    event SystemArmed;
+    event SystemDisarmed;
+    
+    event Alarm,
+     caused after WindowSwitchBroken      when SystemArmed > SystemDisarmed,
+     caused after MotionDetectorTriggered when SystemArmed > SystemDisarmed,
+     causes Alarm.
+     
+    alphabet Domino,
+            One, Two, Three, Four, Five, Six, Seven;
+    event Begin,
+            causes Domino One Falls;
+    event Domino (N = Domino+) Falls,
+            causes Domino (succ N) Falls.
+
 
 b_juliet.pl:
   type: Implementation

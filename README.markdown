@@ -142,10 +142,10 @@ can process the Chrysberyl database.  Things it can do include:
 *   render Jinja2 templates with the data (one file per node)
 *   dump all nodes to a single JSON file
 
-As of this writing, it takes my computer about five seconds to load,
+As of this writing, it takes my computer about seven seconds to load,
 and check the data and render the templates.
 
-The JSON file is, as of this writing, about 700K, meaning that, at
+The JSON file is, as of this writing, less than 400K, meaning that, at
 broadband speeds it only takes a couple of seconds to download, making
 it feasible to implement a client-side query engine for Chrysoberyl
 in Javascript.  The side of this file could also be reduced, possibly
@@ -181,8 +181,6 @@ Article and Mathematical Construct types.
 ### templates ###
 
 Display online implementation in lingography.  And elsewhere.
-
-Display sample code in lingography and language node.
 
 Sort lingography and other collections by date.
 
@@ -226,8 +224,7 @@ Allll those variants of Pixley.
 
 ### perhaps ###
 
-Minimize the size of the dumped JSON: do not include `_html` fields,
-do not include articles, etc.
+Minimize the size of the dumped JSON: do not include articles, etc.
 
 `quotations` on anything?
 

@@ -323,6 +323,11 @@ def convert_chrysoberyl_data(data):
         node.update(new_fields)
         for field in ('description', 'commentary', 'as_a_prerequisite'):
             node[field + '_html'] = markdown_field(data, node, field)
+        if 'sample' in node:
+            node['sample_html'] = markdown.markdown(
+                '\n'.join(['    ' + l for l in node['sample'].split('\n')])
+            )
+            
     print "%d nodes converted." % count
 
 
@@ -606,12 +611,11 @@ if __name__ == '__main__':
         print "Re-run to incorporate docs in loaded data."
         sys.exit(0)
 
-    convert_chrysoberyl_data(data)
-
     if options.json_to:
         with codecs.open(options.json_to, 'w', 'utf-8') as file:
             json.dump(data, file, encoding='utf-8', default=unicode)
 
     if options.render_to:
+        convert_chrysoberyl_data(data)
         r = Renderer(data, 'templates', options.render_to)
         r.render_chrysoberyl_data()
