@@ -485,6 +485,18 @@ class Renderer(object):
         template = self.get_template(key)
         self.render(template, os.path.join(self.output_dir, filekey(key)), context)
 
+    def render_query_page(self):
+        filename = 'query.html'
+        template = self.env.get_template(filename)
+        context = {}
+        context['key'] = 'query'
+        context['filekey'] = filekey
+        def stub():
+            return []
+        context['breadcrumbs'] = stub
+        context['documentation'] = stub
+        self.render(template, os.path.join(self.output_dir, filename), context)
+
     def render_chrysoberyl_data(self):
         count = 0
         for key in data:
@@ -619,3 +631,4 @@ if __name__ == '__main__':
         convert_chrysoberyl_data(data)
         r = Renderer(data, 'templates', options.render_to)
         r.render_chrysoberyl_data()
+        r.render_query_page()
