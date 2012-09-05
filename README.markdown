@@ -173,13 +173,22 @@ and Borland C++; or in a more involved way, polyglots):
       - ANSI C
       - C99
 
+    rube.c:
+      implementation-of: RUBE
+      host-languages:
+      - ANSI C
+      - C99
+      - Borland C
+
 (that's an "or")
 
 Competitions and competition results.
 
 ### templates ###
 
-Add indefart_link().
+Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
+single function format(value, link=True, indefart=True), which
+can handle a scalar or a list and such.  Dunno, maybe.
 
 Display online implementation in lingography.  And elsewhere.
 
@@ -214,8 +223,6 @@ bylines for programming language familys and for conlangs
 Descriptions on my musical compositions.
 
 Clean up retrospective.
-
-Borland C++ as a language (it did have its own libraries.)
 
 shown Turing-complete => Turing-complete, and link to it in places
 

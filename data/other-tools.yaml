@@ -11,10 +11,10 @@ ANSI Terminal:
     or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
     need to be loaded.
 
-Borland C++:
+Borland C++ compiler:
   type: Implementation
   implementation-of:
-  - C++
+  - Borland C
   reference: no
   license: Proprietary
   # I can't guarantee this but I bet

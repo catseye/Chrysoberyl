@@ -20,7 +20,7 @@ Save Alan from the Tar Pit:
     at the goal.  What you can affect to make this happen is to swap the
     semantics of any two symbols.
   commentary: |
-    I originally started writing this in [[Borland C++]] for [[MS-DOS]]
+    I originally started writing this in [[Borland C]] for [[MS-DOS]]
     but gave up rather quickly.  It would be interesting to undertake
     again, perhaps in [[Java]] or PyGame or something, but I doubt I
     will ever find the time.
@@ -108,7 +108,7 @@ Beseige:
     Not really graphical; used a character-based display with OEM graphics
     characters.
     
-    Partially implemented in [[Borland C++]] for [[MS-DOS]], and then
+    Partially implemented in [[Borland C]] for [[MS-DOS]], and then
     I decided to want to do it in assembly -- first Turbo Assembler, then at
     some later point, a half-hearted conversion of the game engine to
     [[NASM Assembler]].

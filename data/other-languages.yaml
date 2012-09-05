@@ -39,6 +39,22 @@ BASIC:
   authors: []
 
 
+Borland C:
+  type: Programming Language
+  genre: Production language
+  variant-of: ANSI C
+  generally-compiled: true
+  no-specification: true
+  # Well, Borland.  duh.
+  authors: []
+  paradigms:
+  - Imperative
+  description: |
+    The dialect of C supported by the [[Borland C++ compiler]] included
+    libraries for writing directly to the console, reading directly from the
+    keyboard, and so forth.
+
+
 C99:
   type: Programming Language
   genre: Production language
