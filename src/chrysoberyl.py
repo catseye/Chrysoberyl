@@ -221,6 +221,8 @@ def check_chrysoberyl_data(data):
 
       if type_ == 'Implementation':
           check_list_ref(data, key, node, 'implementation-of')
+          check_optional_scalar_ref(data, key, node, 'recommended-implementation',
+                                    types=['Implementation'])
 
           # for convenience, bring in the type of the thing being implemented
           # the first thing.  we assume they're all the same type.  but...
@@ -477,6 +479,24 @@ class Renderer(object):
             bc.append(link(TOP))
             bc.reverse()
             return bc
+        
+        def recommended_implementation(key=key):
+            if 'recommended-implementation' in data[key]:
+                return data[key]['recommended-implementation']
+            host_language = data[key]['host-language']
+            impls = related('implementation-of', key=host_language)
+            if len(impls) == 0:
+                return None
+            if len(impls) == 1:
+                return impls[0]
+            candidates = []
+            for impl in impls:
+                if 'generally-recommended' in data[impl]:
+                    candidates.append(impl)
+            if len(candidates) == 1:
+                return candidates[0]
+            raise KeyError("%s: More than one generally recommended implementation" % key)
+
 
         # functions
         context['filekey'] = filekey
@@ -484,6 +504,7 @@ class Renderer(object):
         context['documentation'] = documentation
         context['related_github'] = related_github
         context['github_link'] = github_link
+        context['recommended_implementation'] = recommended_implementation
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs
         context['link'] = link

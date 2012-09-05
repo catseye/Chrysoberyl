@@ -209,10 +209,6 @@ Render competitions and competition results.
 
 bylines for programming language familys and for conlangs
 
-Use `recommended-implementation` to generate "we suggest".
-(If there is only one implementation, just pick it.  Also, in the future,
-an implementation can specify.)
-
 ### content ###
 
 Descriptions on my musical compositions.

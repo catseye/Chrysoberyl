@@ -219,6 +219,7 @@ bef:
   # not strictly
   run-requirements:
   - ANSI Terminal
+  generally-recommended: true
 
 tc.catseye.yoob.befunge93:
   type: Implementation
@@ -1921,6 +1922,7 @@ ndcnc.pl:
   implementation-type: compiler
   host-language: Perl
   target-language: "FALSE"
+  generally-recommended: true
 
 ndcnc.bf:
   type: Implementation

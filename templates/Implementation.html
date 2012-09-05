@@ -12,7 +12,6 @@
 {% endblock byline %}
 
 {% block description %}
-  {# improve this to say "It implements blah and blah" if it does #}
   <p>This is
     {% if reference %}
       the reference
@@ -20,10 +19,15 @@
       an
     {% endif %}
     implementation of the
-    {{ data[implementation_of[0]].type|lower }}
-    {% for impl_of in implementation_of %}
-      {{ link(impl_of) }}
-    {%- endfor -%}.
+    {% if implementation_of|length > 1 %}
+      {{ data[implementation_of[0]].type|lower }}s
+      {{ linked_list(implementation_of) }}.
+    {% else %}
+      {{ data[implementation_of[0]].type|lower }}
+      {% for impl_of in implementation_of %}
+        {{ link(impl_of) }}
+      {%- endfor -%}.
+    {% endif %}
     
     It is
     {% if implementation_type %}
@@ -78,74 +82,76 @@
 
 <h2>Dependencies</h2>
 
-<p>To run this implementation, you need:</p>
-
-<ul>
-  {% if prebuilt_for_platforms|length > 1 %}
-    <li>One of the following:
-      <ul>
-        {% for platform in prebuilt_for_platforms %}
-          <li>an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
-        {% endfor %}
-      </ul>
-    </li>
-  {% elif prebuilt_for_platforms %}
-    <li>an implementation of <a href="{{ filekey(prebuilt_for_platforms[0]) }}">{{ prebuilt_for_platforms[0] }}</a></li>
-  {% else %}
-    {% if data[host_language].generally_compiled or build_requirements %}
-      <li>
-        to build it first, for which you will need:
+{% if prebuilt_for_platforms and prebuilt_for_platforms[0] == 'native code' %}
+  <p>
+    To run this implementation, you need only download and
+    install the appropriate version for your computer and operating system.
+  </p>
+{% else %}
+  <p>To run this implementation, you need:</p>
+  <ul>
+    {% if prebuilt_for_platforms|length > 1 %}
+      <li>One of the following:
         <ul>
-          {% if data[host_language].generally_compiled %}
-            <li>
-              an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-                (we suggest
-                  {% for impl in related('implementation-of', key=host_language) %}
-                    {{ link(impl) }}
-                  {% endfor -%}
-                )
-              {% if host_platform %}
-                {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
-                and the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
-              {% endif %}
-            </li>
-          {% endif %}
-          {% if build_requirements %}
-            {% for requirement in build_requirements %}
-              <li>
-                <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
-              </li>
-            {% endfor %}
-          {% endif %}
+          {% for platform in prebuilt_for_platforms %}
+            <li>an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
+          {% endfor %}
         </ul>
       </li>
-    {% endif %}
-    {% if not data[host_language].generally_compiled %}
-      <li>
-        {# special case to make this not suck #}
-        {% if host_language=='mp3' %}
-          an {{ link('mp3') }} player (you're on your own here)
-        {% else %}
-          an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-          (we suggest
-            {% for impl in related('implementation-of', key=host_language) %}
-              {{ link(impl) }}
-            {% endfor -%}
-          )
-          {% if host_platform %}
-            for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+    {% elif prebuilt_for_platforms %}
+      <li>an implementation of <a href="{{ filekey(prebuilt_for_platforms[0]) }}">{{ prebuilt_for_platforms[0] }}</a></li>
+    {% else %}
+      {% if data[host_language].generally_compiled or build_requirements %}
+        <li>
+          to build it first, for which you will need:
+          <ul>
+            {% if data[host_language].generally_compiled %}
+              <li>
+                an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+                {% if recommended_implementation() %}
+                  (we suggest {{ link(recommended_implementation()) }})
+                {% endif %}
+                {% if host_platform %}
+                  {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
+                  and the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+                {% endif %}
+              </li>
+            {% endif %}
+            {% if build_requirements %}
+              {% for requirement in build_requirements %}
+                <li>
+                  <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </li>
+      {% endif %}
+      {% if not data[host_language].generally_compiled %}
+        <li>
+          {# special case to make this not suck #}
+          {% if host_language=='mp3' %}
+            an {{ link('mp3') }} player (you're on your own here)
+          {% else %}
+            an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+            {% if recommended_implementation() %}
+              (we suggest {{ link(recommended_implementation()) }})
+            {% endif %}
+            {% if host_platform %}
+              for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+            {% endif %}
           {% endif %}
-        {% endif %}
-      </li>
+        </li>
+      {% endif %}
     {% endif %}
-  {% endif %}
-  {% if run_requirements %}
-    {% for requirement in run_requirements %}
-      <li>
-        <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
-      </li>
-    {% endfor %}
-  {% endif %}
-</ul>
+    {% if run_requirements %}
+      {% for requirement in run_requirements %}
+        <li>
+          <a href="{{ filekey(requirement) }}">{{ requirement }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+{% endif %}
 
 {% endblock content %}
