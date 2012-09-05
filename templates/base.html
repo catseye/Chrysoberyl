@@ -65,6 +65,27 @@
       {% endif %}
     {% endblock description %}
 
+    {% block awards %}
+      {% if submitted_to %}
+        <h2>Submitted to Competitions</h2>
+        <ul>
+          {% for sub in submitted_to %}
+            <li>
+              {{ link(sub.competition) }}
+              {% if sub.prize %}
+                -- {{ sub.prize }}
+              {% else %}
+                (no prize)
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}    
+    {% endblock awards %}
+
+    {% block properties %}
+    {% endblock properties %}
+
     {% block documentation %}
       {% if documentation() %}
         <div id="documentation">

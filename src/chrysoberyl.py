@@ -191,6 +191,9 @@ def check_chrysoberyl_data(data):
       # These two fields go together.
       if 'auspices' in node:
           assert 'authors' in node, "auspices but no authors in '%s'" % key
+      if 'submitted-to' in node:
+          for sub in node['submitted-to']:
+              check_scalar_ref(data, key, sub, 'competition', types=['Competition'])
 
       # Every node may have these, and they may have internal links.
       description = None

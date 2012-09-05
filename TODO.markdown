@@ -29,8 +29,6 @@ and Borland C++; or in a more involved way, polyglots):
 
 (that's an "or")
 
-Competitions and competition results.
-
 ### templates ###
 
 Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
@@ -61,7 +59,7 @@ Terminology on music pages:
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-Render competitions and competition results.
+For a competition, list all submissions.
 
 bylines for programming language familys and for conlangs
 
@@ -72,6 +70,11 @@ On a programming language, display its computational class.
 ### content ###
 
 Allll those variants of Pixley.
+
+
+
+
+
 
 ### perhaps ###
 

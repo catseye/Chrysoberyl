@@ -19,6 +19,8 @@ Individual:
   type: type
 Organization:
   type: type
+Competition:
+  type: type
 Programming Paradigm:
   type: type
 Language Construct:
