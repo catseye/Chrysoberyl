@@ -97,9 +97,8 @@ DOSBox:
   - MS-DOS
   implementation-type: emulator
   prebuilt-for-platforms:
-  - Windows
-  - Linux
-  - MacOS
+  - native code
+  generally-recommended: true
   host-language: C++
   license: GPL
   links:

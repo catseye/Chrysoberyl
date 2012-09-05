@@ -483,11 +483,10 @@ class Renderer(object):
             bc.reverse()
             return bc
         
-        def recommended_implementation(key=key):
+        def recommended_implementation(implementable, key=key):
             if 'recommended-implementation' in data[key]:
                 return data[key]['recommended-implementation']
-            host_language = data[key]['host-language']
-            impls = related('implementation-of', key=host_language)
+            impls = related('implementation-of', key=implementable)
             if len(impls) == 0:
                 return None
             if len(impls) == 1:
@@ -498,7 +497,7 @@ class Renderer(object):
                     candidates.append(impl)
             if len(candidates) == 1:
                 return candidates[0]
-            raise KeyError("%s: More than one generally recommended implementation" % key)
+            raise KeyError("%s/%s: More than one generally recommended implementation" % (key, implementable))
 
 
         # functions

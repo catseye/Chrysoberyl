@@ -98,13 +98,12 @@ VICE x64:
   - Commodore 64
   implementation-type: emulator
   prebuilt-for-platforms:
-  - Windows
-  - Linux
-  - MacOS
+  - native code
   license: GPL
   links:
   - 'http://vice-emu.sourceforge.net/'
   host-language: C99
+  generally-recommended: true
   description: |
     The VICE distribution actually contains emulators for many
     Commodore computers: Commodore 64, Commodore 128, Vic 20, PET, etc,
@@ -167,9 +166,7 @@ Bochs:
   implementation-of:
   - IBM PC compatible
   prebuilt-for-platforms:
-  - Windows
-  - Linux
-  - MacOS
+  - native code
   links:
   - 'http://bochs.sourceforge.net/'
   license: LGPL

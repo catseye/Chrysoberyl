@@ -94,12 +94,22 @@
       <li>One of the following:
         <ul>
           {% for platform in prebuilt_for_platforms %}
-            <li>an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
+            <li>
+              an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
+              {% if recommended_implementation(platform) %}
+                (we suggest {{ link(recommended_implementation(platform)) }})
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
       </li>
     {% elif prebuilt_for_platforms %}
-      <li>an implementation of <a href="{{ filekey(prebuilt_for_platforms[0]) }}">{{ prebuilt_for_platforms[0] }}</a></li>
+      <li>
+        an implementation of <a href="{{ filekey(prebuilt_for_platforms[0]) }}">{{ prebuilt_for_platforms[0] }}</a>
+        {% if recommended_implementation(prebuilt_for_platforms[0]) %}
+          (we suggest {{ link(recommended_implementation(prebuilt_for_platforms[0])) }})
+        {% endif %}
+      </li>
     {% else %}
       {% if data[host_language].generally_compiled or build_requirements %}
         <li>
@@ -108,8 +118,8 @@
             {% if data[host_language].generally_compiled %}
               <li>
                 an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-                {% if recommended_implementation() %}
-                  (we suggest {{ link(recommended_implementation()) }})
+                {% if recommended_implementation(host_language) %}
+                  (we suggest {{ link(recommended_implementation(host_language)) }})
                 {% endif %}
                 {% if host_platform %}
                   {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
@@ -134,8 +144,8 @@
             an {{ link('mp3') }} player (you're on your own here)
           {% else %}
             an implementation of <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-            {% if recommended_implementation() %}
-              (we suggest {{ link(recommended_implementation()) }})
+            {% if recommended_implementation(host_language) %}
+              (we suggest {{ link(recommended_implementation(host_language)) }})
             {% endif %}
             {% if host_platform %}
               for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
