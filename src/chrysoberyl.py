@@ -13,6 +13,7 @@ import json
 from optparse import OptionParser
 import os
 import re
+import shutil
 import sys
 
 import jinja2
@@ -334,6 +335,7 @@ def convert_chrysoberyl_data(data):
 def filekey(key):
     key = re.sub(r'(\/|\s|\:|\#)', '_', key)
     key = re.sub(u'ü', 'ue', key)
+    key = re.sub(u'ö', 'oe', key)
     key = re.sub(u'é', 'e', key)
     return key + ".html"
 
@@ -483,19 +485,8 @@ class Renderer(object):
         context['linked_list'] = linked_list
 
         template = self.get_template(key)
-        self.render(template, os.path.join(self.output_dir, filekey(key)), context)
-
-    def render_query_page(self):
-        filename = 'query.html'
-        template = self.env.get_template(filename)
-        context = {}
-        context['key'] = 'query'
-        context['filekey'] = filekey
-        def stub():
-            return []
-        context['breadcrumbs'] = stub
-        context['documentation'] = stub
-        self.render(template, os.path.join(self.output_dir, filename), context)
+        filename = os.path.join(self.output_dir, filekey(key))
+        self.render(template, filename, context)
 
     def render_chrysoberyl_data(self):
         count = 0
@@ -588,18 +579,16 @@ if __name__ == '__main__':
                          dest="data_dir", metavar='DIR', default='data',
                          help="specify location of the Chrysoberyl "
                               "Yaml data files (default: data)")
-    optparser.add_option("-j", "--json-to",
-                         dest="json_to", metavar='FILE',
-                         help="dump all nodes as JSON")
     optparser.add_option("-l", "--check-links",
                          dest="check_links", action='store_true',
                          default=False,
                          help="check all web links for sanity "
                               "(no 404's, etc.)")
-    optparser.add_option("-r", "--render-to",
-                         dest="render_to", metavar='DIR',
+    optparser.add_option("-o", "--output-to",
+                         dest="output_to", metavar='DIR',
                          help="render all nodes (as HTML5 files) and "
-                              "write into given directory")
+                              "write them, and supporting materials, "
+                              "into the given directory")
     optparser.add_option("-t", "--troll-docs",
                          dest="troll_docs", action='store_true',
                          default=False,
@@ -623,12 +612,12 @@ if __name__ == '__main__':
         print "Re-run to incorporate docs in loaded data."
         sys.exit(0)
 
-    if options.json_to:
-        with codecs.open(options.json_to, 'w', 'utf-8') as file:
-            json.dump(data, file, encoding='utf-8', default=unicode)
-
-    if options.render_to:
+    if options.output_to:
         convert_chrysoberyl_data(data)
-        r = Renderer(data, 'templates', options.render_to)
+        r = Renderer(data, 'templates', options.output_to)
         r.render_chrysoberyl_data()
-        r.render_query_page()
+        filename = os.path.join(options.output_to, 'chrysoberyl.json')
+        with codecs.open(filename, 'w', 'utf-8') as file:
+            json.dump(data, file, encoding='utf-8', default=unicode)
+        for filename in ['chrysoberyl-query.js']:
+            shutil.copy("static/%s" % filename, options.output_to)

@@ -1,0 +1,7 @@
+# encoding: UTF-8
+"Chrysoberyl: Query":
+  # for now...
+  type: Concept
+  description: |
+    This page allows you to perform an advanced query on the contents
+    of [[Chrysoberyl]].
