@@ -220,10 +220,6 @@ bylines for programming language familys and for conlangs
 
 ### content ###
 
-Descriptions on my musical compositions.
-
-Clean up retrospective.
-
 shown Turing-complete => Turing-complete, and link to it in places
 
 Allll those variants of Pixley.

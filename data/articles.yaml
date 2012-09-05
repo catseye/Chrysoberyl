@@ -87,7 +87,7 @@
     "zzo38" Black](http://zzo38computer.cjb.net/). But sheer numbers aren't
     everything. Unlike zzo38, the majority of my designs have been
     implemented, and unlike Wouter, the majority of my designs and
-    implementations are publicly available from [my website](/).
+    implementations are publicly available from [[catseye.tc|my website]].
     
     So I might be led to consider other ways to measure my success as a
     language designer. What about popularity? Alas, it seems that I am third
@@ -136,20 +136,15 @@
     Another group are the "merely interesting" languages which don't really
     count as esolangs because they're just too normal, perhaps even
     attempting to solve a practical problem; this would include at least
-    [ETHEL](lingography.html#ETHEL), [Bhuna](lingography.html#bhuna),
-    [Iphigeneia](lingography.html#iphi),
-    [Arboretuum](lingography.html#arboretuum),
-    [Treacle](lingography.html#treacle), and
-    [Dieter](lingography.html#dieter), and anything I design any time I
+    [[ETHEL]], [[Bhuna]], [[Iphigeneia]], [[Arboretuum]], [[Treacle]],
+    [[Dieter]], and anything I design any time I
     start getting fed up with the state of modern mainstream languages and
     think I can do better. (I don't usually try to publish those.)
     
     A third group is made up of "strange exercises"; languages which are
     designed around some principle which turns out to have unusal effects.
-    This could include [Sally](lingography.html#sally),
-    [Larabee](lingography.html#larabee),
-    [Mascarpone](lingography.html#mascarpone), and
-    [Unlikely](lingography.html#unlikely).
+    This could include [[Sally]], [[Larabee]], [[Mascarpone]],and
+    [[Unlikely]].
     
     But probably my favourite design category is the "impossible language".
     Pick a combination of features which appears absurd and contradictory,
@@ -157,15 +152,15 @@
     tease out a labrythine connection which allows it to exist. Whether that
     be a machine language with no branch instructions — none at all — like
     [[SMITH]], or a non-deterministic imperative
-    language like [[Strelnokoff]], or a conlang
-    without word order like [Opus-2](lingography.html#opus-2), or a language
+    language like [[Strelnokoff]], or a [[Conlang|conlang]]
+    without word order like [[Opus-2]], or a language
     with only infix operators but no precedence table like
-    [Hev](lingography.html#hev), or a Turing-equivalent language with only
-    `foreach` like [Quylthulg](lingography.html#quylthulg), or a language
+    [[Hev]], or a Turing-equivalent language with only
+    `foreach` like [[Quylthulg]], or a language
     with memory-mapped loops like [[ZOWIE]], or a
     language where the only means of control flow is throwing and catching
-    lexical exceptions like [Okapi](lingography.html#Okapi), or an
-    imperative string-rewriting language like Pophery (under
+    lexical exceptions like [[Okapi]], or an
+    imperative string-rewriting language like [[Pophery]] (under
     construction)... the results are usually highly entertaining.
     
     What are my favourite esolangs, you ask? Well, the three I listed
@@ -192,7 +187,7 @@
     After the idea has proven promising enough to make it into the notebook,
     there comes a period of time known as development. The idea is almost
     never a full-formed language, so it must grow into one, although
-    sometimes it [never reaches that stage](louie.html). This is actually
+    sometimes it [[LoUIE|never reaches that stage]]. This is actually
     why I try to implement my designs whenever I can; implementation fleshes
     out the grey areas and lays bare any places where the design falls
     apart. It usually leads to a more solid theme or paradigm inside the
