@@ -13,8 +13,9 @@ ANSI C:
   - title: ANSI C docs
     description: Interesting documents about the standardization of C
     url: http://www.lysator.liu.se/c/
-  as-a-prerequisite: |
-    The C-language source files in this project conform to C89 (also,
+  commentary: |
+    When an implementation here says it requires ANSI C, in (in theory)
+    means that the source files in it conform to C89 (also,
     and more popularly, known as ANSI C.)
     We usually test them with [gcc 3.4](http://gcc.gnu.org/gcc-3.4/),
     but they may work with a gcc version as old as
@@ -59,8 +60,9 @@ C99:
   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
   links:
   - http://www.opengroup.org/onlinepubs/9699919799/
-  as-a-prerequisite: |
-    The C-language source files in this project conform to the C99 standard.
+  commentary: |
+    When an implementation here says it requires C99, it (in theory)
+    means that the source files in it conform to the C99 standard.
     These souce files generally are such that they *would* compile with the
     `-ansi` flag *except* that they rely on libraries specified by the Single
     UNIX Specification version 3 (also, and more popularly, known as POSIX)
@@ -270,10 +272,6 @@ Haskell:
   computational-class: shown Turing-complete
   standards-body: http://www.haskell.org/
   authors: []
-  as-a-prerequisite: |
-    Any Haskell 98-conforming implementation of Haskell should be able to
-    handle the sources for this project. In order to compile a binary with a
-    Haskell compiler such as `ghc`, you may need to add some driver code.
 
 ghc:
   type: Implementation
@@ -318,27 +316,6 @@ Java:
   - title: Java Specs
     description: The Java™ Virtual Machine and Language Specifications
     url: http://docs.oracle.com/javase/specs/
-  as-a-prerequisite: |
-    Java SE 6 JDK 1.6.0
-    
-    Some or all of the programs are written in Java 6 source code, and
-    creating Java classes from them requires a copy of the Java Development
-    Kit, version 1.6.0 or later, or a fully-compatible compilation
-    environment.
-    
-    Note that the Java source code lives in the project's `src` directory,
-    and a Java compiler such as the one which ships with JDK 1.6.0 is
-    required to build the class files from the sources.
-    
-    Java SE 6 JRE 1.6.0
-    
-    Some or all of the programs this project are implemented by Java 6
-    classes, and running them requires a copy of the Java Runtime
-    Environment, version 1.6.0 or later, or a fully-compatible runtime
-    environment.
-    
-    Note that compiled Java classes are `.class` files in some subdirectory
-    of the project's `bin` directory.
 
 Java SE 6 JDK 1.6.0:
   type: Implementation
@@ -353,6 +330,11 @@ Java SE 6 JDK 1.6.0:
   - Native code
   links:
   - http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html
+  commentary: |
+    Because most of our distributions which include a Java implementation also
+    include prebuilt `.class` files, all you really need to run them is the
+    Java SE 6 JRE 1.6.0 from Oracle.  But we suggest installing the JDK, in case
+    you want to rebuild the `.class` files.
 
 
 Javascript:
@@ -443,16 +425,6 @@ Lua:
   - title: Lua
     description: Official Lua website
     url: http://www.lua.org/
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Lua scripts, and running
-    them requires a Lua interpreter, version 5.0.x. (The latest version, as
-    of this writing, is 5.0.3, and this version is recommended. Note that
-    the 5.1.x series of Lua is not generally compatible with the 5.0.x
-    series.)
-    
-    While there are several implementations of Lua, we're not aware of any
-    standards documents defining the language aside from the reference
-    implementation produced by the Lua project, which we've linked to here.
 
 lua 5.0.3:
   type: Implementation
@@ -465,7 +437,10 @@ lua 5.0.3:
   - Native code
   links:
   - http://www.lua.org/versions.html#5.0
-
+  commentary: |
+    Note that
+    the 5.1.x series of Lua is not generally compatible with the 5.0.x
+    series.
 
 MSIL:
   type: Programming Language

@@ -148,7 +148,7 @@ and check the data and render the templates.
 The JSON file is, as of this writing, less than 400K, meaning that, at
 broadband speeds it only takes a couple of seconds to download, making
 it feasible to implement a client-side query engine for Chrysoberyl
-in Javascript.  The side of this file could also be reduced, possibly
+in Javascript.  The size of this file could also be reduced, possibly
 substantially.
 
 TODO
@@ -159,10 +159,6 @@ TODO
 Permit sorting by date.
 
 Dump dates sensibly to JSON.
-
-Even when the language is usually compiled, there might be
-a compiler in some dists but not in others (JRE and JDK.)
-"An implementation of Java that can build" = JDK.
 
 Account for the fact that some implementations can be
 compiled or interpreted under two language (ANSI C and C99
@@ -265,3 +261,7 @@ Have some way to indicate, on the implementation, that it needs
 building, even if the language is not always compiled (Haskell.)
 Actually, it's usually obvious if a Haskell impl needs building, and
 usually optional, but anyway.
+
+Even when the language is usually compiled, there might be
+a compiler in some dists but not in others (JRE and JDK.)
+"An implementation of Java that can build" = JDK.
