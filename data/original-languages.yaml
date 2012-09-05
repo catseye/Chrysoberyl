@@ -32,7 +32,8 @@ ALPACA:
 
 alpaca.pl:
   type: Implementation
-  implementation-of: ALPACA
+  implementation-of:
+  - ALPACA
   reference: true
   in-distribution: ALPACA distribution
   license: BSD license
@@ -62,7 +63,8 @@ Apple Befunge:
 
 APPLE BEFUNGE EDITOR:
   type: Implementation
-  implementation-of: Apple Befunge
+  implementation-of:
+  - Apple Befunge
   reference: true
   development-stage: archival
   in-distribution: Apple Befunge distribution
@@ -119,7 +121,8 @@ Arboretuum:
 
 forest-rewriter.scm:
   type: Implementation
-  implementation-of: Arboretuum
+  implementation-of:
+  - Arboretuum
   in-distribution: Arboretuum distribution
   reference: true
   license: BSD license
@@ -151,7 +154,8 @@ Bear Food:
 
 bearfood.pl:
   type: Implementation
-  implementation-of: Bear Food
+  implementation-of:
+  - Bear Food
   reference: true
   license: Unknown license
   implementation-type: interpreter
@@ -204,7 +208,8 @@ Befunge-93:
 
 bef:
   type: Implementation
-  implementation-of: Befunge-93
+  implementation-of:
+  - Befunge-93
   reference: true
   in-distribution: Befunge-93 distribution
   license: BSD license
@@ -217,7 +222,8 @@ bef:
 
 tc.catseye.yoob.befunge93:
   type: Implementation
-  implementation-of: Befunge-93
+  implementation-of:
+  - Befunge-93
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -300,7 +306,8 @@ beta-Juliet:
 
 b_juliet.pl:
   type: Implementation
-  implementation-of: beta-Juliet
+  implementation-of:
+  - beta-Juliet
   in-distribution: beta-Juliet distribution
   license: BSD license
   implementation-type: interpreter
@@ -308,7 +315,8 @@ b_juliet.pl:
 
 2iota:
   type: Implementation
-  implementation-of: beta-Juliet
+  implementation-of:
+  - beta-Juliet
   reference: true
   in-distribution: beta-Juliet distribution
   license: BSD license
@@ -362,7 +370,8 @@ Beturing:
 
 beturing.lua:
   type: Implementation
-  implementation-of: Beturing
+  implementation-of:
+  - Beturing
   in-distribution: Beturing distribution
   reference: true
   license: BSD license
@@ -404,7 +413,8 @@ Bhuna:
 bhuna:
   type: Implementation
   development-stage: archival
-  implementation-of: Bhuna
+  implementation-of:
+  - Bhuna
   in-distribution: Bhuna distribution
   reference: true
   license: BSD license
@@ -446,7 +456,8 @@ Braktif:
 
 braktif.alp:
   type: Implementation
-  implementation-of: Braktif
+  implementation-of:
+  - Braktif
   reference: true
   prebuilt-for-platforms:
   - Perl
@@ -500,7 +511,8 @@ Burro:
 
 Burro.lhs:
   type: Implementation
-  implementation-of: Burro
+  implementation-of:
+  - Burro
   in-distribution: Burro distribution
   reference: true
   license: Unknown license
@@ -537,7 +549,8 @@ Cabra:
 
 cabra.hs:
   type: Implementation
-  implementation-of: Cabra
+  implementation-of:
+  - Cabra
   in-distribution: Cabra distribution
   reference: true
   license: Unknown license
@@ -584,7 +597,8 @@ Circute:
 
 tc.catseye.yoob.circute:
   type: Implementation
-  implementation-of: Circute
+  implementation-of:
+  - Circute
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -595,7 +609,8 @@ tc.catseye.yoob.circute:
 
 circute.alp:
   type: Implementation
-  implementation-of: Circute
+  implementation-of:
+  - Circute
   reference: true
   in-distribution: Circute distribution
   prebuilt-for-platforms:
@@ -644,7 +659,8 @@ Cfluviurrh:
 
 cfluviurrh:
   type: Implementation
-  implementation-of: Cfluviurrh
+  implementation-of:
+  - Cfluviurrh
   reference: true
   in-distribution: Cfluviurrh distribution
   license: BSD license
@@ -731,7 +747,8 @@ Dieter:
 
 dieter.py:
   type: Implementation
-  implementation-of: Dieter
+  implementation-of:
+  - Dieter
   in-distribution: Dieter distribution
   reference: true
   license: BSD license
@@ -788,7 +805,8 @@ Eightebed:
 
 8ebed2c.py:
   type: Implementation
-  implementation-of: Eightebed
+  implementation-of:
+  - Eightebed
   in-distribution: Eightebed distribution
   reference: yes
   license: BSD license
@@ -825,7 +843,8 @@ Emmental:
 
 emmental.hs:
   type: Implementation
-  implementation-of: Emmental
+  implementation-of:
+  - Emmental
   in-distribution: Emmental distribution
   reference: true
   license: BSD license
@@ -866,7 +885,8 @@ Etcha:
 
 tc.catseye.etcha:
   type: Implementation
-  implementation-of: Etcha
+  implementation-of:
+  - Etcha
   in-distribution: Etcha distribution
   prebuilt-for-platforms:
   - Java
@@ -877,7 +897,8 @@ tc.catseye.etcha:
 
 tc.catseye.yoob.etcha:
   type: Implementation
-  implementation-of: Etcha
+  implementation-of:
+  - Etcha
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -911,7 +932,8 @@ ETHEL:
 
 ethel.pl:
   type: Implementation
-  implementation-of: ETHEL
+  implementation-of:
+  - ETHEL
   license: Proprietary
   host-language: Perl
   implementation-type: interpreter
@@ -952,7 +974,8 @@ Flobnar:
 
 Flobnar.hs:
   type: Implementation
-  implementation-of: Flobnar
+  implementation-of:
+  - Flobnar
   in-distribution: Flobnar distribution
   reference: true
   license: BSD license
@@ -1085,7 +1108,8 @@ Trefunge-98:
 
 FBBI:
   type: Implementation
-  implementation-of: Befunge-98
+  implementation-of:
+  - Befunge-98
   acronym-for: Flaming Bovine Befunge Interpreter
   description: |
     The _Flaming Bovine Befunge Interpreter_ is
@@ -1144,7 +1168,8 @@ Gemooy:
 
 tc.catseye.yoob.gemooy:
   type: Implementation
-  implementation-of: Gemooy
+  implementation-of:
+  - Gemooy
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -1186,7 +1211,8 @@ GraNoLa/M:
 
 granolam.erl:
   type: Implementation
-  implementation-of: GraNoLa/M
+  implementation-of:
+  - GraNoLa/M
   in-distribution: GraNoLa/M distribution
   reference: true
   license: Public Domain
@@ -1219,7 +1245,8 @@ Hev:
 
 Hev.hs:
   type: Implementation
-  implementation-of: Hev
+  implementation-of:
+  - Hev
   in-distribution: Hev distribution
   reference: true
   license: BSD license
@@ -1271,7 +1298,8 @@ Hunter:
 
 hunter.pl:
   type: Implementation
-  implementation-of: Hunter
+  implementation-of:
+  - Hunter
   in-distribution: Hunter distribution
   reference: true
   license: BSD license
@@ -1308,7 +1336,8 @@ ILLGOL:
 
 illgol.exe:
   type: Implementation
-  implementation-of: ILLGOL
+  implementation-of:
+  - ILLGOL
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1345,7 +1374,8 @@ Illgola-2:
 
 illgola2.exe:
   type: Implementation
-  implementation-of: Illgola-2
+  implementation-of:
+  - Illgola-2
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1382,7 +1412,8 @@ Illberon:
 # uhhhhhhh...
 i3pp.pl:
   type: Implementation
-  implementation-of: Illberon
+  implementation-of:
+  - Illberon
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   # preprocessor...
@@ -1412,7 +1443,8 @@ Open Sores Illgol##:
 
 Open Sores Illgol## (C):
   type: Implementation
-  implementation-of: Open Sores Illgol##
+  implementation-of:
+  - Open Sores Illgol##
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1457,7 +1489,8 @@ Iphigeneia:
 
 iphi:
   type: Implementation
-  implementation-of: Iphigeneia
+  implementation-of:
+  - Iphigeneia
   in-distribution: Iphigeneia distribution
   reference: true
   license: Unknown license
@@ -1560,7 +1593,8 @@ Jacciata:
 
 jaccia.alp:
   type: Implementation
-  implementation-of: Jaccia
+  implementation-of:
+  - Jaccia
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
@@ -1571,7 +1605,8 @@ jaccia.alp:
 
 jacciata.alp:
   type: Implementation
-  implementation-of: Jacciata
+  implementation-of:
+  - Jacciata
   reference: true
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
@@ -1607,7 +1642,8 @@ Kangaroo Iceberg:
 
 kiceberg:
   type: Implementation
-  implementation-of: Kangaroo Iceberg
+  implementation-of:
+  - Kangaroo Iceberg
   in-distribution: Kangaroo Iceberg distribution
   reference: true
   license: BSD license
@@ -1681,7 +1717,8 @@ Larabee:
 
 larabee.scm:
   type: Implementation
-  implementation-of: Larabee
+  implementation-of:
+  - Larabee
   in-distribution: Larabee distribution
   reference: true
   license: BSD license
@@ -1778,7 +1815,8 @@ Maentwrog:
 
 maentw.c:
   type: Implementation
-  implementation-of: Maentwrog
+  implementation-of:
+  - Maentwrog
   in-distribution: Maentwrog distribution
   license: Freely Redistributable
   reference: yes
@@ -1819,7 +1857,8 @@ Mascarpone:
 
 mascarpone.hs:
   type: Implementation
-  implementation-of: Mascarpone
+  implementation-of:
+  - Mascarpone
   in-distribution: Mascarpone distribution
   license: BSD license
   reference: yes
@@ -1875,7 +1914,8 @@ MDPN:
 
 ndcnc.pl:
   type: Implementation
-  implementation-of: "'N-DCNC"
+  implementation-of:
+  - "'N-DCNC"
   reference: true
   license: Unknown license
   implementation-type: compiler
@@ -1884,7 +1924,8 @@ ndcnc.pl:
 
 ndcnc.bf:
   type: Implementation
-  implementation-of: "'N-DCNC"
+  implementation-of:
+  - "'N-DCNC"
   license: Unknown license
   implementation-type: compiler
   host-language: Befunge-93
@@ -1924,7 +1965,8 @@ Nhohnhehr:
 
 nhohnhehr.py:
   type: Implementation
-  implementation-of: Nhohnhehr
+  implementation-of:
+  - Nhohnhehr
   in-distribution: Nhohnhehr distribution
   authors:
   - Marinus
@@ -1978,7 +2020,8 @@ nhohnhehr.py:
 
 worb.pl:
   type: Implementation
-  implementation-of: noit o' mnain worb
+  implementation-of:
+  - noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
   license: BSD license
   reference: yes
@@ -1987,7 +2030,8 @@ worb.pl:
 
 tc.catseye.yoob.worb:
   type: Implementation
-  implementation-of: noit o' mnain worb
+  implementation-of:
+  - noit o' mnain worb
   in-distribution: noit o' mnain worb distribution
   license: BSD license
   implementation-type: interpreter
@@ -2015,7 +2059,8 @@ Okapi:
 
 okapi.py:
   type: Implementation
-  implementation-of: Okapi
+  implementation-of:
+  - Okapi
   reference: true
   license: Proprietary
   implementation-type: interpreter
@@ -2106,7 +2151,8 @@ Pail:
 
 Pail.lhs:
   type: Implementation
-  implementation-of: Pail
+  implementation-of:
+  - Pail
   in-distribution: Pail distribution
   reference: true
   license: BSD license
@@ -2151,7 +2197,8 @@ Pixley:
 
 pixley.pix:
   type: Implementation
-  implementation-of: Pixley
+  implementation-of:
+  - Pixley
   in-distribution: Pixley distribution
   reference: true
   license: BSD license
@@ -2184,7 +2231,8 @@ Quylthulg:
 
 Qlzqqlzuup, the Lord of Flesh:
   type: Implementation
-  implementation-of: Quylthulg
+  implementation-of:
+  - Quylthulg
   in-distribution: Quylthulg distribution
   reference: true
   license: BSD license
@@ -2233,7 +2281,8 @@ REDGREEN:
 
 redgreen.alp:
   type: Implementation
-  implementation-of: REDGREEN
+  implementation-of:
+  - REDGREEN
   reference: true
   in-distribution: REDGREEN distribution
   prebuilt-for-platforms:
@@ -2279,7 +2328,8 @@ RUBE:
 
 rube.c:
   type: Implementation
-  implementation-of: RUBE
+  implementation-of:
+  - RUBE
   in-distribution: RUBE distribution
   reference: true
   license: BSD license
@@ -2317,7 +2367,8 @@ Sally:
 
 sally2c:
   type: Implementation
-  implementation-of: Sally
+  implementation-of:
+  - Sally
   in-distribution: Sally distribution
   reference: true
   license: BSD license
@@ -2349,7 +2400,8 @@ Sbeezg:
 
 sbeezg.erl:
   type: Implementation
-  implementation-of: Sbeezg
+  implementation-of:
+  - Sbeezg
   in-distribution: Sbeezg distribution
   prebuilt-for-platforms:
   - Erlang
@@ -2391,7 +2443,8 @@ Shelta:
 
 shelta:
   type: Implementation
-  implementation-of: Shelta
+  implementation-of:
+  - Shelta
   reference: true
   in-distribution: Shelta distribution
   prebuilt-for-platforms:
@@ -2405,7 +2458,8 @@ shelta:
 
 sheltas:
   type: Implementation
-  implementation-of: Shelta
+  implementation-of:
+  - Shelta
   in-distribution: Shelta distribution
   prebuilt-for-platforms:
   - MS-DOS
@@ -2451,7 +2505,8 @@ SMETANA:
 
 smetana.pl:
   type: Implementation
-  implementation-of: SMETANA
+  implementation-of:
+  - SMETANA
   in-distribution: SMETANA distribution
   license: Public Domain
   reference: yes
@@ -2460,7 +2515,8 @@ smetana.pl:
 
 tc.catseye.yoob.smetana:
   type: Implementation
-  implementation-of: SMETANA
+  implementation-of:
+  - SMETANA
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -2514,7 +2570,8 @@ SMITH:
 
 smith.pl:
   type: Implementation
-  implementation-of: SMITH
+  implementation-of:
+  - SMITH
   in-distribution: SMITH distribution
   reference: true
   license: BSD license
@@ -2548,7 +2605,8 @@ Squishy2K:
 
 squishy2k.pl:
   type: Implementation
-  implementation-of: Squishy2K
+  implementation-of:
+  - Squishy2K
   in-distribution: Squishy2K distribution
   reference: true
   license: BSD license
@@ -2601,7 +2659,8 @@ Strelnokoff:
 
 strelnokoff.pl:
   type: Implementation
-  implementation-of: Strelnokoff
+  implementation-of:
+  - Strelnokoff
   in-distribution: Strelnokoff distribution
   reference: true
   license: BSD license
@@ -2672,7 +2731,8 @@ Treacle:
 
 treacle.scm:
   type: Implementation
-  implementation-of: Treacle
+  implementation-of:
+  - Treacle
   in-distribution: Treacle distribution
   license: Unknown license
   reference: true
@@ -2747,7 +2807,8 @@ Unlikely:
 
 Coldwater:
   type: Implementation
-  implementation-of: Unlikely
+  implementation-of:
+  - Unlikely
   in-distribution: Unlikely distribution
   reference: true
   license: BSD license
@@ -2781,7 +2842,8 @@ Velo:
 
 velo.rb:
   type: Implementation
-  implementation-of: Velo
+  implementation-of:
+  - Velo
   in-distribution: Velo distribution
   license: Unknown license
   reference: true
@@ -2829,7 +2891,8 @@ Version:
 
 version.pl:
   type: Implementation
-  implementation-of: Version
+  implementation-of:
+  - Version
   in-distribution: Version distribution
   license: BSD license
   reference: true
@@ -2873,7 +2936,8 @@ Whothm:
 
 tc.catseye.whothm:
   type: Implementation
-  implementation-of: Whothm
+  implementation-of:
+  - Whothm
   in-distribution: Whothm distribution
   prebuilt-for-platforms:
   - Java
@@ -2926,7 +2990,8 @@ Wierd:
 wierd.c:
   type: Implementation
   # well, "John Wierd"
-  implementation-of: Wierd
+  implementation-of:
+  - Wierd
   in-distribution: Wierd distribution
   authors:
   - John Colagioia
@@ -2937,7 +3002,8 @@ wierd.c:
 wierd-milo.c:
   type: Implementation
   # well, "Milo Wierd"
-  implementation-of: Wierd
+  implementation-of:
+  - Wierd
   in-distribution: Wierd distribution
   authors:
   - Milo van Handel
@@ -2998,7 +3064,8 @@ Wunnel:
 
 tc.catseye.yoob.wunnel:
   type: Implementation
-  implementation-of: Wunnel
+  implementation-of:
+  - Wunnel
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -3040,7 +3107,8 @@ Xigxag:
 
 xigxag.pl:
   type: Implementation
-  implementation-of: Xigxag
+  implementation-of:
+  - Xigxag
   in-distribution: Xigxag distribution
   reference: true
   license: Public Domain
@@ -3157,7 +3225,8 @@ Ypsilax:
 
 ypsilax.pl:
   type: Implementation
-  implementation-of: Ypsilax
+  implementation-of:
+  - Ypsilax
   in-distribution: Ypsilax distribution
   reference: true
   license: BSD license
@@ -3166,7 +3235,8 @@ ypsilax.pl:
 
 tc.catseye.yoob.ypsilax:
   type: Implementation
-  implementation-of: Ypsilax
+  implementation-of:
+  - Ypsilax
   in-distribution: Ypsilax distribution
   license: Public Domain
   implementation-type: interpreter
@@ -3209,7 +3279,8 @@ ZOWIE:
 
 zowie.py:
   type: Implementation
-  implementation-of: ZOWIE
+  implementation-of:
+  - ZOWIE
   reference: true
   in-distribution: ZOWIE distribution
   license: Public Domain

@@ -90,6 +90,9 @@ may be in zero or more distributions, and a distribution may contain multiple
 implementations.  Only one implementation can be the reference implementation
 for an implementable.
 
+An implementation may be an implementation of multiple implementables.
+(For example, `gcc` is an implementation of ANSI C and C99.)
+
 If an implementation does not give authors, they are assumed to be the
 authors of the implementable it implements.  Ditto auspices.
 
@@ -163,13 +166,6 @@ Dump dates sensibly to JSON.
 Account for the fact that some implementations can be
 compiled or interpreted under two language (ANSI C and C99
 and Borland C++; or in a more involved way, polyglots):
-
-    gcc 3.4:
-      implementation-of:
-      - ANSI C
-      - C99
-
-(that's an "and")
 
     2iota:
       implementation-of: beta-Juliet

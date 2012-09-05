@@ -76,6 +76,9 @@ class ApproximateDate(object):
         return "ApproximateDate(%r)" % self.text
 
 
+def warn(message):
+    print "*** warning: %s" % message
+
 def load_chrysoberyl_dir(dirname):
     data = {}
 
@@ -217,11 +220,13 @@ def check_chrysoberyl_data(data):
           check_scalar_ref(data, key, node, 'distribution-of')
 
       if type_ == 'Implementation':
-          check_scalar_ref(data, key, node, 'implementation-of')
+          check_list_ref(data, key, node, 'implementation-of')
 
           # for convenience, bring in the type of the thing being implemented
-          impl_of_type = data[node['implementation-of']]['type']
-          node['implementation-of-type'] = impl_of_type
+          # the first thing.  we assume they're all the same type.  but...
+          # hey, let's build something that implements both Underload and
+          # Zoning Variance #5!
+          impl_of_type = data[node['implementation-of'][0]]['type']
 
           check_scalar_ref(data, key, node, 'license', types=['License'])
           if 'in-distribution' in node:
@@ -251,8 +256,8 @@ def check_chrysoberyl_data(data):
               check_scalar_ref(data, key, node, 'implementation-type',
                                types=['Implementation Type'])
               assert node['implementation-type'] == 'emulator', \
-                  "Platform %s has implementation %s not an emulator" % \
-                      (node['implementation-of'], key)
+                  "Platform has implementation %s not an emulator" % \
+                      (key)
           elif impl_of_type == 'Programming Language':
               check_scalar_ref(data, key, node, 'implementation-type',
                                types=['Implementation Type'])
@@ -266,7 +271,8 @@ def check_chrysoberyl_data(data):
                                types=['Implementation Type'])
 
           if 'authors' not in node:
-              pl_node = data[node['implementation-of']]
+              # TODO: assert there's only one
+              pl_node = data[node['implementation-of'][0]]
               node['authors'] = pl_node.get('authors', [])
               node['auspices'] = pl_node.get('auspices', [])
 

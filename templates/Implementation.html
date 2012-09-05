@@ -12,6 +12,7 @@
 {% endblock byline %}
 
 {% block description %}
+  {# improve this to say "It implements blah and blah" if it does #}
   <p>This is
     {% if reference %}
       the reference
@@ -19,8 +20,10 @@
       an
     {% endif %}
     implementation of the
-    {{ data[implementation_of].type|lower }}
-    <a href="{{ filekey(implementation_of) }}">{{ implementation_of }}</a>.
+    {{ data[implementation_of[0]].type|lower }}
+    {% for impl_of in implementation_of %}
+      {{ link(impl_of) }}
+    {%- endfor -%}.
     
     It is
     {% if implementation_type %}

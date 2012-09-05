@@ -122,7 +122,8 @@ After the Fact:
 
 After the Fact (MED):
   type: Implementation
-  implementation-of: After the Fact
+  implementation-of:
+  - After the Fact
   host-language: MED
   license: Freely Redistributable
   commentary: |
@@ -131,7 +132,8 @@ After the Fact (MED):
 
 After the Fact (mp3):
   type: Implementation
-  implementation-of: After the Fact
+  implementation-of:
+  - After the Fact
   host-language: mp3
   converted-from: After the Fact (MED)
   converted-using:
@@ -156,13 +158,15 @@ Anagnoresis:
 
 Anagnoresis (MED):
   type: Implementation
-  implementation-of: Anagnoresis
+  implementation-of:
+  - Anagnoresis
   host-language: MED
   license: Freely Redistributable
 
 Anagnoresis (mp3):
   type: Implementation
-  implementation-of: Anagnoresis
+  implementation-of:
+  - Anagnoresis
   host-language: mp3
   converted-from: Anagnoresis (MED)
   converted-using:
@@ -185,7 +189,8 @@ Autumn Kiss:
 
 Autumn Kiss (mp3):
   type: Implementation
-  implementation-of: Autumn Kiss
+  implementation-of:
+  - Autumn Kiss
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -205,7 +210,8 @@ Rainbird:
 
 Rainbird (mp3):
   type: Implementation
-  implementation-of: Rainbird
+  implementation-of:
+  - Rainbird
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -225,7 +231,8 @@ Red Quarks:
 
 Red Quarks (mp3):
   type: Implementation
-  implementation-of: Red Quarks
+  implementation-of:
+  - Red Quarks
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -245,7 +252,8 @@ Retrograde:
 
 Retrograde (mp3):
   type: Implementation
-  implementation-of: Retrograde
+  implementation-of:
+  - Retrograde
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -266,7 +274,8 @@ You Drive Me Wild:
 
 You Drive Me Wild (mp3):
   type: Implementation
-  implementation-of: You Drive Me Wild
+  implementation-of:
+  - You Drive Me Wild
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -285,7 +294,8 @@ Go(Figure):
 
 Go(Figure) (mp3):
   type: Implementation
-  implementation-of: Go(Figure)
+  implementation-of:
+  - Go(Figure)
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -378,7 +388,8 @@ Ice Jam:
 
 Ice Jam (mp3):
   type: Implementation
-  implementation-of: Ice Jam
+  implementation-of:
+  - Ice Jam
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -396,7 +407,8 @@ Jack and Jill:
 
 Jack and Jill (mp3):
   type: Implementation
-  implementation-of: Jack and Jill
+  implementation-of:
+  - Jack and Jill
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -415,7 +427,8 @@ A Moment in the Sun:
 
 A Moment in the Sun (mp3):
   type: Implementation
-  implementation-of: A Moment in the Sun
+  implementation-of:
+  - A Moment in the Sun
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -435,7 +448,8 @@ Back to the Rain:
 
 Back to the Rain (mp3):
   type: Implementation
-  implementation-of: Back to the Rain
+  implementation-of:
+  - Back to the Rain
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -455,7 +469,8 @@ Back to the Rain (mp3):
 
 "Zoning Variance #5 (mp3)":
   type: Implementation
-  implementation-of: "Zoning Variance #5"
+  implementation-of:
+  - "Zoning Variance #5"
   host-language: mp3
   license: Freely Redistributable
   links:
@@ -476,7 +491,8 @@ Smedley the Medley:
 
 Smedley the Medley (mp3):
   type: Implementation
-  implementation-of: Smedley the Medley
+  implementation-of:
+  - Smedley the Medley
   host-language: mp3
   license: Freely Redistributable
   links:

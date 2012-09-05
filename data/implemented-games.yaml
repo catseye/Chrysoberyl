@@ -16,7 +16,8 @@ Animals:
 
 animals.erl:
   type: Implementation
-  implementation-of: Animals
+  implementation-of:
+  - Animals
   in-distribution: Animals distribution
   prebuilt-for-platforms:
   - Erlang
@@ -56,7 +57,8 @@ Flip:
 
 flip.erl:
   type: Implementation
-  implementation-of: Flip
+  implementation-of:
+  - Flip
   in-distribution: Flip distribution
   prebuilt-for-platforms:
   - Erlang
@@ -93,7 +95,8 @@ Hunt the Wumpus:
 
 wumpus.erl:
   type: Implementation
-  implementation-of: Hunt the Wumpus
+  implementation-of:
+  - Hunt the Wumpus
   in-distribution: Hunt the Wumpus distribution
   prebuilt-for-platforms:
   - Erlang
@@ -126,7 +129,8 @@ Sokoban:
 
 esoko:
   type: Implementation
-  implementation-of: Sokoban
+  implementation-of:
+  - Sokoban
   in-distribution: esoko distribution
   prebuilt-for-platforms:
   - Erlang

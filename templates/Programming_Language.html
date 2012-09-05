@@ -54,7 +54,9 @@
         {% else %}
           an implementation of
         {% endif %}
-        {{ link(data[impl].implementation_of) }}
+        {% for impl_of in data[impl].implementation_of %}
+          {{ link(impl_of) }}
+        {% endfor %}
       </li>
     {% endfor %}
   </ul>

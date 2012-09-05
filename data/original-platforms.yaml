@@ -28,7 +28,8 @@ BefOS:
 
 BefOS (NASM):
   type: Implementation
-  implementation-of: BefOS
+  implementation-of:
+  - BefOS
   # um. I guess so?
   implementation-type: emulator
   in-distribution: BefOS distribution
@@ -78,7 +79,8 @@ yoob:
 
 tc.catseye.yoob:
   type: Implementation
-  implementation-of: yoob
+  implementation-of:
+  - yoob
   # um. I guess so?
   implementation-type: emulator
   in-distribution: yoob distribution

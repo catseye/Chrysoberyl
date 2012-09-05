@@ -29,16 +29,6 @@ ANSI C:
     ANSI C (perhaps omitting some features) by passing the environment
     variable `ANSI=yes` to `make`.
 
-gcc -ansi -pedantic:
-  type: Implementation
-  implementation-of: ANSI C
-  implementation-type: compiler
-  host-language: C99
-  target-language: Native code
-  prebuilt-for-platforms:
-  - Native code
-  license: GPL
-
 
 BASIC:
   type: Programming Language Family
@@ -82,13 +72,15 @@ C99:
 
 gcc 3.4:
   type: Implementation
-  implementation-of: C99
+  implementation-of:
+  - ANSI C
+  - C99
   implementation-type: compiler
   host-language: C99
-  target-language: Native code
+  target-language: native code
   license: GPL
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://gcc.gnu.org/gcc-3.4/
 
@@ -252,13 +244,14 @@ Erlang:
 Erlang/OTP R13B:
   type: Implementation
   reference: true
-  implementation-of: Erlang
+  implementation-of:
+  - Erlang
   # well, it builds beam files, but
   implementation-type: interpreter
   host-language: C99
   license: Erlang Public License
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.erlang.org/
 
@@ -275,25 +268,27 @@ Haskell:
 
 ghc:
   type: Implementation
-  implementation-of: Haskell
+  implementation-of:
+  - Haskell
   implementation-type: compiler
   host-language: Haskell
-  target-language: Native code
+  target-language: native code
   license: BSD license
   recommended-implementation: true
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.haskell.org/ghc/
 
 hugs:
   type: Implementation
-  implementation-of: Haskell
+  implementation-of:
+  - Haskell
   implementation-type: interpreter
   host-language: Unknown language
   license: Unknown license
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.haskell.org/hugs/
 
@@ -320,14 +315,15 @@ Java:
 Java SE 6 JDK 1.6.0:
   type: Implementation
   reference: true
-  implementation-of: Java
+  implementation-of:
+  - Java
   # well, it builds class files, but
   implementation-type: interpreter
   host-language: Unknown language
   # it's actually the "Oracle Binary Code License Agreement for Java SE"
   license: Unknown license
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html
   commentary: |
@@ -429,12 +425,13 @@ Lua:
 lua 5.0.3:
   type: Implementation
   reference: true
-  implementation-of: Lua
+  implementation-of:
+  - Lua
   implementation-type: interpreter
   host-language: C99
   license: MIT license
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.lua.org/versions.html#5.0
   commentary: |
@@ -455,12 +452,13 @@ MSIL:
 
 ilasm:
   type: Implementation
-  implementation-of: MSIL
+  implementation-of:
+  - MSIL
   implementation-type: compiler
   host-language: Unknown language
   target-language: .NET executable
   prebuilt-for-platforms:
-  - Native code
+  - native code
   license: Unknown license
 
 
@@ -501,11 +499,12 @@ Perl:
 perl 5.8.8:
   type: Implementation
   reference: true
-  implementation-of: Perl
+  implementation-of:
+  - Perl
   implementation-type: interpreter
   host-language: C99
   prebuilt-for-platforms:
-  - Native code
+  - native code
   license: Artistic License
 
 
@@ -633,19 +632,21 @@ Python:
 cPython 2.6.7:
   type: Implementation
   reference: true
-  implementation-of: Python
+  implementation-of:
+  - Python
   implementation-type: interpreter
   host-language: C99
   license: Unknown license
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://docs.python.org/license.html
 
 Jython 2.5.1:
   type: Implementation
   reference: false
-  implementation-of: Python
+  implementation-of:
+  - Python
   implementation-type: interpreter
   host-language: Java
   license: Unknown license
@@ -670,12 +671,13 @@ R:
 
 R 2.13.1:
   type: Implementation
-  implementation-of: R
+  implementation-of:
+  - R
   implementation-type: interpreter
   host-language: Unknown language
   license: GPL
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.r-project.org/
 
@@ -694,12 +696,13 @@ Ruby:
 ruby 1.8.7:
   type: Implementation
   reference: true
-  implementation-of: Ruby
+  implementation-of:
+  - Ruby
   implementation-type: interpreter
   host-language: C99
   license: BSD license
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://www.ruby-lang.org/en/downloads/
     http://www.ruby-lang.org/en/about/license.txt
@@ -772,13 +775,14 @@ Scheme:
 
 plt-r5rs:
   type: Implementation
-  implementation-of: Scheme
+  implementation-of:
+  - Scheme
   implementation-type: interpreter
   host-language: Unknown language
   license: LGPL
   recommended-implementation: true
   prebuilt-for-platforms:
-  - Native code
+  - native code
   links:
   - http://racket-lang.org/
 
@@ -840,7 +844,8 @@ Ophis Assembler distribution:
 
 Ophis:
   type: Implementation
-  implementation-of: Ophis Assembler
+  implementation-of:
+  - Ophis Assembler
   implementation-type: compiler
   reference: true
   license: MIT license
@@ -869,7 +874,8 @@ NASM Assembler:
 
 NASM:
   type: Implementation
-  implementation-of: NASM Assembler
+  implementation-of:
+  - NASM Assembler
   implementation-type: compiler
   reference: true
   license: MIT license

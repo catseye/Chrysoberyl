@@ -15,7 +15,8 @@ brainfuck:
 
 pibfi:
   type: Implementation
-  implementation-of: brainfuck
+  implementation-of:
+  - brainfuck
   in-distribution: pibfi distribution
   prebuilt-for-platforms:
   - Erlang
@@ -51,7 +52,8 @@ Muriel:
 
 muriel.pl:
   type: Implementation
-  implementation-of: Muriel
+  implementation-of:
+  - Muriel
   in-distribution: Muriel distribution
   reference: false
   license: BSD license
@@ -81,7 +83,8 @@ VALGOL:
 
 valgol.erl:
   type: Implementation
-  implementation-of: VALGOL
+  implementation-of:
+  - VALGOL
   reference: false
   license: BSD license
   host-language: Erlang
@@ -111,7 +114,8 @@ Smallfuck:
 
 sf2tab:
   type: Implementation
-  implementation-of: Smallfuck
+  implementation-of:
+  - Smallfuck
   reference: false
   license: BSD license
   host-language: ANSI C
@@ -141,7 +145,8 @@ Underload:
 
 stringie:
   type: Implementation
-  implementation-of: Underload
+  implementation-of:
+  - Underload
   reference: false
   license: Public Domain
   host-language: ANSI C
@@ -173,7 +178,8 @@ stringie:
 
 'PL-{GOTO}.NET':
   type: Implementation
-  implementation-of: PL-{GOTO}
+  implementation-of:
+  - PL-{GOTO}
   in-distribution: PL-{GOTO}.NET distribution
   reference: false
   license: Public Domain
@@ -220,7 +226,8 @@ Ale:
 
 tc.catseye.yoob.ale:
   type: Implementation
-  implementation-of: Ale
+  implementation-of:
+  - Ale
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -248,7 +255,8 @@ Backflip:
 
 tc.catseye.yoob.backflip:
   type: Implementation
-  implementation-of: Backflip
+  implementation-of:
+  - Backflip
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -276,7 +284,8 @@ Black:
 
 tc.catseye.yoob.black:
   type: Implementation
-  implementation-of: Black
+  implementation-of:
+  - Black
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -305,7 +314,8 @@ LNUSP:
 
 tc.catseye.yoob.lnusp:
   type: Implementation
-  implementation-of: LNUSP
+  implementation-of:
+  - LNUSP
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -343,7 +353,8 @@ tc.catseye.yoob.lnusp:
 
 tc.catseye.yoob.onela:
   type: Implementation
-  implementation-of: 1L_a
+  implementation-of:
+  - 1L_a
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -373,7 +384,8 @@ tc.catseye.yoob.onela:
 
 tc.catseye.yoob.onelaoi:
   type: Implementation
-  implementation-of: 1L_AOI
+  implementation-of:
+  - 1L_AOI
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -402,7 +414,8 @@ PATH:
 
 tc.catseye.yoob.path:
   type: Implementation
-  implementation-of: PATH
+  implementation-of:
+  - PATH
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -430,7 +443,8 @@ Qdeql:
 
 tc.catseye.yoob.qdeql:
   type: Implementation
-  implementation-of: Qdeql
+  implementation-of:
+  - Qdeql
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -458,7 +472,8 @@ Sceql:
 
 tc.catseye.yoob.sceql:
   type: Implementation
-  implementation-of: Sceql
+  implementation-of:
+  - Sceql
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -487,7 +502,8 @@ SNUSP:
 
 tc.catseye.yoob.snusp:
   type: Implementation
-  implementation-of: SNUSP
+  implementation-of:
+  - SNUSP
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -518,7 +534,8 @@ tc.catseye.yoob.snusp:
 
 tc.catseye.yoob.twoill:
   type: Implementation
-  implementation-of: 2-ill
+  implementation-of:
+  - 2-ill
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
@@ -547,7 +564,8 @@ tc.catseye.yoob.twoill:
 
 tc.catseye.yoob.twol:
   type: Implementation
-  implementation-of: 2L
+  implementation-of:
+  - 2L
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob

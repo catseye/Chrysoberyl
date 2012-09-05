@@ -70,7 +70,8 @@ RUBE II:
 
 rube_ii:
   type: Implementation
-  implementation-of: RUBE II
+  implementation-of:
+  - RUBE II
   in-distribution: RUBE II distribution
   reference: true
   license: Unknown license
@@ -116,7 +117,8 @@ Thue:
 
 thue.c:
   type: Implementation
-  implementation-of: Thue
+  implementation-of:
+  - Thue
   authors:
   - John Colagioia
   license: Unknown license
@@ -126,7 +128,8 @@ thue.c:
 
 thue.py:
   type: Implementation
-  implementation-of: Thue
+  implementation-of:
+  - Thue
   authors:
   - Frédéric van der Plancke
   license: Public Domain

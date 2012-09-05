@@ -12,7 +12,8 @@ basedump:
 
 basedump.erl:
   type: Implementation
-  implementation-of: basedump
+  implementation-of:
+  - basedump
   in-distribution: basedump distribution
   prebuilt-for-platforms:
   - Erlang
@@ -41,7 +42,8 @@ belld:
 
 belld.c:
   type: Implementation
-  implementation-of: belld
+  implementation-of:
+  - belld
   #build-requirements:
   #- FreeBSD 4.x
   in-distribution: belld distribution
@@ -69,7 +71,8 @@ brace:
 
 brace.c:
   type: Implementation
-  implementation-of: brace
+  implementation-of:
+  - brace
   in-distribution: brace distribution
   license: BSD license
   host-language: C99
@@ -96,7 +99,8 @@ ce:
 
 ce (Erlang):
   type: Implementation
-  implementation-of: ce
+  implementation-of:
+  - ce
   in-distribution: ce distribution
   prebuilt-for-platforms:
   - Erlang
@@ -124,7 +128,8 @@ ec:
 
 ec.erl:
   type: Implementation
-  implementation-of: ec
+  implementation-of:
+  - ec
   in-distribution: ec distribution
   prebuilt-for-platforms:
   - Erlang
@@ -155,7 +160,8 @@ erlaunch:
 
 erlaunch.c:
   type: Implementation
-  implementation-of: erlaunch
+  implementation-of:
+  - erlaunch
   in-distribution: erlaunch distribution
   license: BSD license
   host-language: C99
@@ -182,7 +188,8 @@ noise:
 # also in dipple
 noise (Perl):
   type: Implementation
-  implementation-of: noise
+  implementation-of:
+  - noise
   in-distribution: noise distribution
   license: BSD license
   host-language: Perl
@@ -228,7 +235,8 @@ OpenFlax:
 
 OpenFlax (Erlang):
   type: Implementation
-  implementation-of: OpenFlax
+  implementation-of:
+  - OpenFlax
   in-distribution: OpenFlax distribution
   prebuilt-for-platforms:
   - Erlang
@@ -257,7 +265,8 @@ peruse:
 
 peruse.erl:
   type: Implementation
-  implementation-of: peruse
+  implementation-of:
+  - peruse
   in-distribution: peruse distribution
   prebuilt-for-platforms:
   - Erlang

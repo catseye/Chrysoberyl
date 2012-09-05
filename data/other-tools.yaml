@@ -13,7 +13,8 @@ ANSI Terminal:
 
 Borland C++:
   type: Implementation
-  implementation-of: C++
+  implementation-of:
+  - C++
   reference: no
   license: Proprietary
   # I can't guarantee this but I bet

@@ -30,7 +30,8 @@
 
 'Console::Virtual (Perl module)':
   type: Implementation
-  implementation-of: 'Console::Virtual'
+  implementation-of:
+  - 'Console::Virtual'
   in-distributions:
   - 'Console::Virtual distribution'
   - 'Corona: Realm of Magic distribution'
@@ -72,7 +73,8 @@ crone:
 
 crone.erl:
   type: Implementation
-  implementation-of: crone
+  implementation-of:
+  - crone
   in-distribution: crone distribution
   license: BSD license
   host-language: Erlang
@@ -103,7 +105,8 @@ DiskSumo:
 
 DiskSumo (BASIC):
   type: Implementation
-  implementation-of: DiskSumo
+  implementation-of:
+  - DiskSumo
   in-distribution: DiskSumo distribution
   license: Public Domain
   host-language: Commodore BASIC 2.0
@@ -148,14 +151,16 @@ Falderal:
 
 Test.Falderal:
   type: Implementation
-  implementation-of: Falderal
+  implementation-of:
+  - Falderal
   in-distribution: 'Falderal distribution'
   license: BSD license
   host-language: Haskell
 
 py-falderal:
   type: Implementation
-  implementation-of: Falderal
+  implementation-of:
+  - Falderal
   # well, this is actually not true yet, but:
   in-distribution: Falderal distribution
   license: BSD license
@@ -201,14 +206,16 @@ mzstorkipiwanbotbotbot:
 
 mzstorkipiwanbotbotbot (Lua):
   type: Implementation
-  implementation-of: mzstorkipiwanbotbotbot
+  implementation-of:
+  - mzstorkipiwanbotbotbot
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
   host-language: Lua
 
 Rtype:
   type: Implementation
-  implementation-of: mzstorkipiwanbotbotbot
+  implementation-of:
+  - mzstorkipiwanbotbotbot
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
   host-language: R
@@ -241,7 +248,8 @@ Rooibos:
 
 rooibos.py:
   type: Implementation
-  implementation-of: Rooibos
+  implementation-of:
+  - Rooibos
   in-distributions:
   - Rooibos distribution
   - Eightebed distribution
@@ -272,7 +280,8 @@ toolshelf:
 
 toolshelf.py:
   type: Implementation
-  implementation-of: toolshelf
+  implementation-of:
+  - toolshelf
   in-distribution: toolshelf distribution
   license: MIT license
   host-language: Python
@@ -302,7 +311,8 @@ TPiS:
 
 TPiS (Scheme):
   type: Implementation
-  implementation-of: TPiS
+  implementation-of:
+  - TPiS
   in-distribution: TPiS distribution
   license: BSD license
   host-language: Scheme
@@ -335,7 +345,8 @@ transmat:
 
 transmat (Python):
   type: Implementation
-  implementation-of: transmat
+  implementation-of:
+  - transmat
   in-distribution: transmat distribution
   license: Public Domain
   host-language: Python
@@ -365,7 +376,8 @@ yucca:
 
 'yucca (Python)':
   type: Implementation
-  implementation-of: yucca
+  implementation-of:
+  - yucca
   in-distribution: yucca distribution
   license: MIT license
   host-language: Python

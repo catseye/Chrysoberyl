@@ -5,7 +5,8 @@ miniscm:
   in-distribution: Minischeme distribution
   license: Public Domain
   # R4RS Scheme, maybe
-  implementation-of: Scheme
+  implementation-of:
+  - Scheme
   implementation-type: interpreter
   host-language: ANSI C
 
@@ -24,7 +25,8 @@ JaC64:
   reference: false
   in-distribution: JaC64 distribution
   license: GPL
-  implementation-of: Commodore 64
+  implementation-of:
+  - Commodore 64
   implementation-type: emulator
   host-language: Java
 
@@ -44,7 +46,8 @@ OpenZz:
   reference: false
   in-distribution: OpenZz distribution
   license: LGPL
-  implementation-of: Zz
+  implementation-of:
+  - Zz
   implementation-type: interpreter
   host-language: C99
 

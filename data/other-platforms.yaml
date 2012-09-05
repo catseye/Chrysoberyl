@@ -10,7 +10,8 @@ Linux:
 Cygwin:
   type: Implementation
   # WELL SORRRT OF
-  implementation-of: Linux
+  implementation-of:
+  - Linux
   implementation-type: emulator
   prebuilt-for-platforms:
   - Windows
@@ -92,7 +93,8 @@ MS-DOS:
 
 DOSBox:
   type: Implementation
-  implementation-of: MS-DOS
+  implementation-of:
+  - MS-DOS
   implementation-type: emulator
   prebuilt-for-platforms:
   - Windows
@@ -105,7 +107,8 @@ DOSBox:
 
 FreeDOS:
   type: Implementation
-  implementation-of: MS-DOS
+  implementation-of: 
+  - MS-DOS
   implementation-type: emulator
   prebuilt-for-platforms:
   - IBM PC compatible
@@ -126,7 +129,8 @@ Windows:
 
 WINE:
   type: Implementation
-  implementation-of: Windows
+  implementation-of:
+  - Windows
   implementation-type: emulator
   prebuilt-for-platforms:
   - Linux

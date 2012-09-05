@@ -19,7 +19,8 @@ Deturgenchry:
 
 Deturgenchry.hs:
   type: Implementation
-  implementation-of: Deturgenchry
+  implementation-of:
+  - Deturgenchry
   reference: true
   in-distribution: Deturgenchry distribution
   license: Unknown license
@@ -84,7 +85,8 @@ Kosheri:
 
 kosheri (C):
   type: Implementation
-  implementation-of: Kosheri
+  implementation-of:
+  - Kosheri
   reference: true
   in-distribution: Kosheri distribution
   license: Unknown license
@@ -120,7 +122,8 @@ Pophery:
 
 pophery.py:
   type: Implementation
-  implementation-of: Pophery
+  implementation-of:
+  - Pophery
   reference: true
   in-distribution: Pophery distribution
   license: Unknown license
@@ -163,7 +166,8 @@ Robin:
 
 Robin.lhs:
   type: Implementation
-  implementation-of: Robin
+  implementation-of:
+  - Robin
   reference: true
   in-distribution: Robin distribution
   license: BSD license

@@ -25,7 +25,8 @@ Apple II:
 
 AppleWin:
   type: Implementation
-  implementation-of: Apple II
+  implementation-of:
+  - Apple II
   implementation-type: emulator
   prebuilt-for-platforms:
   - Windows
@@ -93,7 +94,8 @@ Commodore 64:
 
 VICE x64:
   type: Implementation
-  implementation-of: Commodore 64
+  implementation-of:
+  - Commodore 64
   implementation-type: emulator
   prebuilt-for-platforms:
   - Windows
@@ -162,7 +164,8 @@ IBM PC compatible:
 
 Bochs:
   type: Implementation
-  implementation-of: IBM PC compatible
+  implementation-of:
+  - IBM PC compatible
   prebuilt-for-platforms:
   - Windows
   - Linux
@@ -174,7 +177,7 @@ Bochs:
   implementation-type: emulator
 
 
-Native code:
+native code:
   type: Programming Language
   genre: Machine language
   paradigms: []
