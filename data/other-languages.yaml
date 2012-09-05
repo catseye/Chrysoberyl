@@ -232,7 +232,7 @@ Erlang:
   - Functional
   # just, not to native code
   generally-compiled: true
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.erlang.org/
   authors: []
   references:
@@ -278,7 +278,7 @@ Haskell:
   paradigms:
   - Functional
   - Lazy
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.haskell.org/
   authors: []
 
@@ -317,7 +317,7 @@ Java:
   - Object-oriented
   # just, not to native code
   generally-compiled: true
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.oracle.com/technetwork/java/index.html
   authors: []
   references:
@@ -356,7 +356,7 @@ Javascript:
   - Imperative
   - Functional
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
   authors: []
   description: |
@@ -370,7 +370,7 @@ Javascript:
     in order to convey information, not be playthings. Managing the user
     interface is the *browser*'s job; what makes the *page* think it can do
     it better? But more to the point, putting a
-    [[Universality|Turing-complete]] control language in a browser is a
+    [[Turing-complete]] control language in a browser is a
     way to let web pages be just as impossible to predict, and just as
     buggy, as general computer programs. Multiply this by the number and
     degree of variations between Javascript specifications and
@@ -430,7 +430,7 @@ Lua:
   - Imperative
   - Functional
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.lua.org/
   authors: []
   references:
@@ -485,7 +485,7 @@ Perl:
   - Imperative
   - Functional
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.perl.org/
   authors: []
   commentary: |
@@ -530,7 +530,7 @@ PHP:
   paradigms:
   - Imperative
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.php.net/
   authors: []
   commentary: |
@@ -586,7 +586,7 @@ Python:
   - Imperative
   - Functional
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.python.org/
   authors: []
   references:
@@ -676,7 +676,7 @@ R:
   paradigms:
   - Imperative
   - Functional
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.r-project.org/
   authors: []
   isbn: 3-900051-07-0
@@ -705,7 +705,7 @@ Ruby:
   - Imperative
   - Functional
   - Object-oriented
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   standards-body: http://www.ruby-lang.org/
   authors: []
 
@@ -730,7 +730,7 @@ Scheme:
   genre: Production language
   paradigms:
   - Functional
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   specification-link: http://schemers.org/Documents/Standards/R5RS/
   authors: []
   description: |
@@ -808,7 +808,7 @@ SETL:
   genre: Production language
   paradigms:
   - Imperative
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   specification-link: http://setl.org/setl/doc/
   authors: []
 

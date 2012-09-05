@@ -86,7 +86,7 @@ Arboretuum:
     The language was intended for specifying compilers, with each tree representing
     a major compiler data structure (AST, symbol table, output buffer, etc.,)
     however, this idea was not entirely successful.  Regardless, Arboretuum is
-    Turing-complete, as tree-rewriting is simply a special case of forest-rewriting.
+    [[Turing-complete]], as tree-rewriting is simply a special case of forest-rewriting.
   computational-class: believed Turing-complete
   inception-date: Mar 2008
   authors:
@@ -275,7 +275,7 @@ beta-Juliet:
     to be described succinctly.
     
     Version 2.0 of beta-Juliet (formerly known as "2iota") allows infinite sets of events to be
-    specified, allowing the language to be Turing-complete.
+    specified, allowing the language to be [[Turing-complete]].
   authors:
   - Chris Pressey
   auspices:
@@ -339,14 +339,14 @@ Beturing:
     edge representing a transition may cross any other edge.) It was devised
     this way as a test of the so-called "wire-crossing problem". It turns out
     that there are universal Turing machines with finite controls that are planar
-    graphs, so Beturing is Turing-complete.
+    graphs, so Beturing is [[Turing-complete]].
   inception-date: Oct 20, 2005
   esowiki: Beturing
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   dimensionality: 2
   etymology:
   - portmanteau
@@ -487,7 +487,7 @@ Burro:
     shortcoming was rectified in summer of 2010.
   # started thinking about it 2005, finally achieved 2010
   inception-date: 2007
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   authors:
   - Chris Pressey
   auspices:
@@ -826,7 +826,7 @@ Emmental:
     Emmental is a self-modifying programming language.  It is defined
     in terms of a meta-circular interpreter, and this meta-circular interpreter
     provides an operation that redefines operations of the meta-circular interpreter.
-    In fact, this mechanism is required for Emmental to be Turing-complete.
+    In fact, this mechanism is required for Emmental to be [[Turing-complete]].
   computational-class: believed Turing-complete
   esowiki: Emmental
   authors:
@@ -1038,7 +1038,7 @@ Funge-98:
     and suggests possibilities for other dimensions and topologies (but does
     not specify exactly how they look or would behave.)
     It also makes the playfield unbounded, allowing the language to be
-    Turing-complete, and tries to define mechanisms for interacting with the
+    [[Turing-complete]], and tries to define mechanisms for interacting with the
     operating system and engaging extensions to the language.
   quotation: |-
     Taking programming in new directions... all four of them
@@ -1049,7 +1049,7 @@ Funge-98:
   - Befunge Mailing List Working Group
   specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
   inception-date: Sep 11, 1998
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   influences:
   - Befunge-93
   - Befunge-97
@@ -2052,11 +2052,11 @@ Okapi:
     as if this wasn't enough, there are two restrictions on exceptions that are
     thrown — they must be divide-by-zero exceptions, and they must be caught
     in a lexically enclosing block.  Nor is there any facility to "retry" after
-    an exception is caught. The language is nonetheless Turing-complete.
+    an exception is caught. The language is nonetheless [[Turing-complete]].
   authors:
   - Chris Pressey
   inception-date: May 23, 2010
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   no-specification: true
 
 okapi.py:
@@ -2254,7 +2254,7 @@ REDGREEN:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   etymology:
   - television program
   influences:
@@ -2421,8 +2421,8 @@ Shelta:
   generally-compiled: true
   description: |
     Shelta is an extremely minimal Forth-like language with barely
-    any semantics; it relies on inline machine code to be considered anywhere
-    near Turing-Complete. In the spirit of compilers for languages such as [[FALSE]]
+    any semantics; it relies on inline machine code to write anything resembling
+    an actual program in it. In the spirit of compilers for languages such as [[FALSE]]
     and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from
     Ben Olmstead) in less than 512 bytes of [[80286 machine code]]. What's more,
     it's also been bootstrapped — that is to say, a Shelta compiler was
@@ -2543,7 +2543,7 @@ SMITH:
   description: |
     SMITH is a self-modifying assembly-like language which completely lacks
     any kind of jump instructions *whatsoever*.  Despite this handicap, it
-    appears to be Turing-complete.
+    appears to be [[Turing-complete]].
   etymology:
   - surname
   sample: |-
@@ -2624,7 +2624,7 @@ Strelnokoff:
   - Non-deterministic
   description: |
     Strelnokoff is a non-deterministic imperative programming language.
-    Despite this apparent handicap, it appears to be Turing-complete (thanks
+    Despite this apparent handicap, it appears to be [[Turing-complete]] (thanks
     to a short-circuiting multiplication operator,) but a critical feature (arrays)
     has never yet been implemented.  The name "Strelnokoff" was taken from
     a fictional brand of vodka featured in a mock advertisement on the television
@@ -2751,7 +2751,7 @@ Troupe:
   description: |
     Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
     fairly neatly to the definition of a Turing machine, so it is almost certainly
-    Turing-complete.
+    [[Turing-complete]].
   authors:
   - Chris Pressey
   auspices:
@@ -3171,7 +3171,7 @@ You are Reading the Name of this Esolang:
   auspices:
   - Cat's Eye Technologies
   inception-date: Nov 2007
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   unusual-computability-properties: true
   esowiki: You_are_Reading_the_Name_of_this_Esolang
   influences:
@@ -3181,7 +3181,7 @@ You are Reading the Name of this Esolang:
   commentary: |
     The description makes it sound a bit more mind-blowing than it actually is.
     In fact [[C++]] has essentially the same property: it's template system is
-    Turing-complete.  In practice, this means you can hang the compiler with
+    [[Turing-complete]].  In practice, this means you can hang the compiler with
     templates that expand unboundedly (and the compiler has no means by
     which to detect all possible compiler-hanging-templates.)
 
@@ -3264,7 +3264,7 @@ ZOWIE:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 29, 2009
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   esowiki: ZOWIE
   influences:
   - BitChanger

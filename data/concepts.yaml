@@ -131,7 +131,7 @@ Universality:
     Probably the most well-known example of a universal automaton is the
     universal Turing machine, which, given a suitably encoded input, can
     simulate any other Turing machine. We say that such a universal Turing
-    machine is Turing-complete. (Pedantically, we should say that it's the
+    machine is [[Turing-complete]]. (Pedantically, we should say that it's the
     *set of strings* that the machine accepts which is Turing-complete. But
     for convenience, a certain amount of abuse of notation goes on.)
     

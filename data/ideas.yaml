@@ -253,7 +253,7 @@ Kig:
     would need to position the points far apart, based on their last
     shrink-phase configuration, in order to be interesting.  Extremely far
     apart, like exponentially so, would be best.  Even then, it's
-    not clear if it would be possible to make this system Turing-complete.
+    not clear if it would be possible to make this system [[Turing-complete]].
     With 5 points, you do have 10 unbounded counters at your disposal —
     although your only real operation in the shrink-phase is something
     akin to division by two...
@@ -273,7 +273,7 @@ Milab:
   summary: memory mapped, but where?
   inception-date: ca Sep 2009
   description: |
-    In the vein of [[ZOWIE]], some operation critical to Turing-completeness,
+    In the vein of [[ZOWIE]], some operation critical to [[Turing-complete]]ness,
     like control flow, is memory-mapped.  The twist is, you don't know where.  It could be any memory location
     (out of an unlimited number), so you have to discover it in order to use it and write an arbitrary program.
     
@@ -373,7 +373,7 @@ Paneer:
     into any other language," meaning that after a finite
     number of prefix symbols from the input program have been
     interpreted, the remaining symbols can be interpreted as
-    a program in any other Turing-complete programming language.
+    a program in any other [[Turing-complete]] programming language.
     
     (Given a reasonable input alphabet, I suppose, and
     ignoring tedious and trivial details of encoding.)

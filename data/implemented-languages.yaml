@@ -8,7 +8,7 @@ brainfuck:
   authors:
   - Urban Müller
   esowiki: brainfuck
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   specification-link: esowiki
   commentary: |
     Brainfuck is the 12-bar blues of [[Esolang]].
@@ -47,7 +47,7 @@ Muriel:
   - Matthew Westcott
   esowiki: Muriel
   reference-distribution: Muriel distribution
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   specification-link: esowiki
 
 muriel.pl:

@@ -218,9 +218,11 @@ Render competitions and competition results.
 
 bylines for programming language familys and for conlangs
 
-### content ###
+List all programming languages for a computational class.
 
-shown Turing-complete => Turing-complete, and link to it in places
+On a programming language, display its computational class.
+
+### content ###
 
 Allll those variants of Pixley.
 

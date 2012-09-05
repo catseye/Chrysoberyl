@@ -20,7 +20,7 @@ Blank:
   genre: Esolang
   paradigms:
   - Stack-based
-  computational-class: believed Turing-complete
+  computational-class: unknown computational class
   esowiki: Blank
   influences:
   - Befunge-93
@@ -34,7 +34,7 @@ Blank:
   genre: Esolang
   paradigms:
   - Stack-based
-  computational-class: shown Turing-complete
+  computational-class: Turing-complete
   esowiki: "FALSE"
   authors:
   - Wouter van Oortmerssen
