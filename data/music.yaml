@@ -87,6 +87,8 @@ Untitled Video Game Theme:
   inception-date: ca 1989
   authors:
   - Chris Pressey
+  description: |
+    This was, I believe, an alternate [[Theme to Nukeball]].
 
 
 "Paige's Praise":
@@ -115,6 +117,8 @@ After the Fact:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    I've been told that this sounds like it should be the theme music for a spy movie.
 
 After the Fact (MED):
   type: Implementation
@@ -144,15 +148,17 @@ Anagnoresis:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    "Anagnoresis" is either an alternate spelling for, or a typo for,
+    "Anagnorisis", which means the moment some profound realization
+    is suddenly made.  The second snare beat in each measure is on the
+    and-of-four instead of on four.
 
 Anagnoresis (MED):
   type: Implementation
   implementation-of: Anagnoresis
   host-language: MED
   license: Freely Redistributable
-  commentary: |
-    After the Fact used MED's ability to transpose an instrument, which most module players don't support.
-    However, `xmp` does support this feature.
 
 Anagnoresis (mp3):
   type: Implementation
@@ -173,6 +179,9 @@ Autumn Kiss:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    This has been described as vaguely Annie Lennox-like, at least how it
+    mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 
 Autumn Kiss (mp3):
   type: Implementation
@@ -189,6 +198,10 @@ Rainbird:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    Another pop ballad, this one with crude sound effects of a rainstorm in it.
+    The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
+    on favourably.
 
 Rainbird (mp3):
   type: Implementation
@@ -205,6 +218,10 @@ Red Quarks:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    A funky little tune with a somewhat strange musical structure -- it kind of goes
+    all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
+    Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 
 Red Quarks (mp3):
   type: Implementation
@@ -221,6 +238,10 @@ Retrograde:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    Probably the most conventional of my "[[Sci-fi]]" tunes.  One friend of mine
+    found the melody horrendously catchy in an evil way such that he could not
+    stand listening to it.
 
 Retrograde (mp3):
   type: Implementation
@@ -237,6 +258,11 @@ You Drive Me Wild:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    I've been told this would make a good background music for a [[Platformer]],
+    although I'm not sure I agree.  I do like the signature chord at the start, though;
+    the dissonance is entirely intentional, and it "works", but only because it's soon
+    resolved.  Ends with a percussion solo, as does [[Go(Figure)]].
 
 You Drive Me Wild (mp3):
   type: Implementation
@@ -254,6 +280,8 @@ Go(Figure):
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  commentary: |
+    One of my favourites.  Ends with a percussion solo, as does [[You Drive Me Wild]].
 
 Go(Figure) (mp3):
   type: Implementation
@@ -345,7 +373,8 @@ Ice Jam:
   authors:
   - Chris Pressey
   commentary: |
-    "Bjork-esque".
+    I consciously tried to write something "Björk-esque" for this one
+    (not really succeeding, at least not all the way.)
 
 Ice Jam (mp3):
   type: Implementation
@@ -362,6 +391,8 @@ Jack and Jill:
   inception-date: ca 1996
   authors:
   - Chris Pressey
+  commentary: |
+    This was going to be an actual song, once, with lyrics and everything.
 
 Jack and Jill (mp3):
   type: Implementation
@@ -378,6 +409,9 @@ A Moment in the Sun:
   inception-date: ca 1996
   authors:
   - Chris Pressey
+  commentary: |
+    My only foray into reggae.  A happy sort of tune;
+    it's supposed to be followed by [[Back to the Rain]].
 
 A Moment in the Sun (mp3):
   type: Implementation
@@ -394,6 +428,10 @@ Back to the Rain:
   inception-date: ca 1996
   authors:
   - Chris Pressey
+  commentary: |
+    Very, very short.  Intended to be preceded by [[A Moment in the Sun]]
+    and serves more as an outro for that tune.  Or, maybe it could be used as the
+    "oops you lost a life" music in a video game, that sort of thing.
 
 Back to the Rain (mp3):
   type: Implementation
@@ -410,6 +448,10 @@ Back to the Rain (mp3):
   inception-date: ca 1996
   authors:
   - Chris Pressey
+  commentary: |
+    The title is meaningless; it's some kind
+    of simple rustic air with a sitar duet jammed into the bridge.
+    But it's another one of my favourites, because I like that sort of thing.
 
 "Zoning Variance #5 (mp3)":
   type: Implementation
@@ -426,6 +468,11 @@ Smedley the Medley:
   inception-date: ca 1996
   authors:
   - Chris Pressey
+  commentary: |
+    I had three tunes that didn't stand on their own.  They don't go together
+    either, so I put them together.  I've been told it's reminiscent of
+    [[Frank Zappa]], but frankly I don't know if I've ever been able to make
+    it through an entire Zappa song, so I couldn't say, myself.
 
 Smedley the Medley (mp3):
   type: Implementation
