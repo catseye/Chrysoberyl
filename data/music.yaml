@@ -26,6 +26,14 @@ MED:
   authors: []
   paradigms: []
 
+xmp:
+  type: Implementation
+  implementation-of:
+  - MED
+  # probably C99
+  host-language: Unknown language
+  license: GPL
+
 mp3:
   type: Musical Notation
   no-specification: true
@@ -128,7 +136,7 @@ After the Fact (MED):
   license: Freely Redistributable
   commentary: |
     After the Fact used MED's ability to transpose an instrument, which most module players don't support.
-    However, `xmp` does support this feature.
+    However, [[xmp]] does support this feature.
 
 After the Fact (mp3):
   type: Implementation
@@ -187,11 +195,19 @@ Autumn Kiss:
     This has been described as vaguely Annie Lennox-like, at least how it
     mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 
+Autumn Kiss (MED):
+  type: Implementation
+  implementation-of:
+  - Autumn Kiss
+  host-language: MED
+  license: Freely Redistributable
+
 Autumn Kiss (mp3):
   type: Implementation
   implementation-of:
   - Autumn Kiss
   host-language: mp3
+  converted-from: Autumn Kiss (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Autumn Kiss.mp3"
@@ -208,11 +224,19 @@ Rainbird:
     The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
     on favourably.
 
+Rainbird (MED):
+  type: Implementation
+  implementation-of:
+  - Rainbird
+  host-language: MED
+  license: Freely Redistributable
+
 Rainbird (mp3):
   type: Implementation
   implementation-of:
   - Rainbird
   host-language: mp3
+  converted-from: Rainbird (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Rainbird.mp3"
@@ -229,11 +253,19 @@ Red Quarks:
     all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
     Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 
+Red Quarks (MED):
+  type: Implementation
+  implementation-of:
+  - Red Quarks
+  host-language: MED
+  license: Freely Redistributable
+
 Red Quarks (mp3):
   type: Implementation
   implementation-of:
   - Red Quarks
   host-language: mp3
+  converted-from: Red Quarks (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Red Quarks.mp3"
@@ -250,11 +282,19 @@ Retrograde:
     found the melody horrendously catchy in an evil way such that he could not
     stand listening to it.
 
+Retrograde (MED):
+  type: Implementation
+  implementation-of:
+  - Retrograde
+  host-language: MED
+  license: Freely Redistributable
+
 Retrograde (mp3):
   type: Implementation
   implementation-of:
   - Retrograde
   host-language: mp3
+  converted-from: Retrograde (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Retrograde.mp3"
@@ -272,11 +312,19 @@ You Drive Me Wild:
     the dissonance is entirely intentional, and it "works", but only because it's soon
     resolved.  Ends with a percussion solo, as does [[Go(Figure)]].
 
+You Drive Me Wild (MED):
+  type: Implementation
+  implementation-of:
+  - You Drive Me Wild
+  host-language: MED
+  license: Freely Redistributable
+
 You Drive Me Wild (mp3):
   type: Implementation
   implementation-of:
   - You Drive Me Wild
   host-language: mp3
+  converted-from: You Drive Me Wild (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - You Drive Me Wild.mp3"
