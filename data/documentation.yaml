@@ -7,6 +7,8 @@ Documentation Index:
     ALPACA:
     - doc/ebnf.txt
     - doc/alpaca.html
+    Animals:
+    - doc/animals.html
     Apple Befunge:
     - LICENSE
     - README.markdown
@@ -25,6 +27,8 @@ Documentation Index:
     - README.markdown
     - eg/index.html
     - doc/Befunge-93.markdown
+    Befunge-98:
+    - doc/fbbi.html
     Beturing:
     - README.markdown
     Bhuna:
@@ -81,6 +85,8 @@ Documentation Index:
     - doc/Falderal_Literate_Test_Format.markdown
     - doc/Theory_of_Operation.markdown
     - doc/Quick_Start.markdown
+    Flip:
+    - doc/flip.html
     Flobnar:
     - README.markdown
     GraNoLa/M:
@@ -108,7 +114,7 @@ Documentation Index:
     Iphigeneia:
     - foo.txt
     - README.markdown
-    Jaccia and Jacciata:
+    Jaccia:
     - README.markdown
     Kangaroo Iceberg:
     - README.markdown
@@ -130,12 +136,21 @@ Documentation Index:
     Nhohnhehr:
     - README.markdown
     - UNLICENSE
+    PL-{GOTO}:
+    - UNLICENSE
+    - PLexceptGOTOdotNET.lhs
+    - PLexceptGOTOdotNET.markdown
     Pail:
     - src/Pail.lhs
+    - tests/Pail.markdown
     Pixley:
     - LICENSE
     - README.markdown
-    - dialect/dialects.markdown
+    - src/tests.markdown
+    - dialect/Pifxley.markdown
+    - dialect/README.markdown
+    - dialect/P-Normal.markdown
+    - dialect/Crabwell.markdown
     - tests/config/Pixley-as-Pixley^3.markdown
     - tests/config/Pixley-as-Pixley^2.markdown
     - tests/config/Pixley-as-Pixley.markdown
@@ -152,6 +167,7 @@ Documentation Index:
     - README.markdown
     Quylthulg:
     - README.markdown
+    - tests/Quylthulg.markdown
     REDGREEN:
     - doc/redgreen.html
     RUBE:
@@ -297,6 +313,9 @@ Documentation Index:
     - doc/Theory_of_Operation.markdown
     - doc/Heuristics_and_Hints.markdown
     - doc/Motivation_and_Tradeoffs.markdown
+    transmat:
+    - README.markdown
+    - UNLICENSE
     yoob:
     - README.markdown
     - UNLICENSE

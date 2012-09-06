@@ -11,29 +11,44 @@ except ImportError:
     from yaml import Dumper
 
 
+def bitbucket_repos(data):
+    for key in data:
+        if data[key]['type'] != 'Distribution':
+            continue
+        if 'bitbucket' not in data[key]:
+            continue
+        (user, repo) = data[key]['bitbucket'].split('/')
+        yield (key, user, repo)
+
+
 def troll_docs(data, clone_dir, data_dir):
     cwd = os.getcwd()
 
     count = 0
     docdict = {}
-    for key in data:
-        if data[key]['type'] != 'Distribution':
+    for (distribution, user, repo) in bitbucket_repos(data):
+        distribution_of = data[distribution]['distribution-of']
+
+        if distribution in ('pibfi distribution',):
+            print "#!! Skipping %s" % distribution
             continue
-        distribution_of = data[key]['distribution-of']
+
+        if user != 'catseye':
+            print "#-- non-catseye distribution: %s" % \
+              (distribution)
+            continue
+
         if 'reference-distribution' not in data[distribution_of]:
-            # ah jeez, it might be a distribution of an implementation, we can't expect this
-            #print "### %s %s has a distribution %s, but no reference distribution" % (data[distribution_of]['type'], distribution_of, key)
-            continue
-        if data[distribution_of]['reference-distribution'] != key:
-            #print "#-- Found non-reference distribution of %s: %s" % (distribution_of, key)
-            continue
+            print "#-- Found non-reference distribution of %s: %s" % \
+              (distribution_of, distribution)
+            # but for now, keep going
+            
+        if ('reference-distribution' in data[distribution_of] and
+            data[distribution_of]['reference-distribution'] != distribution):
+            print "#-- Found reference distribution of %s but expecting %s" % \
+              (data[distribution_of]['reference-distribution'], distribution)
+            # but for now, keep going
 
-        if 'bitbucket' not in data[key]:
-            #print "#_? %s not on bitbucket" % key
-            continue
-
-        (user, repo) = data[key]['bitbucket'].split('/')
-        #print "--> %s -> %s" % (distribution_of, repo)
         docdict[distribution_of] = \
             hunt_for_docs(os.path.join(clone_dir, repo))
         count += 1

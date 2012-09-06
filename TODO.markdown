@@ -4,6 +4,10 @@ Chrysoberyl TODO
 structure
 ---------
 
+When trolling docs, associate each with its distribution in the Documentation
+node.  Then, *in templates*, figure out what to display for an implementation
+or Implementable.
+
 Permit sorting by date.
 
 Dump dates sensibly to JSON.
