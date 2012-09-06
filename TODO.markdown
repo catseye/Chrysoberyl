@@ -1,10 +1,8 @@
-Chrysoberyl
-===========
+Chrysoberyl TODO
+================
 
-TODO
-----
-
-### structure ###
+structure
+---------
 
 Permit sorting by date.
 
@@ -29,7 +27,8 @@ and Borland C++; or in a more involved way, polyglots):
 
 (that's an "or")
 
-### templates ###
+templates
+---------
 
 Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
 single function format(value, link=True, indefart=True), which
@@ -63,16 +62,16 @@ List all programming languages for a computational class.
 
 On a programming language, display its computational class.
 
-### content ###
+content
+-------
 
 Allll those variants of Pixley.
 
-Opus-2 distribution.
 
 
 
-
-### perhaps ###
+perhaps...
+----------
 
 Minimize the size of the dumped JSON: do not include articles, etc.
 
