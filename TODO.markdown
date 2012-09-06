@@ -27,6 +27,8 @@ and Borland C++; or in a more involved way, polyglots):
 
 (that's an "or")
 
+Version numbers on languages.
+
 templates
 ---------
 
@@ -55,11 +57,6 @@ Terminology on music pages:
 Cited in Jargon File --> like esowiki and wikipedia.
 
 For a competition, list all submissions.
-
-content
--------
-
-Allll those variants of Pixley.
 
 
 

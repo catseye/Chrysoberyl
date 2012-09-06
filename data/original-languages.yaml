@@ -2204,8 +2204,106 @@ pixley.pix:
   in-distribution: Pixley distribution
   reference: true
   license: BSD license
+  generally-recommended: true
   implementation-type: interpreter
   host-language: Pixley
+
+pixley.pifx:
+  type: Implementation
+  implementation-of:
+  - Pixley
+  in-distribution: Pixley distribution
+  reference: true
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Pifxley
+
+P-Normal Pixley:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Functional
+  variant-of: Pixley
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  reference-distribution: Pixley distribution
+  computational-class: believed Turing-complete
+  subset-of: Scheme
+  description: |
+    P-Normal Pixley is a simplified version of Pixley where `let*` can only
+    bind one identifer to one value and `cond` can only make one test,
+    like Scheme's `if`.
+
+p-normal.pix:
+  type: Implementation
+  implementation-of:
+  - Pixley
+  in-distribution: Pixley distribution
+  reference: true
+  license: BSD license
+  implementation-type: compiler
+  host-language: Pixley
+  target-language: P-Normal Pixley
+  description: |
+    The Pixley P-Normalizer takes arbitrary Pixley programs and
+    converts them to P-Normal Pixley.
+
+Pifxley:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Functional
+  variant-of: Pixley
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  reference-distribution: Pixley distribution
+  computational-class: believed Turing-complete
+  subset-of: Scheme
+  description: |
+    Pifxley is Pixley with an `if` instead of a `cond`.
+
+pifxley.pifx:
+  type: Implementation
+  implementation-of:
+  - Pifxley
+  in-distribution: Pixley distribution
+  reference: true
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Pifxley
+
+Crabwell:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Functional
+  variant-of: Pixley
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  reference-distribution: Pixley distribution
+  computational-class: believed Turing-complete
+  description: |
+    Crabwell is a variant of Pixley which allows values to be bound to,
+    not just symbols, but arbitrary S-expressions.  (Thus it is not a
+    subset of Scheme.)
+
+crabwell.pix:
+  type: Implementation
+  implementation-of:
+  - Crabwell
+  in-distribution: Pixley distribution
+  reference: true
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Pixley
+
+
 
 
 Quylthulg:
