@@ -58,6 +58,12 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 For a competition, list all submissions.
 
+content
+-------
+
+Electronics projects.
+
+Chrysoberyl has a distribution.
 
 
 
