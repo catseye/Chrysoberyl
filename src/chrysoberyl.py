@@ -23,7 +23,7 @@ except ImportError:
 
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
-from chrysoberyl.localrepos import troll_docs
+from chrysoberyl.localrepos import troll_docs, bitbucket_repos
 
 
 def load_chrysoberyl_dir(dirname):
@@ -64,7 +64,7 @@ if __name__ == '__main__':
                          help="render all nodes (as HTML5 files) and "
                               "write them, and supporting materials, "
                               "into the given directory")
-    optparser.add_option("-t", "--troll-docs",
+    optparser.add_option("--troll-docs",
                          dest="troll_docs", action='store_true',
                          default=False,
                          help="assume that hg clones of reference "
@@ -73,6 +73,9 @@ if __name__ == '__main__':
                               "anything that looks like documentation, and "
                               "update documentation.yaml with those "
                               "filenames.")
+    optparser.add_option("--display-repos",
+                         dest="display_repos", action='store_true',
+                         default=False)
     (options, args) = optparser.parse_args(sys.argv[1:])
 
     print "Loading Chrysoberyl data..."
@@ -81,6 +84,13 @@ if __name__ == '__main__':
 
     if options.check_links:
         raise NotImplementedError
+
+    if options.display_repos:
+        repos = []
+        for (dist, user, repo) in bitbucket_repos(data):
+            repos.append(repo)
+        print '\n'.join(sorted(repos))
+        sys.exit(0)
 
     if options.troll_docs:
         troll_docs(data, options.clone_dir, options.data_dir)

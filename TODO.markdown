@@ -69,6 +69,7 @@ Electronics projects.
 
 Chrysoberyl has a distribution.
 
+Dipple is a distribution (and implementations are in it.)
 
 
 perhaps...
