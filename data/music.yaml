@@ -78,7 +78,19 @@ Theme to Nukeball:
   - Chris Pressey
   description: |
     This was the theme to a game I was trying to write for the [[Commodore 64]]
-    called [[Nukeball]].
+    called [[Nukeball]].  There was also an [[Untitled Video Game Theme|alternate choice]].
+
+Theme to Nukeball (mp3):
+  type: Implementation
+  implementation-of:
+  - Theme to Nukeball
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Theme to Nukeball.mp3"
+  commentary: |
+    I added the fade-out at the end with Audacity because otherwise it would
+    loop indefinitely.
 
 
 Tears on my Catbox:
@@ -96,7 +108,17 @@ Untitled Video Game Theme:
   authors:
   - Chris Pressey
   description: |
-    This was, I believe, an alternate [[Theme to Nukeball]].
+    This was, I believe, an alternate [[Theme to Nukeball]].  I rather like it.
+    (It cuts off sharply at the end because it was supposed to loop, but didn't.)
+
+Untitled Video Game Theme (mp3):
+  type: Implementation
+  implementation-of:
+  - Untitled Video Game Theme
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Untitled Video Game Theme.mp3"
 
 
 "Paige's Praise":
