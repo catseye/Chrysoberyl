@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{#
+   Base template for all pages with a byline.
+   For books and implementations, this is just author, auspices, date, isbn.
+   For implementables and others, it includes the type and genre too.
+#}
+
+{% block byline %}
+  {% if authors %}
+    <p id="byline">
+      {% if type in ['Book', 'Implementation'] %}
+        by {{ linked_list(authors) }}
+        {%- if auspices -%}
+          , {{ linked_list(auspices) }}
+        {%- endif -%}
+        {%- if inception_date -%}
+          , {{ inception_date }}
+        {%- endif -%}
+        {%- if isbn -%}
+        , ISBN: {{ isbn }}
+        {% endif %}
+      {% else %}
+        {% if development_stage == 'idea' %}
+          An idea for a
+        {% elif development_stage == 'work in progress' %}
+          A work-in-progress
+        {% else %}
+          A
+        {% endif %}
+        {% if genre and type not in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
+          {{ link_lower(genre) }}
+        {% endif %}
+        {{ link_lower(type) }}
+        {% if genre and type in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
+          in the genre of {{ link_lower(genre) }}
+        {% endif %}
+        by {{ linked_list(authors) }}
+        {%- if auspices -%}
+          , {{ linked_list(auspices) }}
+        {%- endif -%}
+        {%- if inception_date -%}
+          , {{ inception_date }}
+        {% endif %}
+      {% endif %}
+    </p>
+  {% endif %}
+{% endblock byline %}

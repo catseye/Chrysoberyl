@@ -898,7 +898,7 @@ NASM:
   host-language: C99
   # XXX I *have* to change this at some point
   target-language: 80286 machine code
-  in-distribution: Ophis Assembler distribution
+  in-distribution: NASM Assembler distribution
 
 NASM Assembler distribution:
   type: Distribution

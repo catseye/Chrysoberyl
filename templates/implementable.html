@@ -1,23 +1,4 @@
-{% extends "base.html" %}
-
-{% block byline %}
-  {% if authors %}
-    <p id="byline">
-      A
-      {% if genre and type not in ['Programming Language'] %}
-        {{ link_lower(genre) }}
-      {% endif %}
-      {{ link_lower(type) }}
-      {% if genre and type in ['Programming Language'] %}
-        in the genre of {{ link_lower(genre) }}
-      {% endif %}
-      by {{ linked_list(authors) }}
-      {%- if auspices -%}
-        , {{ linked_list(auspices) }}
-      {%- endif -%}
-    </p>
-  {% endif %}
-{% endblock byline %}
+{% extends "bylined.html" %}
 
 {% block content %}
 

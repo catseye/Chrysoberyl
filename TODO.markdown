@@ -39,8 +39,6 @@ Display online implementation in lingography.  And elsewhere.
 
 Sort lingography and other collections by date.
 
-Dates on implementable pages.
-
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
@@ -61,8 +59,6 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 For a competition, list all submissions.
 
-bylines for programming language familys and for conlangs
-
 List all programming languages for a computational class.
 
 On a programming language, display its computational class.
@@ -71,7 +67,7 @@ On a programming language, display its computational class.
 
 Allll those variants of Pixley.
 
-
+Opus-2 distribution.
 
 
 

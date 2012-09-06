@@ -1,6 +1,6 @@
 {% extends "implementable.html" %}
 
-{% block implementable_content %}
+{% block properties %}
 
 {% if sample_html %}
   <h2>Sample Program</h2>
@@ -26,6 +26,12 @@
     </li>
   {% endfor %}
 </ul>
+
+{% endblock properties %}
+
+
+
+{% block implementable_content %}
 
 {% if related('native-language') or related('other-languages') %}
   <h2>Supported on Platforms</h2>
