@@ -2,14 +2,21 @@
 Turing-complete:
   type: Computational Class
   description: |
+    A system is Turing-complete if it can do everything a Turing machine can
+    do.
+    
+    If, in the [[Chrysoberyl]] database, a programming language is labelled
+    as Turing-complete, it means that it has been demonstrated in a
+    (reasonably) formal way -- as opposed to it
+    [[believed Turing-complete|being so uncontroversial that no one has bothered.]]
+  commentary: |
     Ah, Turing-complete!  Turing-complete!  Say it again; it's a little like a
     mantra in [[Esolang|this part of the world]].  Turing-complete!
     
-    A system is Turing-complete if it can do everything a Turing machine can
-    do.  This requirement is maybe stronger than you intuitively thing, maybe
-    weaker than you intuitively think.
+    "Do everything a Turing machine can do..."  This requirement is maybe
+    stronger than you intuitively think, maybe weaker than you intuitively think.
     
-    Stronger, because [[Machine language]]s, _per se_, are not
+    Stronger, because [[Machine language|machine language]]s, _per se_, are not
     Turing-complete, because they only have a finite number of memory
     locations to hold data in.  No matter what machine language you have,
     I can always come up with some computational problem that it can't
@@ -25,10 +32,6 @@ Turing-complete:
     
     The whole Turing-completeness issue is actually fairly subtle, and I feel
     like I could write a book on it (or at least a rather fat pamphlet).
-    
-    If, in the [[Chrysoberyl]] database, a programming language is labelled
-    as Turing-complete, it means a  (reasonably) formal proof has been
-    provided for the claim and no one has poked a giant hole in it.
 believed Turing-complete:
   type: Computational Class
   description: |

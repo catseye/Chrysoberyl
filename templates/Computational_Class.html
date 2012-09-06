@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>All Programming Languages in this Class</h2>
+
+<ul>
+{% for thing in data.keys()|sort %}
+  {% if 'computational_class' in data[thing] and
+     data[thing].computational_class == key %}
+    <li>
+      <a href="{{ filekey(thing) }}">{{ thing }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}

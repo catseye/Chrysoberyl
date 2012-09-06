@@ -58,10 +58,6 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 For a competition, list all submissions.
 
-List all programming languages for a computational class.
-
-On a programming language, display its computational class.
-
 content
 -------
 
@@ -72,6 +68,8 @@ Allll those variants of Pixley.
 
 perhaps...
 ----------
+
+Competitions by year?
 
 Minimize the size of the dumped JSON: do not include articles, etc.
 
