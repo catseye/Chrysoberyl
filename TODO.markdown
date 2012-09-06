@@ -46,8 +46,6 @@ Call out works in progress and ideas in some more obvious way.
 When listing things, list ones by Cat's Eye Technologies first, and
 put a heading or something.
 
-Use HTML5 sections instead of divs.
-
 Terminology on music pages:
 -   "implementation" -> "rendition"
 -   "is written in MP3" -> "as an MP3 file"

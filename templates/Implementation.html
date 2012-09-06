@@ -1,68 +1,71 @@
 {% extends "bylined.html" %}
 
 {% block description %}
-  <p>This is
-    {% if reference %}
-      the reference
-    {% else %}
-      an
-    {% endif %}
-    implementation of the
-    {% if implementation_of|length > 1 %}
-      {{ data[implementation_of[0]].type|lower }}s
-      {{ linked_list(implementation_of) }}.
-    {% else %}
-      {{ data[implementation_of[0]].type|lower }}
-      {% for impl_of in implementation_of %}
-        {{ link(impl_of) }}
-      {%- endfor -%}.
-    {% endif %}
-    
-    It is
-    {% if implementation_type %}
-      <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
-    {% endif %}
-    written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
-    {%- if host_platform %}
-      for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
-    {%- endif %}
-    {%- if implementation_type == 'compiler' %}
-      that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
-      {%- if target_platform %}
-        for the <a href="{{ filekey(target_platform) }}">{{ target_platform }}</a> platform
-      {%- endif %}
-    {%- endif -%}.
-
-    {% if in_distributions %}
-      {% if in_distributions|length == 1 %}
-        It is distributed in the <a href="{{ filekey(in_distributions[0]) }}">{{ in_distributions[0] }}</a>
-        and it
+  <section id="description">
+    <h2>Description</h2>
+    <p>This is
+      {% if reference %}
+        the reference
       {% else %}
-        It is found in these distributions:
-        {% for distribution in in_distributions %}
-          <a href="{{ filekey(distribution) }}">{{ distribution }}</a>,
-        {% endfor %}
-        and it
+        an
       {% endif %}
-    {% else %}
-      It
+      implementation of the
+      {% if implementation_of|length > 1 %}
+        {{ data[implementation_of[0]].type|lower }}s
+        {{ linked_list(implementation_of) }}.
+      {% else %}
+        {{ data[implementation_of[0]].type|lower }}
+        {% for impl_of in implementation_of %}
+          {{ link(impl_of) }}
+        {%- endfor -%}.
+      {% endif %}
+      
+      It is
+      {% if implementation_type %}
+        <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
+      {% endif %}
+      written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+      {%- if host_platform %}
+        for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
+      {%- endif %}
+      {%- if implementation_type == 'compiler' %}
+        that generates <a href="{{ filekey(target_language) }}">{{ target_language }}</a>
+        {%- if target_platform %}
+          for the <a href="{{ filekey(target_platform) }}">{{ target_platform }}</a> platform
+        {%- endif %}
+      {%- endif -%}.
+
+      {% if in_distributions %}
+        {% if in_distributions|length == 1 %}
+          It is distributed in the <a href="{{ filekey(in_distributions[0]) }}">{{ in_distributions[0] }}</a>
+          and it
+        {% else %}
+          It is found in these distributions:
+          {% for distribution in in_distributions %}
+            <a href="{{ filekey(distribution) }}">{{ distribution }}</a>,
+          {% endfor %}
+          and it
+        {% endif %}
+      {% else %}
+        It
+      {% endif %}
+      {% if license == 'Public Domain' %}
+        is in the <a href="{{ filekey('Public Domain') }}">public domain</a>
+      {% elif license == 'Freely Redistributable' %}
+        is freely redistributable unmodified for non-commercial purposes
+      {%- elif license == 'Proprietary' %}
+        is proprietary software
+      {%- elif license == 'Unknown license' %}
+        has unknown licensing terms
+      {%- else %}
+        is distributed under the
+        <a href="{{ filekey(license) }}">{{ license }}</a>
+      {%- endif -%}.
+    </p>
+    {% if description_html %}
+      <p>{{ description_html }}</p>
     {% endif %}
-    {% if license == 'Public Domain' %}
-      is in the <a href="{{ filekey('Public Domain') }}">public domain</a>
-    {% elif license == 'Freely Redistributable' %}
-      is freely redistributable unmodified for non-commercial purposes
-    {%- elif license == 'Proprietary' %}
-      is proprietary software
-    {%- elif license == 'Unknown license' %}
-      has unknown licensing terms
-    {%- else %}
-      is distributed under the
-      <a href="{{ filekey(license) }}">{{ license }}</a>
-    {%- endif -%}.
-  </p>
-  {% if description_html %}
-    <p>{{ description_html }}</p>
-  {% endif %}
+  </section>
 {% endblock description %}
 
 {% block content %}

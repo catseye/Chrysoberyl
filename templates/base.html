@@ -60,8 +60,10 @@
   <article>
     {% block description %}
       {% if description %}
-        <h2>Description</h2>
-        <p id="description">{{ description_html }}</p>
+        <section id="description">
+          <h2>Description</h2>
+          <p>{{ description_html }}</p>
+        </section>
       {% endif %}
     {% endblock description %}
 
@@ -88,7 +90,7 @@
 
     {% block documentation %}
       {% if documentation() %}
-        <div id="documentation">
+        <section id="documentation">
           <h2>Documentation</h2>
           <ul>
             {% for document in documentation() %}
@@ -101,7 +103,7 @@
               </li>
             {% endfor %}
           </ul>
-        </div>
+        </section>
       {% endif %}
     {% endblock documentation %}
 
@@ -109,7 +111,7 @@
     {% endblock content %}
 
     {% if see_also %}
-      <div id="see_also">
+      <section id="see_also">
         <h2>See Also</h2>
         <ul>
           {% for thing in see_also %}
@@ -118,11 +120,11 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </section>
     {% endif %}
 
     {% if links %}
-      <div id="links">
+      <section id="links">
         <h2>Links</h2>
         <ul>
           {% for link in links %}
@@ -131,11 +133,11 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </section>
     {% endif %}
 
     {% if references %}
-      <div id="references">
+      <section id="references">
         <h2>References</h2>
         <ul>
           {% for reference in references %}
@@ -144,12 +146,14 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </section>
     {% endif %}
 
     {% if commentary %}
-      <h2>Commentary</h2>
-      <p id="commentary">{{ commentary_html }}</p>
+      <section id="commentary">
+        <h2>Commentary</h2>
+        <p>{{ commentary_html }}</p>
+      </section>
     {% endif %}
   </article>
 
@@ -157,5 +161,5 @@
     <p>
       <small>Copyright ©2012, Chris Pressey, Cat's Eye Technologies.  All rights reserved.</small>
     </p>
-  </div>
+  <footer>
 </body>

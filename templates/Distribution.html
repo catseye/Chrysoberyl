@@ -1,20 +1,23 @@
 {% extends "base.html" %}
 
 {% block description %}
-  <p>
-    This is
-    {% if reference %}
-      the reference
-    {% else %}
-      a
+  <section id="description">
+    <h2>Description</h2>
+    <p>
+      This is
+      {% if reference %}
+        the reference
+      {% else %}
+        a
+      {% endif %}
+      distribution of the
+      {{ data[distribution_of].type|lower }}
+      <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a>.
+    </p>
+    {% if description_html %}
+      <p>{{ description_html }}</p>
     {% endif %}
-    distribution of the
-    {{ data[distribution_of].type|lower }}
-    <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a>.
-  </p>
-  {% if description_html %}
-    <p>{{ description_html }}</p>
-  {% endif %}
+  </section>
 {% endblock description %}
 
 {% block content %}
