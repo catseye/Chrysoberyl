@@ -11,7 +11,10 @@
         related('implementation-of', key=thing) %}
     <li>
       <p>
-        <a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})
+        <a href="{{ filekey(thing) }}">{{ thing }}</a>
+        (<i>{{ link_lower(data[thing].genre) }},
+         {{ link(data[thing].composed_on) }},
+         {{ data[thing].inception_date }}</i>)
         --
         {% for impl in related('implementation-of', key=thing)|sort %}
           {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}

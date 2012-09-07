@@ -262,6 +262,10 @@ def check_chrysoberyl_data(data):
       if type_ in ['Game', 'Programming Language', 'Musical Composition']:
           check_scalar_ref(data, key, node, 'genre', types=['Genre'])
           check_list_ref(data, key, node, 'authors')
+      
+      if type_ == 'Musical Composition':
+          check_scalar_ref(data, key, node, 'composed-on')
+          check_scalar_ref(data, key, node, 'using-software')
 
       if type_ == 'Platform':
           check_scalar_ref(data, key, node, 'native-language', types=['Programming Language'])

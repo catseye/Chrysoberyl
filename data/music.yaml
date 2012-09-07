@@ -40,6 +40,19 @@ mp3:
   authors: []
   paradigms: []
 
+JV-30:
+  type: Musical Instrument
+  description: |
+    The Yamaha JV-30 synthesizer.
+
+Cakewalk:
+  type: Tool
+  no-specification: true
+
+SID Editor:
+  type: Tool
+  no-specification: true
+
 # -----------------------------------------------
 
 ###### SID ######
@@ -48,6 +61,8 @@ The Biftek Shuffle:
   type: Musical Composition
   genre: Shuffle
   inception-date: ca 1987
+  composed-on: Commodore 64
+  using-software: SID Editor
   authors:
   - Chris Pressey
   commentary: |
@@ -63,16 +78,31 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
   type: Musical Composition
   genre: Experimental music
   inception-date: ca 1987
+  composed-on: Commodore 64
+  using-software: SID Editor
   authors:
   - Chris Pressey
   commentary: |
+    Pure experimentational weirdness with the C64's SID chip.
     The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
     (a cardboard box, similar to a cereal box, which contains two plastic bags of chips.)
+    The yak may or may not have been a nod to [[Jeff Minter]]; I don't recall.
+
+Two Molecules of a Chip Box in Cosmic Relationship to a Yak (mp3):
+  type: Implementation
+  implementation-of:
+  - Two Molecules of a Chip Box in Cosmic Relationship to a Yak
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
 
 
 Theme to Nukeball:
   type: Musical Composition
   genre: Theme music
+  composed-on: Commodore 64
+  using-software: SID Editor
   inception-date: ca 1988
   authors:
   - Chris Pressey
@@ -95,15 +125,30 @@ Theme to Nukeball (mp3):
 
 Tears on my Catbox:
   type: Musical Composition
-  genre: Experimental music
+  genre: Theme music
+  composed-on: Commodore 64
+  using-software: SID Editor
   inception-date: ca 1988
   authors:
   - Chris Pressey
+  description: |
+    Quite short; could be a "game over" theme, or something.
+
+Tears on my Catbox (mp3):
+  type: Implementation
+  implementation-of:
+  - Tears on my Catbox
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Tears on my Catbox.mp3"
 
 
 Untitled Video Game Theme:
   type: Musical Composition
   genre: Theme music
+  composed-on: Commodore 64
+  using-software: SID Editor
   inception-date: ca 1989
   authors:
   - Chris Pressey
@@ -125,6 +170,8 @@ Untitled Video Game Theme (mp3):
   type: Musical Composition
   genre: Swing
   inception-date: ca 1989
+  composed-on: Commodore 64
+  using-software: SID Editor
   # also redone in DCMS
   authors:
   - Chris Pressey
@@ -133,6 +180,8 @@ Untitled Video Game Theme (mp3):
 Futons:
   type: Musical Composition
   genre: Sci-fi
+  composed-on: Commodore 64
+  using-software: SID Editor
   inception-date: ca 1989
   # redone as "Futons 1990" in DMCS and (unimpressively) as "Futon Landscape" in Cakewalk
   authors:
@@ -144,6 +193,8 @@ Futons:
 After the Fact:
   type: Musical Composition
   genre: Theme music
+  composed-on: Amiga 500
+  using-software: MED
   inception-date: ca 1992
   authors:
   - Chris Pressey
@@ -178,6 +229,8 @@ Anagnoresis:
   type: Musical Composition
   genre: Sci-fi
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -211,6 +264,8 @@ Autumn Kiss:
   type: Musical Composition
   genre: Pop ballad
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -239,6 +294,8 @@ Rainbird:
   type: Musical Composition
   genre: Pop ballad
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -268,6 +325,8 @@ Red Quarks:
   type: Musical Composition
   genre: Sci-fi
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -297,6 +356,8 @@ Retrograde:
   type: Musical Composition
   genre: Sci-fi
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -326,6 +387,8 @@ You Drive Me Wild:
   type: Musical Composition
   genre: Pop
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
   authors:
   - Chris Pressey
   commentary: |
@@ -357,6 +420,8 @@ Go(Figure):
   type: Musical Composition
   genre: Jazz fusion
   inception-date: ca 1992
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -376,6 +441,8 @@ Osborne Village:
   type: Musical Composition
   genre: Jazz fusion
   inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: MED
   development-stage: lost
   authors:
   - Chris Pressey
@@ -387,6 +454,8 @@ Theme to LOGS:
   type: Musical Composition
   genre: Theme music
   inception-date: ca 1991
+  composed-on: Amiga 500
+  using-software: DMCS
   authors:
   - Chris Pressey
   commentary: |
@@ -399,6 +468,8 @@ Coffee Break:
   instrumentation:
   - Jazz Band
   inception-date: ca 1991
+  composed-on: Amiga 500
+  using-software: DMCS
   authors:
   - Chris Pressey
 
@@ -408,6 +479,8 @@ Birdwatching:
   instrumentation:
   - Jazz Combo
   inception-date: ca 1991
+  composed-on: Amiga 500
+  using-software: DMCS
   authors:
   - Chris Pressey
 
@@ -417,6 +490,8 @@ Radiance:
   instrumentation:
   - Jazz Combo
   inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: DMCS
   authors:
   - Chris Pressey
 
@@ -426,6 +501,8 @@ Foxcub:
   instrumentation:
   - Jazz Band
   inception-date: ca 1991
+  composed-on: Amiga 500
+  using-software: DMCS
   authors:
   - Chris Pressey
 
@@ -436,6 +513,9 @@ Sardonyx:
   type: Musical Composition
   genre: Experimental music
   format: Overture
+  inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: DMCS
   instrumentation:
   - Orchestra
   authors:
@@ -450,6 +530,8 @@ Ice Jam:
   type: Musical Composition
   genre: Alt rock
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -470,6 +552,8 @@ Jack and Jill:
   type: Musical Composition
   genre: Alt rock
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -489,6 +573,8 @@ A Moment in the Sun:
   type: Musical Composition
   genre: Reggae
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -509,6 +595,8 @@ Back to the Rain:
   type: Musical Composition
   genre: Swing
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -530,6 +618,8 @@ Back to the Rain (mp3):
   type: Musical Composition
   genre: World beat
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -551,6 +641,8 @@ Smedley the Medley:
   type: Musical Composition
   genre: Experimental music
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -576,6 +668,8 @@ Reality:
   genre: Alt rock
   format: Song
   inception-date: ca 1996
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
 
@@ -585,6 +679,8 @@ Fool:
   genre: Ragtime
   format: Song
   inception-date: ca 1997
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
 
@@ -594,6 +690,8 @@ The Blank Dance:
   genre: Dance
   inception-date: ca 1997
   development-stage: unfinished
+  composed-on: JV-30
+  using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
@@ -613,6 +711,8 @@ String Quartet:
   - Cello
   authors:
   - Chris Pressey
+  composed-on: JV-30
+  using-software: Cakewalk
 
 Rest Assured:
   type: Musical Composition
@@ -625,6 +725,8 @@ Rest Assured:
   - Cello
   authors:
   - Chris Pressey
+  composed-on: JV-30
+  using-software: Cakewalk
 
 Interlude for Harp:
   type: Musical Composition
@@ -634,6 +736,8 @@ Interlude for Harp:
   - Harp
   authors:
   - Chris Pressey
+  composed-on: JV-30
+  using-software: Cakewalk
 
 
 # favourite composers:

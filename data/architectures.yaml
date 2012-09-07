@@ -120,6 +120,23 @@ Commodore BASIC 2.0:
   authors: []
 
 
+Amiga 500:
+  type: Platform
+  # for now...
+  no-specification: true
+  native-language: 68000 machine code
+  other-languages: []
+
+68000 machine code:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  computational-class: Finite-automata-complete
+  no-specification: true
+  authors: []
+
+
 IBM PC compatible:
   type: Platform
   # there are just so many damn specifications I could point to... for now:

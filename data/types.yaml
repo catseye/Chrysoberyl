@@ -11,8 +11,8 @@ Computational Class:
   type: type
 Genre:
   type: type
-  commentary: |
-    This classification is a little weird,
+  description: |
+    This category is a little weird,
     because there are genres for programming languages, games, music, and books,
     all mixed together here.
 Individual:
@@ -30,6 +30,8 @@ Mathematical Object:
 Book:
   type: type
 Conlang:
+  type: type
+Musical Instrument:
   type: type
 Discipline:
   type: type
