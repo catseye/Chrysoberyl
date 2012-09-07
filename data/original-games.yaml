@@ -1,5 +1,5 @@
 # encoding: UTF-8
-'Bubble Escape':
+Bubble Escape:
   type: Game
   genre: Maze-Runner
   authors:
@@ -7,6 +7,7 @@
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1988
+  development-stage: mature
   description: |
     A video game written for the Commodore 64 where you must
     guide a bubble through a multi-screen maze.  Was originally written in BASIC by a young me in the 80's.
@@ -80,6 +81,7 @@ Bubble Escape distribution:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 2000
+  development-stage: unfinished
   description: |
     An unfinished roguelike, written in Perl.  This was written on an engine
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
@@ -120,6 +122,7 @@ Super Wumpus Land:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1999
+  development-stage: mature
   description: |
     An "extended dance mix" version of [[Hunt the Wumpus]].
 
@@ -157,6 +160,7 @@ Zzrk:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 2005
+  development-stage: mature
   description: |
     A tiny adventure game written in "pure" Zz (a meta-language normally
     used for defining compilers.)

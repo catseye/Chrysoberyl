@@ -3,6 +3,7 @@ Linux:
   type: Platform
   # guhhh...
   standards-body: http://linux.com/
+  development-stage: mature
   # \o/
   native-language: 80286 machine code
   other-languages: []
@@ -57,6 +58,7 @@ Cygwin:
 MacOS:
   type: Platform
   standards-body: http://apple.com/
+  development-stage: mature
   # \o/
   native-language: 80286 machine code
   # I dunno, applescript maybe?
@@ -66,6 +68,7 @@ MacOS:
 MS-DOS:
   type: Platform
   standards-body: http://microsoft.com/
+  development-stage: vintage
   native-language: 80286 machine code
   # I dunno, batch maybe?
   other-languages: []
@@ -122,6 +125,7 @@ FreeDOS:
 Windows:
   type: Platform
   standards-body: http://microsoft.com/
+  development-stage: mature
   # \o/
   native-language: 80286 machine code
   other-languages:
@@ -142,6 +146,7 @@ VBScript:
   genre: Production language
   member-of: BASIC
   standards-body: http://microsoft.com/
+  development-stage: mature
   paradigms:
   - Object-oriented
   authors: []

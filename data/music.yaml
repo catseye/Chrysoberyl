@@ -48,10 +48,12 @@ JV-30:
 Cakewalk:
   type: Tool
   no-specification: true
+  development-stage: mature
 
 SID Editor:
   type: Tool
   no-specification: true
+  development-stage: vintage
 
 # -----------------------------------------------
 

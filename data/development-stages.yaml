@@ -2,8 +2,18 @@ idea:
   type: Development Stage
 work in progress:
   type: Development Stage
+not fully complete:
+  type: Development Stage
+  description: |
+    Pretty much the same as [[mature]] but there are gaps in its development;
+    perhaps it has never been implemented, or questions remain about it.
 mature:
   type: Development Stage
+vintage:
+  type: Development Stage
+  description: |
+    a.k.a. retro.  That stage between [[mature]] and [[archival]] where
+    folks of nostalgic, historian, or hipster-y bent still care about it.
 archival:
   type: Development Stage
   description: |

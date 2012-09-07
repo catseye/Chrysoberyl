@@ -7,6 +7,7 @@ ALPACA:
   - Metalanguage
   - Object-oriented
   generally-compiled: true
+  development-stage: not fully complete
   description: |
     ALPACA is a meta-language for describing cellular automata.
   commentary: |
@@ -89,6 +90,7 @@ Arboretuum:
     [[Turing-complete]], as tree-rewriting is simply a special case of forest-rewriting.
   computational-class: believed Turing-complete
   inception-date: Mar 2008
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -148,8 +150,8 @@ Bear Food:
   - Cat's Eye Technologies
   esowiki: Bear_Food
   inception-date: ca Dec 1999
+  development-stage: lost
   failure: true
-  # the reference interpreter is probably lost
   no-specification: true
 
 bearfood.pl:
@@ -161,6 +163,7 @@ bearfood.pl:
   implementation-type: interpreter
   host-language: Perl
   broken: true
+  development-stage: lost
 
 
 Befunge-93:
@@ -198,6 +201,8 @@ Befunge-93:
   quotation: Hey, my archive must be corrupt.  These sources all look like garbage.
   quotation-attribution: Mark Topham
   inception-date: Sep 1993
+  # maybe archival
+  development-stage: mature
   see-also:
   - Funge-98
   - Flobnar
@@ -257,6 +262,7 @@ Befunge-97:
   - Befunge-93
   # the documents from the time are probably lost
   no-specification: true
+  development-stage: lost
 
 
 # XXX give Portia it's own node?
@@ -281,6 +287,7 @@ beta-Juliet:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 2002
+  development-stage: mature
   computational-class: believed Turing-complete
   etymology:
   - automotive pun
@@ -341,6 +348,7 @@ Beturing:
     that there are universal Turing machines with finite controls that are planar
     graphs, so Beturing is [[Turing-complete]].
   inception-date: Oct 20, 2005
+  development-stage: mature
   esowiki: Beturing
   authors:
   - Chris Pressey
@@ -452,6 +460,7 @@ Braktif:
     000000000000000000  *[-----  --]
     -----------------d-i--         --------
   inception-date: 2005
+  development-stage: mature
   see-also:
   - pibfi
 
@@ -487,6 +496,7 @@ Burro:
     shortcoming was rectified in summer of 2010.
   # started thinking about it 2005, finally achieved 2010
   inception-date: 2007
+  development-stage: not fully complete
   computational-class: Turing-complete
   authors:
   - Chris Pressey
@@ -534,6 +544,7 @@ Cabra:
     execution (as the additive operator) and sequential composition (as the multiplicative
     operator).
   inception-date: Oct 30, 2007
+  development-stage: not fully complete
   authors:
   - Chris Pressey
   auspices:
@@ -593,6 +604,7 @@ Circute:
        =       =   =     =   =       =
        =============     =============
   inception-date: 2005
+  development-stage: mature
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
 
@@ -657,6 +669,7 @@ Cfluviurrh:
     z@=X
     z?a<b
   inception-date: Aug 26 2012
+  development-stage: mature
 
 cfluviurrh:
   type: Implementation
@@ -691,6 +704,7 @@ Didigm:
   esowiki: Didigm
   dimensionality: 2
   inception-date: Nov 20, 2007
+  development-stage: not fully complete
   etymology:
   - neologism
   sample: |
@@ -744,6 +758,7 @@ Dieter:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Oct 3, 2009
+  development-stage: not fully complete
   computational-class: believed Turing-complete
 
 dieter.py:
@@ -802,6 +817,7 @@ Eightebed:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 1, 2010
+  development-stage: mature
   computational-class: believed Turing-complete
 
 8ebed2c.py:
@@ -834,6 +850,7 @@ Emmental:
   auspices:
   - Cat's Eye Technologies
   inception-date: Nov 11, 2007
+  development-stage: mature
   etymology:
   - dairy product
   - swiss
@@ -866,6 +883,7 @@ Etcha:
     however, the turtle in Etcha is an integral part of the computation, playing
     a role similar to the tape head of a Turing machine.
   inception-date: Oct 4, 2009
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -930,6 +948,7 @@ ETHEL:
   - monty python
   # the reference interpreter is probably effectively lost
   no-specification: true
+  development-stage: unfinished
 
 ethel.pl:
   type: Implementation
@@ -963,6 +982,7 @@ Flobnar:
   esowiki: Flobnar
   influences:
   - Befunge-93
+  development-stage: not fully complete
   sample: |-
     >     v
     ^\ <   
@@ -1022,6 +1042,7 @@ Full Moon Fever:
   inception-date: ca 1993
   computational-class: known not Turing-complete
   specification-link: https://github.com/catseye/Illgol-Grand-Mal/blob/master/2.%20Illgola-2/doc/illgola2.txt
+  development-stage: archived
 
 
 Funge-98:
@@ -1049,6 +1070,7 @@ Funge-98:
   - Befunge Mailing List Working Group
   specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
   inception-date: Sep 11, 1998
+  development-stage: mature
   computational-class: Turing-complete
   influences:
   - Befunge-93
@@ -1073,6 +1095,7 @@ Unefunge-98:
   description: |
     Unefunge-98 is the one-dimensional member of the [[Funge-98]] language family.
   specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  development-stage: mature
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -1085,6 +1108,7 @@ Befunge-98:
   - 2-dimensional
   - Self-modifying
   member-of: Funge-98
+  development-stage: mature
   description: |
     Befunge-98 is the two-dimensional member of the [[Funge-98]] language family.
   specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
@@ -1100,6 +1124,7 @@ Trefunge-98:
   - 3-dimensional
   - Self-modifying
   member-of: Funge-98
+  development-stage: mature
   description: |
     Trefunge-98 is the three-dimensional member of the [[Funge-98]] language family.
   specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
@@ -1135,6 +1160,7 @@ Gemooy:
     It came about when the author noticed the tape-related semantics of 2-ill were
     essentially the same as those of [[BitChanger]].
   inception-date: Dec 2, 2010
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -1201,6 +1227,7 @@ GraNoLa/M:
     prize: false
   esowiki: GraNoLa/M
   inception-date: Jul 2002
+  development-stage: mature
   etymology:
   - acronym
   influences:
@@ -1239,6 +1266,7 @@ Hev:
   - Cat's Eye Technologies
   esowiki: Hev
   inception-date: May 23, 2007
+  development-stage: mature
   etymology:
   - neologism
   sample: |
@@ -1277,6 +1305,7 @@ Hunter:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 20, 2000
+  development-stage: mature
   esowiki: Hunter
   submitted-to:
   - competition: Esoteric Awards
@@ -1322,6 +1351,7 @@ ILLGOL:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Apr 2000
+  development-stage: mature
   etymology:
   - parody
   sample: |
@@ -1369,6 +1399,7 @@ Illgola-2:
   - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: ca Apr 2000
+  development-stage: mature
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
@@ -1406,6 +1437,7 @@ Illberon:
   - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: May 2000
+  development-stage: mature
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
@@ -1438,6 +1470,7 @@ Open Sores Illgol##:
   - Cat's Eye Technologies
   variant-of: ILLGOL
   inception-date: ca Jun 2000
+  development-stage: mature
   etymology:
   - parody
   reference-distribution: 'Illgol: Grand Mal'
@@ -1474,6 +1507,7 @@ Iphigeneia:
   auspices:
   - Cat's Eye Technologies
   inception-date: Nov 20, 2007
+  development-stage: mature
   etymology:
   - classical greek
   - mythological
@@ -1515,6 +1549,7 @@ Jaccia:
   auspices:
   - Cat's Eye Technologies
   inception-date: Apr 11, 2009
+  development-stage: mature
   dimensionality: 2
   reference-distribution: Jaccia and Jacciata distribution
   etymology:
@@ -1562,6 +1597,7 @@ Jacciata:
   auspices:
   - Cat's Eye Technologies
   inception-date: Apr 11, 2009
+  development-stage: mature
   dimensionality: 2
   reference-distribution: Jaccia and Jacciata distribution
   etymology:
@@ -1635,6 +1671,7 @@ Kangaroo Iceberg:
   auspices:
   - Cat's Eye Technologies
   failure: true
+  development-stage: unfinished
   influences:
   - Tamerlane
   inception-date: Jul 2004
@@ -1650,7 +1687,6 @@ kiceberg:
   license: BSD license
   implementation-type: interpreter
   host-language: ANSI C
-  broken: true
 
 
 Kelxquoia: 
@@ -1672,6 +1708,7 @@ Kelxquoia:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 23, 2010
+  development-stage: not fully complete
   computational-class: believed Turing-complete
   esowiki: Kelxquoia
   sample: |2
@@ -1702,6 +1739,7 @@ Larabee:
   auspices:
   - Cat's Eye Technologies
   inception-date: Jan 10, 2008
+  development-stage: mature
   etymology:
   - surname
   - television show
@@ -1749,6 +1787,7 @@ Madison:
   - Term-rewriting
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
+  development-stage: not fully complete
   sample: |
     type tree is
       tree(leaf)        -> true
@@ -1812,6 +1851,7 @@ Maentwrog:
   authors:
   - Chris Pressey
   inception-date: ca 1993
+  development-stage: archival
   computational-class: known not Turing-complete
 
 maentw.c:
@@ -1841,6 +1881,7 @@ Mascarpone:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 10, 2007
+  development-stage: mature
   computational-class: believed Turing-complete
   etymology:
   - dairy product
@@ -1882,6 +1923,7 @@ MDPN:
   - Cat's Eye Technologies
   esowiki: MDPN
   inception-date: 1999
+  development-stage: not fully complete
   # in terms of the languages it describes
   dimensionality: 2
   etymology:
@@ -1910,6 +1952,7 @@ MDPN:
     prize: false
   esowiki: "'N-DCNC"
   inception-date: Oct 2000
+  development-stage: not fully complete
   sample: |
     4*5+2/2,(9*`c)+1
 
@@ -1955,6 +1998,7 @@ Nhohnhehr:
   esowiki: Nhohnhehr
   dimensionality: 2
   inception-date: Dec 8, 2010
+  development-stage: mature
   sample: |
     +------+
     |    /}|
@@ -2000,6 +2044,7 @@ nhohnhehr.py:
   auspices:
   - Cat's Eye Technologies
   inception-date: Sep 15, 2000
+  development-stage: mature
   etymology:
   - neologism
   - hidden message
@@ -2058,6 +2103,7 @@ Okapi:
   inception-date: May 23, 2010
   computational-class: Turing-complete
   no-specification: true
+  development-stage: mature
 
 okapi.py:
   type: Implementation
@@ -2087,6 +2133,7 @@ Oozlybub and Murphy:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 2010
+  development-stage: not fully complete
   esowiki: Oozlybub_and_Murphy
   sample: |
     VARIABLES ARE p /p*/, p /q*/.
@@ -2112,6 +2159,8 @@ Opus-2:
   auspices:
   - Cat's Eye Technologies
   inception-date: Jul 2001
+  # it wouldn't be complete until it had a reasonably-sized lexicon
+  development-stage: not fully complete
   sample: |
     + pale green
     + Eb, trombone, forte
@@ -2140,6 +2189,7 @@ Pail:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: May 25, 2011
+  development-stage: mature
   influences:
   - Pixley
   sample: |
@@ -2184,6 +2234,7 @@ Pixley:
   subset-of: Scheme
   bootstrapped: true
   inception-date: May 2009
+  development-stage: mature
   etymology:
   - place name
   - television show
@@ -2231,6 +2282,7 @@ P-Normal Pixley:
   reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
   subset-of: Scheme
+  development-stage: mature
   description: |
     P-Normal Pixley is a simplified version of Pixley where `let*` can only
     bind one identifer to one value and `cond` can only make one test,
@@ -2262,6 +2314,7 @@ Pifxley:
   - Cat's Eye Technologies
   reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
+  development-stage: mature
   subset-of: Scheme
   description: |
     Pifxley is Pixley with an `if` instead of a `cond`.
@@ -2288,6 +2341,7 @@ Crabwell:
   - Cat's Eye Technologies
   reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
+  development-stage: mature
   description: |
     Crabwell is a variant of Pixley which allows values to be bound to,
     not just symbols, but arbitrary S-expressions.  (Thus it is not a
@@ -2302,8 +2356,6 @@ crabwell.pix:
   license: BSD license
   implementation-type: interpreter
   host-language: Pixley
-
-
 
 
 Quylthulg:
@@ -2322,6 +2374,7 @@ Quylthulg:
   esowiki: Quylthulg
   computational-class: believed Turing-complete
   inception-date: Dec 6, 2008
+  development-stage: mature
   etymology:
   - mythological
   - roguelike
@@ -2378,6 +2431,7 @@ REDGREEN:
                                                     %
                                                     T
   inception-date: 1998
+  development-stage: mature
 
 redgreen.alp:
   type: Implementation
@@ -2410,6 +2464,7 @@ RUBE:
   - Cat's Eye Technologies
   basis-for-game: true
   inception-date: ca Jul 10, 2007
+  development-stage: mature
   etymology:
     - masculine given name
     - acronym
@@ -2457,6 +2512,7 @@ Sally:
   tagline: |-
     upside-down FORTH cake
   inception-date: 2000
+  development-stage: mature
   etymology:
   - feminine given name
   esowiki: Sally
@@ -2490,6 +2546,7 @@ Sbeezg:
   auspices:
   - Cat's Eye Technologies
   inception-date: 2002
+  development-stage: archival
   etymology:
   - neologism
   esowiki: Sbeezg
@@ -2534,6 +2591,7 @@ Shelta:
   with:
   - Ben Olmstead
   inception-date: ca Jul 1999
+  development-stage: mature
   etymology:
   - spoken language
   - celtic
@@ -2598,6 +2656,7 @@ SMETANA:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1994
+  development-stage: archival
   computational-class: known not Turing-complete
   notable: true
   online-implementations:
@@ -2662,6 +2721,8 @@ SMITH:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca July 2000
+  # it could use a TC proof, really
+  development-stage: not fully complete
   computational-class: believed Turing-complete
   notable: true
   significant: true
@@ -2700,6 +2761,7 @@ Squishy2K:
   computational-class: believed Turing-complete
   esowiki: Squishy2K
   inception-date: Sep 2000
+  development-stage: mature
   sample: |
     * main { start many finish? "Hello, world!"! }
 
@@ -2756,6 +2818,8 @@ Strelnokoff:
     X = (T = X) * 0 + (X > T) * X REM RESET FLAG
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
   inception-date: Apr 2001
+  # implementation needs arrays!
+  development-stage: not fully complete
 
 strelnokoff.pl:
   type: Implementation
@@ -2784,6 +2848,7 @@ Tamerlane:
   auspices:
   - Cat's Eye Technologies
   inception-date: Aug 2000
+  development-stage: mature
   esowiki: Tamerlane
   etymology:
   - masculine given name
@@ -2814,6 +2879,7 @@ Treacle:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Apr 12, 2008
+  development-stage: mature
   etymology:
   - british
   - condiment
@@ -2856,6 +2922,7 @@ Troupe:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Jun 25, 2012
+  development-stage: not fully complete
   esowiki: Troupe
 
 
@@ -2878,6 +2945,7 @@ Unlikely:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Mar 15, 2009
+  development-stage: not fully complete
   esowiki: Unlikely
   sample: |-
     class Count(Count,Chain,Print,Add) extends Continuation
@@ -2933,6 +3001,7 @@ Velo:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: July 14, 2012
+  development-stage: not fully complete
   influences:
   - Ruby
   sample: |-
@@ -2962,6 +3031,8 @@ Version:
     for flow control; all  instructions which match the current ignorance pattern
     are ignored during execution.
   inception-date: Sep 2001
+  development-stage: mature
+  computational-class: unknown computational class
   esowiki: Version
   sample: |
     START: ROOM = "VALLEY|BROOK|GLADE"
@@ -3013,6 +3084,7 @@ Whothm:
   auspices:
   - Cat's Eye Technologies
   inception-date: Jun 28, 2010
+  development-stage: mature
   computational-class: known not Turing-complete
   sample: |
     r := (0, 0, 1, 2);
@@ -3063,6 +3135,9 @@ Wierd:
   - Ben Olmstead
   computational-class: believed Turing-complete
   inception-date: 1997
+  # there are two implementations, neither of which seems to conform to
+  # the spec, at least not entirely.
+  development-stage: not fully complete
   etymology:
   - typo
   influences:
@@ -3130,6 +3205,7 @@ Wunnel:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Feb 13, 2011
+  development-stage: mature
   influences:
   - 1L
   - reMorse
@@ -3194,6 +3270,7 @@ Xigxag:
   # started 2001
   esowiki: Xigxag
   inception-date: Apr 23, 2007
+  development-stage: mature
   sample: |
     ><<
   sample-output: |
@@ -3239,6 +3316,7 @@ Xoomonk:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
   inception-date: Aug 7, 2011
+  development-stage: not fully complete
   sample: |
     l := $loop*
     counter := 5
@@ -3269,6 +3347,7 @@ You are Reading the Name of this Esolang:
   auspices:
   - Cat's Eye Technologies
   inception-date: Nov 2007
+  development-stage: mature
   computational-class: Turing-complete
   unusual-computability-properties: true
   esowiki: You_are_Reading_the_Name_of_this_Esolang
@@ -3303,6 +3382,7 @@ Ypsilax:
   esolang: Ypsilax
   computational-class: believed Turing-complete
   inception-date: Aug 2001
+  development-stage: mature
   paradigms:
   - Grid-rewriting
   - Reflective
@@ -3362,6 +3442,7 @@ ZOWIE:
   auspices:
   - Cat's Eye Technologies
   inception-date: Dec 29, 2009
+  development-stage: mature
   computational-class: Turing-complete
   esowiki: ZOWIE
   influences:

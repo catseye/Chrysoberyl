@@ -2,6 +2,7 @@
 ANSI Terminal:
   type: Tool
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
+  development-stage: mature
   commentary: |
     When a project claims it needs this to run, it needs to run in a terminal which understand
     the ANSI terminal control codes (more formally known as "ECMA-48") in
@@ -43,17 +44,20 @@ Borland C++ compiler:
 
 CRUNCHER AB+:
   type: Tool
+  development-stage: vintage
   no-specification: true
 
 make:
   type: Tool
   specification-link: http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
+  development-stage: vintage
   links:
   - http://www.gnu.org/software/make/
 
 Parsec:
   type: Tool
   specification-link: http://legacy.cs.uu.nl/daan/parsec.html
+  development-stage: mature
   links:
   - http://hackage.haskell.org/package/parsec-3.1.1
 
@@ -61,3 +65,4 @@ Tcl/Tk:
   type: Tool
   # a bloody lie, but I don't care right now
   no-specification: true
+  development-stage: mature

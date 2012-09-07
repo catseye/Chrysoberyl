@@ -18,6 +18,7 @@
     allows a program to interact with the user through a console, which
     is emulated on whatever user interface is really available.
   inception-date: ca 2003
+  development-stage: mature
 
 'Console::Virtual (Perl module)':
   type: Implementation
@@ -61,6 +62,7 @@ crone:
     it calculates the amount of time between now and when the next is due
     to run, and sleeps exactly that long.
   inception-date: Mar 1 2004
+  development-stage: mature
 
 crone.erl:
   type: Implementation
@@ -93,6 +95,7 @@ DiskSumo:
     DiskSumo is a program to transfer disk images off a Commodore 64 over
     the RS-232 port via the XMODEM protocol at 300 baud.
   inception-date: ca 2005
+  development-stage: mature
 
 DiskSumo (BASIC):
   type: Implementation
@@ -131,6 +134,7 @@ Falderal:
     "doctests for DSLs".  It can be embedded in both Markdown and Literate
     Haskell.
   inception-date: 2011
+  development-stage: work in progress
 
 Test.Falderal:
   type: Implementation
@@ -186,6 +190,7 @@ mzstorkipiwanbotbotbot:
   description: |
     An IRC bot with no purpose or plan.
   inception-date: 2010
+  development-stage: unfinished
 
 mzstorkipiwanbotbotbot (Lua):
   type: Implementation
@@ -228,6 +233,7 @@ Rooibos:
     used in [[Eightebed]], but provided here for ease of transplanting into
     other projects.
   inception-date: '2011'
+  development-stage: not fully complete
 
 rooibos.py:
   type: Implementation
@@ -260,6 +266,7 @@ toolshelf:
     those trees. The source trees are typically the working directories of
     local git or Mercurial clones, or they can be source distributions from tarballs.
   inception-date: 2012
+  development-stage: work in progress
 
 toolshelf.py:
   type: Implementation
@@ -291,6 +298,7 @@ TPiS:
     is written almost entirely in a primitive-recursive style, so it can
     check itself!
   inception-date: ca 2006
+  development-stage: archival
 
 TPiS (Scheme):
   type: Implementation
@@ -325,6 +333,7 @@ transmat:
     lousy protocols (namely FTP), and to minimize transmission time during
     synchronization.
   inception-date: ca 2005
+  development-stage: mature
 
 transmat (Python):
   type: Implementation
@@ -356,8 +365,9 @@ yucca:
     which refer to non-existent line numbers, or line numbers which contain
     only a `REM`, among a few other modest features.
   inception-date: 2012
+  development-stage: work in progress
 
-'yucca (Python)':
+yucca (Python):
   type: Implementation
   implementation-of:
   - yucca

@@ -23,7 +23,6 @@ basedump.erl:
 basedump distribution: 
   type: Distribution
   distribution-of: basedump
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2002.1010"
@@ -53,7 +52,6 @@ belld.c:
 belld distribution: 
   type: Distribution
   distribution-of: basedump
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2004.0303"
@@ -80,7 +78,6 @@ brace.c:
 brace distribution: 
   type: Distribution
   distribution-of: brace
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2004.0920"
@@ -110,7 +107,6 @@ ce (Erlang):
 ce distribution: 
   type: Distribution
   distribution-of: ce
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2003.0522"
@@ -139,7 +135,6 @@ ec.erl:
 ec distribution: 
   type: Distribution
   distribution-of: ec
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2004.0228"
@@ -169,7 +164,6 @@ erlaunch.c:
 erlaunch distribution: 
   type: Distribution
   distribution-of: erlaunch
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2004.0309"
@@ -197,7 +191,6 @@ noise (Perl):
 noise distribution: 
   type: Distribution
   distribution-of: noise
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2001.0622"
@@ -276,7 +269,6 @@ peruse.erl:
 peruse distribution: 
   type: Distribution
   distribution-of: peruse
-  development-stage: archived
   releases: 
   - version: "1.0"
     revision: "2002.1204"

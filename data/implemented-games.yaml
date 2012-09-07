@@ -12,6 +12,7 @@ Animals:
     as more games are played.
   # until i find a canonical description
   no-specification: true
+  development-stage: vintage
   authors: []
 
 animals.erl:
@@ -52,6 +53,7 @@ Flip:
   description: |
     A classic game that demonstrates simple "artificial intelligence".
   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
+  development-stage: vintage
   authors:
   - John S. James
 
@@ -86,12 +88,12 @@ Flip distribution:
 Hunt the Wumpus:
   type: Game
   genre: Logic
-  vintage: true
   authors:
   - Gregory Yob
   description: |
     The classic topological mythical-beast-hunting game, implemented in Erlang.
   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
+  development-stage: vintage
 
 wumpus.erl:
   type: Implementation
@@ -125,6 +127,7 @@ Sokoban:
     The classic Japanese game about lean manufacturing (well, sort of).
   # need to look this up someday
   no-specification: true
+  development-stage: mature
   authors: []
 
 esoko:

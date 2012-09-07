@@ -182,6 +182,8 @@ def check_chrysoberyl_data(data):
       # On to checking fields specific to different types.
 
       if type_ == 'Distribution':
+          assert 'development-stage' not in node, \
+            "%s mentions 'development-stage'" % key
           check_scalar_ref(data, key, node, 'distribution-of')
 
       if type_ == 'Implementation':
@@ -247,6 +249,8 @@ def check_chrysoberyl_data(data):
       if type_ in ['Game', 'Programming Language', 'Library', 'Tool', 'Platform', 'Conlang']:
           assert 'build-requirements' not in node
           assert 'run-requirements' not in node
+          check_scalar_ref(data, key, node, 'development-stage',
+                           types=['Development Stage'])
           check_optional_scalar_ref(data, key, node, 'variant-of', type_)
           if not node.get('no-specification', False):
               if ('specification-link' not in node and

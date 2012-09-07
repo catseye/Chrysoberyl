@@ -118,6 +118,11 @@ for now.
 Each platform must specify what its native language is.  Implementations
 may specify, along with a host language, a host platform.
 
+Every implementable must have a development stage.  The development
+stage of an implementation, if not given, is assumed to be on par with the
+development stage of the thing it implements.  Distributions never have
+development stages, as they are, in a sense, always works in progress.
+
 ### side note ###
 
 Any tool which understands a language may be considered an implementation

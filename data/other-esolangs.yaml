@@ -13,6 +13,7 @@ BitChanger:
   authors:
   - Jeffry Johnston
   specification-link: esowiki
+  development-stage: mature
 
 
 Blank:
@@ -27,6 +28,7 @@ Blank:
   authors:
   - Andrew Turley
   specification-link: http://unefunge.republika.pl/blank.htm
+  development-stage: mature
 
 
 "FALSE":
@@ -39,6 +41,7 @@ Blank:
   authors:
   - Wouter van Oortmerssen
   specification-link: esowiki
+  development-stage: mature
 
 
 reMorse:
@@ -51,6 +54,7 @@ reMorse:
   specification-link: esowiki
   authors:
   - Ryan Kusnery
+  development-stage: mature
 
 
 RUBE II: 
@@ -67,6 +71,7 @@ RUBE II:
     A close descendant of RUBE, with cleaner semantics and implementation.
   esowiki: 'RUBE II: Das Klickenklacker'
   dimensionality: 2
+  development-stage: mature
 
 rube_ii:
   type: Implementation
@@ -91,6 +96,7 @@ Spoon:
   esowiki: Spoon
   specification-link: esowiki
   authors: []
+  development-stage: mature
 
 
 Thue:
@@ -114,6 +120,7 @@ Thue:
     to construe constraint-based programming.  It is to the constraint-based
     paradigm what languages like OISC are to the imperative paradigm;
     in other words, it's a tar pit.
+  development-stage: mature
 
 thue.c:
   type: Implementation
@@ -147,3 +154,4 @@ thue.py:
   specification-link: esowiki
   authors:
   - Brian Connors
+  development-stage: mature

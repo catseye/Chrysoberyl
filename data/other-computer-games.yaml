@@ -8,6 +8,7 @@ Dungeon Master:
   controls: mouse and keyboard
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     A surprisingly intricate dungeon exploration game from the era of
     personal computers that didn't need internal fans.  In first-person
@@ -24,6 +25,7 @@ Civilization II:
   controls: mouse and keyboard
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     I like that it's not *just* a war game; you feel like you're a
     steward of the civilization you've fostered.  It's a bit like a sim game in that
@@ -41,6 +43,7 @@ The Incredible Machine 2:
   controls: mouse
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     A classic.  I like how it manages to unify, to an extent, using the "construction set" to
     build your own levels, and playing the level (since playing a level essentially means to
@@ -60,6 +63,7 @@ Adventure Construction Set:
   controls: joystick and one button
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     I'm a sucker for "construction sets" (games that come with a level editor), and
     a sucker for adventure games, so this would seem a natural fit.  It's actually
@@ -77,6 +81,7 @@ Zelazny Angband:
   controls: keyboard
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     I'm not at all a fan of Roger Zelazny's stuff, but this is one of the best-hacked
     Angband's out there, and has a really good gameplay balance.
@@ -88,6 +93,7 @@ King's Quest V:
   controls: mouse
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     Alexander takes a mint.
     
@@ -108,6 +114,7 @@ Ultima VII Part 2:
   controls: mouse
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     I wasn't fortunate enough to play this until 2003.
     This was, of course, long after the hardware that it made so many demands on was obsolete,
@@ -122,6 +129,7 @@ Dungeon Keeper II:
   controls: mouse and keyboard
   authors: []
   no-specification: true
+  development-stage: mature
   commentary: |
     It deserves mention if for no other reason than you get to carve your own
     dungeon out of the rock as part of the game.

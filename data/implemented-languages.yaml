@@ -10,6 +10,7 @@ brainfuck:
   esowiki: brainfuck
   computational-class: Turing-complete
   specification-link: esowiki
+  development-stage: mature
   commentary: |
     Brainfuck is the 12-bar blues of [[Esolang]].
 
@@ -49,6 +50,7 @@ Muriel:
   reference-distribution: Muriel distribution
   computational-class: Turing-complete
   specification-link: esowiki
+  development-stage: mature
 
 muriel.pl:
   type: Implementation
@@ -80,6 +82,7 @@ VALGOL:
   esowiki: VALGOL
   computational-class: unknown computational class
   no-specification: true
+  development-stage: not fully complete
 
 valgol.erl:
   type: Implementation
@@ -111,6 +114,7 @@ Smallfuck:
   computational-class: Finite-automata-complete
   inception-date: ca 2002
   specification-link: esowiki
+  development-stage: mature
 
 sf2tab:
   type: Implementation
@@ -142,6 +146,7 @@ Underload:
   computational-class: believed Turing-complete
   esowiki: Underload
   specification-link: esowiki
+  development-stage: mature
 
 stringie:
   type: Implementation
@@ -175,6 +180,7 @@ stringie:
   - Lawrence Landweber
   computational-class: Primitive recursive
   specification-link: http://www.amazon.com/Theory-Computation-Walter-S-Brainerd/dp/0471095850
+  development-stage: vintage
 
 'PL-{GOTO}.NET':
   type: Implementation
@@ -223,6 +229,7 @@ Ale:
   esowiki: Ale
   computational-class: believed Turing-complete
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.ale:
   type: Implementation
@@ -252,6 +259,7 @@ Backflip:
   esowiki: Backflip
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.backflip:
   type: Implementation
@@ -281,6 +289,7 @@ Black:
   esowiki: Black
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.black:
   type: Implementation
@@ -311,6 +320,7 @@ LNUSP:
   esowiki: LNUSP
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.lnusp:
   type: Implementation
@@ -350,6 +360,7 @@ tc.catseye.yoob.lnusp:
   esowiki: 1L_a
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.onela:
   type: Implementation
@@ -381,6 +392,7 @@ tc.catseye.yoob.onela:
   esowiki: 1L_AOI
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: not fully complete
 
 tc.catseye.yoob.onelaoi:
   type: Implementation
@@ -411,6 +423,7 @@ PATH:
   esowiki: PATH
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.path:
   type: Implementation
@@ -440,6 +453,7 @@ Qdeql:
   esowiki: Qdeql
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.qdeql:
   type: Implementation
@@ -469,6 +483,7 @@ Sceql:
   esowiki: Sceql
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.sceql:
   type: Implementation
@@ -499,6 +514,7 @@ SNUSP:
   esowiki: SNUSP
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.snusp:
   type: Implementation
@@ -531,6 +547,7 @@ tc.catseye.yoob.snusp:
   - 2L
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.twoill:
   type: Implementation
@@ -561,6 +578,7 @@ tc.catseye.yoob.twoill:
   esowiki: 2L
   computational-class: unknown computational class
   specification-link: esowiki
+  development-stage: mature
 
 tc.catseye.yoob.twol:
   type: Implementation

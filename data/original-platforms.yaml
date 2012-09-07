@@ -22,6 +22,7 @@ BefOS:
   influences:
   - Befunge-93
   inception-date: ca 1999
+  development-stage: unfinished
   dimensionality: 2
   reference-distribution: BefOS distribution
   esowiki: BefOS
@@ -74,6 +75,7 @@ yoob:
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   inception-date: Mar 15 2011
+  development-stage: not fully complete
   reference-distribution: yoob distribution
   esowiki: yoob
 

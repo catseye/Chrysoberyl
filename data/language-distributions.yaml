@@ -19,7 +19,6 @@ ALPACA distribution:
 Apple Befunge distribution: 
   type: Distribution
   distribution-of: Apple Befunge
-  development-stage: archival
   github: catseye/Apple-Befunge
   bitbucket: catseye/apple-befunge
   issue-tracker: github
@@ -34,7 +33,6 @@ Apple Befunge distribution:
 Arboretuum distribution: 
   type: Distribution
   distribution-of: Arboretuum
-  development-stage: mature
   github: catseye/Arboretuum
   bitbucket: catseye/arboretuum
   issue-tracker: github
@@ -105,7 +103,6 @@ Beturing distribution:
   github: catseye/Beturing
   bitbucket: catseye/beturing
   issue-tracker: github
-  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2005.0606"
@@ -124,7 +121,6 @@ Bhuna distribution:
   bitbucket: catseye/bhuna
   issue-tracker: github
   has-makefile: true
-  development-stage: archival
   releases: 
   - version: "0.1"
     revision: "2005.0721"
@@ -160,7 +156,6 @@ Braktif distribution:
   github: catseye/Braktif
   bitbucket: catseye/braktif
   issue-tracker: github
-  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2007.0503"
@@ -206,7 +201,6 @@ Cfluviurrh distribution:
   github: catseye/Cfluviurrh
   bitbucket: catseye/cfluviurrh
   issue-tracker: github
-  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2012.0826"
@@ -218,7 +212,6 @@ Circute distribution:
   github: catseye/Circute
   bitbucket: catseye/circute
   issue-tracker: github
-  development-stage: mature
   releases: 
   - version: "1.0"
     revision: "2007.0503"

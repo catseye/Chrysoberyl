@@ -9,6 +9,7 @@ ANSI C:
   computational-class: Finite-automata-complete
   authors: []
   specification-link: http://clc-wiki.net/wiki/C89
+  development-stage: mature
   references: 
   - title: ANSI C docs
     description: Interesting documents about the standardization of C
@@ -45,6 +46,7 @@ Borland C:
   variant-of: ANSI C
   generally-compiled: true
   no-specification: true
+  development-stage: archival
   # Well, Borland.  duh.
   authors: []
   paradigms:
@@ -64,6 +66,7 @@ C99:
   computational-class: Finite-automata-complete
   authors: []
   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
+  development-stage: mature
   links:
   - http://www.opengroup.org/onlinepubs/9699919799/
   commentary: |
@@ -111,6 +114,7 @@ C++:
   computational-class: Finite-automata-complete
   authors: []
   standards-body: http://www.open-std.org/jtc1/sc22/wg21/
+  development-stage: mature
   references:
   - title: C++ FAQ Lite
     description: Comprehensive compilation of C++ questions and answers
@@ -195,6 +199,8 @@ CSS:
   - Declarative
   computational-class: unknown computational class
   specification-link: http://www.w3.org/TR/CSS2/
+  # only because "what is this i don't even" isn't a development stage
+  development-stage: mature
   authors: []
   commentary: |
     If I, as a programmer, were to tell you that CSS is the ultimate hacking
@@ -234,6 +240,7 @@ Erlang:
   generally-compiled: true
   computational-class: Turing-complete
   standards-body: http://www.erlang.org/
+  development-stage: mature
   authors: []
   references:
   - title: Open Source Erlang/OTP
@@ -268,6 +275,7 @@ Erlang/OTP R13B:
   - http://www.erlang.org/
 
 
+# should probably call this Haskell 98
 Haskell:
   type: Programming Language
   genre: Production language
@@ -276,6 +284,7 @@ Haskell:
   - Lazy
   computational-class: Turing-complete
   standards-body: http://www.haskell.org/
+  development-stage: mature
   authors: []
 
 ghc:
@@ -315,6 +324,7 @@ Java:
   generally-compiled: true
   computational-class: Turing-complete
   standards-body: http://www.oracle.com/technetwork/java/index.html
+  development-stage: mature
   authors: []
   references:
   - title: Oracle Technology Network > Java
@@ -354,6 +364,7 @@ Javascript:
   - Object-oriented
   computational-class: Turing-complete
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+  development-stage: mature
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
@@ -428,6 +439,7 @@ Lua:
   - Object-oriented
   computational-class: Turing-complete
   standards-body: http://www.lua.org/
+  development-stage: mature
   authors: []
   references:
   - title: Lua
@@ -460,6 +472,7 @@ MSIL:
   generally-compiled: true
   computational-class: unknown computational class
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
+  development-stage: mature
   authors: []
 
 ilasm:
@@ -483,6 +496,7 @@ Perl:
   - Object-oriented
   computational-class: Turing-complete
   standards-body: http://www.perl.org/
+  development-stage: mature
   authors: []
   commentary: |
     Perl is what happens when you play [[Katamari Damacy]]
@@ -528,6 +542,7 @@ PHP:
   - Object-oriented
   computational-class: Turing-complete
   standards-body: http://www.php.net/
+  development-stage: mature
   authors: []
   commentary: |
     PHP is language defined by a tool built by some guys who saw a
@@ -584,6 +599,7 @@ Python:
   - Object-oriented
   computational-class: Turing-complete
   standards-body: http://www.python.org/
+  development-stage: mature
   authors: []
   references:
   - title: Python
@@ -661,6 +677,8 @@ R:
   - Functional
   computational-class: Turing-complete
   standards-body: http://www.r-project.org/
+  # only because there's no development stage "THE FUTURE"
+  development-stage: mature
   authors: []
   isbn: 3-900051-07-0
   commentary: |
@@ -690,6 +708,7 @@ Ruby:
   - Object-oriented
   computational-class: Turing-complete
   standards-body: http://www.ruby-lang.org/
+  development-stage: mature
   authors: []
 
 ruby 1.8.7:
@@ -707,7 +726,7 @@ ruby 1.8.7:
     http://www.ruby-lang.org/en/about/license.txt
 
 
-
+# should call this R5RS Scheme
 Scheme: 
   type: Programming Language
   genre: Production language
@@ -715,6 +734,7 @@ Scheme:
   - Functional
   computational-class: Turing-complete
   specification-link: http://schemers.org/Documents/Standards/R5RS/
+  development-stage: mature
   authors: []
   description: |
     Scheme is a simple programming language with an extremely regular syntax
@@ -793,6 +813,8 @@ SETL:
   - Imperative
   computational-class: Turing-complete
   specification-link: http://setl.org/setl/doc/
+  # archival?
+  development-stage: mature
   authors: []
 
 
@@ -803,6 +825,8 @@ Zz:
   - Metalanguage
   computational-class: unknown computational class
   specification-link: http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html
+  # abandoned?
+  development-stage: mature
   authors: []
   links:
   - 'http://openzz.sourceforge.net/'
@@ -822,6 +846,7 @@ Ophis Assembler:
   - Assembly
   generally-compiled: true
   computational-class: Finite-automata-complete
+  development-stage: mature
   authors:
   - Michael C. Martin
   links:
@@ -862,6 +887,7 @@ NASM Assembler:
   generally-compiled: true
   computational-class: Finite-automata-complete
   standards-body: http://nasm.us/
+  development-stage: mature
   authors: []
   commentary: |
     In our projects, many of these NASM files were converted from older
@@ -900,6 +926,7 @@ lookup table:
   computational-class: Finite-automata-complete
   # it's, uh.  pretty self-explanatory, actually.
   no-specification: true
+  development-stage: mature
   authors: []
 
 Wireworld:
@@ -911,6 +938,7 @@ Wireworld:
   computational-class: Finite-automata-complete
   # i'll look it up someday
   no-specification: true
+  development-stage: mature
   authors: []
 
 
@@ -919,6 +947,8 @@ Unknown language:
   genre: Production language
   paradigms: []
   no-specification: true
+  # yes, the unknown language has been in widespread use for a while now
+  development-stage: mature
   authors: []
   description: |
     This node represents the fact that I don't know what language some
@@ -930,4 +960,5 @@ Unknown language:
   genre: Machine language
   paradigms: []
   no-specification: true
+  development-stage: mature
   authors: []
