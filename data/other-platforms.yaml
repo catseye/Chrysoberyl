@@ -69,8 +69,12 @@ MS-DOS:
   native-language: 80286 machine code
   # I dunno, batch maybe?
   other-languages: []
-  as-a-prerequisite: |
-    This project assumes that it will be running under MS-DOS or something
+  commentary: |
+    I think the only thing that requires MS-DOS is shelta; and even then, it might
+    rely only on the BIOS interface, I forget.
+   
+    A project which has this as a dependency
+    assumes that it will be running under MS-DOS or something
     which emulates MS-DOS sufficiently well. This includes both the standard
     DOS INT 21h handler, and the standard DOS utilies like, for example,
     DEBUG.COM.
@@ -87,9 +91,6 @@ MS-DOS:
         on a PC emulator such as [[Bochs]].
     
     All of the above software packages are open source.
-  commentary: |
-    I think the only thing that requires MS-DOS is shelta; and even then, it might
-    rely only on the BIOS interface, I forget.
 
 DOSBox:
   type: Implementation

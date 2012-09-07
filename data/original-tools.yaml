@@ -17,15 +17,6 @@
     `Console::Virtual` is a simple, lightweight abstraction layer which
     allows a program to interact with the user through a console, which
     is emulated on whatever user interface is really available.
-  as-a-prerequisite: |
-      This [[Perl]] project uses [[Cat's Eye Technologies]]' own
-      `Console::Virtual` interface to provide a simulated console on
-      which to display random-access, coloured textual
-      output, and from which to take raw key input.
-      Running the programs of the project will require that
-      version 2007.1122 or later of the `Console::Virtual`
-      module, or some other module which provides a compatible
-      interface, be installed.
   inception-date: ca 2003
 
 'Console::Virtual (Perl module)':
@@ -139,14 +130,6 @@ Falderal:
     language-agnostic fashion.  The dumbed-down sound-bite version:
     "doctests for DSLs".  It can be embedded in both Markdown and Literate
     Haskell.
-  as-a-prerequisite: |
-    In order to run the tests (and possibly rebuild the documentation) for
-    this project, you will need the `Test.Falderal` Haskell package (or some
-    other tool which understands the Falderal Literate Test Format, version
-    0.4) installed.
-    
-    (Note: update the version number in the above paragraph and mention
-    py-falderal.)
   inception-date: 2011
 
 Test.Falderal:

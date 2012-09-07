@@ -10,18 +10,9 @@ Apple II:
   - Applesoft BASIC
   links:
   - 'http://www.zophar.net/apple2.html'
-  as-a-prerequisite: |
-    This project assumes that it will be running on an Apple ][+, great
-    microcomputer of old. Most such software will also run on an Apple //e
-    or similar model.
-    
-    Of course, these days, it's more likely you'd be running this software
-    on an emulator instead of a museum piece. We can't say we've found an
-    Apple ][+ emulator yet that's good enough to be our go-to emulator (pun?
-    what pun?), but the link above offers a great variety of choices.
-    
-    Strike that -- AppleWin is definitely the nicest one we've found for Windows.
-    Linux?  Still looking.
+  commentary: |
+    [[AppleWin]] is definitely the nicest emulator that we've found for
+    this platform, for [[Windows]].  [[Linux]]?  Still looking.
 
 AppleWin:
   type: Implementation
@@ -71,8 +62,6 @@ Applesoft BASIC:
     description: 6502 Instruction Set reference
     url: http://www.obelisk.demon.co.uk/6502/instructions.html
   authors: []
-  as-a-prerequisite: |
-      TODO say stuff about 6502 code here
 
 
 Commodore 64:
@@ -83,14 +72,6 @@ Commodore 64:
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
-  as-a-prerequisite: |
-    This project assumes that it will be running on a stock
-    Commodore 64, great microcomputer of old (well, if you consider
-    things from the early 80's to be old...)
-    
-    Of course, not everyone owns a Commodore 64, but these days,
-    quite good open-source C64 emulators are available for most
-    platforms.  We suggest VICE.
 
 VICE x64:
   type: Implementation
@@ -144,8 +125,8 @@ IBM PC compatible:
   wikipedia: IBM PC compatible
   native-language: 80286 machine code
   other-languages: []
-  as-a-prerequisite: |
-    This project assumes that it will be running on a fairly standard
+  commentary: |
+    A project that requires this assumes that it will be running on a fairly standard
     x86-based (IA-32) computer architecture, from the lineage that dates
     back to those old IBM PC's. Probably a 486 with a BIOS, keyboard, and
     basic VGA is the minimum to make it worthwhile. While most modern PC's
@@ -167,16 +148,6 @@ IBM PC compatible:
   computational-class: Finite-automata-complete
   specification-link: http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html
   authors: []
-  as-a-prerequisite: |
-      Programs in this format assume that they will be running on a fairly
-      standard x86-based (IA-32) computer architecture, from the 
-      lineage that dates back to those old IBM PC's.  Probably a 486
-      with a BIOS, keyboard, and basic VGA is the minimum to make
-      it worthwhile.  While most modern PC's can handle that reasonably
-      well, often a better choice — because it can run under a modern OS,
-      rather than actually dedicating the entire computer to it —
-      is to run such things under an emulator.  In which case,
-      we recommend Bochs.
 
 Bochs:
   type: Implementation

@@ -2,8 +2,8 @@
 ANSI Terminal:
   type: Tool
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
-  as-a-prerequisite: |
-    Executables of this project need to run in a terminal which understand
+  commentary: |
+    When a project claims it needs this to run, it needs to run in a terminal which understand
     the ANSI terminal control codes (more formally known as "ECMA-48") in
     order for their output to be intelligible. Almost all modern consoles
     and terminal emulators understand these codes, sometimes under the guise
@@ -25,9 +25,9 @@ Borland C++ compiler:
   target-language: 80286 machine code
   target-platform: MS-DOS
   implementation-type: compiler
-  as-a-prequisite: |
-    The source code for this project was developed with Borland C++ 3.1
-    (although it is almost certainly written in C, not C++.) It may use
+  commentary: |
+    The source code for some of our projects was developed with Borland C++ 3.1
+    (although it is was written in C, not C++.) It may use
     Borland C++-specific extensions and libraries. Borland C++ 3.1 is not
     free software, although you can apparently download a set of Borland's
     later tools free of charge. I don't know if they'd be useful to compile
@@ -37,6 +37,9 @@ Borland C++ compiler:
     require Borland C++ anymore; they've all been converted to use portable
     features (such as [[ANSI Terminal]] control codes and should
     be quite buildable with any conforming [[C99]] compiler.
+    
+    Note also that there are no projects at Cat's Eye Technologies that have
+    been tested under Borland C++ recently.
 
 CRUNCHER AB+:
   type: Tool
@@ -47,23 +50,12 @@ make:
   specification-link: http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
   links:
   - http://www.gnu.org/software/make/
-  as-a-prerequisite: |
-    In order to build this project automatically, you will need a `make`
-    utility capable of handling fairly generic Makefiles. GNU `make` should
-    be generally capable of handling these kind of Makefiles.
-    
-    Without a `make`, you can still build the project; you will just have to
-    find another way to invoke the compiler (or whatever) on all the source
-    files.
 
 Parsec:
   type: Tool
   specification-link: http://legacy.cs.uu.nl/daan/parsec.html
-  as-a-prerequisite: |
-    This [[Haskell]] project uses the Parsec parser combinator library to
-    define a parser. Parsec comes with some implementations of Haskell, and
-    if it didn't come with yours, it's available as a [Cabal
-    package](http://hackage.haskell.org/package/parsec-3.1.1).
+  links:
+  - http://hackage.haskell.org/package/parsec-3.1.1
 
 Tcl/Tk:
   type: Tool

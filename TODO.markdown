@@ -33,6 +33,11 @@ and Borland C++; or in a more involved way, polyglots):
 
 Version numbers on languages.
 
+Falderal tests -- distributions contain tests and require a testing
+tool.  (Sometimes implementations do, but Falderal tests can test
+multiple implementations, so, no.  Sometimes implementables
+do, but... well, maybe.)
+
 templates
 ---------
 

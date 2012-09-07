@@ -239,11 +239,7 @@ Erlang:
   - title: Open Source Erlang/OTP
     description: Ericsson's official distribution site
     url: http://www.erlang.org/
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Erlang modules, and
-    running them requires a copy of the Erlang/OTP runtime system, version
-    R13B03 or later, or a fully-compatible runtime system.
-    
+  commentary: |
     Note that compiled Erlang modules are `.beam` files in the `ebin`
     directory. The source code lives in the `src` directory, and an Erlang
     compiler (such as the one which ships with Erlang/OTP) is required to
@@ -596,19 +592,6 @@ Python:
   - title: Python IAQ
     description: Infrequently Answered Questions about Python
     url: http://norvig.com/python-iaq.html
-  as-a-prerequisite: |
-    Some or all of the programs in this project are Python scripts, and
-    running them requires a Python interpreter, version 2.5.2 or later.
-    (Actually it's quite possible older versions of Python will work, but we
-    haven't confirmed them.)
-    
-    While there are several implementations of Python, we're not aware of
-    any standards documents defining the language aside from the reference
-    implementation and manual produced by the Python project, which we've
-    linked to here.
-    
-    We have also tested our Python scripts on Jython 2.5.1 and found that
-    they seem to run quite well on it.
   commentary: |
     Mostly harmless.
     
