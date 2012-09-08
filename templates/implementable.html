@@ -3,9 +3,12 @@
 {% block content %}
 
 {% if reference_distribution %}
-  <h2>Reference distribution</h2>
-  {# maybe include info about this inline somehow #}
-  <p>{{ link(reference_distribution) }}</p>
+  <section id="reference_distribution">
+    <h2>Reference distribution</h2>
+    {# maybe include info about this inline somehow #}
+    <p>{{ link(reference_distribution) }}</p>
+    {% include "include/distribution.html" %}
+  </section>
 {% elif standards_body %}
   <h2>Defined by</h2>
   <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>

@@ -21,44 +21,5 @@
 {% endblock description %}
 
 {% block content %}
-
-{% if related('in-distributions') %}
-  <h2>Contains Implementations</h2>
-  <ul>
-    {% for implementation in related('in-distributions') %}
-      <li>
-        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
-{% if github or bitbucket %}
-  <h2>Development</h2>
-  {% if github %}
-    <p>Github: <a href="https://github.com/{{ github }}">{{ github }}</a></p>
-  {% endif %}
-  {% if bitbucket %}
-    <p>Bitbucket: <a href="https://bitbucket.org/{{ bitbucket }}">{{ bitbucket }}</a></p>
-  {% endif %}
-  {% if issue_tracker %}
-    {% if issue_tracker == 'github' %}
-      <p>Issue tracker: <a href="https://github.com/{{ github }}/issues">on github</a></p>
-    {% else %}
-      <p>Issue tracker: <a href="{{ issue_tracker }}">{{ issue_tracker }}</a></p>
-    {% endif %}
-  {% endif %}
-{% endif %}
-
-{% if releases %}
-  <h2>Releases</h2>
-  <ul>
-    {% for release in releases %}
-    <li>
-      <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
+{% include "include/distribution.html" %}
 {% endblock content %}

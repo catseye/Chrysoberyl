@@ -1,0 +1,38 @@
+{% if related('in-distributions', key=ref_dist()) %}
+  <h2>Contains Implementations</h2>
+  <ul>
+    {% for implementation in related('in-distributions', key=ref_dist()) %}
+      <li>
+        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if data[ref_dist()].github or data[ref_dist()].bitbucket %}
+  <h2>Development</h2>
+  {% if data[ref_dist()].github %}
+    <p>Github: <a href="https://github.com/{{ data[ref_dist()].github }}">{{ data[ref_dist()].github }}</a></p>
+  {% endif %}
+  {% if data[ref_dist()].bitbucket %}
+    <p>Bitbucket: <a href="https://bitbucket.org/{{ data[ref_dist()].bitbucket }}">{{ data[ref_dist()].bitbucket }}</a></p>
+  {% endif %}
+  {% if data[ref_dist()].issue_tracker %}
+    {% if data[ref_dist()].issue_tracker == 'github' %}
+      <p>Issue tracker: <a href="https://github.com/{{ data[ref_dist()].github }}/issues">on github</a></p>
+    {% else %}
+      <p>Issue tracker: <a href="{{ data[ref_dist()].issue_tracker }}">{{ data[ref_dist()].issue_tracker }}</a></p>
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% if data[ref_dist()].releases %}
+  <h2>Releases</h2>
+  <ul>
+    {% for release in data[ref_dist()].releases %}
+    <li>
+      <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}

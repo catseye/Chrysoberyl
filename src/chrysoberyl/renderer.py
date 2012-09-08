@@ -97,10 +97,19 @@ class Renderer(object):
                     continue
             return objects
 
+        def ref_dist(key=key):
+            if self.data[key]['type'] == 'Distribution':
+                return key
+            if 'in-distribution' in self.data[key]:
+                return self.data[key]['in-distribution']
+            if 'reference-distribution' in self.data[key]:
+                return self.data[key]['reference-distribution']
+            raise TypeError(key)
+
         def documentation(key=key):
             doc_node = self.data['Documentation Index']
             return doc_node['entries'].get(key, [])
-        
+
         def related_github(key=key):
             if 'github' in self.data[key]:
                 return self.data[key]['github']
@@ -191,6 +200,7 @@ class Renderer(object):
         context['related_github'] = related_github
         context['github_link'] = github_link
         context['recommended_implementation'] = recommended_implementation
+        context['ref_dist'] = ref_dist
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs
         context['link'] = link

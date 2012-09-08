@@ -53,7 +53,7 @@ Apple Befunge:
   - Self-modifying
   development-stage: archival
   description: |-
-    Apple Befunge is a variant of Befunge for the Apple ][+ which
+    Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
     Befunge-93, with some extra Befunge-96-esque instructions and some
     Apple ][+-specific instructions.
   inception-date: Jul 3, 2000
