@@ -67,10 +67,14 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 For a competition, list all submissions.
 
+Something to indicate "specification link forthcoming" instead of
+baldly "no specification".
+
+Reference distribution should come completely inline on implementables,
+in some kind of bordered area, with a link to it as a seperate node.
+
 content
 -------
-
-Electronics projects.
 
 Chrysoberyl has a distribution.
 

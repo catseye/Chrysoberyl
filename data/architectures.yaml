@@ -182,6 +182,17 @@ Bochs:
   implementation-type: emulator
 
 
+Z80 machine code:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  computational-class: Finite-automata-complete
+  no-specification: true
+  development-stage: vintage
+  authors: []
+
+
 native code:
   type: Programming Language
   genre: Machine language
