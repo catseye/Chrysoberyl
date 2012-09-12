@@ -29,7 +29,6 @@ Deturgenchry.hs:
 
 Deturgenchry distribution: 
   type: Distribution
-  distribution-of: Deturgenchry
   github: catseye/Deturgenchry
   bitbucket: catseye/deturgenchry
   issue-tracker: github
@@ -55,7 +54,6 @@ Exanoke:
 
 Exanoke distribution: 
   type: Distribution
-  distribution-of: Exanoke
   github: catseye/Exanoke
   bitbucket: catseye/exanoke
   issue-tracker: github
@@ -93,7 +91,6 @@ kosheri (C):
 
 Kosheri distribution: 
   type: Distribution
-  distribution-of: Kosheri
   github: catseye/Kosheri
   bitbucket: catseye/kosheri
   issue-tracker: github
@@ -129,7 +126,6 @@ pophery.py:
 
 Pophery distribution: 
   type: Distribution
-  distribution-of: Pophery
   github: catseye/Pophery
   bitbucket: catseye/pophery
   issue-tracker: github
@@ -172,7 +168,6 @@ Robin.lhs:
 
 Robin distribution: 
   type: Distribution
-  distribution-of: Robin
   github: catseye/Robin
   bitbucket: catseye/robin
   issue-tracker: github

@@ -15,7 +15,8 @@ Minischeme distribution:
   reference: false
   description: |
     Cat's Eye Technologies' fork of the original Mini-scheme distribution.
-  distribution-of: miniscm
+  distribution-of:
+  - miniscm
   github: catseye/minischeme
   issue-tracker: github
   releases: []
@@ -36,7 +37,6 @@ JaC64 distribution:
   description: |
     Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
     a Java applet.
-  distribution-of: JaC64
   github: catseye/JaC64
   issue-tracker: github
   releases: []
@@ -57,7 +57,6 @@ OpenZz distribution:
   description: |
     Cat's Eye Technologies' fork of OpenZz, an open-source implementation
     of the dynamic grammar-based language Zz.
-  distribution-of: OpenZz
   github: catseye/OpenZz
   issue-tracker: github
   releases: []

@@ -60,7 +60,6 @@ Bubble Escape 8K:
 
 Bubble Escape distribution: 
   type: Distribution
-  distribution-of: Bubble Escape
   bitbucket: catseye/bubble-escape
   github: catseye/Bubble-Escape
   issue-tracker: github
@@ -103,7 +102,6 @@ Bubble Escape distribution:
 
 'Corona: Realm of Magic distribution': 
   type: Distribution
-  distribution-of: 'Corona: Realm of Magic'
   bitbucket: catseye/corona-realm-of-magic
   github: catseye/Corona-Realm-of-Magic
   issue-tracker: github  
@@ -138,7 +136,6 @@ swl:
 
 Super Wumpus Land distribution:  
   type: Distribution
-  distribution-of: Super Wumpus Land
   bitbucket: catseye/super-wumpus-land
   github: catseye/Super-Wumpus-Land
   issue-tracker: github
@@ -177,7 +174,6 @@ Zzrk (Zz):
 
 Zzrk distribution: 
   type: Distribution
-  distribution-of: Zzrk
   bitbucket: catseye/zzrk
   github: catseye/Zzrk
   issue-tracker: github

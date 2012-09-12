@@ -3,8 +3,9 @@
 
 C64 Demo Depot: 
   type: Distribution
-  # XXX and The PETulant Cursor
-  distribution-of: Ribos
+  distribution-of:
+  - Ribos
+  - The PETulant Cursor
   bitbucket: catseye/c64-demo-depot
   github: catseye/C64-Demo-Depot
   issue-tracker: github
@@ -26,9 +27,8 @@ Ribos:
   development-stage: mature
 
 Ribos distribution: 
-  # this is discontinued.
   type: Distribution
-  distribution-of: Ribos
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2007.0410"
@@ -52,9 +52,8 @@ The PETulant Cursor:
 
 
 The PETulant Cursor distribution: 
-  # this is discontinued.
   type: Distribution
-  distribution-of: The PETulant Cursor
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2008.0401"

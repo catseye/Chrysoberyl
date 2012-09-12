@@ -44,7 +44,6 @@ BefOS (NASM):
 
 BefOS distribution: 
   type: Distribution
-  distribution-of: BefOS
   bitbucket: catseye/befos
   github: catseye/BefOS
   issue-tracker: github
@@ -89,9 +88,8 @@ tc.catseye.yoob:
   license: Public Domain
   host-language: Java
 
-'yoob distribution': 
+yoob distribution: 
   type: Distribution
-  distribution-of: yoob
   bitbucket: catseye/yoob
   github: catseye/yoob
   issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'

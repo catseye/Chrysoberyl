@@ -35,7 +35,6 @@
 
 'Console::Virtual distribution': 
   type: Distribution
-  distribution-of: 'Console::Virtual'
   bitbucket: catseye/console-virtual
   github: catseye/Console-Virtual
   issue-tracker: github
@@ -74,7 +73,6 @@ crone.erl:
 
 crone distribution: 
   type: Distribution
-  distribution-of: crone
   bitbucket: catseye/crone
   github: catseye/crone
   issue-tracker: github
@@ -108,7 +106,6 @@ DiskSumo (BASIC):
 
 DiskSumo distribution: 
   type: Distribution
-  distribution-of: DiskSumo
   bitbucket: catseye/disksumo
   github: catseye/DiskSumo
   issue-tracker: github
@@ -155,7 +152,6 @@ py-falderal:
 
 Falderal distribution: 
   type: Distribution
-  distribution-of: Falderal
   bitbucket: catseye/falderal
   github: catseye/Falderal
   issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
@@ -210,7 +206,6 @@ Rtype:
 
 mzstorkipiwanbotbotbot distribution: 
   type: Distribution
-  distribution-of: mzstorkipiwanbotbotbot
   bitbucket: catseye/mzstorkipiwanbotbotbot
   github: catseye/mzstorkipiwanbotbotbot
   issue-tracker: github
@@ -247,7 +242,6 @@ rooibos.py:
 
 Rooibos distribution: 
   type: Distribution
-  distribution-of: Rooibos
   bitbucket: catseye/rooibos
   github: catseye/Rooibos
   issue-tracker: github
@@ -278,7 +272,6 @@ toolshelf.py:
 
 toolshelf distribution: 
   type: Distribution
-  distribution-of: toolshelf
   bitbucket: catseye/toolshelf
   github: catseye/toolshelf
   issue-tracker: github
@@ -310,7 +303,6 @@ TPiS (Scheme):
 
 TPiS distribution: 
   type: Distribution
-  distribution-of: TPiS
   bitbucket: catseye/tpis
   github: catseye/TPiS
   issue-tracker: github
@@ -345,7 +337,6 @@ transmat (Python):
 
 transmat distribution: 
   type: Distribution
-  distribution-of: transmat
   bitbucket: catseye/transmat
   github: catseye/transmat
   issue-tracker: github
@@ -377,7 +368,6 @@ yucca (Python):
 
 yucca distribution: 
   type: Distribution
-  distribution-of: yucca
   bitbucket: catseye/yucca
   github: catseye/yucca
   issue-tracker: github

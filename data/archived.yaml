@@ -1,5 +1,7 @@
 # encoding: UTF-8
 # also contains the distributions for these tools
+# note that this distributions aren't discontinued
+# (except maybe where the thing is in the dipple now)
 
 basedump: 
   type: Tool
@@ -22,7 +24,6 @@ basedump.erl:
 
 basedump distribution: 
   type: Distribution
-  distribution-of: basedump
   releases: 
   - version: "1.0"
     revision: "2002.1010"
@@ -51,7 +52,6 @@ belld.c:
 
 belld distribution: 
   type: Distribution
-  distribution-of: basedump
   releases: 
   - version: "1.0"
     revision: "2004.0303"
@@ -77,7 +77,6 @@ brace.c:
 
 brace distribution: 
   type: Distribution
-  distribution-of: brace
   releases: 
   - version: "1.0"
     revision: "2004.0920"
@@ -106,7 +105,6 @@ ce (Erlang):
 
 ce distribution: 
   type: Distribution
-  distribution-of: ce
   releases: 
   - version: "1.0"
     revision: "2003.0522"
@@ -134,7 +132,6 @@ ec.erl:
 
 ec distribution: 
   type: Distribution
-  distribution-of: ec
   releases: 
   - version: "1.0"
     revision: "2004.0228"
@@ -163,7 +160,6 @@ erlaunch.c:
 
 erlaunch distribution: 
   type: Distribution
-  distribution-of: erlaunch
   releases: 
   - version: "1.0"
     revision: "2004.0309"
@@ -190,7 +186,6 @@ noise (Perl):
 
 noise distribution: 
   type: Distribution
-  distribution-of: noise
   releases: 
   - version: "1.0"
     revision: "2001.0622"
@@ -238,7 +233,6 @@ OpenFlax (Erlang):
 
 OpenFlax distribution: 
   type: Distribution
-  distribution-of: OpenFlax
   releases: 
   - version: "1.0"
     revision: "2004.0919"
@@ -268,7 +262,6 @@ peruse.erl:
 
 peruse distribution: 
   type: Distribution
-  distribution-of: peruse
   releases: 
   - version: "1.0"
     revision: "2002.1204"

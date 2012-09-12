@@ -1,7 +1,6 @@
 # encoding: UTF-8
 ALPACA distribution: 
   type: Distribution
-  distribution-of: ALPACA
   github: catseye/ALPACA
   bitbucket: catseye/alpaca
   issue-tracker: github
@@ -18,7 +17,6 @@ ALPACA distribution:
 
 Apple Befunge distribution: 
   type: Distribution
-  distribution-of: Apple Befunge
   github: catseye/Apple-Befunge
   bitbucket: catseye/apple-befunge
   issue-tracker: github
@@ -32,7 +30,6 @@ Apple Befunge distribution:
 
 Arboretuum distribution: 
   type: Distribution
-  distribution-of: Arboretuum
   github: catseye/Arboretuum
   bitbucket: catseye/arboretuum
   issue-tracker: github
@@ -52,7 +49,6 @@ Arboretuum distribution:
 
 Befunge-93 distribution: 
   type: Distribution
-  distribution-of: Befunge-93
   github: catseye/Befunge-93
   bitbucket: catseye/befunge-93
   issue-tracker: github
@@ -72,7 +68,6 @@ Befunge-93 distribution:
 
 beta-Juliet distribution: 
   type: Distribution
-  distribution-of: beta-Juliet
   github: catseye/beta-Juliet
   bitbucket: catseye/beta-juliet
   issue-tracker: github
@@ -99,7 +94,6 @@ beta-Juliet distribution:
 
 Beturing distribution: 
   type: Distribution
-  distribution-of: Beturing
   github: catseye/Beturing
   bitbucket: catseye/beturing
   issue-tracker: github
@@ -116,7 +110,6 @@ Beturing distribution:
 
 Bhuna distribution: 
   type: Distribution
-  distribution-of: Bhuna
   github: catseye/Bhuna
   bitbucket: catseye/bhuna
   issue-tracker: github
@@ -152,7 +145,6 @@ Bhuna distribution:
 
 Braktif distribution: 
   type: Distribution
-  distribution-of: Braktif
   github: catseye/Braktif
   bitbucket: catseye/braktif
   issue-tracker: github
@@ -163,7 +155,6 @@ Braktif distribution:
 
 Burro distribution: 
   type: Distribution
-  distribution-of: Burro
   github: catseye/Burro
   bitbucket: catseye/burro
   issue-tracker: github
@@ -180,7 +171,6 @@ Burro distribution:
 
 Cabra distribution: 
   type: Distribution
-  distribution-of: Cabra
   github: catseye/Cabra
   bitbucket: catseye/cabra
   issue-tracker: github
@@ -197,7 +187,6 @@ Cabra distribution:
 
 Cfluviurrh distribution: 
   type: Distribution
-  distribution-of: Cfluviurrh
   github: catseye/Cfluviurrh
   bitbucket: catseye/cfluviurrh
   issue-tracker: github
@@ -208,7 +197,6 @@ Cfluviurrh distribution:
 
 Circute distribution: 
   type: Distribution
-  distribution-of: Circute
   github: catseye/Circute
   bitbucket: catseye/circute
   issue-tracker: github
@@ -219,7 +207,6 @@ Circute distribution:
 
 Didigm distribution: 
   type: Distribution
-  distribution-of: Didigm
   releases: 
   - version: "1.0"
     revision: "2007.1117"
@@ -233,7 +220,6 @@ Didigm distribution:
 
 Dieter distribution: 
   type: Distribution
-  distribution-of: Dieter
   bitbucket: catseye/dieter
   github: catseye/Dieter
   issue-tracker: github
@@ -250,7 +236,6 @@ Dieter distribution:
 
 Eightebed distribution: 
   type: Distribution
-  distribution-of: Eightebed
   bitbucket: catseye/eightebed
   github: catseye/Eightebed
   issue-tracker: github
@@ -264,7 +249,6 @@ Eightebed distribution:
 
 Emmental distribution: 
   type: Distribution
-  distribution-of: Emmental
   bitbucket: catseye/emmental
   github: catseye/Emmental
   issue-tracker: github
@@ -281,7 +265,6 @@ Emmental distribution:
 
 Etcha distribution: 
   type: Distribution
-  distribution-of: Etcha
   bitbucket: catseye/etcha
   github: catseye/Etcha
   issue-tracker: github
@@ -292,7 +275,8 @@ Etcha distribution:
 
 FBBI distribution: 
   type: Distribution
-  distribution-of: Befunge-98
+  distribution-of:
+  - Befunge-98
   bitbucket: catseye/fbbi
   github: catseye/FBBI
   issue-tracker: github
@@ -307,7 +291,6 @@ FBBI distribution:
 
 Flobnar distribution: 
   type: Distribution
-  distribution-of: Flobnar
   bitbucket: catseye/flobnar
   github: catseye/Flobnar
   issue-tracker: github
@@ -322,7 +305,6 @@ Flobnar distribution:
 
 Funge-98 distribution: 
   type: Distribution
-  distribution-of: Funge-98
   esowiki: Funge-98
   releases: 
   - version: "1.0"
@@ -331,7 +313,6 @@ Funge-98 distribution:
 
 GraNoLa/M distribution: 
   type: Distribution
-  distribution-of: GraNoLa/M
   bitbucket: catseye/granola-m
   github: catseye/GraNoLa-M
   issue-tracker: github
@@ -342,7 +323,6 @@ GraNoLa/M distribution:
 
 Hev distribution: 
   type: Distribution
-  distribution-of: Hev
   bitbucket: catseye/hev
   github: catseye/Hev
   issue-tracker: github
@@ -356,7 +336,6 @@ Hev distribution:
 
 Hunter distribution: 
   type: Distribution
-  distribution-of: Hunter
   bitbucket: catseye/hunter
   github: catseye/Hunter
   issue-tracker: github
@@ -373,7 +352,6 @@ Hunter distribution:
 
 Illberon distribution: 
   type: Distribution
-  distribution-of: Illberon
   discontinued: true
   releases: 
   - version: "1.0"
@@ -382,7 +360,6 @@ Illberon distribution:
 
 ILLGOL distribution:
   type: Distribution
-  distribution-of: ILLGOL
   discontinued: true
   releases: 
   - version: "1.0"
@@ -394,7 +371,6 @@ ILLGOL distribution:
 
 Illgola-2 distribution: 
   type: Distribution
-  distribution-of: Illgola-2
   discontinued: true
   releases: 
   - version: "1.0"
@@ -406,7 +382,6 @@ Illgola-2 distribution:
 
 Open Sores Illgol## distribution: 
   type: Distribution
-  distribution-of: Open Sores Illgol##
   discontinued: true
   releases: 
   - version: "1.0"
@@ -415,8 +390,11 @@ Open Sores Illgol## distribution:
 
 'Illgol: Grand Mal':
   type: Distribution
-  # actually, it's a distribution of several languages.
-  distribution-of: ILLGOL
+  distribution-of:
+  - ILLGOL
+  - Illgola-2
+  - Illberon
+  - Open Sores Illgol##
   # and it probably might as well have executables.  at some point.
   bitbucket: catseye/illgol-grand-mal
   github: catseye/Illgol-Grand-Mal
@@ -425,7 +403,6 @@ Open Sores Illgol## distribution:
 
 Iphigeneia distribution: 
   type: Distribution
-  distribution-of: Iphigeneia
   bitbucket: catseye/iphigeneia
   github: catseye/Iphigeneia
   issue-tracker: github
@@ -443,8 +420,9 @@ Iphigeneia distribution:
 
 Jaccia and Jacciata distribution: 
   type: Distribution
-  # XXX and Jacciata
-  distribution-of: Jaccia
+  distribution-of:
+  - Jaccia
+  - Jacciata
   bitbucket: catseye/jaccia
   github: catseye/Jaccia
   issue-tracker: github
@@ -458,7 +436,6 @@ Jaccia and Jacciata distribution:
 
 Jolverine distribution: 
   type: Distribution
-  distribution-of: Jolverine
   bitbucket: catseye/jolverine
   github: catseye/Jolverine
   issue-tracker: github
@@ -466,7 +443,6 @@ Jolverine distribution:
 
 Kangaroo Iceberg distribution: 
   type: Distribution
-  distribution-of: Kangaroo Iceberg
   bitbucket: catseye/kangaroo-iceberg
   github: catseye/Kangaroo-Iceberg
   issue-tracker: github
@@ -484,7 +460,6 @@ Kangaroo Iceberg distribution:
 
 Kelxquoia distribution: 
   type: Distribution
-  distribution-of: Kelxquoia
   bitbucket: catseye/kelxquoia
   github: catseye/Kelxquoia
   issue-tracker: github
@@ -492,7 +467,6 @@ Kelxquoia distribution:
 
 Larabee distribution: 
   type: Distribution
-  distribution-of: Larabee
   bitbucket: catseye/larabee
   github: catseye/Larabee
   issue-tracker: github
@@ -509,7 +483,6 @@ Larabee distribution:
 
 Madison distribution: 
   type: Distribution
-  distribution-of: Madison
   has-falderal-tests: true
   releases: 
   - version: "0.1"
@@ -518,7 +491,6 @@ Madison distribution:
 
 Maentwrog distribution: 
   type: Distribution
-  distribution-of: Maentwrog
   bitbucket: catseye/maentwrog
   github: catseye/Maentwrog
   issue-tracker: github
@@ -538,7 +510,6 @@ Maentwrog distribution:
 
 Mascarpone distribution: 
   type: Distribution
-  distribution-of: Mascarpone
   bitbucket: catseye/mascarpone
   github: catseye/Mascarpone
   issue-tracker: github
@@ -558,7 +529,6 @@ Mascarpone distribution:
 
 MDPN distribution: 
   type: Distribution
-  distribution-of: MDPN
   releases: 
   - version: "1.0"
     revision: "2004.0302"
@@ -566,7 +536,6 @@ MDPN distribution:
 
 Muriel distribution: 
   type: Distribution
-  distribution-of: Muriel
   bitbucket: catseye/muriel
   github: catseye/Muriel
   issue-tracker: github
@@ -577,7 +546,6 @@ Muriel distribution:
 
 "'N-DCNC distribution": 
   type: Distribution
-  distribution-of: "'N-DCNC"
   bitbucket: catseye/n-dcnc
   github: catseye/N-DCNC
   issue-tracker: github
@@ -592,7 +560,6 @@ Muriel distribution:
 
 Nhohnhehr distribution: 
   type: Distribution
-  distribution-of: Nhohnhehr
   bitbucket: catseye/nhohnhehr
   github: catseye/Nhohnhehr
   issue-tracker: github
@@ -603,7 +570,6 @@ Nhohnhehr distribution:
 
 Oozlybub and Murphy distribution: 
   type: Distribution
-  distribution-of: Oozlybub and Murphy
   releases: 
   - version: "1.0"
     revision: "2010.1201"
@@ -614,7 +580,6 @@ Oozlybub and Murphy distribution:
 
 Opus-2 distribution: 
   type: Distribution
-  distribution-of: Opus-2
   releases: 
   - version: "0.5"
     revision: "2001.0325"
@@ -622,7 +587,6 @@ Opus-2 distribution:
 
 Pail distribution: 
   type: Distribution
-  distribution-of: Pail
   bitbucket: catseye/pail
   github: catseye/Pail
   issue-tracker: github
@@ -640,7 +604,8 @@ Pail distribution:
 
 pibfi distribution: 
   type: Distribution
-  distribution-of: brainfuck
+  distribution-of:
+  - brainfuck
   bitbucket: catseye/pibfi
   github: catseye/pibfi
   issue-tracker: github
@@ -651,7 +616,6 @@ pibfi distribution:
 
 Pixley distribution: 
   type: Distribution
-  distribution-of: Pixley
   bitbucket: catseye/pixley
   github: catseye/Pixley
   issue-tracker: github
@@ -672,7 +636,8 @@ Pixley distribution:
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
-  distribution-of: PL-{GOTO}
+  distribution-of:
+  - PL-{GOTO}
   bitbucket: catseye/pl-goto-.net
   github: catseye/PL-GOTO.NET
   issue-tracker: github
@@ -690,7 +655,6 @@ PL-{GOTO}.NET distribution:
 
 Quylthulg distribution: 
   type: Distribution
-  distribution-of: Quylthulg
   bitbucket: catseye/quylthulg
   github: catseye/Quylthulg
   issue-tracker: github
@@ -713,7 +677,6 @@ Quylthulg distribution:
 
 REDGREEN distribution: 
   type: Distribution
-  distribution-of: REDGREEN
   bitbucket: catseye/redgreen
   github: catseye/REDGREEN
   issue-tracker: github
@@ -733,7 +696,6 @@ REDGREEN distribution:
 
 RUBE distribution: 
   type: Distribution
-  distribution-of: RUBE
   github: catseye/RUBE
   bitbucket: catseye/rube
   issue-tracker: github
@@ -756,7 +718,6 @@ RUBE distribution:
 
 RUBE II distribution: 
   type: Distribution
-  distribution-of: RUBE II
   github: catseye/RUBE-II
   bitbucket: catseye/rube-ii
   issue-tracker: github
@@ -767,7 +728,6 @@ RUBE II distribution:
 
 Sally distribution: 
   type: Distribution
-  distribution-of: Sally
   bitbucket: catseye/sally
   github: catseye/Sally
   issue-tracker: github
@@ -785,7 +745,6 @@ Sally distribution:
 
 Sbeezg distribution: 
   type: Distribution
-  distribution-of: Sbeezg
   bitbucket: catseye/sbeezg
   github: catseye/Sbeezg
   issue-tracker: github
@@ -796,7 +755,6 @@ Sbeezg distribution:
 
 Shelta distribution: 
   type: Distribution
-  distribution-of: Shelta
   bitbucket: catseye/shelta
   github: catseye/Shelta
   issue-tracker: github
@@ -810,7 +768,6 @@ Shelta distribution:
 
 SMETANA distribution: 
   type: Distribution
-  distribution-of: SMETANA
   bitbucket: catseye/smetana
   github: catseye/SMETANA
   issue-tracker: github
@@ -821,7 +778,6 @@ SMETANA distribution:
 
 SMITH distribution: 
   type: Distribution
-  distribution-of: SMITH
   bitbucket: catseye/smith
   github: catseye/SMITH
   issue-tracker: github
@@ -838,7 +794,6 @@ SMITH distribution:
 
 Squishy2K distribution: 
   type: Distribution
-  distribution-of: Squishy2K
   bitbucket: catseye/squishy2k
   github: catseye/Squishy2K
   issue-tracker: github
@@ -849,7 +804,6 @@ Squishy2K distribution:
 
 Strelnokoff distribution: 
   type: Distribution
-  distribution-of: Strelnokoff
   bitbucket: catseye/strelnokoff
   github: catseye/Strelnokoff
   issue-tracker: github
@@ -860,7 +814,6 @@ Strelnokoff distribution:
 
 Tamerlane distribution: 
   type: Distribution
-  distribution-of: Tamerlane
   releases: 
   - version: "1.0"
     revision: "2001.0127"
@@ -868,7 +821,6 @@ Tamerlane distribution:
 
 Thue distribution: 
   type: Distribution
-  distribution-of: Thue
   bitbucket: catseye/thue
   github: catseye/Thue
   issue-tracker: github
@@ -882,7 +834,6 @@ Thue distribution:
 
 Treacle distribution: 
   type: Distribution
-  distribution-of: Treacle
   bitbucket: catseye/treacle
   github: catseye/Treacle
   issue-tracker: github
@@ -896,7 +847,6 @@ Treacle distribution:
 
 Troupe distribution: 
   type: Distribution
-  distribution-of: Troupe
   bitbucket: catseye/troupe
   github: catseye/Troupe
   issue-tracker: github
@@ -904,7 +854,6 @@ Troupe distribution:
 
 Unlikely distribution: 
   type: Distribution
-  distribution-of: Unlikely
   bitbucket: catseye/unlikely
   github: catseye/Unlikely
   issue-tracker: github
@@ -921,7 +870,6 @@ Unlikely distribution:
 
 You are Reading the Name of this Esolang distribution: 
   type: Distribution
-  distribution-of: You are Reading the Name of this Esolang
   releases: 
   - version: "1.0"
     revision: "2007.1105"
@@ -935,7 +883,6 @@ You are Reading the Name of this Esolang distribution:
 
 Velo distribution: 
   type: Distribution
-  distribution-of: Velo
   bitbucket: catseye/velo
   github: catseye/Velo
   issue-tracker: github
@@ -946,7 +893,6 @@ Velo distribution:
 
 Version distribution: 
   type: Distribution
-  distribution-of: Version
   bitbucket: catseye/version
   github: catseye/Version
   issue-tracker: github
@@ -960,7 +906,6 @@ Version distribution:
 
 Whothm distribution: 
   type: Distribution
-  distribution-of: Whothm
   bitbucket: catseye/whothm
   github: catseye/Whothm
   issue-tracker: github
@@ -977,7 +922,6 @@ Whothm distribution:
 
 Wierd distribution: 
   type: Distribution
-  distribution-of: Wierd
   bitbucket: catseye/wierd
   github: catseye/Wierd
   issue-tracker: github
@@ -988,7 +932,6 @@ Wierd distribution:
 
 "noit o' mnain worb distribution": 
   type: Distribution
-  distribution-of: noit o' mnain worb
   bitbucket: catseye/noit-o-mnain-worb
   github: catseye/noit-o-mnain-worb
   issue-tracker: github
@@ -1011,7 +954,6 @@ Wierd distribution:
 
 Xigxag distribution: 
   type: Distribution
-  distribution-of: Xigxag
   bitbucket: catseye/xigxag
   github: catseye/Xigxag
   issue-tracker: github
@@ -1028,7 +970,6 @@ Xigxag distribution:
 
 Xoomonk distribution: 
   type: Distribution
-  distribution-of: Xoomonk
   bitbucket: catseye/xoomonk
   github: catseye/Xoomonk
   issue-tracker: github
@@ -1040,7 +981,6 @@ Xoomonk distribution:
 
 Ypsilax distribution: 
   type: Distribution
-  distribution-of: Ypsilax
   bitbucket: catseye/ypsilax
   github: catseye/Ypsilax
   issue-tracker: github
@@ -1063,7 +1003,6 @@ Ypsilax distribution:
 
 ZOWIE distribution: 
   type: Distribution
-  distribution-of: ZOWIE
   bitbucket: catseye/zowie
   github: catseye/ZOWIE
   issue-tracker: github

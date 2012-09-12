@@ -863,7 +863,6 @@ Ophis Assembler:
 
 Ophis Assembler distribution:
   type: Distribution
-  distribution-of: Ophis Assembler
   github: michaelcmartin/Ophis
 
 Ophis:
@@ -911,7 +910,6 @@ NASM:
 
 NASM Assembler distribution:
   type: Distribution
-  distribution-of: NASM Assembler
   reference: true
   links:
   - http://www.nasm.us/

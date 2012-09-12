@@ -14,7 +14,6 @@ The 'Kitsilano' Oscillator:
 
 The 'Kitsilano' Oscillator distribution: 
   type: Distribution
-  distribution-of: The 'Kitsilano' Oscillator
   releases: 
   - version: "1.0"
     revision: "2008.0905"
@@ -38,7 +37,6 @@ LED-386:
 
 LED-386 distribution: 
   type: Distribution
-  distribution-of: LED-386
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -59,7 +57,6 @@ Mildred:
 
 Mildred distribution: 
   type: Distribution
-  distribution-of: Mildred
   releases: 
   - version: "1.0"
     revision: "2003.0110"

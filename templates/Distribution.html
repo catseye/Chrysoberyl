@@ -11,8 +11,11 @@
         a
       {% endif %}
       distribution of the
-      {{ data[distribution_of].type|lower }}
-      <a href="{{ filekey(distribution_of) }}">{{ distribution_of }}</a>.
+      {{ data[distribution_of[0]].type|lower }}
+      <a href="{{ filekey(distribution_of[0]) }}">{{ distribution_of[0] }}</a>.
+      {% if distribution_of|length > 1 %}
+        (and more: {{ linked_list(distribution_of) }}.)
+      {% endif %}
     </p>
     {% if description_html %}
       <p>{{ description_html }}</p>

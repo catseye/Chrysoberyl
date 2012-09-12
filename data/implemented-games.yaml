@@ -1,4 +1,5 @@
 # encoding: UTF-8
+# todo development-stage: archived on some of these implementations...
 Animals:
   type: Game
   genre: Guessing
@@ -33,7 +34,6 @@ animals.erl:
 
 Animals distribution: 
   type: Distribution
-  distribution-of: Animals
   bitbucket: catseye/animals
   github: catseye/Animals
   issue-tracker: github
@@ -75,7 +75,6 @@ flip.erl:
 
 Flip distribution: 
   type: Distribution
-  distribution-of: Flip
   bitbucket: catseye/flip
   github: catseye/Flip
   issue-tracker: github
@@ -112,7 +111,6 @@ wumpus.erl:
 
 Hunt the Wumpus distribution: 
   type: Distribution
-  distribution-of: Hunt the Wumpus
   releases:
   - version: "1.0"
     revision: "2002.0630"
@@ -153,7 +151,6 @@ esoko:
 
 esoko distribution: 
   type: Distribution
-  distribution-of: esoko
   releases:
   - version: "1.0"
     revision: "2002.1104"
