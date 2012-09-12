@@ -143,6 +143,7 @@ class Renderer(object):
             return '<a href="%s">%s</a>' % (filekey(key), format % key.lower())
 
         def linked_list(keys, format="%s"):
+            # not the kind you're probably thinking of
             if len(keys) == 1:
                 return link(keys[0], format=format)
             elif len(keys) == 2:
@@ -192,6 +193,19 @@ class Renderer(object):
                 return candidates[0]
             raise KeyError("%s/%s: More than one generally recommended implementation" % (key, implementable))
 
+        def lingography():
+            """Bespoke function, because we want to count them in the template"""
+            languages = []
+            types = ('Programming Language', 'Programming Language Family', 'Abstract Artlang')
+            for thing in self.data:
+                node = self.data[thing]
+                if (node['type'] in types and
+                    'Chris Pressey' in node.get('authors', []) and
+                    node.get('development-stage', 'idea') not in ('idea', 'work in progress') and
+                    not node.get('variant-of', None) and
+                    not node.get('member-of', None)):
+                    languages.append(thing)
+            return languages
 
         # functions
         context['filekey'] = filekey
@@ -206,6 +220,7 @@ class Renderer(object):
         context['link'] = link
         context['link_lower'] = link_lower
         context['linked_list'] = linked_list
+        context['lingography'] = lingography
 
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
