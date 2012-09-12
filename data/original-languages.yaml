@@ -1662,8 +1662,7 @@ Jolverine:
   description: |
     The Jolverine language was devised as a conscious attempt to expand the
     genre of turning tarpit by adding the feature of modifying the instruction
-    wheel during execution. It is not dissimilar to [[Wunnel]], and was
-    influenced slightly by Half-Broken Car in Heavy Traffic.
+    wheel during execution.
   commentary: |
     The name is a portmanteau of "jolly wolverine" (where "jolly" is a
     euphemism for "drunk",) which is an attempt to capture, in a noun phrase,
@@ -1676,6 +1675,9 @@ Jolverine:
   development-stage: mature
   etymology:
   - portmanteau
+  influences:
+  - Wunnel
+  - Half-Broken Car in Heavy Traffic
   computational-class: unknown computational class
   sample: |
     --*-*

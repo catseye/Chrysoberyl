@@ -44,6 +44,19 @@ Blank:
   development-stage: mature
 
 
+Half-Broken Car in Heavy Traffic:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - 2-dimensional
+  computational-class: believed Turing-complete
+  esowiki: Half-Broken_Car_in_Heavy_Traffic
+  authors:
+  - Niels Serup
+  specification-link: http://metanohi.name/projects/hbcht/
+  development-stage: mature
+
+
 reMorse:
   type: Programming Language
   genre: Esolang

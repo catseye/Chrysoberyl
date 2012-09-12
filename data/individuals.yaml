@@ -1,6 +1,4 @@
 # encoding: UTF-8
-Anonymous:
-  type: Individual
 Chris Pressey:
   type: Individual
   esowiki: Chris Pressey
@@ -118,6 +116,8 @@ Chris Pressey:
   - Chris Pressey's Favourite Other Computer Games
   - Music by Chris Pressey
   - work in progress
+
+# esolangers
 John Colagioia:
   type: Individual
   esowiki: John Colagioia
@@ -128,10 +128,6 @@ Ben Olmstead:
     Ben Olmstead co-authored [[Wierd]] with [[Chris Pressey]] and [[John Colagioia]],
     as well as advised on the implementation of [[Shelta]].
     Also, Chris met him in person once, in Seattle, WA.
-Walter Brainerd:
-  type: Individual
-Lawrence Landweber:
-  type: Individual
 Zzo38:
   type: Individual
   esowiki: 'User:Zzo38'
@@ -153,17 +149,9 @@ Alex Smith (ais523):
 Matthew Westcott:
   type: Individual
   esowiki: Matthew Westcott
-Gregory Yob:
+Niels Serup:
   type: Individual
-  description: |
-    Gregory Yob invented the classic game [[Hunt the Wumpus]], which
-    [[Cat's Eye Technologies]] has implemented several times, and on which
-    [[Super Wumpus Land]] was based.
-John S. James:
-  type: Individual
-  description: |
-    John S. James invented the classic game [[Flip]], which
-    [[Cat's Eye Technologies]] has implemented.
+  esowiki: 'User:Nqpz'
 David Chipping:
   type: Individual
   esowiki: David Chipping
@@ -222,6 +210,21 @@ Milo van Handel:
 Andrew Turley:
   type: Individual
 
+# game authors
+Gregory Yob:
+  type: Individual
+  description: |
+    Gregory Yob invented the classic game [[Hunt the Wumpus]], which
+    [[Cat's Eye Technologies]] has implemented several times, and on which
+    [[Super Wumpus Land]] was based.
+John S. James:
+  type: Individual
+  description: |
+    John S. James invented the classic game [[Flip]], which
+    [[Cat's Eye Technologies]] has implemented.
+Jeff Minter:
+  type: Individual
+
 # book authors
 Jenny Tyler:
   type: Individual
@@ -267,9 +270,17 @@ Mark Sawusch:
   type: Individual
 Tan Summers:
   type: Individual
-Jeff Minter:
+Ambrose Bierce:
+  type: Individual
+  wikipedia: Ambrose Bierce
+Walter Brainerd:
+  type: Individual
+Lawrence Landweber:
   type: Individual
 
+# other notable people
+Anonymous:
+  type: Individual
 Rube Goldberg:
   type: Individual
   wikipedia: Rube Goldberg
@@ -280,6 +291,3 @@ W. Heath Robinson:
   wikipedia: W. Heath Robinson
   see-also:
   - Rube Goldberg
-Ambrose Bierce:
-  type: Individual
-  wikipedia: Ambrose Bierce
