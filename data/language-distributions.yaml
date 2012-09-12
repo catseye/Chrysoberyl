@@ -456,6 +456,14 @@ Jaccia and Jacciata distribution:
     revision: "2010.0205"
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
 
+Jolverine distribution: 
+  type: Distribution
+  distribution-of: Jolverine
+  bitbucket: catseye/jolverine
+  github: catseye/Jolverine
+  issue-tracker: github
+  releases: []
+
 Kangaroo Iceberg distribution: 
   type: Distribution
   distribution-of: Kangaroo Iceberg

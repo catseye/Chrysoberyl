@@ -1653,6 +1653,53 @@ jacciata.alp:
   host-language: ALPACA
 
 
+Jolverine:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Turning tarpit
+  - 2-dimensional
+  description: |
+    The Jolverine language was devised as a conscious attempt to expand the
+    genre of turning tarpit by adding the feature of modifying the instruction
+    wheel during execution. It is not dissimilar to [[Wunnel]], and was
+    influenced slightly by Half-Broken Car in Heavy Traffic.
+  commentary: |
+    The name is a portmanteau of "jolly wolverine" (where "jolly" is a
+    euphemism for "drunk",) which is an attempt to capture, in a noun phrase,
+    the language's vicious, erratic nature.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Sep 10, 2012
+  development-stage: mature
+  etymology:
+  - portmanteau
+  computational-class: unknown computational class
+  sample: |
+    --*-*
+         \
+          \
+           \           *
+            \         /
+             \       /
+              \     /
+               *   /
+                \ /
+                 *-*---*
+
+jolverine.py:
+  type: Implementation
+  implementation-of:
+  - Jolverine
+  reference: true
+  in-distribution: Jolverine distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Python
+
+
 Kangaroo Iceberg:
   type: Programming Language
   genre: Esolang
