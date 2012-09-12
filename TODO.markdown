@@ -38,6 +38,10 @@ tool.  (Sometimes implementations do, but Falderal tests can test
 multiple implementations, so, no.  Sometimes implementables
 do, but... well, maybe.)
 
+Some way to mark a distribution as discontinued.
+
+`distribution-of` should be multiple.
+
 templates
 ---------
 
@@ -76,6 +80,8 @@ content
 Chrysoberyl has a distribution.
 
 Dipple is a distribution (and implementations are in it.)
+
+Finish cleaning up demos.
 
 
 perhaps...
