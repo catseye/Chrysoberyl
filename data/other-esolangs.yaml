@@ -99,51 +99,6 @@ Spoon:
   development-stage: mature
 
 
-Thue:
-  type: Programming Language
-  genre: Esolang
-  paradigms:
-  - String-rewriting
-  - Non-deterministic
-  computational-class: believed Turing-complete
-  esowiki: Thue
-  authors:
-  - John Colagioia
-  description: |
-    The Thue programming language was invented by
-    John Colagioia in early 2000.  It is named after the computational
-    regimen it is based on — a pure string-rewriting process called a
-    _semi-Thue grammar_, which is named for (and possibly created
-    by) the Norwegian mathematician Axel Thue (pronounced "TOO-ay").
-    
-    Thue represents one of the simplest possible ways
-    to construe constraint-based programming.  It is to the constraint-based
-    paradigm what languages like OISC are to the imperative paradigm;
-    in other words, it's a tar pit.
-  development-stage: mature
-
-thue.c:
-  type: Implementation
-  implementation-of:
-  - Thue
-  authors:
-  - John Colagioia
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: ANSI C
-  can-be-built-with-borland-c: true
-
-thue.py:
-  type: Implementation
-  implementation-of:
-  - Thue
-  authors:
-  - Frédéric van der Plancke
-  license: Public Domain
-  implementation-type: interpreter
-  host-language: Python
-
-
 "Var'aq":
   type: Programming Language
   paradigms:

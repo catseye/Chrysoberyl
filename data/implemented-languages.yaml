@@ -56,6 +56,7 @@ muriel.pl:
   type: Implementation
   implementation-of:
   - Muriel
+  inception-date: Mar 23, 2001
   in-distribution: Muriel distribution
   reference: false
   license: BSD license
@@ -69,105 +70,6 @@ muriel.pl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-
-
-VALGOL:
-  type: Programming Language
-  genre: Joke language
-  paradigms:
-  - Imperative
-  authors:
-  - Anonymous
-  source-document: Lesser Known Languages List
-  esowiki: VALGOL
-  computational-class: unknown computational class
-  no-specification: true
-  development-stage: not fully complete
-
-valgol.erl:
-  type: Implementation
-  implementation-of:
-  - VALGOL
-  reference: false
-  license: BSD license
-  host-language: Erlang
-  implementation-type: parser
-  description: |
-    A parser, in Erlang, for the Lesser-Known Language VALGOL.
-    It, like, totally demonstrates how a parser can be written so
-    that a separate scanner is totally not needed.  Bitchen!
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  # locate this in the dipple
-
-
-Smallfuck:
-  type: Programming Language
-  genre: Esolang
-  paradigms:
-  - Imperative
-  authors:
-  - Nikita Ayzikovsky
-  esowiki: Smallfuck
-  computational-class: Finite-automata-complete
-  inception-date: ca 2002
-  specification-link: esowiki
-  development-stage: mature
-
-sf2tab:
-  type: Implementation
-  implementation-of:
-  - Smallfuck
-  reference: false
-  license: BSD license
-  host-language: ANSI C
-  target-language: lookup table
-  implementation-type: compiler
-  description: |
-    Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
-    can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
-    (generally gigantic) lookup-tables.
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  # locate this in the dipple
-
-
-Underload:
-  type: Programming Language
-  genre: Esolang
-  paradigms:
-  - Stack-based
-  authors:
-  - Alex Smith (ais523)
-  computational-class: believed Turing-complete
-  esowiki: Underload
-  specification-link: esowiki
-  development-stage: mature
-
-stringie:
-  type: Implementation
-  implementation-of:
-  - Underload
-  reference: false
-  license: Public Domain
-  host-language: ANSI C
-  implementation-type: interpreter
-  commentary: |
-    Seeing that there was no *non*-pathological implementation of Alex Smith's
-    beautiful [[Underload]] language in C, I undertook that project one evening.
-    (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)
-    The result is one of the most pedantic and boring Underload interpreters known to
-    man.  Perhaps the most interesting property of it is its name, `stringie`, which was
-    an accident.
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  # locate this in the esolangs archive
 
 
 'PL-{GOTO}':
@@ -217,6 +119,170 @@ stringie:
   - Cat's Eye Technologies
   build-requirements:
   - Parsec
+
+
+Smallfuck:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Imperative
+  authors:
+  - Nikita Ayzikovsky
+  esowiki: Smallfuck
+  computational-class: Finite-automata-complete
+  inception-date: ca 2002
+  specification-link: esowiki
+  development-stage: mature
+
+sf2tab:
+  type: Implementation
+  implementation-of:
+  - Smallfuck
+  reference: false
+  license: BSD license
+  host-language: ANSI C
+  target-language: lookup table
+  implementation-type: compiler
+  description: |
+    Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
+    can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
+    (generally gigantic) lookup-tables.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  # locate this in the dipple
+
+
+Thue:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - String-rewriting
+  - Non-deterministic
+  computational-class: believed Turing-complete
+  esowiki: Thue
+  authors:
+  - John Colagioia
+  description: |
+    The Thue programming language was invented by
+    John Colagioia in early 2000.  It is named after the computational
+    regimen it is based on — a pure string-rewriting process called a
+    _semi-Thue grammar_, which is named for (and possibly created
+    by) the Norwegian mathematician Axel Thue (pronounced "TOO-ay").
+    
+    Thue represents one of the simplest possible ways
+    to construe constraint-based programming.  It is to the constraint-based
+    paradigm what languages like OISC are to the imperative paradigm;
+    in other words, it's a tar pit.
+  development-stage: mature
+
+thue.c:
+  type: Implementation
+  implementation-of:
+  - Thue
+  authors:
+  - John Colagioia
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: ANSI C
+  can-be-built-with-borland-c: true
+
+thue.py:
+  type: Implementation
+  implementation-of:
+  - Thue
+  authors:
+  - Frédéric van der Plancke
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Python
+
+thue.rb:
+  type: Implementation
+  implementation-of:
+  - Thue
+  authors:
+  - Chris Pressey
+  inception-date: Sep 10, 2012
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Ruby
+  commentary: |
+    Since I've been maintaining a distribution of this language for a while, and
+    not otherwise involved with it, I decided I should finally implement it.
+    After knocking my head against the spec and reference implementation
+    for a few hours (over the course of months, or has it been years?), I finally
+    did implement it.
+
+
+Underload:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  authors:
+  - Alex Smith (ais523)
+  computational-class: believed Turing-complete
+  esowiki: Underload
+  specification-link: esowiki
+  development-stage: mature
+
+stringie:
+  type: Implementation
+  implementation-of:
+  - Underload
+  reference: false
+  license: Public Domain
+  host-language: ANSI C
+  implementation-type: interpreter
+  commentary: |
+    Seeing that there was no *non*-pathological implementation of Alex Smith's
+    beautiful [[Underload]] language in C, I undertook that project one evening.
+    (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)
+    The result is one of the most pedantic and boring Underload interpreters known to
+    man.  Perhaps the most interesting property of it is its name, `stringie`, which was
+    an accident.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  # locate this in the esolangs archive
+
+
+VALGOL:
+  type: Programming Language
+  genre: Joke language
+  paradigms:
+  - Imperative
+  authors:
+  - Anonymous
+  source-document: Lesser Known Languages List
+  esowiki: VALGOL
+  computational-class: unknown computational class
+  no-specification: true
+  development-stage: not fully complete
+
+valgol.erl:
+  type: Implementation
+  implementation-of:
+  - VALGOL
+  reference: false
+  license: BSD license
+  host-language: Erlang
+  implementation-type: parser
+  description: |
+    A parser, in Erlang, for the Lesser-Known Language VALGOL.
+    It, like, totally demonstrates how a parser can be written so
+    that a separate scanner is totally not needed.  Bitchen!
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  # locate this in the dipple
+
+
+# ----------------------------- yoob ---------------------------
 
 
 Ale:

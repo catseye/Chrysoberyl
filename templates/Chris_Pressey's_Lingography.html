@@ -63,15 +63,18 @@
         data[thing].development_stage not in ['idea', 'work in progress'] %}
     <li>
       <p>
+        <a href="{{ filekey(thing) }}">{{ thing }}</a>,
+        {{ indefart(data[thing].implementation_type) }}
+        for
         <a href="{{ filekey(data[thing].implementation_of[0]) }}">{{ data[thing].implementation_of[0] }}</a>
-        -- as
-        <a href="{{ filekey(thing) }}">{{ thing }}</a>
         in
         <a href="{{ filekey(data[thing].host_language) }}">{{ data[thing].host_language }}</a>
         {% if data[thing].host_platform %}
           for <a href="{{ filekey(data[thing].host_platform) }}">{{ data[thing].host_platform }}</a>
         {% endif %}
-        ({{ data[thing].inception_date }})
+        {% if data[thing].inception_date %}
+          ({{ data[thing].inception_date }})
+        {% endif %}
       </p>
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>
