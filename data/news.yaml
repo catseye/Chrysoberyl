@@ -751,23 +751,20 @@
     
     Pixley is also (depending on how you count them)
     my 50th programming language (that I'll admit to!)  This puts
-    me squarely in the ballpark of
-    &lt;a class="external" href="http://strlen.com/proglang/"&gt;Wouter&lt;/a&gt;
-    and
-    &lt;a class="external" href="http://esoteric.voxelperfect.net/wiki/User:Zzo38"&gt;Aaron&lt;/a&gt;,
-    and suggests that I plan to be
-    &lt;em&gt;personally&lt;/em&gt; responsible for a significant
+    me squarely in the ballpark of [Wouter](http://strlen.com/proglang/)
+    and [Aaron](http://esoteric.voxelperfect.net/wiki/User:Zzo38),
+    and suggests that I plan to be *personally* responsible for a significant
     fraction of
-    &lt;a class="external" href="http://ttic.uchicago.edu/~blume/classes/aut2008/proglang/papers/Landin-next-700.pdf"&gt;the next 700 programming languages&lt;/a&gt;.
-    
+    [the next 700 programming languages](http://ttic.uchicago.edu/~blume/classes/aut2008/proglang/papers/Landin-next-700.pdf).
+
 "Scientific Proof that Cellular Automata are Intelligent!":
   type: News Item
   news-date: Sun, 12 Apr 2009 01:23:46 GMT
   news-link: http://catseye.tc/projects/jaccia/
   description: |
     April 11, 2009:  Did you know that
-    &lt;a class="external" href="http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm"&gt;slime
-    molds are intelligent because they can solve mazes&lt;/a&gt;?  Well it's true, because a scientist said it!
+    [slime molds are intelligent because they can solve mazes](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm)?
+    Well it's true, because a scientist said it!
     And now, since Cat's Eye Technologies has designed a pair of cellular automata (called Jaccia and Jacciata) that can solve mazes,
     we know that cellular automata are intelligent too!  Three cheers for science!
     
@@ -923,9 +920,9 @@
   news-link: http://catseye.tc/news.xml
   description: |
     December 1, 2007: News on the latest developments at Cat's Eye Technologies
-    is now available as an RSS feed.  The &lt;a href="/news.html"&gt;news page&lt;/a&gt;
+    is now available as an RSS feed.  The [news page](/news.html)
     is still available, but it is now automatically generated from the RSS feed by
-    an &lt;a href="/news.xsl"&gt;XSLT stylesheet&lt;/a&gt;.
+    an XSLT stylesheet.
     
     This may seem like a bit of a dodgy move, for a
     company with as staunch an attitude of post-modernist rectitude
@@ -1013,7 +1010,7 @@
   news-link: http://catseye.tc/projects/cabra/
   description: |
     November 1, 2007: The Cabra programming language,
-    successor of sorts to &lt;a href="/projects/burro/"&gt;Burro&lt;/a&gt;, has been released.
+    successor of sorts to [[Burro]], has been released.
     Cabra programs form, not a group, but a dioid -- an idempotent semiring --
     under the operations of sequential and parallel composition.
     
