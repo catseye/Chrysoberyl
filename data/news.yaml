@@ -95,17 +95,12 @@
     
     Meanwhile, we've been putting more and more of our
     projects under distributed version control.  We tend to use
-    [Mercurial](http://mercurial.selenic.com/)
-    but
+    [Mercurial](http://mercurial.selenic.com/) but
     [hg-git](http://mercurial.selenic.com/wiki/HgGit)
-    provides a fairly seamless bridge to
-    &lt;a class="external" href="http://git-scm.com/"&gt;git&lt;/a&gt;
+    provides a fairly seamless bridge to [git](http://git-scm.com/)
     repositories, too.  And then there's these sites that host such repositories
-    for you,
-    &lt;a class="external" href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt;
-    and
-    &lt;a class="external" href="https://github.com/"&gt;GitHub&lt;/a&gt;
-    (among others).
+    for you, [Bitbucket](https://bitbucket.org/)
+    and [Github](https://github.com/) (among others).
     
     So, we've been neglecting catseye.tc a bit lately, and have been
     putting our projects onto Bitbucket
@@ -128,11 +123,11 @@
     
     Anyway, the point is: keep watching this space, but if you want
     breaking updates on what kind of crazy crap we're working on
-    &lt;em&gt;this minute&lt;/em&gt;, check out
-    &lt;a class="external" href="https://bitbucket.org/catseye"&gt;Cat's Eye Technologies on Bitbucket&lt;/a&gt;
+    *this minute*, check out
+    [Cat's Eye Technologies on Bitbucket](https://bitbucket.org/catseye)
     and/or
-    &lt;a class="external" href="https://github.com/catseye"&gt;Cat's Eye Technologies on GitHub&lt;/a&gt;.
-    
+    [Cat's Eye Technologies on Github](https://github.com/catseye).
+
 "Some Facts Regarding Apple Befunge v1.1":
   type: News Item
   news-date: Mon, 20 Feb 2012 17:44:01 GMT
@@ -307,7 +302,7 @@
     website.  It is now the main exhibit in the new Gallery of
     Interactive Esolangs.  And, since we have three galleries now, we have
     developed this section of the website into something more real: our
-    &lt;a href="http://catseye.tc/gallery/"&gt;Gallery Space&lt;/a&gt;.
+    [Gallery Space](http://catseye.tc/gallery/).
     This is where we will be exhibiting interactive works, and works
     not produced by Cat's Eye Technologies but which we find interesting
     nonetheless.
@@ -364,12 +359,8 @@
     while, but last time an attempt was made,
     [JaC64](http://jac64.sourceforge.net/)
     was not quite up to the task.  So we
-    &lt;a class="external"
-    href="https://bitbucket.org/catseye/jac64/"&gt;forked it
-    on Bitbucket&lt;/a&gt; and for the past few weeks we've
-    been busy
-    &lt;a class="external"
-    href="https://bitbucket.org/catseye/jac64/issues?status=resolved"&gt;fixing bugs in it&lt;/a&gt;.
+    [forked it on Bitbucket](https://bitbucket.org/catseye/jac64/)
+    and for the past few weeks we've been busy fixing bugs in it.
     It's still not perfect, but it's playable on several
     platforms including Windows (Firefox and IE)
     and Ubuntu 11 (Firefox).  So try it!  Enjoy!
@@ -398,14 +389,12 @@
     as open-source software.  More specifically, its source
     code is in the public domain and its development is
     hosted on a
-    &lt;a class="external"
-    href="https://bitbucket.org/catseye/yoob"&gt;public repository&lt;/a&gt;
+    [public repository](https://bitbucket.org/catseye/yoob)
     on Bitbucket.  Even though the source code is
     embarrasingly bad, I decided not to care.  If you decide
     to care, you are quite free to hack it into better shape --
     there are more than a dozen open issues in its
-    &lt;a class="external"
-    href="https://bitbucket.org/catseye/yoob/issues"&gt;issue tracker&lt;/a&gt;.
+    [issue tracker](https://bitbucket.org/catseye/yoob/issues).
     
 "Corona: Realm of Magic":
   type: News Item
@@ -439,8 +428,8 @@
     It's been mostly updates, with the only original design
     being Wunnel.  Well, that pattern's been broke!
     We have another new language.  It started its life
-    under the name Bizaaro[sic]-&lt;a href="http://catseye.tc/projects/pixley/"&gt;Pixley&lt;/a&gt;,
-    but it's called Pail now (for &lt;em&gt;PAI&lt;/em&gt;r &lt;em&gt;L&lt;/em&gt;anguage).
+    under the name Bizaaro[sic]-[[Pixley]],
+    but it's called Pail now (for PAIr Language).
     
 "Falderal: Literate Testing for Haskell Functions":
   type: News Item
@@ -454,12 +443,10 @@
     that can be used and reused for this purpose, and
     we have (for reasons obscure even to us) called it
     Falderal.  It doesn't do a lot yet (it's only version 0.1...), but it has promise.
-    We're already using it in
-    &lt;a href="http://catseye.tc/projects/quylthulg/"&gt;Quylthulg&lt;/a&gt;.
+    We're already using it in [[Quylthulg]].
     To encourage contributions, its development is hosted on a
-    &lt;a class="external"
-    href="https://bitbucket.org/catseye/falderal"&gt;public repository&lt;/a&gt;
-    on Bitbucket.  Watch for its use in future projects!
+    [public repository on Bitbucket](https://bitbucket.org/catseye/falderal).
+    Watch for its use in future projects!
     
 "Pluggin' some (specification) leaks in Eightebed":
   type: News Item
@@ -569,10 +556,8 @@
     January 4, 2011:  Alright, so it's a little late, I admit, but
     puns of that quality take time!  We present three
     remotely fungeoid little esolangs
-    that, in fact, &lt;em&gt;were&lt;/em&gt; designed before Christmas:
-    &lt;a class="external" href="http://www.esolangs.org/wiki/Gemooy"&gt;Gemooy&lt;/a&gt;,
-    &lt;a class="external" href="http://www.esolangs.org/wiki/Nhohnhehr"&gt;Nhohnhehr&lt;/a&gt;, and
-    &lt;a class="external" href="http://www.esolangs.org/wiki/Kelxquoia"&gt;Kelxquoia&lt;/a&gt;.
+    that, in fact, *were* designed before Christmas:
+    [[Gemooy]], [[Nhohnhehr]], and [[Kelxquoia]].
     They're not in our project space yet, but they are on the
     esolang wiki, and one of them (Nhohnhehr) has an
     implementation already, thanks to Marinus.
@@ -925,8 +910,8 @@
   news-link: http://catseye.tc/projects/ypsilax/
   description: |
     December 2, 2007: Following the improvements made to the
-    implementation of &lt;a href="projects/worb/"&gt;noit o' mnain worb&lt;/a&gt;,
-    our Ypsilax implementation also uses &lt;a href="/projects/cons_virt/"&gt;Console::Virtual&lt;/a&gt; and
+    implementation of [[noit o' mnain worb]],
+    our Ypsilax implementation also uses [[Console::Virtual]] and
     optional sub-second delays to provide a nice screen-oriented
     animation of Ypsilax' two-dimensional, non-deterministic,
     reflective grid rewriting, taking the burden of visualization
@@ -970,10 +955,10 @@
   news-date: 23 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cons_virt/
   description: |
-    November 23, 2007: Noticing that the Perl 5 implementation of &lt;a href="projects/hunter/"&gt;HUNTER&lt;/a&gt;
+    November 23, 2007: Noticing that the Perl 5 implementation of [[Hunter|HUNTER]]
     required a module that was never restored to the website after the last crash,
     I dug it out of cold storage and refurbished it a bit, resulting in
-    &lt;a href="/projects/cons_virt/"&gt;Console::Virtual&lt;/a&gt;.
+    [[Console::Virtual]].
     
     In the process I tidied up the HUNTER project quite a bit, including supporting a
     real delay, measured in milliseconds, between animation frames.  (This requires the
@@ -981,7 +966,7 @@
     sub-second resolution in that case.)
     
     And, in the process of doing that, I noticed the implementation of
-    &lt;a href="projects/worb/"&gt;noit o' mnain worb&lt;/a&gt; could use many of the same improvements.
+    [[noit o' mnain worb]] could use many of the same improvements.
     So now it, too, uses Console::Virtual
     instead of requiring an ANSI-compatible terminal, and supports an adjustable delay
     between frames.
@@ -998,7 +983,7 @@
     November 17, 2007: Release of initial specification of the Didigm
     reflective ceullar automaton.
     
-    Also some random hacking on &lt;a href="/projects/libvesa"&gt;libvesa&lt;/a&gt;.
+    Also some random hacking on libvesa.
     
 "Release of the Emmental Programing Language":
   type: News Item
@@ -1048,7 +1033,7 @@
   news-link: http://catseye.tc/projects/maentw/
   description: |
     September 30, 2007: The Maentwrong language, predecessor of
-    &lt;a href="/projects/befunge93/"&gt;Befunge-93&lt;/a&gt;, and thought by me to be lost forever (again), was found (again)
+    [[Befunge-93]], and thought by me to be lost forever (again), was found (again)
     on a long-forgotten backup disc.  It has been brought forth into the light
     of the projects directory (again) for whatever it's worth.
     
@@ -1082,13 +1067,13 @@
     well.  Thanks to Nathan Thern for pointing this out (and for submitting a
     SMITH version of "99 Bottles of Beer"!)
     
-    Some bugs in &lt;a href="/projects/redgreen/"&gt;REDGREEN&lt;/a&gt; have been fixed
+    Some bugs in [[REDGREEN]] have been fixed
     as well: the documentation claims that Wires and Sparks behave per the
     WireWorld automaton, and that Zappy and BigZappy set things on fire.  The
     ALPACA implementation of REDGREEN now properly implements these rules.
     Thanks to Stewart Gordon for pointing these bugs out.
     
-    Also, I dug up &lt;a href="/projects/noise/"&gt;noise&lt;/a&gt; and put
+    Also, I dug up [[noise]] and put
     it in the projects.  I swear there was a manual page for it too, but I can't find it.
     
 "Release of the Hev Programming Language":
@@ -1118,16 +1103,11 @@
     Zzrk, a text adventure
     game written in a meta-language intended for building compilers (Zz).
     
-    I also brought
-    &lt;a href="/projects/granolam/"&gt;GraNoLa/M&lt;/a&gt; and
-    &lt;a href="/projects/sp_asm/"&gt;SP\ASM&lt;/a&gt;
+    I also brought [[GraNoLa/M]] and [[SP\ASM]]
     out of those dusty ol' boxes in the attic and added them to the line-up.
     
-    &lt;a href="/projects/redgreen/"&gt;REDGREEN&lt;/a&gt;,
-    &lt;a href="/projects/braktif/"&gt;Braktif&lt;/a&gt;, and
-    &lt;a href="/projects/circute/"&gt;Circute&lt;/a&gt;
-    have also been split off from the main
-    &lt;a href="/projects/alpaca/"&gt;ALPACA&lt;/a&gt;
+    [[REDGREEN]], [[Braktif]], and [[Circute]]
+    have also been split off from the main [[ALPACA]]
     distribution, and live in projects of their own.
     
     I also polished the site design a wee bit.
