@@ -28,7 +28,7 @@ def convert_chrysoberyl_data(data):
 
 
 def filekey(key):
-    key = re.sub(r'(\/|\\|\s|\:|\#)', '_', key)
+    key = re.sub(r'(\/|\\|\s|\:|\?|\*|\&|\#)', '_', key)
     key = re.sub(u'ü', 'ue', key)
     key = re.sub(u'ö', 'oe', key)
     key = re.sub(u'é', 'e', key)

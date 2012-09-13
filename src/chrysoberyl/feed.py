@@ -1,10 +1,11 @@
 import atomize
 import datetime
+from operator import itemgetter
 
 URL = 'http://catseye.tc/feeds/news.xml'
 
 def make_news_feed(data, filename):
-    entries = []
+    newses = []
     for key in data:
         node = data[key]
         if node['type'] != 'News Item':
@@ -13,10 +14,17 @@ def make_news_feed(data, filename):
         news_date = datetime.datetime.strptime(
             node['news-date'], "%a, %d %b %Y %H:%M:%S GMT"
         )
-        entry = atomize.Entry(title=key,
-                              guid=URL + "/" + key,
-                              updated=news_date)
-        entries.append(entry)
+        n = {}
+        n.update(node)
+        n['key'] = key
+        n['news-date'] = news_date
+        newses.append(n)
+
+    newses.sort(key=itemgetter('news-date'), reverse=True)
+    entries = [atomize.Entry(title=n['key'],
+                             guid=URL + "/" + n['key'],
+                             updated=n['news-date'])
+               for n in newses]
 
     feed = atomize.Feed(title="Cat's Eye Technologies: New Developments",
                         updated=datetime.datetime.utcnow(),
