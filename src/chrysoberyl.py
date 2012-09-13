@@ -99,12 +99,12 @@ if __name__ == '__main__':
         sys.exit(0)
 
     if options.output_to:
-        convert_chrysoberyl_data(data)
-        r = Renderer(data, 'templates', options.output_to)
-        r.render_chrysoberyl_data()
         filename = os.path.join(options.output_to, 'chrysoberyl.json')
         with codecs.open(filename, 'w', 'utf-8') as file:
             json.dump(data, file, encoding='utf-8', default=unicode)
+        convert_chrysoberyl_data(data)
+        r = Renderer(data, 'templates', options.output_to)
+        r.render_chrysoberyl_data()
         for filename in ['chrysoberyl-query.js']:
             shutil.copy("static/%s" % filename, options.output_to)
         make_news_feed(data, os.path.join(options.output_to, 'news.xml'))

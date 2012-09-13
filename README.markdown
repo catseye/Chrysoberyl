@@ -150,10 +150,10 @@ can process the Chrysberyl database.  Things it can do include:
 *   render Jinja2 templates with the data (one file per node)
 *   dump all nodes to a single JSON file
 
-As of this writing, it takes my computer about seven seconds to load,
+As of this writing, it takes my computer about eight seconds to load,
 and check the data and render the templates.
 
-The JSON file is, as of this writing, less than 400K, meaning that, at
+The JSON file is, as of this writing, less than 500K, meaning that, at
 broadband speeds it only takes a couple of seconds to download, making
 it feasible to implement a client-side query engine for Chrysoberyl
 in Javascript.  The size of this file could also be reduced, possibly
