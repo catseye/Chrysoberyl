@@ -22,6 +22,7 @@ except ImportError:
     from yaml import Loader
 
 from chrysoberyl.checker import check_chrysoberyl_data
+from chrysoberyl.feed import make_news_feed
 from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
 from chrysoberyl.localrepos import troll_docs, bitbucket_repos
 
@@ -106,3 +107,4 @@ if __name__ == '__main__':
             json.dump(data, file, encoding='utf-8', default=unicode)
         for filename in ['chrysoberyl-query.js']:
             shutil.copy("static/%s" % filename, options.output_to)
+        make_news_feed(data, os.path.join(options.output_to, 'news.xml'))

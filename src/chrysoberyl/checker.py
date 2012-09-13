@@ -52,6 +52,9 @@ class ApproximateDate(object):
     
     def __repr__(self):
         return "ApproximateDate(%r)" % self.text
+    
+    def stamp(self):
+        return self.year * 1000 + (self.month or 0) * 100 + (self.day or 0) * 100
 
 
 def warn(message):

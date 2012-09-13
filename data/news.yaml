@@ -938,7 +938,7 @@
     
 "Release of the Iphigeneia Programming Language":
   type: News Item
-  news-date: 25 Nov 2007 12:00:00 GMT
+  news-date: Sat, 25 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/iphi/
   description: |
     November 25, 2007: The Iphigeneia programming language is released.  Iphigeneia is a toy
@@ -949,7 +949,7 @@
     
 "Console::Virtual Revived, HUNTER and worb Benefit":
   type: News Item
-  news-date: 23 Nov 2007 12:00:00 GMT
+  news-date: Sat, 23 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cons_virt/
   description: |
     November 23, 2007: Noticing that the Perl 5 implementation of [[Hunter|HUNTER]]
@@ -974,7 +974,7 @@
     
 "Release of the Didigm Reflective Cellular Automaton":
   type: News Item
-  news-date: 17 Nov 2007 12:00:00 GMT
+  news-date: Sat, 17 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/didigm/
   description: |
     November 17, 2007: Release of initial specification of the Didigm
@@ -984,7 +984,7 @@
     
 "Release of the Emmental Programing Language":
   type: News Item
-  news-date: 11 Nov 2007 12:00:00 GMT
+  news-date: Sat, 11 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/emmental/
   description: |
     November 11, 2007: The Emmental programming language has been
@@ -996,7 +996,7 @@
     
 "Release of You are Reading the Name of this Esolang":
   type: News Item
-  news-date: 05 Nov 2007 12:00:00 GMT
+  news-date: Sat, 05 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/urreading/
   description: |
     November 5, 2007: The programming language You are Reading the Name of this Esolang
@@ -1006,7 +1006,7 @@
     
 "Release of the Cabra Programming Language":
   type: News Item
-  news-date: 01 Nov 2007 12:00:00 GMT
+  news-date: Sat, 01 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cabra/
   description: |
     November 1, 2007: The Cabra programming language,
@@ -1016,7 +1016,7 @@
     
 "Release of the Burro Programming Language":
   type: News Item
-  news-date: 26 Oct 2007 12:00:00 GMT
+  news-date: Sat, 26 Oct 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/burro/
   description: |
     October 26, 2007: The Burro programming language, after two years
@@ -1026,7 +1026,7 @@
     
 "(Re-)Unearthing of the Maentwrog Programming Language":
   type: News Item
-  news-date: 30 Sep 2007 12:00:00 GMT
+  news-date: Sat, 30 Sep 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/maentw/
   description: |
     September 30, 2007: The Maentwrong language, predecessor of
@@ -1036,7 +1036,7 @@
     
 "catseye.mine.nu No Longer in Service":
   type: News Item
-  news-date: 28 Aug 2007 12:00:00 GMT
+  news-date: Sat, 28 Aug 2007 12:00:00 GMT
   news-link: http://catseye.tc/
   description: |
     August 28, 2007: The catseye.mine.nu server is no longer in service
@@ -1055,7 +1055,7 @@
     
 "Updates to SMITH and REDGREEN":
   type: News Item
-  news-date: 22 Jul 2007 12:00:00 GMT
+  news-date: Sat, 22 Jul 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/smith/
   description: |
     July 22, 2007: The SMITH language has been updated in
@@ -1075,7 +1075,7 @@
     
 "Release of the Hev Programming Language":
   type: News Item
-  news-date: 17 Jun 2007 12:00:00 GMT
+  news-date: Sat, 17 Jun 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/hev/
   description: |
     June 17, 2007: The Hev programming language has been released.
@@ -1085,7 +1085,7 @@
     
 "Release of the Xigxag automaton":
   type: News Item
-  news-date: 02 Jun 2007 12:00:00 GMT
+  news-date: Sat, 02 Jun 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/xigxag/
   description: |
     June 2, 2007: Xigxag, a simple automaton with exponential growth almost
@@ -1093,7 +1093,7 @@
     
 "Zzrk Released, and More":
   type: News Item
-  news-date: 15 May 2007 12:00:00 GMT
+  news-date: Sat, 15 May 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/zzrk/
   description: |
     May 15, 2007: Most significantly, a project has been added for
