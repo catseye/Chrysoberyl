@@ -196,7 +196,7 @@ class Renderer(object):
         def lingography():
             """Bespoke function, because we want to count them in the template"""
             languages = []
-            types = ('Programming Language', 'Programming Language Family', 'Abstract Artlang')
+            types = ('Programming Language', 'Programming Language Family', 'Conlang')
             for thing in self.data:
                 node = self.data[thing]
                 if (node['type'] in types and

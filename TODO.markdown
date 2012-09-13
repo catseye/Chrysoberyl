@@ -53,7 +53,7 @@ can handle a scalar or a list and such.  Dunno, maybe.
 
 Display online implementation in lingography.  And elsewhere.
 
-Sort lingography and other collections by date.
+Sort lingography and other collections by date.  Sort news items by date.
 
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
