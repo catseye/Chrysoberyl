@@ -303,12 +303,31 @@ peruse distribution:
   #~ <distfile>sf2tab-2005.0623.zip</distfile>
 #~ </item>
 
-#~ <item>
-  #~ <type>project</type>
-  #~ <name>sp_asm</name>
-  #~ <description>The SPlenetic ASseMbler</description>
-  #~ <distfile>sp_asm-1998.0716.zip</distfile>
-#~ </item>
+SP\ASM: 
+  type: Tool
+  development-stage: archived
+  summary: The SPlenetic ASseMbler
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  commentary: |
+    Possibly the most grotty hack implementation of an "assembler" in existence.
+
+SP\ASM.BAT:
+  type: Implementation
+  implementation-of:
+  - SP\ASM
+  in-distribution: SP\ASM distribution
+  license: Unknown license
+  host-language: MS-DOS Batchfile
+
+SP\ASM distribution: 
+  type: Distribution
+  releases: 
+  - version: "1.0"
+    revision: "1998.0716"
+    url: http://catseye.tc/distfiles/sp_asm-1998.0716.zip
 
 #~ <item>
   #~ <type>project</type>

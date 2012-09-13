@@ -7,6 +7,8 @@ Concept:
   type: type
 Article:
   type: type
+News Item:
+  type: type
 Computational Class:
   type: type
 Genre:

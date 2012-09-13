@@ -70,8 +70,8 @@ MS-DOS:
   standards-body: http://microsoft.com/
   development-stage: vintage
   native-language: 80286 machine code
-  # I dunno, batch maybe?
-  other-languages: []
+  other-languages:
+  - MS-DOS Batchfile
   commentary: |
     I think the only thing that requires MS-DOS is shelta; and even then, it might
     rely only on the BIOS interface, I forget.
@@ -120,6 +120,14 @@ FreeDOS:
   license: GPL
   links:
   - 'http://www.freedos.org/'
+
+MS-DOS Batchfile:
+  type: Programming Language
+  genre: Production language
+  standards-body: http://microsoft.com/
+  development-stage: mature
+  paradigms: []
+  authors: []
 
 
 Windows:
