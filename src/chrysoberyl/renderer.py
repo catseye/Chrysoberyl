@@ -27,11 +27,18 @@ def convert_chrysoberyl_data(data):
     print "%d nodes converted." % count
 
 
+def pathname2url(s):
+    s = re.sub('\%', '%25', s)
+    s = re.sub(' ', '%20', s)
+    s = re.sub('\"', '%22', s)
+    s = re.sub('\#', '%23', s)
+    s = re.sub('\:', '%3a', s)
+    s = re.sub('\?', '%3f', s)
+    return s
+
+
 def filekey(key):
-    key = re.sub(r'(\/|\\|\s|\:|\?|\*|\&|\#)', '_', key)
-    key = re.sub(u'ü', 'ue', key)
-    key = re.sub(u'ö', 'oe', key)
-    key = re.sub(u'é', 'e', key)
+    key = re.sub(r'(\/|\\)', '_', key)
     return key + ".html"
 
 
@@ -43,7 +50,7 @@ def markdown_field(data, node, field):
         link_text = thing
         if len(segments) > 1:
             link_text = segments[1]
-        return '<a href="%s">%s</a>' % (filekey(thing), link_text)
+        return '<a href="%s">%s</a>' % (pathname2url(filekey(thing)), link_text)
     if field in node:
         html = markdown.markdown(node[field])
         html = re.sub(r'\[\[(.*?)\]\]', linker, html)
@@ -137,10 +144,10 @@ class Renderer(object):
                 return "a " + text
 
         def link(key, format="%s"):
-            return '<a href="%s">%s</a>' % (filekey(key), format % key)
+            return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key)
 
         def link_lower(key, format="%s"):
-            return '<a href="%s">%s</a>' % (filekey(key), format % key.lower())
+            return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key.lower())
 
         def linked_list(keys, format="%s"):
             # not the kind you're probably thinking of
