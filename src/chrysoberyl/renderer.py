@@ -113,6 +113,20 @@ class Renderer(object):
                 return self.data[key]['reference-distribution']
             raise TypeError(key)
 
+        def non_ref_dist_implementations(key=key):
+            implementations_of = related('implementation-of', key=key)
+            try:
+                reference_distribution = ref_dist(key=key)
+            except TypeError:
+                return implementations_of
+            implementations_in_ref_dist = \
+                related('in-distributions', key=reference_distribution)
+            implementations = []
+            for i in implementations_of:
+                if i not in implementations_in_ref_dist:
+                    implementations.append(i)
+            return implementations
+
         def documentation(key=key):
             doc_node = self.data['Documentation Index']
             return doc_node['entries'].get(key, [])
@@ -222,6 +236,7 @@ class Renderer(object):
         context['github_link'] = github_link
         context['recommended_implementation'] = recommended_implementation
         context['ref_dist'] = ref_dist
+        context['non_ref_dist_implementations'] = non_ref_dist_implementations
         context['indefart'] = indefart
         context['breadcrumbs'] = breadcrumbs
         context['link'] = link

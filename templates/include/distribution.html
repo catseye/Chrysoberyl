@@ -1,9 +1,17 @@
 {% if related('in-distributions', key=ref_dist()) %}
   <h2>Contains Implementations</h2>
   <ul>
-    {% for implementation in related('in-distributions', key=ref_dist()) %}
+    {% for impl in related('in-distributions', key=ref_dist()) %}
       <li>
-        <a href="{{ filekey(implementation) }}">{{ implementation }}</a>
+        {{ link(impl) }},
+        {% if 'implementation-type' in data[impl] %}
+          {{ indefart(data[impl].implementation_type) }}
+        {% else %}
+        {% endif %}
+        in {{ link(data[impl].host_language) }}
+        {% if data[impl].host_language == key %}
+          (Yo dawg, I herd you like {{ key }})
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

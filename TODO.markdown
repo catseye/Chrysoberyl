@@ -8,27 +8,6 @@ When trolling docs, associate each with its distribution in the Documentation
 node.  Then, *in templates*, figure out what to display for an implementation
 or Implementable.
 
-Account for the fact that some implementations can be
-compiled or interpreted under two language (ANSI C and C99
-and Borland C++; or in a more involved way, polyglots):
-
-    2iota:
-      implementation-of: beta-Juliet
-      host-languages:
-      - ANSI C
-      - C99
-
-    rube.c:
-      implementation-of: RUBE
-      host-languages:
-      - ANSI C
-      - C99
-      - Borland C
-
-(that's an "or")
-
-Version numbers on languages.
-
 Falderal tests -- distributions contain tests and require a testing
 tool.  (Sometimes implementations do, but Falderal tests can test
 multiple implementations, so, no.  Sometimes implementables
@@ -45,10 +24,6 @@ templates
 
 The root node (at least for breadcrumbs) maybe should be catseye.tc.
 
-Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
-single function format(value, link=True, indefart=True), which
-can handle a scalar or a list and such.  Dunno, maybe.
-
 Display online implementation in lingography.  And elsewhere.
 
 Sort other collections (games, tools, language implementations) by date.
@@ -63,6 +38,10 @@ Cited in Jargon File --> like esowiki and wikipedia.
 
 Something to indicate "specification link forthcoming" instead of
 baldly "no specification".
+
+Display details about an implementation inline in the distribution
+it's in (even if that is inline in an implementable.)  Highlight the
+reference implementation in a reference distribution.
 
 ### obviousity ###
 
@@ -85,6 +64,12 @@ Finish cleaning up demos.
 
 perhaps...
 ----------
+
+Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
+single function format(value, link=True, indefart=True), which
+can handle a scalar or a list and such.  Dunno, maybe.
+
+Version numbers on languages.
 
 Competitions by year?
 
@@ -120,3 +105,22 @@ usually optional, but anyway.
 Even when the language is usually compiled, there might be
 a compiler in some dists but not in others (JRE and JDK.)
 "An implementation of Java that can build" = JDK.
+
+Account for the fact that some implementations can be
+compiled or interpreted under two language (ANSI C and C99
+and Borland C++; or in a more involved way, polyglots):
+
+    2iota:
+      implementation-of: beta-Juliet
+      host-languages:
+      - ANSI C
+      - C99
+
+    rube.c:
+      implementation-of: RUBE
+      host-languages:
+      - ANSI C
+      - C99
+      - Borland C
+
+(that's an "or")

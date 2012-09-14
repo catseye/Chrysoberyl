@@ -5,7 +5,6 @@
 {% if reference_distribution %}
   <section id="reference_distribution">
     <h2>Reference distribution</h2>
-    {# maybe include info about this inline somehow #}
     <p>{{ link(reference_distribution) }}</p>
     {% include "include/distribution.html" %}
   </section>
@@ -45,10 +44,10 @@
   </ul>
 {% endif %}
 
-{% if related('implementation-of') %}
-  <h2>Implementations</h2>
+{% if non_ref_dist_implementations() %}
+  <h2>Other Implementations</h2>
   <ul>
-    {% for impl in related('implementation-of')|sort %}
+    {% for impl in non_ref_dist_implementations()|sort %}
       <li>
         {{ link(impl) }},
         {% if 'implementation-type' in data[impl] %}
