@@ -952,7 +952,7 @@
   news-date: Sat, 23 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cons_virt/
   description: |
-    November 23, 2007: Noticing that the Perl 5 implementation of [[Hunter|HUNTER]]
+    November 23, 2007: Noticing that the Perl 5 implementation of [[HUNTER]]
     required a module that was never restored to the website after the last crash,
     I dug it out of cold storage and refurbished it a bit, resulting in
     [[Console::Virtual]].

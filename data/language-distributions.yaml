@@ -334,10 +334,10 @@ Hev distribution:
     revision: "2010.0427"
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
 
-Hunter distribution: 
+HUNTER distribution: 
   type: Distribution
   bitbucket: catseye/hunter
-  github: catseye/Hunter
+  github: catseye/HUNTER
   issue-tracker: github
   releases: 
   - version: "1.0"
