@@ -16,7 +16,7 @@ Minischeme distribution:
   description: |
     Cat's Eye Technologies' fork of the original Mini-scheme distribution.
   distribution-of:
-  - miniscm
+  - Scheme
   github: catseye/minischeme
   issue-tracker: github
   releases: []

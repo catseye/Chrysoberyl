@@ -190,15 +190,21 @@ def check_chrysoberyl_data(data):
       if type_ == 'Distribution':
           assert 'development-stage' not in node, \
             "%s mentions 'development-stage'" % key
-          match = re.match(r'^(.*?) distribution$', key)
-          if match:
-              distribution_of = match.group(1)
-              if 'distribution-of' not in node:
-                  node['distribution-of'] = [distribution_of]
+          if 'distribution-of' not in node:
+              match = re.match(r'^(.*?) distribution$', key)
+              if match:
+                  distribution_of = [match.group(1)]
+                  r = []
+                  for d in distribution_of:
+                      if data[d]['type'] == 'Implementation':
+                          r.extend(data[d]['implementation-of'])
+                  if r:
+                      distribution_of = r
+                  node['distribution-of'] = distribution_of
           check_list_ref(data, key, node, 'distribution-of',
                          types=('Programming Language', 'Programming Language Family',
                                 'Game', 'Tool', 'Library', 'Electronics Project',
-                                'Demo', 'Conlang', 'Platform', 'Implementation'))
+                                'Demo', 'Conlang', 'Platform'))
 
       if type_ == 'Implementation':
           check_list_ref(data, key, node, 'implementation-of')

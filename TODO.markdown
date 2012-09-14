@@ -13,12 +13,6 @@ tool.  (Sometimes implementations do, but Falderal tests can test
 multiple implementations, so, no.  Sometimes implementables
 do, but... well, maybe.)
 
-More sophisticated way of inferring what a distribution is a
-distribution (or reference distribution) of.  (reference distribution
-of X but also a distribution of Y).  Also -- distribution-of can be
-an implementation?  (Why?  the implementation is in-distribution.)
-Anyway, sort this out.
-
 templates
 ---------
 
