@@ -356,7 +356,7 @@ yucca:
     which refer to non-existent line numbers, or line numbers which contain
     only a `REM`, among a few other modest features.
   inception-date: 2012
-  development-stage: work in progress
+  development-stage: mature
 
 yucca (Python):
   type: Implementation

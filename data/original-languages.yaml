@@ -948,7 +948,7 @@ ETHEL:
   - monty python
   # the reference interpreter is probably effectively lost
   no-specification: true
-  development-stage: unfinished
+  development-stage: lost
 
 ethel.pl:
   type: Implementation
