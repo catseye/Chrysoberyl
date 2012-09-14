@@ -71,8 +71,6 @@ Terminology on music pages:
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-For a competition, list all submissions.
-
 Something to indicate "specification link forthcoming" instead of
 baldly "no specification".
 

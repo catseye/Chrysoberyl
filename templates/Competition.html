@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>All submissions to {{ key }}</h2>
+
+<ul>
+{% for thing in data.keys()|sort %}
+  {% if data[thing].submitted_to %}
+    {% for submission in data[thing].submitted_to %}
+      {% if submission.competition == key %}
+        <li>
+          <a href="{{ filekey(thing) }}">{{ thing }}</a>
+          {% if submission.prize %}
+            -- {{ submission.prize }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}
