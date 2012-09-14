@@ -43,6 +43,8 @@ Anyway, sort this out.
 templates
 ---------
 
+The root node (at least for breadcrumbs) maybe should be catseye.tc.
+
 Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
 single function format(value, link=True, indefart=True), which
 can handle a scalar or a list and such.  Dunno, maybe.
@@ -51,29 +53,23 @@ Display online implementation in lingography.  And elsewhere.
 
 Sort other collections (games, tools, language implementations) by date.
 
-Show platforms in Tools collection.
- 
 News template, with news items inline, sorted by date, and
 with anchors, that the links in the feed match up with.
 
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
-Call out works in progress and ideas in some more obvious way.
-
-When listing things, list ones by Cat's Eye Technologies first, and
-put a heading or something.
-
-Terminology on music pages:
--   "implementation" -> "rendition"
--   "is written in MP3" -> "as an MP3 file"
--   "To run this implementation" -> "To listen to this rendition"
--   "an implementation of MP3" -> "an MP3 player"
-
 Cited in Jargon File --> like esowiki and wikipedia.
 
 Something to indicate "specification link forthcoming" instead of
 baldly "no specification".
+
+### obviousity ###
+
+Call out works in progress and ideas in some more obvious way.
+
+When listing things, list ones by Cat's Eye Technologies first, and
+put a heading or something.
 
 Show status of / don't prominently link to discontinued distributions.
 

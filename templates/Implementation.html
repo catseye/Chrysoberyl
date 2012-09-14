@@ -1,15 +1,25 @@
 {% extends "bylined.html" %}
 
+{% if data[implementation_of[0]].type == 'Musical Composition' %}
+  {% set implnoun = 'rendition' %}
+  {% set experienceverb = 'listen to' %}
+  {% set writtenverb = 'encoded' %}
+{% else %}
+  {% set implnoun = 'implementation' %}
+  {% set experienceverb = 'run' %}
+  {% set writtenverb = 'written' %}
+{% endif %}
+
 {% block description %}
   <section id="description">
     <h2>Description</h2>
     <p>This is
       {% if reference %}
-        the reference
+        the reference {{ implnoun }}
       {% else %}
-        an
+        {{ indefart(implnoun) }}
       {% endif %}
-      implementation of the
+       of the
       {% if implementation_of|length > 1 %}
         {{ data[implementation_of[0]].type|lower }}s
         {{ linked_list(implementation_of) }}.
@@ -24,7 +34,7 @@
       {% if implementation_type %}
         <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
       {% endif %}
-      written in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
+      {{ writtenverb }} in <a href="{{ filekey(host_language) }}">{{ host_language }}</a>
       {%- if host_platform %}
         for the <a href="{{ filekey(host_platform) }}">{{ host_platform }}</a> platform
       {%- endif %}
@@ -76,11 +86,11 @@
 
 {% if prebuilt_for_platforms and prebuilt_for_platforms[0] == 'native code' %}
   <p>
-    To run this implementation, you need only download and
+    To {{ experienceverb }} this {{ implnoun }}, you need only download and
     install the appropriate version for your computer and operating system.
   </p>
 {% else %}
-  <p>To run this implementation, you need:</p>
+  <p>To {{ experienceverb }} this {{ implnoun }}, you need:</p>
   <ul>
     {% if prebuilt_for_platforms|length > 1 %}
       <li>One of the following:
