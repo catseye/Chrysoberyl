@@ -21,7 +21,7 @@ try:
 except ImportError:
     from yaml import Loader
 
-from chrysoberyl.checker import check_chrysoberyl_data
+from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
 from chrysoberyl.localrepos import troll_docs, bitbucket_repos
@@ -42,6 +42,21 @@ def load_chrysoberyl_dir(dirname):
 
     print "%d files read." % count
     return data
+
+
+def transform_dates(thing):
+    if isinstance(thing, ApproximateDate):
+        return thing.stamp()
+    elif isinstance(thing, list):
+        return [transform_dates(x) for x in thing]
+    elif isinstance(thing, dict):
+        return dict([(k, transform_dates(v)) for k, v in thing.iteritems()])
+    else:
+        return thing
+
+
+def jsonify(data):
+    return transform_dates(data)
 
 
 if __name__ == '__main__':
@@ -101,7 +116,7 @@ if __name__ == '__main__':
     if options.output_to:
         filename = os.path.join(options.output_to, 'chrysoberyl.json')
         with codecs.open(filename, 'w', 'utf-8') as file:
-            json.dump(data, file, encoding='utf-8', default=unicode)
+            json.dump(jsonify(data), file, encoding='utf-8', default=unicode)
         convert_chrysoberyl_data(data)
         r = Renderer(data, 'templates', options.output_to)
         r.render_chrysoberyl_data()

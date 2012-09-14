@@ -2231,7 +2231,7 @@ Pail:
     title was "Bizaaro[sic]-Pixley", as it attempts to resemble [[Pixley]]
     while turning several concepts on their heads: use pairs instead of lists,
     quote by default instead of eval by default, and allow not just values but also
-    names of bindings to be expressed.   "
+    names of bindings to be expressed.
   authors:
   - Chris Pressey
   auspices:
@@ -2292,10 +2292,11 @@ Pixley:
   commentary: |
     Here are some languages it would be great to see Pixley implemented
     in someday:
-    *   [[Javascript]]
-    *   [[VBScript]]
-    *   [[Commodore 64]], either [[Commodore BASIC 2.0]] or [[6502 machine code]]
-    *   [[Befunge-98]] (storage would probably be a killer in [[Befunge-93]])
+    
+    -   [[Javascript]]
+    -   [[VBScript]]
+    -   [[Commodore 64]], either [[Commodore BASIC 2.0]] or [[6502 machine code]]
+    -   [[Befunge-98]] (storage would probably be a killer in [[Befunge-93]])
 
 pixley.pix:
   type: Implementation

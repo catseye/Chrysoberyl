@@ -212,7 +212,7 @@ class Renderer(object):
                     not node.get('variant-of', None) and
                     not node.get('member-of', None)):
                     languages.append(thing)
-            return languages
+            return sorted(languages, key=lambda x: self.data[x]['inception-date'])
 
         # functions
         context['filekey'] = filekey

@@ -6,7 +6,7 @@
 <h3>Languages I've Designed ({{ lingography()|length }})</h3>
 
 <ul>
-{% for thing in lingography()|sort %}
+{% for thing in lingography() %}
   <li>
     <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
     {% if data[thing].description_html %}

@@ -8,10 +8,6 @@ When trolling docs, associate each with its distribution in the Documentation
 node.  Then, *in templates*, figure out what to display for an implementation
 or Implementable.
 
-Permit sorting by date.
-
-Dump dates sensibly to JSON.
-
 Account for the fact that some implementations can be
 compiled or interpreted under two language (ANSI C and C99
 and Borland C++; or in a more involved way, polyglots):
@@ -53,7 +49,12 @@ can handle a scalar or a list and such.  Dunno, maybe.
 
 Display online implementation in lingography.  And elsewhere.
 
-Sort lingography and other collections by date.  Sort news items by date.
+Sort other collections (games, tools, language implementations) by date.
+
+Show platforms in Tools collection.
+ 
+News template, with news items inline, sorted by date, and
+with anchors, that the links in the feed match up with.
 
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
