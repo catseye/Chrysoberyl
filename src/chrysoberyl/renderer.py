@@ -105,6 +105,12 @@ class Renderer(object):
             return objects
 
         def ref_dist(key=key):
+            """Find the reference distribution for the given thing.
+
+            This could be itself, or the dist an implementation is in,
+            or the reference distribution of the implementable.
+
+            """
             if self.data[key]['type'] == 'Distribution':
                 return key
             if 'in-distribution' in self.data[key]:

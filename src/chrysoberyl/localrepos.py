@@ -27,8 +27,6 @@ def troll_docs(data, clone_dir, data_dir):
     count = 0
     docdict = {}
     for (distribution, user, repo) in bitbucket_repos(data):
-        distribution_of = data[distribution]['distribution-of']
-
         if distribution in ('pibfi distribution',):
             print "#!! Skipping %s" % distribution
             continue
@@ -38,18 +36,7 @@ def troll_docs(data, clone_dir, data_dir):
               (distribution)
             continue
 
-        if 'reference-distribution' not in data[distribution_of]:
-            print "#-- Found non-reference distribution of %s: %s" % \
-              (distribution_of, distribution)
-            # but for now, keep going
-            
-        if ('reference-distribution' in data[distribution_of] and
-            data[distribution_of]['reference-distribution'] != distribution):
-            print "#-- Found reference distribution of %s but expecting %s" % \
-              (data[distribution_of]['reference-distribution'], distribution)
-            # but for now, keep going
-
-        docdict[distribution_of] = \
+        docdict[distribution] = \
             hunt_for_docs(os.path.join(clone_dir, repo))
         count += 1
 

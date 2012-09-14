@@ -4,10 +4,6 @@ Chrysoberyl TODO
 structure
 ---------
 
-When trolling docs, associate each with its distribution in the Documentation
-node.  Then, *in templates*, figure out what to display for an implementation
-or Implementable.
-
 Falderal tests -- distributions contain tests and require a testing
 tool.  (Sometimes implementations do, but Falderal tests can test
 multiple implementations, so, no.  Sometimes implementables
