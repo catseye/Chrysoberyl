@@ -18,12 +18,16 @@ def make_news_feed(data, filename):
         n.update(node)
         n['key'] = key
         n['news-date'] = news_date
+        n['description_html'] = \
+            n['description_html'].encode("ascii", "xmlcharrefreplace") 
         newses.append(n)
 
     newses.sort(key=itemgetter('news-date'), reverse=True)
     entries = [atomize.Entry(title=n['key'],
                              guid=URL + "/" + n['key'],
-                             updated=n['news-date'])
+                             updated=n['news-date'],
+                             summary=atomize.Summary(n['description_html'], content_type='html'),
+                             links=[atomize.Link(n['news-link'], content_type='text/html', rel='alternate')])
                for n in newses]
 
     feed = atomize.Feed(title="Cat's Eye Technologies: New Developments",
