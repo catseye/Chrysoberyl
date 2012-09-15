@@ -9,15 +9,29 @@
 {% for thing in lingography() %}
   <li>
     <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
+    
     {% if data[thing].description_html %}
       <p>{{ data[thing].description_html }}</p>
     {% endif %}
+    
     {% if data[thing].commentary_html %}
       <p>{{ data[thing].commentary_html }}</p>
     {% endif %}
+    
     {% if data[thing].sample_html %}
       <div class="sample">{{ data[thing].sample_html }}</div>
     {% endif %}
+
+    {% if data[thing].online_implementations %}
+      <p>Try it online:
+        <ul>
+          {% for olimpl in data[thing].online_implementations|sort %}
+            <li><a href="{{ olimpl }}">{{ olimpl }}</a></li>
+          {% endfor %}
+        </ul>
+      </p>
+    {% endif %}
+
     {% if related('implementation_of', key=thing) %}
       <p>Implementations:</p>
       <ul>

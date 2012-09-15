@@ -1,14 +1,19 @@
 Chrysoberyl TODO
 ================
 
+structure
+---------
+
+online-implementations should really be a list of implementations,
+and implementations should have a list of where they can be found
+online.
+
+screenshots for games.  (again, maybe by implementation)
+
 templates
 ---------
 
 The root node (at least for breadcrumbs) maybe should be catseye.tc.
-
-Display online implementation in lingography.  And elsewhere.
-
-Sort other collections (games, tools, language implementations) by date.
 
 News template, with news items inline, sorted by date, and
 with anchors, that the links in the feed match up with.
@@ -91,13 +96,11 @@ a compiler in some dists but not in others (JRE and JDK.)
 Account for the fact that some implementations can be
 compiled or interpreted under two language (ANSI C and C99
 and Borland C++; or in a more involved way, polyglots):
-
     2iota:
       implementation-of: beta-Juliet
       host-languages:
       - ANSI C
       - C99
-
     rube.c:
       implementation-of: RUBE
       host-languages:
@@ -105,4 +108,4 @@ and Borland C++; or in a more involved way, polyglots):
       - C99
       - Borland C
 
-(that's an "or")
+Sort other collections (games, tools, language implementations) by date.

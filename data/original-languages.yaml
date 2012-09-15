@@ -203,6 +203,8 @@ Befunge-93:
   inception-date: Sep 1993
   # maybe archival
   development-stage: mature
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   see-also:
   - Funge-98
   - Flobnar
@@ -1161,6 +1163,8 @@ Gemooy:
     essentially the same as those of [[BitChanger]].
   inception-date: Dec 2, 2010
   development-stage: mature
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   authors:
   - Chris Pressey
   auspices:
@@ -2750,7 +2754,7 @@ SMITH:
   description: |
     SMITH is a self-modifying assembly-like language which completely lacks
     any kind of jump instructions *whatsoever*.  Despite this handicap, it
-    appears to be [[Turing-complete]].
+    has been shown to be [[Turing-complete]].
   etymology:
   - surname
   sample: |-
@@ -2771,9 +2775,8 @@ SMITH:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca July 2000
-  # it could use a TC proof, really
   development-stage: not fully complete
-  computational-class: believed Turing-complete
+  computational-class: Turing-complete
   notable: true
   significant: true
   influences:
@@ -2930,6 +2933,7 @@ Treacle:
   computational-class: believed Turing-complete
   inception-date: Apr 12, 2008
   development-stage: mature
+  # treacle is a condiment? ... okayyy
   etymology:
   - british
   - condiment
@@ -3287,6 +3291,8 @@ Wunnel:
 
              o    oooo o
   specification-link: esowiki
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
 
 tc.catseye.yoob.wunnel:
   type: Implementation

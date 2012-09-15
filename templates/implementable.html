@@ -2,6 +2,17 @@
 
 {% block content %}
 
+{% if online_implementations %}
+  <section id="online_implementations">
+    <h2>Try it Online</h2>
+    <ul>
+      {% for olimpl in online_implementations|sort %}
+        <li><a href="{{ olimpl }}">{{ olimpl }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+
 {% if reference_distribution %}
   <section id="reference_distribution">
     <h2>Reference distribution</h2>

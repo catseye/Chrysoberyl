@@ -12,7 +12,7 @@ BefOS:
   other-languages: []
   description: |
     This is a project I began in the late 90's, to write an "operating system"
-    in the theme of Befunge.  It never got very far, but it does boot and do some
+    in the theme of [[Befunge-93]].  It never got very far, but it does boot and do some
     cute things, so I have modernized it (from Turbo Assembler to NASM) and
     made it available here.
   authors:

@@ -10,11 +10,23 @@
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost', 'archived'] %}
     <li>
       <p>{{ link(thing) }}</p>
+
       {% if data[thing].description_html %}
         <p>{{ data[thing].description_html }}</p>
       {% endif %}
+
       {% if data[thing].commentary_html %}
         <p>{{ data[thing].commentary_html }}</p>
+      {% endif %}
+
+      {% if data[thing].online_implementations %}
+        <p>Try it online:
+          <ul>
+            {% for olimpl in data[thing].online_implementations|sort %}
+              <li><a href="{{ olimpl }}">{{ olimpl }}</a></li>
+            {% endfor %}
+          </ul>
+        </p>
       {% endif %}
     </li>
   {% endif %}

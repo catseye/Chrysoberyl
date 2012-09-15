@@ -11,6 +11,8 @@ brainfuck:
   computational-class: Turing-complete
   specification-link: esowiki
   development-stage: mature
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   commentary: |
     Brainfuck is the 12-bar blues of [[Esolang]].
 
@@ -33,6 +35,23 @@ pibfi:
     I sort of lost interest when I was adding profiling and discovered there were several different
     extant reckonings of a "number of instructions executed" metric for Brainfuck.  I guess it was that
     point that made me recognize just how silly this project was...
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+
+tc.catseye.yoob.brainfuck:
+  type: Implementation
+  implementation-of:
+  - brainfuck
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  reference: false
+  license: Public Domain
+  host-language: Java
+  host-platform: yoob
+  implementation-type: interpreter
   authors:
   - Chris Pressey
   auspices:
@@ -293,6 +312,8 @@ Ale:
   authors:
   - David Chipping
   esowiki: Ale
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: believed Turing-complete
   specification-link: esowiki
   development-stage: mature
@@ -323,6 +344,8 @@ Backflip:
   authors:
   - Alex Smith (ais523)
   esowiki: Backflip
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -353,6 +376,8 @@ Black:
   authors:
   - Alex Smith (ais523)
   esowiki: Black
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -384,6 +409,8 @@ LNUSP:
   authors:
   - Zzo38
   esowiki: LNUSP
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -424,6 +451,8 @@ tc.catseye.yoob.lnusp:
   authors:
   - Catatonic Porpoise
   esowiki: 1L_a
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -456,6 +485,8 @@ tc.catseye.yoob.onela:
   authors:
   - Tslil Clingman
   esowiki: 1L_AOI
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: not fully complete
@@ -487,6 +518,8 @@ PATH:
   authors:
   - Francis Rogers
   esowiki: PATH
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -517,6 +550,8 @@ Qdeql:
   authors:
   - Catatonic Porpoise
   esowiki: Qdeql
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -547,6 +582,8 @@ Sceql:
   authors:
   - Catatonic Porpoise
   esowiki: Sceql
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -578,6 +615,8 @@ SNUSP:
   authors:
   - Daniel Brockman
   esowiki: SNUSP
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -609,6 +648,8 @@ tc.catseye.yoob.snusp:
   authors:
   - Zzo38
   esowiki: 2-ill
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   influences:
   - 2L
   computational-class: unknown computational class
@@ -642,6 +683,8 @@ tc.catseye.yoob.twoill:
   authors:
   - Gregor Richards
   esowiki: 2L
+  online-implementations:
+  - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature

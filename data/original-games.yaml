@@ -14,6 +14,8 @@ Bubble Escape:
     Was rewritten in 6502 assembly language by a middle-aged me in the late oughts.  Was pared
     down so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Competition 2009
     where (surprisingly, to me!) it got first place in its class.
+  online-implementations:
+  - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
 
 Bubble Escape (BASIC):
   type: Implementation
@@ -38,8 +40,6 @@ Bubble Escape 2K:
   host-platform: Commodore 64
   build-requirements:
   - CRUNCHER AB+
-  online-implementations:
-  - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
   controls: joystick
   submitted-to:
   - competition: Mini Game Compo 2009
