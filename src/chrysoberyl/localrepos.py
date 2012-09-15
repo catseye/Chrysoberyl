@@ -91,16 +91,54 @@ def survey_repos(data, clone_dir):
     def survey_repo(distribution, repo):
         print repo
         dirty = get_it("hg st")
+        #outgoing = get_it("hg out")
+        outgoing = ''
+        if 'no changes found' in outgoing:
+            outgoing = ''
+        tags = {}
+        latest_tag = None
+        for line in get_it("hg tags").split('\n'):
+            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+            if match:
+                tag = match.group(1)
+                tags[tag] = int(match.group(2))
+                if tag != 'tip' and latest_tag is None:
+                    latest_tag = tag
+        due = ''
+        diff = ''
+        if latest_tag is None:
+            due = 'NEVER RELEASED'
+        else:
+            diff = get_it('hg diff -r %s -r tip -X .hgtags' % latest_tag)
+            if not diff:
+                due = ''
+            else:
+                due = "%d changesets (tip=%d, %s=%d)" % \
+                    ((tags['tip'] - tags[latest_tag]), tags['tip'], latest_tag, tags[latest_tag])
         repos[repo] = {
-            'dirty': dirty
+            'dirty': dirty,
+            'outgoing': outgoing,
+            'tags': tags,
+            'latest_tag': latest_tag,
+            'due': due,
+            'diff': diff,
         }
 
     count = for_each_repo(data, clone_dir, survey_repo)
 
     print '-----'
     for repo in sorted(repos.keys()):
-        if repos[repo]['dirty']:
+        r = repos[repo]
+        if r['dirty'] or r['outgoing'] or r['due']:
             print repo
-            print repos[repo]['dirty']
+            if r['dirty']:
+                print r['dirty']
+            if r['outgoing']:
+                print r['outgoing']
+            #print r['tags']
+            #print len(r['diff'])
+            if r['due']:
+                print "  DUE:", r['due']
+            print
     print '-----'
     print "%d repos checked." % count
