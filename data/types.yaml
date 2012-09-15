@@ -86,9 +86,9 @@ Programming Language:
     symphony itself.
     
     Simlarly, take a programming language, like Java. There are
-    implementations of Java -- there's Sun's `javac`, for instance, but
+    implementations of Java — there's Sun's `javac`, for instance, but
     there are also IBM's `jikes` and GNU's `gcj`. And there are
-    specifications of Java -- the official spec is from Sun (much like the
+    specifications of Java — the official spec is from Sun (much like the
     official version of Beethoven's 7th issued straight from Ludwig von's
     pen,) but there are countless books on learning Java that also explain
     the features and rules of Java, in their own words.

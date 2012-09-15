@@ -30,7 +30,7 @@ Galois connection:
     
     Now there's nothing saying that the sets have to be "abstract" or
     "concrete" or that the maps have to be "abstractifying" or
-    "concretizing" -- those are just from this one application in abstract
+    "concretizing" — those are just from this one application in abstract
     interpretation. On the other hand, the structure inherent in the Galois
     connection does lend itself to relationships like this.
 

@@ -1,19 +1,8 @@
 Chrysoberyl TODO
 ================
 
-structure
----------
-
-online-implementations should really be a list of implementations,
-and implementations should have a list of where they can be found
-online.
-
 templates
 ---------
-
-Prominent "Download latest version" link in distribution snippet.
-
-And link to single node listing all versions of older versions, with anchors.
 
 The root node (at least for breadcrumbs) maybe should be catseye.tc.
 
@@ -46,6 +35,10 @@ Finish cleaning up demos.
 
 perhaps...
 ----------
+
+online-implementations should really be a list of implementations,
+and implementations should have a list of where they can be found
+online.
 
 screenshots for games.  (again, maybe by implementation)
 

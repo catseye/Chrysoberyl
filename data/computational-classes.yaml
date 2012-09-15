@@ -7,7 +7,7 @@ Turing-complete:
     
     If, in the [[Chrysoberyl]] database, a programming language is labelled
     as Turing-complete, it means that it has been demonstrated in a
-    (reasonably) formal way -- as opposed to it
+    (reasonably) formal way — as opposed to it
     [[believed Turing-complete|being so uncontroversial that no one has bothered.]]
   commentary: |
     Ah, Turing-complete!  Turing-complete!  Say it again; it's a little like a
@@ -22,7 +22,7 @@ Turing-complete:
     I can always come up with some computational problem that it can't
     solve because it requires *one more bit* of data than you can hold.
     
-    (And this extends to languages like [[C99|C]] as well -- they assume so
+    (And this extends to languages like [[C99|C]] as well — they assume so
     strongly that they are compiling to machine code that they adopt some
     of the finitist limitations of it.)
     

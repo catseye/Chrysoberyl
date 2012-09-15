@@ -411,7 +411,7 @@ Javascript:
         addition, being interactive, any incorrect Javascript will have a
         direct negative impact on the user experience.
     
-        So what we do is we use commodity components -- open-source
+        So what we do is we use commodity components — open-source
         Javascript modules that are community-developed. The broad base of
         users and developers helps ensure that the scripts are tested both
         deeply and broadly (that is, across a large cross-section of
@@ -612,7 +612,7 @@ Python:
     Mostly harmless.
     
     Hah, I say that and it makes it sound like I *like* Python.  That can't
-    be right.  All languages are crap.  I'm a language designer -- why else
+    be right.  All languages are crap.  I'm a language designer — why else
     would I be a language designer if it were not for the fact that all
     languages are crap?
     

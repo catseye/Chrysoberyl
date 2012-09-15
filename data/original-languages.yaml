@@ -177,7 +177,7 @@ Befunge-93:
     Befunge-93 is an esoteric programming language where the program exists
     in a two-dimensional grid of cells, where each cell contains a single
     instruction, and execution can proceed in any cardinal direction across this
-    grid -- not just left-to-right, but also right-to-left, top-to-bottom, and
+    grid — not just left-to-right, but also right-to-left, top-to-bottom, and
     bottom-to-top.
   # also: known not Turing-complete
   computational-class: can simulate some push-down automata
@@ -250,8 +250,8 @@ Befunge-97:
   - Self-modifying
   description: |
     Befunge-97 was an unimplemented attempt to design a successor to [[Befunge-93]].
-    The design, however, was not successful -- it has been described as
-    "brain-damaged" -- primarily due to the fact that separate processes were specified
+    The design, however, was not successful — it has been described as
+    "brain-damaged" — primarily due to the fact that separate processes were specified
     as sharing a single stack.
   authors:
   - Chris Pressey

@@ -20,7 +20,7 @@ Beseige:
     characters.
     
     Partially implemented in [[Borland C]] for [[MS-DOS]], and then
-    I decided to want to do it in assembly -- first Turbo Assembler, then at
+    I decided to want to do it in assembly — first Turbo Assembler, then at
     some later point, a half-hearted conversion of the game engine to
     [[NASM Assembler]].
     
@@ -79,8 +79,8 @@ Nukeball:
     into sub-sub-atomic particles, and must co-operate to escape fiendish
     mazes constructed deep within the bowels of an atomic nucleus.
     
-    While each of the kinds of sub-sub-atomic particle -- the 'patabaryon,
-    'patalepton, and 'patatachyons -- can gain or lose energy (and requires a
+    While each of the kinds of sub-sub-atomic particle — the 'patabaryon,
+    'patalepton, and 'patatachyons — can gain or lose energy (and requires a
     certain amount of energy to pass particular barriers), each also has their
     own unique capabilities and weaknesses.
     

@@ -15,10 +15,10 @@
         (<i>{{ link_lower(data[thing].genre) }},
          {{ link(data[thing].composed_on) }},
          {{ data[thing].inception_date }}</i>)
-        --
+        —
         {% for impl in related('implementation-of', key=thing)|sort %}
           {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
-              <b><a href="{{ data[impl].links[0] }}">listen to {{ impl }}</a></b>
+              <a class="download" href="{{ data[impl].links[0] }}">download {{ impl }}</a>
           {% endif %}
         {% endfor %}
       </p>

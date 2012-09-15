@@ -405,7 +405,7 @@
     an elaborate roguelike I wrote (but never finished) in Perl,
     circa 2000. Still runs on a modern Perl (v5.10.1), but doesn't
     play too nicely with my modern terminal emulator. No further
-    development is planned -- it is retained here for historical
+    development is planned — it is retained here for historical
     interest only.  It's actually been on the site for a while, but
     due to some technical problems, was not announced until now.
     
@@ -487,7 +487,7 @@
     documentation and example programs for the
     ancient and venerable Maentwrog language that
     I decided I ought to update the distribution to
-    include them -- along with a small fix that allows the
+    include them — along with a small fix that allows the
     source to be build with modern C compilers like
     gcc and pcc.
     
@@ -539,7 +539,7 @@
     on an ambitious project: build a framework which both
     reduces the effort to implement esolangs, and makes
     those implementations easily accessible to, and usable
-    by, anyone with a modern web browser -- even
+    by, anyone with a modern web browser — even
     non-programmers.
     
     The project is called yoob.  Even though it
@@ -933,8 +933,8 @@
     a Turing-complete macro-expansion language with all the readability
     of Scheme, is practically an honourary esolang.  Secondly, RSS is
     specified about as rigorously and consistently as most esolangs as well.
-    And thirdly -- although I dispute that this is a particularly important
-    reason -- somebody might actually find it useful.
+    And thirdly — although I dispute that this is a particularly important
+    reason — somebody might actually find it useful.
     
 "Release of the Iphigeneia Programming Language":
   type: News Item
@@ -1011,7 +1011,7 @@
   description: |
     November 1, 2007: The Cabra programming language,
     successor of sorts to [[Burro]], has been released.
-    Cabra programs form, not a group, but a dioid -- an idempotent semiring --
+    Cabra programs form, not a group, but a dioid — an idempotent semiring — 
     under the operations of sequential and parallel composition.
     
 "Release of the Burro Programming Language":
@@ -1022,7 +1022,7 @@
     October 26, 2007: The Burro programming language, after two years
     (on and off) of design work, has finally been released.  Burro is a Brainfuck-like language
     whose programs form an algebraical group under the operation of concatenation (roughly
-    speaking -- see the docs for the complete picture.)
+    speaking — see the docs for the complete picture.)
     
 "(Re-)Unearthing of the Maentwrog Programming Language":
   type: News Item

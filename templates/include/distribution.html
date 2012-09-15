@@ -2,6 +2,17 @@
   Expects dist_key to be set to the key of the distribution.
 #}
 
+{% if data[dist_key].releases %}
+  {% set latest_release = data[dist_key].releases|last %}
+  <section id="download">
+    <h2>Download</h2>
+    <a class="download" href="{{ latest_release.url }}">
+      Download latest release
+      ({{ latest_release.version }}-{{ latest_release.revision }})
+    </a>
+  </section>
+{% endif %}
+
 {% if documentation(key=dist_key) %}
   <section id="documentation">
     <h2>Documentation</h2>
@@ -77,11 +88,11 @@
   </section>
 {% endif %}
 
-{% if data[dist_key].releases %}
-  <section id="releases">
-    <h2>Releases</h2>
+{% if data[dist_key].releases|length>1 %}
+  <section id="previous_releases">
+    <h2>Previous Releases</h2>
     <ul>
-      {% for release in data[dist_key].releases %}
+      {% for release in data[dist_key].releases[1:] %}
       <li>
         <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
       </li>
