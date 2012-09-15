@@ -1,8 +1,12 @@
-{% if documentation(key=ref_dist()) %}
+{#
+  Expects dist_key to be set to the key of the distribution.
+#}
+
+{% if documentation(key=dist_key) %}
   <section id="documentation">
     <h2>Documentation</h2>
     <ul>
-      {% for document in documentation(key=ref_dist()) %}
+      {% for document in documentation(key=dist_key) %}
         <li>
           {% if github_link(document) %}
             <a href="{{ github_link(document) }}">{{ document }}</a>
@@ -15,32 +19,36 @@
   </section>
 {% endif %}
 
-{% if related('in-distributions', key=ref_dist()) %}
+{% if related('in-distributions', key=dist_key) %}
   <section id="contained_implementations">
     <h2>Contains Implementations</h2>
     <ul>
-      {% for impl in related('in-distributions', key=ref_dist()) %}
+      {% for impl in related('in-distributions', key=dist_key) %}
         <li>
-          {{ link(impl) }},
-          {% if 'implementation-type' in data[impl] %}
-            {{ indefart(data[impl].implementation_type) }}
-          {% else %}
-          {% endif %}
-          in {{ link(data[impl].host_language) }}
-          {% if data[impl].host_language == key %}
-            (Yo dawg, I herd you like {{ key }})
-          {% endif %}
+          <p>
+            {{ link(impl) }},
+            {% if 'implementation-type' in data[impl] %}
+              {{ indefart(data[impl].implementation_type) }}
+            {% else %}
+            {% endif %}
+            in {{ link(data[impl].host_language) }}
+            {% if data[impl].host_language == key %}
+              (Yo dawg, I herd you like {{ key }})
+            {% endif %}
+          </p>
+          {% set impl_key=impl %}
+          {% include "include/implementation.html" %}
         </li>
       {% endfor %}
     </ul>
   </section>
 {% endif %}
 
-{% if data[ref_dist()].test_requirements %}
+{% if data[dist_key].test_requirements %}
   <section id="test_requirements">
     <h2>Test Requirements</h2>
     <ul>
-      {% for req in data[ref_dist()].test_requirements %}
+      {% for req in data[dist_key].test_requirements %}
         <li>
           an implementation of {{ link(req) }}
         </li>
@@ -49,30 +57,30 @@
   </section>
 {% endif %}
 
-{% if data[ref_dist()].github or data[ref_dist()].bitbucket %}
+{% if data[dist_key].github or data[dist_key].bitbucket %}
   <section id="development">
     <h2>Development</h2>
-    {% if data[ref_dist()].github %}
-      <p>Github: <a href="https://github.com/{{ data[ref_dist()].github }}">{{ data[ref_dist()].github }}</a></p>
+    {% if data[dist_key].github %}
+      <p>Github: <a href="https://github.com/{{ data[dist_key].github }}">{{ data[dist_key].github }}</a></p>
     {% endif %}
-    {% if data[ref_dist()].bitbucket %}
-      <p>Bitbucket: <a href="https://bitbucket.org/{{ data[ref_dist()].bitbucket }}">{{ data[ref_dist()].bitbucket }}</a></p>
+    {% if data[dist_key].bitbucket %}
+      <p>Bitbucket: <a href="https://bitbucket.org/{{ data[dist_key].bitbucket }}">{{ data[dist_key].bitbucket }}</a></p>
     {% endif %}
-    {% if data[ref_dist()].issue_tracker %}
-      {% if data[ref_dist()].issue_tracker == 'github' %}
-        <p>Issue tracker: <a href="https://github.com/{{ data[ref_dist()].github }}/issues">on github</a></p>
+    {% if data[dist_key].issue_tracker %}
+      {% if data[dist_key].issue_tracker == 'github' %}
+        <p>Issue tracker: <a href="https://github.com/{{ data[dist_key].github }}/issues">on github</a></p>
       {% else %}
-        <p>Issue tracker: <a href="{{ data[ref_dist()].issue_tracker }}">{{ data[ref_dist()].issue_tracker }}</a></p>
+        <p>Issue tracker: <a href="{{ data[dist_key].issue_tracker }}">{{ data[dist_key].issue_tracker }}</a></p>
       {% endif %}
     {% endif %}
   </section>
 {% endif %}
 
-{% if data[ref_dist()].releases %}
+{% if data[dist_key].releases %}
   <section id="releases">
     <h2>Releases</h2>
     <ul>
-      {% for release in data[ref_dist()].releases %}
+      {% for release in data[dist_key].releases %}
       <li>
         <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
       </li>

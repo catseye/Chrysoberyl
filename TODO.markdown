@@ -8,8 +8,6 @@ online-implementations should really be a list of implementations,
 and implementations should have a list of where they can be found
 online.
 
-screenshots for games.  (again, maybe by implementation)
-
 templates
 ---------
 
@@ -23,12 +21,8 @@ how you would build it if you want to.
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-Something to indicate "specification link forthcoming" instead of
-baldly "no specification".
-
-Display details about an implementation inline in the distribution
-it's in (even if that is inline in an implementable.)  Highlight the
-reference implementation in a reference distribution.
+Make 'recommended implementation' a snippet, and use it
+for test-requirements for distributions.
 
 ### obviousity ###
 
@@ -51,6 +45,11 @@ Finish cleaning up demos.
 
 perhaps...
 ----------
+
+screenshots for games.  (again, maybe by implementation)
+
+Something to indicate "specification link forthcoming" instead of
+baldly "no specification".
 
 Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
 single function format(value, link=True, indefart=True), which

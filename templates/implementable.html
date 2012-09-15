@@ -17,6 +17,7 @@
   <section id="reference_distribution">
     <h2>Reference distribution</h2>
     <p>{{ link(reference_distribution) }}</p>
+    {% set dist_key=ref_dist() %}
     {% include "include/distribution.html" %}
   </section>
 {% elif standards_body %}
