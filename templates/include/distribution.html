@@ -50,7 +50,8 @@
     <ul>
       {% for req in data[dist_key].test_requirements %}
         <li>
-          an implementation of {{ link(req) }}
+          {% set req_key=req %}{% set req_plat_key='' %}
+          {% include "include/recommended_implementation.html" %}
         </li>
       {% endfor %}
     </ul>

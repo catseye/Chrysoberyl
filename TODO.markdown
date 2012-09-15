@@ -11,6 +11,10 @@ online.
 templates
 ---------
 
+Prominent "Download latest version" link in distribution snippet.
+
+And link to single node listing all versions of older versions, with anchors.
+
 The root node (at least for breadcrumbs) maybe should be catseye.tc.
 
 News template, with news items inline, sorted by date, and
@@ -20,9 +24,6 @@ When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
 Cited in Jargon File --> like esowiki and wikipedia.
-
-Make 'recommended implementation' a snippet, and use it
-for test-requirements for distributions.
 
 ### obviousity ###
 

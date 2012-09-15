@@ -25,20 +25,16 @@
         <ul>
           {% for platform in data[impl_key].prebuilt_for_platforms %}
             <li>
-              an implementation of <a href="{{ filekey(platform) }}">{{ platform }}</a>
-              {% if recommended_implementation(platform) %}
-                (we suggest {{ link(recommended_implementation(platform)) }})
-              {% endif %}
+              {% set req_key=platform %}{% set req_plat_key='' %}
+              {% include "include/recommended_implementation.html" %}
             </li>
           {% endfor %}
         </ul>
       </li>
     {% elif data[impl_key].prebuilt_for_platforms %}
       <li>
-        an implementation of <a href="{{ filekey(data[impl_key].prebuilt_for_platforms[0]) }}">{{ data[impl_key].prebuilt_for_platforms[0] }}</a>
-        {% if recommended_implementation(data[impl_key].prebuilt_for_platforms[0]) %}
-          (we suggest {{ link(recommended_implementation(data[impl_key].prebuilt_for_platforms[0])) }})
-        {% endif %}
+        {% set req_key=data[impl_key].prebuilt_for_platforms[0] %}{% set req_plat_key='' %}
+        {% include "include/recommended_implementation.html" %}
       </li>
     {% else %}
       {% if data[data[impl_key].host_language].generally_compiled or data[impl_key].build_requirements %}
@@ -47,20 +43,15 @@
           <ul>
             {% if data[data[impl_key].host_language].generally_compiled %}
               <li>
-                an implementation of <a href="{{ filekey(data[impl_key].host_language) }}">{{ data[impl_key].host_language }}</a>
-                {% if recommended_implementation(data[impl_key].host_language) %}
-                  (we suggest {{ link(recommended_implementation(data[impl_key].host_language)) }})
-                {% endif %}
-                {% if data[impl_key].host_platform %}
-                  {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
-                  and the <a href="{{ filekey(data[impl_key].host_platform) }}">{{ data[impl_key].host_platform }}</a> platform
-                {% endif %}
+                {% set req_key=data[impl_key].host_language %}{% set req_plat_key=data[impl_key].host_platform %}
+                {% include "include/recommended_implementation.html" %}
               </li>
             {% endif %}
             {% if data[impl_key].build_requirements %}
               {% for requirement in data[impl_key].build_requirements %}
                 <li>
-                  {{ link(requirement) }}
+                  {% set req_key=requirement %}{% set req_plat_key='' %}
+                  {% include "include/recommended_implementation.html" %}
                 </li>
               {% endfor %}
             {% endif %}
@@ -69,18 +60,8 @@
       {% endif %}
       {% if not data[data[impl_key].host_language].generally_compiled %}
         <li>
-          {# special case to make this not suck #}
-          {% if data[impl_key].host_language=='mp3' %}
-            an {{ link('mp3') }} player (you're on your own here)
-          {% else %}
-            an implementation of <a href="{{ filekey(data[impl_key].host_language) }}">{{ data[impl_key].host_language }}</a>
-            {% if recommended_implementation(data[impl_key].host_language) %}
-              (we suggest {{ link(recommended_implementation(data[impl_key].host_language)) }})
-            {% endif %}
-            {% if data[impl_key].host_platform %}
-              for the <a href="{{ filekey(data[impl_key].host_platform) }}">{{ data[impl_key].host_platform }}</a> platform
-            {% endif %}
-          {% endif %}
+          {% set req_key=data[impl_key].host_language %}{% set req_plat_key=data[impl_key].host_platform %}
+          {% include "include/recommended_implementation.html" %}
         </li>
       {% endif %}
     {% endif %}

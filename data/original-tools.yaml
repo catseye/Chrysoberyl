@@ -147,6 +147,7 @@ py-falderal:
   - Falderal
   # well, this is actually not true yet, but:
   in-distribution: Falderal distribution
+  generally-recommended: true
   license: BSD license
   host-language: Python
 
