@@ -24,7 +24,7 @@ except ImportError:
 from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
-from chrysoberyl.localrepos import troll_docs, bitbucket_repos
+from chrysoberyl.localrepos import troll_docs, survey_repos
 
 
 def load_chrysoberyl_dir(dirname):
@@ -89,8 +89,8 @@ if __name__ == '__main__':
                               "anything that looks like documentation, and "
                               "update documentation.yaml with those "
                               "filenames.")
-    optparser.add_option("--display-repos",
-                         dest="display_repos", action='store_true',
+    optparser.add_option("--survey-repos",
+                         dest="survey_repos", action='store_true',
                          default=False)
     (options, args) = optparser.parse_args(sys.argv[1:])
 
@@ -101,11 +101,8 @@ if __name__ == '__main__':
     if options.check_links:
         raise NotImplementedError
 
-    if options.display_repos:
-        repos = []
-        for (dist, user, repo) in bitbucket_repos(data):
-            repos.append(repo)
-        print '\n'.join(sorted(repos))
+    if options.survey_repos:
+        survey_repos(data, options.clone_dir)
         sys.exit(0)
 
     if options.troll_docs:

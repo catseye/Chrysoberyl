@@ -10,6 +10,8 @@ try:
 except ImportError:
     from yaml import Dumper
 
+from chrysoberyl.util import get_it
+
 
 def bitbucket_repos(data):
     for key in data:
@@ -21,26 +23,53 @@ def bitbucket_repos(data):
         yield (key, user, repo)
 
 
-def troll_docs(data, clone_dir, data_dir):
+def for_each_repo(data, clone_dir, fun):
     cwd = os.getcwd()
-
     count = 0
-    docdict = {}
-    for (distribution, user, repo) in bitbucket_repos(data):
-        if distribution in ('pibfi distribution',):
-            print "#!! Skipping %s" % distribution
-            continue
-
+    for (distribution, user, repo) in sorted(bitbucket_repos(data)):
         if user != 'catseye':
             print "#-- non-catseye distribution: %s" % \
               (distribution)
             continue
-
-        docdict[distribution] = \
-            hunt_for_docs(os.path.join(clone_dir, repo))
+        os.chdir(os.path.join(clone_dir, repo))
+        fun(distribution, repo)
         count += 1
-
     os.chdir(cwd)
+    return count
+
+
+DOC_PATTERNS = (
+    r'^LICENSE$',
+    r'^UNLICENSE$',
+    r'^README',
+    r'^.*?\.html$',
+    r'^.*?\.markdown$',
+    r'^.*?\.txt$',
+    r'^.*?\.lhs$',
+)
+
+
+def troll_docs(data, clone_dir, data_dir):
+    docdict = {}
+
+    def troll_repo(distribution, repo):
+        if distribution in ('pibfi distribution',):
+            print "#!! Skipping %s" % distribution
+            return
+        docs = []
+        for root, dirnames, filenames in os.walk('.'):
+            if root.endswith(".hg"):
+                del dirnames[:]
+                continue
+            for filename in filenames:
+                for pattern in DOC_PATTERNS:
+                    if re.match(pattern, filename):
+                        path = os.path.join(root, filename)[2:]
+                        docs.append(path)
+                        break
+        docdict[distribution] = docs
+
+    count = for_each_repo(data, clone_dir, troll_repo)
     
     docdata = {
         'Documentation Index': {
@@ -56,27 +85,22 @@ def troll_docs(data, clone_dir, data_dir):
     print "Doc lists extracted from %d clones." % count
 
 
-DOC_PATTERNS = (
-    r'^LICENSE$',
-    r'^UNLICENSE$',
-    r'^README',
-    r'^.*?\.html$',
-    r'^.*?\.markdown$',
-    r'^.*?\.txt$',
-    r'^.*?\.lhs$',
-)
+def survey_repos(data, clone_dir):
+    repos = {}
 
-def hunt_for_docs(dirname):
-    os.chdir(dirname)
-    docs = []
-    for root, dirnames, filenames in os.walk('.'):
-        if root.endswith(".hg"):
-            del dirnames[:]
-            continue
-        for filename in filenames:
-            for pattern in DOC_PATTERNS:
-                if re.match(pattern, filename):
-                    path = os.path.join(root, filename)[2:]
-                    docs.append(path)
-                    break
-    return docs
+    def survey_repo(distribution, repo):
+        print repo
+        dirty = get_it("hg st")
+        repos[repo] = {
+            'dirty': dirty
+        }
+
+    count = for_each_repo(data, clone_dir, survey_repo)
+
+    print '-----'
+    for repo in sorted(repos.keys()):
+        if repos[repo]['dirty']:
+            print repo
+            print repos[repo]['dirty']
+    print '-----'
+    print "%d repos checked." % count
