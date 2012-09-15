@@ -142,3 +142,13 @@ def survey_repos(data, clone_dir):
             print
     print '-----'
     print "%d repos checked." % count
+
+
+def test_repos(data, clone_dir):
+    repos = {}
+
+    def test_repo(distribution, repo):
+        print repo
+        print get_it("grep -rI falderal .")
+
+    for_each_repo(data, clone_dir, test_repo)

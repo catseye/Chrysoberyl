@@ -32,6 +32,8 @@ Deturgenchry distribution:
   github: catseye/Deturgenchry
   bitbucket: catseye/deturgenchry
   issue-tracker: github
+  test-requirements:
+  - Falderal
   releases: []
 
 
@@ -57,6 +59,8 @@ Exanoke distribution:
   github: catseye/Exanoke
   bitbucket: catseye/exanoke
   issue-tracker: github
+  test-requirements:
+  - Falderal
   releases: []
 
 
@@ -94,6 +98,8 @@ Kosheri distribution:
   github: catseye/Kosheri
   bitbucket: catseye/kosheri
   issue-tracker: github
+  test-requirements:
+  - Falderal
   releases: []
 
 
@@ -171,4 +177,6 @@ Robin distribution:
   github: catseye/Robin
   bitbucket: catseye/robin
   issue-tracker: github
+  test-requirements:
+  - Falderal
   releases: []

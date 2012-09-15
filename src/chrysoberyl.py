@@ -24,7 +24,7 @@ except ImportError:
 from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
-from chrysoberyl.localrepos import troll_docs, survey_repos
+from chrysoberyl.localrepos import troll_docs, survey_repos, test_repos
 
 
 def load_chrysoberyl_dir(dirname):

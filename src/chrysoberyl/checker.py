@@ -205,6 +205,8 @@ def check_chrysoberyl_data(data):
                          types=('Programming Language', 'Programming Language Family',
                                 'Game', 'Tool', 'Library', 'Electronics Project',
                                 'Demo', 'Conlang', 'Platform'))
+          check_optional_list_ref(data, key, node, 'test-requirements',
+                                  types=('Programming Language', 'Tool'))
 
       if type_ == 'Implementation':
           check_list_ref(data, key, node, 'implementation-of')

@@ -36,6 +36,19 @@
   </section>
 {% endif %}
 
+{% if data[ref_dist()].test_requirements %}
+  <section id="test_requirements">
+    <h2>Test Requirements</h2>
+    <ul>
+      {% for req in data[ref_dist()].test_requirements %}
+        <li>
+          an implementation of {{ link(req) }}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+
 {% if data[ref_dist()].github or data[ref_dist()].bitbucket %}
   <section id="development">
     <h2>Development</h2>
