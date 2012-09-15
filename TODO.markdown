@@ -4,15 +4,13 @@ Chrysoberyl TODO
 templates
 ---------
 
-The root node (at least for breadcrumbs) maybe should be catseye.tc.
-
 News template, with news items inline, sorted by date, and
 with anchors, that the links in the feed match up with.
 
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
-Cited in Jargon File --> like esowiki and wikipedia.
+Don't necessarily even make nodes for reference distributions.
 
 ### obviousity ###
 
@@ -26,6 +24,8 @@ Show status of / don't prominently link to discontinued distributions.
 content
 -------
 
+Clean up Concepts category.
+
 Chrysoberyl has a distribution.
 
 Dipple is a distribution (and implementations are in it.)
@@ -35,6 +35,8 @@ Finish cleaning up demos.
 
 perhaps...
 ----------
+
+Cited in Jargon File --> like esowiki and wikipedia.
 
 online-implementations should really be a list of implementations,
 and implementations should have a list of where they can be found

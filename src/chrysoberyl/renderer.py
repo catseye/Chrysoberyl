@@ -191,16 +191,16 @@ class Renderer(object):
                 bc = ["%ss" % key]
             else:
                 bc = [key]
-            if key == TOP:
-                return bc
-            while 'domain' in self.data[key]:
-                key = self.data[key]['domain']
-                if key == TOP:
-                    break
-                bc.append(link(key))
-            if key != TOP and self.data[key]['type'] != 'type':
-                bc.append(link(self.data[key]['type'], format="%ss"))
-            bc.append(link(TOP))
+            if key != TOP:
+                while 'domain' in self.data[key]:
+                    key = self.data[key]['domain']
+                    if key == TOP:
+                        break
+                    bc.append(link(key))
+                if key != TOP and self.data[key]['type'] != 'type':
+                    bc.append(link(self.data[key]['type'], format="%ss"))
+                bc.append(link(TOP))
+            bc.append('<a href="http://catseye.tc/">catseye.tc</a>')
             bc.reverse()
             return bc
         
