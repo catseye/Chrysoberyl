@@ -1377,7 +1377,7 @@ illgol.exe:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
   prebuilt-for-platforms:
@@ -1416,7 +1416,7 @@ illgola2.exe:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
   run-requirements:
@@ -1487,7 +1487,7 @@ Open Sores Illgol## (C):
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
   run-requirements:
@@ -2633,7 +2633,7 @@ Shelta:
     any semantics; it relies on inline machine code to write anything resembling
     an actual program in it. In the spirit of compilers for languages such as [[FALSE]]
     and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from
-    Ben Olmstead) in less than 512 bytes of [[80286 machine code]]. What's more,
+    Ben Olmstead) in less than 512 bytes of [[x86 machine code|80286 machine code]]. What's more,
     it's also been bootstrapped — that is to say, a Shelta compiler was
     written in Shelta, which was compiled with the original compiler, and then
     compiled again with the resulting compiler, producing a wholly self-hosted
@@ -2665,7 +2665,7 @@ shelta:
   implementation-type: compiler
   host-language: NASM Assembler
   host-platform: MS-DOS
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
 
 sheltas:
@@ -2679,7 +2679,7 @@ sheltas:
   implementation-type: compiler
   host-language: Shelta
   host-platform: MS-DOS
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
 
 

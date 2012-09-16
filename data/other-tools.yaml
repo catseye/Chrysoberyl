@@ -23,7 +23,7 @@ Borland C++ compiler:
   host-platform: MS-DOS
   prebuilt-for-platforms:
   - MS-DOS
-  target-language: 80286 machine code
+  target-language: x86 machine code
   target-platform: MS-DOS
   implementation-type: compiler
   commentary: |

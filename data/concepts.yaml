@@ -3,10 +3,16 @@
 Chrysoberyl:
   type: Concept
   description: |
-    _Chrysoberyl_ is an attempt to catalogue and curate 
-    all things produced by, and related to, [[Cat's Eye Technologies]].
+    _Chrysoberyl_ is an attempt to catalogue and curate all things
+    produced by, and related to, [[Cat's Eye Technologies]],
+    largely revolving around [[Chris Pressey]]'s
+    [[Chris Pressey's Lingography|programming languages]],
+    [[Tools by Chris Pressey|tools]],
+    [[Games by Chris Pressey|games]], and [[Music by Chris Pressey|music]].
     It is sort of a cross between a wiki and a semantic web and
-    _[[The Devil's Dictionary]]_.  The grammar and diction of its auto-generated
+    _[[The Devil's Dictionary]]_.
+  commentary: |
+    The grammar and diction of Chrysoberyl's auto-generated
     descriptions might not be so hot at times; please cut it some slack in this regard.
 
 # thass right, catseye.tc is just a concept now.  and what a concept!

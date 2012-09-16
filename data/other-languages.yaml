@@ -904,8 +904,7 @@ NASM:
   reference: true
   license: MIT license
   host-language: C99
-  # XXX I *have* to change this at some point
-  target-language: 80286 machine code
+  target-language: x86 machine code
   in-distribution: NASM Assembler distribution
 
 NASM Assembler distribution:

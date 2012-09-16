@@ -142,7 +142,7 @@ IBM PC compatible:
   no-specification: true
   development-stage: mature
   wikipedia: IBM PC compatible
-  native-language: 80286 machine code
+  native-language: x86 machine code
   other-languages: []
   commentary: |
     A project that requires this assumes that it will be running on a fairly standard
@@ -158,7 +158,7 @@ IBM PC compatible:
     description: Ralf Brown's Interrupt List
     url: http://www.cs.cmu.edu/afs/cs/user/ralf/pub/WWW/files.html
 
-80286 machine code:
+x86 machine code:
   type: Programming Language
   genre: Machine language
   paradigms:

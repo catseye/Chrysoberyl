@@ -36,11 +36,10 @@ BefOS (NASM):
   in-distribution: BefOS distribution
   license: Public Domain
   host-language: NASM Assembler
+  host-platform: IBM PC compatible
   build-requirements:
   - ANSI C
   - Perl
-  run-requirements:
-  - 80286 machine code
 
 BefOS distribution: 
   type: Distribution
