@@ -32,6 +32,8 @@ Javascript to add class "external" to all external links.
 news
 ----
 
+Fix [[links]] rendered in feed.
+
 News template, with news items inline, sorted by date, and
 with anchors, that the links in the feed match up with.
 
