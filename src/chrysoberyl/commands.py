@@ -4,19 +4,16 @@ import codecs
 import json
 from optparse import OptionParser
 import os
+import re
 import shutil
 import sys
 
-import yaml
-try:
-    from yaml import CLoader as Loader
-except ImportError:
-    from yaml import Loader
-
 from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
 from chrysoberyl.feed import make_news_feed
-from chrysoberyl.renderer import convert_chrysoberyl_data, Renderer
-from chrysoberyl.localrepos import troll_docs, survey_repos, test_repos
+from chrysoberyl.loader import load_chrysoberyl_dir
+from chrysoberyl.localrepos import troll_docs, survey_repos, test_repos, get_latest_release_tag
+from chrysoberyl.renderer import Renderer
+from chrysoberyl.transformer import convert_chrysoberyl_data, transform_dates
 
 
 def check(args, optparser):
@@ -66,7 +63,7 @@ def render(args, optparser):
     data = load_and_check(options.data_dir)
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
-        json.dump(jsonify(data), file, encoding='utf-8', default=unicode)
+        json.dump(transform_dates(data), file, encoding='utf-8', default=unicode)
     convert_chrysoberyl_data(data)
     r = Renderer(data, 'templates', options.node_dir)
     r.render_chrysoberyl_data()
@@ -100,11 +97,19 @@ def release(args, optparser):
     distro = args.pop(0)
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
-    v_maj = '1'
-    v_min = '0'
-    r_maj = '2012'
-    r_min = '0915'
-    tag = 'rel_%s_%s_%s_%s' % (v_maj, v_min, r_maj, r_min)
+    tag = get_latest_release_tag(data, distro, options.clone_dir)
+    if not tag:
+        print "repository not tagged"
+        return 1
+    match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
+    if not match:
+        print "not a release tag: %s" % tag
+        return 1
+    v_maj = match.group(1)
+    v_min = match.group(2)
+    r_maj = match.group(3)
+    r_min = match.group(4)
+    #tag = 'rel_%s_%s_%s_%s' % (v_maj, v_min, r_maj, r_min)
     filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
     excludes = '-X .hgignore -X .gitignore -X .hg_archival.txt'
     print "hg archive -t zip -r %s %s %s/%s" % (tag, excludes, options.distfiles_dir, filename)
@@ -115,37 +120,6 @@ def release(args, optparser):
 """ % (v_maj, v_min, r_maj, r_min, filename)
 
 ### helpers ###
-
-def load_chrysoberyl_dir(dirname):
-    data = {}
-
-    count = 0
-    for root, dirnames, filenames in os.walk(dirname):
-        for filename in filenames:
-            if filename.endswith('.yaml'):
-                count += 1
-                file = open(os.path.join(root, filename))
-                data.update(yaml.load(file, Loader=Loader))
-                file.close()
-        del dirnames[:]  # don't automatically descend
-
-    print "%d files read." % count
-    return data
-
-
-def transform_dates(thing):
-    if isinstance(thing, ApproximateDate):
-        return thing.stamp()
-    elif isinstance(thing, list):
-        return [transform_dates(x) for x in thing]
-    elif isinstance(thing, dict):
-        return dict([(k, transform_dates(v)) for k, v in thing.iteritems()])
-    else:
-        return thing
-
-
-def jsonify(data):
-    return transform_dates(data)
 
 
 def load_and_check(dirname):

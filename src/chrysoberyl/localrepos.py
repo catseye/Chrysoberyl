@@ -145,6 +145,7 @@ def survey_repos(data, clone_dir):
 
 
 def test_repos(data, clone_dir):
+    """STUB"""
     repos = {}
 
     def test_repo(distribution, repo):
@@ -152,3 +153,25 @@ def test_repos(data, clone_dir):
         print get_it("grep -rI falderal .")
 
     for_each_repo(data, clone_dir, test_repo)
+
+
+def get_latest_release_tag(data, repo_name, clone_dir):
+    result = {}
+
+    def find_it(distribution, repo):
+        if repo != repo_name:
+            return
+
+        latest_tag = None
+        for line in get_it("hg tags").split('\n'):
+            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+            if match:
+                tag = match.group(1)
+                if tag != 'tip' and latest_tag is None:
+                    latest_tag = tag
+        
+        result[repo] = latest_tag
+
+    for_each_repo(data, clone_dir, find_it)
+
+    return result[repo_name]
