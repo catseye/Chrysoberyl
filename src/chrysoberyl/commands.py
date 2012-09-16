@@ -81,7 +81,7 @@ def announce(args, optparser):
     """
     optparser.add_option("--feed-dir",
                          dest="feed_dir", metavar='DIR',
-                         help="write feeds into the given directory")
+                         help="write feeds into this directory")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
     convert_chrysoberyl_data(data)
@@ -89,6 +89,30 @@ def announce(args, optparser):
     make_news_feed(data, options.feed_dir, 'atom_30_news.xml', limit=30)
     make_news_feed(data, options.feed_dir, 'atom_all_news.xml')
 
+
+def release(args, optparser):
+    """Create a distfile from the latest tag in a local distribution repo.
+
+    """
+    optparser.add_option("--distfiles-dir",
+                         dest="distfiles_dir", metavar='DIR',
+                         help="write distfile into this directory")
+    distro = args.pop(0)
+    options, args = optparser.parse_args(args)
+    data = load_and_check(options.data_dir)
+    v_maj = '1'
+    v_min = '0'
+    r_maj = '2012'
+    r_min = '0915'
+    tag = 'rel_%s_%s_%s_%s' % (v_maj, v_min, r_maj, r_min)
+    filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
+    excludes = '-X .hgignore -X .gitignore -X .hg_archival.txt'
+    print "hg archive -t zip -r %s %s %s/%s" % (tag, excludes, options.distfiles_dir, filename)
+    print """\
+  - version: "%s.%s"
+    revision: "%s.%s"
+    url: http://catseye.tc/distfiles/%s
+""" % (v_maj, v_min, r_maj, r_min, filename)
 
 ### helpers ###
 
@@ -139,6 +163,7 @@ COMMANDS = {
     'announce': announce,
     'troll': troll,
     'survey': survey,
+    'release': release,
 }
 
 
