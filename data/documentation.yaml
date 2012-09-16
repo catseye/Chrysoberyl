@@ -46,11 +46,8 @@ Documentation Index:
     Cabra distribution:
     - doc/cabra.html
     Cfluviurrh distribution:
-    - output.txt
-    - one.txt
     - LICENSE
     - README.markdown
-    - zero.txt
     Circute distribution: []
     Console::Virtual distribution:
     - readme.txt
@@ -75,6 +72,7 @@ Documentation Index:
     - README.markdown
     - UNLICENSE
     Dungeons of Ekileugor distribution:
+    - LICENSE
     - README.markdown
     Eightebed distribution:
     - LICENSE
@@ -122,7 +120,6 @@ Documentation Index:
     - 4. Open Sores Illgol##/doc/poundpoundreadme.txt
     - 4. Open Sores Illgol##/doc/i2readme.txt
     Iphigeneia distribution:
-    - foo.txt
     - README.markdown
     Jaccia and Jacciata distribution:
     - README.markdown
@@ -254,8 +251,7 @@ Documentation Index:
     - doc/bootstrp.txt
     Squishy2K distribution:
     - README.txt
-    Strelnokoff distribution:
-    - index.html
+    Strelnokoff distribution: []
     Super Wumpus Land distribution: []
     TPiS distribution:
     - LICENSE
