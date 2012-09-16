@@ -803,6 +803,9 @@ SMITH distribution:
   - version: "2.1"
     revision: "2011.0922"
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
+  - version: "2.1"
+    revision: "2012.0916"
+    url: http://catseye.tc/distfiles/smith-2.1-2012.0916.zip
 
 Squishy2K distribution: 
   type: Distribution
@@ -843,6 +846,9 @@ Thue distribution:
   - version: "1.5"
     revision: "2010.1218"
     url: http://catseye.tc/distfiles/thue-1.5-2010.1218.zip
+  - version: "1.5"
+    revision: "2012.0916"
+    url: http://catseye.tc/distfiles/thue-1.5-2012.0916.zip
 
 Treacle distribution: 
   type: Distribution

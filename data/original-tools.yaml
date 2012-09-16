@@ -112,7 +112,7 @@ DiskSumo distribution:
   releases: 
   - version: "1.0"
     revision: "2007.0726"
-    url: xxx
+    url: http://catseye.tc/distfiles/disksumo-1.0-2007.0726.zip
 
 
 Falderal: 
