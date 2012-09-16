@@ -78,8 +78,13 @@ if __name__ == '__main__':
     optparser.add_option("-o", "--output-to",
                          dest="output_to", metavar='DIR',
                          help="render all nodes (as HTML5 files) and "
-                              "write them, and supporting materials, "
-                              "into the given directory")
+                              "write them into the given directory")
+    optparser.add_option("--script-dir",
+                         dest="script_dir", metavar='DIR',
+                         help="write scripts into the given directory")
+    optparser.add_option("--feed-dir",
+                         dest="feed_dir", metavar='DIR',
+                         help="write feeds into the given directory")
     optparser.add_option("--troll-docs",
                          dest="troll_docs", action='store_true',
                          default=False,
@@ -118,5 +123,7 @@ if __name__ == '__main__':
         r = Renderer(data, 'templates', options.output_to)
         r.render_chrysoberyl_data()
         for filename in ['chrysoberyl-query.js']:
-            shutil.copy("static/%s" % filename, options.output_to)
-        make_news_feed(data, os.path.join(options.output_to, 'news.xml'))
+            shutil.copy(os.path.join('static', filename),
+                        options.script_dir)
+        make_news_feed(data, 15,
+                       os.path.join(options.feed_dir, 'atom_15_news.xml'))

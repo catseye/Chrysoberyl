@@ -2,9 +2,9 @@ import atomize
 import datetime
 from operator import itemgetter
 
-URL = 'http://catseye.tc/feeds/news.xml'
+URL = 'http://catseye.tc/feeds/atom_15_news.xml'
 
-def make_news_feed(data, filename):
+def make_news_feed(data, limit, filename):
     newses = []
     for key in data:
         node = data[key]
@@ -29,6 +29,9 @@ def make_news_feed(data, filename):
                              summary=atomize.Summary(n['description_html'], content_type='html'),
                              links=[atomize.Link(n['news-link'], content_type='text/html', rel='alternate')])
                for n in newses]
+
+    if len(entries) > limit:
+        entries = entries[:limit]
 
     feed = atomize.Feed(title="Cat's Eye Technologies: New Developments",
                         updated=datetime.datetime.utcnow(),

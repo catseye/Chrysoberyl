@@ -2,7 +2,7 @@
 
 {% block extra_head %}
 <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
-<script src="chrysoberyl-query.js"></script>
+<script src="../scripts/chrysoberyl-query.js"></script>
 <style>
 #results {
   background: white;
@@ -21,9 +21,11 @@
   <button id="load_button">Load data</button>
   <button id="query_button">Run query</button>
   <select name="type_selector" id="type_selector">
-    <option value="Programming Language">Programming Language</option>
-    <option value="Musical Composition">Musical Composition</option>
-    <option value="License">License</option>
+    {% for key, node in data|dictsort %}
+      {% if node.type == 'type' %}
+        <option value="{{ key }}">{{ key }}</option>
+      {% endif %}
+    {% endfor %}
   </select>
 </div>
 

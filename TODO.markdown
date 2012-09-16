@@ -10,8 +10,6 @@ with anchors, that the links in the feed match up with.
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
-Don't necessarily even make nodes for reference distributions.
-
 ### obviousity ###
 
 Call out works in progress and ideas in some more obvious way.
@@ -30,11 +28,11 @@ Chrysoberyl has a distribution.
 
 Dipple is a distribution (and implementations are in it.)
 
-Finish cleaning up demos.
-
 
 perhaps...
 ----------
+
+Don't necessarily even make nodes for reference distributions.
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
