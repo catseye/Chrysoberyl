@@ -28,6 +28,10 @@ Chrysoberyl has a distribution.
 
 Dipple is a distribution (and implementations are in it.)
 
+Javascript to expand the footer to the bottom of the page.
+
+Javascript to add class "external" to all external links.
+
 
 perhaps...
 ----------

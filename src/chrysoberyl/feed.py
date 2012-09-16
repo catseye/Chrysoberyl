@@ -2,7 +2,12 @@ import atomize
 import datetime
 from operator import itemgetter
 
+from chrysoberyl.renderer import filekey
+
 URL = 'http://catseye.tc/feeds/atom_15_news.xml'
+
+def newsnodelink(node):
+    return 'http://catseye.tc/node/%s' % filekey(node['key'])
 
 def make_news_feed(data, limit, filename):
     newses = []
@@ -27,7 +32,7 @@ def make_news_feed(data, limit, filename):
                              guid=URL + "/" + n['key'],
                              updated=n['news-date'],
                              summary=atomize.Summary(n['description_html'], content_type='html'),
-                             links=[atomize.Link(n['news-link'], content_type='text/html', rel='alternate')])
+                             links=[atomize.Link(newsnodelink(n), content_type='text/html', rel='alternate')])
                for n in newses]
 
     if len(entries) > limit:

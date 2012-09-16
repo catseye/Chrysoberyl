@@ -1,3 +1,65 @@
+"Dungeons of Ekileugor: 3,221 bytes of roguelike":
+  type: News Item
+  news-date: Sun, 16 Sep 2012 05:04:44 GMT
+  news-link: http://catseye.tc/node/Dungeons of Ekileugor.html
+  description: |
+    September 16, 2012:  Have you ever wondered how much roguelike can
+    be crammed into the 3583 bytes available to BASIC on an unexpanded
+    [[Commodore VIC-20]]?  Well wonder no more, for Dungeons of
+    Ekileugor is such a cramming.  Random dungeon level generation with
+    fairly reasonable layours of rooms and tunnels, monsters, combat with
+    hit points and experience points, queued messages, treasure, chests,
+    traps, potions — it's quite a respectable set of "dungeon furniture"
+    considering the platform, we think.  Fire up your emulator (or, bless
+    you, a real VIC-20) and try it out!
+
+"Chrysoberyl is now in ALPHA":
+  type: News Item
+  news-date: Sun, 16 Sep 2012 01:44:35 GMT
+  news-link: http://catseye.tc/node/Chrysoberyl.html
+  description: |
+    September 15, 2012:  Remember "The Great DVCS Exodus"
+    (May 20, 2012)?  (Well, if you don't, scroll down.)
+    I am happy to say that it is, for all intents and purposes,
+    complete: essentially all of our stuff is now in repositories on
+    <a class="external" href="https://bitbucket.org/catseye">Bitbucket</a>
+    and
+    <a class="external" href="https://github.com/catseye">GitHub</a>.
+    
+    And remember how I said that the role of catseye.tc might
+    change in light of this, but that I wasn't sure how?  Well, here's
+    the deal.  We have put together a database of sorts of all the
+    things Cat's Eye Technologies has produced, and many of the
+    things directly related to the things Cat's Eye Technologies has
+    produced, and how they all relate, called _Chrysoberyl_.
+    
+    I like to think of it as a sort of cross between a wiki and a semantic web
+    and _The Devil's Dictionary_.
+    It teases apart the relationships between programming languages
+    (and other intangibles), implementations (things you can
+    run), and distributions (things you can download), and casts it all in
+    a bunch of YAML files with embedded Markdown.
+    From these, a set of HTML5 pages can be generated, and lo and behold,
+    [[Chrysoberyl|these are now on the site]].
+    
+    They are, however, still in a very early stage of development.  Expect
+    the styling to change, the content to change, the structure to change,
+    links to break, and the usual sort of thing.
+    
+    This has a few implications for the rest of the site.  The Gallery Space will
+    stay more-or-less as it is for a while, but the Projects Space
+    and the "About" documents will eventually go away, and will redirect into
+    Chrysoberyl instead.  In the meantime, they will likely *not* be
+    updated to reflect the latest developments.  Look at Chrysoberyl, or our repositories
+    on Bitbucket and Github, instead, if you want to follow those.
+    
+    And, more importantly for you (if you are reading this from our RSS feed)
+    is that our RSS feed *will no longer be updated*.  This will probably
+    be the last item in it, except for an "Are you still reading this?" item when we've switched
+    entirely over to Chrysoberyl.  Instead, you will want to subscribe to
+    <a href="http://catseye.tc/feeds/atom_15_news.xml">our new Atom feed for
+    news, generated from Chrysoberyl</a>.
+
 "Cfluviurrh: an Esolang with Feeling (Literally)":
   type: News Item
   news-date: Sun, 26 Aug 2012 17:43:52 GMT
@@ -1108,4 +1170,3 @@
     distribution, and live in projects of their own.
     
     I also polished the site design a wee bit.
-    
