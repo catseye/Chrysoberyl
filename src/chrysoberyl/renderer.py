@@ -7,37 +7,7 @@ import re
 import jinja2
 import markdown
 
-
-def pathname2url(s):
-    s = re.sub('\%', '%25', s)
-    s = re.sub(' ', '%20', s)
-    s = re.sub('\"', '%22', s)
-    s = re.sub('\#', '%23', s)
-    s = re.sub('\:', '%3a', s)
-    s = re.sub('\?', '%3f', s)
-    return s
-
-
-def filekey(key):
-    key = re.sub(r'(\/|\\)', '_', key)
-    return key + ".html"
-
-
-def markdown_field(data, node, field):
-    def linker(match):
-        text = match.group(1)
-        segments = text.split('|')
-        thing = segments[0]
-        link_text = thing
-        if len(segments) > 1:
-            link_text = segments[1]
-        return '<a href="%s">%s</a>' % (pathname2url(filekey(thing)), link_text)
-    if field in node:
-        html = markdown.markdown(node[field])
-        html = re.sub(r'\[\[(.*?)\]\]', linker, html)
-        return html
-    else:
-        return None
+from chrysoberyl.transformer import filekey, pathname2url
 
 
 class Renderer(object):

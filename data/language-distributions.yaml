@@ -1015,6 +1015,9 @@ Ypsilax distribution:
   - version: "1.1"
     revision: "2011.1130"
     url: http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip
+  - version: "1.1"
+    revision: "2012.0916"
+    url: http://catseye.tc/distfiles/ypsilax-1.1-2012.0916.zip
 
 ZOWIE distribution: 
   type: Distribution

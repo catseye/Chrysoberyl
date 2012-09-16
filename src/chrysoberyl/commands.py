@@ -14,6 +14,7 @@ from chrysoberyl.loader import load_chrysoberyl_dir
 from chrysoberyl.localrepos import troll_docs, survey_repos, test_repos, get_latest_release_tag
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import convert_chrysoberyl_data, transform_dates
+from chrysoberyl.util import do_it
 
 
 def check(args, optparser):
@@ -55,9 +56,11 @@ def render(args, optparser):
     """
     optparser.add_option("--node-dir",
                          dest="node_dir", metavar='DIR',
+                         default='../catseye.tc/node',
                          help="write rendered nodes into this directory")
     optparser.add_option("--script-dir",
                          dest="script_dir", metavar='DIR',
+                         default='../catseye.tc/scripts',
                          help="write scripts into this directory")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
@@ -78,6 +81,7 @@ def announce(args, optparser):
     """
     optparser.add_option("--feed-dir",
                          dest="feed_dir", metavar='DIR',
+                         default='../catseye.tc/feeds',
                          help="write feeds into this directory")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
@@ -93,31 +97,41 @@ def release(args, optparser):
     """
     optparser.add_option("--distfiles-dir",
                          dest="distfiles_dir", metavar='DIR',
+                         default='../catseye.tc/distfiles',
                          help="write distfile into this directory")
     distro = args.pop(0)
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
     tag = get_latest_release_tag(data, distro, options.clone_dir)
     if not tag:
-        print "repository not tagged"
+        print "ERROR: repository not tagged"
         return 1
     match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
     if not match:
-        print "not a release tag: %s" % tag
+        print "ERROR: not a release tag: %s" % tag
         return 1
     v_maj = match.group(1)
     v_min = match.group(2)
     r_maj = match.group(3)
     r_min = match.group(4)
-    #tag = 'rel_%s_%s_%s_%s' % (v_maj, v_min, r_maj, r_min)
     filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
-    excludes = '-X .hgignore -X .gitignore -X .hg_archival.txt'
-    print "hg archive -t zip -r %s %s %s/%s" % (tag, excludes, options.distfiles_dir, filename)
     print """\
   - version: "%s.%s"
     revision: "%s.%s"
     url: http://catseye.tc/distfiles/%s
 """ % (v_maj, v_min, r_maj, r_min, filename)
+    full_filename = os.path.join(options.distfiles_dir, filename)
+    if os.path.exists(full_filename):
+        print "ERROR: distfile already exists: %s" % full_filename
+        do_it("unzip -v %s" % full_filename)
+        return 1
+    excludes = ' '.join(['-X %s' % x
+                         for x in ('.hgignore', '.gitignore',
+                                   '.hgtags', '.hg_archival.txt')])
+    cwd = os.getcwd()
+    os.chdir(os.path.join(options.clone_dir, distro))
+    do_it("hg archive -t zip -r %s %s %s" % (tag, excludes, full_filename))
+    os.chdir(cwd)
 
 ### helpers ###
 

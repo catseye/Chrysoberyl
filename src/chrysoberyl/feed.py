@@ -4,7 +4,7 @@ import os
 
 import atomize
 
-from chrysoberyl.renderer import filekey
+from chrysoberyl.transformer import filekey
 
 
 BASEURL = 'http://catseye.tc/feeds/'
