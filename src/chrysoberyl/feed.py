@@ -1,15 +1,17 @@
-import atomize
 import datetime
 from operator import itemgetter
+import os
+
+import atomize
 
 from chrysoberyl.renderer import filekey
 
-URL = 'http://catseye.tc/feeds/atom_15_news.xml'
 
-def newsnodelink(node):
-    return 'http://catseye.tc/node/%s' % filekey(node['key'])
+BASEURL = 'http://catseye.tc/feeds/'
 
-def make_news_feed(data, limit, filename):
+def make_news_feed(data, dir, filename, limit=None):
+    url = BASEURL + filename
+    filename = os.path.join(dir, filename)
     newses = []
     for key in data:
         node = data[key]
@@ -28,21 +30,26 @@ def make_news_feed(data, limit, filename):
         newses.append(n)
 
     newses.sort(key=itemgetter('news-date'), reverse=True)
-    entries = [atomize.Entry(title=n['key'],
-                             guid=URL + "/" + n['key'],
-                             updated=n['news-date'],
-                             summary=atomize.Summary(n['description_html'], content_type='html'),
-                             links=[atomize.Link(newsnodelink(n), content_type='text/html', rel='alternate')])
-               for n in newses]
+    entries = []
+    for n in newses:
+        title = n['key']
+        guid = url + "/" + n['key']
+        updated = n['news-date']
+        summary = atomize.Summary(n['description_html'], content_type='html')
+        nodelink = 'http://catseye.tc/node/%s' % filekey(n['key'])
+        links = [atomize.Link(nodelink, content_type='text/html', rel='alternate')]
+        entry = atomize.Entry(title=title, guid=guid, updated=updated,
+                              summary=summary, links=links)
+        entries.append(entry)
 
-    if len(entries) > limit:
+    if limit and len(entries) > limit:
         entries = entries[:limit]
 
     feed = atomize.Feed(title="Cat's Eye Technologies: New Developments",
                         updated=datetime.datetime.utcnow(),
-                        guid=URL,
+                        guid=url,
                         author='Chris Pressey',
-                        self_link=URL,
+                        self_link=url,
                         entries=entries)
 
     feed.write_file(filename)

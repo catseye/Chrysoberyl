@@ -187,6 +187,9 @@ def check_chrysoberyl_data(data):
 
       # On to checking fields specific to different types.
 
+      if type_ == 'News Item':
+          check_optional_scalar_ref(data, key, node, 'news-node')
+
       if type_ == 'Distribution':
           assert 'development-stage' not in node, \
             "%s mentions 'development-stage'" % key

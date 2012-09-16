@@ -4,9 +4,6 @@ Chrysoberyl TODO
 templates
 ---------
 
-News template, with news items inline, sorted by date, and
-with anchors, that the links in the feed match up with.
-
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
@@ -31,6 +28,16 @@ Dipple is a distribution (and implementations are in it.)
 Javascript to expand the footer to the bottom of the page.
 
 Javascript to add class "external" to all external links.
+
+news
+----
+
+News template, with news items inline, sorted by date, and
+with anchors, that the links in the feed match up with.
+
+News archive.  (Could be the News Item index, sorted by date.)
+
+News dates should be real date objects, so we can sort by them.
 
 
 perhaps...

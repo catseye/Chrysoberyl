@@ -1,7 +1,16 @@
 {% extends "base.html" %}
 
+{# so we're using this more like a dateline than a byline #}
+{% block byline %}
+  <p>{{ news_date }}</p>
+{% endblock byline %}
+
 {% block content %}
 
-<p>Check it out at <a href="{{ news_link }}">{{ news_link }}</a>.</p>
+{% if news_node %}
+  <p>Check it out at {{ link(news_node) }}</p>
+{% elif news_link %}
+  <p>Check it out at <a href="{{ news_link }}">{{ news_link }}</a></p>
+{% endif %}
 
 {% endblock content %}

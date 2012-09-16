@@ -1,13 +1,13 @@
 "Dungeons of Ekileugor: 3,221 bytes of roguelike":
   type: News Item
   news-date: Sun, 16 Sep 2012 05:04:44 GMT
-  news-link: http://catseye.tc/node/Dungeons of Ekileugor.html
+  news-node: Dungeons of Ekileugor
   description: |
     September 16, 2012:  Have you ever wondered how much roguelike can
     be crammed into the 3583 bytes available to BASIC on an unexpanded
     [[Commodore VIC-20]]?  Well wonder no more, for Dungeons of
     Ekileugor is such a cramming.  Random dungeon level generation with
-    fairly reasonable layours of rooms and tunnels, monsters, combat with
+    fairly reasonable layout of rooms and tunnels, monsters, combat with
     hit points and experience points, queued messages, treasure, chests,
     traps, potions — it's quite a respectable set of "dungeon furniture"
     considering the platform, we think.  Fire up your emulator (or, bless
@@ -675,7 +675,7 @@
   description: |
     September 1, 2010:  I could have just explained to Gregor
     why he was mistaken, but _noooo_,
-    I had to go and design an entire _language_;
+    I had to go and design an entire _language_
     to make my point.  And I had to go and name it
     "Eightebed", too!
     

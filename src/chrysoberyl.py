@@ -125,5 +125,8 @@ if __name__ == '__main__':
         for filename in ['chrysoberyl-query.js']:
             shutil.copy(os.path.join('static', filename),
                         options.script_dir)
-        make_news_feed(data, 15,
-                       os.path.join(options.feed_dir, 'atom_15_news.xml'))
+      
+    if options.feed_dir:
+        make_news_feed(data, options.feed_dir, 'atom_15_news.xml', limit=15)
+        make_news_feed(data, options.feed_dir, 'atom_30_news.xml', limit=30)
+        make_news_feed(data, options.feed_dir, 'atom_all_news.xml')
