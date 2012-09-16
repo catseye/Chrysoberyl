@@ -111,6 +111,43 @@ Bubble Escape distribution:
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
 
 
+Dungeons of Ekileugor:
+  type: Game
+  genre: Roguelike
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Aug 2012
+  development-stage: mature
+  description: |
+    A roguelike written for the [[Commodore VIC-20]], which, despite the
+    limitations of that platform, supports a respectable set of the usual
+    "dungeon furniture": reasonably generated dungeon levels with tunnels
+    and rooms whose contents are hidden until you enter, tunnels, monsters,
+    treasure, potions, traps, chests, combat with experience points, etc.
+
+Dungeons of Ekileugor (BASIC):
+  type: Implementation
+  implementation-of:
+  - Dungeons of Ekileugor
+  in-distribution: 'Dungeons of Ekileugor distribution'
+  license: Freely Redistributable
+  host-language: Commodore BASIC 2.0
+  host-platform: Commodore VIC-20
+  controls: keyboard
+
+Dungeons of Ekileugor distribution: 
+  type: Distribution
+  bitbucket: catseye/dungeons-of-ekileugor
+  github: catseye/Dungeons-of-Ekileugor
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "2012.0915"
+    url: http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2012.0915.zip
+
+
 Super Wumpus Land:
   type: Game
   # also Text Adventure, sort of

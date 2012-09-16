@@ -26,13 +26,13 @@
 {% block content %}
 
 <ul>
-{% for thing in data.keys()|sort %}
-  {% if data[thing].type == key %}
+{%- for thing in data.keys()|sort -%}
+  {%- if data[thing].type == key -%}
     <li>
       {{ link(thing) }}
     </li>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
 
 {% endblock content %}

@@ -28,39 +28,6 @@ Beseige:
     around the Y2K bug, after 2000, the impetus to finish it kind of wore off.
 
 
-Dungeons of Ekileugor:
-  type: Game
-  genre: Roguelike
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: Aug 2012
-  development-stage: work in progress
-  description: |
-    A roguelike written for the Commodore VIC 20, which, despite the limitations
-    of that platform, aims to support more of the "dungeon furniture" we've come
-    to expect from such a game: rooms, tunnels, monsters, treasure, weapons,
-    armor, etc.
-
-Dungeons of Ekileugor (BASIC):
-  type: Implementation
-  implementation-of:
-  - Dungeons of Ekileugor
-  in-distribution: 'Dungeons of Ekileugor distribution'
-  license: Unknown license
-  host-language: Commodore BASIC 2.0
-  host-platform: VIC 20
-  controls: keyboard
-
-Dungeons of Ekileugor distribution: 
-  type: Distribution
-  bitbucket: catseye/dungeons-of-ekileugor
-  github: catseye/Dungeons-of-Ekileugor
-  issue-tracker: github
-  releases: []
-
-
 Nukeball:
   type: Game
   genre: Puzzle
