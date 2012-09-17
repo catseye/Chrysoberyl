@@ -306,8 +306,9 @@ hugs:
   implementation-of:
   - Haskell
   implementation-type: interpreter
-  host-language: Unknown language
-  license: Unknown license
+  host-language: C99
+  # http://cvs.haskell.org/Hugs/pages/users_guide/license.html
+  license: BSD license
   prebuilt-for-platforms:
   - native code
   links:
@@ -797,7 +798,7 @@ plt-r5rs:
   implementation-of:
   - Scheme
   implementation-type: interpreter
-  host-language: Unknown language
+  host-language: C99
   license: LGPL
   generally-recommended: true
   prebuilt-for-platforms:

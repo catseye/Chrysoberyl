@@ -4,7 +4,7 @@ Chris Pressey's Lingography:
   domain: Chris Pressey
   description: |
     (What is a "lingography", you ask?  Well, if bands have
-    _disc_ographies and directors have _film_ographies...)
+    _disc_-ographies and directors have _film_-ographies...)
     
     This is a list, given in approximate chronological order, of the languages
     I've designed and/or implemented.
@@ -18,13 +18,13 @@ Chris Pressey's Lingography:
     At the bottom there is also a list of languages that I've implemented,
     but which were designed by someone else.
     
-    You may also be interested in reading about what it was like to design these
-    and/or the ones that got away.  And,
+    You may also be interested in reading about
+    [[Retrospective: Chris Pressey on Language Design|what it was like to design these]]
+    and/or
+    [[LoUIE|the ones that got away]].  And,
     since the distinction between languages and games is not always that clear,
     you may also be interested in the (much less voluminous)
-    list of games I've designed and implemented.
-  see-also:
-  - Games by Chris Pressey
+    [[Games by Chris Pressey|list of games I've designed and implemented]].
 
 Games by Chris Pressey:
   type: Collection

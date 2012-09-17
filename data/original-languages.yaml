@@ -1893,14 +1893,10 @@ Maentwrog:
   - place name
   - welsh
   sample: |-
-    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
-    GO 1 3 CLREOL
-    PAUSE 70
-    GO 76 19
-    PRINT "0"
-    PAUSE 20
-    DO 20
-        LF PRINT " " LF LF PRINT "0" PAUSE 5;
+    *a *b *c
+    0 =a 1 =b
+    : fib a b + =c c . b =a c =b c 100000 < @fib ;
+    1 . fib
   authors:
   - Chris Pressey
   inception-date: ca 1993

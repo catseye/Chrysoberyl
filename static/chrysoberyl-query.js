@@ -70,6 +70,4 @@ $(window).load(function() {
     selected_author = $('#author_selector option:selected').text();
     run_query();
   });
-  
-  draw_chart();
 });

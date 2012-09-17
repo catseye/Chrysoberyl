@@ -11,6 +11,15 @@ Function to test local repos.
 templates
 ---------
 
+"It is distributed in the Flobnar distribution and it is distributed
+under the BSD license" sounds awful.
+ 
+In implementable, Implementations should be next to reference distribution
++ should show which implementations are reference (in lingography too)
+
+Actually, in lingography, be more terse.  "Implementations include
+the reference interpreter blah.c and the compiler blah.boo" should be fine.
+
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
@@ -33,6 +42,8 @@ Show status of / don't prominently link to discontinued distributions.
 
 content
 -------
+
+css for h3 ?
 
 Clean up Concepts category.
 
