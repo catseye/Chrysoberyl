@@ -15,10 +15,11 @@
 
 {% if reference_distribution %}
   <section id="reference_distribution">
-    <h2>Reference distribution</h2>
-    <p>{{ link(reference_distribution) }}</p>
-    {% set dist_key=ref_dist() %}
-    {% include "include/distribution.html" %}
+    <h2>Reference distribution: {{ link(reference_distribution) }}</h2>
+    <div>
+      {% set dist_key=ref_dist() %}
+      {% include "include/distribution.html" %}
+    </div>
   </section>
 {% elif standards_body %}
   <h2>Defined by</h2>
