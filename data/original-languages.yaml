@@ -3480,6 +3480,42 @@ tc.catseye.yoob.ypsilax:
   host-platform: yoob
 
 
+Zame:
+  # hmm... well, no.  but for now, yes.
+  # technically a family.
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  # kind of...
+  - Maze-space-rewriting
+  variant-of: Etcha
+  description: |
+    Zame is an automaton which uses the solution of a maze to
+    generate an [[Etcha]] program which draws a new maze, then
+    the process repeats.  An open question is to find a maze for which
+    this process repeats indefinitely.
+    
+    Information on this language is only available on the Esowiki for now.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  esowiki: Zame
+  inception-date: Jan 2009
+  development-stage: not fully complete
+  sample: |
+    #########
+    # #     #
+    # # # ###
+    #   #   #
+    ### # # #
+    #   # # #
+    #########
+  computational-class: unknown computational class
+  unusual-computability-properties: true
+  specification-link: esowiki
+
+
 ZOWIE:
   type: Programming Language
   genre: Esolang

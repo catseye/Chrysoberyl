@@ -5,13 +5,11 @@
 <h2>All nodes of genre "{{ key }}"</h2>
 
 <ul>
-{%- for thing in data.keys()|sort -%}
-  {%- if data[thing].genre == key -%}
-    <li>
-      <a href="{{ filekey(thing) }}">{{ thing }}</a>
-    </li>
-  {%- endif -%}
-{%- endfor -%}
+{% for thing in related('genre')|sort %}
+  <li>
+    <a href="{{ filekey(thing) }}">{{ thing }}</a>
+  </li>
+{% endfor %}
 </ul>
 
 {% endblock content %}

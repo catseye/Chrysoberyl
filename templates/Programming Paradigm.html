@@ -5,13 +5,10 @@
 <h2>All Programming Languages with paradigm "{{ key }}"</h2>
 
 <ul>
-{% for thing in data.keys()|sort %}
-  {% if data[thing].type == 'Programming Language' and
-        key in data[thing].paradigms %}
+{% for thing in related('paradigms')|sort %}
     <li>
       <a href="{{ filekey(thing) }}">{{ thing }}</a>
     </li>
-  {% endif %}
 {% endfor %}
 </ul>
 
