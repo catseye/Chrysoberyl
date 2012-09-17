@@ -82,6 +82,7 @@ VICE:
   implementation-of:
   - Commodore 64
   - Commodore VIC-20
+  - Commodore BASIC 2.0
   implementation-type: emulator
   prebuilt-for-platforms:
   - native code

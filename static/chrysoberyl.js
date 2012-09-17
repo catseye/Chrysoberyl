@@ -29,42 +29,21 @@ function add_class_to_external_links(css_class, local_url_prefix) {
 }
 
 /*
- * Given a block element specifier, expand it do that the height of
+ * Given a block element specifier, expand it so that the height of
  * the body matches the height of the displayed page.
  * This is aesthetically nice for pushing footers down to the bottom of the
  * page, on short pages.
+ * This is designed to only be run once, at window load time, because as
+ * they say, browser resizing is a developer activity.
  */
-var initial_element_height = 0;
 function expand_element(element) {
-  if (initial_element_height == 0) {
-    initial_element_height = $(element).height();
-  }
-  var extra_room = $(document).height() - $('body').height();
+  var extra_room = $(window).height() - $('body').height();
   if (extra_room > 0) {
-    $(element).height(initial_element_height + extra_room);
+    $(element).height($(element).height() + extra_room);
   }
 }
-
-/*
- * Given a function and a delay in milliseconds, run the function after
- * that many milliseconds, but *only* if this function has not been called
- * before that time.
- */
-var hysteresis = function(fun, delay) {
-  var executionTimer;
-  return function() {
-    if (!!executionTimer) {
-      clearTimeout(executionTimer);
-    }
-    executionTimer = setTimeout(fun, delay);
-  };
-}();
 
 $(window).load(function() {
   add_class_to_external_links('external', "http://catseye.tc");
   expand_element('article');
-});
-
-$(window).resize(function() {
-  hysteresis(function() { expand_element('article'); }, 200);
 });

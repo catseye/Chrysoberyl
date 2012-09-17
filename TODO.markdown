@@ -25,12 +25,6 @@ how you would build it if you want to.
 
 Render sample-output and sample-credit.
 
-Position the "download" link on distributions better.  Maybe put
-github/bb and older releases right under it.
-
-An implementation can be a recommended implementation even
-if it implements many things (eg VICE for VIC-20).  Solve.
-
 ### obviousity ###
 
 Call out works in progress and ideas in some more obvious way.
@@ -42,6 +36,10 @@ Show status of / don't prominently link to discontinued distributions.
 
 content
 -------
+
+Use chosen in the query page.
+
+stringie?
 
 Clean up Concepts category.
 
