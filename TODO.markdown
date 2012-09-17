@@ -1,6 +1,13 @@
 Chrysoberyl TODO
 ================
 
+tool
+----
+
+Function to check broken links.
+
+Function to test local repos.
+
 templates
 ---------
 
@@ -8,6 +15,12 @@ When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
 Render sample-output and sample-credit.
+
+Position the "download" link on distributions better.  Maybe put
+github/bb and older releases right under it.
+
+An implementation can be a recommended implementation even
+if it implements many things (eg VICE for VIC-20).  Solve.
 
 ### obviousity ###
 
