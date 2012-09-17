@@ -43,8 +43,6 @@ Show status of / don't prominently link to discontinued distributions.
 content
 -------
 
-css for h3 ?
-
 Clean up Concepts category.
 
 Chrysoberyl has a distribution.
@@ -52,8 +50,6 @@ Chrysoberyl has a distribution.
 Dipple is a distribution (and implementations are in it.)
 
 Javascript to expand the footer to the bottom of the page.
-
-Javascript to add class "external" to all external links.
 
 news
 ----

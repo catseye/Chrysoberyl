@@ -70,7 +70,7 @@ def render(args, optparser):
     convert_chrysoberyl_data(data)
     r = Renderer(data, 'templates', options.node_dir)
     r.render_chrysoberyl_data()
-    for filename in ['chrysoberyl-query.js']:
+    for filename in ['chrysoberyl.js', 'chrysoberyl-query.js']:
         shutil.copy(os.path.join('static', filename),
                     options.script_dir)
 
