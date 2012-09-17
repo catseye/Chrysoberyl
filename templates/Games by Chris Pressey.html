@@ -6,10 +6,10 @@
 <h3>Games I've Designed</h3>
 
 <ul>
-{% for thing in data|sort %}
-  {% if data[thing].type == 'Game' and
+{%- for thing in data|sort -%}
+  {%- if data[thing].type == 'Game' and
         'Chris Pressey' in data[thing].authors and
-        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
     <li>
       <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
 
@@ -33,8 +33,8 @@
         </p>
       {% endif %}
     </li>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
 
 <h3>Games I've Implemented</h3>

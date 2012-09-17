@@ -4,7 +4,7 @@ import os
 
 import atomize
 
-from chrysoberyl.transformer import filekey, markdown_field
+from chrysoberyl.transformer import filekey, markdown_field, pathname2url
 
 
 BASEURL = 'http://catseye.tc/feeds/'
@@ -40,7 +40,8 @@ def make_news_feed(data, dir, filename, limit=None):
         guid = url + "/" + n['key']
         updated = n['news-date']
         summary = atomize.Summary(n['description_html'], content_type='html')
-        nodelink = 'http://catseye.tc/node/%s' % filekey(n['key'])
+        nodelink = pathname2url(filekey(n['key']),
+                                prefix='http://catseye.tc/node/')
         links = [atomize.Link(nodelink, content_type='text/html', rel='alternate')]
         entry = atomize.Entry(title=title, guid=guid, updated=updated,
                               summary=summary, links=links)

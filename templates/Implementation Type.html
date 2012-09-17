@@ -5,13 +5,10 @@
 <h2>All implementations of type "{{ key }}"</h2>
 
 <ul>
-{% for thing in data.keys()|sort %}
-  {% if data[thing].type == 'Implementation' and
-        data[thing].implementation_type == key %}
-    <li>
-      <a href="{{ filekey(thing) }}">{{ thing }}</a>
-    </li>
-  {% endif %}
+{% for thing in related('implementation-type')|sort %}
+  <li>
+    <a href="{{ filekey(thing) }}">{{ thing }}</a>
+  </li>
 {% endfor %}
 </ul>
 
