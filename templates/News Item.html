@@ -7,9 +7,7 @@
 
 {% block content %}
 
-{% if news_node %}
-  <p>Check it out at {{ link(news_node) }}</p>
-{% elif news_link %}
+{% if news_link %}
   <p>Check it out at <a href="{{ news_link }}">{{ news_link }}</a></p>
 {% endif %}
 

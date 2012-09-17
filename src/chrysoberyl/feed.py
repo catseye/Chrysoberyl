@@ -4,7 +4,7 @@ import os
 
 import atomize
 
-from chrysoberyl.transformer import filekey
+from chrysoberyl.transformer import filekey, markdown_field
 
 
 BASEURL = 'http://catseye.tc/feeds/'
@@ -25,8 +25,12 @@ def make_news_feed(data, dir, filename, limit=None):
         n.update(node)
         n['key'] = key
         n['news-date'] = news_date
-        n['description_html'] = \
-            n['description_html'].encode("ascii", "xmlcharrefreplace") 
+        for field_name in ('description', 'commentary'):
+            field = markdown_field(data, node, field_name,
+                                   prefix='http://catseye.tc/node/')
+            if field is not None:
+                n[field_name + '_html'] = field.encode("ascii",
+                                                       "xmlcharrefreplace")
         newses.append(n)
 
     newses.sort(key=itemgetter('news-date'), reverse=True)

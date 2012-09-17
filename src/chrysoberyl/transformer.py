@@ -12,17 +12,19 @@ def filekey(key):
     return key + ".html"
 
 
-def pathname2url(s):
+def pathname2url(s, prefix=None):
     s = re.sub('\%', '%25', s)
     s = re.sub(' ', '%20', s)
     s = re.sub('\"', '%22', s)
     s = re.sub('\#', '%23', s)
     s = re.sub('\:', '%3a', s)
     s = re.sub('\?', '%3f', s)
+    if prefix:
+        return prefix + s
     return s
 
 
-def markdown_field(data, node, field):
+def markdown_field(data, node, field, prefix=None):
     def linker(match):
         text = match.group(1)
         segments = text.split('|')
@@ -30,7 +32,9 @@ def markdown_field(data, node, field):
         link_text = thing
         if len(segments) > 1:
             link_text = segments[1]
-        return '<a href="%s">%s</a>' % (pathname2url(filekey(thing)), link_text)
+        return '<a href="%s">%s</a>' % (
+            pathname2url(filekey(thing), prefix=prefix), link_text
+        )
     if field in node:
         html = markdown.markdown(node[field])
         html = re.sub(r'\[\[(.*?)\]\]', linker, html)
@@ -49,7 +53,7 @@ def convert_chrysoberyl_data(data):
         for field in node.keys():
             new_fields[field.replace('-', '_')] = node[field]
         node.update(new_fields)
-        for field in ('description', 'commentary', 'as_a_prerequisite'):
+        for field in ('description', 'commentary'):
             node[field + '_html'] = markdown_field(data, node, field)
         if 'sample' in node:
             node['sample_html'] = markdown.markdown(

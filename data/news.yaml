@@ -1,12 +1,11 @@
 "Dungeons of Ekileugor: 3,221 bytes of roguelike":
   type: News Item
   news-date: Sun, 16 Sep 2012 05:04:44 GMT
-  news-node: Dungeons of Ekileugor
   description: |
     September 16, 2012:  Have you ever wondered how much roguelike can
     be crammed into the 3583 bytes available to BASIC on an unexpanded
-    [[Commodore VIC-20]]?  Well wonder no more, for Dungeons of
-    Ekileugor is such a cramming.  Random dungeon level generation with
+    [[Commodore VIC-20]]?  Well wonder no more, for [[Dungeons of Ekileugor]]
+    is such a cramming.  Random dungeon level generation with
     fairly reasonable layout of rooms and tunnels, monsters, combat with
     hit points and experience points, queued messages, treasure, chests,
     traps, potions — it's quite a respectable set of "dungeon furniture"
