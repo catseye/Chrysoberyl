@@ -1,8 +1,10 @@
 # encoding: UTF-8
 type:
   type: type
-Metadata:
+
+Metanode:
   type: type
+
 Concept:
   type: type
 Article:
@@ -30,6 +32,8 @@ Language Construct:
 Mathematical Object:
   type: type
 Book:
+  type: type
+Website:
   type: type
 Conlang:
   type: type
@@ -112,4 +116,6 @@ Musical Notation:
 Electronics Project:
   type: type
 Demo:
+  type: type
+Database:
   type: type

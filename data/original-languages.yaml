@@ -1197,6 +1197,16 @@ Gemooy:
       @     @#@
   specification-link: esowiki
 
+gemooy.js:
+  type: Implementation
+  implementation-of:
+  - Gemooy
+  in-distribution: Gemooy distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: HTML5
+
 tc.catseye.yoob.gemooy:
   type: Implementation
   implementation-of:

@@ -428,7 +428,8 @@ Javascript:
         good chance that the script they're being asked about won't get
         written.
 
-# XXX implementation of Javascript.  "Just use your browser!"?
+# XXX implementation of Javascript.  I could add web browsers
+# to Chrysoberyl.  But I don't care.
 
 
 Lua:
@@ -589,6 +590,23 @@ PHP:
     (include\_path='.:/usr/local/share/pear') in
     **/internal/directory/structure/home/website/include/oh\_drat.php** on
     line **444**
+
+
+Plankalkül:
+  type: Programming Language
+  genre: Experimental language
+  paradigms: []
+  computational-class: unknown computational class
+  # actually I'm sure there are quite  specifications out there now
+  no-specification: true
+  authors:
+  - Konrad Zuse
+  development-stage: vintage
+  links:
+  - 'http://catseye.tc/gallery/languages/plankalkuel/'
+  commentary: |
+    Actually I'm sure there's a quite good specification somewhere out
+    there nowadays.
 
 
 Python:

@@ -314,6 +314,13 @@ Funge-98 distribution:
     revision: "2004.0301"
     url: http://catseye.tc/distfiles/funge98-2004.0301.zip
 
+Gemooy distribution: 
+  type: Distribution
+  github: catseye/Gemooy
+  bitbucket: catseye/gemooy
+  issue-tracker: github
+  releases: []
+
 GraNoLa/M distribution: 
   type: Distribution
   bitbucket: catseye/granola-m

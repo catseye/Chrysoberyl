@@ -207,7 +207,7 @@ def check_chrysoberyl_data(data):
           check_list_ref(data, key, node, 'distribution-of',
                          types=('Programming Language', 'Programming Language Family',
                                 'Game', 'Tool', 'Library', 'Electronics Project',
-                                'Demo', 'Conlang', 'Platform'))
+                                'Demo', 'Conlang', 'Platform', 'Database'))
           check_optional_list_ref(data, key, node, 'test-requirements',
                                   types=('Programming Language', 'Tool'))
 

@@ -8,6 +8,7 @@ Linux:
   native-language: x86 machine code
   other-languages: []
 
+
 Cygwin:
   type: Implementation
   # WELL SORRRT OF
@@ -35,7 +36,7 @@ Cygwin:
     you have to use it through a console window, of the kind provided by
     Windows for running Command Prompt. The editing capabilities and general
     usability of this console window are just short of atrocious.
-    
+        
     Fortunately, on modern Windowses, you're not stuck with this: you can
     make Cygwin use a PowerShell window. While not paradise, it's not quite
     as frustrating to use. Here's how to set it up:
@@ -53,13 +54,17 @@ Cygwin:
     4.  Probably you should rename your shortcut "Cygwin Powershell" or
         something, to minimize confusion.
     5.  Double-click your new shortcut. It should totally just work.
+    
+    (Update: recent versions of Cygwin come with a new dedicated Cygwin
+    terminal, which is much less atrocious than the default Windows console.
+    Still, the PowerShell has properties which may prove attractive -- not least
+    of which is its awesome, awesome name.)
 
 
 MacOS:
   type: Platform
   standards-body: http://apple.com/
   development-stage: mature
-  # \o/
   native-language: x86 machine code
   # I dunno, applescript maybe?
   other-languages: []
@@ -134,7 +139,6 @@ Windows:
   type: Platform
   standards-body: http://microsoft.com/
   development-stage: mature
-  # \o/
   native-language: x86 machine code
   other-languages:
   - VBScript
@@ -158,3 +162,15 @@ VBScript:
   paradigms:
   - Object-oriented
   authors: []
+
+
+HTML5:
+  type: Platform
+  # this'll do, for now
+  specification-link: http://dev.w3.org/html5/spec/single-page.html
+  # and let's be quite honest
+  development-stage: work in progress
+  # errr... close enough
+  native-language: Javascript
+  # there ARE others, but I don't care.
+  other-languages: []

@@ -73,7 +73,7 @@ def troll_docs(data, clone_dir, data_dir):
     
     docdata = {
         'Documentation Index': {
-            'type': 'Metadata',
+            'type': 'Metanode',
             'entries': docdict,
         }
     }

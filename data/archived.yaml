@@ -175,17 +175,17 @@ noise:
   auspices:
   - Cat's Eye Technologies
 
-# also in dipple
 noise (Perl):
   type: Implementation
   implementation-of:
   - noise
-  in-distribution: noise distribution
   license: BSD license
   host-language: Perl
+  in-distribution: The Dipple
 
 noise distribution: 
   type: Distribution
+  discontinued: true
   releases: 
   - version: "1.0"
     revision: "2001.0622"

@@ -8,6 +8,18 @@ Function to check broken links.
 
 Function to test local repos.
 
+metanodes
+---------
+
+Improve query.
+
+Use chosen in the query page.
+
+structure
+---------
+
+`in-distributions`, a list.
+
 templates
 ---------
 
@@ -37,15 +49,7 @@ Show status of / don't prominently link to discontinued distributions.
 content
 -------
 
-Use chosen in the query page.
-
-stringie?
-
-Clean up Concepts category.
-
-Chrysoberyl has a distribution.
-
-Dipple is a distribution (and implementations are in it.)
+Link Chrysoberyl to Chrysoberyl distribution somehow.
 
 news
 ----

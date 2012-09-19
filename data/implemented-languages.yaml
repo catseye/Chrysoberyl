@@ -241,7 +241,7 @@ Underload:
   paradigms:
   - Stack-based
   authors:
-  - Alex Smith (ais523)
+  - ais523
   computational-class: believed Turing-complete
   esowiki: Underload
   specification-link: esowiki
@@ -266,7 +266,7 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  # locate this in the esolangs archive
+  download-link: http://esoteric.voxelperfect.net/svn/esofiles/underload/impl/stringie.c
 
 
 VALGOL:
@@ -298,7 +298,7 @@ valgol.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  # locate this in the dipple
+  in-distribution: The Dipple
 
 
 # ----------------------------- yoob ---------------------------
@@ -342,7 +342,7 @@ Backflip:
   - 2-dimensional
   genre: Esolang
   authors:
-  - Alex Smith (ais523)
+  - ais523
   esowiki: Backflip
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
@@ -374,7 +374,7 @@ Black:
   paradigms:
   - 2-dimensional
   authors:
-  - Alex Smith (ais523)
+  - ais523
   esowiki: Black
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
@@ -407,7 +407,7 @@ LNUSP:
   - Imperative
   - 2-dimensional
   authors:
-  - Zzo38
+  - zzo38
   esowiki: LNUSP
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
@@ -646,7 +646,7 @@ tc.catseye.yoob.snusp:
   - Imperative
   - 2-dimensional
   authors:
-  - Zzo38
+  - zzo38
   esowiki: 2-ill
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'

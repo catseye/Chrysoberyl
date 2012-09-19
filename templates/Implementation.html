@@ -79,6 +79,13 @@
 {% endblock description %}
 
 {% block content %}
+  {% if download_link %}
+    <section id="download">
+      <h2>Download</h2>
+      <p><a class="download" href="{{ download_link }}">{{ download_link }}</a></p>
+    </section>
+  {% endif %}
+
   <h2>Dependencies</h2>
 
   {% set impl_key=key %}

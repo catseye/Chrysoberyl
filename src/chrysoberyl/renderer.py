@@ -210,7 +210,5 @@ class Renderer(object):
         for key in self.data:
             count += 1
             node = self.data[key]
-            if node['type'] == 'Metadata':
-                continue
             self.render_node(key, node)
         print "%d files written." % count
