@@ -35,8 +35,11 @@ Computer Battlegames:
   genre: Programming
   inception-date: ca 1983
   copies-owned: 1
-  authors: []
+  authors:
+  - Daniel Isaaman
+  - Jenny Tyler
   publisher: Usborne
+  isbn: 0-86020-685-8
   commentary: |
     Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
 
@@ -47,6 +50,10 @@ Computer Spacegames:
   copies-owned: 1
   authors: []
   publisher: Usborne
+  authors:
+  - Daniel Isaaman
+  - Jenny Tyler
+  isbn: 0-86020-683-1
   commentary: |
     Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
 

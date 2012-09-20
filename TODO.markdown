@@ -23,6 +23,8 @@ structure
 templates
 ---------
 
+Nodes with blank article cause footer to be pushed down below viewable area.
+
 "It is distributed in the Flobnar distribution and it is distributed
 under the BSD license" sounds awful.
  

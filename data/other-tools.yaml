@@ -36,7 +36,7 @@ Borland C++ compiler:
     
     Note that there are no projects at Cat's Eye Technologies that strictly
     require Borland C++ anymore; they've all been converted to use portable
-    features (such as [[ANSI Terminal]] control codes and should
+    features (such as [[ANSI Terminal]] control codes) and should
     be quite buildable with any conforming [[C99]] compiler.
     
     Note also that there are no projects at Cat's Eye Technologies that have
