@@ -53,7 +53,7 @@ def troll_docs(data, clone_dir, data_dir):
     docdict = {}
 
     def troll_repo(distribution, repo):
-        if distribution in ('pibfi distribution',):
+        if data[distribution].get('skip-docs', False):
             print "#!! Skipping %s" % distribution
             return
         docs = []

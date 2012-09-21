@@ -97,6 +97,10 @@ Documentation Index:
     - doc/flip.html
     Flobnar distribution:
     - README.markdown
+    Gemooy distribution:
+    - README.markdown
+    - UNLICENSE
+    - html/gemooy.html
     GraNoLa/M distribution:
     - granolam.txt
     HUNTER distribution:
@@ -161,17 +165,6 @@ Documentation Index:
     - dialect/README.markdown
     - dialect/P-Normal.markdown
     - dialect/Crabwell.markdown
-    - tests/config/Pixley-as-Pixley^3.markdown
-    - tests/config/Pixley-as-Pixley^2.markdown
-    - tests/config/Pixley-as-Pixley.markdown
-    - tests/config/Pifxley-as-Pifxley.markdown
-    - tests/config/Pixley-as-Scheme.markdown
-    - tests/config/Pifxley-as-Scheme.markdown
-    - tests/config/Pixley-on-Pifxley.markdown
-    - tests/config/Pixley-as-Pixley^4.markdown
-    - tests/config/Crabwell-as-Crabwell.markdown
-    - tests/config/Pixley-on-P-Normal-Pixley.markdown
-    - tests/config/Pixley-on-Crabwell.markdown
     - doc/Pixley.markdown
     Pophery distribution:
     - README.markdown
@@ -238,6 +231,7 @@ Documentation Index:
     - README.markdown
     - UNLICENSE
     SMITH distribution:
+    - LICENSE
     - README.markdown
     Sally distribution:
     - LICENSE

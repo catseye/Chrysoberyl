@@ -21,6 +21,7 @@ Chrysoberyl distribution:
   bitbucket: catseye/chrysoberyl
   issue-tracker: github
   releases: []
+  skip-docs: true
 
 
 The Dipple: 
@@ -37,3 +38,4 @@ The Dipple:
   - noise
   - VALGOL
   # and others
+  skip-docs: true
