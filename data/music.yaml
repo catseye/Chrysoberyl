@@ -20,6 +20,12 @@ DMCS:
   authors: []
   paradigms: []
 
+Noisetracker MOD:
+  type: Musical Notation
+  no-specification: true
+  authors: []
+  paradigms: []
+
 MED:
   type: Musical Notation
   no-specification: true
@@ -30,6 +36,7 @@ xmp:
   type: Implementation
   implementation-of:
   - MED
+  - Noisetracker MOD
   # probably C99
   host-language: Unknown language
   license: GPL
@@ -44,6 +51,13 @@ JV-30:
   type: Musical Instrument
   description: |
     The Yamaha JV-30 synthesizer.
+
+TiMidity++:
+  type: Tool
+  no-specification: true
+  description: |
+    What some of the MIDI files were rendered with (using `freepats` soundfont.)
+  development-stage: mature
 
 Cakewalk:
   type: Tool
@@ -292,6 +306,113 @@ Autumn Kiss (mp3):
   - "http://catseye.tc/music/Chris Pressey - Autumn Kiss.mp3"
 
 
+Drat:
+  type: Musical Composition
+  genre: Experimental music
+  inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: MED
+  authors:
+  - Chris Pressey
+  commentary: |
+    Experimental Angry Music!  Contains, I believe, two samples of my own voice.
+
+Drat (mp3):
+  type: Implementation
+  implementation-of:
+  - Drat
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Drat.mp3"
+
+
+Go(Figure):
+  type: Musical Composition
+  genre: Jazz fusion
+  inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
+  authors:
+  - Chris Pressey
+  commentary: |
+    One of my favourites.  Originally done up in MED (a somewhat techno-ier
+    rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
+    version ends with a percussion outro, as does [[You Drive Me Wild]]
+    (it seemed as good a way as any to end a song.)
+
+Go(Figure) (MED):
+  type: Implementation
+  implementation-of:
+  - Go(Figure)
+  host-language: MED
+  license: Freely Redistributable
+
+Go(Figure) (MED) (mp3):
+  type: Implementation
+  implementation-of:
+  - Go(Figure)
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Go(Figure) (MED version).mp3"
+
+Go(Figure) (JV-30) (mp3):
+  type: Implementation
+  implementation-of:
+  - Go(Figure)
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Go(Figure).mp3"
+
+
+Panic:
+  type: Musical Composition
+  genre: Dance
+  inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: MED
+  authors:
+  - Chris Pressey
+  commentary: |
+    Experimental strange dance music with lots of samples.  Samples on the general
+    theme of panicking.
+
+Panic (mp3):
+  type: Implementation
+  implementation-of:
+  - Panic
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Panic.mp3"
+
+
+Popcornish:
+  type: Musical Composition
+  genre: Dance
+  inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: Noisetracker MOD
+  authors:
+  - Chris Pressey
+  commentary: |
+    I think either this or [[Technodixie]] was my first try working with Amiga music modules.
+    This is very similar to stuff I was put together on a drum machine when I attended an
+    electronic music camp, probably the year earlier.  But no, it's actually not a lot like
+    Popcorn (by Hot Butter).
+
+Popcornish (mp3):
+  type: Implementation
+  implementation-of:
+  - Popcornish
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Popcornish.mp3"
+
+
 Rainbird:
   type: Musical Composition
   genre: Pop ballad
@@ -385,6 +506,28 @@ Retrograde (mp3):
   - "http://catseye.tc/music/Chris Pressey - Retrograde.mp3"
 
 
+Technodixie:
+  type: Musical Composition
+  genre: Dance
+  inception-date: ca 1992
+  composed-on: Amiga 500
+  using-software: Noisetracker MOD
+  authors:
+  - Chris Pressey
+  commentary: |
+    I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
+    very techno nor very dixie -- well, if it is dixie, it's, like, Hooked on Dixie.
+
+Technodixie (mp3):
+  type: Implementation
+  implementation-of:
+  - Technodixie
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Technodixie.mp3"
+
+
 You Drive Me Wild:
   type: Musical Composition
   genre: Pop
@@ -417,31 +560,22 @@ You Drive Me Wild (mp3):
   - "http://catseye.tc/music/Chris Pressey - You Drive Me Wild.mp3"
 
 
-Go(Figure):
-  # MED now lost, but re-done up on Cakewalk w/JV30
-  type: Musical Composition
-  genre: Jazz fusion
-  inception-date: ca 1992
-  composed-on: JV-30
-  using-software: Cakewalk
-  authors:
-  - Chris Pressey
-  commentary: |
-    One of my favourites.  Ends with a percussion solo, as does [[You Drive Me Wild]].
-
-Go(Figure) (mp3):
-  type: Implementation
-  implementation-of:
-  - Go(Figure)
-  host-language: mp3
-  license: Freely Redistributable
-  links:
-  - "http://catseye.tc/music/Chris Pressey - Go(Figure).mp3"
+# ... lost ones ... 
 
 
 Osborne Village:
   type: Musical Composition
   genre: Jazz fusion
+  inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: MED
+  development-stage: lost
+  authors:
+  - Chris Pressey
+
+So Fast and Easy:
+  type: Musical Composition
+  genre: Experimental music
   inception-date: ca 1994
   composed-on: Amiga 500
   using-software: MED
@@ -485,6 +619,27 @@ Birdwatching:
   using-software: DMCS
   authors:
   - Chris Pressey
+  commentary: |
+    I think I remember composing the theme to this on an electric piano at a friend's
+    house after pulling an all-nighter.  It was supposed to be a very mellow tune
+    (originally, at least,) which was a bit difficult to capture in an Amiga music module
+    (I apologize for the harshness of the saxophone sample.)
+
+Birdwatching (MED):
+  type: Implementation
+  implementation-of:
+  - Birdwatching
+  host-language: MED
+  license: Freely Redistributable
+
+Birdwatching (MED) (mp3):
+  type: Implementation
+  implementation-of:
+  - Birdwatching
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Birdwatching (MED version).mp3"
 
 Radiance:
   type: Musical Composition

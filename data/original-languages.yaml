@@ -1692,7 +1692,7 @@ Jolverine:
   influences:
   - Wunnel
   - Half-Broken Car in Heavy Traffic
-  computational-class: unknown computational class
+  computational-class: Turing-complete
   sample: |
     --*-*
          \
@@ -1918,7 +1918,7 @@ maentw.c:
   implementation-of:
   - Maentwrog
   in-distribution: Maentwrog distribution
-  license: Freely Redistributable
+  license: Public Domain
   reference: yes
   implementation-type: interpreter
   host-language: ANSI C
