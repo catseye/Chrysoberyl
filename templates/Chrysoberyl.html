@@ -4,13 +4,13 @@
 
 <h2>Index of Categories</h2>
 <ul>
-{% for thing in data.keys()|sort %}
-  {% if data[thing].type == 'type'  and thing not in ['type'] %}
+{%- for thing in data.keys()|sort -%}
+  {%- if data[thing].type == 'type'  and thing not in ['type'] -%}
     <li>
       {{ link(thing) }}
     </li>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
 
 {% endblock content %}

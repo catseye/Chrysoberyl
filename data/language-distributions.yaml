@@ -789,6 +789,13 @@ Shelta distribution:
     revision: "2009.0307"
     url: http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip
 
+SICKBAY distribution: 
+  type: Distribution
+  bitbucket: catseye/sickbay
+  github: catseye/SICKBAY
+  issue-tracker: github
+  releases: []
+
 SMETANA distribution: 
   type: Distribution
   bitbucket: catseye/smetana

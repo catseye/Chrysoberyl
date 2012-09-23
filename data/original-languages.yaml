@@ -2689,6 +2689,47 @@ sheltas:
   target-platform: MS-DOS
 
 
+SICKBAY:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Imperative
+  esowiki: SICKBAY
+  description: |
+    SICKBAY is an esoteric dialect of BASIC with a call ring buffer instead of
+    a call stack, and computed line number definitions (and no `IF` because
+    of that.)
+  etymology:
+  - pun
+  sample: |-
+    10 LET B% = 99
+    (100+B%) END
+    100 GOTO 200:REM BEGIN LOOP
+    200 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL,"
+    205 PRINT B%;:PRINT " BOTTLES OF BEER,"
+    210 PRINT "TAKE ONE DOWN, PASS IT AROUND,"
+    215 LET B% = (B% - 1)
+    220 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL.":PRINT ""
+    230 GOTO 100
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Sep 2012
+  development-stage: mature
+  computational-class: Turing-complete
+
+SAWBONES:
+  type: Implementation
+  implementation-of:
+  - SICKBAY
+  in-distribution: SICKBAY distribution
+  license: Public Domain
+  reference: yes
+  implementation-type: interpreter
+  host-language: Python
+
+
 SMETANA:
   type: Programming Language
   genre: Esolang
