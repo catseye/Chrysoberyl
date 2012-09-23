@@ -143,12 +143,31 @@ corrections to the information.
 Script
 ------
 
-`chrysoberyl.py` is a Python script included in this distribution which
-can process the Chrysberyl database.  Things it can do include:
+`chrysoberyl` is a Python script included in this distribution which
+can process the Chrysberyl database.  It is located in the `bin` directory,
+and its source modules are in the `src/chrysoberyl` directory.  Things it
+can do include:
 
-*   check the data for consistency
-*   render Jinja2 templates with the data (one file per node)
-*   dump all nodes to a single JSON file
+*   check the data for consistency (`chrysoberyl check`)
+*   render Jinja2 templates with the data (one file per node) and
+    dump all nodes to a single JSON file (`chrysoberyl render`)
+*   update the Atom news feed (`chrysoberyl announce`)
+
+If mercurial repositories of the distributions are available locally, it
+can also:
+
+*   check the distributions for cleanliness (`chrysoberyl survey`)
+*   collect documentation from the distributions (`chrysoberyl troll`)
+*   create a zipball from the latest tag on a distribution
+    (`chrysoberyl release`)
+
+The tool has the following requirements, which can be installed with
+`easy_install`:
+
+    atomize
+    jinja2
+    markdown
+    PyYaml
 
 As of this writing, it takes my computer about eight seconds to load,
 and check the data and render the templates.
