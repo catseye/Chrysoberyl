@@ -46,6 +46,7 @@ Bubble Escape 2K exhibit:
     to the Mini Game Competition 2009, where it got first place in its
     class.
 
+
 21 Esolangs in yoob:
   type: Exhibit
   exhibit-type: esolang
@@ -67,12 +68,42 @@ JWhothm exhibit:
   exhibit-link: http://catseye.tc/gallery/esolang/jwhothm/
   interactive: true
   description: |
-    Whothm is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
+    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
     which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
 
+Gemooy HTML5 exhibit:
+  type: Exhibit
+  exhibit-type: esolang
+  exhibit-link: http://catseye.tc/gallery/esolang/gemooy/
+  interactive: true
+  description: |
+    [[Gemooy]], implemented in Javascript, on an HTML5 canvas.
 
+
+"APPLET TO LET: Plea of Thunder":
+  type: Exhibit
+  exhibit-type: visual
+  exhibit-link: http://catseye.tc/gallery/conceptual/plea-of-thunder/
+  interactive: false
+  description: |
+    A Java applet that you and your friends can own!
+
+"HTML5 Canvas Experiment #1":
+  type: Exhibit
+  exhibit-type: visual
+  exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-1/
+  interactive: false
+
+"HTML5 Canvas Experiment #5":
+  type: Exhibit
+  exhibit-type: visual
+  exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-5/
+  interactive: false
+
+
+# ---------------------------------------------------------------------------
 # I don't know if these are exhibits anymore.
 Plankalkül exhibit:
   type: Exhibit

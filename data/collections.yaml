@@ -75,3 +75,8 @@ LoUIE:
     Of course, if you do manage to complete something based on one of them,
     I would appreciate being given some credit (since you are a gracious
     individual as well, right?)
+
+Gallery:
+  type: Collection
+  description: |
+    DESCRIPTION GO HERE

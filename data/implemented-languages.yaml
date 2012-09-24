@@ -336,14 +336,14 @@ tc.catseye.yoob.ale:
   - Cat's Eye Technologies
 
 
-Backflip:
+BackFlip:
   type: Programming Language
   paradigms:
   - 2-dimensional
   genre: Esolang
   authors:
   - ais523
-  esowiki: Backflip
+  esowiki: BackFlip
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   computational-class: unknown computational class
@@ -353,7 +353,7 @@ Backflip:
 tc.catseye.yoob.backflip:
   type: Implementation
   implementation-of:
-  - Backflip
+  - BackFlip
   in-distribution: yoob distribution
   prebuilt-for-platforms:
   - yoob
