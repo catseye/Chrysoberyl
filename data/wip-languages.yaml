@@ -46,6 +46,7 @@ Exanoke:
     Exanoke is a functional language which is syntactically restricted to
     expressing the primitive recursive functions.
   development-stage: work in progress
+  computational-class: Primitive recursive
   authors:
   - Chris Pressey
   auspices:

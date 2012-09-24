@@ -1,0 +1,125 @@
+Exhibit:
+  type: type
+  # this text isn't used yet
+  esteemedgallery: |
+    <p>At Cat's Eye Technologies, we have long beheld a few programming languages as exceptionally worth
+    persual and appreciation, despite the fact that they have no implementations, are not under active development,
+    and were not designed by Chris Pressey (or at least, you can't prove it.)  We have, until recently, hosted these
+    in our <a href="../../projects/">projects space</a>.  However, because of the criteria listed in the first sentence,
+    we decided that these aren't really "projects" in any good sense, and we resolved to establish a distinguished
+    display case for these beauties on this website.</p>
+    
+    An exhibit of a handful of programming languages that we hold to be
+    exceptionally worth persual and appreciation.  These exhibits are in the
+    form of documentation on these languages – articles, or specifications, or
+    whatever passes for a specification for the language, as the case may be.
+
+  c64gallery: |
+    An exhibit of programs written for the Commodore 64.  This gallery is
+    interactive, powered by the JaC64 Java™ applet, which allows you to run
+    Commodore 64 programs in your web browser.  This gallery is primarily,
+    but not exclusively, intended to present C64 games which have been developed
+    by Cat's Eye Technologies.
+  esolangsgallery: |
+    An exhibit of many <a href="../about/esolang.html">esoteric programming languages</a> in action.
+    This gallery is interactive, powered mostly by the yoob Java applet, which currently implements interpreters
+    for 21 esolangs, and allows programs for them to be selected or composed, run, and observed while running.
+    
+    This gallery contains interactive implementations of [[Esolang|esoteric programming languages]]
+    with which you can experiment.  By selecting sample programs and watching them run, you can gain an appreciation of
+    how the esolang computes stuff; by composing your own programs, you can gain an even better appreciation.  Most of these
+    esolang implementations are in the form of Java™ applets.
+
+
+Bubble Escape 2K exhibit:
+  type: Exhibit
+  exhibit-type: game
+  exhibit-link: http://catseye.tc/gallery/c64/bubble-escape-2k/
+  interactive: true
+  description: |
+    [[Bubble Escape 2K]] playable online in the [[JaC64]] [[Commodore 64]]
+    emulator Java applet.
+    
+    A video game where you guide a bubble through a multi-screen maze.
+    Based on the cheesy original written in BASIC in the 80's, this version
+    was rewritten in 6502 assembly, crunched to fit into 2K, and submitted
+    to the Mini Game Competition 2009, where it got first place in its
+    class.
+
+21 Esolangs in yoob:
+  type: Exhibit
+  exhibit-type: esolang
+  exhibit-link: http://catseye.tc/gallery/esolang/yoob/
+  interactive: true
+  description: |
+    [[yoob]] is a public-domain framework for implementing esoteric programming languages, and allowing them to be interactively
+    run on programs in a Java™ applet.
+    
+    Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
+    [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
+    [[Gemooy]], [[LNUSP]], [[noit o' mnain worb]], [[PATH]], [[Qdeql]], [[Sceql]],
+    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
+    action, and lets you play with all these esolangs online.
+
+JWhothm exhibit:
+  type: Exhibit
+  exhibit-type: esolang
+  exhibit-link: http://catseye.tc/gallery/esolang/jwhothm/
+  interactive: true
+  description: |
+    Whothm is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
+    which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
+    an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
+    left up to your imagination.
+
+
+# I don't know if these are exhibits anymore.
+Plankalkül exhibit:
+  type: Exhibit
+  exhibit-type: language
+  exhibit-link: http://catseye.tc/gallery/languages/plankalkuel/
+  interactive: false
+  authors:
+  - Konrad Zuse
+  # "and some acm dudes"
+  description: |
+    Plankalkül was probably the very first attempt at a formalized notation for
+    computer programs, and is considered by many to be the first programming language.
+    This article describing the language, transliterated to HTML
+    from scans provided by the Retrocomputing Museum, originally appeared in
+    Communications of the ACM, July 1972, Volume 15, Number 7.
+
+Sartre exhibit:
+  type: Exhibit
+  exhibit-type: esolang
+  exhibit-link: http://catseye.tc/gallery/languages/sartre/
+  interactive: false
+  authors:
+  - Anonymous
+  - John Colagioia
+  description: |
+    An elaboration of an entry originally in the List of Lesser-Known Languages.
+
+TURKEY BOMB:
+  type: Exhibit
+  exhibit-type: esolang
+  exhibit-link: http://catseye.tc/gallery/languages/turkeyb/
+  interactive: false
+  authors:
+  - Anonymous
+  description: |
+    The first known programming-language-cum-drinking-game.
+    
+    The specification was discovered mysteriously one day amidst a
+    pile of Byte magazines in a second-hand book store.
+
+'*W exhibit':
+  type: Exhibit
+  exhibit-type: esolang
+  interactive: false
+  authors:
+  - John Colagioia
+  exhibit-link: http://catseye.tc/gallery/languages/starw/
+  description: |
+    "The *W language should be based on the W language which,
+    of course, does not exist."
