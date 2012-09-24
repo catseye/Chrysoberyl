@@ -155,6 +155,20 @@ def test_repos(data, clone_dir):
     for_each_repo(data, clone_dir, test_repo)
 
 
+def filter_repos(data, clone_dir):
+    """STUB"""
+    repos = {}
+
+    def filter_repo(distribution, repo):
+        for key in data:
+            if data[key]['type'] != 'Implementation':
+                continue
+            if distribution in data[key].get('in-distributions', []):
+                print "%s|%s  Language:%s" % (repo, key, data[key]['host-language'])
+
+    for_each_repo(data, clone_dir, filter_repo)
+
+
 def get_latest_release_tag(data, repo_name, clone_dir):
     result = {}
 

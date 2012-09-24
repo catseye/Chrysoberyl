@@ -119,48 +119,122 @@ Project Organization:
   type: Discipline
   description: |
     This is a rough guide to how [[Cat's Eye Technologies]]'
-    [[Distribution|distributions]] are laid out. It is both descriptive,
-    surveying how projects currently are laid out, and prescriptive,
-    specifying how projects should be laid out. It is currently a work in
-    progress and should not be considered complete yet.
+    [[Distribution|distributions]] are laid out.  It is prescriptive,
+    specifying how distributions should be laid out, but it is informed by
+    the general pattern we're trying to find in our distributions.  This
+    guide is currently a work in progress and should not be considered
+    complete yet.
     
-    Certain subdirectories of the root directory of a project have standard
-    meanings:
+    Certain files in a distribution's root directory have standard meanings:
+        
+    -   `README.markdown` (preferred) or `README` or `README.txt`
+        
+        A short text (or preferably Markdown) document summarizing what the
+        distribution is a distribution of, what sorts of files it contains,
+        where to get the latest version of the distribution, and what other
+        tools might be needed to use (run or build) the files found in it.
+        
+        READMEs for [[Esolang|esolangs]] may describe the entire language.
+        I'm not sure if this is a good practice or not.
+        It started because Bitbucket would only HTMLify
+        a Markdown file in its source viewer if it was the README, but now
+        it will do that for every Markdown file, so there is less reason to
+        put the whole language description here.  Still, for some esolangs,
+        this style seems to fit.  (The only problem is that there isn't
+        usually a good place to give the other info, like how to build and
+        run the included implementations.)
+        
+    -   `LICENSE` or `UNLICENSE`
+        
+        A short text document explaining what license or licenses the
+        content of the distribution is available under.  The filename
+        `UNLICENSE` is used instead if (and only if) the entire contents of
+        the distribution are in the public domain.
     
-    -   `bin` -- where executables shoud be kept. Projects should not ship
-        with native executables, but this is where they will be written when
-        built. Java `.class` files should be kept here, in a directory tree
-        matching the package names (and projects may ship with pre-compiled
-        `.class` files for convenience.) In the case of executable scripts,
-        they should be kept in `src`, though they may be copied to `bin`
-        upon build.
-    -   `disk` -- where disk images should be kept.
-    -   `ebin` -- where compiled Erlang modules (`.beam` files) executables
-        shoud be kept. Erlang projects may ship with pre-compiled `.beam`
-        files for convenience.) `.app` files may be contained here as well,
-        but these are generally deprecated at this point.
-    -   `eg` -- where examples should be kept, particularly example programs
-        in projects which implement programming languages.
-    -   `doc` -- where documentation should be kept. Exceptions include
-        `README` and other files which may appear in the root directory.
-        Images may be included in `doc` if they are part of the
-        documentation.
-    -   `priv` -- where data files for Erlang applications are kept.
-    -   `script` -- where scripts are kept, although this is generally
-        deprecated; executable scripts should be kept in `src`.
-    -   `src` -- where source code is kept.
+    -   `make.sh` or `Makefile`
+        
+        A Bourne shell script which builds executables and related things
+        from the sources included in the distribution.  This may also be
+        a `Makefile`, but `Makefile`s are usually put in the `src`
+        directory.  `make.sh` may just `cd` to that directory and run `make`.
+        
+    -   `test.sh`
+        
+        A Bourne shell script which runs tests for the distribution.  The
+        tests can test anything they like, but should produce output which
+        conforms to Portent format, which we haven't exactly defined yet, so
+        don't worry about it.  For now, an exit code of 0 means pass,
+        anything else means failure.
     
     Certain files in the root project directory have standard meanings as
     well:
     
-    -   `README` or `README.txt` -- A short text document summarizing what
-        the project's about, and such.
-    -   `Makefile` -- description forthcoming.
-    -   `make.sh` -- description forthcoming.
-    -   `test.sh` -- A script which runs tests for the project. The tests
-        can test anything they like, but should produce output which
-        conforms to Portent format, which we haven't exactly defined yet, so
-        don't worry about it.
+    -   `bin`
+        
+        Where executables shoud be kept.  Distributions should generally not
+        contain native executables; the main exception to this rule is native
+        executables for "legacy platforms" such as [[MS-DOS]] and
+        [[Commodore 64]] computers.
+        
+        Native executables may be written into the `bin` directory when they
+        are built from other files in the distribution by e.g. `make.sh`.
+        
+        Distributions may contain non-native binary files intended to be
+        executed, i.e. virtual machine code, and these will reside in `bin`.
+        Java `.class` files are contained, under `bin`, in a directory tree
+        matching the package names.
+        
+        Distributions may contain executable scripts.  However, executable
+        scripts which contain significant amounts of source code (i.e. ones
+        that are not just little drivers or wrappers) should go in `script`
+        rather than `bin`.  They may in some cases be copied into `bin` upon
+        build.
+        
+        Names of files in `bin` should not have extensions unless convention
+        demands it.  (That is, `tool` rather than `tool.py`, but `tool.com`
+        is OK.)
+        
+    -   `disk`
+        
+        Where disk images should be kept.
+    
+    -   `doc`
+        
+        Where documentation should be kept.  Exceptions include
+        `README.markdown` and `LICENSE`, which should be in the root
+        directory.
+        
+        Images may be included in `doc` if they are part of the
+        documentation (for example, diagrams) but if they are just
+        screenshots, they should probably be elsewhere.
+    
+    -   `ebin`
+        
+        Distributions should not ship with pre-compile Erlang `.beam` files,
+        but when they are built from the sources, they will go here.  Erlang
+        `.app` files may be contained here as well, but these are generally
+        not all that useful, and mostly for decoration.
+        
+    -   `eg`
+        
+        Where examples should be kept, particularly example programs
+        in projects which implement programming languages.
+        
+    -   `priv`
+        
+        Where data files for Erlang applications are kept.
+        
+    -   `script`
+        
+        Where executable scripts which have significant amount of code in
+        them should be kept.  (But if the script gets really large, it should
+        probably be broken up into a driver script in `bin` which imports
+        source modules from `src`.)
+        
+    -   `src`
+        
+        Where source code is kept.
+
 
 Computer Science Education:
   type: Discipline
