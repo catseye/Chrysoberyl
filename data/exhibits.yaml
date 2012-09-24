@@ -31,6 +31,8 @@ Exhibit:
     esolang implementations are in the form of Java™ applets.
 
 
+### Games ###
+
 Bubble Escape 2K exhibit:
   type: Exhibit
   exhibit-type: game
@@ -47,10 +49,12 @@ Bubble Escape 2K exhibit:
     class.
 
 
+### Esolangs ###
+
 21 Esolangs in yoob:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolang/yoob/
+  exhibit-link: http://catseye.tc/gallery/esolangs/yoob/
   interactive: true
   description: |
     [[yoob]] is a public-domain framework for implementing esoteric programming languages, and allowing them to be interactively
@@ -65,7 +69,7 @@ Bubble Escape 2K exhibit:
 JWhothm exhibit:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolang/jwhothm/
+  exhibit-link: http://catseye.tc/gallery/esolangs/jwhothm/
   interactive: true
   description: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
@@ -76,27 +80,32 @@ JWhothm exhibit:
 Gemooy HTML5 exhibit:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolang/gemooy/
+  exhibit-link: http://catseye.tc/gallery/esolangs/gemooy/
   interactive: true
   description: |
     [[Gemooy]], implemented in Javascript, on an HTML5 canvas.
 
 
-"APPLET TO LET: Plea of Thunder":
+### Visual ###
+
+"Plea of Thunder exhibit":
   type: Exhibit
+  # also conceptual
   exhibit-type: visual
   exhibit-link: http://catseye.tc/gallery/conceptual/plea-of-thunder/
   interactive: false
   description: |
     A Java applet that you and your friends can own!
 
-"HTML5 Canvas Experiment #1":
+# needs a better name
+"HTML5 Canvas Experiment #1 exhibit":
   type: Exhibit
   exhibit-type: visual
   exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-1/
   interactive: false
 
-"HTML5 Canvas Experiment #5":
+# needs a better name
+"HTML5 Canvas Experiment #5 exhibit":
   type: Exhibit
   exhibit-type: visual
   exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-5/
@@ -104,53 +113,54 @@ Gemooy HTML5 exhibit:
 
 
 # ---------------------------------------------------------------------------
-# I don't know if these are exhibits anymore.
-Plankalkül exhibit:
-  type: Exhibit
-  exhibit-type: language
-  exhibit-link: http://catseye.tc/gallery/languages/plankalkuel/
-  interactive: false
-  authors:
-  - Konrad Zuse
-  # "and some acm dudes"
-  description: |
-    Plankalkül was probably the very first attempt at a formalized notation for
-    computer programs, and is considered by many to be the first programming language.
-    This article describing the language, transliterated to HTML
-    from scans provided by the Retrocomputing Museum, originally appeared in
-    Communications of the ACM, July 1972, Volume 15, Number 7.
+# For now, let's assume these are not exhibits.
 
-Sartre exhibit:
-  type: Exhibit
-  exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/languages/sartre/
-  interactive: false
-  authors:
-  - Anonymous
-  - John Colagioia
-  description: |
-    An elaboration of an entry originally in the List of Lesser-Known Languages.
+#~ Plankalkül exhibit:
+  #~ type: Exhibit
+  #~ exhibit-type: language
+  #~ exhibit-link: http://catseye.tc/gallery/languages/plankalkuel/
+  #~ interactive: false
+  #~ authors:
+  #~ - Konrad Zuse
+  #~ # "and some acm dudes"
+  #~ description: |
+    #~ Plankalkül was probably the very first attempt at a formalized notation for
+    #~ computer programs, and is considered by many to be the first programming language.
+    #~ This article describing the language, transliterated to HTML
+    #~ from scans provided by the Retrocomputing Museum, originally appeared in
+    #~ Communications of the ACM, July 1972, Volume 15, Number 7.
 
-TURKEY BOMB:
-  type: Exhibit
-  exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/languages/turkeyb/
-  interactive: false
-  authors:
-  - Anonymous
-  description: |
-    The first known programming-language-cum-drinking-game.
+#~ Sartre exhibit:
+  #~ type: Exhibit
+  #~ exhibit-type: esolang
+  #~ exhibit-link: http://catseye.tc/gallery/languages/sartre/
+  #~ interactive: false
+  #~ authors:
+  #~ - Anonymous
+  #~ - John Colagioia
+  #~ description: |
+    #~ An elaboration of an entry originally in the List of Lesser-Known Languages.
+
+#~ TURKEY BOMB:
+  #~ type: Exhibit
+  #~ exhibit-type: esolang
+  #~ exhibit-link: http://catseye.tc/gallery/languages/turkeyb/
+  #~ interactive: false
+  #~ authors:
+  #~ - Anonymous
+  #~ description: |
+    #~ The first known programming-language-cum-drinking-game.
     
-    The specification was discovered mysteriously one day amidst a
-    pile of Byte magazines in a second-hand book store.
+    #~ The specification was discovered mysteriously one day amidst a
+    #~ pile of Byte magazines in a second-hand book store.
 
-'*W exhibit':
-  type: Exhibit
-  exhibit-type: esolang
-  interactive: false
-  authors:
-  - John Colagioia
-  exhibit-link: http://catseye.tc/gallery/languages/starw/
-  description: |
-    "The *W language should be based on the W language which,
-    of course, does not exist."
+#~ '*W exhibit':
+  #~ type: Exhibit
+  #~ exhibit-type: esolang
+  #~ interactive: false
+  #~ authors:
+  #~ - John Colagioia
+  #~ exhibit-link: http://catseye.tc/gallery/languages/starw/
+  #~ description: |
+    #~ "The *W language should be based on the W language which,
+    #~ of course, does not exist."
