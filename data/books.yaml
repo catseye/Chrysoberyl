@@ -208,6 +208,21 @@ Counterexamples in Topology:
     There are lots of books on computability, but this is one of the earlier ones
     (1967!) and one of the few that treat tarpits with any seriousness.
 
+Theory of Computation:
+  type: Book
+  genre: Mathematics
+  # somewhere, I have 2 copies.
+  copies-owned: 0
+  authors:
+  - Walter Brainerd
+  - Lawrence Landweber
+  isbn: 0-4710958-5-0
+  inception-date: 1974
+  commentary: |
+    There are lots of books on computability.  This is one of them.  I don't think
+    it's the best one, but it's the one that defines the programming language
+    "PL" and, more interestingly, its [[Primitive recursive]] subset [[PL-{GOTO}]].
+
 The Real Frank Zappa Book:
   type: Book
   genre: Philosophy

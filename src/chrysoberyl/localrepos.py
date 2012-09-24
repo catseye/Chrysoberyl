@@ -32,8 +32,9 @@ def for_each_repo(data, clone_dir, fun):
               (distribution)
             continue
         os.chdir(os.path.join(clone_dir, repo))
-        fun(distribution, repo)
-        count += 1
+        result = fun(distribution, repo)
+        if result != False:
+            count += 1
     os.chdir(cwd)
     return count
 
@@ -155,18 +156,54 @@ def test_repos(data, clone_dir):
     for_each_repo(data, clone_dir, test_repo)
 
 
-def filter_repos(data, clone_dir):
-    """STUB"""
-    repos = {}
+def lint_dists(data, clone_dir, host_language):
+    problems = {}
 
-    def filter_repo(distribution, repo):
-        for key in data:
-            if data[key]['type'] != 'Implementation':
-                continue
-            if distribution in data[key].get('in-distributions', []):
-                print "%s|%s  Language:%s" % (repo, key, data[key]['host-language'])
+    def lint_repo(distribution, repo):
+        problems[distribution] = []
+        show_it = True
+        if host_language is not None:
+            show_it = False
+            for key in data:
+                if data[key]['type'] != 'Implementation':
+                    continue
+                if distribution in data[key].get('in-distributions', []):
+                    if data[key]['host-language'] == host_language:
+                        show_it = True
+                        break
+        if not show_it:
+            return False
+        # Begin linting
+        if not os.path.exists('README.markdown'):
+            problems[distribution].append("No README.markdown")
+        #~ version, revision = project.get_latest_version_and_revision()
+        #~ distname = "%s-%s-%s" % (project.name, version, revision)
+        #~ distfile = os.path.join("distfiles", "%s.zip" % distname)
+        #~ if not isfile(distfile):
+            #~ report.write("XXX No modernly-named distfile\n")
+            #~ disturl = project.get_latest_explicit_dist_url()
+            #~ match = re.match(r'^http://catseye\.tc/distfiles/(.*?)\.zip$', disturl)
+            #~ if not match:
+                #~ report.write("XXX Explicit distfile is not on catseye.tc or not a zipfile\n\n")
+                #~ continue
+            #~ distname = match.group(1)
+            #~ distfile = "distfiles/%s.zip" % distname
 
-    for_each_repo(data, clone_dir, filter_repo)
+    count = for_each_repo(data, clone_dir, lint_repo)
+
+    problematic_count = 0
+    for d in sorted(problems.keys()):
+        if not problems[d]:
+            continue        
+        print d
+        print '-' * len(d)
+        print
+        for problem in problems[d]:
+            print "* %s" % problem
+        print
+        problematic_count += 1
+
+    print "Linted %d clones, problems in %d of them." % (count, problematic_count)
 
 
 def get_latest_release_tag(data, repo_name, clone_dir):

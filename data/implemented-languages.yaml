@@ -116,8 +116,8 @@ muriel.pl:
   implementation-type: compiler
   description: |
     PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
-    from Brainerd and Landweber's *Theory of Computation*
-    (1974; ISBN 0471095850). PL-{GOTO} can express exactly the
+    from Brainerd and Landweber's *[[Theory of Computation]]*
+    PL-{GOTO} can express exactly the
     primitive recursive functions, and thus PL-{GOTO} programs
     always terminate. PL-{GOTO}.NET generates MSIL code which
     can then (using `ilasm`) be turned into a .NET
@@ -125,7 +125,7 @@ muriel.pl:
     directly.
   commentary: |-
     I've been idly fascinated by the primitive recursive example programming language
-    PL-{GOTO} from Brainerd and Landweber's *Theory of Computation* for some time.
+    PL-{GOTO} from Brainerd and Landweber's *[[Theory of Computation]]* for some time.
     And for some reason I will never be able to explain, I had the craving to implement a compiler
     which could produce .NET executables by generating MSIL assembly language.  And putting
     those two together — well, that struck me as a respectably absurd match, so that's what I did.

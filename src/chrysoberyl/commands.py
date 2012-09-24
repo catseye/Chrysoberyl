@@ -11,7 +11,9 @@ import sys
 from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dir
-from chrysoberyl.localrepos import troll_docs, survey_repos, test_repos, get_latest_release_tag, filter_repos
+from chrysoberyl.localrepos import (
+    troll_docs, survey_repos, test_repos, get_latest_release_tag, lint_dists
+)
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import convert_chrysoberyl_data, transform_dates
 from chrysoberyl.util import do_it
@@ -27,7 +29,7 @@ def check(args, optparser):
 
 
 def survey(args, optparser):
-    """Survey repos.
+    """Survey local clones of distributions.
 
     """
     options, args = optparser.parse_args(args)
@@ -36,13 +38,18 @@ def survey(args, optparser):
     return 0
 
 
-def filter(args, optparser):
-    """Filter repos. (stub, stub)
+def lint(args, optparser):
+    """Lint local clones of distributions.
 
     """
+    optparser.add_option("--host-language",
+                         dest="host_language", metavar='LANG',
+                         default=None,
+                         help="lint only those distributions containing "
+                              "implementations in this language")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dir)
-    filter_repos(data, options.clone_dir)
+    lint_dists(data, options.clone_dir, host_language=options.host_language)
     return 0
 
 
@@ -161,7 +168,7 @@ COMMANDS = {
     'announce': announce,
     'troll': troll,
     'survey': survey,
-    'filter': filter,
+    'lint': lint,
     'release': release,
 }
 
