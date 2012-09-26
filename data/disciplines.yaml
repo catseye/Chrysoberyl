@@ -194,6 +194,12 @@ Project Organization:
         demands it.  (That is, `tool` rather than `tool.py`, but `tool.com`
         is OK.)
         
+    -   `dialect`
+        
+        For distributions of programming (and other) languages, this is
+        where related languages (usually too minor in variation to warrant
+        their own distributions) are defined and implemented.
+        
     -   `disk`
         
         Where disk images should be kept.
@@ -220,6 +226,12 @@ Project Organization:
         Where examples should be kept, particularly example programs
         in projects which implement programming languages.
         
+    -   `impl`
+        
+        For distributions containing more than one implementation, this is
+        where source code for the non-reference implementations should be
+        kept.  (The reference implementation's source should be in `src`.)
+        
     -   `priv`
         
         Where data files for Erlang applications are kept.
@@ -233,7 +245,9 @@ Project Organization:
         
     -   `src`
         
-        Where source code is kept.
+        Where source code is kept.  For distributions containing more than
+        one implementation, this is where the reference implementation is
+        kept; other implementations should probably be in `impl` instead.
 
 
 Computer Science Education:

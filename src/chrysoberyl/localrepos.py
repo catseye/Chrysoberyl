@@ -176,6 +176,34 @@ def lint_dists(data, clone_dir, host_language):
         # Begin linting
         if not os.path.exists('README.markdown'):
             problems[distribution].append("No README.markdown")
+        if not os.path.exists('LICENSE') and not os.path.exists('UNLICENSE'):
+            problems[distribution].append("No LICENSE or UNLICENSE")
+        if os.path.exists('LICENSE') and os.path.exists('UNLICENSE'):
+            problems[distribution].append("Both LICENSE and UNLICENSE")
+        for root, dirnames, filenames in os.walk('.'):
+            if root.endswith(".hg"):
+                del dirnames[:]
+                continue
+            if root == '.':
+                root_files = []
+                for filename in filenames:
+                    if filename not in ('LICENSE', 'UNLICENSE', 'README.markdown',
+                                        'test.sh', 'make.sh', 'make-cygwin.sh', 'Makefile',
+                                        '.hgtags', '.hgignore', '.gitignore'):
+                        root_files.append(filename)
+                if root_files:
+                    problems[distribution].append("Junk files in root: %s" % root_files)
+
+                root_dirs = []
+                for dirname in dirnames:
+                    if dirname not in ('bin', 'contrib', 'dialect', 'disk',
+                                       'doc', 'ebin', 'eg', 'impl', 'priv',
+                                       'script', 'src',
+                                       '.hg'):
+                        root_dirs.append(dirname)
+                if root_dirs:
+                    problems[distribution].append("Junk dirs in root: %s" % root_dirs)
+
         #~ version, revision = project.get_latest_version_and_revision()
         #~ distname = "%s-%s-%s" % (project.name, version, revision)
         #~ distfile = os.path.join("distfiles", "%s.zip" % distname)
