@@ -1163,6 +1163,7 @@ Gemooy:
     essentially the same as those of [[BitChanger]].
   inception-date: Dec 2, 2010
   development-stage: mature
+  esowiki: Gemooy
   online-implementations:
   - 'http://catseye.tc/gallery/esolangs/yoob/'
   authors:
@@ -3305,6 +3306,7 @@ Wunnel:
   auspices:
   - Cat's Eye Technologies
   computational-class: believed Turing-complete
+  esowiki: Wunnel
   inception-date: Feb 13, 2011
   development-stage: mature
   influences:
