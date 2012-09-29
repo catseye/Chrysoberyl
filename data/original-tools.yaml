@@ -145,7 +145,6 @@ py-falderal:
   type: Implementation
   implementation-of:
   - Falderal
-  # well, this is actually not true yet, but:
   in-distribution: Falderal distribution
   generally-recommended: true
   license: BSD license
@@ -155,7 +154,7 @@ Falderal distribution:
   type: Distribution
   bitbucket: catseye/falderal
   github: catseye/Falderal
-  issue-tracker: 'https://bitbucket.org/catseye/falderal/issues'
+  issue-tracker: github
   project-page: 'http://catseye.tc/projects/falderal/'
   releases: 
   - version: "0.1"
