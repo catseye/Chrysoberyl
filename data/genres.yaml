@@ -134,6 +134,8 @@ Techno:
   type: Genre
 Ragtime:
   type: Genre
+Medieval:
+  type: Genre
 
 # BOOKS
 

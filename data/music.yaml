@@ -2,35 +2,63 @@
 
 # -----------------------------------------------
 
+### formats ###
+
 SID:
-  type: Musical Notation
+  type: Music Format
+  # you know, I don't even know if this was a "standard" format or not
   no-specification: true
   authors: []
   paradigms: []
 
 MIDI:
-  type: Musical Notation
+  type: Music Format
+  # XXX fix this
   no-specification: true
   authors: []
   paradigms: []
 
 DMCS:
-  type: Musical Notation
+  type: Music Format
+  # 'twas proprietary, so... ok
   no-specification: true
   authors: []
   paradigms: []
 
 Noisetracker MOD:
-  type: Musical Notation
+  type: Music Format
+  # XXX fix this
   no-specification: true
   authors: []
   paradigms: []
 
 MED:
-  type: Musical Notation
+  type: Music Format
+  # XXX fix this
   no-specification: true
   authors: []
   paradigms: []
+
+mp3:
+  type: Music Format
+  # XXX fix this
+  no-specification: true
+  authors: []
+  paradigms: []
+
+Sonant tracker format:
+  type: Music Format
+  authors: []
+  specification-link: "http://sonantlive.bitsnbites.eu/"
+
+### instruments ###
+
+Roland JV-30:
+  type: Musical Instrument
+  description: |
+    What most of the MIDI files here were composed on (along with [[Cakewalk]]).
+
+### tools ###
 
 xmp:
   type: Implementation
@@ -41,33 +69,49 @@ xmp:
   host-language: Unknown language
   license: GPL
 
-mp3:
-  type: Musical Notation
-  no-specification: true
-  authors: []
-  paradigms: []
-
-JV-30:
-  type: Musical Instrument
-  description: |
-    The Yamaha JV-30 synthesizer.
-
 TiMidity++:
-  type: Tool
-  no-specification: true
+  type: Implementation
+  implementation-of:
+  - MIDI
+  # probably C99
+  host-language: Unknown language
   description: |
-    What some of the MIDI files were rendered with (using `freepats` soundfont.)
+    What some of the MIDI files here were rendered with (using `freepats` soundfont.)
   development-stage: mature
+  license: GPL
+  links:
+  - "http://timidity.sourceforge.net/"
 
 Cakewalk:
-  type: Tool
-  no-specification: true
+  type: Implementation
+  implementation-of:
+  - MIDI
+  # probably C99
+  host-language: Unknown language
   development-stage: mature
+  description: |
+    What most of the MIDI files here were composed on (along with a [[Roland JV-30]]).
+  license: Proprietary
 
 SID Editor:
-  type: Tool
-  no-specification: true
+  type: Implementation
+  implementation-of:
+  - SID
+  # plus some 6502 machine code, but mostly
+  host-language: Commodore BASIC 2.0
   development-stage: vintage
+  license: Unknown license
+
+Sonant Live:
+  type: Implementation
+  implementation-of:
+  - Sonant tracker format
+  host-language: Javascript
+  host-platform: HTML5
+  development-stage: mature
+  links:
+  - "http://sonantlive.bitsnbites.eu/tool/"
+  license: Unknown license
 
 # -----------------------------------------------
 
@@ -252,8 +296,10 @@ Anagnoresis:
   commentary: |
     "Anagnoresis" is either an alternate spelling for, or a typo for,
     "Anagnorisis", which means the moment some profound realization
-    is suddenly made.  The second snare beat in each measure is on the
-    and-of-four instead of on four.
+    is suddenly made.  There is no such particular moment during this
+    piece.  However, the second snare beat in each measure is on the
+    and-of-four instead of on four, in a sort of attempt to make your ears
+    wait for it and then go, "oh, *there* it is."
 
 Anagnoresis (MED):
   type: Implementation
@@ -348,16 +394,17 @@ Go(Figure) (MED):
   host-language: MED
   license: Freely Redistributable
 
-Go(Figure) (MED) (mp3):
+Go(Figure) [Amiga/Dance arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Go(Figure)
   host-language: mp3
+  converted-from: Go(Figure) (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/Chris Pressey - Go(Figure) (MED version).mp3"
 
-Go(Figure) (JV-30) (mp3):
+Go(Figure) [JV-30/Fusion arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Go(Figure)
@@ -506,6 +553,38 @@ Retrograde (mp3):
   - "http://catseye.tc/music/Chris Pressey - Retrograde.mp3"
 
 
+Stella Splendens:
+  type: Musical Composition
+  genre: Medieval
+  authors:
+  - Anonymous
+
+Stella Splendens (MED):
+  type: Implementation
+  implementation-of:
+  - Stella Splendens
+  host-language: MED
+  license: Freely Redistributable
+  inception-date: ca 1992
+  commentary: |
+    This is an Amiga MED module arrangement of the medieval piece "Stella
+    Splendens".  It is not a traditional arrangement, but neither is it particularly
+    techno nor particularly ambient.
+
+Stella Splendens (mp3):
+  type: Implementation
+  implementation-of:
+  - Stella Splendens
+  host-language: mp3
+  converted-from: Stella Splendens (MED)
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Stella Splendens.mp3"
+  commentary: |
+    The MED module was intended to loop indefinitely.  This mp3 rendition
+    repeats twice then fades out.
+
+
 Technodixie:
   type: Musical Composition
   genre: Dance
@@ -516,7 +595,7 @@ Technodixie:
   - Chris Pressey
   commentary: |
     I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
-    very techno nor very dixie -- well, if it is dixie, it's, like, Hooked on Dixie.
+    very techno nor very dixieland -- well, if it is dixieland, it's, like, Hooked on Dixieland.
 
 Technodixie (mp3):
   type: Implementation
@@ -562,16 +641,6 @@ You Drive Me Wild (mp3):
 
 # ... lost ones ... 
 
-
-Osborne Village:
-  type: Musical Composition
-  genre: Jazz fusion
-  inception-date: ca 1994
-  composed-on: Amiga 500
-  using-software: MED
-  development-stage: lost
-  authors:
-  - Chris Pressey
 
 So Fast and Easy:
   type: Musical Composition
@@ -687,7 +756,7 @@ Ice Jam:
   type: Musical Composition
   genre: Alt rock
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -709,7 +778,7 @@ Jack and Jill:
   type: Musical Composition
   genre: Alt rock
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -730,13 +799,14 @@ A Moment in the Sun:
   type: Musical Composition
   genre: Reggae
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
   commentary: |
     My only foray into reggae.  A happy sort of tune;
-    it's supposed to be followed by [[Back to the Rain]].
+    it was originally supposed to be followed by [[Back to the Rain]]
+    in some kind of putative playlist...
 
 A Moment in the Sun (mp3):
   type: Implementation
@@ -752,7 +822,7 @@ Back to the Rain:
   type: Musical Composition
   genre: Swing
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -775,7 +845,7 @@ Back to the Rain (mp3):
   type: Musical Composition
   genre: World beat
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -798,7 +868,7 @@ Smedley the Medley:
   type: Musical Composition
   genre: Experimental music
   inception-date: ca 1996
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -818,6 +888,30 @@ Smedley the Medley (mp3):
   - "http://catseye.tc/music/Chris Pressey - Smedley the Medley.mp3"
 
 
+### rendered with timidity++ ###
+
+Fool:
+  type: Musical Composition
+  genre: Ragtime
+  format: Song
+  inception-date: ca 1997
+  composed-on: Roland JV-30
+  using-software: Cakewalk
+  authors:
+  - Chris Pressey
+  commentary: |
+    A sort of hokey ragtime ballad thing.
+
+Fool (mp3):
+  type: Implementation
+  implementation-of:
+  - Fool
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Fool.mp3"
+
+
 ### not recorded. ###
 
 Reality:
@@ -825,18 +919,7 @@ Reality:
   genre: Alt rock
   format: Song
   inception-date: ca 1996
-  composed-on: JV-30
-  using-software: Cakewalk
-  authors:
-  - Chris Pressey
-
-
-Fool:
-  type: Musical Composition
-  genre: Ragtime
-  format: Song
-  inception-date: ca 1997
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
   authors:
   - Chris Pressey
@@ -846,12 +929,26 @@ The Blank Dance:
   type: Musical Composition
   genre: Dance
   inception-date: ca 1997
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
+  development-stage: unfinished
   authors:
   - Chris Pressey
   commentary: |
     Unfinished.  The word "blank" in the title refers to the [[Esolang|esolang]] [[Blank]].
+
+
+Osborne Village:
+  type: Musical Composition
+  genre: Jazz fusion
+  inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: MED
+  development-stage: unfinished
+  authors:
+  - Chris Pressey
+  commentary: |
+    
 
 
 # art music
@@ -867,7 +964,7 @@ String Quartet:
   - Cello
   authors:
   - Chris Pressey
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
 
 Rest Assured:
@@ -881,7 +978,7 @@ Rest Assured:
   - Cello
   authors:
   - Chris Pressey
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
 
 Interlude for Harp:
@@ -892,8 +989,36 @@ Interlude for Harp:
   - Harp
   authors:
   - Chris Pressey
-  composed-on: JV-30
+  composed-on: Roland JV-30
   using-software: Cakewalk
+
+
+### recent stuff ###
+
+Fluorescent Atrocious:
+  type: Musical Composition
+  genre: Techno
+  authors:
+  - Chris Pressey
+  composed-on: Sonant Live
+  # mmm... "Firefox"?
+  using-software: Sonant Live
+  inception-date: Oct 2012
+  commentary: |
+    Here's what this icky techno piece tries to evoke: having a terrible
+    hangover on the brightest morning of the summer while strolling
+    through a garden that was planted by someone with a green
+    thumb -- it's very lush and in full bloom -- but a very poor sense of
+    how to lay out a garden.
+
+Fluorescent Atrocious (mp3):
+  type: Implementation
+  implementation-of:
+  - Fluorescent Atrocious
+  host-language: mp3
+  license: Freely Redistributable
+  links:
+  - "http://catseye.tc/music/Chris Pressey - Fluorescent Atrocious.mp3"
 
 
 # favourite composers:

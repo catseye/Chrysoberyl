@@ -233,7 +233,7 @@ def check_chrysoberyl_data(data):
                                     types=['Platform', 'Programming Language'])
           if impl_of_type == 'Musical Composition':
               check_scalar_ref(data, key, node, 'host-language',
-                               types=['Musical Notation'])
+                               types=['Music Format'])
           else:
               check_scalar_ref(data, key, node, 'host-language',
                                types=['Programming Language'])
@@ -293,8 +293,8 @@ def check_chrysoberyl_data(data):
           check_list_ref(data, key, node, 'authors')
       
       if type_ == 'Musical Composition':
-          check_scalar_ref(data, key, node, 'composed-on')
-          check_scalar_ref(data, key, node, 'using-software')
+          check_optional_scalar_ref(data, key, node, 'composed-on')
+          check_optional_scalar_ref(data, key, node, 'using-software')
 
       if type_ == 'Platform':
           check_scalar_ref(data, key, node, 'native-language', types=['Programming Language'])
