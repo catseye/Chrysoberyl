@@ -13,7 +13,11 @@
       This is a list of all {{ key|lower }}s with entries in {{ link('Chrysoberyl') }}.
       {% if our_stuff %}
         For a list of just those {{ key|lower }}s produced by
-        {{ link("Cat's Eye Technologies") }}, see
+        {% if key=='Musical Composition' -%}
+          {{ link("What is this I don't even") }}
+        {%- else -%}
+          {{ link("Cat's Eye Technologies") }}
+        {%- endif %}, see
         <a href="{{ filekey(our_stuff) }}">{{ our_stuff }}</a>.
       {% endif %}
     </p>

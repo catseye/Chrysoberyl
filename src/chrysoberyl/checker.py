@@ -184,6 +184,8 @@ def check_chrysoberyl_data(data):
 
       check_optional_scalar_ref(data, key, node, 'development-stage',
                                 types=['Development Stage'])
+      check_optional_scalar_ref(data, key, node, 'our-stuff',
+                                types=['Collection'])
 
       # On to checking fields specific to different types.
 

@@ -26,15 +26,13 @@ DMCS:
 
 Noisetracker MOD:
   type: Music Format
-  # XXX fix this
-  no-specification: true
+  specification-link: http://www.programmersheaven.com/download/15948/0/ZipView.aspx
   authors: []
   paradigms: []
 
 MED:
   type: Music Format
-  # XXX fix this
-  no-specification: true
+  specification-link: http://www.programmersheaven.com/download/2173/download.aspx
   authors: []
   paradigms: []
 
@@ -129,6 +127,7 @@ Sonant Live:
 
 The Biftek Shuffle:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Shuffle
   inception-date: ca 1987
   composed-on: Commodore 64
@@ -148,6 +147,7 @@ The Biftek Shuffle:
 
 Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Experimental music
   inception-date: ca 1987
   composed-on: Commodore 64
@@ -169,11 +169,12 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
 
 
 Theme to Nukeball:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Theme music
   composed-on: Commodore 64
   using-software: SID Editor
@@ -194,7 +195,7 @@ Theme to Nukeball (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Theme to Nukeball.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Theme to Nukeball.mp3"
   commentary: |
     I added the fade-out at the end with Audacity because otherwise it would
     loop indefinitely.
@@ -202,6 +203,7 @@ Theme to Nukeball (mp3):
 
 Tears on my Catbox:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Theme music
   composed-on: Commodore 64
   using-software: SID Editor
@@ -220,11 +222,12 @@ Tears on my Catbox (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Tears on my Catbox.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Tears on my Catbox.mp3"
 
 
 Untitled Video Game Theme:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Theme music
   composed-on: Commodore 64
   using-software: SID Editor
@@ -244,11 +247,12 @@ Untitled Video Game Theme (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Untitled Video Game Theme.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Untitled Video Game Theme.mp3"
 
 
 "Paige's Praise":
   type: Musical Composition
+  domain: What is this I don't even
   genre: Swing
   inception-date: ca 1989
   composed-on: Commodore 64
@@ -262,6 +266,7 @@ Untitled Video Game Theme (mp3):
 
 Futons:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Sci-fi
   composed-on: Commodore 64
   using-software: SID Editor
@@ -277,6 +282,7 @@ Futons:
 
 After the Fact:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Theme music
   composed-on: Amiga 500
   using-software: MED
@@ -309,11 +315,12 @@ After the Fact (mp3):
   - lame
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - After the Fact.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - After the Fact.mp3"
 
 
 Anagnoresis:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Sci-fi
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -348,11 +355,12 @@ Anagnoresis (mp3):
   - lame
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Anagnoresis.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Anagnoresis.mp3"
 
 
 Autumn Kiss:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Pop ballad
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -380,11 +388,12 @@ Autumn Kiss (mp3):
   converted-from: Autumn Kiss (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Autumn Kiss.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Autumn Kiss.mp3"
 
 
 Drat:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Experimental music
   inception-date: ca 1994
   composed-on: Amiga 500
@@ -403,11 +412,12 @@ Drat (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Drat.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Drat.mp3"
 
 
 Go(Figure):
   type: Musical Composition
+  domain: What is this I don't even
   genre: Jazz fusion
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -429,7 +439,7 @@ Go(Figure) (MED):
   host-language: MED
   license: Freely Redistributable
 
-Go(Figure) [Amiga/Dance arrangement] (mp3):
+Go(Figure) [Amiga dance arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Go(Figure)
@@ -437,20 +447,21 @@ Go(Figure) [Amiga/Dance arrangement] (mp3):
   converted-from: Go(Figure) (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Go(Figure) [Amiga/dance arrangement].mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [Amiga dance arrangement].mp3"
 
-Go(Figure) [JV-30/Fusion arrangement] (mp3):
+Go(Figure) [JV-30 fusion arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Go(Figure)
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Go(Figure) [JV-30/Fusion arrangement].mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [JV-30 fusion arrangement].mp3"
 
 
 Panic:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Dance
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -470,7 +481,7 @@ Panic (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Panic.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Panic.mp3"
 
 
 # TODO: retrocon this into "Corner Couple Suite":
@@ -480,6 +491,7 @@ Panic (mp3):
 # there are lots of options.  Unfortunately Leila does not intersect any masculine given names
 Popcornish:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Dance
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -501,11 +513,12 @@ Popcornish (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Popcornish.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Popcornish.mp3"
 
 
 Rainbird:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Pop ballad
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -534,11 +547,12 @@ Rainbird (mp3):
   converted-from: Rainbird (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Rainbird.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Rainbird.mp3"
 
 
 Red Quarks:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Sci-fi
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -567,11 +581,12 @@ Red Quarks (mp3):
   converted-from: Red Quarks (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Red Quarks.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Red Quarks.mp3"
 
 
 Retrograde:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Sci-fi
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -600,7 +615,7 @@ Retrograde (mp3):
   converted-from: Retrograde (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Retrograde.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Retrograde.mp3"
 
 
 Stella Splendens:
@@ -625,15 +640,20 @@ Stella Splendens (MED):
     Splendens".  It is not a traditional arrangement, but neither is it particularly
     techno nor particularly ambient.
 
-Stella Splendens (mp3):
+Stella Splendens [Amiga arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Stella Splendens
   host-language: mp3
   converted-from: Stella Splendens (MED)
+  # repeat these here b/c template doesn't look through "converted-from" (ehh)
+  authors:
+  - Chris Pressey
+  auspices:
+  - What is this I don't even
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Stella Splendens.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Stella Splendens [Amiga arrangement].mp3"
   commentary: |
     The MED module was intended to loop indefinitely.  This mp3 rendition
     repeats twice then fades out.
@@ -641,6 +661,7 @@ Stella Splendens (mp3):
 
 Technodixie:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Dance
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -651,7 +672,7 @@ Technodixie:
   - What is this I don't even
   commentary: |
     I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
-    very techno nor very dixieland -- well, if it is dixieland, it's, like, Hooked on Dixieland.
+    very techno nor very dixieland — well, if it is dixieland, it's, like, Hooked on Dixieland.
 
 Technodixie (mp3):
   type: Implementation
@@ -660,11 +681,12 @@ Technodixie (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Technodixie.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Technodixie.mp3"
 
 
 You Drive Me Wild:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Pop
   inception-date: ca 1992
   composed-on: Amiga 500
@@ -694,7 +716,7 @@ You Drive Me Wild (mp3):
   converted-from: You Drive Me Wild (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - You Drive Me Wild.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - You Drive Me Wild.mp3"
 
 
 # ... lost ones ... 
@@ -702,6 +724,7 @@ You Drive Me Wild (mp3):
 
 So Fast and Easy:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Experimental music
   inception-date: ca 1994
   composed-on: Amiga 500
@@ -717,6 +740,7 @@ So Fast and Easy:
 
 Theme to LOGS:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Theme music
   inception-date: ca 1991
   composed-on: Amiga 500
@@ -731,6 +755,7 @@ Theme to LOGS:
 
 Coffee Break:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Jazz fusion
   instrumentation:
   - Jazz Band
@@ -744,6 +769,7 @@ Coffee Break:
 
 Birdwatching:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Jazz fusion
   instrumentation:
   - Jazz Combo
@@ -767,17 +793,18 @@ Birdwatching (MED):
   host-language: MED
   license: Freely Redistributable
 
-Birdwatching [Amiga/fusion arrangement] (mp3):
+Birdwatching [Amiga arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Birdwatching
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Birdwatching [Amiga/fusion arrangement].mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Birdwatching [Amiga arrangement].mp3"
 
 Radiance:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Jazz fusion
   instrumentation:
   - Jazz Combo
@@ -791,6 +818,7 @@ Radiance:
 
 Foxcub:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Swing
   instrumentation:
   - Jazz Band
@@ -807,6 +835,7 @@ Foxcub:
 
 Sardonyx:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Experimental music
   format: Overture
   inception-date: ca 1994
@@ -826,6 +855,7 @@ Sardonyx:
 
 Ice Jam:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Alt rock
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -845,11 +875,12 @@ Ice Jam (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Ice Jam.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Ice Jam.mp3"
 
 
 Jack and Jill:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Alt rock
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -868,11 +899,12 @@ Jack and Jill (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Jack and Jill.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Jack and Jill.mp3"
 
 
 A Moment in the Sun:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Reggae
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -893,11 +925,12 @@ A Moment in the Sun (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - A Moment in the Sun.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - A Moment in the Sun.mp3"
 
 
 Back to the Rain:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Swing
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -918,11 +951,12 @@ Back to the Rain (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Back to the Rain.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Back to the Rain.mp3"
 
 
 "Zoning Variance #5":
   type: Musical Composition
+  domain: What is this I don't even
   genre: World beat
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -943,11 +977,12 @@ Back to the Rain (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Zoning Variance No.5.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Zoning Variance No.5.mp3"
 
 
 Smedley the Medley:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Experimental music
   inception-date: ca 1996
   composed-on: Roland JV-30
@@ -969,13 +1004,14 @@ Smedley the Medley (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Smedley the Medley.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Smedley the Medley.mp3"
 
 
 ### rendered with timidity++ ###
 
 Fool:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Ragtime
   format: Song
   inception-date: ca 1997
@@ -995,13 +1031,14 @@ Fool (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Fool.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Fool.mp3"
 
 
 ### not recorded. ###
 
 Reality:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Alt rock
   format: Song
   inception-date: ca 1996
@@ -1015,6 +1052,7 @@ Reality:
 
 The Blank Dance:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Dance
   inception-date: ca 1997
   composed-on: Roland JV-30
@@ -1030,6 +1068,7 @@ The Blank Dance:
 
 Osborne Village:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Jazz fusion
   inception-date: ca 1994
   composed-on: Amiga 500
@@ -1090,6 +1129,7 @@ Interlude for Harp:
 
 Fluorescent Atrocious:
   type: Musical Composition
+  domain: What is this I don't even
   genre: Techno
   authors:
   - Chris Pressey
@@ -1103,7 +1143,7 @@ Fluorescent Atrocious:
     Here's what this icky techno piece tries to evoke: having a terrible
     hangover on the brightest morning of the summer while strolling
     through a garden that was planted by someone with a green
-    thumb -- it's very lush and in full bloom -- but a very poor sense of
+    thumb — it's very lush and in full bloom — but a very poor sense of
     how to lay out a garden.
 
 Fluorescent Atrocious (mp3):
@@ -1113,7 +1153,7 @@ Fluorescent Atrocious (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/What is this I don't even - Fluorescent Atrocious.mp3"
+  - "http://catseye.tc/music/W.i.t.i.d.E - Fluorescent Atrocious.mp3"
 
 
 # favourite composers:

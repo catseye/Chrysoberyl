@@ -1,0 +1,72 @@
+{# bespoke template #}
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul>
+{%- for thing in data|sort -%}
+  {%- if data[thing].type == 'Musical Composition' and
+        "What is this I don't even" in data[thing].auspices and
+        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] and
+        related('implementation-of', key=thing) -%}
+    <li>
+      <p>
+        <a href="{{ filekey(thing) }}">{{ thing }}</a>
+        (<i>{{ link_lower(data[thing].genre) }},
+         {{ link(data[thing].composed_on) }},
+         {{ data[thing].inception_date }}</i>)
+        —
+        {% for impl in related('implementation-of', key=thing)|sort %}
+          {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
+              <a class="download" href="{{ data[impl].links[0] }}">download {{ impl }}</a>
+          {% endif %}
+        {% endfor %}
+      </p>
+      {% if data[thing].description_html %}
+        <p>{{ data[thing].description_html }}</p>
+      {% endif %}
+      {% if data[thing].commentary_html %}
+        <p>{{ data[thing].commentary_html }}</p>
+      {% endif %}
+    </li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+
+<h3>Arrangements</h3>
+
+<ul>
+{%- for impl in data|sort -%}
+  {%- if data[impl].type == 'Implementation' and
+         data[impl].host_language == 'mp3' and 'links' in data[impl] and
+         "What is this I don't even" in data[impl].auspices and
+         "What is this I don't even" not in data[data[impl].implementation_of[0]].auspices and
+         data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] -%}
+    <li>
+      {% set thing = data[impl].implementation_of[0] %}
+      <p>
+        <a href="{{ filekey(thing) }}">{{ thing }}</a>
+        (<i>{{ link_lower(data[thing].genre) }},
+         {% if data[thing].composed_on and data[thing].inception_date -%}
+           {{ link(data[thing].composed_on) }},
+           {{ data[thing].inception_date }}
+         {%- endif %}</i>)
+        —
+        {% for impl in related('implementation-of', key=thing)|sort %}
+          {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
+              <a class="download" href="{{ data[impl].links[0] }}">download {{ impl }}</a>
+          {% endif %}
+        {% endfor %}
+      </p>
+      {% if data[thing].description_html %}
+        <p>{{ data[thing].description_html }}</p>
+      {% endif %}
+      {% if data[thing].commentary_html %}
+        <p>{{ data[thing].commentary_html }}</p>
+      {% endif %}
+    </li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+
+{% endblock content %}
