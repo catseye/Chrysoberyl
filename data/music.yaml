@@ -13,8 +13,7 @@ SID:
 
 MIDI:
   type: Music Format
-  # XXX fix this
-  no-specification: true
+  specification-link: http://www.midi.org/techspecs/smf.php
   authors: []
   paradigms: []
 
@@ -73,8 +72,7 @@ TiMidity++:
   type: Implementation
   implementation-of:
   - MIDI
-  # probably C99
-  host-language: Unknown language
+  host-language: C99
   description: |
     What some of the MIDI files here were rendered with (using `freepats` soundfont.)
   development-stage: mature
@@ -108,9 +106,21 @@ Sonant Live:
   - Sonant tracker format
   host-language: Javascript
   host-platform: HTML5
-  development-stage: mature
+  # beta
+  development-stage: work in progress
   links:
   - "http://sonantlive.bitsnbites.eu/tool/"
+  license: Unknown license
+
+Sonant Live:
+  type: Implementation
+  implementation-of:
+  - Sonant tracker format
+  host-language: Unknown language
+  host-platform: Windows
+  development-stage: mature
+  links:
+  - "http://www.pouet.net/prod.php?which=53615"
   license: Unknown license
 
 # -----------------------------------------------
@@ -125,6 +135,8 @@ The Biftek Shuffle:
   using-software: SID Editor
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Apparently, when I was young, I was obsessed with
     (a) the 12-bar blues progression,
@@ -142,6 +154,8 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
   using-software: SID Editor
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Pure experimentational weirdness with the C64's SID chip.
     The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
@@ -155,7 +169,7 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
 
 
 Theme to Nukeball:
@@ -166,6 +180,9 @@ Theme to Nukeball:
   inception-date: ca 1988
   authors:
   - Chris Pressey
+  # or maybe Cat's Eye Technologies? if there was actually a game to go with it...
+  auspices:
+  - What is this I don't even
   description: |
     This was the theme to a game I was trying to write for the [[Commodore 64]]
     called [[Nukeball]].  There was also an [[Untitled Video Game Theme|alternate choice]].
@@ -177,7 +194,7 @@ Theme to Nukeball (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Theme to Nukeball.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Theme to Nukeball.mp3"
   commentary: |
     I added the fade-out at the end with Audacity because otherwise it would
     loop indefinitely.
@@ -191,6 +208,8 @@ Tears on my Catbox:
   inception-date: ca 1988
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   description: |
     Quite short; could be a "game over" theme, or something.
 
@@ -201,7 +220,7 @@ Tears on my Catbox (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Tears on my Catbox.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Tears on my Catbox.mp3"
 
 
 Untitled Video Game Theme:
@@ -212,6 +231,8 @@ Untitled Video Game Theme:
   inception-date: ca 1989
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   description: |
     This was, I believe, an alternate [[Theme to Nukeball]].  I rather like it.
     (It cuts off sharply at the end because it was supposed to loop, but didn't.)
@@ -223,7 +244,7 @@ Untitled Video Game Theme (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Untitled Video Game Theme.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Untitled Video Game Theme.mp3"
 
 
 "Paige's Praise":
@@ -235,6 +256,8 @@ Untitled Video Game Theme (mp3):
   # also redone in DCMS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 
 Futons:
@@ -246,6 +269,8 @@ Futons:
   # redone as "Futons 1990" in DMCS and (unimpressively) as "Futon Landscape" in Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 
 ###### MED ######
@@ -258,6 +283,8 @@ After the Fact:
   inception-date: ca 1992
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I've been told that this sounds like it should be the theme music for a spy movie.
 
@@ -282,7 +309,7 @@ After the Fact (mp3):
   - lame
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - After the Fact.mp3"
+  - "http://catseye.tc/music/What is this I don't even - After the Fact.mp3"
 
 
 Anagnoresis:
@@ -293,6 +320,8 @@ Anagnoresis:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     "Anagnoresis" is either an alternate spelling for, or a typo for,
     "Anagnorisis", which means the moment some profound realization
@@ -319,7 +348,7 @@ Anagnoresis (mp3):
   - lame
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Anagnoresis.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Anagnoresis.mp3"
 
 
 Autumn Kiss:
@@ -330,6 +359,8 @@ Autumn Kiss:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     This has been described as vaguely Annie Lennox-like, at least how it
     mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
@@ -349,7 +380,7 @@ Autumn Kiss (mp3):
   converted-from: Autumn Kiss (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Autumn Kiss.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Autumn Kiss.mp3"
 
 
 Drat:
@@ -360,6 +391,8 @@ Drat:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
@@ -370,7 +403,7 @@ Drat (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Drat.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Drat.mp3"
 
 
 Go(Figure):
@@ -381,6 +414,8 @@ Go(Figure):
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     One of my favourites.  Originally done up in MED (a somewhat techno-ier
     rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
@@ -402,7 +437,7 @@ Go(Figure) [Amiga/Dance arrangement] (mp3):
   converted-from: Go(Figure) (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Go(Figure) (MED version).mp3"
+  - "http://catseye.tc/music/What is this I don't even - Go(Figure) [Amiga/dance arrangement].mp3"
 
 Go(Figure) [JV-30/Fusion arrangement] (mp3):
   type: Implementation
@@ -411,7 +446,7 @@ Go(Figure) [JV-30/Fusion arrangement] (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Go(Figure).mp3"
+  - "http://catseye.tc/music/What is this I don't even - Go(Figure) [JV-30/Fusion arrangement].mp3"
 
 
 Panic:
@@ -422,6 +457,8 @@ Panic:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Experimental strange dance music with lots of samples.  Samples on the general
     theme of panicking.
@@ -433,9 +470,14 @@ Panic (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Panic.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Panic.mp3"
 
 
+# TODO: retrocon this into "Corner Couple Suite":
+# movement I: Archibald and Elizabeth (Popcornish)
+# movement II: Marion and Kenny ("Swing thing")
+# movement III: ("6-8") -- Donald and Gertrude?  William and Harriet?
+# there are lots of options.  Unfortunately Leila does not intersect any masculine given names
 Popcornish:
   type: Musical Composition
   genre: Dance
@@ -444,6 +486,8 @@ Popcornish:
   using-software: Noisetracker MOD
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I think either this or [[Technodixie]] was my first try working with Amiga music modules.
     This is very similar to stuff I was put together on a drum machine when I attended an
@@ -457,7 +501,7 @@ Popcornish (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Popcornish.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Popcornish.mp3"
 
 
 Rainbird:
@@ -468,6 +512,8 @@ Rainbird:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Another pop ballad, this one with crude sound effects of a rainstorm in it.
     The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
@@ -488,7 +534,7 @@ Rainbird (mp3):
   converted-from: Rainbird (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Rainbird.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Rainbird.mp3"
 
 
 Red Quarks:
@@ -499,6 +545,8 @@ Red Quarks:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     A funky little tune with a somewhat strange musical structure — it kind of goes
     all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
@@ -519,7 +567,7 @@ Red Quarks (mp3):
   converted-from: Red Quarks (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Red Quarks.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Red Quarks.mp3"
 
 
 Retrograde:
@@ -530,6 +578,8 @@ Retrograde:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Probably the most conventional of my "[[Sci-fi]]" tunes.  One friend of mine
     found the melody horrendously catchy in an evil way such that he could not
@@ -550,7 +600,7 @@ Retrograde (mp3):
   converted-from: Retrograde (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Retrograde.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Retrograde.mp3"
 
 
 Stella Splendens:
@@ -563,6 +613,10 @@ Stella Splendens (MED):
   type: Implementation
   implementation-of:
   - Stella Splendens
+  authors:
+  - Chris Pressey
+  auspices:
+  - What is this I don't even
   host-language: MED
   license: Freely Redistributable
   inception-date: ca 1992
@@ -579,7 +633,7 @@ Stella Splendens (mp3):
   converted-from: Stella Splendens (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Stella Splendens.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Stella Splendens.mp3"
   commentary: |
     The MED module was intended to loop indefinitely.  This mp3 rendition
     repeats twice then fades out.
@@ -593,6 +647,8 @@ Technodixie:
   using-software: Noisetracker MOD
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
     very techno nor very dixieland -- well, if it is dixieland, it's, like, Hooked on Dixieland.
@@ -604,7 +660,7 @@ Technodixie (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Technodixie.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Technodixie.mp3"
 
 
 You Drive Me Wild:
@@ -615,6 +671,8 @@ You Drive Me Wild:
   using-software: MED
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I've been told this would make a good background music for a [[Platformer]],
     although I'm not sure I agree.  I do like the signature chord at the start, though;
@@ -636,7 +694,7 @@ You Drive Me Wild (mp3):
   converted-from: You Drive Me Wild (MED)
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - You Drive Me Wild.mp3"
+  - "http://catseye.tc/music/What is this I don't even - You Drive Me Wild.mp3"
 
 
 # ... lost ones ... 
@@ -651,6 +709,8 @@ So Fast and Easy:
   development-stage: lost
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 
 ###### DMCS ######
@@ -663,6 +723,8 @@ Theme to LOGS:
   using-software: DMCS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     LOGS stood for "Low Organized Games".  How, exactly, a game can
     be "low organized", I'll probably never figure out.
@@ -677,6 +739,8 @@ Coffee Break:
   using-software: DMCS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 Birdwatching:
   type: Musical Composition
@@ -688,6 +752,8 @@ Birdwatching:
   using-software: DMCS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I think I remember composing the theme to this on an electric piano at a friend's
     house after pulling an all-nighter.  It was supposed to be a very mellow tune
@@ -701,14 +767,14 @@ Birdwatching (MED):
   host-language: MED
   license: Freely Redistributable
 
-Birdwatching (MED) (mp3):
+Birdwatching [Amiga/fusion arrangement] (mp3):
   type: Implementation
   implementation-of:
   - Birdwatching
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Birdwatching (MED version).mp3"
+  - "http://catseye.tc/music/What is this I don't even - Birdwatching [Amiga/fusion arrangement].mp3"
 
 Radiance:
   type: Musical Composition
@@ -720,6 +786,8 @@ Radiance:
   using-software: DMCS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 Foxcub:
   type: Musical Composition
@@ -731,6 +799,8 @@ Foxcub:
   using-software: DMCS
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 
 # art music...
@@ -746,6 +816,8 @@ Sardonyx:
   - Orchestra
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   
 
 ###### Cakewalk ######
@@ -760,6 +832,8 @@ Ice Jam:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I consciously tried to write something "Björk-esque" for this one
     (not really succeeding, at least not all the way.)
@@ -771,7 +845,7 @@ Ice Jam (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Ice Jam.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Ice Jam.mp3"
 
 
 Jack and Jill:
@@ -782,6 +856,8 @@ Jack and Jill:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     This was going to be an actual song, once, with lyrics and everything.
 
@@ -792,7 +868,7 @@ Jack and Jill (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Jack and Jill.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Jack and Jill.mp3"
 
 
 A Moment in the Sun:
@@ -803,6 +879,8 @@ A Moment in the Sun:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     My only foray into reggae.  A happy sort of tune;
     it was originally supposed to be followed by [[Back to the Rain]]
@@ -815,7 +893,7 @@ A Moment in the Sun (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - A Moment in the Sun.mp3"
+  - "http://catseye.tc/music/What is this I don't even - A Moment in the Sun.mp3"
 
 
 Back to the Rain:
@@ -826,6 +904,8 @@ Back to the Rain:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Very, very short.  Intended to be preceded by [[A Moment in the Sun]]
     and serves more as an outro for that tune.  Or, maybe it could be used as the
@@ -838,7 +918,7 @@ Back to the Rain (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Back to the Rain.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Back to the Rain.mp3"
 
 
 "Zoning Variance #5":
@@ -849,6 +929,8 @@ Back to the Rain (mp3):
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     The title is meaningless; it's some kind
     of simple rustic air with a sitar duet jammed into the bridge.
@@ -861,7 +943,7 @@ Back to the Rain (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Zoning Variance No.5.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Zoning Variance No.5.mp3"
 
 
 Smedley the Medley:
@@ -872,6 +954,8 @@ Smedley the Medley:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     I had three tunes that didn't stand on their own.  They don't go together
     either, so I put them together.  I've been told it's reminiscent of
@@ -885,7 +969,7 @@ Smedley the Medley (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Smedley the Medley.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Smedley the Medley.mp3"
 
 
 ### rendered with timidity++ ###
@@ -899,6 +983,8 @@ Fool:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     A sort of hokey ragtime ballad thing.
 
@@ -909,7 +995,7 @@ Fool (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Fool.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Fool.mp3"
 
 
 ### not recorded. ###
@@ -923,6 +1009,8 @@ Reality:
   using-software: Cakewalk
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
 
 
 The Blank Dance:
@@ -934,6 +1022,8 @@ The Blank Dance:
   development-stage: unfinished
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
     Unfinished.  The word "blank" in the title refers to the [[Esolang|esolang]] [[Blank]].
 
@@ -947,8 +1037,11 @@ Osborne Village:
   development-stage: unfinished
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   commentary: |
-    
+    An earlier version (MED) was lost but a later Cakewalk/MIDI version is still
+    around but sorely unfinished.
 
 
 # art music
@@ -1000,6 +1093,8 @@ Fluorescent Atrocious:
   genre: Techno
   authors:
   - Chris Pressey
+  auspices:
+  - What is this I don't even
   composed-on: Sonant Live
   # mmm... "Firefox"?
   using-software: Sonant Live
@@ -1018,7 +1113,7 @@ Fluorescent Atrocious (mp3):
   host-language: mp3
   license: Freely Redistributable
   links:
-  - "http://catseye.tc/music/Chris Pressey - Fluorescent Atrocious.mp3"
+  - "http://catseye.tc/music/What is this I don't even - Fluorescent Atrocious.mp3"
 
 
 # favourite composers:
