@@ -110,11 +110,11 @@ Sonant Live:
   - "http://sonantlive.bitsnbites.eu/tool/"
   license: Unknown license
 
-Sonant Live:
+Sonant:
   type: Implementation
   implementation-of:
   - Sonant tracker format
-  host-language: Unknown language
+  host-language: native code
   host-platform: Windows
   development-stage: mature
   links:
@@ -623,6 +623,10 @@ Stella Splendens:
   genre: Medieval
   authors:
   - Anonymous
+  description: |
+    A polyphonic medieval song from the 14th century, or possibly earlier.
+  links:
+  - "http://en.wikipedia.org/wiki/Stella_Splendens"
 
 Stella Splendens (MED):
   type: Implementation
@@ -655,6 +659,10 @@ Stella Splendens [Amiga arrangement] (mp3):
   links:
   - "http://catseye.tc/music/W.i.t.i.d.E - Stella Splendens [Amiga arrangement].mp3"
   commentary: |
+    This is an mp3 rendering of an Amiga MED module arrangement of the medieval
+    piece [[Stella Splendens]].  It is not a traditional arrangement, but neither is it
+    particularly techno nor particularly ambient.
+    
     The MED module was intended to loop indefinitely.  This mp3 rendition
     repeats twice then fades out.
 
