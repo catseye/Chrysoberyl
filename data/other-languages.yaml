@@ -15,7 +15,7 @@ ANSI C:
     description: Interesting documents about the standardization of C
     url: http://www.lysator.liu.se/c/
   commentary: |
-    When an implementation here says it requires ANSI C, in (in theory)
+    When an implementation here says it requires ANSI C, it (in theory)
     means that the source files in it conform to C89 (also,
     and more popularly, known as ANSI C.)
     We usually test them with [gcc 3.4](http://gcc.gnu.org/gcc-3.4/),

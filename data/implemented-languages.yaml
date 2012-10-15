@@ -157,6 +157,7 @@ sf2tab:
   type: Implementation
   implementation-of:
   - Smallfuck
+  summary: Compiles Smallfuck programs into lookup tables
   reference: false
   license: BSD license
   host-language: ANSI C
@@ -170,7 +171,9 @@ sf2tab:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  # locate this in the dipple
+  in-distributions:
+  - The Dipple
+  - sf2tab distribution
 
 
 Thue:
