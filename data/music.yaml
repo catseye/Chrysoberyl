@@ -53,7 +53,7 @@ Sonant tracker format:
 Roland JV-30:
   type: Musical Instrument
   description: |
-    What most of the MIDI files here were composed on (along with [[Cakewalk]]).
+    It is what most of the MIDI files here were composed on (along with [[Cakewalk]]).
 
 ### tools ###
 
@@ -62,9 +62,11 @@ xmp:
   implementation-of:
   - MED
   - Noisetracker MOD
-  # probably C99
-  host-language: Unknown language
+  # and many others! that do not concern me
+  host-language: C99
   license: GPL
+  links:
+  - "http://xmp.sourceforge.net/"
 
 TiMidity++:
   type: Implementation
@@ -72,7 +74,7 @@ TiMidity++:
   - MIDI
   host-language: C99
   description: |
-    What some of the MIDI files here were rendered with (using `freepats` soundfont.)
+    It is what some of the MIDI files here were rendered with (using `freepats` soundfont.)
   development-stage: mature
   license: GPL
   links:
@@ -84,9 +86,12 @@ Cakewalk:
   - MIDI
   # probably C99
   host-language: Unknown language
+  host-platform: Windows
+  prebuilt-for-platforms:
+  - Windows
   development-stage: mature
   description: |
-    What most of the MIDI files here were composed on (along with a [[Roland JV-30]]).
+    It is what most of the MIDI files here were composed on (along with a [[Roland JV-30]]).
   license: Proprietary
 
 SID Editor:
@@ -114,8 +119,10 @@ Sonant:
   type: Implementation
   implementation-of:
   - Sonant tracker format
-  host-language: native code
+  host-language: Unknown language
   host-platform: Windows
+  prebuilt-for-platforms:
+  - Windows
   development-stage: mature
   links:
   - "http://www.pouet.net/prod.php?which=53615"
@@ -405,11 +412,19 @@ Drat:
   commentary: |
     Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
+Drat (MED):
+  type: Implementation
+  implementation-of:
+  - Drat
+  host-language: MED
+  license: Freely Redistributable
+
 Drat (mp3):
   type: Implementation
   implementation-of:
   - Drat
   host-language: mp3
+  converted-from: Drat (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/W.i.t.i.d.E - Drat.mp3"
@@ -474,11 +489,19 @@ Panic:
     Experimental strange dance music with lots of samples.  Samples on the general
     theme of panicking.
 
+Panic (MED):
+  type: Implementation
+  implementation-of:
+  - Panic
+  host-language: MED
+  license: Freely Redistributable
+
 Panic (mp3):
   type: Implementation
   implementation-of:
   - Panic
   host-language: mp3
+  converted-from: Panic (MED)
   license: Freely Redistributable
   links:
   - "http://catseye.tc/music/W.i.t.i.d.E - Panic.mp3"

@@ -58,7 +58,11 @@
 {% endif %}
 
 {% if non_ref_dist_implementations() %}
-  <h2>Other Implementations</h2>
+  {% if online_implementations or reference_distribution %}
+    <h2>Other Implementations</h2>
+  {% else %}
+    <h2>Implementations</h2>
+  {% endif %}
   <ul>
     {% for impl in non_ref_dist_implementations()|sort %}
       <li>

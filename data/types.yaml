@@ -51,6 +51,16 @@ Programming Language Family:
 # implementations:
 Implementation:
   type: type
+  description: |
+    These are implementations of *all* kinds of things:
+    [[Programming Language|programming languages]],
+    [[Platform|platforms]],
+    [[Library|libraries]],
+    [[Tool|tools]],
+    [[Game|games]],
+    [[Electronics Project|electronics projects]],
+    [[Musical Composition|musical compositions]], and so forth.
+    For a more fine-grained breakdown, see those individual categories.
 Implementation Type:
   type: type
 Development Stage:
@@ -65,19 +75,29 @@ Distribution:
 # implementables:
 Game:
   type: type
-  our-stuff: Games by Chris Pressey
+  description: |
+    For a list of just those games produced by [[Cat's Eye Technologies]], see
+    [[Games by Chris Pressey]].
 Library:
   type: type
-  our-stuff: Tools by Chris Pressey
+  description: |
+    For a list of just those libraries produced by [[Cat's Eye Technologies]], see
+    [[Tools by Chris Pressey]].
 Tool:
   type: type
-  our-stuff: Tools by Chris Pressey
+  description: |
+    For a list of just those tools produced by [[Cat's Eye Technologies]], see
+    [[Tools by Chris Pressey]].
 Platform:
   type: type
-  our-stuff: Tools by Chris Pressey
+  description: |
+    For a list of just those platforms produced by [[Cat's Eye Technologies]], see
+    [[Tools by Chris Pressey]].
 Programming Language:
   type: type
-  our-stuff: Chris Pressey's Lingography
+  description: |
+    For a list of just those languages produced by [[Cat's Eye Technologies]], see
+    [[Chris Pressey's Lingography]].
   commentary: |
     There are two things about programming languages that every programmer
     should know.
@@ -89,7 +109,7 @@ Programming Language:
     these are only attempts to capture the symphony, they aren't the
     symphony itself.
     
-    Simlarly, take a programming language, like Java. There are
+    Simlarly, take a programming language, like [[Java]]. There are
     implementations of Java — there's Sun's `javac`, for instance, but
     there are also IBM's `jikes` and GNU's `gcj`. And there are
     specifications of Java — the official spec is from Sun (much like the
@@ -110,7 +130,9 @@ Programming Language:
     [[C++]] no matter *what* the software project is.
 Musical Composition:
   type: type
-  our-stuff: Music by What is this I don't even
+  description: |
+    For a list of just those compositions by [[What is this I don't even]], see
+    [[Music by What is this I don't even]].
 Music Format:
   type: type
 Electronics Project:
