@@ -27,6 +27,7 @@ class Renderer(object):
         node = self.data[key]
         template_filename = 'base.html'
         filename = filekey(key)
+        filename = re.sub(':', '_', filename)
         if node['type'] != 'type' and os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
         else:

@@ -188,6 +188,7 @@ def lint_dists(data, clone_dir, host_language):
                 root_files = []
                 for filename in filenames:
                     if filename not in ('LICENSE', 'UNLICENSE', 'README.markdown',
+                                        'TODO.markdown', 'HISTORY.markdown',
                                         'test.sh', 'make.sh', 'make-cygwin.sh', 'Makefile',
                                         '.hgtags', '.hgignore', '.gitignore'):
                         root_files.append(filename)
@@ -197,8 +198,8 @@ def lint_dists(data, clone_dir, host_language):
                 root_dirs = []
                 for dirname in dirnames:
                     if dirname not in ('bin', 'contrib', 'dialect', 'disk',
-                                       'doc', 'ebin', 'eg', 'impl', 'priv',
-                                       'script', 'src',
+                                       'doc', 'ebin', 'eg', 'impl', 'lib', 'priv',
+                                       'script', 'src', 'tests',
                                        '.hg'):
                         root_dirs.append(dirname)
                 if root_dirs:
