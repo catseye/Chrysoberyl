@@ -867,7 +867,7 @@ emmental.hs:
   - Emmental
   in-distribution: Emmental distribution
   reference: true
-  license: BSD license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Haskell
 

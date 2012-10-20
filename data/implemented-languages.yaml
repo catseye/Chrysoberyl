@@ -1,5 +1,40 @@
 # encoding: UTF-8
 # actually some of these do have reference distributions
+Aubergine:
+  type: Programming Language
+  paradigms:
+  - Imperative
+  - Self-modifying
+  genre: Esolang
+  authors:
+  - Boily
+  esowiki: Aubergine
+  computational-class: Turing-complete
+  specification-link: esowiki
+  development-stage: mature
+  commentary: |
+    Aubergine is an esolang -- perhaps nothing spectacular, but somewhat cute.
+
+aubergine.hs:
+  type: Implementation
+  implementation-of:
+  - Aubergine
+  reference: false
+  license: Public Domain
+  host-language: Haskell
+  implementation-type: interpreter
+  commentary: |
+    I implemented Aubergine because the reference interpreter is buggy and
+    I wanted a version that actually implemented the unbounded integers that
+    the language description suggests.  After implementing it, I was familiar
+    enough with it to write a sketch of a proof of its [[Turing-complete]]ness.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  download-link: http://esolangs.org/wiki/Aubergine/aubergine.hs
+
+
 brainfuck:
   type: Programming Language
   paradigms:
