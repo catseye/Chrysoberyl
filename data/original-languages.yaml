@@ -127,7 +127,7 @@ forest-rewriter.scm:
   - Arboretuum
   in-distribution: Arboretuum distribution
   reference: true
-  license: BSD license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Scheme
 
@@ -2621,10 +2621,8 @@ sbeezg.erl:
   implementation-of:
   - Sbeezg
   in-distribution: Sbeezg distribution
-  prebuilt-for-platforms:
-  - Erlang
   reference: true
-  license: BSD license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Erlang
 
@@ -2872,7 +2870,7 @@ squishy2k.pl:
   - Squishy2K
   in-distribution: Squishy2K distribution
   reference: true
-  license: BSD license
+  license: Public Domain
   implementation-type: interpreter
   host-language: Perl
 

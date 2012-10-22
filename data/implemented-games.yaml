@@ -27,7 +27,7 @@ animals.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD license
+  license: Public Domain
   inception-date: ca 1999
   host-language: Erlang
   interface: terminal
@@ -68,7 +68,7 @@ flip.erl:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  license: BSD license
+  license: Public Domain
   inception-date: Jul 31 2002
   host-language: Erlang
   interface: terminal
