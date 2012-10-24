@@ -62,7 +62,7 @@ Release Engineering:
   type: Discipline
   description: |
     Historically, Cat's Eye Technologies has usually identified each release
-    of a software project with only a release number. The release number is
+    of a software distribution with only a release number. The release number is
     really just the date that the software was released, formatted as
     `YYYY.MMDD`. Each of `Y`, `M`, and `D` is a single digit, so that it
     sorts nicely, even in a purely lexicographical sort order. In
@@ -70,8 +70,8 @@ Release Engineering:
     choice, but it's not as nicely symmetrical.
     
     Using only the release date to identify releases mostly suffices for
-    projects like ours, which rarely have any maintenance needs warranting
-    branches and such. But most of our projects do implement
+    distributions like ours, which rarely have any maintenance needs warranting
+    branches and such. But most of our distributions do contain implementations of
     [[Programming Language|programming languages]],
     and these languages may or may not change
     between releases. For example, if we're just fixing bugs in a feature of
@@ -79,7 +79,7 @@ Release Engineering:
     not a change to the language. But if all we use to identify it is a
     release number, you can't tell if it's a change to the language or not.
     
-    In addition, some of our projects used a different convention, usually
+    In addition, some of our distributions used a different convention, usually
     two numbers `A.B` which resembled a fraction in decimal notation: often
     `B` would be two digits (like 94) which did not count the number of
     minor releases since the last major release cycle, but rather tried to
@@ -90,7 +90,7 @@ Release Engineering:
     Realizing what a mess this is, we have strived to revise our release
     identification system, as well as to make it more consistent.
     
-    With few exceptions, every project now carries both a version and a
+    With few exceptions, every distribution now carries both a version and a
     revision. The version consists of a major version number and a minor
     version number, in the format `A.B`, where `A` and `B` are both
     non-negative integers. The revision is the same as the old release
@@ -101,21 +101,21 @@ Release Engineering:
     
     The rules for when these numbers change are as follows:
     
-    -   If a new release of a project has the same interface (syntax and
-        semantics, API, protocol, or what have you depending on what kind of
-        project it is) as the previous release of that project, then the
-        version will be the same as the old project, but the revision will
-        be different.
-    -   If a new release of a project is more-or-less backwards-compatible
+    -   If a new release of a distribution supports the same interface
+        (syntax and semantics, API, protocol, or what have you) as the
+        previous release of that distribution, then the version
+        will be the same as the old distribution, but the revision will be
+        different.
+    -   If a new release of a distribution is more-or-less backwards-compatible
         with the previous release, then the major version will be the same,
         but the minor version and revision will be different.
-    -   If a new release of a project is distinctly *not*
+    -   If a new release of a distribution is distinctly *not*
         backwards-compatible with the previous release, then the major
         version will be different, the minor version is typically reset to
         zero, and the revision will of course be the date of the release.
 
 
-Project Organization:
+Distribution Organization:
   type: Discipline
   description: |
     This is a rough guide to how [[Cat's Eye Technologies]]'
@@ -149,7 +149,7 @@ Project Organization:
         A short text document explaining what license or licenses the
         content of the distribution is available under.  The filename
         `UNLICENSE` is used instead if (and only if) the entire contents of
-        the distribution are in the public domain.
+        the distribution are in the [[Public Domain|public domain]].
     
     -   `make.sh` or `Makefile`
         
@@ -166,7 +166,7 @@ Project Organization:
         don't worry about it.  For now, an exit code of 0 means pass,
         anything else means failure.
     
-    Certain files in the root project directory have standard meanings as
+    Certain files in the root distribution directory have standard meanings as
     well:
     
     -   `bin`
@@ -224,7 +224,8 @@ Project Organization:
     -   `eg`
         
         Where examples should be kept, particularly example programs
-        in projects which implement programming languages.
+        in distributions which contain implementations of programming
+        languages.
         
     -   `impl`
         
