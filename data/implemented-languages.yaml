@@ -238,6 +238,8 @@ thue.c:
   type: Implementation
   implementation-of:
   - Thue
+  reference: true
+  in-distribution: Thue distribution
   authors:
   - John Colagioia
   license: Unknown license
@@ -249,6 +251,7 @@ thue.py:
   type: Implementation
   implementation-of:
   - Thue
+  in-distribution: Thue distribution
   authors:
   - Frédéric van der Plancke
   license: Public Domain
@@ -259,6 +262,7 @@ thue.rb:
   type: Implementation
   implementation-of:
   - Thue
+  in-distribution: Thue distribution
   authors:
   - Chris Pressey
   inception-date: Sep 10, 2012

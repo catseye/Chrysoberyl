@@ -22,15 +22,16 @@
   <p>{{ link(variant_of) }}</p>
 {% endif %}
 
-<h2>Programming Paradigms</h2>
-
-<ul>
-  {% for paradigm in paradigms %}
-    <li>
-        {{ link(paradigm) }}
-    </li>
-  {% endfor %}
-</ul>
+{% if paradigms %}
+  <h2>Programming Paradigms</h2>
+  <ul>
+    {% for paradigm in paradigms %}
+      <li>
+          {{ link(paradigm) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
 {% endblock properties %}
 
