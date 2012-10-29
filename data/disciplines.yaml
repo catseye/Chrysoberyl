@@ -157,7 +157,12 @@ Distribution Organization:
         from the sources included in the distribution.  This may also be
         a `Makefile`, but `Makefile`s are usually put in the `src`
         directory.  `make.sh` may just `cd` to that directory and run `make`.
+    
+    -   `clean.sh`
         
+        A Bourne shell script to clean up after building, in lieu of a
+        `make clean` command.
+    
     -   `test.sh`
         
         A Bourne shell script which runs tests for the distribution.  The
@@ -194,6 +199,14 @@ Distribution Organization:
         demands it.  (That is, `tool` rather than `tool.py`, but `tool.com`
         is OK.)
         
+    -   `demo`
+        
+        A directory of examples of how the contents of the distribution might
+        be used.  Somewhat interchangeable with `eg`, except that `eg` is
+        primarily for example programs for a programming language
+        (or configuration files, etc.) while `demo` contains demonstrations
+        of how the tools (etc.) in the distribution might be used.
+        
     -   `dialect`
         
         For distributions of programming (and other) languages, this is
@@ -225,7 +238,10 @@ Distribution Organization:
         
         Where examples should be kept, particularly example programs
         in distributions which contain implementations of programming
-        languages.
+        languages.  Somewhat interchangeable with `demo`, except that `demo`
+        is primarily for demonstrations of how the tools (etc.) in the
+        distribution might be used, while `eg` contains examples programs
+        for a programming language (or configuration files, etc.)
         
     -   `impl`
         

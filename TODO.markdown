@@ -23,6 +23,8 @@ structure
 templates
 ---------
 
+Don't show discontinued distributions inline.
+
 Nodes with blank article cause footer to be pushed down below viewable area.
 
 "It is distributed in the Flobnar distribution and it is distributed

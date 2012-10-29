@@ -156,6 +156,21 @@ def test_repos(data, clone_dir):
     for_each_repo(data, clone_dir, test_repo)
 
 
+OK_ROOT_FILES = (
+    'LICENSE', 'UNLICENSE',
+    'README.markdown', 'TODO.markdown', 'HISTORY.markdown',
+    'test.sh', 'clean.sh',
+    'make.sh', 'make-cygwin.sh', 'Makefile',
+    '.hgtags', '.hgignore', '.gitignore',
+)
+OK_ROOT_DIRS = (
+    'bin', 'contrib', 'demo', 'dialect',
+    'disk', 'doc', 'ebin', 'eg',
+    'impl', 'lib', 'priv', 'script',
+    'src', 'tests',
+    '.hg',
+)
+
 def lint_dists(data, clone_dir, host_language):
     problems = {}
 
@@ -187,20 +202,14 @@ def lint_dists(data, clone_dir, host_language):
             if root == '.':
                 root_files = []
                 for filename in filenames:
-                    if filename not in ('LICENSE', 'UNLICENSE', 'README.markdown',
-                                        'TODO.markdown', 'HISTORY.markdown',
-                                        'test.sh', 'make.sh', 'make-cygwin.sh', 'Makefile',
-                                        '.hgtags', '.hgignore', '.gitignore'):
+                    if filename not in OK_ROOT_FILES:
                         root_files.append(filename)
                 if root_files:
                     problems[distribution].append("Junk files in root: %s" % root_files)
 
                 root_dirs = []
                 for dirname in dirnames:
-                    if dirname not in ('bin', 'contrib', 'dialect', 'disk',
-                                       'doc', 'ebin', 'eg', 'impl', 'lib', 'priv',
-                                       'script', 'src', 'tests',
-                                       '.hg'):
+                    if dirname not in OK_ROOT_DIRS:
                         root_dirs.append(dirname)
                 if root_dirs:
                     problems[distribution].append("Junk dirs in root: %s" % root_dirs)
