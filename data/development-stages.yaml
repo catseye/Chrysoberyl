@@ -18,7 +18,7 @@ archival:
   type: Development Stage
   description: |
     This means it has a repository on Github and/or Bitbucket, but I have
-    no plans to develop it at all.
+    no plans to develop it at all.  Compare [[archived]].
 unfinished:
   type: Development Stage
   description: |
@@ -27,7 +27,7 @@ archived:
   type: Development Stage
   description: |
     This means I have no plans for it all not, not even putting it in
-    a repository on Github and/or Bitbucket.
+    a repository on Github and/or Bitbucket.  Compare [[archival]].
 abandoned:
   type: Development Stage
 lost:

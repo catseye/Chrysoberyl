@@ -185,6 +185,13 @@ Cabra distribution:
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip
 
+Castile distribution: 
+  type: Distribution
+  github: catseye/Castile
+  bitbucket: catseye/castile
+  issue-tracker: github
+  releases: []
+
 Cfluviurrh distribution: 
   type: Distribution
   github: catseye/Cfluviurrh

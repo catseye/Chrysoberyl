@@ -745,6 +745,30 @@ ruby 1.8.7:
     http://www.ruby-lang.org/en/about/license.txt
 
 
+Rust:
+  type: Programming Language
+  genre: Production language
+  # not really OO, more like algebraic type classes; should add that?
+  paradigms:
+  - Imperative
+  computational-class: Turing-complete
+  standards-body: http://www.rust-lang.org/
+  development-stage: work in progress
+  authors: []
+
+rust (Rust):
+  type: Implementation
+  reference: true
+  implementation-of:
+  - Rust
+  implementation-type: compiler
+  host-language: Rust
+  target-language: native code
+  license: Unknown license
+  prebuilt-for-platforms:
+  - native code
+
+
 # should call this R5RS Scheme
 Scheme: 
   type: Programming Language

@@ -603,11 +603,64 @@ Carriage.hs:
   type: Implementation
   implementation-of:
   - Carriage
-#  in-distribution: Cabra distribution
+#  in-distribution: Carriage distribution
   reference: true
   license: Public Domain
   implementation-type: interpreter
   host-language: Haskell
+
+
+Castile:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Imperative
+  - Functional
+  description: |
+    Castile is an unremarkable programming language which exists mainly
+    because an unremarkable evaluator/compiler for it was written.  It is
+    a bit like [[ANSI C]] except with proper union types (and no typecasts.)  Local
+    variables are mutable, but arguments and globals aren't.  The compiler
+    supports several backends, including [[Javascript]] and [[Ruby]].
+  inception-date: Nov 21, 2012
+  development-stage: not fully complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  etymology:
+  - soap
+  influences:
+  - Eightebed
+  - Rust
+  computational-class: believed Turing-complete
+  sample: |
+    fun foo(a, b: integer|string) {
+      r = a;
+      typecase b is integer {
+        r = r + b;
+      };
+      typecase b is string {
+        r = r + len(b);
+      };
+      r
+    }
+    main = fun() {
+      a = foo(a, 333 as integer|string);
+      a = foo(a, "hiya" as integer|string);
+      a /* should output 337 */
+    }
+
+castile.py:
+  type: Implementation
+  implementation-of:
+  - Castile
+  in-distribution: Castile distribution
+  reference: true
+  license: Unknown license
+  # XXX and compiler to Javascript, Ruby, stackmac, almost C...
+  implementation-type: interpreter
+  host-language: Python
 
 
 Circute:
