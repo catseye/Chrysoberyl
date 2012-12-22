@@ -83,6 +83,8 @@ Bully automaton:
   type: Programming Paradigm
 Cellular automaton:
   type: Programming Paradigm
+Concatenative:
+  type: Programming Paradigm
 Continuation-passing:
   type: Programming Paradigm
 Declarative:

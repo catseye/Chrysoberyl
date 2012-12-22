@@ -165,7 +165,7 @@ OK_ROOT_FILES = (
 )
 OK_ROOT_DIRS = (
     'bin', 'contrib', 'demo', 'dialect',
-    'disk', 'doc', 'ebin', 'eg',
+    'disk', 'doc', 'ebin', 'eg', 'images',
     'impl', 'lib', 'priv', 'script',
     'src', 'tests',
     '.hg',

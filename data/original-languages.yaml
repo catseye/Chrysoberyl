@@ -574,6 +574,42 @@ cabra.hs:
     No parser.
 
 
+Carriage:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Concatenative
+  description: |
+    Carriage is the result of various, not-entirely-successful attempts to
+    design a "pure" concatenative language — one in which the program
+    texts are monoids and nothing but monoids (no quoting operators or
+    the like.)  The result was midly unusual — subroutines are specified
+    by indices into an area of the stack which contains program symbols,
+    thus may overlap — and was released as an esolang.
+  inception-date: Nov 2012
+  development-stage: not fully complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  etymology:
+  - vehicle
+  esowiki: Carriage
+  specification-link: esowiki
+  influences: []
+  computational-class: unknown computational class
+
+Carriage.hs:
+  type: Implementation
+  implementation-of:
+  - Carriage
+#  in-distribution: Cabra distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Haskell
+
+
 Circute:
   type: Programming Language
   genre: Esolang
