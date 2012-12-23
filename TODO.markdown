@@ -1,6 +1,37 @@
 Chrysoberyl TODO
 ================
 
+higher priority
+---------------
+
+News template, with news items inline, sorted by date, and
+with anchors, that the links in the feed match up with.
+
+News archive.  (Could be the News Item index, sorted by date.)
+
+News dates should be real date objects, so we can sort by them.
+
+Render images.  (LED-386, Mildred, games...)
+
+Render documentation to a separate directory and link to it.
+
+Some replacement for project page.  (Featured?)
+
+For (in theory) any item, show all lists that it is present in.
+
+styling
+-------
+
+use black background for nav header:
+
+    Cat's Eye Technologies       Home News About Featured Search
+
+use white background for all else.
+
+use two-column layout for (thing, thing distribution)
+
+Don't have separate distribution nodes for ref dists.
+
 tool
 ----
 
@@ -54,17 +85,6 @@ content
 -------
 
 Link Chrysoberyl to Chrysoberyl distribution somehow.
-
-news
-----
-
-News template, with news items inline, sorted by date, and
-with anchors, that the links in the feed match up with.
-
-News archive.  (Could be the News Item index, sorted by date.)
-
-News dates should be real date objects, so we can sort by them.
-
 
 perhaps...
 ----------
