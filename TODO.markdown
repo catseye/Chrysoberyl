@@ -4,8 +4,6 @@ Chrysoberyl TODO
 higher priority
 ---------------
 
-Some replacement for project page.  (Featured?)
-
 Render documentation to a separate directory and link to it.
 
 As part of that: put images inline.  (LED-386, Mildred, games...)

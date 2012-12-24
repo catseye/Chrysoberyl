@@ -1,0 +1,28 @@
+{# bespoke template #}
+{% extends "base.html" %}
+
+{% block content %}
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Type</th>
+    <th>Inception Date</th>
+    <th>Development Stage</th>
+  </tr>
+{%- for thing in data|sort -%}
+  {%- if ("What is this I don't even" in data[thing].auspices or
+          "Cat's Eye Technologies" in data[thing].auspices) and
+        data[thing].type != 'Implementation' and
+        data[thing].development_stage not in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
+    <tr>
+      <td><a href="{{ filekey(thing) }}">{{ thing }}</a></td>
+      <td>{{ link(data[thing].type) }}</td>
+      <td>{{ data[thing].inception_date }}</td>
+      <td>{{ data[thing].development_stage }}</td>
+    </tr>
+  {%- endif -%}
+{%- endfor -%}
+</table>
+
+{% endblock content %}
