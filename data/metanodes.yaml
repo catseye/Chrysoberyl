@@ -5,3 +5,11 @@
   description: |
     This page allows you to perform an advanced query on the contents
     of [[Chrysoberyl]].  (Well, not all that advanced yet, but it has potential.)
+News:
+  type: Metanode
+  description: |
+    The latest news from [[Cat's Eye Technologies]].
+Project Matrix:
+  type: Metanode
+  description: |
+    A bunch of projects that [[Cat's Eye Technologies]] has worked on.

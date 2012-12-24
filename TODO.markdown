@@ -4,18 +4,11 @@ Chrysoberyl TODO
 higher priority
 ---------------
 
-News template, with news items inline, sorted by date, and
-with anchors, that the links in the feed match up with.
-
-News page: same as the News Item index, but sorted by date.
-
-Render images.  (LED-386, Mildred, games...)
+Some replacement for project page.  (Featured?)
 
 Render documentation to a separate directory and link to it.
 
-Some replacement for project page.  (Featured?)
-
-For (in theory) any item, show all lists that it is present in.
+As part of that: put images inline.  (LED-386, Mildred, games...)
 
 styling
 -------
@@ -48,6 +41,8 @@ structure
 ---------
 
 `in-distributions`, a list.
+
+For (in theory) any item, show all lists that it is present in.
 
 templates
 ---------

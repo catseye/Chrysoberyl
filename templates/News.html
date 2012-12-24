@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block heading %}
+  <hgroup id="heading">
+    <h1>News</h1>
+  </hgroup>
+{% endblock %}
+
+{% block content %}
+
+<ul>
+{%- for thing in news_items() -%}
+  <li>
+      {{ data[thing].news_date }}: <a href="{{ filekey(thing) }}">{{ thing }}</a>
+  </li>
+{%- endfor -%}
+</ul>
+
+{% endblock content %}

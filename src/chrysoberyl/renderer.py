@@ -186,6 +186,15 @@ class Renderer(object):
                     languages.append(thing)
             return sorted(languages, key=lambda x: self.data[x]['inception-date'])
 
+        def news_items():
+            """Bespoke function, because we want to sort them by news-date"""
+            items = []
+            for thing in self.data:
+                node = self.data[thing]
+                if node['type'] == 'News Item':
+                    items.append(thing)
+            return reversed(sorted(items, key=lambda x: self.data[x]['news-date']))
+
         # functions
         context['filekey'] = filekey
         context['related'] = related
@@ -201,6 +210,7 @@ class Renderer(object):
         context['link_lower'] = link_lower
         context['linked_list'] = linked_list
         context['lingography'] = lingography
+        context['news_items'] = news_items
 
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
