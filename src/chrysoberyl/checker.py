@@ -1,5 +1,6 @@
 # encoding: UTF-8
 
+from datetime import datetime
 import re
 
 
@@ -147,7 +148,16 @@ def check_chrysoberyl_data(data):
               assert node['inception-date'] != 'Unknown'
               node['inception-date'] = ApproximateDate(str(node['inception-date']))
       except Exception:
-          print "'%s' has bad date '%s'" % (key, node['inception-date'])
+          print "'%s' has bad inception-date '%s'" % (key, node['inception-date'])
+          raise
+      try:
+          if 'news-date' in node:
+              assert node['news-date'] != 'Unknown'
+              node['news-date'] = datetime.strptime(
+                  str(node['news-date']), '%a, %d %b %Y %H:%M:%S GMT'
+              )
+      except Exception:
+          print "'%s' has bad news-date '%s'" % (key, node['news-date'])
           raise
       check_optional_scalar_ref(data, key, node, 'domain')
       check_optional_list_ref(data, key, node, 'see-also')

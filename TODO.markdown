@@ -7,9 +7,7 @@ higher priority
 News template, with news items inline, sorted by date, and
 with anchors, that the links in the feed match up with.
 
-News archive.  (Could be the News Item index, sorted by date.)
-
-News dates should be real date objects, so we can sort by them.
+News page: same as the News Item index, but sorted by date.
 
 Render images.  (LED-386, Mildred, games...)
 
