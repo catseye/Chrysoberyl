@@ -9,17 +9,36 @@
     <th>Type</th>
     <th>Inception Date</th>
     <th>Development Stage</th>
+    <th>Quick Links</th>
   </tr>
 {%- for thing in data|sort -%}
   {%- if ("What is this I don't even" in data[thing].auspices or
           "Cat's Eye Technologies" in data[thing].auspices) and
         data[thing].type != 'Implementation' and
+        not data[thing].variant_of and
         data[thing].development_stage not in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
     <tr>
-      <td><a href="{{ filekey(thing) }}">{{ thing }}</a></td>
+      <td><a href="{{ filekey(thing) }}">{{ thing|truncate(length=28) }}</a></td>
       <td>{{ link(data[thing].type) }}</td>
       <td>{{ data[thing].inception_date }}</td>
       <td>{{ data[thing].development_stage }}</td>
+      <td>
+        {% if data[thing].online_implementations %}
+          <a class="button" href="{{ data[thing].online_implementations[0] }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %}</a>
+        {% endif %}
+        {% for impl in related('implementation-of', key=thing)|sort %}
+          {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
+              <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
+          {% endif %}
+        {% endfor %}
+        {% if data[thing].reference_distribution %}
+          {% set dist_key = ref_dist(key=thing) %}
+          {% if data[dist_key].releases %}
+            {% set latest_release = data[dist_key].releases|last %}
+            <a class="button" href="{{ latest_release.url }}">Download</a>
+          {% endif %}
+        {% endif %}
+      </td>
     </tr>
   {%- endif -%}
 {%- endfor -%}
