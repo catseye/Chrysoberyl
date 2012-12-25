@@ -45,6 +45,12 @@ For (in theory) any item, show all lists that it is present in.
 templates
 ---------
 
+News and News Items: format date more nicely.
+
+Project Matrix: buttons for "Listen (mp3)", "Try", "Download", "Play"
+
+Project Matrix: don't list variants.
+
 Don't show discontinued distributions inline.
 
 Nodes with blank article cause footer to be pushed down below viewable area.
@@ -76,6 +82,8 @@ content
 -------
 
 Link Chrysoberyl to Chrysoberyl distribution somehow.
+
+Figure out a way to generate Online Gallery from Chrysoberyl.
 
 perhaps...
 ----------
