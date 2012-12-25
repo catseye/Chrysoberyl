@@ -253,6 +253,8 @@ toolshelf:
   summary: A "package manager" that doesn't actually install anything
   authors:
   - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   description: |
     `toolshelf` is a "package manager" which doesn't actually install any files.
     Instead, it stores the source trees of sundry packages in a single directory,

@@ -16,6 +16,7 @@
           "Cat's Eye Technologies" in data[thing].auspices) and
         data[thing].type != 'Implementation' and
         not data[thing].variant_of and
+        not (data[thing].type == 'Musical Composition' and not related('implementation-of', key=thing)) and
         data[thing].development_stage not in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
     <tr>
       <td><a href="{{ filekey(thing) }}">{{ thing|truncate(length=28) }}</a></td>
