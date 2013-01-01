@@ -35,6 +35,8 @@ Improve query.
 
 Use chosen in the query page.
 
+List metanodes on index page: query, project matrix, news.
+
 structure
 ---------
 

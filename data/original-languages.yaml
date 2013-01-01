@@ -1050,6 +1050,45 @@ ethel.pl:
   implementation-type: interpreter
 
 
+Exanoke:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Functional
+  description: |
+    Exanoke is a functional language which is syntactically restricted to
+    expressing the primitive recursive functions.
+  development-stage: mature
+  computational-class: Primitive recursive
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Jul 2012
+  # release date: Jan 2013
+  etymology:
+  - typo
+
+Exanoke distribution: 
+  type: Distribution
+  github: catseye/Exanoke
+  bitbucket: catseye/exanoke
+  issue-tracker: github
+  test-requirements:
+  - Falderal
+  releases: []
+
+exanoke.py:
+  type: Implementation
+  implementation-of:
+  - Exanoke
+  in-distribution: Exanoke distribution
+  reference: true
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Python
+
+
 Flobnar: 
   type: Programming Language
   genre: Esolang

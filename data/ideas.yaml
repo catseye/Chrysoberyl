@@ -84,6 +84,7 @@ Belabour:
     so profound could learned about "pure logic", per se, then what about Horn-clause-based
     logic programming — and is that not still an interesting question?
 
+
 Boo-yah!:
   type: Programming Language
   genre: Esolang
@@ -207,6 +208,11 @@ GI:
     
     (Oh, and each of the undirected, unlabeled graphs which represents an instruction
     could be termed a "dogtag".  Get it?  Get it?  **GI**, get it?)
+    
+    Note, however, that there are some problems with any "quining" language
+    which requires multiple instructions to quine a single instruction.  That
+    should be obvious if you think about it, but it didn't occur to me until
+    now.  I'll think about this a bit more.  See also Expload.
 
 
 Kig:
@@ -350,6 +356,45 @@ Naoko:
     interaction brings up a couple of further issues.  I never addressed them fully,
     but similar ideas with similar interaction eventually materialized in my
     programming language [[Unlikely]].
+
+
+Orbital:
+  type: Programming Language
+  genre: Experimental language
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms: []
+  no-specification: true
+  summary: message queues are just queues
+  inception-date: ca Dec 2012
+  description: |
+    [[Erlang]]'s message-passing paradigm is a good one, but then sometimes
+    I look around on Github and I see Erlang libraries for managing process
+    pooling and stuff and I think, wait, Erlang supposedly so awesome for
+    distributed computing, why isn't this a solved problem?
+    
+    And this leads me to try to deconstruct what "message passing" actually
+    is.  Processes can send messages to other processes.  When a process
+    receives a message, it goes into its inbox until the process can deal
+    with it.
+    
+    The inbox is a message queue.  And a message queue is a queue.
+    
+    When I send a message, I don't really care who receives it as much as
+    I care that the right thing happens in response to it.
+    
+    So why not just have queues?  If a queue is only every dequeued by a
+    single process, fine, that's Erlang's model.  But a queue could be
+    dequeued by multiple processes.  If the processes are stateless with
+    respect to the queue, then there you have worker pooling right out of
+    the box.
+    
+    If this sounds similar to capabilities and/or Linda, it may well be.
+    The problem of knowing "who to send a message to" is replaced by the
+    problem of knowing "which queue to enqueue a message onto".
 
 
 Paneer:
@@ -536,6 +581,78 @@ Potro:
     I'm not certain this would actually *violate* established
     undecidability results like Rice's theorem, but it certainly
     sounds like it's edging up against them.
+
+
+Praline:
+  type: Programming Language
+  genre: Experimental language
+  development-stage: idea
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  paradigms:
+  - Imperative
+  no-specification: true
+  summary: an imperative language with continuations (what a terrible summary)
+  inception-date: ca Sep 2012
+  description: |
+    Observe that in a typical imperative language you are given keywords
+    with which you can modify the control flow.  You may have `break` and
+    `continue` to stop or restart a loop, and you may have `return` to exit
+    a function, and perhaps `exit` to terminate the entire program.
+    
+    But these have limitations.  If you have a nested loop, you can't break
+    out of the outer loop from the inner loop.  And you can't write a little
+    utility function that exits the function it's called from if some condition
+    is true.  And, although this is surely a minor point, you're stuck with
+    whatever keywords the language designer chose.
+    
+    But the fact is, these don't need to be keywords at all, because they all
+    represent continuations.  Instead, loops and functions can bind these
+    continuations lexically to identifiers the programmer chooses at the
+    top of the structure.  This provides a solution to all of the problems
+    listed above, and perhaps opens up some possibilities.  Now, your
+    loops look like this:
+    
+        while (a > 5) [continue, break] {
+            b := something(a);
+            if (b > 10) break;
+            if (b > 100) { a := a * 2; continue; }
+            a := a - 1;
+        }
+    
+    It should be apparent that this allows breaking out of a nest of loops:
+    
+        while (a > 5) [continue, break_outer] {
+            while (b > a * 7) [continue, break_inner] {
+                ...
+                if (something(a, b)) break_outer;
+            }
+        }
+    
+    In a similar manner, your functions now look like:
+    
+        function mul(a, b) [return] {
+            return(a * b);
+        }
+    
+    Assuming you can pass these continuations around, you can now write
+    that little utility function:
+    
+        function check(a, b, exit) [return] {
+            if (a > b) exit;
+            return(a * b);
+        }
+        function something() [return] {
+            ...
+            c := check(17, 22, return);
+            d := check(5, 29, return);
+            ...
+        }
+    
+    Of course, there are some issues with typing (what's the return
+    value of the function you're exiting?) but that's the basic idea.
 
 
 Psogumma:
