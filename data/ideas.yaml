@@ -395,6 +395,21 @@ Orbital:
     If this sounds similar to capabilities and/or Linda, it may well be.
     The problem of knowing "who to send a message to" is replaced by the
     problem of knowing "which queue to enqueue a message onto".
+    
+    Of course, doing concurrency in languages which don't use Erlang's
+    message-passing model, like say [[Java]], requires that you build and
+    use queues explicitly.  But that's something of a degenerate case.  A
+    programming language which supports queues natively, like Erlang
+    supports processes, would provide them as an *abstraction*, and they
+    might not even be implemented as queues internally.
+    
+    For example, you might have some functionality where you don't really
+    care if it's done in-process or in another process.  In that case,
+    enqueuing a message may really not queue anything; it might cause
+    a function to be immediately called on the message.  In this way,
+    message-passing (or more accurately, queue-filling) could be used as
+    a single, unifying abstraction for modularizing processing, unlike say
+    Erlang's separate functions and processes.
 
 
 Paneer:

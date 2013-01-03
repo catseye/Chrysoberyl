@@ -213,6 +213,27 @@ Llamatron:
     Basically a clone of the arcade game Robotron, but with shaggy, smelly
     quadrupeds.  And cans of Coke.  And Mandelbrot sets...
 
+
+Fall Down:
+  type: Game
+  # technically a platformer, I guess, but it doesn't really describe it
+  genre: Platformer
+  platform: Atari VCS
+  controls: joystick
+  authors: []
+  no-specification: true
+  development-stage: mature
+  commentary: |
+    A retrogame I recently discovered where two players, starting at the top
+    of some multi-floored structure, race to fall down to each next lowest
+    level; the first to fall through a floor captures it, and the player who
+    captures the most floors wins.  Strangely addictive in spite of (or
+    possibly because of) its simplicity; there is a large element of luck,
+    since you don't know where the holes are going to be in upcoming
+    floors, but also an element of strategy, since the floors are low-friction
+    and you carry momentum, and a lot of just frantic fun running-around
+    action.
+
 #~ <!--
   #~ Paradroid
   #~ Stunts

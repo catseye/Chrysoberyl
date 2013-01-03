@@ -133,3 +133,20 @@ Dungeon Keeper II:
   commentary: |
     It deserves mention if for no other reason than you get to carve your own
     dungeon out of the rock as part of the game.
+
+Alphaman:
+  type: Game
+  genre: Roguelike
+  platform: PC
+  controls: keyboard
+  authors: []
+  no-specification: true
+  development-stage: mature
+  commentary: |
+    A post-apocalyptic roguelike which is alternately realistic (I'm thinking
+    particularly of the weather patterns) and silly (you can be attacked by
+    monsters called the Bush and the Quayle... and let's not forget about
+    the Venetian Blind!)  The name is clearly a play on "Omega Man".  One
+    of the best mutant powers to have is Mechanical Genius, which lets you
+    take apart gadgets (like microwave ovens) and create new and interesting
+    gadgets.
