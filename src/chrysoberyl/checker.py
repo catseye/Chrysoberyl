@@ -153,6 +153,7 @@ def check_chrysoberyl_data(data):
       try:
           if 'news-date' in node:
               assert node['news-date'] != 'Unknown'
+              # Tue, 17 May 2011 23:43:10 GMT
               node['news-date'] = datetime.strptime(
                   str(node['news-date']), '%a, %d %b %Y %H:%M:%S GMT'
               )

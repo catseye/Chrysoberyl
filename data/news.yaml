@@ -1,3 +1,20 @@
+"Chrysoberyl is now in BETA":
+  type: News Item
+  news-date: Fri, 04 Jan 2013 14:17:00 GMT
+  description: |
+    January 4, 2013:  Happy 2013!  [[Chrysoberyl]] is now in beta, whatever
+    that means in this day and age where it's not considered absurd for
+    web services to be in perpetual beta.
+    
+    Well, concretely, what it means is we've replaced the older parts of
+    `[[catseye.tc]]` entirely with Chrysoberyl entries, with a lot of web
+    redirects so all those links out in the wild still work.
+    
+    What it doesn't mean is that Chrysoberyl is finished in any sense.
+    Its content will of course continue to evolve, and it will likely be a
+    while before we are entirely happy with its structure and styling (so
+    expect these to change in the near future.)
+
 "Language, Language, Implementation, Bug fix, Bug fix":
   type: News Item
   news-date: Mon, 17 Sep 2012 22:13:56 GMT

@@ -17,10 +17,7 @@ def make_news_feed(data, dir, filename, limit=None):
         node = data[key]
         if node['type'] != 'News Item':
             continue
-        # Tue, 17 May 2011 23:43:10 GMT
-        news_date = datetime.datetime.strptime(
-            node['news-date'], "%a, %d %b %Y %H:%M:%S GMT"
-        )
+        news_date = node['news-date']
         n = {}
         n.update(node)
         n['key'] = key
