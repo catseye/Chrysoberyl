@@ -1,5 +1,9 @@
 # encoding: UTF-8
 
+"""Functions for loading Chrysoberyl data from a set of Yaml files.
+
+"""
+
 import os
 
 import yaml
@@ -10,6 +14,10 @@ except ImportError:
 
 
 def load_chrysoberyl_dir(dirname):
+    """Given a directory, load Chrysobeyl data from all Yaml files in
+    that directory.
+
+    """
     data = {}
 
     count = 0

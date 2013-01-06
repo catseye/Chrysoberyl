@@ -1,3 +1,9 @@
+# encoding: UTF-8
+
+"""Functions for generating Atom feeds from news item nodes in Chrysoberyl.
+
+"""
+
 import datetime
 from operator import itemgetter
 import os
@@ -10,6 +16,10 @@ from chrysoberyl.transformer import filekey, markdown_field, pathname2url
 BASEURL = 'http://catseye.tc/feeds/'
 
 def make_news_feed(data, dir, filename, limit=None):
+    """Generate Atom feeds for news item nodes in the given Chrysoberyl
+    data.
+
+    """
     url = BASEURL + filename
     filename = os.path.join(dir, filename)
     newses = []

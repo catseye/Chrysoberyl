@@ -1,5 +1,10 @@
 # encoding: UTF-8
 
+"""Functions for transforming Chrysoberyl data (typically loaded from Yaml
+files) into a form suitable for rendering in Jinja2 templates.
+
+"""
+
 import re
 
 import markdown
@@ -8,11 +13,16 @@ from chrysoberyl.checker import ApproximateDate
 
 
 def filekey(key):
+    """Convert a key into a form that can be used as a filename."""
     key = re.sub(r'(\/|\\)', '_', key)
     return key + ".html"
 
 
 def pathname2url(s, prefix=None):
+    """Convert a filename into a form that can be used as a link in an
+    HTML document.
+
+    """
     s = re.sub('\%', '%25', s)
     s = re.sub(' ', '%20', s)
     s = re.sub('\"', '%22', s)
@@ -25,6 +35,10 @@ def pathname2url(s, prefix=None):
 
 
 def markdown_field(data, node, field, prefix=None):
+    """Convert a field containing markdown and Chrysoberyl
+    cross-references (indicated with [[double brackets]]) into HTML.
+
+    """
     def linker(match):
         text = match.group(1)
         segments = text.split('|')
@@ -44,7 +58,13 @@ def markdown_field(data, node, field, prefix=None):
 
 
 def convert_chrysoberyl_data(data):
-    """Prep for Jinja/HTML5"""
+    """Convert all loaded Chrysoberyl data into a form that can be rendered
+    in a Jinja2 template.  This includes rendering fields which are known to
+    contain Markdown into corresponding HTML fields, and adding equivalent
+    fields whose keys contain underscores (which Jinja2 can understand)
+    in place of hyphens (which it can't, but which look better in Yaml.)
+
+    """
     count = 0
     for key in data:
         count += 1
@@ -64,7 +84,10 @@ def convert_chrysoberyl_data(data):
 
 
 def transform_dates(thing):
-    """Prep for json"""
+    """Recursively convert dates in the given Python object into a form
+    suitable for JSON.
+
+    """
     if isinstance(thing, ApproximateDate):
         return thing.stamp()
     elif isinstance(thing, list):

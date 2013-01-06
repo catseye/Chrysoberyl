@@ -1,16 +1,22 @@
 # encoding: UTF-8
 
+"""Functions and classes for rendering Chrysoberyl data as HTML pages.
+
+"""
+
 import codecs
 import os
 import re
 
 import jinja2
-import markdown
 
 from chrysoberyl.transformer import filekey, pathname2url
 
 
 class Renderer(object):
+    """Object which renders Chrysoberyl data as HTML pages.
+
+    """
     def __init__(self, data, template_dir, output_dir):
         self.data = data
         self.template_dir = template_dir
@@ -20,13 +26,19 @@ class Renderer(object):
         self.env = jinja2.Environment(loader=self.loader)
 
     def render(self, template, output_filename, context):
+        """Low-level method to render a given template."""
         with codecs.open(output_filename, 'w', 'utf-8') as html:
             html.write(template.render(context))
     
     def get_template(self, key):
+        """Helper method to retrieve the appropriate template for the given
+        key.
+
+        """
         node = self.data[key]
         template_filename = 'base.html'
         filename = filekey(key)
+        # Mercurial can't handle filenames containing ':' on Windows, so:
         filename = re.sub(':', '_', filename)
         if node['type'] != 'type' and os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
@@ -38,11 +50,20 @@ class Renderer(object):
         return template
 
     def render_node(self, key, node):
+        """Render the given Chrysoberyl node (with the given key) as an HTML
+        document.
+
+        """
         context = node.copy()
         context['data'] = self.data
         context['key'] = key
 
         def related(relationship, key=key):
+            """Return a list of nodes whose attribute named by `relationship`
+            contains the given `key`, whether the attribute is a scalar or a
+            list.  Comparable to a database join.
+
+            """
             objects = []
             for thing in self.data:
                 rel = self.data[thing].get(relationship, None)
@@ -109,6 +130,10 @@ class Renderer(object):
                 return "https://github.com/%s/blob/master/%s" % (gh, filename)
 
         def indefart(text):
+            """Try to return a reasonable indefinite article to precede the
+            given noun phrase.
+
+            """
             # "u" is dicey
             if text.startswith(("a", "e", "i", "o", "u")):
                 return "an " + text
@@ -217,6 +242,7 @@ class Renderer(object):
         self.render(template, filename, context)
 
     def render_chrysoberyl_data(self):
+        """Render all nodes in the loaded Chrysoberyl data as HTML documents."""
         count = 0
         for key in self.data:
             count += 1

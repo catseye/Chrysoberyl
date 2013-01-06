@@ -1,5 +1,10 @@
 # encoding: UTF-8
 
+"""Functions to statically check loaded Chrysoberyl data for consistency and
+completeness.
+
+"""
+
 from datetime import datetime
 import re
 

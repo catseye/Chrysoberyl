@@ -1,5 +1,12 @@
 # encoding: UTF-8
 
+"""Functions for working with local clones of repositories of distributions
+named in Chrysoberyl.
+
+Currently only supports Mercurial repositories hosted on Bitbucket.
+
+"""
+
 import codecs
 import os
 import re
@@ -147,7 +154,6 @@ def survey_repos(data, clone_dir):
 
 def test_repos(data, clone_dir):
     """STUB"""
-    repos = {}
 
     def test_repo(distribution, repo):
         print repo

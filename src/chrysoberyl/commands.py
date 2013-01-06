@@ -1,5 +1,9 @@
 # encoding: UTF-8
 
+"""Dispatch to the command given on the command-line.
+
+"""
+
 import codecs
 import json
 from optparse import OptionParser
@@ -8,11 +12,11 @@ import re
 import shutil
 import sys
 
-from chrysoberyl.checker import check_chrysoberyl_data, ApproximateDate
+from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dir
 from chrysoberyl.localrepos import (
-    troll_docs, survey_repos, test_repos, get_latest_release_tag, lint_dists
+    troll_docs, survey_repos, get_latest_release_tag, lint_dists
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import convert_chrysoberyl_data, transform_dates
@@ -24,7 +28,7 @@ def check(args, optparser):
 
     """
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    load_and_check(options.data_dir)
     return 0
 
 
