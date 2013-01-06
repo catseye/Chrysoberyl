@@ -15,6 +15,7 @@ from chrysoberyl.transformer import filekey, markdown_field, pathname2url
 
 BASEURL = 'http://catseye.tc/feeds/'
 
+
 def make_news_feed(data, dir, filename, limit=None):
     """Generate Atom feeds for news item nodes in the given Chrysoberyl
     data.
@@ -49,7 +50,8 @@ def make_news_feed(data, dir, filename, limit=None):
         summary = atomize.Summary(n['description_html'], content_type='html')
         nodelink = pathname2url(filekey(n['key']),
                                 prefix='http://catseye.tc/node/')
-        links = [atomize.Link(nodelink, content_type='text/html', rel='alternate')]
+        links = [atomize.Link(nodelink, content_type='text/html',
+                              rel='alternate')]
         entry = atomize.Entry(title=title, guid=guid, updated=updated,
                               summary=summary, links=links)
         entries.append(entry)

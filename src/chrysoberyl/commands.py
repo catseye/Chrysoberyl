@@ -87,7 +87,8 @@ def render(args, optparser):
     data = load_and_check(options.data_dir)
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
-        json.dump(transform_dates(data), file, encoding='utf-8', default=unicode)
+        json.dump(transform_dates(data), file, encoding='utf-8',
+                  default=unicode)
     convert_chrysoberyl_data(data)
     r = Renderer(data, 'templates', options.node_dir)
     r.render_chrysoberyl_data()

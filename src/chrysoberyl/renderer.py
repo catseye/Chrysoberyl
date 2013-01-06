@@ -29,7 +29,7 @@ class Renderer(object):
         """Low-level method to render a given template."""
         with codecs.open(output_filename, 'w', 'utf-8') as html:
             html.write(template.render(context))
-    
+
     def get_template(self, key):
         """Helper method to retrieve the appropriate template for the given
         key.
@@ -180,7 +180,7 @@ class Renderer(object):
             bc.append('<a href="http://catseye.tc/">catseye.tc</a>')
             bc.reverse()
             return bc
-        
+
         def recommended_implementation(implementable, key=key):
             if 'recommended-implementation' in self.data[key]:
                 return self.data[key]['recommended-implementation']

@@ -78,7 +78,7 @@ def troll_docs(data, clone_dir, data_dir):
         docdict[distribution] = docs
 
     count = for_each_repo(data, clone_dir, troll_repo)
-    
+
     docdata = {
         'Documentation Index': {
             'type': 'Metanode',
@@ -122,7 +122,8 @@ def survey_repos(data, clone_dir):
                 due = ''
             else:
                 due = "%d changesets (tip=%d, %s=%d)" % \
-                    ((tags['tip'] - tags[latest_tag]), tags['tip'], latest_tag, tags[latest_tag])
+                    ((tags['tip'] - tags[latest_tag]), tags['tip'],
+                     latest_tag, tags[latest_tag])
         repos[repo] = {
             'dirty': dirty,
             'outgoing': outgoing,
@@ -177,6 +178,7 @@ OK_ROOT_DIRS = (
     '.hg',
 )
 
+
 def lint_dists(data, clone_dir, host_language):
     problems = {}
 
@@ -211,34 +213,25 @@ def lint_dists(data, clone_dir, host_language):
                     if filename not in OK_ROOT_FILES:
                         root_files.append(filename)
                 if root_files:
-                    problems[distribution].append("Junk files in root: %s" % root_files)
+                    problems[distribution].append(
+                        "Junk files in root: %s" % root_files
+                    )
 
                 root_dirs = []
                 for dirname in dirnames:
                     if dirname not in OK_ROOT_DIRS:
                         root_dirs.append(dirname)
                 if root_dirs:
-                    problems[distribution].append("Junk dirs in root: %s" % root_dirs)
-
-        #~ version, revision = project.get_latest_version_and_revision()
-        #~ distname = "%s-%s-%s" % (project.name, version, revision)
-        #~ distfile = os.path.join("distfiles", "%s.zip" % distname)
-        #~ if not isfile(distfile):
-            #~ report.write("XXX No modernly-named distfile\n")
-            #~ disturl = project.get_latest_explicit_dist_url()
-            #~ match = re.match(r'^http://catseye\.tc/distfiles/(.*?)\.zip$', disturl)
-            #~ if not match:
-                #~ report.write("XXX Explicit distfile is not on catseye.tc or not a zipfile\n\n")
-                #~ continue
-            #~ distname = match.group(1)
-            #~ distfile = "distfiles/%s.zip" % distname
+                    problems[distribution].append(
+                        "Junk dirs in root: %s" % root_dirs
+                    )
 
     count = for_each_repo(data, clone_dir, lint_repo)
 
     problematic_count = 0
     for d in sorted(problems.keys()):
         if not problems[d]:
-            continue        
+            continue
         print d
         print '-' * len(d)
         print
@@ -247,7 +240,9 @@ def lint_dists(data, clone_dir, host_language):
         print
         problematic_count += 1
 
-    print "Linted %d clones, problems in %d of them." % (count, problematic_count)
+    print "Linted %d clones, problems in %d of them." % (
+        count, problematic_count
+    )
 
 
 def get_latest_release_tag(data, repo_name, clone_dir):
@@ -264,7 +259,7 @@ def get_latest_release_tag(data, repo_name, clone_dir):
                 tag = match.group(1)
                 if tag != 'tip' and latest_tag is None:
                     latest_tag = tag
-        
+
         result[repo] = latest_tag
 
     for_each_repo(data, clone_dir, find_it)

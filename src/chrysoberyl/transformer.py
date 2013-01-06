@@ -79,7 +79,7 @@ def convert_chrysoberyl_data(data):
             node['sample_html'] = markdown.markdown(
                 '\n'.join(['    ' + l for l in node['sample'].split('\n')])
             )
-            
+
     print "%d nodes converted." % count
 
 
