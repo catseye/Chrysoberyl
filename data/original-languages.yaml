@@ -1069,15 +1069,6 @@ Exanoke:
   etymology:
   - typo
 
-Exanoke distribution: 
-  type: Distribution
-  github: catseye/Exanoke
-  bitbucket: catseye/exanoke
-  issue-tracker: github
-  test-requirements:
-  - Falderal
-  releases: []
-
 exanoke.py:
   type: Implementation
   implementation-of:

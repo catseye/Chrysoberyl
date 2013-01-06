@@ -282,6 +282,18 @@ Etcha distribution:
     revision: "2009.1004"
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
 
+Exanoke distribution: 
+  type: Distribution
+  github: catseye/Exanoke
+  bitbucket: catseye/exanoke
+  issue-tracker: github
+  test-requirements:
+  - Falderal
+  releases: 
+  - version: "1.0"
+    revision: "2013.0105"
+    url: http://catseye.tc/distfiles/exanoke-1.0-2013.0105.zip
+
 FBBI distribution: 
   type: Distribution
   distribution-of:

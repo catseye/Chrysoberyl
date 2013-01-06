@@ -1,3 +1,18 @@
+"First language release of 2013: Exanoke":
+  type: News Item
+  news-date: Sat, 05 Jan 2013 11:18:23 GMT
+  description: |
+    January 5, 2013:  We have released [[Exanoke]], a pure functional
+    language which is syntactically restricted to expressing the primitive
+    recursive functions.
+    
+    If this doesn't sound like a stellar achievement, it's probably because
+    it's not one.  But, I was previously aware of only how an imperative
+    language could be restricted to primitive recursion (i.e. have only `for`
+    loops) and previously did some work on analyzing functions in a
+    pure functional language to determine if they are primitive recursive
+    or not; in a way, Exanoke combines both of those ideas.
+
 "Chrysoberyl is now in BETA":
   type: News Item
   news-date: Fri, 04 Jan 2013 14:17:00 GMT
