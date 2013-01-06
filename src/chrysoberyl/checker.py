@@ -11,11 +11,15 @@ import re
 from chrysoberyl.objects import ApproximateDate
 
 
-def warn(message):
-    print "*** warning: %s" % message
+LEGACY_FIELDS = ()
 
 
 def check_scalar_ref(data, key, node, property, types=None):
+    """Check that the given node has the given property (field) and that it
+    is a scalar (not a list.)  If types is given, check that the key contained
+    in the field refers to a node of one of those types.
+
+    """
     assert property in node, \
         "'%s' does not specify a %s" % (key, property)
     value = node[property]
@@ -29,11 +33,17 @@ def check_scalar_ref(data, key, node, property, types=None):
 
 
 def check_optional_scalar_ref(data, key, node, property, types=None):
+    """Like check_scalar_ref, but skip if property not present on node."""
     if property in node:
         check_scalar_ref(data, key, node, property, types=types)
 
 
 def check_list_ref(data, key, node, property, types=None):
+    """Check that the given node has the given property (field) and that it
+    is a list (not a scalar.)  If types is given, check that all keys
+    contained in the list refers to a node of one of those types.
+
+    """
     assert property in node, \
         u"'%s' has no %s list" % (key, property)
     assert isinstance(node[property], list), \
@@ -49,11 +59,17 @@ def check_list_ref(data, key, node, property, types=None):
 
 
 def check_optional_list_ref(data, key, node, property, types=None):
+    """Like check_list_ref, but skip if property not present on node."""
     if property in node:
         check_list_ref(data, key, node, property, types=types)
 
 
 def resolve_internal_links(data, key, property, text):
+    """Check that all cross-references (in [[double brackets]]) in the
+    text contained in the given property are keys of nodes that exist
+    elsewhere in the Chrysoberyl data.
+
+    """
     if text is None:
         return True
     for match in re.finditer(r'\[\[(.*?)\]\]', text):
@@ -65,19 +81,19 @@ def resolve_internal_links(data, key, property, text):
             (key, thing, property)
 
 
-LEGACY_FIELDS = (
-    'abstract',
-    'author',
-    'implementations',
-    'has-reference-distribution',
-    'required-libraries',
-    'includes-executables',
-    'prebuilt-in-distribution',
-    'our-stuff',
-)
-
-
 def check_chrysoberyl_node(data, key, node):
+    """Check that the data in the given node is consistent and
+    complete.
+
+    Note that this may have side-effects (altering the contents of the
+    node.)  `inception-date` fields are converted to ApproximateDate
+    objects, and `news-date` fields are converted to datetime objects.
+    `distribution-of` and `in-distributions` and `reference-distribution`
+    may be set to defaults based on the presence of a node or field with
+    a similar name.  `authors` and `auspices` may be inherited from
+    the implementable being implemented.
+
+    """
     # Every node must have a valid type.
     assert 'type' in node, \
         "'%s' does not specify a type" % key
@@ -286,9 +302,9 @@ def check_chrysoberyl_node(data, key, node):
 
 
 def check_chrysoberyl_data(data):
+    """Check all nodes in the given dictionary of Chrysoberyl data."""
     count = 0
     for key in data:
         count += 1
         check_chrysoberyl_node(data, key, data[key])
-
     print "%d nodes checked." % count

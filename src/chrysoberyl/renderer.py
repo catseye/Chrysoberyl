@@ -40,7 +40,8 @@ class Renderer(object):
         filename = filekey(key)
         # Mercurial can't handle filenames containing ':' on Windows, so:
         filename = re.sub(':', '_', filename)
-        if node['type'] != 'type' and os.path.exists(os.path.join(self.template_dir, filename)):
+        if node['type'] != 'type' and \
+           os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
         else:
             filename = filekey(node['type'])
@@ -168,12 +169,16 @@ class Renderer(object):
         @expose
         def link(key, format="%s"):
             """Return an HTML link to the node with the given key."""
-            return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key)
+            return '<a href="%s">%s</a>' % (
+                pathname2url(filekey(key)), format % key
+            )
 
         @expose
         def link_lower(key, format="%s"):
             """Return a lowercase HTML link to the node with the given key."""
-            return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key.lower())
+            return '<a href="%s">%s</a>' % (
+                pathname2url(filekey(key)), format % key.lower()
+            )
 
         @expose
         def linked_list(keys, format="%s"):
@@ -186,8 +191,10 @@ class Renderer(object):
             else:
                 front = keys[:-1]
                 last = keys[-1]
-                return "%s and %s" % (', '.join([link(f, format=format) for f in front]),
-                                      link(last, format=format))
+                return "%s and %s" % (
+                    ', '.join([link(f, format=format) for f in front]),
+                    link(last, format=format)
+                )
 
         @expose
         def breadcrumbs(key=key):
@@ -227,7 +234,8 @@ class Renderer(object):
                     candidates.append(impl)
             if len(candidates) == 1:
                 return candidates[0]
-            raise KeyError("%s/%s: More than one generally recommended implementation" % (key, implementable))
+            raise KeyError("%s/%s: More than one generally recommended "
+                           "implementation" % (key, implementable))
 
         @expose
         def lingography():
@@ -238,16 +246,19 @@ class Renderer(object):
 
             """
             languages = []
-            types = ('Programming Language', 'Programming Language Family', 'Conlang')
+            types = ('Programming Language', 'Programming Language Family',
+                     'Conlang')
             for thing in self.data:
                 node = self.data[thing]
                 if (node['type'] in types and
                     'Chris Pressey' in node.get('authors', []) and
-                    node.get('development-stage', 'idea') not in ('idea', 'work in progress') and
+                    node.get('development-stage', 'idea') not in \
+                        ('idea', 'work in progress') and
                     not node.get('variant-of', None) and
                     not node.get('member-of', None)):
                     languages.append(thing)
-            return sorted(languages, key=lambda x: self.data[x]['inception-date'])
+            return sorted(languages,
+                          key=lambda x: self.data[x]['inception-date'])
 
         @expose
         def news_items():
@@ -257,14 +268,18 @@ class Renderer(object):
                 node = self.data[thing]
                 if node['type'] == 'News Item':
                     items.append(thing)
-            return reversed(sorted(items, key=lambda x: self.data[x]['news-date']))
+            return reversed(sorted(items,
+                                   key=lambda x: self.data[x]['news-date']))
 
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
         self.render(template, filename, context)
 
     def render_chrysoberyl_data(self):
-        """Render all nodes in the loaded Chrysoberyl data as HTML documents."""
+        """Render all nodes in the loaded Chrysoberyl data as HTML
+        documents.
+
+        """
         count = 0
         for key in self.data:
             count += 1
