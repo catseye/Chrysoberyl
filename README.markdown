@@ -4,8 +4,8 @@ Chrysoberyl
 *Chrysoberyl* is an attempt to catalogue, and curate, the things produced
 by, and related to, Cat's Eye Technologies.
 
-It is something between a wiki and a database and a semantic web and a
-pile of goo.
+It is something between a wiki and a database and a semantic web and
+_The Devil's Dictionary_.
 
 It is supposed to be primarily informative, and only secondarily machine-
 processable, and only thirdly structured.  So, the schemas in use are
@@ -136,9 +136,7 @@ type is not interpreter or compiler) but we'll go with it for now.
 License
 -------
 
-For now, freely redistributable unmodified for non-commercial purposes --
-plus you are allowed to fork the repository for the purpose of submitting
-corrections to the information.
+See the file LICENSE.
 
 Script
 ------
