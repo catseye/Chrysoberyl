@@ -57,7 +57,16 @@ class Renderer(object):
         context = node.copy()
         context['data'] = self.data
         context['key'] = key
+        context['filekey'] = filekey
 
+        # Context functions.  Being nested functions of render_node lets
+        # them easily access (close over) the current node and its key.
+
+        def expose(fun):
+            context[fun.__name__] = fun
+            return fun
+
+        @expose
         def related(relationship, key=key):
             """Return a list of nodes whose attribute named by `relationship`
             contains the given `key`, whether the attribute is a scalar or a
@@ -77,8 +86,9 @@ class Renderer(object):
                     continue
             return objects
 
+        @expose
         def ref_dist(key=key):
-            """Find the reference distribution for the given thing.
+            """Find the reference distribution for the given node.
 
             This could be itself, or the dist an implementation is in,
             or the reference distribution of the implementable.
@@ -92,7 +102,12 @@ class Renderer(object):
                 return self.data[key]['reference-distribution']
             raise TypeError(key)
 
+        @expose
         def non_ref_dist_implementations(key=key):
+            """Return a list of all the implementations which are not in
+            the reference distribution of the given node.
+
+            """
             implementations_of = related('implementation-of', key=key)
             try:
                 reference_distribution = ref_dist(key=key)
@@ -106,11 +121,18 @@ class Renderer(object):
                     implementations.append(i)
             return implementations
 
+        @expose
         def documentation(key=key):
+            """Return the documentation node for the given key."""
             doc_node = self.data['Documentation Index']
             return doc_node['entries'].get(key, [])
 
+        @expose
         def related_github(key=key):
+            """Return the name of the Github repository (user/repo)
+            associated with the given key.
+
+            """
             if 'github' in self.data[key]:
                 return self.data[key]['github']
             d = None
@@ -122,13 +144,16 @@ class Renderer(object):
                 return None
             return self.data[d].get('github', None)
 
+        @expose
         def github_link(filename):
+            """Return an HTML link to a file in a """
             gh = related_github()
             if gh is None:
                 return None
             else:
                 return "https://github.com/%s/blob/master/%s" % (gh, filename)
 
+        @expose
         def indefart(text):
             """Try to return a reasonable indefinite article to precede the
             given noun phrase.
@@ -140,12 +165,17 @@ class Renderer(object):
             else:
                 return "a " + text
 
+        @expose
         def link(key, format="%s"):
+            """Return an HTML link to the node with the given key."""
             return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key)
 
+        @expose
         def link_lower(key, format="%s"):
+            """Return a lowercase HTML link to the node with the given key."""
             return '<a href="%s">%s</a>' % (pathname2url(filekey(key)), format % key.lower())
 
+        @expose
         def linked_list(keys, format="%s"):
             # not the kind you're probably thinking of
             if len(keys) == 1:
@@ -159,6 +189,7 @@ class Renderer(object):
                 return "%s and %s" % (', '.join([link(f, format=format) for f in front]),
                                       link(last, format=format))
 
+        @expose
         def breadcrumbs(key=key):
             # ("This function's more like spaghetti than breadcrumbs,"
             # quips Release Notes Girl.  Captain Compiler responds:
@@ -181,6 +212,7 @@ class Renderer(object):
             bc.reverse()
             return bc
 
+        @expose
         def recommended_implementation(implementable, key=key):
             if 'recommended-implementation' in self.data[key]:
                 return self.data[key]['recommended-implementation']
@@ -197,8 +229,14 @@ class Renderer(object):
                 return candidates[0]
             raise KeyError("%s/%s: More than one generally recommended implementation" % (key, implementable))
 
+        @expose
         def lingography():
-            """Bespoke function, because we want to count them in the template"""
+            """Return a list of all entries that will be shown on the
+            lingography.  This is a bespoke context function, rather than
+            a Jinja2 template using related(), because we want to display
+            a count of the items in the template.
+
+            """
             languages = []
             types = ('Programming Language', 'Programming Language Family', 'Conlang')
             for thing in self.data:
@@ -211,6 +249,7 @@ class Renderer(object):
                     languages.append(thing)
             return sorted(languages, key=lambda x: self.data[x]['inception-date'])
 
+        @expose
         def news_items():
             """Bespoke function, because we want to sort them by news-date"""
             items = []
@@ -219,23 +258,6 @@ class Renderer(object):
                 if node['type'] == 'News Item':
                     items.append(thing)
             return reversed(sorted(items, key=lambda x: self.data[x]['news-date']))
-
-        # functions
-        context['filekey'] = filekey
-        context['related'] = related
-        context['documentation'] = documentation
-        context['related_github'] = related_github
-        context['github_link'] = github_link
-        context['recommended_implementation'] = recommended_implementation
-        context['ref_dist'] = ref_dist
-        context['non_ref_dist_implementations'] = non_ref_dist_implementations
-        context['indefart'] = indefart
-        context['breadcrumbs'] = breadcrumbs
-        context['link'] = link
-        context['link_lower'] = link_lower
-        context['linked_list'] = linked_list
-        context['lingography'] = lingography
-        context['news_items'] = news_items
 
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
