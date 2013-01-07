@@ -146,9 +146,12 @@ class Renderer(object):
             return self.data[d].get('github', None)
 
         @expose
-        def github_link(filename):
-            """Return an HTML link to a file in a """
-            gh = related_github()
+        def github_link(filename, key=key):
+            """Return an HTML link to a file in the Github repository
+            associated with the given key.
+
+            """
+            gh = related_github(key=key)
             if gh is None:
                 return None
             else:
@@ -180,9 +183,15 @@ class Renderer(object):
                 pathname2url(filekey(key)), format % key.lower()
             )
 
+        # not the kind you're probably thinking of
         @expose
         def linked_list(keys, format="%s"):
-            # not the kind you're probably thinking of
+            """Given a list of keys, return a fragment of HTML containing
+            links to nodes with those keys.  The list is formatted in a human-
+            readable fashion, with commas, and the word "and" before the
+            end.
+
+            """
             if len(keys) == 1:
                 return link(keys[0], format=format)
             elif len(keys) == 2:
@@ -198,6 +207,7 @@ class Renderer(object):
 
         @expose
         def breadcrumbs(key=key):
+            """Generate breadcrumbs for the node given by key."""
             # ("This function's more like spaghetti than breadcrumbs,"
             # quips Release Notes Girl.  Captain Compiler responds:
             # "Does that mean we're going to make it open-sauce?  HA, HA")
@@ -221,6 +231,10 @@ class Renderer(object):
 
         @expose
         def recommended_implementation(implementable, key=key):
+            """Return a node representing the recommended implementation of
+            the given key (assumed to be an implementable.)
+
+            """
             if 'recommended-implementation' in self.data[key]:
                 return self.data[key]['recommended-implementation']
             impls = related('implementation-of', key=implementable)
@@ -229,6 +243,7 @@ class Renderer(object):
             if len(impls) == 1:
                 return impls[0]
             candidates = []
+            # XXX can we statically check this?
             for impl in impls:
                 if 'generally-recommended' in self.data[impl]:
                     candidates.append(impl)
@@ -262,7 +277,12 @@ class Renderer(object):
 
         @expose
         def news_items():
-            """Bespoke function, because we want to sort them by news-date"""
+            """Return a list of all news item entries to be shown on the news
+            node.  This is a bespoke context function because we want the
+            nodes to be sorted by news date (and this is an easy way to do
+            that.  There might be others.)
+
+            """
             items = []
             for thing in self.data:
                 node = self.data[thing]

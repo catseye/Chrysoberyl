@@ -21,6 +21,13 @@ from chrysoberyl.util import get_it
 
 
 def bitbucket_repos(data):
+    """Generator which yields information about every Mercurial repository
+    on Bitbucket referenced by some distribution in Chrysoberyl.
+
+    Information is a triple of the distribution key, the Bitbucket username,
+    and the repository name.
+
+    """
     for key in data:
         if data[key]['type'] != 'Distribution':
             continue
