@@ -23,10 +23,10 @@
         {% endfor %}
       </p>
       {% if data[thing].description_html %}
-        <p>{{ data[thing].description_html }}</p>
+        {{ data[thing].description_html }}
       {% endif %}
       {% if data[thing].commentary_html %}
-        <p>{{ data[thing].commentary_html }}</p>
+        {{ data[thing].commentary_html }}
       {% endif %}
     </li>
   {%- endif -%}
@@ -57,10 +57,10 @@
         {% endif %}
       </p>
       {% if data[impl].description_html %}
-        <p>{{ data[impl].description_html }}</p>
+        {{ data[impl].description_html }}
       {% endif %}
       {% if data[impl].commentary_html %}
-        <p>{{ data[impl].commentary_html }}</p>
+        {{ data[impl].commentary_html }}
       {% endif %}
     </li>
   {%- endif -%}

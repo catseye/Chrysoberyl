@@ -16,10 +16,10 @@
     <li>
       <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
       {% if data[thing].description_html %}
-        <p>{{ data[thing].description_html }}</p>
+        {{ data[thing].description_html }}
       {% endif %}
       {% if data[thing].commentary_html %}
-        <p>{{ data[thing].commentary_html }}</p>
+        {{ data[thing].commentary_html }}
       {% endif %}
     </li>
   {% endif %}

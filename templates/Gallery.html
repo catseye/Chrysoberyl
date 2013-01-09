@@ -15,10 +15,10 @@
           <a class="online" href="{{ data[thing].exhibit_link }}">{{ thing }}</a>
         </p>
         {% if data[thing].description_html %}
-          <p>{{ data[thing].description_html }}</p>
+          {{ data[thing].description_html }}
         {% endif %}
         {% if data[thing].commentary_html %}
-          <p>{{ data[thing].commentary_html }}</p>
+          {{ data[thing].commentary_html }}
         {% endif %}
       </li>
     {%- endif -%}

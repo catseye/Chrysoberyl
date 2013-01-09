@@ -12,11 +12,11 @@
       <p>{{ link(thing) }}</p>
 
       {% if data[thing].description_html %}
-        <p>{{ data[thing].description_html }}</p>
+        {{ data[thing].description_html }}
       {% endif %}
 
       {% if data[thing].commentary_html %}
-        <p>{{ data[thing].commentary_html }}</p>
+        {{ data[thing].commentary_html }}
       {% endif %}
 
       {% if data[thing].online_implementations %}
