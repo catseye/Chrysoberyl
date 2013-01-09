@@ -5,7 +5,7 @@
 <ol>
 {% for thing in entries %}
   <li>
-    <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+    <p>{{ link(thing) }}</p>
     {% if data[thing].description_html %}
       {{ data[thing].description_html }}
     {% endif %}

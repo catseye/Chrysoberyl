@@ -14,7 +14,7 @@
   {% if data[thing].type in include_types and
         include_author in data[thing].authors %}
     <li>
-      <p><a href="{{ filekey(thing) }}">{{ thing }}</a></p>
+      <p>{{ link(thing) }}</p>
       {% if data[thing].description_html %}
         {{ data[thing].description_html }}
       {% endif %}

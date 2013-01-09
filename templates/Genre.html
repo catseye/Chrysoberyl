@@ -7,7 +7,7 @@
 <ul>
 {% for thing in related('genre')|sort %}
   <li>
-    <a href="{{ filekey(thing) }}">{{ thing }}</a>
+    {{ link(thing) }}
   </li>
 {% endfor %}
 </ul>

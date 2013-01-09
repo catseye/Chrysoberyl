@@ -10,7 +10,7 @@
     {%- for submission in data[thing].submitted_to -%}
       {%- if submission.competition == key -%}
         <li>
-          <a href="{{ filekey(thing) }}">{{ thing }}</a>
+          {{ link(thing) }}
           {% if submission.prize %}
             -- {{ submission.prize }}
           {% endif %}

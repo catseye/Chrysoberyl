@@ -3,14 +3,14 @@
 {% block implementable_content %}
 <h2>Native Language</h2>
 
-<p><a href="{{ filekey(native_language) }}">{{ native_language }}</a></p>
+<p>{{ link(native_language) }}</p>
 
 {% if other_languages %}
   <h2>Other Languages</h2>
 
   <ul>
     {% for language in other_languages %}
-      <li><a href="{{ filekey(language) }}">{{ language }}</a></li>
+      <li>{{ link(language) }}</li>
     {% endfor %}
   </ul>
 {% endif %}

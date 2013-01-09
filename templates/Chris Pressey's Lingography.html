@@ -8,7 +8,7 @@
 <ul>
 {% for thing in lingography() %}
   <li>
-    <p><a href="{{ filekey(thing) }}">{{ thing }}</a> ({{ data[thing].inception_date }})</p>
+    <p>{{ link(thing) }} ({{ data[thing].inception_date }})</p>
     
     {% if data[thing].description_html %}
       {{ data[thing].description_html }}
@@ -77,14 +77,14 @@
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
     <li>
       <p>
-        <a href="{{ filekey(thing) }}">{{ thing }}</a>,
+        {{ link(thing) }},
         {{ indefart(data[thing].implementation_type) }}
         for
-        <a href="{{ filekey(data[thing].implementation_of[0]) }}">{{ data[thing].implementation_of[0] }}</a>
+        {{ link(data[thing].implementation_of[0]) }}
         in
-        <a href="{{ filekey(data[thing].host_language) }}">{{ data[thing].host_language }}</a>
+        {{ link(data[thing].host_language) }}
         {% if data[thing].host_platform %}
-          for <a href="{{ filekey(data[thing].host_platform) }}">{{ data[thing].host_platform }}</a>
+          for {{ link(data[thing].host_platform) }}
         {% endif %}
         {% if data[thing].inception_date %}
           ({{ data[thing].inception_date }})

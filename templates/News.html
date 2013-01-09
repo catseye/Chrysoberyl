@@ -11,7 +11,7 @@
 <ul>
 {%- for thing in news_items() -%}
   <li>
-      {{ data[thing].news_date }}: <a href="{{ filekey(thing) }}">{{ thing }}</a>
+      {{ data[thing].news_date }}: {{ link(thing) }}
   </li>
 {%- endfor -%}
 </ul>
