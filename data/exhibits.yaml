@@ -36,8 +36,10 @@ Exhibit:
 Bubble Escape 2K exhibit:
   type: Exhibit
   exhibit-type: game
-  exhibit-link: http://catseye.tc/gallery/c64/bubble-escape-2k/
+  exhibit-link: ../gallery/c64/bubble-escape-2k/
   interactive: true
+  animated: true
+  medium: Java applet
   description: |
     [[Bubble Escape 2K]] playable online in the [[JaC64]] [[Commodore 64]]
     emulator Java applet.
@@ -54,8 +56,10 @@ Bubble Escape 2K exhibit:
 21 Esolangs in yoob:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolangs/yoob/
+  exhibit-link: ../gallery/esolangs/yoob/
   interactive: true
+  animated: true
+  medium: Java applet
   description: |
     [[yoob]] is a public-domain framework for implementing esoteric programming languages, and allowing them to be interactively
     run on programs in a Java™ applet.
@@ -69,8 +73,10 @@ Bubble Escape 2K exhibit:
 JWhothm exhibit:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolangs/jwhothm/
+  exhibit-link: ../gallery/esolangs/jwhothm/
   interactive: true
+  animated: false
+  medium: Java applet
   description: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
     which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
@@ -80,8 +86,10 @@ JWhothm exhibit:
 Gemooy HTML5 exhibit:
   type: Exhibit
   exhibit-type: esolang
-  exhibit-link: http://catseye.tc/gallery/esolangs/gemooy/
+  exhibit-link: ../gallery/esolangs/gemooy/
   interactive: true
+  animated: true
+  medium: Javascript on HTML5 canvas
   description: |
     [[Gemooy]], implemented in Javascript, on an HTML5 canvas.
 
@@ -92,25 +100,35 @@ Gemooy HTML5 exhibit:
   type: Exhibit
   # also conceptual
   exhibit-type: visual
-  exhibit-link: http://catseye.tc/gallery/conceptual/plea-of-thunder/
+  exhibit-link: ../gallery/conceptual/plea-of-thunder/
   interactive: false
+  animated: true
+  medium: Java applet
   description: |
-    A Java applet that you and your friends can own!
+    Conceptual art: A Java applet that you and your friends can own!
 
-# needs a better name
-"HTML5 Canvas Experiment #1 exhibit":
+"HTML5 Canvas Experiment #1: Progression":
   type: Exhibit
   exhibit-type: visual
-  exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-1/
+  exhibit-link: ../gallery/html5/progression/
   interactive: false
+  animated: true
+  medium: Javascript on HTML5 canvas
+  description: |
+    Op art: A eye-tickler.  Starts getting interesting around 100 iterations,
+    and starting stopping being interesting around 1550 (YMMV).  Requires HTML5 canvas
+    support and Javascript enabled.
 
-# needs a better name
-"HTML5 Canvas Experiment #5 exhibit":
+"HTML5 Canvas Experiment #5: Prairie":
   type: Exhibit
   exhibit-type: visual
-  exhibit-link: http://catseye.tc/gallery/html5/canvas-experiment-5/
+  exhibit-link: ../gallery/html5/prairie/
   interactive: false
-
+  animated: true
+  medium: Javascript on HTML5 canvas
+  description: |
+    Animated impressionism:  An impression of the prairies.  Requires HTML5 canvas
+    support and Javascript enabled.
 
 # ---------------------------------------------------------------------------
 # For now, let's assume these are not exhibits.
@@ -118,7 +136,7 @@ Gemooy HTML5 exhibit:
 #~ Plankalkül exhibit:
   #~ type: Exhibit
   #~ exhibit-type: language
-  #~ exhibit-link: http://catseye.tc/gallery/languages/plankalkuel/
+  #~ exhibit-link: ../gallery/languages/plankalkuel/
   #~ interactive: false
   #~ authors:
   #~ - Konrad Zuse
@@ -133,7 +151,7 @@ Gemooy HTML5 exhibit:
 #~ Sartre exhibit:
   #~ type: Exhibit
   #~ exhibit-type: esolang
-  #~ exhibit-link: http://catseye.tc/gallery/languages/sartre/
+  #~ exhibit-link: ../gallery/languages/sartre/
   #~ interactive: false
   #~ authors:
   #~ - Anonymous
@@ -144,7 +162,7 @@ Gemooy HTML5 exhibit:
 #~ TURKEY BOMB:
   #~ type: Exhibit
   #~ exhibit-type: esolang
-  #~ exhibit-link: http://catseye.tc/gallery/languages/turkeyb/
+  #~ exhibit-link: ../gallery/languages/turkeyb/
   #~ interactive: false
   #~ authors:
   #~ - Anonymous
@@ -160,7 +178,7 @@ Gemooy HTML5 exhibit:
   #~ interactive: false
   #~ authors:
   #~ - John Colagioia
-  #~ exhibit-link: http://catseye.tc/gallery/languages/starw/
+  #~ exhibit-link: ../gallery/languages/starw/
   #~ description: |
     #~ "The *W language should be based on the W language which,
     #~ of course, does not exist."

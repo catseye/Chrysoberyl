@@ -19,7 +19,7 @@ use white background for all else.
 
 use two-column layout for (thing, thing distribution)
 
-Don't have separate distribution nodes for ref dists.
+Don't necessarily even make nodes for reference distributions.
 
 tool
 ----
@@ -85,8 +85,6 @@ Figure out a way to generate Online Gallery from Chrysoberyl.
 
 perhaps...
 ----------
-
-Don't necessarily even make nodes for reference distributions.
 
 Cited in Jargon File --> like esowiki and wikipedia.
 

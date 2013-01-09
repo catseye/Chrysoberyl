@@ -1,10 +1,35 @@
 {# bespoke template #}
 {% extends "base.html" %}
 
+{% block extra_head %}
+  <meta name="description" content="Index of galleries of noteworthy and interactive exhibits at Cat's Eye Technologies.">
+{% endblock extra_head %}
+
 {% block content %}
 
 {% for exhibit_type in ['esolang', 'game', 'visual'] %}
   <h3>{{ exhibit_type }} Exhibits</h3>
+
+  {# yuck #}
+
+  {% if exhibit_type == 'esolang' %}
+    <p>An exhibit of many <a href="../about/esolang.html">esoteric programming
+    languages</a> in action, with which you can experiment.  By selecting sample
+    programs and watching them run, you can gain an appreciation of how the
+    esolang computes stuff; by composing your own programs, you can gain an even
+    better appreciation.</p>
+  {% endif %}
+
+  {% if exhibit_type == 'game' %}
+    <p>An exhibit of programs written for the
+    <a href="../node/Commodore%2064.html">Commodore 64</a>.  This gallery is
+    interactive, powered by the <a href="../node/JaC64.html">JaC64</a> Java™
+    applet, which allows you to run
+    Commodore 64 programs in your web browser.  This gallery is primarily,
+    but not exclusively, intended to present C64 games which have been developed
+    by Cat's Eye Technologies.</p>
+  {% endif %}
+
   <ul>
   {%- for thing in data|sort -%}
     {%- if data[thing].type == 'Exhibit' and

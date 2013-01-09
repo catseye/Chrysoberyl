@@ -80,11 +80,7 @@ LoUIE:
 Gallery:
   type: Collection
   description: |
-    Welcome to Cat's Eye Technologies' Gallery.
-    This area of our website is for exhibiting digital artefacts, both our own and
-    others, which we consider worth exhibiting.
-    
-    Many of these exhibits are interactive, being implemented as Java™ applets,
-    in Javascript and/or HTML5, or as Flash.
-    
-    We hope you enjoy interacting with them.
+    Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
+    exhibition of digital artefacts, both ours and others, which we consider noteworthy.
+    Many of these exhibits are interactive, being implemented as Java™
+    applets, in Javascript with HTML5, or as Flash.
