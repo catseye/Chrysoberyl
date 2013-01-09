@@ -99,9 +99,8 @@ screenshots for games.  (again, maybe by implementation)
 Something to indicate "specification link forthcoming" instead of
 baldly "no specification".
 
-Add indefart_link().  And indefart_linkedlist.  Or really, maybe a
-single function format(value, link=True, indefart=True), which
-can handle a scalar or a list and such.  Dunno, maybe.
+Add a single function format(value, link=True, indefart=True), which
+can handle a scalar or a list and such.
 
 Version numbers on languages.
 

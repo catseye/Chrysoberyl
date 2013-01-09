@@ -29,11 +29,11 @@
           A
         {% endif %}
         {% if genre and type not in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
-          {{ link_lower(genre) }}
+          {{ link(genre, lower=true) }}
         {% endif %}
-        {{ link_lower(type) }}
+        {{ link(type, lower=true) }}
         {% if genre and type in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
-          in the genre of {{ link_lower(genre) }}
+          in the genre of {{ link(genre, lower=true) }}
         {% endif %}
         by {{ linked_list(authors) }}
         {%- if auspices -%}

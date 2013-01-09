@@ -12,7 +12,7 @@
     <li>
       <p>
         {{ link(thing) }}
-        (<i>{{ link_lower(data[thing].genre) }},
+        (<i>{{ link(data[thing].genre, lower=true) }},
          {{ link(data[thing].composed_on) }},
          {{ data[thing].inception_date }}</i>)
         —
@@ -46,7 +46,7 @@
       {% set thing = data[impl].implementation_of[0] %}
       <p>
         {{ link(thing) }}
-        (<i>{{ link_lower(data[thing].genre) }}
+        (<i>{{ link(data[thing].genre, lower=true) }}
          {%- if data[thing].composed_on and data[thing].inception_date -%},
            {{ link(data[thing].composed_on) }},
            {{ data[thing].inception_date }}

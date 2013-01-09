@@ -169,18 +169,23 @@ class Renderer(object):
             else:
                 return "a " + text
 
+        _indefart = indefart
         @expose
-        def link(key, format="%s"):
-            """Return an HTML link to the node with the given key."""
-            return '<a href="%s">%s</a>' % (
-                pathname2url(filekey(key)), format % key
-            )
+        def link(key, format="%s", indefart=False, lower=False):
+            """Return an HTML link to the node with the given key.
 
-        @expose
-        def link_lower(key, format="%s"):
-            """Return a lowercase HTML link to the node with the given key."""
+            indefart causes the link text to be preceded by an indefinite
+            article.  lower causes the link text to be lowercase.
+
+            """
+            link_text = key
+            if lower:
+                link_text = link_text.lower()
+            if indefart:
+                link_text = _indefart(key)
+            link_text = format % link_text
             return '<a href="%s">%s</a>' % (
-                pathname2url(filekey(key)), format % key.lower()
+                pathname2url(filekey(key)), link_text
             )
 
         # not the kind you're probably thinking of

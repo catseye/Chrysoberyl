@@ -32,7 +32,7 @@
       
       It is
       {% if implementation_type %}
-        <a href="{{ filekey(implementation_type) }}">{{ indefart(implementation_type) }}</a>,
+        {{ link(implementation_type, indefart=true) }},
       {% endif %}
       {{ writtenverb }} in {{ link(host_language) }}
       {%- if host_platform %}
