@@ -17,13 +17,15 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dir, output_dir):
+    def __init__(self, data, template_dir, output_dir,
+                 jquery_url=None):
         self.data = data
         self.template_dir = template_dir
         self.output_dir = output_dir
         self.loader = jinja2.FileSystemLoader(self.template_dir,
                                               encoding='utf-8')
         self.env = jinja2.Environment(loader=self.loader)
+        self.jquery_url = jquery_url
 
     def render(self, template, output_filename, context):
         """Low-level method to render a given template."""
@@ -59,6 +61,7 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
         context['filekey'] = filekey
+        context['jquery_url'] = self.jquery_url
 
         # Context functions.  Being nested functions of render_node lets
         # them easily access (close over) the current node and its key.
