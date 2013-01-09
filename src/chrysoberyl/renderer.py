@@ -310,9 +310,9 @@ class Renderer(object):
         """
         count = 0
         for key in self.data:
-            count += 1
             node = self.data[key]
-            if node['type'] in ('Exhibit'):
+            if node['type'] in ('Exhibit', 'Online Installation'):
                 continue
             self.render_node(key, node)
+            count += 1
         print "%d files written." % count

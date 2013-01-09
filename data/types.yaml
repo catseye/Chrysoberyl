@@ -5,11 +5,17 @@ type:
 Metanode:
   type: type
 
-Concept:
-  type: type
+# presentedy things:
 Article:
   type: type
 News Item:
+  type: type
+Exhibit:
+  type: type
+Online Installation:
+  type: type
+
+Concept:
   type: type
 Computational Class:
   type: type

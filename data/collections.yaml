@@ -82,5 +82,9 @@ Gallery:
   description: |
     Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
     exhibition of digital artefacts, both ours and others, which we consider noteworthy.
-    Many of these exhibits are interactive, being implemented as Java™
-    applets, in Javascript with HTML5, or as Flash.
+    Many of these exhibits are interactive, being implemented as [[Java]]™
+    applets, or in HTML5 with [[Javascript]].
+  exhibits:
+  - Esolangs Exhibit
+  - Commodore 64 Exhibit
+  - Digital Art Exhibit

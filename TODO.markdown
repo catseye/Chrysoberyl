@@ -81,8 +81,6 @@ content
 
 Link Chrysoberyl to Chrysoberyl distribution somehow.
 
-Figure out a way to generate Online Gallery from Chrysoberyl.
-
 perhaps...
 ----------
 
