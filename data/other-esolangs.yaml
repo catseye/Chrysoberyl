@@ -11,6 +11,9 @@
   authors:
   - John Colagioia
   development-stage: not fully complete
+  description: |
+    "The *W language should be based on the W language which,
+    of course, does not exist."
 
 
 BitChanger:
@@ -120,8 +123,11 @@ Sartre:
   esowiki: Sartre
   specification-link: http://catseye.tc/gallery/languages/sartre/
   authors:
+  - Anonymous
   - John Colagioia
   development-stage: not fully complete
+  description: |
+    An elaboration of an entry originally in the List of Lesser-Known Languages.
 
 
 Spoon:
@@ -150,6 +156,11 @@ TURKEY BOMB:
   # I'm not yet willing to add a development stage called "exists only in future"
   # (although, if I did, I could use that for Feather, too!)
   development-stage: not fully complete
+  description: |
+    The first known programming-language-cum-drinking-game.
+    
+    The specification was discovered mysteriously one day amidst a
+    pile of Byte magazines in a second-hand book store.
 
 
 "Var'aq":

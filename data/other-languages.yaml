@@ -595,15 +595,23 @@ PHP:
 Plankalkül:
   type: Programming Language
   genre: Experimental language
-  paradigms: []
+  paradigms:
+  - Imperative
+  - 2-dimensional
+  # I really don't know
   computational-class: unknown computational class
-  # actually I'm sure there are quite  specifications out there now
   no-specification: true
   authors:
   - Konrad Zuse
   development-stage: vintage
   links:
   - 'http://catseye.tc/gallery/languages/plankalkuel/'
+  description: |
+    Plankalkül was probably the very first attempt at a formalized notation for
+    computer programs, and is considered by many to be the first programming language.
+    The linked article describing the language, transliterated to HTML
+    from scans provided by the Retrocomputing Museum, originally appeared in
+    Communications of the ACM, July 1972, Volume 15, Number 7.
   commentary: |
     Actually I'm sure there's a quite good specification somewhere out
     there nowadays.
@@ -880,6 +888,8 @@ Zz:
 
 
 #----------------------------------------------------------------------------
+# low-level things
+#----------------------------------------------------------------------------
 
 Ophis Assembler:
   type: Programming Language
@@ -969,6 +979,7 @@ lookup table:
   development-stage: mature
   authors: []
 
+
 Wireworld:
   type: Programming Language
   # recreational language?
@@ -982,6 +993,20 @@ Wireworld:
   authors: []
 
 
+.NET executable:
+  type: Programming Language
+  # albeit virtual
+  genre: Machine language
+  paradigms: []
+  no-specification: true
+  development-stage: mature
+  authors: []
+
+
+#----------------------------------------------------------------------------
+# miscellany!
+#----------------------------------------------------------------------------
+
 Unknown language:
   type: Programming Language
   genre: Production language
@@ -993,12 +1018,3 @@ Unknown language:
   description: |
     This node represents the fact that I don't know what language some
     implementation was written in.
-
-.NET executable:
-  type: Programming Language
-  # albeit virtual
-  genre: Machine language
-  paradigms: []
-  no-specification: true
-  development-stage: mature
-  authors: []
