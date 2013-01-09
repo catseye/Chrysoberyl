@@ -20,6 +20,9 @@ except ImportError:
 from chrysoberyl.util import get_it
 
 
+### Utilities ###
+
+
 def bitbucket_repos(data):
     """Generator which yields information about every Mercurial repository
     on Bitbucket referenced by some distribution in Chrysoberyl.
@@ -38,6 +41,13 @@ def bitbucket_repos(data):
 
 
 def for_each_repo(data, clone_dir, fun):
+    """Runs the given function for each local repository clone found, passing
+    it the distribution key and the repository name, and first changing into
+    the clone directory.
+
+    Returns the number of local repository clones traversed.
+
+    """
     cwd = os.getcwd()
     count = 0
     for (distribution, user, repo) in sorted(bitbucket_repos(data)):
@@ -53,6 +63,35 @@ def for_each_repo(data, clone_dir, fun):
     return count
 
 
+def get_latest_release_tag(data, repo_name, clone_dir):
+    """Given the name of a repository, find the distribution node associated
+    with it, and return the tag most recently applied to the repository.
+
+    """
+    result = {}
+
+    def find_it(distribution, repo):
+        if repo != repo_name:
+            return
+
+        latest_tag = None
+        for line in get_it("hg tags").split('\n'):
+            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+            if match:
+                tag = match.group(1)
+                if tag != 'tip' and latest_tag is None:
+                    latest_tag = tag
+
+        result[repo] = latest_tag
+
+    for_each_repo(data, clone_dir, find_it)
+
+    return result[repo_name]
+
+
+### Repository-Traversing Commands ###
+
+
 DOC_PATTERNS = (
     r'^LICENSE$',
     r'^UNLICENSE$',
@@ -65,6 +104,10 @@ DOC_PATTERNS = (
 
 
 def troll_docs(data, clone_dir, data_dir):
+    """Looks for documentation in local repository clones and updates
+    the Documentation Index node in the Chrysoberyl data.
+
+    """
     docdict = {}
 
     def troll_repo(distribution, repo):
@@ -101,10 +144,25 @@ def troll_docs(data, clone_dir, data_dir):
 
 
 def survey_repos(data, clone_dir):
+    """Generates a report summarizing various properties of the local
+    repository clones for distributions in Chrysoberyl.
+
+    """
     repos = {}
 
     def survey_repo(distribution, repo):
         print repo
+        has_modern_name = False
+        for release in data[distribution]['releases']:
+            distfile_name = {
+              'pl-goto-.net': 'pl-goto.net',
+            }.get(repo, repo)
+            modern_name = "%s-%s-%s" % (
+                repo, release['version'], release['revision']
+            )
+            if modern_name in release['url']:
+                has_modern_name = True
+                break
         dirty = get_it("hg st")
         #outgoing = get_it("hg out")
         outgoing = ''
@@ -138,6 +196,7 @@ def survey_repos(data, clone_dir):
             'latest_tag': latest_tag,
             'due': due,
             'diff': diff,
+            'has_modern_name': has_modern_name,
         }
 
     count = for_each_repo(data, clone_dir, survey_repo)
@@ -155,6 +214,8 @@ def survey_repos(data, clone_dir):
             #print len(r['diff'])
             if r['due']:
                 print "  DUE:", r['due']
+            if r['due'] != 'NEVER RELEASED' and not r['has_modern_name']:
+                print "  DUE: has no modernly-named distfile"
             print
     print '-----'
     print "%d repos checked." % count
@@ -187,6 +248,10 @@ OK_ROOT_DIRS = (
 
 
 def lint_dists(data, clone_dir, host_language):
+    """Check that the layouts of distributions conform to the
+    distribution organization guidelines.
+
+    """
     problems = {}
 
     def lint_repo(distribution, repo):
@@ -250,25 +315,3 @@ def lint_dists(data, clone_dir, host_language):
     print "Linted %d clones, problems in %d of them." % (
         count, problematic_count
     )
-
-
-def get_latest_release_tag(data, repo_name, clone_dir):
-    result = {}
-
-    def find_it(distribution, repo):
-        if repo != repo_name:
-            return
-
-        latest_tag = None
-        for line in get_it("hg tags").split('\n'):
-            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-            if match:
-                tag = match.group(1)
-                if tag != 'tip' and latest_tag is None:
-                    latest_tag = tag
-
-        result[repo] = latest_tag
-
-    for_each_repo(data, clone_dir, find_it)
-
-    return result[repo_name]
