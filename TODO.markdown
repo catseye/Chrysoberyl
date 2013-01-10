@@ -6,8 +6,6 @@ higher priority
 
 Render documentation to a separate directory and link to it.
 
-As part of that: put images inline.  (LED-386, Mildred, games...)
-
 Don't necessarily even make nodes for reference distributions.
 
 styling
@@ -80,6 +78,10 @@ content
 -------
 
 Link Chrysoberyl to Chrysoberyl distribution somehow.
+
+Make images for electronics projects (LED-386, Mildred) available.
+
+More screenshots of games?
 
 perhaps...
 ----------

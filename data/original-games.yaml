@@ -16,6 +16,8 @@ Bubble Escape:
     where (surprisingly, to me!) it got first place in its class.
   online-implementations:
   - 'http://catseye.tc/gallery/c64/bubble-escape-2k/'
+  images:
+  - 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
 
 Bubble Escape (BASIC):
   type: Implementation
@@ -44,6 +46,8 @@ Bubble Escape 2K:
   submitted-to:
   - competition: Mini Game Compo 2009
     prize: 1st place in 2K category
+  images:
+  - 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
 
 Bubble Escape 8K:
   type: Implementation

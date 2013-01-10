@@ -21,6 +21,16 @@
   </aside>
 
   <header>
+    {% block images %}
+      {% if images %}
+        <section id="images">
+          {% for image in images %}
+            <img src="{{ image }}">
+          {% endfor %}
+        </section>
+      {% endif %}
+    {% endblock images %}
+
     {% block breadcrumbs %}
     <nav id="breadcrumbs">
       <p>{{ breadcrumbs()|join(' » ') }}</p>
