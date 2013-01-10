@@ -180,7 +180,14 @@ class Renderer(object):
             indefart causes the link text to be preceded by an indefinite
             article.  lower causes the link text to be lowercase.
 
+            If the node is of a type that suppresses page generation, this
+            will raise an exception.  In the future, it may intelligently
+            divert to a different node.
+
             """
+            type = self.data[key]['type']
+            if self.data[type].get('suppress-page-generation', False):
+                raise KeyError('link to non-page (%s) node %s' % (type, key))
             link_text = key
             if lower:
                 link_text = link_text.lower()
@@ -311,7 +318,7 @@ class Renderer(object):
         count = 0
         for key in self.data:
             node = self.data[key]
-            if node['type'] in ('Exhibit', 'Online Installation'):
+            if self.data[node['type']].get('suppress-page-generation', False):
                 continue
             self.render_node(key, node)
             count += 1

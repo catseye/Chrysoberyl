@@ -23,7 +23,11 @@
 <ul>
 {% for thing in related('type')|sort -%}
   <li>
-    {{ link(thing) }}
+    {% if not data[key].suppress_page_generation %}
+      {{ link(thing) }}
+    {% else %}
+      {{ thing }}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>

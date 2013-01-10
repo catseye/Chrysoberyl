@@ -5,7 +5,9 @@
 <h2>Index of Categories</h2>
 <ul>
 {%- for thing in data.keys()|sort -%}
-  {%- if data[thing].type == 'type'  and thing not in ['type', 'Exhibit', 'Online Installation'] -%}
+  {%- if data[thing].type == 'type' and
+         thing != 'type' and
+         not data[thing].suppress_page_generation -%}
     <li>
       {{ link(thing) }}
     </li>

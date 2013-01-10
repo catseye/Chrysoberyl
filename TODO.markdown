@@ -8,6 +8,8 @@ Render documentation to a separate directory and link to it.
 
 As part of that: put images inline.  (LED-386, Mildred, games...)
 
+Don't necessarily even make nodes for reference distributions.
+
 styling
 -------
 
@@ -18,8 +20,6 @@ use black background for nav header:
 use white background for all else.
 
 use two-column layout for (thing, thing distribution)
-
-Don't necessarily even make nodes for reference distributions.
 
 tool
 ----
