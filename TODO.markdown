@@ -6,8 +6,6 @@ higher priority
 
 Render documentation to a separate directory and link to it.
 
-Don't necessarily even make nodes for reference distributions.
-
 styling
 -------
 

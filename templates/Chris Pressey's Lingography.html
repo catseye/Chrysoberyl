@@ -23,13 +23,12 @@
     {% endif %}
 
     {% if data[thing].online_implementations %}
-      <p>Try it online:
-        <ul>
-          {% for olimpl in data[thing].online_implementations|sort %}
-            <li><a class="online" href="{{ olimpl }}">{{ olimpl }}</a></li>
-          {% endfor %}
-        </ul>
-      </p>
+      <p>Try it online:</p>
+      <ul>
+        {% for olimpl in data[thing].online_implementations|sort %}
+          <li><a class="online" href="{{ olimpl }}">{{ olimpl }}</a></li>
+        {% endfor %}
+      </ul>
     {% endif %}
 
     {% if related('implementation_of', key=thing) %}
