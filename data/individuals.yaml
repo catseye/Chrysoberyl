@@ -286,8 +286,6 @@ J. Arthur Seebach Jr.:
   type: Individual
 Marvin Minsky:
   type: Individual
-Frank Zappa:
-  type: Individual
 Peter Occhiogrosso:
   type: Individual
 Neill Graham:
@@ -302,6 +300,15 @@ Ambrose Bierce:
 Walter Brainerd:
   type: Individual
 Lawrence Landweber:
+  type: Individual
+
+# musicians
+Frank Zappa:
+  type: Individual
+  wikipedia: Frank Zappa
+Jan Hammer:
+  type: Individual
+Jerry Goodman:
   type: Individual
 
 # other notable people

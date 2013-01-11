@@ -1141,9 +1141,9 @@ Full Moon Fever:
     Lives on, in a somewhat distended form, as a sub-language of
     [[ILLGOL]].
   commentary: |
-    I believe the name "Full Moon Fever" came from a mis-remembering
-    of the title of the song "Full Moon Boogie" by Jan Hammer and
-    that other guy.
+    The name "Full Moon Fever" has nothing at all to do with lycanthropy;
+    I believe it came from mis-remembering the title of the song
+    "Full Moon Boogie" by [[Jan Hammer]] and [[Jerry Goodman]].
   etymology:
   - song title
   - error
@@ -2757,7 +2757,7 @@ Shelta:
     any semantics; it relies on inline machine code to write anything resembling
     an actual program in it. In the spirit of compilers for languages such as [[FALSE]]
     and [[brainfuck]], a Shelta-to-8086 compiler was implemented (with help from
-    Ben Olmstead) in less than 512 bytes of [[x86 machine code|80286 machine code]]. What's more,
+    [[Ben Olmstead]]) in less than 512 bytes of [[x86 machine code|80286 machine code]]. What's more,
     it's also been bootstrapped — that is to say, a Shelta compiler was
     written in Shelta, which was compiled with the original compiler, and then
     compiled again with the resulting compiler, producing a wholly self-hosted
