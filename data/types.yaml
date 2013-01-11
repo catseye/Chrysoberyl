@@ -79,6 +79,7 @@ License:
 # distributions:
 Distribution:
   type: type
+  suppress-page-generation: true
 
 # implementables:
 Game:

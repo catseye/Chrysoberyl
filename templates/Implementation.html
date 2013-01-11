@@ -47,11 +47,11 @@
 
       {% if in_distributions %}
         {% if in_distributions|length == 1 %}
-          It is distributed in the {{ link(in_distributions[0]) }} and it
+          It is distributed in the {{ in_distributions[0] }} and it
         {% else %}
           It is found in these distributions: {# TODO: linked_list? #}
           {% for distribution in in_distributions %}
-            {{ link(distribution) }},
+            {{ distribution }},
           {% endfor %}
           and it
         {% endif %}

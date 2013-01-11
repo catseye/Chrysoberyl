@@ -15,7 +15,7 @@
 
 {% if reference_distribution %}
   <section id="reference_distribution">
-    <h2>Reference distribution: {{ link(reference_distribution) }}</h2>
+    <h2>Reference distribution: {{ reference_distribution }}</h2>
     <div>
       {% set dist_key=ref_dist() %}
       {% include "include/distribution.html" %}
