@@ -2636,14 +2636,14 @@ RUBE:
     RUBE is an esoteric programming language in tribute to [[Rube Goldberg]],
     with bulldozers pushing around numbered crates, knocking them together to
     perform computations.  It is based on a variant of a cellular automaton called
-    a *bully automaton*, where certain state changes canforce other state changes
-    to occur elsewhere in the playfield.
+    a *[[Bully automaton|bully automaton]]*, where certain state changes can
+    force other state changes to occur elsewhere in the playfield.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   basis-for-game: true
-  inception-date: ca Jul 10, 2007
+  inception-date: 1997
   development-stage: mature
   etymology:
     - masculine given name
@@ -2734,6 +2734,10 @@ Sbeezg:
     f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
        k=j(h,b)|a};l=f(99,f)
+  commentary: |
+    I really don't remember exactly what I was trying to accomplish
+    with this; the basic idea is fairly absurd (either your variables are
+    single-assignment or they're not...)
 
 sbeezg.erl:
   type: Implementation
