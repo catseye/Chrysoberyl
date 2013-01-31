@@ -5,16 +5,21 @@ Documentation Index:
     '''N-DCNC distribution':
     - doc/readme.txt
     ALPACA distribution:
-    - doc/ebnf.txt
-    - doc/alpaca.html
+    - LICENSE
+    - README.markdown
+    - impl/alpaca.pl/README.markdown
+    - doc/ALPACA.markdown
     Animals distribution:
-    - doc/animals.html
+    - README.markdown
+    - UNLICENSE
     Apple Befunge distribution:
     - LICENSE
     - README.markdown
     Arboretuum distribution:
     - README.markdown
+    - UNLICENSE
     BefOS distribution:
+    - README.markdown
     - UNLICENSE
     - src/page/welcome.txt
     - contrib/zzo38/bootloader.txt
@@ -29,6 +34,7 @@ Documentation Index:
     - doc/Befunge-93.markdown
     Beturing distribution:
     - README.markdown
+    - UNLICENSE
     Bhuna distribution:
     - doc/bhuna.txt
     Braktif distribution: []
@@ -45,6 +51,9 @@ Documentation Index:
     - petulant/readme.txt
     Cabra distribution:
     - doc/cabra.html
+    Castile distribution:
+    - TODO.markdown
+    - README.markdown
     Cfluviurrh distribution:
     - LICENSE
     - README.markdown
@@ -67,6 +76,7 @@ Documentation Index:
     - README.markdown
     - doc/Deturgenchry.markdown
     Dieter distribution:
+    - LICENSE
     - README.markdown
     DiskSumo distribution:
     - README.markdown
@@ -79,34 +89,58 @@ Documentation Index:
     - README.markdown
     Emmental distribution:
     - README.markdown
+    - UNLICENSE
     Etcha distribution:
     - README.markdown
     - UNLICENSE
     Exanoke distribution:
+    - LICENSE
     - README.markdown
     FBBI distribution:
     - doc/fbbi.html
     Falderal distribution:
+    - TODO.markdown
     - LICENSE
     - README.markdown
-    - eg/LiterateHaskellDemo.lhs
+    - HISTORY.markdown
+    - impl/Test.Falderal/eg/LiterateHaskellDemo.lhs
+    - tests/test9.markdown
+    - tests/test-utf8.markdown
+    - tests/test8a.markdown
+    - tests/test-crlf.markdown
+    - tests/test-substring-error.markdown
+    - tests/test5.markdown
+    - tests/test1.markdown
+    - tests/test7b.markdown
+    - tests/test3.markdown
+    - tests/test7a.markdown
+    - tests/test6b.markdown
+    - tests/test4.markdown
+    - tests/test2.markdown
+    - tests/test6a.markdown
+    - tests/test8b.markdown
+    - doc/py-falderal.markdown
     - doc/Falderal_Literate_Test_Format.markdown
     - doc/Theory_of_Operation.markdown
     - doc/Quick_Start.markdown
     Flip distribution:
-    - doc/flip.html
+    - README.markdown
+    - UNLICENSE
     Flobnar distribution:
     - README.markdown
     Gemooy distribution:
     - README.markdown
     - UNLICENSE
-    - html/gemooy.html
+    - demo/gemooy.html
     GraNoLa/M distribution:
-    - granolam.txt
+    - README.markdown
+    - UNLICENSE
+    - doc/GraNoLa-M.markdown
     HUNTER distribution:
     - README.markdown
     - lib/console-virtual/readme.txt
     Hev distribution:
+    - LICENSE
     - README.markdown
     'Illgol: Grand Mal':
     - README.markdown
@@ -125,12 +159,14 @@ Documentation Index:
     - 4. Open Sores Illgol##/doc/i2readme.txt
     Iphigeneia distribution:
     - README.markdown
+    - tests/Iphigeneia.markdown
     Jaccia and Jacciata distribution:
     - README.markdown
     Jolverine distribution:
     - README.markdown
     - UNLICENSE
     Kangaroo Iceberg distribution:
+    - LICENSE
     - README.markdown
     Kelxquoia distribution:
     - README.markdown
@@ -140,10 +176,13 @@ Documentation Index:
     - tests/Term.markdown
     - tests/Assembly.markdown
     Larabee distribution:
+    - LICENSE
     - README.markdown
     Maentwrog distribution:
     - README.markdown
+    - UNLICENSE
     Mascarpone distribution:
+    - LICENSE
     - README.markdown
     Muriel distribution:
     - license.txt
@@ -151,9 +190,10 @@ Documentation Index:
     - README.markdown
     - UNLICENSE
     PL-{GOTO}.NET distribution:
+    - README.markdown
     - UNLICENSE
-    - PLexceptGOTOdotNET.lhs
-    - PLexceptGOTOdotNET.markdown
+    - src/PLexceptGOTOdotNET.lhs
+    - tests/PLexceptGOTOdotNET.markdown
     Pail distribution:
     - src/Pail.lhs
     - tests/Pail.markdown
@@ -169,6 +209,7 @@ Documentation Index:
     Pophery distribution:
     - README.markdown
     Quylthulg distribution:
+    - LICENSE
     - README.markdown
     - tests/Quylthulg.markdown
     REDGREEN distribution:
@@ -227,6 +268,11 @@ Documentation Index:
     Rooibos distribution:
     - README.markdown
     - UNLICENSE
+    SICKBAY distribution:
+    - README.markdown
+    - UNLICENSE
+    - doc/Original_Notes.markdown
+    - doc/SICKBAY.markdown
     SMETANA distribution:
     - README.markdown
     - UNLICENSE
@@ -237,24 +283,31 @@ Documentation Index:
     - LICENSE
     - doc/Sally.markdown
     Sbeezg distribution:
-    - README
+    - README.markdown
+    - UNLICENSE
     Shelta distribution:
     - bin/null.txt
     - doc/nasm2009.txt
     - doc/readme.txt
     - doc/bootstrp.txt
     Squishy2K distribution:
-    - README.txt
-    Strelnokoff distribution: []
+    - README.markdown
+    - UNLICENSE
+    Strelnokoff distribution:
+    - LICENSE
+    - README.markdown
+    - doc/Strelnokoff.markdown
     Super Wumpus Land distribution: []
     TPiS distribution:
     - LICENSE
     - README.markdown
     Thue distribution:
+    - LICENSE
     - README.markdown
     - doc/license.txt
     - doc/thue.txt
     Treacle distribution:
+    - LICENSE
     - README.markdown
     Troupe distribution:
     - README.markdown
@@ -262,13 +315,14 @@ Documentation Index:
     - LICENSE
     - README.markdown
     Velo distribution:
+    - LICENSE
     - README.markdown
-    - tests/config/Velo.markdown
     Version distribution:
     - README.markdown
     Whothm distribution:
     - LICENSE
     - README.markdown
+    - bin/README.txt
     Wierd distribution:
     - README.markdown
     - doc/hellow.txt
@@ -282,6 +336,7 @@ Documentation Index:
     - doc/count.doc.txt
     - doc/half.doc.txt
     Xigxag distribution:
+    - README.markdown
     - UNLICENSE
     - doc/xigxag.html
     Xoomonk distribution:
@@ -301,8 +356,8 @@ Documentation Index:
     - LICENSE
     - README.markdown
     crone distribution:
-    - doc/crone.html
-    - doc/crone_test.html
+    - LICENSE
+    - README.markdown
     mzstorkipiwanbotbotbot distribution:
     - README.markdown
     - UNLICENSE
@@ -322,7 +377,8 @@ Documentation Index:
     yoob distribution:
     - README.markdown
     - UNLICENSE
-    - html/yoob.html
+    - demo/yoob.html
     yucca distribution:
+    - LICENSE
     - README.markdown
   type: Metanode
