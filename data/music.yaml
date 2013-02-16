@@ -143,6 +143,7 @@ The Biftek Shuffle:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: vintage
   commentary: |
     Apparently, when I was young, I was obsessed with
     (a) the 12-bar blues progression,
@@ -163,6 +164,7 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: vintage
   commentary: |
     Pure experimentational weirdness with the C64's SID chip.
     The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
@@ -191,6 +193,7 @@ Theme to Nukeball:
   # or maybe Cat's Eye Technologies? if there was actually a game to go with it...
   auspices:
   - What is this I don't even
+  development-stage: vintage
   description: |
     This was the theme to a game I was trying to write for the [[Commodore 64]]
     called [[Nukeball]].  There was also an [[Untitled Video Game Theme|alternate choice]].
@@ -219,6 +222,7 @@ Tears on my Catbox:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: vintage
   description: |
     Quite short; could be a "game over" theme, or something.
 
@@ -243,6 +247,7 @@ Untitled Video Game Theme:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: vintage
   description: |
     This was, I believe, an alternate [[Theme to Nukeball]].  I rather like it.
     (It cuts off sharply at the end because it was supposed to loop, but didn't.)
@@ -267,6 +272,7 @@ Untitled Video Game Theme (mp3):
   # also redone in DCMS
   authors:
   - Chris Pressey
+  development-stage: unfinished
   auspices:
   - What is this I don't even
 
@@ -283,6 +289,7 @@ Futons:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: vintage
 
 
 ###### MED ######
@@ -298,6 +305,7 @@ After the Fact:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     I've been told that this sounds like it should be the theme music for a spy movie.
 
@@ -336,6 +344,7 @@ Anagnoresis:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     "Anagnoresis" is either an alternate spelling for, or a typo for,
     "Anagnorisis", which means the moment some profound realization
@@ -376,6 +385,7 @@ Autumn Kiss:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     This has been described as vaguely Annie Lennox-like, at least how it
     mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
@@ -409,6 +419,7 @@ Drat:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: unfinished
   commentary: |
     Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
@@ -441,6 +452,7 @@ Go(Figure):
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     One of my favourites.  Originally done up in MED (a somewhat techno-ier
     rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
@@ -485,6 +497,7 @@ Panic:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     Experimental strange dance music with lots of samples.  Samples on the general
     theme of panicking.
@@ -523,6 +536,7 @@ Popcornish:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: unfinished
   commentary: |
     I think either this or [[Technodixie]] was my first try working with Amiga music modules.
     This is very similar to stuff I was put together on a drum machine when I attended an
@@ -550,6 +564,7 @@ Rainbird:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     Another pop ballad, this one with crude sound effects of a rainstorm in it.
     The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
@@ -584,6 +599,7 @@ Red Quarks:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     A funky little tune with a somewhat strange musical structure — it kind of goes
     all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
@@ -618,6 +634,7 @@ Retrograde:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     Probably the most conventional of my "[[Sci-fi]]" tunes.  One friend of mine
     found the melody horrendously catchy in an evil way such that he could not
@@ -648,6 +665,7 @@ Stella Splendens:
   - Anonymous
   description: |
     A polyphonic medieval song from the 14th century, or possibly earlier.
+  development-stage: vintage
   links:
   - "http://en.wikipedia.org/wiki/Stella_Splendens"
 
@@ -701,6 +719,7 @@ Technodixie:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
     very techno nor very dixieland — well, if it is dixieland, it's, like, Hooked on Dixieland.
@@ -726,6 +745,7 @@ You Drive Me Wild:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     I've been told this would make a good background music for a [[Platformer]],
     although I'm not sure I agree.  I do like the signature chord at the start, though;
@@ -780,6 +800,7 @@ Theme to LOGS:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     LOGS stood for "Low Organized Games".  How, exactly, a game can
     be "low organized", I'll probably never figure out.
@@ -793,6 +814,7 @@ Coffee Break:
   inception-date: ca 1991
   composed-on: Amiga 500
   using-software: DMCS
+  development-stage: unfinished
   authors:
   - Chris Pressey
   auspices:
@@ -807,6 +829,7 @@ Birdwatching:
   inception-date: ca 1991
   composed-on: Amiga 500
   using-software: DMCS
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -842,6 +865,7 @@ Radiance:
   inception-date: ca 1992
   composed-on: Amiga 500
   using-software: DMCS
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -856,6 +880,7 @@ Foxcub:
   inception-date: ca 1991
   composed-on: Amiga 500
   using-software: DMCS
+  development-stage: unfinished
   authors:
   - Chris Pressey
   auspices:
@@ -872,6 +897,7 @@ Sardonyx:
   inception-date: ca 1994
   composed-on: Amiga 500
   using-software: DMCS
+  development-stage: mature
   instrumentation:
   - Orchestra
   authors:
@@ -895,6 +921,7 @@ Ice Jam:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     I consciously tried to write something "Björk-esque" for this one
     (not really succeeding, at least not all the way.)
@@ -920,6 +947,7 @@ Jack and Jill:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     This was going to be an actual song, once, with lyrics and everything.
 
@@ -944,6 +972,7 @@ A Moment in the Sun:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     My only foray into reggae.  A happy sort of tune;
     it was originally supposed to be followed by [[Back to the Rain]]
@@ -970,6 +999,7 @@ Back to the Rain:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     Very, very short.  Intended to be preceded by [[A Moment in the Sun]]
     and serves more as an outro for that tune.  Or, maybe it could be used as the
@@ -996,6 +1026,7 @@ Back to the Rain (mp3):
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     The title is meaningless; it's some kind
     of simple rustic air with a sitar duet jammed into the bridge.
@@ -1022,6 +1053,7 @@ Smedley the Medley:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     I had three tunes that didn't stand on their own.  They don't go together
     either, so I put them together.  I've been told it's reminiscent of
@@ -1052,6 +1084,7 @@ Fool:
   - Chris Pressey
   auspices:
   - What is this I don't even
+  development-stage: mature
   commentary: |
     A sort of hokey ragtime ballad thing.
 
@@ -1075,6 +1108,7 @@ Reality:
   inception-date: ca 1996
   composed-on: Roland JV-30
   using-software: Cakewalk
+  development-stage: mature
   authors:
   - Chris Pressey
   auspices:
@@ -1129,6 +1163,7 @@ String Quartet:
   - Chris Pressey
   composed-on: Roland JV-30
   using-software: Cakewalk
+  development-stage: mature
 
 Rest Assured:
   type: Musical Composition
@@ -1143,6 +1178,7 @@ Rest Assured:
   - Chris Pressey
   composed-on: Roland JV-30
   using-software: Cakewalk
+  development-stage: mature
 
 Interlude for Harp:
   type: Musical Composition
@@ -1154,6 +1190,7 @@ Interlude for Harp:
   - Chris Pressey
   composed-on: Roland JV-30
   using-software: Cakewalk
+  development-stage: mature
 
 
 ### recent stuff ###
@@ -1169,6 +1206,7 @@ Fluorescent Atrocious:
   composed-on: Sonant Live
   # mmm... "Firefox"?
   using-software: Sonant Live
+  development-stage: mature
   inception-date: Oct 2012
   commentary: |
     Here's what this icky techno piece tries to evoke: having a terrible

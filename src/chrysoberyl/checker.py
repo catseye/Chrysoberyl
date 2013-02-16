@@ -287,6 +287,8 @@ def check_chrysoberyl_node(data, key, node):
     if type_ == 'Musical Composition':
         check_optional_scalar_ref(data, key, node, 'composed-on')
         check_optional_scalar_ref(data, key, node, 'using-software')
+        check_scalar_ref(data, key, node, 'development-stage',
+                         types=['Development Stage'])
 
     if type_ == 'Platform':
         check_scalar_ref(data, key, node, 'native-language',
