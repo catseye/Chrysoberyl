@@ -22,16 +22,6 @@
   </aside>
 
   <header>
-    {% block images %}
-      {% if images %}
-        <section id="images">
-          {% for image in images %}
-            <img src="{{ image }}">
-          {% endfor %}
-        </section>
-      {% endif %}
-    {% endblock images %}
-
     {% block breadcrumbs %}
     <nav id="breadcrumbs">
       <p>{{ breadcrumbs()|join(' » ') }}</p>
@@ -64,7 +54,23 @@
 
   <article>
     {% block description %}
-      {% if description %}
+      {% if description and images %}
+        <div class="row-fluid">
+          <div class="span8">
+            <section id="description">
+              <h2>Description</h2>
+              {{ description_html }}
+            </section>
+          </div>
+          <div class="span4">
+            <section id="images">
+              {% for image in images %}
+                <img src="{{ image }}">
+              {% endfor %}
+            </section>
+          </div>
+        </div>
+      {% elif description %}
         <section id="description">
           <h2>Description</h2>
           {{ description_html }}
