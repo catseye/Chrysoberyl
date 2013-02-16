@@ -6,8 +6,8 @@
   <section id="online_implementations">
     <h2>Try it Online</h2>
     <ul>
-      {% for olimpl in online_implementations|sort %}
-        <li><a class="online" href="{{ olimpl }}">{{ olimpl }}</a></li>
+      {% for oikey in online_implementations|sort %}
+        <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
       {% endfor %}
     </ul>
   </section>

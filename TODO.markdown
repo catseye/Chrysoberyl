@@ -9,13 +9,9 @@ Render documentation to a separate directory and link to it.
 styling
 -------
 
-use black background for nav header:
+Improve nav a bit:
 
     Cat's Eye Technologies       Home News About Featured Search
-
-use white background for all else.
-
-use two-column layout for (thing, thing distribution)
 
 tool
 ----
@@ -86,11 +82,7 @@ perhaps...
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-online-implementations should really be a list of implementations,
-and implementations should have a list of where they can be found
-online.
-
-screenshots for games.  (again, maybe by implementation)
+Perhaps merge Online Installation with Implementation.
 
 Something to indicate "specification link forthcoming" instead of
 baldly "no specification".

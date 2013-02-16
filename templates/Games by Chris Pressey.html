@@ -26,8 +26,8 @@
       {% if data[thing].online_implementations %}
         <p>Play it online:
           <ul>
-            {% for olimpl in data[thing].online_implementations|sort %}
-              <li><a href="{{ olimpl }}">{{ olimpl }}</a></li>
+            {% for oikey in data[thing].online_implementations|sort %}
+              <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
             {% endfor %}
           </ul>
         </p>

@@ -204,7 +204,7 @@ Befunge-93:
   # maybe archival
   development-stage: mature
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
   see-also:
   - Funge-98
   - Flobnar
@@ -697,7 +697,7 @@ Circute:
   inception-date: 2005
   development-stage: mature
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 tc.catseye.yoob.circute:
   type: Implementation
@@ -991,7 +991,7 @@ Etcha:
        #
      ###
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 tc.catseye.etcha:
   type: Implementation
@@ -1284,7 +1284,8 @@ Gemooy:
   development-stage: mature
   esowiki: Gemooy
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
+  - Gemooy in HTML5
   authors:
   - Chris Pressey
   auspices:
@@ -2242,7 +2243,7 @@ nhohnhehr.py:
             # #
             ###
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 worb.pl:
   type: Implementation
@@ -2883,7 +2884,7 @@ SMETANA:
   computational-class: known not Turing-complete
   notable: true
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 smetana.pl:
   type: Implementation
@@ -3327,7 +3328,7 @@ Whothm:
     draw s, XOR;
     end
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/jwhothm/'
+  - JWhothm
 
 tc.catseye.whothm:
   type: Implementation
@@ -3462,7 +3463,7 @@ Wunnel:
              o    oooo o
   specification-link: esowiki
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 tc.catseye.yoob.wunnel:
   type: Implementation
@@ -3627,7 +3628,7 @@ Ypsilax:
         #      #
         #    ###
   online-implementations:
-  - 'http://catseye.tc/gallery/esolangs/yoob/'
+  - '21 Esolangs in yoob'
 
 ypsilax.pl:
   type: Implementation

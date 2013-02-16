@@ -25,11 +25,13 @@
       <td>{{ data[thing].development_stage }}</td>
       <td>
         {% if data[thing].online_implementations %}
-          <a class="button" href="{{ data[thing].online_implementations[0] }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %}</a>
+          {% for oikey in data[thing].online_implementations|sort %}
+            <a class="button" href="{{ data[oikey].exhibit_link }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} ({{ data[oikey].medium }})</a>
+          {% endfor %}
         {% endif %}
         {% for impl in related('implementation-of', key=thing)|sort %}
           {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
-              <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
+            <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
           {% endif %}
         {% endfor %}
         {% if data[thing].reference_distribution %}
