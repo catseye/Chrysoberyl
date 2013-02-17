@@ -2,15 +2,14 @@
 
 {% block heading %}
   <hgroup id="heading">
-    <h1>{{ key }}s</h1>
+    <h1>{{ plural(key) }}</h1>
   </hgroup>
 {% endblock %}
 
 {% block description %}
   <section id="description">
-    <h2>Description</h2>
     <p>
-      This is a list of all {{ key|lower }}s with entries in {{ link('Chrysoberyl') }}.
+      This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
     </p>
     {% if description %}
       {{ description_html }}

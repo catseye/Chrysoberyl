@@ -12,7 +12,6 @@
 
 {% block description %}
   <section id="description">
-    <h2>Description</h2>
     <p>This is
       {% if reference %}
         the reference {{ implnoun }}
@@ -60,7 +59,7 @@
       {% endif %}
       {% if license == 'Public Domain' %}
         is in the {{ link('Public Domain') }}
-      {% elif license == 'Freely Redistributable' %}
+      {%- elif license == 'Freely Redistributable' %}
         is freely redistributable unmodified for non-commercial purposes
       {%- elif license == 'Proprietary' %}
         is proprietary software

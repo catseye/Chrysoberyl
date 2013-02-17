@@ -11,9 +11,27 @@
         'Chris Pressey' in data[thing].authors and
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
     <li>
-      <p>{{ link(thing) }} ({{ data[thing].inception_date }})</p>
+      <p>
+        {{ link(thing) }} ({{ data[thing].inception_date }})
+        {% if data[thing].online_implementations %}
+          {% for oikey in data[thing].online_implementations|sort %}
+            <a class="button" href="{{ data[oikey].exhibit_link }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
+          {% endfor %}
+        {% endif %}
+      </p>
 
-      {% if data[thing].description_html %}
+      {% if data[thing].images %}
+        <div class="row-fluid">
+          <div class="span8">
+            {{ data[thing].description_html }}
+          </div>
+          <div class="span4">
+            {% for image in data[thing].images %}
+              <img src="{{ image }}">
+            {% endfor %}
+          </div>
+        </div>
+      {% elif data[thing].description_html %}
         {{ data[thing].description_html }}
       {% endif %}
 
@@ -22,16 +40,6 @@
       {% endif %}
 
       {# screenshot #}
-      
-      {% if data[thing].online_implementations %}
-        <p>Play it online:
-          <ul>
-            {% for oikey in data[thing].online_implementations|sort %}
-              <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
-            {% endfor %}
-          </ul>
-        </p>
-      {% endif %}
     </li>
   {%- endif -%}
 {%- endfor -%}
@@ -46,9 +54,10 @@
         data[data[thing].implementation_of[0]].type == 'Game' and
         'Chris Pressey' not in data[data[thing].implementation_of[0]].authors and
         data[thing].development_stage not in ['idea', 'work in progress'] -%}
+    {% set gamekey = data[thing].implementation_of[0] %}
     <li>
       <p>
-        {{ link(data[thing].implementation_of[0]) }}
+        {{ link(gamekey) }}
         -- as {{ link(thing) }} in
         {{ link(data[thing].host_language) }}
         {% if data[thing].host_platform %}
@@ -56,6 +65,9 @@
         {% endif %}
         ({{ data[thing].inception_date }})
       </p>
+      {% if data[gamekey].description_html %}
+        {{ data[gamekey].description_html }}
+      {% endif %}
       {% if data[thing].description_html %}
         {{ data[thing].description_html }}
       {% endif %}

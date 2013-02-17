@@ -172,13 +172,26 @@ class Renderer(object):
             else:
                 return "a " + text
 
-        _indefart = indefart
         @expose
-        def link(key, format="%s", indefart=False, lower=False):
+        def plural(text):
+            """Try to return a reasonable pluralized version of the
+            given noun phrase.
+
+            """
+            if text[-1:] == 's':
+                return text + 'es'
+            else:
+                return text + 's'
+
+        _indefart = indefart
+        _plural = plural
+        @expose
+        def link(key, format="%s", indefart=False, lower=False, plural=False):
             """Return an HTML link to the node with the given key.
 
             indefart causes the link text to be preceded by an indefinite
             article.  lower causes the link text to be lowercase.
+            plural causes the link text to be pluralized.
 
             If the node is of a type that suppresses page generation, this
             will raise an exception.  In the future, it may intelligently
@@ -193,6 +206,8 @@ class Renderer(object):
                 link_text = link_text.lower()
             if indefart:
                 link_text = _indefart(key)
+            if plural:
+                link_text = _plural(link_text)
             link_text = format % link_text
             return '<a href="%s">%s</a>' % (
                 pathname2url(filekey(key)), link_text
@@ -228,7 +243,7 @@ class Renderer(object):
             # "Does that mean we're going to make it open-sauce?  HA, HA")
             TOP = "Chrysoberyl"
             if self.data[key]['type'] == 'type':
-                bc = ["%ss" % key]
+                bc = [plural(key)]
             else:
                 bc = [key]
             if key != TOP:
@@ -238,7 +253,7 @@ class Renderer(object):
                         break
                     bc.append(link(key))
                 if key != TOP and self.data[key]['type'] != 'type':
-                    bc.append(link(self.data[key]['type'], format="%ss"))
+                    bc.append(link(self.data[key]['type'], plural=True))
                 bc.append(link(TOP))
             bc.append('<a href="http://catseye.tc/">catseye.tc</a>')
             bc.reverse()

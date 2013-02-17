@@ -4,7 +4,7 @@ Chrysoberyl TODO
 higher priority
 ---------------
 
-Render documentation to a separate directory and link to it.
+Render documentation to a separate directory and link to it.  (And images.)
 
 styling
 -------
@@ -41,12 +41,17 @@ templates
 
 News and News Items: format date more nicely.
 
-Don't show discontinued distributions inline.
+Deal with inline distributions a little more sanely.  Don't have header
+for reference dist.  Show reference dist first.  Show other dists (if any)
+after.  Don't show discontinued distributions inline (the same way).
 
 Nodes with blank article cause footer to be pushed down below viewable area.
 
 "It is distributed in the Flobnar distribution and it is distributed
 under the BSD license" sounds awful.
+ 
+"It is distributed in the Flobnar distribution" -- Flobnar distribution should
+be a link to the implementable node which contains that distribution inline.
  
 In implementable, Implementations should be next to reference distribution
 + should show which implementations are reference (in lingography too)
@@ -74,8 +79,6 @@ content
 Link Chrysoberyl to Chrysoberyl distribution somehow.
 
 Make images for electronics projects (LED-386, Mildred) available.
-
-More screenshots of games?
 
 perhaps...
 ----------
@@ -143,3 +146,6 @@ and Borland C++; or in a more involved way, polyglots):
       - Borland C
 
 Sort other collections (games, tools, language implementations) by date.
+
+"Console: Virtual" is an implementation "contained in" the
+Corona: Realm of Magic distribution.  This is a little weird.

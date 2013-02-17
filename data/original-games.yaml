@@ -9,10 +9,12 @@ Bubble Escape:
   inception-date: ca 1988
   development-stage: mature
   description: |
-    A video game written for the Commodore 64 where you must
-    guide a bubble through a multi-screen maze.  Was originally written in BASIC by a young me in the 80's.
-    Was rewritten in 6502 assembly language by a middle-aged me in the late oughts.  Was pared
-    down so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Competition 2009
+    Bubble Escape is a video game written for the [[Commodore 64]] where you
+    must guide a bubble through a multi-screen maze.  Was originally written
+    in [[Commodore BASIC 2.0]] by a young me in the 80's.  Was rewritten in
+    [[Ophis Assembler|6502 assembly language]] by a middle-aged me in the
+    late aughts.  Was pared down so that (crunched) it fit into 2K, christened
+    "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
     where (surprisingly, to me!) it got first place in its class.
   online-implementations:
   - Bubble Escape 2K in JaC64
@@ -86,9 +88,12 @@ Bubble Escape distribution:
   inception-date: ca Sep 2000
   development-stage: unfinished
   description: |
-    An unfinished roguelike, written in Perl.  This was written on an engine
+    Corona: Realm of Magic is an unfinished roguelike written in
+    [[Perl]].  It was written on top of a framework I was writing at the time that I
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
     Entertainment Modules.)
+  images:
+  - 'https://raw.github.com/catseye/Corona-Realm-of-Magic/master/doc/carpe_ss2.gif'
 
 'Corona: Realm of Magic (Perl)':
   type: Implementation
@@ -125,11 +130,14 @@ Dungeons of Ekileugor:
   inception-date: Aug 2012
   development-stage: mature
   description: |
-    A roguelike written for the [[Commodore VIC-20]], which, despite the
-    limitations of that platform, supports a respectable set of the usual
-    "dungeon furniture": reasonably generated dungeon levels with tunnels
-    and rooms whose contents are hidden until you enter, tunnels, monsters,
-    treasure, potions, traps, chests, combat with experience points, etc.
+    Dungeons of Ekileugor is a roguelike written for the [[Commodore VIC-20]],
+    which, despite the limitations of that platform, supports a respectable
+    set of the usual "dungeon furniture": reasonably generated dungeon levels
+    with tunnels and rooms whose contents are hidden until you enter,
+    monsters, treasure, potions, traps, chests, combat with experience points,
+    etc.
+  images:
+  - 'https://raw.github.com/catseye/Dungeons-of-Ekileugor/master/images/dungeons-of-ekileugor.png'
 
 Dungeons of Ekileugor (BASIC):
   type: Implementation
@@ -163,7 +171,7 @@ Super Wumpus Land:
   inception-date: ca 1999
   development-stage: mature
   description: |
-    An "extended dance mix" version of [[Hunt the Wumpus]].
+    Super Wumpus Land is an "extended dance mix" version of [[Hunt the Wumpus]].
 
 swl:
   type: Implementation
@@ -200,8 +208,8 @@ Zzrk:
   inception-date: ca 2005
   development-stage: mature
   description: |
-    A tiny adventure game written in "pure" Zz (a meta-language normally
-    used for defining compilers.)
+    Zzrk is a tiny adventure game written in "pure" Zz
+    (a meta-language normally used for defining [[compiler]]s.)
 
 Zzrk (Zz):
   type: Implementation
