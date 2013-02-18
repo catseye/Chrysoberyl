@@ -5,65 +5,69 @@
 
 <h3>Languages I've Designed ({{ lingography()|length }})</h3>
 
-<ul>
 {% for thing in lingography() %}
-  <li>
-    <p>{{ link(thing) }} ({{ data[thing].inception_date }})</p>
-    
-    {% if data[thing].description_html %}
-      {{ data[thing].description_html }}
-    {% endif %}
-    
-    {% if data[thing].commentary_html %}
-      {{ data[thing].commentary_html }}
-    {% endif %}
-    
-    {% if data[thing].sample_html %}
-      <div class="sample">{{ data[thing].sample_html }}</div>
-    {% endif %}
+  <h4 class="list_entry">
+    {{ link(thing) }}
+    <small>{{ data[thing].inception_date }}</small>
+  </h4>
 
-    {% if data[thing].online_implementations %}
-      <p>Try it online:</p>
-      <ul>
-        {% for oikey in data[thing].online_implementations|sort %}
-          <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+  <div class="row-fluid">
+    <div class="span8">
+      {% if data[thing].description_html %}
+        {{ data[thing].description_html }}
+      {% endif %}
+      
+      {% if data[thing].commentary_html %}
+        {{ data[thing].commentary_html }}
+      {% endif %}
 
-    {% if related('implementation_of', key=thing) %}
-      <p>Implementations:</p>
-      <ul>
-        {% for implementation in related('implementation_of', key=thing) %}
-          <li>
-            <p>{{ link(implementation) }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if related('member_of', key=thing) %}
-      <p>Members of {{thing}}:</p>
-      <ul>
-        {% for member in related('member_of', key=thing)|sort %}
-          <li>
-            <p>{{ link(member) }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if related('variant_of', key=thing) %}
-      <p>Variants of {{thing}}:</p>
-      <ul>
-        {% for variant in related('variant_of', key=thing)|sort %}
-          <li>
-            <p>{{ link(variant) }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </li>
+      {% if related('implementation_of', key=thing) %}
+        <p>Implementations:</p>
+        <ul>
+          {% for implementation in related('implementation_of', key=thing) %}
+            <li>
+              <p>{{ link(implementation) }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if related('member_of', key=thing) %}
+        <p>Members of {{thing}}:</p>
+        <ul>
+          {% for member in related('member_of', key=thing)|sort %}
+            <li>
+              <p>{{ link(member) }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if related('variant_of', key=thing) %}
+        <p>Variants of {{thing}}:</p>
+        <ul>
+          {% for variant in related('variant_of', key=thing)|sort %}
+            <li>
+              <p>{{ link(variant) }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+
+    <div class="span4">
+      {% if data[thing].sample_html %}
+        <div class="sample">{{ data[thing].sample_html }}</div>
+      {% endif %}
+      {% if data[thing].online_implementations %}
+        <p>
+          {% for oikey in data[thing].online_implementations|sort %}
+            <a class="button" href="{{ data[oikey].exhibit_link }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+
 {% endfor %}
-</ul>
 
 <h3>Languages I've Implemented</h3>
 
