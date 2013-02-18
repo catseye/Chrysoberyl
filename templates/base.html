@@ -22,11 +22,13 @@
   </aside>
 
   <header>
-    {% block breadcrumbs %}
-    <nav id="breadcrumbs">
-      <p>{{ breadcrumbs()|join(' » ') }}</p>
-    </nav>
-    {% endblock breadcrumbs %}
+    <div class="row-fluid">
+      <div class="span8">
+        {% block breadcrumbs %}
+        <nav id="breadcrumbs">
+          <p>{{ breadcrumbs()|join(' » ') }}</p>
+        </nav>
+        {% endblock breadcrumbs %}
 
     {% block heading %}
       <hgroup id="heading">
@@ -42,6 +44,22 @@
 
     {% block byline %}
     {% endblock byline %}
+
+      </div>
+      <div class="span4">
+        <!--
+        <div class="navbar">
+          <div class="navbar-inner">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Search</a></li>
+            </ul>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
 
     {# TODO: make these less obtrusive.  float to right or something. #}
     {% if esowiki %}

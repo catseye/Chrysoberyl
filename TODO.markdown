@@ -6,13 +6,6 @@ higher priority
 
 Render documentation to a separate directory and link to it.  (And images.)
 
-styling
--------
-
-Improve nav a bit:
-
-    Cat's Eye Technologies       Home News About Featured Search
-
 tool
 ----
 
@@ -41,9 +34,9 @@ templates
 
 News and News Items: format date more nicely.
 
-Deal with inline distributions a little more sanely.  Don't have header
-for reference dist.  Show reference dist first.  Show other dists (if any)
-after.  Don't show discontinued distributions inline (the same way).
+Deal with inline distributions a little more sanely.   Show other dists (if any)
+after reference dist.  Don't show discontinued distributions inline (the same way).
+Show status of discontinued distributions.
 
 Nodes with blank article cause footer to be pushed down below viewable area.
 
@@ -70,8 +63,6 @@ Call out works in progress and ideas in some more obvious way.
 
 When listing things, list ones by Cat's Eye Technologies first, and
 put a heading or something.
-
-Show status of / don't prominently link to discontinued distributions.
 
 content
 -------
