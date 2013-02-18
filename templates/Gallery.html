@@ -19,7 +19,7 @@
            data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] -%}
       <li>
         <p>
-          <a class="online" href="{{ data[thing].exhibit_link }}">{{ thing }}</a> –
+          {{ link(thing) }} –
           <i>{{ data[thing].medium }}</i>
         </p>
         {% if data[thing].description_html %}
