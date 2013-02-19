@@ -43,9 +43,12 @@
   - version: "1.0"
     revision: "2003.0325"
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
-  - version: "2.0"
+  - version: "1.0"
     revision: "2007.1122"
     url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
+  - version: "2.0"
+    revision: "2013.0219"
+    url: http://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip
 
 
 crone: 

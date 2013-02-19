@@ -102,7 +102,7 @@
         <section id="previous_releases">
           <h2>Previous Releases</h2>
           <ul>
-            {% for release in data[dist_key].releases[1:] %}
+            {% for release in data[dist_key].releases[:-1] %}
             <li>
               <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
             </li>
