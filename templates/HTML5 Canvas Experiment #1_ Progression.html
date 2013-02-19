@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+  <script src="../gallery/html5/progression/canvas1.js"></script>
+  <style>
+#canvas { border: 1px solid blue; background: white; }
+  </style>
+{% endblock %}
+
+{% block content %}
+<p id="counter"></p>
+<canvas id="canvas" width="800" height="200">
+Your browser doesn't support displaying an HTML5 canvas.
+</canvas>
+{% endblock %}
+
+{% block extra_tail %}
+<script>
+  CanvasExperiment1(document.getElementById('canvas')).start();
+</script>
+{% endblock %}
