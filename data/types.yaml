@@ -15,7 +15,6 @@ Exhibit:
   suppress-page-generation: true
 Online Installation:
   type: type
-  suppress-page-generation: true
 
 Concept:
   type: type
