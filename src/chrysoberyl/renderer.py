@@ -180,6 +180,8 @@ class Renderer(object):
             """
             if text[-1:] == 's':
                 return text + 'es'
+            elif text[-1:] == 'y':
+                return text[:-1] + 'ies'
             else:
                 return text + 's'
 
