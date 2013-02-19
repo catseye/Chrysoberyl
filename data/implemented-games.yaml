@@ -5,7 +5,7 @@ Animals:
   genre: Guessing
   vintage: true
   description: |
-    A classic "expert system" game.  The computer asks you to think of an
+    Animals is a classic "expert system" game.  The computer asks you to think of an
     animal, and then asks you a series of yes/no questions in an attempt to
     discover what animal you chose.  If it comes to the wrong conclusion, it
     asks you for a question that would distinguish the animal that you chose,
@@ -51,7 +51,13 @@ Flip:
   genre: Guessing
   vintage: true
   description: |
-    A classic game that demonstrates simple "artificial intelligence".
+    Flip is a very simple computer game by John S. James which first appeared
+    in the March/April 1977 edition of _Creative Computing_.
+    In the game, the computer flips a virtual coin 50 times, and the object is
+    for you to guess whether the coin will come up heads or tails each time.
+    What makes it interesting is that the coin is not fair.  The computer tries
+    to find patterns in your guesses, and exploit them by biasing the coin toss
+    away from what it thinks you are likely to guess next.
   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
   development-stage: vintage
   authors:
@@ -87,10 +93,15 @@ Flip distribution:
 Hunt the Wumpus:
   type: Game
   genre: Logic
+  wikipedia: Hunt_the_Wumpus
   authors:
   - Gregory Yob
   description: |
-    The classic topological mythical-beast-hunting game, implemented in Erlang.
+    Hunt the Wumpus is a classic topological mythical-beast-hunting game
+    from the era of teletypes.  [[Gregory Yob]] was disappointed by the
+    number of games based on "find an objective hidden on a
+    [[2-dimensional]] grid", and decided to design one that was based on
+    a world less orthogonal.
   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
   development-stage: vintage
 
@@ -120,9 +131,10 @@ Hunt the Wumpus distribution:
 Sokoban:
   type: Game
   genre: Puzzle
+  wikipedia: Sokoban
   vintage: false
   description: |
-    The classic Japanese game about lean manufacturing (well, sort of).
+    Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
   # need to look this up someday
   no-specification: true
   development-stage: mature
