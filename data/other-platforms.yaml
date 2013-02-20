@@ -174,3 +174,27 @@ HTML5:
   native-language: Javascript
   # there ARE others, but I don't care.
   other-languages: []
+  commentary: |
+    In a way that is directly or indirectly appropriate to the number 5,
+    the HTML5 standard makes a mockery of the very idea of a standard
+    by being a "living standard".
+    
+    On top of this, HTML5 is the [[Perl]] of web standards, which is
+    to say, it's like playing [[Katamari Damacy]] with the web.  From what
+    I can tell, the standardization process goes something like this:
+    
+    *   Pick a feature, any feature.
+    *   Does any browser currently support that feature?
+        *   If so, research how all browsers implement that feature.
+            Codify the upper bound of that behaviour and put it in the spec.
+        *   If not, would the feature be *totally awesome* to have anyway?
+            *   If so, codify that feature and add it to the spec.
+                Don't worry too much if browsers implement it yet or not;
+                someone will write a polyfill anyway.  Let browsers use
+                words like "maybe" and "probably" to describe their
+                level of support for the feature.
+            *   If not, try again.
+    
+    The number one best thing about HTML5, in my opinion, is the
+    `<canvas>` element.  At long last, I can just _draw stuff_ on a web page,
+    and that's actually really nice.
