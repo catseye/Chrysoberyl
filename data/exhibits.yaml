@@ -1,36 +1,8 @@
-Esolangs Exhibit:
-  type: Exhibit
-  description: |
-    An exhibit of many [[Esolang|esoteric programming languages]] in action,
-    with which you can experiment.  By selecting sample
-    programs and watching them run, you can gain an appreciation of how the
-    esolang computes stuff; by composing your own programs, you can gain an even
-    better appreciation.
-
-Commodore 64 Exhibit:
-  type: Exhibit
-  description: |
-    An exhibit of programs written for the
-    [[Commodore 64]].  This gallery is
-    interactive, powered by the [[JaC64]] Java™
-    applet, which allows you to run
-    Commodore 64 programs in your web browser.  This gallery is primarily,
-    but not exclusively, intended to present C64 games which have been developed
-    by Cat's Eye Technologies.
-
-Digital Art Exhibit:
-  type: Exhibit
-  description: |
-    Digital art (audiovisual, animated, interactive, or otherwise) for you to
-    experience online.
-
-
 ### Games ###
 
 Bubble Escape 2K in JaC64:
   type: Online Installation
   exhibit: Commodore 64 Exhibit
-  exhibit-link: ../gallery/c64/bubble-escape-2k/
   interactive: true
   animated: true
   medium: Java applet
@@ -41,14 +13,20 @@ Bubble Escape 2K in JaC64:
     was rewritten in [[Ophis Assembler|6502 assembly]], crunched to fit
     into 2K, and submitted to the [[Mini Game Compo 2009]], where
     it got first place in its class.
-
+    
+    You can play it online in this applet running [[JaC64]].
+    Use your arrow keys to guide the bubble through the maze.  Avoid the
+    hazards and find the five keys to unlock the exit.
+  commentary: |
+    If this game doesn't seem too impressive to you, try to remember, it's
+    only two kilobytes of code!  These days you can't even sneeze in less
+    than a megabyte,
 
 ### Esolangs ###
 
 21 Esolangs in yoob:
   type: Online Installation
   exhibit: Esolangs Exhibit
-  exhibit-link: ../gallery/esolangs/yoob/
   interactive: true
   animated: true
   medium: Java applet
@@ -65,7 +43,6 @@ Bubble Escape 2K in JaC64:
 JWhothm:
   type: Online Installation
   exhibit: Esolangs Exhibit
-  exhibit-link: ../gallery/esolangs/jwhothm/
   interactive: true
   animated: false
   medium: Java applet
@@ -78,7 +55,6 @@ JWhothm:
 Gemooy in HTML5:
   type: Online Installation
   exhibit: Esolangs Exhibit
-  exhibit-link: ../gallery/esolangs/gemooy/
   interactive: true
   animated: true
   medium: HTML5
@@ -91,7 +67,6 @@ Gemooy in HTML5:
 Plea of Thunder:
   type: Online Installation
   exhibit: Digital Art Exhibit
-  exhibit-link: ../gallery/conceptual/plea-of-thunder/
   interactive: false
   animated: true
   medium: Java applet
@@ -101,7 +76,6 @@ Plea of Thunder:
 "HTML5 Canvas Experiment #1: Progression":
   type: Online Installation
   exhibit: Digital Art Exhibit
-  exhibit-link: ../gallery/html5/progression/
   interactive: false
   animated: true
   medium: HTML5
@@ -112,7 +86,6 @@ Plea of Thunder:
 "HTML5 Canvas Experiment #5: Prairie":
   type: Online Installation
   exhibit: Digital Art Exhibit
-  exhibit-link: ../gallery/html5/prairie/
   interactive: false
   animated: true
   medium: HTML5

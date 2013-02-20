@@ -168,8 +168,7 @@ def check_chrysoberyl_node(data, key, node):
         check_optional_scalar_ref(data, key, node, 'news-node')
 
     if type_ == 'Online Installation':
-        check_scalar_ref(data, key, node, 'exhibit', ['Exhibit'])
-        assert 'exhibit-link' in node
+        assert 'exhibit-link' not in node
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
         assert 'medium' in node

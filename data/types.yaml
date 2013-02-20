@@ -10,11 +10,24 @@ Article:
   type: type
 News Item:
   type: type
-Exhibit:
-  type: type
-  suppress-page-generation: true
 Online Installation:
   type: type
+  description: |
+    Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
+    exhibition of works made available online, in your web browser, implemented
+    as [[Java]]™ applets, or in [[HTML5]] with [[Javascript]].  The works fall
+    into three main exhibits:
+    
+    *   [[Esolang|Esoteric programming languages]] with which you can experiment.
+        By selecting sample
+        programs and watching them run, you can gain an appreciation of how the
+        esolang computes stuff; by composing your own programs, you can gain an
+        even better appreciation.
+    *   Programs (primarily games) written for the [[Commodore 64]], powered by
+        the [[JaC64]] Java™ applet, which allows you to run these programs in
+        your web browser.
+    *   Digital art (audiovisual, animated, interactive, or otherwise) for you to
+        experience online.
 
 Concept:
   type: type

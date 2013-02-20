@@ -21,6 +21,7 @@ Minischeme distribution:
   issue-tracker: github
   releases: []
 
+
 JaC64:
   type: Implementation
   reference: false
@@ -30,16 +31,21 @@ JaC64:
   - Commodore 64
   implementation-type: emulator
   host-language: Java
+  description: |
+    JaC64 is a Java applet which emulates a Commodore 64.  Cat's Eye Technologies
+    uses it in the Commodore 64 Gallery to showcase our Commodore 64 games.
 
 JaC64 distribution: 
   type: Distribution
   reference: false
   description: |
     Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
-    a Java applet.
+    a Java applet.  We made it to fix some bugs and because mainline
+    development seemed stalled.
   github: catseye/JaC64
   issue-tracker: github
   releases: []
+
 
 OpenZz:
   type: Implementation

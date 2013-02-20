@@ -1,0 +1,24 @@
+{% extends "type.html" %}
+
+{% block extra_head %}
+  <meta name="description" content="An online gallery of interactive exhibits at Cat's Eye Technologies.">
+{% endblock extra_head %}
+
+{% block description %}
+  {{ description_html }}
+{% endblock %}
+
+{% block content %}
+
+{% for thing in related('type')|sort -%}
+  <h3>{{ link(thing) }}</h3>
+  <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+  {% if data[thing].description_html %}
+    {{ data[thing].description_html }}
+  {% endif %}
+  {% if data[thing].commentary_html %}
+    {{ data[thing].commentary_html }}
+  {% endif %}
+{% endfor %}
+
+{% endblock content %}
