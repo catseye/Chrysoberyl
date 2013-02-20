@@ -75,10 +75,11 @@ def convert_chrysoberyl_data(data):
         node.update(new_fields)
         for field in ('description', 'commentary'):
             node[field + '_html'] = markdown_field(data, node, field)
-        if 'sample' in node:
-            node['sample_html'] = markdown.markdown(
-                '\n'.join(['    ' + l for l in node['sample'].split('\n')])
-            )
+        for sample_key in ('sample', 'sample_input', 'sample_output'):
+            if sample_key in node:
+                node['%s_html' % sample_key] = markdown.markdown(
+                    '\n'.join(['    ' + l for l in node[sample_key].split('\n')])
+                )
 
     print "%d nodes converted." % count
 

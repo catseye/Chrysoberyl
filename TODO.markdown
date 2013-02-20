@@ -58,8 +58,6 @@ the reference interpreter blah.c and the compiler blah.boo" should be fine.
 When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
-Render sample-output and sample-credit.
-
 ### obviousity ###
 
 Call out works in progress and ideas in some more obvious way.

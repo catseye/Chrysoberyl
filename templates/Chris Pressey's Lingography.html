@@ -57,6 +57,17 @@
       {% if data[thing].sample_html %}
         <div class="sample">{{ data[thing].sample_html }}</div>
       {% endif %}
+      {% if data[thing].sample_input_html %}
+        <p>Input:</p>
+        <div class="sample">{{ data[thing].sample_input_html }}</div>
+      {% endif %}
+      {% if data[thing].sample_output_html %}
+        <p>Output:</p>
+        <div class="sample">{{ data[thing].sample_output_html }}</div>
+      {% endif %}
+      {% if data[thing].sample_credit %}
+        <p>This sample was written by {{ link(data[thing].sample_credit) }}</p>
+      {% endif %}
       {% if data[thing].online_implementations %}
         <p>
           {% for oikey in data[thing].online_implementations|sort %}

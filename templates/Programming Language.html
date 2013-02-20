@@ -5,6 +5,17 @@
 {% if sample_html %}
   <h2>Sample Program</h2>
   <div class="sample">{{ sample_html }}</div>
+  {% if sample_input_html %}
+    <p>Input:</p>
+    <div class="sample">{{ sample_input_html }}</div>
+  {% endif %}
+  {% if sample_output_html %}
+    <p>Output:</p>
+    <div class="sample">{{ sample_output_html }}</div>
+  {% endif %}
+  {% if sample_credit %}
+    <p>This sample was written by {{ link(sample_credit) }}</p>
+  {% endif %}
 {% endif %}
 
 {% if computational_class %}
