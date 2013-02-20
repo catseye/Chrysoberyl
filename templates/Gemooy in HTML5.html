@@ -2,37 +2,27 @@
 
 {% block extra_head %}
   <style>
-#canvas { border: 1px solid blue; }
-#canvas_viewport {
-    width: 420px; height: 420px; overflow: scroll; border: 1px solid black;
-    display: inline-block;
+#canvas {
+  border: 1px solid blue;
+  background: white;
 }
-#info { float: right; }
+#canvas_viewport {
+  width: 420px; height: 420px; overflow: scroll; border: 1px solid black;
+  display: inline-block;
+}
+#program {
+  font-family: "Lucida Console", Console, monospace;
+}
   </style>
 {% endblock extra_head %}
 
 {% block content %}
 <!DOCTYPE html>
-<p id="info">
-Gemooy on:
-<a href="http://catseye.tc/node/Gemooy.html">catseye.tc</a> |
-<a href="https://github.com/catseye/Gemooy">github</a> |
-<a href="http://esolangs.org/wiki/Gemooy">esolangs wiki</a>
-</p>
+<h1>Gemooy</h1>
 
-<h1>Gemooy
-<button id="load">Load</button>
-<button id="start">Start</button>
-<button id="stop">Stop</button>
-</h1>
-
-<div id="canvas_viewport">
-  <canvas id="canvas" width="400" height="400">
-    Your browser doesn't support displaying an HTML5 canvas.
-  </canvas>
-</div>
-
-<textarea id="program" rows="25" cols="40">
+<div class="row-fluid">
+  <div class="span4">
+    <textarea id="program" rows="25" cols="40">
 %   @@   @@
 #  @  $    @
        @
@@ -45,7 +35,19 @@ Gemooy on:
     @     @@
 #  @ @    @
 @   @   @
-</textarea>
+    </textarea>
+  </div>
+  <div class="span8">
+    <button id="load">Load</button>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button><br/>
+    <div id="canvas_viewport">
+      <canvas id="canvas" width="400" height="400">
+        Your browser doesn't support displaying an HTML5 canvas.
+      </canvas>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
 
