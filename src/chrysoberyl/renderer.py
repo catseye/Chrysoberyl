@@ -42,8 +42,12 @@ class Renderer(object):
         filename = filekey(key)
         # Mercurial can't handle filenames containing ':' on Windows, so:
         filename = re.sub(':', '_', filename)
-        if node['type'] != 'type' and \
-           os.path.exists(os.path.join(self.template_dir, filename)):
+        if node['type'] == 'type':
+            if os.path.exists(os.path.join(self.template_dir, "type_" + filename)):
+                template_filename = "type_" + filename
+            else:
+                template_filename = 'type.html'
+        elif os.path.exists(os.path.join(self.template_dir, filename)):
             template_filename = filename
         else:
             filename = filekey(node['type'])
