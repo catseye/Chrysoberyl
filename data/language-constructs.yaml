@@ -60,7 +60,7 @@ Exception:
     An approach that takes this to the extreme is
     [[Erlang]]'s "let it crash" philosophy. Exceptions
     are often touted as a way to avoid having a bunch of "error-return
-    checks" in your code. But if the problem is essemtially irrecoverable,
+    checks" in your code. But if the problem is essentially irrecoverable,
     there's no sense having *any* error-return checks, even ones that are
     dressed up as exception handlers. They'll just lead to a bunch of
     seldom-taken code paths executing in hard-to-reason-about error-mode
@@ -75,7 +75,7 @@ Exception:
     Spolsky raises [some excellent points in regards to this
     issue](http://www.joelonsoftware.com/items/2003/10/13.html) — multiple
     return values are often a more coherent way to cast the flow of control.
-    The unique utility of exceptions is that they can perform non-local
+    The unique utility of exceptions is that they can perform *non-local*
     returns — control need not return to the immediate caller, it can skip
     back up to a procedure that called the procedure that called the
     procedure that called this one, if that's where the handler was
@@ -104,67 +104,102 @@ Closure:
   type: Language Construct
   description: |
     In [[Programming Language|programming languages]], a closure is an abstraction
-    of an *expression* in an *environment*; the expression may contain *free
-    variables* which are given meaning by the values *bound* to them in the
+    of an _expression_ in an _environment_; the expression may contain _free
+    variables_ which are given meaning by the values _bound_ to them in the
     environment.
     
-    The programmer can generally treat a closure as they would any other
-    value: they can store it in a variable, pass it as an argument to a
-    function, and return it as the return value of a function. Language
-    constructs with this property are sometimes referred to as
-    "first-class."
+    That's how I use the term, anyway.  The general idea is that the closure
+    "closes over" some data, capturing it.  Note, though, that this use of the word
+    "closure" has barely any relationship to the mathematical notion of closure
+    (which basically means to keep doing something over and over until there
+    is nothing more that will change.)
     
-    The closure is almost always a *function value* which can be called as
-    if it were it were any other function or procedure. (Function values are
-    also called *lambda functions* after an analogous construct, the
-    *abstraction*, in Church's *lambda calculus*.) However, closures over
-    other data types, for example entire modules, are possible.
+    There are a few other concepts that are generally conflated with the idea
+    of a closure.  One is the _function_: you can call it, it performs some
+    computations, perhaps updates some data or accesses some other
+    processes or devices as a side-effect, and perhaps returns some value.
+    The other is the so-called _first-class value_:
+    they can be stored in variables, passed as arguments to a function, and
+    returned as the return value of a function.
     
-    A closure is different from a "function pointer" you might find in a
-    language like C, because a closure has access to variables in the
-    environment associated with it. This environment is usually the set of
-    all variables that are "in scope" at the point in the program where the
-    closure is created.
+    In practice, closures are almost always both of those things too.  But it's
+    an arrangement of convenience rather than necessity; nothing in (my)
+    definition of a closure strictly requires those two properties.
     
+    You can have closures which are not first-class; maybe you can only
+    return them from a function, but you can't pass them around.  I don't
+    know why you'd want to have this restriction, but you could, and it
+    wouldn't stop them from being closures.
+    
+    You can have closures which are not functions; for example, you could
+    have a class or a module or some other construct close over some values,
+    too.  In a weak sense, any
+    object whose data is initialized via arguments to its constructor, is a
+    closure.  It's perhaps not very useful to think of it that way, but it is
+    also hard to make a coherent argument that it is *not* a closure.
+    
+    And of course, you can have a first-class function value which is still
+    not a closure because it doesn't close over anything.  [[ANSI C|C]]'s
+    function pointers fit this bill.
+    
+    I think one of the main reasons the conceptual ties between closures
+    and first-class functions are so close is that, in the lambda calculus,
+    the granddaddy of all functional languages, every function is a
+    closure.
+    
+    Closures seem to be one of those things that are a bit troubling to
+    many programming languages, though.
+    
+    LISP was the first language to promote functions as values, but it
+    represented functions as lists and used dynamic binding to associate
+    values with variables. This was a mess, and it took a long time for
+    it to get better. Nowadays, [[Scheme]] has proper
+    closures, and is a much more attractive choice overall (to me).
+    
+    [[Python]] 2's closures are limited to a single
+    expression. This may be a syntactic problem rather than a semantic
+    one, but it is still something of an annoyance.
+    
+    And then there's [[Ruby]], which... yeah, I'm pretty sure that
+    among Ruby's 4 types of procedure, there are closures somewhere.
+    
+    [[Javascript]] has had closures from its beginnings — the problems
+    there have been teaching them to web developers, who might not be
+    experienced programmers who can appreciate their subtleties, and
+    implementing them.  In the past they've been notorious for
+    [leaking](http://www.jibbering.com/faq/faq_notes/closures.html#clMem).
+    Partly this is a consequence of the difficulty of interpreting the
+    definitions of the DOM — what should and what shouldn't stick around
+    for how long.
+    
+    And that brings up the topic of memory management.
     Since the environment of a closure may contain variables local to the
     function in which it is created, and since the closure may be returned
     as a value from that function, it may *outlive* the local variables
     referred to by its environment. For this reason, the language (and by
-    extension its implementation) must ensure that those values continue to
+    extension its implementations) must ensure that those values continue to
     exist for as long as the closure itself exists, for example by
-    allocating them on the heap instead of on the call stack.
+    allocating them on the heap instead of on the call stack.    
     
-    This is where the term "closure" comes from: it "closes over" the
-    variables in its environment. Note, though, that this use of the word
-    "closure" has no relationship to the mathematical notion of closure
-    (which basically means to keep doing something over and over until there
-    is nothing more that will change.)
+    By overloading the `()` operator, it's possible to make closure-like
+    objects even in [[C++]].  (pikhq has
+    also demonstrated that with fancy enough tricks you can
+    [also do this in C](https://github.com/pikhq/clambda-demo).)
+    But if you try this, you'll
+    soon appreciate why, in most languages, closures are garbage
+    collected: if you have to explicitly reason about when the free
+    variables will no longer be needed, you're not much better off from
+    using function pointers.
     
-    Closures seem to be one of those things that programming language
-    designs and/or implementations have trouble with:
+    Many modern languages that didn't initially support closures are
+    growing support for them because they're becoming more popular.
+    You've always been able to make a closure in [[Java]] by instantiating
+    an anonymous class with a single method on it and initializing the
+    member variables of that class with the values you want that method
+    to close over, but doing so is as awkward as this sentence, so more
+    direct support for the idea has been proposed in later versions.
+    [[PHP]] is also gaining support for
+    [anonymous functions](http://php.net/manual/en/functions.anonymous.php).
     
-    -   LISP was the first language to promote functions as values, but it
-        represented functions as lists and used dynamic binding to associate
-        values with variables. This was a mess, and it took a long time for
-        it to get better. Nowadays, [[Scheme]] has proper
-        closures, and is a much more attractive choice overall.
-    -   [[Javascript]] has closures, but they're notorious for
-        [leaking](http://www.jibbering.com/faq/faq_notes/closures.html#clMem).
-        Partly this is a consequence of the difficulty of interpreting the
-        definitions of the DOM — what should and what shouldn't stick around
-        for how long — but it is also due to the inadequacy of some vendors'
-        garbage collection implementations.
-    -   As of this writing, Python's closures are limited to a single
-        expression. This may be a syntactic problem rather than a semantic
-        one, but it is still something of an annoyance.
-    -   By overloading the `()` operator, it's possible to make closure-like
-        objects even in [[C++]]. But if you try this, you'll
-        soon appreciate why, in most languages, closures are garbage
-        collected: if you have to explicitly reason about when the free
-        variables will no longer be needed, you're not much better off from
-        using function pointers.
-    -   [[Java]], on the other hand, does have garbage collection, but doesn't
-        have closures; instead, what you get to do is to create an instance
-        of an anonymous class with a single method on it and initialize the
-        member variables of that class with the values you want that method
-        to close over. What fun!
+    In contrast, [[Perl]] has had straight-up, no-nonsense closures from
+    the beginnings of version 5, a pretty nice point in its favour.

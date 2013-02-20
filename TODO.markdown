@@ -32,6 +32,9 @@ For (in theory) any item, show all lists that it is present in.
 templates
 ---------
 
+Longer descriptions and commentary (article-like things) should have a
+max-width smaller than the screen size, to help readability.
+
 News and News Items: format date more nicely.
 
 Deal with inline distributions a little more sanely.   Show other dists (if any)
