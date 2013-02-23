@@ -7,7 +7,7 @@
     <h2>Try it Online</h2>
     <ul>
       {% for oikey in online_implementations|sort %}
-        <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
+        <li>{{ link(oikey) }} ({{ data[oikey].medium }})</li>
       {% endfor %}
     </ul>
   </section>
