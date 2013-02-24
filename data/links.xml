@@ -264,16 +264,6 @@
 <link>
   <keywords>
     <keyword>elec</keyword>
-    <keyword>z80</keyword>
-  </keywords>
-  <url>http://www.z80.info/</url>
-  <title>Home of the Z80 CPU</title>
-  <description>Lots of useful Z80 information, plus a clock circuit</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>elec</keyword>
   </keywords>
   <url>http://www.dpfwiw.com/</url>
   <title>Batteries @ dpFWIW</title>
@@ -674,15 +664,6 @@
   <url>http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/</url>
   <title>The S stands for Simple</title>
   <description>Don't worry about it.  No one has read it.  Besides, your tools will handle it.</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>scheme</keyword>
-  </keywords>
-  <url>http://www.swiss.ai.mit.edu/~jaffer/r5rs_toc.html</url>
-  <title>R<sup>5</sup>RS</title>
-  <description>Revised^5 Report on the Algorithmic Language Scheme</description>
 </link>
 
 <link>

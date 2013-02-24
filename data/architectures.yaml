@@ -11,9 +11,16 @@ Apple II:
   - Applesoft BASIC
   links:
   - 'http://www.zophar.net/apple2.html'
+  wikipedia: Apple_II
   commentary: |
-    [[AppleWin]] is definitely the nicest emulator that we've found for
-    this platform, for [[Windows]].  [[Linux]]?  Still looking.
+    [[Cat's Eye Technologies]]' Applesoft BASIC offerings
+    assume that they will be running on an Apple ][+, but
+    will generally also run on an Apple //e.
+    Of course, these days, it's more likely you'd be running
+    this software on an emulator instead of a museum piece.
+    I've found [[AppleWin]] to be a decent Apple emulator on [[Windows]];
+    I have yet to find one for [[Linux]] that's
+    good enough to be my go-to emulator (pun? what pun?).
 
 AppleWin:
   type: Implementation
@@ -39,15 +46,19 @@ Applesoft BASIC:
   authors: []
   links:
   - 'http://www.zophar.net/apple2.html'
+  wikipedia: Applesoft_BASIC
   description: |
-    Programs written in Applesoft BASIC assume that they
-    will be running on an Apple ][+, great microcomputer of old.
-    Most such software will also run on an Apple //e or similar model.
+    Applesoft BASIC was a dialect of [[BASIC]] that was available for
+    (in fact, generally shipped with) the [[Apple II]] series of
+    microcomputers, including the Apple ][+ and Apple //e.
+  commentary: |
+    [[Cat's Eye Technologies]]' Applesoft BASIC offerings
+    assume that they will be running on an Apple ][+, but
+    will generally also run on an Apple //e.
     Of course, these days, it's more likely you'd be running
     this software on an emulator instead of a museum piece.
-  commentary: |
-    I've found AppleWin to be a decent Apple emulator on Windows;
-    I have yet to find one for *nix that's
+    I've found [[AppleWin]] to be a decent Apple emulator on [[Windows]];
+    I have yet to find one for [[Linux]] that's
     good enough to be my go-to emulator (pun? what pun?).
 
 
@@ -73,6 +84,7 @@ Commodore 64:
   development-stage: vintage
   links:
   - http://www.zimmers.net/anonftp/pub/cbm/
+  wikipedia: Commodore_64
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
@@ -92,7 +104,8 @@ VICE:
   host-language: C99
   generally-recommended: true
   description: |
-    The VICE distribution actually contains emulators for many
+    VICE is often called a Commodore 64 emulator, but
+    the VICE distribution actually contains emulators for many
     Commodore computers: Commodore 64, Commodore 128, Vic 20, PET, etc,
 
 Commodore BASIC 2.0:
@@ -153,7 +166,7 @@ IBM PC compatible:
     can handle that reasonably well, often a better choice — because it can
     run under a modern OS, rather than actually dedicating the entire
     computer to it — is to run such things under an emulator. In which case,
-    we recommend Bochs.
+    we recommend [[Bochs]].
   references:
   - title: RBIL
     description: Ralf Brown's Interrupt List
@@ -192,6 +205,10 @@ Z80 machine code:
   no-specification: true
   development-stage: vintage
   authors: []
+  references:
+  - title: Home of the Z80 CPU
+    description: Lots of useful Z80 information, plus a clock circuit
+    url: http://www.z80.info/
 
 
 native code:

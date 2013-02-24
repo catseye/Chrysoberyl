@@ -61,15 +61,6 @@ Cygwin:
     of which is its awesome, awesome name.)
 
 
-MacOS:
-  type: Platform
-  standards-body: http://apple.com/
-  development-stage: mature
-  native-language: x86 machine code
-  # I dunno, applescript maybe?
-  other-languages: []
-
-
 MS-DOS:
   type: Platform
   standards-body: http://microsoft.com/
@@ -78,8 +69,9 @@ MS-DOS:
   other-languages:
   - MS-DOS Batchfile
   commentary: |
-    I think the only thing that requires MS-DOS is shelta; and even then, it might
-    rely only on the BIOS interface, I forget.
+    I think the only thing of mine that requires MS-DOS anymore is
+    [[Shelta]]; and even then, it might rely only on the BIOS interface,
+    I forget.
    
     A project which has this as a dependency
     assumes that it will be running under MS-DOS or something
@@ -92,13 +84,13 @@ MS-DOS:
     well enough to work. It might, it might not. If not, you have options:
     
     *   [[DOSBox]] is an emulator, available for many systems, which
-        simulates both an x86-based IBM PC, and MS-DOS on top of it.  It
-        should be plenty sufficient for running DOS-based software found
-        here.
+        simulates both an [[IBM PC compatible]], and
+        MS-DOS on top of it.  It should be plenty sufficient for running
+        DOS-based software found here.
     *   For a more heavyweight solution, you could install [[FreeDOS]]
         on a PC emulator such as [[Bochs]].
     
-    All of the above software packages are open source.
+    All of the above software packages are [[Open-source|open source]].
 
 DOSBox:
   type: Implementation
