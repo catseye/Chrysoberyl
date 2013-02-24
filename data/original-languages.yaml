@@ -598,6 +598,8 @@ Carriage:
   specification-link: esowiki
   influences: []
   computational-class: unknown computational class
+  sample: |
+    111-@11-~!$11111++++11-~@11-~!
 
 Carriage.hs:
   type: Implementation
@@ -1068,6 +1070,20 @@ Exanoke:
   # release date: Jan 2013
   etymology:
   - typo
+  sample: |
+    def inc(#)
+      cons(:one, #)
+    def add(#, other)
+      if eq?(#, :nil) then other else self(<tail #, inc(other))
+    def mul(#, other)
+      if eq?(#, :nil) then :nil else
+        add(other, self(<tail #, other))
+    def fact(#)
+      if eq?(#, :nil) then cons(:one, :nil) else
+        mul(#, self(<tail #))
+    def four(#)
+      cons(:one, cons(:one, cons(:one, cons(:one, #))))
+    fact(four(:nil))
 
 exanoke.py:
   type: Implementation
@@ -1860,6 +1876,10 @@ Kangaroo Iceberg:
   inception-date: Jul 2004
   see-also:
   - GraNoLa/M
+  sample: |
+    A { ^A:0 / ^A:0 -> ^A:1 }
+    B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
+    C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
 
 kiceberg:
   type: Implementation
@@ -2818,9 +2838,11 @@ SICKBAY:
   - Imperative
   esowiki: SICKBAY
   description: |
-    SICKBAY is an esoteric dialect of BASIC with a call ring buffer instead of
+    SICKBAY is an esoteric dialect of [[BASIC]] with a call ring buffer instead of
     a call stack, and computed line number definitions (and no `IF` because
     of that.)
+  # ehhh, if I put this in, it doesn't show up on lingography **(!(*^@#
+  #member-of: BASIC
   etymology:
   - pun
   sample: |-
