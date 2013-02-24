@@ -1,4 +1,4 @@
-{% extends "bylined.html" %}
+{% extends "implementable.html" %}
 
 {% block properties %}
 
@@ -46,26 +46,3 @@
 {% endif %}
 
 {% endblock properties %}
-
-{% block content %}
-
-{% if reference_distribution %}
-  <section id="reference_distribution">
-    {% set dist_key=ref_dist() %}
-    {% include "include/distribution.html" %}
-  </section>
-{% elif standards_body %}
-  <h2>Defined by</h2>
-  <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>
-{% elif specification_link %}
-  <h2>Defined by</h2>
-  <p>
-    {% if specification_link == 'esowiki' %}
-      Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
-    {% else %}
-      <a href="{{ specification_link }}">{{ specification_link }}</a></p>
-    {% endif %}
-  </p>
-{% endif %}
-
-{% endblock content %}

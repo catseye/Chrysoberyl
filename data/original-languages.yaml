@@ -1189,7 +1189,6 @@ Funge-98:
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
-  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
   inception-date: Sep 11, 1998
   development-stage: mature
   computational-class: Turing-complete
@@ -1215,7 +1214,7 @@ Unefunge-98:
   member-of: Funge-98
   description: |
     Unefunge-98 is the one-dimensional member of the [[Funge-98]] language family.
-  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  reference-distribution: Funge-98 distribution
   development-stage: mature
   authors:
   - Chris Pressey
@@ -1232,7 +1231,7 @@ Befunge-98:
   development-stage: mature
   description: |
     Befunge-98 is the two-dimensional member of the [[Funge-98]] language family.
-  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  reference-distribution: Funge-98 distribution
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -1248,7 +1247,7 @@ Trefunge-98:
   development-stage: mature
   description: |
     Trefunge-98 is the three-dimensional member of the [[Funge-98]] language family.
-  specification-link: http://catseye.tc/projects/funge98/doc/funge98.html
+  reference-distribution: Funge-98 distribution
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group

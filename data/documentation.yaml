@@ -59,17 +59,18 @@ Documentation Index:
     - README.markdown
     Circute distribution: []
     Console::Virtual distribution:
-    - readme.txt
+    - README.markdown
     'Corona: Realm of Magic distribution':
+    - LICENSE
+    - src/corona/LICENSE
     - src/corona/sup/music/license.txt
     - src/corona/sup/image/license.txt
     - src/corona/doc/miscnotes.txt
-    - src/corona/doc/license.txt
-    - src/corona/doc/corona.html
-    - doc/development.html
-    - doc/license.txt
-    - doc/object_model.html
-    - doc/carpediem.html
+    - src/corona/doc/corona.markdown
+    - lib/console-virtual/readme.txt
+    - doc/carpediem.markdown
+    - doc/development.markdown
+    - doc/object_model.markdown
     - doc/hints.txt
     Deturgenchry distribution:
     - LICENSE
@@ -128,6 +129,18 @@ Documentation Index:
     - UNLICENSE
     Flobnar distribution:
     - README.markdown
+    Funge-98 distribution:
+    - library/MODE.markdown
+    - library/PERL.markdown
+    - library/ROMA.markdown
+    - library/ORTH.markdown
+    - library/HRTI.markdown
+    - library/MODU.markdown
+    - library/NULL.markdown
+    - library/TURT.markdown
+    - library/REFC.markdown
+    - library/TOYS.markdown
+    - doc/funge98.markdown
     Gemooy distribution:
     - README.markdown
     - UNLICENSE
@@ -138,7 +151,7 @@ Documentation Index:
     - doc/GraNoLa-M.markdown
     HUNTER distribution:
     - README.markdown
-    - lib/console-virtual/readme.txt
+    - lib/console-virtual/README.markdown
     Hev distribution:
     - LICENSE
     - README.markdown
@@ -345,7 +358,7 @@ Documentation Index:
     - src/Xoomonk.lhs
     Ypsilax distribution:
     - README.markdown
-    - lib/console-virtual/readme.txt
+    - lib/console-virtual/README.markdown
     - bin/README.txt
     ZOWIE distribution:
     - README.markdown
@@ -363,7 +376,7 @@ Documentation Index:
     - UNLICENSE
     noit o' mnain worb distribution:
     - README.markdown
-    - lib/console-virtual/readme.txt
+    - lib/console-virtual/README.markdown
     - bin/README.txt
     toolshelf distribution:
     - README.markdown
