@@ -327,7 +327,9 @@ Flobnar distribution:
 
 Funge-98 distribution: 
   type: Distribution
-  esowiki: Funge-98
+  bitbucket: catseye/funge-98
+  github: catseye/Funge-98
+  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0301"

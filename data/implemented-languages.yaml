@@ -481,6 +481,9 @@ tc.catseye.yoob.lnusp:
   paradigms:
   - 2-dimensional
   esowiki: 1L
+  # really, it's pretty mature, but it'll prolly never be finalized
+  development-stage: not fully complete
+  specification-link: esowiki
 
 
 1L_a:

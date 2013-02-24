@@ -258,8 +258,12 @@ def check_chrysoberyl_node(data, key, node):
 
     # All "implementables" (except musical compositions)
     # need to pass these checks.
+    # Programming Language Family isn't *directly* implementable
+    # but it must pass these checks too.  And gets ref-dist linked
+    # to it here too.
     if type_ in ['Game', 'Programming Language', 'Library', 'Tool',
-                 'Platform', 'Conlang', 'Electronics Project', 'Demo']:
+                 'Platform', 'Conlang', 'Electronics Project', 'Demo',
+                 'Programming Language Family']:
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node
         check_scalar_ref(data, key, node, 'development-stage',
@@ -280,23 +284,31 @@ def check_chrysoberyl_node(data, key, node):
                                  types=['Distribution'])
                 data[node['reference-distribution']]['reference'] = True
 
-    if type_ in ['Game', 'Programming Language', 'Musical Composition']:
+    # alternate constraints for musical pieces (implementables)
+    if type_ == 'Musical Composition':
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
         check_list_ref(data, key, node, 'authors')
-
-    if type_ == 'Musical Composition':
         check_optional_scalar_ref(data, key, node, 'composed-on')
         check_optional_scalar_ref(data, key, node, 'using-software')
         check_scalar_ref(data, key, node, 'development-stage',
                          types=['Development Stage'])
 
+    # additional constraints for games (implementables)
+    if type_ == 'Game':
+        check_scalar_ref(data, key, node, 'genre', types=['Genre'])
+        check_list_ref(data, key, node, 'authors')
+
+    # additional constraints for platforms (implementables)
     if type_ == 'Platform':
         check_scalar_ref(data, key, node, 'native-language',
                          types=['Programming Language'])
         check_list_ref(data, key, node, 'other-languages',
                        types=['Programming Language'])
 
+    # additional constraints for proglangs (implementables)
     if type_ == 'Programming Language':
+        check_scalar_ref(data, key, node, 'genre', types=['Genre'])
+        check_list_ref(data, key, node, 'authors')
         check_list_ref(data, key, node, 'paradigms',
                        types=['Programming Paradigm'])
         check_optional_scalar_ref(data, key, node, 'computational-class',
@@ -306,8 +318,6 @@ def check_chrysoberyl_node(data, key, node):
 
     if type_ == 'Programming Language Family':
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
-        check_optional_scalar_ref(data, key, node, 'reference-distribution',
-                                  types=['Distribution'])
 
     if type_ == 'Ranking':
         check_list_ref(data, key, node, 'entries')

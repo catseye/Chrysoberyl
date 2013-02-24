@@ -1,6 +1,27 @@
 {% extends "bylined.html" %}
 
-{% block content %}
+{% block properties %}
+
+{% if sample_html %}
+  <h2>Sample Program</h2>
+  <div class="sample">{{ sample_html }}</div>
+  {% if sample_input_html %}
+    <p>Input:</p>
+    <div class="sample">{{ sample_input_html }}</div>
+  {% endif %}
+  {% if sample_output_html %}
+    <p>Output:</p>
+    <div class="sample">{{ sample_output_html }}</div>
+  {% endif %}
+  {% if sample_credit %}
+    <p>This sample was written by {{ link(sample_credit) }}</p>
+  {% endif %}
+{% endif %}
+
+{% if computational_class %}
+  <h2>Computational Class</h2>
+  <p>{{ link(computational_class) }}</p>
+{% endif %}
 
 {% if related('member_of') %}
   <h2>Members</h2>
@@ -11,6 +32,40 @@
       </li>
     {% endfor %}
   </ul>
+{% endif %}
+
+{% if paradigms %}
+  <h2>Programming Paradigms</h2>
+  <ul>
+    {% for paradigm in paradigms %}
+      <li>
+          {{ link(paradigm) }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% endblock properties %}
+
+{% block content %}
+
+{% if reference_distribution %}
+  <section id="reference_distribution">
+    {% set dist_key=ref_dist() %}
+    {% include "include/distribution.html" %}
+  </section>
+{% elif standards_body %}
+  <h2>Defined by</h2>
+  <p><a href="{{ standards_body }}">{{ standards_body }}</a></p>
+{% elif specification_link %}
+  <h2>Defined by</h2>
+  <p>
+    {% if specification_link == 'esowiki' %}
+      Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
+    {% else %}
+      <a href="{{ specification_link }}">{{ specification_link }}</a></p>
+    {% endif %}
+  </p>
 {% endif %}
 
 {% endblock content %}
