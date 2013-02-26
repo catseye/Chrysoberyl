@@ -16,6 +16,7 @@ from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dir
 from chrysoberyl.localrepos import (
+    bitbucket_repos,
     troll_docs, survey_repos, get_latest_release_tag, lint_dists
 )
 from chrysoberyl.renderer import Renderer
@@ -160,6 +161,16 @@ def release(args, optparser):
     do_it("hg archive -t zip -r %s %s %s" % (tag, excludes, full_filename))
     os.chdir(cwd)
 
+
+def catalog(args, optparser):
+    """Create a toolshelf catalog from distribution nodes.
+
+    """
+    options, args = optparser.parse_args(args)
+    data = load_and_check(options.data_dir)
+    for (key, user, repo) in bitbucket_repos(data):
+        print 'bb:%s/%s' % (user, repo)
+
 ### helpers ###
 
 
@@ -180,6 +191,7 @@ COMMANDS = {
     'survey': survey,
     'lint': lint,
     'release': release,
+    'catalog': catalog,
 }
 
 

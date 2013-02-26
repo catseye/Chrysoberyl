@@ -150,6 +150,7 @@ can do include:
 *   render Jinja2 templates with the data (one file per node) and
     dump all nodes to a single JSON file (`chrysoberyl render`)
 *   update the Atom news feed (`chrysoberyl announce`)
+*   create a `toolshelf` catalog of Bitbucket repos (`chrysoberyl catalog`)
 
 If mercurial repositories of the distributions are available locally, it
 can also:
