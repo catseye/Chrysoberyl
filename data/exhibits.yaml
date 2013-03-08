@@ -1,6 +1,7 @@
+# encoding: UTF-8
 ### Games ###
 
-Bubble Escape 2K in JaC64:
+'Bubble Escape (JaC64)':
   type: Online Installation
   exhibit: Commodore 64 Exhibit
   interactive: true
@@ -24,7 +25,7 @@ Bubble Escape 2K in JaC64:
 
 ### Esolangs ###
 
-21 Esolangs in yoob:
+'yoob (Applet)':
   type: Online Installation
   exhibit: Esolangs Exhibit
   interactive: true
@@ -40,7 +41,7 @@ Bubble Escape 2K in JaC64:
     [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
     action, and lets you play with all these esolangs online.
 
-JWhothm:
+'Whothm (Applet)':
   type: Online Installation
   exhibit: Esolangs Exhibit
   interactive: true
@@ -52,7 +53,7 @@ JWhothm:
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
 
-Gemooy in HTML5:
+'Gemooy (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit
   interactive: true
@@ -64,7 +65,7 @@ Gemooy in HTML5:
 
 ### Visual ###
 
-Plea of Thunder:
+'Plea of Thunder (Applet)':
   type: Online Installation
   exhibit: Digital Art Exhibit
   interactive: false
@@ -73,7 +74,7 @@ Plea of Thunder:
   description: |
     Conceptual art: A Java applet that you and your friends can own!
 
-"HTML5 Canvas Experiment #1: Progression":
+'Progression (HTML5)':
   type: Online Installation
   exhibit: Digital Art Exhibit
   interactive: false
@@ -83,7 +84,7 @@ Plea of Thunder:
     Op art: An eye-tickler.  Starts getting interesting around 100 iterations,
     and starting stopping being interesting around 1550 (YMMV).
 
-"HTML5 Canvas Experiment #5: Prairie":
+'Prairie (HTML5)':
   type: Online Installation
   exhibit: Digital Art Exhibit
   interactive: false

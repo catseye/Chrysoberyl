@@ -204,7 +204,7 @@ Befunge-93:
   # maybe archival
   development-stage: mature
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
   see-also:
   - Funge-98
   - Flobnar
@@ -699,7 +699,7 @@ Circute:
   inception-date: 2005
   development-stage: mature
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 tc.catseye.yoob.circute:
   type: Implementation
@@ -993,7 +993,7 @@ Etcha:
        #
      ###
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 tc.catseye.etcha:
   type: Implementation
@@ -1299,8 +1299,8 @@ Gemooy:
   development-stage: mature
   esowiki: Gemooy
   online-implementations:
-  - '21 Esolangs in yoob'
-  - Gemooy in HTML5
+  - 'yoob (Applet)'
+  - 'Gemooy (HTML5)'
   authors:
   - Chris Pressey
   auspices:
@@ -2262,7 +2262,7 @@ nhohnhehr.py:
             # #
             ###
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 worb.pl:
   type: Implementation
@@ -2905,7 +2905,7 @@ SMETANA:
   computational-class: known not Turing-complete
   notable: true
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 smetana.pl:
   type: Implementation
@@ -3349,7 +3349,7 @@ Whothm:
     draw s, XOR;
     end
   online-implementations:
-  - JWhothm
+  - 'Whothm (Applet)'
 
 tc.catseye.whothm:
   type: Implementation
@@ -3484,7 +3484,7 @@ Wunnel:
              o    oooo o
   specification-link: esowiki
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 tc.catseye.yoob.wunnel:
   type: Implementation
@@ -3649,7 +3649,7 @@ Ypsilax:
         #      #
         #    ###
   online-implementations:
-  - '21 Esolangs in yoob'
+  - 'yoob (Applet)'
 
 ypsilax.pl:
   type: Implementation
