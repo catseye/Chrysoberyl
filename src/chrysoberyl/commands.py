@@ -76,10 +76,6 @@ def render(args, optparser):
     """Render all nodes to a set of HTML5 files.
 
     """
-    optparser.add_option("--jquery-url",
-                         dest="jquery_url", metavar='URL',
-                         default='http://code.jquery.com/jquery-1.8.1.min.js',
-                         help="URL from which rendered pages grab jQuery")
     optparser.add_option("--node-dir",
                          dest="node_dir", metavar='DIR',
                          default='../catseye.tc/node',
@@ -95,8 +91,7 @@ def render(args, optparser):
         json.dump(transform_dates(data), file, encoding='utf-8',
                   default=unicode)
     convert_chrysoberyl_data(data)
-    r = Renderer(data, options.template_dirs, options.node_dir,
-                 jquery_url=options.jquery_url)
+    r = Renderer(data, options.template_dirs, options.node_dir)
     r.render_chrysoberyl_data()
 
 
