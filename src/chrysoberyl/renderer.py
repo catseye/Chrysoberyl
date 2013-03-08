@@ -120,6 +120,8 @@ class Renderer(object):
             """
             objects = []
             for thing in self.data:
+                if self.data[thing].get('hidden', False):
+                    continue
                 rel = self.data[thing].get(relationship, None)
                 if rel is None:
                     continue

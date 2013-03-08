@@ -42,6 +42,7 @@ Each node may have any of the following fields:
 *   `commentary` -- a subjective opinion, by Chris Pressey, of the node
 *   `subtitle` -- expanding on the name of the node
 *   `acronym-for` -- expanding the name of the node
+*   `hidden` -- if true, does not show up in `related()` lists
 *   ...
 
 Each node can have a `domain`, which influences how breadcrumbs are

@@ -141,3 +141,5 @@ Sort other collections (games, tools, language implementations) by date.
 
 "Console: Virtual" is an implementation "contained in" the
 Corona: Realm of Magic distribution.  This is a little weird.
+
+Make commentary and links into blocks so they can be overridden.
