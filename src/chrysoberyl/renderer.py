@@ -8,9 +8,28 @@ import codecs
 import os
 import re
 
-import jinja2
+from jinja2 import BaseLoader, Environment
+from jinja2.exceptions import TemplateNotFound
 
 from chrysoberyl.transformer import filekey, pathname2url
+
+
+class Loader(BaseLoader):
+    def __init__(self, template_dirs):
+        self.template_dirs = template_dirs
+
+    def get_source(self, environment, filename):
+        found_path = None
+        for template_dir in self.template_dirs:
+            path = os.path.join(template_dir, filename)
+            if os.path.exists(path):
+                found_path = path
+                break
+        if found_path is None:
+            raise TemplateNotFound(filename)
+        with open(found_path, 'r') as f:
+            source = f.read().decode('utf-8')
+        return source, found_path, lambda: True
 
 
 class Renderer(object):
@@ -22,12 +41,7 @@ class Renderer(object):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
-        self.jinja2_env = {}
-        for template_dir in self.template_dirs:
-            loader = jinja2.FileSystemLoader(template_dir,
-                                             encoding='utf-8')
-            self.jinja2_env[template_dir] = \
-                jinja2.Environment(loader=loader)
+        self.jinja2_env = Environment(loader=Loader(self.template_dirs))
         self.jquery_url = jquery_url
 
     def render(self, template, output_filename, context):
@@ -39,33 +53,42 @@ class Renderer(object):
         """Helper method to retrieve the appropriate template for the given
         key.
 
+        In each template directory, do the following until you find a template.
+
+        If the node is a type, look first for a template called type_[key].html.
+        If none, just use type.html.
+
+        Otherwise, look for a template named [key].html.
+
+        If that's not found, look for a template called [type].html.
+
+        If that's not found, try the next template directory.
+
+        If all template directories are exhausted, fall back to base.html.
+
+        Note that this logic is not in the template loader, because it resolves
+        keys to filenames, and is not applicable during {% extends foo %}.
+
         """
         node = self.data[key]
-        template_filename = 'base.html'
-        filename = filekey(key)
         # Mercurial can't handle filenames containing ':' on Windows, so:
-        filename = re.sub(':', '_', filename)
+        key_filename = re.sub(':', '_', filekey(key))
         for template_dir in self.template_dirs:
+            template_filename = None
             if node['type'] == 'type':
-                if os.path.exists(os.path.join(template_dir, "type_" + filename)):
-                    template_filename = "type_" + filename
+                if os.path.exists(os.path.join(template_dir, "type_" + key_filename)):
+                    template_filename = "type_" + key_filename
                 else:
                     template_filename = 'type.html'
-            elif os.path.exists(os.path.join(template_dir, filename)):
-                template_filename = filename
+            elif os.path.exists(os.path.join(template_dir, key_filename)):
+                template_filename = key_filename
             else:
-                filename = filekey(node['type'])
-                if os.path.exists(os.path.join(template_dir, filename)):
-                    template_filename = filename
-            try:
-                template = self.jinja2_env[template_dir].get_template(template_filename)
-            except jinja2.exceptions.TemplateNotFound:
-                template = None
-            if template is not None:
-                break
-        if template is None:
-            raise jinja2.exceptions.TemplateNotFound(key)
-        return template
+                type_filename = filekey(node['type'])
+                if os.path.exists(os.path.join(template_dir, type_filename)):
+                    template_filename = type_filename
+            if template_filename is not None:
+                return self.jinja2_env.get_template(template_filename)
+        return self.jinja2_env.get_template('base.html')
 
     def render_node(self, key, node):
         """Render the given Chrysoberyl node (with the given key) as an HTML
