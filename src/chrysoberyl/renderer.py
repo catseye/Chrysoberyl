@@ -17,14 +17,17 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dir, output_dir,
+    def __init__(self, data, template_dirs, output_dir,
                  jquery_url=None):
         self.data = data
-        self.template_dir = template_dir
+        self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
-        self.loader = jinja2.FileSystemLoader(self.template_dir,
-                                              encoding='utf-8')
-        self.env = jinja2.Environment(loader=self.loader)
+        self.jinja2_env = {}
+        for template_dir in self.template_dirs:
+            loader = jinja2.FileSystemLoader(template_dir,
+                                             encoding='utf-8')
+            self.jinja2_env[template_dir] = \
+                jinja2.Environment(loader=loader)
         self.jquery_url = jquery_url
 
     def render(self, template, output_filename, context):
@@ -42,18 +45,26 @@ class Renderer(object):
         filename = filekey(key)
         # Mercurial can't handle filenames containing ':' on Windows, so:
         filename = re.sub(':', '_', filename)
-        if node['type'] == 'type':
-            if os.path.exists(os.path.join(self.template_dir, "type_" + filename)):
-                template_filename = "type_" + filename
-            else:
-                template_filename = 'type.html'
-        elif os.path.exists(os.path.join(self.template_dir, filename)):
-            template_filename = filename
-        else:
-            filename = filekey(node['type'])
-            if os.path.exists(os.path.join(self.template_dir, filename)):
+        for template_dir in self.template_dirs:
+            if node['type'] == 'type':
+                if os.path.exists(os.path.join(template_dir, "type_" + filename)):
+                    template_filename = "type_" + filename
+                else:
+                    template_filename = 'type.html'
+            elif os.path.exists(os.path.join(template_dir, filename)):
                 template_filename = filename
-        template = self.env.get_template(template_filename)
+            else:
+                filename = filekey(node['type'])
+                if os.path.exists(os.path.join(template_dir, filename)):
+                    template_filename = filename
+            try:
+                template = self.jinja2_env[template_dir].get_template(template_filename)
+            except jinja2.exceptions.TemplateNotFound:
+                template = None
+            if template is not None:
+                break
+        if template is None:
+            raise jinja2.exceptions.TemplateNotFound(key)
         return template
 
     def render_node(self, key, node):

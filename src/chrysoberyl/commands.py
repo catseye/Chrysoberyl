@@ -14,7 +14,7 @@ import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
-from chrysoberyl.loader import load_chrysoberyl_dir
+from chrysoberyl.loader import load_chrysoberyl_dirs
 from chrysoberyl.localrepos import (
     bitbucket_repos,
     troll_docs, survey_repos, get_latest_release_tag, lint_dists
@@ -29,7 +29,7 @@ def check(args, optparser):
 
     """
     options, args = optparser.parse_args(args)
-    load_and_check(options.data_dir)
+    load_and_check(options.data_dirs.split(':'))
     return 0
 
 
@@ -38,7 +38,7 @@ def survey(args, optparser):
 
     """
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     survey_repos(data, options.clone_dir)
     return 0
 
@@ -53,7 +53,7 @@ def lint(args, optparser):
                          help="lint only those distributions containing "
                               "implementations in this language")
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     lint_dists(data, options.clone_dir, host_language=options.host_language)
     return 0
 
@@ -66,8 +66,8 @@ def troll(args, optparser):
 
     """
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
-    troll_docs(data, options.clone_dir, options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
+    troll_docs(data, options.clone_dir, options.data_dirs.split(':'))
     print "Re-run to incorporate docs in loaded data."
     return 0
 
@@ -89,13 +89,13 @@ def render(args, optparser):
                          default='../catseye.tc/scripts',
                          help="write scripts into this directory")
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
         json.dump(transform_dates(data), file, encoding='utf-8',
                   default=unicode)
     convert_chrysoberyl_data(data)
-    r = Renderer(data, 'templates', options.node_dir,
+    r = Renderer(data, options.template_dirs, options.node_dir,
                  jquery_url=options.jquery_url)
     r.render_chrysoberyl_data()
     for filename in ['chrysoberyl.js', 'chrysoberyl-query.js']:
@@ -112,7 +112,7 @@ def announce(args, optparser):
                          default='../catseye.tc/feeds',
                          help="write feeds into this directory")
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     convert_chrysoberyl_data(data)
     make_news_feed(data, options.feed_dir, 'atom_15_news.xml', limit=15)
     make_news_feed(data, options.feed_dir, 'atom_30_news.xml', limit=30)
@@ -129,7 +129,7 @@ def release(args, optparser):
                          help="write distfile into this directory")
     distro = args.pop(0)
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     tag = get_latest_release_tag(data, distro, options.clone_dir)
     if not tag:
         print "ERROR: repository not tagged"
@@ -167,16 +167,16 @@ def catalog(args, optparser):
 
     """
     options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dir)
+    data = load_and_check(options.data_dirs.split(':'))
     for (key, user, repo) in bitbucket_repos(data):
         print 'bb:%s/%s' % (user, repo)
 
 ### helpers ###
 
 
-def load_and_check(dirname):
+def load_and_check(dirnames):
     print "Loading Chrysoberyl data..."
-    data = load_chrysoberyl_dir(dirname)
+    data = load_chrysoberyl_dirs(dirnames)
     check_chrysoberyl_data(data)
     return data
 
@@ -219,9 +219,16 @@ def perform(args):
                          dest="clone_dir", metavar='DIR', default='..',
                          help="specify location of the hg clones "
                               "of reference distributions (default: ..)")
-    optparser.add_option("-d", "--data-dir",
-                         dest="data_dir", metavar='DIR', default='data',
-                         help="specify location of the Chrysoberyl "
-                              "Yaml data files (default: data)")
+    optparser.add_option("-d", "--data-dirs",
+                         dest="data_dirs", metavar='DIRS', default='data',
+                         help="colon-separated list of directories "
+                              "containing Chrysoberyl Yaml data files "
+                              "(default: %default)")
+    optparser.add_option("-t", "--template-dirs",
+                         dest="template_dirs", metavar='DIRS',
+                         default='templates',
+                         help="colon-separated list of directories "
+                              "containing Chrysoberyl templates "
+                              "(default: %default)")
 
     sys.exit(func(args, optparser))

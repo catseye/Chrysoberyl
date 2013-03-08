@@ -13,22 +13,23 @@ except ImportError:
     from yaml import Loader
 
 
-def load_chrysoberyl_dir(dirname):
-    """Given a directory, load Chrysobeyl data from all Yaml files in
-    that directory.
+def load_chrysoberyl_dirs(dirnames):
+    """Given a list of directory names, load Chrysoberyl data from all
+    Yaml files in those directories.
 
     """
     data = {}
 
     count = 0
-    for root, dirnames, filenames in os.walk(dirname):
-        for filename in filenames:
-            if filename.endswith('.yaml'):
-                count += 1
-                file = open(os.path.join(root, filename))
-                data.update(yaml.load(file, Loader=Loader))
-                file.close()
-        del dirnames[:]  # don't automatically descend
+    for dirname in dirnames:
+        for root, subdirnames, filenames in os.walk(dirname):
+            for filename in filenames:
+                if filename.endswith('.yaml'):
+                    count += 1
+                    file = open(os.path.join(root, filename))
+                    data.update(yaml.load(file, Loader=Loader))
+                    file.close()
+            del subdirnames[:]  # don't automatically descend
 
     print "%d files read." % count
     return data
