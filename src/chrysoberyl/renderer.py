@@ -51,18 +51,17 @@ class Renderer(object):
         """Helper method to retrieve the appropriate template for the given
         key.
 
-        In each template directory, do the following until you find a template.
+        If the node is a type, look first for a template called type_[key].html,
+        in ALL the template directories.  If found, load it as the template.
+        If not found, load type.html as the template.
 
-        If the node is a type, look first for a template called type_[key].html.
-        If none, just use type.html.
+        Look for a template named [key].html in ALL the template directories.
+        If found, use it as the template.
 
-        Otherwise, look for a template named [key].html.
-
-        If that's not found, look for a template called [type].html.
-
-        If that's not found, try the next template directory.
-
-        If all template directories are exhausted, fall back to base.html.
+        If no template yet, look for a template named [type].html in ALL the
+        template directories.  If found, use it as the template.
+        
+        If no template yet, use base.html as the template.
 
         Note that this logic is not in the template loader, because it resolves
         keys to filenames, and is not applicable during {% extends foo %}.
@@ -71,21 +70,28 @@ class Renderer(object):
         node = self.data[key]
         # Mercurial can't handle filenames containing ':' on Windows, so:
         key_filename = re.sub(':', '_', filekey(key))
-        for template_dir in self.template_dirs:
-            template_filename = None
-            if node['type'] == 'type':
-                if os.path.exists(os.path.join(template_dir, "type_" + key_filename)):
-                    template_filename = "type_" + key_filename
-                else:
-                    template_filename = 'type.html'
-            elif os.path.exists(os.path.join(template_dir, key_filename)):
-                template_filename = key_filename
+
+        def find_template(filename):
+            for template_dir in self.template_dirs:
+                full_filename = os.path.join(template_dir, filename)
+                if os.path.exists(full_filename):
+                    return full_filename
+            return None
+
+        if node['type'] == 'type':
+            type_filename = 'type_' + key_filename
+            if find_template(type_filename):
+                return self.jinja2_env.get_template(type_filename)
             else:
-                type_filename = filekey(node['type'])
-                if os.path.exists(os.path.join(template_dir, type_filename)):
-                    template_filename = type_filename
-            if template_filename is not None:
-                return self.jinja2_env.get_template(template_filename)
+                return self.jinja2_env.get_template('type.html')
+
+        if find_template(key_filename):
+            return self.jinja2_env.get_template(key_filename)
+
+        type_filename = filekey(node['type'])
+        if find_template(type_filename):
+            return self.jinja2_env.get_template(type_filename)
+
         return self.jinja2_env.get_template('base.html')
 
     def render_node(self, key, node):
