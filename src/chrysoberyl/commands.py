@@ -98,9 +98,6 @@ def render(args, optparser):
     r = Renderer(data, options.template_dirs, options.node_dir,
                  jquery_url=options.jquery_url)
     r.render_chrysoberyl_data()
-    for filename in ['chrysoberyl.js', 'chrysoberyl-query.js']:
-        shutil.copy(os.path.join('static', filename),
-                    options.script_dir)
 
 
 def announce(args, optparser):
