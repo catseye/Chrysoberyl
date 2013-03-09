@@ -7,7 +7,7 @@
   <link href="../contrib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="../contrib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../stylesheet/chrysoberyl.css" />
-  {% block extra_head %}{% endblock extra_head %}
+  {%- block extra_head -%}{%- endblock extra_head -%}
 </head>
 <body>
 
@@ -24,29 +24,30 @@
   <header>
     <div class="row-fluid">
       <div class="span8">
-        {% block breadcrumbs %}
+        {%- block breadcrumbs -%}
         <nav id="breadcrumbs">
           <p>{{ breadcrumbs()|join(' » ') }}</p>
         </nav>
-        {% endblock breadcrumbs %}
+        {%- endblock breadcrumbs -%}
 
-    {% block heading %}
+    {%- block heading -%}
       <hgroup id="heading">
         <h1>{{ key }}</h1>
-        {% if subtitle %}
+        {%- if subtitle -%}
           <h2 id="subtitle">{{ subtitle }}</h2>
-        {% endif %}
-        {% if acronym_for %}
+        {%- endif -%}
+        {%- if acronym_for -%}
           <h2 id="acronym_for">({{ acronym_for }})</h2>
-        {% endif %}
+        {%- endif -%}
       </hgroup>
-    {% endblock %}
+    {%- endblock -%}
 
-    {% block byline %}
-    {% endblock byline %}
+    {%- block byline -%}
+    {%- endblock byline -%}
 
       </div>
       <div class="span4">
+        {#-
         <!--
         <div class="navbar">
           <div class="navbar-inner">
@@ -58,22 +59,23 @@
           </div>
         </div>
         -->
+        -#}
       </div>
     </div>
 
-    {# TODO: make these less obtrusive.  float to right or something. #}
-    {% if esowiki %}
+    {#- TODO: make these less obtrusive.  float to right or something. -#}
+    {%- if esowiki -%}
       <p id="esowiki">Esowiki: <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a></p>
-    {% endif %}
-    {% if wikipedia %}
+    {%- endif -%}
+    {%- if wikipedia -%}
       <p id="wikipedia">Wikipedia: <a href="http://wikipedia.org/wiki/{{ wikipedia }}">{{ wikipedia }}</a></p>
-    {% endif %}
+    {%- endif -%}
   </header>
 
   <article>
-    {% block mainstage %}{% endblock %}
-    {% block description %}
-      {% if description and images %}
+    {%- block mainstage -%}{%- endblock -%}
+    {%- block description -%}
+      {%- if description and images -%}
         <div class="row-fluid">
           <div class="span8">
             <section id="description">
@@ -82,21 +84,21 @@
           </div>
           <div class="span4">
             <section id="images">
-              {% for image in images %}
+              {%- for image in images -%}
                 <img src="{{ image }}">
-              {% endfor %}
+              {%- endfor -%}
             </section>
           </div>
         </div>
-      {% elif description %}
+      {%- elif description -%}
         <section id="description">
           {{ description_html }}
         </section>
-      {% endif %}
-    {% endblock description %}
+      {%- endif -%}
+    {%- endblock description -%}
 
-    {% block awards %}
-      {% if submitted_to %}
+    {%- block awards -%}
+      {%- if submitted_to -%}
         <h2>Submitted to Competitions</h2>
         <ul>
           {% for sub in submitted_to %}
@@ -110,31 +112,31 @@
             </li>
           {% endfor %}
         </ul>
-      {% endif %}    
-    {% endblock awards %}
+      {%- endif -%}
+    {%- endblock awards -%}
 
-    {% block properties %}
-    {% endblock properties %}
+    {%- block properties -%}
+    {%- endblock properties -%}
 
-    {% block content %}
-    {% endblock content %}
+    {%- block content -%}
+    {%- endblock content -%}
 
-    {% block see_also %}
-      {% if see_also %}
+    {%- block see_also -%}
+      {%- if see_also -%}
         <section id="see_also">
           <h2>See Also</h2>
           <ul>
-            {% for thing in see_also %}
+            {%- for thing in see_also -%}
             <li>
               {{ link(thing) }}
             </li>
-            {% endfor %}
+            {%- endfor -%}
           </ul>
         </section>
-      {% endif %}
-    {% endblock see_also %}
+      {%- endif -%}
+    {%- endblock see_also -%}
 
-    {% block links %}
+    {%- block links -%}
       {% if links or references %}
         <section id="links">
           <h2>Links</h2>
@@ -152,16 +154,16 @@
           </ul>
         </section>
       {% endif %}
-    {% endblock links %}
+    {%- endblock links -%}
 
-    {% block commentary %}
+    {%- block commentary -%}
       {% if commentary %}
         <section id="commentary">
           <h2>Commentary</h2>
           {{ commentary_html }}
         </section>
       {% endif %}
-    {% endblock commentary %}
+    {%- endblock commentary -%}
   </article>
 
   <footer>
@@ -173,5 +175,5 @@
   <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
   <script src="../contrib/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../scripts/chrysoberyl.js"></script>
-  {% block extra_tail %}{% endblock extra_tail %}
+  {%- block extra_tail -%}{%- endblock extra_tail -%}
 </body>
