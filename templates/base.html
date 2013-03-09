@@ -71,6 +71,7 @@
   </header>
 
   <article>
+    {% block mainstage %}{% endblock %}
     {% block description %}
       {% if description and images %}
         <div class="row-fluid">
@@ -118,51 +119,49 @@
     {% block content %}
     {% endblock content %}
 
-    {% if see_also %}
-      <section id="see_also">
-        <h2>See Also</h2>
-        <ul>
-          {% for thing in see_also %}
-          <li>
-            {{ link(thing) }}
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
+    {% block see_also %}
+      {% if see_also %}
+        <section id="see_also">
+          <h2>See Also</h2>
+          <ul>
+            {% for thing in see_also %}
+            <li>
+              {{ link(thing) }}
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    {% endblock see_also %}
 
-    {% if links %}
-      <section id="links">
-        <h2>Links</h2>
-        <ul>
-          {% for link in links %}
-          <li>
-            <a href="{{ link }}">{{ link }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
+    {% block links %}
+      {% if links or references %}
+        <section id="links">
+          <h2>Links</h2>
+          <ul>
+            {% for reference in references %}
+            <li>
+              <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description }}
+            </li>
+            {% endfor %}
+            {% for link in links %}
+            <li>
+              <a href="{{ link }}">{{ link }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    {% endblock links %}
 
-    {% if references %}
-      <section id="references">
-        <h2>References</h2>
-        <ul>
-          {% for reference in references %}
-          <li>
-            <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description }}
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
-
-    {% if commentary %}
-      <section id="commentary">
-        <h2>Commentary</h2>
-        {{ commentary_html }}
-      </section>
-    {% endif %}
+    {% block commentary %}
+      {% if commentary %}
+        <section id="commentary">
+          <h2>Commentary</h2>
+          {{ commentary_html }}
+        </section>
+      {% endif %}
+    {% endblock commentary %}
   </article>
 
   <footer>
