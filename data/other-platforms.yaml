@@ -131,7 +131,7 @@ MS-DOS:
     DEBUG.COM.
     
     You can try (at your own risk, of course) using the project under some
-    more-or-less modern version of Windows and hope that it emulates DOS
+    more-or-less modern version of [[Windows]] and hope that it emulates DOS
     well enough to work. It might, it might not. If not, you have options:
     
     *   [[DOSBox]] is an emulator, available for many systems, which
@@ -185,6 +185,16 @@ Windows:
   native-language: x86 machine code
   other-languages:
   - VBScript
+  references:
+  - url: http://www.piclist.com/techref/os/win/api/index.html
+    title: Win32 API Reference
+    description: API Reference for Win32
+  - url: http://www.winprog.org/tutorial/
+    title: Win32 tutorial
+    description: theForger's Win32 API programming tutorial
+  - url: http://www.piclist.com/techref/language/asm/win32asm.htm
+    title: Win32Asm
+    description: Windows Assembly Language Programming
 
 WINE:
   type: Implementation

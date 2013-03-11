@@ -158,6 +158,40 @@ Music Format:
   type: type
 Electronics Project:
   type: type
+  references:
+  - url: http://www.intio.or.jp/jf10zl/
+    title: JF10ZL
+    description: Beautifully perverse Ham Radio projects
+  - url: http://www.hanssummers.com/
+    title: Hans Summers' Projects
+    description: Nixie Clocks, The Great Z80 Computer, Asynch CPU design, and more
+  - url: http://www.dsaprojects.110mb.com/
+    title: David's Home Page
+    description: Truly minimal EPROM &amp; GAL programmers, and more
+  - url: http://www.reocities.com/CapeCanaveral/Lab/5185/electronics.html
+    title: The Electric Wave
+    description: Interesting circuits for oscillators, converters, and more
+  - url: http://www.afrotechmods.com/
+    title: Afrotech
+    description: "Ghetto hardware fun"
+  - url: http://www.all-electric.com/b&amp;cmain.html
+    title: Bread &amp; Circuits
+    description: Audio engineering and other circuits at the All Electric Kitchen
+  - url: http://www.dpfwiw.com/
+    title: Batteries @ dpFWIW
+    description: Gobs of info about batteries (not just in digital cameras)
+  - url: http://www.du.edu/~etuttle/electron/elecindx.htm
+    title: A Review of Electronics
+    description: Many tested experiments, plus theory and history
+  - url: http://www.kingswood-consulting.co.uk/giicm/
+    title: GIICM
+    description: Pinouts for many common IC's
+  - url: http://www.alldatasheet.com/
+    title: Alldatasheet.com
+    description: Large, free datasheet database
+  - url: http://www.falstad.com/circuit/
+    title: Circuit Simulator
+    description: Circuit Simulator in a Java Applet
 Demo:
   type: type
 Database:

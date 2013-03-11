@@ -386,7 +386,9 @@ Javascript:
     [[Programming Language|programming language]] that some web browsers implement
     in order to let scripts control the dynamic behaviour of a web page,
     such as what happens when the user clicks on some region of text.
-  commentary: |    
+  commentary: |
+    (TODO: update this.)
+    
     We at [[Cat's Eye Technologies]] have long taken a dim view of this
     predominant application of Javascript. It's gratuitous; web pages exist
     in order to convey information, not be playthings. Managing the user
@@ -441,6 +443,16 @@ Javascript:
         more usable? If the answers to any of these are "yes" then there's a
         good chance that the script they're being asked about won't get
         written.
+  references:
+  - url: http://www.quirksmode.org/js/contents.html
+    title: JavaScript at quirksmode
+    description: Nice, large set of JS documents, examples, explanations
+  - url: http://onlinetools.org/articles/unobtrusivejavascript/
+    title: Unobtrustive JavaScript
+    description: Seperation of concerns between Javascript, CSS, &amp; HTML
+  - url: http://betterexplained.com/articles/speed-up-your-javascript-load-time/
+    title: Speed Up Your Javascript Load Time
+    description: Assorted useful tips for, uh, speeding up Javascript load time
 
 # XXX implementation of Javascript.  I could add web browsers
 # to Chrysoberyl.  But I don't care.
