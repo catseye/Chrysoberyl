@@ -1,24 +1,75 @@
 # encoding: UTF-8
-Linux:
+POSIX:
   type: Platform
+  wikipedia: POSIX
+  # XXX If I put in a standards-body, it overrides the spec link.  Fix.
+  # standards-body: http://standards.ieee.org/develop/wg/POSIX.html
+  specification-link: https://www2.opengroup.org/ogsys/catalog/T101
+  development-stage: mature
+  native-language: x86 machine code
+  # sh might count, I'm not sure what else would, though
+  other-languages: []
+
+
+Linux:
+  type: Implementation
+  implementation-of:
+  - POSIX
+  host-language: C99
+  implementation-type: emulator
+  license: GPL
   # guhhh...
   standards-body: http://linux.com/
   development-stage: mature
-  # \o/
-  native-language: x86 machine code
-  other-languages: []
+  generally-recommended: true
+  prebuilt-for-platforms:
+  - IBM PC compatible
+
+
+FreeBSD:
+  type: Implementation
+  implementation-of:
+  - POSIX
+  host-language: C99
+  implementation-type: emulator
+  standards-body: http://freebsd.org/
+  # natch
+  license: BSD license
+  development-stage: mature
+  prebuilt-for-platforms:
+  - IBM PC compatible
+  references: 
+  - title: BSDAsm
+    description: FreeBSD Assembly Language Programming
+    url: http://www.int80h.org/bsdasm/
+  - title: FreeBSD System Programming
+    description: A book about system programming under FreeBSD
+    url: http://www.khmere.com/freebsd_book/
+
+
+NetBSD:
+  type: Implementation
+  implementation-of:
+  - POSIX
+  implementation-type: emulator
+  host-language: C99
+  standards-body: http://netbsd.org/
+  # natch
+  license: BSD license
+  development-stage: mature
+  prebuilt-for-platforms:
+  - IBM PC compatible
 
 
 Cygwin:
   type: Implementation
-  # WELL SORRRT OF
   implementation-of:
-  - Linux
+  - POSIX
   implementation-type: emulator
   prebuilt-for-platforms:
   - Windows
   # guess
-  host-language: C++
+  host-language: C99
   # guess (i know it's actually more restrictive in some ways)
   license: GPL
   links:
@@ -141,7 +192,8 @@ WINE:
   - Windows
   implementation-type: emulator
   prebuilt-for-platforms:
-  - Linux
+  - POSIX
+  # by which I mean Linux and friends
   host-language: C++
   license: GPL
 

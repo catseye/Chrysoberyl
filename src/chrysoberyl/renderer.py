@@ -324,8 +324,9 @@ class Renderer(object):
                     candidates.append(impl)
             if len(candidates) == 1:
                 return candidates[0]
-            raise KeyError("%s/%s: More than one generally recommended "
-                           "implementation" % (key, implementable))
+            raise KeyError("Implementable %s has more than one generally "
+                           "recommended implementation (under key %s)" %
+                           (implementable, key))
 
         @expose
         def lingography():

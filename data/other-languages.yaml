@@ -233,6 +233,16 @@ CSS:
     your page look ugly in nine out of ten browsers six out of seven days of
     the week, but at least it probably won't hang, or crash, or corrupt the
     browser's state.
+  references:
+  - title: Assorted CSS samples on Phrogz.net
+    description: Useful and insightful CSS articles
+    url: http://phrogz.net/CSS/
+  - title: css Zen Garden
+    description: Demonstrates what can be accomplished visually with CSS
+    url: http://www.csszengarden.com/
+  - title: CSS Techniques
+    description: CSS Techniques I Wish I Knew When I Started Designing Websites
+    url: http://www.noupe.com/css/css-techniques-i-wish-i-knew-when-i-started-designing-websites.html
 
 
 Erlang:

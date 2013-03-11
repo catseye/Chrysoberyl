@@ -147,3 +147,8 @@ Sort other collections (games, tools, language implementations) by date.
 Corona: Realm of Magic distribution.  This is a little weird.
 
 Make commentary and links into blocks so they can be overridden.
+
+When the only dependency is IBM PC compatible -- special case that,
+don't recommend Bochs like that :/
+
+"Portable" for POSIX and NetBSD.

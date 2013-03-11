@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <aside id="alpha_disclaimer">
+  {%- block alpha_disclaimer -%}<aside id="alpha_disclaimer">
     <p>
       BETA VERSION.  UNDER CONSTRUCTION.
       This page was automatically generated from <a href="https://github.com/catseye/Chrysoberyl/">Chrysoberyl</a>.
@@ -19,7 +19,7 @@
       {# TODO: urlencode instead #}
       <a href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key)|replace(' ', '+') }}">Report it here!</a>
     </p>
-  </aside>
+  </aside>{%- endblock alpha_disclaimer -%}
 
   <header>
     <div class="row-fluid">
@@ -166,11 +166,11 @@
     {%- endblock commentary -%}
   </article>
 
-  <footer>
+  {%- block footer -%}<footer>
     <p>
       <small>Copyright ©2013, Chris Pressey, Cat's Eye Technologies.  All rights reserved.</small>
     </p>
-  </footer>
+  </footer>{%- endblock footer -%}
 
   <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
   <script src="../contrib/bootstrap/js/bootstrap.min.js"></script>

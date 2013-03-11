@@ -1,14 +1,3 @@
-
-<link>
-  <keywords>
-    <keyword>asm</keyword>
-    <keyword>bsd</keyword>
-  </keywords>
-  <url>http://www.int80h.org/bsdasm/</url>
-  <title>BSDAsm</title>
-  <description>FreeBSD Assembly Language Programming</description>
-</link>
-
 <link>
   <keywords>
     <keyword>bsd</keyword>
@@ -22,36 +11,9 @@
   <keywords>
     <keyword>bsd</keyword>
   </keywords>
-  <url>http://www.freebsd.org/</url>
-  <title>FreeBSD</title>
-  <description>Official site of the FreeBSD operating system</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>bsd</keyword>
-  </keywords>
-  <url>http://www.netbsd.org/</url>
-  <title>NetBSD</title>
-  <description>Official site of the NetBSD operating system</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>bsd</keyword>
-  </keywords>
   <url>http://www.dragonflybsd.org/</url>
   <title>DragonFlyBSD</title>
   <description>Official site of the DragonFlyBSD operating system</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>bsd</keyword>
-  </keywords>
-  <url>http://www.khmere.com/freebsd_book/</url>
-  <title>FreeBSD System Programming</title>
-  <description>A book about system programming under FreeBSD</description>
 </link>
 
 <link>
@@ -174,36 +136,6 @@
   <url>http://burtleburtle.net/bob/hash/doobs.html</url>
   <title>Bob Jenkins</title>
   <description>Comparison of an assortment of hash functions</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>css</keyword>
-    <keyword>www</keyword>
-  </keywords>
-  <url>http://phrogz.net/CSS/</url>
-  <title>Assorted CSS samples on Phrogz.net</title>
-  <description>Useful and insightful CSS articles</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>css</keyword>
-    <keyword>www</keyword>
-  </keywords>
-  <url>http://www.csszengarden.com/</url>
-  <title>css Zen Garden</title>
-  <description>Demonstrates what can be accomplished visually with CSS</description>
-</link>
-
-<link>
-  <keywords>
-    <keyword>css</keyword>
-    <keyword>www</keyword>
-  </keywords>
-  <url>http://www.noupe.com/css/css-techniques-i-wish-i-knew-when-i-started-designing-websites.html</url>
-  <title>CSS Techniques</title>
-  <description>CSS Techniques I Wish I Knew When I Started Designing Websites</description>
 </link>
 
 <link>
