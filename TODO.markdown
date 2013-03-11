@@ -103,8 +103,6 @@ If an implementation is the reference implementation, and the
 language it's an implementation of has a reference distribution,
 assume it's in there, and compute `in-distribution`.
 
-Maybe something other than "emulator" for yoob and BefOS, eh?
-
 Some documentation in a reference distribution relates to the implementable
 and some of it relates to the distribution and some of it relates to
 the implementation(s) within the distribution.  Split it up so.
@@ -145,8 +143,6 @@ Sort other collections (games, tools, language implementations) by date.
 
 "Console: Virtual" is an implementation "contained in" the
 Corona: Realm of Magic distribution.  This is a little weird.
-
-Make commentary and links into blocks so they can be overridden.
 
 When the only dependency is IBM PC compatible -- special case that,
 don't recommend Bochs like that :/

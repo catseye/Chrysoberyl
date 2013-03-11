@@ -235,9 +235,10 @@ def check_chrysoberyl_node(data, key, node):
         if impl_of_type == 'Platform':
             check_scalar_ref(data, key, node, 'implementation-type',
                              types=['Implementation Type'])
-            assert node['implementation-type'] == 'emulator', \
-                "Platform has implementation %s not an emulator" % \
-                    (key)
+            platimpls = ('emulator', 'framework', 'operating system')
+            assert node['implementation-type'] in platimpls, \
+                "Platform has implementation %s not in %r" % \
+                    (key, platimpls)
         elif impl_of_type == 'Programming Language':
             check_scalar_ref(data, key, node, 'implementation-type',
                              types=['Implementation Type'])

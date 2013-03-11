@@ -31,8 +31,7 @@ BefOS (NASM):
   type: Implementation
   implementation-of:
   - BefOS
-  # um. I guess so?
-  implementation-type: emulator
+  implementation-type: operating system
   in-distribution: BefOS distribution
   license: Public Domain
   host-language: NASM Assembler
@@ -81,8 +80,7 @@ tc.catseye.yoob:
   type: Implementation
   implementation-of:
   - yoob
-  # um. I guess so?
-  implementation-type: emulator
+  implementation-type: framework
   in-distribution: yoob distribution
   license: Public Domain
   host-language: Java

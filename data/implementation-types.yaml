@@ -13,3 +13,7 @@ formal description:
   type: Implementation Type
 emulator:
   type: Implementation Type
+operating system:
+  type: Implementation Type
+framework:
+  type: Implementation Type

@@ -16,7 +16,7 @@ Linux:
   implementation-of:
   - POSIX
   host-language: C99
-  implementation-type: emulator
+  implementation-type: operating system
   license: GPL
   # guhhh...
   standards-body: http://linux.com/
@@ -31,7 +31,7 @@ FreeBSD:
   implementation-of:
   - POSIX
   host-language: C99
-  implementation-type: emulator
+  implementation-type: operating system
   standards-body: http://freebsd.org/
   # natch
   license: BSD license
@@ -51,7 +51,7 @@ NetBSD:
   type: Implementation
   implementation-of:
   - POSIX
-  implementation-type: emulator
+  implementation-type: operating system
   host-language: C99
   standards-body: http://netbsd.org/
   # natch
