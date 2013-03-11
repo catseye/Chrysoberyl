@@ -29,7 +29,35 @@ ANSI C:
     Many of our C projects will compile both as [[C99]] and as
     ANSI C (perhaps omitting some features) by passing the environment
     variable `ANSI=yes` to `make`.
-
+  # not perfectly considered yet. alas.
+  references:
+  - url: http://gcc.gnu.org/
+    title: GCC
+    description: The GNU Compiler Collection
+  - url: http://www.openwatcom.org/
+    title: OpenWatcom
+    description: Open-source Watcom C/C++
+  - url: http://www.ten15.org/
+    title: TenDRA
+    description: BSD-licensed, ANDF-based C/C++ compiler
+  - url: http://clang.llvm.org/
+    title: clang
+    description: C language family frontend for LLVM
+  - url: http://www.cs.princeton.edu/software/lcc/
+    title: lcc
+    description: Retargetable compiler for ANSI C
+  - url: http://www.desmet-c.com/
+    title: DeSmet C
+    description: Reasonably sized open-source ANSI C compiler
+  - url: http://www.tinycc.org/
+    title: TCC
+    description: Tiny, fast, LGPL C compiler
+  - url: http://www.cpm.z80.de/small_c.html
+    title: Small-C
+    description: Older, 8-bit portable C-subset compiler
+  - url: http://sdcc.sourceforge.net/
+    title: SDCC
+    description: Small Device C Compiler
 
 BASIC:
   type: Programming Language Family
@@ -763,6 +791,10 @@ Ruby:
   standards-body: http://www.ruby-lang.org/
   development-stage: mature
   authors: []
+  references:
+  - url: http://www.fincher.org/tips/Languages/Ruby/
+    title: Ruby Tutorial
+    description: Ruby Tutorial with Code Samples
 
 ruby 1.8.7:
   type: Implementation

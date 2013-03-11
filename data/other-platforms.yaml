@@ -142,6 +142,10 @@ MS-DOS:
         on a PC emulator such as [[Bochs]].
     
     All of the above software packages are [[Open-source|open source]].
+  references:
+  - url: http://www.delorie.com/djgpp/
+    title: DJGPP
+    description: DJ Delorie's port of GCC to MS-DOS
 
 DOSBox:
   type: Implementation

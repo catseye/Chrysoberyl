@@ -75,6 +75,12 @@ Applesoft BASIC:
   - title: 6502 Instruction Set
     description: 6502 Instruction Set reference
     url: http://www.obelisk.demon.co.uk/6502/instructions.html
+  - title: scc6502
+    url: http://www.reocities.com/SiliconValley/Way/4588/scc6502.html
+    description: Small-C for 6502 and LUnix
+  - title: cc65
+    url: http://www.cc65.org/
+    description: Freeware C compiler for 6502-based systems
   authors: []
 
 
