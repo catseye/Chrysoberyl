@@ -14,6 +14,17 @@ vintage:
   description: |
     a.k.a. retro.  That stage between [[mature]] and [[archival]] where
     folks of nostalgic, historian, or hipster-y bent still care about it.
+  references:
+  - url: http://www.catb.org/retro/
+    title: The Retrocomputing Museum
+    description: "'Freaks, Jokes, and Fossils' of Computer History"
+  - url: http://mirror.cc.vt.edu/pub/projects/Ancient_Unix/
+    title: Ancient Unix
+    description: Ancient Unix Distributions
+  - url: http://heirloom.sourceforge.net/
+    title: The Heirloom Project
+    description: Traditional implementations of standard Unix utilities
+
 archival:
   type: Development Stage
   description: |

@@ -15,5 +15,22 @@ emulator:
   type: Implementation Type
 operating system:
   type: Implementation Type
+  references:
+  - url: http://www.osdev.org/osfaq2/
+    title: OSDev.org FAQ
+    description: "'Write your own OS' FAQ"
+  - url: http://tunes.org/
+    title: TUNES
+    description: TUNES is a Useful, Not Expedient, System
+  - url: http://www.memetech.com/
+    title: oiu
+    description: oiu isn't unix
+  - url: http://www.sparrowos.com/
+    title: SparrowOS
+    description: The SparrowOS 64-bit PC Operating System
+  - url: http://torsion.org/
+    title: Torsion
+    description: Torsion Operating System
+
 framework:
   type: Implementation Type

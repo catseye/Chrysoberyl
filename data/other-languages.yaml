@@ -1059,6 +1059,13 @@ Wireworld:
   no-specification: true
   development-stage: mature
   authors: []
+  references:
+  - url: http://www.msdn.microsoft.com/netframework/
+    title: MSDN .NET
+    description: Microsoft .NET Developer Center
+  - url: http://plas.fit.qut.edu.au/gpcp/
+    title: GPCP
+    description: Gardens Point Component Pascal
 
 
 #----------------------------------------------------------------------------

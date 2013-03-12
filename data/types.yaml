@@ -99,6 +99,26 @@ Game:
   description: |
     For a list of just those games produced by [[Cat's Eye Technologies]], see
     [[Games by Chris Pressey]].
+  references:
+  - url: http://umlautllama.com/searchlist.php?All=ColinMochrie
+    title: Scott Lawrence's Projects
+    description: Games, Utilities, Programming Languages, Multimedia, ...
+  - url: http://www.zophar.net/
+    title: Zophar's Domain
+    description: Lots of game-platform emulators and utilities
+  - url: http://mollyrocket.com/
+    title: Molly Rocket
+    description: A game company with an attitude I happen to like
+  - url: http://www.llamasoft.co.uk/frontpage.php
+    title: Llamasoft
+    description: A legendary game company with many retro titles now in PD
+  - url: http://tnd64.unikat.sk/
+    title: The New Dimension
+    description: Richard Bayliss' C64 games as far as the eye can see
+  - url: http://www.dadgum.com/halcyon/
+    title: Halcyon Days
+    description: Interviews with Classic Computer and Video Game Programmers
+
 Library:
   type: type
   description: |
@@ -149,6 +169,17 @@ Programming Language:
     languages is that it's very important to choose the right programming
     language for every software project. That's why you'll always choose
     [[C++]] no matter *what* the software project is.
+  references:
+  - url: http://hopl.murdoch.edu.au/
+    title: HoPL
+    description: An interactive Roster of Programming Languages
+  - url: http://linuxfinances.info/info/languages.html
+    title: Computer Languages
+    description: Christopher B. Browne's material on Programming Languages
+  - url: http://lambda-the-ultimate.org/
+    title: Lambda the Ultimate
+    description: Programming Languages Weblog with news and discussion
+
 Musical Composition:
   type: type
   description: |

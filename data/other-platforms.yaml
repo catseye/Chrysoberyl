@@ -2,14 +2,25 @@
 POSIX:
   type: Platform
   wikipedia: POSIX
-  # XXX If I put in a standards-body, it overrides the spec link.  Fix.
-  # standards-body: http://standards.ieee.org/develop/wg/POSIX.html
   specification-link: https://www2.opengroup.org/ogsys/catalog/T101
   development-stage: mature
+  # sigh
   native-language: x86 machine code
   # sh might count, I'm not sure what else would, though
   other-languages: []
-
+  references:
+  - url: http://standards.ieee.org/develop/wg/POSIX.html
+    title: IEEE POSIX group
+    description: Gatekeepers of the specification
+  - url: http://www.unixpapa.com/incnote/
+    title: Unix Incompatibility Notes
+    description: Notes on quirks and variations between different Unices
+  - url: http://www.art.net/~hopkins/Don/unix-haters/handbook.html
+    title: UHH
+    description: The Unix Hater's Handbook (Author's page)
+  - url: http://web.mit.edu/~simsong/www/ugh.pdf
+    title: UGH
+    description: The Unix Hater's Handbook (Fulltext, PDF)
 
 Linux:
   type: Implementation
@@ -146,6 +157,9 @@ MS-DOS:
   - url: http://www.delorie.com/djgpp/
     title: DJGPP
     description: DJ Delorie's port of GCC to MS-DOS
+  - url: http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/
+    title: x2ftp
+    description: MS-DOS game programming archive
 
 DOSBox:
   type: Implementation
