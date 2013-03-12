@@ -29,34 +29,6 @@
 
 <link>
   <keywords>
-    <keyword>hs</keyword>
-  </keywords>
-- url: http://cs.anu.edu.au/Student/comp1100/haskell/tourofsyntax.html
-  title: Tour of Haskell Syntax
-  description: Informal overview of the syntax of Haskell
-</link>
-
-<link>
-  <keywords>
-    <keyword>hs</keyword>
-    <keyword>regex</keyword>
-  </keywords>
-- url: http://www.serpentine.com/blog/2007/02/27/a-haskell-regular-expression-tutorial/
-  title: A Haskell regular expression tutorial
-  description: A Haskell regular expression tutorial
-</link>
-
-<link>
-  <keywords>
-    <keyword>hs</keyword>
-  </keywords>
-- url: http://sequence.complete.org/node/258
-  title: A simple TCP server
-  description: Short tutorial for network programming in Haskell
-</link>
-
-<link>
-  <keywords>
     <keyword>lang</keyword>
   </keywords>
 - url: http://strlen.com/proglang/

@@ -328,6 +328,16 @@ Haskell:
   standards-body: http://www.haskell.org/
   development-stage: mature
   authors: []
+  references:
+  - url: http://cs.anu.edu.au/Student/comp1100/haskell/tourofsyntax.html
+    title: Tour of Haskell Syntax
+    description: Informal overview of the syntax of Haskell
+  - url: http://www.serpentine.com/blog/2007/02/27/a-haskell-regular-expression-tutorial/
+    title: A Haskell regular expression tutorial
+    description: A Haskell regular expression tutorial
+  - url: http://sequence.complete.org/node/258
+    title: A simple TCP server
+    description: Short tutorial for network programming in Haskell
 
 ghc:
   type: Implementation
