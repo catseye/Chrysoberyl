@@ -36,6 +36,8 @@ Documentation Index:
     - README.markdown
     - UNLICENSE
     Bhuna distribution:
+    - LICENSE
+    - README.markdown
     - doc/bhuna.txt
     Braktif distribution: []
     Bubble Escape distribution:
@@ -57,7 +59,8 @@ Documentation Index:
     Cfluviurrh distribution:
     - LICENSE
     - README.markdown
-    Circute distribution: []
+    Circute distribution:
+    - README.markdown
     Console::Virtual distribution:
     - README.markdown
     'Corona: Realm of Magic distribution':
@@ -380,10 +383,6 @@ Documentation Index:
     - bin/README.txt
     toolshelf distribution:
     - README.markdown
-    - doc/Case_Studies.markdown
-    - doc/Theory_of_Operation.markdown
-    - doc/Heuristics_and_Hints.markdown
-    - doc/Motivation_and_Tradeoffs.markdown
     transmat distribution:
     - README.markdown
     - UNLICENSE
