@@ -20,7 +20,9 @@ from chrysoberyl.localrepos import (
     troll_docs, survey_repos, get_latest_release_tag, lint_dists
 )
 from chrysoberyl.renderer import Renderer
-from chrysoberyl.transformer import convert_chrysoberyl_data, transform_dates
+from chrysoberyl.transformer import (
+    filekey, convert_chrysoberyl_data, transform_dates
+)
 from chrysoberyl.util import do_it
 
 
@@ -80,10 +82,6 @@ def render(args, optparser):
                          dest="node_dir", metavar='DIR',
                          default='../catseye.tc/node',
                          help="write rendered nodes into this directory")
-    optparser.add_option("--script-dir",
-                         dest="script_dir", metavar='DIR',
-                         default='../catseye.tc/scripts',
-                         help="write scripts into this directory")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
@@ -93,6 +91,31 @@ def render(args, optparser):
     convert_chrysoberyl_data(data)
     r = Renderer(data, options.template_dirs, options.node_dir)
     r.render_chrysoberyl_data()
+
+
+def renderdocs(args, optparser):
+    """Render all documentations to a set of HTML5 files.
+
+    """
+    optparser.add_option("--doc-dir",
+                         dest="doc_dir", metavar='DIR',
+                         default='../catseye.tc/docs',
+                         help="write rendered docs into this directory")
+    options, args = optparser.parse_args(args)
+    data = load_and_check(options.data_dirs.split(':'))
+    cwd = os.getcwd()
+    for (key, doc_list) in data['Documentation Index']['entries'].iteritems():
+        dist_node = data[key]
+        (user, repo) = data[key]['bitbucket'].split('/')
+        if user != 'catseye':
+            raise ValueError("non-catseye distribution: %s/%s" % (user, repo))
+        repo_dir = os.path.join(options.clone_dir, repo)
+        os.chdir(repo_dir)
+        for doc_file in doc_list:
+            doc_node_name = filekey(key + '_' + doc_file)
+            doc_path = os.path.join(repo_dir, doc_file)
+            print doc_node_name, doc_path
+    os.chdir(cwd)
 
 
 def announce(args, optparser):
@@ -178,6 +201,7 @@ def load_and_check(dirnames):
 COMMANDS = {
     'check': check,
     'render': render,
+    'renderdocs': renderdocs,
     'announce': announce,
     'troll': troll,
     'survey': survey,
