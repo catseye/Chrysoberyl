@@ -70,7 +70,6 @@ def troll(args, optparser):
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
     troll_docs(data, options.clone_dir, options.data_dirs.split(':'))
-    print "Re-run to incorporate docs in loaded data."
     return 0
 
 
@@ -104,26 +103,21 @@ def renderdocs(args, optparser):
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
     renderer = Renderer(data, options.template_dirs, options.doc_dir)
-    cwd = os.getcwd()
-    for (key, doc_list) in data['Documentation Index']['entries'].iteritems():
-        dist_node = data[key]
-        (user, repo) = data[key]['bitbucket'].split('/')
-        if user != 'catseye':
-            raise ValueError("non-catseye distribution: %s/%s" % (user, repo))
+    for key in data:
+        if data[key]['type'] != 'Document':
+            continue
+        distribution = data[key]['distribution']
+        doc_filename = data[key]['filename']
+        (user, repo) = data[distribution]['bitbucket'].split('/')
         repo_dir = os.path.join(options.clone_dir, repo)
-        os.chdir(repo_dir)
-        for doc_file in doc_list:
-            doc_node_name = filekey(key + '_' + doc_file)
-            doc_path = os.path.join(repo_dir, doc_file)
-            #print doc_node_name, doc_path
-            template = renderer.get_template("Document")
-            filename = os.path.join(renderer.output_dir, doc_node_name)
-            context = {}
-            with codecs.open(doc_path, 'r', 'utf-8') as file:
-                context['description'] = file.read()
-            renderer.render(template, filename, context)
-
-    os.chdir(cwd)
+        doc_path = os.path.join(repo_dir, doc_filename)
+        doc_node_name = filekey(key)
+        template = renderer.get_template("Document")
+        filename = os.path.join(renderer.output_dir, doc_node_name)
+        context = {}
+        with codecs.open(doc_path, 'r', 'utf-8') as file:
+            context['description_html'] = file.read()
+        renderer.render(template, filename, context)
 
 
 def announce(args, optparser):

@@ -171,8 +171,9 @@ class Renderer(object):
         @expose
         def documentation(key=key):
             """Return the documentation node for the given key."""
-            doc_node = self.data['Documentation Index']
-            return doc_node['entries'].get(key, [])
+            #doc_node = self.data['Documentation Index']
+            #return doc_node['entries'].get(key, [])
+            return []
 
         @expose
         def related_github(key=key):
