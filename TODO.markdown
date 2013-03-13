@@ -6,6 +6,9 @@ higher priority
 
 Render documentation to a separate directory and link to it.  (And images.)
 
+For the above, Document must be a node type.  trolling docs must create
+actual nodes.  Documentation index is no longer a metanode.
+
 tool
 ----
 
