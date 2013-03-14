@@ -310,7 +310,7 @@ class Renderer(object):
                 if key != TOP and self.data[key]['type'] != 'type':
                     bc.append(link(self.data[key]['type'], plural=True))
                 bc.append(link(TOP))
-            bc.append('<a href="http://catseye.tc/">catseye.tc</a>')
+            bc.append('<a href="../">catseye.tc</a>')
             bc.reverse()
             return bc
 
