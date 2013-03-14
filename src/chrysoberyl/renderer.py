@@ -173,9 +173,13 @@ class Renderer(object):
         @expose
         def documentation(key=key):
             """Return the documentation node for the given key."""
-            #doc_node = self.data['Documentation Index']
-            #return doc_node['entries'].get(key, [])
-            return []
+            d = []
+            for k in self.data:
+                if self.data[k]['type'] != 'Document':
+                    continue
+                if self.data[k]['distribution'] == key:
+                    d.append(k)
+            return d
 
         @expose
         def related_github(key=key):
@@ -234,7 +238,8 @@ class Renderer(object):
         _indefart = indefart
         _plural = plural
         @expose
-        def link(key, format="%s", indefart=False, lower=False, plural=False):
+        def link(key, format="%s", indefart=False, lower=False, plural=False,
+                 link_text=None):
             """Return an HTML link to the node with the given key.
 
             indefart causes the link text to be preceded by an indefinite
@@ -249,14 +254,15 @@ class Renderer(object):
             type = self.data[key]['type']
             if self.data[type].get('suppress-page-generation', False):
                 raise KeyError('link to non-page (%s) node %s' % (type, key))
-            link_text = key
-            if lower:
-                link_text = link_text.lower()
-            if indefart:
-                link_text = _indefart(key)
-            if plural:
-                link_text = _plural(link_text)
-            link_text = format % link_text
+            if link_text is None:
+                link_text = key
+                if lower:
+                    link_text = link_text.lower()
+                if indefart:
+                    link_text = _indefart(key)
+                if plural:
+                    link_text = _plural(link_text)
+                link_text = format % link_text
             return '<a href="%s">%s</a>' % (
                 pathname2url(filekey(key)), link_text
             )

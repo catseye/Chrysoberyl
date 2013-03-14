@@ -4,10 +4,9 @@ Chrysoberyl TODO
 higher priority
 ---------------
 
-Render documentation to a separate directory and link to it.  (And images.)
+Link to github file from documentation nodes.
 
-For the above, Document must be a node type.  trolling docs must create
-actual nodes.  Documentation index is no longer a metanode.
+Breadcrumbs: descend from distribution/implementable in documentation nodes.
 
 tool
 ----

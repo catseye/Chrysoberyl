@@ -12,11 +12,14 @@
           <ul>
             {% for document in documentation(key=dist_key) %}
               <li>
+                {{ link(document, link_text=data[document].filename) }}
+                {#
                 {% if github_link(document) %}
                   <a href="{{ github_link(document) }}">{{ document }}</a>
                 {% else %}
                   {{ document }}
                 {% endif %}
+                #}
               </li>
             {% endfor %}
           </ul>
