@@ -88,36 +88,10 @@ def render(args, optparser):
         json.dump(transform_dates(data), file, encoding='utf-8',
                   default=unicode)
     convert_chrysoberyl_data(data)
-    r = Renderer(data, options.template_dirs, options.node_dir)
+    r = Renderer(data,
+        options.template_dirs, options.node_dir, options.clone_dir
+    )
     r.render_chrysoberyl_data()
-
-
-def renderdocs(args, optparser):
-    """Render all documentations to a set of HTML5 files.
-
-    """
-    optparser.add_option("--doc-dir",
-                         dest="doc_dir", metavar='DIR',
-                         default='../catseye.tc/docs',
-                         help="write rendered docs into this directory")
-    options, args = optparser.parse_args(args)
-    data = load_and_check(options.data_dirs.split(':'))
-    renderer = Renderer(data, options.template_dirs, options.doc_dir)
-    for key in data:
-        if data[key]['type'] != 'Document':
-            continue
-        distribution = data[key]['distribution']
-        doc_filename = data[key]['filename']
-        (user, repo) = data[distribution]['bitbucket'].split('/')
-        repo_dir = os.path.join(options.clone_dir, repo)
-        doc_path = os.path.join(repo_dir, doc_filename)
-        doc_node_name = filekey(key)
-        template = renderer.get_template("Document")
-        filename = os.path.join(renderer.output_dir, doc_node_name)
-        context = {}
-        with codecs.open(doc_path, 'r', 'utf-8') as file:
-            context['description_html'] = file.read()
-        renderer.render(template, filename, context)
 
 
 def announce(args, optparser):
@@ -203,7 +177,6 @@ def load_and_check(dirnames):
 COMMANDS = {
     'check': check,
     'render': render,
-    'renderdocs': renderdocs,
     'announce': announce,
     'troll': troll,
     'survey': survey,

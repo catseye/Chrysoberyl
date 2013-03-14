@@ -6,8 +6,6 @@ Metanode:
   type: type
 Document:
   type: type
-  # at least for now...
-  suppress-page-generation: true
 
 # presentedy things:
 Article:

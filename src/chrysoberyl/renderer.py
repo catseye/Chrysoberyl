@@ -10,6 +10,7 @@ import re
 
 from jinja2 import BaseLoader, Environment
 from jinja2.exceptions import TemplateNotFound
+import markdown
 
 from chrysoberyl.transformer import filekey, pathname2url
 
@@ -36,10 +37,11 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dirs, output_dir):
+    def __init__(self, data, template_dirs, output_dir, clone_dir):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
+        self.clone_dir = clone_dir
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
 
     def render(self, template, output_filename, context):
@@ -367,6 +369,22 @@ class Renderer(object):
                     items.append(thing)
             return reversed(sorted(items,
                                    key=lambda x: self.data[x]['news-date']))
+
+        @expose
+        def distribution_file_contents(key=key):
+            """Return the HTML-formatted contents of the file associated
+            with this Document node.  Stub.
+
+            """
+            distribution = self.data[key]['distribution']
+            doc_filename = self.data[key]['filename']
+            (user, repo) = self.data[distribution]['bitbucket'].split('/')
+            repo_dir = os.path.join(self.clone_dir, repo)
+            doc_path = os.path.join(repo_dir, doc_filename)
+            doc_node_name = filekey(key)
+            with codecs.open(doc_path, 'r', 'utf-8') as file:
+                contents = file.read()
+            return markdown.markdown(contents)
 
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
