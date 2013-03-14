@@ -53,16 +53,16 @@ class Renderer(object):
         """Helper method to retrieve the appropriate template for the given
         key.
 
-        If the node is a type, look first for a template called type_[key].html,
-        in ALL the template directories.  If found, load it as the template.
-        If not found, load type.html as the template.
+        If the node is a type, look first for a template called
+        type_[key].html, in ALL the template directories.  If found, load it
+        as the template.  If not found, load type.html as the template.
 
         Look for a template named [key].html in ALL the template directories.
         If found, use it as the template.
 
         If no template yet, look for a template named [type].html in ALL the
         template directories.  If found, use it as the template.
-        
+
         If no template yet, use base.html as the template.
 
         Note that this logic is not in the template loader, because it resolves
@@ -237,6 +237,7 @@ class Renderer(object):
 
         _indefart = indefart
         _plural = plural
+
         @expose
         def link(key, format="%s", indefart=False, lower=False, plural=False,
                  link_text=None):
@@ -387,7 +388,6 @@ class Renderer(object):
             (user, repo) = self.data[distribution]['bitbucket'].split('/')
             repo_dir = os.path.join(self.clone_dir, repo)
             doc_path = os.path.join(repo_dir, doc_filename)
-            doc_node_name = filekey(key)
             with codecs.open(doc_path, 'r', 'utf-8') as file:
                 contents = file.read()
             return markdown.markdown(contents)

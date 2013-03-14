@@ -269,7 +269,8 @@ def check_chrysoberyl_node(data, key, node):
         assert 'run-requirements' not in node
         check_scalar_ref(data, key, node, 'development-stage',
                          types=['Development Stage'])
-        check_optional_scalar_ref(data, key, node, 'sample-credit', 'Individual')
+        check_optional_scalar_ref(data, key, node, 'sample-credit',
+                                  'Individual')
         check_optional_scalar_ref(data, key, node, 'variant-of', type_)
         check_optional_list_ref(data, key, node, 'online-implementations',
                                 types=['Online Installation'])

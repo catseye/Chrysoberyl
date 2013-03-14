@@ -9,7 +9,6 @@ import json
 from optparse import OptionParser
 import os
 import re
-import shutil
 import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
@@ -21,7 +20,7 @@ from chrysoberyl.localrepos import (
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
-    filekey, convert_chrysoberyl_data, transform_dates
+    convert_chrysoberyl_data, transform_dates
 )
 from chrysoberyl.util import do_it
 

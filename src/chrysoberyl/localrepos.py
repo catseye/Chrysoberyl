@@ -7,7 +7,6 @@ Currently only supports Mercurial repositories hosted on Bitbucket.
 
 """
 
-import codecs
 import os
 import re
 import sys
@@ -17,6 +16,7 @@ try:
     from yaml import CDumper as Dumper
 except ImportError:
     from yaml import Dumper
+assert Dumper
 
 from chrysoberyl.util import get_it
 
@@ -157,7 +157,7 @@ def survey_repos(data, clone_dir):
               'pl-goto-.net': 'pl-goto.net',
             }.get(repo, repo)
             modern_name = "%s-%s-%s" % (
-                repo, release['version'], release['revision']
+                distfile_name, release['version'], release['revision']
             )
             if modern_name in release['url']:
                 has_modern_name = True
