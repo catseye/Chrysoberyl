@@ -2,17 +2,33 @@
 
 {% block content %}
 
-<h2>Index of Categories</h2>
-<ul>
-{%- for thing in data.keys()|sort -%}
-  {%- if data[thing].type == 'type' and
-         thing != 'type' and
-         not data[thing].suppress_page_generation -%}
-    <li>
-      {{ link(thing) }}
-    </li>
-  {%- endif -%}
-{%- endfor -%}
-</ul>
+<div class="row-fluid">
+  <div class="span8">
+    <h2>Index of Categories</h2>
+    <ul>
+    {%- for thing in data.keys()|sort -%}
+      {%- if data[thing].type == 'type' and
+             thing not in ['type', 'Metanode'] and
+             not data[thing].suppress_page_generation -%}
+        <li>
+          {{ link(thing) }}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ul>
+  </div>
+  <div class="span4">
+    <h2>Metanodes</h2>
+    <ul>
+    {%- for thing in data.keys()|sort -%}
+      {%- if data[thing].type == 'Metanode' -%}
+        <li>
+          {{ link(thing) }}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ul>
+  </div>
+</div>
 
 {% endblock content %}

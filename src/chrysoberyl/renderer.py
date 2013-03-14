@@ -37,11 +37,12 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dirs, output_dir, clone_dir):
+    def __init__(self, data, template_dirs, output_dir, clone_dir, render_docs):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
         self.clone_dir = clone_dir
+        self.render_docs = render_docs
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
 
     def render(self, template, output_filename, context):
@@ -404,6 +405,8 @@ class Renderer(object):
         count = 0
         for key in self.data:
             node = self.data[key]
+            if node['type'] == 'Document' and not self.render_docs:
+                continue
             if self.data[node['type']].get('suppress-page-generation', False):
                 continue
             self.render_node(key, node)

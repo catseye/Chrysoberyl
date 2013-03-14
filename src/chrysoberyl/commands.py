@@ -80,6 +80,10 @@ def render(args, optparser):
                          dest="node_dir", metavar='DIR',
                          default='../catseye.tc/node',
                          help="write rendered nodes into this directory")
+    optparser.add_option("--render-docs",
+                         dest="render_docs", default=False,
+                         action='store_true',
+                         help="render documentation nodes as well")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
@@ -88,7 +92,8 @@ def render(args, optparser):
                   default=unicode)
     convert_chrysoberyl_data(data)
     r = Renderer(data,
-        options.template_dirs, options.node_dir, options.clone_dir
+        options.template_dirs, options.node_dir, options.clone_dir,
+        options.render_docs
     )
     r.render_chrysoberyl_data()
 

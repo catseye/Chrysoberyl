@@ -60,7 +60,8 @@
   animated: true
   medium: HTML5
   description: |
-    [[Gemooy]], implemented in Javascript, on an HTML5 canvas.
+    [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
+    This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
 
 
 ### Visual ###
