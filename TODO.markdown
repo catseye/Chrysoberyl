@@ -148,3 +148,9 @@ When the only dependency is IBM PC compatible -- special case that,
 don't recommend Bochs like that :/
 
 "Portable" for POSIX and NetBSD.
+
+Petulant Cursor and RIBOS share all their documentation.  And don't
+list a distribution.  Maybe they should be seperate or maybe I should
+figure out a way to say that a project is in "this part" of a distribution.
+
+Preprocess LHS before markdowning it (indent > blocks)
