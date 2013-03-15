@@ -7,7 +7,7 @@ ALPACA:
   - Metalanguage
   - Object-oriented
   generally-compiled: true
-  development-stage: not fully complete
+  development-stage: mature
   description: |
     ALPACA is a meta-language for describing cellular automata.
   commentary: |
@@ -35,12 +35,24 @@ alpaca.pl:
   type: Implementation
   implementation-of:
   - ALPACA
-  reference: true
+  reference: false
   in-distribution: ALPACA distribution
   license: BSD license
   implementation-type: compiler
   host-language: Perl
   target-language: Perl
+
+alpaca (Python):
+  type: Implementation
+  implementation-of:
+  - ALPACA
+  reference: true
+  in-distribution: ALPACA distribution
+  license: BSD license
+  # can also interpret, blah
+  implementation-type: compiler
+  host-language: Python
+  target-language: Javascript
 
 
 Apple Befunge: 

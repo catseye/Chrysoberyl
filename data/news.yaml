@@ -1,3 +1,28 @@
+"ALPACA turns 1.0":
+  type: News Item
+  news-date: Fri, 15 Mar 2013 18:00:00 GMT
+  description: |
+    March 15, 2013:  We have finally released version 1.0 of [[ALPACA]],
+    A Language for the Pithy Articulation of Cellular Automata.
+    
+    The specification has been rewritten (although _written_ would be
+    more accurate) from scratch, and adds some new features to the language,
+    such as being able to include an initial configuration in an ALPACA
+    description, and handling neighbourhoods other than the Moore
+    neighbourhood.
+    
+    The reference implementation has also been rewritten from scratch,
+    in [[Python]] this time.  It can both interpret an ALPACA description,
+    and compile it to [[Javascript]].  We plan to use the latter functionality
+    to showcase some cellular automata on the website, which incidentally is
+    looking a little less dire these days.
+    
+    The version bump also cures two unpleasantnesses which are pet peeves
+    of mine: ALPACA is no longer hanging out at version 0 (which sets it
+    apart from, say, `node.js`), and the meaningless version numbers like
+    0.94 are now history.  (It's not like it was the ninety-fourth iteration
+    of anything.)
+
 "First language release of 2013: Exanoke":
   type: News Item
   news-date: Sat, 05 Jan 2013 11:18:23 GMT
