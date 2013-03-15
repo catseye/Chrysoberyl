@@ -33,9 +33,10 @@ Add release-date, as opposed to inception-date. (Infer from first distribution.)
 
 Document what the different dates mean.
 
-News -> type_News Item.
-
 Unify Articles and News Items to make an, uh.  Blog?
+
+Some kind of 'abstract' which shows up on the News Items page, and in the
+Atom feed, but need not be all of the News Item node itself.
 
 templates
 ---------

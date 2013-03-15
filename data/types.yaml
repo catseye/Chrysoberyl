@@ -12,6 +12,8 @@ Article:
   type: type
 News Item:
   type: type
+  description: |
+    The latest news from [[Cat's Eye Technologies]].
 Online Installation:
   type: type
   description: |
