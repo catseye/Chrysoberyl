@@ -44,8 +44,6 @@ templates
 Longer descriptions and commentary (article-like things) should have a
 max-width smaller than the screen size, to help readability.
 
-News and News Items: format date more nicely.
-
 Deal with inline distributions a little more sanely.   Show other dists (if any)
 after reference dist.  Don't show discontinued distributions inline (the same way).
 Show status of discontinued distributions.

@@ -379,6 +379,10 @@ class Renderer(object):
                                    key=lambda x: self.data[x]['news-date']))
 
         @expose
+        def strftime(date, fmt):
+            return date.strftime(fmt)
+
+        @expose
         def distribution_file_contents(key=key):
             """Return the HTML-formatted contents of the file associated
             with this Document node.  Stub.

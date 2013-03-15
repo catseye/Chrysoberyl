@@ -2,7 +2,7 @@
 
 {# so we're using this more like a dateline than a byline #}
 {% block byline %}
-  <p>{{ news_date }}</p>
+  <p>{{ strftime(news_date, "%A, %B %d, %Y") }}</p>
 {% endblock byline %}
 
 {% block content %}

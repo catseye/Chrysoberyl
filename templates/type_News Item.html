@@ -11,7 +11,7 @@
 <ul>
 {%- for thing in news_items() -%}
   <li>
-      {{ data[thing].news_date }}: {{ link(thing) }}
+      {{ strftime(data[thing].news_date, "%A, %B %d, %Y") }}: {{ link(thing) }}
   </li>
 {%- endfor -%}
 </ul>
