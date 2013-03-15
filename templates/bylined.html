@@ -9,7 +9,7 @@
 {% block byline %}
   {% if authors %}
     <p id="byline">
-      {% if type in ['Book', 'Implementation'] %}
+      {% if type in ['Book', 'Implementation', 'Article'] %}
         by {{ linked_list(authors) }}
         {%- if auspices -%}
           , {{ linked_list(auspices) }}

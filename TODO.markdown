@@ -29,9 +29,13 @@ structure
 
 For (in theory) any item, show all lists that it is present in.
 
-Dates: inception date vs release date vs publish date (for articles).
-Document whatever rules for falling back to on the above.
-Show publish date in articles.
+Add release-date, as opposed to inception-date. (Infer from first distribution.)
+
+Document what the different dates mean.
+
+News -> type_News Item.
+
+Unify Articles and News Items to make an, uh.  Blog?
 
 templates
 ---------

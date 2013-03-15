@@ -1,6 +1,9 @@
 # encoding: UTF-8
 "Retrospective: Chris Pressey on Language Design":
   type: Article
+  authors:
+  - Chris Pressey
+  article-date: ca Jul 2010
   description: |
     In contrast to [[Chris Pressey's Lingography|the list of languages I've designed]],
     this is the page where I talk about what it's *like* to design languages
@@ -105,7 +108,7 @@
     [Befreak](http://esolangs.org/wiki/Befreak),
     [[PATH]], and
     [Aheui](http://esolangs.org/wiki/Aheui), among others;
-    [[RUBE]] found its way into [[RUBE II], [RubE On Conveyor
+    [[RUBE]] found its way into [[RUBE II]], [RubE On Conveyor
     Belts](http://esolangs.org/wiki/RubE_On_Conveyor_Belts), and
     [Rubicon](http://kevan.org/rubicon/);
     [[SMETANA]] inspired a FSM-completeness proof in

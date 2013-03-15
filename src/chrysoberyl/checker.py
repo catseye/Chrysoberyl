@@ -115,6 +115,16 @@ def check_chrysoberyl_node(data, key, node):
         )
         raise
     try:
+        if 'article-date' in node:
+            assert node['type'] == 'Article'
+            node['article-date'] = \
+                ApproximateDate(str(node['article-date']))
+    except Exception:
+        print "'%s' has bad article-date '%s'" % (
+            key, node['article-date']
+        )
+        raise
+    try:
         if 'news-date' in node:
             assert node['news-date'] != 'Unknown'
             # Tue, 17 May 2011 23:43:10 GMT
