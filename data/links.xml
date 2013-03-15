@@ -29,25 +29,6 @@
 
 <link>
   <keywords>
-    <keyword>lang</keyword>
-  </keywords>
-- url: http://strlen.com/proglang/
-  title: Wouter's programming language page
-  description: Wouter van Oortmerssen's Programming Languages
-</link>
-
-<link>
-  <keywords>
-    <keyword>lang</keyword>
-    <keyword>eso</keyword>
-  </keywords>
-- url: http://esoteric.voxelperfect.net/wiki/User:Zzo38
-  title: Zzo38's Esowiki user page
-  description: List of Aaron "Zzo38" Black's Programming Languages
-</link>
-
-<link>
-  <keywords>
     <keyword>os</keyword>
   </keywords>
 - url: http://www.mpeforth.com/arena/cwgtLinux.txt
@@ -178,16 +159,6 @@
 - url: http://www.delorie.com/howto/cygwin/mno-cygwin-howto.html
   title: -mno-cygwin
   description: Building MinGW Executables using Cygwin
-</link>
-
-<link>
-  <keywords>
-    <keyword>win</keyword>
-    <keyword>ui</keyword>
-  </keywords>
-- url: http://www.autohotkey.com/docs/misc/Styles.htm
-  title: GUI Styles
-  description: Brief descriptions of Windows GUI constants
 </link>
 
 <link>

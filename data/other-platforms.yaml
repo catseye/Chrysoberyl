@@ -213,6 +213,9 @@ Windows:
   - url: http://www.piclist.com/techref/language/asm/win32asm.htm
     title: Win32Asm
     description: Windows Assembly Language Programming
+  - url: http://www.autohotkey.com/docs/misc/Styles.htm
+    title: GUI Styles
+    description: Brief descriptions of Windows GUI constants
 
 WINE:
   type: Implementation
