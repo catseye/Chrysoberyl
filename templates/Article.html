@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block byline %}
+  <p id="byline">
+    by {{ linked_list(authors) }}
+    {%- if auspices -%}
+      , {{ linked_list(auspices) }}
+    {%- endif -%}
+    , {{ article_date }}
+  </p>
+  {# TODO: maybe some article nav somewhere too.  footer? #}
+{% endblock byline %}
