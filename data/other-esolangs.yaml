@@ -7,7 +7,7 @@
   paradigms: []
   computational-class: unknown computational class
   esowiki: "*W"
-  specification-link: http://catseye.tc/gallery/languages/starw/
+  specification-link: https://github.com/catseye/Specs-on-Spec/blob/master/star-w/star-w.markdown
   authors:
   - John Colagioia
   development-stage: not fully complete
@@ -121,7 +121,7 @@ Sartre:
   paradigms: []
   computational-class: unknown computational class
   esowiki: Sartre
-  specification-link: http://catseye.tc/gallery/languages/sartre/
+  specification-link: https://github.com/catseye/Specs-on-Spec/blob/master/sartre/sartre.markdown
   authors:
   - Anonymous
   - John Colagioia
@@ -150,7 +150,7 @@ TURKEY BOMB:
   - Drinking game
   computational-class: unknown computational class
   esowiki: TURKEY BOMB
-  specification-link: http://catseye.tc/gallery/languages/turkeyb/
+  specification-link: https://github.com/catseye/Specs-on-Spec/blob/master/turkey-bomb/turkey-bomb.markdown
   authors:
   - Anonymous
   # I'm not yet willing to add a development stage called "exists only in future"
