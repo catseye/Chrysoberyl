@@ -72,8 +72,6 @@ content
 
 Link Chrysoberyl to Chrysoberyl distribution somehow.
 
-Make images for electronics projects (LED-386, Mildred) available.
-
 perhaps...
 ----------
 

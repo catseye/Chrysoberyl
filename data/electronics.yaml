@@ -1,7 +1,6 @@
 # encoding: UTF-8
 The 'Kitsilano' Oscillator:
   type: Electronics Project
-  summary: 2-NPN-transistor, 1-capacitor oscillator
   authors:
   - Chris Pressey
   auspices:
@@ -9,6 +8,8 @@ The 'Kitsilano' Oscillator:
   description: |
     An oscillator circuit that contains two NPN transistors and
     a single capacitor.
+  images:
+  - 'https://raw.github.com/catseye/Electronics-Projects/master/kitsilano/kitsilano.png'
   development-stage: not fully complete
   constructed: false
 
@@ -22,16 +23,18 @@ The 'Kitsilano' Oscillator distribution:
     revision: "2011.0524"
     url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
 
+
 LED-386:
   subtitle: A 386-based LED blinker
   type: Electronics Project
-  summary: LED blinker based on LM386 audio amp IC
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   description: |
     The LM386 audio amplifier IC, that is...
+  images:
+  - 'https://raw.github.com/catseye/Electronics-Projects/master/led386/doc/led386_photo.jpg'
   development-stage: mature
   constructed: true
 
@@ -42,9 +45,9 @@ LED-386 distribution:
     revision: "2004.0227"
     url: http://catseye.tc/distfiles/led386-2004.0227.zip
 
+
 Mildred:
   type: Electronics Project
-  summary: Homebrew Z80-based computer
   authors:
   - Chris Pressey
   auspices:
@@ -52,6 +55,8 @@ Mildred:
   description: |
     Mildred is a 4MHz [[Z80 machine code|Z80]]-based homebrew computer
     with 40K of memory (8K EEPROM, 32K SRAM.)
+  images:
+  - 'https://raw.github.com/catseye/Electronics-Projects/master/mildred/doc/mildred_photo.jpg'
   development-stage: not fully complete
   constructed: true
 
