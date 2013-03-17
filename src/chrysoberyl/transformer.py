@@ -73,7 +73,7 @@ def convert_chrysoberyl_data(data):
         for field in node.keys():
             new_fields[field.replace('-', '_')] = node[field]
         node.update(new_fields)
-        for field in ('description', 'commentary'):
+        for field in ('summary', 'description', 'commentary'):
             node[field + '_html'] = markdown_field(data, node, field)
         for sample_key in ('sample', 'sample_input', 'sample_output'):
             if sample_key in node:

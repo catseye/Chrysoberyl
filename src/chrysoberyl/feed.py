@@ -17,37 +17,38 @@ BASEURL = 'http://catseye.tc/feeds/'
 
 
 def make_news_feed(data, dir, filename, limit=None):
-    """Generate Atom feeds for news item nodes in the given Chrysoberyl
+    """Generate Atom feeds from Article nodes in the given Chrysoberyl
     data.
 
     """
     url = BASEURL + filename
     filename = os.path.join(dir, filename)
-    newses = []
+    articles = []
     for key in data:
         node = data[key]
-        if node['type'] != 'News Item':
+        if node['type'] != 'Article':
             continue
-        news_date = node['news-date']
         n = {}
         n.update(node)
         n['key'] = key
-        n['news-date'] = news_date
-        for field_name in ('description', 'commentary'):
+        for field_name in ('summary', 'description', 'commentary'):
             field = markdown_field(data, node, field_name,
                                    prefix='http://catseye.tc/node/')
             if field is not None:
                 n[field_name + '_html'] = field.encode("ascii",
                                                        "xmlcharrefreplace")
-        newses.append(n)
+        articles.append(n)
 
-    newses.sort(key=itemgetter('news-date'), reverse=True)
+    articles.sort(key=itemgetter('publication-date'), reverse=True)
     entries = []
-    for n in newses:
+    for n in articles:
         title = n['key']
         guid = url + "/" + n['key']
-        updated = n['news-date']
-        summary = atomize.Summary(n['description_html'], content_type='html')
+        updated = n['publication-date']
+        summary_contents = n['description_html']
+        if n.get('summary', None) is not None:
+            summary_contents = n['summary_html']
+        summary = atomize.Summary(summary_contents, content_type='html')
         nodelink = pathname2url(filekey(n['key']),
                                 prefix='http://catseye.tc/node/')
         links = [atomize.Link(nodelink, content_type='text/html',

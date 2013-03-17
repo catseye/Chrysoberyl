@@ -1,14 +1,16 @@
 # encoding: UTF-8
 "Retrospective: Chris Pressey on Language Design":
   type: Article
+  article-type: retrospective
   authors:
   - Chris Pressey
+  publication-date: Fri, 15 Jul 2010 18:00:00 GMT
   article-date: ca Jul 2010
-  description: |
+  summary: |
     In contrast to [[Chris Pressey's Lingography|the list of languages I've designed]],
-    this is the page where I talk about what it's *like* to design languages
+    in this article, I talk about what it's *like* to design languages
     and what my thoughts on certain languages and the design process are.
-    
+  description: |    
     ### Esolangs
     
     Mostly I design [[Esolang|esolangs]], which, in a nutshell,

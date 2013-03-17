@@ -10,10 +10,8 @@ Document:
 # presentedy things:
 Article:
   type: type
-News Item:
-  type: type
   description: |
-    The latest news from [[Cat's Eye Technologies]].
+    The latest announcements and articles from [[Cat's Eye Technologies]].
 Online Installation:
   type: type
   description: |

@@ -1,12 +1,32 @@
 {% extends "base.html" %}
 
+{# so we're using this more like a dateline than a byline #}
 {% block byline %}
   <p id="byline">
-    by {{ linked_list(authors) }}
-    {%- if auspices -%}
-      , {{ linked_list(auspices) }}
-    {%- endif -%}
-    , {{ article_date }}
+    {% if authors %}
+      by {{ linked_list(authors) }},
+      {%- if auspices -%}
+      {{ linked_list(auspices) }},
+      {%- endif -%}
+    {% endif %}
+    {% if article_date %}
+      {{ article_date }}
+    {% else %}
+        {{ strftime(publication_date, "%A, %B %d, %Y") }}
+    {% endif %}
   </p>
   {# TODO: maybe some article nav somewhere too.  footer? #}
 {% endblock byline %}
+
+{# kind of an abuse of mainstage.  oh well #}
+{% block mainstage %}
+  {% if summary_html %}
+    {{ summary_html }}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if news_link %}
+    <p>Check it out at <a href="{{ news_link }}">{{ news_link }}</a></p>
+  {% endif %}
+{% endblock content %}

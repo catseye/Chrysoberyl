@@ -363,20 +363,20 @@ class Renderer(object):
                           key=lambda x: self.data[x]['inception-date'])
 
         @expose
-        def news_items():
-            """Return a list of all news item entries to be shown on the news
+        def articles():
+            """Return a list of all article entries to be shown on the articles
             node.  This is a bespoke context function because we want the
-            nodes to be sorted by news date (and this is an easy way to do
-            that.  There might be others.)
+            nodes to be sorted by publication date (and this is an easy way
+            to do that.  There might be others.)
 
             """
             items = []
             for thing in self.data:
                 node = self.data[thing]
-                if node['type'] == 'News Item':
+                if node['type'] == 'Article':
                     items.append(thing)
             return reversed(sorted(items,
-                                   key=lambda x: self.data[x]['news-date']))
+                                   key=lambda x: self.data[x]['publication-date']))
 
         @expose
         def strftime(date, fmt):

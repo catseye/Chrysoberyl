@@ -87,7 +87,7 @@ def check_chrysoberyl_node(data, key, node):
 
     Note that this may have side-effects (altering the contents of the
     node.)  `inception-date` fields are converted to ApproximateDate
-    objects, and `news-date` fields are converted to datetime objects.
+    objects, and `publication-date` fields are converted to datetime objects.
     `distribution-of` and `in-distributions` and `reference-distribution`
     may be set to defaults based on the presence of a node or field with
     a similar name.  `authors` and `auspices` may be inherited from
@@ -125,14 +125,13 @@ def check_chrysoberyl_node(data, key, node):
         )
         raise
     try:
-        if 'news-date' in node:
-            assert node['news-date'] != 'Unknown'
+        if 'publication-date' in node:
             # Tue, 17 May 2011 23:43:10 GMT
-            node['news-date'] = datetime.strptime(
-                str(node['news-date']), '%a, %d %b %Y %H:%M:%S GMT'
+            node['publication-date'] = datetime.strptime(
+                str(node['publication-date']), '%a, %d %b %Y %H:%M:%S GMT'
             )
     except Exception:
-        print "'%s' has bad news-date '%s'" % (key, node['news-date'])
+        print "'%s' has bad publication-date '%s'" % (key, node['publication-date'])
         raise
     check_optional_scalar_ref(data, key, node, 'domain')
     check_optional_list_ref(data, key, node, 'see-also')
@@ -174,8 +173,9 @@ def check_chrysoberyl_node(data, key, node):
 
     # On to checking fields specific to different types.
 
-    if type_ == 'News Item':
-        check_optional_scalar_ref(data, key, node, 'news-node')
+    if type_ == 'Article':
+        assert 'publication-date' in node
+        assert 'article-type' in node
 
     if type_ == 'Online Installation':
         assert 'exhibit-link' not in node

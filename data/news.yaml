@@ -1,6 +1,7 @@
 "ALPACA turns 1.0":
-  type: News Item
-  news-date: Fri, 15 Mar 2013 18:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 15 Mar 2013 18:00:00 GMT
   description: |
     We have finally released version 1.0 of [[ALPACA]],
     A Language for the Pithy Articulation of Cellular Automata.
@@ -24,8 +25,9 @@
     of anything.)
 
 "First language release of 2013: Exanoke":
-  type: News Item
-  news-date: Sat, 05 Jan 2013 11:18:23 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 05 Jan 2013 11:18:23 GMT
   description: |
     We have released [[Exanoke]], a pure functional
     language which is syntactically restricted to expressing the primitive
@@ -39,8 +41,9 @@
     or not; in a way, Exanoke combines both of those ideas.
 
 "Chrysoberyl is now in BETA":
-  type: News Item
-  news-date: Fri, 04 Jan 2013 14:17:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 04 Jan 2013 14:17:00 GMT
   description: |
     Happy 2013!  [[Chrysoberyl]] is now in beta, whatever
     that means in this day and age where it's not considered absurd for
@@ -56,8 +59,9 @@
     expect these to change in the near future.)
 
 "Language, Language, Implementation, Bug fix, Bug fix":
-  type: News Item
-  news-date: Mon, 17 Sep 2012 22:13:56 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 17 Sep 2012 22:13:56 GMT
   description: |
     So yeah, let's catch up with all the exciting, exciting
     *non*-Chrysoberyl-related developments we've seen here in the past few days!
@@ -86,8 +90,9 @@
     a new release of the [[Ypsilax distribution]] too.
 
 "Dungeons of Ekileugor: 3,221 bytes of roguelike":
-  type: News Item
-  news-date: Sun, 16 Sep 2012 05:04:44 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 16 Sep 2012 05:04:44 GMT
   description: |
     Have you ever wondered how much roguelike can
     be crammed into the 3583 bytes available to BASIC on an unexpanded
@@ -100,8 +105,9 @@
     you, a real VIC-20) and try it out!
 
 "Chrysoberyl is now in ALPHA":
-  type: News Item
-  news-date: Sun, 16 Sep 2012 01:44:35 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 16 Sep 2012 01:44:35 GMT
   news-link: http://catseye.tc/node/Chrysoberyl.html
   description: |
     Remember "The Great DVCS Exodus"
@@ -147,8 +153,9 @@
     news, generated from Chrysoberyl</a>.
 
 "Cfluviurrh: an Esolang with Feeling (Literally)":
-  type: News Item
-  news-date: Sun, 26 Aug 2012 17:43:52 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 26 Aug 2012 17:43:52 GMT
   news-link: http://catseye.tc/projects/cfluviurrh/
   description: |
     We have released a new programming language.
@@ -161,8 +168,9 @@
     untrue, and the Cfluviurrh reference interpreter demonstrates it.
     
 "The NEW Befunge-93 Reference Distribution":
-  type: News Item
-  news-date: Sat, 25 Aug 2012 17:58:39 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 25 Aug 2012 17:58:39 GMT
   news-link: http://catseye.tc/projects/befunge-93/
   description: |
     Since `bef`
@@ -175,8 +183,9 @@
     programs, a Makefile, and a small feature fix to the debugger.  Enjoy!
     
 "One More Language: Hello, Velo":
-  type: News Item
-  news-date: Sat, 14 Jul 2012 20:58:15 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 14 Jul 2012 20:58:15 GMT
   news-link: http://catseye.tc/projects/velo/
   description: |
     And when we do get rid of a language, we like
@@ -189,8 +198,9 @@
     future, though.
     
 "One Less Language: Farewell 2iota":
-  type: News Item
-  news-date: Sat, 14 Jul 2012 18:36:52 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 14 Jul 2012 18:36:52 GMT
   news-link: http://catseye.tc/projects/beta-juliet/
   description: |
     It's not often we get rid of a language here at
@@ -204,8 +214,9 @@
     interpreter still needs to catch up to them in some small ways.)
     
 "yucca: Static Analysis for BASIC":
-  type: News Item
-  news-date: Mon, 11 Jun 2012 04:13:52 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 11 Jun 2012 04:13:52 GMT
   news-link: http://catseye.tc/projects/yucca/
   description: |
     We have officially released version 1.0 of
@@ -219,8 +230,9 @@
     [a useless jump in Apple Befunge](https://github.com/catseye/Apple-Befunge/commit/ba4319011ccbac2041f0a6a9ec5cadae91483906).
     
 "Bubble Escape now open-source":
-  type: News Item
-  news-date: Sun, 03 Jun 2012 16:46:56 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 03 Jun 2012 16:46:56 GMT
   news-link: http://catseye.tc/projects/bubble-escape/
   description: |
     A new revision of the Bubble Escape distribution has been
@@ -231,8 +243,9 @@
     a BSD license.
     
 "The Great DVCS Exodus":
-  type: News Item
-  news-date: Sun, 20 May 2012 21:41:02 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 20 May 2012 21:41:02 GMT
   news-link: https://github.com/catseye/
   description: |
     Did you know that the catseye.tc website is statically
@@ -277,8 +290,9 @@
     [Cat's Eye Technologies on Github](https://github.com/catseye).
 
 "Some Facts Regarding Apple Befunge v1.1":
-  type: News Item
-  news-date: Mon, 20 Feb 2012 17:44:01 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 20 Feb 2012 17:44:01 GMT
   news-link: http://catseye.tc/projects/apple-befunge/
   description: |
     Pixley and Falderal.  Falderal and Pixley.
@@ -290,8 +304,9 @@
     for the Apple ][+, and it has been placed in the public domain.
     
 "I got Pixley power!":
-  type: News Item
-  news-date: Mon, 20 Feb 2012 01:12:15 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 20 Feb 2012 01:12:15 GMT
   news-link: http://catseye.tc/projects/pixley/
   description: |
     Pixley version 2.0 revision 2012.0219 has been released.
@@ -302,8 +317,9 @@
     placed under a BSD-style license now.  Enjoy...
     
 'Release of Falderal version 0.6 "Streeterville"':
-  type: News Item
-  news-date: Mon, 02 Jan 2012 14:45:16 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 02 Jan 2012 14:45:16 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     The new year sees another release of
@@ -317,8 +333,9 @@
     Markdown, and Literate Haskell documents to XHTML.
     
 'Release of Falderal version 0.5 "The Loop"':
-  type: News Item
-  news-date: Wed, 14 Dec 2011 14:40:19 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 14 Dec 2011 14:40:19 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     Falderal, our format for unit-testing little
@@ -333,8 +350,9 @@
     a consistent way.
     
 "Release of Pixley version 2.0":
-  type: News Item
-  news-date: Fri, 09 Dec 2011 17:18:14 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 09 Dec 2011 17:18:14 GMT
   news-link: http://catseye.tc/projects/pixley/
   description: |
     Pixley version 2.0 has been released.  It
@@ -347,8 +365,9 @@
     itself.
     
 "Madison, a Term-Rewriting Proof-Checker":
-  type: News Item
-  news-date: Fri, 02 Dec 2011 20:26:43 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 02 Dec 2011 20:26:43 GMT
   news-link: http://catseye.tc/projects/madison/
   description: |
     One thing I've wanted to do for a long while is
@@ -367,8 +386,9 @@
     but I'm quite pleased with it.
     
 "Q: Are We Not Men?  A: We Are Flobnar!":
-  type: News Item
-  news-date: Fri, 28 Oct 2011 14:34:04 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 28 Oct 2011 14:34:04 GMT
   news-link: http://catseye.tc/projects/flobnar/
   description: |
     One day in September of 2011 — though I'm not
@@ -382,8 +402,9 @@
     meanings, but execution proceeds in a much more dataflow-like fashion.
     
 "Release of Falderal version 0.4":
-  type: News Item
-  news-date: Mon, 10 Oct 2011 20:47:03 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 10 Oct 2011 20:47:03 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     Well, that was quick — well,
@@ -402,8 +423,9 @@
     its goal of being a testing framework for programming languages.
     
 "Release of Falderal version 0.3":
-  type: News Item
-  news-date: Fri, 07 Oct 2011 18:30:56 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 07 Oct 2011 18:30:56 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     Remember that major change in
@@ -420,8 +442,9 @@
     the Falderal file into Haskell code, and running that.
     
 "OMG WTF FBBI 1.0 SIAS EVVK!":
-  type: News Item
-  news-date: Mon, 03 Oct 2011 20:46:30 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 03 Oct 2011 20:46:30 GMT
   news-link: http://catseye.tc/projects/fbbi
   description: |
     After years and years of apathy, we have
@@ -441,8 +464,9 @@
     has not abated in kind.
     
 "yoob 0.3 in the Gallery of Interactive Esolangs":
-  type: News Item
-  news-date: Wed, 21 Sep 2011 18:46:23 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 21 Sep 2011 18:46:23 GMT
   news-link: http://catseye.tc/gallery/esolangs/
   description: |
     yoob 0.3 has been released, and it has moved out
@@ -456,8 +480,9 @@
     nonetheless.
     
 "Have you seen LoUIE lately?":
-  type: News Item
-  news-date: Sat, 17 Sep 2011 21:24:45 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 17 Sep 2011 21:24:45 GMT
   news-link: http://catseye.tc/cpressey/louie.html
   description: |
     Have you seen LoUIE (our List of Unfinished
@@ -468,8 +493,9 @@
     looking for an idea to build on, why not give it a look-see?
     
 'Researchers Discover the Civilization Advance "Language: Xoomonk"':
-  type: News Item
-  news-date: Sun, 07 Aug 2011 23:56:59 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 07 Aug 2011 23:56:59 GMT
   news-link: http://catseye.tc/projects/xoomonk/
   description: |
     Xoomonk is a programming language in which
@@ -481,8 +507,9 @@
     version 0.1.
     
 "PL-{GOTO}.NET: Eat it Before it Eats You":
-  type: News Item
-  news-date: Fri, 05 Aug 2011 02:53:30 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 05 Aug 2011 02:53:30 GMT
   news-link: http://catseye.tc/projects/pl-goto.net/
   description: |
     You've always wanted an compiler
@@ -499,8 +526,9 @@
     Why aren't you answering me???
     
 "Bubble Escape 2K Now Playable Online":
-  type: News Item
-  news-date: Sat, 16 Jul 2011 05:34:50 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 16 Jul 2011 05:34:50 GMT
   news-link: http://catseye.tc/gallery/c64/bubble-escape-2k/
   description: |
     As subject.  We've wanted to do this for a
@@ -514,8 +542,9 @@
     and Ubuntu 11 (Firefox).  So try it!  Enjoy!
     
 "Release of Falderal version 0.2":
-  type: News Item
-  news-date: Mon, 27 Jun 2011 18:40:47 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 27 Jun 2011 18:40:47 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     Mainly to get a few minor niceties
@@ -528,8 +557,9 @@
     be written in Haskell.
     
 "First public release of yoob source code":
-  type: News Item
-  news-date: Fri, 24 Jun 2011 04:27:27 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 24 Jun 2011 04:27:27 GMT
   news-link: http://catseye.tc/projects/yoob/
   description: |
     yoob has pulled itself out of its
@@ -545,8 +575,9 @@
     [issue tracker](https://bitbucket.org/catseye/yoob/issues).
     
 "Corona: Realm of Magic: Dug out of the Attic":
-  type: News Item
-  news-date: Fri, 24 Jun 2011 00:17:55 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 24 Jun 2011 00:17:55 GMT
   news-link: http://catseye.tc/projects/corona-realm-of-magic/
   description: |
     Something else I dug out of the attic.  This was
@@ -558,16 +589,18 @@
     due to some technical problems, was not announced until now.
     
 "Apple Befunge":
-  type: News Item
-  news-date: Tue, 07 Jun 2011 19:47:35 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 07 Jun 2011 19:47:35 GMT
   news-link: http://catseye.tc/projects/apple-befunge/
   description: |
     Hey, look what I dug out of the attic.  I don't even
     remember what emulator the disk image was built for.  Oh well.
     
 "Pail is an acceptable Bizaaro[sic]-Pixley":
-  type: News Item
-  news-date: Fri, 27 May 2011 14:33:34 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 27 May 2011 14:33:34 GMT
   news-link: http://catseye.tc/projects/pail/
   description: |
     If you've been following our news,
@@ -580,8 +613,9 @@
     but it's called Pail now (for PAIr Language).
     
 "Falderal: Literate Testing for Haskell Functions":
-  type: News Item
-  news-date: Tue, 17 May 2011 23:43:10 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 17 May 2011 23:43:10 GMT
   news-link: http://catseye.tc/projects/falderal/
   description: |
     We here at Cat's Eye Technologies
@@ -597,8 +631,9 @@
     Watch for its use in future projects!
     
 "Pluggin' some (specification) leaks in Eightebed":
-  type: News Item
-  news-date: Tue, 10 May 2011 18:59:22 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 10 May 2011 18:59:22 GMT
   news-link: http://catseye.tc/projects/eightebed/
   description: |
     Eightebed version 1.1.  Has a nice ring to
@@ -615,8 +650,9 @@
     and documentation of fixes that you don't care about.
     
 "Oozlybub and Murphy and Progress!":
-  type: News Item
-  news-date: Wed, 27 Apr 2011 19:37:55 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 27 Apr 2011 19:37:55 GMT
   news-link: http://catseye.tc/projects/oozlybub-and-murphy/
   description: |
     Version 1.1 of the Oozlybub and Murphy
@@ -627,8 +663,9 @@
     UNTIL YOUR EYES BURN WITH DEEP DEEP CORROSION.
     
 "More blowing off of dust: Maentwrog":
-  type: News Item
-  news-date: Tue, 26 Apr 2011 18:00:57 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 26 Apr 2011 18:00:57 GMT
   news-link: http://catseye.tc/projects/maentw/
   description: |
     Marinus has been so kind to write
@@ -640,8 +677,9 @@
     gcc and pcc.
     
 "yoob Grows Support for 3 More Esolangs":
-  type: News Item
-  news-date: Wed, 30 Mar 2011 23:37:49 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 30 Mar 2011 23:37:49 GMT
   news-link: http://catseye.tc/lab/yoob/applet.html
   description: |
     The yoob framework for esolang
@@ -659,8 +697,9 @@
     they'll ripen with age.  Enjoy...
     
 "Blowing the Dust off bef":
-  type: News Item
-  news-date: Sat, 19 Mar 2011 05:49:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 19 Mar 2011 05:49:00 GMT
   news-link: http://catseye.tc/projects/bef/
   description: |
     The Befunge-93 reference interpreter,
@@ -679,8 +718,9 @@
     aesthetic improvements to the interpreter, too!
     
 "Technology preview: yoob":
-  type: News Item
-  news-date: Tue, 15 Mar 2011 17:48:27 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 15 Mar 2011 17:48:27 GMT
   news-link: http://catseye.tc/lab/yoob/applet.html
   description: |
     Cat's Eye Technologies has embarked
@@ -697,8 +737,9 @@
     Enjoy...
     
 "We Three Things of Disorient Are":
-  type: News Item
-  news-date: Tue, 04 Jan 2011 14:23:23 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 04 Jan 2011 14:23:23 GMT
   news-link: http://catseye.tc/cpressey/lingography.html#Gemooy
   description: |
     Alright, so it's a little late, I admit, but
@@ -718,8 +759,9 @@
     to have a prize like that...
     
 "Refurbishment of Thue Implementations":
-  type: News Item
-  news-date: Sat, 18 Dec 2010 21:33:39 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 18 Dec 2010 21:33:39 GMT
   news-link: http://catseye.tc/projects/thue/
   description: |
     We've released a couple of bugfixes
@@ -729,8 +771,9 @@
     on this effort!
     
 "Fresh, Bold Stupid: Oozlybub and Murphy":
-  type: News Item
-  news-date: Wed, 01 Dec 2010 04:02:32 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 01 Dec 2010 04:02:32 GMT
   news-link: http://catseye.tc/projects/oozlybub-and-murphy/
   description: |
     Cat's Eye Technologies has
@@ -741,8 +784,9 @@
     is not entirely named Oozlybub is named Murphy. Deal with it.
     
 "Pixley Version One Point One":
-  type: News Item
-  news-date: Fri, 05 Nov 2010 21:11:25 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 05 Nov 2010 21:11:25 GMT
   news-link: http://catseye.tc/projects/pixley/
   description: |
     An update to the Pixley programming
@@ -755,8 +799,9 @@
     in Mini-Scheme.
     
 "A Programming Language called Eightebed":
-  type: News Item
-  news-date: Wed, 01 Sep 2010 22:56:25 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 01 Sep 2010 22:56:25 GMT
   news-link: http://catseye.tc/projects/eightebed/
   description: |
     I could have just explained to Gregor
@@ -766,8 +811,9 @@
     "Eightebed", too!
     
 "Whothm, a Language for Infinite Drawings":
-  type: News Item
-  news-date: Tue, 29 Jun 2010 22:44:31 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 29 Jun 2010 22:44:31 GMT
   news-link: http://catseye.tc/projects/whothm/
   description: |
     We present Whothm, a simple language for
@@ -776,8 +822,9 @@
     Whothm in a Java applet.
     
 "Burro Climbs to 2.0":
-  type: News Item
-  news-date: Mon, 07 Jun 2010 19:13:58 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 07 Jun 2010 19:13:58 GMT
   news-link: http://catseye.tc/projects/burro/
   description: |
     A major overhaul was done to the Burro language,
@@ -793,8 +840,9 @@
     map a Turing machine to a Burro program.
     
 "A video game: Bubble Escape 2K":
-  type: News Item
-  news-date: Wed, 12 May 2010 03:03:58 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 12 May 2010 03:03:58 GMT
   news-link: http://catseye.tc/projects/bescape2k/
   description: |
     Wow!  A tiny C64 video game from the deep past!
@@ -807,8 +855,9 @@
     We humbly think you should get out your Commodore 64 emulator and play it!
     
 "Gallery of Esteemed Programming Languages":
-  type: News Item
-  news-date: Fri, 30 Apr 2010 20:13:55 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 30 Apr 2010 20:13:55 GMT
   news-link: http://catseye.tc/gallery/languages/
   description: |
     At Cat's Eye Technologies, we have long
@@ -830,8 +879,9 @@
     as XHTML 1.0 Strict.
     
 "Another blast from the past: RUBE":
-  type: News Item
-  news-date: Thu, 04 Feb 2010 16:26:47 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 04 Feb 2010 16:26:47 GMT
   news-link: http://catseye.tc/projects/rube/
   description: |
     In a move likely to set a dangerous
@@ -850,8 +900,9 @@
     for comment.
     
 "ZOWIE: Memory-Mapped Structured Flow Control":
-  type: News Item
-  news-date: Tue, 29 Dec 2009 21:14:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 29 Dec 2009 21:14:00 GMT
   news-link: http://catseye.tc/projects/zowie/
   description: |
     Cat's Eye Technologies' last language of the aughts,
@@ -864,8 +915,9 @@
     letter of the Roman alphabet.  I'm so happy.
     
 "Release of Etcha, a Turtle-Based Language":
-  type: News Item
-  news-date: Sun, 04 Oct 2009 17:57:05 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 04 Oct 2009 17:57:05 GMT
   news-link: http://catseye.tc/projects/etcha/
   description: |
     We present the esolang Etcha, a four-instruction BitChanger
@@ -874,8 +926,9 @@
     computation, playing a role similar to the tape head of a Turing machine.
     
 "Dieter: Type Qualifiers meet Modules":
-  type: News Item
-  news-date: Sun, 04 Oct 2009 01:00:31 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 04 Oct 2009 01:00:31 GMT
   news-link: http://catseye.tc/projects/dieter/
   description: |
     After a long long time incubating, the Dieter
@@ -886,8 +939,9 @@
     produces something that resembles object-oriented programming.
     
 "The Pixley Programming Language Arrives":
-  type: News Item
-  news-date: Sat, 02 May 2009 03:23:46 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 02 May 2009 03:23:46 GMT
   news-link: http://catseye.tc/projects/pixley/
   description: |
     We present Pixley, a strict subset of
@@ -906,8 +960,9 @@
     [the next 700 programming languages](http://ttic.uchicago.edu/~blume/classes/aut2008/proglang/papers/Landin-next-700.pdf).
 
 "Scientific Proof that Cellular Automata are Intelligent!":
-  type: News Item
-  news-date: Sun, 12 Apr 2009 01:23:46 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 12 Apr 2009 01:23:46 GMT
   news-link: http://catseye.tc/projects/jaccia/
   description: |
     Did you know that
@@ -917,8 +972,9 @@
     we know that cellular automata are intelligent too!  Three cheers for science!
     
 "The Unlikely Programming Language Unveiled":
-  type: News Item
-  news-date: Sun, 15 Mar 2009 21:20:50 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 15 Mar 2009 21:20:50 GMT
   news-link: http://catseye.tc/projects/unlikely/
   description: |
     So we have our first new programming language
@@ -929,8 +985,9 @@
     *mandatory*.  Overall a pretty painful experience, we think.
     
 "Shelta Revisited":
-  type: News Item
-  news-date: Sun, 08 Mar 2009 19:00:30 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 08 Mar 2009 19:00:30 GMT
   news-link: http://catseye.tc/projects/shelta/
   description: |
     Almost a decade after it was first published,
@@ -941,8 +998,9 @@
     process.  Check it out (if you like that sort of thing.)
     
 "A List of Unfinished Interesting Esolangs (LoUIE)":
-  type: News Item
-  news-date: Wed, 13 Jan 2009 04:06:22 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 13 Jan 2009 04:06:22 GMT
   news-link: http://catseye.tc/cpressey/louie.html
   description: |
     Wouldn't it be great if I had enough time to
@@ -954,8 +1012,9 @@
     with it.  Just you watch.)
     
 "Nine Projects Moved to Archive":
-  type: News Item
-  news-date: Sun, 11 Jan 2009 23:06:29 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 11 Jan 2009 23:06:29 GMT
   news-link: http://catseye.tc/archive/
   description: |
     We've moved nine of our less exciting projects to
@@ -965,8 +1024,9 @@
     open-source projects started by others (ErlGTK, ErlGuten, libvesa.)
     
 "Let's Have a Warm Hand for Quylthulg":
-  type: News Item
-  news-date: Sun, 07 Dec 2008 02:32:51 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 07 Dec 2008 02:32:51 GMT
   news-link: http://catseye.tc/projects/quylthulg/
   description: |
     Let's have a warm hand for Quylthulg,
@@ -977,8 +1037,9 @@
     inside data structures.
     
 'Publishing of the "Kitsilano" Oscillator Circuit':
-  type: News Item
-  news-date: Sat, 06 Sep 2008 06:58:13 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 06 Sep 2008 06:58:13 GMT
   news-link: http://catseye.tc/projects/kitsilano/
   description: |
     After a summer hiatus, production
@@ -988,8 +1049,9 @@
     of NPN transistors and a single capacitor.
     
 "Release of the Context Rewriting Language Treacle":
-  type: News Item
-  news-date: Sat, 12 Apr 2008 23:24:55 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 12 Apr 2008 23:24:55 GMT
   news-link: http://catseye.tc/projects/treacle/
   description: |
     The Treacle programming language, successor
@@ -999,8 +1061,9 @@
     subpatterns may match at any depth.
     
 "Wee Present: The PETulant Cursor":
-  type: News Item
-  news-date: Wed, 02 Apr 2008 07:59:59 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 02 Apr 2008 07:59:59 GMT
   news-link: http://catseye.tc/projects/petulant/
   description: |
     Just in time for April Fools,
@@ -1009,8 +1072,9 @@
     What's it do?  Run it and see!
     
 "Arboretuum Forest-Rewriting Language Released":
-  type: News Item
-  news-date: Wed, 05 Mar 2008 06:46:13 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 05 Mar 2008 06:46:13 GMT
   news-link: http://catseye.tc/projects/arboretuum/
   description: |
     The Arboretuum programming language has
@@ -1019,8 +1083,9 @@
     which multiple trees are rewritten simultaneously.
     
 "Website Updated to Use XHTML 1.0":
-  type: News Item
-  news-date: Fri, 01 Feb 2008 03:26:31 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 01 Feb 2008 03:26:31 GMT
   news-link: http://catseye.tc/about/website.html
   description: |
     We have updated our webpages to conform to
@@ -1030,8 +1095,9 @@
     better in Internet Explorer.
     
 "Release of the Larabee Programming Language":
-  type: News Item
-  news-date: Fri, 11 Jan 2008 03:20:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 11 Jan 2008 03:20:00 GMT
   news-link: http://catseye.tc/projects/larabee/
   description: |
     The Larabee programming language has been released.
@@ -1040,8 +1106,9 @@
     Also great fun at parties.
     
 "Release of the Mascarpone Programming Language":
-  type: News Item
-  news-date: Sun, 09 Dec 2007 02:01:55 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 09 Dec 2007 02:01:55 GMT
   news-link: http://catseye.tc/projects/mascarpone/
   description: |
     The Mascarpone programming language has been released.
@@ -1050,8 +1117,9 @@
     a meta-circular interpreter, in which interpreters are also first-class values.
     
 "Ypsilax Updated to Use Console::Virtual":
-  type: News Item
-  news-date: Sun, 02 Dec 2007 17:40:07 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 02 Dec 2007 17:40:07 GMT
   news-link: http://catseye.tc/projects/ypsilax/
   description: |
     Following the improvements made to the
@@ -1063,8 +1131,9 @@
     off the user.
     
 "RSS Feed Now Available for Cat's Eye Technologies":
-  type: News Item
-  news-date: Sat, 01 Dec 2007 23:09:50 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 01 Dec 2007 23:09:50 GMT
   news-link: http://catseye.tc/news.xml
   description: |
     News on the latest developments at Cat's Eye Technologies
@@ -1085,8 +1154,9 @@
     reason — somebody might actually find it useful.
     
 "Release of the Iphigeneia Programming Language":
-  type: News Item
-  news-date: Sat, 25 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 25 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/iphi/
   description: |
     The Iphigeneia programming language is released.  Iphigeneia is a toy
@@ -1096,8 +1166,9 @@
     two forms, but it has strayed slightly from that goal.
     
 "Console::Virtual Revived, HUNTER and worb Benefit":
-  type: News Item
-  news-date: Sat, 23 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 23 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cons_virt/
   description: |
     Noticing that the Perl 5 implementation of [[HUNTER]]
@@ -1121,8 +1192,9 @@
     This is pretty crude right now, but it's hopefully a step in the right direction.
     
 "Release of the Didigm Reflective Cellular Automaton":
-  type: News Item
-  news-date: Sat, 17 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 17 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/didigm/
   description: |
     Release of initial specification of the Didigm
@@ -1131,8 +1203,9 @@
     Also some random hacking on libvesa.
     
 "Release of the Emmental Programing Language":
-  type: News Item
-  news-date: Sat, 11 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 11 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/emmental/
   description: |
     The Emmental programming language has been
@@ -1143,8 +1216,9 @@
     Turing-completeness.
     
 "Release of You are Reading the Name of this Esolang":
-  type: News Item
-  news-date: Sat, 05 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 05 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/urreading/
   description: |
     The programming language You are Reading the Name of this Esolang
@@ -1153,8 +1227,9 @@
     of symbols is a well-formed You are Reading the Name of this Esolang program is undecidable.
     
 "Release of the Cabra Programming Language":
-  type: News Item
-  news-date: Sat, 01 Nov 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 01 Nov 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/cabra/
   description: |
     The Cabra programming language,
@@ -1163,8 +1238,9 @@
     under the operations of sequential and parallel composition.
     
 "Release of the Burro Programming Language":
-  type: News Item
-  news-date: Sat, 26 Oct 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 26 Oct 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/burro/
   description: |
     The Burro programming language, after two years
@@ -1173,8 +1249,9 @@
     speaking — see the docs for the complete picture.)
     
 "(Re-)Unearthing of the Maentwrog Programming Language":
-  type: News Item
-  news-date: Sat, 30 Sep 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 30 Sep 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/maentw/
   description: |
     The Maentwrong language, predecessor of
@@ -1183,8 +1260,9 @@
     of the projects directory (again) for whatever it's worth.
     
 "catseye.mine.nu No Longer in Service":
-  type: News Item
-  news-date: Sat, 28 Aug 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 28 Aug 2007 12:00:00 GMT
   news-link: http://catseye.tc/
   description: |
     The catseye.mine.nu server is no longer in service
@@ -1202,8 +1280,9 @@
     to circumstances it will have to be a low priority goal over the next few months.
     
 "Updates to SMITH and REDGREEN":
-  type: News Item
-  news-date: Sat, 22 Jul 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 22 Jul 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/smith/
   description: |
     The SMITH language has been updated in
@@ -1222,8 +1301,9 @@
     it in the projects.  I swear there was a manual page for it too, but I can't find it.
     
 "Release of the Hev Programming Language":
-  type: News Item
-  news-date: Sat, 17 Jun 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 17 Jun 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/hev/
   description: |
     The Hev programming language has been released.
@@ -1232,16 +1312,18 @@
     Truly, a major breakthrough.
     
 "Release of the Xigxag automaton":
-  type: News Item
-  news-date: Sat, 02 Jun 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 02 Jun 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/xigxag/
   description: |
     Xigxag, a simple automaton with exponential growth almost
     everywhere, has been released.
     
 "Zzrk Released, and More":
-  type: News Item
-  news-date: Sat, 15 May 2007 12:00:00 GMT
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 15 May 2007 12:00:00 GMT
   news-link: http://catseye.tc/projects/zzrk/
   description: |
     Most significantly, a project has been added for
