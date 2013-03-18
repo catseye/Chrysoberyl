@@ -421,66 +421,102 @@ Javascript:
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
-    [[Programming Language|programming language]] that some web browsers implement
+    [[Programming Language|programming language]] that is implemented
+    primarily in web browsers
     in order to let scripts control the dynamic behaviour of a web page,
     such as what happens when the user clicks on some region of text.
   commentary: |
-    (TODO: update this.)
+    Javascript, now there's a programming language rags-to-riches story.
+    Well, it still wears rags, but you know what I mean.
     
-    We at [[Cat's Eye Technologies]] have long taken a dim view of this
-    predominant application of Javascript. It's gratuitous; web pages exist
-    in order to convey information, not be playthings. Managing the user
-    interface is the *browser*'s job; what makes the *page* think it can do
-    it better? But more to the point, putting a
-    [[Turing-complete]] control language in a browser is a
-    way to let web pages be just as impossible to predict, and just as
-    buggy, as general computer programs. Multiply this by the number and
-    degree of variations between Javascript specifications and
-    implementations to experience the full hellishness of this fact.
+    In the beginning, the World Wide Web was just a bunch of interlinked
+    static documents, which was just fine.  Hypertext, they called it.  Then
+    immediately it grew fill-out forms and queries which were sent to web
+    servers, which could respond with dynamically-generated content, like
+    the results of a web search, which was great.
     
-    Or, as we used to say, *web pages shouldn't crash your browser*.
+    And then along the way, the Web succumbed to the inviolable
+    law of [[Software Engineering|software engineering]] that states
+    "Any sufficiently complex
+    program contains a buggy, half-implemented, undocumented
+    version of [[Lisp]]".  If you've ever been on the receiving side of
+    requirements, you might also know this as, "Can we add a scripting
+    language?  That'd be awesome."  (Because taking a nice, predictable
+    system and making it [[Turing-complete]] is [[Esolang|always awesome]].)
     
-    But we also admit that Javascript, used judiciously, can improve the
-    usability of a web page.
+    So, even though web pages at the time hardly justified being scripted,
+    Javascript was born.  And, to be fair, it's really not such a bad language
+    for having been designed in two weeks.  Of course, the name was pure
+    marketing; it shares almost nothing with [[Java]] except curly braces.
     
-    So we have decided to compromise. Our policy regarding Javascript is as
-    follows.
+    And so the Web went through a painful period where Javascript
+    was used to make sites that tried to stand out from the crowd by
+    annoying the user in more advanced and petulant and irritating ways.
+    And during Javascript's childhood, every vendor implemented it
+    slightly differently, with different bugs and different reckonings of
+    the DOM (the API that refers to the parts of a web page).
     
-    -   *If you don't like it, turn it off.*
+    And then, Ajax happened, which meant, in essence, that, you
+    could now use Javascript and [[XML]] to reload part of a page without
+    reloading the whole thing.  Which meant, in essence, that web pages
+    started to look a lot more like traditional user interfaces.  Which meant,
+    in essence, that there was actually a (somewhat) justifiable reason for
+    using Javascript.
     
-        Everything on this website is navigable even with Javascript
-        disabled. (It even looks acceptable without styling. So if you don't
-        like our far-out background graphics, or you want the genuine
-        experience of surfing the web circa 1996, try turning off
-        [[CSS]] too.) If you're using a browser that doesn't allow
-        you to disable these features, you might want to consider why you
-        chose to use a tool that takes that power away from you.
+    And then a standard was written for Javascript (sort of) and jQuery
+    was developed (which handled some of the discrepancies between
+    browsers for you) and JSON took over from XML (but we
+    still call it Ajax, not Ajaj) and vendors' Javascript implementations
+    started to do JIT compiling and got reasonably performant and some
+    clever wag coined the term "web app" and *at that very moment* it
+    became an acceptable fact of life for a web page to hang or crash.
+    (Because it's now an "app", you see.)
     
-    -   *Use commodity components.*
+    And then it got even weirder.  Developers decided they wanted to
+    run Javascript *outside* of the browser.  Which, for the purposes of
+    automated testing of the scripts used on web pages, makes some sense.
+    But *then* some exceedingly clever people decided
+    it should [run on servers](http://nodejs.org/) and that
+    new, back-end software should be developed in it.  And the next
+    thing you know, it has an
+    [ncurses library](https://github.com/mscdex/node-ncurses).  I give up.
     
-        As much as we like to "roll our own" computational stuff here at
-        Cat's Eye Technologies, the application domain of Javascript
-        generally makes that option too risky. Correct Javascript must not
-        only encode a correct algorithm, it must correctly account for
-        differences between Javascript implementations and browsers. In
-        addition, being interactive, any incorrect Javascript will have a
-        direct negative impact on the user experience.
+    Our policy regarding Javascript on [[catseye.tc]] is as follows:
     
-        So what we do is we use commodity components — open-source
-        Javascript modules that are community-developed. The broad base of
-        users and developers helps ensure that the scripts are tested both
-        deeply and broadly (that is, across a large cross-section of
-        browsers.)
+    *   *If you don't like it, turn it off.*
+        
+        Unless it's one of the fancy pages that actually requires
+        Javascript for some [[HTML5]] craziness, like running an
+        [[Esolang]] in the browser, the page should
+        gracefully degrade when there's no Javascript.
+        (The site is even decently readable and navigable without
+        styling. So if you don't like our far-out background graphics,
+        or you want the genuine experience of surfing the web circa
+        1996, try turning off [[CSS]] too.)
+        
+    *   *Use commodity components.*
+        
+        There's still too much variation between different browsers
+        that whenever we can use a third-party Javascript library such
+        as jQuery that's been battle-tested on different browsers, we
+        probably should.  There's an argument that jQuery is large and
+        bloated, but really, it's not *that* bad, and since we grab it from
+        a CDN there's a good chance the user's browser already has it
+        cached.
     
-    -   *Keep it simple, stupid.*
-    
-        When writing our own Javascript is unavoidable, we keep it as simple
-        as possible. Is there a way to write it that doesn't involve a loop?
-        Is there a way to accomplish the same thing using stylesheets
-        instead? Does the interactive feature actually not make the site
-        more usable? If the answers to any of these are "yes" then there's a
-        good chance that the script they're being asked about won't get
-        written.
+    *   *Keep it simple.*
+        
+        Of course, the availability of many high-quality, battle-tested
+        Javascript libraries is a bit of a double-edged sword; there is the
+        temptation to use every library and plugin under the sun in a
+        vain attempt to make the user's web experience totally *bitchen*,
+        man.  But one cannot underestimate the number of things that
+        can go wrong, and that by Murphy's law, will.  For example,
+        clever proxies used by 4G providers which concatenate and
+        compress the Javascript used on a page and include it inline.
+        (Did you just assume that that Javascript file you externally
+        referenced really was external?  Oops.)
+        
   references:
   - url: http://www.quirksmode.org/js/contents.html
     title: JavaScript at quirksmode
@@ -494,6 +530,24 @@ Javascript:
 
 # XXX implementation of Javascript.  I could add web browsers
 # to Chrysoberyl.  But I don't care.
+
+
+Lisp: 
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Functional
+  - Imperative
+  computational-class: Turing-complete
+  specification-link: http://www.lispworks.com/documentation/HyperSpec/Front/index.htm
+  development-stage: mature
+  authors: []
+  description: |
+    Lisp is a programming language.
+  commentary: |
+    I'm one of those people who wonders why anyone bothers programming in,
+    talking about, or thinking about Lisp anymore, since [[Scheme]] exists.
+    That's just me, though.
 
 
 Lua:
@@ -860,27 +914,27 @@ Scheme:
     and a succinct, well-defined semantics.
   commentary: |    
     Scheme is often looked at historically, and described as a variant of
-    LISP. While useful, this historical viewpoint frequently gets in the way
+    [[Lisp]]. While useful, this historical viewpoint frequently gets in the way
     of thinking about Scheme's significance *today*. In brief, if you are
     evaluating Scheme for your own needs, evaluate *Scheme*, and don't worry
-    about LISP or functional programming.
+    about Lisp or functional programming.
     
     That said, let's go ahead and examine Scheme historically. Its history
-    has been one of shedding baggage from its LISP heritage: it has lexical
+    has been one of shedding baggage from its Lisp heritage: it has lexical
     (instead of dynamic) scoping, guaranteed (rather than
     if-your-vendor-supports-it) tail-recursive behaviour at execution time,
     hygenic (instead of textual) macros, and continuations as first-class
     objects. These are generally considered significant improvements, and we
     fully agree.
     
-    But there's one thing of LISP's that Scheme hasn't shed: its syntax...
+    But there's one thing of Lisp's that Scheme hasn't shed: its syntax...
     or lack thereof!
     
     Whether you love it or hate it, you have to admit that Scheme's
     S-expression syntax is extremely — no, *pathologically* — regular. Just
     about as orthogonal as syntax can get.
     
-    As far as we know, the reason LISP has such a mind-bogglingly minimal
+    As far as we know, the reason Lisp has such a mind-bogglingly minimal
     syntax is that it's a consequence of how it approached higher-order
     functions: *represent functions as lists*. You can already pass lists to
     and return lists from functions, so if functions "are" lists, then
@@ -908,7 +962,7 @@ Scheme:
     
     Here's the delight: it makes it trivial to read and write Scheme
     programs from other Scheme programs. No parsing, no backpatching. No
-    blood, sweat, *or* tears. In fact, we wonder why this holdover from LISP
+    blood, sweat, *or* tears. In fact, we wonder why this holdover from Lisp
     has not driven Scheme on to become *the* program-analysis language.
 
 plt-r5rs:
@@ -933,6 +987,18 @@ SETL:
   computational-class: Turing-complete
   specification-link: http://setl.org/setl/doc/
   # archival?
+  development-stage: mature
+  authors: []
+
+
+XML: 
+  # sigh
+  type: Programming Language
+  genre: Production language
+  paradigms:
+  - Declarative
+  computational-class: Finite-automata-complete
+  specification-link: http://www.w3.org/TR/REC-xml/
   development-stage: mature
   authors: []
 
