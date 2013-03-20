@@ -1,13 +1,6 @@
 Chrysoberyl TODO
 ================
 
-higher priority
----------------
-
-Link to github file from documentation nodes.
-
-Breadcrumbs: descend from distribution/implementable in documentation nodes.
-
 tool
 ----
 
@@ -35,6 +28,14 @@ Document what the different dates mean.
 
 templates
 ---------
+
+Link to github file from documentation nodes.
+
+Breadcrumbs: descend from distribution/implementable in documentation nodes.
+
+For Type and Genre pages, show the pages of that type/genre in a collapsible
+(accordion) thing.  If there are a lot (more than, say, 15,) default the accordion
+to collapsed.
 
 Longer descriptions and commentary (article-like things) should have a
 max-width smaller than the screen size, to help readability.

@@ -1,3 +1,46 @@
+"Oops, I just turned Chrysoberyl into a blogging platform":
+  type: Article
+  article-type: announcement
+  authors:
+  - Chris Pressey
+  publication-date: Wed, 20 Mar 2013 14:59:21 GMT
+  description: |
+    I'm not much of a blogger.  I've considered starting a blog a few times,
+    but the thing is, most blogs are either about trends or opinions
+    (or both, combined: _reactions_), and I don't follow trends, and when I
+    have opinions, they're about specific *things*.  (Which is why the old
+    [[catseye.tc]] had an "About" section, and why [[Chrysoberyl]] lets
+    commentary be attached to particular nodes.)  And those opinions, like
+    the things themselves, are relatively "evergreen" -- they're not news,
+    there's no need to go announcing them.  I also like to be able to
+    edit/tweak/update an opinion incrementally after writing it, which also
+    fits poorly with the blog model.  [EDIT: see what I mean?]
+    
+    At the same time, I do generate news, if not trends, and these
+    announcements that I've implemented such-and-such or updated
+    such-and-such *are* news articles, even if they're short ones.
+    
+    And sometimes I have something to say that's not focussed on a single
+    topic, and it fits best as a stand-alone article, such as 
+    [[Retrospective: Chris Pressey on Language Design|my retrospective on esolang design]].
+    
+    Therefore, I merged the concepts of "News Item" and "Article" into
+    just [[Article]] in Chrysoberyl, and all articles get included in
+    the Atom feed, whether they're explicitly "news" or not.  The result
+    is that Chrysoberyl is, among all the other words that already don't
+    describe it, now a blogging platform.
+    
+    That's not to say you'll be seeing a lot of blog posts in the news feed.
+    Even this article, which I consciously tried to write like a blog post,
+    is still really mostly an announcement.
+    
+    But you might see some.  You totally might.  Yeah, you're totally going
+    to hear every little nitpick I have about why the latest version of
+    Gadget X (resp. Language X) sucks and why GadgetCorp (resp. the Language
+    X community) is going totally off-course as a company (resp. open-source
+    project).  Because that's so totally the kind of thing I give a crap
+    about.
+
 "ALPACA turns 1.0":
   type: Article
   article-type: announcement

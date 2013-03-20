@@ -45,12 +45,13 @@ def make_news_feed(data, dir, filename, limit=None):
         title = n['key']
         guid = url + "/" + n['key']
         updated = n['publication-date']
-        summary_contents = n['description_html']
-        if n.get('summary', None) is not None:
-            summary_contents = n['summary_html']
-        summary = atomize.Summary(summary_contents, content_type='html')
         nodelink = pathname2url(filekey(n['key']),
                                 prefix='http://catseye.tc/node/')
+        summary_contents = n['description_html']
+        if n.get('summary', None) is not None:
+            summary_contents = (n['summary_html'] +
+                '<p><a href="%s">Read more...</a></p>' % nodelink)
+        summary = atomize.Summary(summary_contents, content_type='html')
         links = [atomize.Link(nodelink, content_type='text/html',
                               rel='alternate')]
         entry = atomize.Entry(title=title, guid=guid, updated=updated,
