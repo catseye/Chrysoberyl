@@ -298,10 +298,7 @@ class Renderer(object):
             # quips Release Notes Girl.  Captain Compiler responds:
             # "Does that mean we're going to make it open-sauce?  HA, HA")
             TOP = "Chrysoberyl"
-            if self.data[key]['type'] == 'type':
-                bc = [plural(key)]
-            else:
-                bc = [key]
+            bc = []
             if key != TOP:
                 while 'domain' in self.data[key]:
                     key = self.data[key]['domain']
