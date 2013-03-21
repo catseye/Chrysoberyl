@@ -1,15 +1,7 @@
 /*
  * Requires jQuery.
+ * Can be loaded at the bottom of the page.
  */
-
-/*
- * First, trick older IE into letting us style HTML5 elements.
- */
-document.createElement('header');
-document.createElement('nav');
-document.createElement('article');
-document.createElement('footer');
-document.createElement('aside');
 
 /*
  * Given a CSS class and local URL prefix, apply the class to all links on

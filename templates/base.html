@@ -4,31 +4,39 @@
   <title>{%- block title -%}{{ key }} | Cat's Eye Technologies{%- endblock title -%}</title>
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {#- This should go before the CSS so that older versions of IE will be tricked
+      into styling these HTML5 elements. -#}
+  <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('article');
+    document.createElement('footer');
+    document.createElement('aside');
+  </script>
   <link href="../contrib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="../contrib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../stylesheet/chrysoberyl.css" />
   {%- block extra_head -%}{%- endblock extra_head -%}
 </head>
 <body>
-
-  {%- block alpha_disclaimer -%}<aside id="alpha_disclaimer">
-    <p>
-      BETA VERSION.  UNDER CONSTRUCTION.
-      This page was automatically generated from <a href="https://github.com/catseye/Chrysoberyl/">Chrysoberyl</a>.
-      Spot an error on this page?
-      {# TODO: urlencode instead #}
-      <a href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key)|replace(' ', '+') }}">Report it here!</a>
-    </p>
-  </aside>{%- endblock alpha_disclaimer -%}
-
   <header>
-    <div class="row-fluid">
+    <div class="row-fluid" id="breadcrumbs_container">
       <div class="span8">
         {%- block breadcrumbs -%}
         <nav id="breadcrumbs">
           <p>{{ breadcrumbs()|join(' » ') }}</p>
         </nav>
         {%- endblock breadcrumbs -%}
+      </div>
+      <div class="span4">
+        {#- TODO: urlencode instead? -#}
+        {#-
+        <a class="button"
+           title="Report an error on this page"
+           href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key)|replace(' ', '+') }}">Report Error</a>
+        -#}
+      </div>
+    </div>
 
     {%- block heading -%}
       <hgroup id="heading">
@@ -44,24 +52,6 @@
 
     {%- block byline -%}
     {%- endblock byline -%}
-
-      </div>
-      <div class="span4">
-        {#-
-        <!--
-        <div class="navbar">
-          <div class="navbar-inner">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Search</a></li>
-            </ul>
-          </div>
-        </div>
-        -->
-        -#}
-      </div>
-    </div>
 
     {#- TODO: make these less obtrusive.  float to right or something. -#}
     {%- if esowiki -%}
@@ -167,6 +157,14 @@
   </article>
 
   {%- block footer -%}<footer>
+    <p>
+      <small>
+        This page was automatically generated from <a href="https://github.com/catseye/Chrysoberyl/">Chrysoberyl</a>.
+        Spot an error on this page?
+        {# TODO: urlencode instead #}
+        <a href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key)|replace(' ', '+') }}">Report it here!</a>
+      </small>
+    </p>
     <p>
       <small>Copyright ©2013, Chris Pressey, Cat's Eye Technologies.  All rights reserved.</small>
     </p>
