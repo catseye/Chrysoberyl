@@ -6,18 +6,18 @@ catseye.tc:
     [http://catseye.tc/](http://catseye.tc/).
     
     It was, until recently, the official distribution channel of Cat's Eye
-    Technologies' public offerings — mostly software distributions, but also some
-    electronics projects, unsolicited opinions, and other miscellany.  And in fact, it
-    will continue to be canonical, in many respects; but many software
-    services, such as public and distributed version-control repositories,
-    and issue tracking, are now handled offsite, at Cat's Eye Technologies'
-    accounts on 
+    Technologies' public offerings — mostly software distributions, but also
+    some [[Electronics Project|electronics projects]], unsolicited opinions,
+    and other miscellany.  It continues to be the canonical mouthpiece
+    and reference work of Cat's Eye Technologies.  However, many of its
+    software services, such source repositories and issue tracking, are now
+    handled offsite, at Cat's Eye Technologies' accounts on 
     [Github](https://github.com/catseye/) and
     [Bitbucket](https://bitbucket.org/catseye/).
     
     In years past, the Cat's Eye Technologies web site was hosted on
     various different domains.  From most recently to least recently, they
-    were:
+    have been:
     
     *   `catseye.tc`
     *   `catseye.webhop.net`
@@ -27,37 +27,26 @@ catseye.tc:
     *   and way back in the mists of time, `www.pangea.ca/cet/`.
     
     This frequent relocation of our web address was done specifically to
-    please [[Phantom Hoover]].
-        
-    `catseye.tc` has turned out to be more-or-less permanent.  Feel free to
-    make links to this site using URLs that begin with
+    please [[Phantom Hoover]].  (We're working on a [[brainfuck]] derivative,
+    too, to make his joy complete.  Stay tuned.)
+    
+    `catseye.tc` may be considered our permanent domain name -- we're stuck
+    with it now that it's part of the [[Java]] namespaces of our products,
+    right?  Feel free to make links to this site using URLs that begin with
     `http://catseye.tc/`. The `www` prefix is not required.
-        
+    
     Our aim in making this website is that it both conforms to W3C
-    standards and provides a reasonable user experience. Given the
-    sheer variation that exists between browsers, this is not always easy.
-        
-    We use [[CSS]] for layout of these pages; we no longer use tables, or
-    anything resembling tables (like `display: table-cell`), for layout.
+    standards and provides a reasonable user experience.
+    Well, that used to be our aim, then [[HTML5]] came along.
     
+    The site content is generated from a database called [[Chrysoberyl]]
+    which consists of Markdown documents and other structured data embedded
+    in Yaml files.
+    
+    It is rendered with Jinja2 templates to produce HTML files.
     We do use [[Javascript]] on the pages on this site, but we try to do
-    so judiciously.
-    
-    Our webpages strive to
-    conform to the W3C Recommendation [XHTML 1.0
-    Strict](http://www.w3.org/TR/xhtml1/).
-    Most of the webpages on this site are generated from underlying XML
-    documents using XSLT stylesheets, even the pages which do not have any
-    significant data structure to them. This is not just for buzzword
-    conformance — it helps in catching XHTML errors early, as well as
-    providing formatting and layout that is consistent across the site while
-    being easy to change.
-    
-    However, everything in the above paragraph is likely going to change
-    in the near future.  Our working plan is to generate the website as
-    HTML 5 from a loosely-structured database of things we've done and
-    seen, stored in YAML files, called [[Chrysoberyl]].  Stay tuned.
-
+    so judiciously when it's not fully required, such as in an
+    [[Online Installation]].
 
 # esolangs.org?
 # other sites which are otherwise just "links"?
