@@ -13,24 +13,24 @@
     <p>
       This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
     </p>
-    {% if description %}
-      {{ description_html }}
-    {% endif %}
+    {%- if description -%}
+      {{- description_html -}}
+    {%- endif -%}
   </section>
 {% endblock description %}
 
 {% block content %}
 
 <ul>
-{% for thing in related('type')|sort -%}
-  <li>
-    {% if not data[key].suppress_page_generation %}
-      {{ link(thing) }}
-    {% else %}
-      {{ thing }}
-    {% endif %}
-  </li>
-{% endfor %}
+  {%- for thing in related('type')|sort -%}
+    <li>
+      {%- if not data[key].suppress_page_generation -%}
+        {{- link(thing) -}}
+      {%- else -%}
+        {{- thing -}}
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
 </ul>
 
 {% endblock content %}

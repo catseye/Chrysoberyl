@@ -1,0 +1,14 @@
+{% extends "type.html" %}
+
+{% block content %}
+
+{%- for thing in related('type')|sort %}
+  ★
+  {% if not data[key].suppress_page_generation -%}
+    {{- link(thing) -}}
+  {%- else -%}
+    {{- thing -}}
+  {%- endif %}
+{%- endfor -%}
+
+{% endblock content %}
