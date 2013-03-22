@@ -338,6 +338,46 @@ Haskell:
   - url: http://sequence.complete.org/node/258
     title: A simple TCP server
     description: Short tutorial for network programming in Haskell
+  description: |
+    Haskell is a pure functional language with lazy evaluation.
+  commentary: |
+    In theory, Haskell is the perfect language for writing reference
+    implementations of programming languages.  It, itself, has semantics
+    which are specified reasonably formally.  It's purely functional
+    (does not permit side-effects), and these two things bring it much
+    closer to being like mathematics than other languages.
+    Additionally, Haskell programs are lazily evaluated (expressions
+    are only evaluated if they are needed), so, basically, Haskell is
+    denotational semantics.  Except it's also a program, so you can
+    run it.  It's executable denotational semantics.
+    
+    Pretty sweet, right?  Well... yes, except for the small fact that
+    denotational semantics may not be the best way to describe your language
+    in the first place.  You might have to describe I/O and concurrency,
+    for example, and denotational semantics doesn't make that easy.
+    
+    But I hear you say, well, Haskell has I/O and concurrency features.
+    
+    OK, look.  It's a pretty profound thing to show that you can encode I/O
+    or concurrency or really, any feature of an imperative language that you
+    want, into a lazy functional language using monads, *but*, that doesn't
+    necessarily mean that it's always a beautiful thing to actually *do* so.
+    
+    Yes you can do it, but no, it's not one of Haskell's strengths.  I've
+    accepted that.
+    
+    Using Haskell for other purposes, though?  Well, I've already accepted
+    that, when going outside the "batch processing" world, Haskell is a little
+    out of its element, so I would not jump at the opportunity.
+    Armchair category theorists might enjoy writing a multithreaded
+    webserver with shared transactional memory monads or whatever, but I
+    have trouble imagining anyone except a category theorist enjoying
+    maintaining such a beast, so I wouldn't recommend it for most
+    "operational" projects.  Choose carefully.
+    
+    Maybe functional reactive programming, or other techniques, will
+    change this.  Or maybe Haskell will simply continue to be the academic
+    playground for type theory research.  Or maybe both.
 
 ghc:
   type: Implementation
