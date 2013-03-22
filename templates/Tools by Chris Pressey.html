@@ -9,7 +9,12 @@
         'Chris Pressey' in data[thing].authors and
         data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost', 'archived'] -%}
     <li>
-      <p>{{ link(thing) }}</p>
+      <p>{{ link(thing) }} 
+      (
+      {%- for implementation in related('implementation_of', key=thing) -%}
+        in {{ link(data[implementation].host_language) }}
+      {%- endfor -%}
+      )</p>
 
       {% if data[thing].description_html %}
         {{ data[thing].description_html }}

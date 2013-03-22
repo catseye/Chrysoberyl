@@ -5,7 +5,12 @@
 <ol>
 {% for thing in entries %}
   <li>
-    <p>{{ link(thing) }}</p>
+    <p><b>{{ link(thing) }}</b>
+    (
+      {{- data[thing].platform -}}
+      {%- if data[thing].controls -%}, {{ data[thing].controls }}{% endif -%}
+    )
+    </p>
     {% if data[thing].description_html %}
       {{ data[thing].description_html }}
     {% endif %}
