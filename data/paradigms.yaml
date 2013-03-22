@@ -143,9 +143,16 @@ State machine:
   type: Programming Paradigm
 String-rewriting:
   type: Programming Paradigm
-Tree-rewriting:
-  type: Programming Paradigm
 Term-rewriting:
   type: Programming Paradigm
+  description: |
+    Also known as Tree-rewriting, especially when the tree-like nature
+    of the terms being rewritten is more salient.
+  commentary: |
+    Term rewriting is perfect for when, instead of an error message, you
+    want to see a half-reduced version of your original program when it
+    breaks.
+
 Turning tarpit:
   type: Programming Paradigm
+  esowiki: Turning tarpit

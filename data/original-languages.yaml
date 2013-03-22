@@ -3122,7 +3122,7 @@ Treacle:
   type: Programming Language
   genre: Experimental language
   paradigms:
-  - Tree-rewriting
+  - Term-rewriting
   description: |
     Treacle is an experimental compiler-definition language based on
     _context rewriting_, an expressive variant of term rewriting that generalizes
