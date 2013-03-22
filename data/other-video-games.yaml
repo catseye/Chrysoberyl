@@ -12,17 +12,24 @@ Typhoon Thompson:
   # Also Atari ST
   platform: Amiga
   controls: mouse
-  authors: []
+  authors:
+  - Dan Gorlin
   wikipedia: Typhoon_Thompson
   no-specification: true
   development-stage: mature
   commentary: |
     Quite possibly the cutest game ever.
     
-    Not actually a shoot-'em-up, as the author pointed out in that one
-    interview which I'll have to link in here at some point.
-
-
+    Not actually a shoot-'em-up, as the author, Dan Gorlin, pointed out in
+    [his interview for Halcyon Days](http://www.dadgum.com/halcyon/BOOK/GORLIN.HTM):
+    
+    > I like it because it's unique, the gameplay is simple but infinitely
+    > variable, and for me the characters really come to life. Some people
+    > mistook it for a shooter at the time, but it's really more like a game
+    > of Blitzkrieg Chess. If you just start blasting you lose immediately.
+    > Each kind of enemy has moves it can make, and the player has his
+    > moves, but things never happen the same way twice. It's not high
+    > concept in the way that "Choplifter" is, but rather a kind of art piece.
 Pepper II:
   type: Game
   genre: Maze-Runner

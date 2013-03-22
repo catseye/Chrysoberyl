@@ -246,6 +246,16 @@ John S. James:
     [[Cat's Eye Technologies]] has implemented.
 Jeff Minter:
   type: Individual
+  references:
+  - url: http://www.dadgum.com/halcyon/BOOK/MINTER.HTM
+    title: 'HD: Jeff Minter'
+    description: Interview with Jeff Minter in Halcyon Days
+Dan Gorlin:
+  type: Individual
+  references:
+  - url: http://www.dadgum.com/halcyon/BOOK/GORLIN.HTM
+    title: 'HD: Dan Gorlin'
+    description: Interview with Dan Gorlin in Halcyon Days
 
 # book authors
 Andre Norton:

@@ -1,4 +1,9 @@
 {% extends "implementable.html" %}
 
 {% block implementable_content %}
+    <p>
+      {{- link(genre) }},
+      {{ platform -}}
+      {%- if controls -%}, {{ controls }}{% endif -%}
+    </p>
 {% endblock implementable_content %}
