@@ -229,3 +229,43 @@ native code:
     that can handle many different platforms.  (Chances are it will
     generate native code for your system, no matter what system
     you have.)
+
+
+Arcade:
+  type: Platform
+  no-specification: true
+  development-stage: mature
+  # \o/ so awesome
+  native-language: native code
+  other-languages: []
+  description: |
+    This node is a stand-in for the implementation platform for
+    any coin-op arcade game, for now.
+
+Sony PlayStation:
+  type: Platform
+  no-specification: true
+  development-stage: mature
+  native-language: native code
+  other-languages: []
+
+Nintendo GameCube:
+  type: Platform
+  no-specification: true
+  development-stage: mature
+  native-language: native code
+  other-languages: []
+
+Atari 2600 VCS:
+  type: Platform
+  no-specification: true
+  development-stage: vintage
+  native-language: 6502 machine code
+  other-languages: []
+
+Z-Machine:
+  type: Platform
+  no-specification: true
+  development-stage: vintage
+  native-language: native code
+  other-languages: []

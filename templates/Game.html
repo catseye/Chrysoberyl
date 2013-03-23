@@ -2,8 +2,8 @@
 
 {% block implementable_content %}
     <p>
-      {{- link(genre) }},
-      {{ platform -}}
+      {{- link(genre) -}}
+      {%- if platform -%}, {{ link(platform) }}{% endif -%}
       {%- if controls -%}, {{ controls }}{% endif -%}
     </p>
 {% endblock implementable_content %}

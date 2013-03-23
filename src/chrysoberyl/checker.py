@@ -308,6 +308,7 @@ def check_chrysoberyl_node(data, key, node):
     # additional constraints for games (implementables)
     if type_ == 'Game':
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
+        check_optional_scalar_ref(data, key, node, 'platform', types=['Platform'])
         check_list_ref(data, key, node, 'authors')
 
     # additional constraints for platforms (implementables)

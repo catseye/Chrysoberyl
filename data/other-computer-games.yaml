@@ -4,7 +4,7 @@ Dungeon Master:
   type: Game
   genre: Role-playing
   # Also Atari ST
-  platform: Amiga
+  platform: Amiga 500
   controls: mouse and keyboard
   authors: []
   no-specification: true
@@ -21,7 +21,7 @@ Civilization II:
   type: Game
   genre: Conquest
   # I played it so much I'm tempted to say "solved-by: Chris Pressey" here
-  platform: PC
+  platform: Windows
   controls: mouse and keyboard
   authors: []
   no-specification: true
@@ -39,7 +39,7 @@ The Incredible Machine 2:
   type: Game
   genre: Puzzle
   # I don't remember if I solved all the levels or not
-  platform: PC
+  platform: MS-DOS
   controls: mouse
   authors: []
   no-specification: true
@@ -77,7 +77,7 @@ Adventure Construction Set:
 Zelazny Angband:
   type: Game
   genre: Roguelike
-  platform: Portable
+  platform: POSIX
   controls: keyboard
   authors: []
   no-specification: true
@@ -89,7 +89,7 @@ Zelazny Angband:
 King's Quest V:
   type: Game
   genre: Puzzle
-  platform: PC
+  platform: MS-DOS
   controls: mouse
   authors: []
   no-specification: true
@@ -110,7 +110,7 @@ Ultima VII Part 2:
   subtitle: The Serpent Isle
   type: Game
   genre: Role-playing
-  platform: PC
+  platform: MS-DOS
   controls: mouse
   authors: []
   no-specification: true
@@ -125,7 +125,7 @@ Ultima VII Part 2:
 Dungeon Keeper II:
   type: Game
   genre: Conquest
-  platform: PC
+  platform: Windows
   controls: mouse and keyboard
   authors: []
   no-specification: true
@@ -137,7 +137,7 @@ Dungeon Keeper II:
 Alphaman:
   type: Game
   genre: Roguelike
-  platform: PC
+  platform: MS-DOS
   controls: keyboard
   authors: []
   no-specification: true

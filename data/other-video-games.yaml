@@ -10,7 +10,7 @@ Typhoon Thompson:
   solved-by:
   - Chris Pressey
   # Also Atari ST
-  platform: Amiga
+  platform: Amiga 500
   controls: mouse
   authors:
   - Dan Gorlin
@@ -68,7 +68,8 @@ City Connection:
 Katamari Damacy:
   type: Game
   genre: Maze-Runner
-  platform: PlayStation 2
+  # actually PS2 but for now that distinction is minor
+  platform: Sony PlayStation
   controls: dual analog joystick
   authors: []
   # but it's not like i've collected every special item or anything
@@ -139,7 +140,7 @@ The New Zealand Story:
 CoolBoarders 2:
   type: Game
   genre: Sports
-  platform: PlayStation
+  platform: Sony PlayStation
   controls: D-pad and 6 button
   authors: []
   solved-by:
@@ -159,7 +160,7 @@ CoolBoarders 2:
 Super Monkey Ball 2:
   type: Game
   genre: Maze-Runner
-  platform: GameCube
+  platform: Nintendo GameCube
   controls: analog joystick
   authors: []
   wikipedia: Super_Monkey_Ball_2
@@ -208,7 +209,7 @@ Llamatron:
   type: Game
   genre: Shoot-'em-Up
   # actually, Amiga; but I only ever played it on a PC; apparently this is ersatz
-  platform: IBM PC Compatible
+  platform: MS-DOS
   controls: joystick and 1 button
   authors:
   - Jeff Minter
@@ -225,7 +226,7 @@ Fall Down:
   type: Game
   # technically a platformer, I guess, but it doesn't really describe it
   genre: Platformer
-  platform: Atari VCS
+  platform: Atari 2600 VCS
   controls: joystick
   authors: []
   no-specification: true

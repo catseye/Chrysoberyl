@@ -8,7 +8,7 @@ Beseige:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1999
-  platform: PC
+  platform: IBM PC compatible
   controls: keyboard
   development-stage: work in progress
   no-specification: true
@@ -70,7 +70,7 @@ Save Alan from the Tar Pit:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1999
-  platform: PC
+  platform: IBM PC compatible
   controls: keyboard
   development-stage: abandoned
   no-specification: true

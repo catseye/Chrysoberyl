@@ -7,8 +7,8 @@
   <li>
     <p><b>{{ link(thing) }}</b>
     (
-      {{- link(data[thing].genre) }},
-      {{ data[thing].platform -}}
+      {{- link(data[thing].genre) }}
+      {%- if data[thing].platform -%}, {{ link(data[thing].platform) }}{% endif -%}
       {%- if data[thing].controls -%}, {{ data[thing].controls }}{% endif -%}
     )
     </p>
