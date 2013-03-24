@@ -172,10 +172,12 @@ Super Wumpus Land:
   development-stage: mature
   description: |
     Super Wumpus Land is an "extended dance mix" version of [[Hunt the Wumpus]].
+  images:
+  - 'https://raw.github.com/catseye/Super-Wumpus-Land/master/images/Super%20Wumpus%20Land.png'
   online-implementations:
   - 'Super Wumpus Land (HTML5)'
 
-swl:
+swl.pl:
   type: Implementation
   implementation-of:
   - Super Wumpus Land
@@ -184,6 +186,15 @@ swl:
   host-language: Perl
   host-language-version: "5.8"
   interface: terminal
+
+swl.js:
+  type: Implementation
+  implementation-of:
+  - Super Wumpus Land
+  in-distribution: Super Wumpus Land distribution
+  license: BSD license
+  host-language: Javascript
+  interface: yoob.js TextTerminal
 
 Super Wumpus Land distribution:  
   type: Distribution

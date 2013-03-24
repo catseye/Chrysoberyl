@@ -97,7 +97,6 @@ DOC_PATTERNS = (
     r'^LICENSE$',
     r'^UNLICENSE$',
     r'^README',
-    r'^.*?\.html$',
     r'^.*?\.markdown$',
     r'^.*?\.txt$',
     r'^.*?\.lhs$',

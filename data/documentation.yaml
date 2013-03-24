@@ -88,10 +88,6 @@ Befunge-93 distribution/doc/Befunge-93.markdown:
   distribution: Befunge-93 distribution
   filename: doc/Befunge-93.markdown
   type: Document
-Befunge-93 distribution/eg/index.html:
-  distribution: Befunge-93 distribution
-  filename: eg/index.html
-  type: Document
 Beturing distribution/README.markdown:
   distribution: Beturing distribution
   filename: README.markdown
@@ -120,10 +116,6 @@ Bubble Escape distribution/README.markdown:
   distribution: Bubble Escape distribution
   filename: README.markdown
   type: Document
-Burro distribution/doc/burro-1.0.html:
-  distribution: Burro distribution
-  filename: doc/burro-1.0.html
-  type: Document
 Burro distribution/src/Burro.lhs:
   distribution: Burro distribution
   filename: src/Burro.lhs
@@ -143,10 +135,6 @@ C64 Demo Depot/petulant/readme.txt:
 C64 Demo Depot/ribos/readme.txt:
   distribution: C64 Demo Depot
   filename: ribos/readme.txt
-  type: Document
-Cabra distribution/doc/cabra.html:
-  distribution: Cabra distribution
-  filename: doc/cabra.html
   type: Document
 Castile distribution/README.markdown:
   distribution: Castile distribution
@@ -283,10 +271,6 @@ Exanoke distribution/LICENSE:
 Exanoke distribution/README.markdown:
   distribution: Exanoke distribution
   filename: README.markdown
-  type: Document
-FBBI distribution/doc/fbbi.html:
-  distribution: FBBI distribution
-  filename: doc/fbbi.html
   type: Document
 Falderal distribution/HISTORY.markdown:
   distribution: Falderal distribution
@@ -448,10 +432,6 @@ Gemooy distribution/UNLICENSE:
   distribution: Gemooy distribution
   filename: UNLICENSE
   type: Document
-Gemooy distribution/demo/gemooy.html:
-  distribution: Gemooy distribution
-  filename: demo/gemooy.html
-  type: Document
 GraNoLa/M distribution/README.markdown:
   distribution: GraNoLa/M distribution
   filename: README.markdown
@@ -480,10 +460,6 @@ Hev distribution/README.markdown:
   distribution: Hev distribution
   filename: README.markdown
   type: Document
-'Illgol: Grand Mal/1. ILLGOL/doc/illgol.html':
-  distribution: 'Illgol: Grand Mal'
-  filename: 1. ILLGOL/doc/illgol.html
-  type: Document
 'Illgol: Grand Mal/1. ILLGOL/doc/illgol.txt':
   distribution: 'Illgol: Grand Mal'
   filename: 1. ILLGOL/doc/illgol.txt
@@ -496,17 +472,9 @@ Hev distribution/README.markdown:
   distribution: 'Illgol: Grand Mal'
   filename: 2. Illgola-2/doc/illgola2.txt
   type: Document
-'Illgol: Grand Mal/2. Illgola-2/doc/index.html':
-  distribution: 'Illgol: Grand Mal'
-  filename: 2. Illgola-2/doc/index.html
-  type: Document
 'Illgol: Grand Mal/2. Illgola-2/prj/i2pptest.txt':
   distribution: 'Illgol: Grand Mal'
   filename: 2. Illgola-2/prj/i2pptest.txt
-  type: Document
-'Illgol: Grand Mal/3. Illberon/doc/index.html':
-  distribution: 'Illgol: Grand Mal'
-  filename: 3. Illberon/doc/index.html
   type: Document
 'Illgol: Grand Mal/4. Open Sores Illgol##/doc/i2readme.txt':
   distribution: 'Illgol: Grand Mal'
@@ -520,17 +488,9 @@ Hev distribution/README.markdown:
   distribution: 'Illgol: Grand Mal'
   filename: 4. Open Sores Illgol##/doc/poundpoundreadme.txt
   type: Document
-'Illgol: Grand Mal/4. Open Sores Illgol##/mod/index.html':
-  distribution: 'Illgol: Grand Mal'
-  filename: 4. Open Sores Illgol##/mod/index.html
-  type: Document
 'Illgol: Grand Mal/4. Open Sores Illgol##/prj/i2pptest.txt':
   distribution: 'Illgol: Grand Mal'
   filename: 4. Open Sores Illgol##/prj/i2pptest.txt
-  type: Document
-'Illgol: Grand Mal/4. Open Sores Illgol##/prj/index.html':
-  distribution: 'Illgol: Grand Mal'
-  filename: 4. Open Sores Illgol##/prj/index.html
   type: Document
 'Illgol: Grand Mal/README.markdown':
   distribution: 'Illgol: Grand Mal'
@@ -691,10 +651,6 @@ Quylthulg distribution/README.markdown:
 Quylthulg distribution/tests/Quylthulg.markdown:
   distribution: Quylthulg distribution
   filename: tests/Quylthulg.markdown
-  type: Document
-REDGREEN distribution/doc/redgreen.html:
-  distribution: REDGREEN distribution
-  filename: doc/redgreen.html
   type: Document
 RUBE II distribution/doc/impl.txt:
   distribution: RUBE II distribution
@@ -980,6 +936,10 @@ Strelnokoff distribution/doc/Strelnokoff.markdown:
   distribution: Strelnokoff distribution
   filename: doc/Strelnokoff.markdown
   type: Document
+Super Wumpus Land distribution/README.markdown:
+  distribution: Super Wumpus Land distribution
+  filename: README.markdown
+  type: Document
 TPiS distribution/LICENSE:
   distribution: TPiS distribution
   filename: LICENSE
@@ -1100,10 +1060,6 @@ Xigxag distribution/UNLICENSE:
   distribution: Xigxag distribution
   filename: UNLICENSE
   type: Document
-Xigxag distribution/doc/xigxag.html:
-  distribution: Xigxag distribution
-  filename: doc/xigxag.html
-  type: Document
 Xoomonk distribution/LICENSE:
   distribution: Xoomonk distribution
   filename: LICENSE
@@ -1195,10 +1151,6 @@ yoob distribution/README.markdown:
 yoob distribution/UNLICENSE:
   distribution: yoob distribution
   filename: UNLICENSE
-  type: Document
-yoob distribution/demo/yoob.html:
-  distribution: yoob distribution
-  filename: demo/yoob.html
   type: Document
 yucca distribution/LICENSE:
   distribution: yucca distribution
