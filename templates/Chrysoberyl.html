@@ -21,7 +21,7 @@
     <h2>Metanodes</h2>
     <ul>
     {%- for thing in data.keys()|sort -%}
-      {%- if data[thing].type == 'Metanode' -%}
+      {%- if data[thing].type == 'Metanode' and not data[thing].hidden -%}
         <li>
           {{ link(thing) }}
         </li>

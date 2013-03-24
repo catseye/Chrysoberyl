@@ -376,6 +376,18 @@ class Renderer(object):
                                    key=lambda x: self.data[x]['publication-date']))
 
         @expose
+        def latest_news_item():
+            latest = None
+            latest_date = None
+            for thing in self.data:
+                node = self.data[thing]
+                if node['type'] == 'Article':
+                    if latest_date is None or node['publication-date'] > latest_date:
+                        latest_date = node['publication-date']
+                        latest = node
+            return latest
+
+        @expose
         def strftime(date, fmt):
             return date.strftime(fmt)
 

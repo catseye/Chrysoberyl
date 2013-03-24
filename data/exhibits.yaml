@@ -23,6 +23,16 @@
     only two kilobytes of code!  These days you can't even sneeze in less
     than a megabyte.
 
+'Super Wumpus Land (HTML5)':
+  type: Online Installation
+  exhibit: Digital Art Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    [[Super Wumpus Land]] playable online in an HTML5 canvas simulating a
+    text terminal.
+
 ### Esolangs ###
 
 'yoob (Applet)':
