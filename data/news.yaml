@@ -1,3 +1,17 @@
+"Super Wumpus Land now playable online":
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 24 Mar 2013 12:28:33 GMT
+  blurb: |
+    [[Super Wumpus Land]] is now [[Super Wumpus Land (HTML5)|playable online]].
+  description: |
+    [[Super Wumpus Land]], our silly "extended dance mix" version of
+    [[Hunt the Wumpus]], has been converted to [[Javascript]], and is now
+    playable online here: [[Super Wumpus Land (HTML5)]].
+    
+    This new implementation uses modules from [[yoob.js]] to simulate
+    a text-based terminal on an [[HTML5]] `<canvas>` element.
+
 "Oops, I just turned Chrysoberyl into a blogging platform":
   type: Article
   article-type: announcement

@@ -82,6 +82,7 @@ tc.catseye.yoob:
   - yoob
   implementation-type: framework
   in-distribution: yoob distribution
+  generally-recommended: true
   license: Public Domain
   host-language: Java
 
@@ -98,3 +99,14 @@ yoob distribution:
   - version: "0.3"
     revision: "2011.0920"
     url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
+
+yoob.js:
+  type: Implementation
+  implementation-of:
+  - yoob
+  implementation-type: framework
+  license: Public Domain
+  host-language: Javascript
+  description: |
+    yoob.js is not strictly an implementation of yoob.  In fact, it's
+    a different framework.  But for now, you can think of it that way.
