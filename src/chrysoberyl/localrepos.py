@@ -141,7 +141,7 @@ def troll_docs(data, clone_dir, data_dir):
     #print "Doc lists extracted from %d clones." % count
 
 
-def survey_repos(data, clone_dir):
+def survey_repos(data, clone_dir, hg_outgoing=False):
     """Generates a report summarizing various properties of the local
     repository clones for distributions in Chrysoberyl.
 
@@ -162,8 +162,9 @@ def survey_repos(data, clone_dir):
                 has_modern_name = True
                 break
         dirty = get_it("hg st")
-        #outgoing = get_it("hg out")
         outgoing = ''
+        if hg_outgoing:
+            outgoing = get_it("hg out")
         if 'no changes found' in outgoing:
             outgoing = ''
         tags = {}

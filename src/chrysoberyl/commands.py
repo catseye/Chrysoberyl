@@ -38,9 +38,13 @@ def survey(args, optparser):
     """Survey local clones of distributions.
 
     """
+    optparser.add_option("--hg--outgoing",
+                         dest='hg_outgoing', default=False,
+                         action='store_true',
+                         help="call `hg outgoing` on each repo")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
-    survey_repos(data, options.clone_dir)
+    survey_repos(data, options.clone_dir, hg_outgoing=options.hg_outgoing)
     return 0
 
 
