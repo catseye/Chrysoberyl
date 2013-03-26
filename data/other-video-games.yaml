@@ -141,7 +141,7 @@ CoolBoarders 2:
   type: Game
   genre: Sports
   platform: Sony PlayStation
-  controls: D-pad and 6 button
+  controls: D-pad and 6 buttons
   authors: []
   solved-by:
   - Chris Pressey
@@ -241,6 +241,8 @@ Fall Down:
     floors, but also an element of strategy, since the floors are low-friction
     and you carry momentum, and a lot of just frantic fun running-around
     action.
+  links:
+  - 'http://www.atariage.com/software_page.html?SoftwareLabelID=2722'
 
 #~ <!--
   #~ Paradroid
