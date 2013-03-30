@@ -1013,6 +1013,9 @@ Wierd distribution:
   - version: "1.1"
     revision: "2011.1031"
     url: http://catseye.tc/distfiles/worb-1.1-2011.1031.zip
+  - version: "1.1"
+    revision: "2013.0330"
+    url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2013.0330.zip
 
 Xigxag distribution: 
   type: Distribution

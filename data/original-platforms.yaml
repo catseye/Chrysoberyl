@@ -100,13 +100,38 @@ yoob distribution:
     revision: "2011.0920"
     url: http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip
 
+yoob.js API:
+  type: Platform
+  summary: A framework for interactive esolang implementation
+  native-language: Javascript
+  other-languages: []
+  description: |
+    `yoob.js` is a framework for implementing esoteric programming languages
+    in Javascript/[[HTML5]].  It has some differences from the earlier [[yoob]]
+    framework, which is in Java.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Oct 4 2012
+  development-stage: not fully complete
+  reference-distribution: yoob.js distribution
+  esowiki: yoob
+
 yoob.js:
   type: Implementation
   implementation-of:
-  - yoob
+  - yoob.js API
   implementation-type: framework
   license: Public Domain
   host-language: Javascript
-  description: |
-    yoob.js is not strictly an implementation of yoob.  In fact, it's
-    a different framework.  But for now, you can think of it that way.
+  in-distribution: yoob.js distribution
+
+yoob.js distribution: 
+  type: Distribution
+  bitbucket: catseye/yoob.js
+  github: catseye/yoob.js
+  issue-tracker: github
+  #releases: 
+  #- version: "0.1"
+  #  url: http://catseye.tc/distfiles/befos-2006.0204.zip

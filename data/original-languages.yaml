@@ -1353,7 +1353,7 @@ gemooy.js:
   license: Public Domain
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: HTML5
+  host-platform: yoob.js API
 
 tc.catseye.yoob.gemooy:
   type: Implementation
@@ -2285,6 +2285,16 @@ worb.pl:
   reference: yes
   implementation-type: interpreter
   host-language: Perl
+
+worb.js:
+  type: Implementation
+  implementation-of:
+  - noit o' mnain worb
+  in-distribution: noit o' mnain worb distribution
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: yoob.js API
 
 tc.catseye.yoob.worb:
   type: Implementation
