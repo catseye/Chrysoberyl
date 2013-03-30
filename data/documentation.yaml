@@ -88,6 +88,10 @@ Befunge-93 distribution/doc/Befunge-93.markdown:
   distribution: Befunge-93 distribution
   filename: doc/Befunge-93.markdown
   type: Document
+Befunge-93 distribution/eg/README.markdown:
+  distribution: Befunge-93 distribution
+  filename: eg/README.markdown
+  type: Document
 Beturing distribution/README.markdown:
   distribution: Beturing distribution
   filename: README.markdown
@@ -652,6 +656,10 @@ Quylthulg distribution/tests/Quylthulg.markdown:
   distribution: Quylthulg distribution
   filename: tests/Quylthulg.markdown
   type: Document
+REDGREEN distribution/README.markdown:
+  distribution: REDGREEN distribution
+  filename: README.markdown
+  type: Document
 RUBE II distribution/doc/impl.txt:
   distribution: RUBE II distribution
   filename: doc/impl.txt
@@ -1150,6 +1158,14 @@ yoob distribution/README.markdown:
   type: Document
 yoob distribution/UNLICENSE:
   distribution: yoob distribution
+  filename: UNLICENSE
+  type: Document
+yoob.js distribution/README.markdown:
+  distribution: yoob.js distribution
+  filename: README.markdown
+  type: Document
+yoob.js distribution/UNLICENSE:
+  distribution: yoob.js distribution
   filename: UNLICENSE
   type: Document
 yucca distribution/LICENSE:
