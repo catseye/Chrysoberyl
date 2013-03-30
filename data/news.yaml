@@ -1,3 +1,37 @@
+"noit o' mnain worb implemented in HTML5":
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 30 Mar 2013 18:34:22 GMT
+  blurb: |
+    [[noit o' mnain worb]] has been implemented in
+    [[noit o' mnain worb (HTML5)|HTML5]].
+  description: |
+    The implementation of various things in HTML5 continues.  This
+    time it's [[noit o' mnain worb]], which you can play with
+    [[noit o' mnain worb (HTML5)|here]].  With pretty graphics,
+    for some value of pretty.
+    
+    Seeing as worb has already been implemented in [[yoob]], why
+    do this?  It's not like I can say it's "now playable online", because
+    it already was.  (Or if not "playable", then... "play withable"...
+    or whatever.)
+    
+    Well, the security track record for Java applets has been
+    rather awful lately.  Certainly, applets aren't going away, but they're
+    quickly falling out of fashion.  Updating your browser may,
+    reasonably, disable Java.  We may one day, not far off, see the JVM
+    stop being shipped with browsers, and available only as an add-on.
+    
+    And that all means I have to tell you to install and/or enable Java in
+    your browser, which defeats the idea of reducing the install burden for
+    esolangs, which was one of the original goals of yoob.
+    
+    The newer [[yoob.js]] framework, which uses [[HTML5]] instead of Java,
+    is still pretty messy and ad-hoc, and lacks
+    a few things that would be nice to have, like adjustable animation
+    speed.  But the more things, like this, that get implemented in it, the
+    more it will mature.
+
 "Super Wumpus Land now playable online":
   type: Article
   article-type: announcement
