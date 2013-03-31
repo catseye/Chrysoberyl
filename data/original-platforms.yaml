@@ -132,6 +132,7 @@ yoob.js distribution:
   bitbucket: catseye/yoob.js
   github: catseye/yoob.js
   issue-tracker: github
-  #releases: 
-  #- version: "0.1"
-  #  url: http://catseye.tc/distfiles/befos-2006.0204.zip
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yoob.js-0.1.zip

@@ -134,14 +134,23 @@ def release(args, optparser):
         print "ERROR: repository not tagged"
         return 1
     match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
-    if not match:
-        print "ERROR: not a release tag: %s" % tag
-        return 1
-    v_maj = match.group(1)
-    v_min = match.group(2)
-    r_maj = match.group(3)
-    r_min = match.group(4)
-    filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
+    if match:
+        v_maj = match.group(1)
+        v_min = match.group(2)
+        r_maj = match.group(3)
+        r_min = match.group(4)
+        filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
+    else:
+        match = re.match(r'^rel_(\d+)_(\d+)$', tag)
+        if match:
+            v_maj = match.group(1)
+            v_min = match.group(2)
+            r_maj = "0"
+            r_min = "0"
+            filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
+        else:
+            print "ERROR: not a release tag: %s" % tag
+            return 1
     print """\
   - version: "%s.%s"
     revision: "%s.%s"
