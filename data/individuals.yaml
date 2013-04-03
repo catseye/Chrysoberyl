@@ -68,6 +68,41 @@ Chris Pressey:
         souls
     -   pedlars of profundity (Penrose, Wolfram, Hofstadter...)
     
+    Languages I code in regularly:
+    
+    * Python
+    * Haskell
+    * C
+    * Javascript
+    
+    Languages I code in occasionally:
+    
+    * Ruby
+    * Java
+    * x86 Assembler
+    * 6502 Assembler
+    
+    Languages I used to code in, and still might, sometimes, although rarely
+    
+    * Scheme
+    * Erlang
+    * Lua
+    * 8-bit BASIC
+    
+    Languages I used to code in, and effectively do not anymore:
+    
+    * Perl
+    * Visual Basic
+    * Pascal
+    
+    Languages I do not code in unless I absolutely have to:
+    
+    * C++
+    
+    Languages I have tried to code in but will probably never do so regularly:
+    
+    * pretty much anything I've implemented Deadfish in
+    
     http://www.amazon.com/gp/registry/wishlist/1FDWC4EXHC59
     
     7-zip (windows)
@@ -104,6 +139,172 @@ Chris Pressey:
     winamp (windows)
     winscp (windows)
     zangband
+    
+    Windows
+            Firefox
+            + Web Developer
+            + Firebug
+            + Greasemonkey
+            + (header spoofers)
+            Cygwin
+    ...	Erlang for Windows
+    ...	Racket for Windows
+    ...	WinVICE
+    ...	WinUAE
+    ...	FileZilla
+    ...     SciTE
+    ...     PuTTY
+    ...     WinSCP
+    ...     GIMP for Windows
+    ...     Haskell Platform
+    ...     WinHugs
+    ...     7-Zip
+    ...     DOSBox
+    ...     Bochs
+    ...     uTorrent
+    ...     Adobe Flash Player
+    ...     Adobe Reader
+    ...     Finestra Virual Desktops (2.1, not 2.5)
+    ...     GPG4Win
+    ...     Java SE SDK
+    ...     Microsoft .NET Framework 3.5 / 4.x
+    ...     Pidgin
+    ...     OpenOffice.org
+    ...     VLC Media Player
+    
+    in cygwin:
+            arj
+            autoconf
+            automake
+            bison
+            bzip2
+            colordiff
+            coreutils
+            cvs
+            diffutils
+            file
+            findutils
+            flex
+            gawk
+            gcc
+            gcc-mingw
+            genisoimage
+            git (has problems w/http.  use ssh)
+            grep
+            gzip
+            irssi
+            less
+            libxml2
+            libxslt
+            links
+            m4
+            make
+            man
+            mercurial
+            nano
+            nasm
+            netcat
+            openssh
+            patch
+            pdftk
+            perl
+            psmisc
+            python
+            python-libxml2
+            python-libxslt
+            rlwrap
+            ruby
+            sed
+            subversion
+            tar
+            unzip
+            upx
+            util-linux
+            w32api
+            wget
+            which
+            xz
+            zip
+            zlib
+            zlib-devel
+            zlib0
+            zoo
+    from source on cygwin:
+            setuptools (for easy_install) http://peak.telecommunity.com/dist/ez_setup.py
+    
+    Linux
+            git
+            mercurial
+    
+            gcc
+            g++ (to build VICE at least)
+            ghc
+            erlang
+            openjdk-6-jdk (openjdk-7-jdk?)
+            php5-cli
+            fpc (on 10.10 this has a different name)
+            r-base
+    
+            racket (on 10.10 there's only plt-scheme) (for plt-r5rs for pixley)
+            tinyscheme (for pixley)
+            scheme48 (won't work as-is for pixley, interactive command line only?)
+            chicken (won't work as-is for pixley, compiler only?)
+    
+            python-setuptools (for easy_install)
+            python-dev (for to build C parts of python pkgs)
+            cabal-install
+    
+            bison (for pcc)
+            flex (for pcc)
+            libxaw7 (for VICE)
+            libgtk2.0-dev (for VICE)
+            libasound2-dev (for VICE)
+    
+            gimp
+            filezilla
+    
+            tree
+            colordiff
+            meld
+            scite
+            rlwrap
+            realpath
+            nmap (for ncat)
+            screen
+            xsltproc  (libxml2)  (for grind)
+    
+            mplayer
+    
+            dosbox
+            bochs
+            e-uae (need to set this up)
+            frotz
+            stella
+    
+    from cabal:
+            [to install pkgs locally: cabal install --prefix=$HOME --user]
+            hscurses
+            pandoc
+            Parsec
+    
+    from easy_install:
+            [to install pkgs locally: easy_install --prefix=$HOME...
+             but don't bother; try it to see the error message]
+    
+            grin
+            dulwich (for hg-git, needs python-dev)
+            Markdown
+            PyYaml
+            Jinja2 (2.6)
+    
+    from source:
+            chibi-scheme
+            pcc: requires bison, flex
+    
+            vice: requires g++, libxaw7; libgtk2.0-dev; libasound2-dev
+                    ./configure --prefix=$HOME --enable-gnomeui
+    
+            hg-git
 
   see-also:
   - Chris Pressey's Lingography
