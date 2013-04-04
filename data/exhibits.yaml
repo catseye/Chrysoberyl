@@ -3,7 +3,7 @@
 
 'Bubble Escape (JaC64)':
   type: Online Installation
-  exhibit: Commodore 64 Exhibit
+  exhibit: Computer Games Exhibit
   interactive: true
   animated: true
   medium: Java applet
@@ -25,7 +25,7 @@
 
 'Super Wumpus Land (HTML5)':
   type: Online Installation
-  exhibit: Digital Art Exhibit
+  exhibit: Computer Games Exhibit
   interactive: true
   animated: true
   medium: HTML5

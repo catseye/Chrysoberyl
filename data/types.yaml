@@ -25,11 +25,10 @@ Online Installation:
         programs and watching them run, you can gain an appreciation of how the
         esolang computes stuff; by composing your own programs, you can gain an
         even better appreciation.
-    *   Programs (primarily games) written for the [[Commodore 64]], powered by
-        the [[JaC64]] Java™ applet, which allows you to run these programs in
-        your web browser.
-    *   Digital art (audiovisual, animated, interactive, or otherwise) for you to
-        experience online.
+    *   [[Game|Computer games]] which you can play.  Some games are for the
+        [[Commodore 64]], and these are web-enabled by the [[JaC64]] Java™ applet.
+    *   Digital art (audiovisual, animated, interactive, or otherwise) which you
+        can experience online.
 
 Concept:
   type: type
