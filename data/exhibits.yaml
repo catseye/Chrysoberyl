@@ -73,7 +73,6 @@
     [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
     This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
 
-
 "noit o' mnain worb (HTML5)":
   type: Online Installation
   exhibit: Esolangs Exhibit
@@ -83,6 +82,56 @@
   description: |
     [[noit o' mnain worb]] is a probabilistic particle automaton.
     This online interpreter is implemented in Javascript, on an HTML5 canvas.
+
+'Braktif (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    The [[Braktif]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
+
+'Circute (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
+
+'REDGREEN (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
+
+'Jaccia (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    The [[Jaccia]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
+
+'Jacciata (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    The [[Jacciata]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
 
 
 ### Visual ###
