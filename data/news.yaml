@@ -1,3 +1,32 @@
+"An Online Parade of Cellular Automata":
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 06 Apr 2013 12:08:26 GMT
+  blurb: |
+    Our five [[ALPACA]] creations are now online in
+    the [[Online Installation|Gallery]].
+  description: |
+    It's about time!  You can now play with Cat's Eye Technologies'
+    cellular automata in your web browser on the following pages:
+    [[REDGREEN (HTML5)]], [[Circute (HTML5)]], [[Braktif (HTML5)]],
+    [[Jaccia (HTML5)]], and [[Jacciata (HTML5)]].
+    
+    I've wanted to be able to generate some kind of usable-in-a-web-browser
+    code from [[ALPACA]] descriptions for a good long while.  At one point
+    I even considered hacking [[alpaca.pl]] to generate [[yoob]] classes
+    to do it.  Well, the ALPACA language got a long-deserved update, and
+    [[Perl]] gave way to [[Python]] for the new compiler; and yoob in
+    [[Java]] has given way to [[yoob.js]] in [[Javascript]].
+    
+    (In fact, there's nothing much HTML5-specific about these Javascript
+    implementations, except for a slider control for adjusting the animation
+    speed, which is kind of crude and subject to change anyway.)
+    
+    The few improvements to yoob.js that were spurred on by this effort to
+    get these CA's online have also resulted in improvements to the
+    online installations of [[Gemooy (HTML5)]] and
+    [[noit o' mnain worb (HTML5)]].
+
 "noit o' mnain worb implemented in HTML5":
   type: Article
   article-type: announcement
