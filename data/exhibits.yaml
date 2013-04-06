@@ -157,8 +157,13 @@
   animated: true
   medium: HTML5
   description: |
-    Op art: An eye-tickler.  Starts getting interesting around 100 iterations,
-    and starts stopping being interesting around 1550 (YMMV).
+    Animated op-art exhibiting a [Moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
+  commentary: |
+    This was one of the first bits of `<canvas>` code I ever wrote; I essentially
+    wrote it by accident -- it wasn't quite what I meant, but I liked it, and kept it.
+    For me, in Firefox, it starts getting interesting around 100 iterations,
+    and starts stopping being interesting around 1550.  In Chromium, you can
+    still see some activity at about 2000 iterations, but it's very faint thereafter.
 
 'Prairie (HTML5)':
   type: Online Installation
@@ -167,4 +172,9 @@
   animated: true
   medium: HTML5
   description: |
-    Animated impressionism:  An impression of the prairies.
+    An animation impressionistic depiction of the prairies.
+  commentary: |
+    I composed this while still in Winnipeg and still
+    learning about the capabilities of `<canvas>` -- something about the
+    wind and the wheat...  The background is a public-domain drawing
+    of a grain elevator taken from Wikimedia.
