@@ -475,6 +475,8 @@ Braktif:
     -----------------d-i--         --------
   inception-date: 2005
   development-stage: mature
+  online-implementations:
+  - 'Braktif (HTML5)'
   see-also:
   - pibfi
 
@@ -711,6 +713,7 @@ Circute:
   inception-date: 2005
   development-stage: mature
   online-implementations:
+  - 'Circute (HTML5)'
   - 'yoob (Applet)'
 
 tc.catseye.yoob.circute:
@@ -1311,8 +1314,8 @@ Gemooy:
   development-stage: mature
   esowiki: Gemooy
   online-implementations:
-  - 'yoob (Applet)'
   - 'Gemooy (HTML5)'
+  - 'yoob (Applet)'
   authors:
   - Chris Pressey
   auspices:
@@ -1741,6 +1744,8 @@ Jaccia:
     # # ###:###
     #   #  :::#
     #########F#
+  online-implementations:
+  - 'Jaccia (HTML5)'
 
 Jacciata:
   type: Programming Language
@@ -1789,6 +1794,8 @@ Jacciata:
     # # ###:###
     #   #  :::#
     #########F#
+  online-implementations:
+  - 'Jacciata (HTML5)'
 
 jaccia.alp:
   type: Implementation
@@ -2656,6 +2663,8 @@ REDGREEN:
                                                     T
   inception-date: 1998
   development-stage: mature
+  online-implementations:
+  - 'REDGREEN (HTML5)'
 
 redgreen.alp:
   type: Implementation

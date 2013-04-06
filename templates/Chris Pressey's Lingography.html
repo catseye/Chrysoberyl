@@ -71,7 +71,7 @@
       {% if data[thing].online_implementations %}
         <p>
           {% for oikey in data[thing].online_implementations|sort %}
-            <a class="button" href="{{ data[oikey].exhibit_link }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
+            <a class="button" href="{{ filekey(oikey) }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
           {% endfor %}
         </p>
       {% endif %}
