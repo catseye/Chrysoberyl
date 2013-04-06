@@ -89,6 +89,7 @@
   interactive: true
   animated: true
   medium: HTML5
+  ca-definition-link: https://github.com/catseye/Braktif/blob/master/src/braktif.alp
   description: |
     The [[Braktif]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
@@ -99,6 +100,7 @@
   interactive: true
   animated: true
   medium: HTML5
+  ca-definition-link: https://github.com/catseye/Circute/blob/master/src/circute.alp
   description: |
     The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
@@ -109,6 +111,7 @@
   interactive: true
   animated: true
   medium: HTML5
+  ca-definition-link: https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp
   description: |
     The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
@@ -119,6 +122,7 @@
   interactive: true
   animated: true
   medium: HTML5
+  ca-definition-link: https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp
   description: |
     The [[Jaccia]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
@@ -129,6 +133,7 @@
   interactive: true
   animated: true
   medium: HTML5
+  ca-definition-link: https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp
   description: |
     The [[Jacciata]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
