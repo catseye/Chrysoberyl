@@ -112,6 +112,14 @@ Bhuna distribution/doc/bhuna.txt:
   distribution: Bhuna distribution
   filename: doc/bhuna.txt
   type: Document
+Braktif distribution/LICENSE:
+  distribution: Braktif distribution
+  filename: LICENSE
+  type: Document
+Braktif distribution/README.markdown:
+  distribution: Braktif distribution
+  filename: README.markdown
+  type: Document
 Bubble Escape distribution/LICENSE:
   distribution: Bubble Escape distribution
   filename: LICENSE
@@ -155,6 +163,10 @@ Cfluviurrh distribution/LICENSE:
 Cfluviurrh distribution/README.markdown:
   distribution: Cfluviurrh distribution
   filename: README.markdown
+  type: Document
+Circute distribution/LICENSE:
+  distribution: Circute distribution
+  filename: LICENSE
   type: Document
 Circute distribution/README.markdown:
   distribution: Circute distribution
@@ -655,6 +667,10 @@ Quylthulg distribution/README.markdown:
 Quylthulg distribution/tests/Quylthulg.markdown:
   distribution: Quylthulg distribution
   filename: tests/Quylthulg.markdown
+  type: Document
+REDGREEN distribution/LICENSE:
+  distribution: REDGREEN distribution
+  filename: LICENSE
   type: Document
 REDGREEN distribution/README.markdown:
   distribution: REDGREEN distribution

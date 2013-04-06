@@ -70,9 +70,13 @@ def troll(args, optparser):
     filenames.
 
     """
+    optparser.add_option("-o", "--output",
+                         dest="output_filename", metavar='FILENAME',
+                         default=None,
+                         help="write updated documentation yaml here")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
-    troll_docs(data, options.clone_dir, options.data_dirs.split(':'))
+    troll_docs(data, options.clone_dir, options.output_filename)
     return 0
 
 
