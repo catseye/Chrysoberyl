@@ -126,6 +126,10 @@
   description: |
     The [[Jaccia]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
+    
+    Jaccia demonstrates that cellular automata are
+    [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
+    See also [[Jacciata (HTML5)]].
 
 'Jacciata (HTML5)':
   type: Online Installation
@@ -137,6 +141,10 @@
   description: |
     The [[Jacciata]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
+    
+    Jacciata demonstrates that cellular automata are
+    [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
+    See also [[Jaccia (HTML5)]].
 
 
 ### Visual ###
