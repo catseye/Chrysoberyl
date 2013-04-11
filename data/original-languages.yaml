@@ -2962,6 +2962,16 @@ tc.catseye.yoob.smetana:
   host-language: Java
   host-platform: yoob
 
+SMETANA (Visual Basic):
+  type: Implementation
+  implementation-of:
+  - SMETANA
+  license: Freely Redistributable
+  implementation-type: interpreter
+  host-language: Visual Basic
+  development-stage: lost
+  interface: GUI
+
 
 SMITH:
   type: Programming Language

@@ -867,7 +867,7 @@ R:
   authors: []
   isbn: 3-900051-07-0
   commentary: |
-    R IS THE LANGUAGE OF THE FUTURE.
+    [R IS THE LANGUAGE OF THE FUTURE](http://www.inside-r.org/blogs/2011/03/31/revolutions-chief-scientist-r-language-future).
     
     IT'S SO FUTURE, IT EVEN HAS AN ISBN: 3-900051-07-0
 
@@ -1028,6 +1028,17 @@ SETL:
   specification-link: http://setl.org/setl/doc/
   # archival?
   development-stage: mature
+  authors: []
+
+
+Visual Basic:
+  type: Programming Language
+  genre: Production language
+  member-of: BASIC
+  standards-body: http://microsoft.com/
+  development-stage: mature
+  paradigms:
+  - Imperative
   authors: []
 
 

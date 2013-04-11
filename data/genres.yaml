@@ -95,6 +95,8 @@ Conquest:
   type: Genre
 Role-playing:
   type: Genre
+Toy:
+  type: Genre
 
 # MUSIC
 
