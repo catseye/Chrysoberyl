@@ -68,6 +68,14 @@
       {%- else %}
         is distributed under the {{ link(license) }}
       {%- endif -%}.
+      
+      {%- if development_stage %}
+        {% if development_stage == 'lost' %}
+          It has been {{ link('lost') }}.
+        {% else %}
+          It is in the development stage: {{ link(development_stage) }}.
+        {% endif %}
+      {% endif -%}
     </p>
     {% if description_html %}
       {{ description_html }}

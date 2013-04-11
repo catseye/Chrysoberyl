@@ -150,13 +150,13 @@
 ### Digital Art ###
 
 'Cyclobots (HTML5)':
-  hidden: true
   type: Online Installation
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
   medium: HTML5
   description: |
+    An in-browser implementation of [[Cyclobots]].
     Each "cyclobot" tries to follow exactly one other cyclobot, adjusting
     its heading to point towards the cyclobot it is following.
     No cylobot is followed by more than one cyclobot.
