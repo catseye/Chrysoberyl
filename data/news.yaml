@@ -1,3 +1,38 @@
+"I'd been meaning to re-implement this for ages":
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 12 Apr 2013 09:26:41 GMT
+  blurb: |
+    Our 1994 automaton [[Cyclobots]] is now
+    [[Cyclobots (HTML5)|live in-browser]] in
+    the [[Online Installation|Gallery]].
+  description: |
+    Turn back the clock.  It's 1994.  NAFTA.  OJ Simpson.  Rwanda.
+    And [[SMETANA]], implemented for the first time in [[Visual Basic]].
+    
+    And, unseen by all but maybe three or four people, [[Cyclobots]].
+    
+    Also implemented in Visual Basic.  Described as an "interactive
+    desktop toy".  Fun to watch.  Languished in obscurity because I
+    had other interests at the time.
+    
+    Then, the Visual Basic programs were forgotten, and eventually [[lost]].
+    When Java came on the scene, I had meant to re-implement it as an applet.
+    But man, that must have been one *low* priority TODO item, because I
+    never got around to it.
+    
+    [[Cyclobots (HTML5)|Until now]].
+    
+    'Course, it's not a Java applet now, it's [[Javascript]] on an [[HTML5]]
+    canvas, so make sure you're using one of those awesome new
+    cutting-edge browsers, i.e., you've updated your Interwebs Explorer
+    recently.
+    
+    If you enjoyed watching what happens when you click "Revolution!" —
+    and I mean *really* enjoyed it — feel free to show your appreciation
+    by tossing a quarter into
+    [this here empty guitar case](https://www.gittip.com/catseye/).
+
 "An Online Parade of Cellular Automata":
   type: Article
   article-type: announcement
