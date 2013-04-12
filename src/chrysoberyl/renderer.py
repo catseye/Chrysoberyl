@@ -241,7 +241,7 @@ class Renderer(object):
 
         @expose
         def link(key, format="%s", indefart=False, lower=False, plural=False,
-                 link_text=None):
+                 link_text=None, title=None):
             """Return an HTML link to the node with the given key.
 
             indefart causes the link text to be preceded by an indefinite
@@ -265,8 +265,11 @@ class Renderer(object):
                 if plural:
                     link_text = _plural(link_text)
                 link_text = format % link_text
-            return '<a href="%s">%s</a>' % (
-                pathname2url(filekey(key)), link_text
+            title_attr = ''
+            if title is not None:
+                title_attr = ' title="%s"' % title
+            return '<a href="%s"%s>%s</a>' % (
+                pathname2url(filekey(key)), title_attr, link_text
             )
 
         # not the kind you're probably thinking of
@@ -290,6 +293,23 @@ class Renderer(object):
                     ', '.join([link(f, format=format) for f in front]),
                     link(last, format=format)
                 )
+
+        @expose
+        def strip_outer_p(text):
+            match = re.match(
+                r'^\s*\<p\>\s*(.*?)\s*\<\/p\>\s*$', text,
+                re.DOTALL
+            )
+            if match:
+                return match.group(1)
+            return text
+
+        @expose
+        def debug(text):
+            print
+            print text
+            print
+            return ''
 
         @expose
         def breadcrumbs(key=key):
@@ -377,6 +397,9 @@ class Renderer(object):
 
         @expose
         def latest_news_item():
+            """Returns a key, not a node.
+
+            """
             latest = None
             latest_date = None
             for thing in self.data:
@@ -384,7 +407,7 @@ class Renderer(object):
                 if node['type'] == 'Article':
                     if latest_date is None or node['publication-date'] > latest_date:
                         latest_date = node['publication-date']
-                        latest = node
+                        latest = thing
             return latest
 
         @expose

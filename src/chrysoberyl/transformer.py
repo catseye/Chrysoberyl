@@ -76,10 +76,6 @@ def convert_chrysoberyl_data(data):
         for field in ('summary', 'description', 'commentary'):
             node[field + '_html'] = markdown_field(data, node, field)
         node['blurb_html'] = markdown_field(data, node, 'blurb', prefix='node/')
-        if node['blurb_html'] is not None:
-            match = re.match(r'^\s*\<p\>(.*?)\<\/p\>\s*$', node['blurb_html'])
-            if match:
-                node['blurb_html'] = match.group(1)
         for sample_key in ('sample', 'sample_input', 'sample_output'):
             if sample_key in node:
                 sample_md = '\n'.join(
