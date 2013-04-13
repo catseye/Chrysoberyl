@@ -11,14 +11,14 @@
         related('implementation-of', key=thing) -%}
     <li>
       <p>
-        {{ link(thing) }}
+        <strong>{{ link(thing) }}</strong>
         (<i>{{ link(data[thing].genre, lower=true) }},
          {{ link(data[thing].composed_on) }},
          {{ data[thing].inception_date }}</i>)
         —
         {% for impl in related('implementation-of', key=thing)|sort %}
           {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
-              <a class="download" href="{{ data[impl].links[0] }}">download {{ impl }}</a>
+            <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
           {% endif %}
         {% endfor %}
       </p>
@@ -53,7 +53,7 @@
          {%- endif %}</i>)
         —
         {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
-            <a class="download" href="{{ data[impl].links[0] }}">download {{ impl }}</a>
+          <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
         {% endif %}
       </p>
       {% if data[impl].description_html %}
