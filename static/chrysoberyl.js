@@ -3,22 +3,26 @@
  */
 
 /*
- * Given a CSS class and local URL prefix, apply the class to all links
- * ('a' tags) on the page which are considered external.
+ * Given a CSS class and list of internal URL prefixes, apply the class to
+ * all links ('a' tags) in the document which are considered external.
  * A link is considered external if it begins with "http://" or "https://"
- * and does not begin with the local URL prefix.
+ * and does not begin with any of the internal URL prefixes.
  */
-function addClassToExternalLinks(cssClass, localUrlPrefix) {
+function addClassToExternalLinks(cssClass, internalPrefixes) {
   var anchors = document.getElementsByTagName('a');
   for (var i = 0; i < anchors.length; i++) {
     var elem = anchors[i];
     var href = elem.href;
-    if (href.substring(0, 16) == "http://127.0.0.1") continue;
-    if (href.substring(0, 7) == "http://" || href.substring(0, 8) == "https://") {
-      var prefix = href.substring(0, localUrlPrefix.length);
-      if (prefix != localUrlPrefix) {
-        elem.className += elem.className ? (' ' + cssClass) : cssClass;
+    var decorate = true;
+    for (var j = 0; j < internalPrefixes.length; j++) {
+      var prefix = internalPrefixes[j];
+      if (href.substring(0, prefix.length) === prefix) {
+        decorate = false;
+        break;
       }
+    }
+    if (decorate) {
+      elem.className += elem.className ? (' ' + cssClass) : cssClass;
     }
   }
 }
@@ -41,7 +45,11 @@ function expandElementToFillDocument(article, footer) {
   }
 }
 
-addClassToExternalLinks('external', "http://catseye.tc");
+addClassToExternalLinks('external', [
+  "http://catseye.tc",
+  "http://www.catseye.tc",
+  "http://127.0.0.1"
+]);
 expandElementToFillDocument(
   document.getElementsByTagName('article')[0],
   document.getElementsByTagName('footer')[0]
