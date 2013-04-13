@@ -1,0 +1,650 @@
+# encoding: UTF-8
+
+Braktif:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Cellular automaton
+  description: |
+    Braktif is a cellular automaton modelled closely after the [[brainfuck]]
+    programming language.
+  computational-class: believed Turing-complete
+  esowiki: Braktif
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  etymology:
+  - television character
+  - portmanteau
+  - french
+  influences:
+  - brainfuck
+  paradigms:
+  - Cellular automaton
+  dimensionality: 2
+  sample: |2
+                                *
+                           <<*[--]*
+    000000000000000000  *[-----  --]
+    -----------------d-i--         --------
+  inception-date: 2005
+  development-stage: mature
+  online-implementations:
+  - 'Braktif (HTML5)'
+  see-also:
+  - pibfi
+
+braktif.alp:
+  type: Implementation
+  implementation-of:
+  - Braktif
+  reference: true
+  prebuilt-for-platforms:
+  - Perl
+  in-distribution: Braktif distribution
+  license: BSD license
+  implementation-type: formal description
+  host-language: ALPACA
+
+
+Circute:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Cellular automaton
+  description: |
+    Circute is a cellular automaton that simulates conduits that
+    carry digital signals and NAND gates that manipulate those signals.
+  esowiki: Circute
+  paradigms:
+  - Cellular automaton
+  etymology:
+  - portmanteau
+  influences:
+  - Wireworld
+  dimensionality: 2
+  computational-class: known not Turing-complete
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  sample: |2
+                      =
+                      =
+       #######==   ===N===   =========
+       #       =   =     =   =       =
+     ==N==     = ==N== ==N== =     ==N==
+     =   =     = =   = =   = =     =   =
+     =====     = ===== ===== =     =====
+       =       =   =     =   =       =
+       =============     =============
+  inception-date: 2005
+  development-stage: mature
+  online-implementations:
+  - 'Circute (HTML5)'
+  - 'yoob (Applet)'
+
+tc.catseye.yoob.circute:
+  type: Implementation
+  implementation-of:
+  - Circute
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+  host-platform: yoob
+
+circute.alp:
+  type: Implementation
+  implementation-of:
+  - Circute
+  reference: true
+  in-distribution: Circute distribution
+  prebuilt-for-platforms:
+  - Perl
+  license: BSD license
+  implementation-type: formal description
+  host-language: ALPACA
+
+
+Cyclobots:
+  type: Automaton
+  genre: Toy
+  paradigms:
+  - Angular
+  no-specification: true
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1994
+  development-stage: mature
+  description: |
+    Cyclobots is an automaton that consists of a number of little virtual
+    "turtle robots" called "cyclobots".  Each cyclobot moves with a constant
+    velocity, and tries to follow exactly one other cyclobot, adjusting
+    its heading to point towards the cyclobot it is following.
+    No cylobot is followed by more than one cyclobot.
+    
+    A group of cyclobots tends to fall into one of several semi-stable
+    patterns.  The simplest of these is just a rotating circle, but
+    more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
+    patterns are more common.
+  commentary: |
+    It's not really a game — or, rather, it's a game in the same way John
+    Conway's Game of Life is a game.  I originally called it an
+    "interactive desktop toy".
+    
+    I originally conceived of this automaton in or around 1994, and implemented
+    it immediately in Visual Basic.  I remember the year because I wrote the
+    first implementation of [[SMETANA]] in Visual Basic at about the same time.
+    
+    The original implementation had a few features which are not present (yet)
+    in the HTML5 version: cyclobots could collide with each other, and the user
+    could use the mouse to attract/repel them from a chosen point.
+  online-implementations:
+  - 'Cyclobots (HTML5)'
+  see-also:
+  - SMETANA
+
+Cyclobots (Visual Basic):
+  type: Implementation
+  implementation-of:
+  - Cyclobots
+  license: Freely Redistributable
+  host-language: Visual Basic
+  development-stage: lost
+  interface: GUI
+
+
+Didigm:
+  # technically a family, but Didigm also refers to the member Didigm(8),
+  # and the family is not that interesting.
+  type: Automaton
+  summary: A reflective cellular automaton
+  genre: Esolang
+  paradigms:
+  - Cellular automaton
+  - Reflective
+  description: |
+    Didigm is a reflective cellular automaton: the transition rules
+    for the automaton are defined by forms in the very playfield governed by
+    those transition rules.
+  tagline: |-
+    Didigm = ALPACA + Ypsilax
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  esowiki: Didigm
+  dimensionality: 2
+  inception-date: Nov 20, 2007
+  development-stage: not fully complete
+  etymology:
+  - neologism
+  sample: |
+    3333333333333
+    3002300230073
+    3111311132113
+    3311321131573
+    3111311131333
+    3333333333333
+    =F3
+    ,
+    =F1
+    111111111111111
+    111111131111111
+    111111111111574
+    111111111111333
+    311111111111023
+    111111111111113
+
+
+Jaccia:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Cellular automaton
+  - 2-dimensional
+  description: |
+    Jaccia and Jacciata are cellular automata inspired by the [Announcement
+    of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
+    Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
+    upon this to find the shortest path through a maze, if one exists and is unique.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 11, 2009
+  development-stage: mature
+  dimensionality: 2
+  reference-distribution: Jaccia and Jacciata distribution
+  etymology:
+  - neologism
+  computational-class: known not Turing-complete
+  sample: |
+    #######S###
+    #:::::::::#
+    #:###:###:#
+    #:#:#:::#:#
+    #:#:#:#:###
+    #:::#:#:#:#
+    #####:#:#:#
+    #:#:::#:::#
+    #:#:###:###
+    #:::#:::::#
+    #########F#
+  sample-output: |
+    #######S###
+    #    :::  #
+    # ###:### #
+    # # #:::# #
+    # # # #:###
+    #   # #:# #
+    ##### #:# #
+    # #   #:  #
+    # # ###:###
+    #   #  :::#
+    #########F#
+  online-implementations:
+  - 'Jaccia (HTML5)'
+
+Jacciata:
+  type: Automaton
+  genre: Esolang
+  variant-of: Jaccia
+  paradigms:
+  - Cellular automaton
+  - 2-dimensional
+  description: |
+    Jaccia and Jacciata are cellular automata inspired by the [Announcement
+    of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
+    Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
+    upon this to find the shortest path through a maze, if one exists and is unique.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 11, 2009
+  development-stage: mature
+  dimensionality: 2
+  reference-distribution: Jaccia and Jacciata distribution
+  etymology:
+  - neologism
+  computational-class: known not Turing-complete
+  sample: |
+    #######S###
+    #:::::::::#
+    #:###:###:#
+    #:#:#:::#:#
+    #:#:#:#:###
+    #:::#:#:#:#
+    #####:#:#:#
+    #:#:::#:::#
+    #:#:###:###
+    #:::#:::::#
+    #########F#
+  sample-output: |
+    #######S###
+    #    :::  #
+    # ###:### #
+    # # #:::# #
+    # # # #:###
+    #   # #:# #
+    ##### #:# #
+    # #   #:  #
+    # # ###:###
+    #   #  :::#
+    #########F#
+  online-implementations:
+  - 'Jacciata (HTML5)'
+
+jaccia.alp:
+  type: Implementation
+  implementation-of:
+  - Jaccia
+  reference: true
+  in-distribution: Jaccia and Jacciata distribution
+  prebuilt-for-platforms:
+  - Perl
+  license: BSD license
+  implementation-type: formal description
+  host-language: ALPACA
+
+jacciata.alp:
+  type: Implementation
+  implementation-of:
+  - Jacciata
+  reference: true
+  in-distribution: Jaccia and Jacciata distribution
+  prebuilt-for-platforms:
+  - Perl
+  license: BSD license
+  implementation-type: formal description
+  host-language: ALPACA
+
+
+"noit o' mnain worb":
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Particle automaton
+  - Probabilistic
+  quotation: |-
+    Under pressure
+  quotation-attribution: |-
+    Queen
+  description: |
+    noit o' mnain worb is a probabilistic particle automaton that
+    uses pressure between randomly moving particles to approximate the behaviour
+    of circuits.  It can approximate computation with these circuits, too, but
+    it's so lossy that it has more value as just a neat toy to watch.
+    
+    (The name of this language contains a *secret message*! Can *you* find it?)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Sep 15, 2000
+  development-stage: mature
+  etymology:
+  - neologism
+  - hidden message
+  - celtic
+  notable: true
+  esowiki: noit_o'_mnain_worb
+  dimensionality: 2
+  sample: |
+    #####         #####
+    #   ###########   #
+    # . >         < . #
+    #   #####v#####   #
+    #####   #  ########
+            #       >!#
+            #v#########
+            # #
+            ###
+  online-implementations:
+  - 'yoob (Applet)'
+  - "noit o' mnain worb (HTML5)"
+
+worb.pl:
+  type: Implementation
+  implementation-of:
+  - noit o' mnain worb
+  in-distribution: noit o' mnain worb distribution
+  license: BSD license
+  reference: yes
+  implementation-type: interpreter
+  host-language: Perl
+
+worb.js:
+  type: Implementation
+  implementation-of:
+  - noit o' mnain worb
+  in-distribution: noit o' mnain worb distribution
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: yoob.js API
+
+tc.catseye.yoob.worb:
+  type: Implementation
+  implementation-of:
+  - noit o' mnain worb
+  in-distribution: noit o' mnain worb distribution
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Java
+  host-platform: yoob
+
+
+REDGREEN:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Cellular automaton
+  description: |
+    REDGREEN is a cellular automaton that simulates a little
+    "physical world", much like [[RUBE]].
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  computational-class: Turing-complete
+  etymology:
+  - television program
+  influences:
+  - RUBE
+  dimensionality: 2
+  esowiki: REDGREEN
+  sample: |2
+                                       # #
+                     ......            # #
+                                       #  ~                      #
+                                       #######################   #
+                                      %#                         #
+                           . . .      T #####                    #
+                                      ###   #  :                 #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+    >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
+                                                    %
+                                                    T
+  inception-date: 1998
+  development-stage: mature
+  online-implementations:
+  - 'REDGREEN (HTML5)'
+
+redgreen.alp:
+  type: Implementation
+  implementation-of:
+  - REDGREEN
+  reference: true
+  in-distribution: REDGREEN distribution
+  prebuilt-for-platforms:
+  - Perl
+  license: BSD license
+  implementation-type: formal description
+  host-language: ALPACA
+
+
+RUBE:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Bully automaton
+  - 2-dimensional
+  description: |
+    RUBE is an esoteric programming language in tribute to [[Rube Goldberg]],
+    with bulldozers pushing around numbered crates, knocking them together to
+    perform computations.  It is based on a variant of a cellular automaton called
+    a *[[Bully automaton|bully automaton]]*, where certain state changes can
+    force other state changes to occur elsewhere in the playfield.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  basis-for-game: true
+  inception-date: 1997
+  development-stage: mature
+  etymology:
+    - masculine given name
+    - acronym
+  esowiki: RUBE
+  dimensionality: 2
+  notable: true
+  sample: |2
+      0a21646c726f77202c6f6c6c6548
+    , :::::::::::::::::::::::::::: ,
+     )
+     ==============================
+    F
+                                   O F
+                                   c
+                                   =
+
+rube.c:
+  type: Implementation
+  implementation-of:
+  - RUBE
+  in-distribution: RUBE distribution
+  reference: true
+  license: BSD license
+  implementation-type: interpreter
+  # can also be built with C99
+  host-language: ANSI C
+  can-be-built-with-borland-c: true
+  run-requirements:
+  - ANSI Terminal
+
+
+SMETANA:
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - Self-modifying
+  esowiki: SMETANA
+  acronym-for: Self-Modifying Extremely Tiny AutomatoN Application
+  summary: A pathological little self-modifying language
+  description: |
+    SMETANA is a pathological little self-modifying language with only two
+    possible operations: Go to step *n*, and Swap steps *n* and *m*.
+    It has inspired a few variants and developments, notably a proof that
+    despite its minimalism, it is finite-automata-complete; it is also the
+    (great-?)grandfather of [[SMITH]].
+  etymology:
+  - dairy product
+  - russian
+  - surname
+  sample: |-
+    Step 1. Swap step 1 with step 2.
+    Step 2. Go to step 2.
+    Step 3. Go to step 1.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 1994
+  development-stage: archival
+  computational-class: known not Turing-complete
+  notable: true
+  online-implementations:
+  - 'yoob (Applet)'
+  see-also:
+  - Cyclobots
+
+smetana.pl:
+  type: Implementation
+  implementation-of:
+  - SMETANA
+  in-distribution: SMETANA distribution
+  license: Public Domain
+  reference: yes
+  implementation-type: interpreter
+  host-language: Perl
+
+tc.catseye.yoob.smetana:
+  type: Implementation
+  implementation-of:
+  - SMETANA
+  in-distribution: yoob distribution
+  prebuilt-for-platforms:
+  - yoob
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Java
+  host-platform: yoob
+
+SMETANA (Visual Basic):
+  type: Implementation
+  implementation-of:
+  - SMETANA
+  license: Freely Redistributable
+  implementation-type: interpreter
+  host-language: Visual Basic
+  development-stage: lost
+  interface: GUI
+
+
+Xigxag:
+  # technically a family, but the family is not that interesting.
+  type: Automaton
+  genre: Esolang
+  paradigms:
+  - String-rewriting
+  description: |
+    Xigxag is a simple string-copying automaton that has exponential
+    growth almost everywhere (i.e. there are only a finite number of initial
+    configurations that don't blow up.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  # started 2001
+  esowiki: Xigxag
+  inception-date: Apr 23, 2007
+  development-stage: mature
+  sample: |
+    ><<
+  sample-output: |
+    ><<
+    <<>><
+    <><<<<>>
+    <<<<>><><><<><<<><<<>
+    ...
+  computational-class: unknown computational class
+  unusual-computability-properties: true
+
+xigxag.pl:
+  type: Implementation
+  implementation-of:
+  - Xigxag
+  in-distribution: Xigxag distribution
+  reference: true
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Perl
+
+
+Zame:
+  # technically a family.
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  # kind of...
+  - Maze-space-rewriting
+  variant-of: Etcha
+  description: |
+    Zame is an automaton which uses the solution of a maze to
+    generate an [[Etcha]] program which draws a new maze, then
+    the process repeats.  An open question is to find a maze for which
+    this process repeats indefinitely.
+    
+    Information on this language is only available on the Esowiki for now.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  esowiki: Zame
+  inception-date: Jan 2009
+  development-stage: not fully complete
+  sample: |
+    #########
+    # #     #
+    # # # ###
+    #   #   #
+    ### # # #
+    #   # # #
+    #########
+  computational-class: unknown computational class
+  unusual-computability-properties: true
+  specification-link: esowiki

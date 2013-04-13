@@ -86,7 +86,7 @@ reMorse:
 
 
 RUBE II: 
-  type: Programming Language
+  type: Automaton
   subtitle: Das Klickenklacker
   genre: Esolang
   paradigms:

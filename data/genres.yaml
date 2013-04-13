@@ -70,6 +70,8 @@ DSL:
   type: Genre
 Abstract Artlang:
   type: Genre
+Toy:
+  type: Genre
 
 # GAMES
 
@@ -94,8 +96,6 @@ Sports:
 Conquest:
   type: Genre
 Role-playing:
-  type: Genre
-Toy:
   type: Genre
 
 # MUSIC

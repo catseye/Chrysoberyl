@@ -136,6 +136,20 @@ Platform:
   description: |
     For a list of just those platforms produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
+Automaton:
+  type: type
+  description: |
+    For a list of just those automata produced by [[Cat's Eye Technologies]], see
+    [[Chris Pressey's Lingography]].
+  commentary: |
+    What's the difference between an automaton and a
+    [[Programming Language|programming language]] and a calculus
+    and a model of computation?  Precious little, I'm afraid — under many
+    circumstances you can consider them just about interchangeable.  There
+    are subtleties, and I'll try to write something about those subtleties
+    at some point.  But don't be too surprised when they (seemingly
+    arbitrarily) get lumped together here, and when they (seemingly
+    arbitrarily) don't.
 Programming Language:
   type: type
   description: |

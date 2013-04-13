@@ -120,52 +120,6 @@ Bubble Escape distribution:
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
 
 
-Cyclobots:
-  type: Game
-  genre: Toy
-  no-specification: true
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 1994
-  development-stage: mature
-  description: |
-    Cyclobots is an automaton that consists of a number of little virtual
-    "turtle robots" called "cyclobots".  Each cyclobot moves with a constant
-    velocity, and tries to follow exactly one other cyclobot, adjusting
-    its heading to point towards the cyclobot it is following.
-    No cylobot is followed by more than one cyclobot.
-    
-    A group of cyclobots tends to fall into one of several semi-stable
-    patterns.  The simplest of these is just a rotating circle, but
-    more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
-    patterns are more common.
-  commentary: |
-    It's not really a game — or, rather, it's a game in the same way John
-    Conway's Game of Life is a game.  I originally called it an
-    "interactive desktop toy".
-    
-    I originally conceived of this automaton in or around 1994, and implemented
-    it immediately in Visual Basic.  I remember the year because I wrote the
-    first implementation of [[SMETANA]] in Visual Basic at about the same time.
-    
-    The original implementation had a few features which are not present (yet)
-    in the HTML5 version: cyclobots could collide with each other, and the user
-    could use the mouse to attract/repel them from a chosen point.
-  online-implementations:
-  - 'Cyclobots (HTML5)'
-
-Cyclobots (Visual Basic):
-  type: Implementation
-  implementation-of:
-  - Cyclobots
-  license: Freely Redistributable
-  host-language: Visual Basic
-  development-stage: lost
-  interface: GUI
-
-
 Dungeons of Ekileugor:
   type: Game
   genre: Roguelike

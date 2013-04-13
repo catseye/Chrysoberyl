@@ -2,6 +2,12 @@
 # these probably go a bit beyond what you'd normally think of as
 #   programming paradigms...
 # a lot of these are subtypes of rewriting, we may want to capture that.
+2-dimensional:
+  type: Programming Paradigm
+3-dimensional:
+  type: Programming Paradigm
+Angular:
+  type: Programming Paradigm
 Aspect-oriented programming:
   type: Programming Paradigm
   description: |
@@ -67,11 +73,6 @@ Aspect-oriented programming:
     these tasks actually comprise. But it seems they'd rather see what they
     want to see. Which is really too bad, because some would say that
     finding ways to improve this situation is *supposed* to be their job.
-
-2-dimensional:
-  type: Programming Paradigm
-3-dimensional:
-  type: Programming Paradigm
 Algebraic:
   type: Programming Paradigm
 Assembly:

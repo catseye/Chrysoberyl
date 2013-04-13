@@ -200,7 +200,7 @@ def check_chrysoberyl_node(data, key, node):
         check_list_ref(data, key, node, 'distribution-of',
                        types=('Programming Language',
                               'Programming Language Family',
-                              'Game', 'Tool', 'Library',
+                              'Automaton', 'Game', 'Tool', 'Library',
                               'Electronics Project',
                               'Demo', 'Conlang', 'Platform', 'Database'))
         check_optional_list_ref(data, key, node, 'test-requirements',
@@ -274,7 +274,7 @@ def check_chrysoberyl_node(data, key, node):
     # to it here too.
     if type_ in ['Game', 'Programming Language', 'Library', 'Tool',
                  'Platform', 'Conlang', 'Electronics Project', 'Demo',
-                 'Programming Language Family']:
+                 'Automaton', 'Programming Language Family']:
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node
         check_scalar_ref(data, key, node, 'development-stage',
@@ -319,7 +319,7 @@ def check_chrysoberyl_node(data, key, node):
                        types=['Programming Language'])
 
     # additional constraints for proglangs (implementables)
-    if type_ == 'Programming Language':
+    if type_ in ('Programming Language', 'Automaton'):
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
         check_list_ref(data, key, node, 'authors')
         check_list_ref(data, key, node, 'paradigms',
