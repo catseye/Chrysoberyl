@@ -1,20 +1,28 @@
 {% extends "base.html" %}
 
 {#
-  The query functionality presented here is very crude,
+  The query functionality presented here is fairly crude,
   and so most Collection nodes should provide bespoke
   templates for themselves which implement their query
   logic in Jinja2.
+  
+  If the collection node has an 'entries' key, it is taken
+  to be an ordered list of explicit entries.
 #}
 
 {% block content %}
 
-<ul>
-{% for thing in data %}
-  {% if data[thing].type in include_types and
-        include_author in data[thing].authors %}
+{% if entries %}
+  <ol>
+  {% for thing in entries %}
     <li>
-      <p>{{ link(thing) }}</p>
+      <p><b>{{ link(thing) }}</b>
+      (
+        {{- link(data[thing].genre) }}
+        {%- if data[thing].platform -%}, {{ link(data[thing].platform) }}{% endif -%}
+        {%- if data[thing].controls -%}, {{ data[thing].controls }}{% endif -%}
+      )
+      </p>
       {% if data[thing].description_html %}
         {{ data[thing].description_html }}
       {% endif %}
@@ -22,8 +30,25 @@
         {{ data[thing].commentary_html }}
       {% endif %}
     </li>
-  {% endif %}
-{% endfor %}
-</ul>
+  {% endfor %}
+  </ol>
+{% else %}
+  <ul>
+  {% for thing in data %}
+    {% if data[thing].type in include_types and
+          include_author in data[thing].authors %}
+      <li>
+        <p>{{ link(thing) }}</p>
+        {% if data[thing].description_html %}
+          {{ data[thing].description_html }}
+        {% endif %}
+        {% if data[thing].commentary_html %}
+          {{ data[thing].commentary_html }}
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}
 
 {% endblock content %}
