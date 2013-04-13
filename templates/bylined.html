@@ -26,13 +26,17 @@
         {% elif development_stage == 'work in progress' %}
           A work-in-progress
         {% else %}
-          A
+          {% if type in ['Automaton'] %}An{% else %}A{% endif %}
         {% endif %}
-        {% if genre and type not in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
+        {% if genre and type not in
+              ['Programming Language', 'Programming Language Family',
+               'Conlang', 'Automaton'] %}
           {{ link(genre, lower=true) }}
         {% endif %}
         {{ link(type, lower=true) }}
-        {% if genre and type in ['Programming Language', 'Programming Language Family', 'Conlang'] %}
+        {% if genre and type in
+              ['Programming Language', 'Programming Language Family',
+               'Conlang', 'Automaton'] %}
           in the genre of {{ link(genre, lower=true) }}
         {% endif %}
         by {{ linked_list(authors) }}

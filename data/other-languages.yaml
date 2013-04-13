@@ -568,8 +568,25 @@ Javascript:
     title: Speed Up Your Javascript Load Time
     description: Assorted useful tips for, uh, speeding up Javascript load time
 
-# XXX implementation of Javascript.  I could add web browsers
-# to Chrysoberyl.  But I don't care.
+Firefox:
+  type: Implementation
+  reference: false
+  implementation-of:
+  - Javascript
+  implementation-type: interpreter
+  host-language: C++
+  license: MPL 2.0
+  prebuilt-for-platforms:
+  - native code
+  links:
+  - http://www.mozilla.org/
+  commentary: |
+    Yes, I know Firefox is more than just an implementation of Javascript,
+    and Javascript is actually implemented by the mumbleMonkey engine
+    *inside* Firefox.
+    But it's useful to have something to recommend to you to use, when
+    we have something that's written in Javascript, like [[yoob.js]] or
+    the output of the [[ALPACA]] compiler.
 
 
 Lisp: 

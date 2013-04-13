@@ -229,6 +229,8 @@ class Renderer(object):
             given noun phrase.
 
             """
+            if text[-5:] == 'maton':
+                return text[:-5] + 'mata'
             if text[-1:] == 's':
                 return text + 'es'
             elif text[-1:] == 'y':
@@ -366,7 +368,7 @@ class Renderer(object):
             """
             languages = []
             types = ('Programming Language', 'Programming Language Family',
-                     'Conlang')
+                     'Conlang', 'Automaton')
             for thing in self.data:
                 node = self.data[thing]
                 if (node['type'] in types and

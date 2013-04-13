@@ -42,6 +42,7 @@ braktif.alp:
   reference: true
   prebuilt-for-platforms:
   - Perl
+  - Javascript
   in-distribution: Braktif distribution
   license: BSD license
   implementation-type: formal description
@@ -105,6 +106,7 @@ circute.alp:
   in-distribution: Circute distribution
   prebuilt-for-platforms:
   - Perl
+  - Javascript
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -310,6 +312,7 @@ jaccia.alp:
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
   - Perl
+  - Javascript
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -322,6 +325,7 @@ jacciata.alp:
   in-distribution: Jaccia and Jacciata distribution
   prebuilt-for-platforms:
   - Perl
+  - Javascript
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
@@ -452,6 +456,7 @@ redgreen.alp:
   in-distribution: REDGREEN distribution
   prebuilt-for-platforms:
   - Perl
+  - Javascript
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
