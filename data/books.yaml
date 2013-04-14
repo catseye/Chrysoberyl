@@ -223,6 +223,17 @@ Theory of Computation:
     it's the best one, but it's the one that defines the programming language
     "PL" and, more interestingly, its [[Primitive recursive]] subset [[PL-{GOTO}]].
 
+Mathematical Circus:
+  type: Book
+  genre: Mathematics
+  copies-owned: 1
+  authors:
+  - Martin Gardner
+  isbn: 0-14-02-2355-X
+  inception-date: 1968
+  commentary: |
+    Mathematical oddities and puzzles.
+
 The Real Frank Zappa Book:
   type: Book
   genre: Philosophy
