@@ -28,14 +28,14 @@
         </nav>
         {%- endblock breadcrumbs -%}
       </div>
-      <div class="span4">
+      {% block header_gadgets %}<div class="span4">
         {#- TODO: urlencode instead? -#}
         {#-
         <a class="button"
            title="Report an error on this page"
            href="https://github.com/catseye/Chrysoberyl/issues/new?title=problem+with+node+{{ filekey(key)|replace(' ', '+') }}">Report Error</a>
         -#}
-      </div>
+      {% endblock header_gadgets %}</div>
     </div>
 
     {%- block heading -%}

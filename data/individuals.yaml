@@ -432,7 +432,11 @@ Steven Goodwin:
 # (let's start from the beginning, I suppose)
 Konrad Zuse:
   type: Individual
-
+Don Woods:
+  type: Individual
+James M. Lyon:
+  type: Individual
+ 
 # game authors
 Gregory Yob:
   type: Individual

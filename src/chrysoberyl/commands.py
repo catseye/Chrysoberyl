@@ -94,9 +94,13 @@ def render(args, optparser):
                          help="render documentation nodes as well")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
+    json_data = {}
+    for key in data:
+        if not data[key].get('hidden', False):
+            json_data[key] = data[key]
     filename = os.path.join(options.node_dir, 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
-        json.dump(transform_dates(data), file, encoding='utf-8',
+        json.dump(transform_dates(json_data), file, encoding='utf-8',
                   default=unicode)
     convert_chrysoberyl_data(data)
     r = Renderer(data,

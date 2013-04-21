@@ -72,6 +72,22 @@ Half-Broken Car in Heavy Traffic:
   development-stage: mature
 
 
+INTERCAL:
+  type: Programming Language
+  genre: Esolang
+  # o dear god
+  paradigms:
+  - Stack-based
+  computational-class: Turing-complete
+  esowiki: INTERCAL
+  authors:
+  - Don Woods
+  - James M. Lyon
+  # not really
+  specification-link: esowiki
+  development-stage: vintage
+
+
 reMorse:
   type: Programming Language
   genre: Esolang
