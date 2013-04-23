@@ -531,6 +531,10 @@ Jerry Goodman:
 # other notable people
 Anonymous:
   type: Individual
+Paul Harrison:
+  type: Individual
+  links:
+  - http://www.logarithmic.net/pfh/
 Rube Goldberg:
   type: Individual
   wikipedia: Rube Goldberg

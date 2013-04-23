@@ -173,14 +173,14 @@ class Renderer(object):
 
         @expose
         def documentation(key=key):
-            """Return the documentation node for the given key."""
+            """Return a list of documentation node keys for the given key."""
             d = []
             for k in self.data:
                 if self.data[k]['type'] != 'Document':
                     continue
                 if self.data[k]['distribution'] == key:
                     d.append(k)
-            return d
+            return sorted(d)
 
         @expose
         def related_github(key=key):

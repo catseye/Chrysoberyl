@@ -251,6 +251,37 @@ Rooibos distribution:
   releases: []
 
 
+tideay: 
+  type: Tool
+  authors:
+  - Paul Harrison
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `tideay` is Cat's Eye Technologies fork of `yaedit`, a GtkSourceView-based
+    text editor written by Paul Harrison.  In addition to the
+    features provided by `yaedit`, `tideay` supports things such as
+    [[String-rewriting]]-based editing commands.
+  inception-date: Apr 2013
+  development-stage: work in progress
+
+tideay (Python):
+  type: Implementation
+  implementation-of:
+  - tideay
+  in-distribution: tideay distribution
+  license: GPL
+  host-language: Python
+
+tideay distribution: 
+  type: Distribution
+  bitbucket: catseye/tideay
+  github: catseye/tideay
+  issue-tracker: github
+  releases: []
+
+
 toolshelf: 
   type: Tool
   summary: A "package manager" that doesn't actually install anything
