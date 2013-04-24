@@ -163,6 +163,9 @@ C++:
   - title: TFoo::operator=
     description: The Anatomy of the Assignment Operator
     url: http://icu-project.org/docs/papers/cpp_report/the_anatomy_of_the_assignment_operator.html
+  - title: The Dark Side of C++ (PDF)
+    description: Slides for a talk about the dark side of C++
+    url: http://miek.nl/downloads/2010/c++-talk.pdf
   commentary: |
     For any software project, it's important that you choose the right
     language to develop it in. That's why you'll always choose C++, no
