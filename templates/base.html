@@ -22,7 +22,7 @@
   <header>
     {%- block breadcrumbs -%}
     <nav id="breadcrumbs">
-      <p>{{ breadcrumbs()|join(' » ') }} »</p>
+      <p>{{ breadcrumbs()|join(' » ') }} {% if key_ext() %}({{ key_ext() }}){% endif %} »</p>
     </nav>
     {%- endblock breadcrumbs -%}
     {%- block header_gadgets -%}
@@ -30,7 +30,7 @@
 
     {%- block heading -%}
       <hgroup id="heading">
-        <h1>{{ key }}</h1>
+        <h1>{{ base_key() }}</h1>
         {%- if subtitle -%}
           <h2 id="subtitle">{{ subtitle }}</h2>
         {%- endif -%}

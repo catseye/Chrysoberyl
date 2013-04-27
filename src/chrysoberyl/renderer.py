@@ -115,6 +115,34 @@ class Renderer(object):
             return fun
 
         @expose
+        def base_key(key=key):
+            """Returns the 'base' part of the key, that is, with the medium,
+            ('(HTML5)', etc), removed.
+
+            """
+            if key.endswith(' (HTML5)'):
+                return key[:-8]
+            if key.endswith(' (Applet)'):
+                return key[:-9]
+            if key.endswith(' (JaC64)'):
+                return key[:-8]
+            return key
+
+        @expose
+        def key_ext(key=key):
+            """Returns the 'extension' part of the key, that is, the medium,
+            ('(HTML5)', etc).
+
+            """
+            if key.endswith(' (HTML5)'):
+                return 'HTML5'
+            if key.endswith(' (Applet)'):
+                return 'Applet'
+            if key.endswith(' (JaC64)'):
+                return 'JaC64'
+            return ''
+
+        @expose
         def related(relationship, key=key):
             """Return a list of nodes whose attribute named by `relationship`
             contains the given `key`, whether the attribute is a scalar or a
