@@ -34,8 +34,8 @@ def pathname2url(s, prefix=None):
     return s
 
 
-def markdown_field(data, node, field, prefix=None):
-    """Convert a field containing markdown and Chrysoberyl
+def markdown_contents(contents, prefix=None):
+    """Convert the contents of a field containing markdown and Chrysoberyl
     cross-references (indicated with [[double brackets]]) into HTML.
 
     """
@@ -49,10 +49,14 @@ def markdown_field(data, node, field, prefix=None):
         return '<a href="%s">%s</a>' % (
             pathname2url(filekey(thing), prefix=prefix), link_text
         )
+    html = markdown.markdown(contents)
+    html = re.sub(r'\[\[(.*?)\]\]', linker, html)
+    return html
+
+
+def markdown_field(data, node, field, prefix=None):
     if field in node:
-        html = markdown.markdown(node[field])
-        html = re.sub(r'\[\[(.*?)\]\]', linker, html)
-        return html
+        return markdown_contents(node[field], prefix=prefix)
     else:
         return None
 
@@ -73,15 +77,6 @@ def convert_chrysoberyl_data(data):
         for field in node.keys():
             new_fields[field.replace('-', '_')] = node[field]
         node.update(new_fields)
-        for field in ('summary', 'description', 'commentary'):
-            node[field + '_html'] = markdown_field(data, node, field)
-        node['blurb_html'] = markdown_field(data, node, 'blurb', prefix='node/')
-        for sample_key in ('sample', 'sample_input', 'sample_output'):
-            if sample_key in node:
-                sample_md = '\n'.join(
-                    ['    ' + l for l in node[sample_key].split('\n')]
-                )
-                node['%s_html' % sample_key] = markdown.markdown(sample_md)
 
     print "%d nodes converted." % count
 

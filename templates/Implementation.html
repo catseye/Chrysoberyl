@@ -77,8 +77,8 @@
         {% endif %}
       {% endif -%}
     </p>
-    {% if description_html %}
-      {{ description_html }}
+    {% if description %}
+      {{ md2html(description) }}
     {% endif %}
   </section>
 {% endblock description %}

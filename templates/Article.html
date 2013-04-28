@@ -20,8 +20,8 @@
 
 {# kind of an abuse of mainstage.  oh well #}
 {% block mainstage %}
-  {% if summary_html %}
-    {{ summary_html }}
+  {% if summary %}
+    {{ md2html(summary) }}
   {% endif %}
 {% endblock %}
 

@@ -23,7 +23,7 @@
       {% if data[thing].images %}
         <div class="row-fluid">
           <div class="span8">
-            {{ data[thing].description_html }}
+            {{ md2html(data[thing].description) }}
           </div>
           <div class="span4">
             {% for image in data[thing].images %}
@@ -31,12 +31,12 @@
             {% endfor %}
           </div>
         </div>
-      {% elif data[thing].description_html %}
-        {{ data[thing].description_html }}
+      {% elif data[thing].description %}
+        {{ md2html(data[thing].description) }}
       {% endif %}
 
-      {% if data[thing].commentary_html %}
-        {{ data[thing].commentary_html }}
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
       {% endif %}
 
       {# screenshot #}
@@ -65,14 +65,14 @@
         {% endif %}
         ({{ data[thing].inception_date }})
       </p>
-      {% if data[gamekey].description_html %}
-        {{ data[gamekey].description_html }}
+      {% if data[gamekey].description %}
+        {{ md2html(data[gamekey].description) }}
       {% endif %}
-      {% if data[thing].description_html %}
-        {{ data[thing].description_html }}
+      {% if data[thing].description %}
+        {{ md2html(data[thing].description) }}
       {% endif %}
-      {% if data[thing].commentary_html %}
-        {{ data[thing].commentary_html }}
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
       {% endif %}
     </li>
   {%- endif -%}

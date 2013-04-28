@@ -31,6 +31,8 @@ def make_news_feed(data, dir, filename, limit=None):
         n = {}
         n.update(node)
         n['key'] = key
+        # Note, these are now done differently from how md2html()
+        # is done in the templates elsewhere
         for field_name in ('summary', 'description', 'commentary'):
             field = markdown_field(data, node, field_name,
                                    prefix='http://catseye.tc/node/')

@@ -12,7 +12,7 @@ from jinja2 import BaseLoader, Environment
 from jinja2.exceptions import TemplateNotFound
 import markdown
 
-from chrysoberyl.transformer import filekey, pathname2url
+from chrysoberyl.transformer import filekey, pathname2url, markdown_contents
 
 
 class Loader(BaseLoader):
@@ -113,6 +113,16 @@ class Renderer(object):
         def expose(fun):
             context[fun.__name__] = fun
             return fun
+
+        @expose
+        def md2html(field_contents, prefix=None, fixed=False):
+            if fixed:
+                md = '\n'.join(
+                    ['    ' + l for l in field_contents.split('\n')]
+                )
+                return markdown.markdown(md)
+            else:
+                return markdown_contents(field_contents, prefix=prefix)
 
         @expose
         def base_key(key=key):

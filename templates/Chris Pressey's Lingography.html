@@ -13,12 +13,12 @@
 
   <div class="row-fluid">
     <div class="span8">
-      {% if data[thing].description_html %}
-        {{ data[thing].description_html }}
+      {% if data[thing].description %}
+        {{ md2html(data[thing].description) }}
       {% endif %}
       
-      {% if data[thing].commentary_html %}
-        {{ data[thing].commentary_html }}
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
       {% endif %}
 
       {% if related('implementation_of', key=thing) %}
@@ -54,16 +54,16 @@
     </div>
 
     <div class="span4">
-      {% if data[thing].sample_html %}
-        <div class="sample">{{ data[thing].sample_html }}</div>
+      {% if data[thing].sample %}
+        <div class="sample">{{ md2html(data[thing].sample, fixed=true) }}</div>
       {% endif %}
-      {% if data[thing].sample_input_html %}
+      {% if data[thing].sample_input %}
         <p>Input:</p>
-        <div class="sample">{{ data[thing].sample_input_html }}</div>
+        <div class="sample">{{ md2html(data[thing].sample_input, fixed=true) }}</div>
       {% endif %}
-      {% if data[thing].sample_output_html %}
+      {% if data[thing].sample_output %}
         <p>Output:</p>
-        <div class="sample">{{ data[thing].sample_output_html }}</div>
+        <div class="sample">{{ md2html(data[thing].sample_output, fixed=true) }}</div>
       {% endif %}
       {% if data[thing].sample_credit %}
         <p>This sample was written by {{ link(data[thing].sample_credit) }}</p>
@@ -104,11 +104,11 @@
           ({{ data[thing].inception_date }})
         {% endif %}
       </p>
-      {% if data[thing].description_html %}
-        {{ data[thing].description_html }}
+      {% if data[thing].description %}
+        {{ md2html(data[thing].description) }}
       {% endif %}
-      {% if data[thing].commentary_html %}
-        {{ data[thing].commentary_html }}
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
       {% endif %}
     </li>
   {%- endif -%}

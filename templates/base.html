@@ -59,7 +59,7 @@
         <div class="row-fluid">
           <div class="span8">
             <section id="description">
-              {{ description_html }}
+              {{ md2html(description) }}
             </section>
           </div>
           <div class="span4">
@@ -72,7 +72,7 @@
         </div>
       {%- elif description -%}
         <section id="description">
-          {{ description_html }}
+          {{ md2html(description) }}
         </section>
       {%- endif -%}
     {%- endblock description -%}
@@ -140,7 +140,7 @@
       {%- if commentary -%}
         <section id="commentary">
           <h2>Commentary</h2>
-          {{ commentary_html }}
+          {{ md2html(commentary) }}
         </section>
       {%- endif -%}
     {%- endblock commentary -%}

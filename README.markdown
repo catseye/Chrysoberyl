@@ -169,10 +169,10 @@ The tool has the following requirements, which can be installed with
     markdown
     PyYaml
 
-As of this writing, it takes my computer about eight seconds to load,
-and check the data and render the templates.
+As of this writing, it takes my computer about fifteen seconds to load,
+and check the data and render the templates (excluding documentation nodes.)
 
-The JSON file is, as of this writing, less than 500K, meaning that, at
+The JSON file is, as of this writing, less than 600K, meaning that, at
 broadband speeds it only takes a couple of seconds to download, making
 it feasible to implement a client-side query engine for Chrysoberyl
 in Javascript.  The size of this file could also be reduced, possibly

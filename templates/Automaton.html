@@ -2,16 +2,16 @@
 
 {% block properties %}
 
-{% if sample_html %}
+{% if sample %}
   <h2>Sample Configuration</h2>
-  <div class="sample">{{ sample_html }}</div>
-  {% if sample_input_html %}
+  <div class="sample">{{ md2html(sample, fixed=true) }}</div>
+  {% if sample_input %}
     <p>Input:</p>
-    <div class="sample">{{ sample_input_html }}</div>
+    <div class="sample">{{ md2html(sample_input, fixed=true) }}</div>
   {% endif %}
-  {% if sample_output_html %}
+  {% if sample_output %}
     <p>Output:</p>
-    <div class="sample">{{ sample_output_html }}</div>
+    <div class="sample">{{ md2html(sample_output, fixed=true) }}</div>
   {% endif %}
   {% if sample_credit %}
     <p>This sample was written by {{ link(sample_credit) }}</p>

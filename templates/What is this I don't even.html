@@ -22,11 +22,11 @@
           {% endif %}
         {% endfor %}
       </p>
-      {% if data[thing].description_html %}
-        {{ data[thing].description_html }}
+      {% if data[thing].description %}
+        {{ md2html(data[thing].description) }}
       {% endif %}
-      {% if data[thing].commentary_html %}
-        {{ data[thing].commentary_html }}
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
       {% endif %}
     </li>
   {%- endif -%}
@@ -56,11 +56,11 @@
           <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
         {% endif %}
       </p>
-      {% if data[impl].description_html %}
-        {{ data[impl].description_html }}
+      {% if data[impl].description %}
+        {{ md2html(data[impl].description) }}
       {% endif %}
-      {% if data[impl].commentary_html %}
-        {{ data[impl].commentary_html }}
+      {% if data[impl].commentary %}
+        {{ md2html(data[impl].commentary) }}
       {% endif %}
     </li>
   {%- endif -%}

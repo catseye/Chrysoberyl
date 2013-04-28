@@ -14,7 +14,7 @@
       This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
     </p>
     {%- if description -%}
-      {{- description_html -}}
+      {{- md2html(description) -}}
     {%- endif -%}
   </section>
 {% endblock description %}
