@@ -89,6 +89,21 @@ INTERCAL:
   development-stage: vintage
 
 
+Please Porige Hot:
+  type: Programming Language
+  genre: Esolang
+  # o this is a guess
+  paradigms:
+  - Imperative
+  computational-class: believed Turing-complete
+  esowiki: Please_Porige_Hot
+  authors:
+  - zzo38
+  # BORKEN
+  specification-link: http://zzo38computer.org/esoteric/porige/
+  development-stage: mature
+
+
 reMorse:
   type: Programming Language
   genre: Esolang
