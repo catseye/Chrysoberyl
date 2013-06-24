@@ -59,3 +59,15 @@ Thue system:
     Thue systems are bidirectional in this sense: for every u → w, there is
     also a w ← u. A system which is unidirectional, in which the
     replacements only occur in one direction, is called a _semi-Thue system_.
+
+
+Bitcoin:
+  type: Mathematical Object
+  description: |
+    Bitcoin is an experimental digital currency.
+    
+    It was designed to eliminate the human element from its economy.
+    
+    Its valuation is exactly as stable as you'd expect it to be from that.
+  links:
+  - 'http://rationalwiki.org/wiki/Bitcoin'
