@@ -1,3 +1,32 @@
+"Some HTML5 gewgaws for y'all":
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 04 Aug 2013 03:00:00 GMT
+  blurb: |
+    Several new [[HTML5]] gewgaws are now online in
+    the [[Online Installation|Gallery]].
+  description: |
+    In [[Programming Languages as an Artistic Medium|a previous article]],
+    I mentioned that I consider, not just
+    [[Programming Language|programming languages]], but also [[HTML5]],
+    an artistic medium.
+    
+    If short, fluffy, entertaining pieces of music are called
+    [bagatelles](http://en.wikipedia.org/wiki/Bagatelle_%28music%29),
+    then I propose that short fluffy works in the medium of HTML5 be
+    called [gewgaws](http://www.thefreedictionary.com/gewgaw).  Or at
+    least, that's what I call them.
+            
+    And so, here are a few HTML5 gewgaws for your (possible) entertainment.
+    Located in the Digital Art Exhibit of our
+    [[Online Installation|Gallery]].  In fact there are six new ones in
+    total.  And when I say HTML5, I mainly mean the `<canvas>` stuff, of
+    course.
+    
+    They're not esolangs, but if you like esolangs, or if you liked
+    [[Cyclobots]], you might like some of the more mathematically-oriented
+    ones.
+
 "I'd been meaning to re-implement this for ages":
   type: Article
   article-type: announcement
@@ -225,7 +254,7 @@
     
     First, please welcome our latest newcomer to the menagerie,
     [[Jolverine]].  I haven't been able to write a loop in it yet, but
-    <a class="externa" href="http://esolangs.org/wiki/Talk:Jolverine">Ørjan
+    <a class="external" href="http://esolangs.org/wiki/Talk:Jolverine">Ørjan
     is figuring that part out</a>.
     
     Second, I remembered why I designed [[Etcha]] — it was part of a

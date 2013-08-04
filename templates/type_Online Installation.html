@@ -16,9 +16,6 @@
   {% if data[thing].description %}
     {{ md2html(data[thing].description) }}
   {% endif %}
-  {% if data[thing].commentary %}
-    {{ md2html(data[thing].commentary) }}
-  {% endif %}
 {% endfor %}
 
 {% endblock content %}
