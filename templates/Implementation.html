@@ -1,5 +1,21 @@
 {% extends "bylined.html" %}
 
+{% macro recommended_impl(req_key, req_plat_key='') -%}
+    {# special case, to not sound awkward #}
+    {% if req_key=='mp3' %}
+      an {{ link('mp3') }} player
+    {% else %}
+      an implementation of {{ link(req_key) }}
+      {% if recommended_implementation(req_key) %}
+        (we suggest {{ link(recommended_implementation(req_key)) }})
+      {% endif %}
+      {% if req_plat_key %}
+        {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
+        and the {{ link(req_plat_key) }} platform
+      {% endif %}
+    {% endif %}
+{%- endmacro %}
+
 {% if data[implementation_of[0]].type == 'Musical Composition' %}
   {% set implnoun = 'rendition' %}
   {% set experienceverb = 'listen to' %}
@@ -95,21 +111,6 @@
 
 {# USED TO BE AN INCLUDE #}
 {% set impl_key=key %}
-{% macro recommended_implementation(req_key, req_plat_key='') -%}
-    {# special case, to not sound awkward #}
-    {% if req_key=='mp3' %}
-      an {{ link('mp3') }} player
-    {% else %}
-      an implementation of {{ link(req_key) }}
-      {% if recommended_implementation(req_key) %}
-        (we suggest {{ link(recommended_implementation(req_key)) }})
-      {% endif %}
-      {% if req_plat_key %}
-        {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
-        and the {{ link(req_plat_key) }} platform
-      {% endif %}
-    {% endif %}
-{%- endmacro %}
 
 {% if data[data[impl_key].implementation_of[0]].type == 'Musical Composition' %}
   {% set implnoun = 'rendition' %}
@@ -134,14 +135,14 @@
         <ul>
           {% for platform in data[impl_key].prebuilt_for_platforms %}
             <li>
-              {{ recommended_implementation(platform) }}
+              {{ recommended_impl(platform) }}
             </li>
           {% endfor %}
         </ul>
       </li>
     {% elif data[impl_key].prebuilt_for_platforms %}
       <li>
-        {{ recommended_implementation(data[impl_key].prebuilt_for_platforms[0]) }}
+        {{ recommended_impl(data[impl_key].prebuilt_for_platforms[0]) }}
       </li>
     {% else %}
       {% if data[data[impl_key].host_language].generally_compiled or data[impl_key].build_requirements %}
@@ -150,13 +151,13 @@
           <ul>
             {% if data[data[impl_key].host_language].generally_compiled %}
               <li>
-                {{ recommended_implementation(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
+                {{ recommended_impl(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
               </li>
             {% endif %}
             {% if data[impl_key].build_requirements %}
               {% for requirement in data[impl_key].build_requirements %}
                 <li>
-                  {{ recommended_implementation(requirement) }}
+                  {{ recommended_impl(requirement) }}
                 </li>
               {% endfor %}
             {% endif %}
@@ -165,7 +166,7 @@
       {% endif %}
       {% if not data[data[impl_key].host_language].generally_compiled %}
         <li>
-          {{ recommended_implementation(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
+          {{ recommended_impl(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
         </li>
       {% endif %}
     {% endif %}
