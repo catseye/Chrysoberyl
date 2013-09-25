@@ -1,3 +1,4 @@
+# encoding: UTF-8
 "Some HTML5 gewgaws for y'all":
   type: Article
   article-type: announcement
@@ -774,7 +775,7 @@
     interest only.  It's actually been on the site for a while, but
     due to some technical problems, was not announced until now.
     
-"Apple Befunge":
+"Apple Befunge: Dug out of the Attic":
   type: Article
   article-type: announcement
   publication-date: Tue, 07 Jun 2011 19:47:35 GMT
