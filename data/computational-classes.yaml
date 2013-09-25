@@ -2,8 +2,8 @@
 Turing-complete:
   type: Computational Class
   description: |
-    A system is Turing-complete if it can do everything a Turing machine can
-    do.
+    A system (generally speaking, a [[Programming Language|programming language]])
+    is Turing-complete if it can do everything a Turing machine can do.
     
     If, in the [[Chrysoberyl]] database, a programming language is labelled
     as Turing-complete, it means that it has been demonstrated in a

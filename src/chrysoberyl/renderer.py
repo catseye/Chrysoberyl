@@ -476,11 +476,13 @@ class Renderer(object):
             return markdown.markdown(contents)
 
         template = self.get_template(key)
-        filename = os.path.join(self.output_dir, filekey(key))
+        basename = filekey(key)
+        filename = os.path.join(self.output_dir, basename)
         self.render(template, filename, context)
         # sideways compatibility
-        if '_' in filename:
-            filename = filename.replace('_', ' ')
+        if '_' in basename:
+            baseame = basename.replace('_', ' ')
+            filename = os.path.join(self.output_dir, basename)
             self.render(template, filename, context)
 
     def render_chrysoberyl_data(self):
