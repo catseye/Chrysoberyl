@@ -2,6 +2,8 @@
 
 """Functions for generating Atom feeds from news item nodes in Chrysoberyl.
 
+Note: no support yet for 'sleek' node links.
+
 """
 
 import datetime

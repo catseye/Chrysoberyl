@@ -92,6 +92,12 @@ def render(args, optparser):
                          dest="render_docs", default=False,
                          action='store_true',
                          help="render documentation nodes as well")
+    optparser.add_option("--sleek-node-links",
+                         dest="sleek_node_links", default=False,
+                         action='store_true',
+                         help="render links to nodes using Mediawiki-ish "
+                              "URLs (requires web server that understands "
+                              "what nodes these refer to")
     options, args = optparser.parse_args(args)
     data = load_and_check(options.data_dirs.split(':'))
     json_data = {}
@@ -105,7 +111,7 @@ def render(args, optparser):
     convert_chrysoberyl_data(data)
     r = Renderer(data,
         options.template_dirs, options.node_dir, options.clone_dir,
-        options.render_docs
+        options.render_docs, options.sleek_node_links
     )
     r.render_chrysoberyl_data()
 

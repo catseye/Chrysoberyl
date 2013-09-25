@@ -12,7 +12,9 @@ from jinja2 import BaseLoader, Environment
 from jinja2.exceptions import TemplateNotFound
 import markdown
 
-from chrysoberyl.transformer import filekey, pathname2url, markdown_contents
+from chrysoberyl.transformer import (
+    filekey, sleek_key, pathname2url, markdown_contents
+)
 
 
 class Loader(BaseLoader):
@@ -37,12 +39,14 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dirs, output_dir, clone_dir, render_docs):
+    def __init__(self, data, template_dirs, output_dir, clone_dir, render_docs,
+                 sleek_node_links):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
         self.clone_dir = clone_dir
         self.render_docs = render_docs
+        self.sleek_node_links = sleek_node_links
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
 
     def render(self, template, output_filename, context):
@@ -308,9 +312,11 @@ class Renderer(object):
             title_attr = ''
             if title is not None:
                 title_attr = ' title="%s"' % title
-            return '<a href="%s"%s>%s</a>' % (
-                pathname2url(filekey(key)), title_attr, link_text
-            )
+            if self.sleek_node_links:
+                href = pathname2url(sleek_key(key))
+            else:
+                href = pathname2url(filekey(key))
+            return '<a href="%s"%s>%s</a>' % (href, title_attr, link_text)
 
         # not the kind you're probably thinking of
         @expose
@@ -472,6 +478,10 @@ class Renderer(object):
         template = self.get_template(key)
         filename = os.path.join(self.output_dir, filekey(key))
         self.render(template, filename, context)
+        # sideways compatibility
+        if '_' in filename:
+            filename = filename.replace('_', ' ')
+            self.render(template, filename, context)
 
     def render_chrysoberyl_data(self):
         """Render all nodes in the loaded Chrysoberyl data as HTML

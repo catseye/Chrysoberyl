@@ -18,6 +18,11 @@ def filekey(key):
     return key + ".html"
 
 
+def sleek_key(key):
+    """Convert a key into a form that can be used as a 'sleek' node link."""
+    return re.sub(r'(\/|\\| )', '_', key)
+
+
 def pathname2url(s, prefix=None):
     """Convert a filename into a form that can be used as a link in an
     HTML document.
