@@ -481,7 +481,7 @@ class Renderer(object):
         self.render(template, filename, context)
         # sideways compatibility
         if '_' in basename:
-            baseame = basename.replace('_', ' ')
+            basename = basename.replace('_', ' ')
             filename = os.path.join(self.output_dir, basename)
             self.render(template, filename, context)
 
