@@ -87,7 +87,8 @@ def render(args, optparser):
     optparser.add_option("--node-dir",
                          dest="node_dir", metavar='DIR',
                          default='../catseye.tc/node',
-                         help="write rendered nodes into this directory")
+                         help="write rendered nodes into this directory "
+                              "(default: %default)")
     optparser.add_option("--render-docs",
                          dest="render_docs", default=False,
                          action='store_true',
@@ -240,7 +241,8 @@ def perform(args):
     optparser.add_option("-c", "--clone-dir",
                          dest="clone_dir", metavar='DIR', default='..',
                          help="specify location of the hg clones "
-                              "of reference distributions (default: ..)")
+                              "of reference distributions "
+                              "(default: %default)")
     optparser.add_option("-d", "--data-dirs",
                          dest="data_dirs", metavar='DIRS', default='data',
                          help="colon-separated list of directories "
