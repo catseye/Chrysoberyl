@@ -6,6 +6,9 @@ Metanode:
   type: type
 Document:
   type: type
+Metadata:
+  type: type
+  suppress-page-generation: true
 
 # presentedy things:
 Article:

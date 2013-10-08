@@ -74,6 +74,9 @@ def convert_chrysoberyl_data(data):
     in place of hyphens (which it can't, but which look better in Yaml.)
 
     """
+    if '__CONVERTED__' in data:
+        return
+    data['__CONVERTED__'] = {'type': 'Metadata'}
     count = 0
     for key in data:
         count += 1

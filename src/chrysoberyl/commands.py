@@ -30,7 +30,6 @@ def survey(data, options):
 
     """
     survey_repos(data, options.clone_dir, hg_outgoing=options.hg_outgoing)
-    return 0
 
 
 def lint(data, options):
@@ -38,7 +37,6 @@ def lint(data, options):
 
     """
     lint_dists(data, options.clone_dir, host_language=options.host_language)
-    return 0
 
 
 def troll(data, options):
@@ -49,7 +47,6 @@ def troll(data, options):
 
     """
     troll_docs(data, options.clone_dir, options.output_filename)
-    return 0
 
 
 def render(data, options):
@@ -89,8 +86,7 @@ def release(data, options):
     distro = options.distro_name
     tag = get_latest_release_tag(data, distro, options.clone_dir)
     if not tag:
-        print "ERROR: repository not tagged"
-        return 1
+        raise SystemError("ERROR: repository not tagged")
     match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
     if match:
         v_maj = match.group(1)
@@ -107,8 +103,7 @@ def release(data, options):
             r_min = "0"
             filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
         else:
-            print "ERROR: not a release tag: %s" % tag
-            return 1
+            raise ValueError("ERROR: not a release tag: %s" % tag)
     print """\
   - version: "%s.%s"
     revision: "%s.%s"
@@ -116,9 +111,8 @@ def release(data, options):
 """ % (v_maj, v_min, r_maj, r_min, filename)
     full_filename = os.path.join(options.distfiles_dir, filename)
     if os.path.exists(full_filename):
-        print "ERROR: distfile already exists: %s" % full_filename
         do_it("unzip -v %s" % full_filename)
-        return 1
+        raise SystemError("ERROR: distfile already exists: %s" % full_filename)
     excludes = ' '.join(['-X %s' % x
                          for x in ('.hgignore', '.gitignore',
                                    '.hgtags', '.hg_archival.txt')])
@@ -233,6 +227,5 @@ def perform(args):
             sys.stderr.write("Usage: " + usage())
             sys.exit(1)
         print "Executing '%s'..." % command
-        result = func(data, options)
-        if result != 0:
-            sys.exit(result)
+        # expected that func will just raise an exc if it fails
+        func(data, options)
