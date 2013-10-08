@@ -299,8 +299,6 @@ Exanoke distribution:
 
 FBBI distribution: 
   type: Distribution
-  distribution-of:
-  - Befunge-98
   bitbucket: catseye/fbbi
   github: catseye/FBBI
   issue-tracker: github
@@ -424,11 +422,6 @@ Open Sores Illgol## distribution:
 
 'Illgol: Grand Mal':
   type: Distribution
-  distribution-of:
-  - ILLGOL
-  - Illgola-2
-  - Illberon
-  - Open Sores Illgol##
   # and it probably might as well have executables.  at some point.
   bitbucket: catseye/illgol-grand-mal
   github: catseye/Illgol-Grand-Mal
@@ -455,9 +448,6 @@ Iphigeneia distribution:
 
 Jaccia and Jacciata distribution: 
   type: Distribution
-  distribution-of:
-  - Jaccia
-  - Jacciata
   bitbucket: catseye/jaccia
   github: catseye/Jaccia
   issue-tracker: github
@@ -649,8 +639,6 @@ Pail distribution:
 
 pibfi distribution: 
   type: Distribution
-  distribution-of:
-  - brainfuck
   bitbucket: catseye/pibfi
   github: catseye/pibfi
   issue-tracker: github
@@ -683,8 +671,6 @@ Pixley distribution:
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
-  distribution-of:
-  - PL-{GOTO}
   bitbucket: catseye/pl-goto-.net
   github: catseye/PL-GOTO.NET
   issue-tracker: github

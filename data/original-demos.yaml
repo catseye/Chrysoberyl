@@ -3,9 +3,6 @@
 
 C64 Demo Depot: 
   type: Distribution
-  distribution-of:
-  - Ribos
-  - The PETulant Cursor
   bitbucket: catseye/c64-demo-depot
   github: catseye/C64-Demo-Depot
   issue-tracker: github

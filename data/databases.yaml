@@ -33,9 +33,4 @@ The Dipple:
     The Dipple is where code goes when its home planet has been
     destroyed.  With apologies to [[Andre Norton]].
   releases: []
-  # hmmm.
-  distribution-of:
-  - noise
-  - VALGOL
-  # and others
   skip-docs: true

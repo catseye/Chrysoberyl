@@ -88,7 +88,7 @@ def check_chrysoberyl_node(data, key, node):
     Note that this may have side-effects (altering the contents of the
     node.)  `inception-date` fields are converted to ApproximateDate
     objects, and `publication-date` fields are converted to datetime objects.
-    `distribution-of` and `in-distributions` and `reference-distribution`
+    `in-distributions` and `reference-distribution`
     may be set to defaults based on the presence of a node or field with
     a similar name.  `authors` and `auspices` may be inherited from
     the implementable being implemented.
@@ -188,23 +188,6 @@ def check_chrysoberyl_node(data, key, node):
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \
           "%s mentions 'development-stage'" % key
-        if 'distribution-of' not in node:
-            match = re.match(r'^(.*?) distribution$', key)
-            if match:
-                distribution_of = [match.group(1)]
-                r = []
-                for d in distribution_of:
-                    if data[d]['type'] == 'Implementation':
-                        r.extend(data[d]['implementation-of'])
-                if r:
-                    distribution_of = r
-                node['distribution-of'] = distribution_of
-        check_list_ref(data, key, node, 'distribution-of',
-                       types=('Programming Language',
-                              'Programming Language Family',
-                              'Automaton', 'Game', 'Tool', 'Library',
-                              'Electronics Project',
-                              'Demo', 'Conlang', 'Platform', 'Database'))
         check_optional_list_ref(data, key, node, 'test-requirements',
                                 types=('Programming Language', 'Tool'))
 
