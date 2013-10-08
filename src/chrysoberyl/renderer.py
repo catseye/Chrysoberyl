@@ -179,17 +179,48 @@ class Renderer(object):
             return objects
 
         @expose
+        def ref_impl(key=key):
+            """Find the reference implementation for the given node
+            (assumed to be an implementable), which may be None.
+
+            """
+            ref_i = None
+            for i in related('implementation-of', key=key):
+                if self.data[i].get('reference', False):
+                    if ref_i is not None:
+                        raise ValueError("more than one ref_impl of %s" % key)
+                    ref_i = i
+            return ref_i
+
+        @expose
         def ref_dist(key=key):
             """Find the reference distribution for the given node.
 
             This could be itself, or the dist an implementation is in,
             or the reference distribution of the implementable.
+            
+            WOW, what a mess this is.  I think we need to go back to
+            the entity relationship diagram that I've never drawn for
+            Chrysoberyl and fix things.  An implementable can only have
+            one reference implementation.  But that implementation can
+            (in theory) appear in multiple distributions.  But only one
+            of those distributions is the reference distribution.
+            Clear as mud.
 
             """
             if self.data[key]['type'] == 'Distribution':
-                return key
+                raise TypeError("dists don't have ref dists")
             if 'in-distribution' in self.data[key]:
-                return self.data[key]['in-distribution']
+                raise TypeError("impls don't have ref dists?")
+
+            ref_i = ref_impl(key=key)
+            if ref_i is not None:
+                if 'in-distributions' not in self.data[ref_i]:
+                    #raise ValueError("'%s' is not in any distributions" % ref_i)
+                    print "'%s' is not in any distributions" % ref_i
+                    return None
+                return self.data[ref_i]['in-distributions'][0]
+
             if 'reference-distribution' in self.data[key]:
                 return self.data[key]['reference-distribution']
             raise TypeError("'%s' is not/is not in/has not a distribution" % key)

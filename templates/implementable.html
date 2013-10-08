@@ -23,6 +23,8 @@
         Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
       {% elif specification_link %}
         <a href="{{ specification_link }}">{{ specification_link }}</a></p>
+      {% elif ref_impl() %}
+        {{ link(ref_impl()) }}{#, in the {{ data[ref_impl()].in_distribution }} #}
       {% elif reference_distribution %}
         {{ reference_distribution }}
       {% elif no_specification %}

@@ -2143,7 +2143,7 @@ pixley.pifx:
   implementation-of:
   - Pixley
   in-distribution: Pixley distribution
-  reference: true
+  reference: false
   license: BSD license
   implementation-type: interpreter
   host-language: Pifxley
@@ -2172,7 +2172,7 @@ p-normal.pix:
   implementation-of:
   - Pixley
   in-distribution: Pixley distribution
-  reference: true
+  reference: false
   license: BSD license
   implementation-type: compiler
   host-language: Pixley
