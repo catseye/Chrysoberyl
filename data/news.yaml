@@ -1,4 +1,31 @@
 # encoding: UTF-8
+"catseye.tc hosted on new servers":
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 08 Oct 2013 21:09:16 GMT
+  blurb: |
+    [[catseye.tc]] is now hosted on new web servers.
+  description: |
+    "Here's a nickel, kid.  Get a real web hosting service."
+    
+    So I did.
+    
+    You should see few if any changes.  The ones you might see are:
+    
+    *   `www.catseye.tc` is no longer an alias for `catseye.tc`, although
+        I'll probably set up a redirect in the near future, maybe, if I
+        get around to it.
+    *   Getting documentation (of esolangs, etc.) onto `catseye.tc` has
+        always been a bit of a pain, and that fact hasn't changed, so only
+        links to documentation on Github are given here for now.
+    *   On the plus side, URLs for Chrysoberyl nodes now look much nicer;
+        you can use underscores instead of spaces, kind of like what
+        Mediawiki does.  The old URLs will still work too, though.
+    *   The new servers are in Europe.  That may affect your latency.
+    
+    Everything else should be pretty much as it was.  If you see anything
+    really broken, feel free to let me know.
+
 "Some HTML5 gewgaws for y'all":
   type: Article
   article-type: announcement
