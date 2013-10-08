@@ -131,7 +131,9 @@ def check_chrysoberyl_node(data, key, node):
                 str(node['publication-date']), '%a, %d %b %Y %H:%M:%S GMT'
             )
     except Exception:
-        print "'%s' has bad publication-date '%s'" % (key, node['publication-date'])
+        print "'%s' has bad publication-date '%s'" % (
+            key, node['publication-date']
+        )
         raise
     check_optional_scalar_ref(data, key, node, 'domain')
     check_optional_list_ref(data, key, node, 'see-also')
@@ -308,7 +310,8 @@ def check_chrysoberyl_node(data, key, node):
     # additional constraints for games (implementables)
     if type_ == 'Game':
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
-        check_optional_scalar_ref(data, key, node, 'platform', types=['Platform'])
+        check_optional_scalar_ref(data, key, node, 'platform',
+                                  types=['Platform'])
         check_list_ref(data, key, node, 'authors')
 
     # additional constraints for platforms (implementables)

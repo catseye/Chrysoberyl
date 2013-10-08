@@ -10,7 +10,6 @@ Currently only supports Mercurial repositories hosted on Bitbucket.
 import codecs
 import os
 import re
-import sys
 
 import yaml
 try:

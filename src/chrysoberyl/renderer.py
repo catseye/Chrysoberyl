@@ -438,8 +438,10 @@ class Renderer(object):
                 node = self.data[thing]
                 if node['type'] == 'Article':
                     items.append(thing)
-            return reversed(sorted(items,
-                                   key=lambda x: self.data[x]['publication-date']))
+            return reversed(sorted(
+                items,
+                key=lambda x: self.data[x]['publication-date']
+            ))
 
         @expose
         def latest_news_item():
@@ -451,7 +453,8 @@ class Renderer(object):
             for thing in self.data:
                 node = self.data[thing]
                 if node['type'] == 'Article':
-                    if latest_date is None or node['publication-date'] > latest_date:
+                    if latest_date is None or \
+                       node['publication-date'] > latest_date:
                         latest_date = node['publication-date']
                         latest = thing
             return latest
