@@ -53,6 +53,18 @@ def render(data, options):
     """Render all nodes to a set of HTML5 files.
 
     """
+    convert_chrysoberyl_data(data)
+    r = Renderer(data,
+        options.template_dirs, options.node_dir, options.clone_dir,
+        options.render_docs, options.sleek_node_links
+    )
+    r.render_chrysoberyl_data()
+
+
+def jsonify(data, options):
+    """Render all nodes to a JSON blob.
+
+    """
     json_data = {}
     for key in data:
         if not data[key].get('hidden', False):
@@ -61,12 +73,6 @@ def render(data, options):
     with codecs.open(filename, 'w', 'utf-8') as file:
         json.dump(transform_dates(json_data), file, encoding='utf-8',
                   default=unicode)
-    convert_chrysoberyl_data(data)
-    r = Renderer(data,
-        options.template_dirs, options.node_dir, options.clone_dir,
-        options.render_docs, options.sleek_node_links
-    )
-    r.render_chrysoberyl_data()
 
 
 def announce(data, options):
@@ -134,6 +140,7 @@ def catalog(data, options):
 
 COMMANDS = {
     'render': render,
+    'jsonify': jsonify,
     'announce': announce,
     'troll': troll,
     'survey': survey,
