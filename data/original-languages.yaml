@@ -1375,7 +1375,6 @@ ILLGOL:
     50 reinstate f;
     60 do f(3);
     FIN
-  reference-distribution: 'Illgol: Grand Mal'
 
 illgol.exe:
   type: Implementation
@@ -1414,7 +1413,6 @@ Illgola-2:
   development-stage: mature
   etymology:
   - parody
-  reference-distribution: 'Illgol: Grand Mal'
 
 illgola2.exe:
   type: Implementation
@@ -1452,7 +1450,6 @@ Illberon:
   development-stage: mature
   etymology:
   - parody
-  reference-distribution: 'Illgol: Grand Mal'
 
 # uhhhhhhh...
 i3pp.pl:
@@ -1485,7 +1482,6 @@ Open Sores Illgol##:
   development-stage: mature
   etymology:
   - parody
-  reference-distribution: 'Illgol: Grand Mal'
 
 Open Sores Illgol## (C):
   type: Implementation
@@ -2158,6 +2154,7 @@ P-Normal Pixley:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  # can't we eliminate this somehow?... or is there no reference interpreter
   reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
   subset-of: Scheme
@@ -2191,7 +2188,6 @@ Pifxley:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
   development-stage: mature
   subset-of: Scheme
@@ -2218,7 +2214,6 @@ Crabwell:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  reference-distribution: Pixley distribution
   computational-class: believed Turing-complete
   development-stage: mature
   description: |

@@ -208,11 +208,6 @@ class Renderer(object):
             Clear as mud.
 
             """
-            if self.data[key]['type'] == 'Distribution':
-                raise TypeError("dists don't have ref dists")
-            if 'in-distribution' in self.data[key]:
-                raise TypeError("impls don't have ref dists?")
-
             ref_i = ref_impl(key=key)
             if ref_i is not None:
                 if 'in-distributions' not in self.data[ref_i]:
@@ -221,9 +216,12 @@ class Renderer(object):
                     return None
                 return self.data[ref_i]['in-distributions'][0]
 
+            # we should minimize, ideally eliminate (by introducing a
+            # 'Specification Document' type node which can be present
+            # in a distribution?) this reference-distribution property
             if 'reference-distribution' in self.data[key]:
                 return self.data[key]['reference-distribution']
-            raise TypeError("'%s' is not/is not in/has not a distribution" % key)
+            return None
 
         @expose
         def non_ref_dist_implementations(key=key):

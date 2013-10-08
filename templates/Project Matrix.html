@@ -34,7 +34,7 @@
             <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
           {% endif %}
         {% endfor %}
-        {% if data[thing].reference_distribution %}
+        {% if ref_dist(key=thing) %}
           {% set dist_key = ref_dist(key=thing) %}
           {% if data[dist_key].releases %}
             {% set latest_release = data[dist_key].releases|last %}
