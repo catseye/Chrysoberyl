@@ -151,12 +151,12 @@ COMMANDS = {
 
 def usage():
     message = "chrysoberyl {option} {<command>}\n\n"
-    message += "where each <command> is one of:\n"
-    for command in sorted(COMMANDS.keys()):
-        message += "    %s\n" % command
-        # todo: nice to have: COMMANDS[command].__doc__
-    message += "and all commands will be executed in the sequence in which they were given,\n"
+    message += "where each <command> is one of the following.  All commands\n"
+    message += "will be executed in the sequence in which they were given,\n"
     message += "after the Chrysoberyl data has been loaded and statically checked.\n"
+    for command in sorted(COMMANDS.keys()):
+        message += "\n  %s - " % command
+        message += COMMANDS[command].__doc__.rstrip()
     return message
 
 
@@ -172,34 +172,38 @@ def perform(args):
                          help="colon-separated list of directories "
                               "containing Chrysoberyl Yaml data files "
                               "(default: %default)")
-    optparser.add_option("-t", "--template-dirs",
-                         dest="template_dirs", metavar='DIRS',
-                         default='templates',
-                         help="colon-separated list of directories "
-                              "containing Chrysoberyl templates "
+    optparser.add_option("--distfiles-dir",
+                         dest="distfiles_dir", metavar='DIR',
+                         default='../catseye.tc/distfiles',
+                         help="write distfiles into this directory "
+                              "(default: %default)")
+    optparser.add_option("--distro-name",
+                         dest="distro_name",
+                         default=None,
+                         help="(for release) basename for distfile to create")
+    optparser.add_option("--feed-dir",
+                         dest="feed_dir", metavar='DIR',
+                         default='../catseye.tc/feeds',
+                         help="write feeds into this directory "
                               "(default: %default)")
     optparser.add_option("--hg-outgoing",
                          dest='hg_outgoing', default=False,
                          action='store_true',
-                         help="call `hg outgoing` on each repo")
+                         help="(for lint) call `hg outgoing` on each repo")
     optparser.add_option("--host-language",
                          dest="host_language", metavar='LANG',
                          default=None,
-                         help="lint only those distributions containing "
-                              "implementations in this language")
-    optparser.add_option("-o", "--output",
-                         dest="output_filename", metavar='FILENAME',
-                         default=None,
-                         help="write updated documentation yaml here")
-    optparser.add_option("--distro-name",
-                         dest="distro_name",
-                         default=None,
-                         help="basename for distfile to create")
+                         help="(for lint) lint only those distributions "
+                              "containing implementations in this language")
     optparser.add_option("--node-dir",
                          dest="node_dir", metavar='DIR',
                          default='../catseye.tc/node',
                          help="write rendered nodes into this directory "
                               "(default: %default)")
+    optparser.add_option("--output-doc-yaml-to",
+                         dest="output_filename", metavar='FILENAME',
+                         default=None,
+                         help="(for troll) write updated documentation yaml here")
     optparser.add_option("--render-docs",
                          dest="render_docs", default=False,
                          action='store_true',
@@ -210,14 +214,12 @@ def perform(args):
                          help="render links to nodes using Mediawiki-ish "
                               "URLs (requires web server that understands "
                               "what nodes these refer to")
-    optparser.add_option("--feed-dir",
-                         dest="feed_dir", metavar='DIR',
-                         default='../catseye.tc/feeds',
-                         help="write feeds into this directory")
-    optparser.add_option("--distfiles-dir",
-                         dest="distfiles_dir", metavar='DIR',
-                         default='../catseye.tc/distfiles',
-                         help="write distfile into this directory")
+    optparser.add_option("-t", "--template-dirs",
+                         dest="template_dirs", metavar='DIRS',
+                         default='templates',
+                         help="colon-separated list of directories "
+                              "containing Chrysoberyl templates "
+                              "(default: %default)")
 
     options, args = optparser.parse_args(args)
 
@@ -228,7 +230,7 @@ def perform(args):
     for command in args:
         func = COMMANDS.get(command, None)
         if func is None:
-            sys.stderr.write(usage())
+            sys.stderr.write("Usage: " + usage())
             sys.exit(1)
         print "Executing '%s'..." % command
         result = func(data, options)
