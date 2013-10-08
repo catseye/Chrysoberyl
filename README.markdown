@@ -56,8 +56,9 @@ for that type.
 Specific Schema
 ---------------
 
-In the following, an "implementable" (for lack of a better term)
-refers to any of the following:
+In the following, an "implementable" (for lack of a better term) is pretty
+much anything that can be implemented.  Specifically, it refers to any of
+the following:
 
 *   a programming language (which includes machine languages)
 *   a game
@@ -67,14 +68,41 @@ refers to any of the following:
 *   a library
 *   a musical composition
 
-An implementable may have multiple distributions.  There will typically be
-a reference distribution, which contains the spec and/or reference
-implementation of the implementable.  If there is no reference distribution,
-a link to its specification (even if it's just a page on a wiki) or
-standards body (even if it's just "the official website") is needed.
-Only one distribution can be the reference distribution for an implementable.
+An implementable may have zero or more implementations.
 
-Therefore, every implementable needs at least one of the following:
+Ideally (it is not really this way in Chrysoberyl yet), an implementation
+could be either an "actual" implementation, or a specification document
+which attempts to unambiguously describe how to implement the implementable
+(for example, a language specification would be an "implementation" of a
+programming language, and a musical score would be an "implementation" of a
+musical composition.)
+
+Each implementation may or may not be a reference implementation.  Ideally,
+Chrysoberyl should understand that an implementable can have more than one
+reference implementation.  (For example, having a prescriptive specification
+*and* a reference implementation can be useful.)
+
+A standards body could also be a reference implementation, in a sense, as
+it can act as a disambiguator for when reference implementations prove to
+be insufficiently clear.  (Maybe this is stretching it?)
+
+Each implementation may be included in zero or more distributions.
+
+The _reference distribution_ of an implementable is defined as the first
+distribution that the first reference implementation is included in.  (This
+derived notion of reference distribution should replace the explicit notion
+of a reference distribution currently present in Chrysoberyl.)
+
+Only one distribution can be the reference distribution for an implementable.
+There can be only one reference distribution for an implementable.  Typically
+It will contain the spec and/or reference implementation of the implementable.
+
+If there is no reference distribution, a link to its specification (even if
+it's just a page on a wiki) or standards body (even if it's just "the official
+website") is required.
+
+(This part needs updating)  Therefore, every implementable needs at least one
+of the following:
 
 *   `reference-distribution` (a key)
 *   `specification-link` (a URL, or `esowiki`)
