@@ -225,7 +225,13 @@ class Renderer(object):
                 if self.data[k]['type'] != 'Document':
                     continue
                 if self.data[k]['distribution'] == key:
-                    d.append(k)
+                    match = re.match(
+                        r'^.*?\/(.*)$', k,
+                        re.DOTALL
+                    )
+                    if not match:
+                        raise ValueError('badly formatted documentation key')
+                    d.append(match.group(1))
             return sorted(d)
 
         @expose
@@ -235,11 +241,10 @@ class Renderer(object):
             distribution.
 
             """
-            gh = self.data[key].get('github', None)
-            if gh is None:
-                return None
-            else:
-                return "https://github.com/%s/blob/master/%s" % (gh, filename)
+            return "https://github.com/%s/blob/master/%s" % (
+                pathname2url(self.data[key]['github']),
+                pathname2url(filename)
+            )
 
         @expose
         def indefart(text):
