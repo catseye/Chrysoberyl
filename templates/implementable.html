@@ -24,6 +24,7 @@
       {% elif specification_link %}
         <a href="{{ specification_link }}">{{ specification_link }}</a></p>
       {% elif ref_impl() %}
+        {# TODO: candidate for macro, as it's used below too #}
         {{ link(ref_impl()) }}
         {% if data[ref_impl()].in_distributions|length > 0 %}
           in the {{ data[ref_impl()].in_distributions[0] }}
@@ -61,29 +62,6 @@
                       {{ document }}
                     {% endif %}
                     #}
-                  </li>
-                {% endfor %}
-              </ul>
-            </section>
-          {% endif %}
-    
-          {% if related('in-distributions', key=dist_key) %}
-            <section id="contained_implementations">
-              <h2>Implementations</h2>
-              <ul>
-                {% for impl in related('in-distributions', key=dist_key) %}
-                  <li>
-                    <p>
-                      {{ link(impl) }},
-                      {% if 'implementation-type' in data[impl] %}
-                        {{ indefart(data[impl].implementation_type) }}
-                      {% else %}
-                      {% endif %}
-                      in {{ link(data[impl].host_language) }}
-                      {% if data[impl].host_language == key %}
-                        (Yo dawg, I herd you like {{ key }})
-                      {% endif %}
-                    </p>
                   </li>
                 {% endfor %}
               </ul>
@@ -184,14 +162,10 @@
   </ul>
 {% endif %}
 
-{# REDO THIS PLZKTHX #}{% if non_ref_dist_implementations() %}
-  {% if online_implementations %}
-    <h2>Other Implementations</h2>
-  {% else %}
-    <h2>Implementations</h2>
-  {% endif %}
+{% if related('implementation-of')|length > 0 %}
+  <h2>Implementations</h2>
   <ul>
-    {% for impl in non_ref_dist_implementations()|sort %}
+    {% for impl in related('implementation-of')|sort %}
       <li>
         {{ link(impl) }},
         {% if 'implementation-type' in data[impl] %}
@@ -201,6 +175,9 @@
         in {{ link(data[impl].host_language) }}
         {% if data[impl].host_language == key %}
           (Yo dawg, I herd you like {{ key }})
+        {% endif %}
+        {% if data[impl].in_distributions|length > 0 %}
+          in the {{ data[impl].in_distributions[0] }}
         {% endif %}
       </li>
     {% endfor %}

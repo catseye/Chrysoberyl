@@ -218,27 +218,6 @@ class Renderer(object):
             return None
 
         @expose
-        def non_ref_dist_implementations(key=key):
-            """Return a list of all the implementations which are not in
-            the reference distribution of the given node.
-
-            PLEASE KILL THIS FUNCTION
-
-            """
-            implementations_of = related('implementation-of', key=key)
-            try:
-                reference_distribution = ref_dist(key=key)
-            except TypeError:
-                return implementations_of
-            implementations_in_ref_dist = \
-                related('in-distributions', key=reference_distribution)
-            implementations = []
-            for i in implementations_of:
-                if i not in implementations_in_ref_dist:
-                    implementations.append(i)
-            return implementations
-
-        @expose
         def documentation(key=key):
             """Return a list of documentation node keys for the given key."""
             d = []
