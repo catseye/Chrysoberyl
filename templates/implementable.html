@@ -17,14 +17,18 @@
   <section id="defined_by">
     <h2>Defined by</h2>
     <p>
-      {% if specification_link == 'esowiki' %}
+      {% if standards_body %}
+        <a href="{{ standards_body }}">{{ standards_body }}</a></p>
+      {% elif specification_link == 'esowiki' %}
         Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
       {% elif specification_link %}
         <a href="{{ specification_link }}">{{ specification_link }}</a></p>
       {% elif reference_distribution %}
         {{ reference_distribution }}
+      {% elif no_specification %}
+        (no specification or reference implementation on file)
       {% else %}
-        ?
+        {{ error(key + ' is not defined by?') }}
       {% endif %}
     </p>
   </section>

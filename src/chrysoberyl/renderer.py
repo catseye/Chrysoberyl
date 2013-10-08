@@ -358,6 +358,10 @@ class Renderer(object):
             return ''
 
         @expose
+        def error(text):
+            raise ValueError(text)
+
+        @expose
         def breadcrumbs(key=key):
             """Generate breadcrumbs for the node given by key."""
             # ("This function's more like spaghetti than breadcrumbs,"

@@ -38,8 +38,7 @@ MED:
 
 mp3:
   type: Music Format
-  # XXX fix this
-  no-specification: true
+  specification-link: https://en.wikipedia.org/wiki/MP3
   authors: []
   paradigms: []
 
