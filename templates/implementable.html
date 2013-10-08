@@ -17,124 +17,121 @@
   <section id="reference_distribution">
     {% set dist_key=ref_dist() %}
 
-{# USED TO BE AN INCLUDE #}
-<div class="row-fluid">
-  <div class="span8">
-    <section id="distribution_contents">
-
-      {% if documentation(key=dist_key) %}
-        <section id="documentation">
-          <h2>Documentation</h2>
-          <ul>
-            {% for document in documentation(key=dist_key) %}
-              <li>
-                {{ link(document, link_text=data[document].filename) }}
-                {#
-                {% if github_link(document) %}
-                  <a href="{{ github_link(document) }}">{{ document }}</a>
+    <div class="row-fluid">
+      <div class="span8">
+        <section id="distribution_contents">
+    
+          {% if documentation(key=dist_key) %}
+            <section id="documentation">
+              <h2>Documentation</h2>
+              <ul>
+                {% for document in documentation(key=dist_key) %}
+                  <li>
+                    {{ link(document, link_text=data[document].filename) }}
+                    {#
+                    {% if github_link(document) %}
+                      <a href="{{ github_link(document) }}">{{ document }}</a>
+                    {% else %}
+                      {{ document }}
+                    {% endif %}
+                    #}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+    
+          {% if related('in-distributions', key=dist_key) %}
+            <section id="contained_implementations">
+              <h2>Implementations</h2>
+              <ul>
+                {% for impl in related('in-distributions', key=dist_key) %}
+                  <li>
+                    <p>
+                      {{ link(impl) }},
+                      {% if 'implementation-type' in data[impl] %}
+                        {{ indefart(data[impl].implementation_type) }}
+                      {% else %}
+                      {% endif %}
+                      in {{ link(data[impl].host_language) }}
+                      {% if data[impl].host_language == key %}
+                        (Yo dawg, I herd you like {{ key }})
+                      {% endif %}
+                    </p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+    
+          {% if data[dist_key].test_requirements %}
+            <section id="test_requirements">
+              <h2>Test Requirements</h2>
+              <ul>
+                {% for req in data[dist_key].test_requirements %}
+                  <li>
+                      an implementation of {{ link(req) }}
+                      {% if recommended_implementation(req) %}
+                        (we suggest {{ link(recommended_implementation(req)) }})
+                      {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+    
+        </section>
+      </div>
+    
+      <div class="span4">
+        <section id="distribution_access">
+    
+          {% if data[dist_key].releases %}
+            {% set latest_release = data[dist_key].releases|last %}
+            <section id="download">
+              <h2>Download</h2>
+              <p><a class="download" href="{{ latest_release.url }}">
+                Download latest release
+                ({{ latest_release.version }}-{{ latest_release.revision }})
+              </a></p>
+            </section>
+          {% endif %}
+    
+          {% if data[dist_key].github or data[dist_key].bitbucket %}
+            <section id="development">
+              <h2>Development</h2>
+              {% if data[dist_key].github %}
+                <p>Github: <a href="https://github.com/{{ data[dist_key].github }}">{{ data[dist_key].github }}</a></p>
+              {% endif %}
+              {% if data[dist_key].bitbucket %}
+                <p>Bitbucket: <a href="https://bitbucket.org/{{ data[dist_key].bitbucket }}">{{ data[dist_key].bitbucket }}</a></p>
+              {% endif %}
+              {% if data[dist_key].issue_tracker %}
+                {% if data[dist_key].issue_tracker == 'github' %}
+                  <p>Issue tracker: <a href="https://github.com/{{ data[dist_key].github }}/issues">on github</a></p>
                 {% else %}
-                  {{ document }}
+                  <p>Issue tracker: <a href="{{ data[dist_key].issue_tracker }}">{{ data[dist_key].issue_tracker }}</a></p>
                 {% endif %}
-                #}
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
-
-      {% if related('in-distributions', key=dist_key) %}
-        <section id="contained_implementations">
-          <h2>Implementations</h2>
-          <ul>
-            {% for impl in related('in-distributions', key=dist_key) %}
-              <li>
-                <p>
-                  {{ link(impl) }},
-                  {% if 'implementation-type' in data[impl] %}
-                    {{ indefart(data[impl].implementation_type) }}
-                  {% else %}
-                  {% endif %}
-                  in {{ link(data[impl].host_language) }}
-                  {% if data[impl].host_language == key %}
-                    (Yo dawg, I herd you like {{ key }})
-                  {% endif %}
-                </p>
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
-
-      {% if data[dist_key].test_requirements %}
-        <section id="test_requirements">
-          <h2>Test Requirements</h2>
-          <ul>
-            {% for req in data[dist_key].test_requirements %}
-              <li>
-                  an implementation of {{ link(req) }}
-                  {% if recommended_implementation(req) %}
-                    (we suggest {{ link(recommended_implementation(req)) }})
-                  {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
-
-    </section>
-  </div>
-
-  <div class="span4">
-    <section id="distribution_access">
-
-      {% if data[dist_key].releases %}
-        {% set latest_release = data[dist_key].releases|last %}
-        <section id="download">
-          <h2>Download</h2>
-          <p><a class="download" href="{{ latest_release.url }}">
-            Download latest release
-            ({{ latest_release.version }}-{{ latest_release.revision }})
-          </a></p>
-        </section>
-      {% endif %}
-
-      {% if data[dist_key].github or data[dist_key].bitbucket %}
-        <section id="development">
-          <h2>Development</h2>
-          {% if data[dist_key].github %}
-            <p>Github: <a href="https://github.com/{{ data[dist_key].github }}">{{ data[dist_key].github }}</a></p>
+              {% endif %}
+            </section>
           {% endif %}
-          {% if data[dist_key].bitbucket %}
-            <p>Bitbucket: <a href="https://bitbucket.org/{{ data[dist_key].bitbucket }}">{{ data[dist_key].bitbucket }}</a></p>
+    
+          {% if data[dist_key].releases|length>1 %}
+            <section id="previous_releases">
+              <h2>Previous Releases</h2>
+              <ul>
+                {% for release in data[dist_key].releases[:-1] %}
+                <li>
+                  <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </section>
           {% endif %}
-          {% if data[dist_key].issue_tracker %}
-            {% if data[dist_key].issue_tracker == 'github' %}
-              <p>Issue tracker: <a href="https://github.com/{{ data[dist_key].github }}/issues">on github</a></p>
-            {% else %}
-              <p>Issue tracker: <a href="{{ data[dist_key].issue_tracker }}">{{ data[dist_key].issue_tracker }}</a></p>
-            {% endif %}
-          {% endif %}
+    
         </section>
-      {% endif %}
-
-      {% if data[dist_key].releases|length>1 %}
-        <section id="previous_releases">
-          <h2>Previous Releases</h2>
-          <ul>
-            {% for release in data[dist_key].releases[:-1] %}
-            <li>
-              <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
-
-    </section>
-  </div>
-</div>
-
-
+      </div>
+    </div>
 
   </section>
 {% elif standards_body %}
