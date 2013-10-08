@@ -1,25 +1,4 @@
 # encoding: UTF-8
-miniscm:
-  type: Implementation
-  reference: false
-  in-distribution: Minischeme distribution
-  license: Public Domain
-  # R4RS Scheme, maybe
-  implementation-of:
-  - Scheme
-  implementation-type: interpreter
-  host-language: ANSI C
-
-Minischeme distribution: 
-  type: Distribution
-  reference: false
-  description: |
-    Cat's Eye Technologies' fork of the original Mini-scheme distribution.
-  github: catseye/minischeme
-  issue-tracker: github
-  releases: []
-
-
 JaC64:
   type: Implementation
   reference: false
@@ -45,6 +24,27 @@ JaC64 distribution:
   releases: []
 
 
+miniscm:
+  type: Implementation
+  reference: false
+  in-distribution: Minischeme distribution
+  license: Public Domain
+  # R4RS Scheme, maybe
+  implementation-of:
+  - Scheme
+  implementation-type: interpreter
+  host-language: ANSI C
+
+Minischeme distribution: 
+  type: Distribution
+  reference: false
+  description: |
+    Cat's Eye Technologies' fork of the original Mini-scheme distribution.
+  github: catseye/minischeme
+  issue-tracker: github
+  releases: []
+
+
 OpenZz:
   type: Implementation
   reference: false
@@ -62,5 +62,37 @@ OpenZz distribution:
     Cat's Eye Technologies' fork of OpenZz, an open-source implementation
     of the dynamic grammar-based language Zz.
   github: catseye/OpenZz
+  issue-tracker: github
+  releases: []
+
+
+tideay: 
+  type: Tool
+  authors:
+  - Paul Harrison
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `tideay` is Cat's Eye Technologies fork of `yaedit`, a GtkSourceView-based
+    text editor written by Paul Harrison.  In addition to the
+    features provided by `yaedit`, `tideay` supports things such as
+    [[String-rewriting]]-based editing commands.
+  inception-date: Apr 2013
+  development-stage: work in progress
+
+tideay (Python):
+  type: Implementation
+  implementation-of:
+  - tideay
+  reference: true
+  in-distribution: tideay distribution
+  license: GPL
+  host-language: Python
+
+tideay distribution: 
+  type: Distribution
+  bitbucket: catseye/tideay
+  github: catseye/tideay
   issue-tracker: github
   releases: []

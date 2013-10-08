@@ -25,6 +25,7 @@ Bubble Escape (BASIC):
   type: Implementation
   implementation-of:
   - Bubble Escape
+  reference: true
   in-distribution: 'Bubble Escape distribution'
   license: BSD license
   host-language: Commodore BASIC 2.0
@@ -99,6 +100,7 @@ Bubble Escape distribution:
   type: Implementation
   implementation-of:
   - 'Corona: Realm of Magic'
+  reference: true
   in-distribution: 'Corona: Realm of Magic distribution'
   license: BSD license
   host-language: Perl
@@ -143,6 +145,7 @@ Dungeons of Ekileugor (BASIC):
   type: Implementation
   implementation-of:
   - Dungeons of Ekileugor
+  reference: true
   in-distribution: 'Dungeons of Ekileugor distribution'
   license: Freely Redistributable
   host-language: Commodore BASIC 2.0
@@ -181,6 +184,7 @@ swl.pl:
   type: Implementation
   implementation-of:
   - Super Wumpus Land
+  reference: true
   in-distribution: Super Wumpus Land distribution
   license: BSD license
   host-language: Perl
@@ -231,6 +235,7 @@ Zzrk (Zz):
   type: Implementation
   implementation-of:
   - Zzrk
+  reference: true
   in-distribution: Zzrk distribution
   license: BSD license
   host-language: Zz

@@ -88,10 +88,11 @@ def check_chrysoberyl_node(data, key, node):
     Note that this may have side-effects (altering the contents of the
     node.)  `inception-date` fields are converted to ApproximateDate
     objects, and `publication-date` fields are converted to datetime objects.
-    `in-distributions` and `reference-distribution`
-    may be set to defaults based on the presence of a node or field with
-    a similar name.  `authors` and `auspices` may be inherited from
-    the implementable being implemented.
+    The following fields may be set to a default based on the presence of a
+    node or field with a similar name:
+        `in-distributions`
+    Also, `authors` and `auspices` may be inherited from the implementable
+    being implemented.
 
     """
     # Every node must have a valid type.
@@ -270,16 +271,14 @@ def check_chrysoberyl_node(data, key, node):
         check_optional_list_ref(data, key, node, 'online-implementations',
                                 types=['Online Installation'])
 
-        if not node.get('no-specification', False):
-            if ('specification-link' not in node and
-                'standards-body' not in node and
-                'reference-distribution' not in node):
-                node['reference-distribution'] = '%s distribution' % key
-            if ('specification-link' not in node and
-                'standards-body' not in node):
-                check_scalar_ref(data, key, node, 'reference-distribution',
-                                 types=['Distribution'])
-                data[node['reference-distribution']]['reference'] = True
+        # to do this properly we'd need to check ref. impls.
+        #if not node.get('no-specification', False):
+        #    if ('specification-link' not in node and
+        #        'standards-body' not in node):
+        #        check_scalar_ref(data, key, node, 'defining-distribution',
+        #                         types=['Distribution'])
+        check_optional_scalar_ref(data, key, node, 'defining-distribution',
+                                  types=['Distribution'])
 
     # alternate constraints for musical pieces (implementables)
     if type_ == 'Musical Composition':

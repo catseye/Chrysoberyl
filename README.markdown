@@ -104,10 +104,14 @@ website") is required.
 (This part needs updating)  Therefore, every implementable needs at least one
 of the following:
 
-*   `reference-distribution` (a key)
+*   `defining-distribution` (a key)
 *   `specification-link` (a URL, or `esowiki`)
 *   `standards-body` (a URL)
 *   `no-specification: true`
+
+`defining-distribution` is really just a stopgap measure that basically means
+"defined by the specification that you will find somewhere in this
+distribution" -- really the spec itself should be referenced in the node.
 
 If none of the last three of that list are present, we expect an
 implementable to have a `reference-distribution`.  If that key is not present,

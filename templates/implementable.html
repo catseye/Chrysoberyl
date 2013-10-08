@@ -27,6 +27,8 @@
         {{ link(ref_impl()) }}{#, in the {{ data[ref_impl()].in_distribution }} #}
       {% elif reference_distribution %}
         {{ reference_distribution }}
+      {% elif defining_distribution %}
+        {{ defining_distribution }}
       {% elif no_specification %}
         (no specification or reference implementation on file)
       {% else %}

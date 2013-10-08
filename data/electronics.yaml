@@ -8,6 +8,7 @@ The 'Kitsilano' Oscillator:
   description: |
     An oscillator circuit that contains two NPN transistors and
     a single capacitor.
+  defining-distribution: The 'Kitsilano' Oscillator distribution
   images:
   - 'https://raw.github.com/catseye/Electronics-Projects/master/kitsilano/kitsilano.png'
   development-stage: not fully complete
@@ -33,6 +34,7 @@ LED-386:
   - Cat's Eye Technologies
   description: |
     The LM386 audio amplifier IC, that is...
+  defining-distribution: LED-386 distribution
   images:
   - 'https://raw.github.com/catseye/Electronics-Projects/master/led386/doc/led386_photo.jpg'
   development-stage: mature
@@ -55,6 +57,7 @@ Mildred:
   description: |
     Mildred is a 4MHz [[Z80 machine code|Z80]]-based homebrew computer
     with 40K of memory (8K EEPROM, 32K SRAM.)
+  defining-distribution: Mildred distribution
   images:
   - 'https://raw.github.com/catseye/Electronics-Projects/master/mildred/doc/mildred_photo.jpg'
   development-stage: not fully complete

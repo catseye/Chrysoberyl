@@ -24,6 +24,7 @@
   type: Implementation
   implementation-of:
   - 'Console::Virtual'
+  reference: true
   in-distributions:
   - 'Console::Virtual distribution'
   - 'Corona: Realm of Magic distribution'
@@ -70,6 +71,7 @@ crone.erl:
   type: Implementation
   implementation-of:
   - crone
+  reference: true
   in-distribution: crone distribution
   license: BSD license
   host-language: Erlang
@@ -102,6 +104,7 @@ DiskSumo (BASIC):
   type: Implementation
   implementation-of:
   - DiskSumo
+  reference: true
   in-distribution: DiskSumo distribution
   license: Public Domain
   host-language: Commodore BASIC 2.0
@@ -148,6 +151,7 @@ py-falderal:
   type: Implementation
   implementation-of:
   - Falderal
+  reference: true
   in-distribution: Falderal distribution
   generally-recommended: true
   license: BSD license
@@ -195,6 +199,7 @@ mzstorkipiwanbotbotbot (Lua):
   type: Implementation
   implementation-of:
   - mzstorkipiwanbotbotbot
+  reference: true
   in-distribution: mzstorkipiwanbotbotbot distribution
   license: Public Domain
   host-language: Lua
@@ -237,6 +242,7 @@ rooibos.py:
   type: Implementation
   implementation-of:
   - Rooibos
+  reference: true
   in-distributions:
   - Rooibos distribution
   - Eightebed distribution
@@ -247,37 +253,6 @@ Rooibos distribution:
   type: Distribution
   bitbucket: catseye/rooibos
   github: catseye/Rooibos
-  issue-tracker: github
-  releases: []
-
-
-tideay: 
-  type: Tool
-  authors:
-  - Paul Harrison
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  description: |
-    `tideay` is Cat's Eye Technologies fork of `yaedit`, a GtkSourceView-based
-    text editor written by Paul Harrison.  In addition to the
-    features provided by `yaedit`, `tideay` supports things such as
-    [[String-rewriting]]-based editing commands.
-  inception-date: Apr 2013
-  development-stage: work in progress
-
-tideay (Python):
-  type: Implementation
-  implementation-of:
-  - tideay
-  in-distribution: tideay distribution
-  license: GPL
-  host-language: Python
-
-tideay distribution: 
-  type: Distribution
-  bitbucket: catseye/tideay
-  github: catseye/tideay
   issue-tracker: github
   releases: []
 
@@ -302,6 +277,7 @@ toolshelf.py:
   type: Implementation
   implementation-of:
   - toolshelf
+  reference: true
   in-distribution: toolshelf distribution
   license: MIT license
   host-language: Python
@@ -333,6 +309,7 @@ TPiS (Scheme):
   type: Implementation
   implementation-of:
   - TPiS
+  reference: true
   in-distribution: TPiS distribution
   license: BSD license
   host-language: Scheme
@@ -367,6 +344,7 @@ transmat (Python):
   type: Implementation
   implementation-of:
   - transmat
+  reference: true
   in-distribution: transmat distribution
   license: Public Domain
   host-language: Python
@@ -398,6 +376,7 @@ yucca (Python):
   type: Implementation
   implementation-of:
   - yucca
+  reference: true
   in-distribution: yucca distribution
   license: MIT license
   host-language: Python

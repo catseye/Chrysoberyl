@@ -16,6 +16,7 @@ basedump.erl:
   type: Implementation
   implementation-of:
   - basedump
+  reference: true
   in-distribution: basedump distribution
   prebuilt-for-platforms:
   - Erlang
@@ -44,6 +45,7 @@ belld.c:
   type: Implementation
   implementation-of:
   - belld
+  reference: true
   #build-requirements:
   #- FreeBSD 4.x
   in-distribution: belld distribution
@@ -71,6 +73,7 @@ brace.c:
   type: Implementation
   implementation-of:
   - brace
+  reference: true
   in-distribution: brace distribution
   license: BSD license
   host-language: C99
@@ -97,6 +100,7 @@ ce (Erlang):
   type: Implementation
   implementation-of:
   - ce
+  reference: true
   in-distribution: ce distribution
   prebuilt-for-platforms:
   - Erlang
@@ -124,6 +128,7 @@ ec.erl:
   type: Implementation
   implementation-of:
   - ec
+  reference: true
   in-distribution: ec distribution
   prebuilt-for-platforms:
   - Erlang
@@ -154,6 +159,7 @@ erlaunch.c:
   type: Implementation
   implementation-of:
   - erlaunch
+  reference: true
   in-distribution: erlaunch distribution
   license: BSD license
   host-language: C99
@@ -179,6 +185,7 @@ noise (Perl):
   type: Implementation
   implementation-of:
   - noise
+  reference: true
   license: BSD license
   host-language: Perl
   in-distribution: The Dipple
@@ -225,6 +232,7 @@ OpenFlax (Erlang):
   type: Implementation
   implementation-of:
   - OpenFlax
+  reference: true
   in-distribution: OpenFlax distribution
   prebuilt-for-platforms:
   - Erlang
@@ -254,6 +262,7 @@ peruse.erl:
   type: Implementation
   implementation-of:
   - peruse
+  reference: true
   in-distribution: peruse distribution
   prebuilt-for-platforms:
   - Erlang
@@ -284,6 +293,7 @@ luakld (C):
   type: Implementation
   implementation-of:
   - luakld
+  reference: true
   in-distribution: luakld distribution
   license: BSD license
   host-language: C99
@@ -320,6 +330,7 @@ SP\ASM.BAT:
   type: Implementation
   implementation-of:
   - SP\ASM
+  reference: true
   in-distribution: SP\ASM distribution
   license: Unknown license
   host-language: MS-DOS Batchfile
@@ -353,6 +364,7 @@ yaeolc (Perl):
   type: Implementation
   implementation-of:
   - yaeolc
+  reference: true
   in-distributions:
   - yaeolc distribution
   - The Dipple

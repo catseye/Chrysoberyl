@@ -591,7 +591,7 @@ Castile:
     variables are mutable, but arguments and globals aren't.  The compiler
     supports several backends, including [[Javascript]] and [[Ruby]].
   inception-date: Nov 21, 2012
-  development-stage: not fully complete
+  development-stage: work in progress
   authors:
   - Chris Pressey
   auspices:
@@ -1047,6 +1047,7 @@ Full Moon Fever:
 Funge-98:
   type: Programming Language Family
   genre: Esolang
+  defining-distribution: Funge-98 distribution
   paradigms:
   - Stack-based
   - Self-modifying
@@ -1380,6 +1381,7 @@ illgol.exe:
   type: Implementation
   implementation-of:
   - ILLGOL
+  reference: true
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1418,6 +1420,7 @@ illgola2.exe:
   type: Implementation
   implementation-of:
   - Illgola-2
+  reference: true
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1456,6 +1459,7 @@ i3pp.pl:
   type: Implementation
   implementation-of:
   - Illberon
+  reference: true
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   # preprocessor...
@@ -1487,6 +1491,7 @@ Open Sores Illgol## (C):
   type: Implementation
   implementation-of:
   - Open Sores Illgol##
+  reference: true
   in-distribution: 'Illgol: Grand Mal'
   license: Unknown license
   implementation-type: compiler
@@ -1638,6 +1643,7 @@ Kelxquoia:
   - 2-dimensional
   - Grid-rewriting
   - Self-modifying
+  defining-distribution: Kelxquoia distribution
   description: |
     Kelxquoia is another remotely fungeoid language, this one self-modifying
     — in fact, self-destroying.  As instructions are executed, they are
@@ -1727,6 +1733,7 @@ Madison:
   - Cat's Eye Technologies
   paradigms:
   - Term-rewriting
+  defining-distribution: Madison distribution
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
   development-stage: not fully complete
@@ -1859,6 +1866,7 @@ MDPN:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  defining-distribution: MDPN distribution
   esowiki: MDPN
   inception-date: 1999
   development-stage: not fully complete
@@ -1994,6 +2002,7 @@ Oozlybub and Murphy:
   genre: Esolang
   paradigms:
   - Imperative
+  defining-distribution: Oozlybub and Murphy distribution
   description: |
     The name of this language is Oozlybub and Murphy. Despite appearances,
     this name refers to a single language. The majority of the language is named
@@ -2042,6 +2051,7 @@ Opus-2:
     + C, tubular bells, piano
     + mothballs (gentle whiff)
   significant: true
+  defining-distribution: Opus-2 distribution
 
 
 Pail: 
@@ -2609,6 +2619,7 @@ Tamerlane:
   inception-date: Aug 2000
   development-stage: mature
   esowiki: Tamerlane
+  defining-distribution: Tamerlane distribution
   etymology:
   - masculine given name
   sample: |
@@ -2684,6 +2695,7 @@ Troupe:
   inception-date: Jun 25, 2012
   development-stage: not fully complete
   esowiki: Troupe
+  defining-distribution: Troupe distribution
 
 
 Unlikely:
@@ -2897,7 +2909,8 @@ Wierd:
   computational-class: believed Turing-complete
   inception-date: 1997
   # there are two implementations, neither of which seems to conform to
-  # the spec, at least not entirely.
+  # the spec, at least not entirely.  thus:
+  defining-distribution: Wierd distribution
   development-stage: not fully complete
   etymology:
   - typo
@@ -3037,6 +3050,7 @@ Xoomonk:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  defining-distribution: Xoomonk distribution
   computational-class: believed Turing-complete
   inception-date: Aug 7, 2011
   development-stage: not fully complete
@@ -3059,6 +3073,7 @@ You are Reading the Name of this Esolang:
   genre: Esolang
   paradigms:
   - Imperative
+  defining-distribution: You are Reading the Name of this Esolang distribution
   description: |
     You are Reading the Name of this Esolang is an exploration in
     the design space of programming languages with undecidable elements. Its syntax

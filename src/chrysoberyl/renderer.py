@@ -211,8 +211,6 @@ class Renderer(object):
             ref_i = ref_impl(key=key)
             if ref_i is not None:
                 if 'in-distributions' not in self.data[ref_i]:
-                    #raise ValueError("'%s' is not in any distributions" % ref_i)
-                    print "'%s' is not in any distributions" % ref_i
                     return None
                 return self.data[ref_i]['in-distributions'][0]
 
