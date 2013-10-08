@@ -192,7 +192,7 @@ class Renderer(object):
                 return self.data[key]['in-distribution']
             if 'reference-distribution' in self.data[key]:
                 return self.data[key]['reference-distribution']
-            raise TypeError(key)
+            raise TypeError("'%s' is not/is not in/has not a distribution" % key)
 
         @expose
         def non_ref_dist_implementations(key=key):

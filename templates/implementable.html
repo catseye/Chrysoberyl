@@ -13,15 +13,21 @@
   </section>
 {% endif %}
 
-{% if specification_link %}
-  <h2>Defined by</h2>
-  <p>
-    {% if specification_link == 'esowiki' %}
-      Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
-    {% else %}
-      <a href="{{ specification_link }}">{{ specification_link }}</a></p>
-    {% endif %}
-  </p>
+{% if type != 'Musical Composition' %}
+  <section id="defined_by">
+    <h2>Defined by</h2>
+    <p>
+      {% if specification_link == 'esowiki' %}
+        Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
+      {% elif specification_link %}
+        <a href="{{ specification_link }}">{{ specification_link }}</a></p>
+      {% elif reference_distribution %}
+        {{ reference_distribution }}
+      {% else %}
+        ?
+      {% endif %}
+    </p>
+  </section>
 {% endif %}
 
 {% if reference_distribution %}
