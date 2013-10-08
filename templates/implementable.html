@@ -24,9 +24,10 @@
       {% elif specification_link %}
         <a href="{{ specification_link }}">{{ specification_link }}</a></p>
       {% elif ref_impl() %}
-        {{ link(ref_impl()) }}{#, in the {{ data[ref_impl()].in_distribution }} #}
-      {% elif reference_distribution %}
-        {{ reference_distribution }}
+        {{ link(ref_impl()) }}
+        {% if data[ref_impl()].in_distributions|length > 0 %}
+          in the {{ data[ref_impl()].in_distributions[0] }}
+        {% endif %}
       {% elif defining_distribution %}
         {{ defining_distribution }}
       {% elif no_specification %}
@@ -54,8 +55,8 @@
                   <li>
                     {{ link(document, link_text=data[document].filename) }}
                     {#
-                    {% if github_link(document) %}
-                      <a href="{{ github_link(document) }}">{{ document }}</a>
+                    {% if github_link(document, key=dist_key) %}
+                      <a href="{{ github_link(document, key=dist_key) }}">{{ document }}</a>
                     {% else %}
                       {{ document }}
                     {% endif %}
@@ -183,8 +184,8 @@
   </ul>
 {% endif %}
 
-{% if non_ref_dist_implementations() %}
-  {% if online_implementations or reference_distribution %}
+{# REDO THIS PLZKTHX #}{% if non_ref_dist_implementations() %}
+  {% if online_implementations %}
     <h2>Other Implementations</h2>
   {% else %}
     <h2>Implementations</h2>

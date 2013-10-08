@@ -224,7 +224,6 @@ Jaccia:
   inception-date: Apr 11, 2009
   development-stage: mature
   dimensionality: 2
-  reference-distribution: Jaccia and Jacciata distribution
   etymology:
   - neologism
   computational-class: known not Turing-complete
@@ -274,7 +273,6 @@ Jacciata:
   inception-date: Apr 11, 2009
   development-stage: mature
   dimensionality: 2
-  reference-distribution: Jaccia and Jacciata distribution
   etymology:
   - neologism
   computational-class: known not Turing-complete

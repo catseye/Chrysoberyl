@@ -194,37 +194,35 @@ class Renderer(object):
 
         @expose
         def ref_dist(key=key):
-            """Find the reference distribution for the given node.
+            """Find the reference distribution for the given node, which is
+            assumed to be an implementable.
 
-            This could be itself, or the dist an implementation is in,
-            or the reference distribution of the implementable.
-            
-            WOW, what a mess this is.  I think we need to go back to
-            the entity relationship diagram that I've never drawn for
-            Chrysoberyl and fix things.  An implementable can only have
-            one reference implementation.  But that implementation can
-            (in theory) appear in multiple distributions.  But only one
-            of those distributions is the reference distribution.
-            Clear as mud.
+            If a `defining-distribution` is given, then that is
+            the reference distribution.
+
+            Otherwise, if there is a reference implementation, and the
+            reference implementation is in more than zero distributions,
+            the first such distribution is the reference distribution.
+
+            Otherwise None.
 
             """
+            if 'defining-distribution' in self.data[key]:
+                return self.data[key]['defining-distribution']
+
             ref_i = ref_impl(key=key)
             if ref_i is not None:
-                if 'in-distributions' not in self.data[ref_i]:
-                    return None
-                return self.data[ref_i]['in-distributions'][0]
+                if 'in-distributions' in self.data[ref_i]:
+                    return self.data[ref_i]['in-distributions'][0]
 
-            # we should minimize, ideally eliminate (by introducing a
-            # 'Specification Document' type node which can be present
-            # in a distribution?) this reference-distribution property
-            if 'reference-distribution' in self.data[key]:
-                return self.data[key]['reference-distribution']
             return None
 
         @expose
         def non_ref_dist_implementations(key=key):
             """Return a list of all the implementations which are not in
             the reference distribution of the given node.
+
+            PLEASE KILL THIS FUNCTION
 
             """
             implementations_of = related('implementation-of', key=key)
@@ -252,29 +250,13 @@ class Renderer(object):
             return sorted(d)
 
         @expose
-        def related_github(key=key):
-            """Return the name of the Github repository (user/repo)
-            associated with the given key.
-
-            """
-            if 'github' in self.data[key]:
-                return self.data[key]['github']
-            d = None
-            if 'reference-distribution' in self.data[key]:
-                d = self.data[key]['reference-distribution']
-            elif 'in-distribution' in self.data[key]:
-                d = self.data[key]['in-distribution']
-            if d is None:
-                return None
-            return self.data[d].get('github', None)
-
-        @expose
         def github_link(filename, key=key):
             """Return an HTML link to a file in the Github repository
-            associated with the given key.
+            associated with the given key, which is assumed to be a
+            distribution.
 
             """
-            gh = related_github(key=key)
+            gh = self.data[key].get('github', None)
             if gh is None:
                 return None
             else:

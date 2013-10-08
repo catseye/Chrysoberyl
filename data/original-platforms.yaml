@@ -24,13 +24,13 @@ BefOS:
   inception-date: ca 1999
   development-stage: unfinished
   dimensionality: 2
-  reference-distribution: BefOS distribution
   esowiki: BefOS
 
 BefOS (NASM):
   type: Implementation
   implementation-of:
   - BefOS
+  reference: true
   implementation-type: operating system
   in-distribution: BefOS distribution
   license: Public Domain
@@ -73,13 +73,13 @@ yoob:
   - 'yoob (Applet)'
   inception-date: Mar 15 2011
   development-stage: not fully complete
-  reference-distribution: yoob distribution
   esowiki: yoob
 
 tc.catseye.yoob:
   type: Implementation
   implementation-of:
   - yoob
+  reference: true
   implementation-type: framework
   in-distribution: yoob distribution
   generally-recommended: true
@@ -115,13 +115,13 @@ yoob.js API:
   - Cat's Eye Technologies
   inception-date: Oct 4 2012
   development-stage: not fully complete
-  reference-distribution: yoob.js distribution
   esowiki: yoob
 
 yoob.js:
   type: Implementation
   implementation-of:
   - yoob.js API
+  reference: true
   implementation-type: framework
   license: Public Domain
   host-language: Javascript

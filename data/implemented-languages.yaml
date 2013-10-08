@@ -101,7 +101,7 @@ Muriel:
   authors:
   - Matthew Westcott
   esowiki: Muriel
-  reference-distribution: Muriel distribution
+  defining-distribution: Muriel distribution
   computational-class: Turing-complete
   specification-link: esowiki
   development-stage: mature

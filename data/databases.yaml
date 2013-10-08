@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Chrysoberyl:
   type: Database
-  reference-distribution: Chrysoberyl distribution
+  defining-distribution: Chrysoberyl distribution
   description: |
     _Chrysoberyl_ is an attempt to catalogue and curate all things
     produced by, and related to, [[Cat's Eye Technologies]],

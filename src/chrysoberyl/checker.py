@@ -11,7 +11,9 @@ import re
 from chrysoberyl.objects import ApproximateDate
 
 
-LEGACY_FIELDS = ()
+LEGACY_FIELDS = (
+    'reference-distribution',
+)
 
 
 def check_scalar_ref(data, key, node, property, types=None):

@@ -11,7 +11,7 @@ C64 Demo Depot:
 
 Ribos: 
   type: Demo
-  reference-distribution: C64 Demo Depot
+  defining-distribution: C64 Demo Depot
   summary: Well-commented C64 raster interrupt example
   authors:
   - Chris Pressey
@@ -37,7 +37,7 @@ Ribos distribution:
 
 The PETulant Cursor: 
   type: Demo
-  reference-distribution: C64 Demo Depot
+  defining-distribution: C64 Demo Depot
   summary: A tiny C64 "display hack"
   authors:
   - Chris Pressey
