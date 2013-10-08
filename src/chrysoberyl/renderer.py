@@ -183,13 +183,18 @@ class Renderer(object):
             """Find the reference implementation for the given node
             (assumed to be an implementable), which may be None.
 
+            Once determined, this value is cached in the node.
+
             """
+            if '__reference-implementation__' in self.data[key]:
+                return self.data[key]['__reference-implementation__']
             ref_i = None
             for i in related('implementation-of', key=key):
                 if self.data[i].get('reference', False):
                     if ref_i is not None:
                         raise ValueError("more than one ref_impl of %s" % key)
                     ref_i = i
+            self.data[key]['__reference-implementation__'] = ref_i
             return ref_i
 
         @expose
