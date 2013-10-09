@@ -109,7 +109,7 @@ class Renderer(object):
         context = node.copy()
         context['data'] = self.data
         context['key'] = key
-        context['filekey'] = filekey
+        context['sleek_key'] = sleek_key
 
         # Context functions.  Being nested functions of render_node lets
         # them easily access (close over) the current node and its key.

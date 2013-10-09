@@ -19,7 +19,7 @@
         not (data[thing].type == 'Musical Composition' and not related('implementation-of', key=thing)) and
         data[thing].development_stage not in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
     <tr>
-      <td><a href="{{ filekey(thing) }}">{{ thing|truncate(length=28) }}</a></td>
+      <td><a href="./{{ sleek_key(thing) }}">{{ thing|truncate(length=28) }}</a></td>
       <td>{{ link(data[thing].type) }}</td>
       <td>{{ data[thing].inception_date }}</td>
       <td>{{ data[thing].development_stage }}</td>
