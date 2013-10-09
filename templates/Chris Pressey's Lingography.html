@@ -1,22 +1,6 @@
 {# bespoke template for Chris Pressey's Lingography #}
 {% extends "base.html" %}
 
-{% macro online_buttons(thing) -%}
-  {% for impl in related('implementation-of', key=thing)|sort %}
-    {% if data[impl].online_locations|length > 0 %}
-      {% for loc in data[impl].online_locations|sort %}
-        <a class="button" href="{{ filekey(loc) }}">
-          {%- if data[thing].type == 'Game' -%}
-            Play
-          {%- else -%}
-            Try It
-          {%- endif %}
-          Online ({{ data[loc].medium }})</a>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-{%- endmacro %}
-
 {% block content %}
 
 <h3>Languages I've Designed ({{ lingography()|length }})</h3>

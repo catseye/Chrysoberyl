@@ -339,6 +339,29 @@ class Renderer(object):
                 )
 
         @expose
+        def online_buttons(key=key):
+            html = ''
+            for impl in sorted(related('implementation-of', key=key)):
+                if len(self.data[impl].get('online-locations', [])) > 0:
+                    for loc in sorted(self.data[impl]['online-locations']):
+                        html += '<a class="button" href="'
+                        html += sleek_key(loc)
+                        html += '">'
+                        if self.data[key]['type'] == 'Game':
+                            html += 'Play'
+                        else:
+                            html += 'Try it'
+                        html += ' Online ('
+                        html += self.data[loc]['medium']
+                        html += ')</a> '
+                if self.data[impl]['host_language'] == 'mp3' and \
+                   'download-link' in self.data[impl]:
+                    html += '<a class="button" href="'
+                    html += self.data[impl]['download_link']
+                    html += '">Listen (MP3)</a> '
+            return html
+
+        @expose
         def strip_outer_p(text):
             match = re.match(
                 r'^\s*\<p\>\s*(.*?)\s*\<\/p\>\s*$', text,

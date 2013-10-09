@@ -1,25 +1,6 @@
 {# bespoke template #}
 {% extends "base.html" %}
 
-{% macro online_buttons(thing) -%}
-  {% for impl in related('implementation-of', key=thing)|sort %}
-    {% if data[impl].online_locations|length > 0 %}
-      {% for loc in data[impl].online_locations|sort %}
-        <a class="button" href="{{ filekey(loc) }}">
-          {%- if data[thing].type == 'Game' -%}
-            Play
-          {%- else -%}
-            Try It
-          {%- endif %}
-          Online ({{ data[loc].medium }})</a>
-      {% endfor %}
-    {% endif %}
-    {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] %}
-      <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
-    {% endif %}
-  {% endfor %}
-{%- endmacro %}
-
 {% block content %}
 
 <table class="table table-bordered">
