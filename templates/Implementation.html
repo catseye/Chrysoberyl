@@ -100,6 +100,17 @@
 {% endblock description %}
 
 {% block content %}
+  {% if online_locations|length > 0 %}
+    <section id="online_locations">
+      <h2>Try it Online</h2>
+      <ul>
+        {% for loc in online_locations|sort %}
+          <li>{{ link(loc) }} ({{ data[loc].medium }})</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   {% if download_link %}
     <section id="download">
       <h2>Download</h2>

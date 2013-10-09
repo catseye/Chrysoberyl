@@ -16,8 +16,6 @@ Bubble Escape:
     late aughts.  Was pared down so that (crunched) it fit into 2K, christened
     "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
     where (surprisingly, to me!) it got first place in its class.
-  online-implementations:
-  - 'Bubble Escape (JaC64)'
   images:
   - 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
 
@@ -51,6 +49,8 @@ Bubble Escape 2K:
     prize: 1st place in 2K category
   images:
   - 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
+  online-locations:
+  - 'Bubble Escape (JaC64)'
 
 Bubble Escape 8K:
   type: Implementation
@@ -177,8 +177,6 @@ Super Wumpus Land:
     Super Wumpus Land is an "extended dance mix" version of [[Hunt the Wumpus]].
   images:
   - 'https://raw.github.com/catseye/Super-Wumpus-Land/master/images/Super%20Wumpus%20Land.png'
-  online-implementations:
-  - 'Super Wumpus Land (HTML5)'
 
 swl.pl:
   type: Implementation
@@ -199,6 +197,9 @@ swl.js:
   license: BSD license
   host-language: Javascript
   interface: yoob.js TextTerminal
+  online-locations:
+  - 'Super Wumpus Land (HTML5)'
+
 
 Super Wumpus Land distribution:  
   type: Distribution

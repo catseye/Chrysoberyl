@@ -24,6 +24,11 @@ Add release-date, as opposed to inception-date. (Infer from first distribution.)
 
 Document what the different dates mean.
 
+Instead of `online-implementations`, allow each implementation to have an
+`online-locations` list, the elements of which are URLs and the presence of
+which implies that that implementation is online there.  Use instead of
+`links` for Musical Composition implementations.
+
 documentation nodes
 -------------------
 

@@ -30,6 +30,13 @@
           {% endfor %}
         {% endif %}
         {% for impl in related('implementation-of', key=thing)|sort %}
+          {% if data[impl].online_locations|length > 0 %}
+            {% for loc in data[impl].online_locations|sort %}
+              <a class="button" href="{{ filekey(loc) }}">Play Online ({{ data[loc].medium }})</a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        {% for impl in related('implementation-of', key=thing)|sort %}
           {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
             <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
           {% endif %}

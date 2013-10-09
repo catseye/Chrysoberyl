@@ -4,6 +4,10 @@
   {% set implnoun = 'rendition' %}
   {% set experienceverb = 'listen to' %}
   {% set writtenverb = 'encoded' %}
+{% elif type == 'Game' %}
+  {% set implnoun = 'implementation' %}
+  {% set experienceverb = 'play' %}
+  {% set writtenverb = 'written' %}
 {% else %}
   {% set implnoun = 'implementation' %}
   {% set experienceverb = 'run' %}
@@ -11,6 +15,17 @@
 {% endif %}
 
 {% block content %}
+
+{% for impl in related('implementation-of')|sort %}
+  {% if data[impl].online_locations|length > 0 %}
+    <h2>{{ experienceverb|capitalize }} it Online</h2>
+    <ul>
+      {% for loc in data[impl].online_locations|sort %}
+        <li>{{ link(loc) }} ({{ data[loc].medium }})</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
 
 {% if online_implementations %}
   <section id="online_implementations">

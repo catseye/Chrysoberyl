@@ -15,9 +15,16 @@
         {{ link(thing) }} ({{ data[thing].inception_date }})
         {% if data[thing].online_implementations %}
           {% for oikey in data[thing].online_implementations|sort %}
-            <a class="button" href="{{ data[oikey].exhibit_link }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
+            <a class="button" href="{{ data[oikey].exhibit_link }}">Play Online ({{ data[oikey].medium }})</a>
           {% endfor %}
         {% endif %}
+        {% for impl in related('implementation-of', key=thing)|sort %}
+          {% if data[impl].online_locations|length > 0 %}
+            {% for loc in data[impl].online_locations|sort %}
+              <a class="button" href="{{ filekey(loc) }}">Play Online ({{ data[loc].medium }})</a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </p>
 
       {% if data[thing].images %}
@@ -58,7 +65,7 @@
     <li>
       <p>
         {{ link(gamekey) }}
-        -- as {{ link(thing) }} in
+        — as {{ link(thing) }} in
         {{ link(data[thing].host_language) }}
         {% if data[thing].host_platform %}
           for {{ link(data[thing].host_platform) }}
