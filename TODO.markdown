@@ -24,11 +24,6 @@ Add release-date, as opposed to inception-date. (Infer from first distribution.)
 
 Document what the different dates mean.
 
-Instead of `online-implementations`, allow each implementation to have an
-`online-locations` list, the elements of which are URLs and the presence of
-which implies that that implementation is online there.  Use instead of
-`links` for Musical Composition implementations.
-
 documentation nodes
 -------------------
 
@@ -54,6 +49,8 @@ Show status of discontinued distributions.
 
 Nodes with blank article cause footer to be pushed down below viewable area.
 
+Console::Virtual looks weird in Project Matrix.
+
 "It is distributed in the Flobnar distribution and it is distributed
 under the BSD license" sounds awful.
  
@@ -68,6 +65,8 @@ When it does not need building (dist has executables), still, tell
 how you would build it if you want to.
 
 ### obviousity ###
+
+Embolden entries in lingography, gameography, etc.
 
 Call out works in progress and ideas in some more obvious way.
 
@@ -84,9 +83,9 @@ perhaps...
 
 Cited in Jargon File --> like esowiki and wikipedia.
 
-Perhaps merge Online Installation with Implementation.
-
-Don't have renditions of musical compositions just rely on `links`.
+Perhaps merge Online Installation with Implementation.  Or perhaps make
+Online Installations not in the `node` namespace at all (they're not
+informative articles about subjects, they are containers for subject contents.)
 
 Add a single function format(value, link=True, indefart=True), which
 can handle a scalar or a list and such.
@@ -139,9 +138,6 @@ and Borland C++; or in a more involved way, polyglots):
       - Borland C
 
 Sort other collections (games, tools, language implementations) by date.
-
-"Console: Virtual" is an implementation "contained in" the
-Corona: Realm of Magic distribution.  This is a little weird.
 
 When the only dependency is IBM PC compatible -- special case that,
 don't recommend Bochs like that :/
