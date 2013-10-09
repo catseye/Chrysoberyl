@@ -1,6 +1,22 @@
 {# bespoke template #}
 {% extends "base.html" %}
 
+{% macro online_buttons(thing) -%}
+  {% for impl in related('implementation-of', key=thing)|sort %}
+    {% if data[impl].online_locations|length > 0 %}
+      {% for loc in data[impl].online_locations|sort %}
+        <a class="button" href="{{ filekey(loc) }}">
+          {%- if data[thing].type == 'Game' -%}
+            Play
+          {%- else -%}
+            Try It
+          {%- endif %}
+          Online ({{ data[loc].medium }})</a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{%- endmacro %}
+
 {% block content %}
 
 <ul>
@@ -14,7 +30,8 @@
       {%- for implementation in related('implementation_of', key=thing) -%}
         in {{ link(data[implementation].host_language) }}
       {%- endfor -%}
-      )</p>
+      )
+      {{ online_buttons(thing) }}</p>
 
       {% if data[thing].description %}
         {{ md2html(data[thing].description) }}
@@ -22,16 +39,6 @@
 
       {% if data[thing].commentary %}
         {{ md2html(data[thing].commentary) }}
-      {% endif %}
-
-      {% if data[thing].online_implementations %}
-        <p>Try it online:
-          <ul>
-            {% for oikey in data[thing].online_implementations|sort %}
-              <li><a class="online" href="{{ data[oikey].exhibit_link }}">{{ oikey }}</a> ({{ data[oikey].medium }})</li>
-            {% endfor %}
-          </ul>
-        </p>
       {% endif %}
     </li>
   {%- endif -%}

@@ -14,29 +14,25 @@
   {% set writtenverb = 'written' %}
 {% endif %}
 
+{% macro online_buttons(thing) -%}
+  {% for impl in related('implementation-of', key=thing)|sort %}
+    {% if data[impl].online_locations|length > 0 %}
+      {% for loc in data[impl].online_locations|sort %}
+        <a class="button" href="{{ filekey(loc) }}">
+          {%- if data[thing].type == 'Game' -%}
+            Play
+          {%- else -%}
+            Try It
+          {%- endif %}
+          Online ({{ data[loc].medium }})</a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{%- endmacro %}
+
 {% block content %}
 
-{% for impl in related('implementation-of')|sort %}
-  {% if data[impl].online_locations|length > 0 %}
-    <h2>{{ experienceverb|capitalize }} it Online</h2>
-    <ul>
-      {% for loc in data[impl].online_locations|sort %}
-        <li>{{ link(loc) }} ({{ data[loc].medium }})</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
-
-{% if online_implementations %}
-  <section id="online_implementations">
-    <h2>Try it Online</h2>
-    <ul>
-      {% for oikey in online_implementations|sort %}
-        <li>{{ link(oikey) }} ({{ data[oikey].medium }})</li>
-      {% endfor %}
-    </ul>
-  </section>
-{% endif %}
+<p>{{ online_buttons(key) }}</p>
 
 {% if type != 'Musical Composition' %}
   <section id="defined_by">

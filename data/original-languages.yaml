@@ -215,8 +215,6 @@ Befunge-93:
   inception-date: Sep 1993
   # maybe archival
   development-stage: mature
-  online-implementations:
-  - 'yoob (Applet)'
   see-also:
   - Funge-98
   - Flobnar
@@ -251,6 +249,8 @@ tc.catseye.yoob.befunge93:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Befunge-97:
@@ -854,8 +854,6 @@ Etcha:
        #
        #
      ###
-  online-implementations:
-  - 'yoob (Applet)'
 
 tc.catseye.etcha:
   type: Implementation
@@ -880,6 +878,8 @@ tc.catseye.yoob.etcha:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 ETHEL:
@@ -1161,9 +1161,6 @@ Gemooy:
   inception-date: Dec 2, 2010
   development-stage: mature
   esowiki: Gemooy
-  online-implementations:
-  - 'Gemooy (HTML5)'
-  - 'yoob (Applet)'
   authors:
   - Chris Pressey
   auspices:
@@ -1205,6 +1202,8 @@ gemooy.js:
   implementation-type: interpreter
   host-language: Javascript
   host-platform: yoob.js API
+  online-locations:
+  - 'Gemooy (HTML5)'
 
 tc.catseye.yoob.gemooy:
   type: Implementation
@@ -1217,6 +1216,8 @@ tc.catseye.yoob.gemooy:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 GraNoLa/M:
@@ -2886,8 +2887,6 @@ Whothm:
     s.h += 2;
     draw s, XOR;
     end
-  online-implementations:
-  - 'Whothm (Applet)'
 
 tc.catseye.whothm:
   type: Implementation
@@ -2900,6 +2899,8 @@ tc.catseye.whothm:
   license: BSD license
   implementation-type: interpreter
   host-language: Java
+  online-locations:
+  - 'Whothm (Applet)'
 
 
 Wierd:
@@ -3023,8 +3024,6 @@ Wunnel:
 
              o    oooo o
   specification-link: esowiki
-  online-implementations:
-  - 'yoob (Applet)'
 
 tc.catseye.yoob.wunnel:
   type: Implementation
@@ -3038,6 +3037,8 @@ tc.catseye.yoob.wunnel:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Xoomonk: 
@@ -3149,8 +3150,6 @@ Ypsilax:
         #      #
         #      #
         #    ###
-  online-implementations:
-  - 'yoob (Applet)'
 
 ypsilax.pl:
   type: Implementation
@@ -3171,6 +3170,8 @@ tc.catseye.yoob.ypsilax:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 ZOWIE:

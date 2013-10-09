@@ -46,8 +46,6 @@ brainfuck:
   computational-class: Turing-complete
   specification-link: esowiki
   development-stage: mature
-  online-implementations:
-  - 'yoob (Applet)'
   commentary: |
     Brainfuck is the 12-bar blues of [[Esolang]].
 
@@ -91,6 +89,8 @@ tc.catseye.yoob.brainfuck:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Muriel:
@@ -354,8 +354,6 @@ Ale:
   authors:
   - David Chipping
   esowiki: Ale
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: believed Turing-complete
   specification-link: esowiki
   development-stage: mature
@@ -376,6 +374,8 @@ tc.catseye.yoob.ale:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 BackFlip:
@@ -386,8 +386,6 @@ BackFlip:
   authors:
   - ais523
   esowiki: BackFlip
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -408,6 +406,8 @@ tc.catseye.yoob.backflip:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Black:
@@ -418,8 +418,6 @@ Black:
   authors:
   - ais523
   esowiki: Black
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -440,6 +438,8 @@ tc.catseye.yoob.black:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 LNUSP:
@@ -451,8 +451,6 @@ LNUSP:
   authors:
   - zzo38
   esowiki: LNUSP
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -473,6 +471,8 @@ tc.catseye.yoob.lnusp:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 1L:
@@ -496,8 +496,6 @@ tc.catseye.yoob.lnusp:
   authors:
   - Catatonic Porpoise
   esowiki: 1L_a
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -518,6 +516,8 @@ tc.catseye.yoob.onela:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 1L_AOI:
@@ -530,8 +530,6 @@ tc.catseye.yoob.onela:
   authors:
   - Tslil Clingman
   esowiki: 1L_AOI
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: not fully complete
@@ -552,6 +550,8 @@ tc.catseye.yoob.onelaoi:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 PATH:
@@ -563,8 +563,6 @@ PATH:
   authors:
   - Francis Rogers
   esowiki: PATH
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -585,6 +583,8 @@ tc.catseye.yoob.path:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Qdeql:
@@ -595,8 +595,6 @@ Qdeql:
   authors:
   - Catatonic Porpoise
   esowiki: Qdeql
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -617,6 +615,8 @@ tc.catseye.yoob.qdeql:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 Sceql:
@@ -627,8 +627,6 @@ Sceql:
   authors:
   - Catatonic Porpoise
   esowiki: Sceql
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -649,6 +647,8 @@ tc.catseye.yoob.sceql:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 SNUSP:
@@ -660,8 +660,6 @@ SNUSP:
   authors:
   - Daniel Brockman
   esowiki: SNUSP
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -682,6 +680,8 @@ tc.catseye.yoob.snusp:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 2-ill:
@@ -693,8 +693,6 @@ tc.catseye.yoob.snusp:
   authors:
   - zzo38
   esowiki: 2-ill
-  online-implementations:
-  - 'yoob (Applet)'
   influences:
   - 2L
   computational-class: unknown computational class
@@ -717,6 +715,8 @@ tc.catseye.yoob.twoill:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'
 
 
 2L:
@@ -728,8 +728,6 @@ tc.catseye.yoob.twoill:
   authors:
   - Gregor Richards
   esowiki: 2L
-  online-implementations:
-  - 'yoob (Applet)'
   computational-class: unknown computational class
   specification-link: esowiki
   development-stage: mature
@@ -750,3 +748,5 @@ tc.catseye.yoob.twol:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
+  online-locations:
+  - 'yoob (Applet)'

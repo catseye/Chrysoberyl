@@ -30,8 +30,6 @@ Braktif:
     -----------------d-i--         --------
   inception-date: 2005
   development-stage: mature
-  online-implementations:
-  - 'Braktif (HTML5)'
   see-also:
   - pibfi
 
@@ -47,6 +45,8 @@ braktif.alp:
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
+  online-locations:
+  - 'Braktif (HTML5)'
 
 
 Circute:
@@ -82,9 +82,6 @@ Circute:
        =============     =============
   inception-date: 2005
   development-stage: mature
-  online-implementations:
-  - 'Circute (HTML5)'
-  - 'yoob (Applet)'
 
 tc.catseye.yoob.circute:
   type: Implementation
@@ -97,6 +94,8 @@ tc.catseye.yoob.circute:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 circute.alp:
   type: Implementation
@@ -110,6 +109,8 @@ circute.alp:
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
+  online-locations:
+  - 'Circute (HTML5)'
 
 
 Cyclobots:
@@ -147,8 +148,6 @@ Cyclobots:
     The original implementation had a few features which are not present (yet)
     in the HTML5 version: cyclobots could collide with each other, and the user
     could use the mouse to attract/repel them from a chosen point.
-  online-implementations:
-  - 'Cyclobots (HTML5)'
   see-also:
   - SMETANA
 
@@ -160,6 +159,16 @@ Cyclobots (Visual Basic):
   host-language: Visual Basic
   development-stage: lost
   interface: GUI
+
+cyclobots.js:
+  type: Implementation
+  implementation-of:
+  - Cyclobots
+  license: Freely Redistributable
+  host-language: Javascript
+  development-stage: mature
+  online-locations:
+  - 'Cyclobots (HTML5)'
 
 
 Didigm:
@@ -251,8 +260,6 @@ Jaccia:
     # # ###:###
     #   #  :::#
     #########F#
-  online-implementations:
-  - 'Jaccia (HTML5)'
 
 Jacciata:
   type: Automaton
@@ -300,8 +307,6 @@ Jacciata:
     # # ###:###
     #   #  :::#
     #########F#
-  online-implementations:
-  - 'Jacciata (HTML5)'
 
 jaccia.alp:
   type: Implementation
@@ -315,6 +320,8 @@ jaccia.alp:
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
+  online-locations:
+  - 'Jaccia (HTML5)'
 
 jacciata.alp:
   type: Implementation
@@ -328,6 +335,8 @@ jacciata.alp:
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
+  online-locations:
+  - 'Jacciata (HTML5)'
 
 
 "noit o' mnain worb":
@@ -370,9 +379,6 @@ jacciata.alp:
             #v#########
             # #
             ###
-  online-implementations:
-  - 'yoob (Applet)'
-  - "noit o' mnain worb (HTML5)"
 
 worb.pl:
   type: Implementation
@@ -393,6 +399,8 @@ worb.js:
   implementation-type: interpreter
   host-language: Javascript
   host-platform: yoob.js API
+  online-locations:
+  - "noit o' mnain worb (HTML5)"
 
 tc.catseye.yoob.worb:
   type: Implementation
@@ -403,6 +411,8 @@ tc.catseye.yoob.worb:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 
 REDGREEN:
@@ -444,8 +454,6 @@ REDGREEN:
                                                     T
   inception-date: 1998
   development-stage: mature
-  online-implementations:
-  - 'REDGREEN (HTML5)'
 
 redgreen.alp:
   type: Implementation
@@ -459,6 +467,8 @@ redgreen.alp:
   license: BSD license
   implementation-type: formal description
   host-language: ALPACA
+  online-locations:
+  - 'REDGREEN (HTML5)'
 
 
 RUBE:
@@ -541,8 +551,6 @@ SMETANA:
   development-stage: archival
   computational-class: known not Turing-complete
   notable: true
-  online-implementations:
-  - 'yoob (Applet)'
   see-also:
   - Cyclobots
 
@@ -567,6 +575,8 @@ tc.catseye.yoob.smetana:
   implementation-type: interpreter
   host-language: Java
   host-platform: yoob
+  online-locations:
+  - 'yoob (Applet)'
 
 SMETANA (Visual Basic):
   type: Implementation

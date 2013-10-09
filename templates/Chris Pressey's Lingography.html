@@ -1,6 +1,22 @@
 {# bespoke template for Chris Pressey's Lingography #}
 {% extends "base.html" %}
 
+{% macro online_buttons(thing) -%}
+  {% for impl in related('implementation-of', key=thing)|sort %}
+    {% if data[impl].online_locations|length > 0 %}
+      {% for loc in data[impl].online_locations|sort %}
+        <a class="button" href="{{ filekey(loc) }}">
+          {%- if data[thing].type == 'Game' -%}
+            Play
+          {%- else -%}
+            Try It
+          {%- endif %}
+          Online ({{ data[loc].medium }})</a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{%- endmacro %}
+
 {% block content %}
 
 <h3>Languages I've Designed ({{ lingography()|length }})</h3>
@@ -73,13 +89,7 @@
       {% if data[thing].sample_credit %}
         <p>This sample was written by {{ link(data[thing].sample_credit) }}</p>
       {% endif %}
-      {% if data[thing].online_implementations %}
-        <p>
-          {% for oikey in data[thing].online_implementations|sort %}
-            <a class="button" href="{{ filekey(oikey) }}">{%- if data[thing].type == 'Game' -%}Play{%- else -%}Try It{%- endif %} Online ({{ data[oikey].medium }})</a>
-          {% endfor %}
-        </p>
-      {% endif %}
+      {{ online_buttons(thing) }}
     </div>
   </div>
 
@@ -108,6 +118,8 @@
         {% if data[thing].inception_date %}
           ({{ data[thing].inception_date }})
         {% endif %}
+
+        {{ online_buttons(thing) }}
       </p>
       {% if data[thing].description %}
         {{ md2html(data[thing].description) }}

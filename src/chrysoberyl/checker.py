@@ -13,6 +13,7 @@ from chrysoberyl.objects import ApproximateDate
 
 LEGACY_FIELDS = (
     'reference-distribution',
+    'online-implementations',
 )
 
 

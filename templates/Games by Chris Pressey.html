@@ -1,6 +1,22 @@
 {# bespoke template #}
 {% extends "base.html" %}
 
+{% macro online_buttons(thing) -%}
+  {% for impl in related('implementation-of', key=thing)|sort %}
+    {% if data[impl].online_locations|length > 0 %}
+      {% for loc in data[impl].online_locations|sort %}
+        <a class="button" href="{{ filekey(loc) }}">
+          {%- if data[thing].type == 'Game' -%}
+            Play
+          {%- else -%}
+            Try It
+          {%- endif %}
+          Online ({{ data[loc].medium }})</a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{%- endmacro %}
+
 {% block content %}
 
 <h3>Games I've Designed</h3>
@@ -13,18 +29,7 @@
     <li>
       <p>
         {{ link(thing) }} ({{ data[thing].inception_date }})
-        {% if data[thing].online_implementations %}
-          {% for oikey in data[thing].online_implementations|sort %}
-            <a class="button" href="{{ data[oikey].exhibit_link }}">Play Online ({{ data[oikey].medium }})</a>
-          {% endfor %}
-        {% endif %}
-        {% for impl in related('implementation-of', key=thing)|sort %}
-          {% if data[impl].online_locations|length > 0 %}
-            {% for loc in data[impl].online_locations|sort %}
-              <a class="button" href="{{ filekey(loc) }}">Play Online ({{ data[loc].medium }})</a>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
+        {{ online_buttons(thing) }}
       </p>
 
       {% if data[thing].images %}

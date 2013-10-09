@@ -69,8 +69,6 @@ yoob:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  online-implementations:
-  - 'yoob (Applet)'
   inception-date: Mar 15 2011
   development-stage: not fully complete
   esowiki: yoob
@@ -85,6 +83,8 @@ tc.catseye.yoob:
   generally-recommended: true
   license: Public Domain
   host-language: Java
+  online-locations:
+  - 'yoob (Applet)'
 
 yoob distribution: 
   type: Distribution
