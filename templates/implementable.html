@@ -14,11 +14,13 @@
   {% set writtenverb = 'written' %}
 {% endif %}
 
+{% block mainstage %}
+<p>{{ online_buttons(key) }}</p>
+{% endblock %}
+
 {% block content %}
 
-<p>{{ online_buttons(key) }}</p>
-
-{% if type != 'Musical Composition' %}
+{% block defined_by %}
   <section id="defined_by">
     <h2>Defined by</h2>
     <p>
@@ -43,7 +45,7 @@
       {%- endif -%}
     </p>
   </section>
-{% endif %}
+{% endblock %}
 
 {% if ref_dist() %}
   <section id="reference_distribution">
