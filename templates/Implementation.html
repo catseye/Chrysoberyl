@@ -112,16 +112,6 @@
 {# USED TO BE AN INCLUDE #}
 {% set impl_key=key %}
 
-{% if data[data[impl_key].implementation_of[0]].type == 'Musical Composition' %}
-  {% set implnoun = 'rendition' %}
-  {% set experienceverb = 'listen to' %}
-  {% set writtenverb = 'encoded' %}
-{% else %}
-  {% set implnoun = 'implementation' %}
-  {% set experienceverb = 'run' %}
-  {% set writtenverb = 'written' %}
-{% endif %}
-
 {% if data[impl_key].prebuilt_for_platforms and data[impl_key].prebuilt_for_platforms[0] == 'native code' %}
   <p>
     To {{ experienceverb }} this {{ implnoun }}, you need only download and

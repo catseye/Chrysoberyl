@@ -1,5 +1,15 @@
 {% extends "bylined.html" %}
 
+{% if type == 'Musical Composition' %}
+  {% set implnoun = 'rendition' %}
+  {% set experienceverb = 'listen to' %}
+  {% set writtenverb = 'encoded' %}
+{% else %}
+  {% set implnoun = 'implementation' %}
+  {% set experienceverb = 'run' %}
+  {% set writtenverb = 'written' %}
+{% endif %}
+
 {% block content %}
 
 {% if online_implementations %}
@@ -159,7 +169,7 @@
 {% endif %}
 
 {% if related('implementation-of')|length > 0 %}
-  <h2>Implementations</h2>
+  <h2>{{ implnoun|capitalize }}s</h2>
   <ul>
     {% for impl in related('implementation-of')|sort %}
       <li>
@@ -174,6 +184,9 @@
         {% endif %}
         {% if data[impl].in_distributions|length > 0 %}
           in the {{ data[impl].in_distributions[0] }}
+        {% endif %}
+        {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
+          <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
         {% endif %}
       </li>
     {% endfor %}
