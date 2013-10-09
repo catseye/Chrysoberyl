@@ -14,6 +14,9 @@
           Online ({{ data[loc].medium }})</a>
       {% endfor %}
     {% endif %}
+    {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] %}
+      <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
+    {% endif %}
   {% endfor %}
 {%- endmacro %}
 
@@ -41,11 +44,6 @@
       <td>{{ data[thing].development_stage }}</td>
       <td>
         {{ online_buttons(thing) }}
-        {% for impl in related('implementation-of', key=thing)|sort %}
-          {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
-            <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
-          {% endif %}
-        {% endfor %}
         {% if ref_dist(key=thing) %}
           {% set dist_key = ref_dist(key=thing) %}
           {% if data[dist_key].releases %}

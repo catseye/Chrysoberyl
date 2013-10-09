@@ -198,8 +198,8 @@
         {% if data[impl].in_distributions|length > 0 -%}
           in the {{ data[impl].in_distributions[0] }}
         {%- endif %}
-        {% if data[impl].host_language == 'mp3' and 'links' in data[impl] -%}
-          <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
+        {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] -%}
+          <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
         {%- endif %}
       </li>
     {%- endfor -%}
