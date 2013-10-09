@@ -56,9 +56,6 @@ under the BSD license" sounds awful.
 be a link to the implementable node which contains that distribution inline.
 Or possibly we should just bring back distribution nodes now.
  
-In implementable, and in lingography, list of implementations should show which
-implementations are reference.
-
 Actually, in lingography, be more terse.  "Implementations include
 the reference interpreter blah.c and the compiler blah.boo" should be fine.
 

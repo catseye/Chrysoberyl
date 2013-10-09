@@ -27,25 +27,25 @@
   <section id="defined_by">
     <h2>Defined by</h2>
     <p>
-      {% if standards_body %}
+      {%- if standards_body -%}
         <a href="{{ standards_body }}">{{ standards_body }}</a></p>
-      {% elif specification_link == 'esowiki' %}
+      {%- elif specification_link == 'esowiki' -%}
         Esowiki article <a href="http://esolangs.org/wiki/{{ esowiki }}">{{ esowiki }}</a>
-      {% elif specification_link %}
+      {%- elif specification_link -%}
         <a href="{{ specification_link }}">{{ specification_link }}</a></p>
-      {% elif ref_impl() %}
-        {# TODO: candidate for macro, as it's used below too #}
-        {{ link(ref_impl()) }}
-        {% if data[ref_impl()].in_distributions|length > 0 %}
+      {%- elif ref_impl() -%}
+        {#- TODO: candidate for macro? it's used below too -- but differently -#}
+        {{- link(ref_impl()) -}}
+        {%- if data[ref_impl()].in_distributions|length > 0 %}
           in the {{ data[ref_impl()].in_distributions[0] }}
-        {% endif %}
-      {% elif defining_distribution %}
+        {% endif -%}
+      {%- elif defining_distribution -%}
         {{ defining_distribution }}
-      {% elif no_specification %}
+      {%- elif no_specification -%}
         (no specification or reference implementation on file)
-      {% else %}
+      {%- else -%}
         {{ error(key + ' is not defined by?') }}
-      {% endif %}
+      {%- endif -%}
     </p>
   </section>
 {% endif %}
@@ -171,25 +171,27 @@
 {% if related('implementation-of')|length > 0 %}
   <h2>{{ implnoun|capitalize }}s</h2>
   <ul>
-    {% for impl in related('implementation-of')|sort %}
+    {%- for impl in related('implementation-of')|sort -%}
       <li>
-        {{ link(impl) }},
-        {% if 'implementation-type' in data[impl] %}
-          {{ indefart(data[impl].implementation_type) }}
-        {% else %}
-        {% endif %}
+        {{- link(impl) -}}
+        {%- if data[impl].reference %}
+          (the reference implementation)
+        {%- endif -%},
+        {% if 'implementation-type' in data[impl] -%}
+          {{- indefart(data[impl].implementation_type) -}}
+        {%- endif %}
         in {{ link(data[impl].host_language) }}
-        {% if data[impl].host_language == key %}
+        {% if data[impl].host_language == key -%}
           (Yo dawg, I herd you like {{ key }})
-        {% endif %}
-        {% if data[impl].in_distributions|length > 0 %}
+        {%- endif %}
+        {% if data[impl].in_distributions|length > 0 -%}
           in the {{ data[impl].in_distributions[0] }}
-        {% endif %}
-        {% if data[impl].host_language == 'mp3' and 'links' in data[impl] %}
+        {%- endif %}
+        {% if data[impl].host_language == 'mp3' and 'links' in data[impl] -%}
           <a class="button" href="{{ data[impl].links[0] }}">Listen (mp3)</a>
-        {% endif %}
+        {%- endif %}
       </li>
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 {% endif %}
 

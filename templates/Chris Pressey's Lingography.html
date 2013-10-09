@@ -26,7 +26,12 @@
         <ul>
           {% for implementation in related('implementation_of', key=thing) %}
             <li>
-              <p>{{ link(implementation) }}</p>
+              <p>
+                {{- link(implementation) }}
+                {% if data[implementation].reference -%}
+                  (the reference implementation)
+                {%- endif %}
+              </p>
             </li>
           {% endfor %}
         </ul>
