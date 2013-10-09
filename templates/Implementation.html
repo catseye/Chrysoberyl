@@ -110,9 +110,8 @@
   <h2>Dependencies</h2>
 
 {# USED TO BE AN INCLUDE #}
-{% set impl_key=key %}
 
-{% if data[impl_key].prebuilt_for_platforms and data[impl_key].prebuilt_for_platforms[0] == 'native code' %}
+{% if data[key].prebuilt_for_platforms and data[key].prebuilt_for_platforms[0] == 'native code' %}
   <p>
     To {{ experienceverb }} this {{ implnoun }}, you need only download and
     install the appropriate version for your computer and operating system.
@@ -120,32 +119,32 @@
 {% else %}
   <p>To {{ experienceverb }} this {{ implnoun }}, you need:</p>
   <ul>
-    {% if data[impl_key].prebuilt_for_platforms|length > 1 %}
+    {% if data[key].prebuilt_for_platforms|length > 1 %}
       <li>One of the following:
         <ul>
-          {% for platform in data[impl_key].prebuilt_for_platforms %}
+          {% for platform in data[key].prebuilt_for_platforms %}
             <li>
               {{ recommended_impl(platform) }}
             </li>
           {% endfor %}
         </ul>
       </li>
-    {% elif data[impl_key].prebuilt_for_platforms %}
+    {% elif data[key].prebuilt_for_platforms %}
       <li>
-        {{ recommended_impl(data[impl_key].prebuilt_for_platforms[0]) }}
+        {{ recommended_impl(data[key].prebuilt_for_platforms[0]) }}
       </li>
     {% else %}
-      {% if data[data[impl_key].host_language].generally_compiled or data[impl_key].build_requirements %}
+      {% if data[data[key].host_language].generally_compiled or data[key].build_requirements %}
         <li>
           to build it first, for which you will need:
           <ul>
-            {% if data[data[impl_key].host_language].generally_compiled %}
+            {% if data[data[key].host_language].generally_compiled %}
               <li>
-                {{ recommended_impl(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
+                {{ recommended_impl(data[key].host_language, req_plat_key=data[key].host_platform) }}
               </li>
             {% endif %}
-            {% if data[impl_key].build_requirements %}
-              {% for requirement in data[impl_key].build_requirements %}
+            {% if data[key].build_requirements %}
+              {% for requirement in data[key].build_requirements %}
                 <li>
                   {{ recommended_impl(requirement) }}
                 </li>
@@ -154,14 +153,14 @@
           </ul>
         </li>
       {% endif %}
-      {% if not data[data[impl_key].host_language].generally_compiled %}
+      {% if not data[data[key].host_language].generally_compiled %}
         <li>
-          {{ recommended_impl(data[impl_key].host_language, req_plat_key=data[impl_key].host_platform) }}
+          {{ recommended_impl(data[key].host_language, req_plat_key=data[key].host_platform) }}
         </li>
       {% endif %}
     {% endif %}
-    {% if data[impl_key].run_requirements %}
-      {% for requirement in data[impl_key].run_requirements %}
+    {% if data[key].run_requirements %}
+      {% for requirement in data[key].run_requirements %}
         <li>
           {{ link(requirement) }}
         </li>
