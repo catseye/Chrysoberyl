@@ -188,6 +188,30 @@
     the starting position of the wheel, and *n* is the number of red (or black)
     cards.
 
+'Chzrxl (HTML5)':
+  type: Online Installation
+  exhibit: Digital Art Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
+    lava lamp?
+    
+    Regardless, the original idea was this: each ball travels on a
+    sine-wave path (kind of like a spring) between a randomly-chosen
+    pair of two other balls.
+    
+    It was soon discovered that if all balls are free to move like this,
+    they all quickly collapse to a single point.  Thus, some number of
+    balls are held fixed (5% by default).  The result is a slightly
+    organic-seeming emergent motion.
+    
+    The percentage of balls held fixed can be changed by the slider, and
+    the "Restart" button can be used to scatter the balls and restart their
+    movements.  You can try out different values and see which one you like
+    the best.
+
 'Cyclobots (HTML5)':
   type: Online Installation
   exhibit: Digital Art Exhibit
@@ -274,6 +298,24 @@
     relative to the box it is contained in, and bounces around inside it in a
     simple fashion.  Yet the path traced out by the innermost box is not very
     simple at all.
+
+'Multicolouralism (HTML5)':
+  type: Online Installation
+  exhibit: Digital Art Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    Each frame, the colour of each cell is chosen randomly from the set
+    {cyan, magenta, yellow, white}.  The probability of each of the
+    colours is determined by the distance from the cell to each corner
+    of the square, raised to a power (the "field strength") which can
+    be selected by the slider.
+    
+    Do you see false colours at the "borders" between the "fields"?
+    You certainly *can*, but how much you see them seems to depend on
+    several factors (your computer, monitor, lighting, persistence
+    of vision, focus and peripheral vision...)
 
 'Plea of Thunder (Applet)':
   type: Online Installation
