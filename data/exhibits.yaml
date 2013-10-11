@@ -42,8 +42,9 @@
   animated: true
   medium: Java applet
   description: |
-    [[yoob]] is a public-domain framework for implementing esoteric programming languages, and allowing them to be interactively
-    run on programs in a Java™ applet.
+    [[yoob]] is a public-domain framework for implementing
+    [[Esolang|esoteric programming languages]], and allowing them to be
+    interactively run on programs in a Java™ applet.
     
     Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
     [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
@@ -145,6 +146,21 @@
     Jacciata demonstrates that cellular automata are
     [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     See also [[Jaccia (HTML5)]].
+
+'ZOWIE (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: false
+  medium: HTML5
+  description: |
+    This is an [[HTML5]]-based interpreter for the
+    [[Esolang|esoteric programming language]] [[ZOWIE]].
+    The reference implementation of the interpreter, written in [[Python]],
+    is itself being interpreted by [[Skulpt]], written in [[Javascript]].
+    
+    Input is not yet supported, and errors are not yet handled
+    in a user-friendly way, but it does work, as the example sources show.
 
 
 ### Digital Art ###

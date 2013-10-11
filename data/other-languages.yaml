@@ -873,6 +873,18 @@ Jython 2.5.1:
   - http://www.jython.org/
   - http://www.jython.org/license.html
 
+Skulpt:
+  type: Implementation
+  summary: Implementation of Python in Javascript
+  reference: false
+  implementation-of:
+  - Python
+  implementation-type: interpreter
+  host-language: Javascript
+  license: MIT license
+  links:
+  - http://http://www.skulpt.org/
+
 
 R:
   type: Programming Language
