@@ -1,4 +1,31 @@
 # encoding: UTF-8
+"I got two new gewgaws and an esolang... online":
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 13 Oct 2013 02:27:17 GMT
+  blurb: |
+    I got two new [[Chzrxl (HTML5)|gew]][[Multicolouralism (HTML5)|gaw]]s
+    and an [[ZOWIE (HTML5)|esolang]]... online.
+  description: |
+    Two new HTML5 gewgaws in the [[Online Installation|Gallery]]:
+    [[Chzrxl (HTML5)]] and [[Multicolouralism (HTML5)]].
+    
+    Also, the public-domain gewgaws are now kept in
+    [a repository on Github](https://github.com/catseye/HTML5-Gewgaws)
+    with
+    [a mirror on Bitbucket](https://bitbucket.org/catseye/html5-gewgaws).
+    
+    Also, the esolang [[ZOWIE]] is now runnable online, at [[ZOWIE (HTML5)]].
+    Unlike previous online esolang implementations, this one didn't involve
+    re-implementing ZOWIE in [[Javascript]].  Instead, the ZOWIE reference
+    interpreter, written in [[Python]], is running under [[Skulpt]] on that
+    web page.  Only a few modifications were necessary, and it's only a
+    little pokey.
+    
+    Oh, also!  The [[Programming Language]] index has been redone to be a
+    bit more like the [[Project Matrix]].  It's a bit daunting, and awkward
+    still, but probably better than how it was organized previously.
+
 "catseye.tc hosted on new servers":
   type: Article
   article-type: announcement
