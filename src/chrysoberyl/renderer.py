@@ -339,7 +339,7 @@ class Renderer(object):
                 )
 
         @expose
-        def online_buttons(key=key):
+        def online_buttons(key=key, show_verb_phrase=True):
             html = ''
             for impl in sorted(related('implementation-of', key=key)):
                 if len(self.data[impl].get('online-locations', [])) > 0:
@@ -347,13 +347,15 @@ class Renderer(object):
                         html += '<a class="button" href="'
                         html += sleek_key(loc)
                         html += '">'
-                        if self.data[key]['type'] == 'Game':
-                            html += 'Play'
+                        if show_verb_phrase:
+                            if self.data[key]['type'] == 'Game':
+                                html += 'Play'
+                            else:
+                                html += 'Try it'
+                            html += ' Online (%s)' % self.data[loc]['medium']
                         else:
-                            html += 'Try it'
-                        html += ' Online ('
-                        html += self.data[loc]['medium']
-                        html += ')</a> '
+                            html += self.data[loc]['medium']
+                        html += '</a> '
                 if self.data[impl]['host_language'] == 'mp3' and \
                    'download-link' in self.data[impl]:
                     html += '<a class="button" href="'

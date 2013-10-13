@@ -5,38 +5,50 @@
 <table class="table table-bordered">
   <tr>
     <th>Programming Language</th>
-    <th>Originator</th>
+    <th>Cat's Eye Technologies'</th>
     <th>Genre</th>
-    <th>Interpreters for it</th>
-    <th>Compilers for it</th>
+    <th>Development Stage</th>
+    <th>Implementations of it</th>
     <th>Things Implemented in it</th>
     <th>Compilers to it</th>
-    <th>Online Implementations</th>
+    <th>Online</th>
     <th>Distribution</th>
   </tr>
 
   {%- for thing in related('type')|sort -%}
-    <tr>
-      <td><a href="./{{ sleek_key(thing) }}">{{ thing|truncate(length=28) }}</a></td>
-      <td>?</td>
-      <td>{{ link(data[thing].genre) }}</td>
-      <td>?</td>
-      <td>?</td>
-      <td>?</td>
-      <td>?</td>
-      <td>
-        {{ online_buttons(thing) }}
-      </td>
-      <td>
-        {% if ref_dist(key=thing) %}
-          {% set dist_key = ref_dist(key=thing) %}
-          {% if data[dist_key].releases %}
-            {% set latest_release = data[dist_key].releases|last %}
-            <a class="button" href="{{ latest_release.url }}">Download</a>
-          {% endif %}
-        {% endif %}
-      </td>
-    </tr>
+    {%- if thing not in [] -%}
+      {%- if data[thing].development_stage in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
+        <tr style="background: #c0c0c0">
+      {%- else -%}
+        <tr>
+      {%- endif -%}
+        <td>{{ link(thing) }}</td>
+        <td>{% if "Cat's Eye Technologies" in data[thing].auspices %}yes{% endif %}</td>
+        <td>{{ link(data[thing].genre) }}</td>
+        <td>{{ data[thing].development_stage }}</td>
+        <td>{% for impl in related('implementation-of', key=thing)|sort %}
+              {{ link(impl, link_text='X', title=impl) }}
+            {% endfor %}</td>
+        <td>{% for impl in related('host-language', key=thing)|sort %}
+              {{ link(impl, link_text='X', title=impl) }}
+            {% endfor %}</td>
+        <td>{% for impl in related('target-language', key=thing)|sort %}
+              {{ link(impl, link_text='X', title=impl) }}
+            {% endfor %}</td>
+        <td>
+          {{- online_buttons(thing, show_verb_phrase=False) -}}
+        </td>
+        <td>
+          {%- if ref_dist(key=thing) -%}
+            {%- set dist_key = ref_dist(key=thing) -%}
+            {%- if data[dist_key].releases -%}
+              {%- set latest_release = data[dist_key].releases|last -%}
+              <a class="button" href="{{ latest_release.url }}">Download</a>
+            {%- endif -%}
+          {%- endif -%}
+        </td>
+      </tr>
+    {%- endif -%}
   {%- endfor -%}
 </table>
 
