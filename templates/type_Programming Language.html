@@ -1,1 +1,43 @@
-{% extends "type_compressed.html" %}
+{% extends "type.html" %}
+
+{% block content %}
+
+<table class="table table-bordered">
+  <tr>
+    <th>Programming Language</th>
+    <th>Originator</th>
+    <th>Genre</th>
+    <th>Interpreters for it</th>
+    <th>Compilers for it</th>
+    <th>Things Implemented in it</th>
+    <th>Compilers to it</th>
+    <th>Online Implementations</th>
+    <th>Distribution</th>
+  </tr>
+
+  {%- for thing in related('type')|sort -%}
+    <tr>
+      <td><a href="./{{ sleek_key(thing) }}">{{ thing|truncate(length=28) }}</a></td>
+      <td>?</td>
+      <td>{{ link(data[thing].genre) }}</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>
+        {{ online_buttons(thing) }}
+      </td>
+      <td>
+        {% if ref_dist(key=thing) %}
+          {% set dist_key = ref_dist(key=thing) %}
+          {% if data[dist_key].releases %}
+            {% set latest_release = data[dist_key].releases|last %}
+            <a class="button" href="{{ latest_release.url }}">Download</a>
+          {% endif %}
+        {% endif %}
+      </td>
+    </tr>
+  {%- endfor -%}
+</table>
+
+{% endblock content %}
