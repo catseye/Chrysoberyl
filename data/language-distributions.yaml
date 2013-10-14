@@ -906,6 +906,9 @@ Unlikely distribution:
   - version: "1.0"
     revision: "2012.0316"
     url: http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip
+  - version: "1.0"
+    revision: "2013.1014"
+    url: http://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip
 
 You are Reading the Name of this Esolang distribution: 
   type: Distribution
