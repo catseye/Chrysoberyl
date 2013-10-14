@@ -38,9 +38,6 @@ For Type and Genre pages, show the pages of that type/genre in a collapsible
 (accordion) thing.  If there are a lot (more than, say, 15,) default the accordion
 to collapsed.
 
-Longer descriptions and commentary (article-like things) should have a
-max-width smaller than the screen size, to help readability.
-
 On implementable pages, show non-reference dists (if any) after reference dist.
 
 Don't show discontinued distributions inline (the same way).

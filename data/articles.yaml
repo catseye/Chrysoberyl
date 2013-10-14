@@ -10,6 +10,8 @@
     In contrast to [[Chris Pressey's Lingography|the list of languages I've designed]],
     in this article, I talk about what it's *like* to design languages
     and what my thoughts on certain languages and the design process are.
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
   description: |
     ### Esolangs
     
@@ -228,6 +230,8 @@ Programming Languages as an Artistic Medium:
     we consider programming language design an artistic activity, programming
     language an artistic medium, and [[Esolang|esolang]] a movement within that
     medium.  In this article I expand on those points a bit.
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
   description: |
     Proglang-as-art is a thesis I've been toying with for about a decade now, and
     it's about time I wrote something explicitly about it.  But really, there is
@@ -318,6 +322,8 @@ The Aesthetics of Esolangs:
     examine the aesthetics of esolangs a bit more in-depth than I did in the
     previous article (and it will probably make more sense if you've already
     read [[Programming Languages as an Artistic Medium|the previous article]].)
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
   description: |
     A preliminary point I should probably make is that by "art" I do not
     necessarily mean the "art world" (which consists of galleries, critics,
