@@ -166,8 +166,20 @@ Automaton:
 Programming Language:
   type: type
   description: |
-    For a list of just those languages produced by [[Cat's Eye Technologies]], see
-    [[Chris Pressey's Lingography]].
+    This is a matrix of all the programming languages known to [[Chrysoberyl]],
+    collating them with known implementations of those languages, and things
+    known to be implemented in those languages.
+    
+    If you find this chart a little daunting, I don't blame you, and you might
+    want to start exploring [[Cat's Eye Technologies]]' programming language
+    materials from some other page:
+    
+    * [[Chris Pressey's Lingography]]
+    * [[Esolang]]
+    * [[Programming Languages as an Artistic Medium]]
+    * [[The Aesthetics of Esolangs]]
+  images:
+  - '/images/illustrations/Abacus_(PSF).jpg'
   commentary: |
     There are two things about programming languages that every programmer
     should know.
