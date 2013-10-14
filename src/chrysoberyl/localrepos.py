@@ -64,9 +64,9 @@ def for_each_repo(data, clone_dir, fun):
     return count
 
 
-def get_latest_release_tag(data, repo_name, clone_dir):
-    """Given the name of a repository, find the distribution node associated
-    with it, and return the tag most recently applied to the repository.
+def get_repo_dir(data, repo_name, clone_dir):
+    """Given the name of a repository, return the local directory in which
+    it is found.
 
     """
     result = {}
@@ -74,20 +74,33 @@ def get_latest_release_tag(data, repo_name, clone_dir):
     def find_it(distribution, repo):
         if repo != repo_name:
             return
-
-        latest_tag = None
-        for line in get_it("hg tags").split('\n'):
-            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-            if match:
-                tag = match.group(1)
-                if tag != 'tip' and latest_tag is None:
-                    latest_tag = tag
-
-        result[repo] = latest_tag
+        result[dir] = os.getcwd()
 
     for_each_repo(data, clone_dir, find_it)
 
-    return result[repo_name]
+    if dir not in result:
+        raise IOError("No such local clone: %s" % repo_name)
+    return os.path.join(clone_dir, result[dir])
+
+
+def get_latest_release_tag(repo_dir):
+    """Given the name of a repository, return the tag most recently
+    applied to the repository.
+
+    """
+    cwd = os.getcwd()
+    os.chdir(repo_dir)
+
+    latest_tag = None
+    for line in get_it("hg tags").split('\n'):
+        match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+        if match:
+            tag = match.group(1)
+            if tag != 'tip' and latest_tag is None:
+                latest_tag = tag
+
+    os.chdir(cwd)
+    return latest_tag
 
 
 ### Repository-Traversing Commands ###

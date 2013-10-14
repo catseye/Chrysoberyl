@@ -15,7 +15,7 @@ from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dirs
 from chrysoberyl.localrepos import (
-    bitbucket_repos,
+    bitbucket_repos, get_repo_dir,
     troll_docs, survey_repos, get_latest_release_tag, lint_dists
 )
 from chrysoberyl.renderer import Renderer
@@ -92,7 +92,12 @@ def release(data, options):
     distro = options.distro_name
     if distro is None:
         raise SystemError("You must specify a --distro-name")
-    tag = get_latest_release_tag(data, distro, options.clone_dir)
+    
+    # TODO: enforce that the tagging is the
+    # most recent commit to the repo, to avoid the possible error of
+    # including "mainline" stuff in the distfile
+    repo_dir = get_repo_dir(data, distro, options.clone_dir)
+    tag = get_latest_release_tag(repo_dir)
     if not tag:
         raise SystemError("ERROR: repository not tagged")
     match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
