@@ -90,6 +90,8 @@ def release(data, options):
 
     """
     distro = options.distro_name
+    if distro is None:
+        raise SystemError("You must specify a --distro-name")
     tag = get_latest_release_tag(data, distro, options.clone_dir)
     if not tag:
         raise SystemError("ERROR: repository not tagged")
