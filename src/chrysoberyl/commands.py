@@ -22,7 +22,7 @@ from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
     convert_chrysoberyl_data, transform_dates
 )
-from chrysoberyl.util import do_it
+from chrysoberyl.util import do_it, get_it
 
 
 def survey(data, options):
@@ -89,17 +89,21 @@ def release(data, options):
     """Create a distfile from the latest tag in a local distribution repo.
 
     """
+    cwd = os.getcwd()
     distro = options.distro_name
     if distro is None:
         raise SystemError("You must specify a --distro-name")
     
-    # TODO: enforce that the tagging is the
-    # most recent commit to the repo, to avoid the possible error of
-    # including "mainline" stuff in the distfile
     repo_dir = get_repo_dir(data, distro, options.clone_dir)
     tag = get_latest_release_tag(repo_dir)
     if not tag:
-        raise SystemError("ERROR: repository not tagged")
+        raise SystemError("Repository not tagged")
+    os.chdir(repo_dir)
+    diff = get_it('hg diff -r %s -r tip -X .hgtags' % tag)
+    if diff:
+        raise SystemError("There are changes to mainline since latest tag")
+    os.chdir(cwd)
+
     match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
     if match:
         v_maj = match.group(1)
@@ -116,7 +120,7 @@ def release(data, options):
             r_min = "0"
             filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
         else:
-            raise ValueError("ERROR: not a release tag: %s" % tag)
+            raise ValueError("Not a release tag: %s" % tag)
     print """\
   - version: "%s.%s"
     revision: "%s.%s"
@@ -125,12 +129,11 @@ def release(data, options):
     full_filename = os.path.join(options.distfiles_dir, filename)
     if os.path.exists(full_filename):
         do_it("unzip -v %s" % full_filename)
-        raise SystemError("ERROR: distfile already exists: %s" % full_filename)
+        raise SystemError("Distfile already exists: %s" % full_filename)
     excludes = ' '.join(['-X %s' % x
                          for x in ('.hgignore', '.gitignore',
                                    '.hgtags', '.hg_archival.txt')])
-    cwd = os.getcwd()
-    os.chdir(os.path.join(options.clone_dir, distro))
+    os.chdir(repo_dir)
     do_it("hg archive -t zip -r %s %s %s" % (tag, excludes, full_filename))
     os.chdir(cwd)
 
