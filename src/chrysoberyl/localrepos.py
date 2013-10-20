@@ -83,26 +83,6 @@ def get_repo_dir(data, repo_name, clone_dir):
     return os.path.join(clone_dir, result[dir])
 
 
-def get_latest_release_tag(repo_dir):
-    """Given the name of a repository, return the tag most recently
-    applied to the repository.
-
-    """
-    cwd = os.getcwd()
-    os.chdir(repo_dir)
-
-    latest_tag = None
-    for line in get_it("hg tags").split('\n'):
-        match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-        if match:
-            tag = match.group(1)
-            if tag != 'tip' and latest_tag is None:
-                latest_tag = tag
-
-    os.chdir(cwd)
-    return latest_tag
-
-
 ### Repository-Traversing Commands ###
 
 

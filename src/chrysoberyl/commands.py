@@ -16,7 +16,7 @@ from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dirs
 from chrysoberyl.localrepos import (
     bitbucket_repos, get_repo_dir,
-    troll_docs, survey_repos, get_latest_release_tag, lint_dists
+    troll_docs, survey_repos, lint_dists
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
@@ -44,7 +44,10 @@ def lint(data, options):
     """Lint local clones of distributions.
 
     """
-    lint_dists(data, options.clone_dir, host_language=options.host_language)
+    if toolshelf and False:
+        toolshelf.status(['catseye/all'])
+    else:
+        lint_dists(data, options.clone_dir, host_language=options.host_language)
 
 
 def troll(data, options):
@@ -93,59 +96,6 @@ def announce(data, options):
     make_news_feed(data, options.feed_dir, 'atom_all_news.xml')
 
 
-def release(data, options):
-    """Create a distfile from the latest tag in a local distribution repo.
-
-    """
-    cwd = os.getcwd()
-    distro = options.distro_name
-    if distro is None:
-        raise SystemError("You must specify a --distro-name")
-    
-    repo_dir = get_repo_dir(data, distro, options.clone_dir)
-    tag = get_latest_release_tag(repo_dir)
-    if not tag:
-        raise SystemError("Repository not tagged")
-    os.chdir(repo_dir)
-    diff = get_it('hg diff -r %s -r tip -X .hgtags' % tag)
-    if diff:
-        raise SystemError("There are changes to mainline since latest tag")
-    os.chdir(cwd)
-
-    match = re.match(r'^rel_(\d+)_(\d+)_(\d+)_(\d+)$', tag)
-    if match:
-        v_maj = match.group(1)
-        v_min = match.group(2)
-        r_maj = match.group(3)
-        r_min = match.group(4)
-        filename = '%s-%s.%s-%s.%s.zip' % (distro, v_maj, v_min, r_maj, r_min)
-    else:
-        match = re.match(r'^rel_(\d+)_(\d+)$', tag)
-        if match:
-            v_maj = match.group(1)
-            v_min = match.group(2)
-            r_maj = "0"
-            r_min = "0"
-            filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
-        else:
-            raise ValueError("Not a release tag: %s" % tag)
-    print """\
-  - version: "%s.%s"
-    revision: "%s.%s"
-    url: http://catseye.tc/distfiles/%s
-""" % (v_maj, v_min, r_maj, r_min, filename)
-    full_filename = os.path.join(options.distfiles_dir, filename)
-    if os.path.exists(full_filename):
-        do_it("unzip -v %s" % full_filename)
-        raise SystemError("Distfile already exists: %s" % full_filename)
-    excludes = ' '.join(['-X %s' % x
-                         for x in ('.hgignore', '.gitignore',
-                                   '.hgtags', '.hg_archival.txt')])
-    os.chdir(repo_dir)
-    do_it("hg archive -t zip -r %s %s %s" % (tag, excludes, full_filename))
-    os.chdir(cwd)
-
-
 def catalog(data, options):
     """Create a toolshelf catalog from distribution nodes.
 
@@ -163,7 +113,6 @@ COMMANDS = {
     'troll': troll,
     'survey': survey,
     'lint': lint,
-    'release': release,
     'catalog': catalog,
 }
 
@@ -191,15 +140,6 @@ def perform(args):
                          help="colon-separated list of directories "
                               "containing Chrysoberyl Yaml data files "
                               "(default: %default)")
-    optparser.add_option("--distfiles-dir",
-                         dest="distfiles_dir", metavar='DIR',
-                         default='../catseye.tc/distfiles',
-                         help="write distfiles into this directory "
-                              "(default: %default)")
-    optparser.add_option("--distro-name",
-                         dest="distro_name",
-                         default=None,
-                         help="(for release) basename for distfile to create")
     optparser.add_option("--feed-dir",
                          dest="feed_dir", metavar='DIR',
                          default='../catseye.tc/feeds',
