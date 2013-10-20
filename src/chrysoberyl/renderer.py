@@ -484,21 +484,6 @@ class Renderer(object):
         def strftime(date, fmt):
             return date.strftime(fmt)
 
-        @expose
-        def distribution_file_contents(key=key):
-            """Return the HTML-formatted contents of the file associated
-            with this Document node.  Stub.
-
-            """
-            distribution = self.data[key]['distribution']
-            doc_filename = self.data[key]['filename']
-            (user, repo) = self.data[distribution]['bitbucket'].split('/')
-            repo_dir = os.path.join(self.clone_dir, repo)
-            doc_path = os.path.join(repo_dir, doc_filename)
-            with codecs.open(doc_path, 'r', 'utf-8') as file:
-                contents = file.read()
-            return markdown.markdown(contents)
-
         template = self.get_template(key)
         basename = filekey(key)
         filename = os.path.join(self.output_dir, basename)
