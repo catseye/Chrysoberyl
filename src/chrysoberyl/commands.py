@@ -25,6 +25,14 @@ from chrysoberyl.transformer import (
 from chrysoberyl.util import do_it, get_it
 
 
+# experimental loose toolshelf integration
+if 'TOOLSHELF' in os.environ and os.environ['TOOLSHELF']:
+    sys.path.insert(0, os.path.join(os.environ['TOOLSHELF'], '.toolshelf', 'src'))
+    import toolshelf
+else:
+    toolshelf = None
+
+
 def survey(data, options):
     """Survey local clones of distributions.
 
