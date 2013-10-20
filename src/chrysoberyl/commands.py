@@ -14,7 +14,7 @@ from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dirs
 from chrysoberyl.localrepos import (
-    bitbucket_repos, troll_docs, survey_repos
+    bitbucket_repos, troll_docs
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
@@ -28,13 +28,6 @@ if 'TOOLSHELF' in os.environ and os.environ['TOOLSHELF']:
     import toolshelf
 else:
     toolshelf = None
-
-
-def survey(data, options):
-    """Survey local clones of distributions.
-
-    """
-    survey_repos(data, options.clone_dir, hg_outgoing=options.hg_outgoing)
 
 
 def troll(data, options):
@@ -98,7 +91,6 @@ COMMANDS = {
     'jsonify': jsonify,
     'announce': announce,
     'troll': troll,
-    'survey': survey,
     'catalog': catalog,
 }
 
