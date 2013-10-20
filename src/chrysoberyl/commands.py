@@ -8,21 +8,18 @@ import codecs
 import json
 from optparse import OptionParser
 import os
-import re
 import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import load_chrysoberyl_dirs
 from chrysoberyl.localrepos import (
-    bitbucket_repos, get_repo_dir,
-    troll_docs, survey_repos, lint_dists
+    bitbucket_repos, troll_docs, survey_repos
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
     convert_chrysoberyl_data, transform_dates
 )
-from chrysoberyl.util import do_it, get_it
 
 
 # experimental loose toolshelf integration
@@ -38,16 +35,6 @@ def survey(data, options):
 
     """
     survey_repos(data, options.clone_dir, hg_outgoing=options.hg_outgoing)
-
-
-def lint(data, options):
-    """Lint local clones of distributions.
-
-    """
-    if toolshelf and False:
-        toolshelf.status(['catseye/all'])
-    else:
-        lint_dists(data, options.clone_dir, host_language=options.host_language)
 
 
 def troll(data, options):
@@ -112,7 +99,6 @@ COMMANDS = {
     'announce': announce,
     'troll': troll,
     'survey': survey,
-    'lint': lint,
     'catalog': catalog,
 }
 
