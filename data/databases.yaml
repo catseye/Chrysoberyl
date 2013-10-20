@@ -21,7 +21,6 @@ Chrysoberyl distribution:
   bitbucket: catseye/chrysoberyl
   issue-tracker: github
   releases: []
-  skip-docs: true
 
 
 The Dipple: 
@@ -33,4 +32,3 @@ The Dipple:
     The Dipple is where code goes when its home planet has been
     destroyed.  With apologies to [[Andre Norton]].
   releases: []
-  skip-docs: true

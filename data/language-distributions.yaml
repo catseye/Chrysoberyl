@@ -636,7 +636,6 @@ pibfi distribution:
   - version: "1.0"
     revision: "2003.0505"
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
-  skip-docs: true
 
 Pixley distribution: 
   type: Distribution

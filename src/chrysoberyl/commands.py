@@ -12,7 +12,9 @@ import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
-from chrysoberyl.loader import load_chrysoberyl_dirs
+from chrysoberyl.loader import (
+    load_chrysoberyl_dirs, load_docs, save_docs
+)
 from chrysoberyl.localrepos import (
     bitbucket_repos, troll_docs
 )
@@ -30,6 +32,24 @@ else:
     toolshelf = None
 
 
+# helper function
+def bitbucket_repos(data):
+    """Generator which yields information about every Mercurial repository
+    on Bitbucket referenced by some distribution in Chrysoberyl.
+
+    Information is a triple of the distribution key, the Bitbucket username,
+    and the repository name.
+
+    """
+    for key in data:
+        if data[key]['type'] != 'Distribution':
+            continue
+        if 'bitbucket' not in data[key]:
+            continue
+        (user, repo) = data[key]['bitbucket'].split('/')
+        yield (key, user, repo)
+
+
 def troll(data, options):
     """Troll local hg clones of distributions listed in Chrysoberyl,
     looking through each distribution for anything that looks like
@@ -40,6 +60,17 @@ def troll(data, options):
     troll_docs(data, options.clone_dir, options.output_filename)
 
 
+def filterdocs(data, options):
+    """Kind of a stopgap measure for now..."""
+    docs = load_docs('docs.yaml')
+    new_docs = {}
+    for (key, user, repo) in bitbucket_repos(data):
+        doc_key = "bitbucket.org/%s/%s" % (user, repo)
+        if doc_key in docs:
+            new_docs[key] = sorted(docs[doc_key])
+    save_docs('docs.yaml', new_docs)
+
+
 def render(data, options):
     """Render all nodes to a set of HTML5 files.
 
@@ -47,7 +78,7 @@ def render(data, options):
     convert_chrysoberyl_data(data)
     r = Renderer(data,
         options.template_dirs, options.node_dir, options.clone_dir,
-        options.render_docs, options.sleek_node_links
+        options.sleek_node_links
     )
     r.render_chrysoberyl_data()
 
@@ -91,6 +122,7 @@ COMMANDS = {
     'jsonify': jsonify,
     'announce': announce,
     'troll': troll,
+    'filterdocs': filterdocs,
     'catalog': catalog,
 }
 
@@ -141,10 +173,6 @@ def perform(args):
                          dest="output_filename", metavar='FILENAME',
                          default=None,
                          help="(for troll) write updated documentation yaml here")
-    optparser.add_option("--render-docs",
-                         dest="render_docs", default=False,
-                         action='store_true',
-                         help="render documentation nodes as well")
     optparser.add_option("--sleek-node-links",
                          dest="sleek_node_links", default=False,
                          action='store_true',

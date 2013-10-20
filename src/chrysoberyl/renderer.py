@@ -12,9 +12,13 @@ from jinja2 import BaseLoader, Environment
 from jinja2.exceptions import TemplateNotFound
 import markdown
 
+from chrysoberyl.loader import load_docs
 from chrysoberyl.transformer import (
     filekey, sleek_key, pathname2url, markdown_contents
 )
+
+
+DOCUMENTATION = None
 
 
 class Loader(BaseLoader):
@@ -39,13 +43,12 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dirs, output_dir, clone_dir, render_docs,
+    def __init__(self, data, template_dirs, output_dir, clone_dir,
                  sleek_node_links):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
         self.clone_dir = clone_dir
-        self.render_docs = render_docs
         self.sleek_node_links = sleek_node_links
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
 
@@ -224,20 +227,11 @@ class Renderer(object):
 
         @expose
         def documentation(key=key):
-            """Return a list of documentation node keys for the given key."""
-            d = []
-            for k in self.data:
-                if self.data[k]['type'] != 'Document':
-                    continue
-                if self.data[k]['distribution'] == key:
-                    match = re.match(
-                        r'^.*?\/(.*)$', k,
-                        re.DOTALL
-                    )
-                    if not match:
-                        raise ValueError('badly formatted documentation key')
-                    d.append(match.group(1))
-            return sorted(d)
+            """Return a list of documentation file names for the given key."""
+            global DOCUMENTATION
+            if DOCUMENTATION is None:
+                DOCUMENTATION = load_docs('docs.yaml')
+            return sorted(DOCUMENTATION.get(key, []))
 
         @expose
         def github_link(filename, key=key):
@@ -523,8 +517,6 @@ class Renderer(object):
         count = 0
         for key in self.data:
             node = self.data[key]
-            if node['type'] == 'Document' and not self.render_docs:
-                continue
             if self.data[node['type']].get('suppress-page-generation', False):
                 continue
             self.render_node(key, node)
