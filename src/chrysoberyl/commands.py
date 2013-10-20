@@ -15,9 +15,6 @@ from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_docs, save_docs
 )
-from chrysoberyl.localrepos import (
-    bitbucket_repos, troll_docs
-)
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
     convert_chrysoberyl_data, transform_dates
@@ -48,16 +45,6 @@ def bitbucket_repos(data):
             continue
         (user, repo) = data[key]['bitbucket'].split('/')
         yield (key, user, repo)
-
-
-def troll(data, options):
-    """Troll local hg clones of distributions listed in Chrysoberyl,
-    looking through each distribution for anything that looks like
-    documentation, and update documentation.yaml with those
-    filenames.
-
-    """
-    troll_docs(data, options.clone_dir, options.output_filename)
 
 
 def filterdocs(data, options):
@@ -121,7 +108,6 @@ COMMANDS = {
     'render': render,
     'jsonify': jsonify,
     'announce': announce,
-    'troll': troll,
     'filterdocs': filterdocs,
     'catalog': catalog,
 }
