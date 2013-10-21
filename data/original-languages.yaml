@@ -2565,11 +2565,12 @@ Strelnokoff:
   - Non-deterministic
   description: |
     Strelnokoff is a non-deterministic imperative programming language.
-    Despite this apparent handicap, it appears to be [[Turing-complete]] (thanks
-    to a short-circuiting multiplication operator,) but a critical feature (arrays)
-    has never yet been implemented.  The name "Strelnokoff" was taken from
-    a fictional brand of vodka featured in a mock advertisement on the television
-    show SCTV.
+    Despite this apparent handicap, it appears to be [[Turing-complete]] —
+    thanks to a short-circuiting multiplication operator — but a critical
+    feature, namely arrays, has yet to be implemented.
+  commentary: |
+    The name "Strelnokoff" was taken from a fictional brand of vodka
+    featured in a parody advertisement on the television show SCTV.
   authors:
   - Chris Pressey
   auspices:
