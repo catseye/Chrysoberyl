@@ -2157,6 +2157,28 @@ pixley.pix:
   implementation-type: interpreter
   host-language: Pixley
 
+mignon:
+  type: Implementation
+  implementation-of:
+  - Pixley
+  in-distribution: Pixley distribution
+  reference: false
+  license: BSD license
+  implementation-type: interpreter
+  host-language: ANSI C
+
+haney:
+  type: Implementation
+  implementation-of:
+  - Pixley
+  in-distribution: Pixley distribution
+  reference: false
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Haskell
+  build-requirements:
+  - Parsec
+
 pixley.pifx:
   type: Implementation
   implementation-of:
@@ -2799,7 +2821,7 @@ velo.rb:
   implementation-of:
   - Velo
   in-distribution: Velo distribution
-  license: Unknown license
+  license: BSD license
   reference: true
   host-language: Ruby
   implementation-type: interpreter
@@ -3079,6 +3101,16 @@ Xoomonk:
       ^.counter := o.result
       continue := o.result
     }
+
+xoomonk.py:
+  type: Implementation
+  implementation-of:
+  - Xoomonk
+  in-distribution: Xoomonk distribution
+  license: BSD license
+  reference: true
+  host-language: Python
+  implementation-type: interpreter
 
 
 You are Reading the Name of this Esolang:

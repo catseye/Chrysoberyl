@@ -1,4 +1,35 @@
 # encoding: UTF-8
+"New implementations of Xoomonk and Pixley":
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 24 Oct 2013 19:42:47 GMT
+  blurb: |
+    Xoomonk 1.0 and Pixley 2.0-2013.1024 have been released, each with new
+    implementations.
+  description: |
+    [[Xoomonk]] 1.0 was recently released.  For this release, a Xoomonk
+    interpreter was implemented in [[Python]], using the [[Falderal]] tests
+    written for the *test-driven language design* approach used in Xoomonk
+    0.1's documentation.  I've used test-driven language design successfully
+    in other projects ([[Castile]], [[Robin]]) since Xoomonk was released, but
+    it was the first project in which I proposed the concept, so it's nice to
+    see it finally realized there.
+    
+    The semantics of Xoomonk 1.0 are slightly simpler than those set out for
+    Xoomonk 0.1 — specifically, a variable is considered unsaturated in a block
+    if it is *never* assigned a value in that block (and not just if it is
+    used in the block before it is assigned a value.)  The syntax for built-ins
+    also changed slightly.  But these are not major changes, and the same
+    original mouthfeel of malingering updateable stores is still there (and
+    implemented!)
+    
+    [[Pixley]] 2.0-2013.1024 has also been released.  There are no changes to
+    the language in this release, but two new implementations, [[mignon]]
+    (in [[ANSI C]]) and [[haney]] (in [[Haskell]]) have been added to the
+    reference distribution.  They both implement Pixley well enough to serve
+    as the bottom of a tower of Pixley interpreters.  Many of the supporting
+    materials (scripts, tests) have also been cleaned up. 
+
 "I got two new gewgaws and an esolang... online":
   type: Article
   article-type: announcement
