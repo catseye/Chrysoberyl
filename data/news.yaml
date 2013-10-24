@@ -24,8 +24,8 @@
     implemented!)
     
     [[Pixley]] 2.0-2013.1024 has also been released.  There are no changes to
-    the language in this release, but two new implementations, [[mignon]]
-    (in [[ANSI C]]) and [[haney]] (in [[Haskell]]) have been added to the
+    the language in this release, but two new implementations, [[mignon]],
+    in [[ANSI C]], and [[haney]], in [[Haskell]], have been added to the
     reference distribution.  They both implement Pixley well enough to serve
     as the bottom of a tower of Pixley interpreters.  Many of the supporting
     materials (scripts, tests) have also been cleaned up. 
