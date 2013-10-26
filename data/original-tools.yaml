@@ -185,6 +185,9 @@ Falderal distribution:
   - version: "0.7"
     revision: "2012.0928"
     url: http://catseye.tc/distfiles/falderal-0.7-2012.0928.zip
+  - version: "0.8"
+    revision: "2013.1026"
+    url: http://catseye.tc/distfiles/falderal-0.8-2013.1026.zip
 
 
 mzstorkipiwanbotbotbot: 
