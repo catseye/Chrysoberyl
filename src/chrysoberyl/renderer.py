@@ -113,6 +113,7 @@ class Renderer(object):
         context['data'] = self.data
         context['key'] = key
         context['sleek_key'] = sleek_key
+        context['pathname2url'] = pathname2url
 
         # Context functions.  Being nested functions of render_node lets
         # them easily access (close over) the current node and its key.

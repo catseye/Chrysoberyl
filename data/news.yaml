@@ -1,4 +1,45 @@
 # encoding: UTF-8
+'Release of Falderal version 0.8 "Ukranian Village"':
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 26 Oct 2013 18:45:30 GMT
+  blurb: |
+    [[Falderal]] version 0.8 "Ukranian Village" has been released.
+  description: |
+    A "new" version of [[Falderal]], version 0.8 "Ukranian Village", has
+    been released.
+    
+    I say "new" because, well, it's basically the same as it's been for the
+    last year, when the `Test.Falderal` implementation of Falderal in
+    [[Haskell]] was replaced by the `py-falderal` implementation in
+    [[Python]], which was christened the new reference implementation.
+    
+    This switcheroo happened right after the last distribution of Falderal
+    in which `Test.Falderal` was the reference implementation,
+    version 0.7 "Odgen Avenue", was released.  Unfortunately, I see by
+    my records that I never announced that in this news feed, so, this
+    may be news to you.  Yes, it's written in Python now.  And much like
+    version 0.7 was a release of Falderal to get it out of the way so I
+    could start working on a brand new code base (in Python), version 0.8
+    is a release to get this relatively-stable Python version out of the way
+    so I can start making larger, long-overdue improvements to it.
+    
+    The Falderal Literate Test Format has not changed much between 0.7
+    and 0.8.  The main change is now that blocks *must* be indented by
+    four spaces.  It is generally assumed that Falderal test files will be
+    embedded in Markdown and have file extensions like `.markdown`
+    that let software (e.g. Github and Bitbucket) know how to pretty-format
+    them.
+    
+    In related news, recent improvements to [[toolshelf]] allow it to
+    run any tests defined in a source tree, and to operate on all source
+    trees owned by a given user on a given host.  The end result being
+    that we can now say `toolshelf test bitbucket.org/catseye/all` and
+    have it test *all* of Cat's Eye Technologies' active distributions.
+    And the even better news is that, out of approximately 112 distributions,
+    22 have tests (mostly done with Falderal), and all 22 of those currently
+    pass on both Ubuntu and Windows (under Cygwin).
+
 "New implementations of Xoomonk and Pixley":
   type: Article
   article-type: announcement
