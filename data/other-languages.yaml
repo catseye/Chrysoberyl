@@ -89,6 +89,24 @@ Borland C:
     keyboard, and so forth.
 
 
+Bourne shell:
+  type: Programming Language
+  genre: Production language
+  wikipedia: Bourne_shell
+  generally-compiled: false
+  development-stage: mature
+  specification-link: 'http://steve-parker.org/sh/bourne.shtml'
+  authors:
+  - Stephen Bourne
+  # "scripting"
+  paradigms:
+  - Imperative
+  commentary: |
+    I generally avoid writing shell scripts unless it's the right tool
+    for the job.  It's rarely the right tool for the job.  Although sometimes
+    it is.
+    
+
 C99:
   type: Programming Language
   genre: Production language

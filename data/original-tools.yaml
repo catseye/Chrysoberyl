@@ -6,6 +6,39 @@
 # - TPiS is an implementation of Scheme (a static checker) 
 # - yucca is an implementation of BASIC (a static checker) 
 
+Amiga Gondola:
+  # is this not a platform?  no, it's a tool that sets up a platform
+  # (and that platform is... AmigaDOS 1.3 + DICE + PCQ + Draco...)
+  type: Tool
+  summary: Scripts to set up dev environment on AmigaDOS 1.3 under E-UAE
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    Amiga Gondola is a set of scripts to set up a development environment
+    under AmigaDOS 1.3, generally on an Amiga 500 emulated by the E-UAE
+    emulator.
+  inception-date: Oct 25 2013
+  development-stage: not fully complete
+
+'populate.sh (Amiga Gondola)':
+  type: Implementation
+  implementation-of:
+  - Amiga Gondola
+  reference: true
+  in-distribution: Amiga Gondola distribution
+  license: Public Domain
+  host-language: Bourne shell
+
+Amiga Gondola distribution: 
+  type: Distribution
+  bitbucket: catseye/amiga-gondola
+  github: catseye/Amiga-Gondola
+  issue-tracker: github
+  releases: []
+
+
 'Console::Virtual':
   type: Library
   summary: Package for simulating a virtual console
