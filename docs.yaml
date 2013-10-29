@@ -7,6 +7,11 @@ ALPACA distribution:
 - README.markdown
 - doc/ALPACA.markdown
 - impl/alpaca.pl/README.markdown
+Amiga Gondola distribution:
+- LICENSE
+- README.markdown
+- doc/DevEnv.markdown
+- doc/Gondola.markdown
 Animals distribution:
 - README.markdown
 - UNLICENSE
@@ -108,25 +113,7 @@ Falderal distribution:
 - README.markdown
 - TODO.markdown
 - doc/Falderal_Literate_Test_Format.markdown
-- doc/Quick_Start.markdown
-- doc/Theory_of_Operation.markdown
 - doc/py-falderal.markdown
-- impl/Test.Falderal/eg/LiterateHaskellDemo.lhs
-- tests/test-crlf.markdown
-- tests/test-substring-error.markdown
-- tests/test-utf8.markdown
-- tests/test1.markdown
-- tests/test2.markdown
-- tests/test3.markdown
-- tests/test4.markdown
-- tests/test5.markdown
-- tests/test6a.markdown
-- tests/test6b.markdown
-- tests/test7a.markdown
-- tests/test7b.markdown
-- tests/test8a.markdown
-- tests/test8b.markdown
-- tests/test9.markdown
 Flip distribution:
 - README.markdown
 - UNLICENSE
@@ -157,6 +144,7 @@ HUNTER distribution:
 Hev distribution:
 - LICENSE
 - README.markdown
+- tests/Hev.markdown
 'Illgol: Grand Mal':
 - 1. ILLGOL/doc/illgol.txt
 - 2. Illgola-2/doc/illgol.txt
@@ -205,6 +193,8 @@ PL-{GOTO}.NET distribution:
 - src/PLexceptGOTOdotNET.lhs
 - tests/PLexceptGOTOdotNET.markdown
 Pail distribution:
+- LICENSE
+- README.markdown
 - src/Pail.lhs
 - tests/Pail.markdown
 Pixley distribution:
@@ -215,6 +205,9 @@ Pixley distribution:
 - dialect/Pifxley.markdown
 - dialect/README.markdown
 - doc/Pixley.markdown
+- impl/haney/Pixley.lhs
+- impl/haney/README.markdown
+- impl/mignon/README.markdown
 - src/tests.markdown
 Pophery distribution:
 - README.markdown
