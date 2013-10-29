@@ -133,8 +133,21 @@ Probabilistic:
   type: Programming Paradigm
 Reflective:
   type: Programming Paradigm
+  references:
+  - title: 'tunes: Reflection'
+    description: Reflection definition in tunes.org glossary (Wayback)
+    url: 'http://web.archive.org/web/20010616211233/tunes.org/papers/Glossary/index.html#reflection'
+    
 Regular-expression-based:
   type: Programming Paradigm
+  references:
+  - title: regex
+    description: Henry Spencer's regular expression libraries
+    url: http://www.arglist.com/regex/
+  - title: Regular Expression Matching Can Be Simple And Fast
+    description: (but is slow in Java, Perl, PHP, Python, Ruby, ...)
+    url: http://swtch.com/~rsc/regexp/regexp1.html
+
 Self-modifying:
   # this is pretty close to Reflective
   type: Programming Paradigm
@@ -153,6 +166,11 @@ Term-rewriting:
     Term rewriting is perfect for when, instead of an error message, you
     want to see a half-reduced version of your original program when it
     breaks.
+  references:
+  - url: http://rtaloop.mancoosi.univ-paris-diderot.fr/
+    title: RTA LoOP
+    description: Open Problems in Term Rewriting
+
 
 Turning tarpit:
   type: Programming Paradigm

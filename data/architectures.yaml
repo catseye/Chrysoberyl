@@ -1,6 +1,37 @@
 # encoding: UTF-8
 # architectures, also their machine languages and other supported languages,
 # and emulators for them
+Amiga 500:
+  type: Platform
+  # for now...
+  no-specification: true
+  # even if it isn't technically vintage, it's really close
+  development-stage: vintage
+  native-language: 68000 machine code
+  other-languages: []
+
+68000 machine code:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  computational-class: Finite-automata-complete
+  no-specification: true
+  development-stage: mature
+  authors: []
+
+E-UAE:
+  type: Implementation
+  implementation-of:
+  - Amiga 500
+  implementation-type: emulator
+  generally-recommended: true
+  host-language: C++
+  license: GPL
+  links:
+  - 'http://www.rcdrummond.net/uae/'
+
+
 Apple II:
   type: Platform
   # haha
@@ -22,17 +53,26 @@ Apple II:
     I have yet to find one for [[Linux]] that's
     good enough to be my go-to emulator (pun? what pun?).
 
-AppleWin:
-  type: Implementation
-  implementation-of:
-  - Apple II
-  implementation-type: emulator
-  prebuilt-for-platforms:
-  - Windows
-  links:
-  - 'http://applewin.berlios.de/'
-  license: GPL
-  host-language: C++
+6502 machine code:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  wikipedia: MOS_Technology_6502
+  computational-class: Finite-automata-complete
+  specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+  development-stage: vintage
+  references:
+  - title: 6502 Instruction Set
+    description: 6502 Instruction Set reference
+    url: http://www.obelisk.demon.co.uk/6502/instructions.html
+  - title: scc6502
+    url: http://www.reocities.com/SiliconValley/Way/4588/scc6502.html
+    description: Small-C for 6502 and LUnix
+  - title: cc65
+    url: http://www.cc65.org/
+    description: Freeware C compiler for 6502-based systems
+  authors: []
 
 Applesoft BASIC:
   type: Programming Language
@@ -61,27 +101,17 @@ Applesoft BASIC:
     I have yet to find one for [[Linux]] that's
     good enough to be my go-to emulator (pun? what pun?).
 
-
-6502 machine code:
-  type: Programming Language
-  genre: Machine language
-  paradigms:
-  - Imperative
-  wikipedia: MOS_Technology_6502
-  computational-class: Finite-automata-complete
-  specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
-  development-stage: vintage
-  references:
-  - title: 6502 Instruction Set
-    description: 6502 Instruction Set reference
-    url: http://www.obelisk.demon.co.uk/6502/instructions.html
-  - title: scc6502
-    url: http://www.reocities.com/SiliconValley/Way/4588/scc6502.html
-    description: Small-C for 6502 and LUnix
-  - title: cc65
-    url: http://www.cc65.org/
-    description: Freeware C compiler for 6502-based systems
-  authors: []
+AppleWin:
+  type: Implementation
+  implementation-of:
+  - Apple II
+  implementation-type: emulator
+  prebuilt-for-platforms:
+  - Windows
+  links:
+  - 'http://applewin.berlios.de/'
+  license: GPL
+  host-language: C++
 
 
 Commodore 64:
@@ -94,6 +124,18 @@ Commodore 64:
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
+
+Commodore BASIC 2.0:
+  # should we consider 2.0 to be just a language version?
+  type: Programming Language
+  genre: Production language
+  member-of: BASIC
+  paradigms:
+  - Imperative
+  computational-class: believed Turing-complete
+  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
+  development-stage: vintage
+  authors: []
 
 VICE:
   type: Implementation
@@ -114,17 +156,6 @@ VICE:
     the VICE distribution actually contains emulators for many
     Commodore computers: Commodore 64, Commodore 128, Vic 20, PET, etc,
 
-Commodore BASIC 2.0:
-  # should we consider 2.0 to be just a language version?
-  type: Programming Language
-  genre: Production language
-  member-of: BASIC
-  paradigms:
-  - Imperative
-  computational-class: believed Turing-complete
-  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
-  development-stage: vintage
-  authors: []
 
 Commodore VIC-20:
   type: Platform
@@ -133,27 +164,6 @@ Commodore VIC-20:
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
-
-
-Amiga 500:
-  type: Platform
-  # for now...
-  no-specification: true
-  # vintage yet? lessee, 2012-1992=20 years... well, close, but isn't
-  # the line drawn at 25 years?
-  development-stage: mature
-  native-language: 68000 machine code
-  other-languages: []
-
-68000 machine code:
-  type: Programming Language
-  genre: Machine language
-  paradigms:
-  - Imperative
-  computational-class: Finite-automata-complete
-  no-specification: true
-  development-stage: mature
-  authors: []
 
 
 IBM PC compatible:
@@ -177,6 +187,9 @@ IBM PC compatible:
   - title: RBIL
     description: Ralf Brown's Interrupt List
     url: http://www.cs.cmu.edu/afs/cs/user/ralf/pub/WWW/files.html
+  - title: Keyboard Scancodes
+    description: Raw codes generated by PC keyboards
+    url: http://www.win.tue.nl/~aeb/linux/kbd/scancodes.html
 
 x86 machine code:
   type: Programming Language
@@ -208,13 +221,16 @@ Z80 machine code:
   paradigms:
   - Imperative
   computational-class: Finite-automata-complete
-  no-specification: true
+  specification-link: 'http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf'
   development-stage: vintage
   authors: []
   references:
   - title: Home of the Z80 CPU
     description: Lots of useful Z80 information, plus a clock circuit
     url: http://www.z80.info/
+  - title: TI-85 Assembler Programming
+    description: Z80 tutorial for the TI-85 calculator
+    url: http://www.sealiesoftware.com/ti-asm/
 
 
 native code:
@@ -231,6 +247,8 @@ native code:
     you have.)
 
 
+## game stuff ##
+
 Arcade:
   type: Platform
   no-specification: true
@@ -242,11 +260,11 @@ Arcade:
     This node is a stand-in for the implementation platform for
     any coin-op arcade game, for now.
 
-Sony PlayStation:
+Atari 2600 VCS:
   type: Platform
   no-specification: true
-  development-stage: mature
-  native-language: native code
+  development-stage: vintage
+  native-language: 6502 machine code
   other-languages: []
 
 Nintendo GameCube:
@@ -256,11 +274,11 @@ Nintendo GameCube:
   native-language: native code
   other-languages: []
 
-Atari 2600 VCS:
+Sony PlayStation:
   type: Platform
   no-specification: true
-  development-stage: vintage
-  native-language: 6502 machine code
+  development-stage: mature
+  native-language: native code
   other-languages: []
 
 Z-Machine:
