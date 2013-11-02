@@ -9,6 +9,9 @@ Amiga 500:
   development-stage: vintage
   native-language: 68000 machine code
   other-languages: []
+  wikipedia: Amiga_500
+  description: |
+    A home computer of old.  You may have heard of it?
 
 68000 machine code:
   type: Programming Language
@@ -43,6 +46,8 @@ Apple II:
   links:
   - 'http://www.zophar.net/apple2.html'
   wikipedia: Apple_II
+  description: |
+    A home computer of old.  You may have heard of it?
   commentary: |
     [[Cat's Eye Technologies]]' Applesoft BASIC offerings
     assume that they will be running on an Apple ][+, but
@@ -124,6 +129,8 @@ Commodore 64:
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
+  description: |
+    A home computer of old.  You may have heard of it?
 
 Commodore BASIC 2.0:
   # should we consider 2.0 to be just a language version?
@@ -164,6 +171,8 @@ Commodore VIC-20:
   native-language: 6502 machine code
   other-languages:
   - Commodore BASIC 2.0
+  description: |
+    A home computer of old.  You may have heard of it?
 
 
 IBM PC compatible:
@@ -225,6 +234,8 @@ Z80 machine code:
   specification-link: 'http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf'
   development-stage: vintage
   authors: []
+  description: |
+    A central processing unit of old.  You may have heard of it?
   references:
   - title: Home of the Z80 CPU
     description: Lots of useful Z80 information, plus a clock circuit

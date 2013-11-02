@@ -62,6 +62,8 @@ Mildred:
   - 'https://raw.github.com/catseye/Electronics-Projects/master/mildred/doc/mildred_photo.jpg'
   development-stage: not fully complete
   constructed: true
+  # close only counts in horseshoes, handgrenades, and Chrysoberyl
+  host-platform: Z80 machine code
 
 Mildred distribution: 
   type: Distribution

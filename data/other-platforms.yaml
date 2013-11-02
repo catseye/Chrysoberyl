@@ -130,6 +130,8 @@ MS-DOS:
   native-language: x86 machine code
   other-languages:
   - MS-DOS Batchfile
+  description: |
+    An operating system of old; you may have heard of it?
   commentary: |
     I think the only thing of mine that requires MS-DOS anymore is
     [[Shelta]]; and even then, it might rely only on the BIOS interface,

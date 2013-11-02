@@ -30,6 +30,7 @@ Amiga Gondola:
   in-distribution: Amiga Gondola distribution
   license: Public Domain
   host-language: Bourne shell
+  target-platform: Amiga 500
 
 Amiga Gondola distribution: 
   type: Distribution
