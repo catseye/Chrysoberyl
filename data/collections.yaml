@@ -145,3 +145,9 @@ Retrocomputing:
   description: |
     Stuff done at Cat's Eye Technologies on older computers, or most
     often rather an emulation of one on a modern computer.
+
+Implementation Languages:
+  type: Collection
+  description: |
+    Just some of the [[Programming Language|programming language]]s we use at
+    Cat's Eye Technologies to build stuff in.

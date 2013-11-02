@@ -10,7 +10,9 @@
     {% for plat_key in plat_list %}
       <div class="span4">
         <h2>{{ link(plat_key) }}</h2>
-        {{ md2html(data[plat_key].description) }}
+        {% if data[plat_key].description %}
+          {{ md2html(data[plat_key].description) }}
+        {% endif %}
         <ul>
         {% for thing in data|sort %}
           {% if (data[thing].platform == plat_key or

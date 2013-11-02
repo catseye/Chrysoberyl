@@ -14,6 +14,9 @@ ANSI C:
   - title: ANSI C docs
     description: Interesting documents about the standardization of C
     url: http://www.lysator.liu.se/c/
+  description: |
+    ANSI C is a systems-programming language, and one of the first
+    programming languages to become really popular.
   commentary: |
     When an implementation here says it requires ANSI C, it (in theory)
     means that the source files in it conform to C89 (also,
@@ -58,6 +61,23 @@ ANSI C:
   - url: http://sdcc.sourceforge.net/
     title: SDCC
     description: Small Device C Compiler
+
+Assembly:
+  type: Programming Language Family
+  # close, but "Beginner language" might be better
+  genre: Production language
+  authors: []
+  development-stage: vintage
+  no-specification: true
+  description: |
+    Refers to many kind of languages which compile ("assemble") to
+    [[native code]].  Assembler syntax often has the property that
+    it is not too hard to write a program in assembly to parse it,
+    for bootstrapping purposes.
+  commentary: |
+    In Chrysoberyl, languages are considered part of the "assembly
+    language family" even if they just "feel" more or less like
+    an assembly language, but this is pretty subjective.
 
 BASIC:
   type: Programming Language Family
@@ -309,6 +329,10 @@ Erlang:
   - title: Open Source Erlang/OTP
     description: Ericsson's official distribution site
     url: http://www.erlang.org/
+  description: |
+    Erlang is a single-assignment functional programming language with
+    pattern matching.  It is almost entirely pure, save for the fact that
+    lightweight Erlang processes can exchange messages with each other.
   commentary: |
     Note that compiled Erlang modules are `.beam` files in the `ebin`
     directory. The source code lives in the `src` directory, and an Erlang
@@ -482,8 +506,7 @@ Javascript:
   authors: []
   description: |
     Javascript (also and more properly known as ECMAScript) is a
-    [[Programming Language|programming language]] that is implemented
-    primarily in web browsers
+    programming language that is implemented primarily in web browsers
     in order to let scripts control the dynamic behaviour of a web page,
     such as what happens when the user clicks on some region of text.
   commentary: |
@@ -666,7 +689,7 @@ MSIL:
   genre: Production language
   paradigms:
   - Imperative
-  - Assembly
+  member-of: Assembly
   generally-compiled: true
   computational-class: unknown computational class
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
@@ -696,6 +719,11 @@ Perl:
   standards-body: http://www.perl.org/
   development-stage: mature
   authors: []
+  description: |
+    Perl is a scripting language which borrows much of its syntax from
+    command-line interfaces such as the [[Bourne shell]].  It was one of
+    the first programming languages to become really popular for backend
+    web development.
   commentary: |
     Perl is what happens when you play [[Katamari Damacy]]
     with the Unix toolchain.
@@ -1131,7 +1159,7 @@ Ophis Assembler:
   genre: Production language
   paradigms:
   - Imperative
-  - Assembly
+  member-of: Assembly
   generally-compiled: true
   computational-class: Finite-automata-complete
   development-stage: mature
@@ -1170,7 +1198,7 @@ NASM Assembler:
   genre: Production language
   paradigms:
   - Imperative
-  - Assembly
+  member-of: Assembly
   generally-compiled: true
   computational-class: Finite-automata-complete
   standards-body: http://nasm.us/

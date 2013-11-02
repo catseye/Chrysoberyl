@@ -1676,9 +1676,9 @@ Kelxquoia:
 Larabee:
   type: Programming Language
   genre: Esolang
+  member-of: Assembly
   paradigms:
   - Imperative
-  - Assembly
   description: |
     Larabee is an assembly-like programming language, with [[Scheme]]-like
     syntax, that borrows the notion of branch prediction from computer architecture
@@ -2492,10 +2492,10 @@ SAWBONES:
 SMITH:
   type: Programming Language
   genre: Esolang
+  member-of: Assembly
   paradigms:
   - Imperative
   - Self-modifying
-  - Assembly
   esowiki: SMITH
   acronym-for: Self-Modifying Indecent Turing Hack
   summary: An assembly-like language with no jumps whatsoever
@@ -3213,7 +3213,7 @@ ZOWIE:
   paradigms:
   - Imperative
   - Memory-mapped
-  - Assembly
+  member-of: Assembly
   description: |
     ZOWIE is a machine-like language in which all operations *including
     structured control flow* are memory-mapped.  Control flow is structured in

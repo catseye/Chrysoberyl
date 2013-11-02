@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for lang_list in [
+      ['Python', 'Perl', 'Java'],
+      ['ANSI C', 'Haskell', 'Erlang'],
+      ['Javascript', 'Ruby', 'Lua'],
+      ['Scheme', 'Assembly', 'BASIC'],
+    ] %}
+  <div class="row-fluid">
+    {% for lang_key in lang_list %}
+      <div class="span4">
+        <h2>{{ link(lang_key) }}</h2>
+        {% if data[lang_key].description %}
+          {{ md2html(data[lang_key].description) }}
+        {% endif %}
+        {% if data[lang_key].type == 'Programming Language Family' %}
+          <ul>
+            {% for spec_lang_key in related('member-of', key=lang_key)|sort %}
+              {% for impl in related('host-language', key=spec_lang_key)|sort %}
+                {% if 'Chris Pressey' in data[impl].authors and
+                      data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+                  <li>{{ link(impl) }}</li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        {% else %}
+          <ul>
+            {% for impl in related('host-language', key=lang_key)|sort %}
+              {% if 'Chris Pressey' in data[impl].authors and
+                    data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+                <li>{{ link(impl) }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+{% endblock content %}

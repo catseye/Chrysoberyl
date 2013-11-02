@@ -75,11 +75,6 @@ Aspect-oriented programming:
     finding ways to improve this situation is *supposed* to be their job.
 Algebraic:
   type: Programming Paradigm
-Assembly:
-  type: Programming Paradigm
-  commentary: |
-    Languages here are labelled with this paradigm even if they just
-    "feel" more or less like an assembly language, but this is pretty subjective.
 Bully automaton:
   type: Programming Paradigm
 Cellular automaton:

@@ -40,8 +40,8 @@ Deturgenchry distribution:
 Kosheri:
   type: Programming Language
   genre: Production language
+  member-of: Assembly
   paradigms:
-  - Assembly
   - Imperative
   description: |
     Kosheri is a virtual machine design that rose from the ashes
