@@ -4,6 +4,12 @@
   <meta name="description" content="An online gallery of interactive exhibits at Cat's Eye Technologies.">
 {% endblock extra_head %}
 
+{% block heading %}
+  <hgroup id="heading">
+    <h1>Online Gallery</h1>
+  </hgroup>
+{% endblock %}
+
 {% block description %}
   {{ md2html(description) }}
 {% endblock %}
@@ -22,9 +28,13 @@
 
     {% for thing in related('type')|sort -%}
       {% if data[thing].exhibit == 'Esolangs Exhibit' %}
-        <h3>{{ link(thing) }}</h3>
-        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
-        {% if data[thing].description %}
+        <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
+        {% if data[thing].medium != "HTML5" %}
+          <p><i>{{ data[thing].medium }}</i></p>
+        {% endif %}
+        {% if data[thing].summary %}
+          {{ md2html(data[thing].summary) }}
+        {% elif data[thing].description %}
           {{ md2html(data[thing].description) }}
         {% endif %}
       {% endif %}
@@ -39,9 +49,13 @@
 
     {% for thing in related('type')|sort -%}
       {% if data[thing].exhibit == 'Computer Games Exhibit' %}
-        <h3>{{ link(thing) }}</h3>
-        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
-        {% if data[thing].description %}
+        <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
+        {% if data[thing].medium != "HTML5" %}
+          <p><i>{{ data[thing].medium }}</i></p>
+        {% endif %}
+        {% if data[thing].summary %}
+          {{ md2html(data[thing].summary) }}
+        {% elif data[thing].description %}
           {{ md2html(data[thing].description) }}
         {% endif %}
       {% endif %}
@@ -58,10 +72,14 @@
 
     {% for thing in related('type')|sort -%}
       {% if data[thing].exhibit == 'Digital Art Exhibit' %}
-        <h3>{{ link(thing) }}</h3>
-        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+        <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
+        {% if data[thing].medium != "HTML5" %}
+          <p><i>{{ data[thing].medium }}</i></p>
+        {% endif %}
         {% if data[thing].summary %}
           {{ md2html(data[thing].summary) }}
+        {% elif data[thing].description %}
+          {{ md2html(data[thing].description) }}
         {% endif %}
       {% endif %}
     {% endfor %}

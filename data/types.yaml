@@ -17,8 +17,9 @@ Online Installation:
   type: type
   description: |
     Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
-    exhibition of works made available online, in your web browser, implemented
-    as [[Java]]™ applets, or in [[HTML5]] with [[Javascript]].  **Note:**
+    exhibition of works made available online.  All are composed in
+    [[HTML5]] with [[Javascript]], except where noted (some are implemented
+    as [[Java]]™ applets instead.)  **Note:**
     to conserve page space, many of the installations have a button in the
     upper-right that you can click for more information about that work.
     Look for it.
