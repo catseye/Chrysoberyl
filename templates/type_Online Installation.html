@@ -10,12 +10,43 @@
 
 {% block content %}
 
-{% for thing in related('type')|sort -%}
-  <h3>{{ link(thing) }}</h3>
-  <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
-  {% if data[thing].description %}
-    {{ md2html(data[thing].description) }}
-  {% endif %}
-{% endfor %}
+<div class="row-fluid">
+  <div class="span4">
+    <h2>Gewgaws</h2>
+    {% for thing in related('type')|sort -%}
+      {% if data[thing].exhibit == 'Digital Art Exhibit' %}
+        <h3>{{ link(thing) }}</h3>
+        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+        {% if data[thing].description %}
+          {{ md2html(data[thing].description) }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="span4">
+    <h2>Esolangs</h2>
+    {% for thing in related('type')|sort -%}
+      {% if data[thing].exhibit == 'Esolangs Exhibit' %}
+        <h3>{{ link(thing) }}</h3>
+        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+        {% if data[thing].description %}
+          {{ md2html(data[thing].description) }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="span4">
+    <h2>Games</h2>
+    {% for thing in related('type')|sort -%}
+      {% if data[thing].exhibit == 'Computer Games Exhibit' %}
+        <h3>{{ link(thing) }}</h3>
+        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+        {% if data[thing].description %}
+          {{ md2html(data[thing].description) }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
 {% endblock content %}
