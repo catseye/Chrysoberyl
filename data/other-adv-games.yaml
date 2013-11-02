@@ -105,7 +105,7 @@ The Secret of St. Bride's:
 Dungeon (MIT):
   type: Game
   genre: Text Adventure
-  platform: Amiga 500
+  platform: POSIX
   authors: []
   no-specification: true
   development-stage: mature
@@ -116,3 +116,7 @@ Dungeon (MIT):
     the time, and foisted it on a general audience when it was repackaged as the Zork
     trilogy.  I have actually solved most of the main game, but never got to a point where
     I can start the endgame.
+    
+    I've listed its platform as "POSIX" in Chrysoberyl, although of course the
+    actual situation is far more complicated.  I first played it on an
+    [[Amiga 500]].

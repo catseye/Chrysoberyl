@@ -30,6 +30,8 @@ Typhoon Thompson:
     > Each kind of enemy has moves it can make, and the player has his
     > moves, but things never happen the same way twice. It's not high
     > concept in the way that "Choplifter" is, but rather a kind of art piece.
+
+
 Pepper II:
   type: Game
   genre: Maze-Runner
@@ -208,8 +210,7 @@ Ultimate Wizard:
 Llamatron:
   type: Game
   genre: Shoot-'em-Up
-  # actually, Amiga; but I only ever played it on a PC; apparently this is ersatz
-  platform: MS-DOS
+  platform: Amiga 500
   controls: joystick and 1 button
   authors:
   - Jeff Minter
@@ -220,6 +221,11 @@ Llamatron:
     Fast-paced, psychedaelic, mindless fun, like most Jeff Minter games.
     Basically a clone of the arcade game Robotron, but with shaggy, smelly
     quadrupeds.  And cans of Coke.  And Mandelbrot sets...
+    
+    Llamatron was written for the Amiga 500, but I only ever played a
+    version for the [[IBM PC compatible]], and apparently this an erstaz
+    version, although I do not recall where I read that.
+
 
 
 Fall Down:
@@ -246,7 +252,7 @@ Fall Down:
 
 #~ <!--
   #~ Paradroid
-  #~ Stunts
+  #~ Stunts +1
   #~ Street Surfer
   #~ Dynamite Dan
   #~ StarQuake

@@ -178,8 +178,9 @@ IBM PC compatible:
     A project that requires this assumes that it will be running on a fairly standard
     x86-based (IA-32) computer architecture, from the lineage that dates
     back to those old IBM PC's. Probably a 486 with a BIOS, keyboard, and
-    basic VGA is the minimum to make it worthwhile. While most modern PC's
-    can handle that reasonably well, often a better choice — because it can
+    basic VGA is the minimum to make it worthwhile.  Some modern PC's
+    can handle running that sort of legacy setup, and others don't.
+    Often, a better choice — because it can
     run under a modern OS, rather than actually dedicating the entire
     computer to it — is to run such things under an emulator. In which case,
     we recommend [[Bochs]].
