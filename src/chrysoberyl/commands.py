@@ -49,13 +49,14 @@ def bitbucket_repos(data):
 
 def filterdocs(data, options):
     """Kind of a stopgap measure for now..."""
-    docs = load_docs('docs.yaml')
+    filename = os.path.join(options.docs_dir, 'docs.yaml')
+    docs = load_docs(filename)
     new_docs = {}
     for (key, user, repo) in bitbucket_repos(data):
         doc_key = "bitbucket.org/%s/%s" % (user, repo)
         if doc_key in docs:
             new_docs[key] = sorted(docs[doc_key])
-    save_docs('docs.yaml', new_docs)
+    save_docs(filename, new_docs)
 
 
 def render(data, options):
@@ -65,7 +66,7 @@ def render(data, options):
     convert_chrysoberyl_data(data)
     r = Renderer(data,
         options.template_dirs, options.node_dir, options.clone_dir,
-        options.sleek_node_links
+        options.sleek_node_links, os.path.join(options.docs_dir, 'docs.yaml')
     )
     r.render_chrysoberyl_data()
 
@@ -136,6 +137,10 @@ def perform(args):
                          help="colon-separated list of directories "
                               "containing Chrysoberyl Yaml data files "
                               "(default: %default)")
+    optparser.add_option("--docs-dir",
+                         dest="docs_dir", metavar='DIR', default='.',
+                         help="location in which to find toolshelf-generated "
+                              "docs.yaml file (default: %default)")
     optparser.add_option("--feed-dir",
                          dest="feed_dir", metavar='DIR',
                          default='../catseye.tc/feeds',

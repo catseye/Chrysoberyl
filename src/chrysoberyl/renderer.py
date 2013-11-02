@@ -44,13 +44,14 @@ class Renderer(object):
 
     """
     def __init__(self, data, template_dirs, output_dir, clone_dir,
-                 sleek_node_links):
+                 sleek_node_links, docs_filename):
         self.data = data
         self.template_dirs = template_dirs.split(':')
         self.output_dir = output_dir
         self.clone_dir = clone_dir
         self.sleek_node_links = sleek_node_links
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
+        self.docs_filename = docs_filename
 
     def render(self, template, output_filename, context):
         """Low-level method to render a given template."""
@@ -231,7 +232,7 @@ class Renderer(object):
             """Return a list of documentation file names for the given key."""
             global DOCUMENTATION
             if DOCUMENTATION is None:
-                DOCUMENTATION = load_docs('docs.yaml')
+                DOCUMENTATION = load_docs(self.docs_filename)
             return sorted(DOCUMENTATION.get(key, []))
 
         @expose
