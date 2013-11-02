@@ -12,19 +12,14 @@
 
 <div class="row-fluid">
   <div class="span4">
-    <h2>Gewgaws</h2>
-    {% for thing in related('type')|sort -%}
-      {% if data[thing].exhibit == 'Digital Art Exhibit' %}
-        <h3>{{ link(thing) }}</h3>
-        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
-        {% if data[thing].description %}
-          {{ md2html(data[thing].description) }}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  </div>
-  <div class="span4">
     <h2>Esolangs</h2>
+
+    {{ md2html("[[Esolang|Esoteric programming languages]] with which you
+    can experiment.  By selecting sample
+    programs and watching them run, you can gain an appreciation of how the
+    esolang computes stuff; by composing your own programs, you can gain an
+    even better appreciation.") }}
+
     {% for thing in related('type')|sort -%}
       {% if data[thing].exhibit == 'Esolangs Exhibit' %}
         <h3>{{ link(thing) }}</h3>
@@ -37,12 +32,36 @@
   </div>
   <div class="span4">
     <h2>Games</h2>
+
+    {{ md2html("[[Game]]s which you can play online.  Some games are for
+    the [[Commodore 64]], and these ones are web-enabled by the
+    [[JaC64]] Java™ applet.") }}
+
     {% for thing in related('type')|sort -%}
       {% if data[thing].exhibit == 'Computer Games Exhibit' %}
         <h3>{{ link(thing) }}</h3>
         <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
         {% if data[thing].description %}
           {{ md2html(data[thing].description) }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="span4">
+    <h2>Gewgaws</h2>
+
+    {{ md2html("Digital art (audiovisual, animated, interactive, or otherwise) which you
+    can experience online.  (That's not to say that
+    [[Programming Languages as an Artistic Medium|esolangs]] and
+    [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
+    aren't art *too*, of course.)") }}
+
+    {% for thing in related('type')|sort -%}
+      {% if data[thing].exhibit == 'Digital Art Exhibit' %}
+        <h3>{{ link(thing) }}</h3>
+        <p><i>{{ data[thing].medium }}</i> in the <i>{{ data[thing].exhibit }}</i></p>
+        {% if data[thing].summary %}
+          {{ md2html(data[thing].summary) }}
         {% endif %}
       {% endif %}
     {% endfor %}

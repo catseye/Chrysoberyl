@@ -18,24 +18,10 @@ Online Installation:
   description: |
     Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
     exhibition of works made available online, in your web browser, implemented
-    as [[Java]]™ applets, or in [[HTML5]] with [[Javascript]].  The works fall
-    into three main exhibits:
-    
-    *   [[Esolang|Esoteric programming languages]] with which you can experiment.
-        By selecting sample
-        programs and watching them run, you can gain an appreciation of how the
-        esolang computes stuff; by composing your own programs, you can gain an
-        even better appreciation.
-    *   [[Game|Computer games]] which you can play.  Some games are for the
-        [[Commodore 64]], and these are web-enabled by the [[JaC64]] Java™ applet.
-    *   Digital art (audiovisual, animated, interactive, or otherwise) which you
-        can experience online.  (That's not to say that
-        [[Programming Languages as an Artistic Medium|esolangs]] and
-        [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
-        aren't art *too*, of course.)
-    
-    To conserve page space, many of the installations have a button in the
+    as [[Java]]™ applets, or in [[HTML5]] with [[Javascript]].  **Note:**
+    to conserve page space, many of the installations have a button in the
     upper-right that you can click for more information about that work.
+    Look for it.
   references:
   - url: http://hazelcough.zxq.net/divart.html
     title: Div Art!

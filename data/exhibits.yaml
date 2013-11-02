@@ -171,6 +171,9 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    This is an animated version of the "non-random walk" on p. 72 of
+    [[Mathematical Circus]] by [[Martin Gardner]].
   instructions: |
     Pick a card, any card.  Half are red, half are black.  Each time a
     card is picked, the wheel moves.  The distance moved is always
@@ -194,6 +197,9 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
+    lava lamp?
   description: |
     "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
     lava lamp?
@@ -218,6 +224,8 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    An in-browser implementation of [[Cyclobots]].
   description: |
     An in-browser implementation of [[Cyclobots]].
     Each "cyclobot" tries to follow exactly one other cyclobot, adjusting
@@ -234,6 +242,9 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    A simple interactive HTML5 entertainment, intended to be experienced
+    on a touchscreen device.
   description: |
     A simple interactive HTML5 entertainment, intended to be experienced
     on a touchscreen device.
@@ -251,6 +262,8 @@
   interactive: false
   animated: true
   medium: HTML5
+  summary: |
+    A somewhat eerie computed animation.
   description: |
     A somewhat eerie computed animation.
   instructions: |
@@ -267,6 +280,8 @@
   instructions: |
     It is primarily meant to just be watched, but you may find it entertaining
     to try clicking on the entities.
+  summary: |
+    An animated "plate" depicting a proto-cohort of *Heronsis hermnonicii*.
   description: |
     An animated "plate" depicting a proto-cohort of *Heronsis hermnonicii*.
   commentary: |
@@ -289,6 +304,12 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    "Hypongtrochoid" is a portmanteau of
+    [hypotrochoid](http://en.wikipedia.org/wiki/Hypotrochoid)
+    (as popularized by [Spirograph](http://en.wikipedia.org/wiki/Spirograph))
+    and [Pong](http://en.wikipedia.org/wiki/Pong)
+    (as popularized by, well, Pong.)
   description: |
     "Hypongtrochoid" is a portmanteau of
     [hypotrochoid](http://en.wikipedia.org/wiki/Hypotrochoid)
@@ -305,6 +326,8 @@
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    Animated op art: an interactive bleeding of colours.
   description: |
     Each frame, the colour of each cell is chosen randomly from the set
     {cyan, magenta, yellow, white}.  The probability of each of the
@@ -323,6 +346,8 @@
   interactive: false
   animated: true
   medium: Java applet
+  summary: |
+    Conceptual art: A Java applet that you and your friends can own!
   description: |
     Conceptual art: A Java applet that you and your friends can own!
 
@@ -332,6 +357,8 @@
   interactive: false
   animated: true
   medium: HTML5
+  summary: |
+    An animated impressionistic depiction of the prairies.
   description: |
     An animated impressionistic depiction of the prairies.
   commentary: |
@@ -346,6 +373,8 @@
   interactive: false
   animated: true
   medium: HTML5
+  summary: |
+    Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
   description: |
     Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
   commentary: |
@@ -366,6 +395,9 @@
     Note 1. Green things can be dragged.  
     Note 2. Due to technical limitations, things cannot be dragged off
     of the computer screen.
+  summary: |
+    An interactive exploration of the concept of The Frame in art,
+    based on **words** and **'do** by [[Frank Zappa]].
   description: |
     An interactive exploration of the concept of The Frame in art,
     based on **words** and **'do** by [[Frank Zappa]].
