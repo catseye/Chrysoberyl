@@ -1,5 +1,18 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+  {% if article_type != "announcement" %}
+    <style>
+#summary {
+    padding-left: 1em;
+}
+#description {
+    padding-left: 1em;
+}
+    </style>
+  {% endif %}
+{% endblock extra_head %}
+
 {# so we're using this more like a dateline than a byline #}
 {% block byline %}
   <p id="byline">
@@ -18,12 +31,15 @@
   {# TODO: maybe some article nav somewhere too.  footer? #}
 {% endblock byline %}
 
-{# kind of an abuse of mainstage.  oh well #}
-{% block mainstage %}
-  {% if summary %}
-    {{ md2html(summary) }}
-  {% endif %}
-{% endblock %}
+{# not ideal, but summary is used in slightly different ways on
+   different nodes, so this will do for now #}
+{% block summary %}
+  {%- if summary -%}
+    <section id="summary">
+      {{- md2html(summary) -}}
+    </section>
+  {%- endif -%}
+{% endblock summary %}
 
 {% block content %}
   {% if news_link %}

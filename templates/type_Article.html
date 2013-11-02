@@ -6,12 +6,20 @@
   </hgroup>
 {% endblock %}
 
+{% block description %}
+  <section id="description">
+    {%- if description -%}
+      {{- md2html(description) -}}
+    {%- endif -%}
+  </section>
+{% endblock description %}
+
 {% block content %}
 
 <ul>
 {%- for thing in articles() -%}
   <li>
-      {{ strftime(data[thing].publication_date, "%A, %B %d, %Y") }}: {{ link(thing) }}
+    <b>{{ link(thing) }}</b> ({{ strftime(data[thing].publication_date, "%B %d, %Y") }})
   </li>
 {%- endfor -%}
 </ul>

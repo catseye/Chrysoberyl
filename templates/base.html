@@ -58,6 +58,7 @@
       {%- if description and images -%}
         <div class="row-fluid">
           <div class="span8">
+            {%- block summary -%}{%- endblock summary -%}
             <section id="description">
               {{ md2html(description) }}
             </section>
