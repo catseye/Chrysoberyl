@@ -15,4 +15,21 @@
   </ul>
 {% endif %}
 
+{% if related('platform') or related('host-platform') %}
+  <h2>Known Things for this Platform</h2>
+  
+  <ul>
+  {% for thing in related('platform')|sort %} {# games, generally ... #}
+    <li>
+      {{ link(thing) }}
+    </li>
+  {% endfor %}
+  {% for thing in related('host-platform')|sort %} {# implementations, generally ... #}
+    <li>
+      {{ link(thing) }}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
 {% endblock implementable_content %}
