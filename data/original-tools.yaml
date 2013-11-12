@@ -37,7 +37,10 @@ Amiga Gondola distribution:
   bitbucket: catseye/amiga-gondola
   github: catseye/Amiga-Gondola
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "2013.1111"
+    url: http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip
 
 
 'Console::Virtual':

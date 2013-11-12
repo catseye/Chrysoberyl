@@ -1,4 +1,40 @@
 # encoding: UTF-8
+'Presenting Amiga Gondola':
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 12 Nov 2013 15:58:08 GMT
+  blurb: |
+    [[Amiga Gondola]] sets up a development environment for
+    AmigaDOS 1.3 in E-UAE.
+  description: |
+    This year — about two months ago, to be more exact — marked
+    the 20th anniversary of [[Befunge-93]].  How to commemorate
+    this historic occasion?  
+    
+    Well, one way would be to design its twenty-year successor,
+    "Befunge-113".  But that's just _typical_, y'know?  Besides,
+    I doubt there's much left to be done with Befunge besides
+    suck all the fun out of it by defining it more formally.
+    At any rate, I don't think any Befunge-113 I could come up
+    with at the moment would make very many people happy, so:
+    proposal declined.
+    
+    A better idea: make it easier to re-create the development
+    environment in which Befunge-93 was originally developed.
+    Namely, [[AmigaDOS 1.3]] on an [[Amiga 500]].
+    
+    So, that's what we did, and the result is [[Amiga Gondola]],
+    a set of shell scripts which, given an [[E-UAE]] emulator,
+    images of the Workbench and Extras disks, and access to
+    Aminet, put together an environment which, while not being
+    a totally authentic copy of the environment I was using
+    twenty years ago, is a perfectly cromulent development
+    environment for AmigaDOS 1.3.
+    
+    More information about Amiga Gondola and some nice screenshots
+    can be found in its
+    [README](https://github.com/catseye/Amiga-Gondola/blob/master/README.markdown).
+
 'Release of Falderal version 0.9 "Navy Pier"':
   type: Article
   article-type: announcement
