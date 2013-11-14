@@ -104,182 +104,181 @@ Chris Pressey:
     * pretty much anything I've implemented Deadfish in
     
     http://www.amazon.com/gp/registry/wishlist/1FDWC4EXHC59
+
+    Stuff I Typically Install
+    -------------------------
     
-    7-zip (windows)
-    bochs
-    colordiff
-    cutepdf (windows)
-    cygwin (windows)
-    dia
-    dosbox
-    drscheme/mzscheme
-    erlang/otp
-    filezilla (windows)
-    frotz
-    gimp
-    ghc6
-    hugs
-    inform
-    java6
-    lnks
-    nano
-    nasm
-    openoffice.org
-    patch
-    pidgin
-    putty (windows)
-    python
-    ruby
-    scite
-    screen
-    stella
-    subversion
-    tree
-    vice
-    winamp (windows)
-    winscp (windows)
-    zangband
+    ### Linux ###
+
+    Utilities:
     
-    Windows
-            Firefox
-            + Web Developer
-            + Firebug
-            + Greasemonkey
-            + (header spoofers)
-            Cygwin
-    ...	Erlang for Windows
-    ...	Racket for Windows
-    ...	WinVICE
-    ...	WinUAE
-    ...	FileZilla
-    ...     SciTE
-    ...     PuTTY
-    ...     WinSCP
-    ...     GIMP for Windows
-    ...     Haskell Platform
-    ...     WinHugs
-    ...     7-Zip
-    ...     DOSBox
-    ...     Bochs
-    ...     uTorrent
-    ...     Adobe Flash Player
-    ...     Adobe Reader
-    ...     Finestra Virual Desktops (2.1, not 2.5)
-    ...     GPG4Win
-    ...     Java SE SDK
-    ...     Microsoft .NET Framework 3.5 / 4.x
-    ...     Pidgin
-    ...     OpenOffice.org
-    ...     VLC Media Player
+    *   colordiff
+    *   git
+    *   irssi
+    *   links
+    *   meld
+    *   mercurial
+    *   nano
+    *   nmap (for ncat)
+    *   patch
+    *   realpath
+    *   rlwrap
+    *   rsync
+    *   screen
+    *   tree
+
+    Emulators:
+
+    *   dosbox
+    *   e-uae
+    *   frotz
+    *   qemu and/or bochs
+    *   stella
+    *   vice
     
-    in cygwin:
-            arj
-            autoconf
-            automake
-            bison
-            bzip2
-            colordiff
-            coreutils
-            cvs
-            diffutils
-            file
-            findutils
-            flex
-            gawk
-            gcc
-            gcc-mingw
-            genisoimage
-            git (has problems w/http.  use ssh)
-            grep
-            gzip
-            irssi
-            less
-            libxml2
-            libxslt
-            links
-            m4
-            make
-            man
-            mercurial
-            nano
-            nasm
-            netcat
-            openssh
-            patch
-            pdftk
-            perl
-            psmisc
-            python
-            python-libxml2
-            python-libxslt
-            rlwrap
-            ruby
-            sed
-            subversion
-            tar
-            unzip
-            upx
-            util-linux
-            w32api
-            wget
-            which
-            xz
-            zip
-            zlib
-            zlib-devel
-            zlib0
-            zoo
-    from source on cygwin:
-            setuptools (for easy_install) http://peak.telecommunity.com/dist/ez_setup.py
+    Apps:
     
-    Linux
-            git
-            mercurial
+    *   dia
+    *   filezilla
+    *   firefox
+    *   gimp
+    *   inkscape
+    *   mplayer
+    *   openoffice.org
+    *   scite (for when tideay just won't do)
     
-            gcc
-            g++ (to build VICE at least)
-            ghc
-            erlang
-            openjdk-6-jdk (openjdk-7-jdk?)
-            php5-cli
-            fpc (on 10.10 this has a different name)
-            r-base
+    Languages:
     
-            racket (on 10.10 there's only plt-scheme) (for plt-r5rs for pixley)
-            tinyscheme (for pixley)
-            scheme48 (won't work as-is for pixley, interactive command line only?)
-            chicken (won't work as-is for pixley, compiler only?)
+    *   erlang/otp
+    *   fpc (on 10.10 this has a different name)
+    *   gcc
+    *   g++ (to build VICE at least)
+    *   ghc6
+    *   hugs
+    *   inform
+    *   nasm
+    *   openjdk-7-jdk
+    *   racket
+    *   php5-cli [under duress, surely? -Ed.]
+    *   python
+    *   r-base (because it's the language of the future)
+    *   ruby
+    *   xsltproc (libxml2) (but only when I've been drinking, obv.)
     
-            python-setuptools (for easy_install)
-            python-dev (for to build C parts of python pkgs)
-            cabal-install
+    Games:
     
-            bison (for pcc)
-            flex (for pcc)
-            libxaw7 (for VICE)
-            libgtk2.0-dev (for VICE)
-            libasound2-dev (for VICE)
+    *   xmahjongg
+    *   zangband
     
-            gimp
-            filezilla
+    Other:
     
-            tree
-            colordiff
-            meld
-            scite
-            rlwrap
-            realpath
-            nmap (for ncat)
-            screen
-            xsltproc  (libxml2)  (for grind)
+        racket (on 10.10 there's only plt-scheme) (for plt-r5rs for pixley)
+        tinyscheme (for pixley)
+        scheme48 (won't work as-is for pixley, interactive command line only?)
+        chicken (won't work as-is for pixley, compiler only?)
+        
+        python-setuptools (for easy_install)
+        python-dev (for to build C parts of python pkgs)
+        cabal-install
+        
+        bison (for pcc)
+        flex (for pcc)
+        libxaw7 (for VICE)
+        libgtk2.0-dev (for VICE)
+        libasound2-dev (for VICE)
     
-            mplayer
+    ### Windows ###
     
-            dosbox
-            bochs
-            e-uae (need to set this up)
-            frotz
-            stella
+    *   Firefox
+        *   Web Developer
+        *   Firebug
+        *   Greasemonkey
+        *   (header spoofers)
+    *   Cygwin
+        *   arj
+        *   autoconf
+        *   automake
+        *   bison
+        *   bzip2
+        *   colordiff
+        *   coreutils
+        *   cvs
+        *   diffutils
+        *   file
+        *   findutils
+        *   flex
+        *   gawk
+        *   gcc
+        *   gcc-mingw
+        *   genisoimage
+        *   git (has problems w/http.  use ssh)
+        *   grep
+        *   gzip
+        *   irssi
+        *   less
+        *   libxml2
+        *   libxslt
+        *   links
+        *   m4
+        *   make
+        *   man
+        *   mercurial
+        *   nano
+        *   nasm
+        *   netcat
+        *   openssh
+        *   patch
+        *   pdftk
+        *   perl
+        *   psmisc
+        *   python
+        *   python-libxml2
+        *   python-libxslt
+        *   rlwrap
+        *   ruby
+        *   sed
+        *   subversion
+        *   tar
+        *   unzip
+        *   upx
+        *   util-linux
+        *   w32api
+        *   wget
+        *   which
+        *   xz
+        *   zip
+        *   zlib
+        *   zlib-devel
+        *   zlib0
+        *   zoo
+        *   from source on cygwin:
+            *   setuptools (for easy_install) http://peak.telecommunity.com/dist/ez_setup.py
+    *   Erlang for Windows
+    *   Racket for Windows
+    *   WinVICE
+    *   WinUAE
+    *   FileZilla
+    *   CutePDF
+    *   SciTE
+    *   PuTTY
+    *   WinSCP
+    *   GIMP for Windows
+    *   Haskell Platform
+    *   WinHugs
+    *   7-Zip
+    *   DOSBox
+    *   Bochs and/or VirtualBox
+    *   uTorrent
+    *   Adobe Flash Player
+    *   Adobe Reader
+    *   Finestra Virual Desktops (2.1, not 2.5)
+    *   GPG4Win
+    *   Java SE SDK
+    *   Microsoft .NET Framework 3.5 / 4.x
+    *   Pidgin
+    *   OpenOffice.org
+    *   VLC Media Player
+    *   WinAmp
     
     from cabal:
             [to install pkgs locally: cabal install --prefix=$HOME --user]
