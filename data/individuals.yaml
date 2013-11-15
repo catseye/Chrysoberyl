@@ -118,6 +118,7 @@ Chris Pressey:
     *   links
     *   meld
     *   mercurial
+        *   hg-git (needs dulwich, see below)
     *   nano
     *   nmap (for ncat)
     *   patch
@@ -134,7 +135,14 @@ Chris Pressey:
     *   frotz
     *   qemu and/or bochs
     *   stella
-    *   vice
+    *   vice (from source)
+        
+        `./configure --prefix=$HOME --enable-gnomeui`
+        
+        *   g++
+        *   libxaw7 (?? do i need this if it's gtk-enabled?
+        *   libgtk2.0-dev
+        *   libasound2-dev
     
     Apps:
     
@@ -152,15 +160,37 @@ Chris Pressey:
     *   erlang/otp
     *   fpc (on 10.10 this has a different name)
     *   gcc
-    *   g++ (to build VICE at least)
-    *   ghc6
+    *   ghc
+        *   cabal-install
+            
+            to install pkgs locally `cabal install --prefix=$HOME --user`
+            
+            *   hscurses (meh...)
+            *   pandoc
+            *   Parsec
     *   hugs
     *   inform
     *   nasm
     *   openjdk-7-jdk
+    *   pcc (from source)
+        *   bison
+        *   flex
     *   racket
     *   php5-cli [under duress, surely? -Ed.]
     *   python
+        *   python-dev (for to build C parts of python pkgs)
+        *   python-setuptools (for easy_install)
+            
+            to install pkgs locally: `easy_install --prefix=$HOME...`
+            but don't bother; try it to see the error message.
+            but then, there must be a way to do this.
+            but then, why not just treach toolshelf to do it.
+            
+            *   grin
+            *   dulwich (for hg-git, needs python-dev)
+            *   Markdown
+            *   PyYaml
+            *   Jinja2 (2.6)
     *   r-base (because it's the language of the future)
     *   ruby
     *   xsltproc (libxml2) (but only when I've been drinking, obv.)
@@ -170,30 +200,13 @@ Chris Pressey:
     *   xmahjongg
     *   zangband
     
-    Other:
-    
-        racket (on 10.10 there's only plt-scheme) (for plt-r5rs for pixley)
-        tinyscheme (for pixley)
-        scheme48 (won't work as-is for pixley, interactive command line only?)
-        chicken (won't work as-is for pixley, compiler only?)
-        
-        python-setuptools (for easy_install)
-        python-dev (for to build C parts of python pkgs)
-        cabal-install
-        
-        bison (for pcc)
-        flex (for pcc)
-        libxaw7 (for VICE)
-        libgtk2.0-dev (for VICE)
-        libasound2-dev (for VICE)
-    
     ### Windows ###
     
-    *   Firefox
-        *   Web Developer
-        *   Firebug
-        *   Greasemonkey
-        *   (header spoofers)
+    *   7-Zip
+    *   Adobe Flash Player
+    *   Adobe Reader
+    *   Bochs and/or VirtualBox
+    *   CutePDF
     *   Cygwin
         *   arj
         *   autoconf
@@ -253,57 +266,32 @@ Chris Pressey:
         *   zoo
         *   from source on cygwin:
             *   setuptools (for easy_install) http://peak.telecommunity.com/dist/ez_setup.py
-    *   Erlang for Windows
-    *   Racket for Windows
-    *   WinVICE
-    *   WinUAE
-    *   FileZilla
-    *   CutePDF
-    *   SciTE
-    *   PuTTY
-    *   WinSCP
-    *   GIMP for Windows
-    *   Haskell Platform
-    *   WinHugs
-    *   7-Zip
     *   DOSBox
-    *   Bochs and/or VirtualBox
-    *   uTorrent
-    *   Adobe Flash Player
-    *   Adobe Reader
-    *   Finestra Virual Desktops (2.1, not 2.5)
+    *   Erlang for Windows
+    *   FileZilla
+    *   Finestra Virual Desktops (2.1, not 2.5) (meh... there must be better out there for this, surely?)
+    *   Firefox
+        *   Web Developer
+        *   Firebug
+        *   Greasemonkey
+        *   (header spoofers)
+    *   GIMP for Windows
     *   GPG4Win
     *   Java SE SDK
+    *   Haskell Platform
     *   Microsoft .NET Framework 3.5 / 4.x
-    *   Pidgin
     *   OpenOffice.org
+    *   Pidgin
+    *   PuTTY
+    *   Racket for Windows
+    *   SciTE
     *   VLC Media Player
+    *   WinVICE
+    *   WinUAE
+    *   WinSCP
+    *   WinHugs
     *   WinAmp
-    
-    from cabal:
-            [to install pkgs locally: cabal install --prefix=$HOME --user]
-            hscurses
-            pandoc
-            Parsec
-    
-    from easy_install:
-            [to install pkgs locally: easy_install --prefix=$HOME...
-             but don't bother; try it to see the error message]
-    
-            grin
-            dulwich (for hg-git, needs python-dev)
-            Markdown
-            PyYaml
-            Jinja2 (2.6)
-    
-    from source:
-            chibi-scheme
-            pcc: requires bison, flex
-    
-            vice: requires g++, libxaw7; libgtk2.0-dev; libasound2-dev
-                    ./configure --prefix=$HOME --enable-gnomeui
-    
-            hg-git
+    *   uTorrent
 
   see-also:
   - Chris Pressey's Lingography
