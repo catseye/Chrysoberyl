@@ -118,21 +118,7 @@ Chris Pressey:
     
     Utilities: see toolshelf's fundaments.catalog
     
-    Emulators:
-
-    *   dosbox*
-    *   e-uae
-    *   frotz*
-    *   qemu* and/or bochs*
-    *   stella
-    *   vice* (from source)
-        
-        `./configure --prefix=$HOME --enable-gnomeui`
-        
-        *   g++
-        *   libxaw7 (?? do i need this if it's gtk-enabled?
-        *   libgtk2.0-dev
-        *   libasound2-dev
+    Emulators: see toolshelf's emulators.catalog
     
     Apps:
     
@@ -149,13 +135,14 @@ Chris Pressey:
     Languages:
     
     *   erlang/otp
-    *   fpc (on 10.10 this has a different name)
+    *   fpc (on 10.10 this has a different name) (depends on sdl 1.2)
     *   gcc
     *   ghc
         *   cabal-install
             
             to install pkgs locally `cabal install --prefix=$HOME --user`
             
+            *   fay fay-base (until I teach toolshelf about cabal...?)
             *   hscurses (meh...)
             *   pandoc
             *   Parsec
