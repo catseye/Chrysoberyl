@@ -152,7 +152,7 @@ MS-DOS:
         MS-DOS on top of it.  It should be plenty sufficient for running
         DOS-based software found here.
     *   For a more heavyweight solution, you could install [[FreeDOS]]
-        on a PC emulator such as [[Bochs]].
+        on a PC emulator such as [[QEMU]].
     
     All of the above software packages are [[Open-source|open source]].
   references:

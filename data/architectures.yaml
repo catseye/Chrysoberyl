@@ -192,7 +192,7 @@ IBM PC compatible:
     Often, a better choice — because it can
     run under a modern OS, rather than actually dedicating the entire
     computer to it — is to run such things under an emulator. In which case,
-    we recommend [[Bochs]].
+    we recommend [[QEMU]].
   references:
   - title: RBIL
     description: Ralf Brown's Interrupt List
@@ -223,6 +223,22 @@ Bochs:
   license: LGPL
   host-language: C++
   implementation-type: emulator
+
+QEMU:
+  type: Implementation
+  implementation-of:
+  - IBM PC compatible
+  prebuilt-for-platforms:
+  - native code
+  links:
+  - 'http://qemu.org/'
+  license: GPL
+  host-language: C99
+  implementation-type: emulator
+  generally-recommended: true
+  commentary: |
+    QEMU can actually emulate many more architectures than just the
+    IBM PC compatible.
 
 
 Z80 machine code:

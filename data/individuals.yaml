@@ -109,33 +109,23 @@ Chris Pressey:
     -------------------------
     
     ### Linux ###
-
-    Utilities:
     
-    *   colordiff
+    Version control:
+    
     *   git
-    *   irssi
-    *   links
-    *   meld
     *   mercurial
         *   hg-git (needs dulwich, see below)
-    *   nano
-    *   nmap (for ncat)
-    *   patch
-    *   realpath
-    *   rlwrap
-    *   rsync
-    *   screen
-    *   tree
-
+    
+    Utilities: see toolshelf's fundaments.catalog
+    
     Emulators:
 
-    *   dosbox
+    *   dosbox*
     *   e-uae
-    *   frotz
-    *   qemu and/or bochs
+    *   frotz*
+    *   qemu* and/or bochs*
     *   stella
-    *   vice (from source)
+    *   vice* (from source)
         
         `./configure --prefix=$HOME --enable-gnomeui`
         
@@ -151,6 +141,7 @@ Chris Pressey:
     *   firefox
     *   gimp
     *   inkscape
+    *   meld
     *   mplayer
     *   openoffice.org
     *   scite (for when tideay just won't do)
@@ -169,15 +160,16 @@ Chris Pressey:
             *   pandoc
             *   Parsec
     *   hugs
-    *   inform
+    *   inform*
     *   nasm
     *   openjdk-7-jdk
     *   pcc (from source)
         *   bison
         *   flex
     *   racket
+    *   perl*
     *   php5-cli [under duress, surely? -Ed.]
-    *   python
+    *   python*
         *   python-dev (for to build C parts of python pkgs)
         *   python-setuptools (for easy_install)
             

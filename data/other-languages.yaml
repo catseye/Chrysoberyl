@@ -1090,11 +1090,22 @@ plt-r5rs:
   implementation-type: interpreter
   host-language: C99
   license: LGPL
-  generally-recommended: true
   prebuilt-for-platforms:
   - native code
   links:
   - http://racket-lang.org/
+
+husk:
+  type: Implementation
+  implementation-of:
+  - Scheme
+  # also compiles, apparently
+  implementation-type: interpreter
+  host-language: Haskell
+  license: MIT license
+  generally-recommended: true
+  links:
+  - http://justinethier.github.io/husk-scheme/
 
 
 SETL: 
