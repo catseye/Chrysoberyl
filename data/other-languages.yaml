@@ -37,6 +37,12 @@ ANSI C:
   - url: http://gcc.gnu.org/
     title: GCC
     description: The GNU Compiler Collection
+  - url: http://www.delorie.com/djgpp/
+    title: DJGPP
+    description: DJ Delorie's port of GCC to MS-DOS
+  - url: http://edn.embarcadero.com//article/20841
+    title: Turbo C 2.01
+    description: C compiler for MS-DOS circa 1989, now freeware
   - url: http://www.openwatcom.org/
     title: OpenWatcom
     description: Open-source Watcom C/C++
@@ -46,6 +52,9 @@ ANSI C:
   - url: http://clang.llvm.org/
     title: clang
     description: C language family frontend for LLVM
+  - url: http://pcc.ludd.ltu.se/
+    title: PCC
+    description: Portable C Compiler
   - url: http://www.cs.princeton.edu/software/lcc/
     title: lcc
     description: Retargetable compiler for ANSI C
