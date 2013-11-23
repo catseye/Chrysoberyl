@@ -140,11 +140,11 @@ C99:
   links:
   - http://www.opengroup.org/onlinepubs/9699919799/
   commentary: |
-    When an implementation here says it requires C99, it (in theory)
+    When an implementation in Chrysoberyl says it requires C99, it (in theory)
     means that the source files in it conform to the C99 standard.
     These souce files generally are such that they *would* compile with the
     `-ansi` flag *except* that they rely on libraries specified by the Single
-    UNIX Specification version 3 (also, and more popularly, known as POSIX)
+    UNIX Specification version 3 (also, and more popularly, known as [[POSIX]])
     to provide access to resources such as clock information and network sockets.
     
     Most modern UNIX-like operating systems implement something
@@ -156,8 +156,8 @@ C99:
     on the web.
     
     Many of our C projects will compile both as C99 and as
-    [[ANSI C]] (perhaps omitting some features) by passing the environment
-    variable `ANSI=yes` to `make`.
+    [[ANSI C]] — perhaps omitting some features in the ANSI C version —
+    by passing the environment variable `ANSI=yes` to `make`.
 
 gcc 3.4:
   type: Implementation
