@@ -65,6 +65,9 @@
   interactive: true
   animated: false
   medium: Java applet
+  summary: |
+    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
+    which implements Whothm, and lets you interactive try out Whothm programs online.
   description: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
     which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
@@ -170,6 +173,9 @@
   interactive: true
   animated: false
   medium: HTML5
+  summary: |
+    This is an HTML5-based interpreter for the
+    esoteric programming language [[ZOWIE]].  
   description: |
     This is an [[HTML5]]-based interpreter for the
     [[Esolang|esoteric programming language]] [[ZOWIE]].
