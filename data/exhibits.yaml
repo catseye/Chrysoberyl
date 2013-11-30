@@ -252,7 +252,23 @@
     at random.
     In case the cyclobots leave the viewable area of the playfield,
     dragging on the playfield will scroll it.
+
+'Fibonacci Spiral (HTML5)':
+  type: Online Installation
+  exhibit: Digital Art Exhibit
+  interactive: false
+  animated: true
+  medium: HTML5
+  summary: |
+    A spiral made up of semicircles with proportions in the Fibonacci sequence.
+  description: |
+    A spiral made up of semicircles with proportions in the Fibonacci sequence.
+    The semicircles alternate being on the left and the right.  The first
+    two terms of the Fibonacci sequence are `1, 1` and these make up the unit
+    circle in the center of the spiral.
     
+    The animation is simply a zooming out and back in on the spiral.
+
 'Fingerspelling (HTML5)':
   type: Online Installation
   exhibit: Digital Art Exhibit
