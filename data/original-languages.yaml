@@ -2430,6 +2430,8 @@ shelta:
   host-platform: MS-DOS
   target-language: x86 machine code
   target-platform: MS-DOS
+  online-locations:
+  - 'Shelta (v86)'
 
 sheltas:
   type: Implementation

@@ -154,6 +154,16 @@
     [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     See also [[Jaccia (HTML5)]].
 
+'Shelta (v86)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    This is [[Shelta]] running under [[FreeDOS]] running under the
+    [[IBM PC compatible]] emulator, v86.
+
 'ZOWIE (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit
