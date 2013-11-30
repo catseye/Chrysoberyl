@@ -2458,8 +2458,7 @@ SICKBAY:
     SICKBAY is an esoteric dialect of [[BASIC]] with a call ring buffer instead of
     a call stack, and computed line number definitions (and no `IF` because
     of that.)
-  # ehhh, if I put this in, it doesn't show up on lingography **(!(*^@#
-  #member-of: BASIC
+  member-of: BASIC
   etymology:
   - pun
   sample: |-
@@ -3252,3 +3251,5 @@ zowie.py:
   license: Public Domain
   host-language: Python
   implementation-type: interpreter
+  online-locations:
+  - 'ZOWIE (HTML5)'

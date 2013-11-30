@@ -137,11 +137,8 @@ Cyclobots:
     more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
     patterns are more common.
   commentary: |
-    It's not really a game — or, rather, it's a game in the same way John
-    Conway's Game of Life is a game.  I originally called it an
-    "interactive desktop toy".
-    
-    I originally conceived of this automaton in or around 1994, and implemented
+    I originally conceived of this automaton, calling it
+    an "interactive desktop toy", in or around 1994, and implemented
     it immediately in Visual Basic.  I remember the year because I wrote the
     first implementation of [[SMETANA]] in Visual Basic at about the same time.
     

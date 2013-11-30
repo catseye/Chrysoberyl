@@ -443,7 +443,7 @@ class Renderer(object):
                     node.get('development-stage', 'idea') not in \
                         ('idea', 'work in progress') and
                     not node.get('variant-of', None) and
-                    not node.get('member-of', None)):
+                    (node.get('member-of', None) != 'Funge-98')):
                     languages.append(thing)
             return sorted(languages,
                           key=lambda x: self.data[x]['inception-date'])
