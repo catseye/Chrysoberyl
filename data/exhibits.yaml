@@ -42,58 +42,6 @@
 
 ### Esolangs ###
 
-'yoob (Applet)':
-  type: Online Installation
-  exhibit: Esolangs Exhibit
-  interactive: true
-  animated: true
-  medium: Java applet
-  description: |
-    [[yoob]] is a public-domain framework for implementing
-    [[Esolang|esoteric programming languages]], and allowing them to be
-    interactively run on programs in a Java™ applet.
-    
-    Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
-    [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
-    [[Gemooy]], [[LNUSP]], [[noit o' mnain worb]], [[PATH]], [[Qdeql]], [[Sceql]],
-    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
-    action, and lets you play with all these esolangs online.
-
-'Whothm (Applet)':
-  type: Online Installation
-  exhibit: Esolangs Exhibit
-  interactive: true
-  animated: false
-  medium: Java applet
-  summary: |
-    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactive try out Whothm programs online.
-  description: |
-    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
-    an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
-    left up to your imagination.
-
-'Gemooy (HTML5)':
-  type: Online Installation
-  exhibit: Esolangs Exhibit
-  interactive: true
-  animated: true
-  medium: HTML5
-  description: |
-    [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
-    This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
-
-"noit o' mnain worb (HTML5)":
-  type: Online Installation
-  exhibit: Esolangs Exhibit
-  interactive: true
-  animated: true
-  medium: HTML5
-  description: |
-    [[noit o' mnain worb]] is a probabilistic particle automaton.
-    This online interpreter is implemented in Javascript, on an HTML5 canvas.
-
 'Braktif (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit
@@ -116,16 +64,15 @@
     The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
-'REDGREEN (HTML5)':
+'Gemooy (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
   medium: HTML5
-  ca-definition-link: https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp
   description: |
-    The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
+    [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
+    This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
 
 'Jaccia (HTML5)':
   type: Online Installation
@@ -157,6 +104,27 @@
     [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     See also [[Jaccia (HTML5)]].
 
+"noit o' mnain worb (HTML5)":
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    [[noit o' mnain worb]] is a probabilistic particle automaton.
+    This online interpreter is implemented in Javascript, on an HTML5 canvas.
+
+'REDGREEN (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  ca-definition-link: https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp
+  description: |
+    The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    and animated using [[yoob.js]].
+
 'Shelta (v86)':
   type: Online Installation
   exhibit: Esolangs Exhibit
@@ -166,6 +134,38 @@
   description: |
     This is [[Shelta]] running under [[FreeDOS]] running under the
     [[IBM PC compatible]] emulator, v86.
+
+'Whothm (Applet)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: false
+  medium: Java applet
+  summary: |
+    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
+    which implements Whothm, and lets you interactive try out Whothm programs online.
+  description: |
+    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
+    which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
+    an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
+    left up to your imagination.
+
+'yoob (Applet)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: Java applet
+  description: |
+    [[yoob]] is a public-domain framework for implementing
+    [[Esolang|esoteric programming languages]], and allowing them to be
+    interactively run on programs in a Java™ applet.
+    
+    Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
+    [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
+    [[Gemooy]], [[LNUSP]], [[noit o' mnain worb]], [[PATH]], [[Qdeql]], [[Sceql]],
+    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
+    action, and lets you play with all these esolangs online.
 
 'ZOWIE (HTML5)':
   type: Online Installation
