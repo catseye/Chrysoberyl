@@ -2,11 +2,6 @@
 
 {% block extra_head %}
   <meta name="description" content="An online gallery of interactive exhibits at Cat's Eye Technologies.">
-  <style>
-#links {
-  margin-top: 2.5em;
-}
-  </style>
 {% endblock extra_head %}
 
 {% block heading %}
@@ -23,14 +18,14 @@
 
 <div class="row-fluid">
   <div class="span4">
-    <section id="esolangs_exhibit">
+    <section id="esolangs_exhibit" class="outer">
       <h2>Esolangs</h2>
 
-      <small>{{ md2html("[[Esolang|Esoteric programming languages]] with which you
+      {{ md2html("[[Esolang|Esoteric programming languages]] with which you
       can experiment.  By selecting sample
       programs and watching them run, you can gain an appreciation of how the
       esolang works; by composing your own programs, you can gain an
-      even better appreciation.") }}</small>
+      even better appreciation.") }}
 
       {% for thing in related('type')|sort -%}
         {% if data[thing].exhibit == 'Esolangs Exhibit' %}
@@ -48,14 +43,14 @@
     </section>
   </div>
   <div class="span4">
-    <section id="gewgaws_exhibit">
+    <section id="gewgaws_exhibit" class="outer">
       <h2>Gewgaws</h2>
 
-      <small>{{ md2html("Digital art (audiovisual, animated, interactive, or otherwise) which you
+      {{ md2html("Digital art (audiovisual, animated, interactive, or otherwise) which you
       can experience online.  (That's not to say that
       [[Programming Languages as an Artistic Medium|esolangs]]
       and [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
-      aren't art *too*, of course.)") }}</small>
+      aren't art *too*, of course.)") }}
 
       {% for thing in related('type')|sort -%}
         {% if data[thing].exhibit == 'Digital Art Exhibit' %}
@@ -73,12 +68,12 @@
     </section>
   </div>
   <div class="span4">
-    <section id="games_exhibit">
+    <section id="games_exhibit" class="outer">
       <h2>Games</h2>
 
-      <small>{{ md2html("[[Game]]s which you can play online.  Some games are for
+      {{ md2html("[[Game]]s which you can play online.  Some games are for
       the [[Commodore 64]], and these ones are web-enabled by the
-      [[JaC64]] Java™ applet.") }}</small>
+      [[JaC64]] Java™ applet.") }}
 
       {% for thing in related('type')|sort -%}
         {% if data[thing].exhibit == 'Computer Games Exhibit' %}
@@ -95,7 +90,7 @@
       {% endfor %}
     </section>
     {%- if references -%}
-      <section id="links">
+      <section id="links" class="inner">
         <h2>Links</h2>
         <ul>
           {%- for reference in references -%}
