@@ -92,20 +92,22 @@
         {% endif %}
       {% endfor %}
     </section>
-    {%- if references -%}
-      <section id="links" class="inner">
-        <h2>Links</h2>
-        <ul>
-          {%- for reference in references -%}
-          <li>
-            <a href="{{ reference.url }}">{{ reference.title }}</a>
-            {% if reference.description %}— {{ reference.description }}{% endif -%}
-          </li>
-          {%- endfor -%}
-        </ul>
-      </section>
-    {%- endif -%}
+    <section id="links" class="inner">
+      <h2>Links</h2>
 
+      {{ md2html("Some of these may be esolangs.  Some may be
+      interactive digital art.  Some may be games.
+      Some will just be things I happen to like.") }}
+
+      <ul>
+        {%- for reference in references -%}
+        <li>
+          <a href="{{ reference.url }}">{{ reference.title }}</a>
+          {% if reference.description %}— {{ reference.description }}{% endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    </section>
   </div>
 </div>
 

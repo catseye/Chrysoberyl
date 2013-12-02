@@ -1192,6 +1192,10 @@ Gemooy:
              @
       @     @#@
   specification-link: esowiki
+  references:
+  - url: http://misen23.minus.com/mP2icZG7L
+    title: G E M O O Y
+    description: conceptual art
 
 gemooy.js:
   type: Implementation
