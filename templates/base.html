@@ -124,7 +124,8 @@
           <ul>
             {%- for reference in references -%}
             <li>
-              <a href="{{ reference.url }}">{{ reference.title }}</a> -- {{ reference.description -}}
+              <a href="{{ reference.url }}">{{ reference.title }}</a>
+              {% if reference.description %}— {{ reference.description -}}{% endif -%}
             </li>
             {%- endfor -%}
             {%- for link in links -%}
