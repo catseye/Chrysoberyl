@@ -131,15 +131,32 @@
     The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
+# about'ed (only esolang that is, so far)
 'Shelta (v86)':
   type: Online Installation
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
   medium: HTML5
+  summary: |
+    This is [[Shelta]], a language with a tiny compiler and a
+    self-hosted compiler, running under [[FreeDOS]] running under [[v86]]
+    on a web page — you can bootstrap it right in your browser!
   description: |
     This is [[Shelta]] running under [[FreeDOS]] running under the
-    [[IBM PC compatible]] emulator, v86.
+    [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
+    
+    The system is delivered on a 360K floppy image, containing the
+    minimal system files for FreeDOS 1.0, the relevant parts of the
+    Shelta distribution, and a handful of other relevant utilities
+    (currently only FreeDOS's `DEBUG.COM`.)
+    
+    You can use the pre-built Shelta compiler (written with NASM) to
+    build the example programs, or to bootstrap the Shelta compiler
+    written in Shelta.
+    
+    Unfortunately, FreeDOS `EDIT` does not work under v86 yet, so
+    no text editor is supplied.
 
 'Whothm (Applet)':
   type: Online Installation

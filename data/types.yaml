@@ -55,6 +55,9 @@ Online Installation:
     description: demoscene mag
   - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
     title: Mathematical Art Galleries
+  - url: http://www.logarithmic.net/ghost.xhtml
+    title: Ghost Diagrams
+    description: inferred patterns
 
 Concept:
   type: type

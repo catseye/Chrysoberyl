@@ -240,6 +240,19 @@ QEMU:
     QEMU can actually emulate many more architectures than just the
     IBM PC compatible.
 
+v86:
+  type: Implementation
+  implementation-of:
+  - IBM PC compatible
+  prebuilt-for-platforms:
+  - HTML5
+  links:
+  - 'https://github.com/copy/v86'
+  - 'http://copy.sh/v24/'
+  license: BSD license
+  host-language: Javascript
+  implementation-type: emulator
+
 
 Z80 machine code:
   type: Programming Language
