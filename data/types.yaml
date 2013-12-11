@@ -34,10 +34,16 @@ Online Installation:
     title: "l'ilinx"
   - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
     title: Gibberish Generator
-    description: Gnbb rii ehGrr bGbhGGntt ehbGs
+    description: Gnbb rii ehGrr
+  - url: http://speculativefictions.weebly.com/
+    title: SPECULATIVE FICTIONS
   - url: http://canonical.org/~kragen/bytebeat/
     title: Bytebeat — Crowd
     description: programmatic music
+  - url: http://www.paikstudios.com/
+    title: Nam June Paik
+  - url: http://www.kenknowlton.com/
+    title: Ken Knowlton
   - url: http://messerwerferin.minus.com/mknvESNGE
     title: Guy de Cointet
     description: encre et crayon sur papier
@@ -55,9 +61,14 @@ Online Installation:
     description: demoscene mag
   - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
     title: Mathematical Art Galleries
+  - url: http://www.cementimental.com/noisebook/
+    title: harsh noise
   - url: http://www.logarithmic.net/ghost.xhtml
     title: Ghost Diagrams
     description: inferred patterns
+  - url: http://push.cwcon.org/
+    title: PUSH
+    description: source journal
 
 Concept:
   type: type

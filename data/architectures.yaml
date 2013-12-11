@@ -272,6 +272,9 @@ Z80 machine code:
   - title: TI-85 Assembler Programming
     description: Z80 tutorial for the TI-85 calculator
     url: http://www.sealiesoftware.com/ti-asm/
+  - title: Opening up Microchips
+    description: Innards of a Z80, and more
+    url: http://zeptobars.ru/en/read/open-microchip-asic-what-inside-II-msp430-pic-z80
 
 
 native code:
