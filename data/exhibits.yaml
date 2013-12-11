@@ -140,23 +140,35 @@
   medium: HTML5
   summary: |
     This is [[Shelta]], a language with a tiny compiler and a
-    self-hosted compiler, running under [[FreeDOS]] running under [[v86]]
-    on a web page — you can bootstrap it right in your browser!
+    self-hosted compiler, running under [[FreeDOS]] under [[v86]]
+    on a web page, so you can bootstrap it right in your browser.
   description: |
     This is [[Shelta]] running under [[FreeDOS]] running under the
     [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
     
-    The system is delivered on a 360K floppy image, containing the
-    minimal system files for FreeDOS 1.0, the relevant parts of the
-    Shelta distribution, and a handful of other relevant utilities
-    (currently only FreeDOS's `DEBUG.COM`.)
+    The system is delivered on a 360K floppy image, which contains:
     
-    You can use the pre-built Shelta compiler (written with NASM) to
-    build the example programs, or to bootstrap the Shelta compiler
-    written in Shelta.
+    *   Minimal system files for FreeDOS 1.0 ([[GPL]])
+    *   The relevant parts of the Shelta distribution ([[Freely Redistributable]])
+    *   FreeDOS's `DEBUG.COM` ([[GPL]])
+    *   The `TED3` text editor (Freeware)
     
-    Unfortunately, FreeDOS `EDIT` does not work under v86 yet, so
-    no text editor is supplied.
+    You can use the pre-built Shelta compiler (whose source is written in NASM)
+    to build the example programs, or to bootstrap the Shelta compiler
+    written in Shelta.  See the welcome message, shown after FreeDOS
+    boots, for more details.
+    
+    If v86 doesn't work in your browser, you can
+    [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-1.img)
+    and use it in an emulator such as [[QEMU]] or [[Bochs]]
+    (or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+    a floppy disk somehow...)
+    
+    The TED3 distribution can be found
+    [here](http://ftp.mpoli.fi/software/DOS/EDITORS/).  The disk image
+    includes the entire distribution, including the manual.  I also take the
+    position that this disk image is a "mere aggregation", so the GPL doesn't
+    extend its viral reach to any of the other programs.
 
 'Whothm (Applet)':
   type: Online Installation
