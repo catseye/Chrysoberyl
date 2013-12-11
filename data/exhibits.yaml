@@ -161,8 +161,8 @@
     If v86 doesn't work in your browser, you can
     [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-1.img)
     and use it in an emulator such as [[QEMU]] or [[Bochs]]
-    (or, wonder of wonders, a real IBM PC compatible — if you can write it onto
-    a floppy disk somehow...)
+    or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+    a floppy disk somehow...
     
     The TED3 distribution can be found
     [here](http://ftp.mpoli.fi/software/DOS/EDITORS/).  The disk image
