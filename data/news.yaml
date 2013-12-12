@@ -1,4 +1,27 @@
 # encoding: UTF-8
+
+'Shelta v1.2 online in FreeDOS in v86':
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 12 Dec 2013 18:19:08 GMT
+  blurb: |
+    [[Shelta]] 1.2 released — and bootstrappable [[Shelta (v86)|online]]!
+  description: |
+    Version 1.2 of the [[Shelta]] distribution has been released.  This
+    is a very minor update, with the only change to the language being
+    essentially inconsequential: Shelta source files now must end with
+    [everybody's favourite character](http://prog21.dadgum.com/76.html),
+    the vertical tab, instead of a null byte.
+    
+    This was to work around what seems to be a subtle bug in [[FreeDOS]].
+    And that, in turn, was to get Shelta running under FreeDOS inside the
+    [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].  You can
+    read all the gory details [here](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt).
+    
+    Anyway, this all brings us to the good news, which is: you can now
+    play with Shelta — including bootstrapping it —
+    [[Shelta (v86)|online, right here]]!
+
 'Presenting Amiga Gondola':
   type: Article
   article-type: announcement

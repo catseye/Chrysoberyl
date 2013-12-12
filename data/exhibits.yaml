@@ -146,7 +146,15 @@
     This is [[Shelta]] running under [[FreeDOS]] running under the
     [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
     
-    The system is delivered on a 360K floppy image, which contains:
+    You may want to read the documentation for Shelta here:
+    
+    *   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
+    *   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
+    *   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
+    *   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
+    
+    The system running online on v86 is delivered on a 360K floppy image,
+    which contains:
     
     *   Minimal system files for FreeDOS 1.0 ([[GPL]])
     *   The relevant parts of the Shelta distribution ([[Freely Redistributable]])
@@ -160,7 +168,7 @@
     
     If v86 doesn't work in your browser, you can
     [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-1.img)
-    and use it in an emulator such as [[QEMU]] or [[Bochs]]
+    and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
     or, wonder of wonders, a real IBM PC compatible — if you can write it onto
     a floppy disk somehow...
     
