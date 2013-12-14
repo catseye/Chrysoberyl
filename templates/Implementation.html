@@ -26,8 +26,7 @@
   {% set writtenverb = 'written' %}
 {% endif %}
 
-{% block description %}
-  <section id="description">
+{% block description_verbiage %}
     <p>This is
       {% if reference %}
         the reference {{ implnoun }}
@@ -96,8 +95,7 @@
     {% if description %}
       {{ md2html(description) }}
     {% endif %}
-  </section>
-{% endblock description %}
+{% endblock description_verbiage %}
 
 {% block content %}
   {% if online_locations|length > 0 %}

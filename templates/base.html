@@ -55,16 +55,18 @@
   <article>
     {%- block mainstage -%}{%- endblock -%}
     {%- block description -%}
-      {%- if description and images -%}
-        <div class="row-fluid">
-          <div class="span8">
-            {%- block summary -%}{%- endblock summary -%}
-            <section id="description">
-              {%- block description_verbiage -%}
+      <div class="row-fluid">
+        <div class="{% if images %}span8{% else %}{% endif %}">
+          {%- block summary -%}{%- endblock summary -%}
+          <section id="description">
+            {%- block description_verbiage -%}
+              {%- if description -%}
                 {{ md2html(description) }}
-              {%- endblock description_verbiage -%}
-            </section>
-          </div>
+              {%- endif -%}
+            {%- endblock description_verbiage -%}
+          </section>
+        </div>
+        {%- if images -%}
           <div class="span4">
             <section id="images">
               {%- for image in images -%}
@@ -72,12 +74,8 @@
               {%- endfor -%}
             </section>
           </div>
-        </div>
-      {%- elif description -%}
-        <section id="description">
-          {{ md2html(description) }}
-        </section>
-      {%- endif -%}
+        {%- endif -%}
+      </div>
     {%- endblock description -%}
 
     {%- block awards -%}

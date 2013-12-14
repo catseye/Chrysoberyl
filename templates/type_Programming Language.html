@@ -1,20 +1,5 @@
 {% extends "type.html" %}
 
-{% block description %}
-  <section id="description">
-    <div class="row-fluid">
-      <div class="span8">
-        {{- md2html(description) -}}
-      </div>
-      <div class="span4">
-        {%- for image in images -%}
-          <img src="{{ image }}">
-        {%- endfor -%}
-      </div>
-    </div>
-  </section>
-{% endblock description %}
-
 {% block content %}
 
 <table class="table table-bordered">

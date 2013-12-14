@@ -87,8 +87,7 @@ brace distribution:
 
 
 ce: 
-  # library
-  type: Tool
+  type: Library
   development-stage: archived
   summary: Library of common Erlang utility functions
   authors:

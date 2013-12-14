@@ -9,11 +9,12 @@
 {% endblock %}
 
 {% block description_verbiage %}
-  <p>
-    This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
-  </p>
   {%- if description -%}
     {{- md2html(description) -}}
+  {%- else -%}
+    <p>
+      This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
+    </p>
   {%- endif -%}
 {% endblock description_verbiage %}
 

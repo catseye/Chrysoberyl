@@ -81,6 +81,8 @@ Computational Class:
 Genre:
   type: type
   description: |
+    This is a list of genres with entries in [[Chrysoberyl]].
+    
     This category is a little weird,
     because there are genres for programming languages, games, music, and books,
     all mixed together here.
@@ -115,6 +117,8 @@ Programming Language Family:
 Implementation:
   type: type
   description: |
+    This is a list of implementations with entries in [[Chrysoberyl]].
+    
     These are implementations of *all* kinds of things:
     [[Programming Language|programming languages]],
     [[Platform|platforms]],
@@ -140,6 +144,8 @@ Distribution:
 Game:
   type: type
   description: |
+    This is a list of games with entries in [[Chrysoberyl]].
+    
     For a list of just those games produced by [[Cat's Eye Technologies]], see
     [[Games by Chris Pressey]].
   references:
@@ -165,11 +171,15 @@ Game:
 Library:
   type: type
   description: |
+    This is a list of software libraries with entries in [[Chrysoberyl]].
+    
     For a list of just those libraries produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
 Tool:
   type: type
   description: |
+    This is a list of software tools with entries in [[Chrysoberyl]].
+    
     For a list of just those tools produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
   images:
@@ -177,11 +187,15 @@ Tool:
 Platform:
   type: type
   description: |
+    This is a list of software platforms with entries in [[Chrysoberyl]].
+    
     For a list of just those platforms produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
 Automaton:
   type: type
   description: |
+    This is a list of automata with entries in [[Chrysoberyl]].
+    
     For a list of just those automata produced by [[Cat's Eye Technologies]], see
     [[Chris Pressey's Lingography]].
   commentary: |
@@ -257,6 +271,8 @@ Programming Language:
 Musical Composition:
   type: type
   description: |
+    This is a list of musical compositions with entries in [[Chrysoberyl]].
+    
     For a list of just those compositions by [[What is this I don't even]], see
     [[What is this I don't even]].
 Music Format:
