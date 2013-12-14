@@ -303,6 +303,37 @@ Rooibos distribution:
   releases: []
 
 
+The Swallows Engine:
+  # ehh, could also be a Library, I suppose
+  type: Tool
+  summary: An engine for generating non-interactive fiction
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    The Swallows Engine is the engine used to generate _The Swallows_
+    series of generated novels for NaNoGenMo 2013.
+  inception-date: Nov 2013
+  development-stage: not fully complete
+
+The Swallows Engine (Python):
+  type: Implementation
+  implementation-of:
+  - The Swallows Engine
+  reference: true
+  in-distributions:
+  - The Swallows distribution
+  license: Public Domain
+  host-language: Python
+
+The Swallows distribution: 
+  type: Distribution
+  github: catseye/The-Swallows
+  issue-tracker: github
+  releases: []
+
+
 toolshelf: 
   type: Tool
   summary: A "package manager" that doesn't actually install anything
