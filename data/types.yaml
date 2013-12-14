@@ -13,6 +13,10 @@ Article:
   type: type
   description: |
     The latest announcements and articles from [[Cat's Eye Technologies]].
+    Note that these are also available in an
+    <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
+  images:
+  - '/images/illustrations/Hatched.jpg'
 Online Installation:
   type: type
   description: |
@@ -168,6 +172,8 @@ Tool:
   description: |
     For a list of just those tools produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
+  images:
+  - '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
   description: |

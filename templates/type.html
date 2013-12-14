@@ -8,16 +8,14 @@
   </hgroup>
 {% endblock %}
 
-{% block description %}
-  <section id="description">
-    <p>
-      This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
-    </p>
-    {%- if description -%}
-      {{- md2html(description) -}}
-    {%- endif -%}
-  </section>
-{% endblock description %}
+{% block description_verbiage %}
+  <p>
+    This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
+  </p>
+  {%- if description -%}
+    {{- md2html(description) -}}
+  {%- endif -%}
+{% endblock description_verbiage %}
 
 {% block content %}
 
