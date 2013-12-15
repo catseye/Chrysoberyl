@@ -124,22 +124,28 @@ Commodore 64 Programmer's Reference Guide:
     paragraph at the top of page 153, and the comment on program line 20
     on page 148, and tell me that the [[Commodore 64]] isn't an [[Esolang|esoteric architecture]].
 
-Mapping the 64:
+Mapping the Commodore 64:
   type: Book
   genre: Programming
+  inception-date: 1984
   # i might have my copy somewhere, but not here
   copies-owned: 0
-  authors: []
+  authors:
+  - Sheldon Leemon
+  isbn: 0-942-38623-X
   commentary: |
     Good reference work for the [[Commodore 64]].
 
 Mapping the Vic:
   type: Book
   genre: Programming
+  inception-date: 1984
   copies-owned: 0
-  authors: []
+  authors:
+  - Russ Davies
+  isbn: 0-942-38624-8
   commentary: |
-    Good reference work for the Vic 20.
+    Good reference work for the Commodore [[VIC 20]].
 
 Introduction to Algorithms:
   type: Book
