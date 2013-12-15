@@ -106,6 +106,8 @@ Conlang:
   type: type
 Musical Instrument:
   type: type
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
 Discipline:
   type: type
 Collection:
@@ -275,8 +277,12 @@ Musical Composition:
     
     For a list of just those compositions by [[What is this I don't even]], see
     [[What is this I don't even]].
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
 Music Format:
   type: type
+  images:
+  - '/images/illustrations/Accordion_(PSF).jpg'
 Electronics Project:
   type: type
   references:
