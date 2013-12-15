@@ -1,7 +1,7 @@
 {# bespoke template #}
 {% extends "base.html" %}
 
-{% block content %}
+{% block index %}
 
 <ul>
 {%- for thing in data|sort -%}
@@ -30,4 +30,4 @@
 {%- endfor -%}
 </ul>
 
-{% endblock content %}
+{% endblock index %}

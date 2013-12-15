@@ -18,18 +18,19 @@
   {%- endif -%}
 {% endblock description_verbiage %}
 
-{% block content %}
-
-<ul>
-  {%- for thing in related('type')|sort -%}
-    <li>
-      {%- if not data[key].suppress_page_generation -%}
-        {{- link(thing) -}}
-      {%- else -%}
-        {{- thing -}}
-      {%- endif -%}
-    </li>
-  {%- endfor -%}
-</ul>
-
-{% endblock content %}
+{# note: some types will not use the 'index' block for this; they will instead
+   put their index into the 'content' block, if they want to appear below
+   any images and/or exploit maximum horizontal real estate. #}
+{% block index %}
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      <li>
+        {%- if not data[key].suppress_page_generation -%}
+          {{- link(thing) -}}
+        {%- else -%}
+          {{- thing -}}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{% endblock index %}

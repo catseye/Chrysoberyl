@@ -6,14 +6,12 @@
   </hgroup>
 {% endblock %}
 
-{% block content %}
-
-<ul>
-{%- for thing in articles() -%}
-  <li>
-    <b>{{ link(thing) }}</b> ({{ strftime(data[thing].publication_date, "%B %d, %Y") }})
-  </li>
-{%- endfor -%}
-</ul>
-
-{% endblock content %}
+{% block index %}
+  <ul>
+  {%- for thing in articles() -%}
+    <li>
+      <b>{{ link(thing) }}</b> ({{ strftime(data[thing].publication_date, "%B %d, %Y") }})
+    </li>
+  {%- endfor -%}
+  </ul>
+{% endblock index %}
