@@ -184,6 +184,16 @@ class Renderer(object):
             return objects
 
         @expose
+        def impls_for_platform(plat_key, key=key):
+            impls = []
+            for impl in related('implementation-of', key=key):
+                if (self.data[impl].get('platform', None) == plat_key or
+                    self.data[impl].get('host_platform', None) == plat_key or
+                    self.data[impl].get('target_platform', None) == plat_key):
+                    impls.append(impl)
+            return impls
+
+        @expose
         def ref_impl(key=key):
             """Find the reference implementation for the given node
             (assumed to be an implementable), which may be None.
