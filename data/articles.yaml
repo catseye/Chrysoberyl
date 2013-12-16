@@ -323,7 +323,9 @@ The Aesthetics of Esolangs:
     previous article (and it will probably make more sense if you've already
     read [[Programming Languages as an Artistic Medium|the previous article]].)
   images:
-    - url: '/images/illustrations/Accordion_(PSF).jpg'
+    - url: 'http://esolangs.org/w/images/6/63/Piet_Hello_World.gif'
+      caption: |
+        "Hello, world" in [Piet](http://esolangs.org/wiki/Piet)
   description: |
     A preliminary point I should probably make is that by "art" I do not
     necessarily mean the "art world" (which consists of galleries, critics,

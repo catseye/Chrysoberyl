@@ -95,7 +95,9 @@
             <section id="images">
               {%- for image in images -%}
                 <img src="{{ image.url }}">
-                {#- TODO: caption, credit -#}
+                {% if image.caption %}
+                  {{ md2html(image.caption) }}
+                {% endif %}
               {%- endfor -%}
             </section>
           </div>
