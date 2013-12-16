@@ -16,7 +16,7 @@ Article:
     Note that these are also available in an
     <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
   images:
-  - '/images/illustrations/Hatched.jpg'
+    - url: '/images/illustrations/Hatched.jpg'
 Online Installation:
   type: type
   description: |
@@ -107,7 +107,7 @@ Conlang:
 Musical Instrument:
   type: type
   images:
-  - '/images/illustrations/Accordion_(PSF).jpg'
+    - url: '/images/illustrations/Accordion_(PSF).jpg'
 Discipline:
   type: type
 Collection:
@@ -185,7 +185,7 @@ Tool:
     For a list of just those tools produced by [[Cat's Eye Technologies]], see
     [[Tools by Chris Pressey]].
   images:
-  - '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
+    - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
   description: |
@@ -225,7 +225,7 @@ Programming Language:
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
   images:
-  - '/images/illustrations/Abacus_(PSF).jpg'
+    - url: '/images/illustrations/Abacus_(PSF).jpg'
   commentary: |
     There are two things about programming languages that every programmer
     should know.
@@ -278,13 +278,15 @@ Musical Composition:
     For a list of just those compositions by [[What is this I don't even]], see
     [[What is this I don't even]].
   images:
-  - '/images/illustrations/Accordion_(PSF).jpg'
+    - url: '/images/illustrations/Accordion_(PSF).jpg'
 Music Format:
   type: type
   images:
-  - '/images/illustrations/Accordion_(PSF).jpg'
+    - url: '/images/illustrations/Accordion_(PSF).jpg'
 Electronics Project:
   type: type
+  images:
+    - url: 'https://raw.github.com/catseye/Electronics-Projects/master/mildred/doc/mildred_photo.jpg'
   references:
   - url: http://www.intio.or.jp/jf10zl/
     title: JF10ZL

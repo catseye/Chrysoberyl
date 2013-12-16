@@ -94,7 +94,8 @@
           <div class="span4">
             <section id="images">
               {%- for image in images -%}
-                <img src="{{ image }}">
+                <img src="{{ image.url }}">
+                {#- TODO: caption, credit -#}
               {%- endfor -%}
             </section>
           </div>

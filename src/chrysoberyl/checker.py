@@ -154,6 +154,9 @@ def check_chrysoberyl_node(data, key, node):
         for sub in node['submitted-to']:
             check_scalar_ref(data, key, sub, 'competition',
                              types=['Competition'])
+    if 'images' in node:
+        for image in node['images']:
+            assert 'url' in image, 'image %r has no url' % image
 
     # Every node may have these, and they may have internal links.
     description = None

@@ -45,7 +45,7 @@
   type: Organization
   domain: Chrysoberyl
   images:
-  - /images/logo/witide.jpg
+    - url: /images/logo/witide.jpg
   description: |
     _What is this I don't even: Oh god how did this get here I am not good
     with synthesizer_ is the working title for [[Chris Pressey]]'s ongoing

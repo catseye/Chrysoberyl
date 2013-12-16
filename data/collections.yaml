@@ -46,7 +46,7 @@ Tools by Chris Pressey:
     Here is a list of software tools and libraries I've developed.
     For a list of all software tools known to Chrysoberyl, see [[Tool]].
   images:
-  - '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
+    - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 
 LoUIE:
   type: Collection
