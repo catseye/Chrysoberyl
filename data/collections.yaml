@@ -146,8 +146,21 @@ Chris Pressey's Favourite Other Computer Games:
 Retrocomputing:
   type: Collection
   description: |
-    Stuff done at Cat's Eye Technologies on older computers, or most
-    often rather an emulation of one on a modern computer.
+    Stuff done at Cat's Eye Technologies on older computers, or more
+    often, an emulation of such a computer on a modern computer instead.
+  entries:
+  - - Apple II
+    - Commodore VIC-20
+    - Commodore 64
+  - - Amiga 500
+    - MS-DOS
+    - Z80 machine code
+  projects:
+    MS-DOS:
+      - Shelta
+      - ILLGOL
+    Z80 machine code:
+      - Mildred
 
 Implementation Languages:
   type: Collection
