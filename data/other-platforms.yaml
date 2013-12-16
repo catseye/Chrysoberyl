@@ -36,7 +36,6 @@ Linux:
   prebuilt-for-platforms:
   - IBM PC compatible
 
-
 FreeBSD:
   type: Implementation
   implementation-of:
@@ -57,7 +56,6 @@ FreeBSD:
     description: A book about system programming under FreeBSD
     url: http://www.khmere.com/freebsd_book/
 
-
 NetBSD:
   type: Implementation
   implementation-of:
@@ -70,7 +68,7 @@ NetBSD:
   development-stage: mature
   prebuilt-for-platforms:
   - IBM PC compatible
-
+  # and many, many more
 
 Cygwin:
   type: Implementation
@@ -133,15 +131,22 @@ MS-DOS:
   description: |
     An operating system of old; you may have heard of it?
   commentary: |
-    I think the only thing of mine that requires MS-DOS anymore is
-    [[Shelta]]; and even then, it might rely only on the BIOS interface,
-    I forget.
-   
     A project which has this as a dependency
     assumes that it will be running under MS-DOS or something
     which emulates MS-DOS sufficiently well. This includes both the standard
-    DOS INT 21h handler, and the standard DOS utilies like, for example,
-    DEBUG.COM.
+    DOS `INT 21h` handler, and the standard DOS utilies like, for example,
+    `TYPE` and `DEBUG.COM`.
+    
+    There are only two projects of [[Cat's Eye Technologies]]' that
+    require MS-DOS (or a compatible operating system) anymore, and
+    these dependencies are only partial:
+    
+    *   [[Shelta]] can be built under any system with a [[NASM]] assembler,
+        but requires DOS to run, and the executables it produces also
+        run only under DOS; and
+    *   [[ILLGOL]] can be built and run on any system with a decent [[ANSI C]]
+        compiler, such as [[gcc 3.4]], but the executables it produces
+        will only run under DOS.
     
     You can try (at your own risk, of course) using the project under some
     more-or-less modern version of [[Windows]] and hope that it emulates DOS
@@ -154,7 +159,7 @@ MS-DOS:
     *   For a more heavyweight solution, you could install [[FreeDOS]]
         on a PC emulator such as [[QEMU]].
     
-    All of the above software packages are [[Open-source|open source]].
+    All of the above-mentioned emulators are [[Open-source|open source]].
   references:
   - url: http://www.delorie.com/djgpp/
     title: DJGPP

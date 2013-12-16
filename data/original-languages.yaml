@@ -1391,6 +1391,7 @@ illgol.exe:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
+  host-platform: MS-DOS
   target-language: x86 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
@@ -1430,6 +1431,7 @@ illgola2.exe:
   license: Unknown license
   implementation-type: compiler
   host-language: ANSI C
+  host-platform: MS-DOS
   target-language: x86 machine code
   target-platform: MS-DOS
   can-be-built-with-borland-c: true
