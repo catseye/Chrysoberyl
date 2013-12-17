@@ -7,6 +7,8 @@ Metanode:
 Metadata:
   type: type
   suppress-page-generation: true
+Disambiguation node:
+  type: type
 
 # presentedy things:
 Article:
@@ -83,9 +85,9 @@ Genre:
   description: |
     This is a list of genres with entries in [[Chrysoberyl]].
     
-    This category is a little weird,
-    because there are genres for programming languages, games, music, and books,
-    all mixed together here.
+    This category is a little weird, because there are genres for
+    [[Programming Language|programming languages]], [[Game|games]],
+    [[Musical Composition|music]], and [[Book|books]], all mixed together here.
 Individual:
   type: type
 Organization:
@@ -279,10 +281,29 @@ Musical Composition:
     [[What is this I don't even]].
   images:
     - url: '/images/illustrations/Accordion_(PSF).jpg'
+
 Music Format:
   type: type
   images:
     - url: '/images/illustrations/Accordion_(PSF).jpg'
+
+Gewgaw:
+  type: type
+  description: |
+    In [[Chrysoberyl]] parlance, a gewgaw is the digital version of a
+    bagatelle (music) or a doodle (visual art).  It almost always involves
+    visuals (usually animated), sometimes audio, and occasionally interaction.
+    It need not be implemented in [[HTML5]], but many of
+    [[Cat's Eye Technologies]]' gewgaws are.
+    
+    A special kind of gewgaw, for which there is a whole historical "scene",
+    is the "demo".  We avoid that terminology here, partly because it has
+    other useful meanings, and partly because demos have a certain thrust
+    which gewgaws need not have (pushing the limits of a computer, being
+    very visually/aurally impressive, sending "greetings" to other demosceners,
+    etc.)
+
+# these are implementables too, but that property is less exploited for them
 Electronics Project:
   type: type
   images:
@@ -321,7 +342,5 @@ Electronics Project:
   - url: http://www.falstad.com/circuit/
     title: Circuit Simulator
     description: Circuit Simulator in a Java Applet
-Demo:
-  type: type
 Database:
   type: type

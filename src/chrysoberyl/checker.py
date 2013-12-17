@@ -265,7 +265,7 @@ def check_chrysoberyl_node(data, key, node):
     # but it must pass these checks too.  And gets ref-dist linked
     # to it here too.
     if type_ in ['Game', 'Programming Language', 'Library', 'Tool',
-                 'Platform', 'Conlang', 'Electronics Project', 'Demo',
+                 'Platform', 'Conlang', 'Electronics Project', 'Gewgaw',
                  'Automaton', 'Programming Language Family']:
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node

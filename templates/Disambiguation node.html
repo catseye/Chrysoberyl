@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block defined_by %}{% endblock %}
+
+{% block content %}
+
+<p><strong>{{ key }}</strong> may refer to:</p>
+
+<ul>
+  {% for thing in entries %}
+    <li>{{ link(thing) }}</li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}

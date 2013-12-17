@@ -1,5 +1,5 @@
 # encoding: UTF-8
-# also contains the distributions for these demos
+# also contains the distributions for these gewgaws
 
 C64 Demo Depot: 
   type: Distribution
@@ -10,7 +10,8 @@ C64 Demo Depot:
 
 
 Ribos: 
-  type: Demo
+  type: Gewgaw
+  # sigh, it's not really a gewgaw either, or at least not a very good one.
   defining-distribution: C64 Demo Depot
   summary: Well-commented C64 raster interrupt example
   authors:
@@ -36,7 +37,7 @@ Ribos distribution:
 
 
 The PETulant Cursor: 
-  type: Demo
+  type: Gewgaw
   defining-distribution: C64 Demo Depot
   summary: A tiny C64 "display hack"
   authors:
