@@ -6,7 +6,7 @@
   exhibit: Computer Games Exhibit
   interactive: true
   animated: true
-  medium: Java applet
+  medium: JaC64
   summary: |
     [[Bubble Escape 2K]] is an [[Mini Game Compo 2009|award-winning]]
     video game where you guide a soap bubble through a multi-screen maze.
@@ -137,7 +137,7 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  medium: v86
   summary: |
     This is [[Shelta]], a language with a tiny compiler and a
     self-hosted compiler, running under [[FreeDOS]] under [[v86]]

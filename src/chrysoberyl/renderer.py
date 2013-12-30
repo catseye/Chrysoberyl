@@ -145,6 +145,8 @@ class Renderer(object):
                 return key[:-9]
             if key.endswith(' (JaC64)'):
                 return key[:-8]
+            if key.endswith(' (v86)'):
+                return key[:-6]
             return key
 
         @expose
@@ -159,6 +161,8 @@ class Renderer(object):
                 return 'Applet'
             if key.endswith(' (JaC64)'):
                 return 'JaC64'
+            if key.endswith(' (v86)'):
+                return 'v86'
             return ''
 
         @expose
