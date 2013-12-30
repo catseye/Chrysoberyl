@@ -32,10 +32,10 @@
         {% if data[thing].exhibit == 'Esolangs Exhibit' %}
           <a href="{{ sleek_key(thing) }}"><img
             src="../images/thumbnails/{{ sleek_key(thing) }}.png"></a>
+          {% if data[thing].medium != "HTML5" -%}
+            <span class="impl_medium">{{ data[thing].medium }}</span>
+          {%- endif %}
           <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
-          {% if data[thing].medium != "HTML5" %}
-            <p><i>{{ data[thing].medium }}</i></p>
-          {% endif %}
           {% if data[thing].summary %}
             {{ md2html(data[thing].summary) }}
           {% elif data[thing].description %}
@@ -59,10 +59,10 @@
         {% if data[thing].exhibit == 'Digital Art Exhibit' %}
           <a href="{{ sleek_key(thing) }}"><img
             src="../images/thumbnails/{{ sleek_key(thing) }}.png"></a>
+          {% if data[thing].medium != "HTML5" -%}
+            <span class="impl_medium">{{ data[thing].medium }}</span>
+          {%- endif %}
           <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
-          {% if data[thing].medium != "HTML5" %}
-            <p><i>{{ data[thing].medium }}</i></p>
-          {% endif %}
           {% if data[thing].summary %}
             {{ md2html(data[thing].summary) }}
           {% elif data[thing].description %}
@@ -84,10 +84,10 @@
         {% if data[thing].exhibit == 'Computer Games Exhibit' %}
           <a href="{{ sleek_key(thing) }}"><img
             src="../images/thumbnails/{{ sleek_key(thing) }}.png"></a>
+          {% if data[thing].medium != "HTML5" -%}
+            <span class="impl_medium">{{ data[thing].medium }}</span>
+          {%- endif %}
           <h3>{{ link(thing, link_text=base_key(thing)) }}</h3>
-          {% if data[thing].medium != "HTML5" %}
-            <p><i>{{ data[thing].medium }}</i></p>
-          {% endif %}
           {% if data[thing].summary %}
             {{ md2html(data[thing].summary) }}
           {% elif data[thing].description %}

@@ -1,0 +1,17 @@
+{% extends "type.html" %}
+
+{% block index %}
+  {%- for thing in related('type')|sort -%}
+    <h3>
+      {%- if not data[key].suppress_page_generation -%}
+        {{- link(thing) -}}
+      {%- else -%}
+        {{- thing -}}
+      {%- endif -%}
+    </h3>
+    {% if data[thing].subtitle %}
+      <h4>{{ data[thing].subtitle }}</h4>
+    {% endif %}
+    {{ md2html(data[thing].description) }}
+  {%- endfor -%}
+{% endblock index %}

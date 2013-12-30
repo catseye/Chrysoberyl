@@ -186,10 +186,10 @@
   medium: Java applet
   summary: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactive try out Whothm programs online.
+    which implements Whothm, and lets you interactively try out Whothm programs online.
   description: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactive try out Whothm programs online.  The implementation is only
+    which implements Whothm, and lets you interactively try out Whothm programs online.  The implementation is only
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
 
