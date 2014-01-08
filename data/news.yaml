@@ -1,5 +1,25 @@
 # encoding: UTF-8
 
+'Release of yoob.js version 0.5':
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 08 Jan 2014 19:19:33 GMT
+  blurb: |
+    [[yoob.js]] 0.5 has been released.
+  description: |
+    [[yoob.js]] has been mentioned in several announcements, but this is the
+    first announcement concerning it specifically.  It started out as a
+    project to replace [[yoob]], running esolangs in [[HTML5]] instead of a
+    [[Java]] applet, but as of this release — version 0.5 — it has grown some
+    generally-useful features for making animated and interactive things in
+    HTML5, especially on the `<canvas>` element.
+    
+    All that notwithstanding, this is a fairly minor announcement for a
+    fairly minor release.  The major version number is still at zero, and
+    there will likely be a few backwards-incompatible changes in the next
+    version.  But 0.5 has enough reasonably useful junk in it that it's a
+    comfortable snapshot of things at this stage.
+
 'Shelta v1.2 online in FreeDOS in v86':
   type: Article
   article-type: announcement
