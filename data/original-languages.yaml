@@ -867,6 +867,18 @@ tc.catseye.etcha:
   implementation-type: interpreter
   host-language: Java
 
+etcha.js:
+  type: Implementation
+  implementation-of:
+  - Etcha
+  in-distribution: Etcha distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: yoob.js API
+  online-locations:
+  - 'Etcha (HTML5)'
+
 tc.catseye.yoob.etcha:
   type: Implementation
   implementation-of:

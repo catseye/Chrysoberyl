@@ -64,6 +64,17 @@
     The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
+'Etcha (HTML5)':
+  type: Online Installation
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: true
+  medium: HTML5
+  description: |
+    This is an online implementation of [[Etcha]], a 2-dimensional esolang
+    which could be thought of as an attempt to combine [[Jeffry Johnston]]'s
+    [[BitChanger]] with turtle graphics.
+
 'Gemooy (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit
