@@ -3108,19 +3108,18 @@ Xoomonk:
     language constructs, including procedure activations, named parameters, and
     object-like data structures.
     
-    The Xoomonk project is also a bit of an experiment
-    in _test-driven language design_. The specification includes examples in
+    The Xoomonk project was also an experiment in _test-driven language design_.
+    The specification is largely composed of a number of example programs in
     the format of [[Falderal]] tests, which were written while the language was
-    being designed and could be used to compare an implementation (when one is
-    written) against the spec.
+    being designed.  These were used to compare the reference implementation,
+    while it was being developed, against the spec.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  defining-distribution: Xoomonk distribution
   computational-class: believed Turing-complete
   inception-date: Aug 7, 2011
-  development-stage: not fully complete
+  development-stage: mature
   sample: |
     l := $loop*
     counter := 5
