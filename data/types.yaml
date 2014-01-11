@@ -202,6 +202,8 @@ Automaton:
     
     For a list of just those automata produced by [[Cat's Eye Technologies]], see
     [[Chris Pressey's Lingography]].
+  images:
+    - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
   commentary: |
     What's the difference between an automaton and a
     [[Programming Language|programming language]] and a calculus
