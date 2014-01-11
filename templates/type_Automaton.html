@@ -1,0 +1,18 @@
+{% extends "type.html" %}
+
+{% block index %}
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      <li>
+        {%- if not data[key].suppress_page_generation -%}
+          <p>{{- link(thing) -}}</p>
+          {%- if online_buttons(thing) -%}
+            <p>{{ online_buttons(thing) }}</p>
+          {%- endif -%}
+        {%- else -%}
+          {{- thing -}}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{% endblock index %}
