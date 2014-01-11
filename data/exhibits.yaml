@@ -131,6 +131,52 @@
     [[noit o' mnain worb]] is a probabilistic particle automaton.
     This online interpreter is implemented in Javascript, on an HTML5 canvas.
 
+'Pixley (HTML5)':
+  type: Online Installation
+  # arguably Pixley is not an esolang, or at least not a very eso one.
+  exhibit: Esolangs Exhibit
+  interactive: true
+  animated: false
+  medium: HTML5
+  description: |
+    This is an online implementation of [[Pixley]], an extremely small
+    subset of [[Scheme]] (with only 12 built-in functions.)
+    
+    This online installation also depicts the Pixley program as a
+    series of coloured, nested rectangles
+  commentary: |
+    This [[Javascript]] implementation of Pixley uses the *Web Workers*
+    facility of your browser to run the evaluation process.  So, if your
+    browser does not support Web Workers, it may not function correctly.
+    
+    For the Pixley project, a Pixley interpreter was implemented in
+    Pixley itself ("meta-circularly") and in this installation,
+    the **Wrap in Pixley Interpreter** button will take the Pixley
+    program that has been loaded and put it inside this
+    Pixley-interpreter-in-Pixley.
+    
+    Evaluating a program wrapped in a Pixley interpreter will result
+    in the same result as the unwrapped program.  It will just take
+    longer.
+    
+    Evaluating a program wrapped in a Pixley interpreter
+    *wrapped in a Pixley interpreter* will also result
+    in the same result as the unwrapped program.  It will just take
+    *quite a bit* longer.
+    
+    In theory, this "tower" of wrapped interpreters could go on forever,
+    and they should all produce the same result.
+    
+    However, in physical reality, computers have limitations, such as
+    a finite amount of memory available.  In my installation of Firefox,
+    for example, wrapping a program in three levels of interpreters
+    results in a "stack overflow" error being displayed in the Javascript
+    console, and the evaluation process never finishing.
+  instructions: |
+    Select an example program from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example
+    program, or create your own program.
+
 'REDGREEN (HTML5)':
   type: Online Installation
   exhibit: Esolangs Exhibit

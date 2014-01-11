@@ -2197,6 +2197,19 @@ haney:
   build-requirements:
   - Parsec
 
+pixley.js:
+  type: Implementation
+  implementation-of:
+  - Pixley
+  in-distribution: Pixley distribution
+  reference: false
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: yoob.js API
+  online-locations:
+  - 'Pixley (HTML5)'
+
 pixley.pifx:
   type: Implementation
   implementation-of:
