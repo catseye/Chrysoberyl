@@ -1,5 +1,29 @@
 # encoding: UTF-8
 
+'De-pict-sly: Pixley and Etcha in HTML5':
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 11 Jan 2014 14:44:17 GMT
+  blurb: |
+    [[Pixley (HTML5)]] and [[Etcha (HTML5)]] are now online.
+  description: |
+    We present, just below, the [[Pixley]] reference interpreter (that is,
+    the one that's written meta-circularly in Pixley itself)
+    depicted as a set of nested, coloured rectangles.  Looks a bit like
+    an [integrated circuit](http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside),
+    perhaps, except without the wires.  I'll leave it to you to decide if this
+    is unsurprising or not.  You can see this and more in [[Pixley (HTML5)]].
+    
+    ![Pixley Interpreter as nested rectangles](/images/generated/Pixley.png)
+    
+    But that's not all!  We also present what happens when you run
+    that one [[Etcha]] example program over and over again.  Looks a bit like
+    a pattern produced by [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant),
+    and perhaps that is no surprise at all.  You can try this, and any other
+    Etcha program you care to concoct, yourself in [[Etcha (HTML5)]].
+    
+    ![An Etcha program state after many repetitions](/images/generated/Etcha.png)
+
 'Release of yoob.js version 0.5':
   type: Article
   article-type: announcement
