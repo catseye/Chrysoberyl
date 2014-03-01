@@ -75,6 +75,51 @@ Online Installation:
   - url: http://push.cwcon.org/
     title: PUSH
     description: source journal
+  links:
+    Digital Art Exhibit:
+      - url: http://www.paikstudios.com/
+        title: Nam June Paik
+      - url: http://www.kenknowlton.com/
+        title: Ken Knowlton
+      - url: http://asdfg.jodi.org/
+        title: JODI (asdfg)
+        description: warning, siezure-y
+      - url: http://x20xx.com/
+        title: x20xx
+      - url: http://www.lilinx.com/
+        title: "l'ilinx"
+      - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
+        title: Mathematical Art Galleries
+      - url: http://www.hugi.scene.org/online/
+        title: HUGI
+        description: demoscene mag
+      - url: http://www.logarithmic.net/ghost.xhtml
+        title: Ghost Diagrams
+        description: inferred patterns
+    Texts Exhibit:
+      - url: http://speculativefictions.weebly.com/
+        title: SPECULATIVE FICTIONS
+      - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
+        title: Gibberish Generator
+        description: Gnbb rii ehGrr
+      - url: http://hackertyper.com/
+        title: Hacker Typer
+      - url: http://oxism.com/TuringType/
+        title: TuringType
+      - url: http://push.cwcon.org/
+        title: PUSH
+        description: source journal
+    Music Exhibit:
+      - url: http://canonical.org/~kragen/bytebeat/
+        title: Bytebeat — Crowd
+        description: programmatic music
+    Pictures Exhibit:
+      - url: http://messerwerferin.minus.com/mknvESNGE
+        title: Guy de Cointet
+        description: encre et crayon sur papier
+      - url: http://www.cementimental.com/noisebook/
+        title: harsh noise
+
 
 Concept:
   type: type
