@@ -83,18 +83,15 @@ Online Installation:
     - url: http://www.logarithmic.net/ghost.xhtml
       title: Ghost Diagrams
       description: inferred patterns
+    - url: http://freeartbureau.org/
+      title: Free Art Bureau
     Computer Games Exhibit:
     - url: http://jsspeccy.zxdemo.org/
       title: JSSpeccy
       description: ZX Spectrum emu in HTML5
-    - url: http://canonical.org/~kragen/bytebeat/
-      title: Bytebeat — Crowd
-      description: programmatic music
-    - url: http://messerwerferin.minus.com/mknvESNGE
-      title: Guy de Cointet
-      description: encre et crayon sur papier
-    - url: http://www.cementimental.com/noisebook/
-      title: harsh noise
+    - url: http://tnd64.unikat.sk/jac64/
+      title: TND Games Room
+      description: C64 on JaC64
     Texts Exhibit:
     - url: http://speculativefictions.weebly.com/
       title: SPECULATIVE FICTIONS
