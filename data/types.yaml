@@ -22,11 +22,31 @@ Article:
 Online Installation:
   type: type
   description: |
-    Welcome to Cat's Eye Technologies' Gallery, the section of our website for the
-    exhibition of works made available online.  All are composed in
-    [[HTML5]] with [[Javascript]], except where noted (some are implemented
-    as [[Java]]™ applets instead.)  **Note:**
-    to conserve page space, many of the installations have a button in the
+    Welcome to the section of our website dedicated to our
+    **entertainment objects that can be enjoyed online**.
+    For more information, click the **?** button at the top of the page.
+  help-text: |
+    Welcome to Cat's Eye Technologies' Gallery, the section of our website
+    for the exhibition of our works made available online.
+    
+    What this means, in practice, is that they stand alone as works, and
+    can be viewed and interacted with directly in your web browser, without
+    you having to download anything.
+    
+    Historically, to experience one of our [[Esolang|esolangs]], you would
+    have to download and install at least some development tools (such as a
+    language interpreter.)
+    
+    Now, however, we are using the word "installation" in the sense it is
+    used by artists — *something put somewhere*, basically — and from this
+    point forward, we hope to have most of our esolangs (and our other
+    things) *installed online*.
+    
+    The great majority of these online installations are implemented in
+    [[HTML5]] with [[Javascript]], to maximize their accessibility.  Some
+    are implemented as [[Java]]™ applets which run in the browser instead.
+    
+    To conserve page space, many of the installations have a button in the
     upper-right that you can click for more information about that work.
     Look for it.
   links:
@@ -38,66 +58,66 @@ Online Installation:
       title: Turing Drawings
       description: by Maxime Chevalier-Boisvert
     Digital Art Exhibit:
-      - url: http://www.paikstudios.com/
-        title: Nam June Paik
-      - url: http://www.kenknowlton.com/
-        title: Ken Knowlton
-      - url: http://asdfg.jodi.org/
-        title: JODI (asdfg)
-        description: warning, siezure-y
-      - url: http://x20xx.com/
-        title: x20xx
-      - url: http://automata.cc/
-        title: automata.cc
-        description: by Vilson Viera
-      - url: http://www.lilinx.com/
-        title: "l'ilinx"
-      - url: http://hazelcough.zxq.net/divart.html
-        title: Div Art!
-        description: by Michelle Bu
-      - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
-        title: Mathematical Art Galleries
-      - url: http://www.hugi.scene.org/online/
-        title: HUGI
-        description: demoscene mag
-      - url: http://www.logarithmic.net/ghost.xhtml
-        title: Ghost Diagrams
-        description: inferred patterns
+    - url: http://www.paikstudios.com/
+      title: Nam June Paik
+    - url: http://www.kenknowlton.com/
+      title: Ken Knowlton
+    - url: http://asdfg.jodi.org/
+      title: JODI (asdfg)
+      description: warning, siezure-y
+    - url: http://x20xx.com/
+      title: x20xx
+    - url: http://automata.cc/
+      title: automata.cc
+      description: by Vilson Viera
+    - url: http://www.lilinx.com/
+      title: "l'ilinx"
+    - url: http://hazelcough.zxq.net/divart.html
+      title: Div Art!
+      description: by Michelle Bu
+    - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
+      title: Mathematical Art Galleries
+    - url: http://www.hugi.scene.org/online/
+      title: HUGI
+      description: demoscene mag
+    - url: http://www.logarithmic.net/ghost.xhtml
+      title: Ghost Diagrams
+      description: inferred patterns
     Computer Games Exhibit:
-      - url: http://jsspeccy.zxdemo.org/
-        title: JSSpeccy
-        description: ZX Spectrum emu in HTML5
-      - url: http://canonical.org/~kragen/bytebeat/
-        title: Bytebeat — Crowd
-        description: programmatic music
-      - url: http://messerwerferin.minus.com/mknvESNGE
-        title: Guy de Cointet
-        description: encre et crayon sur papier
-      - url: http://www.cementimental.com/noisebook/
-        title: harsh noise
+    - url: http://jsspeccy.zxdemo.org/
+      title: JSSpeccy
+      description: ZX Spectrum emu in HTML5
+    - url: http://canonical.org/~kragen/bytebeat/
+      title: Bytebeat — Crowd
+      description: programmatic music
+    - url: http://messerwerferin.minus.com/mknvESNGE
+      title: Guy de Cointet
+      description: encre et crayon sur papier
+    - url: http://www.cementimental.com/noisebook/
+      title: harsh noise
     Texts Exhibit:
-      - url: http://speculativefictions.weebly.com/
-        title: SPECULATIVE FICTIONS
-      - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
-        title: Gibberish Generator
-        description: Gnbb rii ehGrr
-      - url: http://hackertyper.com/
-        title: Hacker Typer
-      - url: http://oxism.com/TuringType/
-        title: TuringType
-      - url: http://push.cwcon.org/
-        title: PUSH
-        description: source journal
+    - url: http://speculativefictions.weebly.com/
+      title: SPECULATIVE FICTIONS
+    - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
+      title: Gibberish Generator
+      description: Gnbb rii ehGrr
+    - url: http://hackertyper.com/
+      title: Hacker Typer
+    - url: http://oxism.com/TuringType/
+      title: TuringType
+    - url: http://push.cwcon.org/
+      title: PUSH
+      description: source journal
     Music Exhibit:
-      - url: http://canonical.org/~kragen/bytebeat/
-        title: Bytebeat — Crowd
-        description: programmatic music
+    - url: http://canonical.org/~kragen/bytebeat/
+      title: Bytebeat — Crowd
+      description: programmatic music
     Pictures Exhibit:
-      - url: http://messerwerferin.minus.com/mknvESNGE
-        title: Guy de Cointet
-        description: encre et crayon sur papier
-      - url: http://www.cementimental.com/noisebook/
-        title: harsh noise
+    - url: http://messerwerferin.minus.com/mknvESNGE
+      title: Guy de Cointet
+      description: encre et crayon sur papier
+    - url: http://www.cementimental.com/noisebook/
+      title: harsh noise
 
 
 Concept:
