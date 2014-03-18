@@ -3,6 +3,8 @@
 
 'Bubble Escape (JaC64)':
   type: Online Installation
+  # Bubble Escape 2K, actually, but for now this field is an implementable
+  installation-of: Bubble Escape
   exhibit: Computer Games Exhibit
   interactive: true
   animated: true
@@ -31,6 +33,7 @@
 
 'Super Wumpus Land (HTML5)':
   type: Online Installation
+  installation-of: Super Wumpus Land
   exhibit: Computer Games Exhibit
   interactive: true
   animated: true
@@ -50,6 +53,7 @@
 
 'Braktif (HTML5)':
   type: Online Installation
+  installation-of: Braktif
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -63,6 +67,7 @@
 
 'Circute (HTML5)':
   type: Online Installation
+  installation-of: Circute
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -76,6 +81,7 @@
 
 'Etcha (HTML5)':
   type: Online Installation
+  installation-of: Etcha
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -89,6 +95,7 @@
 
 'Gemooy (HTML5)':
   type: Online Installation
+  installation-of: Gemooy
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -101,6 +108,7 @@
 
 'Jaccia (HTML5)':
   type: Online Installation
+  installation-of: Jaccia
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -121,6 +129,7 @@
 
 'Jacciata (HTML5)':
   type: Online Installation
+  installation-of: Jacciata
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -141,6 +150,7 @@
 
 "noit o' mnain worb (HTML5)":
   type: Online Installation
+  installation-of: "noit o' mnain worb"
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -153,6 +163,7 @@
 
 'Pixley (HTML5)':
   type: Online Installation
+  installation-of: Pixley
   # arguably Pixley is not an esolang, or at least not a very eso one.
   exhibit: Esolangs Exhibit
   interactive: true
@@ -202,6 +213,7 @@
 
 'REDGREEN (HTML5)':
   type: Online Installation
+  installation-of: REDGREEN
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -216,6 +228,7 @@
 # about'ed (only esolang that is, so far)
 'Shelta (v86)':
   type: Online Installation
+  installation-of: Shelta
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -266,6 +279,7 @@
 
 'Whothm (Applet)':
   type: Online Installation
+  installation-of: Whothm
   exhibit: Esolangs Exhibit
   interactive: true
   animated: false
@@ -283,6 +297,7 @@
 
 'yoob (Applet)':
   type: Online Installation
+  installation-of: yoob
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
@@ -302,6 +317,7 @@
 
 'ZOWIE (HTML5)':
   type: Online Installation
+  installation-of: ZOWIE
   exhibit: Esolangs Exhibit
   interactive: true
   animated: false
@@ -382,6 +398,7 @@
 
 'Cyclobots (HTML5)':
   type: Online Installation
+  installation-of: Cyclobots
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
