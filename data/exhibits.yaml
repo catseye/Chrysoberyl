@@ -1,6 +1,17 @@
 # encoding: UTF-8
 ### Exhibits ###
 
+Featured Exhibit:
+  type: Exhibit
+  title: ★ Featured
+  id: featured_exhibit
+  description: |
+    These online installations have been hand-picked by our
+    experts to provide you with hours of enjoyment (or minutes,
+    depending on your attention span.)   But be sure to
+    check out the other exhibits in the other tabs as well,
+    before you go.
+
 Esolangs Exhibit:
   type: Exhibit
   title: Esolangs
@@ -70,7 +81,9 @@ Texts Exhibit:
   type: Online Installation
   # Bubble Escape 2K, actually, but for now this field is an implementable
   installation-of: Bubble Escape
-  exhibit: Computer Games Exhibit
+  exhibits:
+  - Computer Games Exhibit
+  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -99,7 +112,8 @@ Texts Exhibit:
 'Super Wumpus Land (HTML5)':
   type: Online Installation
   installation-of: Super Wumpus Land
-  exhibit: Computer Games Exhibit
+  exhibits:
+  - Computer Games Exhibit
   interactive: true
   animated: true
   mediums:
@@ -119,7 +133,8 @@ Texts Exhibit:
 'Braktif (HTML5)':
   type: Online Installation
   installation-of: Braktif
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -133,7 +148,8 @@ Texts Exhibit:
 'Circute (HTML5)':
   type: Online Installation
   installation-of: Circute
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -147,7 +163,8 @@ Texts Exhibit:
 'Etcha (HTML5)':
   type: Online Installation
   installation-of: Etcha
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -161,7 +178,8 @@ Texts Exhibit:
 'Gemooy (HTML5)':
   type: Online Installation
   installation-of: Gemooy
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -174,7 +192,8 @@ Texts Exhibit:
 'Jaccia (HTML5)':
   type: Online Installation
   installation-of: Jaccia
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -195,7 +214,8 @@ Texts Exhibit:
 'Jacciata (HTML5)':
   type: Online Installation
   installation-of: Jacciata
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -216,7 +236,9 @@ Texts Exhibit:
 "noit o' mnain worb (HTML5)":
   type: Online Installation
   installation-of: "noit o' mnain worb"
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
+  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -230,7 +252,9 @@ Texts Exhibit:
   type: Online Installation
   installation-of: Pixley
   # arguably Pixley is not an esolang, or at least not a very eso one.
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
+  - Featured Exhibit
   interactive: true
   animated: false
   mediums:
@@ -279,7 +303,8 @@ Texts Exhibit:
 'REDGREEN (HTML5)':
   type: Online Installation
   installation-of: REDGREEN
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -294,7 +319,8 @@ Texts Exhibit:
 'Shelta (v86)':
   type: Online Installation
   installation-of: Shelta
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -345,7 +371,8 @@ Texts Exhibit:
 'Whothm (Applet)':
   type: Online Installation
   installation-of: Whothm
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: false
   mediums:
@@ -363,7 +390,8 @@ Texts Exhibit:
 'yoob (Applet)':
   type: Online Installation
   installation-of: yoob
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -383,7 +411,8 @@ Texts Exhibit:
 'ZOWIE (HTML5)':
   type: Online Installation
   installation-of: ZOWIE
-  exhibit: Esolangs Exhibit
+  exhibits:
+  - Esolangs Exhibit
   interactive: true
   animated: false
   mediums:
@@ -407,7 +436,8 @@ Texts Exhibit:
 'A Non-Random Walk (HTML5)':
   type: Online Installation
   installation-of: A Non-Random Walk
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -436,7 +466,8 @@ Texts Exhibit:
 'Chzrxl (HTML5)':
   type: Online Installation
   installation-of: Chzrxl
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -466,7 +497,9 @@ Texts Exhibit:
 'Cyclobots (HTML5)':
   type: Online Installation
   installation-of: Cyclobots
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
+  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -487,7 +520,8 @@ Texts Exhibit:
 'Fibonacci Spiral (HTML5)':
   type: Online Installation
   installation-of: Fibonacci Spiral
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -506,7 +540,8 @@ Texts Exhibit:
 'Fingerspelling (HTML5)':
   type: Online Installation
   installation-of: Fingerspelling
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -529,7 +564,9 @@ Texts Exhibit:
 'Hirsute Miasma (HTML5)':
   type: Online Installation
   installation-of: Hirsute Miasma
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
+  - Featured Exhibit
   interactive: false
   animated: true
   mediums:
@@ -547,7 +584,8 @@ Texts Exhibit:
 'Heronsis hermnonicii (HTML5)':
   type: Online Installation
   installation-of: Heronsis hermnonicii
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -577,7 +615,8 @@ Texts Exhibit:
 'Hypongtrochoid (HTML5)':
   type: Online Installation
   installation-of: Hypongtrochoid
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -602,7 +641,8 @@ Texts Exhibit:
 'Multicolouralism (HTML5)':
   type: Online Installation
   installation-of: Multicolouralism
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -625,7 +665,8 @@ Texts Exhibit:
 'Plea of Thunder (Applet)':
   type: Online Installation
   installation-of: Plea of Thunder
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -639,7 +680,8 @@ Texts Exhibit:
 'Prairie (HTML5)':
   type: Online Installation
   installation-of: Prairie
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -658,7 +700,9 @@ Texts Exhibit:
 'Progression (HTML5)':
   type: Online Installation
   installation-of: Progression
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
+  - Featured Exhibit
   interactive: false
   animated: true
   mediums:
@@ -679,7 +723,8 @@ Texts Exhibit:
 'The Frame (HTML5)':
   type: Online Installation
   installation-of: The Frame
-  exhibit: Digital Art Exhibit
+  exhibits:
+  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:

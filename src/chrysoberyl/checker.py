@@ -188,6 +188,7 @@ def check_chrysoberyl_node(data, key, node):
 
     if type_ == 'Online Installation':
         assert 'exhibit-link' not in node
+        assert 'exhibit' not in node
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
         check_list_ref(data, key, node, 'mediums',
@@ -196,7 +197,7 @@ def check_chrysoberyl_node(data, key, node):
         check_scalar_ref(data, key, node, 'installation-of',
                          types=('Game', 'Gewgaw', 'Automaton', 'Platform',
                                 'Programming Language'))
-        check_scalar_ref(data, key, node, 'exhibit',
+        check_list_ref(data, key, node, 'exhibits',
                          types=('Exhibit',))
 
     if type_ == 'Distribution':
