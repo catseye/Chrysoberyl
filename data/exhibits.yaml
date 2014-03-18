@@ -443,6 +443,17 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 600
+  canvas-height: 360
+  control-panel: |
+    <button id="reset" onclick="t.reset();">Reset</button>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
+  javascript-main: |
+    var t = new NonRandomWalk();
+    t.init(document.getElementById('canvas'));
 
 'Chzrxl (HTML5)':
   type: Online Installation
