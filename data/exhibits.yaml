@@ -1,4 +1,69 @@
 # encoding: UTF-8
+### Exhibits ###
+
+Esolangs Exhibit:
+  type: Exhibit
+  title: Esolangs
+  id: esolangs_exhibit
+  description: |
+    [[Esolang|Esoteric programming languages]] with which you
+    can experiment.  By selecting sample
+    programs and watching them run, you can gain an appreciation of how the
+    esolang works; by composing your own programs, you can gain an
+    even better appreciation.
+
+Digital Art Exhibit:
+  type: Exhibit
+  title: Gewgaws
+  id: gewgaws_exhibit
+  description: |
+    Digital art (audiovisual, animated, interactive, or otherwise) which you
+    can experience online.  (That's not to say that
+    [[Programming Languages as an Artistic Medium|esolangs]]
+    and [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
+    aren't art *too*, of course.)
+
+Computer Games Exhibit:
+  type: Exhibit
+  title: Games
+  id: games_exhibit
+  description: |
+    [[Game]]s which you can play online.  Some games are for
+    the [[Commodore 64]], and these ones are web-enabled by the
+    [[JaC64]] Java™ applet.
+
+Music Exhibit:
+  type: Exhibit
+  title: Music
+  id: music_exhibit
+  description: |
+    All of the [[Musical Composition|musical compositions]] by
+    [[What is this I don't even]] for which we have [[mp3|MP3's]]
+    on this website.  You can play them online here if you have
+    a Flash player in your browser.
+
+Pictures Exhibit:
+  type: Exhibit
+  title: Pictures
+  id: pictures_exhibit
+  description: |
+    Pictures — drawings, paintings, photos, computer-generated images, whatever.
+    
+    Note that concrete poetry and the like may be
+    listed under this tab, or Texts, or both.
+
+Texts Exhibit:
+  type: Exhibit
+  title: Texts
+  id: texts_exhibit
+  description: |
+    Texts. But isn't everything in [[Chrysoberyl]] a text
+    of some sort?  Yes, but those are texts *about* something.
+    These are texts that stand as works on their own.
+    
+    Note that concrete poetry and the like may be
+    listed under this tab, or Pictures, or both.
+
 ### Games ###
 
 'Bubble Escape (JaC64)':

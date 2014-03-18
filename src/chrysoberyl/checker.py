@@ -143,9 +143,9 @@ def check_chrysoberyl_node(data, key, node):
     check_optional_list_ref(data, key, node, 'see-also')
     check_optional_scalar_ref(data, key, node, 'genre')
     check_optional_list_ref(data, key, node, 'authors',
-        types=['Individual', 'Organization'])
+        types=('Individual', 'Organization'))
     check_optional_list_ref(data, key, node, 'auspices',
-        types=['Organization'])
+        types=('Organization',))
     check_optional_list_ref(data, key, node, 'influences')
     # These two fields go together.
     if 'auspices' in node:
@@ -153,7 +153,7 @@ def check_chrysoberyl_node(data, key, node):
     if 'submitted-to' in node:
         for sub in node['submitted-to']:
             check_scalar_ref(data, key, sub, 'competition',
-                             types=['Competition'])
+                             types=('Competition',))
     if 'images' in node:
         for image in node['images']:
             assert 'url' in image, 'image %r has no url' % image
@@ -178,7 +178,7 @@ def check_chrysoberyl_node(data, key, node):
             "legacy field '%s' found in '%s'" % (legacy_field, key)
 
     check_optional_scalar_ref(data, key, node, 'development-stage',
-                              types=['Development Stage'])
+                              types=('Development Stage',))
 
     # On to checking fields specific to different types.
 
@@ -191,11 +191,13 @@ def check_chrysoberyl_node(data, key, node):
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
         check_list_ref(data, key, node, 'mediums',
-                       types=['Platform', 'Programming Language',
-                              'Implementation'])
+                       types=('Platform', 'Programming Language',
+                              'Implementation'))
         check_scalar_ref(data, key, node, 'installation-of',
-                         types=['Game', 'Gewgaw', 'Automaton', 'Platform',
-                                'Programming Language'])
+                         types=('Game', 'Gewgaw', 'Automaton', 'Platform',
+                                'Programming Language'))
+        check_scalar_ref(data, key, node, 'exhibit',
+                         types=('Exhibit',))
 
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \
@@ -207,7 +209,7 @@ def check_chrysoberyl_node(data, key, node):
         check_list_ref(data, key, node, 'implementation-of')
         check_optional_scalar_ref(data, key, node,
                                   'recommended-implementation',
-                                  types=['Implementation'])
+                                  types=('Implementation',))
 
         # for convenience, bring in the type of the thing being implemented
         # the first thing.  we assume they're all the same type.  but...
@@ -215,48 +217,48 @@ def check_chrysoberyl_node(data, key, node):
         # Zoning Variance #5!
         impl_of_type = data[node['implementation-of'][0]]['type']
 
-        check_scalar_ref(data, key, node, 'license', types=['License'])
+        check_scalar_ref(data, key, node, 'license', types=('License',))
         if 'in-distribution' in node:
             assert 'in-distributions' not in node
             node['in-distributions'] = [node['in-distribution']]
             del node['in-distribution']
         check_optional_list_ref(data, key, node, 'in-distributions',
-                                  types=['Distribution'])
+                                  types=('Distribution',))
         check_optional_list_ref(data, key, node, 'prebuilt-for-platforms',
-                                  types=['Platform', 'Programming Language'])
+                                  types=('Platform', 'Programming Language'))
         if impl_of_type == 'Musical Composition':
             check_scalar_ref(data, key, node, 'host-language',
-                             types=['Music Format'])
+                             types=('Music Format',))
         else:
             check_scalar_ref(data, key, node, 'host-language',
-                             types=['Programming Language'])
+                             types=('Programming Language',))
         check_optional_scalar_ref(data, key, node, 'host-platform',
-                         types=['Platform'])
+                         types=('Platform',))
         # these shouldn't really be needed.  derive, derive!
         # I really don't like that 'Programming Language' is in these
         check_optional_list_ref(data, key, node, 'build-requirements',
-                         types=['Library', 'Tool', 'Programming Language'])
+                         types=('Library', 'Tool', 'Programming Language'))
         check_optional_list_ref(data, key, node, 'run-requirements',
-                         types=['Library', 'Tool', 'Programming Language'])
+                         types=('Library', 'Tool', 'Programming Language'))
 
         if impl_of_type == 'Platform':
             check_scalar_ref(data, key, node, 'implementation-type',
-                             types=['Implementation Type'])
+                             types=('Implementation Type',))
             platimpls = ('emulator', 'framework', 'operating system')
             assert node['implementation-type'] in platimpls, \
                 "Platform has implementation %s not in %r" % \
                     (key, platimpls)
         elif impl_of_type == 'Programming Language':
             check_scalar_ref(data, key, node, 'implementation-type',
-                             types=['Implementation Type'])
+                             types=('Implementation Type',))
             if node['implementation-type'] == 'compiler':
                 check_scalar_ref(data, key, node, 'target-language',
-                                 types=['Programming Language'])
+                                 types=('Programming Language',))
                 check_optional_scalar_ref(data, key, node, 'target-platform',
                                  types=['Platform'])
         else:
             check_optional_scalar_ref(data, key, node, 'implementation-type',
-                             types=['Implementation Type'])
+                             types=('Implementation Type',))
 
         if 'authors' not in node:
             # TODO: assert there's only one
@@ -319,11 +321,11 @@ def check_chrysoberyl_node(data, key, node):
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
         check_list_ref(data, key, node, 'authors')
         check_list_ref(data, key, node, 'paradigms',
-                       types=['Programming Paradigm'])
+                       types=('Programming Paradigm',))
         check_optional_scalar_ref(data, key, node, 'computational-class',
-                                  types=['Computational Class'])
+                                  types=('Computational Class',))
         check_optional_scalar_ref(data, key, node, 'member-of',
-                                  types=['Programming Language Family'])
+                                  types=('Programming Language Family',))
 
     if type_ == 'Programming Language Family':
         check_scalar_ref(data, key, node, 'genre', types=['Genre'])
