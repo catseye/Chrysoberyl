@@ -443,25 +443,6 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    This is an animated version of the "non-random walk" on p. 72 of
-    [[Mathematical Circus]] by [[Martin Gardner]].
-  instructions: |
-    Pick a card, any card.  Half are red, half are black.  Each time a
-    card is picked, the wheel moves.  The distance moved is always
-    half the distance from the wheel to the origin (the black dot), *but*
-    the direction depends on the colour of the card: red moves left,
-    black moves right.
-  description: |
-    This is an animated version of the "non-random walk" on p. 72 of
-    [[Mathematical Circus]] by [[Martin Gardner]].
-    
-    Because the cards are shuffled, the picks are random, and you might think
-    that it's not possible to tell where the wheel will stop, once all cards
-    have been turned over.  However, that's not the case.  The wheel always
-    stops at a distance *a* - *a* × 0.75^*n* from the origin, where *a* is
-    the starting position of the wheel, and *n* is the number of red (or black)
-    cards.
 
 'Chzrxl (HTML5)':
   type: Online Installation
@@ -473,26 +454,6 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
-    lava lamp?
-  description: |
-    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
-    lava lamp?
-    
-    Regardless, the original idea was this: each ball travels on a
-    sine-wave path (kind of like a spring) between a randomly-chosen
-    pair of two other balls.
-    
-    It was soon discovered that if all balls are free to move like this,
-    they all quickly collapse to a single point.  Thus, some number of
-    balls are held fixed (5% by default).  The result is a slightly
-    organic-seeming emergent motion.
-    
-    The percentage of balls held fixed can be changed by the slider, and
-    the "Restart" button can be used to scatter the balls and restart their
-    movements.  You can try out different values and see which one you like
-    the best.
 
 'Cyclobots (HTML5)':
   type: Online Installation
@@ -512,6 +473,7 @@ Texts Exhibit:
     Each "cyclobot" tries to follow exactly one other cyclobot, adjusting
     its heading to point towards the cyclobot it is following.
     No cylobot is followed by more than one cyclobot.
+  instructions: |
     When a revolution occurs, every cyclobot picks a new cyclobot to follow
     at random.
     In case the cyclobots leave the viewable area of the playfield,
@@ -527,15 +489,6 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    A spiral made up of semicircles with proportions in the Fibonacci sequence.
-  description: |
-    A spiral made up of semicircles with proportions in the Fibonacci sequence.
-    The semicircles alternate being on the left and the right.  The first
-    two terms of the Fibonacci sequence are `1, 1` and these make up the unit
-    circle in the center of the spiral.
-    
-    The animation is simply a zooming out and back in on the spiral.
 
 'Fingerspelling (HTML5)':
   type: Online Installation
