@@ -266,6 +266,22 @@ AmigaBasic:
   authors: []
 
 
+Java applet:
+  type: Platform
+  specification-link: http://www.oracle.com/technetwork/java/index.html
+  # oh, were that i could say that this was accurate.  oh well:
+  development-stage: mature
+  # actually, "JVM bytecode", but we can live with this fudge I'm sure
+  native-language: Java
+  other-languages: []
+  references:
+  - title: Oracle Technology Network > Java
+    description: Official website of the Java™ Platform
+    url: http://www.oracle.com/technetwork/java/index.html
+  - title: Java Specs
+    description: The Java™ Virtual Machine and Language Specifications
+    url: http://docs.oracle.com/javase/specs/
+
 HTML5:
   type: Platform
   # this'll do, for now
@@ -300,3 +316,11 @@ HTML5:
     The number one best thing about HTML5, in my opinion, is the
     `<canvas>` element.  At long last, I can just _draw stuff_ on a web page,
     and that's actually really nice.
+
+Web Workers:
+  # because i believe it's technically not a part of HTML5
+  type: Platform
+  specification-link: http://www.w3.org/TR/workers/
+  development-stage: work in progress
+  native-language: Javascript
+  other-languages: []

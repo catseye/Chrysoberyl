@@ -357,14 +357,15 @@ class Renderer(object):
                         html += '<a class="button" href="'
                         html += sleek_key(loc)
                         html += '">'
+                        mediums = ' on '.join(self.data[loc]['mediums'])
                         if show_verb_phrase:
                             if self.data[key]['type'] == 'Game':
                                 html += 'Play'
                             else:
                                 html += 'Try it'
-                            html += ' Online (%s)' % self.data[loc]['medium']
+                            html += ' Online (%s)' % mediums
                         else:
-                            html += self.data[loc]['medium']
+                            html += mediums
                         html += '</a> '
                 if self.data[impl]['host_language'] == 'mp3' and \
                    'download-link' in self.data[impl]:

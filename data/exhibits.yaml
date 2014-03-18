@@ -6,7 +6,11 @@
   exhibit: Computer Games Exhibit
   interactive: true
   animated: true
-  medium: JaC64
+  mediums:
+  - 6502 machine code
+  - JaC64
+  - Java applet
+  - HTML5
   summary: |
     [[Bubble Escape 2K]] is an [[Mini Game Compo 2009|award-winning]]
     video game where you guide a soap bubble through a multi-screen maze.
@@ -30,7 +34,9 @@
   exhibit: Computer Games Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     [[Super Wumpus Land]], our "extended dance mix" version of
     Gregory Yob's [[Hunt the Wumpus]], is playable online in an
@@ -47,7 +53,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   ca-definition-link: https://github.com/catseye/Braktif/blob/master/src/braktif.alp
   description: |
     The [[Braktif]] cellular automaton, compiled to Javascript using [[ALPACA]]
@@ -58,7 +66,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   ca-definition-link: https://github.com/catseye/Circute/blob/master/src/circute.alp
   description: |
     The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
@@ -69,7 +79,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   description: |
     This is an online implementation of [[Etcha]], a 2-dimensional esolang
     which could be thought of as an attempt to combine [[Jeffry Johnston]]'s
@@ -80,7 +92,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   description: |
     [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
     This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
@@ -90,7 +104,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   ca-definition-link: https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp
   summary: |
     The [[Jaccia]] cellular automaton, which demonstrates that cellular automata are
@@ -108,7 +124,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   ca-definition-link: https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp
   summary: |
     The [[Jacciata]] cellular automaton, which demonstrates that cellular automata are
@@ -126,7 +144,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   description: |
     [[noit o' mnain worb]] is a probabilistic particle automaton.
     This online interpreter is implemented in Javascript, on an HTML5 canvas.
@@ -137,7 +157,10 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: false
-  medium: HTML5
+  mediums:
+  - Javascript
+  - Web Workers
+  - HTML5
   description: |
     This is an online implementation of [[Pixley]], an extremely small
     subset of [[Scheme]], with only 12 built-in functions.
@@ -182,7 +205,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   ca-definition-link: https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp
   description: |
     The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
@@ -194,7 +219,11 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: v86
+  mediums:
+  - x86 machine code
+  - FreeDOS
+  - v86
+  - HTML5
   summary: |
     This is [[Shelta]], a language with a tiny compiler and a
     self-hosted compiler, running under [[FreeDOS]] under [[v86]]
@@ -240,7 +269,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: false
-  medium: Java applet
+  mediums:
+  - Java applet
+  - HTML5
   summary: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
     which implements Whothm, and lets you interactively try out Whothm programs online.
@@ -255,7 +286,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: true
-  medium: Java applet
+  mediums:
+  - Java applet
+  - HTML5
   description: |
     [[yoob]] is a public-domain framework for implementing
     [[Esolang|esoteric programming languages]], and allowing them to be
@@ -272,7 +305,9 @@
   exhibit: Esolangs Exhibit
   interactive: true
   animated: false
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     This is an HTML5-based interpreter for the
     esoteric programming language [[ZOWIE]].  
@@ -293,7 +328,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     This is an animated version of the "non-random walk" on p. 72 of
     [[Mathematical Circus]] by [[Martin Gardner]].
@@ -319,7 +356,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
     lava lamp?
@@ -346,7 +385,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     An in-browser implementation of [[Cyclobots]].
   description: |
@@ -364,7 +405,9 @@
   exhibit: Digital Art Exhibit
   interactive: false
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     A spiral made up of semicircles with proportions in the Fibonacci sequence.
   description: |
@@ -380,7 +423,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     A simple interactive HTML5 entertainment, intended to be experienced
     on a touchscreen device.
@@ -400,7 +445,9 @@
   exhibit: Digital Art Exhibit
   interactive: false
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     A somewhat eerie computed animation.
   description: |
@@ -415,7 +462,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   instructions: |
     It is primarily meant to just be watched, but you may find it entertaining
     to try clicking on the entities.
@@ -442,7 +491,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     "Hypongtrochoid" is a portmanteau of
     [hypotrochoid](http://en.wikipedia.org/wiki/Hypotrochoid)
@@ -464,7 +515,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     Animated op art: an interactive bleeding of colours.
   description: |
@@ -484,7 +537,9 @@
   exhibit: Digital Art Exhibit
   interactive: false
   animated: true
-  medium: Java applet
+  mediums:
+  - Java applet
+  - HTML5
   summary: |
     Conceptual art: A Java applet that you and your friends can own!
   description: |
@@ -495,7 +550,9 @@
   exhibit: Digital Art Exhibit
   interactive: false
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     An animated impressionistic depiction of the prairies.
   description: |
@@ -511,7 +568,9 @@
   exhibit: Digital Art Exhibit
   interactive: false
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   summary: |
     Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
   description: |
@@ -529,7 +588,9 @@
   exhibit: Digital Art Exhibit
   interactive: true
   animated: true
-  medium: HTML5
+  mediums:
+  - Javascript
+  - HTML5
   instructions: | 
     Note 1. Green things can be dragged.  
     Note 2. Due to technical limitations, things cannot be dragged off

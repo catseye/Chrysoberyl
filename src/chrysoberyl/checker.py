@@ -190,7 +190,9 @@ def check_chrysoberyl_node(data, key, node):
         assert 'exhibit-link' not in node
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
-        assert 'medium' in node
+        check_list_ref(data, key, node, 'mediums',
+                       types=['Platform', 'Programming Language',
+                              'Implementation'])
 
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \
