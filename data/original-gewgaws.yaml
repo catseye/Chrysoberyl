@@ -67,6 +67,9 @@ The PETulant Cursor distribution:
 
 
 #-------------------
+# Note, the online-locations on these gewgaws don't work, because they
+# need to be on implementations, not on gewgaws.
+#-------------------
 
 'A Non-Random Walk':
   type: Gewgaw
@@ -90,6 +93,15 @@ The PETulant Cursor distribution:
     the starting position of the wheel, and *n* is the number of red (or black)
     cards.
 
+a-non-random-walk.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - A Non-Random Walk
+  online-locations:
+  - 'A Non-Random Walk (HTML5)'
+  
 Chzrxl:
   # automaton?
   type: Gewgaw
@@ -114,6 +126,15 @@ Chzrxl:
     movements.  You can try out different values and see which one you like
     the best.
 
+chzrxl.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Chzrxl
+  online-locations:
+  - 'Chzrxl (HTML5)'
+
 Fibonacci Spiral:
   type: Gewgaw
   development-stage: mature
@@ -128,6 +149,8 @@ Fibonacci Spiral:
     circle in the center of the spiral.
     
     The animation is simply a zooming out and back in on the spiral.
+  online-locations:
+  - 'Fibonacci Spiral (HTML5)'
 
 Fingerspelling:
   type: Gewgaw
@@ -144,6 +167,8 @@ Fingerspelling:
   commentary: |    
     This is most certainly a gewgaw.  It should provide you about
     20 seconds of entertainment, give or take.
+  online-locations:
+  - 'Fingerspelling (HTML5)'
 
 Hirsute Miasma:
   type: Gewgaw
@@ -156,6 +181,8 @@ Hirsute Miasma:
     The animation will eventually cycle if you're patient (although it won't
     of course cycle exactly, as there is a random element.)  You may enable
     the "terminal" option to prevent this cycling.
+  online-locations:
+  - 'Hirsute Miasma (HTML5)'
 
 Heronsis hermnonicii:
   type: Gewgaw
@@ -180,6 +207,8 @@ Heronsis hermnonicii:
     are not necessary.
     
     Plus it's fun to click on the red balls.
+  online-locations:
+  - 'Heronsis hermnonicii (HTML5)'
 
 Hypongtrochoid:
   type: Gewgaw
@@ -197,6 +226,8 @@ Hypongtrochoid:
     relative to the box it is contained in, and bounces around inside it in a
     simple fashion.  Yet the path traced out by the innermost box is not very
     simple at all.
+  online-locations:
+  - 'Hypongtrochoid (HTML5)'
 
 Multicolouralism:
   type: Gewgaw
@@ -216,14 +247,18 @@ Multicolouralism:
     You certainly *can*, but how much you see them seems to depend on
     several factors (your computer, monitor, lighting, persistence
     of vision, focus and peripheral vision...)
+  online-locations:
+  - 'Multicolouralism (HTML5)'
 
 Plea of Thunder:
   type: Gewgaw
   development-stage: not fully complete
-  defining-distribution: HTML5 Gewgaws distribution
+  no-specification: true
   inception-date: 2012
   summary: |
     Conceptual art: A Java applet that you and your friends can own!
+  online-locations:
+  - 'Plea of Thunder (HTML5)'
 
 Prairie:
   type: Gewgaw
@@ -237,6 +272,8 @@ Prairie:
     learning about the capabilities of `<canvas>` — something about the
     wind and the wheat...  The background is a public-domain drawing
     of a grain elevator taken from Wikimedia.
+  online-locations:
+  - 'Prairie (HTML5)'
 
 Progression:
   type: Gewgaw
@@ -252,6 +289,8 @@ Progression:
     interesting around 100 iterations, and starts stopping being interesting
     around 1550.  In Chromium, you can still see some activity at about 2000
     iterations, but it's very faint thereafter.
+  online-locations:
+  - 'Progression (HTML5)'
 
 The Frame:
   type: Gewgaw
@@ -269,3 +308,5 @@ The Frame:
     This piece was conceived and begun in late summer or early autumn of 2012,
     in Winnipeg, and finished up and released from Cornwall in spring of
     2013.
+  online-locations:
+  - 'The Frame (HTML5)'
