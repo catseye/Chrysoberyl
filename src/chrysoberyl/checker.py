@@ -193,9 +193,9 @@ def check_chrysoberyl_node(data, key, node):
         check_list_ref(data, key, node, 'mediums',
                        types=['Platform', 'Programming Language',
                               'Implementation'])
-        check_optional_scalar_ref(data, key, node, 'installation-of',
-                       types=['Game', 'Automaton', 'Platform',
-                              'Programming Language'])
+        check_scalar_ref(data, key, node, 'installation-of',
+                         types=['Game', 'Gewgaw', 'Automaton', 'Platform',
+                                'Programming Language'])
 
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \

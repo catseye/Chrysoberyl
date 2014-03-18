@@ -8,12 +8,20 @@ C64 Demo Depot:
   issue-tracker: github
   releases: []
 
+HTML5 Gewgaws distribution: 
+  type: Distribution
+  bitbucket: catseye/html5-gewgaws
+  github: catseye/HTML5-Gewgaws
+  issue-tracker: github
+  releases: []
+
 
 Ribos: 
   type: Gewgaw
   # sigh, it's not really a gewgaw either, or at least not a very good one.
   defining-distribution: C64 Demo Depot
   summary: Well-commented C64 raster interrupt example
+  inception-date: April 2007
   authors:
   - Chris Pressey
   auspices:
@@ -40,14 +48,14 @@ The PETulant Cursor:
   type: Gewgaw
   defining-distribution: C64 Demo Depot
   summary: A tiny C64 "display hack"
+  # inception-date: ca the late eighties
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
   description: |
     A tiny (44 byte) "display hack" for the Commodore 64.
-  development-stage: mature
-
+  development-stage: vintage
 
 The PETulant Cursor distribution: 
   type: Distribution
@@ -56,3 +64,79 @@ The PETulant Cursor distribution:
   - version: "1.0"
     revision: "2008.0401"
     url: http://catseye.tc/distfiles/petulant-2008.0401.zip
+
+
+#-------------------
+
+'A Non-Random Walk':
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Chzrxl:
+  # automaton?
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Fibonacci Spiral:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Fingerspelling:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Hirsute Miasma:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Heronsis hermnonicii:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Hypongtrochoid:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Multicolouralism:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2013
+
+Plea of Thunder:
+  type: Gewgaw
+  development-stage: not fully complete
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2012
+
+Prairie:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2012
+
+Progression:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2012
+
+The Frame:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  inception-date: 2012
