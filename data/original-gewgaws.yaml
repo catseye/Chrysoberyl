@@ -134,51 +134,138 @@ Fingerspelling:
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  summary: |
+    A simple interactive entertainment, intended to be experienced
+    on a touchscreen device.
+  instructions: |
+    If you have a touchscreen, prod the lavender area of the screen with your
+    finger.  If you don't have a touchscreen, you may simulate this action
+    with your mouse pointer.
+  commentary: |    
+    This is most certainly a gewgaw.  It should provide you about
+    20 seconds of entertainment, give or take.
 
 Hirsute Miasma:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  summary: |
+    A somewhat eerie computed animation.
+  instructions: |
+    The animation will eventually cycle if you're patient (although it won't
+    of course cycle exactly, as there is a random element.)  You may enable
+    the "terminal" option to prevent this cycling.
 
 Heronsis hermnonicii:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  summary: |
+    An animated "plate" depicting a proto-cohort of *Heronsis hermnonicii*.
+  instructions: |
+    It is primarily meant to just be watched, but you may find it entertaining
+    to try clicking on the entities.
+  commentary: |
+    *Warning: the following may contain tedious and/or glib
+    background and/or analysis.*
+    
+    Casting a negative space of knowledge.  Calling itself a "plate" frames
+    it as a work of learning, like some kind of 19th-century anthropology text.
+    Yet it only raises questions — what are these entities?  what kind of
+    world do they inhabit?  what are they protecting?  who is Clarkson?
+    — without providing answers, leaving it up to the observer to either
+    imagine their own answers, or decide that answers to these questions
+    are not necessary.
+    
+    Plus it's fun to click on the red balls.
 
 Hypongtrochoid:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  summary: |
+    "Hypongtrochoid" is a portmanteau of
+    [hypotrochoid](http://en.wikipedia.org/wiki/Hypotrochoid)
+    (as popularized by [Spirograph](http://en.wikipedia.org/wiki/Spirograph))
+    and [Pong](http://en.wikipedia.org/wiki/Pong)
+    (as popularized by, well, Pong.)
+  description: |
+    Each box moves with a constant velocity
+    relative to the box it is contained in, and bounces around inside it in a
+    simple fashion.  Yet the path traced out by the innermost box is not very
+    simple at all.
 
 Multicolouralism:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  summary: |
+    Animated op art: an interactive bleeding of colours.
+  description: |
+    Each frame, the colour of each cell is chosen randomly from the set
+    {cyan, magenta, yellow, white}.  The probability of each of the
+    colours is determined by the distance from the cell to each corner
+    of the square, raised to a power (the "field strength") which can
+    be selected by the slider.
+    
+    Do you see false colours at the "borders" between the "fields"?
+    You certainly *can*, but how much you see them seems to depend on
+    several factors (your computer, monitor, lighting, persistence
+    of vision, focus and peripheral vision...)
 
 Plea of Thunder:
   type: Gewgaw
   development-stage: not fully complete
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2012
+  summary: |
+    Conceptual art: A Java applet that you and your friends can own!
 
 Prairie:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2012
+  summary: |
+    An animated impressionistic depiction of the prairies.
+  commentary: |
+    I composed this while still in Winnipeg and still
+    learning about the capabilities of `<canvas>` — something about the
+    wind and the wheat...  The background is a public-domain drawing
+    of a grain elevator taken from Wikimedia.
 
 Progression:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2012
+  summary: |
+    Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
+  commentary: |
+    A real eye-tickler.  This was one of the first bits of `<canvas>` code I
+    ever wrote; I essentially wrote it by accident — it wasn't quite what I
+    meant, but I liked it, and kept it.  For me, in Firefox, it starts getting
+    interesting around 100 iterations, and starts stopping being interesting
+    around 1550.  In Chromium, you can still see some activity at about 2000
+    iterations, but it's very faint thereafter.
 
 The Frame:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2012
+  instructions: | 
+    Note 1. Green things can be dragged.  
+    Note 2. Due to technical limitations, things cannot be dragged off
+    of the computer screen.
+  summary: |
+    An interactive exploration of the concept of The Frame in art,
+    based on **words** and **'do** by [[Frank Zappa]].
+  commentary: |
+    This piece was conceived and begun in late summer or early autumn of 2012,
+    in Winnipeg, and finished up and released from Cornwall in spring of
+    2013.
