@@ -591,6 +591,20 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  extra-style: |
+    body { margin: 0; }
+    article { margin: 0; }
+    #canvas { background: #ccaacc; border: none; }
+    #canvas_container { margin: 0; }
+  extra-head: |
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
+  javascript-main: |
+    var article = document.getElementsByTagName('article')[0];
+    article.innerHTML = '<canvas id="canvas" height="400" width="400">Your browser does not support displaying an HTML5 canvas.</canvas>';
+    (new Fingerspelling()).init(document.getElementById('canvas'));
 
 'Hirsute Miasma (HTML5)':
   type: Online Installation
