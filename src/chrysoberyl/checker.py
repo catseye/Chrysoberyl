@@ -274,7 +274,7 @@ def check_chrysoberyl_node(data, key, node):
     # to it here too.
     if type_ in ['Game', 'Programming Language', 'Library', 'Tool',
                  'Platform', 'Conlang', 'Electronics Project', 'Gewgaw',
-                 'Automaton', 'Programming Language Family']:
+                 'Automaton', 'Programming Language Family', 'Text']:
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node
         check_scalar_ref(data, key, node, 'development-stage',

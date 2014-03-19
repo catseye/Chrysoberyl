@@ -1143,13 +1143,21 @@ Visual Basic:
 XML: 
   # sigh
   type: Programming Language
-  genre: Production language
+  genre: DSL
   paradigms:
   - Declarative
-  computational-class: Finite-automata-complete
   specification-link: http://www.w3.org/TR/REC-xml/
   development-stage: mature
   authors: []
+
+Markdown:
+  type: Programming Language
+  development-stage: mature
+  genre: DSL
+  authors: []
+  paradigms:
+  - Declarative
+  specification-link: http://daringfireball.net/projects/markdown/syntax
 
 
 Zz:
