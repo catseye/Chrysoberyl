@@ -195,8 +195,7 @@ def check_chrysoberyl_node(data, key, node):
                        types=('Platform', 'Programming Language',
                               'Implementation'))
         check_scalar_ref(data, key, node, 'installation-of',
-                         types=('Game', 'Gewgaw', 'Automaton', 'Platform',
-                                'Programming Language'))
+                         types=('Implementation',))
         check_list_ref(data, key, node, 'exhibits',
                          types=('Exhibit',))
 

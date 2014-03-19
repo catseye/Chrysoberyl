@@ -79,8 +79,7 @@ Texts Exhibit:
 
 'Bubble Escape (JaC64)':
   type: Online Installation
-  # Bubble Escape 2K, actually, but for now this field is an implementable
-  installation-of: Bubble Escape
+  installation-of: Bubble Escape 2K
   exhibits:
   - Computer Games Exhibit
   - Featured Exhibit
@@ -111,7 +110,7 @@ Texts Exhibit:
 
 'Super Wumpus Land (HTML5)':
   type: Online Installation
-  installation-of: Super Wumpus Land
+  installation-of: swl.js
   exhibits:
   - Computer Games Exhibit
   interactive: true
@@ -132,7 +131,7 @@ Texts Exhibit:
 
 'Braktif (HTML5)':
   type: Online Installation
-  installation-of: Braktif
+  installation-of: braktif.alp
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -147,7 +146,7 @@ Texts Exhibit:
 
 'Circute (HTML5)':
   type: Online Installation
-  installation-of: Circute
+  installation-of: circute.alp
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -162,7 +161,7 @@ Texts Exhibit:
 
 'Etcha (HTML5)':
   type: Online Installation
-  installation-of: Etcha
+  installation-of: etcha.js
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -177,7 +176,7 @@ Texts Exhibit:
 
 'Gemooy (HTML5)':
   type: Online Installation
-  installation-of: Gemooy
+  installation-of: gemooy.js
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -191,7 +190,7 @@ Texts Exhibit:
 
 'Jaccia (HTML5)':
   type: Online Installation
-  installation-of: Jaccia
+  installation-of: jaccia.alp
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -213,7 +212,7 @@ Texts Exhibit:
 
 'Jacciata (HTML5)':
   type: Online Installation
-  installation-of: Jacciata
+  installation-of: jacciata.alp
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -235,7 +234,7 @@ Texts Exhibit:
 
 "noit o' mnain worb (HTML5)":
   type: Online Installation
-  installation-of: "noit o' mnain worb"
+  installation-of: worb.js
   exhibits:
   - Esolangs Exhibit
   - Featured Exhibit
@@ -250,7 +249,7 @@ Texts Exhibit:
 
 'Pixley (HTML5)':
   type: Online Installation
-  installation-of: Pixley
+  installation-of: pixley.js
   # arguably Pixley is not an esolang, or at least not a very eso one.
   exhibits:
   - Esolangs Exhibit
@@ -302,7 +301,7 @@ Texts Exhibit:
 
 'REDGREEN (HTML5)':
   type: Online Installation
-  installation-of: REDGREEN
+  installation-of: redgreen.alp
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -318,7 +317,8 @@ Texts Exhibit:
 # about'ed (only esolang that is, so far)
 'Shelta (v86)':
   type: Online Installation
-  installation-of: Shelta
+  # ... and sheltas, but ok
+  installation-of: shelta
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -370,7 +370,7 @@ Texts Exhibit:
 
 'Whothm (Applet)':
   type: Online Installation
-  installation-of: Whothm
+  installation-of: tc.catseye.whothm
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -389,7 +389,7 @@ Texts Exhibit:
 
 'yoob (Applet)':
   type: Online Installation
-  installation-of: yoob
+  installation-of: tc.catseye.yoob
   exhibits:
   - Esolangs Exhibit
   interactive: true
@@ -410,12 +410,14 @@ Texts Exhibit:
 
 'ZOWIE (HTML5)':
   type: Online Installation
-  installation-of: ZOWIE
+  installation-of: zowie.py
   exhibits:
   - Esolangs Exhibit
   interactive: true
   animated: false
   mediums:
+  - Python
+  - Skulpt
   - Javascript
   - HTML5
   summary: |
@@ -435,7 +437,7 @@ Texts Exhibit:
 
 'A Non-Random Walk (HTML5)':
   type: Online Installation
-  installation-of: A Non-Random Walk
+  installation-of: a-non-random-walk.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -457,7 +459,7 @@ Texts Exhibit:
 
 'Chzrxl (HTML5)':
   type: Online Installation
-  installation-of: Chzrxl
+  installation-of: chzrxl.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -468,7 +470,7 @@ Texts Exhibit:
 
 'Cyclobots (HTML5)':
   type: Online Installation
-  installation-of: Cyclobots
+  installation-of: cyclobots.js
   exhibits:
   - Digital Art Exhibit
   - Featured Exhibit
@@ -491,7 +493,7 @@ Texts Exhibit:
 
 'Fibonacci Spiral (HTML5)':
   type: Online Installation
-  installation-of: Fibonacci Spiral
+  installation-of: fibonacci-spiral.js
   exhibits:
   - Digital Art Exhibit
   interactive: false
@@ -502,7 +504,7 @@ Texts Exhibit:
 
 'Fingerspelling (HTML5)':
   type: Online Installation
-  installation-of: Fingerspelling
+  installation-of: fingerspelling.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -513,7 +515,7 @@ Texts Exhibit:
 
 'Hirsute Miasma (HTML5)':
   type: Online Installation
-  installation-of: Hirsute Miasma
+  installation-of: hirsute-miasma.js
   exhibits:
   - Digital Art Exhibit
   - Featured Exhibit
@@ -525,7 +527,7 @@ Texts Exhibit:
 
 'Heronsis hermnonicii (HTML5)':
   type: Online Installation
-  installation-of: Heronsis hermnonicii
+  installation-of: heronsis-hermnonicii.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -536,7 +538,7 @@ Texts Exhibit:
 
 'Hypongtrochoid (HTML5)':
   type: Online Installation
-  installation-of: Hypongtrochoid
+  installation-of: hypongtrochoid.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -547,7 +549,7 @@ Texts Exhibit:
 
 'Multicolouralism (HTML5)':
   type: Online Installation
-  installation-of: Multicolouralism
+  installation-of: multicolouralism.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
@@ -558,7 +560,8 @@ Texts Exhibit:
 
 'Plea of Thunder (Applet)':
   type: Online Installation
-  installation-of: Plea of Thunder
+  # WAIT WHAT SRSLY HA NO
+  installation-of: hugs
   exhibits:
   - Digital Art Exhibit
   interactive: false
@@ -569,7 +572,7 @@ Texts Exhibit:
 
 'Prairie (HTML5)':
   type: Online Installation
-  installation-of: Prairie
+  installation-of: prairie.js
   exhibits:
   - Digital Art Exhibit
   interactive: false
@@ -580,7 +583,7 @@ Texts Exhibit:
 
 'Progression (HTML5)':
   type: Online Installation
-  installation-of: Progression
+  installation-of: progression.js
   exhibits:
   - Digital Art Exhibit
   - Featured Exhibit
@@ -592,7 +595,7 @@ Texts Exhibit:
 
 'The Frame (HTML5)':
   type: Online Installation
-  installation-of: The Frame
+  installation-of: the-frame.js
   exhibits:
   - Digital Art Exhibit
   interactive: true
