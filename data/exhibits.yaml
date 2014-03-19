@@ -666,6 +666,51 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  extra-style: |
+    #overlay {
+      border: 1px solid red;
+      position: absolute;
+      z-index: 100;
+    }
+  mainstage-elements: |
+    <canvas id="overlay" width="600" height="400">
+    Your browser doesn't support displaying an HTML5 canvas.
+    </canvas>
+    <canvas id="canvas" width="600" height="400">
+    Your browser doesn't support displaying an HTML5 canvas.
+    </canvas>
+  control-panel: |
+    <label for="show_blue">
+      <input type="checkbox" name="show_blue" id="show_blue" checked="checked">blue</label>
+    <label for="show_red">
+      <input type="checkbox" name="show_red" id="show_red" checked="checked">red</label>
+    <label for="show_yellow">
+      <input type="checkbox" name="show_yellow" id="show_yellow" checked="checked">yellow</label>
+    <label for="show_path">
+      <input type="checkbox" name="show_path" id="show_path" checked="checked">path</label>
+    <label for="turbo">
+      <input type="checkbox" name="turbo" id="turbo">turbo</label>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
+  javascript-main: |
+    var canvas = document.getElementById('canvas');
+    var overlay = document.getElementById('overlay');
+    
+    var canvasLeft = 0;
+    var obj = canvas;
+    while (obj.offsetParent) {
+      canvasLeft += obj.offsetLeft;
+      obj = obj.offsetParent;
+    }
+      
+    document.getElementById('show_path').onchange = function(e) {
+      overlay.style.display = this.checked ? "block" : "none";
+      overlay.style.left = canvasLeft + "px";
+    };
+    var t = new Hypongtrochoid();
+    t.start(canvas, overlay);
 
 'Multicolouralism (HTML5)':
   type: Online Installation
@@ -677,6 +722,30 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 400
+  canvas-height: 400
+  control-panel: |
+    Field strength:
+    <input id="strength" type="range" min="0" max="50" value="5"/>
+    <label for="as_circles">
+      <input type="checkbox" name="as_circles" id="as_circles">circles</label>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/splash-screen.js
+  - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
+  javascript-main: |
+    yoob.showSplashScreen({
+        elementId: 'canvas',
+        innerHTML: "<p>Warning: this application displays rapidly changing colours " +
+          "and/or shapes and may be unsuitable for those sensitive to light or " +
+          "prone to epileptic seizures.</p>",
+        buttonText: "I understand -- Proceed",
+        onproceed: function() {
+            var t = new Multicolouralism();
+            t.init(document.getElementById('canvas'), 25, 25);
+        },
+        background: '#a0a0d0'
+    });
 
 'Plea of Thunder (Applet)':
   type: Online Installation
@@ -723,6 +792,18 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  extra-style: |
+    #canvas { border: 1px solid blue; background: white; }
+  canvas-width: 800
+  canvas-height: 200
+  control-panel: |
+    <p id="counter"></p>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/progression/progression.js
+  javascript-main: |
+    var p = new ProgressionController();
+    p.start(document.getElementById('canvas'));
 
 'The Frame (HTML5)':
   type: Online Installation
