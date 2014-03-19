@@ -467,6 +467,18 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 400
+  canvas-height: 400
+  control-panel: |
+    <br>% to hold fixed:
+    <input id="hold_fixed" type="range" min="0" max="100" value="5"/>
+    <button id="restart" onclick="t.restart()">Restart</button>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/chzrxl/chzrxl.js
+  javascript-main: |
+    var t = new Chzrxl();
+    t.init(document.getElementById('canvas'));
 
 'Cyclobots (HTML5)':
   type: Online Installation
@@ -501,6 +513,14 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 1000
+  canvas-height: 500
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
+  javascript-main: |
+    var t = new FibonacciSpiral();
+    t.init(document.getElementById('canvas'));
 
 'Fingerspelling (HTML5)':
   type: Online Installation
@@ -580,6 +600,17 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 640
+  canvas-height: 390
+  border-colour: blue
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/prairie/prairie.js
+  javascript-main: |
+    new PrairieController().start(
+      document.getElementById('canvas'),
+      '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png'
+    );
 
 'Progression (HTML5)':
   type: Online Installation
