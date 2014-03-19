@@ -122,10 +122,36 @@ Texts Exhibit:
     [[Super Wumpus Land]], our "extended dance mix" version of
     Gregory Yob's [[Hunt the Wumpus]], is playable online in an
     HTML5 canvas simulating an old-school green-screen terminal.
-  description: |
-    [[Super Wumpus Land]], our "extended dance mix" version of
-    Gregory Yob's [[Hunt the Wumpus]], is playable online in an
-    HTML5 canvas simulating an old-school green-screen terminal.
+  extra-style: |
+    #terminal {
+      background: black;
+      border: 5px solid black;
+    }
+  mainstage-elements: |
+    <canvas id="terminal" width="400" height="400" tabindex="0">
+    Your browser doesn't support displaying an HTML5 canvas.
+    </canvas>
+  javascript-urls:
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/cursor.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield-canvas-view.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/text-terminal.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/line-input-buffer.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/swl.js
+  javascript-main: |
+    var element = document.getElementById('terminal');
+    var t = new yoob.TextTerminal().init(80, 25);
+    var view = t.createPlayfieldCanvasView(element, 11, 18);
+    var swl = new SuperWumpusLand();
+    swl.init(t);
+    var ib = new yoob.LineInputBuffer().init(element, t);
+    ib.onupdate = function(str) { view.draw(); };
+    ib.onenter = function(str) {
+      swl.handleInput(str);
+      view.draw();
+    };
+    view.draw();
+    element.focus();
 
 ### Esolangs ###
 
@@ -502,6 +528,39 @@ Texts Exhibit:
     at random.
     In case the cyclobots leave the viewable area of the playfield,
     dragging on the playfield will scroll it.
+  control-panel: |
+    <!-- <button onclick="c.massConfusion();">Mass confusion!</button> -->
+    <button onclick="c.shuffle();">Revolution!</button>
+    <label for="show_angles"><input type="checkbox"
+      name="show_angles" id="show_angles">show angles</label>
+    <!-- <p id="status"></p> -->
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/full-screen-detector.js
+  - ../modules/html5-gewgaws/cyclobots/cyclobots.js
+  javascript-main: |
+    var canvas = document.getElementById('canvas');
+    var c = new Cyclobots();
+    c.init(canvas);
+    
+    var header = document.getElementsByTagName('header')[0];
+    var control_panel = document.getElementById('control_panel');
+    
+    new yoob.FullScreenDetector({
+        onchange: function(fullScreen) {
+            if (fullScreen) {
+                canvas.style.width = Math.floor(screen.width * 0.95) + "px";
+                canvas.style.height = Math.floor(screen.height * 0.95) + "px";
+                header.style.display = "none";
+                control_panel.style.display = "none";
+            } else {
+                canvas.style.width = "640px";
+                canvas.style.height = "400px";
+                header.style.display = "block";
+                control_panel.style.display = "block";
+            }
+        }
+    });
 
 'Fibonacci Spiral (HTML5)':
   type: Online Installation
@@ -544,6 +603,24 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  canvas-width: 400
+  canvas-height: 400
+  control-panel: |
+    <p>
+      <label for="cycle">
+        <input type="checkbox" name="cycle" id="cycle">choleric
+      </label>
+    
+      <label for="terminal">
+        <input type="checkbox" name="terminal" id="terminal">terminal
+      </label>
+    </p>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
+  javascript-main: |
+    var t = new HirsuteMiasma();
+    t.start(document.getElementById('canvas'));
 
 'Heronsis hermnonicii (HTML5)':
   type: Online Installation
@@ -555,6 +632,29 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  extra-style: |
+    #canvas { border: 2px solid black }
+  canvas-width: 1200
+  canvas-height: 400
+  control-panel: |
+    <div style="font-family: serif; width: 75%; margin: auto">
+      <span style="font-variant: small-caps">
+      Plate I.  The Organization of Collapsed Clarkson's Entities
+      </span>
+      <span style="font-size: 90%; font-style: italic">
+      (Heronsis hermnonicii)
+      </span>
+      <span style="font-variant: small-caps">
+      into Proto-Cohorts as a Rudimentary Method
+      of Physiognometric Defence</span>
+    </div>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
+  javascript-main: |
+    var t = new HeronsisHermnonicii();
+    t.init(document.getElementById('canvas'));
 
 'Hypongtrochoid (HTML5)':
   type: Online Installation
@@ -634,3 +734,49 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
+  extra-style: |
+    body {
+        background-image: none;
+    }
+    #note {
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    #canvas {
+        background: white;
+        display: none;
+    }
+    #please_wait {
+        width: 100%;
+        text-align: center;
+    }
+  mainstage-elements: |
+    <div id="note">
+      <small>Note 1. Green things can be dragged.
+      Note 2. Due to technical limitations,
+      things cannot be dragged off of the computer screen</small>
+    </div>
+    
+    <canvas id="canvas" width="800" height="450">
+    Your browser doesn't support displaying an HTML5 canvas.
+    </canvas>
+    
+    <div id="please_wait">
+      Please wait, loading...
+    </div>
+  javascript-urls:
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/the-frame/the-frame.js
+  javascript-main: |
+    var canvas = document.getElementById('canvas');
+    var note = document.getElementById('note');
+    var pleaseWait = document.getElementById('please_wait');
+    var f = new TheFrame();
+    f.init(canvas, '../modules/html5-gewgaws/the-frame/the-frame.png', function() {
+        pleaseWait.style.display = "none";
+        note.style.display = "block";
+        canvas.style.display = "block";
+        canvas.width = document.body.clientWidth - canvas.offsetLeft * 2;
+    });
