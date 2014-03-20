@@ -1,0 +1,166 @@
+# encoding: utf-8
+
+The Swallows:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2013
+  summary: |
+    *The Swallows* is the name of a series of computer-generated novels,
+    as well as the title of the first novel in the series, and the name
+    of [[The Swallows Engine|the program that produced them.]]  They
+    were produced for NaNoGenMo 2013, and are hosted on Github:
+
+The Swallows (Markdown):
+  type: Implementation
+  implementation-of:
+  - The Swallows
+  license: Unknown license
+  host-language: Markdown
+  online-locations:
+  - The Swallows (HTML5)
+  file-locations:
+  - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows.markdown
+
+'The Swallows (HTML5)':
+  type: Online Installation
+  installation-of: The Swallows (Markdown)
+  exhibits:
+  - Texts Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+The Swallows of Summer:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2013
+  summary: |
+    *The Swallows of Summer* is the second novel in [[The Swallows]] series
+    of generated novels.
+
+The Swallows of Summer (Markdown):
+  type: Implementation
+  implementation-of:
+  - The Swallows of Summer
+  license: Unknown license
+  host-language: Markdown
+  online-locations:
+  - The Swallows of Summer (HTML5)
+  file-locations:
+  - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows_of_Summer.markdown
+
+'The Swallows of Summer (HTML5)':
+  type: Online Installation
+  installation-of: The Swallows (Markdown)
+  exhibits:
+  - Texts Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+Swallows and Sorrows:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2013
+  summary: |
+    *Swallows and Sorrows* is the third novel in [[The Swallows]] series
+    of generated novels.
+
+Swallows and Sorrows (Markdown):
+  type: Implementation
+  implementation-of:
+  - Swallows and Sorrows
+  license: Unknown license
+  host-language: Markdown
+  online-locations:
+  - Swallows and Sorrows (HTML5)
+  file-locations:
+  - https://github.com/catseye/The-Swallows/blob/master/doc/Swallows_and_Sorrows.markdown
+
+'Swallows and Sorrows (HTML5)':
+  type: Online Installation
+  installation-of: Swallows and Sorrows (Markdown)
+  exhibits:
+  - Texts Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+"Dial 'S' for Swallows":
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2013
+  summary: |
+    *Dial 'S' for Swallows* is the fourth and final novel in [[The Swallows]]
+    series of generated novels.
+
+"Dial 'S' for Swallows (Markdown)":
+  type: Implementation
+  implementation-of:
+  - "Dial 'S' for Swallows"
+  license: Unknown license
+  host-language: Markdown
+  online-locations:
+  - "Dial 'S' for Swallows (HTML5)"
+  file-locations:
+  - https://github.com/catseye/The-Swallows/blob/master/doc/Dial_S_for_Swallows.markdown
+
+"Dial 'S' for Swallows (HTML5)":
+  type: Online Installation
+  installation-of: "Dial 'S' for Swallows (Markdown)"
+  exhibits:
+  - Texts Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+
+Nif:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2013
+  summary: |
+    *Nif* is a novel generated for NaNoGenMo 2013.  It is about a petulant child
+    (possibly named Nif) who has just discovered palindromes.  It is one long
+    palindrome.
+  commentary: |
+    *Nif* was inspired by, and draws heavily from, Nick Montfort's
+    "The Utterance of the Petulant Child." In fact, it is pretty much an homage to
+    "Utterance" which attempts to turn the petulance dial up to eleven, so to speak.
+    Its creation was also sparked by a dim memory of the life ambition of one of
+    the characters on the terrible 80's sitcom Head of the Class, which was:
+    to write a novel that was one long palindrome.
+
+Nif (Markdown):
+  type: Implementation
+  implementation-of:
+  - Nif
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - Nif (HTML5)
+  file-locations:
+  - https://gist.github.com/catseye/7336582
+
+'Nif (HTML5)':
+  type: Online Installation
+  installation-of: Nif (Markdown)
+  exhibits:
+  - Texts Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - HTML5
