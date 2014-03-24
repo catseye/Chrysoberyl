@@ -114,6 +114,16 @@
     </section>
   {% endif %}
 
+  {% if host_language == 'mp3' and download_link -%}
+    <section id="listen_online">
+      <h2>Listen Online (requires Flash)</h2>
+      <p>
+        <embed src="/flash/alonetone_player.swf" width="250" height="20"
+               flashvars="&file={{ download_link }}" />
+      </p>
+    </section>
+  {%- endif -%}
+
   {% if download_link %}
     <section id="download">
       <h2>Download</h2>
