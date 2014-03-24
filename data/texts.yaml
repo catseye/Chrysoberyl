@@ -9,7 +9,7 @@ The Swallows:
     *The Swallows* is the name of a series of computer-generated novels,
     as well as the title of the first novel in the series, and the name
     of [[The Swallows Engine|the program that produced them.]]  They
-    were produced for NaNoGenMo 2013, and are hosted on Github:
+    were produced for NaNoGenMo 2013, and are hosted on Github.
 
 The Swallows (Markdown):
   type: Implementation
@@ -55,7 +55,7 @@ The Swallows of Summer (Markdown):
 
 'The Swallows of Summer (HTML5)':
   type: Online Installation
-  installation-of: The Swallows (Markdown)
+  installation-of: The Swallows of Summer (Markdown)
   exhibits:
   - Texts Exhibit
   interactive: false
@@ -164,3 +164,4 @@ Nif (Markdown):
   animated: false
   mediums:
   - HTML5
+  github-file-installation: true
