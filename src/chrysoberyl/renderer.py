@@ -110,8 +110,9 @@ class Renderer(object):
         document.
 
         """
+        data = self.data
         context = node.copy()
-        context['data'] = self.data
+        context['data'] = data
         context['key'] = key
         context['sleek_key'] = sleek_key
         context['pathname2url'] = pathname2url
@@ -173,10 +174,10 @@ class Renderer(object):
 
             """
             objects = []
-            for thing in self.data:
-                if self.data[thing].get('hidden', False):
+            for thing in data:
+                if data[thing].get('hidden', False):
                     continue
-                rel = self.data[thing].get(relationship, None)
+                rel = data[thing].get(relationship, None)
                 if rel is None:
                     continue
                 if rel == key:
@@ -191,9 +192,9 @@ class Renderer(object):
         def impls_for_platform(plat_key, key=key):
             impls = []
             for impl in related('implementation-of', key=key):
-                if (self.data[impl].get('platform', None) == plat_key or
-                    self.data[impl].get('host_platform', None) == plat_key or
-                    self.data[impl].get('target_platform', None) == plat_key):
+                if (data[impl].get('platform', None) == plat_key or
+                    data[impl].get('host_platform', None) == plat_key or
+                    data[impl].get('target_platform', None) == plat_key):
                     impls.append(impl)
             return impls
 
@@ -205,15 +206,15 @@ class Renderer(object):
             Once determined, this value is cached in the node.
 
             """
-            if '__reference-implementation__' in self.data[key]:
-                return self.data[key]['__reference-implementation__']
+            if '__reference-implementation__' in data[key]:
+                return data[key]['__reference-implementation__']
             ref_i = None
             for i in related('implementation-of', key=key):
-                if self.data[i].get('reference', False):
+                if data[i].get('reference', False):
                     if ref_i is not None:
                         raise ValueError("more than one ref_impl of %s" % key)
                     ref_i = i
-            self.data[key]['__reference-implementation__'] = ref_i
+            data[key]['__reference-implementation__'] = ref_i
             return ref_i
 
         @expose
@@ -231,13 +232,13 @@ class Renderer(object):
             Otherwise None.
 
             """
-            if 'defining-distribution' in self.data[key]:
-                return self.data[key]['defining-distribution']
+            if 'defining-distribution' in data[key]:
+                return data[key]['defining-distribution']
 
             ref_i = ref_impl(key=key)
             if ref_i is not None:
-                if 'in-distributions' in self.data[ref_i]:
-                    return self.data[ref_i]['in-distributions'][0]
+                if 'in-distributions' in data[ref_i]:
+                    return data[ref_i]['in-distributions'][0]
 
             return None
 
@@ -257,7 +258,7 @@ class Renderer(object):
 
             """
             return "https://github.com/%s/blob/master/%s" % (
-                pathname2url(self.data[key]['github']),
+                pathname2url(data[key]['github']),
                 pathname2url(filename)
             )
 
@@ -305,9 +306,9 @@ class Renderer(object):
             divert to a different node.
 
             """
-            type = self.data[key]['type']
-            if self.data[type].get('suppress-page-generation', False):
-                raise KeyError('link to non-page (%s) node %s' % (type, key))
+            type_ = data[key]['type']
+            if data[type_].get('suppress-page-generation', False):
+                raise KeyError('link to non-page (%s) node %s' % (type_, key))
             if link_text is None:
                 link_text = key
                 if lower:
@@ -352,12 +353,12 @@ class Renderer(object):
         def online_buttons(key=key, show_verb_phrase=True):
             html = ''
             for impl in sorted(related('implementation-of', key=key)):
-                if len(self.data[impl].get('online-locations', [])) > 0:
-                    for loc in sorted(self.data[impl]['online-locations']):
+                if len(data[impl].get('online-locations', [])) > 0:
+                    for loc in sorted(data[impl]['online-locations']):
                         html += '<a class="button" href="'
                         html += sleek_key(loc)
                         html += '">'
-                        mediums = self.data[loc]['mediums']
+                        mediums = data[loc]['mediums']
                         medium = None
                         if 'Java applet' in mediums:
                             medium = 'Java applet'
@@ -367,7 +368,7 @@ class Renderer(object):
                             assert False, 'No good medium in ' + \
                                           ' on '.join(mediums)
                         if show_verb_phrase:
-                            if self.data[key]['type'] == 'Game':
+                            if data[key]['type'] == 'Game':
                                 html += 'Play'
                             else:
                                 html += 'Try it'
@@ -375,20 +376,30 @@ class Renderer(object):
                         else:
                             html += medium
                         html += '</a> '
-                if self.data[impl]['host_language'] == 'mp3' and \
-                   'download-link' in self.data[impl]:
+                if data[impl]['host_language'] == 'mp3' and \
+                   'download-link' in data[impl]:
                     html += '<a class="button" href="'
-                    html += self.data[impl]['download_link']
+                    html += data[impl]['download_link']
                     html += '">Listen (MP3)</a> '
             return html
 
         @expose
         def online_installations(exhibit_key, key=key):
-            if 'contents' in self.data[exhibit_key]:
-                return self.data[exhibit_key]['contents']
+            if exhibit_key == 'Music Exhibit':
+                impls = []
+                for thing in data:
+                    if (data[thing]['type'] == 'Musical Composition' and
+                        "What is this I don't even" in data[thing].get('auspices', []) and
+                        data[thing]['development_stage'] not in ('idea', 'work in progress', 'abandoned', 'unfinished', 'lost')):
+                        for impl in related('implementation-of', key=thing):
+                            if data[impl]['host-language'] == 'mp3':
+                                impls.append(impl)
+                return sorted(impls)
+            elif 'contents' in data[exhibit_key]:
+                return data[exhibit_key]['contents']
             else:
                 return [t for t in related('type', key=key)
-                        if exhibit_key in self.data[t]['exhibits']]
+                        if exhibit_key in data[t]['exhibits']]
 
         @expose
         def strip_outer_p(text):
@@ -420,13 +431,13 @@ class Renderer(object):
             TOP = "Chrysoberyl"
             bc = []
             if key != TOP:
-                while 'domain' in self.data[key]:
-                    key = self.data[key]['domain']
+                while 'domain' in data[key]:
+                    key = data[key]['domain']
                     if key == TOP:
                         break
                     bc.append(link(key))
-                if key != TOP and self.data[key]['type'] != 'type':
-                    bc.append(link(self.data[key]['type'], plural=True))
+                if key != TOP and data[key]['type'] != 'type':
+                    bc.append(link(data[key]['type'], plural=True))
                 bc.append(link(TOP))
             bc.append('<a href="../">catseye.tc</a>')
             bc.reverse()
@@ -438,8 +449,8 @@ class Renderer(object):
             the given key (assumed to be an implementable.)
 
             """
-            if 'recommended-implementation' in self.data[key]:
-                return self.data[key]['recommended-implementation']
+            if 'recommended-implementation' in data[key]:
+                return data[key]['recommended-implementation']
             impls = related('implementation-of', key=implementable)
             if len(impls) == 0:
                 return None
@@ -448,7 +459,7 @@ class Renderer(object):
             candidates = []
             # XXX can we statically check this?
             for impl in impls:
-                if 'generally-recommended' in self.data[impl]:
+                if 'generally-recommended' in data[impl]:
                     candidates.append(impl)
             if len(candidates) == 1:
                 return candidates[0]
@@ -467,8 +478,8 @@ class Renderer(object):
             languages = []
             types = ('Programming Language', 'Programming Language Family',
                      'Conlang', 'Automaton')
-            for thing in self.data:
-                node = self.data[thing]
+            for thing in data:
+                node = data[thing]
                 if (node['type'] in types and
                     'Chris Pressey' in node.get('authors', []) and
                     node.get('development-stage', 'idea') not in \
@@ -477,7 +488,7 @@ class Renderer(object):
                     (node.get('member-of', None) != 'Funge-98')):
                     languages.append(thing)
             return sorted(languages,
-                          key=lambda x: self.data[x]['inception-date'])
+                          key=lambda x: data[x]['inception-date'])
 
         @expose
         def articles():
@@ -488,13 +499,13 @@ class Renderer(object):
 
             """
             items = []
-            for thing in self.data:
-                node = self.data[thing]
+            for thing in data:
+                node = data[thing]
                 if node['type'] == 'Article':
                     items.append(thing)
             return reversed(sorted(
                 items,
-                key=lambda x: self.data[x]['publication-date']
+                key=lambda x: data[x]['publication-date']
             ))
 
         @expose
@@ -504,8 +515,8 @@ class Renderer(object):
             """
             latest = None
             latest_date = None
-            for thing in self.data:
-                node = self.data[thing]
+            for thing in data:
+                node = data[thing]
                 if node['type'] == 'Article':
                     if latest_date is None or \
                        node['publication-date'] > latest_date:
