@@ -194,7 +194,7 @@ def check_chrysoberyl_node(data, key, node):
         node['animated'] = node.get('animated', False)
         check_list_ref(data, key, node, 'mediums',
                        types=('Platform', 'Programming Language',
-                              'Implementation'))
+                              'Implementation', 'Image Format', 'Medium'))
         check_scalar_ref(data, key, node, 'installation-of',
                          types=('Implementation',))
         check_list_ref(data, key, node, 'exhibits',
@@ -230,6 +230,9 @@ def check_chrysoberyl_node(data, key, node):
         if impl_of_type == 'Musical Composition':
             check_scalar_ref(data, key, node, 'host-language',
                              types=('Music Format',))
+        elif impl_of_type == 'Picture':
+            check_scalar_ref(data, key, node, 'host-language',
+                             types=('Image Format',))
         else:
             check_scalar_ref(data, key, node, 'host-language',
                              types=('Programming Language',))

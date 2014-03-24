@@ -1,0 +1,117 @@
+# encoding: UTF-8
+
+Medium:
+  type: type
+
+
+ink:
+  type: Medium
+paper:
+  type: Medium
+
+
+GIF:
+  type: Image Format
+  development-stage: mature
+  genre: Production language
+  authors: []
+  paradigms: []
+  no-specification: true
+
+JPEG:
+  type: Image Format
+  development-stage: mature
+  genre: Production language
+  authors: []
+  paradigms: []
+  no-specification: true
+
+PNG:
+  type: Image Format
+  development-stage: mature
+  genre: Production language
+  authors: []
+  paradigms: []
+  no-specification: true
+
+
+Release Notes Girl:
+  type: Picture
+  inception-date: ca 2000
+
+'Release Notes Girl (GIF)':
+  type: Implementation
+  implementation-of:
+  - Release Notes Girl
+  license: Freely Redistributable
+  host-language: GIF
+  file-locations:
+  - https://github.com/catseye/Illgol-Grand-Mal/blob/master/2.%20Illgola-2/doc/release_notes_girl.gif
+
+'Release Notes Girl (HTML5)':
+  type: Online Installation
+  installation-of: Release Notes Girl (GIF)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
+  - paper
+  - GIF
+  - HTML5
+  github-file-installation: true
+
+
+Illberon Release Notes:
+  type: Picture
+  inception-date: ca 2000
+
+'Illberon Release Notes (JPEG)':
+  type: Implementation
+  implementation-of:
+  - Illberon Release Notes
+  license: Freely Redistributable
+  host-language: JPEG
+  file-locations:
+  - https://github.com/catseye/Illgol-Grand-Mal/blob/master/3.%20Illberon/doc/irl-may.jpg
+
+'Illberon Release Notes (HTML5)':
+  type: Online Installation
+  installation-of: Illberon Release Notes (JPEG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
+  - paper
+  - JPEG
+  - HTML5
+  github-file-installation: true
+
+
+pixley.pix as Nested Rectangles:
+  type: Picture
+  inception-date: ca Jan 2014
+
+'pixley.pix as Nested Rectangles (PNG)':
+  type: Implementation
+  implementation-of:
+  - pixley.pix as Nested Rectangles
+  license: Freely Redistributable
+  host-language: PNG
+  file-locations:
+  - http://catseye.tc/images/generated/Pixley.png
+
+'pixley.pix as Nested Rectangles (HTML5)':
+  type: Online Installation
+  installation-of: pixley.pix as Nested Rectangles (PNG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - PNG
+  - HTML5
+  github-file-installation: true

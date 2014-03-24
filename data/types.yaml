@@ -187,7 +187,9 @@ Implementation:
     [[Tool|tools]],
     [[Game|games]],
     [[Electronics Project|electronics projects]],
-    [[Musical Composition|musical compositions]], and so forth.
+    [[Musical Composition|musical compositions]],
+    [[Text|texts]],
+    [[Picture|pictures]], and so forth.
     For a more fine-grained breakdown, see those individual categories.
 Implementation Type:
   type: type
@@ -346,6 +348,13 @@ Music Format:
   type: type
   images:
     - url: '/images/illustrations/Accordion_(PSF).jpg'
+
+Picture:
+  type: type
+
+Image Format:
+  type: type
+
 
 Gewgaw:
   type: type
