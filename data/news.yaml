@@ -1,5 +1,31 @@
 # encoding: UTF-8
 
+'Github as a computer dating service (!)':
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 25 Mar 2014 08:18:34 GMT
+  blurb: |
+    [Github as a computer dating service](https://github.com/catseye/Operation-Match-Github)
+    (not that I can in good conscience recommend that.)
+  description: |
+    As a little hack on the weekend, I started playing with the Github API,
+    after using it for more serious purposes in [[toolshelf]].  The result was
+    
+    [Operation Match, Github edition](https://github.com/catseye/Operation-Match-Github)
+    
+    which turns Github into a computer dating service.  Well, not really,
+    and I really *can't* recommend using Github for romance...
+    
+    ...but the script *does* try to find Github users who have tastes that
+    are similar to those to a given user, based on the starred repositories
+    they have in common.  And while it's very crude metric,
+    I did end up finding a few users with it whose interests seem broadly
+    similar to my own, who I have since started following.
+    
+    (And I suppose that it's a coincidence that
+    just as I was about to write this announcement, 
+    the BBC ran [this article](http://www.bbc.co.uk/news/business-26613909)?)
+
 'De-pict-sly: Pixley and Etcha in HTML5':
   type: Article
   article-type: announcement
