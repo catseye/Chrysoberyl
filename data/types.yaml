@@ -159,6 +159,8 @@ Mathematical Object:
   type: type
 Book:
   type: type
+  images:
+    - url: '/images/illustrations/Reading.jpg'
 Website:
   type: type
 Conlang:

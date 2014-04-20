@@ -10,8 +10,10 @@
   - Ravi Sethi
   - Jeffrey D. Ullman
   isbn: 0-2011008-8-6
+  inception-date: Jan 1986
   commentary: |
-    a.k.a "The Dragon Book".  The classic, borderline-incomprehensible book on compiler construction.
+    a.k.a "The Dragon Book".  The classic, borderline-incomprehensible
+    book on compiler construction.
 
 Write your own Adventure Programs for your Microcomputer:
   type: Book
@@ -24,9 +26,9 @@ Write your own Adventure Programs for your Microcomputer:
   publisher: Usborne
   isbn: 0-8602074-1-2
   commentary: |
-    The *real* Dragon Book.  This one book is probably responsible for setting me off in
-    the direction of programming languages (because it describes how to write a simple
-    one-or-two word parser for an an adventure game.)
+    The *real* Dragon Book.  This one book is probably responsible for setting
+    me off in the direction of programming languages (because it describes how
+    to write a simple one-or-two word parser for an an adventure game.)
     
     Also, there are cute pictures of ghosts inside.
 
@@ -41,7 +43,9 @@ Computer Battlegames:
   publisher: Usborne
   isbn: 0-86020-685-8
   commentary: |
-    Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
+    Another Usborne "type in this [[BASIC]] game" book.  Not as enlightening as
+    [[Write your own Adventure Programs for your Microcomputer|Adventure Programs]],
+    but still OK.  Has cute pictures of robots in it.
 
 Computer Spacegames:
   type: Book
@@ -55,7 +59,22 @@ Computer Spacegames:
   - Jenny Tyler
   isbn: 0-86020-683-1
   commentary: |
-    Another Usborne "type in this BASIC game" book.  Not as enlightening as Adventure Programs, but still OK.  Has cute pictures of robots in it.
+    Another Usborne "type in this [[BASIC]] game" book.  Not as enlightening as
+    [[Write your own Adventure Programs for your Microcomputer|Adventure Programs]],
+    but still OK.  Has cute pictures of robots in it.
+
+Laws of Form:
+  type: Book
+  genre: Philosophy
+  copies-owned: 0
+  authors:
+  - George Spencer-Brown
+  isbn: 0-9639899-0-1
+  inception-date: 1969
+  wikipedia: Laws_of_Form
+  commentary: |
+    OMG this BOOK will BLOW your MIND!!!
+    But wait, what's [[Gödel, Escher, Bach|this]]...
 
 Gödel, Escher, Bach:
   subtitle: An Eternal Golden Braid
@@ -66,8 +85,11 @@ Gödel, Escher, Bach:
   - Douglas Hofstadter
   publisher: Usborne
   isbn: 0-4650265-6-7
+  inception-date: 1979
   commentary: |
-    OMG did I say Laws of Form will blow your mind? OMFG *this* book will TOTALLY BLOW your EVER-LOVIN' MIND!!1!
+    OMG did I say [[Laws of Form]] will blow your mind? OMFG *this* book will
+    TOTALLY BLOW your EVER-LOVIN' MIND!!1!
+    But wait, what's [[A New Kind of Science|this]]...
 
 A New Kind of Science:
   type: Book
@@ -76,8 +98,11 @@ A New Kind of Science:
   authors:
   - Stephen Wolfram
   isbn: 1-5795500-8-8
+  inception-date: May 2002
+  wikipedia: A_New_Kind_of_Science
   commentary: |
-    ZOMG FORGET WHAT I JUST SAID THIS IS IT THIS IS THE **ONE** THIS IS THE REAL DEAL OMFGGG!!!!!!!!!
+    ZOMG FORGET WHAT I JUST SAID ABOUT [[Gödel, Escher, Bach|THAT BRAID THING]]
+    THIS IS IT THIS IS THE **ONE** THIS IS THE REAL DEAL OMFGGG!!!!!!!!!
 
 Microprocessor Programming for Computer Hobbyists:
   type: Book
@@ -91,7 +116,8 @@ Microprocessor Programming for Computer Hobbyists:
   inception-date: 1978
   commentary: |
     Older computer science book, addressing machine-level programming with
-    a sort-of high level language called PL/M, which resembles PL/I.  Really not bad.
+    a sort-of high level language called PL/M, which resembles PL/I.  Really
+    not bad.
 
 1001 Things to Do With your Commodore 64:
   type: Book
@@ -103,12 +129,13 @@ Microprocessor Programming for Computer Hobbyists:
   - Tan Summers
   isbn: 0-8306183-6-8
   publisher: TAB
+  inception-date: Sep 1984
   commentary: |
     Basically a font of mathematical/engineering/physical trivia and
     random ideas for what could be done with a computer.  Although, I'm pretty
-    sure they re-published effectively the same book of ideas and [[BASIC]] program
-    fragments for every microcomputer on the market at the time, and this just
-    happened to the be [[Commodore 64]] one.
+    sure they re-published effectively the same book of ideas and [[BASIC]]
+    program fragments for every microcomputer on the market at the time, and
+    this just happened to the be [[Commodore 64]] one.
 
 Commodore 64 Programmer's Reference Guide:
   type: Book
@@ -118,11 +145,13 @@ Commodore 64 Programmer's Reference Guide:
   - Commodore Business Machines
   publisher: Howard W. Sams & Co.
   isbn: 0-672-22056-3
+  inception-date: Dec 1982
   commentary: |
     Classic.  I urge you to read the "crunching" guide on pages 24-27, how the
     screen editor works on pages 94-97, the vaguely condescending
     paragraph at the top of page 153, and the comment on program line 20
-    on page 148, and tell me that the [[Commodore 64]] isn't an [[Esolang|esoteric architecture]].
+    on page 148, and tell me that the [[Commodore 64]] isn't an
+    [[Esolang|esoteric architecture]].
 
 Mapping the Commodore 64:
   type: Book
@@ -158,6 +187,7 @@ Introduction to Algorithms:
   - Ronald L. Rivest
   - Clifford Stein
   isbn: 0-2620338-4-4
+  inception-date: Jul 2009
   commentary: |
     Excellent textbook on algorithms.
 
@@ -170,12 +200,13 @@ The Cognitive Connection:
   - Howard Levine
   - Howard Rheingold
   isbn: 0-1313961-9-6
+  inception-date: Jan 1987
   commentary: |
-    Begins with a disclaimer that it contains at least one error — which turns out
-    to be a giant understatement.  The book is riddled with errors, but has a
-    great attitude.  Touches on many of the weirder beliefs people have held
-    about logic and language through history (for example, the "logic machines"
-    of [Ramon Llull](http://en.wikipedia.org/wiki/Ramon_Llull).)
+    Begins with a disclaimer that it contains at least one error — which turns
+    out to be a giant understatement.  The book is *riddled* with errors, but
+    has a great attitude.  Touches on many of the weirder beliefs people have
+    held about logic and language through history (for example, the "logic
+    machines" of [Ramon Llull](http://en.wikipedia.org/wiki/Ramon_Llull).)
 
 Patterns of Software:
   subtitle: Tales from the Software Community
@@ -185,6 +216,7 @@ Patterns of Software:
   authors:
   - Richard P. Gabriel
   isbn: 0-1951212-3-6
+  inception-date: May 1998
   commentary: |
     Kind of goes all over the place, but worthwhile for its comparison of
     [[Object-oriented|object-oriented]] programming to poetic compression,
@@ -198,6 +230,7 @@ Counterexamples in Topology:
   - Lynn Arthur Steen
   - J. Arthur Seebach Jr.
   isbn: 0-4866873-5-X
+  inception-date: 1978
   commentary: |
     Don't worry if you don't know topology — it's not the topology that makes
     this a worthwhile read, it's the counterexamples.
@@ -211,8 +244,8 @@ Counterexamples in Topology:
   isbn: 0-1316556-3-9
   inception-date: 1967
   commentary: |
-    There are lots of books on computability, but this is one of the earlier ones
-    (1967!) and one of the few that treat tarpits with any seriousness.
+    There are lots of books on computability, but this is one of the earlier
+    ones (1967!) and one of the few that treat tarpits with any seriousness.
 
 Theory of Computation:
   type: Book
@@ -225,9 +258,10 @@ Theory of Computation:
   isbn: 0-4710958-5-0
   inception-date: 1974
   commentary: |
-    There are lots of books on computability.  This is one of them.  I don't think
-    it's the best one, but it's the one that defines the programming language
-    "PL" and, more interestingly, its [[Primitive recursive]] subset [[PL-{GOTO}]].
+    There are lots of books on computability.  This is one of them.  I don't
+    think it's the best one, but it's the one that defines the programming
+    language "PL" and, more interestingly, PL's
+    [[Primitive recursive|primitive recursive]] subset [[PL-{GOTO}]].
 
 Mathematical Circus:
   type: Book
@@ -248,6 +282,7 @@ The Real Frank Zappa Book:
   - Frank Zappa
   - Peter Occhiogrosso
   isbn: 0-6717057-2-5
+  inception-date: May 1990
   commentary: |
     Mainly for Zappa's theory of art ("entertainment objects") which describes
     quite nicely how I think of [[Esolang|esolangs]].  The rest of the book is
@@ -259,7 +294,10 @@ The Devil's Dictionary:
   copies-owned: 0
   authors:
   - Ambrose Bierce
+  inception-date: 1911
+  wikipedia: The_Devil's_Dictionary
   links:
+  - http://www.gutenberg.org/ebooks/972
   - http://www.thedevilsdictionary.com/
 
 # The Art of Computer Programming, Vol. 1, Donald Knuth

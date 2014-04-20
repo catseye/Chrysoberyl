@@ -1,16 +1,60 @@
 {% extends "type.html" %}
 
+{% set very_special = [
+     'Laws of Form', 'Gödel, Escher, Bach', 'A New Kind of Science'
+   ]
+%}
+
 {% block index %}
-  <ul>
   {% for thing in related('type')|sort -%}
-    <li>
+    {% if thing not in very_special %}
+      <h3>
+        {% if not data[key].suppress_page_generation %}
+          {{ link(thing) }}
+        {% else %}
+          {{ thing }}
+        {% endif %}
+      </h3>
+      <p>
+          By {{ linked_list(data[thing].authors) }}
+          {%- if data[thing].auspices -%}
+            , {{ linked_list(data[thing].auspices) }}
+          {%- endif -%}
+          {%- if data[thing].inception_date -%}
+            , {{ data[thing].inception_date }}
+          {%- endif -%}
+          {%- if data[thing].isbn -%}
+          , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ data[thing].isbn }}">{{ data[thing].isbn }}</a>
+          {% endif %}
+      </p>
+      {% if data[thing].commentary %}
+        {{ md2html(data[thing].commentary) }}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% for thing in very_special -%}
+    <h3>
       {% if not data[key].suppress_page_generation %}
         {{ link(thing) }}
       {% else %}
         {{ thing }}
       {% endif %}
-       -- ISBN {{ data[thing].isbn }}
-    </li>
+    </h3>
+    <p>
+        By {{ linked_list(data[thing].authors) }}
+        {%- if data[thing].auspices -%}
+          , {{ linked_list(data[thing].auspices) }}
+        {%- endif -%}
+        {%- if data[thing].inception_date -%}
+          , {{ data[thing].inception_date }}
+        {%- endif -%}
+        {%- if data[thing].isbn -%}
+        , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ data[thing].isbn }}">{{ data[thing].isbn }}</a>
+        {% endif %}
+    </p>
+    {% if data[thing].commentary %}
+      {{ md2html(data[thing].commentary) }}
+    {% endif %}
   {% endfor %}
-  </ul>
 {% endblock index %}

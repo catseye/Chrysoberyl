@@ -18,7 +18,7 @@
           , {{ inception_date }}
         {%- endif -%}
         {%- if isbn -%}
-        , ISBN: {{ isbn }}
+        , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ isbn }}">{{ isbn }}</a>
         {% endif %}
       {% else %}
         {% if development_stage == 'idea' %}
