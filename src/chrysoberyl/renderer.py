@@ -398,8 +398,8 @@ class Renderer(object):
             elif 'contents' in data[exhibit_key]:
                 return data[exhibit_key]['contents']
             else:
-                return [t for t in related('type', key=key)
-                        if exhibit_key in data[t]['exhibits']]
+                return sorted([t for t in related('type', key=key)
+                        if exhibit_key in data[t]['exhibits']])
 
         @expose
         def strip_outer_p(text):
