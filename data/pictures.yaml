@@ -4,6 +4,8 @@ Medium:
   type: type
 
 
+pencil:
+  type: Medium
 ink:
   type: Medium
 paper:
@@ -60,7 +62,6 @@ Release Notes Girl:
   - HTML5
   inline-image-installation: true
 
-
 Illberon Release Notes:
   type: Picture
   inception-date: ca 2000
@@ -86,7 +87,6 @@ Illberon Release Notes:
   - HTML5
   inline-image-installation: true
 
-
 pixley.pix as Nested Rectangles:
   type: Picture
   inception-date: ca Jan 2014
@@ -109,7 +109,6 @@ pixley.pix as Nested Rectangles:
   - PNG
   - HTML5
   inline-image-installation: true
-
 
 'Ink salad No. 1':
   type: Picture
@@ -134,7 +133,6 @@ pixley.pix as Nested Rectangles:
   - HTML5
   inline-image-installation: true
 
-
 'Ink salad No. 2':
   type: Picture
   inception-date: ca May 2013
@@ -158,10 +156,9 @@ pixley.pix as Nested Rectangles:
   - HTML5
   inline-image-installation: true
 
-
 'Ink salad No. 7':
   type: Picture
-  inception-date: ca July 2013
+  inception-date: ca Jun 2013
 'Ink salad No. 7 (PNG)':
   type: Implementation
   implementation-of:
@@ -179,5 +176,105 @@ pixley.pix as Nested Rectangles:
   animated: false
   mediums:
   - PNG
+  - HTML5
+  inline-image-installation: true
+
+'Reader, Hyde Park':
+  type: Picture
+  inception-date: ca Jul 2013
+'Reader, Hyde Park (JPEG)':
+  type: Implementation
+  implementation-of:
+  - Reader, Hyde Park
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Reader,%20Hyde%20Park.jpg
+'Reader, Hyde Park (HTML5)':
+  type: Online Installation
+  installation-of: Reader, Hyde Park (JPEG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - pencil
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+'Recliner, Hyde Park':
+  type: Picture
+  inception-date: ca Jul 2013
+'Recliner, Hyde Park (JPEG)':
+  type: Implementation
+  implementation-of:
+  - Reader, Hyde Park
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Recliner,%20Hyde%20Park.jpg
+'Recliner, Hyde Park (HTML5)':
+  type: Online Installation
+  installation-of: Recliner, Hyde Park (JPEG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - pencil
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+'Smoker, Hyde Park':
+  type: Picture
+  inception-date: ca Jul 2013
+'Smoker, Hyde Park (JPEG)':
+  type: Implementation
+  implementation-of:
+  - Reader, Hyde Park
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Smoker,%20Hyde%20Park.jpg
+'Smoker, Hyde Park (HTML5)':
+  type: Online Installation
+  installation-of: Smoker, Hyde Park (JPEG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - pencil
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+"Reader, St. James's Park":
+  type: Picture
+  inception-date: ca Jul 2013
+"Reader, St. James's Park (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Reader, St. James's Park"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Reader, St. James's Park.jpg"
+"Reader, St. James's Park (HTML5)":
+  type: Online Installation
+  installation-of: "Reader, St. James's Park (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - pencil
+  - paper
+  - JPEG
   - HTML5
   inline-image-installation: true
