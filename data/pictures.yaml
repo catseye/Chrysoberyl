@@ -38,7 +38,6 @@ PNG:
 Release Notes Girl:
   type: Picture
   inception-date: ca 2000
-
 'Release Notes Girl (GIF)':
   type: Implementation
   implementation-of:
@@ -46,8 +45,7 @@ Release Notes Girl:
   license: Freely Redistributable
   host-language: GIF
   file-locations:
-  - https://github.com/catseye/Illgol-Grand-Mal/blob/master/2.%20Illgola-2/doc/release_notes_girl.gif
-
+  - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/2.%20Illgola-2/doc/release_notes_girl.gif
 'Release Notes Girl (HTML5)':
   type: Online Installation
   installation-of: Release Notes Girl (GIF)
@@ -60,13 +58,12 @@ Release Notes Girl:
   - paper
   - GIF
   - HTML5
-  github-file-installation: true
+  inline-image-installation: true
 
 
 Illberon Release Notes:
   type: Picture
   inception-date: ca 2000
-
 'Illberon Release Notes (JPEG)':
   type: Implementation
   implementation-of:
@@ -74,8 +71,7 @@ Illberon Release Notes:
   license: Freely Redistributable
   host-language: JPEG
   file-locations:
-  - https://github.com/catseye/Illgol-Grand-Mal/blob/master/3.%20Illberon/doc/irl-may.jpg
-
+  - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/3.%20Illberon/doc/irl-may.jpg
 'Illberon Release Notes (HTML5)':
   type: Online Installation
   installation-of: Illberon Release Notes (JPEG)
@@ -88,13 +84,12 @@ Illberon Release Notes:
   - paper
   - JPEG
   - HTML5
-  github-file-installation: true
+  inline-image-installation: true
 
 
 pixley.pix as Nested Rectangles:
   type: Picture
   inception-date: ca Jan 2014
-
 'pixley.pix as Nested Rectangles (PNG)':
   type: Implementation
   implementation-of:
@@ -103,7 +98,6 @@ pixley.pix as Nested Rectangles:
   host-language: PNG
   file-locations:
   - http://catseye.tc/images/generated/Pixley.png
-
 'pixley.pix as Nested Rectangles (HTML5)':
   type: Online Installation
   installation-of: pixley.pix as Nested Rectangles (PNG)
@@ -114,4 +108,76 @@ pixley.pix as Nested Rectangles:
   mediums:
   - PNG
   - HTML5
-  github-file-installation: true
+  inline-image-installation: true
+
+
+'Ink salad No. 1':
+  type: Picture
+  inception-date: ca May 2013
+'Ink salad No. 1 (PNG)':
+  type: Implementation
+  implementation-of:
+  - Ink salad No. 1
+  license: Freely Redistributable
+  host-language: PNG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%201.png
+'Ink salad No. 1 (HTML5)':
+  type: Online Installation
+  installation-of: Ink salad No. 1 (PNG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - PNG
+  - HTML5
+  inline-image-installation: true
+
+
+'Ink salad No. 2':
+  type: Picture
+  inception-date: ca May 2013
+'Ink salad No. 2 (PNG)':
+  type: Implementation
+  implementation-of:
+  - Ink salad No. 2
+  license: Freely Redistributable
+  host-language: PNG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%202.png
+'Ink salad No. 2 (HTML5)':
+  type: Online Installation
+  installation-of: Ink salad No. 2 (PNG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - PNG
+  - HTML5
+  inline-image-installation: true
+
+
+'Ink salad No. 7':
+  type: Picture
+  inception-date: ca July 2013
+'Ink salad No. 7 (PNG)':
+  type: Implementation
+  implementation-of:
+  - Ink salad No. 7
+  license: Freely Redistributable
+  host-language: PNG
+  file-locations:
+  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%207.png
+'Ink salad No. 7 (HTML5)':
+  type: Online Installation
+  installation-of: Ink salad No. 7 (PNG)
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - PNG
+  - HTML5
+  inline-image-installation: true
