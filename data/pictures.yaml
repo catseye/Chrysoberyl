@@ -8,7 +8,16 @@ pencil:
   type: Medium
 ink:
   type: Medium
+ink and wash:
+  type: Medium
+marker pen:
+  type: Medium
+
 paper:
+  type: Medium
+cartridge paper:
+  type: Medium
+construction paper:
   type: Medium
 
 
@@ -268,6 +277,157 @@ pixley.pix as Nested Rectangles:
 "Reader, St. James's Park (HTML5)":
   type: Online Installation
   installation-of: "Reader, St. James's Park (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - pencil
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+
+Bagpiper, Castlehill:
+  type: Picture
+  inception-date: ca Sep 2013
+"Bagpiper, Castlehill (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Bagpiper, Castlehill"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Bagpiper, Castlehill.jpg"
+"Bagpiper, Castlehill (HTML5)":
+  type: Online Installation
+  installation-of: "Bagpiper, Castlehill (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
+  - cartridge paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Converser, Princes Street Gardens:
+  type: Picture
+  inception-date: ca Sep 2013
+"Converser, Princes Street Gardens (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Converser, Princes Street Gardens"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Converser, Princes Street Gardens.jpg"
+"Converser, Princes Street Gardens (HTML5)":
+  type: Online Installation
+  installation-of: "Converser, Princes Street Gardens (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink and wash
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Mobile User, The Meadows:
+  type: Picture
+  inception-date: ca Sep 2013
+"Mobile User, The Meadows (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Mobile User, The Meadows"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Mobile User, The Meadows.jpg"
+"Mobile User, The Meadows (HTML5)":
+  type: Online Installation
+  installation-of: "Mobile User, The Meadows (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
+  - construction paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Portfolio Browsers, Parc George Brassens:
+  type: Picture
+  inception-date: ca Apr 2013
+"Portfolio Browsers, Parc George Brassens (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Portfolio Browsers, Parc George Brassens"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Portfolio Browsers, Parc George Brassens.jpg"
+"Portfolio Browsers, Parc George Brassens (HTML5)":
+  type: Online Installation
+  installation-of: "Portfolio Browsers, Parc George Brassens (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - marker pen
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Reader, Parc George Brassens:
+  type: Picture
+  inception-date: ca Apr 2013
+"Reader, Parc George Brassens (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Reader, Parc George Brassens"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Reader, Parc George Brassens.jpg"
+"Reader, Parc George Brassens (HTML5)":
+  type: Online Installation
+  installation-of: "Reader, Parc George Brassens (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Reader, Sacre Coeur:
+  type: Picture
+  inception-date: ca Apr 2013
+"Reader, Sacre Coeur (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Reader, Sacre Coeur"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Reader, Sacre Coeur.jpg"
+"Reader, Sacre Coeur (HTML5)":
+  type: Online Installation
+  installation-of: "Reader, Sacre Coeur (JPEG)"
   exhibits:
   - Pictures Exhibit
   interactive: false
