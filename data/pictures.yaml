@@ -46,20 +46,20 @@ PNG:
   no-specification: true
 
 
-Release Notes Girl:
+'Illgola-2 - Release Notes Girl':
   type: Picture
   inception-date: ca 2000
-'Release Notes Girl (GIF)':
+'Illgola-2 - Release Notes Girl (GIF)':
   type: Implementation
   implementation-of:
-  - Release Notes Girl
+  - 'Illgola-2 - Release Notes Girl'
   license: Freely Redistributable
   host-language: GIF
   file-locations:
   - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/2.%20Illgola-2/doc/release_notes_girl.gif
-'Release Notes Girl (HTML5)':
+'Illgola-2 - Release Notes Girl (HTML5)':
   type: Online Installation
-  installation-of: Release Notes Girl (GIF)
+  installation-of: 'Illgola-2 - Release Notes Girl (GIF)'
   exhibits:
   - Pictures Exhibit
   interactive: false
