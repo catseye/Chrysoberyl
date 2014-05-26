@@ -348,7 +348,6 @@ Texts Exhibit:
     The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
-# about'ed (only esolang that is, so far)
 'Shelta (v86)':
   type: Online Installation
   # ... and sheltas, but ok
@@ -421,6 +420,23 @@ Texts Exhibit:
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
 
+'Wunnel (HTML5)':
+  installation-of: wunnel.js
+  type: Online Installation
+  exhibits:
+  - Esolangs Exhibit
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  summary: |
+    This is an HTML5-based animator for the
+    esoteric programming language [[Wunnel]].
+  description: |
+    This is an HTML5-based animator for the
+    esoteric programming language [[Wunnel]].
+
 'yoob (Applet)':
   type: Online Installation
   installation-of: tc.catseye.yoob
@@ -456,7 +472,7 @@ Texts Exhibit:
   - HTML5
   summary: |
     This is an HTML5-based interpreter for the
-    esoteric programming language [[ZOWIE]].  
+    esoteric programming language [[ZOWIE]].
   description: |
     This is an [[HTML5]]-based interpreter for the
     [[Esolang|esoteric programming language]] [[ZOWIE]].

@@ -3095,6 +3095,18 @@ tc.catseye.yoob.wunnel:
   online-locations:
   - 'yoob (Applet)'
 
+wunnel.js:
+  type: Implementation
+  implementation-of:
+  - Wunnel
+  in-distribution: Wunnel distribution
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: yoob.js API
+  online-locations:
+  - 'Wunnel (HTML5)'
+
 
 Xoomonk: 
   type: Programming Language

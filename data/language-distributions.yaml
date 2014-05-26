@@ -979,6 +979,13 @@ Wierd distribution:
     revision: "2004.0302"
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
 
+Wunnel distribution: 
+  type: Distribution
+  bitbucket: catseye/wunnel
+  github: catseye/Wunnel
+  issue-tracker: github
+  releases: []
+
 "noit o' mnain worb distribution": 
   type: Distribution
   bitbucket: catseye/noit-o-mnain-worb
