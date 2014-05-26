@@ -110,7 +110,7 @@ Texts Exhibit:
     Use your arrow keys to guide the bubble through the maze.  Avoid the
     hazards and find the five keys to unlock the exit.
   description: |
-    [[Bubble Escape 2K]] is an video game where you guide a soap bubble
+    [[Bubble Escape 2K]] is a video game where you guide a soap bubble
     through a multi-screen maze.  Based on the cheesy original written in
     [[Commodore BASIC 2.0|BASIC]] in the 80's, this version
     was rewritten in [[Ophis Assembler|6502 assembly]], crunched to fit
@@ -430,12 +430,17 @@ Texts Exhibit:
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    This is an HTML5-based animator for the
-    esoteric programming language [[Wunnel]].
   description: |
-    This is an HTML5-based animator for the
+    This is an HTML5-based implementation of the
     esoteric programming language [[Wunnel]].
+  instructions: |
+    Select an example program from the drop-down (or click Edit and
+    compose your own,) then click Run.
+    
+    When `INP` is highlighted in the instruction matrix, the program is
+    waiting for input.  Click on the Input text box and input some
+    `0`s and `1`s (Wunnel programs take bits as input.)  The program
+    will consume them in order, and continue running.
 
 'yoob (Applet)':
   type: Online Installation
