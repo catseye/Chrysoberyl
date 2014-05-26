@@ -1,17 +1,43 @@
 # encoding: UTF-8
 
+'Music, Pictures, Texts, and Wunnel':
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 26 May 2014 15:37:50 GMT
+  blurb: |
+    [Music](http://catseye.tc/node/Online_Installation#music_exhibit),
+    [Pictures](http://catseye.tc/node/Online_Installation#pictures_exhibit),
+    [Texts](http://catseye.tc/node/Online_Installation#texts_exhibit), and
+    [[Wunnel (HTML5)]].
+  description: |
+    The [[Online Installation|Online Gallery]] has had an overhaul since
+    the last time I announced anything regarding it.  It's got tabs with
+    proper anchors and stuff now.
+    
+    In an attempt to prove that I am a polymath (which is a Greek word which means
+    "bad at everything",) music I've written and pictures I've made
+    and texts I've (meta-)written are available under the tabs there now.
+    
+    But its main purpose is still for interactive HTML5-y stuff, especially
+    esolangs, and lo, there is
+    [[Wunnel (HTML5)|an HTML5 implementation of Wunnel]] there now too.
+    
+    And with this implementation of Wunnel, [[yoob.js]] has reached another
+    release point, version 0.6.  But, of course, it is still basically in the
+    work-in-progress stage, with things changing all over.
+
 'Github as a computer dating service (!)':
   type: Article
   article-type: announcement
   publication-date: Tue, 25 Mar 2014 08:18:34 GMT
   blurb: |
-    [Github as a computer dating service](https://github.com/catseye/Operation-Match-Github)
+    [Github as a computer dating service](https://github.com/cpressey/Operation-Match-Github)
     (not that I can in good conscience recommend that.)
   description: |
     As a little hack on the weekend, I started playing with the Github API,
     after using it for more serious purposes in [[toolshelf]].  The result was
     
-    [Operation Match, Github edition](https://github.com/catseye/Operation-Match-Github)
+    [Operation Match, Github edition](https://github.com/cpressey/Operation-Match-Github)
     
     which turns Github into a computer dating service.  Well, not really,
     and I really *can't* recommend using Github for romance...
