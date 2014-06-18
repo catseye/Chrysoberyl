@@ -12,12 +12,16 @@ ink and wash:
   type: Medium
 marker pen:
   type: Medium
+fineliner:
+  type: Medium
 
 paper:
   type: Medium
 cartridge paper:
   type: Medium
 construction paper:
+  type: Medium
+card:
   type: Medium
 
 
@@ -366,7 +370,7 @@ Mobile User, The Meadows:
 
 Portfolio Browsers, Parc George Brassens:
   type: Picture
-  inception-date: ca Apr 2013
+  inception-date: ca Apr 2014
 "Portfolio Browsers, Parc George Brassens (JPEG)":
   type: Implementation
   implementation-of:
@@ -391,7 +395,7 @@ Portfolio Browsers, Parc George Brassens:
 
 Reader, Parc George Brassens:
   type: Picture
-  inception-date: ca Apr 2013
+  inception-date: ca Apr 2014
 "Reader, Parc George Brassens (JPEG)":
   type: Implementation
   implementation-of:
@@ -416,7 +420,7 @@ Reader, Parc George Brassens:
 
 Reader, Sacre Coeur:
   type: Picture
-  inception-date: ca Apr 2013
+  inception-date: ca Apr 2014
 "Reader, Sacre Coeur (JPEG)":
   type: Implementation
   implementation-of:
@@ -434,6 +438,107 @@ Reader, Sacre Coeur:
   animated: false
   mediums:
   - pencil
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Converser, Sacre Coeur:
+  type: Picture
+  inception-date: ca Apr 2014
+"Converser, Sacre Coeur (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Converser, Sacre Coeur"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Converser, Sacre Coeur.jpg"
+"Converser, Sacre Coeur (HTML5)":
+  type: Online Installation
+  installation-of: "Converser, Sacre Coeur (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - fineliner
+  - paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+
+Fictional Landscape No. 1:
+  type: Picture
+  inception-date: ca Aug 2013
+"Fictional Landscape No. 1 (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Fictional Landscape No. 1"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 1.jpg"
+"Fictional Landscape No. 1 (HTML5)":
+  type: Online Installation
+  installation-of: "Fictional Landscape No. 1 (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink and wash
+  - cartridge paper
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Fictional Landscape No. 2:
+  type: Picture
+  inception-date: ca Aug 2013
+"Fictional Landscape No. 2 (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Fictional Landscape No. 2"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 2.jpg"
+"Fictional Landscape No. 2 (HTML5)":
+  type: Online Installation
+  installation-of: "Fictional Landscape No. 2 (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - fineliner
+  - card
+  - JPEG
+  - HTML5
+  inline-image-installation: true
+
+Fictional Townscape No. 1:
+  type: Picture
+  inception-date: ca Sep 2013
+"Fictional Townscape No. 1 (JPEG)":
+  type: Implementation
+  implementation-of:
+  - "Fictional Townscape No. 1"
+  license: Unknown license
+  host-language: JPEG
+  file-locations:
+  - "http://catseye.tc/modules/pictures/Fictional Townscape No. 1.jpg"
+"Fictional Townscape No. 1 (HTML5)":
+  type: Online Installation
+  installation-of: "Fictional Townscape No. 1 (JPEG)"
+  exhibits:
+  - Pictures Exhibit
+  interactive: false
+  animated: false
+  mediums:
+  - ink
   - paper
   - JPEG
   - HTML5
