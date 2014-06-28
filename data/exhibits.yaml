@@ -564,8 +564,8 @@ Texts Exhibit:
       name="show_angles" id="show_angles">show angles</label>
     <!-- <p id="status"></p> -->
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/full-screen-detector.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/full-screen-detector.js
   - ../modules/html5-gewgaws/cyclobots/cyclobots.js
   javascript-main: |
     var canvas = document.getElementById('canvas');
@@ -772,7 +772,7 @@ Texts Exhibit:
       <input type="checkbox" name="as_circles" id="as_circles">circles</label>
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/splash-screen.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/splash-screen.js
   - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
   javascript-main: |
     yoob.showSplashScreen({
