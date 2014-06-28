@@ -505,7 +505,7 @@ Texts Exhibit:
   control-panel: |
     <button id="reset" onclick="t.reset();">Reset</button>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
   javascript-main: |
@@ -529,7 +529,7 @@ Texts Exhibit:
     <input id="hold_fixed" type="range" min="0" max="100" value="5"/>
     <button id="restart" onclick="t.restart()">Restart</button>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/chzrxl/chzrxl.js
   javascript-main: |
     var t = new Chzrxl();
@@ -604,7 +604,7 @@ Texts Exhibit:
   canvas-width: 1000
   canvas-height: 500
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
   javascript-main: |
     var t = new FibonacciSpiral();
@@ -628,7 +628,7 @@ Texts Exhibit:
   extra-head: |
     <meta name="viewport" content="width=device-width, user-scalable=no">
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
   javascript-main: |
     (new Fingerspelling()).init(document.getElementById('canvas'));
@@ -657,7 +657,7 @@ Texts Exhibit:
       </label>
     </p>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
   javascript-main: |
     var t = new HirsuteMiasma();
@@ -690,7 +690,7 @@ Texts Exhibit:
       of Physiognometric Defence</span>
     </div>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
   javascript-main: |
@@ -732,7 +732,7 @@ Texts Exhibit:
     <label for="turbo">
       <input type="checkbox" name="turbo" id="turbo">turbo</label>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
   javascript-main: |
@@ -771,7 +771,7 @@ Texts Exhibit:
     <label for="as_circles">
       <input type="checkbox" name="as_circles" id="as_circles">circles</label>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/common-yoob.js-0.5/splash-screen.js
   - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
   javascript-main: |
@@ -815,7 +815,7 @@ Texts Exhibit:
   extra-style: |
     #canvas { border: 1px solid blue; }
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/prairie/prairie.js
   javascript-main: |
     new PrairieController().start(
@@ -841,7 +841,7 @@ Texts Exhibit:
   control-panel: |
     <p id="counter"></p>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/progression/progression.js
   javascript-main: |
     var p = new ProgressionController();
@@ -889,7 +889,7 @@ Texts Exhibit:
       Please wait, loading...
     </div>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/the-frame/the-frame.js
   javascript-main: |
