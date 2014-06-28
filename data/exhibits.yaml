@@ -506,7 +506,7 @@ Texts Exhibit:
     <button id="reset" onclick="t.reset();">Reset</button>
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
   javascript-main: |
     var t = new NonRandomWalk();
@@ -691,7 +691,7 @@ Texts Exhibit:
     </div>
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
   javascript-main: |
     var t = new HeronsisHermnonicii();
@@ -733,7 +733,7 @@ Texts Exhibit:
       <input type="checkbox" name="turbo" id="turbo">turbo</label>
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
   javascript-main: |
     var canvas = document.getElementById('canvas');
@@ -890,7 +890,7 @@ Texts Exhibit:
     </div>
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.5/animation-frame.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.5/sprite-manager.js
+  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/the-frame/the-frame.js
   javascript-main: |
     var canvas = document.getElementById('canvas');
