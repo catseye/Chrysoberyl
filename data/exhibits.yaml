@@ -845,7 +845,8 @@ Texts Exhibit:
   - ../modules/html5-gewgaws/progression/progression.js
   javascript-main: |
     var p = new ProgressionController();
-    p.start(document.getElementById('canvas'));
+    p.start(document.getElementById('canvas'),
+            document.getElementById('counter'));
 
 'The Frame (HTML5)':
   type: Online Installation
