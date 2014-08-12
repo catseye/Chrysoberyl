@@ -48,15 +48,6 @@ Apple II:
   wikipedia: Apple_II
   description: |
     A home computer of old.  You may have heard of it?
-  commentary: |
-    [[Cat's Eye Technologies]]' Applesoft BASIC offerings
-    assume that they will be running on an Apple ][+, but
-    will generally also run on an Apple //e.
-    Of course, these days, it's more likely you'd be running
-    this software on an emulator instead of a museum piece.
-    I've found [[AppleWin]] to be a decent Apple emulator on [[Windows]];
-    I have yet to find one for [[Linux]] that's
-    good enough to be my go-to emulator (pun? what pun?).
 
 6502 machine code:
   type: Programming Language
@@ -96,15 +87,6 @@ Applesoft BASIC:
     Applesoft BASIC was a dialect of [[BASIC]] that was available for
     (in fact, generally shipped with) the [[Apple II]] series of
     microcomputers, including the Apple ][+ and Apple //e.
-  commentary: |
-    [[Cat's Eye Technologies]]' Applesoft BASIC offerings
-    assume that they will be running on an Apple ][+, but
-    will generally also run on an Apple //e.
-    Of course, these days, it's more likely you'd be running
-    this software on an emulator instead of a museum piece.
-    I've found [[AppleWin]] to be a decent Apple emulator on [[Windows]];
-    I have yet to find one for [[Linux]] that's
-    good enough to be my go-to emulator (pun? what pun?).
 
 AppleWin:
   type: Implementation
@@ -183,16 +165,6 @@ IBM PC compatible:
   wikipedia: IBM PC compatible
   native-language: x86 machine code
   other-languages: []
-  commentary: |
-    A project that requires this assumes that it will be running on a fairly standard
-    x86-based (IA-32) computer architecture, from the lineage that dates
-    back to those old IBM PC's. Probably a 486 with a BIOS, keyboard, and
-    basic VGA is the minimum to make it worthwhile.  Some modern PC's
-    can handle running that sort of legacy setup, and others don't.
-    Often, a better choice — because it can
-    run under a modern OS, rather than actually dedicating the entire
-    computer to it — is to run such things under an emulator. In which case,
-    we recommend [[QEMU]].
   references:
   - title: RBIL
     description: Ralf Brown's Interrupt List
@@ -236,9 +208,6 @@ QEMU:
   host-language: C99
   implementation-type: emulator
   generally-recommended: true
-  commentary: |
-    QEMU can actually emulate many more architectures than just the
-    IBM PC compatible.
 
 v86:
   type: Implementation

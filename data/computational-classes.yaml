@@ -9,42 +9,25 @@ Turing-complete:
     as Turing-complete, it means that it has been demonstrated in a
     (reasonably) formal way — as opposed to it
     [[believed Turing-complete|being so uncontroversial that no one has bothered.]]
-  commentary: |
-    Ah, Turing-complete!  Turing-complete!  Say it again; it's a little like a
-    mantra in [[Esolang|this part of the world]].  Turing-complete!
-    
-    "Do everything a Turing machine can do..."  This requirement is maybe
-    stronger than you intuitively think, maybe weaker than you intuitively think.
-    
-    Stronger, because [[Machine language|machine language]]s, _per se_, are not
-    Turing-complete, because they only have a finite number of memory
-    locations to hold data in.  No matter what machine language you have,
-    I can always come up with some computational problem that it can't
-    solve because it requires *one more bit* of data than you can hold.
-    
-    (And this extends to languages like [[C99|C]] as well — they assume so
-    strongly that they are compiling to machine code that they adopt some
-    of the finitist limitations of it.)
-    
-    Weaker, because we can define systems that do things that Turing machines
-    were never intended, or defined, to do: for example, produce output,
-    accept input, wait for a specified duration in time, or [[Cfluviurrh|feel emotions]].
-    
-    The whole Turing-completeness issue is actually fairly subtle, and I feel
-    like I could write a book on it (or at least a rather fat pamphlet).
+
 believed Turing-complete:
   type: Computational Class
   description: |
     Means that the author, or the general public, has reason to believe that
     the language is [[Turing-complete]], but no (reasonably) formal proof
     has been provided for the claim.
+
 known not Turing-complete:
   type: Computational Class
+
 Finite-automata-complete:
   type: Computational Class
+
 unknown computational class:
   type: Computational Class
+
 Primitive recursive:
   type: Computational Class
+
 can simulate some push-down automata:
   type: Computational Class

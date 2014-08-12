@@ -150,9 +150,6 @@ erlaunch:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  commentary: |
-    Not really useful anymore, as startup time for recent versions
-    of Erlang/OTP is pretty good.
 
 erlaunch.c:
   type: Implementation
@@ -254,8 +251,6 @@ peruse:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  commentary: |
-    ISTR it had some bugs in it, and who uses the Erlang logfile format anyway?
 
 peruse.erl:
   type: Implementation
@@ -285,8 +280,6 @@ luakld:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  commentary: |
-    Lua interpreter: not a recommended thing to put in a kernel module.
 
 luakld (C):
   type: Implementation
@@ -322,8 +315,6 @@ SP\ASM:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  commentary: |
-    Possibly the most grotty hack implementation of an "assembler" in existence.
 
 SP\ASM.BAT:
   type: Implementation

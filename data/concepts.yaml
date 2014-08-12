@@ -2,111 +2,12 @@
 # this one's a real grab-bag, for now
 Open-source:
   type: Concept
-  commentary: |
-    We believe that open-source software has an important civic and didactic
-    role in modern society. Civic, in that with it, communities of
-    individuals with common software needs can serve those needs
-    independently of governmental or corporate organization; and didactic,
-    in that open-source software is not only a great source of utility but,
-    perhaps more importantly, a potentially excellent source of educational
-    material as well.
-    
-    For these reasons, many of [[Cat's Eye Technologies]]' software projects
-    have been placed under permissive licenses and made available for public
-    access on the Internet.  We generally favour the [[BSD license]], as we find
-    it clear, succinct, and pointific.
-    
-    However, we also believe that it is important to recognize that the
-    present culture of open source also has an ugly streak. Advocacy too
-    often degrades into proselytizing, while philosophy is warped into
-    doctrine. Dishearteningly, we believe that [Nikolai Bezroukov](http://www.softpanorama.org/)
-    is justified in comparing these ideological tendencies to Lysenkoism.
-    
-    At Cat's Eye Technologies, we are attempting to counter this trend by
-    being explicit about our reasons: We contribute to the pool of
-    open-source software not because it is some kind of moral imperative,
-    but simply because it is a good idea. We encourage others to do
-    likewise.
 
 Terminology:
   type: Concept
-  commentary: |
-    I'm sure everyone is familiar with the overuse of jargon in the computer
-    industry. It's unfortunate, because it perpetuates a gulf of complexity:
-    instead of helping others understand, it drives them away.
-    
-    The problem is not limited to practitioners making up words, though:
-    there's no shortage of just plain abuse of language from researchers and
-    theoreticians, too. Here are some examples.
-    
-    -   When we adjust a bound to make it *tighter*, say during an algorithm
-        to compute the shortest path between two nodes in a graph, we call
-        this *relaxation*.
-    -   When we show that one problem is equivalent to another, *harder*
-        problem, we say that we have *reduced* the easier problem to the
-        harder one.
-    -   When we connect two systems in a manner which *conceals* the details
-        of how this connection is accomplished, we call this connection
-        *transparent*.
 
 Universality:
   type: Concept
   description: |
     We say an automaton is _universal_ if it can simulate any other automaton
     of the same kind.
-    
-    This definition depends, of course, on having suitable definitions of
-    "simulate" and "kind", but these usually fall out naturally from the
-    definition of the specific automaton under consideration.
-    
-    Probably the most well-known example of a universal automaton is the
-    universal Turing machine, which, given a suitably encoded input, can
-    simulate any other Turing machine. We say that such a universal Turing
-    machine is [[Turing-complete]]. (Pedantically, we should say that it's the
-    *set of strings* that the machine accepts which is Turing-complete. But
-    for convenience, a certain amount of abuse of notation goes on.)
-    
-    Most [[Programming Language|programming languages]], or at least idealized
-    versions of them, are universal; for example, you can write a
-    [[Scheme]] interpreter in Scheme, and then run
-    every Scheme program you can imagine on that interpreter.
-    
-    It's interesting to note that "every Scheme program you can imagine"
-    includes that Scheme interpreter you just wrote — so you could run it on
-    itself, and then run it on it running on it, etc, etc ad infinitum.
-    Supporting automorphisms like this is a necessary, but not sufficient,
-    condition for universality.
-    
-    It's also interesting to note that many different kinds of automata can
-    simulate *each other*: there's a Turing machine that can interpret
-    Scheme programs, and a Scheme program that can execute Turing machines.
-    The fact that so many different kinds of automata can simulate each
-    other in this way, and that no one has found some automaton that none of
-    *them* can simulate, leads to what's called the Church-Turing thesis.
-    (This is arguably a kind of "universality" as well, but we stress that
-    it is a very different sense of "universal" than what we mean in this
-    article.)
-    
-    Looking in the other direction, it's possible to show that, for many
-    classes of automata there is no universal automaton. For example, there
-    is no universal primitive-recursive function, no universal context-free
-    grammar, and no universal finite-state automaton.
-    
-    It is not the case that only Turing machines can be universal. There
-    are, for example, universal [[Cellular automaton|cellular automata]] which
-    can simulate all other cellular automata. Note as well that cellular
-    automata are unable to simulate Turing machines, since they cannot
-    terminate.
-    
-    This last point is, incidentally, why we would argue that [Wolfram's 2-3
-    Turing
-    machine](http://en.wikipedia.org/wiki/Wolfram's_2-state_3-symbol_Turing_machine)
-    is not, as he claims, "simpler" than Minsky's, or [Neary and
-    Woods'](http://citeseer.ist.psu.edu/745708.html), universal Turing
-    machines. Wolfram's rule 110 cellular automaton may be a universal
-    cellular automaton, but any Turing machine which simulates it is not a
-    universal Turing machine, because there are Turing machines which *do*
-    halt, which it cannot simulate. The 2-3 machine could be made universal,
-    perhaps, by giving it some capability to halt; but such a facility would
-    surely increase its complexity, with no guarantee that it would still be
-    "simpler" than the "reigning champions."
