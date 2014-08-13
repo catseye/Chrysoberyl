@@ -262,15 +262,6 @@ Automaton:
     [[Chris Pressey's Lingography]].
   images:
     - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
-  commentary: |
-    What's the difference between an automaton and a
-    [[Programming Language|programming language]] and a calculus
-    and a model of computation?  Precious little, I'm afraid — under many
-    circumstances you can consider them just about interchangeable.  There
-    are subtleties, and I'll try to write something about those subtleties
-    at some point.  But don't be too surprised when they (seemingly
-    arbitrarily) get lumped together here, and when they (seemingly
-    arbitrarily) don't.
 Programming Language:
   type: type
   description: |
@@ -289,36 +280,6 @@ Programming Language:
     * [[The Aesthetics of Esolangs]]
   images:
     - url: '/images/illustrations/Abacus_(PSF).jpg'
-  commentary: |
-    There are two things about programming languages that every programmer
-    should know.
-    
-    One is that a programming language is an abstract entity. Much like
-    Beethoven's 7th Symphony, it just doesn't exist in the same sense a tree
-    or a street exists. Sure, there are *recordings* of *performances* of
-    Beethoven's 7th, and there are *transcriptions* of Beethoven's 7th, but
-    these are only attempts to capture the symphony, they aren't the
-    symphony itself.
-    
-    Simlarly, take a programming language, like [[Java]]. There are
-    implementations of Java — there's Sun's `javac`, for instance, but
-    there are also IBM's `jikes` and GNU's `gcj`. And there are
-    specifications of Java — the official spec is from Sun (much like the
-    official version of Beethoven's 7th issued straight from Ludwig von's
-    pen,) but there are countless books on learning Java that also explain
-    the features and rules of Java, in their own words.
-    
-    In short, languages aren't the tools that implement them or the
-    documents that describe them.
-    
-    Ponder this fact, for fully appreciating it will mean you'll be able to
-    save yourself from appearing ignorant by referring to how this or that
-    language is "not fast enough" or "widely available."
-    
-    The other thing that every programmer should know about programming
-    languages is that it's very important to choose the right programming
-    language for every software project. That's why you'll always choose
-    [[C++]] no matter *what* the software project is.
   references:
   - url: http://hopl.murdoch.edu.au/
     title: HoPL

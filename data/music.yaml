@@ -143,13 +143,6 @@ The Biftek Shuffle:
   auspices:
   - What is this I don't even
   development-stage: vintage
-  commentary: |
-    Apparently, when I was young, I was obsessed with
-    (a) the 12-bar blues progression,
-    (b) very small pitch ranges over the span of a melody or bass line
-    (sometimes only three or four semitones,) and (c)
-    repeating the same 4-bar melody ad naseum, with slightly different instrumentation
-    each time (well, this is easy to do on a computer, right?)
 
 
 Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
@@ -164,11 +157,6 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
   auspices:
   - What is this I don't even
   development-stage: vintage
-  commentary: |
-    Pure experimentational weirdness with the C64's SID chip.
-    The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
-    (a cardboard box, similar to a cereal box, which contains two plastic bags of chips.)
-    The yak may or may not have been a nod to [[Jeff Minter]]; I don't recall.
 
 Two Molecules of a Chip Box in Cosmic Relationship to a Yak (mp3):
   type: Implementation
@@ -192,9 +180,6 @@ Theme to Nukeball:
   auspices:
   - What is this I don't even
   development-stage: vintage
-  description: |
-    This was the theme to a game I was trying to write for the [[Commodore 64]]
-    called [[Nukeball]].  There was also an [[Untitled Video Game Theme|alternate choice]].
 
 Theme to Nukeball (mp3):
   type: Implementation
@@ -203,9 +188,6 @@ Theme to Nukeball (mp3):
   host-language: mp3
   license: Freely Redistributable
   download-link: "http://catseye.tc/music/W.i.t.i.d.E - Theme to Nukeball.mp3"
-  commentary: |
-    I added the fade-out at the end with Audacity because otherwise it would
-    loop indefinitely.
 
 
 Tears on my Catbox:
@@ -220,8 +202,6 @@ Tears on my Catbox:
   auspices:
   - What is this I don't even
   development-stage: vintage
-  description: |
-    Quite short; could be a "game over" theme, or something.
 
 Tears on my Catbox (mp3):
   type: Implementation
@@ -244,9 +224,6 @@ Untitled Video Game Theme:
   auspices:
   - What is this I don't even
   development-stage: vintage
-  description: |
-    This was, I believe, an alternate [[Theme to Nukeball]].  I rather like it.
-    (It cuts off sharply at the end because it was supposed to loop, but didn't.)
 
 Untitled Video Game Theme (mp3):
   type: Implementation
@@ -301,8 +278,6 @@ After the Fact:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    I've been told that this sounds like it should be the theme music for a spy movie.
 
 After the Fact (MED):
   type: Implementation
@@ -310,9 +285,6 @@ After the Fact (MED):
   - After the Fact
   host-language: MED
   license: Freely Redistributable
-  commentary: |
-    After the Fact used MED's ability to transpose an instrument, which most module players don't support.
-    However, [[xmp]] does support this feature.
 
 After the Fact (mp3):
   type: Implementation
@@ -339,13 +311,6 @@ Anagnoresis:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    "Anagnoresis" is either an alternate spelling for, or a typo for,
-    "Anagnorisis", which means the moment some profound realization
-    is suddenly made.  There is no such particular moment during this
-    piece.  However, the second snare beat in each measure is on the
-    and-of-four instead of on four, in a sort of attempt to make your ears
-    wait for it and then go, "oh, *there* it is."
 
 Anagnoresis (MED):
   type: Implementation
@@ -379,9 +344,6 @@ Autumn Kiss:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    This has been described as vaguely Annie Lennox-like, at least how it
-    mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 
 Autumn Kiss (MED):
   type: Implementation
@@ -412,8 +374,6 @@ Drat:
   auspices:
   - What is this I don't even
   development-stage: unfinished
-  commentary: |
-    Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
 Drat (MED):
   type: Implementation
@@ -444,11 +404,6 @@ Go(Figure):
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    One of my favourites.  Originally done up in MED (a somewhat techno-ier
-    rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
-    version ends with a percussion outro, as does [[You Drive Me Wild]] —
-    it seemed as good a way as any to end a song.
 
 Go(Figure) (MED):
   type: Implementation
@@ -487,9 +442,6 @@ Panic:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    Experimental strange dance music with lots of samples.  Samples on the general
-    theme of panicking.
 
 Panic (MED):
   type: Implementation
@@ -508,11 +460,6 @@ Panic (mp3):
   download-link: "http://catseye.tc/music/W.i.t.i.d.E - Panic.mp3"
 
 
-# TODO: retrocon this into "Corner Couple Suite":
-# movement I: Archibald and Elizabeth (Popcornish)
-# movement II: Marion and Kenny ("Swing thing")
-# movement III: ("6-8") -- Donald and Gertrude?  William and Harriet?
-# there are lots of options.  Unfortunately Leila does not intersect any masculine given names
 Popcornish:
   type: Musical Composition
   domain: What is this I don't even
@@ -525,11 +472,6 @@ Popcornish:
   auspices:
   - What is this I don't even
   development-stage: unfinished
-  commentary: |
-    I think either this or [[Technodixie]] was my first try working with Amiga music modules.
-    This is very similar to stuff I was put together on a drum machine when I attended an
-    electronic music camp, probably the year earlier.  But no, it's actually not a lot like
-    Popcorn (by Hot Butter).
 
 Popcornish (mp3):
   type: Implementation
@@ -552,10 +494,6 @@ Rainbird:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    Another pop ballad, this one with crude sound effects of a rainstorm in it.
-    The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
-    on favourably.
 
 Rainbird (MED):
   type: Implementation
@@ -586,10 +524,6 @@ Red Quarks:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    A funky little tune with a somewhat strange musical structure — it kind of goes
-    all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
-    Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 
 Red Quarks (MED):
   type: Implementation
@@ -620,10 +554,6 @@ Retrograde:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    Probably the most conventional of my "[[Sci-fi]]" tunes.  One friend of mine
-    found the melody horrendously catchy in an evil way such that he could not
-    stand listening to it.
 
 Retrograde (MED):
   type: Implementation
@@ -664,10 +594,6 @@ Stella Splendens (MED):
   host-language: MED
   license: Freely Redistributable
   inception-date: ca 1992
-  commentary: |
-    This is an Amiga MED module arrangement of the medieval piece "Stella
-    Splendens".  It is not a traditional arrangement, but neither is it particularly
-    techno nor particularly ambient.
 
 Stella Splendens [Amiga arrangement] (mp3):
   type: Implementation
@@ -682,13 +608,6 @@ Stella Splendens [Amiga arrangement] (mp3):
   - What is this I don't even
   license: Freely Redistributable
   download-link: "http://catseye.tc/music/W.i.t.i.d.E - Stella Splendens [Amiga arrangement].mp3"
-  commentary: |
-    This is an mp3 rendering of an Amiga MED module arrangement of the medieval
-    piece [[Stella Splendens]].  It is not a traditional arrangement, but neither is it
-    particularly techno nor particularly ambient.
-    
-    The MED module was intended to loop indefinitely.  This mp3 rendition
-    repeats twice then fades out.
 
 
 Technodixie:
@@ -703,9 +622,6 @@ Technodixie:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    I think either this or [[Popcornish]] was my first try working with Amiga music modules.  Neither
-    very techno nor very dixieland — well, if it is dixieland, it's, like, Hooked on Dixieland.
 
 Technodixie (mp3):
   type: Implementation
@@ -728,11 +644,6 @@ You Drive Me Wild:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    I've been told this would make a good background music for a [[Platformer]],
-    although I'm not sure I agree.  I do like the signature chord at the start, though;
-    the dissonance is entirely intentional, and it "works", but only because it's soon
-    resolved.  Ends with a percussion solo, as does [[Go(Figure)]].
 
 You Drive Me Wild (MED):
   type: Implementation
@@ -782,9 +693,6 @@ Theme to LOGS:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    LOGS stood for "Low Organized Games".  How, exactly, a game can
-    be "low organized", I'll probably never figure out.
 
 Coffee Break:
   type: Musical Composition
@@ -815,11 +723,6 @@ Birdwatching:
   - Chris Pressey
   auspices:
   - What is this I don't even
-  commentary: |
-    I think I remember composing the theme to this on an electric piano at a friend's
-    house after pulling an all-nighter.  It was supposed to be a very mellow tune
-    (originally, at least,) which was a bit difficult to capture in an Amiga music module
-    (I apologize for the harshness of the saxophone sample.)
 
 Birdwatching (MED):
   type: Implementation
@@ -902,9 +805,6 @@ Ice Jam:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    I consciously tried to write something "Björk-esque" for this one
-    (not really succeeding, at least not all the way.)
 
 Ice Jam (mp3):
   type: Implementation
@@ -927,8 +827,6 @@ Jack and Jill:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    This was going to be an actual song, once, with lyrics and everything.
 
 Jack and Jill (mp3):
   type: Implementation
@@ -951,10 +849,6 @@ A Moment in the Sun:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    My only foray into reggae.  A happy sort of tune;
-    it was originally supposed to be followed by [[Back to the Rain]]
-    in some kind of putative playlist...
 
 A Moment in the Sun (mp3):
   type: Implementation
@@ -977,10 +871,6 @@ Back to the Rain:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    Very, very short.  Intended to be preceded by [[A Moment in the Sun]]
-    and serves more as an outro for that tune.  Or, maybe it could be used as the
-    "oops you lost a life" music in a video game, that sort of thing.
 
 Back to the Rain (mp3):
   type: Implementation
@@ -1003,10 +893,6 @@ Back to the Rain (mp3):
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    The title is meaningless; it's some kind
-    of simple rustic air with a sitar duet jammed into the bridge.
-    But it's another one of my favourites, because I like that sort of thing.
 
 "Zoning Variance #5 (mp3)":
   type: Implementation
@@ -1029,11 +915,6 @@ Smedley the Medley:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    I had three tunes that didn't stand on their own.  They don't go together
-    either, so I put them together.  I've been told it's reminiscent of
-    [[Frank Zappa]], but frankly I don't know if I've ever been able to make
-    it through an entire Zappa song, so I couldn't say, myself.
 
 Smedley the Medley (mp3):
   type: Implementation
@@ -1059,8 +940,6 @@ Fool:
   auspices:
   - What is this I don't even
   development-stage: mature
-  commentary: |
-    A sort of hokey ragtime ballad thing.
 
 Fool (mp3):
   type: Implementation
@@ -1100,8 +979,6 @@ The Blank Dance:
   - Chris Pressey
   auspices:
   - What is this I don't even
-  commentary: |
-    Unfinished.  The word "blank" in the title refers to the [[Esolang|esolang]] [[Blank]].
 
 
 Osborne Village:
@@ -1116,9 +993,6 @@ Osborne Village:
   - Chris Pressey
   auspices:
   - What is this I don't even
-  commentary: |
-    An earlier version (MED) was lost but a later Cakewalk/MIDI version is still
-    around but sorely unfinished.
 
 
 # art music
@@ -1181,12 +1055,6 @@ Fluorescent Atrocious:
   using-software: Sonant Live
   development-stage: mature
   inception-date: Oct 2012
-  commentary: |
-    Here's what this icky techno piece tries to evoke: having a terrible
-    hangover on the brightest morning of the summer while strolling
-    through a garden that was planted by someone with a green
-    thumb — it's very lush and in full bloom — but a very poor sense of
-    how to lay out a garden.
 
 Fluorescent Atrocious (mp3):
   type: Implementation
@@ -1195,16 +1063,3 @@ Fluorescent Atrocious (mp3):
   host-language: mp3
   license: Freely Redistributable
   download-link: "http://catseye.tc/music/W.i.t.i.d.E - Fluorescent Atrocious.mp3"
-
-
-# favourite composers:
-# Prokofiev
-# Beethoven
-# Satie
-# Mendelssohn
-# Stravinsky
-# ...kind of drops off here... I mean these guys are alright but...
-# Vivaldi
-# Chopin
-# Handel
-# Bach
