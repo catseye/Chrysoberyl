@@ -12,8 +12,6 @@ Aubergine:
   computational-class: Turing-complete
   specification-link: esowiki
   development-stage: mature
-  commentary: |
-    Aubergine is an esolang -- perhaps nothing spectacular, but somewhat cute.
 
 aubergine.hs:
   type: Implementation
@@ -23,11 +21,6 @@ aubergine.hs:
   license: Public Domain
   host-language: Haskell
   implementation-type: interpreter
-  commentary: |
-    I implemented Aubergine because the reference interpreter is buggy and
-    I wanted a version that actually implemented the unbounded integers that
-    the language description suggests.  After implementing it, I was familiar
-    enough with it to write a sketch of a proof of its [[Turing-complete]]ness.
   authors:
   - Chris Pressey
   auspices:
@@ -46,8 +39,6 @@ brainfuck:
   computational-class: Turing-complete
   specification-link: esowiki
   development-stage: mature
-  commentary: |
-    Brainfuck is the 12-bar blues of [[Esolang]].
 
 pibfi:
   type: Implementation
@@ -158,15 +149,6 @@ muriel.pl:
     can then (using `ilasm`) be turned into a .NET
     executable.  It can also execute PL-{GOTO} programs
     directly.
-  commentary: |-
-    I've been idly fascinated by the primitive recursive example programming language
-    PL-{GOTO} from Brainerd and Landweber's *[[Theory of Computation]]* for some time.
-    And for some reason I will never be able to explain, I had the craving to implement a compiler
-    which could produce .NET executables by generating MSIL assembly language.  And putting
-    those two together — well, that struck me as a respectably absurd match, so that's what I did.
-    The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
-    to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
-    keeping the `←` symbol for assignment.
   authors:
   - Chris Pressey
   auspices:
@@ -269,12 +251,6 @@ thue.rb:
   license: Public Domain
   implementation-type: interpreter
   host-language: Ruby
-  commentary: |
-    Since I've been maintaining a distribution of this language for a while, and
-    not otherwise involved with it, I decided I should finally implement it.
-    After knocking my head against the spec and reference implementation
-    for a few hours (over the course of months, or has it been years?), I finally
-    did implement it.
 
 
 Underload:
@@ -297,13 +273,6 @@ stringie:
   license: Public Domain
   host-language: ANSI C
   implementation-type: interpreter
-  commentary: |
-    Seeing that there was no *non*-pathological implementation of Alex Smith's
-    beautiful [[Underload]] language in C, I undertook that project one evening.
-    (In the company of a bottle of really fine wine.  Why, it cost almost twelve dollars.)
-    The result is one of the most pedantic and boring Underload interpreters known to
-    man.  Perhaps the most interesting property of it is its name, `stringie`, which was
-    an accident.
   authors:
   - Chris Pressey
   auspices:

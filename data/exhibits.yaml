@@ -116,10 +116,6 @@ Texts Exhibit:
     was rewritten in [[Ophis Assembler|6502 assembly]], crunched to fit
     into 2K, and submitted to the [[Mini Game Compo 2009]], where
     it got first place in its class.
-  commentary: |
-    If this game doesn't seem too impressive to you, try to remember, it's
-    only two kilobytes of code!  These days you can't even sneeze in less
-    than a megabyte.
 
 'Super Wumpus Land (HTML5)':
   type: Online Installation
@@ -301,34 +297,6 @@ Texts Exhibit:
     
     This online installation also depicts the Pixley program as a
     series of coloured, nested rectangles.
-  commentary: |
-    This [[Javascript]] implementation of Pixley uses the *Web Workers*
-    facility of your browser to run the evaluation process.  So, if your
-    browser does not support Web Workers, it may not function correctly.
-    
-    For the Pixley project, a Pixley interpreter was implemented in
-    Pixley itself ("meta-circularly") and in this installation,
-    the **Wrap in Pixley Interpreter** button will take the Pixley
-    program that has been loaded and put it inside this
-    Pixley-interpreter-in-Pixley.
-    
-    Evaluating a program wrapped in a Pixley interpreter will result
-    in the same result as the unwrapped program.  It will just take
-    longer.
-    
-    Evaluating a program wrapped in a Pixley interpreter
-    *wrapped in a Pixley interpreter* will also result
-    in the same result as the unwrapped program.  It will just take
-    *quite a bit* longer.
-    
-    In theory, this "tower" of wrapped interpreters could go on forever,
-    and they should all produce the same result.
-    
-    However, in physical reality, computers have limitations, such as
-    a finite amount of memory available.  In my installation of Firefox,
-    for example, wrapping a program in three levels of interpreters
-    results in a "stack overflow" error being displayed in the Javascript
-    console, and the evaluation process never finishing.
   instructions: |
     Select an example program from the dropdown box,
     then click "Start" to run it.  Or click "Edit" to modify an example

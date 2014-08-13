@@ -26,17 +26,6 @@ Esolang:
     A comprehensive repository of information
     on esolangs can be found at the
     [Esolang Wiki](http://www.esolangs.org/wiki/Main_Page).
-  commentary: |
-    It is somewhat interesting to see how the [Open Source
-    Definition](http://www.opensource.org/docs/definition.php) views
-    esolangs. Programs written in esolangs tend to be "deliberately
-    obfuscated", and thus "not allowed." On the other hand, this is also
-    presumably "the preferred form in which a programmer would modify the
-    program." So it's debatable whether these programs can be [OSI
-    Certified](http://www.opensource.org/docs/certification_mark.php) or
-    not. (In practice, though, almost all esolang implementations, and
-    programs written in esolangs, are freely redistributable if not formally
-    [[Open-source]] or [[Public Domain]].)
   references:
   - title: programming languages at p-nand-q
     description: Gerson Kurz' Esolangs
@@ -102,20 +91,12 @@ Role-playing:
 
 Theme music:
   type: Genre
-  commentary: |
-    Anything that was the theme to some [[Game|video game]] or movie or just
-    *sounds* like it should be the theme to some video game or movie.
 Pop ballad:
   type: Genre
 Pop:
   type: Genre
-  commentary: |
-    Usually closer to dance than to rock.
 Sci-fi:
   type: Genre
-  commentary: |
-    I use the term "sci-fi" to refer to not only fiction but also a few of my
-    musical compositions which are too funky for me to call them techno.
 Alt rock:
   type: Genre
 Jazz fusion:

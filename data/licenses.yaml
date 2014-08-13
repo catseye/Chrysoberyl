@@ -1,14 +1,6 @@
 # encoding: UTF-8
 BSD license:
   type: License
-  commentary: |
-    In releasing software as [[Open-source|open-source]]
-    [[Cat's Eye Technologies]] has a preference for the 3-clause BSD
-    License. It is an OSI Certified license (for whatever that's worth)
-    which is succinct, pointific, and written entirely in readable legal
-    language. It does not come off like a manifesto, nor does it contain any
-    cute puns. (Call us stodgy if you like, but a license just doesn't
-    strike us as an appropriate place for those things.)
 
 GPL:
   type: License
@@ -41,7 +33,7 @@ Public Domain:
   - http://unlicense.org/
 Freely Redistributable:
   type: License
-  commentary: |-
+  description: |-
     Freely redistributable unmodified for non-commercial purposes.
 Proprietary:
   type: License

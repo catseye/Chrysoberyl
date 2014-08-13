@@ -140,15 +140,6 @@ Cyclobots:
     patterns.  The simplest of these is just a rotating circle, but
     more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
     patterns are more common.
-  commentary: |
-    I originally conceived of this automaton, calling it
-    an "interactive desktop toy", in or around 1994, and implemented
-    it immediately in Visual Basic.  I remember the year because I wrote the
-    first implementation of [[SMETANA]] in Visual Basic at about the same time.
-    
-    The original implementation had a few features which are not present (yet)
-    in the HTML5 version: cyclobots could collide with each other, and the user
-    could use the mouse to attract/repel them from a chosen point.
   see-also:
   - SMETANA
 

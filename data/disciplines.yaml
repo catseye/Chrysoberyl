@@ -1,61 +1,6 @@
 # encoding: UTF-8
 Software Engineering:
   type: Discipline
-  commentary: |
-    Software engineering is the act of coordinating software workers
-    (designers, developers, testers, etc.) for the purpose of producing and
-    maintaining software.
-    
-    The central problem of software engineering is thus:
-    
-    -   The best way to develop the implementation of a software module is
-        by frequent incremental changes.
-    -   The *worst* way to develop the *interfaces between software modules*
-        is by frequent incremental changes.
-    
-    These two things are often referred to as "programming in the small" and
-    "programming in the large", although size really has nothing to do with
-    it — it's all about the number of cross-references.
-    
-    There are, of course, other problems of software engineering, but they
-    all tend to relate to the central problem.
-    
-    That said, here is [[Cat's Eye Technologies]] official position on
-    software engineering:
-    
-    **Don't.**
-    
-    Obviously we don't mean that. Or do we?
-    
-    There are two schools of thought about how to maintain systems that are
-    "larger" (read: have more cross-references) than a single person, or a
-    single team, can fully comprehend. Most modern software falls into this
-    category.
-    
-    One is to throw resources at it, on the model of evolutionary growth, or
-    trial and error: look for things that look promising to change (perhaps
-    because it looks like others changed them when trying to do something
-    similar,) change them, and once it does more or less what you want, hope
-    nothing else has been broken and **for God's sake don't touch it
-    again!!**
-    
-    The other is to try to *understand* the system, possibly by reducing it
-    into smaller systems that are easier to understand while codifying and
-    documenting the interfaces between the systems.
-    
-    If the first is the approach embodied by mainstream software engineering
-    — and I'd like to *believe* it isn't but from what I've seen *it is* —
-    then no. We don't want any part of that. Nondeterministic behaviour from
-    a `Makefile`? We want to know *why*. It's not enough to throw in targets
-    and dependencies (and perhaps even pauses) so that it doesn't *usually*
-    happen. Yes, you can get back to work on your "real" project that way,
-    but you're digging a huge hole for yourself in the long view — you're
-    not solving the underlying problem *and* you're increasing the
-    complexity of the system.
-    
-    You might say we belong to the [Edsger Dijkstra school of software
-    engineering](http://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1305.html "Answers to questions from students of Software Engineering").
-    ([[Computer Science Education|Education, too]].)
 
 
 Release Engineering:
@@ -269,17 +214,3 @@ Distribution Organization:
 
 Computer Science Education:
   type: Discipline
-  commentary: |
-    Well, here we are — 2008. We've been teaching computer science for,
-    what, half a century so far? Wow. We must be getting pretty good at it
-    by now. Let's look as the state of the art...
-    
-    Oh, interesting. In January, some professors wrote a
-    [paper](http://www.stsc.hill.af.mil/CrossTalk/2008/01/0801DewarSchonberg.html "Computer Science Education: Where Are the Software Engineers of Tomorrow?")
-    that claims that CS education lacks mathematical rigour and leaves
-    students ill-equipped for genuine software development, and suggests
-    that CS curricula emphasize formal methods.
-    
-    Egad! Is it really
-    [1988](http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html "On the cruelty of really teaching computing science")
-    *again*? So *soon*?
