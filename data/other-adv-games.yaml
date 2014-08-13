@@ -1,5 +1,4 @@
 # encoding: UTF-8
-# adventure games I've played
 # (while I'm sure any of these *could* have multiple implementations,
 # in practice, no, that doesn't happen)  But I will have to figure out the
 # authors of these, someday.
@@ -12,12 +11,6 @@ The Hitch-Hiker's Guide to the Galaxy:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    I was stuck on this one for a long time, because I couldn't seem to
-    remove common sense from my brain.  Whether I had gotten the game
-    stuck in an unsolvable state, or I just didn't notice that it worked, I don't
-    know.  When I picked it up again years later, I finished it, but I did get
-    a fair number of hints from other people who had played it, in between.
 
 Winter Wonderland:
   type: Game
@@ -28,11 +21,6 @@ Winter Wonderland:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    With graphics.  This was apparently a demo for an adventure authoring system of
-    some kind, but it stands on its own as a game, although perhaps not the best one.
-    I'm proud to say that I solved this with no hints or walkthroughs, although I should add,
-    it's not a particularly difficult game.
 
 The Africa Adventure:
   type: Game
@@ -41,15 +29,6 @@ The Africa Adventure:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    Treasure-oriented.  An interesting game, although parts are probably
-    borderline politically incorrect at this point in history (but really, the
-    same can be said for the original _Get Smart_.)  So far, I've gotten
-    about half the possible points.
-    I either can't remember, or never figured out, how to get the wood without
-    getting bitten by the spider.  I can deal with the viper and the alligator, 
-    but am not clear on the purpose behind either.  No idea what the
-    foul-smelling stuff or the wild dog is for...
 
 Cranston Manor:
   type: Game
@@ -58,10 +37,6 @@ Cranston Manor:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    With graphics.  Treasure-oriented.  Not the best adventure game, certainly,
-    but memorable for some reason.  Never solved it, but pretty sure I could without
-    too much help, if I ever found the time to go back to it.
 
 Creature Venture:
   type: Game
@@ -70,11 +45,6 @@ Creature Venture:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    With graphics.  Might have been treasure-oriented; I don't remember.  The
-    main feature, though, is the Oozlybub, a creature which has popped up in a
-    few other places in artistic endeavours in my life, including being part of the
-    name of my programming language [[Oozlybub and Murphy]].
 
 Time & Magick:
   type: Game
@@ -83,12 +53,6 @@ Time & Magick:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    With graphics.  Actually a trilogy of three games, some of which are treasure-oriented.
-    The one about venturing through time to stop the Timelords from destroying the world
-    or whatever seemed pretty well put together, as did the one where you start with 100%
-    sanity but gradually lose it over time, but the third one, with the spells which require
-    certain objects as foci, seemed kind of weak.
 
 The Secret of St. Bride's:
   type: Game
@@ -97,10 +61,6 @@ The Secret of St. Bride's:
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    Intriguing, but difficult.  Unlike most of the others on this list, I only came across
-    this game a few years back, and have never gotten very far in it.  I will probably end up
-    consulting a walkthrough, if I ever find the time to go back to it.
 
 Dungeon (MIT):
   type: Game
@@ -109,14 +69,3 @@ Dungeon (MIT):
   authors: []
   no-specification: true
   development-stage: mature
-  commentary: |
-    The best thing to ever come out of MIT.  (You think I'm joking, don't you?)
-    
-    Treasure-oriented.  A classic, which captured some of the hacker culture of
-    the time, and foisted it on a general audience when it was repackaged as the Zork
-    trilogy.  I have actually solved most of the main game, but never got to a point where
-    I can start the endgame.
-    
-    I've listed its platform as "POSIX" in Chrysoberyl, although of course the
-    actual situation is far more complicated.  I first played it on an
-    [[Amiga 500]].

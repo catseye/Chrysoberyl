@@ -87,38 +87,6 @@ Cygwin:
     Cygwin is a compatibility layer for Windows
     which lets you build and run software which expects a Unix-like
     operating system.
-  commentary: |    
-    Cygwin is really nice when you're stuck using Windows, but you want to
-    play with [open-source software](opensource.html), most of which expects
-    to be run on a Unix-like operating system.
-    
-    But there is one annoying thing about Cygwin: in its default install,
-    you have to use it through a console window, of the kind provided by
-    Windows for running Command Prompt. The editing capabilities and general
-    usability of this console window are just short of atrocious.
-        
-    Fortunately, on modern Windowses, you're not stuck with this: you can
-    make Cygwin use a PowerShell window. While not paradise, it's not quite
-    as frustrating to use. Here's how to set it up:
-    
-    1.  Find PowerShell on your Windows installation. The easiest way to do
-        this is probably to use the search facility in the Start menu, and
-        type in `powershell`.
-    2.  Once you find an icon for PowerShell, create a shortcut for it.
-        Alt-drag it to the desktop or something.
-    3.  Edit the properties of that shortcut. The target will be something
-        like `%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe`.
-        Add the location of your `cygwin.bat` file to it, so that it's
-        something like:
-        `%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe C:\cygwin\cygwin.bat`.
-    4.  Probably you should rename your shortcut "Cygwin Powershell" or
-        something, to minimize confusion.
-    5.  Double-click your new shortcut. It should totally just work.
-    
-    (Update: recent versions of Cygwin come with a new dedicated Cygwin
-    terminal, which is much less atrocious than the default Windows console.
-    Still, the PowerShell has properties which may prove attractive -- not least
-    of which is its awesome, awesome name.)
 
 
 MS-DOS:
@@ -130,36 +98,6 @@ MS-DOS:
   - MS-DOS Batchfile
   description: |
     An operating system of old; you may have heard of it?
-  commentary: |
-    A project which has this as a dependency
-    assumes that it will be running under MS-DOS or something
-    which emulates MS-DOS sufficiently well. This includes both the standard
-    DOS `INT 21h` handler, and the standard DOS utilies like, for example,
-    `TYPE` and `DEBUG.COM`.
-    
-    There are only two projects of [[Cat's Eye Technologies]]' that
-    require MS-DOS (or a compatible operating system) anymore, and
-    these dependencies are only partial:
-    
-    *   [[Shelta]] can be built under any system with a [[NASM]] assembler,
-        but requires DOS to run, and the executables it produces also
-        run only under DOS; and
-    *   [[ILLGOL]] can be built and run on any system with a decent [[ANSI C]]
-        compiler, such as [[gcc 3.4]], but the executables it produces
-        will only run under DOS.
-    
-    You can try (at your own risk, of course) using the project under some
-    more-or-less modern version of [[Windows]] and hope that it emulates DOS
-    well enough to work. It might, it might not. If not, you have options:
-    
-    *   [[DOSBox]] is an emulator, available for many systems, which
-        simulates both an [[IBM PC compatible]], and
-        MS-DOS on top of it.  It should be plenty sufficient for running
-        DOS-based software found here.
-    *   For a more heavyweight solution, you could install [[FreeDOS]]
-        on a PC emulator such as [[QEMU]].
-    
-    All of the above-mentioned emulators are [[Open-source|open source]].
   references:
   - url: http://www.delorie.com/djgpp/
     title: DJGPP
@@ -292,30 +230,6 @@ HTML5:
   native-language: Javascript
   # there ARE others, but I don't care.
   other-languages: []
-  commentary: |
-    In a way that is directly or indirectly appropriate to the number 5,
-    the HTML5 standard makes a mockery of the very idea of a standard
-    by being a "living standard".
-    
-    On top of this, HTML5 is the [[Perl]] of web standards, which is
-    to say, it's like playing [[Katamari Damacy]] with the web.  From what
-    I can tell, the standardization process goes something like this:
-    
-    *   Pick a feature, any feature.
-    *   Does any browser currently support that feature?
-        *   If so, research how all browsers implement that feature.
-            Codify the upper bound of that behaviour and put it in the spec.
-        *   If not, would the feature be *totally awesome* to have anyway?
-            *   If so, codify that feature and add it to the spec.
-                Don't worry too much if browsers implement it yet or not;
-                someone will write a polyfill anyway.  Let browsers use
-                words like "maybe" and "probably" to describe their
-                level of support for the feature.
-            *   If not, try again.
-    
-    The number one best thing about HTML5, in my opinion, is the
-    `<canvas>` element.  At long last, I can just _draw stuff_ on a web page,
-    and that's actually really nice.
 
 Web Workers:
   # because i believe it's technically not a part of HTML5

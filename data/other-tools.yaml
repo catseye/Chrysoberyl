@@ -3,14 +3,6 @@ ANSI Terminal:
   type: Tool
   specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
   development-stage: mature
-  commentary: |
-    When a project claims it needs this to run, it needs to run in a terminal which understand
-    the ANSI terminal control codes (more formally known as "ECMA-48") in
-    order for their output to be intelligible. Almost all modern consoles
-    and terminal emulators understand these codes, sometimes under the guise
-    of a particular terminal standard which includes them, such as `vt100`
-    or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
-    need to be loaded.
 
 Borland C++ compiler:
   type: Implementation
@@ -26,21 +18,6 @@ Borland C++ compiler:
   target-language: x86 machine code
   target-platform: MS-DOS
   implementation-type: compiler
-  commentary: |
-    The source code for some of our projects was developed with Borland C++ 3.1
-    (although it is was written in C, not C++.) It may use
-    Borland C++-specific extensions and libraries. Borland C++ 3.1 is not
-    free software, although you can apparently download a set of Borland's
-    later tools free of charge. I don't know if they'd be useful to compile
-    these sources.
-    
-    Note that there are no projects at Cat's Eye Technologies that strictly
-    require Borland C++ anymore; they've all been converted to use portable
-    features (such as [[ANSI Terminal]] control codes) and should
-    be quite buildable with any conforming [[C99]] compiler.
-    
-    Note also that there are no projects at Cat's Eye Technologies that have
-    been tested under Borland C++ recently.
 
 CRUNCHER AB+:
   type: Tool
