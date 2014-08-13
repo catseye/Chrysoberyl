@@ -13,7 +13,7 @@ import sys
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
-    load_chrysoberyl_dirs, load_docs, save_docs
+    load_chrysoberyl_dirs, load_docs, save_docs, overlay_yaml
 )
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import (
@@ -160,6 +160,10 @@ def perform(args):
                          default='../catseye.tc/node',
                          help="write rendered nodes into this directory "
                               "(default: %default)")
+    optparser.add_option("--overlay",
+                         dest="overlay_filename", metavar='FILENAME',
+                         default=None,
+                         help="load this YAML file after the initial data, and merge")
     optparser.add_option("--output-doc-yaml-to",
                          dest="output_filename", metavar='FILENAME',
                          default=None,
@@ -181,6 +185,9 @@ def perform(args):
 
     print "Loading Chrysoberyl data..."
     data = load_chrysoberyl_dirs(options.data_dirs.split(':'))
+
+    if options.overlay_filename is not None:
+        overlay_yaml(options.overlay_filename, data)
     check_chrysoberyl_data(data)
 
     for command in args:
