@@ -15,6 +15,7 @@ from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_docs, save_docs, overlay_yaml
 )
+from chrysoberyl.objects import Universe
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import transform_dates
 
@@ -181,12 +182,15 @@ def perform(args):
 
     options, args = optparser.parse_args(args)
 
-    print "Loading Chrysoberyl data..."
-    data = load_chrysoberyl_dirs(options.data_dirs.split(':'))
+    universe = Universe()
+    for key in ('node',):
+        print "Loading Chrysoberyl '%s' data..." % key
+        load_chrysoberyl_dirs(universe.create_namespace(key), options.data_dirs.split(':'))
 
+    space = universe['node']
     if options.overlay_filename is not None:
-        overlay_yaml(options.overlay_filename, data)
-    check_chrysoberyl_data(data)
+        overlay_yaml(options.overlay_filename, space)
+    check_chrysoberyl_data(space)
 
     for command in args:
         func = COMMANDS.get(command, None)
@@ -195,4 +199,4 @@ def perform(args):
             sys.exit(1)
         print "Executing '%s'..." % command
         # expected that func will just raise an exc if it fails
-        func(data, options)
+        func(space, options)

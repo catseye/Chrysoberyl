@@ -11,7 +11,7 @@ MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
           'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 
-class Space(object):
+class NameSpace(object):
     def __init__(self, name):
         self.name = name
         self._has_been_converted = False
@@ -66,6 +66,21 @@ class Space(object):
         self._has_been_converted = True
 
         print "%d nodes converted." % count
+
+
+class Universe(object):
+    """A Universe (despite its fancy name) is nothing more than a set of NameSpaces."""
+
+    def __init__(self):
+        self._dict = {}
+
+    def create_namespace(self, name):
+        assert name not in self._dict
+        self._dict[name] = NameSpace(name)
+        return self._dict[name]
+
+    def __getitem__(self, key):
+        return self._dict[key]
 
 
 class ApproximateDate(object):
