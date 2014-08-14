@@ -46,7 +46,8 @@ class Renderer(object):
     def __init__(self, data, template_dirs, output_dir, clone_dir,
                  sleek_node_links, docs_filename):
         self.data = data
-        self.template_dirs = template_dirs.split(':')
+        self.template_dirs = template_dirs
+        assert isinstance(template_dirs, list)
         self.output_dir = output_dir
         self.clone_dir = clone_dir
         self.sleek_node_links = sleek_node_links

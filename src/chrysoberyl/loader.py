@@ -51,6 +51,12 @@ def save_docs(filename, docdict):
         file_.write(yaml.dump(docdict, Dumper=Dumper, default_flow_style=False))
 
 
+def load_config(filename):
+    with open(filename) as file_:
+        config = yaml.load(file_, Loader=Loader)
+    return config
+
+
 def overlay_yaml(filename, data):
     with open(filename) as file_:
         overlay = yaml.load(file_, Loader=Loader)

@@ -13,7 +13,7 @@ import sys
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
-    load_chrysoberyl_dirs, load_docs, save_docs, overlay_yaml
+    load_chrysoberyl_dirs, load_docs, save_docs, load_config, overlay_yaml
 )
 from chrysoberyl.objects import Universe
 from chrysoberyl.renderer import Renderer
@@ -46,7 +46,7 @@ def bitbucket_repos(data):
         yield (key, user, repo)
 
 
-def filterdocs(data, options):
+def filterdocs(data, options, config):
     """Kind of a stopgap measure for now..."""
     filename = os.path.join(options.docs_dir, 'docs.yaml')
     docs = load_docs(filename)
@@ -58,19 +58,21 @@ def filterdocs(data, options):
     save_docs(filename, new_docs)
 
 
-def render(space, options):
+def render(space, options, config):
     """Render all nodes to a set of HTML5 files.
 
     """
     space.convert_chrysoberyl_data()
     r = Renderer(space,
-        options.template_dirs, options.node_dir, options.clone_dir,
-        options.sleek_node_links, os.path.join(options.docs_dir, 'docs.yaml')
+        config['node']['template_dirs'],
+        config['node']['output_dir'],
+        options.clone_dir,
+        options.sleek_node_links, os.path.join(config['node']['docs_dir'], 'docs.yaml')
     )
     r.render_chrysoberyl_data()
 
 
-def jsonify(data, options):
+def jsonify(data, options, config):
     """Render all nodes to a JSON blob.
 
     """
@@ -84,7 +86,7 @@ def jsonify(data, options):
                   default=unicode)
 
 
-def announce(space, options):
+def announce(space, options, config):
     """Create news feeds from news item nodes in Chrysoberyl.
 
     """
@@ -94,7 +96,7 @@ def announce(space, options):
     make_news_feed(space, options.feed_dir, 'atom_all_news.xml')
 
 
-def catalog(data, options):
+def catalog(data, options, config):
     """Create a toolshelf catalog from distribution nodes.
 
     """
@@ -131,38 +133,15 @@ def perform(args):
                          help="specify location of the hg clones "
                               "of reference distributions "
                               "(default: %default)")
-    optparser.add_option("-d", "--data-dirs",
-                         dest="data_dirs", metavar='DIRS', default='data',
-                         help="colon-separated list of directories "
-                              "containing Chrysoberyl Yaml data files "
+    optparser.add_option("--config",
+                         dest="config", metavar='FILE', default='config.yaml',
+                         help="specify the config file to use "
                               "(default: %default)")
-    optparser.add_option("--docs-dir",
-                         dest="docs_dir", metavar='DIR', default='.',
-                         help="location in which to find toolshelf-generated "
-                              "docs.yaml file (default: %default)")
-    optparser.add_option("--feed-dir",
-                         dest="feed_dir", metavar='DIR',
-                         default='../catseye.tc/feeds',
-                         help="write feeds into this directory "
-                              "(default: %default)")
-    optparser.add_option("--hg-outgoing",
-                         dest='hg_outgoing', default=False,
-                         action='store_true',
-                         help="(for lint) call `hg outgoing` on each repo")
     optparser.add_option("--host-language",
                          dest="host_language", metavar='LANG',
                          default=None,
                          help="(for lint) lint only those distributions "
                               "containing implementations in this language")
-    optparser.add_option("--node-dir",
-                         dest="node_dir", metavar='DIR',
-                         default='../catseye.tc/node',
-                         help="write rendered nodes into this directory "
-                              "(default: %default)")
-    optparser.add_option("--overlay",
-                         dest="overlay_filename", metavar='FILENAME',
-                         default=None,
-                         help="load this YAML file after the initial data, and merge")
     optparser.add_option("--output-doc-yaml-to",
                          dest="output_filename", metavar='FILENAME',
                          default=None,
@@ -172,25 +151,21 @@ def perform(args):
                          action='store_true',
                          help="render links to nodes using Mediawiki-ish "
                               "URLs (requires web server that understands "
-                              "what nodes these refer to")
-    optparser.add_option("-t", "--template-dirs",
-                         dest="template_dirs", metavar='DIRS',
-                         default='templates',
-                         help="colon-separated list of directories "
-                              "containing Chrysoberyl templates "
-                              "(default: %default)")
+                              "what nodes these refer to)")
 
     options, args = optparser.parse_args(args)
 
-    universe = Universe()
-    for key in ('node',):
-        print "Loading Chrysoberyl '%s' data..." % key
-        load_chrysoberyl_dirs(universe.create_namespace(key), options.data_dirs.split(':'))
+    config = load_config(options.config)
 
-    space = universe['node']
-    if options.overlay_filename is not None:
-        overlay_yaml(options.overlay_filename, space)
-    check_chrysoberyl_data(space)
+    universe = Universe()
+
+    for key in config.keys():
+        print "Loading Chrysoberyl '%s' data..." % key
+        space = universe.create_namespace(key)
+        load_chrysoberyl_dirs(space, config[key]['data_dirs'])
+        for filename in config[key].get('overlay_files', []):
+            overlay_yaml(filename, space)
+        check_chrysoberyl_data(space)
 
     for command in args:
         func = COMMANDS.get(command, None)
@@ -198,5 +173,5 @@ def perform(args):
             sys.stderr.write("Usage: " + usage())
             sys.exit(1)
         print "Executing '%s'..." % command
-        # expected that func will just raise an exc if it fails
-        func(space, options)
+        # it's expected that func will just raise an exc if it fails
+        func(space, options, config)

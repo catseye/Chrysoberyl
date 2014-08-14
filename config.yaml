@@ -1,0 +1,9 @@
+node:
+  data_dirs:
+  - data
+  template_dirs:
+  - templates
+  output_dir: node
+  overlay_files: []
+  docs_dir: .
+  feed_dir: feeds
