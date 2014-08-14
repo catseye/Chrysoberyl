@@ -66,29 +66,6 @@ def markdown_field(data, node, field, prefix=None):
         return None
 
 
-def convert_chrysoberyl_data(data):
-    """Convert all loaded Chrysoberyl data into a form that can be rendered
-    in a Jinja2 template.  This includes rendering fields which are known to
-    contain Markdown into corresponding HTML fields, and adding equivalent
-    fields whose keys contain underscores (which Jinja2 can understand)
-    in place of hyphens (which it can't, but which look better in Yaml.)
-
-    """
-    if '__CONVERTED__' in data:
-        return
-    data['__CONVERTED__'] = {'type': 'Metadata'}
-    count = 0
-    for key in data:
-        count += 1
-        node = data[key]
-        new_fields = {}
-        for field in node.keys():
-            new_fields[field.replace('-', '_')] = node[field]
-        node.update(new_fields)
-
-    print "%d nodes converted." % count
-
-
 def transform_dates(thing):
     """Recursively convert dates in the given Python object into a form
     suitable for JSON.

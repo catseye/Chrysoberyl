@@ -11,6 +11,63 @@ MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
           'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 
+class Space(object):
+    def __init__(self, name):
+        self.name = name
+        self._has_been_converted = False
+        self._dict = {}
+
+    def update(self, dict_):
+        for key in dict_:
+            self._dict[key] = dict_[key]
+
+    def __getitem__(self, key):
+        return self._dict[key]
+
+    def __setitem__(self, key, value):
+        raise NotImplementedError
+        print "SET: {0}={1}".format(key, value)
+        self._dict[key] = value
+
+    def __delitem__(self, key):
+        raise NotImplementedError
+
+    def __contains__(self, key):
+        return key in self._dict
+
+    def __iter__(self):
+        return self._dict.iterkeys()
+
+    def keys(self):
+        return self._dict.keys()
+
+    def items(self):
+        return self._dict.items()
+
+    def convert_chrysoberyl_data(self):
+        """Convert all loaded Chrysoberyl data into a form that can be rendered
+        in a Jinja2 template.  This includes rendering fields which are known to
+        contain Markdown into corresponding HTML fields, and adding equivalent
+        fields whose keys contain underscores (which Jinja2 can understand)
+        in place of hyphens (which it can't, but which look better in Yaml.)
+    
+        """
+        if self._has_been_converted:
+            return
+        count = 0
+        data = self._dict
+        for key in data:
+            count += 1
+            node = data[key]
+            new_fields = {}
+            for field in node.keys():
+                new_fields[field.replace('-', '_')] = node[field]
+            node.update(new_fields)
+        self._has_been_converted = True
+
+        print "%d nodes converted." % count
+
+
 class ApproximateDate(object):
     """Object representing a date which is not fully known.
     Useful for curation purposes.

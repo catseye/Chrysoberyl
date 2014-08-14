@@ -17,13 +17,15 @@ try:
 except ImportError:
     from yaml import Dumper
 
+from chrysoberyl.objects import Space
+
 
 def load_chrysoberyl_dirs(dirnames):
     """Given a list of directory names, load Chrysoberyl data from all
     Yaml files in those directories.
 
     """
-    data = {}
+    space = Space('node')
 
     count = 0
     for dirname in dirnames:
@@ -32,11 +34,11 @@ def load_chrysoberyl_dirs(dirnames):
                 if filename.endswith('.yaml'):
                     count += 1
                     with open(os.path.join(root, filename)) as file_:
-                        data.update(yaml.load(file_, Loader=Loader))
+                        space.update(yaml.load(file_, Loader=Loader))
             del subdirnames[:]  # don't automatically descend
 
     print "%d files read." % count
-    return data
+    return space
 
 
 def load_docs(filename):

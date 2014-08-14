@@ -16,9 +16,7 @@ from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_docs, save_docs, overlay_yaml
 )
 from chrysoberyl.renderer import Renderer
-from chrysoberyl.transformer import (
-    convert_chrysoberyl_data, transform_dates
-)
+from chrysoberyl.transformer import transform_dates
 
 
 # experimental loose toolshelf integration
@@ -59,12 +57,12 @@ def filterdocs(data, options):
     save_docs(filename, new_docs)
 
 
-def render(data, options):
+def render(space, options):
     """Render all nodes to a set of HTML5 files.
 
     """
-    convert_chrysoberyl_data(data)
-    r = Renderer(data,
+    space.convert_chrysoberyl_data()
+    r = Renderer(space,
         options.template_dirs, options.node_dir, options.clone_dir,
         options.sleek_node_links, os.path.join(options.docs_dir, 'docs.yaml')
     )
@@ -85,14 +83,14 @@ def jsonify(data, options):
                   default=unicode)
 
 
-def announce(data, options):
+def announce(space, options):
     """Create news feeds from news item nodes in Chrysoberyl.
 
     """
-    convert_chrysoberyl_data(data)
-    make_news_feed(data, options.feed_dir, 'atom_15_news.xml', limit=15)
-    make_news_feed(data, options.feed_dir, 'atom_30_news.xml', limit=30)
-    make_news_feed(data, options.feed_dir, 'atom_all_news.xml')
+    space.convert_chrysoberyl_data()
+    make_news_feed(space, options.feed_dir, 'atom_15_news.xml', limit=15)
+    make_news_feed(space, options.feed_dir, 'atom_30_news.xml', limit=30)
+    make_news_feed(space, options.feed_dir, 'atom_all_news.xml')
 
 
 def catalog(data, options):
