@@ -80,7 +80,7 @@ def jsonify(data, options, config):
     for key in data:
         if not data[key].get('hidden', False):
             json_data[key] = data[key]
-    filename = os.path.join(options.node_dir, 'chrysoberyl.json')
+    filename = os.path.join(config['node']['output_dir'], 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
         json.dump(transform_dates(json_data), file, encoding='utf-8',
                   default=unicode)
@@ -91,9 +91,10 @@ def announce(space, options, config):
 
     """
     space.convert_chrysoberyl_data()
-    make_news_feed(space, options.feed_dir, 'atom_15_news.xml', limit=15)
-    make_news_feed(space, options.feed_dir, 'atom_30_news.xml', limit=30)
-    make_news_feed(space, options.feed_dir, 'atom_all_news.xml')
+    feed_dir = config['node']['feed_dir']
+    make_news_feed(space, feed_dir, 'atom_15_news.xml', limit=15)
+    make_news_feed(space, feed_dir, 'atom_30_news.xml', limit=30)
+    make_news_feed(space, feed_dir, 'atom_all_news.xml')
 
 
 def catalog(data, options, config):
@@ -160,6 +161,8 @@ def perform(args):
     universe = Universe()
 
     for key in config.keys():
+        if not os.path.isdir(config[key]['output_dir']):
+            raise EnvironmentError("%s is not a directory" % config[key]['output_dir'])
         print "Loading Chrysoberyl '%s' data..." % key
         space = universe.create_namespace(key)
         load_chrysoberyl_dirs(space, config[key]['data_dirs'])
