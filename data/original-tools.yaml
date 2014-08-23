@@ -367,7 +367,10 @@ toolshelf distribution:
   bitbucket: catseye/toolshelf
   github: catseye/toolshelf
   issue-tracker: github
-  releases: []
+  releases: 
+  - version: "0.1"
+    revision: "2014.0823"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0823.zip
 
 
 TPiS: 

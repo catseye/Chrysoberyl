@@ -4,12 +4,10 @@
 'Release of toolshelf version 0.1-2014.0823':
   type: Article
   article-type: announcement
-  publication-date: Sat, 23 Aug 2014 12:00:00 GMT
+  publication-date: Sat, 23 Aug 2014 07:49:41 GMT
   blurb: |
     Release of [[toolshelf]] version 0.1-2014.0823.
   description: |
-    DRAFT
-    
     Oh man, so many things updated recently, but this news feed is so
     not one of them.  OK, where to begin.  OK...
     
@@ -19,16 +17,16 @@
     
     But we've implemented so many programming languages that, without
     some kind of tooling, the situation would become unwieldy.  So, for
-    example, we built [[Falderal]] so that all these programming languages
-    could have their example programs presented nicely and tested in an
-    automated way.
+    example, we designed [[Falderal]] and build [[py-falderal]] so that
+    all these programming languages could have their example programs
+    presented nicely and tested in an automated way.
     
     But there have been other, more fundamental problems to solve.  How
     do you get all of these implementations onto a machine in the first
     place, for instance?  If the distribution is self-contained, that's
     not a huge problem — download it and maybe build it and run it.  But
-    if it's not self-contained, if it has dependencies (and ultimately they all
-    do, because each implementation is written *in* something,) then it
+    if it's not self-contained, if it has dependencies (and ultimately they
+    all do, because each implementation is written *in* something,) then it
     becomes a package management problem.
     
     And I detest package managers.  I don't like their fragile package
@@ -41,13 +39,13 @@
     system and one for every programming language and never mind the fact
     that every modern operating system hosts more than one programming language.
     
-    So we wrote our own and called it [[toolshelf]].  toolshelf is
-    a package installer which neither works with packages,
-    nor installs anything.  (Why yes, I am feeling a little farklempt, but
-    that's neither here nor there.)  It doesn't maintain a package database,
-    it keeps all its files in one place (which you can just blow away if
-    you don't want it anymore), it doesn't need root priviledges, and it is
-    highly portable (in theory, anyway.)
+    So we wrote our own and called it [[toolshelf]].  **toolshelf is
+    a package installer which neither uses packages, nor installs anything.**
+    (Why yes, I am feeling a little farklempt, but that's neither here nor
+    there.)  It doesn't maintain a package database, it keeps all its files
+    in one place (which you can just blow away if you don't want it anymore),
+    it doesn't need root priviledges, and it is quite portable (in theory,
+    anyway.)
     
     It simply downloads (or clones) what you ask it to, makes its best guess
     at how to build it, and if that succeeds, makes its best guess at which
@@ -59,22 +57,29 @@
     
     All true.  And all irrelevant.  In fact, it works in a surprising number
     of cases.  It's actually really good for random little projects you find
-    on Github and elsewhere.  It's not like they're ever going to show up
+    on Github and elsewhere.  (It's not like they're ever going to show up
     in a "real" package manager.  And when you get bored with them, you just
-    blow away the clone directory.  And really, the other option is installing
+    blow away the clone directory.)  And really, the other option is installing
     from source — and you can just think of toolshelf as an assistant that makes
     installing from source a lot less painful.
-    
+        
     More to the point, it works really well with our projects.  It is the
-    recommended way to install software from Cat's Eye Technologies.  Just
-    install toolshelf and then
+    recommended way to start using software from Cat's Eye Technologies.  Just
+    [install toolshelf](https://github.com/catseye/toolshelf/#quick-start)
+    and then
     
-        th dock @@catseye
+        toolshelf dock @@catseye
     
-    and watch it download, build, and install everything.  Of course, there
-    are still many rough edges — and the way it works, there will always
-    be rough edges — but there is a lot of potential too.  But that's another
-    story and this is already getting to be a pretty long announcement.
+    and watch it download, build, and install everything.
+
+    Even though it was originally only intended for random little projects, I
+    now regularly dock things like [[QEMU]], Chicken Scheme, and Django with it.
+    I recently set up two Linux environments for my own use; on each of them,
+    I installed only maybe a dozen packages from `apt`, and I haven't used
+    `pip` at all.  Most of what I've needed, I've brought in with toolshelf.
+    
+    Of course, there are still some rough edges — and the way it works, there
+    will always *be* rough edges — but there is a lot of potential too.
     
     So, [[toolshelf|check it out]]!
 
