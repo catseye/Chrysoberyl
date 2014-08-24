@@ -796,6 +796,9 @@ Shelta distribution:
   - version: "1.2"
     revision: "2013.1130"
     url: http://catseye.tc/distfiles/shelta-1.2-2013.1130.zip
+  - version: "1.2"
+    revision: "2014.0422"
+    url: http://catseye.tc/distfiles/shelta-1.2-2014.0422.zip
 
 SICKBAY distribution: 
   type: Distribution

@@ -290,10 +290,10 @@ Sbeezg distribution:
 - README.markdown
 - UNLICENSE
 Shelta distribution:
-- bin/null.txt
+- doc/readme.txt
 - doc/bootstrp.txt
 - doc/nasm2009.txt
-- doc/readme.txt
+- doc/fdos2013.txt
 Squishy2K distribution:
 - README.markdown
 - UNLICENSE
