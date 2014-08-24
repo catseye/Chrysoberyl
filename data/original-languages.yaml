@@ -3114,6 +3114,8 @@ Yolk:
   bootstrapped: true
   inception-date: Aug 24 2014
   development-stage: mature
+  see-also:
+  - Pixley
   sample: |
     (ifeq (head arg) (quote arg)
         (head (tail (tail arg)))

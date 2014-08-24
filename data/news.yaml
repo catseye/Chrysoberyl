@@ -1,5 +1,23 @@
 # encoding: UTF-8
 
+'Yolk, a Meta-circularly-defined Programming Language':
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 24 Aug 2014 14:10:52 GMT
+  blurb: |
+    Release of the meta-circularly-defined language [[Yolk]].
+  description: |
+    And it came to pass that my mind turned once again to the question
+    of whether there are any universal computational classes smaller
+    than the class of recursively enumerable functions.
+    
+    And lo, did I try to write a self-interpreter that was obviously
+    not Turing-complete; and lo, did I fail.  Pretty sure I failed, yeah.
+    
+    But the result, behold!  It was less than half the size of [[Pixley]]'s
+    meta-circular interpreter.  So did I keep it, and did I christen it
+    [[Yolk]], and verily did I wax philosophical in its README about `cons`
+    and stuff.
 
 'Release of toolshelf version 0.1-2014.0823':
   type: Article
