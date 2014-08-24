@@ -2108,6 +2108,8 @@ Pixley:
   etymology:
   - place name
   - television show
+  see-also:
+  - Yolk
   sample: |
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
 
@@ -3094,6 +3096,66 @@ xoomonk.py:
   reference: true
   host-language: Python
   implementation-type: interpreter
+
+
+Yolk:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Functional
+  description: |
+    Yolk is a tiny S-expression-based programming language (or computational
+    calculus) with a tiny meta-circular interpreter.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  computational-class: believed Turing-complete
+  bootstrapped: true
+  inception-date: Aug 24 2014
+  development-stage: mature
+  sample: |
+    (ifeq (head arg) (quote arg)
+        (head (tail (tail arg)))
+        (ifeq (head (head arg)) (quote head)
+            (head (self (cons (head (tail (head arg))) (tail arg))))
+            (ifeq (head (head arg)) (quote tail)
+                (tail (self (cons (head (tail (head arg))) (tail arg))))
+                (ifeq (head (head arg)) (quote cons)
+                    (cons (self (cons (head (tail (head arg))) (tail arg))) (self (cons (head (tail (tail (head arg)))) (tail arg))))
+                    (ifeq (head (head arg)) (quote quote)
+                        (head (tail (head arg)))
+                        (ifeq (head (head arg)) (quote ifeq)
+                            (ifeq (self (cons (head (tail (head arg))) (tail arg)))
+                                  (self (cons (head (tail (tail (head arg)))) (tail arg)))
+                                  (self (cons (head (tail (tail (tail (head arg))))) (tail arg)))
+                                  (self (cons (head (tail (tail (tail (tail (head arg)))))) (tail arg))))
+                            (ifeq (head (head arg)) (quote self)
+                                (self (cons (head (tail arg))
+                                        (cons (head (tail arg))
+                                          (cons (self (cons (head (tail (head arg))) (tail arg))) (tail (quote (tail)))))))
+                                (ifeq))))))))
+
+yolk.yolk:
+  type: Implementation
+  implementation-of:
+  - Yolk
+  in-distribution: Yolk distribution
+  reference: true
+  license: BSD license
+  generally-recommended: true
+  implementation-type: interpreter
+  host-language: Yolk
+
+yolk.py:
+  type: Implementation
+  implementation-of:
+  - Yolk
+  in-distribution: Yolk distribution
+  reference: false
+  license: BSD license
+  implementation-type: interpreter
+  host-language: Python
 
 
 You are Reading the Name of this Esolang:

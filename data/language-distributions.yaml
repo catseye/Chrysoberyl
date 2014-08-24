@@ -1042,6 +1042,18 @@ Xoomonk distribution:
     revision: "2013.1014"
     url: http://catseye.tc/distfiles/xoomonk-1.0-2013.1014.zip
 
+Yolk distribution: 
+  type: Distribution
+  bitbucket: catseye/yolk
+  github: catseye/Yolk
+  issue-tracker: github
+  test-requirements:
+  - Falderal
+  releases: 
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yolk-1.0.zip
+
 Ypsilax distribution: 
   type: Distribution
   bitbucket: catseye/ypsilax
