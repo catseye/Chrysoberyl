@@ -379,6 +379,9 @@ toolshelf distribution:
 transmat distribution:
 - README.markdown
 - UNLICENSE
+Yolk distribution:
+- README.markdown
+- LICENSE
 yoob distribution:
 - README.markdown
 - UNLICENSE
