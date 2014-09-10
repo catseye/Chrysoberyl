@@ -420,6 +420,14 @@ Dan Gorlin:
     title: 'HD: Dan Gorlin'
     description: Interview with Dan Gorlin in Halcyon Days
 
+# emulator authors
+Fabian Hemmer:
+  type: Individual
+  links:
+  - http://copy.sh/
+Fabrice Bellard:
+  type: Individual
+
 # book authors
 Andre Norton:
   type: Individual

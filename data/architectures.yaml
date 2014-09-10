@@ -202,6 +202,9 @@ QEMU:
   - IBM PC compatible
   prebuilt-for-platforms:
   - native code
+  # and a host of other contributors... we should have a facility for indicating that
+  authors:
+  - Fabrice Bellard
   links:
   - 'http://qemu.org/'
   license: GPL
@@ -215,6 +218,8 @@ v86:
   - IBM PC compatible
   prebuilt-for-platforms:
   - HTML5
+  authors:
+  - Fabian Hemmer
   links:
   - 'https://github.com/copy/v86'
   - 'http://copy.sh/v24/'

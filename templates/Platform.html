@@ -7,7 +7,6 @@
 
 {% if other_languages %}
   <h2>Other Languages</h2>
-
   <ul>
     {% for language in other_languages %}
       <li>{{ link(language) }}</li>
@@ -17,7 +16,6 @@
 
 {% if related('platform') or related('host-platform') %}
   <h2>Known Things for this Platform</h2>
-  
   <ul>
   {% for thing in related('platform')|sort %} {# games, generally ... #}
     <li>
