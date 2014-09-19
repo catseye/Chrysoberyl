@@ -810,6 +810,13 @@ SICKBAY distribution:
   issue-tracker: github
   releases: []
 
+SixtyPical distribution: 
+  type: Distribution
+  bitbucket: catseye/sixtypical
+  github: catseye/SixtyPical
+  issue-tracker: github
+  releases: []
+
 SMETANA distribution: 
   type: Distribution
   bitbucket: catseye/smetana
@@ -865,6 +872,13 @@ Tamerlane distribution:
   - version: "1.0"
     revision: "2001.0127"
     url: http://catseye.tc/distfiles/tamerlane-2001.0127.zip
+
+Tamsin distribution: 
+  type: Distribution
+  bitbucket: catseye/tamsin
+  github: catseye/Tamsin
+  issue-tracker: github
+  releases: []
 
 Thue distribution: 
   type: Distribution

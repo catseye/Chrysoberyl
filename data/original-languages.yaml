@@ -2466,6 +2466,51 @@ SAWBONES:
   host-language: Python
 
 
+SixtyPical:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  description: |
+    SixtyPical is a very low-level programming language, similar to 6502
+    assembly, which defines a set of static analyses via type-checking and
+    abstract interpretation (liveness analysis of variables, i.e. memory
+    locations.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2014
+  development-stage: work in progress
+  defining-distribution: SixtyPical distribution
+  etymology:
+  - portmanteau
+  sample: |
+    assign byte border_colour 4000
+    reserve byte score
+    routine update_score
+    {
+      lda #8
+      sta score
+    }
+    routine main {
+      lda #4
+      jsr update_score   // poisons the A register
+      sta border_colour  // attempt to use poisoned location -- will not compile
+    }
+
+sixtypical (Haskell):
+  type: Implementation
+  implementation-of:
+  - SixtyPical
+  in-distribution: SixtyPical distribution
+  license: BSD license
+  reference: true
+  host-language: Haskell
+  implementation-type: compiler
+  target-language: Ophis Assembler
+
+
 SMITH:
   type: Programming Language
   genre: Esolang
@@ -2639,6 +2684,61 @@ Tamerlane:
   see-also:
   - Kangaroo Iceberg
   - GraNoLa/M
+
+
+Tamsin:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Functional
+  - Logic programming
+  - Metalanguage
+  description: |
+    Tamsin is an oddball little language that can't decide if it's a
+    meta-language, a programming language, or a [[Perl|rubbish lister]].
+    Its primary goal is to allow the rapid development of parsers,
+    static analyzers, interpreters, and compilers, and to allow them
+    to be expressed *compactly*.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2014
+  development-stage: work in progress
+  defining-distribution: Tamsin distribution
+  etymology:
+  - feminine given name
+  sample: |
+    main = expr0 → E & walk(E).
+    expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
+    expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
+    term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
+    walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
+    walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
+    walk(X) = return ' '+X.
+
+tamsin.py:
+  type: Implementation
+  implementation-of:
+  - Tamsin
+  in-distribution: Tamsin distribution
+  license: BSD license
+  reference: true
+  host-language: Python
+  # it also compiles, but the interpreter is the most "reference"
+  implementation-type: interpreter
+  generally-recommended: true
+
+tamsin.tamsin:
+  type: Implementation
+  implementation-of:
+  - Tamsin
+  in-distribution: Tamsin distribution
+  license: BSD license
+  reference: false
+  host-language: Tamsin
+  implementation-type: compiler
+  target-language: C99
 
 
 Treacle:
