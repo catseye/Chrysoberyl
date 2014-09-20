@@ -164,6 +164,21 @@ Texts Exhibit:
 
 ### Esolangs ###
 
+'BefOS (v86)':
+  type: Online Installation
+  installation-of: BefOS (NASM)
+  exhibits:
+  - Esolangs Exhibit
+  interactive: true
+  animated: true
+  mediums:
+  - x86 machine code
+  - v86
+  - HTML5
+  summary: |
+    This is [[BefOS]], a Befunge-themed operating system which is
+    neither Befunge, nor an operating system.  (Discuss.)
+
 'Braktif (HTML5)':
   type: Online Installation
   installation-of: braktif.alp

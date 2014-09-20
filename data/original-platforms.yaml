@@ -25,6 +25,8 @@ BefOS:
   development-stage: unfinished
   dimensionality: 2
   esowiki: BefOS
+  online-locations:
+  - 'BefOS (v86)'
 
 BefOS (NASM):
   type: Implementation
@@ -39,6 +41,8 @@ BefOS (NASM):
   build-requirements:
   - ANSI C
   - Perl
+  online-locations:
+  - 'BefOS (v86)'
 
 BefOS distribution: 
   type: Distribution

@@ -22,14 +22,8 @@ Arboretuum distribution:
 - README.markdown
 - UNLICENSE
 BefOS distribution:
-- README.markdown
+- README.md
 - UNLICENSE
-- contrib/zzo38/README.txt
-- contrib/zzo38/bootloader.txt
-- contrib/zzo38/zzo38os.txt
-- doc/README.txt
-- doc/TODO.txt
-- src/page/welcome.txt
 Befunge-93 distribution:
 - LICENSE
 - README.markdown
