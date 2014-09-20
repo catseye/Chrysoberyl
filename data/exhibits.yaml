@@ -337,37 +337,30 @@ Texts Exhibit:
     This is [[Shelta]] running under [[FreeDOS]] running under the
     [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
     
-    You may want to read the documentation for Shelta here:
-    
-    *   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
-    *   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
-    *   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
-    *   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
-    
-    The system running online on v86 is delivered on a 360K floppy image,
-    which contains:
-    
-    *   Minimal system files for FreeDOS 1.0 ([[GPL]])
-    *   The relevant parts of the Shelta distribution ([[Freely Redistributable]])
-    *   FreeDOS's `DEBUG.COM` ([[GPL]])
-    *   The `TED3` text editor (Freeware)
+    The system running online on v86 is delivered on a 720K floppy image,
+    which contains a minimal bootable FreeDOS install, the Shelta distribution,
+    plus various tools such as the `TED3` text editor, and `YASM`.
+    License and distribution information is included on the disk image.
     
     You can use the pre-built Shelta compiler (whose source is written in NASM)
     to build the example programs, or to bootstrap the Shelta compiler
     written in Shelta.  See the welcome message, shown after FreeDOS
     boots, for more details.
     
+    Documentation for Shelta is also on the disk image, and can be viewed
+    with `TYPE` or `EDIT`, but you may find it more convenient to browse
+    these files online:
+    
+    *   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
+    *   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
+    *   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
+    *   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
+    
     If v86 doesn't work in your browser, you can
-    [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-1.img)
+    [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-2.img)
     and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
     or, wonder of wonders, a real IBM PC compatible — if you can write it onto
     a floppy disk somehow...
-    
-    The TED3 distribution can be found
-    [here](http://ftp.mpoli.fi/software/DOS/EDITORS/).  The disk image
-    includes the entire distribution, including the manual.  I also take the
-    position that this disk image is a "mere aggregation", so the GPL doesn't
-    extend its viral reach to any of the other programs.
 
 'Whothm (Applet)':
   type: Online Installation
