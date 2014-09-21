@@ -6,15 +6,11 @@
 BefOS: 
   type: Platform
   subtitle: An Operating System for the Linearly Challenged
-  summary: Befunge-themed miniature operating system
-  # SORT OF TRUE
-  native-language: Befunge-93
-  other-languages: []
-  description: |
-    This is a project I began in the late 90's, to write an "operating system"
-    in the theme of [[Befunge-93]].  It never got very far, but it does boot and do some
-    cute things, so I have modernized it (from Turbo Assembler to NASM) and
-    made it available here.
+  summary: A Befunge-themed toy "operating system"
+  native-language: x86 machine code
+  # sort-of almost true
+  other-languages:
+  - Befunge-93
   authors:
   - Chris Pressey
   auspices:
