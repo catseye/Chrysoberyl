@@ -1,5 +1,39 @@
 # encoding: UTF-8
 
+'BefOS version 0.10 released and installed online':
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 22 Sep 2014 17:19:58 GMT
+  blurb: |
+    [[BefOS]] version 0.10 released and [[BefOS (v86)|installed online]].
+  description: |
+    Look!  Up on [[BefOS (v86)|this web page!]]  Is it [[Befunge-93|Befunge]]?
+    Is it an [[operating system]]?  No... no, it's just a disk sector editor
+    with some unusual features, really.
+    
+    Er... in case you were wondering... yes, this *is* the time of the
+    year (September) when I usually do something to celebrate the anniversary
+    of [[Befunge-93]].  It's 21 years old now, so if it were a person, it
+    could drink legally in the United States, and, basically, it would be
+    tried as an adult in pretty much any court in the world.
+    
+    BefOS is a bit younger (but it would still be old enough to, what,
+    drive?), but, in answer to your unspoken question, no, updating BefOS was
+    not what I was planning to do for Befunge-93's birthday.  It's only
+    tangentially related.
+    
+    In fact, I've been working on cleaning up the Befunge-93 (and [[Maentwrog]]
+    and [[RUBE]] reference distributions — making their implementations
+    compile cleanly on multiple platforms ([[Linux]], [[NetBSD]], [[FreeDOS]],
+    and [[AmigaDOS 1.3]].)
+    
+    But that's all not quite done yet; hopefully the Befunge-93 distribution
+    will have a few more surprises in it before the end of the year.
+    
+    But before you bemoan the barbarity of Befunge's birthday bash being a
+    bit belated, ... well, nothing really, I just wanted to get some
+    alliteration out of my system there.  Have fun with [[BefOS (v86)]].
+
 'Yolk, a Meta-circularly-defined Programming Language':
   type: Article
   article-type: announcement
