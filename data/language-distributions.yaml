@@ -538,6 +538,12 @@ Maentwrog distribution:
   - version: "1.1"
     revision: "2011.0426"
     url: http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip
+  - version: "1.1"
+    revision: "2013.0226"
+    url: http://catseye.tc/distfiles/maentwrog-1.1-2013.0226.zip
+  - version: "1.1"
+    revision: "2014.0923"
+    url: http://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip
 
 Mascarpone distribution: 
   type: Distribution
