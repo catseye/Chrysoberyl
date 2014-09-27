@@ -1120,3 +1120,9 @@ ZOWIE distribution:
   - version: "1.0"
     revision: "2012.0325"
     url: http://catseye.tc/distfiles/zowie-1.0-2012.0325.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/zowie-1.0-2014.0819.zip
+  - version: "1.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/zowie-1.1.zip
