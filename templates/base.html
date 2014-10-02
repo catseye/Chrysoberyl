@@ -20,11 +20,9 @@
 </head>
 <body>
   <header>
-    {%- block breadcrumbs -%}
     <nav id="breadcrumbs">
       <p>{{ breadcrumbs()|join(' » ') }} {% if key_ext() %}({{ key_ext() }}){% endif %} »</p>
     </nav>
-    {%- endblock breadcrumbs -%}
     {%- block header_gadgets -%}
     {%- endblock header_gadgets -%}
 
@@ -108,20 +106,18 @@
     {%- block content -%}
     {%- endblock content -%}
 
-    {%- block see_also -%}
-      {%- if see_also -%}
-        <section id="see_also">
-          <h2>See Also</h2>
-          <ul>
-            {%- for thing in see_also -%}
-            <li>
-              {{- link(thing) -}}
-            </li>
-            {%- endfor -%}
-          </ul>
-        </section>
-      {%- endif -%}
-    {%- endblock see_also -%}
+    {%- if see_also -%}
+      <section id="see_also">
+        <h2>See Also</h2>
+        <ul>
+          {%- for thing in see_also -%}
+          <li>
+            {{- link(thing) -}}
+          </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+    {%- endif -%}
 
     {%- block links -%}
       {%- if links or references -%}

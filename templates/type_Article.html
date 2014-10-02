@@ -1,11 +1,5 @@
 {% extends "type.html" %}
 
-{% block heading %}
-  <hgroup id="heading">
-    <h1>News</h1>
-  </hgroup>
-{% endblock %}
-
 {% block index %}
   <ul>
   {%- for thing in articles() -%}
