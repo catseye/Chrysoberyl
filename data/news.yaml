@@ -1,5 +1,42 @@
 # encoding: UTF-8
 
+"Introducing The Cat's Eye Technologies Platform":
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 04 Oct 2014 18:49:59 GMT
+  blurb: |
+    The première of
+    [The Cat's Eye Technologies Platform](https://github.com/catseye/The-Platform).
+  description: |
+    We are happy to announce the first release of
+    [The Cat's Eye Technologies Platform](https://github.com/catseye/The-Platform),
+    version 0.1.  It is a "distro" (if I may use that "word") of
+    [NetBSD 6.1.4](http://www.netbsd.org/releases/formal-6/NetBSD-6.1.4.html),
+    containing almost all of Cat's Eye Technologies' software distributions and
+    the infrastructure needed to build and run them.
+    
+    Each of the software distributions is tagged at a particular version
+    (The Platform v0.1 can be thought of as a "versionset") at which they
+    build and run on NetBSD, and if they have automated tests, the relevant
+    ones pass.
+    
+    There is no binary distribution yet, so if you want a copy of
+    The Platform, you'll have to build it yourself (instructions for doing
+    so are included.)  However, we hope to distribute a binary image once we
+    sort out how best to host large files.
+    
+    It is, in a sense, an exercise in "software canning" to diminish bitrot.
+    As long as you have an i386 emulator (such as [[QEMU]]) which can boot
+    into NetBSD, you will be able to use these software distributions, without
+    having to worry about conflicts due to upgrades and suchlike.
+    
+    And as an exercise, it was somewhat illuminating; almost all of our
+    projects, excluding what's hosted [[Online Installation|online]], can
+    be run on a rather modest environment of open-source infrastructure:
+    NetBSD (which already contains Lua and `gcc`), GNU Make, cPython, Perl,
+    Erlang/OTP (stripped down), Hugs98, Chicken Scheme, yasm, and Ophis.
+
+
 'BefOS version 0.10 released and installed online':
   type: Article
   article-type: announcement
