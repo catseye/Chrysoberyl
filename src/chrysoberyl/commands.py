@@ -168,7 +168,9 @@ def perform(args):
         load_chrysoberyl_dirs(space, config[key]['data_dirs'])
         for filename in config[key].get('overlay_files', []):
             overlay_yaml(filename, space)
-        check_chrysoberyl_data(space)
+
+    for key in config.keys():
+        check_chrysoberyl_data(universe, universe[key])
 
     for command in args:
         func = COMMANDS.get(command, None)

@@ -7,3 +7,13 @@ node:
   overlay_files: []
   docs_dir: .
   feed_dir: feeds
+
+installation:
+  data_dirs:
+  - data/installation
+  template_dirs:
+  - templates
+  output_dir: installation
+  overlay_files: []
+  docs_dir: .
+  feed_dir: feeds

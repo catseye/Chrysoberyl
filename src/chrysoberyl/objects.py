@@ -72,15 +72,27 @@ class Universe(object):
     """A Universe (despite its fancy name) is nothing more than a set of NameSpaces."""
 
     def __init__(self):
-        self._dict = {}
+        self._spaces = {}
 
     def create_namespace(self, name):
-        assert name not in self._dict
-        self._dict[name] = NameSpace(name)
-        return self._dict[name]
+        assert name not in self._spaces
+        self._spaces[name] = NameSpace(name)
+        return self._spaces[name]
 
-    def __getitem__(self, key):
-        return self._dict[key]
+    def __getitem__(self, name):
+        return self._spaces[name]
+
+    def get_namespace_of(self, key):
+        for (name, space) in self._spaces.iteritems():
+            if key in space:
+                return name
+        return None
+
+    def get_node(self, key):
+        for (name, space) in self._spaces.iteritems():
+            if key in space:
+                return space[key]
+        return None
 
 
 class ApproximateDate(object):
