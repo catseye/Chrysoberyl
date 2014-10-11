@@ -46,7 +46,7 @@ def bitbucket_repos(data):
         yield (key, user, repo)
 
 
-def filterdocs(data, options, config):
+def filterdocs(universe, data, options, config):
     """Kind of a stopgap measure for now..."""
     filename = os.path.join(options.docs_dir, 'docs.yaml')
     docs = load_docs(filename)
@@ -58,12 +58,12 @@ def filterdocs(data, options, config):
     save_docs(filename, new_docs)
 
 
-def render(space, options, config):
+def render(universe, space, options, config):
     """Render all nodes to a set of HTML5 files.
 
     """
     space.convert_chrysoberyl_data()
-    r = Renderer(space,
+    r = Renderer(universe, space,
         config['node']['template_dirs'],
         config['node']['output_dir'],
         options.clone_dir,
@@ -72,7 +72,7 @@ def render(space, options, config):
     r.render_chrysoberyl_data()
 
 
-def jsonify(data, options, config):
+def jsonify(universe, data, options, config):
     """Render all nodes to a JSON blob.
 
     """
@@ -86,7 +86,7 @@ def jsonify(data, options, config):
                   default=unicode)
 
 
-def announce(space, options, config):
+def announce(universe, space, options, config):
     """Create news feeds from news item nodes in Chrysoberyl.
 
     """
@@ -97,7 +97,7 @@ def announce(space, options, config):
     make_news_feed(space, feed_dir, 'atom_all_news.xml')
 
 
-def catalog(data, options, config):
+def catalog(universe, data, options, config):
     """Create a toolshelf catalog from distribution nodes.
 
     """
@@ -179,4 +179,4 @@ def perform(args):
             sys.exit(1)
         print "Executing '%s'..." % command
         # it's expected that func will just raise an exc if it fails
-        func(space, options, config)
+        func(universe, space, options, config)

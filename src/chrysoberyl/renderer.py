@@ -43,9 +43,10 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, data, template_dirs, output_dir, clone_dir,
+    def __init__(self, universe, space, template_dirs, output_dir, clone_dir,
                  sleek_node_links, docs_filename):
-        self.data = data
+        self.universe = universe
+        self.space = space
         self.template_dirs = template_dirs
         assert isinstance(template_dirs, list)
         self.output_dir = output_dir
@@ -79,7 +80,7 @@ class Renderer(object):
         keys to filenames, and is not applicable during {% extends foo %}.
 
         """
-        node = self.data[key]
+        node = self.universe.get_node(key)
         # Mercurial can't handle filenames containing ':' on Windows, so:
         key_filename = re.sub(':', '_', filekey(key))
 
@@ -111,7 +112,7 @@ class Renderer(object):
         document.
 
         """
-        data = self.data
+        data = self.universe[self.universe.get_namespace_of(key)]
         context = node.copy()
         context['data'] = data
         context['key'] = key
@@ -545,10 +546,12 @@ class Renderer(object):
 
         """
         count = 0
-        for key in self.data:
-            node = self.data[key]
-            if self.data[node['type']].get('suppress-page-generation', False):
-                continue
-            self.render_node(key, node)
-            count += 1
+        for space in self.universe.spaces:
+            for key in space:
+                node = space[key]
+                type_ = node['type']
+                if self.universe.get_node(type_).get('suppress-page-generation', False):
+                    continue
+                self.render_node(key, node)
+                count += 1
         print "%d files written." % count

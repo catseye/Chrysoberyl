@@ -82,6 +82,11 @@ class Universe(object):
     def __getitem__(self, name):
         return self._spaces[name]
 
+    @property
+    def spaces(self):
+        for (name, space) in self._spaces.iteritems():
+            yield space
+
     def get_namespace_of(self, key):
         for (name, space) in self._spaces.iteritems():
             if key in space:
