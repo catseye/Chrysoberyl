@@ -7,7 +7,7 @@
   <ul>
     {% for thing in related('development-stage')|sort %}
       <li>
-        {{ link(thing) }} ({{ link(data[thing].type) }})
+        {{ link(thing) }} ({{ link(get_node(thing).type) }})
       </li>
     {% endfor %}
   </ul>

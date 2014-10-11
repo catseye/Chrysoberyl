@@ -72,12 +72,12 @@
     {% for impl in related('host-language')|sort %}
       <li>
         {{ link(impl) }},
-        {% if 'implementation-type' in data[impl] %}
-          {{ indefart(data[impl].implementation_type) }} for
+        {% if 'implementation-type' in get_node(impl) %}
+          {{ indefart(get_node(impl).implementation_type) }} for
         {% else %}
           an implementation of
         {% endif %}
-        {{ linked_list(data[impl].implementation_of) }}
+        {{ linked_list(get_node(impl).implementation_of) }}
       </li>
     {% endfor %}
   </ul>

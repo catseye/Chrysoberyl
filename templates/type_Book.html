@@ -9,52 +9,52 @@
   {% for thing in related('type')|sort -%}
     {% if thing not in very_special %}
       <h3>
-        {% if not data[key].suppress_page_generation %}
+        {% if not get_node(key).suppress_page_generation %}
           {{ link(thing) }}
         {% else %}
           {{ thing }}
         {% endif %}
       </h3>
       <p>
-          By {{ linked_list(data[thing].authors) }}
-          {%- if data[thing].auspices -%}
-            , {{ linked_list(data[thing].auspices) }}
+          By {{ linked_list(get_node(thing).authors) }}
+          {%- if get_node(thing).auspices -%}
+            , {{ linked_list(get_node(thing).auspices) }}
           {%- endif -%}
-          {%- if data[thing].inception_date -%}
-            , {{ data[thing].inception_date }}
+          {%- if get_node(thing).inception_date -%}
+            , {{ get_node(thing).inception_date }}
           {%- endif -%}
-          {%- if data[thing].isbn -%}
-          , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ data[thing].isbn }}">{{ data[thing].isbn }}</a>
+          {%- if get_node(thing).isbn -%}
+          , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ get_node(thing).isbn }}">{{ get_node(thing).isbn }}</a>
           {% endif %}
       </p>
-      {% if data[thing].commentary %}
-        {{ md2html(data[thing].commentary) }}
+      {% if get_node(thing).commentary %}
+        {{ md2html(get_node(thing).commentary) }}
       {% endif %}
     {% endif %}
   {% endfor %}
 
   {% for thing in very_special -%}
     <h3>
-      {% if not data[key].suppress_page_generation %}
+      {% if not get_node(key).suppress_page_generation %}
         {{ link(thing) }}
       {% else %}
         {{ thing }}
       {% endif %}
     </h3>
     <p>
-        By {{ linked_list(data[thing].authors) }}
-        {%- if data[thing].auspices -%}
-          , {{ linked_list(data[thing].auspices) }}
+        By {{ linked_list(get_node(thing).authors) }}
+        {%- if get_node(thing).auspices -%}
+          , {{ linked_list(get_node(thing).auspices) }}
         {%- endif -%}
-        {%- if data[thing].inception_date -%}
-          , {{ data[thing].inception_date }}
+        {%- if get_node(thing).inception_date -%}
+          , {{ get_node(thing).inception_date }}
         {%- endif -%}
-        {%- if data[thing].isbn -%}
-        , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ data[thing].isbn }}">{{ data[thing].isbn }}</a>
+        {%- if get_node(thing).isbn -%}
+        , ISBN: <a href="http://esolangs.org/wiki/Special:BookSources/{{ get_node(thing).isbn }}">{{ get_node(thing).isbn }}</a>
         {% endif %}
     </p>
-    {% if data[thing].commentary %}
-      {{ md2html(data[thing].commentary) }}
+    {% if get_node(thing).commentary %}
+      {{ md2html(get_node(thing).commentary) }}
     {% endif %}
   {% endfor %}
 {% endblock index %}

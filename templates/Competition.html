@@ -6,8 +6,8 @@
 
 <ul>
 {%- for thing in data.keys()|sort -%}
-  {%- if data[thing].submitted_to -%}
-    {%- for submission in data[thing].submitted_to -%}
+  {%- if get_node(thing).submitted_to -%}
+    {%- for submission in get_node(thing).submitted_to -%}
       {%- if submission.competition == key -%}
         <li>
           {{ link(thing) }}
