@@ -33,8 +33,8 @@
       {%- elif ref_impl() -%}
         {#- TODO: candidate for macro? it's used below too -- but differently -#}
         {{- link(ref_impl()) -}}
-        {%- if data[ref_impl()].in_distributions|length > 0 %}
-          in the {{ data[ref_impl()].in_distributions[0] }}
+        {%- if get_node(ref_impl()).in_distributions|length > 0 %}
+          in the {{ get_node(ref_impl()).in_distributions[0] }}
         {% endif -%}
       {%- elif defining_distribution -%}
         {{ defining_distribution }}
@@ -62,7 +62,7 @@
                 {% for document in documentation(key=dist_key) %}
                   <li>
                     {#-
-                    {{ link(document, link_text=data[document].filename) }}
+                    {{ link(document, link_text=get_node(document).filename) }}
                     -#}
                     <a href="{{ github_link(document, key=dist_key) }}">{{ document }}</a>
                   </li>
@@ -71,11 +71,11 @@
             </section>
           {% endif %}
     
-          {% if data[dist_key].test_requirements %}
+          {% if get_node(dist_key).test_requirements %}
             <section id="test_requirements">
               <h2>Test Requirements</h2>
               <ul>
-                {% for req in data[dist_key].test_requirements %}
+                {% for req in get_node(dist_key).test_requirements %}
                   <li>
                       an implementation of {{ link(req) }}
                       {% if recommended_implementation(req) %}
@@ -93,8 +93,8 @@
       <div class="span4">
         <section id="distribution_access">
     
-          {% if data[dist_key].releases %}
-            {% set latest_release = data[dist_key].releases|last %}
+          {% if get_node(dist_key).releases %}
+            {% set latest_release = get_node(dist_key).releases|last %}
             <section id="download">
               <h2>Download</h2>
               <p><a class="download" href="{{ latest_release.url }}">
@@ -104,30 +104,30 @@
             </section>
           {% endif %}
     
-          {% if data[dist_key].github or data[dist_key].bitbucket %}
+          {% if get_node(dist_key).github or get_node(dist_key).bitbucket %}
             <section id="development">
               <h2>Development</h2>
-              {% if data[dist_key].github %}
-                <p>Github: <a href="https://github.com/{{ data[dist_key].github }}">{{ data[dist_key].github }}</a></p>
+              {% if get_node(dist_key).github %}
+                <p>Github: <a href="https://github.com/{{ get_node(dist_key).github }}">{{ get_node(dist_key).github }}</a></p>
               {% endif %}
-              {% if data[dist_key].bitbucket %}
-                <p>Bitbucket: <a href="https://bitbucket.org/{{ data[dist_key].bitbucket }}">{{ data[dist_key].bitbucket }}</a></p>
+              {% if get_node(dist_key).bitbucket %}
+                <p>Bitbucket: <a href="https://bitbucket.org/{{ get_node(dist_key).bitbucket }}">{{ get_node(dist_key).bitbucket }}</a></p>
               {% endif %}
-              {% if data[dist_key].issue_tracker %}
-                {% if data[dist_key].issue_tracker == 'github' %}
-                  <p>Issue tracker: <a href="https://github.com/{{ data[dist_key].github }}/issues">on github</a></p>
+              {% if get_node(dist_key).issue_tracker %}
+                {% if get_node(dist_key).issue_tracker == 'github' %}
+                  <p>Issue tracker: <a href="https://github.com/{{ get_node(dist_key).github }}/issues">on github</a></p>
                 {% else %}
-                  <p>Issue tracker: <a href="{{ data[dist_key].issue_tracker }}">{{ data[dist_key].issue_tracker }}</a></p>
+                  <p>Issue tracker: <a href="{{ get_node(dist_key).issue_tracker }}">{{ get_node(dist_key).issue_tracker }}</a></p>
                 {% endif %}
               {% endif %}
             </section>
           {% endif %}
     
-          {% if data[dist_key].releases|length>1 %}
+          {% if get_node(dist_key).releases|length>1 %}
             <section id="previous_releases">
               <h2>Previous Releases</h2>
               <ul>
-                {% for release in data[dist_key].releases[:-1] %}
+                {% for release in get_node(dist_key).releases[:-1] %}
                 <li>
                   <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
                 </li>
@@ -171,21 +171,21 @@
     {%- for impl in related('implementation-of')|sort -%}
       <li>
         {{- link(impl) -}}
-        {%- if data[impl].reference %}
+        {%- if get_node(impl).reference %}
           (the reference implementation)
         {%- endif -%},
-        {% if 'implementation-type' in data[impl] -%}
-          {{- indefart(data[impl].implementation_type) -}}
+        {% if 'implementation-type' in get_node(impl) -%}
+          {{- indefart(get_node(impl).implementation_type) -}}
         {%- endif %}
-        in {{ link(data[impl].host_language) }}
-        {% if data[impl].host_language == key -%}
+        in {{ link(get_node(impl).host_language) }}
+        {% if get_node(impl).host_language == key -%}
           (Yo dawg, I herd you like {{ key }})
         {%- endif %}
-        {% if data[impl].in_distributions|length > 0 -%}
-          in the {{ data[impl].in_distributions[0] }}
+        {% if get_node(impl).in_distributions|length > 0 -%}
+          in the {{ get_node(impl).in_distributions[0] }}
         {%- endif %}
-        {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] -%}
-          <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
+        {% if get_node(impl).host_language == 'mp3' and 'download-link' in get_node(impl) -%}
+          <a class="button" href="{{ get_node(impl).download_link }}">Listen (MP3)</a>
         {%- endif %}
       </li>
     {%- endfor -%}

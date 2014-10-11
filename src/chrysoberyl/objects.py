@@ -90,7 +90,7 @@ class Universe(object):
     def get_namespace_of(self, key):
         for (name, space) in self._spaces.iteritems():
             if key in space:
-                return name
+                return space
         return None
 
     def get_node(self, key):

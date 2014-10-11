@@ -58,18 +58,20 @@ def filterdocs(universe, data, options, config):
     save_docs(filename, new_docs)
 
 
-def render(universe, space, options, config):
+def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
     """
-    space.convert_chrysoberyl_data()
-    r = Renderer(universe, space,
-        config['node']['template_dirs'],
-        config['node']['output_dir'],
-        options.clone_dir,
-        options.sleek_node_links, os.path.join(config['node']['docs_dir'], 'docs.yaml')
-    )
-    r.render_chrysoberyl_data()
+    for space in universe.spaces:
+        space.convert_chrysoberyl_data()
+        r = Renderer(universe, space,
+            config[space.name]['template_dirs'],
+            config[space.name]['output_dir'],
+            options.clone_dir,
+            options.sleek_node_links,
+            os.path.join(config['node']['docs_dir'], 'docs.yaml')
+        )
+        r.render_chrysoberyl_data()
 
 
 def jsonify(universe, data, options, config):
@@ -179,4 +181,4 @@ def perform(args):
             sys.exit(1)
         print "Executing '%s'..." % command
         # it's expected that func will just raise an exc if it fails
-        func(universe, space, options, config)
+        func(universe, options, config)

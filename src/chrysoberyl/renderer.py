@@ -112,9 +112,7 @@ class Renderer(object):
         document.
 
         """
-        data = self.universe[self.universe.get_namespace_of(key)]
         context = node.copy()
-        context['data'] = data
         context['key'] = key
         context['sleek_key'] = sleek_key
         context['pathname2url'] = pathname2url
@@ -125,6 +123,10 @@ class Renderer(object):
         def expose(fun):
             context[fun.__name__] = fun
             return fun
+
+        @expose
+        def get_node(key=key):
+            return self.universe.get_node(key)
 
         @expose
         def md2html(field_contents, prefix=None, fixed=False):
@@ -176,10 +178,10 @@ class Renderer(object):
 
             """
             objects = []
-            for thing in data:
-                if data[thing].get('hidden', False):
+            for thing in self.space:
+                if self.space[thing].get('hidden', False):
                     continue
-                rel = data[thing].get(relationship, None)
+                rel = self.space[thing].get(relationship, None)
                 if rel is None:
                     continue
                 if rel == key:
@@ -194,9 +196,10 @@ class Renderer(object):
         def impls_for_platform(plat_key, key=key):
             impls = []
             for impl in related('implementation-of', key=key):
-                if (data[impl].get('platform', None) == plat_key or
-                    data[impl].get('host_platform', None) == plat_key or
-                    data[impl].get('target_platform', None) == plat_key):
+                node = self.universe.get_node(impl)
+                if (node.get('platform', None) == plat_key or
+                    node.get('host_platform', None) == plat_key or
+                    node.get('target_platform', None) == plat_key):
                     impls.append(impl)
             return impls
 
@@ -208,15 +211,16 @@ class Renderer(object):
             Once determined, this value is cached in the node.
 
             """
-            if '__reference-implementation__' in data[key]:
-                return data[key]['__reference-implementation__']
+            node = self.universe.get_node(key)
+            if '__reference-implementation__' in node:
+                return node['__reference-implementation__']
             ref_i = None
             for i in related('implementation-of', key=key):
-                if data[i].get('reference', False):
+                if self.universe.get_node(i).get('reference', False):
                     if ref_i is not None:
                         raise ValueError("more than one ref_impl of %s" % key)
                     ref_i = i
-            data[key]['__reference-implementation__'] = ref_i
+            node['__reference-implementation__'] = ref_i
             return ref_i
 
         @expose
@@ -234,13 +238,14 @@ class Renderer(object):
             Otherwise None.
 
             """
-            if 'defining-distribution' in data[key]:
-                return data[key]['defining-distribution']
+            node = self.universe.get_node(key)
+            if 'defining-distribution' in node:
+                return node['defining-distribution']
 
             ref_i = ref_impl(key=key)
             if ref_i is not None:
-                if 'in-distributions' in data[ref_i]:
-                    return data[ref_i]['in-distributions'][0]
+                if 'in-distributions' in self.universe.get_node(ref_i):
+                    return self.universe.get_node(ref_i)['in-distributions'][0]
 
             return None
 
@@ -260,7 +265,7 @@ class Renderer(object):
 
             """
             return "https://github.com/%s/blob/master/%s" % (
-                pathname2url(data[key]['github']),
+                pathname2url(self.universe.get_node(key)['github']),
                 pathname2url(filename)
             )
 
@@ -308,8 +313,9 @@ class Renderer(object):
             divert to a different node.
 
             """
-            type_ = data[key]['type']
-            if data[type_].get('suppress-page-generation', False):
+            node = self.universe.get_node(key)
+            type_ = node['type']
+            if self.universe.get_node(type_).get('suppress-page-generation', False):
                 raise KeyError('link to non-page (%s) node %s' % (type_, key))
             if link_text is None:
                 link_text = key
@@ -355,12 +361,13 @@ class Renderer(object):
         def online_buttons(key=key, show_verb_phrase=True):
             html = ''
             for impl in sorted(related('implementation-of', key=key)):
-                if len(data[impl].get('online-locations', [])) > 0:
-                    for loc in sorted(data[impl]['online-locations']):
+                node = self.universe.get_node(impl)
+                if len(node.get('online-locations', [])) > 0:
+                    for loc in sorted(node['online-locations']):
                         html += '<a class="button" href="'
                         html += sleek_key(loc)
                         html += '">'
-                        mediums = data[loc]['mediums']
+                        mediums = self.universe.get_node(loc)['mediums']
                         medium = None
                         if 'Java applet' in mediums:
                             medium = 'Java applet'
@@ -370,7 +377,7 @@ class Renderer(object):
                             assert False, 'No good medium in ' + \
                                           ' on '.join(mediums)
                         if show_verb_phrase:
-                            if data[key]['type'] == 'Game':
+                            if self.universe.get_node(key)['type'] == 'Game':
                                 html += 'Play'
                             else:
                                 html += 'Try it'
@@ -378,11 +385,9 @@ class Renderer(object):
                         else:
                             html += medium
                         html += '</a> '
-                if data[impl]['host_language'] == 'mp3' and \
-                   'download-link' in data[impl]:
-                    html += '<a class="button" href="'
-                    html += data[impl]['download_link']
-                    html += '">Listen (MP3)</a> '
+                if node['host_language'] == 'mp3' and 'download-link' in node:
+                    html += ('<a class="button" href="%s">Listen (MP3)</a> ' %
+                             node['download_link'])
             return html
 
         @expose
@@ -433,13 +438,13 @@ class Renderer(object):
             TOP = "Chrysoberyl"
             bc = []
             if key != TOP:
-                while 'domain' in data[key]:
-                    key = data[key]['domain']
+                while 'domain' in self.universe.get_node(key):
+                    key = self.universe.get_node(key)['domain']
                     if key == TOP:
                         break
                     bc.append(link(key))
-                if key != TOP and data[key]['type'] != 'type':
-                    bc.append(link(data[key]['type'], plural=True))
+                if key != TOP and self.universe.get_node(key)['type'] != 'type':
+                    bc.append(link(self.universe.get_node(key)['type'], plural=True))
                 bc.append(link(TOP))
             bc.append('<a href="../">catseye.tc</a>')
             bc.reverse()
@@ -451,8 +456,9 @@ class Renderer(object):
             the given key (assumed to be an implementable.)
 
             """
-            if 'recommended-implementation' in data[key]:
-                return data[key]['recommended-implementation']
+            node = self.universe.get_node(key)
+            if 'recommended-implementation' in node:
+                return node['recommended-implementation']
             impls = related('implementation-of', key=implementable)
             if len(impls) == 0:
                 return None
@@ -461,7 +467,7 @@ class Renderer(object):
             candidates = []
             # XXX can we statically check this?
             for impl in impls:
-                if 'generally-recommended' in data[impl]:
+                if 'generally-recommended' in self.universe.get_node(impl):
                     candidates.append(impl)
             if len(candidates) == 1:
                 return candidates[0]
@@ -480,8 +486,8 @@ class Renderer(object):
             languages = []
             types = ('Programming Language', 'Programming Language Family',
                      'Conlang', 'Automaton')
-            for thing in data:
-                node = data[thing]
+            for thing in self.space:
+                node = self.space[thing]
                 if (node['type'] in types and
                     'Chris Pressey' in node.get('authors', []) and
                     node.get('development-stage', 'idea') not in \
@@ -490,7 +496,7 @@ class Renderer(object):
                     (node.get('member-of', None) != 'Funge-98')):
                     languages.append(thing)
             return sorted(languages,
-                          key=lambda x: data[x]['inception-date'])
+                          key=lambda x: self.space[x]['inception-date'])
 
         @expose
         def articles():
@@ -501,13 +507,13 @@ class Renderer(object):
 
             """
             items = []
-            for thing in data:
-                node = data[thing]
+            for thing in self.space:
+                node = self.space[thing]
                 if node['type'] == 'Article':
                     items.append(thing)
             return reversed(sorted(
                 items,
-                key=lambda x: data[x]['publication-date']
+                key=lambda x: self.space[x]['publication-date']
             ))
 
         @expose
