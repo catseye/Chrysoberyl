@@ -217,31 +217,6 @@ pixley.pix as Nested Rectangles:
   - HTML5
   inline-image-installation: true
 
-'Recliner, Hyde Park':
-  type: Picture
-  inception-date: ca Jul 2013
-'Recliner, Hyde Park (JPEG)':
-  type: Implementation
-  implementation-of:
-  - Reader, Hyde Park
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - http://catseye.tc/modules/pictures/Recliner,%20Hyde%20Park.jpg
-'Recliner, Hyde Park (HTML5)':
-  type: Online Installation
-  installation-of: Recliner, Hyde Park (JPEG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - pencil
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
-
 'Smoker, Hyde Park':
   type: Picture
   inception-date: ca Jul 2013
@@ -519,26 +494,26 @@ Fictional Landscape No. 2:
   - HTML5
   inline-image-installation: true
 
-Fictional Townscape No. 1:
+Fictional Landscape No. 3:
   type: Picture
-  inception-date: ca Sep 2013
-"Fictional Townscape No. 1 (JPEG)":
+  inception-date: Oct 2014
+"Fictional Landscape No. 3 (JPEG)":
   type: Implementation
   implementation-of:
-  - "Fictional Townscape No. 1"
+  - "Fictional Landscape No. 3"
   license: Unknown license
   host-language: JPEG
   file-locations:
-  - "http://catseye.tc/modules/pictures/Fictional Townscape No. 1.jpg"
-"Fictional Townscape No. 1 (HTML5)":
+  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 3.jpg"
+"Fictional Landscape No. 3 (HTML5)":
   type: Online Installation
-  installation-of: "Fictional Townscape No. 1 (JPEG)"
+  installation-of: "Fictional Landscape No. 3 (JPEG)"
   exhibits:
   - Pictures Exhibit
   interactive: false
   animated: false
   mediums:
-  - ink
+  - marker pen
   - paper
   - JPEG
   - HTML5
