@@ -27,6 +27,9 @@
       <li>
         {%- if not get_node(key).suppress_page_generation -%}
           {{- link(thing) -}}
+          {%- if online_buttons(thing) -%}
+            <p>{{ online_buttons(thing) }}</p>
+          {%- endif -%}
         {%- else -%}
           {{- thing -}}
         {%- endif -%}
