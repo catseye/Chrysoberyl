@@ -74,7 +74,7 @@ class Universe(object):
             return None
         return spaces[0]
 
-    def get_node_space(self, key):
+    def get_space_key_node(self, key):
         in_space = None
         for (name, space) in self._spaces.iteritems():
             if key.startswith(space.name + '/'):
@@ -87,10 +87,10 @@ class Universe(object):
                     in_space = space
                     break
         assert in_space, "key '%s' not found in any space" % key
-        return (in_space[key], space)
+        return (in_space, key, in_space[key])
 
     def get_node(self, key):
-        return self.get_node_space(key)[0]
+        return self.get_space_key_node(key)[2]
 
 
 class ApproximateDate(object):

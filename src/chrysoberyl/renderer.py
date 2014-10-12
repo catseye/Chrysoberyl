@@ -304,7 +304,7 @@ class Renderer(object):
 
         @expose
         def link(key, format="%s", indefart=False, lower=False, plural=False,
-                 link_text=None, title=None):
+                 link_text=None, title=None, extra_attr=''):
             """Return an HTML link to the node with the given key.
 
             indefart causes the link text to be preceded by an indefinite
@@ -316,7 +316,7 @@ class Renderer(object):
             divert to a different node.
 
             """
-            node = self.universe.get_node(key)
+            (space, key, node) = self.universe.get_space_key_node(key)
             type_ = node['type']
             if self.universe.get_node(type_).get('suppress-page-generation', False):
                 raise KeyError('link to non-page (%s) node %s' % (type_, key))
@@ -333,10 +333,12 @@ class Renderer(object):
             if title is not None:
                 title_attr = ' title="%s"' % title
             if self.sleek_node_links:
-                href = pathname2url(sleek_key(key))
+                href = pathname2url('../' + space.name + '/' + sleek_key(key))
             else:
-                href = pathname2url(filekey(key))
-            return '<a href="%s"%s>%s</a>' % (href, title_attr, link_text)
+                href = pathname2url('../' + space.name + '/' + filekey(key))
+            return '<a %shref="%s"%s>%s</a>' % (
+                extra_attr, href, title_attr, link_text
+            )
 
         # not the kind you're probably thinking of
         @expose
@@ -366,11 +368,8 @@ class Renderer(object):
             for impl in sorted(related('implementation-of', key=key)):
                 node = self.universe.get_node(impl)
                 if len(node.get('online-locations', [])) > 0:
-                    for loc in sorted(node['online-locations']):
-                        html += '<a class="button" href="'
-                        html += sleek_key(loc)
-                        html += '">'
-                        mediums = self.universe.get_node(loc)['mediums']
+                    for loc_key in sorted(node['online-locations']):
+                        mediums = self.universe.get_node(loc_key)['mediums']
                         medium = None
                         if 'Java applet' in mediums:
                             medium = 'Java applet'
@@ -381,13 +380,17 @@ class Renderer(object):
                                           ' on '.join(mediums)
                         if show_verb_phrase:
                             if self.universe.get_node(key)['type'] == 'Game':
-                                html += 'Play'
+                                link_text = 'Play'
                             else:
-                                html += 'Try it'
-                            html += ' Online (%s)' % medium
+                                link_text = 'Try it'
+                            link_text += ' Online (%s)' % medium
                         else:
-                            html += medium
-                        html += '</a> '
+                            link_text = medium
+                        html += link(
+                            loc_key, link_text=link_text,
+                            extra_attr='class="button" '
+                        )
+
                 if node['host_language'] == 'mp3' and 'download-link' in node:
                     html += ('<a class="button" href="%s">Listen (MP3)</a> ' %
                              node['download_link'])
