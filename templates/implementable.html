@@ -41,7 +41,8 @@
       {%- elif no_specification -%}
         (no specification or reference implementation on file)
       {%- else -%}
-        {{ error(key + ' is not defined by?') }}
+        {{ error(description) }}
+        {{ error(key + get_node(key)|string + ' is not defined by?') }}
       {%- endif -%}
     </p>
   </section>

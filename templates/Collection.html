@@ -34,7 +34,7 @@
   </ol>
 {% else %}
   <ul>
-  {% for thing in space.keys() %}
+  {% for thing in get_space().keys() %}
     {% if get_node(thing).type in include_types and
           include_author in get_node(thing).authors %}
       <li>

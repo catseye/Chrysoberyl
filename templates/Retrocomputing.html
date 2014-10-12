@@ -21,7 +21,7 @@
                </li>
             {%- endfor -%}
           {%- else -%}
-            {%- for thing in space.keys()|sort -%}
+            {%- for thing in get_space().keys()|sort -%}
               {%- if 'Chris Pressey' in get_node(thing).authors and
                     get_node(thing).development_stage not in
                       ['idea', 'work in progress', 'abandoned', 'lost'] -%}

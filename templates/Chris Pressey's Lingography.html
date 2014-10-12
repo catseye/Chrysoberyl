@@ -82,7 +82,7 @@
 <h3>Languages I've Implemented</h3>
 
 <ul>
-{%- for thing in space|sort -%}
+{%- for thing in get_space().keys()|sort -%}
   {%- if get_node(thing).type == 'Implementation' and
         'Chris Pressey' in get_node(thing).authors and
         get_node(get_node(thing).implementation_of[0]).type == 'Programming Language' and

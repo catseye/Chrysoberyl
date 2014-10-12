@@ -114,7 +114,6 @@ class Renderer(object):
         """
         context = node.copy()
         context['key'] = key
-        context['space'] = self.space
         context['sleek_key'] = sleek_key
         context['pathname2url'] = pathname2url
 
@@ -128,6 +127,10 @@ class Renderer(object):
         @expose
         def get_node(key=key):
             return self.universe.get_node(key)
+
+        @expose
+        def get_space():
+            return self.space
 
         @expose
         def md2html(field_contents, prefix=None, fixed=False):
