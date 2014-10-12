@@ -22,14 +22,14 @@
  <div id="page_boundary">
   <header>
     <nav id="breadcrumbs">
-      <p>{{ breadcrumbs()|join(' » ') }} {% if key_ext() %}({{ key_ext() }}){% endif %} »</p>
+      <p>{{ breadcrumbs()|join(' » ') }} »</p>
     </nav>
     {%- block header_gadgets -%}
     {%- endblock header_gadgets -%}
 
     {%- block heading -%}
       <hgroup id="heading">
-        <h1>{{ base_key() }}</h1>
+        <h1>{{ key }}</h1>
         {%- if subtitle -%}
           <h2 id="subtitle">{{ subtitle }}</h2>
         {%- endif -%}

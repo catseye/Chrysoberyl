@@ -142,38 +142,6 @@ class Renderer(object):
                 return markdown_contents(field_contents, prefix=prefix)
 
         @expose
-        def base_key(key=key):
-            """Returns the 'base' part of the key, that is, with the medium,
-            ('(HTML5)', etc), removed.
-
-            """
-            if key.endswith(' (HTML5)'):
-                return key[:-8]
-            if key.endswith(' (Applet)'):
-                return key[:-9]
-            if key.endswith(' (JaC64)'):
-                return key[:-8]
-            if key.endswith(' (v86)'):
-                return key[:-6]
-            return key
-
-        @expose
-        def key_ext(key=key):
-            """Returns the 'extension' part of the key, that is, the medium,
-            ('(HTML5)', etc).
-
-            """
-            if key.endswith(' (HTML5)'):
-                return 'HTML5'
-            if key.endswith(' (Applet)'):
-                return 'Applet'
-            if key.endswith(' (JaC64)'):
-                return 'JaC64'
-            if key.endswith(' (v86)'):
-                return 'v86'
-            return ''
-
-        @expose
         def related(relationship, key=key):
             """Return a list of nodes whose attribute named by `relationship`
             contains the given `key`, whether the attribute is a scalar or a
@@ -389,7 +357,7 @@ class Renderer(object):
                         html += link(
                             loc_key, link_text=link_text,
                             extra_attr='class="button" '
-                        )
+                        ) + ' '
 
                 if node['host_language'] == 'mp3' and 'download-link' in node:
                     html += ('<a class="button" href="%s">Listen (MP3)</a> ' %
