@@ -89,10 +89,11 @@ def jsonify(universe, options, config):
                   default=unicode)
 
 
-def announce(universe, space, options, config):
+def announce(universe, options, config):
     """Create news feeds from news item nodes in Chrysoberyl.
 
     """
+    space = universe['node']  # FIXME hardcoded
     space.convert_chrysoberyl_data()
     feed_dir = config['node']['feed_dir']
     make_news_feed(space, feed_dir, 'atom_15_news.xml', limit=15)

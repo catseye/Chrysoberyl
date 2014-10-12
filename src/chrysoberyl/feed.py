@@ -49,8 +49,7 @@ def make_news_feed(data, dir, filename, limit=None):
         title = n['key']
         guid = url + "/" + n['key']
         updated = n['publication-date']
-        nodelink = pathname2url(filekey(n['key']),
-                                prefix='http://catseye.tc/node/')
+        nodelink = pathname2url('http://catseye.tc/node/' + filekey(n['key']))
         summary_contents = n['description_html']
         if n.get('summary', None) is not None:
             summary_contents = (n['summary_html'] +
