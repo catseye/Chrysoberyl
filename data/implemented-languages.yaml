@@ -81,7 +81,7 @@ tc.catseye.yoob.brainfuck:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 Muriel:
@@ -344,7 +344,7 @@ tc.catseye.yoob.ale:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 BackFlip:
@@ -376,7 +376,7 @@ tc.catseye.yoob.backflip:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 Black:
@@ -408,7 +408,7 @@ tc.catseye.yoob.black:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 LNUSP:
@@ -441,7 +441,7 @@ tc.catseye.yoob.lnusp:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 1L:
@@ -486,7 +486,7 @@ tc.catseye.yoob.onela:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 1L_AOI:
@@ -520,7 +520,7 @@ tc.catseye.yoob.onelaoi:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 PATH:
@@ -553,7 +553,7 @@ tc.catseye.yoob.path:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 Qdeql:
@@ -585,7 +585,7 @@ tc.catseye.yoob.qdeql:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 Sceql:
@@ -617,7 +617,7 @@ tc.catseye.yoob.sceql:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 SNUSP:
@@ -650,7 +650,7 @@ tc.catseye.yoob.snusp:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 2-ill:
@@ -685,7 +685,7 @@ tc.catseye.yoob.twoill:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 2L:
@@ -718,4 +718,4 @@ tc.catseye.yoob.twol:
   auspices:
   - Cat's Eye Technologies
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob

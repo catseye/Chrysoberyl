@@ -48,7 +48,7 @@ braktif.alp:
   file-locations:
   - https://github.com/catseye/Braktif/blob/master/src/braktif.alp
   online-locations:
-  - 'Braktif (HTML5)'
+  - installation/Braktif
 
 
 Circute:
@@ -97,7 +97,7 @@ tc.catseye.yoob.circute:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 circute.alp:
   type: Implementation
@@ -114,7 +114,7 @@ circute.alp:
   file-locations:
   - https://github.com/catseye/Circute/blob/master/src/circute.alp
   online-locations:
-  - 'Circute (HTML5)'
+  - installation/Circute
 
 
 Cyclobots:
@@ -160,7 +160,7 @@ cyclobots.js:
   host-language: Javascript
   development-stage: mature
   online-locations:
-  - 'Cyclobots (HTML5)'
+  - installation/Cyclobots
 
 
 Didigm:
@@ -315,7 +315,7 @@ jaccia.alp:
   file-locations:
   - https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp
   online-locations:
-  - 'Jaccia (HTML5)'
+  - installation/Jaccia
 
 jacciata.alp:
   type: Implementation
@@ -332,7 +332,7 @@ jacciata.alp:
   file-locations:
   - https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp
   online-locations:
-  - 'Jacciata (HTML5)'
+  - installation/Jacciata
 
 
 "noit o' mnain worb":
@@ -396,7 +396,7 @@ worb.js:
   host-language: Javascript
   host-platform: yoob.js API
   online-locations:
-  - "noit o' mnain worb (HTML5)"
+  - installation/noit o' mnain worb
 
 tc.catseye.yoob.worb:
   type: Implementation
@@ -408,7 +408,7 @@ tc.catseye.yoob.worb:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 REDGREEN:
@@ -466,7 +466,7 @@ redgreen.alp:
   file-locations:
   - https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp
   online-locations:
-  - 'REDGREEN (HTML5)'
+  - installation/REDGREEN
 
 
 RUBE:
@@ -574,7 +574,7 @@ tc.catseye.yoob.smetana:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 SMETANA (Visual Basic):
   type: Implementation

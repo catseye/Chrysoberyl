@@ -75,10 +75,19 @@ class Universe(object):
         return spaces[0]
 
     def get_node(self, key):
+        in_space = None
         for (name, space) in self._spaces.iteritems():
-            if key in space:
-                return space[key]
-        assert False, "key '%s' not found in any space" % key
+            if key.startswith(space.name + '/'):
+                in_space = space
+                key = key[len(space.name) + 1:]
+                break
+        if not in_space:
+            for (name, space) in self._spaces.iteritems():
+                if key in space:
+                    in_space = space
+                    break
+        assert in_space, "key '%s' not found in any space" % key
+        return in_space[key]
 
 
 class ApproximateDate(object):

@@ -30,7 +30,7 @@ BefOS:
   dimensionality: 2
   esowiki: BefOS
   online-locations:
-  - 'BefOS (v86)'
+  - installation/BefOS
 
 BefOS (NASM):
   type: Implementation
@@ -46,7 +46,7 @@ BefOS (NASM):
   - ANSI C
   - Perl
   online-locations:
-  - 'BefOS (v86)'
+  - installation/BefOS
 
 BefOS distribution: 
   type: Distribution
@@ -101,7 +101,7 @@ tc.catseye.yoob:
   license: Public Domain
   host-language: Java
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 yoob distribution: 
   type: Distribution

@@ -239,7 +239,7 @@ tc.catseye.yoob.befunge93:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 Befunge-97:
@@ -862,7 +862,7 @@ etcha.js:
   host-language: Javascript
   host-platform: yoob.js API
   online-locations:
-  - 'Etcha (HTML5)'
+  - installation/Etcha
 
 tc.catseye.yoob.etcha:
   type: Implementation
@@ -876,7 +876,7 @@ tc.catseye.yoob.etcha:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 ETHEL:
@@ -1200,7 +1200,7 @@ gemooy.js:
   host-language: Javascript
   host-platform: yoob.js API
   online-locations:
-  - 'Gemooy (HTML5)'
+  - installation/Gemooy
 
 tc.catseye.yoob.gemooy:
   type: Implementation
@@ -1214,7 +1214,7 @@ tc.catseye.yoob.gemooy:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 GraNoLa/M:
@@ -2157,7 +2157,7 @@ pixley.js:
   host-language: Javascript
   host-platform: yoob.js API
   online-locations:
-  - 'Pixley (HTML5)'
+  - installation/Pixley
 
 pixley.pifx:
   type: Implementation
@@ -2407,7 +2407,7 @@ shelta:
   target-language: x86 machine code
   target-platform: MS-DOS
   online-locations:
-  - 'Shelta (v86)'
+  - installation/Shelta
 
 sheltas:
   type: Implementation
@@ -2997,7 +2997,7 @@ tc.catseye.whothm:
   implementation-type: interpreter
   host-language: Java
   online-locations:
-  - 'Whothm (Applet)'
+  - installation/Whothm
 
 
 Wierd:
@@ -3135,7 +3135,7 @@ tc.catseye.yoob.wunnel:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 wunnel.js:
   type: Implementation
@@ -3147,7 +3147,7 @@ wunnel.js:
   host-language: Javascript
   host-platform: yoob.js API
   online-locations:
-  - 'Wunnel (HTML5)'
+  - installation/Wunnel
 
 
 Xoomonk: 
@@ -3345,7 +3345,7 @@ tc.catseye.yoob.ypsilax:
   host-language: Java
   host-platform: yoob
   online-locations:
-  - 'yoob (Applet)'
+  - installation/yoob
 
 
 ZOWIE:
@@ -3392,4 +3392,4 @@ zowie.py:
   host-language: Python
   implementation-type: interpreter
   online-locations:
-  - 'ZOWIE (HTML5)'
+  - installation/ZOWIE
