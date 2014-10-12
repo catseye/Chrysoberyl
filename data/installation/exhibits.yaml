@@ -322,6 +322,24 @@
     which implements Whothm, and lets you interactively try out Whothm programs online.  The implementation is only
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
+  instructions: |
+    Whothm is a simple language for describing infinite shapes. It is
+    described fully in the documentation in the [[Whothm]] distribution.
+    
+    Click "Run" or press Alt+R to run the program.  The result is displayed in
+    the canvas on the right.  Page Up and Page Down can be used to zoom in and
+    out of the canvas.
+    
+    Syntax errors often result in an error message in the status bar,
+    but might not in all cases.  In these cases, consulting your browser's
+    Java console, if it has one, might elucidate the cause of the error.
+    Or it might not.
+    
+    Obviously, this implementation does not support generating or
+    displaying the entire infinite drawing.  In fact, it only runs the loop
+    for a couple of hundred iterations.  The full shape is left up to your
+    imagination.
+
 
 'Wunnel':
   installation-of: wunnel.js

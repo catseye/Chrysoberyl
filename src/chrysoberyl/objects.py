@@ -82,10 +82,14 @@ class Universe(object):
                 key = key[len(space.name) + 1:]
                 break
         if not in_space:
+            possible_spaces = []
             for (name, space) in self._spaces.iteritems():
                 if key in space:
-                    in_space = space
-                    break
+                    possible_spaces.append(space)
+            if len(possible_spaces) == 1:
+                in_space = possible_spaces[0]
+            else:
+                in_space = self['node']  # FIXME hardcoded -- should default to the "current" space, probably
         assert in_space, "key '%s' not found in any space" % key
         return (in_space, key, in_space[key])
 
