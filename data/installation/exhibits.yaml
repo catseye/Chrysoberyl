@@ -4,7 +4,7 @@
 
 ### Games ###
 
-'Bubble Escape (JaC64)':
+'Bubble Escape':
   type: Online Installation
   installation-of: Bubble Escape 2K
   exhibits:
@@ -31,7 +31,7 @@
     into 2K, and submitted to the [[Mini Game Compo 2009]], where
     it got first place in its class.
 
-'Super Wumpus Land (HTML5)':
+'Super Wumpus Land':
   type: Online Installation
   installation-of: swl.js
   exhibits:
@@ -78,7 +78,7 @@
 
 ### Esolangs ###
 
-'BefOS (v86)':
+'BefOS':
   type: Online Installation
   installation-of: BefOS (NASM)
   exhibits:
@@ -106,7 +106,7 @@
     or, wonder of wonders, a real IBM PC compatible — if you can write it onto
     a floppy disk somehow...
 
-'Braktif (HTML5)':
+'Braktif':
   type: Online Installation
   installation-of: braktif.alp
   exhibits:
@@ -120,7 +120,7 @@
     The [[Braktif]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
-'Circute (HTML5)':
+'Circute':
   type: Online Installation
   installation-of: circute.alp
   exhibits:
@@ -134,7 +134,7 @@
     The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
-'Etcha (HTML5)':
+'Etcha':
   type: Online Installation
   installation-of: etcha.js
   exhibits:
@@ -149,7 +149,7 @@
     which could be thought of as an attempt to combine [[Jeffry Johnston]]'s
     [[BitChanger]] with turtle graphics.
 
-'Gemooy (HTML5)':
+'Gemooy':
   type: Online Installation
   installation-of: gemooy.js
   exhibits:
@@ -163,7 +163,7 @@
     [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
     This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
 
-'Jaccia (HTML5)':
+'Jaccia':
   type: Online Installation
   installation-of: jaccia.alp
   exhibits:
@@ -184,7 +184,7 @@
     [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     See also [[Jacciata (HTML5)]].
 
-'Jacciata (HTML5)':
+'Jacciata':
   type: Online Installation
   installation-of: jacciata.alp
   exhibits:
@@ -205,7 +205,7 @@
     [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
     See also [[Jaccia (HTML5)]].
 
-"noit o' mnain worb (HTML5)":
+"noit o' mnain worb":
   type: Online Installation
   installation-of: worb.js
   exhibits:
@@ -220,7 +220,7 @@
     [[noit o' mnain worb]] is a probabilistic particle automaton.
     This online interpreter is implemented in Javascript, on an HTML5 canvas.
 
-'Pixley (HTML5)':
+'Pixley':
   type: Online Installation
   installation-of: pixley.js
   # arguably Pixley is not an esolang, or at least not a very eso one.
@@ -244,7 +244,7 @@
     then click "Start" to run it.  Or click "Edit" to modify an example
     program, or create your own program.
 
-'REDGREEN (HTML5)':
+'REDGREEN':
   type: Online Installation
   installation-of: redgreen.alp
   exhibits:
@@ -258,7 +258,7 @@
     The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
 
-'Shelta (v86)':
+'Shelta':
   type: Online Installation
   # ... and sheltas, but ok
   installation-of: shelta
@@ -304,7 +304,7 @@
     or, wonder of wonders, a real IBM PC compatible — if you can write it onto
     a floppy disk somehow...
 
-'Whothm (Applet)':
+'Whothm':
   type: Online Installation
   installation-of: tc.catseye.whothm
   exhibits:
@@ -323,7 +323,7 @@
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
 
-'Wunnel (HTML5)':
+'Wunnel':
   installation-of: wunnel.js
   type: Online Installation
   exhibits:
@@ -345,7 +345,7 @@
     `0`s and `1`s (Wunnel programs take bits as input.)  The program
     will consume them in order, and continue running.
 
-'yoob (Applet)':
+'yoob':
   type: Online Installation
   installation-of: tc.catseye.yoob
   exhibits:
@@ -366,7 +366,7 @@
     [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
     action, and lets you play with all these esolangs online.
 
-'ZOWIE (HTML5)':
+'ZOWIE':
   type: Online Installation
   installation-of: zowie.py
   exhibits:
@@ -393,7 +393,7 @@
 
 ### Digital Art ###
 
-'A Non-Random Walk (HTML5)':
+'A Non-Random Walk':
   type: Online Installation
   installation-of: a-non-random-walk.js
   exhibits:
@@ -415,7 +415,7 @@
     var t = new NonRandomWalk();
     t.init(document.getElementById('canvas'));
 
-'Chzrxl (HTML5)':
+'Chzrxl':
   type: Online Installation
   installation-of: chzrxl.js
   exhibits:
@@ -438,7 +438,7 @@
     var t = new Chzrxl();
     t.init(document.getElementById('canvas'));
 
-'Cyclobots (HTML5)':
+'Cyclobots':
   type: Online Installation
   installation-of: cyclobots.js
   exhibits:
@@ -494,7 +494,7 @@
         }
     });
 
-'Fibonacci Spiral (HTML5)':
+'Fibonacci Spiral':
   type: Online Installation
   installation-of: fibonacci-spiral.js
   exhibits:
@@ -513,7 +513,7 @@
     var t = new FibonacciSpiral();
     t.init(document.getElementById('canvas'));
 
-'Fingerspelling (HTML5)':
+'Fingerspelling':
   type: Online Installation
   installation-of: fingerspelling.js
   exhibits:
@@ -536,7 +536,7 @@
   javascript-main: |
     (new Fingerspelling()).init(document.getElementById('canvas'));
 
-'Hirsute Miasma (HTML5)':
+'Hirsute Miasma':
   type: Online Installation
   installation-of: hirsute-miasma.js
   exhibits:
@@ -566,7 +566,7 @@
     var t = new HirsuteMiasma();
     t.start(document.getElementById('canvas'));
 
-'Heronsis hermnonicii (HTML5)':
+'Heronsis hermnonicii':
   type: Online Installation
   installation-of: heronsis-hermnonicii.js
   exhibits:
@@ -600,7 +600,7 @@
     var t = new HeronsisHermnonicii();
     t.init(document.getElementById('canvas'));
 
-'Hypongtrochoid (HTML5)':
+'Hypongtrochoid':
   type: Online Installation
   installation-of: hypongtrochoid.js
   exhibits:
@@ -656,7 +656,7 @@
     var t = new Hypongtrochoid();
     t.start(canvas, overlay);
 
-'Multicolouralism (HTML5)':
+'Multicolouralism':
   type: Online Installation
   installation-of: multicolouralism.js
   exhibits:
@@ -691,7 +691,7 @@
         background: '#a0a0d0'
     });
 
-'Plea of Thunder (Applet)':
+'Plea of Thunder':
   type: Online Installation
   # WAIT WHAT SRSLY HA NO
   installation-of: hugs
@@ -703,7 +703,7 @@
   - Java applet
   - HTML5
 
-'Prairie (HTML5)':
+'Prairie':
   type: Online Installation
   installation-of: prairie.js
   exhibits:
@@ -726,7 +726,7 @@
       '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png'
     );
 
-'Progression (HTML5)':
+'Progression':
   type: Online Installation
   installation-of: progression.js
   exhibits:
@@ -751,7 +751,7 @@
     p.start(document.getElementById('canvas'),
             document.getElementById('counter'));
 
-'The Frame (HTML5)':
+'The Frame':
   type: Online Installation
   installation-of: the-frame.js
   exhibits:

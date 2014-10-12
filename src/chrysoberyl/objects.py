@@ -61,10 +61,13 @@ class Universe(object):
             yield space
 
     def get_namespace_of(self, key):
+        spaces = []
         for (name, space) in self._spaces.iteritems():
             if key in space:
-                return space
-        return None
+                spaces.append(space)
+        assert len(spaces) == 1, \
+            "key '%s' appears in multiple spaces %r" % (key, [s.name for s in spaces])
+        return spaces[0]
 
     def get_node(self, key):
         for (name, space) in self._spaces.iteritems():
