@@ -78,7 +78,7 @@ class Universe(object):
         for (name, space) in self._spaces.iteritems():
             if key in space:
                 return space[key]
-        return None
+        assert False, "key '%s' not found in any space" % key
 
 
 class ApproximateDate(object):

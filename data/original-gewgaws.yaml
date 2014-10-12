@@ -98,7 +98,7 @@ a-non-random-walk.js:
   implementation-of:
   - A Non-Random Walk
   online-locations:
-  - 'A Non-Random Walk (HTML5)'
+  - installation/A Non-Random Walk
 
   
 Chzrxl:
@@ -132,7 +132,7 @@ chzrxl.js:
   implementation-of:
   - Chzrxl
   online-locations:
-  - 'Chzrxl (HTML5)'
+  - installation/Chzrxl
 
 
 Fibonacci Spiral:
@@ -157,7 +157,7 @@ fibonacci-spiral.js:
   implementation-of:
   - Fibonacci Spiral
   online-locations:
-  - 'Fibonacci Spiral (HTML5)'
+  - installation/Fibonacci Spiral
 
 
 Fingerspelling:
@@ -173,7 +173,7 @@ Fingerspelling:
     finger.  If you don't have a touchscreen, you may simulate this action
     with your mouse pointer.
   online-locations:
-  - 'Fingerspelling (HTML5)'
+  - installation/Fingerspelling
 
 fingerspelling.js:
   type: Implementation
@@ -182,7 +182,7 @@ fingerspelling.js:
   implementation-of:
   - Fingerspelling
   online-locations:
-  - 'Fingerspelling (HTML5)'
+  - installation/Fingerspelling
 
 
 Hirsute Miasma:
@@ -204,7 +204,7 @@ hirsute-miasma.js:
   implementation-of:
   - Hirsute Miasma
   online-locations:
-  - 'Hirsute Miasma (HTML5)'
+  - installation/Hirsute Miasma
 
 
 Heronsis hermnonicii:
@@ -225,7 +225,7 @@ heronsis-hermnonicii.js:
   implementation-of:
   - Heronsis hermnonicii
   online-locations:
-  - 'Heronsis hermnonicii (HTML5)'
+  - installation/Heronsis hermnonicii
 
 
 Hypongtrochoid:
@@ -252,7 +252,7 @@ hypongtrochoid.js:
   implementation-of:
   - Hypongtrochoid
   online-locations:
-  - 'Hypongtrochoid (HTML5)'
+  - installation/Hypongtrochoid
 
 
 Multicolouralism:
@@ -283,7 +283,7 @@ multicolouralism.js:
   implementation-of:
   - Multicolouralism
   online-locations:
-  - 'Multicolouralism (HTML5)'
+  - installation/Multicolouralism
 
 
 # Note, the online-locations on this gewgaw doesn't work, because they
@@ -297,7 +297,7 @@ Plea of Thunder:
   summary: |
     Conceptual art: A Java applet that you and your friends can own!
   online-locations:
-  - 'Plea of Thunder (HTML5)'
+  - installation/Plea of Thunder
 
 
 Prairie:
@@ -315,7 +315,7 @@ prairie.js:
   implementation-of:
   - Prairie
   online-locations:
-  - 'Prairie (HTML5)'
+  - installation/Prairie
 
 
 Progression:
@@ -333,7 +333,7 @@ progression.js:
   implementation-of:
   - Progression
   online-locations:
-  - 'Progression (HTML5)'
+  - installation/Progression
 
 
 The Frame:
@@ -356,4 +356,4 @@ the-frame.js:
   implementation-of:
   - The Frame
   online-locations:
-  - 'The Frame (HTML5)'
+  - installation/The Frame

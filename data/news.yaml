@@ -42,9 +42,9 @@
   article-type: announcement
   publication-date: Mon, 22 Sep 2014 17:19:58 GMT
   blurb: |
-    [[BefOS]] version 0.10 released and [[BefOS (v86)|installed online]].
+    [[BefOS]] version 0.10 released and [[installation/BefOS|installed online]].
   description: |
-    Look!  Up on [[BefOS (v86)|this web page!]]  Is it [[Befunge-93|Befunge]]?
+    Look!  Up on [[installation/BefOS|this web page!]]  Is it [[Befunge-93|Befunge]]?
     Is it an [[operating system]]?  No... no, it's just a disk sector editor
     with some unusual features, really.
     
@@ -69,7 +69,7 @@
     
     But before you bemoan the barbarity of Befunge's birthday bash being a
     bit belated, ... well, nothing really, I just wanted to get some
-    alliteration out of my system there.  Have fun with [[BefOS (v86)]].
+    alliteration out of my system there.  Have fun with [[installation/BefOS]].
 
 'Yolk, a Meta-circularly-defined Programming Language':
   type: Article
