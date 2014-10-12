@@ -55,6 +55,9 @@ class Universe(object):
     def __getitem__(self, name):
         return self._spaces[name]
 
+    def get(self, name, *args):
+        return self._spaces.get(name, *args)
+
     @property
     def spaces(self):
         for (name, space) in self._spaces.iteritems():
@@ -65,8 +68,10 @@ class Universe(object):
         for (name, space) in self._spaces.iteritems():
             if key in space:
                 spaces.append(space)
-        assert len(spaces) == 1, \
-            "key '%s' appears in multiple spaces %r" % (key, [s.name for s in spaces])
+        #assert len(spaces) == 1, \
+        #    "key '%s' appears in multiple spaces %r" % (key, [s.name for s in spaces])
+        if not spaces:
+            return None
         return spaces[0]
 
     def get_node(self, key):

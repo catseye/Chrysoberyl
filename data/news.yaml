@@ -180,7 +180,7 @@
     [Music](http://catseye.tc/node/Online_Installation#music_exhibit),
     [Pictures](http://catseye.tc/node/Online_Installation#pictures_exhibit),
     [Texts](http://catseye.tc/node/Online_Installation#texts_exhibit), and
-    [[Wunnel (HTML5)]].
+    [[installation/Wunnel]].
   description: |
     The [[Online Installation|Online Gallery]] has had an overhaul since
     the last time I announced anything regarding it.  It's got tabs with
@@ -192,7 +192,7 @@
     
     But its main purpose is still for interactive HTML5-y stuff, especially
     esolangs, and lo, there is
-    [[Wunnel (HTML5)|an HTML5 implementation of Wunnel]] there now too.
+    [[installation/Wunnel|an HTML5 implementation of Wunnel]] there now too.
     
     And with this implementation of Wunnel, [[yoob.js]] has reached another
     release point, version 0.6.  But, of course, it is still basically in the
@@ -229,14 +229,14 @@
   article-type: announcement
   publication-date: Sat, 11 Jan 2014 14:44:17 GMT
   blurb: |
-    [[Pixley (HTML5)]] and [[Etcha (HTML5)]] are now online.
+    [[installation/Pixley]] and [[installation/Etcha]] are now online.
   description: |
     We present, just below, the [[Pixley]] reference interpreter (that is,
     the one that's written meta-circularly in Pixley itself)
     depicted as a set of nested, coloured rectangles.  Looks a bit like
     an [integrated circuit](http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside),
     perhaps, except without the wires.  I'll leave it to you to decide if this
-    is unsurprising or not.  You can see this and more in [[Pixley (HTML5)]].
+    is unsurprising or not.  You can see this and more in [[installation/Pixley]].
     
     ![Pixley Interpreter as nested rectangles](/images/generated/Pixley.png)
     
@@ -244,7 +244,7 @@
     that one [[Etcha]] example program over and over again.  Looks a bit like
     a pattern produced by [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant),
     and perhaps that is no surprise at all.  You can try this, and any other
-    Etcha program you care to concoct, yourself in [[Etcha (HTML5)]].
+    Etcha program you care to concoct, yourself in [[installation/Etcha]].
     
     ![An Etcha program state after many repetitions](/images/generated/Etcha.png)
 
@@ -273,7 +273,7 @@
   article-type: announcement
   publication-date: Thu, 12 Dec 2013 18:19:08 GMT
   blurb: |
-    [[Shelta]] 1.2 released — and bootstrappable [[Shelta (v86)|online]]!
+    [[Shelta]] 1.2 released — and bootstrappable [[installation/Shelta|online]]!
   description: |
     Version 1.2 of the [[Shelta]] distribution has been released.  This
     is a very minor update, with the only change to the language being
@@ -288,7 +288,7 @@
     
     Anyway, this all brings us to the good news, which is: you can now
     play with Shelta — including bootstrapping it —
-    [[Shelta (v86)|online, right here]]!
+    [[installation/Shelta|online, right here]]!
 
 'Presenting Amiga Gondola':
   type: Article
@@ -424,18 +424,18 @@
   article-type: announcement
   publication-date: Sun, 13 Oct 2013 02:27:17 GMT
   blurb: |
-    I got two new [[Chzrxl (HTML5)|gew]][[Multicolouralism (HTML5)|gaw]]s
-    and an [[ZOWIE (HTML5)|esolang]]... online.
+    I got two new [[installation/Chzrxl|gew]][[installation/Multicolouralism|gaw]]s
+    and an [[installation/ZOWIE|esolang]]... online.
   description: |
     Two new HTML5 gewgaws in the [[Online Installation|Gallery]]:
-    [[Chzrxl (HTML5)]] and [[Multicolouralism (HTML5)]].
+    [[installation/Chzrxl]] and [[installation/Multicolouralism]].
     
     Also, the public-domain gewgaws are now kept in
     [a repository on Github](https://github.com/catseye/HTML5-Gewgaws)
     with
     [a mirror on Bitbucket](https://bitbucket.org/catseye/html5-gewgaws).
     
-    Also, the esolang [[ZOWIE]] is now runnable online, at [[ZOWIE (HTML5)]].
+    Also, the esolang [[installation/ZOWIE]] is now runnable online.
     Unlike previous online esolang implementations, this one didn't involve
     re-implementing ZOWIE in [[Javascript]].  Instead, the ZOWIE reference
     interpreter, written in [[Python]], is running under [[Skulpt]] on that
@@ -508,7 +508,7 @@
   publication-date: Fri, 12 Apr 2013 09:26:41 GMT
   blurb: |
     Our 1994 automaton [[Cyclobots]] is now
-    [[Cyclobots (HTML5)|live in-browser]] in
+    [[installation/Cyclobots|live in-browser]] in
     the [[Online Installation|Gallery]].
   description: |
     Turn back the clock.  It's 1994.  NAFTA.  OJ Simpson.  Rwanda.
@@ -525,7 +525,7 @@
     But man, that must have been one *low* priority TODO item, because I
     never got around to it.
     
-    [[Cyclobots (HTML5)|Until now]].
+    [[installation/Cyclobots|Until now]].
     
     'Course, it's not a Java applet now, it's [[Javascript]] on an [[HTML5]]
     canvas, so make sure you're using one of those awesome new
@@ -547,8 +547,8 @@
   description: |
     It's about time!  You can now play with Cat's Eye Technologies'
     cellular automata in your web browser on the following pages:
-    [[REDGREEN (HTML5)]], [[Circute (HTML5)]], [[Braktif (HTML5)]],
-    [[Jaccia (HTML5)]], and [[Jacciata (HTML5)]].
+    [[installation/REDGREEN]], [[installation/Circute]], [[installation/Braktif]],
+    [[installation/Jaccia]], and [[installation/Jacciata]].
     
     I've wanted to be able to generate some kind of usable-in-a-web-browser
     code from [[ALPACA]] descriptions for a good long while.  At one point
@@ -563,8 +563,8 @@
     
     The few improvements to yoob.js that were spurred on by this effort to
     get these CA's online have also resulted in improvements to the
-    online installations of [[Gemooy (HTML5)]] and
-    [[noit o' mnain worb (HTML5)]].
+    online installations of [[installation/Gemooy]] and
+    [[installation/noit o' mnain worb]].
 
 "noit o' mnain worb implemented in HTML5":
   type: Article
@@ -572,11 +572,11 @@
   publication-date: Sat, 30 Mar 2013 18:34:22 GMT
   blurb: |
     [[noit o' mnain worb]] has been implemented in
-    [[noit o' mnain worb (HTML5)|HTML5]].
+    [[installation/noit o' mnain worb|HTML5]].
   description: |
     The implementation of various things in HTML5 continues.  This
     time it's [[noit o' mnain worb]], which you can play with
-    [[noit o' mnain worb (HTML5)|here]].  With pretty graphics,
+    [[installation/noit o' mnain worb|here]].  With pretty graphics,
     for some value of pretty.
     
     Seeing as worb has already been implemented in [[yoob]], why
@@ -605,11 +605,11 @@
   article-type: announcement
   publication-date: Sun, 24 Mar 2013 12:28:33 GMT
   blurb: |
-    [[Super Wumpus Land]] is now [[Super Wumpus Land (HTML5)|playable online]].
+    [[Super Wumpus Land]] is now [[installation/Super Wumpus Land|playable online]].
   description: |
     [[Super Wumpus Land]], our silly "extended dance mix" version of
     [[Hunt the Wumpus]], has been converted to [[Javascript]], and is now
-    playable online here: [[Super Wumpus Land (HTML5)]].
+    playable online here: [[installation/Super Wumpus Land]].
     
     This new implementation uses modules from [[yoob.js]] to simulate
     a text-based terminal on an [[HTML5]] `<canvas>` element.

@@ -23,7 +23,7 @@ def sleek_key(key):
     return re.sub(r'(\/|\\|\#| )', '_', key)
 
 
-def pathname2url(s, prefix=None):
+def pathname2url(s, space='node', prefix=None):
     """Convert a filename into a form that can be used as a link in an
     HTML document.
 
@@ -35,7 +35,7 @@ def pathname2url(s, prefix=None):
     s = re.sub('\:', '%3a', s)
     s = re.sub('\?', '%3f', s)
     if prefix:
-        return prefix + s
+        return prefix + space + '/' + s
     return s
 
 
@@ -48,11 +48,16 @@ def markdown_contents(contents, prefix=None):
         text = match.group(1)
         segments = text.split('|')
         thing = segments[0]
+        space = 'node'  # FIXME hardcoded
+        spaces = thing.split('/')
+        if len(spaces) > 1:
+            space = spaces[0]
+            thing = spaces[1]
         link_text = thing
         if len(segments) > 1:
             link_text = segments[1]
         return '<a href="%s">%s</a>' % (
-            pathname2url(filekey(thing), prefix=prefix), link_text
+            pathname2url(filekey(thing), space=space, prefix=prefix), link_text
         )
     html = markdown.markdown(contents)
     html = re.sub(r'\[\[(.*?)\]\]', linker, html)

@@ -83,9 +83,14 @@ def resolve_internal_links(universe, data, key, property, text):
         link = match.group(1)
         segments = link.split('|')
         thing = segments[0]
-        assert universe.get_namespace_of(thing), \
-            "'%s' mentions undefined '%s' in '%s'" % \
-            (key, thing, property)
+        space = 'node'  # FIXME hardcoded
+        segments = thing.split('/')
+        if len(segments) > 1:
+            space = segments[0]
+            thing = segments[1]
+        assert universe.get(space, {}).get(thing), \
+            "'%s' mentions undefined '%s/%s' in '%s'" % \
+            (key, space, thing, property)
 
 
 def check_chrysoberyl_node(universe, data, key, node):
