@@ -74,14 +74,15 @@ def render(universe, options, config):
         r.render_chrysoberyl_data()
 
 
-def jsonify(universe, data, options, config):
+def jsonify(universe, options, config):
     """Render all nodes to a JSON blob.
 
     """
     json_data = {}
-    for key in data:
-        if not data[key].get('hidden', False):
-            json_data[key] = data[key]
+    space = universe['node']  # FIXME hardcoded
+    for (key, node) in space.iteritems():
+        if not node.get('hidden', False):
+            json_data[key] = node
     filename = os.path.join(config['node']['output_dir'], 'chrysoberyl.json')
     with codecs.open(filename, 'w', 'utf-8') as file:
         json.dump(transform_dates(json_data), file, encoding='utf-8',
