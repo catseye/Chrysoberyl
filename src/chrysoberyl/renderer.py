@@ -80,7 +80,7 @@ class Renderer(object):
         keys to filenames, and is not applicable during {% extends foo %}.
 
         """
-        node = self.universe.get_node(key)
+        node = self.space[key]
         # Mercurial can't handle filenames containing ':' on Windows, so:
         key_filename = re.sub(':', '_', filekey(key))
 
