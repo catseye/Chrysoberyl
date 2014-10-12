@@ -11,38 +11,13 @@ MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
           'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 
-class NameSpace(object):
+class NameSpace(dict):
     def __init__(self, name):
         self.name = name
         self._has_been_converted = False
-        self._dict = {}
-
-    def update(self, dict_):
-        for key in dict_:
-            self._dict[key] = dict_[key]
-
-    def __getitem__(self, key):
-        return self._dict[key]
 
     def __setitem__(self, key, value):
         raise NotImplementedError
-        print "SET: {0}={1}".format(key, value)
-        self._dict[key] = value
-
-    def __delitem__(self, key):
-        raise NotImplementedError
-
-    def __contains__(self, key):
-        return key in self._dict
-
-    def __iter__(self):
-        return self._dict.iterkeys()
-
-    def keys(self):
-        return self._dict.keys()
-
-    def items(self):
-        return self._dict.items()
 
     def convert_chrysoberyl_data(self):
         """Convert all loaded Chrysoberyl data into a form that can be rendered
@@ -55,10 +30,8 @@ class NameSpace(object):
         if self._has_been_converted:
             return
         count = 0
-        data = self._dict
-        for key in data:
+        for (key, node) in self.iteritems():
             count += 1
-            node = data[key]
             new_fields = {}
             for field in node.keys():
                 new_fields[field.replace('-', '_')] = node[field]

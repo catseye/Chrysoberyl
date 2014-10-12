@@ -553,12 +553,10 @@ class Renderer(object):
 
         """
         count = 0
-        for space in self.universe.spaces:
-            for key in space:
-                node = space[key]
-                type_ = node['type']
-                if self.universe.get_node(type_).get('suppress-page-generation', False):
-                    continue
-                self.render_node(key, node)
-                count += 1
+        for (key, node) in self.space.iteritems():
+            type_ = node['type']
+            if self.universe.get_node(type_).get('suppress-page-generation', False):
+                continue
+            self.render_node(key, node)
+            count += 1
         print "%d files written." % count
