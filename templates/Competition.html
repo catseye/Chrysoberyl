@@ -5,7 +5,7 @@
 <h2>All submissions to {{ key }}</h2>
 
 <ul>
-{%- for thing in data.keys()|sort -%}
+{%- for thing in space.keys()|sort -%}
   {%- if get_node(thing).submitted_to -%}
     {%- for submission in get_node(thing).submitted_to -%}
       {%- if submission.competition == key -%}

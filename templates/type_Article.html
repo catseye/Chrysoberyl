@@ -4,7 +4,7 @@
   <ul>
   {%- for thing in articles() -%}
     <li>
-      <b>{{ link(thing) }}</b> ({{ strftime(data[thing].publication_date, "%B %d, %Y") }})
+      <b>{{ link(thing) }}</b> ({{ strftime(get_node(thing).publication_date, "%B %d, %Y") }})
     </li>
   {%- endfor -%}
   </ul>

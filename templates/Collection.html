@@ -18,32 +18,32 @@
     <li>
       <p><b>{{ link(thing) }}</b>
       (
-        {{- link(data[thing].genre) }}
-        {%- if data[thing].platform -%}, {{ link(data[thing].platform) }}{% endif -%}
-        {%- if data[thing].controls -%}, {{ data[thing].controls }}{% endif -%}
+        {{- link(get_node(thing).genre) }}
+        {%- if get_node(thing).platform -%}, {{ link(get_node(thing).platform) }}{% endif -%}
+        {%- if get_node(thing).controls -%}, {{ get_node(thing).controls }}{% endif -%}
       )
       </p>
-      {% if data[thing].description %}
-        {{ md2html(data[thing].description) }}
+      {% if get_node(thing).description %}
+        {{ md2html(get_node(thing).description) }}
       {% endif %}
-      {% if data[thing].commentary %}
-        {{ md2html(data[thing].commentary) }}
+      {% if get_node(thing).commentary %}
+        {{ md2html(get_node(thing).commentary) }}
       {% endif %}
     </li>
   {% endfor %}
   </ol>
 {% else %}
   <ul>
-  {% for thing in data %}
-    {% if data[thing].type in include_types and
-          include_author in data[thing].authors %}
+  {% for thing in space.keys() %}
+    {% if get_node(thing).type in include_types and
+          include_author in get_node(thing).authors %}
       <li>
         <p>{{ link(thing) }}</p>
-        {% if data[thing].description %}
-          {{ md2html(data[thing].description) }}
+        {% if get_node(thing).description %}
+          {{ md2html(get_node(thing).description) }}
         {% endif %}
-        {% if data[thing].commentary %}
-          {{ md2html(data[thing].commentary) }}
+        {% if get_node(thing).commentary %}
+          {{ md2html(get_node(thing).commentary) }}
         {% endif %}
       </li>
     {% endif %}

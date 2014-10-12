@@ -12,15 +12,15 @@
     {% for lang_key in lang_list %}
       <div class="span4">
         <h2>{{ link(lang_key) }}</h2>
-        {% if data[lang_key].description %}
-          {{ md2html(data[lang_key].description) }}
+        {% if get_node(lang_key).description %}
+          {{ md2html(get_node(lang_key).description) }}
         {% endif %}
-        {% if data[lang_key].type == 'Programming Language Family' %}
+        {% if get_node(lang_key).type == 'Programming Language Family' %}
           <ul>
             {% for spec_lang_key in related('member-of', key=lang_key)|sort %}
               {% for impl in related('host-language', key=spec_lang_key)|sort %}
-                {% if 'Chris Pressey' in data[impl].authors and
-                      data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+                {% if 'Chris Pressey' in get_node(impl).authors and
+                      get_node(impl).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
                   <li>{{ link(impl) }}</li>
                 {% endif %}
               {% endfor %}
@@ -29,8 +29,8 @@
         {% else %}
           <ul>
             {% for impl in related('host-language', key=lang_key)|sort %}
-              {% if 'Chris Pressey' in data[impl].authors and
-                    data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+              {% if 'Chris Pressey' in get_node(impl).authors and
+                    get_node(impl).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
                 <li>{{ link(impl) }}</li>
               {% endif %}
             {% endfor %}

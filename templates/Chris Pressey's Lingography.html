@@ -8,17 +8,17 @@
 {% for thing in lingography() %}
   <h4 class="list_entry">
     {{ link(thing) }}
-    <small>{{ data[thing].inception_date }}</small>
+    <small>{{ get_node(thing).inception_date }}</small>
   </h4>
 
   <div class="row-fluid">
     <div class="span8">
-      {% if data[thing].description %}
-        {{ md2html(data[thing].description) }}
+      {% if get_node(thing).description %}
+        {{ md2html(get_node(thing).description) }}
       {% endif %}
       
-      {% if data[thing].commentary %}
-        {{ md2html(data[thing].commentary) }}
+      {% if get_node(thing).commentary %}
+        {{ md2html(get_node(thing).commentary) }}
       {% endif %}
 
       {% if related('implementation_of', key=thing) %}
@@ -28,7 +28,7 @@
             <li>
               <p>
                 {{- link(implementation) }}
-                {% if data[implementation].reference -%}
+                {% if get_node(implementation).reference -%}
                   (the reference implementation)
                 {%- endif %}
               </p>
@@ -59,19 +59,19 @@
     </div>
 
     <div class="span4">
-      {% if data[thing].sample %}
-        <div class="sample">{{ md2html(data[thing].sample, fixed=true) }}</div>
+      {% if get_node(thing).sample %}
+        <div class="sample">{{ md2html(get_node(thing).sample, fixed=true) }}</div>
       {% endif %}
-      {% if data[thing].sample_input %}
+      {% if get_node(thing).sample_input %}
         <p>Input:</p>
-        <div class="sample">{{ md2html(data[thing].sample_input, fixed=true) }}</div>
+        <div class="sample">{{ md2html(get_node(thing).sample_input, fixed=true) }}</div>
       {% endif %}
-      {% if data[thing].sample_output %}
+      {% if get_node(thing).sample_output %}
         <p>Output:</p>
-        <div class="sample">{{ md2html(data[thing].sample_output, fixed=true) }}</div>
+        <div class="sample">{{ md2html(get_node(thing).sample_output, fixed=true) }}</div>
       {% endif %}
-      {% if data[thing].sample_credit %}
-        <p>This sample was written by {{ link(data[thing].sample_credit) }}</p>
+      {% if get_node(thing).sample_credit %}
+        <p>This sample was written by {{ link(get_node(thing).sample_credit) }}</p>
       {% endif %}
       {{ online_buttons(thing) }}
     </div>
@@ -82,34 +82,34 @@
 <h3>Languages I've Implemented</h3>
 
 <ul>
-{%- for thing in data|sort -%}
-  {%- if data[thing].type == 'Implementation' and
-        'Chris Pressey' in data[thing].authors and
-        data[data[thing].implementation_of[0]].type == 'Programming Language' and
-        'Chris Pressey' not in data[data[thing].implementation_of[0]].authors and
-        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
+{%- for thing in space|sort -%}
+  {%- if get_node(thing).type == 'Implementation' and
+        'Chris Pressey' in get_node(thing).authors and
+        get_node(get_node(thing).implementation_of[0]).type == 'Programming Language' and
+        'Chris Pressey' not in get_node(get_node(thing).implementation_of[0]).authors and
+        get_node(thing).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
     <li>
       <p>
         {{ link(thing) }},
-        {{ indefart(data[thing].implementation_type) }}
+        {{ indefart(get_node(thing).implementation_type) }}
         for
-        {{ link(data[thing].implementation_of[0]) }}
+        {{ link(get_node(thing).implementation_of[0]) }}
         in
-        {{ link(data[thing].host_language) }}
-        {% if data[thing].host_platform %}
-          for {{ link(data[thing].host_platform) }}
+        {{ link(get_node(thing).host_language) }}
+        {% if get_node(thing).host_platform %}
+          for {{ link(get_node(thing).host_platform) }}
         {% endif %}
-        {% if data[thing].inception_date %}
-          ({{ data[thing].inception_date }})
+        {% if get_node(thing).inception_date %}
+          ({{ get_node(thing).inception_date }})
         {% endif %}
 
         {{ online_buttons(thing) }}
       </p>
-      {% if data[thing].description %}
-        {{ md2html(data[thing].description) }}
+      {% if get_node(thing).description %}
+        {{ md2html(get_node(thing).description) }}
       {% endif %}
-      {% if data[thing].commentary %}
-        {{ md2html(data[thing].commentary) }}
+      {% if get_node(thing).commentary %}
+        {{ md2html(get_node(thing).commentary) }}
       {% endif %}
     </li>
   {%- endif -%}

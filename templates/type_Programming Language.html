@@ -18,15 +18,15 @@
 
   {%- for thing in related('type')|sort -%}
     {%- if thing not in [] -%}
-      {%- if data[thing].development_stage in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
+      {%- if get_node(thing).development_stage in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
         <tr style="background: #c0c0c0">
       {%- else -%}
         <tr>
       {%- endif -%}
         <td>{{ link(thing) }}</td>
-        <td>{% if "Cat's Eye Technologies" in data[thing].auspices %}yes{% endif %}</td>
-        <td>{{ link(data[thing].genre) }}</td>
-        <td>{{ data[thing].development_stage }}</td>
+        <td>{% if "Cat's Eye Technologies" in get_node(thing).auspices %}yes{% endif %}</td>
+        <td>{{ link(get_node(thing).genre) }}</td>
+        <td>{{ get_node(thing).development_stage }}</td>
         <td>{% for impl in related('implementation-of', key=thing)|sort %}
               {{ link(impl, link_text='X', title=impl) }}
             {% endfor %}</td>
@@ -42,8 +42,8 @@
         <td>
           {%- if ref_dist(key=thing) -%}
             {%- set dist_key = ref_dist(key=thing) -%}
-            {%- if data[dist_key].releases -%}
-              {%- set latest_release = data[dist_key].releases|last -%}
+            {%- if get_node(dist_key).releases -%}
+              {%- set latest_release = get_node(dist_key).releases|last -%}
               <a class="button" href="{{ latest_release.url }}">Download</a>
             {%- endif -%}
           {%- endif -%}

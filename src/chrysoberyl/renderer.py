@@ -114,6 +114,7 @@ class Renderer(object):
         """
         context = node.copy()
         context['key'] = key
+        context['space'] = self.space
         context['sleek_key'] = sleek_key
         context['pathname2url'] = pathname2url
 

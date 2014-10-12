@@ -3,7 +3,7 @@
 {% block index %}
   {%- for thing in related('type')|sort %}
     ★
-    {% if not data[key].suppress_page_generation -%}
+    {% if not get_node(key).suppress_page_generation -%}
       {{- link(thing) -}}
     {%- else -%}
       {{- thing -}}

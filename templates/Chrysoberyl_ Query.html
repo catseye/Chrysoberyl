@@ -22,7 +22,7 @@
 <p id="status">Please wait...</p>
 <div id="buttons">
   <select name="type_selector" id="type_selector">
-    {%- for key, node in data|dictsort -%}
+    {%- for key, node in space|dictsort -%}
       {%- if node.type == 'type' -%}
         <option value="{{ key }}">{{ key }}</option>
       {%- endif -%}
@@ -30,7 +30,7 @@
   </select>
   <select name="author_selector" id="author_selector">
     <option value="(any)">(any)</option>
-    {%- for key, node in data|dictsort -%}
+    {%- for key, node in space|dictsort -%}
       {%- if node.type == 'Individual' -%}
         <option value="{{ key }}">{{ key }}</option>
       {%- endif -%}

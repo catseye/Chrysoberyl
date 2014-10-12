@@ -3,15 +3,15 @@
 {% block index %}
   {%- for thing in related('type')|sort -%}
     <h3>
-      {%- if not data[key].suppress_page_generation -%}
+      {%- if not get_node(key).suppress_page_generation -%}
         {{- link(thing) -}}
       {%- else -%}
         {{- thing -}}
       {%- endif -%}
     </h3>
-    {% if data[thing].subtitle %}
-      <h4>{{ data[thing].subtitle }}</h4>
+    {% if get_node(thing).subtitle %}
+      <h4>{{ get_node(thing).subtitle }}</h4>
     {% endif %}
-    {{ md2html(data[thing].description) }}
+    {{ md2html(get_node(thing).description) }}
   {%- endfor -%}
 {% endblock index %}
