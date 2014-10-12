@@ -23,19 +23,19 @@ def sleek_key(key):
     return re.sub(r'(\/|\\|\#| )', '_', key)
 
 
-def pathname2url(s, space='node', prefix=None):
+def pathname2url(s):
     """Convert a filename into a form that can be used as a link in an
     HTML document.
 
     """
+    # we wrote our own because urllib.pathname2url doesn't handle Unicode well
+    # and actually, ours is just quote, no pathname functionality
     s = re.sub('\%', '%25', s)
     s = re.sub(' ', '%20', s)
     s = re.sub('\"', '%22', s)
     s = re.sub('\#', '%23', s)
     s = re.sub('\:', '%3a', s)
     s = re.sub('\?', '%3f', s)
-    if prefix:
-        return prefix + space + '/' + s
     return s
 
 
@@ -57,7 +57,8 @@ def markdown_contents(contents, prefix=None):
         if len(segments) > 1:
             link_text = segments[1]
         return '<a href="%s">%s</a>' % (
-            pathname2url(filekey(thing), space=space, prefix=prefix), link_text
+            pathname2url((prefix if prefix else '') + filekey(thing)),
+            link_text
         )
     html = markdown.markdown(contents)
     html = re.sub(r'\[\[(.*?)\]\]', linker, html)

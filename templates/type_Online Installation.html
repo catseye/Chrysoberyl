@@ -4,7 +4,7 @@
   <ul>
     {%- for thing in related('type')|sort -%}
       <li>
-        <a href="http://catseye.tc/node/{{ pathname2url(sleek_key(thing)) }}">{{ thing }}</a>
+        {{ link(thing) }}</a>
       </li>
     {%- endfor -%}
   </ul>
