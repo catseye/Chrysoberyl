@@ -165,8 +165,10 @@ def perform(args):
     universe = Universe()
 
     for key in config.keys():
-        if not os.path.isdir(config[key]['output_dir']):
-            raise EnvironmentError("%s is not a directory" % config[key]['output_dir'])
+        try:
+            os.makedirs(config[key]['output_dir'])
+        except OSError:
+            pass
         print "Loading Chrysoberyl '%s' data..." % key
         space = universe.create_namespace(key)
         load_chrysoberyl_dirs(space, config[key]['data_dirs'])
