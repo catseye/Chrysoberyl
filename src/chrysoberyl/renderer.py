@@ -128,8 +128,10 @@ class Renderer(object):
             return self.universe.get_node(key)
 
         @expose
-        def get_space():
-            return self.space
+        def get_space(name=None):
+            if name is None:
+                return self.space
+            return self.universe[name]
 
         @expose
         def md2html(field_contents, prefix=None, fixed=False):

@@ -2,10 +2,12 @@
 
 {% block index %}
   <ul>
-    {%- for thing in related('type')|sort -%}
-      <li>
-        {{ link(thing) }}</a>
-      </li>
+    {%- for (key, node) in get_space(name='installation').iteritems()|sort -%}
+      {% if node.type == 'Online Installation' %}
+        <li>
+          {{ link('installation/' + key) }}</a>
+        </li>
+      {% endif %}
     {%- endfor -%}
   </ul>
 {% endblock index %}

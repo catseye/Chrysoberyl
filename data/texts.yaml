@@ -18,20 +18,10 @@ The Swallows (Markdown):
   license: Unknown license
   host-language: Markdown
   online-locations:
-  - The Swallows (HTML5)
+  - installation/The Swallows
   file-locations:
   - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows.markdown
 
-'The Swallows (HTML5)':
-  type: Online Installation
-  installation-of: The Swallows (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - HTML5
-  github-file-installation: true
 
 The Swallows of Summer:
   type: Text
@@ -49,20 +39,10 @@ The Swallows of Summer (Markdown):
   license: Unknown license
   host-language: Markdown
   online-locations:
-  - The Swallows of Summer (HTML5)
+  - installation/The Swallows of Summer
   file-locations:
   - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows_of_Summer.markdown
 
-'The Swallows of Summer (HTML5)':
-  type: Online Installation
-  installation-of: The Swallows of Summer (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - HTML5
-  github-file-installation: true
 
 Swallows and Sorrows:
   type: Text
@@ -80,20 +60,10 @@ Swallows and Sorrows (Markdown):
   license: Unknown license
   host-language: Markdown
   online-locations:
-  - Swallows and Sorrows (HTML5)
+  - installation/Swallows and Sorrows
   file-locations:
   - https://github.com/catseye/The-Swallows/blob/master/doc/Swallows_and_Sorrows.markdown
 
-'Swallows and Sorrows (HTML5)':
-  type: Online Installation
-  installation-of: Swallows and Sorrows (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - HTML5
-  github-file-installation: true
 
 "Dial 'S' for Swallows":
   type: Text
@@ -111,20 +81,10 @@ Swallows and Sorrows (Markdown):
   license: Unknown license
   host-language: Markdown
   online-locations:
-  - "Dial 'S' for Swallows (HTML5)"
+  - "installation/Dial 'S' for Swallows"
   file-locations:
   - https://github.com/catseye/The-Swallows/blob/master/doc/Dial_S_for_Swallows.markdown
 
-"Dial 'S' for Swallows (HTML5)":
-  type: Online Installation
-  installation-of: "Dial 'S' for Swallows (Markdown)"
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - HTML5
-  github-file-installation: true
 
 
 Nif:
@@ -144,17 +104,7 @@ Nif (Markdown):
   license: Public Domain
   host-language: Markdown
   online-locations:
-  - Nif (HTML5)
+  - installation/Nif
   file-locations:
   - https://gist.github.com/catseye/7336582
 
-'Nif (HTML5)':
-  type: Online Installation
-  installation-of: Nif (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - HTML5
-  github-file-installation: true
