@@ -27,6 +27,7 @@
 {% endif %}
 
 {% block description_verbiage %}
+    {{ online_buttons(key) }}
     <p>This is
       {% if reference %}
         the reference {{ implnoun }}
@@ -97,7 +98,6 @@
         <a href="{{ file_locations[0] }}">{{ file_locations[0] }}</a>.
       {% endif -%}
     </p>
-    {{ online_buttons() }}
     {% if description %}
       {{ md2html(description) }}
     {% endif %}

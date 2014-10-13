@@ -273,8 +273,6 @@ Multicolouralism:
     You certainly *can*, but how much you see them seems to depend on
     several factors (your computer, monitor, lighting, persistence
     of vision, focus and peripheral vision...)
-  online-locations:
-  - 'Multicolouralism (HTML5)'
 
 multicolouralism.js:
   type: Implementation

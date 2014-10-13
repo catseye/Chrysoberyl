@@ -332,8 +332,7 @@ class Renderer(object):
                     link(last, format=format)
                 )
 
-        @expose
-        def online_locations(key=key):
+        def online_locations(key):
             l = self.space[key].get('online-locations', [])
             if l:
                 return l
@@ -344,32 +343,36 @@ class Renderer(object):
         @expose
         def online_buttons(key=key, show_verb_phrase=True):
             html = ''
+            online_locs = []
+            online_locs.extend(online_locations(key))
             for impl in sorted(related('implementation-of', key=key)):
-                node = self.universe.get_node(impl)
-                online_locs = online_locations(impl)
-                if len(online_locs) > 0:
-                    for loc_key in sorted(online_locs):
-                        mediums = self.universe.get_node(loc_key)['mediums']
-                        medium = None
-                        if 'Java applet' in mediums:
-                            medium = 'Java applet'
-                        elif 'HTML5' in mediums:
-                            medium = 'HTML5'
-                        else:
-                            assert False, 'No good medium in ' + \
-                                          ' on '.join(mediums)
-                        if show_verb_phrase:
-                            if self.universe.get_node(key)['type'] == 'Game':
-                                link_text = 'Play'
-                            else:
-                                link_text = 'Try it'
-                            link_text += ' Online (%s)' % medium
-                        else:
-                            link_text = medium
-                        html += link(
-                            loc_key, link_text=link_text,
-                            extra_attr='class="button" '
-                        ) + ' '
+                online_locs.extend(online_locations(impl))
+
+            for loc_key in sorted(online_locs):
+                mediums = self.universe.get_node(loc_key)['mediums']
+                medium = None
+                if 'Java applet' in mediums:
+                    medium = 'Java applet'
+                elif 'HTML5' in mediums:
+                    medium = 'HTML5'
+                else:
+                    assert False, 'No good medium in ' + \
+                                  ' on '.join(mediums)
+                if show_verb_phrase:
+                    node = self.universe.get_node(key)
+                    if node['type'] == 'Game':
+                        link_text = 'Play'
+                    elif node['type'] == 'Musical Composition':
+                        link_text = 'Listen'
+                    else:
+                        link_text = 'Try it'
+                    link_text += ' Online (%s)' % medium
+                else:
+                    link_text = medium
+                html += link(
+                    loc_key, link_text=link_text,
+                    extra_attr='class="button" '
+                ) + ' '
             return html
 
         @expose
