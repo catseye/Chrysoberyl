@@ -97,40 +97,13 @@
         <a href="{{ file_locations[0] }}">{{ file_locations[0] }}</a>.
       {% endif -%}
     </p>
+    {{ online_buttons() }}
     {% if description %}
       {{ md2html(description) }}
     {% endif %}
 {% endblock description_verbiage %}
 
 {% block content %}
-  {% if online_locations|length > 0 %}
-    <section id="online_locations">
-      <h2>Try it Online</h2>
-      <ul>
-        {% for loc in online_locations|sort %}
-          <li>{{ link(loc) }} ({{ get_node(loc).medium }})</li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
-
-  {% if host_language == 'mp3' and download_link -%}
-    <section id="listen_online">
-      <h2>Listen Online (requires Flash)</h2>
-      <p>
-        <embed src="/flash/alonetone_player.swf" width="250" height="20"
-               flashvars="&file={{ download_link }}" />
-      </p>
-    </section>
-  {%- endif -%}
-
-  {% if download_link %}
-    <section id="download">
-      <h2>Download</h2>
-      <p><a class="download" href="{{ download_link }}">{{ download_link }}</a></p>
-    </section>
-  {% endif %}
-
   <section id="dependencies">
     <h2>Dependencies</h2>
     {% if get_node(key).prebuilt_for_platforms and get_node(key).prebuilt_for_platforms[0] == 'native code' %}

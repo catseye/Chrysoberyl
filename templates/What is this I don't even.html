@@ -4,46 +4,45 @@
 {% block content %}
 
 <ul>
-{%- for thing in data|sort -%}
-  {%- if data[thing].type == 'Musical Composition' and
-        "What is this I don't even" in data[thing].auspices and
-        data[thing].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] and
-        related('implementation-of', key=thing) -%}
-    <li>
+{%- for (key, node) in get_space().iteritems()|sort -%}
+  {%- if node.type == 'Musical Composition' and
+        "What is this I don't even" in node.auspices and
+        node.development_stage not in [
+            'idea', 'work in progress', 'abandoned', 'unfinished', 'lost'
+        ] -%}
+    <li> {# and related('implementation-of', key=key) #}
       <p>
-        <strong>{{ link(thing) }}</strong>
-        (<i>{{ link(data[thing].genre, lower=true) }},
-         {{ link(data[thing].composed_on) }},
-         {{ data[thing].inception_date }}</i>)
+        <strong>{{ link(key) }}</strong>
+        (<i>{{ link(node.genre, lower=true) }},
+         {{ link(node.composed_on) }},
+         {{ node.inception_date }}</i>)
         —
-        {% for impl in related('implementation-of', key=thing)|sort %}
-          {% if data[impl].host_language == 'mp3' and 'file-locations' in data[impl] %}
-            <a class="button" href="{{ data[impl].file_locations[0] }}">Listen (MP3)</a>
-          {% endif %}
-        {% endfor %}
+        {{ online_buttons(key) }}
       </p>
-      {% if data[thing].description %}download_link
-        {{ md2html(data[thing].description) }}
+      {% if node.description %}
+        {{ md2html(node.description) }}
       {% endif %}
-      {% if data[thing].commentary %}
-        {{ md2html(data[thing].commentary) }}
+      {% if node.commentary %}
+        {{ md2html(node.commentary) }}
       {% endif %}
     </li>
   {%- endif -%}
 {%- endfor -%}
 </ul>
 
+{# yarrrgh not worth it
+
 <h3>Arrangements</h3>
 
 <ul>
-{%- for impl in data|sort -%}
-  {%- if data[impl].type == 'Implementation' and
-         data[impl].host_language == 'mp3' and 'file-locations' in data[impl] and
-         "What is this I don't even" in data[impl].auspices and
-         "What is this I don't even" not in data[data[impl].implementation_of[0]].auspices and
-         data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] -%}
+{%- for (impl, node) in get_space().iteritems()|sort -%}
+  {%- if node.type == 'Implementation' and
+         node.host_language == 'mp3' and 'file-locations' in node and
+         "What is this I don't even" in node.auspices and
+         "What is this I don't even" not in get_node(node.implementation_of[0]).auspices and
+         node.development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] -%}
     <li>
-      {% set thing = data[impl].implementation_of[0] %}
+      {% set thing = node.implementation_of[0] %}
       <p>
         {{ link(thing) }}
         (<i>{{ link(data[thing].genre, lower=true) }}
@@ -66,5 +65,7 @@
   {%- endif -%}
 {%- endfor -%}
 </ul>
+
+#}
 
 {% endblock content %}

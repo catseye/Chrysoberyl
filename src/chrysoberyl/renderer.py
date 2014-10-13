@@ -333,12 +333,22 @@ class Renderer(object):
                 )
 
         @expose
+        def online_locations(key=key):
+            l = self.space[key].get('online-locations', [])
+            if l:
+                return l
+            if key.endswith(' (mp3)'):
+                return ['installation/' + key[:-6]]
+            return []
+
+        @expose
         def online_buttons(key=key, show_verb_phrase=True):
             html = ''
             for impl in sorted(related('implementation-of', key=key)):
                 node = self.universe.get_node(impl)
-                if len(node.get('online-locations', [])) > 0:
-                    for loc_key in sorted(node['online-locations']):
+                online_locs = online_locations(impl)
+                if len(online_locs) > 0:
+                    for loc_key in sorted(online_locs):
                         mediums = self.universe.get_node(loc_key)['mediums']
                         medium = None
                         if 'Java applet' in mediums:
