@@ -197,10 +197,12 @@ def check_chrysoberyl_node(universe, data, key, node):
     if type_ == 'Online Installation':
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
-        check_list_ref(universe, key, node, 'mediums',
-                       types=('Platform', 'Programming Language',
-                              'Implementation', 'Music Format',
-                              'Image Format', 'Medium'))
+        check_list_ref(
+            universe, key, node, 'mediums', types=(
+                'Platform', 'Programming Language','Implementation',
+                'Music Format', 'Musical Instrument', 'Image Format', 'Medium'
+            )
+        )
         if 'mp3' in node['mediums']:
             if not node.get('exhibits', None):
                 node['exhibits'] = ['Music Exhibit']
