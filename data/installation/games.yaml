@@ -1,0 +1,73 @@
+# encoding: UTF-8
+
+'Bubble Escape':
+  type: Online Installation
+  installation-of: Bubble Escape 2K
+  exhibits:
+  - Computer Games Exhibit
+  - Featured Exhibit
+  interactive: true
+  animated: true
+  mediums:
+  - 6502 machine code
+  - JaC64
+  - Java applet
+  - HTML5
+  summary: |
+    [[Bubble Escape 2K]] is an [[Mini Game Compo 2009|award-winning]]
+    video game where you guide a soap bubble through a multi-screen maze.
+    You can play it online in this applet running [[JaC64]].
+    Use your arrow keys to guide the bubble through the maze.  Avoid the
+    hazards and find the five keys to unlock the exit.
+  description: |
+    [[Bubble Escape 2K]] is a video game where you guide a soap bubble
+    through a multi-screen maze.  Based on the cheesy original written in
+    [[Commodore BASIC 2.0|BASIC]] in the 80's, this version
+    was rewritten in [[Ophis Assembler|6502 assembly]], crunched to fit
+    into 2K, and submitted to the [[Mini Game Compo 2009]], where
+    it got first place in its class.
+
+'Super Wumpus Land':
+  type: Online Installation
+  installation-of: swl.js
+  exhibits:
+  - Computer Games Exhibit
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  summary: |
+    [[Super Wumpus Land]], our "extended dance mix" version of
+    Gregory Yob's [[Hunt the Wumpus]], is playable online in an
+    HTML5 canvas simulating an old-school green-screen terminal.
+  extra-style: |
+    #terminal {
+      background: black;
+      border: 5px solid black;
+    }
+  mainstage-elements: |
+    <canvas id="terminal" width="400" height="400" tabindex="0">
+    Your browser doesn't support displaying an HTML5 canvas.
+    </canvas>
+  javascript-urls:
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/cursor.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield-canvas-view.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/text-terminal.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/line-input-buffer.js
+  - ../modules/super-wumpus-land/impl/swl.js/src/swl.js
+  javascript-main: |
+    var element = document.getElementById('terminal');
+    var t = new yoob.TextTerminal().init(80, 25);
+    var view = t.createPlayfieldCanvasView(element, 11, 18);
+    var swl = new SuperWumpusLand();
+    swl.init(t);
+    var ib = new yoob.LineInputBuffer().init(element, t);
+    ib.onupdate = function(str) { view.draw(); };
+    ib.onenter = function(str) {
+      swl.handleInput(str);
+      view.draw();
+    };
+    view.draw();
+    element.focus();

@@ -377,18 +377,7 @@ class Renderer(object):
 
         @expose
         def online_installations(exhibit_key, key=key):
-            # plz rewrite this. thx. -ed
-            if exhibit_key == 'Music Exhibit':
-                impls = []
-                for (w_key, node) in self.space.iteritems():
-                    if (node['type'] == 'Musical Composition' and
-                        "What is this I don't even" in node.get('auspices', []) and
-                        node['development_stage'] not in ('idea', 'work in progress', 'abandoned', 'unfinished', 'lost')):
-                        for impl in related('implementation-of', key=w_key):
-                            if get_node(impl)['host-language'] == 'mp3':
-                                impls.append(impl)
-                return sorted(impls)
-            elif 'contents' in self.space[exhibit_key]:
+            if 'contents' in self.space[exhibit_key]:
                 return self.space[exhibit_key]['contents']
             else:
                 return sorted([t for t in related('type', key=key)
