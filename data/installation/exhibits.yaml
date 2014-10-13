@@ -546,8 +546,6 @@
     article { margin: 0; }
     #canvas { background: #ccaacc; border: none; }
     #canvas_container { margin: 0; text-align: inherit; }
-  extra-head: |
-    <meta name="viewport" content="width=device-width, user-scalable=no">
   javascript-urls:
   - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
