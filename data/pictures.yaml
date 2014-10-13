@@ -61,19 +61,6 @@ PNG:
   host-language: GIF
   file-locations:
   - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/2.%20Illgola-2/doc/release_notes_girl.gif
-'Illgola-2 - Release Notes Girl (HTML5)':
-  type: Online Installation
-  installation-of: 'Illgola-2 - Release Notes Girl (GIF)'
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink
-  - paper
-  - GIF
-  - HTML5
-  inline-image-installation: true
 
 Illberon Release Notes:
   type: Picture
@@ -86,19 +73,6 @@ Illberon Release Notes:
   host-language: JPEG
   file-locations:
   - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/3.%20Illberon/doc/irl-may.jpg
-'Illberon Release Notes (HTML5)':
-  type: Online Installation
-  installation-of: Illberon Release Notes (JPEG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 pixley.pix as Nested Rectangles:
   type: Picture
@@ -111,17 +85,6 @@ pixley.pix as Nested Rectangles:
   host-language: PNG
   file-locations:
   - http://catseye.tc/images/generated/Pixley.png
-'pixley.pix as Nested Rectangles (HTML5)':
-  type: Online Installation
-  installation-of: pixley.pix as Nested Rectangles (PNG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - PNG
-  - HTML5
-  inline-image-installation: true
 
 'Ink salad No. 1':
   type: Picture
@@ -134,17 +97,6 @@ pixley.pix as Nested Rectangles:
   host-language: PNG
   file-locations:
   - http://catseye.tc/modules/pictures/Ink%20salad%20No.%201.png
-'Ink salad No. 1 (HTML5)':
-  type: Online Installation
-  installation-of: Ink salad No. 1 (PNG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - PNG
-  - HTML5
-  inline-image-installation: true
 
 'Ink salad No. 2':
   type: Picture
@@ -157,17 +109,6 @@ pixley.pix as Nested Rectangles:
   host-language: PNG
   file-locations:
   - http://catseye.tc/modules/pictures/Ink%20salad%20No.%202.png
-'Ink salad No. 2 (HTML5)':
-  type: Online Installation
-  installation-of: Ink salad No. 2 (PNG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - PNG
-  - HTML5
-  inline-image-installation: true
 
 'Ink salad No. 7':
   type: Picture
@@ -180,17 +121,6 @@ pixley.pix as Nested Rectangles:
   host-language: PNG
   file-locations:
   - http://catseye.tc/modules/pictures/Ink%20salad%20No.%207.png
-'Ink salad No. 7 (HTML5)':
-  type: Online Installation
-  installation-of: Ink salad No. 7 (PNG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - PNG
-  - HTML5
-  inline-image-installation: true
 
 'Reader, Hyde Park':
   type: Picture
@@ -203,19 +133,6 @@ pixley.pix as Nested Rectangles:
   host-language: JPEG
   file-locations:
   - http://catseye.tc/modules/pictures/Reader,%20Hyde%20Park.jpg
-'Reader, Hyde Park (HTML5)':
-  type: Online Installation
-  installation-of: Reader, Hyde Park (JPEG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - pencil
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 'Smoker, Hyde Park':
   type: Picture
@@ -228,19 +145,6 @@ pixley.pix as Nested Rectangles:
   host-language: JPEG
   file-locations:
   - http://catseye.tc/modules/pictures/Smoker,%20Hyde%20Park.jpg
-'Smoker, Hyde Park (HTML5)':
-  type: Online Installation
-  installation-of: Smoker, Hyde Park (JPEG)
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - pencil
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 "Reader, St. James's Park":
   type: Picture
@@ -253,19 +157,6 @@ pixley.pix as Nested Rectangles:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Reader, St. James's Park.jpg"
-"Reader, St. James's Park (HTML5)":
-  type: Online Installation
-  installation-of: "Reader, St. James's Park (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - pencil
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 
 Bagpiper, Castlehill:
@@ -279,19 +170,6 @@ Bagpiper, Castlehill:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Bagpiper, Castlehill.jpg"
-"Bagpiper, Castlehill (HTML5)":
-  type: Online Installation
-  installation-of: "Bagpiper, Castlehill (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink
-  - cartridge paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Converser, Princes Street Gardens:
   type: Picture
@@ -304,19 +182,6 @@ Converser, Princes Street Gardens:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Converser, Princes Street Gardens.jpg"
-"Converser, Princes Street Gardens (HTML5)":
-  type: Online Installation
-  installation-of: "Converser, Princes Street Gardens (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink and wash
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Mobile User, The Meadows:
   type: Picture
@@ -329,19 +194,6 @@ Mobile User, The Meadows:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Mobile User, The Meadows.jpg"
-"Mobile User, The Meadows (HTML5)":
-  type: Online Installation
-  installation-of: "Mobile User, The Meadows (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink
-  - construction paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Portfolio Browsers, Parc George Brassens:
   type: Picture
@@ -354,19 +206,6 @@ Portfolio Browsers, Parc George Brassens:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Portfolio Browsers, Parc George Brassens.jpg"
-"Portfolio Browsers, Parc George Brassens (HTML5)":
-  type: Online Installation
-  installation-of: "Portfolio Browsers, Parc George Brassens (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - marker pen
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Reader, Parc George Brassens:
   type: Picture
@@ -379,19 +218,6 @@ Reader, Parc George Brassens:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Reader, Parc George Brassens.jpg"
-"Reader, Parc George Brassens (HTML5)":
-  type: Online Installation
-  installation-of: "Reader, Parc George Brassens (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Reader, Sacre Coeur:
   type: Picture
@@ -404,19 +230,6 @@ Reader, Sacre Coeur:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Reader, Sacre Coeur.jpg"
-"Reader, Sacre Coeur (HTML5)":
-  type: Online Installation
-  installation-of: "Reader, Sacre Coeur (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - pencil
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Converser, Sacre Coeur:
   type: Picture
@@ -429,19 +242,6 @@ Converser, Sacre Coeur:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Converser, Sacre Coeur.jpg"
-"Converser, Sacre Coeur (HTML5)":
-  type: Online Installation
-  installation-of: "Converser, Sacre Coeur (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - fineliner
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 
 Fictional Landscape No. 1:
@@ -455,19 +255,6 @@ Fictional Landscape No. 1:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Fictional Landscape No. 1.jpg"
-"Fictional Landscape No. 1 (HTML5)":
-  type: Online Installation
-  installation-of: "Fictional Landscape No. 1 (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - ink and wash
-  - cartridge paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Fictional Landscape No. 2:
   type: Picture
@@ -480,19 +267,6 @@ Fictional Landscape No. 2:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Fictional Landscape No. 2.jpg"
-"Fictional Landscape No. 2 (HTML5)":
-  type: Online Installation
-  installation-of: "Fictional Landscape No. 2 (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - fineliner
-  - card
-  - JPEG
-  - HTML5
-  inline-image-installation: true
 
 Fictional Landscape No. 3:
   type: Picture
@@ -505,16 +279,3 @@ Fictional Landscape No. 3:
   host-language: JPEG
   file-locations:
   - "http://catseye.tc/modules/pictures/Fictional Landscape No. 3.jpg"
-"Fictional Landscape No. 3 (HTML5)":
-  type: Online Installation
-  installation-of: "Fictional Landscape No. 3 (JPEG)"
-  exhibits:
-  - Pictures Exhibit
-  interactive: false
-  animated: false
-  mediums:
-  - marker pen
-  - paper
-  - JPEG
-  - HTML5
-  inline-image-installation: true
