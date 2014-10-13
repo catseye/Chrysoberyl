@@ -101,6 +101,9 @@ def check_chrysoberyl_node(universe, data, key, node):
     Also, `authors` and `auspices` may be inherited from the implementable
     being implemented.
 
+    Based on 'mediums' on an online installation, installation-of and other
+    things may be auto-populated.
+
     """
     # Every node must have a valid type.
     assert 'type' in node, \
@@ -192,13 +195,19 @@ def check_chrysoberyl_node(universe, data, key, node):
         assert 'article-type' in node
 
     if type_ == 'Online Installation':
-        assert 'exhibit-link' not in node
-        assert 'exhibit' not in node
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
         check_list_ref(universe, key, node, 'mediums',
                        types=('Platform', 'Programming Language',
-                              'Implementation', 'Image Format', 'Medium'))
+                              'Implementation', 'Music Format',
+                              'Image Format', 'Medium'))
+        if 'mp3' in node['mediums']:
+            if not node.get('exhibits', None):
+                node['exhibits'] = ['Music Exhibit']
+            if not node.get('installation-of', None):
+                node['installation-of'] = key + ' (mp3)'
+            node['inline-music-installation'] = True
+            
         check_scalar_ref(universe, key, node, 'installation-of',
                          types=('Implementation',))
         check_list_ref(universe, key, node, 'exhibits',
