@@ -376,14 +376,6 @@ class Renderer(object):
             return html
 
         @expose
-        def online_installations(exhibit_key, key=key):
-            if 'contents' in self.space[exhibit_key]:
-                return self.space[exhibit_key]['contents']
-            else:
-                return sorted([t for t in related('type', key=key)
-                        if exhibit_key in self.space[t]['exhibits']])
-
-        @expose
         def strip_outer_p(text):
             match = re.match(
                 r'^\s*\<p\>\s*(.*?)\s*\<\/p\>\s*$', text,
