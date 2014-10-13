@@ -17,12 +17,12 @@
          {{ data[thing].inception_date }}</i>)
         —
         {% for impl in related('implementation-of', key=thing)|sort %}
-          {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] %}
-            <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
+          {% if data[impl].host_language == 'mp3' and 'file-locations' in data[impl] %}
+            <a class="button" href="{{ data[impl].file_locations[0] }}">Listen (MP3)</a>
           {% endif %}
         {% endfor %}
       </p>
-      {% if data[thing].description %}
+      {% if data[thing].description %}download_link
         {{ md2html(data[thing].description) }}
       {% endif %}
       {% if data[thing].commentary %}
@@ -38,7 +38,7 @@
 <ul>
 {%- for impl in data|sort -%}
   {%- if data[impl].type == 'Implementation' and
-         data[impl].host_language == 'mp3' and 'download-link' in data[impl] and
+         data[impl].host_language == 'mp3' and 'file-locations' in data[impl] and
          "What is this I don't even" in data[impl].auspices and
          "What is this I don't even" not in data[data[impl].implementation_of[0]].auspices and
          data[impl].development_stage not in ['idea', 'work in progress', 'abandoned', 'unfinished', 'lost'] -%}
@@ -52,8 +52,8 @@
            {{ data[thing].inception_date }}
          {%- endif %}</i>)
         —
-        {% if data[impl].host_language == 'mp3' and 'download-link' in data[impl] %}
-          <a class="button" href="{{ data[impl].download_link }}">Listen (MP3)</a>
+        {% if data[impl].host_language == 'mp3' and 'file-locations' in data[impl] %}
+          <a class="button" href="{{ data[impl].file_locations[0] }}">Listen (MP3)</a>
         {% endif %}
       </p>
       {% if data[impl].description %}

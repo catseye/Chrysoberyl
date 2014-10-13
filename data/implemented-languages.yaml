@@ -25,7 +25,8 @@ aubergine.hs:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  download-link: http://esolangs.org/wiki/Aubergine/aubergine.hs
+  file-locations:
+  - http://esolangs.org/wiki/Aubergine/aubergine.hs
 
 
 brainfuck:
@@ -277,7 +278,8 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  download-link: http://esoteric.voxelperfect.net/svn/esofiles/underload/impl/stringie.c
+  file-locations:
+  - http://esoteric.voxelperfect.net/svn/esofiles/underload/impl/stringie.c
 
 
 VALGOL:

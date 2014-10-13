@@ -164,7 +164,8 @@ Two Molecules of a Chip Box in Cosmic Relationship to a Yak (mp3):
   - Two Molecules of a Chip Box in Cosmic Relationship to a Yak
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3"
 
 
 Theme to Nukeball:
@@ -187,7 +188,8 @@ Theme to Nukeball (mp3):
   - Theme to Nukeball
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Theme to Nukeball.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Theme to Nukeball.mp3"
 
 
 Tears on my Catbox:
@@ -209,7 +211,8 @@ Tears on my Catbox (mp3):
   - Tears on my Catbox
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Tears on my Catbox.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Tears on my Catbox.mp3"
 
 
 Untitled Video Game Theme:
@@ -231,7 +234,8 @@ Untitled Video Game Theme (mp3):
   - Untitled Video Game Theme
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Untitled Video Game Theme.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Untitled Video Game Theme.mp3"
 
 
 "Paige's Praise":
@@ -296,7 +300,8 @@ After the Fact (mp3):
   - xmp
   - lame
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - After the Fact.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - After the Fact.mp3"
 
 
 Anagnoresis:
@@ -329,7 +334,8 @@ Anagnoresis (mp3):
   - modplug123
   - lame
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Anagnoresis.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Anagnoresis.mp3"
 
 
 Autumn Kiss:
@@ -359,7 +365,8 @@ Autumn Kiss (mp3):
   host-language: mp3
   converted-from: Autumn Kiss (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Autumn Kiss.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Autumn Kiss.mp3"
 
 
 Drat:
@@ -389,7 +396,8 @@ Drat (mp3):
   host-language: mp3
   converted-from: Drat (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Drat.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Drat.mp3"
 
 
 Go(Figure):
@@ -419,7 +427,8 @@ Go(Figure) [Amiga dance arrangement] (mp3):
   host-language: mp3
   converted-from: Go(Figure) (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [Amiga dance arrangement].mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [Amiga dance arrangement].mp3"
 
 Go(Figure) [JV-30 fusion arrangement] (mp3):
   type: Implementation
@@ -427,7 +436,8 @@ Go(Figure) [JV-30 fusion arrangement] (mp3):
   - Go(Figure)
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [JV-30 fusion arrangement].mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Go(Figure) [JV-30 fusion arrangement].mp3"
 
 
 Panic:
@@ -457,7 +467,8 @@ Panic (mp3):
   host-language: mp3
   converted-from: Panic (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Panic.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Panic.mp3"
 
 
 Popcornish:
@@ -479,7 +490,8 @@ Popcornish (mp3):
   - Popcornish
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Popcornish.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Popcornish.mp3"
 
 
 Rainbird:
@@ -509,7 +521,8 @@ Rainbird (mp3):
   host-language: mp3
   converted-from: Rainbird (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Rainbird.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Rainbird.mp3"
 
 
 Red Quarks:
@@ -539,7 +552,8 @@ Red Quarks (mp3):
   host-language: mp3
   converted-from: Red Quarks (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Red Quarks.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Red Quarks.mp3"
 
 
 Retrograde:
@@ -569,7 +583,8 @@ Retrograde (mp3):
   host-language: mp3
   converted-from: Retrograde (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Retrograde.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Retrograde.mp3"
 
 
 Stella Splendens:
@@ -607,7 +622,8 @@ Stella Splendens [Amiga arrangement] (mp3):
   auspices:
   - What is this I don't even
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Stella Splendens [Amiga arrangement].mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Stella Splendens [Amiga arrangement].mp3"
 
 
 Technodixie:
@@ -629,7 +645,8 @@ Technodixie (mp3):
   - Technodixie
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Technodixie.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Technodixie.mp3"
 
 
 You Drive Me Wild:
@@ -659,7 +676,8 @@ You Drive Me Wild (mp3):
   host-language: mp3
   converted-from: You Drive Me Wild (MED)
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - You Drive Me Wild.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - You Drive Me Wild.mp3"
 
 
 # ... lost ones ... 
@@ -737,7 +755,8 @@ Birdwatching [Amiga arrangement] (mp3):
   - Birdwatching
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Birdwatching [Amiga arrangement].mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Birdwatching [Amiga arrangement].mp3"
 
 Radiance:
   type: Musical Composition
@@ -812,7 +831,8 @@ Ice Jam (mp3):
   - Ice Jam
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Ice Jam.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Ice Jam.mp3"
 
 
 Jack and Jill:
@@ -834,7 +854,8 @@ Jack and Jill (mp3):
   - Jack and Jill
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Jack and Jill.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Jack and Jill.mp3"
 
 
 A Moment in the Sun:
@@ -856,7 +877,8 @@ A Moment in the Sun (mp3):
   - A Moment in the Sun
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - A Moment in the Sun.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - A Moment in the Sun.mp3"
 
 
 Back to the Rain:
@@ -878,7 +900,8 @@ Back to the Rain (mp3):
   - Back to the Rain
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Back to the Rain.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Back to the Rain.mp3"
 
 
 "Zoning Variance #5":
@@ -900,7 +923,8 @@ Back to the Rain (mp3):
   - "Zoning Variance #5"
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Zoning Variance No.5.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Zoning Variance No.5.mp3"
 
 
 Smedley the Medley:
@@ -922,7 +946,8 @@ Smedley the Medley (mp3):
   - Smedley the Medley
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Smedley the Medley.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Smedley the Medley.mp3"
 
 
 ### rendered with timidity++ ###
@@ -947,7 +972,8 @@ Fool (mp3):
   - Fool
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Fool.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Fool.mp3"
 
 
 ### not recorded. ###
@@ -1062,4 +1088,5 @@ Fluorescent Atrocious (mp3):
   - Fluorescent Atrocious
   host-language: mp3
   license: Freely Redistributable
-  download-link: "http://catseye.tc/music/W.i.t.i.d.E - Fluorescent Atrocious.mp3"
+  file-locations:
+  - "http://catseye.tc/music/W.i.t.i.d.E - Fluorescent Atrocious.mp3"

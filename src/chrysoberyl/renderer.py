@@ -360,10 +360,6 @@ class Renderer(object):
                             loc_key, link_text=link_text,
                             extra_attr='class="button" '
                         ) + ' '
-
-                if node['host_language'] == 'mp3' and 'download-link' in node:
-                    html += ('<a class="button" href="%s">Listen (MP3)</a> ' %
-                             node['download_link'])
             return html
 
         @expose

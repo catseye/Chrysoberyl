@@ -185,8 +185,8 @@
         {% if get_node(impl).in_distributions|length > 0 -%}
           in the {{ get_node(impl).in_distributions[0] }}
         {%- endif %}
-        {% if get_node(impl).host_language == 'mp3' and 'download-link' in get_node(impl) -%}
-          <a class="button" href="{{ get_node(impl).download_link }}">Listen (MP3)</a>
+        {% if get_node(impl).host_language == 'mp3' and 'file-locations' in get_node(impl) -%}
+          <a class="button" href="{{ get_node(impl).file_locations[0] }}">Listen (MP3)</a>
         {%- endif %}
       </li>
     {%- endfor -%}
