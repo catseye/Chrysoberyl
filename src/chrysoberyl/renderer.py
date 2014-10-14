@@ -188,11 +188,17 @@ class Renderer(object):
             if '__reference-implementation__' in node:
                 return node['__reference-implementation__']
             ref_i = None
-            for i in related('implementation-of', key=key):
-                if self.universe.get_node(i).get('reference', False):
-                    if ref_i is not None:
-                        raise ValueError("more than one ref_impl of %s" % key)
+            # sigh, special case this for now
+            if node['type'] == 'Picture':
+                for i in related('implementation-of', key=key):
                     ref_i = i
+                    break
+            else:
+                for i in related('implementation-of', key=key):
+                    if self.universe.get_node(i).get('reference', False):
+                        if ref_i is not None:
+                            raise ValueError("more than one ref_impl of %s" % key)
+                        ref_i = i
             node['__reference-implementation__'] = ref_i
             return ref_i
 
@@ -338,6 +344,12 @@ class Renderer(object):
                 return l
             if key.endswith(' (mp3)'):
                 return ['installation/' + key[:-6]]
+            if key.endswith(' (PNG)'):
+                return ['installation/' + key[:-6]]
+            if key.endswith(' (GIF)'):
+                return ['installation/' + key[:-6]]
+            if key.endswith(' (JPEG)'):
+                return ['installation/' + key[:-7]]
             return []
 
         @expose

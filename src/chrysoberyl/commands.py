@@ -181,7 +181,7 @@ def perform(args):
     for command in args:
         func = COMMANDS.get(command, None)
         if func is None:
-            sys.stderr.write("Usage: " + usage())
+            sys.stderr.write("Usage: " + usage() + '\n')
             sys.exit(1)
         print "Executing '%s'..." % command
         # it's expected that func will just raise an exc if it fails

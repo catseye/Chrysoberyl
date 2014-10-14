@@ -292,11 +292,13 @@ def check_chrysoberyl_node(universe, data, key, node):
     # to it here too.
     if type_ in ['Game', 'Programming Language', 'Library', 'Tool',
                  'Platform', 'Conlang', 'Electronics Project', 'Gewgaw',
-                 'Automaton', 'Programming Language Family', 'Text']:
+                 'Automaton', 'Programming Language Family', 'Text',
+                 'Picture']:
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node
-        check_scalar_ref(universe, key, node, 'development-stage',
-                         types=['Development Stage'])
+        if type_ != 'Picture':
+            check_scalar_ref(universe, key, node, 'development-stage',
+                             types=['Development Stage'])
         check_optional_scalar_ref(universe, key, node, 'sample-credit',
                                   'Individual')
         check_optional_scalar_ref(universe, key, node, 'variant-of', type_)

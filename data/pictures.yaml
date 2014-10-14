@@ -140,7 +140,7 @@ pixley.pix as Nested Rectangles:
 'Smoker, Hyde Park (JPEG)':
   type: Implementation
   implementation-of:
-  - Reader, Hyde Park
+  - Smoker, Hyde Park
   license: Unknown license
   host-language: JPEG
   file-locations:
