@@ -1,0 +1,59 @@
+{% extends "type.html" %}
+
+{% macro list_item(thing) -%}
+   {%- if not get_node(get_node(thing).type).suppress_page_generation -%}
+     {{- link(thing) -}}
+     {%- if online_buttons(thing) -%}
+       <p>{{ online_buttons(thing) }}</p>
+     {%- endif -%}
+   {%- else -%}
+     {{- thing -}}
+   {%- endif -%}
+{%- endmacro %}
+
+{% block index %}
+<div class="row-fluid">
+  <div class="span6">
+    <h3>by Cat's Eye Technologies</h3>
+    <ul>
+      {%- for thing in related('type')|sort -%}
+        {% if ("What is this I don't even" in get_node(thing).auspices or
+               "Cat's Eye Technologies" in get_node(thing).auspices) and
+               online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+    <ul>
+      {%- for thing in related('type')|sort -%}
+        {% if ("What is this I don't even" in get_node(thing).auspices or
+               "Cat's Eye Technologies" in get_node(thing).auspices) and
+               not online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>by Our Valued Partners</h3>
+    <ul>
+      {%- for thing in related('type')|sort -%}
+        {% if ("What is this I don't even" not in get_node(thing).auspices and
+               "Cat's Eye Technologies" not in get_node(thing).auspices) and
+               online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>    
+    <ul>
+      {%- for thing in related('type')|sort -%}
+        {% if ("What is this I don't even" not in get_node(thing).auspices and
+               "Cat's Eye Technologies" not in get_node(thing).auspices) and
+               not online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
+{% endblock index %}
