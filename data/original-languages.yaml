@@ -1061,6 +1061,8 @@ Funge-98:
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
+  auspices:
+  - Cat's Eye Technologies
   inception-date: Sep 11, 1998
   development-stage: mature
   computational-class: Turing-complete

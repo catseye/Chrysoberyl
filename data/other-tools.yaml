@@ -32,7 +32,7 @@ make:
   - http://www.gnu.org/software/make/
 
 Parsec:
-  type: Tool
+  type: Library
   specification-link: http://legacy.cs.uu.nl/daan/parsec.html
   development-stage: mature
   links:

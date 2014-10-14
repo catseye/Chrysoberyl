@@ -379,6 +379,8 @@ TPiS:
   summary: Totality-checker for Scheme procedures
   authors:
   - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   description: |
     This is a static analyzer, written in Scheme, which can check if
     given Scheme procedures are total (always terminate, on any input) by
