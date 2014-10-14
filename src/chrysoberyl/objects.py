@@ -19,6 +19,13 @@ class NameSpace(dict):
     def __setitem__(self, key, value):
         raise NotImplementedError
 
+    def fqkeys(self):
+        for key in self.iterkeys():
+            if key.startswith(self.name + '/'):
+                yield key
+            else:
+                yield self.name + '/' + key
+
     def convert_chrysoberyl_data(self):
         """Convert all loaded Chrysoberyl data into a form that can be rendered
         in a Jinja2 template.  This includes rendering fields which are known to
@@ -62,17 +69,6 @@ class Universe(object):
     def spaces(self):
         for (name, space) in self._spaces.iteritems():
             yield space
-
-    def get_namespace_of(self, key):
-        spaces = []
-        for (name, space) in self._spaces.iteritems():
-            if key in space:
-                spaces.append(space)
-        #assert len(spaces) == 1, \
-        #    "key '%s' appears in multiple spaces %r" % (key, [s.name for s in spaces])
-        if not spaces:
-            return None
-        return spaces[0]
 
     def get_space_key_node(self, key):
         in_space = None

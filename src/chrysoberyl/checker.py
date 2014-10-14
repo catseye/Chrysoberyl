@@ -109,7 +109,7 @@ def check_chrysoberyl_node(universe, data, key, node):
     assert 'type' in node, \
         "'%s' does not specify a type" % key
     type_ = node['type']
-    assert universe.get_namespace_of(type_), \
+    assert universe.get_space_key_node(type_), \
         "'%s' specifies undefined type '%s'" % (key, type_)
     type_node = universe.get_node(type_)
     assert type_node.get('type') == 'type', \
