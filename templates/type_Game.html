@@ -1,1 +1,56 @@
-{% extends "type_compressed.html" %}
+{% extends "type.html" %}
+
+{% macro list_item(thing) -%}
+   {%- if not get_node(thing).suppress_page_generation -%}
+     {{- link(thing) -}}
+     {%- if online_buttons(thing) -%}
+       <p>{{ online_buttons(thing) }}</p>
+     {%- endif -%}
+   {%- else -%}
+     {{- thing -}}
+   {%- endif -%}
+{%- endmacro %}
+
+{% block index %}
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      {% if ("What is this I don't even" in get_node(thing).auspices or
+             "Cat's Eye Technologies" in get_node(thing).auspices) and
+             online_buttons(thing) %}
+        <li>{{ list_item(thing) }}</li>
+      {% endif %}
+    {%- endfor -%}
+  </ul>
+
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      {% if ("What is this I don't even" in get_node(thing).auspices or
+             "Cat's Eye Technologies" in get_node(thing).auspices) and
+             not online_buttons(thing) %}
+        <li>{{ list_item(thing) }}</li>
+      {% endif %}
+    {%- endfor -%}
+  </ul>
+
+  <hr>
+
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      {% if ("What is this I don't even" not in get_node(thing).auspices and
+             "Cat's Eye Technologies" not in get_node(thing).auspices) and
+             online_buttons(thing) %}
+        <li>{{ list_item(thing) }}</li>
+      {% endif %}
+    {%- endfor -%}
+  </ul>
+
+  <ul>
+    {%- for thing in related('type')|sort -%}
+      {% if ("What is this I don't even" not in get_node(thing).auspices and
+             "Cat's Eye Technologies" not in get_node(thing).auspices) and
+             not online_buttons(thing) %}
+        <li>{{ list_item(thing) }}</li>
+      {% endif %}
+    {%- endfor -%}
+  </ul>
+{% endblock index %}
