@@ -175,15 +175,30 @@ class Renderer(object):
                     yield nkey
 
         @expose
+        def related_items(relationship, key=key):
+            """Return a list of nodes in the current namespace whose
+            field named by `relationship` contains the given `key`, whether
+            the field is a scalar or a list.  Comparable to a database join.
+
+            """
+            for nkey, node in self.space.iteritems():
+                if node.get('hidden', False):
+                    continue
+                rel = node.get(relationship, None)
+                if rel is None:
+                    continue
+                if rel == key:
+                    yield (nkey, node)
+                elif isinstance(rel, list) and key in rel:
+                    yield (nkey, node)
+
+        @expose
         def impls_for_platform(plat_key, key=key):
-            impls = []
-            for impl in related('implementation-of', key=key):
-                node = self.universe.get_node(impl)
+            for (ikey, node) in related_items('implementation-of', key=key):
                 if (node.get('platform', None) == plat_key or
                     node.get('host_platform', None) == plat_key or
                     node.get('target_platform', None) == plat_key):
-                    impls.append(impl)
-            return impls
+                    yield impl
 
         @expose
         def ref_impl(key=key):
@@ -203,11 +218,11 @@ class Renderer(object):
                     ref_i = i
                     break
             else:
-                for i in related('implementation-of', key=key):
-                    if self.universe.get_node(i).get('reference', False):
+                for (ikey, inode) in related_items('implementation-of', key=key):
+                    if inode.get('reference', False):
                         if ref_i is not None:
                             raise ValueError("more than one ref_impl of %s" % key)
-                        ref_i = i
+                        ref_i = ikey
             node['__reference-implementation__'] = ref_i
             return ref_i
 

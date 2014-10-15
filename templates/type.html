@@ -75,16 +75,7 @@
   {% else %}{# ----- plain ol' non-auspicacial list of things of this type ---#}
     <ul>
       {%- for thing in related('type')|sort -%}
-        <li>
-          {%- if not get_node(key).suppress_page_generation -%}
-            {{- link(thing) -}}
-            {%- if online_buttons(thing) -%}
-              <p>{{ online_buttons(thing) }}</p>
-            {%- endif -%}
-          {%- else -%}
-            {{- thing -}}
-          {%- endif -%}
-        </li>
+        <li>{{ list_item(thing) }}</li>
       {%- endfor -%}
     </ul>
   {% endif %}
