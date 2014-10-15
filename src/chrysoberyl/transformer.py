@@ -39,12 +39,13 @@ def pathname2url(s):
     return s
 
 
-def markdown_contents(contents, prefix=None):
+def markdown_contents(universe, contents, prefix=None):
     """Convert the contents of a field containing markdown and Chrysoberyl
     cross-references (indicated with [[double brackets]]) into HTML.
 
     """
     def linker(match):
+        # TODO: use universe.get_node() etc !!!
         text = match.group(1)
         segments = text.split('|')
         thing = segments[0]
@@ -65,9 +66,9 @@ def markdown_contents(contents, prefix=None):
     return html
 
 
-def markdown_field(data, node, field, prefix=None):
+def markdown_field(universe, data, node, field, prefix=None):
     if field in node:
-        return markdown_contents(node[field], prefix=prefix)
+        return markdown_contents(universe, node[field], prefix=prefix)
     else:
         return None
 

@@ -96,9 +96,9 @@ def announce(universe, options, config):
     space = universe['node']  # FIXME hardcoded
     space.convert_chrysoberyl_data()
     feed_dir = config['node']['feed_dir']
-    make_news_feed(space, feed_dir, 'atom_15_news.xml', limit=15)
-    make_news_feed(space, feed_dir, 'atom_30_news.xml', limit=30)
-    make_news_feed(space, feed_dir, 'atom_all_news.xml')
+    make_news_feed(universe, space, feed_dir, 'atom_15_news.xml', limit=15)
+    make_news_feed(universe, space, feed_dir, 'atom_30_news.xml', limit=30)
+    make_news_feed(universe, space, feed_dir, 'atom_all_news.xml')
 
 
 def catalog(universe, data, options, config):

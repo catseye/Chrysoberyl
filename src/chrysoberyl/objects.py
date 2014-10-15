@@ -70,13 +70,17 @@ class Universe(object):
         for (name, space) in self._spaces.iteritems():
             yield space
 
-    def get_space_key_node(self, key):
+    def get_space_key_node(self, key, default_space=None):
+        if default_space is None:
+            default_space = self['node']  # FIXME a bit hardcoded
         in_space = None
+        # check if space was explicitly given
         for (name, space) in self._spaces.iteritems():
             if key.startswith(space.name + '/'):
                 in_space = space
                 key = key[len(space.name) + 1:]
                 break
+        # make a best guess at the space
         if not in_space:
             possible_spaces = []
             for (name, space) in self._spaces.iteritems():
@@ -85,12 +89,12 @@ class Universe(object):
             if len(possible_spaces) == 1:
                 in_space = possible_spaces[0]
             else:
-                in_space = self['node']  # FIXME hardcoded -- should default to the "current" space, probably
+                in_space = default_space
         assert in_space, "key '%s' not found in any space" % key
         return (in_space, key, in_space[key])
 
-    def get_node(self, key):
-        return self.get_space_key_node(key)[2]
+    def get_node(self, key, default_space=None):
+        return self.get_space_key_node(key, default_space=default_space)[2]
 
 
 class ApproximateDate(object):

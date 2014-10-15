@@ -18,7 +18,7 @@ from chrysoberyl.transformer import filekey, markdown_field, pathname2url
 BASEURL = 'http://catseye.tc/feeds/'
 
 
-def make_news_feed(data, dir, filename, limit=None):
+def make_news_feed(universe, data, dir, filename, limit=None):
     """Generate Atom feeds from Article nodes in the given Chrysoberyl
     data.
 
@@ -36,7 +36,7 @@ def make_news_feed(data, dir, filename, limit=None):
         # Note, these are now done differently from how md2html()
         # is done in the templates elsewhere
         for field_name in ('summary', 'description', 'commentary'):
-            field = markdown_field(data, node, field_name,
+            field = markdown_field(universe, data, node, field_name,
                                    prefix='http://catseye.tc/node/')
             if field is not None:
                 n[field_name + '_html'] = field.encode("ascii",

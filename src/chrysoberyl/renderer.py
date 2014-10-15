@@ -124,8 +124,8 @@ class Renderer(object):
             return fun
 
         @expose
-        def get_node(key=key):
-            return self.universe.get_node(key)
+        def get_node(key=key, space=self.space):
+            return self.universe.get_node(key, default_space=space)
 
         @expose
         def get_space(name=None):
@@ -141,7 +141,7 @@ class Renderer(object):
                 )
                 return markdown.markdown(md)
             else:
-                return markdown_contents(field_contents, prefix=prefix)
+                return markdown_contents(self.universe, field_contents, prefix=prefix)
 
         @expose
         def related(relationship, key=key):
@@ -292,6 +292,7 @@ class Renderer(object):
             divert to a different node.
 
             """
+            orig_key = key
             (space, key, node) = self.universe.get_space_key_node(key)
             type_ = node['type']
             if self.universe.get_node(type_).get('suppress-page-generation', False):
