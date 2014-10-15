@@ -141,7 +141,10 @@ class Renderer(object):
                 )
                 return markdown.markdown(md)
             else:
-                return markdown_contents(self.universe, field_contents, prefix=prefix)
+                return markdown_contents(
+                    self.universe, field_contents, prefix=prefix,
+                    sleek=self.sleek_node_links
+                )
 
         @expose
         def related(relationship, key=key):
