@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 
+{% macro list_item(thing) -%}
+   {%- if not get_node(get_node(thing).type).suppress_page_generation -%}
+     {{- link(thing) -}}
+     {%- if online_buttons(thing) -%}
+       <p>{{ online_buttons(thing) }}</p>
+     {%- endif -%}
+   {%- else -%}
+     {{- thing -}}
+   {%- endif -%}
+{%- endmacro %}
+
 {% block title %}{{ plural(key) }} | Cat's Eye Technologies{% endblock title %}
 
 {% block heading %}
@@ -20,18 +31,61 @@
    put their index into the 'content' block, if they want to appear below
    any images and/or exploit maximum horizontal real estate. #}
 {% block index %}
-  <ul>
-    {%- for thing in related('type')|sort -%}
-      <li>
-        {%- if not get_node(key).suppress_page_generation -%}
-          {{- link(thing) -}}
-          {%- if online_buttons(thing) -%}
-            <p>{{ online_buttons(thing) }}</p>
+  {% if expected_auspices %}
+    <div class="row-fluid">
+      <div class="span6">
+        <h3>by {{ expected_auspices[0] }}</h3>
+        <ul>
+          {%- for thing in related('type')|sort -%}
+            {% if (expected_auspices[0] in get_node(thing).auspices) and
+                   online_buttons(thing) %}
+              <li>{{ list_item(thing) }}</li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+        <ul>
+          {%- for thing in related('type')|sort -%}
+            {% if (expected_auspices[0] in get_node(thing).auspices) and
+                   not online_buttons(thing) %}
+              <li>{{ list_item(thing) }}</li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="span6">
+        <h3>by Our Valued Partners</h3>
+        <ul>
+          {%- for thing in related('type')|sort -%}
+            {% if (not get_node(thing).auspices) and
+                   online_buttons(thing) %}
+              <li>{{ list_item(thing) }}</li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>    
+        <ul>
+          {%- for thing in related('type')|sort -%}
+            {% if (not get_node(thing).auspices) and
+                   not online_buttons(thing) %}
+              <li>{{ list_item(thing) }}</li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  {% else %}{# ----- plain ol' non-auspicacial list of things of this type ---#}
+    <ul>
+      {%- for thing in related('type')|sort -%}
+        <li>
+          {%- if not get_node(key).suppress_page_generation -%}
+            {{- link(thing) -}}
+            {%- if online_buttons(thing) -%}
+              <p>{{ online_buttons(thing) }}</p>
+            {%- endif -%}
+          {%- else -%}
+            {{- thing -}}
           {%- endif -%}
-        {%- else -%}
-          {{- thing -}}
-        {%- endif -%}
-      </li>
-    {%- endfor -%}
-  </ul>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {% endif %}
 {% endblock index %}

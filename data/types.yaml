@@ -230,13 +230,16 @@ Library:
 Tool:
   type: type
   images:
-    - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
+  - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
 Automaton:
   type: type
+  expected-auspices:
+  - Cat's Eye Technologies
+  - Our Valued Partners
   images:
-    - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
+  - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
   type: type
   description: |
@@ -271,6 +274,9 @@ Programming Language:
 
 Musical Composition:
   type: type
+  expected-auspices:
+  - What is this I don't even
+  - Our Valued Partners
   images:
     - url: '/images/illustrations/Accordion_(PSF).jpg'
 
