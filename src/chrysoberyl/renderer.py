@@ -13,10 +13,10 @@ from jinja2.exceptions import TemplateNotFound
 import markdown
 
 from chrysoberyl.loader import load_docs
+from chrysoberyl import transformer
 from chrysoberyl.transformer import (
-    filekey, sleek_key, pathname2url, link, markdown_contents
+    filekey, sleek_key, pathname2url, markdown_contents
 )
-
 
 DOCUMENTATION = None
 
@@ -301,8 +301,10 @@ class Renderer(object):
                 if plural:
                     link_text = _plural(link_text)
                 link_text = format % link_text
-            return link(key, link_text, title=title, extra_attr=extra_attr,
-                        sleek=self.sleek_node_links)
+            return transformer.link(
+                self.universe, key, link_text, title=title,
+                extra_attr=extra_attr, sleek=self.sleek_node_links
+            )
 
         # not the kind you're probably thinking of
         @expose

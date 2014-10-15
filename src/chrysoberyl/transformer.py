@@ -42,13 +42,13 @@ def pathname2url(s):
 def link(universe, key, link_text, title=None, sleek=False, extra_attr='', prefix='../'):
     (space, key, node) = universe.get_space_key_node(key)
     type_ = node['type']
-    if self.universe.get_node(type_).get('suppress-page-generation', False):
+    if universe.get_node(type_).get('suppress-page-generation', False):
         raise KeyError('link to non-page (%s) node %s' % (type_, key))
     title_attr = ''
     if title is not None:
         title_attr = ' title="%s"' % title
     if sleek:
-        href = pathname2url(preifx + space.name + '/' + sleek_key(key))
+        href = pathname2url(prefix + space.name + '/' + sleek_key(key))
     else:
         href = pathname2url(prefix + space.name + '/' + filekey(key))
     return '<a %shref="%s"%s>%s</a>' % (
@@ -56,7 +56,7 @@ def link(universe, key, link_text, title=None, sleek=False, extra_attr='', prefi
     )
 
 
-def markdown_contents(universe, contents, prefix=None):
+def markdown_contents(universe, contents, prefix='../'):
     """Convert the contents of a field containing markdown and Chrysoberyl
     cross-references (indicated with [[double brackets]]) into HTML.
 
@@ -72,7 +72,7 @@ def markdown_contents(universe, contents, prefix=None):
     return html
 
 
-def markdown_field(universe, data, node, field, prefix=None):
+def markdown_field(universe, data, node, field, prefix='../'):
     if field in node:
         return markdown_contents(universe, node[field], prefix=prefix)
     else:
