@@ -3,7 +3,7 @@
 {% block content %}
 
 {% if related('license') %}
-  <h2>Implementations under this License ({{ related('license')|length }})</h2>
+  <h2>Implementations under this License ({{ count(related('license')) }})</h2>
   <ul>
     {% for impl in related('license')|sort %}
       <li>

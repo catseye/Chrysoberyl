@@ -166,7 +166,7 @@
   </ul>
 {% endif %}
 
-{% if related('implementation-of')|length > 0 %}
+{% if not empty(related('implementation-of')) %}
   <h2>{{ implnoun|capitalize }}s</h2>
   <ul>
     {%- for impl in related('implementation-of')|sort -%}

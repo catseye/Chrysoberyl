@@ -147,26 +147,32 @@ class Renderer(object):
                 )
 
         @expose
+        def empty(iterable):
+            for x in iterable:
+                return False
+            return True
+
+        @expose
+        def count(iterable):
+            return len(list(iterable))
+
+        @expose
         def related(relationship, key=key):
-            """Return a list of nodes whose attribute named by `relationship`
-            contains the given `key`, whether the attribute is a scalar or a
-            list.  Comparable to a database join.
+            """Return a list of nodes in the current namespace whose
+            field named by `relationship` contains the given `key`, whether
+            the field is a scalar or a list.  Comparable to a database join.
 
             """
-            objects = []
-            for thing in self.space:
-                if self.space[thing].get('hidden', False):
+            for nkey, node in self.space.iteritems():
+                if node.get('hidden', False):
                     continue
-                rel = self.space[thing].get(relationship, None)
+                rel = node.get(relationship, None)
                 if rel is None:
                     continue
                 if rel == key:
-                    objects.append(thing)
-                    continue
-                if isinstance(rel, list) and key in rel:
-                    objects.append(thing)
-                    continue
-            return objects
+                    yield nkey
+                elif isinstance(rel, list) and key in rel:
+                    yield nkey
 
         @expose
         def impls_for_platform(plat_key, key=key):
@@ -431,9 +437,9 @@ class Renderer(object):
             node = self.universe.get_node(key)
             if 'recommended-implementation' in node:
                 return node['recommended-implementation']
-            impls = related('implementation-of', key=implementable)
-            if len(impls) == 0:
+            if empty(related('implementation-of', key=implementable)):
                 return None
+            impls = [i for i in related('implementation-of', key=implementable)]
             if len(impls) == 1:
                 return impls[0]
             candidates = []
