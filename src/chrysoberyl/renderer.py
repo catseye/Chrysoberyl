@@ -14,7 +14,7 @@ import markdown
 
 from chrysoberyl.loader import load_docs
 from chrysoberyl.transformer import (
-    filekey, sleek_key, pathname2url, markdown_contents
+    filekey, sleek_key, pathname2url, link, markdown_contents
 )
 
 
@@ -292,11 +292,6 @@ class Renderer(object):
             divert to a different node.
 
             """
-            orig_key = key
-            (space, key, node) = self.universe.get_space_key_node(key)
-            type_ = node['type']
-            if self.universe.get_node(type_).get('suppress-page-generation', False):
-                raise KeyError('link to non-page (%s) node %s' % (type_, key))
             if link_text is None:
                 link_text = key
                 if lower:
@@ -306,16 +301,8 @@ class Renderer(object):
                 if plural:
                     link_text = _plural(link_text)
                 link_text = format % link_text
-            title_attr = ''
-            if title is not None:
-                title_attr = ' title="%s"' % title
-            if self.sleek_node_links:
-                href = pathname2url('../' + space.name + '/' + sleek_key(key))
-            else:
-                href = pathname2url('../' + space.name + '/' + filekey(key))
-            return '<a %shref="%s"%s>%s</a>' % (
-                extra_attr, href, title_attr, link_text
-            )
+            return link(key, link_text, title=title, extra_attr=extra_attr,
+                        sleek=self.sleek_node_links)
 
         # not the kind you're probably thinking of
         @expose

@@ -39,28 +39,34 @@ def pathname2url(s):
     return s
 
 
+def link(universe, key, link_text, title=None, sleek=False, extra_attr='', prefix='../'):
+    (space, key, node) = universe.get_space_key_node(key)
+    type_ = node['type']
+    if self.universe.get_node(type_).get('suppress-page-generation', False):
+        raise KeyError('link to non-page (%s) node %s' % (type_, key))
+    title_attr = ''
+    if title is not None:
+        title_attr = ' title="%s"' % title
+    if sleek:
+        href = pathname2url(preifx + space.name + '/' + sleek_key(key))
+    else:
+        href = pathname2url(prefix + space.name + '/' + filekey(key))
+    return '<a %shref="%s"%s>%s</a>' % (
+        extra_attr, href, title_attr, link_text
+    )
+
+
 def markdown_contents(universe, contents, prefix=None):
     """Convert the contents of a field containing markdown and Chrysoberyl
     cross-references (indicated with [[double brackets]]) into HTML.
 
     """
     def linker(match):
-        # TODO: use universe.get_node() etc !!!
         text = match.group(1)
         segments = text.split('|')
-        thing = segments[0]
-        space = 'node'  # FIXME hardcoded
-        spaces = thing.split('/')
-        if len(spaces) > 1:
-            space = spaces[0]
-            thing = spaces[1]
-        link_text = thing
-        if len(segments) > 1:
-            link_text = segments[1]
-        return '<a href="%s">%s</a>' % (
-            pathname2url((prefix if prefix else '') + filekey(thing)),
-            link_text
-        )
+        if len(segments) == 1:
+            segments.append(segments[0])  # omg
+        return link(universe, segments[0], segments[1], prefix=prefix)
     html = markdown.markdown(contents)
     html = re.sub(r'\[\[(.*?)\]\]', linker, html)
     return html
