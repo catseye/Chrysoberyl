@@ -48,9 +48,10 @@ def link(universe, key, link_text, title=None, sleek=False, extra_attr='', prefi
     if title is not None:
         title_attr = ' title="%s"' % title
     if sleek:
-        href = pathname2url(prefix + space.name + '/' + sleek_key(key))
+        key = sleek_key(key)
     else:
-        href = pathname2url(prefix + space.name + '/' + filekey(key))
+        key = filekey(key)
+    href = pathname2url(prefix + space.name + '/' + key)
     return '<a %shref="%s"%s>%s</a>' % (
         extra_attr, href, title_attr, link_text
     )

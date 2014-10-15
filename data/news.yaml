@@ -739,16 +739,16 @@
     Third, I finally got around to implementing [[Thue]].  In [[Ruby]].
     I've been maintaining a distribution of it for so long without contributing
     to it, I felt it was overdue.  And now there is a new release of the
-    [[Thue distribution]].
+    Thue distribution.
     
     Fourth, Keymaker reported a bug with in [[smith.pl]] — and while fixing
     it, I found another fixed that one too, and there has been another release
-    of the [[SMITH distribution]].
+    of the [[SMITH]] distribution.
     
     Lastly, while implementing a truth-machine in [[Ypsilax]] I found a bug
     in [[ypsilax.pl]] too (turns out, in [[Perl]], the *string* `'0'` is false-y.
     It's things like that why I don't code in Perl much anymore.)  So there's
-    a new release of the [[Ypsilax distribution]] too.
+    a new release of the [[Ypsilax]] distribution too.
 
 "Dungeons of Ekileugor: 3,221 bytes of roguelike":
   type: Article

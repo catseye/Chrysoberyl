@@ -134,7 +134,7 @@ class Renderer(object):
             return self.universe[name]
 
         @expose
-        def md2html(field_contents, prefix=None, fixed=False):
+        def md2html(field_contents, prefix='../', fixed=False):
             if fixed:
                 md = '\n'.join(
                     ['    ' + l for l in field_contents.split('\n')]
