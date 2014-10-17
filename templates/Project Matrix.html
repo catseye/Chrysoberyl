@@ -11,24 +11,25 @@
     <th>Development Stage</th>
     <th>Quick Links</th>
   </tr>
-{%- for thing in data|sort -%}
-  {%- if ("What is this I don't even" in data[thing].auspices or
-          "Cat's Eye Technologies" in data[thing].auspices) and
-        data[thing].type != 'Implementation' and
-        not data[thing].variant_of and
-        not (data[thing].type == 'Musical Composition' and not related('implementation-of', key=thing)) and
-        data[thing].development_stage not in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
+{%- for (key, node) in get_space().iteritems()|sort -%}
+  {%- if ("What is this I don't even" in node.auspices or
+          "Cat's Eye Technologies" in node.auspices) and
+        node.type != 'Implementation' and
+        is_current(node) and
+        not node.variant_of and
+        not (node.type == 'Musical Composition' and
+             not related('implementation-of', key=key)) -%}
     <tr>
-      <td><a href="./{{ sleek_key(thing) }}">{{ thing|truncate(length=28) }}</a></td>
-      <td>{{ link(data[thing].type) }}</td>
-      <td>{{ data[thing].inception_date }}</td>
-      <td>{{ data[thing].development_stage }}</td>
+      <td><a href="./{{ sleek_key(key) }}">{{ key|truncate(length=28) }}</a></td>
+      <td>{{ link(node.type) }}</td>
+      <td>{{ node.inception_date }}</td>
+      <td>{{ node.development_stage }}</td>
       <td>
-        {{ online_buttons(thing) }}
-        {% if ref_dist(key=thing) %}
-          {% set dist_key = ref_dist(key=thing) %}
-          {% if data[dist_key].releases %}
-            {% set latest_release = data[dist_key].releases|last %}
+        {{ online_buttons(key) }}
+        {% if ref_dist(key=key) %}
+          {% set dist_key = ref_dist(key=key) %}
+          {% if get_node(dist_key).releases %}
+            {% set latest_release = get_node(dist_key).releases|last %}
             <a class="button" href="{{ latest_release.url }}">Download</a>
           {% endif %}
         {% endif %}

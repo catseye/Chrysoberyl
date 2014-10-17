@@ -216,6 +216,15 @@ class Renderer(object):
                     yield (key, stuff)
 
         @expose
+        def is_current(node):
+            if 'development-stage' not in node:
+                return True
+            return node['development-stage'] not in (
+                'idea', 'work in progress', 'abandoned', 'unfinished',
+                'archived', 'lost',
+            )
+
+        @expose
         def impls_for_platform(plat_key, key=key):
             for (ikey, node) in related_items('implementation-of', key=key):
                 if (node.get('platform', None) == plat_key or

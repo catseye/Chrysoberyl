@@ -20,7 +20,7 @@
             {% for spec_lang_key in related('member-of', key=lang_key)|sort %}
               {% for impl in related('host-language', key=spec_lang_key)|sort %}
                 {% if 'Chris Pressey' in get_node(impl).authors and
-                      get_node(impl).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+                      is_current(get_node(impl)) %}
                   <li>{{ link(impl) }}</li>
                 {% endif %}
               {% endfor %}
@@ -30,7 +30,7 @@
           <ul>
             {% for impl in related('host-language', key=lang_key)|sort %}
               {% if 'Chris Pressey' in get_node(impl).authors and
-                    get_node(impl).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] %}
+                    is_current(get_node(impl)) %}
                 <li>{{ link(impl) }}</li>
               {% endif %}
             {% endfor %}

@@ -7,7 +7,7 @@
 {%- for (key, node) in get_space().iteritems()|sort -%}
   {%- if node.type in ['Tool', 'Library', 'Platform'] and
         'Chris Pressey' in node.authors and
-        node.development_stage not in ['idea', 'work in progress', 'abandoned', 'lost', 'archived'] -%}
+        is_current(node) -%}
     <li>
       <p>{{ link(key) }} 
       (in

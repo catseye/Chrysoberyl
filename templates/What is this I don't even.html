@@ -7,9 +7,7 @@
 {%- for (key, node) in get_space().iteritems()|sort -%}
   {%- if node.type == 'Musical Composition' and
         "What is this I don't even" in node.auspices and
-        node.development_stage not in [
-            'idea', 'work in progress', 'abandoned', 'unfinished', 'lost'
-        ] -%}
+        is_current(node) -%}
     <li> {# and related('implementation-of', key=key) #}
       <p>
         <strong>{{ link(key) }}</strong>

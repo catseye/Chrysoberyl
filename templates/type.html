@@ -48,14 +48,14 @@
       {% endif %}
       <ul>
         {%- for thing in things|sort -%}
-          {% if online_buttons(thing) %}
+          {% if is_current(get_node(thing)) and online_buttons(thing) %}
             <li>{{ list_item(thing) }}</li>
           {% endif %}
         {%- endfor -%}
       </ul>
       <ul>
         {%- for thing in things|sort -%}
-          {% if not online_buttons(thing) %}
+          {% if is_current(get_node(thing)) and not online_buttons(thing) %}
             <li>{{ list_item(thing) }}</li>
           {% endif %}
         {%- endfor -%}

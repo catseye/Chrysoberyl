@@ -18,7 +18,7 @@
 
   {%- for thing in related('type')|sort -%}
     {%- if thing not in [] -%}
-      {%- if get_node(thing).development_stage in ['idea', 'abandoned', 'unfinished', 'lost', 'archived'] -%}
+      {%- if not is_current(get_node(thing)) -%}
         <tr style="background: #c0c0c0">
       {%- else -%}
         <tr>

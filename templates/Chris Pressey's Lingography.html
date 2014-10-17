@@ -87,7 +87,7 @@
         'Chris Pressey' in get_node(thing).authors and
         get_node(get_node(thing).implementation_of[0]).type == 'Programming Language' and
         'Chris Pressey' not in get_node(get_node(thing).implementation_of[0]).authors and
-        get_node(thing).development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
+        is_current(get_node(thing)) -%}
     <li>
       <p>
         {{ link(thing) }},
