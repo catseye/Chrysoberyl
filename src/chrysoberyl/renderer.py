@@ -175,6 +175,17 @@ class Renderer(object):
                     yield nkey
 
         @expose
+        def group_by(iterable, group_by):
+            groups = {}
+            for (nkey, node) in iterable:
+                memberships = node.get(group_by)
+                if not isinstance(memberships, list):
+                    memberships = [memberships]
+                for membership in memberships:
+                    groups.setdefault(membership, []).append(nkey)
+            return groups
+
+        @expose
         def related_items(relationship, key=key):
             """Return a list of nodes in the current namespace whose
             field named by `relationship` contains the given `key`, whether

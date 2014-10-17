@@ -235,9 +235,6 @@ Platform:
   type: type
 Automaton:
   type: type
-  expected-auspices:
-  - Cat's Eye Technologies
-  - Our Valued Partners
   images:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
@@ -274,9 +271,6 @@ Programming Language:
 
 Musical Composition:
   type: type
-  expected-auspices:
-  - What is this I don't even
-  - Our Valued Partners
   images:
     - url: '/images/illustrations/Accordion_(PSF).jpg'
 

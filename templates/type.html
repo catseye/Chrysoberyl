@@ -30,53 +30,28 @@
 {# note: some types will not use the 'index' block for this; they will instead
    put their index into the 'content' block, if they want to appear below
    any images and/or exploit maximum horizontal real estate. #}
+
 {% block index %}
-  {% if expected_auspices %}
-    <div class="row-fluid">
-      <div class="span6">
-        <h3>by {{ expected_auspices[0] }}</h3>
-        <ul>
-          {%- for thing in related('type')|sort -%}
-            {% if (expected_auspices[0] in get_node(thing).auspices) and
-                   online_buttons(thing) %}
-              <li>{{ list_item(thing) }}</li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>
-        <ul>
-          {%- for thing in related('type')|sort -%}
-            {% if (expected_auspices[0] in get_node(thing).auspices) and
-                   not online_buttons(thing) %}
-              <li>{{ list_item(thing) }}</li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>
-      </div>
-      <div class="span6">
-        <h3>by Our Valued Partners</h3>
-        <ul>
-          {%- for thing in related('type')|sort -%}
-            {% if (not get_node(thing).auspices) and
-                   online_buttons(thing) %}
-              <li>{{ list_item(thing) }}</li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>    
-        <ul>
-          {%- for thing in related('type')|sort -%}
-            {% if (not get_node(thing).auspices) and
-                   not online_buttons(thing) %}
-              <li>{{ list_item(thing) }}</li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>
-      </div>
+  {% set collected_auspices = group_by(related_items('type'), 'auspices') %}
+  {% for auspices, things in collected_auspices.iteritems() %}
+  <div class="row-fluid">
+    <div class="span6">
+      <h3>by {{ auspices }}</h3>
+      <ul>
+        {%- for thing in things|sort -%}
+          {% if online_buttons(thing) %}
+            <li>{{ list_item(thing) }}</li>
+          {% endif %}
+        {%- endfor -%}
+      </ul>
+      <ul>
+        {%- for thing in things|sort -%}
+          {% if not online_buttons(thing) %}
+            <li>{{ list_item(thing) }}</li>
+          {% endif %}
+        {%- endfor -%}
+      </ul>
     </div>
-  {% else %}{# ----- plain ol' non-auspicacial list of things of this type ---#}
-    <ul>
-      {%- for thing in related('type')|sort -%}
-        <li>{{ list_item(thing) }}</li>
-      {%- endfor -%}
-    </ul>
-  {% endif %}
+  </div>
+  {% endfor %}
 {% endblock index %}
