@@ -294,7 +294,7 @@ Image Format:
 Gewgaw:
   type: type
   description: |
-    In [[Chrysoberyl]] parlance, a gewgaw is the digital version of a
+    In [[Chrysoberyl]] parlance, a _gewgaw_ is the digital version of a
     bagatelle (music) or a doodle (visual art).  It almost always involves
     visuals (usually animated), sometimes audio, and occasionally interaction.
     It need not be implemented in [[HTML5]], but many of

@@ -17,10 +17,12 @@
   <h1>{{ plural(key) }}</h1>
 {% endblock %}
 
+{% set collected_auspices = group_by(related_items('type'), 'auspices') %}
+
 {% block description_verbiage %}
   {%- if description -%}
     {{- md2html(description) -}}
-  {%- else -%}
+  {%- elif collected_auspices.keys() == [None] %}
     <p>
       This is a list of {{ plural(key)|lower }} with entries in {{ link('Chrysoberyl') }}.
     </p>
@@ -32,11 +34,18 @@
    any images and/or exploit maximum horizontal real estate. #}
 
 {% block index %}
-  {% set collected_auspices = group_by(related_items('type'), 'auspices') %}
-  {% for auspices, things in collected_auspices.iteritems() %}
+  {% for auspices, things in iteritems_sorted_within(
+      collected_auspices, [
+          "Cat's Eye Technologies",
+          "What is this I don't even",
+          "None",
+      ]
+  ) %}
   <div class="row-fluid">
     <div class="span6">
-      <h3>by {{ auspices }}</h3>
+      {% if collected_auspices.keys() != [None] %}
+        <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
+      {% endif %}
       <ul>
         {%- for thing in things|sort -%}
           {% if online_buttons(thing) %}

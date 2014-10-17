@@ -175,17 +175,6 @@ class Renderer(object):
                     yield nkey
 
         @expose
-        def group_by(iterable, group_by):
-            groups = {}
-            for (nkey, node) in iterable:
-                memberships = node.get(group_by)
-                if not isinstance(memberships, list):
-                    memberships = [memberships]
-                for membership in memberships:
-                    groups.setdefault(membership, []).append(nkey)
-            return groups
-
-        @expose
         def related_items(relationship, key=key):
             """Return a list of nodes in the current namespace whose
             field named by `relationship` contains the given `key`, whether
@@ -202,6 +191,29 @@ class Renderer(object):
                     yield (nkey, node)
                 elif isinstance(rel, list) and key in rel:
                     yield (nkey, node)
+
+        @expose
+        def group_by(iterable, group_by):
+            groups = {}
+            for (nkey, node) in iterable:
+                memberships = node.get(group_by)
+                if not isinstance(memberships, list):
+                    memberships = [memberships]
+                for membership in memberships:
+                    groups.setdefault(membership, []).append(nkey)
+            return groups
+
+        @expose
+        def iteritems_sorted_within(assoc, sorts):
+            for key in sorts:
+                if key == 'None':
+                    key = None
+                if key in assoc:
+                    yield (key, assoc[key])
+            for (key, stuff) in sorted(assoc.iteritems()):
+                if key is not None and key not in sorts:
+                    print "Warning: '%s' not in sort keys" % key
+                    yield (key, stuff)
 
         @expose
         def impls_for_platform(plat_key, key=key):

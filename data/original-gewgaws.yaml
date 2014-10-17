@@ -48,7 +48,7 @@ The PETulant Cursor:
   type: Gewgaw
   defining-distribution: C64 Demo Depot
   summary: A tiny C64 "display hack"
-  # inception-date: ca the late eighties
+  inception-date: ca 1989
   authors:
   - Chris Pressey
   auspices:
@@ -73,6 +73,10 @@ The PETulant Cursor distribution:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     This is an animated version of the "non-random walk" on p. 72 of
@@ -106,6 +110,10 @@ Chzrxl:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
@@ -139,6 +147,10 @@ Fibonacci Spiral:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     A spiral made up of semicircles with proportions in the Fibonacci sequence.
@@ -164,6 +176,10 @@ Fingerspelling:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     A simple interactive entertainment, intended to be experienced
@@ -189,6 +205,10 @@ Hirsute Miasma:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     A somewhat eerie computed animation.
@@ -211,6 +231,10 @@ Heronsis hermnonicii:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2013
   summary: |
     An animated "plate" depicting a proto-cohort of *Heronsis hermnonicii*.
@@ -233,6 +257,10 @@ Hypongtrochoid:
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   summary: |
     "Hypongtrochoid" is a portmanteau of
     [hypotrochoid](http://en.wikipedia.org/wiki/Hypotrochoid)
@@ -260,6 +288,10 @@ Multicolouralism:
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   inception-date: 2013
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   summary: |
     Animated op art: an interactive bleeding of colours.
   description: |
@@ -291,6 +323,7 @@ Plea of Thunder:
   type: Gewgaw
   development-stage: not fully complete
   no-specification: true
+  # authors: VARIABLE
   inception-date: 2012
   summary: |
     Conceptual art: A Java applet that you and your friends can own!
@@ -302,6 +335,10 @@ Prairie:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2012
   summary: |
     An animated impressionistic depiction of the prairies.
@@ -320,6 +357,10 @@ Progression:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2012
   summary: |
     Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
@@ -338,6 +379,10 @@ The Frame:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
   inception-date: 2012
   instructions: | 
     Note 1. Green things can be dragged.  
