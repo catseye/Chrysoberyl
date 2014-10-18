@@ -61,6 +61,44 @@
         {% endif %}
       {%- endfor -%}
     </ul>
+    <h4>implemented by {{ auspices }}</h4>
+    <ul>
+      {%- for (implkey, node) in get_space().iteritems()|sort -%}
+        {%- if node.type == 'Implementation' and
+              auspices in node.auspices and
+              get_node(node.implementation_of[0]).type == key and
+              auspices not in get_node(node.implementation_of[0]).auspices and
+              is_current(node) -%}
+          {% set ckey = node.implementation_of[0] %}
+          <li>
+            <p>
+              {{ link(ckey) }} — as {{ link(implkey) }}
+
+              {#
+              in
+              {{ link(node.host_language) }}
+              {% if node.host_platform %}
+                for {{ link(node.host_platform) }}
+              {% endif %}
+              #}
+
+              ({{ node.inception_date }})
+            </p>
+            {% if get_node(ckey).description %}
+              {{ md2html(get_node(ckey).description) }}
+            {% endif %}
+            {% if node.description %}
+              {{ md2html(node.description) }}
+            {% endif %}
+            {#
+            {% if node.commentary %}
+              {{ md2html(node.commentary) }}
+            {% endif %}
+            #}
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
   {% endfor %}
 {% endmacro %}
 
