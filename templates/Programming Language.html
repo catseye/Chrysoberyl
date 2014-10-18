@@ -50,7 +50,7 @@
 
 {% block implementable_content %}
 
-{% if related('native-language') or related('other-languages') %}
+{% if count(related('native-language')) or count(related('other-languages')) %}
   <h2>Supported on Platforms</h2>
   <ul>
     {% for platform in related('native-language') %}
@@ -66,7 +66,7 @@
   </ul>
 {% endif %}
 
-{% if related('host-language') %}
+{% if count(related('host-language')) %}
   <h2>Things written in {{ key }}</h2>
   <ul>
     {% for impl in related('host-language')|sort %}
@@ -83,7 +83,7 @@
   </ul>
 {% endif %}
 
-{% if related('target-language') %}
+{% if count(related('target-language')) %}
   <h2>Compilers targeting {{ key }}</h2>
   <ul>
     {% for impl in related('target-language')|sort %}
@@ -94,7 +94,7 @@
   </ul>
 {% endif %}
 
-{% if related('variant-of') %}
+{% if count(related('variant-of')) %}
   <h2>Variants</h2>
   <ul>
     {% for language in related('variant-of')|sort %}
