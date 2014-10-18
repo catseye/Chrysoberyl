@@ -198,8 +198,6 @@ Fingerspelling:
     If you have a touchscreen, prod the lavender area of the screen with your
     finger.  If you don't have a touchscreen, you may simulate this action
     with your mouse pointer.
-  online-locations:
-  - installation/Fingerspelling
 
 fingerspelling.js:
   type: Implementation

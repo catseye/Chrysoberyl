@@ -9,7 +9,7 @@
 {%- for (key, node) in get_space().iteritems()|sort -%}
   {%- if node.type == 'Game' and
         'Chris Pressey' in node.authors and
-        node.development_stage not in ['idea', 'work in progress', 'abandoned', 'lost'] -%}
+        is_current(node) -%}
     <li>
       <p>
         {{ link(key) }} ({{ node.inception_date }})

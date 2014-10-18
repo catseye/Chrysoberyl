@@ -87,7 +87,7 @@ Bubble Escape distribution:
   auspices:
   - Cat's Eye Technologies
   inception-date: ca Sep 2000
-  development-stage: unfinished
+  development-stage: archival
   description: |
     Corona: Realm of Magic is an unfinished roguelike written in
     [[Perl]].  It was written on top of a framework I was writing at the time that I
