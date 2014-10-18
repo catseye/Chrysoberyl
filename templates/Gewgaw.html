@@ -1,14 +1,1 @@
 {% extends "implementable.html" %}
-
-{# not ideal, but summary is used in slightly different ways on
-   different nodes, so this will do for now #}
-{% block summary %}
-  {%- if summary -%}
-    <section id="summary">
-      {{- md2html(summary) -}}
-    </section>
-  {%- endif -%}
-{% endblock summary %}
-
-{% block implementable_content %}
-{% endblock implementable_content %}

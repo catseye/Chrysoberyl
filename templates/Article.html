@@ -3,9 +3,6 @@
 {% block extra_head %}
   {% if article_type != "announcement" %}
     <style>
-#summary {
-    padding-left: 1em;
-}
 #description {
     padding-left: 1em;
 }
@@ -33,13 +30,15 @@
 
 {# not ideal, but summary is used in slightly different ways on
    different nodes, so this will do for now #}
-{% block summary %}
+
+{%- block description_verbiage -%}
   {%- if summary -%}
     <section id="summary">
       {{- md2html(summary) -}}
     </section>
   {%- endif -%}
-{% endblock summary %}
+  {{ md2html(description) }}
+{%- endblock description_verbiage -%}
 
 {% block content %}
   {% if news_link %}

@@ -155,7 +155,7 @@
   </ul>
 {% endif %}
 
-{% if related('influences') %}
+{% if count(related('influences')) %}
   <h2>Influenced</h2>
   <ul>
     {% for influenced in related('influences')|sort %}
