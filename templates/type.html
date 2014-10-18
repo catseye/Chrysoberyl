@@ -36,69 +36,6 @@
   {% endif %}
 {%- endmacro %}
 
-{% macro list_all_of_type(collected_auspices) %}
-  {% for auspices, things in iteritems_sorted_within(
-      collected_auspices, [
-          "Cat's Eye Technologies",
-          "What is this I don't even",
-          "None",
-      ]
-  ) %}
-    {% if collected_auspices.keys() != [None] %}
-      <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
-    {% endif %}
-    <ul>
-      {%- for thing in keys_sorted_within(things, ordered_within) -%}
-        {% if is_current(get_node(thing)) and online_buttons(thing) %}
-          <li>{{ list_item(thing) }}</li>
-        {% endif %}
-      {%- endfor -%}
-    </ul>
-    <ul>
-      {%- for thing in keys_sorted_within(things, ordered_within) -%}
-        {% if is_current(get_node(thing)) and not online_buttons(thing) %}
-          <li>{{ list_item(thing) }}</li>
-        {% endif %}
-      {%- endfor -%}
-    </ul>
-    {%- set impl_count = count(filter_items(implementations_by_p(key, auspices))) -%}
-    {%- if impl_count > 0 -%}
-      <h4>implemented by {{ auspices }}</h4>
-      <ul>
-        {%- for (implkey, node) in filter_items(implementations_by_p(key, auspices))|sort -%}
-          {% set ckey = node.implementation_of[0] %}
-          <li>
-            <p>
-              {{ link(ckey) }} — as {{ link(implkey) }}
-          
-              {#
-              in
-              {{ link(node.host_language) }}
-              {% if node.host_platform %}
-                for {{ link(node.host_platform) }}
-              {% endif %}
-              #}
-          
-              ({{ node.inception_date }})
-            </p>
-            {% if get_node(ckey).description %}
-              {{ md2html(get_node(ckey).description) }}
-            {% endif %}
-            {% if node.description %}
-              {{ md2html(node.description) }}
-            {% endif %}
-            {#
-            {% if node.commentary %}
-              {{ md2html(node.commentary) }}
-            {% endif %}
-            #}
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-  {%- endfor -%}
-{% endmacro %}
-
 {% block title %}{{ plural(key) }} | Cat's Eye Technologies{% endblock title %}
 
 {% block heading %}
@@ -122,5 +59,71 @@
    any images and/or exploit maximum horizontal real estate. #}
 
 {% block index %}
-  {{ list_all_of_type(collected_auspices) }}
+  {% for auspices, things in iteritems_sorted_within(
+      collected_auspices, [
+          "Cat's Eye Technologies",
+          "What is this I don't even",
+          "None",
+      ]
+  ) %}
+    {% if collected_auspices.keys() != [None] %}
+      <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
+    {% endif %}
+    <ul>
+      {%- for thing in keys_sorted_within(things, ordered_within) -%}
+        {% if is_current(get_node(thing)) and online_buttons(thing)
+              and not (auspices == None and
+                       has_implementation_by_one_of(thing, [
+                           "Cat's Eye Technologies",
+                           "What is this I don't even",
+                       ])) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+      {%- for thing in keys_sorted_within(things, ordered_within) -%}
+        {% if is_current(get_node(thing)) and not online_buttons(thing)
+              and not (auspices == None and
+                       has_implementation_by_one_of(thing, [
+                           "Cat's Eye Technologies",
+                           "What is this I don't even",
+                       ])) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+    {%- set impl_count = count(filter_items(implementations_by_p(key, auspices))) -%}
+    {%- if impl_count > 0 -%}
+      <h4>implemented by {{ auspices }}</h4>
+      <ul>
+        {%- for (implkey, node) in filter_items(implementations_by_p(key, auspices))|sort -%}
+          {% set ckey = node.implementation_of[0] %}
+          <li>
+            <p>
+              {{ link(ckey) }} — as {{ link(implkey) }}
+              {% if node.host_language %}
+                in {{ link(node.host_language) }}
+              {% endif %}
+              {% if node.host_platform %}
+                for {{ link(node.host_platform) }}
+              {% endif %}
+              {% if node.inception_date %}
+                ({{ node.inception_date }})
+              {% endif %}
+            </p>
+            {% if get_node(ckey).description %}
+              {{ md2html(get_node(ckey).description) }}
+            {% endif %}
+            {% if node.description %}
+              {{ md2html(node.description) }}
+            {% endif %}
+            {#
+            {% if node.commentary %}
+              {{ md2html(node.commentary) }}
+            {% endif %}
+            #}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  {%- endfor -%}
 {% endblock index %}

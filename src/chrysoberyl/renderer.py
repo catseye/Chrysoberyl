@@ -264,6 +264,15 @@ class Renderer(object):
             )
 
         @expose
+        def has_implementation_by_one_of(key, auspices):
+            for (ikey, node) in related_items('implementation-of', key=key):
+                iauspices = node.get('auspices', [])
+                for auspice in auspices:
+                    if auspice in iauspices:
+                        return True
+            return False
+
+        @expose
         def impls_for_platform(plat_key, key=key):
             for (ikey, node) in related_items('implementation-of', key=key):
                 if (node.get('platform', None) == plat_key or
