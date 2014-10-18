@@ -316,6 +316,13 @@ Text:
     
     Note that concrete poetry and the like may be
     categorized under Texts, or Pictures, or both.
+  ordered-within:
+  - The Swallows
+  - The Swallows of Summer
+  - Swallows and Sorrows
+  - Dial 'S' for Swallows
+  - Nif
+  
 
 
 # these are implementables too, but that property is less exploited for them

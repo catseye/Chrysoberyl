@@ -47,14 +47,14 @@
         <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
       {% endif %}
       <ul>
-        {%- for thing in things|sort -%}
+        {%- for thing in keys_sorted_within(things, ordered_within) -%}
           {% if is_current(get_node(thing)) and online_buttons(thing) %}
             <li>{{ list_item(thing) }}</li>
           {% endif %}
         {%- endfor -%}
       </ul>
       <ul>
-        {%- for thing in things|sort -%}
+        {%- for thing in keys_sorted_within(things, ordered_within) -%}
           {% if is_current(get_node(thing)) and not online_buttons(thing) %}
             <li>{{ list_item(thing) }}</li>
           {% endif %}

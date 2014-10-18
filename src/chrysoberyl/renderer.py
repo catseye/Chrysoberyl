@@ -212,8 +212,20 @@ class Renderer(object):
                     yield (key, assoc[key])
             for (key, stuff) in sorted(assoc.iteritems()):
                 if key is not None and key not in sorts:
-                    print "Warning: '%s' not in sort keys" % key
+                    #print "Note: '%s' not in sort keys" % key
                     yield (key, stuff)
+
+        @expose
+        def keys_sorted_within(keys, sorts):
+            for key in sorts:
+                if key == 'None':
+                    key = None
+                if key in keys:
+                    yield key
+            for key in sorted(keys):
+                if key is not None and key not in sorts:
+                    #print "Note: '%s' not in sort keys" % key
+                    yield key
 
         @expose
         def is_current(node):

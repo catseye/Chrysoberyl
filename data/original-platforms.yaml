@@ -26,11 +26,9 @@ BefOS:
   influences:
   - Befunge-93
   inception-date: ca 1999
-  development-stage: unfinished
+  development-stage: not fully complete
   dimensionality: 2
   esowiki: BefOS
-  online-locations:
-  - installation/BefOS
 
 BefOS (NASM):
   type: Implementation
