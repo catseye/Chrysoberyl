@@ -423,7 +423,7 @@ transmat:
     lousy protocols (namely FTP), and to minimize transmission time during
     synchronization.
   inception-date: ca 2005
-  development-stage: mature
+  development-stage: archived
 
 transmat (Python):
   type: Implementation

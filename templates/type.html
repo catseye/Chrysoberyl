@@ -6,6 +6,14 @@
     {%- if node.inception_date or online_buttons(thing) -%}
       <p>
         {{- link(thing) -}}
+        {% if count(related('implementation_of', key=thing)) %}
+          (in
+          {% for implementation in related('implementation_of', key=thing) -%}
+            {{ link(get_node(implementation).host_language) -}}
+            {%- if not loop.last %} and {% endif -%}
+          {%- endfor -%}
+          )
+        {% endif %}
         {%- if node.inception_date %}
           ({{ node.inception_date }})
         {% endif %}
