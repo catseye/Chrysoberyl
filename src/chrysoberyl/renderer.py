@@ -157,6 +157,33 @@ class Renderer(object):
             return len(list(iterable))
 
         @expose
+        def filter_items(predicate):
+            """Return a list of (key, node) pairs in the current namespace
+            for which the given predicate returns True.
+
+            """
+            for nkey, node in self.space.iteritems():
+                if predicate(node):
+                    yield (nkey, node)
+
+        @expose
+        def implementations_by_p(type_, auspice):
+            def f(node):
+                if 'implementation-of' not in node:
+                    return False
+                cnode = get_node(node['implementation-of'][0])
+                if cnode['type'] != type_:
+                    return False
+                if 'auspices' in cnode and auspice in cnode['auspices']:
+                    return False
+                if 'auspices' not in node:
+                    return False
+                if auspice not in node['auspices']:
+                    return False
+                return True
+            return f
+
+        @expose
         def related(relationship, key=key):
             """Return a list of nodes in the current namespace whose
             field named by `relationship` contains the given `key`, whether
@@ -176,7 +203,7 @@ class Renderer(object):
 
         @expose
         def related_items(relationship, key=key):
-            """Return a list of nodes in the current namespace whose
+            """Return a list of (key, node) pairs in the current namespace whose
             field named by `relationship` contains the given `key`, whether
             the field is a scalar or a list.  Comparable to a database join.
 
