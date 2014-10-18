@@ -224,6 +224,9 @@ Game:
   - url: http://www.dadgum.com/halcyon/
     title: Halcyon Days
     description: Interviews with Classic Computer and Video Game Programmers
+  see-also:
+  - Chris Pressey's Favourite Video Games
+  - Chris Pressey's Favourite Text Adventures
 
 Library:
   type: type
