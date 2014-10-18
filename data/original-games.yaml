@@ -17,7 +17,7 @@ Bubble Escape:
     "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
     where (surprisingly, to me!) it got first place in its class.
   images:
-    - url: 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
+    - url: '../modules/bubble-escape/images/bubble%20escape%202k.png'
 
 Bubble Escape (BASIC):
   type: Implementation
@@ -48,7 +48,7 @@ Bubble Escape 2K:
   - competition: Mini Game Compo 2009
     prize: 1st place in 2K category
   images:
-    - url: 'https://raw.github.com/catseye/Bubble-Escape/master/images/bubble%20escape%202k.png'
+    - url: '../modules/bubble-escape/images/bubble%20escape%202k.png'
   online-locations:
   - installation/Bubble Escape
 
@@ -94,7 +94,7 @@ Bubble Escape distribution:
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
     Entertainment Modules.)
   images:
-    - url: 'https://raw.github.com/catseye/Corona-Realm-of-Magic/master/doc/carpe_ss2.gif'
+    - url: '../modules/corona-realm-of-magic/doc/carpe_ss2.gif'
 
 'Corona: Realm of Magic (Perl)':
   type: Implementation
@@ -139,7 +139,7 @@ Dungeons of Ekileugor:
     monsters, treasure, potions, traps, chests, combat with experience points,
     etc.
   images:
-    - url: 'https://raw.github.com/catseye/Dungeons-of-Ekileugor/master/images/dungeons-of-ekileugor.png'
+    - url: '../modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png'
 
 Dungeons of Ekileugor (BASIC):
   type: Implementation
@@ -176,7 +176,7 @@ Super Wumpus Land:
   description: |
     Super Wumpus Land is an "extended dance mix" version of [[Hunt the Wumpus]].
   images:
-    - url: 'https://raw.github.com/catseye/Super-Wumpus-Land/master/images/Super%20Wumpus%20Land.png'
+    - url: '../modules/super-wumpus-land/images/Super%20Wumpus%20Land.png'
 
 swl.pl:
   type: Implementation
