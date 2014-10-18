@@ -23,10 +23,9 @@
           {%- else -%}
             {%- for thing in get_space().keys()|sort -%}
               {%- if 'Chris Pressey' in get_node(thing).authors and
-                    get_node(thing).development_stage not in
-                      ['idea', 'work in progress', 'abandoned', 'lost'] -%}
+                     is_current(get_node(thing)) -%}
                 {%- set impls = impls_for_platform(plat_key, key=thing) -%}
-                {%- if impls -%}
+                {%- if count(impls) -%}
                    <li>
                      <p>{{ link(thing) }}</p>
                      {% if get_node(thing).description %}

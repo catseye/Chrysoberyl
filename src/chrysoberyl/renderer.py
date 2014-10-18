@@ -278,7 +278,7 @@ class Renderer(object):
                 if (node.get('platform', None) == plat_key or
                     node.get('host_platform', None) == plat_key or
                     node.get('target_platform', None) == plat_key):
-                    yield impl
+                    yield ikey
 
         @expose
         def ref_impl(key=key):
