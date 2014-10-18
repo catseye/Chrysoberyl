@@ -1,45 +1,68 @@
 {% extends "base.html" %}
 
 {% macro list_item(thing) -%}
-   {% set node = get_node(thing) %}
-   {%- if not get_node(node.type).suppress_page_generation -%}
-     {{- link(thing) -}}
-     {%- if node.inception_date or online_buttons(thing) -%}
-       <p>
-         {%- if node.inception_date %}
-           ({{ node.inception_date }})
-         {% endif %}
-         {{ online_buttons(thing) }}
-       </p>
-     {%- endif -%}
-   {%- else -%}
-     {{- thing -}}
-   {%- endif -%}
-
-   {% if node.images %}
-     <div class="row-fluid">
-       <div class="span8">
-         {% if node.description %}
-           {{ md2html(node.description) }}
-         {% endif %}
-       </div>
-       <div class="span4">
-         {% for image in node.images %}
-           <img src="{{ image.url }}">
-         {% endfor %}
-       </div>
-     </div>
-   {% elif node.description %}
-     {{ md2html(node.description) }}
-   {% endif %}
-
-   {#   
-   {% if node.commentary %}
-     {{ md2html(node.commentary) }}
-   {% endif %}
-   #}
-
+  {% set node = get_node(thing) %}
+  {%- if not get_node(node.type).suppress_page_generation -%}
+    {%- if node.inception_date or online_buttons(thing) -%}
+      <p>
+        {{- link(thing) -}}
+        {%- if node.inception_date %}
+          ({{ node.inception_date }})
+        {% endif %}
+        {{ online_buttons(thing) }}
+      </p>
+    {%- else -%}
+      {{- link(thing) -}}
+    {%- endif -%}
+  {%- else -%}
+    {{- thing -}}
+  {%- endif -%}
+  
+  {% if node.images %}
+    <div class="row-fluid">
+      <div class="span8">
+        {% if node.description %}
+          {{ md2html(node.description) }}
+        {% endif %}
+      </div>
+      <div class="span4">
+        {% for image in node.images %}
+          <img src="{{ image.url }}">
+        {% endfor %}
+      </div>
+    </div>
+  {% elif node.description %}
+    {{ md2html(node.description) }}
+  {% endif %}
 {%- endmacro %}
+
+{% macro list_all_of_type(collected_auspices) %}
+  {% for auspices, things in iteritems_sorted_within(
+      collected_auspices, [
+          "Cat's Eye Technologies",
+          "What is this I don't even",
+          "None",
+      ]
+  ) %}
+    {% if collected_auspices.keys() != [None] %}
+      <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
+    {% endif %}
+    <ul>
+      {%- for thing in keys_sorted_within(things, ordered_within) -%}
+        {% if is_current(get_node(thing)) and online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+    <ul>
+      {%- for thing in keys_sorted_within(things, ordered_within) -%}
+        {% if is_current(get_node(thing)) and not online_buttons(thing) %}
+          <li>{{ list_item(thing) }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+  {% endfor %}
+{% endmacro %}
 
 {% block title %}{{ plural(key) }} | Cat's Eye Technologies{% endblock title %}
 
@@ -64,29 +87,5 @@
    any images and/or exploit maximum horizontal real estate. #}
 
 {% block index %}
-  {% for auspices, things in iteritems_sorted_within(
-      collected_auspices, [
-          "Cat's Eye Technologies",
-          "What is this I don't even",
-          "None",
-      ]
-  ) %}
-  {% if collected_auspices.keys() != [None] %}
-    <h3>by {% if auspices == None %}Our Valued Partners{% else %}{{ auspices }}{% endif %}</h3>
-  {% endif %}
-  <ul>
-    {%- for thing in keys_sorted_within(things, ordered_within) -%}
-      {% if is_current(get_node(thing)) and online_buttons(thing) %}
-        <li>{{ list_item(thing) }}</li>
-      {% endif %}
-    {%- endfor -%}
-  </ul>
-  <ul>
-    {%- for thing in keys_sorted_within(things, ordered_within) -%}
-      {% if is_current(get_node(thing)) and not online_buttons(thing) %}
-        <li>{{ list_item(thing) }}</li>
-      {% endif %}
-    {%- endfor -%}
-  </ul>
-  {% endfor %}
+  {{ list_all_of_type(collected_auspices) }}
 {% endblock index %}
