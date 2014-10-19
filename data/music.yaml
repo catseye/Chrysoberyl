@@ -143,6 +143,7 @@ The Biftek Shuffle:
   auspices:
   - What is this I don't even
   development-stage: vintage
+  hidden: true
 
 
 Two Molecules of a Chip Box in Cosmic Relationship to a Yak:
@@ -789,25 +790,6 @@ Foxcub:
   - What is this I don't even
 
 
-# art music...
-
-Sardonyx:
-  type: Musical Composition
-  domain: What is this I don't even
-  genre: Experimental music
-  format: Overture
-  inception-date: ca 1994
-  composed-on: Amiga 500
-  using-software: DMCS
-  development-stage: mature
-  instrumentation:
-  - Orchestra
-  authors:
-  - Chris Pressey
-  auspices:
-  - What is this I don't even
-  
-
 ###### Cakewalk ######
 
 # Recorded from the JV-30 synthesizer itself:
@@ -1023,6 +1005,21 @@ Osborne Village:
 
 # art music
 
+Sardonyx:
+  type: Musical Composition
+  domain: Chris Pressey
+  genre: Experimental music
+  format: Overture
+  inception-date: ca 1994
+  composed-on: Amiga 500
+  using-software: DMCS
+  development-stage: mature
+  instrumentation:
+  - Orchestra
+  authors:
+  - Chris Pressey
+  hidden: true
+
 String Quartet:
   type: Musical Composition
   genre: Chamber music
@@ -1037,6 +1034,7 @@ String Quartet:
   composed-on: Roland JV-30
   using-software: Cakewalk
   development-stage: mature
+  hidden: true
 
 Rest Assured:
   type: Musical Composition
@@ -1052,6 +1050,7 @@ Rest Assured:
   composed-on: Roland JV-30
   using-software: Cakewalk
   development-stage: mature
+  hidden: true
 
 Interlude for Harp:
   type: Musical Composition
@@ -1064,6 +1063,7 @@ Interlude for Harp:
   composed-on: Roland JV-30
   using-software: Cakewalk
   development-stage: mature
+  hidden: true
 
 
 ### recent stuff ###
