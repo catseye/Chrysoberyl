@@ -449,6 +449,9 @@ tc.catseye.yoob.lnusp:
 1L:
   type: Programming Language Family
   genre: Esolang
+  description: |
+    1L is a family of two-dimensional esolangs which
+    have "only one" instruction.
   paradigms:
   - 2-dimensional
   esowiki: 1L

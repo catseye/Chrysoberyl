@@ -3,6 +3,8 @@ POSIX:
   type: Platform
   wikipedia: POSIX
   specification-link: https://www2.opengroup.org/ogsys/catalog/T101
+  description: |
+    An idealistic project to standardize Unix which almost sort-of succeeded.
   development-stage: mature
   # sigh
   native-language: x86 machine code
@@ -35,6 +37,10 @@ Linux:
   generally-recommended: true
   prebuilt-for-platforms:
   - IBM PC compatible
+  references:
+  - url: http://www.mpeforth.com/arena/cwgtLinux.txt
+    title: cwgtLinux
+    description: Compiler Writer's Guide to Linux
 
 FreeBSD:
   type: Implementation
@@ -143,6 +149,8 @@ MS-DOS Batchfile:
 
 Windows:
   type: Platform
+  description: |
+    An operating system of some kind.  You may have heard of it?
   standards-body: http://microsoft.com/
   development-stage: mature
   native-language: x86 machine code
@@ -186,6 +194,9 @@ VBScript:
 
 AmigaDOS 1.3:
   type: Platform
+  description: |
+    This is the version of Amiga's operating system which was current
+    when the [[Amiga 500]] was a really popular video-gaming home computer.
   wikipedia: AmigaDOS
   specification-link: 'http://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf'
   development-stage: vintage
@@ -209,6 +220,10 @@ Java applet:
   specification-link: http://www.oracle.com/technetwork/java/index.html
   # oh, were that i could say that this was accurate.  oh well:
   development-stage: mature
+  description: |
+    A curious contrivance wherein a computer program, written in Java, runs
+    safely within the confines of your web browser, after you have clicked
+    through a number of "I understand that this may be dangerous" dialogs.
   # actually, "JVM bytecode", but we can live with this fudge I'm sure
   native-language: Java
   other-languages: []

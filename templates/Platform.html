@@ -14,7 +14,7 @@
   </ul>
 {% endif %}
 
-{% if related('platform') or related('host-platform') %}
+{% if count(related('platform')) or count(related('host-platform')) %}
   <h2>Known Things for this Platform</h2>
   <ul>
   {% for thing in related('platform')|sort %} {# games, generally ... #}

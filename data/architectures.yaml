@@ -160,6 +160,8 @@ Commodore VIC-20:
 IBM PC compatible:
   type: Platform
   # there are just so many damn specifications I could point to... for now:
+  description: |
+    The computer architecture that just wouldn't die.  You may have heard of it?
   no-specification: true
   development-stage: mature
   wikipedia: IBM PC compatible
@@ -284,6 +286,8 @@ Atari 2600 VCS:
   development-stage: vintage
   native-language: 6502 machine code
   other-languages: []
+  description: |
+    A home video game system of old.  You may have heard of it?
 
 Nintendo GameCube:
   type: Platform
@@ -291,6 +295,8 @@ Nintendo GameCube:
   development-stage: mature
   native-language: native code
   other-languages: []
+  description: |
+    A home video game system of some kind.  You may have heard of it?
 
 Sony PlayStation:
   type: Platform
@@ -298,6 +304,8 @@ Sony PlayStation:
   development-stage: mature
   native-language: native code
   other-languages: []
+  description: |
+    A home video game system of old.  You may have heard of it?
 
 Z-Machine:
   type: Platform
@@ -305,3 +313,5 @@ Z-Machine:
   development-stage: vintage
   native-language: native code
   other-languages: []
+  description: |
+    A portable system for interactive fiction.

@@ -55,6 +55,12 @@ ANSI C:
   - url: http://sdcc.sourceforge.net/
     title: SDCC
     description: Small Device C Compiler
+  - url: http://mingw.sourceforge.net/
+    title: MinGW
+    description: Headers, import libraries, and Windows runtime
+  - url: http://www.delorie.com/howto/cygwin/mno-cygwin-howto.html
+    title: -mno-cygwin
+    description: Building MinGW Executables using Cygwin
 
 Assembly:
   type: Programming Language Family
@@ -79,7 +85,9 @@ BASIC:
   development-stage: vintage
   # ehhhh close enough
   specification-link: http://en.wikipedia.org/wiki/BASIC
-
+  description: |
+    Popularized by the rash of 8-bit home microcomputers in the 80's,
+    BASIC stands for "Beginner's All-purpose Symbolic Instruction Code."
 
 Borland C:
   type: Programming Language
@@ -631,6 +639,10 @@ Scheme:
   description: |
     Scheme is a simple programming language with an extremely regular syntax
     and a succinct, well-defined semantics.
+  references:
+  - url: http://pobox.com/~oleg/ftp/
+    title: Oleg Kiselyov's Projects
+    description: Algorithms, Theorems, Functional Programming, ...
 
 plt-r5rs:
   type: Implementation
