@@ -134,7 +134,6 @@ Distribution:
 # implementables:
 Game:
   type: type
-  exhibit_id: games_exhibit
   description: |
     A game is anything you can play, but most of these are meant
     to be played on a computer.  Some can even be played online
@@ -202,7 +201,6 @@ Automaton:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
   type: type
-  exhibit_id: esolangs_exhibit
   description: |
     This is a matrix of all the programming languages known to [[Chrysoberyl]],
     collating them with known implementations of those languages, and things
@@ -248,7 +246,6 @@ Musical Composition:
     Many of these tunes can be listened to online, if you have a
     web browser that supports [[HTML5]] [[mp3]] audio or if you
     have an Adobe Flash™ plugin.
-  exhibit_id: music_exhibit
   images:
   - url: '/images/illustrations/Accordion_(PSF).jpg'
   references:
@@ -266,7 +263,6 @@ Music Format:
 
 Picture:
   type: type
-  exhibit_id: pictures_exhibit
   description: |
     Pictures — drawings, paintings, photos, computer-generated images, whatever.
     
@@ -292,7 +288,6 @@ Image Format:
 
 Gewgaw:
   type: type
-  exhibit_id: gewgaws_exhibit
   description: |
     In [[Chrysoberyl]] parlance, a _gewgaw_ is the digital version of a
     bagatelle (music) or a doodle (visual art).  It almost always involves
