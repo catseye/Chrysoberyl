@@ -99,7 +99,7 @@ Programming Language Family:
   type: type
   description: |
     Note that the precise distinctions between a [[Programming Language]],
-    a [[Programming Language Family]], and an [[Automaton]]
+    a Programming Language Family, and an [[Automaton]]
     are debatable, and entries may be categorized somewhat arbitrarily.
 
 # implementations:
@@ -136,9 +136,15 @@ Game:
   type: type
   exhibit_id: games_exhibit
   description: |
-    [[Game]]s which you can play online.  Some games are for
-    the [[Commodore 64]], and these ones are web-enabled by the
-    [[JaC64]] Java™ applet.
+    A game is anything you can play, but most of these are meant
+    to be played on a computer.  Some can even be played online
+    here, in your web browser.
+    
+    Note that the distinctions between a Game and a [[Gewgaw]]
+    or even an [[Automaton]] are not always clear, and entries
+    here may be categorized somewhat arbitrarily.
+  # [[Commodore 64]], and these ones are web-enabled by the
+  # [[JaC64]] Java™ applet.
   references:
   - url: http://umlautllama.com/searchlist.php?All=ColinMochrie
     title: Scott Lawrence's Projects
@@ -161,6 +167,9 @@ Game:
   - url: http://www.dadgum.com/halcyon/
     title: Halcyon Days
     description: Interviews with Classic Computer and Video Game Programmers
+  - url: http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/
+    title: MOMA
+    description: Video Games on Exhibit
   see-also:
   - Chris Pressey's Favourite Video Games
   - Chris Pressey's Favourite Text Adventures
@@ -168,26 +177,26 @@ Game:
 Library:
   type: type
   description: |
-    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a Library
     are debatable, and entries may be categorized somewhat arbitrarily.
 Tool:
   type: type
   description: |
-    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    Note that the precise distinctions between a Tool, a [[Platform]], and a [[Library]]
     are debatable, and entries may be categorized somewhat arbitrarily.
   images:
   - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
   description: |
-    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    Note that the precise distinctions between a [[Tool]], a Platform, and a [[Library]]
     are debatable, and entries may be categorized somewhat arbitrarily.
 
 Automaton:
   type: type
   description: |
     Note that the precise distinctions between a [[Programming Language]],
-    a [[Programming Language Family]], and an [[Automaton]]
+    a [[Programming Language Family]], and an Automaton
     are debatable, and entries may be categorized somewhat arbitrarily.
   images:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
@@ -195,17 +204,17 @@ Programming Language:
   type: type
   exhibit_id: esolangs_exhibit
   description: |
-    [[Esolang|Esoteric programming languages]] with which you
-    can experiment.  By selecting sample
-    programs and watching them run, you can gain an appreciation of how the
-    esolang works; by composing your own programs, you can gain an
-    even better appreciation.
-
     This is a matrix of all the programming languages known to [[Chrysoberyl]],
     collating them with known implementations of those languages, and things
     known to be implemented in those languages.
     
-    Note that the precise distinctions between a [[Programming Language]],
+    Some of these languages have interpreters that can run online,
+    in your web browser.  By selecting sample
+    programs and watching them run, you can gain an appreciation of how the
+    language works; by composing your own programs, you can gain an
+    even better appreciation.
+    
+    Note that the precise distinctions between a Programming Language,
     a [[Programming Language Family]], and an [[Automaton]]
     are debatable, and entries may be categorized somewhat arbitrarily.
     
@@ -214,7 +223,7 @@ Programming Language:
     materials from some other page:
     
     * [[Chris Pressey's Lingography]]
-    * [[Esolang]]
+    * [[Esolang]] (and [[LoUIE]])
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
   images:
@@ -236,10 +245,9 @@ Programming Language:
 Musical Composition:
   type: type
   description: |
-    All of the [[Musical Composition|musical compositions]] by
-    [[What is this I don't even]] for which we have [[mp3|MP3's]]
-    on this website.  You can play them online here if you have
-    a Flash player in your browser.
+    Many of these tunes can be listened to online, if you have a
+    web browser that supports [[HTML5]] [[mp3]] audio or if you
+    have an Adobe Flash™ plugin.
   exhibit_id: music_exhibit
   images:
   - url: '/images/illustrations/Accordion_(PSF).jpg'
@@ -263,7 +271,7 @@ Picture:
     Pictures — drawings, paintings, photos, computer-generated images, whatever.
     
     Note that concrete poetry and the like may be
-    categorized under Pictures, or Texts, or both.
+    categorized under Pictures, or [[Text]]s, or both.
   references:
   - url: http://messerwerferin.minus.com/mknvESNGE
     title: Guy de Cointet
@@ -289,8 +297,14 @@ Gewgaw:
     In [[Chrysoberyl]] parlance, a _gewgaw_ is the digital version of a
     bagatelle (music) or a doodle (visual art).  It almost always involves
     visuals (usually animated), sometimes audio, and occasionally interaction.
-    It need not be implemented in [[HTML5]], but many of
-    [[Cat's Eye Technologies]]' gewgaws are.
+    
+    A gewgaw need not be implemented in [[HTML5]], but many of
+    [[Cat's Eye Technologies]]' gewgaws are, and you can can experience
+    them here, online, right in your web browser.
+    
+    Note that the distinctions between a Gewgaw and an [[Automaton]] or
+    even a [[Game]] are not always clear, and entries here may be categorized
+    somewhat arbitrarily.
     
     A special kind of gewgaw, for which there is a whole historical "scene",
     is the "demo".  We avoid that terminology here, partly because it has
@@ -298,13 +312,6 @@ Gewgaw:
     which gewgaws need not have (pushing the limits of a computer, being
     very visually/aurally impressive, sending "greetings" to other demosceners,
     etc.)
-
-    Digital art (audiovisual, animated, interactive, or otherwise) which you
-    can experience online.  (That's not to say that
-    [[Programming Languages as an Artistic Medium|esolangs]]
-    and [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
-    aren't art *too*, of course.)
-
   references:
   - url: http://www.paikstudios.com/
     title: Nam June Paik
@@ -409,6 +416,6 @@ Electronics Project:
     description: Large, free datasheet database
   - url: http://www.falstad.com/circuit/
     title: Circuit Simulator
-    description: Circuit Simulator in a Java Applet
+    description: Circuit Simulator in a Java™ Applet
 Database:
   type: type

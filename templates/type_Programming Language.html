@@ -17,7 +17,7 @@
   </tr>
 
   {%- for thing in related('type')|sort -%}
-    {%- if thing not in [] -%}
+    {%- if get_node(thing).development_stage not in ['idea'] -%}
       {%- if not is_current(get_node(thing)) -%}
         <tr style="background: #c0c0c0">
       {%- else -%}
