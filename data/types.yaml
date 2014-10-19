@@ -52,82 +52,6 @@ Online Installation:
     To conserve page space, many of the installations have a button in the
     upper-right that you can click for more information about that work.
     Look for it.
-  links:
-    Esolangs Exhibit:
-    - url: http://esolangs.org/
-      title: Esolang
-      description: the esoteric programming languages wiki
-    - url: http://maximecb.github.io/Turing-Drawings/#4,3,3,1,3,0,1,2,3,1,1,1,1,1,2,1,2,3,1,1,1,2,3,1,2,3,2,2,0,0,2,2,2,1,0,3,2,1
-      title: Turing Drawings
-      description: by Maxime Chevalier-Boisvert
-    Digital Art Exhibit:
-    - url: http://www.paikstudios.com/
-      title: Nam June Paik
-    - url: http://www.kenknowlton.com/
-      title: Ken Knowlton
-    - url: http://asdfg.jodi.org/
-      title: JODI (asdfg)
-      description: warning, siezure-y
-    - url: http://x20xx.com/
-      title: x20xx
-    - url: http://automata.cc/
-      title: automata.cc
-      description: by Vilson Viera
-    - url: http://www.lilinx.com/
-      title: "l'ilinx"
-    - url: http://hazelcough.zxq.net/divart.html
-      title: Div Art!
-      description: by Michelle Bu
-    - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
-      title: Mathematical Art Galleries
-    - url: http://www.hugi.scene.org/online/
-      title: HUGI
-      description: demoscene mag
-    - url: http://www.logarithmic.net/ghost.xhtml
-      title: Ghost Diagrams
-      description: inferred patterns
-    - url: http://freeartbureau.org/
-      title: Free Art Bureau
-    Computer Games Exhibit:
-    - url: http://jsspeccy.zxdemo.org/
-      title: JSSpeccy
-      description: ZX Spectrum emu in HTML5
-    - url: http://tnd64.unikat.sk/jac64/
-      title: TND Games Room
-      description: C64 on JaC64
-    Texts Exhibit:
-    - url: http://speculativefictions.weebly.com/
-      title: SPECULATIVE FICTIONS
-    - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
-      title: Gibberish Generator
-      description: Gnbb rii ehGrr
-    - url: http://hackertyper.com/
-      title: Hacker Typer
-    - url: http://oxism.com/TuringType/
-      title: TuringType
-    - url: http://push.cwcon.org/
-      title: PUSH
-      description: source journal
-    Music Exhibit:
-    - url: http://canonical.org/~kragen/bytebeat/
-      title: Bytebeat — Crowd
-      description: programmatic music
-    - url: http://alonetone.com/
-      title: Alonetone
-      description: an open-source home for music
-    Pictures Exhibit:
-    - url: http://messerwerferin.minus.com/mknvESNGE
-      title: Guy de Cointet
-      description: encre et crayon sur papier
-    - url: http://davidshrigley.com/list_drawings.html
-      title: David Shrigley
-      description: drawings
-    - url: http://studygroupcomics.com/main/
-      title: Study Group
-      description: webcomiczinething
-    - url: http://www.cementimental.com/noisebook/
-      title: Harsh Noise
-      description: graphic novel
 
 
 Concept:
@@ -220,15 +144,18 @@ Game:
   - url: http://www.zophar.net/
     title: Zophar's Domain
     description: Lots of game-platform emulators and utilities
-  - url: http://mollyrocket.com/
-    title: Molly Rocket
-    description: A game company with an attitude I happen to like
   - url: http://www.llamasoft.co.uk/frontpage.php
     title: Llamasoft
     description: A legendary game company with many retro titles now in PD
   - url: http://tnd64.unikat.sk/
     title: The New Dimension
     description: Richard Bayliss' C64 games as far as the eye can see
+  - url: http://tnd64.unikat.sk/jac64/
+    title: TND Games Room
+    description: C64 on JaC64
+  - url: http://jsspeccy.zxdemo.org/
+    title: JSSpeccy
+    description: ZX Spectrum emu in HTML5
   - url: http://www.dadgum.com/halcyon/
     title: Halcyon Days
     description: Interviews with Classic Computer and Video Game Programmers
@@ -300,12 +227,19 @@ Programming Language:
 Musical Composition:
   type: type
   images:
-    - url: '/images/illustrations/Accordion_(PSF).jpg'
+  - url: '/images/illustrations/Accordion_(PSF).jpg'
+  references:
+  - url: http://canonical.org/~kragen/bytebeat/
+    title: Bytebeat — Crowd
+    description: programmatic music
+  - url: http://alonetone.com/
+    title: Alonetone
+    description: an open-source home for music
 
 Music Format:
   type: type
   images:
-    - url: '/images/illustrations/Accordion_(PSF).jpg'
+  - url: '/images/illustrations/Accordion_(PSF).jpg'
 
 Picture:
   type: type
@@ -314,6 +248,19 @@ Picture:
     
     Note that concrete poetry and the like may be
     categorized under Pictures, or Texts, or both.
+  references:
+  - url: http://messerwerferin.minus.com/mknvESNGE
+    title: Guy de Cointet
+    description: encre et crayon sur papier
+  - url: http://davidshrigley.com/list_drawings.html
+    title: David Shrigley
+    description: drawings
+  - url: http://studygroupcomics.com/main/
+    title: Study Group
+    description: webcomiczinething
+  - url: http://www.cementimental.com/noisebook/
+    title: Harsh Noise
+    description: graphic novel
 
 Image Format:
   type: type
@@ -334,6 +281,37 @@ Gewgaw:
     which gewgaws need not have (pushing the limits of a computer, being
     very visually/aurally impressive, sending "greetings" to other demosceners,
     etc.)
+  references:
+  - url: http://www.paikstudios.com/
+    title: Nam June Paik
+  - url: http://www.kenknowlton.com/
+    title: Ken Knowlton
+  - url: http://asdfg.jodi.org/
+    title: JODI (asdfg)
+    description: warning, siezure-y
+  - url: http://x20xx.com/
+    title: x20xx
+  - url: http://automata.cc/
+    title: automata.cc
+    description: by Vilson Viera
+  - url: http://www.lilinx.com/
+    title: "l'ilinx"
+  - url: http://hazelcough.zxq.net/divart.html
+    title: Div Art!
+    description: by Michelle Bu
+  - url: http://maximecb.github.io/Turing-Drawings/#4,3,3,1,3,0,1,2,3,1,1,1,1,1,2,1,2,3,1,1,1,2,3,1,2,3,2,2,0,0,2,2,2,1,0,3,2,1
+    title: Turing Drawings
+    description: by Maxime Chevalier-Boisvert
+  - url: http://gallery.bridgesmathart.org/exhibitions/2014-joint-mathematics-meetings
+    title: Mathematical Art Galleries
+  - url: http://www.hugi.scene.org/online/
+    title: HUGI
+    description: demoscene mag
+  - url: http://www.logarithmic.net/ghost.xhtml
+    title: Ghost Diagrams
+    description: inferred patterns
+  - url: http://freeartbureau.org/
+    title: Free Art Bureau
 
 Text:
   type: type
@@ -354,8 +332,19 @@ Text:
   - Swallows and Sorrows
   - Dial 'S' for Swallows
   - Nif
-  
-
+  references:
+  - url: http://speculativefictions.weebly.com/
+    title: SPECULATIVE FICTIONS
+  - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
+    title: Gibberish Generator
+    description: Gnbb rii ehGrr
+  - url: http://hackertyper.com/
+    title: Hacker Typer
+  - url: http://oxism.com/TuringType/
+    title: TuringType
+  - url: http://push.cwcon.org/
+    title: PUSH
+    description: source journal
 
 # these are implementables too, but that property is less exploited for them
 Electronics Project:

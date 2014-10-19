@@ -5,6 +5,7 @@ Featured Exhibit:
   type: Exhibit
   title: ★ Featured
   id: featured_exhibit
+  exhibit_type: Programming Language
   description: |
     These online installations have been hand-picked by our
     experts to provide you with hours of enjoyment (or minutes,
@@ -23,6 +24,7 @@ Esolangs Exhibit:
   type: Exhibit
   title: Esolangs
   id: esolangs_exhibit
+  exhibit_type: Programming Language
   description: |
     [[Esolang|Esoteric programming languages]] with which you
     can experiment.  By selecting sample
@@ -34,6 +36,7 @@ Digital Art Exhibit:
   type: Exhibit
   title: Gewgaws
   id: gewgaws_exhibit
+  exhibit_type: Gewgaw
   description: |
     Digital art (audiovisual, animated, interactive, or otherwise) which you
     can experience online.  (That's not to say that
@@ -45,6 +48,7 @@ Computer Games Exhibit:
   type: Exhibit
   title: Games
   id: games_exhibit
+  exhibit_type: Game
   description: |
     [[Game]]s which you can play online.  Some games are for
     the [[Commodore 64]], and these ones are web-enabled by the
@@ -54,6 +58,7 @@ Music Exhibit:
   type: Exhibit
   title: Music
   id: music_exhibit
+  exhibit_type: Musical Composition
   description: |
     All of the [[Musical Composition|musical compositions]] by
     [[What is this I don't even]] for which we have [[mp3|MP3's]]
@@ -64,6 +69,7 @@ Pictures Exhibit:
   type: Exhibit
   title: Pictures
   id: pictures_exhibit
+  exhibit_type: Picture
   description: |
     Pictures — drawings, paintings, photos, computer-generated images, whatever.
     
@@ -74,6 +80,7 @@ Texts Exhibit:
   type: Exhibit
   title: Texts
   id: texts_exhibit
+  exhibit_type: Text
   description: |
     Texts. But isn't everything in [[Chrysoberyl]] a text
     of some sort?  Yes, but those are texts *about* something.

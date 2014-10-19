@@ -28,8 +28,8 @@ vintage:
 archival:
   type: Development Stage
   description: |
-    This means it has a repository on Github and/or Bitbucket, but I have
-    no plans to develop it at all.  Compare [[archived]].
+    This means it has a repository on Github and/or Bitbucket, but there
+    are no plans to develop it further.  Compare [[archived]].
 unfinished:
   type: Development Stage
   description: |
@@ -37,7 +37,7 @@ unfinished:
 archived:
   type: Development Stage
   description: |
-    This means I have no plans for it all not, not even putting it in
+    This means there are no plans for it at all, not even putting it in
     a repository on Github and/or Bitbucket.  Compare [[archival]].
 abandoned:
   type: Development Stage

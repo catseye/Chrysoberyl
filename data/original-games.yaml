@@ -10,12 +10,12 @@ Bubble Escape:
   development-stage: mature
   description: |
     Bubble Escape is a video game written for the [[Commodore 64]] where you
-    must guide a bubble through a multi-screen maze.  Was originally written
-    in [[Commodore BASIC 2.0]] by a young me in the 80's.  Was rewritten in
-    [[Ophis Assembler|6502 assembly language]] by a middle-aged me in the
-    late aughts.  Was pared down so that (crunched) it fit into 2K, christened
-    "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
-    where (surprisingly, to me!) it got first place in its class.
+    must guide a bubble through a multi-screen maze.  It was originally
+    designed and implemented in [[Commodore BASIC 2.0]] in the mid-80's, and
+    rewritten in [[Ophis Assembler|6502 assembly language]] in the late 00's.
+    The assembly version was pared down so that (crunched) it fit into 2K,
+    christened "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
+    where it won first place in its class.
   images:
     - url: '../modules/bubble-escape/images/bubble%20escape%202k.png'
 
@@ -90,9 +90,10 @@ Bubble Escape distribution:
   development-stage: archival
   description: |
     Corona: Realm of Magic is an unfinished roguelike written in
-    [[Perl]].  It was written on top of a framework I was writing at the time that I
-    called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse Interactive
-    Entertainment Modules.)
+    [[Perl]].  It was written on top of a framework
+    that Cat's Eye Technologies was developing at the time
+    called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse
+    Interactive Entertainment Modules.)
   images:
     - url: '../modules/corona-realm-of-magic/doc/carpe_ss2.gif'
 
