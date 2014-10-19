@@ -156,6 +156,10 @@ Mathematical Object:
   type: type
 Book:
   type: type
+  description: |
+    Note that the precise distinction between a Book
+    and a [[Text]] is debatable, and entries here may be
+    categorized somewhat arbitrarily.
   images:
     - url: '/images/illustrations/Reading.jpg'
 Website:
@@ -172,6 +176,10 @@ Collection:
   type: type
 Programming Language Family:
   type: type
+  description: |
+    Note that the precise distinctions between a [[Programming Language]],
+    a [[Programming Language Family]], and an [[Automaton]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
 
 # implementations:
 Implementation:
@@ -230,14 +238,28 @@ Game:
 
 Library:
   type: type
+  description: |
+    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
 Tool:
   type: type
+  description: |
+    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
   images:
   - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
+  description: |
+    Note that the precise distinctions between a [[Tool]], a [[Platform]], and a [[Library]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
+
 Automaton:
   type: type
+  description: |
+    Note that the precise distinctions between a [[Programming Language]],
+    a [[Programming Language Family]], and an [[Automaton]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
   images:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
@@ -247,13 +269,16 @@ Programming Language:
     collating them with known implementations of those languages, and things
     known to be implemented in those languages.
     
+    Note that the precise distinctions between a [[Programming Language]],
+    a [[Programming Language Family]], and an [[Automaton]]
+    are debatable, and entries may be categorized somewhat arbitrarily.
+    
     If you find this chart a little daunting, I don't blame you, and you might
     want to start exploring [[Cat's Eye Technologies]]' programming language
     materials from some other page:
     
     * [[Chris Pressey's Lingography]]
     * [[Esolang]]
-    * [[Automaton|Automata]] — which, rather arbitrarily, aren't listed here
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
   images:
@@ -316,9 +341,13 @@ Text:
     Texts. But isn't everything in [[Chrysoberyl]] a text
     of some sort?  Yes, but those are texts *about* something.
     These are texts that stand as works on their own.
+
+    Note that the precise distinction between a Text
+    and a [[Book]] is debatable, and entries here may be
+    categorized somewhat arbitrarily.
     
     Note that concrete poetry and the like may be
-    categorized under Texts, or Pictures, or both.
+    categorized under Texts, or [[Picture]]s, or both.
   ordered-within:
   - The Swallows
   - The Swallows of Summer
