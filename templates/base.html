@@ -1,3 +1,68 @@
+{#- -------------------------------- macros ---------------------------- -#}
+
+{%- macro list_item(thing) -%}
+  {% set node = get_node(thing) %}
+  {%- if not get_node(node.type).suppress_page_generation -%}
+    <p>
+      <b>{{- link(thing) -}}</b>
+      {% if count(related('implementation_of', key=thing)) %}
+        (in
+        {% for implementation in related('implementation_of', key=thing) -%}
+          {{ link(get_node(implementation).host_language) -}}
+          {%- if not loop.last %} and {% endif -%}
+        {%- endfor -%}
+        )
+      {% endif %}
+      {%- if node.inception_date %}
+        ({{ node.inception_date }})
+      {% endif %}
+    </p>
+  {%- else -%}
+    {{- thing -}}
+  {%- endif -%}
+
+  {% if online_buttons(thing) %}
+  <p>
+    {{ online_buttons(thing) }}
+  </p>
+  {% endif %}
+
+  {% if node.images %}
+    <div class="row-fluid">
+      <div class="span8">
+        {% if node.description %}
+          {{ md2html(node.description) }}
+        {% endif %}
+      </div>
+      <div class="span4">
+        {% for image in node.images %}
+          <img src="{{ image.url }}">
+        {% endfor %}
+      </div>
+    </div>
+  {% elif node.description %}
+    {{ md2html(node.description) }}
+  {% endif %}
+{%- endmacro -%}
+
+{%- macro recommended_impl(req_key, req_plat_key='') -%}
+    {# special case, to not sound awkward #}
+    {% if req_key=='mp3' %}
+      an {{ link('mp3') }} player
+    {% else %}
+      an implementation of {{ link(req_key) }}
+      {% if recommended_implementation(req_key) %}
+        (we suggest {{ link(recommended_implementation(req_key)) }})
+      {% endif %}
+      {% if req_plat_key %}
+        {#- NOTE use of 'and' instead of 'for' here to make yoob deps sound ok -#}
+        and the {{ link(req_plat_key) }} platform
+      {% endif %}
+    {% endif %}
+{%- endmacro -%}
+
+{#- ----------------------------- base template ------------------------- -#}
+
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">

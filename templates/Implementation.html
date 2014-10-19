@@ -1,21 +1,5 @@
 {% extends "bylined.html" %}
 
-{% macro recommended_impl(req_key, req_plat_key='') -%}
-    {# special case, to not sound awkward #}
-    {% if req_key=='mp3' %}
-      an {{ link('mp3') }} player
-    {% else %}
-      an implementation of {{ link(req_key) }}
-      {% if recommended_implementation(req_key) %}
-        (we suggest {{ link(recommended_implementation(req_key)) }})
-      {% endif %}
-      {% if req_plat_key %}
-        {# NOTE use of 'and' instead of 'for' here to make yoob deps sound ok #}
-        and the {{ link(req_plat_key) }} platform
-      {% endif %}
-    {% endif %}
-{%- endmacro %}
-
 {% if get_node(implementation_of[0]).type == 'Musical Composition' %}
   {% set implnoun = 'rendition' %}
   {% set experienceverb = 'listen to' %}
