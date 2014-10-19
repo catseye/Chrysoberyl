@@ -456,23 +456,24 @@ class Renderer(object):
 
             for loc_key in sorted(online_locs):
                 mediums = self.universe.get_node(loc_key)['mediums']
-                medium = None
+                medium = 'Online'
                 if 'Java applet' in mediums:
-                    medium = 'Java applet'
-                elif 'HTML5' in mediums:
-                    medium = 'HTML5'
-                else:
-                    assert False, 'No good medium in ' + \
-                                  ' on '.join(mediums)
+                    medium = '(Java applet)'
+                assert 'HTML5' in mediums, 'No good medium in ' + \
+                                           ' on '.join(mediums)
                 if show_verb_phrase:
                     node = self.universe.get_node(key)
                     if node['type'] == 'Game':
                         link_text = 'Play'
                     elif node['type'] == 'Musical Composition':
                         link_text = 'Listen'
+                    elif node['type'] in ('Text', 'Book'):
+                        link_text = 'Read it'
+                    elif node['type'] in ('Picture',):
+                        link_text = 'See it'
                     else:
                         link_text = 'Try it'
-                    link_text += ' Online (%s)' % medium
+                    link_text += ' ' + medium
                 else:
                     link_text = medium
                 html += link(
