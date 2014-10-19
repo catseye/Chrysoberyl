@@ -21,43 +21,44 @@
     {{- thing -}}
   {%- endif -%}
 
-  {% if node.images %}
-    {#- FIXME is this even OK within an li element? -#}
-    <div class="row-fluid">
-      <div class="span8">
-        {% if online_buttons(thing) %}
-        <p>
-          {{ online_buttons(thing) }}
-        </p>
-        {% endif %}
-        {% if node.description %}
-          {{ md2html(node.description) }}
-        {% endif %}
-      </div>
-      <div class="span4">
-        {% for image in node.images %}
-          <img src="{{ image.url }}">
-        {% endfor %}
-      </div>
-    </div>
-  {% elif (node.description or online_buttons(thing)) and
-          node.type not in [
+  {% if node.type not in [
               'Computational Class', 'Concept', 'Development Stage',
               'Discipline', 'Genre', 'Language Construct', 'License',
               'Mathematical Object', 'Organization', 'Programming Paradigm',
               'Website',
           ] %}
-    {% if online_buttons(thing) %}
-    <p>
-      {{ online_buttons(thing) }}
-    </p>
-    {% endif %}
-    {% if node.description %}
-      {{ md2html(node.description) }}
-    {% endif %}
-    {% if node.commentary and
-          node.type in ['Musical Composition', 'Picture', 'Text'] %}
-      {{ md2html(node.commentary) }}
+    {% if node.images %}
+      {#- FIXME is this even OK within an li element? -#}
+      <div class="row-fluid">
+        <div class="span8">
+          {% if online_buttons(thing) %}
+          <p>
+            {{ online_buttons(thing) }}
+          </p>
+          {% endif %}
+          {% if node.description %}
+            {{ md2html(node.description) }}
+          {% endif %}
+        </div>
+        <div class="span4">
+          {% for image in node.images %}
+            <img src="{{ image.url }}">
+          {% endfor %}
+        </div>
+      </div>
+    {% elif node.description or online_buttons(thing) %}
+      {% if online_buttons(thing) %}
+      <p>
+        {{ online_buttons(thing) }}
+      </p>
+      {% endif %}
+      {% if node.description %}
+        {{ md2html(node.description) }}
+      {% endif %}
+      {% if node.commentary and
+            node.type in ['Musical Composition', 'Picture', 'Text'] %}
+        {{ md2html(node.commentary) }}
+      {% endif %}
     {% endif %}
   {% endif %}
 {%- endmacro -%}
