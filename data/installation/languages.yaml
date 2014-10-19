@@ -3,8 +3,6 @@
 'BefOS':
   type: Online Installation
   installation-of: BefOS (NASM)
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -31,8 +29,6 @@
 'Braktif':
   type: Online Installation
   installation-of: braktif.alp
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -45,8 +41,6 @@
 'Circute':
   type: Online Installation
   installation-of: circute.alp
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -59,8 +53,6 @@
 'Etcha':
   type: Online Installation
   installation-of: etcha.js
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -74,8 +66,6 @@
 'Gemooy':
   type: Online Installation
   installation-of: gemooy.js
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -88,8 +78,6 @@
 'Jaccia':
   type: Online Installation
   installation-of: jaccia.alp
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -109,8 +97,6 @@
 'Jacciata':
   type: Online Installation
   installation-of: jacciata.alp
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -130,9 +116,6 @@
 "noit o' mnain worb":
   type: Online Installation
   installation-of: worb.js
-  exhibits:
-  - Esolangs Exhibit
-  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -145,10 +128,6 @@
 'Pixley':
   type: Online Installation
   installation-of: pixley.js
-  # arguably Pixley is not an esolang, or at least not a very eso one.
-  exhibits:
-  - Esolangs Exhibit
-  - Featured Exhibit
   interactive: true
   animated: false
   mediums:
@@ -169,8 +148,6 @@
 'REDGREEN':
   type: Online Installation
   installation-of: redgreen.alp
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -184,8 +161,6 @@
   type: Online Installation
   # ... and sheltas, but ok
   installation-of: shelta
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -229,8 +204,6 @@
 'Whothm':
   type: Online Installation
   installation-of: tc.catseye.whothm
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: false
   mediums:
@@ -266,8 +239,6 @@
 'Wunnel':
   installation-of: wunnel.js
   type: Online Installation
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -288,8 +259,6 @@
 'yoob':
   type: Online Installation
   installation-of: tc.catseye.yoob
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: true
   mediums:
@@ -309,8 +278,6 @@
 'ZOWIE':
   type: Online Installation
   installation-of: zowie.py
-  exhibits:
-  - Esolangs Exhibit
   interactive: true
   animated: false
   mediums:

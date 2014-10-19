@@ -19,9 +19,6 @@ Article:
     <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
   images:
     - url: '/images/illustrations/Hatched.jpg'
-Exhibit:
-  suppress-page-generation: true
-  type: type
 Online Installation:
   type: type
   description: |
@@ -137,6 +134,11 @@ Distribution:
 # implementables:
 Game:
   type: type
+  exhibit_id: games_exhibit
+  description: |
+    [[Game]]s which you can play online.  Some games are for
+    the [[Commodore 64]], and these ones are web-enabled by the
+    [[JaC64]] Java™ applet.
   references:
   - url: http://umlautllama.com/searchlist.php?All=ColinMochrie
     title: Scott Lawrence's Projects
@@ -191,7 +193,14 @@ Automaton:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
   type: type
+  exhibit_id: esolangs_exhibit
   description: |
+    [[Esolang|Esoteric programming languages]] with which you
+    can experiment.  By selecting sample
+    programs and watching them run, you can gain an appreciation of how the
+    esolang works; by composing your own programs, you can gain an
+    even better appreciation.
+
     This is a matrix of all the programming languages known to [[Chrysoberyl]],
     collating them with known implementations of those languages, and things
     known to be implemented in those languages.
@@ -226,6 +235,12 @@ Programming Language:
 
 Musical Composition:
   type: type
+  description: |
+    All of the [[Musical Composition|musical compositions]] by
+    [[What is this I don't even]] for which we have [[mp3|MP3's]]
+    on this website.  You can play them online here if you have
+    a Flash player in your browser.
+  exhibit_id: music_exhibit
   images:
   - url: '/images/illustrations/Accordion_(PSF).jpg'
   references:
@@ -243,6 +258,7 @@ Music Format:
 
 Picture:
   type: type
+  exhibit_id: pictures_exhibit
   description: |
     Pictures — drawings, paintings, photos, computer-generated images, whatever.
     
@@ -268,6 +284,7 @@ Image Format:
 
 Gewgaw:
   type: type
+  exhibit_id: gewgaws_exhibit
   description: |
     In [[Chrysoberyl]] parlance, a _gewgaw_ is the digital version of a
     bagatelle (music) or a doodle (visual art).  It almost always involves
@@ -281,6 +298,13 @@ Gewgaw:
     which gewgaws need not have (pushing the limits of a computer, being
     very visually/aurally impressive, sending "greetings" to other demosceners,
     etc.)
+
+    Digital art (audiovisual, animated, interactive, or otherwise) which you
+    can experience online.  (That's not to say that
+    [[Programming Languages as an Artistic Medium|esolangs]]
+    and [video games](http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/)
+    aren't art *too*, of course.)
+
   references:
   - url: http://www.paikstudios.com/
     title: Nam June Paik
@@ -315,6 +339,7 @@ Gewgaw:
 
 Text:
   type: type
+  exhibit_id: texts_exhibit
   description: |
     Texts. But isn't everything in [[Chrysoberyl]] a text
     of some sort?  Yes, but those are texts *about* something.

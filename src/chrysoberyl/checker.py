@@ -204,16 +204,12 @@ def check_chrysoberyl_node(universe, data, key, node):
             )
         )
         if 'mp3' in node['mediums']:
-            if not node.get('exhibits', None):
-                node['exhibits'] = ['Music Exhibit']
             if not node.get('installation-of', None):
                 node['installation-of'] = key + ' (mp3)'
             node['inline-music-installation'] = True
             
         check_scalar_ref(universe, key, node, 'installation-of',
                          types=('Implementation',))
-        check_list_ref(universe, key, node, 'exhibits',
-                         types=('Exhibit',))
 
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \

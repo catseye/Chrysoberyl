@@ -3,9 +3,6 @@
 'Bubble Escape':
   type: Online Installation
   installation-of: Bubble Escape 2K
-  exhibits:
-  - Computer Games Exhibit
-  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -30,8 +27,6 @@
 'Super Wumpus Land':
   type: Online Installation
   installation-of: swl.js
-  exhibits:
-  - Computer Games Exhibit
   interactive: true
   animated: true
   mediums:

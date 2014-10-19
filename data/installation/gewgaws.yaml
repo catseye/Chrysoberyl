@@ -3,8 +3,6 @@
 'A Non-Random Walk':
   type: Online Installation
   installation-of: a-non-random-walk.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -25,8 +23,6 @@
 'Chzrxl':
   type: Online Installation
   installation-of: chzrxl.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -48,9 +44,6 @@
 'Cyclobots':
   type: Online Installation
   installation-of: cyclobots.js
-  exhibits:
-  - Digital Art Exhibit
-  - Featured Exhibit
   interactive: true
   animated: true
   mediums:
@@ -104,8 +97,6 @@
 'Fibonacci Spiral':
   type: Online Installation
   installation-of: fibonacci-spiral.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -123,8 +114,6 @@
 'Fingerspelling':
   type: Online Installation
   installation-of: fingerspelling.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -144,9 +133,6 @@
 'Hirsute Miasma':
   type: Online Installation
   installation-of: hirsute-miasma.js
-  exhibits:
-  - Digital Art Exhibit
-  - Featured Exhibit
   interactive: false
   animated: true
   mediums:
@@ -174,8 +160,6 @@
 'Heronsis hermnonicii':
   type: Online Installation
   installation-of: heronsis-hermnonicii.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -208,8 +192,6 @@
 'Hypongtrochoid':
   type: Online Installation
   installation-of: hypongtrochoid.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -264,8 +246,6 @@
 'Multicolouralism':
   type: Online Installation
   installation-of: multicolouralism.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:
@@ -300,8 +280,6 @@
   type: Online Installation
   # WAIT WHAT SRSLY HA NO
   installation-of: hugs
-  exhibits:
-  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -311,8 +289,6 @@
 'Prairie':
   type: Online Installation
   installation-of: prairie.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: false
   animated: true
   mediums:
@@ -334,9 +310,6 @@
 'Progression':
   type: Online Installation
   installation-of: progression.js
-  exhibits:
-  - Digital Art Exhibit
-  - Featured Exhibit
   interactive: false
   animated: true
   mediums:
@@ -359,8 +332,6 @@
 'The Frame':
   type: Online Installation
   installation-of: the-frame.js
-  exhibits:
-  - Digital Art Exhibit
   interactive: true
   animated: true
   mediums:

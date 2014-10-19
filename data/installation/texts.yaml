@@ -3,10 +3,6 @@
 'The Swallows':
   type: Online Installation
   installation-of: The Swallows (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
   mediums:
   - HTML5
   github-file-installation: true
@@ -14,10 +10,6 @@
 'The Swallows of Summer':
   type: Online Installation
   installation-of: The Swallows of Summer (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
   mediums:
   - HTML5
   github-file-installation: true
@@ -25,10 +17,6 @@
 'Swallows and Sorrows':
   type: Online Installation
   installation-of: Swallows and Sorrows (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
   mediums:
   - HTML5
   github-file-installation: true
@@ -36,10 +24,6 @@
 "Dial 'S' for Swallows":
   type: Online Installation
   installation-of: "Dial 'S' for Swallows (Markdown)"
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
   mediums:
   - HTML5
   github-file-installation: true
@@ -47,10 +31,6 @@
 'Nif':
   type: Online Installation
   installation-of: Nif (Markdown)
-  exhibits:
-  - Texts Exhibit
-  interactive: false
-  animated: false
   mediums:
   - HTML5
   github-file-installation: true
