@@ -338,9 +338,6 @@ multicolouralism.js:
   - installation/Multicolouralism
 
 
-# Note, the online-locations on this gewgaw doesn't work, because they
-# need to be on implementations, not on gewgaws.
-
 Plea of Thunder:
   type: Gewgaw
   development-stage: not fully complete
@@ -351,6 +348,13 @@ Plea of Thunder:
     Conceptual art: A Java applet that you and your friends can own!
   description: |
     Conceptual art: A Java applet that you and your friends can own!
+
+PleaOfThunder.java:
+  type: Implementation
+  license: Public Domain
+  host-language: Java
+  implementation-of:
+  - Plea of Thunder
   online-locations:
   - installation/Plea of Thunder
 
