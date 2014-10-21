@@ -1,12 +1,45 @@
 {% extends "type.html" %}
 
-{% block index %}{% endblock %}
+{% macro table_row(thing) %}
+  {%- if not is_current(get_node(thing)) -%}
+    <tr style="background: #c0c0c0">
+  {%- else -%}
+    <tr>
+  {%- endif -%}
+    <td>{{ link(thing) }}</td>
+    <td>{{ link(get_node(thing).genre) }}</td>
+    <td>{{ get_node(thing).development_stage }}</td>
+    <td>{% for impl in related('implementation-of', key=thing)|sort %}
+          {{ link(impl, link_text='X', title=impl) }}
+        {% endfor %}</td>
+    <td>{% for impl in related('host-language', key=thing)|sort %}
+          {{ link(impl, link_text='X', title=impl) }}
+        {% endfor %}</td>
+    <td>{% for impl in related('target-language', key=thing)|sort %}
+          {{ link(impl, link_text='X', title=impl) }}
+        {% endfor %}</td>
+    <td>
+      {{- online_buttons(thing, show_verb_phrase=False) -}}
+    </td>
+    <td>
+      {%- if ref_dist(key=thing) -%}
+        {%- set dist_key = ref_dist(key=thing) -%}
+        {%- if get_node(dist_key).releases -%}
+          {%- set latest_release = get_node(dist_key).releases|last -%}
+          <a class="button" href="{{ latest_release.url }}">Download</a>
+        {%- endif -%}
+      {%- endif -%}
+    </td>
+  </tr>
+{% endmacro %}
+
+{% block index %}{% endblock index %}
+
 {% block content %}
 
 <table class="table table-bordered">
   <tr>
     <th>Programming Language</th>
-    <th>Cat's Eye Technologies'</th>
     <th>Genre</th>
     <th>Development Stage</th>
     <th>Implementations of it</th>
@@ -17,40 +50,23 @@
   </tr>
 
   {%- for thing in related('type')|sort -%}
-    {%- if get_node(thing).development_stage not in ['idea'] -%}
-      {%- if not is_current(get_node(thing)) -%}
-        <tr style="background: #c0c0c0">
-      {%- else -%}
-        <tr>
-      {%- endif -%}
-        <td>{{ link(thing) }}</td>
-        <td>{% if "Cat's Eye Technologies" in get_node(thing).auspices %}yes{% endif %}</td>
-        <td>{{ link(get_node(thing).genre) }}</td>
-        <td>{{ get_node(thing).development_stage }}</td>
-        <td>{% for impl in related('implementation-of', key=thing)|sort %}
-              {{ link(impl, link_text='X', title=impl) }}
-            {% endfor %}</td>
-        <td>{% for impl in related('host-language', key=thing)|sort %}
-              {{ link(impl, link_text='X', title=impl) }}
-            {% endfor %}</td>
-        <td>{% for impl in related('target-language', key=thing)|sort %}
-              {{ link(impl, link_text='X', title=impl) }}
-            {% endfor %}</td>
-        <td>
-          {{- online_buttons(thing, show_verb_phrase=False) -}}
-        </td>
-        <td>
-          {%- if ref_dist(key=thing) -%}
-            {%- set dist_key = ref_dist(key=thing) -%}
-            {%- if get_node(dist_key).releases -%}
-              {%- set latest_release = get_node(dist_key).releases|last -%}
-              <a class="button" href="{{ latest_release.url }}">Download</a>
-            {%- endif -%}
-          {%- endif -%}
-        </td>
-      </tr>
+    {%- if get_node(thing).development_stage not in ['idea']
+           and "Cat's Eye Technologies" in get_node(thing).auspices -%}
+      {{ table_row(thing) }}
     {%- endif -%}
   {%- endfor -%}
+
+  <tr>
+    <td colspan="8"><hr></td>
+  </tr>
+
+  {%- for thing in related('type')|sort -%}
+    {%- if get_node(thing).development_stage not in ['idea']
+           and "Cat's Eye Technologies" not in get_node(thing).auspices -%}
+      {{ table_row(thing) }}
+    {%- endif -%}
+  {%- endfor -%}
+
 </table>
 
 {% endblock content %}
