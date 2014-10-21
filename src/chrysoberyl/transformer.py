@@ -72,7 +72,8 @@ def markdown_contents(universe, contents, prefix='../', sleek=False):
         text = match.group(1)
         segments = text.split('|')
         if len(segments) == 1:
-            segments.append(segments[0])  # omg
+            (_, ukey, _) = universe.get_space_key_node(segments[0])
+            segments.append(ukey)
         return link(
             universe, segments[0], segments[1], prefix=prefix, sleek=sleek
         )

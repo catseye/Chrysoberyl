@@ -397,7 +397,8 @@ class Renderer(object):
 
             """
             if link_text is None:
-                link_text = key
+                (_, ukey, _) = self.universe.get_space_key_node(key)
+                link_text = ukey
                 if lower:
                     link_text = link_text.lower()
                 if indefart:
