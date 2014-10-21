@@ -39,6 +39,10 @@
 
 <table class="table table-bordered">
   <tr>
+    <th style="text-align: center" colspan="8">by Cat's Eye Technologies</th>
+  </tr>
+
+  <tr>
     <th>Programming Language</th>
     <th>Genre</th>
     <th>Development Stage</th>
@@ -57,7 +61,18 @@
   {%- endfor -%}
 
   <tr>
-    <td colspan="8"><hr></td>
+    <th style="text-align: center" colspan="8">by Our Valued Partners</th>
+  </tr>
+
+  <tr>
+    <th>Programming Language</th>
+    <th>Genre</th>
+    <th>Development Stage</th>
+    <th>Implementations of it</th>
+    <th>Things Implemented in it</th>
+    <th>Compilers to it</th>
+    <th>Online</th>
+    <th>Distribution</th>
   </tr>
 
   {%- for thing in related('type')|sort -%}

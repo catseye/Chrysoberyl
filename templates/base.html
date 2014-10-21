@@ -42,7 +42,7 @@
         </div>
         <div class="span4">
           {% for image in node.images %}
-            <img src="{{ image.url }}">
+            <img alt="{{ image.description or '(Illustration)' }}" src="{{ image.url }}">
           {% endfor %}
         </div>
       </div>
@@ -172,15 +172,13 @@
           {%- endblock index -%}
         </div>
         {%- if images -%}
-          <div class="span4">
-            <section id="images">
-              {%- for image in images -%}
-                <img src="{{ image.url }}">
-                {% if image.caption %}
-                  {{ md2html(image.caption) }}
-                {% endif %}
-              {%- endfor -%}
-            </section>
+          <div id="images" class="span4">
+            {%- for image in images -%}
+              <img alt="{{ image.description or '(Illustration)' }}" src="{{ image.url }}">
+              {% if image.caption %}
+                {{ md2html(image.caption) }}
+              {% endif %}
+            {%- endfor -%}
           </div>
         {%- endif -%}
       </div>

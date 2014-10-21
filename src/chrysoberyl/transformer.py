@@ -30,12 +30,18 @@ def pathname2url(s):
     """
     # we wrote our own because urllib.pathname2url doesn't handle Unicode well
     # and actually, ours is just quote, no pathname functionality
-    s = re.sub('\%', '%25', s)
-    s = re.sub(' ', '%20', s)
-    s = re.sub('\"', '%22', s)
-    s = re.sub('\#', '%23', s)
-    s = re.sub('\:', '%3a', s)
-    s = re.sub('\?', '%3f', s)
+    s = s.replace('%', '%25')
+    s = s.replace(' ', '%20')
+    s = s.replace('"', '%22')
+    s = s.replace('#', '%23')
+    s = s.replace(':', '%3a')
+    s = s.replace('?', '%3f')
+    s = s.replace('{', '%7b')
+    s = s.replace('}', '%7d')
+    s = s.replace('[', '%5b')
+    s = s.replace(']', '%5d')
+    s = s.replace('&', '%amp;')
+
     return s
 
 
