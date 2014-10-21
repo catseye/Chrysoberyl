@@ -243,11 +243,15 @@ Programming Language:
 Musical Composition:
   type: type
   description: |
+    _[[What is this I don't even]]: Oh god how did this get here I am not good
+    with synthesizer_ is the working title for [[Chris Pressey]]'s ongoing
+    musical composition project.
+    
     Many of these tunes can be listened to online, if you have a
     web browser that supports [[HTML5]] [[mp3]] audio or if you
     have an Adobe Flash™ plugin.
   images:
-  - url: '/images/illustrations/Accordion_(PSF).jpg'
+  - url: /images/logo/witide.jpg
   references:
   - url: http://canonical.org/~kragen/bytebeat/
     title: Bytebeat — Crowd

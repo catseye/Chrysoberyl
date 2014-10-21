@@ -40,7 +40,7 @@ def pathname2url(s):
     s = s.replace('}', '%7d')
     s = s.replace('[', '%5b')
     s = s.replace(']', '%5d')
-    s = s.replace('&', '%amp;')
+    s = s.replace('&', '%26')
 
     return s
 
