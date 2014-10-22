@@ -10,19 +10,10 @@
   - JaC64
   - Java applet
   - HTML5
-  summary: |
-    [[Bubble Escape 2K]] is an [[Mini Game Compo 2009|award-winning]]
-    video game where you guide a soap bubble through a multi-screen maze.
-    You can play it online in this applet running [[JaC64]].
+  instructions: |
+    You can play it in your web browser via the [[JaC64]] emulator applet.
     Use your arrow keys to guide the bubble through the maze.  Avoid the
     hazards and find the five keys to unlock the exit.
-  description: |
-    [[Bubble Escape 2K]] is a video game where you guide a soap bubble
-    through a multi-screen maze.  Based on the cheesy original written in
-    [[Commodore BASIC 2.0|BASIC]] in the 80's, this version
-    was rewritten in [[Ophis Assembler|6502 assembly]], crunched to fit
-    into 2K, and submitted to the [[Mini Game Compo 2009]], where
-    it got first place in its class.
 
 'Super Wumpus Land':
   type: Online Installation
@@ -32,10 +23,6 @@
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    [[Super Wumpus Land]], our "extended dance mix" version of
-    Gregory Yob's [[Hunt the Wumpus]], is playable online in an
-    HTML5 canvas simulating an old-school green-screen terminal.
   extra-style: |
     #terminal {
       background: black;

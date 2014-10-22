@@ -503,7 +503,7 @@ class Renderer(object):
 
         @expose
         def error(text):
-            raise ValueError(text)
+            raise ValueError("'%s'" % text)
 
         @expose
         def breadcrumbs(key=key):
