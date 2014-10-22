@@ -23,6 +23,9 @@
   mediums:
   - Javascript
   - HTML5
+  instructions: |
+    If your keystrokes aren't going into the "terminal", make sure you
+    click in it first (it's focusable.)
   extra-style: |
     #terminal {
       background: black;
