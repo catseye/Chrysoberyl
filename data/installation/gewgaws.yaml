@@ -49,13 +49,13 @@
   mediums:
   - Javascript
   - HTML5
-  summary: |
-    An in-browser implementation of [[Cyclobots]].
   description: |
+    An in-browser implementation of [[Cyclobots]].
+  instructions: |
     Each "cyclobot" tries to follow exactly one other cyclobot, adjusting
     its heading to point towards the cyclobot it is following.
     No cylobot is followed by more than one cyclobot.
-  instructions: |
+    
     When a revolution occurs, every cyclobot picks a new cyclobot to follow
     at random.
     In case the cyclobots leave the viewable area of the playfield,

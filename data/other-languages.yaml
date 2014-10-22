@@ -813,7 +813,7 @@ lookup table:
 
 
 Wireworld:
-  type: Programming Language
+  type: Automaton
   # recreational language?
   genre: Experimental language
   paradigms:
