@@ -61,6 +61,9 @@
     This is an online implementation of [[Etcha]], a 2-dimensional esolang
     which could be thought of as an attempt to combine [[Jeffry Johnston]]'s
     [[BitChanger]] with turtle graphics.
+  instructions: |
+    Select an example program from the dropdown box, then click "Start" to run
+    it. Or click "Edit" to modify an example program, or create your own program.
 
 'Gemooy':
   type: Online Installation
@@ -72,7 +75,11 @@
   - HTML5
   description: |
     [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
-    This online Gemooy interpreter is implemented in Javascript, on an HTML5 canvas.
+    This online Gemooy interpreter is implemented in Javascript, on an HTML5
+    canvas.
+  instructions: |
+    Select an example program from the dropdown box, then click "Start" to run
+    it. Or click "Edit" to modify an example program, or create your own program.
 
 'Jaccia':
   type: Online Installation
