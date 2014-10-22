@@ -9,13 +9,12 @@
   - x86 machine code
   - v86
   - HTML5
-  summary: |
+  description: |
     This is an HTML5 installation of [[BefOS]], a Befunge-themed operating
     system which is neither Befunge, nor an operating system.  (Discuss.)
-  description: |
-    This is [[BefOS]] in your web browser, running under the
+    It runs on a web page thanks to the
     [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
-    
+  instructions: |
     The system is delivered on a 1.44M floppy image, which contains the
     BefOS boot block, kernal, and the handle of sample pages which are
     included in the default build.
@@ -168,14 +167,12 @@
   - FreeDOS
   - v86
   - HTML5
-  summary: |
-    This is [[Shelta]], a language with a tiny compiler and a
-    self-hosted compiler, running under [[FreeDOS]] under [[v86]]
-    on a web page, so you can bootstrap it right in your browser.
   description: |
-    This is [[Shelta]] running under [[FreeDOS]] running under the
-    [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
-    
+    This is [[Shelta]], a language with a tiny compiler and a
+    self-hosted compiler, running under [[FreeDOS]] running
+    on a web page via the [[HTML5]]-based [[IBM PC compatible]]
+    emulator, [[v86]] —  so you can bootstrap it right in your browser.
+  instructions: |
     The system running online on v86 is delivered on a 720K floppy image,
     which contains a minimal bootable FreeDOS install, the Shelta distribution,
     plus various tools such as the `TED3` text editor, and `YASM`.
@@ -209,12 +206,9 @@
   mediums:
   - Java applet
   - HTML5
-  summary: |
-    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactively try out Whothm programs online.
   description: |
     [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactively try out Whothm programs online.  The implementation is only
+    which implements Whothm, and lets you interactively try out Whothm programs online. The implementation is only
     an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
     left up to your imagination.
   instructions: |
@@ -285,9 +279,6 @@
   - Skulpt
   - Javascript
   - HTML5
-  summary: |
-    This is an HTML5-based interpreter for the
-    esoteric programming language [[ZOWIE]].
   description: |
     This is an [[HTML5]]-based interpreter for the
     [[Esolang|esoteric programming language]] [[ZOWIE]].
