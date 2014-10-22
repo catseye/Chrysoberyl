@@ -6,7 +6,6 @@
 BefOS: 
   type: Platform
   subtitle: An Operating System for the Linearly Challenged
-  summary: A Befunge-themed toy "operating system"
   description: |
     BefOS is a program which boots off of a floppy disk, and is
     billed as a Befunge-themed toy operating system for the
@@ -71,7 +70,6 @@ BefOS distribution:
 
 yoob: 
   type: Platform
-  summary: A framework for interactive esolang implementation
   native-language: Java
   other-languages: []
   description: |

@@ -13,7 +13,7 @@ The Swallows:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  summary: |
+  description: |
     *The Swallows* is the name of a series of computer-generated novels,
     as well as the title of the first novel in the series, and the name
     of [[The Swallows Engine|the program that produced them.]]  They
@@ -40,7 +40,7 @@ The Swallows of Summer:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  summary: |
+  description: |
     *The Swallows of Summer* is the second novel in [[The Swallows]] series
     of generated novels.
 
@@ -65,7 +65,7 @@ Swallows and Sorrows:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  summary: |
+  description: |
     *Swallows and Sorrows* is the third novel in [[The Swallows]] series
     of generated novels.
 
@@ -90,7 +90,7 @@ Swallows and Sorrows (Markdown):
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  summary: |
+  description: |
     *Dial 'S' for Swallows* is the fourth and final novel in [[The Swallows]]
     series of generated novels.
 
@@ -116,7 +116,7 @@ Nif:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  summary: |
+  description: |
     *Nif* is a novel generated for NaNoGenMo 2013.  It is about a petulant child
     (possibly named Nif) who has just discovered palindromes.  It is one long
     palindrome.
