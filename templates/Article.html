@@ -1,15 +1,5 @@
 {% extends "base.html" %}
 
-{% block extra_head %}
-  {% if article_type != "announcement" %}
-    <style>
-#description {
-    padding-left: 1em;
-}
-    </style>
-  {% endif %}
-{% endblock extra_head %}
-
 {# so we're using this more like a dateline than a byline #}
 {% block byline %}
   <p id="byline">
@@ -32,12 +22,14 @@
    different nodes, so this will do for now #}
 
 {%- block description_verbiage -%}
-  {%- if summary -%}
-    <section id="summary">
-      {{- md2html(summary) -}}
-    </section>
-  {%- endif -%}
-  {{ md2html(description) }}
+  <div {% if article_type != "announcement" %}class="article_description"{% endif %}>
+    {%- if summary -%}
+      <section id="summary">
+        {{- md2html(summary) -}}
+      </section>
+    {%- endif -%}
+    {{ md2html(description) }}
+  </div>
 {%- endblock description_verbiage -%}
 
 {% block content %}

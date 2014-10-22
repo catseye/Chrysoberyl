@@ -1,5 +1,18 @@
 {% extends "type.html" %}
 
+{% macro table_headings() %}
+  <tr>
+    <th>Programming Language</th>
+    <th>Genre</th>
+    <th>Development Stage</th>
+    <th>Implementations of it</th>
+    <th>Things Implemented in it</th>
+    <th>Compilers to it</th>
+    <th>Online</th>
+    <th>Distribution</th>
+  </tr>
+{% endmacro %}
+
 {% macro table_row(thing) %}
   {%- if not is_current(get_node(thing)) -%}
     <tr style="background: #c0c0c0">
@@ -39,19 +52,10 @@
 
 <table class="table table-bordered">
   <tr>
-    <th style="text-align: center" colspan="8">by Cat's Eye Technologies</th>
+    <th class="byline" colspan="8">by Cat's Eye Technologies</th>
   </tr>
 
-  <tr>
-    <th>Programming Language</th>
-    <th>Genre</th>
-    <th>Development Stage</th>
-    <th>Implementations of it</th>
-    <th>Things Implemented in it</th>
-    <th>Compilers to it</th>
-    <th>Online</th>
-    <th>Distribution</th>
-  </tr>
+  {{ table_headings() }}
 
   {%- for thing in related('type')|sort -%}
     {%- if get_node(thing).development_stage not in ['idea']
@@ -61,19 +65,10 @@
   {%- endfor -%}
 
   <tr>
-    <th style="text-align: center" colspan="8">by Our Valued Partners</th>
+    <th class="byline" colspan="8">by Our Valued Partners</th>
   </tr>
 
-  <tr>
-    <th>Programming Language</th>
-    <th>Genre</th>
-    <th>Development Stage</th>
-    <th>Implementations of it</th>
-    <th>Things Implemented in it</th>
-    <th>Compilers to it</th>
-    <th>Online</th>
-    <th>Distribution</th>
-  </tr>
+  {{ table_headings() }}
 
   {%- for thing in related('type')|sort -%}
     {%- if get_node(thing).development_stage not in ['idea']
