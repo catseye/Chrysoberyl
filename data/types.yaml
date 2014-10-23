@@ -353,7 +353,7 @@ Text:
 Electronics Project:
   type: type
   images:
-    - url: 'https://raw.github.com/catseye/Electronics-Projects/master/mildred/doc/mildred_photo.jpg'
+    - url: '../modules/electronics-projects/mildred/doc/mildred_photo.jpg'
   references:
   - url: http://www.intio.or.jp/jf10zl/
     title: JF10ZL
