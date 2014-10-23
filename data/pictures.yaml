@@ -64,7 +64,7 @@ PNG:
   license: Freely Redistributable
   host-language: GIF
   file-locations:
-  - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/2.%20Illgola-2/doc/release_notes_girl.gif
+  - ../modules/illgol-grand-mal/2.%20Illgola-2/doc/release_notes_girl.gif
 
 Illberon Release Notes:
   type: Picture
@@ -80,7 +80,7 @@ Illberon Release Notes:
   license: Freely Redistributable
   host-language: JPEG
   file-locations:
-  - https://raw.githubusercontent.com/catseye/Illgol-Grand-Mal/master/3.%20Illberon/doc/irl-may.jpg
+  - ../modules/illgol-grand-mal/3.%20Illberon/doc/irl-may.jpg
 
 pixley.pix as Nested Rectangles:
   type: Picture
