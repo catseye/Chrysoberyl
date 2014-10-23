@@ -170,6 +170,8 @@ class Renderer(object):
         @expose
         def implementations_by_p(type_, auspice):
             def f(node):
+                if node.get('hidden', False):
+                    return False
                 if 'implementation-of' not in node:
                     return False
                 cnode = get_node(node['implementation-of'][0])
@@ -224,6 +226,8 @@ class Renderer(object):
         def group_by(iterable, group_by):
             groups = {}
             for (nkey, node) in iterable:
+                if node.get('hidden', False):
+                    continue
                 memberships = node.get(group_by)
                 if not isinstance(memberships, list):
                     memberships = [memberships]
@@ -371,14 +375,15 @@ class Renderer(object):
             given noun phrase.
 
             """
+            if text[-4:] == 'dium':
+                return text[:-4] + 'dia'
             if text[-5:] == 'maton':
                 return text[:-5] + 'mata'
             if text[-1:] == 's':
                 return text + 'es'
-            elif text[-1:] == 'y':
+            if text[-1:] == 'y':
                 return text[:-1] + 'ies'
-            else:
-                return text + 's'
+            return text + 's'
 
         _indefart = indefart
         _plural = plural
