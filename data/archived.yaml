@@ -307,25 +307,31 @@ sf2tab distribution:
   discontinued: true
 
 
-SP\ASM: 
+SP_ASM: 
   type: Tool
   development-stage: archived
   summary: The SPlenetic ASseMbler
+  description: |
+    The name of this node is incorrect for technical reasons.
+    It is actually called `SP\ASM`.
   authors:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
 
-SP\ASM.BAT:
+SP_ASM.BAT:
   type: Implementation
   implementation-of:
-  - SP\ASM
+  - SP_ASM
   reference: true
-  in-distribution: SP\ASM distribution
+  description: |
+    The name of this node is incorrect for technical reasons.
+    It is actually called `SP\ASM.BAT`.
+  in-distribution: SP_ASM distribution
   license: Unknown license
   host-language: MS-DOS Batchfile
 
-SP\ASM distribution: 
+SP_ASM distribution: 
   type: Distribution
   releases: 
   - version: "1.0"
