@@ -106,44 +106,6 @@ a-non-random-walk.js:
   online-locations:
   - installation/A Non-Random Walk
 
-  
-Chzrxl:
-  # automaton?
-  type: Gewgaw
-  development-stage: mature
-  defining-distribution: HTML5 Gewgaws distribution
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: 2013
-  description: |
-    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
-    lava lamp?
-  instructions: |    
-    The percentage of balls held fixed can be changed by the slider, and
-    the "Restart" button can be used to scatter the balls and restart their
-    movements.  You can try out different values and see which one you like
-    the best.
-    
-    The original idea was this: each ball travels on a
-    sine-wave path (kind of like a spring) between a randomly-chosen
-    pair of two other balls.
-    
-    It was soon discovered that if all balls are free to move like this,
-    they all quickly collapse to a single point.  Thus, some number of
-    balls are held fixed (5% by default).  The result is a slightly
-    organic-seeming emergent motion.
-
-chzrxl.js:
-  type: Implementation
-  license: Public Domain
-  host-language: Javascript
-  implementation-of:
-  - Chzrxl
-  online-locations:
-  - installation/Chzrxl
-
 
 Fibonacci Spiral:
   type: Gewgaw

@@ -166,8 +166,8 @@ Platform:
 Automaton:
   type: type
   description: |
-    Note that the precise distinctions between a [[Programming Language]],
-    a [[Programming Language Family]], and an Automaton
+    Note that the precise distinctions between an Automaton, a
+    [[Programming Language]], and a [[Gewgaw]]
     are debatable, and entries may be categorized somewhat arbitrarily.
   images:
   - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'

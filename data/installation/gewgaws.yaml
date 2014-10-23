@@ -40,6 +40,11 @@
   javascript-main: |
     var t = new Chzrxl();
     t.init(document.getElementById('canvas'));
+  instructions: |
+    The percentage of balls held fixed can be changed by the slider, and
+    the "Restart" button can be used to scatter the balls and restart their
+    movements.  You can try out different values and see which one you like
+    the best.
 
 'Cyclobots':
   type: Online Installation

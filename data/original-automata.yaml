@@ -49,6 +49,43 @@ braktif.alp:
   - installation/Braktif
 
 
+Chzrxl:
+  type: Automaton
+  # this is awful and must be changed one day
+  genre: Toy
+  paradigms:
+  - Angular
+  - Particle automaton
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
+    lava lamp?
+  instructions: |
+    The original idea was this: each ball travels on a
+    sine-wave path (kind of like a spring) between a randomly-chosen
+    pair of two other balls.
+    
+    It was soon discovered that if all balls are free to move like this,
+    they all quickly collapse to a single point.  Thus, some number of
+    balls are held fixed (5% by default).  The result is a slightly
+    organic-seeming emergent motion.
+
+chzrxl.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Chzrxl
+  online-locations:
+  - installation/Chzrxl
+
+
 Circute:
   type: Automaton
   genre: Esolang
@@ -120,6 +157,7 @@ Cyclobots:
   genre: Toy
   paradigms:
   - Angular
+  - Particle automaton
   no-specification: true
   authors:
   - Chris Pressey
