@@ -58,12 +58,11 @@
   - Javascript
   - HTML5
   description: |
-    This is an online implementation of [[Etcha]], a 2-dimensional esolang
-    which could be thought of as an attempt to combine [[Jeffry Johnston]]'s
-    [[BitChanger]] with turtle graphics.
+    This in-browser installation of [[Etcha]] is implemented in
+    [[Javascript]], using [[yoob.js]].
   instructions: |
-    Select an example program from the dropdown box, then click "Start" to run
-    it. Or click "Edit" to modify an example program, or create your own program.
+    Click "Start" to run the supplied example program.  Or click "Edit" to
+    modify it, and create your own program.
 
 'Gemooy':
   type: Online Installation
@@ -74,9 +73,8 @@
   - Javascript
   - HTML5
   description: |
-    [[Gemooy]] is a 2-dimensional esolang with 3 instructions (5 initial symbols).
-    This online Gemooy interpreter is implemented in Javascript, on an HTML5
-    canvas.
+    This in-browser installation of [[Gemooy]] is implemented in
+    [[Javascript]], using [[yoob.js]].
   instructions: |
     Select an example program from the dropdown box, then click "Start" to run
     it. Or click "Edit" to modify an example program, or create your own program.
@@ -138,11 +136,8 @@
   - Web Workers
   - HTML5
   description: |
-    This is an online implementation of [[Pixley]], an extremely small
-    subset of [[Scheme]], with only 12 built-in functions.
-    
-    This online installation also depicts the Pixley program as a
-    series of coloured, nested rectangles.
+    This is an online implementation of [[Pixley]] which, as a bonus, also
+    depicts the Pixley program as a set of coloured, nested rectangles.
   instructions: |
     Select an example program from the dropdown box,
     then click "Start" to run it.  Or click "Edit" to modify an example

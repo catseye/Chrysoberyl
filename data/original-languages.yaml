@@ -1149,10 +1149,10 @@ Gemooy:
   - Imperative
   genre: Esolang
   description: |
-    Gemooy is really just a two-dimensional bagatelle of sorts; it
-    combines features from [[2-ill]] and [[Etcha]], and adds self-modification.
-    It came about when the author noticed the tape-related semantics of 2-ill were
-    essentially the same as those of [[BitChanger]].
+    Gemooy is a 2-dimensional esolang with 3 instructions (5 initial symbols)
+    which combines features from [[2-ill]] and [[Etcha]], and adds
+    self-modification.  It came about when the author noticed the tape-related
+    semantics of 2-ill were essentially the same as those of [[BitChanger]].
   inception-date: Dec 2, 2010
   development-stage: mature
   esowiki: Gemooy
@@ -2092,12 +2092,12 @@ Pixley:
   paradigms:
   - Functional
   description: |
-    Pixley is a strict subset of R5RS Scheme (or, if you prefer, R4RS
-    Scheme), supporting four datatypes (boolean, cons cell, function, and symbol)
-    and a dozen built-in symbols.  The reference implementation of Pixley is
-    written in 124 lines of Pixley (or, if you prefer, 124 lines of Scheme;
-    and if you prefer more Scheme-ly metrics, it consists of 413 instances of
-    54 unique symbols in 684 cons cells.)
+    Pixley is a very small subset of R5RS Scheme (or, if you prefer, R4RS
+    Scheme), supporting only four datatypes (boolean, cons cell, function, and
+    symbol) and only a dozen built-in symbols.  The reference implementation of
+    Pixley is written in 124 lines of Pixley (or, if you prefer, 124 lines of
+    Scheme; and if you prefer more Scheme-ly metrics, it consists of 413
+    instances of 54 unique symbols in 684 cons cells.)
   authors:
   - Chris Pressey
   auspices:
