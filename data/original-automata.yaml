@@ -30,8 +30,6 @@ Braktif:
     -----------------d-i--         --------
   inception-date: 2005
   development-stage: mature
-  see-also:
-  - pibfi
 
 braktif.alp:
   type: Implementation

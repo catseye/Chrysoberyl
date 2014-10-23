@@ -50,12 +50,8 @@
   - Javascript
   - HTML5
   description: |
-    An in-browser implementation of [[Cyclobots]].
+    This is an in-browser implementation of [[Cyclobots]].
   instructions: |
-    Each "cyclobot" tries to follow exactly one other cyclobot, adjusting
-    its heading to point towards the cyclobot it is following.
-    No cylobot is followed by more than one cyclobot.
-    
     When a revolution occurs, every cyclobot picks a new cyclobot to follow
     at random.
     In case the cyclobots leave the viewable area of the playfield,

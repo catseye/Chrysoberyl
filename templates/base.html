@@ -187,18 +187,20 @@
     {%- block content -%}
     {%- endblock content -%}
 
-    {%- if see_also -%}
-      <section id="see_also">
-        <h2>See Also</h2>
-        <ul>
-          {%- for thing in see_also -%}
-          <li>
-            {{- link(thing) -}}
-          </li>
-          {%- endfor -%}
-        </ul>
-      </section>
-    {%- endif -%}
+    {% block see_also %}
+      {%- if see_also -%}
+        <section id="see_also">
+          <h2>See Also</h2>
+          <ul>
+            {%- for thing in see_also -%}
+            <li>
+              {{- link(thing) -}}
+            </li>
+            {%- endfor -%}
+          </ul>
+        </section>
+      {%- endif -%}
+    {% endblock %}
 
     {%- block links -%}
       {%- if links or references -%}

@@ -16,7 +16,7 @@
     [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
   instructions: |
     The system is delivered on a 1.44M floppy image, which contains the
-    BefOS boot block, kernal, and the handle of sample pages which are
+    BefOS boot block, kernal, and the handful of sample pages which are
     included in the default build.
     
     If v86 doesn't work in your browser, you can
@@ -34,8 +34,11 @@
   - Javascript
   - HTML5
   description: |
-    The [[Braktif]] cellular automaton, compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
+    This is the [[Braktif]] cellular automaton, compiled to Javascript
+    using [[ALPACA]] and animated using [[yoob.js]].
+  instructions: |
+    Select an example program from the dropdown box, then click "Start" to run
+    it. Or click "Edit" to modify an example program, or create your own program.
 
 'Circute':
   type: Online Installation
@@ -46,8 +49,12 @@
   - Javascript
   - HTML5
   description: |
-    The [[Circute]] cellular automaton, compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
+    This is the [[Circute]] cellular automaton, compiled to Javascript
+    using [[ALPACA]] and animated using [[yoob.js]].
+  instructions: |
+    Select an example configuration from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example,
+    or create your own.
 
 'Etcha':
   type: Online Installation
@@ -88,11 +95,12 @@
   - Javascript
   - HTML5
   description: |
-    The [[Jaccia]] cellular automaton, which demonstrates that cellular automata are
-    [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
-    
-    In this installation, Jaccia is compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
+    This is the [[Jaccia]] cellular automaton, compiled to Javascript
+    using [[ALPACA]] and animated using [[yoob.js]].
+  instructions: |
+    Select an example configuration from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example,
+    or create your own.
   see-also:
   - installation/Jacciata
 
@@ -106,11 +114,12 @@
   - HTML5
   summary: |
   description: |
-    The [[Jacciata]] cellular automaton, which demonstrates that cellular automata are
-    [intelligent maze-solvers, just like slime molds](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
-    
-    In this installation, Jacciata is compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
+    This is the [[Jacciata]] cellular automaton, compiled to Javascript
+    using [[ALPACA]] and animated using [[yoob.js]].
+  instructions: |
+    Select an example configuration from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example,
+    or create your own.
   see-also:
   - installation/Jaccia
 
@@ -123,8 +132,13 @@
   - Javascript
   - HTML5
   description: |
-    [[noit o' mnain worb]] is a probabilistic particle automaton.
-    This online interpreter is implemented in Javascript, on an HTML5 canvas.
+    This online interpreter for the
+    [[noit o' mnain worb]] probabilistic particle automaton
+    is implemented in Javascript, on an HTML5 canvas.
+  instructions: |
+    Select an example configuration from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example,
+    or create your own.
 
 'Pixley':
   type: Online Installation
@@ -152,8 +166,12 @@
   - Javascript
   - HTML5
   description: |
-    The [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
+    This is the [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
     and animated using [[yoob.js]].
+  instructions: |
+    Select an example configuration from the dropdown box,
+    then click "Start" to run it.  Or click "Edit" to modify an example,
+    or create your own.
 
 'Shelta':
   type: Online Installation
@@ -283,6 +301,10 @@
     [[Esolang|esoteric programming language]] [[ZOWIE]].
     The reference implementation of the interpreter, written in [[Python]],
     is itself being interpreted by [[Skulpt]], written in [[Javascript]].
-    
+  instructions: |
     Input is not yet supported, and errors are not yet handled
     in a user-friendly way, but it does work, as the example sources show.
+    
+    Select an example program from the dropdown box, then click "Run" to
+    run it.  Or edit an example program in the text box, or create your own
+    program.
