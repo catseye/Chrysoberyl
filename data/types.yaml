@@ -21,34 +21,6 @@ Article:
     - url: '/images/illustrations/Hatched.jpg'
 Online Installation:
   type: type
-  description: |
-    Welcome to the section of our website dedicated to our
-    **entertainment objects that can be enjoyed online**.
-    For more information, click the **?** button at the top of the page.
-  help-text: |
-    Welcome to Cat's Eye Technologies' Gallery, the section of our website
-    for the exhibition of our works made available online.
-    
-    What this means, in practice, is that they stand alone as works, and
-    can be viewed and interacted with directly in your web browser, without
-    you having to download anything.
-    
-    Historically, to experience one of our [[Esolang|esolangs]], you would
-    have to download and install at least some development tools (such as a
-    language interpreter.)
-    
-    Now, however, we are using the word "installation" in the sense it is
-    used by artists — *something put somewhere*, basically — and from this
-    point forward, we hope to have most of our esolangs (and our other
-    things) *installed online*.
-    
-    The great majority of these online installations are implemented in
-    [[HTML5]] with [[Javascript]], to maximize their accessibility.  Some
-    are implemented as [[Java]]™ applets which run in the browser instead.
-    
-    To conserve page space, many of the installations have a button in the
-    upper-right that you can click for more information about that work.
-    Look for it.
 
 
 Concept:
