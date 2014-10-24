@@ -8,17 +8,8 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 600
-  canvas-height: 360
-  control-panel: |
-    <button id="reset" onclick="t.reset();">Reset</button>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
-  javascript-main: |
-    var t = new NonRandomWalk();
-    t.init(document.getElementById('canvas'));
 
 'Chzrxl':
   type: Online Installation
@@ -28,23 +19,13 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 400
-  canvas-height: 400
-  control-panel: |
-    <br>% to hold fixed:
-    <input id="hold_fixed" type="range" min="0" max="100" value="5"/>
-    <button id="restart" onclick="t.restart()">Restart</button>
-  javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/chzrxl/chzrxl.js
-  javascript-main: |
-    var t = new Chzrxl();
-    t.init(document.getElementById('canvas'));
   instructions: |
     The percentage of balls held fixed can be changed by the slider, and
     the "Restart" button can be used to scatter the balls and restart their
     movements.  You can try out different values and see which one you like
     the best.
+  javascript-urls:
+  - ../modules/html5-gewgaws/chzrxl/chzrxl.js
 
 'Cyclobots':
   type: Online Installation
@@ -61,39 +42,8 @@
     at random.
     In case the cyclobots leave the viewable area of the playfield,
     dragging on the playfield will scroll it.
-  control-panel: |
-    <!-- <button onclick="c.massConfusion();">Mass confusion!</button> -->
-    <button onclick="c.shuffle();">Revolution!</button>
-    <label for="show_angles"><input type="checkbox"
-      name="show_angles" id="show_angles">show angles</label>
-    <!-- <p id="status"></p> -->
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/full-screen-detector.js
   - ../modules/html5-gewgaws/cyclobots/cyclobots.js
-  javascript-main: |
-    var canvas = document.getElementById('canvas');
-    var c = new Cyclobots();
-    c.init(canvas);
-    
-    var header = document.getElementsByTagName('header')[0];
-    var control_panel = document.getElementById('control_panel');
-    
-    new yoob.FullScreenDetector({
-        onchange: function(fullScreen) {
-            if (fullScreen) {
-                canvas.style.width = Math.floor(screen.width * 0.95) + "px";
-                canvas.style.height = Math.floor(screen.height * 0.95) + "px";
-                header.style.display = "none";
-                control_panel.style.display = "none";
-            } else {
-                canvas.style.width = "640px";
-                canvas.style.height = "400px";
-                header.style.display = "block";
-                control_panel.style.display = "block";
-            }
-        }
-    });
 
 'Fibonacci Spiral':
   type: Online Installation
@@ -103,14 +53,8 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 1000
-  canvas-height: 500
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
-  javascript-main: |
-    var t = new FibonacciSpiral();
-    t.init(document.getElementById('canvas'));
 
 'Fingerspelling':
   type: Online Installation
@@ -120,16 +64,8 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    body { margin: 0; }
-    article { margin: 0; }
-    #canvas { background: #ccaacc; border: none; }
-    #canvas_container { margin: 0; text-align: inherit; }
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
-  javascript-main: |
-    (new Fingerspelling()).init(document.getElementById('canvas'));
 
 'Hirsute Miasma':
   type: Online Installation
@@ -139,24 +75,8 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 400
-  canvas-height: 400
-  control-panel: |
-    <p>
-      <label for="cycle">
-        <input type="checkbox" name="cycle" id="cycle">choleric
-      </label>
-    
-      <label for="terminal">
-        <input type="checkbox" name="terminal" id="terminal">terminal
-      </label>
-    </p>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
-  javascript-main: |
-    var t = new HirsuteMiasma();
-    t.start(document.getElementById('canvas'));
 
 'Heronsis hermnonicii':
   type: Online Installation
@@ -168,27 +88,8 @@
   - HTML5
   extra-style: |
     #canvas { border: 2px solid black }
-  canvas-width: 1200
-  canvas-height: 400
-  control-panel: |
-    <div style="font-family: serif; width: 75%; margin: auto">
-      <span style="font-variant: small-caps">
-      Plate I.  The Organization of Collapsed Clarkson's Entities
-      </span>
-      <span style="font-size: 90%; font-style: italic">
-      (Heronsis hermnonicii)
-      </span>
-      <span style="font-variant: small-caps">
-      into Proto-Cohorts as a Rudimentary Method
-      of Physiognometric Defence</span>
-    </div>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
-  javascript-main: |
-    var t = new HeronsisHermnonicii();
-    t.init(document.getElementById('canvas'));
 
 'Hypongtrochoid':
   type: Online Installation
@@ -204,45 +105,8 @@
       position: absolute;
       z-index: 100;
     }
-  mainstage-elements: |
-    <canvas id="overlay" width="600" height="400">
-    Your browser doesn't support displaying an HTML5 canvas.
-    </canvas>
-    <canvas id="canvas" width="600" height="400">
-    Your browser doesn't support displaying an HTML5 canvas.
-    </canvas>
-  control-panel: |
-    <label for="show_blue">
-      <input type="checkbox" name="show_blue" id="show_blue" checked="checked">blue</label>
-    <label for="show_red">
-      <input type="checkbox" name="show_red" id="show_red" checked="checked">red</label>
-    <label for="show_yellow">
-      <input type="checkbox" name="show_yellow" id="show_yellow" checked="checked">yellow</label>
-    <label for="show_path">
-      <input type="checkbox" name="show_path" id="show_path" checked="checked">path</label>
-    <label for="turbo">
-      <input type="checkbox" name="turbo" id="turbo">turbo</label>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
-  javascript-main: |
-    var canvas = document.getElementById('canvas');
-    var overlay = document.getElementById('overlay');
-    
-    var canvasLeft = 0;
-    var obj = canvas;
-    while (obj.offsetParent) {
-      canvasLeft += obj.offsetLeft;
-      obj = obj.offsetParent;
-    }
-      
-    document.getElementById('show_path').onchange = function(e) {
-      overlay.style.display = this.checked ? "block" : "none";
-      overlay.style.left = canvasLeft + "px";
-    };
-    var t = new Hypongtrochoid();
-    t.start(canvas, overlay);
 
 'Multicolouralism':
   type: Online Installation
@@ -252,30 +116,8 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 400
-  canvas-height: 400
-  control-panel: |
-    Field strength:
-    <input id="strength" type="range" min="0" max="50" value="5"/>
-    <label for="as_circles">
-      <input type="checkbox" name="as_circles" id="as_circles">circles</label>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/splash-screen.js
   - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
-  javascript-main: |
-    yoob.showSplashScreen({
-        elementId: 'canvas',
-        innerHTML: "<p>Warning: this application displays rapidly changing colours " +
-          "and/or shapes and may be unsuitable for those sensitive to light or " +
-          "prone to epileptic seizures.</p>",
-        buttonText: "I understand -- Proceed",
-        onproceed: function() {
-            var t = new Multicolouralism();
-            t.init(document.getElementById('canvas'), 25, 25);
-        },
-        background: '#a0a0d0'
-    });
 
 'Plea of Thunder':
   type: Online Installation
@@ -294,18 +136,10 @@
   mediums:
   - Javascript
   - HTML5
-  canvas-width: 640
-  canvas-height: 390
   extra-style: |
     #canvas { border: 1px solid blue; }
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/prairie/prairie.js
-  javascript-main: |
-    new PrairieController().start(
-      document.getElementById('canvas'),
-      '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png'
-    );
 
 'Progression':
   type: Online Installation
@@ -317,17 +151,8 @@
   - HTML5
   extra-style: |
     #canvas { border: 1px solid blue; background: white; }
-  canvas-width: 800
-  canvas-height: 200
-  control-panel: |
-    <p id="counter"></p>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
   - ../modules/html5-gewgaws/progression/progression.js
-  javascript-main: |
-    var p = new ProgressionController();
-    p.start(document.getElementById('canvas'),
-            document.getElementById('counter'));
 
 'The Frame':
   type: Online Installation
@@ -341,45 +166,9 @@
     body {
         background-image: none;
     }
-    #note {
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
     #canvas {
         background: white;
         display: none;
     }
-    #please_wait {
-        width: 100%;
-        text-align: center;
-    }
-  mainstage-elements: |
-    <div id="note">
-      <small>Note 1. Green things can be dragged.
-      Note 2. Due to technical limitations,
-      things cannot be dragged off of the computer screen</small>
-    </div>
-    
-    <canvas id="canvas" width="800" height="450">
-    Your browser doesn't support displaying an HTML5 canvas.
-    </canvas>
-    
-    <div id="please_wait">
-      Please wait, loading...
-    </div>
   javascript-urls:
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/animation.js
-  - ../modules/html5-gewgaws/common-yoob.js-0.6/sprite-manager.js
   - ../modules/html5-gewgaws/the-frame/the-frame.js
-  javascript-main: |
-    var canvas = document.getElementById('canvas');
-    var note = document.getElementById('note');
-    var pleaseWait = document.getElementById('please_wait');
-    var f = new TheFrame();
-    f.init(canvas, '../modules/html5-gewgaws/the-frame/the-frame.png', function() {
-        pleaseWait.style.display = "none";
-        note.style.display = "block";
-        canvas.style.display = "block";
-        canvas.width = document.body.clientWidth - canvas.offsetLeft * 2;
-    });
