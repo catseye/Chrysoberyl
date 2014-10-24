@@ -26,33 +26,6 @@
   instructions: |
     If your keystrokes aren't going into the "terminal", make sure you
     click in it first (it's focusable.)
-  extra-style: |
-    #terminal {
-      background: black;
-      border: 5px solid black;
-    }
-  mainstage-elements: |
-    <canvas id="terminal" width="400" height="400" tabindex="0">
-    Your browser doesn't support displaying an HTML5 canvas.
-    </canvas>
   javascript-urls:
-  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield.js
-  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/cursor.js
-  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/playfield-canvas-view.js
-  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/text-terminal.js
-  - ../modules/super-wumpus-land/impl/swl.js/src/yoob/line-input-buffer.js
   - ../modules/super-wumpus-land/impl/swl.js/src/swl.js
-  javascript-main: |
-    var element = document.getElementById('terminal');
-    var t = new yoob.TextTerminal().init(80, 25);
-    var view = t.createPlayfieldCanvasView(element, 11, 18);
-    var swl = new SuperWumpusLand();
-    swl.init(t);
-    var ib = new yoob.LineInputBuffer().init(element, t);
-    ib.onupdate = function(str) { view.draw(); };
-    ib.onenter = function(str) {
-      swl.handleInput(str);
-      view.draw();
-    };
-    view.draw();
-    element.focus();
+  script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/

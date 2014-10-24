@@ -86,8 +86,6 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    #canvas { border: 2px solid black }
   javascript-urls:
   - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
 
@@ -99,12 +97,6 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    #overlay {
-      border: 1px solid red;
-      position: absolute;
-      z-index: 100;
-    }
   javascript-urls:
   - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
 
@@ -136,8 +128,6 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    #canvas { border: 1px solid blue; }
   javascript-urls:
   - ../modules/html5-gewgaws/prairie/prairie.js
 
@@ -149,8 +139,6 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    #canvas { border: 1px solid blue; background: white; }
   javascript-urls:
   - ../modules/html5-gewgaws/progression/progression.js
 
