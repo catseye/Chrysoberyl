@@ -130,6 +130,8 @@
   - HTML5
   javascript-urls:
   - ../modules/html5-gewgaws/prairie/prairie.js
+  launch-config: |
+    { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
 
 'Progression':
   type: Online Installation
@@ -150,13 +152,7 @@
   mediums:
   - Javascript
   - HTML5
-  extra-style: |
-    body {
-        background-image: none;
-    }
-    #canvas {
-        background: white;
-        display: none;
-    }
   javascript-urls:
   - ../modules/html5-gewgaws/the-frame/the-frame.js
+  launch-config: |
+    { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
