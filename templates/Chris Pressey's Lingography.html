@@ -16,12 +16,12 @@
       {% if get_node(thing).description %}
         {{ md2html(get_node(thing).description) }}
       {% endif %}
-      
+
       {% if get_node(thing).commentary %}
         {{ md2html(get_node(thing).commentary) }}
       {% endif %}
 
-      {% if related('implementation_of', key=thing) %}
+      {% if not empty(related('implementation_of', key=thing)) %}
         <p>Implementations:</p>
         <ul>
           {% for implementation in related('implementation_of', key=thing) %}
@@ -36,7 +36,7 @@
           {% endfor %}
         </ul>
       {% endif %}
-      {% if related('member_of', key=thing) %}
+      {% if not empty(related('member_of', key=thing)) %}
         <p>Members of {{thing}}:</p>
         <ul>
           {% for member in related('member_of', key=thing)|sort %}
@@ -46,7 +46,7 @@
           {% endfor %}
         </ul>
       {% endif %}
-      {% if related('variant_of', key=thing) %}
+      {% if not empty(related('variant_of', key=thing)) %}
         <p>Variants of {{thing}}:</p>
         <ul>
           {% for variant in related('variant_of', key=thing)|sort %}
