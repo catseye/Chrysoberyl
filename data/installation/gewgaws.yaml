@@ -144,6 +144,17 @@
   javascript-urls:
   - ../modules/html5-gewgaws/progression/progression.js
 
+'Text Uniquifier':
+  type: Online Installation
+  installation-of: text-uniquifier.js
+  interactive: true
+  animated: false
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
+
 'The Frame':
   type: Online Installation
   installation-of: the-frame.js

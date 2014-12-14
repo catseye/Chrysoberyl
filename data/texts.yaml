@@ -150,7 +150,7 @@ Doby Mick:
     *Doby Mick, or, the Excessively Spoonerized Whale*
     is a novel generated for NaNoGenMo 2014.  A spoonerization algorithm
     was developed, which picks two words from each phrase of each
-    sentence and swaps their initial consonant clusers.  This was run on
+    sentence and swaps their initial consonant clusters.  This was run on
     Moby Dick, to produce this novel.
 
 Doby Mick (Markdown):
@@ -204,8 +204,9 @@ A Rainy Sunday Afternoon:
   - Cat's Eye Technologies
   description: |
     *A Rainy Sunday Afternoon* is a novel generated for NaNoGenMo 2014.
-    It was based on the premise that sometimes people do things that
-    are worthy of automata, too.
+    It was based on the premise that, while sometimes automata do
+    things worthy of people (like writing a novel), sometimes people do
+    things that are worthy of automata, too.
 
 A Rainy Sunday Afternoon (Markdown):
   type: Implementation

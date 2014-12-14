@@ -173,7 +173,7 @@ Hirsute Miasma:
   inception-date: 2013
   description: |
     Your web browser is burdened by the sins of its ancestors
-    and their shower drains.    
+    and their shower drains.
   instructions: |
     The animation will eventually cycle if you're patient (although it won't
     of course cycle exactly, as there is a random element.)  You may enable
@@ -339,6 +339,43 @@ progression.js:
   - Progression
   online-locations:
   - installation/Progression
+
+
+Text Uniquifier:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Nov 2014
+  description: |
+    An online tool/amusement where you paste in some text and it displays
+    the text with repeated words removed.
+  instructions: |
+    Copy some text of your choosing (from a web page, a local document, etc.)
+    and paste it into the text area in the top half of the page.  Then click
+    "Uniquify" and see the uniquified text in the bottom half of the page.
+    
+    Case-sensitive means that `THIS`, `This`, and `this` are treated as different
+    words for uniquification purposes.
+    
+    Punctuation-sensitive means that `this`, `this?`, `"this"` and `(this` are
+    treated as different words for uniquification purposes.
+    
+    You can also select to retain paragraph breaks only (output will look fairly
+    similar to the input text), all line breaks (output tends to resemble
+    free verse), or no breaks at all (output is one long unbroken stream of text.)
+
+text-uniquifier.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Text Uniquifier
+  online-locations:
+  - installation/Text Uniquifier
 
 
 The Frame:
