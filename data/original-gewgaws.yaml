@@ -426,3 +426,28 @@ the-judgment-of-paris.js:
   - The Judgment of Paris
   online-locations:
   - installation/The Judgment of Paris
+
+
+Woman on Film:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    An interactive, navigable, animated thing based on several tracings of
+    a still from a film.
+  instructions: |
+    Use the navigation buttons to traverse the space of the work.
+  inception-date: ca Apr 2013
+
+woman-on-film.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Woman on Film
+  online-locations:
+  - installation/Woman on Film

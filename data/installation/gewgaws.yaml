@@ -179,3 +179,14 @@
   - HTML5
   javascript-urls:
   - ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js
+
+'Woman on Film':
+  type: Online Installation
+  installation-of: woman-on-film.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/woman-on-film/woman-on-film.js
