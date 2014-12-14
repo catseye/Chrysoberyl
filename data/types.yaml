@@ -335,6 +335,11 @@ Text:
   - Swallows and Sorrows
   - Dial 'S' for Swallows
   - Nif
+  - "3×C(21,3)+2×C(215,2)=50000: The Novel"
+  - Doby Mick
+  - A Rainy Sunday Afternoon
+  - Hope and Remembrance
+  - Threnody for Abraxas
   references:
   - url: http://speculativefictions.weebly.com/
     title: SPECULATIVE FICTIONS
@@ -348,7 +353,6 @@ Text:
   - url: http://push.cwcon.org/
     title: PUSH
     description: source journal
-
 # these are implementables too, but that property is less exploited for them
 Electronics Project:
   type: type

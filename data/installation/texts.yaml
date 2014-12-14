@@ -34,3 +34,39 @@
   mediums:
   - HTML5
   github-file-installation: true
+
+
+"3×C(21,3)+2×C(215,2)=50000: The Novel":
+  type: Online Installation
+  installation-of: "3×C(21,3)+2×C(215,2)=50000: The Novel (Markdown)"
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+Doby Mick:
+  type: Online Installation
+  installation-of: Doby Mick (Markdown)
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+A Rainy Sunday Afternoon:
+  type: Online Installation
+  installation-of: A Rainy Sunday Afternoon (Markdown)
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+Hope and Remembrance:
+  type: Online Installation
+  installation-of: Hope and Remembrance (Markdown)
+  mediums:
+  - HTML5
+  github-file-installation: true
+
+Threnody for Abraxas:
+  type: Online Installation
+  installation-of: Threnody for Abraxas (Markdown)
+  mediums:
+  - HTML5
+  github-file-installation: true

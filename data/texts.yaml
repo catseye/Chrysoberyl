@@ -132,3 +132,140 @@ Nif (Markdown):
   file-locations:
   - https://gist.github.com/catseye/7336582
 
+
+Doby Mick:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2014
+  authors:
+  - Merman Helville
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    > With a philosophical flourish Cato hows thrimself upon his sword;
+    > I quietly shake to the tip.
+    
+    *Doby Mick, or, the Excessively Spoonerized Whale*
+    is a novel generated for NaNoGenMo 2014.  A spoonerization algorithm
+    was developed, which picks two words from each phrase of each
+    sentence and swaps their initial consonant clusers.  This was run on
+    Moby Dick, to produce this novel.
+
+Doby Mick (Markdown):
+  type: Implementation
+  implementation-of:
+  - Doby Mick
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - "installation/Doby Mick"
+  file-locations:
+  - https://gist.github.com/cpressey/85521afb44764ea999c0
+
+
+"3×C(21,3)+2×C(215,2)=50000: The Novel":
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2014
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    *3×C(21,3)+2×C(215,2)=50000: The Novel*
+    is a novel generated for NaNoGenMo 2014.  The minimum word count
+    for a NaNoGenMo novel is 50,000 words, and the question occurred:
+    if one wanted to make a novel with *exactly* that many words using
+    just combinations and/or permutations, what combinations should one pick?
+
+"3×C(21,3)+2×C(215,2)=50000: The Novel (Markdown)":
+  type: Implementation
+  implementation-of:
+  - "3×C(21,3)+2×C(215,2)=50000: The Novel"
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - "installation/3×C(21,3)+2×C(215,2)=50000: The Novel"
+  file-locations:
+  - https://gist.github.com/cpressey/d100d3519083638d45c3
+
+
+A Rainy Sunday Afternoon:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2014
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    *A Rainy Sunday Afternoon* is a novel generated for NaNoGenMo 2014.
+    It was based on the premise that sometimes people do things that
+    are worthy of automata, too.
+
+A Rainy Sunday Afternoon (Markdown):
+  type: Implementation
+  implementation-of:
+  - A Rainy Sunday Afternoon
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - installation/A Rainy Sunday Afternoon
+  file-locations:
+  - https://gist.github.com/cpressey/1b9f6d8c66cc1f736aba
+
+
+Hope and Remembrance:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2014
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    *Hope and Remembrance* is a novel generated for NaNoGenMo 2014.
+    It is possibly the first NaNoGenMo submission which attempts to
+    implement foreshadowing, however ham-fistedly.
+
+Hope and Remembrance (Markdown):
+  type: Implementation
+  implementation-of:
+  - Hope and Remembrance
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - installation/Hope and Remembrance
+  file-locations:
+  - https://gist.github.com/cpressey/ecb626c5fc21f3e66443
+
+
+Threnody for Abraxas:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  inception-date: Nov 2014
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    *Threnody for Abraxas* is a
+    _phantasmagoric Surrealist word/concept-painting_
+    generated for NaNoGenMo 2014.
+
+Threnody for Abraxas (Markdown):
+  type: Implementation
+  implementation-of:
+  - Threnody for Abraxas
+  license: Public Domain
+  host-language: Markdown
+  online-locations:
+  - installation/Threnody for Abraxas
+  file-locations:
+  - https://gist.github.com/cpressey/119510ee0c99eb3d53ca
