@@ -167,3 +167,15 @@
   - ../modules/html5-gewgaws/the-frame/the-frame.js
   launch-config: |
     { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
+
+'The Judgment of Paris':
+  subtitle: From the Point of View of the Apple
+  type: Online Installation
+  installation-of: the-judgment-of-paris.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js

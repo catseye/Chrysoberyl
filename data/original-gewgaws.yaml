@@ -403,3 +403,26 @@ the-frame.js:
   - The Frame
   online-locations:
   - installation/The Frame
+
+
+The Judgment of Paris:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    A slight reworking of a well-known
+    [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
+  inception-date: 2014
+
+the-judgment-of-paris.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - The Judgment of Paris
+  online-locations:
+  - installation/The Judgment of Paris
