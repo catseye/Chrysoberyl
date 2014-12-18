@@ -1,5 +1,52 @@
 # encoding: UTF-8
 
+The Aftermath of NaNoGenMo 2014:
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 18 Dec 2014 20:58:20 GMT
+  blurb: |
+    The Aftermath of NaNoGenMo 2014.
+  description: |
+    So [NaNoGenMo](https://github.com/dariusk/NaNoGenMo/issues?q=is:open+is:issue+label:completed)
+    survived into a [second year](https://github.com/dariusk/NaNoGenMo-2014/issues?q=is:open+is:issue+label:completed).
+    
+    It probably would have made more sense to mention it at the beginning
+    of November, rather than two-thirds through December, but — well —
+    it's all very exciting when its time of year comes around you see,
+    and I get distracted.  Last year, I didn't bother to say anything about
+    it even _after_ it was over.  So this is, at least, an improvement over that.
+    
+    In 2014, Cat's Eye Technologies (or rather, Chris Pressey sponsored by
+    the auspices of Cat's Eye Technologies — or something) staffed the
+    [NaNoGenLab](https://github.com/catseye/NaNoGenLab/tree/nanogenmo-2014-end),
+    running one experiment in the generation, transformation, and general
+    mutilation of text, per day, for the month of November.  (So that was a
+    goal of: 30 experiments.  But we actually ended up with 32, somehow.)
+    
+    Out of this chaos, we generated some novels too, which you can read
+    in the [[Text]]s section.
+    
+    And I regret with alarm to note that, right in the middle of November, there was
+    an unfortunate...
+    [aesthetic incident](https://github.com/dariusk/NaNoGenMo-2014/issues/10#issuecomment-63069185)...
+    which resulted in... _measures_ being taken, you see...
+    resulting in the creation of
+    [this monstrosity](https://github.com/cpressey/NaOpGenMo/).  Listen
+    at your own risk.
+       
+    Oh!  And, um, I dusted off some [[Gewgaw|gewgaws]] that were just languishing
+    in the lab, and put them on the site.  They are, in no particular order,
+    [[installation/The Judgment of Paris]],
+    [[installation/Woman on Film]],
+    [[installation/Radialjective]], and
+    [[installation/Circus Xamulus]].
+    
+    And also [[installation/Cheshire Text]], which is not a gewgaw but a text, but which
+    was not done for NaNoGenMo, because it's not a novel.  And a
+    [[installation/Text Uniquifier]], which isn't a novel _or_ a text but
+    which _was_ done for NaNoGenMo because it's a generator, or at least a
+    filter, which I've classified, provisionally, as a gewgaw.  Clear as mud, eh?
+
 "Introducing The Cat's Eye Technologies Platform":
   type: Article
   article-type: announcement

@@ -135,7 +135,7 @@ Nif (Markdown):
 
 Cheshire Text:
   type: Text
-  development-stage: work in progress
+  development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   authors:
   - Chris Pressey
