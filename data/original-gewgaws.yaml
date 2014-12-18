@@ -107,6 +107,28 @@ a-non-random-walk.js:
   - installation/A Non-Random Walk
 
 
+Circus Xamulus:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    A circle-based time-lapse space-filler.
+
+circus-xamulus.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Circus Xamulus
+  online-locations:
+  - installation/Circus Xamulus
+
+
 Fibonacci Spiral:
   type: Gewgaw
   development-stage: mature
@@ -341,7 +363,7 @@ progression.js:
   - installation/Progression
 
 
-'Radialjective':
+Radialjective:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution

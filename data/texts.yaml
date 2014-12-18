@@ -133,8 +133,8 @@ Nif (Markdown):
   - https://gist.github.com/catseye/7336582
 
 
-'Cheshire Text':
-  type: Gewgaw
+Cheshire Text:
+  type: Text
   development-stage: work in progress
   defining-distribution: HTML5 Gewgaws distribution
   authors:

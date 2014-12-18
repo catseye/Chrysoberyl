@@ -27,6 +27,17 @@
   javascript-urls:
   - ../modules/html5-gewgaws/chzrxl/chzrxl.js
 
+'Circus Xamulus':
+  type: Online Installation
+  installation-of: circus-xamulus.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/circus-xamulus/circus-xamulus.js
+
 'Cyclobots':
   type: Online Installation
   installation-of: cyclobots.js
@@ -153,7 +164,7 @@
   - Javascript
   - HTML5
   javascript-urls:
-  - ../modules/gewgaw-lab/radialjective/radialjective.js
+  - ../modules/html5-gewgaws/radialjective/radialjective.js
 
 'Text Uniquifier':
   type: Online Installation
