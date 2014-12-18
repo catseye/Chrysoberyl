@@ -133,6 +133,28 @@ Nif (Markdown):
   - https://gist.github.com/catseye/7336582
 
 
+'Cheshire Text':
+  type: Gewgaw
+  development-stage: work in progress
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    As if Lewis Carroll's works needed any more remixes...
+
+cheshire-text.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Cheshire Text
+  online-locations:
+  - installation/Cheshire Text
+
+
 Doby Mick:
   type: Text
   development-stage: mature

@@ -341,6 +341,28 @@ progression.js:
   - installation/Progression
 
 
+'Radialjective':
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    An animated mathematical function, depicted in four different ways.
+
+radialjective.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Radialjective
+  online-locations:
+  - installation/Radialjective
+
+
 Text Uniquifier:
   type: Gewgaw
   development-stage: mature

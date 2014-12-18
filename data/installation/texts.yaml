@@ -36,6 +36,18 @@
   github-file-installation: true
 
 
+'Cheshire Text':
+  type: Online Installation
+  installation-of: cheshire-text.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/gewgaw-lab/cheshire-text/cheshire-text.js
+
+
 "3×C(21,3)+2×C(215,2)=50000: The Novel":
   type: Online Installation
   installation-of: "3×C(21,3)+2×C(215,2)=50000: The Novel (Markdown)"

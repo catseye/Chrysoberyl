@@ -144,6 +144,17 @@
   javascript-urls:
   - ../modules/html5-gewgaws/progression/progression.js
 
+'Radialjective':
+  type: Online Installation
+  installation-of: radialjective.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/gewgaw-lab/radialjective/radialjective.js
+
 'Text Uniquifier':
   type: Online Installation
   installation-of: text-uniquifier.js
