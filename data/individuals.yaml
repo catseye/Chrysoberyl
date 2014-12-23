@@ -227,7 +227,7 @@ George Spencer-Brown:
 Merman Helville:
   type: Individual
 
-# musicians
+# artists and/or musicians
 Frank Zappa:
   type: Individual
   wikipedia: Frank Zappa
@@ -235,6 +235,19 @@ Jan Hammer:
   type: Individual
 Jerry Goodman:
   type: Individual
+Rube Goldberg:
+  type: Individual
+  wikipedia: Rube Goldberg
+  see-also:
+  - W. Heath Robinson
+W. Heath Robinson:
+  type: Individual
+  wikipedia: W. Heath Robinson
+  see-also:
+  - Rube Goldberg
+Nam June Paik:
+  type: Individual
+  wikipedia: Nam June Paik
 
 # other notable people
 Anonymous:
@@ -248,13 +261,3 @@ Enn Norak:
   description: |
     Canadian mathematician who first made [[Martin Gardner]] aware of
     [[A Non-Random Walk]].
-Rube Goldberg:
-  type: Individual
-  wikipedia: Rube Goldberg
-  see-also:
-  - W. Heath Robinson
-W. Heath Robinson:
-  type: Individual
-  wikipedia: W. Heath Robinson
-  see-also:
-  - Rube Goldberg

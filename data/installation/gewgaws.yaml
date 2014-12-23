@@ -56,6 +56,17 @@
   javascript-urls:
   - ../modules/html5-gewgaws/cyclobots/cyclobots.js
 
+Eine kleine Glitchfraktal:
+  type: Online Installation
+  installation-of: eine-kleine-glitchfraktal.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
+
 'Fibonacci Spiral':
   type: Online Installation
   installation-of: fibonacci-spiral.js
@@ -201,6 +212,17 @@
   - HTML5
   javascript-urls:
   - ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js
+
+'Uncle Ankur':
+  type: Online Installation
+  installation-of: uncle-ankur.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/uncle-ankur/uncle-ankur.js
 
 'Woman on Film':
   type: Online Installation

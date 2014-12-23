@@ -129,6 +129,32 @@ circus-xamulus.js:
   - installation/Circus Xamulus
 
 
+Eine kleine Glitchfraktal:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    A simple fractal (each rectangle contains four smaller rectangles)
+    with colour variance and configurable glitching.
+  instructions: |
+    Select a mode from from the MODE dropdown to see different styles
+    of glitching applied to the rectangles.
+
+eine-kleine-glitchfraktal.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Eine kleine Glitchfraktal
+  online-locations:
+  - installation/Eine kleine Glitchfraktal
+
+
 Fibonacci Spiral:
   type: Gewgaw
   development-stage: mature
@@ -470,6 +496,29 @@ the-judgment-of-paris.js:
   - The Judgment of Paris
   online-locations:
   - installation/The Judgment of Paris
+
+
+Uncle Ankur:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    An experimental animation employing gradients and
+    randomly-constructed transformation matrices.
+
+uncle-ankur.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Uncle Ankur
+  online-locations:
+  - installation/Uncle Ankur
 
 
 Woman on Film:
