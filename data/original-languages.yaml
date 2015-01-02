@@ -3010,9 +3010,9 @@ Wierd:
   - 2-dimensional
   - Angular
   description: |
-    Wierd is a language, inspired somewhat by [[Befunge-93]] and [[brainfuck]],
-    where instructions are not determined by the symbols in a sequence of symbols,
-    but by the *bends* in a sequence of symbols.
+    Wierd is a programming language, inspired somewhat by [[Befunge-93]] and
+    [[brainfuck]], where instructions are not determined by the symbols in a
+    sequence of symbols, but by the *bends* in a sequence of symbols.
   authors:
   - Chris Pressey
   - John Colagioia
@@ -3070,6 +3070,19 @@ wierd-milo.c:
   license: Unknown license
   implementation-type: interpreter
   host-language: ANSI C
+
+wierd.js:
+  type: Implementation
+  development-stage: work in progress
+  # "John Wierd"
+  implementation-of:
+  - Wierd
+  in-distribution: Wierd distribution
+  authors:
+  - Chris Pressey
+  license: Unknown license
+  implementation-type: interpreter
+  host-language: Javascript
 
 
 Wunnel: 
