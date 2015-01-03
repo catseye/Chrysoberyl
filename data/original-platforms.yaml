@@ -104,7 +104,6 @@ yoob distribution:
   bitbucket: catseye/yoob
   github: catseye/yoob
   issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
-  project-page: 'http://catseye.tc/projects/yoob/'
   releases: 
   - version: "0.2"
     revision: "2011.0624"
