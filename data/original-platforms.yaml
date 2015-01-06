@@ -160,4 +160,9 @@ yoob.js distribution:
   - version: "0.5"
     revision: "0.0"
     url: http://catseye.tc/distfiles/yoob.js-0.5.zip
-
+  - version: "0.6"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yoob.js-0.6.zip
+  - version: "0.7"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yoob.js-0.7.zip
