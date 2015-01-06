@@ -101,6 +101,7 @@ a-non-random-walk.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - A Non-Random Walk
   online-locations:
@@ -123,6 +124,7 @@ circus-xamulus.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Circus Xamulus
   online-locations:
@@ -149,6 +151,7 @@ eine-kleine-glitchfraktal.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Eine kleine Glitchfraktal
   online-locations:
@@ -177,6 +180,7 @@ fibonacci-spiral.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Fibonacci Spiral
   online-locations:
@@ -204,6 +208,7 @@ fingerspelling.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Fingerspelling
   online-locations:
@@ -231,6 +236,7 @@ hirsute-miasma.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Hirsute Miasma
   online-locations:
@@ -256,6 +262,7 @@ heronsis-hermnonicii.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Heronsis hermnonicii
   online-locations:
@@ -287,6 +294,7 @@ hypongtrochoid.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Hypongtrochoid
   online-locations:
@@ -320,6 +328,7 @@ multicolouralism.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Multicolouralism
   online-locations:
@@ -361,6 +370,7 @@ prairie.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Prairie
   online-locations:
@@ -383,6 +393,7 @@ progression.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Progression
   online-locations:
@@ -405,6 +416,7 @@ radialjective.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Radialjective
   online-locations:
@@ -442,6 +454,7 @@ text-uniquifier.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Text Uniquifier
   online-locations:
@@ -469,6 +482,7 @@ the-frame.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - The Frame
   online-locations:
@@ -492,6 +506,7 @@ the-judgment-of-paris.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - The Judgment of Paris
   online-locations:
@@ -515,6 +530,7 @@ uncle-ankur.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Uncle Ankur
   online-locations:
@@ -540,6 +556,7 @@ woman-on-film.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Woman on Film
   online-locations:
