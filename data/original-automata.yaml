@@ -80,6 +80,7 @@ chzrxl.js:
   type: Implementation
   license: Public Domain
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Chzrxl
   online-locations:
@@ -194,6 +195,7 @@ cyclobots.js:
   - Cyclobots
   license: Freely Redistributable
   host-language: Javascript
+  host-platform: HTML5
   development-stage: mature
   online-locations:
   - installation/Cyclobots
@@ -430,7 +432,7 @@ worb.js:
   license: BSD license
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: yoob.js API
+  host-platform: HTML5
   online-locations:
   - installation/noit o' mnain worb
 

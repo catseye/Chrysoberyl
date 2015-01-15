@@ -860,7 +860,7 @@ etcha.js:
   license: Public Domain
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: yoob.js API
+  host-platform: HTML5
   online-locations:
   - installation/Etcha
 
@@ -1200,7 +1200,7 @@ gemooy.js:
   license: Public Domain
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: yoob.js API
+  host-platform: HTML5
   online-locations:
   - installation/Gemooy
 
@@ -2157,7 +2157,7 @@ pixley.js:
   license: BSD license
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: yoob.js API
+  host-platform: HTML5
   online-locations:
   - installation/Pixley
 
@@ -3083,6 +3083,7 @@ wierd.js:
   license: Unknown license
   implementation-type: interpreter
   host-language: Javascript
+  host-platform: HTML5
 
 
 Wunnel: 
@@ -3160,7 +3161,7 @@ wunnel.js:
   license: Public Domain
   implementation-type: interpreter
   host-language: Javascript
-  host-platform: yoob.js API
+  host-platform: HTML5
   online-locations:
   - installation/Wunnel
 

@@ -199,6 +199,7 @@ swl.js:
   in-distribution: Super Wumpus Land distribution
   license: BSD license
   host-language: Javascript
+  host-platform: HTML5
   interface: yoob.js TextTerminal
   online-locations:
   - installation/Super Wumpus Land
