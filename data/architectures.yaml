@@ -311,7 +311,17 @@ Z-Machine:
   type: Platform
   no-specification: true
   development-stage: vintage
-  native-language: native code
+  native-language: Z-Machine code
   other-languages: []
   description: |
     A portable system for interactive fiction.
+
+Z-Machine code:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  computational-class: Finite-automata-complete
+  no-specification: true
+  development-stage: vintage
+  authors: []
