@@ -307,8 +307,10 @@ Sony PlayStation:
   description: |
     A home video game system of old.  You may have heard of it?
 
+
 Z-Machine:
   type: Platform
+  # TODO: look up spec, i'm sure it's online
   no-specification: true
   development-stage: vintage
   native-language: Z-Machine code
@@ -324,4 +326,18 @@ Z-Machine code:
   computational-class: Finite-automata-complete
   no-specification: true
   development-stage: vintage
+  # TODO: Infocom
   authors: []
+
+Zplet:
+  type: Implementation
+  reference: false
+  license: Artistic License
+  implementation-of:
+  - Z-Machine
+  implementation-type: emulator
+  host-language: Java
+  description: |
+    Zplet is a Java applet which emulates a Z-Machine, which allows
+    Infocom text adventure games (and other interactive fiction and other
+    things using the same format) to be played.

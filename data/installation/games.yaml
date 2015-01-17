@@ -29,3 +29,17 @@
   javascript-urls:
   - ../modules/super-wumpus-land/impl/swl.js/src/swl.js
   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
+
+'The Never-Ending Maze':
+  type: Online Installation
+  installation-of: never-ending-maze.z5
+  interactive: true
+  animated: false
+  mediums:
+  - Z-Machine code
+  - Zplet
+  - Java applet
+  - HTML5
+  instructions: |
+    It's a text adventure.  Type commands for the actions that you
+    want your avatar to undertake.  For instance, `go east`.

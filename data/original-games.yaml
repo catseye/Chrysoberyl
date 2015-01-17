@@ -222,6 +222,31 @@ Super Wumpus Land distribution:
     url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0324.zip
 
 
+'The Never-Ending Maze':
+  type: Game
+  genre: Text Adventure
+  development-stage: mature
+  no-specification: true
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca 2000
+  description: |
+    An Infocom-style text adventure game based on the defining cultural
+    phenomenon of my generation.  (Possibly.)
+
+never-ending-maze.z5:
+  type: Implementation
+  license: Freely Redistributable
+  host-platform: Z-Machine
+  host-language: Z-Machine code
+  implementation-of:
+  - The Never-Ending Maze
+  online-locations:
+  - installation/The Never-Ending Maze
+
+
 Zzrk:
   subtitle: Adventures in the Great Unsaturated Grammar
   type: Game
