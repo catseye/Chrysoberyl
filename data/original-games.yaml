@@ -245,6 +245,8 @@ never-ending-maze.z5:
   - The Never-Ending Maze
   online-locations:
   - installation/The Never-Ending Maze
+  file-locations:
+  - ../distfiles/never-ending-maze-1.0.z5
 
 
 Zzrk:

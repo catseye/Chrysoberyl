@@ -41,5 +41,6 @@
   - Java applet
   - HTML5
   instructions: |
-    It's a text adventure.  Type commands for the actions that you
+    It's a text adventure.  You can play it in your web browser via
+    the [[Zplet]] emulator applet.  Type commands for the actions that you
     want your avatar to undertake.  For instance, `go east`.
