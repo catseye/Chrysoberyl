@@ -72,7 +72,7 @@ The PETulant Cursor distribution:
 
 'Canvas Feedback':
   type: Gewgaw
-  development-stage: work in progress
+  development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   authors:
   - Chris Pressey
@@ -84,7 +84,7 @@ The PETulant Cursor distribution:
     canvas element, with in-browser controls by which the feedback properties
     can be adjusted.  For some background and an explanation
     of how it works, see
-    [its README document](https://bitbucket.org/catseye/canvas-feedback/).
+    [its README document](https://github.com/catseye/Canvas-Feedback/).
   instructions: |
     To begin exploring, we suggest you first try different presets
     from the *Presets* drop-down in the control panel on the right.
