@@ -604,18 +604,7 @@ class Renderer(object):
 
         @expose
         def latest_news_item():
-            """Returns a key, not a node.
-
-            """
-            latest = None
-            latest_date = None
-            for (key, node) in self.space.iteritems():
-                if node['type'] == 'Article':
-                    if latest_date is None or \
-                       node['publication-date'] > latest_date:
-                        latest_date = node['publication-date']
-                        latest = key
-            return latest
+            return list(articles())[0]
 
         @expose
         def strftime(date, fmt):
