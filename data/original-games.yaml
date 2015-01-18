@@ -234,7 +234,7 @@ Super Wumpus Land distribution:
   inception-date: ca 2000
   description: |
     An Infocom-style text adventure game based on the defining cultural
-    phenomenon of my generation.  (Possibly.)
+    phenomenon of a generation.  (Possibly.)
 
 never-ending-maze.z5:
   type: Implementation
@@ -246,7 +246,7 @@ never-ending-maze.z5:
   online-locations:
   - installation/The Never-Ending Maze
   file-locations:
-  - ../distfiles/never-ending-maze-1.0.z5
+  - http://catseye.tc/distfiles/never-ending-maze-1.0.z5
 
 
 Zzrk:
