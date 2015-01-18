@@ -1,5 +1,23 @@
 # encoding: UTF-8
 
+'Canvas Feedback':
+  type: Online Installation
+  installation-of: canvas-feedback.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/canvas-feedback/src/canvas-feedback.js
+  launch-config: |
+    {
+      'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg',
+      'controlPanel': document.getElementById('control_panel')
+    }
+
+# ---------------------------------------------------------------
+
 'A Non-Random Walk':
   type: Online Installation
   installation-of: a-non-random-walk.js

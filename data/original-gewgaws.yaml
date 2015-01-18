@@ -70,6 +70,81 @@ The PETulant Cursor distribution:
 #-------------------
 
 
+'Canvas Feedback':
+  type: Gewgaw
+  development-stage: work in progress
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2013
+  description: |
+    An application of an analogue-video-like feedback effect to an HTML5
+    canvas element, with in-browser controls by which the feedback properties
+    can be adjusted.  For some background and an explanation
+    of how it works, see
+    [its README document](https://bitbucket.org/catseye/canvas-feedback/).
+  instructions: |
+    To begin exploring, we suggest you first try different presets
+    from the *Presets* drop-down in the control panel on the right.
+    
+    You can also paste the URL of an image in the *Image URL* text box,
+    and click "Load", to try a different image.
+    
+    If you want to get your hands dirty, you can open the *Adjustments*
+    panel, in which you will find various sliders with which you can
+    control all the parameters.
+    
+    #### How can I save an image?
+    
+    In Firefox, you can right-click on the canvas and select "View image",
+    and save that.  In other browsers, the easiest way may be to click the
+    _Pause_ button and take a screenshot.
+    (You can thank the security model used in the HTML5 canvas for this.)
+
+    #### The animation isn't perfectly smooth.
+    
+    This is an unavoidable consequence of your operating system — the
+    browser isn't the only thing that's running, and may not get a chance
+    to run until it's too late to display the next animation frame.
+    
+    In other HTML animations, this can be worked around — the animation still
+    drops frames, but intermediate steps can be computed so that it doesn't
+    look excessively jerky.  However, that is not a realistic option here,
+    due to how the feedback process works.
+    
+    You can minimize frame-dropping by:
+    
+    *   choosing a relatively small image
+    *   finding a sufficiently powerful computer to run it on
+    *   making sure you have no other programs running, and no other tabs
+        open in your browser
+    *   letting your browser "warm up" a bit after closing other tabs etc.,
+        so that it doesn't have anything pending to clean up after
+    *   **not** moving the mouse pointer.
+    
+    #### Now my desktop is twisting counter-clockwise!
+    
+    You've just been staring at it too long.
+    
+    #### Wait, I see _five-fold symmetry_.  Where is that coming from?
+    
+    To be honest, I really don't know.
+
+canvas-feedback.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  implementation-of:
+  - Canvas Feedback
+  online-locations:
+  - installation/Canvas Feedback
+
+
+#-------------------
+
+
 'A Non-Random Walk':
   type: Gewgaw
   development-stage: mature
