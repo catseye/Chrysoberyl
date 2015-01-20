@@ -20,3 +20,14 @@ Exhibit:
   type: Disambiguation node
   entries:
   - Online Installation
+
+NaNoGenMo:
+  type: Disambiguation node
+  entries:
+  - NaNoGenMo 2013
+  - NaNoGenMo 2014
+
+NaOpGenMo:
+  type: Disambiguation node
+  entries:
+  - NaOpGenMo 2014

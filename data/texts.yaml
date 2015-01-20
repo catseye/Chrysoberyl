@@ -17,7 +17,7 @@ The Swallows:
     *The Swallows* is the name of a series of computer-generated novels,
     as well as the title of the first novel in the series, and the name
     of [[The Swallows Engine|the program that produced them.]]  They
-    were produced for NaNoGenMo 2013, and are hosted on Github.
+    were produced for [[NaNoGenMo 2013]], and are hosted on Github.
 
 The Swallows (Markdown):
   type: Implementation
@@ -117,7 +117,7 @@ Nif:
   auspices:
   - Cat's Eye Technologies
   description: |
-    *Nif* is a novel generated for NaNoGenMo 2013.  It is about a petulant child
+    *Nif* is a novel generated for [[NaNoGenMo 2013]].  It is about a petulant child
     (possibly named Nif) who has just discovered palindromes.  It is one long
     palindrome.
 
@@ -170,7 +170,7 @@ Doby Mick:
     > I quietly shake to the tip.
     
     *Doby Mick, or, the Excessively Spoonerized Whale*
-    is a novel generated for NaNoGenMo 2014.  A spoonerization algorithm
+    is a novel generated for [[NaNoGenMo 2014]].  A spoonerization algorithm
     was developed, which picks two words from each phrase of each
     sentence and swaps their initial consonant clusters.  This was run on
     Moby Dick, to produce this novel.
@@ -198,7 +198,7 @@ Doby Mick (Markdown):
   - Cat's Eye Technologies
   description: |
     *3×C(21,3)+2×C(215,2)=50000: The Novel*
-    is a novel generated for NaNoGenMo 2014.  The minimum word count
+    is a novel generated for [[NaNoGenMo 2014]].  The minimum word count
     for a NaNoGenMo novel is 50,000 words, and the question occurred:
     if one wanted to make a novel with *exactly* that many words using
     just combinations and/or permutations, what combinations should one pick?
@@ -225,7 +225,7 @@ A Rainy Sunday Afternoon:
   auspices:
   - Cat's Eye Technologies
   description: |
-    *A Rainy Sunday Afternoon* is a novel generated for NaNoGenMo 2014.
+    *A Rainy Sunday Afternoon* is a novel generated for [[NaNoGenMo 2014]].
     It was based on the premise that, while sometimes automata do
     things worthy of people (like writing a novel), sometimes people do
     things that are worthy of automata, too.
@@ -252,7 +252,7 @@ Hope and Remembrance:
   auspices:
   - Cat's Eye Technologies
   description: |
-    *Hope and Remembrance* is a novel generated for NaNoGenMo 2014.
+    *Hope and Remembrance* is a novel generated for [[NaNoGenMo 2014]].
     It is possibly the first NaNoGenMo submission which attempts to
     implement foreshadowing, however ham-fistedly.
 
@@ -280,7 +280,7 @@ Threnody for Abraxas:
   description: |
     *Threnody for Abraxas* is a
     _phantasmagoric Surrealist word/concept-painting_
-    generated for NaNoGenMo 2014.
+    generated for [[NaNoGenMo 2014]].
 
 Threnody for Abraxas (Markdown):
   type: Implementation

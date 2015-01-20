@@ -5,3 +5,29 @@ Esoteric Awards:
 
 Mini Game Compo 2009:
   type: Competition
+
+NaNoGenMo 2013:
+  type: Competition
+  description: |
+    NaNoGenMo isn't really a competition; or rather, it is, but you are only
+    competing against yourself and the clock (or rather, the calendar.)
+  references:
+  - title: Completed entries
+    description: Generated novels for 2013
+    url: https://github.com/dariusk/NaNoGenMo/issues?q=is:open+is:issue+label:completed
+
+NaNoGenMo 2014:
+  type: Competition
+  description: |
+    NaNoGenMo isn't really a competition; or rather, it is, but you are only
+    competing against yourself and the clock (or rather, the calendar.)
+  references:
+  - title: Completed entries
+    description: Generated novels for 2014
+    url: https://github.com/dariusk/NaNoGenMo-2014/issues?q=is:open+is:issue+label:completed
+
+NaOpGenMo 2014:
+  type: Competition
+  description: |
+    NaOpGenMo isn't really a competition; or rather, it is, but you are only
+    competing against yourself and the clock (or rather, the calendar.)
