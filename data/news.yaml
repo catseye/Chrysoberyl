@@ -1,5 +1,25 @@
 # encoding: UTF-8
 
+This Maze is Never-Ending.  Plus two gewgaws:
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 20 Jan 2015 10:37:14 GMT
+  blurb: |
+    This [[installation/The Never-Ending Maze|maze]] is never-ending.
+    Plus two [[installation/Eine kleine Glitchfraktal|gew]]-[[installation/Uncle Ankur|gaws]].
+  description: |
+    A text adventure — yes, I could never quite get the hang of calling
+    it "interactive fiction" — a text adventure game that I wrote in [[Inform]]
+    about fifteen years ago, is now [[installation/The Never-Ending Maze|installed online]]
+    as a [[Java applet]] thanks to [[Zplet]].
+    
+    If you like this, you might also like [[installation/Cheshire Text]].
+    
+    If you hate this, you might instead like two new gewgaws that have also
+    been put online: [[installation/Eine kleine Glitchfraktal]] and
+    [[installation/Uncle Ankur]].  Neither one involves any text whatsoever
+    (well, just a little on the control panels, maybe.)
+
 Version 0.2 of The Platform - now with Torrent:
   type: Article
   article-type: announcement

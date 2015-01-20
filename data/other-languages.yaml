@@ -278,6 +278,28 @@ hugs:
   - http://www.haskell.org/hugs/
 
 
+Inform:
+  type: Programming Language
+  genre: DSL
+  paradigms:
+  - Imperative
+  - Object-oriented
+  computational-class: Turing-complete
+  no-specification: true
+  development-stage: mature
+  authors: []
+
+inform 6.33:
+  type: Implementation
+  reference: true
+  implementation-of:
+  - Inform
+  implementation-type: compiler
+  host-language: ANSI C
+  target-language: Z-Machine code
+  license: Unknown license
+
+
 Java:
   type: Programming Language
   genre: Production language
