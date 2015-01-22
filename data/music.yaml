@@ -1090,3 +1090,26 @@ Fluorescent Atrocious (mp3):
   license: Freely Redistributable
   file-locations:
   - "../music/W.i.t.i.d.E - Fluorescent Atrocious.mp3"
+
+The Shortbread Rocketship:
+  type: Musical Composition
+  domain: What is this I don't even
+  genre: Opera
+  authors:
+  - Chris Pressey
+  auspices:
+  - What is this I don't even
+  # YEESH
+  composed-on: Linux
+  using-software: Python
+  development-stage: mature
+  inception-date: Nov 2014
+  links:
+  - http://alonetone.com/catseye/playlists/the-shortbead-rocketship-a-cut-up-opera/
+
+# The Shortbread Rocketship (mp3):
+#   type: Implementation
+#   implementation-of:
+#   - The Shortbread Rocketship
+#   host-language: mp3
+#   license: Public Domain

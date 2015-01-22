@@ -121,6 +121,8 @@ Ragtime:
   type: Genre
 Medieval:
   type: Genre
+Opera:
+  type: Genre
 
 # BOOKS
 
