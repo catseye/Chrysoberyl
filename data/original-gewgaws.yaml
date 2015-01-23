@@ -15,6 +15,20 @@ HTML5 Gewgaws distribution:
   issue-tracker: github
   releases: []
 
+Canvas Feedback distribution: 
+  type: Distribution
+  bitbucket: catseye/canvas-feedback
+  github: catseye/Canvas-Feedback
+  issue-tracker: github
+  releases: []
+
+NaNoGenLab distribution: 
+  type: Distribution
+  bitbucket: catseye/nanogenlab
+  github: catseye/NaNoGenLab
+  issue-tracker: github
+  releases: []
+
 
 Ribos: 
   type: Gewgaw
@@ -134,7 +148,9 @@ The PETulant Cursor distribution:
 
 canvas-feedback.js:
   type: Implementation
-  license: Public Domain
+  license: MIT license
+  in-distributions:
+  - Canvas Feedback distribution
   host-language: Javascript
   implementation-of:
   - Canvas Feedback
@@ -175,6 +191,8 @@ canvas-feedback.js:
 a-non-random-walk.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -198,6 +216,8 @@ Circus Xamulus:
 circus-xamulus.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -225,6 +245,8 @@ Eine kleine Glitchfraktal:
 eine-kleine-glitchfraktal.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -254,6 +276,8 @@ Fibonacci Spiral:
 fibonacci-spiral.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -282,6 +306,8 @@ Fingerspelling:
 fingerspelling.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -310,6 +336,8 @@ Hirsute Miasma:
 hirsute-miasma.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -336,6 +364,8 @@ Heronsis hermnonicii:
 heronsis-hermnonicii.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -368,6 +398,8 @@ Hypongtrochoid:
 hypongtrochoid.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -402,6 +434,8 @@ Multicolouralism:
 multicolouralism.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -444,6 +478,8 @@ Prairie:
 prairie.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -467,6 +503,8 @@ Progression:
 progression.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -490,6 +528,8 @@ Radialjective:
 radialjective.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -528,6 +568,8 @@ Text Uniquifier:
 text-uniquifier.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - NaNoGenLab distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -556,6 +598,8 @@ The Frame:
 the-frame.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -580,6 +624,8 @@ The Judgment of Paris:
 the-judgment-of-paris.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -604,6 +650,8 @@ Uncle Ankur:
 uncle-ankur.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
@@ -630,6 +678,8 @@ Woman on Film:
 woman-on-film.js:
   type: Implementation
   license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
