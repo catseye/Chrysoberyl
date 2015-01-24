@@ -195,6 +195,12 @@ The-Cats-Eye-Technologies-Platform-0.2.img:
   generally-recommended: true
   license: Unknown license
   host-language: x86 machine code
+  description: |
+    Despite what it says above, it is not really "in" the distribution.
+    The distribution contains [[Funicular]] configurations which allow
+    you to build this disk image from source.  A pre-built disk image
+    is available to download via
+    [this torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent).
 
 "The Cat's Eye Technologies Platform distribution": 
   # tricky because distributed via torrent.

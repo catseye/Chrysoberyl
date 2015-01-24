@@ -7,11 +7,6 @@ ALPACA distribution:
 - README.markdown
 - doc/ALPACA.markdown
 - impl/alpaca.pl/README.markdown
-Amiga Gondola distribution:
-- LICENSE
-- README.markdown
-- doc/DevEnv.markdown
-- doc/Gondola.markdown
 Animals distribution:
 - README.markdown
 - UNLICENSE

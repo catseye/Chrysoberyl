@@ -34,9 +34,6 @@ Amiga Gondola:
 
 Amiga Gondola distribution: 
   type: Distribution
-  bitbucket: catseye/amiga-gondola
-  github: catseye/Amiga-Gondola
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "2013.1111"
@@ -242,20 +239,17 @@ Funicular:
   - Cat's Eye Technologies
   description: |
     **Funicular** is a system that semi-automates the creation of development
-    environments on eclectic architectures.
-    
-    "Semi-automate" means it automates what it can, and provides repeatable
-    instructions for you to follow for what it can't.
+    environments on eclectic architectures. "Semi-automate" means it automates
+    what it can, and provides repeatable instructions for you to follow for
+    what it can't.
     
     "Eclectic architectures" is not terribly-well defined, but it includes
     retrocomputing and esoteric architectures.  Basically, if you've got an
     emulator for it and install and support images for it, you might be able
     to install and outfit and and run a system for it, using Funicular.
     
-    It's kind of like a Vagrant for the lunatic fringe, eh?
-    
     It replaces [[Amiga Gondola]].  It can handle such OS/emulator combinations
-    as [[AmigaDOS 1.3]] under [[E-UAE]] (emulating an [[Amiga 500]]),
+    as [[AmigaDOS 1.3]] under [[E-UAE]] emulating an [[Amiga 500]],
     [[FreeDOS]] under [[QEMU]], and [[NetBSD]] under [[QEMU]].
   inception-date: Jun 17 2014
   development-stage: not fully complete
