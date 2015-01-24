@@ -31,3 +31,8 @@ NaOpGenMo:
   type: Disambiguation node
   entries:
   - NaOpGenMo 2014
+
+The Platform:
+  type: Disambiguation node
+  entries:
+  - "The Cat's Eye Technologies Platform"

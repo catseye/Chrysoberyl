@@ -29,7 +29,7 @@ Version 0.2 of The Platform - now with Torrent:
     [The Platform](https://github.com/catseye/The-Platform) —
     now with [torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent)!
   description: |
-    Version 0.2 of The Cat's Eye Technologies Platform has been released.
+    Version 0.2 of [[The Cat's Eye Technologies Platform]] has been released.
     It's based on NetBSD 6.1.5 instead of 6.1.4, and has other minor version
     bumps like that in it.  But the major thing now is that, if you don't
     want to go through the hassle of *building* it, you can *download* a
@@ -96,7 +96,7 @@ The Aftermath of NaNoGenMo 2014:
     [The Cat's Eye Technologies Platform](https://github.com/catseye/The-Platform).
   description: |
     We are happy to announce the first release of
-    [The Cat's Eye Technologies Platform](https://github.com/catseye/The-Platform),
+    [[The Cat's Eye Technologies Platform]],
     version 0.1.  It is a "distro" (if I may use that "word") of
     [NetBSD 6.1.4](http://www.netbsd.org/releases/formal-6/NetBSD-6.1.4.html),
     containing almost all of Cat's Eye Technologies' software distributions and

@@ -1104,6 +1104,9 @@ The Shortbread Rocketship:
   using-software: Python
   development-stage: mature
   inception-date: Nov 2014
+  description: |
+    The Shortbread Rocketship is a 2-and-a-half-hour-long computer-generated
+    opera.  It was generated for [[NaOpGenMo 2014]].
   links:
   - http://alonetone.com/catseye/playlists/the-shortbead-rocketship-a-cut-up-opera/
 

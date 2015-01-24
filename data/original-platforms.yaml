@@ -166,3 +166,38 @@ yoob.js distribution:
   - version: "0.7"
     revision: "0.0"
     url: http://catseye.tc/distfiles/yoob.js-0.7.zip
+
+
+"The Cat's Eye Technologies Platform": 
+  type: Platform
+  # sigh.  This is *so* not really true.
+  native-language: Bourne shell
+  # and oh gosh so many languages come bundled with it, what do I put here??
+  other-languages: []
+  description: |
+    The Cat's Eye Technologies Platform is a [[NetBSD]]-based,
+    [[toolshelf]]-powered, [[Funicular]]-built "distro" containing almost all of
+    [[Cat's Eye Technologies]]' software distributions.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Oct 4 2014
+  development-stage: not fully complete
+
+The-Cats-Eye-Technologies-Platform-0.2.img:
+  type: Implementation
+  implementation-of:
+  - "The Cat's Eye Technologies Platform"
+  reference: true
+  implementation-type: framework
+  in-distribution: "The Cat's Eye Technologies Platform distribution"
+  generally-recommended: true
+  license: Unknown license
+  host-language: x86 machine code
+
+"The Cat's Eye Technologies Platform distribution": 
+  # tricky because distributed via torrent.
+  type: Distribution
+  bitbucket: catseye/the-platform
+  github: catseye/The-Platform

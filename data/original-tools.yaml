@@ -20,7 +20,7 @@ Amiga Gondola:
     under [[AmigaDOS 1.3]], generally on an [[Amiga 500]] emulated by the
     [[E-UAE]] emulator.
   inception-date: Oct 25 2013
-  development-stage: not fully complete
+  development-stage: archived
 
 'populate.sh (Amiga Gondola)':
   type: Implementation
@@ -231,6 +231,51 @@ Falderal distribution:
   - version: "0.10"
     revision: "0.0"
     url: http://catseye.tc/distfiles/falderal-0.10.zip
+
+
+Funicular:
+  type: Tool
+  summary: Scripts to set up dev environments on various OS'es on sundry architectures
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    **Funicular** is a system that semi-automates the creation of development
+    environments on eclectic architectures.
+    
+    "Semi-automate" means it automates what it can, and provides repeatable
+    instructions for you to follow for what it can't.
+    
+    "Eclectic architectures" is not terribly-well defined, but it includes
+    retrocomputing and esoteric architectures.  Basically, if you've got an
+    emulator for it and install and support images for it, you might be able
+    to install and outfit and and run a system for it, using Funicular.
+    
+    It's kind of like a Vagrant for the lunatic fringe, eh?
+    
+    It replaces [[Amiga Gondola]].  It can handle such OS/emulator combinations
+    as [[AmigaDOS 1.3]] under [[E-UAE]] (emulating an [[Amiga 500]]),
+    [[FreeDOS]] under [[QEMU]], and [[NetBSD]] under [[QEMU]].
+  inception-date: Jun 17 2014
+  development-stage: not fully complete
+
+funicular:
+  type: Implementation
+  implementation-of:
+  - Funicular
+  reference: true
+  in-distribution: Funicular distribution
+  license: Public Domain
+  host-language: Lua
+  # target-platform: various
+
+Funicular distribution: 
+  type: Distribution
+  bitbucket: catseye/funicular
+  github: catseye/Funicular
+  issue-tracker: github
+  # TODO: releases
 
 
 mzstorkipiwanbotbotbot: 
