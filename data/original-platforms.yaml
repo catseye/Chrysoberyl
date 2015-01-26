@@ -166,6 +166,12 @@ yoob.js distribution:
   - version: "0.7"
     revision: "0.0"
     url: http://catseye.tc/distfiles/yoob.js-0.7.zip
+  - version: "0.7"
+    revision: "2015.0108"
+    url: http://catseye.tc/distfiles/yoob.js-0.7-2015.0108.zip
+  - version: "0.8"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yoob.js-0.8.zip
 
 
 "The Cat's Eye Technologies Platform": 
