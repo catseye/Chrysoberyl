@@ -94,7 +94,7 @@ The PETulant Cursor distribution:
   - Cat's Eye Technologies
   inception-date: 2013
   description: |
-    An application of an analogue-video-like feedback effect to an HTML5
+    An application of an analogue-video-like feedback effect to an [[HTML5]]
     canvas element, with in-browser controls by which the feedback properties
     can be adjusted.  For some background and an explanation
     of how it works, see
@@ -119,19 +119,20 @@ The PETulant Cursor distribution:
 
     #### The animation isn't perfectly smooth.
     
-    This is an unavoidable consequence of your operating system — the
-    browser isn't the only thing that's running, and may not get a chance
-    to run until it's too late to display the next animation frame.
+    This is an unavoidable consequence of conventional operating systems —
+    your web browser isn't the only thing that's running, and may not get a
+    chance to run until it's too late to display the next animation frame.
     
     In other HTML animations, this can be worked around — the animation still
     drops frames, but intermediate steps can be computed so that it doesn't
-    look excessively jerky.  However, that is not a realistic option here,
+    look excessively jerky.  However, that may not be a realistic option here,
     due to how the feedback process works.
     
     You can minimize frame-dropping by:
     
     *   choosing a relatively small image
-    *   finding a sufficiently powerful computer to run it on
+    *   finding a sufficiently powerful computer (with sufficiently powerful
+        video hardware, especially) to run it on
     *   making sure you have no other programs running, and no other tabs
         open in your browser
     *   letting your browser "warm up" a bit after closing other tabs etc.,
@@ -152,6 +153,7 @@ canvas-feedback.js:
   in-distributions:
   - Canvas Feedback distribution
   host-language: Javascript
+  host-platform: HTML5
   implementation-of:
   - Canvas Feedback
   online-locations:

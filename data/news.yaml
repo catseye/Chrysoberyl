@@ -1,5 +1,23 @@
 # encoding: UTF-8
 
+"Canvas Feedback: rated T for Trippy":
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 27 Jan 2015 09:41:50 GMT
+  blurb: |
+    [[installation/Canvas Feedback]] will blow your mind,
+    or at least ruin your eyes.
+  description: |
+    Whether you get out the joss sticks and put Ravi Shenkar on the stereo
+    is up to you.  But either way, you should check out 
+    [[installation/Canvas Feedback]].
+    
+    It all started while discussing the 1970's-era Doctor Who title sequence
+    and the video art of [[Nam June Paik]].  The digital era has made many
+    of those analogue techniques less accessible — so, even if we can't bring
+    them back, why not see what it's like if we try to adapt them for the
+    modern world of web browsers and graphics cards?
+
 This Maze is Never-Ending.  Plus two gewgaws:
   type: Article
   article-type: announcement
