@@ -2,7 +2,7 @@
 
 {% block content %}
 
-{% if related('authors') %}
+{% if count(related('authors')) %}
   <h2>Author of</h2>
   <ul>
     {% for x in related('authors')|sort %}
