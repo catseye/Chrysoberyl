@@ -125,6 +125,10 @@ class Renderer(object):
             return fun
 
         @expose
+        def basename(path):
+            return os.path.basename(path)
+
+        @expose
         def get_node(key=key, space=self.space):
             return self.universe.get_node(key, default_space=space)
 
