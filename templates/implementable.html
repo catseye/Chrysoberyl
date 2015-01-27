@@ -100,7 +100,7 @@
               <h2>Download</h2>
               <p><a class="download" href="{{ latest_release.url }}">
                 Download latest release
-                ({{ latest_release.version }}-{{ latest_release.revision }})
+                ({{ latest_release.version }}{% if latest_release.revision != '0.0' %}-{{ latest_release.revision }}{% endif %})
               </a></p>
             </section>
           {% endif %}
@@ -130,7 +130,7 @@
               <ul>
                 {% for release in get_node(dist_key).releases[:-1] %}
                 <li>
-                  <a href="{{ release.url }}">version {{ release.version }} revision {{ release.revision }}</a>
+                  <a href="{{ release.url }}">version {{ release.version }} {% if release.revision != '0.0' %} revision {{ release.revision }}{% endif %}</a>
                 </li>
                 {% endfor %}
               </ul>
