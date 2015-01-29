@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>All installations involving medium "{{ key }}"</h2>
+
+<ul>
+{% for thing in get_space(name='installation').keys()|sort %}
+  {% set thing_key = 'installation/' + thing %}
+  {% set thing_node = get_node(thing_key) %}
+  {% if thing_node.get('mediums') and key in thing_node['mediums'] %}
+    <li>
+      {{ link(thing_key) }}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endblock content %}
