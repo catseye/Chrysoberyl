@@ -18,6 +18,9 @@ The Swallows:
     as well as the title of the first novel in the series, and the name
     of [[The Swallows Engine|the program that produced them.]]  They
     were produced for [[NaNoGenMo 2013]], and are hosted on Github.
+  submitted-to:
+  - competition: NaNoGenMo 2013
+    prize: completed
 
 The Swallows (Markdown):
   type: Implementation
@@ -43,6 +46,9 @@ The Swallows of Summer:
   description: |
     *The Swallows of Summer* is the second novel in [[The Swallows]] series
     of generated novels.
+  submitted-to:
+  - competition: NaNoGenMo 2013
+    prize: completed
 
 The Swallows of Summer (Markdown):
   type: Implementation
@@ -68,6 +74,9 @@ Swallows and Sorrows:
   description: |
     *Swallows and Sorrows* is the third novel in [[The Swallows]] series
     of generated novels.
+  submitted-to:
+  - competition: NaNoGenMo 2013
+    prize: completed
 
 Swallows and Sorrows (Markdown):
   type: Implementation
@@ -93,6 +102,9 @@ Swallows and Sorrows (Markdown):
   description: |
     *Dial 'S' for Swallows* is the fourth and final novel in [[The Swallows]]
     series of generated novels.
+  submitted-to:
+  - competition: NaNoGenMo 2013
+    prize: completed
 
 "Dial 'S' for Swallows (Markdown)":
   type: Implementation
@@ -120,6 +132,9 @@ Nif:
     *Nif* is a novel generated for [[NaNoGenMo 2013]].  It is about a petulant child
     (possibly named Nif) who has just discovered palindromes.  It is one long
     palindrome.
+  submitted-to:
+  - competition: NaNoGenMo 2013
+    prize: completed
 
 Nif (Markdown):
   type: Implementation
@@ -174,6 +189,9 @@ Doby Mick:
     was developed, which picks two words from each phrase of each
     sentence and swaps their initial consonant clusters.  This was run on
     Moby Dick, to produce this novel.
+  submitted-to:
+  - competition: NaNoGenMo 2014
+    prize: completed
 
 Doby Mick (Markdown):
   type: Implementation
@@ -202,6 +220,9 @@ Doby Mick (Markdown):
     for a NaNoGenMo novel is 50,000 words, and the question occurred:
     if one wanted to make a novel with *exactly* that many words using
     just combinations and/or permutations, what combinations should one pick?
+  submitted-to:
+  - competition: NaNoGenMo 2014
+    prize: completed
 
 "3×C(21,3)+2×C(215,2)=50000: The Novel (Markdown)":
   type: Implementation
@@ -229,6 +250,9 @@ A Rainy Sunday Afternoon:
     It was based on the premise that, while sometimes automata do
     things worthy of people (like writing a novel), sometimes people do
     things that are worthy of automata, too.
+  submitted-to:
+  - competition: NaNoGenMo 2014
+    prize: completed
 
 A Rainy Sunday Afternoon (Markdown):
   type: Implementation
@@ -255,6 +279,9 @@ Hope and Remembrance:
     *Hope and Remembrance* is a novel generated for [[NaNoGenMo 2014]].
     It is possibly the first NaNoGenMo submission which attempts to
     implement foreshadowing, however ham-fistedly.
+  submitted-to:
+  - competition: NaNoGenMo 2014
+    prize: completed
 
 Hope and Remembrance (Markdown):
   type: Implementation
@@ -281,6 +308,9 @@ Threnody for Abraxas:
     *Threnody for Abraxas* is a
     _phantasmagoric Surrealist word/concept-painting_
     generated for [[NaNoGenMo 2014]].
+  submitted-to:
+  - competition: NaNoGenMo 2014
+    prize: completed
 
 Threnody for Abraxas (Markdown):
   type: Implementation
