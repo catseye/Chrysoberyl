@@ -11,3 +11,7 @@ Universality:
   description: |
     We say an automaton is _universal_ if it can simulate any other automaton
     of the same kind.
+
+Schrödinger's Cat:
+  type: Concept
+  wikipedia: Schrödinger's_cat
