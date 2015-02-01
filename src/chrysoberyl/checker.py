@@ -25,17 +25,19 @@ def check_scalar_ref(universe, key, node, property, types=None):
     in the field refers to a node of one of those types.
 
     """
-    assert property in node, \
-        "'%s' does not specify a %s" % (key, property)
+    if property not in node:
+        raise KeyError("'%s' does not specify a %s" % (key, property))
     value = node[property]
     value_node = universe.get_node(value)
     assert value_node, \
         "'%s' has undefined %s '%s'" % (key, property, value)
     if types is None:
         return
-    assert value_node['type'] in types, \
-        "'%s' has %s '%s' which is a %s, not a %s" % (
-            key, property, value, value_node['type'], types)
+    if value_node['type'] not in types:
+        raise KeyError(
+            "'%s' has %s '%s' which is a %s, not a %s" %
+            (key, property, value, value_node['type'], types)
+        )
 
 
 def check_optional_scalar_ref(universe, key, node, property, types=None):
@@ -50,8 +52,8 @@ def check_list_ref(universe, key, node, property, types=None):
     contained in the list refers to a node of one of those types.
 
     """
-    assert property in node, \
-        u"'%s' has no %s list" % (key, property)
+    if property not in node:
+        raise KeyError(u"'%s' has no %s list" % (key, property))
     assert isinstance(node[property], list), \
         u"'%s' has non-list %s" % (key, property)
     for value in node[property]:

@@ -834,6 +834,21 @@ lookup table:
   authors: []
 
 
+Conway's Game of Life:
+  type: Automaton
+  genre: Experimental language
+  paradigms:
+  - 2-dimensional
+  - Cellular automaton
+  development-stage: vintage
+  # yuck
+  specification-link: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+  wikipedia: Conway's_Game_of_Life
+  authors:
+  - John Conway
+  inception-date: 1970
+
+
 Wireworld:
   type: Automaton
   # recreational language?
