@@ -46,8 +46,9 @@ Creature Venture:
   no-specification: true
   development-stage: mature
 
-Time & Magick:
+Time & Magik:
   type: Game
+  wikipedia: Time_and_Magik
   genre: Text Adventure
   platform: Amiga 500
   authors: []
