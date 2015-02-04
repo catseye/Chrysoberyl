@@ -146,6 +146,31 @@ The PETulant Cursor distribution:
     #### Wait, I see _five-fold symmetry_.  Where is that coming from?
     
     To be honest, I really don't know.
+    
+    ### Background
+    
+    The idea came about while discussing [[Nam June Paik]], and video art in
+    general, with Gareth Jackson.
+    
+    It was noted by one of us that, before digital video technology, there were
+    a number of analogue effects that were employed in video art that aren't
+    seen as frequently these days.  A notable one was the use of _feedback_, the
+    simplest version being training a camera on a monitor that is displaying
+    the feed from that same camera.  More sophisticated applications are
+    of course possible; a relatively famous example is the 1970's version of
+    the Doctor Who title sequence.
+    
+    The question arose: could something analogous could be done with digital
+    video, and if so, how?
+    
+    And I came up with this as a simple technique which is similar to video
+    feedback and which can be implemented straightforwardly in an HTML5
+    canvas element.
+    
+    The default image used when Canvas Feedback starts up was designed by
+    Gareth Jackson specifically to be a pleasing subject for this feedback
+    process.
+
 
 canvas-feedback.js:
   type: Implementation
