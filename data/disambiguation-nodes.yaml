@@ -41,3 +41,13 @@ Time & Magick:
   type: Disambiguation node
   entries:
   - Time & Magik
+
+Metanode:
+  type: Disambiguation node
+  entries:
+  - Chrysoberyl
+
+"Chrysoberyl: Query":
+  type: Disambiguation node
+  entries:
+  - Chrysoberyl

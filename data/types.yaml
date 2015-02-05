@@ -2,11 +2,6 @@
 type:
   type: type
 
-Metanode:
-  type: type
-Metadata:
-  type: type
-  suppress-page-generation: true
 Disambiguation node:
   type: type
 

@@ -140,3 +140,9 @@ Implementation Languages:
   description: |
     Just some of the [[Programming Language|programming language]]s we use at
     Cat's Eye Technologies to build stuff in.
+
+Project Matrix:
+  type: Collection
+  description: |
+    Projects that have been undertaken under the auspices of
+    [[Cat's Eye Technologies]] and [[What is this I don't even]].
