@@ -12,8 +12,6 @@ Article:
     The latest announcements and articles from [[Cat's Eye Technologies]].
     Note that these are also available in an
     <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
-  images:
-    - url: '/images/illustrations/Hatched.jpg'
 Online Installation:
   type: type
 
@@ -48,16 +46,12 @@ Book:
     Note that the precise distinction between a Book
     and a [[Text]] is debatable, and entries here may be
     categorized somewhat arbitrarily.
-  images:
-    - url: '/images/illustrations/Reading.jpg'
 Website:
   type: type
 Conlang:
   type: type
 Musical Instrument:
   type: type
-  images:
-    - url: '/images/illustrations/Accordion_(PSF).jpg'
 Discipline:
   type: type
 Collection:
@@ -150,8 +144,6 @@ Tool:
   description: |
     Note that the precise distinctions between a Tool, a [[Platform]], and a [[Library]]
     are debatable, and entries may be categorized somewhat arbitrarily.
-  images:
-  - url: '/images/illustrations/Allen_wrench_and_screw_(PSF).jpg'
 Platform:
   type: type
   description: |
@@ -164,8 +156,6 @@ Automaton:
     Note that the precise distinctions between an Automaton, a
     [[Programming Language]], and a [[Gewgaw]]
     are debatable, and entries may be categorized somewhat arbitrarily.
-  images:
-  - url: '/images/illustrations/Perpetual_Motion_Machine.jpg'
 Programming Language:
   type: type
   description: |
@@ -191,8 +181,6 @@ Programming Language:
     * [[Esolang]] ... and [[LoUIE]]
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
-  images:
-    - url: '/images/illustrations/Abacus_(PSF).jpg'
   references:
   - url: http://hopl.murdoch.edu.au/
     title: HoPL
@@ -218,7 +206,7 @@ Musical Composition:
     web browser that supports [[HTML5]] [[mp3]] audio or if you
     have an Adobe Flash™ plugin.
   images:
-  - url: /images/logo/witide.jpg
+  - url: http://catseye.tc/images/logo/witide.jpg
   references:
   - url: http://canonical.org/~kragen/bytebeat/
     title: Bytebeat — Crowd
@@ -229,8 +217,6 @@ Musical Composition:
 
 Music Format:
   type: type
-  images:
-  - url: '/images/illustrations/Accordion_(PSF).jpg'
 
 Picture:
   type: type
@@ -356,8 +342,6 @@ Text:
 # these are implementables too, but that property is less exploited for them
 Electronics Project:
   type: type
-  images:
-    - url: '../modules/electronics-projects/mildred/doc/mildred_photo.jpg'
   references:
   - url: http://www.intio.or.jp/jf10zl/
     title: JF10ZL
@@ -373,7 +357,7 @@ Electronics Project:
     description: Interesting circuits for oscillators, converters, and more
   - url: http://www.afrotechmods.com/
     title: Afrotech
-    description: "Ghetto hardware fun"
+    description: '"Ghetto hardware fun"'
   - url: http://www.all-electric.com/b&amp;cmain.html
     title: Bread &amp; Circuits
     description: Audio engineering and other circuits at the All Electric Kitchen

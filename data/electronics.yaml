@@ -10,7 +10,7 @@ The 'Kitsilano' Oscillator:
     a single capacitor.
   defining-distribution: The 'Kitsilano' Oscillator distribution
   images:
-  - url: '../modules/electronics-projects/kitsilano/kitsilano.png'
+  - url: 'http://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png'
   development-stage: not fully complete
   constructed: false
 
@@ -36,7 +36,7 @@ LED-386:
     The LM386 audio amplifier IC, that is...
   defining-distribution: LED-386 distribution
   images:
-  - url: '../modules/electronics-projects/led386/doc/led386_photo.jpg'
+  - url: 'http://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg'
   development-stage: mature
   constructed: true
 
@@ -59,7 +59,7 @@ Mildred:
     with 40K of memory (8K EEPROM, 32K SRAM.)
   defining-distribution: Mildred distribution
   images:
-  - url: '../modules/electronics-projects/mildred/doc/mildred_photo.jpg'
+  - url: 'http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg'
   development-stage: not fully complete
   constructed: true
   # close only counts in horseshoes, handgrenades, and Chrysoberyl
