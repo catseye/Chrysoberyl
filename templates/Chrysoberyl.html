@@ -1,34 +1,18 @@
 {% extends "base.html" %}
 
-{% block content %}
+{% block index %}
 
-<div class="row-fluid">
-  <div class="span8">
-    <h2>Index of Categories</h2>
-    <ul>
-    {%- for thing in get_space().keys()|sort -%}
-      {%- if get_node(thing).type == 'type' and
-             thing not in ['type', 'Metanode'] and
-             not get_node(thing).suppress_page_generation -%}
-        <li>
-          {{ link(thing) }}
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-    </ul>
-  </div>
-  <div class="span4">
-    <h2>Metanodes</h2>
-    <ul>
-    {%- for thing in get_space().keys()|sort -%}
-      {%- if get_node(thing).type == 'Metanode' and not get_node(thing).hidden -%}
-        <li>
-          {{ link(thing) }}
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-    </ul>
-  </div>
-</div>
+  <h2>Index of Categories</h2>
+  <ul>
+  {%- for thing in get_space().keys()|sort -%}
+    {%- if get_node(thing).type == 'type' and
+           not get_node(thing).hidden and
+           not get_node(thing).suppress_page_generation -%}
+      <li>
+        {{ link(thing) }}
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+  </ul>
 
-{% endblock content %}
+{% endblock index %}
