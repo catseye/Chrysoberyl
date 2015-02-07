@@ -584,9 +584,8 @@ Schrödinger's Game of Life:
     [[Cellular automaton|cellular automaton]], and this operation could
     probably be applied to any cellular automaton with similar results.
     
-    It is quite similar to the product construction which can be used to
-    derive a deterministic finite automaton from a non-deterministic one,
-    at the cost of increasing the number of states (and transitions.)
+    For a full account of its development, see
+    [its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
 
 slife.js:
   type: Implementation
