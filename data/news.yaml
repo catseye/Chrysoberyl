@@ -1,5 +1,32 @@
 # encoding: UTF-8
 
+"Presenting Schrödinger's Game of Life":
+  type: Article
+  article-type: announcement
+  publication-date: Sat, 07 Feb 2015 12:50:11 GMT
+  blurb: |
+    Presenting
+    [[installation/Schrödinger's Game of Life]],
+    a [[Cellular automaton|cellular automaton]]
+    incorporating
+    [[Non-deterministic|non-determinism]].
+  description: |
+    We present [[Schrödinger's Game of Life]], which is exactly what it
+    sounds like: [[Conway's Game of Life]] meets [[Schrödinger's Cat]].
+    
+    Each individual cell in the playfield may be in one of three states:
+    **Alive**, **Dead**, or **Possibly-Alive-Possibly-Dead** (which we call
+    **Cat**.)
+    
+    Put another way, it's a [[Cellular automaton|aellular automaton]]
+    that incorporates [[Non-deterministic|non-determinism]].
+    
+    To see it in action and play with it in your web browser, you can
+    go over to its [[installation/Schrödinger's Game of Life|online installation]].
+        
+    For a full account of its development, see
+    [its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
+
 "Canvas Feedback: rated T for Trippy":
   type: Article
   article-type: announcement
