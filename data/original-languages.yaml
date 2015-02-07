@@ -3071,7 +3071,7 @@ wierd-milo.c:
   implementation-type: interpreter
   host-language: ANSI C
 
-wierd.js:
+wierd-jnc.js:
   type: Implementation
   development-stage: work in progress
   # "John Wierd"
