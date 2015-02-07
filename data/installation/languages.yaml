@@ -173,6 +173,22 @@
     then click "Start" to run it.  Or click "Edit" to modify an example,
     or create your own.
 
+Schrödinger's Game of Life:
+  type: Online Installation
+  installation-of: slife.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
+  javascript-urls:
+  - ../modules/schroedingers-game-of-life/impl/slife.js/src/slife.js
+  launch-config: |
+    {
+      'sourceRoot': '../modules/schroedingers-game-of-life/eg/'
+    }
+
 'Shelta':
   type: Online Installation
   # ... and sheltas, but ok

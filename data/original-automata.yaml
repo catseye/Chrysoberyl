@@ -557,6 +557,62 @@ rube.c:
   - ANSI Terminal
 
 
+Schrödinger's Game of Life:
+  type: Automaton
+  genre: Experimental language
+  paradigms:
+  - 2-dimensional
+  - Cellular automaton
+  - Non-deterministic
+  development-stage: mature
+  defining-distribution: Schrödinger's Game of Life distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  see-also:
+  - Conway's Game of Life
+  - Schrödinger's Cat
+  inception-date: Feb 7 2015
+  description: |
+    Schrödinger's Game of Life is what happens when [[Conway's Game of Life]]
+    meets [[Schrödinger's Cat]]: each individual cell may be **Alive**,
+    or **Dead**, or **Possibly-Alive-Possibly-Dead** (which we call **Cat**.)
+    
+    This is, in essence, the result of applying
+    [[Non-deterministic|non-determinism]] to an existing
+    [[Cellular automaton|cellular automaton]], and this operation could
+    probably be applied to any cellular automaton with similar results.
+    
+    It is quite similar to the product construction which can be used to
+    derive a deterministic finite automaton from a non-deterministic one,
+    at the cost of increasing the number of states (and transitions.)
+
+slife.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Schrödinger's Game of Life
+  online-locations:
+  - installation/Schrödinger's Game of Life
+
+slife:
+  type: Implementation
+  license: Public Domain
+  host-language: Python
+  implementation-of:
+  - Schrödinger's Game of Life
+  reference: true
+
+Schrödinger's Game of Life distribution: 
+  type: Distribution
+  github: catseye/Schroedingers-Game-of-Life
+  bitbucket: catseye/schroedingers-game-of-life
+  issue-tracker: github
+
+
 SMETANA:
   type: Automaton
   genre: Esolang
