@@ -6,10 +6,7 @@
   publication-date: Sat, 07 Feb 2015 12:50:11 GMT
   blurb: |
     Presenting
-    [[installation/Schrödinger's Game of Life]],
-    a [[Cellular automaton|cellular automaton]]
-    incorporating
-    [[Non-deterministic|non-determinism]].
+    [[installation/Schrödinger's Game of Life]].
   description: |
     We present [[Schrödinger's Game of Life]], which is exactly what it
     sounds like: [[Conway's Game of Life]] meets [[Schrödinger's Cat]].
