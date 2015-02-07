@@ -37,7 +37,7 @@ def make_news_feed(universe, data, dir, filename, limit=None):
         # is done in the templates elsewhere
         for field_name in ('summary', 'description', 'commentary'):
             field = markdown_field(universe, data, node, field_name,
-                                   prefix='http://catseye.tc/node/')
+                                   prefix='http://catseye.tc/')
             if field is not None:
                 n[field_name + '_html'] = field.encode("ascii",
                                                        "xmlcharrefreplace")
@@ -49,7 +49,7 @@ def make_news_feed(universe, data, dir, filename, limit=None):
         title = n['key']
         guid = url + "/" + n['key']
         updated = n['publication-date']
-        nodelink = pathname2url('http://catseye.tc/node/' + filekey(n['key']))
+        nodelink = 'http://catseye.tc/node/' + pathname2url(filekey(n['key']))
         summary_contents = n['description_html']
         if n.get('summary', None) is not None:
             summary_contents = (n['summary_html'] +
