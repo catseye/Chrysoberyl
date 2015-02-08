@@ -29,7 +29,7 @@ else:
 
 
 # helper function
-def bitbucket_repos(data):
+def bitbucket_repos(space):
     """Generator which yields information about every Mercurial repository
     on Bitbucket referenced by some distribution in Chrysoberyl.
 
@@ -37,21 +37,22 @@ def bitbucket_repos(data):
     and the repository name.
 
     """
-    for key in data:
-        if data[key]['type'] != 'Distribution':
+    for key, node in space.iteritems():
+        if node['type'] != 'Distribution':
             continue
-        if 'bitbucket' not in data[key]:
+        if 'bitbucket' not in node:
             continue
-        (user, repo) = data[key]['bitbucket'].split('/')
+        (user, repo) = node['bitbucket'].split('/')
         yield (key, user, repo)
 
 
-def filterdocs(universe, data, options, config):
+def filterdocs(universe, options, config):
     """Kind of a stopgap measure for now..."""
-    filename = os.path.join(options.docs_dir, 'docs.yaml')
+    filename = os.path.join(config['node']['docs_dir'], 'docs.yaml')
     docs = load_docs(filename)
     new_docs = {}
-    for (key, user, repo) in bitbucket_repos(data):
+    space = universe['node']  # FIXME hardcoded
+    for (key, user, repo) in bitbucket_repos(space):
         doc_key = "bitbucket.org/%s/%s" % (user, repo)
         if doc_key in docs:
             new_docs[key] = sorted(docs[doc_key])
