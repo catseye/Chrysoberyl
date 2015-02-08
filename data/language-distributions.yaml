@@ -790,6 +790,15 @@ Sbeezg distribution:
     revision: "2002.0317"
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
 
+Schrödinger's Game of Life distribution: 
+  type: Distribution
+  github: catseye/Schroedingers-Game-of-Life
+  bitbucket: catseye/schroedingers-game-of-life
+  issue-tracker: github
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip
+
 Shelta distribution: 
   type: Distribution
   bitbucket: catseye/shelta
@@ -1004,6 +1013,9 @@ Wierd distribution:
   - version: "1.0"
     revision: "2004.0302"
     url: http://catseye.tc/distfiles/wierd-2004.0302.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/wierd-1.0-2014.0819.zip
 
 Wunnel distribution: 
   type: Distribution

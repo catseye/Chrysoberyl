@@ -605,12 +605,6 @@ slife:
   - Schrödinger's Game of Life
   reference: true
 
-Schrödinger's Game of Life distribution: 
-  type: Distribution
-  github: catseye/Schroedingers-Game-of-Life
-  bitbucket: catseye/schroedingers-game-of-life
-  issue-tracker: github
-
 
 SMETANA:
   type: Automaton
