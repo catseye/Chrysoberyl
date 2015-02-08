@@ -51,3 +51,14 @@ Metanode:
   type: Disambiguation node
   entries:
   - Chrysoberyl
+
+wierd.c:
+  type: Disambiguation node
+  entries:
+  - wierd.c (John Colagioia)
+  - wierd.c (Milo van Handel)
+
+wierd-milo.c:
+  type: Disambiguation node
+  entries:
+  - wierd.c (Milo van Handel)

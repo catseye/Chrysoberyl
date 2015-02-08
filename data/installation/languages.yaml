@@ -263,6 +263,24 @@ Schrödinger's Game of Life:
     imagination.
 
 
+Wierd (John Colagioia):
+  hidden: true
+  type: Online Installation
+  installation-of: wierd-jnc.js
+  interactive: true
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
+  javascript-urls:
+  - ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
+  launch-config: |
+    {
+      'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/'
+    }
+
+
 'Wunnel':
   installation-of: wunnel.js
   type: Online Installation

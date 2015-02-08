@@ -9,6 +9,14 @@
   <h4 class="list_entry">
     {{ link(thing) }}
     <small>{{ get_node(thing).inception_date }}</small>
+    {%- if get_node(thing).authors|length > 1 %}
+      with
+      {% for author in get_node(thing).authors %}
+        {% if author != 'Chris Pressey' %}
+          {{ link(author) }}{% if not loop.last %}, {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif -%}
   </h4>
 
   <div class="row-fluid">

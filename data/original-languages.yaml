@@ -3013,19 +3013,24 @@ Wierd:
     Wierd is a programming language, inspired somewhat by [[Befunge-93]] and
     [[brainfuck]], where instructions are not determined by the symbols in a
     sequence of symbols, but by the *bends* in a sequence of symbols.
+    
+    The original Wierd, designed during a three-way email conversation, is
+    probably lost and gone forever, but two dialects have been specified
+    (sorta) and implemented: [[Wierd (John Colagioia)]] and
+    [[Wierd (Milo van Handel)]].
   authors:
   - Chris Pressey
   - John Colagioia
   - Ben Olmstead
   computational-class: believed Turing-complete
   inception-date: 1997
-  # there are two implementations, neither of which seems to conform to
-  # the spec, at least not entirely.  thus:
   defining-distribution: Wierd distribution
+  # I'd call this "lost" but then it wouldn't come up on several pages
   development-stage: not fully complete
   etymology:
   - typo
   influences:
+  - brainfuck
   - Befunge-93
   notable: true
   dimensionality: 2
@@ -3046,12 +3051,38 @@ Wierd:
         * ** *
         **  *
   sample-credit: Milo van Handel
+  online-locations:
+  - installation/Wierd (John Colagioia)
 
-wierd.c:
-  type: Implementation
-  # well, "John Wierd"
-  implementation-of:
+
+Wierd (John Colagioia):
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  - 2-dimensional
+  - Angular
+  description: |
+    This is [[John Colagioia]]'s interpretation of [[Wierd]].
+  authors:
+  - John Colagioia
+  dialect-of:
   - Wierd
+  computational-class: believed Turing-complete
+  inception-date: 1997
+  defining-distribution: Wierd distribution
+  development-stage: mature
+  etymology:
+  - typo
+  influences:
+  - Wierd
+  notable: true
+  dimensionality: 2
+
+wierd.c (John Colagioia):
+  type: Implementation
+  implementation-of:
+  - Wierd (John Colagioia)
   in-distribution: Wierd distribution
   authors:
   - John Colagioia
@@ -3059,31 +3090,73 @@ wierd.c:
   implementation-type: interpreter
   host-language: ANSI C
 
-wierd-milo.c:
+wierd-jnc.js:
   type: Implementation
-  # well, "Milo Wierd"
+  development-stage: work in progress
   implementation-of:
+  - Wierd (John Colagioia)
+  in-distribution: Wierd distribution
+  authors:
+  - Chris Pressey
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Javascript
+  host-platform: HTML5
+  online-locations:
+  - installation/Wierd (John Colagioia)
+
+
+Wierd (Milo van Handel):
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Stack-based
+  - 2-dimensional
+  - Angular
+  description: |
+    This is [[Milo van Handel]]'s interpretation of [[Wierd]].
+  authors:
+  - Milo van Handel
+  dialect-of:
   - Wierd
+  computational-class: believed Turing-complete
+  inception-date: 1997
+  defining-distribution: Wierd distribution
+  development-stage: mature
+  etymology:
+  - typo
+  influences:
+  - Wierd
+  notable: true
+  dimensionality: 2
+  sample: |
+    *
+     *
+      *
+       *
+      * *  **
+     *   ** *
+      **     **
+        *      *
+        *     *
+        *     *
+        *      *
+        *     **
+        *    *
+        * ** *
+        **  *
+  sample-credit: Milo van Handel
+
+wierd.c (Milo van Handel):
+  type: Implementation
+  implementation-of:
+  - Wierd (Milo van Handel)
   in-distribution: Wierd distribution
   authors:
   - Milo van Handel
   license: Unknown license
   implementation-type: interpreter
   host-language: ANSI C
-
-wierd-jnc.js:
-  type: Implementation
-  development-stage: work in progress
-  # "John Wierd"
-  implementation-of:
-  - Wierd
-  in-distribution: Wierd distribution
-  authors:
-  - Chris Pressey
-  license: Unknown license
-  implementation-type: interpreter
-  host-language: Javascript
-  host-platform: HTML5
 
 
 Wunnel: 
