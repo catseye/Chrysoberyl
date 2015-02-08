@@ -795,6 +795,7 @@ Schrödinger's Game of Life distribution:
   github: catseye/Schroedingers-Game-of-Life
   bitbucket: catseye/schroedingers-game-of-life
   issue-tracker: github
+  releases:
   - version: "1.0"
     revision: "0.0"
     url: http://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip
