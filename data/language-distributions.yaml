@@ -1017,6 +1017,9 @@ Wierd distribution:
   - version: "1.0"
     revision: "2014.0819"
     url: http://catseye.tc/distfiles/wierd-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0209"
+    url: http://catseye.tc/distfiles/wierd-1.0-2015.0209.zip
 
 Wunnel distribution: 
   type: Distribution
