@@ -1,5 +1,37 @@
 # encoding: UTF-8
 
+"Wierd (one of 'em) is now installed online":
+  type: Article
+  article-type: announcement
+  publication-date: Mon, 09 Feb 2015 12:44:58 GMT
+  blurb: |
+    [[Wierd]] ([[Wierd (John Colagioia)|one of 'em]], anyway) is now
+    [[installation/Wierd (John Colagioia)|installed online]].
+  description: |
+    So back in the mists of time — by which I mean the late 90's — there was this three-way
+    email conversation between me, [[Ben Olmstead]], and [[John Colagioia]], right?
+    
+    And in it, we collectively sketched a fungeoid language which combined elements of
+    [[Befunge-93]] with elements of [[brainfuck]] and added an original element — it's the
+    bends in the chain of symbols, rather than the symbols themselves, that determine
+    which instructions are executed.
+    
+    And now, a new page has been added to this language's
+    [long and fuzzy history](https://github.com/catseye/Wierd/blob/master/README.markdown):
+    it, or rather, [[Wierd (John Colagioia)|one of the extant dialects of it]],
+    has been implemented in [[Javascript]] and [[HTML5]] with [[yoob.js]] and installed online
+    here:
+    
+    *  [[installation/Wierd (John Colagioia)]]
+    
+    This may be the first implementation of (any) Wierd in a web browser.  Or it may not;
+    searching the web for "wierd javascript" doesn't return as many results as you might
+    think (as, apparently, a lot of people think Javascript is pretty weird, and have a
+    propensity to mis-spell the word "weird".)
+    
+    I would like to implement [[Wierd (Milo van Handel)|the other extant dialect]], too,
+    some day.  But not today.
+
 "Presenting Schrödinger's Game of Life":
   type: Article
   article-type: announcement
@@ -28,7 +60,6 @@
   type: Article
   article-type: announcement
   publication-date: Tue, 27 Jan 2015 11:28:29 GMT
-
   blurb: |
     [[installation/Canvas Feedback]] will blow your mind,
     or at least ruin your eyes.
