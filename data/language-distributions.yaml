@@ -975,6 +975,9 @@ Velo distribution:
   - version: "0.1"
     revision: "2012.0714"
     url: http://catseye.tc/distfiles/velo-0.1-2012.0714.zip
+  - version: "0.1"
+    revision: "2014.0817"
+    url: http://catseye.tc/distfiles/velo-0.1-2014.0817.zip
 
 Version distribution: 
   type: Distribution

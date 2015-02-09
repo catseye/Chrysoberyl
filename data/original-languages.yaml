@@ -2902,6 +2902,15 @@ velo.rb:
   host-language: Ruby
   implementation-type: interpreter
 
+velo.lua:
+  type: Implementation
+  implementation-of:
+  - Velo
+  in-distribution: Velo distribution
+  license: BSD license
+  host-language: Lua
+  implementation-type: interpreter
+
 
 Version:
   type: Programming Language
