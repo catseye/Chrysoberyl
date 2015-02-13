@@ -3,18 +3,22 @@
 "Is Twitter your thing?":
   type: Article
   article-type: announcement
-  publication-date: Fri, 13 Feb 2015 09:08:27 GMT
+  publication-date: Fri, 13 Feb 2015 09:54:57 GMT
   blurb: |
     Is [Twitter](https://twitter.com/catseye_tc) your thing?
   description: |
-    It is definitely not my thing.
+    I ask because it is definitely not my thing.
     
-    But I recognize that it might be your thing, and that you might find it
+    But I recognize that it might be *your* thing, and that you might find it
     convenient to receive updates about Cat's Eye Technologies, via Twitter.
     
-    I mean, on a technical level, there's no reason it shouldn't serve as a
+    I mean, on a technical level, there's no reason it *shouldn't* serve as a
     good platform for announcements and updates.  It's not my fault that
     that's not how most people use it.
+    
+    And, hey, it's Friday the 13th today!.  Spooky stuff happens on Friday
+    the 13th,  right?  Spooky stuff like announcing that you are now on
+    (*ugh*) Twitter.
     
     Thus, I will grit my teeth and bear it.
     
@@ -30,8 +34,15 @@
     *   every single brainfart I have, **no**;
     *   retweets of every clever thing that passes through my feed, **no**.
     
-    *Frequency you can expect*: We're aiming for 1 tweet per day.
-    Rarely will you ever see more than 2 tweets in the space of 12 hours.
+    *Frequency you can expect*:
+    
+    *   We're aiming for 1 tweet per day.
+    *   Rarely will you ever see more than 2 tweets in the space of 12 hours.
+    
+    If Twitter is *not* your thing, fear not, as this self-same [[Article]]
+    [feed](http://catseye.tc/feeds/atom_30_news.xml) will continue, and
+    will remain pretty much as it has been for the past, um, seven and a
+    half years! (holy cow!)
 
 "Wierd (one of 'em) is now installed online":
   type: Article
