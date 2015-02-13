@@ -1,5 +1,38 @@
 # encoding: UTF-8
 
+"Is Twitter your thing?":
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 13 Feb 2015 09:08:27 GMT
+  blurb: |
+    Is [Twitter](https://twitter.com/catseye_tc) your thing?
+  description: |
+    It is definitely not my thing.
+    
+    But I recognize that it might be your thing, and that you might find it
+    convenient to receive updates about Cat's Eye Technologies, via Twitter.
+    
+    I mean, on a technical level, there's no reason it shouldn't serve as a
+    good platform for announcements and updates.  It's not my fault that
+    that's not how most people use it.
+    
+    Thus, I will grit my teeth and bear it.
+    
+    Here, follow your little hearts out:
+    
+    ### [@catseye_tc](https://twitter.com/catseye_tc) ###
+    
+    *Content you can expect*:
+    
+    *   announcements of new things at Cat's Eye Technologies, **yes**;
+    *   highlighting interesting esolangs, computational art,
+        conceptual art, and related stuff out there, **yes**;
+    *   every single brainfart I have, **no**;
+    *   retweets of every clever thing that passes through my feed, **no**.
+    
+    *Frequency you can expect*: We're aiming for 1 tweet per day.
+    Rarely will you ever see more than 2 tweets in the space of 12 hours.
+
 "Wierd (one of 'em) is now installed online":
   type: Article
   article-type: announcement
