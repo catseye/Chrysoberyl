@@ -14,13 +14,13 @@ from chrysoberyl.checker import ApproximateDate
 
 def filekey(key):
     """Convert a key into a form that can be used as a filename."""
-    key = re.sub(r'(\/|\\|\#)', '_', key)
+    key = re.sub(r'(\/|\\|\#|\?)', '_', key)
     return key + ".html"
 
 
 def sleek_key(key):
     """Convert a key into a form that can be used as a 'sleek' node link."""
-    return re.sub(r'(\/|\\|\#| )', '_', key)
+    return re.sub(r'(\/|\\|\#|\?| )', '_', key)
 
 
 def pathname2url(s):
