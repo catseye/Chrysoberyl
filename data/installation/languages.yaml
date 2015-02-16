@@ -1,5 +1,27 @@
 # encoding: UTF-8
 
+Backtracking Wang Tiler:
+  type: Online Installation
+  installation-of: backtracking-wang-tiler.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  description: |
+    This is an HTML5 installation of a Javascript implementation of a
+    naïve algorithm which tiles the plane with
+    [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+  instructions: |
+    For more information on Wang tiles, see
+    [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+    
+    For more information on this algorithm and its implementation, see
+    [the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
+  script-root: ../modules/wang-tilers/src/yoob/
+  javascript-urls:
+  - ../modules/wang-tilers/src/backtracking-wang-tiler.js
+
 'BefOS':
   type: Online Installation
   installation-of: BefOS (NASM)

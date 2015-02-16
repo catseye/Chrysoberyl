@@ -834,6 +834,43 @@ lookup table:
   authors: []
 
 
+# this is really more of an algorithm.  but it is an automaton, too!
+Backtracking Wang Tiler:
+  type: Automaton
+  genre: Experimental language
+  # +aperiodic tiling
+  paradigms:
+  - 2-dimensional
+  development-stage: mature
+  defining-distribution: Wang Tilers distribution
+  # I doubt this algorithm is particularly original, but, until I
+  # find someone else who has formulated it, ...
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Feb 2015
+  description: |
+    This is an automaton (or, a naïve backtracking algorithm) which tiles
+    the plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+
+backtracking-wang-tiler.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Backtracking Wang Tiler
+  online-locations:
+  - installation/Backtracking Wang Tiler
+
+Wang Tilers distribution: 
+  type: Distribution
+  github: catseye/Wang-Tilers
+  bitbucket: catseye/wang-tilers
+  issue-tracker: github
+
+
 Conway's Game of Life:
   type: Automaton
   genre: Experimental language
