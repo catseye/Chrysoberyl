@@ -8,10 +8,6 @@ Backtracking Wang Tiler:
   mediums:
   - Javascript
   - HTML5
-  description: |
-    This is an HTML5 installation of a Javascript implementation of a
-    naïve algorithm which tiles the plane with
-    [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
   instructions: |
     For more information on Wang tiles, see
     [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
