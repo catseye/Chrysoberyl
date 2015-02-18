@@ -565,6 +565,33 @@ radialjective.js:
   - installation/Radialjective
 
 
+'Tentacles, Undamped':
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: ca Feb 2014
+  description: |
+    A simulation of undulating tentacles.  It starts off alright, but
+    soon starts doing things real tentacles never do, because they have
+    damping.
+
+tentacles-undamped.js:
+  type: Implementation
+  license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Tentacles, Undamped
+  online-locations:
+  - installation/Tentacles, Undamped
+
+
 Text Uniquifier:
   type: Gewgaw
   development-stage: mature

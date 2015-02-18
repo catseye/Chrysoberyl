@@ -1,5 +1,63 @@
 # encoding: UTF-8
 
+"One way to tile the plane with Wang tiles":
+  type: Article
+  article-type: announcement
+  publication-date: Wed, 18 Feb 2015 09:17:43 GMT
+  blurb: |
+    One way to [[installation/Backtracking Wang Tiler|tile the plane with Wang tiles]].
+  description: |
+    tl;dr [[installation/Backtracking Wang Tiler]] and it's pretty to watch.
+    
+    You're probably familiar with tesselations.  Tilings, that is.  A Cartesian
+    grid tiles a plane with squares, a honeycomb tiles a plane with hexagons,
+    and so forth.  There are lots of examples.  But the most interesting tilings,
+    to me, are _aperiodic_ ones — tilings that are not regular.  Similar-looking
+    sections of them may repeat, but the tiling as a whole never repeats
+    exactly.
+    
+    The most well-known example is probably Penrose's kite-and-dart
+    construction.  But, as is often the case, the most famous example was not
+    the first.  The foundational work on aperiodic tilings was done years
+    earlier, by Hao Wang, who came up with the concept, and posed the question
+    (I'm paraphrasing):
+    
+    > Given a set of tiles, is there an algorithm that tells if they tile
+    > the plane aperiodically or not?
+    
+    In other words, is the set of aperiodic tilings decidable?  And Berger
+    proved that it was not, by reducing it to the Halting Problem for
+    Turing machines.  Each aperiodic tiling can be put into one-to-one
+    correspondence with a Turing machine that never halts..
+    
+    That suggests that aperiodic tilings are tricky business, indeed.
+    
+    But to be clear, this is a general question about arbitrary sets of tiles.
+    Once you have picked a set of tiles, you may well prove it is aperiodic,
+    and you may well tile the plane with them.
+    
+    Of course, that business is still a little tricky.  You can certainly
+    work out an aperiodic tiling by hand, using human ingenuity and trial and
+    error.  Can you instruct a computer to do it?  Yes, although unsurprisingly
+    it relies more on trial and error than ingenuity.
+    
+    But wait — if a tiling corresponds to a Turing machine that never halts,
+    how can you write a program for it?  Ah, red herring — you just write a
+    program that never halts.  (Indeed, if you want to tile the "entire"
+    infinite plane, what choice do you have?)  But note that, technically,
+    this might not be an algorithm, because algorithms are generally defined
+    to terminate and produce a result.  But we can put off that inevitable
+    semantic debate for now by just avoiding that term.
+    
+    At any rate, the process I've used is:
+    
+    *   Place tiles in a spiral, so that new tiles are always
+        adjacent to existing tiles.  (Except the first one, of course.)
+    *   If at any point you find you can't place a new tile along the
+        spiral, because it doesn't match any of the existing tiles,
+        backtrack — erase previous tiles you've placed, and try other
+        possibilities for those positions.
+
 "Is Twitter your thing?":
   type: Article
   article-type: announcement

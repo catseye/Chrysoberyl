@@ -195,6 +195,18 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/radialjective/radialjective.js
 
+'Tentacles, Undamped':
+  type: Online Installation
+  installation-of: tentacles-undamped.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+  javascript-urls:
+  - ../modules/html5-gewgaws/tentacles-undamped/tentacles-undamped.js
+
 'Text Uniquifier':
   type: Online Installation
   installation-of: text-uniquifier.js
