@@ -3,7 +3,7 @@
 "One way to tile the plane with Wang tiles":
   type: Article
   article-type: announcement
-  publication-date: Wed, 18 Feb 2015 14:43:30 GMT
+  publication-date: Wed, 18 Feb 2015 17:36:30 GMT
   blurb: |
     One way to [[installation/Backtracking Wang Tiler|tile the plane with Wang tiles]].
   description: |
@@ -43,11 +43,11 @@
     
     But wait — if a tiling corresponds to a Turing machine that never halts,
     how can you write a program for it?  Ah, red herring — you just write a
-    program that never halts.  (Indeed, if you want to tile the "entire"
+    program that never quits.  (Indeed, if you want to tile the "entire"
     infinite plane, what choice do you have?)  But note that, technically,
     this might not be an algorithm, because algorithms are generally defined
     to terminate and produce a result.  But we can put off that inevitable
-    semantic debate for now by just avoiding that term.
+    semantic debate by just avoiding that term.
     
     At any rate, the process I've used is:
     
@@ -68,6 +68,27 @@
     to accrete clumps randomly too.  Which might be even more inefficient,
     but even prettier to watch go.  Dunno, would have to try it, and I
     haven't yet.
+    
+    One slightly interesting thing about the implementation is that the
+    backtracking is not implemented the obvious way — with recursion —
+    because we want to display the state of the tiling as we go along,
+    and Javascript in a web browser, in particular, won't allow that; it
+    won't update the display until the current computation is finished
+    and it's ready to handle a new event.
+    
+    Therefore, backtracking is implemented with what are essentially
+    continuations.  All of the alternate, untried possibilities for each
+    position are stored along with every tile, as it is placed.  To be
+    sure, this is not a general-purpose continuation, but it does
+    encapsulate all the pertinent data for the tiling process — data that
+    would otherwise be embedded in the function call stack, and not
+    accessible to us.
+    
+    The implementation is also in the public domain, so if you want to
+    hack on it, feel free.  It resides in the
+    [Wang Tilers repository on Github](https://github.com/catseye/Wang-Tilers),
+    in which you can also find further documentation on it.  And maybe,
+    in the future, other implementations and/or other tiling strategies.
 
 "Is Twitter your thing?":
   type: Article
