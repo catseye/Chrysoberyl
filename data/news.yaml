@@ -3,11 +3,11 @@
 "One way to tile the plane with Wang tiles":
   type: Article
   article-type: announcement
-  publication-date: Wed, 18 Feb 2015 09:17:43 GMT
+  publication-date: Wed, 18 Feb 2015 14:43:30 GMT
   blurb: |
     One way to [[installation/Backtracking Wang Tiler|tile the plane with Wang tiles]].
   description: |
-    tl;dr [[installation/Backtracking Wang Tiler]] and it's pretty to watch.
+    tl;dr [[installation/Backtracking Wang Tiler]] and it's pretty to watch go.
     
     You're probably familiar with tesselations.  Tilings, that is.  A Cartesian
     grid tiles a plane with squares, a honeycomb tiles a plane with hexagons,
@@ -16,7 +16,7 @@
     sections of them may repeat, but the tiling as a whole never repeats
     exactly.
     
-    The most well-known example is probably Penrose's kite-and-dart
+    The most well-known example is probably Roger Penrose's kite-and-dart
     construction.  But, as is often the case, the most famous example was not
     the first.  The foundational work on aperiodic tilings was done years
     earlier, by Hao Wang, who came up with the concept, and posed the question
@@ -28,7 +28,7 @@
     In other words, is the set of aperiodic tilings decidable?  And Berger
     proved that it was not, by reducing it to the Halting Problem for
     Turing machines.  Each aperiodic tiling can be put into one-to-one
-    correspondence with a Turing machine that never halts..
+    correspondence with a Turing machine that never halts.
     
     That suggests that aperiodic tilings are tricky business, indeed.
     
@@ -55,8 +55,19 @@
         adjacent to existing tiles.  (Except the first one, of course.)
     *   If at any point you find you can't place a new tile along the
         spiral, because it doesn't match any of the existing tiles,
-        backtrack — erase previous tiles you've placed, and try other
-        possibilities for those positions.
+        then backtrack — erase the previous tile you placed, try other
+        possibilities for that positions, and continue again from there.
+    
+    I'm not claiming this is efficient!  It ain't, not by a long shot.
+    But it's correct — it _will_ tile the plane "eventually", as long as the
+    set of tiles admit tiling (whether periodic or aperiodic) — and it can be
+    [[installation/Backtracking Wang Tiler|pretty to watch go]].
+    
+    It's also apparent that "spiral" and "backtrack" are incidental;
+    it's just nicely linear to arrange it this way, but you should be able
+    to accrete clumps randomly too.  Which might be even more inefficient,
+    but even prettier to watch go.  Dunno, would have to try it, and I
+    haven't yet.
 
 "Is Twitter your thing?":
   type: Article

@@ -834,7 +834,6 @@ lookup table:
   authors: []
 
 
-# this is really more of an algorithm.  but it is an automaton, too!
 Backtracking Wang Tiler:
   type: Automaton
   genre: Experimental language
@@ -843,7 +842,7 @@ Backtracking Wang Tiler:
   - 2-dimensional
   development-stage: mature
   defining-distribution: Wang Tilers distribution
-  # I doubt this algorithm is particularly original, but, until I
+  # I doubt this automaton is particularly original, but, until I
   # find someone else who has formulated it, ...
   authors:
   - Chris Pressey
@@ -851,8 +850,12 @@ Backtracking Wang Tiler:
   - Cat's Eye Technologies
   inception-date: Feb 2015
   description: |
-    This is an automaton (or, a naïve backtracking algorithm) which tiles
-    the plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+    This backtracking Wang tiler is an automaton which naïvely tiles the
+    plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+    
+    It operates like a backtracking algorithm, backing up whenever it finds
+    it cannot place a tile, but it may be inaccurate to describe it as an
+    algorithm, since it never terminates.
 
 backtracking-wang-tiler.js:
   type: Implementation

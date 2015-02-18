@@ -8,11 +8,14 @@ Backtracking Wang Tiler:
   mediums:
   - Javascript
   - HTML5
+  description: |
+    This is an in-browser implementation, in [[Javascript]] and [[HTML5]],
+    of a backtracking Wang tiler.
   instructions: |
     For more information on Wang tiles, see
     [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
     
-    For more information on this algorithm and its implementation, see
+    For more information on this automaton and its implementation, see
     [the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
   script-root: ../modules/wang-tilers/src/yoob/
   javascript-urls:
