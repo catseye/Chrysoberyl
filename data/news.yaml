@@ -3,7 +3,7 @@
 "One way to tile the plane with Wang tiles":
   type: Article
   article-type: announcement
-  publication-date: Wed, 18 Feb 2015 17:36:30 GMT
+  publication-date: Fri, 20 Feb 2015 08:17:14 GMT
   blurb: |
     One way to [[installation/Backtracking Wang Tiler|tile the plane with Wang tiles]].
   description: |
@@ -89,6 +89,36 @@
     [Wang Tilers repository on Github](https://github.com/catseye/Wang-Tilers),
     in which you can also find further documentation on it.  And maybe,
     in the future, other implementations and/or other tiling strategies.
+    
+    Since this announcement has already gotten quite long, maybe I'll cap
+    it off with an interesting question.
+    
+    There are, as I understand it, Wang tilings which aren't even computable:
+    they correspond to Turing machines that never halt, and where there is no
+    computable method to generate such a Turing machine.
+    
+    However, this automaton we got here operates _randomly_.  The implementation
+    is pseudo-random, to be true, but let's assume this is just an approximation
+    of an idealized automaton with genuinely randomized tiling choices.
+    
+    In a sense, it is always trying to find a non-terminating Turing machine.
+    If the current tiling it's trying to lay down doesn't work (= represents
+    a Turing machine which halts,) it backtracks and tries a different
+    randomly-chosen tiling until it finds a a tiling that does work
+    (= represents a Turing machine that doesn't halt.)
+    
+    If left to run forever, might this automaton generate a non-computable
+    never-halting Turing machine, in the guise of a Wang tiling?
+    
+    Perhaps I misunderstand it, but I think it could.  Just because you
+    can't computationally generate such a Turing machine, doesn't mean
+    that taking the limit of an infinite random sequence couldn't yield
+    such a thing.
+    
+    Of course, taking the limit of an infinite random sequence could be a
+    philosophically troubling concept — perhaps as philosophically troubling
+    as generating an uncomputable object.  I'm only floating this idea as food
+    for thought.
 
 "Is Twitter your thing?":
   type: Article
