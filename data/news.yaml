@@ -3,7 +3,7 @@
 "One way to tile the plane with Wang tiles":
   type: Article
   article-type: announcement
-  publication-date: Fri, 20 Feb 2015 08:17:14 GMT
+  publication-date: Fri, 20 Feb 2015 11:08:52 GMT
   blurb: |
     One way to [[installation/Backtracking Wang Tiler|tile the plane with Wang tiles]].
   description: |
@@ -39,8 +39,8 @@
     Of course, that business is still a little tricky.  You can certainly
     work out an aperiodic tiling by hand, using human ingenuity and trial and
     error.  Can you instruct a computer to do it?  Yes, although unsurprisingly
-    it relies more on trial and error than ingenuity.
-    
+    it leans a bit more on the trial and error side.
+        
     But wait — if a tiling corresponds to a Turing machine that never halts,
     how can you write a program for it?  Ah, red herring — you just write a
     program that never quits.  (Indeed, if you want to tile the "entire"
@@ -51,28 +51,30 @@
     
     At any rate, the process I've used is:
     
-    *   Place tiles in a spiral, so that new tiles are always
-        adjacent to existing tiles.  (Except the first one, of course.)
+    *   Select tiles randomly and place them in a spiral, so that new tiles
+        are always adjacent to existing tiles.  (Except the first one, of
+        course.)
     *   If at any point you find you can't place a new tile along the
         spiral, because it doesn't match any of the existing tiles,
-        then backtrack — erase the previous tile you placed, try other
-        possibilities for that positions, and continue again from there.
+        then backtrack — erase the previous tile you placed, try another
+        possibility for that position chosen at random, and continue
+        again from there.
     
     I'm not claiming this is efficient!  It ain't, not by a long shot.
     But it's correct — it _will_ tile the plane "eventually", as long as the
-    set of tiles admit tiling (whether periodic or aperiodic) — and it can be
+    set of tiles permit tiling (whether periodic or aperiodic) — and it can be
     [[installation/Backtracking Wang Tiler|pretty to watch go]].
     
     It's also apparent that "spiral" and "backtrack" are incidental;
     it's just nicely linear to arrange it this way, but you should be able
-    to accrete clumps randomly too.  Which might be even more inefficient,
+    to accrete random clumps too.  Which might be even more inefficient,
     but even prettier to watch go.  Dunno, would have to try it, and I
     haven't yet.
     
     One slightly interesting thing about the implementation is that the
-    backtracking is not implemented the obvious way — with recursion —
+    backtracking is not implemented the obvious way, with recursion,
     because we want to display the state of the tiling as we go along,
-    and Javascript in a web browser, in particular, won't allow that; it
+    and Javascript in a web browser in particular won't allow that; it
     won't update the display until the current computation is finished
     and it's ready to handle a new event.
     
@@ -94,8 +96,8 @@
     it off with an interesting question.
     
     There are, as I understand it, Wang tilings which aren't even computable:
-    they correspond to Turing machines that never halt, and where there is no
-    computable method to generate such a Turing machine.
+    they correspond to Turing machines for which there is no computable method
+    to generate them.  (They never halt, but we can't prove this.)
     
     However, this automaton we got here operates _randomly_.  The implementation
     is pseudo-random, to be true, but let's assume this is just an approximation
@@ -113,12 +115,22 @@
     Perhaps I misunderstand it, but I think it could.  Just because you
     can't computationally generate such a Turing machine, doesn't mean
     that taking the limit of an infinite random sequence couldn't yield
-    such a thing.
+    such a thing.  Certainly, the closure of all such tilings would include
+    these, and I can't see what's _stopping_ this automaton from "accidentally"
+    picking one.
     
     Of course, taking the limit of an infinite random sequence could be a
     philosophically troubling concept — perhaps as philosophically troubling
-    as generating an uncomputable object.  I'm only floating this idea as food
-    for thought.
+    as generating an uncomputable object.
+    
+    After all, if your tiling does tile the plane, you've proved the
+    corresponding Turing machine does indeed never halt.
+    
+    But it's hard to see how you'd know your tiling _does_ tile the plane,
+    without first knowing that the Turing machine does not halt.
+    
+    Perhaps questions about infinity are best saved for people who have
+    an awful lot of time on their hands.
 
 "Is Twitter your thing?":
   type: Article
