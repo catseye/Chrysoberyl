@@ -564,6 +564,13 @@ Mascarpone distribution:
     revision: "2012.0312"
     url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
 
+Matchbox distribution: 
+  type: Distribution
+  bitbucket: catseye/matchbox
+  github: catseye/Matchbox
+  issue-tracker: github
+  releases: []
+
 MDPN distribution: 
   type: Distribution
   releases: 

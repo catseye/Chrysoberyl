@@ -1839,6 +1839,34 @@ mascarpone.hs:
   host-language: Haskell
 
 
+Matchbox:
+  type: Programming Language
+  genre: Pedagogical language
+  paradigms:
+  - Imperative
+  development-stage: work in progress
+  defining-distribution: Matchbox distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Feb 2015
+  description: |
+    A toy language for a toy race-condition finder.
+
+matchbox.js:
+  type: Implementation
+  license: Unknown license
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Matchbox
+  # for some definition of "static"
+  implementation-type: static analyzer
+  online-locations:
+  - installation/Matchbox
+
+
 MDPN:
   type: Programming Language
   genre: Esolang
