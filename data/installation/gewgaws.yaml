@@ -29,6 +29,18 @@
   javascript-urls:
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
 
+'Black Hole Poem':
+  type: Online Installation
+  installation-of: black-hole-poem.js
+  interactive: true
+  animated: false
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/black-hole-poem/black-hole-poem.js
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+
 'Chzrxl':
   type: Online Installation
   installation-of: chzrxl.js

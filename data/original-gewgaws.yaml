@@ -228,6 +228,40 @@ a-non-random-walk.js:
   - installation/A Non-Random Walk
 
 
+'Black Hole Poem':
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Jan 2015
+  description: |
+    An interactive concrete poem about black holes.
+  instructions: |
+    Darker-beige squares can be dragged with your mouse or your finger
+    (for what good it will do you.)
+    
+    (Yes, you can't see the whole poem.  Yes, that's the point.
+    Yes, unless you look at the Javascript source.  Yes, that's the point too.)
+    
+    The background colour is beige because it's based on
+    [Illuminant E](https://en.wikipedia.org/wiki/Standard_illuminant#Illuminant_E)
+    because that is our best guess at
+    [what colour the universe is](http://www.pha.jhu.edu/~kgb/cosspec/).
+
+black-hole-poem.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Black Hole Poem
+  online-locations:
+  - installation/Black Hole Poem
+
+
 Circus Xamulus:
   type: Gewgaw
   development-stage: mature
