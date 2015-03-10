@@ -505,6 +505,32 @@ multicolouralism.js:
   - installation/Multicolouralism
 
 
+Noise to Signal No. 1:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2015
+  description: |
+    A generated animation involving randomness and not-so-much randomness.
+  instructions: |
+    The two panels are constructed by randomly distributing the pixels from
+    a source image randomly onto either panel.
+
+noise-to-signal-1.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Noise to Signal No. 1
+  online-locations:
+  - installation/Noise to Signal No. 1
+
+
 Plea of Thunder:
   type: Gewgaw
   development-stage: not fully complete

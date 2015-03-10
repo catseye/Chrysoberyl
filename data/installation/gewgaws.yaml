@@ -18,7 +18,7 @@
 
 # ---------------------------------------------------------------
 
-'A Non-Random Walk':
+A Non-Random Walk:
   type: Online Installation
   installation-of: a-non-random-walk.js
   interactive: true
@@ -29,7 +29,7 @@
   javascript-urls:
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
 
-'Black Hole Poem':
+Black Hole Poem:
   type: Online Installation
   installation-of: black-hole-poem.js
   interactive: true
@@ -41,7 +41,7 @@
   - ../modules/html5-gewgaws/black-hole-poem/black-hole-poem.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
-'Chzrxl':
+Chzrxl:
   type: Online Installation
   installation-of: chzrxl.js
   interactive: true
@@ -57,7 +57,7 @@
   javascript-urls:
   - ../modules/html5-gewgaws/chzrxl/chzrxl.js
 
-'Circus Xamulus':
+Circus Xamulus:
   type: Online Installation
   installation-of: circus-xamulus.js
   interactive: true
@@ -68,7 +68,7 @@
   javascript-urls:
   - ../modules/html5-gewgaws/circus-xamulus/circus-xamulus.js
 
-'Cyclobots':
+Cyclobots:
   type: Online Installation
   installation-of: cyclobots.js
   interactive: true
@@ -102,7 +102,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 
-'Fibonacci Spiral':
+Fibonacci Spiral:
   type: Online Installation
   installation-of: fibonacci-spiral.js
   interactive: false
@@ -113,7 +113,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
 
-'Fingerspelling':
+Fingerspelling:
   type: Online Installation
   installation-of: fingerspelling.js
   interactive: true
@@ -124,7 +124,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
 
-'Hirsute Miasma':
+Hirsute Miasma:
   type: Online Installation
   installation-of: hirsute-miasma.js
   interactive: false
@@ -135,7 +135,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
 
-'Heronsis hermnonicii':
+Heronsis hermnonicii:
   type: Online Installation
   installation-of: heronsis-hermnonicii.js
   interactive: true
@@ -146,7 +146,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
 
-'Hypongtrochoid':
+Hypongtrochoid:
   type: Online Installation
   installation-of: hypongtrochoid.js
   interactive: true
@@ -157,7 +157,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
 
-'Multicolouralism':
+Multicolouralism:
   type: Online Installation
   installation-of: multicolouralism.js
   interactive: true
@@ -168,7 +168,18 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
 
-'Plea of Thunder':
+Noise to Signal No. 1:
+  type: Online Installation
+  installation-of: noise-to-signal-1.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/noise-to-signal-1/noise-to-signal-1.js
+
+Plea of Thunder:
   type: Online Installation
   installation-of: PleaOfThunder.java
   interactive: false
@@ -177,7 +188,7 @@ Eine kleine Glitchfraktal:
   - Java applet
   - HTML5
 
-'Prairie':
+Prairie:
   type: Online Installation
   installation-of: prairie.js
   interactive: false
@@ -190,7 +201,7 @@ Eine kleine Glitchfraktal:
   launch-config: |
     { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
 
-'Progression':
+Progression:
   type: Online Installation
   installation-of: progression.js
   interactive: false
@@ -201,7 +212,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/progression/progression.js
 
-'Radialjective':
+Radialjective:
   type: Online Installation
   installation-of: radialjective.js
   interactive: true
@@ -224,7 +235,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/tentacles-undamped/tentacles-undamped.js
 
-'Text Uniquifier':
+Text Uniquifier:
   type: Online Installation
   installation-of: text-uniquifier.js
   interactive: true
@@ -235,7 +246,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
 
-'The Frame':
+The Frame:
   type: Online Installation
   installation-of: the-frame.js
   interactive: true
@@ -248,7 +259,7 @@ Eine kleine Glitchfraktal:
   launch-config: |
     { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
 
-'The Judgment of Paris':
+The Judgment of Paris:
   subtitle: From the Point of View of the Apple
   type: Online Installation
   installation-of: the-judgment-of-paris.js
@@ -260,7 +271,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js
 
-'Uncle Ankur':
+Uncle Ankur:
   type: Online Installation
   installation-of: uncle-ankur.js
   interactive: false
@@ -271,7 +282,7 @@ Eine kleine Glitchfraktal:
   javascript-urls:
   - ../modules/html5-gewgaws/uncle-ankur/uncle-ankur.js
 
-'Woman on Film':
+Woman on Film:
   type: Online Installation
   installation-of: woman-on-film.js
   interactive: true
