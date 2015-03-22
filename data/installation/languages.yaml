@@ -144,6 +144,28 @@ Backtracking Wang Tiler:
   see-also:
   - installation/Jaccia
 
+Matchbox:
+  type: Online Installation
+  installation-of: matchbox.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  instructions: |
+    Select an example configuration from the dropdown box, click "Run"
+    to run either of the programs individually, or "Find Race Conditions"
+    to compute all interleavings of the two programs and look for race
+    conditions between them.
+  javascript-urls:
+  - ../modules/matchbox/src/matchbox-launcher.js
+  script-root: ../modules/matchbox/src/
+  launch-config: |
+    {
+      'sourceRoot': '../modules/matchbox/eg/',
+      'workerURL': '../modules/matchbox/src/matchbox-worker.js'
+    }
+
 "noit o' mnain worb":
   type: Online Installation
   installation-of: worb.js
