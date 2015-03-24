@@ -1863,6 +1863,7 @@ matchbox.js:
   - Matchbox
   # for some definition of "static"
   implementation-type: static analyzer
+  in-distribution: Matchbox distribution
   online-locations:
   - installation/Matchbox
 

@@ -594,6 +594,7 @@ slife.js:
   host-platform: HTML5
   implementation-of:
   - Schrödinger's Game of Life
+  in-distribution: Schrödinger's Game of Life distribution
   online-locations:
   - installation/Schrödinger's Game of Life
 
@@ -603,6 +604,7 @@ slife:
   host-language: Python
   implementation-of:
   - Schrödinger's Game of Life
+  in-distribution: Schrödinger's Game of Life distribution
   reference: true
 
 
