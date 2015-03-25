@@ -604,6 +604,7 @@ slife:
   host-language: Python
   implementation-of:
   - Schrödinger's Game of Life
+  in-distribution: Schrödinger's Game of Life distribution
   reference: true
 
 
