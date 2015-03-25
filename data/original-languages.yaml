@@ -1856,7 +1856,7 @@ Matchbox:
 
 matchbox.js:
   type: Implementation
-  license: Unknown license
+  license: Public Domain
   host-language: Javascript
   host-platform: HTML5
   implementation-of:
