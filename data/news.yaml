@@ -1,5 +1,26 @@
 # encoding: UTF-8
 
+"Matchbox, a toy race-condition finder":
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 26 Mar 2015 09:14:33 GMT
+  blurb: |
+    We present [[installation/Matchbox]], a toy race-condition finder.
+  description: |
+    We present [[installation/Matchbox]], a toy race-condition finder —
+    it's an analyzer for a toy [[Assembly|assembly]]-like language that
+    runs in a [[HTML5|web browser]].  It finds all interleavings between
+    two programs, runs them all on shared memory, and declares there to
+    be no race conditions if and only if every interleaving is either
+    impossible, or produces the same result.
+    
+    I wrote Matchbox to (cheesy as it sounds) raise awareness of race
+    conditions.  Also, [Peterson's Algorithm](http://en.wikipedia.org/wiki/Peterson%27s_algorithm)
+    is beautiful, and Matchbox graphically demonstrates that it does work.
+    For a fuller account of why I wrote Matchbox, see the commentary on
+    the [[Matchbox]] node, and the projects' [README](https://github.com/catseye/Matchbox/)
+    file.
+
 "One way to tile the plane with Wang tiles":
   type: Article
   article-type: announcement
