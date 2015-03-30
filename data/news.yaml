@@ -3,7 +3,7 @@
 "Matchbox, a toy race-condition finder":
   type: Article
   article-type: announcement
-  publication-date: Thu, 26 Mar 2015 09:14:33 GMT
+  publication-date: Mon, 30 Mar 2015 07:42:48 GMT
   blurb: |
     We present [[installation/Matchbox]], a toy race-condition finder.
   description: |
@@ -20,6 +20,10 @@
     For a fuller account of why I wrote Matchbox, see the commentary on
     the [[Matchbox]] node, and the projects' [README](https://github.com/catseye/Matchbox/)
     file.
+    
+    Two more gewgaws have been installed online since the last announcement, too;
+    [[installation/Black Hole Poem]] and [[installation/Noise to Signal No. 1]].
+    Enjoy.
 
 "One way to tile the plane with Wang tiles":
   type: Article
