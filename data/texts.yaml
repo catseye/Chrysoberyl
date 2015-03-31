@@ -144,7 +144,7 @@ Nif (Markdown):
   online-locations:
   - installation/Nif
   file-locations:
-  - https://gist.github.com/catseye/7336582
+  - http://catseye.tc/modules/nanogenlab/generated/Nif.md
 
 
 Cheshire Text:
@@ -201,7 +201,7 @@ Doby Mick (Markdown):
   online-locations:
   - "installation/Doby Mick"
   file-locations:
-  - https://gist.github.com/cpressey/85521afb44764ea999c0
+  - "http://catseye.tc/modules/nanogenlab/generated/Doby Mick.md"
 
 
 "3×C(21,3)+2×C(215,2)=50000: The Novel":
@@ -232,7 +232,7 @@ Doby Mick (Markdown):
   online-locations:
   - "installation/3×C(21,3)+2×C(215,2)=50000: The Novel"
   file-locations:
-  - https://gist.github.com/cpressey/d100d3519083638d45c3
+  - http://catseye.tc/modules/nanogenlab/generated/3×C(21,3)+2×C(215,2)=50000.md
 
 
 A Rainy Sunday Afternoon:
@@ -262,7 +262,7 @@ A Rainy Sunday Afternoon (Markdown):
   online-locations:
   - installation/A Rainy Sunday Afternoon
   file-locations:
-  - https://gist.github.com/cpressey/1b9f6d8c66cc1f736aba
+  - "http://catseye.tc/modules/nanogenlab/generated/A Rainy Sunday Afternoon.md"
 
 
 Hope and Remembrance:
@@ -291,7 +291,7 @@ Hope and Remembrance (Markdown):
   online-locations:
   - installation/Hope and Remembrance
   file-locations:
-  - https://gist.github.com/cpressey/ecb626c5fc21f3e66443
+  - http://catseye.tc/modules/nanogenlab/generated/Hope_and_Remembrance.md
 
 
 Threnody for Abraxas:
@@ -320,4 +320,4 @@ Threnody for Abraxas (Markdown):
   online-locations:
   - installation/Threnody for Abraxas
   file-locations:
-  - https://gist.github.com/cpressey/119510ee0c99eb3d53ca
+  - "http://catseye.tc/modules/nanogenlab/generated/Threnody for Abraxas.md"
