@@ -152,6 +152,13 @@ class Renderer(object):
                 )
 
         @expose
+        def markdown_file_to_html(filename):
+            # TODO strip catseye.tc etc
+            with open(filename) as f:
+                md = f.read()
+            return markdown.markdown(md)
+
+        @expose
         def empty(iterable):
             for x in iterable:
                 return False

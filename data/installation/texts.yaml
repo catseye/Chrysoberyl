@@ -26,7 +26,7 @@
   installation-of: "Dial 'S' for Swallows (Markdown)"
   mediums:
   - HTML5
-  github-file-installation: true
+  inline-markdown-installation: true
 
 'Nif':
   type: Online Installation
