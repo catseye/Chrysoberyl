@@ -153,7 +153,12 @@ class Renderer(object):
 
         @expose
         def markdown_file_to_html(filename):
-            # TODO strip catseye.tc etc
+            # assumes "modules" are docked parallel to chrysoberyl locally
+            # which is neither fantastic nor horrendous
+            prefix = 'http://catseye.tc/modules/'
+            parts = filename.split(prefix)
+            if len(parts) == 2:
+                filename = os.path.join('..', parts[1])
             with open(filename) as f:
                 md = f.read()
             return markdown.markdown(md)

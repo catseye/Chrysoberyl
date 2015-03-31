@@ -31,7 +31,7 @@ The Swallows (Markdown):
   online-locations:
   - installation/The Swallows
   file-locations:
-  - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows.markdown
+  - http://catseye.tc/modules/the-swallows/doc/The_Swallows.markdown
 
 
 The Swallows of Summer:
@@ -59,7 +59,7 @@ The Swallows of Summer (Markdown):
   online-locations:
   - installation/The Swallows of Summer
   file-locations:
-  - https://github.com/catseye/The-Swallows/blob/master/doc/The_Swallows_of_Summer.markdown
+  - http://catseye.tc/modules/the-swallows/doc/The_Swallows_of_Summer.markdown
 
 
 Swallows and Sorrows:
@@ -87,7 +87,7 @@ Swallows and Sorrows (Markdown):
   online-locations:
   - installation/Swallows and Sorrows
   file-locations:
-  - https://github.com/catseye/The-Swallows/blob/master/doc/Swallows_and_Sorrows.markdown
+  - http://catseye.tc/modules/the-swallows/doc/Swallows_and_Sorrows.markdown
 
 
 "Dial 'S' for Swallows":
@@ -115,7 +115,7 @@ Swallows and Sorrows (Markdown):
   online-locations:
   - "installation/Dial 'S' for Swallows"
   file-locations:
-  - ../the-swallows/doc/Dial_S_for_Swallows.markdown
+  - http://catseye.tc/modules/the-swallows/doc/Dial_S_for_Swallows.markdown
 
 
 Nif:
