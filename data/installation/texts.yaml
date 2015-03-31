@@ -5,21 +5,21 @@
   installation-of: The Swallows (Markdown)
   mediums:
   - HTML5
-  github-file-installation: true
+  inline-markdown-installation: true
 
 'The Swallows of Summer':
   type: Online Installation
   installation-of: The Swallows of Summer (Markdown)
   mediums:
   - HTML5
-  github-file-installation: true
+  inline-markdown-installation: true
 
 'Swallows and Sorrows':
   type: Online Installation
   installation-of: Swallows and Sorrows (Markdown)
   mediums:
   - HTML5
-  github-file-installation: true
+  inline-markdown-installation: true
 
 "Dial 'S' for Swallows":
   type: Online Installation
