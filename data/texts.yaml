@@ -115,8 +115,7 @@ Swallows and Sorrows (Markdown):
   online-locations:
   - "installation/Dial 'S' for Swallows"
   file-locations:
-  - https://github.com/catseye/The-Swallows/blob/master/doc/Dial_S_for_Swallows.markdown
-
+  - ../the-swallows/doc/Dial_S_for_Swallows.markdown
 
 
 Nif:
