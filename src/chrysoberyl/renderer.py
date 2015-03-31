@@ -159,7 +159,7 @@ class Renderer(object):
             parts = filename.split(prefix)
             if len(parts) == 2:
                 filename = os.path.join('..', parts[1])
-            with open(filename) as f:
+            with codecs.open(filename, 'r', 'utf-8') as f:
                 md = f.read()
             return markdown.markdown(md)
 
