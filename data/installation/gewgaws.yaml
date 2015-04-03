@@ -18,6 +18,18 @@
 
 # ---------------------------------------------------------------
 
+A Minimalist Critique of Tetris:
+  type: Online Installation
+  installation-of: a-minimalist-critique.js
+  interactive: false
+  animated: true
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/a-minimalist-critique/a-minimalist-critique.js
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+
 A Non-Random Walk:
   type: Online Installation
   installation-of: a-non-random-walk.js
@@ -28,6 +40,7 @@ A Non-Random Walk:
   - HTML5
   javascript-urls:
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Black Hole Poem:
   type: Online Installation
