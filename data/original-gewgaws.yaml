@@ -188,7 +188,32 @@ canvas-feedback.js:
 #-------------------
 
 
-'A Non-Random Walk':
+A Minimalist Critique of Tetris:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Mar 2015
+  description: |
+    A minimalist critique of Tetris.
+
+a-minimalist-critique.js:
+  type: Implementation
+  license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - A Minimalist Critique of Tetris
+  online-locations:
+  - installation/A Minimalist Critique of Tetris
+
+
+A Non-Random Walk:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
@@ -228,7 +253,7 @@ a-non-random-walk.js:
   - installation/A Non-Random Walk
 
 
-'Black Hole Poem':
+Black Hole Poem:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
