@@ -1,5 +1,53 @@
 # encoding: UTF-8
 
+"0x04 is the cruelest month: NaPoGenMo and altgamejam":
+  type: Article
+  article-type: announcement
+  publication-date: Sun, 12 Apr 2015 16:46:33 GMT
+  blurb: |
+    [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/)
+    and
+    [altgamejam](http://jams.gamejolt.io/altgamejam)
+    underway! There's still time to participate.
+  description: |
+    April is National Poetry Writing Month!  And as [[NaNoGenMo]] is to
+    NaNoWriMo, so [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/)
+    is to NaPoWriMo:
+    
+    > The Goal:
+    > Spend the month of April writing code that generates a poem. Repeat.
+    > 
+    > The Rules:
+    > The only rule is that you share at least one poem and also your source code at the end.
+
+    And who, I ask, can resist poetry written by computers?
+    
+    For our part, we have written a few short poetry generators,
+    mostly in the form of `bash` one-liners, whose output can be found
+    [in this Github issue](https://github.com/NaPoGenMo/NaPoGenMo2015/issues/9).
+    
+    More significantly, we've also written a
+    [Hello, world!](https://github.com/catseye/Beatnik/blob/master/eg/hello-world.beatnik)
+    program in the [Beatnik](http://esolangs.org/wiki/Beatnik) programming
+    language (and, for the record, determined that writing a quine in Beatnik
+    is out of the question.)
+    
+    Oh, but that's not all!  Oh, but you'll wish it was all, you will!
+    
+    For it is the case that the month of April is also when the
+    [ALTERNATIVE GAME JAM](http://jams.gamejolt.io/altgamejam)
+    is taking place.
+    
+    What exactly an "alt game" *is* we're still not sure, but that didn't
+    stop us from making one.  It's hosted on GameJolt as a condition of
+    the jam, and there's this annoying ad that you have to wait through
+    to see the actual game, but that shouldn't stop you from trying it.
+    Here it is:
+    
+    [The New Gamerly Realism](http://gamejolt.com/games/other/the-new-gamerly-realism/59524/)
+    
+    *WE ENCOURAGE YOU TO JOIN AND PARTICIPATE YOUR BEST IN THESE GLORIOUS NEW OLYMPIADS*
+
 "Matchbox, a toy race-condition finder":
   type: Article
   article-type: announcement
