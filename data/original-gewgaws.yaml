@@ -184,6 +184,22 @@ canvas-feedback.js:
   online-locations:
   - installation/Canvas Feedback
 
+Canvas Feedback 1K:
+  type: Implementation
+  license: MIT license
+  # this bit is not true yet
+  in-distributions:
+  - Canvas Feedback distribution
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Canvas Feedback
+  # online-locations:
+  # - ...URL for the JS1K site
+  submitted-to:
+  - competition: JS1K 2015
+    prize: none
+
 
 #-------------------
 
