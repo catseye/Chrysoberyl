@@ -42,3 +42,10 @@ NaOpGenMo 2014:
     url: https://github.com/cpressey/NaOpGenMo/issues?q=is:open+is:issue+label:completed
   see-also:
   - NaNoGenMo 2014
+
+JS1K 2015:
+  type: Competition
+  references:
+  - title: JS1K 2015 "Hype Train"
+    description: A Javascript golfing competition
+    url: http://js1k.com/2015-hypetrain/
