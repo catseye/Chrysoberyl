@@ -733,6 +733,53 @@ text-uniquifier.js:
   - installation/Text Uniquifier
 
 
+Lexeduct:
+  type: Gewgaw
+  development-stage: work in progress
+  defining-distribution: Lexeduct distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2015
+  description: |
+    A "livetextmangler" — an online tool which transforms text.  As you
+    select different filters to apply to the input, the output is updated in
+    real-time.  Can also be used on the command-line.
+
+lexeduct.js:
+  type: Implementation
+  license: Public Domain
+  in-distributions:
+  - Lexeduct distribution
+  host-language: Javascript
+  # host-platform: Node.js
+  implementation-of:
+  - Lexeduct
+
+lexeduct-browser.js:
+  type: Implementation
+  license: Public Domain
+  in-distributions:
+  - Lexeduct distribution
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Lexeduct
+  # online-locations:
+  # - https://catseye.github.io/Lexeduct/in-browser/
+
+Lexeduct distribution: 
+  type: Distribution
+  bitbucket: catseye/lexeduct
+  github: catseye/Lexeduct
+  issue-tracker: github
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/lexeduct-0.1.zip
+
+
 The Frame:
   type: Gewgaw
   development-stage: mature
