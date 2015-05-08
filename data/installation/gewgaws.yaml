@@ -42,6 +42,24 @@ A Non-Random Walk:
   - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
+Art Restoration Simulator:
+  hidden: true
+  type: Online Installation
+  installation-of: art-restoration-simulator.js
+  interactive: true
+  animated: false
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-urls:
+  - ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+  launch-config: |
+    {
+      'artURL': '../modules/gewgaw-lab/art-restoration-simulator/art.jpg',
+      'controlPanel': document.getElementById('control_panel')
+    }
+
 Black Hole Poem:
   type: Online Installation
   installation-of: black-hole-poem.js
