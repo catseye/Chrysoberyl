@@ -135,6 +135,32 @@ a-non-random-walk.js:
   - installation/A Non-Random Walk
 
 
+Art Restoration Simulator:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: May 2013
+  description: |
+    A simulator that lets you experience the thrills and spills
+    of the fascinating world of art restoration.
+  instructions: |
+    Use your mouse (or your finger, on a touch device) to restore the artwork.
+
+art-restoration-simulator.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Art Restoration Simulator
+  online-locations:
+  - installation/Art Restoration Simulator
+
+
 Black Hole Poem:
   type: Gewgaw
   development-stage: mature
