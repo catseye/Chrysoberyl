@@ -12,13 +12,37 @@ from jinja2 import BaseLoader, Environment
 from jinja2.exceptions import TemplateNotFound
 import markdown
 
-from chrysoberyl.loader import load_docs
 from chrysoberyl import transformer
 from chrysoberyl.transformer import (
     filekey, sleek_key, pathname2url, markdown_contents
 )
 
-DOCUMENTATION = None
+
+# lifted from toolshelf (and probably to be removed from there)
+def find_likely_documents(start_dir):
+    DOC_PATTERNS = (
+        r'^LICENSE$',
+        r'^UNLICENSE$',
+        r'^README',
+        r'^.*?\.markdown$',
+        r'^.*?\.md$',
+        r'^.*?\.txt$',
+        r'^.*?\.lhs$',
+    )
+    for root, dirnames, filenames in os.walk(start_dir):
+        if root.endswith((".hg", "bin", "fixture", "distrepos")):
+            del dirnames[:]
+            continue
+        for filename in filenames:
+            for pattern in DOC_PATTERNS:
+                if re.match(pattern, filename):
+                    full_filename = os.path.join(
+                        os.path.relpath(root, start_dir), filename
+                    )
+                    if full_filename[0:2] == './':
+                        full_filename = full_filename[2:]
+                    yield full_filename
+                    break
 
 
 class Loader(BaseLoader):
@@ -356,10 +380,30 @@ class Renderer(object):
         @expose
         def documentation(key=key):
             """Return a list of documentation file names for the given key."""
-            global DOCUMENTATION
-            if DOCUMENTATION is None:
-                DOCUMENTATION = load_docs(self.docs_filename)
-            return sorted(DOCUMENTATION.get(key, []))
+
+            # assumes "modules" are docked parallel to chrysoberyl locally
+            # which is neither fantastic nor horrendous
+            filenames = []            
+            node = self.universe.get_node(key)
+            if 'bitbucket' in node:
+                path = os.path.join(
+                    '..', node['bitbucket'].split('/')[1],
+                )
+                for filename in find_likely_documents(path):
+                    filenames.append(filename)
+
+            return sorted(filenames)
+
+        @expose
+        def documentation_link(filename, key=key):
+            node = self.universe.get_node(key)
+            path = os.path.join(
+                '..', 'modules',
+                pathname2url(node['bitbucket'].split('/')[1]),
+                pathname2url(filename)
+            )
+            # TODO: stat the file, fallback to Github link if not there
+            return path
 
         @expose
         def github_link(filename, key=key):
@@ -368,6 +412,8 @@ class Renderer(object):
             distribution.
 
             """
+            # apparently not used anymore!
+            raise NotImplementedError
             return "https://github.com/%s/blob/master/%s" % (
                 pathname2url(self.universe.get_node(key)['github']),
                 pathname2url(filename)
