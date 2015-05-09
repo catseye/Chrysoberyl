@@ -13,7 +13,7 @@ import sys
 from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
-    load_chrysoberyl_dirs, load_docs, save_docs, load_config, overlay_yaml
+    load_chrysoberyl_dirs, load_config, overlay_yaml
 )
 from chrysoberyl.objects import Universe
 from chrysoberyl.renderer import Renderer
