@@ -70,7 +70,6 @@ def render(universe, options, config):
             config[space.name]['output_dir'],
             options.clone_dir,
             options.sleek_node_links,
-            os.path.join(config['node']['docs_dir'], 'docs.yaml')
         )
         r.render_chrysoberyl_data()
 
