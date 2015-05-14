@@ -46,17 +46,11 @@ def bitbucket_repos(space):
         yield (key, user, repo)
 
 
-def filterdocs(universe, options, config):
-    """Kind of a stopgap measure for now..."""
-    filename = os.path.join(config['node']['docs_dir'], 'docs.yaml')
-    docs = load_docs(filename)
-    new_docs = {}
+def mkdistmap(universe, options, config):
+    """Create a mapping between nodes and distributions."""
     space = universe['node']  # FIXME hardcoded
     for (key, user, repo) in bitbucket_repos(space):
-        doc_key = "bitbucket.org/%s/%s" % (user, repo)
-        if doc_key in docs:
-            new_docs[key] = sorted(docs[doc_key])
-    save_docs(filename, new_docs)
+        print key, user, repo
 
 
 def render(universe, options, config):
@@ -115,7 +109,7 @@ COMMANDS = {
     'render': render,
     'jsonify': jsonify,
     'announce': announce,
-    'filterdocs': filterdocs,
+    'mkdistmap': mkdistmap,
     'catalog': catalog,
 }
 
