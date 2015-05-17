@@ -124,7 +124,8 @@ def mkdistmap(universe, options, config):
                 #print key, distribution, "<<no associated repo>>"
                 pass
 
-    print json.dumps(repo_to_node)
+    with open(config[space.name]['dist_map'], 'w') as f:
+        f.write(json.dumps(repo_to_node))
 
 
 def render(universe, options, config):
