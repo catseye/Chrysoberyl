@@ -641,6 +641,33 @@ the-judgment-of-paris.js:
   - installation/The Judgment of Paris
 
 
+Two Fifty Six:
+  type: Gewgaw
+  development-stage: mature
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: May 2015
+  description: |
+    A graphical depiction of the first two hundred and fifty-six natural
+    numbers, in base four, using coloured squares with potentially varying
+    assignments of colours to digits.
+
+two-fifty-six.js:
+  type: Implementation
+  license: Public Domain
+  in-distributions:
+  - HTML5 Gewgaws distribution
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Two Fifty Six
+  online-locations:
+  - installation/Two Fifty Six
+
+
 Uncle Ankur:
   type: Gewgaw
   development-stage: mature
