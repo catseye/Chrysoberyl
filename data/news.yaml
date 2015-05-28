@@ -1,5 +1,29 @@
 # encoding: UTF-8
 
+Interviewed by Daniel Temkin:
+  type: Article
+  article-type: announcement
+  publication-date: Thu, 28 May 2015 09:32:32 GMT
+  blurb: |
+    [Interview on esoteric.codes](http://esoteric.codes/post/118780138572/interview-with-chris-pressey).
+  description: |
+    A little while ago I was [interviewed by Daniel Temkin](http://esoteric.codes/post/118780138572/interview-with-chris-pressey)
+    on the subject of [[Esolang]].
+    
+    Since that's something I've been doing for ages, it goes into a lot of
+    history, including pre-Internet stuff like BBS'es and the [[Amiga]] — so
+    if you're interested in that, definitely read it!
+    
+    Also, some new things done with the site since I last made an update here:
+    
+    *   Documentation of our projects is now hosted on this website.
+        It's still on Github too, but the documents on `catseye.tc`
+        
+    *   Texts are on this website too.
+    *   Lexeduct
+    *   [[installation/Art History Simulator]]
+    *   [[installation/Two Fifty Six]]
+
 "0x04 is the cruelest month: NaPoGenMo and altgamejam":
   type: Article
   article-type: announcement
@@ -8,7 +32,7 @@
     [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/)
     and
     [altgamejam](http://jams.gamejolt.io/altgamejam)
-    underway! There's still time to participate.
+    underway!
   description: |
     April is National Poetry Writing Month!  And as [[NaNoGenMo]] is to
     NaNoWriMo, so [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/)
