@@ -1,9 +1,9 @@
 # encoding: UTF-8
 
-Interviewed by Daniel Temkin:
+Interview with Chris Pressey, by Daniel Temkin:
   type: Article
   article-type: announcement
-  publication-date: Thu, 28 May 2015 09:32:32 GMT
+  publication-date: Thu, 28 May 2015 18:42:06 GMT
   blurb: |
     [Interview on esoteric.codes](http://esoteric.codes/post/118780138572/interview-with-chris-pressey).
   description: |
@@ -11,18 +11,11 @@ Interviewed by Daniel Temkin:
     on the subject of [[Esolang]].
     
     Since that's something I've been doing for ages, it goes into a lot of
-    history, including pre-Internet stuff like BBS'es and the [[Amiga]] — so
-    if you're interested in that, definitely read it!
+    history, including pre-Internet stuff like BBS'es and the
+    [[Amiga 500|Amiga]] — so if you're interested in that, definitely read it!
     
-    Also, some new things done with the site since I last made an update here:
-    
-    *   Documentation of our projects is now hosted on this website.
-        It's still on Github too, but the documents on `catseye.tc`
-        
-    *   Texts are on this website too.
-    *   Lexeduct
-    *   [[installation/Art History Simulator]]
-    *   [[installation/Two Fifty Six]]
+    And of course a bit of chat [[Befunge-93|Befunge]], [[Gemooy]], [[SMETANA]], and such
+    things, which may also be of interest.
 
 "0x04 is the cruelest month: NaPoGenMo and altgamejam":
   type: Article
