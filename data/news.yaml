@@ -1,5 +1,35 @@
 # encoding: UTF-8
 
+RetroChallenge July 2015, and other updates:
+  type: Article
+  article-type: announcement
+  publication-date: Tue, 30 Jun 2015 17:13:24 GMT
+  blurb: |
+    RetroChallenge 2015/07, and other updates.
+  description: |
+    We've decided to enter [RetroChallenge 2015/07](http://www.wickensonline.co.uk/retrochallenge-2012sc/).
+    We're going to write some code... *by hand!*  To this end, we've started a blog to track
+    our progress, and have [already made a few posts](http://bootstrap-zero.tumblr.com/archive),
+    even though it's not July yet.
+    
+    Also, some new things done with the site since the last update:
+    
+    *   Documentation for all of our projects is now hosted on this website.
+    
+        It's still on Github too, but the documents on `catseye.tc` are nicely marked up
+        and should be searchable by the search box on the main page (via duckduckgo.com).
+        
+    *   [[Text]]s are hosted on this website, too.
+    
+    *   Some new [[Gewgaw]]s are now installed online here:
+        *   [[installation/Art Restoration Simulator]]
+        *   [[installation/Two Fifty Six]]
+    
+    *   [[Lexeduct]], a result of NaPoGenMo 2015, is installed online — but not here.
+        It's on [catseye.github.io](http://catseye.github.io/Lexeduct/).
+        So [go there and try it out](http://catseye.github.io/Lexeduct/in-browser/).
+        (It will be hosted on `catseye.tc` too... someday.)
+
 Interview with Chris Pressey, by Daniel Temkin:
   type: Article
   article-type: announcement
