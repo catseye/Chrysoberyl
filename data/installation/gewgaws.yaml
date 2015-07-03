@@ -8,8 +8,9 @@
   mediums:
   - Javascript
   - HTML5
+  javascript-module: canvas-feedback
   javascript-urls:
-  - ../modules/canvas-feedback/src/canvas-feedback.js
+  - src/canvas-feedback.js
   launch-config: |
     {
       'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg',
@@ -26,8 +27,9 @@ A Minimalist Critique of Tetris:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/a-minimalist-critique/a-minimalist-critique.js
+  - a-minimalist-critique/a-minimalist-critique.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 A Non-Random Walk:
@@ -38,8 +40,9 @@ A Non-Random Walk:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
+  - a-non-random-walk/a-non-random-walk.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Art Restoration Simulator:
@@ -51,8 +54,9 @@ Art Restoration Simulator:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
+  - art-restoration-simulator/art-restoration-simulator.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   launch-config: |
     {
@@ -68,8 +72,9 @@ Black Hole Poem:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/black-hole-poem/black-hole-poem.js
+  - black-hole-poem/black-hole-poem.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Chzrxl:
@@ -85,8 +90,9 @@ Chzrxl:
     the "Restart" button can be used to scatter the balls and restart their
     movements.  You can try out different values and see which one you like
     the best.
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/chzrxl/chzrxl.js
+  - chzrxl/chzrxl.js
 
 Circus Xamulus:
   type: Online Installation
@@ -96,8 +102,9 @@ Circus Xamulus:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/circus-xamulus/circus-xamulus.js
+  - circus-xamulus/circus-xamulus.js
 
 Cyclobots:
   type: Online Installation
@@ -114,8 +121,9 @@ Cyclobots:
     at random.
     In case the cyclobots leave the viewable area of the playfield,
     dragging on the playfield will scroll it.
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/cyclobots/cyclobots.js
+  - cyclobots/cyclobots.js
   launch-config: |
     {
       width: 640,
@@ -130,8 +138,9 @@ Eine kleine Glitchfraktal:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
+  - eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 
 Fibonacci Spiral:
   type: Online Installation
@@ -141,8 +150,9 @@ Fibonacci Spiral:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
+  - fibonacci-spiral/fibonacci-spiral.js
 
 Fingerspelling:
   type: Online Installation
@@ -152,8 +162,9 @@ Fingerspelling:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
+  - fingerspelling/fingerspelling.js
 
 Hirsute Miasma:
   type: Online Installation
@@ -163,8 +174,9 @@ Hirsute Miasma:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
+  - hirsute-miasma/hirsute-miasma.js
 
 Heronsis hermnonicii:
   type: Online Installation
@@ -174,8 +186,9 @@ Heronsis hermnonicii:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
+  - heronsis-hermnonicii/heronsis-hermnonicii.js
 
 Hypongtrochoid:
   type: Online Installation
@@ -185,8 +198,9 @@ Hypongtrochoid:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
+  - hypongtrochoid/hypongtrochoid.js
 
 Multicolouralism:
   type: Online Installation
@@ -196,8 +210,9 @@ Multicolouralism:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
+  - multicolouralism/multicolouralism.js
 
 Noise to Signal No. 1:
   type: Online Installation
@@ -207,8 +222,9 @@ Noise to Signal No. 1:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/noise-to-signal-1/noise-to-signal-1.js
+  - noise-to-signal-1/noise-to-signal-1.js
 
 Plea of Thunder:
   type: Online Installation
@@ -227,8 +243,9 @@ Prairie:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/prairie/prairie.js
+  - prairie/prairie.js
   launch-config: |
     { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
 
@@ -240,8 +257,9 @@ Progression:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/progression/progression.js
+  - progression/progression.js
 
 Radialjective:
   type: Online Installation
@@ -251,8 +269,9 @@ Radialjective:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/radialjective/radialjective.js
+  - radialjective/radialjective.js
 
 'Tentacles, Undamped':
   type: Online Installation
@@ -263,8 +282,9 @@ Radialjective:
   - Javascript
   - HTML5
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/tentacles-undamped/tentacles-undamped.js
+  - tentacles-undamped/tentacles-undamped.js
 
 Text Uniquifier:
   type: Online Installation
@@ -274,8 +294,9 @@ Text Uniquifier:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
+  - text-uniquifier/text-uniquifier.js
 
 The Frame:
   type: Online Installation
@@ -285,8 +306,9 @@ The Frame:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/the-frame/the-frame.js
+  - the-frame/the-frame.js
   launch-config: |
     { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
 
@@ -299,8 +321,9 @@ The Judgment of Paris:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js
+  - the-judgment-of-paris/the-judgment-of-paris.js
 
 Two Fifty Six:
   type: Online Installation
@@ -310,8 +333,9 @@ Two Fifty Six:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/two-fifty-six/two-fifty-six.js
+  - two-fifty-six/two-fifty-six.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Uncle Ankur:
@@ -322,8 +346,9 @@ Uncle Ankur:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/uncle-ankur/uncle-ankur.js
+  - uncle-ankur/uncle-ankur.js
 
 Woman on Film:
   type: Online Installation
@@ -333,5 +358,6 @@ Woman on Film:
   mediums:
   - Javascript
   - HTML5
+  javascript-module: html5-gewgaws
   javascript-urls:
-  - ../modules/html5-gewgaws/woman-on-film/woman-on-film.js
+  - woman-on-film/woman-on-film.js

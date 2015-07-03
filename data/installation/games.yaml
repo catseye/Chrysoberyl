@@ -26,8 +26,9 @@
   instructions: |
     If your keystrokes aren't going into the "terminal", make sure you
     click in it first (it's focusable.)
+  javascript-module: super-wumpus-land
   javascript-urls:
-  - ../modules/super-wumpus-land/impl/swl.js/src/swl.js
+  - impl/swl.js/src/swl.js
   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
 
 'The Never-Ending Maze':
