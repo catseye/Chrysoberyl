@@ -18,8 +18,9 @@ Backtracking Wang Tiler:
     For more information on this automaton and its implementation, see
     [the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
   script-root: ../modules/wang-tilers/src/yoob/
+  javascript-module: wang-tilers
   javascript-urls:
-  - ../modules/wang-tilers/src/backtracking-wang-tiler.js
+  - src/backtracking-wang-tiler.js
 
 'BefOS':
   type: Online Installation
@@ -157,8 +158,9 @@ Matchbox:
     to run either of the programs individually, or "Find Race Conditions"
     to compute all interleavings of the two programs and look for race
     conditions between them.
+  javascript-module: matchbox
   javascript-urls:
-  - ../modules/matchbox/src/matchbox-launcher.js
+  - src/matchbox-launcher.js
   script-root: ../modules/matchbox/src/
   launch-config: |
     {
@@ -225,8 +227,9 @@ Schrödinger's Game of Life:
   - Javascript
   - HTML5
   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
+  javascript-module: schroedingers-game-of-life
   javascript-urls:
-  - ../modules/schroedingers-game-of-life/impl/slife.js/src/slife.js
+  - impl/slife.js/src/slife.js
   launch-config: |
     {
       'sourceRoot': '../modules/schroedingers-game-of-life/eg/'
@@ -307,7 +310,6 @@ Schrödinger's Game of Life:
 
 
 Wierd (John Colagioia):
-  hidden: true
   type: Online Installation
   installation-of: wierd-jnc.js
   interactive: true
@@ -316,8 +318,9 @@ Wierd (John Colagioia):
   - Javascript
   - HTML5
   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
+  javascript-module: wierd
   javascript-urls:
-  - ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
+  - dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
   launch-config: |
     {
       'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/'

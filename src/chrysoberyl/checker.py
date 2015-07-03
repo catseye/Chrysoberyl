@@ -205,11 +205,17 @@ def check_chrysoberyl_node(universe, data, key, node):
                 'Music Format', 'Musical Instrument', 'Image Format', 'Medium'
             )
         )
+
+        if 'javascript-urls' in node:
+            assert 'javascript-module' in node, key
+            for url in node['javascript-urls']:
+                assert not url.startswith('../module'), url
+
         if 'mp3' in node['mediums']:
             if not node.get('installation-of', None):
                 node['installation-of'] = key + ' (mp3)'
             node['inline-music-installation'] = True
-            
+
         check_scalar_ref(universe, key, node, 'installation-of',
                          types=('Implementation',))
 
