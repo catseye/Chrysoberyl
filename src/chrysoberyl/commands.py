@@ -118,8 +118,10 @@ def mkdistmap(universe, options, config):
         distribution = find_distribution(key, node)
         if distribution:
             if distribution in dist:
-                #print key, distribution, dist[distribution]
-                repo_to_node[dist[distribution][1]] = key
+                #print key.encode('utf-8'), distribution.encode('utf-8'), unicode(dist[distribution]).encode('utf-8')
+                # special case-ish hack-ish special case
+                if dist[distribution][1] != 'html5-gewgaws':
+                    repo_to_node[dist[distribution][1]] = key
             else:
                 #print key, distribution, "<<no associated repo>>"
                 pass
