@@ -338,18 +338,6 @@ Two Fifty Six:
   - two-fifty-six/two-fifty-six.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
-Two Fifty Six:
-  type: Online Installation
-  installation-of: two-fifty-six.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  javascript-urls:
-  - ../modules/html5-gewgaws/two-fifty-six/two-fifty-six.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
-
 Uncle Ankur:
   type: Online Installation
   installation-of: uncle-ankur.js
