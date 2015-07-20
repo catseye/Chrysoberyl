@@ -8,6 +8,7 @@
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/canvas-feedback/src/yoob/
   javascript-module: canvas-feedback
   javascript-urls:
   - src/canvas-feedback.js
@@ -27,10 +28,10 @@ A Minimalist Critique of Tetris:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - a-minimalist-critique/a-minimalist-critique.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 A Non-Random Walk:
   type: Online Installation
@@ -40,10 +41,10 @@ A Non-Random Walk:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - a-non-random-walk/a-non-random-walk.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Art Restoration Simulator:
   hidden: true
@@ -54,10 +55,10 @@ Art Restoration Simulator:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - art-restoration-simulator/art-restoration-simulator.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   launch-config: |
     {
       'artURL': '../modules/gewgaw-lab/art-restoration-simulator/art.jpg',
@@ -72,10 +73,10 @@ Black Hole Poem:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - black-hole-poem/black-hole-poem.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Chzrxl:
   type: Online Installation
@@ -90,6 +91,7 @@ Chzrxl:
     the "Restart" button can be used to scatter the balls and restart their
     movements.  You can try out different values and see which one you like
     the best.
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - chzrxl/chzrxl.js
@@ -102,6 +104,7 @@ Circus Xamulus:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - circus-xamulus/circus-xamulus.js
@@ -121,6 +124,7 @@ Cyclobots:
     at random.
     In case the cyclobots leave the viewable area of the playfield,
     dragging on the playfield will scroll it.
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - cyclobots/cyclobots.js
@@ -138,6 +142,7 @@ Eine kleine Glitchfraktal:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
@@ -150,6 +155,7 @@ Fibonacci Spiral:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - fibonacci-spiral/fibonacci-spiral.js
@@ -162,6 +168,7 @@ Fingerspelling:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - fingerspelling/fingerspelling.js
@@ -174,6 +181,7 @@ Hirsute Miasma:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - hirsute-miasma/hirsute-miasma.js
@@ -186,6 +194,7 @@ Heronsis hermnonicii:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - heronsis-hermnonicii/heronsis-hermnonicii.js
@@ -198,6 +207,7 @@ Hypongtrochoid:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - hypongtrochoid/hypongtrochoid.js
@@ -210,6 +220,7 @@ Multicolouralism:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - multicolouralism/multicolouralism.js
@@ -222,6 +233,7 @@ Noise to Signal No. 1:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - noise-to-signal-1/noise-to-signal-1.js
@@ -243,6 +255,7 @@ Prairie:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - prairie/prairie.js
@@ -257,6 +270,7 @@ Progression:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - progression/progression.js
@@ -269,6 +283,7 @@ Radialjective:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - radialjective/radialjective.js
@@ -294,6 +309,7 @@ Text Uniquifier:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - text-uniquifier/text-uniquifier.js
@@ -306,6 +322,7 @@ The Frame:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - the-frame/the-frame.js
@@ -321,6 +338,7 @@ The Judgment of Paris:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - the-judgment-of-paris/the-judgment-of-paris.js
@@ -333,10 +351,10 @@ Two Fifty Six:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - two-fifty-six/two-fifty-six.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
 
 Uncle Ankur:
   type: Online Installation
@@ -346,6 +364,7 @@ Uncle Ankur:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - uncle-ankur/uncle-ankur.js
@@ -358,6 +377,7 @@ Woman on Film:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
   javascript-module: html5-gewgaws
   javascript-urls:
   - woman-on-film/woman-on-film.js
