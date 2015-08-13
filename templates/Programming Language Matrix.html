@@ -1,4 +1,4 @@
-{% extends "type.html" %}
+{% extends "base.html" %}
 
 {% macro table_headings() %}
   <tr>
@@ -57,7 +57,7 @@
 
   {{ table_headings() }}
 
-  {%- for thing in related('type')|sort -%}
+  {%- for thing in related('type', key='Programming Language')|sort -%}
     {%- if get_node(thing).development_stage not in ['idea']
            and "Cat's Eye Technologies" in get_node(thing).auspices -%}
       {{ table_row(thing) }}
@@ -70,7 +70,7 @@
 
   {{ table_headings() }}
 
-  {%- for thing in related('type')|sort -%}
+  {%- for thing in related('type', key='Programming Language')|sort -%}
     {%- if get_node(thing).development_stage not in ['idea']
            and "Cat's Eye Technologies" not in get_node(thing).auspices -%}
       {{ table_row(thing) }}

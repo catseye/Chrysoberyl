@@ -146,3 +146,20 @@ Project Matrix:
   description: |
     Projects that have been undertaken under the auspices of
     [[Cat's Eye Technologies]] and [[What is this I don't even]].
+
+Programming Language Matrix:
+  type: Collection
+  description: |
+    This is a matrix of all the [[Programming Language|programming language]]s
+    known to [[Chrysoberyl]], collating them with known implementations of those
+    languages, and things known to be implemented in those languages.
+        
+    If you find this chart a little daunting, I don't blame you, and you might
+    want to start exploring [[Cat's Eye Technologies]]' programming language
+    materials from some other page:
+    
+    * [[Chris Pressey's Lingography]]
+    * [[Esolang]] ... and [[LoUIE]]
+    * [[Implementation Languages]]
+    * [[Programming Languages as an Artistic Medium]]
+    * [[The Aesthetics of Esolangs]]
