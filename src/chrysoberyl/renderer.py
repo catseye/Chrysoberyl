@@ -225,26 +225,29 @@ class Renderer(object):
                 return True
             return f
 
+        # incomplete and circumstantial
         @expose
-        def related(relationship, key=key):
-            """Return a list of nodes in the current namespace whose
-            field named by `relationship` contains the given `key`, whether
-            the field is a scalar or a list.  Comparable to a database join.
-
-            """
-            for nkey, node in self.space.iteritems():
+        def ours_p():
+            auspices = ("Cat's Eye Technologies", "What is this I don't even",)
+            def f(node):
                 if node.get('hidden', False):
-                    continue
-                rel = node.get(relationship, None)
-                if rel is None:
-                    continue
-                if rel == key:
-                    yield nkey
-                elif isinstance(rel, list) and key in rel:
-                    yield nkey
+                    return False
+                if not is_current(node):
+                    return False
+                if 'auspices' not in node:
+                    return False
+                ok = False
+                for auspice in auspices:
+                    if auspice in node['auspices']:
+                        ok = True
+                        break
+                if not ok:
+                    return False
+                return True
+            return f
 
         @expose
-        def related_items(relationship, key=key):
+        def related_items(relationship, key=key, filter=None):
             """Return a list of (key, node) pairs in the current namespace whose
             field named by `relationship` contains the given `key`, whether
             the field is a scalar or a list.  Comparable to a database join.
@@ -256,10 +259,18 @@ class Renderer(object):
                 rel = node.get(relationship, None)
                 if rel is None:
                     continue
+                if filter and not filter(node):
+                    continue
                 if rel == key:
                     yield (nkey, node)
                 elif isinstance(rel, list) and key in rel:
                     yield (nkey, node)
+
+        # maybe will be deprecated: use related_items instead
+        @expose
+        def related(*args, **kwargs):
+            for (k, n) in related_items(*args, **kwargs):
+                yield k
 
         @expose
         def group_by(iterable, group_by):
