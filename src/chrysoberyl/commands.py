@@ -141,6 +141,7 @@ def render(universe, options, config):
             config[space.name]['output_dir'],
             options.clone_dir,
             options.sleek_node_links,
+            options.render_nodes,
         )
         r.render_chrysoberyl_data()
 
@@ -213,15 +214,10 @@ def perform(args):
                          dest="config", metavar='FILE', default='config.yaml',
                          help="specify the config file to use "
                               "(default: %default)")
-    optparser.add_option("--host-language",
-                         dest="host_language", metavar='LANG',
-                         default=None,
-                         help="(for lint) lint only those distributions "
-                              "containing implementations in this language")
-    optparser.add_option("--output-doc-yaml-to",
-                         dest="output_filename", metavar='FILENAME',
-                         default=None,
-                         help="(for troll) write updated documentation yaml here")
+    optparser.add_option("--render-nodes",
+                         dest="render_nodes", metavar='NODES', default=None,
+                         help="comma-separated list of nodes to render "
+                              "(default: render all nodes)")
     optparser.add_option("--sleek-node-links",
                          dest="sleek_node_links", default=False,
                          action='store_true',

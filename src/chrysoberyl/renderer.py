@@ -68,7 +68,7 @@ class Renderer(object):
 
     """
     def __init__(self, universe, space, template_dirs, output_dir, clone_dir,
-                 sleek_node_links):
+                 sleek_node_links, render_nodes):
         self.universe = universe
         self.space = space
         self.template_dirs = template_dirs
@@ -76,6 +76,7 @@ class Renderer(object):
         self.output_dir = output_dir
         self.clone_dir = clone_dir
         self.sleek_node_links = sleek_node_links
+        self.render_nodes = render_nodes
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
 
     def render(self, template, output_filename, context):
@@ -697,10 +698,14 @@ class Renderer(object):
         documents.
 
         """
+        render_nodes = self.render_nodes.split(',') if self.render_nodes else []
+        render_nodes = [r.replace('_', ' ') for r in render_nodes]
         count = 0
         for (key, node) in self.space.iteritems():
             type_ = node['type']
             if self.universe.get_node(type_).get('suppress-page-generation', False):
+                continue
+            if render_nodes and key not in render_nodes:
                 continue
             self.render_node(key, node)
             count += 1
