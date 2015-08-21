@@ -248,6 +248,14 @@ class Renderer(object):
             return f
 
         @expose
+        def has_online_implementation_p():
+            def f(node):
+                return bool(node.get('online-locations', []))
+                # TODO this should also... well, see online_location(), below.
+                # we need to rewrite related_items() so that filter can be passed the key.
+            return f
+
+        @expose
         def related_items(relationship, key=key, filter=None):
             """Return a list of (key, node) pairs in the current namespace whose
             field named by `relationship` contains the given `key`, whether
