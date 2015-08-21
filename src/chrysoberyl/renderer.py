@@ -230,7 +230,7 @@ class Renderer(object):
         @expose
         def ours_p():
             auspices = ("Cat's Eye Technologies", "What is this I don't even",)
-            def f(node):
+            def f(key, node):
                 if node.get('hidden', False):
                     return False
                 if not is_current(node):
@@ -249,10 +249,8 @@ class Renderer(object):
 
         @expose
         def has_online_implementation_p():
-            def f(node):
-                return bool(node.get('online-locations', []))
-                # TODO this should also... well, see online_location(), below.
-                # we need to rewrite related_items() so that filter can be passed the key.
+            def f(key, node):
+                return bool(online_implementations(key))
             return f
 
         @expose
@@ -260,6 +258,7 @@ class Renderer(object):
             """Return a list of (key, node) pairs in the current namespace whose
             field named by `relationship` contains the given `key`, whether
             the field is a scalar or a list.  Comparable to a database join.
+            The filter, if given, is a predicate which takes a key and a node and returns a boolean.
 
             """
             for nkey, node in self.space.iteritems():
@@ -268,7 +267,7 @@ class Renderer(object):
                 rel = node.get(relationship, None)
                 if rel is None:
                     continue
-                if filter and not filter(node):
+                if filter and not filter(nkey, node):
                     continue
                 if rel == key:
                     yield (nkey, node)
@@ -534,15 +533,17 @@ class Renderer(object):
                 return ['installation/' + key[:-7]]
             return []
 
-        @expose
-        def online_buttons(key=key, show_verb_phrase=True):
-            html = ''
+        def online_implementations(key):
             online_locs = []
             online_locs.extend(online_locations(key))
             for impl in sorted(related('implementation-of', key=key)):
                 online_locs.extend(online_locations(impl))
+            return online_locs
 
-            for loc_key in sorted(online_locs):
+        @expose
+        def online_buttons(key=key, show_verb_phrase=True):
+            html = ''
+            for loc_key in sorted(online_implementations(key)):
                 mediums = self.universe.get_node(loc_key)['mediums']
                 medium = 'Online'
                 if 'Java applet' in mediums:
