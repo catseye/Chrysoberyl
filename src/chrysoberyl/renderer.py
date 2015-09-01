@@ -98,7 +98,7 @@ class Renderer(object):
         If no template yet, look for a template named [type].html in ALL the
         template directories.  If found, use it as the template.
 
-        If no template yet, use base.html as the template.
+        If no template yet, use _node.html as the template.
 
         Note that this logic is not in the template loader, because it resolves
         keys to filenames, and is not applicable during {% extends foo %}.
@@ -129,7 +129,7 @@ class Renderer(object):
         if find_template(type_filename):
             return self.jinja2_env.get_template(type_filename)
 
-        return self.jinja2_env.get_template('base.html')
+        return self.jinja2_env.get_template('_node.html')
 
     def render_node(self, key, node):
         """Render the given Chrysoberyl node (with the given key) as an HTML
