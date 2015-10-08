@@ -179,33 +179,21 @@ can process the Chrysberyl database.  It is located in the `bin` directory,
 and its source modules are in the `src/chrysoberyl` directory.  Things it
 can do include:
 
-*   check the data for consistency (`chrysoberyl check`)
+*   check the data for consistency (all subcommands do this)
 *   render Jinja2 templates with the data (one file per node) and
     dump all nodes to a single JSON file (`chrysoberyl render`)
-*   update the Atom news feed (`chrysoberyl announce`)
-*   create a `toolshelf` catalog of Bitbucket repos (`chrysoberyl catalog`)
+*   render all nodes to a JSON blob (`chrysoberyl jsonify`)
+*   write out an Atom news feed (`chrysoberyl announce`)
 
-If mercurial repositories of the distributions are available locally, it
-can also:
+Less common activities include:
 
-*   check the distributions for cleanliness (`chrysoberyl survey`)
-*   collect documentation from the distributions (`chrysoberyl troll`)
-*   create a zipball from the latest tag on a distribution
-    (`chrysoberyl release`)
+*   create a `toolshelf` catalogue of Bitbucket repos (`chrysoberyl catalogue`)
+*   write out a mapping between nodes and distributions (`chrysoberyl mkdistmap`)
 
 The tool has the following requirements, which can be installed with
-`easy_install`:
+`toolshelf` or `easy_install` or `pip` or whatever:
 
     atomize
     jinja2
     markdown
     PyYaml
-
-As of this writing, it takes my computer about fifteen seconds to load,
-and check the data and render the templates (excluding documentation nodes.)
-
-The JSON file is, as of this writing, less than 600K, meaning that, at
-broadband speeds it only takes a couple of seconds to download, making
-it feasible to implement a client-side query engine for Chrysoberyl
-in Javascript.  The size of this file could also be reduced, possibly
-substantially.

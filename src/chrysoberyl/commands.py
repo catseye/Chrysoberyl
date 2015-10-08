@@ -175,12 +175,15 @@ def announce(universe, options, config):
 
 def catalogue(universe, options, config):
     """Create a toolshelf catalogue from distribution nodes.
-    Possibly not useful yet (or ever; we'll see.)
 
     """
+    # FIXME This command is not as useful as it should be
     space = universe['node']  # FIXME hardcoded
+    lines = []
     for (key, user, repo) in bitbucket_repos(space):
-        print 'bb:%s/%s' % (user, repo)
+        lines.append('bb:%s/%s' % (user, repo))
+    for line in sorted(lines):
+        print line
 
 
 ### driver ###
