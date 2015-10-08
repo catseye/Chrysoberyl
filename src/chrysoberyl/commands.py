@@ -173,11 +173,13 @@ def announce(universe, options, config):
     make_news_feed(universe, space, feed_dir, 'atom_all_news.xml')
 
 
-def catalog(universe, data, options, config):
-    """Create a toolshelf catalog from distribution nodes.
+def catalogue(universe, options, config):
+    """Create a toolshelf catalogue from distribution nodes.
+    Possibly not useful yet (or ever; we'll see.)
 
     """
-    for (key, user, repo) in bitbucket_repos(data):
+    space = universe['node']  # FIXME hardcoded
+    for (key, user, repo) in bitbucket_repos(space):
         print 'bb:%s/%s' % (user, repo)
 
 
@@ -188,7 +190,7 @@ COMMANDS = {
     'jsonify': jsonify,
     'announce': announce,
     'mkdistmap': mkdistmap,
-    'catalog': catalog,
+    'catalogue': catalogue,
 }
 
 
