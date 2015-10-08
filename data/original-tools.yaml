@@ -332,17 +332,9 @@ rooibos.py:
   - Rooibos
   reference: true
   in-distributions:
-  - Rooibos distribution
   - Eightebed distribution
   license: Public Domain
   host-language: Python
-
-Rooibos distribution: 
-  type: Distribution
-  bitbucket: catseye/rooibos
-  github: catseye/Rooibos
-  issue-tracker: github
-  releases: []
 
 
 The Swallows Engine:
@@ -475,8 +467,7 @@ transmat (Python):
 
 transmat distribution: 
   type: Distribution
-  bitbucket: catseye/transmat
-  github: catseye/transmat
+  github: cpressey/transmat
   issue-tracker: github
   releases: []
 
