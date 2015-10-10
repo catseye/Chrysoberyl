@@ -1,4 +1,22 @@
 # encoding: UTF-8
+Electronics Projects distribution: 
+  type: Distribution
+  bitbucket: catseye/electronics-projects
+  github: catseye/Electronics-Projects
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/electronics-projects-1.0.zip
+
+# older, discrete distfiles:
+#    url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
+#    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
+#    url: http://catseye.tc/distfiles/led386-2004.0227.zip
+#    url: http://catseye.tc/distfiles/mildred-2003.0110.zip
+#    url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
+
+
 The 'Kitsilano' Oscillator:
   type: Electronics Project
   authors:
@@ -8,22 +26,11 @@ The 'Kitsilano' Oscillator:
   description: |
     An oscillator circuit that contains two NPN transistors and
     a single capacitor.
-  defining-distribution: The 'Kitsilano' Oscillator distribution
+  defining-distribution: Electronics Projects distribution
   images:
   - url: 'http://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png'
   development-stage: not fully complete
   constructed: false
-
-The 'Kitsilano' Oscillator distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2008.0905"
-    url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
-  - version: "1.0"
-    revision: "2011.0524"
-    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
-
 
 LED-386:
   subtitle: A 386-based LED blinker
@@ -34,19 +41,11 @@ LED-386:
   - Cat's Eye Technologies
   description: |
     The LM386 audio amplifier IC, that is...
-  defining-distribution: LED-386 distribution
+  defining-distribution: Electronics Projects distribution
   images:
   - url: 'http://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg'
   development-stage: mature
   constructed: true
-
-LED-386 distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0227"
-    url: http://catseye.tc/distfiles/led386-2004.0227.zip
-
 
 Mildred:
   type: Electronics Project
@@ -57,20 +56,10 @@ Mildred:
   description: |
     Mildred is a 4MHz [[Z80 machine code|Z80]]-based homebrew computer
     with 40K of memory (8K EEPROM, 32K SRAM.)
-  defining-distribution: Mildred distribution
+  defining-distribution: Electronics Projects distribution
   images:
   - url: 'http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg'
   development-stage: not fully complete
   constructed: true
   # close only counts in horseshoes, handgrenades, and Chrysoberyl
   host-platform: Z80 machine code
-
-Mildred distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2003.0110"
-    url: http://catseye.tc/distfiles/mildred-2003.0110.zip
-  - version: "1.0"
-    revision: "2011.0414"
-    url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
