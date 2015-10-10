@@ -8,6 +8,8 @@ import codecs
 import json
 from optparse import OptionParser
 import os
+import re
+import subprocess
 import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
@@ -186,6 +188,36 @@ def catalogue(universe, options, config):
         print line
 
 
+def check_releases(universe, options, config):
+    """Check for missing Chrysoberyl releases based on hg tags.
+
+    """
+
+    def get_it(command):
+        output = subprocess.Popen(
+            command, shell=True, stdout=subprocess.PIPE
+        ).communicate()[0]
+        return output
+
+    space = universe['node']  # FIXME hardcoded
+    for (key, user, repo) in bitbucket_repos(space):
+        print key
+        # FIXME terrible -- use toolshelf itself instead?
+        os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
+        output = get_it('hg tags')
+        tags = {}
+        for line in output.split('\n'):
+            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+            if match:
+                tag = match.group(1)
+                if tag == 'tip':
+                    continue
+                tags[tag] = int(match.group(2))
+        print tags
+        node = space[key]
+        print node['releases']
+
+
 ### driver ###
 
 COMMANDS = {
@@ -194,6 +226,7 @@ COMMANDS = {
     'announce': announce,
     'mkdistmap': mkdistmap,
     'catalogue': catalogue,
+    'check_releases': check_releases,
 }
 
 

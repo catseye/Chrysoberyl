@@ -92,6 +92,6 @@ tideay (Python):
 
 tideay distribution: 
   type: Distribution
-  bitbucket: catseye/tideay
+  github: cpressey/tideay
   issue-tracker: github
   releases: []
