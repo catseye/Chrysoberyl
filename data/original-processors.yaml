@@ -124,7 +124,13 @@ Canvas Feedback distribution:
   bitbucket: catseye/canvas-feedback
   github: catseye/Canvas-Feedback
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.0.zip
+  - version: "1.0"
+    revision: "2015.0826"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip
 
 
 Text Uniquifier:

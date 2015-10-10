@@ -43,12 +43,18 @@ ALPACA distribution:
   - version: "0.94"
     revision: "2007.0502"
     url: http://catseye.tc/distfiles/alpaca-0.94-2007.0502.zip
+  - version: "0.94"
+    revision: "2012.0623"
+    url: http://catseye.tc/distfiles/alpaca-0.94-2012.0623.zip
   - version: "1.0"
     revision: "2013.0315"
     url: http://catseye.tc/distfiles/alpaca-1.0-2013.0315.zip
   - version: "1.0"
     revision: "2014.0518"
     url: http://catseye.tc/distfiles/alpaca-1.0-2014.0518.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/alpaca-1.0-2015.0101.zip
 
 Apple Befunge distribution: 
   type: Distribution
@@ -109,7 +115,7 @@ Befunge-93 distribution:
     revision: "2004.0920"
     url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
   - version: "2.21"
-    revision: "2004.0920"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bef-2.21.zip
   - version: "2.22"
     revision: "2011.0318"
@@ -117,6 +123,12 @@ Befunge-93 distribution:
   - version: "2.23"
     revision: "2012.0825"
     url: http://catseye.tc/distfiles/befunge-93-2.23-2012.0825.zip
+  - version: "2.23"
+    revision: "2014.0820"
+    url: http://catseye.tc/distfiles/befunge-93-2.23-2014.0820.zip
+  - version: "2.23"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip
 
 beta-Juliet distribution: 
   type: Distribution
@@ -174,25 +186,25 @@ Bhuna distribution:
   has-makefile: true
   releases: 
   - version: "0.1"
-    revision: "2005.0721"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.1.zip
   - version: "0.2"
-    revision: "2005.0722"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.2.zip
   - version: "0.3"
-    revision: "2005.0723"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.3.zip
   - version: "0.4"
-    revision: "2005.0724"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.4.zip
   - version: "0.5"
-    revision: "2005.0725"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.5.zip
   - version: "0.6"
-    revision: "2005.0726"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.6.zip
   - version: "0.7"
-    revision: "2005.0727"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/bhuna-0.7.zip
   - version: "0.7"
     revision: "2011.0427"
@@ -232,6 +244,12 @@ Burro distribution:
   - version: "2.0"
     revision: "2011.0525"
     url: http://catseye.tc/distfiles/burro-2.0-2011.0525.zip
+  - version: "2.0"
+    revision: "2012.0619"
+    url: http://catseye.tc/distfiles/burro-2.0-2012.0619.zip
+  - version: "2.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/burro-2.0-2014.0819.zip
 
 Cabra distribution: 
   type: Distribution
@@ -257,7 +275,19 @@ Castile distribution:
   github: catseye/Castile
   bitbucket: catseye/castile
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/castile-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/castile-0.2.zip
+  - version: "0.3"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/castile-0.3.zip
+  - version: "0.3"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/castile-0.3-2015.0101.zip
 
 Cfluviurrh distribution: 
   type: Distribution
@@ -766,6 +796,9 @@ pibfi distribution:
   - version: "1.0"
     revision: "2003.0505"
     url: http://catseye.tc/distfiles/pibfi-2003.0505.zip
+  - version: "1.0"
+    revision: "2012.0826"
+    url: http://catseye.tc/distfiles/pibfi-1.0-2012.0826.zip
 
 Pixley distribution: 
   type: Distribution
@@ -790,6 +823,12 @@ Pixley distribution:
   - version: "2.0"
     revision: "2013.1024"
     url: http://catseye.tc/distfiles/pixley-2.0-2013.1024.zip
+  - version: "2.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/pixley-2.0-2014.0819.zip
+  - version: "2.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/pixley-2.0-2015.0101.zip
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
@@ -808,6 +847,12 @@ PL-{GOTO}.NET distribution:
   - version: "1.1"
     revision: "2012.0619"
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip
+  - version: "1.1"
+    revision: "2014.0817"
+    url: http://catseye.tc/distfiles/pl-goto-.net-1.1-2014.0817.zip
+  - version: "1.1"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/pl-goto-.net-1.1-2015.0101.zip
 
 Quylthulg distribution: 
   type: Distribution
@@ -857,6 +902,12 @@ REDGREEN distribution:
   - version: "1.1"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip
+  - version: "1.1"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/redgreen-1.1-2014.0819.zip
+  - version: "1.1"
+    revision: "2015.0629"
+    url: http://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip
 
 RUBE distribution: 
   type: Distribution
@@ -879,6 +930,15 @@ RUBE distribution:
   - version: "1.5"
     revision: "2011.0119"
     url: http://catseye.tc/distfiles/rube-1.5-2011.0119.zip
+  - version: "1.5"
+    revision: "2012.0826"
+    url: http://catseye.tc/distfiles/rube-1.5-2012.0826.zip
+  - version: "1.5"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/rube-1.5-2014.0819.zip
+  - version: "1.6"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/rube-1.6.zip
 
 RUBE II distribution: 
   type: Distribution

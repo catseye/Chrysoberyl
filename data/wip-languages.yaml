@@ -73,7 +73,10 @@ Kosheri distribution:
   issue-tracker: github
   test-requirements:
   - Falderal
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kosheri-0.1.zip
 
 
 Pophery:
@@ -152,4 +155,10 @@ Robin distribution:
   issue-tracker: github
   test-requirements:
   - Falderal
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.2.zip

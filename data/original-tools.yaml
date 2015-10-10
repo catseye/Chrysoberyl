@@ -269,8 +269,16 @@ Funicular distribution:
   bitbucket: catseye/funicular
   github: catseye/Funicular
   issue-tracker: github
-  releases: []
-  # TODO: releases
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/funicular-0.1.zip
+  - version: "0.1"
+    revision: "2015.0105"
+    url: http://catseye.tc/distfiles/funicular-0.1-2015.0105.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/funicular-0.2.zip
 
 
 mzstorkipiwanbotbotbot: 
@@ -306,7 +314,10 @@ mzstorkipiwanbotbotbot distribution:
   bitbucket: catseye/mzstorkipiwanbotbotbot
   github: catseye/mzstorkipiwanbotbotbot
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/mzstorkipiwanbotbotbot-0.1.zip
 
 
 # Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
@@ -425,7 +436,10 @@ The Swallows distribution:
   github: catseye/The-Swallows
   bitbucket: catseye/the-swallows
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/the-swallows-1.0.zip
 
 
 toolshelf: 
@@ -499,6 +513,9 @@ TPiS distribution:
   - version: "1.0"
     revision: "2006.0528"
     url: http://catseye.tc/distfiles/tpis-2006.0528.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/tpis-1.0-2014.0819.zip
 
 
 transmat: 

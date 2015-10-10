@@ -224,8 +224,17 @@ Super Wumpus Land distribution:
     revision: "2007.1216"
     url: http://catseye.tc/distfiles/swl-2007.1216.zip
   - version: "1.1"
+    revision: "2013.0323"
+    url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0323.zip
+  - version: "1.1"
     revision: "2013.0324"
     url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0324.zip
+  - version: "1.1"
+    revision: "2013.0410"
+    url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0410.zip
+  - version: "1.1"
+    revision: "2014.1024"
+    url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip
 
 
 'The Never-Ending Maze':
