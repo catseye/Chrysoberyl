@@ -62,6 +62,9 @@ Apple Befunge distribution:
   - version: "1.1"
     revision: "2012.0220"
     url: http://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip
+  - version: "1.1"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/apple-befunge-1.1-2014.0819.zip
 
 Arboretuum distribution: 
   type: Distribution
@@ -81,6 +84,9 @@ Arboretuum distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/arboretuum-1.0-2014.0819.zip
 
 # Cat's Eye Technologies' Beatnik distribution, not the original one
 Beatnik distribution: 
@@ -137,6 +143,9 @@ beta-Juliet distribution:
   - version: "2.0"
     revision: "2012.0714"
     url: http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip
+  - version: "2.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/beta-juliet-2.0-2014.0819.zip
 
 Beturing distribution: 
   type: Distribution
@@ -153,6 +162,9 @@ Beturing distribution:
   - version: "1.1"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip
+  - version: "1.1"
+    revision: "2012.1024"
+    url: http://catseye.tc/distfiles/beturing-1.1-2012.1024.zip
 
 Bhuna distribution: 
   type: Distribution
@@ -198,6 +210,12 @@ Braktif distribution:
   - version: "1.0"
     revision: "2007.0503"
     url: http://catseye.tc/distfiles/braktif-2007.0503.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/braktif-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0629"
+    url: http://catseye.tc/distfiles/braktif-1.0-2015.0629.zip
 
 Burro distribution: 
   type: Distribution
@@ -250,6 +268,9 @@ Cfluviurrh distribution:
   - version: "1.0"
     revision: "2012.0826"
     url: http://catseye.tc/distfiles/cfluviurrh-1.0-2012.0826.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/cfluviurrh-1.0-2014.0819.zip
 
 Circute distribution: 
   type: Distribution
@@ -260,6 +281,12 @@ Circute distribution:
   - version: "1.0"
     revision: "2007.0503"
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/circute-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0629"
+    url: http://catseye.tc/distfiles/circute-1.0-2015.0629.zip
 
 Dieter distribution: 
   type: Distribution
@@ -276,6 +303,12 @@ Dieter distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2012.0623"
+    url: http://catseye.tc/distfiles/dieter-1.0-2012.0623.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/dieter-1.0-2014.0819.zip
 
 Eightebed distribution: 
   type: Distribution
@@ -289,6 +322,12 @@ Eightebed distribution:
   - version: "1.1"
     revision: "2011.0510"
     url: http://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip
+  - version: "1.1"
+    revision: "2012.0623"
+    url: http://catseye.tc/distfiles/eightebed-1.1-2012.0623.zip
+  - version: "1.1"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/eightebed-1.1-2014.0819.zip
 
 Emmental distribution: 
   type: Distribution
@@ -305,6 +344,12 @@ Emmental distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/emmental-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/emmental-1.0-2015.0101.zip
 
 Etcha distribution: 
   type: Distribution
@@ -380,6 +425,9 @@ Funge-98 distribution:
   - version: "1.0"
     revision: "2004.0301"
     url: http://catseye.tc/distfiles/funge98-2004.0301.zip
+  - version: "1.0"
+    revision: "2013.0224"
+    url: http://catseye.tc/distfiles/funge-98-1.0-2013.0224.zip
 
 Gemooy distribution: 
   type: Distribution
@@ -400,6 +448,9 @@ GraNoLa/M distribution:
   - version: "1.0"
     revision: "2002.0314"
     url: http://catseye.tc/distfiles/granolam-2002.0314.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/granola-m-1.0-2014.0819.zip
 
 Hev distribution: 
   type: Distribution
@@ -413,6 +464,12 @@ Hev distribution:
   - version: "1.0"
     revision: "2010.0427"
     url: http://catseye.tc/distfiles/hev-1.0-2010.0427.zip
+  - version: "1.0"
+    revision: "2012.0523"
+    url: http://catseye.tc/distfiles/hev-1.0-2012.0523.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/hev-1.0-2014.0819.zip
 
 HUNTER distribution: 
   type: Distribution
@@ -429,6 +486,9 @@ HUNTER distribution:
   - version: "1.0"
     revision: "2011.1031"
     url: http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/hunter-1.0-2014.0819.zip
 
 Illberon distribution: 
   type: Distribution
@@ -493,6 +553,12 @@ Iphigeneia distribution:
   - version: "1.0"
     revision: "2011.1010"
     url: http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip
+  - version: "1.0"
+    revision: "2014.0818"
+    url: http://catseye.tc/distfiles/iphigeneia-1.0-2014.0818.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/iphigeneia-1.0-2015.0101.zip
 
 Jaccia and Jacciata distribution: 
   type: Distribution
@@ -506,9 +572,18 @@ Jaccia and Jacciata distribution:
   - version: "1.0"
     revision: "2010.0205"
     url: http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip
+  - version: "1.0"
+    revision: "2012.0623"
+    url: http://catseye.tc/distfiles/jaccia-1.0-2012.0623.zip
+  - version: "1.1"
+    revision: "2013.0320"
+    url: http://catseye.tc/distfiles/jaccia-1.1-2013.0320.zip
   - version: "1.1"
     revision: "2013.0406"
     url: http://catseye.tc/distfiles/jaccia-1.1-2013.0406.zip
+  - version: "1.1"
+    revision: "2014.0109"
+    url: http://catseye.tc/distfiles/jaccia-1.1-2014.0109.zip
 
 Jolverine distribution: 
   type: Distribution
@@ -519,6 +594,9 @@ Jolverine distribution:
   - version: "1.0"
     revision: "2012.0911"
     url: http://catseye.tc/distfiles/jolverine-1.0-2012.0911.zip
+  - version: "1.0"
+    revision: "2013.1010"
+    url: http://catseye.tc/distfiles/jolverine-1.0-2013.1010.zip
 
 Kangaroo Iceberg distribution: 
   type: Distribution
@@ -538,6 +616,9 @@ Kangaroo Iceberg distribution:
   - version: "0.5"
     revision: "2011.0509"
     url: http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip
+  - version: "0.5"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/kangaroo-iceberg-0.5-2014.0819.zip
 
 Kelxquoia distribution: 
   type: Distribution
@@ -561,6 +642,9 @@ Larabee distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0818"
+    url: http://catseye.tc/distfiles/larabee-1.0-2014.0818.zip
 
 Maentwrog distribution: 
   type: Distribution
@@ -599,13 +683,22 @@ Mascarpone distribution:
   - version: "1.0"
     revision: "2012.0312"
     url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
+  - version: "1.0"
+    revision: "2014.0818"
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2014.0818.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/mascarpone-1.0-2015.0101.zip
 
 Matchbox distribution:
   type: Distribution
   bitbucket: catseye/matchbox
   github: catseye/Matchbox
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/matchbox-1.0.zip
 
 Muriel distribution: 
   type: Distribution
@@ -616,6 +709,9 @@ Muriel distribution:
   - version: "1.0"
     revision: "2001.0323"
     url: http://catseye.tc/distfiles/muriel-2001.0323.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/muriel-1.0-2014.0819.zip
 
 "'N-DCNC distribution": 
   type: Distribution
@@ -636,6 +732,9 @@ Nhohnhehr distribution:
   - version: "1.0"
     revision: "2011.0510"
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/nhohnhehr-1.0-2014.0819.zip
 
 Pail distribution: 
   type: Distribution
@@ -654,6 +753,9 @@ Pail distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/pail-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/pail-1.0-2014.0819.zip
 
 pibfi distribution: 
   type: Distribution
@@ -730,6 +832,12 @@ Quylthulg distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2015.0101.zip
 
 REDGREEN distribution: 
   type: Distribution
@@ -798,6 +906,12 @@ Sally distribution:
   - version: "1.0"
     revision: "2010.0721"
     url: http://catseye.tc/distfiles/sally-1.0-2010.0721.zip
+  - version: "1.0"
+    revision: "2012.0818"
+    url: http://catseye.tc/distfiles/sally-1.0-2012.0818.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/sally-1.0-2014.0819.zip
 
 Sbeezg distribution: 
   type: Distribution
@@ -808,6 +922,9 @@ Sbeezg distribution:
   - version: "1.0"
     revision: "2002.0317"
     url: http://catseye.tc/distfiles/sbeezg-2002.0317.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/sbeezg-1.0-2014.0819.zip
 
 Schrödinger's Game of Life distribution: 
   type: Distribution
@@ -843,14 +960,23 @@ SICKBAY distribution:
   bitbucket: catseye/sickbay
   github: catseye/SICKBAY
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sickbay-1.0.zip
 
 SixtyPical distribution: 
   type: Distribution
   bitbucket: catseye/sixtypical
   github: catseye/SixtyPical
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.1.zip
+  - version: "0.1"
+    revision: "2014.1230"
+    url: http://catseye.tc/distfiles/sixtypical-0.1-2014.1230.zip
 
 SMETANA distribution: 
   type: Distribution
@@ -861,6 +987,9 @@ SMETANA distribution:
   - version: "1.0"
     revision: "2004.0227"
     url: http://catseye.tc/distfiles/smetana-2004.0227.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/smetana-1.0-2014.0819.zip
 
 SMITH distribution: 
   type: Distribution
@@ -878,8 +1007,14 @@ SMITH distribution:
     revision: "2011.0922"
     url: http://catseye.tc/distfiles/smith-2.1-2011.0922.zip
   - version: "2.1"
+    revision: "2012.0818"
+    url: http://catseye.tc/distfiles/smith-2.1-2012.0818.zip
+  - version: "2.1"
     revision: "2012.0916"
     url: http://catseye.tc/distfiles/smith-2.1-2012.0916.zip
+  - version: "2.1"
+    revision: "2013.0227"
+    url: http://catseye.tc/distfiles/smith-2.1-2013.0227.zip
 
 Squishy2K distribution: 
   type: Distribution
@@ -890,6 +1025,9 @@ Squishy2K distribution:
   - version: "1.0"
     revision: "2000.1006"
     url: http://catseye.tc/distfiles/squishy2k-2000.1006.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/squishy2k-1.0-2014.0819.zip
 
 Strelnokoff distribution: 
   type: Distribution
@@ -900,13 +1038,34 @@ Strelnokoff distribution:
   - version: "1.0"
     revision: "2001.0324"
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
+  - version: "1.0"
+    revision: "2012.0818"
+    url: http://catseye.tc/distfiles/strelnokoff-1.0-2012.0818.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/strelnokoff-1.0-2014.0819.zip
 
 Tamsin distribution: 
   type: Distribution
   bitbucket: catseye/tamsin
   github: catseye/Tamsin
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/tamsin-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/tamsin-0.2.zip
+  - version: "0.3"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/tamsin-0.3.zip
+  - version: "0.4"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/tamsin-0.4.zip
+  - version: "0.5"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/tamsin-0.5.zip
 
 Thue distribution: 
   type: Distribution
@@ -914,7 +1073,7 @@ Thue distribution:
   github: catseye/Thue
   issue-tracker: github
   releases: 
-  - version: "1.0"
+  - version: "1.4"
     revision: "2004.0301"
     url: http://catseye.tc/distfiles/thue-2004.0301.zip
   - version: "1.5"
@@ -923,6 +1082,12 @@ Thue distribution:
   - version: "1.5"
     revision: "2012.0916"
     url: http://catseye.tc/distfiles/thue-1.5-2012.0916.zip
+  - version: "1.5"
+    revision: "2012.1028"
+    url: http://catseye.tc/distfiles/thue-1.5-2012.1028.zip
+  - version: "1.5"
+    revision: "2015.0827"
+    url: http://catseye.tc/distfiles/thue-1.5-2015.0827.zip
 
 Treacle distribution: 
   type: Distribution
@@ -936,6 +1101,9 @@ Treacle distribution:
   - version: "1.0"
     revision: "2010.0427"
     url: http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/treacle-1.0-2014.0819.zip
 
 Troupe distribution: 
   type: Distribution
@@ -962,6 +1130,9 @@ Unlikely distribution:
   - version: "1.0"
     revision: "2013.1014"
     url: http://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/unlikely-1.0-2014.0819.zip
 
 Velo distribution: 
   type: Distribution
@@ -977,6 +1148,9 @@ Velo distribution:
   - version: "0.1"
     revision: "2014.0817"
     url: http://catseye.tc/distfiles/velo-0.1-2014.0817.zip
+  - version: "0.1"
+    revision: "2015.0103"
+    url: http://catseye.tc/distfiles/velo-0.1-2015.0103.zip
 
 Version distribution: 
   type: Distribution
@@ -990,6 +1164,9 @@ Version distribution:
   - version: "1.0"
     revision: "2010.0429"
     url: http://catseye.tc/distfiles/version-1.0-2010.0429.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/version-1.0-2014.0819.zip
 
 Whothm distribution: 
   type: Distribution
@@ -1006,6 +1183,12 @@ Whothm distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/whothm-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/whothm-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2015.0629"
+    url: http://catseye.tc/distfiles/whothm-1.0-2015.0629.zip
 
 Wierd distribution: 
   type: Distribution
@@ -1135,7 +1318,7 @@ Ypsilax distribution:
   issue-tracker: github
   releases: 
   - version: "0.9"
-    revision: "0.9"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/ypsilax-0.9.zip
   - version: "0.9"
     revision: "2007.1202"
@@ -1152,6 +1335,12 @@ Ypsilax distribution:
   - version: "1.1"
     revision: "2012.0916"
     url: http://catseye.tc/distfiles/ypsilax-1.1-2012.0916.zip
+  - version: "1.1"
+    revision: "2014.0525"
+    url: http://catseye.tc/distfiles/ypsilax-1.1-2014.0525.zip
+  - version: "1.1"
+    revision: "2014.0818"
+    url: http://catseye.tc/distfiles/ypsilax-1.1-2014.0818.zip
 
 ZOWIE distribution: 
   type: Distribution

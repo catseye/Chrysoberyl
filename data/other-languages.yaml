@@ -834,6 +834,7 @@ lookup table:
   authors: []
 
 
+# I have implemented this.  Should it go into implemented-languages.yaml...?
 Backtracking Wang Tiler:
   type: Automaton
   genre: Experimental language
@@ -872,9 +873,13 @@ Wang Tilers distribution:
   github: catseye/Wang-Tilers
   bitbucket: catseye/wang-tilers
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/wang-tilers-1.0.zip
 
 
+# I have implemented this.  Should it go into implemented-languages.yaml...?
 Conway's Game of Life:
   type: Automaton
   genre: Experimental language
@@ -890,6 +895,7 @@ Conway's Game of Life:
   inception-date: 1970
 
 
+# I have implemented this.  Should it go into implemented-languages.yaml...?
 Wireworld:
   type: Automaton
   # recreational language?

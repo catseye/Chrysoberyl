@@ -295,7 +295,12 @@ def check_releases(universe, options, config):
         stripped_versions = [strip_release(v) for v in versions]
         stripped_releases = [strip_release(v) for v in releases]
 
-        if stripped_versions == stripped_releases:
+        missing_releases = []
+        for version in versions:
+            if strip_release(version) not in stripped_releases:
+                missing_releases.append(version)
+
+        if not missing_releases:
             passes += 1
         else:
             print '-' * 40
@@ -309,9 +314,8 @@ def check_releases(universe, options, config):
             print
             print "** MISSING: **"
             print
-            for version in versions:
-                if strip_release(version) not in stripped_releases:
-                    print_release(version)
+            for release in missing_releases:
+                print_release(release)
             print
 
     print
