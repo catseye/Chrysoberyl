@@ -1,4 +1,33 @@
 # encoding: UTF-8
+
+# - - - -
+
+Specs on Spec distribution: 
+  type: Distribution
+  bitbucket: catseye/specs-on-spec
+  github: catseye/Specs-on-Spec
+  issue-tracker: github
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/specs-on-spec-0.1.zip
+
+# the original discrete distfiles were:
+#   http://catseye.tc/distfiles/didigm-2007.1117.zip
+#   http://catseye.tc/distfiles/didigm-1.0-2010.0429.zip
+#   http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
+#   http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
+#   http://catseye.tc/distfiles/mdpn-2004.0302.zip
+#   http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
+#   http://catseye.tc/distfiles/oozlybub-and-murphy-1.1-2011.0427.zip
+#   http://catseye.tc/distfiles/opus-2-2001.0325.zip
+#   http://catseye.tc/distfiles/tamerlane-2001.0127.zip
+#   http://catseye.tc/distfiles/urreading-2007.1105.zip
+#   http://catseye.tc/distfiles/urreading-1.0-2010.0721.zip
+#   http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
+
+# - - - -
+
 ALPACA distribution: 
   type: Distribution
   github: catseye/ALPACA
@@ -228,19 +257,6 @@ Circute distribution:
   - version: "1.0"
     revision: "2007.0503"
     url: http://catseye.tc/distfiles/circute-2007.0503.zip
-
-Didigm distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2007.1117"
-    url: http://catseye.tc/distfiles/didigm-2007.1117.zip
-  - version: "1.0"
-    revision: "2010.0429"
-    url: http://catseye.tc/distfiles/didigm-1.0-2010.0429.zip
-  - version: "1.0"
-    revision: "2011.1214"
-    url: http://catseye.tc/distfiles/didigm-1.0-2011.1214.zip
 
 Dieter distribution: 
   type: Distribution
@@ -528,15 +544,6 @@ Larabee distribution:
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip
 
-Madison distribution: 
-  type: Distribution
-  test-requirements:
-  - Falderal
-  releases: 
-  - version: "0.1"
-    revision: "2011.1202"
-    url: http://catseye.tc/distfiles/madison-0.1-2011.1202.zip
-
 Maentwrog distribution: 
   type: Distribution
   bitbucket: catseye/maentwrog
@@ -575,19 +582,12 @@ Mascarpone distribution:
     revision: "2012.0312"
     url: http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip
 
-Matchbox distribution: 
+Matchbox distribution:
   type: Distribution
   bitbucket: catseye/matchbox
   github: catseye/Matchbox
   issue-tracker: github
   releases: []
-
-MDPN distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0302"
-    url: http://catseye.tc/distfiles/mdpn-2004.0302.zip
 
 Muriel distribution: 
   type: Distribution
@@ -618,23 +618,6 @@ Nhohnhehr distribution:
   - version: "1.0"
     revision: "2011.0510"
     url: http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip
-
-Oozlybub and Murphy distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2010.1201"
-    url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.0-2010.1201.zip
-  - version: "1.1"
-    revision: "2011.0427"
-    url: http://catseye.tc/distfiles/oozlybub-and-murphy-1.1-2011.0427.zip
-
-Opus-2 distribution: 
-  type: Distribution
-  releases: 
-  - version: "0.5"
-    revision: "2001.0325"
-    url: http://catseye.tc/distfiles/opus-2-2001.0325.zip
 
 Pail distribution: 
   type: Distribution
@@ -900,13 +883,6 @@ Strelnokoff distribution:
     revision: "2001.0324"
     url: http://catseye.tc/distfiles/strelnokoff-2001.0324.zip
 
-Tamerlane distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2001.0127"
-    url: http://catseye.tc/distfiles/tamerlane-2001.0127.zip
-
 Tamsin distribution: 
   type: Distribution
   bitbucket: catseye/tamsin
@@ -968,19 +944,6 @@ Unlikely distribution:
   - version: "1.0"
     revision: "2013.1014"
     url: http://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip
-
-You are Reading the Name of this Esolang distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2007.1105"
-    url: http://catseye.tc/distfiles/urreading-2007.1105.zip
-  - version: "1.0"
-    revision: "2010.0721"
-    url: http://catseye.tc/distfiles/urreading-1.0-2010.0721.zip
-  - version: "1.0"
-    revision: "2011.1214"
-    url: http://catseye.tc/distfiles/urreading-1.0-2011.1214.zip
 
 Velo distribution: 
   type: Distribution

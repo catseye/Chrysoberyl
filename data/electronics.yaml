@@ -5,16 +5,16 @@ Electronics Projects distribution:
   github: catseye/Electronics-Projects
   issue-tracker: github
   releases: 
-  - version: "1.0"
+  - version: "0.1"
     revision: "0.0"
-    url: http://catseye.tc/distfiles/electronics-projects-1.0.zip
+    url: http://catseye.tc/distfiles/electronics-projects-0.1.zip
 
 # older, discrete distfiles:
-#    url: http://catseye.tc/distfiles/kitsilano-2008.0905.zip
-#    url: http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
-#    url: http://catseye.tc/distfiles/led386-2004.0227.zip
-#    url: http://catseye.tc/distfiles/mildred-2003.0110.zip
-#    url: http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
+#   http://catseye.tc/distfiles/kitsilano-2008.0905.zip
+#   http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip
+#   http://catseye.tc/distfiles/led386-2004.0227.zip
+#   http://catseye.tc/distfiles/mildred-2003.0110.zip
+#   http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip
 
 
 The 'Kitsilano' Oscillator:

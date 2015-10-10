@@ -1731,7 +1731,7 @@ Madison:
   - Cat's Eye Technologies
   paradigms:
   - Term-rewriting
-  defining-distribution: Madison distribution
+  defining-distribution: Specs on Spec distribution
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
   development-stage: not fully complete
@@ -1881,7 +1881,7 @@ MDPN:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  defining-distribution: MDPN distribution
+  defining-distribution: Specs on Spec distribution
   esowiki: MDPN
   inception-date: 1999
   development-stage: not fully complete
@@ -2019,7 +2019,7 @@ Oozlybub and Murphy:
   genre: Esolang
   paradigms:
   - Imperative
-  defining-distribution: Oozlybub and Murphy distribution
+  defining-distribution: Specs on Spec distribution
   description: |
     The name of this language is Oozlybub and Murphy. Despite appearances,
     this name refers to a single language. The majority of the language is named
@@ -2068,7 +2068,7 @@ Opus-2:
     + C, tubular bells, piano
     + mothballs (gentle whiff)
   significant: true
-  defining-distribution: Opus-2 distribution
+  defining-distribution: Specs on Spec distribution
 
 
 Pail: 
@@ -2704,7 +2704,7 @@ Tamerlane:
   inception-date: Aug 2000
   development-stage: mature
   esowiki: Tamerlane
-  defining-distribution: Tamerlane distribution
+  defining-distribution: Specs on Spec distribution
   etymology:
   - masculine given name
   sample: |
@@ -3392,7 +3392,7 @@ You are Reading the Name of this Esolang:
   genre: Esolang
   paradigms:
   - Imperative
-  defining-distribution: You are Reading the Name of this Esolang distribution
+  defining-distribution: Specs on Spec distribution
   description: |
     You are Reading the Name of this Esolang is an exploration in
     the design space of programming languages with undecidable elements. Its syntax
