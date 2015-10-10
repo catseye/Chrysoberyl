@@ -30,7 +30,8 @@ else:
     toolshelf = None
 
 
-# helper function
+### helper functions ###
+
 def bitbucket_repos(space):
     """Generator which yields information about every Mercurial repository
     on Bitbucket referenced by some distribution in Chrysoberyl.
@@ -47,6 +48,23 @@ def bitbucket_repos(space):
         (user, repo) = node['bitbucket'].split('/')
         yield (key, user, repo)
 
+def get_distname(node):
+    if 'bitbucket' in node:
+        match = re.match(r'^catseye/(.*?)$', node['bitbucket'])
+        return match.group(1)
+    urls = [release['url'] for release in node['releases']]
+    distnames = set()
+    for url in urls:
+        match = re.match(r'^http:\/\/.*\/(.*?)\-', url)
+        if not match:
+            raise ValueError(url)
+        distnames.add(match.group(1))
+    if len(distnames) == 1:
+        return distnames.pop()
+    raise ValueError(distnames)
+
+
+### command functions ###
 
 def mkdistmap(universe, options, config):
     """Create a mapping between nodes and distributions."""
@@ -237,22 +255,6 @@ def check_releases(universe, options, config):
 
         raise ValueError("Not a release tag that I understand: %s" % tag)
 
-    def get_distname(key):
-        node = space[key]
-        if 'bitbucket' in node:
-            match = re.match(r'^catseye/(.*?)$', node['bitbucket'])
-            return match.group(1)
-        urls = [release['url'] for release in node['releases']]
-        distnames = set()
-        for url in urls:
-            match = re.match(r'^http:\/\/.*\/(.*?)\-', url)
-            if not match:
-                raise ValueError(url)
-            distnames.add(match.group(1))
-        if len(distnames) == 1:
-            return distnames.pop()
-        raise ValueError(distnames)
-
     def print_release(version):
         print """\
   - version: "%s"
@@ -276,7 +278,7 @@ def check_releases(universe, options, config):
                 if tag in ('tip',):
                     continue
                 (v_maj, v_min, r_maj, r_min, v_name) = match_tag(tag)
-                distname = get_distname(key)
+                distname = get_distname(space[key])
                 versions.append((hg_rev, {
                     'url': 'http://catseye.tc/distfiles/%s-%s.zip' % (distname, v_name),
                     'version': "%s.%s" % (v_maj, v_min),
@@ -316,6 +318,36 @@ def check_releases(universe, options, config):
     print "%s passed" % passes
 
 
+def check_distfiles(universe, options, config):
+    """Check for missing distfiles based on Chrysoberyl releases
+
+    """
+    # FIXME hardcoded
+    depo = '/media/cpressey/Transcend/mine/catseye.tc/distfiles/'
+    space = universe['node']  # FIXME hardcoded
+
+    commands = []
+    for (key, user, repo) in bitbucket_repos(space):
+        for release in space[key]['releases']:
+            url = release['url']
+            match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/(.*?)$', url)
+            if not match:
+                raise ValueError(url)
+            filename = os.path.join(depo, match.group(1))
+            if not os.path.exists(filename):
+                print filename
+                distname = get_distname(space[key])
+                match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/' + distname + r'\-(.*?)\.zip$', url)
+                if not match:
+                    raise ValueError(url)
+                v_name = match.group(1)
+                command = "cd `toolshelf.py pwd %s` && toolshelf.py --output-dir=%s release .@%s" % (distname, depo, v_name)
+                commands.append(command)
+
+    print
+    for command in commands:
+        print command
+
 ### driver ###
 
 COMMANDS = {
@@ -325,6 +357,7 @@ COMMANDS = {
     'mkdistmap': mkdistmap,
     'catalogue': catalogue,
     'check_releases': check_releases,
+    'check_distfiles': check_distfiles,
 }
 
 
