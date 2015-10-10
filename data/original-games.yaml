@@ -123,7 +123,11 @@ Bubble Escape distribution:
   releases: 
   - version: "0.19"
     revision: "2000.1204"
+    tag: rel_0_19
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip
+  - version: "0.19"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2014.0819.zip
 
 
 Dungeons of Ekileugor:

@@ -40,9 +40,9 @@ ALPACA distribution:
   - version: "0.93"
     revision: "0.0"
     url: http://catseye.tc/distfiles/alpaca-0.93.zip
-  - version: "0.94"
+  - version: "0.93"
     revision: "2007.0502"
-    url: http://catseye.tc/distfiles/alpaca-0.94-2007.0502.zip
+    url: http://catseye.tc/distfiles/alpaca-0.93-2007.0502.zip
   - version: "0.94"
     revision: "2012.0623"
     url: http://catseye.tc/distfiles/alpaca-0.94-2012.0623.zip
@@ -113,13 +113,13 @@ Befunge-93 distribution:
   bitbucket: catseye/befunge-93
   issue-tracker: github
   releases: 
-  - version: "1.0"
-    revision: "2004.0920"
-    # this contains documentation only...
-    url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
   - version: "2.21"
     revision: "0.0"
     url: http://catseye.tc/distfiles/bef-2.21.zip
+  - version: "2.21"
+    revision: "2004.0920"
+    # this contains documentation only...
+    url: http://catseye.tc/distfiles/befunge93-2004.0920.zip
   - version: "2.22"
     revision: "2011.0318"
     url: http://catseye.tc/distfiles/bef-2.22-2011.0318.zip
@@ -432,7 +432,11 @@ FBBI distribution:
     url: http://catseye.tc/distfiles/fbbi-2004.0301.zip
   - version: "1.0"
     revision: "2011.1003"
+    tag: rel_1_0
     url: http://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip
+  - version: "1.0"
+    revision: "2014.0820"
+    url: http://catseye.tc/distfiles/fbbi-1.0-2014.0820.zip
 
 Flobnar distribution: 
   type: Distribution
@@ -688,7 +692,7 @@ Maentwrog distribution:
   github: catseye/Maentwrog
   issue-tracker: github
   releases: 
-  - version: "1.1"
+  - version: "1.0"
     revision: "2007.0930"
     url: http://catseye.tc/distfiles/maentw-2007.0930.zip
   - version: "1.1"
@@ -816,12 +820,15 @@ Pixley distribution:
   releases: 
   - version: "1.0"
     revision: "2009.0501"
+    tag: rel_1_0
     url: http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip
   - version: "1.1"
     revision: "2010.1105"
+    tag: rel_1_1
     url: http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip
   - version: "2.0"
     revision: "2011.1209"
+    tag: rel_2_0
     url: http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip
   - version: "2.0"
     revision: "2012.0219"
@@ -844,8 +851,12 @@ PL-{GOTO}.NET distribution:
   test-requirements:
   - Falderal
   releases: 
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/pl-goto.net-1.0.zip
   - version: "1.1"
     revision: "2011.0804"
+    tag: rel_1_1
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip
   - version: "1.1"
     revision: "2011.1011"
