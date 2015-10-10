@@ -849,10 +849,10 @@ PL-{GOTO}.NET distribution:
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip
   - version: "1.1"
     revision: "2014.0817"
-    url: http://catseye.tc/distfiles/pl-goto-.net-1.1-2014.0817.zip
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2014.0817.zip
   - version: "1.1"
     revision: "2015.0101"
-    url: http://catseye.tc/distfiles/pl-goto-.net-1.1-2015.0101.zip
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2015.0101.zip
 
 Quylthulg distribution: 
   type: Distribution

@@ -333,9 +333,12 @@ def check_distfiles(universe, options, config):
 
     def v_name_to_rel_name(v_name):
         match = re.match(r'^(\d+)\.(\d+)\-(\d\d\d\d)\.(\d\d\d\d)$', v_name)
-        if not match:
-            return v_name
-        return 'rel_%s_%s_%s_%s' % match.groups()
+        if match:
+            return 'rel_%s_%s_%s_%s' % match.groups()
+        match = re.match(r'^(\d+)\.(\d+)$', v_name)
+        if match:
+            return 'rel_%s_%s' % match.groups()
+        return v_name
 
     commands = []
     for (key, user, repo) in bitbucket_repos(space):
@@ -352,7 +355,8 @@ def check_distfiles(universe, options, config):
                 if not match:
                     raise ValueError(url)
                 v_name = match.group(1)
-                v_name = v_name_to_rel_name(v_name)
+                if not os.getenv('DECIMAL_VERSIONS'):
+                    v_name = v_name_to_rel_name(v_name)
                 command = "cd `toolshelf.py pwd %s` && toolshelf.py --output-dir=%s release .@%s" % (distname, depo, v_name)
                 commands.append(command)
 
