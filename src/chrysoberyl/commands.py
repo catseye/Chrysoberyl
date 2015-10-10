@@ -32,6 +32,7 @@ else:
 
 ### helper functions ###
 
+
 def bitbucket_repos(space):
     """Generator which yields information about every Mercurial repository
     on Bitbucket referenced by some distribution in Chrysoberyl.
@@ -47,6 +48,7 @@ def bitbucket_repos(space):
             continue
         (user, repo) = node['bitbucket'].split('/')
         yield (key, user, repo)
+
 
 def get_distname(node):
     if 'distname' in node:
@@ -64,6 +66,38 @@ def get_distname(node):
     if len(distnames) == 1:
         return distnames.pop()
     raise ValueError(distnames)
+
+
+# FIXME this is generally a terrible duplication of stuff from toolshelf.
+# these changes should be incorporated into toolshelf, and this should
+# use toolshelf.
+
+def get_it(command):
+    output = subprocess.Popen(
+        command, shell=True, stdout=subprocess.PIPE
+    ).communicate()[0]
+    return output
+
+
+def each_tag(user, repo):
+    os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
+    output = get_it('hg tags')
+    for line in output.split('\n'):
+        match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
+        if match:
+            yield match.group(1), int(match.group(2))
+
+
+def get_latest_tag(user, repo):
+    last_tag = 'tip'
+    last_rev = -1
+    for tag, hg_rev in each_tag(user, repo):
+        if tag == 'tip':
+            continue
+        if hg_rev > last_rev:
+            last_tag = tag
+            last_rev = hg_rev
+    return last_tag
 
 
 ### command functions ###
@@ -199,11 +233,11 @@ def catalogue(universe, options, config):
     """Create a toolshelf catalogue from distribution nodes.
 
     """
-    # FIXME This command is not as useful as it should be
     space = universe['node']  # FIXME hardcoded
     lines = []
     for (key, user, repo) in bitbucket_repos(space):
-        lines.append('bb:%s/%s' % (user, repo))
+        tag = get_latest_tag(user, repo)
+        lines.append('bb:%s/%s@%s' % (user, repo, tag))
     for line in sorted(lines):
         print line
 
@@ -212,16 +246,6 @@ def check_releases(universe, options, config):
     """Check for missing Chrysoberyl releases based on hg tags.
 
     """
-
-    # FIXME this is generally a terrible duplication of stuff from toolshelf.
-    # these changes should be incorporated into toolshelf, and this should
-    # use toolshelf.
-
-    def get_it(command):
-        output = subprocess.Popen(
-            command, shell=True, stdout=subprocess.PIPE
-        ).communicate()[0]
-        return output
 
     def match_tag(tag):
         match = re.match(r'^rel_(\d+)_(\d+)_(\d\d\d\d)_?(\d\d\d\d)$', tag)
@@ -279,27 +303,21 @@ def check_releases(universe, options, config):
             if tag:
                 release_tags.add(tag)
 
-        os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
-        output = get_it('hg tags')
         versions = []
-        for line in output.split('\n'):
-            match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-            if match:
-                tag = match.group(1)
-                hg_rev = int(match.group(2))
-                if tag in ('tip',) or tag in release_tags:
-                    continue
-                result = match_tag(tag)
-                if not result:
-                    print "Weird tag in %s: '%s'.  Skipping." % (key, tag)
-                    continue
-                (v_maj, v_min, r_maj, r_min, v_name) = result
-                distname = get_distname(space[key])
-                versions.append((hg_rev, {
-                    'url': 'http://catseye.tc/distfiles/%s-%s.zip' % (distname, v_name),
-                    'version': "%s.%s" % (v_maj, v_min),
-                    'revision': "%s.%s" % (r_maj, r_min),
-                }))
+        for tag, hg_rev in each_tag(user, repo):
+            if tag in ('tip',) or tag in release_tags:
+                continue
+            result = match_tag(tag)
+            if not result:
+                print "Weird tag in %s: '%s'.  Skipping." % (key, tag)
+                continue
+            (v_maj, v_min, r_maj, r_min, v_name) = result
+            distname = get_distname(space[key])
+            versions.append((hg_rev, {
+                'url': 'http://catseye.tc/distfiles/%s-%s.zip' % (distname, v_name),
+                'version': "%s.%s" % (v_maj, v_min),
+                'revision': "%s.%s" % (r_maj, r_min),
+            }))
         versions = [version[1] for version in sorted(versions)]
 
         def strip_release(r):
