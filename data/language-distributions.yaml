@@ -11,6 +11,12 @@ Specs on Spec distribution:
   - version: "0.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/specs-on-spec-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/specs-on-spec-0.2.zip
+  - version: "0.3"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/specs-on-spec-0.3.zip
 
 # the original discrete distfiles were:
 #   http://catseye.tc/distfiles/didigm-2007.1117.zip
@@ -845,6 +851,7 @@ Pixley distribution:
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
+  distname: pl-goto.net
   bitbucket: catseye/pl-goto-.net
   github: catseye/PL-GOTO.NET
   issue-tracker: github

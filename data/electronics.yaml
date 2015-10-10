@@ -8,6 +8,9 @@ Electronics Projects distribution:
   - version: "0.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/electronics-projects-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/electronics-projects-0.2.zip
 
 # older, discrete distfiles:
 #   http://catseye.tc/distfiles/kitsilano-2008.0905.zip

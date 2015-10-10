@@ -49,6 +49,8 @@ def bitbucket_repos(space):
         yield (key, user, repo)
 
 def get_distname(node):
+    if 'distname' in node:
+        return node['distname']
     if 'bitbucket' in node:
         match = re.match(r'^catseye/(.*?)$', node['bitbucket'])
         return match.group(1)
@@ -360,7 +362,7 @@ def check_distfiles(universe, options, config):
             if not os.path.exists(filename):
                 print filename
                 distname = get_distname(space[key])
-                match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/' + distname + r'\-(.*?)\.zip$', url)
+                match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/' + re.escape(distname) + r'\-(.*?)\.zip$', url)
                 if not match:
                     raise ValueError(url)
                 v_name = match.group(1)
