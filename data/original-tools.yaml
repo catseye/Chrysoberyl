@@ -308,6 +308,40 @@ mzstorkipiwanbotbotbot distribution:
   releases: []
 
 
+realpath:
+  type: Tool
+  description: |
+    `realpath` is a tool that reports the real, symbolic-link-free path
+    for a filepath which may contain symbolic links.
+  no-specification: true
+  development-stage: mature
+
+realpath (Python):
+  type: Implementation
+  implementation-of:
+  - realpath
+  reference: false
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2014
+  development-stage: mature
+  in-distribution: realpath distribution
+  license: Public Domain
+  host-language: Python
+
+realpath distribution: 
+  type: Distribution
+  bitbucket: catseye/realpath
+  github: catseye/realpath
+  issue-tracker: github
+  releases: 
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/realpath-1.0.zip
+
+
 Rooibos:
   type: Library
   summary: Simple, single-module parser combinator library
