@@ -339,15 +339,18 @@ mzstorkipiwanbotbotbot distribution:
 
 
 # Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
-NaNoGenLab distribution: 
+NaNoGenLab:
   type: Distribution
   bitbucket: catseye/nanogenlab
   github: catseye/NaNoGenLab
   issue-tracker: github
-  releases: 
-  - version: "0.1"
+  releases:
+  - version: "1.0"
     revision: "0.0"
-    url: http://catseye.tc/distfiles/nanogenlab-0.1.zip
+    url: http://catseye.tc/distfiles/nanogenlab-1.0.zip
+  - version: "1.0"
+    revision: "2015.0401"
+    url: http://catseye.tc/distfiles/nanogenlab-1.0-2015.0401.zip
 
 
 # Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)

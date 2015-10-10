@@ -255,7 +255,7 @@ def check_releases(universe, options, config):
             )
             return (v_maj, v_min, r_maj, r_min, v_name)
 
-        raise ValueError("Not a release tag that I understand: %s" % tag)
+        return None
 
     def print_release(version):
         print """\
@@ -266,7 +266,7 @@ def check_releases(universe, options, config):
     passes = 0
     space = universe['node']  # FIXME hardcoded
     for (key, user, repo) in sorted(bitbucket_repos(space)):
-        if key in ('The Dipple', 'Illgol: Grand Mal', 'Specs on Spec distribution', 'Electronics Projects distribution', 'NaNoGenLab distribution'):
+        if key in ('The Dipple', 'Illgol: Grand Mal',):
             continue
 
         releases = space[key]['releases']
@@ -289,7 +289,11 @@ def check_releases(universe, options, config):
                 hg_rev = int(match.group(2))
                 if tag in ('tip',) or tag in release_tags:
                     continue
-                (v_maj, v_min, r_maj, r_min, v_name) = match_tag(tag)
+                result = match_tag(tag)
+                if not result:
+                    print "Weird tag in %s: '%s'.  Skipping." % (key, tag)
+                    continue
+                (v_maj, v_min, r_maj, r_min, v_name) = result
                 distname = get_distname(space[key])
                 versions.append((hg_rev, {
                     'url': 'http://catseye.tc/distfiles/%s-%s.zip' % (distname, v_name),
