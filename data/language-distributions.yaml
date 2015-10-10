@@ -35,10 +35,10 @@ ALPACA distribution:
   issue-tracker: github
   releases: 
   - version: "0.90"
-    revision: "0.90"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/alpaca-0.90.zip
   - version: "0.93"
-    revision: "0.93"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/alpaca-0.93.zip
   - version: "0.94"
     revision: "2007.0502"

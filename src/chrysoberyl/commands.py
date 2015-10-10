@@ -284,7 +284,16 @@ def check_releases(universe, options, config):
                 }))
         versions = [version[1] for version in sorted(versions)]
         releases = space[key]['releases']
-        if versions == releases:
+
+        def strip_release(r):
+            return {
+               'version': str(r['version']), 'revision': str(r['revision'])
+           }
+
+        stripped_versions = [strip_release(v) for v in versions]
+        stripped_releases = [strip_release(v) for v in releases]
+
+        if stripped_versions == stripped_releases:
             passes += 1
         else:
             print '-' * 40
@@ -299,7 +308,8 @@ def check_releases(universe, options, config):
             print "** MISSING: **"
             print
             for version in versions:
-                print_release(version)
+                if strip_release(version) not in stripped_releases:
+                    print_release(version)
             print
 
     print

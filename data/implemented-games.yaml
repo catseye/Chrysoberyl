@@ -44,6 +44,9 @@ Animals distribution:
   - version: "1.1"
     revision: "2010.0429"
     url: http://catseye.tc/distfiles/animals-1.1-2010.0429.zip
+  - version: 1.1
+    revision: 2014.0819
+    url: http://catseye.tc/distfiles/animals-1.1-2014.0819.zip
 
 
 Flip:
