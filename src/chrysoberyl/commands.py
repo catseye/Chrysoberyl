@@ -253,9 +253,15 @@ def check_releases(universe, options, config):
             return distnames.pop()
         raise ValueError(distnames)
 
+    def print_release(version):
+        print """\
+  - version: %s
+    revision: %s
+    url: %s""" % (version['version'], version['revision'], version['url'])
+
+    passes = 0
     space = universe['node']  # FIXME hardcoded
-    for (key, user, repo) in bitbucket_repos(space):
-        print key
+    for (key, user, repo) in sorted(bitbucket_repos(space)):
         if key in ('The Dipple', 'Illgol: Grand Mal', 'Specs on Spec distribution', 'Electronics Projects distribution', 'NaNoGenLab distribution'):
             continue
 
@@ -277,9 +283,27 @@ def check_releases(universe, options, config):
                     'revision': "%s.%s" % (r_maj, r_min),
                 }))
         versions = [version[1] for version in sorted(versions)]
-        print versions
-        node = space[key]
-        print node['releases']
+        releases = space[key]['releases']
+        if versions == releases:
+            passes += 1
+        else:
+            print '-' * 40
+            print key
+            print '-' * 40
+            print
+            for release in releases:
+                print_release(release)
+            print
+            print output
+            print
+            print "** MISSING: **"
+            print
+            for version in versions:
+                print_release(version)
+            print
+
+    print
+    print "%s passed" % passes
 
 
 ### driver ###
