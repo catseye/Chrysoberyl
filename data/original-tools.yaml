@@ -308,6 +308,30 @@ mzstorkipiwanbotbotbot distribution:
   releases: []
 
 
+# Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
+NaNoGenLab distribution: 
+  type: Distribution
+  bitbucket: catseye/nanogenlab
+  github: catseye/NaNoGenLab
+  issue-tracker: github
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/nanogenlab-0.1.zip
+
+
+# Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
+NetUSB distribution: 
+  type: Distribution
+  bitbucket: catseye/netusb
+  github: catseye/NetUSB
+  issue-tracker: github
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/netusb-0.1.zip
+
+
 realpath:
   type: Tool
   description: |
@@ -395,9 +419,10 @@ The Swallows Engine (Python):
   license: Public Domain
   host-language: Python
 
-The Swallows distribution: 
+The Swallows distribution:
   type: Distribution
   github: catseye/The-Swallows
+  bitbucket: catseye/the-swallows
   issue-tracker: github
   releases: []
 
