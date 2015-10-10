@@ -193,27 +193,91 @@ def check_releases(universe, options, config):
 
     """
 
+    # FIXME this is generally a terrible duplication of stuff from toolshelf.
+    # these changes should be incorporated into toolshelf, and this should
+    # use toolshelf.
+
     def get_it(command):
         output = subprocess.Popen(
             command, shell=True, stdout=subprocess.PIPE
         ).communicate()[0]
         return output
 
+    def match_tag(tag):
+        match = re.match(r'^rel_(\d+)_(\d+)_(\d\d\d\d)_?(\d\d\d\d)$', tag)
+        if match:
+            v_maj = match.group(1)
+            v_min = match.group(2)
+            r_maj = match.group(3)
+            r_min = match.group(4)
+            v_name = '%s.%s-%s.%s' % (
+                v_maj, v_min, r_maj, r_min
+            )
+            return (v_maj, v_min, r_maj, r_min, v_name)
+    
+        match = re.match(r'^rel_(\d+)_(\d+)$', tag)
+        if not match:
+            match = re.match(r'^v?(\d+)\.(\d+)$', tag)
+        if match:
+            v_maj = match.group(1)
+            v_min = match.group(2)
+            v_name = '%s.%s' % (v_maj, v_min)
+            return (v_maj, v_min, "0", "0", v_name)
+    
+        match = re.match(r'^v?(\d+)\.(\d+)\-(\d+)\.(\d+)$', tag)
+        if match:
+            v_maj = match.group(1)
+            v_min = match.group(2)
+            r_maj = match.group(3)
+            r_min = match.group(4)
+            v_name = '%s.%s-%s.%s' % (
+                v_maj, v_min, r_maj, r_min
+            )
+            return (v_maj, v_min, r_maj, r_min, v_name)
+
+        raise ValueError("Not a release tag that I understand: %s" % tag)
+
+    def get_distname(key):
+        node = space[key]
+        if 'bitbucket' in node:
+            match = re.match(r'^catseye/(.*?)$', node['bitbucket'])
+            return match.group(1)
+        urls = [release['url'] for release in node['releases']]
+        distnames = set()
+        for url in urls:
+            match = re.match(r'^http:\/\/.*\/(.*?)\-', url)
+            if not match:
+                raise ValueError(url)
+            distnames.add(match.group(1))
+        if len(distnames) == 1:
+            return distnames.pop()
+        raise ValueError(distnames)
+
     space = universe['node']  # FIXME hardcoded
     for (key, user, repo) in bitbucket_repos(space):
         print key
-        # FIXME terrible -- use toolshelf itself instead?
+        if key in ('The Dipple', 'Illgol: Grand Mal', 'Specs on Spec distribution', 'Electronics Projects distribution', 'NaNoGenLab distribution'):
+            continue
+
         os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
         output = get_it('hg tags')
-        tags = {}
+        versions = []
         for line in output.split('\n'):
             match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
             if match:
                 tag = match.group(1)
-                if tag == 'tip':
+                hg_rev = int(match.group(2))
+                if tag in ('tip',):
                     continue
-                tags[tag] = int(match.group(2))
-        print tags
+                (v_maj, v_min, r_maj, r_min, v_name) = match_tag(tag)
+                distname = get_distname(key)
+                versions.append((hg_rev, {
+                    'url': 'http://catseye.tc/distfiles/%s-%s.zip' % (distname, v_name),
+                    'version': "%s.%s" % (v_maj, v_min),
+                    'revision': "%s.%s" % (r_maj, r_min),
+                }))
+        versions = [version[1] for version in sorted(versions)]
+        print versions
         node = space[key]
         print node['releases']
 
