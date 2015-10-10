@@ -230,6 +230,9 @@ Cabra distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/cabra-1.0-2014.0819.zip
 
 Castile distribution: 
   type: Distribution
@@ -314,6 +317,9 @@ Etcha distribution:
   - version: "1.0"
     revision: "2009.1004"
     url: http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip
+  - version: "1.0"
+    revision: "2014.0820"
+    url: http://catseye.tc/distfiles/etcha-1.0-2014.0820.zip
 
 Exanoke distribution: 
   type: Distribution
@@ -326,6 +332,12 @@ Exanoke distribution:
   - version: "1.0"
     revision: "2013.0105"
     url: http://catseye.tc/distfiles/exanoke-1.0-2013.0105.zip
+  - version: "1.0"
+    revision: "2013.1022"
+    url: http://catseye.tc/distfiles/exanoke-1.0-2013.1022.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/exanoke-1.0-2015.0101.zip
 
 FBBI distribution: 
   type: Distribution
@@ -355,6 +367,9 @@ Flobnar distribution:
   - version: "0.1"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip
+  - version: "0.1"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/flobnar-0.1-2014.0819.zip
 
 Funge-98 distribution: 
   type: Distribution
@@ -371,7 +386,10 @@ Gemooy distribution:
   github: catseye/Gemooy
   bitbucket: catseye/gemooy
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/gemooy-0.1.zip
 
 GraNoLa/M distribution: 
   type: Distribution
@@ -1010,7 +1028,13 @@ Wunnel distribution:
   bitbucket: catseye/wunnel
   github: catseye/Wunnel
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/wunnel-1.0.zip
+  - version: "1.0"
+    revision: "2015.0108"
+    url: http://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip
 
 "noit o' mnain worb distribution": 
   type: Distribution
@@ -1019,7 +1043,7 @@ Wunnel distribution:
   issue-tracker: github
   releases: 
   - version: "1.1"
-    revision: "1.1"
+    revision: "0.0"
     url: http://catseye.tc/distfiles/worb-1.1.zip
   - version: "1.1"
     revision: "2007.1123"
@@ -1036,6 +1060,18 @@ Wunnel distribution:
   - version: "1.1"
     revision: "2013.0330"
     url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2013.0330.zip
+  - version: "1.1"
+    revision: "2000.0719"
+    url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2000.0719.zip
+  - version: "1.1"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2014.0819.zip
+  - version: "1.1"
+    revision: "2015.0629"
+    url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0629.zip
+  - version: "1.1"
+    revision: "2015.0930"
+    url: http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip
 
 Xigxag distribution: 
   type: Distribution
@@ -1052,6 +1088,9 @@ Xigxag distribution:
   - version: "1.0"
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip
+  - version: "1.0"
+    revision: "2012.1028"
+    url: http://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip
 
 Xoomonk distribution: 
   type: Distribution
@@ -1067,6 +1106,12 @@ Xoomonk distribution:
   - version: "1.0"
     revision: "2013.1014"
     url: http://catseye.tc/distfiles/xoomonk-1.0-2013.1014.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/xoomonk-1.0-2014.0819.zip
+  - version: "1.0"
+    revision: "2014.1230"
+    url: http://catseye.tc/distfiles/xoomonk-1.0-2014.1230.zip
 
 Yolk distribution: 
   type: Distribution
@@ -1079,6 +1124,9 @@ Yolk distribution:
   - version: "1.0"
     revision: "0.0"
     url: http://catseye.tc/distfiles/yolk-1.0.zip
+  - version: "1.0"
+    revision: "2015.0101"
+    url: http://catseye.tc/distfiles/yolk-1.0-2015.0101.zip
 
 Ypsilax distribution: 
   type: Distribution

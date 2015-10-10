@@ -91,6 +91,9 @@ Flip distribution:
   - version: "1.0"
     revision: "2002.0731"
     url: http://catseye.tc/distfiles/flip-2002.0731.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/flip-1.0-2014.0819.zip
 
 
 Hunt the Wumpus:

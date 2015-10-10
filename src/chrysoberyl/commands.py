@@ -255,8 +255,8 @@ def check_releases(universe, options, config):
 
     def print_release(version):
         print """\
-  - version: %s
-    revision: %s
+  - version: "%s"
+    revision: "%s"
     url: %s""" % (version['version'], version['revision'], version['url'])
 
     passes = 0
