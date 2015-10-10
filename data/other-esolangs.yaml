@@ -16,6 +16,32 @@
     of course, does not exist."
 
 
+Beatnik:
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  - Imperative
+  # it's not TC; it might be PDA-complete, but at the very least, it
+  computational-class: can simulate some push-down automata
+  esowiki: BitChanger
+  influences:
+  - brainfuck
+  authors:
+  - Cliff L. Biffle
+  specification-link: esowiki
+  development-stage: mature
+
+beatnik.py:
+  type: Implementation
+  implementation-of:
+  - Beatnik
+  in-distribution: Beatnik distribution
+  reference: false
+  license: Public Domain
+  implementation-type: interpreter
+  host-language: Python
+
+
 BitChanger:
   type: Programming Language
   genre: Esolang

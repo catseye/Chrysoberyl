@@ -53,6 +53,17 @@ Arboretuum distribution:
     revision: "2011.1214"
     url: http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip
 
+# Cat's Eye Technologies' Beatnik distribution, not the original one
+Beatnik distribution: 
+  type: Distribution
+  github: catseye/Beatnik
+  bitbucket: catseye/beatnik
+  issue-tracker: github
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/beatnik-0.1.zip
+
 Befunge-93 distribution: 
   type: Distribution
   github: catseye/Befunge-93
