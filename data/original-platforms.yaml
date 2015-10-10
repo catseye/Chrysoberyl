@@ -51,7 +51,7 @@ BefOS distribution:
   github: catseye/BefOS
   issue-tracker: github
   releases: 
-  - version: "0.8"
+  - version: "0.1"
     revision: "2006.0204"
     url: http://catseye.tc/distfiles/befos-2006.0204.zip
   - version: "0.9"

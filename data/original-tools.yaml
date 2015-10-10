@@ -79,6 +79,8 @@ Amiga Gondola distribution:
     url: http://catseye.tc/distfiles/cons_virt-2003.0325.zip
   - version: "1.0"
     revision: "2007.1122"
+    # XXX not sure which is incorrect here, the tag or the version number.
+    tag: rel_2_0_20071122
     url: http://catseye.tc/distfiles/cons_virt-2007.1122.zip
   - version: "2.0"
     revision: "2013.0219"
@@ -117,7 +119,11 @@ crone distribution:
   releases: 
   - version: "1.0"
     revision: "2004.0301"
+    tag: rel_1_0
     url: http://catseye.tc/distfiles/crone-2004.0301.zip
+  - version: "1.0"
+    revision: "2014.0819"
+    url: http://catseye.tc/distfiles/crone-1.0-2014.0819.zip
 
 
 DiskSumo: 
@@ -474,8 +480,35 @@ toolshelf distribution:
   issue-tracker: github
   releases: 
   - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/toolshelf-0.1.zip
+  - version: "0.1"
+    revision: "2014.0611"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0611.zip
+  - version: "0.1"
+    revision: "2014.0616"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0616.zip
+  - version: "0.1"
+    revision: "2014.0818"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0818.zip
+  - version: "0.1"
     revision: "2014.0823"
     url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0823.zip
+  - version: "0.1"
+    revision: "2014.0924"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0924.zip
+  - version: "0.1"
+    revision: "2014.0930"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.0930.zip
+  - version: "0.1"
+    revision: "2014.1229"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.1229.zip
+  - version: "0.1"
+    revision: "2014.1231"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2014.1231.zip
+  - version: "0.1"
+    revision: "2015.0127"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2015.0127.zip
 
 
 TPiS: 
@@ -581,4 +614,8 @@ yucca distribution:
   releases: 
   - version: "1.0"
     revision: "2012.0610"
+    tag: rel_1_0
     url: http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip
+  - version: "1.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yucca-1.1.zip

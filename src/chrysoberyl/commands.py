@@ -267,6 +267,16 @@ def check_releases(universe, options, config):
         if key in ('The Dipple', 'Illgol: Grand Mal', 'Specs on Spec distribution', 'Electronics Projects distribution', 'NaNoGenLab distribution'):
             continue
 
+        releases = space[key]['releases']
+
+        # record releases which are associated with a tag that does exist,
+        # so we can filter them out at the discovery phase
+        release_tags = set()
+        for r in releases:
+            tag = r.get('tag', None)
+            if tag:
+                release_tags.add(tag)
+
         os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
         output = get_it('hg tags')
         versions = []
@@ -275,7 +285,7 @@ def check_releases(universe, options, config):
             if match:
                 tag = match.group(1)
                 hg_rev = int(match.group(2))
-                if tag in ('tip',):
+                if tag in ('tip',) or tag in release_tags:
                     continue
                 (v_maj, v_min, r_maj, r_min, v_name) = match_tag(tag)
                 distname = get_distname(space[key])
@@ -285,12 +295,11 @@ def check_releases(universe, options, config):
                     'revision': "%s.%s" % (r_maj, r_min),
                 }))
         versions = [version[1] for version in sorted(versions)]
-        releases = space[key]['releases']
 
         def strip_release(r):
             return {
                'version': str(r['version']), 'revision': str(r['revision'])
-           }
+            }
 
         stripped_versions = [strip_release(v) for v in versions]
         stripped_releases = [strip_release(v) for v in releases]

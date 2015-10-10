@@ -6,14 +6,23 @@ C64 Demo Depot:
   bitbucket: catseye/c64-demo-depot
   github: catseye/C64-Demo-Depot
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.1"
+    revision: "2012.0826"
+    url: http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0826.zip
+  - version: "1.1"
+    revision: "2012.0828"
+    url: http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0828.zip
 
 HTML5 Gewgaws distribution: 
   type: Distribution
   bitbucket: catseye/html5-gewgaws
   github: catseye/HTML5-Gewgaws
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/html5-gewgaws-0.1.zip
 
 
 Ribos: 
