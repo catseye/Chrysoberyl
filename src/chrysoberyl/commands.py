@@ -330,6 +330,13 @@ def check_distfiles(universe, options, config):
     depo = '/media/cpressey/Transcend/mine/catseye.tc/distfiles/'
     space = universe['node']  # FIXME hardcoded
 
+
+    def v_name_to_rel_name(v_name):
+        match = re.match(r'^(\d+)\.(\d+)\-(\d\d\d\d)\.(\d\d\d\d)$', v_name)
+        if not match:
+            return v_name
+        return 'rel_%s_%s_%s_%s' % match.groups()
+
     commands = []
     for (key, user, repo) in bitbucket_repos(space):
         for release in space[key]['releases']:
@@ -345,6 +352,7 @@ def check_distfiles(universe, options, config):
                 if not match:
                     raise ValueError(url)
                 v_name = match.group(1)
+                v_name = v_name_to_rel_name(v_name)
                 command = "cd `toolshelf.py pwd %s` && toolshelf.py --output-dir=%s release .@%s" % (distname, depo, v_name)
                 commands.append(command)
 
