@@ -3,8 +3,9 @@
 # also contains libraries (like Console::Virtual)
 # Note: arguably:
 # - Falderal is a language, and the testing tools are implementations of it
-# - TPiS is an implementation of Scheme (a static checker) 
-# - yucca is an implementation of BASIC (a static checker) 
+# - TPiS is an implementation of Scheme (a static checker)
+# - yucca is an implementation of BASIC (a static checker)
+# - hatoucan is an implementation of BASIC (a tokenizer)
 
 Amiga Gondola:
   # is this not a platform?  no, it's a tool that sets up a platform
@@ -299,6 +300,39 @@ Funicular distribution:
     url: http://catseye.tc/distfiles/funicular-0.2.zip
 
 
+Guten-gutter: 
+  type: Tool
+  summary: Extractor of Project Gutenberg texts
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    Guten-gutter is a command-line tool that removes the boilerplate
+    from Project Gutenberg text files.
+  inception-date: 2014
+  development-stage: mature
+
+guten-gutter (Python):
+  type: Implementation
+  implementation-of:
+  - Guten-gutter
+  reference: true
+  in-distribution: Guten-gutter distribution
+  license: Public Domain
+  host-language: Python
+
+Guten-gutter distribution: 
+  type: Distribution
+  bitbucket: catseye/guten-gutter
+  github: catseye/Guten-gutter
+  issue-tracker: github
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/guten-gutter-0.1.zip
+
+
 hatoucan: 
   type: Tool
   summary: Tokenizer for Commodore BASIC 2.0 programs
@@ -460,6 +494,40 @@ rooibos.py:
   - Eightebed distribution
   license: Public Domain
   host-language: Python
+
+
+seedbank:
+  type: Library
+  summary: Records seeds used in random generation and allows re-use
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `seedbank` is a Python module which takes care of recording the seed
+    used for random generation, and allowing a previously used seed to
+    be used again in the future.
+  inception-date: 2014
+  development-stage: mature
+
+seedbank (Python):
+  type: Implementation
+  implementation-of:
+  - seedbank
+  reference: true
+  in-distribution: seedbank distribution
+  license: Public Domain
+  host-language: Python
+
+seedbank distribution: 
+  type: Distribution
+  bitbucket: catseye/seedbank
+  github: catseye/seedbank
+  issue-tracker: github
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/seedbank-1.0.zip
 
 
 The Swallows Engine:
@@ -629,6 +697,42 @@ transmat distribution:
   github: cpressey/transmat
   issue-tracker: github
   releases: []
+
+
+T-Rext: 
+  type: Tool
+  summary: Tidier-upper for generated text
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    T-Rext is a command-line filter that attempts to clean up spaces and
+    punctuation in a text file.  Its purpose is so that, when you are writing
+    a text generator, such as a Markov processor, you need not worry too much
+    about its output format; just toss its output through T-Rext when you're
+    done to make it more presentable.
+  inception-date: Nov 2014
+  development-stage: mature
+
+t-rext (Python):
+  type: Implementation
+  implementation-of:
+  - T-Rext
+  reference: true
+  in-distribution: T-Rext distribution
+  license: Public Domain
+  host-language: Python
+
+T-Rext distribution: 
+  type: Distribution
+  bitbucket: catseye/t-rext
+  github: catseye/T-Rext
+  issue-tracker: github
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/t-rext-0.1.zip
 
 
 yucca: 
