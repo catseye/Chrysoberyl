@@ -209,6 +209,10 @@ class Renderer(object):
 
         @expose
         def implementations_by_p(type_, auspice):
+            """A predicate for returning the implementations conducted
+            under the given auspice.
+
+            """
             def f(node):
                 if node.get('hidden', False):
                     return False
@@ -255,24 +259,7 @@ class Renderer(object):
 
         @expose
         def related_items(relationship, key=key, filter=None):
-            """Return a list of (key, node) pairs in the current namespace whose
-            field named by `relationship` contains the given `key`, whether
-            the field is a scalar or a list.  Comparable to a database join.
-            The filter, if given, is a predicate which takes a key and a node and returns a boolean.
-
-            """
-            for nkey, node in self.space.iteritems():
-                if node.get('hidden', False):
-                    continue
-                rel = node.get(relationship, None)
-                if rel is None:
-                    continue
-                if filter and not filter(nkey, node):
-                    continue
-                if rel == key:
-                    yield (nkey, node)
-                elif isinstance(rel, list) and key in rel:
-                    yield (nkey, node)
+            return self.space.related_items(relationship, key, filter=filter)
 
         # maybe will be deprecated: use related_items instead
         @expose
@@ -345,29 +332,7 @@ class Renderer(object):
 
         @expose
         def ref_impl(key=key):
-            """Find the reference implementation for the given node
-            (assumed to be an implementable), which may be None.
-
-            Once determined, this value is cached in the node.
-
-            """
-            node = self.universe.get_node(key)
-            if '__reference-implementation__' in node:
-                return node['__reference-implementation__']
-            ref_i = None
-            # sigh, special case this for now
-            if node['type'] == 'Picture':
-                for i in related('implementation-of', key=key):
-                    ref_i = i
-                    break
-            else:
-                for (ikey, inode) in related_items('implementation-of', key=key):
-                    if inode.get('reference', False):
-                        if ref_i is not None:
-                            raise ValueError("more than one ref_impl of %s" % key)
-                        ref_i = ikey
-            node['__reference-implementation__'] = ref_i
-            return ref_i
+            return self.space.reference_implementation_of(key)
 
         @expose
         def ref_dist(key=key):

@@ -26,6 +26,52 @@ class NameSpace(dict):
             else:
                 yield self.name + '/' + key
 
+    def related_items(self, relationship, key, filter=None):
+        """Return a list of (key, node) pairs in the current namespace whose
+        field named by `relationship` contains the given `key`, whether
+        the field is a scalar or a list.  Comparable to a database join.
+        The filter, if given, is a predicate which takes a key and a node and returns a boolean.
+    
+        """
+        for nkey, node in self.iteritems():
+            if node.get('hidden', False):
+                continue
+            rel = node.get(relationship, None)
+            if rel is None:
+                continue
+            if filter and not filter(nkey, node):
+                continue
+            if rel == key:
+                yield (nkey, node)
+            elif isinstance(rel, list) and key in rel:
+                yield (nkey, node)
+
+    def reference_implementation_of(self, key):
+        """Find the reference implementation for the given node
+        (assumed to be an implementable), and return its key.  If there
+        is no reference implementation for the given node, return None.
+
+        Once determined, this value is cached in the node.
+
+        """
+        node = self[key]
+        if '__reference-implementation__' in node:
+            return node['__reference-implementation__']
+        ref_i = None
+        # sigh, special case this for now
+        if node['type'] == 'Picture':
+            for (i_key, i_node) in self.related_items('implementation-of', key):
+                ref_i = i_key
+                break
+        else:
+            for (ikey, inode) in self.related_items('implementation-of', key):
+                if inode.get('reference', False):
+                    if ref_i is not None:
+                        raise ValueError("more than one reference implementation of %s" % key)
+                    ref_i = ikey
+        node['__reference-implementation__'] = ref_i
+        return ref_i
+
     def convert_chrysoberyl_data(self):
         """Convert all loaded Chrysoberyl data into a form that can be rendered
         in a Jinja2 template.  This includes rendering fields which are known to

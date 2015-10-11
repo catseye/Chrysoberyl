@@ -109,78 +109,23 @@ def mkdistmap(universe, options, config):
     for (key, user, repo) in bitbucket_repos(space):
         dist[key] = (user, repo)
 
-    # lots of bits, incl ref_dist, lifted from renderer; this
-    # really suggests this is overdue for a refactor
-
-    def related(relationship, key=key):
-        """Return a list of nodes in the current namespace whose
-        field named by `relationship` contains the given `key`, whether
-        the field is a scalar or a list.  Comparable to a database join.
-    
-        """
-        for nkey, node in space.iteritems():
-            if node.get('hidden', False):
-                continue
-            rel = node.get(relationship, None)
-            if rel is None:
-                continue
-            if rel == key:
-                yield nkey
-            elif isinstance(rel, list) and key in rel:
-                yield nkey
-
-    def related_items(relationship, key=key):
-        for nkey, node in space.iteritems():
-            if node.get('hidden', False):
-                continue
-            rel = node.get(relationship, None)
-            if rel is None:
-                continue
-            if rel == key:
-                yield (nkey, node)
-            elif isinstance(rel, list) and key in rel:
-                yield (nkey, node)
-
-    def ref_impl(key=key):
-        node = universe.get_node(key)
-        if '__reference-implementation__' in node:
-            return node['__reference-implementation__']
-        ref_i = None
-        # sigh, special case this for now
-        if node['type'] == 'Picture':
-            for i in related('implementation-of', key=key):
-                ref_i = i
-                break
-        else:
-            for (ikey, inode) in related_items('implementation-of', key=key):
-                if inode.get('reference', False):
-                    if ref_i is not None:
-                        raise ValueError("more than one ref_impl of %s" % key)
-                    ref_i = ikey
-        node['__reference-implementation__'] = ref_i
-        return ref_i
-
-    def find_distribution(key, node):
-        if 'defining-distribution' in node:
-            return node['defining-distribution']
-        
-        ref_i = ref_impl(key=key)
-        if ref_i is not None:
-            if 'in-distributions' in universe.get_node(ref_i):
-                return universe.get_node(ref_i)['in-distributions'][0]
-
     repo_to_node = {}
     for key, node in space.iteritems():
-        distribution = find_distribution(key, node)
+        distribution = None
+
+        if 'defining-distribution' in node:
+            distribution = node['defining-distribution']
+        else:
+            ref_impl = space.reference_implementation_of(key)
+            if ref_impl is not None:
+                if 'in-distributions' in space[ref_impl]:
+                    return space[ref_impl]['in-distributions'][0]
+
         if distribution:
             if distribution in dist:
-                #print key.encode('utf-8'), distribution.encode('utf-8'), unicode(dist[distribution]).encode('utf-8')
                 # special case-ish hack-ish special case
                 if dist[distribution][1] != 'html5-gewgaws':
                     repo_to_node[dist[distribution][1]] = key
-            else:
-                #print key, distribution, "<<no associated repo>>"
-                pass
 
     with open(config[space.name]['dist_map'], 'w') as f:
         f.write(json.dumps(repo_to_node))
