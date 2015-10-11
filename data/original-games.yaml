@@ -214,8 +214,7 @@ swl.js:
   online-locations:
   - installation/Super Wumpus Land
 
-
-Super Wumpus Land distribution:  
+Super Wumpus Land distribution:
   type: Distribution
   bitbucket: catseye/super-wumpus-land
   github: catseye/Super-Wumpus-Land
@@ -241,7 +240,53 @@ Super Wumpus Land distribution:
     url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip
 
 
-'The Never-Ending Maze':
+The New Gamerly Realism:
+  type: Game
+  # ??!?!?
+  genre: Philosophy
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2015
+  development-stage: mature
+  description: |
+    Only when the conscious habit of coding culture's little interactions,
+    Marios and Lara Crofts in games disappears
+    _will we witness a purely gamerly work of gamedev_.
+    
+    I have transformed myself _in the zero of gameplay_ and have fished myself out
+    of the _rubbishy slough of mainstream gaming_...
+    
+    Only dull and impotent gamedevs veil their work with _sincerity_.
+    Gaming requires _truth_, not _sincerity_.
+    
+    _Levels have vanished like smoke; to attain the new gamerly paradigm_,
+    gamedev advances towards creation as an end in itself and towards
+    reification of the interactions of culture.
+  images: []
+
+the-new-gamerly-realism.js:
+  type: Implementation
+  implementation-of:
+  - The New Gamerly Realism
+  in-distribution: The New Gamerly Realism distribution
+  reference: true
+  license: Unknown license
+  host-language: Javascript
+  host-platform: HTML5
+  #online-locations:
+  #- installation/The New Gamerly Realism
+
+The New Gamerly Realism distribution:
+  type: Distribution
+  bitbucket: catseye/the-new-gamerly-realism
+  github: catseye/The-New-Gamerly-Realism
+  issue-tracker: github
+  releases: []
+
+
+The Never-Ending Maze:
   type: Game
   genre: Text Adventure
   development-stage: mature
