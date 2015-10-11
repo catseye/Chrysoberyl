@@ -249,7 +249,9 @@ def check_releases(universe, options, config):
                 release_tags.add(tag)
 
         versions = []
+        tags = []
         for tag, hg_rev in each_tag(user, repo):
+            tags.append((tag, hg_rev))
             if tag in ('tip',) or tag in release_tags:
                 continue
             result = match_tag(tag)
@@ -288,7 +290,8 @@ def check_releases(universe, options, config):
             for release in releases:
                 print_release(release)
             print
-            print output
+            for (tag, hg_rev) in tags:
+                print "%20s %5d" % (tag, hg_rev)
             print
             print "** MISSING: **"
             print

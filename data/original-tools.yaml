@@ -299,6 +299,40 @@ Funicular distribution:
     url: http://catseye.tc/distfiles/funicular-0.2.zip
 
 
+hatoucan: 
+  type: Tool
+  summary: Tokenizer for Commodore BASIC 2.0 programs
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `hatoucan` is a tokenizer for Commodore BASIC 2.0 programs.
+    It is compatible with a subset of `petcat`, but is written in
+    Python and is in the public domain.
+  inception-date: 2015
+  development-stage: not fully complete
+
+hatoucan (Python):
+  type: Implementation
+  implementation-of:
+  - hatoucan
+  reference: true
+  in-distribution: hatoucan distribution
+  license: Public Domain
+  host-language: Python
+
+hatoucan distribution: 
+  type: Distribution
+  bitbucket: catseye/hatoucan
+  github: catseye/hatoucan
+  issue-tracker: github
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/hatoucan-0.1.zip
+
+
 mzstorkipiwanbotbotbot: 
   type: Tool
   authors:
