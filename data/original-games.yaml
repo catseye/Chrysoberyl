@@ -238,6 +238,9 @@ Super Wumpus Land distribution:
   - version: "1.1"
     revision: "2014.1024"
     url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip
+  - version: "1.1"
+    revision: "2015.0721"
+    url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2015.0721.zip
 
 
 The New Gamerly Realism:
@@ -283,7 +286,10 @@ The New Gamerly Realism distribution:
   bitbucket: catseye/the-new-gamerly-realism
   github: catseye/The-New-Gamerly-Realism
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/the-new-gamerly-realism-1.0.zip
 
 
 The Never-Ending Maze:
