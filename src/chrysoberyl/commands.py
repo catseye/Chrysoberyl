@@ -89,6 +89,7 @@ def each_tag(user, repo):
 
 
 def get_latest_tag(user, repo):
+    cwd = os.getcwd()
     last_tag = 'tip'
     last_rev = -1
     for tag, hg_rev in each_tag(user, repo):
@@ -97,6 +98,7 @@ def get_latest_tag(user, repo):
         if hg_rev > last_rev:
             last_tag = tag
             last_rev = hg_rev
+    os.chdir(cwd)
     return last_tag
 
 
@@ -183,8 +185,14 @@ def catalogue(universe, options, config):
     for (key, user, repo) in bitbucket_repos(space):
         tag = get_latest_tag(user, repo)
         lines.append('bb:%s/%s@%s' % (user, repo, tag))
-    for line in sorted(lines):
-        print line
+
+    filename = os.path.realpath(os.path.join('.', config['node']['catalogue_file']))
+    print "Writing catalogue to '%s'..." % filename
+
+    with codecs.open(filename, 'w', 'utf-8') as f:
+        for line in sorted(lines):
+            f.write(line)
+            f.write('\n')
 
 
 def check_releases(universe, options, config):
