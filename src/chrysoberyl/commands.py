@@ -84,7 +84,8 @@ def each_tag(user, repo):
     output = get_it('hg tags')
     for line in output.split('\n'):
         match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-        if match:
+        # account for recent hg weirdness
+        if match and match.group(1) not in ('default/master',):
             yield match.group(1), int(match.group(2))
 
 
