@@ -1073,6 +1073,21 @@ SixtyPical distribution:
   - version: "0.1"
     revision: "2014.1230"
     url: http://catseye.tc/distfiles/sixtypical-0.1-2014.1230.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.2.zip
+  - version: "0.3"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.3.zip
+  - version: "0.4"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.4.zip
+  - version: "0.5"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.5.zip
+  - version: "0.6"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/sixtypical-0.6.zip
 
 SMETANA distribution: 
   type: Distribution
