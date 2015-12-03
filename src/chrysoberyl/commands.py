@@ -25,9 +25,11 @@ from chrysoberyl.transformer import transform_dates
 # experimental loose toolshelf integration
 if 'TOOLSHELF' in os.environ and os.environ['TOOLSHELF']:
     sys.path.insert(0, os.path.join(os.environ['TOOLSHELF'], '.toolshelf', 'src'))
-    import toolshelf
+    from toolshelf.toolshelf import Toolshelf
+    shelf = Toolshelf()
 else:
     toolshelf = None
+    shelf = None
 
 
 ### helper functions ###
@@ -66,41 +68,6 @@ def get_distname(node):
     if len(distnames) == 1:
         return distnames.pop()
     raise ValueError(distnames)
-
-
-# FIXME this is generally a terrible duplication of stuff from toolshelf.
-# these changes should be incorporated into toolshelf, and this should
-# use toolshelf.
-
-def get_it(command):
-    output = subprocess.Popen(
-        command, shell=True, stdout=subprocess.PIPE
-    ).communicate()[0]
-    return output
-
-
-def each_tag(user, repo):
-    os.chdir(os.path.join(os.getenv('TOOLSHELF'), 'bitbucket.org', user, repo))
-    output = get_it('hg tags')
-    for line in output.split('\n'):
-        match = re.match(r'^\s*(\S+)\s+(\d+):(.*?)\s*$', line)
-        # account for recent hg weirdness
-        if match and match.group(1) not in ('default/master',):
-            yield match.group(1), int(match.group(2))
-
-
-def get_latest_tag(user, repo):
-    cwd = os.getcwd()
-    last_tag = 'tip'
-    last_rev = -1
-    for tag, hg_rev in each_tag(user, repo):
-        if tag == 'tip':
-            continue
-        if hg_rev > last_rev:
-            last_tag = tag
-            last_rev = hg_rev
-    os.chdir(cwd)
-    return last_tag
 
 
 ### command functions ###
@@ -184,7 +151,8 @@ def catalogue(universe, options, config):
     space = universe['node']  # FIXME hardcoded
     lines = []
     for (key, user, repo) in bitbucket_repos(space):
-        tag = get_latest_tag(user, repo)
+        source = shelf.make_source_from_spec('bitbucket.org/%s/%s' % (user, repo))
+        tag = source.get_latest_release_tag()
         lines.append('bb:%s/%s@%s' % (user, repo, tag))
 
     filename = os.path.realpath(os.path.join('.', config['node']['catalogue_file']))
