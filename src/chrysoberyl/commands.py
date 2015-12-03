@@ -9,7 +9,6 @@ import json
 from optparse import OptionParser
 import os
 import re
-import subprocess
 import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
@@ -169,6 +168,7 @@ def check_releases(universe, options, config):
 
     """
 
+    # TODO: use version of this function from toolshelf release command
     def match_tag(tag):
         match = re.match(r'^rel_(\d+)_(\d+)_(\d\d\d\d)_?(\d\d\d\d)$', tag)
         if match:
@@ -227,7 +227,8 @@ def check_releases(universe, options, config):
 
         versions = []
         tags = []
-        for tag, hg_rev in each_tag(user, repo):
+        source = shelf.make_source_from_spec('bitbucket.org/%s/%s' % (user, repo))
+        for tag, hg_rev in source.each_tag():
             tags.append((tag, hg_rev))
             if tag in ('tip',) or tag in release_tags:
                 continue
@@ -249,7 +250,6 @@ def check_releases(universe, options, config):
                'version': str(r['version']), 'revision': str(r['revision'])
             }
 
-        stripped_versions = [strip_release(v) for v in versions]
         stripped_releases = [strip_release(v) for v in releases]
 
         missing_releases = []
