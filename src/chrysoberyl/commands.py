@@ -151,7 +151,7 @@ def catalogue(universe, options, config):
     lines = []
     for (key, user, repo) in bitbucket_repos(space):
         source = shelf.make_source_from_spec('bitbucket.org/%s/%s' % (user, repo))
-        tag = source.get_latest_release_tag()
+        tag = source.get_latest_release_tag() or 'tip'
         lines.append('bb:%s/%s@%s' % (user, repo, tag))
 
     filename = os.path.realpath(os.path.join('.', config['node']['catalogue_file']))
