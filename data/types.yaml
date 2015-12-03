@@ -14,7 +14,14 @@ Article:
     <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
 Online Installation:
   type: type
-
+  description: |
+    This is a list of all works installed online on [[catseye.tc]].
+    
+    This list is of _all_ works!  You may have better luck navigating
+    the online installations by going to the [front page](/) and
+    browsing by one of the categories: **[[Programming Language]],**
+    **[[Gewgaw]], [[Game]], [[Musical Composition]], [[Picture]], [[Text]],**
+    **[[Tool]], [[Electronics Project]],** or **[[Retrocomputing]]**.
 
 Concept:
   type: type
