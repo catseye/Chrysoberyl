@@ -61,7 +61,7 @@ Art Restoration Simulator:
   - art-restoration-simulator/art-restoration-simulator.js
   launch-config: |
     {
-      'artURL': '../modules/gewgaw-lab/art-restoration-simulator/art.jpg',
+      'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg',
       'controlPanel': document.getElementById('control_panel')
     }
 
