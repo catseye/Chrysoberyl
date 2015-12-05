@@ -249,9 +249,17 @@ W. Heath Robinson:
   wikipedia: W. Heath Robinson
   see-also:
   - Rube Goldberg
+Ken Knowlton:
+  type: Individual
+  references:
+    - url: http://www.kenknowlton.com/
+      title: Ken Knowlton
 Nam June Paik:
   type: Individual
   wikipedia: Nam June Paik
+  references:
+    - url: http://www.paikstudios.com/
+      title: Paik Studios
 
 # other notable people
 Anonymous:
