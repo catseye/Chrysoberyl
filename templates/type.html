@@ -6,7 +6,7 @@
   <h1>{{ plural(key) }}</h1>
 {% endblock %}
 
-{% set collected_auspices = group_by(related_items('type'), 'auspices') %}
+{% set collected_auspices = collect_auspices(key) %}
 
 {% block description_verbiage %}
   {%- if description -%}
@@ -17,10 +17,6 @@
     </p>
   {%- endif -%}
 {% endblock description_verbiage %}
-
-{# note: some types will not use the 'index' block for this; they will instead
-   put their index into the 'content' block, if they want to appear below
-   any images and/or exploit maximum horizontal real estate. #}
 
 {% block index %}
   {% for auspices, things in iteritems_sorted_within(
@@ -35,22 +31,12 @@
     {% endif %}
     <ul>
       {%- for thing in keys_sorted_within(things, ordered_within) -%}
-        {% if is_current(get_node(thing)) and online_buttons(thing)
-              and not (auspices == None and
-                       has_implementation_by_one_of(thing, [
-                           "Cat's Eye Technologies",
-                           "What is this I don't even",
-                       ])) %}
+        {% if online_buttons(thing) %}
           <li>{{ list_item(thing) }}</li>
         {% endif %}
       {%- endfor -%}
       {%- for thing in keys_sorted_within(things, ordered_within) -%}
-        {% if is_current(get_node(thing)) and not online_buttons(thing)
-              and not (auspices == None and
-                       has_implementation_by_one_of(thing, [
-                           "Cat's Eye Technologies",
-                           "What is this I don't even",
-                       ])) %}
+        {% if not online_buttons(thing) %}
           <li>{{ list_item(thing) }}</li>
         {% endif %}
       {%- endfor -%}

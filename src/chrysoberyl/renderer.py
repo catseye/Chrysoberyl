@@ -230,7 +230,7 @@ class Renderer(object):
                 return True
             return f
 
-        # incomplete and circumstantial
+        # incomplete and circumstantial.  used on front page only
         @expose
         def ours_p():
             auspices = ("Cat's Eye Technologies", "What is this I don't even",)
@@ -312,6 +312,24 @@ class Renderer(object):
                 'idea', 'work in progress', 'abandoned', 'unfinished',
                 'archived', 'lost',
             )
+
+        @expose
+        def collect_auspices(key):
+            """Group nodes with the given type by auspices.  Only include nodes
+            which are current, and for the "None" auspices, nodes which have not
+            been implemented by 'us'."""
+            us = [
+                "Cat's Eye Technologies",
+                "What is this I don't even",
+            ]
+            collected_auspices = {}
+            for auspices, v in group_by(related_items('type', key=key), 'auspices').iteritems():
+                v = [k for k in v if is_current(get_node(k))]
+                if auspices == None:
+                    v = [k for k in v if not has_implementation_by_one_of(k, us)]
+                if v:
+                    collected_auspices[auspices] = v
+            return collected_auspices
 
         @expose
         def has_implementation_by_one_of(key, auspices):
