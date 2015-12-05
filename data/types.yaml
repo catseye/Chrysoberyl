@@ -206,13 +206,6 @@ Musical Composition:
     Many of these tunes can be listened to online, if you have a
     web browser that supports [[HTML5]] [[mp3]] audio or if you
     have an Adobe Flash™ plugin.
-  references:
-  - url: http://canonical.org/~kragen/bytebeat/
-    title: Bytebeat — Crowd
-    description: programmatic music
-  - url: http://alonetone.com/
-    title: Alonetone
-    description: an open-source home for music
 
 Music Format:
   type: type
@@ -323,21 +316,6 @@ Text:
   - Hope and Remembrance
   - Threnody for Abraxas
   - Cheshire Text
-  references:
-  - url: http://speculativefictions.weebly.com/
-    title: SPECULATIVE FICTIONS
-  - url: http://www.xradiograph.com/XraysMonaLisa/XraysMonaLisa
-    title: Xrays Mona Lisa
-  - url: http://thinkzone.wlonk.com/Gibber/GibGen.htm
-    title: Gibberish Generator
-    description: Gnbb rii ehGrr
-  - url: http://hackertyper.com/
-    title: Hacker Typer
-  - url: http://oxism.com/TuringType/
-    title: TuringType
-  - url: http://push.cwcon.org/
-    title: PUSH
-    description: source journal
 
 # these are implementables too, but that property is less exploited for them
 Electronics Project:

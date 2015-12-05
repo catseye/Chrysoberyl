@@ -321,3 +321,25 @@ Threnody for Abraxas (Markdown):
   - installation/Threnody for Abraxas
   file-locations:
   - "http://catseye.tc/modules/nanogenlab/generated/Threnody for Abraxas.md"
+
+
+# - - - -
+
+
+SPECULATIVE FICTIONS:
+  type: Text
+  development-stage: not fully complete
+  no-specification: true
+  inception-date: Jan 2013
+  references:
+    - url: http://speculativefictions.weebly.com/
+      title: SPECULATIVE FICTIONS
+
+
+Xrays Mona Lisa:
+  type: Text
+  development-stage: mature
+  no-specification: true
+  references:
+    - url: http://www.xradiograph.com/XraysMonaLisa/XraysMonaLisa
+      title: Xrays Mona Lisa
