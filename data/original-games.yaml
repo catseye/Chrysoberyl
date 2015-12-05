@@ -16,8 +16,6 @@ Bubble Escape:
     The assembly version was pared down so that (crunched) it fit into 2K,
     christened "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
     where it won first place in its class.
-  images:
-    - url: 'http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png'
 
 Bubble Escape (BASIC):
   type: Implementation
@@ -47,8 +45,6 @@ Bubble Escape 2K:
   submitted-to:
   - competition: Mini Game Compo 2009
     prize: 1st place in 2K category
-  images:
-    - url: 'http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png'
   online-locations:
   - installation/Bubble Escape
 
@@ -97,8 +93,6 @@ Bubble Escape distribution:
     that Cat's Eye Technologies was developing at the time
     called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse
     Interactive Entertainment Modules.)
-  images:
-    - url: 'http://catseye.tc/modules/corona-realm-of-magic/doc/carpe_ss2.gif'
 
 'Corona: Realm of Magic (Perl)':
   type: Implementation
@@ -146,8 +140,6 @@ Dungeons of Ekileugor:
     with tunnels and rooms whose contents are hidden until you enter,
     monsters, treasure, potions, traps, chests, combat with experience points,
     etc.
-  images:
-    - url: 'http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png'
 
 Dungeons of Ekileugor (BASIC):
   type: Implementation
@@ -188,8 +180,6 @@ Super Wumpus Land:
     Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
     [[Hunt the Wumpus]].  It's playable in your web browser in a simulation
     of an old-school green-screen video terminal.
-  images:
-    - url: 'http://catseye.tc/modules/super-wumpus-land/images/Super%20Wumpus%20Land.png'
 
 swl.pl:
   type: Implementation
@@ -267,7 +257,6 @@ The New Gamerly Realism:
     _Levels have vanished like smoke; to attain the new gamerly paradigm_,
     gamedev advances towards creation as an end in itself and towards
     reification of the interactions of culture.
-  images: []
 
 the-new-gamerly-realism.js:
   type: Implementation

@@ -110,33 +110,6 @@ Game:
     Note that the distinctions between a Game and a [[Gewgaw]]
     or even an [[Automaton]] are not always clear, and entries
     here may be categorized somewhat arbitrarily.
-  # [[Commodore 64]], and these ones are web-enabled by the
-  # [[JaC64]] Java™ applet.
-  references:
-  - url: http://umlautllama.com/searchlist.php?All=ColinMochrie
-    title: Scott Lawrence's Projects
-    description: Games, Utilities, Programming Languages, Multimedia, ...
-  - url: http://www.zophar.net/
-    title: Zophar's Domain
-    description: Lots of game-platform emulators and utilities
-  - url: http://www.llamasoft.co.uk/frontpage.php
-    title: Llamasoft
-    description: A legendary game company with many retro titles now in PD
-  - url: http://tnd64.unikat.sk/
-    title: The New Dimension
-    description: Richard Bayliss' C64 games as far as the eye can see
-  - url: http://tnd64.unikat.sk/jac64/
-    title: TND Games Room
-    description: C64 on JaC64
-  - url: http://jsspeccy.zxdemo.org/
-    title: JSSpeccy
-    description: ZX Spectrum emu in HTML5
-  - url: http://www.dadgum.com/halcyon/
-    title: Halcyon Days
-    description: Interviews with Classic Computer and Video Game Programmers
-  - url: http://www.moma.org/explore/inside_out/2012/11/29/video-games-14-in-the-collection-for-starters/
-    title: MOMA
-    description: Video Games on Exhibit
   see-also:
   - Chris Pressey's Favourite Video Games
   - Chris Pressey's Favourite Text Adventures
@@ -217,19 +190,6 @@ Picture:
     
     Note that concrete poetry and the like may be
     categorized under Pictures, or [[Text]]s, or both.
-  references:
-  - url: http://messerwerferin.minus.com/mknvESNGE
-    title: Guy de Cointet
-    description: encre et crayon sur papier
-  - url: http://davidshrigley.com/list_drawings.html
-    title: David Shrigley
-    description: drawings
-  - url: http://studygroupcomics.com/main/
-    title: Study Group
-    description: webcomiczinething
-  - url: http://www.cementimental.com/noisebook/
-    title: Harsh Noise
-    description: graphic novel
 
 Image Format:
   type: type
