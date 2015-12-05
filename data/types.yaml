@@ -155,19 +155,6 @@ Programming Language:
     * [[Implementation Languages]]
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
-  references:
-  - url: http://hopl.murdoch.edu.au/
-    title: HoPL
-    description: An interactive Roster of Programming Languages
-  - url: http://linuxfinances.info/info/languages.html
-    title: Computer Languages
-    description: Christopher B. Browne's material on Programming Languages
-  - url: http://lambda-the-ultimate.org/
-    title: Lambda the Ultimate
-    description: Programming Languages Weblog with news and discussion
-  - url: http://strlen.com/proglang/
-    title: Wouter's programming language page
-    description: Wouter van Oortmerssen's Programming Languages
 
 Musical Composition:
   type: type
