@@ -30,7 +30,6 @@
               'Website',
           ] %}
     {% if node.images %}
-      {#- FIXME is this even OK within an li element? -#}
       <div class="row-fluid">
         <div class="span8">
           {% if online_buttons(thing) %}
@@ -42,7 +41,7 @@
             {{ md2html(node.description) }}
           {% endif %}
         </div>
-        <div class="span4">
+        <div class="span4 accompanying_images">
           {% for image in node.images %}
             <img alt="{{ image.description or '(Illustration)' }}" src="{{ image.url }}">
           {% endfor %}
