@@ -314,7 +314,7 @@ class Renderer(object):
             )
 
         @expose
-        def collect_auspices(key):
+        def collect_auspices(items):
             """Group nodes with the given type by auspices.  Only include nodes
             which are current, and for the "None" auspices, nodes which have not
             been implemented by 'us'."""
@@ -323,7 +323,7 @@ class Renderer(object):
                 "What is this I don't even",
             ]
             collected_auspices = {}
-            for auspices, v in group_by(related_items('type', key=key), 'auspices').iteritems():
+            for auspices, v in group_by(items, 'auspices').iteritems():
                 v = [k for k in v if is_current(get_node(k))]
                 if auspices == None:
                     v = [k for k in v if not has_implementation_by_one_of(k, us)]

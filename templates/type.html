@@ -6,7 +6,7 @@
   <h1>{{ plural(key) }}</h1>
 {% endblock %}
 
-{% set collected_auspices = collect_auspices(key) %}
+{% set collected_auspices = collect_auspices(related_items('type')) %}
 
 {% block description_verbiage %}
   {%- if description -%}
