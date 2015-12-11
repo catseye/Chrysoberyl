@@ -267,8 +267,8 @@ the-new-gamerly-realism.js:
   license: Unknown license
   host-language: Javascript
   host-platform: HTML5
-  #online-locations:
-  #- installation/The New Gamerly Realism
+  online-locations:
+  - installation/The New Gamerly Realism
 
 The New Gamerly Realism distribution:
   type: Distribution
