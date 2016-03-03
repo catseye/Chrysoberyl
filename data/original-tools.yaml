@@ -530,6 +530,59 @@ seedbank distribution:
     url: http://catseye.tc/distfiles/seedbank-1.0.zip
 
 
+SITU-MON: 
+  type: Tool
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    SITU-MON is a machine language monitor for [[6502 machine code|6502]]-based
+    systems, written (by hand!) during RetroChallenge 2015/07 and entered into
+    an emulated [[Commodore 64]] using [[SITU-PAN]].
+  inception-date: Jul 2015
+  development-stage: mature
+
+SITU-MON (Commodore 64):
+  type: Implementation
+  implementation-of:
+  - SITU-MON
+  reference: true
+  in-distribution: SITU-SOL distribution
+  license: Unknown license
+  host-language: 6502 machine code
+  host-platform: Commodore 64
+
+
+SITU-PAN: 
+  type: Tool
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    SITU-PAN is a *front-panel switches simulator* for the [[Commodore 64]].
+    It displays 8 virtual LEDs and 8 virtual dip switches on the screen.
+    The LEDs display the bit pattern at the current address in memory.
+    Via the keyboard, the switches may be toggled, a new bit pattern
+    written into memory, and the address advanced. In this way, machine
+    code programs may be entered into memory, and then run.
+    SITU-PAN was written during RetroChallenge 2015/07 for the purposes
+    of entering [[SITU-MON]] into an emulated C64.
+  inception-date: Jul 2015
+  development-stage: mature
+
+frontpanel.bas:
+  type: Implementation
+  implementation-of:
+  - SITU-PAN
+  reference: true
+  in-distribution: SITU-SOL distribution
+  license: Unknown license
+  host-language: Commodore BASIC 2.0
+  host-platform: Commodore 64
+
+
 The Swallows Engine:
   # ehh, could also be a Library, I suppose
   type: Tool

@@ -1061,6 +1061,13 @@ SICKBAY distribution:
     revision: "0.0"
     url: http://catseye.tc/distfiles/sickbay-1.0.zip
 
+SITU-SOL distribution: 
+  type: Distribution
+  bitbucket: catseye/situ-sol
+  github: catseye/SITU-SOL
+  issue-tracker: github
+  releases: []
+
 SixtyPical distribution: 
   type: Distribution
   bitbucket: catseye/sixtypical

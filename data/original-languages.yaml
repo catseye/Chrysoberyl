@@ -2501,6 +2501,41 @@ SAWBONES:
   host-language: Python
 
 
+SITU-SOL:
+  type: Programming Language
+  # I guess...?
+  genre: Esolang
+  paradigms:
+  - Imperative
+  - Stack-based
+  description: |
+    SITU-SOL is a vaguely Forth-like language which was designed and
+    implemented (by hand!) during RetroChallenge 2015/07, and entered
+    into an emulated [[Commodore 64]] using [[SITU-MON]].
+  # etymology: somewhere between "in situ" and "situationism"
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Jul 2015
+  # I mean, wow, yes, during RC I didn't even define the intrinsics...
+  development-stage: not fully complete
+  # I mean, yes, it could be, if you defined appropriate intrinsics...
+  computational-class: Turing-complete
+
+SITU-SOL (Commodore 64):
+  type: Implementation
+  implementation-of:
+  - SITU-SOL
+  in-distribution: SITU-SOL distribution
+  license: Unknown license
+  reference: yes
+  implementation-type: compiler
+  host-language: 6502 machine code
+  host-platform: Commodore 64
+  target-language: 6502 machine code
+
+
 SixtyPical:
   type: Programming Language
   genre: Machine language
