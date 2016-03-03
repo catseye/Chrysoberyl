@@ -2,7 +2,7 @@
 # also contains the distributions for these processors
 
 
-'Canvas Feedback':
+Canvas Feedback:
   type: Gewgaw
   development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution

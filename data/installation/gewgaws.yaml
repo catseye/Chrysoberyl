@@ -26,6 +26,7 @@ Lexeduct:
   mediums:
   - Javascript
   - HTML5
+  script-root: ../modules/lexeduct/src/
   javascript-module: lexeduct
   javascript-urls:
   - demo/lexeduct-transformers.js

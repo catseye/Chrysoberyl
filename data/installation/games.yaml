@@ -57,3 +57,4 @@ The New Gamerly Realism:
   javascript-module: the-new-gamerly-realism
   javascript-urls:
   - src/the-new-gamerly-realism.js
+  script-root: ../modules/the-new-gamerly-realism/src/
