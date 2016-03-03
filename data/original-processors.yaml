@@ -175,7 +175,7 @@ text-uniquifier.js:
 
 Lexeduct:
   type: Gewgaw
-  development-stage: work in progress
+  development-stage: mature
   defining-distribution: Lexeduct distribution
   authors:
   - Chris Pressey
@@ -196,6 +196,8 @@ lexeduct.js:
   # host-platform: Node.js
   implementation-of:
   - Lexeduct
+  online-locations:
+  - installation/Lexeduct
 
 lexeduct-browser.js:
   type: Implementation

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-'Canvas Feedback':
+Canvas Feedback:
   type: Online Installation
   installation-of: canvas-feedback.js
   interactive: true
@@ -17,6 +17,20 @@
       'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg',
       'controlPanel': document.getElementById('control_panel')
     }
+
+Lexeduct:
+  type: Online Installation
+  installation-of: lexeduct-browser.js
+  interactive: true
+  animated: false
+  mediums:
+  - Javascript
+  - HTML5
+  javascript-module: lexeduct
+  javascript-urls:
+  - demo/lexeduct-transformers.js
+  - demo/yoob/element-factory.js
+  - demo/lexeduct-browser.js
 
 # ---------------------------------------------------------------
 
