@@ -1110,6 +1110,8 @@ Befunge-98:
   description: |
     Befunge-98 is the two-dimensional member of the [[Funge-98]] language family.
   defining-distribution: Funge-98 distribution
+  auspices:
+  - Cat's Eye Technologies
   authors:
   - Chris Pressey
   - Befunge Mailing List Working Group
@@ -2003,6 +2005,9 @@ Okapi:
     an exception is caught. The language is nonetheless [[Turing-complete]].
   authors:
   - Chris Pressey
+  # maybe this isn't true.  maybe it is.  I don't know.
+  auspices:
+  - Cat's Eye Technologies
   inception-date: May 23, 2010
   computational-class: Turing-complete
   no-specification: true
