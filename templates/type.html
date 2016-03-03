@@ -32,12 +32,12 @@
     <ul>
       {%- for thing in keys_sorted_within(things, ordered_within) -%}
         {% if online_buttons(thing) %}
-          <li>{{ list_item(thing) }}</li>
+          <li>{{ list_item(thing, auspices) }}</li>
         {% endif %}
       {%- endfor -%}
       {%- for thing in keys_sorted_within(things, ordered_within) -%}
         {% if not online_buttons(thing) %}
-          <li>{{ list_item(thing) }}</li>
+          <li>{{ list_item(thing, auspices) }}</li>
         {% endif %}
       {%- endfor -%}
     </ul>
@@ -49,7 +49,9 @@
           {% set ckey = node.implementation_of[0] %}
           <li>
             <p>
-              {{ link(ckey) }} — as {{ link(implkey) }}
+              {{ link(ckey) }}
+              {% if get_node(ckey).authors %}by {{ linked_list(get_node(ckey).authors) }}{% endif %}
+              — as {{ link(implkey) }}
               {% if node.host_language %}
                 in {{ link(node.host_language) }}
               {% endif %}

@@ -2,11 +2,12 @@
 
 {#- -------------------------------- macros ---------------------------- -#}
 
-{%- macro list_item(thing) -%}
+{%- macro list_item(thing, auspices) -%}
   {% set node = get_node(thing) %}
   {%- if not get_node(node.type).suppress_page_generation -%}
     <p>
       <b>{{- link(thing) -}}</b>
+      {% if auspices == None and node.authors %}by {{ linked_list(node.authors) }}{% endif %}
       {% if count(related('implementation_of', key=thing)) %}
         (in
         {% for implementation in related('implementation_of', key=thing) -%}
