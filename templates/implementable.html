@@ -87,54 +87,8 @@
     
         </section>
       </div>
-    
       <div class="span4">
-        <section id="distribution_access">
-    
-          {% if get_node(dist_key).releases %}
-            {% set latest_release = get_node(dist_key).releases|last %}
-            <section id="download">
-              <h2>Download</h2>
-              <p><a class="download" href="{{ latest_release.url }}">
-                Download latest release
-                ({{ latest_release.version }}{% if latest_release.revision != '0.0' %}-{{ latest_release.revision }}{% endif %})
-              </a></p>
-            </section>
-          {% endif %}
-    
-          {% if get_node(dist_key).github or get_node(dist_key).bitbucket %}
-            <section id="development">
-              <h2>Development</h2>
-              {% if get_node(dist_key).github %}
-                <p>Github: <a href="https://github.com/{{ get_node(dist_key).github }}">{{ get_node(dist_key).github }}</a></p>
-              {% endif %}
-              {% if get_node(dist_key).bitbucket %}
-                <p>Bitbucket: <a href="https://bitbucket.org/{{ get_node(dist_key).bitbucket }}">{{ get_node(dist_key).bitbucket }}</a></p>
-              {% endif %}
-              {% if get_node(dist_key).issue_tracker %}
-                {% if get_node(dist_key).issue_tracker == 'github' %}
-                  <p>Issue tracker: <a href="https://github.com/{{ get_node(dist_key).github }}/issues">on github</a></p>
-                {% else %}
-                  <p>Issue tracker: <a href="{{ get_node(dist_key).issue_tracker }}">{{ get_node(dist_key).issue_tracker }}</a></p>
-                {% endif %}
-              {% endif %}
-            </section>
-          {% endif %}
-    
-          {% if get_node(dist_key).releases|length>1 %}
-            <section id="previous_releases">
-              <h2>Previous Releases</h2>
-              <ul>
-                {% for release in get_node(dist_key).releases[:-1] %}
-                <li>
-                  <a href="{{ release.url }}">version {{ release.version }} {% if release.revision != '0.0' %} revision {{ release.revision }}{% endif %}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </section>
-          {% endif %}
-    
-        </section>
+        {{ distribution_access(dist_key) }}
       </div>
     </div>
 
