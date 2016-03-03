@@ -632,6 +632,8 @@ SMETANA:
     Step 3. Go to step 1.
   authors:
   - Chris Pressey
+  # technically, Cat's Eye Technologies did not exist at the time, but
+  # let's face it, it's been maintained by them ever since they started
   auspices:
   - Cat's Eye Technologies
   inception-date: ca 1994
