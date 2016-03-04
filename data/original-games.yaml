@@ -76,6 +76,9 @@ Bubble Escape distribution:
   - version: "1.0"
     revision: "2012.1030"
     url: http://catseye.tc/distfiles/bubble-escape-1.0-2012.1030.zip
+  - version: "1.0"
+    revision: "2016.0304"
+    url: http://catseye.tc/distfiles/bubble-escape-1.0-2016.0304.zip
 
 
 'Corona: Realm of Magic':
