@@ -642,6 +642,9 @@ Jaccia and Jacciata distribution:
   - version: "1.1"
     revision: "2014.0109"
     url: http://catseye.tc/distfiles/jaccia-1.1-2014.0109.zip
+  - version: "1.1"
+    revision: "2016.0304"
+    url: http://catseye.tc/distfiles/jaccia-1.1-2016.0304.zip
 
 Jolverine distribution: 
   type: Distribution
