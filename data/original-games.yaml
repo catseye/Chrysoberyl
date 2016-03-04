@@ -351,3 +351,6 @@ Zzrk distribution:
   - version: "1.0"
     revision: "2012.0616"
     url: http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip
+  - version: "1.0"
+    revision: "2016.0304"
+    url: http://catseye.tc/distfiles/zzrk-1.0-2016.0304.zip
