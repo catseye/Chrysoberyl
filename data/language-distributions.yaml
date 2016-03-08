@@ -1075,7 +1075,10 @@ SITU-SOL distribution:
   bitbucket: catseye/situ-sol
   github: catseye/SITU-SOL
   issue-tracker: github
-  releases: []
+  releases:
+  - version: "0.1"
+    revision: "2015.0731"
+    url: http://catseye.tc/distfiles/situ-sol-0.1-2015.0731.zip
 
 SixtyPical distribution: 
   type: Distribution
