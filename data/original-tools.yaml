@@ -370,6 +370,40 @@ hatoucan distribution:
     url: http://catseye.tc/distfiles/hatoucan-0.1.zip
 
 
+MARYSUE:
+  type: Tool
+  summary: An engine for generating non-interactive fiction
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    MARYSUE is the story generator used to generate the novel
+    _A Time for Destiny_ for [[NaNoGenMo 2015]].
+  inception-date: Nov 2015
+  development-stage: not fully complete
+
+MARYSUE (Python):
+  type: Implementation
+  implementation-of:
+  - MARYSUE
+  reference: true
+  in-distributions:
+  - MARYSUE distribution
+  license: Public Domain
+  host-language: Python
+
+MARYSUE distribution:
+  type: Distribution
+  github: catseye/MARYSUE
+  bitbucket: catseye/marysue
+  issue-tracker: github
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/marysue-1.0.zip
+
+
 mzstorkipiwanbotbotbot: 
   type: Tool
   authors:

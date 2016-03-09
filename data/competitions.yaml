@@ -17,6 +17,7 @@ NaNoGenMo 2013:
     url: https://github.com/dariusk/NaNoGenMo/issues?q=is:open+is:issue+label:completed
   see-also:
   - NaNoGenMo 2014
+  - NaNoGenMo 2015
 
 NaNoGenMo 2014:
   type: Competition
@@ -29,7 +30,21 @@ NaNoGenMo 2014:
     url: https://github.com/dariusk/NaNoGenMo-2014/issues?q=is:open+is:issue+label:completed
   see-also:
   - NaNoGenMo 2013
+  - NaNoGenMo 2015
   - NaOpGenMo 2014
+
+NaNoGenMo 2015:
+  type: Competition
+  description: |
+    NaNoGenMo isn't really a competition; or rather, it is, but you are only
+    competing against yourself and the clock (or rather, the calendar.)
+  references:
+  - title: Completed entries
+    description: All novels generated for 2015
+    url: https://github.com/dariusk/NaNoGenMo-2015/issues?q=is:open+is:issue+label:completed
+  see-also:
+  - NaNoGenMo 2013
+  - NaNoGenMo 2014
 
 NaOpGenMo 2014:
   type: Competition
