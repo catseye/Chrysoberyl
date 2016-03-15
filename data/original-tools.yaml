@@ -725,6 +725,9 @@ toolshelf distribution:
   - version: "0.1"
     revision: "2015.1203"
     url: http://catseye.tc/distfiles/toolshelf-0.1-2015.1203.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/toolshelf-0.1-2016.0315.zip
 
 
 TPiS: 
