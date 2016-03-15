@@ -77,6 +77,9 @@ Kosheri distribution:
   - version: "0.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/kosheri-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
 
 
 Pophery:
