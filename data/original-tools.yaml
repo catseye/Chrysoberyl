@@ -334,6 +334,9 @@ Guten-gutter distribution:
   - version: "0.2"
     revision: "0.0"
     url: http://catseye.tc/distfiles/guten-gutter-0.2.zip
+  - version: "0.2"
+    revision: "2016.0316"
+    url: http://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip
 
 
 hatoucan: 

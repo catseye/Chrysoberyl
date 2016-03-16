@@ -528,6 +528,9 @@ Hev distribution:
   - version: "1.0"
     revision: "2016.0304"
     url: http://catseye.tc/distfiles/hev-1.0-2016.0304.zip
+  - version: "1.0"
+    revision: "2016.0316"
+    url: http://catseye.tc/distfiles/hev-1.0-2016.0316.zip
 
 HUNTER distribution: 
   type: Distribution
