@@ -61,6 +61,9 @@ ALPACA distribution:
   - version: "1.0"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/alpaca-1.0-2015.0101.zip
+  - version: "1.0"
+    revision: "2016.0317"
+    url: http://catseye.tc/distfiles/alpaca-1.0-2016.0317.zip
 
 Apple Befunge distribution: 
   type: Distribution
