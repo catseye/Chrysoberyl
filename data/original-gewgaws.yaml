@@ -411,6 +411,29 @@ hypongtrochoid.js:
   - installation/Hypongtrochoid
 
 
+Markov Font:
+  type: Gewgaw
+  development-stage: work in progress
+  defining-distribution: HTML5 Gewgaws distribution
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2016
+  description: |
+    Uses a 2D Markov chain to generate new glyphs from a character set.
+
+markov-font.js:
+  type: Implementation
+  license: Public Domain
+  host-language: Javascript
+  host-platform: HTML5
+  implementation-of:
+  - Markov Font
+  online-locations:
+  - installation/Markov Font
+
+
 Multicolouralism:
   type: Gewgaw
   development-stage: mature

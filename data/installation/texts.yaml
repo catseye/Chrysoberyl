@@ -47,7 +47,7 @@
   javascript-module: html5-gewgaws
   javascript-urls:
   - cheshire-text/cheshire-text.js
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.9/
+  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 
 "3×C(21,3)+2×C(215,2)=50000: The Novel":
