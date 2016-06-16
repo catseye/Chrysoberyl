@@ -188,6 +188,26 @@ class Renderer(object):
             return markdown.markdown(md)
 
         @expose
+        def html_file_to_html(filename):
+            # assumes "modules" are docked parallel to chrysoberyl locally
+            # which is neither fantastic nor horrendous
+            prefix = 'http://catseye.tc/modules/'
+            parts = filename.split(prefix)
+            if len(parts) == 2:
+                filename = os.path.join('..', parts[1])
+            with codecs.open(filename, 'r', 'utf-8') as f:
+                collect = False
+                html = []
+                for line in f:
+                    if line.strip() == '<body>':
+                        collect = True
+                    elif line.strip() == '</body>':
+                        collect = False
+                    elif collect:
+                        html.append(line)
+            return ''.join(html)
+
+        @expose
         def empty(iterable):
             for x in iterable:
                 return False
