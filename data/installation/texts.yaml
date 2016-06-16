@@ -84,3 +84,10 @@ Threnody for Abraxas:
   mediums:
   - HTML5
   inline-markdown-installation: true
+
+A Time for Destiny:
+  type: Online Installation
+  installation-of: A Time for Destiny (HTML5)
+  mediums:
+  - HTML5
+  inline-markdown-installation: true
