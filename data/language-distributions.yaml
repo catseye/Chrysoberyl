@@ -483,6 +483,9 @@ Funge-98 distribution:
   - version: "1.0"
     revision: "2013.0224"
     url: http://catseye.tc/distfiles/funge-98-1.0-2013.0224.zip
+  - version: "1.0"
+    revision: "2016.0327"
+    url: http://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip
 
 Gemooy distribution: 
   type: Distribution

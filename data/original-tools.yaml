@@ -298,6 +298,9 @@ Funicular distribution:
   - version: "0.2"
     revision: "0.0"
     url: http://catseye.tc/distfiles/funicular-0.2.zip
+  - version: "0.3"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/funicular-0.3.zip
 
 
 Guten-gutter: 
