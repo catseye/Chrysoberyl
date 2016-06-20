@@ -63,9 +63,7 @@ Bubble Escape 8K:
 
 Bubble Escape distribution: 
   type: Distribution
-  bitbucket: catseye/bubble-escape
   github: catseye/Bubble-Escape
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.0707"
@@ -114,9 +112,7 @@ Bubble Escape distribution:
 
 'Corona: Realm of Magic distribution': 
   type: Distribution
-  bitbucket: catseye/corona-realm-of-magic
   github: catseye/Corona-Realm-of-Magic
-  issue-tracker: github  
   releases: 
   - version: "0.19"
     revision: "2000.1204"
@@ -157,9 +153,7 @@ Dungeons of Ekileugor (BASIC):
 
 Dungeons of Ekileugor distribution: 
   type: Distribution
-  bitbucket: catseye/dungeons-of-ekileugor
   github: catseye/Dungeons-of-Ekileugor
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0915"
@@ -212,9 +206,7 @@ swl.js:
 
 Super Wumpus Land distribution:
   type: Distribution
-  bitbucket: catseye/super-wumpus-land
   github: catseye/Super-Wumpus-Land
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -278,9 +270,7 @@ the-new-gamerly-realism.js:
 
 The New Gamerly Realism distribution:
   type: Distribution
-  bitbucket: catseye/the-new-gamerly-realism
   github: catseye/The-New-Gamerly-Realism
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -341,9 +331,7 @@ Zzrk (Zz):
 
 Zzrk distribution: 
   type: Distribution
-  bitbucket: catseye/zzrk
   github: catseye/Zzrk
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0506"

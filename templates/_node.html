@@ -100,16 +100,7 @@
         <h2>Development</h2>
         {% if get_node(dist_key).github %}
           <p>Github: <a href="https://github.com/{{ get_node(dist_key).github }}">{{ get_node(dist_key).github }}</a></p>
-        {% endif %}
-        {% if get_node(dist_key).bitbucket %}
-          <p>Bitbucket: <a href="https://bitbucket.org/{{ get_node(dist_key).bitbucket }}">{{ get_node(dist_key).bitbucket }}</a></p>
-        {% endif %}
-        {% if get_node(dist_key).issue_tracker %}
-          {% if get_node(dist_key).issue_tracker == 'github' %}
-            <p>Issue tracker: <a href="https://github.com/{{ get_node(dist_key).github }}/issues">on github</a></p>
-          {% else %}
-            <p>Issue tracker: <a href="{{ get_node(dist_key).issue_tracker }}">{{ get_node(dist_key).issue_tracker }}</a></p>
-          {% endif %}
+          <p>Issue tracker: <a href="https://github.com/{{ get_node(dist_key).github }}/issues">on github</a></p>
         {% endif %}
       </section>
     {% endif %}

@@ -4,9 +4,7 @@
 
 Specs on Spec distribution: 
   type: Distribution
-  bitbucket: catseye/specs-on-spec
   github: catseye/Specs-on-Spec
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -37,8 +35,6 @@ Specs on Spec distribution:
 ALPACA distribution: 
   type: Distribution
   github: catseye/ALPACA
-  bitbucket: catseye/alpaca
-  issue-tracker: github
   releases: 
   - version: "0.90"
     revision: "0.0"
@@ -68,8 +64,6 @@ ALPACA distribution:
 Apple Befunge distribution: 
   type: Distribution
   github: catseye/Apple-Befunge
-  bitbucket: catseye/apple-befunge
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2000.0703"
@@ -86,8 +80,6 @@ Apple Befunge distribution:
 Arboretuum distribution: 
   type: Distribution
   github: catseye/Arboretuum
-  bitbucket: catseye/arboretuum
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2008.0304"
@@ -109,8 +101,6 @@ Arboretuum distribution:
 Beatnik distribution: 
   type: Distribution
   github: catseye/Beatnik
-  bitbucket: catseye/beatnik
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -119,8 +109,6 @@ Beatnik distribution:
 Befunge-93 distribution: 
   type: Distribution
   github: catseye/Befunge-93
-  bitbucket: catseye/befunge-93
-  issue-tracker: github
   releases: 
   - version: "2.21"
     revision: "0.0"
@@ -145,9 +133,6 @@ Befunge-93 distribution:
 beta-Juliet distribution: 
   type: Distribution
   github: catseye/beta-Juliet
-  bitbucket: catseye/beta-juliet
-  issue-tracker: github
-  has-makefile: true
   releases: 
   - version: "1.0"
     revision: "2001.0201"
@@ -174,8 +159,6 @@ beta-Juliet distribution:
 Beturing distribution: 
   type: Distribution
   github: catseye/Beturing
-  bitbucket: catseye/beturing
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2005.0606"
@@ -193,9 +176,6 @@ Beturing distribution:
 Bhuna distribution: 
   type: Distribution
   github: catseye/Bhuna
-  bitbucket: catseye/bhuna
-  issue-tracker: github
-  has-makefile: true
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -231,8 +211,6 @@ Bhuna distribution:
 Braktif distribution: 
   type: Distribution
   github: catseye/Braktif
-  bitbucket: catseye/braktif
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0503"
@@ -247,8 +225,6 @@ Braktif distribution:
 Burro distribution: 
   type: Distribution
   github: catseye/Burro
-  bitbucket: catseye/burro
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.1026"
@@ -269,8 +245,6 @@ Burro distribution:
 Cabra distribution: 
   type: Distribution
   github: catseye/Cabra
-  bitbucket: catseye/cabra
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.1101"
@@ -288,8 +262,6 @@ Cabra distribution:
 Castile distribution: 
   type: Distribution
   github: catseye/Castile
-  bitbucket: catseye/castile
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -307,8 +279,6 @@ Castile distribution:
 Cfluviurrh distribution: 
   type: Distribution
   github: catseye/Cfluviurrh
-  bitbucket: catseye/cfluviurrh
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0826"
@@ -320,8 +290,6 @@ Cfluviurrh distribution:
 Circute distribution: 
   type: Distribution
   github: catseye/Circute
-  bitbucket: catseye/circute
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0503"
@@ -335,9 +303,7 @@ Circute distribution:
 
 Dieter distribution: 
   type: Distribution
-  bitbucket: catseye/dieter
   github: catseye/Dieter
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.1003"
@@ -357,9 +323,7 @@ Dieter distribution:
 
 Eightebed distribution: 
   type: Distribution
-  bitbucket: catseye/eightebed
   github: catseye/Eightebed
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2010.0901"
@@ -376,9 +340,7 @@ Eightebed distribution:
 
 Emmental distribution: 
   type: Distribution
-  bitbucket: catseye/emmental
   github: catseye/Emmental
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.1111"
@@ -398,9 +360,7 @@ Emmental distribution:
 
 Etcha distribution: 
   type: Distribution
-  bitbucket: catseye/etcha
   github: catseye/Etcha
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -417,8 +377,6 @@ Etcha distribution:
 Exanoke distribution: 
   type: Distribution
   github: catseye/Exanoke
-  bitbucket: catseye/exanoke
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -434,10 +392,7 @@ Exanoke distribution:
 
 FBBI distribution: 
   type: Distribution
-  bitbucket: catseye/fbbi
   github: catseye/FBBI
-  issue-tracker: github
-  has-makefile: true
   releases: 
   - version: 0.98a
     revision: "2004.0301"
@@ -455,9 +410,7 @@ FBBI distribution:
 
 Flobnar distribution: 
   type: Distribution
-  bitbucket: catseye/flobnar
   github: catseye/Flobnar
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -473,9 +426,7 @@ Flobnar distribution:
 
 Funge-98 distribution: 
   type: Distribution
-  bitbucket: catseye/funge-98
   github: catseye/Funge-98
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0301"
@@ -490,8 +441,6 @@ Funge-98 distribution:
 Gemooy distribution: 
   type: Distribution
   github: catseye/Gemooy
-  bitbucket: catseye/gemooy
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -502,9 +451,7 @@ Gemooy distribution:
 
 GraNoLa/M distribution: 
   type: Distribution
-  bitbucket: catseye/granola-m
   github: catseye/GraNoLa-M
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0314"
@@ -515,9 +462,7 @@ GraNoLa/M distribution:
 
 Hev distribution: 
   type: Distribution
-  bitbucket: catseye/hev
   github: catseye/Hev
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0617"
@@ -540,9 +485,7 @@ Hev distribution:
 
 HUNTER distribution: 
   type: Distribution
-  bitbucket: catseye/hunter
   github: catseye/HUNTER
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0126"
@@ -598,16 +541,12 @@ Open Sores Illgol## distribution:
 'Illgol: Grand Mal':
   type: Distribution
   # and it probably might as well have executables.  at some point.
-  bitbucket: catseye/illgol-grand-mal
   github: catseye/Illgol-Grand-Mal
-  issue-tracker: github
   releases: []
 
 Iphigeneia distribution: 
   type: Distribution
-  bitbucket: catseye/iphigeneia
   github: catseye/Iphigeneia
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -629,9 +568,7 @@ Iphigeneia distribution:
 
 Jaccia and Jacciata distribution: 
   type: Distribution
-  bitbucket: catseye/jaccia
   github: catseye/Jaccia
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.0411"
@@ -657,9 +594,7 @@ Jaccia and Jacciata distribution:
 
 Jolverine distribution: 
   type: Distribution
-  bitbucket: catseye/jolverine
   github: catseye/Jolverine
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "2012.0911"
@@ -670,10 +605,7 @@ Jolverine distribution:
 
 Kangaroo Iceberg distribution: 
   type: Distribution
-  bitbucket: catseye/kangaroo-iceberg
   github: catseye/Kangaroo-Iceberg
-  issue-tracker: github
-  has-makefile: true
   test-requirements:
   - Falderal
   releases: 
@@ -692,16 +624,12 @@ Kangaroo Iceberg distribution:
 
 Kelxquoia distribution: 
   type: Distribution
-  bitbucket: catseye/kelxquoia
   github: catseye/Kelxquoia
-  issue-tracker: github
   releases: []
 
 Larabee distribution: 
   type: Distribution
-  bitbucket: catseye/larabee
   github: catseye/Larabee
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2008.0110"
@@ -718,9 +646,7 @@ Larabee distribution:
 
 Maentwrog distribution: 
   type: Distribution
-  bitbucket: catseye/maentwrog
   github: catseye/Maentwrog
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0930"
@@ -737,9 +663,7 @@ Maentwrog distribution:
 
 Mascarpone distribution: 
   type: Distribution
-  bitbucket: catseye/mascarpone
   github: catseye/Mascarpone
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.1208"
@@ -762,9 +686,7 @@ Mascarpone distribution:
 
 Matchbox distribution:
   type: Distribution
-  bitbucket: catseye/matchbox
   github: catseye/Matchbox
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -772,9 +694,7 @@ Matchbox distribution:
 
 Muriel distribution: 
   type: Distribution
-  bitbucket: catseye/muriel
   github: catseye/Muriel
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0323"
@@ -785,9 +705,7 @@ Muriel distribution:
 
 "'N-DCNC distribution": 
   type: Distribution
-  bitbucket: catseye/n-dcnc
   github: catseye/N-DCNC
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2000.0808"
@@ -795,9 +713,7 @@ Muriel distribution:
 
 Nhohnhehr distribution: 
   type: Distribution
-  bitbucket: catseye/nhohnhehr
   github: catseye/Nhohnhehr
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2011.0510"
@@ -808,9 +724,7 @@ Nhohnhehr distribution:
 
 Pail distribution: 
   type: Distribution
-  bitbucket: catseye/pail
   github: catseye/Pail
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -832,9 +746,7 @@ Pail distribution:
 
 pibfi distribution: 
   type: Distribution
-  bitbucket: catseye/pibfi
   github: catseye/pibfi
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2003.0505"
@@ -845,9 +757,7 @@ pibfi distribution:
 
 Pixley distribution: 
   type: Distribution
-  bitbucket: catseye/pixley
   github: catseye/Pixley
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -881,10 +791,7 @@ Pixley distribution:
 
 PL-{GOTO}.NET distribution: 
   type: Distribution
-  distname: pl-goto.net
-  bitbucket: catseye/pl-goto-.net
   github: catseye/PL-GOTO.NET
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -910,9 +817,7 @@ PL-{GOTO}.NET distribution:
 
 Quylthulg distribution: 
   type: Distribution
-  bitbucket: catseye/quylthulg
   github: catseye/Quylthulg
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -940,9 +845,7 @@ Quylthulg distribution:
 
 REDGREEN distribution: 
   type: Distribution
-  bitbucket: catseye/redgreen
   github: catseye/REDGREEN
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0503"
@@ -966,8 +869,6 @@ REDGREEN distribution:
 RUBE distribution: 
   type: Distribution
   github: catseye/RUBE
-  bitbucket: catseye/rube
-  issue-tracker: github
   releases: 
   - version: "1.02"
     revision: "1997.0715"
@@ -997,8 +898,6 @@ RUBE distribution:
 RUBE II distribution: 
   type: Distribution
   github: catseye/RUBE-II
-  bitbucket: catseye/rube-ii
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0201"
@@ -1006,10 +905,7 @@ RUBE II distribution:
 
 Sally distribution: 
   type: Distribution
-  bitbucket: catseye/sally
   github: catseye/Sally
-  issue-tracker: github
-  has-makefile: true
   releases: 
   - version: "1.0"
     revision: "2003.1104"
@@ -1029,9 +925,7 @@ Sally distribution:
 
 Sbeezg distribution: 
   type: Distribution
-  bitbucket: catseye/sbeezg
   github: catseye/Sbeezg
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0317"
@@ -1043,8 +937,6 @@ Sbeezg distribution:
 Schrödinger's Game of Life distribution: 
   type: Distribution
   github: catseye/Schroedingers-Game-of-Life
-  bitbucket: catseye/schroedingers-game-of-life
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -1052,9 +944,7 @@ Schrödinger's Game of Life distribution:
 
 Shelta distribution: 
   type: Distribution
-  bitbucket: catseye/shelta
   github: catseye/Shelta
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "1999.1223"
@@ -1071,9 +961,7 @@ Shelta distribution:
 
 SICKBAY distribution: 
   type: Distribution
-  bitbucket: catseye/sickbay
   github: catseye/SICKBAY
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -1081,9 +969,7 @@ SICKBAY distribution:
 
 SITU-SOL distribution: 
   type: Distribution
-  bitbucket: catseye/situ-sol
   github: catseye/SITU-SOL
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "2015.0731"
@@ -1091,9 +977,7 @@ SITU-SOL distribution:
 
 SixtyPical distribution: 
   type: Distribution
-  bitbucket: catseye/sixtypical
   github: catseye/SixtyPical
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -1119,9 +1003,7 @@ SixtyPical distribution:
 
 SMETANA distribution: 
   type: Distribution
-  bitbucket: catseye/smetana
   github: catseye/SMETANA
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0227"
@@ -1132,9 +1014,7 @@ SMETANA distribution:
 
 SMITH distribution: 
   type: Distribution
-  bitbucket: catseye/smith
   github: catseye/SMITH
-  issue-tracker: github
   releases: 
   - version: 2.0L
     revision: 2.0L
@@ -1157,9 +1037,7 @@ SMITH distribution:
 
 Squishy2K distribution: 
   type: Distribution
-  bitbucket: catseye/squishy2k
   github: catseye/Squishy2K
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2000.1006"
@@ -1170,9 +1048,7 @@ Squishy2K distribution:
 
 Strelnokoff distribution: 
   type: Distribution
-  bitbucket: catseye/strelnokoff
   github: catseye/Strelnokoff
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.0324"
@@ -1186,9 +1062,7 @@ Strelnokoff distribution:
 
 Tamsin distribution: 
   type: Distribution
-  bitbucket: catseye/tamsin
   github: catseye/Tamsin
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -1208,9 +1082,7 @@ Tamsin distribution:
 
 Thue distribution: 
   type: Distribution
-  bitbucket: catseye/thue
   github: catseye/Thue
-  issue-tracker: github
   releases: 
   - version: "1.4"
     revision: "2004.0301"
@@ -1230,9 +1102,7 @@ Thue distribution:
 
 Treacle distribution: 
   type: Distribution
-  bitbucket: catseye/treacle
   github: catseye/Treacle
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2008.0412"
@@ -1246,16 +1116,12 @@ Treacle distribution:
 
 Troupe distribution: 
   type: Distribution
-  bitbucket: catseye/troupe
   github: catseye/Troupe
-  issue-tracker: github
   releases: []
 
 Unlikely distribution: 
   type: Distribution
-  bitbucket: catseye/unlikely
   github: catseye/Unlikely
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.0315"
@@ -1275,9 +1141,7 @@ Unlikely distribution:
 
 Velo distribution: 
   type: Distribution
-  bitbucket: catseye/velo
   github: catseye/Velo
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -1293,9 +1157,7 @@ Velo distribution:
 
 Version distribution: 
   type: Distribution
-  bitbucket: catseye/version
   github: catseye/Version
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2001.1211"
@@ -1309,9 +1171,7 @@ Version distribution:
 
 Whothm distribution: 
   type: Distribution
-  bitbucket: catseye/whothm
   github: catseye/Whothm
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2010.0629"
@@ -1331,9 +1191,7 @@ Whothm distribution:
 
 Wierd distribution: 
   type: Distribution
-  bitbucket: catseye/wierd
   github: catseye/Wierd
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0302"
@@ -1350,9 +1208,7 @@ Wierd distribution:
 
 Wunnel distribution: 
   type: Distribution
-  bitbucket: catseye/wunnel
   github: catseye/Wunnel
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -1363,9 +1219,7 @@ Wunnel distribution:
 
 "noit o' mnain worb distribution": 
   type: Distribution
-  bitbucket: catseye/noit-o-mnain-worb
   github: catseye/noit-o-mnain-worb
-  issue-tracker: github
   releases: 
   - version: "1.1"
     revision: "0.0"
@@ -1400,9 +1254,7 @@ Wunnel distribution:
 
 Xigxag distribution: 
   type: Distribution
-  bitbucket: catseye/xigxag
   github: catseye/Xigxag
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0602"
@@ -1419,9 +1271,7 @@ Xigxag distribution:
 
 Xoomonk distribution: 
   type: Distribution
-  bitbucket: catseye/xoomonk
   github: catseye/Xoomonk
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -1440,9 +1290,7 @@ Xoomonk distribution:
 
 Yolk distribution: 
   type: Distribution
-  bitbucket: catseye/yolk
   github: catseye/Yolk
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: 
@@ -1455,9 +1303,7 @@ Yolk distribution:
 
 Ypsilax distribution: 
   type: Distribution
-  bitbucket: catseye/ypsilax
   github: catseye/Ypsilax
-  issue-tracker: github
   releases: 
   - version: "0.9"
     revision: "0.0"
@@ -1487,9 +1333,7 @@ Ypsilax distribution:
 
 ZOWIE distribution: 
   type: Distribution
-  bitbucket: catseye/zowie
   github: catseye/ZOWIE
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2009.1229"

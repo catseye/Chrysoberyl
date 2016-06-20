@@ -71,9 +71,7 @@ Amiga Gondola distribution:
 
 'Console::Virtual distribution': 
   type: Distribution
-  bitbucket: catseye/console-virtual
   github: catseye/Console-Virtual
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2003.0325"
@@ -114,9 +112,7 @@ crone.erl:
 
 crone distribution: 
   type: Distribution
-  bitbucket: catseye/crone
   github: catseye/crone
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0301"
@@ -151,9 +147,7 @@ DiskSumo (BASIC):
 
 DiskSumo distribution: 
   type: Distribution
-  bitbucket: catseye/disksumo
   github: catseye/DiskSumo
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2007.0726"
@@ -198,9 +192,7 @@ py-falderal:
 
 Falderal distribution: 
   type: Distribution
-  bitbucket: catseye/falderal
   github: catseye/Falderal
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "2011.0517"
@@ -288,9 +280,7 @@ funicular:
 
 Funicular distribution: 
   type: Distribution
-  bitbucket: catseye/funicular
   github: catseye/Funicular
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -330,9 +320,7 @@ guten-gutter (Python):
 
 Guten-gutter distribution: 
   type: Distribution
-  bitbucket: catseye/guten-gutter
   github: catseye/Guten-gutter
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -370,9 +358,7 @@ hatoucan (Python):
 
 hatoucan distribution: 
   type: Distribution
-  bitbucket: catseye/hatoucan
   github: catseye/hatoucan
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -405,8 +391,6 @@ MARYSUE (Python):
 MARYSUE distribution:
   type: Distribution
   github: catseye/MARYSUE
-  bitbucket: catseye/marysue
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -443,9 +427,7 @@ Rtype:
 
 mzstorkipiwanbotbotbot distribution: 
   type: Distribution
-  bitbucket: catseye/mzstorkipiwanbotbotbot
   github: catseye/mzstorkipiwanbotbotbot
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -455,9 +437,7 @@ mzstorkipiwanbotbotbot distribution:
 # Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
 NaNoGenLab:
   type: Distribution
-  bitbucket: catseye/nanogenlab
   github: catseye/NaNoGenLab
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -470,9 +450,7 @@ NaNoGenLab:
 # Note: this is JUST a distribution.  No implementables/implementations point here.  (maybe yet, or maybe ever.)
 NetUSB distribution: 
   type: Distribution
-  bitbucket: catseye/netusb
   github: catseye/NetUSB
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -504,9 +482,7 @@ realpath (Python):
 
 realpath distribution: 
   type: Distribution
-  bitbucket: catseye/realpath
   github: catseye/realpath
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "0.0"
@@ -567,9 +543,7 @@ seedbank (Python):
 
 seedbank distribution: 
   type: Distribution
-  bitbucket: catseye/seedbank
   github: catseye/seedbank
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -659,8 +633,6 @@ The Swallows Engine (Python):
 The Swallows distribution:
   type: Distribution
   github: catseye/The-Swallows
-  bitbucket: catseye/the-swallows
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -694,9 +666,7 @@ toolshelf.py:
 
 toolshelf distribution: 
   type: Distribution
-  bitbucket: catseye/toolshelf
   github: catseye/toolshelf
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -767,9 +737,7 @@ TPiS (Scheme):
 
 TPiS distribution: 
   type: Distribution
-  bitbucket: catseye/tpis
   github: catseye/TPiS
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2006.0528"
@@ -806,7 +774,6 @@ transmat (Python):
 transmat distribution: 
   type: Distribution
   github: cpressey/transmat
-  issue-tracker: github
   releases: []
 
 
@@ -837,9 +804,7 @@ t-rext (Python):
 
 T-Rext distribution: 
   type: Distribution
-  bitbucket: catseye/t-rext
   github: catseye/T-Rext
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -872,9 +837,7 @@ yucca (Python):
 
 yucca distribution: 
   type: Distribution
-  bitbucket: catseye/yucca
   github: catseye/yucca
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2012.0610"

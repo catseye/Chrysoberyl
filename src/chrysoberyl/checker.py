@@ -15,6 +15,10 @@ LEGACY_FIELDS = (
     'reference-distribution',
     'online-implementations',
     'ca-definition-link',
+    'bitbucket',
+    'issue-tracker',
+    'has-makefile',
+    'distname',
     # 'commentary',
 )
 

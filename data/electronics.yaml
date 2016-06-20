@@ -1,9 +1,7 @@
 # encoding: UTF-8
 Electronics Projects distribution: 
   type: Distribution
-  bitbucket: catseye/electronics-projects
   github: catseye/Electronics-Projects
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "0.0"

@@ -121,9 +121,7 @@ Canvas Feedback 1K:
 
 Canvas Feedback distribution: 
   type: Distribution
-  bitbucket: catseye/canvas-feedback
   github: catseye/Canvas-Feedback
-  issue-tracker: github
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -215,9 +213,7 @@ lexeduct-browser.js:
 
 Lexeduct distribution: 
   type: Distribution
-  bitbucket: catseye/lexeduct
   github: catseye/Lexeduct
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"

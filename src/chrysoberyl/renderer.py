@@ -404,11 +404,12 @@ class Renderer(object):
 
             # assumes "modules" are docked parallel to chrysoberyl locally
             # which is neither fantastic nor horrendous
-            filenames = []            
+            # TODO: this really needs to have a "checkout dir" and a "render dir"
+            filenames = []
             node = self.universe.get_node(key)
-            if 'bitbucket' in node:
+            if 'github' in node:
                 path = os.path.join(
-                    '..', node['bitbucket'].split('/')[1],
+                    '..', node['github'].split('/')[1],
                 )
                 for filename in find_likely_documents(path):
                     filenames.append(filename)
@@ -420,7 +421,7 @@ class Renderer(object):
             node = self.universe.get_node(key)
             path = os.path.join(
                 '..', 'view',
-                pathname2url(node['bitbucket'].split('/')[1]),
+                pathname2url(node['github'].split('/')[1]),
                 pathname2url(filename)
             )
             # TODO: stat the file, fallback to Github link if not there

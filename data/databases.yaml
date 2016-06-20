@@ -15,16 +15,12 @@ Chrysoberyl:
 Chrysoberyl distribution: 
   type: Distribution
   github: catseye/Chrysoberyl
-  bitbucket: catseye/chrysoberyl
-  issue-tracker: github
   releases: []
 
 
 The Dipple: 
   type: Distribution
   github: catseye/Dipple
-  bitbucket: catseye/dipple
-  issue-tracker: github
   description: |
     The Dipple is where code goes when its home planet has been
     destroyed.  With apologies to [[Andre Norton]].

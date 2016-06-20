@@ -3,9 +3,7 @@
 
 C64 Demo Depot: 
   type: Distribution
-  bitbucket: catseye/c64-demo-depot
   github: catseye/C64-Demo-Depot
-  issue-tracker: github
   releases:
   - version: "1.1"
     revision: "2012.0826"
@@ -16,9 +14,7 @@ C64 Demo Depot:
 
 HTML5 Gewgaws distribution: 
   type: Distribution
-  bitbucket: catseye/html5-gewgaws
   github: catseye/HTML5-Gewgaws
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"

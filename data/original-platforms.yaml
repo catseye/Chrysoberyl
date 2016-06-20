@@ -47,9 +47,7 @@ BefOS (NASM):
 
 BefOS distribution: 
   type: Distribution
-  bitbucket: catseye/befos
   github: catseye/BefOS
-  issue-tracker: github
   releases: 
   - version: "0.1"
     revision: "2006.0204"
@@ -101,9 +99,7 @@ tc.catseye.yoob:
 
 yoob distribution: 
   type: Distribution
-  bitbucket: catseye/yoob
   github: catseye/yoob
-  issue-tracker: 'https://bitbucket.org/catseye/yoob/issues'
   releases: 
   - version: "0.2"
     revision: "2011.0624"
@@ -149,9 +145,7 @@ yoob.js:
 
 yoob.js distribution: 
   type: Distribution
-  bitbucket: catseye/yoob.js
   github: catseye/yoob.js
-  issue-tracker: github
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -228,7 +222,6 @@ The-Cats-Eye-Technologies-Platform-0.2.img:
 "The Cat's Eye Technologies Platform distribution": 
   # tricky because distributed via torrent.
   type: Distribution
-  bitbucket: catseye/the-platform
   github: catseye/The-Platform
   releases:
   - version: "0.1"

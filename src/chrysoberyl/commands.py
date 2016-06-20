@@ -34,29 +34,27 @@ else:
 ### helper functions ###
 
 
-def bitbucket_repos(space):
-    """Generator which yields information about every Mercurial repository
-    on Bitbucket referenced by some distribution in Chrysoberyl.
+def github_repos(space):
+    """Generator which yields information about every git repository
+    on Github referenced by some distribution in Chrysoberyl.
 
-    Information is a triple of the distribution key, the Bitbucket username,
-    and the repository name.
+    Information is a triple of the distribution key, the Github user
+    (or organization) name, and the repository name.
 
     """
     for key, node in space.iteritems():
         if node['type'] != 'Distribution':
             continue
-        if 'bitbucket' not in node:
+        if 'github' not in node:
             continue
-        (user, repo) = node['bitbucket'].split('/')
+        (user, repo) = node['github'].split('/')
         yield (key, user, repo)
 
 
 def get_distname(node):
-    if 'distname' in node:
-        return node['distname']
-    if 'bitbucket' in node:
-        match = re.match(r'^catseye/(.*?)$', node['bitbucket'])
-        return match.group(1)
+    if 'github' in node:
+        match = re.match(r'^catseye/(.*?)$', node['github'])
+        return match.group(1).lower()
     urls = [release['url'] for release in node['releases']]
     distnames = set()
     for url in urls:
@@ -75,7 +73,7 @@ def mkdistmap(universe, options, config):
     """Create a mapping between nodes and distributions."""
     space = universe['node']  # FIXME hardcoded
     dist = {}
-    for (key, user, repo) in bitbucket_repos(space):
+    for (key, user, repo) in github_repos(space):
         dist[key] = (user, repo)
 
     repo_to_node = {}
@@ -149,8 +147,8 @@ def catalogue(universe, options, config):
     """
     space = universe['node']  # FIXME hardcoded
     lines = []
-    for (key, user, repo) in bitbucket_repos(space):
-        source = shelf.make_source_from_spec('bitbucket.org/%s/%s' % (user, repo))
+    for (key, user, repo) in github_repos(space):
+        source = shelf.make_source_from_spec('github.com/%s/%s' % (user, repo))
         tag = source.get_latest_release_tag() or 'tip'
         lines.append('bb:%s/%s@%s' % (user, repo, tag))
 
@@ -211,7 +209,7 @@ def check_releases(universe, options, config):
 
     passes = 0
     space = universe['node']  # FIXME hardcoded
-    for (key, user, repo) in sorted(bitbucket_repos(space)):
+    for (key, user, repo) in sorted(github_repos(space)):
         if key in ('The Dipple', 'Illgol: Grand Mal',):
             continue
 
@@ -227,7 +225,7 @@ def check_releases(universe, options, config):
 
         versions = []
         tags = []
-        source = shelf.make_source_from_spec('bitbucket.org/%s/%s' % (user, repo))
+        source = shelf.make_source_from_spec('github.com/%s/%s' % (user, repo))
         for tag, hg_rev in source.each_tag():
             tags.append((tag, hg_rev))
             if tag in ('tip',) or tag in release_tags:
@@ -299,7 +297,7 @@ def check_distfiles(universe, options, config):
         return v_name
 
     commands = []
-    for (key, user, repo) in bitbucket_repos(space):
+    for (key, user, repo) in github_repos(space):
         for release in space[key]['releases']:
             url = release['url']
             match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/(.*?)$', url)

@@ -34,9 +34,7 @@ animals.erl:
 
 Animals distribution: 
   type: Distribution
-  bitbucket: catseye/animals
   github: catseye/Animals
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2004.0919"
@@ -84,9 +82,7 @@ flip.erl:
 
 Flip distribution: 
   type: Distribution
-  bitbucket: catseye/flip
   github: catseye/Flip
-  issue-tracker: github
   releases: 
   - version: "1.0"
     revision: "2002.0731"

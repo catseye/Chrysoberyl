@@ -30,8 +30,6 @@ Deturgenchry.hs:
 Deturgenchry distribution: 
   type: Distribution
   github: catseye/Deturgenchry
-  bitbucket: catseye/deturgenchry
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases: []
@@ -69,8 +67,6 @@ kosheri (C):
 Kosheri distribution: 
   type: Distribution
   github: catseye/Kosheri
-  bitbucket: catseye/kosheri
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases:
@@ -112,8 +108,6 @@ pophery.py:
 Pophery distribution: 
   type: Distribution
   github: catseye/Pophery
-  bitbucket: catseye/pophery
-  issue-tracker: github
   releases: []
 
 
@@ -154,8 +148,6 @@ Robin.lhs:
 Robin distribution: 
   type: Distribution
   github: catseye/Robin
-  bitbucket: catseye/robin
-  issue-tracker: github
   test-requirements:
   - Falderal
   releases:
