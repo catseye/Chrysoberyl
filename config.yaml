@@ -19,3 +19,4 @@ installation:
   overlay_files: []
   feed_dir: feeds
   dist_map: dist_map.json
+  checkout_dir: checkout

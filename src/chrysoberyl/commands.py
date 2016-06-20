@@ -107,7 +107,7 @@ def render(universe, options, config):
         r = Renderer(universe, space,
             config[space.name]['template_dirs'],
             config[space.name]['output_dir'],
-            options.clone_dir,
+            config[space.name]['checkout_dir'],
             options.sleek_node_links,
             options.render_nodes,
         )
@@ -376,11 +376,6 @@ def usage():
 
 def perform(args):
     optparser = OptionParser(usage().rstrip())
-    optparser.add_option("-c", "--clone-dir",
-                         dest="clone_dir", metavar='DIR', default='..',
-                         help="specify location of the hg clones "
-                              "of reference distributions "
-                              "(default: %default)")
     optparser.add_option("--config",
                          dest="config", metavar='FILE', default='config.yaml',
                          help="specify the config file to use "

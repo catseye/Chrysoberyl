@@ -30,7 +30,7 @@ def find_likely_documents(start_dir):
         r'^.*?\.lhs$',
     )
     for root, dirnames, filenames in os.walk(start_dir):
-        if root.endswith((".hg", "bin", "fixture", "distrepos")):
+        if root.endswith((".hg", ".git", "bin", "fixture", "distrepos")):
             del dirnames[:]
             continue
         for filename in filenames:
@@ -67,14 +67,14 @@ class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
-    def __init__(self, universe, space, template_dirs, output_dir, clone_dir,
+    def __init__(self, universe, space, template_dirs, output_dir, checkout_dir,
                  sleek_node_links, render_nodes):
         self.universe = universe
         self.space = space
         self.template_dirs = template_dirs
         assert isinstance(template_dirs, list)
         self.output_dir = output_dir
-        self.clone_dir = clone_dir
+        self.checkout_dir = checkout_dir
         self.sleek_node_links = sleek_node_links
         self.render_nodes = render_nodes
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
@@ -401,15 +401,12 @@ class Renderer(object):
         @expose
         def documentation(key=key):
             """Return a list of documentation file names for the given key."""
-
-            # assumes "modules" are docked parallel to chrysoberyl locally
-            # which is neither fantastic nor horrendous
-            # TODO: this really needs to have a "checkout dir" and a "render dir"
+            # TODO: this really needs to have a "repo-render dir"
             filenames = []
             node = self.universe.get_node(key)
             if 'github' in node:
                 path = os.path.join(
-                    '..', node['github'].split('/')[1],
+                    self.checkout_dir, node['github'].split('/')[1],
                 )
                 for filename in find_likely_documents(path):
                     filenames.append(filename)
@@ -420,7 +417,7 @@ class Renderer(object):
         def documentation_link(filename, key=key):
             node = self.universe.get_node(key)
             path = os.path.join(
-                '..', 'view',
+                self.checkout_dir, 'view',
                 pathname2url(node['github'].split('/')[1]),
                 pathname2url(filename)
             )
