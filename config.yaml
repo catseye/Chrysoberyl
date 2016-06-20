@@ -8,6 +8,7 @@ node:
   feed_dir: feeds
   dist_map: dist_map.json
   catalogue_file: catseye.catalogue
+  checkout_dir: checkout
 
 installation:
   data_dirs:

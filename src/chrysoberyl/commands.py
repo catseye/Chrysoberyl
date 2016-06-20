@@ -161,6 +161,25 @@ def catalogue(universe, options, config):
             f.write('\n')
 
 
+def checkout(universe, options, config):
+    """Clone all git repos into a local directory.
+
+    """
+    space_key = 'node'  # FIXME hardcoded
+    space = universe[space_key]
+    lines = []
+    try:
+        os.makedirs(config[space_key]['checkout_dir'])
+    except OSError:
+        pass
+    for (key, user, repo) in github_repos(space):
+        command = "git clone git@github.com:%s/%s.git %s/%s" % (
+            user, repo, config[space_key]['checkout_dir'], repo
+        )
+        print command
+        os.system(command)
+
+
 def check_releases(universe, options, config):
     """Check for missing Chrysoberyl releases based on hg tags.
 
@@ -330,6 +349,7 @@ COMMANDS = {
     'catalogue': catalogue,
     'check_releases': check_releases,
     'check_distfiles': check_distfiles,
+    'checkout': checkout,
 }
 
 
