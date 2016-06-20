@@ -9,6 +9,7 @@ node:
   dist_map: dist_map.json
   catalogue_file: catseye.catalogue
   checkout_dir: checkout
+  projection_dir: modules
 
 installation:
   data_dirs:
@@ -20,3 +21,4 @@ installation:
   feed_dir: feeds
   dist_map: dist_map.json
   checkout_dir: checkout
+  projection_dir: modules

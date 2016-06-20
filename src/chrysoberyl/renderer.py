@@ -13,6 +13,7 @@ from jinja2.exceptions import TemplateNotFound
 import markdown
 
 from chrysoberyl import transformer
+from chrysoberyl.objects import get_distname
 from chrysoberyl.transformer import (
     filekey, sleek_key, pathname2url, markdown_contents
 )
@@ -68,13 +69,14 @@ class Renderer(object):
 
     """
     def __init__(self, universe, space, template_dirs, output_dir, checkout_dir,
-                 sleek_node_links, render_nodes):
+                 projection_dir, sleek_node_links, render_nodes):
         self.universe = universe
         self.space = space
         self.template_dirs = template_dirs
         assert isinstance(template_dirs, list)
         self.output_dir = output_dir
         self.checkout_dir = checkout_dir
+        self.projection_dir = projection_dir
         self.sleek_node_links = sleek_node_links
         self.render_nodes = render_nodes
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
@@ -401,12 +403,11 @@ class Renderer(object):
         @expose
         def documentation(key=key):
             """Return a list of documentation file names for the given key."""
-            # TODO: this really needs to have a "repo-render dir"
             filenames = []
             node = self.universe.get_node(key)
             if 'github' in node:
                 path = os.path.join(
-                    self.checkout_dir, node['github'].split('/')[1],
+                    self.projection_dir, get_distname(node),
                 )
                 for filename in find_likely_documents(path):
                     filenames.append(filename)
@@ -417,8 +418,8 @@ class Renderer(object):
         def documentation_link(filename, key=key):
             node = self.universe.get_node(key)
             path = os.path.join(
-                self.checkout_dir, 'view',
-                pathname2url(node['github'].split('/')[1]),
+                self.projection_dir, 'view',
+                get_distname(node),
                 pathname2url(filename)
             )
             # TODO: stat the file, fallback to Github link if not there

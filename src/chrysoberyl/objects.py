@@ -72,6 +72,22 @@ class NameSpace(dict):
         node['__reference-implementation__'] = ref_i
         return ref_i
 
+    def github_repos(self):
+        """Generator which yields information about every git repository
+        on Github referenced by some distribution in Chrysoberyl.
+
+        Information is a triple of the distribution key, the Github user
+        (or organization) name, and the repository name.
+
+        """
+        for key, node in self.iteritems():
+            if node['type'] != 'Distribution':
+                continue
+            if 'github' not in node:
+                continue
+            (user, repo) = node['github'].split('/')
+            yield (key, user, repo)
+
     def convert_chrysoberyl_data(self):
         """Convert all loaded Chrysoberyl data into a form that can be rendered
         in a Jinja2 template.  This includes rendering fields which are known to
@@ -214,3 +230,24 @@ class ApproximateDate(object):
 
         """
         return self.year * 10000 + (self.month or 0) * 100 + (self.day or 0)
+
+
+### helper functions ###
+
+
+def get_distname(node):
+    if 'github' in node:
+        match = re.match(r'^(catseye|cpressey|michaelcmartin)/(.*?)$', node['github'])
+        if match is not None:
+            return match.group(2).lower()
+    assert 'releases' in node, str(node)
+    urls = [release['url'] for release in node['releases']]
+    distnames = set()
+    for url in urls:
+        match = re.match(r'^http:\/\/.*\/(.*?)\-', url)
+        if not match:
+            raise ValueError(url)
+        distnames.add(match.group(1))
+    if len(distnames) == 1:
+        return distnames.pop()
+    raise ValueError("node %s has bad distnames %s" % (node, distnames))

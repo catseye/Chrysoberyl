@@ -16,7 +16,7 @@ from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_config, overlay_yaml
 )
-from chrysoberyl.objects import Universe
+from chrysoberyl.objects import Universe, get_distname
 from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import transform_dates
 
@@ -31,49 +31,13 @@ else:
     shelf = None
 
 
-### helper functions ###
-
-
-def github_repos(space):
-    """Generator which yields information about every git repository
-    on Github referenced by some distribution in Chrysoberyl.
-
-    Information is a triple of the distribution key, the Github user
-    (or organization) name, and the repository name.
-
-    """
-    for key, node in space.iteritems():
-        if node['type'] != 'Distribution':
-            continue
-        if 'github' not in node:
-            continue
-        (user, repo) = node['github'].split('/')
-        yield (key, user, repo)
-
-
-def get_distname(node):
-    if 'github' in node:
-        match = re.match(r'^catseye/(.*?)$', node['github'])
-        return match.group(1).lower()
-    urls = [release['url'] for release in node['releases']]
-    distnames = set()
-    for url in urls:
-        match = re.match(r'^http:\/\/.*\/(.*?)\-', url)
-        if not match:
-            raise ValueError(url)
-        distnames.add(match.group(1))
-    if len(distnames) == 1:
-        return distnames.pop()
-    raise ValueError(distnames)
-
-
 ### command functions ###
 
 def mkdistmap(universe, options, config):
     """Create a mapping between nodes and distributions."""
     space = universe['node']  # FIXME hardcoded
     dist = {}
-    for (key, user, repo) in github_repos(space):
+    for (key, user, repo) in space.github_repos():
         dist[key] = (user, repo)
 
     repo_to_node = {}
@@ -108,6 +72,7 @@ def render(universe, options, config):
             config[space.name]['template_dirs'],
             config[space.name]['output_dir'],
             config[space.name]['checkout_dir'],
+            config[space.name]['projection_dir'],
             options.sleek_node_links,
             options.render_nodes,
         )
@@ -147,7 +112,7 @@ def catalogue(universe, options, config):
     """
     space = universe['node']  # FIXME hardcoded
     lines = []
-    for (key, user, repo) in github_repos(space):
+    for (key, user, repo) in space.github_repos():
         source = shelf.make_source_from_spec('github.com/%s/%s' % (user, repo))
         tag = source.get_latest_release_tag() or 'tip'
         lines.append('bb:%s/%s@%s' % (user, repo, tag))
@@ -163,20 +128,30 @@ def catalogue(universe, options, config):
 
 def checkout(universe, options, config):
     """Clone (or update, if they already exist) all git repos
-    into a local directory.
+    into a local directory.  Then, project a copy of all the files in
+    the repository into a plain, non-version-controlled directory in
+    the projection directory, at (TODO) the latest tag specified in data.
 
     """
     space_key = 'node'  # FIXME hardcoded
     space = universe[space_key]
-    lines = []
+
+    checkout_dir = os.path.abspath(config[space_key]['checkout_dir'])
     try:
-        os.makedirs(config[space_key]['checkout_dir'])
+        os.makedirs(checkout_dir)
     except OSError:
         pass
-    for (key, user, repo) in sorted(github_repos(space)):
-        repo_path = os.path.join(config[space_key]['checkout_dir'], repo)
+
+    projection_dir = os.path.abspath(config[space_key]['projection_dir'])
+    try:
+        os.makedirs(projection_dir)
+    except OSError:
+        pass
+
+    cwd = os.getcwd()
+    for (key, user, repo) in sorted(space.github_repos()):
+        repo_path = os.path.join(checkout_dir, repo)
         if os.path.exists(repo_path):
-            cwd = os.getcwd()
             os.chdir(repo_path)
             command = "git pull origin master"
             print command
@@ -188,6 +163,17 @@ def checkout(universe, options, config):
             )
             print command
             os.system(command)
+
+        os.chdir(repo_path)
+        distname = get_distname(space[key])
+        proj_path = os.path.join(projection_dir, distname)
+        command = "git archive --format=tar --prefix=%s/ HEAD | (cd %s && tar xf -)" % (
+            distname, projection_dir
+        )
+        print command
+        os.system(command)
+
+    os.chdir(cwd)
 
 
 def check_releases(universe, options, config):
@@ -238,7 +224,7 @@ def check_releases(universe, options, config):
 
     passes = 0
     space = universe['node']  # FIXME hardcoded
-    for (key, user, repo) in sorted(github_repos(space)):
+    for (key, user, repo) in sorted(space.github_repos()):
         if key in ('The Dipple', 'Illgol: Grand Mal',):
             continue
 
@@ -326,7 +312,7 @@ def check_distfiles(universe, options, config):
         return v_name
 
     commands = []
-    for (key, user, repo) in github_repos(space):
+    for (key, user, repo) in space.github_repos():
         for release in space[key]['releases']:
             url = release['url']
             match = re.match(r'^http\:\/\/catseye\.tc\/distfiles\/(.*?)$', url)
