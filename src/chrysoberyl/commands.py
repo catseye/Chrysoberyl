@@ -162,7 +162,8 @@ def catalogue(universe, options, config):
 
 
 def checkout(universe, options, config):
-    """Clone all git repos into a local directory.
+    """Clone (or update, if they already exist) all git repos
+    into a local directory.
 
     """
     space_key = 'node'  # FIXME hardcoded
@@ -172,12 +173,21 @@ def checkout(universe, options, config):
         os.makedirs(config[space_key]['checkout_dir'])
     except OSError:
         pass
-    for (key, user, repo) in github_repos(space):
-        command = "git clone git@github.com:%s/%s.git %s/%s" % (
-            user, repo, config[space_key]['checkout_dir'], repo
-        )
-        print command
-        os.system(command)
+    for (key, user, repo) in sorted(github_repos(space)):
+        repo_path = os.path.join(config[space_key]['checkout_dir'], repo)
+        if os.path.exists(repo_path):
+            cwd = os.getcwd()
+            os.chdir(repo_path)
+            command = "git pull origin master"
+            print command
+            os.system(command)
+            os.chdir(cwd)
+        else:
+            command = "git clone git@github.com:%s/%s.git %s" % (
+                user, repo, repo_path
+            )
+            print command
+            os.system(command)
 
 
 def check_releases(universe, options, config):
