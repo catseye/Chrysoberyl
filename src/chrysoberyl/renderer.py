@@ -179,24 +179,22 @@ class Renderer(object):
 
         @expose
         def markdown_file_to_html(filename):
-            # assumes "modules" are docked parallel to chrysoberyl locally
-            # which is neither fantastic nor horrendous
+            # FIXME makes awful assumptions
             prefix = 'http://catseye.tc/modules/'
             parts = filename.split(prefix)
             if len(parts) == 2:
-                filename = os.path.join('..', parts[1])
+                filename = os.path.join(self.projection_dir, parts[1])
             with codecs.open(filename, 'r', 'utf-8') as f:
                 md = f.read()
             return markdown.markdown(md)
 
         @expose
         def html_file_to_html(filename):
-            # assumes "modules" are docked parallel to chrysoberyl locally
-            # which is neither fantastic nor horrendous
+            # FIXME makes awful assumptions
             prefix = 'http://catseye.tc/modules/'
             parts = filename.split(prefix)
             if len(parts) == 2:
-                filename = os.path.join('..', parts[1])
+                filename = os.path.join(self.projection_dir, parts[1])
             with codecs.open(filename, 'r', 'utf-8') as f:
                 collect = False
                 html = []

@@ -24,6 +24,10 @@ def make_news_feed(universe, data, dir, filename, limit=None):
 
     """
     url = BASEURL + filename
+    try:
+        os.makedirs(dir)
+    except OSError:
+        pass
     filename = os.path.join(dir, filename)
     articles = []
     for key in data:
