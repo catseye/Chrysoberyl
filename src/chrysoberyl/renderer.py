@@ -415,8 +415,9 @@ class Renderer(object):
         @expose
         def documentation_link(filename, key=key):
             node = self.universe.get_node(key)
+            # This is a URL. TODO don't make so many assumptions in URLs.
             path = os.path.join(
-                self.projection_dir, 'view',
+                '..', 'view',
                 get_distname(node),
                 pathname2url(filename)
             )
