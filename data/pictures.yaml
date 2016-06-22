@@ -8,20 +8,7 @@ pencil:
   type: Medium
 ink:
   type: Medium
-ink and wash:
-  type: Medium
-marker pen:
-  type: Medium
-fineliner:
-  type: Medium
-
 paper:
-  type: Medium
-cartridge paper:
-  type: Medium
-construction paper:
-  type: Medium
-card:
   type: Medium
 
 
@@ -112,7 +99,7 @@ pixley.pix as Nested Rectangles:
   license: Freely Redistributable
   host-language: PNG
   file-locations:
-  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%201.png
+  - http://catseye.tc/images/pictures/Ink%20salad%20No.%201.png
 
 'Ink salad No. 2':
   type: Picture
@@ -128,7 +115,7 @@ pixley.pix as Nested Rectangles:
   license: Freely Redistributable
   host-language: PNG
   file-locations:
-  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%202.png
+  - http://catseye.tc/images/pictures/Ink%20salad%20No.%202.png
 
 'Ink salad No. 7':
   type: Picture
@@ -144,162 +131,4 @@ pixley.pix as Nested Rectangles:
   license: Freely Redistributable
   host-language: PNG
   file-locations:
-  - http://catseye.tc/modules/pictures/Ink%20salad%20No.%207.png
-
-'Reader, Hyde Park':
-  type: Picture
-  inception-date: ca Jul 2013
-'Reader, Hyde Park (JPEG)':
-  type: Implementation
-  implementation-of:
-  - Reader, Hyde Park
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - http://catseye.tc/modules/pictures/Reader,%20Hyde%20Park.jpg
-
-'Smoker, Hyde Park':
-  type: Picture
-  inception-date: ca Jul 2013
-'Smoker, Hyde Park (JPEG)':
-  type: Implementation
-  implementation-of:
-  - Smoker, Hyde Park
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - http://catseye.tc/modules/pictures/Smoker,%20Hyde%20Park.jpg
-
-"Reader, St. James's Park":
-  type: Picture
-  inception-date: ca Jul 2013
-"Reader, St. James's Park (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Reader, St. James's Park"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Reader, St. James's Park.jpg"
-
-
-Bagpiper, Castlehill:
-  type: Picture
-  inception-date: ca Sep 2013
-"Bagpiper, Castlehill (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Bagpiper, Castlehill"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Bagpiper, Castlehill.jpg"
-
-Converser, Princes Street Gardens:
-  type: Picture
-  inception-date: ca Sep 2013
-"Converser, Princes Street Gardens (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Converser, Princes Street Gardens"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Converser, Princes Street Gardens.jpg"
-
-Mobile User, The Meadows:
-  type: Picture
-  inception-date: ca Sep 2013
-"Mobile User, The Meadows (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Mobile User, The Meadows"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Mobile User, The Meadows.jpg"
-
-Portfolio Browsers, Parc George Brassens:
-  type: Picture
-  inception-date: ca Apr 2014
-"Portfolio Browsers, Parc George Brassens (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Portfolio Browsers, Parc George Brassens"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Portfolio Browsers, Parc George Brassens.jpg"
-
-Reader, Parc George Brassens:
-  type: Picture
-  inception-date: ca Apr 2014
-"Reader, Parc George Brassens (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Reader, Parc George Brassens"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Reader, Parc George Brassens.jpg"
-
-Reader, Sacre Coeur:
-  type: Picture
-  inception-date: ca Apr 2014
-"Reader, Sacre Coeur (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Reader, Sacre Coeur"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Reader, Sacre Coeur.jpg"
-
-Converser, Sacre Coeur:
-  type: Picture
-  inception-date: ca Apr 2014
-"Converser, Sacre Coeur (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Converser, Sacre Coeur"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Converser, Sacre Coeur.jpg"
-
-
-Fictional Landscape No. 1:
-  type: Picture
-  inception-date: ca Aug 2013
-"Fictional Landscape No. 1 (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Fictional Landscape No. 1"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 1.jpg"
-
-Fictional Landscape No. 2:
-  type: Picture
-  inception-date: ca Aug 2013
-"Fictional Landscape No. 2 (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Fictional Landscape No. 2"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 2.jpg"
-
-Fictional Landscape No. 3:
-  type: Picture
-  inception-date: Oct 2014
-"Fictional Landscape No. 3 (JPEG)":
-  type: Implementation
-  implementation-of:
-  - "Fictional Landscape No. 3"
-  license: Unknown license
-  host-language: JPEG
-  file-locations:
-  - "http://catseye.tc/modules/pictures/Fictional Landscape No. 3.jpg"
+  - http://catseye.tc/images/pictures/Ink%20salad%20No.%207.png
