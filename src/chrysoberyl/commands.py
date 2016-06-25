@@ -128,9 +128,7 @@ def catalogue(universe, options, config):
 
 def checkout(universe, options, config):
     """Clone (or update, if they already exist) all git repos
-    into a local directory.  Then, project a copy of all the files in
-    the repository into a plain, non-version-controlled directory in
-    the projection directory, at (TODO) the latest tag specified in data.
+    into a local directory.
 
     """
     space_key = 'node'  # FIXME hardcoded
@@ -139,12 +137,6 @@ def checkout(universe, options, config):
     checkout_dir = os.path.abspath(config[space_key]['checkout_dir'])
     try:
         os.makedirs(checkout_dir)
-    except OSError:
-        pass
-
-    projection_dir = os.path.abspath(config[space_key]['projection_dir'])
-    try:
-        os.makedirs(projection_dir)
     except OSError:
         pass
 
@@ -164,6 +156,27 @@ def checkout(universe, options, config):
             print command
             os.system(command)
 
+    os.chdir(cwd)
+
+
+def project(universe, options, config):
+    """Project a copy of all the files in each checkout'ed repository
+    into a plain, non-version-controlled directory in
+    the projection directory, at (TODO) the latest tag specified in data.
+
+    """
+    space_key = 'node'  # FIXME hardcoded
+    space = universe[space_key]
+
+    projection_dir = os.path.abspath(config[space_key]['projection_dir'])
+    try:
+        os.makedirs(projection_dir)
+    except OSError:
+        pass
+
+    cwd = os.getcwd()
+    for (key, user, repo) in sorted(space.github_repos()):
+        repo_path = os.path.join(checkout_dir, repo)
         os.chdir(repo_path)
         distname = get_distname(space[key])
         proj_path = os.path.join(projection_dir, distname)
@@ -346,6 +359,7 @@ COMMANDS = {
     'check_releases': check_releases,
     'check_distfiles': check_distfiles,
     'checkout': checkout,
+    'project': project,
 }
 
 
