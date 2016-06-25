@@ -168,6 +168,7 @@ def project(universe, options, config):
     space_key = 'node'  # FIXME hardcoded
     space = universe[space_key]
 
+    checkout_dir = os.path.abspath(config[space_key]['checkout_dir'])
     projection_dir = os.path.abspath(config[space_key]['projection_dir'])
     try:
         os.makedirs(projection_dir)
@@ -180,8 +181,8 @@ def project(universe, options, config):
         os.chdir(repo_path)
         distname = get_distname(space[key])
         proj_path = os.path.join(projection_dir, distname)
-        command = "git archive --format=tar --prefix=%s/ HEAD | (cd %s && tar xf -)" % (
-            distname, projection_dir
+        command = "rm -rf %s && git archive --format=tar --prefix=%s/ HEAD | (cd %s && tar xf -)" % (
+            proj_path, distname, projection_dir
         )
         print command
         os.system(command)
