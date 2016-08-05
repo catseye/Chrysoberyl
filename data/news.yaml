@@ -1,5 +1,33 @@
 # encoding: UTF-8
 
+Dropped support for Mercurial repos on Bitbucket:
+  type: Article
+  article-type: announcement
+  publication-date: Fri, 05 Aug 2016 19:26:11 GMT
+  blurb: |
+    Dropped support for our mirror repos on [Bitbucket](https://bitbucket.org/catseye/).
+  description: |
+    I like [Mercurial](https://www.mercurial-scm.org/).  It was the first DVCS I learned to use, and I've
+    always found it easier to use than [git](https://git-scm.com/).  I like [Bitbucket](https://bitbucket.org/)
+    too, largely because they'll give you private repositories for no charge, if you're a small team.  I like that.
+    
+    In fact, I like both of them enough to have gone to the trouble of keeping all of Cat's Eye Technologies'
+    distributions mirrored in both git repositories on [GitHub](https://github.com/catseye/) and Mercurial repositories
+    on Bitbucket.
+    
+    But alas, this has become far too much trouble in the upkeep, mainly because
+    [hg-git](https://bitbucket.org/durin42/hg-git/) no longer works reliably for me.  (You can see the
+    [fascinating bug report](https://bitbucket.org/durin42/hg-git/issues/181/git-mapfile-is-sometimes-completely)
+    if you would like more details.)  Even when it does work, it's yet another step I need to remember to take, and
+    Mercurial doesn't work entirely reliably on my web server either now, etc., and basically I have better things
+    to do with my time than hassle with this.
+    
+    So, if you were using this Mercurial repositories on Bitbucket and are inconvenienced that you now must
+    use Git repositories on GitHub instead, I apologize, but by all accounts you are in the distinct minority.
+    
+    As for this news feed, I've been lax in updating it, and yes, I apologize for that too.  I will try to post
+    a catch-up update sometime in the near future.
+
 RetroChallenge July 2015, and other updates:
   type: Article
   article-type: announcement
