@@ -58,3 +58,16 @@ The New Gamerly Realism:
   javascript-urls:
   - src/the-new-gamerly-realism.js
   script-root: ../modules/the-new-gamerly-realism/src/
+  instructions: |
+    Use the arrow keys to guide the protagonist (represented by a black square)
+    around the playfield (represented by a black square) to collect all the
+    treasures (represented by black squares) while avoiding the pits (represented
+    by black squares.)  Each treasure collected earns the player 10 points; the
+    score is shown in the upper-left (in black).  The player begins the game with
+    three lives; succumbing to a pit costs a life; the number of lives is
+    displayed in the lower-left (in black).  When the game is over, left-click
+    the canvas to start a new game.
+    
+    Detractors and other peasants may satisfy themselves that this is actually a
+    game and not just an entirely black gif or opening a Javascript console and
+    typing `BACKGROUND_COLOR='green'`.
