@@ -10,6 +10,11 @@
   {% for thing in entries %}
     <li>{{ link(thing) }}</li>
   {% endfor %}
+  {% for link in links %}
+  <li>
+    <a href="{{ link }}">{{ link }}</a>
+  </li>
+  {% endfor %}
 </ul>
 
 {% endblock content %}
