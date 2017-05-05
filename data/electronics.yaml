@@ -2,6 +2,7 @@
 Electronics Projects distribution: 
   type: Distribution
   github: catseye/Electronics-Projects
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"

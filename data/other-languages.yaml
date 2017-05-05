@@ -871,6 +871,7 @@ backtracking-wang-tiler.js:
 Wang Tilers distribution: 
   type: Distribution
   github: catseye/Wang-Tilers
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"

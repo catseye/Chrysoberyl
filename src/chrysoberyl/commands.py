@@ -21,16 +21,6 @@ from chrysoberyl.renderer import Renderer
 from chrysoberyl.transformer import transform_dates
 
 
-# experimental loose toolshelf integration
-if 'TOOLSHELF' in os.environ and os.environ['TOOLSHELF']:
-    sys.path.insert(0, os.path.join(os.environ['TOOLSHELF'], '.toolshelf', 'src'))
-    from toolshelf.toolshelf import Toolshelf
-    shelf = Toolshelf()
-else:
-    toolshelf = None
-    shelf = None
-
-
 ### command functions ###
 
 def mkdistmap(universe, options, config):
@@ -107,15 +97,35 @@ def announce(universe, options, config):
 
 
 def catalogue(universe, options, config):
-    """Create a toolshelf catalogue from distribution nodes.
+    """Create a shelf catalogue from distribution nodes.
 
     """
+
     space = universe['node']  # FIXME hardcoded
-    lines = []
+    infos = {}
     for (key, user, repo) in space.github_repos():
-        source = shelf.make_source_from_spec('github.com/%s/%s' % (user, repo))
-        tag = source.get_latest_release_tag() or 'tip'
-        lines.append('bb:%s/%s@%s' % (user, repo, tag))
+        node = space.get(key)
+        releases = node.get('releases', [])
+        new_style = node.get('tag-style', 'old') == 'new'
+        tag = 'master'
+        if releases:
+            version = releases[-1]['version']
+            revision = releases[-1]['revision']
+            if new_style:
+                tag = '%s-%s' % (version, revision)
+                if revision == '0.0':
+                    tag = version
+            else:
+                version = re.sub(r'\.', r'_', str(version))
+                revision = re.sub(r'\.', r'_', str(revision))
+                tag = 'rel_%s_%s' % (version, revision)
+                if revision == '0_0':
+                    tag = 'rel_%s' % version
+        infos[repo.lower()] = (repo, tag)
+
+    lines = []
+    for (key, (repo, tag)) in sorted(infos.iteritems()):
+        lines.append('%s@%s' % (key, tag))
 
     filename = os.path.realpath(os.path.join('.', config['node']['catalogue_file']))
     print "Writing catalogue to '%s'..." % filename
@@ -150,9 +160,9 @@ def checkout(universe, options, config):
             os.system(command)
             os.chdir(cwd)
         else:
-            command = "git clone git@github.com:%s/%s.git %s" % (
-                user, repo, repo_path
-            )
+            #template = "git clone git@github.com:%s/%s.git %s"
+            template = "git clone https://github.com/%s/%s.git %s"
+            command = template % (user, repo, repo_path)
             print command
             os.system(command)
 

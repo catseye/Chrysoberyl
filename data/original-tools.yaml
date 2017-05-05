@@ -281,6 +281,7 @@ funicular:
 Funicular distribution: 
   type: Distribution
   github: catseye/Funicular
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -321,6 +322,7 @@ guten-gutter (Python):
 Guten-gutter distribution: 
   type: Distribution
   github: catseye/Guten-gutter
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -359,6 +361,7 @@ hatoucan (Python):
 hatoucan distribution: 
   type: Distribution
   github: catseye/hatoucan
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -391,6 +394,7 @@ MARYSUE (Python):
 MARYSUE distribution:
   type: Distribution
   github: catseye/MARYSUE
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -428,6 +432,7 @@ Rtype:
 mzstorkipiwanbotbotbot distribution: 
   type: Distribution
   github: catseye/mzstorkipiwanbotbotbot
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -458,6 +463,7 @@ NetUSB distribution:
 
 
 realpath:
+  # it's a bit of a stretch to call this 'original'
   type: Tool
   description: |
     `realpath` is a tool that reports the real, symbolic-link-free path
@@ -483,6 +489,7 @@ realpath (Python):
 realpath distribution: 
   type: Distribution
   github: catseye/realpath
+  tag-style: new
   releases: 
   - version: "1.0"
     revision: "0.0"
@@ -544,6 +551,7 @@ seedbank (Python):
 seedbank distribution: 
   type: Distribution
   github: catseye/seedbank
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -633,6 +641,7 @@ The Swallows Engine (Python):
 The Swallows distribution:
   type: Distribution
   github: catseye/The-Swallows
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -667,6 +676,7 @@ toolshelf.py:
 toolshelf distribution: 
   type: Distribution
   github: catseye/toolshelf
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"

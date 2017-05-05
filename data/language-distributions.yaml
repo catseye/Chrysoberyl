@@ -101,6 +101,7 @@ Arboretuum distribution:
 Beatnik distribution: 
   type: Distribution
   github: catseye/Beatnik
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -441,6 +442,7 @@ Funge-98 distribution:
 Gemooy distribution: 
   type: Distribution
   github: catseye/Gemooy
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -687,6 +689,7 @@ Mascarpone distribution:
 Matchbox distribution:
   type: Distribution
   github: catseye/Matchbox
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -937,6 +940,7 @@ Sbeezg distribution:
 Schrödinger's Game of Life distribution: 
   type: Distribution
   github: catseye/Schroedingers-Game-of-Life
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -962,6 +966,7 @@ Shelta distribution:
 SICKBAY distribution: 
   type: Distribution
   github: catseye/SICKBAY
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -970,6 +975,7 @@ SICKBAY distribution:
 SITU-SOL distribution: 
   type: Distribution
   github: catseye/SITU-SOL
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "2015.0731"
@@ -978,6 +984,7 @@ SITU-SOL distribution:
 SixtyPical distribution: 
   type: Distribution
   github: catseye/SixtyPical
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -1209,6 +1216,7 @@ Wierd distribution:
 Wunnel distribution: 
   type: Distribution
   github: catseye/Wunnel
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -1291,6 +1299,7 @@ Xoomonk distribution:
 Yolk distribution: 
   type: Distribution
   github: catseye/Yolk
+  tag-style: new
   test-requirements:
   - Falderal
   releases: 

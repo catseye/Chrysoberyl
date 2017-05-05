@@ -67,6 +67,7 @@ kosheri (C):
 Kosheri distribution: 
   type: Distribution
   github: catseye/Kosheri
+  tag-style: new
   test-requirements:
   - Falderal
   releases:
@@ -148,6 +149,7 @@ Robin.lhs:
 Robin distribution: 
   type: Distribution
   github: catseye/Robin
+  tag-style: new
   test-requirements:
   - Falderal
   releases:

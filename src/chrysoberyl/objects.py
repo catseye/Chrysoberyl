@@ -111,7 +111,7 @@ class NameSpace(dict):
 
 
 class Universe(object):
-    """A Universe (despite its fancy name) is nothing more than a set of NameSpaces."""
+    """A Universe (despite its fancy name) is little more than a set of NameSpaces."""
 
     def __init__(self):
         self._spaces = {}
