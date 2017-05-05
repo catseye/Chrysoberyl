@@ -196,6 +196,9 @@ def check_chrysoberyl_node(universe, data, key, node):
 
     # On to checking fields specific to different types.
 
+    if type_ == 'Disambiguation node':
+        check_optional_list_ref(universe, key, node, 'entries')
+
     if type_ == 'Article':
         assert 'publication-date' in node
         assert 'article-type' in node
