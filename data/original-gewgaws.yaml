@@ -15,6 +15,7 @@ C64 Demo Depot:
 HTML5 Gewgaws distribution: 
   type: Distribution
   github: catseye/HTML5-Gewgaws
+  fixed-tag: 152856c
   releases:
   - version: "0.1"
     revision: "0.0"

@@ -108,7 +108,12 @@ def catalogue(universe, options, config):
         releases = node.get('releases', [])
         new_style = node.get('tag-style', 'old') == 'new'
         tag = 'master'
-        if releases:
+        fixed_tag = node.get('fixed-tag', None)
+        if fixed_tag == 'OMIT':
+            continue
+        if fixed_tag is not None:
+            tag = fixed_tag
+        elif releases:
             version = releases[-1]['version']
             revision = releases[-1]['revision']
             if new_style:

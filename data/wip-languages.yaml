@@ -30,6 +30,7 @@ Deturgenchry.hs:
 Deturgenchry distribution: 
   type: Distribution
   github: catseye/Deturgenchry
+  fixed-tag: 2eb3b4a
   test-requirements:
   - Falderal
   releases: []
@@ -77,6 +78,9 @@ Kosheri distribution:
   - version: "0.1"
     revision: "2016.0315"
     url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
 
 
 Pophery:
@@ -109,6 +113,7 @@ pophery.py:
 Pophery distribution: 
   type: Distribution
   github: catseye/Pophery
+  fixed-tag: 1268947
   releases: []
 
 

@@ -20,6 +20,7 @@ JaC64 distribution:
     a Java applet.  We made it to fix some bugs and because mainline
     development seemed stalled.
   github: catseye/JaC64
+  fixed-tag: OMIT
   releases: []
 
 
@@ -40,6 +41,8 @@ Minischeme distribution:
   description: |
     Cat's Eye Technologies' fork of the original Mini-scheme distribution.
   github: catseye/minischeme
+  # this should be a release!
+  fixed-tag: 0.85ce1
   releases: []
 
 
@@ -60,6 +63,8 @@ OpenZz distribution:
     Cat's Eye Technologies' fork of OpenZz, an open-source implementation
     of the dynamic grammar-based language Zz.
   github: catseye/OpenZz
+  # this should be a release!
+  fixed-tag: 1.0.4-4ce1
   releases: []
 
 
@@ -90,4 +95,5 @@ tideay (Python):
 tideay distribution: 
   type: Distribution
   github: cpressey/tideay
+  fixed-tag: OMIT
   releases: []

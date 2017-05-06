@@ -183,6 +183,9 @@ yoob.js distribution:
   - version: "0.11"
     revision: "0.0"
     url: http://catseye.tc/distfiles/yoob.js-0.11.zip
+  - version: "0.12"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/yoob.js-0.12.zip
 
 
 "The Cat's Eye Technologies Platform": 
@@ -223,6 +226,7 @@ The-Cats-Eye-Technologies-Platform-0.2.img:
   # tricky because distributed via torrent.
   type: Distribution
   github: catseye/The-Platform
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"

@@ -5,6 +5,7 @@
 Specs on Spec distribution: 
   type: Distribution
   github: catseye/Specs-on-Spec
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -374,6 +375,9 @@ Etcha distribution:
   - version: "1.0"
     revision: "2015.0723"
     url: http://catseye.tc/distfiles/etcha-1.0-2015.0723.zip
+  - version: "1.0"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/etcha-1.0-2017.0428.zip
 
 Exanoke distribution: 
   type: Distribution
@@ -390,6 +394,9 @@ Exanoke distribution:
   - version: "1.0"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/exanoke-1.0-2015.0101.zip
+  - version: "1.0"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip
 
 FBBI distribution: 
   type: Distribution
@@ -544,6 +551,7 @@ Open Sores Illgol## distribution:
   type: Distribution
   # and it probably might as well have executables.  at some point.
   github: catseye/Illgol-Grand-Mal
+  fixed-tag: rel_16_tons_and_what_do_you_get
   releases: []
 
 Iphigeneia distribution: 
@@ -567,6 +575,9 @@ Iphigeneia distribution:
   - version: "1.0"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/iphigeneia-1.0-2015.0101.zip
+  - version: "1.0"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/iphigeneia-1.0-2017.0428.zip
 
 Jaccia and Jacciata distribution: 
   type: Distribution
@@ -627,6 +638,7 @@ Kangaroo Iceberg distribution:
 Kelxquoia distribution: 
   type: Distribution
   github: catseye/Kelxquoia
+  fixed-tag: f833867
   releases: []
 
 Larabee distribution: 
@@ -817,6 +829,9 @@ PL-{GOTO}.NET distribution:
   - version: "1.1"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/pl-goto.net-1.1-2015.0101.zip
+  - version: "1.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip
 
 Quylthulg distribution: 
   type: Distribution
@@ -845,6 +860,9 @@ Quylthulg distribution:
   - version: "1.0"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/quylthulg-1.0-2015.0101.zip
+  - version: "1.0"
+    revision: "2016.0504"
+    url: http://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip
 
 REDGREEN distribution: 
   type: Distribution
@@ -980,6 +998,9 @@ SITU-SOL distribution:
   - version: "0.1"
     revision: "2015.0731"
     url: http://catseye.tc/distfiles/situ-sol-0.1-2015.0731.zip
+  - version: "0.1"
+    revision: "2017.0502"
+    url: http://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip
 
 SixtyPical distribution: 
   type: Distribution
@@ -1070,6 +1091,7 @@ Strelnokoff distribution:
 Tamsin distribution: 
   type: Distribution
   github: catseye/Tamsin
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
@@ -1086,6 +1108,9 @@ Tamsin distribution:
   - version: "0.5"
     revision: "0.0"
     url: http://catseye.tc/distfiles/tamsin-0.5.zip
+  - version: "0.5"
+    revision: "2017.0502"
+    url: http://catseye.tc/distfiles/tamsin-0.5-2017.0502.zip
 
 Thue distribution: 
   type: Distribution
@@ -1124,6 +1149,7 @@ Treacle distribution:
 Troupe distribution: 
   type: Distribution
   github: catseye/Troupe
+  fixed-tag: d9dd637
   releases: []
 
 Unlikely distribution: 

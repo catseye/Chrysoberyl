@@ -271,6 +271,7 @@ the-new-gamerly-realism.js:
 The New Gamerly Realism distribution:
   type: Distribution
   github: catseye/The-New-Gamerly-Realism
+  tag-style: new
   releases:
   - version: "1.0"
     revision: "0.0"

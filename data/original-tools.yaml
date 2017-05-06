@@ -295,6 +295,9 @@ Funicular distribution:
   - version: "0.3"
     revision: "0.0"
     url: http://catseye.tc/distfiles/funicular-0.3.zip
+  - version: "0.4"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/funicular-0.4.zip
 
 
 Guten-gutter: 
@@ -443,6 +446,7 @@ mzstorkipiwanbotbotbot distribution:
 NaNoGenLab:
   type: Distribution
   github: catseye/NaNoGenLab
+  fixed-tag: offseason-2015-april
   releases:
   - version: "1.0"
     revision: "0.0"
@@ -456,6 +460,7 @@ NaNoGenLab:
 NetUSB distribution: 
   type: Distribution
   github: catseye/NetUSB
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"
@@ -785,6 +790,7 @@ transmat distribution:
   type: Distribution
   github: cpressey/transmat
   releases: []
+  fixed-tag: OMIT
 
 
 T-Rext: 
@@ -815,6 +821,7 @@ t-rext (Python):
 T-Rext distribution: 
   type: Distribution
   github: catseye/T-Rext
+  tag-style: new
   releases:
   - version: "0.1"
     revision: "0.0"
