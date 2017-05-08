@@ -181,6 +181,10 @@ have not been rolled yet:
     http://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip
     http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip
     http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip
+    http://catseye.tc/distfiles/shelf-0.1.zip
+    http://catseye.tc/distfiles/kinoje-0.1.zip
+    http://catseye.tc/distfiles/maxixe-0.1.zip
+    http://catseye.tc/distfiles/samovar-0.1.zip
 
 License
 -------

@@ -1,4 +1,24 @@
 # encoding: UTF-8
+ee:
+  type: Tool
+  description: |
+    `ee` is Cat's Eye Technologies' fork of `ee`, the "easy editor"
+    which comes with [[FreeBSD]].
+  development-stage: mature
+
+ee distribution: 
+  type: Distribution
+  reference: false
+  description: |
+    Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
+    a Java applet.  We made it to fix some bugs and because mainline
+    development seemed stalled.
+  github: catseye/ee
+  # this should be a release?
+  fixed-tag: 1.5.2ce1
+  releases: []
+
+
 JaC64:
   type: Implementation
   reference: false
@@ -76,7 +96,7 @@ tideay:
   auspices:
   - Cat's Eye Technologies
   description: |
-    `tideay` is Cat's Eye Technologies fork of `yaedit`, a GtkSourceView-based
+    `tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
     text editor written by Paul Harrison.  In addition to the
     features provided by `yaedit`, `tideay` supports things such as
     [[String-rewriting]]-based editing commands.
