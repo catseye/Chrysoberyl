@@ -1722,6 +1722,7 @@ Madison:
   genre: DSL
   paradigms:
   - Proof checking
+  - Term-rewriting
   description: |
     Madison is a language in which one can state proofs of properties
     of term-rewriting systems.  Classical methods of automated reasoning,
@@ -1735,8 +1736,6 @@ Madison:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  paradigms:
-  - Term-rewriting
   defining-distribution: Specs on Spec distribution
   computational-class: believed Turing-complete
   inception-date: Dec 2, 2011
@@ -1876,6 +1875,42 @@ matchbox.js:
   in-distribution: Matchbox distribution
   online-locations:
   - installation/Matchbox
+
+
+Maxixe: 
+  type: Programming Language
+  genre: DSL
+  paradigms:
+  - Proof checking
+  description: |
+    Maxixe is a simple proof-checking language.  Given a proof written out fully and
+    explicitly (including all rules of inference), a computer can check if it is valid
+    or not.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  defining-distribution: Maxixe distribution
+  computational-class: believed Turing-complete
+  inception-date: 2016
+  development-stage: not fully complete
+  sample: |
+    given
+        Modus_Ponens                 = impl(P, Q) ; P |- Q
+        Simplification               = and(P, Q)      |- Q
+        Commutativity_of_Conjunction = and(P, Q)      |- and(Q, P)
+        Premise                      =                |- and(p, impl(p, q))
+    show
+        q
+    proof
+        Step_1 = and(p, impl(p, q))    by Premise
+        Step_2 = and(impl(p, q), p)    by Commutativity_of_Conjunction with Step_1
+        Step_3 = impl(p, q)            by Simplification with Step_1
+        Step_4 = p                     by Simplification with Step_2
+        Step_5 = q                     by Modus_Ponens with Step_3, Step_4
+    qed
+  influences:
+  - Madison
 
 
 MDPN:
@@ -2333,6 +2368,38 @@ Qlzqqlzuup, the Lord of Flesh:
   license: BSD license
   implementation-type: interpreter
   host-language: Haskell
+
+
+Samovar: 
+  type: Programming Language
+  genre: DSL
+  paradigms:
+  - Probabilistic
+  - Logic programming
+  - State machine
+  description: |
+    Samovar is a DSL for world-modeling using predicates rather than explicit objects.
+    It could be thought of as an "assertion-retraction engine", which itself could be
+    thought of as a very stilted style of Prolog programming plus some syntactic
+    sugar.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  defining-distribution: Samovar distribution
+  computational-class: unknown computational class
+  inception-date: 2016
+  development-stage: not fully complete
+  sample: |
+    rules
+      [actor(α),item(β),~holding(α,β)]  α picks up the β.   [holding(α,β)]
+      [actor(α),item(β),holding(α,β)]   α puts down the β.  [~holding(α,β)]
+    end
+    situations
+      [actor(Ignatz),item(brick)]
+    end
+  influences:
+  - Madison
 
 
 Sally:

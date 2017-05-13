@@ -27,3 +27,25 @@ The Dipple:
     The Dipple is where code goes when its home planet has been
     destroyed.  With apologies to [[Andre Norton]].
   releases: []
+
+
+The Dossier:
+  type: Database
+  defining-distribution: The Dossier distribution
+  description: |
+    While [[Chrysoberyl]] is an attempt to catalogue and curate
+    things related directly to [[Cat's Eye Technologies]],
+    _The Dossier_ was created to curate things only indirectly
+    related.  It arose after an undesirable amount of stuff that
+    was only indirectly related to Cat's Eye Technologies found
+    its way into Chrysoberyl.
+    
+    The Dossier is also oriented towards long-form, opinion-based
+    writing, distinct from Chrysoberyl's short-and-unbiased-blurb
+    approach.
+
+The Dossier distribution: 
+  type: Distribution
+  github: catseye/The-Dossier
+  fixed-tag: f9437d5
+  releases: []

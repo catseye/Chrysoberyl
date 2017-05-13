@@ -70,6 +70,8 @@ Particle automaton:
   type: Programming Paradigm
 Probabilistic:
   type: Programming Paradigm
+Proof checking:
+  type: Programming Paradigm
 Reflective:
   type: Programming Paradigm
   references:

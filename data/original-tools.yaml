@@ -371,6 +371,39 @@ hatoucan distribution:
     url: http://catseye.tc/distfiles/hatoucan-0.1.zip
 
 
+kinoje: 
+  type: Tool
+  summary: 
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    **kinoje** is a templating-based animation tool.  A provided template is filled out once for each
+    frame of the animation; the result of the template expansion is used to create a still image; and
+    the resulting sequence of images is compiled into the finished movie.
+  inception-date: 2017
+  development-stage: work in progress
+
+kinoje (Python):
+  type: Implementation
+  implementation-of:
+  - kinoje
+  reference: true
+  in-distribution: kinoje distribution
+  license: Public Domain
+  host-language: Python
+
+kinoje distribution: 
+  type: Distribution
+  github: catseye/kinoje
+  tag-style: new
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kinoje-0.1.zip
+
+
 MARYSUE:
   type: Tool
   summary: An engine for generating non-interactive fiction
@@ -564,6 +597,44 @@ seedbank distribution:
   - version: "1.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/seedbank-1.1.zip
+
+
+shelf: 
+  type: Tool
+  summary: A "package manager" that doesn't actually install anything
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `shelf` is a "package manager" which doesn't actually install any files.
+    Instead, it stores the source trees of sundry packages in a single directory,
+    creates link farms to the interesting files within those trees,
+    and manages your search paths to include those link farms.
+    those trees. The source trees are typically the working directories of
+    local git or Mercurial clones, or they can be source distributions from tarballs.
+    `shelf`, written in Bourne shell, is a replacement for `toolshelf`, which was
+    written in Python.
+  inception-date: 2016
+  development-stage: work in progress
+
+shelf.sh:
+  type: Implementation
+  implementation-of:
+  - shelf
+  reference: true
+  in-distribution: shelf distribution
+  license: Public Domain
+  host-language: Bourne shell
+
+shelf distribution: 
+  type: Distribution
+  github: catseye/shelf
+  tag-style: new
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/shelf-0.1.zip
 
 
 SITU-MON: 

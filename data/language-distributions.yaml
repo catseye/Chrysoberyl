@@ -710,6 +710,15 @@ Matchbox distribution:
     revision: "0.0"
     url: http://catseye.tc/distfiles/matchbox-1.0.zip
 
+Maxixe distribution: 
+  type: Distribution
+  github: catseye/Maxixe
+  tag-style: new
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/maxixe-0.1.zip
+
 Muriel distribution: 
   type: Distribution
   github: catseye/Muriel
@@ -926,6 +935,15 @@ RUBE II distribution:
   - version: "1.0"
     revision: "2001.0201"
     url: http://catseye.tc/distfiles/rube_ii-2001.0201.zip
+
+Samovar distribution: 
+  type: Distribution
+  github: catseye/Samovar
+  tag-style: new
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/samovar-0.1.zip
 
 Sally distribution: 
   type: Distribution

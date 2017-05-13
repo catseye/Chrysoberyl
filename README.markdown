@@ -166,22 +166,6 @@ This is actually kind of weird (e.g. yucca is an implementation of BASIC?
 maybe say "partial implementation" in the template if the implementation
 type is not interpreter or compiler) but we'll go with it for now.
 
-### other notes ###
-
-The following revisions have been updated, but the actual distributions
-have not been rolled yet:
-
-    http://catseye.tc/distfiles/funicular-0.4.zip
-    http://catseye.tc/distfiles/etcha-1.0-2017.0428.zip
-    http://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip
-    http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
-    http://catseye.tc/distfiles/iphigeneia-1.0-2017.0428.zip
-    http://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip
-    http://catseye.tc/distfiles/yoob.js-0.12.zip
-    http://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip
-    http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip
-    http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip
-
 License
 -------
 
