@@ -126,7 +126,8 @@ def catalogue(universe, options, config):
                 tag = 'rel_%s_%s' % (version, revision)
                 if revision == '0_0':
                     tag = 'rel_%s' % version
-        infos[repo.lower()] = (repo, tag)
+        key = repo.lower() if os.getenv('LOWERCASE_REPOS') else repo
+        infos[key] = (repo, tag)
 
     lines = []
     for (key, (repo, tag)) in sorted(infos.iteritems()):
