@@ -5,6 +5,7 @@ ee:
     `ee` is Cat's Eye Technologies' fork of `ee`, the "easy editor"
     which comes with [[FreeBSD]].
   development-stage: mature
+  no-specification: true
 
 ee distribution: 
   type: Distribution
