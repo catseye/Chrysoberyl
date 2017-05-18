@@ -142,39 +142,6 @@ def catalogue(universe, options, config):
             f.write('\n')
 
 
-def checkout(universe, options, config):
-    """Clone (or update, if they already exist) all git repos
-    into a local directory.
-
-    """
-    space_key = 'node'  # FIXME hardcoded
-    space = universe[space_key]
-
-    checkout_dir = os.path.abspath(config[space_key]['checkout_dir'])
-    try:
-        os.makedirs(checkout_dir)
-    except OSError:
-        pass
-
-    cwd = os.getcwd()
-    for (key, user, repo) in sorted(space.github_repos()):
-        repo_path = os.path.join(checkout_dir, repo)
-        if os.path.exists(repo_path):
-            os.chdir(repo_path)
-            command = "git pull origin master"
-            print command
-            os.system(command)
-            os.chdir(cwd)
-        else:
-            #template = "git clone git@github.com:%s/%s.git %s"
-            template = "git clone https://github.com/%s/%s.git %s"
-            command = template % (user, repo, repo_path)
-            print command
-            os.system(command)
-
-    os.chdir(cwd)
-
-
 def project(universe, options, config):
     """Project a copy of all the files in each checkout'ed repository
     into a plain, non-version-controlled directory in
@@ -193,6 +160,12 @@ def project(universe, options, config):
 
     cwd = os.getcwd()
     for (key, user, repo) in sorted(space.github_repos()):
+
+        node = space.get(key)
+        fixed_tag = node.get('fixed-tag', None)
+        if fixed_tag == 'OMIT':
+            continue
+
         repo_path = os.path.join(checkout_dir, repo)
         os.chdir(repo_path)
         distname = get_distname(space[key])
@@ -375,7 +348,6 @@ COMMANDS = {
     'catalogue': catalogue,
     'check_releases': check_releases,
     'check_distfiles': check_distfiles,
-    'checkout': checkout,
     'project': project,
 }
 
