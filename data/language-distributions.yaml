@@ -277,6 +277,9 @@ Castile distribution:
   - version: "0.3"
     revision: "2015.0101"
     url: http://catseye.tc/distfiles/castile-0.3-2015.0101.zip
+  - version: "0.3"
+    revision: "2016.0331"
+    url: http://catseye.tc/distfiles/castile-0.3-2016.0331.zip
 
 Cfluviurrh distribution: 
   type: Distribution
