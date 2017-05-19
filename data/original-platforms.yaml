@@ -237,3 +237,6 @@ The-Cats-Eye-Technologies-Platform-0.2.img:
   - version: "0.3"
     revision: "0.0"
     url: http://catseye.tc/distfiles/the-platform-0.3.zip
+  - version: "0.4"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/the-platform-0.4.zip
