@@ -381,6 +381,9 @@ Etcha distribution:
   - version: "1.0"
     revision: "2017.0428"
     url: http://catseye.tc/distfiles/etcha-1.0-2017.0428.zip
+  - version: "1.0"
+    revision: "2017.0522"
+    url: http://catseye.tc/distfiles/etcha-1.0-2017.0522.zip
 
 Exanoke distribution: 
   type: Distribution
@@ -460,6 +463,9 @@ Gemooy distribution:
   - version: "0.1"
     revision: "2015.0828"
     url: http://catseye.tc/distfiles/gemooy-0.1-2015.0828.zip
+  - version: "0.1"
+    revision: "2017.0522"
+    url: http://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip
 
 GraNoLa/M distribution: 
   type: Distribution
