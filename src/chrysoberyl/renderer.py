@@ -543,7 +543,7 @@ class Renderer(object):
 
         @expose
         def online_buttons(key=key, show_verb_phrase=True):
-            html = ''
+            links = []
             for loc_key in sorted(online_implementations(key)):
                 mediums = self.universe.get_node(loc_key)['mediums']
                 medium = 'Online'
@@ -566,11 +566,16 @@ class Renderer(object):
                     link_text += ' ' + medium
                 else:
                     link_text = medium
-                html += link(
-                    loc_key, link_text=link_text,
-                    extra_attr='class="button" '
-                ) + ' '
-            return html
+                links.append(
+                    link(
+                        loc_key, link_text=link_text,
+                        extra_attr='class="button" '
+                    )
+                )
+            non_applet_links = [l for l in links if '(Java applet)' not in l]
+            if non_applet_links:
+                links = non_applet_links
+            return ' '.join(links)
 
         @expose
         def strip_outer_p(text):
