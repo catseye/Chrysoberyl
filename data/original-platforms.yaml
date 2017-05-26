@@ -196,7 +196,7 @@ yoob.js distribution:
   other-languages: []
   description: |
     The Cat's Eye Technologies Platform is a [[NetBSD]]-based,
-    [[toolshelf]]-powered, [[Funicular]]-built "distro" containing almost all of
+    [[shelf]]-powered, [[Funicular]]-built "distro" containing almost all of
     [[Cat's Eye Technologies]]' software distributions.
   authors:
   - Chris Pressey

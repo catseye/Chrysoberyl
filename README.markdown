@@ -191,7 +191,7 @@ Less common activities include:
 *   write out a mapping between nodes and distributions (`chrysoberyl mkdistmap`)
 
 The tool has the following requirements, which can be installed with
-`toolshelf` or `easy_install` or `pip` or whatever:
+`pip` (TODO: include a `requirements.txt` file):
 
     atomize
     jinja2
