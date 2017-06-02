@@ -73,9 +73,9 @@ yoob:
   description: |
     `yoob` is a framework for implementing esoteric programming languages
     in Java.  It aims to make it easy for a user to experiment with a large
-    number of esolangs with a minimal install burden (i.e. in a Java applet),
-    and to make it easy for designers to rapidly implement and showcase
-    their esolangs.
+    number of esolangs with a minimal install burden (i.e. in a Java Web
+    Start application), and to make it easy for designers to rapidly
+    implement and showcase their esolangs.
   authors:
   - Chris Pressey
   auspices:

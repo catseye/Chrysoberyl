@@ -338,6 +338,6 @@ Zplet:
   implementation-type: emulator
   host-language: Java
   description: |
-    Zplet is a Java applet which emulates a Z-Machine, which allows
+    Zplet is a Java application which emulates a Z-Machine, which allows
     Infocom text adventure games (and other interactive fiction and other
     things using the same format) to be played.

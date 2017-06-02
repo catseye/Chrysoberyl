@@ -283,13 +283,14 @@ Schrödinger's Game of Life:
   interactive: true
   animated: false
   mediums:
-  - Java applet
+  - Java Web Start
   - HTML5
   description: |
-    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.  This exhibit contains a Java applet
-    which implements Whothm, and lets you interactively try out Whothm programs online. The implementation is only
-    an approximation; only a small portion of the infinite drawing (a couple of hundred iterations) is rendered.  The rest is
-    left up to your imagination.
+    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.
+    This installation contains a Java application which implements Whothm, and lets you
+    interactively try out Whothm programs online, using Java Web Start. The implementation
+    is only an approximation; only a small portion of the infinite drawing (a couple of
+    hundred iterations) is rendered.  The rest is left up to your imagination.
   instructions: |
     Whothm is a simple language for describing infinite shapes. It is
     described fully in the documentation in the [[Whothm]] distribution.
@@ -353,18 +354,18 @@ Wierd (John Colagioia):
   interactive: true
   animated: true
   mediums:
-  - Java applet
+  - Java Web Start
   - HTML5
   description: |
     [[yoob]] is a public-domain framework for implementing
     [[Esolang|esoteric programming languages]], and allowing them to be
-    interactively run on programs in a Java™ applet.
+    interactively run on programs in a Java application.
     
     Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
     [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
     [[Gemooy]], [[LNUSP]], [[noit o' mnain worb]], [[PATH]], [[Qdeql]], [[Sceql]],
-    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This exhibit shows yoob in
-    action, and lets you play with all these esolangs online.
+    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This installation shows yoob in
+    action, and lets you play with all these esolangs online, using Java Web Start.
 
 'ZOWIE':
   type: Online Installation

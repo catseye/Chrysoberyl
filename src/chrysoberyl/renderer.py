@@ -549,6 +549,8 @@ class Renderer(object):
                 medium = 'Online'
                 if 'Java applet' in mediums:
                     medium = '(Java applet)'
+                if 'Java Web Start' in mediums:
+                    medium = '(Java Web Start)'
                 assert 'HTML5' in mediums, 'No good medium in ' + \
                                            ' on '.join(mediums)
                 if show_verb_phrase:

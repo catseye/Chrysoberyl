@@ -2,8 +2,7 @@
 ee:
   type: Tool
   description: |
-    `ee` is Cat's Eye Technologies' fork of `ee`, the "easy editor"
-    which comes with [[FreeBSD]].
+    `ee` is the "easy editor" which comes with [[FreeBSD]].
   development-stage: mature
   no-specification: true
 
@@ -11,9 +10,8 @@ ee distribution:
   type: Distribution
   reference: false
   description: |
-    Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
-    a Java applet.  We made it to fix some bugs and because mainline
-    development seemed stalled.
+    Cat's Eye Technologies' fork of `ee`, the "easy editor" which comes with [[FreeBSD]].
+    We forked it to allow easier bundling, namely into [[The Platform]].
   github: catseye/ee
   # this should be a release?
   fixed-tag: 1.5.2ce1
@@ -30,15 +28,15 @@ JaC64:
   implementation-type: emulator
   host-language: Java
   description: |
-    JaC64 is a Java applet which emulates a Commodore 64.  Cat's Eye Technologies
-    uses it in the Commodore 64 Gallery to showcase our Commodore 64 games.
+    JaC64 is a Java application which emulates a Commodore 64.  Cat's Eye Technologies
+    uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
 
 JaC64 distribution: 
   type: Distribution
   reference: false
   description: |
-    Cat's Eye Technologies' fork of JaC64, a Commodore 64 emulator in
-    a Java applet.  We made it to fix some bugs and because mainline
+    Cat's Eye Technologies' fork of JaC64, a Java application which
+    emulates a Commodore 64.  We forked it to fix some bugs and because mainline
     development seemed stalled.
   github: catseye/JaC64
   fixed-tag: OMIT

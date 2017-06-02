@@ -235,6 +235,25 @@ Java applet:
     description: The Java™ Virtual Machine and Language Specifications
     url: http://docs.oracle.com/javase/specs/
 
+Java Web Start:
+  type: Platform
+  specification-link: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
+  development-stage: mature
+  description: |
+    A curious contrivance wherein a computer program, written in Java, runs
+    safely within the confines of a Java interpreter, after you have clicked
+    on a link which downloads the computer program.
+  # actually, "JVM bytecode", but we can live with this fudge I'm sure
+  native-language: Java
+  other-languages: []
+  references:
+  - title: Oracle Technology Network > Java
+    description: Official website of the Java™ Platform
+    url: http://www.oracle.com/technetwork/java/index.html
+  - title: Java Specs
+    description: The Java™ Virtual Machine and Language Specifications
+    url: http://docs.oracle.com/javase/specs/
+
 HTML5:
   type: Platform
   # this'll do, for now
