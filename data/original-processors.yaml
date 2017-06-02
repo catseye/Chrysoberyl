@@ -130,6 +130,9 @@ Canvas Feedback distribution:
   - version: "1.0"
     revision: "2015.0826"
     url: http://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip
+  - version: "1.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.1.zip
 
 
 Text Uniquifier:
