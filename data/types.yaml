@@ -33,8 +33,8 @@ Genre:
     This is a list of genres with entries in [[Chrysoberyl]].
     
     This category is a little weird, because there are genres for
-    [[Programming Language|programming languages]], [[Game|games]],
-    [[Musical Composition|music]], and [[Book|books]], all mixed together here.
+    [[Programming Language|programming languages]], [[Game|games]], and
+    [[Musical Composition|music]], all mixed together here.
 Individual:
   type: type
 Organization:
@@ -47,12 +47,6 @@ Language Construct:
   type: type
 Mathematical Object:
   type: type
-Book:
-  type: type
-  description: |
-    Note that the precise distinction between a Book
-    and a [[Text]] is debatable, and entries here may be
-    categorized somewhat arbitrarily.
 Website:
   type: type
 Conlang:
@@ -211,10 +205,6 @@ Text:
     Texts. But isn't everything in [[Chrysoberyl]] a text
     of some sort?  Yes, but those are texts *about* something.
     These are texts that stand as works on their own.
-
-    Note that the precise distinction between a Text
-    and a [[Book]] is debatable, and entries here may be
-    categorized somewhat arbitrarily.
     
     Note that concrete poetry and the like may be
     categorized under Texts, or [[Picture]]s, or both.

@@ -269,45 +269,6 @@ native code:
 
 ## game stuff ##
 
-Arcade:
-  type: Platform
-  no-specification: true
-  development-stage: mature
-  # \o/ so awesome
-  native-language: native code
-  other-languages: []
-  description: |
-    This node is a stand-in for the implementation platform for
-    any coin-op arcade game, for now.
-
-Atari 2600 VCS:
-  type: Platform
-  no-specification: true
-  development-stage: vintage
-  native-language: 6502 machine code
-  other-languages: []
-  description: |
-    A home video game system of old.  You may have heard of it?
-
-Nintendo GameCube:
-  type: Platform
-  no-specification: true
-  development-stage: mature
-  native-language: native code
-  other-languages: []
-  description: |
-    A home video game system of some kind.  You may have heard of it?
-
-Sony PlayStation:
-  type: Platform
-  no-specification: true
-  development-stage: mature
-  native-language: native code
-  other-languages: []
-  description: |
-    A home video game system of old.  You may have heard of it?
-
-
 Z-Machine:
   type: Platform
   # TODO: look up spec, i'm sure it's online

@@ -112,7 +112,7 @@ A Non-Random Walk:
   inception-date: 2013
   description: |
     This is an animated version of the "non-random walk" on p. 72 of
-    [[Mathematical Circus]] by [[Martin Gardner]].
+    _Mathematical Circus_ by Martin Gardner.
   # this is partly "notes"
   instructions: |
     Pick a card, any card.  Half are red, half are black.  Each time a
