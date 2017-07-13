@@ -48,7 +48,7 @@ def overlay_yaml(filename, data):
     with open(filename) as file_:
         overlay = yaml.load(file_, Loader=Loader)
     for key in overlay:
-        assert key in data, "'%s' not in loaded data" % key
+        assert key in data, "%s: %r not in loaded data" % (filename, key)
         for subkey in overlay[key]:
-            assert subkey not in data[key], "'%s.%s' already in loaded data" % (key, subkey)
+            assert subkey not in data[key], "%s: '%s.%s' already in loaded data" % (filename, key, subkey)
             data[key][subkey] = overlay[key][subkey]
