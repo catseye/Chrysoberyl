@@ -49,8 +49,8 @@ Also, some new things done with the site since the last update:
 *   [Text](http://catseye.tc/node/Text)s are hosted on this website, too.
 
 *   Some new [Gewgaw](http://catseye.tc/node/Gewgaw)s are now installed online here:
-    *   [installation/Art Restoration Simulator](http://catseye.tc/installation/Art%20Restoration%20Simulator)
-    *   [installation/Two Fifty Six](http://catseye.tc/installation/Two%20Fifty%20Six)
+    *   [Art Restoration Simulator](http://catseye.tc/installation/Art%20Restoration%20Simulator)
+    *   [Two Fifty Six](http://catseye.tc/installation/Two%20Fifty%20Six)
 
 *   [Lexeduct](http://catseye.tc/node/Lexeduct), a result of NaPoGenMo 2015, is installed online — but not here.
     It's on [catseye.github.io](http://catseye.github.io/Lexeduct/).
@@ -121,10 +121,10 @@ Here it is:
 
 ### Matchbox, a toy race-condition finder
 
-*   summary: We present [installation/Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder.
+*   summary: We present [Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder.
 *   date: Mon, 30 Mar 2015 07:42:48 GMT
 
-We present [installation/Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder —
+We present [Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder —
 it's an analyzer for a toy [assembly](http://catseye.tc/node/Assembly)-like language that
 runs in a [web browser](http://catseye.tc/node/HTML5).  It finds all interleavings between
 two programs, runs them all on shared memory, and declares there to
@@ -139,7 +139,7 @@ the [Matchbox](http://catseye.tc/node/Matchbox) node, and the projects' [README]
 file.
 
 Two more gewgaws have been installed online since the last announcement, too;
-[installation/Black Hole Poem](http://catseye.tc/installation/Black%20Hole%20Poem) and [installation/Noise to Signal No. 1](http://catseye.tc/installation/Noise%20to%20Signal%20No.%201).
+[Black Hole Poem](http://catseye.tc/installation/Black%20Hole%20Poem) and [Noise to Signal No. 1](http://catseye.tc/installation/Noise%20to%20Signal%20No.%201).
 Enjoy.
 
 ### One way to tile the plane with Wang tiles
@@ -147,7 +147,7 @@ Enjoy.
 *   summary: One way to [tile the plane with Wang tiles](http://catseye.tc/installation/Backtracking%20Wang%20Tiler).
 *   date: Fri, 20 Feb 2015 11:08:52 GMT
 
-tl;dr [installation/Backtracking Wang Tiler](http://catseye.tc/installation/Backtracking%20Wang%20Tiler) and it's pretty to watch go.
+tl;dr [Backtracking Wang Tiler](http://catseye.tc/installation/Backtracking%20Wang%20Tiler) and it's pretty to watch go.
 
 You're probably familiar with tesselations.  Tilings, that is.  A Cartesian
 grid tiles a plane with squares, a honeycomb tiles a plane with hexagons,
@@ -345,7 +345,7 @@ some day.  But not today.
 
 ### Presenting Schrödinger's Game of Life
 
-*   summary: Presenting [installation/Schrödinger's Game of Life](http://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
+*   summary: Presenting [Schrödinger's Game of Life](http://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
 *   date: Sat, 07 Feb 2015 12:50:11 GMT
 
 We present [Schrödinger's Game of Life](http://catseye.tc/node/Schr%C3%B6dinger%27s%20Game%20of%20Life), which is exactly what it
@@ -366,12 +366,12 @@ For a full account of its development, see
 
 ### Canvas Feedback: rated T for Trippy
 
-*   summary: [installation/Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback) will blow your mind, or at least ruin your eyes.
+*   summary: [Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback) will blow your mind, or at least ruin your eyes.
 *   date: Tue, 27 Jan 2015 11:28:29 GMT
 
 Whether you get out the joss sticks and put Ravi Shankar on the stereo
 is up to you.  But either way, you should check out 
-[installation/Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback).
+[Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback).
 
 It all started while discussing the 1970's-era Doctor Who title sequence
 and the video art of [Nam June Paik](http://catseye.tc/node/Nam%20June%20Paik).  The digital era has made many
@@ -389,11 +389,11 @@ it "interactive fiction" — a text adventure game that I wrote in [Inform](http
 about fifteen years ago, is now [installed online](http://catseye.tc/installation/The%20Never-Ending%20Maze)
 as a [Java applet](http://catseye.tc/node/Java%20applet) thanks to [Zplet](http://catseye.tc/node/Zplet).
 
-If you like this, you might also like [installation/Cheshire Text](http://catseye.tc/installation/Cheshire%20Text).
+If you like this, you might also like [Cheshire Text](http://catseye.tc/installation/Cheshire%20Text).
 
 If you hate this, you might instead like two new gewgaws that have also
-been put online: [installation/Eine kleine Glitchfraktal](http://catseye.tc/installation/Eine%20kleine%20Glitchfraktal) and
-[installation/Uncle Ankur](http://catseye.tc/installation/Uncle%20Ankur).  Neither one involves any text whatsoever
+been put online: [Eine kleine Glitchfraktal](http://catseye.tc/installation/Eine%20kleine%20Glitchfraktal) and
+[Uncle Ankur](http://catseye.tc/installation/Uncle%20Ankur).  Neither one involves any text whatsoever
 (well, just a little on the control panels, maybe.)
 
 ### Version 0.2 of The Platform - now with Torrent
@@ -446,14 +446,14 @@ at your own risk.
    
 Oh!  And, um, I dusted off some [gewgaws](http://catseye.tc/node/Gewgaw) that were just languishing
 in the lab, and put them on the site.  They are, in no particular order,
-[installation/The Judgment of Paris](http://catseye.tc/installation/The%20Judgment%20of%20Paris),
-[installation/Woman on Film](http://catseye.tc/installation/Woman%20on%20Film),
-[installation/Radialjective](http://catseye.tc/installation/Radialjective), and
-[installation/Circus Xamulus](http://catseye.tc/installation/Circus%20Xamulus).
+[The Judgment of Paris](http://catseye.tc/installation/The%20Judgment%20of%20Paris),
+[Woman on Film](http://catseye.tc/installation/Woman%20on%20Film),
+[Radialjective](http://catseye.tc/installation/Radialjective), and
+[Circus Xamulus](http://catseye.tc/installation/Circus%20Xamulus).
 
-And also [installation/Cheshire Text](http://catseye.tc/installation/Cheshire%20Text), which is not a gewgaw but a text, but which
+And also [Cheshire Text](http://catseye.tc/installation/Cheshire%20Text), which is not a gewgaw but a text, but which
 was not done for NaNoGenMo, because it's not a novel.  And a
-[installation/Text Uniquifier](http://catseye.tc/installation/Text%20Uniquifier), which isn't a novel _or_ a text but
+[Text Uniquifier](http://catseye.tc/installation/Text%20Uniquifier), which isn't a novel _or_ a text but
 which _was_ done for NaNoGenMo because it's a generator, or at least a
 filter, which I've classified, provisionally, as a gewgaw.  Clear as mud, eh?
 
@@ -520,7 +520,7 @@ will have a few more surprises in it before the end of the year.
 
 But before you bemoan the barbarity of Befunge's birthday bash being a
 bit belated, ... well, nothing really, I just wanted to get some
-alliteration out of my system there.  Have fun with [installation/BefOS](http://catseye.tc/installation/BefOS).
+alliteration out of my system there.  Have fun with [BefOS](http://catseye.tc/installation/BefOS).
 
 ### Yolk, a Meta-circularly-defined Programming Language
 
@@ -621,7 +621,7 @@ So, [check it out](http://catseye.tc/node/toolshelf)!
 
 ### Music, Pictures, Texts, and Wunnel
 
-*   summary: [Music](http://catseye.tc/node/Online_Installation#music_exhibit), [Pictures](http://catseye.tc/node/Online_Installation#pictures_exhibit), [Texts](http://catseye.tc/node/Online_Installation#texts_exhibit), and [installation/Wunnel](http://catseye.tc/installation/Wunnel).
+*   summary: [Music](http://catseye.tc/node/Online_Installation#music_exhibit), [Pictures](http://catseye.tc/node/Online_Installation#pictures_exhibit), [Texts](http://catseye.tc/node/Online_Installation#texts_exhibit), and [Wunnel](http://catseye.tc/installation/Wunnel).
 *   date: Mon, 26 May 2014 15:37:50 GMT
 
 The [Online Gallery](http://catseye.tc/node/Online%20Installation) has had an overhaul since
@@ -665,7 +665,7 @@ the BBC ran [this article](http://www.bbc.co.uk/news/business-26613909)?)
 
 ### De-pict-sly: Pixley and Etcha in HTML5
 
-*   summary: [installation/Pixley](http://catseye.tc/installation/Pixley) and [installation/Etcha](http://catseye.tc/installation/Etcha) are now online.
+*   summary: [Pixley](http://catseye.tc/installation/Pixley) and [Etcha](http://catseye.tc/installation/Etcha) are now online.
 *   date: Sat, 11 Jan 2014 14:44:17 GMT
 
 We present, just below, the [Pixley](http://catseye.tc/node/Pixley) reference interpreter (that is,
@@ -673,7 +673,7 @@ the one that's written meta-circularly in Pixley itself)
 depicted as a set of nested, coloured rectangles.  Looks a bit like
 an [integrated circuit](http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside),
 perhaps, except without the wires.  I'll leave it to you to decide if this
-is unsurprising or not.  You can see this and more in [installation/Pixley](http://catseye.tc/installation/Pixley).
+is unsurprising or not.  You can see this and more in [Pixley](http://catseye.tc/installation/Pixley).
 
 ![Pixley Interpreter as nested rectangles](http://catseye.tc/images/generated/Pixley.png)
 
@@ -681,7 +681,7 @@ But that's not all!  We also present what happens when you run
 that one [Etcha](http://catseye.tc/node/Etcha) example program over and over again.  Looks a bit like
 a pattern produced by [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant),
 and perhaps that is no surprise at all.  You can try this, and any other
-Etcha program you care to concoct, yourself in [installation/Etcha](http://catseye.tc/installation/Etcha).
+Etcha program you care to concoct, yourself in [Etcha](http://catseye.tc/installation/Etcha).
 
 ![An Etcha program state after many repetitions](http://catseye.tc/images/generated/Etcha.png)
 
@@ -848,14 +848,14 @@ materials (scripts, tests) have also been cleaned up.
 *   date: Sun, 13 Oct 2013 02:27:17 GMT
 
 Two new HTML5 gewgaws in the [Gallery](http://catseye.tc/node/Online%20Installation):
-[installation/Chzrxl](http://catseye.tc/installation/Chzrxl) and [installation/Multicolouralism](http://catseye.tc/installation/Multicolouralism).
+[Chzrxl](http://catseye.tc/installation/Chzrxl) and [Multicolouralism](http://catseye.tc/installation/Multicolouralism).
 
 Also, the public-domain gewgaws are now kept in
 [a repository on Github](https://github.com/catseye/HTML5-Gewgaws)
 with
 [a mirror on Bitbucket](https://bitbucket.org/catseye/html5-gewgaws).
 
-Also, the esolang [installation/ZOWIE](http://catseye.tc/installation/ZOWIE) is now runnable online.
+Also, the esolang [ZOWIE](http://catseye.tc/installation/ZOWIE) is now runnable online.
 Unlike previous online esolang implementations, this one didn't involve
 re-implementing ZOWIE in [Javascript](http://catseye.tc/node/Javascript).  Instead, the ZOWIE reference
 interpreter, written in [Python](http://catseye.tc/node/Python), is running under [Skulpt](http://catseye.tc/node/Skulpt) on that
@@ -955,8 +955,8 @@ by tossing a quarter into
 
 It's about time!  You can now play with Cat's Eye Technologies'
 cellular automata in your web browser on the following pages:
-[installation/REDGREEN](http://catseye.tc/installation/REDGREEN), [installation/Circute](http://catseye.tc/installation/Circute), [installation/Braktif](http://catseye.tc/installation/Braktif),
-[installation/Jaccia](http://catseye.tc/installation/Jaccia), and [installation/Jacciata](http://catseye.tc/installation/Jacciata).
+[REDGREEN](http://catseye.tc/installation/REDGREEN), [Circute](http://catseye.tc/installation/Circute), [Braktif](http://catseye.tc/installation/Braktif),
+[Jaccia](http://catseye.tc/installation/Jaccia), and [Jacciata](http://catseye.tc/installation/Jacciata).
 
 I've wanted to be able to generate some kind of usable-in-a-web-browser
 code from [ALPACA](http://catseye.tc/node/ALPACA) descriptions for a good long while.  At one point
@@ -971,8 +971,8 @@ speed, which is kind of crude and subject to change anyway.)
 
 The few improvements to yoob.js that were spurred on by this effort to
 get these CA's online have also resulted in improvements to the
-online installations of [installation/Gemooy](http://catseye.tc/installation/Gemooy) and
-[installation/noit o' mnain worb](http://catseye.tc/installation/noit%20o%27%20mnain%20worb).
+online installations of [Gemooy](http://catseye.tc/installation/Gemooy) and
+[noit o' mnain worb](http://catseye.tc/installation/noit%20o%27%20mnain%20worb).
 
 ### noit o' mnain worb implemented in HTML5
 
@@ -1012,7 +1012,7 @@ more it will mature.
 
 [Super Wumpus Land](http://catseye.tc/node/Super%20Wumpus%20Land), our silly "extended dance mix" version of
 [Hunt the Wumpus](http://catseye.tc/node/Hunt%20the%20Wumpus), has been converted to [Javascript](http://catseye.tc/node/Javascript), and is now
-playable online here: [installation/Super Wumpus Land](http://catseye.tc/installation/Super%20Wumpus%20Land).
+playable online here: [Super Wumpus Land](http://catseye.tc/installation/Super%20Wumpus%20Land).
 
 This new implementation uses modules from [yoob.js](http://catseye.tc/node/yoob.js) to simulate
 a text-based terminal on an [HTML5](http://catseye.tc/node/HTML5) `<canvas>` element.
