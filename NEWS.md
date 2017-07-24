@@ -2,6 +2,7 @@
 
 *   author: Chris Pressey
 *   url: http://catseye.tc/news.xml
+*   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
 ### Dropped support for Mercurial repos on Bitbucket
 
@@ -31,7 +32,6 @@ a catch-up update sometime in the near future.
 
 ### RetroChallenge July 2015, and other updates
 
-*   summary: RetroChallenge 2015/07, and other updates.
 *   date: Tue, 30 Jun 2015 17:13:24 GMT
 
 We've decided to enter [RetroChallenge 2015/07](http://www.wickensonline.co.uk/retrochallenge-2012sc/).
