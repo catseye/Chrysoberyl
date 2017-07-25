@@ -271,6 +271,12 @@ class Renderer(object):
                 return True
             return f
 
+        # wow, quite the hack
+        @expose
+        def include_snippet(filename):
+            with open(filename, 'r') as f:
+                return f.read()
+
         @expose
         def has_online_implementation_p():
             def f(key, node):

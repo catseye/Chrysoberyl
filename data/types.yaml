@@ -6,12 +6,6 @@ Disambiguation node:
   type: type
 
 # presentedy things:
-Article:
-  type: type
-  description: |
-    The latest announcements and articles from [[Cat's Eye Technologies]].
-    Note that these are also available in an
-    <a class="rss" href="http://catseye.tc/feeds/atom_30_news.xml">Atom feed</a>.
 Online Installation:
   type: type
   description: |
