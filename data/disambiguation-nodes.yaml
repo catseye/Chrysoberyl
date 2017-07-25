@@ -42,7 +42,7 @@ Article:
   links:
   - https://github.com/catseye/The-Dossier/
   - http://catseye.tc/feeds/atom_30_news.xml
-  - https://github.com/catseye/Chrysoberyl/NEWS.md
+  - https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
 Book:
   type: Disambiguation node
