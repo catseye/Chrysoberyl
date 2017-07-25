@@ -1,7 +1,7 @@
 # Cat's Eye Technologies: New Developments
 
 *   author: Chris Pressey
-*   url: http://catseye.tc/news.xml
+*   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
 ### Dropped support for Mercurial repos on Bitbucket
