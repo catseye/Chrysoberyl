@@ -4,6 +4,65 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
+### This feed has been rewritten in Feedmark
+
+*   summary: [This feed](https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md) has been rewritten in [Feedmark](https://github.com/catseye/Feedmark).
+*   date: Tue, 25 Jul 2017 11:49:24 GMT
+
+This feed has been rewritten in Feedmark.  I'll get to what that means
+in a moment, but first I'll need to go through some history, for context.
+
+[Chrysoberyl](https://github.com/catseye/Chrysoberyl/) was built to try to address two closely-related problems:
+
+*   curate Cat's Eye Technologies' output, and
+*   populate the content of the [Cat's Eye Technologies web site](http://catseye.tc/).
+
+Before Chrysoberyl, the content of the website was split up into projects and "About Such-and-Such Topic"
+documents.  I wanted something that put everything on the same level, and flexibly so.
+
+So Chrysoberyl has "nodes" and each node can be anything and can have any properties (but some of them are
+statically checked.)  And to take place of "About" documents, "commentary" can be attached to any node.
+
+This worked well in many ways.  But two things crept in over time:
+
+*   lots of nodes that are only indirectly related to Cat's Eye Technologies that are present only for
+    incidental reasons, for example because I wanted to comment on them, or because they are related to
+    something that is related to Cat's Eye Technologies, and
+*   nodes that *contain* content instead of *representing* it (i.e. data instead of metadata),
+    for example news articles, or indeed nodes that only exist to be commented on.
+
+That is, sometimes want to present information in a narrative context, but simply attaching commentary to
+nodes seems to do a poor job of that.
+
+So I've begun presenting the information narratively, and extracting the curational information from that
+instead.   This has been happening in [The Dossier](https://github.com/catseye/The-Dossier), which is a set
+of articles, written in Markdown, on various "curational" topics that didn't quite belong in Chrysoberyl.
+
+But these writings are not entirely free-form prose.  Embedded in the Markdown, there is metadata about the
+subjects being discussed.  And since these subjects are specific, well-defined things, this metadata
+can be written in a machine-extractable form.  And is.  To this end, we created the
+[Feedmark](https://github.com/catseye/Feedmark) file format to define this embedded information.
+
+And if we have a defined format, we can build tools to work with it.
+
+And one of the things the reference implementation of Feedmark can do, so far, is generate an Atom XML feed
+from the metadata it has extracted a Markdown file.
+
+And in fact, that's what you're reading right now!
+
+This wasn't entirely intentional, as Feedmark entries are not necessarily meant to be dated and ordered
+like a news feed is, but it makes sense when you think about it: Is a news feed not a sort of curational
+document?
+
+And there are some nice benefits to it.  As well as letting me remove stuff that doesn't quite belong
+in Chrysoberyl, it also makes it easier to update the newsfeed.  Editing Markdown
+is easier than editing YAML, and various services (such as Github) can seamlessly format it into
+something passable (not spectacular, but certainly nicer than how they present YAML, and with virtually
+no effort.)
+
+And since it is easier to edit, there is a greater chance of me actually updating it.  Which I will try
+to do, again, soon.
+
 ### Dropped support for Mercurial repos on Bitbucket
 
 *   summary: Dropped support for our mirror repos on [Bitbucket](https://bitbucket.org/catseye/).
