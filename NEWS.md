@@ -46,7 +46,7 @@ can be written in a machine-extractable form.  And is.  To this end, we created 
 And if we have a defined format, we can build tools to work with it.
 
 And one of the things the reference implementation of Feedmark can do, so far, is generate an Atom XML feed
-from the metadata it has extracted a Markdown file.
+from the metadata it has extracted from a Markdown file.
 
 And in fact, that's what you're reading right now!
 
