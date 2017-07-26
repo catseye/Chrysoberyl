@@ -4,6 +4,47 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
+### Release of version 0.4 of The Platform
+
+*   summary: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
+*   date: none yet
+
+On May 19, 2017, version 0.4 of [The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) was released.
+
+Since it is July already, this is an overdue announcement.
+Indeed, 0.3 was released on April 2, 2016, and that version was never announced at all —
+but we can gloss over that for the moment, as the improvements in that version were
+[fairly modest](https://github.com/catseye/The-Platform/tree/0.3#history).
+
+But version 0.4, despite still being based on NetBSD 6.1.5, is quite a quantum leap, you see,
+quite a sea change.  So it deserves an update, even if belated.
+
+It goes like this.
+
+After years of breaking it in, [toolshelf](http://catseye.tc/node/toolshelf) was working well
+for me — I had grown quite used to eating my own dogfood — but it was failing in one spectacular
+way: it was making building of The Platform quite awkward.  In order to run `toolshelf`, you need
+Python 2, so you need to build that first.  Which would not be a problem if `toolshelf` was
+already installed, you could just dock and build it under toolshelf, but yes, you see the
+chicken-and-egg problem here, I don't have to spell it out for you.
+
+So my solution was: rewrite toolshelf so that it can run immediately on a stock NetBSD install.
+That meant it would need to be written in something that comes with NetBSD.  Which in turn meant
+either Lua, or Bourne shell.  After some debate, I picked Bourne shell.  Developing software in
+Bourne shell is kind of brutal, compared to Lua, but on the other hand, it's quite well suited
+for dealing with filesystem and environment things, the kind of things that toolshelf does a
+lot of, and for which Lua, with its aim of portability and embeddability, is not very well suited.
+
+The result is [shelf](https://github.com/catseye/shelf).  It is nowhere near as sophisticated as
+toolshelf was, but it does enough that I now use it regularly (and don't use toolshelf at all
+anymore) and enough for version 0.4 of The Platform to be based on it instead.
+
+TODO: also talk about Funicular
+
+You can download a pre-built image of The Platform from this torrent:
+
+*   [The-Cats-Eye-Technologies-Platform-0.4.torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent)
+
 ### This feed has been rewritten in Feedmark
 
 *   summary: [This feed](https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md) has been rewritten in [Feedmark](https://github.com/catseye/Feedmark).
