@@ -41,6 +41,36 @@ anymore) and enough for version 0.4 of The Platform to be based on it instead.
 
 TODO: also talk about Funicular
 
+The following new distributions were also added to The Platform since 0.2.  These might have each
+their own belated announcement in the near future, but for now, here they are:
+
+*   Beatnik (Cat's Eye Technologies' Beatnik distribution)
+*   Canvas Feedback
+*   Guten-gutter
+*   hatoucan
+*   kinoje
+*   Lexeduct (not that it can be run under The Platform, being node.js)
+*   MARYSUE
+*   Matchbox
+*   Maxixe
+*   Samovar
+*   Schroedinger's Game of Life
+*   seedbank
+*   shelf
+*   SITU-SOL
+*   The Dossier
+*   The New Gamerly Realism
+*   T-Rext
+*   Wang Tilers
+
+The following distributions were also updated since 0.2: ALPACA, BefOS, Braktif, Bubble Escape,
+Circute, Dungeons of Ekileugor (not that you can run it under The Platform, but you can build
+it there now,) Etcha, Exanoke, Falderal, FBBI, Funge-98 (which is the spec only), Funicular,
+Gemooy, Hev, Iphigeneia, Jaccia and Jacciata, Kosheri, noit o' mnain worb, Pail, Pixley,
+PL-{GOTO}.NET, Quylthulg, REDGREEN, Sixtypical, Super Wumpus Land, Tamsin, Thue (Cat's Eye
+Technologies' distribution), Whothm, Wierd (Cat's Eye Technologies' distribution), Wunnel,
+yoob.js and yoob (not that they are of any use here etc.), and finally Zzrk.
+
 You can download a pre-built image of The Platform from this torrent:
 
 *   [The-Cats-Eye-Technologies-Platform-0.4.torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent)
