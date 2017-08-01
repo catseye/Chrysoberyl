@@ -7,11 +7,11 @@
 ### Release of version 0.4 of The Platform
 
 *   summary: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
-*   date: none yet
+*   date: Tue, 01 Aug 2017 08:12:12 GMT
 
 On May 19, 2017, version 0.4 of [The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) was released.
 
-Since it is July already, this is an overdue announcement.
+Since it is August already, this is an overdue announcement.
 Indeed, 0.3 was released on April 2, 2016, and that version was never announced at all —
 but we can gloss over that for the moment, as the improvements in that version were
 [fairly modest](https://github.com/catseye/The-Platform/tree/0.3#history).
@@ -23,14 +23,15 @@ It goes like this.
 
 After years of breaking it in, [toolshelf](http://catseye.tc/node/toolshelf) was working well
 for me — I had grown quite used to eating my own dogfood — but it was failing in one spectacular
-way: it was making building of The Platform quite awkward.  In order to run `toolshelf`, you need
-Python 2, so you need to build that first.  Which would not be a problem if `toolshelf` was
-already installed, you could just dock and build it under toolshelf, but yes, you see the
-chicken-and-egg problem here, I don't have to spell it out for you.
+way: it was making building The Platform kind of awkward.  In order to run `toolshelf`, you need
+Python 2, which is not a part of NetBSD, so you need to build it first.  This would not be a
+problem if `toolshelf` was already installed, you could just dock and build Python under toolshelf,
+I've done that before, but yes, you see the chicken-and-egg problem here, I don't have to spell it
+out for you.
 
 So my solution was: rewrite toolshelf so that it can run immediately on a stock NetBSD install.
 That meant it would need to be written in something that comes with NetBSD.  Which in turn meant
-either Lua, or Bourne shell.  After some debate, I picked Bourne shell.  Developing software in
+either Lua or Bourne shell.  After some debate, I picked Bourne shell.  Developing software in
 Bourne shell is kind of brutal, compared to Lua, but on the other hand, it's quite well suited
 for dealing with filesystem and environment things, the kind of things that toolshelf does a
 lot of, and for which Lua, with its aim of portability and embeddability, is not very well suited.
@@ -39,37 +40,43 @@ The result is [shelf](https://github.com/catseye/shelf).  It is nowhere near as 
 toolshelf was, but it does enough that I now use it regularly (and don't use toolshelf at all
 anymore) and enough for version 0.4 of The Platform to be based on it instead.
 
-TODO: also talk about Funicular
+A similar thing happened with [Funicular](http://catseye.tc/node/Funicular), the vaguely
+Vagrant-like tool that is used to build The Platform on top of a NetBSD system image in the
+first place.  Funicular already was written in Lua, but, like toolshelf, Funicular does a lot
+of filesystem manipulation, and Lua is simply not as good at that as something like Bourne
+shell is, and what I had written I found to be poorly-structured and basically unattractive.
+So it, too, I re-wrote in Bourne shell, and cleaned up a bit in the process.
 
-The following new distributions were also added to The Platform since 0.2.  These might have each
-their own belated announcement in the near future, but for now, here they are:
+As for the actual contents of The Platform, the following new distributions were added to it
+since 0.2.  These might have each their own belated announcement in the near future, but for
+now, here they are:
 
-*   Beatnik (Cat's Eye Technologies' Beatnik distribution)
-*   Canvas Feedback
-*   Guten-gutter
-*   hatoucan
-*   kinoje
-*   Lexeduct (not that it can be run under The Platform, being node.js)
-*   MARYSUE
-*   Matchbox
-*   Maxixe
-*   Samovar
-*   Schroedinger's Game of Life
-*   seedbank
-*   shelf
-*   SITU-SOL
-*   The Dossier
-*   The New Gamerly Realism
-*   T-Rext
-*   Wang Tilers
+*   [Beatnik](https://github.com/catseye/Beatnik) (Cat's Eye Technologies' Beatnik distribution)
+*   [Canvas Feedback](http://catseye.tc/node/Canvas_Feedback)
+*   [Guten-gutter](https://github.com/catseye/Guten-gutter)
+*   [hatoucan](http://catseye.tc/node/hatoucan)
+*   [kinoje](http://catseye.tc/node/kinoje)
+*   [Lexeduct](http://catseye.tc/node/Lexeduct)
+*   [MARYSUE](http://catseye.tc/node/MARYSUE)
+*   [Matchbox](http://catseye.tc/node/Matchbox)
+*   [Maxixe](http://catseye.tc/node/Maxixe)
+*   [Samovar](http://catseye.tc/node/Samovar)
+*   [Schrödinger's Game of Life](http://catseye.tc/node/Schr%C3%B6dinger's_Game_of_Life)
+*   [seedbank](https://github.com/catseye/seedbank)
+*   [SITU-SOL](http://catseye.tc/node/SITU-SOL)
+*   [The Dossier](https://github.com/catseye/The-Dossier)
+*   [The New Gamerly Realism](http://catseye.tc/node/The_New_Gamerly_Realism)
+*   [T-Rext](https://github.com/catseye/T-Rext)
+*   [Wang Tilers](http://catseye.tc/node/Backtracking_Wang_Tiler)
 
-The following distributions were also updated since 0.2: ALPACA, BefOS, Braktif, Bubble Escape,
-Circute, Dungeons of Ekileugor (not that you can run it under The Platform, but you can build
-it there now,) Etcha, Exanoke, Falderal, FBBI, Funge-98 (which is the spec only), Funicular,
+Many of these are also online, so you may find it worthwhile to follow some of those links.
+
+The following distributions also suffered updates since 0.2, mostly very minor ones: ALPACA,
+BefOS, Braktif, Bubble Escape, Circute, Dungeons of Ekileugor, Etcha, Exanoke, Falderal, FBBI,
 Gemooy, Hev, Iphigeneia, Jaccia and Jacciata, Kosheri, noit o' mnain worb, Pail, Pixley,
 PL-{GOTO}.NET, Quylthulg, REDGREEN, Sixtypical, Super Wumpus Land, Tamsin, Thue (Cat's Eye
 Technologies' distribution), Whothm, Wierd (Cat's Eye Technologies' distribution), Wunnel,
-yoob.js and yoob (not that they are of any use here etc.), and finally Zzrk.
+yoob.js and yoob and finally Zzrk.
 
 You can download a pre-built image of The Platform from this torrent:
 
