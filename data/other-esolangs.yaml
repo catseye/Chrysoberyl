@@ -23,7 +23,7 @@ Beatnik:
   - Imperative
   # it's not TC; it might be PDA-complete, but at the very least, it
   computational-class: can simulate some push-down automata
-  esowiki: BitChanger
+  esowiki: Beatnik
   influences:
   - brainfuck
   authors:
@@ -35,6 +35,8 @@ beatnik.py:
   type: Implementation
   implementation-of:
   - Beatnik
+  authors:
+  - Chris Pressey
   in-distribution: Beatnik distribution
   reference: false
   license: Public Domain
