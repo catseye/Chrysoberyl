@@ -635,6 +635,10 @@ shelf distribution:
   - version: "0.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/shelf-0.1.zip
+  releases: 
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/shelf-0.2.zip
 
 
 SITU-MON: 
