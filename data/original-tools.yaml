@@ -244,6 +244,37 @@ Falderal distribution:
     url: http://catseye.tc/distfiles/falderal-0.11.zip
 
 
+Feedmark: 
+  # no, it's not a tool, it's a format.  so is Falderal.
+  type: Tool
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    Feedmark is a file format for embedding curational information in Markdown.
+  inception-date: 2017
+  development-stage: work in progress
+
+feedmark (Python):
+  type: Implementation
+  implementation-of:
+  - Feedmark
+  reference: true
+  in-distribution: Feedmark distribution
+  generally-recommended: true
+  license: Public Domain
+  host-language: Python
+
+Feedmark distribution: 
+  type: Distribution
+  github: catseye/Feedmark
+  releases: 
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/feedmark-0.1.zip
+
+
 Funicular:
   type: Tool
   summary: Scripts to set up dev environments on various OS'es on sundry architectures
