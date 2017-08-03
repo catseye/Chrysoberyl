@@ -183,7 +183,6 @@ can do include:
 *   render Jinja2 templates with the data (one file per node) and
     dump all nodes to a single JSON file (`chrysoberyl render`)
 *   render all nodes to a JSON blob (`chrysoberyl jsonify`)
-*   write out an Atom news feed (`chrysoberyl announce`)
 
 Less common activities include:
 
@@ -193,7 +192,6 @@ Less common activities include:
 The tool has the following requirements, which can be installed with
 `pip` (TODO: include a `requirements.txt` file):
 
-    atomize
     jinja2
     markdown
     PyYaml

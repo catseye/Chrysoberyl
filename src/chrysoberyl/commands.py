@@ -12,7 +12,6 @@ import re
 import sys
 
 from chrysoberyl.checker import check_chrysoberyl_data
-from chrysoberyl.feed import make_news_feed
 from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_config, overlay_yaml
 )
@@ -82,18 +81,6 @@ def jsonify(universe, options, config):
     with codecs.open(filename, 'w', 'utf-8') as file:
         json.dump(transform_dates(json_data), file, encoding='utf-8',
                   default=unicode)
-
-
-def announce(universe, options, config):
-    """Create news feeds from news item nodes in Chrysoberyl.
-
-    """
-    space = universe['node']  # FIXME hardcoded
-    space.convert_chrysoberyl_data()
-    feed_dir = config['node']['feed_dir']
-    make_news_feed(universe, space, feed_dir, 'atom_15_news.xml', limit=15)
-    make_news_feed(universe, space, feed_dir, 'atom_30_news.xml', limit=30)
-    make_news_feed(universe, space, feed_dir, 'atom_all_news.xml')
 
 
 def catalogue(universe, options, config):
@@ -343,7 +330,6 @@ def check_distfiles(universe, options, config):
 COMMANDS = {
     'render': render,
     'jsonify': jsonify,
-    'announce': announce,
     'mkdistmap': mkdistmap,
     'catalogue': catalogue,
     'check_releases': check_releases,
