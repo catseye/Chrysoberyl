@@ -269,6 +269,7 @@ feedmark (Python):
 Feedmark distribution: 
   type: Distribution
   github: catseye/Feedmark
+  tag-style: new
   releases: 
   - version: "0.1"
     revision: "0.0"
