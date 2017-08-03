@@ -6,7 +6,7 @@
 
 ### Release of version 0.4 of The Platform
 
-*   summary: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
+*   summary: Belated: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
 *   date: Tue, 01 Aug 2017 08:12:12 GMT
 
 On May 19, 2017, version 0.4 of [The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) was released.
