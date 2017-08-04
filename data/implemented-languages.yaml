@@ -270,6 +270,7 @@ stringie:
   type: Implementation
   implementation-of:
   - Underload
+  in-distribution: stringie distribution
   reference: false
   license: Public Domain
   host-language: ANSI C
@@ -278,8 +279,6 @@ stringie:
   - Chris Pressey
   auspices:
   - Cat's Eye Technologies
-  file-locations:
-  - http://esoteric.voxelperfect.net/svn/esofiles/underload/impl/stringie.c
 
 
 VALGOL:

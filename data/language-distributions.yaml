@@ -1115,6 +1115,11 @@ Strelnokoff distribution:
     revision: "2014.0819"
     url: http://catseye.tc/distfiles/strelnokoff-1.0-2014.0819.zip
 
+stringie distribution: 
+  type: Distribution
+  github: catseye/stringie
+  releases: []
+
 Tamsin distribution: 
   type: Distribution
   github: catseye/Tamsin
