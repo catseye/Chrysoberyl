@@ -1440,8 +1440,8 @@ disadvantages, too.  Namely, it's becoming a pain to update.
 
 Meanwhile, we've been putting more and more of our
 projects under distributed version control.  We tend to use
-[Mercurial](http://mercurial.selenic.com/) but
-[hg-git](http://mercurial.selenic.com/wiki/HgGit)
+[Mercurial](https://www.mercurial-scm.org/) but
+[hg-git](https://www.mercurial-scm.org/wiki/HgGit)
 provides a fairly seamless bridge to [git](http://git-scm.com/)
 repositories, too.  And then there's these sites that host such repositories
 for you, [Bitbucket](https://bitbucket.org/)
@@ -2445,7 +2445,7 @@ Most significantly, a project has been added for
 Zzrk, a text adventure
 game written in a meta-language intended for building compilers (Zz).
 
-I also brought [GraNoLa/M](http://catseye.tc/node/GraNoLa/M) and [SP\ASM](http://catseye.tc/node/SP_ASM)
+I also brought [GraNoLa/M](http://catseye.tc/node/GraNoLa_M) and [SP\ASM](http://catseye.tc/node/SP_ASM)
 out of those dusty ol' boxes in the attic and added them to the line-up.
 
 [REDGREEN](http://catseye.tc/node/REDGREEN), [Braktif](http://catseye.tc/node/Braktif), and [Circute](http://catseye.tc/node/Circute)
