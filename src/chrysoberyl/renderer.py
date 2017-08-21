@@ -64,6 +64,9 @@ class Loader(BaseLoader):
         return source, found_path, lambda: True
 
 
+CACHE = {}   # of related items
+
+
 class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
@@ -287,7 +290,13 @@ class Renderer(object):
 
         @expose
         def related_items(relationship, key=key, filter=None):
-            return self.space.related_items(relationship, key, filter=filter)
+            if filter is None:
+                cache_key = relationship + ':' + key
+                if cache_key not in CACHE:
+                    CACHE[cache_key] = list(  self.space.related_items(relationship, key, filter=None)  )
+                return CACHE[cache_key]
+            else:
+                return self.space.related_items(relationship, key, filter=filter)
 
         # maybe will be deprecated: use related_items instead
         @expose
