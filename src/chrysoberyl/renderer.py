@@ -69,7 +69,7 @@ class Renderer(object):
 
     """
     def __init__(self, universe, space, template_dirs, output_dir, checkout_dir,
-                 projection_dir, sleek_node_links, render_nodes):
+                 projection_dir, sleek_node_links, render_nodes, link_priority):
         self.universe = universe
         self.space = space
         self.template_dirs = template_dirs
@@ -80,6 +80,7 @@ class Renderer(object):
         self.sleek_node_links = sleek_node_links
         self.render_nodes = render_nodes
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
+        self.link_priority = link_priority
 
     def render(self, template, output_filename, context):
         """Low-level method to render a given template."""
@@ -174,7 +175,8 @@ class Renderer(object):
             else:
                 return markdown_contents(
                     self.universe, field_contents, prefix=prefix,
-                    sleek=self.sleek_node_links
+                    sleek=self.sleek_node_links,
+                    link_priority=self.link_priority,
                 )
 
         @expose
@@ -489,6 +491,8 @@ class Renderer(object):
             divert to a different node.
 
             """
+            if key in self.link_priority:
+                return u'<a href="{}">{}</a>'.format(self.link_priority[key], key)
             if link_text is None:
                 (_, ukey, _) = self.universe.get_space_key_node(key)
                 link_text = ukey

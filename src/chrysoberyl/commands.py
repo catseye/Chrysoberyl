@@ -64,6 +64,7 @@ def render(universe, options, config):
             config[space.name]['projection_dir'],
             options.sleek_node_links,
             options.render_nodes,
+            config[space.name].get('link_priority', {}),
         )
         r.render_chrysoberyl_data()
 

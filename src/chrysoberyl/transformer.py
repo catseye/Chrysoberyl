@@ -63,13 +63,15 @@ def link(universe, key, link_text, title=None, sleek=False, extra_attr='', prefi
     )
 
 
-def markdown_contents(universe, contents, prefix='../', sleek=False):
+def markdown_contents(universe, contents, link_priority, prefix='../', sleek=False):
     """Convert the contents of a field containing markdown and Chrysoberyl
     cross-references (indicated with [[double brackets]]) into HTML.
 
     """
     def linker(match):
         text = match.group(1)
+        if text in link_priority:
+            return '<a href="{}">{}</a>'.format(link_priority[text], text)
         segments = text.split('|')
         if len(segments) == 1:
             (_, ukey, _) = universe.get_space_key_node(segments[0])
@@ -82,10 +84,10 @@ def markdown_contents(universe, contents, prefix='../', sleek=False):
     return html
 
 
-def markdown_field(universe, data, node, field, prefix='../', sleek=False):
+def markdown_field(universe, data, node, field, link_priority, prefix='../', sleek=False):
     if field in node:
         return markdown_contents(
-            universe, node[field], prefix=prefix, sleek=sleek
+            universe, node[field], link_priority, prefix=prefix, sleek=sleek,
         )
     else:
         return None
