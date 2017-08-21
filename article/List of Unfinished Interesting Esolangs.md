@@ -1,6 +1,24 @@
 List of Unfinished Interesting Esolangs
 =======================================
 
+*   summary: A list of "open problems" in esoteric programming language design
+
+Here are some designs for [esoteric programming languages][]
+that I've worked on, but which have turned out to be a bit resistant to
+joining the ranks of [the completed][].  You
+could describe them as "open problems" in esolang design — but that would
+suggest that the completed designs would be "solutions" to something.  (Ha!)
+
+I've disseminated what little I have for these designs here because it looks
+unlikely that I'll have the time and resources to complete them in the near
+future, and I am a gracious individual who wouldn't want to hoard these
+potentially beautiful things.
+
+If you would like to continue the work on any of these designs, feel free.
+Of course, if you do manage to complete something based on one of them,
+I would appreciate being given some credit (since you are a gracious
+individual as well, right?)
+
 ### AINSNIA
 
 *   type: Programming Language
@@ -738,3 +756,5 @@ Naturally, you can also create new YO_DAWG objects.
 [Unlikely]: http://catseye.tc/node/Unlikely
 [ZOWIE]: http://catseye.tc/node/ZOWIE
 [brainfuck]: http://esolangs.org/wiki/brainfuck
+[esoteric programming languages]: http://esolangs.org/
+[the completed]: http://catseye.tc/node/Chris%20Pressey%27s%20Lingography
