@@ -13,7 +13,7 @@ List of Unfinished Interesting Esolangs
 *   no-specification: true
 *   summary: fundamentally based on sets
 
-When I first heard of [[SETL]], the "SET Language",
+When I first heard of [SETL][], the "SET Language",
 I was intrigued, but when I looked into it, I found it just wasn't
 based on sets fundamentally enough for my taste.
 
@@ -22,7 +22,7 @@ functions take sets, return sets, and are built up *from* sets.
 The key idea to achieve this is encode ordered pairs (_a_,_b_) as
 Kuratowski pairs {{_a_}, {_a_,_b_}}.
 
-This could probably be put into a [[Scheme]]-like framework. Instead of
+This could probably be put into a [Scheme][]-like framework. Instead of
 (ordered) s-expressions, you have (unordered) set-expressions. So
 instead of `(list 1 2 3)` you have `(set 1 2 3)`. But actually this
 should be at the lowest level, so that `(quote (1 2 3))` is a set. You would
@@ -95,7 +95,7 @@ logic programming — and is that not still an interesting question?
 This thing's terminally undesigned.  I started thinking about
 it in the late nineties — possibly as early as 1998 — in Winnipeg.
 
-The challenge is to design a 2-dimensional language similar to [[Befunge-93]],
+The challenge is to design a 2-dimensional language similar to [Befunge-93][],
 except where each instruction is is composed, not of a single symbol, but of a 2×2 square of
 symbols.  As in Befunge, the IP should move at a rate of one cell per tick, and that
 means that each executed instruction must in general share two symbols with the
@@ -116,7 +116,7 @@ a sufficiently "sweet" combination of instructions: one which will allow the ins
 overlapped, while also having the instructions manipulate the state of the program in
 useful and interesting and non-trivial ways.
 
-It would be very tempting to just riff on [[brainfuck]] and have a tape,
+It would be very tempting to just riff on [brainfuck][] and have a tape,
 instructions that increment and decrement the current cell on that tape,
 and instructions that move back and forth on the tape.  But I think that's a bit boring.
 Ideally, each instruction would affect *several* different bits of state
@@ -183,7 +183,7 @@ defined: some subset of the instructions allows constructing a new graph (by cre
 empty graph in some kind of "graph accumulator", adding nodes and edges, etc);
 newly assembled graphs can be executed via some kind of "eval" instruction; and
 newly assembled graphs *must* be executed, in a "quining" fashion,
-in order to enact repetition, a la [[Muriel]].
+in order to enact repetition, a la [Muriel][].
 
 Since new graphs would then be continually being generated, perhaps in
 chaotic and undecidable ways, the ability of an implementation to recognize and
@@ -243,7 +243,7 @@ how the explode phase was supposed to work.  Whatever it was, it
 would need to position the points far apart, based on their last
 shrink-phase configuration, in order to be interesting.  Extremely far
 apart, like exponentially so, would be best.  Even then, it's
-not clear if it would be possible to make this system [[Turing-complete]].
+not clear if it would be possible to make this system [Turing-complete][].
 With 5 points, you do have 10 unbounded counters at your disposal —
 although your only real operation in the shrink-phase is something
 akin to division by two...
@@ -260,7 +260,7 @@ akin to division by two...
 *   summary: memory mapped, but where?
 *   inception-date: ca Sep 2009
 
-In the vein of [[ZOWIE]], some operation critical to [[Turing-complete]]ness,
+In the vein of [ZOWIE][], some operation critical to [Turing-complete][]ness,
 like control flow, is memory-mapped.  The twist is, you don't know where.  It could be any memory location
 (out of an unlimited number), so you have to discover it in order to use it and write an arbitrary program.
 
@@ -333,7 +333,7 @@ Scheme or Haskell (except eager), and aimed to make at least the following three
 As if each of these wasn't bad enough alone, their combination and
 interaction brings up a couple of further issues.  I never addressed them fully,
 but similar ideas with similar interaction eventually materialized in my
-programming language [[Unlikely]].
+programming language [Unlikely][].
 
 ### Orbital
 
@@ -342,12 +342,12 @@ programming language [[Unlikely]].
 *   development-stage: idea
 *   authors: Chris Pressey
 *   auspices: Cat's Eye Technologies
-*   paradigms: []
+*   paradigms: ??
 *   no-specification: true
 *   summary: message queues are just queues
 *   inception-date: ca Dec 2012
 
-[[Erlang]]'s message-passing paradigm is a good one, but then sometimes
+[Erlang][]'s message-passing paradigm is a good one, but then sometimes
 I look around on Github and I see Erlang libraries for managing process
 pooling and stuff and I think, wait, Erlang supposedly so awesome for
 distributed computing, why isn't this a solved problem?
@@ -373,7 +373,7 @@ The problem of knowing "who to send a message to" is replaced by the
 problem of knowing "which queue to enqueue a message onto".
 
 Of course, doing concurrency in languages which don't use Erlang's
-message-passing model, like say [[Java]], requires that you build and
+message-passing model, like say [Java][], requires that you build and
 use queues explicitly.  But that's something of a degenerate case.  A
 programming language which supports queues natively, like Erlang
 supports processes, would provide them as an *abstraction*, and they
@@ -401,12 +401,12 @@ Erlang's separate functions and processes.
 
 A self-modifying programming language which is "input-universal".
 That is, a programming language which can transform itself
-in a way similar to how [[Mascarpone]] transforms itself,
+in a way similar to how [Mascarpone][] transforms itself,
 but which also makes the guarantee that it can "turn itself
 into any other language," meaning that after a finite
 number of prefix symbols from the input program have been
 interpreted, the remaining symbols can be interpreted as
-a program in any other [[Turing-complete]] programming language.
+a program in any other [Turing-complete][] programming language.
 
 (Given a reasonable input alphabet, I suppose, and
 ignoring tedious and trivial details of encoding.)
@@ -469,7 +469,7 @@ precedence or such.
 *   summary: programs form a ring
 *   inception-date: ca 2007
 
-Since finishing the first design for [[Burro]], I've been interested in
+Since finishing the first design for [Burro][], I've been interested in
 languages where the set of all programs in the language forms an abstract algebraic structure (over a semantic
 equivalence relation) under some non-contrived binary operations.
 
@@ -492,7 +492,7 @@ but I have yet to find one.
 
 I tried using sequential composition as the multiplicative
 operation and parallel execution as the additive operation in
-[[Cabra]], but the result
+[Cabra][], but the result
 was a slightly different algebraic structure, an _idempotent semiring_
 (also called a _dioid_.)
 Another, somewhat more experimental (and unpublished) design I toyed with
@@ -712,8 +712,8 @@ and, in general, programs look something like this:
 *   summary: Yo dawg, I herd you like esolangs, so I put an esolang in your esolang so you can esolang while you esolang
 *   inception-date: ca 2012
 
-YO_DAWG is an esolang with first-class [[Esolang|esolangs]]. You can create
-new [[Befunge-93]] objects, [[brainfuck]] objects, [[Underload]] objects,
+YO_DAWG is an esolang with first-class esolangs. You can create
+new [Befunge-93][] objects, [brainfuck][] objects, [Underload][] objects,
 and so forth, and probably stick them onto a stack, or into variables.
 Presumably, you can apply these objects to strings of characters, to run
 programs in those esolangs; but more interestingly, being first-class objects,
@@ -722,3 +722,19 @@ and you can probably compose esolangs (in truly,
 *truly* pointless style) to form new esolangs.
 
 Naturally, you can also create new YO_DAWG objects.
+
+
+[Befunge-93]: http://catseye.tc/node/Befunge-93
+[Burro]: http://catseye.tc/node/Burro
+[Cabra]: http://catseye.tc/node/Cabra
+[Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
+[Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
+[Mascarpone]: http://catseye.tc/node/Mascarpone
+[Muriel]: http://catseye.tc/node/Muriel
+[SETL]: https://en.wikipedia.org/wiki/SETL
+[Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+[Turing-complete]: http://esolangs.org/wiki/Turing-complete
+[Underload]: http://catseye.tc/node/Underload
+[Unlikely]: http://catseye.tc/node/Unlikely
+[ZOWIE]: http://catseye.tc/node/ZOWIE
+[brainfuck]: http://esolangs.org/wiki/brainfuck
