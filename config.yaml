@@ -10,6 +10,46 @@ node:
   catalogue_file: catseye.catalogue
   checkout_dir: checkout
   projection_dir: modules
+  link_priority:
+    Jeffry Johnston: http://esolangs.org/wiki/Jeffry%20Johnston
+    Phantom Hoover: http://esolangs.org/wiki/User:Phantom_Hoover
+    Paul Harrison: http://www.logarithmic.net/pfh/
+    zzo38: http://esolangs.org/wiki/User:zzo38
+    Fabrice Bellard: https://bellard.org/
+    Rube Goldberg: https://en.wikipedia.org/wiki/Rube_Goldberg
+    Milo van Handel: http://esolangs.org/w/index.php?search=Milo+van+Handel&title=Special%3ASearch&go=Go
+    Lawrence Landweber: http://www.worldcat.org/identities/lccn-n88653901/
+    Walter Brainerd: http://worldcat.org/identities/lccn-n82105386/
+    Anonymous: https://en.wikipedia.org/wiki/Anonymous_work
+    David Chipping: http://esolangs.org/w/index.php?search=David+Chipping&title=Special%3ASearch&go=Go
+    Stephen Bourne: https://en.wikipedia.org/wiki/Stephen_R._Bourne
+    Brian Connors: http://esolangs.org/w/index.php?search=Brian+Connors&title=Special%3ASearch&go=Go
+    Frédéric van der Plancke: http://esolangs.org/wiki/Fr%C3%A9d%C3%A9ric_van_der_Plancke
+    Catatonic Porpoise: http://esolangs.org/wiki/Scott_Feeney
+    ais523: http://esolangs.org/wiki/User:ais523
+    Niels Serup: http://esolangs.org/wiki/User:Nqpz
+    Andrew Turley: http://esolangs.org/w/index.php?search=andrew+turley&title=Special%3ASearch&go=Go
+    Tslil Clingman: http://esolangs.org/wiki/Tslil_Clingman
+    Gregory Yob: https://en.wikipedia.org/wiki/Gregory_Yob
+    Urban Müller: http://esolangs.org/wiki/Urban_M%C3%BCller
+    Francis Rogers: http://esolangs.org/w/index.php?search=Francis+Rogers&title=Special%3ASearch&go=Go
+    Marinus: http://esolangs.org/wiki/User:Marinus
+    Merman Helville: http://catseye.tc/installation/Doby_Mick
+    Fabian Hemmer: https://github.com/copy
+    Michael C. Martin: https://github.com/MichaelCMartin
+    Konrad Zuse: https://en.wikipedia.org/wiki/Konrad_Zuse
+    John S. James: https://www.atariarchives.org/morebasicgames/showpage.php?page=61
+    Frank Zappa: https://en.wikipedia.org/wiki/Frank_Zappa
+    Daniel Brockman: http://esolangs.org/wiki/Daniel_Brockman
+    Steven Goodwin: https://web.archive.org/web/20130817001802/http://www.bluedust.dontexist.com:80/spoon/
+    Ryan Kusnery: http://esolangs.org/wiki/Ryan_Kusnery
+    Boily: http://esolangs.org/wiki/User:boily
+    Cliff L. Biffle: http://esolangs.org/wiki/Cliff_L._Biffle
+    Wouter van Oortmerssen: http://strlen.com/
+    Don Woods: https://en.wikipedia.org/wiki/INTERCAL
+    James M. Lyon: https://en.wikipedia.org/wiki/INTERCAL
+    Matthew Westcott: http://esolangs.org/w/index.php?search=Matthew+Westcott&title=Special%3ASearch&go=Go
+    John Conway: https://en.wikipedia.org/wiki/John_Horton_Conway
 
 installation:
   data_dirs:

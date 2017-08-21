@@ -384,7 +384,7 @@ def perform(args):
             overlay_yaml(filename, space)
 
     for key in config.keys():
-        check_chrysoberyl_data(universe, universe[key])
+        check_chrysoberyl_data(universe, universe[key], config[key].get('link_priority', {}))
 
     for command in args:
         func = COMMANDS.get(command, None)
