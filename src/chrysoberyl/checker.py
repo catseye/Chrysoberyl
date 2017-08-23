@@ -23,7 +23,7 @@ LEGACY_FIELDS = (
 )
 
 
-def check_scalar_ref(universe, key, node, property, types=None):
+def check_scalar_ref(universe, key, node, property, link_priority, types=None):
     """Check that the given node has the given property (field) and that it
     is a scalar (not a list.)  If types is given, check that the key contained
     in the field refers to a node of one of those types.
@@ -32,6 +32,8 @@ def check_scalar_ref(universe, key, node, property, types=None):
     if property not in node:
         raise KeyError("'%s' does not specify a %s" % (key, property))
     value = node[property]
+    if value in link_priority:
+        return
     value_node = universe.get_node(value)
     assert value_node, \
         "'%s' has undefined %s '%s'" % (key, property, value)
@@ -44,13 +46,13 @@ def check_scalar_ref(universe, key, node, property, types=None):
         )
 
 
-def check_optional_scalar_ref(universe, key, node, property, types=None):
+def check_optional_scalar_ref(universe, key, node, property, link_priority, types=None):
     """Like check_scalar_ref, but skip if property not present on node."""
     if property in node:
-        check_scalar_ref(universe, key, node, property, types=types)
+        check_scalar_ref(universe, key, node, property, link_priority, types=types)
 
 
-def check_list_ref(universe, key, node, property, types=None):
+def check_list_ref(universe, key, node, property, link_priority, types=None):
     """Check that the given node has the given property (field) and that it
     is a list (not a scalar.)  If types is given, check that all keys
     contained in the list refers to a node of one of those types.
@@ -61,6 +63,8 @@ def check_list_ref(universe, key, node, property, types=None):
     assert isinstance(node[property], list), \
         u"'%s' has non-list %s" % (key, property)
     for value in node[property]:
+        if value in link_priority:
+            continue
         value_node = universe.get_node(value)
         assert value, \
             u"'%s' has undefined %s '%s'" % \
@@ -71,13 +75,13 @@ def check_list_ref(universe, key, node, property, types=None):
                     key, property, value, value_node['type'], types)
 
 
-def check_optional_list_ref(universe, key, node, property, types=None):
+def check_optional_list_ref(universe, key, node, property, link_priority, types=None):
     """Like check_list_ref, but skip if property not present on node."""
     if property in node:
-        check_list_ref(universe, key, node, property, types=types)
+        check_list_ref(universe, key, node, property, link_priority, types=types)
 
 
-def resolve_internal_links(universe, data, key, property, text):
+def resolve_internal_links(universe, data, key, property, text, link_priority):
     """Check that all cross-references (in [[double brackets]]) in the
     text contained in the given property are keys of nodes that exist
     elsewhere in the Chrysoberyl data.
@@ -89,12 +93,14 @@ def resolve_internal_links(universe, data, key, property, text):
         link = match.group(1)
         segments = link.split('|')
         thing = segments[0]
+        if thing in link_priority:
+            continue
         assert universe.get_node(thing), \
             "'%s' mentions undefined '%s' in '%s'" % \
             (key, thing, property)
 
 
-def check_chrysoberyl_node(universe, data, key, node):
+def check_chrysoberyl_node(universe, data, key, node, link_priority):
     """Check that the data in the given node is consistent and
     complete.
 
@@ -153,20 +159,20 @@ def check_chrysoberyl_node(universe, data, key, node):
             key, node['publication-date']
         )
         raise
-    check_optional_scalar_ref(universe, key, node, 'domain')
-    check_optional_list_ref(universe, key, node, 'see-also')
-    check_optional_scalar_ref(universe, key, node, 'genre')
-    check_optional_list_ref(universe, key, node, 'authors',
+    check_optional_scalar_ref(universe, key, node, 'domain', link_priority)
+    check_optional_list_ref(universe, key, node, 'see-also', link_priority)
+    check_optional_scalar_ref(universe, key, node, 'genre', link_priority)
+    check_optional_list_ref(universe, key, node, 'authors', link_priority,
         types=('Individual', 'Organization'))
-    check_optional_list_ref(universe, key, node, 'auspices',
+    check_optional_list_ref(universe, key, node, 'auspices', link_priority,
         types=('Organization',))
-    check_optional_list_ref(universe, key, node, 'influences')
+    check_optional_list_ref(universe, key, node, 'influences', link_priority)
     # These two fields go together.
     if 'auspices' in node:
         assert 'authors' in node, "auspices but no authors in '%s'" % key
     if 'submitted-to' in node:
         for sub in node['submitted-to']:
-            check_scalar_ref(universe, key, sub, 'competition',
+            check_scalar_ref(universe, key, sub, 'competition', link_priority,
                              types=('Competition',))
     if 'images' in node:
         for image in node['images']:
@@ -176,28 +182,28 @@ def check_chrysoberyl_node(universe, data, key, node):
     description = None
     if 'description' in node:
         description = node['description']
-    resolve_internal_links(universe, data, key, 'description', description)
+    resolve_internal_links(universe, data, key, 'description', description, link_priority)
     commentary = None
     if 'commentary' in node:
         commentary = node['commentary']
-    resolve_internal_links(universe, data, key, 'commentary', commentary)
+    resolve_internal_links(universe, data, key, 'commentary', commentary, link_priority)
     as_a_prerequisite = None
     if 'as-a-prerequisite' in node:
         as_a_prerequisite = node['as-a-prerequisite']
-    resolve_internal_links(universe, data, key, 'commentary', as_a_prerequisite)
+    resolve_internal_links(universe, data, key, 'commentary', as_a_prerequisite, link_priority)
 
     # No nodes may have legacy fields.
     for legacy_field in LEGACY_FIELDS:
         assert legacy_field not in node, \
             "legacy field '%s' found in '%s'" % (legacy_field, key)
 
-    check_optional_scalar_ref(universe, key, node, 'development-stage',
+    check_optional_scalar_ref(universe, key, node, 'development-stage', link_priority,
                               types=('Development Stage',))
 
     # On to checking fields specific to different types.
 
     if type_ == 'Disambiguation node':
-        check_optional_list_ref(universe, key, node, 'entries')
+        check_optional_list_ref(universe, key, node, 'entries', link_priority)
 
     if type_ == 'Article':
         assert 'publication-date' in node
@@ -207,7 +213,7 @@ def check_chrysoberyl_node(universe, data, key, node):
         node['interactive'] = node.get('interactive', False)
         node['animated'] = node.get('animated', False)
         check_list_ref(
-            universe, key, node, 'mediums', types=(
+            universe, key, node, 'mediums', link_priority, types=(
                 'Platform', 'Programming Language','Implementation',
                 'Music Format', 'Musical Instrument', 'Image Format', 'Medium'
             )
@@ -223,19 +229,19 @@ def check_chrysoberyl_node(universe, data, key, node):
                 node['installation-of'] = key + ' (mp3)'
             node['inline-music-installation'] = True
 
-        check_scalar_ref(universe, key, node, 'installation-of',
+        check_scalar_ref(universe, key, node, 'installation-of', link_priority,
                          types=('Implementation',))
 
     if type_ == 'Distribution':
         assert 'development-stage' not in node, \
           "%s mentions 'development-stage'" % key
-        check_optional_list_ref(universe, key, node, 'test-requirements',
+        check_optional_list_ref(universe, key, node, 'test-requirements', link_priority,
                                 types=('Programming Language', 'Tool'))
 
     if type_ == 'Implementation':
-        check_list_ref(universe, key, node, 'implementation-of')
+        check_list_ref(universe, key, node, 'implementation-of', link_priority)
         check_optional_scalar_ref(universe, key, node,
-                                  'recommended-implementation',
+                                  'recommended-implementation', link_priority,
                                   types=('Implementation',))
 
         # for convenience, bring in the type of the thing being implemented
@@ -244,50 +250,50 @@ def check_chrysoberyl_node(universe, data, key, node):
         # Zoning Variance #5!
         impl_of_type = data[node['implementation-of'][0]]['type']
 
-        check_scalar_ref(universe, key, node, 'license', types=('License',))
+        check_scalar_ref(universe, key, node, 'license', link_priority, types=('License',))
         if 'in-distribution' in node:
             assert 'in-distributions' not in node
             node['in-distributions'] = [node['in-distribution']]
             del node['in-distribution']
-        check_optional_list_ref(universe, key, node, 'in-distributions',
+        check_optional_list_ref(universe, key, node, 'in-distributions', link_priority,
                                   types=('Distribution',))
-        check_optional_list_ref(universe, key, node, 'prebuilt-for-platforms',
+        check_optional_list_ref(universe, key, node, 'prebuilt-for-platforms', link_priority,
                                   types=('Platform', 'Programming Language'))
         if impl_of_type == 'Musical Composition':
-            check_scalar_ref(universe, key, node, 'host-language',
+            check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Music Format',))
         elif impl_of_type == 'Picture':
-            check_scalar_ref(universe, key, node, 'host-language',
+            check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Image Format',))
         else:
-            check_scalar_ref(universe, key, node, 'host-language',
+            check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Programming Language',))
-        check_optional_scalar_ref(universe, key, node, 'host-platform',
+        check_optional_scalar_ref(universe, key, node, 'host-platform', link_priority,
                          types=('Platform',))
         # these shouldn't really be needed.  derive, derive!
         # I really don't like that 'Programming Language' is in these
-        check_optional_list_ref(universe, key, node, 'build-requirements',
+        check_optional_list_ref(universe, key, node, 'build-requirements', link_priority,
                          types=('Library', 'Tool', 'Programming Language'))
-        check_optional_list_ref(universe, key, node, 'run-requirements',
+        check_optional_list_ref(universe, key, node, 'run-requirements', link_priority,
                          types=('Library', 'Tool', 'Programming Language'))
 
         if impl_of_type == 'Platform':
-            check_scalar_ref(universe, key, node, 'implementation-type',
+            check_scalar_ref(universe, key, node, 'implementation-type', link_priority,
                              types=('Implementation Type',))
             platimpls = ('emulator', 'framework', 'operating system')
             assert node['implementation-type'] in platimpls, \
                 "Platform has implementation %s not in %r" % \
                     (key, platimpls)
         elif impl_of_type == 'Programming Language':
-            check_scalar_ref(universe, key, node, 'implementation-type',
+            check_scalar_ref(universe, key, node, 'implementation-type', link_priority,
                              types=('Implementation Type',))
             if node['implementation-type'] == 'compiler':
-                check_scalar_ref(universe, key, node, 'target-language',
+                check_scalar_ref(universe, key, node, 'target-language', link_priority,
                                  types=('Programming Language',))
-                check_optional_scalar_ref(universe, key, node, 'target-platform',
+                check_optional_scalar_ref(universe, key, node, 'target-platform', link_priority,
                                  types=['Platform'])
         else:
-            check_optional_scalar_ref(universe, key, node, 'implementation-type',
+            check_optional_scalar_ref(universe, key, node, 'implementation-type', link_priority,
                              types=('Implementation Type',))
 
         if 'authors' not in node:
@@ -308,12 +314,12 @@ def check_chrysoberyl_node(universe, data, key, node):
         assert 'build-requirements' not in node
         assert 'run-requirements' not in node
         if type_ != 'Picture':
-            check_scalar_ref(universe, key, node, 'development-stage',
+            check_scalar_ref(universe, key, node, 'development-stage', link_priority,
                              types=['Development Stage'])
-        check_optional_scalar_ref(universe, key, node, 'sample-credit',
+        check_optional_scalar_ref(universe, key, node, 'sample-credit', link_priority,
                                   'Individual')
         check_optional_scalar_ref(universe, key, node, 'variant-of', type_)
-        check_optional_list_ref(universe, key, node, 'online-implementations',
+        check_optional_list_ref(universe, key, node, 'online-implementations', link_priority,
                                 types=['Online Installation'])
 
         # to do this properly we'd need to check ref. impls.
@@ -322,54 +328,54 @@ def check_chrysoberyl_node(universe, data, key, node):
         #        'standards-body' not in node):
         #        check_scalar_ref(universe, key, node, 'defining-distribution',
         #                         types=['Distribution'])
-        check_optional_scalar_ref(universe, key, node, 'defining-distribution',
+        check_optional_scalar_ref(universe, key, node, 'defining-distribution', link_priority,
                                   types=['Distribution'])
 
     # alternate constraints for musical pieces (implementables)
     if type_ == 'Musical Composition':
-        check_scalar_ref(universe, key, node, 'genre', types=['Genre'])
-        check_list_ref(universe, key, node, 'authors')
-        check_optional_scalar_ref(universe, key, node, 'composed-on')
-        check_optional_scalar_ref(universe, key, node, 'using-software')
-        check_scalar_ref(universe, key, node, 'development-stage',
+        check_scalar_ref(universe, key, node, 'genre', link_priority, types=['Genre'])
+        check_list_ref(universe, key, node, 'authors', link_priority)
+        check_optional_scalar_ref(universe, key, node, 'composed-on', link_priority)
+        check_optional_scalar_ref(universe, key, node, 'using-software', link_priority)
+        check_scalar_ref(universe, key, node, 'development-stage', link_priority,
                          types=['Development Stage'])
 
     # additional constraints for games (implementables)
     if type_ == 'Game':
-        check_scalar_ref(universe, key, node, 'genre', types=['Genre'])
-        check_optional_scalar_ref(universe, key, node, 'platform',
+        check_scalar_ref(universe, key, node, 'genre', link_priority, types=['Genre'])
+        check_optional_scalar_ref(universe, key, node, 'platform', link_priority,
                                   types=['Platform'])
-        check_list_ref(universe, key, node, 'authors')
+        check_list_ref(universe, key, node, 'authors', link_priority)
 
     # additional constraints for platforms (implementables)
     if type_ == 'Platform':
-        check_scalar_ref(universe, key, node, 'native-language',
+        check_scalar_ref(universe, key, node, 'native-language', link_priority,
                          types=['Programming Language'])
-        check_list_ref(universe, key, node, 'other-languages',
+        check_list_ref(universe, key, node, 'other-languages', link_priority,
                        types=['Programming Language'])
 
     # additional constraints for proglangs (implementables)
     if type_ in ('Programming Language', 'Automaton'):
-        check_scalar_ref(universe, key, node, 'genre', types=['Genre'])
-        check_list_ref(universe, key, node, 'authors')
-        check_list_ref(universe, key, node, 'paradigms',
+        check_scalar_ref(universe, key, node, 'genre', link_priority, types=['Genre'])
+        check_list_ref(universe, key, node, 'authors', link_priority)
+        check_list_ref(universe, key, node, 'paradigms', link_priority,
                        types=('Programming Paradigm',))
-        check_optional_scalar_ref(universe, key, node, 'computational-class',
+        check_optional_scalar_ref(universe, key, node, 'computational-class', link_priority,
                                   types=('Computational Class',))
-        check_optional_scalar_ref(universe, key, node, 'member-of',
+        check_optional_scalar_ref(universe, key, node, 'member-of', link_priority,
                                   types=('Programming Language Family',))
 
     if type_ == 'Programming Language Family':
-        check_scalar_ref(universe, key, node, 'genre', types=['Genre'])
+        check_scalar_ref(universe, key, node, 'genre', link_priority, types=['Genre'])
 
     if type_ == 'Ranking':
-        check_list_ref(universe, key, node, 'entries')
+        check_list_ref(universe, key, node, 'entries', link_priority)
 
 
-def check_chrysoberyl_data(universe, data):
+def check_chrysoberyl_data(universe, data, link_priority):
     """Check all nodes in the given dictionary of Chrysoberyl data."""
     count = 0
     for key in data:
         count += 1
-        check_chrysoberyl_node(universe, data, key, data[key])
+        check_chrysoberyl_node(universe, data, key, data[key], link_priority)
     print "%d nodes checked." % count

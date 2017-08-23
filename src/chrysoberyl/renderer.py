@@ -64,12 +64,15 @@ class Loader(BaseLoader):
         return source, found_path, lambda: True
 
 
+CACHE = {}   # of related items
+
+
 class Renderer(object):
     """Object which renders Chrysoberyl data as HTML pages.
 
     """
     def __init__(self, universe, space, template_dirs, output_dir, checkout_dir,
-                 projection_dir, sleek_node_links, render_nodes):
+                 projection_dir, sleek_node_links, render_nodes, link_priority):
         self.universe = universe
         self.space = space
         self.template_dirs = template_dirs
@@ -80,6 +83,7 @@ class Renderer(object):
         self.sleek_node_links = sleek_node_links
         self.render_nodes = render_nodes
         self.jinja2_env = Environment(loader=Loader(self.template_dirs))
+        self.link_priority = link_priority
 
     def render(self, template, output_filename, context):
         """Low-level method to render a given template."""
@@ -174,7 +178,8 @@ class Renderer(object):
             else:
                 return markdown_contents(
                     self.universe, field_contents, prefix=prefix,
-                    sleek=self.sleek_node_links
+                    sleek=self.sleek_node_links,
+                    link_priority=self.link_priority,
                 )
 
         @expose
@@ -285,7 +290,13 @@ class Renderer(object):
 
         @expose
         def related_items(relationship, key=key, filter=None):
-            return self.space.related_items(relationship, key, filter=filter)
+            if filter is None:
+                cache_key = relationship + ':' + key
+                if cache_key not in CACHE:
+                    CACHE[cache_key] = list(  self.space.related_items(relationship, key, filter=None)  )
+                return CACHE[cache_key]
+            else:
+                return self.space.related_items(relationship, key, filter=filter)
 
         # maybe will be deprecated: use related_items instead
         @expose
@@ -489,6 +500,8 @@ class Renderer(object):
             divert to a different node.
 
             """
+            if key in self.link_priority:
+                return u'<a href="{}">{}</a>'.format(self.link_priority[key], key)
             if link_text is None:
                 (_, ukey, _) = self.universe.get_space_key_node(key)
                 link_text = ukey

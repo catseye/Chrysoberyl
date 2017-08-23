@@ -64,6 +64,7 @@ def render(universe, options, config):
             config[space.name]['projection_dir'],
             options.sleek_node_links,
             options.render_nodes,
+            config[space.name].get('link_priority', {}),
         )
         r.render_chrysoberyl_data()
 
@@ -384,7 +385,7 @@ def perform(args):
             overlay_yaml(filename, space)
 
     for key in config.keys():
-        check_chrysoberyl_data(universe, universe[key])
+        check_chrysoberyl_data(universe, universe[key], config[key].get('link_priority', {}))
 
     for command in args:
         func = COMMANDS.get(command, None)

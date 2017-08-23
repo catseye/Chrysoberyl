@@ -99,3 +99,89 @@ Chris Pressey's Favourite Other Computer Games:
   type: Disambiguation node
   links:
   - https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md
+
+LoUIE:
+  type: Disambiguation node
+  # something like this...
+  links:
+  - https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
+
+AINSNIA:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Belabour:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Boo-yah!:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Faradaisical:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+GI:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Kig:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Milab:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Naoko:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Orbital:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Paneer:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Poerhinekh:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Potro:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Praline:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Psogumma:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Seltzer Spigot:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+YO_DAWG:
+  type: Disambiguation node
+  entries:
+  - LoUIE
