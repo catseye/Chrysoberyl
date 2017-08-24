@@ -210,7 +210,3 @@ Distribution Organization:
         Where source code is kept.  For distributions containing more than
         one implementation, this is where the reference implementation is
         kept; other implementations should probably be in `impl` instead.
-
-
-Computer Science Education:
-  type: Discipline
