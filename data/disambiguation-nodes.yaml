@@ -69,3 +69,119 @@ wierd-milo.c:
   type: Disambiguation node
   entries:
   - wierd.c (Milo van Handel)
+
+"Retrospective: Chris Pressey on Language Design":
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md
+
+Programming Languages as an Artistic Medium:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+
+The Aesthetics of Esolangs:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
+
+Chris Pressey's Favourite Video Games:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/Video%20Games%20of%20Note.md
+
+Chris Pressey's Favourite Text Adventures:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/Text%20Adventures%20of%20Note.md
+
+Chris Pressey's Favourite Other Computer Games:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md
+
+LoUIE:
+  type: Disambiguation node
+  # something like this...
+  links:
+  - https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
+
+AINSNIA:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Belabour:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Boo-yah!:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Faradaisical:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+GI:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Kig:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Milab:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Naoko:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Orbital:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Paneer:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Poerhinekh:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Potro:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Praline:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Psogumma:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+Seltzer Spigot:
+  type: Disambiguation node
+  entries:
+  - LoUIE
+
+YO_DAWG:
+  type: Disambiguation node
+  entries:
+  - LoUIE
