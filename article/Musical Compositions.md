@@ -75,7 +75,7 @@ using xmp (or modplug123) and lame.
 
 *   genre: Theme music
 *   inception-date: ca 1992
-*   MED @ [aminet]
+*   entry @ [aminet](http://aminet.net/package/mods/med/afterthefact)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20After%20the%20Fact.mp3)
 
 I've been told that this sounds like it should be the theme music for a spy movie.
@@ -87,7 +87,7 @@ However, xmp does support this feature.
 
 *   genre: Sci-fi
 *   inception-date: ca 1992
-*   MED @ [aminet]
+*   entry @ [aminet](http://aminet.net/package/mods/med/anagnoresis)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Anagnoresis.mp3)
 
 "Anagnoresis" is either an alternate spelling for, or a typo for,
@@ -125,9 +125,6 @@ house after pulling an all-nighter.  It was supposed to be a very mellow tune
 
 *   genre: Experimental music
 *   inception-date: ca 1994
-*   composed-on: Amiga 500
-*   using-software: MED
-*   MED @ []
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Drat.mp3)
 
 Experimental Angry Music!  Contains, I believe, two samples of my own voice.
@@ -136,8 +133,6 @@ Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
 *   genre: Jazz fusion
 *   inception-date: ca 1992
-*   development-stage: mature
-*   MED @ []
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[Amiga%20dance%20arrangement].mp3) (Amiga dance arrangement)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[JV-30%20fusion%20arrangement].mp3) (JV-30 fusion arrangement)
 
