@@ -10,6 +10,12 @@ This is a list of musical works composed by Chris Pressey.
 Note, there is some controversy over whether this list should be in Chrysoberyl,
 or elsewhere.  And by "controversy" I mean, I can't decide.
 
+"Theme music" is anything that is the theme to some video game or movie or just
+*sounds* like it should be the theme to some video game or movie.
+
+I use the term "sci-fi" to refer to not only fiction but also a few of my
+musical compositions which are too funky for me to call them techno.
+
 Early Period
 ------------
 
@@ -20,7 +26,7 @@ Early Period
 
 *   genre: Experimental music
 *   inception-date: ca 1987
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E - Two Molecules of a Chip Box in Cosmic Relationship to a Yak.mp3)
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Two%20Molecules%20of%20a%20Chip%20Box%20in%20Cosmic%20Relationship%20to%20a%20Yak.mp3)
 
 Pure experimentational weirdness with the C64's SID chip.
 The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
