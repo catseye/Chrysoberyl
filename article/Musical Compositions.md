@@ -101,7 +101,7 @@ wait for it and then go, "oh, *there* it is."
 
 *   genre: Pop ballad
 *   inception-date: ca 1992
-*   MED @ []
+*   entry @ [aminet](http://aminet.net/package/mods/med/autumnkiss)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Autumn%20Kiss.mp3)
 
 This has been described as vaguely Annie Lennox-like, at least how it
@@ -113,7 +113,6 @@ mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 *  instrumentation: Jazz Combo
 *  inception-date: ca 1991
 *  using-software: DMCS
-*  MED @ []
 *  MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Birdwatching%20[Amiga%20arrangement].mp3)
 
 I think I remember composing the theme to this on an electric piano at a friend's
@@ -145,7 +144,6 @@ it seemed as good a way as any to end a song.
 
 *   genre: Dance
 *   inception-date: ca 1992
-*   MED @ []
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Panic.mp3)
 
 Experimental dance music with lots of samples.  Samples on the general theme of panicking.
@@ -154,7 +152,7 @@ Experimental dance music with lots of samples.  Samples on the general theme of 
 
 *   genre: Pop ballad
 *   inception-date: ca 1992
-*   MED @ []
+*   entry @ [aminet](http://aminet.net/package/mods/med/rainbird)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Rainbird.mp3)
 
 Another pop ballad, this one with crude sound effects of a rainstorm in it.
@@ -165,7 +163,7 @@ on favourably.
 
 *   genre: Sci-fi
 *   inception-date: ca 1992
-*   MED @ [aminet]
+*   entry @ [aminet](http://aminet.net/package/mods/med/redquarks)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Red%20Quarks.mp3)
 
 A funky little tune with a somewhat strange musical structure — it kind of goes
@@ -176,7 +174,7 @@ Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 
 *   genre: Sci-fi
 *   inception-date: ca 1992
-*   MED @ [aminet]
+*   entry @ [aminet](http://aminet.net/package/mods/med/retrograde)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Retrograde.mp3)
 
 Probably the most conventional of my "Sci-fi" tunes.  One friend of mine
@@ -187,7 +185,7 @@ stand listening to it.
 
 *   genre: Pop
 *   inception-date: ca 1992
-*   MED @ []
+*   entry @ [aminet](http://aminet.net/package/mods/med/youdrivemewild)
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20You%20Drive%20Me%20Wild.mp3)
 
 I've been told this would make a good background music for a platformer,
