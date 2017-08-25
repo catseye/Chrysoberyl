@@ -138,8 +138,8 @@ Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 *   inception-date: ca 1992
 *   development-stage: mature
 *   MED @ []
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E - Go(Figure) [Amiga dance arrangement].mp3) (Amiga dance arrangement)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E - Go(Figure) [JV-30 fusion arrangement].mp3) (JV-30 fusion arrangement)
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[Amiga%20dance%20arrangement].mp3) (Amiga dance arrangement)
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[JV-30%20fusion%20arrangement].mp3) (JV-30 fusion arrangement)
 
 One of my favourites.  Originally done up in MED (a somewhat techno-ier
 rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
@@ -184,7 +184,7 @@ Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 *   MED @ [aminet]
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Retrograde.mp3)
 
-Probably the most conventional of my "[[Sci-fi]]" tunes.  One friend of mine
+Probably the most conventional of my "Sci-fi" tunes.  One friend of mine
 found the melody horrendously catchy in an evil way such that he could not
 stand listening to it.
 
