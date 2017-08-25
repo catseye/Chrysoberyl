@@ -14,7 +14,7 @@ Online Installation:
     This list is of _all_ works!  You may have better luck navigating
     the online installations by going to the [front page](/) and
     browsing by one of the categories: **[[Programming Language]],**
-    **[[Gewgaw]], [[Game]], [[Musical Composition]], [[Picture]], [[Text]],**
+    **[[Gewgaw]], [[Game]], Musical Composition, [[Picture]], [[Text]],**
     **[[Tool]], [[Electronics Project]],** or **[[Retrocomputing]]**.
 
 Concept:
@@ -27,8 +27,7 @@ Genre:
     This is a list of genres with entries in [[Chrysoberyl]].
     
     This category is a little weird, because there are genres for
-    [[Programming Language|programming languages]], [[Game|games]], and
-    [[Musical Composition|music]], all mixed together here.
+    [[Programming Language|programming languages]] and [[Game|games]] mixed together here.
 Individual:
   type: type
 Organization:
@@ -44,8 +43,6 @@ Mathematical Object:
 Website:
   type: type
 Conlang:
-  type: type
-Musical Instrument:
   type: type
 Discipline:
   type: type
@@ -144,19 +141,6 @@ Programming Language:
     * [[Programming Languages as an Artistic Medium]]
     * [[The Aesthetics of Esolangs]]
 
-Musical Composition:
-  type: type
-  description: |
-    _[[What is this I don't even]]: Oh god how did this get here I am not good
-    with synthesizer_ is the working title for [[Chris Pressey]]'s ongoing
-    musical composition project.
-    
-    Many of these tunes can be listened to online, if you have a
-    web browser that supports [[HTML5]] [[mp3]] audio or if you
-    have an Adobe Flash™ plugin.
-
-Music Format:
-  type: type
 
 Picture:
   type: type
