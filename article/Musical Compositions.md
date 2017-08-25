@@ -143,7 +143,7 @@ Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
 One of my favourites.  Originally done up in MED (a somewhat techno-ier
 rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
-version ends with a percussion outro, as does [[You Drive Me Wild]] —
+version ends with a percussion outro, as does [You Drive Me Wild](#you-drive-me-wild) —
 it seemed as good a way as any to end a song.
 
 ### Panic
@@ -195,10 +195,10 @@ stand listening to it.
 *   MED @ []
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20You%20Drive%20Me%20Wild.mp3)
 
-I've been told this would make a good background music for a [[Platformer]],
+I've been told this would make a good background music for a platformer,
 although I'm not sure I agree.  I do like the signature chord at the start, though;
 the dissonance is entirely intentional, and it "works", but only because it's soon
-resolved.  Ends with a percussion solo, as does [[Go(Figure)]].
+resolved.  Ends with a percussion solo, as does [Go(Figure)](#go-figure).
 
 Late Period
 -----------
@@ -242,7 +242,7 @@ in some kind of putative playlist...
 *   inception-date: ca 1996
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Back%20to%20the%20Rain.mp3)
 
-Very, very short.  Intended to be preceded by [[A Moment in the Sun]]
+Very, very short.  Intended to be preceded by [A Moment in the Sun](#a-moment-in-the-sun)
 and serves more as an outro for that tune.  Or, maybe it could be used as the
 "oops you lost a life" music in a video game, that sort of thing.
 
