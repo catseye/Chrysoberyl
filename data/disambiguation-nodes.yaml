@@ -102,6 +102,10 @@ Chris Pressey's Favourite Other Computer Games:
 
 LoUIE:
   type: Disambiguation node
-  # something like this...
   links:
   - https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
+
+Musical Composition:
+  type: Disambiguation node
+  links:
+  - https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md
