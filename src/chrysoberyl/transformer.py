@@ -70,9 +70,12 @@ def markdown_contents(universe, contents, link_priority, prefix='../', sleek=Fal
     """
     def linker(match):
         text = match.group(1)
-        if text in link_priority:
-            return '<a href="{}">{}</a>'.format(link_priority[text], text)
         segments = text.split('|')
+
+        if segments[0] in link_priority:
+            link_text = segments[0] if len(segments) == 1 else segments[1]
+            return u'<a href="{}">{}</a>'.format(link_priority[segments[0]], link_text)
+
         if len(segments) == 1:
             (_, ukey, _) = universe.get_space_key_node(segments[0])
             segments.append(ukey)
@@ -80,7 +83,7 @@ def markdown_contents(universe, contents, link_priority, prefix='../', sleek=Fal
             universe, segments[0], segments[1], prefix=prefix, sleek=sleek
         )
     html = markdown.markdown(contents)
-    html = re.sub(r'\[\[(.*?)\]\]', linker, html)
+    html = re.sub(r'\[\[(.*?)\]\]', linker, html, count=0, flags=re.U)
     return html
 
 
