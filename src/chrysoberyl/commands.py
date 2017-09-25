@@ -326,6 +326,22 @@ def check_distfiles(universe, options, config):
     for command in commands:
         print command
 
+
+def count(universe, options, config):
+    """Show how many nodes of each type there are
+
+    """
+    space = universe['node']
+    types = {}
+    for (key, node) in space.iteritems():
+        if not node.get('hidden', False):
+            types.setdefault(node['type'], 0)
+            types[node['type']] += 1
+    pairs = [(value, key) for (key, value) in types.iteritems()]
+    for value, key in sorted(pairs):
+        print(key, value)
+
+
 ### driver ###
 
 COMMANDS = {
@@ -336,6 +352,7 @@ COMMANDS = {
     'check_releases': check_releases,
     'check_distfiles': check_distfiles,
     'project': project,
+    'count': count,
 }
 
 
