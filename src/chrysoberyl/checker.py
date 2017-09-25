@@ -214,8 +214,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
         node['animated'] = node.get('animated', False)
         check_list_ref(
             universe, key, node, 'mediums', link_priority, types=(
-                'Platform', 'Programming Language','Implementation',
-                'Music Format', 'Musical Instrument', 'Image Format', 'Medium'
+                'Platform', 'Programming Language', 'Implementation', 'Image Format', 'Medium'
             )
         )
 
@@ -224,10 +223,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
             for url in node['javascript-urls']:
                 assert not url.startswith('../module'), url
 
-        if 'mp3' in node['mediums']:
-            if not node.get('installation-of', None):
-                node['installation-of'] = key + ' (mp3)'
-            node['inline-music-installation'] = True
+        assert 'mp3' not in node['mediums']
 
         check_scalar_ref(universe, key, node, 'installation-of', link_priority,
                          types=('Implementation',))
@@ -259,13 +255,11 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
                                   types=('Distribution',))
         check_optional_list_ref(universe, key, node, 'prebuilt-for-platforms', link_priority,
                                   types=('Platform', 'Programming Language'))
-        if impl_of_type == 'Musical Composition':
-            check_scalar_ref(universe, key, node, 'host-language', link_priority,
-                             types=('Music Format',))
-        elif impl_of_type == 'Picture':
+        if impl_of_type == 'Picture':
             check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Image Format',))
         else:
+            assert impl_of_type != 'Musical Composition'
             check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Programming Language',))
         check_optional_scalar_ref(universe, key, node, 'host-platform', link_priority,
@@ -302,8 +296,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
             node['authors'] = pl_node.get('authors', [])
             node['auspices'] = pl_node.get('auspices', [])
 
-    # All "implementables" (except musical compositions)
-    # need to pass these checks.
+    # All "implementables" need to pass these checks.
     # Programming Language Family isn't *directly* implementable
     # but it must pass these checks too.  And gets ref-dist linked
     # to it here too.
@@ -332,13 +325,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
                                   types=['Distribution'])
 
     # alternate constraints for musical pieces (implementables)
-    if type_ == 'Musical Composition':
-        check_scalar_ref(universe, key, node, 'genre', link_priority, types=['Genre'])
-        check_list_ref(universe, key, node, 'authors', link_priority)
-        check_optional_scalar_ref(universe, key, node, 'composed-on', link_priority)
-        check_optional_scalar_ref(universe, key, node, 'using-software', link_priority)
-        check_scalar_ref(universe, key, node, 'development-stage', link_priority,
-                         types=['Development Stage'])
+    assert type_ != 'Musical Composition'
 
     # additional constraints for games (implementables)
     if type_ == 'Game':

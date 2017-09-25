@@ -576,8 +576,6 @@ class Renderer(object):
                     node = self.universe.get_node(key)
                     if node['type'] == 'Game':
                         link_text = 'Play'
-                    elif node['type'] == 'Musical Composition':
-                        link_text = 'Listen'
                     elif node['type'] in ('Text', 'Book'):
                         link_text = 'Read it'
                     elif node['type'] in ('Picture',):
