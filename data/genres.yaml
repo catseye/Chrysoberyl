@@ -87,43 +87,6 @@ Conquest:
 Role-playing:
   type: Genre
 
-# MUSIC
-
-Theme music:
-  type: Genre
-Pop ballad:
-  type: Genre
-Pop:
-  type: Genre
-Sci-fi:
-  type: Genre
-Alt rock:
-  type: Genre
-Jazz fusion:
-  type: Genre
-Reggae:
-  type: Genre
-World beat:
-  type: Genre
-Experimental music:
-  type: Genre
-Chamber music:
-  type: Genre
-Swing:
-  type: Genre
-Shuffle:
-  type: Genre
-Dance:
-  type: Genre
-Techno:
-  type: Genre
-Ragtime:
-  type: Genre
-Medieval:
-  type: Genre
-Opera:
-  type: Genre
-
 # BOOKS
 
 Programming:
