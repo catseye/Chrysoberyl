@@ -1,9 +1,9 @@
 Musical Compositions
 ====================
 
-*   common: type: Musical Composition
-*   common: authors: Chris Pressey
-*   common: auspices: What is this I don't even
+*   common type: Musical Composition
+*   common authors: Chris Pressey
+*   common auspices: What is this I don't even
 
 This is a list of musical works composed by Chris Pressey.
 
@@ -19,8 +19,8 @@ musical compositions which are too funky for me to call them techno.
 Early Period
 ------------
 
-*   common: composed-on: Commodore 64
-*   common: using-software: SID Editor
+*   common composed-on: Commodore 64
+*   common using-software: SID Editor
 
 ### Two Molecules of a Chip Box in Cosmic Relationship to a Yak
 
@@ -65,8 +65,8 @@ This was, I believe, an alternate Theme to Nukeball.  I rather like it.
 Middle Period
 -------------
 
-*   common: composed-on: Amiga 500
-*   common: using-software: MED
+*   common composed-on: Amiga 500
+*   common using-software: MED
 
 Where there is an MP3 available, it has been converted from the MED file
 using xmp (or modplug123) and lame.
@@ -196,8 +196,8 @@ resolved.  Ends with a percussion solo, as does [Go(Figure)](#go-figure).
 Late Period
 -----------
 
-*   common: composed-on: Roland JV-30
-*   common: using-software: Cakewalk
+*   common composed-on: Roland JV-30
+*   common using-software: Cakewalk
 
 These were mostly composed on a Roland JV-30 MIDI'ed up to Cakewalk running on Windows 95.
 
