@@ -2,6 +2,11 @@ List of Unfinished Interesting Esolangs
 =======================================
 
 *   summary: A list of "open problems" in esoteric programming language design
+*   common type: Programming Language
+*   common development-stage: idea
+*   common authors: Chris Pressey
+*   common auspices: Cat's Eye Technologies
+*   common no-specification: true
 
 Here are some designs for [esoteric programming languages][]
 that I've worked on, but which have turned out to be a bit resistant to
@@ -21,14 +26,9 @@ individual as well, right?)
 
 ### AINSNIA
 
-*   type: Programming Language
 *   genre: Esolang
 *   acronym-for: AINSNIA Is Not SETL, Nor Is AINSNIA
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Functional
-*   no-specification: true
 *   summary: fundamentally based on sets
 
 When I first heard of [SETL][], the "SET Language",
@@ -52,13 +52,8 @@ work on sets now.
 
 ### Belabour
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: 2-dimensional, Logic programming
-*   no-specification: true
 *   summary: 'relative entropy meets Prolog: a crossword logic game'
 *   inception-date: ca 2006
 
@@ -100,13 +95,8 @@ logic programming — and is that not still an interesting question?
 
 ### Boo-yah!
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: 2-dimensional
-*   no-specification: true
 *   summary: overlapping instructions in 2 dimensions
 *   inception-date: ca 1998
 
@@ -146,13 +136,8 @@ good fit for the language.
 
 ### Faradaisical
 
-*   type: Programming Language
 *   genre: Joke language
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Self-modifying
-*   no-specification: true
 *   summary: programmagnetic induction
 *   inception-date: ca 2009
 
@@ -167,13 +152,8 @@ add ringing to a computation of the Ackermann function...?)
 
 ### GI
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Graph-rewriting
-*   no-specification: true
 *   summary: execution entails solving instances of GI
 *   inception-date: ca 2010
 
@@ -221,13 +201,8 @@ now.  I'll think about this a bit more.  See also Expload.
 
 ### Kig
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: 2-dimensional
-*   no-specification: true
 *   summary: five points collapse and expand
 *   inception-date: ca 2006
 
@@ -268,13 +243,8 @@ akin to division by two...
 
 ### Milab
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Meta-circular
-*   no-specification: true
 *   summary: memory mapped, but where?
 *   inception-date: ca Sep 2009
 
@@ -293,13 +263,8 @@ find it without making it unnecessary.
 
 ### Naoko
 
-*   type: Programming Language
 *   genre: Experimental language
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Meta-circular
-*   no-specification: true
 *   summary: everything is explicit
 *   inception-date: ca Sep 2008
 
@@ -355,13 +320,8 @@ programming language [Unlikely][].
 
 ### Orbital
 
-*   type: Programming Language
 *   genre: Experimental language
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: ??
-*   no-specification: true
 *   summary: message queues are just queues
 *   inception-date: ca Dec 2012
 
@@ -407,13 +367,8 @@ Erlang's separate functions and processes.
 
 ### Paneer
 
-*   type: Programming Language
 *   genre: Experimental language
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Meta-circular
-*   no-specification: true
 *   summary: comprehensive compositional language system
 *   inception-date: ca 2008
 
@@ -443,13 +398,8 @@ encountered between quotes.)
 
 ### Poerhinekh
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: 2-dimensional
-*   no-specification: true
 *   summary: rectangles within rectangles
 *   inception-date: 2009
 
@@ -477,13 +427,8 @@ precedence or such.
 
 ### Potro
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Algebraic
-*   no-specification: true
 *   summary: programs form a ring
 *   inception-date: ca 2007
 
@@ -584,13 +529,8 @@ sounds like it's edging up against them.
 
 ### Praline
 
-*   type: Programming Language
 *   genre: Experimental language
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Imperative
-*   no-specification: true
 *   summary: an imperative language with continuations (what a terrible summary)
 *   inception-date: ca Sep 2012
 
@@ -653,13 +593,8 @@ value of the function you're exiting?) but that's the basic idea.
 
 ### Psogumma
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Meta-circular
-*   no-specification: true
 *   summary: grammar self-modifies to accomodate program
 *   inception-date: 2011
 
@@ -683,13 +618,8 @@ having already parsed the program.)
 
 ### Seltzer Spigot
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: []
-*   no-specification: true
 *   summary: computational ascii art
 *   inception-date: ca Dec 2008
 
@@ -719,14 +649,9 @@ and, in general, programs look something like this:
 
 ### YO_DAWG
 
-*   type: Programming Language
 *   genre: Esolang
-*   development-stage: idea
-*   authors: Chris Pressey
-*   auspices: Cat's Eye Technologies
 *   paradigms: Meta-circular
 *   influences: Mascarpone
-*   no-specification: true
 *   summary: Yo dawg, I herd you like esolangs, so I put an esolang in your esolang so you can esolang while you esolang
 *   inception-date: ca 2012
 
