@@ -7,38 +7,28 @@ often, an emulation of such a computer on a modern computer instead.
 ### Apple II
 
 *   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
-*   entry @ [zophar.net](http://www.zophar.net/apple2.html)
 
+Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
 The CPU was a 6502.
-
 [Applesoft BASIC](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual)
-was a dialect of BASIC that was available for
-(in fact, generally shipped with) the Apple II series of
-microcomputers, including the Apple ][+ and Apple //e.
-
+was a dialect of BASIC that was available for (in fact, generally shipped with) these computers.
 There was also an "Integer Basic".
 
+Emulators: [AppleWin](http://applewin.berlios.de/) is an emulator for the Apple II, built for Windows,
+written in C++ and distributed under the GPL.  [linapple](https://github.com/catseye/linapple)
+is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of others.
+
 **[Apple Befunge][]** is an implementation of Befunge for the Apple II.
-
-Cat's Eye Technologies' Applesoft BASIC offerings
-assume that they will be running on an Apple ][+, but
-will generally also run on an Apple //e.
-Of course, these days, it's more likely you'd be running
-this software on an emulator instead of a museum piece.
-
-[AppleWin](http://applewin.berlios.de/) is an emulator for the Apple II, built for Windows,
-written in C++ and distributed under the GPL.
-
-There is also LinApple.
+It was written for the Apple ][+, but should also run on an Apple //e.
 
 ### Commodore VIC-20
 
 *   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
 
-The CPU was a 6502.  Commodore BASIC 2.0 was in the ROM; this is the same BASIC that was
+Rundown: The CPU was a 6502.  Commodore BASIC 2.0 was in the ROM; this is the same BASIC that was
 in the Commodore 64.
 
-The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
 distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 **[Dungeons of Ekileugor][]** is a roguelike.
@@ -47,14 +37,16 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
-The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM;
+Rundown: The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM;
 this is the same BASIC that was in the VIC-20.
+[The Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it a guide?
+Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
 
-The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
 distributed under the GPL, is a generally recommended emulator for the Commodore 64.
-
-[The Commodore 64 Programmer's Reference Guide](http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm)
-is an invaluable reference, or is it a guide?
+Also, [JaC64](https://github.com/catseye/JaC64) is a GPL Java application which emulates a Commodore 64.
+Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
+We forked it to fix some bugs and because mainline development seemed stalled.
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
 a multi-screen maze. It was originally designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
@@ -66,12 +58,6 @@ in its class.
 XMODEM protocol at 300 baud.
 
 **SITU-PAN** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
-
-Lots of C64 stuff at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
-
-[JaC64](https://github.com/catseye/JaC64) is a GPL Java application which emulates a Commodore 64.
-Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
-We forked it to fix some bugs and because mainline development seemed stalled.
 
 ### 6502
 
@@ -87,7 +73,8 @@ to any one architecture.
 
 **SITU-SOL** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
 
-**SixtyPical**
+**SixtyPical** is a language very close to 6502 assembly code, but also defining an abstract interpretation
+of the code.
 
 Here are some links:
 
@@ -99,7 +86,7 @@ Here are some links:
 
 *   wikipedia: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
 
-The CPU was a Motorola 68000, but this could be upgraded to a 68020, etc
+Rundown: The CPU was a Motorola 68000, but this could be upgraded to a 68020, etc
 (and needed to be if you wanted memory protection).  It had many custom chips
 with colourful names such as "Angus" and "Paula".
 
@@ -111,21 +98,24 @@ and video processing, such as ray-tracing and animation.
 AmigaBasic was the name of the "advanced" variant of BASIC that shipped with
 AmigaDOS.  It was developed by Microsoft.
 
-[E-UAE](http://www.rcdrummond.net/uae/) is an emulator for the Amiga 500
-architecture (and several other models such as the Amiga 2000.)  E-UAE is written
-in C++ and available under the GPL.
+Emulators: There's an emulator for the Amiga 500
+architecture (and several other models such as the Amiga 2000)
+called UAE which.  It's written in C++ and available under the GPL, and
+every decade or so, gets forked into a new incarnation.  A few years ago,
+[E-UAE](http://www.rcdrummond.net/uae/) was the thing, but now it's
+apparently FS-UAE.
 
 ### IBM PC compatible
 
 *   wikipedia: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
 
-The CPU is a 8086, or 80286, 80386, 80486... or just ["X86"](https://en.wikipedia.org/wiki/X86).
+Rundown: The CPU was a 8086, or 80286, 80386, 80486... or just ["X86"](https://en.wikipedia.org/wiki/X86).
 Or ["IA-32"](http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html).
 Until you get to the 64-bit architectures — but that's not retrocomputing
 anymore.  (yet.)
 
-Probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it worthwhile
-to emulate any Cat's Eye Technologies project that claims to run on an "IBM PC compatible."
+For any Cat's Eye Technologies project that claims to run on an "IBM PC compatible,"
+probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it worthwhile.
 
 Some modern PC's can handle running that sort of legacy setup, but most don't.
 Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
@@ -133,31 +123,38 @@ Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
 For emulators, specifications, and other resources,
 see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
 
-running...
+**[BefOS][]** is an "operating system" for this architecture.
+But it's incomplete and terrible.
+Generally you would instead be running...
 
 ### MS-DOS
 
 *   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
 
-By [Microsoft](http://microsoft.com/).  
-
-There's a good free clone of it called [FreeDOS](http://www.freedos.org/) which is
+Rundown: By [Microsoft](http://microsoft.com/).  There's a good free clone of it
+called [FreeDOS](http://www.freedos.org/) which is
 written in (I'm guessing) C99 and assembler and distributed under the GPL.
-
 Can run `.BAT` files.  And `x86` machine code `.COM` files.
-
 [DJGPP](http://www.delorie.com/djgpp/) is a port of GCC to MS-DOS.
-
 Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/).
 
-Emulators include [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL, recommended).
+I wouldn't assume any modern Windows installation can handle running MS-DOS
+programs directly anymore.  Better to run it under an emulator.
 
-QEMU can actually emulate many more architectures than just the IBM PC compatible.
+Emulators: there are a few recommended choices here:
 
-A project which has this as a dependency
-assumes that it will be running under MS-DOS or something
-which emulates MS-DOS sufficiently well. This includes both the standard
-DOS `INT 21h` handler, and the standard DOS utilies like, for example,
+*   [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL)
+    is an emulator, available for many systems, which
+    simulates both an IBM PC compatible and
+    MS-DOS on top of it.  It should be plenty sufficient for running
+    DOS-based software found here.
+*   For a more heavyweight solution, you could install [FreeDOS](http://www.freedos.org/)
+    on a PC emulator such as [QEMU](http://www.qemu-project.org/).
+    (Note that QEMU can actually emulate many more architectures than just the IBM PC.)
+
+Any Cat's Eye Technologies project which claims to need MS-DOS only needs
+something which emulates MS-DOS sufficiently well. This includes both the
+standard DOS `INT 21h` handler, and the standard DOS utilies like, for example,
 `TYPE` and `DEBUG.COM`.
 
 There are only two projects of Cat's Eye Technologies' that
@@ -165,32 +162,17 @@ require MS-DOS (or a compatible operating system) anymore, and
 these dependencies are only partial:
 
 **[Shelta][]** is a programming language.
+Shelta can be built under any system with a [NASM][] assembler,
+but requires DOS to run, and the executables it produces also
+run only under DOS (unless you bypass that part of the stdlib).
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
-
-*   Shelta can be built under any system with a [NASM][] assembler,
-    but requires DOS to run, and the executables it produces also
-    run only under DOS; and
-*   ILLGOL can be built and run on any system with a decent [ANSI C][]
-    compiler, such as `gcc`, but the executables it produces
-    will only run under DOS.
-
-You can try (at your own risk, of course) using the project under some
-more-or-less modern version of Windows and hope that it emulates DOS
-well enough to work. It might, it might not. If not, you have options:
-
-*   DOSBox is an emulator, available for many systems, which
-    simulates both an IBM PC compatible, and
-    MS-DOS on top of it.  It should be plenty sufficient for running
-    DOS-based software found here.
-*   For a more heavyweight solution, you could install FreeDOS
-    on a PC emulator such as QEMU.
-
-All of the above-mentioned emulators are open-source.
+ILLGOL can be built and run on any system with a decent [ANSI C][]
+compiler, such as `gcc`, but the executables it produces
+will only run under DOS.
 
 ### Z80
 
-*   genre: machine language
 *   specification-link: 'http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf'
 *   wikipedia: [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80)
 
@@ -209,7 +191,7 @@ fiction onto a multitude of home computers.
 
 (TODO: look up spec, i'm sure it's online.)
 
-**[Zplet](https://github.com/catseye/Zplet/)** is a Java application which emulates a Z-Machine.
+[Zplet](https://github.com/catseye/Zplet/) is a Java application which emulates a Z-Machine.
 
 There are other, better emulators, such as Frotz.
 
@@ -226,3 +208,5 @@ There are other, better emulators, such as Frotz.
 [Shelta]: http://catseye.tc/node/Shelta
 [ILLGOL]: http://catseye.tc/node/ILLGOL
 [Mildred]: http://catseye.tc/node/Mildred
+[Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
+[NASM]: http://www.nasm.us/
