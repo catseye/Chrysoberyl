@@ -3,32 +3,6 @@
 # and emulators for them
 
 
-Commodore 64:
-  type: Platform
-  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
-  development-stage: vintage
-  links:
-  - http://www.zimmers.net/anonftp/pub/cbm/
-  wikipedia: Commodore_64
-  native-language: 6502 machine code
-  other-languages:
-  - Commodore BASIC 2.0
-  description: |
-    A home computer of old.  You may have heard of it?
-
-Commodore BASIC 2.0:
-  # should we consider 2.0 to be just a language version?
-  type: Programming Language
-  genre: Production language
-  member-of: BASIC
-  paradigms:
-  - Imperative
-  computational-class: believed Turing-complete
-  specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm
-  development-stage: vintage
-  authors: []
-
-
 native code:
   type: Programming Language
   genre: Machine language
