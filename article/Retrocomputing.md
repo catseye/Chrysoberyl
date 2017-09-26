@@ -130,7 +130,7 @@ AmigaDOS.  It was developed by Microsoft.
 
 Emulators: There's an emulator for the Amiga 500 architecture (and several other models such as the Amiga 2000)
 called UAE.  It's written in C++ and available under the GPL, and while the build of it for windows,
-[WinUAE](http://www.winuae.net/), seems basically stable, every decade or so the *nix version gets forked into
+[WinUAE](http://www.winuae.net/), seems basically stable, every decade or so the Unix version gets forked into
 a new incarnation.  A few years ago, [E-UAE](http://www.rcdrummond.net/uae/) was the thing to use, but now it's
 apparently [FS-UAE](https://fs-uae.net/).
 
@@ -167,7 +167,7 @@ Generally you would instead be running...
 Rundown: By [Microsoft](http://microsoft.com/).  There's a good free clone of it
 called [FreeDOS](http://www.freedos.org/) which is
 written in (I'm guessing) C99 and assembler and distributed under the GPL.
-Can run `.BAT` files.  And `x86` machine code `.COM` files.
+Can run `.BAT` files.  And x86 machine code `.COM` files.
 [DJGPP](http://www.delorie.com/djgpp/) is a port of GCC to MS-DOS.
 Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/).
 
@@ -222,17 +222,17 @@ will only run under DOS.
 The [Z80](http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf)
 is another 8-bit CPU that was popular.
 
-#### Mildred
-
-![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
-
-**[Mildred][]** is a Z80-based homebrew computer.
-
 Here are some links:
 
 *   [Home of the Z80 CPU](http://www.z80.info/) — Lots of useful Z80 information, plus a clock circuit
 *   [TI-85 Assembler Programming](http://www.sealiesoftware.com/ti-asm/) — Z80 tutorial for the TI-85 calculator
 *   [Opening up Microchips](http://zeptobars.ru/en/read/open-microchip-asic-what-inside-II-msp430-pic-z80) — Innards of a Z80, and more
+
+#### Mildred
+
+![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
+
+**[Mildred][]** is a Z80-based homebrew computer.
 
 ### Z-Machine
 
