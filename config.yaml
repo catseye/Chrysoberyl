@@ -52,6 +52,7 @@ node:
     John Conway: https://en.wikipedia.org/wiki/John_Horton_Conway
     Schrödinger's Cat: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
     Open-source: https://en.wikipedia.org/wiki/Open-source_model
+    Closure: https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
 installation:
   data_dirs:
