@@ -53,6 +53,8 @@ node:
     Schrödinger's Cat: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
     Open-source: https://en.wikipedia.org/wiki/Open-source_model
     Closure: https://en.wikipedia.org/wiki/Closure_(computer_programming)
+    Retrocomputing: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md
+    Z80 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z80
 
 installation:
   data_dirs:
