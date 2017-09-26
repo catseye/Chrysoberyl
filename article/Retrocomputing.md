@@ -65,7 +65,7 @@ in its class.
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
 
-![SITU-PAN](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+![SITU-PAN](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nr19flxudE1tvda25_540.jpg)
 
 **[SITU-PAN][]** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 
@@ -79,15 +79,16 @@ Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector
 Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
 to any one architecture.
 
-![SITU-MON](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+![SITU-MON](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nrdcglfU4p1tvda25_540.png)
 
 **[SITU-MON][]** is a machine language monitor for 6502-based systems, written (by hand!) during RetroChallenge 2015/07 and entered into an emulated Commodore 64 using SITU-PAN.
 
-![SITU-SOL](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+![SITU-SOL](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nrw4gcaz1J1tvda25_540.png)
 
 **[SITU-SOL][]** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
 
-![SixtyPical](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+![SixtyPical program](https://pbs.twimg.com/media/CSAznWgUsAEOCwB.png)
+![SixtyPical output](https://pbs.twimg.com/media/CSAznX7UsAAZki4.png)
 
 **[SixtyPical][]** is a language very close to 6502 assembly code, but also defining an abstract interpretation
 of the code.
