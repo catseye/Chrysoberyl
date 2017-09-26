@@ -74,6 +74,13 @@ in C++ and available under the GPL.
 
 ### MS-DOS
 
+*   wikipedia: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
+
+The CPU is a 8086, or 80286, 80386, 80486... or just ["X86"](https://en.wikipedia.org/wiki/X86).
+Or ["IA-32"](http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html).
+Until you get to the 64-bit architectures — but that's not retrocomputing
+anymore.  (yet.)
+
 For emulators, specifications, and other resources,
 see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
 
