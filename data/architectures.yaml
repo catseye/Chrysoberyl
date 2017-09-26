@@ -1,39 +1,6 @@
 # encoding: UTF-8
 # architectures, also their machine languages and other supported languages,
 # and emulators for them
-Amiga 500:
-  type: Platform
-  # for now...
-  no-specification: true
-  # even if it isn't technically vintage, it's really close
-  development-stage: vintage
-  native-language: 68000 machine code
-  other-languages: []
-  wikipedia: Amiga_500
-  description: |
-    A home computer of old.  You may have heard of it?
-
-68000 machine code:
-  type: Programming Language
-  genre: Machine language
-  paradigms:
-  - Imperative
-  computational-class: Finite-automata-complete
-  no-specification: true
-  development-stage: mature
-  authors: []
-
-E-UAE:
-  type: Implementation
-  implementation-of:
-  - Amiga 500
-  implementation-type: emulator
-  generally-recommended: true
-  host-language: C++
-  license: GPL
-  links:
-  - 'http://www.rcdrummond.net/uae/'
-
 
 Apple II:
   type: Platform

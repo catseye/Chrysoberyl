@@ -55,6 +55,9 @@ node:
     Closure: https://en.wikipedia.org/wiki/Closure_(computer_programming)
     Retrocomputing: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md
     Z80 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z80
+    Amiga 500: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#amiga-500
+    E-UAE: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#amiga-500
+    AmigaDOS 1.3: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#amiga-500
 
 installation:
   data_dirs:

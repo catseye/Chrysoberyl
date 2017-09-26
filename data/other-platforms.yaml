@@ -192,29 +192,6 @@ VBScript:
   authors: []
 
 
-AmigaDOS 1.3:
-  type: Platform
-  description: |
-    This is the version of Amiga's operating system which was current
-    when the [[Amiga 500]] was a really popular video-gaming home computer.
-  wikipedia: AmigaDOS
-  specification-link: 'http://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf'
-  development-stage: vintage
-  native-language: 68000 machine code
-  other-languages:
-  - AmigaBasic
-
-AmigaBasic:
-  type: Programming Language
-  genre: Production language
-  member-of: BASIC
-  standards-body: http://microsoft.com/
-  development-stage: vintage
-  paradigms:
-  - Imperative
-  authors: []
-
-
 Java applet:
   type: Platform
   specification-link: http://www.oracle.com/technetwork/java/index.html
