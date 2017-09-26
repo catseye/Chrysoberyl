@@ -18,6 +18,8 @@ Emulators: [AppleWin](http://applewin.berlios.de/) is an emulator for the Apple 
 written in C++ and distributed under the GPL.  [linapple](https://github.com/catseye/linapple)
 is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of others.
 
+![Apple Befunge](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[Apple Befunge][]** is an implementation of Befunge for the Apple II.
 It was written for the Apple ][+, but should also run on an Apple //e.
 
@@ -30,6 +32,8 @@ in the Commodore 64.
 
 Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
 distributed under the GPL, is a generally recommended emulator for the VIC-20.
+
+![Dungeons of Ekileugor](http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
 
 **[Dungeons of Ekileugor][]** is a roguelike.
 
@@ -48,14 +52,20 @@ Also, [JaC64](https://github.com/catseye/JaC64) is a GPL Java application which 
 Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
 We forked it to fix some bugs and because mainline development seemed stalled.
 
+![Bubble Escape 2K](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
+
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
 a multi-screen maze. It was originally designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
 rewritten in 6502 assembly language in the late 00's. The assembly version was pared down so that (crunched) it
 fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Compo 2009 where it won first place
 in its class.
 
+![DiskSumo](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
+
+![SITU-PAN](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
 
 **[SITU-PAN][]** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 
@@ -69,9 +79,15 @@ Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector
 Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
 to any one architecture.
 
+![SITU-MON](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[SITU-MON][]** is a machine language monitor for 6502-based systems, written (by hand!) during RetroChallenge 2015/07 and entered into an emulated Commodore 64 using SITU-PAN.
 
+![SITU-SOL](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[SITU-SOL][]** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
+
+![SixtyPical](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
 
 **[SixtyPical][]** is a language very close to 6502 assembly code, but also defining an abstract interpretation
 of the code.
@@ -123,6 +139,8 @@ Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
 For emulators, specifications, and other resources,
 see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
 
+![BefOS](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[BefOS][]** is an "operating system" for this architecture.
 But it's incomplete and terrible.
 Generally you would instead be running...
@@ -161,10 +179,14 @@ There are only two projects of Cat's Eye Technologies' that
 require MS-DOS (or a compatible operating system) anymore, and
 these dependencies are only partial:
 
+![Shelta](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
+
 **[Shelta][]** is a programming language.
 Shelta can be built under any system with a [NASM][] assembler,
 but requires DOS to run, and the executables it produces also
 run only under DOS (unless you bypass that part of the stdlib).
+
+![ILLGOL](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
 ILLGOL can be built and run on any system with a decent [ANSI C][]
@@ -177,6 +199,9 @@ will only run under DOS.
 
 The [Z80](http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf)
 is another 8-bit CPU that was popular.
+
+![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
+
 **[Mildred][]** is a Z80-based homebrew computer.
 
 Here are some links:
@@ -197,6 +222,11 @@ Here are its [specifications documents](http://inform-fiction.org/zmachine/stand
 Emulators: [Zplet](https://github.com/catseye/Zplet/) is a Java application which emulates a Z-Machine.
 There are other, much better emulators, such as Frotz.
 
+![The Never-Ending Maze](http://catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+
+**[The Never-Ending Maze][]** is an Infocom-style text adventure game based on the defining cultural phenomenon
+of a generation. (Possibly.)
+
 - - - -
 
 [Apple II]: http://catseye.tc/node/Apple_II
@@ -216,3 +246,5 @@ There are other, much better emulators, such as Frotz.
 [SITU-PAN]: http://catseye.tc/node/SITU-PAN
 [SITU-SOL]: http://catseye.tc/node/SITU-SOL
 [SITU-MON]: http://catseye.tc/node/SITU-MON
+[BefOS]: http://catseye.tc/node/BefOS
+[The Never-Ending Maze]: http://catseye.tc/node/The_Never-Ending_Maze
