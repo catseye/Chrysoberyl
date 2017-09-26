@@ -20,6 +20,12 @@ There was also an "Integer Basic".
 
 **[Apple Befunge][]** is an implementation of Befunge for the Apple II.
 
+Cat's Eye Technologies' Applesoft BASIC offerings
+assume that they will be running on an Apple ][+, but
+will generally also run on an Apple //e.
+Of course, these days, it's more likely you'd be running
+this software on an emulator instead of a museum piece.
+
 [AppleWin](http://applewin.berlios.de/) is an emulator for the Apple II, built for Windows,
 written in C++ and distributed under the GPL.
 
@@ -62,6 +68,10 @@ XMODEM protocol at 300 baud.
 **SITU-PAN** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 
 Lots of C64 stuff at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
+
+[JaC64](https://github.com/catseye/JaC64) is a GPL Java application which emulates a Commodore 64.
+Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
+We forked it to fix some bugs and because mainline development seemed stalled.
 
 ### 6502
 
@@ -114,6 +124,12 @@ Or ["IA-32"](http://www.intel.com/content/www/us/en/architecture-and-technology/
 Until you get to the 64-bit architectures — but that's not retrocomputing
 anymore.  (yet.)
 
+Probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it worthwhile
+to emulate any Cat's Eye Technologies project that claims to run on an "IBM PC compatible."
+
+Some modern PC's can handle running that sort of legacy setup, but most don't.
+Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
+
 For emulators, specifications, and other resources,
 see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
 
@@ -136,9 +152,41 @@ Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x
 
 Emulators include [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL, recommended).
 
+QEMU can actually emulate many more architectures than just the IBM PC compatible.
+
+A project which has this as a dependency
+assumes that it will be running under MS-DOS or something
+which emulates MS-DOS sufficiently well. This includes both the standard
+DOS `INT 21h` handler, and the standard DOS utilies like, for example,
+`TYPE` and `DEBUG.COM`.
+
+There are only two projects of Cat's Eye Technologies' that
+require MS-DOS (or a compatible operating system) anymore, and
+these dependencies are only partial:
+
 **[Shelta][]** is a programming language.
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
+
+*   Shelta can be built under any system with a [NASM][] assembler,
+    but requires DOS to run, and the executables it produces also
+    run only under DOS; and
+*   ILLGOL can be built and run on any system with a decent [ANSI C][]
+    compiler, such as `gcc`, but the executables it produces
+    will only run under DOS.
+
+You can try (at your own risk, of course) using the project under some
+more-or-less modern version of Windows and hope that it emulates DOS
+well enough to work. It might, it might not. If not, you have options:
+
+*   DOSBox is an emulator, available for many systems, which
+    simulates both an IBM PC compatible, and
+    MS-DOS on top of it.  It should be plenty sufficient for running
+    DOS-based software found here.
+*   For a more heavyweight solution, you could install FreeDOS
+    on a PC emulator such as QEMU.
+
+All of the above-mentioned emulators are open-source.
 
 ### Z80
 

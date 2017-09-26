@@ -163,6 +163,14 @@ class Renderer(object):
             return self.universe.get_node(key, default_space=space)
 
         @expose
+        def has_node(key=key, space=self.space):
+            try:
+                node = self.universe.get_node(key, default_space=space)
+                return True
+            except:
+                return False
+
+        @expose
         def get_space(name=None):
             if name is None:
                 return self.space
@@ -741,6 +749,10 @@ class Renderer(object):
                 continue
             if render_nodes and key not in render_nodes:
                 continue
-            self.render_node(key, node)
+            try:
+                self.render_node(key, node)
+            except Exception:
+                print("EXCEPTION when rendering %r:" % key)
+                raise
             count += 1
         print "%d files written." % count
