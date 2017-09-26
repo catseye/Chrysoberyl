@@ -2,19 +2,6 @@
 # architectures, also their machine languages and other supported languages,
 # and emulators for them
 
-Apple II:
-  type: Platform
-  # haha
-  standards-body: http://apple.com/
-  development-stage: vintage
-  native-language: 6502 machine code
-  other-languages:
-  - Applesoft BASIC
-  links:
-  - 'http://www.zophar.net/apple2.html'
-  wikipedia: Apple_II
-  description: |
-    A home computer of old.  You may have heard of it?
 
 6502 machine code:
   type: Programming Language
@@ -36,36 +23,6 @@ Apple II:
     url: http://www.cc65.org/
     description: Freeware C compiler for 6502-based systems
   authors: []
-
-Applesoft BASIC:
-  type: Programming Language
-  genre: Production language
-  member-of: BASIC
-  paradigms:
-  - Imperative
-  computational-class: believed Turing-complete
-  specification-link: http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual
-  development-stage: vintage
-  authors: []
-  links:
-  - 'http://www.zophar.net/apple2.html'
-  wikipedia: Applesoft_BASIC
-  description: |
-    Applesoft BASIC was a dialect of [[BASIC]] that was available for
-    (in fact, generally shipped with) the [[Apple II]] series of
-    microcomputers, including the Apple ][+ and Apple //e.
-
-AppleWin:
-  type: Implementation
-  implementation-of:
-  - Apple II
-  implementation-type: emulator
-  prebuilt-for-platforms:
-  - Windows
-  links:
-  - 'http://applewin.berlios.de/'
-  license: GPL
-  host-language: C++
 
 
 Commodore 64:
