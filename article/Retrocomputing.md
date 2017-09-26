@@ -34,6 +34,6 @@ Here are some links:
 [Commodore 64]: http://catseye.tc/node/Commodore_64
 [Amiga 500]: http://catseye.tc/node/Amiga_500
 [MS-DOS]: http://catseye.tc/node/MS-DOS
-[Shelta][]: http://catseye.tc/node/Shelta
-[ILLGOL][]: http://catseye.tc/node/ILLGOL
-[Mildred][]: http://catseye.tc/node/Mildred
+[Shelta]: http://catseye.tc/node/Shelta
+[ILLGOL]: http://catseye.tc/node/ILLGOL
+[Mildred]: http://catseye.tc/node/Mildred
