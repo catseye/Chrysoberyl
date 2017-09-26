@@ -338,8 +338,11 @@ def count(universe, options, config):
             types.setdefault(node['type'], 0)
             types[node['type']] += 1
     pairs = [(value, key) for (key, value) in types.iteritems()]
+    total = 0
     for value, key in sorted(pairs):
         print(key, value)
+        total += value
+    print('Total', total)
 
 
 ### driver ###
