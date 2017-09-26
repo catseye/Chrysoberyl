@@ -10,13 +10,14 @@ often, an emulation of such a computer on a modern computer instead.
 
 Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
 The CPU was a 6502.
-[Applesoft BASIC](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual)
+[Applesoft BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC)
+(with a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual))
 was a dialect of BASIC that was available for (in fact, generally shipped with) these computers.
 There was also an "Integer Basic".
 
-Emulators: [AppleWin](http://applewin.berlios.de/) is an emulator for the Apple II, built for Windows,
-written in C++ and distributed under the GPL.  [linapple](https://github.com/catseye/linapple)
-is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of others.
+Emulators: [AppleWin](https://www.zophar.net/apple2/applewin.html) is an emulator for the Apple II, built for Windows,
+written in C++ and distributed under the GPL.  [Linapple](https://github.com/catseye/linapple)
+is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of other emulators.
 
 #### Apple Befunge
 
@@ -47,7 +48,7 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 Rundown: The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM;
 this is the same BASIC that was in the VIC-20.
-[The Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it a guide?
+The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it merely a guide?
 Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
 
 Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
@@ -85,6 +86,8 @@ XMODEM protocol at 300 baud.
 
 The common thread of the above 3 architectures is that they all have a 6502 processor.
 Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf) (PDF).
+There are also a couple of C compilers that target 6502, famously [cc65](http://cc65.github.io/cc65/),
+but also [scc6502, a Small-C for 6502 and LUnix](https://web.archive.org/web/20110106052323/http://www.reocities.com/SiliconValley/Way/4588/scc6502.html).
 
 Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
 to any one architecture.
@@ -109,12 +112,6 @@ to any one architecture.
 **[SixtyPical][]** is a language very close to 6502 assembly code, but also defining an abstract interpretation
 of the code.
 
-Here are some links:
-
-*   [6502 Instruction Set reference](http://www.obelisk.demon.co.uk/6502/instructions.html)
-*   [scc6502](http://www.reocities.com/SiliconValley/Way/4588/scc6502.html) Small-C for 6502 and LUnix
-*   [cc65](http://www.cc65.org/) Freeware C compiler for 6502-based systems
-
 ### Amiga 500
 
 *   wikipedia: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
@@ -123,7 +120,7 @@ Rundown: The CPU was a Motorola 68000, but this could be upgraded to a 68020, et
 (and needed to be if you wanted memory protection).  It had many custom chips
 with colourful names such as "Angus" and "Paula".
 
-[AmigaDOS 1.3](http://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf)
+AmigaDOS 1.3 (with a [manual online here](http://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf))
 was the version of Amiga's operating system which was current when the Amiga 500
 was a really popular home computer — mostly for video games, but also for graphics
 and video processing, such as ray-tracing and animation.
@@ -131,12 +128,11 @@ and video processing, such as ray-tracing and animation.
 AmigaBasic was the name of the "advanced" variant of BASIC that shipped with
 AmigaDOS.  It was developed by Microsoft.
 
-Emulators: There's an emulator for the Amiga 500
-architecture (and several other models such as the Amiga 2000)
-called UAE which.  It's written in C++ and available under the GPL, and
-every decade or so, gets forked into a new incarnation.  A few years ago,
-[E-UAE](http://www.rcdrummond.net/uae/) was the thing, but now it's
-apparently FS-UAE.
+Emulators: There's an emulator for the Amiga 500 architecture (and several other models such as the Amiga 2000)
+called UAE.  It's written in C++ and available under the GPL, and while the build of it for windows,
+[WinUAE](http://www.winuae.net/), seems basically stable, every decade or so the *nix version gets forked into
+a new incarnation.  A few years ago, [E-UAE](http://www.rcdrummond.net/uae/) was the thing to use, but now it's
+apparently [FS-UAE](https://fs-uae.net/).
 
 ### IBM PC compatible
 
@@ -188,6 +184,9 @@ Emulators: there are a few recommended choices here:
 *   For a more heavyweight solution, you could install [FreeDOS](http://www.freedos.org/)
     on a PC emulator such as [QEMU](http://www.qemu-project.org/).
     (Note that QEMU can actually emulate many more architectures than just the IBM PC.)
+
+For other emulators, specifications, and other resources,
+see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
 
 Any Cat's Eye Technologies project which claims to need MS-DOS only needs
 something which emulates MS-DOS sufficiently well. This includes both the
