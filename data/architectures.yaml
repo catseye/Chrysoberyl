@@ -50,36 +50,6 @@ Commodore BASIC 2.0:
   development-stage: vintage
   authors: []
 
-VICE:
-  type: Implementation
-  implementation-of:
-  - Commodore 64
-  - Commodore VIC-20
-  - Commodore BASIC 2.0
-  implementation-type: emulator
-  prebuilt-for-platforms:
-  - native code
-  license: GPL
-  links:
-  - 'http://vice-emu.sourceforge.net/'
-  host-language: C99
-  generally-recommended: true
-  description: |
-    VICE is often called a Commodore 64 emulator, but
-    the VICE distribution actually contains emulators for many
-    Commodore computers: Commodore 64, Commodore 128, Vic 20, PET, etc,
-
-
-Commodore VIC-20:
-  type: Platform
-  no-specification: true
-  development-stage: vintage
-  native-language: 6502 machine code
-  other-languages:
-  - Commodore BASIC 2.0
-  description: |
-    A home computer of old.  You may have heard of it?
-
 
 native code:
   type: Programming Language

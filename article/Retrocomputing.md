@@ -27,7 +27,12 @@ There is also LinApple.
 
 ### Commodore VIC-20
 
-The CPU was a 6502.
+*   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
+
+The CPU was a 6502.  Commodore BASIC 2.0 was in the ROM.
+
+The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 **[Dungeons of Ekileugor][]** is a roguelike.
 
@@ -35,7 +40,10 @@ The CPU was a 6502.
 
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
-The CPU was a 6510, which was a slightly modified 6502.
+The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM.
+
+The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+distributed under the GPL, is a generally recommended emulator for the Commodore 64.
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
 a multi-screen maze. It was originally designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
