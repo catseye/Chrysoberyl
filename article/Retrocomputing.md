@@ -74,6 +74,9 @@ in C++ and available under the GPL.
 
 ### MS-DOS
 
+For emulators, specifications, and other resources,
+see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
+
 **[Shelta][]** is a programming language.
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.

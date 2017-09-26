@@ -110,49 +110,6 @@ x86 machine code:
   development-stage: mature
   authors: []
 
-Bochs:
-  type: Implementation
-  implementation-of:
-  - IBM PC compatible
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - 'http://bochs.sourceforge.net/'
-  license: LGPL
-  host-language: C++
-  implementation-type: emulator
-
-QEMU:
-  type: Implementation
-  implementation-of:
-  - IBM PC compatible
-  prebuilt-for-platforms:
-  - native code
-  # and a host of other contributors... we should have a facility for indicating that
-  authors:
-  - Fabrice Bellard
-  links:
-  - 'http://qemu.org/'
-  license: GPL
-  host-language: C99
-  implementation-type: emulator
-  generally-recommended: true
-
-v86:
-  type: Implementation
-  implementation-of:
-  - IBM PC compatible
-  prebuilt-for-platforms:
-  - HTML5
-  authors:
-  - Fabian Hemmer
-  links:
-  - 'https://github.com/copy/v86'
-  - 'http://copy.sh/v24/'
-  license: BSD license
-  host-language: Javascript
-  implementation-type: emulator
-
 
 native code:
   type: Programming Language
