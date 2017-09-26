@@ -68,6 +68,9 @@ node:
     Zplet: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
     IBM PC compatible: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     x86 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    MS-DOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    MS-DOS Batchfile: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    FreeDOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
 
 installation:
   data_dirs:
@@ -95,3 +98,6 @@ installation:
     Zplet: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
     IBM PC compatible: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     x86 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    MS-DOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    MS-DOS Batchfile: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    FreeDOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos

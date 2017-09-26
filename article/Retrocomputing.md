@@ -72,7 +72,7 @@ AmigaDOS.  It was developed by Microsoft.
 architecture (and several other models such as the Amiga 2000.)  E-UAE is written
 in C++ and available under the GPL.
 
-### MS-DOS
+### IBM PC compatible
 
 *   wikipedia: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
 
@@ -83,6 +83,25 @@ anymore.  (yet.)
 
 For emulators, specifications, and other resources,
 see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
+
+running...
+
+### MS-DOS
+
+*   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
+
+By [Microsoft](http://microsoft.com/).  
+
+There's a good free clone of it called [FreeDOS](http://www.freedos.org/) which is
+written in (I'm guessing) C99 and assembler and distributed under the GPL.
+
+Can run `.BAT` files.  And `x86` machine code `.COM` files.
+
+[DJGPP](http://www.delorie.com/djgpp/) is a port of GCC to MS-DOS.
+
+Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/).
+
+Emulators include [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL, recommended).
 
 **[Shelta][]** is a programming language.
 
