@@ -57,23 +57,23 @@ in its class.
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
 
-**SITU-PAN** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
+**[SITU-PAN][]** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 
 ### 6502
 
-*   wikipedia: MOS_Technology_6502
-*   specification: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+*   wikipedia: [MOS Technology 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502)
 
 The common thread of the above 3 architectures is that they all have a 6502 processor.
+Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf) (PDF).
 
 Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
 to any one architecture.
 
-**SITU-MON** is a machine language monitor for 6502-based systems, written (by hand!) during RetroChallenge 2015/07 and entered into an emulated Commodore 64 using SITU-PAN.
+**[SITU-MON][]** is a machine language monitor for 6502-based systems, written (by hand!) during RetroChallenge 2015/07 and entered into an emulated Commodore 64 using SITU-PAN.
 
-**SITU-SOL** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
+**[SITU-SOL][]** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
 
-**SixtyPical** is a language very close to 6502 assembly code, but also defining an abstract interpretation
+**[SixtyPical][]** is a language very close to 6502 assembly code, but also defining an abstract interpretation
 of the code.
 
 Here are some links:
@@ -173,9 +173,10 @@ will only run under DOS.
 
 ### Z80
 
-*   specification-link: 'http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf'
 *   wikipedia: [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80)
 
+The [Z80](http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf)
+is another 8-bit CPU that was popular.
 **[Mildred][]** is a Z80-based homebrew computer.
 
 Here are some links:
@@ -186,14 +187,15 @@ Here are some links:
 
 ### Z-Machine
 
+*   wikipedia: [Z-machine](https://en.wikipedia.org/wiki/Z-machine)
+
 It's actually a virtual machine designed by Infocom so they could port their interactive
 fiction onto a multitude of home computers.
 
-(TODO: look up spec, i'm sure it's online.)
+Here are its [specifications documents](http://inform-fiction.org/zmachine/standards/).
 
-[Zplet](https://github.com/catseye/Zplet/) is a Java application which emulates a Z-Machine.
-
-There are other, better emulators, such as Frotz.
+Emulators: [Zplet](https://github.com/catseye/Zplet/) is a Java application which emulates a Z-Machine.
+There are other, much better emulators, such as Frotz.
 
 - - - -
 
@@ -210,3 +212,7 @@ There are other, better emulators, such as Frotz.
 [Mildred]: http://catseye.tc/node/Mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: http://www.nasm.us/
+[SixtyPical]: http://catseye.tc/node/SixtyPical
+[SITU-PAN]: http://catseye.tc/node/SITU-PAN
+[SITU-SOL]: http://catseye.tc/node/SITU-SOL
+[SITU-MON]: http://catseye.tc/node/SITU-MON
