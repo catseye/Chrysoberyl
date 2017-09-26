@@ -95,6 +95,17 @@ Here are some links:
 *   [TI-85 Assembler Programming](http://www.sealiesoftware.com/ti-asm/) — Z80 tutorial for the TI-85 calculator
 *   [Opening up Microchips](http://zeptobars.ru/en/read/open-microchip-asic-what-inside-II-msp430-pic-z80) — Innards of a Z80, and more
 
+### Z-Machine
+
+It's actually a virtual machine designed by Infocom so they could port their interactive
+fiction onto a multitude of home computers.
+
+(TODO: look up spec, i'm sure it's online.)
+
+**[Zplet](https://github.com/catseye/Zplet/)** is a Java application which emulates a Z-Machine.
+
+There are other, better emulators, such as Frotz.
+
 - - - -
 
 [Apple II]: http://catseye.tc/node/Apple_II

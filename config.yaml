@@ -63,6 +63,9 @@ node:
     QEMU: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     DOSBox: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     v86: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    Z-Machine: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
+    Z-Machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
+    Zplet: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
 
 installation:
   data_dirs:
@@ -85,3 +88,6 @@ installation:
     QEMU: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     DOSBox: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     v86: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
+    Z-Machine: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
+    Z-Machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
+    Zplet: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z-machine
