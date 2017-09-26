@@ -72,6 +72,7 @@ node:
     MS-DOS Batchfile: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     FreeDOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     Commodore VIC-20: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#commodore-vic-20
+    6502 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#6502
 
 installation:
   data_dirs:
@@ -103,3 +104,4 @@ installation:
     MS-DOS Batchfile: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     FreeDOS: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#ms-dos
     Commodore VIC-20: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#commodore-vic-20
+    6502 machine code: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#6502

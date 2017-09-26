@@ -3,28 +3,6 @@
 # and emulators for them
 
 
-6502 machine code:
-  type: Programming Language
-  genre: Machine language
-  paradigms:
-  - Imperative
-  wikipedia: MOS_Technology_6502
-  computational-class: Finite-automata-complete
-  specification-link: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
-  development-stage: vintage
-  references:
-  - title: 6502 Instruction Set
-    description: 6502 Instruction Set reference
-    url: http://www.obelisk.demon.co.uk/6502/instructions.html
-  - title: scc6502
-    url: http://www.reocities.com/SiliconValley/Way/4588/scc6502.html
-    description: Small-C for 6502 and LUnix
-  - title: cc65
-    url: http://www.cc65.org/
-    description: Freeware C compiler for 6502-based systems
-  authors: []
-
-
 Commodore 64:
   type: Platform
   specification-link: http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm

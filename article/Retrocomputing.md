@@ -60,6 +60,24 @@ SITU-PAN is a front-panel switches simulator for the Commodore 64. It displays 8
 
 SITU-SOL is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
 
+### 6502
+
+*   wikipedia: MOS_Technology_6502
+*   specification: http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf
+
+The common thread of the above 3 architectures is that they all have a 6502 processor.
+
+Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
+to any one architecture.
+
+**SixtyPical**
+
+Here are some links:
+
+*   [6502 Instruction Set reference](http://www.obelisk.demon.co.uk/6502/instructions.html)
+*   [scc6502](http://www.reocities.com/SiliconValley/Way/4588/scc6502.html) Small-C for 6502 and LUnix
+*   [cc65](http://www.cc65.org/) Freeware C compiler for 6502-based systems
+
 ### Amiga 500
 
 *   wikipedia: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
