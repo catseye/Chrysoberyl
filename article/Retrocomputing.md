@@ -4,6 +4,9 @@ Retrocomputing
 Stuff done at Cat's Eye Technologies on older computers, or more
 often, an emulation of such a computer on a modern computer instead.
 
+Some of the information here is not specific to Cat's Eye Technologies
+and may be moved to [The Dossier][] at a future date.
+
 ### Apple II
 
 *   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
@@ -243,6 +246,8 @@ of a generation. (Possibly.)
 
 - - - -
 
+TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
+
 [Apple II]: http://catseye.tc/node/Apple_II
 [Apple Befunge]: http://catseye.tc/node/Apple_Befunge
 [Dungeons of Ekileugor]: http://catseye.tc/node/Dungeons_of_Ekileugor
@@ -263,3 +268,4 @@ of a generation. (Possibly.)
 [BefOS]: http://catseye.tc/node/BefOS
 [The Never-Ending Maze]: http://catseye.tc/node/The_Never-Ending_Maze
 [ANSI C]: http://catseye.tc/node/ANSI_C
+[The Dossier]: https://github.com/catseye/The-Dossier/
