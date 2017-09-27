@@ -18,31 +18,6 @@ ee distribution:
   releases: []
 
 
-JaC64:
-  type: Implementation
-  reference: false
-  in-distribution: JaC64 distribution
-  license: GPL
-  implementation-of:
-  - Commodore 64
-  implementation-type: emulator
-  host-language: Java
-  description: |
-    JaC64 is a Java application which emulates a Commodore 64.  Cat's Eye Technologies
-    uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
-
-JaC64 distribution: 
-  type: Distribution
-  reference: false
-  description: |
-    Cat's Eye Technologies' fork of JaC64, a Java application which
-    emulates a Commodore 64.  We forked it to fix some bugs and because mainline
-    development seemed stalled.
-  github: catseye/JaC64
-  fixed-tag: OMIT
-  releases: []
-
-
 miniscm:
   type: Implementation
   reference: false

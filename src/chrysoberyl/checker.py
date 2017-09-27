@@ -244,7 +244,11 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
         # the first thing.  we assume they're all the same type.  but...
         # hey, let's build something that implements both Underload and
         # Zoning Variance #5!
-        impl_of_type = data[node['implementation-of'][0]]['type']
+        implemented_thing = node['implementation-of'][0]
+        if implemented_thing in ('Commodore 64',):
+            impl_of_type = 'Platform'
+        else:
+            impl_of_type = data[implemented_thing]['type']
 
         check_scalar_ref(universe, key, node, 'license', link_priority, types=('License',))
         if 'in-distribution' in node:
@@ -292,7 +296,10 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
 
         if 'authors' not in node:
             # TODO: assert there's only one
-            pl_node = data[node['implementation-of'][0]]
+            if node['implementation-of'][0] == 'Commodore 64':
+                pl_node = {}
+            else:
+                pl_node = data[node['implementation-of'][0]]
             node['authors'] = pl_node.get('authors', [])
             node['auspices'] = pl_node.get('auspices', [])
 
