@@ -14,7 +14,7 @@ Online Installation:
     This list is of _all_ works!  You may have better luck navigating
     the online installations by going to the [front page](/) and
     browsing by one of the categories: **[[Programming Language]],**
-    **[[Gewgaw]], [[Game]], Musical Composition, [[Picture]], [[Text]],**
+    **[[Gewgaw]], [[Game]], Musical Composition, Picture, [[Text]],**
     **[[Tool]], [[Electronics Project]],** or **[[Retrocomputing]]**.
 
 Computational Class:
@@ -60,9 +60,7 @@ Implementation:
     [[Tool|tools]],
     [[Game|games]],
     [[Electronics Project|electronics projects]],
-    [[Musical Composition|musical compositions]],
-    [[Text|texts]],
-    [[Picture|pictures]], and so forth.
+    [[Text|texts]], and so forth.
     For a more fine-grained breakdown, see those individual categories.
 Implementation Type:
   type: type
@@ -134,14 +132,6 @@ Programming Language:
     * [[The Aesthetics of Esolangs]]
 
 
-Picture:
-  type: type
-  description: |
-    Pictures — drawings, paintings, photos, computer-generated images, whatever.
-    
-    Note that concrete poetry and the like may be
-    categorized under Pictures, or [[Text]]s, or both.
-
 Image Format:
   type: type
 
@@ -177,7 +167,7 @@ Text:
     These are texts that stand as works on their own.
     
     Note that concrete poetry and the like may be
-    categorized under Texts, or [[Picture]]s, or both.
+    categorized under Texts, or Pictures, or both.
   ordered-within:
   - The Swallows
   - The Swallows of Summer
