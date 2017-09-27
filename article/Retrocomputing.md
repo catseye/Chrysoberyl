@@ -21,8 +21,6 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 
 #### Apple Befunge
 
-![Apple Befunge](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
-
 **[Apple Befunge][]** is an implementation of Befunge for the Apple II.
 It was written for the Apple ][+, but should also run on an Apple //e.
 
@@ -69,14 +67,10 @@ in its class.
 
 #### DiskSumo
 
-![DiskSumo](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
-
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
 
 #### SITU-PAN
-
-![SITU-PAN](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nr19flxudE1tvda25_540.jpg)
 
 **[SITU-PAN][]** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 
@@ -154,8 +148,6 @@ see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/
 
 #### BefOS
 
-![BefOS](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
-
 **[BefOS][]** is an "operating system" for this architecture.
 But it's incomplete and terrible.
 Generally you would instead be running...
@@ -199,16 +191,12 @@ these dependencies are only partial:
 
 #### Shelta
 
-![Shelta](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
-
 **[Shelta][]** is a programming language.
 Shelta can be built under any system with a [NASM][] assembler,
 but requires DOS to run, and the executables it produces also
 run only under DOS (unless you bypass that part of the stdlib).
 
 #### ILLGOL
-
-![ILLGOL](http://catseye.tc/images/screenshots/No_Preview_Available.jpg)
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
 ILLGOL can be built and run on any system with a decent [ANSI C][]
