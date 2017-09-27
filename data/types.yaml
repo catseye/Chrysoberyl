@@ -15,7 +15,7 @@ Online Installation:
     the online installations by going to the [front page](/) and
     browsing by one of the categories: **[[Programming Language]],**
     **[[Gewgaw]], [[Game]], Musical Composition, [[Picture]], [[Text]],**
-    **[[Tool]], [[Electronics Project]],** or **[[Retrocomputing]]**.
+    **[[Tool]], Electronics Project,** or **[[Retrocomputing]]**.
 
 Computational Class:
   type: type
@@ -59,7 +59,7 @@ Implementation:
     [[Library|libraries]],
     [[Tool|tools]],
     [[Game|games]],
-    [[Electronics Project|electronics projects]],
+    electronics projects,
     [[Musical Composition|musical compositions]],
     [[Text|texts]],
     [[Picture|pictures]], and so forth.
@@ -192,41 +192,5 @@ Text:
   - Cheshire Text
 
 # these are implementables too, but that property is less exploited for them
-Electronics Project:
-  type: type
-  references:
-  - url: http://www.intio.or.jp/jf10zl/
-    title: JF10ZL
-    description: Beautifully perverse Ham Radio projects
-  - url: http://www.hanssummers.com/
-    title: Hans Summers' Projects
-    description: Nixie Clocks, The Great Z80 Computer, Asynch CPU design, and more
-  - url: https://web.archive.org/web/20130302001557/http://www.dsaprojects.110mb.com/
-    title: David's Home Page
-    description: Truly minimal EPROM &amp; GAL programmers, and more
-  - url: http://www.reocities.com/CapeCanaveral/Lab/5185/electronics.html
-    title: The Electric Wave
-    description: Interesting circuits for oscillators, converters, and more
-  - url: http://www.afrotechmods.com/
-    title: Afrotech
-    description: '"Ghetto hardware fun"'
-  - url: http://www.all-electric.com/b&amp;cmain.html
-    title: Bread &amp; Circuits
-    description: Audio engineering and other circuits at the All Electric Kitchen
-  - url: https://web.archive.org/web/20131121103753/http://dpfwiw.com/batteries.htm
-    title: Batteries @ dpFWIW
-    description: Gobs of info about batteries (not just in digital cameras)
-  - url: http://www.du.edu/~etuttle/electron/elecindx.htm
-    title: A Review of Electronics
-    description: Many tested experiments, plus theory and history
-  - url: http://www.kingswood-consulting.co.uk/giicm/
-    title: GIICM
-    description: Pinouts for many common IC's
-  - url: http://www.alldatasheet.com/
-    title: Alldatasheet.com
-    description: Large, free datasheet database
-  - url: http://www.falstad.com/circuit/
-    title: Circuit Simulator
-    description: Circuit Simulator in a Java™ Applet
 Database:
   type: type
