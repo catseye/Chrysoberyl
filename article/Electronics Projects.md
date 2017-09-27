@@ -50,7 +50,7 @@ Links
 * [Afrotech](http://www.afrotechmods.com/) - "Ghetto hardware fun"
 * [Bread &amp; Circuits](http://www.all-electric.com/b&amp;cmain.html) - Audio engineering and other circuits at the All Electric Kitchen
 * [Batteries @ dpFWIW](https://web.archive.org/web/20131121103753/http://dpfwiw.com/batteries.htm) - Gobs of info about batteries (not just in digital cameras)
-* [A Review of Electronics](http://www.du.edu/~etuttle/electron/elecindx.htm) - Many tested experiments, plus theory and history
+* [A Review of Electronics](http://mysite.du.edu/~etuttle/electron/elecindx.htm) - Many tested experiments, plus theory and history
 * [GIICM](http://www.kingswood-consulting.co.uk/giicm/) - Pinouts for many common IC's
 * [Alldatasheet.com](http://www.alldatasheet.com/) - Large, free datasheet database
 * [Circuit Simulator](http://www.falstad.com/circuit/) - Circuit Simulator in a Java™ Applet
