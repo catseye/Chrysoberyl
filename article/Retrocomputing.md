@@ -24,8 +24,9 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 
 #### Apple Befunge
 
-**[Apple Befunge][]** is an implementation of Befunge for the Apple II.
-It was written for the Apple ][+, but should also run on an Apple //e.
+**[Apple Befunge][]** is a variant of Befunge for the Apple II which resembles
+Befunge-93, with some extra Befunge-96-esque instructions and some Apple II-specific
+instructions.  It was written for the Apple ][+, but should also run on an Apple //e.
 
 ### Commodore VIC-20
 
@@ -41,7 +42,10 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 ![Dungeons of Ekileugor](http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
 
-**[Dungeons of Ekileugor][]** is a roguelike.
+**[Dungeons of Ekileugor][]** is a roguelike written for the *unexpanded* Commodore VIC-20, which,
+despite the limitations of that platform, supports a respectable set of the usual "dungeon furniture":
+reasonably generated dungeon levels with tunnels and rooms whose contents are hidden until you enter,
+monsters, treasure, potions, traps, chests, combat with experience points, etc.
 
 ### Commodore 64
 
@@ -106,8 +110,8 @@ to any one architecture.
 ![SixtyPical program](https://pbs.twimg.com/media/CSAznWgUsAEOCwB.png)
 ![SixtyPical output](https://pbs.twimg.com/media/CSAznX7UsAAZki4.png)
 
-**[SixtyPical][]** is a language very close to 6502 assembly code, but also defining an abstract interpretation
-of the code.
+**[SixtyPical][]** is a very low-level programming language, similar to 6502 assembly, which defines a set of
+static analyses via type-checking and abstract interpretation (liveness analysis of variables, i.e. memory locations.)
 
 ### Amiga 500
 
@@ -194,7 +198,13 @@ these dependencies are only partial:
 
 #### Shelta
 
-**[Shelta][]** is a programming language.
+**[Shelta][]** is an extremely minimal Forth-like language with barely any semantics; it relies on inline
+machine code to write anything resembling an actual program in it. In the spirit of compilers for languages
+such as FALSE and brainfuck, a Shelta-to-8086 compiler was implemented (with help from Ben Olmstead) in
+less than 512 bytes of 80286 machine code. What's more, it's also been bootstrapped — that is to say, a
+Shelta compiler was written in Shelta, which was compiled with the original compiler, and then compiled
+again with the resulting compiler, producing a wholly self-hosted executable!
+
 Shelta can be built under any system with a [NASM][] assembler,
 but requires DOS to run, and the executables it produces also
 run only under DOS (unless you bypass that part of the stdlib).
@@ -202,6 +212,7 @@ run only under DOS (unless you bypass that part of the stdlib).
 #### ILLGOL
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
+
 ILLGOL can be built and run on any system with a decent [ANSI C][]
 compiler, such as `gcc`, but the executables it produces
 will only run under DOS.
@@ -223,7 +234,7 @@ Here are some links:
 
 ![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
 
-**[Mildred][]** is a Z80-based homebrew computer.
+**[Mildred][]** is a 4MHz Z80-based homebrew computer with 40K of memory (8K EEPROM, 32K SRAM.)
 
 ### Z-Machine
 
