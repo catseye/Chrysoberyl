@@ -215,6 +215,8 @@ run only under DOS (unless you bypass that part of the stdlib).
 
 #### ILLGOL
 
+![An example session with ILLGOL](http://static.catseye.tc/images/screenshots/ILLGOL.png)
+
 **[ILLGOL][]** is an illness disguised as a programming language empire.
 
 ILLGOL can be built and run on any system with a decent [ANSI C][]
