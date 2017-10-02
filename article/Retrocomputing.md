@@ -155,6 +155,8 @@ see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/
 
 #### BefOS
 
+![BefOS](http://static.catseye.tc/images/screenshots/BefOS.png)
+
 **[BefOS][]** is an "operating system" for this architecture.
 But it's incomplete and terrible.
 Generally you would instead be running...
@@ -197,6 +199,8 @@ require MS-DOS (or a compatible operating system) anymore, and
 these dependencies are only partial:
 
 #### Shelta
+
+![An example session with Shelta](http://static.catseye.tc/images/screenshots/Shelta.png)
 
 **[Shelta][]** is an extremely minimal Forth-like language with barely any semantics; it relies on inline
 machine code to write anything resembling an actual program in it. In the spirit of compilers for languages
