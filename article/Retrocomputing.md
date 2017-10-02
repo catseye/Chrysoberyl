@@ -76,6 +76,9 @@ in its class.
 
 #### DiskSumo
 
+![DiskSumo](http://static.catseye.tc/images/screenshots/DiskSumo.png)
+![DiskSumo (transfer)](http://static.catseye.tc/images/screenshots/DiskSumo%20(transfer).png)
+
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
 
