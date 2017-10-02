@@ -24,6 +24,8 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 
 #### Apple Befunge
 
+![Apple Befunge](http://static.catseye.tc/images/screenshots/Apple%20Befunge.png)
+
 **[Apple Befunge][]** is a variant of Befunge for the Apple II which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some Apple II-specific
 instructions.  It was written for the Apple ][+, but should also run on an Apple //e.
