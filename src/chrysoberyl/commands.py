@@ -56,6 +56,12 @@ def render(universe, options, config):
 
     """
     for space in universe.spaces:
+
+        link_priority_refdex = {}
+        for filename in config[space.name].get('link_priority_files', []):
+            with open(filename, 'r') as f:
+                link_priority_refdex.update(json.loads(f.read()))
+
         space.convert_chrysoberyl_data()
         r = Renderer(universe, space,
             config[space.name]['template_dirs'],
@@ -64,7 +70,7 @@ def render(universe, options, config):
             config[space.name]['projection_dir'],
             options.sleek_node_links,
             options.render_nodes,
-            config[space.name].get('link_priority', {}),
+            link_priority_refdex,
         )
         r.render_chrysoberyl_data()
 
@@ -405,7 +411,13 @@ def perform(args):
             overlay_yaml(filename, space)
 
     for key in config.keys():
-        check_chrysoberyl_data(universe, universe[key], config[key].get('link_priority', {}))
+
+        link_priority_refdex = {}
+        for filename in config[key].get('link_priority_files', []):
+            with open(filename, 'r') as f:
+                link_priority_refdex.update(json.loads(f.read()))
+
+        check_chrysoberyl_data(universe, universe[key], link_priority_refdex)
 
     for command in args:
         func = COMMANDS.get(command, None)
