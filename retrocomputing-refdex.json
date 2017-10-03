@@ -1,0 +1,90 @@
+{
+    "6502 machine code": {
+        "anchor": "6502", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Amiga 500": {
+        "anchor": "amiga-500", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "AmigaDOS 1.3": {
+        "anchor": "amiga-500", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Apple II": {
+        "anchor": "apple-ii", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Applesoft BASIC": {
+        "anchor": "apple-ii", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Commodore 64": {
+        "anchor": "commodore-64", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Commodore BASIC 2.0": {
+        "anchor": "commodore-64", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Commodore VIC-20": {
+        "anchor": "commodore-vic-20", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "DOSBox": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "E-UAE": {
+        "anchor": "amiga-500", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "FreeDOS": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "IBM PC compatible": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "JaC64": {
+        "anchor": "commodore-64", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "MS-DOS": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "MS-DOS Batchfile": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "QEMU": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Z-Machine": {
+        "anchor": "z-machine", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Z-Machine code": {
+        "anchor": "z-machine", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Z80 machine code": {
+        "anchor": "z80", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "Zplet": {
+        "anchor": "z-machine", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "v86": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
+    "x86 machine code": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }
+}
