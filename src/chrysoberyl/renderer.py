@@ -513,7 +513,6 @@ class Renderer(object):
                     return u'<a href="{}">{}</a>'.format(self.link_priority[key]['url'], key)
                 elif 'filename' in self.link_priority[key]:
                     base = 'http://catseye.tc/article/'
-                    base = 'https://github.com/catseye/Chrysoberyl/blob/master/article/'
                     return u'<a href="{}{}#{}">{}</a>'.format(
                         base, self.link_priority[key]['filename'], self.link_priority[key]['anchor'], key
                     )
