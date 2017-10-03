@@ -57,6 +57,13 @@ series of generated novels.
 *Nif* is a novel generated for [[NaNoGenMo 2013]].  It is about a petulant child
 (possibly named Nif) who has just discovered palindromes.  It is one long palindrome.
 
+*Nif* was inspired by, and draws heavily from, Nick Montfort's
+"The Utterance of the Petulant Child." In fact, it is pretty much an homage to
+"Utterance" which attempts to turn the petulance dial up to eleven, so to speak.
+Its creation was also sparked by a dim memory of the life ambition of one of
+the characters on the terrible 80's sitcom Head of the Class, which was:
+to write a novel that was one long palindrome.
+
 ### Cheshire Text
 
 *   inception-date: 2013
