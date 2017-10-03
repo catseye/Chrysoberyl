@@ -74,6 +74,19 @@ def markdown_contents(universe, contents, link_priority, prefix='../', sleek=Fal
 
         if segments[0] in link_priority:
             link_text = segments[0] if len(segments) == 1 else segments[1]
+
+            p = link_priority[segments[0]]
+            if 'url' in p:
+                return u'<a href="{}">{}</a>'.format(p['url'], link_text)
+            elif 'filename' in p:
+                base = 'http://catseye.tc/'
+                base = 'https://github.com/catseye/Chrysoberyl/blob/master/'
+                return u'<a href="{}{}#{}">{}</a>'.format(
+                    base, p['filename'], p['anchor'], link_text
+                )
+            else:
+                raise NotImplementedError
+
             return u'<a href="{}">{}</a>'.format(link_priority[segments[0]], link_text)
 
         if len(segments) == 1:
