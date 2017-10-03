@@ -55,12 +55,13 @@ def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
     """
-    link_priority_refdex = {}
-    for filename in config[space.name].get('link_priority_files', []):
-        open(filename, 'r') as f:
-            link_priority_refdex.update(json.loads(f.read()))
-
     for space in universe.spaces:
+
+        link_priority_refdex = {}
+        for filename in config[space.name].get('link_priority_files', []):
+            with open(filename, 'r') as f:
+                link_priority_refdex.update(json.loads(f.read()))
+
         space.convert_chrysoberyl_data()
         r = Renderer(universe, space,
             config[space.name]['template_dirs'],
@@ -409,27 +410,14 @@ def perform(args):
         for filename in config[key].get('overlay_files', []):
             overlay_yaml(filename, space)
 
-    if False:
-        link_prio = config['node'].get('link_priority', {})
-        link_prio_refdex1 = {}
-        link_prio_refdex2 = {}
-        for key, value in link_prio.iteritems():
-            if value.startswith('https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md') and '#' in value:
-                filename, anchor = value.split('#')
-                filename = 'Retrocomputing.md'
-                link_prio_refdex1[key] = {
-                    "anchor": anchor,
-                    "filename": filename,
-                }
-            else:
-                link_prio_refdex2[key] = {
-                    "url": value
-                }
-        print(json.dumps(link_prio_refdex1, indent=4, sort_keys=True))
-        print(json.dumps(link_prio_refdex2, indent=4, sort_keys=True))
-
     for key in config.keys():
-        check_chrysoberyl_data(universe, universe[key], config[key].get('link_priority', {}))
+
+        link_priority_refdex = {}
+        for filename in config[key].get('link_priority_files', []):
+            with open(filename, 'r') as f:
+                link_priority_refdex.update(json.loads(f.read()))
+
+        check_chrysoberyl_data(universe, universe[key], link_priority_refdex)
 
     for command in args:
         func = COMMANDS.get(command, None)

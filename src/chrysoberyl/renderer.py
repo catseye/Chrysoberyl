@@ -509,7 +509,15 @@ class Renderer(object):
 
             """
             if key in self.link_priority:
-                return u'<a href="{}">{}</a>'.format(self.link_priority[key], key)
+                if 'url' in self.link_priority[key]:
+                    return u'<a href="{}">{}</a>'.format(self.link_priority[key]['url'], key)
+                elif 'filename' in self.link_priority[key]:
+                    base = 'http://catseye.tc/article/'
+                    return u'<a href="{}{}#{}">{}</a>'.format(
+                        base, self.link_priority[key]['filename'], self.link_priority[key]['anchor'], key
+                    )
+                else:
+                    raise NotImplementedError
             if link_text is None:
                 (_, ukey, _) = self.universe.get_space_key_node(key)
                 link_text = ukey
