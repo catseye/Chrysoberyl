@@ -19,6 +19,10 @@
         "anchor": "apple-ii", 
         "filename": "Retrocomputing.md"
     }, 
+    "Bochs": {
+        "anchor": "ms-dos", 
+        "filename": "Retrocomputing.md"
+    }, 
     "Commodore 64": {
         "anchor": "commodore-64", 
         "filename": "Retrocomputing.md"
