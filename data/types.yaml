@@ -21,11 +21,6 @@ Computational Class:
   type: type
 Genre:
   type: type
-  description: |
-    This is a list of genres with entries in [[Chrysoberyl]].
-    
-    This category is a little weird, because there are genres for
-    [[Programming Language|programming languages]] and [[Game|games]] mixed together here.
 Individual:
   type: type
 Organization:

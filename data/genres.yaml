@@ -62,38 +62,19 @@ Abstract Artlang:
 Toy:
   type: Genre
 
-# GAMES
+### GAMES
 
-Guessing:
+Philosophy:
   type: Genre
-Logic:
+Guessing:
   type: Genre
 Text Adventure:
   type: Genre
-Puzzle:
+Logic:
   type: Genre
 Roguelike:
   type: Genre
 Maze-Runner:
   type: Genre
-"Shoot-'em-Up":
-  type: Genre
-Platformer:
-  type: Genre
-Sports:
-  type: Genre
-Conquest:
-  type: Genre
-Role-playing:
-  type: Genre
-
-# BOOKS
-
-Programming:
-  type: Genre
-Philosophy:
-  type: Genre
-Mathematics:
-  type: Genre
-Dictionary:
+Puzzle:
   type: Genre
