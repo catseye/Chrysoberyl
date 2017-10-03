@@ -80,6 +80,7 @@ def markdown_contents(universe, contents, link_priority, prefix='../', sleek=Fal
                 return u'<a href="{}">{}</a>'.format(p['url'], link_text)
             elif 'filename' in p:
                 base = 'http://catseye.tc/article/'
+                base = 'https://github.com/catseye/Chrysoberyl/blob/master/article/'
                 return u'<a href="{}{}#{}">{}</a>'.format(
                     base, p['filename'], p['anchor'], link_text
                 )
