@@ -11,12 +11,12 @@ Games
 *   genre: Maze-Runner
 *   inception-date: ca 1988
 
-Bubble Escape is a video game written for the [[Commodore 64]] where the
+Bubble Escape is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
-designed and implemented in [[Commodore BASIC 2.0]] in the mid-80's, and
-rewritten in [[Ophis Assembler|6502 assembly language]] in the late 00's.
+designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
+rewritten in [Ophis Assembler][] in the late 00's.
 The assembly version was pared down so that (crunched) it fit into 2K,
-christened "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
+christened "Bubble Escape 2K", and submitted to the [Mini Game Compo 2009][]
 where it won first place in its class.
 
 #### Implementation: Bubble Escape (BASIC)
@@ -64,7 +64,7 @@ where it won first place in its class.
 *   development-stage: archival
 
 Corona: Realm of Magic is an unfinished roguelike written in
-[[Perl]].  It was written on top of a framework
+[Perl][].  It was written on top of a framework
 that Cat's Eye Technologies was developing at the time
 called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse
 Interactive Entertainment Modules.)
@@ -209,37 +209,26 @@ Zzrk is a tiny adventure game written in "pure" Zz
 Implemented Games
 -----------------
 
-    Animals:
-      type: Game
-      genre: Guessing
-      vintage: true
-      description: |
-        Animals is a classic "expert system" game.  The computer asks you to think of an
-        animal, and then asks you a series of yes/no questions in an attempt to
-        discover what animal you chose.  If it comes to the wrong conclusion, it
-        asks you for a question that would distinguish the animal that you chose,
-        and adds it to its database.  In this way it "learns" about more animals
-        as more games are played.
-      # until i find a canonical description
-      no-specification: true
-      development-stage: vintage
-      authors: []
-    
-    animals.erl:
-      type: Implementation
-      implementation-of:
-      - Animals
-      in-distribution: Animals distribution
-      prebuilt-for-platforms:
-      - Erlang
-      authors:
-      - Chris Pressey
-      auspices:
-      - Cat's Eye Technologies
-      license: Public Domain
-      inception-date: ca 1999
-      host-language: Erlang
-      interface: terminal
+### Animals
+
+*   genre: Guessing
+*   authors: Unknown
+*   auspices: Unknown
+
+Animals is a classic "expert system" game.  The computer asks you to think of an
+animal, and then asks you a series of yes/no questions in an attempt to
+discover what animal you chose.  If it comes to the wrong conclusion, it
+asks you for a question that would distinguish the animal that you chose,
+and adds it to its database.  In this way it "learns" about more animals
+as more games are played.
+
+#### Implementation: animals.erl
+
+*   in-distribution: Animals distribution
+*   license: Public Domain
+*   inception-date: ca 1999
+*   host-language: Erlang
+*   interface: terminal
     
     
     Flip:
@@ -338,3 +327,10 @@ Implemented Games
         This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
       interface: GUI window
       controls: keyboard
+
+- - - -
+
+[Commodore 64]: http://catseye.tc/article/Retrocomputing#commodore-64
+[Ophis Assembler]: TBD
+[Mini Game Compo 2009]: TBD
+[Perl]: TBD
