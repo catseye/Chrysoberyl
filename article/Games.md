@@ -8,6 +8,8 @@ Games
 
 ### Bubble Escape
 
+![screenshot](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
+
 *   genre: Maze-Runner
 *   inception-date: ca 1988
 
@@ -21,43 +23,45 @@ where it won first place in its class.
 
 #### Implementation: Bubble Escape (BASIC)
 
-    reference: true
-    in-distribution: 'Bubble Escape distribution'
-    license: BSD license
-    host-language: Commodore BASIC 2.0
-    host-platform: Commodore 64
-    controls: joystick
+*   reference: true
+*   in-distribution: 'Bubble Escape distribution'
+*   license: BSD license
+*   host-language: Commodore BASIC 2.0
+*   host-platform: Commodore 64
+*   controls: joystick
 
 #### Implementation: Bubble Escape 2K
 
-    in-distribution: 'Bubble Escape distribution'
-    prebuilt-for-platforms:
-    - Commodore 64
-    license: BSD license
-    host-language: Ophis Assembler
-    host-language-version: "2.0"
-    host-platform: Commodore 64
-    build-requirements:
-    - CRUNCHER AB+
-    controls: joystick
-    submitted-to:
-    - competition: Mini Game Compo 2009
-      prize: 1st place in 2K category
-    online-locations:
-    - installation/Bubble Escape
+*   in-distribution: 'Bubble Escape distribution'
+*   prebuilt-for-platforms:
+*   - Commodore 64
+*   license: BSD license
+*   host-language: Ophis Assembler
+*   host-language-version: "2.0"
+*   host-platform: Commodore 64
+*   build-requirements:
+*   - CRUNCHER AB+
+*   controls: joystick
+*   submitted-to:
+*   - competition: Mini Game Compo 2009
+*     prize: 1st place in 2K category
+*   online-locations:
+*   - installation/Bubble Escape
 
 #### Implementation: Bubble Escape 8K
 
-    in-distribution: 'Bubble Escape distribution'
-    prebuilt-for-platforms:
-    - Commodore 64
-    license: BSD license
-    host-language: Ophis Assembler
-    host-language-version: "2.0"
-    host-platform: Commodore 64
-    controls: joystick
+*   in-distribution: 'Bubble Escape distribution'
+*   prebuilt-for-platforms:
+*   - Commodore 64
+*   license: BSD license
+*   host-language: Ophis Assembler
+*   host-language-version: "2.0"
+*   host-platform: Commodore 64
+*   controls: joystick
 
 ### Corona: Realm of Magic'
+
+![screenshot](http://catseye.tc/modules/corona-realm-of-magic/doc/carpe_ss2.gif)
 
 *   genre: Roguelike
 *   inception-date: ca Sep 2000
@@ -71,18 +75,15 @@ Interactive Entertainment Modules.)
 
 #### Implementation: Corona: Realm of Magic (Perl)
 
-    reference: true
-    in-distribution: 'Corona: Realm of Magic distribution'
-    license: BSD license
-    host-language: Perl
-    # TODO: we should handle language versions better than this
-    host-language-version: "5.8"
-    # not strictly
-    run-requirements:
-    - ANSI Terminal
-    interface: ANSI Terminal
+*   reference: true
+*   in-distribution: 'Corona: Realm of Magic distribution'
+*   license: BSD license
+*   host-language: Perl 5.8
+*   interface: ANSI Terminal
 
 ### Dungeons of Ekileugor
+
+![screenshot](http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
 
 *   genre: Roguelike
 *   inception-date: Aug 2012
@@ -96,45 +97,45 @@ etc.
 
 #### Implementation: Dungeons of Ekileugor (BASIC)
 
-    reference: true
-    in-distribution: 'Dungeons of Ekileugor distribution'
-    license: Freely Redistributable
-    host-language: Commodore BASIC 2.0
-    host-platform: Commodore VIC-20
-    controls: keyboard
+*   reference: true
+*   in-distribution: 'Dungeons of Ekileugor distribution'
+*   license: Freely Redistributable
+*   host-language: Commodore BASIC 2.0
+*   host-platform: Commodore VIC-20
+*   controls: keyboard
 
 ### Super Wumpus Land
 
-  type: Game
-  # also Text Adventure, sort of
-  genre: Logic
-  inception-date: ca 1999
-  development-stage: mature
-  description: |
-    Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
-    [[Hunt the Wumpus]].  It's playable in your web browser in a simulation
-    of an old-school green-screen video terminal.
+![screenshot](http://catseye.tc/modules/super-wumpus-land/images/Super%20Wumpus%20Land.png)
+
+*   genre: Logic
+*   inception-date: ca 1999
+
+Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
+[Hunt the Wumpus][].  It's playable in your web browser in a simulation
+of an old-school green-screen video terminal.
 
 #### Implementation: swl.pl
 
-  reference: true
-  in-distribution: Super Wumpus Land distribution
-  license: BSD license
-  host-language: Perl
-  host-language-version: "5.8"
-  interface: terminal
+*   reference: true
+*   in-distribution: Super Wumpus Land distribution
+*   license: BSD license
+*   host-language: Perl
+*   host-language-version: "5.8"
+*   interface: terminal
 
 #### Implementation: swl.js
 
-  in-distribution: Super Wumpus Land distribution
-  license: BSD license
-  host-language: Javascript
-  host-platform: HTML5
-  interface: yoob.js TextTerminal
-  online-locations:
-  - installation/Super Wumpus Land
+*   in-distribution: Super Wumpus Land distribution
+*   license: BSD license
+*   host-language: Javascript
+*   host-platform: HTML5
+*   interface: yoob.js TextTerminal
+*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 
 ### The New Gamerly Realism
+
+![screenshot](http://catseye.tc/images/illustrations/The_New_Gamerly_Realism.jpg)
 
 *   genre: Philosophy
 *   inception-date: 2015
@@ -155,21 +156,19 @@ reification of the interactions of culture.
 
 #### Implementation: the-new-gamerly-realism.js
 
-    type: Implementation
-    implementation-of:
-    - The New Gamerly Realism
-    in-distribution: The New Gamerly Realism distribution
-    reference: true
-    license: Unknown license
-    host-language: Javascript
-    host-platform: HTML5
-    online-locations:
-    - installation/The New Gamerly Realism
+*   in-distribution: The New Gamerly Realism distribution
+*   reference: true
+*   license: Unknown license
+*   host-language: Javascript
+*   host-platform: HTML5
+*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 
 ### The Never-Ending Maze
 
-  genre: Text Adventure
-  inception-date: ca 2000
+![screenshot](http://catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+
+*   genre: Text Adventure
+*   inception-date: ca 2000
 
 An Infocom-style text adventure game based on the defining cultural
 phenomenon of a generation.  (Possibly.)
@@ -188,8 +187,9 @@ phenomenon of a generation.  (Possibly.)
 
 ### Zzrk
 
-#### Adventures in the Great Unsaturated Grammar
+![screenshot](http://catseye.tc/images/illustrations/Zzrk.jpg)
 
+*   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure
 *   inception-date: ca 2005
 *   development-stage: mature
@@ -334,3 +334,4 @@ as more games are played.
 [Ophis Assembler]: TBD
 [Mini Game Compo 2009]: TBD
 [Perl]: TBD
+[Hunt the Wumpus]: TBD
