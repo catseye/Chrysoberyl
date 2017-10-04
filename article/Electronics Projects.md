@@ -11,8 +11,8 @@ Electronics Projects
 
 *   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
 *   constructed: true
-*   legacy distfile: [http://catseye.tc/distfiles/mildred-2003.0110.zip](http://catseye.tc/distfiles/mildred-2003.0110.zip)
-*   legacy distfile: [http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/mildred-2003.0110.zip](http://catseye.tc/distfiles/mildred-2003.0110.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
 
 Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM, 32K SRAM.)
 
@@ -24,7 +24,7 @@ Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM,
 
 *   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
 *   constructed: true
-*   legacy distfile: [http://catseye.tc/distfiles/led386-2004.0227.zip](http://catseye.tc/distfiles/led386-2004.0227.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/led386-2004.0227.zip](http://catseye.tc/distfiles/led386-2004.0227.zip)
 
 A 386-based LED blinker.
 
@@ -38,8 +38,8 @@ The LM386 audio amplifier IC, that is...
 
 *   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
 *   constructed: false
-*   legacy distfile: [http://catseye.tc/distfiles/kitsilano-2008.0905.zip](http://catseye.tc/distfiles/kitsilano-2008.0905.zip)
-*   legacy distfile: [http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-2008.0905.zip](http://catseye.tc/distfiles/kitsilano-2008.0905.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)
 
 An oscillator circuit that contains two NPN transistors and a single capacitor.
 
@@ -55,7 +55,7 @@ But the "distribution" in this case is almost gratuitous, so let's ship somethin
 
 *   github: [catseye/Electronics-projects](https://github.com/catseye/Electronics-Projects)
 *   download: **[http://catseye.tc/distfiles/electronics-projects-0.2.zip](http://catseye.tc/distfiles/electronics-projects-0.2.zip)**
-*   legacy distfile: [http://catseye.tc/distfiles/electronics-projects-0.1.zip](http://catseye.tc/distfiles/electronics-projects-0.1.zip)
+*   legacy distfile @ [http://catseye.tc/distfiles/electronics-projects-0.1.zip](http://catseye.tc/distfiles/electronics-projects-0.1.zip)
 
 Links
 -----
