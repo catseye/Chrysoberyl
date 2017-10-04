@@ -12,7 +12,7 @@ Games
 
 *   genre: Maze-Runner
 *   inception-date: ca 1988
-*   reference distribution: Bubble Escape distribution
+*   reference distribution: [Bubble Escape distribution](/distribution/Bubble Escape distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
 Bubble Escape is a video game written for the [Commodore 64][] where the
@@ -57,6 +57,7 @@ where it won first place in its class.
 *   genre: Roguelike
 *   inception-date: ca Sep 2000
 *   development-stage: archival
+*   reference distribution: [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
 
 Corona: Realm of Magic is an unfinished roguelike written in
 [Perl][].  It was written on top of a framework
@@ -67,7 +68,6 @@ Interactive Entertainment Modules.)
 #### Implementation: Corona: Realm of Magic (Perl)
 
 *   reference: true
-*   in-distribution: 'Corona: Realm of Magic distribution'
 *   license: BSD license
 *   host-language: Perl 5.8
 *   interface: ANSI Terminal
@@ -78,6 +78,7 @@ Interactive Entertainment Modules.)
 
 *   genre: Roguelike
 *   inception-date: Aug 2012
+*   reference distribution: [Dungeons of Ekileugor distribution](/distribution/Dungeons of Ekileugor distribution)
 
 Dungeons of Ekileugor is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
@@ -89,7 +90,6 @@ etc.
 #### Implementation: Dungeons of Ekileugor (BASIC)
 
 *   reference: true
-*   in-distribution: 'Dungeons of Ekileugor distribution'
 *   license: Freely Redistributable
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore VIC-20
@@ -102,6 +102,7 @@ etc.
 *   genre: Logic
 *   inception-date: ca 1999
 *   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
+*   reference distribution: [Super Wumpus Land distribution](/distribution/Super Wumpus Land distribution)
 
 Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
 [Hunt the Wumpus][].  It's playable in your web browser in a simulation
@@ -110,14 +111,12 @@ of an old-school green-screen video terminal.
 #### Implementation: swl.pl
 
 *   reference: true
-*   in-distribution: Super Wumpus Land distribution
 *   license: BSD license
 *   host-language: Perl 5.8
 *   interface: terminal
 
 #### Implementation: swl.js
 
-*   in-distribution: Super Wumpus Land distribution
 *   license: BSD license
 *   host-language: Javascript
 *   host-platform: HTML5
@@ -131,6 +130,7 @@ of an old-school green-screen video terminal.
 *   genre: Philosophy
 *   inception-date: 2015
 *   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
+*   reference distribution: [The New Gamerly Realism distribution](/distribution/The New Gamerly Realism distribution)
 
 Only when the conscious habit of coding culture's little interactions,
 Marios and Lara Crofts in games disappears
@@ -148,7 +148,6 @@ reification of the interactions of culture.
 
 #### Implementation: the-new-gamerly-realism.js
 
-*   in-distribution: The New Gamerly Realism distribution
 *   reference: true
 *   license: Unknown license
 *   host-language: Javascript
@@ -181,7 +180,7 @@ phenomenon of a generation.  (Possibly.)
 *   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure
 *   inception-date: ca 2005
-*   development-stage: mature
+*   reference distribution: [Zzrk distribution](/distribution/Zzrk distribution)
 
 Zzrk is a tiny adventure game written in "pure" Zz
 (a meta-language normally used for defining compilers.)
@@ -189,7 +188,6 @@ Zzrk is a tiny adventure game written in "pure" Zz
 #### Implementation: Zzrk (Zz)
 
 *   reference: true
-*   in-distribution: Zzrk distribution
 *   license: BSD license
 *   host-language: Zz
 *   implemented-in-meta: true
@@ -213,7 +211,7 @@ as more games are played.
 
 #### Implementation: animals.erl
 
-*   in-distribution: Animals distribution
+*   in-distribution: [Animals distribution](/distribution/Animals distribution)
 *   license: Public Domain
 *   inception-date: ca 1999
 *   host-language: Erlang
@@ -237,7 +235,7 @@ away from what it thinks you are likely to guess next.
 
 #### Implementation: flip.erl
 
-*   in-distribution: Flip distribution
+*   in-distribution: [Flip distribution](/distribution/Flip distribution)
 *   license: Public Domain
 *   inception-date: Jul 31 2002
 *   host-language: Erlang
@@ -259,7 +257,7 @@ a world less orthogonal.
 
 ### Implementation: wumpus.erl
 
-*   in-distribution: Hunt the Wumpus distribution
+*   in-distribution: [wumpus.erl distribution](/distribution/wumpus.erl distribution)
 *   license: BSD license
 *   inception-date: Jun 30 2002
 *   host-language: Erlang
@@ -275,7 +273,7 @@ Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
     
 #### Implementation: esoko
 
-*   in-distribution: esoko distribution
+*   in-distribution: [esoko distribution](/distribution/esoko distribution)
 *   license: BSD license
 *   inception-date: Nov 4 2002
 *   host-language: Erlang
