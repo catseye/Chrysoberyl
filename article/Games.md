@@ -88,7 +88,7 @@ Interactive Entertainment Modules.)
 *   genre: Roguelike
 *   inception-date: Aug 2012
 
-Dungeons of Ekileugor is a roguelike written for the [[Commodore VIC-20]],
+Dungeons of Ekileugor is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
 set of the usual "dungeon furniture": reasonably generated dungeon levels
 with tunnels and rooms whose contents are hidden until you enter,
@@ -175,15 +175,15 @@ phenomenon of a generation.  (Possibly.)
 
 #### Implementation: never-ending-maze.z5
 
-    license: Freely Redistributable
-    host-platform: Z-Machine
-    host-language: Z-Machine code
-    implementation-of:
-    - The Never-Ending Maze
-    online-locations:
-    - installation/The Never-Ending Maze
-    file-locations:
-    - http://catseye.tc/distfiles/never-ending-maze-1.0.z5
+*   license: Freely Redistributable
+*   host-platform: Z-Machine
+*   host-language: Z-Machine code
+*   implementation-of:
+*   - The Never-Ending Maze
+*   online-locations:
+*   - installation/The Never-Ending Maze
+*   file-locations:
+*   - http://catseye.tc/distfiles/never-ending-maze-1.0.z5
 
 ### Zzrk
 
@@ -199,12 +199,12 @@ Zzrk is a tiny adventure game written in "pure" Zz
 
 #### Implementation: Zzrk (Zz)
 
-    reference: true
-    in-distribution: Zzrk distribution
-    license: BSD license
-    host-language: Zz
-    implemented-in-meta: true
-    interface: terminal
+*   reference: true
+*   in-distribution: Zzrk distribution
+*   license: BSD license
+*   host-language: Zz
+*   implemented-in-meta: true
+*   interface: terminal
 
 Implemented Games
 -----------------
@@ -229,104 +229,70 @@ as more games are played.
 *   inception-date: ca 1999
 *   host-language: Erlang
 *   interface: terminal
+
+### Flip
+
+*   genre: Guessing
+*   authors: John S. James
+*   auspices: Unknown
+*   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
+
+Flip is a very simple computer game by John S. James which first appeared
+in the March/April 1977 edition of _Creative Computing_.
+In the game, the computer flips a virtual coin 50 times, and the object is
+for you to guess whether the coin will come up heads or tails each time.
+What makes it interesting is that the coin is not fair.  The computer tries
+to find patterns in your guesses, and exploit them by biasing the coin toss
+away from what it thinks you are likely to guess next.
+
+#### Implementation: flip.erl
+
+*   in-distribution: Flip distribution
+*   license: Public Domain
+*   inception-date: Jul 31 2002
+*   host-language: Erlang
+*   interface: terminal
     
+### Hunt the Wumpus
+
+*   genre: Logic
+*   authors: Gregory Yob
+*   auspices: Unknown
+*   wikipedia: Hunt_the_Wumpus
+*   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
+
+Hunt the Wumpus is a classic topological mythical-beast-hunting game
+from the era of teletypes.  Gregory Yob was disappointed by the
+number of games based on "find an objective hidden on a
+2-dimensional grid", and decided to design one that was based on
+a world less orthogonal.
+
+### Implementation: wumpus.erl
+
+*   in-distribution: Hunt the Wumpus distribution
+*   license: BSD license
+*   inception-date: Jun 30 2002
+*   host-language: Erlang
     
-    Flip:
-      type: Game
-      genre: Guessing
-      vintage: true
-      description: |
-        Flip is a very simple computer game by John S. James which first appeared
-        in the March/April 1977 edition of _Creative Computing_.
-        In the game, the computer flips a virtual coin 50 times, and the object is
-        for you to guess whether the coin will come up heads or tails each time.
-        What makes it interesting is that the coin is not fair.  The computer tries
-        to find patterns in your guesses, and exploit them by biasing the coin toss
-        away from what it thinks you are likely to guess next.
-      specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
-      development-stage: vintage
-      authors:
-      - John S. James
+### Sokoban
+
+*   genre: Puzzle
+*   wikipedia: [Sokoban](https://en.wikipedia.org/wiki/Sokoban)
+*   authors: Hiroyuki Imabayashi
+
+Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
     
-    flip.erl:
-      type: Implementation
-      implementation-of:
-      - Flip
-      in-distribution: Flip distribution
-      prebuilt-for-platforms:
-      - Erlang
-      authors:
-      - Chris Pressey
-      auspices:
-      - Cat's Eye Technologies
-      license: Public Domain
-      inception-date: Jul 31 2002
-      host-language: Erlang
-      interface: terminal
-    
-    Hunt the Wumpus:
-      type: Game
-      genre: Logic
-      wikipedia: Hunt_the_Wumpus
-      authors:
-      - Gregory Yob
-      description: |
-        Hunt the Wumpus is a classic topological mythical-beast-hunting game
-        from the era of teletypes.  [[Gregory Yob]] was disappointed by the
-        number of games based on "find an objective hidden on a
-        [[2-dimensional]] grid", and decided to design one that was based on
-        a world less orthogonal.
-      specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
-      development-stage: vintage
-    
-    wumpus.erl:
-      type: Implementation
-      implementation-of:
-      - Hunt the Wumpus
-      in-distribution: Hunt the Wumpus distribution
-      prebuilt-for-platforms:
-      - Erlang
-      authors:
-      - Chris Pressey
-      auspices:
-      - Cat's Eye Technologies
-      license: BSD license
-      inception-date: Jun 30 2002
-      host-language: Erlang
-    
-    
-    Sokoban:
-      type: Game
-      genre: Puzzle
-      wikipedia: Sokoban
-      vintage: false
-      description: |
-        Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
-      # need to look this up someday
-      no-specification: true
-      development-stage: mature
-      authors: []
-    
-    esoko:
-      type: Implementation
-      implementation-of:
-      - Sokoban
-      in-distribution: esoko distribution
-      prebuilt-for-platforms:
-      - Erlang
-      authors:
-      - Chris Pressey
-      auspices:
-      - Cat's Eye Technologies
-      license: BSD license
-      inception-date: Nov 4 2002
-      host-language: Erlang
-      run-requirements:
-      - Tcl/Tk
-      description: |
-        This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
-      interface: GUI window
-      controls: keyboard
+#### Implementation: esoko
+
+*   in-distribution: esoko distribution
+*   license: BSD license
+*   inception-date: Nov 4 2002
+*   host-language: Erlang
+*   run-requirements: Tcl/Tk
+*   interface: GUI window
+*   controls: keyboard
+
+This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
 
 - - - -
 
@@ -335,3 +301,4 @@ as more games are played.
 [Mini Game Compo 2009]: TBD
 [Perl]: TBD
 [Hunt the Wumpus]: TBD
+[Commodore VIC-20]: TBD
