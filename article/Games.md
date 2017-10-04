@@ -12,6 +12,8 @@ Games
 
 *   genre: Maze-Runner
 *   inception-date: ca 1988
+*   reference distribution: Bubble Escape distribution
+*   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
 Bubble Escape is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
@@ -24,7 +26,6 @@ where it won first place in its class.
 #### Implementation: Bubble Escape (BASIC)
 
 *   reference: true
-*   in-distribution: 'Bubble Escape distribution'
 *   license: BSD license
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
@@ -32,30 +33,20 @@ where it won first place in its class.
 
 #### Implementation: Bubble Escape 2K
 
-*   in-distribution: 'Bubble Escape distribution'
-*   prebuilt-for-platforms:
-*   - Commodore 64
+*   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler
-*   host-language-version: "2.0"
+*   host-language: Ophis Assembler 2.0
 *   host-platform: Commodore 64
-*   build-requirements:
-*   - CRUNCHER AB+
+*   build-requirements: CRUNCHER AB+
 *   controls: joystick
-*   submitted-to:
-*   - competition: Mini Game Compo 2009
-*     prize: 1st place in 2K category
-*   online-locations:
-*   - installation/Bubble Escape
+*   submitted-to: Mini Game Compo 2009; 1st place in 2K category
+*   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
 #### Implementation: Bubble Escape 8K
 
-*   in-distribution: 'Bubble Escape distribution'
-*   prebuilt-for-platforms:
-*   - Commodore 64
+*   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler
-*   host-language-version: "2.0"
+*   host-language: Ophis Assembler 2.0
 *   host-platform: Commodore 64
 *   controls: joystick
 
@@ -110,6 +101,7 @@ etc.
 
 *   genre: Logic
 *   inception-date: ca 1999
+*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 
 Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
 [Hunt the Wumpus][].  It's playable in your web browser in a simulation
@@ -120,8 +112,7 @@ of an old-school green-screen video terminal.
 *   reference: true
 *   in-distribution: Super Wumpus Land distribution
 *   license: BSD license
-*   host-language: Perl
-*   host-language-version: "5.8"
+*   host-language: Perl 5.8
 *   interface: terminal
 
 #### Implementation: swl.js
@@ -139,6 +130,7 @@ of an old-school green-screen video terminal.
 
 *   genre: Philosophy
 *   inception-date: 2015
+*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 
 Only when the conscious habit of coding culture's little interactions,
 Marios and Lara Crofts in games disappears
@@ -169,6 +161,7 @@ reification of the interactions of culture.
 
 *   genre: Text Adventure
 *   inception-date: ca 2000
+*   online @ [catseye.tc](http://catseye.tc/installation/The_Never-Ending_Maze)
 
 An Infocom-style text adventure game based on the defining cultural
 phenomenon of a generation.  (Possibly.)
@@ -178,12 +171,8 @@ phenomenon of a generation.  (Possibly.)
 *   license: Freely Redistributable
 *   host-platform: Z-Machine
 *   host-language: Z-Machine code
-*   implementation-of:
-*   - The Never-Ending Maze
-*   online-locations:
-*   - installation/The Never-Ending Maze
-*   file-locations:
-*   - http://catseye.tc/distfiles/never-ending-maze-1.0.z5
+*   online @ [catseye.tc](http://catseye.tc/installation/The_Never-Ending_Maze)
+*   download @ [static.catseye.tc](http://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
 
 ### Zzrk
 
@@ -235,7 +224,8 @@ as more games are played.
 *   genre: Guessing
 *   authors: John S. James
 *   auspices: Unknown
-*   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=61
+*   specification-link: [www.atariarchives.org](http://www.atariarchives.org/morebasicgames/showpage.php?page=61)
+*   inception-date: 1977
 
 Flip is a very simple computer game by John S. James which first appeared
 in the March/April 1977 edition of _Creative Computing_.
@@ -258,8 +248,8 @@ away from what it thinks you are likely to guess next.
 *   genre: Logic
 *   authors: Gregory Yob
 *   auspices: Unknown
-*   wikipedia: Hunt_the_Wumpus
-*   specification-link: http://www.atariarchives.org/morebasicgames/showpage.php?page=178
+*   wikipedia: [Hunt the Wumpus](https://en.wikipedia.org/wiki/Hunt_the_Wumpus)
+*   specification-link: [www.atariarchives.org](http://www.atariarchives.org/morebasicgames/showpage.php?page=178)
 
 Hunt the Wumpus is a classic topological mythical-beast-hunting game
 from the era of teletypes.  Gregory Yob was disappointed by the
@@ -279,6 +269,7 @@ a world less orthogonal.
 *   genre: Puzzle
 *   wikipedia: [Sokoban](https://en.wikipedia.org/wiki/Sokoban)
 *   authors: Hiroyuki Imabayashi
+*   auspices: Unknown
 
 Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
     
