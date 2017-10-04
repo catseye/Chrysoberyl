@@ -39,7 +39,7 @@ def mkdistmap(universe, options, config):
             ref_impl = space.reference_implementation_of(key)
             if ref_impl is not None:
                 if 'in-distributions' in space[ref_impl]:
-                    return space[ref_impl]['in-distributions'][0]
+                    distribution = space[ref_impl]['in-distributions'][0]
 
         if distribution:
             if distribution in dist:
@@ -48,7 +48,7 @@ def mkdistmap(universe, options, config):
                     repo_to_node[dist[distribution][1]] = key
 
     with open(config[space.name]['dist_map'], 'w') as f:
-        f.write(json.dumps(repo_to_node))
+        f.write(json.dumps(repo_to_node, indent=4, sort_keys=True))
 
 
 def render(universe, options, config):
