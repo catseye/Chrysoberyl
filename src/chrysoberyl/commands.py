@@ -51,6 +51,19 @@ def mkdistmap(universe, options, config):
         f.write(json.dumps(repo_to_node, indent=4, sort_keys=True))
 
 
+def mkdistjson(universe, options, config):
+    """Create a JSON of the distribution info."""
+    space = universe['node']  # FIXME hardcoded
+    dist = {}
+
+    for key, node in space.iteritems():
+        if node.get('type') == 'Distribution':
+            dist[key] = node
+
+    with open(config[space.name]['dist_json'], 'w') as f:
+        f.write(json.dumps(dist, indent=4, sort_keys=True))
+
+
 def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
@@ -357,6 +370,7 @@ COMMANDS = {
     'render': render,
     'jsonify': jsonify,
     'mkdistmap': mkdistmap,
+    'mkdistjson': mkdistjson,
     'catalogue': catalogue,
     'check_releases': check_releases,
     'check_distfiles': check_distfiles,
