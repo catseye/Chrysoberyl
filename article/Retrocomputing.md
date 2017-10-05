@@ -270,17 +270,17 @@ of a generation. (Possibly.)
 
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 
-[Apple II]: article/Retrocomputing.md#apple-ii
+[Apple II]: ../article/Retrocomputing.md#apple-ii
 [Apple Befunge]: http://catseye.tc/node/Apple_Befunge
-[Dungeons of Ekileugor]: article/Games.md#dungeons-of-ekileugor
-[Commodore VIC-20]: article/Retrocomputing.md#commodore-vic-20
-[Commodore 64]: article/Retrocomputing.md#commodore-64
-[Bubble Escape]: article/Games.md#bubble-escape
+[Dungeons of Ekileugor]: ../article/Games.md#dungeons-of-ekileugor
+[Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
+[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Bubble Escape]: ../article/Games.md#bubble-escape
 [DiskSumo]: http://catseye.tc/node/DiskSumo
-[MS-DOS]: article/Retrocomputing.md#ms-dos
+[MS-DOS]: ../article/Retrocomputing.md#ms-dos
 [Shelta]: http://catseye.tc/node/Shelta
 [ILLGOL]: http://catseye.tc/node/ILLGOL
-[Mildred]: article/Electronics%20Projects.md#mildred
+[Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: http://www.nasm.us/
 [SixtyPical]: http://catseye.tc/node/SixtyPical
@@ -288,7 +288,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [SITU-SOL]: http://catseye.tc/node/SITU-SOL
 [SITU-MON]: http://catseye.tc/node/SITU-MON
 [BefOS]: http://catseye.tc/node/BefOS
-[The Never-Ending Maze]: article/Games.md#the-never-ending-maze
+[The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: http://catseye.tc/node/ANSI_C
 [The Dossier]: https://github.com/catseye/The-Dossier/
 

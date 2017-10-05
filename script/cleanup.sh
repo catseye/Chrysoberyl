@@ -15,7 +15,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                  >refdex.json
 
 ## non-lists
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          "article/Distribution Organization.md" \
          "article/Retrocomputing.md" \
          --rewrite-markdown || exit 1
