@@ -6,6 +6,12 @@ Games
 *   common auspices: Cat's Eye Technologies
 *   common development-stage: mature
 
+Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
+most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
+
+Note that the distinctions between a Game and a Gewgaw or even an Automaton are not always clear,
+and entries here may be categorized somewhat arbitrarily.
+
 ### Bubble Escape
 
 ![screenshot](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
@@ -282,6 +288,12 @@ Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
 *   controls: keyboard
 
 This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
+
+Links
+-----
+
+*   [Chris Pressey's Favourite Video Games](http://catseye.tc/node/Chris_Pressey's_Favourite_Video_Games)
+*   [Chris Pressey's Favourite Text Adventures](http://catseye.tc/node/Chris_Pressey's_Favourite_Text_Adventures)
 
 - - - -
 
