@@ -1,4 +1,5 @@
 *.pyc
+refdex.json
 node
 installation
 checkout

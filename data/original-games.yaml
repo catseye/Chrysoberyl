@@ -1,65 +1,4 @@
 # encoding: UTF-8
-Bubble Escape:
-  type: Game
-  genre: Maze-Runner
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 1988
-  development-stage: mature
-  description: |
-    Bubble Escape is a video game written for the [[Commodore 64]] where the
-    player must guide a bubble through a multi-screen maze.  It was originally
-    designed and implemented in [[Commodore BASIC 2.0]] in the mid-80's, and
-    rewritten in [[Ophis Assembler|6502 assembly language]] in the late 00's.
-    The assembly version was pared down so that (crunched) it fit into 2K,
-    christened "Bubble Escape 2K", and submitted to the [[Mini Game Compo 2009]]
-    where it won first place in its class.
-
-Bubble Escape (BASIC):
-  type: Implementation
-  implementation-of:
-  - Bubble Escape
-  reference: true
-  in-distribution: 'Bubble Escape distribution'
-  license: BSD license
-  host-language: Commodore BASIC 2.0
-  host-platform: Commodore 64
-  controls: joystick
-
-Bubble Escape 2K:
-  type: Implementation
-  implementation-of:
-  - Bubble Escape
-  in-distribution: 'Bubble Escape distribution'
-  prebuilt-for-platforms:
-  - Commodore 64
-  license: BSD license
-  host-language: Ophis Assembler
-  host-language-version: "2.0"
-  host-platform: Commodore 64
-  build-requirements:
-  - CRUNCHER AB+
-  controls: joystick
-  submitted-to:
-  - competition: Mini Game Compo 2009
-    prize: 1st place in 2K category
-  online-locations:
-  - installation/Bubble Escape
-
-Bubble Escape 8K:
-  type: Implementation
-  implementation-of:
-  - Bubble Escape
-  in-distribution: 'Bubble Escape distribution'
-  prebuilt-for-platforms:
-  - Commodore 64
-  license: BSD license
-  host-language: Ophis Assembler
-  host-language-version: "2.0"
-  host-platform: Commodore 64
-  controls: joystick
 
 Bubble Escape distribution: 
   type: Distribution
@@ -78,38 +17,6 @@ Bubble Escape distribution:
     revision: "2016.0304"
     url: http://catseye.tc/distfiles/bubble-escape-1.0-2016.0304.zip
 
-
-'Corona: Realm of Magic':
-  type: Game
-  genre: Roguelike
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca Sep 2000
-  development-stage: archival
-  description: |
-    Corona: Realm of Magic is an unfinished roguelike written in
-    [[Perl]].  It was written on top of a framework
-    that Cat's Eye Technologies was developing at the time
-    called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse
-    Interactive Entertainment Modules.)
-
-'Corona: Realm of Magic (Perl)':
-  type: Implementation
-  implementation-of:
-  - 'Corona: Realm of Magic'
-  reference: true
-  in-distribution: 'Corona: Realm of Magic distribution'
-  license: BSD license
-  host-language: Perl
-  # TODO: we should handle language versions better than this
-  host-language-version: "5.8"
-  # not strictly
-  run-requirements:
-  - ANSI Terminal
-  interface: ANSI Terminal
-
 'Corona: Realm of Magic distribution': 
   type: Distribution
   github: catseye/Corona-Realm-of-Magic
@@ -121,35 +28,6 @@ Bubble Escape distribution:
   - version: "0.19"
     revision: "2014.0819"
     url: http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2014.0819.zip
-
-
-Dungeons of Ekileugor:
-  type: Game
-  genre: Roguelike
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: Aug 2012
-  development-stage: mature
-  description: |
-    Dungeons of Ekileugor is a roguelike written for the [[Commodore VIC-20]],
-    which, despite the limitations of that platform, supports a respectable
-    set of the usual "dungeon furniture": reasonably generated dungeon levels
-    with tunnels and rooms whose contents are hidden until you enter,
-    monsters, treasure, potions, traps, chests, combat with experience points,
-    etc.
-
-Dungeons of Ekileugor (BASIC):
-  type: Implementation
-  implementation-of:
-  - Dungeons of Ekileugor
-  reference: true
-  in-distribution: 'Dungeons of Ekileugor distribution'
-  license: Freely Redistributable
-  host-language: Commodore BASIC 2.0
-  host-platform: Commodore VIC-20
-  controls: keyboard
 
 Dungeons of Ekileugor distribution: 
   type: Distribution
@@ -164,45 +42,6 @@ Dungeons of Ekileugor distribution:
   - version: "1.0"
     revision: "2016.0304"
     url: http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2016.0304.zip
-
-
-Super Wumpus Land:
-  type: Game
-  # also Text Adventure, sort of
-  genre: Logic
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 1999
-  development-stage: mature
-  description: |
-    Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
-    [[Hunt the Wumpus]].  It's playable in your web browser in a simulation
-    of an old-school green-screen video terminal.
-
-swl.pl:
-  type: Implementation
-  implementation-of:
-  - Super Wumpus Land
-  reference: true
-  in-distribution: Super Wumpus Land distribution
-  license: BSD license
-  host-language: Perl
-  host-language-version: "5.8"
-  interface: terminal
-
-swl.js:
-  type: Implementation
-  implementation-of:
-  - Super Wumpus Land
-  in-distribution: Super Wumpus Land distribution
-  license: BSD license
-  host-language: Javascript
-  host-platform: HTML5
-  interface: yoob.js TextTerminal
-  online-locations:
-  - installation/Super Wumpus Land
 
 Super Wumpus Land distribution:
   type: Distribution
@@ -230,44 +69,6 @@ Super Wumpus Land distribution:
     revision: "2015.0721"
     url: http://catseye.tc/distfiles/super-wumpus-land-1.1-2015.0721.zip
 
-
-The New Gamerly Realism:
-  type: Game
-  # ??!?!?
-  genre: Philosophy
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: 2015
-  development-stage: mature
-  description: |
-    Only when the conscious habit of coding culture's little interactions,
-    Marios and Lara Crofts in games disappears
-    _will we witness a purely gamerly work of gamedev_.
-    
-    I have transformed myself _in the zero of gameplay_ and have fished myself out
-    of the _rubbishy slough of mainstream gaming_...
-    
-    Only dull and impotent gamedevs veil their work with _sincerity_.
-    Gaming requires _truth_, not _sincerity_.
-    
-    _Levels have vanished like smoke; to attain the new gamerly paradigm_,
-    gamedev advances towards creation as an end in itself and towards
-    reification of the interactions of culture.
-
-the-new-gamerly-realism.js:
-  type: Implementation
-  implementation-of:
-  - The New Gamerly Realism
-  in-distribution: The New Gamerly Realism distribution
-  reference: true
-  license: Unknown license
-  host-language: Javascript
-  host-platform: HTML5
-  online-locations:
-  - installation/The New Gamerly Realism
-
 The New Gamerly Realism distribution:
   type: Distribution
   github: catseye/The-New-Gamerly-Realism
@@ -276,59 +77,6 @@ The New Gamerly Realism distribution:
   - version: "1.0"
     revision: "0.0"
     url: http://catseye.tc/distfiles/the-new-gamerly-realism-1.0.zip
-
-
-The Never-Ending Maze:
-  type: Game
-  genre: Text Adventure
-  development-stage: mature
-  no-specification: true
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 2000
-  description: |
-    An Infocom-style text adventure game based on the defining cultural
-    phenomenon of a generation.  (Possibly.)
-
-never-ending-maze.z5:
-  type: Implementation
-  license: Freely Redistributable
-  host-platform: Z-Machine
-  host-language: Z-Machine code
-  implementation-of:
-  - The Never-Ending Maze
-  online-locations:
-  - installation/The Never-Ending Maze
-  file-locations:
-  - http://catseye.tc/distfiles/never-ending-maze-1.0.z5
-
-
-Zzrk:
-  subtitle: Adventures in the Great Unsaturated Grammar
-  type: Game
-  genre: Text Adventure
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: ca 2005
-  development-stage: mature
-  description: |
-    Zzrk is a tiny adventure game written in "pure" Zz
-    (a meta-language normally used for defining [[compiler]]s.)
-
-Zzrk (Zz):
-  type: Implementation
-  implementation-of:
-  - Zzrk
-  reference: true
-  in-distribution: Zzrk distribution
-  license: BSD license
-  host-language: Zz
-  implemented-in-meta: true
-  interface: terminal
 
 Zzrk distribution: 
   type: Distribution

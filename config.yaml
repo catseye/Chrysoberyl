@@ -13,6 +13,7 @@ node:
   projection_dir: modules
   link_priority_files:
   - retrocomputing-refdex.json
+  - games-refdex.json
   - misc-refdex.json
 
 installation:
@@ -29,4 +30,5 @@ installation:
   projection_dir: modules
   link_priority_files:
   - retrocomputing-refdex.json
+  - games-refdex.json
   - misc-refdex.json
