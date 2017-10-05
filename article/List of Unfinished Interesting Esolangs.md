@@ -2,11 +2,11 @@ List of Unfinished Interesting Esolangs
 =======================================
 
 *   summary: A list of "open problems" in esoteric programming language design
-*   common type: Programming Language
-*   common development-stage: idea
-*   common authors: Chris Pressey
 *   common auspices: Cat's Eye Technologies
+*   common authors: Chris Pressey
+*   common development-stage: idea
 *   common no-specification: true
+*   common type: Programming Language
 
 Here are some designs for [esoteric programming languages][]
 that I've worked on, but which have turned out to be a bit resistant to
@@ -26,8 +26,8 @@ individual as well, right?)
 
 ### AINSNIA
 
-*   genre: Esolang
 *   acronym-for: AINSNIA Is Not SETL, Nor Is AINSNIA
+*   genre: Esolang
 *   paradigms: Functional
 *   summary: fundamentally based on sets
 
@@ -651,9 +651,9 @@ and, in general, programs look something like this:
 
 *   genre: Esolang
 *   paradigms: Meta-circular
-*   influences: Mascarpone
 *   summary: Yo dawg, I herd you like esolangs, so I put an esolang in your esolang so you can esolang while you esolang
 *   inception-date: ca 2012
+*   influences: Mascarpone
 
 YO_DAWG is an esolang with first-class esolangs. You can create
 new [Befunge-93][] objects, [brainfuck][] objects, [Underload][] objects,
@@ -683,3 +683,4 @@ Naturally, you can also create new YO_DAWG objects.
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [esoteric programming languages]: http://esolangs.org/
 [the completed]: http://catseye.tc/node/Chris%20Pressey%27s%20Lingography
+

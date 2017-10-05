@@ -35,3 +35,8 @@ feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Musical Composition.md" \
          "article/Musical Compositions.md" \
          --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Unfinished Esolang.md" \
+         "article/List of Unfinished Interesting Esolangs.md" \
+         --rewrite-markdown || exit 1
