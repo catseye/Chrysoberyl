@@ -26,8 +26,6 @@ feedmark --input-refdex=refdex.json \
          "article/Electronics Projects.md" \
          --rewrite-markdown || exit 1
 
-exit 0
-
 feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Game.md" \
          "article/Games.md" \

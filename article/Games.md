@@ -1,10 +1,10 @@
 Games
 =====
 
-*   common type: Game
-*   common authors: Chris Pressey
 *   common auspices: Cat's Eye Technologies
+*   common authors: Chris Pressey
 *   common development-stage: mature
+*   common type: Game
 
 Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
 most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
@@ -62,8 +62,8 @@ where it won first place in its class.
 
 *   genre: Roguelike
 *   inception-date: ca Sep 2000
-*   development-stage: archival
 *   reference distribution: [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
+*   development-stage: archival
 
 Corona: Realm of Magic is an unfinished roguelike written in
 [Perl][].  It was written on top of a framework
@@ -107,8 +107,8 @@ etc.
 
 *   genre: Logic
 *   inception-date: ca 1999
-*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 *   reference distribution: [Super Wumpus Land distribution](/distribution/Super Wumpus Land distribution)
+*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 
 Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
 [Hunt the Wumpus][].  It's playable in your web browser in a simulation
@@ -135,8 +135,8 @@ of an old-school green-screen video terminal.
 
 *   genre: Philosophy
 *   inception-date: 2015
-*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 *   reference distribution: [The New Gamerly Realism distribution](/distribution/The New Gamerly Realism distribution)
+*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 
 Only when the conscious habit of coding culture's little interactions,
 Marios and Lara Crofts in games disappears
@@ -226,10 +226,10 @@ as more games are played.
 ### Flip
 
 *   genre: Guessing
+*   inception-date: 1977
 *   authors: John S. James
 *   auspices: Unknown
 *   specification-link: [www.atariarchives.org](http://www.atariarchives.org/morebasicgames/showpage.php?page=61)
-*   inception-date: 1977
 
 Flip is a very simple computer game by John S. James which first appeared
 in the March/April 1977 edition of _Creative Computing_.
@@ -261,7 +261,7 @@ number of games based on "find an objective hidden on a
 2-dimensional grid", and decided to design one that was based on
 a world less orthogonal.
 
-### Implementation: wumpus.erl
+#### Implementation: wumpus.erl
 
 *   in-distribution: [wumpus.erl distribution](/distribution/wumpus.erl distribution)
 *   license: BSD license
@@ -271,9 +271,9 @@ a world less orthogonal.
 ### Sokoban
 
 *   genre: Puzzle
-*   wikipedia: [Sokoban](https://en.wikipedia.org/wiki/Sokoban)
 *   authors: Hiroyuki Imabayashi
 *   auspices: Unknown
+*   wikipedia: [Sokoban](https://en.wikipedia.org/wiki/Sokoban)
 
 Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
     
@@ -297,9 +297,10 @@ Links
 
 - - - -
 
-[Commodore 64]: http://catseye.tc/article/Retrocomputing#commodore-64
+[Commodore 64]: article/Retrocomputing.md#commodore-64
 [Ophis Assembler]: TBD
 [Mini Game Compo 2009]: TBD
 [Perl]: TBD
-[Hunt the Wumpus]: TBD
-[Commodore VIC-20]: TBD
+[Hunt the Wumpus]: article/Games.md#hunt-the-wumpus
+[Commodore VIC-20]: article/Retrocomputing.md#commodore-vic-20
+
