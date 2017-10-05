@@ -1,5 +1,5 @@
-Video game (schema)
-===================
+Game (schema)
+=============
 
 This is a schema which defines, for now, a few rudimentary things about
 what properties Game entries in Chrysoberyl should have.

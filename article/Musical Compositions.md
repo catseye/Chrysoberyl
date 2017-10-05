@@ -1,9 +1,9 @@
 Musical Compositions
 ====================
 
-*   common type: Musical Composition
-*   common authors: Chris Pressey
 *   common auspices: What is this I don't even
+*   common authors: Chris Pressey
+*   common type: Musical Composition
 
 This is a list of musical works composed by Chris Pressey.
 
@@ -109,11 +109,11 @@ mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 
 ### Birdwatching
 
-*  genre: Jazz fusion
-*  instrumentation: Jazz Combo
-*  inception-date: ca 1991
-*  using-software: DMCS
-*  MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Birdwatching%20[Amiga%20arrangement].mp3)
+*   genre: Jazz fusion
+*   inception-date: ca 1991
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Birdwatching%20[Amiga%20arrangement].mp3)
+*   instrumentation: Jazz Combo
+*   using-software: DMCS
 
 I think I remember composing the theme to this on an electric piano at a friend's
 house after pulling an all-nighter.  It was supposed to be a very mellow tune
@@ -251,9 +251,9 @@ But it's another one of my favourites, because I like that sort of thing.
 
 ### Smedley the Medley
 
-*    genre: Experimental music
-*    inception-date: ca 1996
-*    MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Smedley%20the%20Medley.mp3)
+*   genre: Experimental music
+*   inception-date: ca 1996
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Smedley%20the%20Medley.mp3)
 
 I had three tunes that didn't stand on their own.  They don't go together
 either, so I put them together.  I've been told it's reminiscent of
@@ -263,7 +263,6 @@ it through an entire Zappa song, so I couldn't say, myself.
 ### Fool
 
 *   genre: Ragtime
-*   format: Song
 *   inception-date: ca 1997
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fool.mp3)
 
@@ -278,11 +277,11 @@ Late Late Period
 ### Fluorescent Atrocious
 
 *   genre: Techno
+*   inception-date: Oct 2012
+*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fluorescent%20Atrocious.mp3)
 *   composed-on: Sonant Live
 *   using-software: Sonant Live
 *   development-stage: mature
-*   inception-date: Oct 2012
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fluorescent%20Atrocious.mp3)
 
 Here's what this icky techno piece tries to evoke: having a terrible
 hangover on the brightest morning of the summer while strolling
@@ -293,11 +292,11 @@ how to lay out a garden.
 ### The Shortbread Rocketship
 
 *   genre: Opera
+*   inception-date: Nov 2014
+*   MP3 @ [alonetone.com](http://alonetone.com/catseye/playlists/the-shortbead-rocketship-a-cut-up-opera/)
 *   composed-on: Linux
 *   using-software: Python
 *   development-stage: mature
-*   inception-date: Nov 2014
-*   MP3 @ [alonetone.com](http://alonetone.com/catseye/playlists/the-shortbead-rocketship-a-cut-up-opera/)
 
 The Shortbread Rocketship is a 2-and-a-half-hour-long computer-generated
 opera.  It was generated for NaOpGenMo 2014.

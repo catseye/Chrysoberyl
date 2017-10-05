@@ -30,3 +30,8 @@ feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Game.md" \
          "article/Games.md" \
          --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Musical Composition.md" \
+         "article/Musical Compositions.md" \
+         --rewrite-markdown || exit 1
