@@ -1,15 +1,16 @@
 Electronics Projects
 ====================
 
-*   common type: Electronics Project
-*   common authors: Chris Pressey
 *   common auspices: Cat's Eye Technologies
+*   common authors: Chris Pressey
+*   common type: Electronics Project
+
 
 ### Mildred
 
 ![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
+*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
 *   constructed: true
 *   legacy distfile @ [http://catseye.tc/distfiles/mildred-2003.0110.zip](http://catseye.tc/distfiles/mildred-2003.0110.zip)
 *   legacy distfile @ [http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
@@ -22,7 +23,7 @@ Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM,
 
 ![LED-386](http://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
+*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
 *   constructed: true
 *   legacy distfile @ [http://catseye.tc/distfiles/led386-2004.0227.zip](http://catseye.tc/distfiles/led386-2004.0227.zip)
 
@@ -36,7 +37,7 @@ The LM386 audio amplifier IC, that is...
 
 ![The 'Kitsilano' Oscillator](http://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png)
 
-*   defining-distribution: [Electronics Projects distribution](#electronics-projects-distribution)
+*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
 *   constructed: false
 *   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-2008.0905.zip](http://catseye.tc/distfiles/kitsilano-2008.0905.zip)
 *   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)
@@ -44,18 +45,6 @@ The LM386 audio amplifier IC, that is...
 An oscillator circuit that contains two NPN transistors and a single capacitor.
 
 [Read more...](https://github.com/catseye/Electronics-Projects/tree/master/kitsilano)
-
-Distributions
--------------
-
-Note, this is not how we're going to represent distributions generally in Chrysoberyl.
-But the "distribution" in this case is almost gratuitous, so let's ship something-anything here.
-
-### Electronics Projects distribution
-
-*   github: [catseye/Electronics-projects](https://github.com/catseye/Electronics-Projects)
-*   download: **[http://catseye.tc/distfiles/electronics-projects-0.2.zip](http://catseye.tc/distfiles/electronics-projects-0.2.zip)**
-*   legacy distfile @ [http://catseye.tc/distfiles/electronics-projects-0.1.zip](http://catseye.tc/distfiles/electronics-projects-0.1.zip)
 
 Links
 -----
@@ -74,4 +63,5 @@ Links
 
 - - - -
 
-[Z80]: https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md#z80
+[Z80]: article/Retrocomputing.md#z80
+

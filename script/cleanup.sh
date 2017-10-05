@@ -20,13 +20,13 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          "article/Retrocomputing.md" \
          --rewrite-markdown || exit 1
 
-exit 0
-
 ## lists
 feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Electronics Project.md" \
          "article/Electronics Projects.md" \
          --rewrite-markdown || exit 1
+
+exit 0
 
 feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Game.md" \
