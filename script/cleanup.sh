@@ -1,7 +1,34 @@
-# note to self:
+#!/bin/sh -x
 
-feedmark --input-refdex=retrocomputing-refdex.json article/Games.md --rewrite-markdown
+ARTICLES=../Chrysoberyl/article
 
-# we actually need multiple input refdexes / way to combine them.
-# and we probably need a schema.
-# see The Dossier.
+REFDEXES=games-refdex.json,retrocomputing-refdex.json,misc-refdex.json
+
+feedmark --input-refdexes=$REFDEXES --output-refdex \
+                          "article/Distribution Organization.md" \
+                          "article/Electronics Projects.md" \
+                          "article/Games.md" \
+                          "article/List of Unfinished Interesting Esolangs.md" \
+                          "article/Musical Compositions.md" \
+                          "article/Pictures.md" \
+                          "article/Retrocomputing.md" \
+                 >refdex.json
+
+## non-lists
+feedmark --input-refdex=refdex.json \
+         "article/Distribution Organization.md" \
+         "article/Retrocomputing.md" \
+         --rewrite-markdown || exit 1
+
+exit 0
+
+## lists
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Electronics Project.md" \
+         "article/Electronics Projects.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Game.md" \
+         "article/Games.md" \
+         --rewrite-markdown || exit 1
