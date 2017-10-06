@@ -31,15 +31,17 @@ date
 
 submitted-to
 
-### online-locations
+### online
 
 *   optional: true
+*   multiple: true
 
-online-locations
+online
 
-### file-locations
+### file
 
 *   optional: true
+*   multiple: true
 
 file-locations
 
