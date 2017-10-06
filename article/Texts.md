@@ -45,7 +45,7 @@ of generated novels.
 *   online @ [catseye.tc](/installation/Dial%20'S'%20for%20Swallows)
 *   file @ [catseye.tc](/modules/the-swallows/doc/Dial_S_for_Swallows.markdown)
 
-*Dial 'S' for Swallows* is the fourth and final novel in [[The Swallows]]
+*Dial 'S' for Swallows* is the fourth and final novel in The Swallows
 series of generated novels.
 
 ### Nif
@@ -55,7 +55,7 @@ series of generated novels.
 *   online @ [catseye.tc](/installation/Nif)
 *   file @ [catseye.tc](/modules/nanogenlab/generated/Nif.md)
 
-*Nif* is a novel generated for [[NaNoGenMo 2013]].  It is about a petulant child
+*Nif* is a novel generated for NaNoGenMo 2013.  It is about a petulant child
 (possibly named Nif) who has just discovered palindromes.  It is one long palindrome.
 
 *Nif* was inspired by, and draws heavily from, Nick Montfort's
@@ -85,7 +85,7 @@ As if Lewis Carroll's works needed any more remixes...
 > I quietly shake to the tip.
 
 *Doby Mick, or, the Excessively Spoonerized Whale*
-is a novel generated for [[NaNoGenMo 2014]].  A spoonerization algorithm
+is a novel generated for NaNoGenMo 2014.  A spoonerization algorithm
 was developed, which picks two words from each phrase of each
 sentence and swaps their initial consonant clusters.  This was run on
 Moby Dick, to produce this novel.
@@ -98,7 +98,7 @@ Moby Dick, to produce this novel.
 *   file @ [catseye.tc](/modules/nanogenlab/generated/3×C(21,3)+2×C(215,2)=50000.md)
 
 *3×C(21,3)+2×C(215,2)=50000: The Novel*
-is a novel generated for [[NaNoGenMo 2014]].  The minimum word count
+is a novel generated for NaNoGenMo 2014.  The minimum word count
 for a NaNoGenMo novel is 50,000 words, and the question occurred:
 if one wanted to make a novel with *exactly* that many words using
 just combinations and/or permutations, what combinations should one pick?
@@ -122,7 +122,7 @@ things that are worthy of automata, too.
 *   online @ [catseye.tc](/installation/Hope and Remembrance)
 *   file @ [catseye.tc](/modules/nanogenlab/generated/Hope_and_Remembrance.md)
 
-*Hope and Remembrance* is a novel generated for [[NaNoGenMo 2014]].
+*Hope and Remembrance* is a novel generated for NaNoGenMo 2014.
 It is possibly the first NaNoGenMo submission which attempts to
 implement foreshadowing, however ham-fistedly.
 
