@@ -93,6 +93,90 @@ as [[AmigaDOS 1.3]] under [[E-UAE]] emulating an [[Amiga 500]],
 *   license: Public Domain
 *   host-language: Lua
 
+### Guten-gutter
+
+*   summary: Extractor of Project Gutenberg texts
+*   inception-date: 2014
+*   development-stage: mature
+
+Guten-gutter is a command-line tool that removes the boilerplate
+from Project Gutenberg text files.
+
+#### Implementation: guten-gutter (Python)
+
+*   reference: true
+*   in-distribution: Guten-gutter distribution
+*   license: Public Domain
+*   host-language: Python
+
+### hatoucan
+
+*   summary: Tokenizer for Commodore BASIC 2.0 programs
+*   inception-date: 2015
+*   development-stage: not fully complete
+
+`hatoucan` is a tokenizer for Commodore BASIC 2.0 programs.
+It is compatible with a subset of `petcat`, but is written in
+Python and is in the public domain.
+
+#### Implementation: hatoucan (Python)
+
+*   reference: true
+*   in-distribution: hatoucan distribution
+*   license: Public Domain
+*   host-language: Python
+
+### kinoje
+
+*   inception-date: 2017
+*   development-stage: work in progress
+
+**kinoje** is a templating-based animation tool.  A provided template is filled out once for each
+frame of the animation; the result of the template expansion is used to create a still image; and
+the resulting sequence of images is compiled into the finished movie.
+
+#### Implementation: kinoje (Python)
+
+*   reference: true
+*   in-distribution: kinoje distribution
+*   license: Public Domain
+*   host-language: Python
+
+### MARYSUE
+
+*   summary: An engine for generating non-interactive fiction
+*   inception-date: Nov 2015
+*   development-stage: not fully complete
+
+MARYSUE is the story generator used to generate the novel
+[[A Time for Destiny]] for [[NaNoGenMo 2015]].
+
+#### Implementation: MARYSUE (Python)
+
+*   reference: true
+*   in-distributions: MARYSUE distribution
+*   license: Public Domain
+*   host-language: Python
+
+### T-Rext
+
+*   summary: Tidier-upper for generated text
+*   inception-date: Nov 2014
+*   development-stage: mature
+
+T-Rext is a command-line filter that attempts to clean up spaces and
+punctuation in a text file.  Its purpose is so that, when you are writing
+a text generator, such as a Markov processor, you need not worry too much
+about its output format; just toss its output through T-Rext when you're
+done to make it more presentable.
+
+#### Implementation: t-rext (Python)
+
+*   reference: true
+*   in-distribution: T-Rext distribution
+*   license: Public Domain
+*   host-language: Python
+
 ### yucca
 
 *   summary: Static analyzer for 8-bit BASIC programs
