@@ -1,11 +1,5 @@
 # encoding: UTF-8
 
-Amiga Gondola distribution: 
-  type: Distribution
-  releases:
-  - version: "0.1"
-    revision: "2013.1111"
-    url: http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip
 
 'Console::Virtual distribution': 
   type: Distribution
@@ -22,18 +16,6 @@ Amiga Gondola distribution:
   - version: "2.0"
     revision: "2013.0219"
     url: http://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip
-
-crone distribution: 
-  type: Distribution
-  github: catseye/crone
-  releases: 
-  - version: "1.0"
-    revision: "2004.0301"
-    tag: rel_1_0
-    url: http://catseye.tc/distfiles/crone-2004.0301.zip
-  - version: "1.0"
-    revision: "2014.0819"
-    url: http://catseye.tc/distfiles/crone-1.0-2014.0819.zip
 
 DiskSumo distribution: 
   type: Distribution
@@ -298,12 +280,6 @@ TPiS distribution:
   - version: "1.0"
     revision: "2014.0819"
     url: http://catseye.tc/distfiles/tpis-1.0-2014.0819.zip
-
-transmat distribution: 
-  type: Distribution
-  github: cpressey/transmat
-  releases: []
-  fixed-tag: OMIT
 
 T-Rext distribution: 
   type: Distribution

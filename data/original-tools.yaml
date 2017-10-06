@@ -6,32 +6,6 @@
 # - yucca is an implementation of BASIC (a static checker)
 # - hatoucan is an implementation of BASIC (a tokenizer)
 
-Amiga Gondola:
-  # is this not a platform?  no, it's a tool that sets up a platform
-  # (and that platform is... AmigaDOS 1.3 + DICE + PCQ + Draco...)
-  type: Tool
-  summary: Scripts to set up dev environment on AmigaDOS 1.3 under E-UAE
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  description: |
-    Amiga Gondola is a set of scripts to set up a development environment
-    under [[AmigaDOS 1.3]], generally on an [[Amiga 500]] emulated by the
-    [[E-UAE]] emulator.
-  inception-date: Oct 25 2013
-  development-stage: archived
-
-'populate.sh (Amiga Gondola)':
-  type: Implementation
-  implementation-of:
-  - Amiga Gondola
-  reference: true
-  in-distribution: Amiga Gondola distribution
-  license: Public Domain
-  host-language: Bourne shell
-  target-platform: Amiga 500
-
 
 'Console::Virtual':
   type: Library
@@ -60,31 +34,6 @@ Amiga Gondola:
   - HUNTER distribution
   license: BSD license
   host-language: Perl
-
-
-crone: 
-  type: Tool
-  summary: Simple, non-polling cron-like scheduler
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  description: |
-    `crone` is a simple `cron`-like facility.  Unlike most `cron`s, it does
-    not periodically activate and run whatever tasks are due to run; instead
-    it calculates the amount of time between now and when the next is due
-    to run, and sleeps exactly that long.
-  inception-date: Mar 1 2004
-  development-stage: mature
-
-crone.erl:
-  type: Implementation
-  implementation-of:
-  - crone
-  reference: true
-  in-distribution: crone distribution
-  license: BSD license
-  host-language: Erlang
 
 
 DiskSumo: 
@@ -565,31 +514,6 @@ TPiS (Scheme):
   in-distribution: TPiS distribution
   license: BSD license
   host-language: Scheme
-
-
-transmat: 
-  type: Tool
-  summary: An unremarkable but fairly robust network synchronization tool
-  authors:
-  - Chris Pressey
-  description: |
-    `transmat` is a network synchronization tool written in Python. It is not
-    particularly remarkable, but since it has been used in hostile
-    environments at points (e.g. unreliable dial-up connections, and
-    [[Cygwin]] on Vista,) it does go to some lengths to be robust, to support
-    lousy protocols (namely FTP), and to minimize transmission time during
-    synchronization.
-  inception-date: ca 2005
-  development-stage: archived
-
-transmat (Python):
-  type: Implementation
-  implementation-of:
-  - transmat
-  reference: true
-  in-distribution: transmat distribution
-  license: Public Domain
-  host-language: Python
 
 
 T-Rext: 
