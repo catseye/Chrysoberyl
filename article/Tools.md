@@ -4,6 +4,8 @@ Tools
 Note that the precise distinctions between a Tool, a Platform, and a Library are debatable,
 and entries may be categorized somewhat arbitrarily.
 
+Tools for Retrocomputing platforms might be found in the Retrocomputing article instead.
+
 ### Console::Virtual
 
 *   summary: Package for simulating a virtual console
@@ -39,32 +41,6 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 *   license: Public Domain
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
-
-### Falderal
-
-*   subtitle: **Literate Testing for Languages**
-*   inception-date: 2011
-
-Falderal is a file format for literate test suites.  It is particularly
-suited for documenting programming languages (or other specifications of
-ways to transform text) and testing their implementation(s) in a
-language-agnostic fashion.  The dumbed-down sound-bite version:
-"doctests for DSLs".  It can be embedded in both Markdown and Literate
-Haskell.
-
-#### Implementation: py-falderal
-
-*   reference: true
-*   in-distribution: Falderal distribution
-*   generally-recommended: true
-*   license: BSD license
-*   host-language: Python
-
-#### Implementation: Test.Falderal
-
-*   in-distribution: 'Falderal distribution'
-*   license: BSD license
-*   host-language: Haskell
 
 ### Funicular
 
@@ -155,6 +131,100 @@ MARYSUE is the story generator used to generate the novel
 
 *   reference: true
 *   in-distributions: MARYSUE distribution
+*   license: Public Domain
+*   host-language: Python
+
+### seedbank
+
+*   summary: Records seeds used in random generation and allows re-use
+*   inception-date: 2014
+*   development-stage: mature
+
+`seedbank` is a Python module which takes care of recording the seed
+used for random generation, and allowing a previously used seed to
+be used again in the future.
+
+#### Implementation: seedbank (Python)
+
+*   reference: true
+*   in-distribution: seedbank distribution
+*   license: Public Domain
+*   host-language: Python
+
+### shelf
+
+*   summary: A "package manager" that doesn't actually install anything
+*   inception-date: 2016
+*   development-stage: work in progress
+
+`shelf` is a "package manager" which doesn't actually install any files.
+Instead, it stores the source trees of sundry packages in a single directory,
+creates link farms to the interesting files within those trees,
+and manages your search paths to include those link farms.
+those trees. The source trees are typically the working directories of
+local git or Mercurial clones, or they can be source distributions from tarballs.
+`shelf`, written in Bourne shell, is a replacement for `toolshelf`, which was
+written in Python.
+
+#### Implementation: shelf.sh
+
+*   reference: true
+*   in-distribution: shelf distribution
+*   license: Public Domain
+*   host-language: Bourne shell
+
+### SITU-MON
+
+*   inception-date: Jul 2015
+*   development-stage: mature
+
+SITU-MON is a machine language monitor for [[6502 machine code|6502]]-based
+systems, written (by hand!) during RetroChallenge 2015/07 and entered into
+an emulated [[Commodore 64]] using [[SITU-PAN]].
+
+#### Implementation: SITU-MON (Commodore 64)
+
+*   reference: true
+*   in-distribution: SITU-SOL distribution
+*   license: Unknown license
+*   host-language: 6502 machine code
+*   host-platform: Commodore 64
+
+### SITU-PAN
+
+*   inception-date: Jul 2015
+*   development-stage: mature
+
+SITU-PAN is a *front-panel switches simulator* for the [[Commodore 64]].
+It displays 8 virtual LEDs and 8 virtual dip switches on the screen.
+The LEDs display the bit pattern at the current address in memory.
+Via the keyboard, the switches may be toggled, a new bit pattern
+written into memory, and the address advanced. In this way, machine
+code programs may be entered into memory, and then run.
+SITU-PAN was written during RetroChallenge 2015/07 for the purposes
+of entering [[SITU-MON]] into an emulated C64.
+
+#### Implementation: frontpanel.bas
+
+*   reference: true
+*   in-distribution: SITU-SOL distribution
+*   license: Unknown license
+*   host-language: Commodore BASIC 2.0
+*   host-platform: Commodore 64
+
+### The Swallows Engine
+
+*   summary: An engine for generating non-interactive fiction
+*   inception-date: Nov 2013
+*   development-stage: not fully complete
+
+The Swallows Engine is the engine used to generate _The Swallows_
+series of generated novels for [[NaNoGenMo 2013]].
+
+#### Implementation: The Swallows Engine (Python)
+
+*   reference: true
+*   in-distributions: The Swallows distribution
 *   license: Public Domain
 *   host-language: Python
 

@@ -138,9 +138,15 @@
         "url": "https://github.com/catseye/Funicular"
     },
     "Game": {
-        "url": "https://catseye.tc/article/Games"
+        "url": "http://catseye.tc/article/Games"
     },
     "Text": {
-        "url": "https://catseye.tc/article/Texts"
+        "url": "http://catseye.tc/article/Texts"
+    },
+    "SITU-MON": {
+        "url": "http://catseye.tc/article/Retrocomputing#situ-sol"
+    },
+    "shelf": {
+        "url": "http://catseye.tc/article/Tools#shelf"
     }
 }

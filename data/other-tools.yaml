@@ -65,3 +65,27 @@ Tcl/Tk:
   # a bloody lie, but I don't care right now
   no-specification: true
   development-stage: mature
+
+realpath:
+  # it's a bit of a stretch to call this 'original'
+  type: Tool
+  description: |
+    `realpath` is a tool that reports the real, symbolic-link-free path
+    for a filepath which may contain symbolic links.
+  no-specification: true
+  development-stage: mature
+
+realpath (Python):
+  type: Implementation
+  implementation-of:
+  - realpath
+  reference: false
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: 2014
+  development-stage: mature
+  in-distribution: realpath distribution
+  license: Public Domain
+  host-language: Python
