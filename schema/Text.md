@@ -1,4 +1,4 @@
-Game (schema)
+Text (schema)
 =============
 
 This is a schema which defines, for now, a few rudimentary things about

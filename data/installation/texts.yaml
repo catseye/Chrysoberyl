@@ -1,40 +1,5 @@
 # encoding: utf-8
 
-'The Swallows':
-  type: Online Installation
-  installation-of: The Swallows (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-'The Swallows of Summer':
-  type: Online Installation
-  installation-of: The Swallows of Summer (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-'Swallows and Sorrows':
-  type: Online Installation
-  installation-of: Swallows and Sorrows (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-"Dial 'S' for Swallows":
-  type: Online Installation
-  installation-of: "Dial 'S' for Swallows (Markdown)"
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-'Nif':
-  type: Online Installation
-  installation-of: Nif (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
 
 'Cheshire Text':
   type: Online Installation
@@ -48,46 +13,3 @@
   javascript-urls:
   - cheshire-text/cheshire-text.js
   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-
-
-"3×C(21,3)+2×C(215,2)=50000: The Novel":
-  type: Online Installation
-  installation-of: "3×C(21,3)+2×C(215,2)=50000: The Novel (Markdown)"
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-Doby Mick:
-  type: Online Installation
-  installation-of: Doby Mick (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-A Rainy Sunday Afternoon:
-  type: Online Installation
-  installation-of: A Rainy Sunday Afternoon (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-Hope and Remembrance:
-  type: Online Installation
-  installation-of: Hope and Remembrance (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-Threnody for Abraxas:
-  type: Online Installation
-  installation-of: Threnody for Abraxas (Markdown)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
-
-A Time for Destiny:
-  type: Online Installation
-  installation-of: A Time for Destiny (HTML5)
-  mediums:
-  - HTML5
-  inline-markdown-installation: true
