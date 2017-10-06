@@ -68,20 +68,6 @@ Distribution:
   type: type
   suppress-page-generation: true
 
-# implementables:
-Game:
-  type: type
-  description: |
-    A game is anything you can play, but most of these are meant
-    to be played on a computer.  Some can even be played online
-    here, in your web browser.
-    
-    Note that the distinctions between a Game and a [[Gewgaw]]
-    or even an [[Automaton]] are not always clear, and entries
-    here may be categorized somewhat arbitrarily.
-  see-also:
-  - Chris Pressey's Favourite Video Games
-  - Chris Pressey's Favourite Text Adventures
 
 Library:
   type: type
@@ -126,10 +112,6 @@ Programming Language:
     * [[The Aesthetics of Esolangs]]
 
 
-Image Format:
-  type: type
-
-
 Gewgaw:
   type: type
   description: |
@@ -152,28 +134,6 @@ Gewgaw:
     very visually/aurally impressive, sending "greetings" to other demosceners,
     etc.)
 
-Text:
-  type: type
-  exhibit_id: texts_exhibit
-  description: |
-    Texts. But isn't everything in [[Chrysoberyl]] a text
-    of some sort?  Yes, but those are texts *about* something.
-    These are texts that stand as works on their own.
-    
-    Note that concrete poetry and the like may be
-    categorized under Texts, or Pictures, or both.
-  ordered-within:
-  - The Swallows
-  - The Swallows of Summer
-  - Swallows and Sorrows
-  - Dial 'S' for Swallows
-  - Nif
-  - "3×C(21,3)+2×C(215,2)=50000: The Novel"
-  - Doby Mick
-  - A Rainy Sunday Afternoon
-  - Hope and Remembrance
-  - Threnody for Abraxas
-  - Cheshire Text
 
 # these are implementables too, but that property is less exploited for them
 Database:
