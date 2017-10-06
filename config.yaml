@@ -7,12 +7,14 @@ node:
   overlay_files: []
   feed_dir: feeds
   dist_map: dist_map.json
+  dist_json: distributions.json
   catalogue_file: catseye.catalogue
   checkout_dir: checkout
   projection_dir: modules
   link_priority_files:
   - retrocomputing-refdex.json
   - texts-refdex.json
+  - games-refdex.json
   - misc-refdex.json
 
 installation:
@@ -24,9 +26,11 @@ installation:
   overlay_files: []
   feed_dir: feeds
   dist_map: dist_map.json
+  dist_json: distributions.json
   checkout_dir: checkout
   projection_dir: modules
   link_priority_files:
   - retrocomputing-refdex.json
   - texts-refdex.json
+  - games-refdex.json
   - misc-refdex.json
