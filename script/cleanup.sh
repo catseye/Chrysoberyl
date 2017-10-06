@@ -2,7 +2,7 @@
 
 ARTICLES=../Chrysoberyl/article
 
-REFDEXES=games-refdex.json,retrocomputing-refdex.json,misc-refdex.json
+REFDEXES=games-refdex.json,texts-refdex.json,retrocomputing-refdex.json,misc-refdex.json
 
 feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Distribution Organization.md" \
@@ -12,6 +12,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Musical Compositions.md" \
                           "article/Pictures.md" \
                           "article/Retrocomputing.md" \
+                          "article/Texts.md" \
                  >refdex.json
 
 ## non-lists
@@ -44,4 +45,9 @@ feedmark --input-refdex=refdex.json \
 feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Picture.md" \
          "article/Pictures.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Text.md" \
+         "article/Texts.md" \
          --rewrite-markdown || exit 1
