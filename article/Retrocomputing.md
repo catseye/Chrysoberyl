@@ -286,7 +286,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [SixtyPical]: http://catseye.tc/node/SixtyPical
 [SITU-PAN]: http://catseye.tc/node/SITU-PAN
 [SITU-SOL]: http://catseye.tc/node/SITU-SOL
-[SITU-MON]: http://catseye.tc/node/SITU-MON
+[SITU-MON]: http://catseye.tc/article/Retrocomputing#situ-sol
 [BefOS]: http://catseye.tc/node/BefOS
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: http://catseye.tc/node/ANSI_C
