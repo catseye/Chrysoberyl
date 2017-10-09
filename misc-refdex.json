@@ -143,6 +143,12 @@
     "Text": {
         "url": "http://catseye.tc/article/Texts"
     },
+    "Tool": {
+        "url": "http://catseye.tc/article/Tools"
+    },
+    "Library": {
+        "url": "http://catseye.tc/article/Tools"
+    },
     "SITU-MON": {
         "url": "http://catseye.tc/article/Retrocomputing#situ-sol"
     },

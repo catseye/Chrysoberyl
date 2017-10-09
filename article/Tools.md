@@ -264,6 +264,35 @@ only a `REM`, among a few other modest features.
 *   license: MIT license
 *   host-language: Python
 
+Forked Tools
+------------
+
+### ee
+
+*   development-stage: mature
+*   no-specification: true
+*   distribution: [ee distribution](/distribution/ee distribution)
+
+`ee` is the "easy editor" which comes with [[FreeBSD]].
+
+### tideay
+
+*   authors: Paul Harrison, Chris Pressey
+*   inception-date: Apr 2013
+*   development-stage: work in progress
+
+`tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
+text editor written by Paul Harrison.  In addition to the
+features provided by `yaedit`, `tideay` supports things such as
+string-rewriting-based editing commands.
+
+#### Implementation: tideay (Python)
+
+*   reference: true
+*   in-distribution: tideay distribution
+*   license: GPL
+*   host-language: Python
+
 Archival Tools
 --------------
 

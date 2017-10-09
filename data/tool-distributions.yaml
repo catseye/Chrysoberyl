@@ -433,3 +433,20 @@ yaeolc distribution:
     url: http://catseye.tc/distfiles/yaeolc-2003.0402.zip
   discontinued: true
 
+
+ee distribution: 
+  type: Distribution
+  reference: false
+  description: |
+    Cat's Eye Technologies' fork of `ee`, the "easy editor" which comes with [[FreeBSD]].
+    We forked it to allow easier bundling, namely into [[The Platform]].
+  github: catseye/ee
+  # this should be a release?
+  fixed-tag: 1.5.2ce1
+  releases: []
+
+tideay distribution: 
+  type: Distribution
+  github: cpressey/tideay
+  fixed-tag: OMIT
+  releases: []
