@@ -2,6 +2,10 @@
     "ANSI Terminal": {
         "url": "http://www.ecma-international.org/publications/standards/Ecma-048.htm"
     }, 
+    "Borland C++ compiler": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md"
+    }, 
+
     "6502 machine code": {
         "anchor": "6502", 
         "filename": "article/Retrocomputing.md"

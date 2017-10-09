@@ -148,5 +148,11 @@
     },
     "shelf": {
         "url": "http://catseye.tc/article/Tools#shelf"
+    },
+    "Parsec": {
+        "url": "https://wiki.haskell.org/Parsec"
+    },
+    "make": {
+        "url": "http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html"
     }
 }
