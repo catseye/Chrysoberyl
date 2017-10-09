@@ -13,6 +13,8 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Pictures.md" \
                           "article/Retrocomputing.md" \
                           "article/Texts.md" \
+                          "article/Tools.md" \
+                          "article/Formats.md" \
                  >refdex.json
 
 ## non-lists
@@ -50,4 +52,14 @@ feedmark --input-refdex=refdex.json \
 feedmark --input-refdex=refdex.json \
          --check-against-schema="schema/Text.md" \
          "article/Texts.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Tool.md" \
+         "article/Tools.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json \
+         --check-against-schema="schema/Format.md" \
+         "article/Formats.md" \
          --rewrite-markdown || exit 1

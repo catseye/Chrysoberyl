@@ -5,6 +5,12 @@ Texts
 *   common authors: Chris Pressey
 *   common type: Text
 
+Texts. But isn't everything in Chrysoberyl a text
+of some sort?  Yes, but those are texts *about* something.
+These are texts that stand as works on their own.
+
+Note that concrete poetry and the like may be
+categorized under Texts, or Pictures, or both.
 
 ### The Swallows
 
@@ -155,6 +161,6 @@ Links
 *   [SPECULATIVE FICTIONS](http://speculativefictions.weebly.com/)
 *   [Xrays Mona Lisa](http://www.xradiograph.com/XraysMonaLisa/XraysMonaLisa)
 
-[MARYSUE]: TBD
-[The Swallows Engine]: TBD
+[MARYSUE]: article/Tools.md#marysue
+[The Swallows Engine]: article/Tools.md#the-swallows-engine
 

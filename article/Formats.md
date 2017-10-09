@@ -1,6 +1,7 @@
 Formats
 =======
 
+
 ### Falderal
 
 *   subtitle: **Literate Testing for Languages**
@@ -30,7 +31,6 @@ Haskell.
 ### Feedmark
 
 *   inception-date: 2017
-*   development-stage: work in progress
 
 Feedmark is a file format for embedding curational information in Markdown.
 
