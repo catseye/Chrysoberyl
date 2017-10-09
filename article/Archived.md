@@ -29,7 +29,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 #### Implementation: belld.c
 
 *   reference: true
-*   in-distribution: belld distribution
+*   in-distribution: [belld distribution](/distribution/belld distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -42,7 +42,7 @@ Utility to translate I/O interactively.
 #### brace.c
 
 *   reference: true
-*   in-distribution: brace distribution
+*   in-distribution: [brace distribution](/distribution/brace distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -59,7 +59,7 @@ to run, and sleeps exactly that long.
 #### crone.erl
 
 *   reference: true
-*   in-distribution: crone distribution
+*   in-distribution: [crone distribution](/distribution/crone distribution)
 *   license: BSD license
 *   host-language: Erlang
 
@@ -75,7 +75,7 @@ A fairly realistic line-noise generator.
 *   reference: true
 *   license: BSD license
 *   host-language: Perl
-*   in-distribution: The Dipple
+*   in-distribution: [The Dipple](/distribution/The Dipple)
 
 ### luakld
 
@@ -87,7 +87,7 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 #### Implementation: luakld (C)
 
 *   reference: true
-*   in-distribution: luakld distribution
+*   in-distribution: [luakld distribution](/distribution/luakld distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -105,7 +105,7 @@ It is actually called `SP\ASM`.
 #### Implementation: SP_ASM.BAT
 
 *   reference: true
-*   in-distribution: SP_ASM distribution
+*   in-distribution: [SP_ASM distribution](/distribution/SP_ASM distribution)
 *   license: Unknown license
 *   host-language: MS-DOS Batchfile
 
@@ -126,7 +126,7 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 #### toolshelf.py
 
 *   reference: true
-*   in-distribution: toolshelf distribution
+*   in-distribution: [toolshelf distribution](/distribution/toolshelf distribution)
 *   license: MIT license
 *   host-language: Python
 
@@ -144,7 +144,7 @@ synchronization.
 #### transmat (Python)
 
 *   reference: true
-*   in-distribution: transmat distribution
+*   in-distribution: [transmat distribution](/distribution/transmat distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -157,9 +157,7 @@ Yet Another End Of Line Converter
 #### yaeolc (Perl)
 
 *   reference: true
-*   in-distributions:
-*   - yaeolc distribution
-*   - The Dipple
+*   in-distributions: [The Dipple](/distribution/The Dipple)
 *   license: Unknown license
 *   host-language: Perl
 
