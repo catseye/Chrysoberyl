@@ -29,13 +29,6 @@ Amiga Gondola:
   host-language: Bourne shell
   target-platform: Amiga 500
 
-Amiga Gondola distribution: 
-  type: Distribution
-  releases:
-  - version: "0.1"
-    revision: "2013.1111"
-    url: http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip
-
 
 basedump: 
   type: Tool
@@ -56,13 +49,6 @@ basedump.erl:
   - Erlang
   license: BSD license
   host-language: Erlang
-
-basedump distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2002.1010"
-    url: http://catseye.tc/distfiles/basedump-2002.1010.zip
 
 
 belld: 
@@ -86,13 +72,6 @@ belld.c:
   license: BSD license
   host-language: C99
 
-belld distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0303"
-    url: http://catseye.tc/distfiles/belld-2004.0303.zip
-
 
 brace: 
   type: Tool
@@ -111,13 +90,6 @@ brace.c:
   in-distribution: brace distribution
   license: BSD license
   host-language: C99
-
-brace distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0920"
-    url: http://catseye.tc/distfiles/brace-2004.0920.zip
 
 
 ce: 
@@ -139,13 +111,6 @@ ce (Erlang):
   - Erlang
   license: BSD license
   host-language: Erlang
-
-ce distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2003.0522"
-    url: http://catseye.tc/distfiles/ce-2003.0522.zip
 
 
 crone: 
@@ -172,18 +137,6 @@ crone.erl:
   license: BSD license
   host-language: Erlang
 
-crone distribution: 
-  type: Distribution
-  github: catseye/crone
-  releases: 
-  - version: "1.0"
-    revision: "2004.0301"
-    tag: rel_1_0
-    url: http://catseye.tc/distfiles/crone-2004.0301.zip
-  - version: "1.0"
-    revision: "2014.0819"
-    url: http://catseye.tc/distfiles/crone-1.0-2014.0819.zip
-
 
 ec: 
   type: Tool
@@ -205,13 +158,6 @@ ec.erl:
   license: BSD license
   host-language: Erlang
 
-ec distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0228"
-    url: http://catseye.tc/distfiles/ec-2004.0228.zip
-
 
 erlaunch: 
   type: Tool
@@ -231,13 +177,6 @@ erlaunch.c:
   license: BSD license
   host-language: C99
 
-erlaunch distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0309"
-    url: http://catseye.tc/distfiles/erlaunch-2004.0309.zip
-
 
 noise: 
   type: Tool
@@ -256,14 +195,6 @@ noise (Perl):
   license: BSD license
   host-language: Perl
   in-distribution: The Dipple
-
-noise distribution: 
-  type: Distribution
-  discontinued: true
-  releases: 
-  - version: "1.0"
-    revision: "2001.0622"
-    url: http://catseye.tc/distfiles/noise-2001.0622.zip
 
 
 OpenFlax: 
@@ -306,13 +237,6 @@ OpenFlax (Erlang):
   license: BSD license
   host-language: Erlang
 
-OpenFlax distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.0919"
-    url: http://catseye.tc/distfiles/openflax-2004.0919.zip
-
 
 peruse: 
   type: Tool
@@ -334,13 +258,6 @@ peruse.erl:
   license: BSD license
   host-language: Erlang
 
-peruse distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2002.1204"
-    url: http://catseye.tc/distfiles/peruse-2002.1204.zip
-
 
 luakld: 
   # well, kernel module
@@ -360,22 +277,6 @@ luakld (C):
   in-distribution: luakld distribution
   license: BSD license
   host-language: C99
-
-luakld distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2004.1219"
-    url: http://catseye.tc/distfiles/luakld-2004.1219.zip
-
-
-sf2tab distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2005.0623"
-    url: http://catseye.tc/distfiles/sf2tab-2005.0623.zip
-  discontinued: true
 
 
 SP_ASM: 
@@ -402,12 +303,31 @@ SP_ASM.BAT:
   license: Unknown license
   host-language: MS-DOS Batchfile
 
-SP_ASM distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "1998.0716"
-    url: http://catseye.tc/distfiles/sp_asm-1998.0716.zip
+
+toolshelf: 
+  type: Tool
+  summary: A "package manager" that doesn't actually install anything
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `toolshelf` is a "package manager" which doesn't actually install any files.
+    Instead, it stores the source trees of sundry packages in a single directory,
+    and manages your search paths to include the relevant subdirectories of
+    those trees. The source trees are typically the working directories of
+    local git or Mercurial clones, or they can be source distributions from tarballs.
+  inception-date: 2012
+  development-stage: work in progress
+
+toolshelf.py:
+  type: Implementation
+  implementation-of:
+  - toolshelf
+  reference: true
+  in-distribution: toolshelf distribution
+  license: MIT license
+  host-language: Python
 
 
 transmat: 
@@ -434,21 +354,6 @@ transmat (Python):
   license: Public Domain
   host-language: Python
 
-transmat distribution: 
-  type: Distribution
-  github: cpressey/transmat
-  releases: []
-  fixed-tag: OMIT
-
-
-VALGOL distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2002.1011"
-    url: http://catseye.tc/distfiles/valgol-2002.1011.zip
-  discontinued: true
-
 
 yaeolc:
   type: Tool
@@ -469,37 +374,3 @@ yaeolc (Perl):
   - The Dipple
   license: Unknown license
   host-language: Perl
-
-yaeolc distribution: 
-  type: Distribution
-  releases: 
-  - version: "1.0"
-    revision: "2003.0402"
-    url: http://catseye.tc/distfiles/yaeolc-2003.0402.zip
-  discontinued: true
-
-
-toolshelf: 
-  type: Tool
-  summary: A "package manager" that doesn't actually install anything
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  description: |
-    `toolshelf` is a "package manager" which doesn't actually install any files.
-    Instead, it stores the source trees of sundry packages in a single directory,
-    and manages your search paths to include the relevant subdirectories of
-    those trees. The source trees are typically the working directories of
-    local git or Mercurial clones, or they can be source distributions from tarballs.
-  inception-date: 2012
-  development-stage: work in progress
-
-toolshelf.py:
-  type: Implementation
-  implementation-of:
-  - toolshelf
-  reference: true
-  in-distribution: toolshelf distribution
-  license: MIT license
-  host-language: Python
