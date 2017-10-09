@@ -25,42 +25,42 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --rewrite-markdown || exit 1
 
 ## lists
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Electronics Project.md" \
          "article/Electronics Projects.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Game.md" \
          "article/Games.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Musical Composition.md" \
          "article/Musical Compositions.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Unfinished Esolang.md" \
          "article/List of Unfinished Interesting Esolangs.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Picture.md" \
          "article/Pictures.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Text.md" \
          "article/Texts.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Tool.md" \
          "article/Tools.md" \
          --rewrite-markdown || exit 1
 
-feedmark --input-refdex=refdex.json \
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Format.md" \
          "article/Formats.md" \
          --rewrite-markdown || exit 1

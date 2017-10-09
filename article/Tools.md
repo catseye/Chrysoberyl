@@ -358,15 +358,15 @@ check itself!
 
 [Eightebed]: http://catseye.tc/node/Eightebed
 [FreeBSD]: TBD
-[Amiga Gondola]: article/Archived.md#amiga-gondola
+[Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: TBD
-[FreeDOS]: article/Retrocomputing.md#ms-dos
-[Commodore BASIC 2.0]: article/Retrocomputing.md#commodore-64
-[Commodore 64]: article/Retrocomputing.md#commodore-64
-[A Time for Destiny]: article/Texts.md#a-time-for-destiny
+[FreeDOS]: ../article/Retrocomputing.md#ms-dos
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-64
+[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
 [NaNoGenMo 2013]: TBD
 [NaNoGenMo 2015]: TBD
-[6502]: article/Retrocomputing.md#6502
-[SITU-PAN]: article/Tools.md#situ-pan
-[SITU-MON]: article/Tools.md#situ-mon
+[6502]: ../article/Retrocomputing.md#6502
+[SITU-PAN]: ../article/Tools.md#situ-pan
+[SITU-MON]: ../article/Tools.md#situ-mon
 

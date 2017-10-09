@@ -161,6 +161,6 @@ Links
 *   [SPECULATIVE FICTIONS](http://speculativefictions.weebly.com/)
 *   [Xrays Mona Lisa](http://www.xradiograph.com/XraysMonaLisa/XraysMonaLisa)
 
-[MARYSUE]: article/Tools.md#marysue
-[The Swallows Engine]: article/Tools.md#the-swallows-engine
+[MARYSUE]: ../article/Tools.md#marysue
+[The Swallows Engine]: ../article/Tools.md#the-swallows-engine
 
