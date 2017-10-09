@@ -15,6 +15,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Texts.md" \
                           "article/Tools.md" \
                           "article/Formats.md" \
+                          "article/Archived.md" \
                  >refdex.json
 
 ## non-lists

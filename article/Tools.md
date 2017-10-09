@@ -58,9 +58,9 @@ retrocomputing and esoteric architectures.  Basically, if you've got an
 emulator for it and install and support images for it, you might be able
 to install and outfit and and run a system for it, using Funicular.
 
-It replaces [[Amiga Gondola]].  It can handle such OS/emulator combinations
-as [[AmigaDOS 1.3]] under [[E-UAE]] emulating an [[Amiga 500]],
-[[FreeDOS]] under [[QEMU]], and [[NetBSD]] under [[QEMU]].
+It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
+as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][], and [Commodore BASIC 2.0][]
+on a [Commodore 64][].
 
 #### Implementation: funicular
 
@@ -125,7 +125,7 @@ the resulting sequence of images is compiled into the finished movie.
 *   development-stage: not fully complete
 
 MARYSUE is the story generator used to generate the novel
-[[A Time for Destiny]] for [[NaNoGenMo 2015]].
+[A Time for Destiny][] for [NaNoGenMo 2015][].
 
 #### Implementation: MARYSUE (Python)
 
@@ -178,9 +178,9 @@ written in Python.
 *   inception-date: Jul 2015
 *   development-stage: mature
 
-SITU-MON is a machine language monitor for [[6502 machine code|6502]]-based
+SITU-MON is a machine language monitor for [6502][]-based
 systems, written (by hand!) during RetroChallenge 2015/07 and entered into
-an emulated [[Commodore 64]] using [[SITU-PAN]].
+an emulated [Commodore 64][] using [SITU-PAN][].
 
 #### Implementation: SITU-MON (Commodore 64)
 
@@ -195,14 +195,14 @@ an emulated [[Commodore 64]] using [[SITU-PAN]].
 *   inception-date: Jul 2015
 *   development-stage: mature
 
-SITU-PAN is a *front-panel switches simulator* for the [[Commodore 64]].
+SITU-PAN is a *front-panel switches simulator* for the [Commodore 64][].
 It displays 8 virtual LEDs and 8 virtual dip switches on the screen.
 The LEDs display the bit pattern at the current address in memory.
 Via the keyboard, the switches may be toggled, a new bit pattern
 written into memory, and the address advanced. In this way, machine
 code programs may be entered into memory, and then run.
 SITU-PAN was written during RetroChallenge 2015/07 for the purposes
-of entering [[SITU-MON]] into an emulated C64.
+of entering [SITU-MON][] into an emulated C64.
 
 #### Implementation: frontpanel.bas
 
@@ -219,7 +219,7 @@ of entering [[SITU-MON]] into an emulated C64.
 *   development-stage: not fully complete
 
 The Swallows Engine is the engine used to generate _The Swallows_
-series of generated novels for [[NaNoGenMo 2013]].
+series of generated novels for [NaNoGenMo 2013][].
 
 #### Implementation: The Swallows Engine (Python)
 
@@ -318,7 +318,7 @@ An IRC bot with no purpose or plan.
 ### Rooibos
 
 *   summary: Simple, single-module parser combinator library
-*   inception-date: '2011'
+*   inception-date: 2011
 *   development-stage: archival
 
 Rooibos is a parser combinator library for Python. Modelled somewhat
@@ -358,4 +358,15 @@ check itself!
 
 [Eightebed]: http://catseye.tc/node/Eightebed
 [FreeBSD]: TBD
+[Amiga Gondola]: article/Archived.md#amiga-gondola
+[NetBSD]: TBD
+[FreeDOS]: article/Retrocomputing.md#ms-dos
+[Commodore BASIC 2.0]: article/Retrocomputing.md#commodore-64
+[Commodore 64]: article/Retrocomputing.md#commodore-64
+[A Time for Destiny]: article/Texts.md#a-time-for-destiny
+[NaNoGenMo 2013]: TBD
+[NaNoGenMo 2015]: TBD
+[6502]: article/Retrocomputing.md#6502
+[SITU-PAN]: article/Tools.md#situ-pan
+[SITU-MON]: article/Tools.md#situ-mon
 
