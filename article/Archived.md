@@ -7,12 +7,11 @@ this article is a real grab-bag right now.
 
 ### Amiga Gondola
 
-*   type: Tool
 *   inception-date: Oct 25 2013
 
 Amiga Gondola is a set of scripts to set up a development environment
-under [[AmigaDOS 1.3]], generally on an [[Amiga 500]] emulated by the
-[[E-UAE]] emulator.
+under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
+[E-UAE][] emulator.
 
 #### Implementation: 'populate.sh (Amiga Gondola)':
 
@@ -23,31 +22,32 @@ under [[AmigaDOS 1.3]], generally on an [[Amiga 500]] emulated by the
 
 ### belld
 
-  type: Tool
-  summary: FreeBSD 4.x syscons bell hook to run executable
+*   inception-date: unknown
+
+FreeBSD 4.x syscons bell hook to run executable.
 
 #### Implementation: belld.c
 
-  reference: true
-  in-distribution: belld distribution
-  license: BSD license
-  host-language: C99
+*   reference: true
+*   in-distribution: belld distribution
+*   license: BSD license
+*   host-language: C99
 
 ### brace
 
-  type: Tool
-  summary: Utility to translate I/O interactively
+*   inception-date: unknown
+
+Utility to translate I/O interactively.
 
 #### brace.c
 
-  reference: true
-  in-distribution: brace distribution
-  license: BSD license
-  host-language: C99
+*   reference: true
+*   in-distribution: brace distribution
+*   license: BSD license
+*   host-language: C99
 
 ### crone
 
-*   type: Tool
 *   summary: Simple, non-polling cron-like scheduler
 *   inception-date: Mar 1 2004
 
@@ -65,8 +65,10 @@ to run, and sleeps exactly that long.
 
 ### noise
 
-  type: Tool
-  summary: A fairly realistic line-noise generator
+*   summary: A fairly realistic line-noise generator
+*   inception-date: unknown
+
+A fairly realistic line-noise generator.
 
 #### noise (Perl)
 
@@ -77,8 +79,8 @@ to run, and sleeps exactly that long.
 
 ### luakld
 
-*   type: Kernel module
 *   summary: Lua embedded in a FreeBSD 4.x kernel module
+*   inception-date: unknown
 
 This was a little experiment.  Conclusion: Lua interpreter: not a recommended thing to put in a kernel module.
 
@@ -91,7 +93,7 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 
 ### SP_ASM
 
-*   type: Tool
+*   inception-date: unknown
 
 The SPlenetic ASseMbler.
 Possibly the most grotty hack implementation of an "assembler" in existence.
@@ -112,7 +114,6 @@ It is actually called `SP\ASM.BAT`.
 
 ### toolshelf
 
-*   type: Tool
 *   summary: A "package manager" that doesn't actually install anything
 *   inception-date: 2012
 
@@ -131,7 +132,6 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 
 ### transmat
 
-*   type: Tool
 *   inception-date: ca 2005
 
 `transmat` is a network synchronization tool written in Python. It is not
@@ -143,9 +143,6 @@ synchronization.
 
 #### transmat (Python)
 
-*   type: Implementation
-*   implementation-of:
-*   - transmat
 *   reference: true
 *   in-distribution: transmat distribution
 *   license: Public Domain
@@ -153,7 +150,7 @@ synchronization.
 
 ### yaeolc
 
-*   type: Tool
+*   inception-date: unknown
 
 Yet Another End Of Line Converter
 
@@ -173,3 +170,8 @@ Links
 *   [Theory of Computing](http://theoryofcomputing.org/), an Open-Access Journal
 *   [AlertBox](http://www.useit.com/alertbox/), a popular column on Web usability
 *   [TinyApps.org](http://www.tinyapps.org/), "A guide to very small software for your PC"
+
+[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[Amiga 500]: ../article/Retrocomputing.md#amiga-500
+[E-UAE]: ../article/Retrocomputing.md#amiga-500
+
