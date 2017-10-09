@@ -21,7 +21,7 @@ and entries here may be categorized somewhat arbitrarily.
 *   reference distribution: [Bubble Escape distribution](/distribution/Bubble Escape distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
-Bubble Escape is a video game written for the [Commodore 64][] where the
+_Bubble Escape_ is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
 designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
 rewritten in [Ophis Assembler][] in the late 00's.
@@ -56,7 +56,7 @@ where it won first place in its class.
 *   host-platform: Commodore 64
 *   controls: joystick
 
-### Corona: Realm of Magic'
+### Corona: Realm of Magic
 
 ![screenshot](http://catseye.tc/modules/corona-realm-of-magic/doc/carpe_ss2.gif)
 
@@ -65,7 +65,7 @@ where it won first place in its class.
 *   reference distribution: [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
 *   development-stage: archival
 
-Corona: Realm of Magic is an unfinished roguelike written in
+_Corona: Realm of Magic_ is an unfinished roguelike written in
 [Perl][].  It was written on top of a framework
 that Cat's Eye Technologies was developing at the time
 called CARPE DIEM (Computer-Assisted Role-Playing Engine for Diverse
@@ -86,7 +86,7 @@ Interactive Entertainment Modules.)
 *   inception-date: Aug 2012
 *   reference distribution: [Dungeons of Ekileugor distribution](/distribution/Dungeons of Ekileugor distribution)
 
-Dungeons of Ekileugor is a roguelike written for the [Commodore VIC-20][],
+_Dungeons of Ekileugor_ is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
 set of the usual "dungeon furniture": reasonably generated dungeon levels
 with tunnels and rooms whose contents are hidden until you enter,
@@ -110,7 +110,7 @@ etc.
 *   reference distribution: [Super Wumpus Land distribution](/distribution/Super Wumpus Land distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 
-Super Wumpus Land is an "extended dance mix" version of Gregory Yob's
+_Super Wumpus Land_ is an "extended dance mix" version of Gregory Yob's
 [Hunt the Wumpus][].  It's playable in your web browser in a simulation
 of an old-school green-screen video terminal.
 
@@ -188,7 +188,7 @@ phenomenon of a generation.  (Possibly.)
 *   inception-date: ca 2005
 *   reference distribution: [Zzrk distribution](/distribution/Zzrk distribution)
 
-Zzrk is a tiny adventure game written in "pure" Zz
+_Zzrk_ is a tiny adventure game written in "pure" Zz
 (a meta-language normally used for defining compilers.)
 
 #### Implementation: Zzrk (Zz)
@@ -208,7 +208,7 @@ Implemented Games
 *   authors: Unknown
 *   auspices: Unknown
 
-Animals is a classic "expert system" game.  The computer asks you to think of an
+_Animals_ is a classic "expert system" game.  The computer asks you to think of an
 animal, and then asks you a series of yes/no questions in an attempt to
 discover what animal you chose.  If it comes to the wrong conclusion, it
 asks you for a question that would distinguish the animal that you chose,
@@ -231,7 +231,7 @@ as more games are played.
 *   auspices: Unknown
 *   specification-link: [www.atariarchives.org](http://www.atariarchives.org/morebasicgames/showpage.php?page=61)
 
-Flip is a very simple computer game by John S. James which first appeared
+_Flip_ is a very simple computer game by John S. James which first appeared
 in the March/April 1977 edition of _Creative Computing_.
 In the game, the computer flips a virtual coin 50 times, and the object is
 for you to guess whether the coin will come up heads or tails each time.
@@ -255,7 +255,7 @@ away from what it thinks you are likely to guess next.
 *   wikipedia: [Hunt the Wumpus](https://en.wikipedia.org/wiki/Hunt_the_Wumpus)
 *   specification-link: [www.atariarchives.org](http://www.atariarchives.org/morebasicgames/showpage.php?page=178)
 
-Hunt the Wumpus is a classic topological mythical-beast-hunting game
+_Hunt the Wumpus_ is a classic topological mythical-beast-hunting game
 from the era of teletypes.  Gregory Yob was disappointed by the
 number of games based on "find an objective hidden on a
 2-dimensional grid", and decided to design one that was based on
@@ -275,7 +275,7 @@ a world less orthogonal.
 *   auspices: Unknown
 *   wikipedia: [Sokoban](https://en.wikipedia.org/wiki/Sokoban)
 
-Sokoban is the classic Japanese game about lean manufacturing (well, sort of).
+_Sokoban_ is the classic Japanese game about lean manufacturing (well, sort of).
     
 #### Implementation: esoko
 
@@ -298,9 +298,9 @@ Links
 - - - -
 
 [Commodore 64]: article/Retrocomputing.md#commodore-64
-[Ophis Assembler]: TBD
-[Mini Game Compo 2009]: TBD
-[Perl]: TBD
+[Ophis Assembler]: https://github.com/michaelcmartin/Ophis
+[Mini Game Compo 2009]: http://catseye.tc/node/Mini_Game_Compo_2009
+[Perl]: http://catseye.tc/node/Perl
 [Hunt the Wumpus]: article/Games.md#hunt-the-wumpus
 [Commodore VIC-20]: article/Retrocomputing.md#commodore-vic-20
 
