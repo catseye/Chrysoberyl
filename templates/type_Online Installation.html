@@ -3,7 +3,7 @@
 {% block index %}
   <ul>
     {%- for (key, node) in get_space(name='installation').iteritems()|sort -%}
-      {% if node.type == 'Online Installation' %}
+      {% if node.type == 'Online Installation' and not node.hidden %}
         <li>
           {{ link('installation/' + key) }}</a>
         </li>

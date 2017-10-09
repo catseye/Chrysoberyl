@@ -62,7 +62,6 @@ A Non-Random Walk:
   - a-non-random-walk/a-non-random-walk.js
 
 Art Restoration Simulator:
-  hidden: true
   type: Online Installation
   installation-of: art-restoration-simulator.js
   interactive: true
