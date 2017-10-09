@@ -19,6 +19,12 @@ subtitle
 
 summary
 
+### authors
+
+*   optional: true
+
+authors
+
 ### inception-date
 
 *   optional: true
@@ -30,3 +36,10 @@ date
 *   optional: true
 
 development-stage
+
+### distribution
+
+*   optional: true
+
+distribution
+

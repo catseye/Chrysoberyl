@@ -270,10 +270,9 @@ Forked Tools
 ### ee
 
 *   development-stage: mature
-*   no-specification: true
 *   distribution: [ee distribution](/distribution/ee distribution)
 
-`ee` is the "easy editor" which comes with [[FreeBSD]].
+`ee` is the "easy editor" which comes with [FreeBSD][].
 
 ### tideay
 
@@ -358,4 +357,5 @@ check itself!
 *   host-language: Scheme
 
 [Eightebed]: http://catseye.tc/node/Eightebed
+[FreeBSD]: TBD
 
