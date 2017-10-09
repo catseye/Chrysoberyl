@@ -4,7 +4,10 @@ Tools
 Note that the precise distinctions between a Tool, a Platform, and a Library are debatable,
 and entries may be categorized somewhat arbitrarily.
 
-Tools for Retrocomputing platforms might be found in the Retrocomputing article instead.
+Tools for Retrocomputing platforms might be found in the [Retrocomputing][] article instead.
+
+[Formats][] often have tools for processing them, and those are listed along with the format
+instead of here.
 
 ### Console::Virtual
 
@@ -19,11 +22,11 @@ is emulated on whatever user interface is really available.
 
 *   reference: true
 *   in-distributions:
-*   - 'Console::Virtual distribution'
-*   - 'Corona: Realm of Magic distribution'
-*   - Ypsilax distribution
-*   - noit o' mnain worb distribution
-*   - HUNTER distribution
+    *   [Console::Virtual distribution](/distribution/Console::Virtual distribution)
+    *   [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
+    *   [Ypsilax distribution](/distribution/Ypsilax distribution)
+    *   [noit o' mnain worb distribution](/distribution/noit o' mnain worb distribution)
+    *   [HUNTER distribution](/distribution/HUNTER distribution)
 *   license: BSD license
 *   host-language: Perl
 
@@ -37,7 +40,7 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 #### Implementation: DiskSumo (BASIC)
 
 *   reference: true
-*   in-distribution: DiskSumo distribution
+*   in-distribution: [DiskSumo distribution](/distribution/DiskSumo distribution)
 *   license: Public Domain
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
@@ -65,7 +68,7 @@ on a [Commodore 64][].
 #### Implementation: funicular
 
 *   reference: true
-*   in-distribution: Funicular distribution
+*   in-distribution: [Funicular distribution](/distribution/Funicular distribution)
 *   license: Public Domain
 *   host-language: Lua
 
@@ -81,7 +84,7 @@ from Project Gutenberg text files.
 #### Implementation: guten-gutter (Python)
 
 *   reference: true
-*   in-distribution: Guten-gutter distribution
+*   in-distribution: [Guten-gutter distribution](/distribution/Guten-gutter distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -98,7 +101,7 @@ Python and is in the public domain.
 #### Implementation: hatoucan (Python)
 
 *   reference: true
-*   in-distribution: hatoucan distribution
+*   in-distribution: [hatoucan distribution](/distribution/hatoucan distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -114,7 +117,7 @@ the resulting sequence of images is compiled into the finished movie.
 #### Implementation: kinoje (Python)
 
 *   reference: true
-*   in-distribution: kinoje distribution
+*   in-distribution: [kinoje distribution](/distribution/kinoje distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -130,7 +133,7 @@ MARYSUE is the story generator used to generate the novel
 #### Implementation: MARYSUE (Python)
 
 *   reference: true
-*   in-distributions: MARYSUE distribution
+*   in-distributions: [MARYSUE distribution](/distribution/MARYSUE distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -147,7 +150,7 @@ be used again in the future.
 #### Implementation: seedbank (Python)
 
 *   reference: true
-*   in-distribution: seedbank distribution
+*   in-distribution: [seedbank distribution](/distribution/seedbank distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -163,13 +166,13 @@ creates link farms to the interesting files within those trees,
 and manages your search paths to include those link farms.
 those trees. The source trees are typically the working directories of
 local git or Mercurial clones, or they can be source distributions from tarballs.
-`shelf`, written in Bourne shell, is a replacement for `toolshelf`, which was
+`shelf`, written in Bourne shell, is a replacement for `[toolshelf][]`, which was
 written in Python.
 
 #### Implementation: shelf.sh
 
 *   reference: true
-*   in-distribution: shelf distribution
+*   in-distribution: [shelf distribution](/distribution/shelf distribution)
 *   license: Public Domain
 *   host-language: Bourne shell
 
@@ -185,7 +188,7 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 #### Implementation: SITU-MON (Commodore 64)
 
 *   reference: true
-*   in-distribution: SITU-SOL distribution
+*   in-distribution: [SITU-SOL distribution](/distribution/SITU-SOL distribution)
 *   license: Unknown license
 *   host-language: 6502 machine code
 *   host-platform: Commodore 64
@@ -207,7 +210,7 @@ of entering [SITU-MON][] into an emulated C64.
 #### Implementation: frontpanel.bas
 
 *   reference: true
-*   in-distribution: SITU-SOL distribution
+*   in-distribution: [SITU-SOL distribution](/distribution/SITU-SOL distribution)
 *   license: Unknown license
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
@@ -224,7 +227,7 @@ series of generated novels for [NaNoGenMo 2013][].
 #### Implementation: The Swallows Engine (Python)
 
 *   reference: true
-*   in-distributions: The Swallows distribution
+*   in-distributions: [The Swallows distribution](/distribution/The Swallows distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -243,7 +246,7 @@ done to make it more presentable.
 #### Implementation: t-rext (Python)
 
 *   reference: true
-*   in-distribution: T-Rext distribution
+*   in-distribution: [T-Rext distribution](/distribution/T-Rext distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -260,7 +263,7 @@ only a `REM`, among a few other modest features.
 #### Implementation: yucca (Python)
 
 *   reference: true
-*   in-distribution: yucca distribution
+*   in-distribution: [yucca distribution](/distribution/yucca distribution)
 *   license: MIT license
 *   host-language: Python
 
@@ -272,7 +275,8 @@ Forked Tools
 *   development-stage: mature
 *   distribution: [ee distribution](/distribution/ee distribution)
 
-`ee` is the "easy editor" which comes with [FreeBSD][].
+`ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
+has forked it for use in [The Platform][].
 
 ### tideay
 
@@ -288,7 +292,7 @@ string-rewriting-based editing commands.
 #### Implementation: tideay (Python)
 
 *   reference: true
-*   in-distribution: tideay distribution
+*   in-distribution: [tideay distribution](/distribution/tideay distribution)
 *   license: GPL
 *   host-language: Python
 
@@ -305,13 +309,13 @@ An IRC bot with no purpose or plan.
 #### Implementation: mzstorkipiwanbotbotbot (Lua)
 
 *   reference: true
-*   in-distribution: mzstorkipiwanbotbotbot distribution
+*   in-distribution: [mzstorkipiwanbotbotbot distribution](/distribution/mzstorkipiwanbotbotbot distribution)
 *   license: Public Domain
 *   host-language: Lua
 
 #### Implementation: Rtype
 
-*   in-distribution: mzstorkipiwanbotbotbot distribution
+*   in-distribution: [mzstorkipiwanbotbotbot distribution](/distribution/mzstorkipiwanbotbotbot distribution)
 *   license: Public Domain
 *   host-language: R
 
@@ -332,7 +336,7 @@ other projects.
 #### Implementation: rooibos.py
 
 *   reference: true
-*   in-distributions: Eightebed distribution
+*   in-distributions: [Eightebed distribution](/distribution/Eightebed distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -352,7 +356,7 @@ check itself!
 #### Implementation: TPiS (Scheme)
 
 *   reference: true
-*   in-distribution: TPiS distribution
+*   in-distribution: [TPiS distribution](/distribution/TPiS distribution)
 *   license: BSD license
 *   host-language: Scheme
 
@@ -369,4 +373,7 @@ check itself!
 [6502]: ../article/Retrocomputing.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
+[Retrocomputing]: http://catseye.tc/article/Retrocomputing
+[Formats]: ../article/Formats.md
+[The Platform]: TBD
 

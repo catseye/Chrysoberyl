@@ -92,9 +92,6 @@
     "Phantom Hoover": {
         "url": "http://esolangs.org/wiki/User:Phantom_Hoover"
     }, 
-    "Retrocomputing": {
-        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md"
-    }, 
     "Rube Goldberg": {
         "url": "https://en.wikipedia.org/wiki/Rube_Goldberg"
     }, 
@@ -148,6 +145,9 @@
     },
     "Library": {
         "url": "http://catseye.tc/article/Tools"
+    },
+    "Retrocomputing": {
+        "url": "http://catseye.tc/article/Retrocomputing"
     },
     "SITU-MON": {
         "url": "http://catseye.tc/article/Retrocomputing#situ-sol"

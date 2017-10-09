@@ -1,6 +1,9 @@
 Formats
 =======
 
+These are file formats that Cat's Eye Technologies has defined, and
+implemented processing tools for.  "File formats" are generally simpler
+than programming languages.
 
 ### Falderal
 
@@ -17,7 +20,7 @@ Haskell.
 #### Implementation: py-falderal
 
 *   reference: true
-*   in-distribution: Falderal distribution
+*   in-distribution: [Falderal distribution](/distribution/Falderal distribution)
 *   generally-recommended: true
 *   license: BSD license
 *   host-language: Python
@@ -37,7 +40,7 @@ Feedmark is a file format for embedding curational information in Markdown.
 #### Implementation: feedmark (Python)
 
 *   reference: true
-*   in-distribution: Feedmark distribution
+*   in-distribution: [Feedmark distribution](/distribution/Feedmark distribution)
 *   license: Public Domain
 *   host-language: Python
 
