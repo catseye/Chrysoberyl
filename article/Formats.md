@@ -40,3 +40,9 @@ Feedmark is a file format for embedding curational information in Markdown.
 *   in-distribution: Feedmark distribution
 *   license: Public Domain
 *   host-language: Python
+
+Links
+-----
+
+*   [The myth of RSS compatibility](http://diveintomark.org/archives/2004/02/04/incompatible-rss)
+*   [The S stands for Simple](http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/)

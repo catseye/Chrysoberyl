@@ -1,8 +1,4 @@
 # encoding: UTF-8
-ANSI Terminal:
-  type: Tool
-  specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
-  development-stage: mature
 
 Borland C++ compiler:
   type: Implementation
@@ -19,30 +15,6 @@ Borland C++ compiler:
   target-platform: MS-DOS
   implementation-type: compiler
 
-CRUNCHER AB+:
-  type: Tool
-  development-stage: vintage
-  no-specification: true
-  # THIS MAKES NO SENSE HAHAHA
-  references:
-  - url: http://burtleburtle.net/bob/hash/doobs.html
-    title: Bob Jenkins
-    description: Comparison of an assortment of hash functions
-  - url: http://diveintomark.org/archives/2004/02/04/incompatible-rss
-    title: The myth of RSS compatibility
-    description: "There are 9 versions of RSS, all of which are incompatible with various other versions."
-  - url: http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/
-    title: The S stands for Simple
-    description: Don't worry about it.  No one has read it.  Besides, your tools will handle it.
-  - url: http://theoryofcomputing.org/
-    title: ToC
-    description: Theory of Computing, an Open-Access Journal
-  - url: http://www.useit.com/alertbox/
-    title: AlertBox
-    description: Popular column on Web usability
-  - url: http://www.tinyapps.org/
-    title: TinyApps.org
-    description: 'A guide to very small software for your PC'
 
 make:
   type: Tool

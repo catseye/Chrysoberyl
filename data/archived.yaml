@@ -477,3 +477,29 @@ yaeolc distribution:
     revision: "2003.0402"
     url: http://catseye.tc/distfiles/yaeolc-2003.0402.zip
   discontinued: true
+
+
+toolshelf: 
+  type: Tool
+  summary: A "package manager" that doesn't actually install anything
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    `toolshelf` is a "package manager" which doesn't actually install any files.
+    Instead, it stores the source trees of sundry packages in a single directory,
+    and manages your search paths to include the relevant subdirectories of
+    those trees. The source trees are typically the working directories of
+    local git or Mercurial clones, or they can be source distributions from tarballs.
+  inception-date: 2012
+  development-stage: work in progress
+
+toolshelf.py:
+  type: Implementation
+  implementation-of:
+  - toolshelf
+  reference: true
+  in-distribution: toolshelf distribution
+  license: MIT license
+  host-language: Python

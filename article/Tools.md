@@ -263,3 +263,70 @@ only a `REM`, among a few other modest features.
 *   in-distribution: yucca distribution
 *   license: MIT license
 *   host-language: Python
+
+Archival Tools
+--------------
+
+### mzstorkipiwanbotbotbot
+
+*   inception-date: 2010
+*   development-stage: archival
+
+An IRC bot with no purpose or plan.
+
+#### Implementation: mzstorkipiwanbotbotbot (Lua)
+
+*   reference: true
+*   in-distribution: mzstorkipiwanbotbotbot distribution
+*   license: Public Domain
+*   host-language: Lua
+
+#### Implementation: Rtype
+
+*   in-distribution: mzstorkipiwanbotbotbot distribution
+*   license: Public Domain
+*   host-language: R
+
+### Rooibos
+
+*   summary: Simple, single-module parser combinator library
+*   inception-date: '2011'
+*   development-stage: archival
+
+Rooibos is a parser combinator library for Python. Modelled somewhat
+after yeanpypa (self-contained, public domain), but compensates for what
+I considered a fatal flaw in yeanpypa (no good way to describe a
+recursive grammar.) Has a fatal flaw of its own (can only parse
+strictly LL(1) grammars — no backtracking is yet possible.) Originally
+used in [Eightebed][], but provided here for ease of transplanting into
+other projects.
+
+#### Implementation: rooibos.py
+
+*   reference: true
+*   in-distributions: Eightebed distribution
+*   license: Public Domain
+*   host-language: Python
+
+### TPiS
+
+*   subtitle: **Total Procedures in Scheme**
+*   summary: Totality-checker for Scheme procedures
+*   inception-date: ca 2006
+*   development-stage: archival
+
+This is a static analyzer, written in Scheme, which can check if
+given Scheme procedures are total (always terminate, on any input) by
+checking that they are specified primitive-recursively.  What's more, it
+is written almost entirely in a primitive-recursive style, so it can
+check itself!
+
+#### Implementation: TPiS (Scheme)
+
+*   reference: true
+*   in-distribution: TPiS distribution
+*   license: BSD license
+*   host-language: Scheme
+
+[Eightebed]: http://catseye.tc/node/Eightebed
+
