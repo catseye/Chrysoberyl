@@ -122,12 +122,63 @@
     "ais523": {
         "url": "http://esolangs.org/wiki/User:ais523"
     }, 
-    "native code": {
-        "url": "https://en.wikipedia.org/wiki/Machine_code"
-    }, 
     "zzo38": {
         "url": "http://esolangs.org/wiki/User:zzo38"
     },
+
+
+
+    "*W": {
+        "url": "http://esolangs.org/wiki/*W"
+    }, 
+    "Beatnik": {
+        "url": "http://esolangs.org/wiki/Beatnik"
+    }, 
+    "BitChanger": {
+        "url": "http://esolangs.org/wiki/BitChanger"
+    }, 
+    "Blank": {
+        "url": "http://esolangs.org/wiki/Blank"
+    }, 
+    "FALSE": {
+        "url": "http://esolangs.org/wiki/FALSE"
+    }, 
+    "Half-Broken Car in Heavy Traffic": {
+        "url": "http://esolangs.org/wiki/Half-Broken_Car_in_Heavy_Traffic"
+    }, 
+    "INTERCAL": {
+        "url": "http://esolangs.org/wiki/INTERCAL"
+    }, 
+    "Please Porige Hot": {
+        "url": "http://esolangs.org/wiki/Please_Porige_Hot"
+    }, 
+    "RUBE II": {
+        "url": "http://esolangs.org/wiki/RUBE II: Das Klickenklacker"
+    }, 
+    "Sartre": {
+        "url": "http://esolangs.org/wiki/Sartre"
+    }, 
+    "Spoon": {
+        "url": "http://esolangs.org/wiki/Spoon"
+    }, 
+    "TURKEY BOMB": {
+        "url": "http://esolangs.org/wiki/TURKEY BOMB"
+    }, 
+    "Var'aq": {
+        "url": "http://esolangs.org/wiki/Var'aq"
+    }, 
+    "beatnik.py": {
+        "url": "http://esolangs.org/wiki/Beatnik"
+    }, 
+    "reMorse": {
+        "url": "http://esolangs.org/wiki/reMorse"
+    }, 
+    "rube_ii": {
+        "url": "http://esolangs.org/wiki/RUBE II: Das Klickenklacker"
+    },
+
+
+
     "Game": {
         "url": "http://catseye.tc/article/Games"
     },
@@ -146,12 +197,20 @@
     "Retrocomputing": {
         "url": "http://catseye.tc/article/Retrocomputing"
     },
+
+
+
+    "native code": {
+        "url": "https://en.wikipedia.org/wiki/Machine_code"
+    }, 
     "Parsec": {
         "url": "https://wiki.haskell.org/Parsec"
     },
     "make": {
         "url": "http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html"
     },
+
+
 
     "HTML5": {
         "url": "https://www.w3.org/TR/html5/"
