@@ -89,22 +89,6 @@ BASIC:
     Popularized by the rash of 8-bit home microcomputers in the 80's,
     BASIC stands for "Beginner's All-purpose Symbolic Instruction Code."
 
-Borland C:
-  type: Programming Language
-  genre: Production language
-  variant-of: ANSI C
-  generally-compiled: true
-  no-specification: true
-  development-stage: vintage
-  # Well, Borland.  duh.
-  authors: []
-  paradigms:
-  - Imperative
-  description: |
-    The dialect of C supported by the [[Borland C++ compiler]] included
-    libraries for writing directly to the console, reading directly from the
-    keyboard, and so forth.
-
 
 Bourne shell:
   type: Programming Language
@@ -276,64 +260,6 @@ hugs:
   - native code
   links:
   - http://www.haskell.org/hugs/
-
-
-Inform:
-  type: Programming Language
-  genre: DSL
-  paradigms:
-  - Imperative
-  - Object-oriented
-  computational-class: Turing-complete
-  no-specification: true
-  development-stage: mature
-  authors: []
-
-inform 6.33:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Inform
-  implementation-type: compiler
-  host-language: ANSI C
-  target-language: Z-Machine code
-  license: Unknown license
-
-
-Java:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Object-oriented
-  # just, not to native code
-  generally-compiled: true
-  computational-class: Turing-complete
-  standards-body: http://www.oracle.com/technetwork/java/index.html
-  development-stage: mature
-  authors: []
-  references:
-  - title: Oracle Technology Network > Java
-    description: Official website of the Java™ Platform
-    url: http://www.oracle.com/technetwork/java/index.html
-  - title: Java Specs
-    description: The Java™ Virtual Machine and Language Specifications
-    url: http://docs.oracle.com/javase/specs/
-
-Java SE 6 JDK 1.6.0:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Java
-  # well, it builds class files, but
-  implementation-type: interpreter
-  host-language: Unknown language
-  # it's actually the "Oracle Binary Code License Agreement for Java SE"
-  license: Unknown license
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html
 
 
 Javascript:
@@ -591,61 +517,6 @@ R 2.13.1:
   - native code
   links:
   - http://www.r-project.org/
-
-
-Ruby:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Functional
-  - Object-oriented
-  computational-class: Turing-complete
-  standards-body: http://www.ruby-lang.org/
-  development-stage: mature
-  authors: []
-  references:
-  - url: http://www.fincher.org/tips/Languages/Ruby/
-    title: Ruby Tutorial
-    description: Ruby Tutorial with Code Samples
-
-ruby 1.8.7:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Ruby
-  implementation-type: interpreter
-  host-language: C99
-  license: BSD license
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.ruby-lang.org/en/downloads/
-    http://www.ruby-lang.org/en/about/license.txt
-
-
-Rust:
-  type: Programming Language
-  genre: Production language
-  # not really OO, more like algebraic type classes; should add that?
-  paradigms:
-  - Imperative
-  computational-class: Turing-complete
-  standards-body: http://www.rust-lang.org/
-  development-stage: work in progress
-  authors: []
-
-rust (Rust):
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Rust
-  implementation-type: compiler
-  host-language: Rust
-  target-language: native code
-  license: Unknown license
-  prebuilt-for-platforms:
-  - native code
 
 
 # should call this R5RS Scheme

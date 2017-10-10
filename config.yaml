@@ -14,6 +14,7 @@ node:
   link_priority_files:
   - article-refdex.json
   - misc-refdex/retrocomputing-refdex.json
+  - misc-refdex/languages-refdex.json
   - misc-refdex/texts-refdex.json
   - misc-refdex/games-refdex.json
   - misc-refdex/misc-refdex.json
@@ -33,6 +34,7 @@ installation:
   link_priority_files:
   - article-refdex.json
   - misc-refdex/retrocomputing-refdex.json
+  - misc-refdex/languages-refdex.json
   - misc-refdex/texts-refdex.json
   - misc-refdex/games-refdex.json
   - misc-refdex/misc-refdex.json

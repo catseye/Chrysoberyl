@@ -1,0 +1,11 @@
+{
+    "Java": {
+        "url": "http://www.oracle.com/technetwork/java/index.html"
+    },
+    "Ruby": {
+        "url": "http://www.ruby-lang.org/"
+    },
+    "Rust": {
+        "url": "http://www.rust-lang.org/"
+    }
+}

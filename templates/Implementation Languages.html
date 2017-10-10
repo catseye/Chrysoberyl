@@ -12,10 +12,10 @@
     {% for lang_key in lang_list %}
       <div class="span4">
         <h2>{{ link(lang_key) }}</h2>
-        {% if get_node(lang_key).description %}
+        {% if has_node(lang_key) and get_node(lang_key).description %}
           {{ md2html(get_node(lang_key).description) }}
         {% endif %}
-        {% if get_node(lang_key).type == 'Programming Language Family' %}
+        {% if has_node(lang_key) and get_node(lang_key).type == 'Programming Language Family' %}
           <ul>
             {% for spec_lang_key in related('member-of', key=lang_key)|sort %}
               {% for impl in related('host-language', key=spec_lang_key)|sort %}
