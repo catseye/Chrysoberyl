@@ -1,4 +1,5 @@
 *.pyc
+article-refdex.json
 refdex.json
 node
 installation

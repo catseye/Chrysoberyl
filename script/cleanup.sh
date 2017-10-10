@@ -16,6 +16,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Tools.md" \
                           "article/Formats.md" \
                           "article/Archived.md" \
+                          "article/Lingography.md" \
                  >refdex.json
 
 ## non-lists
@@ -73,4 +74,9 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Platform.md" \
          "article/Platforms.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Lingography Language.md" \
+         "article/Lingography.md" \
          --rewrite-markdown || exit 1
