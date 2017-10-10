@@ -3,6 +3,9 @@ Platforms
 
 Various platforms that Cat's Eye Technologies has worked on.
 
+Note that the precise distinctions between a Tool, a Platform, and a Library
+are debatable, and entries may be categorized somewhat arbitrarily.
+
 ### The Cat's Eye Technologies Platform
 
 *   native-language: Bourne shell (oh, this is *so* not really true)
