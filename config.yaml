@@ -12,11 +12,11 @@ node:
   checkout_dir: checkout
   projection_dir: modules
   link_priority_files:
-  - retrocomputing-refdex.json
-  - texts-refdex.json
-  - games-refdex.json
-  - tools-refdex.json
-  - misc-refdex.json
+  - article-refdex.json
+  - misc-refdex/retrocomputing-refdex.json
+  - misc-refdex/texts-refdex.json
+  - misc-refdex/games-refdex.json
+  - misc-refdex/misc-refdex.json
 
 installation:
   data_dirs:
@@ -31,8 +31,8 @@ installation:
   checkout_dir: checkout
   projection_dir: modules
   link_priority_files:
-  - retrocomputing-refdex.json
-  - texts-refdex.json
-  - games-refdex.json
-  - tools-refdex.json
-  - misc-refdex.json
+  - article-refdex.json
+  - misc-refdex/retrocomputing-refdex.json
+  - misc-refdex/texts-refdex.json
+  - misc-refdex/games-refdex.json
+  - misc-refdex/misc-refdex.json
