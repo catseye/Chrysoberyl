@@ -68,6 +68,11 @@ def export_lingography(universe, options, config):
     """Export the lingography."""
     space = universe['node']  # FIXME hardcoded
 
+    link_priority_refdex = {}
+    for filename in config[space.name].get('link_priority_files', []):
+        with open(filename, 'r') as f:
+            link_priority_refdex.update(json.loads(f.read()))
+
     def lingography():
         languages = []
         types = ('Programming Language', 'Programming Language Family',
@@ -96,9 +101,24 @@ def export_lingography(universe, options, config):
     #print(json.dumps(data, indent=4, sort_keys=True))
     #return
 
+    needed_links = set()
+
+    def linker(match):
+        text = match.group(1)
+        segments = text.split('|')
+        if len(segments) == 1:
+            needed_links.add(segments[0])
+            return u'[{}][]'.format(segments[0])
+        else:
+            return u'[{}]({})'.format(segments[1], segments[0])
+
     def write(s):
         sys.stdout.write(s.encode('utf-8'))
         sys.stdout.write("\n")
+
+    write("Chris Pressey's Lingography")
+    write("===========================")
+    write("")
 
     for thing in data:
         write(u"### {}".format(thing['title']))
@@ -113,12 +133,35 @@ def export_lingography(universe, options, config):
             d = thing['defining-distribution']
             write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
         write("")
-        write(thing['description'])
+        description = thing['description']
+
+        description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
+
+        write(description)
         if 'sample' in thing:
             write("Sample program:")
             write("")
             for line in thing['sample'].split('\n'):
                 write(u"    {}".format(line))
+            write("")
+
+    write("- - - -")
+    write("")
+    for needed_link in sorted(needed_links):
+        if needed_link in link_priority_refdex:
+            p = link_priority_refdex[needed_link]
+            if 'url' in p:
+                url = p['url']
+            elif 'filename' in p:
+                base = 'http://catseye.tc/'
+                url = "{}{}#{}".format(
+                    base, p['filename'], p['anchor']
+                )
+            else:
+                raise NotImplementedError
+            write(u"[{}]: {}".format(needed_link, url))
+        else:
+            write(u"[{}]: TBD".format(needed_link))
 
 
 def render(universe, options, config):
