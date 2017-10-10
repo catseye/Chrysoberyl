@@ -64,6 +64,63 @@ def mkdistjson(universe, options, config):
         f.write(json.dumps(dist, indent=4, sort_keys=True))
 
 
+def export_lingography(universe, options, config):
+    """Export the lingography."""
+    space = universe['node']  # FIXME hardcoded
+
+    def lingography():
+        languages = []
+        types = ('Programming Language', 'Programming Language Family',
+                 'Conlang', 'Automaton')
+        for thing in space:
+            node = space[thing]
+            if (node['type'] in types and
+                'Chris Pressey' in node.get('authors', []) and
+                node.get('development-stage', 'idea') not in \
+                    ('idea', 'work in progress') and
+                not node.get('variant-of', None) and
+                (node.get('member-of', None) != 'Funge-98')):
+                languages.append(thing)
+        return sorted(languages,
+                      key=lambda x: space[x]['inception-date'])
+
+    data = []
+    for key in lingography():
+        thing = space[key]
+        thing['inception-date'] = str(thing['inception-date'])
+        if 'auspices' in thing: del thing['auspices']
+        del thing['authors']
+        thing['title'] = key
+        data.append(thing)
+
+    #print(json.dumps(data, indent=4, sort_keys=True))
+    #return
+
+    def write(s):
+        sys.stdout.write(s.encode('utf-8'))
+        sys.stdout.write("\n")
+
+    for thing in data:
+        write(u"### {}".format(thing['title']))
+        write("")
+
+        for key in ('type', 'inception-date', 'genre', 'development-stage', 'computational-class'):
+            write(u"*   {}: {}".format(key, thing.get(key, '???')))
+        for key in ('influences', 'paradigms'):
+            if key in thing:
+                write(u"*   {}: {}".format(key, ', '.join(thing[key])))
+        if 'defining-distribution' in thing:
+            d = thing['defining-distribution']
+            write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
+        write("")
+        write(thing['description'])
+        if 'sample' in thing:
+            write("Sample program:")
+            write("")
+            for line in thing['sample'].split('\n'):
+                write(u"    {}".format(line))
+
+
 def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
@@ -376,6 +433,7 @@ COMMANDS = {
     'check_distfiles': check_distfiles,
     'project': project,
     'count': count,
+    'export_lingography': export_lingography,
 }
 
 
