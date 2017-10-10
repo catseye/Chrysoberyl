@@ -57,6 +57,13 @@ features.
 *   dimensionality: 2
 *   esowiki: BefOS
 
+This is a project I began in the late 90's, to write an "operating system"
+in the theme of [Befunge-93][].  It never got very far, but it does boot
+and do some cute things, so a few years ago I modernized it (from
+Turbo Assembler to [NASM][]) and made it available here.  More recently,
+it was installed online here so you can try it out in your
+web browser: online @ [catseye.tc](http://catseye.tc/installation/BefOS)
+
 #### Implementation: BefOS (NASM)
 
 *   reference: true
@@ -75,4 +82,7 @@ features.
 [Cat's Eye Technologies]: http://catseye.tc/
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
 [Befunge]: http://catseye.tc/node/Befunge
+[Befunge-93]: http://catseye.tc/node/Befunge-93
+[NASM]: http://catseye.tc/node/NASM
+[Funicular]: ../article/Tools.md#funicular
 
