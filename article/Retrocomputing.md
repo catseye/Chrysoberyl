@@ -278,14 +278,14 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Bubble Escape]: ../article/Games.md#bubble-escape
 [DiskSumo]: ../article/Tools.md#disksumo
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos
-[Shelta]: http://catseye.tc/node/Shelta
-[ILLGOL]: http://catseye.tc/node/ILLGOL
+[Shelta]: ../article/Lingography.md#shelta
+[ILLGOL]: ../article/Lingography.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: http://www.nasm.us/
 [SixtyPical]: http://catseye.tc/node/SixtyPical
 [SITU-PAN]: ../article/Tools.md#situ-pan
-[SITU-SOL]: http://catseye.tc/node/SITU-SOL
+[SITU-SOL]: ../article/Lingography.md#situ-sol
 [SITU-MON]: ../article/Tools.md#situ-mon
 [BefOS]: http://catseye.tc/node/BefOS
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze

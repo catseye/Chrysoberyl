@@ -2119,33 +2119,33 @@ Sample program:
 
 [1L]: TBD
 [2-ill]: TBD
-[Arboretuum]: TBD
+[Arboretuum]: ../article/Lingography.md#arboretuum
 [BASIC]: TBD
-[Befunge-93]: TBD
+[Befunge-93]: ../article/Lingography.md#befunge-93
 [Befunge-98]: TBD
 [Ben Olmstead]: TBD
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [Chris Pressey]: TBD
-[Commodore 64]: http://catseye.tc/article/Retrocomputing.md#commodore-64
+[Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Conway's Game of Life]: TBD
-[Emmental]: TBD
+[Emmental]: ../article/Lingography.md#emmental
 [Esoteric Awards]: TBD
-[Etcha]: TBD
+[Etcha]: ../article/Lingography.md#etcha
 [FALSE]: http://esolangs.org/wiki/FALSE
-[Falderal]: http://catseye.tc/article/Formats.md#falderal
+[Falderal]: ../article/Formats.md#falderal
 [Gregor Richards]: TBD
-[ILLGOL]: TBD
+[ILLGOL]: ../article/Lingography.md#illgol
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Lua]: TBD
-[Pixley]: TBD
-[RUBE]: TBD
+[Pixley]: ../article/Lingography.md#pixley
+[RUBE]: ../article/Lingography.md#rube
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
-[SITU-MON]: http://catseye.tc/article/Tools.md#situ-mon
-[SMITH]: TBD
+[SITU-MON]: ../article/Tools.md#situ-mon
+[SMITH]: ../article/Lingography.md#smith
 [Scheme]: TBD
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
-[Tamerlane]: TBD
+[Tamerlane]: ../article/Lingography.md#tamerlane
 [Thue]: TBD
 [Trefunge-98]: TBD
 [Turing-complete]: TBD
@@ -2155,3 +2155,4 @@ Sample program:
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: TBD
 [reMorse]: http://esolangs.org/wiki/reMorse
+

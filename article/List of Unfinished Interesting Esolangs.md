@@ -667,19 +667,19 @@ and you can probably compose esolangs (in truly,
 Naturally, you can also create new YO_DAWG objects.
 
 
-[Befunge-93]: http://catseye.tc/node/Befunge-93
-[Burro]: http://catseye.tc/node/Burro
-[Cabra]: http://catseye.tc/node/Cabra
+[Befunge-93]: ../article/Lingography.md#befunge-93
+[Burro]: ../article/Lingography.md#burro
+[Cabra]: ../article/Lingography.md#cabra
 [Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
 [Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
-[Mascarpone]: http://catseye.tc/node/Mascarpone
+[Mascarpone]: ../article/Lingography.md#mascarpone
 [Muriel]: http://catseye.tc/node/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
 [Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Underload]: http://catseye.tc/node/Underload
-[Unlikely]: http://catseye.tc/node/Unlikely
-[ZOWIE]: http://catseye.tc/node/ZOWIE
+[Unlikely]: ../article/Lingography.md#unlikely
+[ZOWIE]: ../article/Lingography.md#zowie
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [esoteric programming languages]: http://esolangs.org/
 [the completed]: http://catseye.tc/node/Chris%20Pressey%27s%20Lingography

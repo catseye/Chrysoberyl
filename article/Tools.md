@@ -378,7 +378,7 @@ framework, which is in Java.
 *   host-language: Javascript
 *   in-distribution: [yoob.js distribution](/distribution/yoob.js distribution)
 
-[Eightebed]: http://catseye.tc/node/Eightebed
+[Eightebed]: ../article/Lingography.md#eightebed
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
