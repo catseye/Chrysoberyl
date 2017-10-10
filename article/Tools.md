@@ -395,4 +395,5 @@ framework, which is in Java.
 [Formats]: ../article/Formats.md
 [The Platform]: TBD
 [yoob]: ../article/Archived.md#yoob
+[QEMU]: ../article/Retrocomputing.md#ms-dos
 
