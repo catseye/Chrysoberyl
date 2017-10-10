@@ -360,10 +360,28 @@ check itself!
 *   license: BSD license
 *   host-language: Scheme
 
+### yoob.js
+
+*   summary: A framework for interactive esolang implementation
+*   inception-date: Oct 4 2012
+*   development-stage: not fully complete
+
+`yoob.js` is a framework for implementing esoteric programming languages
+in Javascript/HTML5.  It has some differences from the earlier [yoob][]
+framework, which is in Java.
+
+#### Implementation: yoob.js (Javascript)
+
+*   reference: true
+*   implementation-type: framework
+*   license: Public Domain
+*   host-language: Javascript
+*   in-distribution: [yoob.js distribution](/distribution/yoob.js distribution)
+
 [Eightebed]: http://catseye.tc/node/Eightebed
-[FreeBSD]: TBD
+[FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
-[NetBSD]: TBD
+[NetBSD]: http://netbsd.org/
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-64
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
@@ -376,4 +394,6 @@ check itself!
 [Retrocomputing]: http://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
 [The Platform]: TBD
+[yoob]: ../article/Archived.md#yoob
+[QEMU]: ../article/Retrocomputing.md#ms-dos
 

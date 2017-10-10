@@ -140,6 +140,9 @@
     "Library": {
         "url": "http://catseye.tc/article/Tools"
     },
+    "Platform": {
+        "url": "http://catseye.tc/article/Platforms"
+    },
     "Retrocomputing": {
         "url": "http://catseye.tc/article/Retrocomputing"
     },
@@ -148,5 +151,24 @@
     },
     "make": {
         "url": "http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html"
+    },
+
+    "HTML5": {
+        "url": "https://www.w3.org/TR/html5/"
+    },
+    "NetBSD": {
+        "url": "http://netbsd.org/"
+    },
+    "FreeBSD": {
+        "url": "https://www.freebsd.org/"
+    },
+    "Web Workers": {
+        "url": "https://en.wikipedia.org/wiki/Web_worker"
+    },
+    "Java Web Start": {
+        "url": "http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/"
+    },
+    "Java applet": {
+        "url": "https://en.wikipedia.org/wiki/Java_applet"
     }
 }

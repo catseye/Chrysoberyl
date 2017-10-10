@@ -97,5 +97,14 @@
     "x86 machine code": {
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
+    },
+
+    "tc.catseye.yoob": {
+        "anchor": "yoob", 
+        "filename": "article/Archived.md"
+    },
+    "BefOS (NASM)": {
+        "anchor": "befos", 
+        "filename": "article/Platforms.md"
     }
 }

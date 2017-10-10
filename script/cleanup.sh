@@ -69,3 +69,8 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Tool.md" \
          "article/Archived.md" \
          --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Platform.md" \
+         "article/Platforms.md" \
+         --rewrite-markdown || exit 1

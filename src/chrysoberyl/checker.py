@@ -264,7 +264,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
         check_optional_list_ref(universe, key, node, 'in-distributions', link_priority,
                                   types=('Distribution',))
         check_optional_list_ref(universe, key, node, 'prebuilt-for-platforms', link_priority,
-                                  types=('Platform', 'Programming Language'))
+                                  types=('Platform', 'Programming Language', 'Online Installation'))
         if impl_of_type == 'Picture':
             check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Image Format',))
@@ -273,7 +273,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
             check_scalar_ref(universe, key, node, 'host-language', link_priority,
                              types=('Programming Language',))
         check_optional_scalar_ref(universe, key, node, 'host-platform', link_priority,
-                         types=('Platform',))
+                         types=('Platform', 'Online Installation'))
         # these shouldn't really be needed.  derive, derive!
         # I really don't like that 'Programming Language' is in these
         check_optional_list_ref(universe, key, node, 'build-requirements', link_priority,

@@ -68,12 +68,6 @@ Distribution:
   type: type
   suppress-page-generation: true
 
-Platform:
-  type: type
-  description: |
-    Note that the precise distinctions between a [[Tool]], a Platform, and a [[Library]]
-    are debatable, and entries may be categorized somewhat arbitrarily.
-
 Automaton:
   type: type
   description: |
