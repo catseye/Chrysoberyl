@@ -163,10 +163,8 @@ Yet Another End Of Line Converter
 
 ### yoob
 
-*   native-language: Java
 *   inception-date: Mar 15 2011
 *   development-stage: not fully complete
-*   esowiki: yoob
 
 `yoob` is a framework for implementing esoteric programming languages
 in Java.  It aims to make it easy for a user to experiment with a large
@@ -174,13 +172,17 @@ number of esolangs with a minimal install burden (i.e. in a Java Web
 Start application), and to make it easy for designers to rapidly
 implement and showcase their esolangs.
 
+It has an article on the esowiki, [yoob](http://esolangs.org/wiki/yoob),
+but being written in Java, with the intent of being distributed as an
+applet, it's largely considered deprecated these days.
+
 #### Implementation: tc.catseye.yoob
 
 *   reference: true
 *   in-distribution: [yoob distribution](/distribution/yoob distribution)
 *   license: Public Domain
 *   host-language: Java
-*   online-locations: installation/yoob
+*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Links
 -----

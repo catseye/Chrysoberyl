@@ -36,11 +36,8 @@ is available to download via
 *   subtitle: **An Operating System for the Linearly Challenged**
 *   native-language: x86 machine code
 *   other-languages: Befunge-93 (this is sort-of almost true)
-*   influences: Befunge-93
 *   inception-date: ca 1999
 *   development-stage: archival
-*   dimensionality: 2
-*   esowiki: BefOS
 
 BefOS is a program which boots off of a floppy disk, and is
 billed as a Befunge-themed toy operating system for the
@@ -49,6 +46,10 @@ most of the functionality of an operating system, and most of the
 functionality of Befunge as well, and therefore might be more
 accurately described as a disk sector editor with some unusual
 features.
+
+*   influences: Befunge-93
+*   dimensionality: 2
+*   esowiki: BefOS
 
 #### Implementation: BefOS (NASM)
 
@@ -63,7 +64,8 @@ features.
 
 - - - -
 
-[NetBSD]: TBD
-[shelf]: TBD
+[NetBSD]: http://netbsd.org/
+[shelf]: ../article/Tools.md#shelf
 [Cat's Eye Technologies]: http://catseye.tc/
-[IBM PC compatible]: TBD
+[IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
+
