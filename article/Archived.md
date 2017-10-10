@@ -39,7 +39,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 
 Utility to translate I/O interactively.
 
-#### brace.c
+#### Implementation: brace.c
 
 *   reference: true
 *   in-distribution: [brace distribution](/distribution/brace distribution)
@@ -56,7 +56,7 @@ not periodically activate and run whatever tasks are due to run; instead
 it calculates the amount of time between now and when the next is due
 to run, and sleeps exactly that long.
 
-#### crone.erl
+#### Implementation: crone.erl
 
 *   reference: true
 *   in-distribution: [crone distribution](/distribution/crone distribution)
@@ -70,7 +70,7 @@ to run, and sleeps exactly that long.
 
 A fairly realistic line-noise generator.
 
-#### noise (Perl)
+#### Implementation: noise (Perl)
 
 *   reference: true
 *   license: BSD license
@@ -123,7 +123,7 @@ and manages your search paths to include the relevant subdirectories of
 those trees. The source trees are typically the working directories of
 local git or Mercurial clones, or they can be source distributions from tarballs.
 
-#### toolshelf.py
+#### Implementation: toolshelf.py
 
 *   reference: true
 *   in-distribution: [toolshelf distribution](/distribution/toolshelf distribution)
@@ -141,7 +141,7 @@ Cygwin on Vista,) it does go to some lengths to be robust, to support
 lousy protocols (namely FTP), and to minimize transmission time during
 synchronization.
 
-#### transmat (Python)
+#### Implementation: transmat (Python)
 
 *   reference: true
 *   in-distribution: [transmat distribution](/distribution/transmat distribution)
@@ -154,12 +154,33 @@ synchronization.
 
 Yet Another End Of Line Converter
 
-#### yaeolc (Perl)
+#### Implementation: yaeolc (Perl)
 
 *   reference: true
 *   in-distributions: [The Dipple](/distribution/The Dipple)
 *   license: Unknown license
 *   host-language: Perl
+
+### yoob
+
+*   native-language: Java
+*   inception-date: Mar 15 2011
+*   development-stage: not fully complete
+*   esowiki: yoob
+
+`yoob` is a framework for implementing esoteric programming languages
+in Java.  It aims to make it easy for a user to experiment with a large
+number of esolangs with a minimal install burden (i.e. in a Java Web
+Start application), and to make it easy for designers to rapidly
+implement and showcase their esolangs.
+
+#### Implementation: tc.catseye.yoob
+
+*   reference: true
+*   in-distribution: [yoob distribution](/distribution/yoob distribution)
+*   license: Public Domain
+*   host-language: Java
+*   online-locations: installation/yoob
 
 Links
 -----
