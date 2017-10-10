@@ -229,5 +229,16 @@
     },
     "Java applet": {
         "url": "https://en.wikipedia.org/wiki/Java_applet"
+    },
+
+
+
+    "tc.catseye.yoob": {
+        "anchor": "yoob", 
+        "filename": "article/Archived.md"
+    },
+    "BefOS (NASM)": {
+        "anchor": "befos", 
+        "filename": "article/Platforms.md"
     }
 }
