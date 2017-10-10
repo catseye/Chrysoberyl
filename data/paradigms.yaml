@@ -8,15 +8,6 @@
   type: Programming Paradigm
 Angular:
   type: Programming Paradigm
-Aspect-oriented programming:
-  type: Programming Paradigm
-  description: |
-    Aspect-oriented programming (AOP) is a programming technique which
-    collects logic into units called aspects. Like modules or object
-    classes, aspects centralize related code and data. Unlike modules or
-    classes, that code and data is inserted into *many different places* in
-    a program. The places are determined by where patterns, specified by the
-    aspect, match the program's static and dynamic makeup.
 Algebraic:
   type: Programming Paradigm
 Bully automaton:
