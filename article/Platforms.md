@@ -12,28 +12,29 @@ are debatable, and entries may be categorized somewhat arbitrarily.
 ### The Cat's Eye Technologies Platform
 
 *   native-language: Bourne shell (oh, this is *so* not really true)
-*   other-languages: many, many.
+*   other-languages: many
 *   inception-date: Oct 4 2014
 *   development-stage: not fully complete
+*   reference-distribution: [The Cat's Eye Technologies Platform distribution](/distribution/The Cat's Eye Technologies Platform distribution)
 
 The Cat's Eye Technologies Platform is a [NetBSD][]-based,
 [shelf][]-powered, [Funicular][]-built "distro" containing almost all of
 [Cat's Eye Technologies][]' software distributions.
 
-#### Implementation: The-Cats-Eye-Technologies-Platform-0.2.img
+#### Implementation: The-Cats-Eye-Technologies-Platform.img
 
 *   reference: true
-*   implementation-type: framework
-*   in-distribution: [The Cat's Eye Technologies Platform distribution](/distribution/The Cat's Eye Technologies Platform distribution)
-*   generally-recommended: true
-*   license: Unknown license
-*   host-language: x86 machine code
+*   license: [BSD-compatible license](https://github.com/catseye/The-Platform/blob/master/LICENSE) (source code); "mere aggregation" of many licenses (built image)
 
-Despite what it says above, it is not really "in" the distribution.
-The distribution contains [Funicular][] configurations which allow
-you to build this disk image from source.  A pre-built disk image
-is available to download via
-[this torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent).
+Note that the distribution does not contain a built version of
+this implementation; the distribution contains [Funicular][]
+configurations which allow you to build this disk image from source.
+
+It currently builds for the [IBM PC compatible][] architecture, but in
+theory it could be built for other architectures that NetBSD runs on.
+
+A pre-built disk image is available to download via
+[this torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent).
 
 ### BefOS
 
@@ -44,38 +45,32 @@ is available to download via
 *   other-languages: Befunge-93 (this is sort-of almost true)
 *   inception-date: ca 1999
 *   development-stage: archival
+*   reference-distribution: [BefOS distribution](/distribution/BefOS distribution)
 
-BefOS is a program which boots off of a floppy disk, and is
-billed as a [Befunge][]-themed toy operating system for the
-[IBM PC compatible][] architecture.  However, it omits
-most of the functionality of an operating system, and most of the
+Begun in the late 90's as a project to write an "operating system"
+in the theme of [Befunge-93][], *BefOS* is a program for the
+[IBM PC compatible][] architecture which boots off of a floppy disk
+and presents the user with a 2-dimensional, text-console-based
+interface to the computer system.  However, it omits most of the
+functionality of a production operating system, and most of the
 functionality of Befunge as well, and therefore might be more
 accurately described as a disk sector editor with some unusual
 features.
 
-*   influences: Befunge-93
-*   dimensionality: 2
-*   esowiki: BefOS
+Sometime after 2000 it was modernized (it source code converted from
+Turbo Assembler to [NASM][]) and installed online here so you can try
+it out in your web browser: online @ [catseye.tc](http://catseye.tc/installation/BefOS)
 
-This is a project I began in the late 90's, to write an "operating system"
-in the theme of [Befunge-93][].  It never got very far, but it does boot
-and do some cute things, so a few years ago I modernized it (from
-Turbo Assembler to [NASM][]) and made it available here.  More recently,
-it was installed online here so you can try it out in your
-web browser: online @ [catseye.tc](http://catseye.tc/installation/BefOS)
+It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 
 #### Implementation: BefOS (NASM)
 
 *   reference: true
-*   implementation-type: operating system
-*   in-distribution: [BefOS distribution](/distribution/BefOS distribution)
 *   license: Public Domain
 *   host-language: NASM Assembler
 *   host-platform: IBM PC compatible
 *   build-requirements: ANSI C, Perl
 *   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
-
-- - - -
 
 [NetBSD]: http://netbsd.org/
 [shelf]: ../article/Tools.md#shelf

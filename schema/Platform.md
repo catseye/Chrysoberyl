@@ -33,9 +33,7 @@ date
 
 development-stage
 
-### distribution
-
-*   optional: true
+### reference-distribution
 
 distribution
 
