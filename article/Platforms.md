@@ -21,10 +21,11 @@ The Cat's Eye Technologies Platform is a [NetBSD][]-based,
 [shelf][]-powered, [Funicular][]-built "distro" containing almost all of
 [Cat's Eye Technologies][]' software distributions.
 
-#### Implementation: The-Cats-Eye-Technologies-Platform.img
+#### Reference Implementation: The-Cats-Eye-Technologies-Platform.img
 
-*   reference: true
 *   license: [BSD-compatible license](https://github.com/catseye/The-Platform/blob/master/LICENSE) (source code); "mere aggregation" of many licenses (built image)
+*   host-platform: IBM PC compatible
+*   build-requirements: Funicular
 
 Note that the distribution does not contain a built version of
 this implementation; the distribution contains [Funicular][]
@@ -63,9 +64,8 @@ it out in your web browser: online @ [catseye.tc](http://catseye.tc/installation
 
 It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 
-#### Implementation: BefOS (NASM)
+#### Reference Implementation: BefOS (NASM)
 
-*   reference: true
 *   license: Public Domain
 *   host-language: NASM Assembler
 *   host-platform: IBM PC compatible
