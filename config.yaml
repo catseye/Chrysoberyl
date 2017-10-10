@@ -15,6 +15,7 @@ node:
   - retrocomputing-refdex.json
   - texts-refdex.json
   - games-refdex.json
+  - tools-refdex.json
   - misc-refdex.json
 
 installation:
@@ -33,4 +34,5 @@ installation:
   - retrocomputing-refdex.json
   - texts-refdex.json
   - games-refdex.json
+  - tools-refdex.json
   - misc-refdex.json

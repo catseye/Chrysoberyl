@@ -276,7 +276,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Bubble Escape]: ../article/Games.md#bubble-escape
-[DiskSumo]: http://catseye.tc/node/DiskSumo
+[DiskSumo]: ../article/Tools.md#disksumo
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos
 [Shelta]: http://catseye.tc/node/Shelta
 [ILLGOL]: http://catseye.tc/node/ILLGOL
@@ -284,9 +284,9 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: http://www.nasm.us/
 [SixtyPical]: http://catseye.tc/node/SixtyPical
-[SITU-PAN]: http://catseye.tc/node/SITU-PAN
+[SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-SOL]: http://catseye.tc/node/SITU-SOL
-[SITU-MON]: http://catseye.tc/node/SITU-MON
+[SITU-MON]: ../article/Tools.md#situ-mon
 [BefOS]: http://catseye.tc/node/BefOS
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: http://catseye.tc/node/ANSI_C

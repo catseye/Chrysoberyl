@@ -92,9 +92,6 @@
     "Phantom Hoover": {
         "url": "http://esolangs.org/wiki/User:Phantom_Hoover"
     }, 
-    "Retrocomputing": {
-        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Retrocomputing.md"
-    }, 
     "Rube Goldberg": {
         "url": "https://en.wikipedia.org/wiki/Rube_Goldberg"
     }, 
@@ -130,5 +127,26 @@
     }, 
     "zzo38": {
         "url": "http://esolangs.org/wiki/User:zzo38"
+    },
+    "Game": {
+        "url": "http://catseye.tc/article/Games"
+    },
+    "Text": {
+        "url": "http://catseye.tc/article/Texts"
+    },
+    "Tool": {
+        "url": "http://catseye.tc/article/Tools"
+    },
+    "Library": {
+        "url": "http://catseye.tc/article/Tools"
+    },
+    "Retrocomputing": {
+        "url": "http://catseye.tc/article/Retrocomputing"
+    },
+    "Parsec": {
+        "url": "https://wiki.haskell.org/Parsec"
+    },
+    "make": {
+        "url": "http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html"
     }
 }

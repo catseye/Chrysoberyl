@@ -1,22 +1,4 @@
 # encoding: UTF-8
-ee:
-  type: Tool
-  description: |
-    `ee` is the "easy editor" which comes with [[FreeBSD]].
-  development-stage: mature
-  no-specification: true
-
-ee distribution: 
-  type: Distribution
-  reference: false
-  description: |
-    Cat's Eye Technologies' fork of `ee`, the "easy editor" which comes with [[FreeBSD]].
-    We forked it to allow easier bundling, namely into [[The Platform]].
-  github: catseye/ee
-  # this should be a release?
-  fixed-tag: 1.5.2ce1
-  releases: []
-
 
 miniscm:
   type: Implementation
@@ -59,35 +41,4 @@ OpenZz distribution:
   github: catseye/OpenZz
   # this should be a release!
   fixed-tag: 1.0.4-4ce1
-  releases: []
-
-
-tideay: 
-  type: Tool
-  authors:
-  - Paul Harrison
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  description: |
-    `tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
-    text editor written by Paul Harrison.  In addition to the
-    features provided by `yaedit`, `tideay` supports things such as
-    [[String-rewriting]]-based editing commands.
-  inception-date: Apr 2013
-  development-stage: work in progress
-
-tideay (Python):
-  type: Implementation
-  implementation-of:
-  - tideay
-  reference: true
-  in-distribution: tideay distribution
-  license: GPL
-  host-language: Python
-
-tideay distribution: 
-  type: Distribution
-  github: cpressey/tideay
-  fixed-tag: OMIT
   releases: []

@@ -63,5 +63,5 @@ Links
 
 - - - -
 
-[Z80]: article/Retrocomputing.md#z80
+[Z80]: ../article/Retrocomputing.md#z80
 
