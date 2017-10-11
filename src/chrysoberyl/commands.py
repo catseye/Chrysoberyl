@@ -64,6 +64,29 @@ def mkdistjson(universe, options, config):
         f.write(json.dumps(dist, indent=4, sort_keys=True))
 
 
+# NOTES made while browsing the two versions:
+#   make reference-distribution mandatory!
+#   online @ links (Wierd, Shelta, etc)
+# Things to add MANUALLY:
+#   "Apple Befunge" is a variant of Befunge-93
+#   SMETANA: link to proof that it is FSA-complete
+#   remove Cyclobots
+#   authors on Wierd (with John Colagioia, Ben Olmstead)
+#   - implementations on Wierd
+#   - This sample was written by Milo van Handel
+#   RUBE bully automaton link
+#   Befunge-97 with Befunge Mailing List Working Group
+#   Remove ETHEL
+#   ALPACA before REDGREEN
+#   mention new acronym for ALPACA
+#   Funge-98 Sep 11, 1998 with Befunge Mailing List Working Group 
+#   make Befunge-98 Trefunge-98 Unefunge-98 all link near it!
+#   MDPN is a meta-language
+#   Illberon, Illgola-2, Open Sores Illgol## link near ILLGOL
+#   Images for ILLGOL
+#   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
+#   note that ndcnc.bf is broken
+
 def export_lingography(universe, options, config):
     """Export the lingography."""
     space = universe['node']  # FIXME hardcoded
@@ -149,18 +172,18 @@ Languages I've Designed
         if 'defining-distribution' in thing:
             d = thing['defining-distribution']
             write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
+
+        if 'sample' in thing:
+            write("*   sample program:")
+            write("    ")
+            for line in thing['sample'].split('\n'):
+                write(u"        {}".format(line))
+
         write("")
 
         description = thing['description']
         description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
         write(description)
-
-        if 'sample' in thing:
-            write("Sample program:")
-            write("")
-            for line in thing['sample'].split('\n'):
-                write(u"    {}".format(line))
-            write("")
 
         commentary = thing.get('commentary')
         if commentary:
