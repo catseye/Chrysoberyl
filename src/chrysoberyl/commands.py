@@ -65,7 +65,6 @@ def mkdistjson(universe, options, config):
 
 
 # NOTES made while browsing the two versions:
-#   influences => influenced by
 # Things to add MANUALLY:
 #   "Apple Befunge" is a variant of Befunge-93
 #   SMETANA: link to proof that it is FSA-complete

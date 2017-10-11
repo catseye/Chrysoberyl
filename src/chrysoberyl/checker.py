@@ -324,7 +324,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
                              types=['Development Stage'])
         check_optional_scalar_ref(universe, key, node, 'sample-credit', link_priority,
                                   'Individual')
-        check_optional_scalar_ref(universe, key, node, 'variant-of', type_)
+        check_optional_scalar_ref(universe, key, node, 'variant-of', link_priority, types=[type_])
         check_optional_list_ref(universe, key, node, 'online-implementations', link_priority,
                                 types=['Online Installation'])
 
