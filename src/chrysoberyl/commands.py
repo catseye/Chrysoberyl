@@ -112,13 +112,30 @@ def export_lingography(universe, options, config):
         else:
             return u'[{}]({})'.format(segments[1], segments[0])
 
+    f = codecs.open('../Chrysoberyl/article/Lingography.md', 'w', 'utf-8')
     def write(s):
-        sys.stdout.write(s.encode('utf-8'))
-        sys.stdout.write("\n")
+        f.write(s + '\n')
 
-    write("Chris Pressey's Lingography")
-    write("===========================")
-    write("")
+    write("""\
+Chris Pressey's Lingography
+===========================
+
+(What is a "lingography", you ask? Well, if bands have disc-ographies and directors have film-ographies...)
+
+This is a list, given in approximate chronological order, of the languages I've designed and/or implemented.
+It is more-or-less unabridged, but not intended to be completely exhaustive. Most of these language are
+programming languages; some of them are formal languages, and some of them are automata of some kind.
+Many of them are esolangs. Some of them possibly aren't even languages at all; they just seem to fit the
+general theme of the list. Most of them have been implemented, and these implementations are available in
+downloadable distrbutions. At the bottom there is also a list of languages that I've implemented, but which
+were designed by someone else.
+
+You may also be interested in reading about what it was like to design these and/or the ones that got away.
+
+Languages I've Designed
+-----------------------
+
+""")
 
     for thing in data:
         write(u"### {}".format(thing['title']))
@@ -145,6 +162,10 @@ def export_lingography(universe, options, config):
                 write(u"    {}".format(line))
             write("")
 
+        for implementation_key, implementation_node in space.related_items('implementation-of', key=thing['title']):
+            write("#### Implementation: {}".format(implementation_key))
+            write("")
+
     write("- - - -")
     write("")
     for needed_link in sorted(needed_links):
@@ -162,6 +183,8 @@ def export_lingography(universe, options, config):
             write(u"[{}]: {}".format(needed_link, url))
         else:
             write(u"[{}]: TBD".format(needed_link))
+
+    f.close()
 
 
 def render(universe, options, config):

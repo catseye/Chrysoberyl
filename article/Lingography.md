@@ -1,8 +1,44 @@
 Chris Pressey's Lingography
 ===========================
 
-This was generated from the Chrysoberyl data, and will probably be re-generated
-from it a couple of more times, just so you know.
+(What is a "lingography", you ask? Well, if bands have disc-ographies and directors have film-ographies...)
+
+This is a list, given in approximate chronological order, of the languages I've designed and/or implemented.
+It is more-or-less unabridged, but not intended to be completely exhaustive. Most of these language are
+programming languages; some of them are formal languages, and some of them are automata of some kind.
+Many of them are esolangs. Some of them possibly aren't even languages at all; they just seem to fit the
+general theme of the list. Most of them have been implemented, and these implementations are available in
+downloadable distrbutions. At the bottom there is also a list of languages that I've implemented, but which
+were designed by someone else.
+
+You may also be interested in reading about what it was like to design these and/or the ones that got away.
+
+Languages I've Designed
+-----------------------
+
+
+### Maentwrog
+
+*   type: Programming Language
+*   inception-date: ca 1993
+*   genre: Pedagogical language
+*   development-stage: archival
+*   computational-class: known not Turing-complete
+*   paradigms: Stack-based
+
+Maentwrog is an RPN-calculator-turned-FORTH-interpreter which
+probably counts as [Chris Pressey][]'s first *proper* programming language.
+It was implemented on his Amiga 500 in 1993, then lost and unearthed
+multiple times.  It is hardly remarkable, save that it spawned [Befunge-93][].
+
+Sample program:
+
+    *a *b *c
+    0 =a 1 =b
+    : fib a b + =c c . b =a c =b c 100000 < @fib ;
+    1 . fib
+
+#### Implementation: maentw.c
 
 ### Full Moon Fever
 
@@ -33,27 +69,6 @@ Sample program:
     DO 20
         LF PRINT " " LF LF PRINT "0" PAUSE 5;
 
-### Maentwrog
-
-*   type: Programming Language
-*   inception-date: ca 1993
-*   genre: Pedagogical language
-*   development-stage: archival
-*   computational-class: known not Turing-complete
-*   paradigms: Stack-based
-
-Maentwrog is an RPN-calculator-turned-FORTH-interpreter which
-probably counts as [Chris Pressey][]'s first *proper* programming language.
-It was implemented on his Amiga 500 in 1993, then lost and unearthed
-multiple times.  It is hardly remarkable, save that it spawned [Befunge-93][].
-
-Sample program:
-
-    *a *b *c
-    0 =a 1 =b
-    : fib a b + =c c . b =a c =b c 100000 < @fib ;
-    1 . fib
-
 ### Befunge-93
 
 *   type: Programming Language
@@ -77,6 +92,10 @@ Sample program:
      >"\",^
     
 
+#### Implementation: tc.catseye.yoob.befunge93
+
+#### Implementation: bef
+
 ### Cyclobots
 
 *   type: Automaton
@@ -96,6 +115,10 @@ A group of cyclobots tends to fall into one of several semi-stable
 patterns.  The simplest of these is just a rotating circle, but
 more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
 patterns are more common.
+
+#### Implementation: cyclobots.js
+
+#### Implementation: Cyclobots (Visual Basic)
 
 ### SMETANA
 
@@ -117,6 +140,12 @@ Sample program:
     Step 1. Swap step 1 with step 2.
     Step 2. Go to step 2.
     Step 3. Go to step 1.
+
+#### Implementation: SMETANA (Visual Basic)
+
+#### Implementation: smetana.pl
+
+#### Implementation: tc.catseye.yoob.smetana
 
 ### Wierd
 
@@ -184,6 +213,8 @@ Sample program:
                                    =
     
 
+#### Implementation: rube.c
+
 ### Befunge-97
 
 *   type: Programming Language
@@ -211,6 +242,8 @@ as sharing a single stack.
 ETHEL was a programming language specifically for expressing
 quantity surveying (materials estimating) formula and procedures,
 designed for Star Building Materials.
+
+#### Implementation: ethel.pl
 
 ### REDGREEN
 
@@ -246,6 +279,8 @@ Sample program:
                                                     T
     
 
+#### Implementation: redgreen.alp
+
 ### ALPACA
 
 *   type: Programming Language
@@ -263,6 +298,10 @@ Sample program:
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
     
+
+#### Implementation: alpaca.pl
+
+#### Implementation: alpaca (Python)
 
 ### Funge-98
 
@@ -339,6 +378,10 @@ Sample program:
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
     
 
+#### Implementation: shelta
+
+#### Implementation: sheltas
+
 ### Bear Food
 
 *   type: Programming Language
@@ -353,6 +396,8 @@ evolved (no... let's be honest, it *devolved*) from a small piece of example
 code showing how to parse and intepret a simple reverse-polish notation language.
 This same example code also took a very divergent line of evolution, eventually
 becoming the programming language [Var'aq][].
+
+#### Implementation: bearfood.pl
 
 ### Sally
 
@@ -372,6 +417,8 @@ Sample program:
     int factorial int if $1 mul $1 factorial sub $1 1 1
     int main int factorial $1
     
+
+#### Implementation: sally2c
 
 ### ILLGOL
 
@@ -396,6 +443,8 @@ Sample program:
     60 do f(3);
     FIN
     
+
+#### Implementation: illgol.exe
 
 ### SMITH
 
@@ -425,6 +474,8 @@ Sample program:
     NOT R1
     MUL R1, 8
     COR +1, -7, R1
+
+#### Implementation: smith.pl
 
 ### Tamerlane
 
@@ -471,6 +522,8 @@ Sample program:
     * main { start many finish? "Hello, world!"! }
     
 
+#### Implementation: squishy2k.pl
+
 ### noit o' mnain worb
 
 *   type: Automaton
@@ -499,6 +552,12 @@ Sample program:
             # #
             ###
     
+
+#### Implementation: worb.js
+
+#### Implementation: tc.catseye.yoob.worb
+
+#### Implementation: worb.pl
 
 ### HUNTER
 
@@ -533,6 +592,8 @@ Sample program:
     *21+>3
     
 
+#### Implementation: hunter.pl
+
 ### 'N-DCNC
 
 *   type: Programming Language
@@ -550,6 +611,10 @@ Sample program:
 
     4*5+2/2,(9*`c)+1
     
+
+#### Implementation: ndcnc.bf
+
+#### Implementation: ndcnc.pl
 
 ### Strelnokoff
 
@@ -585,6 +650,8 @@ Sample program:
     X = (T = X) * 0 + (X > T) * X REM RESET FLAG
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
     
+
+#### Implementation: strelnokoff.pl
 
 ### Opus-2
 
@@ -636,6 +703,10 @@ Sample program:
         #    ###
     
 
+#### Implementation: tc.catseye.yoob.ypsilax
+
+#### Implementation: ypsilax.pl
+
 ### Version
 
 *   type: Programming Language
@@ -672,6 +743,8 @@ Sample program:
     W: ROOM = "VALLEY|HILL|GLADE"
     LASTLY: IGNORE = "START"
     
+
+#### Implementation: version.pl
 
 ### beta-Juliet
 
@@ -712,6 +785,10 @@ Sample program:
             causes Domino (succ N) Falls.
     
 
+#### Implementation: 2iota
+
+#### Implementation: b_juliet.pl
+
 ### Sbeezg
 
 *   type: Programming Language
@@ -730,6 +807,8 @@ Sample program:
        ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
        k=j(h,b)|a};l=f(99,f)
     
+
+#### Implementation: sbeezg.erl
 
 ### GraNoLa/M
 
@@ -750,6 +829,8 @@ Sample program:
 
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
     
+
+#### Implementation: granolam.erl
 
 ### Kangaroo Iceberg
 
@@ -775,6 +856,8 @@ Sample program:
     B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
     C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
     
+
+#### Implementation: kiceberg
 
 ### Circute
 
@@ -802,6 +885,10 @@ Sample program:
        =============     =============
     
 
+#### Implementation: circute.alp
+
+#### Implementation: tc.catseye.yoob.circute
+
 ### Braktif
 
 *   type: Automaton
@@ -822,6 +909,8 @@ Sample program:
     000000000000000000  *[-----  --]
     -----------------d-i--         --------
     
+
+#### Implementation: braktif.alp
 
 ### Beturing
 
@@ -860,6 +949,8 @@ Sample program:
     *@      *^*<*<
     
 
+#### Implementation: beturing.lua
+
 ### Bhuna
 
 *   type: Programming Language
@@ -884,6 +975,8 @@ Sample program:
     }
     Print Fib(32), EoL
     
+
+#### Implementation: bhuna
 
 ### Burro
 
@@ -917,6 +1010,8 @@ Sample program:
     >)<
     
 
+#### Implementation: Burro.lhs
+
 ### Xigxag
 
 *   type: Automaton
@@ -934,6 +1029,8 @@ Sample program:
 
     ><<
     
+
+#### Implementation: xigxag.pl
 
 ### Hev
 
@@ -955,6 +1052,8 @@ Sample program:
     71+8*27,19,29*99,6,37,7,61,47
     
 
+#### Implementation: Hev.hs
+
 ### Cabra
 
 *   type: Programming Language
@@ -975,6 +1074,8 @@ Sample program:
 
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
     
+
+#### Implementation: cabra.hs
 
 ### You are Reading the Name of this Esolang
 
@@ -1016,6 +1117,8 @@ Sample program:
 
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
     
+
+#### Implementation: emmental.hs
 
 ### Didigm
 
@@ -1077,6 +1180,8 @@ Sample program:
                         let c = c - 1 in
                             repeat
 
+#### Implementation: iphi
+
 ### Mascarpone
 
 *   type: Programming Language
@@ -1096,6 +1201,8 @@ Sample program:
 
     v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
     
+
+#### Implementation: mascarpone.hs
 
 ### Larabee
 
@@ -1119,6 +1226,8 @@ Sample program:
             (store (input) (op - (fetch (input)) (input))
               (test (op > (fetch (input)) (input))
                 (goto loop) (print (fetch (input)))))))))
+
+#### Implementation: larabee.scm
 
 ### Arboretuum
 
@@ -1158,6 +1267,8 @@ Sample program:
       )
     )
 
+#### Implementation: forest-rewriter.scm
+
 ### Treacle
 
 *   type: Programming Language
@@ -1182,6 +1293,8 @@ Sample program:
     )
     
 
+#### Implementation: treacle.scm
+
 ### Quylthulg
 
 *   type: Programming Language
@@ -1198,6 +1311,8 @@ only appear inside data structures.
 Sample program:
 
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
+
+#### Implementation: Qlzqqlzuup, the Lord of Flesh
 
 ### Unlikely
 
@@ -1241,6 +1356,8 @@ Sample program:
       }
     }
 
+#### Implementation: Coldwater
+
 ### Jaccia
 
 *   type: Automaton
@@ -1270,6 +1387,8 @@ Sample program:
     #########F#
     
 
+#### Implementation: jaccia.alp
+
 ### Pixley
 
 *   type: Programming Language
@@ -1290,6 +1409,18 @@ Sample program:
 
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
     
+
+#### Implementation: pixley.pifx
+
+#### Implementation: mignon
+
+#### Implementation: pixley.pix
+
+#### Implementation: p-normal.pix
+
+#### Implementation: haney
+
+#### Implementation: pixley.js
 
 ### Dieter
 
@@ -1322,6 +1453,8 @@ Sample program:
       end
     end.
 
+#### Implementation: dieter.py
+
 ### Etcha
 
 *   type: Programming Language
@@ -1342,6 +1475,12 @@ a role similar to the tape head of a Turing machine.
 Sample program:
 
     >+++>+++>+++>+++>[+]>>>>+
+
+#### Implementation: tc.catseye.yoob.etcha
+
+#### Implementation: etcha.js
+
+#### Implementation: tc.catseye.etcha
 
 ### ZOWIE
 
@@ -1372,6 +1511,8 @@ Sample program:
     MOV R3, R8
     
 
+#### Implementation: zowie.py
+
 ### Okapi
 
 *   type: Programming Language
@@ -1387,6 +1528,8 @@ as if this wasn't enough, there are two restrictions on exceptions that are
 thrown — they must be divide-by-zero exceptions, and they must be caught
 in a lexically enclosing block.  Nor is there any facility to "retry" after
 an exception is caught. The language is nonetheless [Turing-complete][].
+
+#### Implementation: okapi.py
 
 ### Whothm
 
@@ -1419,6 +1562,8 @@ Sample program:
     draw s, XOR;
     end
     
+
+#### Implementation: tc.catseye.whothm
 
 ### Eightebed
 
@@ -1458,6 +1603,8 @@ Sample program:
         free george;
         free jim;
     }
+
+#### Implementation: 8ebed2c.py
 
 ### Oozlybub and Murphy
 
@@ -1528,6 +1675,10 @@ Sample program:
              @
       @     @#@
 
+#### Implementation: tc.catseye.yoob.gemooy
+
+#### Implementation: gemooy.js
+
 ### Nhohnhehr
 
 *   type: Programming Language
@@ -1555,6 +1706,8 @@ Sample program:
     |\\    |
     +------+
     
+
+#### Implementation: nhohnhehr.py
 
 ### Kelxquoia
 
@@ -1634,6 +1787,10 @@ Sample program:
              o    oooo o
     
 
+#### Implementation: tc.catseye.yoob.wunnel
+
+#### Implementation: wunnel.js
+
 ### Pail
 
 *   type: Programming Language
@@ -1661,6 +1818,8 @@ Sample program:
            ]]
       ]]
     
+
+#### Implementation: Pail.lhs
 
 ### Xoomonk
 
@@ -1697,6 +1856,8 @@ Sample program:
     }
     
 
+#### Implementation: xoomonk.py
+
 ### Flobnar
 
 *   type: Programming Language
@@ -1725,6 +1886,8 @@ Sample program:
     1 :   > *
       -|    <
       11
+
+#### Implementation: Flobnar.hs
 
 ### Madison
 
@@ -1813,6 +1976,8 @@ Sample program:
     fact(four(:nil))
     
 
+#### Implementation: exanoke.py
+
 ### Velo
 
 *   type: Programming Language
@@ -1834,6 +1999,10 @@ Sample program:
     yes = {IO.print {Yes}}
     no = {IO.print {No}}
     if ({X}.equals {Y}), yes, no
+
+#### Implementation: velo.rb
+
+#### Implementation: velo.lua
 
 ### Cfluviurrh
 
@@ -1867,6 +2036,8 @@ Sample program:
     z?a<b
     
 
+#### Implementation: cfluviurrh
+
 ### Jolverine
 
 *   type: Programming Language
@@ -1895,6 +2066,8 @@ Sample program:
                  *-*---*
     
 
+#### Implementation: jolverine.py
+
 ### SICKBAY
 
 *   type: Programming Language
@@ -1920,6 +2093,8 @@ Sample program:
     220 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL.":PRINT ""
     230 GOTO 100
 
+#### Implementation: SAWBONES
+
 ### Carriage
 
 *   type: Programming Language
@@ -1942,6 +2117,8 @@ Sample program:
     111-@11-~!$11111++++11-~@11-~!
     
 
+#### Implementation: Carriage.hs
+
 ### Chzrxl
 
 *   type: Automaton
@@ -1954,6 +2131,8 @@ Sample program:
 
 "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
 lava lamp?
+
+#### Implementation: chzrxl.js
 
 ### Yolk
 
@@ -1991,6 +2170,10 @@ Sample program:
                                 (ifeq))))))))
     
 
+#### Implementation: yolk.py
+
+#### Implementation: yolk.yolk
+
 ### Matchbox
 
 *   type: Programming Language
@@ -2002,6 +2185,8 @@ Sample program:
 *   reference-distribution: [Matchbox distribution](/distribution/Matchbox distribution)
 
 A toy language for a toy race-condition finder.
+
+#### Implementation: matchbox.js
 
 ### Backtracking Wang Tiler
 
@@ -2019,6 +2204,8 @@ plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
 It operates like a backtracking algorithm, backing up whenever it finds
 it cannot place a tile, but it may be inaccurate to describe it as an
 algorithm, since it never terminates.
+
+#### Implementation: backtracking-wang-tiler.js
 
 ### Schrödinger's Game of Life
 
@@ -2042,6 +2229,10 @@ probably be applied to any cellular automaton with similar results.
 For a full account of its development, see
 [its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
 
+#### Implementation: slife.js
+
+#### Implementation: slife
+
 ### SITU-SOL
 
 *   type: Programming Language
@@ -2054,6 +2245,8 @@ For a full account of its development, see
 SITU-SOL is a vaguely Forth-like language which was designed and
 implemented (by hand!) during RetroChallenge 2015/07, and entered
 into an emulated [Commodore 64][] using [SITU-MON][].
+
+#### Implementation: SITU-SOL (Commodore 64)
 
 ### Samovar
 
@@ -2119,33 +2312,33 @@ Sample program:
 
 [1L]: TBD
 [2-ill]: TBD
-[Arboretuum]: ../article/Lingography.md#arboretuum
+[Arboretuum]: http://catseye.tc/article/Lingography.md#arboretuum
 [BASIC]: TBD
-[Befunge-93]: ../article/Lingography.md#befunge-93
+[Befunge-93]: http://catseye.tc/article/Lingography.md#befunge-93
 [Befunge-98]: TBD
 [Ben Olmstead]: TBD
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [Chris Pressey]: TBD
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore 64]: http://catseye.tc/article/Retrocomputing.md#commodore-64
 [Conway's Game of Life]: TBD
-[Emmental]: ../article/Lingography.md#emmental
+[Emmental]: http://catseye.tc/article/Lingography.md#emmental
 [Esoteric Awards]: TBD
-[Etcha]: ../article/Lingography.md#etcha
+[Etcha]: http://catseye.tc/article/Lingography.md#etcha
 [FALSE]: http://esolangs.org/wiki/FALSE
-[Falderal]: ../article/Formats.md#falderal
+[Falderal]: http://catseye.tc/article/Formats.md#falderal
 [Gregor Richards]: TBD
-[ILLGOL]: ../article/Lingography.md#illgol
+[ILLGOL]: http://catseye.tc/article/Lingography.md#illgol
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Lua]: TBD
-[Pixley]: ../article/Lingography.md#pixley
-[RUBE]: ../article/Lingography.md#rube
+[Pixley]: http://catseye.tc/article/Lingography.md#pixley
+[RUBE]: http://catseye.tc/article/Lingography.md#rube
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
-[SITU-MON]: ../article/Tools.md#situ-mon
-[SMITH]: ../article/Lingography.md#smith
+[SITU-MON]: http://catseye.tc/article/Tools.md#situ-mon
+[SMITH]: http://catseye.tc/article/Lingography.md#smith
 [Scheme]: TBD
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
-[Tamerlane]: ../article/Lingography.md#tamerlane
+[Tamerlane]: http://catseye.tc/article/Lingography.md#tamerlane
 [Thue]: TBD
 [Trefunge-98]: TBD
 [Turing-complete]: TBD
@@ -2155,4 +2348,3 @@ Sample program:
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: TBD
 [reMorse]: http://esolangs.org/wiki/reMorse
-
