@@ -63,6 +63,13 @@ paradigms
 
 type
 
+### online
+
+*   optional: true
+*   multiple: true
+
+Online.
+
 ### sample program
 
 *   optional: true

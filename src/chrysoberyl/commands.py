@@ -65,17 +65,15 @@ def mkdistjson(universe, options, config):
 
 
 # NOTES made while browsing the two versions:
-#   online @ links (Wierd, Shelta, etc)
+#   influences => influenced by
 # Things to add MANUALLY:
 #   "Apple Befunge" is a variant of Befunge-93
 #   SMETANA: link to proof that it is FSA-complete
-#   remove Cyclobots
 #   authors on Wierd (with John Colagioia, Ben Olmstead)
 #   - implementations on Wierd
 #   - This sample was written by Milo van Handel
 #   RUBE bully automaton link
 #   Befunge-97 with Befunge Mailing List Working Group
-#   Remove ETHEL
 #   ALPACA before REDGREEN
 #   mention new acronym for ALPACA
 #   Funge-98 Sep 11, 1998 with Befunge Mailing List Working Group 
@@ -85,7 +83,12 @@ def mkdistjson(universe, options, config):
 #   Images for ILLGOL
 #   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 #   note that ndcnc.bf is broken
-#   (pausing around Version...)
+#   Show output for Xigxag
+#   Jacciata is variant of Jaccia
+#   Crabwell, P-Normal Pixley, Pifxley are variants
+#   Pail.lhs is Literate Haskell
+#   Matchbox, Wang Tiler, SGOL, SITU-SOL should have sample programs / screenshots
+#   "Languages I've Implemented" at the bottom
 
 def export_lingography(universe, options, config):
     """Export the lingography."""
@@ -111,6 +114,15 @@ def export_lingography(universe, options, config):
                 languages.append(thing)
         return sorted(languages,
                       key=lambda x: (space[x]['inception-date'], space[x]['genre']) )
+
+    def online_implementations(key):
+        def online_locations(k):
+            return space[k].get('online-locations', [])
+        online_locs = []
+        online_locs.extend(online_locations(key))
+        for impl, inode in sorted(space.related_items('implementation-of', key=key)):
+            online_locs.extend(online_locations(impl))
+        return online_locs
 
     data = []
     for key in lingography():
@@ -183,6 +195,9 @@ Languages I've Designed
         if 'defining-distribution' in thing:
             d = thing['defining-distribution']
             write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
+
+        for url in online_implementations(thing['title']):
+            write(u"*   online @ [catseye.tc](http://catseye.tc/{})".format(url))
 
         if 'sample' in thing:
             write("*   sample program:")
