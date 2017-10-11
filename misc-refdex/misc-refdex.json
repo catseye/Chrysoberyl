@@ -280,6 +280,34 @@
         "anchor": "illgol", 
         "filename": "article/Lingography.md"
     },
+    "braktif.alp": {
+        "anchor": "braktif", 
+        "filename": "article/Lingography.md"
+    },
+    "redgreen.alp": {
+        "anchor": "redgreen", 
+        "filename": "article/Lingography.md"
+    },
+    "circute.alp": {
+        "anchor": "circute", 
+        "filename": "article/Lingography.md"
+    },
+    "jaccia.alp": {
+        "anchor": "jaccia", 
+        "filename": "article/Lingography.md"
+    },
+    "jacciata.alp": {
+        "anchor": "jaccia", 
+        "filename": "article/Lingography.md"
+    },
+    "worb.js": {
+        "anchor": "noit-o-mnain-worb", 
+        "filename": "article/Lingography.md"
+    },
+    "slife.js": {
+        "anchor": "schrödingers-game-of-life", 
+        "filename": "article/Lingography.md"
+    },
 
 
 

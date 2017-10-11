@@ -362,3 +362,40 @@ APPLE BEFUNGE EDITOR:
   implementation-type: interpreter
   host-language: Applesoft BASIC
   host-platform: Apple II
+
+
+### this is effectively a wip
+
+Zame:
+  # technically a family.
+  type: Programming Language
+  genre: Esolang
+  paradigms:
+  # kind of...
+  - Maze-space-rewriting
+  variant-of: Etcha
+  description: |
+    Zame is an automaton which uses the solution of a maze to
+    generate an [[Etcha]] program which draws a new maze, then
+    the process repeats.  An open question is to find a maze for which
+    this process repeats indefinitely.
+    
+    Information on this language is only available on the Esowiki for now.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  esowiki: Zame
+  inception-date: Jan 2009
+  development-stage: not fully complete
+  sample: |
+    #########
+    # #     #
+    # # # ###
+    #   #   #
+    ### # # #
+    #   # # #
+    #########
+  computational-class: unknown computational class
+  unusual-computability-properties: true
+  specification-link: esowiki
