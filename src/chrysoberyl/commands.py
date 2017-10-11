@@ -150,17 +150,22 @@ Languages I've Designed
             d = thing['defining-distribution']
             write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
         write("")
+
         description = thing['description']
-
         description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
-
         write(description)
+
         if 'sample' in thing:
             write("Sample program:")
             write("")
             for line in thing['sample'].split('\n'):
                 write(u"    {}".format(line))
             write("")
+
+        commentary = thing.get('commentary')
+        if commentary:
+            commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
+            write(commentary)
 
         def write_impl_properties(node):
             if 'in-distribution' in node:
