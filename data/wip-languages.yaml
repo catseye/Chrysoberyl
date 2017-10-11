@@ -164,3 +164,201 @@ Robin distribution:
   - version: "0.2"
     revision: "0.0"
     url: http://catseye.tc/distfiles/robin-0.2.zip
+
+
+Castile:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Imperative
+  - Functional
+  description: |
+    Castile is an unremarkable programming language which exists mainly
+    because an unremarkable evaluator/compiler for it was written.  It is
+    a bit like [[ANSI C]] except with proper union types (and no typecasts.)  Local
+    variables are mutable, but arguments and globals aren't.  The compiler
+    supports several backends, including [[Javascript]] and [[Ruby]].
+  inception-date: Nov 21, 2012
+  development-stage: work in progress
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  etymology:
+  - soap
+  influences:
+  - Eightebed
+  # also Rust
+  computational-class: believed Turing-complete
+  sample: |
+    fun foo(a, b: integer|string) {
+      r = a;
+      typecase b is integer {
+        r = r + b;
+      };
+      typecase b is string {
+        r = r + len(b);
+      };
+      r
+    }
+    main = fun() {
+      a = foo(a, 333 as integer|string);
+      a = foo(a, "hiya" as integer|string);
+      a /* should output 337 */
+    }
+
+castile.py:
+  type: Implementation
+  implementation-of:
+  - Castile
+  in-distribution: Castile distribution
+  reference: true
+  license: Unknown license
+  # XXX and compiler to Javascript, Ruby, stackmac, almost C...
+  implementation-type: interpreter
+  host-language: Python
+
+
+SixtyPical:
+  type: Programming Language
+  genre: Machine language
+  paradigms:
+  - Imperative
+  description: |
+    SixtyPical is a very low-level programming language, similar to 6502
+    assembly, which defines a set of static analyses via type-checking and
+    abstract interpretation (liveness analysis of variables, i.e. memory
+    locations.)
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2014
+  development-stage: work in progress
+  defining-distribution: SixtyPical distribution
+  etymology:
+  - portmanteau
+  sample: |
+    byte table screen @ 1024
+    routine main
+      trashes a, x, z, n, screen
+    {
+        ld x, 0
+        ld a, 83    // 83 = screen code for heart
+        repeat {
+            st a, screen + x
+            inc x
+        } until z
+    }
+
+sixtypical (Haskell):
+  type: Implementation
+  implementation-of:
+  - SixtyPical
+  in-distribution: SixtyPical distribution
+  license: BSD license
+  reference: false
+  host-language: Haskell
+  implementation-type: compiler
+  target-language: Ophis Assembler
+
+sixtypical (Python):
+  type: Implementation
+  implementation-of:
+  - SixtyPical
+  in-distribution: SixtyPical distribution
+  license: BSD license
+  reference: true
+  host-language: Python
+  implementation-type: compiler
+  target-language: 6502 machine code
+
+
+Tamsin:
+  type: Programming Language
+  genre: Experimental language
+  paradigms:
+  - Functional
+  - Logic programming
+  - Metalanguage
+  description: |
+    Tamsin is an oddball little language that can't decide if it's a
+    meta-language, a programming language, or a [[Perl|rubbish lister]].
+    Its primary goal is to allow the rapid development of parsers,
+    static analyzers, interpreters, and compilers, and to allow them
+    to be expressed *compactly*.
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  inception-date: Apr 2014
+  development-stage: work in progress
+  defining-distribution: Tamsin distribution
+  etymology:
+  - feminine given name
+  sample: |
+    main = expr0 → E & walk(E).
+    expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
+    expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
+    term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
+    walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
+    walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
+    walk(X) = return ' '+X.
+
+tamsin.py:
+  type: Implementation
+  implementation-of:
+  - Tamsin
+  in-distribution: Tamsin distribution
+  license: BSD license
+  reference: true
+  host-language: Python
+  # it also compiles, but the interpreter is the most "reference"
+  implementation-type: interpreter
+  generally-recommended: true
+
+tamsin.tamsin:
+  type: Implementation
+  implementation-of:
+  - Tamsin
+  in-distribution: Tamsin distribution
+  license: BSD license
+  reference: false
+  host-language: Tamsin
+  implementation-type: compiler
+  target-language: C99
+
+
+### ok, this one's not really WIP -- it will go into Retrocomputing section eventually I think
+
+Apple Befunge: 
+  type: Programming Language
+  genre: Esolang
+  variant-of: Befunge-93
+  paradigms:
+  - Stack-based
+  - 2-dimensional
+  - Self-modifying
+  development-stage: archival
+  description: |-
+    Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
+    Befunge-93, with some extra Befunge-96-esque instructions and some
+    Apple ][+-specific instructions.
+  inception-date: Jul 3, 2000
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+
+APPLE BEFUNGE EDITOR:
+  type: Implementation
+  implementation-of:
+  - Apple Befunge
+  reference: true
+  development-stage: archival
+  in-distribution: Apple Befunge distribution
+  license: Public Domain
+  # also: editor
+  implementation-type: interpreter
+  host-language: Applesoft BASIC
+  host-platform: Apple II
