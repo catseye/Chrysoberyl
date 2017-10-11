@@ -1202,6 +1202,7 @@ gemooy.js:
   type: Implementation
   implementation-of:
   - Gemooy
+  reference: true
   in-distribution: Gemooy distribution
   license: Public Domain
   implementation-type: interpreter

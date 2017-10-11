@@ -65,7 +65,6 @@ def mkdistjson(universe, options, config):
 
 
 # NOTES made while browsing the two versions:
-#   make reference-distribution mandatory!
 #   online @ links (Wierd, Shelta, etc)
 # Things to add MANUALLY:
 #   "Apple Befunge" is a variant of Befunge-93
@@ -86,6 +85,7 @@ def mkdistjson(universe, options, config):
 #   Images for ILLGOL
 #   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 #   note that ndcnc.bf is broken
+#   (pausing around Version...)
 
 def export_lingography(universe, options, config):
     """Export the lingography."""
@@ -161,6 +161,8 @@ Languages I've Designed
 """)
 
     for thing in data:
+        if thing['title'] in ('Cyclobots', 'ETHEL', 'Okapi', 'Chzrxl',):
+            continue
         write(u"### {}".format(thing['title']))
         write("")
 
@@ -169,6 +171,15 @@ Languages I've Designed
         for key in ('influences', 'paradigms'):
             if key in thing:
                 write(u"*   {}: {}".format(key, ', '.join(thing[key])))
+
+        if 'defining-distribution' not in thing:
+            ref_i = space.reference_implementation_of(thing['title'])
+            if ref_i and 'in-distributions' in space[ref_i]:
+                thing['defining-distribution'] = space[ref_i]['in-distributions'][0]
+
+        if thing['title'] not in ('Full Moon Fever', 'Befunge-97', 'Bear Food', 'Carriage',):
+            assert 'defining-distribution' in thing, thing['title']
+
         if 'defining-distribution' in thing:
             d = thing['defining-distribution']
             write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))

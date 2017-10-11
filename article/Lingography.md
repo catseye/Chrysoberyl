@@ -25,8 +25,8 @@ Languages I've Designed
 *   development-stage: archived
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   sample program:
+    
         GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
         GO 1 3 CLREOL
         PAUSE 70
@@ -58,8 +58,9 @@ I believe it came from mis-remembering the title of the song
 *   development-stage: archival
 *   computational-class: known not Turing-complete
 *   paradigms: Stack-based
-*   sample program: 
-
+*   reference-distribution: [Maentwrog distribution](/distribution/Maentwrog distribution)
+*   sample program:
+    
         *a *b *c
         0 =a 1 =b
         : fib a b + =c c . b =a c =b c 100000 < @fib ;
@@ -103,8 +104,9 @@ wherein it is defined thusly:
 *   computational-class: can simulate some push-down automata
 *   influences: Maentwrog, brainfuck, FALSE
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
-*   sample program: 
-
+*   reference-distribution: [Befunge-93 distribution](/distribution/Befunge-93 distribution)
+*   sample program:
+    
          v    <
         >?"/",^
          >"\",^
@@ -139,8 +141,9 @@ many others.  Cited in the New Hacker's Dictionary.
 *   development-stage: archival
 *   computational-class: known not Turing-complete
 *   paradigms: Self-modifying
-*   sample program: 
-
+*   reference-distribution: [SMETANA distribution](/distribution/SMETANA distribution)
+*   sample program:
+    
         Step 1. Swap step 1 with step 2.
         Step 2. Go to step 2.
         Step 3. Go to step 1.
@@ -167,46 +170,6 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   implementation-type: interpreter
 *   host-language: Java
 
-### Cyclobots
-
-*   type: Automaton
-*   inception-date: ca 1994
-*   genre: Toy
-*   development-stage: mature
-*   computational-class: ???
-*   paradigms: Angular, Particle automaton
-
-Cyclobots is an automaton that consists of a number of little virtual
-"turtle robots" called "cyclobots".  Each cyclobot moves with a constant
-velocity, and tries to follow exactly one other cyclobot, adjusting
-its heading to point towards the cyclobot it is following.
-No cylobot is followed by more than one cyclobot.
-
-A group of cyclobots tends to fall into one of several semi-stable
-patterns.  The simplest of these is just a rotating circle, but
-more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
-patterns are more common.
-
-I originally conceived of this automaton, calling it
-an "interactive desktop toy", in or around 1994, and implemented
-it immediately in Visual Basic.  I remember the year because I wrote the
-first implementation of [SMETANA][] in Visual Basic at about the same time.
-
-The original implementation had a few features which are not present (yet)
-in the HTML5 version: cyclobots could collide with each other, and the user
-could use the mouse to attract/repel them from a chosen point.
-
-#### Implementation: cyclobots.js
-
-*   license: Freely Redistributable
-*   implementation-type: ???
-*   host-language: Javascript
-#### Implementation: Cyclobots (Visual Basic)
-
-*   license: Freely Redistributable
-*   implementation-type: ???
-*   host-language: Visual Basic
-
 ### Wierd
 
 *   type: Programming Language
@@ -217,8 +180,8 @@ could use the mouse to attract/repel them from a chosen point.
 *   influences: brainfuck, Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Angular
 *   reference-distribution: [Wierd distribution](/distribution/Wierd distribution)
-*   sample program: 
-
+*   sample program:
+    
         *
          *
           *
@@ -254,8 +217,9 @@ probably lost and gone forever, but two dialects have been specified
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Bully automaton, 2-dimensional
-*   sample program: 
-
+*   reference-distribution: [RUBE distribution](/distribution/RUBE distribution)
+*   sample program:
+    
           0a21646c726f77202c6f6c6c6548
         , :::::::::::::::::::::::::::: ,
          )
@@ -294,25 +258,6 @@ The design, however, was not successful — it has been described as
 as sharing a single stack.
 
 
-### ETHEL
-
-*   type: Programming Language
-*   inception-date: 1998
-*   genre: DSL
-*   development-stage: lost
-*   computational-class: believed Turing-complete
-*   paradigms: Functional
-
-ETHEL was a programming language specifically for expressing
-quantity surveying (materials estimating) formula and procedures,
-designed for Star Building Materials.
-
-#### Implementation: ethel.pl
-
-*   license: Proprietary
-*   implementation-type: interpreter
-*   host-language: Perl
-
 ### REDGREEN
 
 *   type: Automaton
@@ -322,8 +267,9 @@ designed for Star Building Materials.
 *   computational-class: Turing-complete
 *   influences: RUBE
 *   paradigms: Cellular automaton
-*   sample program: 
-
+*   reference-distribution: [REDGREEN distribution](/distribution/REDGREEN distribution)
+*   sample program:
+    
                                            # #
                          ......            # #
                                            #  ~                      #
@@ -360,8 +306,9 @@ REDGREEN is a cellular automaton that simulates a little
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Metalanguage, Object-oriented
-*   sample program: 
-
+*   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+*   sample program:
+    
         /* John Conway's Game of Life, expressed in ALPACA. */
         state Dead  " " to Alive when 3 Alive and 5 Dead;
         state Alive "*" to Dead when 4 Alive or 7 Dead.
@@ -399,8 +346,8 @@ other languages (or, well, cellular automata — close enough).
 *   influences: Befunge-93, Befunge-97
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](/distribution/Funge-98 distribution)
-*   sample program: 
-
+*   sample program:
+    
         >>#v?v
         ^,A' <
          ^ C'
@@ -430,8 +377,8 @@ operating system and engaging extensions to the language.
 *   computational-class: ???
 *   paradigms: Metalanguage
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
           Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
                   "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
         
@@ -448,8 +395,9 @@ multi-dimensional languages.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Stack-based
-*   sample program: 
-
+*   reference-distribution: [Shelta distribution](/distribution/Shelta distribution)
+*   sample program:
+    
         [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
         
 
@@ -505,8 +453,9 @@ becoming the programming language [Var'aq][].
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Sally distribution](/distribution/Sally distribution)
+*   sample program:
+    
         stdlib
         int factorial int if $1 mul $1 factorial sub $1 1 1
         int main int factorial $1
@@ -530,8 +479,9 @@ a strict type system, and some unusual rules for parameters and return values.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Illgol: Grand Mal](/distribution/Illgol: Grand Mal)
+*   sample program:
+    
         NB eh.ill
         10 *f = { print str(#0), EoL };
         20 do f(1);
@@ -561,8 +511,9 @@ sheer fact that a compiler for it has been hacked together.
 *   computational-class: Turing-complete
 *   influences: SMETANA
 *   paradigms: Imperative, Self-modifying
-*   sample program: 
-
+*   reference-distribution: [SMITH distribution](/distribution/SMITH distribution)
+*   sample program:
+    
         MOV R0, 10
         MOV R2, 0
         SUB R2, 1
@@ -595,8 +546,8 @@ has been shown to be [Turing-complete][].
 *   computational-class: ???
 *   paradigms: Graph-rewriting, Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         Point-A: 1 Point-B,
         Point-B: 1 Point-C,
         Point-C: 1 Point-A.
@@ -617,8 +568,9 @@ graph.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: String-rewriting, State machine
-*   sample program: 
-
+*   reference-distribution: [Squishy2K distribution](/distribution/Squishy2K distribution)
+*   sample program:
+    
         * main { start many finish? "Hello, world!"! }
         
 
@@ -644,8 +596,9 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Particle automaton, Probabilistic
-*   sample program: 
-
+*   reference-distribution: [noit o' mnain worb distribution](/distribution/noit o' mnain worb distribution)
+*   sample program:
+    
         #####         #####
         #   ###########   #
         # . >         < . #
@@ -688,8 +641,9 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional, Maze-space-rewriting
-*   sample program: 
-
+*   reference-distribution: [HUNTER distribution](/distribution/HUNTER distribution)
+*   sample program:
+    
         ##################
         #   1#2#         #
         # #### #         #
@@ -726,8 +680,9 @@ Its abstract starts out like this:
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: ['N-DCNC distribution](/distribution/'N-DCNC distribution)
+*   sample program:
+    
         4*5+2/2,(9*`c)+1
         
 
@@ -760,8 +715,9 @@ However, you still need a C compiler to build the PortableFalse interpreter.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Non-deterministic
-*   sample program: 
-
+*   reference-distribution: [Strelnokoff distribution](/distribution/Strelnokoff distribution)
+*   sample program:
+    
         REM HELLO WORLD IN STRELNOKOFF
         REM CHRIS PRESSEY MARCH 24 2001
         X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
@@ -803,8 +759,8 @@ featured in a parody advertisement on the television show SCTV.
 *   development-stage: not fully complete
 *   computational-class: ???
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         + pale green
         + Eb, trombone, forte
         + leaning 40 degrees left (sudden)
@@ -825,8 +781,9 @@ The sole design principle was to entirely eliminate word order.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Grid-rewriting, Reflective
-*   sample program: 
-
+*   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
+*   sample program:
+    
         (      )  (      )
           #            #
           # ###    ### #
@@ -863,8 +820,9 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: Imperative, Regular-expression-based
-*   sample program: 
-
+*   reference-distribution: [Version distribution](/distribution/Version distribution)
+*   sample program:
+    
         START: ROOM = "VALLEY|BROOK|GLADE"
         CONT: IGNORE = ROOM
         VALLEY: OUTPUT = "You are standing in a valley."
@@ -905,8 +863,9 @@ are ignored during execution.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Event-oriented
-*   sample program: 
-
+*   reference-distribution: [beta-Juliet distribution](/distribution/beta-Juliet distribution)
+*   sample program:
+    
         event WindowSwitchBroken;
         event MotionDetectorTriggered;
         
@@ -954,8 +913,9 @@ specified, allowing the language to be [Turing-complete][].
 *   development-stage: archival
 *   computational-class: ???
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Sbeezg distribution](/distribution/Sbeezg distribution)
+*   sample program:
+    
         f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
            ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
            k=j(h,b)|a};l=f(99,f)
@@ -983,8 +943,9 @@ single-assignment or they're not...)
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting, Imperative
-*   sample program: 
-
+*   reference-distribution: [GraNoLa/M distribution](/distribution/GraNoLa/M distribution)
+*   sample program:
+    
         a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
         
 
@@ -1008,8 +969,9 @@ same time.
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting
-*   sample program: 
-
+*   reference-distribution: [Kangaroo Iceberg distribution](/distribution/Kangaroo Iceberg distribution)
+*   sample program:
+    
         A { ^A:0 / ^A:0 -> ^A:1 }
         B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
         C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
@@ -1038,8 +1000,9 @@ implementation and notes that I left behind...
 *   computational-class: known not Turing-complete
 *   influences: Wireworld
 *   paradigms: Cellular automaton
-*   sample program: 
-
+*   reference-distribution: [Circute distribution](/distribution/Circute distribution)
+*   sample program:
+    
                           =
                           =
            #######==   ===N===   =========
@@ -1074,8 +1037,9 @@ carry digital signals and NAND gates that manipulate those signals.
 *   computational-class: believed Turing-complete
 *   influences: brainfuck
 *   paradigms: Cellular automaton
-*   sample program: 
-
+*   reference-distribution: [Braktif distribution](/distribution/Braktif distribution)
+*   sample program:
+    
                                     *
                                <<*[--]*
         000000000000000000  *[-----  --]
@@ -1100,8 +1064,9 @@ programming language.
 *   computational-class: Turing-complete
 *   influences: Befunge-93
 *   paradigms: Imperative, State machine
-*   sample program: 
-
+*   reference-distribution: [Beturing distribution](/distribution/Beturing distribution)
+*   sample program:
+    
         # D(40, 4)
         # @(40, 4)
         $bbab$
@@ -1142,8 +1107,9 @@ graphs, so Beturing is [Turing-complete][].
 *   computational-class: believed Turing-complete
 *   influences: Lua
 *   paradigms: Imperative, Functional
-*   sample program: 
-
+*   reference-distribution: [Bhuna distribution](/distribution/Bhuna distribution)
+*   sample program:
+    
         Fib = ^ X {
           if X < 2 return 1 else
           return Fib(X - 1) + Fib(X - 2)
@@ -1172,8 +1138,9 @@ point for branching new languages, than as a useful language in and of itself.
 *   computational-class: Turing-complete
 *   influences: brainfuck
 *   paradigms: Imperative, Algebraic
-*   sample program: 
-
+*   reference-distribution: [Burro distribution](/distribution/Burro distribution)
+*   sample program:
+    
         !--(--(--(!>/
           >>--(+<<+++++++>/+++>+++++>)<
         >)/
@@ -1208,8 +1175,9 @@ shortcoming was rectified in summer of 2010.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: String-rewriting
-*   sample program: 
-
+*   reference-distribution: [Xigxag distribution](/distribution/Xigxag distribution)
+*   sample program:
+    
         ><<
         
 
@@ -1231,8 +1199,9 @@ configurations that don't blow up.)
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Term-rewriting
-*   sample program: 
-
+*   reference-distribution: [Hev distribution](/distribution/Hev distribution)
+*   sample program:
+    
         71+8*27,19,29*99,6,37,7,61,47
         
 
@@ -1257,8 +1226,9 @@ of any dreadful precedence table is required!
 *   computational-class: known not Turing-complete
 *   influences: Burro
 *   paradigms: Imperative, Algebraic
-*   sample program: 
-
+*   reference-distribution: [Cabra distribution](/distribution/Cabra distribution)
+*   sample program:
+    
         (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
         
 
@@ -1284,8 +1254,8 @@ operator).
 *   influences: Spoon
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         001000000[0010000000111001000011]11100100001[0]
         
 
@@ -1310,8 +1280,9 @@ which to detect all possible compiler-hanging-templates.)
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Meta-circular, Reflective
-*   sample program: 
-
+*   reference-distribution: [Emmental distribution](/distribution/Emmental distribution)
+*   sample program:
+    
         ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
         
 
@@ -1335,8 +1306,8 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 *   computational-class: ???
 *   paradigms: Cellular automaton, Reflective
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         3333333333333
         3002300230073
         3111311132113
@@ -1367,8 +1338,9 @@ those transition rules.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Imperative, Functional
-*   sample program: 
-
+*   reference-distribution: [Iphigeneia distribution](/distribution/Iphigeneia distribution)
+*   sample program:
+    
         var a in a :=
             let c = 5 in let d = 1 in
                 loop
@@ -1400,8 +1372,9 @@ that convert programs between the two forms.
 *   computational-class: believed Turing-complete
 *   influences: Emmental
 *   paradigms: Meta-circular, Reflective
-*   sample program: 
-
+*   reference-distribution: [Mascarpone distribution](/distribution/Mascarpone distribution)
+*   sample program:
+    
         v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
         
 
@@ -1424,8 +1397,9 @@ job of reflective interpreter-modification quite a bit cleaner and richer.
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Larabee distribution](/distribution/Larabee distribution)
+*   sample program:
+    
         (store (input) (input)
           (store (input) (input)
             (label loop
@@ -1452,8 +1426,9 @@ and abuses it, creating a path that leads only to existential angst and self-des
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Forest-rewriting
-*   sample program: 
-
+*   reference-distribution: [Arboretuum distribution](/distribution/Arboretuum distribution)
+*   sample program:
+    
         (
           (
             (ast:   (let a 4 (+ 3 (* a 3))) )
@@ -1496,8 +1471,9 @@ however, this idea was not entirely successful.  Regardless, Arboretuum is
 *   computational-class: believed Turing-complete
 *   influences: Arboretuum
 *   paradigms: Term-rewriting
-*   sample program: 
-
+*   reference-distribution: [Treacle distribution](/distribution/Treacle distribution)
+*   sample program:
+    
         (
           (:i (? t (x (? i *) (? j *)))) -> (t : (xx (? j *) (? i *)))))
           (:i (? p right))               -> (p : left)
@@ -1524,8 +1500,9 @@ _holes_ inside which subpatterns may match at any depth.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Quylthulg distribution](/distribution/Quylthulg distribution)
+*   sample program:
+    
         foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
 
 Quylthulg is a programming language with but a single control-flow
@@ -1546,8 +1523,9 @@ only appear inside data structures.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Continuation-passing, Object-oriented, Dependency injection
-*   sample program: 
-
+*   reference-distribution: [Unlikely distribution](/distribution/Unlikely distribution)
+*   sample program:
+    
         class Count(Count,Chain,Print,Add) extends Continuation
         
         class CountForever(Count,Chain,Print,Add) extends Program {
@@ -1593,8 +1571,9 @@ class *must* be specified when the object is instantiated.
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Cellular automaton, 2-dimensional
-*   sample program: 
-
+*   reference-distribution: [Jaccia and Jacciata distribution](/distribution/Jaccia and Jacciata distribution)
+*   sample program:
+    
         #######S###
         #:::::::::#
         #:###:###:#
@@ -1627,8 +1606,9 @@ upon this to find the shortest path through a maze, if one exists and is unique.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Pixley distribution](/distribution/Pixley distribution)
+*   sample program:
+    
         (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
         
 
@@ -1679,8 +1659,9 @@ instances of 54 unique symbols in 684 cons cells.)
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Object-oriented
-*   sample program: 
-
+*   reference-distribution: [Dieter distribution](/distribution/Dieter distribution)
+*   sample program:
+    
         module beefy
           procedure beef_up(x: ♥t): beefy ♥t
           begin
@@ -1716,8 +1697,9 @@ safety and optimization considerations.
 *   computational-class: believed Turing-complete
 *   influences: BitChanger
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Etcha distribution](/distribution/Etcha distribution)
+*   sample program:
+    
         >+++>+++>+++>+++>[+]>>>>+
 
 Etcha is a two-dimensional descendant of [Jeffry Johnston][]'s [BitChanger][].
@@ -1752,8 +1734,9 @@ a role similar to the tape head of a Turing machine.
 *   computational-class: Turing-complete
 *   influences: BitChanger
 *   paradigms: Imperative, Memory-mapped
-*   sample program: 
-
+*   reference-distribution: [ZOWIE distribution](/distribution/ZOWIE distribution)
+*   sample program:
+    
         MOV R10, 90
         MOV R1, R1
         MOV R0, R10
@@ -1777,28 +1760,6 @@ a memory location to mark the beginning or end of a loop or conditional.
 *   implementation-type: interpreter
 *   host-language: Python
 
-### Okapi
-
-*   type: Programming Language
-*   inception-date: May 23, 2010
-*   genre: Esolang
-*   development-stage: mature
-*   computational-class: Turing-complete
-*   paradigms: Imperative
-
-Okapi is a language I designed as an anniversary present for my
-wife(!). In it, the only means of control flow is throwing exceptions, and
-as if this wasn't enough, there are two restrictions on exceptions that are
-thrown — they must be divide-by-zero exceptions, and they must be caught
-in a lexically enclosing block.  Nor is there any facility to "retry" after
-an exception is caught. The language is nonetheless [Turing-complete][].
-
-#### Reference Implementation: okapi.py
-
-*   license: Proprietary
-*   implementation-type: interpreter
-*   host-language: Python
-
 ### Whothm
 
 *   type: Programming Language
@@ -1807,8 +1768,9 @@ an exception is caught. The language is nonetheless [Turing-complete][].
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Whothm distribution](/distribution/Whothm distribution)
+*   sample program:
+    
         r := (0, 0, 1, 2);
         s := (0, 0, 1, 2);
         XOR := TF/FT;
@@ -1844,8 +1806,9 @@ bitmapped drawings.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Eightebed distribution](/distribution/Eightebed distribution)
+*   sample program:
+    
         type node struct {
             int value;
             ptr to node next;
@@ -1892,8 +1855,8 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 *   computational-class: ???
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         VARIABLES ARE p /p*/, p /q*/.
         dynast(3) <->
           (. do (. if? not? exists/dynast 5 ,then
@@ -1922,8 +1885,9 @@ typing, and only-conjectural Turing completeness.
 *   computational-class: Turing-complete
 *   influences: 2-ill, Etcha
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Gemooy distribution](/distribution/Gemooy distribution)
+*   sample program:
+    
         %### # ###   # #   ### # ###   # #   ### # ###@
         
            @    @#         @
@@ -1951,16 +1915,16 @@ which combines features from [2-ill][] and [Etcha][], and adds
 self-modification.  It came about when the author noticed the tape-related
 semantics of 2-ill were essentially the same as those of [BitChanger][].
 
+#### Reference Implementation: gemooy.js
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Javascript
 #### Implementation: tc.catseye.yoob.gemooy
 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: Java
-#### Implementation: gemooy.js
-
-*   license: Public Domain
-*   implementation-type: interpreter
-*   host-language: Javascript
 
 ### Nhohnhehr
 
@@ -1970,8 +1934,9 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   development-stage: mature
 *   computational-class: can simulate some push-down automata
 *   paradigms: 2-dimensional
-*   sample program: 
-
+*   reference-distribution: [Nhohnhehr distribution](/distribution/Nhohnhehr distribution)
+*   sample program:
+    
         +------+
         |    /}|
         |&#/$?@|
@@ -2004,8 +1969,8 @@ before being adjoined to existing rooms, but rooms are otherwise immutable.
 *   computational-class: believed Turing-complete
 *   paradigms: 2-dimensional, Grid-rewriting, Self-modifying
 *   reference-distribution: [Kelxquoia distribution](/distribution/Kelxquoia distribution)
-*   sample program: 
-
+*   sample program:
+    
          >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
          RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR
         $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
@@ -2035,8 +2000,9 @@ were previously erased after execution.
 *   computational-class: believed Turing-complete
 *   influences: 1L, reMorse
 *   paradigms: Turning tarpit
-*   sample program: 
-
+*   reference-distribution: [yoob distribution](/distribution/yoob distribution)
+*   sample program:
+    
                   o   ooo  o
         
         
@@ -2092,8 +2058,9 @@ remote parts of the program.
 *   computational-class: believed Turing-complete
 *   influences: Pixley
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Pail distribution](/distribution/Pail distribution)
+*   sample program:
+    
         **[*let [
              [cadrg *[#fst ##*[#snd #g]]]
              **[*let [
@@ -2124,8 +2091,9 @@ names of bindings to be expressed.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Lazy
-*   sample program: 
-
+*   reference-distribution: [Xoomonk distribution](/distribution/Xoomonk distribution)
+*   sample program:
+    
         l := $loop*
         counter := 5
         l.do := {
@@ -2165,8 +2133,9 @@ while it was being developed, against the spec.
 *   computational-class: believed Turing-complete
 *   influences: Befunge-93
 *   paradigms: Functional, 2-dimensional
-*   sample program: 
-
+*   reference-distribution: [Flobnar distribution](/distribution/Flobnar distribution)
+*   sample program:
+    
         >     v
         ^\ <   
                
@@ -2199,8 +2168,8 @@ proceeds in a much more dataflow-like fashion.
 *   computational-class: believed Turing-complete
 *   paradigms: Proof checking, Term-rewriting
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
-
+*   sample program:
+    
         type tree is
           tree(leaf)        -> true
           tree(branch(X,Y)) -> and(tree(X),tree(Y))
@@ -2258,8 +2227,9 @@ fairly neatly to the definition of a Turing machine, so it is almost certainly
 *   computational-class: believed Turing-complete
 *   influences: Ruby
 *   paradigms: Object-oriented
-*   sample program: 
-
+*   reference-distribution: [Velo distribution](/distribution/Velo distribution)
+*   sample program:
+    
         yes = {IO.print {Yes}}
         no = {IO.print {No}}
         if ({X}.equals {Y}), yes, no
@@ -2289,8 +2259,9 @@ an object, which inherits from the root object in delegation-OO style.
 *   development-stage: mature
 *   computational-class: Primitive recursive
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Exanoke distribution](/distribution/Exanoke distribution)
+*   sample program:
+    
         def inc(#)
           cons(:one, #)
         def add(#, other)
@@ -2323,8 +2294,9 @@ expressing the primitive recursive functions.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [Cfluviurrh distribution](/distribution/Cfluviurrh distribution)
+*   sample program:
+    
         (print ASCII table while experiencing a bewildering array of emotions)
         a=8
         a*=8
@@ -2361,8 +2333,9 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
 *   computational-class: Turing-complete
 *   influences: Wunnel, Half-Broken Car in Heavy Traffic
 *   paradigms: Turning tarpit, 2-dimensional
-*   sample program: 
-
+*   reference-distribution: [Jolverine distribution](/distribution/Jolverine distribution)
+*   sample program:
+    
         --*-*
              \
               \
@@ -2397,8 +2370,9 @@ the language's vicious, erratic nature.
 *   development-stage: mature
 *   computational-class: Turing-complete
 *   paradigms: Imperative
-*   sample program: 
-
+*   reference-distribution: [SICKBAY distribution](/distribution/SICKBAY distribution)
+*   sample program:
+    
         10 LET B% = 99
         (100+B%) END
         100 GOTO 200:REM BEGIN LOOP
@@ -2428,8 +2402,8 @@ of that.)
 *   computational-class: unknown computational class
 *   influences: 
 *   paradigms: Concatenative
-*   sample program: 
-
+*   sample program:
+    
         111-@11-~!$11111++++11-~@11-~!
         
 
@@ -2446,25 +2420,6 @@ thus may overlap — and was released as an esolang.
 *   implementation-type: interpreter
 *   host-language: Haskell
 
-### Chzrxl
-
-*   type: Automaton
-*   inception-date: 2013
-*   genre: Toy
-*   development-stage: mature
-*   computational-class: ???
-*   paradigms: Angular, Particle automaton
-*   reference-distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
-
-"Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
-lava lamp?
-
-#### Implementation: chzrxl.js
-
-*   license: Public Domain
-*   implementation-type: ???
-*   host-language: Javascript
-
 ### Yolk
 
 *   type: Programming Language
@@ -2473,8 +2428,9 @@ lava lamp?
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   sample program: 
-
+*   reference-distribution: [Yolk distribution](/distribution/Yolk distribution)
+*   sample program:
+    
         (ifeq (head arg) (quote arg)
             (head (tail (tail arg)))
             (ifeq (head (head arg)) (quote head)
@@ -2620,6 +2576,7 @@ For a full account of its development, see
 *   development-stage: not fully complete
 *   computational-class: Turing-complete
 *   paradigms: Imperative, Stack-based
+*   reference-distribution: [SITU-SOL distribution](/distribution/SITU-SOL distribution)
 
 SITU-SOL is a vaguely Forth-like language which was designed and
 implemented (by hand!) during RetroChallenge 2015/07, and entered
@@ -2642,8 +2599,8 @@ into an emulated [Commodore 64][] using [SITU-MON][].
 *   influences: Madison
 *   paradigms: Probabilistic, Logic programming, State machine
 *   reference-distribution: [Samovar distribution](/distribution/Samovar distribution)
-*   sample program: 
-
+*   sample program:
+    
         rules
           [actor(α),item(β),~holding(α,β)]  α picks up the β.   [holding(α,β)]
           [actor(α),item(β),holding(α,β)]   α puts down the β.  [~holding(α,β)]
@@ -2669,8 +2626,8 @@ sugar.
 *   influences: Madison
 *   paradigms: Proof checking
 *   reference-distribution: [Maxixe distribution](/distribution/Maxixe distribution)
-*   sample program: 
-
+*   sample program:
+    
         given
             Modus_Ponens                 = impl(P, Q) ; P |- Q
             Simplification               = and(P, Q)      |- Q
@@ -2696,50 +2653,48 @@ or not.
 
 [1L]: TBD
 [2-ill]: TBD
-[ALPACA]: ../article/Lingography.md#alpaca
+[ALPACA]: http://catseye.tc/article/Lingography.md#alpaca
 [Alise]: TBD
-[Arboretuum]: ../article/Lingography.md#arboretuum
+[Arboretuum]: http://catseye.tc/article/Lingography.md#arboretuum
 [BASIC]: TBD
-[Befunge-93]: ../article/Lingography.md#befunge-93
-[Befunge-97]: ../article/Lingography.md#befunge-97
+[Befunge-93]: http://catseye.tc/article/Lingography.md#befunge-93
+[Befunge-97]: http://catseye.tc/article/Lingography.md#befunge-97
 [Befunge-98]: TBD
 [Ben Olmstead]: TBD
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [C++]: TBD
 [Chris Pressey]: TBD
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore 64]: http://catseye.tc/article/Retrocomputing.md#commodore-64
 [Conway's Game of Life]: TBD
-[Emmental]: ../article/Lingography.md#emmental
+[Emmental]: http://catseye.tc/article/Lingography.md#emmental
 [Esoteric Awards]: TBD
-[Etcha]: ../article/Lingography.md#etcha
+[Etcha]: http://catseye.tc/article/Lingography.md#etcha
 [FALSE]: http://esolangs.org/wiki/FALSE
-[Falderal]: ../article/Formats.md#falderal
-[Funge-98]: ../article/Lingography.md#funge-98
+[Falderal]: http://catseye.tc/article/Formats.md#falderal
+[Funge-98]: http://catseye.tc/article/Lingography.md#funge-98
 [Gregor Richards]: TBD
-[ILLGOL]: ../article/Lingography.md#illgol
+[ILLGOL]: http://catseye.tc/article/Lingography.md#illgol
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
 [Lua]: TBD
 [Marinus]: http://esolangs.org/wiki/User:Marinus
-[Pixley]: ../article/Lingography.md#pixley
-[RUBE]: ../article/Lingography.md#rube
+[Pixley]: http://catseye.tc/article/Lingography.md#pixley
+[RUBE]: http://catseye.tc/article/Lingography.md#rube
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
-[SITU-MON]: ../article/Tools.md#situ-mon
-[SMETANA]: ../article/Lingography.md#smetana
-[SMITH]: ../article/Lingography.md#smith
+[SITU-MON]: http://catseye.tc/article/Tools.md#situ-mon
+[SMITH]: http://catseye.tc/article/Lingography.md#smith
 [Scheme]: TBD
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
-[Tamerlane]: ../article/Lingography.md#tamerlane
+[Tamerlane]: http://catseye.tc/article/Lingography.md#tamerlane
 [Thue]: TBD
 [Trefunge-98]: TBD
 [Turing-complete]: TBD
 [Unefunge-98]: TBD
 [Var'aq]: http://esolangs.org/wiki/Var'aq
-[Wierd]: ../article/Lingography.md#wierd
+[Wierd]: http://catseye.tc/article/Lingography.md#wierd
 [Wierd (John Colagioia)]: TBD
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: TBD
 [reMorse]: http://esolangs.org/wiki/reMorse
-
