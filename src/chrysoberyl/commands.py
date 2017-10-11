@@ -162,9 +162,29 @@ Languages I've Designed
                 write(u"    {}".format(line))
             write("")
 
-        for implementation_key, implementation_node in space.related_items('implementation-of', key=thing['title']):
+        def write_impl_properties(node):
+            if 'in-distribution' in node:
+                d = node['in-distribution']
+                write(u"*   in-distribution: [{}](/distribution/{})".format(d, d))
+            for key in ('license', 'implementation-type', 'host-language',):
+                write(u"*   {}: {}".format(key, node.get(key, '???')))
+            for key in ('target-language',):
+                if key in node:
+                    write(u"*   {}: {}".format(key, node[key]))
+
+        for implementation_key, node in space.related_items('implementation-of', key=thing['title']):
+            if node.get('reference', None) is not None:
+                write("#### Reference Implementation: {}".format(implementation_key))
+                write("")
+                write_impl_properties(node)
+
+        for implementation_key, node in space.related_items('implementation-of', key=thing['title']):
+            if node.get('reference', None) is not None:
+                continue
             write("#### Implementation: {}".format(implementation_key))
             write("")
+            write_impl_properties(node)
+        write("")
 
     write("- - - -")
     write("")

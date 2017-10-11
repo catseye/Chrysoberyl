@@ -38,7 +38,11 @@ Sample program:
     : fib a b + =c c . b =a c =b c 100000 < @fib ;
     1 . fib
 
-#### Implementation: maentw.c
+#### Reference Implementation: maentw.c
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: ANSI C
 
 ### Full Moon Fever
 
@@ -69,6 +73,7 @@ Sample program:
     DO 20
         LF PRINT " " LF LF PRINT "0" PAUSE 5;
 
+
 ### Befunge-93
 
 *   type: Programming Language
@@ -92,9 +97,16 @@ Sample program:
      >"\",^
     
 
+#### Reference Implementation: bef
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: ANSI C
 #### Implementation: tc.catseye.yoob.befunge93
 
-#### Implementation: bef
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### Cyclobots
 
@@ -118,7 +130,14 @@ patterns are more common.
 
 #### Implementation: cyclobots.js
 
+*   license: Freely Redistributable
+*   implementation-type: ???
+*   host-language: Javascript
 #### Implementation: Cyclobots (Visual Basic)
+
+*   license: Freely Redistributable
+*   implementation-type: ???
+*   host-language: Visual Basic
 
 ### SMETANA
 
@@ -141,11 +160,21 @@ Sample program:
     Step 2. Go to step 2.
     Step 3. Go to step 1.
 
+#### Reference Implementation: smetana.pl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Perl
 #### Implementation: SMETANA (Visual Basic)
 
-#### Implementation: smetana.pl
-
+*   license: Freely Redistributable
+*   implementation-type: interpreter
+*   host-language: Visual Basic
 #### Implementation: tc.catseye.yoob.smetana
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### Wierd
 
@@ -186,6 +215,7 @@ Sample program:
         **  *
     
 
+
 ### RUBE
 
 *   type: Automaton
@@ -213,7 +243,11 @@ Sample program:
                                    =
     
 
-#### Implementation: rube.c
+#### Reference Implementation: rube.c
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: ANSI C
 
 ### Befunge-97
 
@@ -230,6 +264,7 @@ The design, however, was not successful — it has been described as
 "brain-damaged" — primarily due to the fact that separate processes were specified
 as sharing a single stack.
 
+
 ### ETHEL
 
 *   type: Programming Language
@@ -244,6 +279,10 @@ quantity surveying (materials estimating) formula and procedures,
 designed for Star Building Materials.
 
 #### Implementation: ethel.pl
+
+*   license: Proprietary
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### REDGREEN
 
@@ -279,7 +318,11 @@ Sample program:
                                                     T
     
 
-#### Implementation: redgreen.alp
+#### Reference Implementation: redgreen.alp
+
+*   license: BSD license
+*   implementation-type: formal description
+*   host-language: ALPACA
 
 ### ALPACA
 
@@ -299,9 +342,18 @@ Sample program:
     state Alive "*" to Dead when 4 Alive or 7 Dead.
     
 
-#### Implementation: alpaca.pl
+#### Reference Implementation: alpaca.pl
 
-#### Implementation: alpaca (Python)
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Perl
+*   target-language: Perl
+#### Reference Implementation: alpaca (Python)
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Python
+*   target-language: Javascript
 
 ### Funge-98
 
@@ -335,6 +387,7 @@ Sample program:
         '
     
 
+
 ### MDPN
 
 *   type: Programming Language
@@ -353,6 +406,7 @@ Sample program:
       Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
               "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
     
+
 
 ### Shelta
 
@@ -378,9 +432,18 @@ Sample program:
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
     
 
-#### Implementation: shelta
+#### Reference Implementation: shelta
 
+*   license: Freely Redistributable
+*   implementation-type: compiler
+*   host-language: NASM Assembler
+*   target-language: x86 machine code
 #### Implementation: sheltas
+
+*   license: Freely Redistributable
+*   implementation-type: compiler
+*   host-language: Shelta
+*   target-language: x86 machine code
 
 ### Bear Food
 
@@ -397,7 +460,11 @@ code showing how to parse and intepret a simple reverse-polish notation language
 This same example code also took a very divergent line of evolution, eventually
 becoming the programming language [Var'aq][].
 
-#### Implementation: bearfood.pl
+#### Reference Implementation: bearfood.pl
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### Sally
 
@@ -418,7 +485,12 @@ Sample program:
     int main int factorial $1
     
 
-#### Implementation: sally2c
+#### Reference Implementation: sally2c
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: ANSI C
+*   target-language: ANSI C
 
 ### ILLGOL
 
@@ -444,7 +516,12 @@ Sample program:
     FIN
     
 
-#### Implementation: illgol.exe
+#### Reference Implementation: illgol.exe
+
+*   license: Unknown license
+*   implementation-type: compiler
+*   host-language: ANSI C
+*   target-language: x86 machine code
 
 ### SMITH
 
@@ -475,7 +552,11 @@ Sample program:
     MUL R1, 8
     COR +1, -7, R1
 
-#### Implementation: smith.pl
+#### Reference Implementation: smith.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### Tamerlane
 
@@ -500,6 +581,7 @@ Sample program:
     ?- 1 Point-A -> 0 Point-A @ Point-A
     
 
+
 ### Squishy2K
 
 *   type: Programming Language
@@ -522,7 +604,11 @@ Sample program:
     * main { start many finish? "Hello, world!"! }
     
 
-#### Implementation: squishy2k.pl
+#### Reference Implementation: squishy2k.pl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### noit o' mnain worb
 
@@ -553,11 +639,21 @@ Sample program:
             ###
     
 
+#### Reference Implementation: worb.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 #### Implementation: worb.js
 
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Javascript
 #### Implementation: tc.catseye.yoob.worb
 
-#### Implementation: worb.pl
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### HUNTER
 
@@ -592,7 +688,11 @@ Sample program:
     *21+>3
     
 
-#### Implementation: hunter.pl
+#### Reference Implementation: hunter.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### 'N-DCNC
 
@@ -612,9 +712,18 @@ Sample program:
     4*5+2/2,(9*`c)+1
     
 
+#### Reference Implementation: ndcnc.pl
+
+*   license: Unknown license
+*   implementation-type: compiler
+*   host-language: Perl
+*   target-language: FALSE
 #### Implementation: ndcnc.bf
 
-#### Implementation: ndcnc.pl
+*   license: Unknown license
+*   implementation-type: compiler
+*   host-language: Befunge-93
+*   target-language: FALSE
 
 ### Strelnokoff
 
@@ -651,7 +760,11 @@ Sample program:
     T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
     
 
-#### Implementation: strelnokoff.pl
+#### Reference Implementation: strelnokoff.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### Opus-2
 
@@ -674,6 +787,7 @@ Sample program:
     + C, tubular bells, piano
     + mothballs (gentle whiff)
     
+
 
 ### Ypsilax
 
@@ -703,9 +817,16 @@ Sample program:
         #    ###
     
 
+#### Reference Implementation: ypsilax.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 #### Implementation: tc.catseye.yoob.ypsilax
 
-#### Implementation: ypsilax.pl
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### Version
 
@@ -744,7 +865,11 @@ Sample program:
     LASTLY: IGNORE = "START"
     
 
-#### Implementation: version.pl
+#### Reference Implementation: version.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### beta-Juliet
 
@@ -785,9 +910,16 @@ Sample program:
             causes Domino (succ N) Falls.
     
 
-#### Implementation: 2iota
+#### Reference Implementation: 2iota
 
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: C99
 #### Implementation: b_juliet.pl
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### Sbeezg
 
@@ -808,7 +940,11 @@ Sample program:
        k=j(h,b)|a};l=f(99,f)
     
 
-#### Implementation: sbeezg.erl
+#### Reference Implementation: sbeezg.erl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Erlang
 
 ### GraNoLa/M
 
@@ -830,7 +966,11 @@ Sample program:
     a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
     
 
-#### Implementation: granolam.erl
+#### Reference Implementation: granolam.erl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Erlang
 
 ### Kangaroo Iceberg
 
@@ -857,7 +997,11 @@ Sample program:
     C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
     
 
-#### Implementation: kiceberg
+#### Reference Implementation: kiceberg
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: ANSI C
 
 ### Circute
 
@@ -885,9 +1029,16 @@ Sample program:
        =============     =============
     
 
-#### Implementation: circute.alp
+#### Reference Implementation: circute.alp
 
+*   license: BSD license
+*   implementation-type: formal description
+*   host-language: ALPACA
 #### Implementation: tc.catseye.yoob.circute
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### Braktif
 
@@ -910,7 +1061,11 @@ Sample program:
     -----------------d-i--         --------
     
 
-#### Implementation: braktif.alp
+#### Reference Implementation: braktif.alp
+
+*   license: BSD license
+*   implementation-type: formal description
+*   host-language: ALPACA
 
 ### Beturing
 
@@ -949,7 +1104,11 @@ Sample program:
     *@      *^*<*<
     
 
-#### Implementation: beturing.lua
+#### Reference Implementation: beturing.lua
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Lua
 
 ### Bhuna
 
@@ -976,7 +1135,11 @@ Sample program:
     Print Fib(32), EoL
     
 
-#### Implementation: bhuna
+#### Reference Implementation: bhuna
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: C99
 
 ### Burro
 
@@ -1010,7 +1173,11 @@ Sample program:
     >)<
     
 
-#### Implementation: Burro.lhs
+#### Reference Implementation: Burro.lhs
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Xigxag
 
@@ -1030,7 +1197,11 @@ Sample program:
     ><<
     
 
-#### Implementation: xigxag.pl
+#### Reference Implementation: xigxag.pl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Perl
 
 ### Hev
 
@@ -1052,7 +1223,11 @@ Sample program:
     71+8*27,19,29*99,6,37,7,61,47
     
 
-#### Implementation: Hev.hs
+#### Reference Implementation: Hev.hs
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Cabra
 
@@ -1075,7 +1250,11 @@ Sample program:
     (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
     
 
-#### Implementation: cabra.hs
+#### Reference Implementation: cabra.hs
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### You are Reading the Name of this Esolang
 
@@ -1099,6 +1278,7 @@ Sample program:
     001000000[0010000000111001000011]11100100001[0]
     
 
+
 ### Emmental
 
 *   type: Programming Language
@@ -1118,7 +1298,11 @@ Sample program:
     ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
     
 
-#### Implementation: emmental.hs
+#### Reference Implementation: emmental.hs
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Didigm
 
@@ -1153,6 +1337,7 @@ Sample program:
     111111111111113
     
 
+
 ### Iphigeneia
 
 *   type: Programming Language
@@ -1180,7 +1365,11 @@ Sample program:
                         let c = c - 1 in
                             repeat
 
-#### Implementation: iphi
+#### Reference Implementation: iphi
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Mascarpone
 
@@ -1202,7 +1391,11 @@ Sample program:
     v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
     
 
-#### Implementation: mascarpone.hs
+#### Reference Implementation: mascarpone.hs
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Larabee
 
@@ -1227,7 +1420,11 @@ Sample program:
               (test (op > (fetch (input)) (input))
                 (goto loop) (print (fetch (input)))))))))
 
-#### Implementation: larabee.scm
+#### Reference Implementation: larabee.scm
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Scheme
 
 ### Arboretuum
 
@@ -1267,7 +1464,11 @@ Sample program:
       )
     )
 
-#### Implementation: forest-rewriter.scm
+#### Reference Implementation: forest-rewriter.scm
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Scheme
 
 ### Treacle
 
@@ -1293,7 +1494,11 @@ Sample program:
     )
     
 
-#### Implementation: treacle.scm
+#### Reference Implementation: treacle.scm
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: Scheme
 
 ### Quylthulg
 
@@ -1312,7 +1517,11 @@ Sample program:
 
     foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
 
-#### Implementation: Qlzqqlzuup, the Lord of Flesh
+#### Reference Implementation: Qlzqqlzuup, the Lord of Flesh
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Unlikely
 
@@ -1356,7 +1565,11 @@ Sample program:
       }
     }
 
-#### Implementation: Coldwater
+#### Reference Implementation: Coldwater
+
+*   license: BSD license
+*   implementation-type: static analyzer
+*   host-language: Python
 
 ### Jaccia
 
@@ -1387,7 +1600,11 @@ Sample program:
     #########F#
     
 
-#### Implementation: jaccia.alp
+#### Reference Implementation: jaccia.alp
+
+*   license: BSD license
+*   implementation-type: formal description
+*   host-language: ALPACA
 
 ### Pixley
 
@@ -1410,17 +1627,37 @@ Sample program:
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
     
 
-#### Implementation: pixley.pifx
+#### Reference Implementation: pixley.pifx
 
-#### Implementation: mignon
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Pifxley
+#### Reference Implementation: mignon
 
-#### Implementation: pixley.pix
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: ANSI C
+#### Reference Implementation: pixley.pix
 
-#### Implementation: p-normal.pix
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Pixley
+#### Reference Implementation: p-normal.pix
 
-#### Implementation: haney
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Pixley
+*   target-language: P-Normal Pixley
+#### Reference Implementation: haney
 
-#### Implementation: pixley.js
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
+#### Reference Implementation: pixley.js
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Javascript
 
 ### Dieter
 
@@ -1453,7 +1690,11 @@ Sample program:
       end
     end.
 
-#### Implementation: dieter.py
+#### Reference Implementation: dieter.py
+
+*   license: BSD license
+*   implementation-type: typechecker
+*   host-language: Python
 
 ### Etcha
 
@@ -1476,11 +1717,21 @@ Sample program:
 
     >+++>+++>+++>+++>[+]>>>>+
 
+#### Reference Implementation: tc.catseye.etcha
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 #### Implementation: tc.catseye.yoob.etcha
 
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 #### Implementation: etcha.js
 
-#### Implementation: tc.catseye.etcha
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Javascript
 
 ### ZOWIE
 
@@ -1511,7 +1762,11 @@ Sample program:
     MOV R3, R8
     
 
-#### Implementation: zowie.py
+#### Reference Implementation: zowie.py
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Okapi
 
@@ -1529,7 +1784,11 @@ thrown — they must be divide-by-zero exceptions, and they must be caught
 in a lexically enclosing block.  Nor is there any facility to "retry" after
 an exception is caught. The language is nonetheless [Turing-complete][].
 
-#### Implementation: okapi.py
+#### Reference Implementation: okapi.py
+
+*   license: Proprietary
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Whothm
 
@@ -1563,7 +1822,11 @@ Sample program:
     end
     
 
-#### Implementation: tc.catseye.whothm
+#### Reference Implementation: tc.catseye.whothm
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Java
 
 ### Eightebed
 
@@ -1604,7 +1867,12 @@ Sample program:
         free jim;
     }
 
-#### Implementation: 8ebed2c.py
+#### Reference Implementation: 8ebed2c.py
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Python
+*   target-language: ANSI C
 
 ### Oozlybub and Murphy
 
@@ -1635,6 +1903,7 @@ Sample program:
              if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
                copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
     
+
 
 ### Gemooy
 
@@ -1677,7 +1946,14 @@ Sample program:
 
 #### Implementation: tc.catseye.yoob.gemooy
 
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 #### Implementation: gemooy.js
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Javascript
 
 ### Nhohnhehr
 
@@ -1707,7 +1983,11 @@ Sample program:
     +------+
     
 
-#### Implementation: nhohnhehr.py
+#### Reference Implementation: nhohnhehr.py
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Kelxquoia
 
@@ -1739,6 +2019,7 @@ Sample program:
     
      00 00 00 00
     
+
 
 ### Wunnel
 
@@ -1787,9 +2068,16 @@ Sample program:
              o    oooo o
     
 
-#### Implementation: tc.catseye.yoob.wunnel
+#### Reference Implementation: tc.catseye.yoob.wunnel
 
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
 #### Implementation: wunnel.js
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Javascript
 
 ### Pail
 
@@ -1819,7 +2107,11 @@ Sample program:
       ]]
     
 
-#### Implementation: Pail.lhs
+#### Reference Implementation: Pail.lhs
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Xoomonk
 
@@ -1856,7 +2148,11 @@ Sample program:
     }
     
 
-#### Implementation: xoomonk.py
+#### Reference Implementation: xoomonk.py
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Flobnar
 
@@ -1887,7 +2183,11 @@ Sample program:
       -|    <
       11
 
-#### Implementation: Flobnar.hs
+#### Reference Implementation: Flobnar.hs
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Madison
 
@@ -1933,6 +2233,7 @@ Sample program:
     qed
     
 
+
 ### Troupe
 
 *   type: Programming Language
@@ -1946,6 +2247,7 @@ Sample program:
 Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
 fairly neatly to the definition of a Turing machine, so it is almost certainly
 [Turing-complete][].
+
 
 ### Exanoke
 
@@ -1976,7 +2278,11 @@ Sample program:
     fact(four(:nil))
     
 
-#### Implementation: exanoke.py
+#### Reference Implementation: exanoke.py
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Velo
 
@@ -2000,9 +2306,16 @@ Sample program:
     no = {IO.print {No}}
     if ({X}.equals {Y}), yes, no
 
-#### Implementation: velo.rb
+#### Reference Implementation: velo.rb
 
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Ruby
 #### Implementation: velo.lua
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Lua
 
 ### Cfluviurrh
 
@@ -2036,7 +2349,11 @@ Sample program:
     z?a<b
     
 
-#### Implementation: cfluviurrh
+#### Reference Implementation: cfluviurrh
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: ANSI C
 
 ### Jolverine
 
@@ -2066,7 +2383,11 @@ Sample program:
                  *-*---*
     
 
-#### Implementation: jolverine.py
+#### Reference Implementation: jolverine.py
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### SICKBAY
 
@@ -2093,7 +2414,11 @@ Sample program:
     220 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL.":PRINT ""
     230 GOTO 100
 
-#### Implementation: SAWBONES
+#### Reference Implementation: SAWBONES
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Python
 
 ### Carriage
 
@@ -2117,7 +2442,11 @@ Sample program:
     111-@11-~!$11111++++11-~@11-~!
     
 
-#### Implementation: Carriage.hs
+#### Reference Implementation: Carriage.hs
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Haskell
 
 ### Chzrxl
 
@@ -2133,6 +2462,10 @@ Sample program:
 lava lamp?
 
 #### Implementation: chzrxl.js
+
+*   license: Public Domain
+*   implementation-type: ???
+*   host-language: Javascript
 
 ### Yolk
 
@@ -2170,9 +2503,16 @@ Sample program:
                                 (ifeq))))))))
     
 
-#### Implementation: yolk.py
+#### Reference Implementation: yolk.py
 
-#### Implementation: yolk.yolk
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Python
+#### Reference Implementation: yolk.yolk
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Yolk
 
 ### Matchbox
 
@@ -2187,6 +2527,10 @@ Sample program:
 A toy language for a toy race-condition finder.
 
 #### Implementation: matchbox.js
+
+*   license: Public Domain
+*   implementation-type: static analyzer
+*   host-language: Javascript
 
 ### Backtracking Wang Tiler
 
@@ -2206,6 +2550,10 @@ it cannot place a tile, but it may be inaccurate to describe it as an
 algorithm, since it never terminates.
 
 #### Implementation: backtracking-wang-tiler.js
+
+*   license: Public Domain
+*   implementation-type: ???
+*   host-language: Javascript
 
 ### Schrödinger's Game of Life
 
@@ -2229,9 +2577,16 @@ probably be applied to any cellular automaton with similar results.
 For a full account of its development, see
 [its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
 
+#### Reference Implementation: slife
+
+*   license: Public Domain
+*   implementation-type: ???
+*   host-language: Python
 #### Implementation: slife.js
 
-#### Implementation: slife
+*   license: Public Domain
+*   implementation-type: ???
+*   host-language: Javascript
 
 ### SITU-SOL
 
@@ -2246,7 +2601,12 @@ SITU-SOL is a vaguely Forth-like language which was designed and
 implemented (by hand!) during RetroChallenge 2015/07, and entered
 into an emulated [Commodore 64][] using [SITU-MON][].
 
-#### Implementation: SITU-SOL (Commodore 64)
+#### Reference Implementation: SITU-SOL (Commodore 64)
+
+*   license: Unknown license
+*   implementation-type: compiler
+*   host-language: 6502 machine code
+*   target-language: 6502 machine code
 
 ### Samovar
 
@@ -2274,6 +2634,7 @@ Sample program:
       [actor(Ignatz),item(brick)]
     end
     
+
 
 ### Maxixe
 
@@ -2307,6 +2668,7 @@ Sample program:
         Step_5 = q                     by Modus_Ponens with Step_3, Step_4
     qed
     
+
 
 - - - -
 
