@@ -17,6 +17,40 @@ Languages I've Designed
 -----------------------
 
 
+### Full Moon Fever
+
+*   type: Programming Language
+*   inception-date: ca 1993
+*   genre: DSL
+*   development-stage: archived
+*   computational-class: known not Turing-complete
+*   paradigms: Imperative
+
+Full Moon Fever is a language for describing ASCII animations.
+It was used to deliver animated screens on Chris Pressey's BBS
+(when it was operational in the early 90's) via [ANSI terminal](ANSI Terminal) control codes.
+This probably counts as his first proper language, even though
+it wasn't a full programming language, because it had
+the usual machinery (syntax, parser, interpreter...)
+Lives on, in a somewhat distended form, as a sub-language of
+[ILLGOL][].
+
+Sample program:
+
+    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
+    GO 1 3 CLREOL
+    PAUSE 70
+    GO 76 19
+    PRINT "0"
+    PAUSE 20
+    DO 20
+        LF PRINT " " LF LF PRINT "0" PAUSE 5;
+
+The name "Full Moon Fever" has nothing at all to do with lycanthropy;
+I believe it came from mis-remembering the title of the song
+"Full Moon Boogie" by [Jan Hammer][] and [Jerry Goodman][].
+
+
 ### Maentwrog
 
 *   type: Programming Language
@@ -62,40 +96,6 @@ wherein it is defined thusly:
 *   implementation-type: interpreter
 *   host-language: ANSI C
 
-### Full Moon Fever
-
-*   type: Programming Language
-*   inception-date: ca 1993
-*   genre: DSL
-*   development-stage: archived
-*   computational-class: known not Turing-complete
-*   paradigms: Imperative
-
-Full Moon Fever is a language for describing ASCII animations.
-It was used to deliver animated screens on Chris Pressey's BBS
-(when it was operational in the early 90's) via [ANSI terminal](ANSI Terminal) control codes.
-This probably counts as his first proper language, even though
-it wasn't a full programming language, because it had
-the usual machinery (syntax, parser, interpreter...)
-Lives on, in a somewhat distended form, as a sub-language of
-[ILLGOL][].
-
-Sample program:
-
-    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
-    GO 1 3 CLREOL
-    PAUSE 70
-    GO 76 19
-    PRINT "0"
-    PAUSE 20
-    DO 20
-        LF PRINT " " LF LF PRINT "0" PAUSE 5;
-
-The name "Full Moon Fever" has nothing at all to do with lycanthropy;
-I believe it came from mis-remembering the title of the song
-"Full Moon Boogie" by [Jan Hammer][] and [Jerry Goodman][].
-
-
 ### Befunge-93
 
 *   type: Programming Language
@@ -129,6 +129,43 @@ many others.  Cited in the New Hacker's Dictionary.
 *   implementation-type: interpreter
 *   host-language: ANSI C
 #### Implementation: tc.catseye.yoob.befunge93
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Java
+
+### SMETANA
+
+*   type: Automaton
+*   inception-date: ca 1994
+*   genre: Esolang
+*   development-stage: archival
+*   computational-class: known not Turing-complete
+*   paradigms: Self-modifying
+
+SMETANA is a pathological little self-modifying language with only two
+possible operations: Go to step *n*, and Swap steps *n* and *m*.
+It has inspired a few variants and developments, notably a proof that
+despite its minimalism, it is finite-automata-complete; it is also the
+(great-?)grandfather of [SMITH][].
+
+Sample program:
+
+    Step 1. Swap step 1 with step 2.
+    Step 2. Go to step 2.
+    Step 3. Go to step 1.
+
+#### Reference Implementation: smetana.pl
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: Perl
+#### Implementation: SMETANA (Visual Basic)
+
+*   license: Freely Redistributable
+*   implementation-type: interpreter
+*   host-language: Visual Basic
+#### Implementation: tc.catseye.yoob.smetana
 
 *   license: Public Domain
 *   implementation-type: interpreter
@@ -173,43 +210,6 @@ could use the mouse to attract/repel them from a chosen point.
 *   license: Freely Redistributable
 *   implementation-type: ???
 *   host-language: Visual Basic
-
-### SMETANA
-
-*   type: Automaton
-*   inception-date: ca 1994
-*   genre: Esolang
-*   development-stage: archival
-*   computational-class: known not Turing-complete
-*   paradigms: Self-modifying
-
-SMETANA is a pathological little self-modifying language with only two
-possible operations: Go to step *n*, and Swap steps *n* and *m*.
-It has inspired a few variants and developments, notably a proof that
-despite its minimalism, it is finite-automata-complete; it is also the
-(great-?)grandfather of [SMITH][].
-
-Sample program:
-
-    Step 1. Swap step 1 with step 2.
-    Step 2. Go to step 2.
-    Step 3. Go to step 1.
-
-#### Reference Implementation: smetana.pl
-
-*   license: Public Domain
-*   implementation-type: interpreter
-*   host-language: Perl
-#### Implementation: SMETANA (Visual Basic)
-
-*   license: Freely Redistributable
-*   implementation-type: interpreter
-*   host-language: Visual Basic
-#### Implementation: tc.catseye.yoob.smetana
-
-*   license: Public Domain
-*   implementation-type: interpreter
-*   host-language: Java
 
 ### Wierd
 
@@ -2310,6 +2310,39 @@ fairly neatly to the definition of a Turing machine, so it is almost certainly
 [Turing-complete][].
 
 
+### Velo
+
+*   type: Programming Language
+*   inception-date: Jul 2012
+*   genre: Esolang
+*   development-stage: not fully complete
+*   computational-class: believed Turing-complete
+*   influences: Ruby
+*   paradigms: Object-oriented
+
+Velo is a vaguely [Ruby][]-inspired "scripting" language which unifies
+strings with code blocks, and scripts with object classes.  Curly braces
+delimit string literals, and there is no difference between a string literal
+and a block of code given to, say, an `if` statement.  Any given script is
+an object, which inherits from the root object in delegation-OO style.
+
+Sample program:
+
+    yes = {IO.print {Yes}}
+    no = {IO.print {No}}
+    if ({X}.equals {Y}), yes, no
+
+#### Reference Implementation: velo.rb
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Ruby
+#### Implementation: velo.lua
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Lua
+
 ### Exanoke
 
 *   type: Programming Language
@@ -2344,39 +2377,6 @@ Sample program:
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Python
-
-### Velo
-
-*   type: Programming Language
-*   inception-date: Jul 2012
-*   genre: Esolang
-*   development-stage: not fully complete
-*   computational-class: believed Turing-complete
-*   influences: Ruby
-*   paradigms: Object-oriented
-
-Velo is a vaguely [Ruby][]-inspired "scripting" language which unifies
-strings with code blocks, and scripts with object classes.  Curly braces
-delimit string literals, and there is no difference between a string literal
-and a block of code given to, say, an `if` statement.  Any given script is
-an object, which inherits from the root object in delegation-OO style.
-
-Sample program:
-
-    yes = {IO.print {Yes}}
-    no = {IO.print {No}}
-    if ({X}.equals {Y}), yes, no
-
-#### Reference Implementation: velo.rb
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: Ruby
-#### Implementation: velo.lua
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: Lua
 
 ### Cfluviurrh
 
@@ -2579,6 +2579,29 @@ Sample program:
 *   implementation-type: interpreter
 *   host-language: Yolk
 
+### Backtracking Wang Tiler
+
+*   type: Automaton
+*   inception-date: Feb 2015
+*   genre: Experimental language
+*   development-stage: mature
+*   computational-class: ???
+*   paradigms: 2-dimensional
+*   reference-distribution: [Wang Tilers distribution](/distribution/Wang Tilers distribution)
+
+This backtracking Wang tiler is an automaton which naïvely tiles the
+plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+
+It operates like a backtracking algorithm, backing up whenever it finds
+it cannot place a tile, but it may be inaccurate to describe it as an
+algorithm, since it never terminates.
+
+#### Implementation: backtracking-wang-tiler.js
+
+*   license: Public Domain
+*   implementation-type: ???
+*   host-language: Javascript
+
 ### Matchbox
 
 *   type: Programming Language
@@ -2622,29 +2645,6 @@ which Matchbox can run and show correct.
 
 *   license: Public Domain
 *   implementation-type: static analyzer
-*   host-language: Javascript
-
-### Backtracking Wang Tiler
-
-*   type: Automaton
-*   inception-date: Feb 2015
-*   genre: Experimental language
-*   development-stage: mature
-*   computational-class: ???
-*   paradigms: 2-dimensional
-*   reference-distribution: [Wang Tilers distribution](/distribution/Wang Tilers distribution)
-
-This backtracking Wang tiler is an automaton which naïvely tiles the
-plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
-
-It operates like a backtracking algorithm, backing up whenever it finds
-it cannot place a tile, but it may be inaccurate to describe it as an
-algorithm, since it never terminates.
-
-#### Implementation: backtracking-wang-tiler.js
-
-*   license: Public Domain
-*   implementation-type: ???
 *   host-language: Javascript
 
 ### Schrödinger's Game of Life

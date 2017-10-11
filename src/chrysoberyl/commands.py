@@ -87,7 +87,7 @@ def export_lingography(universe, options, config):
                 (node.get('member-of', None) != 'Funge-98')):
                 languages.append(thing)
         return sorted(languages,
-                      key=lambda x: space[x]['inception-date'])
+                      key=lambda x: (space[x]['inception-date'], space[x]['genre']) )
 
     data = []
     for key in lingography():
