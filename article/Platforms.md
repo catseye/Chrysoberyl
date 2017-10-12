@@ -11,7 +11,7 @@ are debatable, and entries may be categorized somewhat arbitrarily.
 
 ### The Cat's Eye Technologies Platform
 
-*   native-language: Bourne shell (oh, this is *so* not really true)
+*   native-language: many
 *   other-languages: many
 *   inception-date: Oct 4 2014
 *   development-stage: not fully complete

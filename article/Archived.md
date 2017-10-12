@@ -17,7 +17,7 @@ under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
 
 *   in-distribution: [Amiga Gondola distribution](/distribution/Amiga Gondola distribution)
 *   license: Public Domain
-*   host-language: Bourne shell
+*   host-language: [Bourne shell][]
 *   target-platform: Amiga 500
 
 ### belld
@@ -159,7 +159,7 @@ Yet Another End Of Line Converter
 *   reference: true
 *   in-distributions: [The Dipple](/distribution/The Dipple)
 *   license: Unknown license
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### yoob
 
@@ -195,4 +195,6 @@ Links
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Amiga 500]: ../article/Retrocomputing.md#amiga-500
 [E-UAE]: ../article/Retrocomputing.md#amiga-500
+[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
+[Perl]: http://www.perl.org/
 

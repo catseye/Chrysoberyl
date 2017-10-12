@@ -79,20 +79,6 @@ BASIC:
     BASIC stands for "Beginner's All-purpose Symbolic Instruction Code."
 
 
-Bourne shell:
-  type: Programming Language
-  genre: Production language
-  wikipedia: Bourne_shell
-  generally-compiled: false
-  development-stage: mature
-  specification-link: 'http://steve-parker.org/sh/bourne.shtml'
-  authors:
-  - Stephen Bourne
-  # "scripting"
-  paradigms:
-  - Imperative
-    
-
 C99:
   type: Programming Language
   genre: Production language

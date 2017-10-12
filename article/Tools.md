@@ -174,7 +174,7 @@ written in Python.
 *   reference: true
 *   in-distribution: [shelf distribution](/distribution/shelf distribution)
 *   license: Public Domain
-*   host-language: Bourne shell
+*   host-language: [Bourne shell][]
 
 ### SITU-MON
 
@@ -396,4 +396,5 @@ framework, which is in Java.
 [The Platform]: TBD
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
+[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
 
