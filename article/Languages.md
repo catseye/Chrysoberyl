@@ -1,5 +1,7 @@
-Chris Pressey's Lingography
-===========================
+Languages
+=========
+
+This is Chris Pressey's Lingography.  This text needs to be edited.
 
 (What is a "lingography", you ask? Well, if bands have disc-ographies and directors have film-ographies...)
 
@@ -8,14 +10,17 @@ It is more-or-less unabridged, but not intended to be completely exhaustive. Mos
 programming languages; some of them are formal languages, and some of them are automata of some kind.
 Many of them are esolangs. Some of them possibly aren't even languages at all; they just seem to fit the
 general theme of the list. Most of them have been implemented, and these implementations are available in
-downloadable distrbutions. At the bottom there is also a list of languages that I've implemented, but which
-were designed by someone else.
+downloadable distrbutions.
 
-You may also be interested in reading about what it was like to design these and/or the ones that got away.
+There is also a list of languages that I've implemented, but which were designed by someone else,
+over here: [Language Implementations](Language Implementations.md).
+
+You may also be interested in reading about
+[what it was like to design these]() and/or
+[the ones that got away](LoUIE.md).
 
 Languages I've Designed
 -----------------------
-
 
 ### Full Moon Fever
 
@@ -48,7 +53,6 @@ Lives on, in a somewhat distended form, as a sub-language of
 The name "Full Moon Fever" has nothing at all to do with lycanthropy;
 I believe it came from mis-remembering the title of the song
 "Full Moon Boogie" by [Jan Hammer][] and [Jerry Goodman][].
-
 
 ### Maentwrog
 
@@ -93,7 +97,7 @@ wherein it is defined thusly:
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
 
 ### Befunge-93
 
@@ -127,7 +131,8 @@ many others.  Cited in the New Hacker's Dictionary.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
+
 #### Implementation: tc.catseye.yoob.befunge93
 
 *   license: Public Domain
@@ -160,7 +165,8 @@ despite its minimalism, it is finite-automata-complete; it is also the
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
+
 #### Implementation: SMETANA (Visual Basic)
 
 *   license: Freely Redistributable
@@ -243,7 +249,7 @@ force other state changes to occur elsewhere in the playfield.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
 
 ### Befunge-97
 
@@ -331,8 +337,9 @@ other languages (or, well, cellular automata — close enough).
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Perl
-*   target-language: Perl
+*   host-language: [Perl][]
+*   target-language: [Perl][]
+
 #### Reference Implementation: alpaca (Python)
 
 *   license: BSD license
@@ -448,7 +455,7 @@ becoming the programming language [Var'aq][].
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Sally
 
@@ -473,8 +480,8 @@ a strict type system, and some unusual rules for parameters and return values.
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: ANSI C
-*   target-language: ANSI C
+*   host-language: [ANSI C][]
+*   target-language: [ANSI C][]
 
 ### ILLGOL
 
@@ -504,7 +511,7 @@ sheer fact that a compiler for it has been hacked together.
 
 *   license: Unknown license
 *   implementation-type: compiler
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
 *   target-language: x86 machine code
 
 ### SMITH
@@ -540,7 +547,7 @@ has been shown to be [Turing-complete][].
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Tamerlane
 
@@ -591,7 +598,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### noit o' mnain worb
 
@@ -628,12 +635,14 @@ it's so lossy that it has more value as just a neat toy to watch.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
+
 #### Implementation: worb.js
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Javascript
+
 #### Implementation: tc.catseye.yoob.worb
 
 *   license: BSD license
@@ -677,7 +686,7 @@ Its abstract starts out like this:
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### 'N-DCNC
 
@@ -705,8 +714,9 @@ However, you still need a C compiler to build the PortableFalse interpreter.
 
 *   license: Unknown license
 *   implementation-type: compiler
-*   host-language: Perl
+*   host-language: [Perl][]
 *   target-language: FALSE
+
 #### Implementation: ndcnc.bf
 
 *   license: Unknown license
@@ -756,7 +766,7 @@ featured in a parody advertisement on the television show SCTV.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Opus-2
 
@@ -813,7 +823,8 @@ in the grid, and therefore rules can match and rewrite other rules.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
+
 #### Implementation: tc.catseye.yoob.ypsilax
 
 *   license: Public Domain
@@ -861,7 +872,7 @@ are ignored during execution.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### beta-Juliet
 
@@ -907,11 +918,12 @@ specified, allowing the language to be [Turing-complete][].
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: C99
+
 #### Implementation: b_juliet.pl
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Sbeezg
 
@@ -997,7 +1009,7 @@ implementation and notes that I left behind...
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
 
 ### Circute
 
@@ -1200,7 +1212,7 @@ configurations that don't blow up.)
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Hev
 
@@ -1637,27 +1649,32 @@ instances of 54 unique symbols in 684 cons cells.)
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Pifxley
+
 #### Reference Implementation: mignon
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
+
 #### Reference Implementation: pixley.pix
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Pixley
+*   host-language: [Pixley][]
+
 #### Reference Implementation: p-normal.pix
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Pixley
+*   host-language: [Pixley][]
 *   target-language: P-Normal Pixley
+
 #### Reference Implementation: haney
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Haskell
+
 #### Reference Implementation: pixley.js
 
 *   license: BSD license
@@ -1861,7 +1878,7 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 *   license: BSD license
 *   implementation-type: compiler
 *   host-language: Python
-*   target-language: ANSI C
+*   target-language: [ANSI C][]
 
 ### Oozlybub and Murphy
 
@@ -2343,7 +2360,7 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: ANSI C
+*   host-language: [ANSI C][]
 
 ### Jolverine
 
@@ -2722,4 +2739,5 @@ or not.
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
-
+[ANSI C]: TBD
+[Perl]: TBD
