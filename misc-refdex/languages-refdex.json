@@ -5,6 +5,9 @@
     "lookup table": {
         "url": "https://en.wikipedia.org/wiki/Lookup_table"
     },
+    "Javascript": {
+        "url": "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
+    },
     "Haskell": {
         "url": "http://www.haskell.org/"
     },

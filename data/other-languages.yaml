@@ -139,35 +139,6 @@ C++:
     url: http://miek.nl/downloads/2010/c++-talk.pdf
 
 
-
-Javascript:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Functional
-  - Object-oriented
-  computational-class: Turing-complete
-  specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
-  development-stage: mature
-  authors: []
-  description: |
-    Javascript (also and more properly known as ECMAScript) is a
-    programming language that is implemented primarily in web browsers
-    in order to let scripts control the dynamic behaviour of a web page,
-    such as what happens when the user clicks on some region of text.
-  references:
-  - url: http://www.quirksmode.org/js/contents.html
-    title: JavaScript at quirksmode
-    description: Nice, large set of JS documents, examples, explanations
-  - url: http://onlinetools.org/articles/unobtrusivejavascript/
-    title: Unobtrustive JavaScript
-    description: Seperation of concerns between Javascript, CSS, &amp; HTML
-  - url: http://betterexplained.com/articles/speed-up-your-javascript-load-time/
-    title: Speed Up Your Javascript Load Time
-    description: Assorted useful tips for, uh, speeding up Javascript load time
-
-
 Plankalkül:
   type: Programming Language
   genre: Experimental language

@@ -278,7 +278,7 @@ This is actually a language family.
 [Pixley]: ../article/Languages.md#pixley
 [Etcha]: ../article/Languages.md#etcha
 [Bhuna]: ../article/Languages.md#bhuna
-[Javascript]: TBD
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 [Ruby]: http://www.ruby-lang.org/
 [PicoLisp]: https://picolisp.com/wiki/?home
 

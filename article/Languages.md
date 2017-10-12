@@ -346,7 +346,7 @@ other languages (or, well, cellular automata — close enough).
 *   license: BSD license
 *   implementation-type: compiler
 *   host-language: Python
-*   target-language: Javascript
+*   target-language: [Javascript][]
 
 ### Funge-98
 
@@ -643,7 +643,7 @@ it's so lossy that it has more value as just a neat toy to watch.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 #### Implementation: tc.catseye.yoob.worb
 
@@ -1681,7 +1681,7 @@ instances of 54 unique symbols in 684 cons cells.)
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### Dieter
 
@@ -1759,7 +1759,7 @@ a role similar to the tape head of a Turing machine.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### ZOWIE
 
@@ -1959,7 +1959,7 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 #### Implementation: tc.catseye.yoob.gemooy
 
@@ -2091,7 +2091,7 @@ remote parts of the program.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### Pail
 
@@ -2534,7 +2534,7 @@ algorithm, since it never terminates.
 
 *   license: Public Domain
 *   implementation-type: ???
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### Matchbox
 
@@ -2580,7 +2580,7 @@ which Matchbox can run and show correct.
 
 *   license: Public Domain
 *   implementation-type: static analyzer
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### Schrödinger's Game of Life
 
@@ -2615,7 +2615,7 @@ For a full account of its development, see
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 ### SITU-SOL
 
@@ -2750,4 +2750,5 @@ or not.
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Haskell]: http://www.haskell.org/
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
