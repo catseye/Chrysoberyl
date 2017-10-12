@@ -69,7 +69,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 *   paradigms: Functional
 *   etymology: bird
 
-Robin is a language drawing from [Pixley][], [Erlang][], and PicoLisp.
+Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
 One distinctive feature of it is that it has an extremely small core semantics,
 to the point where even closures are defined in terms of macros.
 Another distinctive feature is that it is heavily resource-oriented; almost
@@ -275,4 +275,10 @@ This is actually a language family.
 [NASM Assembler]: http://nasm.us/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Haskell]: http://www.haskell.org/
+[Pixley]: ../article/Languages.md#pixley
+[Etcha]: ../article/Languages.md#etcha
+[Bhuna]: ../article/Languages.md#bhuna
+[Javascript]: TBD
+[Ruby]: http://www.ruby-lang.org/
+[PicoLisp]: https://picolisp.com/wiki/?home
 
