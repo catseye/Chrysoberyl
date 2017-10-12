@@ -1,3 +1,12 @@
+Language Implementations
+========================
+
+*   common auspices: Cat's Eye Technologies
+*   common authors: Chris Pressey
+
+This is a list of languages that Cat's Eye Technologies has built an implementation for,
+but which were not designed by Cat's Eye Technologies.
+
 ### PL-{GOTO}.NET
 
 *   implementation of: PL-{GOTO}
@@ -24,13 +33,13 @@ those two together — well, that struck me as a respectably absurd match, so th
 The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
 to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
 keeping the `←` symbol for assignment.
+
 ### aubergine.hs
 
 *   implementation of: Aubergine
 *   implementation type: interpreter
 *   host language: Haskell
 *   inception date: ???
-
 
 I implemented Aubergine because the reference interpreter is buggy and
 I wanted a version that actually implemented the unbounded integers that
@@ -73,11 +82,12 @@ point that made me recognize just how silly this project was...
 *   target language: lookup table
 *   inception date: ???
 *   in distribution: [The Dipple](/distribution/The Dipple)
-*   in distribution: [sf2tab distribution](/distribution/sf2tab distribution)
 
 Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
 can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
 (generally gigantic) lookup-tables.
+
+There is an old [sf2tab distribution](/distribution/sf2tab distribution).
 
 ### stringie
 
@@ -86,7 +96,6 @@ can only express finite-state automata, I wrote a little program in C to compile
 *   host language: ANSI C
 *   inception date: ???
 *   in distribution: [stringie distribution](/distribution/stringie distribution)
-
 
 Seeing that there was no *non*-pathological implementation of Alex Smith's
 beautiful [Underload][] language in C, I undertook that project one evening.
@@ -105,6 +114,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.backflip
 
@@ -116,6 +126,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.black
 
@@ -127,6 +138,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.brainfuck
 
@@ -138,6 +150,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.lnusp
 
@@ -149,6 +162,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.onela
 
@@ -160,6 +174,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.onelaoi
 
@@ -171,6 +186,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.path
 
@@ -182,6 +198,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.qdeql
 
@@ -193,6 +210,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.sceql
 
@@ -204,6 +222,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.snusp
 
@@ -215,6 +234,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.twoill
 
@@ -226,6 +246,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### tc.catseye.yoob.twol
 
@@ -237,6 +258,7 @@ an accident.
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Implemented as part of yoob.
 
 ### thue.rb
 
@@ -245,7 +267,6 @@ an accident.
 *   host language: Ruby
 *   inception date: Sep 10, 2012
 *   in distribution: [Thue distribution](/distribution/Thue distribution)
-
 
 Since I've been maintaining a distribution of this language for a while, and
 not otherwise involved with it, I decided I should finally implement it.
@@ -269,3 +290,4 @@ that a separate scanner is totally not needed.  Bitchen!
 
 [Turing-complete]: TBD
 [Underload]: TBD
+
