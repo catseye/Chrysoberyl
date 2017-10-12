@@ -13,7 +13,7 @@ but which were not designed by Cat's Eye Technologies.
 *   implementation type: compiler
 *   host language: Haskell
 *   target language: MSIL
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [PL-{GOTO}.NET distribution](/distribution/PL-{GOTO}.NET distribution)
 
 PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
@@ -39,12 +39,14 @@ keeping the `←` symbol for assignment.
 *   implementation of: Aubergine
 *   implementation type: interpreter
 *   host language: Haskell
-*   inception date: ???
+*   inception date: Oct 18, 2012
 
 I implemented Aubergine because the reference interpreter is buggy and
 I wanted a version that actually implemented the unbounded integers that
 the language description suggests.  After implementing it, I was familiar
 enough with it to write a sketch of a proof of its [Turing-complete][]ness.
+
+Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergine.hs).
 
 ### muriel.pl
 
@@ -63,7 +65,7 @@ the first full implementation of that language.
 *   implementation of: brainfuck
 *   implementation type: interpreter
 *   host language: Erlang
-*   inception date: ???
+*   inception date: May 5, 2003
 *   in distribution: [pibfi distribution](/distribution/pibfi distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -80,21 +82,21 @@ point that made me recognize just how silly this project was...
 *   implementation type: compiler
 *   host language: ANSI C
 *   target language: lookup table
-*   inception date: ???
+*   inception date: Jun 23, 2005
 *   in distribution: [The Dipple](/distribution/The Dipple)
 
 Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
 can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
 (generally gigantic) lookup-tables.
 
-There is an old [sf2tab distribution](/distribution/sf2tab distribution).
+There is also an old [sf2tab distribution](/distribution/sf2tab distribution).
 
 ### stringie
 
 *   implementation of: Underload
 *   implementation type: interpreter
 *   host language: ANSI C
-*   inception date: ???
+*   inception date: Sep 2010
 *   in distribution: [stringie distribution](/distribution/stringie distribution)
 
 Seeing that there was no *non*-pathological implementation of Alex Smith's
@@ -110,7 +112,7 @@ an accident.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -122,7 +124,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -134,7 +136,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -146,7 +148,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -158,7 +160,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -170,7 +172,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -182,7 +184,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -194,7 +196,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -206,7 +208,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -218,7 +220,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -230,7 +232,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -242,7 +244,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -254,7 +256,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
-*   inception date: ???
+*   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -279,7 +281,7 @@ did implement it.
 *   implementation of: VALGOL
 *   implementation type: parser
 *   host language: Erlang
-*   inception date: ???
+*   inception date: Oct 11, 2002
 *   in distribution: [The Dipple](/distribution/The Dipple)
 
 A parser, in Erlang, for the Lesser-Known Language VALGOL.
@@ -288,6 +290,6 @@ that a separate scanner is totally not needed.  Bitchen!
 
 - - - -
 
-[Turing-complete]: TBD
+[Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Underload]: http://esolangs.org/wiki/Underload
 
