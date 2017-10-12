@@ -2696,13 +2696,13 @@ or not.
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill
 [ALPACA]: ../article/Languages.md#alpaca
-[Alise]: TBD
+[Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
 [BASIC]: TBD
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: TBD
-[Ben Olmstead]: TBD
+[Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [C++]: TBD
 [Chris Pressey]: TBD
@@ -2714,7 +2714,7 @@ or not.
 [FALSE]: http://esolangs.org/wiki/FALSE
 [Falderal]: ../article/Formats.md#falderal
 [Funge-98]: ../article/Languages.md#funge-98
-[Gregor Richards]: TBD
+[Gregor Richards]: http://esolangs.org/wiki/Gregor_Richards
 [ILLGOL]: ../article/Languages.md#illgol
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
