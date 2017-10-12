@@ -115,7 +115,6 @@ wherein it is defined thusly:
          v    <
         >?"/",^
          >"\",^
-        
 
 Befunge-93 is an esoteric programming language where the program exists
 in a two-dimensional grid of cells, where each cell contains a single
@@ -149,6 +148,7 @@ many others.  Cited in the New Hacker's Dictionary.
 *   paradigms: Self-modifying
 *   reference-distribution: [SMETANA distribution](/distribution/SMETANA distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
 *   sample program: 
 
         Step 1. Swap step 1 with step 2.
@@ -190,8 +190,9 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   paradigms: Stack-based, 2-dimensional, Angular
 *   reference-distribution: [Wierd distribution](/distribution/Wierd distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
 *   sample program: 
-
+    
         *
          *
           *
@@ -207,7 +208,6 @@ despite its minimalism, it is finite-automata-complete; it is also the
             *    *
             * ** *
             **  *
-        
 
 Wierd is a programming language, inspired somewhat by [Befunge-93][] and
 [brainfuck][], where instructions are not determined by the symbols in a
@@ -218,6 +218,7 @@ probably lost and gone forever, but two dialects have been specified
 (sorta) and implemented: [Wierd (John Colagioia)][] and
 [Wierd (Milo van Handel)][].
 
+The above sample program was written by Milo van Handel.
 
 ### RUBE
 
@@ -262,11 +263,51 @@ force other state changes to occur elsewhere in the playfield.
 *   influences: Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 
+Product of the [Befunge Mailing List Working Group][].
+
 Befunge-97 was an unimplemented attempt to design a successor to [Befunge-93][].
 The design, however, was not successful — it has been described as
 "brain-damaged" — primarily due to the fact that separate processes were specified
 as sharing a single stack.
 
+### ALPACA
+
+*   type: Programming Language
+*   inception-date: 1998
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: ???
+*   paradigms: Metalanguage, Object-oriented
+*   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+*   sample program: 
+    
+        /* John Conway's Game of Life, expressed in ALPACA. */
+        state Dead  " " to Alive when 3 Alive and 5 Dead;
+        state Alive "*" to Dead when 4 Alive or 7 Dead.
+
+ALPACA is a meta-language for describing cellular automata.
+
+It stands for "A Language for the Pithy Articulation of Cellular Automata".
+The acronym used to be "A Language for Programming Arbitrary Cellular Automata".
+This was not quite accurate, as the automata are not in fact arbitrary, so I changed
+it.
+
+ALPACA is one of the few of my languages in which I've actually implemented
+other languages (or, well, cellular automata — close enough).
+
+#### Reference Implementation: alpaca.pl
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: [Perl][]
+*   target-language: [Perl][]
+
+#### Reference Implementation: alpaca (Python)
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Python
+*   target-language: [Javascript][]
 
 ### REDGREEN
 
@@ -309,45 +350,6 @@ REDGREEN is a cellular automaton that simulates a little
 *   implementation-type: formal description
 *   host-language: ALPACA
 
-### ALPACA
-
-*   type: Programming Language
-*   inception-date: 1998
-*   genre: Esolang
-*   development-stage: mature
-*   computational-class: ???
-*   paradigms: Metalanguage, Object-oriented
-*   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
-*   sample program: 
-
-        /* John Conway's Game of Life, expressed in ALPACA. */
-        state Dead  " " to Alive when 3 Alive and 5 Dead;
-        state Alive "*" to Dead when 4 Alive or 7 Dead.
-        
-
-ALPACA is a meta-language for describing cellular automata.
-
-The acronym used to be "A Language for Programming Arbitrary Cellular Automata".
-This was not quite accurate, as the automata are not in fact arbitrary, so I changed
-it.
-
-ALPACA is one of the few of my languages in which I've actually implemented
-other languages (or, well, cellular automata — close enough).
-
-#### Reference Implementation: alpaca.pl
-
-*   license: BSD license
-*   implementation-type: compiler
-*   host-language: [Perl][]
-*   target-language: [Perl][]
-
-#### Reference Implementation: alpaca (Python)
-
-*   license: BSD license
-*   implementation-type: compiler
-*   host-language: Python
-*   target-language: [Javascript][]
-
 ### Funge-98
 
 *   type: Programming Language Family
@@ -359,7 +361,7 @@ other languages (or, well, cellular automata — close enough).
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](/distribution/Funge-98 distribution)
 *   sample program: 
-
+    
         >>#v?v
         ^,A' <
          ^ C'
@@ -367,7 +369,8 @@ other languages (or, well, cellular automata — close enough).
          ^ <<
             G
             '
-        
+
+Product of the [Befunge Mailing List Working Group][].
 
 Funge-98 is a family of programming languages designed as the successor
 to [Befunge-93][].  It generalizes Befunge-93's two-dimensional nature
@@ -379,10 +382,9 @@ It also makes the playfield unbounded, allowing the language to be
 [Turing-complete][], and tries to define mechanisms for interacting with the
 operating system and engaging extensions to the language.
 
-
 ### MDPN
 
-*   type: Programming Language
+*   type: Meta-language
 *   inception-date: 1999
 *   genre: Esolang
 *   development-stage: not fully complete
@@ -390,14 +392,12 @@ operating system and engaging extensions to the language.
 *   paradigms: Metalanguage
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
 *   sample program: 
-
+    
           Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
                   "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-        
 
 MDPN is a meta-language for describing multi-directional and
 multi-dimensional languages.
-
 
 ### Shelta
 
@@ -526,6 +526,7 @@ sheer fact that a compiler for it has been hacked together.
 *   influences: SMETANA
 *   paradigms: Imperative, Self-modifying
 *   reference-distribution: [SMITH distribution](/distribution/SMITH distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
 *   sample program: 
 
         MOV R0, 10
@@ -572,7 +573,6 @@ Tamerlane is a multi-paradigmatic programming language, unimplemented
 and possibly unimplementable. One of its core execution mechanisms is the
 traversing of a graph (representing the program) while rewriting that same
 graph.
-
 
 ### Squishy2K
 
@@ -725,6 +725,8 @@ However, you still need a C compiler to build the PortableFalse interpreter.
 *   implementation-type: compiler
 *   host-language: Befunge-93
 *   target-language: FALSE
+
+Broken.
 
 ### Strelnokoff
 
@@ -2125,7 +2127,7 @@ names of bindings to be expressed.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: [Haskell][]
+*   host-language: [Haskell][] (Literate Haskell)
 
 ### Xoomonk
 
