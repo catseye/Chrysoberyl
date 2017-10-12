@@ -413,50 +413,6 @@ lookup table:
 
 
 # I have implemented this.  Should it go into implemented-languages.yaml...?
-Backtracking Wang Tiler:
-  type: Automaton
-  genre: Experimental language
-  # +aperiodic tiling
-  paradigms:
-  - 2-dimensional
-  development-stage: mature
-  defining-distribution: Wang Tilers distribution
-  # I doubt this automaton is particularly original, but, until I
-  # find someone else who has formulated it, ...
-  authors:
-  - Chris Pressey
-  auspices:
-  - Cat's Eye Technologies
-  inception-date: Feb 2015
-  description: |
-    This backtracking Wang tiler is an automaton which naïvely tiles the
-    plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
-    
-    It operates like a backtracking algorithm, backing up whenever it finds
-    it cannot place a tile, but it may be inaccurate to describe it as an
-    algorithm, since it never terminates.
-
-backtracking-wang-tiler.js:
-  type: Implementation
-  license: Public Domain
-  host-language: Javascript
-  host-platform: HTML5
-  implementation-of:
-  - Backtracking Wang Tiler
-  online-locations:
-  - installation/Backtracking Wang Tiler
-
-Wang Tilers distribution: 
-  type: Distribution
-  github: catseye/Wang-Tilers
-  tag-style: new
-  releases:
-  - version: "1.0"
-    revision: "0.0"
-    url: http://catseye.tc/distfiles/wang-tilers-1.0.zip
-
-
-# I have implemented this.  Should it go into implemented-languages.yaml...?
 Conway's Game of Life:
   type: Automaton
   genre: Experimental language

@@ -2607,13 +2607,13 @@ For a full account of its development, see
 #### Reference Implementation: slife
 
 *   license: Public Domain
-*   implementation-type: ???
+*   implementation-type: interpreter
 *   host-language: Python
 
 #### Implementation: slife.js
 
 *   license: Public Domain
-*   implementation-type: ???
+*   implementation-type: interpreter
 *   host-language: Javascript
 
 ### SITU-SOL
@@ -2656,13 +2656,11 @@ into an emulated [Commodore 64][] using [SITU-MON][].
         situations
           [actor(Ignatz),item(brick)]
         end
-        
 
 Samovar is a DSL for world-modeling using predicates rather than explicit objects.
 It could be thought of as an "assertion-retraction engine", which itself could be
 thought of as a very stilted style of Prolog programming plus some syntactic
 sugar.
-
 
 ### Maxixe
 
@@ -2690,12 +2688,10 @@ sugar.
             Step_4 = p                     by Simplification with Step_2
             Step_5 = q                     by Modus_Ponens with Step_3, Step_4
         qed
-        
 
 Maxixe is a simple proof-checking language.  Given a proof written out fully and
 explicitly (including all rules of inference), a computer can check if it is valid
 or not.
-
 
 - - - -
 
