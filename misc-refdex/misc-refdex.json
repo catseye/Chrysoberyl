@@ -197,6 +197,12 @@
     "Retrocomputing": {
         "url": "http://catseye.tc/article/Retrocomputing"
     },
+    "Games by Chris Pressey": {
+        "url": "http://catseye.tc/article/Games"
+    },
+    "Tools by Chris Pressey": {
+        "url": "http://catseye.tc/article/Tools"
+    },
 
 
     "Book": {
@@ -300,6 +306,10 @@
 
 
 
+    "wierd.c": {
+        "anchor": "wierd", 
+        "filename": "article/Languages.md"
+    },
     "wierd.c (Milo van Handel)": {
         "anchor": "wierd", 
         "filename": "article/Languages.md"

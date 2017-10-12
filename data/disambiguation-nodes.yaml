@@ -1,26 +1,4 @@
 # encoding: UTF-8
-Demo:
-  type: Disambiguation node
-  entries:
-  - Gewgaw
-
-Games by Chris Pressey:
-  type: Disambiguation node
-  entries:
-  - Game
-
-Tools by Chris Pressey:
-  type: Disambiguation node
-  entries:
-  - Tool
-  - Platform
-  - Library
-
-Exhibit:
-  type: Disambiguation node
-  entries:
-  - Online Installation
-
 NaNoGenMo:
   type: Disambiguation node
   entries:
@@ -43,24 +21,3 @@ Article:
   - https://github.com/catseye/The-Dossier/
   - http://catseye.tc/feeds/atom_30_news.xml
   - https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
-
-Metanode:
-  type: Disambiguation node
-  entries:
-  - Chrysoberyl
-
-"Chrysoberyl: Query":
-  type: Disambiguation node
-  entries:
-  - Chrysoberyl
-
-wierd.c:
-  type: Disambiguation node
-  entries:
-  - wierd.c (John Colagioia)
-  - wierd.c (Milo van Handel)
-
-wierd-milo.c:
-  type: Disambiguation node
-  entries:
-  - wierd.c (Milo van Handel)
