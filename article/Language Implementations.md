@@ -9,7 +9,7 @@ but which were not designed by Cat's Eye Technologies.
 
 ### PL-{GOTO}.NET
 
-*   implementation of: PL-{GOTO}
+*   implementation of: [PL-{GOTO}][]
 *   implementation type: compiler
 *   host language: Haskell
 *   target language: MSIL
@@ -36,7 +36,7 @@ keeping the `←` symbol for assignment.
 
 ### aubergine.hs
 
-*   implementation of: Aubergine
+*   implementation of: [Aubergine][]
 *   implementation type: interpreter
 *   host language: Haskell
 *   inception date: Oct 18, 2012
@@ -50,7 +50,7 @@ Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergin
 
 ### muriel.pl
 
-*   implementation of: Muriel
+*   implementation of: [Muriel][]
 *   implementation type: interpreter
 *   host language: Perl
 *   inception date: Mar 23, 2001
@@ -62,7 +62,7 @@ the first full implementation of that language.
 
 ### pibfi
 
-*   implementation of: brainfuck
+*   implementation of: [brainfuck][]
 *   implementation type: interpreter
 *   host language: Erlang
 *   inception date: May 5, 2003
@@ -78,7 +78,7 @@ point that made me recognize just how silly this project was...
 
 ### sf2tab
 
-*   implementation of: Smallfuck
+*   implementation of: [Smallfuck][]
 *   implementation type: compiler
 *   host language: ANSI C
 *   target language: lookup table
@@ -93,7 +93,7 @@ There is also an old [sf2tab distribution](/distribution/sf2tab distribution).
 
 ### stringie
 
-*   implementation of: Underload
+*   implementation of: [Underload][]
 *   implementation type: interpreter
 *   host language: ANSI C
 *   inception date: Sep 2010
@@ -108,7 +108,7 @@ an accident.
 
 ### tc.catseye.yoob.ale
 
-*   implementation of: Ale
+*   implementation of: [Ale][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -120,7 +120,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.backflip
 
-*   implementation of: BackFlip
+*   implementation of: [BackFlip][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -132,7 +132,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.black
 
-*   implementation of: Black
+*   implementation of: [Black][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -144,7 +144,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.brainfuck
 
-*   implementation of: brainfuck
+*   implementation of: [brainfuck][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -156,7 +156,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.lnusp
 
-*   implementation of: LNUSP
+*   implementation of: [LNUSP][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -168,7 +168,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.onela
 
-*   implementation of: 1L_a
+*   implementation of: [1L_a][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -180,7 +180,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.onelaoi
 
-*   implementation of: 1L_AOI
+*   implementation of: [1L_AOI][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -192,7 +192,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.path
 
-*   implementation of: PATH
+*   implementation of: [PATH][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -204,7 +204,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.qdeql
 
-*   implementation of: Qdeql
+*   implementation of: [Qdeql][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -216,7 +216,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.sceql
 
-*   implementation of: Sceql
+*   implementation of: [Sceql][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -228,7 +228,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.snusp
 
-*   implementation of: SNUSP
+*   implementation of: [SNUSP][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -240,7 +240,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.twoill
 
-*   implementation of: 2-ill
+*   implementation of: [2-ill][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -252,7 +252,7 @@ Implemented as part of yoob.
 
 ### tc.catseye.yoob.twol
 
-*   implementation of: 2L
+*   implementation of: [2L][]
 *   implementation type: interpreter
 *   host platform: yoob
 *   host language: Java
@@ -264,7 +264,7 @@ Implemented as part of yoob.
 
 ### thue.rb
 
-*   implementation of: Thue
+*   implementation of: [Thue][]
 *   implementation type: interpreter
 *   host language: Ruby
 *   inception date: Sep 10, 2012
@@ -278,7 +278,7 @@ did implement it.
 
 ### valgol.erl
 
-*   implementation of: VALGOL
+*   implementation of: [VALGOL][]
 *   implementation type: parser
 *   host language: Erlang
 *   inception date: Oct 11, 2002
@@ -292,4 +292,24 @@ that a separate scanner is totally not needed.  Bitchen!
 
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Underload]: http://esolangs.org/wiki/Underload
-
+[1L_AOI]: http://esolangs.org/wiki/1L_AOI
+[Aubergine]: http://esolangs.org/wiki/Aubergine
+[Qdeql]: http://esolangs.org/wiki/Qdeql
+[2-ill]: http://esolangs.org/wiki/2-ill
+[PL-{GOTO}]: http://www.worldcat.org/title/theory-of-computation/oclc/694056
+[1L_a]: http://esolangs.org/wiki/1L_a
+[Sceql]: http://esolangs.org/wiki/Sceql
+[Underload]: http://esolangs.org/wiki/Underload
+[VALGOL]: http://esolangs.org/wiki/VALGOL
+[BackFlip]: http://esolangs.org/wiki/BackFlip
+[Smallfuck]: http://esolangs.org/wiki/Smallfuck
+[LNUSP]: http://esolangs.org/wiki/LNUSP
+[Muriel]: http://esolangs.org/wiki/Muriel
+[Black]: http://esolangs.org/wiki/Black
+[PATH]: http://esolangs.org/wiki/PATH
+[2L]: http://esolangs.org/wiki/2L
+[brainfuck]: http://esolangs.org/wiki/brainfuck
+[Thue]: http://esolangs.org/wiki/Thue
+[SNUSP]: http://esolangs.org/wiki/SNUSP
+[1L]: http://esolangs.org/wiki/1L
+[Ale]: http://esolangs.org/wiki/Ale
