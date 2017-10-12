@@ -205,6 +205,105 @@ def export_lingography(universe, options, config):
     f.close()
 
 
+def export_gewgaws(universe, options, config):
+    """Export the gewgaws."""
+    space = universe['node']  # FIXME hardcoded
+
+    link_priority_refdex = {}
+    for filename in config[space.name].get('link_priority_files', []):
+        with open(filename, 'r') as f:
+            link_priority_refdex.update(json.loads(f.read()))
+
+    def gewgaws():
+        g = []
+        types = ('Gewgaw', 'Automaton')
+        for thing in space:
+            node = space[thing]
+            if (node['type'] in types and not node.get('hidden') and
+                'Chris Pressey' in node.get('authors', [])):
+                g.append(thing)
+        return sorted(g)
+
+    def online_implementations(key):
+        def online_locations(k):
+            return space[k].get('online-locations', [])
+        online_locs = []
+        online_locs.extend(online_locations(key))
+        for impl, inode in sorted(space.related_items('implementation-of', key=key)):
+            online_locs.extend(online_locations(impl))
+        return online_locs
+
+    needed_links = set()
+
+    def linker(match):
+        text = match.group(1)
+        segments = text.split('|')
+        if len(segments) == 1:
+            needed_links.add(segments[0])
+            return u'[{}][]'.format(segments[0])
+        else:
+            return u'[{}]({})'.format(segments[1], segments[0])
+
+    f = codecs.open('../Chrysoberyl/article/Gewgaws.md', 'w', 'utf-8')
+    def write(s):
+        f.write(s + '\n')
+
+    for thing in gewgaws():
+        
+        write(u"### {}".format(thing))
+        write("")
+        d = space[thing].get('defining-distribution', '???')
+        write(u"*   reference distribution: [{}](/distribution/{})".format(d, d))
+        write("*   inception date: {}".format(space[thing].get('inception-date', '???')))
+
+        for impl, inode in sorted(space.related_items('implementation-of', key=thing)):
+            write("*   reference implementation name: {}".format(impl))
+            write("*   reference implementation license: {}".format(inode.get('license', '???')))
+            write("*   reference implementation language: {}".format(inode.get('host-language', '???')))
+            write("*   reference implementation platform: {}".format(inode.get('host-platform', '???')))
+
+        for url in online_implementations(thing):
+            write(u"*   online @ [catseye.tc](http://catseye.tc/{})".format(url))
+
+        write("")
+
+        description = space[thing].get('description', '')
+        description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
+        write(description)
+        
+        commentary = space[thing].get('commentary')
+        if commentary:
+            commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
+            write(commentary)
+
+        instructions = space[thing].get('instructions', '')
+        if instructions:
+            instructions = re.sub(r'\[\[(.*?)\]\]', linker, instructions, count=0, flags=re.U)
+            write(u"Instructions:")
+            write("")
+            write(instructions)
+
+    write("- - - -")
+    write("")
+    for needed_link in sorted(needed_links):
+        if needed_link in link_priority_refdex:
+            p = link_priority_refdex[needed_link]
+            if 'url' in p:
+                url = p['url']
+            elif 'filename' in p:
+                base = 'http://catseye.tc/'
+                url = "{}{}#{}".format(
+                    base, p['filename'], p['anchor']
+                )
+            else:
+                raise NotImplementedError
+            write(u"[{}]: {}".format(needed_link, url))
+        else:
+            write(u"[{}]: TBD".format(needed_link))
+
+    f.close()
+
+
 def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
@@ -518,6 +617,7 @@ COMMANDS = {
     'project': project,
     'count': count,
     'export_lingography': export_lingography,
+    'export_gewgaws': export_gewgaws,
 }
 
 
