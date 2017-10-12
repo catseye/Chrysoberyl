@@ -389,19 +389,6 @@ Ophis:
   in-distribution: Ophis Assembler distribution
 
 
-# heh.  for sf2tab:
-lookup table:
-  type: Programming Language
-  genre: Pedagogical language
-  paradigms:
-  - Declarative
-  computational-class: Finite-automata-complete
-  # it's, uh.  pretty self-explanatory, actually.
-  no-specification: true
-  development-stage: mature
-  authors: []
-
-
 # I have implemented this.  Should it go into implemented-languages.yaml...?
 Conway's Game of Life:
   type: Automaton

@@ -10,13 +10,6 @@ LGPL:
   type: License
   description: |
     The GNU Lesser General Public License.
-MPL 2.0:
-  type: License
-  description: |
-    The Mozilla Public License 2.0.
-  links:
-  - http://www.mozilla.org/MPL/2.0/
-  - http://www.mozilla.org/MPL/2.0/FAQ.html
 Artistic License:
   type: License
   description: |

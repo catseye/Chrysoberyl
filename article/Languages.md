@@ -2749,4 +2749,5 @@ or not.
 [NASM Assembler]: http://nasm.us/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Haskell]: http://www.haskell.org/
-[Visual Basic]: TBD
+[Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
+
