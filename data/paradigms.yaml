@@ -4,46 +4,20 @@
 # a lot of these are subtypes of rewriting, we may want to capture that.
 2-dimensional:
   type: Programming Paradigm
-3-dimensional:
-  type: Programming Paradigm
 Angular:
   type: Programming Paradigm
 Algebraic:
   type: Programming Paradigm
-Bully automaton:
-  type: Programming Paradigm
 Cellular automaton:
-  type: Programming Paradigm
-Concatenative:
-  type: Programming Paradigm
-Continuation-passing:
-  type: Programming Paradigm
-Dependency injection:
   type: Programming Paradigm
 Drinking game:
   wikipedia: Drinking_game
   type: Programming Paradigm
-Event-oriented:
-  type: Programming Paradigm
-Forest-rewriting:
-  type: Programming Paradigm
 Functional:
-  type: Programming Paradigm
-Graph-rewriting:
-  type: Programming Paradigm
-Grid-rewriting:
   type: Programming Paradigm
 Imperative:
   type: Programming Paradigm
-Lazy:
-  type: Programming Paradigm
 Logic programming:
-  type: Programming Paradigm
-Maze-space-rewriting:
-  type: Programming Paradigm
-Memory-mapped:
-  type: Programming Paradigm
-Meta-circular:
   type: Programming Paradigm
 Metalanguage:
   type: Programming Paradigm
@@ -51,15 +25,7 @@ Non-deterministic:
   type: Programming Paradigm
 Object-oriented:
   type: Programming Paradigm
-Queue-based:
-  type: Programming Paradigm
-Quine-based:
-  type: Programming Paradigm
 Particle automaton:
-  type: Programming Paradigm
-Probabilistic:
-  type: Programming Paradigm
-Proof checking:
   type: Programming Paradigm
 Reflective:
   type: Programming Paradigm
@@ -81,12 +47,6 @@ Regular-expression-based:
 Self-modifying:
   # this is pretty close to Reflective
   type: Programming Paradigm
-Stack-based:
-  type: Programming Paradigm
-State machine:
-  type: Programming Paradigm
-String-rewriting:
-  type: Programming Paradigm
 Term-rewriting:
   type: Programming Paradigm
   description: |
@@ -96,8 +56,3 @@ Term-rewriting:
   - url: http://rtaloop.mancoosi.univ-paris-diderot.fr/
     title: RTA LoOP
     description: Open Problems in Term Rewriting
-
-
-Turning tarpit:
-  type: Programming Paradigm
-  esowiki: Turning tarpit

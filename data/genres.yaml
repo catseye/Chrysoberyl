@@ -52,7 +52,5 @@ Production language:
   type: Genre
 Experimental language:
   type: Genre
-Machine language:
-  type: Genre
 Abstract Artlang:
   type: Genre

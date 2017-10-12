@@ -290,18 +290,6 @@ husk:
   - http://justinethier.github.io/husk-scheme/
 
 
-SETL: 
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  computational-class: Turing-complete
-  specification-link: http://setl.org/setl/doc/
-  # archival?
-  development-stage: mature
-  authors: []
-
-
 Zz:
   type: Programming Language
   genre: Experimental language
