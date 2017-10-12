@@ -3,16 +3,6 @@ interpreter:
   type: Implementation Type
 compiler:
   type: Implementation Type
-parser:
-  type: Implementation Type
-typechecker:
-  type: Implementation Type
-static analyzer:
-  type: Implementation Type
-formal description:
-  type: Implementation Type
-emulator:
-  type: Implementation Type
 operating system:
   type: Implementation Type
   references:
@@ -28,6 +18,3 @@ operating system:
   - url: http://torsion.org/
     title: Torsion
     description: Torsion Operating System
-
-framework:
-  type: Implementation Type

@@ -147,8 +147,8 @@ many others.  Cited in the New Hacker's Dictionary.
 *   computational-class: known not Turing-complete
 *   paradigms: Self-modifying
 *   reference-distribution: [SMETANA distribution](/distribution/SMETANA distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
+*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   sample program: 
 
         Step 1. Swap step 1 with step 2.
@@ -189,10 +189,10 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   influences: brainfuck, Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Angular
 *   reference-distribution: [Wierd distribution](/distribution/Wierd distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
+*   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
 *   sample program: 
-    
+
         *
          *
           *
@@ -280,7 +280,7 @@ as sharing a single stack.
 *   paradigms: Metalanguage, Object-oriented
 *   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
 *   sample program: 
-    
+
         /* John Conway's Game of Life, expressed in ALPACA. */
         state Dead  " " to Alive when 3 Alive and 5 Dead;
         state Alive "*" to Dead when 4 Alive or 7 Dead.
@@ -361,7 +361,7 @@ REDGREEN is a cellular automaton that simulates a little
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](/distribution/Funge-98 distribution)
 *   sample program: 
-    
+
         >>#v?v
         ^,A' <
          ^ C'
@@ -392,7 +392,7 @@ operating system and engaging extensions to the language.
 *   paradigms: Metalanguage
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
 *   sample program: 
-    
+
           Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
                   "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
 

@@ -75,6 +75,13 @@ etymology
 
 type
 
+### entry
+
+*   optional: true
+*   multiple: true
+
+Entry.
+
 ### online
 
 *   optional: true
