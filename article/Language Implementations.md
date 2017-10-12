@@ -316,6 +316,6 @@ that a separate scanner is totally not needed.  Bitchen!
 [ANSI C]: TBD
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
-[Haskell]: TBD
+[Haskell]: http://www.haskell.org/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 

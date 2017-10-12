@@ -1189,7 +1189,7 @@ shortcoming was rectified in summer of 2010.
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Xigxag
 
@@ -1239,7 +1239,7 @@ of any dreadful precedence table is required!
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Cabra
 
@@ -1266,7 +1266,7 @@ operator).
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### You are Reading the Name of this Esolang
 
@@ -1319,7 +1319,7 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Didigm
 
@@ -1385,7 +1385,7 @@ that convert programs between the two forms.
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Mascarpone
 
@@ -1411,7 +1411,7 @@ job of reflective interpreter-modification quite a bit cleaner and richer.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Larabee
 
@@ -1537,7 +1537,7 @@ only appear inside data structures.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Unlikely
 
@@ -1674,7 +1674,7 @@ instances of 54 unique symbols in 684 cons cells.)
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 #### Reference Implementation: pixley.js
 
@@ -2124,7 +2124,7 @@ names of bindings to be expressed.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Xoomonk
 
@@ -2200,7 +2200,7 @@ proceeds in a much more dataflow-like fashion.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Madison
 
@@ -2461,7 +2461,7 @@ thus may overlap — and was released as an esolang.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Yolk
 
@@ -2751,4 +2751,5 @@ or not.
 [Erlang]: http://www.erlang.org/
 [NASM Assembler]: http://nasm.us/
 [Java]: http://www.oracle.com/technetwork/java/index.html
+[Haskell]: http://www.haskell.org/
 
