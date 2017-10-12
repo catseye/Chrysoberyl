@@ -199,6 +199,34 @@
     },
 
 
+    "Book": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md"
+    },
+    "Retrospective: Chris Pressey on Language Design": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md"
+    },
+    "Programming Languages as an Artistic Medium": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md"
+    },
+    "The Aesthetics of Esolangs": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md"
+    },
+    "Chris Pressey's Favourite Video Games": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Video%20Games%20of%20Note.md"
+    },
+    "Chris Pressey's Favourite Text Adventures": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Text%20Adventures%20of%20Note.md"
+    },
+    "Chris Pressey's Favourite Other Computer Games": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md"
+    },
+    "LoUIE": {
+        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md"
+    },
+    "Musical Composition": {
+        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md"
+    },
+
 
     "native code": {
         "url": "https://en.wikipedia.org/wiki/Machine_code"
