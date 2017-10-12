@@ -1,6 +1,10 @@
 Gewgaws
 =======
 
+*   common reference implementation license: Public Domain
+*   common reference implementation language: Javascript
+*   common reference implementation platform: HTML5
+
 Gewgaws.
 
 ### A Minimalist Critique of Tetris
@@ -8,9 +12,6 @@ Gewgaws.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Mar 2015
 *   reference implementation name: a-minimalist-critique.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/A Minimalist Critique of Tetris)
 
 A minimalist critique of Tetris.
@@ -20,9 +21,6 @@ A minimalist critique of Tetris.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: a-non-random-walk.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/A Non-Random Walk)
 
 This is an animated version of the "non-random walk" on p. 72 of
@@ -48,9 +46,6 @@ cards.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: May 2013
 *   reference implementation name: art-restoration-simulator.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Art Restoration Simulator)
 
 A simulator that lets you experience the thrills and spills
@@ -65,9 +60,6 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Jan 2015
 *   reference implementation name: black-hole-poem.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Black Hole Poem)
 
 An interactive concrete poem about black holes.
@@ -91,8 +83,6 @@ because that is our best guess at
 *   inception date: 2013
 *   reference implementation name: canvas-feedback.js
 *   reference implementation license: MIT license
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Canvas Feedback)
 
 An application of an analogue-video-like feedback effect to an [HTML5][]
@@ -103,8 +93,6 @@ of how it works, see
 
 *   implementation name: Canvas Feedback 1K
 *   implementation license: MIT license
-*   implementation language: Javascript
-*   implementation platform: HTML5
 
 Instructions:
 
@@ -184,9 +172,6 @@ process.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: chzrxl.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
 
 "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
@@ -208,9 +193,6 @@ organic-seeming emergent motion.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: circus-xamulus.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Circus Xamulus)
 
 A circle-based time-lapse space-filler.
@@ -221,8 +203,6 @@ A circle-based time-lapse space-filler.
 *   inception date: ca 1994
 *   reference implementation name: cyclobots.js
 *   reference implementation license: Freely Redistributable
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
 
 Cyclobots is an automaton that consists of a number of little virtual
@@ -239,7 +219,7 @@ patterns are more common.
 *   implementation name: Cyclobots (Visual Basic)
 *   implementation license: Freely Redistributable
 *   implementation language: Visual Basic
-*   implementation platform: ???
+*   implementation platform: Windows 3.1
 
 I originally conceived of this automaton, calling it
 an "interactive desktop toy", in or around 1994, and implemented
@@ -255,9 +235,6 @@ could use the mouse to attract/repel them from a chosen point.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: eine-kleine-glitchfraktal.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Eine kleine Glitchfraktal)
 
 A simple fractal (each rectangle contains four smaller rectangles)
@@ -273,9 +250,6 @@ of glitching applied to the rectangles.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: fibonacci-spiral.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Fibonacci Spiral)
 
 A spiral made up of semicircles with proportions in the Fibonacci sequence.
@@ -293,9 +267,6 @@ The animation is simply a zooming out and back in on the spiral.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: fingerspelling.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Fingerspelling)
 
 A simple interactive entertainment, intended to be experienced
@@ -315,9 +286,6 @@ with your mouse pointer.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: heronsis-hermnonicii.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Heronsis hermnonicii)
 
 An animated "plate" depicting a proto-cohort of *Heronsis hermnonicii*.
@@ -345,9 +313,6 @@ to try clicking on the entities.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: hirsute-miasma.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Hirsute Miasma)
 
 Your web browser is burdened by the sins of its ancestors
@@ -364,9 +329,6 @@ the "terminal" option to prevent this cycling.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: hypongtrochoid.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Hypongtrochoid)
 
 "Hypongtrochoid" is a portmanteau of
@@ -387,9 +349,6 @@ simple at all.
 *   reference distribution: [Lexeduct distribution](/distribution/Lexeduct distribution)
 *   inception date: Apr 2015
 *   reference implementation name: lexeduct-browser.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Lexeduct)
 
 A "livetextmangler" — an online tool which transforms text.  As you
@@ -401,9 +360,6 @@ real-time.  Can also be used on the command-line.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Apr 2016
 *   reference implementation name: markov-font.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Markov Font)
 
 Uses a 2D Markov chain to generate new glyphs from a character set.
@@ -413,9 +369,6 @@ Uses a 2D Markov chain to generate new glyphs from a character set.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: multicolouralism.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Multicolouralism)
 
 Animated op art: an interactive bleeding of colours.
@@ -438,9 +391,6 @@ of vision, focus and peripheral vision...)
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Apr 2015
 *   reference implementation name: noise-to-signal-1.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Noise to Signal No. 1)
 
 A generated animation involving randomness and not-so-much randomness.
@@ -455,9 +405,6 @@ a source image randomly onto either panel.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
 *   reference implementation name: prairie.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Prairie)
 
 An animated impressionistic depiction of the prairies.
@@ -472,9 +419,6 @@ of a grain elevator taken from Wikimedia.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
 *   reference implementation name: progression.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Progression)
 
 Animated op-art exhibiting a [moiré](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern) effect.
@@ -491,31 +435,15 @@ iterations, but it's very faint thereafter.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: radialjective.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Radialjective)
 
 An animated mathematical function, depicted in four different ways.
-
-### Ribos
-
-*   reference distribution: [C64 Demo Depot](/distribution/C64 Demo Depot)
-*   inception date: Apr 2007
-
-A simple Commodore 64 graphics demo that uses the raster interrupt facility
-of the VIC-II chip: the colour of the border of the screen is inverted,
-but only in the middle part of the screen.  Includes well-commented source
-in 6502 assembly language.
 
 ### Tentacles, Undamped
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: ca Feb 2014
 *   reference implementation name: tentacles-undamped.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Tentacles, Undamped)
 
 A simulation of undulating tentacles.  It starts off alright, but
@@ -527,9 +455,6 @@ damping.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Nov 2014
 *   reference implementation name: text-uniquifier.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Text Uniquifier)
 
 An online tool/amusement where you paste in some text and it displays
@@ -556,9 +481,6 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
 *   reference implementation name: the-frame.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/The Frame)
 
 An interactive exploration of the concept of The Frame in art,
@@ -579,29 +501,16 @@ of the computer screen.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2014
 *   reference implementation name: the-judgment-of-paris.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/The Judgment of Paris)
 
 A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
-
-### The PETulant Cursor
-
-*   reference distribution: [C64 Demo Depot](/distribution/C64 Demo Depot)
-*   inception date: ca 1989
-
-A tiny (44 byte) "display hack" for the Commodore 64.
 
 ### Two Fifty Six
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: May 2015
 *   reference implementation name: two-fifty-six.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Two Fifty Six)
 
 A graphical depiction of the first two hundred and fifty-six natural
@@ -613,9 +522,6 @@ assignments of colours to digits.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: uncle-ankur.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Uncle Ankur)
 
 An experimental animation employing gradients and
@@ -626,9 +532,6 @@ randomly-constructed transformation matrices.
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: ca Apr 2013
 *   reference implementation name: woman-on-film.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/Woman on Film)
 
 An interactive, navigable, animated thing based on several tracings of
