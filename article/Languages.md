@@ -2675,8 +2675,8 @@ or not.
 
 - - - -
 
-[1L]: TBD
-[2-ill]: TBD
+[1L]: http://esolangs.org/wiki/1L
+[2-ill]: http://esolangs.org/wiki/2-ill
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: TBD
 [Arboretuum]: ../article/Languages.md#arboretuum
@@ -2712,7 +2712,7 @@ or not.
 [Scheme]: TBD
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 [Tamerlane]: ../article/Languages.md#tamerlane
-[Thue]: TBD
+[Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: TBD
 [Turing-complete]: TBD
 [Unefunge-98]: TBD
@@ -2720,6 +2720,6 @@ or not.
 [Wierd]: ../article/Languages.md#wierd
 [Wierd (John Colagioia)]: TBD
 [Wierd (Milo van Handel)]: TBD
-[brainfuck]: TBD
+[brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
 

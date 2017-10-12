@@ -673,11 +673,11 @@ Naturally, you can also create new YO_DAWG objects.
 [Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
 [Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
 [Mascarpone]: ../article/Languages.md#mascarpone
-[Muriel]: http://catseye.tc/node/Muriel
+[Muriel]: http://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
 [Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
-[Underload]: http://catseye.tc/node/Underload
+[Underload]: http://esolangs.org/wiki/Underload
 [Unlikely]: ../article/Languages.md#unlikely
 [ZOWIE]: ../article/Languages.md#zowie
 [brainfuck]: http://esolangs.org/wiki/brainfuck

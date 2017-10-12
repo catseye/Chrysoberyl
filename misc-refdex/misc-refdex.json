@@ -310,6 +310,70 @@
     },
 
 
+    "Aubergine": {
+        "url": "http://esolangs.org/wiki/Aubergine"
+    },
+    "brainfuck": {
+        "url": "http://esolangs.org/wiki/brainfuck"
+    },
+    "Muriel": {
+        "url": "http://esolangs.org/wiki/Muriel"
+    },
+    "Smallfuck": {
+        "url": "http://esolangs.org/wiki/Smallfuck"
+    },
+    "Thue": {
+        "url": "http://esolangs.org/wiki/Thue"
+    },
+    "Underload": {
+        "url": "http://esolangs.org/wiki/Underload"
+    },
+    "VALGOL": {
+        "url": "http://esolangs.org/wiki/VALGOL"
+    },
+    "Ale": {
+        "url": "http://esolangs.org/wiki/Ale"
+    },
+    "BackFlip": {
+        "url": "http://esolangs.org/wiki/BackFlip"
+    },
+    "Black": {
+        "url": "http://esolangs.org/wiki/Black"
+    },
+    "LNUSP": {
+        "url": "http://esolangs.org/wiki/LNUSP"
+    },
+    "1L": {
+        "url": "http://esolangs.org/wiki/1L"
+    },
+    "1L_a": {
+        "url": "http://esolangs.org/wiki/1L_a"
+    },
+    "1L_AOI": {
+        "url": "http://esolangs.org/wiki/1L_AOI"
+    },
+    "PATH": {
+        "url": "http://esolangs.org/wiki/PATH"
+    },
+    "Qdeql": {
+        "url": "http://esolangs.org/wiki/Qdeql"
+    },
+    "Sceql": {
+        "url": "http://esolangs.org/wiki/Sceql"
+    },
+    "SNUSP": {
+        "url": "http://esolangs.org/wiki/SNUSP"
+    },
+    "2-ill": {
+        "url": "http://esolangs.org/wiki/2-ill"
+    },
+    "2L": {
+        "url": "http://esolangs.org/wiki/2L"
+    },
+    "PL-{GOTO}": {
+        "url": "http://www.worldcat.org/title/theory-of-computation/oclc/694056"
+    },
+
 
     "tc.catseye.yoob": {
         "anchor": "yoob", 
