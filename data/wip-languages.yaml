@@ -27,14 +27,6 @@ Deturgenchry.hs:
   implementation-type: interpreter
   host-language: Haskell
 
-Deturgenchry distribution: 
-  type: Distribution
-  github: catseye/Deturgenchry
-  fixed-tag: 2eb3b4a
-  test-requirements:
-  - Falderal
-  releases: []
-
 
 Kosheri:
   type: Programming Language
@@ -65,22 +57,6 @@ kosheri (C):
   implementation-type: interpreter
   host-language: C99
 
-Kosheri distribution: 
-  type: Distribution
-  github: catseye/Kosheri
-  tag-style: new
-  test-requirements:
-  - Falderal
-  releases:
-  - version: "0.1"
-    revision: "0.0"
-    url: http://catseye.tc/distfiles/kosheri-0.1.zip
-  - version: "0.1"
-    revision: "2016.0315"
-    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
-  - version: "0.1"
-    revision: "2017.0428"
-    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
 
 
 Pophery:
@@ -109,12 +85,6 @@ pophery.py:
   license: Unknown license
   implementation-type: interpreter
   host-language: Python
-
-Pophery distribution: 
-  type: Distribution
-  github: catseye/Pophery
-  fixed-tag: 1268947
-  releases: []
 
 
 Robin:
@@ -150,20 +120,6 @@ Robin.lhs:
   license: BSD license
   implementation-type: interpreter
   host-language: Haskell
-
-Robin distribution: 
-  type: Distribution
-  github: catseye/Robin
-  tag-style: new
-  test-requirements:
-  - Falderal
-  releases:
-  - version: "0.1"
-    revision: "0.0"
-    url: http://catseye.tc/distfiles/robin-0.1.zip
-  - version: "0.2"
-    revision: "0.0"
-    url: http://catseye.tc/distfiles/robin-0.2.zip
 
 
 Castile:

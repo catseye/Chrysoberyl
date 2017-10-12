@@ -33,6 +33,12 @@ date
 
 genre (nominal)
 
+### variant-of
+
+*   optional: true
+
+variant of
+
 ### development-stage
 
 *   optional: true
@@ -56,6 +62,12 @@ influences
 *   optional: true
 
 paradigms
+
+### etymology
+
+*   optional: true
+
+etymology
 
 ### reference-distribution
 

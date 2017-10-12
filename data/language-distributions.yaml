@@ -1426,3 +1426,70 @@ ZOWIE distribution:
   - version: "1.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/zowie-1.1.zip
+
+
+
+
+
+Deturgenchry distribution: 
+  type: Distribution
+  github: catseye/Deturgenchry
+  fixed-tag: 2eb3b4a
+  test-requirements:
+  - Falderal
+  releases: []
+
+Kosheri distribution: 
+  type: Distribution
+  github: catseye/Kosheri
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kosheri-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
+
+Pophery distribution: 
+  type: Distribution
+  github: catseye/Pophery
+  fixed-tag: 1268947
+  releases: []
+
+Robin distribution: 
+  type: Distribution
+  github: catseye/Robin
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.2.zip
+
+Kosheri distribution: 
+  type: Distribution
+  github: catseye/Kosheri
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kosheri-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
+

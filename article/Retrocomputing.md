@@ -271,7 +271,7 @@ of a generation. (Possibly.)
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 
 [Apple II]: ../article/Retrocomputing.md#apple-ii
-[Apple Befunge]: http://catseye.tc/node/Apple_Befunge
+[Apple Befunge]: ../article/WIP%20Languages.md#apple-befunge
 [Dungeons of Ekileugor]: ../article/Games.md#dungeons-of-ekileugor
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
@@ -283,7 +283,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: http://nasm.us/
-[SixtyPical]: http://catseye.tc/node/SixtyPical
+[SixtyPical]: ../article/WIP%20Languages.md#sixtypical
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-SOL]: ../article/Languages.md#situ-sol
 [SITU-MON]: ../article/Tools.md#situ-mon

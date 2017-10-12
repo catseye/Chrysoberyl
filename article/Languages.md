@@ -171,7 +171,8 @@ despite its minimalism, it is finite-automata-complete; it is also the
 
 *   license: Freely Redistributable
 *   implementation-type: interpreter
-*   host-language: Visual Basic
+*   host-language: [Visual Basic][]
+
 #### Implementation: tc.catseye.yoob.smetana
 
 *   license: Public Domain
@@ -2748,4 +2749,4 @@ or not.
 [NASM Assembler]: http://nasm.us/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Haskell]: http://www.haskell.org/
-
+[Visual Basic]: TBD

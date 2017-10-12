@@ -20,6 +20,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Archived.md" \
                           "article/Languages.md" \
                           "article/Language Implementations.md" \
+                          "article/WIP Languages.md" \
                  >refdex.json
 
 ## non-lists
@@ -87,4 +88,9 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Language Implementation.md" \
          "article/Language Implementations.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Language.md" \
+         "article/WIP Languages.md" \
          --rewrite-markdown || exit 1
