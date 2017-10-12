@@ -1,28 +1,4 @@
 # encoding: UTF-8
-Chris Pressey's Lingography:
-  type: Collection
-  domain: Chris Pressey
-  description: |
-    (What is a "lingography", you ask?  Well, if bands have
-    _disc_-ographies and directors have _film_-ographies...)
-    
-    This is a list, given in approximate chronological order, of the languages
-    I've designed and/or implemented.
-    It is more-or-less unabridged, but not intended to be *completely* exhaustive.
-    Most of these language are programming languages; some of them are
-    formal languages, and
-    some of them are automata of some kind.  Many of them are esolangs.
-    Some of them possibly aren't even languages at all; they just seem to fit
-    the general theme of the list.  Most of them have been implemented, and
-    these implementations are available in downloadable distrbutions.
-    At the bottom there is also a list of languages that I've implemented,
-    but which were designed by someone else.
-    
-    You may also be interested in reading about
-    [[Retrospective: Chris Pressey on Language Design|what it was like to design these]]
-    and/or
-    [[LoUIE|the ones that got away]].
-
 Implementation Languages:
   type: Collection
   description: |

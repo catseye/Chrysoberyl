@@ -145,6 +145,21 @@
     }, 
 
 
+
+    "What is this I don't even": {
+        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md"
+    }, 
+    "Befunge Mailing List Working Group": {
+        "url": "http://esolangs.org/wiki/Befunge"
+    }, 
+    "Star Building Materials": {
+        "url": "http://www.starbuilding.ca/"
+    }, 
+    "Commodore Business Machines": {
+        "url": "https://en.wikipedia.org/wiki/Commodore_International"
+    }, 
+
+
     "*W": {
         "url": "http://esolangs.org/wiki/*W"
     }, 
@@ -220,6 +235,9 @@
     "Tools by Chris Pressey": {
         "url": "http://catseye.tc/article/Tools"
     },
+    "Chris Pressey's Lingography": {
+        "url": "http://catseye.tc/article/Languages"
+    }, 
 
 
     "Book": {

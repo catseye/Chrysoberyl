@@ -16,7 +16,7 @@ There is also a list of languages that I've implemented, but which were designed
 over here: [Language Implementations](Language Implementations.md).
 
 You may also be interested in reading about
-[what it was like to design these]() and/or
+[what it was like to design these](Retrospective: Chris Pressey on Language Design) and/or
 [the ones that got away](LoUIE.md).
 
 Languages I've Designed
