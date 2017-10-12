@@ -2,6 +2,8 @@
 
 ARTICLES=../Chrysoberyl/article
 
+feedmark --output-refdex article/*.md >article-refdex.json
+
 REFDEXES=misc-refdex/games-refdex.json,misc-refdex/texts-refdex.json,misc-refdex/retrocomputing-refdex.json,misc-refdex/misc-refdex.json
 
 feedmark --input-refdexes=$REFDEXES --output-refdex \

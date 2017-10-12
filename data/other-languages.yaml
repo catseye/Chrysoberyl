@@ -62,17 +62,6 @@ ANSI C:
     title: -mno-cygwin
     description: Building MinGW Executables using Cygwin
 
-Assembly:
-  type: Programming Language Family
-  genre: Production language
-  authors: []
-  development-stage: vintage
-  no-specification: true
-  description: |
-    Refers to many kind of languages which compile ("assemble") to
-    [[native code]].  Assembler syntax often has the property that
-    it is not too hard to write a program in assembly to parse it,
-    for bootstrapping purposes.
 
 BASIC:
   type: Programming Language Family
@@ -255,33 +244,7 @@ Javascript:
     title: Speed Up Your Javascript Load Time
     description: Assorted useful tips for, uh, speeding up Javascript load time
 
-Firefox:
-  type: Implementation
-  reference: false
-  implementation-of:
-  - Javascript
-  implementation-type: interpreter
-  host-language: C++
-  license: MPL 2.0
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.mozilla.org/
 
-
-Lisp: 
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Functional
-  - Imperative
-  computational-class: Turing-complete
-  specification-link: http://www.lispworks.com/documentation/HyperSpec/Front/index.htm
-  development-stage: mature
-  authors: []
-  description: |
-    Lisp was one of the first programming languages to attempt to be a functional
-    programming language.
 
 Lua:
   type: Programming Language

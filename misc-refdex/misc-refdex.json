@@ -264,6 +264,15 @@
     "Erlang/OTP R13B": {
         "url": "http://www.erlang.org/downloads/R13B"
     },
+    "Assembly": {
+        "url": "https://en.wikipedia.org/wiki/Assembly_language"
+    },
+    "Firefox": {
+        "url": "https://www.mozilla.org/en-US/firefox/"
+    },
+    "Lisp": {
+        "url": "http://www.lispworks.com/documentation/HyperSpec/Front/index.htm"
+    },
 
 
 
