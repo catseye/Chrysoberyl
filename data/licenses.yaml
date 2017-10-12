@@ -17,10 +17,6 @@ MPL 2.0:
   links:
   - http://www.mozilla.org/MPL/2.0/
   - http://www.mozilla.org/MPL/2.0/FAQ.html
-Erlang Public License:
-  type: License
-  links:
-  - http://www.erlang.org/EPLICENSE
 Artistic License:
   type: License
   description: |

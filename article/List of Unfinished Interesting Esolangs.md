@@ -670,7 +670,7 @@ Naturally, you can also create new YO_DAWG objects.
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Burro]: ../article/Languages.md#burro
 [Cabra]: ../article/Languages.md#cabra
-[Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
+[Erlang]: http://www.erlang.org/
 [Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
 [Mascarpone]: ../article/Languages.md#mascarpone
 [Muriel]: http://esolangs.org/wiki/Muriel

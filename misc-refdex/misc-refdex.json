@@ -258,6 +258,13 @@
     "Java applet": {
         "url": "https://en.wikipedia.org/wiki/Java_applet"
     },
+    "Erlang": {
+        "url": "http://www.erlang.org/"
+    },
+    "Erlang/OTP R13B": {
+        "url": "http://www.erlang.org/downloads/R13B"
+    },
+
 
 
     "wierd.c (Milo van Handel)": {

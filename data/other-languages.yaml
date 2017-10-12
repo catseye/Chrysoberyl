@@ -176,40 +176,6 @@ CSS:
   authors: []
 
 
-Erlang:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Functional
-  generally-compiled: true
-  computational-class: Turing-complete
-  standards-body: http://www.erlang.org/
-  development-stage: mature
-  authors: []
-  references:
-  - title: Open Source Erlang/OTP
-    description: Ericsson's official distribution site
-    url: http://www.erlang.org/
-  description: |
-    Erlang is a single-assignment functional programming language with
-    pattern matching.  It is almost entirely pure, save for the fact that
-    lightweight Erlang processes can exchange messages with each other.
-
-Erlang/OTP R13B:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Erlang
-  # well, it builds beam files, but
-  implementation-type: interpreter
-  host-language: C99
-  license: Erlang Public License
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.erlang.org/
-
-
 # should probably call this Haskell 98
 Haskell:
   type: Programming Language
