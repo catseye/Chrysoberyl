@@ -65,6 +65,7 @@ def mkdistjson(universe, options, config):
 
 
 # NOTES made while browsing the two versions:
+#   host-platform on implementations didn't get generated.  review?
 # Things to add MANUALLY:
 #   "Apple Befunge" is a variant of Befunge-93
 #   SMETANA: link to proof that it is FSA-complete
@@ -146,98 +147,41 @@ def export_lingography(universe, options, config):
         else:
             return u'[{}]({})'.format(segments[1], segments[0])
 
-    f = codecs.open('../Chrysoberyl/article/Lingography.md', 'w', 'utf-8')
+    f = codecs.open('../Chrysoberyl/article/Language Implementations.md', 'w', 'utf-8')
     def write(s):
         f.write(s + '\n')
 
-    write("""\
-Chris Pressey's Lingography
-===========================
-
-(What is a "lingography", you ask? Well, if bands have disc-ographies and directors have film-ographies...)
-
-This is a list, given in approximate chronological order, of the languages I've designed and/or implemented.
-It is more-or-less unabridged, but not intended to be completely exhaustive. Most of these language are
-programming languages; some of them are formal languages, and some of them are automata of some kind.
-Many of them are esolangs. Some of them possibly aren't even languages at all; they just seem to fit the
-general theme of the list. Most of them have been implemented, and these implementations are available in
-downloadable distrbutions. At the bottom there is also a list of languages that I've implemented, but which
-were designed by someone else.
-
-You may also be interested in reading about what it was like to design these and/or the ones that got away.
-
-Languages I've Designed
------------------------
-
-""")
-
-    for thing in data:
-        if thing['title'] in ('Cyclobots', 'ETHEL', 'Okapi', 'Chzrxl',):
-            continue
-        write(u"### {}".format(thing['title']))
-        write("")
-
-        for key in ('type', 'inception-date', 'genre', 'development-stage', 'computational-class'):
-            write(u"*   {}: {}".format(key, thing.get(key, '???')))
-        for key in ('influences', 'paradigms'):
-            if key in thing:
-                write(u"*   {}: {}".format(key, ', '.join(thing[key])))
-
-        if 'defining-distribution' not in thing:
-            ref_i = space.reference_implementation_of(thing['title'])
-            if ref_i and 'in-distributions' in space[ref_i]:
-                thing['defining-distribution'] = space[ref_i]['in-distributions'][0]
-
-        if thing['title'] not in ('Full Moon Fever', 'Befunge-97', 'Bear Food', 'Carriage',):
-            assert 'defining-distribution' in thing, thing['title']
-
-        if 'defining-distribution' in thing:
-            d = thing['defining-distribution']
-            write(u"*   reference-distribution: [{}](/distribution/{})".format(d, d))
-
-        for url in online_implementations(thing['title']):
-            write(u"*   online @ [catseye.tc](http://catseye.tc/{})".format(url))
-
-        if 'sample' in thing:
-            write("*   sample program:")
-            write("    ")
-            for line in thing['sample'].split('\n'):
-                write(u"        {}".format(line))
-
-        write("")
-
-        description = thing['description']
-        description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
-        write(description)
-
-        commentary = thing.get('commentary')
-        if commentary:
-            commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
-            write(commentary)
-
-        def write_impl_properties(node):
-            if 'in-distribution' in node:
-                d = node['in-distribution']
-                write(u"*   in-distribution: [{}](/distribution/{})".format(d, d))
-            for key in ('license', 'implementation-type', 'host-language',):
-                write(u"*   {}: {}".format(key, node.get(key, '???')))
-            for key in ('target-language',):
-                if key in node:
-                    write(u"*   {}: {}".format(key, node[key]))
-
-        for implementation_key, node in space.related_items('implementation-of', key=thing['title']):
-            if node.get('reference', None) is not None:
-                write("#### Reference Implementation: {}".format(implementation_key))
+    for thing in sorted(space.keys()):
+        if space[thing]['type'] == 'Implementation' and 'Chris Pressey' in space[thing]['authors']:
+            implementation_of_key = space[thing].get('implementation-of')
+            if isinstance(implementation_of_key, list): implementation_of_key = implementation_of_key[0]
+            implementation_of = space[implementation_of_key]
+            if implementation_of.get('type') == 'Programming Language' and 'Chris Pressey' not in implementation_of['authors']:
+                write(u"### {}".format(thing))
                 write("")
-                write_impl_properties(node)
+                write("*   implementation of: {}".format(implementation_of_key))
+                write("*   implementation type: {}".format(space[thing].get('implementation-type', '???')))
+                if 'host-platform' in space[thing]:
+                    write("*   host platform: {}".format(space[thing].get('host-platform', '???')))
+                write("*   host language: {}".format(space[thing].get('host-language', '???')))
+                if 'target-language' in space[thing]:
+                    write("*   target language: {}".format(space[thing].get('target-language', '???')))
+                write("*   inception date: {}".format(space[thing].get('inception-date', '???')))
+                for d in space[thing].get('in-distributions', []):
+                    write(u"*   in distribution: [{}](/distribution/{})".format(d, d))
+                for url in online_implementations(implementation_of_key):
+                    write(u"*   online @ [catseye.tc](http://catseye.tc/{})".format(url))
 
-        for implementation_key, node in space.related_items('implementation-of', key=thing['title']):
-            if node.get('reference', None) is not None:
-                continue
-            write("#### Implementation: {}".format(implementation_key))
-            write("")
-            write_impl_properties(node)
-        write("")
+                write("")
+                
+                description = space[thing].get('description', '')
+                description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
+                write(description)
+                
+                commentary = space[thing].get('commentary')
+                if commentary:
+                    commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
+                    write(commentary)
 
     write("- - - -")
     write("")
