@@ -11,7 +11,7 @@ but which were not designed by Cat's Eye Technologies.
 
 *   implementation of: [PL-{GOTO}][]
 *   implementation type: compiler
-*   host language: Haskell
+*   host language: [Haskell][]
 *   target language: MSIL
 *   inception date: May 2011
 *   in distribution: [PL-{GOTO}.NET distribution](/distribution/PL-{GOTO}.NET distribution)
@@ -38,7 +38,7 @@ keeping the `←` symbol for assignment.
 
 *   implementation of: [Aubergine][]
 *   implementation type: interpreter
-*   host language: Haskell
+*   host language: [Haskell][]
 *   inception date: Oct 18, 2012
 
 I implemented Aubergine because the reference interpreter is buggy and
@@ -52,7 +52,7 @@ Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergin
 
 *   implementation of: [Muriel][]
 *   implementation type: interpreter
-*   host language: Perl
+*   host language: [Perl][]
 *   inception date: Mar 23, 2001
 *   in distribution: [Muriel distribution](/distribution/Muriel distribution)
 
@@ -64,7 +64,7 @@ the first full implementation of that language.
 
 *   implementation of: [brainfuck][]
 *   implementation type: interpreter
-*   host language: Erlang
+*   host language: [Erlang][]
 *   inception date: May 5, 2003
 *   in distribution: [pibfi distribution](/distribution/pibfi distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -80,7 +80,7 @@ point that made me recognize just how silly this project was...
 
 *   implementation of: [Smallfuck][]
 *   implementation type: compiler
-*   host language: ANSI C
+*   host language: [ANSI C][]
 *   target language: lookup table
 *   inception date: Jun 23, 2005
 *   in distribution: [The Dipple](/distribution/The Dipple)
@@ -95,7 +95,7 @@ There is also an old [sf2tab distribution](/distribution/sf2tab distribution).
 
 *   implementation of: [Underload][]
 *   implementation type: interpreter
-*   host language: ANSI C
+*   host language: [ANSI C][]
 *   inception date: Sep 2010
 *   in distribution: [stringie distribution](/distribution/stringie distribution)
 
@@ -280,7 +280,7 @@ did implement it.
 
 *   implementation of: [VALGOL][]
 *   implementation type: parser
-*   host language: Erlang
+*   host language: [Erlang][]
 *   inception date: Oct 11, 2002
 *   in distribution: [The Dipple](/distribution/The Dipple)
 
@@ -313,4 +313,8 @@ that a separate scanner is totally not needed.  Bitchen!
 [SNUSP]: http://esolangs.org/wiki/SNUSP
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
+[ANSI C]: TBD
+[Perl]: TBD
+[Erlang]: http://www.erlang.org/
+[Haskell]: TBD
 

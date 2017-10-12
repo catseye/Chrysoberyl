@@ -952,7 +952,7 @@ single-assignment or they're not...)
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Erlang
+*   host-language: [Erlang][]
 
 ### GraNoLa/M
 
@@ -978,7 +978,7 @@ same time.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Erlang
+*   host-language: [Erlang][]
 
 ### Kangaroo Iceberg
 
@@ -2741,3 +2741,5 @@ or not.
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: TBD
 [Perl]: TBD
+[Erlang]: http://www.erlang.org/
+
