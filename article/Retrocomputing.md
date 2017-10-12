@@ -271,7 +271,7 @@ of a generation. (Possibly.)
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 
 [Apple II]: ../article/Retrocomputing.md#apple-ii
-[Apple Befunge]: ../article/WIP%20Languages.md#apple-befunge
+[Apple Befunge]: ../article/Languages.md#apple-befunge
 [Dungeons of Ekileugor]: ../article/Games.md#dungeons-of-ekileugor
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64

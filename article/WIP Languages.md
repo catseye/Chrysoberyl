@@ -210,30 +210,6 @@ Kind of compiles, too.
 *   implementation-type: compiler
 *   target-language: C99
 
-### Apple Befunge
-
-*   type: Programming Language
-*   inception-date: Jul 3, 2000
-*   genre: Esolang
-*   variant-of: Befunge-93
-*   development-stage: archival
-*   paradigms: Stack-based, 2-dimensional, Self-modifying
-
-Note this is not actually a work in progress, and should be moved.
-
-Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
-Befunge-93, with some extra Befunge-96-esque instructions and some
-Apple ][+-specific instructions.
-
-#### Reference Implementation: APPLE BEFUNGE EDITOR
-
-*   development-stage: archival
-*   in-distribution: Apple Befunge distribution
-*   license: Public Domain
-*   implementation-type: interpreter, editor
-*   host-language: Applesoft BASIC
-*   host-platform: Apple II
-
 ### Zame
 
 *   type: Programming Language

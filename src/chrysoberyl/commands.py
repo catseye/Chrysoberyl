@@ -68,17 +68,11 @@ def mkdistjson(universe, options, config):
 #   host-platform on implementations didn't get generated.  review?
 #   what happened to TURKEY BOMB?
 # Things to add MANUALLY:
-#   "Apple Befunge" is a variant of Befunge-93
-#   authors on Wierd (with John Colagioia, Ben Olmstead)
-#   - implementations on Wierd
 #   RUBE bully automaton link
 #   make Befunge-98 Trefunge-98 Unefunge-98 all link near it!
-#   Illberon, Illgola-2, Open Sores Illgol## link near ILLGOL
 #   Images for ILLGOL
-#   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
+#   CSS/JS: Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 #   Show output for Xigxag
-#   Jacciata is variant of Jaccia
-#   Crabwell, P-Normal Pixley, Pifxley are variants
 #   Matchbox, Wang Tiler, SGOL, SITU-SOL should have sample programs / screenshots
 #   many entry @
 

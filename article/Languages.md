@@ -63,6 +63,7 @@ I believe it came from mis-remembering the title of the song
 *   computational-class: known not Turing-complete
 *   paradigms: Stack-based
 *   reference-distribution: [Maentwrog distribution](/distribution/Maentwrog distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Maentwrog)
 *   sample program: 
 
         *a *b *c
@@ -109,6 +110,7 @@ wherein it is defined thusly:
 *   influences: Maentwrog, brainfuck, FALSE
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Befunge-93 distribution](/distribution/Befunge-93 distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   sample program: 
 
@@ -182,6 +184,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 ### Wierd
 
 *   type: Programming Language
+*   authors: Chris Pressey, John Colagioia, and Ben Olmstead
 *   inception-date: 1997
 *   genre: Esolang
 *   development-stage: not fully complete
@@ -213,12 +216,34 @@ Wierd is a programming language, inspired somewhat by [Befunge-93][] and
 [brainfuck][], where instructions are not determined by the symbols in a
 sequence of symbols, but by the *bends* in a sequence of symbols.
 
-The original Wierd, designed during a three-way email conversation, is
+The original Wierd, designed during a three-way email conversation
+between Chris Pressey, John Colagioia, and Ben Olmstead, is
 probably lost and gone forever, but two dialects have been specified
 (sorta) and implemented: [Wierd (John Colagioia)][] and
 [Wierd (Milo van Handel)][].
 
 The above sample program was written by Milo van Handel.
+
+#### Implementation: wierd.c (John Colagioia)
+
+*   authors: John Colagioia
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
+
+#### Implementation: wierd.c (Milo van Handel)
+
+*   authors: Milo van Handel
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
+
+#### Implementation: wierd-jnc.js
+
+*   authors: Chris Pressey
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Javascript][]
 
 ### RUBE
 
@@ -229,6 +254,7 @@ The above sample program was written by Milo van Handel.
 *   computational-class: ???
 *   paradigms: Bully automaton, 2-dimensional
 *   reference-distribution: [RUBE distribution](/distribution/RUBE distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
 *   sample program: 
 
           0a21646c726f77202c6f6c6c6548
@@ -319,6 +345,7 @@ other languages (or, well, cellular automata — close enough).
 *   influences: RUBE
 *   paradigms: Cellular automaton
 *   reference-distribution: [REDGREEN distribution](/distribution/REDGREEN distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
 *   online @ [catseye.tc](http://catseye.tc/installation/REDGREEN)
 *   sample program: 
 
@@ -494,6 +521,7 @@ a strict type system, and some unusual rules for parameters and return values.
 *   computational-class: ???
 *   paradigms: Imperative
 *   reference-distribution: [Illgol: Grand Mal](/distribution/Illgol: Grand Mal)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
 *   sample program: 
 
         NB eh.ill
@@ -504,7 +532,6 @@ a strict type system, and some unusual rules for parameters and return values.
         50 reinstate f;
         60 do f(3);
         FIN
-        
 
 ILLGOL is a joke language which parodies the sort of language designed by the
 sheer fact that a compiler for it has been hacked together.
@@ -515,6 +542,40 @@ sheer fact that a compiler for it has been hacked together.
 *   implementation-type: compiler
 *   host-language: [ANSI C][]
 *   target-language: x86 machine code
+
+#### Illgola-2
+
+Successor to ILLGOL.
+
+#### Illberon
+
+Successor to Illgola-2.
+
+#### Open Sores Illgol##
+
+Successor to Illberon.
+
+### Apple Befunge
+
+*   type: Programming Language
+*   inception-date: Jul 3, 2000
+*   genre: Esolang
+*   variant-of: [Befunge-93][]
+*   development-stage: archival
+*   paradigms: Stack-based, 2-dimensional, Self-modifying
+
+Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
+Befunge-93, with some extra Befunge-96-esque instructions and some
+Apple ][+-specific instructions.
+
+#### Reference Implementation: APPLE BEFUNGE EDITOR
+
+*   development-stage: archival
+*   in-distribution: Apple Befunge distribution
+*   license: Public Domain
+*   implementation-type: interpreter, editor
+*   host-language: Applesoft BASIC
+*   host-platform: Apple II
 
 ### SMITH
 
@@ -1620,6 +1681,10 @@ of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.ar
 Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
 upon this to find the shortest path through a maze, if one exists and is unique.
 
+#### Jacciata
+
+Variant of Jaccia which finds the shortest path.
+
 #### Reference Implementation: jaccia.alp
 
 *   license: BSD license
@@ -1684,6 +1749,18 @@ instances of 54 unique symbols in 684 cons cells.)
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+
+#### Crabwell
+
+Variant, TBD here.
+
+#### P-Normal Pixley
+
+Variant, TBD here.
+
+#### Pifxley
+
+Variant, TBD here.
 
 ### Dieter
 

@@ -23,6 +23,12 @@ acronym-for
 
 type
 
+### authors
+
+*   optional: true
+
+authors
+
 ### inception-date
 
 *   optional: true
