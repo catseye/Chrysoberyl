@@ -67,9 +67,9 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 #### Reference Implementation: BefOS (NASM)
 
 *   license: Public Domain
-*   host-language: NASM Assembler
-*   host-platform: IBM PC compatible
-*   build-requirements: ANSI C, Perl
+*   host-language: [NASM Assembler][]
+*   host-platform: [IBM PC compatible][]
+*   build-requirements: [ANSI C][], [Perl][]
 *   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
 
 [NetBSD]: http://netbsd.org/
@@ -78,6 +78,9 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
 [Befunge]: http://catseye.tc/node/Befunge
 [Befunge-93]: ../article/Languages.md#befunge-93
-[NASM]: http://catseye.tc/node/NASM
+[NASM]: http://nasm.us/
+[NASM Assembler]: http://nasm.us/
 [Funicular]: ../article/Tools.md#funicular
+[ANSI C]: TBD
+[Perl]: http://www.perl.org/
 

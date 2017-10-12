@@ -427,13 +427,14 @@ executable!
 
 *   license: Freely Redistributable
 *   implementation-type: compiler
-*   host-language: NASM Assembler
+*   host-language: [NASM Assembler][]
 *   target-language: x86 machine code
+
 #### Implementation: sheltas
 
 *   license: Freely Redistributable
 *   implementation-type: compiler
-*   host-language: Shelta
+*   host-language: [Shelta][]
 *   target-language: x86 machine code
 
 ### Bear Food
@@ -2742,4 +2743,5 @@ or not.
 [ANSI C]: TBD
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
+[NASM Assembler]: http://nasm.us/
 

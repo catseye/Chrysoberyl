@@ -288,6 +288,13 @@
     "PHP": {
         "url": "http://www.php.net/"
     },
+    "NASM": {
+        "url": "http://nasm.us/"
+    },
+    "NASM Assembler": {
+        "url": "http://nasm.us/"
+    },
+
 
 
     "wierd.c (Milo van Handel)": {

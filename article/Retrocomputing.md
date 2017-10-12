@@ -282,7 +282,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
-[NASM]: http://www.nasm.us/
+[NASM]: http://nasm.us/
 [SixtyPical]: http://catseye.tc/node/SixtyPical
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-SOL]: ../article/Languages.md#situ-sol

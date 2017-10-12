@@ -521,36 +521,6 @@ Ophis:
   in-distribution: Ophis Assembler distribution
 
 
-NASM Assembler:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  member-of: Assembly
-  generally-compiled: true
-  computational-class: Finite-automata-complete
-  standards-body: http://nasm.us/
-  development-stage: mature
-  authors: []
-
-NASM:
-  type: Implementation
-  implementation-of:
-  - NASM Assembler
-  implementation-type: compiler
-  reference: true
-  license: MIT license
-  host-language: C99
-  target-language: x86 machine code
-  in-distribution: NASM Assembler distribution
-
-NASM Assembler distribution:
-  type: Distribution
-  reference: true
-  links:
-  - http://www.nasm.us/
-
-
 # heh.  for sf2tab:
 lookup table:
   type: Programming Language

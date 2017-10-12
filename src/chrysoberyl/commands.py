@@ -66,6 +66,7 @@ def mkdistjson(universe, options, config):
 
 # NOTES made while browsing the two versions:
 #   host-platform on implementations didn't get generated.  review?
+#   what happened to TURKEY BOMB?
 # Things to add MANUALLY:
 #   "Apple Befunge" is a variant of Befunge-93
 #   SMETANA: link to proof that it is FSA-complete
