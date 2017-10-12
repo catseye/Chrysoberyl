@@ -1,3 +1,8 @@
+Gewgaws
+=======
+
+Gewgaws.
+
 ### A Minimalist Critique of Tetris
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
@@ -84,10 +89,6 @@ because that is our best guess at
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
-*   reference implementation name: Canvas Feedback 1K
-*   reference implementation license: MIT license
-*   reference implementation language: Javascript
-*   reference implementation platform: HTML5
 *   reference implementation name: canvas-feedback.js
 *   reference implementation license: MIT license
 *   reference implementation language: Javascript
@@ -99,6 +100,11 @@ canvas element, with in-browser controls by which the feedback properties
 can be adjusted.  For some background and an explanation
 of how it works, see
 [its README document](https://github.com/catseye/Canvas-Feedback/).
+
+*   implementation name: Canvas Feedback 1K
+*   implementation license: MIT license
+*   implementation language: Javascript
+*   implementation platform: HTML5
 
 Instructions:
 
@@ -213,10 +219,6 @@ A circle-based time-lapse space-filler.
 
 *   reference distribution: [???](/distribution/???)
 *   inception date: ca 1994
-*   reference implementation name: Cyclobots (Visual Basic)
-*   reference implementation license: Freely Redistributable
-*   reference implementation language: Visual Basic
-*   reference implementation platform: ???
 *   reference implementation name: cyclobots.js
 *   reference implementation license: Freely Redistributable
 *   reference implementation language: Javascript
@@ -233,6 +235,11 @@ A group of cyclobots tends to fall into one of several semi-stable
 patterns.  The simplest of these is just a rotating circle, but
 more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
 patterns are more common.
+
+*   implementation name: Cyclobots (Visual Basic)
+*   implementation license: Freely Redistributable
+*   implementation language: Visual Basic
+*   implementation platform: ???
 
 I originally conceived of this automaton, calling it
 an "interactive desktop toy", in or around 1994, and implemented
@@ -383,10 +390,6 @@ simple at all.
 *   reference implementation license: Public Domain
 *   reference implementation language: Javascript
 *   reference implementation platform: HTML5
-*   reference implementation name: lexeduct.js
-*   reference implementation license: Public Domain
-*   reference implementation language: Javascript
-*   reference implementation platform: ???
 *   online @ [catseye.tc](http://catseye.tc/installation/Lexeduct)
 
 A "livetextmangler" — an online tool which transforms text.  As you

@@ -1,0 +1,73 @@
+# encoding: UTF-8
+# also contains the distributions for these gewgaws
+
+
+Ribos: 
+  type: Gewgaw
+  # sigh, it's not really a gewgaw either, or at least not a very good one.
+  defining-distribution: C64 Demo Depot
+  summary: Well-commented C64 raster interrupt example
+  inception-date: April 2007
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    A simple Commodore 64 graphics demo that uses the raster interrupt facility
+    of the VIC-II chip: the colour of the border of the screen is inverted,
+    but only in the middle part of the screen.  Includes well-commented source
+    in 6502 assembly language.
+  development-stage: mature
+
+Ribos distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2007.0410"
+    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
+  - version: "1.1"
+    revision: "2010.0430"
+    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+
+
+The PETulant Cursor: 
+  type: Gewgaw
+  defining-distribution: C64 Demo Depot
+  summary: A tiny C64 "display hack"
+  inception-date: ca 1989
+  authors:
+  - Chris Pressey
+  auspices:
+  - Cat's Eye Technologies
+  description: |
+    A tiny (44 byte) "display hack" for the Commodore 64.
+  development-stage: vintage
+
+The PETulant Cursor distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2008.0401"
+    url: http://catseye.tc/distfiles/petulant-2008.0401.zip
+
+
+
+Plea of Thunder:
+  type: Gewgaw
+  development-stage: not fully complete
+  no-specification: true
+  # authors: VARIABLE
+  inception-date: 2012
+  description: |
+    Conceptual art: A Java applet that you and your friends can own!
+
+PleaOfThunder.java:
+  type: Implementation
+  license: Public Domain
+  host-language: Java
+  implementation-of:
+  - Plea of Thunder
+  online-locations:
+  - installation/Plea of Thunder
