@@ -2677,12 +2677,12 @@ or not.
 
 [1L]: TBD
 [2-ill]: TBD
-[ALPACA]: ../article/Lingography.md#alpaca
+[ALPACA]: ../article/Languages.md#alpaca
 [Alise]: TBD
-[Arboretuum]: ../article/Lingography.md#arboretuum
+[Arboretuum]: ../article/Languages.md#arboretuum
 [BASIC]: TBD
-[Befunge-93]: ../article/Lingography.md#befunge-93
-[Befunge-97]: ../article/Lingography.md#befunge-97
+[Befunge-93]: ../article/Languages.md#befunge-93
+[Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: TBD
 [Ben Olmstead]: TBD
 [BitChanger]: http://esolangs.org/wiki/BitChanger
@@ -2690,34 +2690,34 @@ or not.
 [Chris Pressey]: TBD
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Conway's Game of Life]: TBD
-[Emmental]: ../article/Lingography.md#emmental
+[Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards]: TBD
-[Etcha]: ../article/Lingography.md#etcha
+[Etcha]: ../article/Languages.md#etcha
 [FALSE]: http://esolangs.org/wiki/FALSE
 [Falderal]: ../article/Formats.md#falderal
-[Funge-98]: ../article/Lingography.md#funge-98
+[Funge-98]: ../article/Languages.md#funge-98
 [Gregor Richards]: TBD
-[ILLGOL]: ../article/Lingography.md#illgol
+[ILLGOL]: ../article/Languages.md#illgol
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
 [Lua]: TBD
 [Marinus]: http://esolangs.org/wiki/User:Marinus
-[Pixley]: ../article/Lingography.md#pixley
-[RUBE]: ../article/Lingography.md#rube
+[Pixley]: ../article/Languages.md#pixley
+[RUBE]: ../article/Languages.md#rube
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
-[SMITH]: ../article/Lingography.md#smith
+[SMITH]: ../article/Languages.md#smith
 [Scheme]: TBD
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
-[Tamerlane]: ../article/Lingography.md#tamerlane
+[Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: TBD
 [Trefunge-98]: TBD
 [Turing-complete]: TBD
 [Unefunge-98]: TBD
 [Var'aq]: http://esolangs.org/wiki/Var'aq
-[Wierd]: ../article/Lingography.md#wierd
+[Wierd]: ../article/Languages.md#wierd
 [Wierd (John Colagioia)]: TBD
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: TBD
