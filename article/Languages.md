@@ -1119,7 +1119,7 @@ graphs, so Beturing is [Turing-complete][].
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Lua
+*   host-language: [Lua][]
 
 ### Bhuna
 
@@ -1128,7 +1128,7 @@ graphs, so Beturing is [Turing-complete][].
 *   genre: Production language
 *   development-stage: archival
 *   computational-class: believed Turing-complete
-*   influences: Lua
+*   influences: [Lua][]
 *   paradigms: Imperative, Functional
 *   reference-distribution: [Bhuna distribution](/distribution/Bhuna distribution)
 *   sample program: 
@@ -2287,7 +2287,7 @@ an object, which inherits from the root object in delegation-OO style.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Lua
+*   host-language: [Lua][]
 
 ### Exanoke
 
@@ -2718,7 +2718,7 @@ or not.
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
-[Lua]: TBD
+[Lua]: http://www.lua.org/
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [RUBE]: ../article/Languages.md#rube
@@ -2740,6 +2740,6 @@ or not.
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: TBD
-[Perl]: TBD
+[Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 

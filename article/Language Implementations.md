@@ -314,7 +314,7 @@ that a separate scanner is totally not needed.  Bitchen!
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
 [ANSI C]: TBD
-[Perl]: TBD
+[Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [Haskell]: TBD
 

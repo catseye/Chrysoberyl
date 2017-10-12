@@ -245,36 +245,6 @@ Javascript:
     description: Assorted useful tips for, uh, speeding up Javascript load time
 
 
-
-Lua:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Functional
-  - Object-oriented
-  computational-class: Turing-complete
-  standards-body: http://www.lua.org/
-  development-stage: mature
-  authors: []
-  references:
-  - title: Lua
-    description: Official Lua website
-    url: http://www.lua.org/
-
-lua 5.0.3:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Lua
-  implementation-type: interpreter
-  host-language: C99
-  license: MIT license
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.lua.org/versions.html#5.0
-
 MSIL:
   type: Programming Language
   genre: Production language
@@ -297,47 +267,6 @@ ilasm:
   prebuilt-for-platforms:
   - native code
   license: Unknown license
-
-
-Perl:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Functional
-  - Object-oriented
-  computational-class: Turing-complete
-  standards-body: http://www.perl.org/
-  development-stage: mature
-  authors: []
-  description: |
-    Perl is a scripting language which borrows much of its syntax from
-    command-line interfaces such as the [[Bourne shell]].  It was one of
-    the first programming languages to become really popular for backend
-    web development.
-
-perl 5.8.8:
-  type: Implementation
-  reference: true
-  implementation-of:
-  - Perl
-  implementation-type: interpreter
-  host-language: C99
-  prebuilt-for-platforms:
-  - native code
-  license: Artistic License
-
-
-PHP:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Object-oriented
-  computational-class: Turing-complete
-  standards-body: http://www.php.net/
-  development-stage: mature
-  authors: []
 
 
 Plankalkül:
