@@ -139,18 +139,6 @@ C++:
     url: http://miek.nl/downloads/2010/c++-talk.pdf
 
 
-CSS:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Declarative
-  computational-class: unknown computational class
-  specification-link: http://www.w3.org/TR/CSS2/
-  # only because "what is this i don't even" isn't a development stage
-  development-stage: mature
-  authors: []
-
-
 # should probably call this Haskell 98
 Haskell:
   type: Programming Language
@@ -229,30 +217,6 @@ Javascript:
   - url: http://betterexplained.com/articles/speed-up-your-javascript-load-time/
     title: Speed Up Your Javascript Load Time
     description: Assorted useful tips for, uh, speeding up Javascript load time
-
-
-MSIL:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  member-of: Assembly
-  generally-compiled: true
-  computational-class: unknown computational class
-  specification-link: http://www.ecma-international.org/publications/standards/Ecma-335.htm
-  development-stage: mature
-  authors: []
-
-ilasm:
-  type: Implementation
-  implementation-of:
-  - MSIL
-  implementation-type: compiler
-  host-language: Unknown language
-  target-language: .NET executable
-  prebuilt-for-platforms:
-  - native code
-  license: Unknown license
 
 
 Plankalkül:
@@ -418,27 +382,6 @@ SETL:
   authors: []
 
 
-Visual Basic:
-  type: Programming Language
-  genre: Production language
-  member-of: BASIC
-  standards-body: http://microsoft.com/
-  development-stage: mature
-  paradigms:
-  - Imperative
-  authors: []
-
-
-XML: 
-  # sigh
-  type: Programming Language
-  genre: DSL
-  paradigms:
-  - Declarative
-  specification-link: http://www.w3.org/TR/REC-xml/
-  development-stage: mature
-  authors: []
-
 Markdown:
   type: Programming Language
   development-stage: mature
@@ -592,37 +535,3 @@ Wireworld:
   no-specification: true
   development-stage: mature
   authors: []
-
-
-.NET executable:
-  type: Programming Language
-  # albeit virtual
-  genre: Machine language
-  paradigms: []
-  no-specification: true
-  development-stage: mature
-  authors: []
-  references:
-  - url: http://www.msdn.microsoft.com/netframework/
-    title: MSDN .NET
-    description: Microsoft .NET Developer Center
-  - url: http://plas.fit.qut.edu.au/gpcp/
-    title: GPCP
-    description: Gardens Point Component Pascal
-
-
-#----------------------------------------------------------------------------
-# miscellany!
-#----------------------------------------------------------------------------
-
-Unknown language:
-  type: Programming Language
-  genre: Production language
-  paradigms: []
-  no-specification: true
-  # yes, the unknown language has been in widespread use for a while now
-  development-stage: mature
-  authors: []
-  description: |
-    This node represents the fact that I don't know what language some
-    implementation was written in.

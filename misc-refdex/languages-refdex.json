@@ -1,4 +1,25 @@
 {
+    "Unknown language": {
+        "url": "https://en.wikipedia.org/wiki/Linear_A"
+    },
+    "Visual Basic": {
+        "url": "https://en.wikipedia.org/wiki/Visual_Basic"
+    },
+    "MSIL": {
+        "url": "http://www.ecma-international.org/publications/standards/Ecma-335.htm"
+    },
+    "ilasm": {
+        "url": "https://en.wikipedia.org/wiki/ILAsm"
+    },
+    ".NET Executable": {
+        "url": "https://en.wikipedia.org/wiki/.NET_Framework"
+    },
+    "XML": {
+        "url": "http://www.w3.org/TR/REC-xml/"
+    },
+    "CSS": {
+        "url": "http://www.w3.org/TR/CSS3/"
+    },
     "Erlang": {
         "url": "http://www.erlang.org/"
     },
