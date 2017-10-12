@@ -1,4 +1,10 @@
 {
+    "Markdown": {
+        "url": "http://daringfireball.net/projects/markdown/syntax"
+    },
+    "lookup table": {
+        "url": "https://en.wikipedia.org/wiki/Lookup_table"
+    },
     "Haskell": {
         "url": "http://www.haskell.org/"
     },

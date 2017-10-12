@@ -331,16 +331,6 @@ SETL:
   authors: []
 
 
-Markdown:
-  type: Programming Language
-  development-stage: mature
-  genre: DSL
-  authors: []
-  paradigms:
-  - Declarative
-  specification-link: http://daringfireball.net/projects/markdown/syntax
-
-
 Zz:
   type: Programming Language
   genre: Experimental language

@@ -54,10 +54,5 @@ Experimental language:
   type: Genre
 Machine language:
   type: Genre
-DSL:
-  acronym-for: Domain-Specific Language
-  type: Genre
 Abstract Artlang:
-  type: Genre
-Toy:
   type: Genre

@@ -456,6 +456,16 @@
     },
 
 
+    "Toy": {
+        "url": "https://en.wikipedia.org/wiki/Toy_programming_language"
+    },
+    "DSL": {
+        "url": "https://en.wikipedia.org/wiki/Domain-specific_language"
+    },
+    "Declarative": {
+        "url": "https://en.wikipedia.org/wiki/Declarative_programming"
+    },
+
     "tc.catseye.yoob": {
         "anchor": "yoob", 
         "filename": "article/Archived.md"
