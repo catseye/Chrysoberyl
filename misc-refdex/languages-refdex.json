@@ -1,4 +1,40 @@
 {
+    "Erlang": {
+        "url": "http://www.erlang.org/"
+    },
+    "Erlang/OTP R13B": {
+        "url": "http://www.erlang.org/downloads/R13B"
+    },
+    "Assembly": {
+        "url": "https://en.wikipedia.org/wiki/Assembly_language"
+    },
+    "Lisp": {
+        "url": "http://www.lispworks.com/documentation/HyperSpec/Front/index.htm"
+    },
+    "Lua": {
+        "url": "http://www.lua.org/"
+    },
+    "lua 5.0.3": {
+        "url": "http://www.lua.org/versions.html#5.0"
+    },
+    "Perl": {
+        "url": "http://www.perl.org/"
+    },
+    "perl 5.8.8": {
+        "url": "http://www.perl.org/"
+    },
+    "PHP": {
+        "url": "http://www.php.net/"
+    },
+    "NASM": {
+        "url": "http://nasm.us/"
+    },
+    "NASM Assembler": {
+        "url": "http://nasm.us/"
+    },
+    "Bourne shell": {
+        "url": "http://steve-parker.org/sh/bourne.shtml"
+    },
     "Java": {
         "url": "http://www.oracle.com/technetwork/java/index.html"
     },

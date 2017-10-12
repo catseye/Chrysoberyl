@@ -111,7 +111,7 @@ an accident.
 *   implementation of: [Ale][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -123,7 +123,7 @@ Implemented as part of yoob.
 *   implementation of: [BackFlip][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -135,7 +135,7 @@ Implemented as part of yoob.
 *   implementation of: [Black][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -147,7 +147,7 @@ Implemented as part of yoob.
 *   implementation of: [brainfuck][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -159,7 +159,7 @@ Implemented as part of yoob.
 *   implementation of: [LNUSP][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -171,7 +171,7 @@ Implemented as part of yoob.
 *   implementation of: [1L_a][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -183,7 +183,7 @@ Implemented as part of yoob.
 *   implementation of: [1L_AOI][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -195,7 +195,7 @@ Implemented as part of yoob.
 *   implementation of: [PATH][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -207,7 +207,7 @@ Implemented as part of yoob.
 *   implementation of: [Qdeql][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -219,7 +219,7 @@ Implemented as part of yoob.
 *   implementation of: [Sceql][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -231,7 +231,7 @@ Implemented as part of yoob.
 *   implementation of: [SNUSP][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -243,7 +243,7 @@ Implemented as part of yoob.
 *   implementation of: [2-ill][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -255,7 +255,7 @@ Implemented as part of yoob.
 *   implementation of: [2L][]
 *   implementation type: interpreter
 *   host platform: yoob
-*   host language: Java
+*   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -317,4 +317,5 @@ that a separate scanner is totally not needed.  Bitchen!
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [Haskell]: TBD
+[Java]: http://www.oracle.com/technetwork/java/index.html
 

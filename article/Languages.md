@@ -137,7 +137,7 @@ many others.  Cited in the New Hacker's Dictionary.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### SMETANA
 
@@ -176,7 +176,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### Wierd
 
@@ -648,7 +648,7 @@ it's so lossy that it has more value as just a neat toy to watch.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### HUNTER
 
@@ -830,7 +830,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### Version
 
@@ -1049,7 +1049,7 @@ carry digital signals and NAND gates that manipulate those signals.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### Braktif
 
@@ -1746,12 +1746,14 @@ a role similar to the tape head of a Turing machine.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
+
 #### Implementation: tc.catseye.yoob.etcha
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
+
 #### Implementation: etcha.js
 
 *   license: Public Domain
@@ -1831,7 +1833,7 @@ bitmapped drawings.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### Eightebed
 
@@ -1957,11 +1959,12 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: Javascript
+
 #### Implementation: tc.catseye.yoob.gemooy
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
 
 ### Nhohnhehr
 
@@ -2081,7 +2084,8 @@ remote parts of the program.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Java
+*   host-language: [Java][]
+
 #### Implementation: wunnel.js
 
 *   license: Public Domain
@@ -2095,7 +2099,7 @@ remote parts of the program.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: believed Turing-complete
-*   influences: Pixley
+*   influences: [Pixley][]
 *   paradigms: Functional
 *   reference-distribution: [Pail distribution](/distribution/Pail distribution)
 *   sample program: 
@@ -2500,6 +2504,7 @@ calculus) with a tiny meta-circular interpreter.
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Python
+
 #### Reference Implementation: yolk.yolk
 
 *   license: BSD license
@@ -2604,6 +2609,7 @@ For a full account of its development, see
 *   license: Public Domain
 *   implementation-type: ???
 *   host-language: Python
+
 #### Implementation: slife.js
 
 *   license: Public Domain
@@ -2744,4 +2750,5 @@ or not.
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [NASM Assembler]: http://nasm.us/
+[Java]: http://www.oracle.com/technetwork/java/index.html
 

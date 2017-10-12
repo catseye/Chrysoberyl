@@ -671,7 +671,7 @@ Naturally, you can also create new YO_DAWG objects.
 [Burro]: ../article/Languages.md#burro
 [Cabra]: ../article/Languages.md#cabra
 [Erlang]: http://www.erlang.org/
-[Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
+[Java]: http://www.oracle.com/technetwork/java/index.html
 [Mascarpone]: ../article/Languages.md#mascarpone
 [Muriel]: http://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
