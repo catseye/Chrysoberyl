@@ -23,6 +23,8 @@ You may also be interested in reading about
 [what it was like to design these](https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md) and/or
 [the ones that got away](LoUIE.md).
 
+If the first paragraph of an entry is pre-formatted, it's an example program in the language.
+
 Languages I've Designed
 -----------------------
 
@@ -34,16 +36,15 @@ Languages I've Designed
 *   development-stage: archived
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   sample program: 
 
-        GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
-        GO 1 3 CLREOL
-        PAUSE 70
-        GO 76 19
-        PRINT "0"
-        PAUSE 20
-        DO 20
-            LF PRINT " " LF LF PRINT "0" PAUSE 5;
+    GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
+    GO 1 3 CLREOL
+    PAUSE 70
+    GO 76 19
+    PRINT "0"
+    PAUSE 20
+    DO 20
+        LF PRINT " " LF LF PRINT "0" PAUSE 5;
 
 Full Moon Fever is a language for describing ASCII animations.
 It was used to deliver animated screens on Chris Pressey's BBS
@@ -68,12 +69,11 @@ I believe it came from mis-remembering the title of the song
 *   paradigms: Stack-based
 *   reference-distribution: [Maentwrog distribution](http://catseye.tc/distribution/Maentwrog_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Maentwrog)
-*   sample program: 
 
-        *a *b *c
-        0 =a 1 =b
-        : fib a b + =c c . b =a c =b c 100000 < @fib ;
-        1 . fib
+    *a *b *c
+    0 =a 1 =b
+    : fib a b + =c c . b =a c =b c 100000 < @fib ;
+    1 . fib
 
 Maentwrog is an RPN-calculator-turned-FORTH-interpreter which
 probably counts as [Chris Pressey][]'s first *proper* programming language.
@@ -116,11 +116,10 @@ wherein it is defined thusly:
 *   reference-distribution: [Befunge-93 distribution](http://catseye.tc/distribution/Befunge-93_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-         v    <
-        >?"/",^
-         >"\",^
+     v    <
+    >?"/",^
+     >"\",^
 
 Befunge-93 is an esoteric programming language where the program exists
 in a two-dimensional grid of cells, where each cell contains a single
@@ -156,11 +155,10 @@ many others.  Cited in the New Hacker's Dictionary.
 *   reference-distribution: [SMETANA distribution](http://catseye.tc/distribution/SMETANA_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-        Step 1. Swap step 1 with step 2.
-        Step 2. Go to step 2.
-        Step 3. Go to step 1.
+    Step 1. Swap step 1 with step 2.
+    Step 2. Go to step 2.
+    Step 3. Go to step 1.
 
 SMETANA is a pathological little self-modifying language with only two
 possible operations: Go to step *n*, and Swap steps *n* and *m*.
@@ -200,23 +198,24 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   reference-distribution: [Wierd distribution](http://catseye.tc/distribution/Wierd_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
-*   sample program: 
 
-        *
-         *
-          *
-           *
-          * *  **
-         *   ** *
-          **     **
-            *      *
-            *     *
-            *     *
-            *      *
-            *     **
-            *    *
-            * ** *
-            **  *
+    *
+     *
+      *
+       *
+      * *  **
+     *   ** *
+      **     **
+        *      *
+        *     *
+        *     *
+        *      *
+        *     **
+        *    *
+        * ** *
+        **  *
+
+_(The above sample program was written by Milo van Handel.)_
 
 Wierd is a programming language, inspired somewhat by [Befunge-93][] and
 [brainfuck][], where instructions are not determined by the symbols in a
@@ -227,8 +226,6 @@ between Chris Pressey, John Colagioia, and Ben Olmstead, is
 probably lost and gone forever, but two dialects have been specified
 (sorta) and implemented: [Wierd (John Colagioia)][] and
 [Wierd (Milo van Handel)][].
-
-The above sample program was written by Milo van Handel.
 
 #### Implementation: wierd.c (John Colagioia)
 
@@ -262,17 +259,15 @@ The above sample program was written by Milo van Handel.
 *   paradigms: Bully automaton, 2-dimensional
 *   reference-distribution: [RUBE distribution](http://catseye.tc/distribution/RUBE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
-*   sample program: 
 
-          0a21646c726f77202c6f6c6c6548
-        , :::::::::::::::::::::::::::: ,
-         )
-         ==============================
-        F
-                                       O F
-                                       c
-                                       =
-        
+      0a21646c726f77202c6f6c6c6548
+    , :::::::::::::::::::::::::::: ,
+     )
+     ==============================
+    F
+                                   O F
+                                   c
+                                   =
 
 RUBE is an esoteric programming language in tribute to [Rube Goldberg][],
 with bulldozers pushing around numbered crates, knocking them together to
@@ -312,11 +307,10 @@ as sharing a single stack.
 *   computational-class: ???
 *   paradigms: Metalanguage, Object-oriented
 *   reference-distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
-*   sample program: 
 
-        /* John Conway's Game of Life, expressed in ALPACA. */
-        state Dead  " " to Alive when 3 Alive and 5 Dead;
-        state Alive "*" to Dead when 4 Alive or 7 Dead.
+    /* John Conway's Game of Life, expressed in ALPACA. */
+    state Dead  " " to Alive when 3 Alive and 5 Dead;
+    state Alive "*" to Dead when 4 Alive or 7 Dead.
 
 ALPACA is a meta-language for describing cellular automata.
 
@@ -354,26 +348,24 @@ other languages (or, well, cellular automata — close enough).
 *   reference-distribution: [REDGREEN distribution](http://catseye.tc/distribution/REDGREEN_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
 *   online @ [catseye.tc](http://catseye.tc/installation/REDGREEN)
-*   sample program: 
 
-                                           # #
-                         ......            # #
-                                           #  ~                      #
-                                           #######################   #
-                                          %#                         #
-                               . . .      T #####                    #
-                                          ###   #  :                 #
-                                                #                    #
-                                                #  .                 #
-                                                #                    #
-                                                #                    #
-                                                #  .                 #
-                                                #                    #
-                                                #                    #
-        >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
-                                                        %
-                                                        T
-        
+                                       # #
+                     ......            # #
+                                       #  ~                      #
+                                       #######################   #
+                                      %#                         #
+                           . . .      T #####                    #
+                                      ###   #  :                 #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+                                            #  .                 #
+                                            #                    #
+                                            #                    #
+    >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
+                                                    %
+                                                    T
 
 REDGREEN is a cellular automaton that simulates a little
 "physical world", much like [RUBE][].
@@ -394,15 +386,14 @@ REDGREEN is a cellular automaton that simulates a little
 *   influences: Befunge-93, Befunge-97
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](http://catseye.tc/distribution/Funge-98_distribution)
-*   sample program: 
 
-        >>#v?v
-        ^,A' <
-         ^ C'
-            T
-         ^ <<
-            G
-            '
+    >>#v?v
+    ^,A' <
+     ^ C'
+        T
+     ^ <<
+        G
+        '
 
 Product of the [Befunge Mailing List Working Group][].
 
@@ -446,10 +437,9 @@ Unefunge-98 is the realization of [Funge-98][] in one dimension.
 *   computational-class: ???
 *   paradigms: Metalanguage
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
-*   sample program: 
 
-          Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-                  "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
+    Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
+            "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
 
 MDPN is a meta-language for describing multi-directional and
 multi-dimensional languages.
@@ -464,10 +454,8 @@ multi-dimensional languages.
 *   paradigms: Stack-based
 *   reference-distribution: [Shelta distribution](http://catseye.tc/distribution/Shelta_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Shelta)
-*   sample program: 
 
-        [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
-        
+    [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
 
 Shelta is an extremely minimal Forth-like language with barely
 any semantics; it relies on inline machine code to write anything resembling
@@ -523,12 +511,10 @@ becoming the programming language [Var'aq][].
 *   computational-class: ???
 *   paradigms: Functional
 *   reference-distribution: [Sally distribution](http://catseye.tc/distribution/Sally_distribution)
-*   sample program: 
 
-        stdlib
-        int factorial int if $1 mul $1 factorial sub $1 1 1
-        int main int factorial $1
-        
+    stdlib
+    int factorial int if $1 mul $1 factorial sub $1 1 1
+    int main int factorial $1
 
 Sally is a cute but naive little functional language with a minimal syntax,
 a strict type system, and some unusual rules for parameters and return values.
@@ -550,16 +536,15 @@ a strict type system, and some unusual rules for parameters and return values.
 *   paradigms: Imperative
 *   reference-distribution: [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
-*   sample program: 
 
-        NB eh.ill
-        10 *f = { print str(#0), EoL };
-        20 do f(1);
-        30 don't f;
-        40 do f(2);
-        50 reinstate f;
-        60 do f(3);
-        FIN
+    NB eh.ill
+    10 *f = { print str(#0), EoL };
+    20 do f(1);
+    30 don't f;
+    40 do f(2);
+    50 reinstate f;
+    60 do f(3);
+    FIN
 
 ILLGOL is a joke language which parodies the sort of language designed by the
 sheer fact that a compiler for it has been hacked together.
