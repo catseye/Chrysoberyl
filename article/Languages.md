@@ -23,8 +23,6 @@ You may also be interested in reading about
 [what it was like to design these](https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md) and/or
 [the ones that got away](LoUIE.md).
 
-If the first paragraph of an entry is pre-formatted, it's an example program in the language.
-
 Languages I've Designed
 -----------------------
 
@@ -36,6 +34,8 @@ Languages I've Designed
 *   development-stage: archived
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
+
+Sample program:
 
     GO 1 2 CLREOL CENTRE "Enter... the Stupid Guard." 2
     GO 1 3 CLREOL
@@ -69,6 +69,8 @@ I believe it came from mis-remembering the title of the song
 *   paradigms: Stack-based
 *   reference-distribution: [Maentwrog distribution](http://catseye.tc/distribution/Maentwrog_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Maentwrog)
+
+Sample program:
 
     *a *b *c
     0 =a 1 =b
@@ -117,6 +119,8 @@ wherein it is defined thusly:
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
+Sample program:
+
      v    <
     >?"/",^
      >"\",^
@@ -155,6 +159,8 @@ many others.  Cited in the New Hacker's Dictionary.
 *   reference-distribution: [SMETANA distribution](http://catseye.tc/distribution/SMETANA_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+
+Sample program:
 
     Step 1. Swap step 1 with step 2.
     Step 2. Go to step 2.
@@ -199,6 +205,8 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
 
+Sample program (written by Milo van Handel):
+
     *
      *
       *
@@ -214,8 +222,6 @@ despite its minimalism, it is finite-automata-complete; it is also the
         *    *
         * ** *
         **  *
-
-_(The above sample program was written by Milo van Handel.)_
 
 Wierd is a programming language, inspired somewhat by [Befunge-93][] and
 [brainfuck][], where instructions are not determined by the symbols in a
@@ -259,6 +265,8 @@ probably lost and gone forever, but two dialects have been specified
 *   paradigms: Bully automaton, 2-dimensional
 *   reference-distribution: [RUBE distribution](http://catseye.tc/distribution/RUBE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
+
+Sample program:
 
       0a21646c726f77202c6f6c6c6548
     , :::::::::::::::::::::::::::: ,
@@ -308,6 +316,8 @@ as sharing a single stack.
 *   paradigms: Metalanguage, Object-oriented
 *   reference-distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
 
+Sample program:
+
     /* John Conway's Game of Life, expressed in ALPACA. */
     state Dead  " " to Alive when 3 Alive and 5 Dead;
     state Alive "*" to Dead when 4 Alive or 7 Dead.
@@ -349,6 +359,8 @@ other languages (or, well, cellular automata — close enough).
 *   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
 *   online @ [catseye.tc](http://catseye.tc/installation/REDGREEN)
 
+Sample program:
+
                                        # #
                      ......            # #
                                        #  ~                      #
@@ -386,6 +398,8 @@ REDGREEN is a cellular automaton that simulates a little
 *   influences: Befunge-93, Befunge-97
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](http://catseye.tc/distribution/Funge-98_distribution)
+
+Sample program:
 
     >>#v?v
     ^,A' <
@@ -438,6 +452,8 @@ Unefunge-98 is the realization of [Funge-98][] in one dimension.
 *   paradigms: Metalanguage
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 
+Sample program:
+
     Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
             "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
 
@@ -454,6 +470,8 @@ multi-dimensional languages.
 *   paradigms: Stack-based
 *   reference-distribution: [Shelta distribution](http://catseye.tc/distribution/Shelta_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Shelta)
+
+Sample program:
 
     [ `Hello, _32 `world! _13 _10 ] \15 outs \0 halt
 
@@ -512,6 +530,8 @@ becoming the programming language [Var'aq][].
 *   paradigms: Functional
 *   reference-distribution: [Sally distribution](http://catseye.tc/distribution/Sally_distribution)
 
+Sample program:
+
     stdlib
     int factorial int if $1 mul $1 factorial sub $1 1 1
     int main int factorial $1
@@ -536,6 +556,8 @@ a strict type system, and some unusual rules for parameters and return values.
 *   paradigms: Imperative
 *   reference-distribution: [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
+
+Sample program:
 
     NB eh.ill
     10 *f = { print str(#0), EoL };
