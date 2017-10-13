@@ -675,7 +675,7 @@ Naturally, you can also create new YO_DAWG objects.
 [Mascarpone]: ../article/Languages.md#mascarpone
 [Muriel]: http://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
-[Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+[Scheme]: http://schemers.org/Documents/Standards/R5RS/
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Underload]: http://esolangs.org/wiki/Underload
 [Unlikely]: ../article/Languages.md#unlikely

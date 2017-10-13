@@ -63,22 +63,6 @@ ANSI C:
     description: Building MinGW Executables using Cygwin
 
 
-BASIC:
-  type: Programming Language Family
-  # close, but "Beginner language" might be better
-  genre: Pedagogical language
-  wikipedia: BASIC
-  paradigms:
-  - Imperative
-  authors: []
-  development-stage: vintage
-  # ehhhh close enough
-  specification-link: http://en.wikipedia.org/wiki/BASIC
-  description: |
-    Popularized by the rash of 8-bit home microcomputers in the 80's,
-    BASIC stands for "Beginner's All-purpose Symbolic Instruction Code."
-
-
 C99:
   type: Programming Language
   genre: Production language
@@ -196,49 +180,6 @@ Skulpt:
   license: MIT license
   links:
   - http://www.skulpt.org/
-
-
-# should call this R5RS Scheme
-Scheme: 
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Functional
-  computational-class: Turing-complete
-  specification-link: http://schemers.org/Documents/Standards/R5RS/
-  development-stage: mature
-  authors: []
-  description: |
-    Scheme is a simple programming language with an extremely regular syntax
-    and a succinct, well-defined semantics.
-  references:
-  - url: http://pobox.com/~oleg/ftp/
-    title: Oleg Kiselyov's Projects
-    description: Algorithms, Theorems, Functional Programming, ...
-
-plt-r5rs:
-  type: Implementation
-  implementation-of:
-  - Scheme
-  implementation-type: interpreter
-  host-language: C99
-  license: LGPL
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://racket-lang.org/
-
-husk:
-  type: Implementation
-  implementation-of:
-  - Scheme
-  # also compiles, apparently
-  implementation-type: interpreter
-  host-language: Haskell
-  license: MIT license
-  generally-recommended: true
-  links:
-  - http://justinethier.github.io/husk-scheme/
 
 
 #----------------------------------------------------------------------------

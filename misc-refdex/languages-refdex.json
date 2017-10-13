@@ -1,4 +1,17 @@
 {
+    "Scheme": {
+        "url": "http://schemers.org/Documents/Standards/R5RS/"
+    },
+    "plt-r5rs": {
+        "url": "http://racket-lang.org/"
+    },
+    "husk": {
+        "url": "http://justinethier.github.io/husk-scheme/"
+    },
+
+    "BASIC": {
+        "url": "http://en.wikipedia.org/wiki/BASIC"
+    },
     "Conway's Game of Life": {
         "url": "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
     },
