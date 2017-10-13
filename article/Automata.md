@@ -52,11 +52,16 @@ despite its minimalism, it is finite-automata-complete; it is also the
 
 ![preview](http://static.catseye.tc/images/screenshots/Cyclobots.jpg)
 
-*   reference distribution: [???](/distribution/???)
-*   inception date: ca 1994
+*   type: Automaton
+*   inception-date: ca 1994
+*   genre: Desk toy
+*   reference-distribution: [???](/distribution/???)
+*   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
+
+Also
+
 *   reference implementation name: cyclobots.js
 *   reference implementation license: Freely Redistributable
-*   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
 
 Cyclobots is an automaton that consists of a number of little virtual
 "turtle robots" called "cyclobots".  Each cyclobot moves with a constant
@@ -427,10 +432,15 @@ Jacciata is a variant of [Jaccia][] which finds the shortest path.
 
 ![preview](http://static.catseye.tc/images/screenshots/Chzrxl.jpg)
 
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
-*   inception date: 2013
-*   reference implementation name: chzrxl.js
+*   type: Automaton
+*   inception-date: 2013
+*   genre: Desk toy
+*   reference-distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
+
+Also
+
+*   reference implementation name: chzrxl.js
 
 "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
 lava lamp?
