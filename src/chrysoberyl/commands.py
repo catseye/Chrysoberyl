@@ -65,16 +65,13 @@ def mkdistjson(universe, options, config):
 
 
 # NOTES made while browsing the two versions:
-#   host-platform on implementations didn't get generated.  review?
 #   what happened to TURKEY BOMB?
 # Things to add MANUALLY:
-#   RUBE bully automaton link
-#   make Befunge-98 Trefunge-98 Unefunge-98 all link near it!
-#   Images for ILLGOL
-#   CSS/JS: Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
-#   Show output for Xigxag
-#   Matchbox, Wang Tiler, SGOL, SITU-SOL should have sample programs / screenshots
-#   many entry @
+#   SITU-SOL and ILLGOL should have images
+# CSS/JS:
+#   Margins
+#   Buttons
+#   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 
 def export_lingography(universe, options, config):
     """Export the lingography."""

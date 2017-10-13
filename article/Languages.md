@@ -139,6 +139,7 @@ many others.  Cited in the New Hacker's Dictionary.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### SMETANA
 
@@ -180,6 +181,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### Wierd
 
@@ -244,6 +246,7 @@ The above sample program was written by Milo van Handel.
 *   license: Unknown license
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### RUBE
 
@@ -270,7 +273,7 @@ The above sample program was written by Milo van Handel.
 RUBE is an esoteric programming language in tribute to [Rube Goldberg][],
 with bulldozers pushing around numbered crates, knocking them together to
 perform computations.  It is based on a variant of a cellular automaton called
-a *[bully automaton](Bully automaton)*, where certain state changes can
+a *[bully automaton][]*, where certain state changes can
 force other state changes to occur elsewhere in the playfield.
 
 #### Reference Implementation: rube.c
@@ -409,6 +412,18 @@ It also makes the playfield unbounded, allowing the language to be
 [Turing-complete][], and tries to define mechanisms for interacting with the
 operating system and engaging extensions to the language.
 
+### Befunge-98
+
+Befunge-98 is the realization of [Funge-98][] in two dimensions.
+
+### Trefunge-98
+
+Trefunge-98 is the realization of [Funge-98][] in three dimensions.
+
+### Unefunge-98
+
+Unefunge-98 is the realization of [Funge-98][] in one dimension.
+
 ### MDPN
 
 *   type: Meta-language
@@ -543,17 +558,17 @@ sheer fact that a compiler for it has been hacked together.
 *   host-language: [ANSI C][]
 *   target-language: x86 machine code
 
-#### Illgola-2
+### Illgola-2
 
-Successor to ILLGOL.
+Successor to [ILLGOL][].
 
-#### Illberon
+### Illberon
 
-Successor to Illgola-2.
+Successor to [Illgola-2][].
 
-#### Open Sores Illgol##
+### Open Sores Illgol##
 
-Successor to Illberon.
+Successor to [Illberon][].
 
 ### Apple Befunge
 
@@ -644,6 +659,7 @@ graph.
 *   computational-class: believed Turing-complete
 *   paradigms: String-rewriting, State machine
 *   reference-distribution: [Squishy2K distribution](/distribution/Squishy2K distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Squishy2K)
 *   sample program: 
 
         * main { start many finish? "Hello, world!"! }
@@ -665,6 +681,8 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 
 ### noit o' mnain worb
 
+![screenshot](http://static.catseye.tc/images/screenshots/noit_o_mnain_worb.jpg)
+
 *   type: Automaton
 *   inception-date: Sep 15, 2000
 *   genre: Esolang
@@ -672,6 +690,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   computational-class: ???
 *   paradigms: Particle automaton, Probabilistic
 *   reference-distribution: [noit o' mnain worb distribution](/distribution/noit o' mnain worb distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/noit o' mnain worb)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/noit o' mnain worb)
 *   sample program: 
@@ -705,12 +724,14 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 #### Implementation: tc.catseye.yoob.worb
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### HUNTER
 
@@ -721,6 +742,7 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   computational-class: ???
 *   paradigms: 2-dimensional, Maze-space-rewriting
 *   reference-distribution: [HUNTER distribution](/distribution/HUNTER distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
 *   sample program: 
 
         ##################
@@ -760,6 +782,7 @@ Its abstract starts out like this:
 *   computational-class: ???
 *   paradigms: Functional
 *   reference-distribution: ['N-DCNC distribution](/distribution/'N-DCNC distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/'N-DCNC)
 *   sample program: 
 
         4*5+2/2,(9*`c)+1
@@ -798,6 +821,7 @@ Broken.
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Non-deterministic
 *   reference-distribution: [Strelnokoff distribution](/distribution/Strelnokoff distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
 *   sample program: 
 
         REM HELLO WORLD IN STRELNOKOFF
@@ -854,7 +878,6 @@ Opus-2 is not a programming language, but rather, an abstract artlang
 (i.e., a conlang designed independently from any conception of society.)
 The sole design principle was to entirely eliminate word order.
 
-
 ### Ypsilax
 
 *   type: Programming Language
@@ -865,6 +888,7 @@ The sole design principle was to entirely eliminate word order.
 *   paradigms: Grid-rewriting, Reflective
 *   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
 *   sample program: 
 
         (      )  (      )
@@ -895,6 +919,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### Version
 
@@ -905,6 +930,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   computational-class: unknown computational class
 *   paradigms: Imperative, Regular-expression-based
 *   reference-distribution: [Version distribution](/distribution/Version distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
 *   sample program: 
 
         START: ROOM = "VALLEY|BROOK|GLADE"
@@ -948,6 +974,7 @@ are ignored during execution.
 *   computational-class: believed Turing-complete
 *   paradigms: Event-oriented
 *   reference-distribution: [beta-Juliet distribution](/distribution/beta-Juliet distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/beta-Juliet)
 *   sample program: 
 
         event WindowSwitchBroken;
@@ -999,6 +1026,7 @@ specified, allowing the language to be [Turing-complete][].
 *   computational-class: ???
 *   paradigms: Functional
 *   reference-distribution: [Sbeezg distribution](/distribution/Sbeezg distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Sbeezg)
 *   sample program: 
 
         f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
@@ -1032,7 +1060,6 @@ single-assignment or they're not...)
 *   sample program: 
 
         a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
-        
 
 GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) 
 It was one of my submissions for the Esoteric Awards. Not unlike [Tamerlane][],
@@ -1060,7 +1087,6 @@ same time.
         A { ^A:0 / ^A:0 -> ^A:1 }
         B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
         C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
-        
 
 Kangaroo Iceberg was a short-lived attempt to pare down [Tamerlane][]
 to something implementable, and implement it.  Although it got a fair ways
@@ -1078,6 +1104,8 @@ implementation and notes that I left behind...
 
 ### Circute
 
+![screenshot](http://static.catseye.tc/images/screenshots/Circute.jpg)
+
 *   type: Automaton
 *   inception-date: 2005
 *   genre: Esolang
@@ -1088,6 +1116,7 @@ implementation and notes that I left behind...
 *   reference-distribution: [Circute distribution](/distribution/Circute distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Circute)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
 *   sample program: 
 
                           =
@@ -1109,11 +1138,13 @@ carry digital signals and NAND gates that manipulate those signals.
 *   license: BSD license
 *   implementation-type: formal description
 *   host-language: ALPACA
+
 #### Implementation: tc.catseye.yoob.circute
 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### Braktif
 
@@ -1126,13 +1157,13 @@ carry digital signals and NAND gates that manipulate those signals.
 *   paradigms: Cellular automaton
 *   reference-distribution: [Braktif distribution](/distribution/Braktif distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Braktif)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Braktif)
 *   sample program: 
 
                                     *
                                <<*[--]*
         000000000000000000  *[-----  --]
         -----------------d-i--         --------
-        
 
 Braktif is a cellular automaton modelled closely after the [brainfuck][]
 programming language.
@@ -1153,6 +1184,7 @@ programming language.
 *   influences: Befunge-93
 *   paradigms: Imperative, State machine
 *   reference-distribution: [Beturing distribution](/distribution/Beturing distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Beturing)
 *   sample program: 
 
         # D(40, 4)
@@ -1227,6 +1259,7 @@ point for branching new languages, than as a useful language in and of itself.
 *   influences: brainfuck
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Burro distribution](/distribution/Burro distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Burro)
 *   sample program: 
 
         !--(--(--(!>/
@@ -1264,10 +1297,14 @@ shortcoming was rectified in summer of 2010.
 *   computational-class: unknown computational class
 *   paradigms: String-rewriting
 *   reference-distribution: [Xigxag distribution](/distribution/Xigxag distribution)
-*   sample program: 
-
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Xigxag)
+*   sample program:
         ><<
-        
+*   sample output:
+        ><<
+        <<>><
+        <><<<<>>
+        <<<<>><><><<><<<><<<>
 
 Xigxag is a simple string-copying automaton that has exponential
 growth almost everywhere (i.e. there are only a finite number of initial
@@ -1288,6 +1325,7 @@ configurations that don't blow up.)
 *   computational-class: believed Turing-complete
 *   paradigms: Term-rewriting
 *   reference-distribution: [Hev distribution](/distribution/Hev distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Hev)
 *   sample program: 
 
         71+8*27,19,29*99,6,37,7,61,47
@@ -1342,6 +1380,7 @@ operator).
 *   influences: Spoon
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
 *   sample program: 
 
         001000000[0010000000111001000011]11100100001[0]
@@ -1359,7 +1398,6 @@ In fact [C++][] has essentially the same property: it's template system is
 templates that expand unboundedly (and the compiler has no means by
 which to detect all possible compiler-hanging-templates.)
 
-
 ### Emmental
 
 *   type: Programming Language
@@ -1369,6 +1407,7 @@ which to detect all possible compiler-hanging-templates.)
 *   computational-class: believed Turing-complete
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Emmental distribution](/distribution/Emmental distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Emmental)
 *   sample program: 
 
         ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
@@ -1394,6 +1433,7 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 *   computational-class: ???
 *   paradigms: Cellular automaton, Reflective
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Didigm)
 *   sample program: 
 
         3333333333333
@@ -1416,7 +1456,6 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 Didigm is a reflective cellular automaton: the transition rules
 for the automaton are defined by forms in the very playfield governed by
 those transition rules.
-
 
 ### Iphigeneia
 
@@ -1461,10 +1500,10 @@ that convert programs between the two forms.
 *   influences: Emmental
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Mascarpone distribution](/distribution/Mascarpone distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Mascarpone)
 *   sample program: 
 
         v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
-        
 
 Mascarpone is a self-modifying language able to alter the meta-circular
 interpreter which defines it, like its predecessor [Emmental][].  Unlike Emmental
@@ -1486,6 +1525,7 @@ job of reflective interpreter-modification quite a bit cleaner and richer.
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
 *   reference-distribution: [Larabee distribution](/distribution/Larabee distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Larabee)
 *   sample program: 
 
         (store (input) (input)
@@ -1589,6 +1629,7 @@ _holes_ inside which subpatterns may match at any depth.
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
 *   reference-distribution: [Quylthulg distribution](/distribution/Quylthulg distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Quylthulg)
 *   sample program: 
 
         foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
@@ -1612,6 +1653,7 @@ only appear inside data structures.
 *   computational-class: believed Turing-complete
 *   paradigms: Continuation-passing, Object-oriented, Dependency injection
 *   reference-distribution: [Unlikely distribution](/distribution/Unlikely distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Unlikely)
 *   sample program: 
 
         class Count(Count,Chain,Print,Add) extends Continuation
@@ -1661,8 +1703,8 @@ class *must* be specified when the object is instantiated.
 *   paradigms: Cellular automaton, 2-dimensional
 *   reference-distribution: [Jaccia and Jacciata distribution](/distribution/Jaccia and Jacciata distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Jaccia)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Jaccia)
 *   sample program: 
-
         #######S###
         #:::::::::#
         #:###:###:#
@@ -1674,22 +1716,33 @@ class *must* be specified when the object is instantiated.
         #:#:###:###
         #:::#:::::#
         #########F#
-        
+*   sample output:
+        #######S###
+        #    :::  #
+        # ###:### #
+        # # #:::# #
+        # # # #:###
+        #   # #:# #
+        ##### #:# #
+        # #   #:  #
+        # # ###:###
+        #   #  :::#
+        #########F#
 
 Jaccia and Jacciata are cellular automata inspired by the [Announcement
 of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
 Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
 upon this to find the shortest path through a maze, if one exists and is unique.
 
-#### Jacciata
-
-Variant of Jaccia which finds the shortest path.
-
 #### Reference Implementation: jaccia.alp
 
 *   license: BSD license
 *   implementation-type: formal description
 *   host-language: ALPACA
+
+### Jacciata
+
+Jacciata is a variant of [Jaccia][] which finds the shortest path.
 
 ### Pixley
 
@@ -1704,7 +1757,6 @@ Variant of Jaccia which finds the shortest path.
 *   sample program: 
 
         (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
-        
 
 Pixley is a very small subset of R5RS Scheme (or, if you prefer, R4RS
 Scheme), supporting only four datatypes (boolean, cons cell, function, and
@@ -1749,18 +1801,19 @@ instances of 54 unique symbols in 684 cons cells.)
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
-#### Crabwell
+### Crabwell
 
-Variant, TBD here.
+Variant of [Pixley][], description TK.
 
 #### P-Normal Pixley
 
-Variant, TBD here.
+Variant of [Pixley][], description TK.
 
 #### Pifxley
 
-Variant, TBD here.
+Variant of [Pixley][], description TK.
 
 ### Dieter
 
@@ -1811,6 +1864,7 @@ safety and optimization considerations.
 *   reference-distribution: [Etcha distribution](/distribution/Etcha distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Etcha)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
 *   sample program: 
 
         >+++>+++>+++>+++>[+]>>>>+
@@ -1833,12 +1887,14 @@ a role similar to the tape head of a Turing machine.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 #### Implementation: etcha.js
 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### ZOWIE
 
@@ -1851,6 +1907,7 @@ a role similar to the tape head of a Turing machine.
 *   paradigms: Imperative, Memory-mapped
 *   reference-distribution: [ZOWIE distribution](/distribution/ZOWIE distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/ZOWIE)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/ZOWIE)
 *   sample program: 
 
         MOV R10, 90
@@ -1862,7 +1919,6 @@ a role similar to the tape head of a Turing machine.
         MOV R8, R10
         MOV R5, 64
         MOV R3, R8
-        
 
 ZOWIE is a machine-like language in which all operations *including
 structured control flow* are memory-mapped.  Control flow is structured in
@@ -1904,7 +1960,6 @@ a memory location to mark the beginning or end of a loop or conditional.
         s.h += 2;
         draw s, XOR;
         end
-        
 
 Whothm is a simple language for describing infinite two-colour
 bitmapped drawings.
@@ -1924,6 +1979,7 @@ bitmapped drawings.
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
 *   reference-distribution: [Eightebed distribution](/distribution/Eightebed distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Eightebed)
 *   sample program: 
 
         type node struct {
@@ -1972,6 +2028,7 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 *   computational-class: ???
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Oozlybub and Murphy)
 *   sample program: 
 
         VARIABLES ARE p /p*/, p /q*/.
@@ -1982,7 +2039,6 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
                for each prime /q*|q/ below /p*|pp/+1 do
                  if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
                    copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
-        
 
 The name of this language is Oozlybub and Murphy. Despite appearances,
 this name refers to a single language. The majority of the language is named
@@ -1991,7 +2047,6 @@ Murphy. Deal with it.  For the sake of providing an "olde tyme esoterickal
 de-sign", the language combines several unusual features, including multiple
 interleaved parse streams, infinitely long variable names, gratuitously strong
 typing, and only-conjectural Turing completeness.
-
 
 ### Gemooy
 
@@ -2005,6 +2060,7 @@ typing, and only-conjectural Turing completeness.
 *   reference-distribution: [Gemooy distribution](/distribution/Gemooy distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Gemooy)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
 *   sample program: 
 
         %### # ###   # #   ### # ###   # #   ### # ###@
@@ -2039,12 +2095,14 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 #### Implementation: tc.catseye.yoob.gemooy
 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 ### Nhohnhehr
 
@@ -2055,6 +2113,7 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   computational-class: can simulate some push-down automata
 *   paradigms: 2-dimensional
 *   reference-distribution: [Nhohnhehr distribution](/distribution/Nhohnhehr distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Nhohnhehr)
 *   sample program: 
 
         +------+
@@ -2110,7 +2169,6 @@ must be created. Luckily the language provides as its main data-manipulation
 facility, grid-rewriting, which can be used to restore instructions that
 were previously erased after execution.
 
-
 ### Wunnel
 
 *   type: Programming Language
@@ -2123,6 +2181,7 @@ were previously erased after execution.
 *   reference-distribution: [yoob distribution](/distribution/yoob distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   sample program: 
 
                   o   ooo  o
@@ -2151,7 +2210,6 @@ were previously erased after execution.
                  o
         
                  o    oooo o
-        
 
 Wunnel is a two-dimensional language which draws from the [1L][]
 family of languages and incorporates features from [reMorse][]. The name
@@ -2165,12 +2223,14 @@ remote parts of the program.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Java][]
+*   host-platform: [yoob][]
 
 #### Implementation: wunnel.js
 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### Pail
 
@@ -2182,6 +2242,7 @@ remote parts of the program.
 *   influences: [Pixley][]
 *   paradigms: Functional
 *   reference-distribution: [Pail distribution](/distribution/Pail distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Pail)
 *   sample program: 
 
         **[*let [
@@ -2215,6 +2276,7 @@ names of bindings to be expressed.
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Lazy
 *   reference-distribution: [Xoomonk distribution](/distribution/Xoomonk distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Xoomonk)
 *   sample program: 
 
         l := $loop*
@@ -2228,7 +2290,6 @@ names of bindings to be expressed.
           ^.counter := o.result
           continue := o.result
         }
-        
 
 Xoomonk is a programming language in which _malingering updatable
 stores_ are first-class objects.  Malingering updatable stores unify several
@@ -2257,6 +2318,7 @@ while it was being developed, against the spec.
 *   influences: Befunge-93
 *   paradigms: Functional, 2-dimensional
 *   reference-distribution: [Flobnar distribution](/distribution/Flobnar distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Flobnar)
 *   sample program: 
 
         >     v
@@ -2325,7 +2387,6 @@ has a well-founded inductive definition.  Such structures can be thought
 of as types, although this is largely nominal; the traditional typelessness
 of term-rewiting systems is largely retained.
 
-
 ### Troupe
 
 *   type: Programming Language
@@ -2339,7 +2400,6 @@ of term-rewiting systems is largely retained.
 Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
 fairly neatly to the definition of a Turing machine, so it is almost certainly
 [Turing-complete][].
-
 
 ### Velo
 
@@ -2368,6 +2428,7 @@ an object, which inherits from the root object in delegation-OO style.
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Ruby
+
 #### Implementation: velo.lua
 
 *   license: BSD license
@@ -2383,6 +2444,7 @@ an object, which inherits from the root object in delegation-OO style.
 *   computational-class: Primitive recursive
 *   paradigms: Functional
 *   reference-distribution: [Exanoke distribution](/distribution/Exanoke distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Exanoke)
 *   sample program: 
 
         def inc(#)
@@ -2398,7 +2460,6 @@ an object, which inherits from the root object in delegation-OO style.
         def four(#)
           cons(:one, cons(:one, cons(:one, cons(:one, #))))
         fact(four(:nil))
-        
 
 Exanoke is a functional language which is syntactically restricted to
 expressing the primitive recursive functions.
@@ -2418,6 +2479,7 @@ expressing the primitive recursive functions.
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
 *   reference-distribution: [Cfluviurrh distribution](/distribution/Cfluviurrh distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Cfluviurrh)
 *   sample program: 
 
         (print ASCII table while experiencing a bewildering array of emotions)
@@ -2457,6 +2519,7 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
 *   influences: Wunnel, Half-Broken Car in Heavy Traffic
 *   paradigms: Turning tarpit, 2-dimensional
 *   reference-distribution: [Jolverine distribution](/distribution/Jolverine distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Jolverine)
 *   sample program: 
 
         --*-*
@@ -2469,7 +2532,6 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
                    *   /
                     \ /
                      *-*---*
-        
 
 The Jolverine language was devised as a conscious attempt to expand the
 genre of turning tarpit by adding the feature of modifying the instruction
@@ -2494,6 +2556,7 @@ the language's vicious, erratic nature.
 *   computational-class: Turing-complete
 *   paradigms: Imperative
 *   reference-distribution: [SICKBAY distribution](/distribution/SICKBAY distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/SICKBAY)
 *   sample program: 
 
         10 LET B% = 99
@@ -2525,10 +2588,10 @@ of that.)
 *   computational-class: unknown computational class
 *   influences: 
 *   paradigms: Concatenative
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Carriage)
 *   sample program: 
 
         111-@11-~!$11111++++11-~@11-~!
-        
 
 Carriage is the result of various, not-entirely-successful attempts to
 design a "pure" concatenative language — one in which the program
@@ -2552,8 +2615,8 @@ thus may overlap — and was released as an esolang.
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
 *   reference-distribution: [Yolk distribution](/distribution/Yolk distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Yolk)
 *   sample program: 
-
         (ifeq (head arg) (quote arg)
             (head (tail (tail arg)))
             (ifeq (head (head arg)) (quote head)
@@ -2593,6 +2656,8 @@ calculus) with a tiny meta-circular interpreter.
 
 ### Backtracking Wang Tiler
 
+![screenshot](http://static.catseye.tc/images/screenshots/Backtracking_Wang_Tiler.jpg)
+
 *   type: Automaton
 *   inception-date: Feb 2015
 *   genre: Experimental language
@@ -2612,8 +2677,9 @@ algorithm, since it never terminates.
 #### Implementation: backtracking-wang-tiler.js
 
 *   license: Public Domain
-*   implementation-type: ???
+*   implementation-type: generator
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### Matchbox
 
@@ -2625,6 +2691,17 @@ algorithm, since it never terminates.
 *   paradigms: Imperative
 *   reference-distribution: [Matchbox distribution](/distribution/Matchbox distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Matchbox)
+*   sample program: 
+        MOV 1, M0
+        MOV 1, M2
+        WAIT M1, 0
+        WAIT M2, 0
+        ; begin c.s.
+        MOV M3, R0
+        INC R0
+        MOV R0, M3
+        ; end c.s.
+        MOV 0, M0
 
 A toy language for a toy race-condition finder.
 
@@ -2660,8 +2737,11 @@ which Matchbox can run and show correct.
 *   license: Public Domain
 *   implementation-type: static analyzer
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### Schrödinger's Game of Life
+
+![screenshot](http://static.catseye.tc/images/screenshots/Schroedingers_Game_of_Life.jpg)
 
 *   type: Automaton
 *   inception-date: Feb 7, 2015
@@ -2695,6 +2775,7 @@ For a full account of its development, see
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+*   host-platform: [HTML5][]
 
 ### SITU-SOL
 
@@ -2830,4 +2911,4 @@ or not.
 [Haskell]: http://www.haskell.org/
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
-
+[bully automaton]: http://esolangs.org/wiki/Bully%20automaton
