@@ -573,6 +573,18 @@
         "anchor": "plea-of-thunder", 
         "filename": "article/Tools.md"
     },
+    "lexeduct-browser.js": {
+        "anchor": "lexeduct", 
+        "filename": "article/Gewgaws.md"
+    },
+    "canvas-feedback.js": {
+        "anchor": "canvas-feedback", 
+        "filename": "article/Gewgaws.md"
+    },
+    "text-uniquifier.js": {
+        "anchor": "text-uniquifier", 
+        "filename": "article/Gewgaws.md"
+    },
 
 
     "interpreter": {
