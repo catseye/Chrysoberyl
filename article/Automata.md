@@ -543,6 +543,6 @@ For a full account of its development, see
 [RUBE]: ../article/Automata.md#rube
 [ANSI C]: TBD
 [brainfuck]: http://esolangs.org/wiki/brainfuck
-[Conway's Game of Life]: TBD
+[Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 

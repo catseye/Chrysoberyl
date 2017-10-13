@@ -374,5 +374,6 @@ Fork began Feb 1, 2012.
 [Erlang]: http://www.erlang.org/
 [Haskell]: http://www.haskell.org/
 [Java]: http://www.oracle.com/technetwork/java/index.html
-[Conway's Game of Life]: TBD
-[Wireworld]: TBD
+[Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+[Wireworld]: http://en.wikipedia.org/wiki/Wireworld
+
