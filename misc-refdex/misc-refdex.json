@@ -466,6 +466,15 @@
         "url": "https://en.wikipedia.org/wiki/Declarative_programming"
     },
 
+    "chzrxl.js": {
+        "anchor": "chzrxl", 
+        "filename": "article/Automata.md"
+    },
+    "cyclobots.js": {
+        "anchor": "cyclobots", 
+        "filename": "article/Automata.md"
+    },
+
     "tc.catseye.yoob": {
         "anchor": "yoob", 
         "filename": "article/Archived.md"

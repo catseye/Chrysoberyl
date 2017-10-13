@@ -48,6 +48,55 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   host-language: [Java][]
 *   host-platform: [yoob][]
 
+### Cyclobots
+
+![preview](http://static.catseye.tc/images/screenshots/Cyclobots.jpg)
+
+*   reference distribution: [???](/distribution/???)
+*   inception date: ca 1994
+*   reference implementation name: cyclobots.js
+*   reference implementation license: Freely Redistributable
+*   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
+
+Cyclobots is an automaton that consists of a number of little virtual
+"turtle robots" called "cyclobots".  Each cyclobot moves with a constant
+velocity, and tries to follow exactly one other cyclobot, adjusting
+its heading to point towards the cyclobot it is following.
+No cylobot is followed by more than one cyclobot.
+
+A group of cyclobots tends to fall into one of several semi-stable
+patterns.  The simplest of these is just a rotating circle, but
+more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
+patterns are more common.
+
+*   implementation name: Cyclobots (Visual Basic)
+*   implementation license: Freely Redistributable
+*   implementation language: Visual Basic
+*   implementation platform: Windows 3.1
+
+I originally conceived of this automaton, calling it
+an "interactive desktop toy", in or around 1994, and implemented
+it immediately in Visual Basic.  I remember the year because I wrote the
+first implementation of [SMETANA][] in Visual Basic at about the same time.
+
+The original implementation had a few features which are not present (yet)
+in the HTML5 version: cyclobots could collide with each other, and the user
+could use the mouse to attract/repel them from a chosen point.
+
+#### Reference Implementation: Cyclobots (Visual Basic)
+
+*   license: Freely Redistributable
+*   host-language: Visual Basic
+*   development-stage: lost
+*   interface: GUI
+
+#### Implementation: cyclobots.js
+
+*   license: Freely Redistributable
+*   host-language: Javascript
+*   host-platform: HTML5
+*   development-stage: mature
+
 ### RUBE
 
 *   type: Automaton
@@ -373,6 +422,36 @@ upon this to find the shortest path through a maze, if one exists and is unique.
 *   genre: Esolang
 
 Jacciata is a variant of [Jaccia][] which finds the shortest path.
+
+### Chzrxl
+
+![preview](http://static.catseye.tc/images/screenshots/Chzrxl.jpg)
+
+*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   inception date: 2013
+*   reference implementation name: chzrxl.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
+
+"Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
+lava lamp?
+
+Instructions:
+
+The original idea was this: each ball travels on a
+sine-wave path (kind of like a spring) between a randomly-chosen
+pair of two other balls.
+
+It was soon discovered that if all balls are free to move like this,
+they all quickly collapse to a single point.  Thus, some number of
+balls are held fixed (5% by default).  The result is a slightly
+organic-seeming emergent motion.
+
+#### Reference Implementation: chzrxl.js
+
+*   type: Implementation
+*   license: Public Domain
+*   host-language: Javascript
+*   host-platform: HTML5
 
 ### Backtracking Wang Tiler
 
