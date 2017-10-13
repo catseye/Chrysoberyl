@@ -68,28 +68,13 @@ def mkdistjson(universe, options, config):
 #   host-platform on implementations didn't get generated.  review?
 #   what happened to TURKEY BOMB?
 # Things to add MANUALLY:
-#   "Apple Befunge" is a variant of Befunge-93
-#   SMETANA: link to proof that it is FSA-complete
-#   authors on Wierd (with John Colagioia, Ben Olmstead)
-#   - implementations on Wierd
-#   - This sample was written by Milo van Handel
 #   RUBE bully automaton link
-#   Befunge-97 with Befunge Mailing List Working Group
-#   ALPACA before REDGREEN
-#   mention new acronym for ALPACA
-#   Funge-98 Sep 11, 1998 with Befunge Mailing List Working Group 
 #   make Befunge-98 Trefunge-98 Unefunge-98 all link near it!
-#   MDPN is a meta-language
-#   Illberon, Illgola-2, Open Sores Illgol## link near ILLGOL
 #   Images for ILLGOL
-#   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
-#   note that ndcnc.bf is broken
+#   CSS/JS: Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 #   Show output for Xigxag
-#   Jacciata is variant of Jaccia
-#   Crabwell, P-Normal Pixley, Pifxley are variants
-#   Pail.lhs is Literate Haskell
 #   Matchbox, Wang Tiler, SGOL, SITU-SOL should have sample programs / screenshots
-#   "Languages I've Implemented" at the bottom
+#   many entry @
 
 def export_lingography(universe, options, config):
     """Export the lingography."""

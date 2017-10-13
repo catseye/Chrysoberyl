@@ -63,6 +63,7 @@ I believe it came from mis-remembering the title of the song
 *   computational-class: known not Turing-complete
 *   paradigms: Stack-based
 *   reference-distribution: [Maentwrog distribution](/distribution/Maentwrog distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Maentwrog)
 *   sample program: 
 
         *a *b *c
@@ -109,13 +110,13 @@ wherein it is defined thusly:
 *   influences: Maentwrog, brainfuck, FALSE
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Befunge-93 distribution](/distribution/Befunge-93 distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   sample program: 
 
          v    <
         >?"/",^
          >"\",^
-        
 
 Befunge-93 is an esoteric programming language where the program exists
 in a two-dimensional grid of cells, where each cell contains a single
@@ -148,6 +149,7 @@ many others.  Cited in the New Hacker's Dictionary.
 *   computational-class: known not Turing-complete
 *   paradigms: Self-modifying
 *   reference-distribution: [SMETANA distribution](/distribution/SMETANA distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   sample program: 
 
@@ -182,6 +184,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 ### Wierd
 
 *   type: Programming Language
+*   authors: Chris Pressey, John Colagioia, and Ben Olmstead
 *   inception-date: 1997
 *   genre: Esolang
 *   development-stage: not fully complete
@@ -189,6 +192,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   influences: brainfuck, Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Angular
 *   reference-distribution: [Wierd distribution](/distribution/Wierd distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
 *   sample program: 
 
@@ -207,17 +211,39 @@ despite its minimalism, it is finite-automata-complete; it is also the
             *    *
             * ** *
             **  *
-        
 
 Wierd is a programming language, inspired somewhat by [Befunge-93][] and
 [brainfuck][], where instructions are not determined by the symbols in a
 sequence of symbols, but by the *bends* in a sequence of symbols.
 
-The original Wierd, designed during a three-way email conversation, is
+The original Wierd, designed during a three-way email conversation
+between Chris Pressey, John Colagioia, and Ben Olmstead, is
 probably lost and gone forever, but two dialects have been specified
 (sorta) and implemented: [Wierd (John Colagioia)][] and
 [Wierd (Milo van Handel)][].
 
+The above sample program was written by Milo van Handel.
+
+#### Implementation: wierd.c (John Colagioia)
+
+*   authors: John Colagioia
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
+
+#### Implementation: wierd.c (Milo van Handel)
+
+*   authors: Milo van Handel
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
+
+#### Implementation: wierd-jnc.js
+
+*   authors: Chris Pressey
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Javascript][]
 
 ### RUBE
 
@@ -228,6 +254,7 @@ probably lost and gone forever, but two dialects have been specified
 *   computational-class: ???
 *   paradigms: Bully automaton, 2-dimensional
 *   reference-distribution: [RUBE distribution](/distribution/RUBE distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
 *   sample program: 
 
           0a21646c726f77202c6f6c6c6548
@@ -262,11 +289,51 @@ force other state changes to occur elsewhere in the playfield.
 *   influences: Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 
+Product of the [Befunge Mailing List Working Group][].
+
 Befunge-97 was an unimplemented attempt to design a successor to [Befunge-93][].
 The design, however, was not successful — it has been described as
 "brain-damaged" — primarily due to the fact that separate processes were specified
 as sharing a single stack.
 
+### ALPACA
+
+*   type: Programming Language
+*   inception-date: 1998
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: ???
+*   paradigms: Metalanguage, Object-oriented
+*   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+*   sample program: 
+
+        /* John Conway's Game of Life, expressed in ALPACA. */
+        state Dead  " " to Alive when 3 Alive and 5 Dead;
+        state Alive "*" to Dead when 4 Alive or 7 Dead.
+
+ALPACA is a meta-language for describing cellular automata.
+
+It stands for "A Language for the Pithy Articulation of Cellular Automata".
+The acronym used to be "A Language for Programming Arbitrary Cellular Automata".
+This was not quite accurate, as the automata are not in fact arbitrary, so I changed
+it.
+
+ALPACA is one of the few of my languages in which I've actually implemented
+other languages (or, well, cellular automata — close enough).
+
+#### Reference Implementation: alpaca.pl
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: [Perl][]
+*   target-language: [Perl][]
+
+#### Reference Implementation: alpaca (Python)
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: Python
+*   target-language: [Javascript][]
 
 ### REDGREEN
 
@@ -278,6 +345,7 @@ as sharing a single stack.
 *   influences: RUBE
 *   paradigms: Cellular automaton
 *   reference-distribution: [REDGREEN distribution](/distribution/REDGREEN distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
 *   online @ [catseye.tc](http://catseye.tc/installation/REDGREEN)
 *   sample program: 
 
@@ -309,45 +377,6 @@ REDGREEN is a cellular automaton that simulates a little
 *   implementation-type: formal description
 *   host-language: ALPACA
 
-### ALPACA
-
-*   type: Programming Language
-*   inception-date: 1998
-*   genre: Esolang
-*   development-stage: mature
-*   computational-class: ???
-*   paradigms: Metalanguage, Object-oriented
-*   reference-distribution: [ALPACA distribution](/distribution/ALPACA distribution)
-*   sample program: 
-
-        /* John Conway's Game of Life, expressed in ALPACA. */
-        state Dead  " " to Alive when 3 Alive and 5 Dead;
-        state Alive "*" to Dead when 4 Alive or 7 Dead.
-        
-
-ALPACA is a meta-language for describing cellular automata.
-
-The acronym used to be "A Language for Programming Arbitrary Cellular Automata".
-This was not quite accurate, as the automata are not in fact arbitrary, so I changed
-it.
-
-ALPACA is one of the few of my languages in which I've actually implemented
-other languages (or, well, cellular automata — close enough).
-
-#### Reference Implementation: alpaca.pl
-
-*   license: BSD license
-*   implementation-type: compiler
-*   host-language: [Perl][]
-*   target-language: [Perl][]
-
-#### Reference Implementation: alpaca (Python)
-
-*   license: BSD license
-*   implementation-type: compiler
-*   host-language: Python
-*   target-language: [Javascript][]
-
 ### Funge-98
 
 *   type: Programming Language Family
@@ -367,7 +396,8 @@ other languages (or, well, cellular automata — close enough).
          ^ <<
             G
             '
-        
+
+Product of the [Befunge Mailing List Working Group][].
 
 Funge-98 is a family of programming languages designed as the successor
 to [Befunge-93][].  It generalizes Befunge-93's two-dimensional nature
@@ -379,10 +409,9 @@ It also makes the playfield unbounded, allowing the language to be
 [Turing-complete][], and tries to define mechanisms for interacting with the
 operating system and engaging extensions to the language.
 
-
 ### MDPN
 
-*   type: Programming Language
+*   type: Meta-language
 *   inception-date: 1999
 *   genre: Esolang
 *   development-stage: not fully complete
@@ -393,11 +422,9 @@ operating system and engaging extensions to the language.
 
           Box ::= "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
                   "+" {"-"}^(w) r(-90) "+" "||" {"|"}^(h) r(-90)
-        
 
 MDPN is a meta-language for describing multi-directional and
 multi-dimensional languages.
-
 
 ### Shelta
 
@@ -494,6 +521,7 @@ a strict type system, and some unusual rules for parameters and return values.
 *   computational-class: ???
 *   paradigms: Imperative
 *   reference-distribution: [Illgol: Grand Mal](/distribution/Illgol: Grand Mal)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
 *   sample program: 
 
         NB eh.ill
@@ -504,7 +532,6 @@ a strict type system, and some unusual rules for parameters and return values.
         50 reinstate f;
         60 do f(3);
         FIN
-        
 
 ILLGOL is a joke language which parodies the sort of language designed by the
 sheer fact that a compiler for it has been hacked together.
@@ -516,6 +543,40 @@ sheer fact that a compiler for it has been hacked together.
 *   host-language: [ANSI C][]
 *   target-language: x86 machine code
 
+#### Illgola-2
+
+Successor to ILLGOL.
+
+#### Illberon
+
+Successor to Illgola-2.
+
+#### Open Sores Illgol##
+
+Successor to Illberon.
+
+### Apple Befunge
+
+*   type: Programming Language
+*   inception-date: Jul 3, 2000
+*   genre: Esolang
+*   variant-of: [Befunge-93][]
+*   development-stage: archival
+*   paradigms: Stack-based, 2-dimensional, Self-modifying
+
+Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
+Befunge-93, with some extra Befunge-96-esque instructions and some
+Apple ][+-specific instructions.
+
+#### Reference Implementation: APPLE BEFUNGE EDITOR
+
+*   development-stage: archival
+*   in-distribution: Apple Befunge distribution
+*   license: Public Domain
+*   implementation-type: interpreter, editor
+*   host-language: Applesoft BASIC
+*   host-platform: Apple II
+
 ### SMITH
 
 *   type: Programming Language
@@ -526,6 +587,7 @@ sheer fact that a compiler for it has been hacked together.
 *   influences: SMETANA
 *   paradigms: Imperative, Self-modifying
 *   reference-distribution: [SMITH distribution](/distribution/SMITH distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
 *   sample program: 
 
         MOV R0, 10
@@ -572,7 +634,6 @@ Tamerlane is a multi-paradigmatic programming language, unimplemented
 and possibly unimplementable. One of its core execution mechanisms is the
 traversing of a graph (representing the program) while rewriting that same
 graph.
-
 
 ### Squishy2K
 
@@ -725,6 +786,8 @@ However, you still need a C compiler to build the PortableFalse interpreter.
 *   implementation-type: compiler
 *   host-language: Befunge-93
 *   target-language: FALSE
+
+Broken.
 
 ### Strelnokoff
 
@@ -1618,6 +1681,10 @@ of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.ar
 Jaccia can solve mazes too, by a similar mechanism (shrinking). Jacciata builds
 upon this to find the shortest path through a maze, if one exists and is unique.
 
+#### Jacciata
+
+Variant of Jaccia which finds the shortest path.
+
 #### Reference Implementation: jaccia.alp
 
 *   license: BSD license
@@ -1682,6 +1749,18 @@ instances of 54 unique symbols in 684 cons cells.)
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
+
+#### Crabwell
+
+Variant, TBD here.
+
+#### P-Normal Pixley
+
+Variant, TBD here.
+
+#### Pifxley
+
+Variant, TBD here.
 
 ### Dieter
 
@@ -2125,7 +2204,7 @@ names of bindings to be expressed.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: [Haskell][]
+*   host-language: [Haskell][] (Literate Haskell)
 
 ### Xoomonk
 

@@ -23,6 +23,12 @@ acronym-for
 
 type
 
+### authors
+
+*   optional: true
+
+authors
+
 ### inception-date
 
 *   optional: true
@@ -74,6 +80,13 @@ etymology
 *   optional: true
 
 type
+
+### entry
+
+*   optional: true
+*   multiple: true
+
+Entry.
 
 ### online
 
