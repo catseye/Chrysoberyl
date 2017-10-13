@@ -135,3 +135,24 @@ yoob.js distribution:
   - version: "0.4"
     revision: "0.0"
     url: http://catseye.tc/distfiles/the-platform-0.4.zip
+
+
+Ribos distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2007.0410"
+    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
+  - version: "1.1"
+    revision: "2010.0430"
+    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+
+
+The PETulant Cursor distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2008.0401"
+    url: http://catseye.tc/distfiles/petulant-2008.0401.zip

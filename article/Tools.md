@@ -267,6 +267,47 @@ only a `REM`, among a few other modest features.
 *   license: MIT license
 *   host-language: Python
 
+Not-exactly Tools
+-----------------
+
+More like demos?
+
+### Ribos
+
+*   summary: Well-commented C64 raster interrupt example
+*   inception-date: April 2007
+*   development-stage: mature
+
+defining-distribution: C64 Demo Depot
+
+A simple Commodore 64 graphics demo that uses the raster interrupt facility
+of the VIC-II chip: the colour of the border of the screen is inverted,
+but only in the middle part of the screen.  Includes well-commented source
+in 6502 assembly language.
+
+### The PETulant Cursor
+
+*   summary: A tiny C64 "display hack"
+*   inception-date: ca 1989
+*   development-stage: vintage
+
+defining-distribution: C64 Demo Depot
+
+A tiny (44 byte) "display hack" for the Commodore 64.
+
+### Plea of Thunder
+
+*   authors: VARIABLE
+*   inception-date: 2012
+
+Conceptual art: A Java applet that you and your friends can own!
+
+#### Reference Implementation: PleaOfThunder.java
+
+*   license: Public Domain
+*   host-language: Java
+*   online-locations: installation/Plea of Thunder
+
 Forked Tools
 ------------
 
