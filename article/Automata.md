@@ -541,8 +541,8 @@ For a full account of its development, see
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [bully automaton]: http://esolangs.org/wiki/Bully%20automaton
 [RUBE]: ../article/Automata.md#rube
-[ANSI C]: TBD
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [brainfuck]: http://esolangs.org/wiki/brainfuck
-[Conway's Game of Life]: TBD
+[Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 

@@ -245,7 +245,7 @@ This is actually a language family.
 
 - - - -
 
-[ANSI C]: TBD
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [NASM Assembler]: http://nasm.us/

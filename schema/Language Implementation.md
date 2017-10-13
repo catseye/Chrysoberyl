@@ -27,6 +27,12 @@ implementation of
 
 implementation type
 
+### license
+
+*   optional: true
+
+license
+
 ### host platform
 
 *   optional: true

@@ -4,8 +4,8 @@ Language Implementations
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 
-This is a list of languages that Cat's Eye Technologies has built an implementation for,
-but which were not designed by Cat's Eye Technologies.
+This is a list of languages that Cat's Eye Technologies has built an implementation for
+(or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
 
 ### PL-{GOTO}.NET
 
@@ -288,6 +288,62 @@ A parser, in Erlang, for the Lesser-Known Language VALGOL.
 It, like, totally demonstrates how a parser can be written so
 that a separate scanner is totally not needed.  Bitchen!
 
+Implemented Automata
+--------------------
+
+We don't have a dedicated page for implemented automata yet, so they are here.
+
+### life.alp
+
+*   implementation of: [Conway's Game of Life][]
+*   implementation type: interpreter
+*   host language: [ALPACA][]
+*   inception date: 1998
+*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+
+Conway's Game of Life, in ALPACA.
+
+### wireworld.alp
+
+*   implementation of: [Wireworld][]
+*   implementation type: interpreter
+*   host language: [ALPACA][]
+*   inception date: 1998
+*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+
+Wireworld, in ALPACA.
+
+Forked Language Projects
+------------------------
+
+### miniscm
+
+*   implementation of: [Scheme][] (R4RS)
+*   implementation type: interpreter
+*   license: Public Domain
+*   host language: [ANSI C][]
+*   inception date: Nov 5, 1989
+*   in distribution: [Minischeme distribution](/distribution/Minischeme distribution)
+
+Forked in order to make it build on [AmigaDOS 1.3][].
+
+Fork began Dec 13, 2011.
+
+### OpenZz
+
+*   implementation of: [Zz][]
+*   implementation type: interpreter
+*   license: LGPL
+*   host language: [C99][]
+*   inception date: Jan 7, 2002
+*   in distribution: [OpenZz distribution](/distribution/OpenZz distribution)
+
+Forked because [Zzrk][] depends on it, and I want to maintain that.
+
+Note that while most of the code is LGPL, the REPL is GPL.
+
+Fork began Feb 1, 2012.
+
 - - - -
 
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
@@ -313,9 +369,11 @@ that a separate scanner is totally not needed.  Bitchen!
 [SNUSP]: http://esolangs.org/wiki/SNUSP
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
-[ANSI C]: TBD
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [Haskell]: http://www.haskell.org/
 [Java]: http://www.oracle.com/technetwork/java/index.html
+[Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+[Wireworld]: http://en.wikipedia.org/wiki/Wireworld
 

@@ -1,4 +1,62 @@
 {
+    "Scheme": {
+        "url": "http://schemers.org/Documents/Standards/R5RS/"
+    },
+    "plt-r5rs": {
+        "url": "http://racket-lang.org/"
+    },
+    "husk": {
+        "url": "http://justinethier.github.io/husk-scheme/"
+    },
+
+    "Ophis Assembler": {
+        "url": "https://github.com/michaelcmartin/Ophis"
+    },
+    "Ophis": {
+        "url": "https://github.com/michaelcmartin/Ophis"
+    },
+
+
+    "ANSI C": {
+        "url": "http://clc-wiki.net/wiki/C89"
+    },
+    "C99": {
+        "url": "http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf"
+    },
+    "gcc 3.4": {
+        "url": "http://gcc.gnu.org/gcc-3.4/"
+    },
+
+
+    "Python": {
+        "url": "http://www.python.org/"
+    },
+    "cPython 2.6.7": {
+        "url": "http://www.python.org/"
+    },
+    "Jython 2.5.1": {
+        "url": "http://www.jython.org/"
+    },
+    "Skulpt": {
+        "url": "http://www.skulpt.org/"
+    },
+
+
+    "BASIC": {
+        "url": "http://en.wikipedia.org/wiki/BASIC"
+    },
+    "Conway's Game of Life": {
+        "url": "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
+    },
+    "Wireworld": {
+        "url": "http://en.wikipedia.org/wiki/Wireworld"
+    },
+    "R": {
+        "url": "http://www.r-project.org/"
+    },
+    "R 2.13.1": {
+        "url": "http://www.r-project.org/"
+    },
     "Zz": {
         "url": "http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html"
     },
