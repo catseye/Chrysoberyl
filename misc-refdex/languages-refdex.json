@@ -16,6 +16,21 @@
         "url": "https://github.com/michaelcmartin/Ophis"
     },
 
+
+    "Python": {
+        "url": "http://www.python.org/"
+    },
+    "cPython 2.6.7": {
+        "url": "http://www.python.org/"
+    },
+    "Jython 2.5.1": {
+        "url": "http://www.jython.org/"
+    },
+    "Skulpt": {
+        "url": "http://www.skulpt.org/"
+    },
+
+
     "BASIC": {
         "url": "http://en.wikipedia.org/wiki/BASIC"
     },
