@@ -410,7 +410,7 @@ hypongtrochoid.js:
 
 Markov Font:
   type: Gewgaw
-  development-stage: work in progress
+  development-stage: mature
   defining-distribution: HTML5 Gewgaws distribution
   authors:
   - Chris Pressey
@@ -495,7 +495,7 @@ noise-to-signal-1.js:
 
 Plea of Thunder:
   type: Gewgaw
-  development-stage: not fully complete
+  development-stage: mature
   no-specification: true
   # authors: VARIABLE
   inception-date: 2012
