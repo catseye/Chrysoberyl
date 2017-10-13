@@ -1,4 +1,10 @@
 {
+    "Conway's Game of Life": {
+        "url": "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
+    },
+    "Wireworld": {
+        "url": "http://en.wikipedia.org/wiki/Wireworld"
+    },
     "R": {
         "url": "http://www.r-project.org/"
     },

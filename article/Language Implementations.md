@@ -288,6 +288,31 @@ A parser, in Erlang, for the Lesser-Known Language VALGOL.
 It, like, totally demonstrates how a parser can be written so
 that a separate scanner is totally not needed.  Bitchen!
 
+Implemented Automata
+--------------------
+
+We don't have a dedicated page for implemented automata yet, so they are here.
+
+### life.alp
+
+*   implementation of: [Conway's Game of Life][]
+*   implementation type: interpreter
+*   host language: [ALPACA][]
+*   inception date: 1998
+*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+
+Conway's Game of Life, in ALPACA.
+
+### wireworld.alp
+
+*   implementation of: [Wireworld][]
+*   implementation type: interpreter
+*   host language: [ALPACA][]
+*   inception date: 1998
+*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+
+Wireworld, in ALPACA.
+
 Forked Language Projects
 ------------------------
 
@@ -349,4 +374,5 @@ Fork began Feb 1, 2012.
 [Erlang]: http://www.erlang.org/
 [Haskell]: http://www.haskell.org/
 [Java]: http://www.oracle.com/technetwork/java/index.html
-
+[Conway's Game of Life]: TBD
+[Wireworld]: TBD

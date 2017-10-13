@@ -283,33 +283,3 @@ Ophis:
   host-language: Python
   target-language: 6502 machine code
   in-distribution: Ophis Assembler distribution
-
-
-# I have implemented this.  Should it go into implemented-languages.yaml...?
-Conway's Game of Life:
-  type: Automaton
-  genre: Experimental language
-  paradigms:
-  - 2-dimensional
-  - Cellular automaton
-  development-stage: vintage
-  # yuck
-  specification-link: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
-  wikipedia: Conway's_Game_of_Life
-  authors:
-  - John Conway
-  inception-date: 1970
-
-
-# I have implemented this.  Should it go into implemented-languages.yaml...?
-Wireworld:
-  type: Automaton
-  # recreational language?
-  genre: Experimental language
-  paradigms:
-  - Cellular automaton
-  computational-class: Finite-automata-complete
-  # i'll look it up someday
-  no-specification: true
-  development-stage: mature
-  authors: []
