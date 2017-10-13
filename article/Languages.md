@@ -2531,7 +2531,7 @@ or not.
 [Lua]: http://www.lua.org/
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
-[RUBE]: ../article/Languages.md#rube
+[RUBE]: ../article/Automata.md#rube
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
@@ -2565,5 +2565,5 @@ or not.
 [Illgola-2]: ../article/Languages.md#illgola-2
 [Illberon]: ../article/Languages.md#illberon
 [Befunge]: ../article/Languages.md#befunge-93
-[Jaccia]: ../article/Languages.md#jaccia
+[Jaccia]: ../article/Automata.md#jaccia
 

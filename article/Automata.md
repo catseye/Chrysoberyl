@@ -444,4 +444,5 @@ For a full account of its development, see
 [Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
-[Jaccia]: ../article/Languages.md#jaccia
+[Jaccia]: ../article/Automata.md#jaccia
+
