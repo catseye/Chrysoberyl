@@ -466,6 +466,7 @@
         "url": "https://en.wikipedia.org/wiki/Declarative_programming"
     },
 
+
     "chzrxl.js": {
         "anchor": "chzrxl", 
         "filename": "article/Automata.md"
@@ -474,6 +475,17 @@
         "anchor": "cyclobots", 
         "filename": "article/Automata.md"
     },
+
+
+    "interpreter": {
+        "anchor": "stringie",
+        "filename": "article/Language Implementations.md"
+    },
+    "compiler": {
+        "anchor": "stringie",
+        "filename": "article/Language Implementations.md"
+    },
+
 
     "tc.catseye.yoob": {
         "anchor": "yoob", 
