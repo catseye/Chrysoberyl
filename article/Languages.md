@@ -632,20 +632,21 @@ Apple ][+-specific instructions.
 *   paradigms: Imperative, Self-modifying
 *   reference-distribution: [SMITH distribution](http://catseye.tc/distribution/SMITH_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
-*   sample program: 
 
-        MOV R0, 10
-        MOV R2, 0
-        SUB R2, 1
-        MOV R[R0], "Hello, world!"
-        MOV TTY, R[R0]
-        SUB R0, R2
-        MOV R1, R0
-        SUB R1, 23
-        NOT R1
-        NOT R1
-        MUL R1, 8
-        COR +1, -7, R1
+Sample program:
+
+    MOV R0, 10
+    MOV R2, 0
+    SUB R2, 1
+    MOV R[R0], "Hello, world!"
+    MOV TTY, R[R0]
+    SUB R0, R2
+    MOV R1, R0
+    SUB R1, 23
+    NOT R1
+    NOT R1
+    MUL R1, 8
+    COR +1, -7, R1
 
 SMITH is a self-modifying assembly-like language which completely lacks
 any kind of jump instructions *whatsoever*.  Despite this handicap, it
@@ -666,13 +667,13 @@ has been shown to be [Turing-complete][].
 *   computational-class: ???
 *   paradigms: Graph-rewriting, Imperative
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
-*   sample program: 
 
-        Point-A: 1 Point-B,
-        Point-B: 1 Point-C,
-        Point-C: 1 Point-A.
-        ?- 1 Point-A -> 0 Point-A @ Point-A
-        
+Sample program:
+
+    Point-A: 1 Point-B,
+    Point-B: 1 Point-C,
+    Point-C: 1 Point-A.
+    ?- 1 Point-A -> 0 Point-A @ Point-A
 
 Tamerlane is a multi-paradigmatic programming language, unimplemented
 and possibly unimplementable. One of its core execution mechanisms is the
@@ -689,10 +690,10 @@ graph.
 *   paradigms: String-rewriting, State machine
 *   reference-distribution: [Squishy2K distribution](http://catseye.tc/distribution/Squishy2K_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Squishy2K)
-*   sample program: 
 
-        * main { start many finish? "Hello, world!"! }
-        
+Sample program:
+
+    * main { start many finish? "Hello, world!"! }
 
 Squishy2K is a language which is a hybrid of string rewriting
 and finite state automata; as an added twist, it also lets program states serve
@@ -722,18 +723,18 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/noit o' mnain worb)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/noit o' mnain worb)
-*   sample program: 
 
-        #####         #####
-        #   ###########   #
-        # . >         < . #
-        #   #####v#####   #
-        #####   #  ########
-                #       >!#
-                #v#########
-                # #
-                ###
-        
+Sample configuration:
+
+    #####         #####
+    #   ###########   #
+    # . >         < . #
+    #   #####v#####   #
+    #####   #  ########
+            #       >!#
+            #v#########
+            # #
+            ###
 
 noit o' mnain worb is a probabilistic particle automaton that
 uses pressure between randomly moving particles to approximate the behaviour
@@ -772,20 +773,20 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   paradigms: 2-dimensional, Maze-space-rewriting
 *   reference-distribution: [HUNTER distribution](/distribution/HUNTER distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
-*   sample program: 
 
-        ##################
-        #   1#2#         #
-        # #### #         #
-        #      #         #
-        # ######    M    #
-        #     M#         #
-        #+######         #
-        #     !#         #
-        ##################
-        *12+>3
-        *21+>3
-        
+Sample program:
+
+    ##################
+    #   1#2#         #
+    # #### #         #
+    #      #         #
+    # ######    M    #
+    #     M#         #
+    #+######         #
+    #     !#         #
+    ##################
+    *12+>3
+    *21+>3
 
 HUNTER is a language I designed for the Esoteric Awards ("Essies")
 Its abstract starts out like this:
@@ -812,10 +813,10 @@ Its abstract starts out like this:
 *   paradigms: Functional
 *   reference-distribution: ['N-DCNC distribution](/distribution/'N-DCNC distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/'N-DCNC)
-*   sample program: 
 
-        4*5+2/2,(9*`c)+1
-        
+Sample program:
+
+    4*5+2/2,(9*`c)+1
 
 'N-DCNC was [Chris Pressey][]'s entry for the 2000 [Esoteric Awards][].
 It is based on a conspiracy theory involving UFOs and a 5-member
@@ -851,26 +852,26 @@ Broken.
 *   paradigms: Imperative, Non-deterministic
 *   reference-distribution: [Strelnokoff distribution](/distribution/Strelnokoff distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
-*   sample program: 
 
-        REM HELLO WORLD IN STRELNOKOFF
-        REM CHRIS PRESSEY MARCH 24 2001
-        X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
-        X = (X / X) * X + (X = 0) * (T =  1) * (PRINT CHAR 'e' - 'e' +  2)
-        X = (X / X) * X + (X = 0) * (T =  2) * (PRINT CHAR 'l' - 'l' +  3)
-        X = (X / X) * X + (X = 0) * (T =  3) * (PRINT CHAR 'l' - 'l' +  4)
-        X = (X / X) * X + (X = 0) * (T =  4) * (PRINT CHAR 'o' - 'o' +  5)
-        X = (X / X) * X + (X = 0) * (T =  5) * (PRINT CHAR ',' - ',' +  6)
-        X = (X / X) * X + (X = 0) * (T =  6) * (PRINT CHAR ' ' - ' ' +  7)
-        X = (X / X) * X + (X = 0) * (T =  7) * (PRINT CHAR 'w' - 'w' +  8)
-        X = (X / X) * X + (X = 0) * (T =  8) * (PRINT CHAR 'o' - 'o' +  9)
-        X = (X / X) * X + (X = 0) * (T =  9) * (PRINT CHAR 'r' - 'r' + 10)
-        X = (X / X) * X + (X = 0) * (T = 10) * (PRINT CHAR 'l' - 'l' + 11)
-        X = (X / X) * X + (X = 0) * (T = 11) * (PRINT CHAR 'd' - 'd' + 12)
-        X = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)
-        X = (T = X) * 0 + (X > T) * X REM RESET FLAG
-        T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
-        
+Sample program:
+
+    REM HELLO WORLD IN STRELNOKOFF
+    REM CHRIS PRESSEY MARCH 24 2001
+    X = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)
+    X = (X / X) * X + (X = 0) * (T =  1) * (PRINT CHAR 'e' - 'e' +  2)
+    X = (X / X) * X + (X = 0) * (T =  2) * (PRINT CHAR 'l' - 'l' +  3)
+    X = (X / X) * X + (X = 0) * (T =  3) * (PRINT CHAR 'l' - 'l' +  4)
+    X = (X / X) * X + (X = 0) * (T =  4) * (PRINT CHAR 'o' - 'o' +  5)
+    X = (X / X) * X + (X = 0) * (T =  5) * (PRINT CHAR ',' - ',' +  6)
+    X = (X / X) * X + (X = 0) * (T =  6) * (PRINT CHAR ' ' - ' ' +  7)
+    X = (X / X) * X + (X = 0) * (T =  7) * (PRINT CHAR 'w' - 'w' +  8)
+    X = (X / X) * X + (X = 0) * (T =  8) * (PRINT CHAR 'o' - 'o' +  9)
+    X = (X / X) * X + (X = 0) * (T =  9) * (PRINT CHAR 'r' - 'r' + 10)
+    X = (X / X) * X + (X = 0) * (T = 10) * (PRINT CHAR 'l' - 'l' + 11)
+    X = (X / X) * X + (X = 0) * (T = 11) * (PRINT CHAR 'd' - 'd' + 12)
+    X = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)
+    X = (T = X) * 0 + (X > T) * X REM RESET FLAG
+    T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
 
 Strelnokoff is a non-deterministic imperative programming language.
 Despite this apparent handicap, it appears to be [Turing-complete][] —
@@ -894,14 +895,14 @@ featured in a parody advertisement on the television show SCTV.
 *   development-stage: not fully complete
 *   computational-class: ???
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
-*   sample program: 
 
-        + pale green
-        + Eb, trombone, forte
-        + leaning 40 degrees left (sudden)
-        + C, tubular bells, piano
-        + mothballs (gentle whiff)
-        
+Sample utterance:
+
+    + pale green
+    + Eb, trombone, forte
+    + leaning 40 degrees left (sudden)
+    + C, tubular bells, piano
+    + mothballs (gentle whiff)
 
 Opus-2 is not a programming language, but rather, an abstract artlang
 (i.e., a conlang designed independently from any conception of society.)
@@ -918,19 +919,19 @@ The sole design principle was to entirely eliminate word order.
 *   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-        (      )  (      )
-          #            #
-          # ###    ### #
-          #            #
-        
-            ###   ###
-        
-            #      #
-            #      #
-            #    ###
-        
+Sample program:
+
+    (      )  (      )
+      #            #
+      # ###    ### #
+      #            #
+    
+        ###   ###
+    
+        #      #
+        #      #
+        #    ###
 
 Ypsilax is a non-deterministic, reflective, two-dimensional grid-rewriting
 language.  Rewriting rules look for patterns in the grid and replace them
@@ -960,29 +961,29 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   paradigms: Imperative, Regular-expression-based
 *   reference-distribution: [Version distribution](/distribution/Version distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
-*   sample program: 
 
-        START: ROOM = "VALLEY|BROOK|GLADE"
-        CONT: IGNORE = ROOM
-        VALLEY: OUTPUT = "You are standing in a valley."
-        HILL: OUTPUT = "You are on top of a hill."
-        BROOK: OUTPUT = "You are by a brook."
-        GLADE: OUTPUT = "You are standing in a sun-dappled glade."
-        ROOM: OUTPUT = EOL
-        ROOM: DIR = CHOP INPUT
-        ROOM: IGNORE = DIR
-        ROOM: MASK = "VAPOURS"
-        N: CAT = "|N"
-        S: CAT = "|S"
-        E: CAT = "|E"
-        W: CAT = "|W"
-        ROOM: IGNORE = MASK
-        N: ROOM = "VALLEY|BROOK|GLADE"
-        S: ROOM = "HILL|BROOK|GLADE"
-        E: ROOM = "VALLEY|HILL|BROOK"
-        W: ROOM = "VALLEY|HILL|GLADE"
-        LASTLY: IGNORE = "START"
-        
+Sample program:
+
+    START: ROOM = "VALLEY|BROOK|GLADE"
+    CONT: IGNORE = ROOM
+    VALLEY: OUTPUT = "You are standing in a valley."
+    HILL: OUTPUT = "You are on top of a hill."
+    BROOK: OUTPUT = "You are by a brook."
+    GLADE: OUTPUT = "You are standing in a sun-dappled glade."
+    ROOM: OUTPUT = EOL
+    ROOM: DIR = CHOP INPUT
+    ROOM: IGNORE = DIR
+    ROOM: MASK = "VAPOURS"
+    N: CAT = "|N"
+    S: CAT = "|S"
+    E: CAT = "|E"
+    W: CAT = "|W"
+    ROOM: IGNORE = MASK
+    N: ROOM = "VALLEY|BROOK|GLADE"
+    S: ROOM = "HILL|BROOK|GLADE"
+    E: ROOM = "VALLEY|HILL|BROOK"
+    W: ROOM = "VALLEY|HILL|GLADE"
+    LASTLY: IGNORE = "START"
 
 Version is an imperative programming language that uses _ignorance-spaces_
 for flow control; all  instructions which match the current ignorance pattern
@@ -1004,26 +1005,26 @@ are ignored during execution.
 *   paradigms: Event-oriented
 *   reference-distribution: [beta-Juliet distribution](/distribution/beta-Juliet distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/beta-Juliet)
-*   sample program: 
 
-        event WindowSwitchBroken;
-        event MotionDetectorTriggered;
-        
-        event SystemArmed;
-        event SystemDisarmed;
-        
-        event Alarm,
-         caused after WindowSwitchBroken      when SystemArmed > SystemDisarmed,
-         caused after MotionDetectorTriggered when SystemArmed > SystemDisarmed,
-         causes Alarm.
-         
-        alphabet Domino,
-                One, Two, Three, Four, Five, Six, Seven;
-        event Begin,
-                causes Domino One Falls;
-        event Domino (N = Domino+) Falls,
-                causes Domino (succ N) Falls.
-        
+Sample program:
+
+    event WindowSwitchBroken;
+    event MotionDetectorTriggered;
+    
+    event SystemArmed;
+    event SystemDisarmed;
+    
+    event Alarm,
+     caused after WindowSwitchBroken      when SystemArmed > SystemDisarmed,
+     caused after MotionDetectorTriggered when SystemArmed > SystemDisarmed,
+     causes Alarm.
+     
+    alphabet Domino,
+            One, Two, Three, Four, Five, Six, Seven;
+    event Begin,
+            causes Domino One Falls;
+    event Domino (N = Domino+) Falls,
+            causes Domino (succ N) Falls.
 
 beta-Juliet is a minimal event-based language.  Each event is caused by some other event.
 Event causation is conditional based on which of two given events occurred more recently.
@@ -1056,12 +1057,12 @@ specified, allowing the language to be [Turing-complete][].
 *   paradigms: Functional
 *   reference-distribution: [Sbeezg distribution](/distribution/Sbeezg distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Sbeezg)
-*   sample program: 
 
-        f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
-           ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
-           k=j(h,b)|a};l=f(99,f)
-        
+Sample program:
+
+    f={a,b|i=*is;s=*pred;p=*print;g=p(*beer);h=s(a);
+       ln={x,m|z=x|x};lg={y,n|q=n(y,n)|y};j=i(h,0,ln,lg);
+       k=j(h,b)|a};l=f(99,f)
 
 Sbeezg is a syntactically very simple language that attempts to
 take the single-assignment concept to a logical extreme.
@@ -1086,9 +1087,10 @@ single-assignment or they're not...)
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting, Imperative
 *   reference-distribution: [GraNoLa/M distribution](/distribution/GraNoLa/M distribution)
-*   sample program: 
 
-        a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
+Sample program:
+
+    a=^sajalom(b=^#d(c=^bimodang(^a))d(e=^#cthulhu(f=^uwaming(g=^ubewic()))))
 
 GraNoLa/M is a Graph-Node-based Language (possibly for Machines.) 
 It was one of my submissions for the Esoteric Awards. Not unlike [Tamerlane][],
@@ -1111,11 +1113,12 @@ same time.
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting
 *   reference-distribution: [Kangaroo Iceberg distribution](/distribution/Kangaroo Iceberg distribution)
-*   sample program: 
 
-        A { ^A:0 / ^A:0 -> ^A:1 }
-        B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
-        C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
+Sample program:
+
+    A { ^A:0 / ^A:0 -> ^A:1 }
+    B { / ^B:0 -> ^B:1, ^B:1 -> ^B:2 }
+    C { {}:0 / ^K:0 -> ^K:1, ^K:1 -> ^K:2; ^A:1 -> ^A:0 }
 
 Kangaroo Iceberg was a short-lived attempt to pare down [Tamerlane][]
 to something implementable, and implement it.  Although it got a fair ways
@@ -1146,18 +1149,18 @@ implementation and notes that I left behind...
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
 *   online @ [catseye.tc](http://catseye.tc/installation/Circute)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-                          =
-                          =
-           #######==   ===N===   =========
-           #       =   =     =   =       =
-         ==N==     = ==N== ==N== =     ==N==
-         =   =     = =   = =   = =     =   =
-         =====     = ===== ===== =     =====
-           =       =   =     =   =       =
-           =============     =============
-        
+Sample configuration:
+
+                     =
+                     =
+      #######==   ===N===   =========
+      #       =   =     =   =       =
+    ==N==     = ==N== ==N== =     ==N==
+    =   =     = =   = =   = =     =   =
+    =====     = ===== ===== =     =====
+      =       =   =     =   =       =
+      =============     =============
 
 Circute is a cellular automaton that simulates conduits that
 carry digital signals and NAND gates that manipulate those signals.
@@ -1187,12 +1190,13 @@ carry digital signals and NAND gates that manipulate those signals.
 *   reference-distribution: [Braktif distribution](http://catseye.tc/distribution/Braktif_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Braktif)
 *   online @ [catseye.tc](http://catseye.tc/installation/Braktif)
-*   sample program: 
 
-                                    *
-                               <<*[--]*
-        000000000000000000  *[-----  --]
-        -----------------d-i--         --------
+Sample configuration:
+
+                                *
+                           <<*[--]*
+    000000000000000000  *[-----  --]
+    -----------------d-i--         --------
 
 Braktif is a cellular automaton modelled closely after the [brainfuck][]
 programming language.
@@ -1214,26 +1218,26 @@ programming language.
 *   paradigms: Imperative, State machine
 *   reference-distribution: [Beturing distribution](http://catseye.tc/distribution/Beturing_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Beturing)
-*   sample program: 
 
-        # D(40, 4)
-        # @(40, 4)
-        $bbab$
-        # C(0, 0)
-        # @(0, 0)
-         . . . . . .
-        *v*<*<*<*>*v
-        aa .ab . .aa .
-        >/*>./*^*^</*v
-        bb .ba . .bb .
-        >/*^./*^*^</*v
-        $$ .$$ . .$$ .
-        >/*^</*>*^.@*v
-                 . . .
-        *@      *^*<*<
-        
+Sample program:
 
-Beturing is a "[Befunge](Befunge-93)-flavoured" language for describing Turing
+    # D(40, 4)
+    # @(40, 4)
+    $bbab$
+    # C(0, 0)
+    # @(0, 0)
+     . . . . . .
+    *v*<*<*<*>*v
+    aa .ab . .aa .
+    >/*>./*^*^</*v
+    bb .ba . .bb .
+    >/*^./*^*^</*v
+    $$ .$$ . .$$ .
+    >/*^</*>*^.@*v
+             . . .
+    *@      *^*<*<
+
+Beturing is a "[Befunge][]-flavoured" language for describing Turing
 machines; both the tape and the finite control are laid out two-dimensionally.
 In addition, the finite control must be expressed as a planar graph (no
 edge representing a transition may cross any other edge.) It was devised
@@ -1257,14 +1261,14 @@ graphs, so Beturing is [Turing-complete][].
 *   influences: [Lua][]
 *   paradigms: Imperative, Functional
 *   reference-distribution: [Bhuna distribution](http://catseye.tc/distribution/Bhuna_distribution)
-*   sample program: 
 
-        Fib = ^ X {
-          if X < 2 return 1 else
-          return Fib(X - 1) + Fib(X - 2)
-        }
-        Print Fib(32), EoL
-        
+Sample program:
+
+    Fib = ^ X {
+      if X < 2 return 1 else
+      return Fib(X - 1) + Fib(X - 2)
+    }
+    Print Fib(32), EoL
 
 Bhuna is a small, garbage-collected language with a simple syntax,
 [closures](Closure), inferred types, lightweight processes, and support for UTF-8 source
@@ -1289,16 +1293,16 @@ point for branching new languages, than as a useful language in and of itself.
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Burro distribution](http://catseye.tc/distribution/Burro_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Burro)
-*   sample program: 
 
-        !--(--(--(!>/
-          >>--(+<<+++++++>/+++>+++++>)<
-        >)/
-          >>--(+++>+++++>/+++<<<<<+++>)<
-        >)/
-          >>--(+++>+>/+<<+++>)<
-        >)<
-        
+Sample program:
+
+    !--(--(--(!>/
+      >>--(+<<+++++++>/+++>+++++>)<
+    >)/
+      >>--(+++>+++++>/+++<<<<<+++>)<
+    >)/
+      >>--(+++>+>/+<<+++>)<
+    >)<
 
 Burro is a [brainfuck][]-like programming language whose programs
 form an algebraical _group_ (modulo the equivalence relation of "computes the
@@ -1327,14 +1331,17 @@ shortcoming was rectified in summer of 2010.
 *   paradigms: String-rewriting
 *   reference-distribution: [Xigxag distribution](http://catseye.tc/distribution/Xigxag_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xigxag)
-*   sample program: 
 
-        ><<
-*   sample output:
-        ><<
-        <<>><
-        <><<<<>>
-        <<<<>><><><<><<<><<<>
+Sample configuration:
+
+    ><<
+
+Sample result:
+
+    ><<
+    <<>><
+    <><<<<>>
+    <<<<>><><><<><<<><<<>
 
 Xigxag is a simple string-copying automaton that has exponential
 growth almost everywhere (i.e. there are only a finite number of initial
@@ -1356,10 +1363,10 @@ configurations that don't blow up.)
 *   paradigms: Term-rewriting
 *   reference-distribution: [Hev distribution](http://catseye.tc/distribution/Hev_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Hev)
-*   sample program: 
 
-        71+8*27,19,29*99,6,37,7,61,47
-        
+Sample program:
+
+    71+8*27,19,29*99,6,37,7,61,47
 
 Hev is a programming language that attempts to solve the "central
 problem of infix notation": how do you allow it without requiring the programmer
@@ -1383,10 +1390,10 @@ of any dreadful precedence table is required!
 *   influences: Burro
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Cabra distribution](http://catseye.tc/distribution/Cabra_distribution)
-*   sample program: 
 
-        (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
-        
+Sample program:
+
+    (SET 1 + SET 2) * IFSET 1 THEN (IFSET 2 THEN SET 3 ELSE SKIP) ELSE SKIP
 
 Cabra is a (somewhat) formal programming language whose programs
 form an algebraical _dioid_ (an idempotent semiring), modulo the equivalence
@@ -1411,10 +1418,10 @@ operator).
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
-*   sample program: 
 
-        001000000[0010000000111001000011]11100100001[0]
-        
+Sample program:
+
+    001000000[0010000000111001000011]11100100001[0]
 
 You are Reading the Name of this Esolang is an exploration in
 the design space of programming languages with undecidable elements. Its syntax
@@ -1438,10 +1445,10 @@ which to detect all possible compiler-hanging-templates.)
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Emmental distribution](http://catseye.tc/distribution/Emmental_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Emmental)
-*   sample program: 
 
-        ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
-        
+Sample program:
+
+    ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#111#108#108#101#72$
 
 Emmental is a self-modifying programming language.  It is defined
 in terms of a meta-circular interpreter, and this meta-circular interpreter
@@ -1464,24 +1471,24 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 *   paradigms: Cellular automaton, Reflective
 *   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Didigm)
-*   sample program: 
 
-        3333333333333
-        3002300230073
-        3111311132113
-        3311321131573
-        3111311131333
-        3333333333333
-        =F3
-        ,
-        =F1
-        111111111111111
-        111111131111111
-        111111111111574
-        111111111111333
-        311111111111023
-        111111111111113
-        
+Sample configuration:
+
+    3333333333333
+    3002300230073
+    3111311132113
+    3311321131573
+    3111311131333
+    3333333333333
+    =F3
+    ,
+    =F1
+    111111111111111
+    111111131111111
+    111111111111574
+    111111111111333
+    311111111111023
+    111111111111113
 
 Didigm is a reflective cellular automaton: the transition rules
 for the automaton are defined by forms in the very playfield governed by
@@ -1496,17 +1503,18 @@ those transition rules.
 *   computational-class: ???
 *   paradigms: Imperative, Functional
 *   reference-distribution: [Iphigeneia distribution](http://catseye.tc/distribution/Iphigeneia_distribution)
-*   sample program: 
 
-        var a in a :=
-            let c = 5 in let d = 1 in
-                loop
-                    if c = 0 then
-                        d
-                    else
-                        let d = d * c in
-                            let c = c - 1 in
-                                repeat
+Sample program:
+
+    var a in a :=
+        let c = 5 in let d = 1 in
+            loop
+                if c = 0 then
+                    d
+                else
+                    let d = d * c in
+                        let c = c - 1 in
+                            repeat
 
 Iphigeneia is a toy programming language which contains features
 from both imperative programming (assignments to mutable variables, `while`
@@ -1531,9 +1539,10 @@ that convert programs between the two forms.
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Mascarpone distribution](http://catseye.tc/distribution/Mascarpone_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Mascarpone)
-*   sample program: 
 
-        v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
+Sample program:
+
+    v['[/''/']v*]v*'?<^v[/?/<]v*'S<[>!]v*'F<^[]v*1'p'kS'kF.
 
 Mascarpone is a self-modifying language able to alter the meta-circular
 interpreter which defines it, like its predecessor [Emmental][].  Unlike Emmental
@@ -1556,15 +1565,16 @@ job of reflective interpreter-modification quite a bit cleaner and richer.
 *   paradigms: Imperative
 *   reference-distribution: [Larabee distribution](http://catseye.tc/distribution/Larabee_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Larabee)
-*   sample program: 
 
-        (store (input) (input)
-          (store (input) (input)
-            (label loop
-              (store (input) (op * (fetch (input)) (fetch (input)))
-                (store (input) (op - (fetch (input)) (input))
-                  (test (op > (fetch (input)) (input))
-                    (goto loop) (print (fetch (input)))))))))
+Sample program:
+
+    (store (input) (input)
+      (store (input) (input)
+        (label loop
+          (store (input) (op * (fetch (input)) (fetch (input)))
+            (store (input) (op - (fetch (input)) (input))
+              (test (op > (fetch (input)) (input))
+                (goto loop) (print (fetch (input)))))))))
 
 Larabee is an assembly-like programming language, with [Scheme][]-like
 syntax, that borrows the notion of branch prediction from computer architecture
@@ -1585,27 +1595,28 @@ and abuses it, creating a path that leads only to existential angst and self-des
 *   computational-class: believed Turing-complete
 *   paradigms: Forest-rewriting
 *   reference-distribution: [Arboretuum distribution](http://catseye.tc/distribution/Arboretuum_distribution)
-*   sample program: 
 
-        (
-          (
-            (ast:   (let a 4 (+ 3 (* a 3))) )
-            (stab:  eot)
-            (out:   halt)
-          )
-          (
-            ((ast:  (let #(n sym) #(v) #(expr)) => #(expr)            )
-             (stab: eot                         => (#(n) #(v) EOT)    ))
-            ((ast:  #(n sym)                    => #(v)               )
-             (stab: (#(n) #(v) #(tab))          => (#(n) #(v) #(tab)) ))
-            ((ast: #(a num)                     => _                  )
-             (out: halt                         => (push #(a) halt)   ))
-            ((ast: (+ _ _)                      => _                  )
-             (out: halt                         => (add halt)         ))
-            ((ast: (* _ _)                      => _                  )
-             (out: halt                         => (mul halt)         ))
-          )
-        )
+Sample program:
+
+    (
+      (
+        (ast:   (let a 4 (+ 3 (* a 3))) )
+        (stab:  eot)
+        (out:   halt)
+      )
+      (
+        ((ast:  (let #(n sym) #(v) #(expr)) => #(expr)            )
+         (stab: eot                         => (#(n) #(v) EOT)    ))
+        ((ast:  #(n sym)                    => #(v)               )
+         (stab: (#(n) #(v) #(tab))          => (#(n) #(v) #(tab)) ))
+        ((ast: #(a num)                     => _                  )
+         (out: halt                         => (push #(a) halt)   ))
+        ((ast: (+ _ _)                      => _                  )
+         (out: halt                         => (add halt)         ))
+        ((ast: (* _ _)                      => _                  )
+         (out: halt                         => (mul halt)         ))
+      )
+    )
 
 Arboretuum is an experimental language based on _forest-rewriting_,
 a variant of tree-rewriting in which multiple trees are rewritten simultaneously.
@@ -1630,13 +1641,13 @@ however, this idea was not entirely successful.  Regardless, Arboretuum is
 *   influences: Arboretuum
 *   paradigms: Term-rewriting
 *   reference-distribution: [Treacle distribution](http://catseye.tc/distribution/Treacle_distribution)
-*   sample program: 
 
-        (
-          (:i (? t (x (? i *) (? j *)))) -> (t : (xx (? j *) (? i *)))))
-          (:i (? p right))               -> (p : left)
-        )
-        
+Sample program:
+
+    (
+      (:i (? t (x (? i *) (? j *)))) -> (t : (xx (? j *) (? i *)))))
+      (:i (? p right))               -> (p : left)
+    )
 
 Treacle is an experimental compiler-definition language based on
 _context rewriting_, an expressive variant of term rewriting that generalizes
@@ -1660,9 +1671,10 @@ _holes_ inside which subpatterns may match at any depth.
 *   paradigms: Functional
 *   reference-distribution: [Quylthulg distribution](http://catseye.tc/distribution/Quylthulg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Quylthulg)
-*   sample program: 
 
-        foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
+Sample program:
+
+    foreach $n$=:L:[1,2,3|goto$L$] with $a$=1 be +$a$+$n$+ else be abort
 
 Quylthulg is a programming language with but a single control-flow
 construct: `foreach`.  In fact, it does also have a `goto`, but that can
@@ -1684,32 +1696,33 @@ only appear inside data structures.
 *   paradigms: Continuation-passing, Object-oriented, Dependency injection
 *   reference-distribution: [Unlikely distribution](http://catseye.tc/distribution/Unlikely_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Unlikely)
-*   sample program: 
 
-        class Count(Count,Chain,Print,Add) extends Continuation
-        
-        class CountForever(Count,Chain,Print,Add) extends Program {
-          Count c;
-          method continue(Passive accumulator) {
-            c = new Count(Passive,Count,Chain,Print,Add);
-            goto c.continue(new 1(Passive));
-          }
-        }
-        
-        class Count() extends Continuation {
-          Count c;
-          Print p;
-          Add a;
-          method continue(Passive accumulator) {
-            c = new Count(Passive,Count,Chain,Print,Add);
-            a = new Add(Passive,Chain);
-            a.value = new 1(Passive);
-            a.next = c;
-            p = new Print(Passive,Chain);
-            p.next = a;
-            goto p.continue(accumulator);
-          }
-        }
+Sample program:
+
+    class Count(Count,Chain,Print,Add) extends Continuation
+    
+    class CountForever(Count,Chain,Print,Add) extends Program {
+      Count c;
+      method continue(Passive accumulator) {
+        c = new Count(Passive,Count,Chain,Print,Add);
+        goto c.continue(new 1(Passive));
+      }
+    }
+    
+    class Count() extends Continuation {
+      Count c;
+      Print p;
+      Add a;
+      method continue(Passive accumulator) {
+        c = new Count(Passive,Count,Chain,Print,Add);
+        a = new Add(Passive,Chain);
+        a.value = new 1(Passive);
+        a.next = c;
+        p = new Print(Passive,Chain);
+        p.next = a;
+        goto p.continue(accumulator);
+      }
+    }
 
 Unlikely is a programming language that conflates objects with
 continuations, and methods with labels.  It exposes program structures as
@@ -1734,31 +1747,34 @@ class *must* be specified when the object is instantiated.
 *   reference-distribution: [Jaccia and Jacciata distribution](http://catseye.tc/distribution/Jaccia_and_Jacciata_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Jaccia)
 *   online @ [catseye.tc](http://catseye.tc/installation/Jaccia)
-*   sample program: 
 
-        #######S###
-        #:::::::::#
-        #:###:###:#
-        #:#:#:::#:#
-        #:#:#:#:###
-        #:::#:#:#:#
-        #####:#:#:#
-        #:#:::#:::#
-        #:#:###:###
-        #:::#:::::#
-        #########F#
-*   sample output:
-        #######S###
-        #    :::  #
-        # ###:### #
-        # # #:::# #
-        # # # #:###
-        #   # #:# #
-        ##### #:# #
-        # #   #:  #
-        # # ###:###
-        #   #  :::#
-        #########F#
+Sample configuration:
+
+    #######S###
+    #:::::::::#
+    #:###:###:#
+    #:#:#:::#:#
+    #:#:#:#:###
+    #:::#:#:#:#
+    #####:#:#:#
+    #:#:::#:::#
+    #:#:###:###
+    #:::#:::::#
+    #########F#
+
+Sample result:
+
+    #######S###
+    #    :::  #
+    # ###:### #
+    # # #:::# #
+    # # # #:###
+    #   # #:# #
+    ##### #:# #
+    # #   #:  #
+    # # ###:###
+    #   #  :::#
+    #########F#
 
 Jaccia and Jacciata are cellular automata inspired by the [Announcement
 of Scientific Proof that Slime Molds are Intelligent Maze Solvers](http://web.archive.org/web/20020220163303/http://www.riken.go.jp/lab-www/frontier-div/NEWSLETTER/feb2001/ameboid_e.htm).
@@ -1788,9 +1804,10 @@ Jacciata is a variant of [Jaccia][] which finds the shortest path.
 *   paradigms: Functional
 *   reference-distribution: [Pixley distribution](http://catseye.tc/distribution/Pixley_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Pixley)
-*   sample program: 
 
-        (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
+Sample program:
+
+    (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
 
 Pixley is a very small subset of R5RS Scheme (or, if you prefer, R4RS
 Scheme), supporting only four datatypes (boolean, cons cell, function, and
@@ -1867,14 +1884,15 @@ Variant of [Pixley][], description TK.
 *   computational-class: believed Turing-complete
 *   paradigms: Object-oriented
 *   reference-distribution: [Dieter distribution](http://catseye.tc/distribution/Dieter_distribution)
-*   sample program: 
 
-        module beefy
-          procedure beef_up(x: ♥t): beefy ♥t
-          begin
-            return (bestow beefy x)
-          end
-        end.
+Sample program:
+
+    module beefy
+      procedure beef_up(x: ♥t): beefy ♥t
+      begin
+        return (bestow beefy x)
+      end
+    end.
 
 Dieter (as in the German masculine given name Dieter, not dieter as in
 "one who diets") is a little experimental programming language that
@@ -1908,9 +1926,10 @@ safety and optimization considerations.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
 *   online @ [catseye.tc](http://catseye.tc/installation/Etcha)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-        >+++>+++>+++>+++>[+]>>>>+
+Sample program:
+
+    >+++>+++>+++>+++>[+]>>>>+
 
 Etcha is a two-dimensional descendant of [Jeffry Johnston][]'s [BitChanger][].
 Like BitChanger, it has four instructions; unlike BitChanger, its storage
@@ -1951,17 +1970,18 @@ a role similar to the tape head of a Turing machine.
 *   reference-distribution: [ZOWIE distribution](http://catseye.tc/distribution/ZOWIE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ZOWIE)
 *   online @ [catseye.tc](http://catseye.tc/installation/ZOWIE)
-*   sample program: 
 
-        MOV R10, 90
-        MOV R1, R1
-        MOV R0, R10
-        MOV R8, R10
-        MOV R5, 1
-        MOV R10, R8
-        MOV R8, R10
-        MOV R5, 64
-        MOV R3, R8
+Sample program:
+
+    MOV R10, 90
+    MOV R1, R1
+    MOV R0, R10
+    MOV R8, R10
+    MOV R5, 1
+    MOV R10, R8
+    MOV R8, R10
+    MOV R5, 64
+    MOV R3, R8
 
 ZOWIE is a machine-like language in which all operations *including
 structured control flow* are memory-mapped.  Control flow is structured in
