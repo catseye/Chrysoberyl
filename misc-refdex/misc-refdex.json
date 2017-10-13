@@ -569,6 +569,10 @@
         "anchor": "cyclobots", 
         "filename": "article/Automata.md"
     },
+    "PleaOfThunder.java": {
+        "anchor": "plea-of-thunder", 
+        "filename": "article/Tools.md"
+    },
 
 
     "interpreter": {
