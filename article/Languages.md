@@ -2005,24 +2005,25 @@ a memory location to mark the beginning or end of a loop or conditional.
 *   paradigms: Imperative
 *   reference-distribution: [Whothm distribution](http://catseye.tc/distribution/Whothm_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Whothm)
-*   sample program: 
 
-        r := (0, 0, 1, 2);
-        s := (0, 0, 1, 2);
-        XOR := TF/FT;
-        
-        begin
-        r.x += r.w;
-        r.x += -1;
-        r.w += 1;
-        r.h += 1;
-        draw r, XOR;
-        s.x += s.w;
-        s.x += -1;
-        s.w += 1;
-        s.h += 2;
-        draw s, XOR;
-        end
+Sample program:
+
+    r := (0, 0, 1, 2);
+    s := (0, 0, 1, 2);
+    XOR := TF/FT;
+    
+    begin
+    r.x += r.w;
+    r.x += -1;
+    r.w += 1;
+    r.h += 1;
+    draw r, XOR;
+    s.x += s.w;
+    s.x += -1;
+    s.w += 1;
+    s.h += 2;
+    draw s, XOR;
+    end
 
 Whothm is a simple language for describing infinite two-colour
 bitmapped drawings.
@@ -2043,26 +2044,27 @@ bitmapped drawings.
 *   paradigms: Imperative
 *   reference-distribution: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Eightebed)
-*   sample program: 
 
-        type node struct {
-            int value;
-            ptr to node next;
-        };
-        var ptr to node jim;
-        var ptr to node george;
-        {    
-            jim = malloc node;
-            if valid jim {
-                [@jim].value = (1 + 4);
-                george = jim;
-            }
-            if valid george {
-                print [@george].value;
-            }
-            free george;
-            free jim;
+Sample program:
+
+    type node struct {
+        int value;
+        ptr to node next;
+    };
+    var ptr to node jim;
+    var ptr to node george;
+    {    
+        jim = malloc node;
+        if valid jim {
+            [@jim].value = (1 + 4);
+            george = jim;
         }
+        if valid george {
+            print [@george].value;
+        }
+        free george;
+        free jim;
+    }
 
 Eightebed is a small language with explicit `malloc` and `free`.
 Through a modicum of static analysis
@@ -2092,16 +2094,17 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Oozlybub and Murphy)
-*   sample program: 
 
-        VARIABLES ARE p /p*/, p /q*/.
-        dynast(3) <->
-          (. do (. if? not? exists/dynast 5 ,then
-               create/countably/many/dynasts #myself#, 5 .) .) ,then
-          (. for each prime /p*|p/ below #myself#+2 do
-               for each prime /q*|q/ below /p*|pp/+1 do
-                 if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
-                   copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
+Sample program:
+
+    VARIABLES ARE p /p*/, p /q*/.
+    dynast(3) <->
+      (. do (. if? not? exists/dynast 5 ,then
+           create/countably/many/dynasts #myself#, 5 .) .) ,then
+      (. for each prime /p*|p/ below #myself#+2 do
+           for each prime /q*|q/ below /p*|pp/+1 do
+             if? not? exists/dynast /p*|p|p/+/q*|q|q/ ,then
+               copy/dynast #myself#, /p*|ppp/, /q*|qqq/ .)
 
 The name of this language is Oozlybub and Murphy. Despite appearances,
 this name refers to a single language. The majority of the language is named
@@ -2124,29 +2127,30 @@ typing, and only-conjectural Turing completeness.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
 *   online @ [catseye.tc](http://catseye.tc/installation/Gemooy)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   sample program: 
 
-        %### # ###   # #   ### # ###   # #   ### # ###@
-        
-           @    @#         @
-          @      @          @
-         @@
-        @                   @
-            $         @# # @
-                     #      @
-                    #
-               @   @
-                            @
-                 
-               @
-              #
-             #
-            @
-            @    @
-             @# @
-        @        @
-                 @
-          @     @#@
+Sample program:
+
+    %### # ###   # #   ### # ###   # #   ### # ###@
+    
+       @    @#         @
+      @      @          @
+     @@
+    @                   @
+        $         @# # @
+                 #      @
+                #
+           @   @
+                        @
+             
+           @
+          #
+         #
+        @
+        @    @
+         @# @
+    @        @
+             @
+      @     @#@
 
 Gemooy is a 2-dimensional esolang with 3 instructions (5 initial symbols)
 which combines features from [2-ill][] and [Etcha][], and adds
@@ -2177,17 +2181,17 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   paradigms: 2-dimensional
 *   reference-distribution: [Nhohnhehr distribution](http://catseye.tc/distribution/Nhohnhehr_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Nhohnhehr)
-*   sample program: 
 
-        +------+
-        |    /}|
-        |&#/$?@|
-        |  / \&|
-        |      |
-        | {    |
-        |\\    |
-        +------+
-        
+Sample program:
+
+    +------+
+    |    /}|
+    |&#/$?@|
+    |  / \&|
+    |      |
+    | {    |
+    |\\    |
+    +------+
 
 Nhohnhehr is a remotely fungeoid language which explores the design
 space between having a fixed playfield versus an expandable one.  When the
@@ -2211,19 +2215,19 @@ before being adjoined to existing rooms, but rooms are otherwise immutable.
 *   computational-class: believed Turing-complete
 *   paradigms: 2-dimensional, Grid-rewriting, Self-modifying
 *   reference-distribution: [Kelxquoia distribution](http://catseye.tc/distribution/Kelxquoia_distribution)
-*   sample program: 
 
-         >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
-         RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR
-        $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
-            ' '   '       '  '      '   
-                     '         '  '     
-         ^      /*?-*P-*?-+*?-*P-* -+     <
-         P      PPPPPPPPPPPPPPPPPP PP     P
-         ^      /*?-*P-*?-+*?-*P-* -+     <
-        
-         00 00 00 00
-        
+Sample program:
+
+     >+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
+     RRRRRRRRRRRRRRRRRRRR RRRRRRRRRRRRR
+    $>+-0 0*+-1*/+-?*-R*- *+-?*-R*-?*/v
+        ' '   '       '  '      '   
+                 '         '  '     
+     ^      /*?-*P-*?-+*?-*P-* -+     <
+     P      PPPPPPPPPPPPPPPPPP PP     P
+     ^      /*?-*P-*?-+*?-*P-* -+     <
+    
+     00 00 00 00
 
 Kelxquoia is another remotely fungeoid language, this one self-modifying
 — in fact, self-destroying.  As instructions are executed, they are
@@ -2245,34 +2249,35 @@ were previously erased after execution.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
-*   sample program: 
 
-                  o   ooo  o
-        
-        
-        o
-        o
-        o
-        o         o
-        o         o
-        o         o
-        o         o
-        o
-        o        o     o
-        o         o
-        o
-        o        o
-        o              o
-        o        o     o
-        o              o
-        
-                 o
-        o oooooooo     o
-                 o
-                 o
-                 o
-        
-                 o    oooo o
+Sample program:
+
+              o   ooo  o
+    
+    
+    o
+    o
+    o
+    o         o
+    o         o
+    o         o
+    o         o
+    o
+    o        o     o
+    o         o
+    o
+    o        o
+    o              o
+    o        o     o
+    o              o
+    
+             o
+    o oooooooo     o
+             o
+             o
+             o
+    
+             o    oooo o
 
 Wunnel is a two-dimensional language which draws from the [1L][]
 family of languages and incorporates features from [reMorse][]. The name
@@ -2306,16 +2311,16 @@ remote parts of the program.
 *   paradigms: Functional
 *   reference-distribution: [Pail distribution](http://catseye.tc/distribution/Pail_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Pail)
-*   sample program: 
 
-        **[*let [
-             [cadrg *[#fst ##*[#snd #g]]]
-             **[*let [
-                  [g [x [y z]]]
-                  ***cadrg
-               ]]
-          ]]
-        
+Sample program:
+
+    **[*let [
+         [cadrg *[#fst ##*[#snd #g]]]
+         **[*let [
+              [g [x [y z]]]
+              ***cadrg
+           ]]
+      ]]
 
 Pail is a programming language based on pairs; just as Lisp stands
 for LISt Processing, Pail stands for PAIr Language. Its original working
@@ -2340,19 +2345,20 @@ names of bindings to be expressed.
 *   paradigms: Imperative, Lazy
 *   reference-distribution: [Xoomonk distribution](http://catseye.tc/distribution/Xoomonk_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xoomonk)
-*   sample program: 
 
-        l := $loop*
-        counter := 5
-        l.do := {
-          y := x
-          print ^.counter
-          o := $sub*
-          o.x := ^.counter
-          o.y := 1
-          ^.counter := o.result
-          continue := o.result
-        }
+Sample program:
+
+    l := $loop*
+    counter := 5
+    l.do := {
+      y := x
+      print ^.counter
+      o := $sub*
+      o.x := ^.counter
+      o.y := 1
+      ^.counter := o.result
+      continue := o.result
+    }
 
 Xoomonk is a programming language in which _malingering updatable
 stores_ are first-class objects.  Malingering updatable stores unify several
@@ -2382,16 +2388,17 @@ while it was being developed, against the spec.
 *   paradigms: Functional, 2-dimensional
 *   reference-distribution: [Flobnar distribution](http://catseye.tc/distribution/Flobnar_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Flobnar)
-*   sample program: 
 
-        >     v
-        ^\ <   
-               
-        :v    v   \<@
-        -<      : 6
-        1 :   > *
-          -|    <
-          11
+Sample program:
+
+    >     v
+    ^\ <   
+           
+    :v    v   \<@
+    -<      : 6
+    1 :   > *
+      -|    <
+      11
 
 One day in September of 2011 — though I'm not sure precisely
 which one — marked [Befunge-93][]'s 18th birthday.  That means that
@@ -2416,30 +2423,30 @@ proceeds in a much more dataflow-like fashion.
 *   computational-class: believed Turing-complete
 *   paradigms: Proof checking, Term-rewriting
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
-*   sample program: 
 
-        type tree is
-          tree(leaf)        -> true
-          tree(branch(X,Y)) -> and(tree(X),tree(Y))
-        in let
-          reflect(leaf)        -> leaf
-          reflect(branch(A,B)) -> branch(reflect(B),reflect(A))
-        in theorem
-          forall X where tree(X)
-            reflect(reflect(X)) ~> X
-        proof
-          case X = leaf
-            reflect(reflect(leaf))
-            -> reflect(leaf)        [by reflect.1]
-            -> leaf                 [by reflect.1]
-          case X = branch(S, T)
-            reflect(reflect(branch(S, T)))
-            -> reflect(branch(reflect(T),reflect(S)))          [by reflect.2]
-            -> branch(reflect(reflect(S)),reflect(reflect(T))) [by reflect.2]
-            -> branch(S,reflect(reflect(T)))                   [by IH]
-            -> branch(S,T)                                     [by IH]
-        qed
-        
+Sample program:
+
+    type tree is
+      tree(leaf)        -> true
+      tree(branch(X,Y)) -> and(tree(X),tree(Y))
+    in let
+      reflect(leaf)        -> leaf
+      reflect(branch(A,B)) -> branch(reflect(B),reflect(A))
+    in theorem
+      forall X where tree(X)
+        reflect(reflect(X)) ~> X
+    proof
+      case X = leaf
+        reflect(reflect(leaf))
+        -> reflect(leaf)        [by reflect.1]
+        -> leaf                 [by reflect.1]
+      case X = branch(S, T)
+        reflect(reflect(branch(S, T)))
+        -> reflect(branch(reflect(T),reflect(S)))          [by reflect.2]
+        -> branch(reflect(reflect(S)),reflect(reflect(T))) [by reflect.2]
+        -> branch(S,reflect(reflect(T)))                   [by IH]
+        -> branch(S,T)                                     [by IH]
+    qed
 
 Madison is a language in which one can state proofs of properties
 of term-rewriting systems.  Classical methods of automated reasoning,
@@ -2474,11 +2481,12 @@ fairly neatly to the definition of a Turing machine, so it is almost certainly
 *   influences: Ruby
 *   paradigms: Object-oriented
 *   reference-distribution: [Velo distribution](http://catseye.tc/distribution/Velo_distribution)
-*   sample program: 
 
-        yes = {IO.print {Yes}}
-        no = {IO.print {No}}
-        if ({X}.equals {Y}), yes, no
+Sample program:
+
+    yes = {IO.print {Yes}}
+    no = {IO.print {No}}
+    if ({X}.equals {Y}), yes, no
 
 Velo is a vaguely [Ruby][]-inspired "scripting" language which unifies
 strings with code blocks, and scripts with object classes.  Curly braces
@@ -2508,21 +2516,22 @@ an object, which inherits from the root object in delegation-OO style.
 *   paradigms: Functional
 *   reference-distribution: [Exanoke distribution](http://catseye.tc/distribution/Exanoke_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Exanoke)
-*   sample program: 
 
-        def inc(#)
-          cons(:one, #)
-        def add(#, other)
-          if eq?(#, :nil) then other else self(<tail #, inc(other))
-        def mul(#, other)
-          if eq?(#, :nil) then :nil else
-            add(other, self(<tail #, other))
-        def fact(#)
-          if eq?(#, :nil) then cons(:one, :nil) else
-            mul(#, self(<tail #))
-        def four(#)
-          cons(:one, cons(:one, cons(:one, cons(:one, #))))
-        fact(four(:nil))
+Sample program:
+
+    def inc(#)
+      cons(:one, #)
+    def add(#, other)
+      if eq?(#, :nil) then other else self(<tail #, inc(other))
+    def mul(#, other)
+      if eq?(#, :nil) then :nil else
+        add(other, self(<tail #, other))
+    def fact(#)
+      if eq?(#, :nil) then cons(:one, :nil) else
+        mul(#, self(<tail #))
+    def four(#)
+      cons(:one, cons(:one, cons(:one, cons(:one, #))))
+    fact(four(:nil))
 
 Exanoke is a functional language which is syntactically restricted to
 expressing the primitive recursive functions.
@@ -2543,20 +2552,20 @@ expressing the primitive recursive functions.
 *   paradigms: Imperative
 *   reference-distribution: [Cfluviurrh distribution](http://catseye.tc/distribution/Cfluviurrh_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Cfluviurrh)
-*   sample program: 
 
-        (print ASCII table while experiencing a bewildering array of emotions)
-        a=8
-        a*=8
-        b=a
-        b+=a
-        b-=2
-        :X
-        a+=1
-        a>
-        z@=X
-        z?a<b
-        
+Sample program:
+
+    (print ASCII table while experiencing a bewildering array of emotions)
+    a=8
+    a*=8
+    b=a
+    b+=a
+    b-=2
+    :X
+    a+=1
+    a>
+    z@=X
+    z?a<b
 
 Cfluviurrh is, as far as I am aware, the first programming language designed
 for writing programs that can *feel*. Cfluviurrh defines a mechanism by which a
@@ -2583,18 +2592,19 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
 *   paradigms: Turning tarpit, 2-dimensional
 *   reference-distribution: [Jolverine distribution](http://catseye.tc/distribution/Jolverine_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Jolverine)
-*   sample program: 
 
-        --*-*
-             \
-              \
-               \           *
-                \         /
-                 \       /
-                  \     /
-                   *   /
-                    \ /
-                     *-*---*
+Sample program:
+
+    --*-*
+         \
+          \
+           \           *
+            \         /
+             \       /
+              \     /
+               *   /
+                \ /
+                 *-*---*
 
 The Jolverine language was devised as a conscious attempt to expand the
 genre of turning tarpit by adding the feature of modifying the instruction
@@ -2620,17 +2630,18 @@ the language's vicious, erratic nature.
 *   paradigms: Imperative
 *   reference-distribution: [SICKBAY distribution](http://catseye.tc/distribution/SICKBAY_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SICKBAY)
-*   sample program: 
 
-        10 LET B% = 99
-        (100+B%) END
-        100 GOTO 200:REM BEGIN LOOP
-        200 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL,"
-        205 PRINT B%;:PRINT " BOTTLES OF BEER,"
-        210 PRINT "TAKE ONE DOWN, PASS IT AROUND,"
-        215 LET B% = (B% - 1)
-        220 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL.":PRINT ""
-        230 GOTO 100
+Sample program:
+
+    10 LET B% = 99
+    (100+B%) END
+    100 GOTO 200:REM BEGIN LOOP
+    200 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL,"
+    205 PRINT B%;:PRINT " BOTTLES OF BEER,"
+    210 PRINT "TAKE ONE DOWN, PASS IT AROUND,"
+    215 LET B% = (B% - 1)
+    220 PRINT B%;:PRINT " BOTTLES OF BEER ON THE WALL.":PRINT ""
+    230 GOTO 100
 
 SICKBAY is an esoteric dialect of [BASIC][] with a call ring buffer instead of
 a call stack, and computed line number definitions (and no `IF` because
@@ -2652,9 +2663,10 @@ of that.)
 *   influences: 
 *   paradigms: Concatenative
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Carriage)
-*   sample program: 
 
-        111-@11-~!$11111++++11-~@11-~!
+Sample program:
+
+    111-@11-~!$11111++++11-~@11-~!
 
 Carriage is the result of various, not-entirely-successful attempts to
 design a "pure" concatenative language — one in which the program
@@ -2679,29 +2691,29 @@ thus may overlap — and was released as an esolang.
 *   paradigms: Functional
 *   reference-distribution: [Yolk distribution](http://catseye.tc/distribution/Yolk_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Yolk)
-*   sample program: 
 
-        (ifeq (head arg) (quote arg)
-            (head (tail (tail arg)))
-            (ifeq (head (head arg)) (quote head)
-                (head (self (cons (head (tail (head arg))) (tail arg))))
-                (ifeq (head (head arg)) (quote tail)
-                    (tail (self (cons (head (tail (head arg))) (tail arg))))
-                    (ifeq (head (head arg)) (quote cons)
-                        (cons (self (cons (head (tail (head arg))) (tail arg))) (self (cons (head (tail (tail (head arg)))) (tail arg))))
-                        (ifeq (head (head arg)) (quote quote)
-                            (head (tail (head arg)))
-                            (ifeq (head (head arg)) (quote ifeq)
-                                (ifeq (self (cons (head (tail (head arg))) (tail arg)))
-                                      (self (cons (head (tail (tail (head arg)))) (tail arg)))
-                                      (self (cons (head (tail (tail (tail (head arg))))) (tail arg)))
-                                      (self (cons (head (tail (tail (tail (tail (head arg)))))) (tail arg))))
-                                (ifeq (head (head arg)) (quote self)
-                                    (self (cons (head (tail arg))
-                                            (cons (head (tail arg))
-                                              (cons (self (cons (head (tail (head arg))) (tail arg))) (tail (quote (tail)))))))
-                                    (ifeq))))))))
-        
+Sample program:
+
+    (ifeq (head arg) (quote arg)
+        (head (tail (tail arg)))
+        (ifeq (head (head arg)) (quote head)
+            (head (self (cons (head (tail (head arg))) (tail arg))))
+            (ifeq (head (head arg)) (quote tail)
+                (tail (self (cons (head (tail (head arg))) (tail arg))))
+                (ifeq (head (head arg)) (quote cons)
+                    (cons (self (cons (head (tail (head arg))) (tail arg))) (self (cons (head (tail (tail (head arg)))) (tail arg))))
+                    (ifeq (head (head arg)) (quote quote)
+                        (head (tail (head arg)))
+                        (ifeq (head (head arg)) (quote ifeq)
+                            (ifeq (self (cons (head (tail (head arg))) (tail arg)))
+                                  (self (cons (head (tail (tail (head arg)))) (tail arg)))
+                                  (self (cons (head (tail (tail (tail (head arg))))) (tail arg)))
+                                  (self (cons (head (tail (tail (tail (tail (head arg)))))) (tail arg))))
+                            (ifeq (head (head arg)) (quote self)
+                                (self (cons (head (tail arg))
+                                        (cons (head (tail arg))
+                                          (cons (self (cons (head (tail (head arg))) (tail arg))) (tail (quote (tail)))))))
+                                (ifeq))))))))
 
 Yolk is a tiny S-expression-based programming language (or computational
 calculus) with a tiny meta-circular interpreter.
@@ -2755,18 +2767,19 @@ algorithm, since it never terminates.
 *   paradigms: Imperative
 *   reference-distribution: [Matchbox distribution](http://catseye.tc/distribution/Matchbox_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Matchbox)
-*   sample program: 
 
-        MOV 1, M0
-        MOV 1, M2
-        WAIT M1, 0
-        WAIT M2, 0
-        ; begin c.s.
-        MOV M3, R0
-        INC R0
-        MOV R0, M3
-        ; end c.s.
-        MOV 0, M0
+Sample program:
+
+    MOV 1, M0
+    MOV 1, M2
+    WAIT M1, 0
+    WAIT M2, 0
+    ; begin c.s.
+    MOV M3, R0
+    INC R0
+    MOV R0, M3
+    ; end c.s.
+    MOV 0, M0
 
 A toy language for a toy race-condition finder.
 
@@ -2873,15 +2886,16 @@ into an emulated [Commodore 64][] using [SITU-MON][].
 *   influences: Madison
 *   paradigms: Probabilistic, Logic programming, State machine
 *   reference-distribution: [Samovar distribution](http://catseye.tc/distribution/Samovar_distribution)
-*   sample program: 
 
-        rules
-          [actor(α),item(β),~holding(α,β)]  α picks up the β.   [holding(α,β)]
-          [actor(α),item(β),holding(α,β)]   α puts down the β.  [~holding(α,β)]
-        end
-        situations
-          [actor(Ignatz),item(brick)]
-        end
+Sample program:
+
+    rules
+      [actor(α),item(β),~holding(α,β)]  α picks up the β.   [holding(α,β)]
+      [actor(α),item(β),holding(α,β)]   α puts down the β.  [~holding(α,β)]
+    end
+    situations
+      [actor(Ignatz),item(brick)]
+    end
 
 Samovar is a DSL for world-modeling using predicates rather than explicit objects.
 It could be thought of as an "assertion-retraction engine", which itself could be
@@ -2898,22 +2912,23 @@ sugar.
 *   influences: Madison
 *   paradigms: Proof checking
 *   reference-distribution: [Maxixe distribution](http://catseye.tc/distribution/Maxixe_distribution)
-*   sample program: 
 
-        given
-            Modus_Ponens                 = impl(P, Q) ; P |- Q
-            Simplification               = and(P, Q)      |- Q
-            Commutativity_of_Conjunction = and(P, Q)      |- and(Q, P)
-            Premise                      =                |- and(p, impl(p, q))
-        show
-            q
-        proof
-            Step_1 = and(p, impl(p, q))    by Premise
-            Step_2 = and(impl(p, q), p)    by Commutativity_of_Conjunction with Step_1
-            Step_3 = impl(p, q)            by Simplification with Step_1
-            Step_4 = p                     by Simplification with Step_2
-            Step_5 = q                     by Modus_Ponens with Step_3, Step_4
-        qed
+Sample program:
+
+    given
+        Modus_Ponens                 = impl(P, Q) ; P |- Q
+        Simplification               = and(P, Q)      |- Q
+        Commutativity_of_Conjunction = and(P, Q)      |- and(Q, P)
+        Premise                      =                |- and(p, impl(p, q))
+    show
+        q
+    proof
+        Step_1 = and(p, impl(p, q))    by Premise
+        Step_2 = and(impl(p, q), p)    by Commutativity_of_Conjunction with Step_1
+        Step_3 = impl(p, q)            by Simplification with Step_1
+        Step_4 = p                     by Simplification with Step_2
+        Step_5 = q                     by Modus_Ponens with Step_3, Step_4
+    qed
 
 Maxixe is a simple proof-checking language.  Given a proof written out fully and
 explicitly (including all rules of inference), a computer can check if it is valid
