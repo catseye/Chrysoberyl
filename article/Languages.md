@@ -2992,4 +2992,12 @@ or not.
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 [bully automaton]: http://esolangs.org/wiki/Bully%20automaton
+[HTML5]: https://www.w3.org/TR/html5/
+[yoob]: ../article/Archived.md#yoob
+[Befunge Mailing List Working Group]: http://esolangs.org/wiki/Befunge
+[Shelta]: ../article/Languages.md#shelta
+[Illgola-2]: ../article/Languages.md#illgola-2
+[Illberon]: ../article/Languages.md#illberon
+[Befunge]: ../article/Languages.md#befunge-93
+[Jaccia]: ../article/Languages.md#jaccia
 
