@@ -91,38 +91,6 @@ gcc 3.4:
   - http://gcc.gnu.org/gcc-3.4/
 
 
-C++:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Object-oriented
-  generally-compiled: true
-  computational-class: Finite-automata-complete
-  authors: []
-  standards-body: http://www.open-std.org/jtc1/sc22/wg21/
-  development-stage: mature
-  references:
-  - title: C++ FAQ Lite
-    description: Comprehensive compilation of C++ questions and answers
-    url: http://www.parashift.com/c++-faq-lite/
-  - title: C++ FQA Lite
-    description: 'A "Rebuttal" to C++ FAQ Lite: Frequently Questioned Answers'
-    url: http://yosefk.com/c++fqa/
-  - title: STL
-    description: SGI's Standard Template Library Programmer's Guide
-    url: http://www.sgi.com/tech/stl/index.html
-  - title: Boost
-    description: Boost provides free peer-reviewed portable C++ source libraries
-    url: http://www.boost.org/
-  - title: TFoo::operator=
-    description: The Anatomy of the Assignment Operator
-    url: http://icu-project.org/docs/papers/cpp_report/the_anatomy_of_the_assignment_operator.html
-  - title: The Dark Side of C++ (PDF)
-    description: Slides for a talk about the dark side of C++
-    url: http://miek.nl/downloads/2010/c++-talk.pdf
-
-
 Python:
   type: Programming Language
   genre: Production language
