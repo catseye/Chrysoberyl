@@ -4,8 +4,8 @@ Language Implementations
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 
-This is a list of languages that Cat's Eye Technologies has built an implementation for,
-but which were not designed by Cat's Eye Technologies.
+This is a list of languages that Cat's Eye Technologies has built an implementation for
+(or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
 
 ### PL-{GOTO}.NET
 
@@ -287,6 +287,37 @@ did implement it.
 A parser, in Erlang, for the Lesser-Known Language VALGOL.
 It, like, totally demonstrates how a parser can be written so
 that a separate scanner is totally not needed.  Bitchen!
+
+Forked Language Projects
+------------------------
+
+### miniscm
+
+*   implementation of: [Scheme][] (R4RS)
+*   implementation type: interpreter
+*   license: Public Domain
+*   host language: [ANSI C][]
+*   inception date: Nov 5, 1989
+*   in distribution: [Minischeme distribution](/distribution/Minischeme distribution)
+
+Forked in order to make it build on [AmigaDOS 1.3][].
+
+Fork began Dec 13, 2011.
+
+### OpenZz
+
+*   implementation of: [Zz][]
+*   implementation type: interpreter
+*   license: LGPL
+*   host language: [C99][]
+*   inception date: Jan 7, 2002
+*   in distribution: [OpenZz distribution](/distribution/OpenZz distribution)
+
+Forked because [Zzrk][] depends on it, and I want to maintain that.
+
+Note that while most of the code is LGPL, the REPL is GPL.
+
+Fork began Feb 1, 2012.
 
 - - - -
 
