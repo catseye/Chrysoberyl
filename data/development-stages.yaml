@@ -1,18 +1,9 @@
-idea:
-  type: Development Stage
-work in progress:
-  type: Development Stage
-not fully complete:
-  type: Development Stage
-  description: |
-    Pretty much the same as [[mature]] but there are gaps in its development;
-    perhaps it has never been implemented, or questions remain about it.
 mature:
   type: Development Stage
 vintage:
   type: Development Stage
   description: |
-    a.k.a. retro.  That stage between [[mature]] and [[archival]] where
+    a.k.a. retro.  That stage between mature and archival where
     folks of nostalgic, historian, or hipster-y bent still care about it.
   references:
   - url: http://www.catb.org/retro/
@@ -24,22 +15,3 @@ vintage:
   - url: http://heirloom.sourceforge.net/
     title: The Heirloom Project
     description: Traditional implementations of standard Unix utilities
-
-archival:
-  type: Development Stage
-  description: |
-    This means it has a repository on Github and/or Bitbucket, but there
-    are no plans to develop it further.  Compare [[archived]].
-unfinished:
-  type: Development Stage
-  description: |
-    Sort of a combination of [[archival]] and [[not fully complete]].
-archived:
-  type: Development Stage
-  description: |
-    This means there are no plans for it at all, not even putting it in
-    a repository on Github and/or Bitbucket.  Compare [[archival]].
-abandoned:
-  type: Development Stage
-lost:
-  type: Development Stage

@@ -466,7 +466,6 @@
         "url": "https://en.wikipedia.org/wiki/Declarative_programming"
     },
 
-
     "a-non-random-walk.js": {
         "anchor": "a-non-random-walk", 
         "filename": "article/Gewgaws.md"
@@ -558,6 +557,16 @@
     "progression.js": {
         "anchor": "progression", 
         "filename": "article/Gewgaws.md"
+    },
+
+
+    "chzrxl.js": {
+        "anchor": "chzrxl", 
+        "filename": "article/Automata.md"
+    },
+    "cyclobots.js": {
+        "anchor": "cyclobots", 
+        "filename": "article/Automata.md"
     },
 
 
