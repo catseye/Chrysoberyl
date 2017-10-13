@@ -139,29 +139,6 @@ C++:
     url: http://miek.nl/downloads/2010/c++-talk.pdf
 
 
-Plankalkül:
-  type: Programming Language
-  genre: Experimental language
-  paradigms:
-  - Imperative
-  - 2-dimensional
-  # I really don't know
-  computational-class: unknown computational class
-  # actually there is probably a good spec out there somewhere these days
-  no-specification: true
-  authors:
-  - Konrad Zuse
-  development-stage: vintage
-  links:
-  - 'http://catseye.tc/gallery/languages/plankalkuel/'
-  description: |
-    Plankalkül was probably the very first attempt at a formalized notation for
-    computer programs, and is considered by many to be the first programming language.
-    The linked article describing the language, transliterated to HTML
-    from scans provided by the Retrocomputing Museum, originally appeared in
-    Communications of the ACM, July 1972, Volume 15, Number 7.
-
-
 Python:
   type: Programming Language
   genre: Production language
@@ -221,32 +198,6 @@ Skulpt:
   - http://www.skulpt.org/
 
 
-R:
-  type: Programming Language
-  genre: Production language
-  paradigms:
-  - Imperative
-  - Functional
-  computational-class: Turing-complete
-  standards-body: http://www.r-project.org/
-  # only because there's no development stage "THE FUTURE"
-  development-stage: mature
-  authors: []
-  isbn: 3-900051-07-0
-
-R 2.13.1:
-  type: Implementation
-  implementation-of:
-  - R
-  implementation-type: interpreter
-  host-language: Unknown language
-  license: GPL
-  prebuilt-for-platforms:
-  - native code
-  links:
-  - http://www.r-project.org/
-
-
 # should call this R5RS Scheme
 Scheme: 
   type: Programming Language
@@ -288,20 +239,6 @@ husk:
   generally-recommended: true
   links:
   - http://justinethier.github.io/husk-scheme/
-
-
-Zz:
-  type: Programming Language
-  genre: Experimental language
-  paradigms:
-  - Metalanguage
-  computational-class: unknown computational class
-  specification-link: http://openzz.cvs.sourceforge.net/*checkout*/openzz/openzz/doc/zzdoc.html
-  # abandoned?
-  development-stage: mature
-  authors: []
-  links:
-  - 'http://openzz.sourceforge.net/'
 
 
 #----------------------------------------------------------------------------

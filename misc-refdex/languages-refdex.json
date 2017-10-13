@@ -1,4 +1,10 @@
 {
+    "R": {
+        "url": "http://www.r-project.org/"
+    },
+    "R 2.13.1": {
+        "url": "http://www.r-project.org/"
+    },
     "Zz": {
         "url": "http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html"
     },

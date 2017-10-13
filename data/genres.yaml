@@ -44,13 +44,9 @@ Esolang:
     description: List of Zzo38's Programming Languages
     url: http://esoteric.voxelperfect.net/wiki/User:Zzo38
 
-Joke language:
-  type: Genre
 Pedagogical language:
   type: Genre
 Production language:
   type: Genre
 Experimental language:
-  type: Genre
-Abstract Artlang:
   type: Genre
