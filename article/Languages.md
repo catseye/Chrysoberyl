@@ -2546,7 +2546,7 @@ or not.
 [Wierd (Milo van Handel)]: TBD
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
-[ANSI C]: TBD
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [NASM Assembler]: http://nasm.us/

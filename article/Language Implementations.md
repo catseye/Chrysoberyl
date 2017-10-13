@@ -369,7 +369,7 @@ Fork began Feb 1, 2012.
 [SNUSP]: http://esolangs.org/wiki/SNUSP
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
-[ANSI C]: TBD
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [Haskell]: http://www.haskell.org/

@@ -289,6 +289,6 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [SITU-MON]: ../article/Tools.md#situ-mon
 [BefOS]: http://catseye.tc/node/BefOS
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
-[ANSI C]: http://catseye.tc/node/ANSI_C
+[ANSI C]: http://clc-wiki.net/wiki/C89
 [The Dossier]: https://github.com/catseye/The-Dossier/
 

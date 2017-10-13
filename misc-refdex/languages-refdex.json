@@ -17,6 +17,17 @@
     },
 
 
+    "ANSI C": {
+        "url": "http://clc-wiki.net/wiki/C89"
+    },
+    "C99": {
+        "url": "http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf"
+    },
+    "gcc 3.4": {
+        "url": "http://gcc.gnu.org/gcc-3.4/"
+    },
+
+
     "Python": {
         "url": "http://www.python.org/"
     },
