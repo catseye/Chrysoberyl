@@ -9,6 +9,8 @@ Gewgaws.
 
 ### A Minimalist Critique of Tetris
 
+![preview](http://static.catseye.tc/images/screenshots/A_Minimalist_Critique_of_Tetris.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Mar 2015
 *   reference implementation name: a-minimalist-critique.js
@@ -17,6 +19,8 @@ Gewgaws.
 A minimalist critique of Tetris.
 
 ### A Non-Random Walk
+
+![preview](http://static.catseye.tc/images/screenshots/A_Non-Random_Walk.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -43,6 +47,8 @@ cards.
 
 ### Art Restoration Simulator
 
+![preview](http://static.catseye.tc/images/screenshots/Art_Restoration_Simulator.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: May 2013
 *   reference implementation name: art-restoration-simulator.js
@@ -56,6 +62,8 @@ Instructions:
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
 ### Black Hole Poem
+
+![preview](http://static.catseye.tc/images/screenshots/Black_Hole_Poem.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Jan 2015
@@ -78,6 +86,8 @@ because that is our best guess at
 [what colour the universe is](http://www.pha.jhu.edu/~kgb/cosspec/).
 
 ### Canvas Feedback
+
+![preview](http://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -169,6 +179,8 @@ process.
 
 ### Chzrxl
 
+![preview](http://static.catseye.tc/images/screenshots/Chzrxl.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: chzrxl.js
@@ -190,6 +202,8 @@ organic-seeming emergent motion.
 
 ### Circus Xamulus
 
+![preview](http://static.catseye.tc/images/screenshots/Circus_Xamulus.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: circus-xamulus.js
@@ -198,6 +212,8 @@ organic-seeming emergent motion.
 A circle-based time-lapse space-filler.
 
 ### Cyclobots
+
+![preview](http://static.catseye.tc/images/screenshots/Cyclobots.jpg)
 
 *   reference distribution: [???](/distribution/???)
 *   inception date: ca 1994
@@ -232,6 +248,8 @@ could use the mouse to attract/repel them from a chosen point.
 
 ### Eine kleine Glitchfraktal
 
+![preview](http://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: eine-kleine-glitchfraktal.js
@@ -246,6 +264,8 @@ Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
 
 ### Fibonacci Spiral
+
+![preview](http://static.catseye.tc/images/screenshots/Fibonacci_Spiral.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -263,6 +283,8 @@ circle in the center of the spiral.
 The animation is simply a zooming out and back in on the spiral.
 
 ### Fingerspelling
+
+![preview](http://static.catseye.tc/images/screenshots/Fingerspelling.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -282,6 +304,8 @@ finger.  If you don't have a touchscreen, you may simulate this action
 with your mouse pointer.
 
 ### Heronsis hermnonicii
+
+![preview](http://static.catseye.tc/images/screenshots/Heronsis_hermnonicii.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -310,6 +334,8 @@ to try clicking on the entities.
 
 ### Hirsute Miasma
 
+![preview](http://static.catseye.tc/images/screenshots/Hirsute_Miasma.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: hirsute-miasma.js
@@ -325,6 +351,8 @@ of course cycle exactly, as there is a random element.)  You may enable
 the "terminal" option to prevent this cycling.
 
 ### Hypongtrochoid
+
+![preview](http://static.catseye.tc/images/screenshots/Hypongtrochoid.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
@@ -366,6 +394,8 @@ Uses a 2D Markov chain to generate new glyphs from a character set.
 
 ### Multicolouralism
 
+![preview](http://static.catseye.tc/images/screenshots/Multicolouralism.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: multicolouralism.js
@@ -388,6 +418,8 @@ of vision, focus and peripheral vision...)
 
 ### Noise to Signal No. 1
 
+![preview](http://static.catseye.tc/images/screenshots/Noise_to_Signal_No._1.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Apr 2015
 *   reference implementation name: noise-to-signal-1.js
@@ -402,6 +434,8 @@ a source image randomly onto either panel.
 
 ### Prairie
 
+![preview](http://static.catseye.tc/images/screenshots/Prairie.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
 *   reference implementation name: prairie.js
@@ -415,6 +449,8 @@ wind and the wheat...  The background is a public-domain drawing
 of a grain elevator taken from Wikimedia.
 
 ### Progression
+
+![preview](http://static.catseye.tc/images/screenshots/Progression.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
@@ -432,6 +468,8 @@ iterations, but it's very faint thereafter.
 
 ### Radialjective
 
+![preview](http://static.catseye.tc/images/screenshots/Radialjective.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: radialjective.js
@@ -440,6 +478,8 @@ iterations, but it's very faint thereafter.
 An animated mathematical function, depicted in four different ways.
 
 ### Tentacles, Undamped
+
+![preview](http://static.catseye.tc/images/screenshots/Radialjective.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: ca Feb 2014
@@ -451,6 +491,8 @@ soon starts doing things real tentacles never do, because they have
 damping.
 
 ### Text Uniquifier
+
+![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: Nov 2014
@@ -478,6 +520,8 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 
 ### The Frame
 
+![preview](http://static.catseye.tc/images/screenshots/The_Frame.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2012
 *   reference implementation name: the-frame.js
@@ -498,6 +542,8 @@ of the computer screen.
 
 ### The Judgment of Paris
 
+![preview](http://static.catseye.tc/images/screenshots/The_Judgment_of_Paris.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2014
 *   reference implementation name: the-judgment-of-paris.js
@@ -507,6 +553,8 @@ A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
 
 ### Two Fifty Six
+
+![preview](http://static.catseye.tc/images/screenshots/Two_Fifty_Six.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: May 2015
@@ -519,6 +567,8 @@ assignments of colours to digits.
 
 ### Uncle Ankur
 
+![preview](http://static.catseye.tc/images/screenshots/Uncle_Ankur.jpg)
+
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: 2013
 *   reference implementation name: uncle-ankur.js
@@ -528,6 +578,8 @@ An experimental animation employing gradients and
 randomly-constructed transformation matrices.
 
 ### Woman on Film
+
+![preview](http://static.catseye.tc/images/screenshots/Woman_on_Film.jpg)
 
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
 *   inception date: ca Apr 2013
