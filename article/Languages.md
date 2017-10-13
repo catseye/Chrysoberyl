@@ -414,13 +414,22 @@ operating system and engaging extensions to the language.
 
 ### Befunge-98
 
+*   type: Programming Language
+*   genre: Esolang
+
 Befunge-98 is the realization of [Funge-98][] in two dimensions.
 
 ### Trefunge-98
 
+*   type: Programming Language
+*   genre: Esolang
+
 Trefunge-98 is the realization of [Funge-98][] in three dimensions.
 
 ### Unefunge-98
+
+*   type: Programming Language
+*   genre: Esolang
 
 Unefunge-98 is the realization of [Funge-98][] in one dimension.
 
@@ -560,13 +569,22 @@ sheer fact that a compiler for it has been hacked together.
 
 ### Illgola-2
 
+*   type: Programming Language
+*   genre: Joke language
+
 Successor to [ILLGOL][].
 
 ### Illberon
 
+*   type: Programming Language
+*   genre: Joke language
+
 Successor to [Illgola-2][].
 
 ### Open Sores Illgol##
+
+*   type: Programming Language
+*   genre: Joke language
 
 Successor to [Illberon][].
 
@@ -887,8 +905,8 @@ The sole design principle was to entirely eliminate word order.
 *   computational-class: believed Turing-complete
 *   paradigms: Grid-rewriting, Reflective
 *   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
+*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   sample program: 
 
         (      )  (      )
@@ -1114,9 +1132,9 @@ implementation and notes that I left behind...
 *   influences: Wireworld
 *   paradigms: Cellular automaton
 *   reference-distribution: [Circute distribution](/distribution/Circute distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
 *   online @ [catseye.tc](http://catseye.tc/installation/Circute)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
 *   sample program: 
 
                           =
@@ -1156,8 +1174,8 @@ carry digital signals and NAND gates that manipulate those signals.
 *   influences: brainfuck
 *   paradigms: Cellular automaton
 *   reference-distribution: [Braktif distribution](/distribution/Braktif distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Braktif)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Braktif)
+*   online @ [catseye.tc](http://catseye.tc/installation/Braktif)
 *   sample program: 
 
                                     *
@@ -1298,7 +1316,8 @@ shortcoming was rectified in summer of 2010.
 *   paradigms: String-rewriting
 *   reference-distribution: [Xigxag distribution](/distribution/Xigxag distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xigxag)
-*   sample program:
+*   sample program: 
+
         ><<
 *   sample output:
         ><<
@@ -1702,9 +1721,10 @@ class *must* be specified when the object is instantiated.
 *   computational-class: known not Turing-complete
 *   paradigms: Cellular automaton, 2-dimensional
 *   reference-distribution: [Jaccia and Jacciata distribution](/distribution/Jaccia and Jacciata distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Jaccia)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Jaccia)
+*   online @ [catseye.tc](http://catseye.tc/installation/Jaccia)
 *   sample program: 
+
         #######S###
         #:::::::::#
         #:###:###:#
@@ -1741,6 +1761,9 @@ upon this to find the shortest path through a maze, if one exists and is unique.
 *   host-language: ALPACA
 
 ### Jacciata
+
+*   type: Automaton
+*   genre: Esolang
 
 Jacciata is a variant of [Jaccia][] which finds the shortest path.
 
@@ -1805,13 +1828,22 @@ instances of 54 unique symbols in 684 cons cells.)
 
 ### Crabwell
 
+*   type: Programming Language
+*   genre: Esolang
+
 Variant of [Pixley][], description TK.
 
 #### P-Normal Pixley
 
+*   type: Programming Language
+*   genre: Esolang
+
 Variant of [Pixley][], description TK.
 
 #### Pifxley
+
+*   type: Programming Language
+*   genre: Esolang
 
 Variant of [Pixley][], description TK.
 
@@ -1862,9 +1894,9 @@ safety and optimization considerations.
 *   influences: BitChanger
 *   paradigms: Imperative
 *   reference-distribution: [Etcha distribution](/distribution/Etcha distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
 *   online @ [catseye.tc](http://catseye.tc/installation/Etcha)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
 *   sample program: 
 
         >+++>+++>+++>+++>[+]>>>>+
@@ -1906,8 +1938,8 @@ a role similar to the tape head of a Turing machine.
 *   influences: BitChanger
 *   paradigms: Imperative, Memory-mapped
 *   reference-distribution: [ZOWIE distribution](/distribution/ZOWIE distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/ZOWIE)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ZOWIE)
+*   online @ [catseye.tc](http://catseye.tc/installation/ZOWIE)
 *   sample program: 
 
         MOV R10, 90
@@ -2058,9 +2090,9 @@ typing, and only-conjectural Turing completeness.
 *   influences: 2-ill, Etcha
 *   paradigms: Imperative
 *   reference-distribution: [Gemooy distribution](/distribution/Gemooy distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
 *   online @ [catseye.tc](http://catseye.tc/installation/Gemooy)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
 *   sample program: 
 
         %### # ###   # #   ### # ###   # #   ### # ###@
@@ -2179,9 +2211,9 @@ were previously erased after execution.
 *   influences: 1L, reMorse
 *   paradigms: Turning tarpit
 *   reference-distribution: [yoob distribution](/distribution/yoob distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   sample program: 
 
                   o   ooo  o
@@ -2617,6 +2649,7 @@ thus may overlap — and was released as an esolang.
 *   reference-distribution: [Yolk distribution](/distribution/Yolk distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Yolk)
 *   sample program: 
+
         (ifeq (head arg) (quote arg)
             (head (tail (tail arg)))
             (ifeq (head (head arg)) (quote head)
@@ -2692,6 +2725,7 @@ algorithm, since it never terminates.
 *   reference-distribution: [Matchbox distribution](/distribution/Matchbox distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Matchbox)
 *   sample program: 
+
         MOV 1, M0
         MOV 1, M2
         WAIT M1, 0
@@ -2864,7 +2898,7 @@ or not.
 [BASIC]: TBD
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
-[Befunge-98]: TBD
+[Befunge-98]: ../article/Languages.md#befunge-98
 [Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [C++]: TBD
@@ -2894,9 +2928,9 @@ or not.
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
-[Trefunge-98]: TBD
+[Trefunge-98]: ../article/Languages.md#trefunge-98
 [Turing-complete]: TBD
-[Unefunge-98]: TBD
+[Unefunge-98]: ../article/Languages.md#unefunge-98
 [Var'aq]: http://esolangs.org/wiki/Var'aq
 [Wierd]: ../article/Languages.md#wierd
 [Wierd (John Colagioia)]: TBD
@@ -2912,3 +2946,4 @@ or not.
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 [bully automaton]: http://esolangs.org/wiki/Bully%20automaton
+
