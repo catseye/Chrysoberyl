@@ -445,4 +445,15 @@ For a full account of its development, see
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
 [Jaccia]: ../article/Automata.md#jaccia
+[SMITH]: ../article/Languages.md#smith
+[Perl]: http://www.perl.org/
+[Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
+[Java]: http://www.oracle.com/technetwork/java/index.html
+[Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
+[bully automaton]: http://esolangs.org/wiki/Bully%20automaton
+[RUBE]: ../article/Automata.md#rube
+[ANSI C]: TBD
+[brainfuck]: http://esolangs.org/wiki/brainfuck
+[Conway's Game of Life]: TBD
+[Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 

@@ -2516,7 +2516,6 @@ or not.
 [C++]: TBD
 [Chris Pressey]: TBD
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
-[Conway's Game of Life]: TBD
 [Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards]: TBD
 [Etcha]: ../article/Languages.md#etcha
@@ -2532,12 +2531,10 @@ or not.
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [RUBE]: ../article/Automata.md#rube
-[Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
 [SMITH]: ../article/Languages.md#smith
 [Scheme]: TBD
-[Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
@@ -2557,7 +2554,6 @@ or not.
 [Haskell]: http://www.haskell.org/
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
-[bully automaton]: http://esolangs.org/wiki/Bully%20automaton
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
 [Befunge Mailing List Working Group]: http://esolangs.org/wiki/Befunge
