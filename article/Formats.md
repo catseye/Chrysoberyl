@@ -3,13 +3,13 @@ Formats
 
 These are file formats that Cat's Eye Technologies has defined, and
 implemented processing tools for.  "File formats" are generally simpler
-than programming languages.
+than [languages](Languages.md).
 
 ### Falderal
 
 *   subtitle: **Literate Testing for Languages**
 *   inception-date: 2011
-*   reference distribution: [Falderal distribution](/distribution/Falderal distribution)
+*   reference distribution: [Falderal distribution](http://catseye.tc/distribution/Falderal_distribution)
 
 Falderal is a file format for literate test suites.  It is particularly
 suited for documenting programming languages (or other specifications of
@@ -31,7 +31,7 @@ Haskell.
 ### Feedmark
 
 *   inception-date: 2017
-*   reference distribution: [Feedmark distribution](/distribution/Feedmark distribution)
+*   reference distribution: [Feedmark distribution](http://catseye.tc/distribution/Feedmark_distribution)
 
 Feedmark is a file format for embedding curational information in Markdown.
 
@@ -47,4 +47,5 @@ Links
 *   [The S stands for Simple](http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/)
 
 [Python]: http://www.python.org/
+[Haskell]: http://www.haskell.org/
 
