@@ -9,6 +9,8 @@ precisely, they are almost all "computer languages" of some kind, although some 
 not been implemented on a computer (or may even be implementable on a computer), and at least
 one of them is a conlang.
 
+Many of them are esolangs (TODO: link to something that explains esolangs well here.)
+
 If it was implemented by Cat's Eye Technologies, but was designed by someone else, it won't
 be on this list, it'll be here instead: [Language Implementations](Language%20Implementations.md).
 
@@ -18,13 +20,24 @@ it won't be on this list.
 If it is still considered a "work in progress", it will be at the bottom of this list:
 [works in progress](#works-in-progress).
 
-Unfortunately the distinction between a Language and a [Format](Formats.md) or an
-[Automaton](Automata.md) is not always cut-and-dried so you might want to see those articles
+Some of these languages have interpreters that can run online,
+in your web browser.  By selecting sample
+programs and watching them run, you can gain an appreciation of how the
+language works; by composing your own programs, you can gain an
+even better appreciation.
+
+Unfortunately the distinctions between a Language, a Language Family, and a [Format](Formats.md) or an
+[Automaton](Automata.md) are not always cut-and-dried so you might want to see those articles
 as well.
 
 You may also be interested in reading about
 [what it was like to design these](https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md) and/or
 [the ones that got away](LoUIE.md).
+
+Also some writings of note:
+    
+    * [[Programming Languages as an Artistic Medium]]
+    * [[The Aesthetics of Esolangs]]
 
 Languages I've Designed
 -----------------------
