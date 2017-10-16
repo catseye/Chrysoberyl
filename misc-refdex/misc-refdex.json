@@ -326,6 +326,14 @@
         "anchor": "wierd", 
         "filename": "article/Languages.md"
     },
+    "Wierd (Milo van Handel)": {
+        "anchor": "wierd", 
+        "filename": "article/Languages.md"
+    },
+    "Wierd (John Colagioia)": {
+        "anchor": "wierd", 
+        "filename": "article/Languages.md"
+    },
     "wierd-jnc.js": {
         "anchor": "wierd", 
         "filename": "article/Languages.md"
@@ -473,6 +481,9 @@
     },
     "Declarative": {
         "url": "https://en.wikipedia.org/wiki/Declarative_programming"
+    },
+    "Turing-complete": {
+        "url": "http://esolangs.org/wiki/Turing-complete"
     },
 
 

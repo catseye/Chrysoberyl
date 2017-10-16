@@ -2774,7 +2774,7 @@ This is actually a language family.
 [Befunge-98]: ../article/Languages.md#befunge-98
 [Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
-[C++]: TBD
+[C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Chris Pressey]: TBD
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
@@ -2799,12 +2799,12 @@ This is actually a language family.
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
-[Turing-complete]: TBD
+[Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Unefunge-98]: ../article/Languages.md#unefunge-98
 [Var'aq]: http://esolangs.org/wiki/Var'aq
 [Wierd]: ../article/Languages.md#wierd
-[Wierd (John Colagioia)]: TBD
-[Wierd (Milo van Handel)]: TBD
+[Wierd (John Colagioia)]: ../article/Languages.md#wierd
+[Wierd (Milo van Handel)]: ../article/Languages.md#wierd
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: http://clc-wiki.net/wiki/C89
