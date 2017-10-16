@@ -36,8 +36,8 @@ You may also be interested in reading about
 
 Also some writings of note:
     
-    * [[Programming Languages as an Artistic Medium]]
-    * [[The Aesthetics of Esolangs]]
+    * [Programming Languages as an Artistic Medium][]
+    * [The Aesthetics of Esolangs][]
 
 Languages I've Designed
 -----------------------
@@ -2826,4 +2826,6 @@ This is actually a language family.
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
 [Python]: http://www.python.org/
+[Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+[The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 
