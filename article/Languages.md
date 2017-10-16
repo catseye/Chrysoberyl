@@ -36,8 +36,8 @@ You may also be interested in reading about
 
 Also some writings of note:
     
-    * [Programming Languages as an Artistic Medium][]
-    * [The Aesthetics of Esolangs][]
+*   [Programming Languages as an Artistic Medium][]
+*   [The Aesthetics of Esolangs][]
 
 Languages I've Designed
 -----------------------
