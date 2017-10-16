@@ -269,7 +269,7 @@ other languages (or, well, cellular automata — close enough).
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Python
+*   host-language: [Python][]
 *   target-language: [Javascript][]
 
 ### Funge-98
@@ -1426,7 +1426,7 @@ class *must* be specified when the object is instantiated.
 
 *   license: BSD license
 *   implementation-type: static analyzer
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Pixley
 
@@ -1545,7 +1545,7 @@ safety and optimization considerations.
 
 *   license: BSD license
 *   implementation-type: typechecker
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Etcha
 
@@ -1627,7 +1627,7 @@ a memory location to mark the beginning or end of a loop or conditional.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Whothm
 
@@ -1715,7 +1715,7 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Python
+*   host-language: [Python][]
 *   target-language: [ANSI C][]
 
 ### Oozlybub and Murphy
@@ -1838,7 +1838,7 @@ before being adjoined to existing rooms, but rooms are otherwise immutable.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Kelxquoia
 
@@ -2009,7 +2009,7 @@ while it was being developed, against the spec.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Flobnar
 
@@ -2174,7 +2174,7 @@ expressing the primitive recursive functions.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Cfluviurrh
 
@@ -2252,7 +2252,7 @@ the language's vicious, erratic nature.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### SICKBAY
 
@@ -2285,7 +2285,7 @@ of that.)
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Carriage
 
@@ -2356,7 +2356,7 @@ calculus) with a tiny meta-circular interpreter.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 #### Reference Implementation: yolk.yolk
 
@@ -2564,7 +2564,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 *    in-distribution: Pophery distribution
 *    license: Unknown license
 *    implementation-type: interpreter
-*    host-language: Python
+*    host-language: [Python][]
 
 ### Robin
 
@@ -2629,7 +2629,7 @@ supports several backends, including [Javascript][] and [Ruby][].
 *   in-distribution: Castile distribution
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 Also it's a compiler to Javascript, Ruby, stackmac, almost C...
 
@@ -2663,7 +2663,7 @@ locations.)
 #### Reference Implementation: sixtypical (Python)
 
 *   license: BSD license
-*   host-language: Python
+*   host-language: [Python][]
 *   implementation-type: compiler
 *   target-language: 6502 machine code
 
@@ -2702,7 +2702,7 @@ to be expressed *compactly*.
 
 *   in-distribution: Tamsin distribution
 *   license: BSD license
-*   host-language: Python
+*   host-language: [Python][]
 *   implementation-type: interpreter
 
 Kind of compiles, too.
@@ -2812,4 +2812,5 @@ This is actually a language family.
 [Jaccia]: ../article/Automata.md#jaccia
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
+[Python]: http://www.python.org/
 
