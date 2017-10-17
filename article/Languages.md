@@ -496,6 +496,7 @@ Successor to [Illberon][].
 *   variant-of: [Befunge-93][]
 *   development-stage: archival
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
+*   reference-distribution: [Apple Befunge distribution](http://catseye.tc/distribution/Apple_Befunge_distribution)
 
 Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some
@@ -504,7 +505,6 @@ Apple ][+-specific instructions.
 #### Reference Implementation: APPLE BEFUNGE EDITOR
 
 *   development-stage: archival
-*   in-distribution: Apple Befunge distribution
 *   license: Public Domain
 *   implementation-type: interpreter, editor
 *   host-language: Applesoft BASIC
@@ -2171,7 +2171,7 @@ The essential ideas date from back to shortly after Pixley was released.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 There are actually 2 implementations, and they have different design goals.
 
@@ -2436,7 +2436,6 @@ supports several backends, including [Javascript][] and [Ruby][].
 
 #### Reference Implementation: castile.py
 
-*   in-distribution: Castile distribution
 *   license: Unknown license
 *   implementation-type: interpreter
 *   host-language: [Python][]
@@ -2470,7 +2469,6 @@ to be expressed *compactly*.
 
 #### Reference Implementation: tamsin.py
 
-*   in-distribution: Tamsin distribution
 *   license: BSD license
 *   host-language: [Python][]
 *   implementation-type: interpreter
@@ -2479,7 +2477,6 @@ Kind of compiles, too.
 
 #### Implementation: tamsin.tamsin
 
-*   in-distribution: Tamsin distribution
 *   license: BSD license
 *   host-language: Tamsin
 *   implementation-type: compiler
@@ -2691,16 +2688,16 @@ For languages where no significant work has even ever been started, see
 *   genre: Esolang
 *   paradigms: Object-oriented, Continuation-passing
 *   etymology: neologism
+*   reference-distribution: [Deturgenchry distribution](http://catseye.tc/distribution/Deturgenchry_distribution)
 
 Deturgenchry is an object-oriented language with both `self` and `other`,
 and each of these is a continuation (or something.)
 
 #### Reference Implementation: Deturgenchry.hs
 
-*   in-distribution: Deturgenchry distribution
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Haskell
+*   host-language: [Haskell][]
 
 ### Pophery
 
@@ -2709,12 +2706,12 @@ and each of these is a continuation (or something.)
 *   genre: Esolang
 *   paradigms: Imperative, String-rewriting
 *   etymology: mangling of Porphyry
+*   reference-distribution: [Pophery distribution](http://catseye.tc/distribution/Pophery_distribution)
 
 Pophery is an imperative string-rewriting language.  I know right?
 
 #### Reference Implementation: pophery.py
 
-*    in-distribution: Pophery distribution
 *    license: Unknown license
 *    implementation-type: interpreter
 *    host-language: [Python][]
@@ -2756,7 +2753,7 @@ locations.)
 #### Implementation: sixtypical (Haskell)
 
 *   license: BSD license
-*   host-language: Haskell
+*   host-language: [Haskell][]
 *   implementation-type: compiler
 *   target-language: Ophis Assembler
 
