@@ -606,7 +606,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional, Maze-space-rewriting
-*   reference-distribution: [HUNTER distribution](/distribution/HUNTER distribution)
+*   reference-distribution: [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
 
 Sample program:
@@ -646,7 +646,7 @@ Its abstract starts out like this:
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: ['N-DCNC distribution](/distribution/'N-DCNC distribution)
+*   reference-distribution: ['N-DCNC distribution](http://catseye.tc/distribution/'N-DCNC_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/'N-DCNC)
 
 Sample program:
@@ -685,7 +685,7 @@ Broken.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Non-deterministic
-*   reference-distribution: [Strelnokoff distribution](/distribution/Strelnokoff distribution)
+*   reference-distribution: [Strelnokoff distribution](http://catseye.tc/distribution/Strelnokoff_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
 
 Sample program:
@@ -729,7 +729,7 @@ featured in a parody advertisement on the television show SCTV.
 *   genre: Abstract Artlang
 *   development-stage: not fully complete
 *   computational-class: ???
-*   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample utterance:
 
@@ -751,7 +751,7 @@ The sole design principle was to entirely eliminate word order.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Grid-rewriting, Reflective
-*   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
+*   reference-distribution: [Ypsilax distribution](http://catseye.tc/distribution/Ypsilax_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -794,7 +794,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: Imperative, Regular-expression-based
-*   reference-distribution: [Version distribution](/distribution/Version distribution)
+*   reference-distribution: [Version distribution](http://catseye.tc/distribution/Version_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
 
 Sample program:
@@ -838,7 +838,7 @@ are ignored during execution.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Event-oriented
-*   reference-distribution: [beta-Juliet distribution](/distribution/beta-Juliet distribution)
+*   reference-distribution: [beta-Juliet distribution](http://catseye.tc/distribution/beta-Juliet_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/beta-Juliet)
 
 Sample program:
@@ -890,7 +890,7 @@ specified, allowing the language to be [Turing-complete][].
 *   development-stage: archival
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: [Sbeezg distribution](/distribution/Sbeezg distribution)
+*   reference-distribution: [Sbeezg distribution](http://catseye.tc/distribution/Sbeezg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Sbeezg)
 
 Sample program:
@@ -921,7 +921,7 @@ single-assignment or they're not...)
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting, Imperative
-*   reference-distribution: [GraNoLa/M distribution](/distribution/GraNoLa/M distribution)
+*   reference-distribution: [GraNoLa/M distribution](http://catseye.tc/distribution/GraNoLa/M_distribution)
 
 Sample program:
 
@@ -947,7 +947,7 @@ same time.
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting
-*   reference-distribution: [Kangaroo Iceberg distribution](/distribution/Kangaroo Iceberg distribution)
+*   reference-distribution: [Kangaroo Iceberg distribution](http://catseye.tc/distribution/Kangaroo_Iceberg_distribution)
 
 Sample program:
 
@@ -1163,7 +1163,7 @@ operator).
 *   computational-class: Turing-complete
 *   influences: Spoon
 *   paradigms: Imperative
-*   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
 
 Sample program:
@@ -2151,6 +2151,7 @@ of term-rewiting systems is largely retained.
 *   genre: Production language
 *   development-stage: unfinished
 *   paradigms: Functional
+*   reference-distribution: [Robin distribution](http://catseye.tc/distribution/Robin_distribution)
 
 Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
 One distinctive feature of it is that it has an extremely small core semantics,
@@ -2166,7 +2167,6 @@ The essential ideas date from back to shortly after Pixley was released.
 
 #### Reference Implementation: Robin.lhs
 
-*   in-distribution: Robin distribution
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: Haskell
@@ -2397,15 +2397,59 @@ thus may overlap — and was released as an esolang.
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Castile
+
+*   type: Programming Language
+*   inception-date: Nov 21, 2012
+*   genre: Experimental language
+*   development-stage: unfinished
+*   computational-class: believed Turing-complete
+*   influences: Eightebed, Rust
+*   paradigms: Imperative, Functional
+*   etymology: soap
+*   reference-distribution: [Castile distribution](http://catseye.tc/distribution/Castile_distribution)
+*   sample program: 
+
+        fun foo(a, b: integer|string) {
+          r = a;
+          typecase b is integer {
+            r = r + b;
+          };
+          typecase b is string {
+            r = r + len(b);
+          };
+          r
+        }
+        main = fun() {
+          a = foo(a, 333 as integer|string);
+          a = foo(a, "hiya" as integer|string);
+          a /* should output 337 */
+        }
+
+Castile is an unremarkable programming language which exists mainly
+because an unremarkable evaluator/compiler for it was written.  It is
+a bit like [ANSI C][] except with proper union types (and no typecasts.)  Local
+variables are mutable, but arguments and globals aren't.  The compiler
+supports several backends, including [Javascript][] and [Ruby][].
+
+#### Reference Implementation: castile.py
+
+*   in-distribution: Castile distribution
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Python][]
+
+Also it's a compiler to Javascript, Ruby, stackmac, almost C...
+
 ### Tamsin
 
 *   type: Programming Language
 *   inception-date: Apr 2014
 *   genre: Experimental language
-*   development-stage: not fully complete
+*   development-stage: unfinished
 *   paradigms: Functional, Logic programming, Metalanguage
 *   etymology: feminine given name
-*   reference-distribution: Tamsin distribution
+*   reference-distribution: [Tamsin distribution](http://catseye.tc/distribution/Tamsin_distribution)
 *   sample program: 
 
         main = expr0 → E & walk(E).
@@ -2672,48 +2716,6 @@ Pophery is an imperative string-rewriting language.  I know right?
 *    license: Unknown license
 *    implementation-type: interpreter
 *    host-language: [Python][]
-
-### Castile
-
-*   type: Programming Language
-*   inception-date: Nov 21, 2012
-*   genre: Experimental language
-*   computational-class: believed Turing-complete
-*   influences: Eightebed, Rust
-*   paradigms: Imperative, Functional
-*   etymology: soap
-*   sample program: 
-
-        fun foo(a, b: integer|string) {
-          r = a;
-          typecase b is integer {
-            r = r + b;
-          };
-          typecase b is string {
-            r = r + len(b);
-          };
-          r
-        }
-        main = fun() {
-          a = foo(a, 333 as integer|string);
-          a = foo(a, "hiya" as integer|string);
-          a /* should output 337 */
-        }
-
-Castile is an unremarkable programming language which exists mainly
-because an unremarkable evaluator/compiler for it was written.  It is
-a bit like [ANSI C][] except with proper union types (and no typecasts.)  Local
-variables are mutable, but arguments and globals aren't.  The compiler
-supports several backends, including [Javascript][] and [Ruby][].
-
-#### Reference Implementation: castile.py
-
-*   in-distribution: Castile distribution
-*   license: Unknown license
-*   implementation-type: interpreter
-*   host-language: [Python][]
-
-Also it's a compiler to Javascript, Ruby, stackmac, almost C...
 
 ### SixtyPical
 
