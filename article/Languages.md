@@ -1503,30 +1503,17 @@ Pixley is written in 124 lines of Pixley (or, if you prefer, 124 lines of
 Scheme; and if you prefer more Scheme-ly metrics, it consists of 413
 instances of 54 unique symbols in 684 cons cells.)
 
-#### Reference Implementation: pixley.pifx
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: Pifxley
-
-#### Reference Implementation: mignon
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: [ANSI C][]
-
 #### Reference Implementation: pixley.pix
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Pixley][]
 
-#### Reference Implementation: p-normal.pix
+#### Implementation: mignon
 
 *   license: BSD license
-*   implementation-type: compiler
-*   host-language: [Pixley][]
-*   target-language: P-Normal Pixley
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
 
 #### Reference Implementation: haney
 
@@ -1541,26 +1528,41 @@ instances of 54 unique symbols in 684 cons cells.)
 *   host-language: [Javascript][]
 *   host-platform: [HTML5][]
 
+#### Implementation: pixley.pifx
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: [Pifxley][]
+
+#### Reference Implementation: p-normal.pix
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: [Pixley][]
+*   target-language: [P-Normal Pixley][]
+
 ### Crabwell
 
 *   type: Programming Language
 *   genre: Esolang
 
-Variant of [Pixley][], description TK.
+Crabwell is a dialect of [Pixley][] which allows values to be bound to, not just symbols, but
+arbitrary S-expressions.
 
-#### P-Normal Pixley
-
-*   type: Programming Language
-*   genre: Esolang
-
-Variant of [Pixley][], description TK.
-
-#### Pifxley
+### P-Normal Pixley
 
 *   type: Programming Language
 *   genre: Esolang
 
-Variant of [Pixley][], description TK.
+P-Normal Pixley is a simplified version of [Pixley][] where `let*` can only bind one identifer
+to one value and `cond` can only make one test, like Scheme's `if`.
+
+### Pifxley
+
+*   type: Programming Language
+*   genre: Esolang
+
+Pifxley is a dialect of [Pixley][] which supports an `if` construct instead of `cond`.
 
 ### Dieter
 
@@ -2788,6 +2790,8 @@ locations.)
 [Lua]: http://www.lua.org/
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
+[Pifxley]: ../article/Languages.md#pifxley
+[P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
 [RUBE]: ../article/Automata.md#rube
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
