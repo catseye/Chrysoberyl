@@ -1,15 +1,18 @@
 Languages
 =========
 
-This is a list of languages that have been designed under the auspices of Cat's Eye Technologies.
-It is currently given in approximately chronological order.
+This is a list of languages, in chronological order, that have been designed under the
+auspices of Cat's Eye Technologies.
 
-Most of these languages are programming languages.  Where they are not programming languages
-precisely, they are almost all "computer languages" of some kind, although some of them have
-not been implemented on a computer (or may even be implementable on a computer), and at least
-one of them is a conlang.
+Most of these languages are programming languages, or at least "computer languages" of
+some kind, although some of them have not been implemented on a computer (or may even
+be unimplementable on a computer), and at least one of them is a conlang.
 
 Many of them are esolangs (TODO: link to something that explains esolangs well here.)
+
+Unfortunately the distinctions between a Language, a [Format](Formats.md), and an
+[Automaton](Automata.md) are not always cut-and-dried so you might want to see those
+articles as well.
 
 If it was implemented by Cat's Eye Technologies, but was designed by someone else, it won't
 be on this list, it'll be here instead: [Language Implementations](Language%20Implementations.md).
@@ -20,24 +23,13 @@ it won't be on this list.
 If it is still considered a "work in progress", it will be at the bottom of this list:
 [works in progress](#works-in-progress).
 
-Some of these languages have interpreters that can run online,
-in your web browser.  By selecting sample
-programs and watching them run, you can gain an appreciation of how the
-language works; by composing your own programs, you can gain an
-even better appreciation.
-
-Unfortunately the distinctions between a Language, a Language Family, and a [Format](Formats.md) or an
-[Automaton](Automata.md) are not always cut-and-dried so you might want to see those articles
-as well.
+Some of these languages have interpreters that can run online, in your web browser.
+By selecting sample programs and watching them run, you can gain an appreciation of how the
+language works; by composing your own programs, you can gain an even better appreciation.
 
 You may also be interested in reading about
-[what it was like to design these](https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md) and/or
-[the ones that got away](LoUIE.md).
-
-Also some writings of note:
-    
-*   [Programming Languages as an Artistic Medium][]
-*   [The Aesthetics of Esolangs][]
+[what it was like to design these](https://github.com/catseye/The-Dossier/#programming-languages)
+or [the ones that got away](LoUIE.md).
 
 Languages I've Designed
 -----------------------
@@ -1052,6 +1044,23 @@ point for branching new languages, than as a useful language in and of itself.
 *   implementation-type: interpreter
 *   host-language: C99
 
+### Kosheri
+
+*   type: Programming Language
+*   inception-date: ca 2007
+*   genre: Production Language
+*   development-stage: unfinished
+*   etymology: Egyptian street food
+*   reference-distribution: [Kosheri distribution](http://catseye.tc/distribution/Kosheri_distribution)
+
+Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
+
+#### Reference Implementation: kosheri (C)
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: C99
+
 ### Burro
 
 *   type: Programming Language
@@ -1390,6 +1399,37 @@ only appear inside data structures.
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
+
+### Zame
+
+*   type: Programming Language
+*   inception-date: Jan 2009
+*   genre: Esolang
+*   variant-of: [Etcha][]
+*   paradigms: Maze-space-rewriting (kind of)
+*   sample program: 
+
+        #########
+        # #     #
+        # # # ###
+        #   #   #
+        ### # # #
+        #   # # #
+        #########
+
+
+Zame is an automaton which uses the solution of a maze to
+generate an [Etcha][] program which draws a new maze, then
+the process repeats.  An open question is to find a maze for which
+this process repeats indefinitely.
+
+Where it stands relative to other models of computation is, therefore,
+not well understood.
+
+Information on this language is only available on the Esowiki for now:
+[Zame](http://esolangs.org/wiki/Zame).
+
+This is actually a language family.
 
 ### Unlikely
 
@@ -2104,6 +2144,35 @@ has a well-founded inductive definition.  Such structures can be thought
 of as types, although this is largely nominal; the traditional typelessness
 of term-rewiting systems is largely retained.
 
+### Robin
+
+*   type: Programming Language
+*   inception-date: 2011
+*   genre: Production language
+*   development-stage: unfinished
+*   paradigms: Functional
+
+Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
+One distinctive feature of it is that it has an extremely small core semantics,
+to the point where even closures are defined in terms of macros.
+Another distinctive feature is that it is heavily resource-oriented; almost
+everything, including concurrent processes, is (or should be) a virtual device
+which must be acquired from a central resource arbiter.  This arbiter may
+satisfy the constraints you specify when requesting a device any way it sees
+fit; so the operating environment has potentially a lot of influence over
+exactly what your program does.
+
+The essential ideas date from back to shortly after Pixley was released.
+
+#### Reference Implementation: Robin.lhs
+
+*   in-distribution: Robin distribution
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: Haskell
+
+There are actually 2 implementations, and they have different design goals.
+
 ### Troupe
 
 *   type: Programming Language
@@ -2328,6 +2397,48 @@ thus may overlap — and was released as an esolang.
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Tamsin
+
+*   type: Programming Language
+*   inception-date: Apr 2014
+*   genre: Experimental language
+*   development-stage: not fully complete
+*   paradigms: Functional, Logic programming, Metalanguage
+*   etymology: feminine given name
+*   reference-distribution: Tamsin distribution
+*   sample program: 
+
+        main = expr0 → E & walk(E).
+        expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
+        expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
+        term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
+        walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
+        walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
+        walk(X) = return ' '+X.
+
+Tamsin is an oddball little language that can't decide if it's a
+meta-language, a programming language, or a [rubbish lister](/node/Perl).
+Its primary goal is to allow the rapid development of parsers,
+static analyzers, interpreters, and compilers, and to allow them
+to be expressed *compactly*.
+
+#### Reference Implementation: tamsin.py
+
+*   in-distribution: Tamsin distribution
+*   license: BSD license
+*   host-language: [Python][]
+*   implementation-type: interpreter
+
+Kind of compiles, too.
+
+#### Implementation: tamsin.tamsin
+
+*   in-distribution: Tamsin distribution
+*   license: BSD license
+*   host-language: Tamsin
+*   implementation-type: compiler
+*   target-language: C99
+
 ### Yolk
 
 *   type: Programming Language
@@ -2545,23 +2656,6 @@ and each of these is a continuation (or something.)
 *   implementation-type: interpreter
 *   host-language: Haskell
 
-### Kosheri
-
-*   type: Programming Language
-*   inception-date: ca 2007
-*   genre: Production Language
-*   etymology: Egyptian street food
-
-Kosheri is a virtual machine design that rose from the ashes
-of [Bhuna][].
-
-#### Reference Implementation: kosheri (C)
-
-*   in-distribution: Kosheri distribution
-*   license: Unknown license
-*   implementation-type: interpreter
-*   host-language: C99
-
 ### Pophery
 
 *   type: Programming Language
@@ -2578,31 +2672,6 @@ Pophery is an imperative string-rewriting language.  I know right?
 *    license: Unknown license
 *    implementation-type: interpreter
 *    host-language: [Python][]
-
-### Robin
-
-*   type: Programming Language
-*   inception-date: 2011
-*   genre: Production language
-*   paradigms: Functional
-*   etymology: bird
-
-Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
-One distinctive feature of it is that it has an extremely small core semantics,
-to the point where even closures are defined in terms of macros.
-Another distinctive feature is that it is heavily resource-oriented; almost
-everything, including concurrent processes, is (or should be) a virtual device
-which must be acquired from a central resource arbiter.  This arbiter may
-satisfy the constraints you specify when requesting a device any way it sees
-fit; so the operating environment has potentially a lot of influence over
-exactly what your program does.
-
-#### Reference Implementation: Robin.lhs
-
-*   in-distribution: Robin distribution
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: Haskell
 
 ### Castile
 
@@ -2686,80 +2755,6 @@ locations.)
 *   host-language: Haskell
 *   implementation-type: compiler
 *   target-language: Ophis Assembler
-
-### Tamsin
-
-*   type: Programming Language
-*   inception-date: Apr 2014
-*   genre: Experimental language
-*   paradigms: Functional, Logic programming, Metalanguage
-*   etymology: feminine given name
-*   reference-distribution: Tamsin distribution
-*   sample program: 
-
-        main = expr0 → E & walk(E).
-        expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
-        expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
-        term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
-        walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
-        walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
-        walk(X) = return ' '+X.
-
-Tamsin is an oddball little language that can't decide if it's a
-meta-language, a programming language, or a [rubbish lister](/node/Perl).
-Its primary goal is to allow the rapid development of parsers,
-static analyzers, interpreters, and compilers, and to allow them
-to be expressed *compactly*.
-
-#### Reference Implementation: tamsin.py
-
-*   in-distribution: Tamsin distribution
-*   license: BSD license
-*   host-language: [Python][]
-*   implementation-type: interpreter
-
-Kind of compiles, too.
-
-#### Implementation: tamsin.tamsin
-
-*   in-distribution: Tamsin distribution
-*   license: BSD license
-*   host-language: Tamsin
-*   implementation-type: compiler
-*   target-language: C99
-
-### Zame
-
-*   type: Programming Language
-*   inception-date: Jan 2009
-*   genre: Esolang
-*   variant-of: Etcha
-*   paradigms: Maze-space-rewriting (kind of)
-*   sample program: 
-
-        #########
-        # #     #
-        # # # ###
-        #   #   #
-        ### # # #
-        #   # # #
-        #########
-
-
-Zame is an automaton which uses the solution of a maze to
-generate an [Etcha][] program which draws a new maze, then
-the process repeats.  An open question is to find a maze for which
-this process repeats indefinitely.
-
-Where it stands relative to other models of computation is, therefore,
-not well understood.
-
-Information on this language is only available on the Esowiki for now:
-[Zame](http://esolangs.org/wiki/Zame).
-
-This is not really a WIP, is it, maybe.
-
-This is actually a language family.
 
 - - - -
 
