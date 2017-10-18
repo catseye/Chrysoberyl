@@ -1,7 +1,44 @@
 Instructions
 ============
 
-For online installations.
+Internal note: this file should not be used as input when creating a refdex.
+
+For Games
+---------
+
+### Bubble Escape
+
+You can play it online in the [JaC64][] emulator using Java Web Start.
+Use your arrow keys to guide the bubble through the maze.  Avoid the
+hazards and find the five keys to unlock the exit.
+
+### Super Wumpus Land
+
+If your keystrokes aren't going into the "terminal", make sure you
+click in it first (it's focusable.)
+
+### The Never-Ending Maze
+
+It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
+Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
+
+### The New Gamerly Realism
+
+Use the arrow keys to guide the protagonist (represented by a black square)
+around the playfield (represented by a black square) to collect all the
+treasures (represented by black squares) while avoiding the pits (represented
+by black squares.)  Each treasure collected earns the player 10 points; the
+score is shown in the upper-left (in black).  The player begins the game with
+three lives; succumbing to a pit costs a life; the number of lives is
+displayed in the lower-left (in black).  When the game is over, left-click
+the canvas to start a new game.
+
+Detractors and other peasants may satisfy themselves that this is actually a
+game and not just an entirely black gif or something by opening a Javascript
+console and typing `BACKGROUND_COLOR='green'`.
+
+For Gewgaws
+-----------
 
 ### A Non-Random Walk
 
@@ -209,3 +246,8 @@ of the computer screen.
 ### Woman on Film
 
 Use the navigation buttons to traverse the space of the work.
+
+- - - -
+
+[JaC64]: TBD
+[Zplet]: TBD
