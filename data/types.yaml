@@ -27,20 +27,10 @@ Organization:
   type: type
 Competition:
   type: type
-Programming Paradigm:
-  type: type
 Website:
-  type: type
-Conlang:
   type: type
 Collection:
   type: type
-Programming Language Family:
-  type: type
-  description: |
-    Note that the precise distinctions between a [[Programming Language]],
-    a Programming Language Family, and an [[Automaton]]
-    are debatable, and entries may be categorized somewhat arbitrarily.
 
 # implementations:
 Implementation:
@@ -49,7 +39,7 @@ Implementation:
     This is a list of implementations with entries in [[Chrysoberyl]].
     
     These are implementations of *all* kinds of things:
-    [[Programming Language|programming languages]],
+    programming languages,
     [[Platform|platforms]],
     [[Library|libraries]],
     [[Tool|tools]],
@@ -67,32 +57,6 @@ License:
 Distribution:
   type: type
   suppress-page-generation: true
-
-Automaton:
-  type: type
-  description: |
-    Note that the precise distinctions between an Automaton, a
-    [[Programming Language]], and a [[Gewgaw]]
-    are debatable, and entries may be categorized somewhat arbitrarily.
-Programming Language:
-  type: type
-  description: |
-    Some of these languages have interpreters that can run online,
-    in your web browser.  By selecting sample
-    programs and watching them run, you can gain an appreciation of how the
-    language works; by composing your own programs, you can gain an
-    even better appreciation.
-    
-    Note that the precise distinctions between a Programming Language,
-    a [[Programming Language Family]], and an [[Automaton]]
-    are debatable, and entries may be categorized somewhat arbitrarily.
-    
-    * [[Programming Language Matrix]]
-    * [[Chris Pressey's Lingography]]
-    * [[Esolang]] ... and [[LoUIE]]
-    * [[Implementation Languages]]
-    * [[Programming Languages as an Artistic Medium]]
-    * [[The Aesthetics of Esolangs]]
 
 
 Gewgaw:

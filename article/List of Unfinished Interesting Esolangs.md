@@ -667,19 +667,19 @@ and you can probably compose esolangs (in truly,
 Naturally, you can also create new YO_DAWG objects.
 
 
-[Befunge-93]: http://catseye.tc/node/Befunge-93
-[Burro]: http://catseye.tc/node/Burro
-[Cabra]: http://catseye.tc/node/Cabra
-[Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
-[Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
-[Mascarpone]: http://catseye.tc/node/Mascarpone
-[Muriel]: http://catseye.tc/node/Muriel
+[Befunge-93]: ../article/Languages.md#befunge-93
+[Burro]: ../article/Languages.md#burro
+[Cabra]: ../article/Languages.md#cabra
+[Erlang]: http://www.erlang.org/
+[Java]: http://www.oracle.com/technetwork/java/index.html
+[Mascarpone]: ../article/Languages.md#mascarpone
+[Muriel]: http://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
-[Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+[Scheme]: http://schemers.org/Documents/Standards/R5RS/
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
-[Underload]: http://catseye.tc/node/Underload
-[Unlikely]: http://catseye.tc/node/Unlikely
-[ZOWIE]: http://catseye.tc/node/ZOWIE
+[Underload]: http://esolangs.org/wiki/Underload
+[Unlikely]: ../article/Languages.md#unlikely
+[ZOWIE]: ../article/Languages.md#zowie
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [esoteric programming languages]: http://esolangs.org/
 [the completed]: http://catseye.tc/node/Chris%20Pressey%27s%20Lingography

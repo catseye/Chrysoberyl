@@ -1234,6 +1234,15 @@ Version distribution:
     revision: "2014.0819"
     url: http://catseye.tc/distfiles/version-1.0-2014.0819.zip
 
+Wang Tilers distribution: 
+  type: Distribution
+  github: catseye/Wang-Tilers
+  tag-style: new
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/wang-tilers-1.0.zip
+
 Whothm distribution: 
   type: Distribution
   github: catseye/Whothm
@@ -1417,3 +1426,91 @@ ZOWIE distribution:
   - version: "1.1"
     revision: "0.0"
     url: http://catseye.tc/distfiles/zowie-1.1.zip
+
+
+
+
+
+Deturgenchry distribution: 
+  type: Distribution
+  github: catseye/Deturgenchry
+  fixed-tag: 2eb3b4a
+  test-requirements:
+  - Falderal
+  releases: []
+
+Kosheri distribution: 
+  type: Distribution
+  github: catseye/Kosheri
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kosheri-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
+
+Pophery distribution: 
+  type: Distribution
+  github: catseye/Pophery
+  fixed-tag: 1268947
+  releases: []
+
+Robin distribution: 
+  type: Distribution
+  github: catseye/Robin
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.1.zip
+  - version: "0.2"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/robin-0.2.zip
+
+Kosheri distribution: 
+  type: Distribution
+  github: catseye/Kosheri
+  tag-style: new
+  test-requirements:
+  - Falderal
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/kosheri-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0428"
+    url: http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip
+
+
+Minischeme distribution: 
+  type: Distribution
+  reference: false
+  description: |
+    Cat's Eye Technologies' fork of the original Mini-scheme distribution.
+  github: catseye/minischeme
+  # this should be a release!
+  fixed-tag: 0.85ce1
+  releases: []
+
+OpenZz distribution: 
+  type: Distribution
+  reference: false
+  description: |
+    Cat's Eye Technologies' fork of OpenZz, an open-source implementation
+    of the dynamic grammar-based language Zz.
+  github: catseye/OpenZz
+  # this should be a release!
+  fixed-tag: 1.0.4-4ce1
+  releases: []

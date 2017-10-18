@@ -1,3 +1,3 @@
 #!/bin/sh
 
-feedmark --output-refdex article/Tools.md article/Formats.md article/Platforms.md > tools-refdex.json
+feedmark --output-refdex article/*.md >article-refdex.json

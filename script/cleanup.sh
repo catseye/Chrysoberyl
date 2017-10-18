@@ -2,7 +2,9 @@
 
 ARTICLES=../Chrysoberyl/article
 
-REFDEXES=games-refdex.json,texts-refdex.json,retrocomputing-refdex.json,misc-refdex.json
+feedmark --output-refdex article/*.md >article-refdex.json
+
+REFDEXES=misc-refdex/games-refdex.json,misc-refdex/texts-refdex.json,misc-refdex/retrocomputing-refdex.json,misc-refdex/languages-refdex.json,misc-refdex/misc-refdex.json
 
 feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Distribution Organization.md" \
@@ -16,6 +18,9 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Tools.md" \
                           "article/Formats.md" \
                           "article/Archived.md" \
+                          "article/Languages.md" \
+                          "article/Language Implementations.md" \
+                          "article/Automata.md" \
                  >refdex.json
 
 ## non-lists
@@ -73,4 +78,19 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Platform.md" \
          "article/Platforms.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Language.md" \
+         "article/Languages.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Language Implementation.md" \
+         "article/Language Implementations.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Language.md" \
+         "article/Automata.md" \
          --rewrite-markdown || exit 1

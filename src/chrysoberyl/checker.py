@@ -253,6 +253,8 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
         implemented_thing = node['implementation-of'][0]
         if implemented_thing in ('Commodore 64',):
             impl_of_type = 'Platform'
+        elif implemented_thing not in data:
+            impl_of_type = 'Programming Language'
         else:
             impl_of_type = data[implemented_thing]['type']
 
@@ -324,7 +326,7 @@ def check_chrysoberyl_node(universe, data, key, node, link_priority):
                              types=['Development Stage'])
         check_optional_scalar_ref(universe, key, node, 'sample-credit', link_priority,
                                   'Individual')
-        check_optional_scalar_ref(universe, key, node, 'variant-of', type_)
+        check_optional_scalar_ref(universe, key, node, 'variant-of', link_priority, types=[type_])
         check_optional_list_ref(universe, key, node, 'online-implementations', link_priority,
                                 types=['Online Installation'])
 

@@ -174,7 +174,7 @@ written in Python.
 *   reference: true
 *   in-distribution: [shelf distribution](/distribution/shelf distribution)
 *   license: Public Domain
-*   host-language: Bourne shell
+*   host-language: [Bourne shell][]
 
 ### SITU-MON
 
@@ -378,7 +378,7 @@ framework, which is in Java.
 *   host-language: Javascript
 *   in-distribution: [yoob.js distribution](/distribution/yoob.js distribution)
 
-[Eightebed]: http://catseye.tc/node/Eightebed
+[Eightebed]: ../article/Languages.md#eightebed
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
@@ -396,4 +396,5 @@ framework, which is in Java.
 [The Platform]: TBD
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
+[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
 

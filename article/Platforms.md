@@ -11,7 +11,7 @@ are debatable, and entries may be categorized somewhat arbitrarily.
 
 ### The Cat's Eye Technologies Platform
 
-*   native-language: Bourne shell (oh, this is *so* not really true)
+*   native-language: many
 *   other-languages: many
 *   inception-date: Oct 4 2014
 *   development-stage: not fully complete
@@ -67,9 +67,9 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 #### Reference Implementation: BefOS (NASM)
 
 *   license: Public Domain
-*   host-language: NASM Assembler
-*   host-platform: IBM PC compatible
-*   build-requirements: ANSI C, Perl
+*   host-language: [NASM Assembler][]
+*   host-platform: [IBM PC compatible][]
+*   build-requirements: [ANSI C][], [Perl][]
 *   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
 
 [NetBSD]: http://netbsd.org/
@@ -77,7 +77,10 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [Cat's Eye Technologies]: http://catseye.tc/
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
 [Befunge]: http://catseye.tc/node/Befunge
-[Befunge-93]: http://catseye.tc/node/Befunge-93
-[NASM]: http://catseye.tc/node/NASM
+[Befunge-93]: ../article/Languages.md#befunge-93
+[NASM]: http://nasm.us/
+[NASM Assembler]: http://nasm.us/
 [Funicular]: ../article/Tools.md#funicular
+[ANSI C]: http://clc-wiki.net/wiki/C89
+[Perl]: http://www.perl.org/
 

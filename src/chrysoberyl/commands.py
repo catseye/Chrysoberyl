@@ -64,6 +64,129 @@ def mkdistjson(universe, options, config):
         f.write(json.dumps(dist, indent=4, sort_keys=True))
 
 
+# NOTES made while browsing the two versions:
+#   what happened to TURKEY BOMB?
+# Things to add MANUALLY:
+#   SITU-SOL and ILLGOL should have images
+# CSS/JS:
+#   Margins
+#   Buttons
+#   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
+
+def export_lingography(universe, options, config):
+    """Export the lingography."""
+    space = universe['node']  # FIXME hardcoded
+
+    link_priority_refdex = {}
+    for filename in config[space.name].get('link_priority_files', []):
+        with open(filename, 'r') as f:
+            link_priority_refdex.update(json.loads(f.read()))
+
+    def lingography():
+        languages = []
+        types = ('Programming Language', 'Programming Language Family',
+                 'Conlang', 'Automaton')
+        for thing in space:
+            node = space[thing]
+            if (node['type'] in types and
+                'Chris Pressey' in node.get('authors', []) and
+                node.get('development-stage', 'idea') not in \
+                    ('idea', 'work in progress') and
+                not node.get('variant-of', None) and
+                (node.get('member-of', None) != 'Funge-98')):
+                languages.append(thing)
+        return sorted(languages,
+                      key=lambda x: (space[x]['inception-date'], space[x]['genre']) )
+
+    def online_implementations(key):
+        def online_locations(k):
+            return space[k].get('online-locations', [])
+        online_locs = []
+        online_locs.extend(online_locations(key))
+        for impl, inode in sorted(space.related_items('implementation-of', key=key)):
+            online_locs.extend(online_locations(impl))
+        return online_locs
+
+    data = []
+    for key in lingography():
+        thing = space[key]
+        thing['inception-date'] = str(thing['inception-date'])
+        if 'auspices' in thing: del thing['auspices']
+        del thing['authors']
+        thing['title'] = key
+        data.append(thing)
+
+    #print(json.dumps(data, indent=4, sort_keys=True))
+    #return
+
+    needed_links = set()
+
+    def linker(match):
+        text = match.group(1)
+        segments = text.split('|')
+        if len(segments) == 1:
+            needed_links.add(segments[0])
+            return u'[{}][]'.format(segments[0])
+        else:
+            return u'[{}]({})'.format(segments[1], segments[0])
+
+    f = codecs.open('../Chrysoberyl/article/Language Implementations.md', 'w', 'utf-8')
+    def write(s):
+        f.write(s + '\n')
+
+    for thing in sorted(space.keys()):
+        if space[thing]['type'] == 'Implementation' and 'Chris Pressey' in space[thing]['authors']:
+            implementation_of_key = space[thing].get('implementation-of')
+            if isinstance(implementation_of_key, list): implementation_of_key = implementation_of_key[0]
+            implementation_of = space[implementation_of_key]
+            if implementation_of.get('type') == 'Programming Language' and 'Chris Pressey' not in implementation_of['authors']:
+                write(u"### {}".format(thing))
+                write("")
+                write("*   implementation of: {}".format(implementation_of_key))
+                write("*   implementation type: {}".format(space[thing].get('implementation-type', '???')))
+                if 'host-platform' in space[thing]:
+                    write("*   host platform: {}".format(space[thing].get('host-platform', '???')))
+                write("*   host language: {}".format(space[thing].get('host-language', '???')))
+                if 'target-language' in space[thing]:
+                    write("*   target language: {}".format(space[thing].get('target-language', '???')))
+                write("*   inception date: {}".format(space[thing].get('inception-date', '???')))
+                for d in space[thing].get('in-distributions', []):
+                    write(u"*   in distribution: [{}](/distribution/{})".format(d, d))
+                for url in online_implementations(implementation_of_key):
+                    write(u"*   online @ [catseye.tc](http://catseye.tc/{})".format(url))
+
+                write("")
+                
+                description = space[thing].get('description', '')
+                description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
+                write(description)
+                
+                commentary = space[thing].get('commentary')
+                if commentary:
+                    commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
+                    write(commentary)
+
+    write("- - - -")
+    write("")
+    for needed_link in sorted(needed_links):
+        if needed_link in link_priority_refdex:
+            p = link_priority_refdex[needed_link]
+            if 'url' in p:
+                url = p['url']
+            elif 'filename' in p:
+                base = 'http://catseye.tc/'
+                url = "{}{}#{}".format(
+                    base, p['filename'], p['anchor']
+                )
+            else:
+                raise NotImplementedError
+            write(u"[{}]: {}".format(needed_link, url))
+        else:
+            write(u"[{}]: TBD".format(needed_link))
+
+    f.close()
+
+
 def render(universe, options, config):
     """Render all nodes to a set of HTML5 files.
 
@@ -376,6 +499,7 @@ COMMANDS = {
     'check_distfiles': check_distfiles,
     'project': project,
     'count': count,
+    'export_lingography': export_lingography,
 }
 
 
