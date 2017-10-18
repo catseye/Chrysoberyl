@@ -22,6 +22,7 @@ feedmark --input-refdexes=$REFDEXES --output-refdex \
                           "article/Language Implementations.md" \
                           "article/Automata.md" \
                           "article/Gewgaws.md" \
+                          "article/Events.md" \
                  >refdex.json
 
 ## non-lists
@@ -99,4 +100,9 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Gewgaw.md" \
          "article/Gewgaws.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Event.md" \
+         "article/Events.md" \
          --rewrite-markdown || exit 1

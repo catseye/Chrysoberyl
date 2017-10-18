@@ -299,7 +299,7 @@ Links
 
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Ophis Assembler]: https://github.com/michaelcmartin/Ophis
-[Mini Game Compo 2009]: http://catseye.tc/node/Mini_Game_Compo_2009
+[Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: http://www.perl.org/
 [Hunt the Wumpus]: ../article/Games.md#hunt-the-wumpus
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
