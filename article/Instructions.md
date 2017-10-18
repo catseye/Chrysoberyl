@@ -249,5 +249,6 @@ Use the navigation buttons to traverse the space of the work.
 
 - - - -
 
-[JaC64]: TBD
-[Zplet]: TBD
+[JaC64]: ../article/Retrocomputing.md#commodore-64
+[Zplet]: ../article/Retrocomputing.md#z-machine
+
