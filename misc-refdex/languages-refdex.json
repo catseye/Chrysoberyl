@@ -26,6 +26,9 @@
     "gcc 3.4": {
         "url": "http://gcc.gnu.org/gcc-3.4/"
     },
+    "C++": {
+        "url": "http://www.open-std.org/jtc1/sc22/wg21/"
+    },
 
 
     "Python": {

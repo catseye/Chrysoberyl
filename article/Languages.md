@@ -1,13 +1,18 @@
 Languages
 =========
 
-This is a list of languages that have been designed under the auspices of Cat's Eye Technologies.
-It is currently given in approximately chronological order.
+This is a list of languages, in chronological order, that have been designed under the
+auspices of Cat's Eye Technologies.
 
-Most of these languages are programming languages.  Where they are not programming languages
-precisely, they are almost all "computer languages" of some kind, although some of them have
-not been implemented on a computer (or may even be implementable on a computer), and at least
-one of them is a conlang.
+Most of these languages are programming languages, or at least "computer languages" of
+some kind, although some of them have not been implemented on a computer (or may even
+be unimplementable on a computer), and at least one of them is a conlang.
+
+Many of them are esolangs (TODO: link to something that explains esolangs well here.)
+
+Unfortunately the distinctions between a Language, a [Format](Formats.md), and an
+[Automaton](Automata.md) are not always cut-and-dried so you might want to see those
+articles as well.
 
 If it was implemented by Cat's Eye Technologies, but was designed by someone else, it won't
 be on this list, it'll be here instead: [Language Implementations](Language%20Implementations.md).
@@ -15,13 +20,16 @@ be on this list, it'll be here instead: [Language Implementations](Language%20Im
 If it was implemented by Chris Pressey, but not under the auspices of Cat's Eye Technologies,
 it won't be on this list.
 
-Unfortunately the distinction between a Language and a [Format](Formats.md) or an
-[Automaton](Automata.md) is not always cut-and-dried so you might want to see those articles
-as well.
+If it is still considered a "work in progress", it will be at the bottom of this list:
+[works in progress](#works-in-progress).
+
+Some of these languages have interpreters that can run online, in your web browser.
+By selecting sample programs and watching them run, you can gain an appreciation of how the
+language works; by composing your own programs, you can gain an even better appreciation.
 
 You may also be interested in reading about
-[what it was like to design these](https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md) and/or
-[the ones that got away](LoUIE.md).
+[what it was like to design these](https://github.com/catseye/The-Dossier/#programming-languages)
+or [the ones that got away](LoUIE.md).
 
 Languages I've Designed
 -----------------------
@@ -266,7 +274,7 @@ other languages (or, well, cellular automata — close enough).
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Python
+*   host-language: [Python][]
 *   target-language: [Javascript][]
 
 ### Funge-98
@@ -488,6 +496,7 @@ Successor to [Illberon][].
 *   variant-of: [Befunge-93][]
 *   development-stage: archival
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
+*   reference-distribution: [Apple Befunge distribution](http://catseye.tc/distribution/Apple_Befunge_distribution)
 
 Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some
@@ -496,7 +505,6 @@ Apple ][+-specific instructions.
 #### Reference Implementation: APPLE BEFUNGE EDITOR
 
 *   development-stage: archival
-*   in-distribution: Apple Befunge distribution
 *   license: Public Domain
 *   implementation-type: interpreter, editor
 *   host-language: Applesoft BASIC
@@ -598,7 +606,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional, Maze-space-rewriting
-*   reference-distribution: [HUNTER distribution](/distribution/HUNTER distribution)
+*   reference-distribution: [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
 
 Sample program:
@@ -638,7 +646,7 @@ Its abstract starts out like this:
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: ['N-DCNC distribution](/distribution/'N-DCNC distribution)
+*   reference-distribution: ['N-DCNC distribution](http://catseye.tc/distribution/'N-DCNC_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/'N-DCNC)
 
 Sample program:
@@ -677,7 +685,7 @@ Broken.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Non-deterministic
-*   reference-distribution: [Strelnokoff distribution](/distribution/Strelnokoff distribution)
+*   reference-distribution: [Strelnokoff distribution](http://catseye.tc/distribution/Strelnokoff_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
 
 Sample program:
@@ -721,7 +729,7 @@ featured in a parody advertisement on the television show SCTV.
 *   genre: Abstract Artlang
 *   development-stage: not fully complete
 *   computational-class: ???
-*   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample utterance:
 
@@ -743,7 +751,7 @@ The sole design principle was to entirely eliminate word order.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Grid-rewriting, Reflective
-*   reference-distribution: [Ypsilax distribution](/distribution/Ypsilax distribution)
+*   reference-distribution: [Ypsilax distribution](http://catseye.tc/distribution/Ypsilax_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
@@ -786,7 +794,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: Imperative, Regular-expression-based
-*   reference-distribution: [Version distribution](/distribution/Version distribution)
+*   reference-distribution: [Version distribution](http://catseye.tc/distribution/Version_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
 
 Sample program:
@@ -830,7 +838,7 @@ are ignored during execution.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Event-oriented
-*   reference-distribution: [beta-Juliet distribution](/distribution/beta-Juliet distribution)
+*   reference-distribution: [beta-Juliet distribution](http://catseye.tc/distribution/beta-Juliet_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/beta-Juliet)
 
 Sample program:
@@ -882,7 +890,7 @@ specified, allowing the language to be [Turing-complete][].
 *   development-stage: archival
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: [Sbeezg distribution](/distribution/Sbeezg distribution)
+*   reference-distribution: [Sbeezg distribution](http://catseye.tc/distribution/Sbeezg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Sbeezg)
 
 Sample program:
@@ -913,7 +921,7 @@ single-assignment or they're not...)
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting, Imperative
-*   reference-distribution: [GraNoLa/M distribution](/distribution/GraNoLa/M distribution)
+*   reference-distribution: [GraNoLa/M distribution](http://catseye.tc/distribution/GraNoLa/M_distribution)
 
 Sample program:
 
@@ -939,7 +947,7 @@ same time.
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting
-*   reference-distribution: [Kangaroo Iceberg distribution](/distribution/Kangaroo Iceberg distribution)
+*   reference-distribution: [Kangaroo Iceberg distribution](http://catseye.tc/distribution/Kangaroo_Iceberg_distribution)
 
 Sample program:
 
@@ -1033,6 +1041,23 @@ point for branching new languages, than as a useful language in and of itself.
 #### Reference Implementation: bhuna
 
 *   license: BSD license
+*   implementation-type: interpreter
+*   host-language: C99
+
+### Kosheri
+
+*   type: Programming Language
+*   inception-date: ca 2007
+*   genre: Production Language
+*   development-stage: unfinished
+*   etymology: Egyptian street food
+*   reference-distribution: [Kosheri distribution](http://catseye.tc/distribution/Kosheri_distribution)
+
+Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
+
+#### Reference Implementation: kosheri (C)
+
+*   license: Unknown license
 *   implementation-type: interpreter
 *   host-language: C99
 
@@ -1138,7 +1163,7 @@ operator).
 *   computational-class: Turing-complete
 *   influences: Spoon
 *   paradigms: Imperative
-*   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
 
 Sample program:
@@ -1375,6 +1400,37 @@ only appear inside data structures.
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Zame
+
+*   type: Programming Language
+*   inception-date: Jan 2009
+*   genre: Esolang
+*   variant-of: [Etcha][]
+*   paradigms: Maze-space-rewriting (kind of)
+*   sample program: 
+
+        #########
+        # #     #
+        # # # ###
+        #   #   #
+        ### # # #
+        #   # # #
+        #########
+
+
+Zame is an automaton which uses the solution of a maze to
+generate an [Etcha][] program which draws a new maze, then
+the process repeats.  An open question is to find a maze for which
+this process repeats indefinitely.
+
+Where it stands relative to other models of computation is, therefore,
+not well understood.
+
+Information on this language is only available on the Esowiki for now:
+[Zame](http://esolangs.org/wiki/Zame).
+
+This is actually a language family.
+
 ### Unlikely
 
 *   type: Programming Language
@@ -1423,7 +1479,7 @@ class *must* be specified when the object is instantiated.
 
 *   license: BSD license
 *   implementation-type: static analyzer
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Pixley
 
@@ -1447,30 +1503,17 @@ Pixley is written in 124 lines of Pixley (or, if you prefer, 124 lines of
 Scheme; and if you prefer more Scheme-ly metrics, it consists of 413
 instances of 54 unique symbols in 684 cons cells.)
 
-#### Reference Implementation: pixley.pifx
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: Pifxley
-
-#### Reference Implementation: mignon
-
-*   license: BSD license
-*   implementation-type: interpreter
-*   host-language: [ANSI C][]
-
 #### Reference Implementation: pixley.pix
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Pixley][]
 
-#### Reference Implementation: p-normal.pix
+#### Implementation: mignon
 
 *   license: BSD license
-*   implementation-type: compiler
-*   host-language: [Pixley][]
-*   target-language: P-Normal Pixley
+*   implementation-type: interpreter
+*   host-language: [ANSI C][]
 
 #### Reference Implementation: haney
 
@@ -1485,26 +1528,41 @@ instances of 54 unique symbols in 684 cons cells.)
 *   host-language: [Javascript][]
 *   host-platform: [HTML5][]
 
+#### Implementation: pixley.pifx
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: [Pifxley][]
+
+#### Reference Implementation: p-normal.pix
+
+*   license: BSD license
+*   implementation-type: compiler
+*   host-language: [Pixley][]
+*   target-language: [P-Normal Pixley][]
+
 ### Crabwell
 
 *   type: Programming Language
 *   genre: Esolang
 
-Variant of [Pixley][], description TK.
+Crabwell is a dialect of [Pixley][] which allows values to be bound to, not just symbols, but
+arbitrary S-expressions.
 
-#### P-Normal Pixley
-
-*   type: Programming Language
-*   genre: Esolang
-
-Variant of [Pixley][], description TK.
-
-#### Pifxley
+### P-Normal Pixley
 
 *   type: Programming Language
 *   genre: Esolang
 
-Variant of [Pixley][], description TK.
+P-Normal Pixley is a simplified version of [Pixley][] where `let*` can only bind one identifer
+to one value and `cond` can only make one test, like Scheme's `if`.
+
+### Pifxley
+
+*   type: Programming Language
+*   genre: Esolang
+
+Pifxley is a dialect of [Pixley][] which supports an `if` construct instead of `cond`.
 
 ### Dieter
 
@@ -1542,7 +1600,7 @@ safety and optimization considerations.
 
 *   license: BSD license
 *   implementation-type: typechecker
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Etcha
 
@@ -1624,7 +1682,7 @@ a memory location to mark the beginning or end of a loop or conditional.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Whothm
 
@@ -1712,7 +1770,7 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 
 *   license: BSD license
 *   implementation-type: compiler
-*   host-language: Python
+*   host-language: [Python][]
 *   target-language: [ANSI C][]
 
 ### Oozlybub and Murphy
@@ -1835,7 +1893,7 @@ before being adjoined to existing rooms, but rooms are otherwise immutable.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Kelxquoia
 
@@ -2006,7 +2064,7 @@ while it was being developed, against the spec.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Flobnar
 
@@ -2087,6 +2145,35 @@ are supported.  Induction in a proof must be across a structure which
 has a well-founded inductive definition.  Such structures can be thought
 of as types, although this is largely nominal; the traditional typelessness
 of term-rewiting systems is largely retained.
+
+### Robin
+
+*   type: Programming Language
+*   inception-date: 2011
+*   genre: Production language
+*   development-stage: unfinished
+*   paradigms: Functional
+*   reference-distribution: [Robin distribution](http://catseye.tc/distribution/Robin_distribution)
+
+Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
+One distinctive feature of it is that it has an extremely small core semantics,
+to the point where even closures are defined in terms of macros.
+Another distinctive feature is that it is heavily resource-oriented; almost
+everything, including concurrent processes, is (or should be) a virtual device
+which must be acquired from a central resource arbiter.  This arbiter may
+satisfy the constraints you specify when requesting a device any way it sees
+fit; so the operating environment has potentially a lot of influence over
+exactly what your program does.
+
+The essential ideas date from back to shortly after Pixley was released.
+
+#### Reference Implementation: Robin.lhs
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
+There are actually 2 implementations, and they have different design goals.
 
 ### Troupe
 
@@ -2171,7 +2258,7 @@ expressing the primitive recursive functions.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Cfluviurrh
 
@@ -2249,7 +2336,7 @@ the language's vicious, erratic nature.
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### SICKBAY
 
@@ -2282,7 +2369,7 @@ of that.)
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 ### Carriage
 
@@ -2311,6 +2398,89 @@ thus may overlap — and was released as an esolang.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
+
+### Castile
+
+*   type: Programming Language
+*   inception-date: Nov 21, 2012
+*   genre: Experimental language
+*   development-stage: unfinished
+*   computational-class: believed Turing-complete
+*   influences: Eightebed, Rust
+*   paradigms: Imperative, Functional
+*   etymology: soap
+*   reference-distribution: [Castile distribution](http://catseye.tc/distribution/Castile_distribution)
+*   sample program: 
+
+        fun foo(a, b: integer|string) {
+          r = a;
+          typecase b is integer {
+            r = r + b;
+          };
+          typecase b is string {
+            r = r + len(b);
+          };
+          r
+        }
+        main = fun() {
+          a = foo(a, 333 as integer|string);
+          a = foo(a, "hiya" as integer|string);
+          a /* should output 337 */
+        }
+
+Castile is an unremarkable programming language which exists mainly
+because an unremarkable evaluator/compiler for it was written.  It is
+a bit like [ANSI C][] except with proper union types (and no typecasts.)  Local
+variables are mutable, but arguments and globals aren't.  The compiler
+supports several backends, including [Javascript][] and [Ruby][].
+
+#### Reference Implementation: castile.py
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Python][]
+
+Also it's a compiler to Javascript, Ruby, stackmac, almost C...
+
+### Tamsin
+
+*   type: Programming Language
+*   inception-date: Apr 2014
+*   genre: Experimental language
+*   development-stage: unfinished
+*   paradigms: Functional, Logic programming, Metalanguage
+*   etymology: feminine given name
+*   reference-distribution: [Tamsin distribution](http://catseye.tc/distribution/Tamsin_distribution)
+*   sample program: 
+
+        main = expr0 → E & walk(E).
+        expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
+        expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
+        term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
+        walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
+        walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
+        walk(X) = return ' '+X.
+
+Tamsin is an oddball little language that can't decide if it's a
+meta-language, a programming language, or a [rubbish lister](/node/Perl).
+Its primary goal is to allow the rapid development of parsers,
+static analyzers, interpreters, and compilers, and to allow them
+to be expressed *compactly*.
+
+#### Reference Implementation: tamsin.py
+
+*   license: BSD license
+*   host-language: [Python][]
+*   implementation-type: interpreter
+
+Kind of compiles, too.
+
+#### Implementation: tamsin.tamsin
+
+*   license: BSD license
+*   host-language: Tamsin
+*   implementation-type: compiler
+*   target-language: C99
 
 ### Yolk
 
@@ -2353,7 +2523,7 @@ calculus) with a tiny meta-circular interpreter.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Python
+*   host-language: [Python][]
 
 #### Reference Implementation: yolk.yolk
 
@@ -2500,6 +2670,93 @@ Maxixe is a simple proof-checking language.  Given a proof written out fully and
 explicitly (including all rules of inference), a computer can check if it is valid
 or not.
 
+Works in Progress
+-----------------
+
+*   common development-stage: work in progress
+
+Languages that are still considered works-in-progress at Cat's Eye Technologies.
+Many of these are overdue for being "graduated" to being merely considered "done with".
+
+For languages where no significant work has even ever been started, see
+[LoUIE](LoUIE.md), instead.
+
+### Deturgenchry
+
+*   type: Programming Language
+*   inception-date: 2011
+*   genre: Esolang
+*   paradigms: Object-oriented, Continuation-passing
+*   etymology: neologism
+*   reference-distribution: [Deturgenchry distribution](http://catseye.tc/distribution/Deturgenchry_distribution)
+
+Deturgenchry is an object-oriented language with both `self` and `other`,
+and each of these is a continuation (or something.)
+
+#### Reference Implementation: Deturgenchry.hs
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
+### Pophery
+
+*   type: Programming Language
+*   inception-date: 2010
+*   genre: Esolang
+*   paradigms: Imperative, String-rewriting
+*   etymology: mangling of Porphyry
+*   reference-distribution: [Pophery distribution](http://catseye.tc/distribution/Pophery_distribution)
+
+Pophery is an imperative string-rewriting language.  I know right?
+
+#### Reference Implementation: pophery.py
+
+*    license: Unknown license
+*    implementation-type: interpreter
+*    host-language: [Python][]
+
+### SixtyPical
+
+*   type: Programming Language
+*   inception-date: Apr 2014
+*   genre: Machine language
+*   paradigms: Imperative
+*   etymology: portmanteau
+*   reference-distribution: SixtyPical distribution
+*   sample program: 
+
+        byte table screen @ 1024
+        routine main
+          trashes a, x, z, n, screen
+        {
+            ld x, 0
+            ld a, 83    // 83 = screen code for heart
+            repeat {
+                st a, screen + x
+                inc x
+            } until z
+        }
+
+SixtyPical is a very low-level programming language, similar to 6502
+assembly, which defines a set of static analyses via type-checking and
+abstract interpretation (liveness analysis of variables, i.e. memory
+locations.)
+
+#### Reference Implementation: sixtypical (Python)
+
+*   license: BSD license
+*   host-language: [Python][]
+*   implementation-type: compiler
+*   target-language: 6502 machine code
+
+#### Implementation: sixtypical (Haskell)
+
+*   license: BSD license
+*   host-language: [Haskell][]
+*   implementation-type: compiler
+*   target-language: Ophis Assembler
+
 - - - -
 
 [1L]: http://esolangs.org/wiki/1L
@@ -2513,7 +2770,7 @@ or not.
 [Befunge-98]: ../article/Languages.md#befunge-98
 [Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
-[C++]: TBD
+[C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Chris Pressey]: TBD
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
@@ -2530,6 +2787,8 @@ or not.
 [Lua]: http://www.lua.org/
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
+[Pifxley]: ../article/Languages.md#pifxley
+[P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
 [RUBE]: ../article/Automata.md#rube
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
@@ -2538,12 +2797,12 @@ or not.
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
-[Turing-complete]: TBD
+[Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Unefunge-98]: ../article/Languages.md#unefunge-98
 [Var'aq]: http://esolangs.org/wiki/Var'aq
 [Wierd]: ../article/Languages.md#wierd
-[Wierd (John Colagioia)]: TBD
-[Wierd (Milo van Handel)]: TBD
+[Wierd (John Colagioia)]: ../article/Languages.md#wierd
+[Wierd (Milo van Handel)]: ../article/Languages.md#wierd
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: http://clc-wiki.net/wiki/C89
@@ -2562,4 +2821,9 @@ or not.
 [Illberon]: ../article/Languages.md#illberon
 [Befunge]: ../article/Languages.md#befunge-93
 [Jaccia]: ../article/Automata.md#jaccia
+[Bhuna]: ../article/Languages.md#bhuna
+[PicoLisp]: https://picolisp.com/wiki/?home
+[Python]: http://www.python.org/
+[Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+[The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 
