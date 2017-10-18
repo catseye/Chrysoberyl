@@ -67,7 +67,6 @@ the first full implementation of that language.
 *   host language: [Erlang][]
 *   inception date: May 5, 2003
 *   in distribution: [pibfi distribution](/distribution/pibfi distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 In contrast to all the ultra-minimal Brainfuck interpreters and
 compilers out there, I figured I should write a monster: the Platonic Ideal BrainFuck Interpreter.
@@ -370,10 +369,16 @@ Fork began Feb 1, 2012.
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
 [ANSI C]: http://clc-wiki.net/wiki/C89
+[C99]: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
 [Perl]: http://www.perl.org/
 [Erlang]: http://www.erlang.org/
 [Haskell]: http://www.haskell.org/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Wireworld]: http://en.wikipedia.org/wiki/Wireworld
+[ALPACA]: ../article/Languages.md#alpaca
+[Scheme]: http://schemers.org/Documents/Standards/R5RS/
+[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[Zz]: http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html
+[Zzrk]: ../article/Games.md#zzrk
 
