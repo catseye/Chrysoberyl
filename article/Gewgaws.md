@@ -479,7 +479,7 @@ An animated mathematical function, depicted in four different ways.
 
 ### Tentacles, Undamped
 
-![preview](http://static.catseye.tc/images/screenshots/Radialjective.jpg)
+![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
 
 *   inception date: ca Feb 2014
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
@@ -487,12 +487,10 @@ An animated mathematical function, depicted in four different ways.
 *   online @ [catseye.tc](http://catseye.tc/installation/Tentacles, Undamped)
 
 A simulation of undulating tentacles.  It starts off alright, but
-soon starts doing things real tentacles never do, because they have
+soon starts doing things real tentacles never do, because real tentacles have
 damping.
 
 ### Text Uniquifier
-
-![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
 
 *   inception date: Nov 2014
 *   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
