@@ -1,5 +1,26 @@
 # encoding: UTF-8
 
+C64 Demo Depot: 
+  type: Distribution
+  github: catseye/C64-Demo-Depot
+  releases:
+  - version: "1.1"
+    revision: "2012.0826"
+    url: http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0826.zip
+  - version: "1.1"
+    revision: "2012.0828"
+    url: http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0828.zip
+
+HTML5 Gewgaws distribution: 
+  type: Distribution
+  github: catseye/HTML5-Gewgaws
+  fixed-tag: 152856c
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/html5-gewgaws-0.1.zip
+
+
 Electronics Projects distribution: 
   type: Distribution
   github: catseye/Electronics-Projects
@@ -114,3 +135,55 @@ yoob.js distribution:
   - version: "0.4"
     revision: "0.0"
     url: http://catseye.tc/distfiles/the-platform-0.4.zip
+
+
+Ribos distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2007.0410"
+    url: http://catseye.tc/distfiles/ribos-2007.0410.zip
+  - version: "1.1"
+    revision: "2010.0430"
+    url: http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip
+
+
+The PETulant Cursor distribution: 
+  type: Distribution
+  discontinued: true
+  releases: 
+  - version: "1.0"
+    revision: "2008.0401"
+    url: http://catseye.tc/distfiles/petulant-2008.0401.zip
+
+
+Canvas Feedback distribution: 
+  type: Distribution
+  github: catseye/Canvas-Feedback
+  tag-style: new
+  releases:
+  - version: "1.0"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.0.zip
+  - version: "1.0"
+    revision: "2015.0826"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip
+  - version: "1.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/canvas-feedback-1.1.zip
+
+Lexeduct distribution: 
+  type: Distribution
+  github: catseye/Lexeduct
+  tag-style: new
+  releases:
+  - version: "0.1"
+    revision: "0.0"
+    url: http://catseye.tc/distfiles/lexeduct-0.1.zip
+  - version: "0.1"
+    revision: "2016.0315"
+    url: http://catseye.tc/distfiles/lexeduct-0.1-2016.0315.zip
+  - version: "0.1"
+    revision: "2017.0502"
+    url: http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip

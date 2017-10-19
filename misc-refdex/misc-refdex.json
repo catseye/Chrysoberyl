@@ -214,6 +214,9 @@
     "Game": {
         "url": "http://catseye.tc/article/Games"
     },
+    "Gewgaw": {
+        "url": "http://catseye.tc/article/Gewgaws"
+    },
     "Text": {
         "url": "http://catseye.tc/article/Texts"
     },
@@ -487,6 +490,100 @@
     },
 
 
+    "a-non-random-walk.js": {
+        "anchor": "a-non-random-walk", 
+        "filename": "article/Gewgaws.md"
+    },
+    "fingerspelling.js": {
+        "anchor": "fingerspelling", 
+        "filename": "article/Gewgaws.md"
+    },
+    "markov-font.js": {
+        "anchor": "markov-font", 
+        "filename": "article/Gewgaws.md"
+    },
+    "woman-on-film.js": {
+        "anchor": "woman-on-film", 
+        "filename": "article/Gewgaws.md"
+    },
+    "radialjective.js": {
+        "anchor": "radialjective", 
+        "filename": "article/Gewgaws.md"
+    },
+    "hypongtrochoid.js": {
+        "anchor": "hypongtrochoid", 
+        "filename": "article/Gewgaws.md"
+    },
+    "hirsute-miasma.js": {
+        "anchor": "hirsute-miasma", 
+        "filename": "article/Gewgaws.md"
+    },
+    "a-minimalist-critique.js": {
+        "anchor": "a-minimalist-critique-of-tetris", 
+        "filename": "article/Gewgaws.md"
+    },
+    "multicolouralism.js": {
+        "anchor": "multicolouralism", 
+        "filename": "article/Gewgaws.md"
+    },
+    "the-judgment-of-paris.js": {
+        "anchor": "the-judgment-of-paris", 
+        "filename": "article/Gewgaws.md"
+    },
+    "uncle-ankur.js": {
+        "anchor": "uncle-ankur", 
+        "filename": "article/Gewgaws.md"
+    },
+    "tentacles-undamped.js": {
+        "anchor": "tentacles-undamped", 
+        "filename": "article/Gewgaws.md"
+    },
+    "black-hole-poem.js": {
+        "anchor": "black-hole-poem", 
+        "filename": "article/Gewgaws.md"
+    },
+    "art-restoration-simulator.js": {
+        "anchor": "art-restoration-simulator", 
+        "filename": "article/Gewgaws.md"
+    },
+    "the-frame.js": {
+        "anchor": "the-frame", 
+        "filename": "article/Gewgaws.md"
+    },
+    "two-fifty-six.js": {
+        "anchor": "two-fifty-six", 
+        "filename": "article/Gewgaws.md"
+    },
+    "eine-kleine-glitchfraktal.js": {
+        "anchor": "eine-kleine-glitchfraktal", 
+        "filename": "article/Gewgaws.md"
+    },
+    "circus-xamulus.js": {
+        "anchor": "circus-xamulus", 
+        "filename": "article/Gewgaws.md"
+    },
+    "noise-to-signal-1.js": {
+        "anchor": "noise-to-signal-1", 
+        "filename": "article/Gewgaws.md"
+    },
+    "prairie.js": {
+        "anchor": "prairie", 
+        "filename": "article/Gewgaws.md"
+    },
+    "fibonacci-spiral.js": {
+        "anchor": "fibonacci-spiral", 
+        "filename": "article/Gewgaws.md"
+    },
+    "heronsis-hermnonicii.js": {
+        "anchor": "heronsis-hermnonicii", 
+        "filename": "article/Gewgaws.md"
+    },
+    "progression.js": {
+        "anchor": "progression", 
+        "filename": "article/Gewgaws.md"
+    },
+
+
     "chzrxl.js": {
         "anchor": "chzrxl", 
         "filename": "article/Automata.md"
@@ -494,6 +591,22 @@
     "cyclobots.js": {
         "anchor": "cyclobots", 
         "filename": "article/Automata.md"
+    },
+    "PleaOfThunder.java": {
+        "anchor": "plea-of-thunder", 
+        "filename": "article/Tools.md"
+    },
+    "lexeduct-browser.js": {
+        "anchor": "lexeduct", 
+        "filename": "article/Gewgaws.md"
+    },
+    "canvas-feedback.js": {
+        "anchor": "canvas-feedback", 
+        "filename": "article/Gewgaws.md"
+    },
+    "text-uniquifier.js": {
+        "anchor": "text-uniquifier", 
+        "filename": "article/Gewgaws.md"
     },
 
 

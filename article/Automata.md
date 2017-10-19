@@ -55,7 +55,7 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   type: Automaton
 *   inception-date: ca 1994
 *   genre: Desk toy
-*   reference-distribution: [???](/distribution/???)
+*   reference-distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
 
 Also
@@ -435,7 +435,7 @@ Jacciata is a variant of [Jaccia][] which finds the shortest path.
 *   type: Automaton
 *   inception-date: 2013
 *   genre: Desk toy
-*   reference-distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference-distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
 
 Also
@@ -444,17 +444,6 @@ Also
 
 "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
 lava lamp?
-
-Instructions:
-
-The original idea was this: each ball travels on a
-sine-wave path (kind of like a spring) between a randomly-chosen
-pair of two other balls.
-
-It was soon discovered that if all balls are free to move like this,
-they all quickly collapse to a single point.  Thus, some number of
-balls are held fixed (5% by default).  The result is a slightly
-organic-seeming emergent motion.
 
 #### Reference Implementation: chzrxl.js
 
