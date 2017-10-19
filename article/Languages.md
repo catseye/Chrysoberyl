@@ -2768,7 +2768,7 @@ locations.)
 [Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
-[Chris Pressey]: TBD
+[Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards]: TBD
