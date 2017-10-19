@@ -6,9 +6,8 @@ auspices of Cat's Eye Technologies.
 
 Most of these languages are programming languages, or at least "computer languages" of
 some kind, although some of them have not been implemented on a computer (or may even
-be unimplementable on a computer), and at least one of them is a conlang.
-
-Many of them are esolangs (TODO: link to something that explains esolangs well here.)
+be unimplementable on a computer), and at least one of them is a conlang.  Many of
+them are [esolangs][].
 
 Unfortunately the distinctions between a Language, a [Format](Formats.md), and an
 [Automaton](Automata.md) are not always cut-and-dried so you might want to see those
@@ -2823,4 +2822,5 @@ locations.)
 [Python]: http://www.python.org/
 [Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
 [The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
+[esolangs]: ../article/General Information.md#esolang
 

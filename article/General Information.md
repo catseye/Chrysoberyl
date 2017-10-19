@@ -59,6 +59,36 @@ Links:
 -   [Chris Pressey's Favourite Text Adventures][]
 -   [Chris Pressey's Favourite Other Computer Games][]
 
+### Esolang
+
+While there is no hard and fast definition, an esoteric programming
+language, or "esolang", is a programming language intended to entertain,
+confuse, and otherwise blow your puny little mind. If that sometimes
+means butchering the definition of "[programming language][]"... then so be it.
+
+Esolangs are toy languages, if by "toy" you mean something like
+["Mainway product"](http://snltranscripts.jt.org/76/76jconsumerprobe.phtml).
+
+Esolangs are joke languages, if by "joke" you mean something like
+["Beethoven scherzo."](http://en.wikipedia.org/wiki/Scherzo)
+
+Esolangs are research languages, if by "research" you mean something
+like ["Fear and Loathing in Las Vegas."](http://www.youtube.com/watch?v=Zm7r491n-8o)
+
+A comprehensive repository of information on esolangs can be found at the
+[Esolang Wiki](http://www.esolangs.org/wiki/Main_Page).
+
+Some eminent esolangers include:
+
+*   Ben Olmstead, who Chris Pressey met once.
+*   [zzo38](http://esoteric.voxelperfect.net/wiki/User:Zzo38), who is the only esolanger I know who has [an entry in Urban Dictionary](https://www.urbandictionary.com/define.php?term=zzo38).
+*   Gerzon Kurz, whose website is [p-nand-q.com](http://www.p-nand-q.com/).
+*   Jeffry Johnston, whose website used to be kidsquid.99k.org.
+*   Keymaker, whose website is [yes, it's a program](http://yiap.nfshost.com/).
+*   many, many others.  See [esolangs.org](http://www.esolangs.org/wiki/Main_Page).
+
+For good measure, here is a classic esolang page: [The Turing Tarpit](http://www.reocities.com/ResearchTriangle/Station/2266/tarpit/tarpit.html).
+
 ### catseye.tc
 
 `catseye.tc` is [Cat's Eye Technologies][]' website:
