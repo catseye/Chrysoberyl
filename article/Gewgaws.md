@@ -5,14 +5,15 @@ Gewgaws
 *   common reference implementation license: Public Domain
 *   common reference implementation platform: HTML5
 
-Gewgaws.
+The distinction between a Gewgaw and an [Automaton](Automata.md) is not always clear,
+so you might want to check that article too.
 
 ### A Minimalist Critique of Tetris
 
 ![preview](http://static.catseye.tc/images/screenshots/A_Minimalist_Critique_of_Tetris.jpg)
 
 *   inception date: Mar 2015
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: a-minimalist-critique.js
 *   online @ [catseye.tc](http://catseye.tc/installation/A Minimalist Critique of Tetris)
 
@@ -23,7 +24,7 @@ A minimalist critique of Tetris.
 ![preview](http://static.catseye.tc/images/screenshots/A_Non-Random_Walk.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: a-non-random-walk.js
 *   online @ [catseye.tc](http://catseye.tc/installation/A Non-Random Walk)
 
@@ -35,7 +36,7 @@ _Mathematical Circus_ by Martin Gardner.
 ![preview](http://static.catseye.tc/images/screenshots/Art_Restoration_Simulator.jpg)
 
 *   inception date: May 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: art-restoration-simulator.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Art Restoration Simulator)
 
@@ -47,7 +48,7 @@ of the fascinating world of art restoration.
 ![preview](http://static.catseye.tc/images/screenshots/Black_Hole_Poem.jpg)
 
 *   inception date: Jan 2015
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: black-hole-poem.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Black Hole Poem)
 
@@ -58,7 +59,7 @@ An interactive concrete poem about black holes.
 ![preview](http://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: canvas-feedback.js
 *   reference implementation license: MIT license
 *   online @ [catseye.tc](http://catseye.tc/installation/Canvas Feedback)
@@ -72,70 +73,23 @@ of how it works, see
 *   implementation name: Canvas Feedback 1K
 *   implementation license: MIT license
 
-### Chzrxl
-
-![preview](http://static.catseye.tc/images/screenshots/Chzrxl.jpg)
-
-*   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
-*   reference implementation name: chzrxl.js
-*   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
-
-"Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
-lava lamp?
-
 ### Circus Xamulus
 
 ![preview](http://static.catseye.tc/images/screenshots/Circus_Xamulus.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: circus-xamulus.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Circus Xamulus)
 
 A circle-based time-lapse space-filler.
-
-### Cyclobots
-
-![preview](http://static.catseye.tc/images/screenshots/Cyclobots.jpg)
-
-*   inception date: ca 1994
-*   reference distribution: [???](/distribution/???)
-*   reference implementation name: cyclobots.js
-*   reference implementation license: Freely Redistributable
-*   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
-
-Cyclobots is an automaton that consists of a number of little virtual
-"turtle robots" called "cyclobots".  Each cyclobot moves with a constant
-velocity, and tries to follow exactly one other cyclobot, adjusting
-its heading to point towards the cyclobot it is following.
-No cylobot is followed by more than one cyclobot.
-
-A group of cyclobots tends to fall into one of several semi-stable
-patterns.  The simplest of these is just a rotating circle, but
-more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
-patterns are more common.
-
-*   implementation name: Cyclobots (Visual Basic)
-*   implementation license: Freely Redistributable
-*   implementation language: Visual Basic
-*   implementation platform: Windows 3.1
-
-I originally conceived of this automaton, calling it
-an "interactive desktop toy", in or around 1994, and implemented
-it immediately in Visual Basic.  I remember the year because I wrote the
-first implementation of [SMETANA][] in Visual Basic at about the same time.
-
-The original implementation had a few features which are not present (yet)
-in the HTML5 version: cyclobots could collide with each other, and the user
-could use the mouse to attract/repel them from a chosen point.
 
 ### Eine kleine Glitchfraktal
 
 ![preview](http://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: eine-kleine-glitchfraktal.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Eine kleine Glitchfraktal)
 
@@ -147,7 +101,7 @@ with colour variance and configurable glitching.
 ![preview](http://static.catseye.tc/images/screenshots/Fibonacci_Spiral.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: fibonacci-spiral.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Fibonacci Spiral)
 
@@ -158,7 +112,7 @@ A spiral made up of semicircles with proportions in the Fibonacci sequence.
 ![preview](http://static.catseye.tc/images/screenshots/Fingerspelling.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: fingerspelling.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Fingerspelling)
 
@@ -173,7 +127,7 @@ This is most certainly a gewgaw.  It should provide you about
 ![preview](http://static.catseye.tc/images/screenshots/Heronsis_hermnonicii.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: heronsis-hermnonicii.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Heronsis hermnonicii)
 
@@ -197,7 +151,7 @@ Plus it's fun to click on the red balls.
 ![preview](http://static.catseye.tc/images/screenshots/Hirsute_Miasma.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: hirsute-miasma.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Hirsute Miasma)
 
@@ -209,7 +163,7 @@ and their shower drains.
 ![preview](http://static.catseye.tc/images/screenshots/Hypongtrochoid.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: hypongtrochoid.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Hypongtrochoid)
 
@@ -233,7 +187,7 @@ real-time.  Can also be used on the command-line.
 ### Markov Font
 
 *   inception date: Apr 2016
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: markov-font.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Markov Font)
 
@@ -244,7 +198,7 @@ Uses a 2D Markov chain to generate new glyphs from a character set.
 ![preview](http://static.catseye.tc/images/screenshots/Multicolouralism.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: multicolouralism.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Multicolouralism)
 
@@ -255,7 +209,7 @@ Animated op art: an interactive bleeding of colours.
 ![preview](http://static.catseye.tc/images/screenshots/Noise_to_Signal_No._1.jpg)
 
 *   inception date: Apr 2015
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: noise-to-signal-1.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Noise to Signal No. 1)
 
@@ -266,7 +220,7 @@ A generated animation involving randomness and not-so-much randomness.
 ![preview](http://static.catseye.tc/images/screenshots/Prairie.jpg)
 
 *   inception date: 2012
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: prairie.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Prairie)
 
@@ -282,7 +236,7 @@ of a grain elevator taken from Wikimedia.
 ![preview](http://static.catseye.tc/images/screenshots/Progression.jpg)
 
 *   inception date: 2012
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: progression.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Progression)
 
@@ -300,7 +254,7 @@ iterations, but it's very faint thereafter.
 ![preview](http://static.catseye.tc/images/screenshots/Radialjective.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: radialjective.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Radialjective)
 
@@ -311,7 +265,7 @@ An animated mathematical function, depicted in four different ways.
 ![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
 
 *   inception date: ca Feb 2014
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: tentacles-undamped.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Tentacles, Undamped)
 
@@ -322,7 +276,7 @@ damping.
 ### Text Uniquifier
 
 *   inception date: Nov 2014
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: text-uniquifier.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Text Uniquifier)
 
@@ -334,7 +288,7 @@ the text with repeated words removed.
 ![preview](http://static.catseye.tc/images/screenshots/The_Frame.jpg)
 
 *   inception date: 2012
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: the-frame.js
 *   online @ [catseye.tc](http://catseye.tc/installation/The Frame)
 
@@ -350,7 +304,7 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 ![preview](http://static.catseye.tc/images/screenshots/The_Judgment_of_Paris.jpg)
 
 *   inception date: 2014
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: the-judgment-of-paris.js
 *   online @ [catseye.tc](http://catseye.tc/installation/The Judgment of Paris)
 
@@ -362,7 +316,7 @@ A slight reworking of a well-known
 ![preview](http://static.catseye.tc/images/screenshots/Two_Fifty_Six.jpg)
 
 *   inception date: May 2015
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: two-fifty-six.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Two Fifty Six)
 
@@ -375,7 +329,7 @@ assignments of colours to digits.
 ![preview](http://static.catseye.tc/images/screenshots/Uncle_Ankur.jpg)
 
 *   inception date: 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: uncle-ankur.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Uncle Ankur)
 
@@ -387,7 +341,7 @@ randomly-constructed transformation matrices.
 ![preview](http://static.catseye.tc/images/screenshots/Woman_on_Film.jpg)
 
 *   inception date: ca Apr 2013
-*   reference distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution)
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: woman-on-film.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Woman on Film)
 

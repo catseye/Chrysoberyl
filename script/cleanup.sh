@@ -10,6 +10,7 @@ ARTICLES="
     article/Retrocomputing.md
     article/Texts.md
     article/Tools.md
+    article/Platforms.md
     article/Formats.md
     article/Archived.md
     article/Languages.md
