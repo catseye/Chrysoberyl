@@ -17,17 +17,13 @@ Online Installation:
     **[[Gewgaw]], [[Game]], Musical Composition, Picture, [[Text]],**
     **[[Tool]], Electronics Project,** or **[[Retrocomputing]]**.
 
-Computational Class:
+Website:
   type: type
 Genre:
   type: type
 Individual:
   type: type
 Organization:
-  type: type
-Competition:
-  type: type
-Website:
   type: type
 Collection:
   type: type
@@ -47,10 +43,6 @@ Implementation:
     [[Text|texts]], and so forth.
     For a more fine-grained breakdown, see those individual categories.
 Implementation Type:
-  type: type
-Development Stage:
-  type: type
-License:
   type: type
 
 # distributions:
