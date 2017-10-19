@@ -5,8 +5,18 @@ Gewgaws
 *   common reference implementation license: Public Domain
 *   common reference implementation platform: HTML5
 
-The distinction between a Gewgaw and an [Automaton](Automata.md) is not always clear,
-so you might want to check that article too.
+In [Chrysoberyl][] parlance, a _gewgaw_ is the digital version of a
+bagatelle (music) or a doodle (visual art).  It almost always involves
+visuals (usually animated), sometimes audio, and occasionally interaction.
+
+A gewgaw need not be implemented in [HTML5][], but many of
+[Cat's Eye Technologies][]' gewgaws are, and you can can experience
+them here, online, right in your web browser.
+
+Note that the distinctions between a Gewgaw and an [Automaton](Automata.md)
+or even a [Game](Games.md) are not always clear, and entries here may be
+categorized somewhat arbitrarily, and you might want to check those articles
+too.
 
 ### A Minimalist Critique of Tetris
 
@@ -354,4 +364,6 @@ a still from a film.
 [HTML5]: https://www.w3.org/TR/html5/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [SMETANA]: ../article/Automata.md#smetana
+[Chrysoberyl]: http://catseye.tc/node/Chrysoberyl
+[Cat's Eye Technologies]: http://catseye.tc/
 
