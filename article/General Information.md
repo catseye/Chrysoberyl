@@ -89,6 +89,17 @@ Some eminent esolangers include:
 
 For good measure, here is a classic esolang page: [The Turing Tarpit](http://www.reocities.com/ResearchTriangle/Station/2266/tarpit/tarpit.html).
 
+It is somewhat interesting to see how the [Open Source
+Definition](http://www.opensource.org/docs/definition.php) views
+esolangs. Programs written in esolangs tend to be "deliberately
+obfuscated", and thus "not allowed." On the other hand, this is also
+presumably "the preferred form in which a programmer would modify the
+program." So it's debatable whether these programs can be [OSI
+Certified](http://www.opensource.org/docs/certification_mark.php) or
+not. (In practice, though, almost all esolang implementations, and
+programs written in esolangs, are freely redistributable if not formally
+open-source or Public Domain.)
+
 ### catseye.tc
 
 `catseye.tc` is [Cat's Eye Technologies][]' website:
