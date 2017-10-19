@@ -14,23 +14,6 @@ Online Installation:
     **[[Gewgaw]], [[Game]], Musical Composition, Picture, [[Text]],**
     **[[Tool]], Electronics Project,** or **[[Retrocomputing]]**.
 
-# implementations:
-Implementation:
-  type: type
-  description: |
-    This is a list of implementations with entries in [[Chrysoberyl]].
-    
-    These are implementations of *all* kinds of things:
-    programming languages,
-    [[Platform|platforms]],
-    [[Library|libraries]],
-    [[Tool|tools]],
-    [[Game|games]],
-    [[Text|texts]], and so forth.
-    For a more fine-grained breakdown, see those individual categories.
-Implementation Type:
-  type: type
-
 # distributions:
 Distribution:
   type: type
