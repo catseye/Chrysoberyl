@@ -31,9 +31,6 @@ You may also be interested in reading about
 [what it was like to design these](https://github.com/catseye/The-Dossier/#programming-languages)
 or [the ones that got away](LoUIE.md).
 
-Languages I've Designed
------------------------
-
 ### Full Moon Fever
 
 *   type: Programming Language

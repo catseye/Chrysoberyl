@@ -1,29 +1,30 @@
 #!/bin/sh -x
 
-ARTICLES=../Chrysoberyl/article
+ARTICLES="
+    article/Distribution?Organization.md
+    article/Electronics?Projects.md
+    article/Games.md
+    article/List?of?Unfinished?Interesting?Esolangs.md
+    article/Musical?Compositions.md
+    article/Pictures.md
+    article/Retrocomputing.md
+    article/Texts.md
+    article/Tools.md
+    article/Platforms.md
+    article/Formats.md
+    article/Archived.md
+    article/Languages.md
+    article/Language?Implementations.md
+    article/Automata.md
+    article/Gewgaws.md
+    article/Events.md
+"
 
-feedmark --output-refdex article/*.md >article-refdex.json
+feedmark --output-refdex $ARTICLES >article-refdex.json
 
 REFDEXES=misc-refdex/games-refdex.json,misc-refdex/texts-refdex.json,misc-refdex/retrocomputing-refdex.json,misc-refdex/languages-refdex.json,misc-refdex/misc-refdex.json
 
-feedmark --input-refdexes=$REFDEXES --output-refdex \
-                          "article/Distribution Organization.md" \
-                          "article/Electronics Projects.md" \
-                          "article/Games.md" \
-                          "article/List of Unfinished Interesting Esolangs.md" \
-                          "article/Musical Compositions.md" \
-                          "article/Pictures.md" \
-                          "article/Retrocomputing.md" \
-                          "article/Texts.md" \
-                          "article/Tools.md" \
-                          "article/Formats.md" \
-                          "article/Archived.md" \
-                          "article/Languages.md" \
-                          "article/Language Implementations.md" \
-                          "article/Automata.md" \
-                          "article/Gewgaws.md" \
-                          "article/Events.md" \
-                 >refdex.json
+feedmark --input-refdexes=$REFDEXES $ARTICLES --output-refdex >refdex.json
 
 ## non-lists
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
@@ -100,6 +101,10 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Gewgaw.md" \
          "article/Gewgaws.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         "article/Instructions.md" \
          --rewrite-markdown || exit 1
 
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
