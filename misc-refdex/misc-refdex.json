@@ -159,6 +159,9 @@
         "url": "https://en.wikipedia.org/wiki/Commodore_International"
     }, 
 
+    "BSD license": {
+        "url": "https://en.wikipedia.org/wiki/BSD_licenses"
+    },
 
     "*W": {
         "url": "http://esolangs.org/wiki/*W"
