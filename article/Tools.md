@@ -434,7 +434,7 @@ framework, which is in Java.
 [SITU-MON]: ../article/Tools.md#situ-mon
 [Retrocomputing]: http://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
-[The Platform]: TBD
+[The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
 [Bourne shell]: http://steve-parker.org/sh/bourne.shtml

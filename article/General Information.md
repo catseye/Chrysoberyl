@@ -5,6 +5,8 @@ Welcome to
 
 ### Cat's Eye Technologies
 
+![Ye olde Cat's Eye Technologies "cogs" logo (graphics by Mildmood Wultiwedia)](http://static.catseye.tc/images/logo/cog.gif)
+
 Cat's Eye Technologies is an independent [esoteric programming language][]
 concern run by [Chris Pressey][].
 
@@ -100,6 +102,8 @@ We do use [Javascript][] on the pages on this site, but outside of
 [Gewgaws][], which are steeped in it, we try to use it judiciously.
 
 ### Chrysoberyl
+
+![I Love Categorization](http://static.catseye.tc/images/pictures/Categorization.jpg)
 
 *   reference distribution: [Chrysoberyl distribution](http://catseye.tc/distribution/Chrysoberyl_distribution)
 

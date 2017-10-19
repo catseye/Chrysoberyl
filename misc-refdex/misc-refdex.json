@@ -253,6 +253,9 @@
     "Automaton": {
         "url": "http://catseye.tc/article/Automata"
     }, 
+    "Disambiguation Node": {
+        "url": "http://catseye.tc/article/General Information.md"
+    }, 
 
 
     "Book": {
@@ -623,6 +626,26 @@
     },
 
 
+    "NaNoGenMo": {
+        "anchor": "nanogenmo-2013",
+        "filename": "article/Events.md"
+    },
+    "NaOpGenMo": {
+        "anchor": "naopgenmo-2014",
+        "filename": "article/Events.md"
+    },
+
+
+    "Article": {
+        "anchor": "the-dossier",
+        "filename": "article/General Information.md"
+    },
+
+
+    "The Platform": {
+        "anchor": "the-cats-eye-technologies-platform", 
+        "filename": "article/Platforms.md"
+    },
     "tc.catseye.yoob": {
         "anchor": "yoob", 
         "filename": "article/Archived.md"
