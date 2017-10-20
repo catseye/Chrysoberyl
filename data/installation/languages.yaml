@@ -22,31 +22,6 @@ Backtracking Wang Tiler:
   javascript-urls:
   - src/backtracking-wang-tiler.js
 
-'BefOS':
-  type: Online Installation
-  installation-of: BefOS (NASM)
-  interactive: true
-  animated: true
-  mediums:
-  - x86 machine code
-  - v86
-  - HTML5
-  description: |
-    This is an HTML5 installation of [[BefOS]], a Befunge-themed operating
-    system which is neither Befunge, nor an operating system.  (Discuss.)
-    It runs on a web page thanks to the
-    [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
-  instructions: |
-    The system is delivered on a 1.44M floppy image, which contains the
-    BefOS boot block, kernal, and the handful of sample pages which are
-    included in the default build.
-    
-    If v86 doesn't work in your browser, you can
-    [download the disk image](http://catseye.tc/distfiles/befos-0.10.img)
-    and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
-    or, wonder of wonders, a real IBM PC compatible — if you can write it onto
-    a floppy disk somehow...
-
 'Braktif':
   type: Online Installation
   installation-of: braktif.alp

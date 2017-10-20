@@ -57,3 +57,19 @@ For Games
 *   javascript-module: html5-gewgaws
 *   javascript-urls: cheshire-text/cheshire-text.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+Platforms
+---------
+
+### BefOS
+
+*   installation-of: [BefOS][]
+*   installed-implementation: BefOS (NASM)
+*   interactive: true
+*   animated: true
+*   mediums: [x86 machine code][], [v86][], [HTML5][]
+
+This is an HTML5 installation of [[BefOS]], a Befunge-themed operating
+system which is neither Befunge, nor an operating system.  (Discuss.)
+It runs on a web page thanks to the
+[[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].

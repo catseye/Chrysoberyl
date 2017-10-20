@@ -41,6 +41,21 @@ Detractors and other peasants may satisfy themselves that this is actually a
 game and not just an entirely black gif or something by opening a Javascript
 console and typing `BACKGROUND_COLOR='green'`.
 
+For Platforms
+-------------
+
+### BefOS
+
+The system is delivered on a 1.44M floppy image, which contains the
+BefOS boot block, kernal, and the handful of sample pages which are
+included in the default build.
+
+If v86 doesn't work in your browser, you can
+[download the disk image](http://catseye.tc/distfiles/befos-0.10.img)
+and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
+or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+a floppy disk somehow...
+
 For Automata and Languages
 --------------------------
 
