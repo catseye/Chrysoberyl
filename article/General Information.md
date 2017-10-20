@@ -139,8 +139,8 @@ which consists mostly of [Feedmark][] documents.  These are lovingly
 statically analyzed, and then rendered with Markdown to produce HTML5
 files.
 
-We do use [Javascript][] on the pages on this site, but outside of
-[Gewgaws][], which are steeped in it, we try to use it judiciously.
+We do use [Javascript][] on the pages on this site, but outside of the
+[gewgaws][], which are steeped in it, we try to use it judiciously.
 
 ### Chrysoberyl
 
@@ -177,3 +177,37 @@ its way into Chrysoberyl.
 The Dossier is also oriented towards long-form, opinion-based
 writing, distinct from Chrysoberyl's
 short-and-trying-to-be-unbiased-blurb approach.
+
+- - - -
+
+[esoteric programming language]: #esolang
+[esoteric programming languages]: #esolang
+[programming language]: ../article/Languages.md
+[Chris Pressey]: ../article/General%20Information.md#chris-pressey
+[Chris Pressey's Lingography]: http://catseye.tc/article/Languages
+[LoUIE]: https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
+[Retrospective: Chris Pressey on Language Design]: https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md
+[Chris Pressey's Favourite Video Games]: https://github.com/catseye/The-Dossier/blob/master/article/Video%20Games%20of%20Note.md
+[Chris Pressey's Favourite Text Adventures]: https://github.com/catseye/The-Dossier/blob/master/article/Text%20Adventures%20of%20Note.md
+[Chris Pressey's Favourite Other Computer Games]: https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md
+[GitHub]: https://github.com/catseye/
+[other objectionable constructions]: ../article/Gewgaw.md
+[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
+[Phantom Hoover]: http://esolangs.org/wiki/User:Phantom_Hoover
+[Java]: http://www.oracle.com/technetwork/java/index.html
+[HTML5]: https://www.w3.org/TR/html5/
+[Chrysoberyl]: ../article/General%20Information.md#chrysoberyl
+[Feedmark]: ../article/Formats.md#feedmark
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[brainfuck]: http://esolangs.org/wiki/brainfuck
+[languages]: ../article/Languages.md
+[automata]: ../article/Automata.md
+[formats]: ../article/Formats.md
+[tools]: ../article/Tools.md
+[platforms]: ../article/Platforms.md
+[games]: ../article/Games.md
+[gewgaws]: ../article/Gewgaws.md
+[pictures]: ../article/Pictures.md
+[music]: ../article/Musical%20Compositions.md
+[The Dossier]: ../article/General%20Information.md#the-dossier
+
