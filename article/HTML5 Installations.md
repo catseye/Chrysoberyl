@@ -310,6 +310,22 @@ or create your own.
 Languages
 ---------
 
+### Etcha
+
+*   installation-of: [Etcha][]
+*   installed-implementation: etcha.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+
+This in-browser installation of [Etcha][] is implemented in
+[Javascript][], using [yoob.js][].
+
+Instructions:
+
+Click "Start" to run the supplied example program.  Or click "Edit" to
+modify it, and create your own program.
+
 ### Gemooy
 
 *   installation-of: [Gemooy][]
@@ -323,6 +339,25 @@ This in-browser installation of [Gemooy][] is implemented in
 
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
+
+### Matchbox
+
+*   installation-of: [Matchbox][]
+*   installed-implementation: matchbox.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: matchbox
+*   javascript-urls: src/matchbox-launcher.js
+*   script-root: ../modules/matchbox/src/
+*   launch-config: { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' }
+
+Instructions:
+
+Select an example configuration from the dropdown box, click "Run"
+to run either of the programs individually, or "Find Race Conditions"
+to compute all interleavings of the two programs and look for race
+conditions between them.
 
 ### Pixley
 
@@ -373,6 +408,111 @@ a finite amount of memory available.  In my installation of Firefox,
 for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
+
+### Shelta
+
+*   installation-of: [Shelta][]
+*   installed-implementation: shelta
+*   interactive: true
+*   animated: true
+*   mediums: x86 machine code, FreeDOS, v86, HTML5
+
+This is [Shelta][], a language with a tiny compiler and a
+self-hosted compiler, running under [FreeDOS][] running
+on a web page via the [HTML5][]-based [IBM PC compatible][]
+emulator, [v86][] —  so you can bootstrap it right in your browser.
+
+Instructions:
+
+The system running online on v86 is delivered on a 720K floppy image,
+which contains a minimal bootable FreeDOS install, the Shelta distribution,
+plus various tools such as the `TED3` text editor, and `YASM`.
+License and distribution information is included on the disk image.
+
+You can use the pre-built Shelta compiler (whose source is written in NASM)
+to build the example programs, or to bootstrap the Shelta compiler
+written in Shelta.  See the welcome message, shown after FreeDOS
+boots, for more details.
+
+Documentation for Shelta is also on the disk image, and can be viewed
+with `TYPE` or `EDIT`, but you may find it more convenient to browse
+these files online:
+
+*   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
+*   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
+*   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
+*   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
+
+If v86 doesn't work in your browser, you can
+[download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-2.img)
+and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
+or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+a floppy disk somehow...
+
+### Whothm
+
+*   installation-of: [Whothm][]
+*   installed-implementation: tc.catseye.whothm
+*   interactive: true
+*   animated: false
+*   mediums: Java Web Start, HTML5
+
+[Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
+This installation contains a Java application which implements Whothm, and lets you
+interactively try out Whothm programs online, using Java Web Start. The implementation
+is only an approximation; only a small portion of the infinite drawing (a couple of
+hundred iterations) is rendered.  The rest is left up to your imagination.
+
+Instructions:
+
+Whothm is a simple language for describing infinite shapes. It is
+described fully in the documentation in the [Whothm][] distribution.
+
+Click "Run" or press Alt+R to run the program.  The result is displayed in
+the canvas on the right.  Page Up and Page Down can be used to zoom in and
+out of the canvas.
+
+Syntax errors often result in an error message in the status bar,
+but might not in all cases.  In these cases, consulting your browser's
+Java console, if it has one, might elucidate the cause of the error.
+Or it might not.
+
+Obviously, this implementation does not support generating or
+displaying the entire infinite drawing.  In fact, it only runs the loop
+for a couple of hundred iterations.  The full shape is left up to your
+imagination.
+
+### Wierd (John Colagioia)
+
+*   installation-of: [Wierd (John Colagioia)][]
+*   installed-implementation: wierd-jnc.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: wierd
+*   javascript-urls: dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
+*   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
+*   launch-config: { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' }
+
+Wierd.
+
+### yoob
+
+*   installation-of: [yoob][]
+*   installed-implementation: tc.catseye.yoob
+*   interactive: true
+*   animated: true
+*   mediums: Java Web Start, HTML5
+
+[yoob][] is a public-domain framework for implementing
+[esoteric programming languages](Esolang), and allowing them to be
+interactively run on programs in a Java application.
+
+Currently, yoob can interpret 21 languages: [1L_AOI][], [1L_a][], [2-ill][], [2L][],
+[Ale][], [BackFlip][], [Befunge-93][], [Black][], [brainfuck][], [Circute][], [Etcha][],
+[Gemooy][], [LNUSP][], [noit o' mnain worb][], [PATH][], [Qdeql][], [Sceql][],
+[SMETANA][], [SNUSP][], [Wunnel][], and [Ypsilax][].  This installation shows yoob in
+action, and lets you play with all these esolangs online, using Java Web Start.
 
 ### Wunnel
 
@@ -715,5 +855,44 @@ Use the navigation buttons to traverse the space of the work.
 [Pixley]: ../article/Languages.md#pixley
 [Gemooy]: ../article/Languages.md#gemooy
 [ZOWIE]: ../article/Languages.md#zowie
+[yoob.js]: ../article/Tools.md#yoobjs
+[1L_AOI]: http://esolangs.org/wiki/1L_AOI
+[1L_a]: http://esolangs.org/wiki/1L_a
+[2-ill]: http://esolangs.org/wiki/2-ill
+[2L]: http://esolangs.org/wiki/2L
+[ALPACA]: ../article/Languages.md#alpaca
+[Ale]: http://esolangs.org/wiki/Ale
+[BackFlip]: http://esolangs.org/wiki/BackFlip
+[Befunge-93]: ../article/Languages.md#befunge-93
+[Black]: http://esolangs.org/wiki/Black
+[Bochs]: ../article/Retrocomputing.md#ms-dos
+[Braktif]: ../article/Automata.md#braktif
+[Circute]: ../article/Automata.md#circute
+[Cyclobots]: ../article/Automata.md#cyclobots
+[DOSBox]: ../article/Retrocomputing.md#ms-dos
+[Etcha]: ../article/Languages.md#etcha
+[FreeDOS]: ../article/Retrocomputing.md#ms-dos
+[Gemooy]: ../article/Languages.md#gemooy
+[HTML5]: https://www.w3.org/TR/html5/
+[IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
+[Jaccia]: ../article/Automata.md#jaccia
+[Jacciata]: ../article/Automata.md#jacciata
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[LNUSP]: http://esolangs.org/wiki/LNUSP
+[PATH]: http://esolangs.org/wiki/PATH
+[QEMU]: ../article/Retrocomputing.md#ms-dos
+[Qdeql]: http://esolangs.org/wiki/Qdeql
+[REDGREEN]: ../article/Automata.md#redgreen
+[SMETANA]: ../article/Automata.md#smetana
+[SNUSP]: http://esolangs.org/wiki/SNUSP
+[Sceql]: http://esolangs.org/wiki/Sceql
+[Shelta]: ../article/Languages.md#shelta
+[Whothm]: ../article/Languages.md#whothm
+[Wunnel]: ../article/Languages.md#wunnel
+[Ypsilax]: ../article/Languages.md#ypsilax
+[brainfuck]: http://esolangs.org/wiki/brainfuck
+[noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
+[v86]: ../article/Retrocomputing.md#ms-dos
+[yoob]: ../article/Archived.md#yoob
 [yoob.js]: ../article/Tools.md#yoobjs
 
