@@ -172,6 +172,20 @@ organic-seeming emergent motion.
 Languages
 ---------
 
+### Gemooy
+
+*   installation-of: [Gemooy][]
+*   installed-implementation: gemooy.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+
+This in-browser installation of [Gemooy][] is implemented in
+[Javascript][], using [yoob.js][].
+
+Select an example program from the dropdown box, then click "Start" to run
+it. Or click "Edit" to modify an example program, or create your own program.
+
 ### Pixley
 
 *   installation-of: [Pixley][]
@@ -221,6 +235,27 @@ a finite amount of memory available.  In my installation of Firefox,
 for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
+
+### ZOWIE
+
+*   installation-of: zowie.py
+*   interactive: true
+*   animated: false
+*   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
+
+This is an [HTML5][]-based interpreter for the
+[esoteric programming language][] [ZOWIE][].
+The reference implementation of the interpreter, written in [Python][],
+is itself being interpreted by [Skulpt][], written in [Javascript][].
+
+Instructions:
+
+Input is not yet supported, and errors are not yet handled
+in a user-friendly way, but it does work, as the example sources show.
+
+Select an example program from the dropdown box, then click "Run" to
+run it.  Or edit an example program in the text box, or create your own
+program.
 
 Gewgaws
 -------
@@ -443,6 +478,7 @@ Use the navigation buttons to traverse the space of the work.
 - - - -
 
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
+[esoteric programming language]: ../article/General%20Information.md#esolang
 [languages]: ../article/Languages.md
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md
@@ -457,6 +493,8 @@ Use the navigation buttons to traverse the space of the work.
 [v86]: ../article/Retrocomputing.md#ms-dos
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
+[Python]: http://www.python.org/
+[Skulpt]: http://www.skulpt.org/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
@@ -467,4 +505,7 @@ Use the navigation buttons to traverse the space of the work.
 [Backtracking Wang Tiler]: ../article/Automata.md#backtracking-wang-tiler
 [Chzrxl]: ../article/Automata.md#chzrxl
 [Pixley]: ../article/Languages.md#pixley
+[Gemooy]: ../article/Languages.md#gemooy
+[ZOWIE]: ../article/Languages.md#zowie
+[yoob.js]: ../article/Tools.md#yoobjs
 
