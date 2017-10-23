@@ -138,23 +138,6 @@ Matchbox:
     then click "Start" to run it.  Or click "Edit" to modify an example,
     or create your own.
 
-'Pixley':
-  type: Online Installation
-  installation-of: pixley.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - Web Workers
-  - HTML5
-  description: |
-    This is an online implementation of [[Pixley]] which, as a bonus, also
-    depicts the Pixley program as a set of coloured, nested rectangles.
-  instructions: |
-    Select an example program from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example
-    program, or create your own program.
-
 'REDGREEN':
   type: Online Installation
   installation-of: redgreen.alp

@@ -142,6 +142,24 @@ For more information on this automaton and its implementation, see
 
 ### Chzrxl
 
+*   installation-of: [Chzrxl][]
+*   installed-implementation: chzrxl.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: chzrxl/chzrxl.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+Instructions:
+
+The percentage of balls held fixed can be changed by the slider, and
+the "Restart" button can be used to scatter the balls and restart their
+movements.  You can try out different values and see which one you like
+the best.
+
+Background:
+
 The original idea was this: each ball travels on a
 sine-wave path (kind of like a spring) between a randomly-chosen
 pair of two other balls.
@@ -155,6 +173,26 @@ Languages
 ---------
 
 ### Pixley
+
+*   installation-of: [Pixley][]
+*   installed-implementation: pixley.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [Web Workers][], [HTML5][]
+*   javascript-module: wang-tilers
+*   javascript-urls: src/backtracking-wang-tiler.js
+*   script-root: ../modules/wang-tilers/src/yoob/
+
+Instructions:
+
+Select an example program from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example
+program, or create your own program.
+
+Background:
+
+This is an online implementation of [Pixley][] which, as a bonus, also
+depicts the Pixley program as a set of coloured, nested rectangles.
 
 This [Javascript][] implementation of Pixley uses the *Web Workers*
 facility of your browser to run the evaluation process.  So, if your
