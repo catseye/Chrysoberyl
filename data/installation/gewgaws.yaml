@@ -35,19 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-Black Hole Poem:
-  type: Online Installation
-  installation-of: black-hole-poem.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - black-hole-poem/black-hole-poem.js
-
 Circus Xamulus:
   type: Online Installation
   installation-of: circus-xamulus.js
@@ -267,34 +254,6 @@ Radialjective:
   javascript-urls:
   - tentacles-undamped/tentacles-undamped.js
 
-Text Uniquifier:
-  type: Online Installation
-  installation-of: text-uniquifier.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - text-uniquifier/text-uniquifier.js
-
-The Frame:
-  type: Online Installation
-  installation-of: the-frame.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - the-frame/the-frame.js
-  launch-config: |
-    { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
-
 The Judgment of Paris:
   subtitle: From the Point of View of the Apple
   type: Online Installation
@@ -334,16 +293,3 @@ Uncle Ankur:
   javascript-module: html5-gewgaws
   javascript-urls:
   - uncle-ankur/uncle-ankur.js
-
-Woman on Film:
-  type: Online Installation
-  installation-of: woman-on-film.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - woman-on-film/woman-on-film.js

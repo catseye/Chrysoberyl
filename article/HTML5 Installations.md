@@ -140,6 +140,22 @@ For more information on Wang tiles, see
 For more information on this automaton and its implementation, see
 [the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
 
+### Braktif
+
+*   installation-of: [Braktif][]
+*   installed-implementation: braktif.alp
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+
+This is the [Braktif][] cellular automaton, compiled to Javascript
+using [ALPACA][] and animated using [yoob.js][].
+
+Instructions:
+
+Select an example program from the dropdown box, then click "Start" to run
+it. Or click "Edit" to modify an example program, or create your own program.
+
 ### Chzrxl
 
 *   installation-of: [Chzrxl][]
@@ -236,6 +252,27 @@ for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
 
+### Wunnel
+
+*   installation-of: [Wunnel][]
+*   installed-implementation: wunnel.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+
+This is an HTML5-based implementation of the
+esoteric programming language [Wunnel][].
+
+Instructions:
+
+Select an example program from the drop-down (or click Edit and
+compose your own,) then click Run.
+
+When `INP` is highlighted in the instruction matrix, the program is
+waiting for input.  Click on the Input text box and input some
+`0`s and `1`s (Wunnel programs take bits as input.)  The program
+will consume them in order, and continue running.
+
 ### ZOWIE
 
 *   installation-of: zowie.py
@@ -311,6 +348,15 @@ cards.
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
 ### Black Hole Poem
+
+*   installation-of: [Black Hole Poem][]
+*   installed-implementation: black-hole-poem.js
+*   interactive: true
+*   animated: false
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: black-hole-poem/black-hole-poem.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 Darker-beige squares can be dragged with your mouse or your finger
 (for what good it will do you.)
@@ -463,6 +509,15 @@ a source image randomly onto either panel.
 
 ### Text Uniquifier
 
+*   installation-of: [Text Uniquifier][]
+*   installed-implementation: text-uniquifier.js
+*   interactive: true
+*   animated: false
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: text-uniquifier/text-uniquifier.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
 "Uniquify" and see the uniquified text in the bottom half of the page.
@@ -479,11 +534,30 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 
 ### The Frame
 
+*   installation-of: [The Frame][]
+*   installed-implementation: the-frame.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: the-frame/the-frame.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   launch-config: { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
+
 Note 1. Green things can be dragged.  
 Note 2. Due to technical limitations, things cannot be dragged off
 of the computer screen.
 
 ### Woman on Film
+
+*   installation-of: [Woman on Film][]
+*   installed-implementation: woman-on-film.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: woman-on-film/woman-on-film.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 Use the navigation buttons to traverse the space of the work.
 
