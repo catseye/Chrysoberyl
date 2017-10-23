@@ -392,8 +392,9 @@ Use the navigation buttons to traverse the space of the work.
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md
 [gewgaws]: ../article/Gewgaws.md
-[Cat's Eye Technologies]: TBD
-[Bubble Escape 2K]: TBD
-[6502 machine code]: TBD
-[Java Web Start]: TBD
-[HTML5]: TBD
+[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
+[Bubble Escape 2K]: ../article/Games.md#bubble-escape
+[6502 machine code]: ../article/Retrocomputing.md#6502
+[Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
+[HTML5]: https://www.w3.org/TR/html5/
+

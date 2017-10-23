@@ -113,6 +113,7 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          "article/General Information.md" \
          --rewrite-markdown || exit 1
 
-#feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-#         "article/HTML5 Installations.md" \
-#         --rewrite-markdown || exit 1
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/HTML5 Installation.md" \
+         "article/HTML5 Installations.md" \
+         --rewrite-markdown || exit 1
