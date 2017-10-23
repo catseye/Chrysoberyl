@@ -12,8 +12,8 @@ more machine-read than human-read, but you can just skip over those.
 
 Internal note: this file should not be used as input when creating a refdex.
 
-For Games
----------
+Games
+-----
 
 ### Bubble Escape
 
@@ -117,8 +117,28 @@ and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
-For Automata and Languages
---------------------------
+Automata
+--------
+
+### Backtracking Wang Tiler
+
+*   installation-of: [Backtracking Wang Tiler][]
+*   installed-implementation: backtracking-wang-tiler.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: wang-tilers
+*   javascript-urls: src/backtracking-wang-tiler.js
+*   script-root: ../modules/wang-tilers/src/yoob/
+
+This is an in-browser implementation, in [Javascript][] and [HTML5][],
+of a backtracking Wang tiler.
+
+For more information on Wang tiles, see
+[the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
+
+For more information on this automaton and its implementation, see
+[the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
 
 ### Chzrxl
 
@@ -130,6 +150,9 @@ It was soon discovered that if all balls are free to move like this,
 they all quickly collapse to a single point.  Thus, some number of
 balls are held fixed (5% by default).  The result is a slightly
 organic-seeming emergent motion.
+
+Languages
+---------
 
 ### Pixley
 
@@ -161,8 +184,8 @@ for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
 
-For Gewgaws
------------
+Gewgaws
+-------
 
 ### A Non-Random Walk
 
