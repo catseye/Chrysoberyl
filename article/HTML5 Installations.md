@@ -185,6 +185,128 @@ they all quickly collapse to a single point.  Thus, some number of
 balls are held fixed (5% by default).  The result is a slightly
 organic-seeming emergent motion.
 
+### Circute
+
+*   installation-of: [Circute][]
+*   installed-implementation: circute.alp
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+
+This is the [Circute][] cellular automaton, compiled to Javascript
+using [ALPACA][] and animated using [yoob.js][].
+
+Instructions:
+
+Select an example configuration from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example,
+or create your own.
+
+### Cyclobots
+
+*   installation-of: [Cyclobots][]
+*   installed-implementation: cyclobots.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: cyclobots/cyclobots.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   launch-config: { width: 640, height: 480 }
+
+This is an in-browser implementation of [Cyclobots][].
+
+Instructions:
+
+When a revolution occurs, every cyclobot picks a new cyclobot to follow
+at random.
+
+In case the cyclobots leave the viewable area of the playfield,
+dragging on the playfield will scroll it.
+
+### Jaccia
+
+*   installation-of: [Jaccia][]
+*   installed-implementation: jaccia.alp
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+
+This is the [Jaccia][] cellular automaton, compiled to Javascript
+using [ALPACA][] and animated using [yoob.js][].
+
+Instructions:
+
+Select an example configuration from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example,
+or create your own.
+
+### Jacciata
+
+*   installation-of: [Jacciata][]
+*   installed-implementation: jacciata.alp
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+
+This is the [Jacciata][] cellular automaton, compiled to Javascript
+using [ALPACA][] and animated using [yoob.js][].
+
+Instructions:
+
+Select an example configuration from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example,
+or create your own.
+
+### REDGREEN
+
+*   installation-of: [REDGREEN][]
+*   installed-implementation: redgreen.alp
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+
+This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
+and animated using [yoob.js][].
+
+Instructions:
+
+Select an example configuration from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example,
+or create your own.
+
+### Schrödinger's Game of Life
+
+*   installation-of: [Schrödinger's Game of Life][]
+*   installed-implementation: slife.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: schroedingers-game-of-life
+*   javascript-urls: impl/slife.js/src/slife.js
+*   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
+*   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
+
+Schrödinger's Game of Life.
+
+### noit o' mnain worb
+
+*   installation-of: [noit o' mnain worb][]
+*   installed-implementation: worb.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+
+This online interpreter for the
+[noit o' mnain worb][] probabilistic particle automaton
+is implemented in Javascript, on an HTML5 canvas.
+
+Instructions:
+
+Select an example configuration from the dropdown box,
+then click "Start" to run it.  Or click "Edit" to modify an example,
+or create your own.
+
 Languages
 ---------
 

@@ -1,21 +1,5 @@
 # encoding: UTF-8
 
-'Circute':
-  type: Online Installation
-  installation-of: circute.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[Circute]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-
 'Etcha':
   type: Online Installation
   installation-of: etcha.js
@@ -30,43 +14,6 @@
   instructions: |
     Click "Start" to run the supplied example program.  Or click "Edit" to
     modify it, and create your own program.
-
-'Jaccia':
-  type: Online Installation
-  installation-of: jaccia.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[Jaccia]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-  see-also:
-  - installation/Jacciata
-
-'Jacciata':
-  type: Online Installation
-  installation-of: jacciata.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  summary: |
-  description: |
-    This is the [[Jacciata]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-  see-also:
-  - installation/Jaccia
 
 Matchbox:
   type: Online Installation
@@ -89,56 +36,6 @@ Matchbox:
     {
       'sourceRoot': '../modules/matchbox/eg/',
       'workerURL': '../modules/matchbox/src/matchbox-worker.js'
-    }
-
-"noit o' mnain worb":
-  type: Online Installation
-  installation-of: worb.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This online interpreter for the
-    [[noit o' mnain worb]] probabilistic particle automaton
-    is implemented in Javascript, on an HTML5 canvas.
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-
-'REDGREEN':
-  type: Online Installation
-  installation-of: redgreen.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[REDGREEN]] cellular automaton, compiled to Javascript using [[ALPACA]]
-    and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-
-Schrödinger's Game of Life:
-  type: Online Installation
-  installation-of: slife.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
-  javascript-module: schroedingers-game-of-life
-  javascript-urls:
-  - impl/slife.js/src/slife.js
-  launch-config: |
-    {
-      'sourceRoot': '../modules/schroedingers-game-of-life/eg/'
     }
 
 'Shelta':
