@@ -145,6 +145,19 @@
     }, 
 
 
+    "Software Engineering": {
+        "url": "https://en.wikipedia.org/wiki/Software_engineering"
+    },
+    "Nam June Paik": {
+        "url": "https://en.wikipedia.org/wiki/Nam_June_Paik"
+    }, 
+    "Jerry Goodman": {
+        "url": "https://en.wikipedia.org/wiki/Jerry_Goodman"
+    }, 
+    "Jan Hammer": {
+        "url": "https://en.wikipedia.org/wiki/Jan_Hammer"
+    },
+
 
     "What is this I don't even": {
         "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md"
@@ -159,6 +172,9 @@
         "url": "https://en.wikipedia.org/wiki/Commodore_International"
     }, 
 
+    "BSD license": {
+        "url": "https://en.wikipedia.org/wiki/BSD_licenses"
+    },
 
     "*W": {
         "url": "http://esolangs.org/wiki/*W"
@@ -249,6 +265,9 @@
     }, 
     "Automaton": {
         "url": "http://catseye.tc/article/Automata"
+    }, 
+    "Disambiguation Node": {
+        "url": "http://catseye.tc/article/General Information.md"
     }, 
 
 
@@ -620,6 +639,38 @@
     },
 
 
+    "NaNoGenMo": {
+        "anchor": "nanogenmo-2013",
+        "filename": "article/Events.md"
+    },
+    "NaOpGenMo": {
+        "anchor": "naopgenmo-2014",
+        "filename": "article/Events.md"
+    },
+
+
+    "Article": {
+        "anchor": "the-dossier",
+        "filename": "article/General Information.md"
+    },
+    "Implementation Languages": {
+        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Some%20Production%20Programming%20Languages.md"
+    },
+    "Project Matrix": {
+        "url": "https://github.com/catseye/"
+    },
+    "Implementation": {
+        "url": "https://github.com/catseye/"
+    },
+    "Programming Language Matrix": {
+        "anchor": "top", 
+        "filename": "article/Languages.md"        
+    },
+
+    "The Platform": {
+        "anchor": "the-cats-eye-technologies-platform", 
+        "filename": "article/Platforms.md"
+    },
     "tc.catseye.yoob": {
         "anchor": "yoob", 
         "filename": "article/Archived.md"

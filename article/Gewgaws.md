@@ -364,6 +364,6 @@ a still from a film.
 [HTML5]: https://www.w3.org/TR/html5/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [SMETANA]: ../article/Automata.md#smetana
-[Chrysoberyl]: http://catseye.tc/node/Chrysoberyl
-[Cat's Eye Technologies]: http://catseye.tc/
+[Chrysoberyl]: ../article/General%20Information.md#chrysoberyl
+[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 

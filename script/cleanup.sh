@@ -17,6 +17,8 @@ ARTICLES="
     article/Language?Implementations.md
     article/Automata.md
     article/Gewgaws.md
+    article/Events.md
+    article/General?Information.md
 "
 
 feedmark --output-refdex $ARTICLES >article-refdex.json
@@ -104,4 +106,13 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          "article/Instructions.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Event.md" \
+         "article/Events.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         "article/General Information.md" \
          --rewrite-markdown || exit 1

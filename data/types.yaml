@@ -2,9 +2,6 @@
 type:
   type: type
 
-Disambiguation node:
-  type: type
-
 # presentedy things:
 Online Installation:
   type: type
@@ -17,48 +14,7 @@ Online Installation:
     **[[Gewgaw]], [[Game]], Musical Composition, Picture, [[Text]],**
     **[[Tool]], Electronics Project,** or **[[Retrocomputing]]**.
 
-Computational Class:
-  type: type
-Genre:
-  type: type
-Individual:
-  type: type
-Organization:
-  type: type
-Competition:
-  type: type
-Website:
-  type: type
-Collection:
-  type: type
-
-# implementations:
-Implementation:
-  type: type
-  description: |
-    This is a list of implementations with entries in [[Chrysoberyl]].
-    
-    These are implementations of *all* kinds of things:
-    programming languages,
-    [[Platform|platforms]],
-    [[Library|libraries]],
-    [[Tool|tools]],
-    [[Game|games]],
-    [[Text|texts]], and so forth.
-    For a more fine-grained breakdown, see those individual categories.
-Implementation Type:
-  type: type
-Development Stage:
-  type: type
-License:
-  type: type
-
 # distributions:
 Distribution:
   type: type
   suppress-page-generation: true
-
-
-# these are implementables too, but that property is less exploited for them
-Database:
-  type: type

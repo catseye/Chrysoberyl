@@ -187,3 +187,27 @@ Lexeduct distribution:
   - version: "0.1"
     revision: "2017.0502"
     url: http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip
+
+
+Chrysoberyl distribution: 
+  type: Distribution
+  github: catseye/Chrysoberyl
+  fixed-tag: bf3b16a
+  releases: []
+
+
+The Dipple: 
+  type: Distribution
+  github: catseye/Dipple
+  fixed-tag: f867719
+  description: |
+    The Dipple is where code goes when its home planet has been
+    destroyed.  With apologies to Andre Norton.
+  releases: []
+
+
+The Dossier distribution: 
+  type: Distribution
+  github: catseye/The-Dossier
+  fixed-tag: f9437d5
+  releases: []

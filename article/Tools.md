@@ -427,14 +427,14 @@ framework, which is in Java.
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-64
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
-[NaNoGenMo 2013]: TBD
-[NaNoGenMo 2015]: TBD
+[NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
+[NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [6502]: ../article/Retrocomputing.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
 [Retrocomputing]: http://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
-[The Platform]: TBD
+[The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
 [Bourne shell]: http://steve-parker.org/sh/bourne.shtml

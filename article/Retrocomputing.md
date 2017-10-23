@@ -290,5 +290,5 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [BefOS]: ../article/Platforms.md#befos
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: http://clc-wiki.net/wiki/C89
-[The Dossier]: https://github.com/catseye/The-Dossier/
+[The Dossier]: ../article/General%20Information.md#the-dossier
 

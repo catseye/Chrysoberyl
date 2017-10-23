@@ -12,6 +12,10 @@ You can play it online in the [JaC64][] emulator using Java Web Start.
 Use your arrow keys to guide the bubble through the maze.  Avoid the
 hazards and find the five keys to unlock the exit.
 
+If this game doesn't seem too impressive to you, try to remember, it's
+only two kilobytes of code!  These days you can't even sneeze in less
+than a megabyte.
+
 ### Super Wumpus Land
 
 If your keystrokes aren't going into the "terminal", make sure you
@@ -36,6 +40,50 @@ the canvas to start a new game.
 Detractors and other peasants may satisfy themselves that this is actually a
 game and not just an entirely black gif or something by opening a Javascript
 console and typing `BACKGROUND_COLOR='green'`.
+
+For Automata and Languages
+--------------------------
+
+### Chzrxl
+
+The original idea was this: each ball travels on a
+sine-wave path (kind of like a spring) between a randomly-chosen
+pair of two other balls.
+
+It was soon discovered that if all balls are free to move like this,
+they all quickly collapse to a single point.  Thus, some number of
+balls are held fixed (5% by default).  The result is a slightly
+organic-seeming emergent motion.
+
+### Pixley
+
+This [Javascript][] implementation of Pixley uses the *Web Workers*
+facility of your browser to run the evaluation process.  So, if your
+browser does not support Web Workers, it may not function correctly.
+
+For the Pixley project, a Pixley interpreter was implemented in
+Pixley itself ("meta-circularly") and in this installation,
+the **Wrap in Pixley Interpreter** button will take the Pixley
+program that has been loaded and put it inside this
+Pixley-interpreter-in-Pixley.
+
+Evaluating a program wrapped in a Pixley interpreter will result
+in the same result as the unwrapped program.  It will just take
+longer.
+
+Evaluating a program wrapped in a Pixley interpreter
+*wrapped in a Pixley interpreter* will also result
+in the same result as the unwrapped program.  It will just take
+*quite a bit* longer.
+
+In theory, this "tower" of wrapped interpreters could go on forever,
+and they should all produce the same result.
+
+However, in physical reality, computers have limitations, such as
+a finite amount of memory available.  In my installation of Firefox,
+for example, wrapping a program in three levels of interpreters
+results in a "stack overflow" error being displayed in the Javascript
+console, and the evaluation process never finishing.
 
 For Gewgaws
 -----------
@@ -145,17 +193,6 @@ The default image used when Canvas Feedback starts up was designed by
 Gareth Jackson specifically to be a pleasing subject for this feedback
 process.
 
-### Chzrxl
-
-The original idea was this: each ball travels on a
-sine-wave path (kind of like a spring) between a randomly-chosen
-pair of two other balls.
-
-It was soon discovered that if all balls are free to move like this,
-they all quickly collapse to a single point.  Thus, some number of
-balls are held fixed (5% by default).  The result is a slightly
-organic-seeming emergent motion.
-
 ### Eine kleine Glitchfraktal
 
 Select a mode from from the MODE dropdown to see different styles
@@ -251,4 +288,5 @@ Use the navigation buttons to traverse the space of the work.
 
 [JaC64]: ../article/Retrocomputing.md#commodore-64
 [Zplet]: ../article/Retrocomputing.md#z-machine
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
