@@ -105,10 +105,6 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --rewrite-markdown || exit 1
 
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         "article/Instructions.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Event.md" \
          "article/Events.md" \
          --rewrite-markdown || exit 1
