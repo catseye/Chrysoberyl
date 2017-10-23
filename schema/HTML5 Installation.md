@@ -54,3 +54,9 @@ interactive
 *   optional: true
 
 interactive
+
+### launch-config
+
+*   optional: true
+
+launch-config

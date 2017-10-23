@@ -270,10 +270,12 @@ Gewgaws
 *   javascript-urls: a-minimalist-critique/a-minimalist-critique.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
+A minimalist critique of Tetris.
 
 ### A Non-Random Walk
 
-*   installation-of: a-non-random-walk.js
+*   installation-of: [A Non-Random Walk][]
+*   installed-implementation: a-non-random-walk.js
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
@@ -295,6 +297,16 @@ the starting position of the wheel, and *n* is the number of red (or black)
 cards.
 
 ### Art Restoration Simulator
+
+*   installation-of: [Art Restoration Simulator][]
+*   installed-implementation: art-restoration-simulator.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: art-restoration-simulator/art-restoration-simulator.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   launch-config: { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') }
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
