@@ -872,12 +872,9 @@ Use the navigation buttons to traverse the space of the work.
 [DOSBox]: ../article/Retrocomputing.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
-[Gemooy]: ../article/Languages.md#gemooy
-[HTML5]: https://www.w3.org/TR/html5/
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 [LNUSP]: http://esolangs.org/wiki/LNUSP
 [PATH]: http://esolangs.org/wiki/PATH
 [QEMU]: ../article/Retrocomputing.md#ms-dos
@@ -892,7 +889,5 @@ Use the navigation buttons to traverse the space of the work.
 [Ypsilax]: ../article/Languages.md#ypsilax
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
-[v86]: ../article/Retrocomputing.md#ms-dos
 [yoob]: ../article/Archived.md#yoob
-[yoob.js]: ../article/Tools.md#yoobjs
 
