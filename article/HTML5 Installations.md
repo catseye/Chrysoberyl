@@ -225,7 +225,26 @@ console, and the evaluation process never finishing.
 Gewgaws
 -------
 
+### A Minimalist Critique of Tetris
+
+*   installation-of: a-minimalist-critique.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: a-minimalist-critique/a-minimalist-critique.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+
 ### A Non-Random Walk
+
+*   installation-of: a-non-random-walk.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: a-non-random-walk/a-non-random-walk.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
@@ -423,16 +442,29 @@ Use the navigation buttons to traverse the space of the work.
 
 - - - -
 
-[JaC64]: ../article/Retrocomputing.md#commodore-64
-[Zplet]: ../article/Retrocomputing.md#z-machine
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [languages]: ../article/Languages.md
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md
 [gewgaws]: ../article/Gewgaws.md
-[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
-[Bubble Escape 2K]: ../article/Games.md#bubble-escape
+[JaC64]: ../article/Retrocomputing.md#commodore-64
+[Zplet]: ../article/Retrocomputing.md#z-machine
+[Z-Machine code]: ../article/Retrocomputing.md#z-machine
+[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Web Workers]: https://en.wikipedia.org/wiki/Web_worker
 [6502 machine code]: ../article/Retrocomputing.md#6502
+[x86 machine code]: ../article/Retrocomputing.md#ms-dos
+[v86]: ../article/Retrocomputing.md#ms-dos
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
+[Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
+[Bubble Escape 2K]: ../article/Games.md#bubble-escape
+[The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
+[The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
+[Super Wumpus Land]: ../article/Games.md#super-wumpus-land
+[Cheshire Text]: ../article/Texts.md#cheshire-text
+[BefOS]: ../article/Platforms.md#befos
+[Backtracking Wang Tiler]: ../article/Automata.md#backtracking-wang-tiler
+[Chzrxl]: ../article/Automata.md#chzrxl
+[Pixley]: ../article/Languages.md#pixley
 
