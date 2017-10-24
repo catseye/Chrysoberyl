@@ -37,7 +37,7 @@ than a megabyte.
 *   installed-implementation: swl.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: super-wumpus-land
 *   javascript-urls: impl/swl.js/src/swl.js
 *   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
@@ -102,10 +102,10 @@ Platforms
 *   animated: true
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
 
-This is an HTML5 installation of [[BefOS]], a Befunge-themed operating
+This is an HTML5 installation of [BefOS][], a Befunge-themed operating
 system which is neither Befunge, nor an operating system.  (Discuss.)
 It runs on a web page thanks to the
-[[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
+[HTML5][]-based [IBM PC compatible][] emulator, [v86][].
 
 The system is delivered on a 1.44M floppy image, which contains the
 BefOS boot block, kernal, and the handful of sample pages which are
@@ -113,7 +113,7 @@ included in the default build.
 
 If v86 doesn't work in your browser, you can
 [download the disk image](http://catseye.tc/distfiles/befos-0.10.img)
-and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
+and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
@@ -146,7 +146,7 @@ For more information on this automaton and its implementation, see
 *   installed-implementation: braktif.alp
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 
 This is the [Braktif][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -264,7 +264,7 @@ or create your own.
 *   installed-implementation: redgreen.alp
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 
 This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
 and animated using [yoob.js][].
@@ -281,7 +281,7 @@ or create your own.
 *   installed-implementation: slife.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: schroedingers-game-of-life
 *   javascript-urls: impl/slife.js/src/slife.js
 *   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
@@ -295,7 +295,7 @@ Schrödinger's Game of Life.
 *   installed-implementation: worb.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 
 This online interpreter for the
 [noit o' mnain worb][] probabilistic particle automaton
@@ -316,7 +316,7 @@ Languages
 *   installed-implementation: etcha.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 
 This in-browser installation of [Etcha][] is implemented in
 [Javascript][], using [yoob.js][].
@@ -346,7 +346,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   installed-implementation: matchbox.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: matchbox
 *   javascript-urls: src/matchbox-launcher.js
 *   script-root: ../modules/matchbox/src/
@@ -488,7 +488,7 @@ imagination.
 *   installed-implementation: wierd-jnc.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: wierd
 *   javascript-urls: dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
 *   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
@@ -520,7 +520,7 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   installed-implementation: wunnel.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 
 This is an HTML5-based implementation of the
 esoteric programming language [Wunnel][].
@@ -615,7 +615,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   installed-implementation: black-hole-poem.js
 *   interactive: true
 *   animated: false
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: black-hole-poem/black-hole-poem.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -637,7 +637,7 @@ because that is our best guess at
 *   installed-implementation: canvas-feedback.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: canvas-feedback
 *   javascript-urls: src/canvas-feedback.js
 *   script-root: ../modules/canvas-feedback/src/yoob/
@@ -720,7 +720,7 @@ process.
 *   installed-implementation: circus-xamulus.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -732,7 +732,7 @@ process.
 *   installed-implementation: eine-kleine-glitchfraktal.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -746,7 +746,7 @@ of glitching applied to the rectangles.
 *   installed-implementation: fibonacci-spiral.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fibonacci-spiral/fibonacci-spiral.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -763,7 +763,7 @@ The animation is simply a zooming out and back in on the spiral.
 *   installed-implementation: fingerspelling.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fingerspelling/fingerspelling.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -778,7 +778,7 @@ with your mouse pointer.
 *   installed-implementation: heronsis-hermnonicii.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: heronsis-hermnonicii/heronsis-hermnonicii.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -802,7 +802,7 @@ Plus it's fun to click on the red balls.
 *   installed-implementation: hirsute-miasma.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hirsute-miasma/hirsute-miasma.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -817,7 +817,7 @@ the "terminal" option to prevent this cycling.
 *   installed-implementation: hypongtrochoid.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hypongtrochoid/hypongtrochoid.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -833,7 +833,7 @@ simple at all.
 *   installed-implementation: lexeduct-browser.js
 *   interactive: true
 *   animated: false
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: lexeduct
 *   javascript-urls: demo/lexeduct-transformers.js, demo/yoob/element-factory.js, demo/lexeduct-browser.js
 *   script-root: ../modules/lexeduct/src/
@@ -845,7 +845,7 @@ simple at all.
 *   installed-implementation: markov-font.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -857,7 +857,7 @@ simple at all.
 *   installed-implementation: multicolouralism.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: multicolouralism/multicolouralism.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -879,7 +879,7 @@ of vision, focus and peripheral vision...)
 *   installed-implementation: noise-to-signal-1.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: noise-to-signal-1/noise-to-signal-1.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -902,7 +902,7 @@ a source image randomly onto either panel.
 *   installed-implementation: prairie.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: prairie/prairie.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -915,7 +915,7 @@ a source image randomly onto either panel.
 *   installed-implementation: progression.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: progression/progression.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -927,7 +927,7 @@ a source image randomly onto either panel.
 *   installed-implementation: radialjective.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: radialjective/radialjective.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -939,7 +939,7 @@ a source image randomly onto either panel.
 *   installed-implementation: tentacles-undamped.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: tentacles-undamped/tentacles-undamped.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -951,7 +951,7 @@ a source image randomly onto either panel.
 *   installed-implementation: text-uniquifier.js
 *   interactive: true
 *   animated: false
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -976,7 +976,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   installed-implementation: the-frame.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-frame/the-frame.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -992,7 +992,7 @@ of the computer screen.
 *   installed-implementation: the-judgment-of-paris.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -1004,7 +1004,7 @@ of the computer screen.
 *   installed-implementation: two-fifty-six.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -1016,7 +1016,7 @@ of the computer screen.
 *   installed-implementation: uncle-ankur.js
 *   interactive: false
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: uncle-ankur/uncle-ankur.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
@@ -1028,7 +1028,7 @@ of the computer screen.
 *   installed-implementation: woman-on-film.js
 *   interactive: true
 *   animated: true
-*   mediums: Javascript, HTML5
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: woman-on-film/woman-on-film.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
