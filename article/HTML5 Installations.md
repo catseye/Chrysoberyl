@@ -633,6 +633,16 @@ because that is our best guess at
 
 ### Canvas Feedback
 
+*   installation-of: [Canvas Feedback][]
+*   installed-implementation: canvas-feedback.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: canvas-feedback
+*   javascript-urls: src/canvas-feedback.js
+*   script-root: ../modules/canvas-feedback/src/yoob/
+*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg', 'controlPanel': document.getElementById('control_panel') }
+
 To begin exploring, we suggest you first try different presets
 from the *Presets* drop-down in the control panel on the right.
 
@@ -704,12 +714,41 @@ The default image used when Canvas Feedback starts up was designed by
 Gareth Jackson specifically to be a pleasing subject for this feedback
 process.
 
+### Circus Xamulus
+
+*   installation-of: [Circus Xamulus][]
+*   installed-implementation: circus-xamulus.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: circus-xamulus/circus-xamulus.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 ### Eine kleine Glitchfraktal
+
+*   installation-of: [Eine kleine Glitchfraktal][]
+*   installed-implementation: eine-kleine-glitchfraktal.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
 
 ### Fibonacci Spiral
+
+*   installation-of: [Fibonacci Spiral][]
+*   installed-implementation: fibonacci-spiral.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: fibonacci-spiral/fibonacci-spiral.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 The semicircles alternate being on the left and the right.  The first
 two terms of the Fibonacci sequence are `1, 1` and these make up the unit
@@ -719,11 +758,29 @@ The animation is simply a zooming out and back in on the spiral.
 
 ### Fingerspelling
 
+*   installation-of: [Fingerspelling][]
+*   installed-implementation: fingerspelling.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: fingerspelling/fingerspelling.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 If you have a touchscreen, prod the lavender area of the screen with your
 finger.  If you don't have a touchscreen, you may simulate this action
 with your mouse pointer.
 
 ### Heronsis hermnonicii
+
+*   installation-of: [Heronsis hermnonicii][]
+*   installed-implementation: heronsis-hermnonicii.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: heronsis-hermnonicii/heronsis-hermnonicii.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 *Warning: the following may contain tedious and/or glib
 background and/or analysis.*
@@ -740,18 +797,67 @@ Plus it's fun to click on the red balls.
 
 ### Hirsute Miasma
 
+*   installation-of: [Hirsute Miasma][]
+*   installed-implementation: hirsute-miasma.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: hirsute-miasma/hirsute-miasma.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 The animation will eventually cycle if you're patient (although it won't
 of course cycle exactly, as there is a random element.)  You may enable
 the "terminal" option to prevent this cycling.
 
 ### Hypongtrochoid
 
+*   installation-of: [Hypongtrochoid][]
+*   installed-implementation: hypongtrochoid.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: hypongtrochoid/hypongtrochoid.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 Each box moves with a constant velocity
 relative to the box it is contained in, and bounces around inside it in a
 simple fashion.  Yet the path traced out by the innermost box is not very
 simple at all.
 
+### Lexeduct
+
+*   installation-of: [Lexeduct][]
+*   installed-implementation: lexeduct-browser.js
+*   interactive: true
+*   animated: false
+*   mediums: Javascript, HTML5
+*   javascript-module: lexeduct
+*   javascript-urls: demo/lexeduct-transformers.js, demo/yoob/element-factory.js, demo/lexeduct-browser.js
+*   script-root: ../modules/lexeduct/src/
+
+### Markov Font
+
+*   installation-of: [Markov Font][]
+*   installed-implementation: markov-font.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: markov-font/markov-font.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 ### Multicolouralism
+
+*   installation-of: [Multicolouralism][]
+*   installed-implementation: multicolouralism.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: multicolouralism/multicolouralism.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 Each frame, the colour of each cell is chosen randomly from the set
 {cyan, magenta, yellow, white}.  The probability of each of the
@@ -766,8 +872,71 @@ of vision, focus and peripheral vision...)
 
 ### Noise to Signal No. 1
 
+*   installation-of: [Noise to Signal No. 1][]
+*   installed-implementation: noise-to-signal-1.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: noise-to-signal-1/noise-to-signal-1.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
+
+### Plea of Thunder
+
+*   installation-of: [Plea of Thunder][]
+*   installed-implementation: PleaOfThunder.java
+*   interactive: false
+*   animated: true
+*   mediums: Java applet, HTML5
+
+### Prairie
+
+*   installation-of: [Prairie][]
+*   installed-implementation: prairie.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: prairie/prairie.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
+
+### Progression
+
+*   installation-of: [Progression][]
+*   installed-implementation: progression.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: progression/progression.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+
+### Radialjective
+
+*   installation-of: [Radialjective][]
+*   installed-implementation: radialjective.js
+*   interactive: true
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: radialjective/radialjective.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+### Tentacles, Undamped
+
+*   installation-of: [Tentacles, Undamped][]
+*   installed-implementation: tentacles-undamped.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: tentacles-undamped/tentacles-undamped.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 ### Text Uniquifier
 
@@ -809,6 +978,41 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 Note 1. Green things can be dragged.  
 Note 2. Due to technical limitations, things cannot be dragged off
 of the computer screen.
+
+### The Judgment of Paris
+
+*   installation-of: [The Judgment of Paris][]
+*   installed-implementation: the-judgment-of-paris.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+
+### Two Fifty Six
+
+*   installation-of: [Two Fifty Six][]
+*   installed-implementation: two-fifty-six.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: two-fifty-six/two-fifty-six.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
+
+### Uncle Ankur
+
+*   installation-of: [Uncle Ankur][]
+*   installed-implementation: uncle-ankur.js
+*   interactive: false
+*   animated: true
+*   mediums: Javascript, HTML5
+*   javascript-module: html5-gewgaws
+*   javascript-urls: uncle-ankur/uncle-ankur.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
 ### Woman on Film
 
