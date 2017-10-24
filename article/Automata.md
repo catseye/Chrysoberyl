@@ -189,9 +189,9 @@ REDGREEN is a cellular automaton that simulates a little
 *   computational-class: ???
 *   paradigms: Particle automaton, Probabilistic
 *   reference-distribution: [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/noit o' mnain worb)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/noit_o'_mnain_worb)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   online @ [catseye.tc](http://catseye.tc/installation/noit o' mnain worb)
+*   online @ [catseye.tc](http://catseye.tc/installation/noit_o'_mnain_worb)
 
 Sample configuration:
 
