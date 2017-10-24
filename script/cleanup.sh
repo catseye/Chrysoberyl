@@ -21,11 +21,11 @@ ARTICLES="
     article/General?Information.md
 "
 
-feedmark --output-refdex $ARTICLES >article-refdex.json
+feedmark --output-refdex $ARTICLES >article-refdex.json || exit 1
 
 REFDEXES=misc-refdex/games-refdex.json,misc-refdex/texts-refdex.json,misc-refdex/retrocomputing-refdex.json,misc-refdex/languages-refdex.json,misc-refdex/misc-refdex.json
 
-feedmark --input-refdexes=$REFDEXES $ARTICLES --output-refdex >refdex.json
+feedmark --input-refdexes=$REFDEXES $ARTICLES --output-refdex >refdex.json || exit 1
 
 ## non-lists
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \

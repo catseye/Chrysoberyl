@@ -1102,32 +1102,33 @@ Use the navigation buttons to traverse the space of the work.
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
 [yoob]: ../article/Archived.md#yoob
-[Schrödinger's Game of Life]: TBD
-[Matchbox]: TBD
-[Wierd (John Colagioia)]: TBD
-[A Non-Random Walk]: TBD
-[Art Restoration Simulator]: TBD
-[Black Hole Poem]: TBD
-[Canvas Feedback]: TBD
-[Circus Xamulus]: TBD
-[Eine kleine Glitchfraktal]: TBD
-[Fibonacci Spiral]: TBD
-[Fingerspelling]: TBD
-[Heronsis hermnonicii]: TBD
-[Hirsute Miasma]: TBD
-[Hypongtrochoid]: TBD
-[Lexeduct]: TBD
-[Markov Font]: TBD
-[Multicolouralism]: TBD
-[Noise to Signal No. 1]: TBD
-[Plea of Thunder]: TBD
-[Prairie]: TBD
-[Progression]: TBD
-[Radialjective]: TBD
-[Tentacles, Undamped]: TBD
-[Text Uniquifier]: TBD
-[The Frame]: TBD
-[The Judgment of Paris]: TBD
-[Two Fifty Six]: TBD
-[Uncle Ankur]: TBD
-[Woman on Film]: TBD
+[Schrödinger's Game of Life]: ../article/Automata.md#schr%C3%B6dingers-game-of-life
+[Matchbox]: ../article/Languages.md#matchbox
+[Wierd (John Colagioia)]: ../article/Languages.md#wierd
+[A Non-Random Walk]: ../article/Gewgaws.md#a-non-random-walk
+[Art Restoration Simulator]: ../article/Gewgaws.md#art-restoration-simulator
+[Black Hole Poem]: ../article/Gewgaws.md#black-hole-poem
+[Canvas Feedback]: ../article/Gewgaws.md#canvas-feedback
+[Circus Xamulus]: ../article/Gewgaws.md#circus-xamulus
+[Eine kleine Glitchfraktal]: ../article/Gewgaws.md#eine-kleine-glitchfraktal
+[Fibonacci Spiral]: ../article/Gewgaws.md#fibonacci-spiral
+[Fingerspelling]: ../article/Gewgaws.md#fingerspelling
+[Heronsis hermnonicii]: ../article/Gewgaws.md#heronsis-hermnonicii
+[Hirsute Miasma]: ../article/Gewgaws.md#hirsute-miasma
+[Hypongtrochoid]: ../article/Gewgaws.md#hypongtrochoid
+[Lexeduct]: ../article/Gewgaws.md#lexeduct
+[Markov Font]: ../article/Gewgaws.md#markov-font
+[Multicolouralism]: ../article/Gewgaws.md#multicolouralism
+[Noise to Signal No. 1]: ../article/Gewgaws.md#noise-to-signal-no-1
+[Plea of Thunder]: ../article/Tools.md#plea-of-thunder
+[Prairie]: ../article/Gewgaws.md#prairie
+[Progression]: ../article/Gewgaws.md#progression
+[Radialjective]: ../article/Gewgaws.md#radialjective
+[Tentacles, Undamped]: ../article/Gewgaws.md#tentacles-undamped
+[Text Uniquifier]: ../article/Gewgaws.md#text-uniquifier
+[The Frame]: ../article/Gewgaws.md#the-frame
+[The Judgment of Paris]: ../article/Gewgaws.md#the-judgment-of-paris
+[Two Fifty Six]: ../article/Gewgaws.md#two-fifty-six
+[Uncle Ankur]: ../article/Gewgaws.md#uncle-ankur
+[Woman on Film]: ../article/Gewgaws.md#woman-on-film
+
