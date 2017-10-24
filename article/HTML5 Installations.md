@@ -1102,4 +1102,32 @@ Use the navigation buttons to traverse the space of the work.
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
 [yoob]: ../article/Archived.md#yoob
-
+[Schrödinger's Game of Life]: TBD
+[Matchbox]: TBD
+[Wierd (John Colagioia)]: TBD
+[A Non-Random Walk]: TBD
+[Art Restoration Simulator]: TBD
+[Black Hole Poem]: TBD
+[Canvas Feedback]: TBD
+[Circus Xamulus]: TBD
+[Eine kleine Glitchfraktal]: TBD
+[Fibonacci Spiral]: TBD
+[Fingerspelling]: TBD
+[Heronsis hermnonicii]: TBD
+[Hirsute Miasma]: TBD
+[Hypongtrochoid]: TBD
+[Lexeduct]: TBD
+[Markov Font]: TBD
+[Multicolouralism]: TBD
+[Noise to Signal No. 1]: TBD
+[Plea of Thunder]: TBD
+[Prairie]: TBD
+[Progression]: TBD
+[Radialjective]: TBD
+[Tentacles, Undamped]: TBD
+[Text Uniquifier]: TBD
+[The Frame]: TBD
+[The Judgment of Paris]: TBD
+[Two Fifty Six]: TBD
+[Uncle Ankur]: TBD
+[Woman on Film]: TBD
