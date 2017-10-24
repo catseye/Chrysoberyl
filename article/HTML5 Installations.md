@@ -725,6 +725,7 @@ process.
 *   javascript-urls: circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
+
 ### Eine kleine Glitchfraktal
 
 *   installation-of: [Eine kleine Glitchfraktal][]
@@ -837,6 +838,7 @@ simple at all.
 *   javascript-urls: demo/lexeduct-transformers.js, demo/yoob/element-factory.js, demo/lexeduct-browser.js
 *   script-root: ../modules/lexeduct/src/
 
+
 ### Markov Font
 
 *   installation-of: [Markov Font][]
@@ -847,6 +849,7 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 
 ### Multicolouralism
 
@@ -892,6 +895,7 @@ a source image randomly onto either panel.
 *   animated: true
 *   mediums: Java applet, HTML5
 
+
 ### Prairie
 
 *   installation-of: [Prairie][]
@@ -903,6 +907,7 @@ a source image randomly onto either panel.
 *   javascript-urls: prairie/prairie.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
+
 
 ### Progression
 
@@ -927,6 +932,7 @@ a source image randomly onto either panel.
 *   javascript-urls: radialjective/radialjective.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
+
 ### Tentacles, Undamped
 
 *   installation-of: [Tentacles, Undamped][]
@@ -937,6 +943,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: tentacles-undamped/tentacles-undamped.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 
 ### Text Uniquifier
 
@@ -1013,6 +1020,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: uncle-ankur/uncle-ankur.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+
 
 ### Woman on Film
 
