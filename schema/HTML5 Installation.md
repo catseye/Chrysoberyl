@@ -60,3 +60,9 @@ interactive
 *   optional: true
 
 launch-config
+
+### style
+
+*   optional: true
+
+style

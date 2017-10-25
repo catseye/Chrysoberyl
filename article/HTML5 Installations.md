@@ -567,6 +567,7 @@ A minimalist critique of Tetris.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-non-random-walk/a-non-random-walk.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
