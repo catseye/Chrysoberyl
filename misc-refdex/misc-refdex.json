@@ -230,6 +230,12 @@
     "Game": {
         "url": "http://catseye.tc/article/Games"
     },
+    "Picture": {
+        "url": "http://catseye.tc/article/Picture"
+    },
+    "Electronics Project": {
+        "url": "http://catseye.tc/article/Electronics%20Projects.md"
+    },
     "Gewgaw": {
         "url": "http://catseye.tc/article/Gewgaws"
     },
@@ -244,6 +250,9 @@
     },
     "Platform": {
         "url": "http://catseye.tc/article/Platforms"
+    },
+    "Musical Composition": {
+        "url": "http://catseye.tc/article/Musical%20Compositions"
     },
     "Retrocomputing": {
         "url": "http://catseye.tc/article/Retrocomputing"
@@ -294,9 +303,6 @@
     },
     "LoUIE": {
         "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md"
-    },
-    "Musical Composition": {
-        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md"
     },
 
 
