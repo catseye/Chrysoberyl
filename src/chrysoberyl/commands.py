@@ -69,8 +69,6 @@ def mkdistjson(universe, options, config):
 # Things to add MANUALLY:
 #   SITU-SOL and ILLGOL should have images
 # CSS/JS:
-#   Margins
-#   Buttons
 #   Call out languages that have been lost (Bear Food) and never implemented (Tamerlane)
 
 def export_lingography(universe, options, config):
@@ -258,6 +256,90 @@ def export_gewgaws(universe, options, config):
             commentary = re.sub(r'\[\[(.*?)\]\]', linker, commentary, count=0, flags=re.U)
             write(commentary)
 
+        instructions = space[thing].get('instructions', '')
+        if instructions:
+            instructions = re.sub(r'\[\[(.*?)\]\]', linker, instructions, count=0, flags=re.U)
+            write(u"Instructions:")
+            write("")
+            write(instructions)
+
+    write("- - - -")
+    write("")
+    for needed_link in sorted(needed_links):
+        if needed_link in link_priority_refdex:
+            p = link_priority_refdex[needed_link]
+            if 'url' in p:
+                url = p['url']
+            elif 'filename' in p:
+                base = 'http://catseye.tc/'
+                url = "{}{}#{}".format(
+                    base, p['filename'], p['anchor']
+                )
+            else:
+                raise NotImplementedError
+            write(u"[{}]: {}".format(needed_link, url))
+        else:
+            write(u"[{}]: TBD".format(needed_link))
+
+    f.close()
+
+
+def export_installations(universe, options, config):
+    """Export the installations."""
+    space = universe['installation']
+
+    link_priority_refdex = {}
+    for filename in config[space.name].get('link_priority_files', []):
+        with open(filename, 'r') as f:
+            link_priority_refdex.update(json.loads(f.read()))
+
+    def installations():
+        g = []
+        for thing in space:
+            node = space[thing]
+            if (node['type'] == 'Online Installation'):
+                g.append(thing)
+        return sorted(g)
+
+    needed_links = set()
+
+    def linker(match):
+        text = match.group(1)
+        segments = text.split('|')
+        if len(segments) == 1:
+            needed_links.add(segments[0])
+            return u'[{}][]'.format(segments[0])
+        else:
+            return u'[{}]({})'.format(segments[1], segments[0])
+
+    f = codecs.open('../Chrysoberyl/article/Foo.md', 'w', 'utf-8')
+    def write(s):
+        f.write(s + '\n')
+
+    for thing in installations():
+        node = space[thing]
+        write(u"### {}".format(thing))
+        write(u"")
+        write(u"*   installation-of: [{}][]".format(thing))
+        write(u"*   installed-implementation: {}".format(node.get('installation-of')))
+        write(u"*   interactive: {}".format(str(node.get('interactive')).lower()))
+        write(u"*   animated: {}".format(str(node.get('animated')).lower()))
+        write(u"*   mediums: {}".format(', '.join(node.get('mediums', []))))
+        if 'javascript-module' in node:
+            write(u"*   javascript-module: {}".format(node.get('javascript-module')))
+        if 'javascript-urls' in node:
+            write(u"*   javascript-urls: {}".format(', '.join(node.get('javascript-urls'))))
+        if 'script-root' in node:
+            write(u"*   script-root: {}".format(node.get('script-root')))
+        if 'launch-config' in node:
+            write(u"*   launch-config: {}".format(node.get('launch-config')))
+
+        write("")
+
+        description = space[thing].get('description', '')
+        description = re.sub(r'\[\[(.*?)\]\]', linker, description, count=0, flags=re.U)
+        write(description)
+        
         instructions = space[thing].get('instructions', '')
         if instructions:
             instructions = re.sub(r'\[\[(.*?)\]\]', linker, instructions, count=0, flags=re.U)
@@ -600,6 +682,7 @@ COMMANDS = {
     'count': count,
     'export_lingography': export_lingography,
     'export_gewgaws': export_gewgaws,
+    'export_installations': export_installations,
 }
 
 
