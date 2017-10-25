@@ -188,10 +188,10 @@ REDGREEN is a cellular automaton that simulates a little
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Particle automaton, Probabilistic
-*   reference-distribution: [noit o' mnain worb distribution](/distribution/noit o' mnain worb distribution)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/noit o' mnain worb)
+*   reference-distribution: [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/noit_o'_mnain_worb)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
-*   online @ [catseye.tc](http://catseye.tc/installation/noit o' mnain worb)
+*   online @ [catseye.tc](http://catseye.tc/installation/noit_o'_mnain_worb)
 
 Sample configuration:
 
@@ -345,7 +345,7 @@ configurations that don't blow up.)
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Cellular automaton, Reflective
-*   reference-distribution: [Specs on Spec distribution](/distribution/Specs on Spec distribution)
+*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Didigm)
 
 Sample configuration:
@@ -463,7 +463,7 @@ lava lamp?
 *   computational-class: ???
 *   paradigms: 2-dimensional
 *   reference-distribution: [Wang Tilers distribution](http://catseye.tc/distribution/Wang_Tilers_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Backtracking Wang Tiler)
+*   online @ [catseye.tc](http://catseye.tc/installation/Backtracking%20Wang%20Tiler)
 
 This backtracking Wang tiler is an automaton which naïvely tiles the
 plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
@@ -490,15 +490,15 @@ algorithm, since it never terminates.
 *   computational-class: ???
 *   paradigms: 2-dimensional, Cellular automaton, Non-deterministic
 *   reference-distribution: [Schrödinger's Game of Life distribution](http://catseye.tc/distribution/Schrödinger's_Game_of_Life_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Schrödinger's Game of Life)
+*   online @ [catseye.tc](http://catseye.tc/installation/Schrödinger's%20Game%20of%20Life)
 
 Schrödinger's Game of Life is what happens when [Conway's Game of Life][]
 meets [Schrödinger's Cat][]: each individual cell may be **Alive**,
 or **Dead**, or **Possibly-Alive-Possibly-Dead** (which we call **Cat**.)
 
 This is, in essence, the result of applying
-[non-determinism](Non-deterministic) to an existing
-[cellular automaton](Cellular automaton), and this operation could
+[non-determinism][] to an existing
+[cellular automaton][], and this operation could
 probably be applied to any cellular automaton with similar results.
 
 For a full account of its development, see
@@ -534,4 +534,7 @@ For a full account of its development, see
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
+[SMETANA]: ../article/Automata.md#smetana
+[non-determinism]: http://esolangs.org/wiki/Category:Nondeterministic
+[cellular automaton]: https://en.wikipedia.org/wiki/Cellular_automaton
 
