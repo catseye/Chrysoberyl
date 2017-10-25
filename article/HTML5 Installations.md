@@ -1,7 +1,7 @@
 HTML5 Installations
 ===================
 
-This is a list of [languages][], [automata][], [games][] and [gewgaws][]
+This is a list of [games][], [platforms][], [automata][], [languages][], and [gewgaws][]
 which have HTML5 installations hosted online on [Cat's Eye Technologies][]'
 website, `catseye.tc`.
 
@@ -11,9 +11,6 @@ Note: some of the properties on the installation entries are meant to be
 more machine-read than human-read, but you can just skip over those.
 
 Internal note: this file should not be used as input when creating a refdex.
-
-Games
------
 
 ### Bubble Escape
 
@@ -91,8 +88,6 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   javascript-urls: cheshire-text/cheshire-text.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 
-Platforms
----------
 
 ### BefOS
 
@@ -116,9 +111,6 @@ If v86 doesn't work in your browser, you can
 and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
-
-Automata
---------
 
 ### Backtracking Wang Tiler
 
@@ -306,9 +298,6 @@ Instructions:
 Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
-
-Languages
----------
 
 ### Etcha
 
@@ -555,9 +544,6 @@ in a user-friendly way, but it does work, as the example sources show.
 Select an example program from the dropdown box, then click "Run" to
 run it.  Or edit an example program in the text box, or create your own
 program.
-
-Gewgaws
--------
 
 ### A Minimalist Critique of Tetris
 
@@ -1043,6 +1029,7 @@ Use the navigation buttons to traverse the space of the work.
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md
 [gewgaws]: ../article/Gewgaws.md
+[platforms]: ../article/Platforms.md
 [JaC64]: ../article/Retrocomputing.md#commodore-64
 [Zplet]: ../article/Retrocomputing.md#z-machine
 [Z-Machine code]: ../article/Retrocomputing.md#z-machine
