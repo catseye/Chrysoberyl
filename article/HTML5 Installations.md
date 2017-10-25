@@ -87,7 +87,9 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: cheshire-text/cheshire-text.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: article { margin: 0; } #installation { padding: 2em; }
 
+As if there aren't enough remixes of Lewis Carroll's works already.
 
 ### BefOS
 
