@@ -161,6 +161,8 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: chzrxl/chzrxl.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
+*   online @ [catseye.tc](http://catseye.tc/ix/Chzrxl)
 
 Instructions:
 
