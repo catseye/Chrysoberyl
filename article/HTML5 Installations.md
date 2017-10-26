@@ -721,7 +721,7 @@ process.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
 
@@ -735,6 +735,7 @@ process.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Eine_kleine_Glitchfraktal)
 
 Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
@@ -749,6 +750,8 @@ of glitching applied to the rectangles.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fibonacci-spiral/fibonacci-spiral.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Fibonacci_Spiral)
 
 The semicircles alternate being on the left and the right.  The first
 two terms of the Fibonacci sequence are `1, 1` and these make up the unit

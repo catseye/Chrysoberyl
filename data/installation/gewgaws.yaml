@@ -60,32 +60,6 @@ Cyclobots:
       height: 480
     }
 
-Eine kleine Glitchfraktal:
-  type: Online Installation
-  installation-of: eine-kleine-glitchfraktal.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
-
-Fibonacci Spiral:
-  type: Online Installation
-  installation-of: fibonacci-spiral.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - fibonacci-spiral/fibonacci-spiral.js
-
 Fingerspelling:
   type: Online Installation
   installation-of: fingerspelling.js
