@@ -88,6 +88,7 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   javascript-urls: cheshire-text/cheshire-text.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   style: article { margin: 0; } #installation { padding: 2em; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Cheshire_Text)
 
 As if there aren't enough remixes of Lewis Carroll's works already.
 
@@ -570,6 +571,7 @@ A minimalist critique of Tetris.
 *   javascript-urls: a-non-random-walk/a-non-random-walk.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/A_Non-Random_Walk)
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
