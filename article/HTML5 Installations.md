@@ -959,6 +959,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: tentacles-undamped/tentacles-undamped.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Tentacles,_Undamped)
 
 
 ### Text Uniquifier
@@ -997,6 +998,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   javascript-urls: the-frame/the-frame.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Frame)
 
 Note 1. Green things can be dragged.  
 Note 2. Due to technical limitations, things cannot be dragged off
@@ -1012,6 +1014,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
 
 
 ### Two Fifty Six
@@ -1024,6 +1027,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Two_Fifty_Six)
 
 
 ### Uncle Ankur
@@ -1036,6 +1040,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: uncle-ankur/uncle-ankur.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Uncle_Ankur)
 
 
 ### Woman on Film
@@ -1048,6 +1053,8 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: woman-on-film/woman-on-film.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Woman_on_Film)
 
 Use the navigation buttons to traverse the space of the work.
 
