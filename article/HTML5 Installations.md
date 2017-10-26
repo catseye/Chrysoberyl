@@ -785,6 +785,7 @@ with your mouse pointer.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: heronsis-hermnonicii/heronsis-hermnonicii.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Heronsis_hermnonicii)
 
 *Warning: the following may contain tedious and/or glib
 background and/or analysis.*
@@ -809,6 +810,8 @@ Plus it's fun to click on the red balls.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hirsute-miasma/hirsute-miasma.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Hirsute_Miasma)
 
 The animation will eventually cycle if you're patient (although it won't
 of course cycle exactly, as there is a random element.)  You may enable
@@ -824,6 +827,8 @@ the "terminal" option to prevent this cycling.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hypongtrochoid/hypongtrochoid.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Hypongtrochoid)
 
 Each box moves with a constant velocity
 relative to the box it is contained in, and bounces around inside it in a

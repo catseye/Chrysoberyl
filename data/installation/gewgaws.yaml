@@ -73,45 +73,6 @@ Fingerspelling:
   javascript-urls:
   - fingerspelling/fingerspelling.js
 
-Hirsute Miasma:
-  type: Online Installation
-  installation-of: hirsute-miasma.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - hirsute-miasma/hirsute-miasma.js
-
-Heronsis hermnonicii:
-  type: Online Installation
-  installation-of: heronsis-hermnonicii.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - heronsis-hermnonicii/heronsis-hermnonicii.js
-
-Hypongtrochoid:
-  type: Online Installation
-  installation-of: hypongtrochoid.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - hypongtrochoid/hypongtrochoid.js
-
 Markov Font:
   type: Online Installation
   installation-of: markov-font.js
