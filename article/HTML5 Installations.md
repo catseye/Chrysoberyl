@@ -38,6 +38,7 @@ than a megabyte.
 *   javascript-module: super-wumpus-land
 *   javascript-urls: impl/swl.js/src/swl.js
 *   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Super_Wumpus_Land)
 
 If your keystrokes aren't going into the "terminal", make sure you
 click in it first (it's focusable.)
