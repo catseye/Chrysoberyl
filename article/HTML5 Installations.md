@@ -874,7 +874,12 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
+*   launch-config: { imgUrl: "../resource/c64_noninverted.png" }
+*   online @ [catseye.tc](http://catseye.tc/ix/Markov_Font)
 
+Wait a few seconds while it analyzes the characters in the C64 character set.
+Then it will generate some of its own.
 
 ### Multicolouralism
 

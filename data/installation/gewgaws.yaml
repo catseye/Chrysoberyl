@@ -73,19 +73,6 @@ Fingerspelling:
   javascript-urls:
   - fingerspelling/fingerspelling.js
 
-Markov Font:
-  type: Online Installation
-  installation-of: markov-font.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - markov-font/markov-font.js
-  launch_config: { imgUrl: "../resource/c64_noninverted.png" }
 
 Plea of Thunder:
   type: Online Installation
