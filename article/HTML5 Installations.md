@@ -601,6 +601,7 @@ cards.
 *   javascript-urls: art-restoration-simulator/art-restoration-simulator.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') }
+*   online @ [catseye.tc](http://catseye.tc/ix/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 

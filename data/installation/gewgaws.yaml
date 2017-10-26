@@ -35,24 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-Art Restoration Simulator:
-  type: Online Installation
-  installation-of: art-restoration-simulator.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - art-restoration-simulator/art-restoration-simulator.js
-  launch-config: |
-    {
-      'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg',
-      'controlPanel': document.getElementById('control_panel')
-    }
-
 Black Hole Poem:
   type: Online Installation
   installation-of: black-hole-poem.js
