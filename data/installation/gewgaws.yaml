@@ -87,32 +87,6 @@ Markov Font:
   - markov-font/markov-font.js
   launch_config: { imgUrl: "../resource/c64_noninverted.png" }
 
-Multicolouralism:
-  type: Online Installation
-  installation-of: multicolouralism.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - multicolouralism/multicolouralism.js
-
-Noise to Signal No. 1:
-  type: Online Installation
-  installation-of: noise-to-signal-1.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - noise-to-signal-1/noise-to-signal-1.js
-
 Plea of Thunder:
   type: Online Installation
   installation-of: PleaOfThunder.java
@@ -121,47 +95,6 @@ Plea of Thunder:
   mediums:
   - Java applet
   - HTML5
-
-Prairie:
-  type: Online Installation
-  installation-of: prairie.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - prairie/prairie.js
-  launch-config: |
-    { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
-
-Progression:
-  type: Online Installation
-  installation-of: progression.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - progression/progression.js
-
-Radialjective:
-  type: Online Installation
-  installation-of: radialjective.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - radialjective/radialjective.js
 
 'Tentacles, Undamped':
   type: Online Installation

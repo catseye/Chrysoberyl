@@ -869,6 +869,7 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: multicolouralism/multicolouralism.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Multicolouralism)
 
 Each frame, the colour of each cell is chosen randomly from the set
 {cyan, magenta, yellow, white}.  The probability of each of the
@@ -891,6 +892,8 @@ of vision, focus and peripheral vision...)
 *   javascript-module: html5-gewgaws
 *   javascript-urls: noise-to-signal-1/noise-to-signal-1.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Noise_to_Signal_No._1)
 
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
@@ -915,6 +918,8 @@ a source image randomly onto either panel.
 *   javascript-urls: prairie/prairie.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Prairie)
 
 
 ### Progression
@@ -927,6 +932,8 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: progression/progression.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Progression)
 
 
 ### Radialjective
@@ -939,6 +946,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: radialjective/radialjective.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Radialjective)
 
 
 ### Tentacles, Undamped
