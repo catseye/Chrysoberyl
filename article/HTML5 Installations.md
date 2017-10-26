@@ -19,10 +19,16 @@ Internal note: this file should not be used as input when creating a refdex.
 *   interactive: true
 *   animated: true
 *   mediums: [6502 machine code][], [JaC64][], [Java Web Start][], [HTML5][]
+*   jnlp-link: http://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/Bubble_Escape)
 
 You can play it online in the [JaC64][] emulator using Java Web Start.
 Use your arrow keys to guide the bubble through the maze.  Avoid the
 hazards and find the five keys to unlock the exit.
+
+You can also download the D64 disk image file
+[bubble escape.d64](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
+and run it in VICE x64 or some other Commodore 64 emulator.
 
 If this game doesn't seem too impressive to you, try to remember, it's
 only two kilobytes of code!  These days you can't even sneeze in less
@@ -50,9 +56,15 @@ click in it first (it's focusable.)
 *   interactive: true
 *   animated: false
 *   mediums: [Z-Machine code][], [Zplet][], [Java Web Start][], [HTML5][]
+*   jnlp-link: http://catseye.tc/applets/never_ending_maze_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Never-Ending_Maze)
 
 It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
 Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
+
+You can also download the Z5 story file
+[never-ending-maze-1.0.z5](http://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
+and run it in Frotz or some other Z-Machine emulator.
 
 ### The New Gamerly Realism
 
@@ -452,6 +464,8 @@ a floppy disk somehow...
 *   interactive: true
 *   animated: false
 *   mediums: Java Web Start, HTML5
+*   jnlp-link: http://catseye.tc/applets/whothm_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
 This installation contains a Java application which implements Whothm, and lets you
@@ -499,6 +513,8 @@ Wierd.
 *   interactive: true
 *   animated: true
 *   mediums: Java Web Start, HTML5
+*   jnlp-link: http://catseye.tc/applets/yoob_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/yoob)
 
 [yoob][] is a public-domain framework for implementing
 [esoteric programming languages](Esolang), and allowing them to be

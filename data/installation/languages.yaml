@@ -255,38 +255,6 @@ Schrödinger's Game of Life:
     or, wonder of wonders, a real IBM PC compatible — if you can write it onto
     a floppy disk somehow...
 
-'Whothm':
-  type: Online Installation
-  installation-of: tc.catseye.whothm
-  interactive: true
-  animated: false
-  mediums:
-  - Java Web Start
-  - HTML5
-  description: |
-    [[Whothm]] is a simple language for describing infinite two-colour bitmapped graphics.
-    This installation contains a Java application which implements Whothm, and lets you
-    interactively try out Whothm programs online, using Java Web Start. The implementation
-    is only an approximation; only a small portion of the infinite drawing (a couple of
-    hundred iterations) is rendered.  The rest is left up to your imagination.
-  instructions: |
-    Whothm is a simple language for describing infinite shapes. It is
-    described fully in the documentation in the [[Whothm]] distribution.
-    
-    Click "Run" or press Alt+R to run the program.  The result is displayed in
-    the canvas on the right.  Page Up and Page Down can be used to zoom in and
-    out of the canvas.
-    
-    Syntax errors often result in an error message in the status bar,
-    but might not in all cases.  In these cases, consulting your browser's
-    Java console, if it has one, might elucidate the cause of the error.
-    Or it might not.
-    
-    Obviously, this implementation does not support generating or
-    displaying the entire infinite drawing.  In fact, it only runs the loop
-    for a couple of hundred iterations.  The full shape is left up to your
-    imagination.
-
 
 Wierd (John Colagioia):
   type: Online Installation
@@ -326,24 +294,6 @@ Wierd (John Colagioia):
     `0`s and `1`s (Wunnel programs take bits as input.)  The program
     will consume them in order, and continue running.
 
-'yoob':
-  type: Online Installation
-  installation-of: tc.catseye.yoob
-  interactive: true
-  animated: true
-  mediums:
-  - Java Web Start
-  - HTML5
-  description: |
-    [[yoob]] is a public-domain framework for implementing
-    [[Esolang|esoteric programming languages]], and allowing them to be
-    interactively run on programs in a Java application.
-    
-    Currently, yoob can interpret 21 languages: [[1L_AOI]], [[1L_a]], [[2-ill]], [[2L]],
-    [[Ale]], [[BackFlip]], [[Befunge-93]], [[Black]], [[brainfuck]], [[Circute]], [[Etcha]],
-    [[Gemooy]], [[LNUSP]], [[noit o' mnain worb]], [[PATH]], [[Qdeql]], [[Sceql]],
-    [[SMETANA]], [[SNUSP]], [[Wunnel]], and [[Ypsilax]].  This installation shows yoob in
-    action, and lets you play with all these esolangs online, using Java Web Start.
 
 'ZOWIE':
   type: Online Installation

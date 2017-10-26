@@ -67,6 +67,12 @@ launch-config
 
 style
 
+### jnlp-link
+
+*   optional: true
+
+JNLP link.
+
 ### online
 
 *   optional: true

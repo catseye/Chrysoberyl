@@ -1,34 +1,5 @@
 # encoding: UTF-8
 
-Bubble Escape:
-  type: Online Installation
-  installation-of: Bubble Escape 2K
-  interactive: true
-  animated: true
-  mediums:
-  - 6502 machine code
-  - JaC64
-  - Java Web Start
-  - HTML5
-  instructions: |
-    You can play it online in the [[JaC64]] emulator using Java Web Start.
-    Use your arrow keys to guide the bubble through the maze.  Avoid the
-    hazards and find the five keys to unlock the exit.
-
-The Never-Ending Maze:
-  type: Online Installation
-  installation-of: never-ending-maze.z5
-  interactive: true
-  animated: false
-  mediums:
-  - Z-Machine code
-  - Zplet
-  - Java Web Start
-  - HTML5
-  instructions: |
-    It's a text adventure.  You can play it online in the [[Zplet]] emulator using Java Web Start.
-    Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
-
 The New Gamerly Realism:
   type: Online Installation
   installation-of: the-new-gamerly-realism.js
