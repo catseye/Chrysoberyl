@@ -35,19 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-Circus Xamulus:
-  type: Online Installation
-  installation-of: circus-xamulus.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - circus-xamulus/circus-xamulus.js
-
 Cyclobots:
   type: Online Installation
   installation-of: cyclobots.js

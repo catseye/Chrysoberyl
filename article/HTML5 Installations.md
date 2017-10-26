@@ -721,6 +721,8 @@ process.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
 
 ### Eine kleine Glitchfraktal
