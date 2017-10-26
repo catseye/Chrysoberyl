@@ -615,6 +615,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: black-hole-poem/black-hole-poem.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Black_Hole_Poem)
 
 Darker-beige squares can be dragged with your mouse or your finger
 (for what good it will do you.)

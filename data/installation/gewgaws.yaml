@@ -35,19 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-Black Hole Poem:
-  type: Online Installation
-  installation-of: black-hole-poem.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - black-hole-poem/black-hole-poem.js
-
 Circus Xamulus:
   type: Online Installation
   installation-of: circus-xamulus.js
