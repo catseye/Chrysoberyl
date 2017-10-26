@@ -126,6 +126,7 @@ a floppy disk somehow...
 *   javascript-module: wang-tilers
 *   javascript-urls: src/backtracking-wang-tiler.js
 *   script-root: ../modules/wang-tilers/src/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Backtracking_Wang_Tiler)
 
 This is an in-browser implementation, in [Javascript][] and [HTML5][],
 of a backtracking Wang tiler.
