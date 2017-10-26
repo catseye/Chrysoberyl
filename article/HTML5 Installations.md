@@ -557,6 +557,8 @@ program.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-minimalist-critique/a-minimalist-critique.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
+*   online @ [catseye.tc](http://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
 
 A minimalist critique of Tetris.
 

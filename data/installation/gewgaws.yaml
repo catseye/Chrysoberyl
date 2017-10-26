@@ -35,32 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-A Minimalist Critique of Tetris:
-  type: Online Installation
-  installation-of: a-minimalist-critique.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - a-minimalist-critique/a-minimalist-critique.js
-
-A Non-Random Walk:
-  type: Online Installation
-  installation-of: a-non-random-walk.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - a-non-random-walk/a-non-random-walk.js
-
 Art Restoration Simulator:
   type: Online Installation
   installation-of: art-restoration-simulator.js
