@@ -76,6 +76,25 @@ and run it in Frotz or some other Z-Machine emulator.
 *   javascript-module: the-new-gamerly-realism
 *   javascript-urls: src/the-new-gamerly-realism.js
 *   script-root: ../modules/the-new-gamerly-realism/src/
+*   online @ [catseye.tc](http://catseye.tc/ix/The_New_Gamerly_Realism)
+
+#### Background
+
+Only when the conscious habit of coding culture's little interactions,
+Marios and Lara Crofts in games disappears
+_will we witness a purely gamerly work of gamedev_.
+
+I have transformed myself _in the zero of gameplay_ and have fished myself out
+of the _rubbishy slough of mainstream gaming_...
+
+Only dull and impotent gamedevs veil their work with _sincerity_.
+Gaming requires _truth_, not _sincerity_.
+
+_Levels have vanished like smoke; to attain the new gamerly paradigm_,
+gamedev advances towards creation as an end in itself and towards
+reification of the interactions of culture.
+
+#### Instructions
 
 Use the arrow keys to guide the protagonist (represented by a black square)
 around the playfield (represented by a black square) to collect all the
