@@ -186,6 +186,9 @@ Instructions:
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
 
+You may wish to read the definition of this cellular automaton:
+[braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
+
 ### Chzrxl
 
 *   installation-of: [Chzrxl][]
@@ -234,6 +237,9 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+You may wish to read the definition of this cellular automaton:
+[circute.alp](https://github.com/catseye/Circute/blob/master/src/circute.alp).
+
 ### Cyclobots
 
 *   installation-of: [Cyclobots][]
@@ -273,6 +279,9 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+You may wish to read the definition of this cellular automaton:
+[jaccia.alp](https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp).
+
 ### Jacciata
 
 *   installation-of: [Jacciata][]
@@ -290,6 +299,9 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+You may wish to read the definition of this cellular automaton:
+[jacciata.alp](https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp).
+
 ### REDGREEN
 
 *   installation-of: [REDGREEN][]
@@ -306,6 +318,9 @@ Instructions:
 Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
+
+You may wish to read the definition of this cellular automaton:
+[redgreen.alp](https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp).
 
 ### Schrödinger's Game of Life
 
