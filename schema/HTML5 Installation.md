@@ -73,6 +73,12 @@ style
 
 JNLP link.
 
+### v86-floppy-image-url
+
+*   optional: true
+
+v86-floppy-image-url
+
 ### online
 
 *   optional: true

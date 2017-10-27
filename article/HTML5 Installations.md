@@ -131,6 +131,8 @@ As if there aren't enough remixes of Lewis Carroll's works already.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
+*   v86-floppy-image-url: ../resource/befos-0.10.img
+*   online @ [catseye.tc](http://catseye.tc/ix/BefOS)
 
 This is an HTML5 installation of [BefOS][], a Befunge-themed operating
 system which is neither Befunge, nor an operating system.  (Discuss.)
@@ -443,6 +445,8 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: true
 *   mediums: x86 machine code, FreeDOS, v86, HTML5
+*   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
+*   online @ [catseye.tc](http://catseye.tc/ix/Shelta)
 
 This is [Shelta][], a language with a tiny compiler and a
 self-hosted compiler, running under [FreeDOS][] running
@@ -893,8 +897,8 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-*   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   launch-config: { imgUrl: "../resource/c64_noninverted.png" }
+*   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Markov_Font)
 
 Wait a few seconds while it analyzes the characters in the C64 character set.

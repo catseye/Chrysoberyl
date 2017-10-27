@@ -1,30 +1,5 @@
 # encoding: UTF-8
 
-'BefOS':
-  type: Online Installation
-  installation-of: BefOS (NASM)
-  interactive: true
-  animated: true
-  mediums:
-  - x86 machine code
-  - v86
-  - HTML5
-  description: |
-    This is an HTML5 installation of [[BefOS]], a Befunge-themed operating
-    system which is neither Befunge, nor an operating system.  (Discuss.)
-    It runs on a web page thanks to the
-    [[HTML5]]-based [[IBM PC compatible]] emulator, [[v86]].
-  instructions: |
-    The system is delivered on a 1.44M floppy image, which contains the
-    BefOS boot block, kernal, and the handful of sample pages which are
-    included in the default build.
-    
-    If v86 doesn't work in your browser, you can
-    [download the disk image](http://catseye.tc/distfiles/befos-0.10.img)
-    and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
-    or, wonder of wonders, a real IBM PC compatible — if you can write it onto
-    a floppy disk somehow...
-
 'Braktif':
   type: Online Installation
   installation-of: braktif.alp
@@ -212,48 +187,6 @@ Schrödinger's Game of Life:
     {
       'sourceRoot': '../modules/schroedingers-game-of-life/eg/'
     }
-
-'Shelta':
-  type: Online Installation
-  # ... and sheltas, but ok
-  installation-of: shelta
-  interactive: true
-  animated: true
-  mediums:
-  - x86 machine code
-  - FreeDOS
-  - v86
-  - HTML5
-  description: |
-    This is [[Shelta]], a language with a tiny compiler and a
-    self-hosted compiler, running under [[FreeDOS]] running
-    on a web page via the [[HTML5]]-based [[IBM PC compatible]]
-    emulator, [[v86]] —  so you can bootstrap it right in your browser.
-  instructions: |
-    The system running online on v86 is delivered on a 720K floppy image,
-    which contains a minimal bootable FreeDOS install, the Shelta distribution,
-    plus various tools such as the `TED3` text editor, and `YASM`.
-    License and distribution information is included on the disk image.
-    
-    You can use the pre-built Shelta compiler (whose source is written in NASM)
-    to build the example programs, or to bootstrap the Shelta compiler
-    written in Shelta.  See the welcome message, shown after FreeDOS
-    boots, for more details.
-    
-    Documentation for Shelta is also on the disk image, and can be viewed
-    with `TYPE` or `EDIT`, but you may find it more convenient to browse
-    these files online:
-    
-    *   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
-    *   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
-    *   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
-    *   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
-    
-    If v86 doesn't work in your browser, you can
-    [download the disk image](http://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-2.img)
-    and use it in an emulator such as [[QEMU]] or [[Bochs]] or [[DOSBox]]
-    or, wonder of wonders, a real IBM PC compatible — if you can write it onto
-    a floppy disk somehow...
 
 
 Wierd (John Colagioia):
