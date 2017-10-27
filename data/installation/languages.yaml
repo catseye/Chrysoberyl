@@ -1,36 +1,5 @@
 # encoding: UTF-8
 
-'Braktif':
-  type: Online Installation
-  installation-of: braktif.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[Braktif]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example program from the dropdown box, then click "Start" to run
-    it. Or click "Edit" to modify an example program, or create your own program.
-
-'Circute':
-  type: Online Installation
-  installation-of: circute.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[Circute]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-
 'Etcha':
   type: Online Installation
   installation-of: etcha.js
@@ -60,43 +29,6 @@
   instructions: |
     Select an example program from the dropdown box, then click "Start" to run
     it. Or click "Edit" to modify an example program, or create your own program.
-
-'Jaccia':
-  type: Online Installation
-  installation-of: jaccia.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is the [[Jaccia]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-  see-also:
-  - installation/Jacciata
-
-'Jacciata':
-  type: Online Installation
-  installation-of: jacciata.alp
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  summary: |
-  description: |
-    This is the [[Jacciata]] cellular automaton, compiled to Javascript
-    using [[ALPACA]] and animated using [[yoob.js]].
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-  see-also:
-  - installation/Jaccia
 
 Matchbox:
   type: Online Installation

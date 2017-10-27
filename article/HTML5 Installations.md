@@ -176,9 +176,10 @@ For more information on this automaton and its implementation, see
 *   installed-implementation: braktif.alp
 *   interactive: true
 *   animated: true
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: braktif
 *   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/braktif.js
-*   mediums: [Javascript][], [HTML5][]
+*   online @ [catseye.tc](http://catseye.tc/ix/Braktif)
 
 This is the [Braktif][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -228,9 +229,10 @@ organic-seeming emergent motion.
 *   installed-implementation: circute.alp
 *   interactive: true
 *   animated: true
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: circute
 *   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/circute.js
-*   mediums: [Javascript][], [HTML5][]
+*   online @ [catseye.tc](http://catseye.tc/ix/Circute)
 
 This is the [Circute][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -272,9 +274,10 @@ dragging on the playfield will scroll it.
 *   installed-implementation: jaccia.alp
 *   interactive: true
 *   animated: true
-*   javascript-module: jaccia
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,script/jaccia.js
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: jaccia
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jaccia.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Jaccia)
 
 This is the [Jaccia][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -294,9 +297,10 @@ You may wish to read the definition of this cellular automaton:
 *   installed-implementation: jacciata.alp
 *   interactive: true
 *   animated: true
-*   javascript-module: jaccia
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,script/jacciata.js
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: jaccia
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jacciata.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Jacciata)
 
 This is the [Jacciata][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -316,9 +320,9 @@ You may wish to read the definition of this cellular automaton:
 *   installed-implementation: redgreen.alp
 *   interactive: true
 *   animated: true
+*   mediums: [Javascript][], [HTML5][]
 *   javascript-module: redgreen
 *   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/redgreen.js
-*   mediums: [Javascript][], [HTML5][]
 
 This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
 and animated using [yoob.js][].
