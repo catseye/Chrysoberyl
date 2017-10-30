@@ -257,6 +257,8 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-urls: cyclobots/cyclobots.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { width: 640, height: 480 }
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Cyclobots)
 
 This is an in-browser implementation of [Cyclobots][].
 
@@ -347,6 +349,7 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-urls: impl/slife.js/src/slife.js
 *   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
 *   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
 Schrödinger's Game of Life.
 
@@ -409,6 +412,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   javascript-urls: src/matchbox-launcher.js
 *   script-root: ../modules/matchbox/src/
 *   launch-config: { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Matchbox)
 
 Instructions:
 

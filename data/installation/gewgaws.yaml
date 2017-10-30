@@ -35,31 +35,6 @@ Lexeduct:
 
 # ---------------------------------------------------------------
 
-Cyclobots:
-  type: Online Installation
-  installation-of: cyclobots.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is an in-browser implementation of [[Cyclobots]].
-  instructions: |
-    When a revolution occurs, every cyclobot picks a new cyclobot to follow
-    at random.
-    In case the cyclobots leave the viewable area of the playfield,
-    dragging on the playfield will scroll it.
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - cyclobots/cyclobots.js
-  launch-config: |
-    {
-      width: 640,
-      height: 480
-    }
-
 Fingerspelling:
   type: Online Installation
   installation-of: fingerspelling.js

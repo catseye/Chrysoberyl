@@ -30,29 +30,6 @@
     Select an example program from the dropdown box, then click "Start" to run
     it. Or click "Edit" to modify an example program, or create your own program.
 
-Matchbox:
-  type: Online Installation
-  installation-of: matchbox.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  instructions: |
-    Select an example configuration from the dropdown box, click "Run"
-    to run either of the programs individually, or "Find Race Conditions"
-    to compute all interleavings of the two programs and look for race
-    conditions between them.
-  javascript-module: matchbox
-  javascript-urls:
-  - src/matchbox-launcher.js
-  script-root: ../modules/matchbox/src/
-  launch-config: |
-    {
-      'sourceRoot': '../modules/matchbox/eg/',
-      'workerURL': '../modules/matchbox/src/matchbox-worker.js'
-    }
-
 "noit o' mnain worb":
   type: Online Installation
   installation-of: worb.js
@@ -102,23 +79,6 @@ Matchbox:
     Select an example configuration from the dropdown box,
     then click "Start" to run it.  Or click "Edit" to modify an example,
     or create your own.
-
-Schrödinger's Game of Life:
-  type: Online Installation
-  installation-of: slife.js
-  interactive: false
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
-  javascript-module: schroedingers-game-of-life
-  javascript-urls:
-  - impl/slife.js/src/slife.js
-  launch-config: |
-    {
-      'sourceRoot': '../modules/schroedingers-game-of-life/eg/'
-    }
 
 
 Wierd (John Colagioia):
