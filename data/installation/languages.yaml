@@ -33,28 +33,6 @@
     then click "Start" to run it.  Or click "Edit" to modify an example,
     or create your own.
 
-
-'Wunnel':
-  installation-of: wunnel.js
-  type: Online Installation
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This is an HTML5-based implementation of the
-    esoteric programming language [[Wunnel]].
-  instructions: |
-    Select an example program from the drop-down (or click Edit and
-    compose your own,) then click Run.
-    
-    When `INP` is highlighted in the instruction matrix, the program is
-    waiting for input.  Click on the Input text box and input some
-    `0`s and `1`s (Wunnel programs take bits as input.)  The program
-    will consume them in order, and continue running.
-
-
 'ZOWIE':
   type: Online Installation
   installation-of: zowie.py

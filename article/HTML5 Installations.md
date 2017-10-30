@@ -606,6 +606,11 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: wunnel
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/wunnel.js/src/yoob/playfield.js,impl/wunnel.js/src/yoob/playfield-html-view.js,impl/wunnel.js/src/yoob/cursor.js,impl/wunnel.js/src/yoob/tape.js,impl/wunnel.js/src/yoob/controller.js,impl/wunnel.js/src/yoob/preset-manager.js,impl/wunnel.js/src/wunnel-controller.js,../../scripts/launch-wunnel.js
+*   script-root: ../modules/wunnel/src/yoob/
+*   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Wunnel)
 
 This is an HTML5-based implementation of the
 esoteric programming language [Wunnel][].
@@ -936,6 +941,7 @@ simple at all.
 *   javascript-urls: demo/lexeduct-transformers.js,demo/yoob/element-factory.js,demo/lexeduct-browser.js,../../scripts/launch-lexeduct.js
 *   script-root: ../modules/lexeduct/src/
 *   style: textarea { width: 30%; } #container { text-align: center; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Lexeduct)
 
 Lexeduct.
 
