@@ -933,9 +933,11 @@ simple at all.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: lexeduct
-*   javascript-urls: demo/lexeduct-transformers.js, demo/yoob/element-factory.js, demo/lexeduct-browser.js
+*   javascript-urls: demo/lexeduct-transformers.js,demo/yoob/element-factory.js,demo/lexeduct-browser.js,../../scripts/launch-lexeduct.js
 *   script-root: ../modules/lexeduct/src/
+*   style: textarea { width: 30%; } #container { text-align: center; }
 
+Lexeduct.
 
 ### Markov Font
 

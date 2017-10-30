@@ -18,20 +18,6 @@ Canvas Feedback:
       'controlPanel': document.getElementById('control_panel')
     }
 
-Lexeduct:
-  type: Online Installation
-  installation-of: lexeduct-browser.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/lexeduct/src/
-  javascript-module: lexeduct
-  javascript-urls:
-  - demo/lexeduct-transformers.js
-  - demo/yoob/element-factory.js
-  - demo/lexeduct-browser.js
 
 # ---------------------------------------------------------------
 
