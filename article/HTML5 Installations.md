@@ -428,9 +428,10 @@ conditions between them.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
-*   javascript-module: wang-tilers
-*   javascript-urls: src/backtracking-wang-tiler.js
-*   script-root: ../modules/wang-tilers/src/yoob/
+*   javascript-module: pixley
+*   javascript-urls: impl/pixley.js/src/pixley.js,impl/pixley.js/src/yoob/source-manager.js,impl/pixley.js/src/yoob/preset-manager.js,impl/pixley.js/src/pixley-controller.js,impl/pixley.js/src/pixley-depictor.js,impl/pixley.js/src/pixley-launcher.js
+*   script-root: ../modules/pixley/impl/pixley.js/src/yoob
+*   launch-config: { workerURL: "../modules/pixley/impl/pixley.js/src/pixley-worker.js", status: document.getElementById('status'), display: document.getElementById('display'), output: document.getElementById('output'), startButton: document.getElementById('start'), stopButton: document.getElementById('stop'), wrapButton: document.getElementById('wrap'), pixleyInterpreter: document.getElementById('pixley-interpreter').innerHTML, depictionCanvas: document.getElementById('canvas'), editor: document.getElementById('editor'), editPanel: document.getElementById('edit_panel'), controlPanel: document.getElementById('panel'), storageKey: 'pixley.js', selectElem: document.getElementById('select_source'), exampleProgramClass: 'example_program', initialProgramName: 'cons-test' }
 
 Instructions:
 
