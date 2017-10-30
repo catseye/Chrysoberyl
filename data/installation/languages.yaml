@@ -15,23 +15,6 @@
     Click "Start" to run the supplied example program.  Or click "Edit" to
     modify it, and create your own program.
 
-"noit o' mnain worb":
-  type: Online Installation
-  installation-of: worb.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This online interpreter for the
-    [[noit o' mnain worb]] probabilistic particle automaton
-    is implemented in Javascript, on an HTML5 canvas.
-  instructions: |
-    Select an example configuration from the dropdown box,
-    then click "Start" to run it.  Or click "Edit" to modify an example,
-    or create your own.
-
 'Pixley':
   type: Online Installation
   installation-of: pixley.js

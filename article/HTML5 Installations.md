@@ -360,6 +360,11 @@ Schrödinger's Game of Life.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: noit-o-mnain-worb
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/worb.js/src/yoob/controller.js,impl/worb.js/src/yoob/playfield.js,impl/worb.js/src/yoob/playfield-canvas-view.js,impl/worb.js/src/yoob/preset-manager.js,impl/worb.js/src/yoob/source-manager.js,impl/worb.js/src/worb.js,../../scripts/launch-noit-o-mnain-worb.js
+*   script-root: ../modules/noit-o-mnain-worb/src/yoob/
+*   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/noit_o'_mnain_worb)
 
 This online interpreter for the
 [noit o' mnain worb][] probabilistic particle automaton
