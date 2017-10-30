@@ -398,6 +398,7 @@ modify it, and create your own program.
 *   javascript-urls: ../../contrib/jquery-1.8.1.min.js,src/yoob/controller.js,src/yoob/playfield.js,src/yoob/playfield-canvas-view.js,src/yoob/cursor.js,src/yoob/preset-manager.js,src/yoob/source-manager.js,src/gemooy.js,../../scripts/launch-gemooy.js
 *   script-root: ../modules/gemooy/src/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Gemooy)
 
 This in-browser installation of [Gemooy][] is implemented in
 [Javascript][], using [yoob.js][].
