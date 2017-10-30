@@ -43,16 +43,3 @@ Plea of Thunder:
   mediums:
   - Java applet
   - HTML5
-
-Text Uniquifier:
-  type: Online Installation
-  installation-of: text-uniquifier.js
-  interactive: true
-  animated: false
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - text-uniquifier/text-uniquifier.js

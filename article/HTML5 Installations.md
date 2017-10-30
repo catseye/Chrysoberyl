@@ -1075,6 +1075,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Text_Uniquifier)
 
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
