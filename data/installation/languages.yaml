@@ -81,24 +81,6 @@
     or create your own.
 
 
-Wierd (John Colagioia):
-  type: Online Installation
-  installation-of: wierd-jnc.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
-  javascript-module: wierd
-  javascript-urls:
-  - dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
-  launch-config: |
-    {
-      'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/'
-    }
-
-
 'Wunnel':
   installation-of: wunnel.js
   type: Online Installation

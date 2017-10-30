@@ -560,6 +560,7 @@ imagination.
 *   javascript-urls: dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
 *   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
 *   launch-config: { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Wierd_(John_Colagioia))
 
 Wierd.
 
