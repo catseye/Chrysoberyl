@@ -15,21 +15,6 @@
     Click "Start" to run the supplied example program.  Or click "Edit" to
     modify it, and create your own program.
 
-'Gemooy':
-  type: Online Installation
-  installation-of: gemooy.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  description: |
-    This in-browser installation of [[Gemooy]] is implemented in
-    [[Javascript]], using [[yoob.js]].
-  instructions: |
-    Select an example program from the dropdown box, then click "Start" to run
-    it. Or click "Edit" to modify an example program, or create your own program.
-
 "noit o' mnain worb":
   type: Online Installation
   installation-of: worb.js
