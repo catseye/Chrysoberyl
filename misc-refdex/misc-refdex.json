@@ -284,6 +284,9 @@
     "type": {
         "url": "http://catseye.tc/"
     },
+    "Distribution": {
+        "url": "https://github.com/catseye/"
+    },
 
 
     "Book": {
