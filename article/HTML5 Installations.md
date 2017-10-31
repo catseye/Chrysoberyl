@@ -445,9 +445,9 @@ conditions between them.
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
 *   javascript-module: pixley
-*   javascript-urls: impl/pixley.js/src/pixley.js,impl/pixley.js/src/yoob/source-manager.js,impl/pixley.js/src/yoob/preset-manager.js,impl/pixley.js/src/pixley-controller.js,impl/pixley.js/src/pixley-depictor.js,impl/pixley.js/src/pixley-launcher.js
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/pixley.js/src/pixley.js,impl/pixley.js/src/yoob/source-manager.js,impl/pixley.js/src/yoob/preset-manager.js,impl/pixley.js/src/pixley-controller.js,impl/pixley.js/src/pixley-depictor.js,impl/pixley.js/src/pixley-launcher.js,../../scripts/launch-pixley.js
 *   script-root: ../modules/pixley/impl/pixley.js/src/yoob
-*   launch-config: { workerURL: "../modules/pixley/impl/pixley.js/src/pixley-worker.js", status: document.getElementById('status'), display: document.getElementById('display'), output: document.getElementById('output'), startButton: document.getElementById('start'), stopButton: document.getElementById('stop'), wrapButton: document.getElementById('wrap'), pixleyInterpreter: document.getElementById('pixley-interpreter').innerHTML, depictionCanvas: document.getElementById('canvas'), editor: document.getElementById('editor'), editPanel: document.getElementById('edit_panel'), controlPanel: document.getElementById('panel'), storageKey: 'pixley.js', selectElem: document.getElementById('select_source'), exampleProgramClass: 'example_program', initialProgramName: 'cons-test' }
+*   style: #step { display: none; } #reset { display: none; } #speed_container { display: none; } #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
 
 Instructions:
 
