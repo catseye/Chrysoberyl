@@ -1006,15 +1006,6 @@ of vision, focus and peripheral vision...)
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
 
-### Plea of Thunder
-
-*   installation-of: [Plea of Thunder][]
-*   installed-implementation: PleaOfThunder.java
-*   interactive: false
-*   animated: true
-*   mediums: Java applet, HTML5
-
-
 ### Prairie
 
 *   installation-of: [Prairie][]
@@ -1253,7 +1244,6 @@ Use the navigation buttons to traverse the space of the work.
 [Markov Font]: ../article/Gewgaws.md#markov-font
 [Multicolouralism]: ../article/Gewgaws.md#multicolouralism
 [Noise to Signal No. 1]: ../article/Gewgaws.md#noise-to-signal-no-1
-[Plea of Thunder]: ../article/Tools.md#plea-of-thunder
 [Prairie]: ../article/Gewgaws.md#prairie
 [Progression]: ../article/Gewgaws.md#progression
 [Radialjective]: ../article/Gewgaws.md#radialjective
