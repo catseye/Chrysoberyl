@@ -633,6 +633,11 @@ will consume them in order, and continue running.
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
+*   javascript-module: zowie
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,../../modules/html5-gewgaws/common-yoob.js-0.11/preset-manager.js,../../contrib/skulpt/skulpt.min.js,../../contrib/skulpt/skulpt-stdlib.js,../../scripts/launch-zowie.js
+*   script-root: ../modules/zowie/src/yoob/
+*   style: .internal_source { display: none; } .initial_configuration { display: none; } #output { border: 1px solid blue; }
+*   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
 
 This is an [HTML5][]-based interpreter for the
 [esoteric programming language][] [ZOWIE][].
