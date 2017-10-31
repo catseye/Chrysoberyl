@@ -67,6 +67,12 @@ launch-config
 
 style
 
+### viewport
+
+*   optional: true
+
+viewport
+
 ### jnlp-link
 
 *   optional: true

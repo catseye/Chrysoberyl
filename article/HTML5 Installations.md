@@ -865,6 +865,9 @@ The animation is simply a zooming out and back in on the spiral.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fingerspelling/fingerspelling.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   viewport: initial-scale=1, user-scalable=no
+*   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Fingerspelling)
 
 If you have a touchscreen, prod the lavender area of the screen with your
 finger.  If you don't have a touchscreen, you may simulate this action

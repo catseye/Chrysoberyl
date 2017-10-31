@@ -18,23 +18,6 @@ Canvas Feedback:
       'controlPanel': document.getElementById('control_panel')
     }
 
-
-# ---------------------------------------------------------------
-
-Fingerspelling:
-  type: Online Installation
-  installation-of: fingerspelling.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-  javascript-module: html5-gewgaws
-  javascript-urls:
-  - fingerspelling/fingerspelling.js
-
-
 Plea of Thunder:
   type: Online Installation
   installation-of: PleaOfThunder.java
