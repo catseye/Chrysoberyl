@@ -1,23 +1,5 @@
 # encoding: UTF-8
 
-Canvas Feedback:
-  type: Online Installation
-  installation-of: canvas-feedback.js
-  interactive: true
-  animated: true
-  mediums:
-  - Javascript
-  - HTML5
-  script-root: ../modules/canvas-feedback/src/yoob/
-  javascript-module: canvas-feedback
-  javascript-urls:
-  - src/canvas-feedback.js
-  launch-config: |
-    {
-      'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg',
-      'controlPanel': document.getElementById('control_panel')
-    }
-
 Plea of Thunder:
   type: Online Installation
   installation-of: PleaOfThunder.java

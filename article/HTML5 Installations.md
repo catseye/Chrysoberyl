@@ -734,7 +734,9 @@ because that is our best guess at
 *   javascript-module: canvas-feedback
 *   javascript-urls: src/canvas-feedback.js
 *   script-root: ../modules/canvas-feedback/src/yoob/
-*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg', 'controlPanel': document.getElementById('control_panel') }
+*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg' }
+*   style: #installation { text-align: center; } #installation > canvas { float: left; } #installation > div { width: 50%; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Canvas_Feedback)
 
 To begin exploring, we suggest you first try different presets
 from the *Presets* drop-down in the control panel on the right.
@@ -865,8 +867,8 @@ The animation is simply a zooming out and back in on the spiral.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fingerspelling/fingerspelling.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
-*   viewport: initial-scale=1, user-scalable=no
 *   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; }
+*   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](http://catseye.tc/ix/Fingerspelling)
 
 If you have a touchscreen, prod the lavender area of the screen with your
