@@ -325,6 +325,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: redgreen
 *   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/redgreen.js
+*   online @ [catseye.tc](http://catseye.tc/ix/REDGREEN)
 
 This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
 and animated using [yoob.js][].
