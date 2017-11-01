@@ -261,7 +261,7 @@ There are other, much better emulators, such as Frotz.
 
 #### The Never-Ending Maze
 
-![The Never-Ending Maze](http://catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+![The Never-Ending Maze](http://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
 
 **[The Never-Ending Maze][]** is an Infocom-style text adventure game based on the defining cultural phenomenon
 of a generation. (Possibly.)

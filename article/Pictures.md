@@ -18,22 +18,22 @@ Pictures
 
 *   inception-date: ca Jan 2014
 
-![pixley.pix as Nested Rectangles](http://catseye.tc/images/generated/Pixley.png)
+![pixley.pix as Nested Rectangles](http://static.catseye.tc/images/generated/Pixley.png)
 
 ### Ink salad No. 1
 
 *   inception-date: ca May 2013
 
-![Ink Salad](http://catseye.tc/images/pictures/Ink%20salad%20No.%201.png)
+![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%201.png)
 
 ### Ink salad No. 2
 
 *   inception-date: ca May 2013
 
-![Ink Salad](http://catseye.tc/images/pictures/Ink%20salad%20No.%202.png)
+![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%202.png)
 
 ### Ink salad No. 7
 
 *   inception-date: ca Jun 2013
 
-![Ink Salad](http://catseye.tc/images/pictures/Ink%20salad%20No.%207.png)
+![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%207.png)
