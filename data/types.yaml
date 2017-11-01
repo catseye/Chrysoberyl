@@ -1,9 +1,0 @@
-# encoding: UTF-8
-type:
-  type: type
-  suppress-page-generation: true
-
-# distributions:
-Distribution:
-  type: type
-  suppress-page-generation: true
