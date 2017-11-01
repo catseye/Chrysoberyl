@@ -131,7 +131,7 @@ of an old-school green-screen video terminal.
 
 ### The New Gamerly Realism
 
-![screenshot](http://catseye.tc/images/illustrations/The_New_Gamerly_Realism.jpg)
+![screenshot](http://static.catseye.tc/images/illustrations/The_New_Gamerly_Realism.jpg)
 
 *   genre: Philosophy
 *   inception-date: 2015
@@ -162,7 +162,7 @@ reification of the interactions of culture.
 
 ### The Never-Ending Maze
 
-![screenshot](http://catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+![screenshot](http://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
 
 *   genre: Text Adventure
 *   inception-date: ca 2000
@@ -181,7 +181,7 @@ phenomenon of a generation.  (Possibly.)
 
 ### Zzrk
 
-![screenshot](http://catseye.tc/images/illustrations/Zzrk.jpg)
+![screenshot](http://static.catseye.tc/images/illustrations/Zzrk.jpg)
 
 *   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure

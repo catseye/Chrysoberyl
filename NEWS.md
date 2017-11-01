@@ -812,7 +812,7 @@ an [integrated circuit](http://zeptobars.ru/en/read/how-to-open-microchip-asic-w
 perhaps, except without the wires.  I'll leave it to you to decide if this
 is unsurprising or not.  You can see this and more in [Pixley](http://catseye.tc/installation/Pixley).
 
-![Pixley Interpreter as nested rectangles](http://catseye.tc/images/generated/Pixley.png)
+![Pixley Interpreter as nested rectangles](http://static.catseye.tc/images/generated/Pixley.png)
 
 But that's not all!  We also present what happens when you run
 that one [Etcha](http://catseye.tc/node/Etcha) example program over and over again.  Looks a bit like
@@ -820,7 +820,7 @@ a pattern produced by [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_
 and perhaps that is no surprise at all.  You can try this, and any other
 Etcha program you care to concoct, yourself in [Etcha](http://catseye.tc/installation/Etcha).
 
-![An Etcha program state after many repetitions](http://catseye.tc/images/generated/Etcha.png)
+![An Etcha program state after many repetitions](http://static.catseye.tc/images/generated/Etcha.png)
 
 ### Release of yoob.js version 0.5
 
