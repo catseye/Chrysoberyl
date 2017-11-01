@@ -1,5 +1,8 @@
 {
     "'N-DCNC distribution": {
+        "entries": [
+            "'N-DCNC"
+        ], 
         "github": "catseye/N-DCNC", 
         "releases": [
             {
@@ -11,6 +14,11 @@
         "type": "Distribution"
     }, 
     "ALPACA distribution": {
+        "entries": [
+            "life.alp", 
+            "wireworld.alp", 
+            "ALPACA"
+        ], 
         "github": "catseye/ALPACA", 
         "releases": [
             {
@@ -88,6 +96,9 @@
         "type": "Distribution"
     }, 
     "Apple Befunge distribution": {
+        "entries": [
+            "Apple Befunge"
+        ], 
         "github": "catseye/Apple-Befunge", 
         "releases": [
             {
@@ -111,6 +122,9 @@
         "type": "Distribution"
     }, 
     "Arboretuum distribution": {
+        "entries": [
+            "Arboretuum"
+        ], 
         "github": "catseye/Arboretuum", 
         "releases": [
             {
@@ -154,6 +168,9 @@
         "type": "Distribution"
     }, 
     "BefOS distribution": {
+        "entries": [
+            "BefOS"
+        ], 
         "github": "catseye/BefOS", 
         "releases": [
             {
@@ -185,6 +202,9 @@
         "type": "Distribution"
     }, 
     "Befunge-93 distribution": {
+        "entries": [
+            "Befunge-93"
+        ], 
         "github": "catseye/Befunge-93", 
         "releases": [
             {
@@ -221,6 +241,9 @@
         "type": "Distribution"
     }, 
     "Beturing distribution": {
+        "entries": [
+            "Beturing"
+        ], 
         "github": "catseye/Beturing", 
         "releases": [
             {
@@ -247,6 +270,9 @@
         "type": "Distribution"
     }, 
     "Bhuna distribution": {
+        "entries": [
+            "Bhuna"
+        ], 
         "github": "catseye/Bhuna", 
         "releases": [
             {
@@ -303,6 +329,9 @@
         "type": "Distribution"
     }, 
     "Braktif distribution": {
+        "entries": [
+            "Braktif"
+        ], 
         "github": "catseye/Braktif", 
         "releases": [
             {
@@ -324,6 +353,9 @@
         "type": "Distribution"
     }, 
     "Bubble Escape distribution": {
+        "entries": [
+            "Bubble Escape"
+        ], 
         "github": "catseye/Bubble-Escape", 
         "releases": [
             {
@@ -350,6 +382,9 @@
         "type": "Distribution"
     }, 
     "Burro distribution": {
+        "entries": [
+            "Burro"
+        ], 
         "github": "catseye/Burro", 
         "releases": [
             {
@@ -397,6 +432,9 @@
         "type": "Distribution"
     }, 
     "Cabra distribution": {
+        "entries": [
+            "Cabra"
+        ], 
         "github": "catseye/Cabra", 
         "releases": [
             {
@@ -445,6 +483,9 @@
         "type": "Distribution"
     }, 
     "Castile distribution": {
+        "entries": [
+            "Castile"
+        ], 
         "github": "catseye/Castile", 
         "releases": [
             {
@@ -476,6 +517,9 @@
         "type": "Distribution"
     }, 
     "Cfluviurrh distribution": {
+        "entries": [
+            "Cfluviurrh"
+        ], 
         "github": "catseye/Cfluviurrh", 
         "releases": [
             {
@@ -492,12 +536,18 @@
         "type": "Distribution"
     }, 
     "Chrysoberyl distribution": {
+        "entries": [
+            "Chrysoberyl"
+        ], 
         "fixed-tag": "bf3b16a", 
         "github": "catseye/Chrysoberyl", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "Circute distribution": {
+        "entries": [
+            "Circute"
+        ], 
         "github": "catseye/Circute", 
         "releases": [
             {
@@ -541,6 +591,9 @@
         "type": "Distribution"
     }, 
     "Corona: Realm of Magic distribution": {
+        "entries": [
+            "Corona: Realm of Magic"
+        ], 
         "github": "catseye/Corona-Realm-of-Magic", 
         "releases": [
             {
@@ -558,6 +611,9 @@
         "type": "Distribution"
     }, 
     "Deturgenchry distribution": {
+        "entries": [
+            "Deturgenchry"
+        ], 
         "fixed-tag": "2eb3b4a", 
         "github": "catseye/Deturgenchry", 
         "releases": [], 
@@ -567,6 +623,9 @@
         "type": "Distribution"
     }, 
     "Dieter distribution": {
+        "entries": [
+            "Dieter"
+        ], 
         "github": "catseye/Dieter", 
         "releases": [
             {
@@ -609,6 +668,9 @@
         "type": "Distribution"
     }, 
     "Dungeons of Ekileugor distribution": {
+        "entries": [
+            "Dungeons of Ekileugor"
+        ], 
         "github": "catseye/Dungeons-of-Ekileugor", 
         "releases": [
             {
@@ -630,6 +692,9 @@
         "type": "Distribution"
     }, 
     "Eightebed distribution": {
+        "entries": [
+            "Eightebed"
+        ], 
         "github": "catseye/Eightebed", 
         "releases": [
             {
@@ -656,6 +721,11 @@
         "type": "Distribution"
     }, 
     "Electronics Projects distribution": {
+        "entries": [
+            "Mildred", 
+            "LED-386", 
+            "The 'Kitsilano' Oscillator"
+        ], 
         "github": "catseye/Electronics-Projects", 
         "releases": [
             {
@@ -673,6 +743,9 @@
         "type": "Distribution"
     }, 
     "Emmental distribution": {
+        "entries": [
+            "Emmental"
+        ], 
         "github": "catseye/Emmental", 
         "releases": [
             {
@@ -704,6 +777,9 @@
         "type": "Distribution"
     }, 
     "Etcha distribution": {
+        "entries": [
+            "Etcha"
+        ], 
         "github": "catseye/Etcha", 
         "releases": [
             {
@@ -738,6 +814,9 @@
         "type": "Distribution"
     }, 
     "Exanoke distribution": {
+        "entries": [
+            "Exanoke"
+        ], 
         "github": "catseye/Exanoke", 
         "releases": [
             {
@@ -794,6 +873,9 @@
         "type": "Distribution"
     }, 
     "Falderal distribution": {
+        "entries": [
+            "Falderal"
+        ], 
         "github": "catseye/Falderal", 
         "releases": [
             {
@@ -874,6 +956,9 @@
         "type": "Distribution"
     }, 
     "Feedmark distribution": {
+        "entries": [
+            "Feedmark"
+        ], 
         "github": "catseye/Feedmark", 
         "releases": [
             {
@@ -902,6 +987,9 @@
         "type": "Distribution"
     }, 
     "Flobnar distribution": {
+        "entries": [
+            "Flobnar"
+        ], 
         "github": "catseye/Flobnar", 
         "releases": [
             {
@@ -926,6 +1014,9 @@
         "type": "Distribution"
     }, 
     "Funge-98 distribution": {
+        "entries": [
+            "Funge-98"
+        ], 
         "github": "catseye/Funge-98", 
         "releases": [
             {
@@ -979,6 +1070,9 @@
         "type": "Distribution"
     }, 
     "Gemooy distribution": {
+        "entries": [
+            "Gemooy"
+        ], 
         "github": "catseye/Gemooy", 
         "releases": [
             {
@@ -1001,6 +1095,9 @@
         "type": "Distribution"
     }, 
     "GraNoLa/M distribution": {
+        "entries": [
+            "GraNoLa/M"
+        ], 
         "github": "catseye/GraNoLa-M", 
         "releases": [
             {
@@ -1039,6 +1136,36 @@
         "type": "Distribution"
     }, 
     "HTML5 Gewgaws distribution": {
+        "entries": [
+            "Progression", 
+            "Prairie", 
+            "Fibonacci Spiral", 
+            "Canvas Feedback", 
+            "Markov Font", 
+            "Hypongtrochoid", 
+            "A Minimalist Critique of Tetris", 
+            "Black Hole Poem", 
+            "Chzrxl", 
+            "Art Restoration Simulator", 
+            "The Frame", 
+            "Heronsis hermnonicii", 
+            "Cheshire Text", 
+            "A Non-Random Walk", 
+            "Text Uniquifier", 
+            "Woman on Film", 
+            "Uncle Ankur", 
+            "Tentacles, Undamped", 
+            "Eine kleine Glitchfraktal", 
+            "Circus Xamulus", 
+            "Cyclobots", 
+            "Noise to Signal No. 1", 
+            "Radialjective", 
+            "Fingerspelling", 
+            "Hirsute Miasma", 
+            "Multicolouralism", 
+            "The Judgment of Paris", 
+            "Two Fifty Six"
+        ], 
         "fixed-tag": "152856c", 
         "github": "catseye/HTML5-Gewgaws", 
         "releases": [
@@ -1051,6 +1178,9 @@
         "type": "Distribution"
     }, 
     "HUNTER distribution": {
+        "entries": [
+            "HUNTER"
+        ], 
         "github": "catseye/HUNTER", 
         "releases": [
             {
@@ -1077,6 +1207,9 @@
         "type": "Distribution"
     }, 
     "Hev distribution": {
+        "entries": [
+            "Hev"
+        ], 
         "github": "catseye/Hev", 
         "releases": [
             {
@@ -1150,6 +1283,9 @@
         "type": "Distribution"
     }, 
     "Illgol: Grand Mal": {
+        "entries": [
+            "ILLGOL"
+        ], 
         "fixed-tag": "rel_16_tons_and_what_do_you_get", 
         "github": "catseye/Illgol-Grand-Mal", 
         "releases": [], 
@@ -1172,6 +1308,9 @@
         "type": "Distribution"
     }, 
     "Iphigeneia distribution": {
+        "entries": [
+            "Iphigeneia"
+        ], 
         "github": "catseye/Iphigeneia", 
         "releases": [
             {
@@ -1211,6 +1350,9 @@
         "type": "Distribution"
     }, 
     "Jaccia and Jacciata distribution": {
+        "entries": [
+            "Jaccia"
+        ], 
         "github": "catseye/Jaccia", 
         "releases": [
             {
@@ -1257,6 +1399,9 @@
         "type": "Distribution"
     }, 
     "Jolverine distribution": {
+        "entries": [
+            "Jolverine"
+        ], 
         "github": "catseye/Jolverine", 
         "releases": [
             {
@@ -1273,6 +1418,9 @@
         "type": "Distribution"
     }, 
     "Kangaroo Iceberg distribution": {
+        "entries": [
+            "Kangaroo Iceberg"
+        ], 
         "github": "catseye/Kangaroo-Iceberg", 
         "releases": [
             {
@@ -1302,12 +1450,18 @@
         "type": "Distribution"
     }, 
     "Kelxquoia distribution": {
+        "entries": [
+            "Kelxquoia"
+        ], 
         "fixed-tag": "f833867", 
         "github": "catseye/Kelxquoia", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "Kosheri distribution": {
+        "entries": [
+            "Kosheri"
+        ], 
         "github": "catseye/Kosheri", 
         "releases": [
             {
@@ -1333,6 +1487,9 @@
         "type": "Distribution"
     }, 
     "Larabee distribution": {
+        "entries": [
+            "Larabee"
+        ], 
         "github": "catseye/Larabee", 
         "releases": [
             {
@@ -1359,6 +1516,9 @@
         "type": "Distribution"
     }, 
     "Lexeduct distribution": {
+        "entries": [
+            "Lexeduct"
+        ], 
         "github": "catseye/Lexeduct", 
         "releases": [
             {
@@ -1393,6 +1553,9 @@
         "type": "Distribution"
     }, 
     "Maentwrog distribution": {
+        "entries": [
+            "Maentwrog"
+        ], 
         "github": "catseye/Maentwrog", 
         "releases": [
             {
@@ -1419,6 +1582,9 @@
         "type": "Distribution"
     }, 
     "Mascarpone distribution": {
+        "entries": [
+            "Mascarpone"
+        ], 
         "github": "catseye/Mascarpone", 
         "releases": [
             {
@@ -1455,6 +1621,9 @@
         "type": "Distribution"
     }, 
     "Matchbox distribution": {
+        "entries": [
+            "Matchbox"
+        ], 
         "github": "catseye/Matchbox", 
         "releases": [
             {
@@ -1467,6 +1636,9 @@
         "type": "Distribution"
     }, 
     "Maxixe distribution": {
+        "entries": [
+            "Maxixe"
+        ], 
         "github": "catseye/Maxixe", 
         "releases": [
             {
@@ -1480,6 +1652,9 @@
     }, 
     "Minischeme distribution": {
         "description": "Cat's Eye Technologies' fork of the original Mini-scheme distribution.\n", 
+        "entries": [
+            "miniscm"
+        ], 
         "fixed-tag": "0.85ce1", 
         "github": "catseye/minischeme", 
         "reference": false, 
@@ -1487,6 +1662,9 @@
         "type": "Distribution"
     }, 
     "Muriel distribution": {
+        "entries": [
+            "muriel.pl"
+        ], 
         "github": "catseye/Muriel", 
         "releases": [
             {
@@ -1532,6 +1710,9 @@
         "type": "Distribution"
     }, 
     "Nhohnhehr distribution": {
+        "entries": [
+            "Nhohnhehr"
+        ], 
         "github": "catseye/Nhohnhehr", 
         "releases": [
             {
@@ -1570,6 +1751,9 @@
     }, 
     "OpenZz distribution": {
         "description": "Cat's Eye Technologies' fork of OpenZz, an open-source implementation\nof the dynamic grammar-based language Zz.\n", 
+        "entries": [
+            "OpenZz"
+        ], 
         "fixed-tag": "1.0.4-4ce1", 
         "github": "catseye/OpenZz", 
         "reference": false, 
@@ -1577,6 +1761,9 @@
         "type": "Distribution"
     }, 
     "PL-{GOTO}.NET distribution": {
+        "entries": [
+            "PL-{GOTO}.NET"
+        ], 
         "github": "catseye/PL-GOTO.NET", 
         "releases": [
             {
@@ -1622,6 +1809,9 @@
         "type": "Distribution"
     }, 
     "Pail distribution": {
+        "entries": [
+            "Pail"
+        ], 
         "github": "catseye/Pail", 
         "releases": [
             {
@@ -1656,6 +1846,9 @@
         "type": "Distribution"
     }, 
     "Pixley distribution": {
+        "entries": [
+            "Pixley"
+        ], 
         "github": "catseye/Pixley", 
         "releases": [
             {
@@ -1708,12 +1901,18 @@
         "type": "Distribution"
     }, 
     "Pophery distribution": {
+        "entries": [
+            "Pophery"
+        ], 
         "fixed-tag": 1268947, 
         "github": "catseye/Pophery", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "Quylthulg distribution": {
+        "entries": [
+            "Quylthulg"
+        ], 
         "github": "catseye/Quylthulg", 
         "releases": [
             {
@@ -1763,6 +1962,9 @@
         "type": "Distribution"
     }, 
     "REDGREEN distribution": {
+        "entries": [
+            "REDGREEN"
+        ], 
         "github": "catseye/REDGREEN", 
         "releases": [
             {
@@ -1810,6 +2012,9 @@
         "type": "Distribution"
     }, 
     "RUBE distribution": {
+        "entries": [
+            "RUBE"
+        ], 
         "github": "catseye/RUBE", 
         "releases": [
             {
@@ -1872,6 +2077,9 @@
         "type": "Distribution"
     }, 
     "Robin distribution": {
+        "entries": [
+            "Robin"
+        ], 
         "github": "catseye/Robin", 
         "releases": [
             {
@@ -1892,6 +2100,9 @@
         "type": "Distribution"
     }, 
     "SICKBAY distribution": {
+        "entries": [
+            "SICKBAY"
+        ], 
         "github": "catseye/SICKBAY", 
         "releases": [
             {
@@ -1904,6 +2115,9 @@
         "type": "Distribution"
     }, 
     "SITU-SOL distribution": {
+        "entries": [
+            "SITU-SOL"
+        ], 
         "github": "catseye/SITU-SOL", 
         "releases": [
             {
@@ -1921,6 +2135,9 @@
         "type": "Distribution"
     }, 
     "SMETANA distribution": {
+        "entries": [
+            "SMETANA"
+        ], 
         "github": "catseye/SMETANA", 
         "releases": [
             {
@@ -1937,6 +2154,9 @@
         "type": "Distribution"
     }, 
     "SMITH distribution": {
+        "entries": [
+            "SMITH"
+        ], 
         "github": "catseye/SMITH", 
         "releases": [
             {
@@ -1983,6 +2203,9 @@
         "type": "Distribution"
     }, 
     "Sally distribution": {
+        "entries": [
+            "Sally"
+        ], 
         "github": "catseye/Sally", 
         "releases": [
             {
@@ -2014,6 +2237,9 @@
         "type": "Distribution"
     }, 
     "Samovar distribution": {
+        "entries": [
+            "Samovar"
+        ], 
         "github": "catseye/Samovar", 
         "releases": [
             {
@@ -2026,6 +2252,9 @@
         "type": "Distribution"
     }, 
     "Sbeezg distribution": {
+        "entries": [
+            "Sbeezg"
+        ], 
         "github": "catseye/Sbeezg", 
         "releases": [
             {
@@ -2042,6 +2271,9 @@
         "type": "Distribution"
     }, 
     "Schr\u00f6dinger's Game of Life distribution": {
+        "entries": [
+            "Schr\u00f6dinger's Game of Life"
+        ], 
         "github": "catseye/Schroedingers-Game-of-Life", 
         "releases": [
             {
@@ -2054,6 +2286,9 @@
         "type": "Distribution"
     }, 
     "Shelta distribution": {
+        "entries": [
+            "Shelta"
+        ], 
         "github": "catseye/Shelta", 
         "releases": [
             {
@@ -2080,6 +2315,9 @@
         "type": "Distribution"
     }, 
     "SixtyPical distribution": {
+        "entries": [
+            "SixtyPical"
+        ], 
         "github": "catseye/SixtyPical", 
         "releases": [
             {
@@ -2122,6 +2360,15 @@
         "type": "Distribution"
     }, 
     "Specs on Spec distribution": {
+        "entries": [
+            "Opus-2", 
+            "Madison", 
+            "You are Reading the Name of this Esolang", 
+            "Didigm", 
+            "MDPN", 
+            "Oozlybub and Murphy", 
+            "Tamerlane"
+        ], 
         "github": "catseye/Specs-on-Spec", 
         "releases": [
             {
@@ -2144,6 +2391,9 @@
         "type": "Distribution"
     }, 
     "Squishy2K distribution": {
+        "entries": [
+            "Squishy2K"
+        ], 
         "github": "catseye/Squishy2K", 
         "releases": [
             {
@@ -2160,6 +2410,9 @@
         "type": "Distribution"
     }, 
     "Strelnokoff distribution": {
+        "entries": [
+            "Strelnokoff"
+        ], 
         "github": "catseye/Strelnokoff", 
         "releases": [
             {
@@ -2181,6 +2434,9 @@
         "type": "Distribution"
     }, 
     "Super Wumpus Land distribution": {
+        "entries": [
+            "Super Wumpus Land"
+        ], 
         "github": "catseye/Super-Wumpus-Land", 
         "releases": [
             {
@@ -2250,6 +2506,9 @@
         "type": "Distribution"
     }, 
     "Tamsin distribution": {
+        "entries": [
+            "Tamsin"
+        ], 
         "github": "catseye/Tamsin", 
         "releases": [
             {
@@ -2287,6 +2546,9 @@
         "type": "Distribution"
     }, 
     "The Cat's Eye Technologies Platform distribution": {
+        "entries": [
+            "The Cat's Eye Technologies Platform"
+        ], 
         "github": "catseye/The-Platform", 
         "releases": [
             {
@@ -2315,18 +2577,28 @@
     }, 
     "The Dipple": {
         "description": "The Dipple is where code goes when its home planet has been\ndestroyed.  With apologies to Andre Norton.\n", 
+        "entries": [
+            "sf2tab", 
+            "valgol.erl"
+        ], 
         "fixed-tag": "f867719", 
         "github": "catseye/Dipple", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "The Dossier distribution": {
+        "entries": [
+            "The Dossier"
+        ], 
         "fixed-tag": "f9437d5", 
         "github": "catseye/The-Dossier", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "The New Gamerly Realism distribution": {
+        "entries": [
+            "The New Gamerly Realism"
+        ], 
         "github": "catseye/The-New-Gamerly-Realism", 
         "releases": [
             {
@@ -2362,6 +2634,9 @@
         "type": "Distribution"
     }, 
     "Thue distribution": {
+        "entries": [
+            "thue.rb"
+        ], 
         "github": "catseye/Thue", 
         "releases": [
             {
@@ -2393,6 +2668,9 @@
         "type": "Distribution"
     }, 
     "Treacle distribution": {
+        "entries": [
+            "Treacle"
+        ], 
         "github": "catseye/Treacle", 
         "releases": [
             {
@@ -2414,12 +2692,18 @@
         "type": "Distribution"
     }, 
     "Troupe distribution": {
+        "entries": [
+            "Troupe"
+        ], 
         "fixed-tag": "d9dd637", 
         "github": "catseye/Troupe", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "Unlikely distribution": {
+        "entries": [
+            "Unlikely"
+        ], 
         "github": "catseye/Unlikely", 
         "releases": [
             {
@@ -2462,6 +2746,9 @@
         "type": "Distribution"
     }, 
     "Velo distribution": {
+        "entries": [
+            "Velo"
+        ], 
         "github": "catseye/Velo", 
         "releases": [
             {
@@ -2486,6 +2773,9 @@
         "type": "Distribution"
     }, 
     "Version distribution": {
+        "entries": [
+            "Version"
+        ], 
         "github": "catseye/Version", 
         "releases": [
             {
@@ -2507,6 +2797,9 @@
         "type": "Distribution"
     }, 
     "Wang Tilers distribution": {
+        "entries": [
+            "Backtracking Wang Tiler"
+        ], 
         "github": "catseye/Wang-Tilers", 
         "releases": [
             {
@@ -2519,6 +2812,9 @@
         "type": "Distribution"
     }, 
     "Whothm distribution": {
+        "entries": [
+            "Whothm"
+        ], 
         "github": "catseye/Whothm", 
         "releases": [
             {
@@ -2550,6 +2846,9 @@
         "type": "Distribution"
     }, 
     "Wierd distribution": {
+        "entries": [
+            "Wierd"
+        ], 
         "github": "catseye/Wierd", 
         "releases": [
             {
@@ -2593,6 +2892,9 @@
         "type": "Distribution"
     }, 
     "Xigxag distribution": {
+        "entries": [
+            "Xigxag"
+        ], 
         "github": "catseye/Xigxag", 
         "releases": [
             {
@@ -2619,6 +2921,9 @@
         "type": "Distribution"
     }, 
     "Xoomonk distribution": {
+        "entries": [
+            "Xoomonk"
+        ], 
         "github": "catseye/Xoomonk", 
         "releases": [
             {
@@ -2648,6 +2953,9 @@
         "type": "Distribution"
     }, 
     "Yolk distribution": {
+        "entries": [
+            "Yolk"
+        ], 
         "github": "catseye/Yolk", 
         "releases": [
             {
@@ -2668,6 +2976,9 @@
         "type": "Distribution"
     }, 
     "Ypsilax distribution": {
+        "entries": [
+            "Ypsilax"
+        ], 
         "github": "catseye/Ypsilax", 
         "releases": [
             {
@@ -2715,6 +3026,9 @@
         "type": "Distribution"
     }, 
     "ZOWIE distribution": {
+        "entries": [
+            "ZOWIE"
+        ], 
         "github": "catseye/ZOWIE", 
         "releases": [
             {
@@ -2746,6 +3060,9 @@
         "type": "Distribution"
     }, 
     "Zzrk distribution": {
+        "entries": [
+            "Zzrk"
+        ], 
         "github": "catseye/Zzrk", 
         "releases": [
             {
@@ -2787,6 +3104,9 @@
         "type": "Distribution"
     }, 
     "beta-Juliet distribution": {
+        "entries": [
+            "beta-Juliet"
+        ], 
         "github": "catseye/beta-Juliet", 
         "releases": [
             {
@@ -2876,6 +3196,9 @@
     }, 
     "ee distribution": {
         "description": "Cat's Eye Technologies' fork of `ee`, the \"easy editor\" which comes with [[FreeBSD]].\nWe forked it to allow easier bundling, namely into [[The Platform]].\n", 
+        "entries": [
+            "ee"
+        ], 
         "fixed-tag": "1.5.2ce1", 
         "github": "catseye/ee", 
         "reference": false, 
@@ -2960,6 +3283,9 @@
         "type": "Distribution"
     }, 
     "noit o' mnain worb distribution": {
+        "entries": [
+            "noit o' mnain worb"
+        ], 
         "github": "catseye/noit-o-mnain-worb", 
         "releases": [
             {
@@ -3026,6 +3352,9 @@
         "type": "Distribution"
     }, 
     "pibfi distribution": {
+        "entries": [
+            "pibfi"
+        ], 
         "github": "catseye/pibfi", 
         "releases": [
             {
@@ -3094,6 +3423,9 @@
         "type": "Distribution"
     }, 
     "stringie distribution": {
+        "entries": [
+            "stringie"
+        ], 
         "github": "catseye/stringie", 
         "releases": [], 
         "type": "Distribution"
@@ -3194,6 +3526,22 @@
         "type": "Distribution"
     }, 
     "yoob distribution": {
+        "entries": [
+            "tc.catseye.yoob.onela", 
+            "tc.catseye.yoob.twoill", 
+            "Wunnel", 
+            "tc.catseye.yoob.ale", 
+            "tc.catseye.yoob.sceql", 
+            "tc.catseye.yoob.twol", 
+            "tc.catseye.yoob.black", 
+            "tc.catseye.yoob.brainfuck", 
+            "tc.catseye.yoob.qdeql", 
+            "tc.catseye.yoob.path", 
+            "tc.catseye.yoob.onelaoi", 
+            "tc.catseye.yoob.lnusp", 
+            "tc.catseye.yoob.snusp", 
+            "tc.catseye.yoob.backflip"
+        ], 
         "github": "catseye/yoob", 
         "releases": [
             {

@@ -2719,7 +2719,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 *   genre: Machine language
 *   paradigms: Imperative
 *   etymology: portmanteau
-*   reference-distribution: SixtyPical distribution
+*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
 *   sample program: 
 
         byte table screen @ 1024
