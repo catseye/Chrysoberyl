@@ -16,8 +16,6 @@ from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_config, overlay_yaml
 )
 from chrysoberyl.objects import Universe, get_distname
-from chrysoberyl.renderer import Renderer
-from chrysoberyl.transformer import transform_dates
 
 
 ### command functions ###
