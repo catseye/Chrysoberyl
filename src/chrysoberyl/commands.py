@@ -11,7 +11,6 @@ import os
 import re
 import sys
 
-from chrysoberyl.checker import check_chrysoberyl_data
 from chrysoberyl.loader import (
     load_chrysoberyl_dirs, load_config, overlay_yaml
 )
@@ -735,8 +734,6 @@ def perform(args):
         for filename in config[key].get('link_priority_files', []):
             with open(filename, 'r') as f:
                 link_priority_refdex.update(json.loads(f.read()))
-
-        check_chrysoberyl_data(universe, universe[key], link_priority_refdex)
 
     for command in args:
         func = COMMANDS.get(command, None)
