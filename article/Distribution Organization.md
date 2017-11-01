@@ -16,7 +16,7 @@ choice, but it's not as nicely symmetrical.
 Using only the release date to identify releases mostly suffices for
 distributions like ours, which rarely have any maintenance needs warranting
 branches and such. But most of our distributions do contain implementations of
-[[Programming Language|programming languages]],
+[programming languages][],
 and these languages may or may not change
 between releases. For example, if we're just fixing bugs in a feature of
 the implementation, or clarifying the documentation or whatever, that's
@@ -60,8 +60,8 @@ The rules for when these numbers change are as follows:
 
 ### Filesystem Organization
 
-This is a rough guide to how [[Cat's Eye Technologies]]'
-[[Distribution|distributions]] are laid out.  It is prescriptive,
+This is a rough guide to how [Cat's Eye Technologies][]' distributions
+are laid out.  It is prescriptive,
 specifying how distributions should be laid out, but it is informed by
 the general pattern we're trying to find in our distributions.  This
 guide is currently a work in progress and should not be considered
@@ -76,7 +76,7 @@ Certain files in a distribution's root directory have standard meanings:
     where to get the latest version of the distribution, and what other
     tools might be needed to use (run or build) the files found in it.
     
-    READMEs for [[Esolang|esolangs]] may describe the entire language.
+    READMEs for [esolangs][] may describe the entire language.
     I'm not sure if this is a good practice or not.
     It started because Bitbucket would only HTMLify
     a Markdown file in its source viewer if it was the README, but now
@@ -91,7 +91,7 @@ Certain files in a distribution's root directory have standard meanings:
     A short text document explaining what license or licenses the
     content of the distribution is available under.  The filename
     `UNLICENSE` is used instead if (and only if) the entire contents of
-    the distribution are in the [[Public Domain|public domain]].
+    the distribution are in the public domain.
 
 -   `make.sh` or `Makefile`
     
@@ -120,8 +120,8 @@ well:
     
     Where executables shoud be kept.  Distributions should generally not
     contain native executables; the main exception to this rule is native
-    executables for "legacy platforms" such as [[MS-DOS]] and
-    [[Commodore 64]] computers.
+    executables for "legacy platforms" such as [MS-DOS][] and
+    [Commodore 64][] computers.
     
     Native executables may be written into the `bin` directory when they
     are built from other files in the distribution by e.g. `make.sh`.
@@ -207,3 +207,10 @@ well:
     Where source code is kept.  For distributions containing more than
     one implementation, this is where the reference implementation is
     kept; other implementations should probably be in `impl` instead.
+
+[programming languages]: http://catseye.tc/article/Languages.md
+[esolangs]: ../article/General_Information.md#esolang
+[Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
+[MS-DOS]: ../article/Retrocomputing.md#ms-dos
+[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+
