@@ -295,19 +295,6 @@ defining-distribution: C64 Demo Depot
 
 A tiny (44 byte) "display hack" for the Commodore 64.
 
-### Plea of Thunder
-
-*   authors: VARIABLE
-*   inception-date: 2012
-
-Conceptual art: A Java applet that you and your friends can own!
-
-#### Reference Implementation: PleaOfThunder.java
-
-*   license: Public Domain
-*   host-language: Java
-*   online-locations: installation/Plea of Thunder
-
 Forked Tools
 ------------
 

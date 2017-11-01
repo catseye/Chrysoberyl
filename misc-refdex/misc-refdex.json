@@ -278,6 +278,15 @@
     "Disambiguation Node": {
         "url": "http://catseye.tc/article/General Information.md"
     }, 
+    "Online Installation": {
+        "url": "http://catseye.tc/article/HTML5 Installations"
+    }, 
+    "type": {
+        "url": "http://catseye.tc/"
+    },
+    "Distribution": {
+        "url": "https://github.com/catseye/"
+    },
 
 
     "Book": {
@@ -616,10 +625,6 @@
     "cyclobots.js": {
         "anchor": "cyclobots", 
         "filename": "article/Automata.md"
-    },
-    "PleaOfThunder.java": {
-        "anchor": "plea-of-thunder", 
-        "filename": "article/Tools.md"
     },
     "lexeduct-browser.js": {
         "anchor": "lexeduct", 

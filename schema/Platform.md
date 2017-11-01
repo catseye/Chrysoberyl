@@ -37,3 +37,9 @@ development-stage
 
 distribution
 
+### online
+
+*   optional: true
+*   multiple: true
+
+Online.

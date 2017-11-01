@@ -47,6 +47,7 @@ A pre-built disk image is available to download via
 *   inception-date: ca 1999
 *   development-stage: archival
 *   reference-distribution: [BefOS distribution](/distribution/BefOS distribution)
+*   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
 
 Begun in the late 90's as a project to write an "operating system"
 in the theme of [Befunge-93][], *BefOS* is a program for the

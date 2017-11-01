@@ -60,3 +60,34 @@ interactive
 *   optional: true
 
 launch-config
+
+### style
+
+*   optional: true
+
+style
+
+### viewport
+
+*   optional: true
+
+viewport
+
+### jnlp-link
+
+*   optional: true
+
+JNLP link.
+
+### v86-floppy-image-url
+
+*   optional: true
+
+v86-floppy-image-url
+
+### online
+
+*   optional: true
+*   multiple: true
+
+Online.

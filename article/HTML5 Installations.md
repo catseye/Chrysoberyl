@@ -1,7 +1,7 @@
 HTML5 Installations
 ===================
 
-This is a list of [languages][], [automata][], [games][] and [gewgaws][]
+This is a list of [games][], [platforms][], [automata][], [languages][], and [gewgaws][]
 which have HTML5 installations hosted online on [Cat's Eye Technologies][]'
 website, `catseye.tc`.
 
@@ -12,9 +12,6 @@ more machine-read than human-read, but you can just skip over those.
 
 Internal note: this file should not be used as input when creating a refdex.
 
-Games
------
-
 ### Bubble Escape
 
 *   installation-of: [Bubble Escape 2K][]
@@ -22,10 +19,16 @@ Games
 *   interactive: true
 *   animated: true
 *   mediums: [6502 machine code][], [JaC64][], [Java Web Start][], [HTML5][]
+*   jnlp-link: http://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/Bubble_Escape)
 
 You can play it online in the [JaC64][] emulator using Java Web Start.
 Use your arrow keys to guide the bubble through the maze.  Avoid the
 hazards and find the five keys to unlock the exit.
+
+You can also download the D64 disk image file
+[bubble escape.d64](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
+and run it in VICE x64 or some other Commodore 64 emulator.
 
 If this game doesn't seem too impressive to you, try to remember, it's
 only two kilobytes of code!  These days you can't even sneeze in less
@@ -41,6 +44,7 @@ than a megabyte.
 *   javascript-module: super-wumpus-land
 *   javascript-urls: impl/swl.js/src/swl.js
 *   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Super_Wumpus_Land)
 
 If your keystrokes aren't going into the "terminal", make sure you
 click in it first (it's focusable.)
@@ -52,9 +56,15 @@ click in it first (it's focusable.)
 *   interactive: true
 *   animated: false
 *   mediums: [Z-Machine code][], [Zplet][], [Java Web Start][], [HTML5][]
+*   jnlp-link: http://catseye.tc/applets/never_ending_maze_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Never-Ending_Maze)
 
 It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
 Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
+
+You can also download the Z5 story file
+[never-ending-maze-1.0.z5](http://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
+and run it in Frotz or some other Z-Machine emulator.
 
 ### The New Gamerly Realism
 
@@ -66,6 +76,25 @@ Type commands for the actions that you want to undertake in the game.  For insta
 *   javascript-module: the-new-gamerly-realism
 *   javascript-urls: src/the-new-gamerly-realism.js
 *   script-root: ../modules/the-new-gamerly-realism/src/
+*   online @ [catseye.tc](http://catseye.tc/ix/The_New_Gamerly_Realism)
+
+#### Background
+
+Only when the conscious habit of coding culture's little interactions,
+Marios and Lara Crofts in games disappears
+_will we witness a purely gamerly work of gamedev_.
+
+I have transformed myself _in the zero of gameplay_ and have fished myself out
+of the _rubbishy slough of mainstream gaming_...
+
+Only dull and impotent gamedevs veil their work with _sincerity_.
+Gaming requires _truth_, not _sincerity_.
+
+_Levels have vanished like smoke; to attain the new gamerly paradigm_,
+gamedev advances towards creation as an end in itself and towards
+reification of the interactions of culture.
+
+#### Instructions
 
 Use the arrow keys to guide the protagonist (represented by a black square)
 around the playfield (represented by a black square) to collect all the
@@ -90,9 +119,10 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: cheshire-text/cheshire-text.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: article { margin: 0; } #installation { padding: 2em; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Cheshire_Text)
 
-Platforms
----------
+As if there aren't enough remixes of Lewis Carroll's works already.
 
 ### BefOS
 
@@ -101,6 +131,8 @@ Platforms
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
+*   v86-floppy-image-url: ../resource/befos-0.10.img
+*   online @ [catseye.tc](http://catseye.tc/ix/BefOS)
 
 This is an HTML5 installation of [BefOS][], a Befunge-themed operating
 system which is neither Befunge, nor an operating system.  (Discuss.)
@@ -117,9 +149,6 @@ and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
-Automata
---------
-
 ### Backtracking Wang Tiler
 
 *   installation-of: [Backtracking Wang Tiler][]
@@ -130,6 +159,7 @@ Automata
 *   javascript-module: wang-tilers
 *   javascript-urls: src/backtracking-wang-tiler.js
 *   script-root: ../modules/wang-tilers/src/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Backtracking_Wang_Tiler)
 
 This is an in-browser implementation, in [Javascript][] and [HTML5][],
 of a backtracking Wang tiler.
@@ -147,6 +177,9 @@ For more information on this automaton and its implementation, see
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: braktif
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/braktif.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Braktif)
 
 This is the [Braktif][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -155,6 +188,9 @@ Instructions:
 
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
+
+You may wish to read the definition of this cellular automaton:
+[braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
 
 ### Chzrxl
 
@@ -166,6 +202,8 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: chzrxl/chzrxl.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
+*   online @ [catseye.tc](http://catseye.tc/ix/Chzrxl)
 
 Instructions:
 
@@ -192,6 +230,9 @@ organic-seeming emergent motion.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: circute
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/circute.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Circute)
 
 This is the [Circute][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -201,6 +242,9 @@ Instructions:
 Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
+
+You may wish to read the definition of this cellular automaton:
+[circute.alp](https://github.com/catseye/Circute/blob/master/src/circute.alp).
 
 ### Cyclobots
 
@@ -213,6 +257,8 @@ or create your own.
 *   javascript-urls: cyclobots/cyclobots.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { width: 640, height: 480 }
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Cyclobots)
 
 This is an in-browser implementation of [Cyclobots][].
 
@@ -231,6 +277,9 @@ dragging on the playfield will scroll it.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: jaccia
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jaccia.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Jaccia)
 
 This is the [Jaccia][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -241,6 +290,9 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+You may wish to read the definition of this cellular automaton:
+[jaccia.alp](https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp).
+
 ### Jacciata
 
 *   installation-of: [Jacciata][]
@@ -248,6 +300,9 @@ or create your own.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: jaccia
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jacciata.js
+*   online @ [catseye.tc](http://catseye.tc/ix/Jacciata)
 
 This is the [Jacciata][] cellular automaton, compiled to Javascript
 using [ALPACA][] and animated using [yoob.js][].
@@ -258,6 +313,9 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+You may wish to read the definition of this cellular automaton:
+[jacciata.alp](https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp).
+
 ### REDGREEN
 
 *   installation-of: [REDGREEN][]
@@ -265,6 +323,9 @@ or create your own.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: redgreen
+*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/redgreen.js
+*   online @ [catseye.tc](http://catseye.tc/ix/REDGREEN)
 
 This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
 and animated using [yoob.js][].
@@ -274,6 +335,9 @@ Instructions:
 Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
+
+You may wish to read the definition of this cellular automaton:
+[redgreen.alp](https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp).
 
 ### Schrödinger's Game of Life
 
@@ -286,6 +350,7 @@ or create your own.
 *   javascript-urls: impl/slife.js/src/slife.js
 *   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
 *   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
 Schrödinger's Game of Life.
 
@@ -296,6 +361,11 @@ Schrödinger's Game of Life.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: noit-o-mnain-worb
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/worb.js/src/yoob/controller.js,impl/worb.js/src/yoob/playfield.js,impl/worb.js/src/yoob/playfield-canvas-view.js,impl/worb.js/src/yoob/preset-manager.js,impl/worb.js/src/yoob/source-manager.js,impl/worb.js/src/worb.js,../../scripts/launch-noit-o-mnain-worb.js
+*   script-root: ../modules/noit-o-mnain-worb/src/yoob/
+*   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/noit_o'_mnain_worb)
 
 This online interpreter for the
 [noit o' mnain worb][] probabilistic particle automaton
@@ -307,9 +377,6 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
-Languages
----------
-
 ### Etcha
 
 *   installation-of: [Etcha][]
@@ -317,6 +384,11 @@ Languages
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: etcha
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/etcha.js/src/yoob/controller.js,impl/etcha.js/src/yoob/playfield.js,impl/etcha.js/src/yoob/cursor.js,impl/etcha.js/src/yoob/playfield-canvas-view.js,impl/etcha.js/src/yoob/source-html-view.js,impl/etcha.js/src/yoob/preset-manager.js,impl/etcha.js/src/yoob/source-manager.js,impl/etcha.js/src/etcha.js,../../scripts/launch-etcha.js
+*   script-root: ../modules/etcha/src/yoob/
+*   style: #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Etcha)
 
 This in-browser installation of [Etcha][] is implemented in
 [Javascript][], using [yoob.js][].
@@ -333,6 +405,11 @@ modify it, and create your own program.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: gemooy
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,src/yoob/controller.js,src/yoob/playfield.js,src/yoob/playfield-canvas-view.js,src/yoob/cursor.js,src/yoob/preset-manager.js,src/yoob/source-manager.js,src/gemooy.js,../../scripts/launch-gemooy.js
+*   script-root: ../modules/gemooy/src/yoob/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Gemooy)
 
 This in-browser installation of [Gemooy][] is implemented in
 [Javascript][], using [yoob.js][].
@@ -351,6 +428,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   javascript-urls: src/matchbox-launcher.js
 *   script-root: ../modules/matchbox/src/
 *   launch-config: { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Matchbox)
 
 Instructions:
 
@@ -366,9 +444,11 @@ conditions between them.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
-*   javascript-module: wang-tilers
-*   javascript-urls: src/backtracking-wang-tiler.js
-*   script-root: ../modules/wang-tilers/src/yoob/
+*   javascript-module: pixley
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/pixley.js/src/pixley.js,impl/pixley.js/src/yoob/source-manager.js,impl/pixley.js/src/yoob/preset-manager.js,impl/pixley.js/src/pixley-controller.js,impl/pixley.js/src/pixley-depictor.js,../../scripts/launch-pixley.js
+*   script-root: ../modules/pixley/impl/pixley.js/src/yoob
+*   style: #step { display: none; } #reset { display: none; } #speed_container { display: none; } #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Pixley)
 
 Instructions:
 
@@ -416,6 +496,8 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: true
 *   mediums: x86 machine code, FreeDOS, v86, HTML5
+*   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
+*   online @ [catseye.tc](http://catseye.tc/ix/Shelta)
 
 This is [Shelta][], a language with a tiny compiler and a
 self-hosted compiler, running under [FreeDOS][] running
@@ -456,6 +538,8 @@ a floppy disk somehow...
 *   interactive: true
 *   animated: false
 *   mediums: Java Web Start, HTML5
+*   jnlp-link: http://catseye.tc/applets/whothm_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
 This installation contains a Java application which implements Whothm, and lets you
@@ -493,6 +577,7 @@ imagination.
 *   javascript-urls: dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
 *   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
 *   launch-config: { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' }
+*   online @ [catseye.tc](http://catseye.tc/ix/Wierd_(John_Colagioia))
 
 Wierd.
 
@@ -503,6 +588,8 @@ Wierd.
 *   interactive: true
 *   animated: true
 *   mediums: Java Web Start, HTML5
+*   jnlp-link: http://catseye.tc/applets/yoob_webstart.jnlp
+*   online @ [catseye.tc](http://catseye.tc/ix/yoob)
 
 [yoob][] is a public-domain framework for implementing
 [esoteric programming languages](Esolang), and allowing them to be
@@ -521,6 +608,11 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   javascript-module: wunnel
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/wunnel.js/src/yoob/playfield.js,impl/wunnel.js/src/yoob/playfield-html-view.js,impl/wunnel.js/src/yoob/cursor.js,impl/wunnel.js/src/yoob/tape.js,impl/wunnel.js/src/yoob/controller.js,impl/wunnel.js/src/yoob/preset-manager.js,impl/wunnel.js/src/wunnel-controller.js,../../scripts/launch-wunnel.js
+*   script-root: ../modules/wunnel/src/yoob/
+*   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Wunnel)
 
 This is an HTML5-based implementation of the
 esoteric programming language [Wunnel][].
@@ -541,6 +633,11 @@ will consume them in order, and continue running.
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
+*   javascript-module: zowie
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,../../modules/html5-gewgaws/common-yoob.js-0.11/preset-manager.js,../../contrib/skulpt/skulpt.min.js,../../contrib/skulpt/skulpt-stdlib.js,../../scripts/launch-zowie.js
+*   script-root: ../modules/zowie/src/yoob/
+*   style: .internal_source { display: none; } .initial_configuration { display: none; } #output { border: 1px solid blue; }
+*   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
 
 This is an [HTML5][]-based interpreter for the
 [esoteric programming language][] [ZOWIE][].
@@ -556,9 +653,6 @@ Select an example program from the dropdown box, then click "Run" to
 run it.  Or edit an example program in the text box, or create your own
 program.
 
-Gewgaws
--------
-
 ### A Minimalist Critique of Tetris
 
 *   installation-of: a-minimalist-critique.js
@@ -568,6 +662,8 @@ Gewgaws
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-minimalist-critique/a-minimalist-critique.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
+*   online @ [catseye.tc](http://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
 
 A minimalist critique of Tetris.
 
@@ -581,6 +677,8 @@ A minimalist critique of Tetris.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-non-random-walk/a-non-random-walk.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/A_Non-Random_Walk)
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
@@ -606,6 +704,7 @@ cards.
 *   javascript-urls: art-restoration-simulator/art-restoration-simulator.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') }
+*   online @ [catseye.tc](http://catseye.tc/ix/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
@@ -619,6 +718,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: black-hole-poem/black-hole-poem.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Black_Hole_Poem)
 
 Darker-beige squares can be dragged with your mouse or your finger
 (for what good it will do you.)
@@ -641,7 +741,9 @@ because that is our best guess at
 *   javascript-module: canvas-feedback
 *   javascript-urls: src/canvas-feedback.js
 *   script-root: ../modules/canvas-feedback/src/yoob/
-*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg', 'controlPanel': document.getElementById('control_panel') }
+*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg' }
+*   style: #installation { text-align: center; } #installation > canvas { float: left; } #installation > div { width: 50%; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Canvas_Feedback)
 
 To begin exploring, we suggest you first try different presets
 from the *Presets* drop-down in the control panel on the right.
@@ -724,6 +826,8 @@ process.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
 
 ### Eine kleine Glitchfraktal
@@ -736,6 +840,7 @@ process.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Eine_kleine_Glitchfraktal)
 
 Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
@@ -750,6 +855,8 @@ of glitching applied to the rectangles.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fibonacci-spiral/fibonacci-spiral.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Fibonacci_Spiral)
 
 The semicircles alternate being on the left and the right.  The first
 two terms of the Fibonacci sequence are `1, 1` and these make up the unit
@@ -767,6 +874,9 @@ The animation is simply a zooming out and back in on the spiral.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fingerspelling/fingerspelling.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; }
+*   viewport: initial-scale=1, user-scalable=no
+*   online @ [catseye.tc](http://catseye.tc/ix/Fingerspelling)
 
 If you have a touchscreen, prod the lavender area of the screen with your
 finger.  If you don't have a touchscreen, you may simulate this action
@@ -782,6 +892,7 @@ with your mouse pointer.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: heronsis-hermnonicii/heronsis-hermnonicii.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Heronsis_hermnonicii)
 
 *Warning: the following may contain tedious and/or glib
 background and/or analysis.*
@@ -806,6 +917,8 @@ Plus it's fun to click on the red balls.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hirsute-miasma/hirsute-miasma.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Hirsute_Miasma)
 
 The animation will eventually cycle if you're patient (although it won't
 of course cycle exactly, as there is a random element.)  You may enable
@@ -821,6 +934,8 @@ the "terminal" option to prevent this cycling.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hypongtrochoid/hypongtrochoid.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Hypongtrochoid)
 
 Each box moves with a constant velocity
 relative to the box it is contained in, and bounces around inside it in a
@@ -835,9 +950,12 @@ simple at all.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: lexeduct
-*   javascript-urls: demo/lexeduct-transformers.js, demo/yoob/element-factory.js, demo/lexeduct-browser.js
+*   javascript-urls: demo/lexeduct-transformers.js,demo/yoob/element-factory.js,demo/lexeduct-browser.js,../../scripts/launch-lexeduct.js
 *   script-root: ../modules/lexeduct/src/
+*   style: textarea { width: 30%; } #container { text-align: center; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Lexeduct)
 
+Lexeduct.
 
 ### Markov Font
 
@@ -849,7 +967,12 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   launch-config: { imgUrl: "../resource/c64_noninverted.png" }
+*   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Markov_Font)
 
+Wait a few seconds while it analyzes the characters in the C64 character set.
+Then it will generate some of its own.
 
 ### Multicolouralism
 
@@ -861,6 +984,7 @@ simple at all.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: multicolouralism/multicolouralism.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Multicolouralism)
 
 Each frame, the colour of each cell is chosen randomly from the set
 {cyan, magenta, yellow, white}.  The probability of each of the
@@ -883,18 +1007,11 @@ of vision, focus and peripheral vision...)
 *   javascript-module: html5-gewgaws
 *   javascript-urls: noise-to-signal-1/noise-to-signal-1.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Noise_to_Signal_No._1)
 
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
-
-### Plea of Thunder
-
-*   installation-of: [Plea of Thunder][]
-*   installed-implementation: PleaOfThunder.java
-*   interactive: false
-*   animated: true
-*   mediums: Java applet, HTML5
-
 
 ### Prairie
 
@@ -907,6 +1024,8 @@ a source image randomly onto either panel.
 *   javascript-urls: prairie/prairie.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Prairie)
 
 
 ### Progression
@@ -919,6 +1038,8 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: progression/progression.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Progression)
 
 
 ### Radialjective
@@ -931,6 +1052,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: radialjective/radialjective.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Radialjective)
 
 
 ### Tentacles, Undamped
@@ -943,6 +1065,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: tentacles-undamped/tentacles-undamped.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Tentacles,_Undamped)
 
 
 ### Text Uniquifier
@@ -955,6 +1078,7 @@ a source image randomly onto either panel.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Text_Uniquifier)
 
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
@@ -981,6 +1105,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   javascript-urls: the-frame/the-frame.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Frame)
 
 Note 1. Green things can be dragged.  
 Note 2. Due to technical limitations, things cannot be dragged off
@@ -996,6 +1121,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
 
 
 ### Two Fifty Six
@@ -1008,6 +1134,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Two_Fifty_Six)
 
 
 ### Uncle Ankur
@@ -1020,6 +1147,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: uncle-ankur/uncle-ankur.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Uncle_Ankur)
 
 
 ### Woman on Film
@@ -1032,6 +1160,8 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: woman-on-film/woman-on-film.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   online @ [catseye.tc](http://catseye.tc/ix/Woman_on_Film)
 
 Use the navigation buttons to traverse the space of the work.
 
@@ -1043,6 +1173,7 @@ Use the navigation buttons to traverse the space of the work.
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md
 [gewgaws]: ../article/Gewgaws.md
+[platforms]: ../article/Platforms.md
 [JaC64]: ../article/Retrocomputing.md#commodore-64
 [Zplet]: ../article/Retrocomputing.md#z-machine
 [Z-Machine code]: ../article/Retrocomputing.md#z-machine
@@ -1120,7 +1251,6 @@ Use the navigation buttons to traverse the space of the work.
 [Markov Font]: ../article/Gewgaws.md#markov-font
 [Multicolouralism]: ../article/Gewgaws.md#multicolouralism
 [Noise to Signal No. 1]: ../article/Gewgaws.md#noise-to-signal-no-1
-[Plea of Thunder]: ../article/Tools.md#plea-of-thunder
 [Prairie]: ../article/Gewgaws.md#prairie
 [Progression]: ../article/Gewgaws.md#progression
 [Radialjective]: ../article/Gewgaws.md#radialjective
