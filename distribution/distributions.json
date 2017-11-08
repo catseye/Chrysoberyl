@@ -1,0 +1,3660 @@
+{
+    "'N-DCNC distribution": {
+        "entries": [
+            "'N-DCNC"
+        ], 
+        "github": "catseye/N-DCNC", 
+        "releases": [
+            {
+                "revision": "2000.0808", 
+                "url": "http://catseye.tc/distfiles/n-dcnc-2000.0808.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ALPACA distribution": {
+        "entries": [
+            "life.alp", 
+            "wireworld.alp", 
+            "ALPACA"
+        ], 
+        "github": "catseye/ALPACA", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/alpaca-0.90.zip", 
+                "version": "0.90"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/alpaca-0.93.zip", 
+                "version": "0.93"
+            }, 
+            {
+                "revision": "2007.0502", 
+                "url": "http://catseye.tc/distfiles/alpaca-0.93-2007.0502.zip", 
+                "version": "0.93"
+            }, 
+            {
+                "revision": "2012.0623", 
+                "url": "http://catseye.tc/distfiles/alpaca-0.94-2012.0623.zip", 
+                "version": "0.94"
+            }, 
+            {
+                "revision": "2013.0315", 
+                "url": "http://catseye.tc/distfiles/alpaca-1.0-2013.0315.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0518", 
+                "url": "http://catseye.tc/distfiles/alpaca-1.0-2014.0518.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/alpaca-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0317", 
+                "url": "http://catseye.tc/distfiles/alpaca-1.0-2016.0317.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Amiga Gondola distribution": {
+        "releases": [
+            {
+                "revision": "2013.1111", 
+                "url": "http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Animals distribution": {
+        "github": "catseye/Animals", 
+        "releases": [
+            {
+                "revision": "2004.0919", 
+                "url": "http://catseye.tc/distfiles/animals-2004.0919.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0429", 
+                "url": "http://catseye.tc/distfiles/animals-1.1-2010.0429.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": 2014.0819, 
+                "url": "http://catseye.tc/distfiles/animals-1.1-2014.0819.zip", 
+                "version": 1.1
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Apple Befunge distribution": {
+        "entries": [
+            "Apple Befunge"
+        ], 
+        "github": "catseye/Apple-Befunge", 
+        "releases": [
+            {
+                "revision": "2000.0703", 
+                "tag": "rel_1_0", 
+                "url": "http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0220", 
+                "tag": "rel_1_1", 
+                "url": "http://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/apple-befunge-1.1-2014.0819.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Arboretuum distribution": {
+        "entries": [
+            "Arboretuum"
+        ], 
+        "github": "catseye/Arboretuum", 
+        "releases": [
+            {
+                "revision": "2008.0304", 
+                "url": "http://catseye.tc/distfiles/arboretuum-2008.0304.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0427", 
+                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2010.0427.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.1105", 
+                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2010.1105.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Beatnik distribution": {
+        "github": "catseye/Beatnik", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/beatnik-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "BefOS distribution": {
+        "entries": [
+            "BefOS"
+        ], 
+        "github": "catseye/BefOS", 
+        "releases": [
+            {
+                "revision": "2006.0204", 
+                "url": "http://catseye.tc/distfiles/befos-2006.0204.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2011.0427", 
+                "url": "http://catseye.tc/distfiles/befos-0.9-2011.0427.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2012.0827", 
+                "url": "http://catseye.tc/distfiles/befos-0.9-2012.0827.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/befos-0.9-2014.0819.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/befos-0.10.zip", 
+                "version": "0.10"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Befunge-93 distribution": {
+        "entries": [
+            "Befunge-93"
+        ], 
+        "github": "catseye/Befunge-93", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bef-2.21.zip", 
+                "version": "2.21"
+            }, 
+            {
+                "revision": "2004.0920", 
+                "url": "http://catseye.tc/distfiles/befunge93-2004.0920.zip", 
+                "version": "2.21"
+            }, 
+            {
+                "revision": "2011.0318", 
+                "url": "http://catseye.tc/distfiles/bef-2.22-2011.0318.zip", 
+                "version": "2.22"
+            }, 
+            {
+                "revision": "2012.0825", 
+                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2012.0825.zip", 
+                "version": "2.23"
+            }, 
+            {
+                "revision": "2014.0820", 
+                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2014.0820.zip", 
+                "version": "2.23"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip", 
+                "version": "2.23"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Beturing distribution": {
+        "entries": [
+            "Beturing"
+        ], 
+        "github": "catseye/Beturing", 
+        "releases": [
+            {
+                "revision": "2005.0606", 
+                "url": "http://catseye.tc/distfiles/beturing-2005.0606.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2005.0623", 
+                "url": "http://catseye.tc/distfiles/beturing-2005.0623.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2012.1024", 
+                "url": "http://catseye.tc/distfiles/beturing-1.1-2012.1024.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Bhuna distribution": {
+        "entries": [
+            "Bhuna"
+        ], 
+        "github": "catseye/Bhuna", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.4.zip", 
+                "version": "0.4"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.5.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.6.zip", 
+                "version": "0.6"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.7.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "2011.0427", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "2012.0616", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/bhuna-0.7-2014.0819.zip", 
+                "version": "0.7"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Braktif distribution": {
+        "entries": [
+            "Braktif"
+        ], 
+        "github": "catseye/Braktif", 
+        "releases": [
+            {
+                "revision": "2007.0503", 
+                "url": "http://catseye.tc/distfiles/braktif-2007.0503.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/braktif-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/braktif-1.0-2015.0629.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Bubble Escape distribution": {
+        "entries": [
+            "Bubble Escape"
+        ], 
+        "github": "catseye/Bubble-Escape", 
+        "releases": [
+            {
+                "revision": "2009.0707", 
+                "url": "http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0520", 
+                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.1030", 
+                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2012.1030.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Burro distribution": {
+        "entries": [
+            "Burro"
+        ], 
+        "github": "catseye/Burro", 
+        "releases": [
+            {
+                "revision": "2007.1026", 
+                "url": "http://catseye.tc/distfiles/burro-2007.1026.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0607", 
+                "url": "http://catseye.tc/distfiles/burro-2.0-2010.0607.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2011.0525", 
+                "url": "http://catseye.tc/distfiles/burro-2.0-2011.0525.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2012.0619", 
+                "url": "http://catseye.tc/distfiles/burro-2.0-2012.0619.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/burro-2.0-2014.0819.zip", 
+                "version": "2.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "C64 Demo Depot": {
+        "github": "catseye/C64-Demo-Depot", 
+        "releases": [
+            {
+                "revision": "2012.0826", 
+                "url": "http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0826.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2012.0828", 
+                "url": "http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0828.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Cabra distribution": {
+        "entries": [
+            "Cabra"
+        ], 
+        "github": "catseye/Cabra", 
+        "releases": [
+            {
+                "revision": "2007.1101", 
+                "url": "http://catseye.tc/distfiles/cabra-2007.1101.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0429", 
+                "url": "http://catseye.tc/distfiles/cabra-1.0-2010.0429.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/cabra-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Canvas Feedback distribution": {
+        "github": "catseye/Canvas-Feedback", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/canvas-feedback-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0826", 
+                "url": "http://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/canvas-feedback-1.1.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Castile distribution": {
+        "entries": [
+            "Castile"
+        ], 
+        "github": "catseye/Castile", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/castile-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/castile-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/castile-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/castile-0.3-2015.0101.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "2016.0331", 
+                "url": "http://catseye.tc/distfiles/castile-0.3-2016.0331.zip", 
+                "version": "0.3"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Cfluviurrh distribution": {
+        "entries": [
+            "Cfluviurrh"
+        ], 
+        "github": "catseye/Cfluviurrh", 
+        "releases": [
+            {
+                "revision": "2012.0826", 
+                "url": "http://catseye.tc/distfiles/cfluviurrh-1.0-2012.0826.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/cfluviurrh-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Chrysoberyl distribution": {
+        "entries": [
+            "Chrysoberyl"
+        ], 
+        "fixed-tag": "bf3b16a", 
+        "github": "catseye/Chrysoberyl", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Circute distribution": {
+        "entries": [
+            "Circute"
+        ], 
+        "github": "catseye/Circute", 
+        "releases": [
+            {
+                "revision": "2007.0503", 
+                "url": "http://catseye.tc/distfiles/circute-2007.0503.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/circute-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/circute-1.0-2015.0629.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Console::Virtual distribution": {
+        "github": "catseye/Console-Virtual", 
+        "releases": [
+            {
+                "revision": "2003.0325", 
+                "url": "http://catseye.tc/distfiles/cons_virt-2003.0325.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2007.1122", 
+                "tag": "rel_2_0_20071122", 
+                "url": "http://catseye.tc/distfiles/cons_virt-2007.1122.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.0219", 
+                "url": "http://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip", 
+                "version": "2.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Corona: Realm of Magic distribution": {
+        "entries": [
+            "Corona: Realm of Magic"
+        ], 
+        "github": "catseye/Corona-Realm-of-Magic", 
+        "releases": [
+            {
+                "revision": "2000.1204", 
+                "tag": "rel_0_19", 
+                "url": "http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip", 
+                "version": "0.19"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2014.0819.zip", 
+                "version": "0.19"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Deturgenchry distribution": {
+        "entries": [
+            "Deturgenchry"
+        ], 
+        "fixed-tag": "2eb3b4a", 
+        "github": "catseye/Deturgenchry", 
+        "releases": [], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Dieter distribution": {
+        "entries": [
+            "Dieter"
+        ], 
+        "github": "catseye/Dieter", 
+        "releases": [
+            {
+                "revision": "2009.1003", 
+                "url": "http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0426", 
+                "url": "http://catseye.tc/distfiles/dieter-1.0-2010.0426.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0623", 
+                "url": "http://catseye.tc/distfiles/dieter-1.0-2012.0623.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/dieter-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "DiskSumo distribution": {
+        "github": "catseye/DiskSumo", 
+        "releases": [
+            {
+                "revision": "2007.0726", 
+                "url": "http://catseye.tc/distfiles/disksumo-1.0-2007.0726.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Dungeons of Ekileugor distribution": {
+        "entries": [
+            "Dungeons of Ekileugor"
+        ], 
+        "github": "catseye/Dungeons-of-Ekileugor", 
+        "releases": [
+            {
+                "revision": "2012.0915", 
+                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2012.0915.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.1021", 
+                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2013.1021.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Eightebed distribution": {
+        "entries": [
+            "Eightebed"
+        ], 
+        "github": "catseye/Eightebed", 
+        "releases": [
+            {
+                "revision": "2010.0901", 
+                "url": "http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0510", 
+                "url": "http://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2012.0623", 
+                "url": "http://catseye.tc/distfiles/eightebed-1.1-2012.0623.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/eightebed-1.1-2014.0819.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Electronics Projects distribution": {
+        "entries": [
+            "Mildred", 
+            "LED-386", 
+            "The 'Kitsilano' Oscillator"
+        ], 
+        "github": "catseye/Electronics-Projects", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/electronics-projects-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/electronics-projects-0.2.zip", 
+                "version": "0.2"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Emmental distribution": {
+        "entries": [
+            "Emmental"
+        ], 
+        "github": "catseye/Emmental", 
+        "releases": [
+            {
+                "revision": "2007.1111", 
+                "url": "http://catseye.tc/distfiles/emmental-2007.1111.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/emmental-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/emmental-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/emmental-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Etcha distribution": {
+        "entries": [
+            "Etcha"
+        ], 
+        "github": "catseye/Etcha", 
+        "releases": [
+            {
+                "revision": "2009.1004", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0820", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2014.0820.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0723", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2015.0723.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2017.0428", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2017.0428.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2017.0522", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2017.0522.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Exanoke distribution": {
+        "entries": [
+            "Exanoke"
+        ], 
+        "github": "catseye/Exanoke", 
+        "releases": [
+            {
+                "revision": "2013.0105", 
+                "url": "http://catseye.tc/distfiles/exanoke-1.0-2013.0105.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.1022", 
+                "url": "http://catseye.tc/distfiles/exanoke-1.0-2013.1022.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/exanoke-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2017.0428", 
+                "url": "http://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "FBBI distribution": {
+        "github": "catseye/FBBI", 
+        "releases": [
+            {
+                "revision": "2004.0301", 
+                "url": "http://catseye.tc/distfiles/fbbi-2004.0301.zip", 
+                "version": "0.98a"
+            }, 
+            {
+                "revision": "2011.1003", 
+                "tag": "rel_1_0", 
+                "url": "http://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0820", 
+                "url": "http://catseye.tc/distfiles/fbbi-1.0-2014.0820.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0729", 
+                "url": "http://catseye.tc/distfiles/fbbi-1.0-2015.0729.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Falderal distribution": {
+        "entries": [
+            "Falderal"
+        ], 
+        "github": "catseye/Falderal", 
+        "releases": [
+            {
+                "revision": "2011.0517", 
+                "tag": "rel_0_1", 
+                "url": "http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2011.0627", 
+                "tag": "rel_0_2", 
+                "url": "http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "2011.1007", 
+                "tag": "rel_0_3", 
+                "url": "http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "2011.1010", 
+                "tag": "rel_0_4", 
+                "url": "http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip", 
+                "version": "0.4"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "tag": "rel_0_5", 
+                "url": "http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "2012.0102", 
+                "tag": "rel_0_6", 
+                "url": "http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip", 
+                "version": "0.6"
+            }, 
+            {
+                "revision": "2012.0928", 
+                "tag": "rel_0_7", 
+                "url": "http://catseye.tc/distfiles/falderal-0.7-2012.0928.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "2013.1026", 
+                "tag": "rel_0_8", 
+                "url": "http://catseye.tc/distfiles/falderal-0.8-2013.1026.zip", 
+                "version": "0.8"
+            }, 
+            {
+                "revision": "2013.1029", 
+                "tag": "rel_0_9", 
+                "url": "http://catseye.tc/distfiles/falderal-0.9-2013.1029.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2014.0427", 
+                "url": "http://catseye.tc/distfiles/falderal-0.9-2014.0427.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2014.0525", 
+                "url": "http://catseye.tc/distfiles/falderal-0.9-2014.0525.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/falderal-0.10.zip", 
+                "version": "0.10"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/falderal-0.11.zip", 
+                "version": "0.11"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Feedmark distribution": {
+        "entries": [
+            "Feedmark"
+        ], 
+        "github": "catseye/Feedmark", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/feedmark-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Flip distribution": {
+        "github": "catseye/Flip", 
+        "releases": [
+            {
+                "revision": "2002.0731", 
+                "url": "http://catseye.tc/distfiles/flip-2002.0731.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/flip-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Flobnar distribution": {
+        "entries": [
+            "Flobnar"
+        ], 
+        "github": "catseye/Flobnar", 
+        "releases": [
+            {
+                "revision": "2011.1028", 
+                "url": "http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/flobnar-0.1-2014.0819.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Funge-98 distribution": {
+        "entries": [
+            "Funge-98"
+        ], 
+        "github": "catseye/Funge-98", 
+        "releases": [
+            {
+                "revision": "2004.0301", 
+                "url": "http://catseye.tc/distfiles/funge98-2004.0301.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.0224", 
+                "url": "http://catseye.tc/distfiles/funge-98-1.0-2013.0224.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0327", 
+                "url": "http://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Funicular distribution": {
+        "github": "catseye/Funicular", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/funicular-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.0105", 
+                "url": "http://catseye.tc/distfiles/funicular-0.1-2015.0105.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/funicular-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/funicular-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/funicular-0.4.zip", 
+                "version": "0.4"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Gemooy distribution": {
+        "entries": [
+            "Gemooy"
+        ], 
+        "github": "catseye/Gemooy", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/gemooy-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.0828", 
+                "url": "http://catseye.tc/distfiles/gemooy-0.1-2015.0828.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2017.0522", 
+                "url": "http://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "GraNoLa/M distribution": {
+        "entries": [
+            "GraNoLa/M"
+        ], 
+        "github": "catseye/GraNoLa-M", 
+        "releases": [
+            {
+                "revision": "2002.0314", 
+                "url": "http://catseye.tc/distfiles/granolam-2002.0314.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/granola-m-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Guten-gutter distribution": {
+        "github": "catseye/Guten-gutter", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/guten-gutter-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/guten-gutter-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "2016.0316", 
+                "url": "http://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip", 
+                "version": "0.2"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "HTML5 Gewgaws distribution": {
+        "entries": [
+            "Progression", 
+            "Prairie", 
+            "Fibonacci Spiral", 
+            "Canvas Feedback", 
+            "Markov Font", 
+            "Hypongtrochoid", 
+            "A Minimalist Critique of Tetris", 
+            "Black Hole Poem", 
+            "Chzrxl", 
+            "Art Restoration Simulator", 
+            "The Frame", 
+            "Heronsis hermnonicii", 
+            "Cheshire Text", 
+            "A Non-Random Walk", 
+            "Text Uniquifier", 
+            "Woman on Film", 
+            "Uncle Ankur", 
+            "Tentacles, Undamped", 
+            "Eine kleine Glitchfraktal", 
+            "Circus Xamulus", 
+            "Cyclobots", 
+            "Noise to Signal No. 1", 
+            "Radialjective", 
+            "Fingerspelling", 
+            "Hirsute Miasma", 
+            "Multicolouralism", 
+            "The Judgment of Paris", 
+            "Two Fifty Six"
+        ], 
+        "fixed-tag": "152856c", 
+        "github": "catseye/HTML5-Gewgaws", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/html5-gewgaws-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "HUNTER distribution": {
+        "entries": [
+            "HUNTER"
+        ], 
+        "github": "catseye/HUNTER", 
+        "releases": [
+            {
+                "revision": "2002.0126", 
+                "url": "http://catseye.tc/distfiles/hunter-2002.0126.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2007.1123", 
+                "url": "http://catseye.tc/distfiles/hunter-2007.1123.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1031", 
+                "url": "http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/hunter-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Hev distribution": {
+        "entries": [
+            "Hev"
+        ], 
+        "github": "catseye/Hev", 
+        "releases": [
+            {
+                "revision": "2007.0617", 
+                "url": "http://catseye.tc/distfiles/hev-2007.0617.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0427", 
+                "url": "http://catseye.tc/distfiles/hev-1.0-2010.0427.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0523", 
+                "url": "http://catseye.tc/distfiles/hev-1.0-2012.0523.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/hev-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/hev-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0316", 
+                "url": "http://catseye.tc/distfiles/hev-1.0-2016.0316.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Hunt the Wumpus distribution": {
+        "releases": [
+            {
+                "revision": "2002.0630", 
+                "url": "http://catseye.tc/distfiles/wumpus-2002.0630.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ILLGOL distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2000.0122", 
+                "url": "http://catseye.tc/distfiles/illgol-2000.0122.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2001.0706", 
+                "url": "http://catseye.tc/distfiles/illgol-2001.0706.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Illberon distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2007.0409", 
+                "url": "http://catseye.tc/distfiles/illberon-2007.0409.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Illgol: Grand Mal": {
+        "entries": [
+            "ILLGOL"
+        ], 
+        "fixed-tag": "rel_16_tons_and_what_do_you_get", 
+        "github": "catseye/Illgol-Grand-Mal", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Illgola-2 distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2000.0420", 
+                "url": "http://catseye.tc/distfiles/illgola-2-2000.0420.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2007.0409", 
+                "url": "http://catseye.tc/distfiles/illgola-2-2007.0409.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Iphigeneia distribution": {
+        "entries": [
+            "Iphigeneia"
+        ], 
+        "github": "catseye/Iphigeneia", 
+        "releases": [
+            {
+                "revision": "2007.1125", 
+                "url": "http://catseye.tc/distfiles/iphi-2007.1125.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/iphi-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1010", 
+                "url": "http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0818", 
+                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2014.0818.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2017.0428", 
+                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2017.0428.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Jaccia and Jacciata distribution": {
+        "entries": [
+            "Jaccia"
+        ], 
+        "github": "catseye/Jaccia", 
+        "releases": [
+            {
+                "revision": "2009.0411", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0205", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0623", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.0-2012.0623.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.0320", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.1-2013.0320.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.0406", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.1-2013.0406.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0109", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.1-2014.0109.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.1-2016.0304.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2017.1027", 
+                "url": "http://catseye.tc/distfiles/jaccia-1.1-2017.1027.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Jolverine distribution": {
+        "entries": [
+            "Jolverine"
+        ], 
+        "github": "catseye/Jolverine", 
+        "releases": [
+            {
+                "revision": "2012.0911", 
+                "url": "http://catseye.tc/distfiles/jolverine-1.0-2012.0911.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.1010", 
+                "url": "http://catseye.tc/distfiles/jolverine-1.0-2013.1010.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Kangaroo Iceberg distribution": {
+        "entries": [
+            "Kangaroo Iceberg"
+        ], 
+        "github": "catseye/Kangaroo-Iceberg", 
+        "releases": [
+            {
+                "revision": "2007.0406", 
+                "url": "http://catseye.tc/distfiles/kiceberg-2007.0406.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "2011.0426", 
+                "url": "http://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "2011.0509", 
+                "url": "http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/kangaroo-iceberg-0.5-2014.0819.zip", 
+                "version": "0.5"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Kelxquoia distribution": {
+        "entries": [
+            "Kelxquoia"
+        ], 
+        "fixed-tag": "f833867", 
+        "github": "catseye/Kelxquoia", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Kosheri distribution": {
+        "entries": [
+            "Kosheri"
+        ], 
+        "github": "catseye/Kosheri", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/kosheri-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2016.0315", 
+                "url": "http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2017.0428", 
+                "url": "http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Larabee distribution": {
+        "entries": [
+            "Larabee"
+        ], 
+        "github": "catseye/Larabee", 
+        "releases": [
+            {
+                "revision": "2008.0110", 
+                "url": "http://catseye.tc/distfiles/larabee-2008.0110.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/larabee-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0818", 
+                "url": "http://catseye.tc/distfiles/larabee-1.0-2014.0818.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Lexeduct distribution": {
+        "entries": [
+            "Lexeduct"
+        ], 
+        "github": "catseye/Lexeduct", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/lexeduct-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2016.0315", 
+                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2016.0315.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2017.0502", 
+                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "MARYSUE distribution": {
+        "github": "catseye/MARYSUE", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/marysue-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Maentwrog distribution": {
+        "entries": [
+            "Maentwrog"
+        ], 
+        "github": "catseye/Maentwrog", 
+        "releases": [
+            {
+                "revision": "2007.0930", 
+                "url": "http://catseye.tc/distfiles/maentw-2007.0930.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0426", 
+                "url": "http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.0226", 
+                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2013.0226.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0923", 
+                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Mascarpone distribution": {
+        "entries": [
+            "Mascarpone"
+        ], 
+        "github": "catseye/Mascarpone", 
+        "releases": [
+            {
+                "revision": "2007.1208", 
+                "url": "http://catseye.tc/distfiles/mascarpone-2007.1208.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0312", 
+                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0818", 
+                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2014.0818.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Matchbox distribution": {
+        "entries": [
+            "Matchbox"
+        ], 
+        "github": "catseye/Matchbox", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/matchbox-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Maxixe distribution": {
+        "entries": [
+            "Maxixe"
+        ], 
+        "github": "catseye/Maxixe", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/maxixe-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Minischeme distribution": {
+        "description": "Cat's Eye Technologies' fork of the original Mini-scheme distribution.\n", 
+        "entries": [
+            "miniscm"
+        ], 
+        "fixed-tag": "0.85ce1", 
+        "github": "catseye/minischeme", 
+        "reference": false, 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Muriel distribution": {
+        "entries": [
+            "muriel.pl"
+        ], 
+        "github": "catseye/Muriel", 
+        "releases": [
+            {
+                "revision": "2001.0323", 
+                "url": "http://catseye.tc/distfiles/muriel-2001.0323.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/muriel-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "NaNoGenLab": {
+        "fixed-tag": "offseason-2015-april", 
+        "github": "catseye/NaNoGenLab", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/nanogenlab-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0401", 
+                "url": "http://catseye.tc/distfiles/nanogenlab-1.0-2015.0401.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "NetUSB distribution": {
+        "github": "catseye/NetUSB", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/netusb-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Nhohnhehr distribution": {
+        "entries": [
+            "Nhohnhehr"
+        ], 
+        "github": "catseye/Nhohnhehr", 
+        "releases": [
+            {
+                "revision": "2011.0510", 
+                "url": "http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/nhohnhehr-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Open Sores Illgol## distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2007.0409", 
+                "url": "http://catseye.tc/distfiles/illgolpp-2007.0409.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "OpenFlax distribution": {
+        "releases": [
+            {
+                "revision": "2004.0919", 
+                "url": "http://catseye.tc/distfiles/openflax-2004.0919.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "OpenZz distribution": {
+        "description": "Cat's Eye Technologies' fork of OpenZz, an open-source implementation\nof the dynamic grammar-based language Zz.\n", 
+        "entries": [
+            "OpenZz"
+        ], 
+        "fixed-tag": "1.0.4-4ce1", 
+        "github": "catseye/OpenZz", 
+        "reference": false, 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "PL-{GOTO}.NET distribution": {
+        "entries": [
+            "PL-{GOTO}.NET"
+        ], 
+        "github": "catseye/PL-GOTO.NET", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0804", 
+                "tag": "rel_1_1", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1011", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2011.1011.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2012.0619", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0817", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2014.0817.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2015.0101.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2017.0428", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Pail distribution": {
+        "entries": [
+            "Pail"
+        ], 
+        "github": "catseye/Pail", 
+        "releases": [
+            {
+                "revision": "2011.0527", 
+                "url": "http://catseye.tc/distfiles/pail-1.0-2011.0527.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1007", 
+                "url": "http://catseye.tc/distfiles/pail-1.0-2011.1007.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/pail-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/pail-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/pail-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Pixley distribution": {
+        "entries": [
+            "Pixley"
+        ], 
+        "github": "catseye/Pixley", 
+        "releases": [
+            {
+                "revision": "2009.0501", 
+                "tag": "rel_1_0", 
+                "url": "http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.1105", 
+                "tag": "rel_1_1", 
+                "url": "http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1209", 
+                "tag": "rel_2_0", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2012.0219", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2013.1024", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2013.1024.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2014.0819.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2015.0101.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2015.0723", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2015.0723.zip", 
+                "version": "2.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Pophery distribution": {
+        "entries": [
+            "Pophery"
+        ], 
+        "fixed-tag": 1268947, 
+        "github": "catseye/Pophery", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Quylthulg distribution": {
+        "entries": [
+            "Quylthulg"
+        ], 
+        "github": "catseye/Quylthulg", 
+        "releases": [
+            {
+                "revision": "2008.1206", 
+                "url": "http://catseye.tc/distfiles/quylthulg-2008.1206.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0205", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0517", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1007", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0504", 
+                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "REDGREEN distribution": {
+        "entries": [
+            "REDGREEN"
+        ], 
+        "github": "catseye/REDGREEN", 
+        "releases": [
+            {
+                "revision": "2007.0503", 
+                "url": "http://catseye.tc/distfiles/redgreen-2007.0503.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2007.0722", 
+                "url": "http://catseye.tc/distfiles/redgreen-2007.0722.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/redgreen-1.1-2014.0819.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "RUBE II distribution": {
+        "github": "catseye/RUBE-II", 
+        "releases": [
+            {
+                "revision": "2001.0201", 
+                "url": "http://catseye.tc/distfiles/rube_ii-2001.0201.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "RUBE distribution": {
+        "entries": [
+            "RUBE"
+        ], 
+        "github": "catseye/RUBE", 
+        "releases": [
+            {
+                "revision": "1997.0715", 
+                "url": "http://catseye.tc/distfiles/rube-1997.0715.zip", 
+                "version": "1.02"
+            }, 
+            {
+                "revision": "2010.0204", 
+                "url": "http://catseye.tc/distfiles/rube-1.3-2010.0204.zip", 
+                "version": "1.3"
+            }, 
+            {
+                "revision": "2010.0428", 
+                "url": "http://catseye.tc/distfiles/rube-1.4-2010.0428.zip", 
+                "version": "1.4"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/rube-1.4-2010.0721.zip", 
+                "version": "1.4"
+            }, 
+            {
+                "revision": "2011.0119", 
+                "url": "http://catseye.tc/distfiles/rube-1.5-2011.0119.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "2012.0826", 
+                "url": "http://catseye.tc/distfiles/rube-1.5-2012.0826.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/rube-1.5-2014.0819.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/rube-1.6.zip", 
+                "version": "1.6"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Ribos distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2007.0410", 
+                "url": "http://catseye.tc/distfiles/ribos-2007.0410.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0430", 
+                "url": "http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Robin distribution": {
+        "entries": [
+            "Robin"
+        ], 
+        "github": "catseye/Robin", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/robin-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/robin-0.2.zip", 
+                "version": "0.2"
+            }
+        ], 
+        "tag-style": "new", 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "SICKBAY distribution": {
+        "entries": [
+            "SICKBAY"
+        ], 
+        "github": "catseye/SICKBAY", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sickbay-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "SITU-SOL distribution": {
+        "entries": [
+            "SITU-SOL"
+        ], 
+        "github": "catseye/SITU-SOL", 
+        "releases": [
+            {
+                "revision": "2015.0731", 
+                "url": "http://catseye.tc/distfiles/situ-sol-0.1-2015.0731.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2017.0502", 
+                "url": "http://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "SMETANA distribution": {
+        "entries": [
+            "SMETANA"
+        ], 
+        "github": "catseye/SMETANA", 
+        "releases": [
+            {
+                "revision": "2004.0227", 
+                "url": "http://catseye.tc/distfiles/smetana-2004.0227.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/smetana-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "SMITH distribution": {
+        "entries": [
+            "SMITH"
+        ], 
+        "github": "catseye/SMITH", 
+        "releases": [
+            {
+                "revision": "2.0L", 
+                "url": "http://catseye.tc/distfiles/smith-2.0L.zip", 
+                "version": "2.0L"
+            }, 
+            {
+                "revision": "2007.0722", 
+                "url": "http://catseye.tc/distfiles/smith-2007.0722.zip", 
+                "version": "2.1"
+            }, 
+            {
+                "revision": "2011.0922", 
+                "url": "http://catseye.tc/distfiles/smith-2.1-2011.0922.zip", 
+                "version": "2.1"
+            }, 
+            {
+                "revision": "2012.0818", 
+                "url": "http://catseye.tc/distfiles/smith-2.1-2012.0818.zip", 
+                "version": "2.1"
+            }, 
+            {
+                "revision": "2012.0916", 
+                "url": "http://catseye.tc/distfiles/smith-2.1-2012.0916.zip", 
+                "version": "2.1"
+            }, 
+            {
+                "revision": "2013.0227", 
+                "url": "http://catseye.tc/distfiles/smith-2.1-2013.0227.zip", 
+                "version": "2.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "SP_ASM distribution": {
+        "releases": [
+            {
+                "revision": "1998.0716", 
+                "url": "http://catseye.tc/distfiles/sp_asm-1998.0716.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Sally distribution": {
+        "entries": [
+            "Sally"
+        ], 
+        "github": "catseye/Sally", 
+        "releases": [
+            {
+                "revision": "2003.1104", 
+                "url": "http://catseye.tc/distfiles/sally-2003.1104.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0428", 
+                "url": "http://catseye.tc/distfiles/sally-1.0-2010.0428.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/sally-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0818", 
+                "url": "http://catseye.tc/distfiles/sally-1.0-2012.0818.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/sally-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Samovar distribution": {
+        "entries": [
+            "Samovar"
+        ], 
+        "github": "catseye/Samovar", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/samovar-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Sbeezg distribution": {
+        "entries": [
+            "Sbeezg"
+        ], 
+        "github": "catseye/Sbeezg", 
+        "releases": [
+            {
+                "revision": "2002.0317", 
+                "url": "http://catseye.tc/distfiles/sbeezg-2002.0317.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/sbeezg-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Schr\u00f6dinger's Game of Life distribution": {
+        "entries": [
+            "Schr\u00f6dinger's Game of Life"
+        ], 
+        "github": "catseye/Schroedingers-Game-of-Life", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Shelta distribution": {
+        "entries": [
+            "Shelta"
+        ], 
+        "github": "catseye/Shelta", 
+        "releases": [
+            {
+                "revision": "1999.1223", 
+                "url": "http://catseye.tc/distfiles/shelta-1999.1223.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2009.0307", 
+                "url": "http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.1130", 
+                "url": "http://catseye.tc/distfiles/shelta-1.2-2013.1130.zip", 
+                "version": "1.2"
+            }, 
+            {
+                "revision": "2014.0422", 
+                "url": "http://catseye.tc/distfiles/shelta-1.2-2014.0422.zip", 
+                "version": "1.2"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "SixtyPical distribution": {
+        "entries": [
+            "SixtyPical"
+        ], 
+        "github": "catseye/SixtyPical", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.1230", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.1-2014.1230.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.4.zip", 
+                "version": "0.4"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.5.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.6.zip", 
+                "version": "0.6"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Specs on Spec distribution": {
+        "entries": [
+            "Opus-2", 
+            "Madison", 
+            "You are Reading the Name of this Esolang", 
+            "Didigm", 
+            "MDPN", 
+            "Oozlybub and Murphy", 
+            "Tamerlane"
+        ], 
+        "github": "catseye/Specs-on-Spec", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/specs-on-spec-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/specs-on-spec-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/specs-on-spec-0.3.zip", 
+                "version": "0.3"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Squishy2K distribution": {
+        "entries": [
+            "Squishy2K"
+        ], 
+        "github": "catseye/Squishy2K", 
+        "releases": [
+            {
+                "revision": "2000.1006", 
+                "url": "http://catseye.tc/distfiles/squishy2k-2000.1006.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/squishy2k-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Strelnokoff distribution": {
+        "entries": [
+            "Strelnokoff"
+        ], 
+        "github": "catseye/Strelnokoff", 
+        "releases": [
+            {
+                "revision": "2001.0324", 
+                "url": "http://catseye.tc/distfiles/strelnokoff-2001.0324.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0818", 
+                "url": "http://catseye.tc/distfiles/strelnokoff-1.0-2012.0818.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/strelnokoff-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Super Wumpus Land distribution": {
+        "entries": [
+            "Super Wumpus Land"
+        ], 
+        "github": "catseye/Super-Wumpus-Land", 
+        "releases": [
+            {
+                "revision": "2004.0227", 
+                "url": "http://catseye.tc/distfiles/swl-2004.0227.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2007.1216", 
+                "url": "http://catseye.tc/distfiles/swl-2007.1216.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.0323", 
+                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0323.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.0324", 
+                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0324.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.0410", 
+                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0410.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.1024", 
+                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2015.0721", 
+                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2015.0721.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "T-Rext distribution": {
+        "github": "catseye/T-Rext", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/t-rext-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "TPiS distribution": {
+        "github": "catseye/TPiS", 
+        "releases": [
+            {
+                "revision": "2006.0528", 
+                "url": "http://catseye.tc/distfiles/tpis-2006.0528.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/tpis-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Tamsin distribution": {
+        "entries": [
+            "Tamsin"
+        ], 
+        "github": "catseye/Tamsin", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.4.zip", 
+                "version": "0.4"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.5.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "2017.0502", 
+                "url": "http://catseye.tc/distfiles/tamsin-0.5-2017.0502.zip", 
+                "version": "0.5"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "The Cat's Eye Technologies Platform distribution": {
+        "entries": [
+            "The Cat's Eye Technologies Platform"
+        ], 
+        "github": "catseye/The-Platform", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-platform-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-platform-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-platform-0.3.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-platform-0.4.zip", 
+                "version": "0.4"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "The Dipple": {
+        "description": "The Dipple is where code goes when its home planet has been\ndestroyed.  With apologies to Andre Norton.\n", 
+        "entries": [
+            "sf2tab", 
+            "valgol.erl"
+        ], 
+        "fixed-tag": "f867719", 
+        "github": "catseye/Dipple", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "The Dossier distribution": {
+        "entries": [
+            "The Dossier"
+        ], 
+        "fixed-tag": "f9437d5", 
+        "github": "catseye/The-Dossier", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "The New Gamerly Realism distribution": {
+        "entries": [
+            "The New Gamerly Realism"
+        ], 
+        "github": "catseye/The-New-Gamerly-Realism", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-new-gamerly-realism-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "The PETulant Cursor distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2008.0401", 
+                "url": "http://catseye.tc/distfiles/petulant-2008.0401.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "The Swallows distribution": {
+        "github": "catseye/The-Swallows", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/the-swallows-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Thue distribution": {
+        "entries": [
+            "thue.rb"
+        ], 
+        "github": "catseye/Thue", 
+        "releases": [
+            {
+                "revision": "2004.0301", 
+                "url": "http://catseye.tc/distfiles/thue-2004.0301.zip", 
+                "version": "1.4"
+            }, 
+            {
+                "revision": "2010.1218", 
+                "url": "http://catseye.tc/distfiles/thue-1.5-2010.1218.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "2012.0916", 
+                "url": "http://catseye.tc/distfiles/thue-1.5-2012.0916.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "2012.1028", 
+                "url": "http://catseye.tc/distfiles/thue-1.5-2012.1028.zip", 
+                "version": "1.5"
+            }, 
+            {
+                "revision": "2015.0827", 
+                "url": "http://catseye.tc/distfiles/thue-1.5-2015.0827.zip", 
+                "version": "1.5"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Treacle distribution": {
+        "entries": [
+            "Treacle"
+        ], 
+        "github": "catseye/Treacle", 
+        "releases": [
+            {
+                "revision": "2008.0412", 
+                "url": "http://catseye.tc/distfiles/treacle-2008.0412.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0427", 
+                "url": "http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/treacle-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Troupe distribution": {
+        "entries": [
+            "Troupe"
+        ], 
+        "fixed-tag": "d9dd637", 
+        "github": "catseye/Troupe", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "Unlikely distribution": {
+        "entries": [
+            "Unlikely"
+        ], 
+        "github": "catseye/Unlikely", 
+        "releases": [
+            {
+                "revision": "2009.0315", 
+                "url": "http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0427", 
+                "url": "http://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0316", 
+                "url": "http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2013.1014", 
+                "url": "http://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/unlikely-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "VALGOL distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2002.1011", 
+                "url": "http://catseye.tc/distfiles/valgol-2002.1011.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Velo distribution": {
+        "entries": [
+            "Velo"
+        ], 
+        "github": "catseye/Velo", 
+        "releases": [
+            {
+                "revision": "2012.0714", 
+                "url": "http://catseye.tc/distfiles/velo-0.1-2012.0714.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0817", 
+                "url": "http://catseye.tc/distfiles/velo-0.1-2014.0817.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.0103", 
+                "url": "http://catseye.tc/distfiles/velo-0.1-2015.0103.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Version distribution": {
+        "entries": [
+            "Version"
+        ], 
+        "github": "catseye/Version", 
+        "releases": [
+            {
+                "revision": "2001.1211", 
+                "url": "http://catseye.tc/distfiles/version-2001.1211.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0429", 
+                "url": "http://catseye.tc/distfiles/version-1.0-2010.0429.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/version-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Wang Tilers distribution": {
+        "entries": [
+            "Backtracking Wang Tiler"
+        ], 
+        "github": "catseye/Wang-Tilers", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/wang-tilers-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Whothm distribution": {
+        "entries": [
+            "Whothm"
+        ], 
+        "github": "catseye/Whothm", 
+        "releases": [
+            {
+                "revision": "2010.0629", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0116", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2011.0116.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2015.0629.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Wierd distribution": {
+        "entries": [
+            "Wierd"
+        ], 
+        "github": "catseye/Wierd", 
+        "releases": [
+            {
+                "revision": "2004.0302", 
+                "url": "http://catseye.tc/distfiles/wierd-2004.0302.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/wierd-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0209", 
+                "url": "http://catseye.tc/distfiles/wierd-1.0-2015.0209.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/wierd-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Wunnel distribution": {
+        "github": "catseye/Wunnel", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/wunnel-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0108", 
+                "url": "http://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "Xigxag distribution": {
+        "entries": [
+            "Xigxag"
+        ], 
+        "github": "catseye/Xigxag", 
+        "releases": [
+            {
+                "revision": "2007.0602", 
+                "url": "http://catseye.tc/distfiles/xigxag-2007.0602.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.1028", 
+                "url": "http://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Xoomonk distribution": {
+        "entries": [
+            "Xoomonk"
+        ], 
+        "github": "catseye/Xoomonk", 
+        "releases": [
+            {
+                "revision": "2011.0807", 
+                "url": "http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2013.1014", 
+                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2013.1014.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.1230", 
+                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2014.1230.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Yolk distribution": {
+        "entries": [
+            "Yolk"
+        ], 
+        "github": "catseye/Yolk", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yolk-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2015.0101", 
+                "url": "http://catseye.tc/distfiles/yolk-1.0-2015.0101.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "test-requirements": [
+            "Falderal"
+        ], 
+        "type": "Distribution"
+    }, 
+    "Ypsilax distribution": {
+        "entries": [
+            "Ypsilax"
+        ], 
+        "github": "catseye/Ypsilax", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "tag": "rel_0_9_2001_0219", 
+                "url": "http://catseye.tc/distfiles/ypsilax-0.9.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2007.1202", 
+                "url": "http://catseye.tc/distfiles/ypsilax-2007.1202.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "2010.0430", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.0428", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1130", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2012.0916", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2012.0916.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0525", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2014.0525.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0818", 
+                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2014.0818.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ZOWIE distribution": {
+        "entries": [
+            "ZOWIE"
+        ], 
+        "github": "catseye/ZOWIE", 
+        "releases": [
+            {
+                "revision": "2009.1229", 
+                "url": "http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/zowie-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0325", 
+                "url": "http://catseye.tc/distfiles/zowie-1.0-2012.0325.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/zowie-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/zowie-1.1.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "Zzrk distribution": {
+        "entries": [
+            "Zzrk"
+        ], 
+        "github": "catseye/Zzrk", 
+        "releases": [
+            {
+                "revision": "2007.0506", 
+                "url": "http://catseye.tc/distfiles/zzrk-2007.0506.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0616", 
+                "url": "http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2016.0304", 
+                "url": "http://catseye.tc/distfiles/zzrk-1.0-2016.0304.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "basedump distribution": {
+        "releases": [
+            {
+                "revision": "2002.1010", 
+                "url": "http://catseye.tc/distfiles/basedump-2002.1010.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "belld distribution": {
+        "releases": [
+            {
+                "revision": "2004.0303", 
+                "url": "http://catseye.tc/distfiles/belld-2004.0303.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "beta-Juliet distribution": {
+        "entries": [
+            "beta-Juliet"
+        ], 
+        "github": "catseye/beta-Juliet", 
+        "releases": [
+            {
+                "revision": "2001.0201", 
+                "url": "http://catseye.tc/distfiles/b_juliet-2001.0201.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2004.0423", 
+                "url": "http://catseye.tc/distfiles/2iota-0.8.zip", 
+                "version": "0.8"
+            }, 
+            {
+                "revision": "2010.0430", 
+                "url": "http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2011.1214", 
+                "url": "http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0714", 
+                "url": "http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip", 
+                "version": "2.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/beta-juliet-2.0-2014.0819.zip", 
+                "version": "2.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "brace distribution": {
+        "releases": [
+            {
+                "revision": "2004.0920", 
+                "url": "http://catseye.tc/distfiles/brace-2004.0920.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ce distribution": {
+        "releases": [
+            {
+                "revision": "2003.0522", 
+                "url": "http://catseye.tc/distfiles/ce-2003.0522.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "crone distribution": {
+        "github": "catseye/crone", 
+        "releases": [
+            {
+                "revision": "2004.0301", 
+                "tag": "rel_1_0", 
+                "url": "http://catseye.tc/distfiles/crone-2004.0301.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/crone-1.0-2014.0819.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ec distribution": {
+        "releases": [
+            {
+                "revision": "2004.0228", 
+                "url": "http://catseye.tc/distfiles/ec-2004.0228.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "ee distribution": {
+        "description": "Cat's Eye Technologies' fork of `ee`, the \"easy editor\" which comes with [[FreeBSD]].\nWe forked it to allow easier bundling, namely into [[The Platform]].\n", 
+        "entries": [
+            "ee"
+        ], 
+        "fixed-tag": "1.5.2ce1", 
+        "github": "catseye/ee", 
+        "reference": false, 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "erlaunch distribution": {
+        "releases": [
+            {
+                "revision": "2004.0309", 
+                "url": "http://catseye.tc/distfiles/erlaunch-2004.0309.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "esoko distribution": {
+        "releases": [
+            {
+                "revision": "2002.1104", 
+                "url": "http://catseye.tc/distfiles/esoko-2002.1104.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "hatoucan distribution": {
+        "github": "catseye/hatoucan", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/hatoucan-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "kinoje distribution": {
+        "github": "catseye/kinoje", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/kinoje-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "luakld distribution": {
+        "releases": [
+            {
+                "revision": "2004.1219", 
+                "url": "http://catseye.tc/distfiles/luakld-2004.1219.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "mzstorkipiwanbotbotbot distribution": {
+        "github": "catseye/mzstorkipiwanbotbotbot", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/mzstorkipiwanbotbotbot-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "noise distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2001.0622", 
+                "url": "http://catseye.tc/distfiles/noise-2001.0622.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "noit o' mnain worb distribution": {
+        "entries": [
+            "noit o' mnain worb"
+        ], 
+        "github": "catseye/noit-o-mnain-worb", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/worb-1.1.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2007.1123", 
+                "url": "http://catseye.tc/distfiles/worb-2007.1123.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2010.0721", 
+                "url": "http://catseye.tc/distfiles/worb-1.1-2010.0721.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.0428", 
+                "url": "http://catseye.tc/distfiles/worb-1.1-2011.0428.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2011.1031", 
+                "url": "http://catseye.tc/distfiles/worb-1.1-2011.1031.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2013.0330", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2013.0330.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2000.0719", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2000.0719.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2014.0819.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0629.zip", 
+                "version": "1.1"
+            }, 
+            {
+                "revision": "2015.0930", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "peruse distribution": {
+        "releases": [
+            {
+                "revision": "2002.1204", 
+                "url": "http://catseye.tc/distfiles/peruse-2002.1204.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "pibfi distribution": {
+        "entries": [
+            "pibfi"
+        ], 
+        "github": "catseye/pibfi", 
+        "releases": [
+            {
+                "revision": "2003.0505", 
+                "url": "http://catseye.tc/distfiles/pibfi-2003.0505.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "2012.0826", 
+                "url": "http://catseye.tc/distfiles/pibfi-1.0-2012.0826.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "realpath distribution": {
+        "github": "catseye/realpath", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/realpath-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "seedbank distribution": {
+        "github": "catseye/seedbank", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/seedbank-1.0.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/seedbank-1.1.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "sf2tab distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2005.0623", 
+                "url": "http://catseye.tc/distfiles/sf2tab-2005.0623.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "shelf distribution": {
+        "github": "catseye/shelf", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/shelf-0.2.zip", 
+                "version": "0.2"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "stringie distribution": {
+        "entries": [
+            "stringie"
+        ], 
+        "github": "catseye/stringie", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "tideay distribution": {
+        "fixed-tag": "OMIT", 
+        "github": "cpressey/tideay", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "toolshelf distribution": {
+        "github": "catseye/toolshelf", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0611", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0611.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0616", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0616.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0818", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0818.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0823", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0823.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0924", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0924.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.0930", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0930.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.1229", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.1229.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2014.1231", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.1231.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.0127", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.0127.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.0930", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.0930.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2015.1203", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.1203.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "2016.0315", 
+                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2016.0315.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "tag-style": "new", 
+        "type": "Distribution"
+    }, 
+    "transmat distribution": {
+        "fixed-tag": "OMIT", 
+        "github": "cpressey/transmat", 
+        "releases": [], 
+        "type": "Distribution"
+    }, 
+    "yaeolc distribution": {
+        "discontinued": true, 
+        "releases": [
+            {
+                "revision": "2003.0402", 
+                "url": "http://catseye.tc/distfiles/yaeolc-2003.0402.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "yoob distribution": {
+        "entries": [
+            "tc.catseye.yoob.onela", 
+            "tc.catseye.yoob.twoill", 
+            "Wunnel", 
+            "tc.catseye.yoob.ale", 
+            "tc.catseye.yoob.sceql", 
+            "tc.catseye.yoob.twol", 
+            "tc.catseye.yoob.black", 
+            "tc.catseye.yoob.brainfuck", 
+            "tc.catseye.yoob.qdeql", 
+            "tc.catseye.yoob.path", 
+            "tc.catseye.yoob.onelaoi", 
+            "tc.catseye.yoob.lnusp", 
+            "tc.catseye.yoob.snusp", 
+            "tc.catseye.yoob.backflip"
+        ], 
+        "github": "catseye/yoob", 
+        "releases": [
+            {
+                "revision": "2011.0624", 
+                "tag": "rel_0_2", 
+                "url": "http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "2011.0920", 
+                "tag": "rel_0_3", 
+                "url": "http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "2014.0819", 
+                "url": "http://catseye.tc/distfiles/yoob-0.3-2014.0819.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "2015.0629", 
+                "url": "http://catseye.tc/distfiles/yoob-0.3-2015.0629.zip", 
+                "version": "0.3"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "yoob.js distribution": {
+        "github": "catseye/yoob.js", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.1.zip", 
+                "version": "0.1"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.2.zip", 
+                "version": "0.2"
+            }, 
+            {
+                "revision": "2013.0406", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.3-2013.0406.zip", 
+                "version": "0.3"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.4.zip", 
+                "version": "0.4"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.5.zip", 
+                "version": "0.5"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.6.zip", 
+                "version": "0.6"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.7.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "2015.0108", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.7-2015.0108.zip", 
+                "version": "0.7"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.8.zip", 
+                "version": "0.8"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.9.zip", 
+                "version": "0.9"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.10.zip", 
+                "version": "0.10"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.11.zip", 
+                "version": "0.11"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.12.zip", 
+                "version": "0.12"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
+    "yucca distribution": {
+        "github": "catseye/yucca", 
+        "releases": [
+            {
+                "revision": "2012.0610", 
+                "tag": "rel_1_0", 
+                "url": "http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip", 
+                "version": "1.0"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yucca-1.1.zip", 
+                "version": "1.1"
+            }
+        ], 
+        "type": "Distribution"
+    }
+}
