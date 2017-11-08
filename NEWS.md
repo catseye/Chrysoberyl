@@ -4,6 +4,39 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
 
+### Feedmark 0.3, Chrysoberyl, and catseye.tc
+
+*   summary: [Feedmark 0.3](http://catseye.tc/node/Feedmark), [Chrysoberyl](http://catseye.tc/node/Chrysoberyl), and [catseye.tc](http://catseye.tc/).
+*   date: Wed, 08 Nov 2017 15:57:29 GMT
+
+Version 0.3 of [Feedmark](http://catseye.tc/node/Feedmark) has been released.
+
+Several new features have been added, but the main progress that has been made
+is in its ability to rewrite the reference-style links in Markdown documents.
+
+This allows us to build a "web" of Feedmark documents, where the entries are
+interlinked with Markdown link syntax, but the actual destination need not
+be given by the human writer, because it is determined by the system and
+automatically written in.
+
+This, in turn, allowed us to rewrite all the data in [Chrysoberyl](http://catseye.tc/node/Chrysoberyl)
+as a set of Feedmark documents, which are converted to HTML5 very simply
+(Feedmark is a subset of Markdown, after all, and it's Markdown _raison d'être_
+to be transformed into HTML) to build the content of the [catseye.tc](http://catseye.tc/) website.
+
+This, in turn, allowed us to jettison [a bunch of old and grotty rendering code](https://github.com/catseye/Chrysoberyl/pull/26/files)
+that was built on Jinja2 and YAML.
+
+So, the practical result is that [catseye.tc](http://catseye.tc/) is largely a
+set of articles (such as [Languages](http://catseye.tc/article/Languages.md)),
+and going forward, Chrysoberyl will be responsible for 2 orthogonal things:
+containing the underlying contents of these articles
+(e.g. [Languages.md](https://github.com/catseye/Chrysoberyl/blob/master/article/Languages.md))
+and managing the [distributions](https://github.com/catseye/Chrysoberyl/tree/master/distribution)
+in which the implementations of the projects described in the articles can be found.
+
+I hope to find this new format much easier to maintain and faster to update.
+
 ### Release of version 0.4 of The Platform
 
 *   summary: Belated: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
