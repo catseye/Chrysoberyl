@@ -16,8 +16,8 @@ categorized under Texts, or Pictures, or both.
 
 *   inception-date: Nov 2013
 *   submitted-to: NaNoGenMo 2013 (not eligible)
-*   online @ [catseye.tc](/installation/The_Swallows)
-*   file @ [catseye.tc](/modules/the-swallows/doc/The_Swallows.markdown)
+*   online @ [catseye.tc](http://catseye.tc/installation/The_Swallows)
+*   file @ [catseye.tc](http://catseye.tc/modules/The-Swallows/doc/The_Swallows.markdown)
 
 *The Swallows* is the name of a series of computer-generated novels,
 as well as the title of the first novel in the series, and the name
@@ -28,8 +28,8 @@ were produced for NaNoGenMo 2013.
 
 *   inception-date: Nov 2013
 *   submitted-to: NaNoGenMo 2013 (completed)
-*   online @ [catseye.tc](/installation/The%20Swallows%20of%20Summer)
-*   file @ [catseye.tc](/modules/the-swallows/doc/The_Swallows_of_Summer.markdown)
+*   online @ [catseye.tc](http://catseye.tc/installation/The%20Swallows%20of%20Summer)
+*   file @ [catseye.tc](http://catseye.tc/modules/The-Swallows/doc/The_Swallows_of_Summer.markdown)
 
 *The Swallows of Summer* is the second novel in The Swallows series
 of generated novels.
@@ -38,8 +38,8 @@ of generated novels.
 
 *   inception-date: Nov 2013
 *   submitted-to: NaNoGenMo 2013 (completed)
-*   online @ [catseye.tc](/installation/Swallows%20and%20Sorrows)
-*   file @ [catseye.tc](/modules/the-swallows/doc/Swallows_and_Sorrows.markdown)
+*   online @ [catseye.tc](http://catseye.tc/installation/Swallows%20and%20Sorrows)
+*   file @ [catseye.tc](http://catseye.tc/modules/The-Swallows/doc/Swallows_and_Sorrows.markdown)
 
 *Swallows and Sorrows* is the third novel in The Swallows series
 of generated novels.
@@ -48,8 +48,8 @@ of generated novels.
 
 *   inception-date: Nov 2013
 *   submitted-to: NaNoGenMo 2013 (completed)
-*   online @ [catseye.tc](/installation/Dial%20'S'%20for%20Swallows)
-*   file @ [catseye.tc](/modules/the-swallows/doc/Dial_S_for_Swallows.markdown)
+*   online @ [catseye.tc](http://catseye.tc/installation/Dial%20'S'%20for%20Swallows)
+*   file @ [catseye.tc](http://catseye.tc/modules/The-Swallows/doc/Dial_S_for_Swallows.markdown)
 
 *Dial 'S' for Swallows* is the fourth and final novel in The Swallows
 series of generated novels.
@@ -58,8 +58,8 @@ series of generated novels.
 
 *   inception-date: Nov 2013
 *   submitted-to: NaNoGenMo 2013 (completed)
-*   online @ [catseye.tc](/installation/Nif)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/Nif.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/Nif)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/Nif.md)
 
 *Nif* is a novel generated for NaNoGenMo 2013.  It is about a petulant child
 (possibly named Nif) who has just discovered palindromes.  It is one long palindrome.
@@ -75,7 +75,7 @@ to write a novel that was one long palindrome.
 
 *   inception-date: 2013
 *   online @ [catseye.tc](http://catseye.tc/installation/Cheshire_Text)
-*   in-distribution: [HTML5 Gewgaws distribution](/distribution/HTML5 Gewgaws distribution) cheshire-text.js (Public Domain, Javascript)
+*   in-distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5 Gewgaws distribution) cheshire-text.js (Public Domain, Javascript)
 
 As if Lewis Carroll's works needed any more remixes...
 
@@ -84,8 +84,8 @@ As if Lewis Carroll's works needed any more remixes...
 *   authors: Merman Helville
 *   inception-date: Nov 2014
 *   submitted-to: NaNoGenMo 2014 (completed)
-*   online @ [catseye.tc](/installation/Doby_Mick)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/Doby%20Mick.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/Doby_Mick)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/Doby%20Mick.md)
 
 > With a philosophical flourish Cato hows thrimself upon his sword;
 > I quietly shake to the tip.
@@ -100,8 +100,8 @@ Moby Dick, to produce this novel.
 
 *   inception-date: Nov 2014
 *   submitted-to: NaNoGenMo 2014 (completed)
-*   online @ [catseye.tc](/installation/3×C(21,3)+2×C(215,2)=50000: The Novel)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/3×C(21,3)+2×C(215,2)=50000.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/3×C(21,3)+2×C(215,2)=50000:_The_Novel)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/3×C(21,3)+2×C(215,2)=50000.md)
 
 *3×C(21,3)+2×C(215,2)=50000: The Novel*
 is a novel generated for NaNoGenMo 2014.  The minimum word count
@@ -113,8 +113,8 @@ just combinations and/or permutations, what combinations should one pick?
 
 *   inception-date: Nov 2014
 *   submitted-to: NaNoGenMo 2014 (completed)
-*   online @ [catseye.tc](/installation/A Rainy Sunday Afternoon)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/A Rainy Sunday Afternoon.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/A_Rainy_Sunday_Afternoon)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/A%20Rainy%20Sunday%20Afternoon.md)
 
 *A Rainy Sunday Afternoon* is a novel generated for NaNoGenMo 2014.
 It was based on the premise that, while sometimes automata do
@@ -125,8 +125,8 @@ things that are worthy of automata, too.
 
 *   inception-date: Nov 2014
 *   submitted-to: NaNoGenMo 2014 (completed)
-*   online @ [catseye.tc](/installation/Hope and Remembrance)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/Hope_and_Remembrance.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/Hope_and_Remembrance)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/Hope_and_Remembrance.md)
 
 *Hope and Remembrance* is a novel generated for NaNoGenMo 2014.
 It is possibly the first NaNoGenMo submission which attempts to
@@ -136,8 +136,8 @@ implement foreshadowing, however ham-fistedly.
 
 *   inception-date: Nov 2014
 *   submitted-to: NaNoGenMo 2014 (completed)
-*   online @ [catseye.tc](/installation/Threnody for Abraxas)
-*   file @ [catseye.tc](/modules/nanogenlab/generated/Threnody for Abraxas.md)
+*   online @ [catseye.tc](http://catseye.tc/installation/Threnody_for_Abraxas)
+*   file @ [catseye.tc](http://catseye.tc/modules/NaNoGenLab/generated/Threnody%20for%20Abraxas.md)
 
 *Threnody for Abraxas* is a
 _phantasmagoric Surrealist word/concept-painting_
@@ -148,8 +148,8 @@ generated for NaNoGenMo 2014.
 *   subtitle: **The Illustrious Career of Serenity Starlight Warhammer O'James during her First Three Years in the Space Fighters**
 *   inception-date: Nov 2015
 *   submitted-to: NaNoGenMo 2015 (completed)
-*   online @ [catseye.tc](/installation/A%20Time%20for%20Destiny)
-*   file @ [catseye.tc](/modules/marysue/generated/A_Time_for_Destiny.html)
+*   online @ [catseye.tc](http://catseye.tc/installation/A%20Time%20for%20Destiny)
+*   file @ [catseye.tc](http://catseye.tc/modules/MARYSUE/generated/A_Time_for_Destiny.html)
 *   generated-by: MARYSUE
 
 *A Time for Destiny* is a proper novel generated for NaNoGenMo 2015.
