@@ -806,6 +806,11 @@
                 "revision": "2017.0522", 
                 "url": "http://catseye.tc/distfiles/etcha-1.0-2017.0522.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2017.1110", 
+                "url": "http://catseye.tc/distfiles/etcha-1.0-2017.1110.zip", 
+                "version": "1.0"
             }
         ], 
         "test-requirements": [
@@ -2895,6 +2900,11 @@
             {
                 "revision": "2015.0108", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip", 
+                "version": "1.0"
+            },
+            {
+                "revision": "2017.1110", 
+                "url": "http://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
                 "version": "1.0"
             }
         ], 
