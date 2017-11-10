@@ -384,8 +384,8 @@ or create your own.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-module: etcha
-*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/etcha.js/src/yoob/controller.js,impl/etcha.js/src/yoob/playfield.js,impl/etcha.js/src/yoob/cursor.js,impl/etcha.js/src/yoob/playfield-canvas-view.js,impl/etcha.js/src/yoob/source-html-view.js,impl/etcha.js/src/yoob/preset-manager.js,impl/etcha.js/src/yoob/source-manager.js,impl/etcha.js/src/etcha.js,../../scripts/launch-etcha.js
+*   javascript-module: Etcha
+*   javascript-urls: impl/etcha.js/src/yoob/controller.js,impl/etcha.js/src/yoob/playfield.js,impl/etcha.js/src/yoob/cursor.js,impl/etcha.js/src/yoob/playfield-canvas-view.js,impl/etcha.js/src/yoob/source-html-view.js,impl/etcha.js/src/yoob/preset-manager.js,impl/etcha.js/src/yoob/source-manager.js,impl/etcha.js/src/etcha.js,eg/index.js,../../scripts/launch-etcha.js
 *   script-root: ../modules/etcha/src/yoob/
 *   style: #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Etcha)
@@ -608,8 +608,8 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-module: wunnel
-*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,impl/wunnel.js/src/yoob/playfield.js,impl/wunnel.js/src/yoob/playfield-html-view.js,impl/wunnel.js/src/yoob/cursor.js,impl/wunnel.js/src/yoob/tape.js,impl/wunnel.js/src/yoob/controller.js,impl/wunnel.js/src/yoob/preset-manager.js,impl/wunnel.js/src/wunnel-controller.js,../../scripts/launch-wunnel.js
+*   javascript-module: Wunnel
+*   javascript-urls: impl/wunnel.js/src/yoob/playfield.js,impl/wunnel.js/src/yoob/playfield-html-view.js,impl/wunnel.js/src/yoob/cursor.js,impl/wunnel.js/src/yoob/tape.js,impl/wunnel.js/src/yoob/controller.js,impl/wunnel.js/src/yoob/preset-manager.js,impl/wunnel.js/src/wunnel-controller.js,eg/index.js,../../scripts/launch-wunnel.js
 *   script-root: ../modules/wunnel/src/yoob/
 *   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Wunnel)

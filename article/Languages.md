@@ -1932,8 +1932,8 @@ were previously erased after execution.
 *   paradigms: Turning tarpit
 *   reference-distribution: [yoob distribution](/distribution/yoob distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
+*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Sample program:
 
