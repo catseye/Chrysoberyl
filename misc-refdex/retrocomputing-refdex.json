@@ -68,5 +68,9 @@
     "x86 machine code": {
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
+    },
+    "80286 machine code": {
+        "anchor": "ms-dos", 
+        "filename": "article/Retrocomputing.md"
     }
 }

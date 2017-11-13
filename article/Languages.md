@@ -2823,5 +2823,6 @@ locations.)
 [Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
 [The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
-[ANSI Terminal]: TBD
-[80286 machine code]: TBD
+[ANSI Terminal]: http://www.ecma-international.org/publications/standards/Ecma-048.htm
+[80286 machine code]: ../article/Retrocomputing.md#ms-dos
+
