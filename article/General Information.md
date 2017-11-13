@@ -81,7 +81,7 @@ A comprehensive repository of information on esolangs can be found at the
 Some eminent esolangers include:
 
 *   Ben Olmstead, who Chris Pressey met once.
-*   [zzo38](http://esoteric.voxelperfect.net/wiki/User:Zzo38), who is the only esolanger I know who has [an entry in Urban Dictionary](https://www.urbandictionary.com/define.php?term=zzo38).
+*   [zzo38](http://esolangs.org/wiki/User:Zzo38), who is the only esolanger I know who has [an entry in Urban Dictionary](https://www.urbandictionary.com/define.php?term=zzo38).
 *   Gerzon Kurz, whose website is [p-nand-q.com](http://www.p-nand-q.com/).
 *   Jeffry Johnston, whose website used to be kidsquid.99k.org.
 *   Keymaker, whose website is [yes, it's a program](http://yiap.nfshost.com/).

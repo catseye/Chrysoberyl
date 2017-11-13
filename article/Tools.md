@@ -22,11 +22,11 @@ is emulated on whatever user interface is really available.
 
 *   reference: true
 *   in-distributions:
-    *   [Console::Virtual distribution](/distribution/Console::Virtual distribution)
-    *   [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
-    *   [Ypsilax distribution](/distribution/Ypsilax distribution)
-    *   [noit o' mnain worb distribution](/distribution/noit o' mnain worb distribution)
-    *   [HUNTER distribution](/distribution/HUNTER distribution)
+    *   [Console::Virtual distribution](http://catseye.tc/distribution/Console::Virtual_distribution)
+    *   [Corona: Realm of Magic distribution](http://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
+    *   [Ypsilax distribution](http://catseye.tc/distribution/Ypsilax_distribution)
+    *   [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
+    *   [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
 *   license: BSD license
 *   host-language: Perl
 
@@ -40,7 +40,7 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 #### Implementation: DiskSumo (BASIC)
 
 *   reference: true
-*   in-distribution: [DiskSumo distribution](/distribution/DiskSumo distribution)
+*   in-distribution: [DiskSumo distribution](http://catseye.tc/distribution/DiskSumo_distribution)
 *   license: Public Domain
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
@@ -68,7 +68,7 @@ on a [Commodore 64][].
 #### Implementation: funicular
 
 *   reference: true
-*   in-distribution: [Funicular distribution](/distribution/Funicular distribution)
+*   in-distribution: [Funicular distribution](http://catseye.tc/distribution/Funicular_distribution)
 *   license: Public Domain
 *   host-language: Lua
 
@@ -84,7 +84,7 @@ from Project Gutenberg text files.
 #### Implementation: guten-gutter (Python)
 
 *   reference: true
-*   in-distribution: [Guten-gutter distribution](/distribution/Guten-gutter distribution)
+*   in-distribution: [Guten-gutter distribution](http://catseye.tc/distribution/Guten-gutter_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -101,7 +101,7 @@ Python and is in the public domain.
 #### Implementation: hatoucan (Python)
 
 *   reference: true
-*   in-distribution: [hatoucan distribution](/distribution/hatoucan distribution)
+*   in-distribution: [hatoucan distribution](http://catseye.tc/distribution/hatoucan_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -117,7 +117,7 @@ the resulting sequence of images is compiled into the finished movie.
 #### Implementation: kinoje (Python)
 
 *   reference: true
-*   in-distribution: [kinoje distribution](/distribution/kinoje distribution)
+*   in-distribution: [kinoje distribution](http://catseye.tc/distribution/kinoje_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -133,7 +133,7 @@ MARYSUE is the story generator used to generate the novel
 #### Implementation: MARYSUE (Python)
 
 *   reference: true
-*   in-distributions: [MARYSUE distribution](/distribution/MARYSUE distribution)
+*   in-distributions: [MARYSUE distribution](http://catseye.tc/distribution/MARYSUE_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -150,7 +150,7 @@ be used again in the future.
 #### Implementation: seedbank (Python)
 
 *   reference: true
-*   in-distribution: [seedbank distribution](/distribution/seedbank distribution)
+*   in-distribution: [seedbank distribution](http://catseye.tc/distribution/seedbank_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -172,7 +172,7 @@ written in Python.
 #### Implementation: shelf.sh
 
 *   reference: true
-*   in-distribution: [shelf distribution](/distribution/shelf distribution)
+*   in-distribution: [shelf distribution](http://catseye.tc/distribution/shelf_distribution)
 *   license: Public Domain
 *   host-language: [Bourne shell][]
 
@@ -188,7 +188,7 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 #### Implementation: SITU-MON (Commodore 64)
 
 *   reference: true
-*   in-distribution: [SITU-SOL distribution](/distribution/SITU-SOL distribution)
+*   in-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
 *   license: Unknown license
 *   host-language: 6502 machine code
 *   host-platform: Commodore 64
@@ -210,7 +210,7 @@ of entering [SITU-MON][] into an emulated C64.
 #### Implementation: frontpanel.bas
 
 *   reference: true
-*   in-distribution: [SITU-SOL distribution](/distribution/SITU-SOL distribution)
+*   in-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
 *   license: Unknown license
 *   host-language: Commodore BASIC 2.0
 *   host-platform: Commodore 64
@@ -227,7 +227,7 @@ series of generated novels for [NaNoGenMo 2013][].
 #### Implementation: The Swallows Engine (Python)
 
 *   reference: true
-*   in-distributions: [The Swallows distribution](/distribution/The Swallows distribution)
+*   in-distributions: [The Swallows distribution](http://catseye.tc/distribution/The_Swallows_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -246,7 +246,7 @@ done to make it more presentable.
 #### Implementation: t-rext (Python)
 
 *   reference: true
-*   in-distribution: [T-Rext distribution](/distribution/T-Rext distribution)
+*   in-distribution: [T-Rext distribution](http://catseye.tc/distribution/T-Rext_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -263,7 +263,7 @@ only a `REM`, among a few other modest features.
 #### Implementation: yucca (Python)
 
 *   reference: true
-*   in-distribution: [yucca distribution](/distribution/yucca distribution)
+*   in-distribution: [yucca distribution](http://catseye.tc/distribution/yucca_distribution)
 *   license: MIT license
 *   host-language: Python
 
@@ -301,7 +301,7 @@ Forked Tools
 ### ee
 
 *   development-stage: mature
-*   distribution: [ee distribution](/distribution/ee distribution)
+*   distribution: [ee distribution](http://catseye.tc/distribution/ee_distribution)
 
 `ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
 has forked it for use in [The Platform][].
@@ -320,7 +320,7 @@ string-rewriting-based editing commands.
 #### Implementation: tideay (Python)
 
 *   reference: true
-*   in-distribution: [tideay distribution](/distribution/tideay distribution)
+*   in-distribution: [tideay distribution](http://catseye.tc/distribution/tideay_distribution)
 *   license: GPL
 *   host-language: Python
 
@@ -337,13 +337,13 @@ An IRC bot with no purpose or plan.
 #### Implementation: mzstorkipiwanbotbotbot (Lua)
 
 *   reference: true
-*   in-distribution: [mzstorkipiwanbotbotbot distribution](/distribution/mzstorkipiwanbotbotbot distribution)
+*   in-distribution: [mzstorkipiwanbotbotbot distribution](http://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
 *   license: Public Domain
 *   host-language: Lua
 
 #### Implementation: Rtype
 
-*   in-distribution: [mzstorkipiwanbotbotbot distribution](/distribution/mzstorkipiwanbotbotbot distribution)
+*   in-distribution: [mzstorkipiwanbotbotbot distribution](http://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
 *   license: Public Domain
 *   host-language: R
 
@@ -364,7 +364,7 @@ other projects.
 #### Implementation: rooibos.py
 
 *   reference: true
-*   in-distributions: [Eightebed distribution](/distribution/Eightebed distribution)
+*   in-distributions: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -384,7 +384,7 @@ check itself!
 #### Implementation: TPiS (Scheme)
 
 *   reference: true
-*   in-distribution: [TPiS distribution](/distribution/TPiS distribution)
+*   in-distribution: [TPiS distribution](http://catseye.tc/distribution/TPiS_distribution)
 *   license: BSD license
 *   host-language: Scheme
 
@@ -404,7 +404,7 @@ framework, which is in Java.
 *   implementation-type: framework
 *   license: Public Domain
 *   host-language: Javascript
-*   in-distribution: [yoob.js distribution](/distribution/yoob.js distribution)
+*   in-distribution: [yoob.js distribution](http://catseye.tc/distribution/yoob.js_distribution)
 
 [Eightebed]: ../article/Languages.md#eightebed
 [FreeBSD]: https://www.freebsd.org/

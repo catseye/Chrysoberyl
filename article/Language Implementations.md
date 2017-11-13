@@ -112,7 +112,7 @@ an accident.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -124,7 +124,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -136,7 +136,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -148,7 +148,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -160,7 +160,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -172,7 +172,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -184,7 +184,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -196,7 +196,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -208,7 +208,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -220,7 +220,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -232,7 +232,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -244,7 +244,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -256,7 +256,7 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](/distribution/yoob distribution)
+*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
@@ -267,7 +267,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host language: Ruby
 *   inception date: Sep 10, 2012
-*   in distribution: [Thue distribution](/distribution/Thue distribution)
+*   in distribution: [Thue distribution](http://catseye.tc/distribution/Thue_distribution)
 
 Since I've been maintaining a distribution of this language for a while, and
 not otherwise involved with it, I decided I should finally implement it.
@@ -281,7 +281,7 @@ did implement it.
 *   implementation type: parser
 *   host language: [Erlang][]
 *   inception date: Oct 11, 2002
-*   in distribution: [The Dipple](/distribution/The Dipple)
+*   in distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 A parser, in Erlang, for the Lesser-Known Language VALGOL.
 It, like, totally demonstrates how a parser can be written so
@@ -298,7 +298,7 @@ We don't have a dedicated page for implemented automata yet, so they are here.
 *   implementation type: interpreter
 *   host language: [ALPACA][]
 *   inception date: 1998
-*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+*   in distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
 
 Conway's Game of Life, in ALPACA.
 
@@ -308,7 +308,7 @@ Conway's Game of Life, in ALPACA.
 *   implementation type: interpreter
 *   host language: [ALPACA][]
 *   inception date: 1998
-*   in distribution: [ALPACA distribution](/distribution/ALPACA distribution)
+*   in distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
 
 Wireworld, in ALPACA.
 
@@ -322,7 +322,7 @@ Forked Language Projects
 *   license: Public Domain
 *   host language: [ANSI C][]
 *   inception date: Nov 5, 1989
-*   in distribution: [Minischeme distribution](/distribution/Minischeme distribution)
+*   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
 
 Forked in order to make it build on [AmigaDOS 1.3][].
 
@@ -335,7 +335,7 @@ Fork began Dec 13, 2011.
 *   license: LGPL
 *   host language: [C99][]
 *   inception date: Jan 7, 2002
-*   in distribution: [OpenZz distribution](/distribution/OpenZz distribution)
+*   in distribution: [OpenZz distribution](http://catseye.tc/distribution/OpenZz_distribution)
 
 Forked because [Zzrk][] depends on it, and I want to maintain that.
 

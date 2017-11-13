@@ -15,7 +15,7 @@ under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
 
 #### Implementation: 'populate.sh (Amiga Gondola)':
 
-*   in-distribution: [Amiga Gondola distribution](/distribution/Amiga Gondola distribution)
+*   in-distribution: [Amiga Gondola distribution](http://catseye.tc/distribution/Amiga_Gondola_distribution)
 *   license: Public Domain
 *   host-language: [Bourne shell][]
 *   target-platform: Amiga 500
@@ -29,7 +29,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 #### Implementation: belld.c
 
 *   reference: true
-*   in-distribution: [belld distribution](/distribution/belld distribution)
+*   in-distribution: [belld distribution](http://catseye.tc/distribution/belld_distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -42,7 +42,7 @@ Utility to translate I/O interactively.
 #### Implementation: brace.c
 
 *   reference: true
-*   in-distribution: [brace distribution](/distribution/brace distribution)
+*   in-distribution: [brace distribution](http://catseye.tc/distribution/brace_distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -59,7 +59,7 @@ to run, and sleeps exactly that long.
 #### Implementation: crone.erl
 
 *   reference: true
-*   in-distribution: [crone distribution](/distribution/crone distribution)
+*   in-distribution: [crone distribution](http://catseye.tc/distribution/crone_distribution)
 *   license: BSD license
 *   host-language: Erlang
 
@@ -75,7 +75,7 @@ A fairly realistic line-noise generator.
 *   reference: true
 *   license: BSD license
 *   host-language: Perl
-*   in-distribution: [The Dipple](/distribution/The Dipple)
+*   in-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 ### luakld
 
@@ -87,7 +87,7 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 #### Implementation: luakld (C)
 
 *   reference: true
-*   in-distribution: [luakld distribution](/distribution/luakld distribution)
+*   in-distribution: [luakld distribution](http://catseye.tc/distribution/luakld_distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -105,7 +105,7 @@ It is actually called `SP\ASM`.
 #### Implementation: SP_ASM.BAT
 
 *   reference: true
-*   in-distribution: [SP_ASM distribution](/distribution/SP_ASM distribution)
+*   in-distribution: [SP_ASM distribution](http://catseye.tc/distribution/SP_ASM_distribution)
 *   license: Unknown license
 *   host-language: MS-DOS Batchfile
 
@@ -126,7 +126,7 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 #### Implementation: toolshelf.py
 
 *   reference: true
-*   in-distribution: [toolshelf distribution](/distribution/toolshelf distribution)
+*   in-distribution: [toolshelf distribution](http://catseye.tc/distribution/toolshelf_distribution)
 *   license: MIT license
 *   host-language: Python
 
@@ -144,7 +144,7 @@ synchronization.
 #### Implementation: transmat (Python)
 
 *   reference: true
-*   in-distribution: [transmat distribution](/distribution/transmat distribution)
+*   in-distribution: [transmat distribution](http://catseye.tc/distribution/transmat_distribution)
 *   license: Public Domain
 *   host-language: Python
 
@@ -157,7 +157,7 @@ Yet Another End Of Line Converter
 #### Implementation: yaeolc (Perl)
 
 *   reference: true
-*   in-distributions: [The Dipple](/distribution/The Dipple)
+*   in-distributions: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 *   license: Unknown license
 *   host-language: [Perl][]
 
@@ -179,7 +179,7 @@ applet, it's largely considered deprecated these days.
 #### Implementation: tc.catseye.yoob
 
 *   reference: true
-*   in-distribution: [yoob distribution](/distribution/yoob distribution)
+*   in-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   license: Public Domain
 *   host-language: Java
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)

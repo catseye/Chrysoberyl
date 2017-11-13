@@ -43,8 +43,8 @@ Feedmark is a file format for embedding curational information in Markdown.
 Links
 -----
 
-*   [The myth of RSS compatibility](http://diveintomark.org/archives/2004/02/04/incompatible-rss)
-*   [The S stands for Simple](http://72.249.21.88/nonintersecting/2006/11/15/the-s-stands-for-simple/)
+*   [The myth of RSS compatibility](https://web.archive.org/web/20081103204806/http://diveintomark.org/archives/2004/02/04/incompatible-rss)
+*   [The S stands for Simple](http://harmful.cat-v.org/software/xml/soap/simple)
 
 [Python]: http://www.python.org/
 [Haskell]: http://www.haskell.org/
