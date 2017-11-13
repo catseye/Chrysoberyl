@@ -649,7 +649,8 @@ Sample program:
 
     4*5+2/2,(9*`c)+1
 
-'N-DCNC was [Chris Pressey][]'s entry for the 2000 [Esoteric Awards][].
+'N-DCNC was [Chris Pressey][]'s entry for the 2000 Esoteric Awards
+(which might have actually been [Esoteric Awards 2001][]).
 It is based on a conspiracy theory involving UFOs and a 5-member
 boy band, or something.
 
@@ -1029,7 +1030,7 @@ Sample program:
     Print Fib(32), EoL
 
 Bhuna is a small, garbage-collected language with a simple syntax,
-[closures](Closure), inferred types, lightweight processes, and support for UTF-8 source
+closures, inferred types, lightweight processes, and support for UTF-8 source
 code.  It was implemented partly to see how closely I could match the performance
 of [Lua][]'s interpreter.  It was meant more more as an experimental starting
 point for branching new languages, than as a useful language in and of itself.
@@ -1930,7 +1931,7 @@ were previously erased after execution.
 *   computational-class: believed Turing-complete
 *   influences: 1L, reMorse
 *   paradigms: Turning tarpit
-*   reference-distribution: [yoob distribution](/distribution/yoob distribution)
+*   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
@@ -2458,7 +2459,7 @@ Also it's a compiler to Javascript, Ruby, stackmac, almost C...
         walk(X) = return ' '+X.
 
 Tamsin is an oddball little language that can't decide if it's a
-meta-language, a programming language, or a [rubbish lister](/node/Perl).
+meta-language, a programming language, or a [rubbish lister][].
 Its primary goal is to allow the rapid development of parsers,
 static analyzers, interpreters, and compilers, and to allow them
 to be expressed *compactly*.
@@ -2675,7 +2676,7 @@ Languages that are still considered works-in-progress at Cat's Eye Technologies.
 Many of these are overdue for being "graduated" to being merely considered "done with".
 
 For languages where no significant work has even ever been started, see
-[LoUIE](LoUIE.md), instead.
+[LoUIE](List%20of%20Unfinished%20Interesting%20Esolangs.md), instead.
 
 ### Deturgenchry
 
@@ -2770,7 +2771,7 @@ locations.)
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
-[Esoteric Awards]: TBD
+[Esoteric Awards 2001]: ../article/Events.md#esoteric-awards-2001
 [Etcha]: ../article/Languages.md#etcha
 [FALSE]: http://esolangs.org/wiki/FALSE
 [Falderal]: ../article/Formats.md#falderal
@@ -2803,6 +2804,7 @@ locations.)
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: http://clc-wiki.net/wiki/C89
 [Perl]: http://www.perl.org/
+[rubbish lister]: http://catseye.tc/node/Perl
 [Erlang]: http://www.erlang.org/
 [NASM Assembler]: http://nasm.us/
 [Java]: http://www.oracle.com/technetwork/java/index.html
