@@ -52,7 +52,7 @@ Sample program:
 
 Full Moon Fever is a language for describing ASCII animations.
 It was used to deliver animated screens on Chris Pressey's BBS
-(when it was operational in the early 90's) via [ANSI terminal](ANSI Terminal) control codes.
+(when it was operational in the early 90's) via [ANSI terminal][] control codes.
 This probably counts as his first proper language, even though
 it wasn't a full programming language, because it had
 the usual machinery (syntax, parser, interpreter...)
@@ -364,7 +364,7 @@ Shelta is an extremely minimal Forth-like language with barely
 any semantics; it relies on inline machine code to write anything resembling
 an actual program in it. In the spirit of compilers for languages such as [FALSE][]
 and [brainfuck][], a Shelta-to-8086 compiler was implemented (with help from
-[Ben Olmstead][]) in less than 512 bytes of [80286 machine code](x86 machine code). What's more,
+[Ben Olmstead][]) in less than 512 bytes of [80286 machine code][]. What's more,
 it's also been bootstrapped — that is to say, a Shelta compiler was
 written in Shelta, which was compiled with the original compiler, and then
 compiled again with the resulting compiler, producing a wholly self-hosted
@@ -2823,4 +2823,5 @@ locations.)
 [Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
 [The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
-
+[ANSI Terminal]: TBD
+[80286 machine code]: TBD

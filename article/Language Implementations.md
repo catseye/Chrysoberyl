@@ -14,7 +14,7 @@ This is a list of languages that Cat's Eye Technologies has built an implementat
 *   host language: [Haskell][]
 *   target language: MSIL
 *   inception date: May 2011
-*   in distribution: [PL-{GOTO}.NET distribution](/distribution/PL-{GOTO}.NET distribution)
+*   in distribution: [PL-{GOTO}.NET distribution](http://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
 
 PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
 from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_.
@@ -54,7 +54,7 @@ Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergin
 *   implementation type: interpreter
 *   host language: [Perl][]
 *   inception date: Mar 23, 2001
-*   in distribution: [Muriel distribution](/distribution/Muriel distribution)
+*   in distribution: [Muriel distribution](http://catseye.tc/distribution/Muriel_distribution)
 
 This is an interpeter, written in Perl, for Matthew Westcott's
 quine-based language Muriel.  It was probably
@@ -66,7 +66,7 @@ the first full implementation of that language.
 *   implementation type: interpreter
 *   host language: [Erlang][]
 *   inception date: May 5, 2003
-*   in distribution: [pibfi distribution](/distribution/pibfi distribution)
+*   in distribution: [pibfi distribution](http://catseye.tc/distribution/pibfi_distribution)
 
 In contrast to all the ultra-minimal Brainfuck interpreters and
 compilers out there, I figured I should write a monster: the Platonic Ideal BrainFuck Interpreter.
@@ -82,13 +82,13 @@ point that made me recognize just how silly this project was...
 *   host language: [ANSI C][]
 *   target language: lookup table
 *   inception date: Jun 23, 2005
-*   in distribution: [The Dipple](/distribution/The Dipple)
+*   in distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
 can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
 (generally gigantic) lookup-tables.
 
-There is also an old [sf2tab distribution](/distribution/sf2tab distribution).
+There is also an old [sf2tab distribution](http://catseye.tc/distribution/sf2tab_distribution).
 
 ### stringie
 
@@ -96,7 +96,7 @@ There is also an old [sf2tab distribution](/distribution/sf2tab distribution).
 *   implementation type: interpreter
 *   host language: [ANSI C][]
 *   inception date: Sep 2010
-*   in distribution: [stringie distribution](/distribution/stringie distribution)
+*   in distribution: [stringie distribution](http://catseye.tc/distribution/stringie_distribution)
 
 Seeing that there was no *non*-pathological implementation of Alex Smith's
 beautiful [Underload][] language in C, I undertook that project one evening.

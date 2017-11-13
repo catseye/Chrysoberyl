@@ -10,7 +10,7 @@ Electronics Projects
 
 ![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
+*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: true
 *   legacy distfile @ [http://catseye.tc/distfiles/mildred-2003.0110.zip](http://catseye.tc/distfiles/mildred-2003.0110.zip)
 *   legacy distfile @ [http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
@@ -23,7 +23,7 @@ Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM,
 
 ![LED-386](http://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
+*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: true
 *   legacy distfile @ [http://catseye.tc/distfiles/led386-2004.0227.zip](http://catseye.tc/distfiles/led386-2004.0227.zip)
 
@@ -37,7 +37,7 @@ The LM386 audio amplifier IC, that is...
 
 ![The 'Kitsilano' Oscillator](http://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png)
 
-*   defining-distribution: [Electronics Projects distribution](/distribution/Electronics Projects distribution)
+*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: false
 *   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-2008.0905.zip](http://catseye.tc/distfiles/kitsilano-2008.0905.zip)
 *   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)

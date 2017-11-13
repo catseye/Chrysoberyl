@@ -18,7 +18,7 @@ and entries here may be categorized somewhat arbitrarily.
 
 *   genre: Maze-Runner
 *   inception-date: ca 1988
-*   reference distribution: [Bubble Escape distribution](/distribution/Bubble Escape distribution)
+*   reference distribution: [Bubble Escape distribution](http://catseye.tc/distribution/Bubble_Escape_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
 _Bubble Escape_ is a video game written for the [Commodore 64][] where the
@@ -62,7 +62,7 @@ where it won first place in its class.
 
 *   genre: Roguelike
 *   inception-date: ca Sep 2000
-*   reference distribution: [Corona: Realm of Magic distribution](/distribution/Corona: Realm of Magic distribution)
+*   reference distribution: [Corona: Realm of Magic distribution](http://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
 *   development-stage: archival
 
 _Corona: Realm of Magic_ is an unfinished roguelike written in
@@ -84,7 +84,7 @@ Interactive Entertainment Modules.)
 
 *   genre: Roguelike
 *   inception-date: Aug 2012
-*   reference distribution: [Dungeons of Ekileugor distribution](/distribution/Dungeons of Ekileugor distribution)
+*   reference distribution: [Dungeons of Ekileugor distribution](http://catseye.tc/distribution/Dungeons_of_Ekileugor_distribution)
 
 _Dungeons of Ekileugor_ is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
@@ -107,7 +107,7 @@ etc.
 
 *   genre: Logic
 *   inception-date: ca 1999
-*   reference distribution: [Super Wumpus Land distribution](/distribution/Super Wumpus Land distribution)
+*   reference distribution: [Super Wumpus Land distribution](http://catseye.tc/distribution/Super_Wumpus_Land_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
 
 _Super Wumpus Land_ is an "extended dance mix" version of Gregory Yob's
@@ -135,7 +135,7 @@ of an old-school green-screen video terminal.
 
 *   genre: Philosophy
 *   inception-date: 2015
-*   reference distribution: [The New Gamerly Realism distribution](/distribution/The New Gamerly Realism distribution)
+*   reference distribution: [The New Gamerly Realism distribution](http://catseye.tc/distribution/The_New_Gamerly_Realism distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 
 Only when the conscious habit of coding culture's little interactions,
@@ -186,7 +186,7 @@ phenomenon of a generation.  (Possibly.)
 *   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure
 *   inception-date: ca 2005
-*   reference distribution: [Zzrk distribution](/distribution/Zzrk distribution)
+*   reference distribution: [Zzrk distribution](http://catseye.tc/distribution/Zzrk_distribution)
 
 _Zzrk_ is a tiny adventure game written in "pure" Zz
 (a meta-language normally used for defining compilers.)
@@ -217,7 +217,7 @@ as more games are played.
 
 #### Implementation: animals.erl
 
-*   in-distribution: [Animals distribution](/distribution/Animals distribution)
+*   in-distribution: [Animals distribution](http://catseye.tc/distribution/Animals_distribution)
 *   license: Public Domain
 *   inception-date: ca 1999
 *   host-language: Erlang
@@ -241,7 +241,7 @@ away from what it thinks you are likely to guess next.
 
 #### Implementation: flip.erl
 
-*   in-distribution: [Flip distribution](/distribution/Flip distribution)
+*   in-distribution: [Flip distribution](http://catseye.tc/distribution/Flip_distribution)
 *   license: Public Domain
 *   inception-date: Jul 31 2002
 *   host-language: Erlang
@@ -263,7 +263,7 @@ a world less orthogonal.
 
 #### Implementation: wumpus.erl
 
-*   in-distribution: [wumpus.erl distribution](/distribution/wumpus.erl distribution)
+*   in-distribution: [wumpus.erl distribution](http://catseye.tc/distribution/wumpus.erl_distribution)
 *   license: BSD license
 *   inception-date: Jun 30 2002
 *   host-language: Erlang
@@ -279,7 +279,7 @@ _Sokoban_ is the classic Japanese game about lean manufacturing (well, sort of).
     
 #### Implementation: esoko
 
-*   in-distribution: [esoko distribution](/distribution/esoko distribution)
+*   in-distribution: [esoko distribution](http://catseye.tc/distribution/esoko_distribution)
 *   license: BSD license
 *   inception-date: Nov 4 2002
 *   host-language: Erlang

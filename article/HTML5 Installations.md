@@ -592,7 +592,7 @@ Wierd.
 *   online @ [catseye.tc](http://catseye.tc/ix/yoob)
 
 [yoob][] is a public-domain framework for implementing
-[esoteric programming languages](Esolang), and allowing them to be
+[esoteric programming languages][], and allowing them to be
 interactively run on programs in a Java application.
 
 Currently, yoob can interpret 21 languages: [1L_AOI][], [1L_a][], [2-ill][], [2L][],
@@ -1169,6 +1169,7 @@ Use the navigation buttons to traverse the space of the work.
 
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [esoteric programming language]: ../article/General%20Information.md#esolang
+[esoteric programming languages]: ../article/General%20Information.md#esolang
 [languages]: ../article/Languages.md
 [automata]: ../article/Automata.md
 [games]: ../article/Games.md

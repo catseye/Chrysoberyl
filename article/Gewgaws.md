@@ -186,7 +186,7 @@ and [Pong](http://en.wikipedia.org/wiki/Pong)
 ### Lexeduct
 
 *   inception date: Apr 2015
-*   reference distribution: [Lexeduct distribution](/distribution/Lexeduct distribution)
+*   reference distribution: [Lexeduct distribution](http://catseye.tc/distribution/Lexeduct_distribution)
 *   reference implementation name: lexeduct-browser.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Lexeduct)
 

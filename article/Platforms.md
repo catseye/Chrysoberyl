@@ -15,7 +15,7 @@ are debatable, and entries may be categorized somewhat arbitrarily.
 *   other-languages: many
 *   inception-date: Oct 4 2014
 *   development-stage: not fully complete
-*   reference-distribution: [The Cat's Eye Technologies Platform distribution](/distribution/The Cat's Eye Technologies Platform distribution)
+*   reference-distribution: [The Cat's Eye Technologies Platform distribution](http://catseye.tc/distribution/The_Cat's_Eye_Technologies_Platform_distribution)
 
 The Cat's Eye Technologies Platform is a [NetBSD][]-based,
 [shelf][]-powered, [Funicular][]-built "distro" containing almost all of
@@ -46,7 +46,7 @@ A pre-built disk image is available to download via
 *   other-languages: Befunge-93 (this is sort-of almost true)
 *   inception-date: ca 1999
 *   development-stage: archival
-*   reference-distribution: [BefOS distribution](/distribution/BefOS distribution)
+*   reference-distribution: [BefOS distribution](http://catseye.tc/distribution/BefOS_distribution)
 *   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
 
 Begun in the late 90's as a project to write an "operating system"
