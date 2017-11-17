@@ -2374,6 +2374,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.6.zip", 
                 "version": "0.6"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.7.zip", 
+                "version": "0.7"
             }
         ], 
         "tag-style": "new", 
