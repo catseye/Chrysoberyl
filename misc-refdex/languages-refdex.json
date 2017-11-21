@@ -1,7 +1,4 @@
 {
-    "Scheme": {
-        "url": "http://schemers.org/Documents/Standards/R5RS/"
-    },
     "plt-r5rs": {
         "url": "http://racket-lang.org/"
     },
@@ -9,20 +6,12 @@
         "url": "http://justinethier.github.io/husk-scheme/"
     },
 
+
     "Ophis Assembler": {
         "url": "https://github.com/michaelcmartin/Ophis"
     },
-    "Ophis": {
-        "url": "https://github.com/michaelcmartin/Ophis"
-    },
 
 
-    "ANSI C": {
-        "url": "http://clc-wiki.net/wiki/C89"
-    },
-    "C99": {
-        "url": "http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf"
-    },
     "gcc 3.4": {
         "url": "http://gcc.gnu.org/gcc-3.4/"
     },
@@ -31,9 +20,6 @@
     },
 
 
-    "Python": {
-        "url": "http://www.python.org/"
-    },
     "cPython 2.6.7": {
         "url": "http://www.python.org/"
     },
@@ -45,9 +31,6 @@
     },
 
 
-    "BASIC": {
-        "url": "http://en.wikipedia.org/wiki/BASIC"
-    },
     "Conway's Game of Life": {
         "url": "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
     },
@@ -68,12 +51,6 @@
     },
     "lookup table": {
         "url": "https://en.wikipedia.org/wiki/Lookup_table"
-    },
-    "Javascript": {
-        "url": "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
-    },
-    "Haskell": {
-        "url": "http://www.haskell.org/"
     },
     "ghc": {
         "url": "http://www.haskell.org/ghc/"
@@ -102,9 +79,6 @@
     "CSS": {
         "url": "http://www.w3.org/TR/CSS3/"
     },
-    "Erlang": {
-        "url": "http://www.erlang.org/"
-    },
     "Erlang/OTP R13B": {
         "url": "http://www.erlang.org/downloads/R13B"
     },
@@ -114,14 +88,8 @@
     "Lisp": {
         "url": "http://www.lispworks.com/documentation/HyperSpec/Front/index.htm"
     },
-    "Lua": {
-        "url": "http://www.lua.org/"
-    },
     "lua 5.0.3": {
         "url": "http://www.lua.org/versions.html#5.0"
-    },
-    "Perl": {
-        "url": "http://www.perl.org/"
     },
     "perl 5.8.8": {
         "url": "http://www.perl.org/"
@@ -134,12 +102,6 @@
     },
     "NASM Assembler": {
         "url": "http://nasm.us/"
-    },
-    "Bourne shell": {
-        "url": "http://steve-parker.org/sh/bourne.shtml"
-    },
-    "Java": {
-        "url": "http://www.oracle.com/technetwork/java/index.html"
     },
     "Ruby": {
         "url": "http://www.ruby-lang.org/"

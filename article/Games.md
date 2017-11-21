@@ -76,7 +76,7 @@ Interactive Entertainment Modules.)
 *   reference: true
 *   license: BSD license
 *   host-language: Perl 5.8
-*   interface: ANSI Terminal
+*   interface: [ANSI Terminal][]
 
 ### Dungeons of Ekileugor
 
@@ -303,4 +303,4 @@ Links
 [Perl]: http://www.perl.org/
 [Hunt the Wumpus]: ../article/Games.md#hunt-the-wumpus
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
-
+[ANSI Terminal]: TBD

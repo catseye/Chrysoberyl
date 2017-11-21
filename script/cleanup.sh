@@ -19,6 +19,7 @@ ARTICLES="
     article/Gewgaws.md
     article/Events.md
     article/General?Information.md
+    article/Project?Dependencies.md
 "
 
 feedmark --output-refdex $ARTICLES >article-refdex.json || exit 1
@@ -116,4 +117,9 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/HTML5 Installation.md" \
          "article/HTML5 Installations.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Project Dependency.md" \
+         "article/Project Dependencies.md" \
          --rewrite-markdown || exit 1
