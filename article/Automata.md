@@ -519,18 +519,18 @@ For a full account of its development, see
 
 - - - -
 
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
 [Jaccia]: ../article/Automata.md#jaccia
 [SMITH]: ../article/Languages.md#smith
-[Perl]: http://www.perl.org/
+[Perl]: ../article/Project%20Dependencies.md#perl
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
-[Java]: http://www.oracle.com/technetwork/java/index.html
+[Java]: ../article/Project%20Dependencies.md#java
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
 [bully automaton]: http://esolangs.org/wiki/Bully%20automaton
 [RUBE]: ../article/Automata.md#rube
-[ANSI C]: http://clc-wiki.net/wiki/C89
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat

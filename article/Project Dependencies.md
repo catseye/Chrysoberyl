@@ -87,6 +87,7 @@ processors, which some of our 6502 code is written in.
 
 *   specification-link: http://en.wikipedia.org/wiki/BASIC
 
+
 ### Haskell
 
 *   specification-link: https://www.haskell.org/
@@ -139,4 +140,5 @@ of a particular terminal standard which includes them, such as `vt100`
 or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
 need to be loaded.
 
-[Retrocomputing]: ../article/Retrocomputing.md
+[Retrocomputing]: http://catseye.tc/article/Retrocomputing
+

@@ -46,6 +46,6 @@ Links
 *   [The myth of RSS compatibility](https://web.archive.org/web/20081103204806/http://diveintomark.org/archives/2004/02/04/incompatible-rss)
 *   [The S stands for Simple](http://harmful.cat-v.org/software/xml/soap/simple)
 
-[Python]: http://www.python.org/
-[Haskell]: http://www.haskell.org/
+[Python]: ../article/Project%20Dependencies.md#python
+[Haskell]: ../article/Project%20Dependencies.md#haskell
 

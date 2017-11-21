@@ -2761,7 +2761,7 @@ locations.)
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
-[BASIC]: http://en.wikipedia.org/wiki/BASIC
+[BASIC]: ../article/Project%20Dependencies.md#basic
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: ../article/Languages.md#befunge-98
@@ -2781,7 +2781,7 @@ locations.)
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
-[Lua]: http://www.lua.org/
+[Lua]: ../article/Project%20Dependencies.md#lua
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [Pifxley]: ../article/Languages.md#pifxley
@@ -2790,7 +2790,7 @@ locations.)
 [Ruby]: http://www.ruby-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
 [SMITH]: ../article/Languages.md#smith
-[Scheme]: http://schemers.org/Documents/Standards/R5RS/
+[Scheme]: ../article/Project%20Dependencies.md#scheme
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
@@ -2802,15 +2802,15 @@ locations.)
 [Wierd (Milo van Handel)]: ../article/Languages.md#wierd
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
-[ANSI C]: http://clc-wiki.net/wiki/C89
-[Perl]: http://www.perl.org/
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[Perl]: ../article/Project%20Dependencies.md#perl
 [rubbish lister]: http://catseye.tc/node/Perl
-[Erlang]: http://www.erlang.org/
+[Erlang]: ../article/Project%20Dependencies.md#erlang
 [NASM Assembler]: http://nasm.us/
-[Java]: http://www.oracle.com/technetwork/java/index.html
-[Haskell]: http://www.haskell.org/
+[Java]: ../article/Project%20Dependencies.md#java
+[Haskell]: ../article/Project%20Dependencies.md#haskell
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
 [Befunge Mailing List Working Group]: http://esolangs.org/wiki/Befunge
@@ -2821,10 +2821,10 @@ locations.)
 [Jaccia]: ../article/Automata.md#jaccia
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
-[Python]: http://www.python.org/
+[Python]: ../article/Project%20Dependencies.md#python
 [Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
 [The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
-[ANSI Terminal]: TBD
+[ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
 

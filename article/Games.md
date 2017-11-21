@@ -300,7 +300,8 @@ Links
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Ophis Assembler]: https://github.com/michaelcmartin/Ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
-[Perl]: http://www.perl.org/
+[Perl]: ../article/Project%20Dependencies.md#perl
 [Hunt the Wumpus]: ../article/Games.md#hunt-the-wumpus
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
-[ANSI Terminal]: TBD
+[ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
+

@@ -424,5 +424,5 @@ framework, which is in Java.
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
-[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
+[Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 

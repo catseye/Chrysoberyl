@@ -82,6 +82,6 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [NASM]: http://nasm.us/
 [NASM Assembler]: http://nasm.us/
 [Funicular]: ../article/Tools.md#funicular
-[ANSI C]: http://clc-wiki.net/wiki/C89
-[Perl]: http://www.perl.org/
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[Perl]: ../article/Project%20Dependencies.md#perl
 

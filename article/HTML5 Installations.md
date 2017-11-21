@@ -1178,14 +1178,14 @@ Use the navigation buttons to traverse the space of the work.
 [JaC64]: ../article/Retrocomputing.md#commodore-64
 [Zplet]: ../article/Retrocomputing.md#z-machine
 [Z-Machine code]: ../article/Retrocomputing.md#z-machine
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
 [6502 machine code]: ../article/Retrocomputing.md#6502
 [x86 machine code]: ../article/Retrocomputing.md#ms-dos
 [v86]: ../article/Retrocomputing.md#ms-dos
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
-[Python]: http://www.python.org/
+[Python]: ../article/Project%20Dependencies.md#python
 [Skulpt]: http://www.skulpt.org/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape

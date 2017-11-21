@@ -195,6 +195,6 @@ Links
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Amiga 500]: ../article/Retrocomputing.md#amiga-500
 [E-UAE]: ../article/Retrocomputing.md#amiga-500
-[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
-[Perl]: http://www.perl.org/
+[Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
+[Perl]: ../article/Project%20Dependencies.md#perl
 
