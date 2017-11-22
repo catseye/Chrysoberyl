@@ -2787,7 +2787,7 @@ locations.)
 [Pifxley]: ../article/Languages.md#pifxley
 [P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
 [RUBE]: ../article/Automata.md#rube
-[Ruby]: http://www.ruby-lang.org/
+[Ruby]: ../article/Project%20Dependencies.md#ruby
 [SITU-MON]: ../article/Tools.md#situ-mon
 [SMITH]: ../article/Languages.md#smith
 [Scheme]: ../article/Project%20Dependencies.md#scheme

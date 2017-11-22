@@ -246,13 +246,12 @@ need to be loaded.
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos
 [Haskell]: ../article/Project%20Dependencies.md#haskell
 [C99]: ../article/Project%20Dependencies.md#c99
-[Python]: TBD
-[Etcha]: TBD
-[Whothm]: TBD
-[yoob]: TBD
-[Thue]: TBD
-[Castile]: TBD
-[Velo]: TBD
-[Lua]: TBD
-
+[Python]: ../article/Project%20Dependencies.md#python
+[Etcha]: ../article/Languages.md#etcha
+[Whothm]: ../article/Languages.md#whothm
+[yoob]: ../article/Archived.md#yoob
+[Thue]: http://esolangs.org/wiki/Thue
+[Castile]: ../article/Languages.md#castile
+[Velo]: ../article/Languages.md#velo
+[Lua]: ../article/Project%20Dependencies.md#lua
 
