@@ -193,6 +193,7 @@ or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
 need to be loaded.
 
 [Retrocomputing]: http://catseye.tc/article/Retrocomputing
-[MS-DOS]: TBD
-[Haskell]: TBD
-[C99]: TBD
+[MS-DOS]: ../article/Retrocomputing.md#ms-dos
+[Haskell]: ../article/Project%20Dependencies.md#haskell
+[C99]: ../article/Project%20Dependencies.md#c99
+
