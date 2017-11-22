@@ -89,6 +89,11 @@ Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x ser
 
 Javascript
 
+Some old Javascript links that still work:
+
+*   [JavaScript at quirksmode](http://www.quirksmode.org/js/contents.html)
+*   [Speed Up Your Javascript Load Time](https://betterexplained.com/articles/speed-up-your-javascript-load-time/)
+
 ### Scheme
 
 *   specification-link: http://schemers.org/Documents/Standards/R5RS/
@@ -119,12 +124,17 @@ the binaries should be built from.
 
 *   specification-link: http://en.wikipedia.org/wiki/BASIC
 
+BASIC.
 
 ### Haskell
 
 *   specification-link: https://www.haskell.org/
 
 Haskell is a lazy functional language.
+
+Some ancient links that still work:
+
+*   [A Haskell regular expression tutorial](http://www.serpentine.com/blog/2007/02/27/a-haskell-regular-expression-tutorial/)
 
 #### Implementation: ghc
 
@@ -135,6 +145,8 @@ Haskell is a lazy functional language.
 *   target-language: native code
 
 The Glasgow Haskell Compiler is dangerously close to being "the" implementation of Haskell.
+
+It also has an interpreter, `ghci`.
 
 #### Implementation: hugs
 
@@ -148,9 +160,42 @@ being written in C, it builds on NetBSD.
 
 ### Java
 
-*   specification-link: http://www.oracle.com/technetwork/java/index.html
+*   specification-link: https://docs.oracle.com/javase/specs/
 
-Java
+Our Java projects are, as far as I can recall, written in Java 1.6.  They have not been tested
+recently, but when they were, it might have been under the Java SE 6 JDK 1.6.0.
+
+An implementation of Java is *not* included with The Platform.
+
+Generally, we're trying to migrate away from it.  [Etcha][] was originally written
+in Java, but it now has a second implementation in Javascript.  ([Whothm][] needs
+to go this way too.)  [yoob][] is written in Java, but I don't think any of our
+languages is implemented solely in yoob anymore.
+
+Our few installations that are Java Applets have been converted into Java Web Start
+applications, since Java Applets are on the obsolescence track.
+
+If you want to try installing a Java Runtime, you can apparently
+[download a Java Runtime](http://www.oracle.com/technetwork/java/javase/downloads/index.html),
+after you have agreed to the "Oracle Binary Code License Agreement for Java SE".
+
+### Ruby
+
+*   specification-link: http://www.ruby-lang.org/
+
+Some of our projects have some stuff written in Ruby — we implemented
+[Thue][] in Ruby, and [Castile][] can output Ruby — but nothing we've
+written *relies* on Ruby.  (The original version of [Velo][] was written
+in Ruby, but it was re-implemented in [Lua][].)
+
+Therefore an implementation of Ruby is *not* included with The Platform.
+
+But the Ruby things should run in Ruby 1.8 or 1.9 or thereabouts, which
+you could once have downloaded [here](http://www.ruby-lang.org/en/downloads/) if you
+agreed to this [BSD-compatible license](http://www.ruby-lang.org/en/about/license.txt)
+but apparently 1.9 is just too old and not maintained anymore.
+
+Anyway, here is [a fairly good Ruby tutorial](http://www.fincher.org/tips/Languages/Ruby/).
 
 Tools and Libraries
 -------------------
@@ -160,7 +205,7 @@ Tools and Libraries
 *   specification-link: http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
 *   suggested-implementation: http://www.gnu.org/software/make/
 
-make is a tool for orchestrating builds.
+`make` is a tool for orchestrating builds.
 
 ### Parsec
 
@@ -176,6 +221,11 @@ Parsec is a parser combinator library for Haskell.
 
 `realpath` is a tool that reports the real, symbolic-link-free path
 for a filepath which may contain symbolic links.
+
+I'm not sure if it's part of any standard, but it really should be, because it's
+very useful in scripts.  It does come bundled with many Linux distributions,
+but not with NetBSD, so for The Platform, we wrote our own implementation in [Python][]
+(see link above.)
 
 Interfaces
 ----------
@@ -196,4 +246,13 @@ need to be loaded.
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos
 [Haskell]: ../article/Project%20Dependencies.md#haskell
 [C99]: ../article/Project%20Dependencies.md#c99
+[Python]: TBD
+[Etcha]: TBD
+[Whothm]: TBD
+[yoob]: TBD
+[Thue]: TBD
+[Castile]: TBD
+[Velo]: TBD
+[Lua]: TBD
+
 
