@@ -7,10 +7,9 @@ programming languages our projects are written in, the platforms or operating
 systems that they run on, and libraries and tools they might require when run.
 
 It should be noted that [The Cat's Eye Technologies Platform][] was started
-specifically for this purpose: providing a platform where all (or at least,
-the majority) of Cat's Eye Technologies' project can run.
-
-Therefore this document may refer to that project in many places.
+specifically to provide a platform where most all of Cat's Eye Technologies'
+software projects can run.  Therefore this document may refer to that project
+in many places.
 
 Languages
 ---------
@@ -25,7 +24,7 @@ an `-ansi` flag, as well as a `-pedantic` flag which makes them stick more
 closely to the letter of the ANSI C spec.
 
 Some of our projects can be compiled as either ANSI C or [C99][].  Often, ANSI C
-selectable by setting the environment variable `ANSI` to something while running
+selectable by setting the environment variable `ANSI` to `YES` while running
 the build command (which is often `make`.)
 
 ### C99
@@ -147,7 +146,7 @@ the binaries should be built from.
 
 *   specification-link: http://en.wikipedia.org/wiki/BASIC
 
-BASIC.  This needs to be more specific.  Some of our projects are
+BASIC.  TODO: This needs to be more specific.  Some of our projects are
 written in Commodore BASIC 2.0.  Others are written in Applesoft BASIC.
 
 ### Haskell
