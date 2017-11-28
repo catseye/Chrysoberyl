@@ -41,7 +41,7 @@ where it won first place in its class.
 
 *   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler 2.0
+*   host-language: [Ophis Assembler][]
 *   host-platform: Commodore 64
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
@@ -52,7 +52,7 @@ where it won first place in its class.
 
 *   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler 2.0
+*   host-language: [Ophis Assembler][]
 *   host-platform: Commodore 64
 *   controls: joystick
 
@@ -299,7 +299,7 @@ Links
 
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
-[Ophis Assembler]: https://github.com/michaelcmartin/Ophis
+[Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Hunt the Wumpus]: ../article/Games.md#hunt-the-wumpus

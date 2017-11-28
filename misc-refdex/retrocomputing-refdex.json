@@ -34,6 +34,10 @@
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
     }, 
+    "Ophis Assembler": {
+        "anchor": "ophis", 
+        "filename": "article/Retrocomputing.md"
+    },
     "QEMU": {
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
