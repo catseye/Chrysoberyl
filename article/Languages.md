@@ -2827,4 +2827,5 @@ locations.)
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
-[Applesoft BASIC]: TBD
+[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+

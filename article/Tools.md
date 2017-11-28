@@ -411,7 +411,7 @@ framework, which is in Java.
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
-[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-64
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
 [NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
