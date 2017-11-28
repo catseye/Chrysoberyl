@@ -332,4 +332,5 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [The Dossier]: ../article/General%20Information.md#the-dossier
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 
