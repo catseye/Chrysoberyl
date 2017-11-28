@@ -21,7 +21,7 @@ Languages
 
 Many of our C programs are written in C89, also colloquially known as "ANSI C".
 This is supported by many C compilers.  Indeed, many C compilers understand
-an `--ansi` flag, as well as a `--pedantic` flag which makes them stick more
+an `-ansi` flag, as well as a `-pedantic` flag which makes them stick more
 closely to the letter of the ANSI C spec.
 
 Some of our projects can be compiled as either ANSI C or [C99][].  Often, ANSI C
@@ -37,6 +37,9 @@ surrounding the program, and how the program can interact with it.  For example,
 a program can sleep, but with coarse granularity; it cannot sleep for less than 1
 second.  Interfaces and extensions that were added to various vendors' C language
 since ANSI C were collected into a new standard called C99, which improved on this.
+
+Telling a C compiler that it should treat its input files as C99 is often done
+with a flag such as `-std=c99`.
 
 Some of our projects can be compiled as either C99 or [ANSI C][].  Often, C99 is
 the default, and ANSI C, if desired. must be selected explicitly when building.
@@ -81,10 +84,11 @@ they have been tested on, see [The Cat's Eye Technologies Platform][].
 
 *   specification-link: http://steve-parker.org/sh/bourne.shtml
 
-We try to write our Bourne shell scripts to run on plain Bourne shell -- nothing
+We try to write our Bourne shell scripts to run on plain Bourne shell — nothing
 `bash`-specific.  We try to test them on NetBSD for this purpose.  As such, they
-run on the version of `sh` that ships with NetBSD 6. For more precise version
-numbers they have been tested on, see [The Cat's Eye Technologies Platform][].
+run on the version of `sh` that ships with NetBSD 6 (which might be `ash`.)
+For more precise version numbers they have been tested on,
+see [The Cat's Eye Technologies Platform][].
 
 ### Lua
 
@@ -100,12 +104,12 @@ Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x ser
 *   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
 There is no implementation of Javascript bundled with [The Cat's Eye Technologies Platform][].
-Some of our Javascript scripts are "universal" and will run under `node.js`, but we don't have
-a versioning plan for those.  Most of our Javascript is intended to run in the browser and
+Some of our Javascript scripts are "universal" and will run under `nodejs`, but we don't have
+a versioning plan for those yet.  Most of our Javascript is intended to run in the browser and
 is simply kept reasonably up-to-date with current browsers.  (At any given time, your mileage
 may of course vary.)
 
-Some old Javascript links that still work:
+For laughs, here are some old Javascript links that still work:
 
 *   [JavaScript at quirksmode](http://www.quirksmode.org/js/contents.html)
 *   [Speed Up Your Javascript Load Time](https://betterexplained.com/articles/speed-up-your-javascript-load-time/)
@@ -116,6 +120,8 @@ Some old Javascript links that still work:
 *   suggested-implementation: http://justinethier.github.io/husk-scheme/
 
 Our Scheme projects are generally written in vanilla R5RS Scheme.
+Sometimes even R4RS Scheme.  (And it should be noted that this is
+like saying "ATM Machine".  But the alternatives all sound worse.)
 For more precise version numbers they have been tested on, see
 [The Cat's Eye Technologies Platform][].
 
@@ -123,7 +129,7 @@ For more precise version numbers they have been tested on, see
 
 *   specification-link: https://github.com/michaelcmartin/Ophis
 
-An assembler (and its concomitant assembly language) for the 6502 and related
+Ophis is an assembler (and its concomitant assembly language) for the 6502 and related
 processors, which some of our 6502 code is written in.
 
 ### NASM
@@ -141,7 +147,8 @@ the binaries should be built from.
 
 *   specification-link: http://en.wikipedia.org/wiki/BASIC
 
-BASIC.
+BASIC.  This needs to be more specific.  Some of our projects are
+written in Commodore BASIC 2.0.  Others are written in Applesoft BASIC.
 
 ### Haskell
 
@@ -172,8 +179,9 @@ It also has an interpreter, `ghci`.
 *   implementation-type: interpreter
 *   host-language: [C99][]
 
-`hugs` is a Haskell interpreter.  It's used in The Platform because,
-being written in C, it builds on NetBSD.
+`hugs` is a Haskell interpreter.  It's used in [The Cat's Eye Technologies Platform][] because,
+being written in C, it builds on NetBSD.  (Boostrapping `ghci` there would, I imagine,
+be quite cumbersome.)
 
 ### Java
 
@@ -241,8 +249,8 @@ for a filepath which may contain symbolic links.
 
 I'm not sure if it's part of any standard, but it really should be, because it's
 very useful in scripts.  It does come bundled with many Linux distributions,
-but not with NetBSD, so for The Platform, we wrote our own implementation in [Python][]
-(see link above.)
+but not with NetBSD, so for The Platform, we wrote
+[our own implementation](http://catseye.tc/distribution/realpath_distribution) in [Python][].
 
 Interfaces
 ----------
