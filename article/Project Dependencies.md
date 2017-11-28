@@ -11,6 +11,10 @@ specifically to provide a platform where most all of Cat's Eye Technologies'
 software projects can run.  Therefore this document may refer to that project
 in many places.
 
+Some projects depend on technology which is, nowadays, considered
+"retrotechnology", and those project dependencies can be found in the
+[Retrocomputing](../article/Retrocomputing.md) article instead of here.
+
 Languages
 ---------
 
@@ -238,7 +242,7 @@ the ANSI terminal control codes (more formally known as "ECMA-48") in
 order for their output to be intelligible. Almost all modern consoles
 and terminal emulators understand these codes, sometimes under the guise
 of a particular terminal standard which includes them, such as `vt100`
-or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
+or `vt220`. For older [MS-DOS][] systems, a driver such as `ANSI.SYS` may
 need to be loaded.
 
 [The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform

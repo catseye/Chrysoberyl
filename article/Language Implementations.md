@@ -6,6 +6,7 @@ Language Implementations
 
 This is a list of languages that Cat's Eye Technologies has built an implementation for
 (or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
+(For those, see [Languages](../article/Languages.md).)
 
 ### PL-{GOTO}.NET
 

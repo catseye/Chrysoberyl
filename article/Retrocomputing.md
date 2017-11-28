@@ -1,8 +1,10 @@
 Retrocomputing
 ==============
 
-Stuff done at Cat's Eye Technologies on older computers, or more
-often, an emulation of such a computer on a modern computer instead.
+This document contains stuff done at Cat's Eye Technologies on older computers
+(or more often, an emulation of such a computer on a modern computer), and tries
+to list what you might need to run them, over and above the standard contemporary
+[Project Dependencies](../article/Project%20Dependencies.md).
 
 Some of the information here is not specific to Cat's Eye Technologies
 and may be moved to [The Dossier][] at a future date.
