@@ -14,11 +14,8 @@ and may be moved to [The Dossier][] at a future date.
 *   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
 
 Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
-The CPU was a 6502.
-[Applesoft BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC)
-(with a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual))
-was a dialect of BASIC that was available for (in fact, generally shipped with) these computers.
-There was also an "Integer Basic".
+The CPU was a 6502.  [Applesoft BASIC][] was often in the ROM, but it could have been
+loaded from tape or disk.
 
 Emulators: [AppleWin](https://www.zophar.net/apple2/applewin.html) is an emulator for the Apple II, built for Windows,
 written in C++ and distributed under the GPL.  [Linapple](https://github.com/catseye/linapple)
@@ -36,7 +33,7 @@ instructions.  It was written for the Apple ][+, but should also run on an Apple
 
 *   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
 
-Rundown: The CPU was a 6502.  Commodore BASIC 2.0 was in the ROM; this is the same BASIC that was
+Rundown: The CPU was a 6502.  [Commodore BASIC 2.0][] was in the ROM; this is the same BASIC that was
 in the Commodore 64.
 
 Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
@@ -55,7 +52,7 @@ monsters, treasure, potions, traps, chests, combat with experience points, etc.
 
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
-Rundown: The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM;
+Rundown: The CPU was a 6510, which was a slightly modified 6502.  [Commodore BASIC 2.0][] was in the ROM;
 this is the same BASIC that was in the VIC-20.
 The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it merely a guide?
 Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
@@ -71,7 +68,7 @@ We forked it to fix some bugs and because mainline development seemed stalled.
 ![Bubble Escape 2K](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
-a multi-screen maze. It was originally designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
+a multi-screen maze. It was originally designed and implemented in [Commodore BASIC 2.0][] in the mid-80's, and
 rewritten in 6502 assembly language in the late 00's. The assembly version was pared down so that (crunched) it
 fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Compo 2009 where it won first place
 in its class.
@@ -282,8 +279,22 @@ processors, which some of our 6502 code is written in.
 
 *   specification-link: http://en.wikipedia.org/wiki/BASIC
 
-BASIC.  TODO: This needs to be more specific.  Some of our projects are
-written in Commodore BASIC 2.0.  Others are written in Applesoft BASIC.
+There are lots and lots and lots of variants of BASIC.  Some of our projects are
+written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
+
+### Commodore BASIC 2.0
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+BASIC for the [Commodore 64][] and [Commodore VIC-20][].  TODO: find better specification link.
+
+### Applesoft BASIC
+
+*   specification-link: https://en.wikipedia.org/wiki/Applesoft_BASIC
+
+This was a dialect of BASIC that was available for (in fact, generally shipped with) the [Apple II][].
+There is a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual).
+There was also an "Integer Basic".
 
 ### NASM
 

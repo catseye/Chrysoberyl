@@ -503,7 +503,7 @@ Apple ][+-specific instructions.
 *   development-stage: archival
 *   license: Public Domain
 *   implementation-type: interpreter, editor
-*   host-language: Applesoft BASIC
+*   host-language: [Applesoft BASIC][]
 *   host-platform: Apple II
 
 ### SMITH
@@ -2827,4 +2827,4 @@ locations.)
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
-
+[Applesoft BASIC]: TBD

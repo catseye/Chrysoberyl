@@ -7,20 +7,12 @@
         "anchor": "amiga-500", 
         "filename": "article/Retrocomputing.md"
     }, 
-    "Applesoft BASIC": {
-        "anchor": "apple-ii", 
-        "filename": "article/Retrocomputing.md"
-    }, 
     "Bochs": {
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
     }, 
     "Borland C++ compiler": {
         "url": "https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md"
-    }, 
-    "Commodore BASIC 2.0": {
-        "anchor": "commodore-64", 
-        "filename": "article/Retrocomputing.md"
     }, 
     "DOSBox": {
         "anchor": "ms-dos", 
