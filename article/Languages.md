@@ -2761,7 +2761,7 @@ locations.)
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
-[BASIC]: ../article/Project%20Dependencies.md#basic
+[BASIC]: ../article/Retrocomputing.md#basic
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: ../article/Languages.md#befunge-98

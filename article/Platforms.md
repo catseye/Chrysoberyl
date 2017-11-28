@@ -79,7 +79,7 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
 [Befunge]: http://catseye.tc/node/Befunge
 [Befunge-93]: ../article/Languages.md#befunge-93
-[NASM]: ../article/Project%20Dependencies.md#nasm
+[NASM]: ../article/Retrocomputing.md#nasm
 [NASM Assembler]: http://nasm.us/
 [Funicular]: ../article/Tools.md#funicular
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
