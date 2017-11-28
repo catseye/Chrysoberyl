@@ -1,23 +1,16 @@
 Project Dependencies
 ====================
 
-These are the things you might need to use the things produced by
-Cat's Eye Technologies.  I mean software — the interpreters and
-compilers for the programming languages our projects are written
-in, and the platforms or operating systems that they run on.
+This document lists the software you might need to run the software produced by
+Cat's Eye Technologies.  This includes interpreters and compilers for the
+programming languages our projects are written in, the platforms or operating
+systems that they run on, and libraries and tools they might require when run.
 
-It should be noted that [The Cat's Eye Technologies Platform][], which is
-based on NetBSD, was put together specifically for this purpose.  Most of
-the dependency versions listed below, are the same as those in The Platform
-(suggesting that this document may merge with The Platform somehow in the future.)
-The Platform runs under QEMU, and possibly under other x86-based
-IBM PC-architecture emulators, and possibly even on actual x86-based computers,
-if they can run NetBSD.
+It should be noted that [The Cat's Eye Technologies Platform][] was started
+specifically for this purpose: providing a platform where all (or at least,
+the majority) of Cat's Eye Technologies' project can run.
 
-Stuff written in compiled languages needs to be built before it can run.
-
-This is a work-in-progress.  It doesn't really include [Retrocomputing][]
-but it probably should.
+Therefore this document may refer to that project in many places.
 
 Languages
 ---------
@@ -26,19 +19,34 @@ Languages
 
 *   specification-link: http://clc-wiki.net/wiki/C89
 
-ANSI C
+Many of our C programs are written in C89, also colloquially known as "ANSI C".
+This is supported by many C compilers.  Indeed, many C compilers understand
+an `--ansi` flag, as well as a `--pedantic` flag which makes them stick more
+closely to the letter of the ANSI C spec.
+
+Some of our projects can be compiled as either ANSI C or [C99][].  Often, ANSI C
+selectable by setting the environment variable `ANSI` to something while running
+the build command (which is often `make`.)
 
 ### C99
 
 *   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
 
-C99
+The disadvantage of ANSI C is that it defines only a very crude model of the world
+surrounding the program, and how the program can interact with it.  For example,
+a program can sleep, but with coarse granularity; it cannot sleep for less than 1
+second.  Interfaces and extensions that were added to various vendors' C language
+since ANSI C were collected into a new standard called C99, which improved on this.
+
+Some of our projects can be compiled as either C99 or [ANSI C][].  Often, C99 is
+the default, and ANSI C, if desired. must be selected explicitly when building.
 
 ### Perl
 
 *   specification-link: http://www.perl.org/
 
-Perl
+Our Perl projects are written in Perl 5.  For more precise version numbers they have
+been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Erlang
 
@@ -66,13 +74,17 @@ to make some manual changes and system setup.
 
 *   specification-link: http://www.python.org/
 
-Our Python code is written in Python 2.7.x.
+Our Python projects are written in Python 2.7.  For more precise version numbers
+they have been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Bourne shell
 
 *   specification-link: http://steve-parker.org/sh/bourne.shtml
 
-Bourne shell
+We try to write our Bourne shell scripts to run on plain Bourne shell -- nothing
+`bash`-specific.  We try to test them on NetBSD for this purpose.  As such, they
+run on the version of `sh` that ships with NetBSD 6. For more precise version
+numbers they have been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Lua
 
@@ -87,7 +99,11 @@ Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x ser
 
 *   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
-Javascript
+There is no implementation of Javascript bundled with [The Cat's Eye Technologies Platform][].
+Some of our Javascript scripts are "universal" and will run under `node.js`, but we don't have
+a versioning plan for those.  Most of our Javascript is intended to run in the browser and
+is simply kept reasonably up-to-date with current browsers.  (At any given time, your mileage
+may of course vary.)
 
 Some old Javascript links that still work:
 
@@ -99,8 +115,9 @@ Some old Javascript links that still work:
 *   specification-link: http://schemers.org/Documents/Standards/R5RS/
 *   suggested-implementation: http://justinethier.github.io/husk-scheme/
 
-Our Scheme projects are generally written in vanilla R5RS Scheme and
-are tested with CHICKEN Scheme 4.9.0.1.
+Our Scheme projects are generally written in vanilla R5RS Scheme.
+For more precise version numbers they have been tested on, see
+[The Cat's Eye Technologies Platform][].
 
 ### Ophis
 
@@ -254,4 +271,6 @@ need to be loaded.
 [Castile]: ../article/Languages.md#castile
 [Velo]: ../article/Languages.md#velo
 [Lua]: ../article/Project%20Dependencies.md#lua
-
+[The Cat's Eye Technologies Platform]: TBD
+[C99]: TBD
+[ANSI C]: TBD
