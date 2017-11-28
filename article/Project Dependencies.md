@@ -259,10 +259,11 @@ of a particular terminal standard which includes them, such as `vt100`
 or `vt220`. For older MS-DOS systems, a driver such as `ANSI.SYS` may
 need to be loaded.
 
-[Retrocomputing]: http://catseye.tc/article/Retrocomputing
+[The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[C99]: ../article/Project%20Dependencies.md#c99
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos
 [Haskell]: ../article/Project%20Dependencies.md#haskell
-[C99]: ../article/Project%20Dependencies.md#c99
 [Python]: ../article/Project%20Dependencies.md#python
 [Etcha]: ../article/Languages.md#etcha
 [Whothm]: ../article/Languages.md#whothm
@@ -271,6 +272,4 @@ need to be loaded.
 [Castile]: ../article/Languages.md#castile
 [Velo]: ../article/Languages.md#velo
 [Lua]: ../article/Project%20Dependencies.md#lua
-[The Cat's Eye Technologies Platform]: TBD
-[C99]: TBD
-[ANSI C]: TBD
+
