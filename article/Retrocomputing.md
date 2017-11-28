@@ -266,6 +266,34 @@ There are other, much better emulators, such as Frotz.
 **[The Never-Ending Maze][]** is an Infocom-style text adventure game based on the defining cultural phenomenon
 of a generation. (Possibly.)
 
+Languages
+---------
+
+### Ophis
+
+*   specification-link: https://github.com/michaelcmartin/Ophis
+
+Ophis is an assembler (and its concomitant assembly language) for the 6502 and related
+processors, which some of our 6502 code is written in.
+
+### BASIC
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+BASIC.  TODO: This needs to be more specific.  Some of our projects are
+written in Commodore BASIC 2.0.  Others are written in Applesoft BASIC.
+
+### NASM
+
+*   specification-link: http://nasm.us/
+
+In our projects, many of these NASM files were converted from older
+assembly-language sources written in the syntax of Turbo Assembler 3.1
+(an old-school x86 assembler for [MS-DOS][], written by Borland.)
+In some cases the Turbo Assembler sources are still included in the
+project for historical interest, but the newer NASM sources are what
+the binaries should be built from.
+
 - - - -
 
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
