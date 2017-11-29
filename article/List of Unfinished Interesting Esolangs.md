@@ -670,12 +670,12 @@ Naturally, you can also create new YO_DAWG objects.
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Burro]: ../article/Languages.md#burro
 [Cabra]: ../article/Languages.md#cabra
-[Erlang]: http://www.erlang.org/
-[Java]: http://www.oracle.com/technetwork/java/index.html
+[Erlang]: ../article/Project%20Dependencies.md#erlang
+[Java]: ../article/Project%20Dependencies.md#java
 [Mascarpone]: ../article/Languages.md#mascarpone
 [Muriel]: http://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
-[Scheme]: http://schemers.org/Documents/Standards/R5RS/
+[Scheme]: ../article/Project%20Dependencies.md#scheme
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete
 [Underload]: http://esolangs.org/wiki/Underload
 [Unlikely]: ../article/Languages.md#unlikely

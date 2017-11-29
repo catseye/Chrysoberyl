@@ -1,8 +1,10 @@
 Retrocomputing
 ==============
 
-Stuff done at Cat's Eye Technologies on older computers, or more
-often, an emulation of such a computer on a modern computer instead.
+This document contains stuff done at Cat's Eye Technologies on older computers
+(or more often, an emulation of such a computer on a modern computer), and tries
+to list what you might need to run them, over and above the standard contemporary
+[Project Dependencies](../article/Project%20Dependencies.md).
 
 Some of the information here is not specific to Cat's Eye Technologies
 and may be moved to [The Dossier][] at a future date.
@@ -12,11 +14,8 @@ and may be moved to [The Dossier][] at a future date.
 *   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
 
 Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
-The CPU was a 6502.
-[Applesoft BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC)
-(with a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual))
-was a dialect of BASIC that was available for (in fact, generally shipped with) these computers.
-There was also an "Integer Basic".
+The CPU was a 6502.  [Applesoft BASIC][] was often in the ROM, but it could have been
+loaded from tape or disk.
 
 Emulators: [AppleWin](https://www.zophar.net/apple2/applewin.html) is an emulator for the Apple II, built for Windows,
 written in C++ and distributed under the GPL.  [Linapple](https://github.com/catseye/linapple)
@@ -34,7 +33,7 @@ instructions.  It was written for the Apple ][+, but should also run on an Apple
 
 *   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
 
-Rundown: The CPU was a 6502.  Commodore BASIC 2.0 was in the ROM; this is the same BASIC that was
+Rundown: The CPU was a 6502.  [Commodore BASIC 2.0][] was in the ROM; this is the same BASIC that was
 in the Commodore 64.
 
 Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
@@ -53,7 +52,7 @@ monsters, treasure, potions, traps, chests, combat with experience points, etc.
 
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
-Rundown: The CPU was a 6510, which was a slightly modified 6502.  Commodore BASIC 2.0 was in the ROM;
+Rundown: The CPU was a 6510, which was a slightly modified 6502.  [Commodore BASIC 2.0][] was in the ROM;
 this is the same BASIC that was in the VIC-20.
 The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it merely a guide?
 Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
@@ -69,7 +68,7 @@ We forked it to fix some bugs and because mainline development seemed stalled.
 ![Bubble Escape 2K](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
-a multi-screen maze. It was originally designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
+a multi-screen maze. It was originally designed and implemented in [Commodore BASIC 2.0][] in the mid-80's, and
 rewritten in 6502 assembly language in the late 00's. The assembly version was pared down so that (crunched) it
 fit into 2K, christened "Bubble Escape 2K", and submitted to the Mini Game Compo 2009 where it won first place
 in its class.
@@ -266,6 +265,48 @@ There are other, much better emulators, such as Frotz.
 **[The Never-Ending Maze][]** is an Infocom-style text adventure game based on the defining cultural phenomenon
 of a generation. (Possibly.)
 
+Languages
+---------
+
+### Ophis
+
+*   specification-link: https://github.com/michaelcmartin/Ophis
+
+Ophis is an assembler (and its concomitant assembly language) for the 6502 and related
+processors, which some of our 6502 code is written in.
+
+### BASIC
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+There are lots and lots and lots of variants of BASIC.  Some of our projects are
+written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
+
+### Commodore BASIC 2.0
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+BASIC for the [Commodore 64][] and [Commodore VIC-20][].  TODO: find better specification link.
+
+### Applesoft BASIC
+
+*   specification-link: https://en.wikipedia.org/wiki/Applesoft_BASIC
+
+This was a dialect of BASIC that was available for (in fact, generally shipped with) the [Apple II][].
+There is a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual).
+There was also an "Integer Basic".
+
+### NASM
+
+*   specification-link: http://nasm.us/
+
+In our projects, many of these NASM files were converted from older
+assembly-language sources written in the syntax of Turbo Assembler 3.1
+(an old-school x86 assembler for [MS-DOS][], written by Borland.)
+In some cases the Turbo Assembler sources are still included in the
+project for historical interest, but the newer NASM sources are what
+the binaries should be built from.
+
 - - - -
 
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
@@ -282,13 +323,14 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
-[NASM]: http://nasm.us/
+[NASM]: ../article/Retrocomputing.md#nasm
 [SixtyPical]: ../article/Languages.md#sixtypical
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-SOL]: ../article/Languages.md#situ-sol
 [SITU-MON]: ../article/Tools.md#situ-mon
 [BefOS]: ../article/Platforms.md#befos
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
-[ANSI C]: http://clc-wiki.net/wiki/C89
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [The Dossier]: ../article/General%20Information.md#the-dossier
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 

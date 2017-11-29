@@ -194,11 +194,11 @@ short-and-trying-to-be-unbiased-blurb approach.
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [Phantom Hoover]: http://esolangs.org/wiki/User:Phantom_Hoover
-[Java]: http://www.oracle.com/technetwork/java/index.html
+[Java]: ../article/Project%20Dependencies.md#java
 [HTML5]: https://www.w3.org/TR/html5/
 [Chrysoberyl]: ../article/General%20Information.md#chrysoberyl
 [Feedmark]: ../article/Formats.md#feedmark
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [languages]: ../article/Languages.md
 [automata]: ../article/Automata.md

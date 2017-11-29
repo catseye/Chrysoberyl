@@ -6,6 +6,7 @@ Language Implementations
 
 This is a list of languages that Cat's Eye Technologies has built an implementation for
 (or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
+(For those, see [Languages](../article/Languages.md).)
 
 ### PL-{GOTO}.NET
 
@@ -367,16 +368,16 @@ Fork began Feb 1, 2012.
 [SNUSP]: http://esolangs.org/wiki/SNUSP
 [1L]: http://esolangs.org/wiki/1L
 [Ale]: http://esolangs.org/wiki/Ale
-[ANSI C]: http://clc-wiki.net/wiki/C89
-[C99]: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
-[Perl]: http://www.perl.org/
-[Erlang]: http://www.erlang.org/
-[Haskell]: http://www.haskell.org/
-[Java]: http://www.oracle.com/technetwork/java/index.html
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[C99]: ../article/Project%20Dependencies.md#c99
+[Perl]: ../article/Project%20Dependencies.md#perl
+[Erlang]: ../article/Project%20Dependencies.md#erlang
+[Haskell]: ../article/Project%20Dependencies.md#haskell
+[Java]: ../article/Project%20Dependencies.md#java
 [Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Wireworld]: http://en.wikipedia.org/wiki/Wireworld
 [ALPACA]: ../article/Languages.md#alpaca
-[Scheme]: http://schemers.org/Documents/Standards/R5RS/
+[Scheme]: ../article/Project%20Dependencies.md#scheme
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Zz]: http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk

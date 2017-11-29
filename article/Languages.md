@@ -52,7 +52,7 @@ Sample program:
 
 Full Moon Fever is a language for describing ASCII animations.
 It was used to deliver animated screens on Chris Pressey's BBS
-(when it was operational in the early 90's) via [ANSI terminal][] control codes.
+(when it was operational in the early 90's) via [ANSI Terminal][] control codes.
 This probably counts as his first proper language, even though
 it wasn't a full programming language, because it had
 the usual machinery (syntax, parser, interpreter...)
@@ -503,7 +503,7 @@ Apple ][+-specific instructions.
 *   development-stage: archival
 *   license: Public Domain
 *   implementation-type: interpreter, editor
-*   host-language: Applesoft BASIC
+*   host-language: [Applesoft BASIC][]
 *   host-platform: Apple II
 
 ### SMITH
@@ -2761,7 +2761,7 @@ locations.)
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
-[BASIC]: http://en.wikipedia.org/wiki/BASIC
+[BASIC]: ../article/Retrocomputing.md#basic
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: ../article/Languages.md#befunge-98
@@ -2781,16 +2781,16 @@ locations.)
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
-[Lua]: http://www.lua.org/
+[Lua]: ../article/Project%20Dependencies.md#lua
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [Pifxley]: ../article/Languages.md#pifxley
 [P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
 [RUBE]: ../article/Automata.md#rube
-[Ruby]: http://www.ruby-lang.org/
+[Ruby]: ../article/Project%20Dependencies.md#ruby
 [SITU-MON]: ../article/Tools.md#situ-mon
 [SMITH]: ../article/Languages.md#smith
-[Scheme]: http://schemers.org/Documents/Standards/R5RS/
+[Scheme]: ../article/Project%20Dependencies.md#scheme
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: http://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
@@ -2802,15 +2802,15 @@ locations.)
 [Wierd (Milo van Handel)]: ../article/Languages.md#wierd
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [reMorse]: http://esolangs.org/wiki/reMorse
-[ANSI C]: http://clc-wiki.net/wiki/C89
-[Perl]: http://www.perl.org/
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[Perl]: ../article/Project%20Dependencies.md#perl
 [rubbish lister]: http://catseye.tc/node/Perl
-[Erlang]: http://www.erlang.org/
+[Erlang]: ../article/Project%20Dependencies.md#erlang
 [NASM Assembler]: http://nasm.us/
-[Java]: http://www.oracle.com/technetwork/java/index.html
-[Haskell]: http://www.haskell.org/
+[Java]: ../article/Project%20Dependencies.md#java
+[Haskell]: ../article/Project%20Dependencies.md#haskell
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
-[Javascript]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
 [Befunge Mailing List Working Group]: http://esolangs.org/wiki/Befunge
@@ -2821,10 +2821,11 @@ locations.)
 [Jaccia]: ../article/Automata.md#jaccia
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
-[Python]: http://www.python.org/
+[Python]: ../article/Project%20Dependencies.md#python
 [Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
 [The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
-[ANSI Terminal]: http://www.ecma-international.org/publications/standards/Ecma-048.htm
+[ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
+[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
 

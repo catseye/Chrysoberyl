@@ -23,7 +23,7 @@ and entries here may be categorized somewhat arbitrarily.
 
 _Bubble Escape_ is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
-designed and implemented in Commodore BASIC 2.0 in the mid-80's, and
+designed and implemented in [Commodore BASIC 2.0][] in the mid-80's, and
 rewritten in [Ophis Assembler][] in the late 00's.
 The assembly version was pared down so that (crunched) it fit into 2K,
 christened "Bubble Escape 2K", and submitted to the [Mini Game Compo 2009][]
@@ -33,7 +33,7 @@ where it won first place in its class.
 
 *   reference: true
 *   license: BSD license
-*   host-language: Commodore BASIC 2.0
+*   host-language: [Commodore BASIC 2.0][]
 *   host-platform: Commodore 64
 *   controls: joystick
 
@@ -41,7 +41,7 @@ where it won first place in its class.
 
 *   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler 2.0
+*   host-language: [Ophis Assembler][]
 *   host-platform: Commodore 64
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
@@ -52,7 +52,7 @@ where it won first place in its class.
 
 *   prebuilt-for-platforms: Commodore 64
 *   license: BSD license
-*   host-language: Ophis Assembler 2.0
+*   host-language: [Ophis Assembler][]
 *   host-platform: Commodore 64
 *   controls: joystick
 
@@ -76,7 +76,7 @@ Interactive Entertainment Modules.)
 *   reference: true
 *   license: BSD license
 *   host-language: Perl 5.8
-*   interface: ANSI Terminal
+*   interface: [ANSI Terminal][]
 
 ### Dungeons of Ekileugor
 
@@ -97,7 +97,7 @@ etc.
 
 *   reference: true
 *   license: Freely Redistributable
-*   host-language: Commodore BASIC 2.0
+*   host-language: [Commodore BASIC 2.0][]
 *   host-platform: Commodore VIC-20
 *   controls: keyboard
 
@@ -298,9 +298,11 @@ Links
 - - - -
 
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
-[Ophis Assembler]: https://github.com/michaelcmartin/Ophis
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
+[Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
-[Perl]: http://www.perl.org/
+[Perl]: ../article/Project%20Dependencies.md#perl
 [Hunt the Wumpus]: ../article/Games.md#hunt-the-wumpus
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
+[ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 

@@ -42,8 +42,8 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 *   reference: true
 *   in-distribution: [DiskSumo distribution](http://catseye.tc/distribution/DiskSumo_distribution)
 *   license: Public Domain
-*   host-language: Commodore BASIC 2.0
-*   host-platform: Commodore 64
+*   host-language: [Commodore BASIC 2.0][]
+*   host-platform: [Commodore 64][]
 
 ### Funicular
 
@@ -94,7 +94,7 @@ from Project Gutenberg text files.
 *   inception-date: 2015
 *   development-stage: not fully complete
 
-`hatoucan` is a tokenizer for Commodore BASIC 2.0 programs.
+`hatoucan` is a tokenizer for [Commodore BASIC 2.0][] programs.
 It is compatible with a subset of `petcat`, but is written in
 Python and is in the public domain.
 
@@ -212,7 +212,7 @@ of entering [SITU-MON][] into an emulated C64.
 *   reference: true
 *   in-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
 *   license: Unknown license
-*   host-language: Commodore BASIC 2.0
+*   host-language: [Commodore BASIC 2.0][]
 *   host-platform: Commodore 64
 
 ### The Swallows Engine
@@ -411,7 +411,7 @@ framework, which is in Java.
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
-[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-64
+[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
 [NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
@@ -424,5 +424,5 @@ framework, which is in Java.
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
-[Bourne shell]: http://steve-parker.org/sh/bourne.shtml
+[Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 
