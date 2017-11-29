@@ -296,17 +296,6 @@ This was a dialect of BASIC that was available for (in fact, generally shipped w
 There is a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual).
 There was also an "Integer Basic".
 
-### NASM
-
-*   specification-link: http://nasm.us/
-
-In our projects, many of these NASM files were converted from older
-assembly-language sources written in the syntax of Turbo Assembler 3.1
-(an old-school x86 assembler for [MS-DOS][], written by Borland.)
-In some cases the Turbo Assembler sources are still included in the
-project for historical interest, but the newer NASM sources are what
-the binaries should be built from.
-
 - - - -
 
 TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
@@ -323,7 +312,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
 [Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
-[NASM]: ../article/Retrocomputing.md#nasm
+[NASM]: ../article/Project%20Dependencies.md#nasm
 [SixtyPical]: ../article/Languages.md#sixtypical
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-SOL]: ../article/Languages.md#situ-sol

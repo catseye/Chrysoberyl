@@ -92,14 +92,9 @@
     "PHP": {
         "url": "http://www.php.net/"
     },
-    "NASM": {
-        "url": "http://nasm.us/"
-    },
     "NASM Assembler": {
-        "url": "http://nasm.us/"
-    },
-    "Ruby": {
-        "url": "http://www.ruby-lang.org/"
+        "anchor": "nasm", 
+        "filename": "article/Project Dependencies.md"
     },
     "Rust": {
         "url": "http://www.rust-lang.org/"

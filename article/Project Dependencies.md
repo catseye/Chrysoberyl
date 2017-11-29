@@ -146,6 +146,17 @@ run on the version of `sh` that ships with NetBSD 6 (which might be `ash`.)
 For more precise version numbers they have been tested on,
 see [The Cat's Eye Technologies Platform][].
 
+### NASM
+
+*   specification-link: http://nasm.us/
+
+In our projects, many of these NASM files were converted from older
+assembly-language sources written in the syntax of Turbo Assembler 3.1
+(an old-school x86 assembler for [MS-DOS][], written by Borland.)
+In some cases the Turbo Assembler sources are still included in the
+project for historical interest, but the newer NASM sources are what
+the binaries should be built from.
+
 ### Javascript
 
 *   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm

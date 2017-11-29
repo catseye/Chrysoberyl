@@ -2806,7 +2806,7 @@ locations.)
 [Perl]: ../article/Project%20Dependencies.md#perl
 [rubbish lister]: http://catseye.tc/node/Perl
 [Erlang]: ../article/Project%20Dependencies.md#erlang
-[NASM Assembler]: http://nasm.us/
+[NASM Assembler]: ../article/Project%20Dependencies.md#nasm
 [Java]: ../article/Project%20Dependencies.md#java
 [Haskell]: ../article/Project%20Dependencies.md#haskell
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic

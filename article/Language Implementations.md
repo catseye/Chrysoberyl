@@ -13,7 +13,7 @@ This is a list of languages that Cat's Eye Technologies has built an implementat
 *   implementation of: [PL-{GOTO}][]
 *   implementation type: compiler
 *   host language: [Haskell][]
-*   target language: MSIL
+*   target language: [MSIL][]
 *   inception date: May 2011
 *   in distribution: [PL-{GOTO}.NET distribution](http://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
 
@@ -266,7 +266,7 @@ Implemented as part of yoob.
 
 *   implementation of: [Thue][]
 *   implementation type: interpreter
-*   host language: Ruby
+*   host language: [Ruby][]
 *   inception date: Sep 10, 2012
 *   in distribution: [Thue distribution](http://catseye.tc/distribution/Thue_distribution)
 
@@ -381,4 +381,6 @@ Fork began Feb 1, 2012.
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Zz]: http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk
+[Ruby]: ../article/Project%20Dependencies.md#ruby
+[MSIL]: http://www.ecma-international.org/publications/standards/Ecma-335.htm
 
