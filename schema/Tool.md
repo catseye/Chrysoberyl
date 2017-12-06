@@ -37,9 +37,8 @@ date
 
 development-stage
 
-### distribution
+### reference-distribution
 
-*   optional: true
-
-distribution
-
+The distribution in which either the reference implementation of the platform, or
+the normative specification of same, is contained.  In this case of forks, this
+distribution is only "locally normative", of course.

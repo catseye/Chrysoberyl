@@ -8,6 +8,7 @@ this article is a real grab-bag right now.
 ### Amiga Gondola
 
 *   inception-date: Oct 25 2013
+*   reference-distribution: [Amiga Gondola distribution](http://catseye.tc/distribution/Amiga_Gondola_distribution)
 
 Amiga Gondola is a set of scripts to set up a development environment
 under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
@@ -15,7 +16,6 @@ under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
 
 #### Implementation: 'populate.sh (Amiga Gondola)':
 
-*   in-distribution: [Amiga Gondola distribution](http://catseye.tc/distribution/Amiga_Gondola_distribution)
 *   license: Public Domain
 *   host-language: [Bourne shell][]
 *   target-platform: Amiga 500
@@ -23,26 +23,26 @@ under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
 ### belld
 
 *   inception-date: unknown
+*   reference-distribution: [belld distribution](http://catseye.tc/distribution/belld_distribution)
 
 FreeBSD 4.x syscons bell hook to run executable.
 
 #### Implementation: belld.c
 
 *   reference: true
-*   in-distribution: [belld distribution](http://catseye.tc/distribution/belld_distribution)
 *   license: BSD license
 *   host-language: C99
 
 ### brace
 
 *   inception-date: unknown
+*   reference-distribution: [brace distribution](http://catseye.tc/distribution/brace_distribution)
 
 Utility to translate I/O interactively.
 
 #### Implementation: brace.c
 
 *   reference: true
-*   in-distribution: [brace distribution](http://catseye.tc/distribution/brace_distribution)
 *   license: BSD license
 *   host-language: C99
 
@@ -50,6 +50,7 @@ Utility to translate I/O interactively.
 
 *   summary: Simple, non-polling cron-like scheduler
 *   inception-date: Mar 1 2004
+*   reference-distribution: [crone distribution](http://catseye.tc/distribution/crone_distribution)
 
 `crone` is a simple `cron`-like facility.  Unlike most `cron`s, it does
 not periodically activate and run whatever tasks are due to run; instead
@@ -59,7 +60,6 @@ to run, and sleeps exactly that long.
 #### Implementation: crone.erl
 
 *   reference: true
-*   in-distribution: [crone distribution](http://catseye.tc/distribution/crone_distribution)
 *   license: BSD license
 *   host-language: Erlang
 
@@ -67,6 +67,7 @@ to run, and sleeps exactly that long.
 
 *   summary: A fairly realistic line-noise generator
 *   inception-date: unknown
+*   reference-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 A fairly realistic line-noise generator.
 
@@ -75,25 +76,25 @@ A fairly realistic line-noise generator.
 *   reference: true
 *   license: BSD license
 *   host-language: Perl
-*   in-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 ### luakld
 
 *   summary: Lua embedded in a FreeBSD 4.x kernel module
 *   inception-date: unknown
+*   reference-distribution: [luakld distribution](http://catseye.tc/distribution/luakld_distribution)
 
 This was a little experiment.  Conclusion: Lua interpreter: not a recommended thing to put in a kernel module.
 
 #### Implementation: luakld (C)
 
 *   reference: true
-*   in-distribution: [luakld distribution](http://catseye.tc/distribution/luakld_distribution)
 *   license: BSD license
 *   host-language: C99
 
 ### SP_ASM
 
 *   inception-date: unknown
+*   reference-distribution: [SP_ASM distribution](http://catseye.tc/distribution/SP_ASM_distribution)
 
 The SPlenetic ASseMbler.
 Possibly the most grotty hack implementation of an "assembler" in existence.
@@ -105,7 +106,6 @@ It is actually called `SP\ASM`.
 #### Implementation: SP_ASM.BAT
 
 *   reference: true
-*   in-distribution: [SP_ASM distribution](http://catseye.tc/distribution/SP_ASM_distribution)
 *   license: Unknown license
 *   host-language: MS-DOS Batchfile
 
@@ -116,6 +116,7 @@ It is actually called `SP\ASM.BAT`.
 
 *   summary: A "package manager" that doesn't actually install anything
 *   inception-date: 2012
+*   reference-distribution: [toolshelf distribution](http://catseye.tc/distribution/toolshelf_distribution)
 
 `toolshelf` is a "package manager" which doesn't actually install any files.
 Instead, it stores the source trees of sundry packages in a single directory,
@@ -126,13 +127,13 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 #### Implementation: toolshelf.py
 
 *   reference: true
-*   in-distribution: [toolshelf distribution](http://catseye.tc/distribution/toolshelf_distribution)
 *   license: MIT license
 *   host-language: Python
 
 ### transmat
 
 *   inception-date: ca 2005
+*   reference-distribution: [transmat distribution](http://catseye.tc/distribution/transmat_distribution)
 
 `transmat` is a network synchronization tool written in Python. It is not
 particularly remarkable, but since it has been used in hostile
@@ -144,20 +145,19 @@ synchronization.
 #### Implementation: transmat (Python)
 
 *   reference: true
-*   in-distribution: [transmat distribution](http://catseye.tc/distribution/transmat_distribution)
 *   license: Public Domain
 *   host-language: Python
 
 ### yaeolc
 
 *   inception-date: unknown
+*   reference-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 
 Yet Another End Of Line Converter
 
 #### Implementation: yaeolc (Perl)
 
 *   reference: true
-*   in-distributions: [The Dipple](http://catseye.tc/distribution/The_Dipple)
 *   license: Unknown license
 *   host-language: [Perl][]
 
@@ -165,6 +165,7 @@ Yet Another End Of Line Converter
 
 *   inception-date: Mar 15 2011
 *   development-stage: not fully complete
+*   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 
 `yoob` is a framework for implementing esoteric programming languages
 in Java.  It aims to make it easy for a user to experiment with a large
@@ -179,7 +180,6 @@ applet, it's largely considered deprecated these days.
 #### Implementation: tc.catseye.yoob
 
 *   reference: true
-*   in-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
 *   license: Public Domain
 *   host-language: Java
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)

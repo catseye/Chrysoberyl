@@ -65,6 +65,9 @@
         "type": "Distribution"
     }, 
     "Amiga Gondola distribution": {
+        "entries": [
+            "Amiga Gondola"
+        ], 
         "releases": [
             {
                 "revision": "2013.1111", 
@@ -416,6 +419,10 @@
         "type": "Distribution"
     }, 
     "C64 Demo Depot": {
+        "entries": [
+            "Ribos", 
+            "The PETulant Cursor"
+        ], 
         "github": "catseye/C64-Demo-Depot", 
         "releases": [
             {
@@ -569,6 +576,9 @@
         "type": "Distribution"
     }, 
     "Console::Virtual distribution": {
+        "entries": [
+            "Console::Virtual"
+        ], 
         "github": "catseye/Console-Virtual", 
         "releases": [
             {
@@ -657,6 +667,9 @@
         "type": "Distribution"
     }, 
     "DiskSumo distribution": {
+        "entries": [
+            "DiskSumo"
+        ], 
         "github": "catseye/DiskSumo", 
         "releases": [
             {
@@ -693,7 +706,8 @@
     }, 
     "Eightebed distribution": {
         "entries": [
-            "Eightebed"
+            "Eightebed", 
+            "Rooibos"
         ], 
         "github": "catseye/Eightebed", 
         "releases": [
@@ -806,7 +820,7 @@
                 "revision": "2017.0522", 
                 "url": "http://catseye.tc/distfiles/etcha-1.0-2017.0522.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/etcha-1.0-2017.1110.zip", 
@@ -970,12 +984,12 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.1.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.2.zip", 
                 "version": "0.2"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.3.zip", 
@@ -1053,6 +1067,9 @@
         "type": "Distribution"
     }, 
     "Funicular distribution": {
+        "entries": [
+            "Funicular"
+        ], 
         "github": "catseye/Funicular", 
         "releases": [
             {
@@ -1129,6 +1146,9 @@
         "type": "Distribution"
     }, 
     "Guten-gutter distribution": {
+        "entries": [
+            "Guten-gutter"
+        ], 
         "github": "catseye/Guten-gutter", 
         "releases": [
             {
@@ -1556,6 +1576,9 @@
         "type": "Distribution"
     }, 
     "MARYSUE distribution": {
+        "entries": [
+            "MARYSUE"
+        ], 
         "github": "catseye/MARYSUE", 
         "releases": [
             {
@@ -1908,7 +1931,7 @@
                 "revision": "2015.0723", 
                 "url": "http://catseye.tc/distfiles/pixley-2.0-2015.0723.zip", 
                 "version": "2.0"
-            },
+            }, 
             {
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/pixley-2.0-2017.1110.zip", 
@@ -2136,6 +2159,8 @@
     }, 
     "SITU-SOL distribution": {
         "entries": [
+            "SITU-PAN", 
+            "SITU-MON", 
             "SITU-SOL"
         ], 
         "github": "catseye/SITU-SOL", 
@@ -2213,6 +2238,9 @@
         "type": "Distribution"
     }, 
     "SP_ASM distribution": {
+        "entries": [
+            "SP_ASM"
+        ], 
         "releases": [
             {
                 "revision": "1998.0716", 
@@ -2374,12 +2402,12 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.6.zip", 
                 "version": "0.6"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.7.zip", 
                 "version": "0.7"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.8.zip", 
@@ -2508,6 +2536,9 @@
         "type": "Distribution"
     }, 
     "T-Rext distribution": {
+        "entries": [
+            "T-Rext"
+        ], 
         "github": "catseye/T-Rext", 
         "releases": [
             {
@@ -2520,6 +2551,9 @@
         "type": "Distribution"
     }, 
     "TPiS distribution": {
+        "entries": [
+            "TPiS"
+        ], 
         "github": "catseye/TPiS", 
         "releases": [
             {
@@ -2609,7 +2643,9 @@
         "description": "The Dipple is where code goes when its home planet has been\ndestroyed.  With apologies to Andre Norton.\n", 
         "entries": [
             "sf2tab", 
-            "valgol.erl"
+            "valgol.erl", 
+            "noise", 
+            "yaeolc"
         ], 
         "fixed-tag": "f867719", 
         "github": "catseye/Dipple", 
@@ -2652,6 +2688,9 @@
         "type": "Distribution"
     }, 
     "The Swallows distribution": {
+        "entries": [
+            "The Swallows Engine"
+        ], 
         "github": "catseye/The-Swallows", 
         "releases": [
             {
@@ -2916,7 +2955,7 @@
                 "revision": "2015.0108", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
@@ -3129,6 +3168,9 @@
         "type": "Distribution"
     }, 
     "belld distribution": {
+        "entries": [
+            "belld"
+        ], 
         "releases": [
             {
                 "revision": "2004.0303", 
@@ -3183,6 +3225,9 @@
         "type": "Distribution"
     }, 
     "brace distribution": {
+        "entries": [
+            "brace"
+        ], 
         "releases": [
             {
                 "revision": "2004.0920", 
@@ -3203,6 +3248,9 @@
         "type": "Distribution"
     }, 
     "crone distribution": {
+        "entries": [
+            "crone"
+        ], 
         "github": "catseye/crone", 
         "releases": [
             {
@@ -3261,6 +3309,9 @@
         "type": "Distribution"
     }, 
     "hatoucan distribution": {
+        "entries": [
+            "hatoucan"
+        ], 
         "github": "catseye/hatoucan", 
         "releases": [
             {
@@ -3273,6 +3324,9 @@
         "type": "Distribution"
     }, 
     "kinoje distribution": {
+        "entries": [
+            "kinoje"
+        ], 
         "github": "catseye/kinoje", 
         "releases": [
             {
@@ -3285,6 +3339,9 @@
         "type": "Distribution"
     }, 
     "luakld distribution": {
+        "entries": [
+            "luakld"
+        ], 
         "releases": [
             {
                 "revision": "2004.1219", 
@@ -3295,6 +3352,9 @@
         "type": "Distribution"
     }, 
     "mzstorkipiwanbotbotbot distribution": {
+        "entries": [
+            "mzstorkipiwanbotbotbot"
+        ], 
         "github": "catseye/mzstorkipiwanbotbotbot", 
         "releases": [
             {
@@ -3418,6 +3478,9 @@
         "type": "Distribution"
     }, 
     "seedbank distribution": {
+        "entries": [
+            "seedbank"
+        ], 
         "github": "catseye/seedbank", 
         "releases": [
             {
@@ -3446,6 +3509,9 @@
         "type": "Distribution"
     }, 
     "shelf distribution": {
+        "entries": [
+            "shelf"
+        ], 
         "github": "catseye/shelf", 
         "releases": [
             {
@@ -3466,12 +3532,18 @@
         "type": "Distribution"
     }, 
     "tideay distribution": {
+        "entries": [
+            "tideay"
+        ], 
         "fixed-tag": "OMIT", 
         "github": "cpressey/tideay", 
         "releases": [], 
         "type": "Distribution"
     }, 
     "toolshelf distribution": {
+        "entries": [
+            "toolshelf"
+        ], 
         "github": "catseye/toolshelf", 
         "releases": [
             {
@@ -3544,6 +3616,9 @@
         "type": "Distribution"
     }, 
     "transmat distribution": {
+        "entries": [
+            "transmat"
+        ], 
         "fixed-tag": "OMIT", 
         "github": "cpressey/transmat", 
         "releases": [], 
@@ -3572,6 +3647,7 @@
             "tc.catseye.yoob.brainfuck", 
             "tc.catseye.yoob.qdeql", 
             "tc.catseye.yoob.path", 
+            "yoob", 
             "tc.catseye.yoob.onelaoi", 
             "tc.catseye.yoob.lnusp", 
             "tc.catseye.yoob.snusp", 
@@ -3605,6 +3681,9 @@
         "type": "Distribution"
     }, 
     "yoob.js distribution": {
+        "entries": [
+            "yoob.js"
+        ], 
         "github": "catseye/yoob.js", 
         "releases": [
             {
@@ -3676,6 +3755,9 @@
         "type": "Distribution"
     }, 
     "yucca distribution": {
+        "entries": [
+            "yucca"
+        ], 
         "github": "catseye/yucca", 
         "releases": [
             {

@@ -69,7 +69,8 @@ etymology
 
 ### reference distribution
 
-reference-distribution
+The distribution in which either the reference implementation of the gewgaw, or
+the normative specification of same, is contained.
 
 ### reference implementation name
 

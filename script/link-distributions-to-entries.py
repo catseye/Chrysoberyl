@@ -8,6 +8,8 @@ with open('by-property.json', 'r') as f:
 
 newdata = {}
 for key in ('defining-distribution', 'reference distribution', 'in distribution', 'reference-distribution', 'in-distribution', 'distribution'):
+    if key not in data:
+        continue
     subdata = data[key]
     for subkey, value in subdata.items():
         assert subkey not in newdata, subkey

@@ -79,7 +79,8 @@ etymology
 
 *   optional: true
 
-type
+The distribution in which either the reference implementation of the language, or
+the normative specification of same, is contained.
 
 ### entry
 
