@@ -82,6 +82,13 @@ etymology
 The distribution in which either the reference implementation of the language, or
 the normative specification of same, is contained.
 
+### in-distributions
+
+*   optional: true
+
+All distributions in which an implementation of the language appears.  These are
+not necessarily reference implementations.
+
 ### entry
 
 *   optional: true
