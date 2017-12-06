@@ -2,7 +2,7 @@
 
 *   author: Chris Pressey
 *   url: http://catseye.tc/feeds/atom_30_news.xml
-*   link-to-anchors-on: https://github.com/catseye/Chrysoberyl/blob/master/NEWS.md
+*   link-to-anchors-on: http://catseye.tc/view/Chrysoberyl/NEWS.md
 
 ### Feedmark 0.3, Chrysoberyl, and catseye.tc
 
