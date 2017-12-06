@@ -462,11 +462,13 @@ sheer fact that a compiler for it has been hacked together.
 *   implementation-type: compiler
 *   host-language: [ANSI C][]
 *   target-language: x86 machine code
+*   in-distributions: [ILLGOL distribution](http://catseye.tc/distribution/ILLGOL_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 ### Illgola-2
 
 *   type: Programming Language
 *   genre: Joke language
+*   in-distributions: [Illgola-2 distribution](http://catseye.tc/distribution/Illgola-2_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [ILLGOL][].
 
@@ -474,6 +476,7 @@ Successor to [ILLGOL][].
 
 *   type: Programming Language
 *   genre: Joke language
+*   in-distributions: [Illberon distribution](http://catseye.tc/distribution/Illberon_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [Illgola-2][].
 
@@ -481,6 +484,7 @@ Successor to [Illgola-2][].
 
 *   type: Programming Language
 *   genre: Joke language
+*   in-distributions: [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [Illberon][].
 

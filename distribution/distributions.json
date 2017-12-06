@@ -1292,6 +1292,9 @@
     }, 
     "ILLGOL distribution": {
         "discontinued": true, 
+        "entries": [
+            "ILLGOL"
+        ], 
         "releases": [
             {
                 "revision": "2000.0122", 
@@ -1308,6 +1311,9 @@
     }, 
     "Illberon distribution": {
         "discontinued": true, 
+        "entries": [
+            "Illberon"
+        ], 
         "releases": [
             {
                 "revision": "2007.0409", 
@@ -1319,7 +1325,10 @@
     }, 
     "Illgol: Grand Mal": {
         "entries": [
-            "ILLGOL"
+            "ILLGOL",
+            "Illgola-2",
+            "Illberon",
+            "Illgol: Grand Mal"
         ], 
         "fixed-tag": "rel_16_tons_and_what_do_you_get", 
         "github": "catseye/Illgol-Grand-Mal", 
@@ -1328,6 +1337,9 @@
     }, 
     "Illgola-2 distribution": {
         "discontinued": true, 
+        "entries": [
+            "Illgola-2"
+        ], 
         "releases": [
             {
                 "revision": "2000.0420", 
