@@ -4,6 +4,46 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### 2017 Year in Review
+
+*   summary: Cat's Eye Technologies' 2017 Year in Review.
+*   date: Wed, 27 Dec 2017 19:11:55 GMT
+
+Here are some of our major accomplishments of 2017.
+
+We messed around with POVRay again, after almost 10 years, and
+made some animated GIFs (which was new for me) with it, eventually
+putting together [a script](https://github.com/catseye/kinoje) to
+orchestrate the process.  Here are some of the generated movies:
+ 
+*   [ashtray9.mp4](http://static.catseye.tc/movies/ashtray9.mp4)
+*   [sea-scene-long-48.mp4](http://static.catseye.tc/movies/sea-scene-long-48.mp4)
+*   [blob.gif](http://static.catseye.tc/movies/blob.gif)
+*   [moebius.gif](http://static.catseye.tc/movies/moebius.gif)
+
+We rebuilt the catseye.tc website; everything in [the underlying database](https://github.com/catseye/Chrysoberyl)
+is written in [structured Markdown](https://github.com/catseye/Feedmark) now, making it much simpler to edit.
+
+We started [a place to write longer articles in](https://github.com/catseye/The-Dossier#the-dossier),
+and wrote a couple that I'd been meaning to write for a long time:
+
+*   [A Basic Theory of Video Games](https://github.com/catseye/The-Dossier/blob/master/article/A%20Basic%20Theory%20of%20Video%20Games.md)
+*   [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md)
+*   [Perspective on Text Adventures](https://github.com/catseye/The-Dossier/blob/master/article/Perspective%20on%20Text%20Adventures.md)
+*   [Some Notes on Drawing](https://github.com/catseye/The-Dossier/blob/master/article/Some%20Notes%20on%20Drawing.md)
+
+We submitted [3 novel generators](https://github.com/NaNoGenMo/2017/issues/created_by/cpressey) for NaNoGenMo 2017.
+
+We made a few minor releases of [SixtyPical](http://catseye.tc/node/SixtyPical):
+
+*   [0.7](https://github.com/catseye/SixtyPical/blob/master/HISTORY.md#07)
+*   [0.8](https://github.com/catseye/SixtyPical/blob/master/HISTORY.md#08)
+*   [0.9](https://github.com/catseye/SixtyPical/blob/master/HISTORY.md#09)
+
+The last of which makes it almost possible to write an actual game in it, and we're hopeful that we'll be able to
+release a 0.10 in early 2018 in which we bring the demo game up to parity with the demo game that was
+written for the first, inspired but unworthy version of SixtyPical, which got rebooted into the present project.
+
 ### Feedmark 0.3, Chrysoberyl, and catseye.tc
 
 *   summary: [Feedmark 0.3](http://catseye.tc/node/Feedmark), [Chrysoberyl](http://catseye.tc/node/Chrysoberyl), and [catseye.tc](http://catseye.tc/).
