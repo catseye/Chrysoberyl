@@ -44,6 +44,11 @@ The last of which makes it almost possible to write an actual game in it, and we
 release a 0.10 in early 2018 in which we bring the demo game up to parity with the demo game that was
 written for the first, inspired but unworthy version of SixtyPical, which got rebooted into the present project.
 
+Finally, we should note that we've terminated our experiment with using
+Twitter as our social media presence.  We have provisionally moved our
+announcements channel to [@catseye@a.weirder.earth](https://a.weirder.earth/@catseye)
+on the open-source social network [Mastodon](https://joinmastodon.org/).
+
 ### Feedmark 0.3, Chrysoberyl, and catseye.tc
 
 *   summary: [Feedmark 0.3](http://catseye.tc/node/Feedmark), [Chrysoberyl](http://catseye.tc/node/Chrysoberyl), and [catseye.tc](http://catseye.tc/).
