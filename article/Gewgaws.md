@@ -183,6 +183,17 @@ and their shower drains.
 and [Pong](http://en.wikipedia.org/wiki/Pong)
 (as popularized by, well, Pong.)
 
+### Kolakoski Kurve
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: kolakoski-kurve.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Kolakoski_Kurve)
+
+This is a geometric interpretation of the Kolakoski sequence (also known
+as the "see and say" sequence) using turtle graphics: 1 means turn while
+2 means go forward (roughly speaking.)
+
 ### Lexeduct
 
 *   inception date: Apr 2015

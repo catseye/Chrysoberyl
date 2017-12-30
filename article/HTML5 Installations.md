@@ -942,6 +942,26 @@ relative to the box it is contained in, and bounces around inside it in a
 simple fashion.  Yet the path traced out by the innermost box is not very
 simple at all.
 
+### Kolakoski Kurve
+
+*   installation-of: [Kolakoski Kurve][]
+*   installed-implementation: kolakoski-kurve.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: kolakoski-kurve/kolakoski-kurve.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Kolakoski_Kurve)
+
+The segment length can be changed while a curve is being drawn.
+Changing the draw mode will reset the drawing.
+Changing the start or end of a curve while it is being drawn
+might result in glitching in XOR mode (depending on your browser's
+implementation of the HTML5 canvas -- I don't really know why this
+happens.)
+
 ### Lexeduct
 
 *   installation-of: [Lexeduct][]
