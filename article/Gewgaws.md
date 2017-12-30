@@ -185,6 +185,8 @@ and [Pong](http://en.wikipedia.org/wiki/Pong)
 
 ### Kolakoski Kurve
 
+![preview](http://static.catseye.tc/images/screenshots/Kolakoski_Kurve.jpg)
+
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: kolakoski-kurve.js
