@@ -96,12 +96,15 @@ A circle-based time-lapse space-filler.
 
 ### Colourring
 
+![preview](http://static.catseye.tc/images/screenshots/Colourring.jpg)
+
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: colourring.js
 *   online @ [catseye.tc](http://catseye.tc/installation/Colourring)
 
-Colourring.
+An attempt to make some generative art with as much coour contrast as
+possible, or at least, a lot of colour contrast.
 
 ### Eine kleine Glitchfraktal
 
