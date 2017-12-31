@@ -94,6 +94,15 @@ of how it works, see
 
 A circle-based time-lapse space-filler.
 
+### Colourring
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: colourring.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Colourring)
+
+Colourring.
+
 ### Eine kleine Glitchfraktal
 
 ![preview](http://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)

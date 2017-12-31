@@ -820,7 +820,7 @@ process.
 
 *   installation-of: [Circus Xamulus][]
 *   installed-implementation: circus-xamulus.js
-*   interactive: true
+*   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
@@ -829,6 +829,22 @@ process.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
+Simply wait, and the rectangle will fill up with randomly-sized circles
+(although it will not become entirely full).
+
+### Colourring
+
+*   installation-of: [Colourring][]
+*   installed-implementation: colourring.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: colourring/colourring.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   online @ [catseye.tc](http://catseye.tc/ix/Colourring)
+
+Colourring.
 
 ### Eine kleine Glitchfraktal
 
