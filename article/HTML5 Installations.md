@@ -1170,6 +1170,7 @@ of the computer screen.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-streets-of-rigamarole/the-streets-of-rigamarole.js
 *   script-root: ../modules/html5-gewgaws/the-streets-of-rigamarole/yoob/
+*   style: #installation canvas { background-color: black; }
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Streets_of_Rigamarole)
 
 
