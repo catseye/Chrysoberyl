@@ -346,6 +346,17 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
 
+### The Streets of Rigamarole
+
+![preview](http://static.catseye.tc/images/screenshots/The_Streets_of_Rigamarole.jpg)
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: the-streets-of-rigamarole.js
+*   online @ [catseye.tc](http://catseye.tc/installation/The_Streets_of_Rigamarole)
+
+Randomly-assembled street map or circuit or something similar to these.
+
 ### Two Fifty Six
 
 ![preview](http://static.catseye.tc/images/screenshots/Two_Fifty_Six.jpg)

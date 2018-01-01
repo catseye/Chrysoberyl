@@ -1160,6 +1160,19 @@ of the computer screen.
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
 
 
+### The Streets of Rigamarole
+
+*   installation-of: [The Streets of Rigamarole][]
+*   installed-implementation: the-streets-of-rigamarole.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: the-streets-of-rigamarole/the-streets-of-rigamarole.js
+*   script-root: yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Streets_of_Rigamarole)
+
+
 ### Two Fifty Six
 
 *   installation-of: [Two Fifty Six][]
