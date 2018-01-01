@@ -1169,7 +1169,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-streets-of-rigamarole/the-streets-of-rigamarole.js
-*   script-root: yoob/
+*   script-root: ../modules/html5-gewgaws/the-streets-of-rigamarole/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Streets_of_Rigamarole)
 
 
