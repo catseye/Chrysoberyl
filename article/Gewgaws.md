@@ -94,6 +94,18 @@ of how it works, see
 
 A circle-based time-lapse space-filler.
 
+### Colourring
+
+![preview](http://static.catseye.tc/images/screenshots/Colourring.jpg)
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: colourring.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Colourring)
+
+An attempt to make some generative art with as much coour contrast as
+possible, or at least, a lot of colour contrast.
+
 ### Eine kleine Glitchfraktal
 
 ![preview](http://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)
@@ -182,6 +194,19 @@ and their shower drains.
 (as popularized by [Spirograph](http://en.wikipedia.org/wiki/Spirograph))
 and [Pong](http://en.wikipedia.org/wiki/Pong)
 (as popularized by, well, Pong.)
+
+### Kolakoski Kurve
+
+![preview](http://static.catseye.tc/images/screenshots/Kolakoski_Kurve.jpg)
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: kolakoski-kurve.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Kolakoski_Kurve)
+
+This is a geometric interpretation of the Kolakoski sequence (also known
+as the "see and say" sequence) using turtle graphics: 1 means turn while
+2 means go forward (roughly speaking.)
 
 ### Lexeduct
 
@@ -320,6 +345,17 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 
 A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
+
+### The Streets of Rigamarole
+
+![preview](http://static.catseye.tc/images/screenshots/The_Streets_of_Rigamarole.jpg)
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: the-streets-of-rigamarole.js
+*   online @ [catseye.tc](http://catseye.tc/installation/The_Streets_of_Rigamarole)
+
+Randomly-assembled street map or circuit or something similar to these.
 
 ### Two Fifty Six
 

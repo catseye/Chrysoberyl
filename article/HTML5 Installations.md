@@ -820,7 +820,7 @@ process.
 
 *   installation-of: [Circus Xamulus][]
 *   installed-implementation: circus-xamulus.js
-*   interactive: true
+*   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
@@ -829,6 +829,22 @@ process.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
+Simply wait, and the rectangle will fill up with randomly-sized circles
+(although it will not become entirely full).
+
+### Colourring
+
+*   installation-of: [Colourring][]
+*   installed-implementation: colourring.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: colourring/colourring.js
+*   script-root: ../modules/html5-gewgaws/colourring/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Colourring)
+
+Colourring.
 
 ### Eine kleine Glitchfraktal
 
@@ -941,6 +957,26 @@ Each box moves with a constant velocity
 relative to the box it is contained in, and bounces around inside it in a
 simple fashion.  Yet the path traced out by the innermost box is not very
 simple at all.
+
+### Kolakoski Kurve
+
+*   installation-of: [Kolakoski Kurve][]
+*   installed-implementation: kolakoski-kurve.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: kolakoski-kurve/kolakoski-kurve.js
+*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   online @ [catseye.tc](http://catseye.tc/ix/Kolakoski_Kurve)
+
+The segment length can be changed while a curve is being drawn.
+Changing the draw mode will reset the drawing.
+Changing the start or end of a curve while it is being drawn
+might result in glitching in XOR mode (depending on your browser's
+implementation of the HTML5 canvas -- I don't really know why this
+happens.)
 
 ### Lexeduct
 
@@ -1122,6 +1158,20 @@ of the computer screen.
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
+
+
+### The Streets of Rigamarole
+
+*   installation-of: [The Streets of Rigamarole][]
+*   installed-implementation: the-streets-of-rigamarole.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: the-streets-of-rigamarole/the-streets-of-rigamarole.js
+*   script-root: ../modules/html5-gewgaws/the-streets-of-rigamarole/yoob/
+*   style: #installation canvas { background-color: black; }
+*   online @ [catseye.tc](http://catseye.tc/ix/The_Streets_of_Rigamarole)
 
 
 ### Two Fifty Six
