@@ -994,6 +994,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.3.zip", 
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/feedmark-0.4.zip", 
+                "version": "0.4"
             }
         ], 
         "tag-style": "new", 
