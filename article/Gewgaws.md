@@ -346,14 +346,14 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
 
-### The Streets of Rigamarole
+### Rigamaroads
 
-![preview](http://static.catseye.tc/images/screenshots/The_Streets_of_Rigamarole.jpg)
+![preview](http://static.catseye.tc/images/screenshots/Rigamaroads.jpg)
 
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
-*   reference implementation name: the-streets-of-rigamarole.js
-*   online @ [catseye.tc](http://catseye.tc/installation/The_Streets_of_Rigamarole)
+*   reference implementation name: rigamaroads.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Rigamaroads)
 
 Randomly-assembled street map or circuit or something similar to these.
 
