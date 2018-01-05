@@ -295,6 +295,17 @@ iterations, but it's very faint thereafter.
 
 An animated mathematical function, depicted in four different ways.
 
+### Rigamaroads
+
+![preview](http://static.catseye.tc/images/screenshots/Rigamaroads.jpg)
+
+*   inception date: 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: rigamaroads.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Rigamaroads)
+
+Randomly-assembled street map or circuit or something similar to these.
+
 ### Tentacles, Undamped
 
 ![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
@@ -345,17 +356,6 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 
 A slight reworking of a well-known
 [Greek myth](https://en.wikipedia.org/wiki/Judgement_of_Paris).
-
-### Rigamaroads
-
-![preview](http://static.catseye.tc/images/screenshots/Rigamaroads.jpg)
-
-*   inception date: 2016
-*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
-*   reference implementation name: rigamaroads.js
-*   online @ [catseye.tc](http://catseye.tc/installation/Rigamaroads)
-
-Randomly-assembled street map or circuit or something similar to these.
 
 ### Two Fifty Six
 

@@ -1091,6 +1091,20 @@ a source image randomly onto either panel.
 *   online @ [catseye.tc](http://catseye.tc/ix/Radialjective)
 
 
+### Rigamaroads
+
+*   installation-of: [Rigamaroads][]
+*   installed-implementation: rigamaroads.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: rigamaroads/rigamaroads.js
+*   script-root: ../modules/html5-gewgaws/rigamaroads/yoob/
+*   style: #installation canvas { background-color: black; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Rigamaroads)
+
+
 ### Tentacles, Undamped
 
 *   installation-of: [Tentacles, Undamped][]
@@ -1158,20 +1172,6 @@ of the computer screen.
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
-
-
-### Rigamaroads
-
-*   installation-of: [Rigamaroads][]
-*   installed-implementation: rigamaroads.js
-*   interactive: false
-*   animated: true
-*   mediums: [Javascript][], [HTML5][]
-*   javascript-module: html5-gewgaws
-*   javascript-urls: rigamaroads/rigamaroads.js
-*   script-root: ../modules/html5-gewgaws/rigamaroads/yoob/
-*   style: #installation canvas { background-color: black; }
-*   online @ [catseye.tc](http://catseye.tc/ix/Rigamaroads)
 
 
 ### Two Fifty Six
