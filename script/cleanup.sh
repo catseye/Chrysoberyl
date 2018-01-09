@@ -7,6 +7,7 @@ ARTICLES="
     article/List?of?Unfinished?Interesting?Esolangs.md
     article/Musical?Compositions.md
     article/Pictures.md
+    article/Movies.md
     article/Retrocomputing.md
     article/Texts.md
     article/Tools.md
@@ -58,6 +59,11 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Picture.md" \
          "article/Pictures.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Movie.md" \
+         "article/Movies.md" \
          --rewrite-markdown || exit 1
 
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
