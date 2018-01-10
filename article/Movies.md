@@ -37,3 +37,11 @@ by Alexander Enzmann, which is [CC BY 3.0](https://creativecommons.org/licenses/
 *   looping: true
 
 An arrangement of square prisms in a loop with a half-twist, spinning around.
+
+### glass-warts.gif
+
+*   inception-date: 2017
+*   file-location: http://static.catseye.tc/movies/glass-warts.gif
+*   looping: true
+
+A glass sphere with smaller glass spheres around its perimeter, spinning around.
