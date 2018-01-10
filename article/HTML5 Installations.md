@@ -118,7 +118,7 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: cheshire-text/cheshire-text.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/cheshire-text/yoob/
 *   style: article { margin: 0; } #installation { padding: 2em; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Cheshire_Text)
 
@@ -201,7 +201,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: chzrxl/chzrxl.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/chzrxl/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   online @ [catseye.tc](http://catseye.tc/ix/Chzrxl)
 
@@ -255,7 +255,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: cyclobots/cyclobots.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/cyclobots/yoob/
 *   launch-config: { width: 640, height: 480 }
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/Cyclobots)
@@ -634,7 +634,7 @@ will consume them in order, and continue running.
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
 *   javascript-module: zowie
-*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,../../modules/html5-gewgaws/common-yoob.js-0.11/preset-manager.js,../../contrib/skulpt/skulpt.min.js,../../contrib/skulpt/skulpt-stdlib.js,../../scripts/launch-zowie.js
+*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,../../modules/html5-gewgaws/colourring/yoob/preset-manager.js,../../contrib/skulpt/skulpt.min.js,../../contrib/skulpt/skulpt-stdlib.js,../../scripts/launch-zowie.js
 *   script-root: ../modules/zowie/src/yoob/
 *   style: .internal_source { display: none; } .initial_configuration { display: none; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
@@ -661,7 +661,7 @@ program.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-minimalist-critique/a-minimalist-critique.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/a-minimalist-critique/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
 *   online @ [catseye.tc](http://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
 
@@ -676,7 +676,7 @@ A minimalist critique of Tetris.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: a-non-random-walk/a-non-random-walk.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/a-non-random-walk/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/A_Non-Random_Walk)
 
@@ -702,7 +702,7 @@ cards.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: art-restoration-simulator/art-restoration-simulator.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/art-restoration-simulator/yoob/
 *   launch-config: { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') }
 *   online @ [catseye.tc](http://catseye.tc/ix/Art_Restoration_Simulator)
 
@@ -717,7 +717,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: black-hole-poem/black-hole-poem.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/black-hole-poem/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Black_Hole_Poem)
 
 Darker-beige squares can be dragged with your mouse or your finger
@@ -825,7 +825,7 @@ process.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: circus-xamulus/circus-xamulus.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/circus-xamulus/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Circus_Xamulus)
 
@@ -855,7 +855,7 @@ Colourring.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/eine-kleine-glitchfraktal/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Eine_kleine_Glitchfraktal)
 
 Select a mode from from the MODE dropdown to see different styles
@@ -870,7 +870,7 @@ of glitching applied to the rectangles.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fibonacci-spiral/fibonacci-spiral.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/fibonacci-spiral/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Fibonacci_Spiral)
 
@@ -889,7 +889,7 @@ The animation is simply a zooming out and back in on the spiral.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: fingerspelling/fingerspelling.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/fingerspelling/yoob/
 *   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; }
 *   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](http://catseye.tc/ix/Fingerspelling)
@@ -907,7 +907,7 @@ with your mouse pointer.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: heronsis-hermnonicii/heronsis-hermnonicii.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/heronsis-hermnonicii/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Heronsis_hermnonicii)
 
 *Warning: the following may contain tedious and/or glib
@@ -932,7 +932,7 @@ Plus it's fun to click on the red balls.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hirsute-miasma/hirsute-miasma.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/hirsute-miasma/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Hirsute_Miasma)
 
@@ -949,7 +949,7 @@ the "terminal" option to prevent this cycling.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: hypongtrochoid/hypongtrochoid.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/hypongtrochoid/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/Hypongtrochoid)
 
@@ -967,7 +967,7 @@ simple at all.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: kolakoski-kurve/kolakoski-kurve.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/kolakoski-kurve/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/Kolakoski_Kurve)
 
@@ -1002,7 +1002,7 @@ Lexeduct.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: markov-font/markov-font.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/markov-font/yoob/
 *   launch-config: { imgUrl: "../resource/c64_noninverted.png" }
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Markov_Font)
@@ -1019,7 +1019,7 @@ Then it will generate some of its own.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: multicolouralism/multicolouralism.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/multicolouralism/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Multicolouralism)
 
 Each frame, the colour of each cell is chosen randomly from the set
@@ -1042,7 +1042,7 @@ of vision, focus and peripheral vision...)
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: noise-to-signal-1/noise-to-signal-1.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/noise-to-signal-1/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Noise_to_Signal_No._1)
 
@@ -1058,7 +1058,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: prairie/prairie.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/prairie/yoob/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/Prairie)
@@ -1073,7 +1073,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: progression/progression.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/progressions/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Progression)
 
@@ -1087,7 +1087,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: radialjective/radialjective.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/radialjective/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Radialjective)
 
 
@@ -1114,7 +1114,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: tentacles-undamped/tentacles-undamped.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/tentacles-undamped/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Tentacles,_Undamped)
 
 
@@ -1127,7 +1127,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: text-uniquifier/text-uniquifier.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/text-uniquifier/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Text_Uniquifier)
 
 Copy some text of your choosing (from a web page, a local document, etc.)
@@ -1153,7 +1153,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-frame/the-frame.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/the-frame/yoob/
 *   launch-config: { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Frame)
 
@@ -1170,7 +1170,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: the-judgment-of-paris/the-judgment-of-paris.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/the-judgment-of-paris/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Judgment_of_Paris)
 
 
@@ -1183,7 +1183,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: two-fifty-six/two-fifty-six.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/two-fifty-six/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Two_Fifty_Six)
 
 
@@ -1196,7 +1196,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: uncle-ankur/uncle-ankur.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/uncle-ankur/yoob/
 *   online @ [catseye.tc](http://catseye.tc/ix/Uncle_Ankur)
 
 
@@ -1209,7 +1209,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: woman-on-film/woman-on-film.js
-*   script-root: ../modules/html5-gewgaws/common-yoob.js-0.11/
+*   script-root: ../modules/html5-gewgaws/woman-on-film/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Woman_on_Film)
 
