@@ -1073,7 +1073,7 @@ a source image randomly onto either panel.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: html5-gewgaws
 *   javascript-urls: progression/progression.js
-*   script-root: ../modules/html5-gewgaws/progressions/yoob/
+*   script-root: ../modules/html5-gewgaws/progression/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](http://catseye.tc/ix/Progression)
 
