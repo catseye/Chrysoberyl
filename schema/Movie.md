@@ -20,3 +20,8 @@ date
 ### file-location
 
 file location
+
+### looping
+
+Boolean.  Whether the movie is intended to loop or not.
+

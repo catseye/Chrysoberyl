@@ -4,10 +4,28 @@ Movies
 Some of these are animated GIFs (which is a file format for silent movies, no?) while
 others of these are MP4's.
 
+### Uri Geller (not shown) Psychokinesing an Ashtray
+
+*   inception-date: 2017
+*   file-location: http://static.catseye.tc/movies/ashtray9.mp4
+*   looping: false
+
+Movie made in 2017, based on a model I did back around 2007, based on an idea I had much
+earlier (sometime in the 1990's) for how to model a glass ashtray in POVRay.
+
+### Nautical Scene (long version)
+
+*   inception-date: 2017
+*   file-location: http://static.catseye.tc/movies/sea-scene-long-48.mp4
+*   looping: true
+
+Movie made in 2017, based on a model I did back around 2007.
+
 ### blob.gif
 
 *   inception-date: 2017
 *   file-location: http://static.catseye.tc/movies/blob.gif
+*   looping: true
 
 This is based on [blob.pov](https://github.com/POV-Ray/povray/blob/3.7-stable/distribution/scenes/objects/blob.pov)
 by Alexander Enzmann, which is [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
@@ -16,5 +34,6 @@ by Alexander Enzmann, which is [CC BY 3.0](https://creativecommons.org/licenses/
 
 *   inception-date: 2017
 *   file-location: http://static.catseye.tc/movies/moebius.gif
+*   looping: true
 
 An arrangement of square prisms in a loop with a half-twist, spinning around.
