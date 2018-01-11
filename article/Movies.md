@@ -10,8 +10,12 @@ others of these are MP4's.
 *   file-location: [ashtray9.mp4](http://static.catseye.tc/movies/ashtray9.mp4)
 *   looping: false
 
-Movie made in 2017, based on a model I did back around 2007, based on an idea I had much
+This movie is based on a model I did back around 2007, based on an idea I had much
 earlier (sometime in the 1990's) for how to model a glass ashtray in POVRay.
+
+It only became clear that it was, in fact, footage of a demonstration of
+psychokinesis by Uri Geller (not shown) after it was declassified by the
+CIA (and reclassified as fake news) in 2017.
 
 ### Nautical Loop
 
