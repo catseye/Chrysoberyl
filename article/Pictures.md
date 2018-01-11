@@ -1,18 +1,16 @@
 Pictures
 ========
 
+As with the musical compositions, there is some controversy over whether this list
+should be in Chrysoberyl, or elsewhere.  And by "controversy" I mean, I can't decide.
 
-### Illgola-2 - Release Notes Girl
+Unlike many other lists in Chrysoberyl, this list is in reverse chronological order.
 
-*   inception-date: ca 2000
+### Morningstar at a Knife Fight
 
-![Illgola-2 - Release Notes Girl](http://catseye.tc/modules/illgol-grand-mal/2.%20Illgola-2/doc/release_notes_girl.gif)
+*   inception-date: 2017
 
-### Illberon Release Notes
-
-*   inception-date: ca 2000
-
-![Illberon Release Notes](http://catseye.tc/modules/illgol-grand-mal/3.%20Illberon/doc/irl-may.jpg)
+![Morningstar at a Knife Fight](http://static.catseye.tc/images/generated/Morningstar%20at%20a%20Knife%20Fight.png)
 
 ### pixley.pix as Nested Rectangles
 
@@ -20,11 +18,11 @@ Pictures
 
 ![pixley.pix as Nested Rectangles](http://static.catseye.tc/images/generated/Pixley.png)
 
-### Ink salad No. 1
+### Ink salad No. 7
 
-*   inception-date: ca May 2013
+*   inception-date: ca Jun 2013
 
-![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%201.png)
+![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%207.png)
 
 ### Ink salad No. 2
 
@@ -32,8 +30,20 @@ Pictures
 
 ![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%202.png)
 
-### Ink salad No. 7
+### Ink salad No. 1
 
-*   inception-date: ca Jun 2013
+*   inception-date: ca May 2013
 
-![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%207.png)
+![Ink Salad](http://static.catseye.tc/images/pictures/Ink%20salad%20No.%201.png)
+
+### Illberon Release Notes
+
+*   inception-date: ca 2000
+
+![Illberon Release Notes](http://catseye.tc/modules/illgol-grand-mal/3.%20Illberon/doc/irl-may.jpg)
+
+### Illgola-2 - Release Notes Girl
+
+*   inception-date: ca 2000
+
+![Illgola-2 - Release Notes Girl](http://catseye.tc/modules/illgol-grand-mal/2.%20Illgola-2/doc/release_notes_girl.gif)
