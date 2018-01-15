@@ -14,11 +14,41 @@ These pictures are generally digital creations, or digitally-modified images, or
 
 ![Morningstar at a Knife Fight](http://static.catseye.tc/images/generated/Morningstar%20at%20a%20Knife%20Fight.png)
 
+### Cover, downsampled
+
+*   inception-date: ca Sep 2016
+
+![Cover, downsampled](http://static.catseye.tc/images/pictures/Cover,%20downsampled.jpg)
+
+### Ten Pounds of Automatism in a Five-Pound Field
+
+*   inception-date: ca Sep 2016
+
+![Ten Pounds of Automatism in a Five-Pound Field](http://static.catseye.tc/images/pictures/Ten%20Pounds%20of%20Automatism%20in%20a%20Five-Pound%20Field.jpg)
+
+### Core Remit Stasis
+
+*   inception-date: ca May 2016
+
+![Core Remit Stasis](http://static.catseye.tc/images/pictures/Core%20Remit%20Stasis.jpg)
+
+### Ablative Construction
+
+*   inception-date: ca May 2016
+
+![Ablative Construction](http://static.catseye.tc/images/pictures/Ablative%20Construction.jpg)
+
 ### The Relative Disposition of Landscapes
 
 *   inception-date: 2015
 
 ![The Relative Disposition of Landscapes](http://static.catseye.tc/images/pictures/The%20Relative%20Disposition%20of%20Landscapes.jpg)
+
+### Object Horizon (Object)
+
+*   inception-date: ca Sep 2015
+
+![Object Horizon (Object)](http://static.catseye.tc/images/pictures/Object%20Horizon%20%28Object%29.jpg)
 
 ### Quasischematic Construction 1a
 
@@ -55,6 +85,18 @@ These pictures are generally digital creations, or digitally-modified images, or
 *   inception-date: ca Jan 2014
 
 ![pixley.pix as Nested Rectangles](http://static.catseye.tc/images/generated/Pixley.png)
+
+### Fictional Landscape No. 2
+
+*   inception-date: ca Sep 2013
+
+![Fictional Landscape No. 2](http://static.catseye.tc/images/pictures/Fictional%20Landscape%20No.%202.jpg)
+
+### Fictional Landscape No. 1
+
+*   inception-date: ca Sep 2013
+
+![Fictional Landscape No. 1](http://static.catseye.tc/images/pictures/Fictional%20Landscape%20No.%201.jpg)
 
 ### Ink salad No. 7
 
