@@ -12,6 +12,24 @@ Unlike many other lists in Chrysoberyl, this list is in reverse chronological or
 
 ![Morningstar at a Knife Fight](http://static.catseye.tc/images/generated/Morningstar%20at%20a%20Knife%20Fight.png)
 
+### The Relative Disposition of Landscapes
+
+*   inception-date: 2015
+
+![The Relative Disposition of Landscapes](http://static.catseye.tc/images/pictures/The%20Relative%20Disposition%20of%20Landscapes.jpg)
+
+### Scrapyard of Broken Dreams
+
+*   inception-date: May 2015
+
+![Scrapyard of Broken Dreams](http://static.catseye.tc/images/pictures/Scrapyard%20of%20Broken%20Dreams.jpg)
+
+### Portfolio Browsers, Parc Georges Brassens
+
+*   inception-date: Feb 2014
+
+![Portfolio Browsers, Parc George Brassens](http://static.catseye.tc/images/pictures/Portfolio%20Browsers,%20Parc%20George%20Brassens.jpg)
+
 ### pixley.pix as Nested Rectangles
 
 *   inception-date: ca Jan 2014
