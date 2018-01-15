@@ -38,6 +38,18 @@ These pictures are generally digital creations, or digitally-modified images, or
 
 ![Ablative Construction](http://static.catseye.tc/images/pictures/Ablative%20Construction.jpg)
 
+### D 5 N 3 Z H X T
+
+*   inception-date: ca April 2016
+
+![D 5 N 3 Z H X T](http://static.catseye.tc/images/pictures/D%205%20N%203%20Z%20H%20X%20T.jpg)
+
+### Three Superimposed Mazes
+
+*   inception-date: ca March 2016
+
+![Three Superimposed Mazes](http://static.catseye.tc/images/pictures/Three%20Superimposed%20Mazes.jpg)
+
 ### The Relative Disposition of Landscapes
 
 *   inception-date: 2015
