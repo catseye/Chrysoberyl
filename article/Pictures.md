@@ -1,10 +1,12 @@
 Pictures
 ========
 
-As with the musical compositions, there is some controversy over whether this list
+As with the [musical compositions](Musical%20Compositions.md), there is some controversy over whether this list
 should be in Chrysoberyl, or elsewhere.  And by "controversy" I mean, I can't decide.
 
-Unlike many other lists in Chrysoberyl, this list is in reverse chronological order.
+Unlike many other lists in Chrysoberyl, this list is in reverse chronological order.  It is also fairly heavily
+abridged, i.e. there are quite a few pictures I've made that are super not good enough to make this list.
+These pictures are generally digital creations, or digitally-modified images, or drawings.
 
 ### Morningstar at a Knife Fight
 
@@ -17,6 +19,24 @@ Unlike many other lists in Chrysoberyl, this list is in reverse chronological or
 *   inception-date: 2015
 
 ![The Relative Disposition of Landscapes](http://static.catseye.tc/images/pictures/The%20Relative%20Disposition%20of%20Landscapes.jpg)
+
+### Quasischematic Construction 1a
+
+*   inception-date: 2015
+
+![Quasischematic Construction 1a](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%201a.jpg)
+
+### Quasischematic Construction 1b
+
+*   inception-date: 2015
+
+![Quasischematic Construction 1b](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%201b.jpg)
+
+### Still Life (Vessels)
+
+*   inception-date: 2015
+
+![Still Life (Vessels)](http://static.catseye.tc/images/pictures/Still%20Life%20%28Vessels%29.jpg)
 
 ### Scrapyard of Broken Dreams
 
