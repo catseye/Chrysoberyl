@@ -50,6 +50,12 @@ These pictures are generally digital creations, or digitally-modified images, or
 
 ![Three Superimposed Mazes](http://static.catseye.tc/images/pictures/Three%20Superimposed%20Mazes.jpg)
 
+### Quasischematic Construction 2
+
+*   inception-date: ca Jan 2016
+
+![Quasischematic Construction 2](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%202.jpg)
+
 ### The Relative Disposition of Landscapes
 
 *   inception-date: 2015
@@ -61,6 +67,20 @@ These pictures are generally digital creations, or digitally-modified images, or
 *   inception-date: ca Sep 2015
 
 ![Object Horizon (Object)](http://static.catseye.tc/images/pictures/Object%20Horizon%20%28Object%29.jpg)
+
+### Ultracubist Construction
+
+*   inception-date: ca Sep 2015
+
+![Ultracubist Construction](http://static.catseye.tc/images/pictures/Ultracubist%20Construction.jpg)
+
+_Why fail to depict a 3-dimensional object on a plane when you could instead fail to depict a a 7-dimensional object on a plane?_
+
+### Quasischematic Construction
+
+*   inception-date: ca Sep 2015
+
+![Quasischematic Construction](http://static.catseye.tc/images/pictures/Quasischematic%20Construction.jpg)
 
 ### Quasischematic Construction 1a
 
