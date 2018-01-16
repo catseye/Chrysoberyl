@@ -50,6 +50,22 @@ These pictures are generally digital creations, or digitally-modified images, or
 
 ![Three Superimposed Mazes](http://static.catseye.tc/images/pictures/Three%20Superimposed%20Mazes.jpg)
 
+### Counting from Zero
+
+*   inception-date: ca March 2016
+
+![Counting from Zero](http://static.catseye.tc/images/pictures/Counting%20from%20Zero.jpg)
+
+black gouache and white ink on cartridge paper
+
+### Pankroz Elemental
+
+*   inception-date: ca Feb 2016
+
+![Pankroz Elemental](http://static.catseye.tc/images/pictures/Pankroz%20Elemental.jpg)
+
+actually started earlier, 2015 sometime, only released in 2016
+
 ### Quasischematic Construction 2
 
 *   inception-date: ca Jan 2016
