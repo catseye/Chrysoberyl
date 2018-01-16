@@ -122,6 +122,44 @@ _Why fail to depict a 3-dimensional object on a plane when you could instead fai
 
 ![Scrapyard of Broken Dreams](http://static.catseye.tc/images/pictures/Scrapyard%20of%20Broken%20Dreams.jpg)
 
+### Open Threshold Edge Invert Repeat
+
+*   inception-date: ca May 2015
+
+![Open Threshold Edge Invert Repeat](http://static.catseye.tc/images/pictures/Open%20Threshold%20Edge%20Invert%20Repeat.jpg)
+
+### Postmodernism as a Logic Bomb Exploding in Slow Motion
+
+*   inception-date: ca May 2015
+
+![Postmodernism as a Logic Bomb Exploding in Slow Motion](http://static.catseye.tc/images/pictures/Postmodernism%20as%20a%20Logic%20Bomb%20Exploding%20in%20Slow%20Motion.jpg)
+
+### Syrinx (Glitch)
+
+*   inception-date: Apr 2015
+
+![Syrinx (Glitch)](http://static.catseye.tc/images/pictures/Syrinx%20%28Glitch%29.jpg)
+
+### EITHER
+
+*   inception-date: Apr 2015
+
+![EITHER](http://static.catseye.tc/images/pictures/EITHER.jpg)
+
+### Le Corb
+
+*   inception-date: Apr 2015
+
+![Le Corb](http://static.catseye.tc/images/pictures/Le%20Corb.jpg)
+
+a.k.a. Le Corbeau/sier.  Brutalist Decollage.
+
+### With a Dull Thud
+
+*   inception-date: Apr 2015
+
+![With a Dull Thud](http://static.catseye.tc/images/pictures/With%20a%20Dull%20Thud.jpg)
+
 ### Portfolio Browsers, Parc Georges Brassens
 
 *   inception-date: Feb 2014
