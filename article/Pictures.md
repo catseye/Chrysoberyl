@@ -72,12 +72,6 @@ actually started earlier, 2015 sometime, only released in 2016
 
 ![Quasischematic Construction 2](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%202.jpg)
 
-### The Relative Disposition of Landscapes
-
-*   inception-date: 2015
-
-![The Relative Disposition of Landscapes](http://static.catseye.tc/images/pictures/The%20Relative%20Disposition%20of%20Landscapes.jpg)
-
 ### Object Horizon (Object)
 
 *   inception-date: ca Sep 2015
@@ -100,21 +94,33 @@ _Why fail to depict a 3-dimensional object on a plane when you could instead fai
 
 ### Quasischematic Construction 1a
 
-*   inception-date: 2015
+*   inception-date: ca Aug 2015
 
 ![Quasischematic Construction 1a](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%201a.jpg)
 
 ### Quasischematic Construction 1b
 
-*   inception-date: 2015
+*   inception-date: ca Aug 2015
 
 ![Quasischematic Construction 1b](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%201b.jpg)
 
+### Bob Study
+
+*   inception-date: ca Aug 2015
+
+![Bob Study](http://static.catseye.tc/images/pictures/Bob%20Study.jpg)
+
 ### Still Life (Vessels)
 
-*   inception-date: 2015
+*   inception-date: ca Jul 2015
 
 ![Still Life (Vessels)](http://static.catseye.tc/images/pictures/Still%20Life%20%28Vessels%29.jpg)
+
+### The Relative Disposition of Landscapes
+
+*   inception-date: ca Jun 2015
+
+![The Relative Disposition of Landscapes](http://static.catseye.tc/images/pictures/The%20Relative%20Disposition%20of%20Landscapes.jpg)
 
 ### Scrapyard of Broken Dreams
 
