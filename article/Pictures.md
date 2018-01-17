@@ -8,12 +8,6 @@ Unlike many other lists in Chrysoberyl, this list is in reverse chronological or
 abridged, i.e. there are quite a few pictures I've made that are super not good enough to make this list.
 These pictures are generally digital creations, or digitally-modified images, or drawings.
 
-### Morningstar at a Knife Fight
-
-*   inception-date: 2017
-
-![Morningstar at a Knife Fight](http://static.catseye.tc/images/generated/Morningstar%20at%20a%20Knife%20Fight.png)
-
 ### Cover, downsampled
 
 *   inception-date: ca Sep 2016
@@ -91,12 +85,6 @@ _Why fail to depict a 3-dimensional object on a plane when you could instead fai
 *   inception-date: ca Aug 2015
 
 ![Quasischematic Construction 1b](http://static.catseye.tc/images/pictures/Quasischematic%20Construction%201b.jpg)
-
-### Bob Study
-
-*   inception-date: ca Aug 2015
-
-![Bob Study](http://static.catseye.tc/images/pictures/Bob%20Study.jpg)
 
 ### Still Life (Vessels)
 
