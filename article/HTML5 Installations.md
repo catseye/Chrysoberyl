@@ -609,9 +609,9 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: Wunnel
-*   javascript-urls: impl/wunnel.js/src/yoob/playfield.js,impl/wunnel.js/src/yoob/playfield-html-view.js,impl/wunnel.js/src/yoob/cursor.js,impl/wunnel.js/src/yoob/tape.js,impl/wunnel.js/src/yoob/controller.js,impl/wunnel.js/src/yoob/preset-manager.js,impl/wunnel.js/src/wunnel-controller.js,eg/index.js,../../scripts/launch-wunnel.js
-*   script-root: ../modules/wunnel/src/yoob/
-*   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   javascript-urls: impl/wunnel.js/src/wunnel-launcher.js,eg/index.js
+*   script-root: ../modules/Wunnel/impl/wunnel.js/src/
+*   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Wunnel)
 
 This is an HTML5-based implementation of the
