@@ -2990,6 +2990,11 @@
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2018.0122", 
+                "url": "http://catseye.tc/distfiles/wunnel-1.0-2018.0122.zip", 
+                "version": "1.0"
             }
         ], 
         "tag-style": "new", 
