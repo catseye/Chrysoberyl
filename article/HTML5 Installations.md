@@ -385,9 +385,9 @@ or create your own.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: Etcha
-*   javascript-urls: impl/etcha.js/src/yoob/controller.js,impl/etcha.js/src/yoob/playfield.js,impl/etcha.js/src/yoob/cursor.js,impl/etcha.js/src/yoob/playfield-canvas-view.js,impl/etcha.js/src/yoob/source-html-view.js,impl/etcha.js/src/yoob/preset-manager.js,impl/etcha.js/src/yoob/source-manager.js,impl/etcha.js/src/etcha.js,eg/index.js,../../scripts/launch-etcha.js
-*   script-root: ../modules/etcha/src/yoob/
-*   style: #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
+*   javascript-urls: impl/etcha.js/src/etcha-launcher.js,eg/index.js
+*   script-root: ../modules/Etcha/impl/etcha.js/src/
+*   style: label {display: inline-block} #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Etcha)
 
 This in-browser installation of [Etcha][] is implemented in
