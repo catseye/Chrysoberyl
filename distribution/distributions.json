@@ -3472,6 +3472,11 @@
                 "revision": "2015.0930", 
                 "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip", 
                 "version": "1.1"
+            },
+            {
+                "revision": "2018.0123", 
+                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2018.0123.zip", 
+                "version": "1.1"
             }
         ], 
         "type": "Distribution"
