@@ -4,6 +4,31 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### More Pictures, Movies, and Gewgaws put Online
+
+*   summary: More [Pictures](http://catseye.tc/article/Pictures), [Movies](http://catseye.tc/article/Movies), and [Gewgaws](http://catseye.tc/article/Gewgaws) have been hosted on `catseye.tc`.
+*   date: Tue, 23 Jan 2018 13:33:17 GMT
+
+We've gone through some things we've done in the past few years and gotten
+them hosted online here at [catseye.tc](http://catseye.tc/).
+
+We've put up a selection of [Pictures](http://catseye.tc/article/Pictures) we've
+made, mainly digital abominations using GIMP, but also a few pen-and-ink hand-drawn
+things too.
+
+We've created an article curating the [Movies](http://catseye.tc/article/Movies)
+we put together, mainly in 2017, mainly using [kinoje](http://catseye.tc/node/kinoje)
+and POV-Ray.
+
+And finally, three [Gewgaws](http://catseye.tc/article/Gewgaws)
+that were long overdue, having been written in 2016, are now installed online:
+
+*   [Colourring](http://catseye.tc/ix/Colourring)
+*   [Kolakoski Kurve](http://catseye.tc/ix/Kolakoski_Kurve)
+*   [Rigamaroads](http://catseye.tc/ix/Rigamaroads)
+
+Enjoy!
+
 ### 2017 Year in Review
 
 *   summary: Cat's Eye Technologies' 2017 Year in Review.
