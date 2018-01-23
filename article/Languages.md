@@ -1935,7 +1935,7 @@ were previously erased after execution.
 *   computational-class: believed Turing-complete
 *   influences: 1L, reMorse
 *   paradigms: Turning tarpit
-*   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
+*   reference-distribution: [Wunnel distribution](http://catseye.tc/distribution/Wunnel_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
 *   online @ [catseye.tc](http://catseye.tc/installation/yoob)
