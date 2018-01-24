@@ -406,9 +406,9 @@ modify it, and create your own program.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: gemooy
-*   javascript-urls: ../../contrib/jquery-1.8.1.min.js,src/yoob/controller.js,src/yoob/playfield.js,src/yoob/playfield-canvas-view.js,src/yoob/cursor.js,src/yoob/preset-manager.js,src/yoob/source-manager.js,src/gemooy.js,../../scripts/launch-gemooy.js
-*   script-root: ../modules/gemooy/src/yoob/
-*   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   javascript-urls: eg/index.js,src/gemooy-launcher.js
+*   script-root: ../modules/Gemooy/src/
+*   style: label {display: inline-block} #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 420px; height: 420px; overflow: scroll; border: 1px solid black; background-color: #ffffff; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Gemooy)
 
 This in-browser installation of [Gemooy][] is implemented in
