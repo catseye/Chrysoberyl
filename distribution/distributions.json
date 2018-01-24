@@ -1131,6 +1131,11 @@
                 "revision": "2017.0522", 
                 "url": "http://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip", 
                 "version": "0.1"
+            },
+            {
+                "revision": "2018.0124", 
+                "url": "http://catseye.tc/distfiles/gemooy-0.1-2018.0124.zip", 
+                "version": "0.1"
             }
         ], 
         "tag-style": "new", 
