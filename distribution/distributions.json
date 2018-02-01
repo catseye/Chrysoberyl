@@ -3378,6 +3378,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.1.zip", 
                 "version": "0.1"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/kinoje-0.2.zip", 
+                "version": "0.2"
             }
         ], 
         "tag-style": "new", 
