@@ -3825,6 +3825,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/yoob.js-0.12.zip", 
                 "version": "0.12"
+            }, 
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yoob.js-0.13.zip", 
+                "version": "0.13"
             }
         ], 
         "type": "Distribution"
