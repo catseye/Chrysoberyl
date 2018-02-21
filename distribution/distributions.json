@@ -2069,6 +2069,11 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip", 
                 "version": "1.1"
+            },
+            {
+                "revision": "2018.0221", 
+                "url": "http://catseye.tc/distfiles/redgreen-1.1-2018.0221.zip", 
+                "version": "1.1"
             }
         ], 
         "type": "Distribution"
