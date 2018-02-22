@@ -279,7 +279,8 @@ dragging on the playfield will scroll it.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: jaccia
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jaccia.js
+*   javascript-urls: eg/index.js,demo/jaccia-launcher.js
+*   script-root: ../modules/jaccia/demo/
 *   online @ [catseye.tc](http://catseye.tc/ix/Jaccia)
 
 This is the [Jaccia][] cellular automaton, compiled to Javascript
@@ -302,7 +303,8 @@ You may wish to read the definition of this cellular automaton:
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: jaccia
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/jacciata.js
+*   javascript-urls: eg/index.js,demo/jacciata-launcher.js
+*   script-root: ../modules/jaccia/demo/
 *   online @ [catseye.tc](http://catseye.tc/ix/Jacciata)
 
 This is the [Jacciata][] cellular automaton, compiled to Javascript
