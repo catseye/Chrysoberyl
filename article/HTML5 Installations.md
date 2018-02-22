@@ -232,7 +232,8 @@ organic-seeming emergent motion.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: circute
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/playfield-html-view.js,demo/yoob/playfield-canvas-view.js,demo/yoob/preset-manager.js,script/circute.js
+*   javascript-urls: eg/index.js,demo/circute-launcher.js
+*   script-root: ../modules/circute/demo/
 *   online @ [catseye.tc](http://catseye.tc/ix/Circute)
 
 This is the [Circute][] cellular automaton, compiled to Javascript
