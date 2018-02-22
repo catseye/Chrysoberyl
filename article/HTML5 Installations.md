@@ -178,7 +178,8 @@ For more information on this automaton and its implementation, see
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: braktif
-*   javascript-urls: demo/yoob/controller.js,demo/yoob/playfield.js,demo/yoob/preset-manager.js,script/braktif.js
+*   javascript-urls: script/braktif.js,eg/index.js,demo/braktif-launcher.js
+*   script-root: ../modules/braktif/demo/
 *   online @ [catseye.tc](http://catseye.tc/ix/Braktif)
 
 This is the [Braktif][] cellular automaton, compiled to Javascript
