@@ -489,6 +489,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/canvas-feedback-1.1.zip", 
                 "version": "1.1"
+            },
+            {
+                "revision": "2018.0223", 
+                "url": "http://catseye.tc/distfiles/canvas-feedback-1.1-2018.0223.zip", 
+                "version": "1.1"
             }
         ], 
         "tag-style": "new", 
