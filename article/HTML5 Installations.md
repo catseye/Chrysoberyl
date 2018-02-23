@@ -744,10 +744,10 @@ because that is our best guess at
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: canvas-feedback
-*   javascript-urls: src/canvas-feedback.js
-*   script-root: ../modules/canvas-feedback/src/yoob/
+*   javascript-urls: demo/canvas-feedback-launcher.js
+*   script-root: ../modules/canvas-feedback/src/
 *   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg' }
-*   style: #installation { text-align: center; } #installation > canvas { float: left; } #installation > div { width: 50%; }
+*   style: #installation > div { display: inline-block; vertical-align: top; } #canvas_container { text-align: center; } #canvas_container canvas { display: block; background: white; border: 1px solid black; } #control_panel > div { background: #c0c0c0; text-align: left; min-width: 30em; } #control_panel > div > div { background: #e0e0e0; padding: 3px; text-align: right; } #control_panel > div > div input { width: auto; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Canvas_Feedback)
 
 To begin exploring, we suggest you first try different presets
