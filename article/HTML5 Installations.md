@@ -234,6 +234,7 @@ organic-seeming emergent motion.
 *   javascript-module: circute
 *   javascript-urls: eg/index.js,demo/circute-launcher.js
 *   script-root: ../modules/circute/demo/
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Circute)
 
 This is the [Circute][] cellular automaton, compiled to Javascript
@@ -282,6 +283,7 @@ dragging on the playfield will scroll it.
 *   javascript-module: jaccia
 *   javascript-urls: eg/index.js,demo/jaccia-launcher.js
 *   script-root: ../modules/jaccia/demo/
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Jaccia)
 
 This is the [Jaccia][] cellular automaton, compiled to Javascript
@@ -306,6 +308,7 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-module: jaccia
 *   javascript-urls: eg/index.js,demo/jacciata-launcher.js
 *   script-root: ../modules/jaccia/demo/
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Jacciata)
 
 This is the [Jacciata][] cellular automaton, compiled to Javascript
@@ -354,6 +357,7 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-module: schroedingers-game-of-life
 *   javascript-urls: impl/slife.js/src/slife.js
 *   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
+*   style: label { display: block; }
 *   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
 *   online @ [catseye.tc](http://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
@@ -369,7 +373,7 @@ Schrödinger's Game of Life.
 *   javascript-module: noit-o-mnain-worb
 *   javascript-urls: impl/worb.js/src/worb-launcher.js,eg/index.js
 *   script-root: ../modules/noit-o-mnain-worb/impl/worb.js/src/
-*   style: label {display: inline-block} #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](http://catseye.tc/ix/noit_o'_mnain_worb)
 
 This online interpreter for the
@@ -392,7 +396,7 @@ or create your own.
 *   javascript-module: Etcha
 *   javascript-urls: impl/etcha.js/src/etcha-launcher.js,eg/index.js
 *   script-root: ../modules/Etcha/impl/etcha.js/src/
-*   style: label {display: inline-block} #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
+*   style: #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Etcha)
 
 This in-browser installation of [Etcha][] is implemented in
@@ -413,7 +417,7 @@ modify it, and create your own program.
 *   javascript-module: gemooy
 *   javascript-urls: eg/index.js,src/gemooy-launcher.js
 *   script-root: ../modules/Gemooy/src/
-*   style: label {display: inline-block} #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 420px; height: 420px; overflow: scroll; border: 1px solid black; background-color: #ffffff; }
+*   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 420px; height: 420px; overflow: scroll; border: 1px solid black; background-color: #ffffff; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Gemooy)
 
 This in-browser installation of [Gemooy][] is implemented in
