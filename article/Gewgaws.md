@@ -315,6 +315,15 @@ An animated mathematical function, depicted in four different ways.
 
 Randomly-assembled street map or circuit or something similar to these.
 
+### Semicircle Jam
+
+*   inception date: May 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: semicircle-jam.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Semicircle_Jam)
+
+A path made of semicircles.
+
 ### Tentacles, Undamped
 
 ![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)

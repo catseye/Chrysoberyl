@@ -1128,6 +1128,19 @@ a source image randomly onto either panel.
 *   online @ [catseye.tc](http://catseye.tc/ix/Rigamaroads)
 
 
+### Semicircle Jam
+
+*   installation-of: [Semicircle Jam][]
+*   installed-implementation: semicircle-jam.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: semicircle-jam/semicircle-jam.js
+*   script-root: ../modules/html5-gewgaws/semicircle-jam/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Semicircle_Jam)
+
+
 ### Tentacles, Undamped
 
 *   installation-of: [Tentacles, Undamped][]
