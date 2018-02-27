@@ -53,6 +53,15 @@ _Mathematical Circus_ by Martin Gardner.
 A simulator that lets you experience the thrills and spills
 of the fascinating world of art restoration.
 
+### Bézier Knots
+
+*   inception date: May 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: bezier-knots.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Bézier_Knots)
+
+Knots made of Bézier curves.
+
 ### Black Hole Poem
 
 ![preview](http://static.catseye.tc/images/screenshots/Black_Hole_Poem.jpg)

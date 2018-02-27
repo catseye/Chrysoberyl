@@ -1237,9 +1237,10 @@
             "Two Fifty Six",
             "Kolakoski Kurve",
             "Colourring",
-            "Rigamaroads"
+            "Rigamaroads",
+            "Bézier Knots"
         ], 
-        "fixed-tag": "492ef79", 
+        "fixed-tag": "45d54ce", 
         "github": "catseye/HTML5-Gewgaws", 
         "releases": [
             {

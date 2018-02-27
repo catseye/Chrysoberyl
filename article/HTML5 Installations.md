@@ -717,6 +717,20 @@ cards.
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
+### Bézier Knots
+
+*   installation-of: [Bézier Knots][]
+*   installed-implementation: bezier-knots.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: bezier-knots/bezier-knots.js
+*   script-root: ../modules/html5-gewgaws/bezier-knots/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Bézier_Knots)
+
+After changing the line thickness, you must Reset for it to take effect.
+
 ### Black Hole Poem
 
 *   installation-of: [Black Hole Poem][]
