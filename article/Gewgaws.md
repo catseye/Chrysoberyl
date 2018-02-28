@@ -217,6 +217,21 @@ This is a geometric interpretation of the Kolakoski sequence (also known
 as the "see and say" sequence) using turtle graphics: 1 means turn while
 2 means go forward (roughly speaking.)
 
+### Latcarf
+
+*   inception date: May 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: latcarf.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Latcarf)
+
+Most recursive fractals are created top-down: start with a big thing, add some smaller things to it,
+add some even smaller things to those things, etc.
+
+I was curious about what it would be like if a fractal was generated bottom-up: start with many small
+things, connect them to larger things, then connect those to even larger things, etc.
+
+This is the result of implementing that method.
+
 ### Lexeduct
 
 *   inception date: Apr 2015

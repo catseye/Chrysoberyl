@@ -1239,9 +1239,10 @@
             "Colourring",
             "Rigamaroads",
             "Semicircle Jam",
-            "Bézier Knots"
+            "Bézier Knots",
+            "Latcarf"
         ], 
-        "fixed-tag": "9137ad2", 
+        "fixed-tag": "0207ce7", 
         "github": "catseye/HTML5-Gewgaws", 
         "releases": [
             {

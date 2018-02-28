@@ -1001,6 +1001,20 @@ might result in glitching in XOR mode (depending on your browser's
 implementation of the HTML5 canvas -- I don't really know why this
 happens.)
 
+### Latcarf
+
+*   installation-of: [Latcarf][]
+*   installed-implementation: latcarf.js
+*   interactive: false
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: latcarf/latcarf.js
+*   script-root: ../modules/html5-gewgaws/latcarf/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Latcarf)
+
+Latcarf.
+
 ### Lexeduct
 
 *   installation-of: [Lexeduct][]
