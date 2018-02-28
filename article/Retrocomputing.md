@@ -154,8 +154,7 @@ probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it wo
 Some modern PC's can handle running that sort of legacy setup, but most don't.
 Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
 
-For emulators, specifications, and other resources,
-see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
+For emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
 
 #### BefOS
 
@@ -190,8 +189,7 @@ Emulators: there are a few recommended choices here:
     on a PC emulator such as [QEMU](http://www.qemu-project.org/).
     (Note that QEMU can actually emulate many more architectures than just the IBM PC.)
 
-For other emulators, specifications, and other resources,
-see [Blurry Memories of DOS Programming](https://github.com/catseye/The-Dossier/blob/master/article/Blurry%20Memories%20of%20DOS%20Programming.md).
+For other emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
 
 Any Cat's Eye Technologies project which claims to need MS-DOS only needs
 something which emulates MS-DOS sufficiently well. This includes both the
@@ -311,7 +309,7 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Shelta]: ../article/Languages.md#shelta
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
-[Commodore 64 Programmer's Reference Guide]: https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
+[Commodore 64 Programmer's Reference Guide]: ../view/The-Dossier/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: ../article/Project%20Dependencies.md#nasm
 [SixtyPical]: ../article/Languages.md#sixtypical
 [SITU-PAN]: ../article/Tools.md#situ-pan
@@ -323,4 +321,5 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [The Dossier]: ../article/General%20Information.md#the-dossier
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[Blurry Memories of DOS Programming]: ../view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 
