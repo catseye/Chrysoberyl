@@ -357,8 +357,8 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-module: schroedingers-game-of-life
 *   javascript-urls: impl/slife.js/src/slife.js
 *   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
-*   style: label { display: block; }
 *   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
+*   style: label { display: block; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
 Schrödinger's Game of Life.
