@@ -2826,8 +2826,8 @@ locations.)
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
 [Python]: ../article/Project%20Dependencies.md#python
-[Programming Languages as an Artistic Medium]: ../view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
-[The Aesthetics of Esolangs]: ../view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
+[Programming Languages as an Artistic Medium]: http://catseye.tc/view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+[The Aesthetics of Esolangs]: http://catseye.tc/view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
