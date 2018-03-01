@@ -27,7 +27,7 @@ By selecting sample programs and watching them run, you can gain an appreciation
 language works; by composing your own programs, you can gain an even better appreciation.
 
 You may also be interested in reading about
-[what it was like to design these](https://github.com/catseye/The-Dossier/#programming-languages)
+[what it was like to design these](../view/The-Dossier/README.md#programming-languages)
 or [the ones that got away](LoUIE.md).
 
 ### Full Moon Fever
@@ -2826,8 +2826,8 @@ locations.)
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
 [Python]: ../article/Project%20Dependencies.md#python
-[Programming Languages as an Artistic Medium]: https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
-[The Aesthetics of Esolangs]: https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md
+[Programming Languages as an Artistic Medium]: ../view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+[The Aesthetics of Esolangs]: ../view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos

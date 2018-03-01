@@ -160,7 +160,7 @@
 
 
     "What is this I don't even": {
-        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/Musical%20Compositions.md"
+        "url": "http://catseye.tc/article/Musical%20Compositions.md"
     }, 
     "Befunge Mailing List Working Group": {
         "url": "http://esolangs.org/wiki/Befunge"
@@ -276,10 +276,10 @@
         "url": "http://catseye.tc/article/Automata"
     }, 
     "Disambiguation Node": {
-        "url": "http://catseye.tc/article/General Information.md"
+        "url": "http://catseye.tc/article/General%20Information.md"
     }, 
     "Online Installation": {
-        "url": "http://catseye.tc/article/HTML5 Installations"
+        "url": "http://catseye.tc/article/HTML5%20Installations"
     }, 
     "type": {
         "url": "http://catseye.tc/"
@@ -290,28 +290,28 @@
 
 
     "Book": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/An%20Esolang%20Reading%20List.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md"
     },
     "Retrospective: Chris Pressey on Language Design": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md"
     },
     "Programming Languages as an Artistic Medium": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md"
     },
     "The Aesthetics of Esolangs": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/The%20Aesthetics%20of%20Esolangs.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md"
     },
     "Chris Pressey's Favourite Video Games": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Video%20Games%20of%20Note.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md"
     },
     "Chris Pressey's Favourite Text Adventures": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Text%20Adventures%20of%20Note.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md"
     },
     "Chris Pressey's Favourite Other Computer Games": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md"
     },
     "LoUIE": {
-        "url": "https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md"
+        "url": "http://catseye.tc/article/List%20of%20Unfinished%20Interesting%20Esolangs.md"
     },
 
 
@@ -665,7 +665,7 @@
         "filename": "article/General Information.md"
     },
     "Implementation Languages": {
-        "url": "https://github.com/catseye/The-Dossier/blob/master/article/Some%20Production%20Programming%20Languages.md"
+        "url": "http://catseye.tc/view/The-Dossier/article/Some%20Production%20Programming%20Languages.md"
     },
     "Project Matrix": {
         "url": "https://github.com/catseye/"

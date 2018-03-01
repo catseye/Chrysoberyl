@@ -186,10 +186,10 @@ short-and-trying-to-be-unbiased-blurb approach.
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Chris Pressey's Lingography]: http://catseye.tc/article/Languages
 [LoUIE]: https://github.com/catseye/Chrysoberyl/blob/master/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
-[Retrospective: Chris Pressey on Language Design]: https://github.com/catseye/The-Dossier/blob/master/article/Retrospective%20on%20Language%20Design.md
-[Chris Pressey's Favourite Video Games]: https://github.com/catseye/The-Dossier/blob/master/article/Video%20Games%20of%20Note.md
-[Chris Pressey's Favourite Text Adventures]: https://github.com/catseye/The-Dossier/blob/master/article/Text%20Adventures%20of%20Note.md
-[Chris Pressey's Favourite Other Computer Games]: https://github.com/catseye/The-Dossier/blob/master/article/Classic%20Computer%20Games.md
+[Retrospective: Chris Pressey on Language Design]: ../view/The-Dossier/article/Retrospective%20on%20Language%20Design.md
+[Chris Pressey's Favourite Video Games]: ../view/The-Dossier/article/Video%20Games%20of%20Note.md
+[Chris Pressey's Favourite Text Adventures]: ../view/The-Dossier/article/Text%20Adventures%20of%20Note.md
+[Chris Pressey's Favourite Other Computer Games]: ../view/The-Dossier/article/Classic%20Computer%20Games.md
 [GitHub]: https://github.com/catseye/
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
