@@ -2500,6 +2500,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.12.zip", 
                 "version": "0.12"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.13.zip", 
+                "version": "0.13"
             }
         ], 
         "tag-style": "new", 
@@ -2744,7 +2749,7 @@
         "entries": [
             "The Dossier"
         ], 
-        "fixed-tag": "48b9753", 
+        "fixed-tag": "6828b3c", 
         "github": "catseye/The-Dossier", 
         "releases": [], 
         "type": "Distribution"
@@ -3431,6 +3436,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.2.zip", 
                 "version": "0.2"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/kinoje-0.3.zip", 
+                "version": "0.3"
             }
         ], 
         "tag-style": "new", 
