@@ -165,6 +165,7 @@ outside of what Cat's Eye Technologies has produced.
 
 ### The Dossier
 
+*   online @ [catseye.tc](http://catseye.tc/view/The-Dossier/README.md)
 *   reference distribution: [The Dossier distribution](http://catseye.tc/distribution/The_Dossier_distribution)
 
 While [Chrysoberyl][] is an attempt to catalogue and curate
