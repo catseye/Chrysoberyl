@@ -274,6 +274,15 @@ Animated op art: an interactive bleeding of colours.
 
 A generated animation involving randomness and not-so-much randomness.
 
+### Pixed-Point
+
+*   inception date: Sep 2015
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: pixed-point.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Pixed-Point)
+
+Not sure about the inception date, need to look that up.
+
 ### Prairie
 
 ![preview](http://static.catseye.tc/images/screenshots/Prairie.jpg)

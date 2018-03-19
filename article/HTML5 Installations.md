@@ -1086,6 +1086,23 @@ of vision, focus and peripheral vision...)
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
 
+### Pixed-Point
+
+*   installation-of: [Pixed-Point][]
+*   installed-implementation: pixed-point.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: pixed-point/pixed-point.js
+*   script-root: ../modules/html5-gewgaws/pixed-point/yoob/
+*   launch-config: { imgUrl: "../resource/c64_upp.gif" }
+*   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
+*   online @ [catseye.tc](http://catseye.tc/ix/Pixed-Point)
+
+There are some combinations where the numbers will "settle down",
+but there's no guarantee, you see.
+
 ### Prairie
 
 *   installation-of: [Prairie][]
