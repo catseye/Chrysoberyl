@@ -1245,9 +1245,10 @@
             "Rigamaroads",
             "Semicircle Jam",
             "Bézier Knots",
-            "Latcarf"
+            "Latcarf",
+            "Pixed-Point"
         ], 
-        "fixed-tag": "0207ce7", 
+        "fixed-tag": "ace38eb", 
         "github": "catseye/HTML5-Gewgaws", 
         "releases": [
             {
