@@ -727,9 +727,10 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: bezier-knots/bezier-knots.js
 *   script-root: ../modules/html5-gewgaws/bezier-knots/yoob/
+*   style: #installation > div { display: inline-block; vertical-align: top; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Bézier_Knots)
 
-After changing the line thickness, you must Reset for it to take effect.
+Changing the number of segments or rings will automatically re-roll the knots.
 
 ### Black Hole Poem
 
@@ -1375,6 +1376,9 @@ Use the navigation buttons to traverse the space of the work.
 [Markov Font]: ../article/Gewgaws.md#markov-font
 [Multicolouralism]: ../article/Gewgaws.md#multicolouralism
 [Noise to Signal No. 1]: ../article/Gewgaws.md#noise-to-signal-no-1
+[Pixed-Point]: ../article/Gewgaws.md#pixed-point
+[Rigamaroads]: ../article/Gewgaws.md#rigamaroads
+[Semicircle Jam]: ../article/Gewgaws.md#semicircle-jam
 [Prairie]: ../article/Gewgaws.md#prairie
 [Progression]: ../article/Gewgaws.md#progression
 [Radialjective]: ../article/Gewgaws.md#radialjective
