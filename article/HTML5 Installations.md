@@ -727,7 +727,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   javascript-module: html5-gewgaws
 *   javascript-urls: bezier-knots/bezier-knots.js
 *   script-root: ../modules/html5-gewgaws/bezier-knots/yoob/
-*   style: #installation > div { display: inline-block; vertical-align: top; }
+*   style: #panel-container { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Bézier_Knots)
 
 Changing the number of segments or rings will automatically re-roll the knots.
