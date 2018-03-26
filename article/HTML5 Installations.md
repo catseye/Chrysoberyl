@@ -638,7 +638,7 @@ will consume them in order, and continue running.
 
 ### ZOWIE
 
-*   installation-of: zowie.py
+*   installation-of: [ZOWIE][]
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
@@ -664,7 +664,7 @@ program.
 
 ### A Minimalist Critique of Tetris
 
-*   installation-of: a-minimalist-critique.js
+*   installation-of: [A Minimalist Critique of Tetris][]
 *   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
@@ -1348,23 +1348,29 @@ Use the navigation buttons to traverse the space of the work.
 [Whothm]: ../article/Languages.md#whothm
 [Wunnel]: ../article/Languages.md#wunnel
 [Ypsilax]: ../article/Languages.md#ypsilax
+[ZOWIE]: ../article/Languages.md#zowie
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
 [yoob]: ../article/Archived.md#yoob
 [Schrödinger's Game of Life]: ../article/Automata.md#schr%C3%B6dingers-game-of-life
 [Matchbox]: ../article/Languages.md#matchbox
 [Wierd (John Colagioia)]: ../article/Languages.md#wierd
+[A Minimalist Critique of Tetris]: ../article/Gewgaws.md#a-minimalist-critique-of-tetris
 [A Non-Random Walk]: ../article/Gewgaws.md#a-non-random-walk
 [Art Restoration Simulator]: ../article/Gewgaws.md#art-restoration-simulator
+[Bézier Knots]: ../article/Gewgaws.md#bezier-knots
 [Black Hole Poem]: ../article/Gewgaws.md#black-hole-poem
 [Canvas Feedback]: ../article/Gewgaws.md#canvas-feedback
 [Circus Xamulus]: ../article/Gewgaws.md#circus-xamulus
+[Colourring]: ../article/Gewgaws.md#colourring
 [Eine kleine Glitchfraktal]: ../article/Gewgaws.md#eine-kleine-glitchfraktal
 [Fibonacci Spiral]: ../article/Gewgaws.md#fibonacci-spiral
 [Fingerspelling]: ../article/Gewgaws.md#fingerspelling
 [Heronsis hermnonicii]: ../article/Gewgaws.md#heronsis-hermnonicii
 [Hirsute Miasma]: ../article/Gewgaws.md#hirsute-miasma
 [Hypongtrochoid]: ../article/Gewgaws.md#hypongtrochoid
+[Kolakoski Kurve]: ../article/Gewgaws.md#kolakoski-kurve
+[Latcarf]: ../article/Gewgaws.md#latcarf
 [Lexeduct]: ../article/Gewgaws.md#lexeduct
 [Markov Font]: ../article/Gewgaws.md#markov-font
 [Multicolouralism]: ../article/Gewgaws.md#multicolouralism
