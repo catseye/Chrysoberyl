@@ -12,7 +12,7 @@ processable, and only thirdly structured.  For this purpose, it has
 historically been collected in relatively ad-hoc YAML files, but in 2017
 it was converted to [Feedmark][] format, which is a subset of Markdown.
 
-These Feedmark articles can be found in [the articles directory](articles/).
+These Feedmark articles can be found in [the article directory](article/).
 
 Chrysoberyl contains primarily things produced by Cat's Eye Technologies;
 it only contains things not produced by Cat's Eye Technologies when they
