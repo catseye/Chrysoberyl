@@ -20,7 +20,7 @@ Languages
 
 ### ANSI C
 
-*   specification-link: http://clc-wiki.net/wiki/C89
+*   specification-link: [ANSI C89 documents](http://port70.net/~nsz/c/c89/)
 
 Many of our C programs are written in C89, also colloquially known as "ANSI C".
 This is supported by many C compilers.  Indeed, many C compilers understand
@@ -33,7 +33,7 @@ the build command (which is often `make`.)
 
 ### C99
 
-*   specification-link: http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf
+*   specification-link: [ANSI C99 documents](http://port70.net/~nsz/c/c99/)
 
 The disadvantage of ANSI C is that it defines only a very crude model of the world
 surrounding the program, and how the program can interact with it.  For example,
@@ -49,21 +49,21 @@ the default, and ANSI C, if desired. must be selected explicitly when building.
 
 ### Perl
 
-*   specification-link: http://www.perl.org/
+*   specification-link: [Perl.org](http://www.perl.org/)
 
 Our Perl projects are written in Perl 5.  For more precise version numbers they have
 been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Python
 
-*   specification-link: http://www.python.org/
+*   specification-link: [Python.org](http://www.python.org/)
 
 Our Python projects are written in Python 2.7.  For more precise version numbers
 they have been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Lua
 
-*   specification-link: http://lua.org/
+*   specification-link: [Lua.org](http://lua.org/)
 
 Our Lua projects (barring any that may be in archived projects) are written in Lua 5.1
 and tested with Lua 5.1.4.
@@ -72,8 +72,8 @@ Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x ser
 
 ### Scheme
 
-*   specification-link: http://schemers.org/Documents/Standards/R5RS/
-*   suggested-implementation: http://justinethier.github.io/husk-scheme/
+*   specification-link: [R5RS documents](http://schemers.org/Documents/Standards/R5RS/)
+*   suggested-implementation: [Husk Scheme](http://justinethier.github.io/husk-scheme/)
 
 Our Scheme projects are generally written in vanilla R5RS Scheme.
 Sometimes even R4RS Scheme.  (And it should be noted that this is
@@ -83,7 +83,7 @@ For more precise version numbers they have been tested on, see
 
 ### Haskell
 
-*   specification-link: https://www.haskell.org/
+*   specification-link: [Haskell.org](https://www.haskell.org/)
 
 Haskell is a lazy functional language.
 
@@ -116,7 +116,7 @@ be quite cumbersome.)
 
 ### Erlang
 
-*   specification-link: http://www.erlang.org/
+*   specification-link: [Erlang.org](http://www.erlang.org/)
 
 Our Erlang projects are written in Erlang R16 and tested with
 Erlang/OTP R16B03-1.
@@ -138,7 +138,7 @@ to make some manual changes and system setup.
 
 ### Bourne shell
 
-*   specification-link: http://steve-parker.org/sh/bourne.shtml
+*   specification-link: [An Introduction to the Unix Shell](http://steve-parker.org/sh/bourne.shtml)
 
 We try to write our Bourne shell scripts to run on plain Bourne shell — nothing
 `bash`-specific.  We try to test them on NetBSD for this purpose.  As such, they
@@ -148,7 +148,7 @@ see [The Cat's Eye Technologies Platform][].
 
 ### NASM
 
-*   specification-link: http://nasm.us/
+*   specification-link: [NASM.us](http://nasm.us/)
 
 In our projects, many of these NASM files were converted from older
 assembly-language sources written in the syntax of Turbo Assembler 3.1
@@ -159,7 +159,7 @@ the binaries should be built from.
 
 ### Javascript
 
-*   specification-link: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+*   specification-link: [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
 There is no implementation of Javascript bundled with [The Cat's Eye Technologies Platform][].
 Some of our Javascript scripts are "universal" and will run under `nodejs`, but we don't have
@@ -174,7 +174,7 @@ For laughs, here are some old Javascript links that still work:
 
 ### Java
 
-*   specification-link: https://docs.oracle.com/javase/specs/
+*   specification-link: [Java SE specs — docs.oracle.com](https://docs.oracle.com/javase/specs/)
 
 Our Java projects are, as far as I can recall, written in Java 1.6.  They have not been tested
 recently, but when they were, it might have been under the Java SE 6 JDK 1.6.0.
@@ -195,7 +195,7 @@ after you have agreed to the "Oracle Binary Code License Agreement for Java SE".
 
 ### Ruby
 
-*   specification-link: http://www.ruby-lang.org/
+*   specification-link: [Ruby-lang.org](http://www.ruby-lang.org/)
 
 Some of our projects have some stuff written in Ruby — we implemented
 [Thue][] in Ruby, and [Castile][] can output Ruby — but nothing we've
@@ -216,22 +216,22 @@ Tools and Libraries
 
 ### make
 
-*   specification-link: http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html
-*   suggested-implementation: http://www.gnu.org/software/make/
+*   specification-link: [POSIX make](http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html)
+*   suggested-implementation: [GNU make](http://www.gnu.org/software/make/)
 
 `make` is a tool for orchestrating builds.
 
 ### Parsec
 
-*   specification-link: http://legacy.cs.uu.nl/daan/parsec.html
-*   suggested-implementation: http://hackage.haskell.org/package/parsec-3.1.1
+*   specification-link: [Parsec — Haskell wiki](https://wiki.haskell.org/Parsec)
+*   suggested-implementation: [parsec-3.1.1](http://hackage.haskell.org/package/parsec-3.1.1)
 
 Parsec is a parser combinator library for Haskell.
 
 ### realpath
 
 *   specification-link: N/A
-*   suggested-implementation: http://catseye.tc/distribution/realpath_distribution
+*   suggested-implementation: [catseye/realpath](http://catseye.tc/distribution/realpath_distribution)
 
 `realpath` is a tool that reports the real, symbolic-link-free path
 for a filepath which may contain symbolic links.
@@ -246,7 +246,7 @@ Interfaces
 
 ### ANSI Terminal
 
-*   specification-link: http://www.ecma-international.org/publications/standards/Ecma-048.htm
+*   specification-link: [ECMA-48](http://www.ecma-international.org/publications/standards/Ecma-048.htm)
 
 When a project claims it needs this to run, it needs to run in a terminal which understand
 the ANSI terminal control codes (more formally known as "ECMA-48") in
