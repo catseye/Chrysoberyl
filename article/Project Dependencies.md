@@ -31,6 +31,8 @@ Some of our projects can be compiled as either ANSI C or [C99][].  Often, ANSI C
 selectable by setting the environment variable `ANSI` to `YES` while running
 the build command (which is often `make`.)
 
+An older but still interesting link: [C89 at clc-wiki](http://clc-wiki.net/wiki/C89).
+
 ### C99
 
 *   specification-link: [ANSI C99 documents](http://port70.net/~nsz/c/c99/)
@@ -256,6 +258,95 @@ of a particular terminal standard which includes them, such as `vt100`
 or `vt220`. For older [MS-DOS][] systems, a driver such as `ANSI.SYS` may
 need to be loaded.
 
+Music Formats
+-------------
+
+Here are various formats in which the [Musical Compositions][] have been recorded,
+and/or software that plays and/or edits music in these formats.  Indeed, sometimes
+the format is named after the software.
+
+### SID Player
+
+*   specification-link: ???
+
+This was a popular(?) music format for the Commodore 64.  There was an editor for
+this format called SID Editor, which was written largely in Commodore BASIC 2.0
+(there were some machine-language subroutines, but it was largely BASIC.)
+
+### MIDI
+
+*   specification-link: [Standard MIDI Files](https://www.midi.org/specifications/category/smf-specifications)
+*   wikipedia: [MIDI](https://en.wikipedia.org/wiki/MIDI)
+
+This one's pretty well standardized, I think.
+
+I did a lot of MIDI sequencing with a Roland JV-30 and Cakewalk, back in the Windows 95 era.
+
+MIDI files can be rendered to digital audio using a "soundfont" such as "freepats" and a
+renderer like [TiMidity++][].
+
+### DMCS
+
+*   specification-link: None
+*   wikipedia: [Deluxe_Music_Construction_Set](https://en.wikipedia.org/wiki/Deluxe_Music_Construction_Set)
+
+By Electronic Arts.  For the Amiga and the Apple Macintosh.
+
+It could export to MIDI.
+
+### Noisetracker MOD
+
+*   specification-link: [Noisetracker/Soundtracker/Protracker Module Format, 4th revision](https://www.aes.id.au/modformat.html)
+*   wikipedia: [MOD (file format)](https://en.wikipedia.org/wiki/MOD_(file_format))
+
+This is what we talk about when we talk about MOD files, I think.
+
+There's an open-source audio player called [xmp][] that can play MED, Noisetracker MOD,
+and many other formats.
+
+### MED
+
+*   specification-link: [MED/OctaMED MMD0 and MMD1 file formats](https://raw.githubusercontent.com/cpressey/MMD0-tools/master/doc/MED-Format.txt)
+
+Amiga.  The editor is called MED.  There was a MED Player.
+
+MED has a "transpose" command, but not all players honour it, and when they don't,
+well, one of the voices is in the wrong key.
+
+There's an open-source audio player called [xmp][] that can play MED, Noisetracker MOD,
+and many other formats.
+
+### MP3
+
+*   specification-link: ???
+*   wikipedia: [MP3](https://en.wikipedia.org/wiki/MP3)
+
+Yeah.  Obviously.
+
+### Sonant Tracker Format
+
+*   specification-link: [sonantlive.bitsnbites.eu](http://sonantlive.bitsnbites.eu/)
+
+[Sonant Live][] runs in a browser (Javascript and HTML5) and synthesizes its voices.
+There is also a [Sonant Tracker][] which uses the same format and runs on Windows.
+
+### Csound
+
+*   specification-link: ???
+*   wikipedia: [Csound](https://en.wikipedia.org/wiki/Csound)
+
+I always want to capitalize it as "cSound", for what are probably obvious reasons.
+
+It's the FORTRAN of computer music languages.
+
+### MML
+
+*   specification-link: ???
+*   wikipedia: [Music_Macro_Language](https://en.wikipedia.org/wiki/Music_Macro_Language)
+
+I've seen music written in this in BASIC programs, but only learned that it was
+called "MML" fairly recently.  The Wikipedia article is worth a read.
+
 [The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [C99]: ../article/Project%20Dependencies.md#c99
@@ -269,4 +360,9 @@ need to be loaded.
 [Castile]: ../article/Languages.md#castile
 [Velo]: ../article/Languages.md#velo
 [Lua]: ../article/Project%20Dependencies.md#lua
+[Musical Compositions]: ../article/Musical%20Compositions.md
+[TiMidity++]: http://timidity.sourceforge.net/
+[xmp]: http://xmp.sourceforge.net/
+[Sonant Tracker]: http://www.pouet.net/prod.php?which=53615
+[Sonant Live]: http://sonantlive.bitsnbites.eu/
 

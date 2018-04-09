@@ -20,3 +20,9 @@ best.  The point is, we try.
 *   optional: true
 
 suggested-implementation.
+
+### wikipedia
+
+*   optional: true
+
+If it has an entry on the English-language Wikipedia, here's a link.

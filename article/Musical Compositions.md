@@ -68,8 +68,8 @@ Middle Period
 *   common composed-on: Amiga 500
 *   common using-software: MED
 
-Where there is an MP3 available, it has been converted from the MED file
-using xmp (or modplug123) and lame.
+Where there is an MP3 available, it has been converted from the [MED][] file
+using [xmp][] (or modplug123) and lame.
 
 ### After the Fact
 
@@ -268,7 +268,7 @@ it through an entire Zappa song, so I couldn't say, myself.
 
 A sort of hokey ragtime ballad thing.
 
-This was rendered with timidity++ and the freepats soundfont.  I apologise for
+This was rendered with [TiMidity++][] and the freepats soundfont.  I apologise for
 what it did with the hand claps.
 
 Late Late Period
@@ -279,8 +279,8 @@ Late Late Period
 *   genre: Techno
 *   inception-date: Oct 2012
 *   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fluorescent%20Atrocious.mp3)
-*   composed-on: Sonant Live
-*   using-software: Sonant Live
+*   composed-on: Firefox
+*   using-software: [Sonant Live][]
 *   development-stage: mature
 
 Here's what this icky techno piece tries to evoke: having a terrible
@@ -300,3 +300,8 @@ how to lay out a garden.
 
 The Shortbread Rocketship is a 2-and-a-half-hour-long computer-generated
 opera.  It was generated for NaOpGenMo 2014.
+
+[TiMidity++]: http://timidity.sourceforge.net/
+[xmp]: http://xmp.sourceforge.net/
+[MED]: ../article/Project%20Dependencies.md#med
+[Sonant Live]: http://sonantlive.bitsnbites.eu/
