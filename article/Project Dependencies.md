@@ -316,36 +316,12 @@ well, one of the voices is in the wrong key.
 There's an open-source audio player called [xmp][] that can play MED, Noisetracker MOD,
 and many other formats.
 
-### MP3
-
-*   specification-link: ???
-*   wikipedia: [MP3](https://en.wikipedia.org/wiki/MP3)
-
-Yeah.  Obviously.
-
 ### Sonant Tracker Format
 
 *   specification-link: [sonantlive.bitsnbites.eu](http://sonantlive.bitsnbites.eu/)
 
 [Sonant Live][] runs in a browser (Javascript and HTML5) and synthesizes its voices.
 There is also a [Sonant Tracker][] which uses the same format and runs on Windows.
-
-### Csound
-
-*   specification-link: ???
-*   wikipedia: [Csound](https://en.wikipedia.org/wiki/Csound)
-
-I always want to capitalize it as "cSound", for what are probably obvious reasons.
-
-It's the FORTRAN of computer music languages.
-
-### MML
-
-*   specification-link: ???
-*   wikipedia: [Music_Macro_Language](https://en.wikipedia.org/wiki/Music_Macro_Language)
-
-I've seen music written in this in BASIC programs, but only learned that it was
-called "MML" fairly recently.  The Wikipedia article is worth a read.
 
 [The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
