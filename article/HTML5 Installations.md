@@ -1173,6 +1173,19 @@ but there's no guarantee, you see.
 *   online @ [catseye.tc](http://catseye.tc/ix/Semicircle_Jam)
 
 
+### Spadgets
+
+*   installation-of: [Spadgets][]
+*   installed-implementation: spadgets.js
+*   interactive: false
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-module: html5-gewgaws
+*   javascript-urls: spadgets/spadgets.js
+*   script-root: ../modules/html5-gewgaws/spadgets/yoob/
+*   online @ [catseye.tc](http://catseye.tc/ix/Spadgets)
+
+
 ### Tentacles, Undamped
 
 *   installation-of: [Tentacles, Undamped][]

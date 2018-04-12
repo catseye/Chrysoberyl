@@ -348,6 +348,19 @@ Randomly-assembled street map or circuit or something similar to these.
 
 A path made of semicircles.
 
+### Spadgets
+
+*   inception date: Jul 2016
+*   reference distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference implementation name: spadgets.js
+*   online @ [catseye.tc](http://catseye.tc/installation/Spadgets)
+
+An attempt as making generative asemic writing (well, printing) that was going
+alright and then I started to go a little overboard and then it no longer looks
+much like writing.  There was another idea here that remains unexplored, namely,
+constructing a Markov model in one context (say, words of a text) and extracting
+it and using it in an unrelated context (say, when building a spadget.)
+
 ### Tentacles, Undamped
 
 ![preview](http://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)

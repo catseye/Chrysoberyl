@@ -1246,9 +1246,10 @@
             "Semicircle Jam",
             "Bézier Knots",
             "Latcarf",
-            "Pixed-Point"
+            "Pixed-Point",
+            "Spadgets"
         ], 
-        "fixed-tag": "5f79ba2", 
+        "fixed-tag": "bfca0b2", 
         "github": "catseye/HTML5-Gewgaws", 
         "releases": [
             {
