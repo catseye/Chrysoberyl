@@ -39,7 +39,7 @@
         "url": "http://www.r-project.org/"
     },
     "Zz": {
-        "url": "http://openzz.cvs.sourceforge.net/viewvc/openzz/openzz/doc/zzdoc.html"
+        "url": "https://cdn.rawgit.com/catseye/OpenZz/90896648/doc/zzdoc.html"
     },
     "Markdown": {
         "url": "http://daringfireball.net/projects/markdown/syntax"
