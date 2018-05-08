@@ -2517,6 +2517,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.15.zip", 
                 "version": "0.15"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.16.zip", 
+                "version": "0.16"
             }
         ], 
         "tag-style": "new", 
