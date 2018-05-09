@@ -4,6 +4,21 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### ALPACA Version 1.1 Released
+
+*   summary: [ALPACA](http://catseye.tc/node/ALPACA) version 1.1 has been released.
+*   date: Wed, 09 May 2018 10:27:06 GMT
+
+[ALPACA](http://catseye.tc/node/ALPACA) version 1.1 has been released.
+
+Version 1.1 clarifies a few edge cases in the spec, and introduces ALPACA
+Stylesheets 1.0, which can be used to specify the appearance of cellular
+automata.
+
+Some of the internals of the reference implementation have been given an
+overhaul, and a few non-normative features have been added to it, such as
+being able to output SVGs (which can then be assembled into animated GIFs.)
+
 ### More Pictures, Movies, and Gewgaws put Online
 
 *   summary: More [Pictures](http://catseye.tc/article/Pictures), [Movies](http://catseye.tc/article/Movies), and [Gewgaws](http://catseye.tc/article/Gewgaws) have been hosted on `catseye.tc`.
