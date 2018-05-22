@@ -1097,6 +1097,11 @@
                 "revision": "2016.0327", 
                 "url": "http://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2018.0522", 
+                "url": "http://catseye.tc/distfiles/funge-98-1.0-2018.0522.zip", 
+                "version": "1.0"
             }
         ], 
         "type": "Distribution"
