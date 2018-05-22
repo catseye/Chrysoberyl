@@ -25,6 +25,9 @@
         "url": "http://www.skulpt.org/"
     },
 
+    "FBBI": {
+        "url": "http://catseye.tc/distribution/FBBI_distribution"
+    },
 
     "Conway's Game of Life": {
         "url": "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
