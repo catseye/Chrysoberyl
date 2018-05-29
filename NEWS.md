@@ -21,7 +21,7 @@ Here are some we actually have done, so far:
 
 *   Written [a retrospective write-up on Befunge](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
     (2.5K words) that covers some of the less-covered corners of its history and design.
-*   Released [a new May 2018 edition](https://github.com/catseye/Funge-98/tree/rel_1_0_2018_0522),
+*   Released [a new May 2018 edition](https://github.com/catseye/Funge-98/tree/rel_1_0_2018_0522)
     of [the Funge-98 distribution](https://github.com/catseye/Funge-98),
     which contains the Funge-98 Final Specification (but no implementations
     of the language).  There are no changes to the spec, but there is an
@@ -30,10 +30,10 @@ Here are some we actually have done, so far:
 
 Here are some we have planned:
 
-*   Release a new version of [the Befunge-93 distribution]((https://github.com/catseye/Befunge-93)
-    containing some fixes to the `befprof` and `bef2c` sources and some support
+*   Release a new version of [the Befunge-93 distribution](https://github.com/catseye/Befunge-93)
+    containing some contributed fixes to the `befprof` and `bef2c` sources, and some support
     for building the original Befunge-93 implementations in the environment in
-    which they were originally developed, that is, with DICE C under AmigaDOS 1.3.
+    which they were originally developed — that is, with DICE C under AmigaDOS 1.3.
 *   Publish some recently discovered (well, a few years ago) "pre-historical" notes
     for Befunge, or rather, for a programming language that could have been released
     under the name "Befunge" had things worked out differently.
