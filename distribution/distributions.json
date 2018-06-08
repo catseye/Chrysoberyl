@@ -1690,6 +1690,11 @@
                 "revision": "2014.0923", 
                 "url": "http://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip", 
                 "version": "1.1"
+            },
+            {
+                "revision": "2018.0608", 
+                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2018.0608.zip", 
+                "version": "1.1"
             }
         ], 
         "type": "Distribution"
