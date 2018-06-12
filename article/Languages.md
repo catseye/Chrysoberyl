@@ -2721,9 +2721,9 @@ or not.
 *   type: Programming Language
 *   inception-date: May 29, 2018
 *   genre: Esolang
-*   influences: [Carriage][]
 *   development-stage: mature
 *   computational-class: believed Turing-complete
+*   influences: [Carriage][]
 *   paradigms: Functional, Concatenative
 *   reference-distribution: [Equipage distribution](http://catseye.tc/distribution/Equipage_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Equipage)
@@ -2820,6 +2820,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 [Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: http://esolangs.org/wiki/BitChanger
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
+[Carriage]: ../article/Languages.md#carriage
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
