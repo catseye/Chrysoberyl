@@ -4,6 +4,21 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Release of a new esolang: Equipage
+
+*   summary: [Equipage](http://catseye.tc/article/Languages.md#equipage), a new esolang, is released.
+*   date: Tue, 12 Jun 2018 09:33:57 GMT
+
+We have designed and released a new eoslang called Equipage.
+Equipage is a purely concatenative programming languages; it is what
+[Carriage](Equipage](http://catseye.tc/article/Languages.md#carriage)
+might've been in 2012, had I been less concerned about issues surrounding
+quoting at the time.
+
+You can read more about it in [the Equipage entry](http://catseye.tc/article/Languages.md#equipage),
+or download [the Equipage distribution](http://catseye.tc/distribution/Equipage_distribution)
+for all the documentation and sources.
+
 ### Befunge Turns 25 This Year!
 
 *   summary: [Befunge](http://esolangs.org/wiki/Befunge) turns 25 this year!
