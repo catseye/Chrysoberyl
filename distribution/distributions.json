@@ -810,6 +810,20 @@
         ], 
         "type": "Distribution"
     }, 
+    "Equipage distribution": {
+        "entries": [
+            "Equipage"
+        ], 
+        "github": "catseye/Equipage", 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/equipage-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "type": "Distribution"
+    }, 
     "Etcha distribution": {
         "entries": [
             "Etcha"

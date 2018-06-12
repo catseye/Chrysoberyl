@@ -1408,7 +1408,8 @@ only appear inside data structures.
 *   genre: Esolang
 *   variant-of: [Etcha][]
 *   paradigms: Maze-space-rewriting (kind of)
-*   sample program: 
+
+Sample program:
 
         #########
         # #     #
@@ -2411,7 +2412,8 @@ thus may overlap — and was released as an esolang.
 *   paradigms: Imperative, Functional
 *   etymology: soap
 *   reference-distribution: [Castile distribution](http://catseye.tc/distribution/Castile_distribution)
-*   sample program: 
+
+Sample program:
 
         fun foo(a, b: integer|string) {
           r = a;
@@ -2443,16 +2445,59 @@ supports several backends, including [Javascript][] and [Ruby][].
 
 Also it's a compiler to Javascript, Ruby, stackmac, almost C...
 
+### SixtyPical
+
+*   type: Programming Language
+*   inception-date: Mar 31, 2014
+*   genre: Machine language
+*   paradigms: Imperative
+*   etymology: portmanteau
+*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
+
+Sample program:
+
+        byte table screen @ 1024
+        routine main
+          trashes a, x, z, n, screen
+        {
+            ld x, 0
+            ld a, 83    // 83 = screen code for heart
+            repeat {
+                st a, screen + x
+                inc x
+            } until z
+        }
+
+SixtyPical is a very low-level programming language, similar to 6502
+assembly, which defines a set of static analyses via type-checking and
+abstract interpretation (liveness analysis of variables, i.e. memory
+locations.)
+
+#### Reference Implementation: sixtypical (Python)
+
+*   license: BSD license
+*   host-language: [Python][]
+*   implementation-type: compiler
+*   target-language: 6502 machine code
+
+#### Implementation: sixtypical (Haskell)
+
+*   license: BSD license
+*   host-language: [Haskell][]
+*   implementation-type: compiler
+*   target-language: Ophis Assembler
+
 ### Tamsin
 
 *   type: Programming Language
-*   inception-date: Apr 2014
+*   inception-date: Apr 27, 2014
 *   genre: Experimental language
 *   development-stage: unfinished
 *   paradigms: Functional, Logic programming, Metalanguage
 *   etymology: feminine given name
 *   reference-distribution: [Tamsin distribution](http://catseye.tc/distribution/Tamsin_distribution)
-*   sample program: 
+
+Sample program:
 
         main = expr0 → E & walk(E).
         expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
@@ -2671,6 +2716,50 @@ Maxixe is a simple proof-checking language.  Given a proof written out fully and
 explicitly (including all rules of inference), a computer can check if it is valid
 or not.
 
+### Equipage
+
+*   type: Programming Language
+*   inception-date: May 29, 2018
+*   genre: Esolang
+*   influences: [Carriage][]
+*   development-stage: mature
+*   computational-class: believed Turing-complete
+*   paradigms: Functional, Concatenative
+*   reference-distribution: [Equipage distribution](http://catseye.tc/distribution/Equipage_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Equipage)
+
+Sample program:
+
+    1~%1-1-1-~;
+    .!.!.!.!.!.!.!.!.!.!
+    $11-1-~;
+    .!.!.!.!.!.!.!
+    1$
+    .!
+    11+11-11+1
+    .!.!.!.!.!.!.!.!.!
+    !
+    11-1-~;
+    .!.!.!.!.!.!
+    !
+
+Equipage is a "pure" concatenative programming language — program
+texts are monoids and nothing but monoids (no quoting operators or
+the like.)  It is the language that [Carriage][] might've been, if
+I had not been so concerned about quoting at the time.
+
+#### Reference Implementation: Equipage.hs
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
+#### Implementation: equipage.py
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Python][]
+
 Works in Progress
 -----------------
 
@@ -2716,47 +2805,6 @@ Pophery is an imperative string-rewriting language.  I know right?
 *    license: Unknown license
 *    implementation-type: interpreter
 *    host-language: [Python][]
-
-### SixtyPical
-
-*   type: Programming Language
-*   inception-date: Apr 2014
-*   genre: Machine language
-*   paradigms: Imperative
-*   etymology: portmanteau
-*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
-*   sample program: 
-
-        byte table screen @ 1024
-        routine main
-          trashes a, x, z, n, screen
-        {
-            ld x, 0
-            ld a, 83    // 83 = screen code for heart
-            repeat {
-                st a, screen + x
-                inc x
-            } until z
-        }
-
-SixtyPical is a very low-level programming language, similar to 6502
-assembly, which defines a set of static analyses via type-checking and
-abstract interpretation (liveness analysis of variables, i.e. memory
-locations.)
-
-#### Reference Implementation: sixtypical (Python)
-
-*   license: BSD license
-*   host-language: [Python][]
-*   implementation-type: compiler
-*   target-language: 6502 machine code
-
-#### Implementation: sixtypical (Haskell)
-
-*   license: BSD license
-*   host-language: [Haskell][]
-*   implementation-type: compiler
-*   target-language: Ophis Assembler
 
 - - - -
 
