@@ -11,7 +11,7 @@
 
 We have designed and released a new eoslang called Equipage.
 Equipage is a purely concatenative programming languages; it is what
-[Carriage](Equipage](http://catseye.tc/article/Languages.md#carriage)
+[Carriage](http://catseye.tc/article/Languages.md#carriage)
 might've been in 2012, had I been less concerned about issues surrounding
 quoting at the time.
 
