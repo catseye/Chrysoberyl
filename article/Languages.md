@@ -223,7 +223,7 @@ probably lost and gone forever, but two dialects have been specified
 *   genre: Esolang
 *   development-stage: lost
 *   computational-class: ???
-*   influences: Befunge-93
+*   influences: [Befunge-93][]
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 
 Product of the [Befunge Mailing List Working Group][].
@@ -280,7 +280,7 @@ other languages (or, well, cellular automata — close enough).
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: Befunge-93, Befunge-97
+*   influences: [Befunge-93][], [Befunge-97][]
 *   paradigms: Stack-based, Self-modifying
 *   reference-distribution: [Funge-98 distribution](http://catseye.tc/distribution/Funge-98_distribution)
 
@@ -673,7 +673,7 @@ However, you still need a C compiler to build the PortableFalse interpreter.
 
 *   license: Unknown license
 *   implementation-type: compiler
-*   host-language: Befunge-93
+*   host-language: [Befunge-93][]
 *   target-language: FALSE
 
 Broken.
@@ -977,7 +977,7 @@ implementation and notes that I left behind...
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: Befunge-93
+*   influences: [Befunge-93][]
 *   paradigms: Imperative, State machine
 *   reference-distribution: [Beturing distribution](http://catseye.tc/distribution/Beturing_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Beturing)
@@ -2075,7 +2075,7 @@ while it was being developed, against the spec.
 *   genre: Esolang
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
-*   influences: Befunge-93
+*   influences: [Befunge-93][]
 *   paradigms: Functional, 2-dimensional
 *   reference-distribution: [Flobnar distribution](http://catseye.tc/distribution/Flobnar_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Flobnar)
@@ -2719,7 +2719,7 @@ or not.
 ### Equipage
 
 *   type: Programming Language
-*   inception-date: May 29, 2018
+*   inception-date: May 14, 2018
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: believed Turing-complete
