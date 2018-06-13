@@ -827,6 +827,7 @@
                 "version": "1.0"
             }
         ], 
+        "tag-style": "new", 
         "type": "Distribution"
     }, 
     "Etcha distribution": {
