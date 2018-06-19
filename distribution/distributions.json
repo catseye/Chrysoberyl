@@ -3708,7 +3708,14 @@
             "stringie"
         ], 
         "github": "catseye/stringie", 
-        "releases": [], 
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/stringie-1.0.zip", 
+                "version": "1.0"
+            }
+        ], 
+        "tag-style": "new", 
         "type": "Distribution"
     }, 
     "tideay distribution": {
