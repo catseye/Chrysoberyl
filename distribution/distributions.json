@@ -3145,6 +3145,11 @@
                 "revision": "2012.1028", 
                 "url": "http://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2018.0620", 
+                "url": "http://catseye.tc/distfiles/xigxag-1.0-2018.0620.zip", 
+                "version": "1.0"
             }
         ], 
         "type": "Distribution"
