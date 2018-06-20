@@ -4,6 +4,29 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Funicular 0.5 and stringie 1.0 released
+
+*   summary: [Funicular](http://catseye.tc/node/Funicular) 0.5 and [Funicular](http://catseye.tc/node/stringie) 1.0 released.
+*   date: Wed, 20 Jun 2018 09:28:14 GMT
+
+[Funicular](http://catseye.tc/node/Funicular) is our tool that's a bit like Vagrant,
+except instead of provisioning VMs, it provisions emulators.
+
+Recently, we brought its [Apple II](catseye.tc/node/Apple_II) support
+up to a working level, fixed its support for [FreeDOS](catseye.tc/node/FreeDOS),
+and restored support for [Amiga 500](catseye.tc/node/Amiga 500)
+which was removed entirely in a previous version because it was so lacking.
+We're pleased to report that it can now set up a development environment
+capable of compiling [bef.c](http://catseye.tc/node/Befunge-93) and
+several of our other projects under [AmigaDOS 1.3](catseye.tc/node/AmigaDOS 1.3).)
+
+One such other project is our implementation of [Underload](http://esolangs.org/wiki/Underload)
+in ANSI C, [stringie](http://catseye.tc/node/stringie).
+Vastly surprised last year that someone was actually using it, we decided to
+take it out of [The Dipple](http://catseye.tc/distribution/The%20Dipple)
+and give it its own distribution, and put it on the
+path for a 1.0 release.  It has reached that point.
+
 ### Release of a new esolang: Equipage
 
 *   summary: [Equipage](http://catseye.tc/article/Languages.md#equipage), a new esolang, is released.
