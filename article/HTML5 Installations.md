@@ -454,9 +454,9 @@ conditions between them.
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
 *   javascript-module: pixley
-*   javascript-urls: impl/pixley.js/src/pixley.js,impl/pixley.js/src/yoob/source-manager.js,impl/pixley.js/src/yoob/preset-manager.js,impl/pixley.js/src/pixley-controller.js,impl/pixley.js/src/pixley-depictor.js,impl/pixley.js/demo/examples.js,../../scripts/launch-pixley.js
-*   script-root: ../modules/pixley/impl/pixley.js/src/yoob
-*   style: #step { display: none; } #reset { display: none; } #speed_container { display: none; } #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   javascript-urls: ../../scripts/launch-pixley.js
+*   script-root: ../modules/pixley/impl/pixley.js/
+*   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Pixley)
 
 Instructions:
