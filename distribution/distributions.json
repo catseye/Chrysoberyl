@@ -2051,6 +2051,11 @@
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/pixley-2.0-2017.1110.zip", 
                 "version": "2.0"
+            },
+            {
+                "revision": "2018.0622", 
+                "url": "http://catseye.tc/distfiles/pixley-2.0-2018.0622.zip", 
+                "version": "2.0"
             }
         ], 
         "test-requirements": [
