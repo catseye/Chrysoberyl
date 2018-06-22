@@ -454,9 +454,10 @@ conditions between them.
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
 *   javascript-module: pixley
-*   javascript-urls: ../../scripts/launch-pixley.js
+*   javascript-urls: impl/pixley.js/demo/launch-pixley.js
 *   script-root: ../modules/pixley/impl/pixley.js/
-*   style: #display { border: 1px solid blue; } #output { border: 1px solid blue; } #canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; } #status { color: white; background: black; }
+*   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
+*   launch-config: { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' }
 *   online @ [catseye.tc](http://catseye.tc/ix/Pixley)
 
 Instructions:
