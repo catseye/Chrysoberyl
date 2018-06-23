@@ -289,11 +289,11 @@ _Sokoban_ is the classic Japanese game about lean manufacturing (well, sort of).
 
 This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
 
-Links
------
+See Also
+--------
 
-*   [Chris Pressey's Favourite Video Games](http://catseye.tc/node/Chris_Pressey's_Favourite_Video_Games)
-*   [Chris Pressey's Favourite Text Adventures](http://catseye.tc/node/Chris_Pressey's_Favourite_Text_Adventures)
+*   [Video Games of Note](http://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md) in The Dossier
+*   [Text Adventures of Note](http://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md) in The Dossier
 
 - - - -
 
