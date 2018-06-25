@@ -47,6 +47,11 @@ feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --rewrite-markdown || exit 1
 
 feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
+         --check-against-schema="schema/Game Implementation.md" \
+         "article/Game Implementations.md" \
+         --rewrite-markdown || exit 1
+
+feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
          --check-against-schema="schema/Musical Composition.md" \
          "article/Musical Compositions.md" \
          --rewrite-markdown || exit 1
