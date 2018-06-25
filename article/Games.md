@@ -213,7 +213,7 @@ See Also
 [Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
-[Hunt the Wumpus]: ../article/Game%20Implementations.md#hunt-the-wumpus
+[Hunt the Wumpus]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
 [Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 
