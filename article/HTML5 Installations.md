@@ -456,8 +456,8 @@ conditions between them.
 *   javascript-module: pixley
 *   javascript-urls: impl/pixley.js/demo/launch-pixley.js
 *   script-root: ../modules/pixley/impl/pixley.js/
-*   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   launch-config: { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' }
+*   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Pixley)
 
 Instructions:
