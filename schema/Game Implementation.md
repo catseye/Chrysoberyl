@@ -9,29 +9,22 @@ should appear on each entry.
 
 ### implementation of
 
-implementation of
+The game of which this is an implementation.
 
 ### license
 
-*   optional: true
-
-license
+The license under which this implementation is distributed.
 
 ### host platform
 
 *   optional: true
 
-host platform
+The platform on which this game runs.  Generally a type of computer
+or device.
 
 ### host language
 
-host language
-
-### target language
-
-*   optional: true
-
-target language
+The language in which this game in implemented.
 
 ### interface
 
@@ -39,21 +32,13 @@ The user interface by which the game is played.
 
 ### inception date
 
-*   optional: true
-
-date
-
-### development-stage
-
-*   optional: true
-
-development-stage
+The date at which this project started in earnest.
 
 ### in distribution
 
 *   optional: true
 
-in distribution
+The distribution in which this implementation can be found.
 
 ### online
 
