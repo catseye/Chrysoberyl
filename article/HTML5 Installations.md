@@ -1025,8 +1025,8 @@ Latcarf.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-module: lexeduct
-*   javascript-urls: demo/lexeduct-transformers.js,demo/yoob/element-factory.js,demo/lexeduct-browser.js,../../scripts/launch-lexeduct.js
-*   script-root: ../modules/lexeduct/src/
+*   javascript-urls: demo/launch-lexeduct.js
+*   script-root: ../modules/lexeduct/demo/
 *   style: textarea { width: 30%; } #container { text-align: center; }
 *   online @ [catseye.tc](http://catseye.tc/ix/Lexeduct)
 
