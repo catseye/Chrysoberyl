@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+# encoding: UTF-8
+
+import json
+#from optparse import OptionParser
+import os
+import re
+import sys
+
+#sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), '..', 'src'))
+
+#from chrysoberyl import commands
+
+
+def create_shelf_catalog():
+    """Create a shelf catalogue from distribution nodes.
+
+    """
+
+    with open('distribution/distributions.json', 'r') as f:
+        distributions = json.loads(f.read())
+
+    infos = {}
+    for (key, node) in sorted(distributions.iteritems()):
+        repo = node.get('github')
+        if not repo:
+            #print "# skipping {}".format(key)
+            continue
+        repo = repo.replace('catseye/', '')
+        releases = node.get('releases', [])
+        new_style = node.get('tag-style', 'old') == 'new'
+        tag = 'master'
+        fixed_tag = node.get('fixed-tag', None)
+        if fixed_tag == 'OMIT':
+            continue
+        if fixed_tag is not None:
+            tag = fixed_tag
+        elif releases:
+            version = releases[-1]['version']
+            revision = releases[-1]['revision']
+            if new_style:
+                tag = '%s-%s' % (version, revision)
+                if revision == '0.0':
+                    tag = version
+            else:
+                version = re.sub(r'\.', r'_', str(version))
+                revision = re.sub(r'\.', r'_', str(revision))
+                tag = 'rel_%s_%s' % (version, revision)
+                if revision == '0_0':
+                    tag = 'rel_%s' % version
+        key = repo.lower() if os.getenv('LOWERCASE_REPOS') else repo
+        infos[key] = (repo, tag)
+
+    lines = []
+    for (key, (repo, tag)) in sorted(infos.iteritems()):
+        lines.append('%s@%s' % (key, tag))
+    
+    for line in sorted(lines):
+        sys.stdout.write(line.encode('utf-8'))
+        sys.stdout.write('\n')
+
+
+if __name__ == '__main__':
+    create_shelf_catalog()
