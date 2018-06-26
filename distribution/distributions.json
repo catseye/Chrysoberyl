@@ -60,7 +60,7 @@
                 "revision": "2016.0317", 
                 "url": "http://catseye.tc/distfiles/alpaca-1.0-2016.0317.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/alpaca-1.1.zip", 
@@ -356,7 +356,7 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/braktif-1.0-2015.0629.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0222", 
                 "url": "http://catseye.tc/distfiles/braktif-1.0-2018.0222.zip", 
@@ -424,7 +424,7 @@
                 "revision": "2014.0819", 
                 "url": "http://catseye.tc/distfiles/burro-2.0-2014.0819.zip", 
                 "version": "2.0"
-            },
+            }, 
             {
                 "revision": "2018.0620", 
                 "url": "http://catseye.tc/distfiles/burro-2.0-2018.0620.zip", 
@@ -478,7 +478,7 @@
                 "revision": "2014.0819", 
                 "url": "http://catseye.tc/distfiles/cabra-1.0-2014.0819.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0620", 
                 "url": "http://catseye.tc/distfiles/cabra-1.0-2018.0620.zip", 
@@ -504,7 +504,7 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/canvas-feedback-1.1.zip", 
                 "version": "1.1"
-            },
+            }, 
             {
                 "revision": "2018.0223", 
                 "url": "http://catseye.tc/distfiles/canvas-feedback-1.1-2018.0223.zip", 
@@ -596,7 +596,7 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/circute-1.0-2015.0629.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0222", 
                 "url": "http://catseye.tc/distfiles/circute-1.0-2018.0222.zip", 
@@ -781,7 +781,7 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/electronics-projects-0.2.zip", 
                 "version": "0.2"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/electronics-projects-0.3.zip", 
@@ -875,7 +875,7 @@
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/etcha-1.0-2017.1110.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0123", 
                 "url": "http://catseye.tc/distfiles/etcha-1.0-2018.0123.zip", 
@@ -1049,12 +1049,12 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.3.zip", 
                 "version": "0.3"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.4.zip", 
                 "version": "0.4"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/feedmark-0.5.zip", 
@@ -1127,7 +1127,7 @@
                 "revision": "2016.0327", 
                 "url": "http://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0522", 
                 "url": "http://catseye.tc/distfiles/funge-98-1.0-2018.0522.zip", 
@@ -1166,7 +1166,7 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/funicular-0.4.zip", 
                 "version": "0.4"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/funicular-0.5.zip", 
@@ -1196,12 +1196,12 @@
                 "revision": "2017.0522", 
                 "url": "http://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "2018.0124", 
                 "url": "http://catseye.tc/distfiles/gemooy-0.1-2018.0124.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/gemooy-1.0.zip", 
@@ -1284,14 +1284,14 @@
             "Hirsute Miasma", 
             "Multicolouralism", 
             "The Judgment of Paris", 
-            "Two Fifty Six",
-            "Kolakoski Kurve",
-            "Colourring",
-            "Rigamaroads",
-            "Semicircle Jam",
-            "Bézier Knots",
-            "Latcarf",
-            "Pixed-Point",
+            "Two Fifty Six", 
+            "Kolakoski Kurve", 
+            "Colourring", 
+            "Rigamaroads", 
+            "Semicircle Jam", 
+            "B\u00e9zier Knots", 
+            "Latcarf", 
+            "Pixed-Point", 
             "Spadgets"
         ], 
         "fixed-tag": "bfca0b2", 
@@ -1418,9 +1418,9 @@
     }, 
     "Illgol: Grand Mal": {
         "entries": [
-            "ILLGOL",
-            "Illgola-2",
-            "Illberon",
+            "ILLGOL", 
+            "Illgola-2", 
+            "Illberon", 
             "Open Sores Illgol##"
         ], 
         "fixed-tag": "rel_16_tons_and_what_do_you_get", 
@@ -1534,7 +1534,7 @@
                 "revision": "2017.1027", 
                 "url": "http://catseye.tc/distfiles/jaccia-1.1-2017.1027.zip", 
                 "version": "1.1"
-            },
+            }, 
             {
                 "revision": "2018.0222", 
                 "url": "http://catseye.tc/distfiles/jaccia-1.1-2018.0222.zip", 
@@ -1680,7 +1680,7 @@
                 "revision": "2017.0502", 
                 "url": "http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "2018.0626", 
                 "url": "http://catseye.tc/distfiles/lexeduct-0.1-2018.0626.zip", 
@@ -1730,7 +1730,7 @@
                 "revision": "2014.0923", 
                 "url": "http://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip", 
                 "version": "1.1"
-            },
+            }, 
             {
                 "revision": "2018.0608", 
                 "url": "http://catseye.tc/distfiles/maentwrog-1.1-2018.0608.zip", 
@@ -2056,7 +2056,7 @@
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/pixley-2.0-2017.1110.zip", 
                 "version": "2.0"
-            },
+            }, 
             {
                 "revision": "2018.0622", 
                 "url": "http://catseye.tc/distfiles/pixley-2.0-2018.0622.zip", 
@@ -2164,7 +2164,7 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip", 
                 "version": "1.1"
-            },
+            }, 
             {
                 "revision": "2018.0221", 
                 "url": "http://catseye.tc/distfiles/redgreen-1.1-2018.0221.zip", 
@@ -2542,42 +2542,42 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.8.zip", 
                 "version": "0.8"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.9.zip", 
                 "version": "0.9"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.10.zip", 
                 "version": "0.10"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.11.zip", 
                 "version": "0.11"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.12.zip", 
                 "version": "0.12"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.13.zip", 
                 "version": "0.13"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.14.zip", 
                 "version": "0.14"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.15.zip", 
                 "version": "0.15"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.16.zip", 
@@ -3130,7 +3130,7 @@
                 "revision": "2017.1110", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0122", 
                 "url": "http://catseye.tc/distfiles/wunnel-1.0-2018.0122.zip", 
@@ -3165,7 +3165,7 @@
                 "revision": "2012.1028", 
                 "url": "http://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip", 
                 "version": "1.0"
-            },
+            }, 
             {
                 "revision": "2018.0620", 
                 "url": "http://catseye.tc/distfiles/xigxag-1.0-2018.0620.zip", 
@@ -3513,12 +3513,12 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.1.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.2.zip", 
                 "version": "0.2"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.3.zip", 
@@ -3622,7 +3622,7 @@
                 "revision": "2015.0930", 
                 "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip", 
                 "version": "1.1"
-            },
+            }, 
             {
                 "revision": "2018.0123", 
                 "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2018.0123.zip", 
@@ -3713,12 +3713,12 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/shelf-0.1.zip", 
                 "version": "0.1"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/shelf-0.2.zip", 
                 "version": "0.2"
-            },
+            }, 
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/shelf-0.3.zip", 
