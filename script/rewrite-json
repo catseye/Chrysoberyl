@@ -17,6 +17,10 @@ def rewrite_json():
     with open('distribution/distributions.json', 'r') as f:
         distributions = json.loads(f.read())
 
+    for key, node in distributions.iteritems():
+        if 'type' in node:
+            del node['type']
+
     with open('distribution/distributions.json', 'w') as f:
         f.write(json.dumps(distributions, indent=4, sort_keys=True))
 
