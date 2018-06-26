@@ -1680,6 +1680,11 @@
                 "revision": "2017.0502", 
                 "url": "http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip", 
                 "version": "0.1"
+            },
+            {
+                "revision": "2018.0626", 
+                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2018.0626.zip", 
+                "version": "0.1"
             }
         ], 
         "tag-style": "new", 
