@@ -66,7 +66,7 @@ to install and outfit and and run a system for it, using Funicular.
 It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
 as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][],
 [AmigaDOS 1.3][] on an [Amiga 500][] under [E-UAE][],
-[AppleDOS][] on an [Apple II][] under [linapple](https://github.com/catseye/linapple/),
+[Applesoft BASIC][] on an [Apple II][] under [linapple](https://github.com/catseye/linapple/),
 and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.sourceforge.net/).
 
 #### Implementation: funicular
@@ -389,4 +389,5 @@ framework, which is in Java.
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Apple II]: ../article/Retrocomputing.md#apple-ii
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[toolshelf]: ../article/Archived.md#toolshelf
 
