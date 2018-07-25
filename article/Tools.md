@@ -29,7 +29,7 @@ is emulated on whatever user interface is really available.
     *   [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
     *   [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
 *   license: BSD license
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### DiskSumo
 
@@ -73,7 +73,7 @@ and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.s
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Lua
+*   host-language: [Lua][]
 
 ### Guten-gutter
 
@@ -89,7 +89,7 @@ from Project Gutenberg text files.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### hatoucan
 
@@ -106,7 +106,7 @@ Python and is in the public domain.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### kinoje
 
@@ -122,7 +122,7 @@ the resulting sequence of images is compiled into the finished movie.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### MARYSUE
 
@@ -138,7 +138,7 @@ MARYSUE is the story generator used to generate the novel
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### seedbank
 
@@ -155,7 +155,7 @@ be used again in the future.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### shelf
 
@@ -170,7 +170,7 @@ creates link farms to the interesting files within those trees,
 and manages your search paths to include those link farms.
 those trees. The source trees are typically the working directories of
 local git or Mercurial clones, or they can be source distributions from tarballs.
-`shelf`, written in Bourne shell, is a replacement for `[toolshelf][]`, which was
+`shelf`, written in Bourne shell, is a replacement for [toolshelf][], which was
 written in Python.
 
 #### Implementation: shelf.sh
@@ -232,7 +232,7 @@ series of generated novels for [NaNoGenMo 2013][].
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### T-Rext
 
@@ -251,7 +251,7 @@ done to make it more presentable.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### yucca
 
@@ -268,7 +268,7 @@ only a `REM`, among a few other modest features.
 
 *   reference: true
 *   license: MIT license
-*   host-language: Python
+*   host-language: [Python][]
 
 Not-exactly Tools
 -----------------
@@ -323,7 +323,7 @@ string-rewriting-based editing commands.
 
 *   reference: true
 *   license: GPL
-*   host-language: Python
+*   host-language: [Python][]
 
 Archival Tools
 --------------
@@ -346,7 +346,7 @@ check itself!
 
 *   reference: true
 *   license: BSD license
-*   host-language: Scheme
+*   host-language: [Scheme][]
 
 ### yoob.js
 
@@ -364,7 +364,7 @@ framework, which is in Java.
 *   reference: true
 *   implementation-type: framework
 *   license: Public Domain
-*   host-language: Javascript
+*   host-language: [Javascript][]
 
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Amiga 500]: ../article/Retrocomputing.md#amiga-500
@@ -390,4 +390,9 @@ framework, which is in Java.
 [Apple II]: ../article/Retrocomputing.md#apple-ii
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
 [toolshelf]: ../article/Archived.md#toolshelf
+[Python]: ../article/Project%20Dependencies.md#python
+[Javascript]: ../article/Project%20Dependencies.md#javascript
+[Lua]: ../article/Project%20Dependencies.md#lua
+[Perl]: ../article/Project%20Dependencies.md#perl
+[Scheme]: ../article/Project%20Dependencies.md#scheme
 
