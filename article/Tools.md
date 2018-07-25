@@ -64,8 +64,10 @@ emulator for it and install and support images for it, you might be able
 to install and outfit and and run a system for it, using Funicular.
 
 It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
-as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][], and [Commodore BASIC 2.0][]
-on a [Commodore 64][].
+as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][],
+[AmigaDOS 1.3][] on an [Amiga 500][] under [E-UAE][],
+[AppleDOS][] on an [Apple II][] under [linapple](https://github.com/catseye/linapple/),
+and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.sourceforge.net/).
 
 #### Implementation: funicular
 
@@ -326,50 +328,6 @@ string-rewriting-based editing commands.
 Archival Tools
 --------------
 
-### mzstorkipiwanbotbotbot
-
-*   inception-date: 2010
-*   development-stage: archival
-*   reference-distribution: [mzstorkipiwanbotbotbot distribution](http://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
-
-An IRC bot with no purpose or plan.
-
-#### Implementation: mzstorkipiwanbotbotbot (Lua)
-
-*   reference: true
-*   license: Public Domain
-*   host-language: Lua
-
-#### Implementation: Rtype
-
-*   license: Public Domain
-*   host-language: R
-
-(This is kind of wrong because this bot isn't another implementation of
-mzstorkipiwanbotbotbot, in fact in some way it's a completely different
-bot.  But whatever.)
-
-### Rooibos
-
-*   summary: Simple, single-module parser combinator library
-*   inception-date: 2011
-*   development-stage: archival
-*   reference-distribution: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
-
-Rooibos is a parser combinator library for Python. Modelled somewhat
-after yeanpypa (self-contained, public domain), but compensates for what
-I considered a fatal flaw in yeanpypa (no good way to describe a
-recursive grammar.) Has a fatal flaw of its own (can only parse
-strictly LL(1) grammars — no backtracking is yet possible.) Originally
-used in [Eightebed][], but provided here for ease of transplanting into
-other projects.
-
-#### Implementation: rooibos.py
-
-*   reference: true
-*   license: Public Domain
-*   host-language: Python
-
 ### TPiS
 
 *   subtitle: **Total Procedures in Scheme**
@@ -408,7 +366,9 @@ framework, which is in Java.
 *   license: Public Domain
 *   host-language: Javascript
 
-[Eightebed]: ../article/Languages.md#eightebed
+[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[Amiga 500]: ../article/Retrocomputing.md#amiga-500
+[E-UAE]: ../article/Retrocomputing.md#amiga-500
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
@@ -427,4 +387,6 @@ framework, which is in Java.
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
+[Apple II]: ../article/Retrocomputing.md#apple-ii
+[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
 

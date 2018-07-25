@@ -14,6 +14,8 @@ Amiga Gondola is a set of scripts to set up a development environment
 under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
 [E-UAE][] emulator.
 
+It has been superceded by [Funicular][].
+
 #### Implementation: 'populate.sh (Amiga Gondola)':
 
 *   license: Public Domain
@@ -91,10 +93,54 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 *   license: BSD license
 *   host-language: C99
 
+### mzstorkipiwanbotbotbot
+
+*   inception-date: 2010
+*   development-stage: archival
+*   reference-distribution: [mzstorkipiwanbotbotbot distribution](http://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
+
+An IRC bot with no purpose or plan.
+
+#### Implementation: mzstorkipiwanbotbotbot (Lua)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: Lua
+
+#### Implementation: Rtype
+
+*   license: Public Domain
+*   host-language: R
+
+(This is kind of wrong because this bot isn't another implementation of
+mzstorkipiwanbotbotbot, in fact in some way it's a completely different
+bot.  But whatever.)
+
+### Rooibos
+
+*   summary: Simple, single-module parser combinator library
+*   inception-date: 2011
+*   development-stage: archival
+*   reference-distribution: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
+
+Rooibos is a parser combinator library for Python. Modelled somewhat
+after yeanpypa (self-contained, public domain), but compensates for what
+I considered a fatal flaw in yeanpypa (no good way to describe a
+recursive grammar.) Has a fatal flaw of its own (can only parse
+strictly LL(1) grammars — no backtracking is yet possible.) Originally
+used in [Eightebed][], but provided here for ease of transplanting into
+other projects.
+
+#### Implementation: rooibos.py
+
+*   reference: true
+*   license: Public Domain
+*   host-language: Python
+
 ### SP_ASM
 
-*   inception-date: unknown
-*   reference-distribution: [SP_ASM distribution](http://catseye.tc/distribution/SP_ASM_distribution)
+*   inception-date: 1998
+*   distfile: [sp_asm-1998.0716.zip](http://static.catseye.tc/distfiles/sp_asm-1998.0716.zip)
 
 The SPlenetic ASseMbler.
 Possibly the most grotty hack implementation of an "assembler" in existence.
@@ -194,7 +240,8 @@ Links
 
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Amiga 500]: ../article/Retrocomputing.md#amiga-500
+[Eightebed]: ../article/Languages.md#eightebed
 [E-UAE]: ../article/Retrocomputing.md#amiga-500
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Perl]: ../article/Project%20Dependencies.md#perl
-
+[Funicular]: TBW
