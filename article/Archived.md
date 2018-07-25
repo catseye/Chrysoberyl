@@ -140,7 +140,7 @@ other projects.
 ### SP_ASM
 
 *   inception-date: 1998
-*   distfile: [sp_asm-1998.0716.zip](http://static.catseye.tc/distfiles/sp_asm-1998.0716.zip)
+*   reference-distribution: [sp_asm-1998.0716.zip](http://static.catseye.tc/distfiles/sp_asm-1998.0716.zip)
 
 The SPlenetic ASseMbler.
 Possibly the most grotty hack implementation of an "assembler" in existence.
@@ -244,4 +244,5 @@ Links
 [E-UAE]: ../article/Retrocomputing.md#amiga-500
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Perl]: ../article/Project%20Dependencies.md#perl
-[Funicular]: TBW
+[Funicular]: ../article/Tools.md#funicular
+
