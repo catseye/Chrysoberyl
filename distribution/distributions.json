@@ -3238,6 +3238,7 @@
         "reponame": "beta-Juliet"
     }, 
     "ce distribution": {
+        "discontinued": true, 
         "releases": [
             {
                 "revision": "2003.0522", 
@@ -3247,6 +3248,7 @@
         ]
     }, 
     "ec distribution": {
+        "discontinued": true, 
         "releases": [
             {
                 "revision": "2004.0228", 
@@ -3266,6 +3268,7 @@
         "reponame": "ee"
     }, 
     "erlaunch distribution": {
+        "discontinued": true, 
         "releases": [
             {
                 "revision": "2004.0309", 
@@ -3409,6 +3412,7 @@
         "reponame": "noit-o-mnain-worb"
     }, 
     "peruse distribution": {
+        "discontinued": true, 
         "releases": [
             {
                 "revision": "2002.1204", 
