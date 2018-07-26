@@ -8,7 +8,7 @@ this article is a real grab-bag right now.
 ### Amiga Gondola
 
 *   inception-date: Oct 25 2013
-*   reference-distribution: [Amiga Gondola distribution](http://catseye.tc/distribution/Amiga_Gondola_distribution)
+*   reference-distribution: [amiga-gondola-0.1-2013.1111.zip](http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip)
 
 Amiga Gondola is a set of scripts to set up a development environment
 under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
@@ -25,7 +25,7 @@ It has been superceded by [Funicular][].
 ### belld
 
 *   inception-date: unknown
-*   reference-distribution: [belld distribution](http://catseye.tc/distribution/belld_distribution)
+*   reference-distribution: [belld-2004.0303.zip](http://catseye.tc/distfiles/belld-2004.0303.zip)
 
 FreeBSD 4.x syscons bell hook to run executable.
 
@@ -38,7 +38,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 ### brace
 
 *   inception-date: unknown
-*   reference-distribution: [brace distribution](http://catseye.tc/distribution/brace_distribution)
+*   reference-distribution: [brace-2004.0920.zip](http://catseye.tc/distfiles/brace-2004.0920.zip)
 
 Utility to translate I/O interactively.
 
@@ -52,7 +52,7 @@ Utility to translate I/O interactively.
 
 *   summary: Simple, non-polling cron-like scheduler
 *   inception-date: Mar 1 2004
-*   reference-distribution: [crone distribution](http://catseye.tc/distribution/crone_distribution)
+*   reference-distribution: [crone-1.0-2014.0819.zip](http://catseye.tc/distfiles/crone-1.0-2014.0819.zip)
 
 `crone` is a simple `cron`-like facility.  Unlike most `cron`s, it does
 not periodically activate and run whatever tasks are due to run; instead
@@ -83,7 +83,7 @@ A fairly realistic line-noise generator.
 
 *   summary: Lua embedded in a FreeBSD 4.x kernel module
 *   inception-date: unknown
-*   reference-distribution: [luakld distribution](http://catseye.tc/distribution/luakld_distribution)
+*   reference-distribution: [luakld-2004.1219.zip](http://catseye.tc/distfiles/luakld-2004.1219.zip)
 
 This was a little experiment.  Conclusion: Lua interpreter: not a recommended thing to put in a kernel module.
 
@@ -179,7 +179,7 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 ### transmat
 
 *   inception-date: ca 2005
-*   reference-distribution: [transmat distribution](http://catseye.tc/distribution/transmat_distribution)
+*   reference-distribution: [https://github.com/cpressey/transmat](https://github.com/cpressey/transmat)
 
 `transmat` is a network synchronization tool written in Python. It is not
 particularly remarkable, but since it has been used in hostile

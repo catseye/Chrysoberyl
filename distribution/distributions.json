@@ -67,18 +67,6 @@
         ], 
         "reponame": "ALPACA"
     }, 
-    "Amiga Gondola distribution": {
-        "entries": [
-            "Amiga Gondola"
-        ], 
-        "releases": [
-            {
-                "revision": "2013.1111", 
-                "url": "http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip", 
-                "version": "0.1"
-            }
-        ]
-    }, 
     "Animals distribution": {
         "releases": [
             {
@@ -3223,18 +3211,6 @@
             }
         ]
     }, 
-    "belld distribution": {
-        "entries": [
-            "belld"
-        ], 
-        "releases": [
-            {
-                "revision": "2004.0303", 
-                "url": "http://catseye.tc/distfiles/belld-2004.0303.zip", 
-                "version": "1.0"
-            }
-        ]
-    }, 
     "beta-Juliet distribution": {
         "entries": [
             "beta-Juliet"
@@ -3278,18 +3254,6 @@
         ], 
         "reponame": "beta-Juliet"
     }, 
-    "brace distribution": {
-        "entries": [
-            "brace"
-        ], 
-        "releases": [
-            {
-                "revision": "2004.0920", 
-                "url": "http://catseye.tc/distfiles/brace-2004.0920.zip", 
-                "version": "1.0"
-            }
-        ]
-    }, 
     "ce distribution": {
         "releases": [
             {
@@ -3298,25 +3262,6 @@
                 "version": "1.0"
             }
         ]
-    }, 
-    "crone distribution": {
-        "entries": [
-            "crone"
-        ], 
-        "releases": [
-            {
-                "revision": "2004.0301", 
-                "tag": "rel_1_0", 
-                "url": "http://catseye.tc/distfiles/crone-2004.0301.zip", 
-                "version": "1.0"
-            }, 
-            {
-                "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/crone-1.0-2014.0819.zip", 
-                "version": "1.0"
-            }
-        ], 
-        "reponame": "crone"
     }, 
     "ec distribution": {
         "releases": [
@@ -3392,18 +3337,6 @@
         ], 
         "reponame": "kinoje", 
         "tag-style": "new"
-    }, 
-    "luakld distribution": {
-        "entries": [
-            "luakld"
-        ], 
-        "releases": [
-            {
-                "revision": "2004.1219", 
-                "url": "http://catseye.tc/distfiles/luakld-2004.1219.zip", 
-                "version": "1.0"
-            }
-        ]
     }, 
     "mzstorkipiwanbotbotbot distribution": {
         "entries": [
@@ -3678,14 +3611,6 @@
         ], 
         "reponame": "toolshelf", 
         "tag-style": "new"
-    }, 
-    "transmat distribution": {
-        "entries": [
-            "transmat"
-        ], 
-        "fixed-tag": "OMIT", 
-        "releases": [], 
-        "reponame": "transmat"
     }, 
     "yaeolc distribution": {
         "discontinued": true, 
