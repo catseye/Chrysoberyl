@@ -407,25 +407,6 @@
         ], 
         "reponame": "Burro"
     }, 
-    "C64 Demo Depot": {
-        "entries": [
-            "Ribos", 
-            "The PETulant Cursor"
-        ], 
-        "releases": [
-            {
-                "revision": "2012.0826", 
-                "url": "http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0826.zip", 
-                "version": "1.1"
-            }, 
-            {
-                "revision": "2012.0828", 
-                "url": "http://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0828.zip", 
-                "version": "1.1"
-            }
-        ], 
-        "reponame": "C64-Demo-Depot"
-    }, 
     "Cabra distribution": {
         "entries": [
             "Cabra"
@@ -2390,7 +2371,9 @@
     }, 
     "SixtyPical distribution": {
         "entries": [
-            "SixtyPical"
+            "SixtyPical",
+            "Ribos", 
+            "The PETulant Cursor"
         ], 
         "releases": [
             {

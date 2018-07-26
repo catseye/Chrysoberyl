@@ -280,7 +280,7 @@ More like demos?
 *   summary: Well-commented C64 raster interrupt example
 *   inception-date: April 2007
 *   development-stage: mature
-*   reference-distribution: [C64 Demo Depot](http://catseye.tc/distribution/C64_Demo_Depot)
+*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
 
 A simple Commodore 64 graphics demo that uses the raster interrupt facility
 of the VIC-II chip: the colour of the border of the screen is inverted,
@@ -292,7 +292,7 @@ in 6502 assembly language.
 *   summary: A tiny C64 "display hack"
 *   inception-date: ca 1989
 *   development-stage: vintage
-*   reference-distribution: [C64 Demo Depot](http://catseye.tc/distribution/C64_Demo_Depot)
+*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
 
 A tiny (44 byte) "display hack" for the Commodore 64.
 
