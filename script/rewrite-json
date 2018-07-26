@@ -20,6 +20,11 @@ def rewrite_json():
     for key, node in distributions.iteritems():
         if 'type' in node:
             del node['type']
+        if 'github' in node:
+            username, reponame = node['github'].split('/')
+            assert username in ('catseye', 'cpressey'), repr(node)
+            del node['github']
+            node['reponame'] = reponame
 
     with open('distribution/distributions.json', 'w') as f:
         f.write(json.dumps(distributions, indent=4, sort_keys=True))

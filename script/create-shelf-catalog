@@ -22,11 +22,10 @@ def create_shelf_catalog():
 
     infos = {}
     for (key, node) in sorted(distributions.iteritems()):
-        repo = node.get('github')
+        repo = node.get('reponame')
         if not repo:
             #print "# skipping {}".format(key)
             continue
-        repo = repo.replace('catseye/', '')
         releases = node.get('releases', [])
         new_style = node.get('tag-style', 'old') == 'new'
         tag = 'master'
