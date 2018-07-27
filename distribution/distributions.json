@@ -3048,6 +3048,9 @@
         "reponame": "Wierd"
     }, 
     "Wunnel distribution": {
+        "entries": [
+            "Wunnel"
+        ], 
         "reference": true,
         "releases": [
             {
@@ -3704,7 +3707,6 @@
         "entries": [
             "tc.catseye.yoob.onela", 
             "tc.catseye.yoob.twoill", 
-            "Wunnel", 
             "tc.catseye.yoob.ale", 
             "tc.catseye.yoob.sceql", 
             "tc.catseye.yoob.twol", 

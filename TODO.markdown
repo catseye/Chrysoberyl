@@ -1,8 +1,6 @@
 Chrysoberyl TODO
 ================
 
-Why does Wunnel distribution not have Wunnel as its entries?
-
 Add "Electronic Projects" to refdex so that we can point to it.
 
 Restore C64-Demo-Depot distribution, but as discontinued.
