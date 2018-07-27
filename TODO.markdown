@@ -1,6 +1,19 @@
 Chrysoberyl TODO
 ================
 
+Why does Wunnel distribution not have Wunnel as its entries?
+
+Add "Electronic Projects" to refdex so that we can point to it.
+
+Restore C64-Demo-Depot distribution, but as discontinued.
+
+"discontinued" means: still available but available in a different distribution
+(often The Dipple or whatever.)
+
+"archived" should mean: the distribution file is there but not supported.
+
+- - - -
+
 tool
 ----
 

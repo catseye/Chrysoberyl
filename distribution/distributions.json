@@ -3,6 +3,7 @@
         "entries": [
             "'N-DCNC"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2000.0808", 
@@ -18,6 +19,7 @@
             "wireworld.alp", 
             "ALPACA"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -91,6 +93,7 @@
         "entries": [
             "Apple Befunge"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2000.0703", 
@@ -116,6 +119,7 @@
         "entries": [
             "Arboretuum"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2008.0304", 
@@ -160,6 +164,7 @@
         "entries": [
             "BefOS"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2006.0204", 
@@ -193,6 +198,7 @@
         "entries": [
             "Befunge-93"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -231,6 +237,7 @@
         "entries": [
             "Beturing"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2005.0606", 
@@ -259,6 +266,7 @@
         "entries": [
             "Bhuna"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -317,6 +325,7 @@
         "entries": [
             "Braktif"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0503", 
@@ -345,6 +354,7 @@
         "entries": [
             "Bubble Escape"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.0707", 
@@ -373,6 +383,7 @@
         "entries": [
             "Burro"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.1026", 
@@ -411,6 +422,7 @@
         "entries": [
             "Cabra"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.1101", 
@@ -441,6 +453,7 @@
         "reponame": "Cabra"
     }, 
     "Canvas Feedback distribution": {
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -470,6 +483,7 @@
         "entries": [
             "Castile"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -503,6 +517,7 @@
         "entries": [
             "Cfluviurrh"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2012.0826", 
@@ -522,6 +537,7 @@
             "Chrysoberyl"
         ], 
         "fixed-tag": "73eb79c", 
+        "reference": true,
         "releases": [], 
         "reponame": "Chrysoberyl"
     }, 
@@ -529,6 +545,7 @@
         "entries": [
             "Circute"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0503", 
@@ -557,6 +574,7 @@
         "entries": [
             "Console::Virtual"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2003.0325", 
@@ -581,6 +599,7 @@
         "entries": [
             "Corona: Realm of Magic"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2000.1204", 
@@ -601,6 +620,7 @@
             "Deturgenchry"
         ], 
         "fixed-tag": "2eb3b4a", 
+        "reference": true,
         "releases": [], 
         "reponame": "Deturgenchry", 
         "test-requirements": [
@@ -611,6 +631,7 @@
         "entries": [
             "Dieter"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.1003", 
@@ -644,6 +665,7 @@
         "entries": [
             "DiskSumo"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0726", 
@@ -657,6 +679,7 @@
         "entries": [
             "Dungeons of Ekileugor"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2012.0915", 
@@ -681,6 +704,7 @@
             "Eightebed", 
             "Rooibos"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2010.0901", 
@@ -735,6 +759,7 @@
         "entries": [
             "Emmental"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.1111", 
@@ -768,6 +793,7 @@
         "entries": [
             "Equipage"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -782,6 +808,7 @@
         "entries": [
             "Etcha"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.1004", 
@@ -828,6 +855,7 @@
         "entries": [
             "Exanoke"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2013.0105", 
@@ -885,6 +913,7 @@
         "entries": [
             "Falderal"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2011.0517", 
@@ -967,6 +996,7 @@
         "entries": [
             "Feedmark"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1016,6 +1046,7 @@
         "entries": [
             "Flobnar"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2011.1028", 
@@ -1042,6 +1073,7 @@
         "entries": [
             "Funge-98"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2004.0301", 
@@ -1070,6 +1102,7 @@
         "entries": [
             "Funicular"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1109,6 +1142,7 @@
         "entries": [
             "Gemooy"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1143,6 +1177,7 @@
         "entries": [
             "GraNoLa/M"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2002.0314", 
@@ -1234,6 +1269,7 @@
         "entries": [
             "HUNTER"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2002.0126", 
@@ -1262,6 +1298,7 @@
         "entries": [
             "Hev"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0617", 
@@ -1369,6 +1406,7 @@
         "entries": [
             "Iphigeneia"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.1125", 
@@ -1410,6 +1448,7 @@
         "entries": [
             "Jaccia"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.0411", 
@@ -1463,6 +1502,7 @@
         "entries": [
             "Jolverine"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2012.0911", 
@@ -1481,6 +1521,7 @@
         "entries": [
             "Kangaroo Iceberg"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0406", 
@@ -1513,6 +1554,7 @@
             "Kelxquoia"
         ], 
         "fixed-tag": "f833867", 
+        "reference": true,
         "releases": [], 
         "reponame": "Kelxquoia"
     }, 
@@ -1520,6 +1562,7 @@
         "entries": [
             "Kosheri"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1547,6 +1590,7 @@
         "entries": [
             "Larabee"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2008.0110", 
@@ -1575,6 +1619,7 @@
         "entries": [
             "Lexeduct"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1604,6 +1649,7 @@
         "entries": [
             "MARYSUE"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1618,6 +1664,7 @@
         "entries": [
             "Maentwrog"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0930", 
@@ -1651,6 +1698,7 @@
         "entries": [
             "Mascarpone"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.1208", 
@@ -1689,6 +1737,7 @@
         "entries": [
             "Matchbox"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1703,6 +1752,7 @@
         "entries": [
             "Maxixe"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -1720,7 +1770,6 @@
         ], 
         "fixed-tag": "0.85ce1", 
         "fork": true,
-        "reference": false, 
         "releases": [], 
         "reponame": "minischeme"
     }, 
@@ -1773,6 +1822,7 @@
         "entries": [
             "Nhohnhehr"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2011.0510", 
@@ -1813,7 +1863,6 @@
         ], 
         "fixed-tag": "1.0.4-4ce1", 
         "fork": true,
-        "reference": false, 
         "releases": [], 
         "reponame": "OpenZz"
     }, 
@@ -1868,6 +1917,7 @@
         "entries": [
             "Pail"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2011.0527", 
@@ -1904,6 +1954,7 @@
         "entries": [
             "Pixley"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.0501", 
@@ -1969,6 +2020,7 @@
             "Pophery"
         ], 
         "fixed-tag": 1268947, 
+        "reference": true,
         "releases": [], 
         "reponame": "Pophery"
     }, 
@@ -1976,6 +2028,7 @@
         "entries": [
             "Quylthulg"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2008.1206", 
@@ -2027,6 +2080,7 @@
         "entries": [
             "REDGREEN"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0503", 
@@ -2080,6 +2134,7 @@
         "entries": [
             "RUBE"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "1997.0715", 
@@ -2143,6 +2198,7 @@
         "entries": [
             "Robin"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2165,6 +2221,7 @@
         "entries": [
             "SICKBAY"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2181,6 +2238,7 @@
             "SITU-MON", 
             "SITU-SOL"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2015.0731", 
@@ -2200,6 +2258,7 @@
         "entries": [
             "SMETANA"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2004.0227", 
@@ -2218,6 +2277,7 @@
         "entries": [
             "SMITH"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2.0L", 
@@ -2256,6 +2316,7 @@
         "entries": [
             "SP_ASM"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "1998.0716", 
@@ -2268,6 +2329,7 @@
         "entries": [
             "Sally"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2003.1104", 
@@ -2301,6 +2363,7 @@
         "entries": [
             "Samovar"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2315,6 +2378,7 @@
         "entries": [
             "Sbeezg"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2002.0317", 
@@ -2333,6 +2397,7 @@
         "entries": [
             "Schr\u00f6dinger's Game of Life"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2347,6 +2412,7 @@
         "entries": [
             "Shelta"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "1999.1223", 
@@ -2377,6 +2443,7 @@
             "Ribos", 
             "The PETulant Cursor"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2501,6 +2568,7 @@
         "entries": [
             "Squishy2K"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2000.1006", 
@@ -2519,6 +2587,7 @@
         "entries": [
             "Strelnokoff"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2001.0324", 
@@ -2617,6 +2686,7 @@
         "entries": [
             "Tamsin"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -2776,6 +2846,7 @@
         "entries": [
             "Treacle"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2008.0412", 
@@ -2800,6 +2871,7 @@
             "Troupe"
         ], 
         "fixed-tag": "d9dd637", 
+        "reference": true,
         "releases": [], 
         "reponame": "Troupe"
     }, 
@@ -2807,6 +2879,7 @@
         "entries": [
             "Unlikely"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.0315", 
@@ -2850,6 +2923,7 @@
         "entries": [
             "Velo"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2012.0714", 
@@ -2876,6 +2950,7 @@
         "entries": [
             "Version"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2001.1211", 
@@ -2913,6 +2988,7 @@
         "entries": [
             "Whothm"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2010.0629", 
@@ -2946,6 +3022,7 @@
         "entries": [
             "Wierd"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2004.0302", 
@@ -2971,6 +3048,7 @@
         "reponame": "Wierd"
     }, 
     "Wunnel distribution": {
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3000,6 +3078,7 @@
         "entries": [
             "Xigxag"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2007.0602", 
@@ -3033,6 +3112,7 @@
         "entries": [
             "Xoomonk"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2011.0807", 
@@ -3064,6 +3144,7 @@
         "entries": [
             "Yolk"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3086,6 +3167,7 @@
         "entries": [
             "Ypsilax"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3135,6 +3217,7 @@
         "entries": [
             "ZOWIE"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2009.1229", 
@@ -3200,6 +3283,7 @@
         "entries": [
             "beta-Juliet"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "2001.0201", 
@@ -3266,7 +3350,6 @@
         ], 
         "fixed-tag": "1.5.2ce1", 
         "fork": true,
-        "reference": false, 
         "releases": [], 
         "reponame": "ee"
     }, 
@@ -3307,6 +3390,7 @@
         "entries": [
             "kinoje"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3355,6 +3439,7 @@
         "entries": [
             "noit o' mnain worb"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3457,6 +3542,7 @@
         "entries": [
             "seedbank"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3486,6 +3572,7 @@
         "entries": [
             "shelf"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
@@ -3532,6 +3619,7 @@
         "entries": [
             "toolshelf"
         ], 
+        "reference": true,
         "releases": [
             {
                 "revision": "0.0", 
