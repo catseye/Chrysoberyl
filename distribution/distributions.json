@@ -2607,6 +2607,14 @@
         ], 
         "reponame": "Strelnokoff"
     }, 
+    "Structure and Interpretation of Video Games distribution": {
+        "entries": [
+            "Structure and Interpretation of Video Games"
+        ], 
+        "reference": true,
+        "releases": [], 
+        "reponame": "SIVG"
+    }, 
     "Super Wumpus Land distribution": {
         "entries": [
             "Super Wumpus Land"
