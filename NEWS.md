@@ -4,6 +4,29 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Version 2.24 of Befunge-93 distribution released
+
+*   summary: Version 2.24 of the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution released.
+*   date: Thu, 13 Sep 2018 15:55:13 GMT
+
+As part of the [25th Anniversary of Befunge](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
+activity this year, the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution
+has now had its first significant release in 5 years: version 2.24.
+
+This release includes
+[many fixes and improvements](https://github.com/catseye/Befunge-93/pull/12/files), with contributions from
+[Demur Rumed](https://github.com/serprex) and [James Holderness](https://github.com/j4james),
+to `bef` (the interpreter), `bef2c` (the compiler) and `befprof` (the profiler),
+and to the build system.  The executables are now known to build on many platforms,
+including DICE C on AmigaDOS 1.3, Borland C++ 3.1 on FreeDOS, and MSVC++ on Windows.
+
+This is the first of two releases that are planned for this year.  The second release,
+fittingly numbered 2.25, will probably not contain any code changes, but will concentrate
+on documentation and example programs, and will include some interesting historical resources.
+
+By the way, over at esoteric.codes, Daniel Temkin has also written about Befunge on this
+its 25th year: [Befunge (25 Years Of)](http://esoteric.codes/blog/befunge).
+
 ### Funicular 0.5 and stringie 1.0 released
 
 *   summary: [Funicular](http://catseye.tc/node/Funicular) 0.5 and [stringie](http://catseye.tc/node/stringie) 1.0 released.
