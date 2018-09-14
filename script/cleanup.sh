@@ -23,114 +23,12 @@ ARTICLES="
     article/Project?Dependencies.md
 "
 
+### rebuild refdexes
+
 feedmark --output-refdex $ARTICLES >article-refdex.json || exit 1
-
 REFDEXES=misc-refdex/games-refdex.json,misc-refdex/texts-refdex.json,misc-refdex/retrocomputing-refdex.json,misc-refdex/languages-refdex.json,misc-refdex/misc-refdex.json
-
 feedmark --input-refdexes=$REFDEXES $ARTICLES --output-refdex >refdex.json || exit 1
 
-## non-lists
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         "article/Distribution Organization.md" \
-         "article/Retrocomputing.md" \
-         --rewrite-markdown || exit 1
+### rewrite documents with new refdexes
 
-## lists
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Electronics Project.md" \
-         "article/Electronics Projects.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Game.md" \
-         "article/Games.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Game Implementation.md" \
-         "article/Game Implementations.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Musical Composition.md" \
-         "article/Musical Compositions.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Unfinished Esolang.md" \
-         "article/List of Unfinished Interesting Esolangs.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Picture.md" \
-         "article/Pictures.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Movie.md" \
-         "article/Movies.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Text.md" \
-         "article/Texts.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Tool.md" \
-         "article/Tools.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Format.md" \
-         "article/Formats.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Tool.md" \
-         "article/Archived.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Platform.md" \
-         "article/Platforms.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Language.md" \
-         "article/Languages.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Language Implementation.md" \
-         "article/Language Implementations.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Language.md" \
-         "article/Automata.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Gewgaw.md" \
-         "article/Gewgaws.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Event.md" \
-         "article/Events.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         "article/General Information.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/HTML5 Installation.md" \
-         "article/HTML5 Installations.md" \
-         --rewrite-markdown || exit 1
-
-feedmark --input-refdex=refdex.json --input-refdex-filename-prefix="../" \
-         --check-against-schema="schema/Project Dependency.md" \
-         "article/Project Dependencies.md" \
-         --rewrite-markdown || exit 1
+PYTHONPATH=../Feedmark/src python ./script/cleanup.py || exit 1
