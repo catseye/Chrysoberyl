@@ -60,8 +60,7 @@ def rewrite_documents(refdex):
                 f.write(s.encode('UTF-8'))
 
 
-def regenerate_article_refdex():
-    refdex = {}
+def accumulate_article_refdex(refdex):
     for title, schema in REFDEXABLE_ARTICLES:
         print("{}...".format(title))
         filename = document_name(title)
@@ -71,15 +70,9 @@ def regenerate_article_refdex():
                 'filename': document.filename,
                 'anchor': section.anchor
             }
-    return refdex
 
 
-if __name__ == '__main__':
-    # TODO: where exactly is this used?
-    #article_refdex = regenerate_article_refdex()
-    #with open('article-refdex.json', 'w') as f:
-    #    f.write(json.dumps(article_refdex, indent=4, sort_keys=True).encode('UTF-8'))
-
+def regenerate_refdex():
     INPUT_REFDEXES = [
         'misc-refdex/games-refdex.json',
         'misc-refdex/texts-refdex.json',
@@ -88,8 +81,12 @@ if __name__ == '__main__':
         'misc-refdex/misc-refdex.json',
     ]
     refdex = read_refdex_from(INPUT_REFDEXES)
+    accumulate_article_refdex(refdex)
     with open('refdex.json', 'w') as f:
         f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
 
+
+if __name__ == '__main__':
+    regenerate_refdex()
     refdex = read_refdex_from(['refdex.json'], input_refdex_filename_prefix='../')
     rewrite_documents(refdex)
