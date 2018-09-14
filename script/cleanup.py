@@ -76,9 +76,9 @@ def regenerate_article_refdex():
 
 if __name__ == '__main__':
     # TODO: where exactly is this used?
-    article_refdex = regenerate_article_refdex()
-    with open('article-refdex.json', 'w') as f:
-        f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
+    #article_refdex = regenerate_article_refdex()
+    #with open('article-refdex.json', 'w') as f:
+    #    f.write(json.dumps(article_refdex, indent=4, sort_keys=True).encode('UTF-8'))
 
     INPUT_REFDEXES = [
         'misc-refdex/games-refdex.json',
