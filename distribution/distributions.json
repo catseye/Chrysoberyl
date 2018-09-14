@@ -2539,6 +2539,14 @@
         "reponame": "SixtyPical", 
         "tag-style": "new"
     }, 
+    "Space Madness distribution": {
+        "entries": [
+            "Space Madness"
+        ], 
+        "fixed-tag": "f5181d3", 
+        "releases": [],
+        "reponame": "Space-Madness"
+    },
     "Specs on Spec distribution": {
         "entries": [
             "Opus-2", 
@@ -3515,6 +3523,14 @@
         ], 
         "reponame": "noit-o-mnain-worb"
     }, 
+    "pdf.lua distribution": {
+        "entries": [
+            "pdf.lua"
+        ], 
+        "fixed-tag": "60fa885",
+        "releases": [],
+        "reponame": "pdf.lua"
+    },
     "peruse distribution": {
         "discontinued": true, 
         "releases": [
@@ -3706,6 +3722,14 @@
         "reponame": "toolshelf", 
         "tag-style": "new"
     }, 
+    "tree distribution": {
+        "entries": [
+            "tree"
+        ], 
+        "fixed-tag": "874350d",
+        "releases": [],
+        "reponame": "tree"
+    },
     "yaeolc distribution": {
         "discontinued": true, 
         "releases": [
@@ -3716,6 +3740,14 @@
             }
         ]
     }, 
+    "yastasoti distribution": {
+        "entries": [
+            "yastasoti"
+        ], 
+        "fixed-tag": "6b8a708", 
+        "releases": [],
+        "reponame": "yastasoti"
+    },
     "yoob distribution": {
         "entries": [
             "tc.catseye.yoob.onela", 
