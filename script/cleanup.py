@@ -1,12 +1,8 @@
 import json
-import sys
-from subprocess import check_output
-import re
 
-from feedmark.main import read_document_from
 from feedmark.checkers import Schema
-from feedmark.formats.markdown import feedmark_htmlize
 from feedmark.formats.markdown import feedmark_markdownize
+from feedmark.loader import read_document_from, read_refdex_from
 
 
 ARTICLES = (
@@ -48,27 +44,18 @@ def rewrite_documents(refdex):
         print("{}...".format(title))
         filename = document_name(title)
         document = read_document_from(filename)
-
-        # TODO FIXME!
-        document.reference_links = rewrite_reference_links(refdex, document.reference_links)
-        for section in document.sections:
-            section.reference_links = rewrite_reference_links(refdex, section.reference_links)
-
+        document.rewrite_reference_links(refdex)
         if schema:
             schema_document = read_document_from("schema/{}.md".format(schema))
             schema = Schema(schema_document)
             results = schema.check_documents([document])
             if results:
                 raise ValueError(json.dumps(results, indent=4, sort_keys=True))
-
             s = feedmark_markdownize(document, schema=schema)
             with open(document.filename, 'w') as f:
                 f.write(s.encode('UTF-8'))
 
 
 if __name__ == '__main__':
-
-    with codecs.open('refdex.json', 'r', encoding='utf-8') as f:
-        refdex = json.loads(f.read())
-
+    refdex = read_refdex_from(['refdex.json'], input_refdex_filename_prefix='../')
     rewrite_documents(refdex)
