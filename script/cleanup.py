@@ -9,6 +9,7 @@ REFDEXABLE_ARTICLES = (
     ('Distribution Organization',                 None,),
     ('Electronics Projects',                      'Electronics Project',),
     ('Games',                                     'Game',),
+    ('Game Implementations',                      'Game Implementation',),
     ('List of Unfinished Interesting Esolangs',   'Unfinished Esolang',),
     ('Musical Compositions',                      'Musical Composition',),
     ('Pictures',                                  'Picture',),
@@ -30,7 +31,6 @@ REFDEXABLE_ARTICLES = (
 
 
 ARTICLES = REFDEXABLE_ARTICLES + (
-    ('Game Implementations',                      'Game Implementation',),
     ('HTML5 Installations',                       'HTML5 Installation',),
     ('News',                                      None,),
 )
