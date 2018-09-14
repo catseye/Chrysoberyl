@@ -5,11 +5,10 @@ from feedmark.formats.markdown import feedmark_markdownize
 from feedmark.loader import read_document_from, read_refdex_from
 
 
-ARTICLES = (
+REFDEXABLE_ARTICLES = (
     ('Distribution Organization',                 None,),
     ('Electronics Projects',                      'Electronics Project',),
     ('Games',                                     'Game',),
-    ('Game Implementations',                      'Game Implementation',),
     ('List of Unfinished Interesting Esolangs',   'Unfinished Esolang',),
     ('Musical Compositions',                      'Musical Composition',),
     ('Pictures',                                  'Picture',),
@@ -27,6 +26,11 @@ ARTICLES = (
     ('Events',                                    'Event',),
     ('General Information',                       None,),
     ('Project Dependencies',                      'Project Dependency',),
+)
+
+
+ARTICLES = REFDEXABLE_ARTICLES + (
+    ('Game Implementations',                      'Game Implementation',),
     ('HTML5 Installations',                       'HTML5 Installation',),
     ('News',                                      None,),
 )
@@ -56,6 +60,36 @@ def rewrite_documents(refdex):
                 f.write(s.encode('UTF-8'))
 
 
+def regenerate_article_refdex():
+    refdex = {}
+    for title, schema in REFDEXABLE_ARTICLES:
+        print("{}...".format(title))
+        filename = document_name(title)
+        document = read_document_from(filename)
+        for section in document.sections:
+            refdex[section.title] = {
+                'filename': document.filename,
+                'anchor': section.anchor
+            }
+    return refdex
+
+
 if __name__ == '__main__':
+    # TODO: where exactly is this used?
+    article_refdex = regenerate_article_refdex()
+    with open('article-refdex.json', 'w') as f:
+        f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
+
+    INPUT_REFDEXES = [
+        'misc-refdex/games-refdex.json',
+        'misc-refdex/texts-refdex.json',
+        'misc-refdex/retrocomputing-refdex.json',
+        'misc-refdex/languages-refdex.json',
+        'misc-refdex/misc-refdex.json',
+    ]
+    refdex = read_refdex_from(INPUT_REFDEXES)
+    with open('refdex.json', 'w') as f:
+        f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
+
     refdex = read_refdex_from(['refdex.json'], input_refdex_filename_prefix='../')
     rewrite_documents(refdex)
