@@ -513,6 +513,24 @@
     },
 
 
+    "ETHEL": {
+        "anchor": "works-in-progress",
+        "filename": "article/Languages.md"
+    },
+    "Okapi": {
+        "anchor": "works-in-progress",
+        "filename": "article/Languages.md"
+    },
+    "Language Construct": {
+        "anchor": "works-in-progress",
+        "filename": "article/Languages.md"
+    },
+    "Open_Sores_Illgol__": {
+        "anchor": "illgol",
+        "filename": "article/Languages.md"
+    },
+
+
     "Toy": {
         "url": "https://en.wikipedia.org/wiki/Toy_programming_language"
     },
