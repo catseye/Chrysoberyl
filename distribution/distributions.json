@@ -541,7 +541,7 @@
         "entries": [
             "Chrysoberyl"
         ], 
-        "fixed-tag": "6d7e5a6", 
+        "fixed-tag": "master", 
         "reference": true,
         "releases": [], 
         "reponame": "Chrysoberyl"
@@ -2793,7 +2793,7 @@
         "entries": [
             "The Dossier"
         ], 
-        "fixed-tag": "f56d8c7", 
+        "fixed-tag": "master", 
         "releases": [], 
         "reponame": "The-Dossier"
     }, 
