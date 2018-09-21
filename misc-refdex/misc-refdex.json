@@ -169,15 +169,21 @@
         "url": "https://en.wikipedia.org/wiki/Commodore_International"
     }, 
 
+
     "BSD license": {
         "url": "https://en.wikipedia.org/wiki/BSD_licenses"
     },
+
 
     "*W": {
         "url": "http://esolangs.org/wiki/*W"
     }, 
     "Beatnik": {
         "url": "http://esolangs.org/wiki/Beatnik"
+    }, 
+    "Befunge": {
+        "anchor": "befunge-93", 
+        "filename": "article/Languages.md"
     }, 
     "BitChanger": {
         "url": "http://esolangs.org/wiki/BitChanger"
@@ -221,16 +227,6 @@
     "rube_ii": {
         "url": "http://esolangs.org/wiki/RUBE II: Das Klickenklacker"
     },
-
-
-
-    "Befunge": {
-        "url": "http://esolangs.org/wiki/Befunge"
-    }, 
-    "yastasoti": {
-        "url": "https://github.com/catseye/yastasoti"
-    }, 
-
 
 
     "Game": {

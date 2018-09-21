@@ -77,7 +77,7 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [shelf]: ../article/Tools.md#shelf
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
-[Befunge]: http://catseye.tc/node/Befunge
+[Befunge]: ../article/Languages.md#befunge-93
 [Befunge-93]: ../article/Languages.md#befunge-93
 [NASM]: ../article/Project%20Dependencies.md#nasm
 [NASM Assembler]: ../article/Project%20Dependencies.md#nasm

@@ -253,6 +253,22 @@ done to make it more presentable.
 *   license: Public Domain
 *   host-language: [Python][]
 
+### yastasoti
+
+*   inception-date: 2018
+*   development-stage: work in progress
+*   reference-distribution: [yastasoti distribution](http://catseye.tc/distribution/yastasoti_distribution)
+
+**yastasoti** is yet another script for archiving stuff off teh internets.
+It supports consulting an _archive router_ to determine where each stuff
+is archived to.
+
+#### Implementation: yastasoti (Python)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Python][]
+
 ### yucca
 
 *   summary: Static analyzer for 8-bit BASIC programs
