@@ -3749,9 +3749,15 @@
         "entries": [
             "yastasoti"
         ], 
-        "fixed-tag": "6b8a708", 
-        "releases": [],
-        "reponame": "yastasoti"
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yastasoti-0.1.zip", 
+                "version": "0.1"
+            }
+        ],
+        "reponame": "yastasoti",
+        "tag-style": "new"
     },
     "yoob distribution": {
         "entries": [
