@@ -17,9 +17,6 @@
     "Cliff L. Biffle": {
         "url": "http://esolangs.org/wiki/Cliff_L._Biffle"
     }, 
-    "Closure": {
-        "url": "https://en.wikipedia.org/wiki/Closure_(computer_programming)"
-    }, 
     "Daniel Brockman": {
         "url": "http://esolangs.org/wiki/Daniel_Brockman"
     }, 
@@ -224,6 +221,15 @@
     "rube_ii": {
         "url": "http://esolangs.org/wiki/RUBE II: Das Klickenklacker"
     },
+
+
+
+    "Befunge": {
+        "url": "http://esolangs.org/wiki/Befunge"
+    }, 
+    "yastasoti": {
+        "url": "https://github.com/catseye/yastasoti"
+    }, 
 
 
 
@@ -521,6 +527,9 @@
         "anchor": "works-in-progress",
         "filename": "article/Languages.md"
     },
+    "Closure": {
+        "url": "https://en.wikipedia.org/wiki/Closure_(computer_programming)"
+    }, 
     "Language Construct": {
         "anchor": "works-in-progress",
         "filename": "article/Languages.md"
