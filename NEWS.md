@@ -4,6 +4,18 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Feedmark 0.6 and yastasoti 0.1 released
+
+*   summary: [Feedmark](http://catseye.tc/node/Feedmark) 0.6 and [yastasoti](http://catseye.tc/node/yastasoti) 0.1 released.
+*   date: Fri, 21 Sep 2018 17:01:36 GMT
+
+A new version of [Feedmark](http://catseye.tc/node/Feedmark) has been
+released.  There aren't many new features — in fact there are fewer
+features, as the entire archiving function has been offloaded to
+a new, separate tool called [yastasoti](http://catseye.tc/node/yastasoti) —
+but there are new tests for existing features, and support for running
+the `feedmark` tool under Python 3.
+
 ### Version 2.24 of Befunge-93 distribution released
 
 *   summary: Version 2.24 of the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution released.
