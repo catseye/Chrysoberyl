@@ -19,6 +19,9 @@ It only became clear that it was, in fact, footage of a demonstration of
 psychokinesis by Uri Geller (not shown) after it was declassified by the
 CIA (and reclassified as fake news) in 2017.
 
+A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
+[Uri Geller Psychokinesing an Ashtray (fake news)](https://pe.ertu.be/videos/watch/c000ee86-3439-4e40-b2b8-c21279d2571e).
+
 ### Nautical Loop
 
 *   inception-date: 2017
@@ -29,6 +32,9 @@ CIA (and reclassified as fake news) in 2017.
 
 Movie made in 2017, based on a model I did back around 2007.  This is the
 "long version", and is the longest movie listed in this article.
+
+A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
+[Nautical Loop (long version, 640x400)](https://pe.ertu.be/videos/watch/38825cd0-3a3c-4be0-a0c0-36ce37708d5d).
 
 ### Pulsating Blob
 
