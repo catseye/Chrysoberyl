@@ -234,6 +234,22 @@ series of generated novels for [NaNoGenMo 2013][].
 *   license: Public Domain
 *   host-language: [Python][]
 
+### tree
+
+*   inception-date: 2014
+*   development-stage: mature
+*   reference-distribution: [tree distribution](http://catseye.tc/distribution/tree_distribution)
+
+Cat's Eye Technologies' `tree` is a command-line tool that displays an
+indented directory tree, similar to "The Tree Command for Linux" except
+simpler.
+
+#### Implementation: tree (Python)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Python][]
+
 ### T-Rext
 
 *   summary: Tidier-upper for generated text
