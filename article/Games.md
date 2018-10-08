@@ -34,26 +34,26 @@ where it won first place in its class.
 *   reference: true
 *   license: BSD license
 *   host-language: [Commodore BASIC 2.0][]
-*   host-platform: Commodore 64
+*   host-platform: [Commodore 64][]
 *   controls: joystick
 
 #### Implementation: Bubble Escape 2K
 
-*   prebuilt-for-platforms: Commodore 64
+*   prebuilt-for-platforms: [Commodore 64][]
 *   license: BSD license
 *   host-language: [Ophis Assembler][]
-*   host-platform: Commodore 64
+*   host-platform: [Commodore 64][]
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
-*   submitted-to: Mini Game Compo 2009; 1st place in 2K category
+*   submitted-to: [Mini Game Compo 2009][]; 1st place in 2K category
 *   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
 
 #### Implementation: Bubble Escape 8K
 
-*   prebuilt-for-platforms: Commodore 64
+*   prebuilt-for-platforms: [Commodore 64][]
 *   license: BSD license
 *   host-language: [Ophis Assembler][]
-*   host-platform: Commodore 64
+*   host-platform: [Commodore 64][]
 *   controls: joystick
 
 ### Corona: Realm of Magic
@@ -98,7 +98,7 @@ etc.
 *   reference: true
 *   license: Freely Redistributable
 *   host-language: [Commodore BASIC 2.0][]
-*   host-platform: Commodore VIC-20
+*   host-platform: [Commodore VIC-20][]
 *   controls: keyboard
 
 ### Super Wumpus Land
@@ -118,13 +118,13 @@ of an old-school green-screen video terminal.
 
 *   reference: true
 *   license: BSD license
-*   host-language: Perl 5.8
+*   host-language: [Perl][] 5.8
 *   interface: terminal
 
 #### Implementation: swl.js
 
 *   license: BSD license
-*   host-language: Javascript
+*   host-language: [Javascript][]
 *   host-platform: HTML5
 *   interface: yoob.js TextTerminal
 *   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
@@ -156,7 +156,7 @@ reification of the interactions of culture.
 
 *   reference: true
 *   license: Unknown license
-*   host-language: Javascript
+*   host-language: [Javascript][]
 *   host-platform: HTML5
 *   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
 
@@ -209,11 +209,12 @@ See Also
 - - - -
 
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 [Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Hunt the Wumpus]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
-[Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
+[Javascript]: ../article/Project%20Dependencies.md#javascript
 
