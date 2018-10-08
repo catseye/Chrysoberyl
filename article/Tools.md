@@ -46,6 +46,22 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 *   host-language: [Commodore BASIC 2.0][]
 *   host-platform: [Commodore 64][]
 
+### ellsync
+
+*   inception-date: 2018
+*   development-stage: work in progress
+*   reference-distribution: [ellsync distribution](http://catseye.tc/distribution/ellsync_distribution)
+
+**ellsync** is an opinionated [poka-yoke][] for [rsync][].  "Opinionated" because
+it was designed for a particular use case for rsync (offline backups).  "Poka-yoke"
+because it exposes a restricted interface to rsync, which prevents using it in dangerous ways.
+
+#### Implementation: ellsync (Python)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Python][]
+
 ### Funicular
 
 *   summary: Scripts to set up dev environments on various OS'es on sundry architectures
@@ -427,4 +443,5 @@ framework, which is in Java.
 [Lua]: ../article/Project%20Dependencies.md#lua
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Scheme]: ../article/Project%20Dependencies.md#scheme
-
+[rsync]: https://rsync.samba.org/
+[poka-yoke]: https://en.wikipedia.org/wiki/Poka-yoke
