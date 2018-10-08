@@ -760,6 +760,21 @@
         "reponame": "Electronics-Projects", 
         "tag-style": "new"
     }, 
+    "ellsync distribution": {
+        "entries": [
+            "ellsync"
+        ], 
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/ellsync-0.1.zip", 
+                "version": "0.1"
+            }
+        ], 
+        "reponame": "ellsync",
+        "tag-style": "new"
+    },
     "Emmental distribution": {
         "entries": [
             "Emmental"
