@@ -89,7 +89,7 @@ and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.s
 
 *   reference: true
 *   license: Public Domain
-*   host-language: [Lua][]
+*   host-language: [Bourne shell][]
 
 ### Guten-gutter
 
@@ -445,3 +445,4 @@ framework, which is in Java.
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [rsync]: https://rsync.samba.org/
 [poka-yoke]: https://en.wikipedia.org/wiki/Poka-yoke
+
