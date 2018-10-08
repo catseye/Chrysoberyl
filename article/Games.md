@@ -9,7 +9,8 @@ Games
 Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
 most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
 
-Note that the distinctions between a Game and a Gewgaw or even an Automaton are not always clear,
+Note that the distinctions between a Game and a [Gewgaw](Gewgaws.md) or even an
+[Automaton](Automata.md) are not always clear,
 and entries here may be categorized somewhat arbitrarily.
 
 ### Bubble Escape
@@ -75,7 +76,7 @@ Interactive Entertainment Modules.)
 
 *   reference: true
 *   license: BSD license
-*   host-language: Perl 5.8
+*   host-language: [Perl][] 5.8
 *   interface: [ANSI Terminal][]
 
 ### Dungeons of Ekileugor

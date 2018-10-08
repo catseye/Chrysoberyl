@@ -76,8 +76,8 @@ what it can't.
 
 "Eclectic architectures" is not terribly-well defined, but it includes
 retrocomputing and esoteric architectures.  Basically, if you've got an
-emulator for it and install and support images for it, you might be able
-to install and outfit and and run a system for it, using Funicular.
+emulator for it and install images for it, you might be able
+to outfit and run a system for it, using Funicular.
 
 It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
 as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][],
@@ -209,8 +209,8 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 
 *   reference: true
 *   license: Unknown license
-*   host-language: 6502 machine code
-*   host-platform: Commodore 64
+*   host-language: [6502 machine code][]
+*   host-platform: [Commodore 64][]
 
 ### SITU-PAN
 
@@ -232,7 +232,7 @@ of entering [SITU-MON][] into an emulated C64.
 *   reference: true
 *   license: Unknown license
 *   host-language: [Commodore BASIC 2.0][]
-*   host-platform: Commodore 64
+*   host-platform: [Commodore 64][]
 
 ### The Swallows Engine
 
@@ -427,6 +427,7 @@ framework, which is in Java.
 [NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [6502]: ../article/Retrocomputing.md#6502
+[6502 machine code]: ../article/Retrocomputing.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
 [Retrocomputing]: http://catseye.tc/article/Retrocomputing
