@@ -5,8 +5,9 @@ Language Implementations
 *   common authors: Chris Pressey
 
 This is a list of languages that Cat's Eye Technologies has built an implementation for
-(or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
-(For those, see [Languages](../article/Languages.md).)
+but which were not designed by Cat's Eye Technologies.  For those, see [Languages](Languages.md).
+
+Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some language projects.
 
 ### PL-{GOTO}.NET
 
@@ -312,37 +313,6 @@ Conway's Game of Life, in ALPACA.
 *   in distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
 
 Wireworld, in ALPACA.
-
-Forked Language Projects
-------------------------
-
-### miniscm
-
-*   implementation of: [Scheme][] (R4RS)
-*   implementation type: interpreter
-*   license: Public Domain
-*   host language: [ANSI C][]
-*   inception date: Nov 5, 1989
-*   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
-
-Forked in order to make it build on [AmigaDOS 1.3][].
-
-Fork began Dec 13, 2011.
-
-### OpenZz
-
-*   implementation of: [Zz][]
-*   implementation type: interpreter
-*   license: LGPL
-*   host language: [C99][]
-*   inception date: Jan 7, 2002
-*   in distribution: [OpenZz distribution](http://catseye.tc/distribution/OpenZz_distribution)
-
-Forked because [Zzrk][] depends on it, and I want to maintain that.
-
-Note that while most of the code is LGPL, the REPL is GPL.
-
-Fork began Feb 1, 2012.
 
 - - - -
 

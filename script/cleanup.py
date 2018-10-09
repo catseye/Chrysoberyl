@@ -22,6 +22,7 @@ REFDEXABLE_ARTICLES = (
     ('Archived',                                  'Tool',),
     ('Languages',                                 'Language',),
     ('Language Implementations',                  'Language Implementation',),
+    ('Forks',                                     'Fork',),
     ('Automata',                                  'Language',),
     ('Gewgaws',                                   'Gewgaw',),
     ('Events',                                    'Event',),
@@ -45,19 +46,23 @@ def document_name(title):
 
 def rewrite_documents(refdex):
     for title, schema in ARTICLES:
+        if title in ('News',):
+            continue
         print("{}...".format(title))
         filename = document_name(title)
         document = read_document_from(filename)
         document.rewrite_reference_links(refdex)
+
         if schema:
             schema_document = read_document_from("schema/{}.md".format(schema))
             schema = Schema(schema_document)
             results = schema.check_documents([document])
             if results:
                 raise ValueError(json.dumps(results, indent=4, sort_keys=True))
-            s = feedmark_markdownize(document, schema=schema)
-            with open(document.filename, 'w') as f:
-                f.write(s.encode('UTF-8'))
+
+        text = feedmark_markdownize(document, schema=schema)
+        with open(document.filename, 'w') as f:
+            f.write(text.encode('UTF-8'))
 
 
 def accumulate_article_refdex(refdex):

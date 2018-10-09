@@ -2,14 +2,9 @@
 # encoding: UTF-8
 
 import json
-#from optparse import OptionParser
 import os
 import re
 import sys
-
-#sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), '..', 'src'))
-
-#from chrysoberyl import commands
 
 
 def create_shelf_catalog():
@@ -19,6 +14,11 @@ def create_shelf_catalog():
 
     with open('distribution/distributions.json', 'r') as f:
         distributions = json.loads(f.read())
+
+    with open('distribution/forks.json', 'r') as f:
+        forks = json.loads(f.read())
+
+    distributions.update(forks)
 
     infos = {}
     for (key, node) in sorted(distributions.iteritems()):

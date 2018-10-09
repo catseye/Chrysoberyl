@@ -9,6 +9,8 @@ Tools for Retrocomputing platforms might be found in the [Retrocomputing][] arti
 [Formats][] often have tools for processing them, and those are listed along with the format
 instead of here.
 
+Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some tools.
+
 ### Console::Virtual
 
 *   summary: Package for simulating a virtual console
@@ -343,35 +345,6 @@ in 6502 assembly language.
 *   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
 
 A tiny (44 byte) "display hack" for the Commodore 64.
-
-Forked Tools
-------------
-
-### ee
-
-*   development-stage: mature
-*   reference-distribution: [ee distribution](http://catseye.tc/distribution/ee_distribution)
-
-`ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
-has forked it for use in [The Platform][].
-
-### tideay
-
-*   authors: Paul Harrison, Chris Pressey
-*   inception-date: Apr 2013
-*   development-stage: work in progress
-*   reference-distribution: [tideay distribution](http://catseye.tc/distribution/tideay_distribution)
-
-`tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
-text editor written by Paul Harrison.  In addition to the
-features provided by `yaedit`, `tideay` supports things such as
-string-rewriting-based editing commands.
-
-#### Implementation: tideay (Python)
-
-*   reference: true
-*   license: GPL
-*   host-language: [Python][]
 
 Archival Tools
 --------------

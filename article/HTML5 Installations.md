@@ -1307,8 +1307,8 @@ Use the navigation buttons to traverse the space of the work.
 [games]: ../article/Games.md
 [gewgaws]: ../article/Gewgaws.md
 [platforms]: ../article/Platforms.md
-[JaC64]: ../article/Retrocomputing.md#commodore-64
-[Zplet]: ../article/Retrocomputing.md#z-machine
+[JaC64]: ../article/Forks.md#jac64
+[Zplet]: ../article/Forks.md#zplet
 [Z-Machine code]: ../article/Retrocomputing.md#z-machine
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
