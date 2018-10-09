@@ -14,6 +14,12 @@ should appear on each entry.
 *   inception date: Nov 5, 1989
 *   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
 
+### original authors
+
+*   optional: true
+
+original authors
+
 ### implementation of
 
 *   optional: true
@@ -41,6 +47,12 @@ what it's written in
 *   optional: true
 
 date
+
+### development stage
+
+*   optional: true
+
+development stage
 
 ### in distribution
 

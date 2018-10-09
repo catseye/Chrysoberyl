@@ -5,8 +5,9 @@ Cat's Eye Technologies maintains some forks of some projects which are
 otherwise abandoned or under-maintained or whose canonical distribution
 just doesn't fit our requirements.
 
-Note that these range from Language Implementations to Emulators to
-Tools.
+Note that kinds of projects forked here range from
+[Language Implementations](Language%20Implementations.md) to Emulators to
+[Tools](Tools.md).
 
 Language Projects
 -----------------
@@ -106,10 +107,23 @@ to run [git.catseye.tc](http://git.catseye.tc/).
 *   license: BSD 2-clause
 *   in distribution: [ee distribution](http://catseye.tc/distribution/ee_distribution)
 
-`ee` is an extraction of the text editor which ships with FreeBSD,
-so we could have a nicer text editor in [The Platform][].
+`ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
+extracted it from there so we could have a nicer text editor in [The Platform][].
 
 Local version 1.5.2ce1.
+
+### tideay
+
+*   original authors: Paul Harrison
+*   license: GPL
+*   inception date: Apr 2013
+*   development stage: work in progress
+*   in distribution: [tideay distribution](http://catseye.tc/distribution/tideay_distribution)
+
+`tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
+text editor written by Paul Harrison.  In addition to the
+features provided by `yaedit`, `tideay` supports things such as
+string-rewriting-based editing commands.
 
 ### a2tools
 

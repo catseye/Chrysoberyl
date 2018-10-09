@@ -5,8 +5,9 @@ Language Implementations
 *   common authors: Chris Pressey
 
 This is a list of languages that Cat's Eye Technologies has built an implementation for
-(or simply maintains a fork of), but which were not designed by Cat's Eye Technologies.
-(For those, see [Languages](../article/Languages.md).)
+but which were not designed by Cat's Eye Technologies.  For those, see [Languages](Languages.md).
+
+Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some language projects.
 
 ### PL-{GOTO}.NET
 
