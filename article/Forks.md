@@ -151,4 +151,5 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [Commodore 64]: ../article/Retrocomputing.md#commodore-64
 [Apple II]: ../article/Retrocomputing.md#apple-ii
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
+[FreeBSD]: https://www.freebsd.org/
 
