@@ -83,7 +83,7 @@ This was for [The Never-Ending Maze][].
 *   implementation type: emulator
 *   license: GPL
 *   host language: [C++][]
-*   inception date: ???
+*   inception date: 1994 (as AppleWin)
 *   in distribution: [https://github.com/catseye/linapple](https://github.com/catseye/linapple)
 
 An Apple II emulator.  We maintain a fork only to make it work like
@@ -133,4 +133,8 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [Z-Machine]: ../article/Retrocomputing.md#z-machine
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
+[Funicular]: ../article/Tools.md#funicular
+[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Apple II]: ../article/Retrocomputing.md#apple-ii
+[The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 
