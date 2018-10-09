@@ -313,37 +313,6 @@ Conway's Game of Life, in ALPACA.
 
 Wireworld, in ALPACA.
 
-Forked Language Projects
-------------------------
-
-### miniscm
-
-*   implementation of: [Scheme][] (R4RS)
-*   implementation type: interpreter
-*   license: Public Domain
-*   host language: [ANSI C][]
-*   inception date: Nov 5, 1989
-*   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
-
-Forked in order to make it build on [AmigaDOS 1.3][].
-
-Fork began Dec 13, 2011.
-
-### OpenZz
-
-*   implementation of: [Zz][]
-*   implementation type: interpreter
-*   license: LGPL
-*   host language: [C99][]
-*   inception date: Jan 7, 2002
-*   in distribution: [OpenZz distribution](http://catseye.tc/distribution/OpenZz_distribution)
-
-Forked because [Zzrk][] depends on it, and I want to maintain that.
-
-Note that while most of the code is LGPL, the REPL is GPL.
-
-Fork began Feb 1, 2012.
-
 - - - -
 
 [Turing-complete]: http://esolangs.org/wiki/Turing-complete

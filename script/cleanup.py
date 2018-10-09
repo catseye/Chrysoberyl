@@ -22,6 +22,7 @@ REFDEXABLE_ARTICLES = (
     ('Archived',                                  'Tool',),
     ('Languages',                                 'Language',),
     ('Language Implementations',                  'Language Implementation',),
+    ('Forks',                                     None,),
     ('Automata',                                  'Language',),
     ('Gewgaws',                                   'Gewgaw',),
     ('Events',                                    'Event',),
