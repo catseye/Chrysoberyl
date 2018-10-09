@@ -1,0 +1,74 @@
+{
+    "ee distribution": {
+        "entries": [
+            "ee"
+        ], 
+        "fixed-tag": "1.5.2ce1", 
+        "releases": [], 
+        "reponame": "ee"
+    }, 
+    "Minischeme distribution": {
+        "entries": [
+            "miniscm"
+        ], 
+        "fixed-tag": "0.85ce1", 
+        "releases": [], 
+        "reponame": "minischeme"
+    }, 
+    "OpenZz distribution": {
+        "entries": [
+            "OpenZz"
+        ], 
+        "fixed-tag": "1.0.4-4ce1", 
+        "releases": [], 
+        "reponame": "OpenZz"
+    }, 
+    "tideay distribution": {
+        "entries": [
+            "tideay"
+        ], 
+        "fixed-tag": "master", 
+        "releases": [], 
+        "reponame": "tideay"
+    }, 
+    "JaC64 distribution": {
+        "entries": [
+            "JaC64"
+        ], 
+        "fixed-tag": "master", 
+        "releases": [], 
+        "reponame": "JaC64"
+    }, 
+    "Zplet distribution": {
+        "entries": [
+            "Zplet"
+        ], 
+        "fixed-tag": "master", 
+        "releases": [], 
+        "reponame": "Zplet"
+    }, 
+    "linapple distribution": {
+        "entries": [
+            "linapple"
+        ], 
+        "fixed-tag": "catseye", 
+        "releases": [], 
+        "reponame": "linapple"
+    }, 
+    "klaus distribution": {
+        "entries": [
+            "klaus"
+        ], 
+        "fixed-tag": "git.catseye.tc", 
+        "releases": [], 
+        "reponame": "klaus"
+    }, 
+    "a2tools distribution": {
+        "entries": [
+            "a2tools"
+        ], 
+        "fixed-tag": "master", 
+        "releases": [], 
+        "reponame": "a2tools"
+    }
+}

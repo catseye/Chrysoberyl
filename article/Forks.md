@@ -12,14 +12,14 @@ Note that kinds of projects forked here range from
 Language Projects
 -----------------
 
-### miniscm
+### minischeme
 
 *   implementation of: [Scheme][] (R4RS)
 *   implementation type: interpreter
 *   license: Public Domain
 *   host language: [ANSI C][]
 *   inception date: Nov 5, 1989
-*   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
+*   in distribution: [https://github.com/catseye/minischeme](https://github.com/catseye/minischeme)
 
 Originally forked in order to make it build on [AmigaDOS 1.3][].
 Also a good test target for [Pixley][].
@@ -33,7 +33,7 @@ Fork began Dec 13, 2011.
 *   license: LGPL
 *   host language: [C99][]
 *   inception date: Jan 7, 2002
-*   in distribution: [OpenZz distribution](http://catseye.tc/distribution/OpenZz_distribution)
+*   in distribution: [https://github.com/catseye/OpenZz](https://github.com/catseye/OpenZz)
 
 Forked because [Zzrk][] depends on it, and I want to maintain that.
 
@@ -105,7 +105,7 @@ to run [git.catseye.tc](http://git.catseye.tc/).
 ### ee
 
 *   license: BSD 2-clause
-*   in distribution: [ee distribution](http://catseye.tc/distribution/ee_distribution)
+*   in distribution: [https://github.com/catseye/ee](https://github.com/catseye/ee)
 
 `ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
 extracted it from there so we could have a nicer text editor in [The Platform][].
