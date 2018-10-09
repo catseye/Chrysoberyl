@@ -115,15 +115,16 @@ so we could have a nicer text editor in [The Platform][].
 [Apple II][] floppy disk images.  We use it as part of [Funicular][].
 There was a bug in it that we fixed so we maintain a fork for that.
 
-[Scheme]: TBW
-[ANSI C]: TBW
-[C99]: TBW
-[AmigaDOS 1.3]: TBW
-[Pixley]: TBW
-[Zz]: TBW
-[Zzrk]: TBW
-[Java]: TBW
-[Bubble Escape 2K]: TBW
-[The Never-Ending Maze]: TBW
-[Z-Machine]: TBW
-[C++]: TBW
+[Scheme]: ../article/Project%20Dependencies.md#scheme
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
+[C99]: ../article/Project%20Dependencies.md#c99
+[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[Pixley]: ../article/Languages.md#pixley
+[Zz]: https://cdn.rawgit.com/catseye/OpenZz/90896648/doc/zzdoc.html
+[Zzrk]: ../article/Games.md#zzrk
+[Java]: ../article/Project%20Dependencies.md#java
+[Bubble Escape 2K]: ../article/Games.md#bubble-escape
+[The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
+[Z-Machine]: ../article/Retrocomputing.md#z-machine
+[C++]: http://www.open-std.org/jtc1/sc22/wg21/
+
