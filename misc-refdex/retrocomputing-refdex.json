@@ -26,10 +26,6 @@
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
     }, 
-    "JaC64": {
-        "anchor": "commodore-64", 
-        "filename": "article/Retrocomputing.md"
-    }, 
     "MS-DOS Batchfile": {
         "anchor": "ms-dos", 
         "filename": "article/Retrocomputing.md"
@@ -48,10 +44,6 @@
     }, 
     "Z80 machine code": {
         "anchor": "z80", 
-        "filename": "article/Retrocomputing.md"
-    }, 
-    "Zplet": {
-        "anchor": "z-machine", 
         "filename": "article/Retrocomputing.md"
     }, 
     "v86": {

@@ -59,7 +59,7 @@ Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anon
 
 Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
 distributed under the GPL, is a generally recommended emulator for the Commodore 64.
-Also, [JaC64](https://github.com/catseye/JaC64) is a GPL Java application which emulates a Commodore 64.
+Also, [JaC64][] is a GPL Java application which emulates a Commodore 64.
 Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
 We forked it to fix some bugs and because mainline development seemed stalled.
 
@@ -253,7 +253,7 @@ fiction onto a multitude of home computers.
 
 Here are its [specifications documents](http://inform-fiction.org/zmachine/standards/).
 
-Emulators: [Zplet](https://github.com/catseye/Zplet/) is a Java application which emulates a Z-Machine.
+Emulators: [Zplet][] is a Java application which emulates a Z-Machine.
 There are other, much better emulators, such as Frotz.
 
 #### The Never-Ending Maze
@@ -322,4 +322,6 @@ TODO: other things that can redirect here: `emulator`, `BASIC`, `vintage`
 [Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
 [Blurry Memories of DOS Programming]: ../view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
+[JaC64]: ../article/Forks.md#jac64
+[Zplet]: ../article/Forks.md#zplet
 
