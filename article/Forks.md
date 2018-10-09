@@ -49,8 +49,8 @@ Emulators
 *   implementation type: emulator
 *   license: GPL
 *   host language: [Java][]
-*   inception date: ???
-*   in distribution: [JaC64 distribution](http://catseye.tc/distribution/JaC64_distribution)
+*   inception date: 2006
+*   in distribution: [https://github.com/catseye/JaC64](https://github.com/catseye/JaC64)
 
 A Commodore 64 emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  It has always ran as a
@@ -65,10 +65,10 @@ nothing from the maintainer.  Thus we keep this fork.
 
 *   implementation of: [Z-Machine][]
 *   implementation type: emulator
-*   license: ???
+*   license: Artistic License
 *   host language: [Java][]
-*   inception date: ???
-*   in distribution: [Zplet distribution](http://catseye.tc/distribution/Zplet_distribution)
+*   inception date: Nov 16, 2001
+*   in distribution: [https://github.com/catseye/Zplet](https://github.com/catseye/Zplet)
 
 A Z-Machine emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  We modified it so that
@@ -77,14 +77,14 @@ application.
 
 This was for [The Never-Ending Maze][].
 
-### Linapple
+### linapple
 
 *   implementation of: [Apple II][]
 *   implementation type: emulator
 *   license: GPL
 *   host language: [C++][]
 *   inception date: ???
-*   in distribution: [Linapple distribution](http://catseye.tc/distribution/Linapple_distribution)
+*   in distribution: [https://github.com/catseye/linapple](https://github.com/catseye/linapple)
 
 An Apple II emulator.  We maintain a fork only to make it work like
 a proper Unix command-line utility and thus play nicely with
@@ -93,23 +93,29 @@ a proper Unix command-line utility and thus play nicely with
 Tools
 -----
 
-### Klaus
+### klaus
 
-*   in distribution: [Klaus distribution](http://catseye.tc/distribution/Klaus_distribution)
+*   license: MIT-like
+*   in distribution: [https://github.com/catseye/klaus](https://github.com/catseye/klaus)
 
 Klaus is a nice-and-simple Git web interface that we are using
 to run [git.catseye.tc](http://git.catseye.tc/).
 
 ### ee
 
+*   license: BSD 2-clause
 *   in distribution: [ee distribution](http://catseye.tc/distribution/ee_distribution)
 
 `ee` is an extraction of the text editor which ships with FreeBSD,
 so we could have a nicer text editor in [The Platform][].
 
+Local version 1.5.2ce1.
+
 ### a2tools
 
-*   in distribution: [a2tools distribution](http://catseye.tc/distribution/a2tools_distribution)
+*   license: GPL
+*   inception date: 1998
+*   in distribution: [https://github.com/catseye/a2tools](https://github.com/catseye/a2tools)
 
 `a2tools` is a set of programs for copying files off of and onto
 [Apple II][] floppy disk images.  We use it as part of [Funicular][].

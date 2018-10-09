@@ -28,8 +28,6 @@ implementation type
 
 ### license
 
-*   optional: true
-
 license
 
 ### host language
