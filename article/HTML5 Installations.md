@@ -20,6 +20,8 @@ Internal note: this file should not be used as input when creating a refdex.
 *   animated: true
 *   mediums: [6502 machine code][], [JaC64][], [Java Web Start][], [HTML5][]
 *   jnlp-link: http://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
+*   jar-url: http://catseye.tc/applets/jac64.jar
+*   java-command: java -jar jac64.jar -a c64programs/bubble_escape_2k.prg
 *   online @ [catseye.tc](http://catseye.tc/ix/Bubble_Escape)
 
 You can play it online in the [JaC64][] emulator using Java Web Start.
@@ -57,6 +59,8 @@ click in it first (it's focusable.)
 *   animated: false
 *   mediums: [Z-Machine code][], [Zplet][], [Java Web Start][], [HTML5][]
 *   jnlp-link: http://catseye.tc/applets/never_ending_maze_webstart.jnlp
+*   jar-url: http://catseye.tc/applets/zplet.jar
+*   java-command: java -jar zplet.jar never-ending-maze-1.0.z5
 *   online @ [catseye.tc](http://catseye.tc/ix/The_Never-Ending_Maze)
 
 It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
@@ -549,6 +553,8 @@ a floppy disk somehow...
 *   animated: false
 *   mediums: Java Web Start, HTML5
 *   jnlp-link: http://catseye.tc/applets/whothm_webstart.jnlp
+*   jar-url: http://catseye.tc/applets/whothm.jar
+*   java-command: java -jar whothm.jar
 *   online @ [catseye.tc](http://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
@@ -599,6 +605,8 @@ Wierd.
 *   animated: true
 *   mediums: Java Web Start, HTML5
 *   jnlp-link: http://catseye.tc/applets/yoob_webstart.jnlp
+*   jar-url: http://catseye.tc/applets/yoob.jar
+*   java-command: java -jar yoob.jar -c tc.catseye.yoob.befunge93.Befunge93State/Befunge93
 *   online @ [catseye.tc](http://catseye.tc/ix/yoob)
 
 [yoob][] is a public-domain framework for implementing
