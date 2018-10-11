@@ -5,38 +5,6 @@ from feedmark.formats.markdown import feedmark_markdownize
 from feedmark.loader import read_document_from, read_refdex_from
 
 
-REFDEXABLE_ARTICLES = (
-    ('Distribution Organization',                 None,),
-    ('Electronics Projects',                      'Electronics Project',),
-    ('Games',                                     'Game',),
-    ('Game Implementations',                      'Game Implementation',),
-    ('List of Unfinished Interesting Esolangs',   'Unfinished Esolang',),
-    ('Musical Compositions',                      'Musical Composition',),
-    ('Pictures',                                  'Picture',),
-    ('Movies',                                    'Movie',),
-    ('Retrocomputing',                            None,),
-    ('Texts',                                     'Text',),
-    ('Tools',                                     'Tool',),
-    ('Formats',                                   'Format',),
-    ('Platforms',                                 'Platform',),
-    ('Archived',                                  'Tool',),
-    ('Languages',                                 'Language',),
-    ('Language Implementations',                  'Language Implementation',),
-    ('Forks',                                     'Fork',),
-    ('Automata',                                  'Language',),
-    ('Gewgaws',                                   'Gewgaw',),
-    ('Events',                                    'Event',),
-    ('General Information',                       None,),
-    ('Project Dependencies',                      'Project Dependency',),
-)
-
-
-ARTICLES = REFDEXABLE_ARTICLES + (
-    ('HTML5 Installations',                       'HTML5 Installation',),
-    ('News',                                      None,),
-)
-
-
 def document_name(title):
     if title == 'News':
         return "NEWS.md"
@@ -44,8 +12,8 @@ def document_name(title):
         return "article/{}.md".format(title)
 
 
-def rewrite_documents(refdex):
-    for title, schema in ARTICLES:
+def rewrite_documents(articles, refdex):
+    for title, schema in articles:
         if title in ('News',):
             continue
         print("{}...".format(title))
@@ -65,8 +33,10 @@ def rewrite_documents(refdex):
             f.write(text.encode('UTF-8'))
 
 
-def accumulate_article_refdex(refdex):
-    for title, schema in REFDEXABLE_ARTICLES:
+def accumulate_article_refdex(articles, refdex):
+    for title, schema in articles:
+        if title in ("News", "HTML5 Installations",):
+            continue
         print("{}...".format(title))
         filename = document_name(title)
         document = read_document_from(filename)
@@ -77,7 +47,7 @@ def accumulate_article_refdex(refdex):
             }
 
 
-def regenerate_refdex():
+def regenerate_refdex(articles):
     INPUT_REFDEXES = [
         'misc-refdex/games-refdex.json',
         'misc-refdex/texts-refdex.json',
@@ -86,12 +56,18 @@ def regenerate_refdex():
         'misc-refdex/misc-refdex.json',
     ]
     refdex = read_refdex_from(INPUT_REFDEXES)
-    accumulate_article_refdex(refdex)
+    accumulate_article_refdex(articles, refdex)
     with open('refdex.json', 'w') as f:
         f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
 
 
 if __name__ == '__main__':
-    regenerate_refdex()
+    with open('articles.json', 'r') as f:
+        articles_map = json.loads(f.read())
+    articles = []
+    for title, properties in articles_map.items():
+        articles.append((title, properties['schema']))
+
+    regenerate_refdex(articles)
     refdex = read_refdex_from(['refdex.json'], input_refdex_filename_prefix='../')
-    rewrite_documents(refdex)
+    rewrite_documents(articles, refdex)
