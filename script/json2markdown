@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+# encoding: UTF-8
+
+import json
+import os
+import re
+import sys
+
+
+def json2markdown():
+
+    with open('articles.json', 'r') as f:
+        articles = json.loads(f.read())
+
+    for title, properties in articles.items():
+        print('### {}'.format(title))
+        print('')
+
+        escaped = title.replace(' ', '%20')
+        print('*   link: [{}](article/{}.md)'.format(title, escaped))
+        if properties.get('image_url'):
+            print('*   image_url: {}'.format(properties['image_url']))
+        if properties.get('schema'):
+            print('*   schema: {}'.format(properties['schema']))
+
+        #for property_, value in sorted(properties.items()):
+        #    print('*   {}: {}'.format(property_, value))
+
+        print('')
+        print('Article about {}.'.format(title))
+        print('')
+
+
+if __name__ == '__main__':
+    json2markdown()
