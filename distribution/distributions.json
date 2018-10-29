@@ -1911,6 +1911,11 @@
                 "revision": "2017.0428", 
                 "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip", 
                 "version": "1.1"
+            },
+            {
+                "revision": "2018.1029", 
+                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2018.1029.zip", 
+                "version": "1.1"
             }
         ], 
         "reponame": "PL-GOTO.NET", 
@@ -2213,6 +2218,11 @@
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/robin-0.2.zip", 
+                "version": "0.2"
+            },
+            {
+                "revision": "2018.1029", 
+                "url": "http://catseye.tc/distfiles/robin-0.2-2018.1029.zip", 
                 "version": "0.2"
             }
         ], 
