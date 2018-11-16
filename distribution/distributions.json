@@ -1008,6 +1008,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/falderal-0.11.zip", 
                 "version": "0.11"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/falderal-0.12.zip", 
+                "version": "0.12"
             }
         ], 
         "reponame": "Falderal"
