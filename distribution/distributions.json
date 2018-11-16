@@ -2549,6 +2549,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/sixtypical-0.16.zip", 
                 "version": "0.16"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/sixtypical-0.17.zip", 
+                "version": "0.17"
             }
         ], 
         "reponame": "SixtyPical", 
