@@ -200,7 +200,8 @@ Links
 
 [MARYSUE]: ../article/Tools.md#marysue
 [The Swallows Engine]: ../article/Tools.md#the-swallows-engine
-[NaNoGenMo 2013]: TBW
-[NaNoGenMo 2014]: TBW
-[NaNoGenMo 2015]: TBW
-[NaNoGenMo 2017]: TBW
+[NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
+[NaNoGenMo 2014]: ../article/Events.md#nanogenmo-2014
+[NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
+[NaNoGenMo 2017]: ../article/Events.md#nanogenmo-2017
+

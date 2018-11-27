@@ -143,6 +143,7 @@ We submitted [Legiony McLegionface][], [Vanish Like: The Novel][], and
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
 [NaNoGenLab]: https://github.com/catseye/NaNoGenLab
 [Javascript]: ../article/Project%20Dependencies.md#javascript
-[Legiony McLegionface]: TBW
-[Vanish Like: The Novel]: TBW
-[The Collected Works of Every Novel Generator Ever (Abridged Version)]: TBW
+[Legiony McLegionface]: ../article/Texts.md#legiony-mclegionface
+[Vanish Like: The Novel]: ../article/Texts.md#vanish-like-the-novel
+[The Collected Works of Every Novel Generator Ever (Abridged Version)]: ../article/Texts.md#the-collected-works-of-every-novel-generator-ever-abridged-version
+
