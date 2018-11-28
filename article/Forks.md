@@ -140,7 +140,7 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [C99]: ../article/Project%20Dependencies.md#c99
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Pixley]: ../article/Languages.md#pixley
-[Zz]: https://cdn.rawgit.com/catseye/OpenZz/90896648/doc/zzdoc.html
+[Zz]: http://catseye.tc/modules/OpenZz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk
 [Java]: ../article/Project%20Dependencies.md#java
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape
