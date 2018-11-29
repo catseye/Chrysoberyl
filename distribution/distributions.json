@@ -3816,6 +3816,11 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/yoob-0.3-2015.0629.zip", 
                 "version": "0.3"
+            },
+            {
+                "revision": "2019.1129", 
+                "url": "http://catseye.tc/distfiles/yoob-0.3-2018.1129.zip", 
+                "version": "0.3"
             }
         ], 
         "reponame": "yoob"
