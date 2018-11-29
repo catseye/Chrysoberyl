@@ -192,6 +192,39 @@ and the the first 50,000 words of the outputs of first *N* novel
 generators generated were collected into a generated novel titled
 *The Collected Works of Every Novel Generator Ever (Abridged Version)*.
 
+### The League of Extraordinarily Dull Gentlemen
+
+*   inception-date: Nov 2018
+*   submitted-to: [NaNoGenMo 2018][]
+*   online @ [catseye.tc](http://static.catseye.tc/novels/The%20League%20of%20Extraordinarily%20Dull%20Gentlemen%20(15%20Nov%202018).docx) (docx format)
+*   file @ [catseye.tc](http://static.catseye.tc/novels/The%20League%20of%20Extraordinarily%20Dull%20Gentlemen%20(15%20Nov%202018).docx) (docx format)
+
+*The League of Extraordinarily Dull Gentlemen* is a generated novel submitted to NaNoGenMo 2017.
+The goal was to tell a story (a single, non-episodic story) over the course of 50,000 words.
+Simulation in a world described by propositions, but processed by something far simpler than
+a Prolog (or even Datalog)-style inference engine.  The world-description was written in
+[Samovar][].
+
+### The Defeat at Procyon V
+
+*   inception-date: Nov 2018
+*   submitted-to: [NaNoGenMo 2018][]
+*   online @ [catseye.tc](http://static.catseye.tc/novels/The%20Defeat%20at%20Procyon%20V%20(22%20Nov%202018).html)
+*   file @ [catseye.tc](http://static.catseye.tc/novels/The%20Defeat%20at%20Procyon%20V%20(22%20Nov%202018).html)
+
+Sort of a superannuated vignette.  Written in [Julia][] 1.0.
+
+The story isn't *entirely* dialogue, but it might be difficult to find the non-dialogue parts unless you read the code.
+
+### ETERLAN SEPTEBMER
+
+*   inception-date: Nov 2018
+*   submitted-to: [NaNoGenMo 2018][]
+*   online @ [catseye.tc](http://catseye.tc/view/NaNoGenMo-2018/generated/ETERLAN%20SEPTEBMER.md)
+*   file @ [catseye.tc](http://catseye.tc/view/NaNoGenMo-2018/generated/ETERLAN%20SEPTEBMER.md)
+
+Written in [Befunge-93][] as a commemoration of the 25th Anniversary of Befunge.
+
 Links
 -----
 
@@ -204,4 +237,6 @@ Links
 [NaNoGenMo 2014]: ../article/Events.md#nanogenmo-2014
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [NaNoGenMo 2017]: ../article/Events.md#nanogenmo-2017
-
+[NaNoGenMo 2018]: ../article/Events.md#nanogenmo-2018
+[Samovar]: TBW
+[Julia]: TBW

@@ -117,6 +117,15 @@ Here is [a list of completed entries for 2017](https://github.com/NaNoGenMo/2017
 We submitted [Legiony McLegionface][], [Vanish Like: The Novel][], and
 [The Collected Works of Every Novel Generator Ever (Abridged Version)][].
 
+### NaNoGenMo 2018
+
+*   year: 2018
+
+Here is [a list of completed entries for 2018](https://github.com/NaNoGenMo/2018/issues?q=is:open+is:issue+label:completed).
+
+We submitted [The League of Extraordinarily Dull Gentlemen][],
+[The Defeat at Procyon V][], and [ETERLAN SEPTEBMER][].
+
 - - - -
 
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
@@ -146,4 +155,6 @@ We submitted [Legiony McLegionface][], [Vanish Like: The Novel][], and
 [Legiony McLegionface]: ../article/Texts.md#legiony-mclegionface
 [Vanish Like: The Novel]: ../article/Texts.md#vanish-like-the-novel
 [The Collected Works of Every Novel Generator Ever (Abridged Version)]: ../article/Texts.md#the-collected-works-of-every-novel-generator-ever-abridged-version
-
+[The League of Extraordinarily Dull Gentlemen]: TBW
+[The Defeat at Procyon V]: TBW
+[ETERLAN SEPTEBMER]: TBW
