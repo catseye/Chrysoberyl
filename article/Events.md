@@ -155,6 +155,7 @@ We submitted [The League of Extraordinarily Dull Gentlemen][],
 [Legiony McLegionface]: ../article/Texts.md#legiony-mclegionface
 [Vanish Like: The Novel]: ../article/Texts.md#vanish-like-the-novel
 [The Collected Works of Every Novel Generator Ever (Abridged Version)]: ../article/Texts.md#the-collected-works-of-every-novel-generator-ever-abridged-version
-[The League of Extraordinarily Dull Gentlemen]: TBW
-[The Defeat at Procyon V]: TBW
-[ETERLAN SEPTEBMER]: TBW
+[The League of Extraordinarily Dull Gentlemen]: ../article/Texts.md#the-league-of-extraordinarily-dull-gentlemen
+[The Defeat at Procyon V]: ../article/Texts.md#the-defeat-at-procyon-v
+[ETERLAN SEPTEBMER]: ../article/Texts.md#eterlan-septebmer
+

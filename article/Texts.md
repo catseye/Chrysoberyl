@@ -238,5 +238,6 @@ Links
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [NaNoGenMo 2017]: ../article/Events.md#nanogenmo-2017
 [NaNoGenMo 2018]: ../article/Events.md#nanogenmo-2018
-[Samovar]: TBW
-[Julia]: TBW
+[Samovar]: ../article/Languages.md#samovar
+[Julia]: https://julialang.org/
+

@@ -101,5 +101,8 @@
     },
     "Rust": {
         "url": "http://www.rust-lang.org/"
+    },
+    "Julia": {
+        "url": "https://julialang.org/"
     }
 }
