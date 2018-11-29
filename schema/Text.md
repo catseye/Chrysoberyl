@@ -21,8 +21,6 @@ authors
 
 ### inception-date
 
-*   optional: true
-
 date
 
 ### submitted-to
@@ -31,19 +29,18 @@ date
 
 submitted-to
 
+### entry
+
+*   optional: true
+*   multiple: true
+
+The entry of this text in some publication or index.
+
 ### online
 
-*   optional: true
 *   multiple: true
 
-online
-
-### file
-
-*   optional: true
-*   multiple: true
-
-file-locations
+A URL at which this text can be read (or downloaded) online.
 
 ### in-distribution
 
