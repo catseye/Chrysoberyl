@@ -4,6 +4,30 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Falderal 0.12, SixtyPical 0.17, and Samovar 0.2 released
+
+*   summary: [Falderal](http://catseye.tc/node/Falderal) 0.12, [SixtyPical](http://catseye.tc/node/SixtyPical) 0.17, and [Samovar](http://catseye.tc/node/Samovar) 0.2 released
+*   date: Fri, 30 Nov 2018 11:57:45 GMT
+
+A new version of [Falderal](http://catseye.tc/node/Falderal),
+our literate-testing format intended for documenting programming
+languages, has been released.  Version 0.12 is indebted to bug reports
+and patches kindly contributed by [James Holderness](https://github.com/j4james).
+The reference implementation, `py-falderal`, also runs on Python 3 now.
+
+A new version of [SixtyPical](http://catseye.tc/node/SixtyPical),
+our heavily-statically-analyzed 6502-assembly-like programming language,
+has also been released.  Now all symbol references can be forward
+references.  The reference implmention also runs on Python 3 now,
+and has rudimentary support for producing programs that run on the Apple II.
+
+Finally, a new version of [Samovar](http://catseye.tc/node/Samovar),
+a DSL for describing simple simulation-worlds with propositions, has
+been released.  We did this update as part of generating
+[The League of Extraordinarily Dull Gentlemen](http://catseye.tc/article/Texts.md#the-league-of-extraordinarily-dull-gentlemen)
+for [NaNoGenMo 2018](http://catseye.tc/article/Events.md#nanogenmo-2018).
+The reference implementation of Samovar also runs under Python 3 now.
+
 ### Feedmark 0.6 and yastasoti 0.1 released
 
 *   summary: [Feedmark](http://catseye.tc/node/Feedmark) 0.6 and [yastasoti](http://catseye.tc/node/yastasoti) 0.1 released.
