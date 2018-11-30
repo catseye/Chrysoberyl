@@ -44,8 +44,6 @@ A URL at which this text can be read (or downloaded) online.
 
 ### in-distribution
 
-*   optional: true
-
 in-distribution
 
 ### generated-by
