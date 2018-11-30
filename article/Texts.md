@@ -243,4 +243,5 @@ Links
 [NaNoGenMo 2018]: ../article/Events.md#nanogenmo-2018
 [Samovar]: ../article/Languages.md#samovar
 [Julia]: https://julialang.org/
+[Befunge-93]: ../article/Languages.md#befunge-93
 
