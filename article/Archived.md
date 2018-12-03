@@ -212,6 +212,7 @@ Yet Another End Of Line Converter
 *   inception-date: Mar 15 2011
 *   development-stage: not fully complete
 *   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 `yoob` is a framework for implementing esoteric programming languages
 in Java.  It aims to make it easy for a user to experiment with a large
@@ -222,6 +223,10 @@ implement and showcase their esolangs.
 It has an article on the esowiki, [yoob](http://esolangs.org/wiki/yoob),
 but being written in Java, with the intent of being distributed as an
 applet, it's largely considered deprecated these days.
+
+However, it can still be started from a web page, if you have Java
+Web Start installed — so you can still see it in action
+[here](http://catseye.tc/installation/yoob).
 
 #### Implementation: tc.catseye.yoob
 

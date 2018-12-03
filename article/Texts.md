@@ -198,7 +198,8 @@ generators generated were collected into a generated novel titled
 ### The League of Extraordinarily Dull Gentlemen
 
 *   inception-date: Nov 2018
-*   submitted-to: [NaNoGenMo 2018][]
+*   submitted-to: [NaNoGenMo 2018][] (completed)
+*   entry @ [github.com/NaNoGenMo/2018](https://github.com/NaNoGenMo/2018/issues/6)
 *   online @ [catseye.tc](http://static.catseye.tc/novels/The%20League%20of%20Extraordinarily%20Dull%20Gentlemen%20(15%20Nov%202018).docx) (docx format)
 *   in-distribution: Cat's Eye Technologies' NaNoGenMo-2018 distribution
 
@@ -211,7 +212,8 @@ a Prolog (or even Datalog)-style inference engine.  The world-description was wr
 ### The Defeat at Procyon V
 
 *   inception-date: Nov 2018
-*   submitted-to: [NaNoGenMo 2018][]
+*   submitted-to: [NaNoGenMo 2018][] (completed)
+*   entry @ [github.com/NaNoGenMo/2018](https://github.com/NaNoGenMo/2018/issues/83)
 *   online @ [catseye.tc](http://static.catseye.tc/novels/The%20Defeat%20at%20Procyon%20V%20(22%20Nov%202018).html)
 *   in-distribution: Cat's Eye Technologies' NaNoGenMo-2018 distribution
 
@@ -222,11 +224,15 @@ The story isn't *entirely* dialogue, but it might be difficult to find the non-d
 ### ETERLAN SEPTEBMER
 
 *   inception-date: Nov 2018
-*   submitted-to: [NaNoGenMo 2018][]
+*   submitted-to: [NaNoGenMo 2018][] (completed)
+*   entry @ [github.com/NaNoGenMo/2018](https://github.com/NaNoGenMo/2018/issues/91)
 *   online @ [catseye.tc](https://raw.githubusercontent.com/catseye/NaNoGenMo-2018/master/generated/ETERLAN%20SEPTEBMER.md)
 *   in-distribution: Cat's Eye Technologies' NaNoGenMo-2018 distribution
 
 Written in [Befunge-93][] as a commemoration of the 25th Anniversary of Befunge.
+
+The generated novel consists of 50,000 really lovely words in short paragraphs.
+You can think of it as a kind of fireworks.
 
 Links
 -----

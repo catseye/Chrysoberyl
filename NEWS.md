@@ -4,9 +4,43 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### ETERLAN SEPTEBMER and a minor revision of yoob
+
+*   summary: [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER) and a minor revision of [yoob](http://catseye.tc/node/yoob).
+*   date: Mon, 03 Dec 2018 11:09:40 GMT
+
+More on that Befunge celebration thing we're supposed to be
+doing this year!
+
+For [NaNoGenMo 2018](catseye.tc/node/NaNoGenMo%202018) we constructed a novel generator
+called [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER).
+Written in [Befunge-93](http://catseye.tc/node/Befunge-93),
+it celebrates invention of Befunge in September 1993, a month
+called [Eternal September](en.wikipedia.org/wiki/Eternal_September)
+in Usenet circles (for... other reasons.)
+
+It generates a novel consisting of 50,000 really lovely words in short
+paragraphs.  You can think of it as a kind of fireworks.
+
+We have also released a minor revision of [yoob](), our framework for
+implementing esolang interpreters and visual debuggers.  yoob is kind of
+considered deprecated anyway, since it was written as a Java applet, and
+support for Java applets is basically vanishing from web browsers.
+
+But you can still use it, if you have Java installed on your computer.
+And you can still use it easily from a web page, if you have installed
+support for the Java Web Start (and I believe this comes with Java on
+many platforms.)
+
+Version 0.3-2019.1129 of yoob makes this transition from Applet to Java
+Web Start official, and what's more, the Befunge-93 examples that ship with it
+have been updated — and they now include ETERLAN SEPTEBMER.
+
+So [check it out here](http://catseye.tc/installation/yoob)!
+
 ### Falderal 0.12, SixtyPical 0.17, and Samovar 0.2 released
 
-*   summary: [Falderal](http://catseye.tc/node/Falderal) 0.12, [SixtyPical](http://catseye.tc/node/SixtyPical) 0.17, and [Samovar](http://catseye.tc/node/Samovar) 0.2 released
+*   summary: [Falderal](http://catseye.tc/node/Falderal) 0.12, [SixtyPical](http://catseye.tc/node/SixtyPical) 0.17, and [Samovar](http://catseye.tc/node/Samovar) 0.2 released.
 *   date: Fri, 30 Nov 2018 11:57:45 GMT
 
 A new version of [Falderal](http://catseye.tc/node/Falderal),
