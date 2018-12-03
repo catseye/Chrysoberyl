@@ -1685,6 +1685,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/marysue-1.0.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2018.1203", 
+                "url": "http://catseye.tc/distfiles/marysue-1.0-2018.1203.zip", 
+                "version": "1.0"
             }
         ], 
         "reponame": "MARYSUE", 
@@ -3653,6 +3658,11 @@
             {
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/stringie-1.0.zip", 
+                "version": "1.0"
+            },
+            {
+                "revision": "2018.1203", 
+                "url": "http://catseye.tc/distfiles/stringie-1.0-2018.1203.zip", 
                 "version": "1.0"
             }
         ], 
