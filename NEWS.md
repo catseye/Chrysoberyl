@@ -12,7 +12,7 @@
 More on that Befunge celebration thing we're supposed to be
 doing this year!
 
-For [NaNoGenMo 2018](catseye.tc/node/NaNoGenMo%202018) we constructed a novel generator
+For [NaNoGenMo 2018](http://catseye.tc/node/NaNoGenMo%202018) we constructed a novel generator
 called [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER).
 Written in [Befunge-93](http://catseye.tc/node/Befunge-93),
 it celebrates invention of Befunge in September 1993, a month
