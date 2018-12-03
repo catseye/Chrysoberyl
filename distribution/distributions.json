@@ -1827,6 +1827,11 @@
         ], 
         "reponame": "NaNoGenLab"
     }, 
+    "Cat's Eye Technologies' NaNoGenMo 2018 distribution": {
+        "fixed-tag": "master", 
+        "releases": [],
+        "reponame": "NaNoGenMo-2018"
+    }, 
     "NetUSB distribution": {
         "releases": [
             {
