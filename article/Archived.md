@@ -212,7 +212,6 @@ Yet Another End Of Line Converter
 *   inception-date: Mar 15 2011
 *   development-stage: not fully complete
 *   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
 
 `yoob` is a framework for implementing esoteric programming languages
 in Java.  It aims to make it easy for a user to experiment with a large
