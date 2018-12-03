@@ -22,7 +22,7 @@ in Usenet circles (for... other reasons.)
 It generates a novel consisting of 50,000 really lovely words in short
 paragraphs.  You can think of it as a kind of fireworks.
 
-We have also released a minor revision of [yoob](), our framework for
+We have also released a minor revision of [yoob](http://catseye.tc/node/yoob), our framework for
 implementing esolang interpreters and visual debuggers.  yoob is kind of
 considered deprecated anyway, since it was written as a Java applet, and
 support for Java applets is basically vanishing from web browsers.
