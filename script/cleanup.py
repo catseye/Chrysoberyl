@@ -62,8 +62,12 @@ def regenerate_refdex(articles):
 
 
 if __name__ == '__main__':
-    with open('articles.json', 'r') as f:
-        articles_map = json.loads(f.read())
+    articles_doc = read_document_from('article/README.md')
+    articles_map = dict([(section.title, {
+        "title": section.title,
+        "image_url": section.properties.get("image_url"),
+        "schema": section.properties.get("schema"),
+    }) for section in articles_doc.sections])
     articles = []
     for title, properties in articles_map.items():
         articles.append((title, properties['schema']))
