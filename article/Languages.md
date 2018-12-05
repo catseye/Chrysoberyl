@@ -2110,7 +2110,7 @@ proceeds in a much more dataflow-like fashion.
 *   type: Programming Language
 *   inception-date: Dec 2, 2011
 *   genre: DSL
-*   development-stage: not fully complete
+*   development-stage: unfinished
 *   computational-class: believed Turing-complete
 *   paradigms: Proof checking, Term-rewriting
 *   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
@@ -2380,7 +2380,6 @@ of that.)
 *   genre: Esolang
 *   development-stage: not fully complete
 *   computational-class: unknown computational class
-*   influences: 
 *   paradigms: Concatenative
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Carriage)
 
@@ -2663,23 +2662,23 @@ into an emulated [Commodore 64][] using [SITU-MON][].
 *   type: Programming Language
 *   inception-date: 2016
 *   genre: DSL
-*   development-stage: not fully complete
+*   development-stage: basically complete
 *   computational-class: unknown computational class
-*   influences: Madison
+*   influences: [Madison][]
 *   paradigms: Probabilistic, Logic programming, State machine
 *   reference-distribution: [Samovar distribution](http://catseye.tc/distribution/Samovar_distribution)
 
 Sample program:
 
     rules
-      [actor(α),item(β),~holding(α,β)]  α picks up the β.   [holding(α,β)]
-      [actor(α),item(β),holding(α,β)]   α puts down the β.  [~holding(α,β)]
+      [actor(α),item(β),¬holding(α,β)]  α picks up the β.   [holding(α,β)]
+      [actor(α),item(β),holding(α,β)]   α puts down the β.  [¬holding(α,β)]
     end
     situations
       [actor(Ignatz),item(brick)]
     end
 
-Samovar is a DSL for world-modeling using predicates rather than explicit objects.
+Samovar is a DSL for world-modeling using propositions rather than explicit objects.
 It could be thought of as an "assertion-retraction engine", which itself could be
 thought of as a very stilted style of Prolog programming plus some syntactic
 sugar.
@@ -2689,9 +2688,9 @@ sugar.
 *   type: Programming Language
 *   inception-date: 2016
 *   genre: DSL
-*   development-stage: not fully complete
+*   development-stage: basically complete
 *   computational-class: believed Turing-complete
-*   influences: Madison
+*   influences: [Madison][]
 *   paradigms: Proof checking
 *   reference-distribution: [Maxixe distribution](http://catseye.tc/distribution/Maxixe_distribution)
 
@@ -2712,9 +2711,12 @@ Sample program:
         Step_5 = q                     by Modus_Ponens with Step_3, Step_4
     qed
 
-Maxixe is a simple proof-checking language.  Given a proof written out fully and
-explicitly (including all rules of inference), a computer can check if it is valid
-or not.
+Maxixe is a simple, generalized proof-checking language.  Given a proof written out fully
+and explicitly (including all rules of inference), a computer can check if it is valid
+or not.  Since Maxixe has no built-in rules of inference, it is in this manner not
+restricted to using a particular kind of logic — it ought to be possible to implement
+propositional logic, predicate logic, equational logic in it (and fragments and
+combinations thereof).
 
 ### Equipage
 
@@ -2881,4 +2883,5 @@ Pophery is an imperative string-rewriting language.  I know right?
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[Madison]: ../article/Languages.md#madison
 
