@@ -4,6 +4,41 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Silver Jubilee Edition of Befunge-93 distribution
+
+*   summary: Befunge-93
+*   date: Wed, 12 Dec 2018 12:00:00 GMT
+
+Cat's Eye Technologies is please to announce the
+release of version 2.25 of the Befunge-93 distribution,
+christened the Silver Jubilee edition, as it commemmorates
+the 25th anniversary of the Befunge-93
+programming language (1993-2018).
+
+This release does not contain any changes to the code
+(those were all in 2.24, earlier this year,) but it does
+include significant changes to the distribution:
+
+*   Addition of "man page" style documentation for the
+    `bef` interpreter itself, rather than the language.
+*   Small corrections to the Befunge-93 language docs.
+*   A massive overhaul of the included Befunge-93
+    example programs, including a much better index
+    and more accurate information.  (Thanks to
+    James Holderness for research and constructive
+    criticism that enabled this!)
+*   Several existing example programs have been
+    relicensed as CC0. (Thanks to Ben Olmstead for
+    granting permission for this!)
+*   Several new example programs.  (Thanks to
+    Jeremy Vine for attempting to interview me that
+    one time!)
+*   The addition of a cache of historical materials
+    extracted from the archives.  See very early
+    versions of the `bef` source code and documentation!
+    See a completely unrelated language design that
+    was going under the name "Befunge" in spring of 1993!
+
 ### ETERLAN SEPTEBMER and a minor revision of yoob
 
 *   summary: [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER) and a minor revision of [yoob](http://catseye.tc/node/yoob).
