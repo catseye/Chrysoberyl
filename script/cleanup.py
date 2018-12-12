@@ -68,6 +68,11 @@ if __name__ == '__main__':
         "image_url": section.properties.get("image_url"),
         "schema": section.properties.get("schema"),
     }) for section in articles_doc.sections])
+
+    # we shouldn't need to do this.  but, until we teach the webserver to read Feedmark, here we go.
+    with open('articles.json', 'w') as f:
+        f.write(json.dumps(articles_map, indent=4, sort_keys=True))
+
     articles = []
     for title, properties in articles_map.items():
         articles.append((title, properties['schema']))
