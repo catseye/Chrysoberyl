@@ -6,7 +6,7 @@
 
 ### Silver Jubilee Edition of Befunge-93 distribution
 
-*   summary: The Silver Jubilee Edition [Befunge-93](http://catseye.tc/node/Befunge-93) has been released!
+*   summary: The Silver Jubilee Edition of [Befunge-93](http://catseye.tc/node/Befunge-93) has been released!
 *   date: Wed, 12 Dec 2018 13:32:17 GMT
 
 Cat's Eye Technologies is pleased to announce the release of version 2.25 of
