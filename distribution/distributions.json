@@ -234,6 +234,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/befunge-93-2.24.zip", 
                 "version": "2.24"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/befunge-93-2.25.zip", 
+                "version": "2.25"
             }
         ], 
         "reponame": "Befunge-93"
