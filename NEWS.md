@@ -6,13 +6,14 @@
 
 ### Silver Jubilee Edition of Befunge-93 distribution
 
-*   summary: Befunge-93
-*   date: Wed, 12 Dec 2018 12:00:00 GMT
+*   summary: The Silver Jubilee Edition of the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution has been released!
+*   date: Wed, 12 Dec 2018 13:21:25 GMT
 
-Cat's Eye Technologies is please to announce the
-release of version 2.25 of the Befunge-93 distribution,
-christened the Silver Jubilee edition, as it commemmorates
-the 25th anniversary of the Befunge-93
+Cat's Eye Technologies is pleased to announce the release of version 2.25 of the
+[Befunge-93 distribution](http://catseye.tc/distribution/Befunge-93_distribution), christened the
+[Silver Jubilee](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
+edition, commemorating as it does
+the 25th anniversary of the [Befunge-93](http://catseye.tc/node/Befunge-93)
 programming language (1993-2018).
 
 This release does not contain any changes to the code
@@ -22,9 +23,10 @@ include significant changes to the distribution:
 *   Addition of "man page" style documentation for the
     `bef` interpreter itself, rather than the language.
 *   Small corrections to the Befunge-93 language docs.
+    (Thanks to James Holderness for these!)
 *   A massive overhaul of the included Befunge-93
     example programs, including a much better index
-    and more accurate information.  (Thanks to
+    and more accurate information.  (Thanks again to
     James Holderness for research and constructive
     criticism that enabled this!)
 *   Several existing example programs have been
@@ -36,8 +38,14 @@ include significant changes to the distribution:
 *   The addition of a cache of historical materials
     extracted from the archives.  See very early
     versions of the `bef` source code and documentation!
-    See a completely unrelated language design that
-    was going under the name "Befunge" in spring of 1993!
+    Marvel at a completely unrelated language design that
+    was going under the name "Befunge" in January of 1993!
+
+So how, you may well ask, do you obtain this
+humdinger of a release?  Well,
+
+*   You can download [befunge-93-2.25.zip](http://static.catseye.tc/distfiles/befunge-93-2.25.zip) and view the files in it.
+*   Or you can browse [catseye/Befunge-93](https://github.com/catseye/Befunge-93/tree/rel_2_25) on GitHub.
 
 ### ETERLAN SEPTEBMER and a minor revision of yoob
 
