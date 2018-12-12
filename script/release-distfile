@@ -17,7 +17,7 @@ def match_tag(distro, tag):
         v_min = match.group(2)
         r_maj = match.group(3)
         r_min = match.group(4)
-        filename = '%s-%s.%s-%s.%s.zip' % (
+        filename = '%s-%s.%s-%s.%s' % (
             distro, v_maj, v_min, r_maj, r_min
         )
         return (v_maj, v_min, r_maj, r_min, filename)
@@ -26,7 +26,7 @@ def match_tag(distro, tag):
     if match:
         v_maj = match.group(1)
         v_min = match.group(2)
-        filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
+        filename = '%s-%s.%s' % (distro, v_maj, v_min)
         return (v_maj, v_min, "0", "0", filename)
 
     match = re.match(r'^v?(\d+)\.(\d+)\-(\d+)\.(\d+)$', tag)
@@ -35,7 +35,7 @@ def match_tag(distro, tag):
         v_min = match.group(2)
         r_maj = match.group(3)
         r_min = match.group(4)
-        filename = '%s-%s.%s-%s.%s.zip' % (
+        filename = '%s-%s.%s-%s.%s' % (
             distro, v_maj, v_min, r_maj, r_min
         )
         return (v_maj, v_min, r_maj, r_min, filename)
@@ -44,7 +44,7 @@ def match_tag(distro, tag):
     if match:
         v_maj = match.group(1)
         v_min = match.group(2)
-        filename = '%s-%s.%s.zip' % (distro, v_maj, v_min)
+        filename = '%s-%s.%s' % (distro, v_maj, v_min)
         return (v_maj, v_min, "0", "0", filename)
 
     raise ValueError("Not a release tag that I understand: %s" % tag)
@@ -87,14 +87,15 @@ def main(args):
     print latest_tag
 
     distro = args[0]
-    (v_maj, v_min, r_maj, r_min, zip_filename) = match_tag(distro, latest_tag)
+    (v_maj, v_min, r_maj, r_min, base_projectame) = match_tag(distro, latest_tag)
+    zip_filename = '{}.zip'.format(base_projectame)
     print repr((v_maj, v_min, r_maj, r_min, zip_filename))
     dest_dir = os.path.join(os.getenv('HOME'), 'canonical', 'mine', 'catseye.tc', 'distfiles')
     full_filename = os.path.join(dest_dir, zip_filename)
     if os.path.exists(full_filename):
         raise IOError("{} exists".format(full_filename))
     do_it('ls -l {}/{}* || echo First'.format(dest_dir, distro))
-    command = "git archive --format=zip {} -o {}".format(latest_tag, full_filename)
+    command = "git archive --prefix={}/ --format=zip {} -o {}".format(base_projectame, latest_tag, full_filename)
     print command
     if not dry_run:
         do_it(command)
