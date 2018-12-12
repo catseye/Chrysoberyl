@@ -4,6 +4,7 @@
 Create a release distfile from the latest tag in a docked source.
 """
 
+from argparse import ArgumentParser
 import os
 import re
 import sys
@@ -71,33 +72,32 @@ def each_tag():
 
 
 def main(args):
-    dry_run = False
-    if args[0] == '--dry-run':
-        args = args[1:]
-        dry_run = True
+    argparser = ArgumentParser()
 
-    latest_tag = None
-    if args[0] == '--tag':
-        args = args[1:]
-        latest_tag = args[0]
-        args = args[1:]
-    else:
+    argparser.add_argument('distro', type=str)
+    argparser.add_argument('--dry-run', action='store_true', default=False)
+    argparser.add_argument('--tag', type=str, default=None)
+    argparser.add_argument('--force', action='store_true', default=False)
+
+    options = argparser.parse_args(sys.argv[1:])
+
+    latest_tag = options.tag
+    if latest_tag is None:
         for tag in each_tag():
             latest_tag = tag
     print latest_tag
 
-    distro = args[0]
-    (v_maj, v_min, r_maj, r_min, base_projectame) = match_tag(distro, latest_tag)
+    (v_maj, v_min, r_maj, r_min, base_projectame) = match_tag(options.distro, latest_tag)
     zip_filename = '{}.zip'.format(base_projectame)
     print repr((v_maj, v_min, r_maj, r_min, zip_filename))
     dest_dir = os.path.join(os.getenv('HOME'), 'canonical', 'mine', 'catseye.tc', 'distfiles')
     full_filename = os.path.join(dest_dir, zip_filename)
-    if os.path.exists(full_filename):
+    if os.path.exists(full_filename) and not options.force:
         raise IOError("{} exists".format(full_filename))
-    do_it('ls -l {}/{}* || echo First'.format(dest_dir, distro))
+    do_it('ls -l {}/{}* || echo First'.format(dest_dir, options.distro))
     command = "git archive --prefix={}/ --format=zip {} -o {}".format(base_projectame, latest_tag, full_filename)
     print command
-    if not dry_run:
+    if not options.dry_run:
         do_it(command)
         do_it("unzip -v {}".format(full_filename))
     sys.exit(0)
