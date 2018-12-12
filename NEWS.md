@@ -4,7 +4,7 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
-### Silver Jubilee Edition of Befunge-93 distribution
+### Silver Jubilee Edition of Befunge-93 released
 
 *   summary: The Silver Jubilee Edition of [Befunge-93](http://catseye.tc/node/Befunge-93) has been released!
 *   date: Wed, 12 Dec 2018 13:32:17 GMT
