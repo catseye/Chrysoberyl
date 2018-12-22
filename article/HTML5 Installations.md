@@ -652,7 +652,7 @@ will consume them in order, and continue running.
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
 *   javascript-module: zowie
-*   javascript-urls: ../../contrib/skulpt/skulpt.min.js,../../contrib/skulpt/skulpt-stdlib.js,../../scripts/zowie-examples.js,../../scripts/launch-zowie.js
+*   javascript-urls: ../../contrib/skulpt-0.11.0/skulpt.min.js,../../contrib/skulpt-0.11.0/skulpt-stdlib.js,../../scripts/zowie-examples.js,../../scripts/launch-zowie.js
 *   script-root: ../modules/HTML5-Gewgaws/colourring/
 *   style: .internal_source { display: none; } .initial_configuration { display: none; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
