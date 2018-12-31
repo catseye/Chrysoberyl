@@ -4,6 +4,34 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### Last few Befunge-related Announcements of 2018
+
+*   summary: Last few [Befunge](http://catseye.tc/node/Befunge)-related announcements from 2018.
+*   date: Mon, 31 Dec 2018 19:49:11 GMT
+
+A few more [Befunge-93](http://catseye.tc/node/Befunge-93)-related things
+that happened in 2018, the 25th anniversary year of Befunge-93.  Since
+2018 is rapidly coming to a close, this is our last opportunity to mention
+them in this context — and so here they are.
+
+*   Daniel Temkin published a write-up,
+    [Befunge (25 Years Of)](http://esoteric.codes/blog/befunge),
+    earlier in the year.  We already mentioned it, but only in passing — and
+    there have been some revisions to it since then.
+    It's definitely worth highlighting here, once again.
+*   James Holderness
+    [informs us](https://github.com/catseye/Falderal/issues/3#issuecomment-443452141)
+    that Befunge is back in
+    [the top 100 languages on Rosetta Code](https://www.rosettacode.org/wiki/Rosetta_Code/Rank_languages_by_popularity/Full_list).
+*   James Holderness has also
+    [fixed and completed `bridgeit.bf`](https://github.com/catseye/Befunge-93/issues/31),
+    an example program that's been included in the Befunge-93 distribution,
+    broken and completely undocumented, since almost the beginning.  The game can now be played!
+*   Demur Rumed has been working on an implementation of Befunge-93 in Rust
+    called [barfs](https://github.com/serprex/Befunge/tree/master/barfs)
+    which hopes to leverage [Cranelift](https://github.com/CraneStation/cranelift) for
+    code generation.
+
 ### Silver Jubilee Edition of Befunge-93 released
 
 *   summary: The Silver Jubilee Edition of [Befunge-93](http://catseye.tc/node/Befunge-93) has been released!
