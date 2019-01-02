@@ -3797,6 +3797,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/yastasoti-0.2.zip", 
                 "version": "0.2"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/yastasoti-0.3.zip", 
+                "version": "0.3"
             }
         ],
         "reponame": "yastasoti",
