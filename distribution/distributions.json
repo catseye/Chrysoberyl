@@ -3070,6 +3070,11 @@
                 "revision": "2015.0629", 
                 "url": "http://catseye.tc/distfiles/whothm-1.0-2015.0629.zip", 
                 "version": "1.0"
+            },
+            {
+                "revision": "2018.1009", 
+                "url": "http://catseye.tc/distfiles/whothm-1.0-2018.1009.zip", 
+                "version": "1.0"
             }
         ], 
         "reponame": "Whothm"
