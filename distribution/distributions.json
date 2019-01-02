@@ -3455,6 +3455,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/kinoje-0.3.zip", 
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/kinoje-0.4.zip", 
+                "version": "0.4"
             }
         ], 
         "reponame": "kinoje", 
