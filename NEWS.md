@@ -4,6 +4,25 @@
 *   url: http://catseye.tc/feeds/atom_30_news.xml
 *   link-to-anchors-on: http://catseye.tc/article/News
 
+### SixtyPical 0.18 released
+
+*   summary: Version 0.18 of [SixtyPical](http://catseye.tc/node/SixtyPical) has been released.
+*   date: Fri, 04 Jan 2019 11:27:41 GMT
+
+We've released the latest version of [SixtyPical](http://catseye.tc/node/SixtyPical),
+our low-level 6502-like language with abstract analysis.  In particular, how blocks
+are analyzed has been cleaned up.  When two block diverge (such as in an `if` statement),
+they no longer need to keep the same values initialized; instead, the two contexts
+are merged afterwards — any location that is trashed in one block will continue to be
+trashed after both blocks.  (And if that introduces a problem after both blocks, the
+analyzer will catch that problem there.)  Also, a `goto` may appear at the end of any
+reasonable block, not solely at the end of a routine, so long as the initialization
+constraints all work out as declared.  (The context at the `goto` must be compatible
+with the context at the end of the routine.)
+
+Our hope is that these changes will pave the way for optimizations such as tail calls
+and dead code removal.
+
 ### Last few Befunge-related Announcements of 2018
 
 *   summary: Last few [Befunge](http://catseye.tc/node/Befunge)-related announcements from 2018.
