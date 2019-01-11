@@ -3680,6 +3680,11 @@
                 "revision": "0.0", 
                 "url": "http://catseye.tc/distfiles/shelf-0.3.zip", 
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0", 
+                "url": "http://catseye.tc/distfiles/shelf-0.4.zip", 
+                "version": "0.4"
             }
         ], 
         "reponame": "shelf", 
