@@ -27,8 +27,8 @@ By selecting sample programs and watching them run, you can gain an appreciation
 language works; by composing your own programs, you can gain an even better appreciation.
 
 You may also be interested in reading about
-[what it was like to design these](../view/The-Dossier/README.md#programming-languages)
-or [the ones that got away](LoUIE.md).
+[what it was like to design these](http://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md)
+or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 
 ### Full Moon Fever
 
