@@ -651,14 +651,14 @@ will consume them in order, and continue running.
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
-*   javascript-module: zowie
-*   javascript-urls: ../../contrib/skulpt-0.11.0/skulpt.min.js,../../contrib/skulpt-0.11.0/skulpt-stdlib.js,../../scripts/zowie-examples.js,../../scripts/launch-zowie.js
-*   script-root: ../modules/HTML5-Gewgaws/colourring/
-*   style: .internal_source { display: none; } .initial_configuration { display: none; } #output { border: 1px solid blue; }
+*   javascript-module: ZOWIE
+*   javascript-urls: ../../contrib/skulpt-0.11.0/skulpt.min.js,../../contrib/skulpt-0.11.0/skulpt-stdlib.js,eg/index.js,eg/launch-zowie.js
+*   script-root: ../modules/ZOWIE/eg/
+*   style: #installation { margin: 1em auto; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
 
 This is an [HTML5][]-based interpreter for the
-[esoteric programming language][] [ZOWIE][].
+esoteric programming language [ZOWIE][].
 The reference implementation of the interpreter, written in [Python][],
 is itself being interpreted by [Skulpt][], written in [Javascript][].
 
