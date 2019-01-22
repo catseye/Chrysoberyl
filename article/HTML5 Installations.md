@@ -654,7 +654,7 @@ will consume them in order, and continue running.
 *   javascript-module: ZOWIE
 *   javascript-urls: ../../contrib/skulpt-0.11.0/skulpt.min.js,../../contrib/skulpt-0.11.0/skulpt-stdlib.js,eg/index.js,eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
-*   style: #installation { margin: 1em auto; } #output { border: 1px solid blue; }
+*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](http://catseye.tc/ix/ZOWIE)
 
 This is an [HTML5][]-based interpreter for the
