@@ -3,6 +3,10 @@
         "anchor": "6502", 
         "filename": "article/Retrocomputing.md"
     }, 
+    "Amiga": {
+        "anchor": "amiga-500", 
+        "filename": "article/Retrocomputing.md"
+    }, 
     "AmigaDOS 1.3": {
         "anchor": "amiga-500", 
         "filename": "article/Retrocomputing.md"

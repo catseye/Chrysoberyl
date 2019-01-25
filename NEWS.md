@@ -198,11 +198,11 @@ except instead of provisioning VMs, it provisions emulators.
 
 Recently, we brought its [Apple II](http://catseye.tc/node/Apple_II) support
 up to a working level, fixed its support for [FreeDOS](http://catseye.tc/node/FreeDOS),
-and restored support for [Amiga 500](http://catseye.tc/node/Amiga 500)
+and restored support for [Amiga 500](http://catseye.tc/node/Amiga%20500)
 which was removed entirely in a previous version because it was so lacking.
 We're pleased to report that it can now set up a development environment
 capable of compiling [bef.c](http://catseye.tc/node/Befunge-93) and
-several of our other projects under [AmigaDOS 1.3](http://catseye.tc/node/AmigaDOS 1.3).)
+several of our other projects under [AmigaDOS 1.3](http://catseye.tc/node/AmigaDOS%201.3).)
 
 One such other project is our implementation of [Underload](http://esolangs.org/wiki/Underload)
 in ANSI C, [stringie](http://catseye.tc/node/stringie).
