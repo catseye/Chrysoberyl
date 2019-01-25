@@ -290,7 +290,18 @@
         "url": "http://catseye.tc/"
     },
     "Distribution": {
-        "url": "https://github.com/catseye/"
+        "url": "https://git.catseye.tc/"
+    },
+
+
+    "City Connection": {
+        "url": "http://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md#city-connection"
+    },
+    "Alphaman": {
+        "url": "http://catseye.tc/view/The-Dossier/article/Role-Playing%20Games%20of%20Note.md#alphaman"
+    },
+    "Write your own Adventure Programs for your Microcomputer": {
+        "url": "http://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md#write-your-own-adventure-programs-for-your-microcomputer"
     },
 
 
