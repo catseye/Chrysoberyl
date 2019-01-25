@@ -375,14 +375,14 @@ executable!
 *   license: Freely Redistributable
 *   implementation-type: compiler
 *   host-language: [NASM Assembler][]
-*   target-language: x86 machine code
+*   target-language: [x86 machine code][]
 
 #### Implementation: sheltas
 
 *   license: Freely Redistributable
 *   implementation-type: compiler
 *   host-language: [Shelta][]
-*   target-language: x86 machine code
+*   target-language: [x86 machine code][]
 
 ### Bear Food
 
@@ -461,7 +461,7 @@ sheer fact that a compiler for it has been hacked together.
 *   license: Unknown license
 *   implementation-type: compiler
 *   host-language: [ANSI C][]
-*   target-language: x86 machine code
+*   target-language: [x86 machine code][]
 *   in-distributions: [ILLGOL distribution](http://catseye.tc/distribution/ILLGOL_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 ### Illgola-2
@@ -2884,4 +2884,5 @@ Pophery is an imperative string-rewriting language.  I know right?
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
 [Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
 [Madison]: ../article/Languages.md#madison
+[x86 machine code]: ../article/Retrocomputing.md#ms-dos
 

@@ -509,7 +509,7 @@ console, and the evaluation process never finishing.
 *   installed-implementation: shelta
 *   interactive: true
 *   animated: true
-*   mediums: x86 machine code, FreeDOS, v86, HTML5
+*   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
 *   online @ [catseye.tc](http://catseye.tc/ix/Shelta)
 

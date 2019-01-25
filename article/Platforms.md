@@ -42,7 +42,7 @@ A pre-built disk image is available to download via
 ![BefOS](http://static.catseye.tc/images/screenshots/BefOS.png)
 
 *   subtitle: **An Operating System for the Linearly Challenged**
-*   native-language: x86 machine code
+*   native-language: [x86 machine code][]
 *   other-languages: Befunge-93 (this is sort-of almost true)
 *   inception-date: ca 1999
 *   development-stage: archival
@@ -84,4 +84,5 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [Funicular]: ../article/Tools.md#funicular
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [Perl]: ../article/Project%20Dependencies.md#perl
+[x86 machine code]: ../article/Retrocomputing.md#ms-dos
 
