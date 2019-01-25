@@ -1,6 +1,7 @@
 Musical Compositions
 ====================
 
+*   image_url: http://static.catseye.tc/images/illustrations/Accordion_(PSF).jpg
 *   common auspices: What is this I don't even
 *   common authors: Chris Pressey
 *   common type: Musical Composition

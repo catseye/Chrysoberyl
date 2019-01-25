@@ -1,6 +1,7 @@
 Games
 =====
 
+*   image_url: http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common development-stage: mature

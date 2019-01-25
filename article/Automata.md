@@ -1,6 +1,8 @@
 Automata
 ========
 
+*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
+
 Unfortunately the distinction between an Automaton and a [Language](Languages.md) or a
 [Gewgaw](Gewgaws.md) is not always cut-and-dried so you might want to see those articles
 as well.

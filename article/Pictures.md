@@ -1,6 +1,8 @@
 Pictures
 ========
 
+*   image_url: http://static.catseye.tc/images/pictures/Ink%20salad%20No.%207.png
+
 As with the [musical compositions](Musical%20Compositions.md), there is some controversy over whether this list
 should be in Chrysoberyl, or elsewhere.  And by "controversy" I mean, I can't decide.
 

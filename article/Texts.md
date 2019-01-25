@@ -1,6 +1,7 @@
 Texts
 =====
 
+*   image_url: http://static.catseye.tc/images/illustrations/Reader_St_Jamess_Park.jpg
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common type: Text

@@ -1,6 +1,7 @@
 List of Unfinished Interesting Esolangs
 =======================================
 
+*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 *   summary: A list of "open problems" in esoteric programming language design
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey

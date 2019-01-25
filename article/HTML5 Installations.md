@@ -1,6 +1,9 @@
 HTML5 Installations
 ===================
 
+*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
+*   ok-to-use-as-input-when-creating-a-refdex: false
+
 This is a list of [games][], [platforms][], [automata][], [languages][], and [gewgaws][]
 which have HTML5 installations hosted online on [Cat's Eye Technologies][]'
 website, `catseye.tc`.
@@ -9,8 +12,6 @@ It contains some instructions for using each of these installations.
 
 Note: some of the properties on the installation entries are meant to be
 more machine-read than human-read, but you can just skip over those.
-
-Internal note: this file should not be used as input when creating a refdex.
 
 ### Bubble Escape
 

@@ -1,10 +1,12 @@
 Electronics Projects
 ====================
 
+*   image_url: http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common type: Electronics Project
 
+Electronics projects that Cat's Eye Technologies has designed (and sometimes built, too).
 
 ### Mildred
 

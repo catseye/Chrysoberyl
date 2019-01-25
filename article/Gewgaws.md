@@ -1,6 +1,7 @@
 Gewgaws
 =======
 
+*   image_url: http://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg
 *   common reference implementation language: Javascript
 *   common reference implementation license: Public Domain
 *   common reference implementation platform: HTML5

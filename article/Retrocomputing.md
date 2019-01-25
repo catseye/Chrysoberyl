@@ -1,6 +1,8 @@
 Retrocomputing
 ==============
 
+*   image_url: http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
+
 This document contains stuff done at Cat's Eye Technologies on older computers
 (or more often, an emulation of such a computer on a modern computer), and tries
 to list what you might need to run them, over and above the standard contemporary

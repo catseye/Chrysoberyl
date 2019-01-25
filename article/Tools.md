@@ -1,6 +1,8 @@
 Tools
 =====
 
+*   image_url: http://static.catseye.tc/images/illustrations/Allen_wrench_and_screw_(PSF).jpg
+
 Note that the precise distinctions between a Tool, a Platform, and a Library are debatable,
 and entries may be categorized somewhat arbitrarily.
 
