@@ -35,7 +35,7 @@ Fork began Dec 13, 2011.
 *   license: LGPL
 *   host language: [C99][]
 *   inception date: Jan 7, 2002
-*   in distribution: [https://github.com/catseye/OpenZz](https://github.com/catseye/OpenZz)
+*   in distribution: [OpenZz distribution](https://catseye.tc/distribution/OpenZz_distribution)
 
 Forked because [Zzrk][] depends on it, and I want to maintain that.
 
@@ -53,7 +53,7 @@ Emulators
 *   license: GPL
 *   host language: [Java][]
 *   inception date: 2006
-*   in distribution: [https://github.com/catseye/JaC64](https://github.com/catseye/JaC64)
+*   in distribution: [JaC64 distribution](https://catseye.tc/distribution/JaC64_distribution)
 
 A Commodore 64 emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  It has always ran as a
@@ -71,7 +71,7 @@ nothing from the maintainer.  Thus we keep this fork.
 *   license: Artistic License
 *   host language: [Java][]
 *   inception date: Nov 16, 2001
-*   in distribution: [https://github.com/catseye/Zplet](https://github.com/catseye/Zplet)
+*   in distribution: [Zplet distribution](https://catseye.tc/distribution/Zplet_distribution)
 
 A Z-Machine emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  We modified it so that
@@ -87,7 +87,7 @@ This was for [The Never-Ending Maze][].
 *   license: GPL
 *   host language: [C++][]
 *   inception date: 1994 (as AppleWin)
-*   in distribution: [https://github.com/catseye/linapple](https://github.com/catseye/linapple)
+*   in distribution: [linapple distribution](https://catseye.tc/distribution/linapple_distribution)
 
 An Apple II emulator.  We maintain a fork only to make it work like
 a proper Unix command-line utility and thus play nicely with
@@ -99,7 +99,7 @@ Tools
 ### klaus
 
 *   license: MIT-like
-*   in distribution: [https://github.com/catseye/klaus](https://github.com/catseye/klaus)
+*   in distribution: [klaus distribution](https://catseye.tc/distribution/klaus_distribution)
 
 Klaus is a nice-and-simple Git web interface that we are using
 to run [git.catseye.tc](http://git.catseye.tc/).
@@ -107,7 +107,7 @@ to run [git.catseye.tc](http://git.catseye.tc/).
 ### ee
 
 *   license: BSD 2-clause
-*   in distribution: [https://github.com/catseye/ee](https://github.com/catseye/ee)
+*   in distribution: [ee distribution](https://catseye.tc/distribution/ee_distribution)
 
 `ee` is the "easy editor" which comes with [FreeBSD][].  Cat's Eye Technologies
 extracted it from there so we could have a nicer text editor in [The Platform][].
@@ -131,7 +131,7 @@ string-rewriting-based editing commands.
 
 *   license: GPL
 *   inception date: 1998
-*   in distribution: [https://github.com/catseye/a2tools](https://github.com/catseye/a2tools)
+*   in distribution: [a2tools distribution](https://catseye.tc/distribution/a2tools_distribution)
 
 `a2tools` is a set of programs for copying files off of and onto
 [Apple II][] floppy disk images.  We use it as part of [Funicular][].
