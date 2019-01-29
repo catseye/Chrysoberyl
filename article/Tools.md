@@ -89,7 +89,7 @@ to outfit and run a system for it, using Funicular.
 It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
 as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][],
 [AmigaDOS 1.3][] on an [Amiga 500][] under [E-UAE][],
-[Applesoft BASIC][] on an [Apple II][] under [linapple](https://github.com/catseye/linapple/),
+[Applesoft BASIC][] on an [Apple II][] under [linapple][],
 and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.sourceforge.net/).
 
 #### Implementation: funicular
@@ -428,4 +428,5 @@ framework, which is in Java.
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [rsync]: https://rsync.samba.org/
 [poka-yoke]: https://en.wikipedia.org/wiki/Poka-yoke
+[linapple]: ../article/Forks.md#linapple
 

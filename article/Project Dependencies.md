@@ -347,7 +347,7 @@ The CPU was a 6502.  [Applesoft BASIC][] was often in the ROM, but it could have
 loaded from tape or disk.
 
 Emulators: [AppleWin](https://www.zophar.net/apple2/applewin.html) is an emulator for the Apple II, built for Windows,
-written in C++ and distributed under the GPL.  [Linapple](https://github.com/catseye/linapple)
+written in C++ and distributed under the GPL.  [linapple][]
 is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of other emulators.
 
 ### Commodore VIC-20
@@ -566,4 +566,5 @@ There was also an "Integer Basic".
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Blurry Memories of DOS Programming]: https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
+[linapple]: ../article/Forks.md#linapple
 
