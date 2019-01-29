@@ -217,7 +217,7 @@ but apparently 1.9 is just too old and not maintained anymore.
 
 Anyway, here is [a fairly good Ruby tutorial](http://www.fincher.org/tips/Languages/Ruby/).
 
-### Ophis
+### Ophis Assembler
 
 *   specification-link: https://github.com/michaelcmartin/Ophis
 
@@ -363,12 +363,13 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 ### Commodore 64
 
-*   specification-link: https://www.commodore.ca/manuals/c64_users_guide/c64-users_guide-00-toc_introduction.pdf
+*   specification-link: [Commodore 64 Programmer's Reference Guide](https://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm)
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
 Rundown: The CPU was a 6510, which was a slightly modified 6502.  [Commodore BASIC 2.0][] was in the ROM;
 this is the same BASIC that was in the VIC-20.
 The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it merely a guide?
+There was also a [User's Guide](https://www.commodore.ca/manuals/c64_users_guide/c64-users_guide-00-toc_introduction.pdf).
 Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
 
 Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
@@ -550,4 +551,19 @@ There was also an "Integer Basic".
 [xmp]: http://xmp.sourceforge.net/
 [Sonant Tracker]: http://www.pouet.net/prod.php?which=53615
 [Sonant Live]: http://sonantlive.bitsnbites.eu/
+[Zplet]: ../article/Forks.md#zplet
+[Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
+[Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
+[Commodore VIC-20]: ../article/Project%20Dependencies.md#commodore-vic-20
+[Apple II]: ../article/Project%20Dependencies.md#apple-ii
+[6502]: ../article/Project%20Dependencies.md#6502
+[Commodore 64 Programmer's Reference Guide]: https://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
+[JaC64]: ../article/Forks.md#jac64
+[SixtyPical]: ../article/Languages.md#sixtypical
+[SITU-SOL]: ../article/Languages.md#situ-sol
+[Javascript]: ../article/Project%20Dependencies.md#javascript
+[C++]: http://www.open-std.org/jtc1/sc22/wg21/
+[Blurry Memories of DOS Programming]: https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
+[IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 

@@ -214,7 +214,7 @@ See Also
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 [Commodore VIC-20]: ../article/Project%20Dependencies.md#commodore-vic-20
 [Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
-[Ophis Assembler]: ../article/Project%2520Dependencies.md#ophis
+[Ophis Assembler]: ../article/Project%20Dependencies.md#ophis-assembler
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Hunt the Wumpus]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
