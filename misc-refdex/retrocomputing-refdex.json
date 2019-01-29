@@ -12,8 +12,7 @@
         "filename": "article/Project%20Dependencies.md"
     }, 
     "Bochs": {
-        "anchor": "ms-dos", 
-        "filename": "article/Project%20Dependencies.md"
+        "url": "http://bochs.sourceforge.net/"
     }, 
     "Borland C++ compiler": {
         "url": "https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md"
@@ -34,10 +33,6 @@
         "anchor": "ms-dos", 
         "filename": "article/Project%20Dependencies.md"
     }, 
-    "Ophis Assembler": {
-        "anchor": "ophis", 
-        "filename": "article/Project%20Dependencies.md"
-    },
     "QEMU": {
         "anchor": "ms-dos", 
         "filename": "article/Project%20Dependencies.md"

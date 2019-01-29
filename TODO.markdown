@@ -143,9 +143,6 @@ and Borland C++; or in a more involved way, polyglots):
 
 Sort other collections (games, tools, language implementations) by date.
 
-When the only dependency is IBM PC compatible -- special case that,
-don't recommend Bochs like that :/
-
 "Portable" for POSIX and NetBSD.
 
 Petulant Cursor and RIBOS share all their documentation.  And don't

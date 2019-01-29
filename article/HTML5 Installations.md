@@ -150,7 +150,7 @@ included in the default build.
 
 If v86 doesn't work in your browser, you can
 [download the disk image](https://catseye.tc/distfiles/befos-0.10.img)
-and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
+and use it in an emulator such as [QEMU][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
@@ -542,7 +542,7 @@ these files online:
 
 If v86 doesn't work in your browser, you can
 [download the disk image](https://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-2.img)
-and use it in an emulator such as [QEMU][] or [Bochs][] or [DOSBox][]
+and use it in an emulator such as [QEMU][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
@@ -1350,7 +1350,6 @@ Use the navigation buttons to traverse the space of the work.
 [BackFlip]: http://esolangs.org/wiki/BackFlip
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Black]: http://esolangs.org/wiki/Black
-[Bochs]: ../article/Project%2520Dependencies.md#ms-dos
 [Braktif]: ../article/Automata.md#braktif
 [Circute]: ../article/Automata.md#circute
 [Cyclobots]: ../article/Automata.md#cyclobots
