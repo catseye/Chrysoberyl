@@ -1404,6 +1404,7 @@ Use the navigation buttons to traverse the space of the work.
 [Prairie]: ../article/Gewgaws.md#prairie
 [Progression]: ../article/Gewgaws.md#progression
 [Radialjective]: ../article/Gewgaws.md#radialjective
+[Spadgets]: ../article/Gewgaws.md#spadgets
 [Tentacles, Undamped]: ../article/Gewgaws.md#tentacles-undamped
 [Text Uniquifier]: ../article/Gewgaws.md#text-uniquifier
 [The Frame]: ../article/Gewgaws.md#the-frame
