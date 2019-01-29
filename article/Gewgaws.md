@@ -4,8 +4,8 @@ Gewgaws
 *   common reference implementation language: Javascript
 *   common reference implementation license: Public Domain
 *   common reference implementation platform: HTML5
-*   image_url: https://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg
 *   display-illustration: false
+*   image_url: https://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg
 
 In [Chrysoberyl][] parlance, a _gewgaw_ is the digital version of a
 bagatelle (music) or a doodle (visual art).  It almost always involves

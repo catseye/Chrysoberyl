@@ -1,8 +1,8 @@
 Retrocomputing
 ==============
 
-*   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 *   display-illustration: false
+*   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 
 This document contains stuff done at Cat's Eye Technologies on older computers
 (or more often, an emulation of such a computer on a modern computer), and tries
@@ -85,6 +85,8 @@ in its class.
 XMODEM protocol at 300 baud.
 
 #### SITU-PAN
+
+![SITU-PAN](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nr19fai3D41tvda25_540.jpg)
 
 **[SITU-PAN][]** is a front-panel switches simulator for the Commodore 64. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
 

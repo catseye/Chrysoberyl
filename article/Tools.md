@@ -37,6 +37,9 @@ is emulated on whatever user interface is really available.
 
 ### DiskSumo
 
+![DiskSumo main menu](https://static.catseye.tc/images/screenshots/DiskSumo.png)
+![DiskSumo during transfer](https://static.catseye.tc/images/screenshots/DiskSumo%20%28transfer%29.png)
+
 *   inception-date: ca 2005
 *   reference-distribution: [DiskSumo distribution](https://catseye.tc/distribution/DiskSumo_distribution)
 
@@ -201,6 +204,8 @@ written in Python.
 
 ### SITU-MON
 
+![SITU-MON](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nrdcglfU4p1tvda25_540.png)
+
 *   inception-date: Jul 2015
 *   development-stage: mature
 *   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
@@ -217,6 +222,8 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 *   host-platform: [Commodore 64][]
 
 ### SITU-PAN
+
+![SITU-PAN](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nr19fai3D41tvda25_540.jpg)
 
 *   inception-date: Jul 2015
 *   development-stage: mature

@@ -349,6 +349,8 @@ multi-dimensional languages.
 
 ### Shelta
 
+![An example session with Shelta](https://static.catseye.tc/images/screenshots/Shelta.png)
+
 *   type: Programming Language
 *   inception-date: ca Jul 1999
 *   genre: Esolang
@@ -435,6 +437,8 @@ a strict type system, and some unusual rules for parameters and return values.
 
 ### ILLGOL
 
+![An example session with ILLGOL](https://static.catseye.tc/images/screenshots/ILLGOL.png)
+
 *   type: Programming Language
 *   inception-date: ca Apr 2000
 *   genre: Joke language
@@ -491,6 +495,8 @@ Successor to [Illgola-2][].
 Successor to [Illberon][].
 
 ### Apple Befunge
+
+![Apple Befunge](https://static.catseye.tc/images/screenshots/Apple%20Befunge.png)
 
 *   type: Programming Language
 *   inception-date: Jul 3, 2000
@@ -2639,6 +2645,8 @@ which Matchbox can run and show correct.
 *   host-platform: [HTML5][]
 
 ### SITU-SOL
+
+![SITU-SOL](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nrw4gcaz1J1tvda25_540.png)
 
 *   type: Programming Language
 *   inception-date: Jul 2015

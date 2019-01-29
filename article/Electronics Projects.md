@@ -4,8 +4,8 @@ Electronics Projects
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common type: Electronics Project
-*   image_url: https://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg
 *   display-illustration: false
+*   image_url: https://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg
 
 Electronics projects that Cat's Eye Technologies has designed (and sometimes built, too).
 
