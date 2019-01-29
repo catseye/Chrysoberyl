@@ -221,7 +221,7 @@ Anyway, here is [a fairly good Ruby tutorial](http://www.fincher.org/tips/Langua
 
 *   specification-link: https://github.com/michaelcmartin/Ophis
 
-Ophis is an assembler (and its concomitant assembly language) for the 6502 and related
+Ophis is an assembler (and its concomitant assembly language) for the [6502][] and related
 processors, which some of our 6502 code is written in.
 
 Tools and Libraries
@@ -411,7 +411,8 @@ Emulators: There's an emulator for the Amiga 500 architecture (and several other
 called UAE.  It's written in C++ and available under the GPL, and while the build of it for windows,
 [WinUAE](http://www.winuae.net/), seems basically stable, every decade or so the Unix version gets forked into
 a new incarnation.  A few years ago, [E-UAE](http://www.rcdrummond.net/uae/) was the thing to use, but now it's
-apparently [FS-UAE](https://fs-uae.net/).
+apparently [FS-UAE](https://fs-uae.net/).  Last I tried it, E-UAE still worked for me, but I have had mixed
+experiences trying to build it over the years.
 
 ### IBM PC compatible
 
