@@ -2891,8 +2891,8 @@ Pophery is an imperative string-rewriting language.  I know right?
 [The Aesthetics of Esolangs]: https://catseye.tc/view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
-[80286 machine code]: ../article/Retrocomputing.md#ms-dos
+[80286 machine code]: ../article/Project%2520Dependencies.md#ms-dos
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Madison]: ../article/Languages.md#madison
-[x86 machine code]: ../article/Retrocomputing.md#ms-dos
+[x86 machine code]: ../article/Project%2520Dependencies.md#ms-dos
 

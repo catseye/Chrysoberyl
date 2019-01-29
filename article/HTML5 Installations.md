@@ -1318,12 +1318,12 @@ Use the navigation buttons to traverse the space of the work.
 [platforms]: ../article/Platforms.md
 [JaC64]: ../article/Forks.md#jac64
 [Zplet]: ../article/Forks.md#zplet
-[Z-Machine code]: ../article/Retrocomputing.md#z-machine
+[Z-Machine code]: ../article/Project%2520Dependencies.md#z-machine
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
-[6502 machine code]: ../article/Retrocomputing.md#6502
-[x86 machine code]: ../article/Retrocomputing.md#ms-dos
-[v86]: ../article/Retrocomputing.md#ms-dos
+[6502 machine code]: ../article/Project%2520Dependencies.md#6502
+[x86 machine code]: ../article/Project%2520Dependencies.md#ms-dos
+[v86]: ../article/Project%2520Dependencies.md#ms-dos
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
 [Python]: ../article/Project%20Dependencies.md#python
@@ -1350,19 +1350,19 @@ Use the navigation buttons to traverse the space of the work.
 [BackFlip]: http://esolangs.org/wiki/BackFlip
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Black]: http://esolangs.org/wiki/Black
-[Bochs]: ../article/Retrocomputing.md#ms-dos
+[Bochs]: ../article/Project%2520Dependencies.md#ms-dos
 [Braktif]: ../article/Automata.md#braktif
 [Circute]: ../article/Automata.md#circute
 [Cyclobots]: ../article/Automata.md#cyclobots
-[DOSBox]: ../article/Retrocomputing.md#ms-dos
+[DOSBox]: ../article/Project%2520Dependencies.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
-[FreeDOS]: ../article/Retrocomputing.md#ms-dos
+[FreeDOS]: ../article/Project%2520Dependencies.md#ms-dos
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
 [PATH]: http://esolangs.org/wiki/PATH
-[QEMU]: ../article/Retrocomputing.md#ms-dos
+[QEMU]: ../article/Project%2520Dependencies.md#ms-dos
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [REDGREEN]: ../article/Automata.md#redgreen
 [SMETANA]: ../article/Automata.md#smetana

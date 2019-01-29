@@ -396,27 +396,27 @@ framework, which is in Java.
 *   license: Public Domain
 *   host-language: [Javascript][]
 
-[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[AmigaDOS 1.3]: ../article/Project%2520Dependencies.md#amiga-500
 [Amiga 500]: ../article/Project%20Dependencies.md#amiga-500
-[E-UAE]: ../article/Retrocomputing.md#amiga-500
+[E-UAE]: ../article/Project%2520Dependencies.md#amiga-500
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
-[FreeDOS]: ../article/Retrocomputing.md#ms-dos
+[FreeDOS]: ../article/Project%2520Dependencies.md#ms-dos
 [Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 [A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
 [NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [6502]: ../article/Project%20Dependencies.md#6502
-[6502 machine code]: ../article/Retrocomputing.md#6502
+[6502 machine code]: ../article/Project%2520Dependencies.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
 [Retrocomputing]: https://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
-[QEMU]: ../article/Retrocomputing.md#ms-dos
+[QEMU]: ../article/Project%2520Dependencies.md#ms-dos
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic

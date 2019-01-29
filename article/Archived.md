@@ -242,10 +242,10 @@ Links
 *   [AlertBox](http://www.useit.com/alertbox/), a popular column on Web usability
 *   [TinyApps.org](http://www.tinyapps.org/), "A guide to very small software for your PC"
 
-[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[AmigaDOS 1.3]: ../article/Project%2520Dependencies.md#amiga-500
 [Amiga 500]: ../article/Project%20Dependencies.md#amiga-500
 [Eightebed]: ../article/Languages.md#eightebed
-[E-UAE]: ../article/Retrocomputing.md#amiga-500
+[E-UAE]: ../article/Project%2520Dependencies.md#amiga-500
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Funicular]: ../article/Tools.md#funicular

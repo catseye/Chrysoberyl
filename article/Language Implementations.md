@@ -349,7 +349,7 @@ Wireworld, in ALPACA.
 [Wireworld]: http://en.wikipedia.org/wiki/Wireworld
 [ALPACA]: ../article/Languages.md#alpaca
 [Scheme]: ../article/Project%20Dependencies.md#scheme
-[AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
+[AmigaDOS 1.3]: ../article/Project%2520Dependencies.md#amiga-500
 [Zz]: https://catseye.tc/modules/OpenZz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk
 [Ruby]: ../article/Project%20Dependencies.md#ruby

@@ -84,5 +84,5 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 [Funicular]: ../article/Tools.md#funicular
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [Perl]: ../article/Project%20Dependencies.md#perl
-[x86 machine code]: ../article/Retrocomputing.md#ms-dos
+[x86 machine code]: ../article/Project%2520Dependencies.md#ms-dos
 
