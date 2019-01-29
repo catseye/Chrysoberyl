@@ -6,14 +6,11 @@ Cat's Eye Technologies.  This includes interpreters and compilers for the
 programming languages our projects are written in, the platforms or operating
 systems that they run on, and libraries and tools they might require when run.
 
-It should be noted that [The Cat's Eye Technologies Platform][] was started
-specifically to provide a platform where most all of Cat's Eye Technologies'
-software projects can run.  Therefore this document may refer to that project
-in many places.
-
-Some projects depend on technology which is, nowadays, considered
-"retrotechnology", and those project dependencies can be found in the
-[Retrocomputing](../article/Retrocomputing.md) article instead of here.
+Some of these dependencies might be technologies which are, nowadays,
+considered historical.  Legacy.  Retro.  Vintage.  *Old*.  These dependencies
+are listed at the bottom, under "Retro Architectures" and "Retro Languages".
+For more information about Retrocomputing at Cat's Eye Technologies, see the
+[Retrocomputing](../article/Retrocomputing.md) article.
 
 Languages
 ---------
@@ -60,8 +57,9 @@ been tested on, see [The Cat's Eye Technologies Platform][].
 
 *   specification-link: [Python.org](http://www.python.org/)
 
-Our Python projects are written in Python 2.7.  For more precise version numbers
-they have been tested on, see [The Cat's Eye Technologies Platform][].
+Our Python projects are written in Python 2.7.  Some of them (especially tools)
+are written so that they run under both Python 2.7 and Python 3.4.  For more precise
+version numbers they have been tested on, see [The Cat's Eye Technologies Platform][].
 
 ### Lua
 
@@ -71,6 +69,8 @@ Our Lua projects (barring any that may be in archived projects) are written in L
 and tested with Lua 5.1.4.
 
 Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x series.
+(On the other hand, our 5.1 code appears compatible with 5.2 and 5.3, but we have not
+audited it.)
 
 ### Scheme
 
@@ -124,6 +124,8 @@ Our Erlang projects are written in Erlang R16 and tested with
 Erlang/OTP R16B03-1.
 
 Note that this is a pretty old version of Erlang at this point.
+
+Note that the following paragraphs are sorely out of date.
 
 Note that compiled Erlang modules are `.beam` files in the `ebin`
 directory. The source code lives in the `src` directory, and an Erlang
@@ -181,7 +183,8 @@ For laughs, here are some old Javascript links that still work:
 Our Java projects are, as far as I can recall, written in Java 1.6.  They have not been tested
 recently, but when they were, it might have been under the Java SE 6 JDK 1.6.0.
 
-An implementation of Java is *not* included with The Platform.
+An implementation of Java is *not* included with
+[The Cat's Eye Technologies Platform][].
 
 Generally, we're trying to migrate away from it.  [Etcha][] was originally written
 in Java, but it now has a second implementation in Javascript.  ([Whothm][] needs
@@ -204,7 +207,8 @@ Some of our projects have some stuff written in Ruby — we implemented
 written *relies* on Ruby.  (The original version of [Velo][] was written
 in Ruby, but it was re-implemented in [Lua][].)
 
-Therefore an implementation of Ruby is *not* included with The Platform.
+Therefore an implementation of Ruby is *not* included with
+[The Cat's Eye Technologies Platform][].
 
 But the Ruby things should run in Ruby 1.8 or 1.9 or thereabouts, which
 you could once have downloaded [here](http://www.ruby-lang.org/en/downloads/) if you
@@ -212,6 +216,13 @@ agreed to this [BSD-compatible license](http://www.ruby-lang.org/en/about/licens
 but apparently 1.9 is just too old and not maintained anymore.
 
 Anyway, here is [a fairly good Ruby tutorial](http://www.fincher.org/tips/Languages/Ruby/).
+
+### Ophis
+
+*   specification-link: https://github.com/michaelcmartin/Ophis
+
+Ophis is an assembler (and its concomitant assembly language) for the 6502 and related
+processors, which some of our 6502 code is written in.
 
 Tools and Libraries
 -------------------
@@ -240,7 +251,7 @@ for a filepath which may contain symbolic links.
 
 I'm not sure if it's part of any standard, but it really should be, because it's
 very useful in scripts.  It does come bundled with many Linux distributions,
-but not with NetBSD, so for The Platform, we wrote
+but not with NetBSD, so for [The Cat's Eye Technologies Platform][], we wrote
 [our own implementation](https://catseye.tc/distribution/realpath_distribution) in [Python][].
 
 Interfaces
@@ -269,8 +280,8 @@ the format is named after the software.
 
 *   specification-link: ???
 
-This was a popular(?) music format for the Commodore 64.  There was an editor for
-this format called SID Editor, which was written largely in Commodore BASIC 2.0
+This was a popular(?) music format for the [Commodore 64][].  There was an editor for
+this format called SID Editor, which was written largely in [Commodore BASIC 2.0][]
 (there were some machine-language subroutines, but it was largely BASIC.)
 
 ### MIDI
@@ -322,6 +333,185 @@ and many other formats.
 
 [Sonant Live][] runs in a browser (Javascript and HTML5) and synthesizes its voices.
 There is also a [Sonant Tracker][] which uses the same format and runs on Windows.
+
+Retro Dependencies
+------------------
+
+### Apple II
+
+*   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
+
+Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
+The CPU was a 6502.  [Applesoft BASIC][] was often in the ROM, but it could have been
+loaded from tape or disk.
+
+Emulators: [AppleWin](https://www.zophar.net/apple2/applewin.html) is an emulator for the Apple II, built for Windows,
+written in C++ and distributed under the GPL.  [Linapple](https://github.com/catseye/linapple)
+is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html) has a list of other emulators.
+
+### Commodore VIC-20
+
+*   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
+
+Rundown: The CPU was a 6502.  [Commodore BASIC 2.0][] was in the ROM; this is the same BASIC that was
+in the Commodore 64.
+
+Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+distributed under the GPL, is a generally recommended emulator for the VIC-20.
+
+### Commodore 64
+
+*   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
+
+Rundown: The CPU was a 6510, which was a slightly modified 6502.  [Commodore BASIC 2.0][] was in the ROM;
+this is the same BASIC that was in the VIC-20.
+The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or is it merely a guide?
+Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
+
+Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+distributed under the GPL, is a generally recommended emulator for the Commodore 64.
+Also, [JaC64][] is a GPL Java application which emulates a Commodore 64.
+Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
+We forked it to fix some bugs and because mainline development seemed stalled.
+
+### 6502
+
+*   wikipedia: [MOS Technology 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502)
+
+The common thread of the above 3 architectures is that they all have a 6502 processor.
+Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf) (PDF).
+There are also a couple of C compilers that target 6502, famously [cc65](http://cc65.github.io/cc65/),
+but also [scc6502, a Small-C for 6502 and LUnix](https://web.archive.org/web/20110106052323/http://www.reocities.com/SiliconValley/Way/4588/scc6502.html).
+
+Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
+to any one architecture.
+
+### Amiga 500
+
+*   wikipedia: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
+
+Rundown: The CPU was a Motorola 68000, but this could be upgraded to a 68020, etc
+(and needed to be if you wanted memory protection).  It had many custom chips
+with colourful names such as "Angus" and "Paula".
+
+AmigaDOS 1.3 (with a [manual online here](http://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf))
+was the version of Amiga's operating system which was current when the Amiga 500
+was a really popular home computer — mostly for video games, but also for graphics
+and video processing, such as ray-tracing and animation.
+
+AmigaBasic was the name of the "advanced" variant of BASIC that shipped with
+AmigaDOS.  It was developed by Microsoft.
+
+Emulators: There's an emulator for the Amiga 500 architecture (and several other models such as the Amiga 2000)
+called UAE.  It's written in C++ and available under the GPL, and while the build of it for windows,
+[WinUAE](http://www.winuae.net/), seems basically stable, every decade or so the Unix version gets forked into
+a new incarnation.  A few years ago, [E-UAE](http://www.rcdrummond.net/uae/) was the thing to use, but now it's
+apparently [FS-UAE](https://fs-uae.net/).
+
+### IBM PC compatible
+
+*   wikipedia: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
+
+Rundown: The CPU was a 8086, or 80286, 80386, 80486... or just ["X86"](https://en.wikipedia.org/wiki/X86).
+Or ["IA-32"](http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html).
+Until you get to the 64-bit architectures — but that's not retrocomputing
+anymore.  (yet.)
+
+For any Cat's Eye Technologies project that claims to run on an "IBM PC compatible,"
+probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it worthwhile.
+
+Some modern PC's can handle running that sort of legacy setup, but most don't.
+Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
+
+For emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
+
+### MS-DOS
+
+*   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
+
+Rundown: By [Microsoft](http://microsoft.com/).  There's a good free clone of it
+called [FreeDOS](http://www.freedos.org/) which is
+written in (I'm guessing) C99 and assembler and distributed under the GPL.
+Can run `.BAT` files.  And x86 machine code `.COM` files.
+[DJGPP](http://www.delorie.com/djgpp/) is a port of GCC to MS-DOS.
+Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/).
+
+I wouldn't assume any modern Windows installation can handle running MS-DOS
+programs directly anymore.  Better to run it under an emulator.
+
+Emulators: there are a few recommended choices here:
+
+*   [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL)
+    is an emulator, available for many systems, which
+    simulates both an IBM PC compatible and
+    MS-DOS on top of it.  It should be plenty sufficient for running
+    DOS-based software found here.
+*   For a more heavyweight solution, you could install [FreeDOS](http://www.freedos.org/)
+    on a PC emulator such as [QEMU](http://www.qemu-project.org/).
+    (Note that QEMU can actually emulate many more architectures than just the IBM PC.)
+
+For other emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
+
+Any Cat's Eye Technologies project which claims to need MS-DOS only needs
+something which emulates MS-DOS sufficiently well. This includes both the
+standard DOS `INT 21h` handler, and the standard DOS utilies like, for example,
+`TYPE` and `DEBUG.COM`.
+
+There are only two projects of Cat's Eye Technologies' that
+require MS-DOS (or a compatible operating system) anymore, and
+these dependencies are only partial:
+
+### Z80
+
+*   wikipedia: [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80)
+
+The [Z80](http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf)
+is another 8-bit CPU that was popular.
+
+Here are some links:
+
+*   [Home of the Z80 CPU](http://www.z80.info/) — Lots of useful Z80 information, plus a clock circuit
+*   [TI-85 Assembler Programming](http://www.sealiesoftware.com/ti-asm/) — Z80 tutorial for the TI-85 calculator
+*   [Opening up Microchips](http://zeptobars.ru/en/read/open-microchip-asic-what-inside-II-msp430-pic-z80) — Innards of a Z80, and more
+
+### Z-Machine
+
+*   wikipedia: [Z-machine](https://en.wikipedia.org/wiki/Z-machine)
+
+It's actually a virtual machine designed by Infocom so they could port their interactive
+fiction onto a multitude of home computers.
+
+Here are its [specifications documents](http://inform-fiction.org/zmachine/standards/).
+
+Emulators: [Zplet][] is a Java application which emulates a Z-Machine.
+There are other, much better emulators, such as Frotz.
+
+Retro Languages
+---------------
+
+### BASIC
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+There are lots and lots and lots of variants of BASIC.  Some of our projects are
+written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
+
+### Commodore BASIC 2.0
+
+*   specification-link: http://en.wikipedia.org/wiki/BASIC
+
+BASIC for the [Commodore 64][] and [Commodore VIC-20][].  TODO: find better specification link.
+
+### Applesoft BASIC
+
+*   specification-link: https://en.wikipedia.org/wiki/Applesoft_BASIC
+
+This was a dialect of BASIC that was available for (in fact, generally shipped with) the [Apple II][].
+There is a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual).
+There was also an "Integer Basic".
+
+
+- - - -
 
 [The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
