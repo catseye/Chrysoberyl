@@ -147,11 +147,11 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [Java]: ../article/Project%20Dependencies.md#java
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
-[Z-Machine]: ../article/Retrocomputing.md#z-machine
+[Z-Machine]: ../article/Project%20Dependencies.md#z-machine
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Funicular]: ../article/Tools.md#funicular
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
-[Apple II]: ../article/Retrocomputing.md#apple-ii
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
+[Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [FreeBSD]: https://www.freebsd.org/
 

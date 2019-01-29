@@ -211,6 +211,6 @@ well:
 [programming languages]: https://catseye.tc/article/Languages.md
 [esolangs]: ../article/General%20Information.md#esolang
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
-[MS-DOS]: ../article/Retrocomputing.md#ms-dos
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[MS-DOS]: ../article/Project%20Dependencies.md#ms-dos
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 

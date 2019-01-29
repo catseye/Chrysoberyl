@@ -211,9 +211,9 @@ See Also
 
 - - - -
 
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
-[Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
-[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
+[Commodore VIC-20]: ../article/Project%20Dependencies.md#commodore-vic-20
+[Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
 [Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl

@@ -1357,7 +1357,7 @@ Use the navigation buttons to traverse the space of the work.
 [DOSBox]: ../article/Retrocomputing.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
-[IBM PC compatible]: ../article/Retrocomputing.md#ibm-pc-compatible
+[IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP

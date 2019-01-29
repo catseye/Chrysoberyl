@@ -2825,7 +2825,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
-[BASIC]: ../article/Retrocomputing.md#basic
+[BASIC]: ../article/Project%20Dependencies.md#basic
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: ../article/Languages.md#befunge-98
@@ -2834,7 +2834,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Carriage]: ../article/Languages.md#carriage
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 [Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards 2001]: ../article/Events.md#esoteric-awards-2001
 [Etcha]: ../article/Languages.md#etcha
@@ -2892,7 +2892,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos
-[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Madison]: ../article/Languages.md#madison
 [x86 machine code]: ../article/Retrocomputing.md#ms-dos
 

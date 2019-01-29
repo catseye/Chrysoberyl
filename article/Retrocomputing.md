@@ -139,14 +139,14 @@ will only run under [MS-DOS][] (or compatible).
 **[The Never-Ending Maze][]** is an Infocom-style text adventure game (a [Z-Machine][] story file)
 based on the defining cultural phenomenon of a generation. (Possibly.)
 
-[Apple II]: ../article/Retrocomputing.md#apple-ii
+[Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [Apple Befunge]: ../article/Languages.md#apple-befunge
 [Dungeons of Ekileugor]: ../article/Games.md#dungeons-of-ekileugor
-[Commodore VIC-20]: ../article/Retrocomputing.md#commodore-vic-20
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore VIC-20]: ../article/Project%20Dependencies.md#commodore-vic-20
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 [Bubble Escape]: ../article/Games.md#bubble-escape
 [DiskSumo]: ../article/Tools.md#disksumo
-[MS-DOS]: ../article/Retrocomputing.md#ms-dos
+[MS-DOS]: ../article/Project%20Dependencies.md#ms-dos
 [Shelta]: ../article/Languages.md#shelta
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
@@ -160,8 +160,8 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [The Dossier]: ../article/General%20Information.md#the-dossier
-[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
-[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
+[Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Blurry Memories of DOS Programming]: ../view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 [JaC64]: ../article/Forks.md#jac64
 [Zplet]: ../article/Forks.md#zplet

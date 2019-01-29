@@ -397,18 +397,18 @@ framework, which is in Java.
 *   host-language: [Javascript][]
 
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
-[Amiga 500]: ../article/Retrocomputing.md#amiga-500
+[Amiga 500]: ../article/Project%20Dependencies.md#amiga-500
 [E-UAE]: ../article/Retrocomputing.md#amiga-500
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
 [NetBSD]: http://netbsd.org/
 [FreeDOS]: ../article/Retrocomputing.md#ms-dos
-[Commodore BASIC 2.0]: ../article/Retrocomputing.md#commodore-basic-20
-[Commodore 64]: ../article/Retrocomputing.md#commodore-64
+[Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
+[Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
 [A Time for Destiny]: ../article/Texts.md#a-time-for-destiny
 [NaNoGenMo 2013]: ../article/Events.md#nanogenmo-2013
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
-[6502]: ../article/Retrocomputing.md#6502
+[6502]: ../article/Project%20Dependencies.md#6502
 [6502 machine code]: ../article/Retrocomputing.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
@@ -418,8 +418,8 @@ framework, which is in Java.
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Retrocomputing.md#ms-dos
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
-[Apple II]: ../article/Retrocomputing.md#apple-ii
-[Applesoft BASIC]: ../article/Retrocomputing.md#applesoft-basic
+[Apple II]: ../article/Project%20Dependencies.md#apple-ii
+[Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [toolshelf]: ../article/Archived.md#toolshelf
 [Python]: ../article/Project%20Dependencies.md#python
 [Javascript]: ../article/Project%20Dependencies.md#javascript

@@ -339,6 +339,7 @@ Retro Dependencies
 
 ### Apple II
 
+*   specification-link: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
 *   wikipedia: [Apple II](https://en.wikipedia.org/wiki/Apple_II)
 
 Rundown: The Apple II series of microcomputers included the Apple ][+ and Apple //e.
@@ -351,6 +352,7 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 
 ### Commodore VIC-20
 
+*   specification-link: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
 *   wikipedia: [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20)
 
 Rundown: The CPU was a 6502.  [Commodore BASIC 2.0][] was in the ROM; this is the same BASIC that was
@@ -361,6 +363,7 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 ### Commodore 64
 
+*   specification-link: https://www.commodore.ca/manuals/c64_users_guide/c64-users_guide-00-toc_introduction.pdf
 *   wikipedia: [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
 
 Rundown: The CPU was a 6510, which was a slightly modified 6502.  [Commodore BASIC 2.0][] was in the ROM;
@@ -376,18 +379,20 @@ We forked it to fix some bugs and because mainline development seemed stalled.
 
 ### 6502
 
+*   specification-link: [MOS Technologies' 1976 manual for the 650x series](http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf)
 *   wikipedia: [MOS Technology 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502)
 
 The common thread of the above 3 architectures is that they all have a 6502 processor.
-Here is MOS Technologies' [1976 manual for the 650x series](http://bytecollector.com/archive/misc/6500-50A_MCS6500pgmManJan76.pdf) (PDF).
+
+Some things Cat's Eye Technologies has done (namely [SixtyPical][] and [SITU-SOL][])
+have been 6502-specific, but not specific to any one computer architecture.
+
 There are also a couple of C compilers that target 6502, famously [cc65](http://cc65.github.io/cc65/),
 but also [scc6502, a Small-C for 6502 and LUnix](https://web.archive.org/web/20110106052323/http://www.reocities.com/SiliconValley/Way/4588/scc6502.html).
 
-Some things Cat's Eye Technologies has done have been 6502-specific but not as specific
-to any one architecture.
-
 ### Amiga 500
 
+*   specification-link: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
 *   wikipedia: [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500)
 
 Rundown: The CPU was a Motorola 68000, but this could be upgraded to a 68020, etc
@@ -410,6 +415,7 @@ apparently [FS-UAE](https://fs-uae.net/).
 
 ### IBM PC compatible
 
+*   specification-link: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
 *   wikipedia: [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible)
 
 Rundown: The CPU was a 8086, or 80286, 80386, 80486... or just ["X86"](https://en.wikipedia.org/wiki/X86).
@@ -427,6 +433,7 @@ For emulators, specifications, and other resources, see [Blurry Memories of DOS 
 
 ### MS-DOS
 
+*   specification-link: https://github.com/Microsoft/MS-DOS
 *   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
 
 Rundown: By [Microsoft](http://microsoft.com/).  There's a good free clone of it
@@ -457,16 +464,16 @@ something which emulates MS-DOS sufficiently well. This includes both the
 standard DOS `INT 21h` handler, and the standard DOS utilies like, for example,
 `TYPE` and `DEBUG.COM`.
 
-There are only two projects of Cat's Eye Technologies' that
+(There are only two projects of Cat's Eye Technologies' that
 require MS-DOS (or a compatible operating system) anymore, and
-these dependencies are only partial:
+these dependencies are only partial.)
 
 ### Z80
 
+*   specification-link: [Z80 Family CPU User Manual](http://z80.info/zip/z80cpu_um.pdf)
 *   wikipedia: [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80)
 
-The [Z80](http://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf)
-is another 8-bit CPU that was popular.
+The Z80 is another 8-bit CPU that was popular.
 
 Here are some links:
 
@@ -476,6 +483,7 @@ Here are some links:
 
 ### Z-Machine
 
+*   specification-link: [The Z-Machine Standards Document](http://inform-fiction.org/zmachine/standards/z1point0/index.html)
 *   wikipedia: [Z-machine](https://en.wikipedia.org/wiki/Z-machine)
 
 It's actually a virtual machine designed by Infocom so they could port their interactive
@@ -516,7 +524,7 @@ There was also an "Integer Basic".
 [The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [C99]: ../article/Project%20Dependencies.md#c99
-[MS-DOS]: ../article/Retrocomputing.md#ms-dos
+[MS-DOS]: ../article/Project%20Dependencies.md#ms-dos
 [Haskell]: ../article/Project%20Dependencies.md#haskell
 [Python]: ../article/Project%20Dependencies.md#python
 [Etcha]: ../article/Languages.md#etcha
