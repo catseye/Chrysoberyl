@@ -2,6 +2,7 @@ Retrocomputing
 ==============
 
 *   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
+*   display-illustration: false
 
 This document contains stuff done at Cat's Eye Technologies on older computers
 (or more often, an emulation of such a computer on a modern computer), and tries

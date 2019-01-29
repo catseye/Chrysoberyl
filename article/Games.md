@@ -6,6 +6,7 @@ Games
 *   common development-stage: mature
 *   common type: Game
 *   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
+*   display-illustration: false
 
 Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
 most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
