@@ -34,7 +34,7 @@
         "filename": "article/Project%20Dependencies.md"
     }, 
     "QEMU": {
-        "anchor": "ms-dos", 
+        "anchor": "ibm-pc-compatible", 
         "filename": "article/Project%20Dependencies.md"
     }, 
     "Z-Machine code": {
@@ -46,15 +46,15 @@
         "filename": "article/Project%20Dependencies.md"
     }, 
     "v86": {
-        "anchor": "ms-dos", 
+        "anchor": "ibm-pc-compatible", 
         "filename": "article/Project%20Dependencies.md"
     }, 
     "x86 machine code": {
-        "anchor": "ms-dos", 
+        "anchor": "ibm-pc-compatible", 
         "filename": "article/Project%20Dependencies.md"
     },
     "80286 machine code": {
-        "anchor": "ms-dos", 
+        "anchor": "ibm-pc-compatible", 
         "filename": "article/Project%20Dependencies.md"
     }
 }

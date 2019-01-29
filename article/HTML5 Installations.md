@@ -1322,8 +1322,8 @@ Use the navigation buttons to traverse the space of the work.
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
 [6502 machine code]: ../article/Project%2520Dependencies.md#6502
-[x86 machine code]: ../article/Project%2520Dependencies.md#ms-dos
-[v86]: ../article/Project%2520Dependencies.md#ms-dos
+[x86 machine code]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
+[v86]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
 [Python]: ../article/Project%20Dependencies.md#python
@@ -1361,7 +1361,7 @@ Use the navigation buttons to traverse the space of the work.
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
 [PATH]: http://esolangs.org/wiki/PATH
-[QEMU]: ../article/Project%2520Dependencies.md#ms-dos
+[QEMU]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [REDGREEN]: ../article/Automata.md#redgreen
 [SMETANA]: ../article/Automata.md#smetana

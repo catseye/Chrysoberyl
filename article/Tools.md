@@ -416,7 +416,7 @@ framework, which is in Java.
 [Formats]: ../article/Formats.md
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
-[QEMU]: ../article/Project%2520Dependencies.md#ms-dos
+[QEMU]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic

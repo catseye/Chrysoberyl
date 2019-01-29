@@ -429,17 +429,25 @@ probably a 486 with a BIOS, keyboard, and basic VGA is the minimum to make it wo
 Some modern PC's can handle running that sort of legacy setup, but most don't.
 Or at least, I wouldn't risk it anymore.  Better to run it under an emulator.
 
-For emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
+Two good emulators are:
+
+*   [v86](https://github.com/copy/v86) -- BSD licensed, written in [Javascript][],
+    runs in a web browser.
+*   [QEMU](http://www.qemu-project.org/) -- GPL v2 licensed, written in [C++][],
+    runs on your desktop.  QEMU can actually emulate more architectures
+    than just the IBM PC.
+
+For more in-depth information on this wonderful architecture,
+see [Blurry Memories of DOS Programming][].
 
 ### MS-DOS
 
 *   specification-link: https://github.com/Microsoft/MS-DOS
 *   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
 
-Rundown: By [Microsoft](http://microsoft.com/).  There's a good free clone of it
-called [FreeDOS](http://www.freedos.org/) which is
-written in (I'm guessing) C99 and assembler and distributed under the GPL.
+Rundown: By [Microsoft](http://microsoft.com/).
 Can run `.BAT` files.  And x86 machine code `.COM` files.
+
 [DJGPP](http://www.delorie.com/djgpp/) is a port of GCC to MS-DOS.
 Here is a random [MS-DOS game programming link](http://ftp.lanet.lv/ftp/mirror/x2ftp/msdos/programming/).
 
@@ -450,14 +458,16 @@ Emulators: there are a few recommended choices here:
 
 *   [DOSBox](http://www.dosbox.com/) (written in C++, under the GPL)
     is an emulator, available for many systems, which
-    simulates both an IBM PC compatible and
+    simulates both an [IBM PC compatible][] and
     MS-DOS on top of it.  It should be plenty sufficient for running
     DOS-based software found here.
-*   For a more heavyweight solution, you could install [FreeDOS](http://www.freedos.org/)
-    on a PC emulator such as [QEMU](http://www.qemu-project.org/).
-    (Note that QEMU can actually emulate many more architectures than just the IBM PC.)
+*   There's a good free DOS clone called [FreeDOS](http://www.freedos.org/)
+    which is written in (I'm guessing) C99 and assembler and distributed under
+    the GPL.  It is not, by itself, an emulator though, and you'll need
+    to run it under an [IBM PC compatible][] emulator such as those listed above.
 
-For other emulators, specifications, and other resources, see [Blurry Memories of DOS Programming][].
+For more in-depth information on programming for this wonderful operating system,
+see [Blurry Memories of DOS Programming][].
 
 Any Cat's Eye Technologies project which claims to need MS-DOS only needs
 something which emulates MS-DOS sufficiently well. This includes both the
