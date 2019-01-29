@@ -15,7 +15,7 @@ are debatable, and entries may be categorized somewhat arbitrarily.
 *   other-languages: many
 *   inception-date: Oct 4 2014
 *   development-stage: not fully complete
-*   reference-distribution: [The Cat's Eye Technologies Platform distribution](http://catseye.tc/distribution/The_Cat's_Eye_Technologies_Platform_distribution)
+*   reference-distribution: [The Cat's Eye Technologies Platform distribution](https://catseye.tc/distribution/The_Cat's_Eye_Technologies_Platform_distribution)
 
 The Cat's Eye Technologies Platform is a [NetBSD][]-based,
 [shelf][]-powered, [Funicular][]-built "distro" containing almost all of
@@ -39,15 +39,15 @@ A pre-built disk image is available to download via
 
 ### BefOS
 
-![BefOS](http://static.catseye.tc/images/screenshots/BefOS.png)
+![BefOS](https://static.catseye.tc/images/screenshots/BefOS.png)
 
 *   subtitle: **An Operating System for the Linearly Challenged**
 *   native-language: [x86 machine code][]
 *   other-languages: Befunge-93 (this is sort-of almost true)
 *   inception-date: ca 1999
 *   development-stage: archival
-*   reference-distribution: [BefOS distribution](http://catseye.tc/distribution/BefOS_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
+*   reference-distribution: [BefOS distribution](https://catseye.tc/distribution/BefOS_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/BefOS)
 
 Begun in the late 90's as a project to write an "operating system"
 in the theme of [Befunge-93][], *BefOS* is a program for the
@@ -61,7 +61,7 @@ features.
 
 Sometime after 2000 it was modernized (it source code converted from
 Turbo Assembler to [NASM][]) and installed online here so you can try
-it out in your web browser: online @ [catseye.tc](http://catseye.tc/installation/BefOS)
+it out in your web browser: online @ [catseye.tc](https://catseye.tc/installation/BefOS)
 
 It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 
@@ -71,7 +71,7 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 *   host-language: [NASM Assembler][]
 *   host-platform: [IBM PC compatible][]
 *   build-requirements: [ANSI C][], [Perl][]
-*   online @ [catseye.tc](http://catseye.tc/installation/BefOS)
+*   online @ [catseye.tc](https://catseye.tc/installation/BefOS)
 
 [NetBSD]: http://netbsd.org/
 [shelf]: ../article/Tools.md#shelf

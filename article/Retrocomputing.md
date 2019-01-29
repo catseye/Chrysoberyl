@@ -1,7 +1,7 @@
 Retrocomputing
 ==============
 
-*   image_url: http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
+*   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 
 This document contains stuff done at Cat's Eye Technologies on older computers
 (or more often, an emulation of such a computer on a modern computer), and tries
@@ -25,7 +25,7 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 
 #### Apple Befunge
 
-![Apple Befunge](http://static.catseye.tc/images/screenshots/Apple%20Befunge.png)
+![Apple Befunge](https://static.catseye.tc/images/screenshots/Apple%20Befunge.png)
 
 **[Apple Befunge][]** is a variant of Befunge for the Apple II which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some Apple II-specific
@@ -43,7 +43,7 @@ distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 #### Dungeons of Ekileugor
 
-![Dungeons of Ekileugor](http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
+![Dungeons of Ekileugor](https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
 
 **[Dungeons of Ekileugor][]** is a roguelike written for the *unexpanded* Commodore VIC-20, which,
 despite the limitations of that platform, supports a respectable set of the usual "dungeon furniture":
@@ -67,7 +67,7 @@ We forked it to fix some bugs and because mainline development seemed stalled.
 
 #### Bubble Escape
 
-![Bubble Escape 2K](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
+![Bubble Escape 2K](https://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
 a multi-screen maze. It was originally designed and implemented in [Commodore BASIC 2.0][] in the mid-80's, and
@@ -77,8 +77,8 @@ in its class.
 
 #### DiskSumo
 
-![DiskSumo main menu](http://static.catseye.tc/images/screenshots/DiskSumo.png)
-![DiskSumo during transfer](http://static.catseye.tc/images/screenshots/DiskSumo%20%28transfer%29.png)
+![DiskSumo main menu](https://static.catseye.tc/images/screenshots/DiskSumo.png)
+![DiskSumo during transfer](https://static.catseye.tc/images/screenshots/DiskSumo%20%28transfer%29.png)
 
 **[DiskSumo][]** is a program to transfer disk images off a Commodore 64 over the RS-232 port via the
 XMODEM protocol at 300 baud.
@@ -160,7 +160,7 @@ For emulators, specifications, and other resources, see [Blurry Memories of DOS 
 
 #### BefOS
 
-![BefOS](http://static.catseye.tc/images/screenshots/BefOS.png)
+![BefOS](https://static.catseye.tc/images/screenshots/BefOS.png)
 
 **[BefOS][]** is an "operating system" for this architecture.
 But it's incomplete and terrible.
@@ -204,7 +204,7 @@ these dependencies are only partial:
 
 #### Shelta
 
-![An example session with Shelta](http://static.catseye.tc/images/screenshots/Shelta.png)
+![An example session with Shelta](https://static.catseye.tc/images/screenshots/Shelta.png)
 
 **[Shelta][]** is an extremely minimal Forth-like language with barely any semantics; it relies on inline
 machine code to write anything resembling an actual program in it. In the spirit of compilers for languages
@@ -219,7 +219,7 @@ run only under DOS (unless you bypass that part of the stdlib).
 
 #### ILLGOL
 
-![An example session with ILLGOL](http://static.catseye.tc/images/screenshots/ILLGOL.png)
+![An example session with ILLGOL](https://static.catseye.tc/images/screenshots/ILLGOL.png)
 
 **[ILLGOL][]** is an illness disguised as a programming language empire.
 
@@ -242,7 +242,7 @@ Here are some links:
 
 #### Mildred
 
-![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
+![Mildred](https://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
 
 **[Mildred][]** is a 4MHz Z80-based homebrew computer with 40K of memory (8K EEPROM, 32K SRAM.)
 
@@ -260,7 +260,7 @@ There are other, much better emulators, such as Frotz.
 
 #### The Never-Ending Maze
 
-![The Never-Ending Maze](http://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+![The Never-Ending Maze](https://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
 
 **[The Never-Ending Maze][]** is an Infocom-style text adventure game based on the defining cultural phenomenon
 of a generation. (Possibly.)

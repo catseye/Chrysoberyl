@@ -1,13 +1,13 @@
 List of Unfinished Interesting Esolangs
 =======================================
 
-*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 *   summary: A list of "open problems" in esoteric programming language design
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common development-stage: idea
 *   common no-specification: true
 *   common type: Programming Language
+*   image_url: https://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 
 Here are some designs for [esoteric programming languages][]
 that I've worked on, but which have turned out to be a bit resistant to
@@ -683,5 +683,5 @@ Naturally, you can also create new YO_DAWG objects.
 [ZOWIE]: ../article/Languages.md#zowie
 [brainfuck]: http://esolangs.org/wiki/brainfuck
 [esoteric programming languages]: http://esolangs.org/
-[the completed]: http://catseye.tc/node/Chris%20Pressey%27s%20Lingography
+[the completed]: https://catseye.tc/node/Chris%20Pressey%27s%20Lingography
 

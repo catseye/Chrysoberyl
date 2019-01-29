@@ -1,7 +1,7 @@
 Forks
 =====
 
-*   image_url: http://static.catseye.tc/images/illustrations/Allen_wrench_and_screw_(PSF).jpg
+*   image_url: https://static.catseye.tc/images/illustrations/Allen_wrench_and_screw_(PSF).jpg
 
 Cat's Eye Technologies maintains some forks of some projects which are
 otherwise abandoned or under-maintained or whose canonical distribution
@@ -21,7 +21,7 @@ Language Projects
 *   license: Public Domain
 *   host language: [ANSI C][]
 *   inception date: Nov 5, 1989
-*   in distribution: [https://github.com/catseye/minischeme](https://github.com/catseye/minischeme)
+*   in distribution: [Minischeme distribution](https://catseye.tc/distribution/Minischeme_distribution)
 
 Originally forked in order to make it build on [AmigaDOS 1.3][].
 Also a good test target for [Pixley][].
@@ -120,7 +120,7 @@ Local version 1.5.2ce1.
 *   license: GPL
 *   inception date: Apr 2013
 *   development stage: work in progress
-*   in distribution: [tideay distribution](http://catseye.tc/distribution/tideay_distribution)
+*   in distribution: [tideay distribution](https://catseye.tc/distribution/tideay_distribution)
 
 `tideay` is Cat's Eye Technologies' fork of `yaedit`, a GtkSourceView-based
 text editor written by Paul Harrison.  In addition to the
@@ -142,7 +142,7 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [C99]: ../article/Project%20Dependencies.md#c99
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
 [Pixley]: ../article/Languages.md#pixley
-[Zz]: http://catseye.tc/modules/OpenZz/doc/zzdoc.html
+[Zz]: https://catseye.tc/modules/OpenZz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk
 [Java]: ../article/Project%20Dependencies.md#java
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape

@@ -23,4 +23,4 @@ This README used to contain a lot more information, but a lot of it has
 gone out of date at this point, but if you're interested, you can look
 it up in this repository's history.
 
-[Feedmark]: http://catseye.tc/node/Feedmark
+[Feedmark]: https://catseye.tc/node/Feedmark

@@ -8,7 +8,7 @@ this article is a real grab-bag right now.
 ### Amiga Gondola
 
 *   inception-date: Oct 25 2013
-*   reference-distribution: [amiga-gondola-0.1-2013.1111.zip](http://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip)
+*   reference-distribution: [amiga-gondola-0.1-2013.1111.zip](https://catseye.tc/distfiles/amiga-gondola-0.1-2013.1111.zip)
 
 Amiga Gondola is a set of scripts to set up a development environment
 under [AmigaDOS 1.3][], generally on an [Amiga 500][] emulated by the
@@ -25,7 +25,7 @@ It has been superceded by [Funicular][].
 ### belld
 
 *   inception-date: unknown
-*   reference-distribution: [belld-2004.0303.zip](http://catseye.tc/distfiles/belld-2004.0303.zip)
+*   reference-distribution: [belld-2004.0303.zip](https://catseye.tc/distfiles/belld-2004.0303.zip)
 
 FreeBSD 4.x syscons bell hook to run executable.
 
@@ -38,7 +38,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 ### brace
 
 *   inception-date: unknown
-*   reference-distribution: [brace-2004.0920.zip](http://catseye.tc/distfiles/brace-2004.0920.zip)
+*   reference-distribution: [brace-2004.0920.zip](https://catseye.tc/distfiles/brace-2004.0920.zip)
 
 Utility to translate I/O interactively.
 
@@ -52,7 +52,7 @@ Utility to translate I/O interactively.
 
 *   summary: Simple, non-polling cron-like scheduler
 *   inception-date: Mar 1 2004
-*   reference-distribution: [crone-1.0-2014.0819.zip](http://catseye.tc/distfiles/crone-1.0-2014.0819.zip)
+*   reference-distribution: [crone-1.0-2014.0819.zip](https://catseye.tc/distfiles/crone-1.0-2014.0819.zip)
 
 `crone` is a simple `cron`-like facility.  Unlike most `cron`s, it does
 not periodically activate and run whatever tasks are due to run; instead
@@ -69,7 +69,7 @@ to run, and sleeps exactly that long.
 
 *   summary: A fairly realistic line-noise generator
 *   inception-date: unknown
-*   reference-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
+*   reference-distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
 
 A fairly realistic line-noise generator.
 
@@ -83,7 +83,7 @@ A fairly realistic line-noise generator.
 
 *   summary: Lua embedded in a FreeBSD 4.x kernel module
 *   inception-date: unknown
-*   reference-distribution: [luakld-2004.1219.zip](http://catseye.tc/distfiles/luakld-2004.1219.zip)
+*   reference-distribution: [luakld-2004.1219.zip](https://catseye.tc/distfiles/luakld-2004.1219.zip)
 
 This was a little experiment.  Conclusion: Lua interpreter: not a recommended thing to put in a kernel module.
 
@@ -97,7 +97,7 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 
 *   inception-date: 2010
 *   development-stage: archival
-*   reference-distribution: [mzstorkipiwanbotbotbot distribution](http://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
+*   reference-distribution: [mzstorkipiwanbotbotbot distribution](https://catseye.tc/distribution/mzstorkipiwanbotbotbot_distribution)
 
 An IRC bot with no purpose or plan.
 
@@ -121,7 +121,7 @@ bot.  But whatever.)
 *   summary: Simple, single-module parser combinator library
 *   inception-date: 2011
 *   development-stage: archival
-*   reference-distribution: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
+*   reference-distribution: [Eightebed distribution](https://catseye.tc/distribution/Eightebed_distribution)
 
 Rooibos is a parser combinator library for Python. Modelled somewhat
 after yeanpypa (self-contained, public domain), but compensates for what
@@ -140,7 +140,7 @@ other projects.
 ### SP_ASM
 
 *   inception-date: 1998
-*   reference-distribution: [sp_asm-1998.0716.zip](http://static.catseye.tc/distfiles/sp_asm-1998.0716.zip)
+*   reference-distribution: [sp_asm-1998.0716.zip](https://static.catseye.tc/distfiles/sp_asm-1998.0716.zip)
 
 The SPlenetic ASseMbler.
 Possibly the most grotty hack implementation of an "assembler" in existence.
@@ -162,7 +162,7 @@ It is actually called `SP\ASM.BAT`.
 
 *   summary: A "package manager" that doesn't actually install anything
 *   inception-date: 2012
-*   reference-distribution: [toolshelf distribution](http://catseye.tc/distribution/toolshelf_distribution)
+*   reference-distribution: [toolshelf distribution](https://catseye.tc/distribution/toolshelf_distribution)
 
 `toolshelf` is a "package manager" which doesn't actually install any files.
 Instead, it stores the source trees of sundry packages in a single directory,
@@ -197,7 +197,7 @@ synchronization.
 ### yaeolc
 
 *   inception-date: unknown
-*   reference-distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
+*   reference-distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
 
 Yet Another End Of Line Converter
 
@@ -211,7 +211,7 @@ Yet Another End Of Line Converter
 
 *   inception-date: Mar 15 2011
 *   development-stage: not fully complete
-*   reference-distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
+*   reference-distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
 
 `yoob` is a framework for implementing esoteric programming languages
 in Java.  It aims to make it easy for a user to experiment with a large
@@ -225,14 +225,14 @@ applet, it's largely considered deprecated these days.
 
 However, it can still be started from a web page, if you have Java
 Web Start installed — so you can still see it in action
-[here](http://catseye.tc/installation/yoob).
+[here](https://catseye.tc/installation/yoob).
 
 #### Implementation: tc.catseye.yoob
 
 *   reference: true
 *   license: Public Domain
 *   host-language: Java
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Links
 -----

@@ -1,21 +1,21 @@
 Electronics Projects
 ====================
 
-*   image_url: http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common type: Electronics Project
+*   image_url: https://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg
 
 Electronics projects that Cat's Eye Technologies has designed (and sometimes built, too).
 
 ### Mildred
 
-![Mildred](http://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
+![Mildred](https://catseye.tc/modules/electronics-projects/mildred/doc/mildred_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
+*   defining-distribution: [Electronics Projects distribution](https://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: true
-*   legacy distfile @ [http://catseye.tc/distfiles/mildred-2003.0110.zip](http://catseye.tc/distfiles/mildred-2003.0110.zip)
-*   legacy distfile @ [http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](http://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
+*   legacy distfile @ [https://catseye.tc/distfiles/mildred-2003.0110.zip](https://catseye.tc/distfiles/mildred-2003.0110.zip)
+*   legacy distfile @ [https://catseye.tc/distfiles/mildred-1.0-2011.0414.zip](https://catseye.tc/distfiles/mildred-1.0-2011.0414.zip)
 
 Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM, 32K SRAM.)
 
@@ -23,11 +23,11 @@ Mildred is a 4MHz [Z80][]-based homebrew computer with 40K of memory (8K EEPROM,
 
 ### LED-386
 
-![LED-386](http://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg)
+![LED-386](https://catseye.tc/modules/electronics-projects/led386/doc/led386_photo.jpg)
 
-*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
+*   defining-distribution: [Electronics Projects distribution](https://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: true
-*   legacy distfile @ [http://catseye.tc/distfiles/led386-2004.0227.zip](http://catseye.tc/distfiles/led386-2004.0227.zip)
+*   legacy distfile @ [https://catseye.tc/distfiles/led386-2004.0227.zip](https://catseye.tc/distfiles/led386-2004.0227.zip)
 
 A 386-based LED blinker.
 
@@ -37,12 +37,12 @@ The LM386 audio amplifier IC, that is...
 
 ### The 'Kitsilano' Oscillator
 
-![The 'Kitsilano' Oscillator](http://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png)
+![The 'Kitsilano' Oscillator](https://catseye.tc/modules/electronics-projects/kitsilano/kitsilano.png)
 
-*   defining-distribution: [Electronics Projects distribution](http://catseye.tc/distribution/Electronics_Projects_distribution)
+*   defining-distribution: [Electronics Projects distribution](https://catseye.tc/distribution/Electronics_Projects_distribution)
 *   constructed: false
-*   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-2008.0905.zip](http://catseye.tc/distfiles/kitsilano-2008.0905.zip)
-*   legacy distfile @ [http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](http://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)
+*   legacy distfile @ [https://catseye.tc/distfiles/kitsilano-2008.0905.zip](https://catseye.tc/distfiles/kitsilano-2008.0905.zip)
+*   legacy distfile @ [https://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip](https://catseye.tc/distfiles/kitsilano-1.0-2011.0524.zip)
 
 An oscillator circuit that contains two NPN transistors and a single capacitor.
 

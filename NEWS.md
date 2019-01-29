@@ -1,16 +1,16 @@
 # Cat's Eye Technologies: New Developments
 
 *   author: Chris Pressey
-*   url: http://catseye.tc/feeds/atom_30_news.xml
-*   link-to-anchors-on: http://catseye.tc/article/News
-*   link-target-url: http://catseye.tc/article/News
+*   url: https://catseye.tc/feeds/atom_30_news.xml
+*   link-to-anchors-on: https://catseye.tc/article/News
+*   link-target-url: https://catseye.tc/article/News
 
 ### SixtyPical 0.18 released
 
-*   summary: Version 0.18 of [SixtyPical](http://catseye.tc/node/SixtyPical) has been released.
+*   summary: Version 0.18 of [SixtyPical](https://catseye.tc/node/SixtyPical) has been released.
 *   date: Fri, 04 Jan 2019 11:27:41 GMT
 
-We've released the latest version of [SixtyPical](http://catseye.tc/node/SixtyPical),
+We've released the latest version of [SixtyPical](https://catseye.tc/node/SixtyPical),
 our low-level 6502-like language with abstract analysis.  In particular, how blocks
 are analyzed has been cleaned up.  When two block diverge (such as in an `if` statement),
 they no longer need to keep the same values initialized; instead, the two contexts
@@ -26,10 +26,10 @@ and dead code removal.
 
 ### Last few Befunge-related Announcements of 2018
 
-*   summary: Last few [Befunge](http://catseye.tc/node/Befunge)-related announcements from 2018.
+*   summary: Last few [Befunge](https://catseye.tc/node/Befunge)-related announcements from 2018.
 *   date: Mon, 31 Dec 2018 19:49:11 GMT
 
-A few more [Befunge-93](http://catseye.tc/node/Befunge-93)-related things
+A few more [Befunge-93](https://catseye.tc/node/Befunge-93)-related things
 that happened in 2018, the 25th anniversary year of Befunge-93.  Since
 2018 is rapidly coming to a close, this is our last opportunity to mention
 them in this context — and so here they are.
@@ -54,14 +54,14 @@ them in this context — and so here they are.
 
 ### Silver Jubilee Edition of Befunge-93 released
 
-*   summary: The Silver Jubilee Edition of [Befunge-93](http://catseye.tc/node/Befunge-93) has been released!
+*   summary: The Silver Jubilee Edition of [Befunge-93](https://catseye.tc/node/Befunge-93) has been released!
 *   date: Wed, 12 Dec 2018 13:32:17 GMT
 
 Cat's Eye Technologies is pleased to announce the release of version 2.25 of
-[the Befunge-93 distribution](http://catseye.tc/distribution/Befunge-93_distribution), christened the
-[Silver Jubilee](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
+[the Befunge-93 distribution](https://catseye.tc/distribution/Befunge-93_distribution), christened the
+[Silver Jubilee](https://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
 edition, commemorating as it does
-the 25th anniversary of the [Befunge-93](http://catseye.tc/node/Befunge-93)
+the 25th anniversary of the [Befunge-93](https://catseye.tc/node/Befunge-93)
 programming language (1993-2018).
 
 This release does not contain any changes to the code
@@ -92,20 +92,20 @@ include significant changes to the distribution:
 So how, you may well ask, do you obtain this
 humdinger of a release?  Well,
 
-*   You can download [befunge-93-2.25.zip](http://static.catseye.tc/distfiles/befunge-93-2.25.zip) and view the files in it.
+*   You can download [befunge-93-2.25.zip](https://static.catseye.tc/distfiles/befunge-93-2.25.zip) and view the files in it.
 *   Or you can browse [catseye/Befunge-93](https://github.com/catseye/Befunge-93/tree/rel_2_25) on GitHub.
 
 ### ETERLAN SEPTEBMER and a minor revision of yoob
 
-*   summary: [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER) and a minor revision of [yoob](http://catseye.tc/node/yoob).
+*   summary: [ETERLAN SEPTEBMER](https://catseye.tc/node/ETERLAN%20SEPTEBMER) and a minor revision of [yoob](https://catseye.tc/node/yoob).
 *   date: Mon, 03 Dec 2018 11:09:40 GMT
 
 More on that Befunge celebration thing we're supposed to be
 doing this year!
 
-For [NaNoGenMo 2018](http://catseye.tc/node/NaNoGenMo%202018) we constructed a novel generator
-called [ETERLAN SEPTEBMER](http://catseye.tc/node/ETERLAN%20SEPTEBMER).
-Written in [Befunge-93](http://catseye.tc/node/Befunge-93),
+For [NaNoGenMo 2018](https://catseye.tc/node/NaNoGenMo%202018) we constructed a novel generator
+called [ETERLAN SEPTEBMER](https://catseye.tc/node/ETERLAN%20SEPTEBMER).
+Written in [Befunge-93](https://catseye.tc/node/Befunge-93),
 it celebrates invention of Befunge in September 1993, a month
 called [Eternal September](en.wikipedia.org/wiki/Eternal_September)
 in Usenet circles (for... other reasons.)
@@ -113,7 +113,7 @@ in Usenet circles (for... other reasons.)
 It generates a novel consisting of 50,000 really lovely words in short
 paragraphs.  You can think of it as a kind of fireworks.
 
-We have also released a minor revision of [yoob](http://catseye.tc/node/yoob), our framework for
+We have also released a minor revision of [yoob](https://catseye.tc/node/yoob), our framework for
 implementing esolang interpreters and visual debuggers.  yoob is kind of
 considered deprecated anyway, since it was written as a Java applet, and
 support for Java applets is basically vanishing from web browsers.
@@ -127,51 +127,51 @@ Version 0.3-2019.1129 of yoob makes this transition from Applet to Java
 Web Start official, and what's more, the Befunge-93 examples that ship with it
 have been updated — and they now include ETERLAN SEPTEBMER.
 
-So [check it out here](http://catseye.tc/installation/yoob)!
+So [check it out here](https://catseye.tc/installation/yoob)!
 
 ### Falderal 0.12, SixtyPical 0.17, and Samovar 0.2 released
 
-*   summary: [Falderal](http://catseye.tc/node/Falderal) 0.12, [SixtyPical](http://catseye.tc/node/SixtyPical) 0.17, and [Samovar](http://catseye.tc/node/Samovar) 0.2 released.
+*   summary: [Falderal](https://catseye.tc/node/Falderal) 0.12, [SixtyPical](https://catseye.tc/node/SixtyPical) 0.17, and [Samovar](https://catseye.tc/node/Samovar) 0.2 released.
 *   date: Fri, 30 Nov 2018 11:57:45 GMT
 
-A new version of [Falderal](http://catseye.tc/node/Falderal),
+A new version of [Falderal](https://catseye.tc/node/Falderal),
 our literate-testing format intended for documenting programming
 languages, has been released.  Version 0.12 is indebted to bug reports
 and patches kindly contributed by [James Holderness](https://github.com/j4james).
 The reference implementation, `py-falderal`, also runs on Python 3 now.
 
-A new version of [SixtyPical](http://catseye.tc/node/SixtyPical),
+A new version of [SixtyPical](https://catseye.tc/node/SixtyPical),
 our heavily-statically-analyzed 6502-assembly-like programming language,
 has also been released.  Now all symbol references can be forward
 references.  The reference implmention also runs on Python 3 now,
 and has rudimentary support for producing programs that run on the Apple II.
 
-Finally, a new version of [Samovar](http://catseye.tc/node/Samovar),
+Finally, a new version of [Samovar](https://catseye.tc/node/Samovar),
 a DSL for describing simple simulation-worlds with propositions, has
 been released.  We did this update as part of generating
-[The League of Extraordinarily Dull Gentlemen](http://catseye.tc/article/Texts.md#the-league-of-extraordinarily-dull-gentlemen)
-for [NaNoGenMo 2018](http://catseye.tc/article/Events.md#nanogenmo-2018).
+[The League of Extraordinarily Dull Gentlemen](https://catseye.tc/article/Texts.md#the-league-of-extraordinarily-dull-gentlemen)
+for [NaNoGenMo 2018](https://catseye.tc/article/Events.md#nanogenmo-2018).
 The reference implementation of Samovar also runs under Python 3 now.
 
 ### Feedmark 0.6 and yastasoti 0.1 released
 
-*   summary: [Feedmark](http://catseye.tc/node/Feedmark) 0.6 and [yastasoti](http://catseye.tc/node/yastasoti) 0.1 released.
+*   summary: [Feedmark](https://catseye.tc/node/Feedmark) 0.6 and [yastasoti](https://catseye.tc/node/yastasoti) 0.1 released.
 *   date: Fri, 21 Sep 2018 17:01:36 GMT
 
-A new version of [Feedmark](http://catseye.tc/node/Feedmark) has been
+A new version of [Feedmark](https://catseye.tc/node/Feedmark) has been
 released.  There aren't many new features — in fact there are fewer
 features, as the entire archiving function has been offloaded to
-a new, separate tool called [yastasoti](http://catseye.tc/node/yastasoti) —
+a new, separate tool called [yastasoti](https://catseye.tc/node/yastasoti) —
 but there are new tests for existing features, and support for running
 the `feedmark` tool under Python 3.
 
 ### Version 2.24 of Befunge-93 distribution released
 
-*   summary: Version 2.24 of the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution released.
+*   summary: Version 2.24 of the [Befunge-93](https://catseye.tc/node/Befunge-93) distribution released.
 *   date: Thu, 13 Sep 2018 15:55:13 GMT
 
-As part of the [25th Anniversary of Befunge](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
-activity this year, the [Befunge-93](http://catseye.tc/node/Befunge-93) distribution
+As part of the [25th Anniversary of Befunge](https://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
+activity this year, the [Befunge-93](https://catseye.tc/node/Befunge-93) distribution
 has now had its first significant release in 5 years: version 2.24.
 
 This release includes
@@ -190,40 +190,40 @@ its 25th year: [Befunge (25 Years Of)](http://esoteric.codes/blog/befunge).
 
 ### Funicular 0.5 and stringie 1.0 released
 
-*   summary: [Funicular](http://catseye.tc/node/Funicular) 0.5 and [stringie](http://catseye.tc/node/stringie) 1.0 released.
+*   summary: [Funicular](https://catseye.tc/node/Funicular) 0.5 and [stringie](https://catseye.tc/node/stringie) 1.0 released.
 *   date: Wed, 20 Jun 2018 09:28:14 GMT
 
-[Funicular](http://catseye.tc/node/Funicular) is our tool that's a bit like Vagrant,
+[Funicular](https://catseye.tc/node/Funicular) is our tool that's a bit like Vagrant,
 except instead of provisioning VMs, it provisions emulators.
 
-Recently, we brought its [Apple II](http://catseye.tc/node/Apple_II) support
-up to a working level, fixed its support for [FreeDOS](http://catseye.tc/node/FreeDOS),
-and restored support for [Amiga 500](http://catseye.tc/node/Amiga%20500)
+Recently, we brought its [Apple II](https://catseye.tc/node/Apple_II) support
+up to a working level, fixed its support for [FreeDOS](https://catseye.tc/node/FreeDOS),
+and restored support for [Amiga 500](https://catseye.tc/node/Amiga%20500)
 which was removed entirely in a previous version because it was so lacking.
 We're pleased to report that it can now set up a development environment
-capable of compiling [bef.c](http://catseye.tc/node/Befunge-93) and
-several of our other projects under [AmigaDOS 1.3](http://catseye.tc/node/AmigaDOS%201.3).)
+capable of compiling [bef.c](https://catseye.tc/node/Befunge-93) and
+several of our other projects under [AmigaDOS 1.3](https://catseye.tc/node/AmigaDOS%201.3).)
 
 One such other project is our implementation of [Underload](http://esolangs.org/wiki/Underload)
-in ANSI C, [stringie](http://catseye.tc/node/stringie).
+in ANSI C, [stringie](https://catseye.tc/node/stringie).
 Vastly surprised last year that someone was actually using it, we decided to
-take it out of [The Dipple](http://catseye.tc/distribution/The%20Dipple)
+take it out of [The Dipple](https://catseye.tc/distribution/The%20Dipple)
 and give it its own distribution, and put it on the
 path for a 1.0 release.  It has reached that point.
 
 ### Release of a new esolang: Equipage
 
-*   summary: [Equipage](http://catseye.tc/article/Languages.md#equipage), a new esolang, is released.
+*   summary: [Equipage](https://catseye.tc/article/Languages.md#equipage), a new esolang, is released.
 *   date: Tue, 12 Jun 2018 09:33:57 GMT
 
 We have designed and released a new eoslang called Equipage.
 Equipage is a purely concatenative programming languages; it is what
-[Carriage](http://catseye.tc/article/Languages.md#carriage)
+[Carriage](https://catseye.tc/article/Languages.md#carriage)
 might've been in 2012, had I been less concerned about issues surrounding
 quoting at the time.
 
-You can read more about it in [the Equipage entry](http://catseye.tc/article/Languages.md#equipage),
-or download [the Equipage distribution](http://catseye.tc/distribution/Equipage_distribution)
+You can read more about it in [the Equipage entry](https://catseye.tc/article/Languages.md#equipage),
+or download [the Equipage distribution](https://catseye.tc/distribution/Equipage_distribution)
 for all the documentation and sources.
 
 ### Befunge Turns 25 This Year!
@@ -241,7 +241,7 @@ done, but they're planned.
 
 Here are some we actually have done, so far:
 
-*   Written [a retrospective write-up on Befunge](http://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
+*   Written [a retrospective write-up on Befunge](https://catseye.tc/view/The-Dossier/article/Befunge%20Silver%20Jubilee%20Retrospective.md)
     (2.5K words) that covers some of the less-covered corners of its history and design.
 *   Released [a new May 2018 edition](https://github.com/catseye/Funge-98/tree/rel_1_0_2018_0522)
     of [the Funge-98 distribution](https://github.com/catseye/Funge-98),
@@ -262,10 +262,10 @@ Here are some we have planned:
 
 ### ALPACA Version 1.1 Released
 
-*   summary: [ALPACA](http://catseye.tc/node/ALPACA) version 1.1 has been released.
+*   summary: [ALPACA](https://catseye.tc/node/ALPACA) version 1.1 has been released.
 *   date: Wed, 09 May 2018 10:27:06 GMT
 
-[ALPACA](http://catseye.tc/node/ALPACA) version 1.1 has been released.
+[ALPACA](https://catseye.tc/node/ALPACA) version 1.1 has been released.
 
 Version 1.1 clarifies a few edge cases in the spec, and introduces ALPACA
 Stylesheets 1.0, which can be used to specify the appearance of cellular
@@ -277,26 +277,26 @@ being able to output SVGs (which can then be assembled into animated GIFs.)
 
 ### More Pictures, Movies, and Gewgaws put Online
 
-*   summary: More [Pictures](http://catseye.tc/article/Pictures), [Movies](http://catseye.tc/article/Movies), and [Gewgaws](http://catseye.tc/article/Gewgaws) have been hosted on `catseye.tc`.
+*   summary: More [Pictures](https://catseye.tc/article/Pictures), [Movies](https://catseye.tc/article/Movies), and [Gewgaws](https://catseye.tc/article/Gewgaws) have been hosted on `catseye.tc`.
 *   date: Tue, 23 Jan 2018 13:33:17 GMT
 
 We've gone through some things we've done in the past few years and gotten
-them hosted online here at [catseye.tc](http://catseye.tc/).
+them hosted online here at [catseye.tc](https://catseye.tc/).
 
-We've put up a selection of [Pictures](http://catseye.tc/article/Pictures) we've
+We've put up a selection of [Pictures](https://catseye.tc/article/Pictures) we've
 made, mainly digital abominations using GIMP, but also a few pen-and-ink hand-drawn
 things too.
 
-We've created an article curating the [Movies](http://catseye.tc/article/Movies)
-we put together, mainly in 2017, mainly using [kinoje](http://catseye.tc/node/kinoje)
+We've created an article curating the [Movies](https://catseye.tc/article/Movies)
+we put together, mainly in 2017, mainly using [kinoje](https://catseye.tc/node/kinoje)
 and POV-Ray.
 
-And finally, three [Gewgaws](http://catseye.tc/article/Gewgaws)
+And finally, three [Gewgaws](https://catseye.tc/article/Gewgaws)
 that were long overdue, having been written in 2016, are now installed online:
 
-*   [Colourring](http://catseye.tc/ix/Colourring)
-*   [Kolakoski Kurve](http://catseye.tc/ix/Kolakoski_Kurve)
-*   [Rigamaroads](http://catseye.tc/ix/Rigamaroads)
+*   [Colourring](https://catseye.tc/ix/Colourring)
+*   [Kolakoski Kurve](https://catseye.tc/ix/Kolakoski_Kurve)
+*   [Rigamaroads](https://catseye.tc/ix/Rigamaroads)
 
 Enjoy!
 
@@ -312,10 +312,10 @@ made some animated GIFs (which was new for me) with it, eventually
 putting together [a script](https://github.com/catseye/kinoje) to
 orchestrate the process.  Here are some of the generated movies:
  
-*   [ashtray9.mp4](http://static.catseye.tc/movies/ashtray9.mp4)
-*   [sea-scene-long-48.mp4](http://static.catseye.tc/movies/sea-scene-long-48.mp4)
-*   [blob.gif](http://static.catseye.tc/movies/blob.gif)
-*   [moebius.gif](http://static.catseye.tc/movies/moebius.gif)
+*   [ashtray9.mp4](https://static.catseye.tc/movies/ashtray9.mp4)
+*   [sea-scene-long-48.mp4](https://static.catseye.tc/movies/sea-scene-long-48.mp4)
+*   [blob.gif](https://static.catseye.tc/movies/blob.gif)
+*   [moebius.gif](https://static.catseye.tc/movies/moebius.gif)
 
 We rebuilt the catseye.tc website; everything in [the underlying database](https://github.com/catseye/Chrysoberyl)
 is written in [structured Markdown](https://github.com/catseye/Feedmark) now, making it much simpler to edit.
@@ -330,7 +330,7 @@ and wrote a couple that I'd been meaning to write for a long time:
 
 We submitted [3 novel generators](https://github.com/NaNoGenMo/2017/issues/created_by/cpressey) for NaNoGenMo 2017.
 
-We made a few minor releases of [SixtyPical](http://catseye.tc/node/SixtyPical):
+We made a few minor releases of [SixtyPical](https://catseye.tc/node/SixtyPical):
 
 *   [0.7](https://github.com/catseye/SixtyPical/blob/master/HISTORY.md#07)
 *   [0.8](https://github.com/catseye/SixtyPical/blob/master/HISTORY.md#08)
@@ -347,10 +347,10 @@ on the open-source social network [Mastodon](https://joinmastodon.org/).
 
 ### Feedmark 0.3, Chrysoberyl, and catseye.tc
 
-*   summary: [Feedmark 0.3](http://catseye.tc/node/Feedmark), [Chrysoberyl](http://catseye.tc/node/Chrysoberyl), and [catseye.tc](http://catseye.tc/).
+*   summary: [Feedmark 0.3](https://catseye.tc/node/Feedmark), [Chrysoberyl](https://catseye.tc/node/Chrysoberyl), and [catseye.tc](https://catseye.tc/).
 *   date: Wed, 08 Nov 2017 15:57:29 GMT
 
-Version 0.3 of [Feedmark](http://catseye.tc/node/Feedmark) has been released.
+Version 0.3 of [Feedmark](https://catseye.tc/node/Feedmark) has been released.
 
 Several new features have been added, but the main progress that has been made
 is in its ability to rewrite the reference-style links in Markdown documents.
@@ -360,16 +360,16 @@ interlinked with Markdown link syntax, but the actual destination need not
 be given by the human writer, because it is determined by the system and
 automatically written in.
 
-This, in turn, allowed us to rewrite all the data in [Chrysoberyl](http://catseye.tc/node/Chrysoberyl)
+This, in turn, allowed us to rewrite all the data in [Chrysoberyl](https://catseye.tc/node/Chrysoberyl)
 as a set of Feedmark documents, which are converted to HTML5 very simply
 (Feedmark is a subset of Markdown, after all, and it's Markdown _raison d'être_
-to be transformed into HTML) to build the content of the [catseye.tc](http://catseye.tc/) website.
+to be transformed into HTML) to build the content of the [catseye.tc](https://catseye.tc/) website.
 
 This, in turn, allowed us to jettison [a bunch of old and grotty rendering code](https://github.com/catseye/Chrysoberyl/pull/26/files)
 that was built on Jinja2 and YAML.
 
-So, the practical result is that [catseye.tc](http://catseye.tc/) is largely a
-set of articles (such as [Languages](http://catseye.tc/article/Languages.md)),
+So, the practical result is that [catseye.tc](https://catseye.tc/) is largely a
+set of articles (such as [Languages](https://catseye.tc/article/Languages.md)),
 and going forward, Chrysoberyl will be responsible for 2 orthogonal things:
 containing the underlying contents of these articles
 (e.g. [Languages.md](https://github.com/catseye/Chrysoberyl/blob/master/article/Languages.md))
@@ -383,7 +383,7 @@ I hope to find this new format much easier to maintain and faster to update.
 *   summary: Belated: Release of version 0.4 of [The Platform](https://github.com/catseye/The-Platform).
 *   date: Tue, 01 Aug 2017 08:12:12 GMT
 
-On May 19, 2017, version 0.4 of [The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) was released.
+On May 19, 2017, version 0.4 of [The Cat's Eye Technologies Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) was released.
 
 Since it is August already, this is an overdue announcement.
 Indeed, 0.3 was released on April 2, 2016, and that version was never announced at all —
@@ -395,7 +395,7 @@ quite a sea change.  So it deserves an update, even if belated.
 
 It goes like this.
 
-After years of breaking it in, [toolshelf](http://catseye.tc/node/toolshelf) was working well
+After years of breaking it in, [toolshelf](https://catseye.tc/node/toolshelf) was working well
 for me — I had grown quite used to eating my own dogfood — but it was failing in one spectacular
 way: it was making building The Platform kind of awkward.  In order to run `toolshelf`, you need
 Python 2, which is not a part of NetBSD, so you need to build it first.  This would not be a
@@ -414,7 +414,7 @@ The result is [shelf](https://github.com/catseye/shelf).  It is nowhere near as 
 toolshelf was, but it does enough that I now use it regularly (and don't use toolshelf at all
 anymore) and enough for version 0.4 of The Platform to be based on it instead.
 
-A similar thing happened with [Funicular](http://catseye.tc/node/Funicular), the vaguely
+A similar thing happened with [Funicular](https://catseye.tc/node/Funicular), the vaguely
 Vagrant-like tool that is used to build The Platform on top of a NetBSD system image in the
 first place.  Funicular already was written in Lua, but, like toolshelf, Funicular does a lot
 of filesystem manipulation, and Lua is simply not as good at that as something like Bourne
@@ -426,22 +426,22 @@ since 0.2.  These might have each their own belated announcement in the near fut
 now, here they are:
 
 *   [Beatnik](https://github.com/catseye/Beatnik) (Cat's Eye Technologies' Beatnik distribution)
-*   [Canvas Feedback](http://catseye.tc/node/Canvas_Feedback)
+*   [Canvas Feedback](https://catseye.tc/node/Canvas_Feedback)
 *   [Guten-gutter](https://github.com/catseye/Guten-gutter)
-*   [hatoucan](http://catseye.tc/node/hatoucan)
-*   [kinoje](http://catseye.tc/node/kinoje)
-*   [Lexeduct](http://catseye.tc/node/Lexeduct)
-*   [MARYSUE](http://catseye.tc/node/MARYSUE)
-*   [Matchbox](http://catseye.tc/node/Matchbox)
-*   [Maxixe](http://catseye.tc/node/Maxixe)
-*   [Samovar](http://catseye.tc/node/Samovar)
-*   [Schrödinger's Game of Life](http://catseye.tc/node/Schr%C3%B6dinger's_Game_of_Life)
+*   [hatoucan](https://catseye.tc/node/hatoucan)
+*   [kinoje](https://catseye.tc/node/kinoje)
+*   [Lexeduct](https://catseye.tc/node/Lexeduct)
+*   [MARYSUE](https://catseye.tc/node/MARYSUE)
+*   [Matchbox](https://catseye.tc/node/Matchbox)
+*   [Maxixe](https://catseye.tc/node/Maxixe)
+*   [Samovar](https://catseye.tc/node/Samovar)
+*   [Schrödinger's Game of Life](https://catseye.tc/node/Schr%C3%B6dinger's_Game_of_Life)
 *   [seedbank](https://github.com/catseye/seedbank)
-*   [SITU-SOL](http://catseye.tc/node/SITU-SOL)
+*   [SITU-SOL](https://catseye.tc/node/SITU-SOL)
 *   [The Dossier](https://github.com/catseye/The-Dossier)
-*   [The New Gamerly Realism](http://catseye.tc/node/The_New_Gamerly_Realism)
+*   [The New Gamerly Realism](https://catseye.tc/node/The_New_Gamerly_Realism)
 *   [T-Rext](https://github.com/catseye/T-Rext)
-*   [Wang Tilers](http://catseye.tc/node/Backtracking_Wang_Tiler)
+*   [Wang Tilers](https://catseye.tc/node/Backtracking_Wang_Tiler)
 
 Many of these are also online, so you may find it worthwhile to follow some of those links.
 
@@ -467,7 +467,7 @@ in a moment, but first I'll need to go through some history, for context.
 [Chrysoberyl](https://github.com/catseye/Chrysoberyl/) was built to try to address two closely-related problems:
 
 *   curate Cat's Eye Technologies' output, and
-*   populate the content of the [Cat's Eye Technologies web site](http://catseye.tc/).
+*   populate the content of the [Cat's Eye Technologies web site](https://catseye.tc/).
 
 Before Chrysoberyl, the content of the website was split up into projects and "About Such-and-Such Topic"
 documents.  I wanted something that put everything on the same level, and flexibly so.
@@ -557,15 +557,15 @@ Also, some new things done with the site since the last update:
     It's still on Github too, but the documents on `catseye.tc` are nicely marked up
     and should be searchable by the search box on the main page (via duckduckgo.com).
     
-*   [Text](http://catseye.tc/node/Text)s are hosted on this website, too.
+*   [Text](https://catseye.tc/node/Text)s are hosted on this website, too.
 
-*   Some new [Gewgaw](http://catseye.tc/node/Gewgaw)s are now installed online here:
-    *   [Art Restoration Simulator](http://catseye.tc/installation/Art%20Restoration%20Simulator)
-    *   [Two Fifty Six](http://catseye.tc/installation/Two%20Fifty%20Six)
+*   Some new [Gewgaw](https://catseye.tc/node/Gewgaw)s are now installed online here:
+    *   [Art Restoration Simulator](https://catseye.tc/installation/Art%20Restoration%20Simulator)
+    *   [Two Fifty Six](https://catseye.tc/installation/Two%20Fifty%20Six)
 
-*   [Lexeduct](http://catseye.tc/node/Lexeduct), a result of NaPoGenMo 2015, is installed online — but not here.
-    It's on [catseye.github.io](http://catseye.github.io/Lexeduct/).
-    So [go there and try it out](http://catseye.github.io/Lexeduct/in-browser/).
+*   [Lexeduct](https://catseye.tc/node/Lexeduct), a result of NaPoGenMo 2015, is installed online — but not here.
+    It's on [catseye.github.io](https://catseye.github.io/Lexeduct/).
+    So [go there and try it out](https://catseye.github.io/Lexeduct/in-browser/).
     (It will be hosted on `catseye.tc` too... someday.)
 
 ### Interview with Chris Pressey, by Daniel Temkin
@@ -574,14 +574,14 @@ Also, some new things done with the site since the last update:
 *   date: Thu, 28 May 2015 20:46:13 GMT
 
 A little while ago I was [interviewed by Daniel Temkin](http://esoteric.codes/post/118780138572/interview-with-chris-pressey)
-on the subject of [Esolang](http://catseye.tc/node/Esolang).
+on the subject of [Esolang](https://catseye.tc/node/Esolang).
 
 Since that's something I've been doing for ages, it goes into a lot of
 history, including pre-Internet stuff like BBS'es and the
-[Amiga](http://catseye.tc/node/Amiga%20500) — so if you're interested in that, definitely read it!
+[Amiga](https://catseye.tc/node/Amiga%20500) — so if you're interested in that, definitely read it!
 
-And of course a bit of chat about [Befunge](http://catseye.tc/node/Befunge-93), [Gemooy](http://catseye.tc/node/Gemooy),
-[SMETANA](http://catseye.tc/node/SMETANA), and such things, which may also be of interest.
+And of course a bit of chat about [Befunge](https://catseye.tc/node/Befunge-93), [Gemooy](https://catseye.tc/node/Gemooy),
+[SMETANA](https://catseye.tc/node/SMETANA), and such things, which may also be of interest.
 
 Enjoy!
 
@@ -592,7 +592,7 @@ In the meantime, I'll be over here, feeling old.
 *   summary: [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/) and [altgamejam](http://jams.gamejolt.io/altgamejam) underway!
 *   date: Sun, 12 Apr 2015 16:46:33 GMT
 
-April is National Poetry Writing Month!  And as [NaNoGenMo](http://catseye.tc/node/NaNoGenMo) is to
+April is National Poetry Writing Month!  And as [NaNoGenMo](https://catseye.tc/node/NaNoGenMo) is to
 NaNoWriMo, so [NaPoGenMo](https://github.com/NaPoGenMo/NaPoGenMo2015/)
 is to NaPoWriMo:
 
@@ -632,12 +632,12 @@ Here it is:
 
 ### Matchbox, a toy race-condition finder
 
-*   summary: We present [Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder.
+*   summary: We present [Matchbox](https://catseye.tc/installation/Matchbox), a toy race-condition finder.
 *   date: Mon, 30 Mar 2015 07:42:48 GMT
 
-We present [Matchbox](http://catseye.tc/installation/Matchbox), a toy race-condition finder —
-it's an analyzer for a toy [assembly](http://catseye.tc/node/Assembly)-like language that
-runs in a [web browser](http://catseye.tc/node/HTML5).  It finds all interleavings between
+We present [Matchbox](https://catseye.tc/installation/Matchbox), a toy race-condition finder —
+it's an analyzer for a toy [assembly](https://catseye.tc/node/Assembly)-like language that
+runs in a [web browser](https://catseye.tc/node/HTML5).  It finds all interleavings between
 two programs, runs them all on shared memory, and declares there to
 be no race conditions if and only if every interleaving is either
 impossible, or produces the same result.
@@ -646,19 +646,19 @@ I wrote Matchbox to (cheesy as it sounds) raise awareness of race
 conditions.  Also, [Peterson's Algorithm](http://en.wikipedia.org/wiki/Peterson%27s_algorithm)
 is beautiful, and Matchbox graphically demonstrates that it does work.
 For a fuller account of why I wrote Matchbox, see the commentary on
-the [Matchbox](http://catseye.tc/node/Matchbox) node, and the projects' [README](https://github.com/catseye/Matchbox/)
+the [Matchbox](https://catseye.tc/node/Matchbox) node, and the projects' [README](https://github.com/catseye/Matchbox/)
 file.
 
 Two more gewgaws have been installed online since the last announcement, too;
-[Black Hole Poem](http://catseye.tc/installation/Black%20Hole%20Poem) and [Noise to Signal No. 1](http://catseye.tc/installation/Noise%20to%20Signal%20No.%201).
+[Black Hole Poem](https://catseye.tc/installation/Black%20Hole%20Poem) and [Noise to Signal No. 1](https://catseye.tc/installation/Noise%20to%20Signal%20No.%201).
 Enjoy.
 
 ### One way to tile the plane with Wang tiles
 
-*   summary: One way to [tile the plane with Wang tiles](http://catseye.tc/installation/Backtracking%20Wang%20Tiler).
+*   summary: One way to [tile the plane with Wang tiles](https://catseye.tc/installation/Backtracking%20Wang%20Tiler).
 *   date: Fri, 20 Feb 2015 11:08:52 GMT
 
-tl;dr [Backtracking Wang Tiler](http://catseye.tc/installation/Backtracking%20Wang%20Tiler) and it's pretty to watch go.
+tl;dr [Backtracking Wang Tiler](https://catseye.tc/installation/Backtracking%20Wang%20Tiler) and it's pretty to watch go.
 
 You're probably familiar with tesselations.  Tilings, that is.  A Cartesian
 grid tiles a plane with squares, a honeycomb tiles a plane with hexagons,
@@ -714,7 +714,7 @@ At any rate, the process I've used is:
 I'm not claiming this is efficient!  It ain't, not by a long shot.
 But it's correct — it _will_ tile the plane "eventually", as long as the
 set of tiles permit tiling (whether periodic or aperiodic) — and it can be
-[pretty to watch go](http://catseye.tc/installation/Backtracking%20Wang%20Tiler).
+[pretty to watch go](https://catseye.tc/installation/Backtracking%20Wang%20Tiler).
 
 It's also apparent that "spiral" and "backtrack" are incidental;
 it's just nicely linear to arrange it this way, but you should be able
@@ -820,91 +820,91 @@ Here, follow your little hearts out:
 *   We're aiming for 1 tweet per day.
 *   Rarely will you ever see more than 2 tweets in the space of 12 hours.
 
-If Twitter is *not* your thing, fear not, as this self-same [Article](http://catseye.tc/node/Article)
-[feed](http://catseye.tc/feeds/atom_30_news.xml) will continue, and
+If Twitter is *not* your thing, fear not, as this self-same [Article](https://catseye.tc/node/Article)
+[feed](https://catseye.tc/feeds/atom_30_news.xml) will continue, and
 will remain pretty much as it has been for the past, um, seven and a
 half years! (holy cow!)
 
 ### Wierd (one of 'em) is now installed online
 
-*   summary: [Wierd](http://catseye.tc/node/Wierd) ([one of 'em](http://catseye.tc/node/Wierd%20%28John%20Colagioia%29), anyway) is now [installed online](http://catseye.tc/installation/Wierd%20%28John%20Colagioia%29).
+*   summary: [Wierd](https://catseye.tc/node/Wierd) ([one of 'em](https://catseye.tc/node/Wierd%20%28John%20Colagioia%29), anyway) is now [installed online](https://catseye.tc/installation/Wierd%20%28John%20Colagioia%29).
 *   date: Mon, 09 Feb 2015 12:44:58 GMT
 
 So back in the mists of time — by which I mean the late 90's — there was this three-way
-email conversation between me, [Ben Olmstead](http://catseye.tc/node/Ben%20Olmstead), and [John Colagioia](http://catseye.tc/node/John%20Colagioia), right?
+email conversation between me, [Ben Olmstead](https://catseye.tc/node/Ben%20Olmstead), and [John Colagioia](https://catseye.tc/node/John%20Colagioia), right?
 
 And in it, we collectively sketched a fungeoid language which combined elements of
-[Befunge-93](http://catseye.tc/node/Befunge-93) with elements of [brainfuck](http://catseye.tc/node/brainfuck) and added an original element — it's the
+[Befunge-93](https://catseye.tc/node/Befunge-93) with elements of [brainfuck](https://catseye.tc/node/brainfuck) and added an original element — it's the
 bends in the chain of symbols, rather than the symbols themselves, that determine
 which instructions are executed.
 
 And now, a new page has been added to this language's
 [long and fuzzy history](https://github.com/catseye/Wierd/blob/master/README.markdown):
-it, or rather, [one of the extant dialects of it](http://catseye.tc/node/Wierd%20%28John%20Colagioia%29),
-has been implemented in [Javascript](http://catseye.tc/node/Javascript) and [HTML5](http://catseye.tc/node/HTML5) with [yoob.js](http://catseye.tc/node/yoob.js) and installed online
+it, or rather, [one of the extant dialects of it](https://catseye.tc/node/Wierd%20%28John%20Colagioia%29),
+has been implemented in [Javascript](https://catseye.tc/node/Javascript) and [HTML5](https://catseye.tc/node/HTML5) with [yoob.js](https://catseye.tc/node/yoob.js) and installed online
 here:
 
-*  [installation/Wierd (John Colagioia)](http://catseye.tc/installation/Wierd%20%28John%20Colagioia%29)
+*  [installation/Wierd (John Colagioia)](https://catseye.tc/installation/Wierd%20%28John%20Colagioia%29)
 
 This may be the first implementation of (any) Wierd in a web browser.  Or it may not;
 searching the web for "wierd javascript" doesn't return as many results as you might
 think (as, apparently, a lot of people think Javascript is pretty weird, and have a
 propensity to mis-spell the word "weird".)
 
-I would like to implement [the other extant dialect](http://catseye.tc/node/Wierd%20%28Milo%20van%20Handel%29), too,
+I would like to implement [the other extant dialect](https://catseye.tc/node/Wierd%20%28Milo%20van%20Handel%29), too,
 some day.  But not today.
 
 ### Presenting Schrödinger's Game of Life
 
-*   summary: Presenting [Schrödinger's Game of Life](http://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
+*   summary: Presenting [Schrödinger's Game of Life](https://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
 *   date: Sat, 07 Feb 2015 12:50:11 GMT
 
-We present [Schrödinger's Game of Life](http://catseye.tc/node/Schr%C3%B6dinger%27s%20Game%20of%20Life), which is exactly what it
-sounds like: [Conway's Game of Life](http://catseye.tc/node/Conway%27s%20Game%20of%20Life) meets [Schrödinger's Cat](http://catseye.tc/node/Schr%C3%B6dinger%27s%20Cat).
+We present [Schrödinger's Game of Life](https://catseye.tc/node/Schr%C3%B6dinger%27s%20Game%20of%20Life), which is exactly what it
+sounds like: [Conway's Game of Life](https://catseye.tc/node/Conway%27s%20Game%20of%20Life) meets [Schrödinger's Cat](https://catseye.tc/node/Schr%C3%B6dinger%27s%20Cat).
 
 Each individual cell in the playfield may be in one of three states:
 **Alive**, **Dead**, or **Possibly-Alive-Possibly-Dead** (which we call
 **Cat**.)
 
-Put another way, it's a [cellular automaton](http://catseye.tc/node/Cellular%20automaton)
-that incorporates [non-determinism](http://catseye.tc/node/Non-deterministic).
+Put another way, it's a [cellular automaton](https://catseye.tc/node/Cellular%20automaton)
+that incorporates [non-determinism](https://catseye.tc/node/Non-deterministic).
 
 To see it in action and play with it in your web browser, you can
-go over to its [online installation](http://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
+go over to its [online installation](https://catseye.tc/installation/Schr%C3%B6dinger%27s%20Game%20of%20Life).
     
 For a full account of its development, see
 [its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
 
 ### Canvas Feedback: rated T for Trippy
 
-*   summary: [Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback) will blow your mind, or at least ruin your eyes.
+*   summary: [Canvas Feedback](https://catseye.tc/installation/Canvas%20Feedback) will blow your mind, or at least ruin your eyes.
 *   date: Tue, 27 Jan 2015 11:28:29 GMT
 
 Whether you get out the joss sticks and put Ravi Shankar on the stereo
 is up to you.  But either way, you should check out 
-[Canvas Feedback](http://catseye.tc/installation/Canvas%20Feedback).
+[Canvas Feedback](https://catseye.tc/installation/Canvas%20Feedback).
 
 It all started while discussing the 1970's-era Doctor Who title sequence
-and the video art of [Nam June Paik](http://catseye.tc/node/Nam%20June%20Paik).  The digital era has made many
+and the video art of [Nam June Paik](https://catseye.tc/node/Nam%20June%20Paik).  The digital era has made many
 of those analogue techniques less accessible — so, even if we can't bring
 them back, why not see what it's like if we try to adapt them for the
 modern world of web browsers and graphics cards?
 
 ### This Maze is Never-Ending.  Plus two gewgaws
 
-*   summary: This [maze](http://catseye.tc/installation/The%20Never-Ending%20Maze) is never-ending. Plus two [gew](http://catseye.tc/installation/Eine%20kleine%20Glitchfraktal)-[gaws](http://catseye.tc/installation/Uncle%20Ankur).
+*   summary: This [maze](https://catseye.tc/installation/The%20Never-Ending%20Maze) is never-ending. Plus two [gew](https://catseye.tc/installation/Eine%20kleine%20Glitchfraktal)-[gaws](https://catseye.tc/installation/Uncle%20Ankur).
 *   date: Tue, 20 Jan 2015 14:21:14 GMT
 
 A text adventure — yes, I could never quite get the hang of calling
-it "interactive fiction" — a text adventure game that I wrote in [Inform](http://catseye.tc/node/Inform)
-about fifteen years ago, is now [installed online](http://catseye.tc/installation/The%20Never-Ending%20Maze)
-as a [Java applet](http://catseye.tc/node/Java%20applet) thanks to [Zplet](http://catseye.tc/node/Zplet).
+it "interactive fiction" — a text adventure game that I wrote in [Inform](https://catseye.tc/node/Inform)
+about fifteen years ago, is now [installed online](https://catseye.tc/installation/The%20Never-Ending%20Maze)
+as a [Java applet](https://catseye.tc/node/Java%20applet) thanks to [Zplet](https://catseye.tc/node/Zplet).
 
-If you like this, you might also like [Cheshire Text](http://catseye.tc/installation/Cheshire%20Text).
+If you like this, you might also like [Cheshire Text](https://catseye.tc/installation/Cheshire%20Text).
 
 If you hate this, you might instead like two new gewgaws that have also
-been put online: [Eine kleine Glitchfraktal](http://catseye.tc/installation/Eine%20kleine%20Glitchfraktal) and
-[Uncle Ankur](http://catseye.tc/installation/Uncle%20Ankur).  Neither one involves any text whatsoever
+been put online: [Eine kleine Glitchfraktal](https://catseye.tc/installation/Eine%20kleine%20Glitchfraktal) and
+[Uncle Ankur](https://catseye.tc/installation/Uncle%20Ankur).  Neither one involves any text whatsoever
 (well, just a little on the control panels, maybe.)
 
 ### Version 0.2 of The Platform - now with Torrent
@@ -912,7 +912,7 @@ been put online: [Eine kleine Glitchfraktal](http://catseye.tc/installation/Eine
 *   summary: Version 0.2 of [The Platform](https://github.com/catseye/The-Platform) — now with [torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent)!
 *   date: Fri, 16 Jan 2015 20:52:27 GMT
 
-Version 0.2 of [The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) has been released.
+Version 0.2 of [The Cat's Eye Technologies Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) has been released.
 It's based on NetBSD 6.1.5 instead of 6.1.4, and has other minor version
 bumps like that in it.  But the major thing now is that, if you don't
 want to go through the hassle of *building* it, you can *download* a
@@ -922,14 +922,14 @@ pre-built image of it via this torrent right here:
 
 For more information on The Platform, please refer to
 [its repository on Github](https://github.com/catseye/The-Platform)
-and/or the [announcement of the release of version 0.1](http://catseye.tc/node/Introducing%20The%20Cat%27s%20Eye%20Technologies%20Platform).
+and/or the [announcement of the release of version 0.1](https://catseye.tc/node/Introducing%20The%20Cat%27s%20Eye%20Technologies%20Platform).
 
 ### The Aftermath of NaNoGenMo 2014
 
-*   summary: The Aftermath of [NaNoGenMo 2014](http://catseye.tc/node/NaNoGenMo%202014).
+*   summary: The Aftermath of [NaNoGenMo 2014](https://catseye.tc/node/NaNoGenMo%202014).
 *   date: Thu, 18 Dec 2014 20:58:20 GMT
 
-So [NaNoGenMo](http://catseye.tc/node/NaNoGenMo%202013) survived into a [second year](http://catseye.tc/node/NaNoGenMo%202014).
+So [NaNoGenMo](https://catseye.tc/node/NaNoGenMo%202013) survived into a [second year](https://catseye.tc/node/NaNoGenMo%202014).
 
 It probably would have made more sense to mention it at the beginning
 of November, rather than two-thirds through December, but — well —
@@ -945,7 +945,7 @@ mutilation of text, per day, for the month of November.  (So that was a
 goal of: 30 experiments.  But we actually ended up with 32, somehow.)
 
 Out of this chaos, we generated some novels too, which you can read
-in the [Text](http://catseye.tc/node/Text)s section.
+in the [Text](https://catseye.tc/node/Text)s section.
 
 And I regret with alarm to note that, right in the middle of November, there was
 an unfortunate...
@@ -955,16 +955,16 @@ resulting in the creation of
 [this monstrosity](https://github.com/cpressey/NaOpGenMo/).  Listen
 at your own risk.
    
-Oh!  And, um, I dusted off some [gewgaws](http://catseye.tc/node/Gewgaw) that were just languishing
+Oh!  And, um, I dusted off some [gewgaws](https://catseye.tc/node/Gewgaw) that were just languishing
 in the lab, and put them on the site.  They are, in no particular order,
-[The Judgment of Paris](http://catseye.tc/installation/The%20Judgment%20of%20Paris),
-[Woman on Film](http://catseye.tc/installation/Woman%20on%20Film),
-[Radialjective](http://catseye.tc/installation/Radialjective), and
-[Circus Xamulus](http://catseye.tc/installation/Circus%20Xamulus).
+[The Judgment of Paris](https://catseye.tc/installation/The%20Judgment%20of%20Paris),
+[Woman on Film](https://catseye.tc/installation/Woman%20on%20Film),
+[Radialjective](https://catseye.tc/installation/Radialjective), and
+[Circus Xamulus](https://catseye.tc/installation/Circus%20Xamulus).
 
-And also [Cheshire Text](http://catseye.tc/installation/Cheshire%20Text), which is not a gewgaw but a text, but which
+And also [Cheshire Text](https://catseye.tc/installation/Cheshire%20Text), which is not a gewgaw but a text, but which
 was not done for NaNoGenMo, because it's not a novel.  And a
-[Text Uniquifier](http://catseye.tc/installation/Text%20Uniquifier), which isn't a novel _or_ a text but
+[Text Uniquifier](https://catseye.tc/installation/Text%20Uniquifier), which isn't a novel _or_ a text but
 which _was_ done for NaNoGenMo because it's a generator, or at least a
 filter, which I've classified, provisionally, as a gewgaw.  Clear as mud, eh?
 
@@ -974,7 +974,7 @@ filter, which I've classified, provisionally, as a gewgaw.  Clear as mud, eh?
 *   date: Sat, 04 Oct 2014 18:49:59 GMT
 
 We are happy to announce the first release of
-[The Cat's Eye Technologies Platform](http://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform),
+[The Cat's Eye Technologies Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform),
 version 0.1.  It is a "distro" (if I may use that "word") of
 [NetBSD 6.1.4](http://www.netbsd.org/releases/formal-6/NetBSD-6.1.4.html),
 containing almost all of Cat's Eye Technologies' software distributions and
@@ -991,28 +991,28 @@ so are included.)  However, we hope to distribute a binary image once we
 sort out how best to host large files.
 
 It is, in a sense, an exercise in "software canning" to diminish bitrot.
-As long as you have an i386 emulator (such as [QEMU](http://catseye.tc/node/QEMU)) which can boot
+As long as you have an i386 emulator (such as [QEMU](https://catseye.tc/node/QEMU)) which can boot
 into NetBSD, you will be able to use these software distributions, without
 having to worry about conflicts due to upgrades and suchlike.
 
 And as an exercise, it was somewhat illuminating; almost all of our
-projects, excluding what's hosted [online](http://catseye.tc/node/Online%20Installation), can
+projects, excluding what's hosted [online](https://catseye.tc/node/Online%20Installation), can
 be run on a rather modest environment of open-source infrastructure:
 NetBSD (which already contains Lua and `gcc`), GNU Make, cPython, Perl,
 Erlang/OTP (stripped down), Hugs98, Chicken Scheme, yasm, and Ophis.
 
 ### BefOS version 0.10 released and installed online
 
-*   summary: [BefOS](http://catseye.tc/node/BefOS) version 0.10 released and [installed online](http://catseye.tc/installation/BefOS).
+*   summary: [BefOS](https://catseye.tc/node/BefOS) version 0.10 released and [installed online](https://catseye.tc/installation/BefOS).
 *   date: Mon, 22 Sep 2014 17:19:58 GMT
 
-Look!  Up on [this web page!](http://catseye.tc/installation/BefOS)  Is it [Befunge](http://catseye.tc/node/Befunge-93)?
-Is it an [operating system](http://catseye.tc/node/operating%20system)?  No... no, it's just a disk sector editor
+Look!  Up on [this web page!](https://catseye.tc/installation/BefOS)  Is it [Befunge](https://catseye.tc/node/Befunge-93)?
+Is it an [operating system](https://catseye.tc/node/operating%20system)?  No... no, it's just a disk sector editor
 with some unusual features, really.
 
 Er... in case you were wondering... yes, this *is* the time of the
 year (September) when I usually do something to celebrate the anniversary
-of [Befunge-93](http://catseye.tc/node/Befunge-93).  It's 21 years old now, so if it were a person, it
+of [Befunge-93](https://catseye.tc/node/Befunge-93).  It's 21 years old now, so if it were a person, it
 could drink legally in the United States, and, basically, it would be
 tried as an adult in pretty much any court in the world.
 
@@ -1021,21 +1021,21 @@ drive?), but, in answer to your unspoken question, no, updating BefOS was
 not what I was planning to do for Befunge-93's birthday.  It's only
 tangentially related.
 
-In fact, I've been working on cleaning up the Befunge-93 (and [Maentwrog](http://catseye.tc/node/Maentwrog)
-and [RUBE](http://catseye.tc/node/RUBE) reference distributions — making their implementations
-compile cleanly on multiple platforms ([Linux](http://catseye.tc/node/Linux), [NetBSD](http://catseye.tc/node/NetBSD), [FreeDOS](http://catseye.tc/node/FreeDOS),
-and [AmigaDOS 1.3](http://catseye.tc/node/AmigaDOS%201.3).)
+In fact, I've been working on cleaning up the Befunge-93 (and [Maentwrog](https://catseye.tc/node/Maentwrog)
+and [RUBE](https://catseye.tc/node/RUBE) reference distributions — making their implementations
+compile cleanly on multiple platforms ([Linux](https://catseye.tc/node/Linux), [NetBSD](https://catseye.tc/node/NetBSD), [FreeDOS](https://catseye.tc/node/FreeDOS),
+and [AmigaDOS 1.3](https://catseye.tc/node/AmigaDOS%201.3).)
 
 But that's all not quite done yet; hopefully the Befunge-93 distribution
 will have a few more surprises in it before the end of the year.
 
 But before you bemoan the barbarity of Befunge's birthday bash being a
 bit belated, ... well, nothing really, I just wanted to get some
-alliteration out of my system there.  Have fun with [BefOS](http://catseye.tc/installation/BefOS).
+alliteration out of my system there.  Have fun with [BefOS](https://catseye.tc/installation/BefOS).
 
 ### Yolk, a Meta-circularly-defined Programming Language
 
-*   summary: Release of the meta-circularly-defined language [Yolk](http://catseye.tc/node/Yolk).
+*   summary: Release of the meta-circularly-defined language [Yolk](https://catseye.tc/node/Yolk).
 *   date: Sun, 24 Aug 2014 14:10:52 GMT
 
 And it came to pass that my mind turned once again to the question
@@ -1045,26 +1045,26 @@ than the class of recursively enumerable functions.
 And lo, did I try to write a self-interpreter that was obviously
 not Turing-complete; and lo, did I fail.  Pretty sure I failed, yeah.
 
-But the result, behold!  It was less than half the size of [Pixley](http://catseye.tc/node/Pixley)'s
+But the result, behold!  It was less than half the size of [Pixley](https://catseye.tc/node/Pixley)'s
 meta-circular interpreter.  So did I keep it, and did I christen it
-[Yolk](http://catseye.tc/node/Yolk), and verily did I wax philosophical in its README about `cons`
+[Yolk](https://catseye.tc/node/Yolk), and verily did I wax philosophical in its README about `cons`
 and stuff.
 
 ### Release of toolshelf version 0.1-2014.0823
 
-*   summary: Release of [toolshelf](http://catseye.tc/node/toolshelf) version 0.1-2014.0823.
+*   summary: Release of [toolshelf](https://catseye.tc/node/toolshelf) version 0.1-2014.0823.
 *   date: Sat, 23 Aug 2014 07:49:41 GMT
 
 Oh man, so many things updated recently, but this news feed is so
 not one of them.  OK, where to begin.  OK...
 
-[Cat's Eye Technologies](http://catseye.tc/node/Cat%27s%20Eye%20Technologies) really isn't in the business of making
+[Cat's Eye Technologies](https://catseye.tc/node/Cat%27s%20Eye%20Technologies) really isn't in the business of making
 tools.  (Implementations of programming languages excepted —
 they're incidental, they're in service of the languages themselves.)
 
 But we've implemented so many programming languages that, without
 some kind of tooling, the situation would become unwieldy.  So, for
-example, we designed [Falderal](http://catseye.tc/node/Falderal) and build [py-falderal](http://catseye.tc/node/py-falderal) so that
+example, we designed [Falderal](https://catseye.tc/node/Falderal) and build [py-falderal](https://catseye.tc/node/py-falderal) so that
 all these programming languages could have their example programs
 presented nicely and tested in an automated way.
 
@@ -1086,7 +1086,7 @@ like that they're almost never portable; there's one for every operating
 system and one for every programming language and never mind the fact
 that every modern operating system hosts more than one programming language.
 
-So we wrote our own and called it [toolshelf](http://catseye.tc/node/toolshelf).  **toolshelf is
+So we wrote our own and called it [toolshelf](https://catseye.tc/node/toolshelf).  **toolshelf is
 a package installer which neither uses packages, nor installs anything.**
 (Why yes, I am feeling a little farklempt, but that's neither here nor
 there.)  It doesn't maintain a package database, it keeps all its files
@@ -1120,7 +1120,7 @@ and then
 and watch it download, build, and install everything.
 
 Even though it was originally only intended for random little projects, I
-now regularly dock things like [QEMU](http://catseye.tc/node/QEMU), Chicken Scheme, and Django with it.
+now regularly dock things like [QEMU](https://catseye.tc/node/QEMU), Chicken Scheme, and Django with it.
 I recently set up two Linux environments for my own use; on each of them,
 I installed only maybe a dozen packages from `apt`, and I haven't used
 `pip` at all.  Most of what I've needed, I've brought in with toolshelf.
@@ -1128,14 +1128,14 @@ I installed only maybe a dozen packages from `apt`, and I haven't used
 Of course, there are still some rough edges — and the way it works, there
 will always *be* rough edges — but there is a lot of potential too.
 
-So, [check it out](http://catseye.tc/node/toolshelf)!
+So, [check it out](https://catseye.tc/node/toolshelf)!
 
 ### Music, Pictures, Texts, and Wunnel
 
-*   summary: [Music](http://catseye.tc/node/Online_Installation#music_exhibit), [Pictures](http://catseye.tc/node/Online_Installation#pictures_exhibit), [Texts](http://catseye.tc/node/Online_Installation#texts_exhibit), and [Wunnel](http://catseye.tc/installation/Wunnel).
+*   summary: [Music](https://catseye.tc/node/Online_Installation#music_exhibit), [Pictures](https://catseye.tc/node/Online_Installation#pictures_exhibit), [Texts](https://catseye.tc/node/Online_Installation#texts_exhibit), and [Wunnel](https://catseye.tc/installation/Wunnel).
 *   date: Mon, 26 May 2014 15:37:50 GMT
 
-The [Online Gallery](http://catseye.tc/node/Online%20Installation) has had an overhaul since
+The [Online Gallery](https://catseye.tc/node/Online%20Installation) has had an overhaul since
 the last time I announced anything regarding it.  It's got tabs with
 proper anchors and stuff now.
 
@@ -1145,9 +1145,9 @@ and texts I've (meta-)written are available under the tabs there now.
 
 But its main purpose is still for interactive HTML5-y stuff, especially
 esolangs, and lo, there is
-[an HTML5 implementation of Wunnel](http://catseye.tc/installation/Wunnel) there now too.
+[an HTML5 implementation of Wunnel](https://catseye.tc/installation/Wunnel) there now too.
 
-And with this implementation of Wunnel, [yoob.js](http://catseye.tc/node/yoob.js) has reached another
+And with this implementation of Wunnel, [yoob.js](https://catseye.tc/node/yoob.js) has reached another
 release point, version 0.6.  But, of course, it is still basically in the
 work-in-progress stage, with things changing all over.
 
@@ -1157,7 +1157,7 @@ work-in-progress stage, with things changing all over.
 *   date: Tue, 25 Mar 2014 08:18:34 GMT
 
 As a little hack on the weekend, I started playing with the Github API,
-after using it for more serious purposes in [toolshelf](http://catseye.tc/node/toolshelf).  The result was
+after using it for more serious purposes in [toolshelf](https://catseye.tc/node/toolshelf).  The result was
 
 [Operation Match, Github edition](https://github.com/cpressey/Operation-Match-Github)
 
@@ -1176,35 +1176,35 @@ the BBC ran [this article](http://www.bbc.co.uk/news/business-26613909)?)
 
 ### De-pict-sly: Pixley and Etcha in HTML5
 
-*   summary: [Pixley](http://catseye.tc/installation/Pixley) and [Etcha](http://catseye.tc/installation/Etcha) are now online.
+*   summary: [Pixley](https://catseye.tc/installation/Pixley) and [Etcha](https://catseye.tc/installation/Etcha) are now online.
 *   date: Sat, 11 Jan 2014 14:44:17 GMT
 
-We present, just below, the [Pixley](http://catseye.tc/node/Pixley) reference interpreter (that is,
+We present, just below, the [Pixley](https://catseye.tc/node/Pixley) reference interpreter (that is,
 the one that's written meta-circularly in Pixley itself)
 depicted as a set of nested, coloured rectangles.  Looks a bit like
 an [integrated circuit](http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside),
 perhaps, except without the wires.  I'll leave it to you to decide if this
-is unsurprising or not.  You can see this and more in [Pixley](http://catseye.tc/installation/Pixley).
+is unsurprising or not.  You can see this and more in [Pixley](https://catseye.tc/installation/Pixley).
 
-![Pixley Interpreter as nested rectangles](http://static.catseye.tc/images/generated/Pixley.png)
+![Pixley Interpreter as nested rectangles](https://static.catseye.tc/images/generated/Pixley.png)
 
 But that's not all!  We also present what happens when you run
-that one [Etcha](http://catseye.tc/node/Etcha) example program over and over again.  Looks a bit like
+that one [Etcha](https://catseye.tc/node/Etcha) example program over and over again.  Looks a bit like
 a pattern produced by [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant),
 and perhaps that is no surprise at all.  You can try this, and any other
-Etcha program you care to concoct, yourself in [Etcha](http://catseye.tc/installation/Etcha).
+Etcha program you care to concoct, yourself in [Etcha](https://catseye.tc/installation/Etcha).
 
-![An Etcha program state after many repetitions](http://static.catseye.tc/images/generated/Etcha.png)
+![An Etcha program state after many repetitions](https://static.catseye.tc/images/generated/Etcha.png)
 
 ### Release of yoob.js version 0.5
 
-*   summary: [yoob.js](http://catseye.tc/node/yoob.js) 0.5 has been released.
+*   summary: [yoob.js](https://catseye.tc/node/yoob.js) 0.5 has been released.
 *   date: Wed, 08 Jan 2014 19:19:33 GMT
 
-[yoob.js](http://catseye.tc/node/yoob.js) has been mentioned in several announcements, but this is the
+[yoob.js](https://catseye.tc/node/yoob.js) has been mentioned in several announcements, but this is the
 first announcement concerning it specifically.  It started out as a
-project to replace [yoob](http://catseye.tc/node/yoob), running esolangs in [HTML5](http://catseye.tc/node/HTML5) instead of a
-[Java](http://catseye.tc/node/Java) applet, but as of this release — version 0.5 — it has grown some
+project to replace [yoob](https://catseye.tc/node/yoob), running esolangs in [HTML5](https://catseye.tc/node/HTML5) instead of a
+[Java](https://catseye.tc/node/Java) applet, but as of this release — version 0.5 — it has grown some
 generally-useful features for making animated and interactive things in
 HTML5, especially on the `<canvas>` element.
 
@@ -1216,31 +1216,31 @@ comfortable snapshot of things at this stage.
 
 ### Shelta v1.2 online in FreeDOS in v86
 
-*   summary: [Shelta](http://catseye.tc/node/Shelta) 1.2 released — and bootstrappable [online](http://catseye.tc/installation/Shelta)!
+*   summary: [Shelta](https://catseye.tc/node/Shelta) 1.2 released — and bootstrappable [online](https://catseye.tc/installation/Shelta)!
 *   date: Thu, 12 Dec 2013 18:19:08 GMT
 
-Version 1.2 of the [Shelta](http://catseye.tc/node/Shelta) distribution has been released.  This
+Version 1.2 of the [Shelta](https://catseye.tc/node/Shelta) distribution has been released.  This
 is a very minor update, with the only change to the language being
 essentially inconsequential: Shelta source files now must end with
 [everybody's favourite character](http://prog21.dadgum.com/76.html),
 the vertical tab, instead of a null byte.
 
-This was to work around what seems to be a subtle bug in [FreeDOS](http://catseye.tc/node/FreeDOS).
+This was to work around what seems to be a subtle bug in [FreeDOS](https://catseye.tc/node/FreeDOS).
 And that, in turn, was to get Shelta running under FreeDOS inside the
-[HTML5](http://catseye.tc/node/HTML5)-based [IBM PC compatible](http://catseye.tc/node/IBM%20PC%20compatible) emulator, [v86](http://catseye.tc/node/v86).  You can
+[HTML5](https://catseye.tc/node/HTML5)-based [IBM PC compatible](https://catseye.tc/node/IBM%20PC%20compatible) emulator, [v86](https://catseye.tc/node/v86).  You can
 read all the gory details [here](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt).
 
 Anyway, this all brings us to the good news, which is: you can now
 play with Shelta — including bootstrapping it —
-[online, right here](http://catseye.tc/installation/Shelta)!
+[online, right here](https://catseye.tc/installation/Shelta)!
 
 ### Presenting Amiga Gondola
 
-*   summary: [Amiga Gondola](http://catseye.tc/node/Amiga%20Gondola) sets up a development environment for AmigaDOS 1.3 in E-UAE.
+*   summary: [Amiga Gondola](https://catseye.tc/node/Amiga%20Gondola) sets up a development environment for AmigaDOS 1.3 in E-UAE.
 *   date: Tue, 12 Nov 2013 15:58:08 GMT
 
 This year — about two months ago, to be more exact — marked
-the 20th anniversary of [Befunge-93](http://catseye.tc/node/Befunge-93).  How to commemorate
+the 20th anniversary of [Befunge-93](https://catseye.tc/node/Befunge-93).  How to commemorate
 this historic occasion?  
 
 Well, one way would be to design its twenty-year successor,
@@ -1253,10 +1253,10 @@ proposal declined.
 
 A better idea: make it easier to re-create the development
 environment in which Befunge-93 was originally developed.
-Namely, [AmigaDOS 1.3](http://catseye.tc/node/AmigaDOS%201.3) on an [Amiga 500](http://catseye.tc/node/Amiga%20500).
+Namely, [AmigaDOS 1.3](https://catseye.tc/node/AmigaDOS%201.3) on an [Amiga 500](https://catseye.tc/node/Amiga%20500).
 
-So, that's what we did, and the result is [Amiga Gondola](http://catseye.tc/node/Amiga%20Gondola),
-a set of shell scripts which, given an [E-UAE](http://catseye.tc/node/E-UAE) emulator,
+So, that's what we did, and the result is [Amiga Gondola](https://catseye.tc/node/Amiga%20Gondola),
+a set of shell scripts which, given an [E-UAE](https://catseye.tc/node/E-UAE) emulator,
 images of the Workbench and Extras disks, and access to
 Aminet, put together an environment which, while not being
 a totally authentic copy of the environment I was using
@@ -1269,11 +1269,11 @@ can be found in its
 
 ### Release of Falderal version 0.9 "Navy Pier"
 
-*   summary: [Falderal](http://catseye.tc/node/Falderal) version 0.9 "Navy Pier" has been released.
+*   summary: [Falderal](https://catseye.tc/node/Falderal) version 0.9 "Navy Pier" has been released.
 *   date: Tue, 29 Oct 2013 20:22:36 GMT
 
 Well, that was quick — well, we were on a roll (whoa, déjà vu.)
-[Falderal](http://catseye.tc/node/Falderal) 0.9 introduces one major new feature —
+[Falderal](https://catseye.tc/node/Falderal) 0.9 introduces one major new feature —
 the ability to supply input to a test.  Typically, the test body
 would be considered the program (in some language) being tested,
 and the input would be sent to the standard input of the language
@@ -1288,16 +1288,16 @@ the middle of a long test run.
 
 ### Release of Falderal version 0.8 "Ukrainian Village"
 
-*   summary: [Falderal](http://catseye.tc/node/Falderal) version 0.8 "Ukrainian Village" has been released.
+*   summary: [Falderal](https://catseye.tc/node/Falderal) version 0.8 "Ukrainian Village" has been released.
 *   date: Sat, 26 Oct 2013 18:45:30 GMT
 
-A "new" version of [Falderal](http://catseye.tc/node/Falderal), version 0.8 "Ukrainian Village", has
+A "new" version of [Falderal](https://catseye.tc/node/Falderal), version 0.8 "Ukrainian Village", has
 been released.
 
 I say "new" because, well, it's basically the same as it's been for the
 last year, when the `Test.Falderal` implementation of Falderal in
-[Haskell](http://catseye.tc/node/Haskell) was replaced by the `py-falderal` implementation in
-[Python](http://catseye.tc/node/Python), which was christened the new reference implementation.
+[Haskell](https://catseye.tc/node/Haskell) was replaced by the `py-falderal` implementation in
+[Python](https://catseye.tc/node/Python), which was christened the new reference implementation.
 
 This switcheroo happened right after the last distribution of Falderal
 in which `Test.Falderal` was the reference implementation,
@@ -1316,7 +1316,7 @@ embedded in Markdown and have file extensions like `.markdown`
 that let software (e.g. Github and Bitbucket) know how to pretty-format
 them.
 
-In related news, recent improvements to [toolshelf](http://catseye.tc/node/toolshelf) allow it to
+In related news, recent improvements to [toolshelf](https://catseye.tc/node/toolshelf) allow it to
 run any tests defined in a source tree, and to operate on all source
 trees owned by a given user on a given host.  The end result being
 that we can now say `toolshelf test bitbucket.org/catseye/all` and
@@ -1330,11 +1330,11 @@ pass on both Ubuntu and Windows (under Cygwin).
 *   summary: Xoomonk 1.0 and Pixley 2.0-2013.1024 have been released, each with new implementations.
 *   date: Thu, 24 Oct 2013 19:42:47 GMT
 
-[Xoomonk](http://catseye.tc/node/Xoomonk) 1.0 was recently released.  For this release, a Xoomonk
-interpreter was implemented in [Python](http://catseye.tc/node/Python), using the [Falderal](http://catseye.tc/node/Falderal) tests
+[Xoomonk](https://catseye.tc/node/Xoomonk) 1.0 was recently released.  For this release, a Xoomonk
+interpreter was implemented in [Python](https://catseye.tc/node/Python), using the [Falderal](https://catseye.tc/node/Falderal) tests
 written for the *test-driven language design* approach used in Xoomonk
 0.1's documentation.  I've used test-driven language design successfully
-in other projects ([Castile](http://catseye.tc/node/Castile), [Robin](http://catseye.tc/node/Robin)) since Xoomonk was released, but
+in other projects ([Castile](https://catseye.tc/node/Castile), [Robin](https://catseye.tc/node/Robin)) since Xoomonk was released, but
 it was the first project in which I proposed the concept, so it's nice to
 see it finally realized there.
 
@@ -1346,40 +1346,40 @@ also changed slightly.  But these are not major changes, and the same
 original mouthfeel of malingering updateable stores is still there (and
 implemented!)
 
-[Pixley](http://catseye.tc/node/Pixley) 2.0-2013.1024 has also been released.  There are no changes to
-the language in this release, but two new implementations, [mignon](http://catseye.tc/node/mignon),
-in [ANSI C](http://catseye.tc/node/ANSI%20C), and [haney](http://catseye.tc/node/haney), in [Haskell](http://catseye.tc/node/Haskell), have been added to the
+[Pixley](https://catseye.tc/node/Pixley) 2.0-2013.1024 has also been released.  There are no changes to
+the language in this release, but two new implementations, [mignon](https://catseye.tc/node/mignon),
+in [ANSI C](https://catseye.tc/node/ANSI%20C), and [haney](https://catseye.tc/node/haney), in [Haskell](https://catseye.tc/node/Haskell), have been added to the
 reference distribution.  They both implement Pixley well enough to serve
 as the bottom of a tower of Pixley interpreters.  Many of the supporting
 materials (scripts, tests) have also been cleaned up. 
 
 ### I got two new gewgaws and an esolang... online
 
-*   summary: I got two new [gew](http://catseye.tc/installation/Chzrxl)[gaw](http://catseye.tc/installation/Multicolouralism)s and an [esolang](http://catseye.tc/installation/ZOWIE)... online.
+*   summary: I got two new [gew](https://catseye.tc/installation/Chzrxl)[gaw](https://catseye.tc/installation/Multicolouralism)s and an [esolang](https://catseye.tc/installation/ZOWIE)... online.
 *   date: Sun, 13 Oct 2013 02:27:17 GMT
 
-Two new HTML5 gewgaws in the [Gallery](http://catseye.tc/node/Online%20Installation):
-[Chzrxl](http://catseye.tc/installation/Chzrxl) and [Multicolouralism](http://catseye.tc/installation/Multicolouralism).
+Two new HTML5 gewgaws in the [Gallery](https://catseye.tc/node/Online%20Installation):
+[Chzrxl](https://catseye.tc/installation/Chzrxl) and [Multicolouralism](https://catseye.tc/installation/Multicolouralism).
 
 Also, the public-domain gewgaws are now kept in
 [a repository on Github](https://github.com/catseye/HTML5-Gewgaws)
 with
 [a mirror on Bitbucket](https://bitbucket.org/catseye/html5-gewgaws).
 
-Also, the esolang [ZOWIE](http://catseye.tc/installation/ZOWIE) is now runnable online.
+Also, the esolang [ZOWIE](https://catseye.tc/installation/ZOWIE) is now runnable online.
 Unlike previous online esolang implementations, this one didn't involve
-re-implementing ZOWIE in [Javascript](http://catseye.tc/node/Javascript).  Instead, the ZOWIE reference
-interpreter, written in [Python](http://catseye.tc/node/Python), is running under [Skulpt](http://catseye.tc/node/Skulpt) on that
+re-implementing ZOWIE in [Javascript](https://catseye.tc/node/Javascript).  Instead, the ZOWIE reference
+interpreter, written in [Python](https://catseye.tc/node/Python), is running under [Skulpt](https://catseye.tc/node/Skulpt) on that
 web page.  Only a few modifications were necessary, and it's only a
 little pokey.
 
-Oh, also!  The [Programming Language](http://catseye.tc/node/Programming%20Language) index has been redone to be a
-bit more like the [Project Matrix](http://catseye.tc/node/Project%20Matrix).  It's a bit daunting, and awkward
+Oh, also!  The [Programming Language](https://catseye.tc/node/Programming%20Language) index has been redone to be a
+bit more like the [Project Matrix](https://catseye.tc/node/Project%20Matrix).  It's a bit daunting, and awkward
 still, but probably better than how it was organized previously.
 
 ### catseye.tc hosted on new servers
 
-*   summary: [catseye.tc](http://catseye.tc/node/catseye.tc) is now hosted on new web servers.
+*   summary: [catseye.tc](https://catseye.tc/node/catseye.tc) is now hosted on new web servers.
 *   date: Tue, 08 Oct 2013 21:09:16 GMT
 
 "Here's a nickel, kid.  Get a real web hosting service."
@@ -1404,12 +1404,12 @@ really broken, feel free to let me know.
 
 ### Some HTML5 gewgaws for y'all
 
-*   summary: Several new [HTML5](http://catseye.tc/node/HTML5) gewgaws are now online in the [Gallery](http://catseye.tc/node/Online%20Installation).
+*   summary: Several new [HTML5](https://catseye.tc/node/HTML5) gewgaws are now online in the [Gallery](https://catseye.tc/node/Online%20Installation).
 *   date: Sun, 04 Aug 2013 03:00:00 GMT
 
-In [a previous article](http://catseye.tc/node/Programming%20Languages%20as%20an%20Artistic%20Medium),
+In [a previous article](https://catseye.tc/node/Programming%20Languages%20as%20an%20Artistic%20Medium),
 I mentioned that I consider, not just
-[programming languages](http://catseye.tc/node/Programming%20Language), but also [HTML5](http://catseye.tc/node/HTML5),
+[programming languages](https://catseye.tc/node/Programming%20Language), but also [HTML5](https://catseye.tc/node/HTML5),
 an artistic medium.
 
 If short, fluffy, entertaining pieces of music are called
@@ -1420,36 +1420,36 @@ least, that's what I call them.
         
 And so, here are a few HTML5 gewgaws for your (possible) entertainment.
 Located in the Digital Art Exhibit of our
-[Gallery](http://catseye.tc/node/Online%20Installation).  In fact there are six new ones in
+[Gallery](https://catseye.tc/node/Online%20Installation).  In fact there are six new ones in
 total.  And when I say HTML5, I mainly mean the `<canvas>` stuff, of
 course.
 
 They're not esolangs, but if you like esolangs, or if you liked
-[Cyclobots](http://catseye.tc/node/Cyclobots), you might like some of the more mathematically-oriented
+[Cyclobots](https://catseye.tc/node/Cyclobots), you might like some of the more mathematically-oriented
 ones.
 
 ### I'd been meaning to re-implement this for ages
 
-*   summary: Our 1994 automaton [Cyclobots](http://catseye.tc/node/Cyclobots) is now [live in-browser](http://catseye.tc/installation/Cyclobots) in the [Gallery](http://catseye.tc/node/Online%20Installation).
+*   summary: Our 1994 automaton [Cyclobots](https://catseye.tc/node/Cyclobots) is now [live in-browser](https://catseye.tc/installation/Cyclobots) in the [Gallery](https://catseye.tc/node/Online%20Installation).
 *   date: Fri, 12 Apr 2013 09:26:41 GMT
 
 Turn back the clock.  It's 1994.  NAFTA.  OJ Simpson.  Rwanda.
-And [SMETANA](http://catseye.tc/node/SMETANA), implemented for the first time in [Visual Basic](http://catseye.tc/node/Visual%20Basic).
+And [SMETANA](https://catseye.tc/node/SMETANA), implemented for the first time in [Visual Basic](https://catseye.tc/node/Visual%20Basic).
 
-And, unseen by all but maybe three or four people, [Cyclobots](http://catseye.tc/node/Cyclobots).
+And, unseen by all but maybe three or four people, [Cyclobots](https://catseye.tc/node/Cyclobots).
 
 Also implemented in Visual Basic.  Described as an "interactive
 desktop toy".  Fun to watch.  Languished in obscurity because I
 had other interests at the time.
 
-Then, the Visual Basic programs were forgotten, and eventually [lost](http://catseye.tc/node/lost).
+Then, the Visual Basic programs were forgotten, and eventually [lost](https://catseye.tc/node/lost).
 When Java came on the scene, I had meant to re-implement it as an applet.
 But man, that must have been one *low* priority TODO item, because I
 never got around to it.
 
-[Until now](http://catseye.tc/installation/Cyclobots).
+[Until now](https://catseye.tc/installation/Cyclobots).
 
-'Course, it's not a Java applet now, it's [Javascript](http://catseye.tc/node/Javascript) on an [HTML5](http://catseye.tc/node/HTML5)
+'Course, it's not a Java applet now, it's [Javascript](https://catseye.tc/node/Javascript) on an [HTML5](https://catseye.tc/node/HTML5)
 canvas, so make sure you're using one of those awesome new
 cutting-edge browsers, i.e., you've updated your Interwebs Explorer
 recently.
@@ -1461,20 +1461,20 @@ by tossing a quarter into
 
 ### An Online Parade of Cellular Automata
 
-*   summary: Our five [ALPACA](http://catseye.tc/node/ALPACA) creations are now online in the [Gallery](http://catseye.tc/node/Online%20Installation).
+*   summary: Our five [ALPACA](https://catseye.tc/node/ALPACA) creations are now online in the [Gallery](https://catseye.tc/node/Online%20Installation).
 *   date: Sat, 06 Apr 2013 12:08:26 GMT
 
 It's about time!  You can now play with Cat's Eye Technologies'
 cellular automata in your web browser on the following pages:
-[REDGREEN](http://catseye.tc/installation/REDGREEN), [Circute](http://catseye.tc/installation/Circute), [Braktif](http://catseye.tc/installation/Braktif),
-[Jaccia](http://catseye.tc/installation/Jaccia), and [Jacciata](http://catseye.tc/installation/Jacciata).
+[REDGREEN](https://catseye.tc/installation/REDGREEN), [Circute](https://catseye.tc/installation/Circute), [Braktif](https://catseye.tc/installation/Braktif),
+[Jaccia](https://catseye.tc/installation/Jaccia), and [Jacciata](https://catseye.tc/installation/Jacciata).
 
 I've wanted to be able to generate some kind of usable-in-a-web-browser
-code from [ALPACA](http://catseye.tc/node/ALPACA) descriptions for a good long while.  At one point
-I even considered hacking [alpaca.pl](http://catseye.tc/node/alpaca.pl) to generate [yoob](http://catseye.tc/node/yoob) classes
+code from [ALPACA](https://catseye.tc/node/ALPACA) descriptions for a good long while.  At one point
+I even considered hacking [alpaca.pl](https://catseye.tc/node/alpaca.pl) to generate [yoob](https://catseye.tc/node/yoob) classes
 to do it.  Well, the ALPACA language got a long-deserved update, and
-[Perl](http://catseye.tc/node/Perl) gave way to [Python](http://catseye.tc/node/Python) for the new compiler; and yoob in
-[Java](http://catseye.tc/node/Java) has given way to [yoob.js](http://catseye.tc/node/yoob.js) in [Javascript](http://catseye.tc/node/Javascript).
+[Perl](https://catseye.tc/node/Perl) gave way to [Python](https://catseye.tc/node/Python) for the new compiler; and yoob in
+[Java](https://catseye.tc/node/Java) has given way to [yoob.js](https://catseye.tc/node/yoob.js) in [Javascript](https://catseye.tc/node/Javascript).
 
 (In fact, there's nothing much HTML5-specific about these Javascript
 implementations, except for a slider control for adjusting the animation
@@ -1482,20 +1482,20 @@ speed, which is kind of crude and subject to change anyway.)
 
 The few improvements to yoob.js that were spurred on by this effort to
 get these CA's online have also resulted in improvements to the
-online installations of [Gemooy](http://catseye.tc/installation/Gemooy) and
-[noit o' mnain worb](http://catseye.tc/installation/noit%20o%27%20mnain%20worb).
+online installations of [Gemooy](https://catseye.tc/installation/Gemooy) and
+[noit o' mnain worb](https://catseye.tc/installation/noit%20o%27%20mnain%20worb).
 
 ### noit o' mnain worb implemented in HTML5
 
-*   summary: [noit o' mnain worb](http://catseye.tc/node/noit%20o%27%20mnain%20worb) has been implemented in [HTML5](http://catseye.tc/installation/noit%20o%27%20mnain%20worb).
+*   summary: [noit o' mnain worb](https://catseye.tc/node/noit%20o%27%20mnain%20worb) has been implemented in [HTML5](https://catseye.tc/installation/noit%20o%27%20mnain%20worb).
 *   date: Sat, 30 Mar 2013 18:34:22 GMT
 
 The implementation of various things in HTML5 continues.  This
-time it's [noit o' mnain worb](http://catseye.tc/node/noit%20o%27%20mnain%20worb), which you can play with
-[here](http://catseye.tc/installation/noit%20o%27%20mnain%20worb).  With pretty graphics,
+time it's [noit o' mnain worb](https://catseye.tc/node/noit%20o%27%20mnain%20worb), which you can play with
+[here](https://catseye.tc/installation/noit%20o%27%20mnain%20worb).  With pretty graphics,
 for some value of pretty.
 
-Seeing as worb has already been implemented in [yoob](http://catseye.tc/node/yoob), why
+Seeing as worb has already been implemented in [yoob](https://catseye.tc/node/yoob), why
 do this?  It's not like I can say it's "now playable online", because
 it already was.  (Or if not "playable", then... "play withable"...
 or whatever.)
@@ -1510,7 +1510,7 @@ And that all means I have to tell you to install and/or enable Java in
 your browser, which defeats the idea of reducing the install burden for
 esolangs, which was one of the original goals of yoob.
 
-The newer [yoob.js](http://catseye.tc/node/yoob.js) framework, which uses [HTML5](http://catseye.tc/node/HTML5) instead of Java,
+The newer [yoob.js](https://catseye.tc/node/yoob.js) framework, which uses [HTML5](https://catseye.tc/node/HTML5) instead of Java,
 is still pretty messy and ad-hoc, and lacks
 a few things that would be nice to have, like adjustable animation
 speed.  But the more things, like this, that get implemented in it, the
@@ -1518,26 +1518,26 @@ more it will mature.
 
 ### Super Wumpus Land now playable online
 
-*   summary: [Super Wumpus Land](http://catseye.tc/node/Super%20Wumpus%20Land) is now [playable online](http://catseye.tc/installation/Super%20Wumpus%20Land).
+*   summary: [Super Wumpus Land](https://catseye.tc/node/Super%20Wumpus%20Land) is now [playable online](https://catseye.tc/installation/Super%20Wumpus%20Land).
 *   date: Sun, 24 Mar 2013 12:28:33 GMT
 
-[Super Wumpus Land](http://catseye.tc/node/Super%20Wumpus%20Land), our silly "extended dance mix" version of
-[Hunt the Wumpus](http://catseye.tc/node/Hunt%20the%20Wumpus), has been converted to [Javascript](http://catseye.tc/node/Javascript), and is now
-playable online here: [Super Wumpus Land](http://catseye.tc/installation/Super%20Wumpus%20Land).
+[Super Wumpus Land](https://catseye.tc/node/Super%20Wumpus%20Land), our silly "extended dance mix" version of
+[Hunt the Wumpus](https://catseye.tc/node/Hunt%20the%20Wumpus), has been converted to [Javascript](https://catseye.tc/node/Javascript), and is now
+playable online here: [Super Wumpus Land](https://catseye.tc/installation/Super%20Wumpus%20Land).
 
-This new implementation uses modules from [yoob.js](http://catseye.tc/node/yoob.js) to simulate
-a text-based terminal on an [HTML5](http://catseye.tc/node/HTML5) `<canvas>` element.
+This new implementation uses modules from [yoob.js](https://catseye.tc/node/yoob.js) to simulate
+a text-based terminal on an [HTML5](https://catseye.tc/node/HTML5) `<canvas>` element.
 
 ### Oops, I just turned Chrysoberyl into a blogging platform
 
-*   summary: Oops, I just turned [Chrysoberyl](http://catseye.tc/node/Chrysoberyl) into a blogging platform.
+*   summary: Oops, I just turned [Chrysoberyl](https://catseye.tc/node/Chrysoberyl) into a blogging platform.
 *   date: Wed, 20 Mar 2013 14:59:21 GMT
 
 I'm not much of a blogger.  I've considered starting a blog a few times,
 but the thing is, most blogs are either about trends or opinions
 (or both, combined: _reactions_), and I don't follow trends, and when I
 have opinions, they're about specific *things*.  (Which is why the old
-[catseye.tc](http://catseye.tc/node/catseye.tc) had an "About" section, and why [Chrysoberyl](http://catseye.tc/node/Chrysoberyl) lets
+[catseye.tc](https://catseye.tc/node/catseye.tc) had an "About" section, and why [Chrysoberyl](https://catseye.tc/node/Chrysoberyl) lets
 commentary be attached to particular nodes.)  And those opinions, like
 the things themselves, are relatively "evergreen" -- they're not news,
 there's no need to go announcing them.  I also like to be able to
@@ -1550,10 +1550,10 @@ such-and-such *are* news articles, even if they're short ones.
 
 And sometimes I have something to say that's not focussed on a single
 topic, and it fits best as a stand-alone article, such as 
-[my retrospective on esolang design](http://catseye.tc/node/Retrospective%3A%20Chris%20Pressey%20on%20Language%20Design).
+[my retrospective on esolang design](https://catseye.tc/node/Retrospective%3A%20Chris%20Pressey%20on%20Language%20Design).
 
 Therefore, I merged the concepts of "News Item" and "Article" into
-just [Article](http://catseye.tc/node/Article) in Chrysoberyl, and all articles get included in
+just [Article](https://catseye.tc/node/Article) in Chrysoberyl, and all articles get included in
 the Atom feed, whether they're explicitly "news" or not.  The result
 is that Chrysoberyl is, among all the other words that already don't
 describe it, now a blogging platform.
@@ -1573,7 +1573,7 @@ about.
 
 *   date: Fri, 15 Mar 2013 18:00:00 GMT
 
-We have finally released version 1.0 of [ALPACA](http://catseye.tc/node/ALPACA),
+We have finally released version 1.0 of [ALPACA](https://catseye.tc/node/ALPACA),
 A Language for the Pithy Articulation of Cellular Automata.
 
 The specification has been rewritten (although _written_ would be
@@ -1583,8 +1583,8 @@ description, and handling neighbourhoods other than the Moore
 neighbourhood.
 
 The reference implementation has also been rewritten from scratch,
-in [Python](http://catseye.tc/node/Python) this time.  It can both interpret an ALPACA description,
-and compile it to [Javascript](http://catseye.tc/node/Javascript).  We plan to use the latter functionality
+in [Python](https://catseye.tc/node/Python) this time.  It can both interpret an ALPACA description,
+and compile it to [Javascript](https://catseye.tc/node/Javascript).  We plan to use the latter functionality
 to showcase some cellular automata on the website, which incidentally is
 looking a little less dire these days.
 
@@ -1598,7 +1598,7 @@ of anything.)
 
 *   date: Sat, 05 Jan 2013 11:18:23 GMT
 
-We have released [Exanoke](http://catseye.tc/node/Exanoke), a pure functional
+We have released [Exanoke](https://catseye.tc/node/Exanoke), a pure functional
 language which is syntactically restricted to expressing the primitive
 recursive functions.
 
@@ -1613,12 +1613,12 @@ or not; in a way, Exanoke combines both of those ideas.
 
 *   date: Fri, 04 Jan 2013 14:17:00 GMT
 
-Happy 2013!  [Chrysoberyl](http://catseye.tc/node/Chrysoberyl) is now in beta, whatever
+Happy 2013!  [Chrysoberyl](https://catseye.tc/node/Chrysoberyl) is now in beta, whatever
 that means in this day and age where it's not considered absurd for
 web services to be in perpetual beta.
 
 Well, concretely, what it means is we've replaced the older parts of
-`[catseye.tc](http://catseye.tc/node/catseye.tc)` entirely with Chrysoberyl entries, with a lot of web
+`[catseye.tc](https://catseye.tc/node/catseye.tc)` entirely with Chrysoberyl entries, with a lot of web
 redirects so all those links out in the wild still work.
 
 What it doesn't mean is that Chrysoberyl is finished in any sense.
@@ -1634,27 +1634,27 @@ So yeah, let's catch up with all the exciting, exciting
 *non*-Chrysoberyl-related developments we've seen here in the past few days!
 
 First, please welcome our latest newcomer to the menagerie,
-[Jolverine](http://catseye.tc/node/Jolverine).  I haven't been able to write a loop in it yet, but
+[Jolverine](https://catseye.tc/node/Jolverine).  I haven't been able to write a loop in it yet, but
 <a class="external" href="http://esolangs.org/wiki/Talk:Jolverine">Ørjan
 is figuring that part out</a>.
 
-Second, I remembered why I designed [Etcha](http://catseye.tc/node/Etcha) — it was part of a
-larger, stranger, maze-based automaton called [Zame](http://catseye.tc/node/Zame).  Which is now
+Second, I remembered why I designed [Etcha](https://catseye.tc/node/Etcha) — it was part of a
+larger, stranger, maze-based automaton called [Zame](https://catseye.tc/node/Zame).  Which is now
 described on the esowiki.
 
-Third, I finally got around to implementing [Thue](http://catseye.tc/node/Thue).  In [Ruby](http://catseye.tc/node/Ruby).
+Third, I finally got around to implementing [Thue](https://catseye.tc/node/Thue).  In [Ruby](https://catseye.tc/node/Ruby).
 I've been maintaining a distribution of it for so long without contributing
 to it, I felt it was overdue.  And now there is a new release of the
 Thue distribution.
 
-Fourth, Keymaker reported a bug with in [smith.pl](http://catseye.tc/node/smith.pl) — and while fixing
+Fourth, Keymaker reported a bug with in [smith.pl](https://catseye.tc/node/smith.pl) — and while fixing
 it, I found another fixed that one too, and there has been another release
-of the [SMITH](http://catseye.tc/node/SMITH) distribution.
+of the [SMITH](https://catseye.tc/node/SMITH) distribution.
 
-Lastly, while implementing a truth-machine in [Ypsilax](http://catseye.tc/node/Ypsilax) I found a bug
-in [ypsilax.pl](http://catseye.tc/node/ypsilax.pl) too (turns out, in [Perl](http://catseye.tc/node/Perl), the *string* `'0'` is false-y.
+Lastly, while implementing a truth-machine in [Ypsilax](https://catseye.tc/node/Ypsilax) I found a bug
+in [ypsilax.pl](https://catseye.tc/node/ypsilax.pl) too (turns out, in [Perl](https://catseye.tc/node/Perl), the *string* `'0'` is false-y.
 It's things like that why I don't code in Perl much anymore.)  So there's
-a new release of the [Ypsilax](http://catseye.tc/node/Ypsilax) distribution too.
+a new release of the [Ypsilax](https://catseye.tc/node/Ypsilax) distribution too.
 
 ### Dungeons of Ekileugor: 3,221 bytes of roguelike
 
@@ -1662,7 +1662,7 @@ a new release of the [Ypsilax](http://catseye.tc/node/Ypsilax) distribution too.
 
 Have you ever wondered how much roguelike can
 be crammed into the 3583 bytes available to BASIC on an unexpanded
-[Commodore VIC-20](http://catseye.tc/node/Commodore%20VIC-20)?  Well wonder no more, for [Dungeons of Ekileugor](http://catseye.tc/node/Dungeons%20of%20Ekileugor)
+[Commodore VIC-20](https://catseye.tc/node/Commodore%20VIC-20)?  Well wonder no more, for [Dungeons of Ekileugor](https://catseye.tc/node/Dungeons%20of%20Ekileugor)
 is such a cramming.  Random dungeon level generation with
 fairly reasonable layout of rooms and tunnels, monsters, combat with
 hit points and experience points, queued messages, treasure, chests,
@@ -1672,7 +1672,7 @@ you, a real VIC-20) and try it out!
 
 ### Chrysoberyl is now in ALPHA
 
-*   news-link: http://catseye.tc/node/Chrysoberyl.html
+*   news-link: https://catseye.tc/node/Chrysoberyl.html
 *   date: Sun, 16 Sep 2012 01:44:35 GMT
 
 Remember "The Great DVCS Exodus"
@@ -1697,7 +1697,7 @@ It teases apart the relationships between programming languages
 run), and distributions (things you can download), and casts it all in
 a bunch of YAML files with embedded Markdown.
 From these, a set of HTML5 pages can be generated, and lo and behold,
-[these are now on the site](http://catseye.tc/node/Chrysoberyl).
+[these are now on the site](https://catseye.tc/node/Chrysoberyl).
 
 They are, however, still in a very early stage of development.  Expect
 the styling to change, the content to change, the structure to change,
@@ -1714,12 +1714,12 @@ And, more importantly for you (if you are reading this from our RSS feed)
 is that our RSS feed *will no longer be updated*.  This will probably
 be the last item in it, except for an "Are you still reading this?" item when we've switched
 entirely over to Chrysoberyl.  Instead, you will want to subscribe to
-<a href="http://catseye.tc/feeds/atom_15_news.xml">our new Atom feed for
+<a href="https://catseye.tc/feeds/atom_15_news.xml">our new Atom feed for
 news, generated from Chrysoberyl</a>.
 
 ### Cfluviurrh: an Esolang with Feeling (Literally)
 
-*   news-link: http://catseye.tc/projects/cfluviurrh/
+*   news-link: https://catseye.tc/projects/cfluviurrh/
 *   date: Sun, 26 Aug 2012 17:43:52 GMT
 
 We have released a new programming language.
@@ -1733,7 +1733,7 @@ untrue, and the Cfluviurrh reference interpreter demonstrates it.
 
 ### The NEW Befunge-93 Reference Distribution
 
-*   news-link: http://catseye.tc/projects/befunge-93/
+*   news-link: https://catseye.tc/projects/befunge-93/
 *   date: Sat, 25 Aug 2012 17:58:39 GMT
 
 Since `bef`
@@ -1747,7 +1747,7 @@ programs, a Makefile, and a small feature fix to the debugger.  Enjoy!
 
 ### One More Language: Hello, Velo
 
-*   news-link: http://catseye.tc/projects/velo/
+*   news-link: https://catseye.tc/projects/velo/
 *   date: Sat, 14 Jul 2012 20:58:15 GMT
 
 And when we do get rid of a language, we like
@@ -1761,7 +1761,7 @@ future, though.
 
 ### One Less Language: Farewell 2iota
 
-*   news-link: http://catseye.tc/projects/beta-juliet/
+*   news-link: https://catseye.tc/projects/beta-juliet/
 *   date: Sat, 14 Jul 2012 18:36:52 GMT
 
 It's not often we get rid of a language here at
@@ -1776,7 +1776,7 @@ interpreter still needs to catch up to them in some small ways.)
 
 ### yucca: Static Analysis for BASIC
 
-*   news-link: http://catseye.tc/projects/yucca/
+*   news-link: https://catseye.tc/projects/yucca/
 *   date: Mon, 11 Jun 2012 04:13:52 GMT
 
 We have officially released version 1.0 of
@@ -1791,7 +1791,7 @@ on our BASIC offerings (all two of them) and did, indeed, find
 
 ### Bubble Escape now open-source
 
-*   news-link: http://catseye.tc/projects/bubble-escape/
+*   news-link: https://catseye.tc/projects/bubble-escape/
 *   date: Sun, 03 Jun 2012 16:46:56 GMT
 
 A new revision of the Bubble Escape distribution has been
@@ -1849,7 +1849,7 @@ and/or
 
 ### Some Facts Regarding Apple Befunge v1.1
 
-*   news-link: http://catseye.tc/projects/apple-befunge/
+*   news-link: https://catseye.tc/projects/apple-befunge/
 *   date: Mon, 20 Feb 2012 17:44:01 GMT
 
 Pixley and Falderal.  Falderal and Pixley.
@@ -1862,7 +1862,7 @@ for the Apple ][+, and it has been placed in the public domain.
 
 ### I got Pixley power!
 
-*   news-link: http://catseye.tc/projects/pixley/
+*   news-link: https://catseye.tc/projects/pixley/
 *   date: Mon, 20 Feb 2012 01:12:15 GMT
 
 Pixley version 2.0 revision 2012.0219 has been released.
@@ -1874,7 +1874,7 @@ placed under a BSD-style license now.  Enjoy...
 
 ### Release of Falderal version 0.6 "Streeterville"
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Mon, 02 Jan 2012 14:45:16 GMT
 
 The new year sees another release of
@@ -1889,7 +1889,7 @@ Markdown, and Literate Haskell documents to XHTML.
 
 ### Release of Falderal version 0.5 "The Loop"
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Wed, 14 Dec 2011 14:40:19 GMT
 
 Falderal, our format for unit-testing little
@@ -1905,7 +1905,7 @@ a consistent way.
 
 ### Release of Pixley version 2.0
 
-*   news-link: http://catseye.tc/projects/pixley/
+*   news-link: https://catseye.tc/projects/pixley/
 *   date: Fri, 09 Dec 2011 17:18:14 GMT
 
 Pixley version 2.0 has been released.  It
@@ -1919,7 +1919,7 @@ itself.
 
 ### Madison, a Term-Rewriting Proof-Checker
 
-*   news-link: http://catseye.tc/projects/madison/
+*   news-link: https://catseye.tc/projects/madison/
 *   date: Fri, 02 Dec 2011 20:26:43 GMT
 
 One thing I've wanted to do for a long while is
@@ -1939,7 +1939,7 @@ but I'm quite pleased with it.
 
 ### Q: Are We Not Men?  A: We Are Flobnar!
 
-*   news-link: http://catseye.tc/projects/flobnar/
+*   news-link: https://catseye.tc/projects/flobnar/
 *   date: Fri, 28 Oct 2011 14:34:04 GMT
 
 One day in September of 2011 — though I'm not
@@ -1954,7 +1954,7 @@ meanings, but execution proceeds in a much more dataflow-like fashion.
 
 ### Release of Falderal version 0.4
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Mon, 10 Oct 2011 20:47:03 GMT
 
 Well, that was quick — well,
@@ -1974,7 +1974,7 @@ its goal of being a testing framework for programming languages.
 
 ### Release of Falderal version 0.3
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Fri, 07 Oct 2011 18:30:56 GMT
 
 Remember that major change in
@@ -1992,7 +1992,7 @@ the Falderal file into Haskell code, and running that.
 
 ### OMG WTF FBBI 1.0 SIAS EVVK!
 
-*   news-link: http://catseye.tc/projects/fbbi
+*   news-link: https://catseye.tc/projects/fbbi
 *   date: Mon, 03 Oct 2011 20:46:30 GMT
 
 After years and years of apathy, we have
@@ -2013,7 +2013,7 @@ has not abated in kind.
 
 ### yoob 0.3 in the Gallery of Interactive Esolangs
 
-*   news-link: http://catseye.tc/gallery/esolangs/
+*   news-link: https://catseye.tc/gallery/esolangs/
 *   date: Wed, 21 Sep 2011 18:46:23 GMT
 
 yoob 0.3 has been released, and it has moved out
@@ -2021,14 +2021,14 @@ of Cat's Eye Technologies' lab and has become an official part of our
 website.  It is now the main exhibit in the new Gallery of
 Interactive Esolangs.  And, since we have three galleries now, we have
 developed this section of the website into something more real: our
-[Gallery Space](http://catseye.tc/gallery/).
+[Gallery Space](https://catseye.tc/gallery/).
 This is where we will be exhibiting interactive works, and works
 not produced by Cat's Eye Technologies but which we find interesting
 nonetheless.
 
 ### Have you seen LoUIE lately?
 
-*   news-link: http://catseye.tc/cpressey/louie.html
+*   news-link: https://catseye.tc/cpressey/louie.html
 *   date: Sat, 17 Sep 2011 21:24:45 GMT
 
 Have you seen LoUIE (our List of Unfinished
@@ -2040,7 +2040,7 @@ looking for an idea to build on, why not give it a look-see?
 
 ### Researchers Discover the Civilization Advance "Language: Xoomonk"
 
-*   news-link: http://catseye.tc/projects/xoomonk/
+*   news-link: https://catseye.tc/projects/xoomonk/
 *   date: Sun, 07 Aug 2011 23:56:59 GMT
 
 Xoomonk is a programming language in which
@@ -2053,7 +2053,7 @@ version 0.1.
 
 ### PL-{GOTO}.NET: Eat it Before it Eats You
 
-*   news-link: http://catseye.tc/projects/pl-goto.net/
+*   news-link: https://catseye.tc/projects/pl-goto.net/
 *   date: Fri, 05 Aug 2011 02:53:30 GMT
 
 You've always wanted an compiler
@@ -2071,7 +2071,7 @@ Why aren't you answering me???
 
 ### Bubble Escape 2K Now Playable Online
 
-*   news-link: http://catseye.tc/gallery/c64/bubble-escape-2k/
+*   news-link: https://catseye.tc/gallery/c64/bubble-escape-2k/
 *   date: Sat, 16 Jul 2011 05:34:50 GMT
 
 As subject.  We've wanted to do this for a
@@ -2086,7 +2086,7 @@ and Ubuntu 11 (Firefox).  So try it!  Enjoy!
 
 ### Release of Falderal version 0.2
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Mon, 27 Jun 2011 18:40:47 GMT
 
 Mainly to get a few minor niceties
@@ -2100,7 +2100,7 @@ be written in Haskell.
 
 ### First public release of yoob source code
 
-*   news-link: http://catseye.tc/projects/yoob/
+*   news-link: https://catseye.tc/projects/yoob/
 *   date: Fri, 24 Jun 2011 04:27:27 GMT
 
 yoob has pulled itself out of its
@@ -2117,7 +2117,7 @@ there are more than a dozen open issues in its
 
 ### Corona: Realm of Magic: Dug out of the Attic
 
-*   news-link: http://catseye.tc/projects/corona-realm-of-magic/
+*   news-link: https://catseye.tc/projects/corona-realm-of-magic/
 *   date: Fri, 24 Jun 2011 00:17:55 GMT
 
 Something else I dug out of the attic.  This was
@@ -2130,7 +2130,7 @@ due to some technical problems, was not announced until now.
 
 ### Apple Befunge: Dug out of the Attic
 
-*   news-link: http://catseye.tc/projects/apple-befunge/
+*   news-link: https://catseye.tc/projects/apple-befunge/
 *   date: Tue, 07 Jun 2011 19:47:35 GMT
 
 Hey, look what I dug out of the attic.  I don't even
@@ -2138,7 +2138,7 @@ remember what emulator the disk image was built for.  Oh well.
 
 ### Pail is an acceptable Bizaaro[sic]-Pixley
 
-*   news-link: http://catseye.tc/projects/pail/
+*   news-link: https://catseye.tc/projects/pail/
 *   date: Fri, 27 May 2011 14:33:34 GMT
 
 If you've been following our news,
@@ -2147,12 +2147,12 @@ light year for new languages here at Cat's Eye Technologies.
 It's been mostly updates, with the only original design
 being Wunnel.  Well, that pattern's been broke!
 We have another new language.  It started its life
-under the name Bizaaro[sic]-[Pixley](http://catseye.tc/node/Pixley),
+under the name Bizaaro[sic]-[Pixley](https://catseye.tc/node/Pixley),
 but it's called Pail now (for PAIr Language).
 
 ### Falderal: Literate Testing for Haskell Functions
 
-*   news-link: http://catseye.tc/projects/falderal/
+*   news-link: https://catseye.tc/projects/falderal/
 *   date: Tue, 17 May 2011 23:43:10 GMT
 
 We here at Cat's Eye Technologies
@@ -2162,14 +2162,14 @@ Haskell.  Instead, we have put together a package
 that can be used and reused for this purpose, and
 we have (for reasons obscure even to us) called it
 Falderal.  It doesn't do a lot yet (it's only version 0.1...), but it has promise.
-We're already using it in [Quylthulg](http://catseye.tc/node/Quylthulg).
+We're already using it in [Quylthulg](https://catseye.tc/node/Quylthulg).
 To encourage contributions, its development is hosted on a
 [public repository on Bitbucket](https://bitbucket.org/catseye/falderal).
 Watch for its use in future projects!
 
 ### Pluggin' some (specification) leaks in Eightebed
 
-*   news-link: http://catseye.tc/projects/eightebed/
+*   news-link: https://catseye.tc/projects/eightebed/
 *   date: Tue, 10 May 2011 18:59:22 GMT
 
 Eightebed version 1.1.  Has a nice ring to
@@ -2187,7 +2187,7 @@ and documentation of fixes that you don't care about.
 
 ### Oozlybub and Murphy and Progress!
 
-*   news-link: http://catseye.tc/projects/oozlybub-and-murphy/
+*   news-link: https://catseye.tc/projects/oozlybub-and-murphy/
 *   date: Wed, 27 Apr 2011 19:37:55 GMT
 
 Version 1.1 of the Oozlybub and Murphy
@@ -2199,7 +2199,7 @@ UNTIL YOUR EYES BURN WITH DEEP DEEP CORROSION.
 
 ### More blowing off of dust: Maentwrog
 
-*   news-link: http://catseye.tc/projects/maentw/
+*   news-link: https://catseye.tc/projects/maentw/
 *   date: Tue, 26 Apr 2011 18:00:57 GMT
 
 Marinus has been so kind to write
@@ -2212,7 +2212,7 @@ gcc and pcc.
 
 ### yoob Grows Support for 3 More Esolangs
 
-*   news-link: http://catseye.tc/lab/yoob/applet.html
+*   news-link: https://catseye.tc/lab/yoob/applet.html
 *   date: Wed, 30 Mar 2011 23:37:49 GMT
 
 The yoob framework for esolang
@@ -2231,7 +2231,7 @@ they'll ripen with age.  Enjoy...
 
 ### Blowing the Dust off bef
 
-*   news-link: http://catseye.tc/projects/bef/
+*   news-link: https://catseye.tc/projects/bef/
 *   date: Sat, 19 Mar 2011 05:49:00 GMT
 
 The Befunge-93 reference interpreter,
@@ -2251,7 +2251,7 @@ aesthetic improvements to the interpreter, too!
 
 ### Technology preview: yoob
 
-*   news-link: http://catseye.tc/lab/yoob/applet.html
+*   news-link: https://catseye.tc/lab/yoob/applet.html
 *   date: Tue, 15 Mar 2011 17:48:27 GMT
 
 Cat's Eye Technologies has embarked
@@ -2269,14 +2269,14 @@ Enjoy...
 
 ### We Three Things of Disorient Are
 
-*   news-link: http://catseye.tc/cpressey/lingography.html#Gemooy
+*   news-link: https://catseye.tc/cpressey/lingography.html#Gemooy
 *   date: Tue, 04 Jan 2011 14:23:23 GMT
 
 Alright, so it's a little late, I admit, but
 puns of that quality take time!  We present three
 remotely fungeoid little esolangs
 that, in fact, *were* designed before Christmas:
-[Gemooy](http://catseye.tc/node/Gemooy), [Nhohnhehr](http://catseye.tc/node/Nhohnhehr), and [Kelxquoia](http://catseye.tc/node/Kelxquoia).
+[Gemooy](https://catseye.tc/node/Gemooy), [Nhohnhehr](https://catseye.tc/node/Nhohnhehr), and [Kelxquoia](https://catseye.tc/node/Kelxquoia).
 They're not in our project space yet, but they are on the
 esolang wiki, and one of them (Nhohnhehr) has an
 implementation already, thanks to Marinus.
@@ -2290,7 +2290,7 @@ to have a prize like that...
 
 ### Refurbishment of Thue Implementations
 
-*   news-link: http://catseye.tc/projects/thue/
+*   news-link: https://catseye.tc/projects/thue/
 *   date: Sat, 18 Dec 2010 21:33:39 GMT
 
 We've released a couple of bugfixes
@@ -2301,7 +2301,7 @@ on this effort!
 
 ### Fresh, Bold Stupid: Oozlybub and Murphy
 
-*   news-link: http://catseye.tc/projects/oozlybub-and-murphy/
+*   news-link: https://catseye.tc/projects/oozlybub-and-murphy/
 *   date: Wed, 01 Dec 2010 04:02:32 GMT
 
 Cat's Eye Technologies has
@@ -2313,7 +2313,7 @@ is not entirely named Oozlybub is named Murphy. Deal with it.
 
 ### Pixley Version One Point One
 
-*   news-link: http://catseye.tc/projects/pixley/
+*   news-link: https://catseye.tc/projects/pixley/
 *   date: Fri, 05 Nov 2010 21:11:25 GMT
 
 An update to the Pixley programming
@@ -2327,7 +2327,7 @@ in Mini-Scheme.
 
 ### A Programming Language called Eightebed
 
-*   news-link: http://catseye.tc/projects/eightebed/
+*   news-link: https://catseye.tc/projects/eightebed/
 *   date: Wed, 01 Sep 2010 22:56:25 GMT
 
 I could have just explained to Gregor
@@ -2338,7 +2338,7 @@ to make my point.  And I had to go and name it
 
 ### Whothm, a Language for Infinite Drawings
 
-*   news-link: http://catseye.tc/projects/whothm/
+*   news-link: https://catseye.tc/projects/whothm/
 *   date: Tue, 29 Jun 2010 22:44:31 GMT
 
 We present Whothm, a simple language for
@@ -2348,7 +2348,7 @@ Whothm in a Java applet.
 
 ### Burro Climbs to 2.0
 
-*   news-link: http://catseye.tc/projects/burro/
+*   news-link: https://catseye.tc/projects/burro/
 *   date: Mon, 07 Jun 2010 19:13:58 GMT
 
 A major overhaul was done to the Burro language,
@@ -2365,7 +2365,7 @@ map a Turing machine to a Burro program.
 
 ### A video game: Bubble Escape 2K
 
-*   news-link: http://catseye.tc/projects/bescape2k/
+*   news-link: https://catseye.tc/projects/bescape2k/
 *   date: Wed, 12 May 2010 03:03:58 GMT
 
 Wow!  A tiny C64 video game from the deep past!
@@ -2379,7 +2379,7 @@ We humbly think you should get out your Commodore 64 emulator and play it!
 
 ### Gallery of Esteemed Programming Languages
 
-*   news-link: http://catseye.tc/gallery/languages/
+*   news-link: https://catseye.tc/gallery/languages/
 *   date: Fri, 30 Apr 2010 20:13:55 GMT
 
 At Cat's Eye Technologies, we have long
@@ -2402,7 +2402,7 @@ as XHTML 1.0 Strict.
 
 ### Another blast from the past: RUBE
 
-*   news-link: http://catseye.tc/projects/rube/
+*   news-link: https://catseye.tc/projects/rube/
 *   date: Thu, 04 Feb 2010 16:26:47 GMT
 
 In a move likely to set a dangerous
@@ -2422,7 +2422,7 @@ for comment.
 
 ### ZOWIE: Memory-Mapped Structured Flow Control
 
-*   news-link: http://catseye.tc/projects/zowie/
+*   news-link: https://catseye.tc/projects/zowie/
 *   date: Tue, 29 Dec 2009 21:14:00 GMT
 
 Cat's Eye Technologies' last language of the aughts,
@@ -2436,7 +2436,7 @@ letter of the Roman alphabet.  I'm so happy.
 
 ### Release of Etcha, a Turtle-Based Language
 
-*   news-link: http://catseye.tc/projects/etcha/
+*   news-link: https://catseye.tc/projects/etcha/
 *   date: Sun, 04 Oct 2009 17:57:05 GMT
 
 We present the esolang Etcha, a four-instruction BitChanger
@@ -2446,7 +2446,7 @@ computation, playing a role similar to the tape head of a Turing machine.
 
 ### Dieter: Type Qualifiers meet Modules
 
-*   news-link: http://catseye.tc/projects/dieter/
+*   news-link: https://catseye.tc/projects/dieter/
 *   date: Sun, 04 Oct 2009 01:00:31 GMT
 
 After a long long time incubating, the Dieter
@@ -2458,7 +2458,7 @@ produces something that resembles object-oriented programming.
 
 ### The Pixley Programming Language Arrives
 
-*   news-link: http://catseye.tc/projects/pixley/
+*   news-link: https://catseye.tc/projects/pixley/
 *   date: Sat, 02 May 2009 03:23:46 GMT
 
 We present Pixley, a strict subset of
@@ -2478,7 +2478,7 @@ fraction of
 
 ### Scientific Proof that Cellular Automata are Intelligent!
 
-*   news-link: http://catseye.tc/projects/jaccia/
+*   news-link: https://catseye.tc/projects/jaccia/
 *   date: Sun, 12 Apr 2009 01:23:46 GMT
 
 Did you know that
@@ -2489,7 +2489,7 @@ we know that cellular automata are intelligent too!  Three cheers for science!
 
 ### The Unlikely Programming Language Unveiled
 
-*   news-link: http://catseye.tc/projects/unlikely/
+*   news-link: https://catseye.tc/projects/unlikely/
 *   date: Sun, 15 Mar 2009 21:20:50 GMT
 
 So we have our first new programming language
@@ -2501,7 +2501,7 @@ relationships, and to top it all off, makes dependency injection
 
 ### Shelta Revisited
 
-*   news-link: http://catseye.tc/projects/shelta/
+*   news-link: https://catseye.tc/projects/shelta/
 *   date: Sun, 08 Mar 2009 19:00:30 GMT
 
 Almost a decade after it was first published,
@@ -2513,7 +2513,7 @@ process.  Check it out (if you like that sort of thing.)
 
 ### A List of Unfinished Interesting Esolangs (LoUIE)
 
-*   news-link: http://catseye.tc/cpressey/louie.html
+*   news-link: https://catseye.tc/cpressey/louie.html
 *   date: Wed, 13 Jan 2009 04:06:22 GMT
 
 Wouldn't it be great if I had enough time to
@@ -2526,7 +2526,7 @@ with it.  Just you watch.)
 
 ### Nine Projects Moved to Archive
 
-*   news-link: http://catseye.tc/archive/
+*   news-link: https://catseye.tc/archive/
 *   date: Sun, 11 Jan 2009 23:06:29 GMT
 
 We've moved nine of our less exciting projects to
@@ -2537,7 +2537,7 @@ open-source projects started by others (ErlGTK, ErlGuten, libvesa.)
 
 ### Let's Have a Warm Hand for Quylthulg
 
-*   news-link: http://catseye.tc/projects/quylthulg/
+*   news-link: https://catseye.tc/projects/quylthulg/
 *   date: Sun, 07 Dec 2008 02:32:51 GMT
 
 Let's have a warm hand for Quylthulg,
@@ -2549,7 +2549,7 @@ inside data structures.
 
 ### Publishing of the "Kitsilano" Oscillator Circuit
 
-*   news-link: http://catseye.tc/projects/kitsilano/
+*   news-link: https://catseye.tc/projects/kitsilano/
 *   date: Sat, 06 Sep 2008 06:58:13 GMT
 
 After a summer hiatus, production
@@ -2560,7 +2560,7 @@ of NPN transistors and a single capacitor.
 
 ### Release of the Context Rewriting Language Treacle
 
-*   news-link: http://catseye.tc/projects/treacle/
+*   news-link: https://catseye.tc/projects/treacle/
 *   date: Sat, 12 Apr 2008 23:24:55 GMT
 
 The Treacle programming language, successor
@@ -2571,7 +2571,7 @@ subpatterns may match at any depth.
 
 ### Wee Present: The PETulant Cursor
 
-*   news-link: http://catseye.tc/projects/petulant/
+*   news-link: https://catseye.tc/projects/petulant/
 *   date: Wed, 02 Apr 2008 07:59:59 GMT
 
 Just in time for April Fools,
@@ -2581,7 +2581,7 @@ What's it do?  Run it and see!
 
 ### Arboretuum Forest-Rewriting Language Released
 
-*   news-link: http://catseye.tc/projects/arboretuum/
+*   news-link: https://catseye.tc/projects/arboretuum/
 *   date: Wed, 05 Mar 2008 06:46:13 GMT
 
 The Arboretuum programming language has
@@ -2591,7 +2591,7 @@ which multiple trees are rewritten simultaneously.
 
 ### Website Updated to Use XHTML 1.0
 
-*   news-link: http://catseye.tc/about/website.html
+*   news-link: https://catseye.tc/about/website.html
 *   date: Fri, 01 Feb 2008 03:26:31 GMT
 
 We have updated our webpages to conform to
@@ -2602,7 +2602,7 @@ better in Internet Explorer.
 
 ### Release of the Larabee Programming Language
 
-*   news-link: http://catseye.tc/projects/larabee/
+*   news-link: https://catseye.tc/projects/larabee/
 *   date: Fri, 11 Jan 2008 03:20:00 GMT
 
 The Larabee programming language has been released.
@@ -2612,7 +2612,7 @@ Also great fun at parties.
 
 ### Release of the Mascarpone Programming Language
 
-*   news-link: http://catseye.tc/projects/mascarpone/
+*   news-link: https://catseye.tc/projects/mascarpone/
 *   date: Sun, 09 Dec 2007 02:01:55 GMT
 
 The Mascarpone programming language has been released.
@@ -2622,12 +2622,12 @@ a meta-circular interpreter, in which interpreters are also first-class values.
 
 ### Ypsilax Updated to Use Console::Virtual
 
-*   news-link: http://catseye.tc/projects/ypsilax/
+*   news-link: https://catseye.tc/projects/ypsilax/
 *   date: Sun, 02 Dec 2007 17:40:07 GMT
 
 Following the improvements made to the
-implementation of [noit o' mnain worb](http://catseye.tc/node/noit%20o%27%20mnain%20worb),
-our Ypsilax implementation also uses [Console::Virtual](http://catseye.tc/node/Console%3A%3AVirtual) and
+implementation of [noit o' mnain worb](https://catseye.tc/node/noit%20o%27%20mnain%20worb),
+our Ypsilax implementation also uses [Console::Virtual](https://catseye.tc/node/Console%3A%3AVirtual) and
 optional sub-second delays to provide a nice screen-oriented
 animation of Ypsilax' two-dimensional, non-deterministic,
 reflective grid rewriting, taking the burden of visualization
@@ -2635,7 +2635,7 @@ off the user.
 
 ### RSS Feed Now Available for Cat's Eye Technologies
 
-*   news-link: http://catseye.tc/news.xml
+*   news-link: https://catseye.tc/news.xml
 *   date: Sat, 01 Dec 2007 23:09:50 GMT
 
 News on the latest developments at Cat's Eye Technologies
@@ -2657,7 +2657,7 @@ reason — somebody might actually find it useful.
 
 ### Release of the Iphigeneia Programming Language
 
-*   news-link: http://catseye.tc/projects/iphi/
+*   news-link: https://catseye.tc/projects/iphi/
 *   date: Sat, 25 Nov 2007 12:00:00 GMT
 
 The Iphigeneia programming language is released.  Iphigeneia is a toy
@@ -2668,13 +2668,13 @@ two forms, but it has strayed slightly from that goal.
 
 ### Console::Virtual Revived, HUNTER and worb Benefit
 
-*   news-link: http://catseye.tc/projects/cons_virt/
+*   news-link: https://catseye.tc/projects/cons_virt/
 *   date: Sat, 23 Nov 2007 12:00:00 GMT
 
-Noticing that the Perl 5 implementation of [HUNTER](http://catseye.tc/node/HUNTER)
+Noticing that the Perl 5 implementation of [HUNTER](https://catseye.tc/node/HUNTER)
 required a module that was never restored to the website after the last crash,
 I dug it out of cold storage and refurbished it a bit, resulting in
-[Console::Virtual](http://catseye.tc/node/Console%3A%3AVirtual).
+[Console::Virtual](https://catseye.tc/node/Console%3A%3AVirtual).
 
 In the process I tidied up the HUNTER project quite a bit, including supporting a
 real delay, measured in milliseconds, between animation frames.  (This requires the
@@ -2682,7 +2682,7 @@ Time::HiRes module, but it still works without it; you just can't get
 sub-second resolution in that case.)
 
 And, in the process of doing that, I noticed the implementation of
-[noit o' mnain worb](http://catseye.tc/node/noit%20o%27%20mnain%20worb) could use many of the same improvements.
+[noit o' mnain worb](https://catseye.tc/node/noit%20o%27%20mnain%20worb) could use many of the same improvements.
 So now it, too, uses Console::Virtual
 instead of requiring an ANSI-compatible terminal, and supports an adjustable delay
 between frames.
@@ -2693,7 +2693,7 @@ This is pretty crude right now, but it's hopefully a step in the right direction
 
 ### Release of the Didigm Reflective Cellular Automaton
 
-*   news-link: http://catseye.tc/projects/didigm/
+*   news-link: https://catseye.tc/projects/didigm/
 *   date: Sat, 17 Nov 2007 12:00:00 GMT
 
 Release of initial specification of the Didigm
@@ -2703,7 +2703,7 @@ Also some random hacking on libvesa.
 
 ### Release of the Emmental Programing Language
 
-*   news-link: http://catseye.tc/projects/emmental/
+*   news-link: https://catseye.tc/projects/emmental/
 *   date: Sat, 11 Nov 2007 12:00:00 GMT
 
 The Emmental programming language has been
@@ -2715,7 +2715,7 @@ Turing-completeness.
 
 ### Release of You are Reading the Name of this Esolang
 
-*   news-link: http://catseye.tc/projects/urreading/
+*   news-link: https://catseye.tc/projects/urreading/
 *   date: Sat, 05 Nov 2007 12:00:00 GMT
 
 The programming language You are Reading the Name of this Esolang
@@ -2725,17 +2725,17 @@ of symbols is a well-formed You are Reading the Name of this Esolang program is 
 
 ### Release of the Cabra Programming Language
 
-*   news-link: http://catseye.tc/projects/cabra/
+*   news-link: https://catseye.tc/projects/cabra/
 *   date: Sat, 01 Nov 2007 12:00:00 GMT
 
 The Cabra programming language,
-successor of sorts to [Burro](http://catseye.tc/node/Burro), has been released.
+successor of sorts to [Burro](https://catseye.tc/node/Burro), has been released.
 Cabra programs form, not a group, but a dioid — an idempotent semiring — 
 under the operations of sequential and parallel composition.
 
 ### Release of the Burro Programming Language
 
-*   news-link: http://catseye.tc/projects/burro/
+*   news-link: https://catseye.tc/projects/burro/
 *   date: Sat, 26 Oct 2007 12:00:00 GMT
 
 The Burro programming language, after two years
@@ -2745,21 +2745,21 @@ speaking — see the docs for the complete picture.)
 
 ### (Re-)Unearthing of the Maentwrog Programming Language
 
-*   news-link: http://catseye.tc/projects/maentw/
+*   news-link: https://catseye.tc/projects/maentw/
 *   date: Sat, 30 Sep 2007 12:00:00 GMT
 
 The Maentwrong language, predecessor of
-[Befunge-93](http://catseye.tc/node/Befunge-93), and thought by me to be lost forever (again), was found (again)
+[Befunge-93](https://catseye.tc/node/Befunge-93), and thought by me to be lost forever (again), was found (again)
 on a long-forgotten backup disc.  It has been brought forth into the light
 of the projects directory (again) for whatever it's worth.
 
 ### catseye.mine.nu No Longer in Service
 
-*   news-link: http://catseye.tc/
+*   news-link: https://catseye.tc/
 *   date: Sat, 28 Aug 2007 12:00:00 GMT
 
 The catseye.mine.nu server is no longer in service
-This has two consequences:  The old http://catseye.mine.nu:8080/
+This has two consequences:  The old https://catseye.mine.nu:8080/
 URL prefix for this site will no longer redirect here to catseye.tc,
 and the Subversion repositories served by catseye.mine.nu
 will no longer be publicly available.
@@ -2774,7 +2774,7 @@ to circumstances it will have to be a low priority goal over the next few months
 
 ### Updates to SMITH and REDGREEN
 
-*   news-link: http://catseye.tc/projects/smith/
+*   news-link: https://catseye.tc/projects/smith/
 *   date: Sat, 22 Jul 2007 12:00:00 GMT
 
 The SMITH language has been updated in
@@ -2783,18 +2783,18 @@ is now defined.  The reference implementation now implements this sanely as
 well.  Thanks to Nathan Thern for pointing this out (and for submitting a
 SMITH version of "99 Bottles of Beer"!)
 
-Some bugs in [REDGREEN](http://catseye.tc/node/REDGREEN) have been fixed
+Some bugs in [REDGREEN](https://catseye.tc/node/REDGREEN) have been fixed
 as well: the documentation claims that Wires and Sparks behave per the
 WireWorld automaton, and that Zappy and BigZappy set things on fire.  The
 ALPACA implementation of REDGREEN now properly implements these rules.
 Thanks to Stewart Gordon for pointing these bugs out.
 
-Also, I dug up [noise](http://catseye.tc/node/noise) and put
+Also, I dug up [noise](https://catseye.tc/node/noise) and put
 it in the projects.  I swear there was a manual page for it too, but I can't find it.
 
 ### Release of the Hev Programming Language
 
-*   news-link: http://catseye.tc/projects/hev/
+*   news-link: https://catseye.tc/projects/hev/
 *   date: Sat, 17 Jun 2007 12:00:00 GMT
 
 The Hev programming language has been released.
@@ -2804,7 +2804,7 @@ Truly, a major breakthrough.
 
 ### Release of the Xigxag automaton
 
-*   news-link: http://catseye.tc/projects/xigxag/
+*   news-link: https://catseye.tc/projects/xigxag/
 *   date: Sat, 02 Jun 2007 12:00:00 GMT
 
 Xigxag, a simple automaton with exponential growth almost
@@ -2812,18 +2812,18 @@ everywhere, has been released.
 
 ### Zzrk Released, and More
 
-*   news-link: http://catseye.tc/projects/zzrk/
+*   news-link: https://catseye.tc/projects/zzrk/
 *   date: Sat, 15 May 2007 12:00:00 GMT
 
 Most significantly, a project has been added for
 Zzrk, a text adventure
 game written in a meta-language intended for building compilers (Zz).
 
-I also brought [GraNoLa/M](http://catseye.tc/node/GraNoLa_M) and [SP\ASM](http://catseye.tc/node/SP_ASM)
+I also brought [GraNoLa/M](https://catseye.tc/node/GraNoLa_M) and [SP\ASM](https://catseye.tc/node/SP_ASM)
 out of those dusty ol' boxes in the attic and added them to the line-up.
 
-[REDGREEN](http://catseye.tc/node/REDGREEN), [Braktif](http://catseye.tc/node/Braktif), and [Circute](http://catseye.tc/node/Circute)
-have also been split off from the main [ALPACA](http://catseye.tc/node/ALPACA)
+[REDGREEN](https://catseye.tc/node/REDGREEN), [Braktif](https://catseye.tc/node/Braktif), and [Circute](https://catseye.tc/node/Circute)
+have also been split off from the main [ALPACA](https://catseye.tc/node/ALPACA)
 distribution, and live in projects of their own.
 
 I also polished the site design a wee bit.

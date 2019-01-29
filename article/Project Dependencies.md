@@ -233,7 +233,7 @@ Parsec is a parser combinator library for Haskell.
 ### realpath
 
 *   specification-link: N/A
-*   suggested-implementation: [catseye/realpath](http://catseye.tc/distribution/realpath_distribution)
+*   suggested-implementation: [catseye/realpath](https://catseye.tc/distribution/realpath_distribution)
 
 `realpath` is a tool that reports the real, symbolic-link-free path
 for a filepath which may contain symbolic links.
@@ -241,7 +241,7 @@ for a filepath which may contain symbolic links.
 I'm not sure if it's part of any standard, but it really should be, because it's
 very useful in scripts.  It does come bundled with many Linux distributions,
 but not with NetBSD, so for The Platform, we wrote
-[our own implementation](http://catseye.tc/distribution/realpath_distribution) in [Python][].
+[our own implementation](https://catseye.tc/distribution/realpath_distribution) in [Python][].
 
 Interfaces
 ----------

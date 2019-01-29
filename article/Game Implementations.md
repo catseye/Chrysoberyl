@@ -17,7 +17,7 @@ but which were not designed by Cat's Eye Technologies.
 *   host language: Erlang
 *   interface: terminal
 *   inception date: ca 1999
-*   in distribution: [Animals distribution](http://catseye.tc/distribution/Animals_distribution)
+*   in distribution: [Animals distribution](https://catseye.tc/distribution/Animals_distribution)
 
 This is an implementation of _Animals_ in Erlang.
 
@@ -28,7 +28,7 @@ This is an implementation of _Animals_ in Erlang.
 *   host language: Erlang
 *   interface: terminal
 *   inception date: Jul 31 2002
-*   in distribution: [Flip distribution](http://catseye.tc/distribution/Flip_distribution)
+*   in distribution: [Flip distribution](https://catseye.tc/distribution/Flip_distribution)
 
 This is an implementation of _Flip_ in Erlang.
 
@@ -49,14 +49,14 @@ This is an implementation of Gregory Yob's _Hunt the Wumpus_ in Erlang.
 *   host language: Erlang
 *   interface: Tcl/Tk (GUI window with keyboard controls)
 *   inception date: Nov 4 2002
-*   in distribution: [esoko distribution](http://catseye.tc/distribution/esoko_distribution)
+*   in distribution: [esoko distribution](https://catseye.tc/distribution/esoko_distribution)
 
 _Sokoban_ is the classic Japanese game about lean manufacturing (well, sort of).
 
 This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
 
-[Hunt the Wumpus]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
-[Sokoban]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#sokoban
-[Flip]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#flip
-[Animals]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#animals
+[Hunt the Wumpus]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
+[Sokoban]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#sokoban
+[Flip]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#flip
+[Animals]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#animals
 

@@ -5,7 +5,7 @@ Welcome to
 
 ### Cat's Eye Technologies
 
-![Ye olde Cat's Eye Technologies "cogs" logo (graphics by Mildmood Wultiwedia)](http://static.catseye.tc/images/logo/cog.gif)
+![Ye olde Cat's Eye Technologies "cogs" logo (graphics by Mildmood Wultiwedia)](https://static.catseye.tc/images/logo/cog.gif)
 
 Cat's Eye Technologies is an independent [esoteric programming language][]
 concern run by [Chris Pressey][].
@@ -103,7 +103,7 @@ open-source or Public Domain.)
 ### catseye.tc
 
 `catseye.tc` is [Cat's Eye Technologies][]' website:
-[http://catseye.tc/](http://catseye.tc/).
+[https://catseye.tc/](https://catseye.tc/).
 
 It is the official distribution channel of Cat's Eye Technologies'
 public offerings, and
@@ -128,7 +128,7 @@ too, to make his joy complete.  Stay tuned.)
 `catseye.tc` may be considered our permanent domain name -- we're stuck
 with it now that it's part of the [Java][] namespaces of our products,
 right?  Feel free to make links to this site using URLs that begin with
-`http://catseye.tc/`. The `www` prefix is not required.
+`https://catseye.tc/`. The `www` prefix is not required.
 
 Our aim in making this website is that it both conforms to W3C
 standards and provides a reasonable user experience.
@@ -144,9 +144,9 @@ We do use [Javascript][] on the pages on this site, but outside of the
 
 ### Chrysoberyl
 
-![I Love Categorization](http://static.catseye.tc/images/pictures/Categorization.jpg)
+![I Love Categorization](https://static.catseye.tc/images/pictures/Categorization.jpg)
 
-*   reference distribution: [Chrysoberyl distribution](http://catseye.tc/distribution/Chrysoberyl_distribution)
+*   reference distribution: [Chrysoberyl distribution](https://catseye.tc/distribution/Chrysoberyl_distribution)
 
 _Chrysoberyl_ is an attempt to catalogue and curate all things
 produced by [Cat's Eye Technologies][],
@@ -165,8 +165,8 @@ outside of what Cat's Eye Technologies has produced.
 
 ### The Dossier
 
-*   online @ [catseye.tc](http://catseye.tc/view/The-Dossier/README.md)
-*   reference distribution: [The Dossier distribution](http://catseye.tc/distribution/The_Dossier_distribution)
+*   online @ [catseye.tc](https://catseye.tc/view/The-Dossier/README.md)
+*   reference distribution: [The Dossier distribution](https://catseye.tc/distribution/The_Dossier_distribution)
 
 While [Chrysoberyl][] is an attempt to catalogue and curate
 things related directly to [Cat's Eye Technologies][],
@@ -185,12 +185,12 @@ short-and-trying-to-be-unbiased-blurb approach.
 [esoteric programming languages]: #esolang
 [programming language]: ../article/Languages.md
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
-[Chris Pressey's Lingography]: http://catseye.tc/article/Languages
-[LoUIE]: http://catseye.tc/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
-[Retrospective: Chris Pressey on Language Design]: http://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md
-[Chris Pressey's Favourite Video Games]: http://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md
-[Chris Pressey's Favourite Text Adventures]: http://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md
-[Chris Pressey's Favourite Other Computer Games]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md
+[Chris Pressey's Lingography]: https://catseye.tc/article/Languages
+[LoUIE]: https://catseye.tc/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
+[Retrospective: Chris Pressey on Language Design]: https://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md
+[Chris Pressey's Favourite Video Games]: https://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md
+[Chris Pressey's Favourite Text Adventures]: https://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md
+[Chris Pressey's Favourite Other Computer Games]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md
 [GitHub]: https://github.com/catseye/
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies

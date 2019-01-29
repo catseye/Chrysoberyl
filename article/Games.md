@@ -1,11 +1,11 @@
 Games
 =====
 
-*   image_url: http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
 *   common development-stage: mature
 *   common type: Game
+*   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 
 Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
 most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
@@ -16,12 +16,12 @@ and entries here may be categorized somewhat arbitrarily.
 
 ### Bubble Escape
 
-![screenshot](http://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
+![screenshot](https://catseye.tc/modules/bubble-escape/images/bubble%20escape%202k.png)
 
 *   genre: Maze-Runner
 *   inception-date: ca 1988
-*   reference distribution: [Bubble Escape distribution](http://catseye.tc/distribution/Bubble_Escape_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
+*   reference distribution: [Bubble Escape distribution](https://catseye.tc/distribution/Bubble_Escape_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
 
 _Bubble Escape_ is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
@@ -48,7 +48,7 @@ where it won first place in its class.
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
 *   submitted-to: [Mini Game Compo 2009][]; 1st place in 2K category
-*   online @ [catseye.tc](http://catseye.tc/installation/Bubble_Escape)
+*   online @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
 
 #### Implementation: Bubble Escape 8K
 
@@ -60,11 +60,11 @@ where it won first place in its class.
 
 ### Corona: Realm of Magic
 
-![screenshot](http://catseye.tc/modules/corona-realm-of-magic/doc/carpe_ss2.gif)
+![screenshot](https://catseye.tc/modules/corona-realm-of-magic/doc/carpe_ss2.gif)
 
 *   genre: Roguelike
 *   inception-date: ca Sep 2000
-*   reference distribution: [Corona: Realm of Magic distribution](http://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
+*   reference distribution: [Corona: Realm of Magic distribution](https://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
 *   development-stage: archival
 
 _Corona: Realm of Magic_ is an unfinished roguelike written in
@@ -82,11 +82,11 @@ Interactive Entertainment Modules.)
 
 ### Dungeons of Ekileugor
 
-![screenshot](http://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
+![screenshot](https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
 
 *   genre: Roguelike
 *   inception-date: Aug 2012
-*   reference distribution: [Dungeons of Ekileugor distribution](http://catseye.tc/distribution/Dungeons_of_Ekileugor_distribution)
+*   reference distribution: [Dungeons of Ekileugor distribution](https://catseye.tc/distribution/Dungeons_of_Ekileugor_distribution)
 
 _Dungeons of Ekileugor_ is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
@@ -105,12 +105,12 @@ etc.
 
 ### Super Wumpus Land
 
-![screenshot](http://catseye.tc/modules/super-wumpus-land/images/Super%20Wumpus%20Land.png)
+![screenshot](https://catseye.tc/modules/super-wumpus-land/images/Super%20Wumpus%20Land.png)
 
 *   genre: Logic
 *   inception-date: ca 1999
-*   reference distribution: [Super Wumpus Land distribution](http://catseye.tc/distribution/Super_Wumpus_Land_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
+*   reference distribution: [Super Wumpus Land distribution](https://catseye.tc/distribution/Super_Wumpus_Land_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Super_Wumpus_Land)
 
 _Super Wumpus Land_ is an "extended dance mix" version of Gregory Yob's
 [Hunt the Wumpus][].  It's playable in your web browser in a simulation
@@ -129,16 +129,16 @@ of an old-school green-screen video terminal.
 *   host-language: [Javascript][]
 *   host-platform: HTML5
 *   interface: yoob.js TextTerminal
-*   online @ [catseye.tc](http://catseye.tc/installation/Super_Wumpus_Land)
+*   online @ [catseye.tc](https://catseye.tc/installation/Super_Wumpus_Land)
 
 ### The New Gamerly Realism
 
-![screenshot](http://static.catseye.tc/images/illustrations/The_New_Gamerly_Realism.jpg)
+![screenshot](https://static.catseye.tc/images/illustrations/The_New_Gamerly_Realism.jpg)
 
 *   genre: Philosophy
 *   inception-date: 2015
-*   reference distribution: [The New Gamerly Realism distribution](http://catseye.tc/distribution/The_New_Gamerly_Realism distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
+*   reference distribution: [The New Gamerly Realism distribution](https://catseye.tc/distribution/The_New_Gamerly_Realism distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/The_New_Gamerly_Realism)
 
 Only when the conscious habit of coding culture's little interactions,
 Marios and Lara Crofts in games disappears
@@ -160,15 +160,15 @@ reification of the interactions of culture.
 *   license: Unknown license
 *   host-language: [Javascript][]
 *   host-platform: HTML5
-*   online @ [catseye.tc](http://catseye.tc/installation/The_New_Gamerly_Realism)
+*   online @ [catseye.tc](https://catseye.tc/installation/The_New_Gamerly_Realism)
 
 ### The Never-Ending Maze
 
-![screenshot](http://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
+![screenshot](https://static.catseye.tc/images/illustrations/Never_Ending_Maze.jpg)
 
 *   genre: Text Adventure
 *   inception-date: ca 2000
-*   online @ [catseye.tc](http://catseye.tc/installation/The_Never-Ending_Maze)
+*   online @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
 
 An Infocom-style text adventure game based on the defining cultural
 phenomenon of a generation.  (Possibly.)
@@ -178,17 +178,17 @@ phenomenon of a generation.  (Possibly.)
 *   license: Freely Redistributable
 *   host-platform: Z-Machine
 *   host-language: Z-Machine code
-*   online @ [catseye.tc](http://catseye.tc/installation/The_Never-Ending_Maze)
-*   download @ [static.catseye.tc](http://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
+*   online @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
+*   download @ [static.catseye.tc](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
 
 ### Zzrk
 
-![screenshot](http://static.catseye.tc/images/illustrations/Zzrk.jpg)
+![screenshot](https://static.catseye.tc/images/illustrations/Zzrk.jpg)
 
 *   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure
 *   inception-date: ca 2005
-*   reference distribution: [Zzrk distribution](http://catseye.tc/distribution/Zzrk_distribution)
+*   reference distribution: [Zzrk distribution](https://catseye.tc/distribution/Zzrk_distribution)
 
 _Zzrk_ is a tiny adventure game written in "pure" Zz
 (a meta-language normally used for defining compilers.)
@@ -205,8 +205,8 @@ See Also
 --------
 
 *   [Game Implementations](Game%20Implementations.md)
-*   [Video Games of Note](http://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md) in The Dossier
-*   [Text Adventures of Note](http://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md) in The Dossier
+*   [Video Games of Note](https://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md) in The Dossier
+*   [Text Adventures of Note](https://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md) in The Dossier
 
 - - - -
 
@@ -216,7 +216,7 @@ See Also
 [Ophis Assembler]: ../article/Retrocomputing.md#ophis
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
-[Hunt the Wumpus]: http://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
+[Hunt the Wumpus]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 

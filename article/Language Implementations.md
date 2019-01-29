@@ -1,9 +1,9 @@
 Language Implementations
 ========================
 
-*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 *   common auspices: Cat's Eye Technologies
 *   common authors: Chris Pressey
+*   image_url: https://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 
 This is a list of languages that Cat's Eye Technologies has built an implementation for
 but which were not designed by Cat's Eye Technologies.  For those, see [Languages](Languages.md).
@@ -17,7 +17,7 @@ Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some l
 *   host language: [Haskell][]
 *   target language: [MSIL][]
 *   inception date: May 2011
-*   in distribution: [PL-{GOTO}.NET distribution](http://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
+*   in distribution: [PL-{GOTO}.NET distribution](https://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
 
 PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
 from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_.
@@ -57,7 +57,7 @@ Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergin
 *   implementation type: interpreter
 *   host language: [Perl][]
 *   inception date: Mar 23, 2001
-*   in distribution: [Muriel distribution](http://catseye.tc/distribution/Muriel_distribution)
+*   in distribution: [Muriel distribution](https://catseye.tc/distribution/Muriel_distribution)
 
 This is an interpeter, written in Perl, for Matthew Westcott's
 quine-based language Muriel.  It was probably
@@ -69,7 +69,7 @@ the first full implementation of that language.
 *   implementation type: interpreter
 *   host language: [Erlang][]
 *   inception date: May 5, 2003
-*   in distribution: [pibfi distribution](http://catseye.tc/distribution/pibfi_distribution)
+*   in distribution: [pibfi distribution](https://catseye.tc/distribution/pibfi_distribution)
 
 In contrast to all the ultra-minimal Brainfuck interpreters and
 compilers out there, I figured I should write a monster: the Platonic Ideal BrainFuck Interpreter.
@@ -85,13 +85,13 @@ point that made me recognize just how silly this project was...
 *   host language: [ANSI C][]
 *   target language: lookup table
 *   inception date: Jun 23, 2005
-*   in distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
+*   in distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
 
 Based on the observation that Smallfuck, lacking the (assumed-)infinite tape of Brainfuck,
 can only express finite-state automata, I wrote a little program in C to compile Smallfuck programs to
 (generally gigantic) lookup-tables.
 
-There is also an old [sf2tab distribution](http://catseye.tc/distribution/sf2tab_distribution).
+There is also an old [sf2tab distribution](https://catseye.tc/distribution/sf2tab_distribution).
 
 ### stringie
 
@@ -99,7 +99,7 @@ There is also an old [sf2tab distribution](http://catseye.tc/distribution/sf2tab
 *   implementation type: interpreter
 *   host language: [ANSI C][]
 *   inception date: Sep 2010
-*   in distribution: [stringie distribution](http://catseye.tc/distribution/stringie_distribution)
+*   in distribution: [stringie distribution](https://catseye.tc/distribution/stringie_distribution)
 
 Seeing that there was no *non*-pathological implementation of Alex Smith's
 beautiful [Underload][] language in C, I undertook that project one evening.
@@ -115,8 +115,8 @@ an accident.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -127,8 +127,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -139,8 +139,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -151,8 +151,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -163,8 +163,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -175,8 +175,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -187,8 +187,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -199,8 +199,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -211,8 +211,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -223,8 +223,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -235,8 +235,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -247,8 +247,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -259,8 +259,8 @@ Implemented as part of yoob.
 *   host platform: yoob
 *   host language: [Java][]
 *   inception date: May 2011
-*   in distribution: [yoob distribution](http://catseye.tc/distribution/yoob_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Implemented as part of yoob.
 
@@ -270,7 +270,7 @@ Implemented as part of yoob.
 *   implementation type: interpreter
 *   host language: [Ruby][]
 *   inception date: Sep 10, 2012
-*   in distribution: [Thue distribution](http://catseye.tc/distribution/Thue_distribution)
+*   in distribution: [Thue distribution](https://catseye.tc/distribution/Thue_distribution)
 
 Since I've been maintaining a distribution of this language for a while, and
 not otherwise involved with it, I decided I should finally implement it.
@@ -284,7 +284,7 @@ did implement it.
 *   implementation type: parser
 *   host language: [Erlang][]
 *   inception date: Oct 11, 2002
-*   in distribution: [The Dipple](http://catseye.tc/distribution/The_Dipple)
+*   in distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
 
 A parser, in Erlang, for the Lesser-Known Language VALGOL.
 It, like, totally demonstrates how a parser can be written so
@@ -301,7 +301,7 @@ We don't have a dedicated page for implemented automata yet, so they are here.
 *   implementation type: interpreter
 *   host language: [ALPACA][]
 *   inception date: 1998
-*   in distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
+*   in distribution: [ALPACA distribution](https://catseye.tc/distribution/ALPACA_distribution)
 
 Conway's Game of Life, in ALPACA.
 
@@ -311,7 +311,7 @@ Conway's Game of Life, in ALPACA.
 *   implementation type: interpreter
 *   host language: [ALPACA][]
 *   inception date: 1998
-*   in distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
+*   in distribution: [ALPACA distribution](https://catseye.tc/distribution/ALPACA_distribution)
 
 Wireworld, in ALPACA.
 
@@ -350,7 +350,7 @@ Wireworld, in ALPACA.
 [ALPACA]: ../article/Languages.md#alpaca
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [AmigaDOS 1.3]: ../article/Retrocomputing.md#amiga-500
-[Zz]: http://catseye.tc/modules/OpenZz/doc/zzdoc.html
+[Zz]: https://catseye.tc/modules/OpenZz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk
 [Ruby]: ../article/Project%20Dependencies.md#ruby
 [MSIL]: http://www.ecma-international.org/publications/standards/Ecma-335.htm

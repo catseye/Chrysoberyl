@@ -1,7 +1,7 @@
 Automata
 ========
 
-*   image_url: http://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
+*   image_url: https://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 
 Unfortunately the distinction between an Automaton and a [Language](Languages.md) or a
 [Gewgaw](Gewgaws.md) is not always cut-and-dried so you might want to see those articles
@@ -15,9 +15,9 @@ as well.
 *   development-stage: archival
 *   computational-class: known not Turing-complete
 *   paradigms: Self-modifying
-*   reference-distribution: [SMETANA distribution](http://catseye.tc/distribution/SMETANA_distribution)
+*   reference-distribution: [SMETANA distribution](https://catseye.tc/distribution/SMETANA_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -52,13 +52,13 @@ despite its minimalism, it is finite-automata-complete; it is also the
 
 ### Cyclobots
 
-![preview](http://static.catseye.tc/images/screenshots/Cyclobots.jpg)
+![preview](https://static.catseye.tc/images/screenshots/Cyclobots.jpg)
 
 *   type: Automaton
 *   inception-date: ca 1994
 *   genre: Desk toy
-*   reference-distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Cyclobots)
+*   reference-distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Cyclobots)
 
 Also
 
@@ -112,7 +112,7 @@ could use the mouse to attract/repel them from a chosen point.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Bully automaton, 2-dimensional
-*   reference-distribution: [RUBE distribution](http://catseye.tc/distribution/RUBE_distribution)
+*   reference-distribution: [RUBE distribution](https://catseye.tc/distribution/RUBE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
 
 Sample program:
@@ -147,9 +147,9 @@ force other state changes to occur elsewhere in the playfield.
 *   computational-class: Turing-complete
 *   influences: RUBE
 *   paradigms: Cellular automaton
-*   reference-distribution: [REDGREEN distribution](http://catseye.tc/distribution/REDGREEN_distribution)
+*   reference-distribution: [REDGREEN distribution](https://catseye.tc/distribution/REDGREEN_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
-*   online @ [catseye.tc](http://catseye.tc/installation/REDGREEN)
+*   online @ [catseye.tc](https://catseye.tc/installation/REDGREEN)
 
 Sample program:
 
@@ -182,7 +182,7 @@ REDGREEN is a cellular automaton that simulates a little
 
 ### noit o' mnain worb
 
-![screenshot](http://static.catseye.tc/images/screenshots/noit_o_mnain_worb.jpg)
+![screenshot](https://static.catseye.tc/images/screenshots/noit_o_mnain_worb.jpg)
 
 *   type: Automaton
 *   inception-date: Sep 15, 2000
@@ -190,10 +190,10 @@ REDGREEN is a cellular automaton that simulates a little
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Particle automaton, Probabilistic
-*   reference-distribution: [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
+*   reference-distribution: [noit o' mnain worb distribution](https://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/noit_o'_mnain_worb)
-*   online @ [catseye.tc](http://catseye.tc/installation/noit_o'_mnain_worb)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/noit_o'_mnain_worb)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample configuration:
 
@@ -236,7 +236,7 @@ it's so lossy that it has more value as just a neat toy to watch.
 
 ### Circute
 
-![screenshot](http://static.catseye.tc/images/screenshots/Circute.jpg)
+![screenshot](https://static.catseye.tc/images/screenshots/Circute.jpg)
 
 *   type: Automaton
 *   inception-date: 2005
@@ -245,10 +245,10 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   computational-class: known not Turing-complete
 *   influences: Wireworld
 *   paradigms: Cellular automaton
-*   reference-distribution: [Circute distribution](http://catseye.tc/distribution/Circute_distribution)
+*   reference-distribution: [Circute distribution](https://catseye.tc/distribution/Circute_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
-*   online @ [catseye.tc](http://catseye.tc/installation/Circute)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/Circute)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample configuration:
 
@@ -287,9 +287,9 @@ carry digital signals and NAND gates that manipulate those signals.
 *   computational-class: believed Turing-complete
 *   influences: brainfuck
 *   paradigms: Cellular automaton
-*   reference-distribution: [Braktif distribution](http://catseye.tc/distribution/Braktif_distribution)
+*   reference-distribution: [Braktif distribution](https://catseye.tc/distribution/Braktif_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Braktif)
-*   online @ [catseye.tc](http://catseye.tc/installation/Braktif)
+*   online @ [catseye.tc](https://catseye.tc/installation/Braktif)
 
 Sample configuration:
 
@@ -315,7 +315,7 @@ programming language.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: String-rewriting
-*   reference-distribution: [Xigxag distribution](http://catseye.tc/distribution/Xigxag_distribution)
+*   reference-distribution: [Xigxag distribution](https://catseye.tc/distribution/Xigxag_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xigxag)
 
 Sample configuration:
@@ -347,7 +347,7 @@ configurations that don't blow up.)
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Cellular automaton, Reflective
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Didigm)
 
 Sample configuration:
@@ -380,9 +380,9 @@ those transition rules.
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Cellular automaton, 2-dimensional
-*   reference-distribution: [Jaccia and Jacciata distribution](http://catseye.tc/distribution/Jaccia_and_Jacciata_distribution)
+*   reference-distribution: [Jaccia and Jacciata distribution](https://catseye.tc/distribution/Jaccia_and_Jacciata_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Jaccia)
-*   online @ [catseye.tc](http://catseye.tc/installation/Jaccia)
+*   online @ [catseye.tc](https://catseye.tc/installation/Jaccia)
 
 Sample configuration:
 
@@ -432,13 +432,13 @@ Jacciata is a variant of [Jaccia][] which finds the shortest path.
 
 ### Chzrxl
 
-![preview](http://static.catseye.tc/images/screenshots/Chzrxl.jpg)
+![preview](https://static.catseye.tc/images/screenshots/Chzrxl.jpg)
 
 *   type: Automaton
 *   inception-date: 2013
 *   genre: Desk toy
-*   reference-distribution: [HTML5 Gewgaws distribution](http://catseye.tc/distribution/HTML5_Gewgaws_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Chzrxl)
+*   reference-distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Chzrxl)
 
 Also
 
@@ -456,7 +456,7 @@ lava lamp?
 
 ### Backtracking Wang Tiler
 
-![screenshot](http://static.catseye.tc/images/screenshots/Backtracking_Wang_Tiler.jpg)
+![screenshot](https://static.catseye.tc/images/screenshots/Backtracking_Wang_Tiler.jpg)
 
 *   type: Automaton
 *   inception-date: Feb 2015
@@ -464,8 +464,8 @@ lava lamp?
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional
-*   reference-distribution: [Wang Tilers distribution](http://catseye.tc/distribution/Wang_Tilers_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Backtracking%20Wang%20Tiler)
+*   reference-distribution: [Wang Tilers distribution](https://catseye.tc/distribution/Wang_Tilers_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Backtracking%20Wang%20Tiler)
 
 This backtracking Wang tiler is an automaton which naïvely tiles the
 plane with [Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
@@ -483,7 +483,7 @@ algorithm, since it never terminates.
 
 ### Schrödinger's Game of Life
 
-![screenshot](http://static.catseye.tc/images/screenshots/Schroedingers_Game_of_Life.jpg)
+![screenshot](https://static.catseye.tc/images/screenshots/Schroedingers_Game_of_Life.jpg)
 
 *   type: Automaton
 *   inception-date: Feb 7, 2015
@@ -491,8 +491,8 @@ algorithm, since it never terminates.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional, Cellular automaton, Non-deterministic
-*   reference-distribution: [Schrödinger's Game of Life distribution](http://catseye.tc/distribution/Schrödinger's_Game_of_Life_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Schrödinger's%20Game%20of%20Life)
+*   reference-distribution: [Schrödinger's Game of Life distribution](https://catseye.tc/distribution/Schrödinger's_Game_of_Life_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Schrödinger's%20Game%20of%20Life)
 
 Schrödinger's Game of Life is what happens when [Conway's Game of Life][]
 meets [Schrödinger's Cat][]: each individual cell may be **Alive**,

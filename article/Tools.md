@@ -1,7 +1,7 @@
 Tools
 =====
 
-*   image_url: http://static.catseye.tc/images/illustrations/Allen_wrench_and_screw_(PSF).jpg
+*   image_url: https://static.catseye.tc/images/illustrations/Allen_wrench_and_screw_(PSF).jpg
 
 Note that the precise distinctions between a Tool, a Platform, and a Library are debatable,
 and entries may be categorized somewhat arbitrarily.
@@ -17,7 +17,7 @@ Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some t
 
 *   summary: Package for simulating a virtual console
 *   inception-date: ca 2003
-*   reference-distribution: [Console::Virtual distribution](http://catseye.tc/distribution/Console::Virtual_distribution)
+*   reference-distribution: [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution)
 
 `Console::Virtual` is a simple, lightweight abstraction layer which
 allows a program to interact with the user through a console, which
@@ -27,18 +27,18 @@ is emulated on whatever user interface is really available.
 
 *   reference: true
 *   in-distributions:
-    *   [Console::Virtual distribution](http://catseye.tc/distribution/Console::Virtual_distribution)
-    *   [Corona: Realm of Magic distribution](http://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
-    *   [Ypsilax distribution](http://catseye.tc/distribution/Ypsilax_distribution)
-    *   [noit o' mnain worb distribution](http://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
-    *   [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
+    *   [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution)
+    *   [Corona: Realm of Magic distribution](https://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
+    *   [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
+    *   [noit o' mnain worb distribution](https://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
+    *   [HUNTER distribution](https://catseye.tc/distribution/HUNTER_distribution)
 *   license: BSD license
 *   host-language: [Perl][]
 
 ### DiskSumo
 
 *   inception-date: ca 2005
-*   reference-distribution: [DiskSumo distribution](http://catseye.tc/distribution/DiskSumo_distribution)
+*   reference-distribution: [DiskSumo distribution](https://catseye.tc/distribution/DiskSumo_distribution)
 
 DiskSumo is a program to transfer disk images off a Commodore 64 over
 the RS-232 port via the XMODEM protocol at 300 baud.
@@ -54,7 +54,7 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 
 *   inception-date: 2018
 *   development-stage: work in progress
-*   reference-distribution: [ellsync distribution](http://catseye.tc/distribution/ellsync_distribution)
+*   reference-distribution: [ellsync distribution](https://catseye.tc/distribution/ellsync_distribution)
 
 **ellsync** is an opinionated [poka-yoke][] for [rsync][].  "Opinionated" because
 it was designed for a particular use case for rsync (offline backups).  "Poka-yoke"
@@ -71,7 +71,7 @@ because it exposes a restricted interface to rsync, which prevents using it in d
 *   summary: Scripts to set up dev environments on various OS'es on sundry architectures
 *   inception-date: Jun 17 2014
 *   development-stage: not fully complete
-*   reference-distribution: [Funicular distribution](http://catseye.tc/distribution/Funicular_distribution)
+*   reference-distribution: [Funicular distribution](https://catseye.tc/distribution/Funicular_distribution)
 
 **Funicular** is a system that semi-automates the creation of development
 environments on eclectic architectures. "Semi-automate" means it automates
@@ -100,7 +100,7 @@ and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.s
 *   summary: Extractor of Project Gutenberg texts
 *   inception-date: 2014
 *   development-stage: mature
-*   reference-distribution: [Guten-gutter distribution](http://catseye.tc/distribution/Guten-gutter_distribution)
+*   reference-distribution: [Guten-gutter distribution](https://catseye.tc/distribution/Guten-gutter_distribution)
 
 Guten-gutter is a command-line tool that removes the boilerplate
 from Project Gutenberg text files.
@@ -116,7 +116,7 @@ from Project Gutenberg text files.
 *   summary: Tokenizer for Commodore BASIC 2.0 programs
 *   inception-date: 2015
 *   development-stage: not fully complete
-*   reference-distribution: [hatoucan distribution](http://catseye.tc/distribution/hatoucan_distribution)
+*   reference-distribution: [hatoucan distribution](https://catseye.tc/distribution/hatoucan_distribution)
 
 `hatoucan` is a tokenizer for [Commodore BASIC 2.0][] programs.
 It is compatible with a subset of `petcat`, but is written in
@@ -132,7 +132,7 @@ Python and is in the public domain.
 
 *   inception-date: 2017
 *   development-stage: work in progress
-*   reference-distribution: [kinoje distribution](http://catseye.tc/distribution/kinoje_distribution)
+*   reference-distribution: [kinoje distribution](https://catseye.tc/distribution/kinoje_distribution)
 
 **kinoje** is a templating-based animation tool.  A provided template is filled out once for each
 frame of the animation; the result of the template expansion is used to create a still image; and
@@ -149,7 +149,7 @@ the resulting sequence of images is compiled into the finished movie.
 *   summary: An engine for generating non-interactive fiction
 *   inception-date: Nov 2015
 *   development-stage: not fully complete
-*   reference-distribution: [MARYSUE distribution](http://catseye.tc/distribution/MARYSUE_distribution)
+*   reference-distribution: [MARYSUE distribution](https://catseye.tc/distribution/MARYSUE_distribution)
 
 MARYSUE is the story generator used to generate the novel
 [A Time for Destiny][] for [NaNoGenMo 2015][].
@@ -165,7 +165,7 @@ MARYSUE is the story generator used to generate the novel
 *   summary: Records seeds used in random generation and allows re-use
 *   inception-date: 2014
 *   development-stage: mature
-*   reference-distribution: [seedbank distribution](http://catseye.tc/distribution/seedbank_distribution)
+*   reference-distribution: [seedbank distribution](https://catseye.tc/distribution/seedbank_distribution)
 
 `seedbank` is a Python module which takes care of recording the seed
 used for random generation, and allowing a previously used seed to
@@ -182,7 +182,7 @@ be used again in the future.
 *   summary: A "package manager" that doesn't actually install anything
 *   inception-date: 2016
 *   development-stage: work in progress
-*   reference-distribution: [shelf distribution](http://catseye.tc/distribution/shelf_distribution)
+*   reference-distribution: [shelf distribution](https://catseye.tc/distribution/shelf_distribution)
 
 `shelf` is a "package manager" which doesn't actually install any files.
 Instead, it stores the source trees of sundry packages in a single directory,
@@ -203,7 +203,7 @@ written in Python.
 
 *   inception-date: Jul 2015
 *   development-stage: mature
-*   reference-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
+*   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
 
 SITU-MON is a machine language monitor for [6502][]-based
 systems, written (by hand!) during RetroChallenge 2015/07 and entered into
@@ -220,7 +220,7 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 
 *   inception-date: Jul 2015
 *   development-stage: mature
-*   reference-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
+*   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
 
 SITU-PAN is a *front-panel switches simulator* for the [Commodore 64][].
 It displays 8 virtual LEDs and 8 virtual dip switches on the screen.
@@ -243,7 +243,7 @@ of entering [SITU-MON][] into an emulated C64.
 *   summary: An engine for generating non-interactive fiction
 *   inception-date: Nov 2013
 *   development-stage: not fully complete
-*   reference-distribution: [The Swallows distribution](http://catseye.tc/distribution/The_Swallows_distribution)
+*   reference-distribution: [The Swallows distribution](https://catseye.tc/distribution/The_Swallows_distribution)
 
 The Swallows Engine is the engine used to generate _The Swallows_
 series of generated novels for [NaNoGenMo 2013][].
@@ -258,7 +258,7 @@ series of generated novels for [NaNoGenMo 2013][].
 
 *   inception-date: 2014
 *   development-stage: mature
-*   reference-distribution: [tree distribution](http://catseye.tc/distribution/tree_distribution)
+*   reference-distribution: [tree distribution](https://catseye.tc/distribution/tree_distribution)
 
 Cat's Eye Technologies' `tree` is a command-line tool that displays an
 indented directory tree, similar to "The Tree Command for Linux" except
@@ -275,7 +275,7 @@ simpler.
 *   summary: Tidier-upper for generated text
 *   inception-date: Nov 2014
 *   development-stage: mature
-*   reference-distribution: [T-Rext distribution](http://catseye.tc/distribution/T-Rext_distribution)
+*   reference-distribution: [T-Rext distribution](https://catseye.tc/distribution/T-Rext_distribution)
 
 T-Rext is a command-line filter that attempts to clean up spaces and
 punctuation in a text file.  Its purpose is so that, when you are writing
@@ -293,7 +293,7 @@ done to make it more presentable.
 
 *   inception-date: 2018
 *   development-stage: work in progress
-*   reference-distribution: [yastasoti distribution](http://catseye.tc/distribution/yastasoti_distribution)
+*   reference-distribution: [yastasoti distribution](https://catseye.tc/distribution/yastasoti_distribution)
 
 **yastasoti** is yet another script for archiving stuff off teh internets.
 It supports consulting an _archive router_ to determine where each stuff
@@ -309,7 +309,7 @@ is archived to.
 
 *   summary: Static analyzer for 8-bit BASIC programs
 *   inception-date: 2012
-*   reference-distribution: [yucca distribution](http://catseye.tc/distribution/yucca_distribution)
+*   reference-distribution: [yucca distribution](https://catseye.tc/distribution/yucca_distribution)
 
 `yucca` is a dialect-agnostic static analyzer for 8-bit BASIC
 programs.  It can find `GOTO`'s and `GOSUB`'s
@@ -332,7 +332,7 @@ More like demos?
 *   summary: Well-commented C64 raster interrupt example
 *   inception-date: April 2007
 *   development-stage: mature
-*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
+*   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
 
 A simple Commodore 64 graphics demo that uses the raster interrupt facility
 of the VIC-II chip: the colour of the border of the screen is inverted,
@@ -344,7 +344,7 @@ in 6502 assembly language.
 *   summary: A tiny C64 "display hack"
 *   inception-date: ca 1989
 *   development-stage: vintage
-*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
+*   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
 
 A tiny (44 byte) "display hack" for the Commodore 64.
 
@@ -357,7 +357,7 @@ Archival Tools
 *   summary: Totality-checker for Scheme procedures
 *   inception-date: ca 2006
 *   development-stage: archival
-*   reference-distribution: [TPiS distribution](http://catseye.tc/distribution/TPiS_distribution)
+*   reference-distribution: [TPiS distribution](https://catseye.tc/distribution/TPiS_distribution)
 
 This is a static analyzer, written in Scheme, which can check if
 given Scheme procedures are total (always terminate, on any input) by
@@ -376,7 +376,7 @@ check itself!
 *   summary: A framework for interactive esolang implementation
 *   inception-date: Oct 4 2012
 *   development-stage: not fully complete
-*   reference-distribution: [yoob.js distribution](http://catseye.tc/distribution/yoob.js_distribution)
+*   reference-distribution: [yoob.js distribution](https://catseye.tc/distribution/yoob.js_distribution)
 
 `yoob.js` is a framework for implementing esoteric programming languages
 in Javascript/HTML5.  It has some differences from the earlier [yoob][]
@@ -405,7 +405,7 @@ framework, which is in Java.
 [6502 machine code]: ../article/Retrocomputing.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
-[Retrocomputing]: http://catseye.tc/article/Retrocomputing
+[Retrocomputing]: https://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob

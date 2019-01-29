@@ -7,13 +7,6 @@ what properties Fork entries in Chrysoberyl should have.
 The order in which they are listed here induces an order in which they
 should appear on each entry.
 
-*   implementation of: [Scheme][] (R4RS)
-*   implementation type: interpreter
-*   license: Public Domain
-*   host language: [ANSI C][]
-*   inception date: Nov 5, 1989
-*   in distribution: [Minischeme distribution](http://catseye.tc/distribution/Minischeme_distribution)
-
 ### original authors
 
 *   optional: true

@@ -26,7 +26,7 @@
     },
 
     "FBBI": {
-        "url": "http://catseye.tc/distribution/FBBI_distribution"
+        "url": "https://catseye.tc/distribution/FBBI_distribution"
     },
 
     "Conway's Game of Life": {
@@ -42,7 +42,7 @@
         "url": "http://www.r-project.org/"
     },
     "Zz": {
-        "url": "http://catseye.tc/modules/OpenZz/doc/zzdoc.html"
+        "url": "https://catseye.tc/modules/OpenZz/doc/zzdoc.html"
     },
     "Markdown": {
         "url": "http://daringfireball.net/projects/markdown/syntax"

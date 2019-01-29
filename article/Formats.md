@@ -9,7 +9,7 @@ than [languages](Languages.md).
 
 *   subtitle: **Literate Testing for Languages**
 *   inception-date: 2011
-*   reference distribution: [Falderal distribution](http://catseye.tc/distribution/Falderal_distribution)
+*   reference distribution: [Falderal distribution](https://catseye.tc/distribution/Falderal_distribution)
 
 Falderal is a file format for literate test suites.  It is particularly
 suited for documenting programming languages (or other specifications of
@@ -31,7 +31,7 @@ Haskell.
 ### Feedmark
 
 *   inception-date: 2017
-*   reference distribution: [Feedmark distribution](http://catseye.tc/distribution/Feedmark_distribution)
+*   reference distribution: [Feedmark distribution](https://catseye.tc/distribution/Feedmark_distribution)
 
 Feedmark is a file format for embedding curational information in Markdown.
 

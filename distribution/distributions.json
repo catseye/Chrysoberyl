@@ -7,7 +7,7 @@
         "releases": [
             {
                 "revision": "2000.0808", 
-                "url": "http://catseye.tc/distfiles/n-dcnc-2000.0808.zip", 
+                "url": "https://catseye.tc/distfiles/n-dcnc-2000.0808.zip", 
                 "version": "1.0"
             }
         ], 
@@ -23,47 +23,47 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/alpaca-0.90.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-0.90.zip", 
                 "version": "0.90"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/alpaca-0.93.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-0.93.zip", 
                 "version": "0.93"
             }, 
             {
                 "revision": "2007.0502", 
-                "url": "http://catseye.tc/distfiles/alpaca-0.93-2007.0502.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-0.93-2007.0502.zip", 
                 "version": "0.93"
             }, 
             {
                 "revision": "2012.0623", 
-                "url": "http://catseye.tc/distfiles/alpaca-0.94-2012.0623.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-0.94-2012.0623.zip", 
                 "version": "0.94"
             }, 
             {
                 "revision": "2013.0315", 
-                "url": "http://catseye.tc/distfiles/alpaca-1.0-2013.0315.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-1.0-2013.0315.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0518", 
-                "url": "http://catseye.tc/distfiles/alpaca-1.0-2014.0518.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-1.0-2014.0518.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/alpaca-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-1.0-2015.0101.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0317", 
-                "url": "http://catseye.tc/distfiles/alpaca-1.0-2016.0317.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-1.0-2016.0317.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/alpaca-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/alpaca-1.1.zip", 
                 "version": "1.1"
             }
         ], 
@@ -73,17 +73,17 @@
         "releases": [
             {
                 "revision": "2004.0919", 
-                "url": "http://catseye.tc/distfiles/animals-2004.0919.zip", 
+                "url": "https://catseye.tc/distfiles/animals-2004.0919.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0429", 
-                "url": "http://catseye.tc/distfiles/animals-1.1-2010.0429.zip", 
+                "url": "https://catseye.tc/distfiles/animals-1.1-2010.0429.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": 2014.0819, 
-                "url": "http://catseye.tc/distfiles/animals-1.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/animals-1.1-2014.0819.zip", 
                 "version": 1.1
             }
         ], 
@@ -98,18 +98,18 @@
             {
                 "revision": "2000.0703", 
                 "tag": "rel_1_0", 
-                "url": "http://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip", 
+                "url": "https://catseye.tc/distfiles/apple-befunge-1.0-2000.0703.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0220", 
                 "tag": "rel_1_1", 
-                "url": "http://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip", 
+                "url": "https://catseye.tc/distfiles/apple-befunge-1.1-2012.0220.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/apple-befunge-1.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/apple-befunge-1.1-2014.0819.zip", 
                 "version": "1.1"
             }
         ], 
@@ -123,27 +123,27 @@
         "releases": [
             {
                 "revision": "2008.0304", 
-                "url": "http://catseye.tc/distfiles/arboretuum-2008.0304.zip", 
+                "url": "https://catseye.tc/distfiles/arboretuum-2008.0304.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0427", 
-                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2010.0427.zip", 
+                "url": "https://catseye.tc/distfiles/arboretuum-1.0-2010.0427.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.1105", 
-                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2010.1105.zip", 
+                "url": "https://catseye.tc/distfiles/arboretuum-1.0-2010.1105.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/arboretuum-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/arboretuum-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/arboretuum-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -153,7 +153,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/beatnik-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/beatnik-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -168,27 +168,27 @@
         "releases": [
             {
                 "revision": "2006.0204", 
-                "url": "http://catseye.tc/distfiles/befos-2006.0204.zip", 
+                "url": "https://catseye.tc/distfiles/befos-2006.0204.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2011.0427", 
-                "url": "http://catseye.tc/distfiles/befos-0.9-2011.0427.zip", 
+                "url": "https://catseye.tc/distfiles/befos-0.9-2011.0427.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2012.0827", 
-                "url": "http://catseye.tc/distfiles/befos-0.9-2012.0827.zip", 
+                "url": "https://catseye.tc/distfiles/befos-0.9-2012.0827.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/befos-0.9-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/befos-0.9-2014.0819.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/befos-0.10.zip", 
+                "url": "https://catseye.tc/distfiles/befos-0.10.zip", 
                 "version": "0.10"
             }
         ], 
@@ -202,42 +202,42 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bef-2.21.zip", 
+                "url": "https://catseye.tc/distfiles/bef-2.21.zip", 
                 "version": "2.21"
             }, 
             {
                 "revision": "2004.0920", 
-                "url": "http://catseye.tc/distfiles/befunge93-2004.0920.zip", 
+                "url": "https://catseye.tc/distfiles/befunge93-2004.0920.zip", 
                 "version": "2.21"
             }, 
             {
                 "revision": "2011.0318", 
-                "url": "http://catseye.tc/distfiles/bef-2.22-2011.0318.zip", 
+                "url": "https://catseye.tc/distfiles/bef-2.22-2011.0318.zip", 
                 "version": "2.22"
             }, 
             {
                 "revision": "2012.0825", 
-                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2012.0825.zip", 
+                "url": "https://catseye.tc/distfiles/befunge-93-2.23-2012.0825.zip", 
                 "version": "2.23"
             }, 
             {
                 "revision": "2014.0820", 
-                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2014.0820.zip", 
+                "url": "https://catseye.tc/distfiles/befunge-93-2.23-2014.0820.zip", 
                 "version": "2.23"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip", 
                 "version": "2.23"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/befunge-93-2.24.zip", 
+                "url": "https://catseye.tc/distfiles/befunge-93-2.24.zip", 
                 "version": "2.24"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/befunge-93-2.25.zip", 
+                "url": "https://catseye.tc/distfiles/befunge-93-2.25.zip", 
                 "version": "2.25"
             }
         ], 
@@ -251,22 +251,22 @@
         "releases": [
             {
                 "revision": "2005.0606", 
-                "url": "http://catseye.tc/distfiles/beturing-2005.0606.zip", 
+                "url": "https://catseye.tc/distfiles/beturing-2005.0606.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2005.0623", 
-                "url": "http://catseye.tc/distfiles/beturing-2005.0623.zip", 
+                "url": "https://catseye.tc/distfiles/beturing-2005.0623.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/beturing-1.1-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/beturing-1.1-2011.1214.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2012.1024", 
-                "url": "http://catseye.tc/distfiles/beturing-1.1-2012.1024.zip", 
+                "url": "https://catseye.tc/distfiles/beturing-1.1-2012.1024.zip", 
                 "version": "1.1"
             }
         ], 
@@ -280,52 +280,52 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.5.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.6.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.6.zip", 
                 "version": "0.6"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.7.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.7.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "2011.0427", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.7-2011.0427.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "2012.0616", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.7-2012.0616.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/bhuna-0.7-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/bhuna-0.7-2014.0819.zip", 
                 "version": "0.7"
             }
         ], 
@@ -339,22 +339,22 @@
         "releases": [
             {
                 "revision": "2007.0503", 
-                "url": "http://catseye.tc/distfiles/braktif-2007.0503.zip", 
+                "url": "https://catseye.tc/distfiles/braktif-2007.0503.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/braktif-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/braktif-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/braktif-1.0-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/braktif-1.0-2015.0629.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0222", 
-                "url": "http://catseye.tc/distfiles/braktif-1.0-2018.0222.zip", 
+                "url": "https://catseye.tc/distfiles/braktif-1.0-2018.0222.zip", 
                 "version": "1.0"
             }
         ], 
@@ -368,22 +368,22 @@
         "releases": [
             {
                 "revision": "2009.0707", 
-                "url": "http://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip", 
+                "url": "https://catseye.tc/distfiles/bescape2k-1.0-2009.0707.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0520", 
-                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip", 
+                "url": "https://catseye.tc/distfiles/bubble-escape-1.0-2012.0520.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.1030", 
-                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2012.1030.zip", 
+                "url": "https://catseye.tc/distfiles/bubble-escape-1.0-2012.1030.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/bubble-escape-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/bubble-escape-1.0-2016.0304.zip", 
                 "version": "1.0"
             }
         ], 
@@ -397,32 +397,32 @@
         "releases": [
             {
                 "revision": "2007.1026", 
-                "url": "http://catseye.tc/distfiles/burro-2007.1026.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2007.1026.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0607", 
-                "url": "http://catseye.tc/distfiles/burro-2.0-2010.0607.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2.0-2010.0607.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2011.0525", 
-                "url": "http://catseye.tc/distfiles/burro-2.0-2011.0525.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2.0-2011.0525.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2012.0619", 
-                "url": "http://catseye.tc/distfiles/burro-2.0-2012.0619.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2.0-2012.0619.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/burro-2.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2.0-2014.0819.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2018.0620", 
-                "url": "http://catseye.tc/distfiles/burro-2.0-2018.0620.zip", 
+                "url": "https://catseye.tc/distfiles/burro-2.0-2018.0620.zip", 
                 "version": "2.0"
             }
         ], 
@@ -436,27 +436,27 @@
         "releases": [
             {
                 "revision": "2007.1101", 
-                "url": "http://catseye.tc/distfiles/cabra-2007.1101.zip", 
+                "url": "https://catseye.tc/distfiles/cabra-2007.1101.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0429", 
-                "url": "http://catseye.tc/distfiles/cabra-1.0-2010.0429.zip", 
+                "url": "https://catseye.tc/distfiles/cabra-1.0-2010.0429.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/cabra-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/cabra-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/cabra-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/cabra-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0620", 
-                "url": "http://catseye.tc/distfiles/cabra-1.0-2018.0620.zip", 
+                "url": "https://catseye.tc/distfiles/cabra-1.0-2018.0620.zip", 
                 "version": "1.0"
             }
         ], 
@@ -467,22 +467,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/canvas-feedback-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/canvas-feedback-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0826", 
-                "url": "http://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip", 
+                "url": "https://catseye.tc/distfiles/canvas-feedback-1.0-2015.0826.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/canvas-feedback-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/canvas-feedback-1.1.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2018.0223", 
-                "url": "http://catseye.tc/distfiles/canvas-feedback-1.1-2018.0223.zip", 
+                "url": "https://catseye.tc/distfiles/canvas-feedback-1.1-2018.0223.zip", 
                 "version": "1.1"
             }
         ], 
@@ -497,27 +497,27 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/castile-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/castile-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/castile-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/castile-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/castile-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/castile-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/castile-0.3-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/castile-0.3-2015.0101.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "2016.0331", 
-                "url": "http://catseye.tc/distfiles/castile-0.3-2016.0331.zip", 
+                "url": "https://catseye.tc/distfiles/castile-0.3-2016.0331.zip", 
                 "version": "0.3"
             }
         ], 
@@ -531,12 +531,12 @@
         "releases": [
             {
                 "revision": "2012.0826", 
-                "url": "http://catseye.tc/distfiles/cfluviurrh-1.0-2012.0826.zip", 
+                "url": "https://catseye.tc/distfiles/cfluviurrh-1.0-2012.0826.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/cfluviurrh-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/cfluviurrh-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -559,22 +559,22 @@
         "releases": [
             {
                 "revision": "2007.0503", 
-                "url": "http://catseye.tc/distfiles/circute-2007.0503.zip", 
+                "url": "https://catseye.tc/distfiles/circute-2007.0503.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/circute-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/circute-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/circute-1.0-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/circute-1.0-2015.0629.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0222", 
-                "url": "http://catseye.tc/distfiles/circute-1.0-2018.0222.zip", 
+                "url": "https://catseye.tc/distfiles/circute-1.0-2018.0222.zip", 
                 "version": "1.0"
             }
         ], 
@@ -588,18 +588,18 @@
         "releases": [
             {
                 "revision": "2003.0325", 
-                "url": "http://catseye.tc/distfiles/cons_virt-2003.0325.zip", 
+                "url": "https://catseye.tc/distfiles/cons_virt-2003.0325.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2007.1122", 
                 "tag": "rel_2_0_20071122", 
-                "url": "http://catseye.tc/distfiles/cons_virt-2007.1122.zip", 
+                "url": "https://catseye.tc/distfiles/cons_virt-2007.1122.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.0219", 
-                "url": "http://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip", 
+                "url": "https://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip", 
                 "version": "2.0"
             }
         ], 
@@ -614,12 +614,12 @@
             {
                 "revision": "2000.1204", 
                 "tag": "rel_0_19", 
-                "url": "http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip", 
+                "url": "https://catseye.tc/distfiles/corona-realm-of-magic-0.19-2000.1204.zip", 
                 "version": "0.19"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/corona-realm-of-magic-0.19-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/corona-realm-of-magic-0.19-2014.0819.zip", 
                 "version": "0.19"
             }
         ], 
@@ -645,27 +645,27 @@
         "releases": [
             {
                 "revision": "2009.1003", 
-                "url": "http://catseye.tc/distfiles/dieter-1.0-2009.1003.zip", 
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2009.1003.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0426", 
-                "url": "http://catseye.tc/distfiles/dieter-1.0-2010.0426.zip", 
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2010.0426.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/dieter-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0623", 
-                "url": "http://catseye.tc/distfiles/dieter-1.0-2012.0623.zip", 
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2012.0623.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/dieter-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -679,7 +679,7 @@
         "releases": [
             {
                 "revision": "2007.0726", 
-                "url": "http://catseye.tc/distfiles/disksumo-1.0-2007.0726.zip", 
+                "url": "https://catseye.tc/distfiles/disksumo-1.0-2007.0726.zip", 
                 "version": "1.0"
             }
         ], 
@@ -693,22 +693,22 @@
         "releases": [
             {
                 "revision": "2012.0915", 
-                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2012.0915.zip", 
+                "url": "https://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2012.0915.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.1021", 
-                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2013.1021.zip", 
+                "url": "https://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2013.1021.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2016.0304.zip", 
                 "version": "1.0"
             },
             {
                 "revision": "2019.0111", 
-                "url": "http://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2019.0111.zip", 
+                "url": "https://catseye.tc/distfiles/dungeons-of-ekileugor-1.0-2019.0111.zip", 
                 "version": "1.0"
             }
         ], 
@@ -723,22 +723,22 @@
         "releases": [
             {
                 "revision": "2010.0901", 
-                "url": "http://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip", 
+                "url": "https://catseye.tc/distfiles/eightebed-1.0-2010.0901.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0510", 
-                "url": "http://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip", 
+                "url": "https://catseye.tc/distfiles/eightebed-1.1-2011.0510.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2012.0623", 
-                "url": "http://catseye.tc/distfiles/eightebed-1.1-2012.0623.zip", 
+                "url": "https://catseye.tc/distfiles/eightebed-1.1-2012.0623.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/eightebed-1.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/eightebed-1.1-2014.0819.zip", 
                 "version": "1.1"
             }
         ], 
@@ -753,17 +753,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/electronics-projects-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/electronics-projects-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/electronics-projects-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/electronics-projects-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/electronics-projects-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/electronics-projects-0.3.zip", 
                 "version": "0.3"
             }
         ], 
@@ -778,7 +778,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/ellsync-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/ellsync-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -793,27 +793,27 @@
         "releases": [
             {
                 "revision": "2007.1111", 
-                "url": "http://catseye.tc/distfiles/emmental-2007.1111.zip", 
+                "url": "https://catseye.tc/distfiles/emmental-2007.1111.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/emmental-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/emmental-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/emmental-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/emmental-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2015.0101.zip", 
                 "version": "1.0"
             }
         ], 
@@ -827,7 +827,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/equipage-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/equipage-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -842,32 +842,32 @@
         "releases": [
             {
                 "revision": "2009.1004", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2009.1004.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2009.1004.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0820", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2014.0820.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2014.0820.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0723", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2015.0723.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2015.0723.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2017.0428", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2017.0428.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2017.0428.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2017.1110", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2017.1110.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2017.1110.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0123", 
-                "url": "http://catseye.tc/distfiles/etcha-1.0-2018.0123.zip", 
+                "url": "https://catseye.tc/distfiles/etcha-1.0-2018.0123.zip", 
                 "version": "1.0"
             }
         ], 
@@ -884,22 +884,22 @@
         "releases": [
             {
                 "revision": "2013.0105", 
-                "url": "http://catseye.tc/distfiles/exanoke-1.0-2013.0105.zip", 
+                "url": "https://catseye.tc/distfiles/exanoke-1.0-2013.0105.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.1022", 
-                "url": "http://catseye.tc/distfiles/exanoke-1.0-2013.1022.zip", 
+                "url": "https://catseye.tc/distfiles/exanoke-1.0-2013.1022.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/exanoke-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/exanoke-1.0-2015.0101.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2017.0428", 
-                "url": "http://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip", 
+                "url": "https://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip", 
                 "version": "1.0"
             }
         ], 
@@ -912,23 +912,23 @@
         "releases": [
             {
                 "revision": "2004.0301", 
-                "url": "http://catseye.tc/distfiles/fbbi-2004.0301.zip", 
+                "url": "https://catseye.tc/distfiles/fbbi-2004.0301.zip", 
                 "version": "0.98a"
             }, 
             {
                 "revision": "2011.1003", 
                 "tag": "rel_1_0", 
-                "url": "http://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip", 
+                "url": "https://catseye.tc/distfiles/fbbi-1.0-2011.1003.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0820", 
-                "url": "http://catseye.tc/distfiles/fbbi-1.0-2014.0820.zip", 
+                "url": "https://catseye.tc/distfiles/fbbi-1.0-2014.0820.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0729", 
-                "url": "http://catseye.tc/distfiles/fbbi-1.0-2015.0729.zip", 
+                "url": "https://catseye.tc/distfiles/fbbi-1.0-2015.0729.zip", 
                 "version": "1.0"
             }
         ], 
@@ -943,80 +943,80 @@
             {
                 "revision": "2011.0517", 
                 "tag": "rel_0_1", 
-                "url": "http://catseye.tc/distfiles/falderal-0.1-2011.0517.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.1-2011.0517.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2011.0627", 
                 "tag": "rel_0_2", 
-                "url": "http://catseye.tc/distfiles/falderal-0.2-2011.0627.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.2-2011.0627.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "2011.1007", 
                 "tag": "rel_0_3", 
-                "url": "http://catseye.tc/distfiles/falderal-0.3-2011.1007.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.3-2011.1007.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "2011.1010", 
                 "tag": "rel_0_4", 
-                "url": "http://catseye.tc/distfiles/falderal-0.4-2011.1010.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.4-2011.1010.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "2011.1214", 
                 "tag": "rel_0_5", 
-                "url": "http://catseye.tc/distfiles/falderal-0.5-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.5-2011.1214.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "2012.0102", 
                 "tag": "rel_0_6", 
-                "url": "http://catseye.tc/distfiles/falderal-0.6-2012.0102.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.6-2012.0102.zip", 
                 "version": "0.6"
             }, 
             {
                 "revision": "2012.0928", 
                 "tag": "rel_0_7", 
-                "url": "http://catseye.tc/distfiles/falderal-0.7-2012.0928.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.7-2012.0928.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "2013.1026", 
                 "tag": "rel_0_8", 
-                "url": "http://catseye.tc/distfiles/falderal-0.8-2013.1026.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.8-2013.1026.zip", 
                 "version": "0.8"
             }, 
             {
                 "revision": "2013.1029", 
                 "tag": "rel_0_9", 
-                "url": "http://catseye.tc/distfiles/falderal-0.9-2013.1029.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.9-2013.1029.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2014.0427", 
-                "url": "http://catseye.tc/distfiles/falderal-0.9-2014.0427.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.9-2014.0427.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2014.0525", 
-                "url": "http://catseye.tc/distfiles/falderal-0.9-2014.0525.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.9-2014.0525.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/falderal-0.10.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.10.zip", 
                 "version": "0.10"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/falderal-0.11.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.11.zip", 
                 "version": "0.11"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/falderal-0.12.zip", 
+                "url": "https://catseye.tc/distfiles/falderal-0.12.zip", 
                 "version": "0.12"
             }
         ], 
@@ -1030,37 +1030,37 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.5.zip", 
                 "version": "0.5"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.6.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.6.zip", 
                 "version": "0.6"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/feedmark-0.7.zip", 
+                "url": "https://catseye.tc/distfiles/feedmark-0.7.zip", 
                 "version": "0.7"
             }
         ], 
@@ -1071,12 +1071,12 @@
         "releases": [
             {
                 "revision": "2002.0731", 
-                "url": "http://catseye.tc/distfiles/flip-2002.0731.zip", 
+                "url": "https://catseye.tc/distfiles/flip-2002.0731.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/flip-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/flip-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1090,17 +1090,17 @@
         "releases": [
             {
                 "revision": "2011.1028", 
-                "url": "http://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip", 
+                "url": "https://catseye.tc/distfiles/flobnar-0.1-2011.1028.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/flobnar-0.1-2011.1214.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/flobnar-0.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/flobnar-0.1-2014.0819.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1117,22 +1117,22 @@
         "releases": [
             {
                 "revision": "2004.0301", 
-                "url": "http://catseye.tc/distfiles/funge98-2004.0301.zip", 
+                "url": "https://catseye.tc/distfiles/funge98-2004.0301.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.0224", 
-                "url": "http://catseye.tc/distfiles/funge-98-1.0-2013.0224.zip", 
+                "url": "https://catseye.tc/distfiles/funge-98-1.0-2013.0224.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0327", 
-                "url": "http://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip", 
+                "url": "https://catseye.tc/distfiles/funge-98-1.0-2016.0327.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0522", 
-                "url": "http://catseye.tc/distfiles/funge-98-1.0-2018.0522.zip", 
+                "url": "https://catseye.tc/distfiles/funge-98-1.0-2018.0522.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1146,32 +1146,32 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/funicular-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.0105", 
-                "url": "http://catseye.tc/distfiles/funicular-0.1-2015.0105.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.1-2015.0105.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/funicular-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/funicular-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/funicular-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/funicular-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/funicular-0.5.zip", 
                 "version": "0.5"
             }
         ], 
@@ -1186,27 +1186,27 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/gemooy-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/gemooy-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.0828", 
-                "url": "http://catseye.tc/distfiles/gemooy-0.1-2015.0828.zip", 
+                "url": "https://catseye.tc/distfiles/gemooy-0.1-2015.0828.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2017.0522", 
-                "url": "http://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip", 
+                "url": "https://catseye.tc/distfiles/gemooy-0.1-2017.0522.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2018.0124", 
-                "url": "http://catseye.tc/distfiles/gemooy-0.1-2018.0124.zip", 
+                "url": "https://catseye.tc/distfiles/gemooy-0.1-2018.0124.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/gemooy-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/gemooy-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1221,12 +1221,12 @@
         "releases": [
             {
                 "revision": "2002.0314", 
-                "url": "http://catseye.tc/distfiles/granolam-2002.0314.zip", 
+                "url": "https://catseye.tc/distfiles/granolam-2002.0314.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/granola-m-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/granola-m-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1239,17 +1239,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/guten-gutter-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/guten-gutter-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/guten-gutter-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/guten-gutter-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "2016.0316", 
-                "url": "http://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip", 
+                "url": "https://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip", 
                 "version": "0.2"
             }
         ], 
@@ -1299,7 +1299,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/html5-gewgaws-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/html5-gewgaws-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1313,22 +1313,22 @@
         "releases": [
             {
                 "revision": "2002.0126", 
-                "url": "http://catseye.tc/distfiles/hunter-2002.0126.zip", 
+                "url": "https://catseye.tc/distfiles/hunter-2002.0126.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2007.1123", 
-                "url": "http://catseye.tc/distfiles/hunter-2007.1123.zip", 
+                "url": "https://catseye.tc/distfiles/hunter-2007.1123.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1031", 
-                "url": "http://catseye.tc/distfiles/hunter-1.0-2011.1031.zip", 
+                "url": "https://catseye.tc/distfiles/hunter-1.0-2011.1031.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/hunter-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/hunter-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1342,32 +1342,32 @@
         "releases": [
             {
                 "revision": "2007.0617", 
-                "url": "http://catseye.tc/distfiles/hev-2007.0617.zip", 
+                "url": "https://catseye.tc/distfiles/hev-2007.0617.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0427", 
-                "url": "http://catseye.tc/distfiles/hev-1.0-2010.0427.zip", 
+                "url": "https://catseye.tc/distfiles/hev-1.0-2010.0427.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0523", 
-                "url": "http://catseye.tc/distfiles/hev-1.0-2012.0523.zip", 
+                "url": "https://catseye.tc/distfiles/hev-1.0-2012.0523.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/hev-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/hev-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/hev-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/hev-1.0-2016.0304.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0316", 
-                "url": "http://catseye.tc/distfiles/hev-1.0-2016.0316.zip", 
+                "url": "https://catseye.tc/distfiles/hev-1.0-2016.0316.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1377,7 +1377,7 @@
         "releases": [
             {
                 "revision": "2002.0630", 
-                "url": "http://catseye.tc/distfiles/wumpus-2002.0630.zip", 
+                "url": "https://catseye.tc/distfiles/wumpus-2002.0630.zip", 
                 "version": "1.0"
             }
         ]
@@ -1390,12 +1390,12 @@
         "releases": [
             {
                 "revision": "2000.0122", 
-                "url": "http://catseye.tc/distfiles/illgol-2000.0122.zip", 
+                "url": "https://catseye.tc/distfiles/illgol-2000.0122.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2001.0706", 
-                "url": "http://catseye.tc/distfiles/illgol-2001.0706.zip", 
+                "url": "https://catseye.tc/distfiles/illgol-2001.0706.zip", 
                 "version": "1.0"
             }
         ]
@@ -1408,7 +1408,7 @@
         "releases": [
             {
                 "revision": "2007.0409", 
-                "url": "http://catseye.tc/distfiles/illberon-2007.0409.zip", 
+                "url": "https://catseye.tc/distfiles/illberon-2007.0409.zip", 
                 "version": "1.0"
             }
         ]
@@ -1432,12 +1432,12 @@
         "releases": [
             {
                 "revision": "2000.0420", 
-                "url": "http://catseye.tc/distfiles/illgola-2-2000.0420.zip", 
+                "url": "https://catseye.tc/distfiles/illgola-2-2000.0420.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2007.0409", 
-                "url": "http://catseye.tc/distfiles/illgola-2-2007.0409.zip", 
+                "url": "https://catseye.tc/distfiles/illgola-2-2007.0409.zip", 
                 "version": "1.0"
             }
         ]
@@ -1450,32 +1450,32 @@
         "releases": [
             {
                 "revision": "2007.1125", 
-                "url": "http://catseye.tc/distfiles/iphi-2007.1125.zip", 
+                "url": "https://catseye.tc/distfiles/iphi-2007.1125.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/iphi-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/iphi-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1010", 
-                "url": "http://catseye.tc/distfiles/iphi-1.0-2011.1010.zip", 
+                "url": "https://catseye.tc/distfiles/iphi-1.0-2011.1010.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0818", 
-                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2014.0818.zip", 
+                "url": "https://catseye.tc/distfiles/iphigeneia-1.0-2014.0818.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/iphigeneia-1.0-2015.0101.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2017.0428", 
-                "url": "http://catseye.tc/distfiles/iphigeneia-1.0-2017.0428.zip", 
+                "url": "https://catseye.tc/distfiles/iphigeneia-1.0-2017.0428.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1492,47 +1492,47 @@
         "releases": [
             {
                 "revision": "2009.0411", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.0-2009.0411.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0205", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.0-2010.0205.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0623", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.0-2012.0623.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.0-2012.0623.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.0320", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2013.0320.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2013.0320.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.0406", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2013.0406.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2013.0406.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0109", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2014.0109.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2014.0109.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2016.0304.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2017.1027", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2017.1027.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2017.1027.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2018.0222", 
-                "url": "http://catseye.tc/distfiles/jaccia-1.1-2018.0222.zip", 
+                "url": "https://catseye.tc/distfiles/jaccia-1.1-2018.0222.zip", 
                 "version": "1.1"
             }
         ], 
@@ -1546,12 +1546,12 @@
         "releases": [
             {
                 "revision": "2012.0911", 
-                "url": "http://catseye.tc/distfiles/jolverine-1.0-2012.0911.zip", 
+                "url": "https://catseye.tc/distfiles/jolverine-1.0-2012.0911.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.1010", 
-                "url": "http://catseye.tc/distfiles/jolverine-1.0-2013.1010.zip", 
+                "url": "https://catseye.tc/distfiles/jolverine-1.0-2013.1010.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1565,22 +1565,22 @@
         "releases": [
             {
                 "revision": "2007.0406", 
-                "url": "http://catseye.tc/distfiles/kiceberg-2007.0406.zip", 
+                "url": "https://catseye.tc/distfiles/kiceberg-2007.0406.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "2011.0426", 
-                "url": "http://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip", 
+                "url": "https://catseye.tc/distfiles/kiceberg-0.5-2011.0426.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "2011.0509", 
-                "url": "http://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip", 
+                "url": "https://catseye.tc/distfiles/kiceberg-0.5-2011.0509.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/kangaroo-iceberg-0.5-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/kangaroo-iceberg-0.5-2014.0819.zip", 
                 "version": "0.5"
             }
         ], 
@@ -1606,17 +1606,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/kosheri-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/kosheri-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2016.0315", 
-                "url": "http://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip", 
+                "url": "https://catseye.tc/distfiles/kosheri-0.1-2016.0315.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2017.0428", 
-                "url": "http://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip", 
+                "url": "https://catseye.tc/distfiles/kosheri-0.1-2017.0428.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1634,22 +1634,22 @@
         "releases": [
             {
                 "revision": "2008.0110", 
-                "url": "http://catseye.tc/distfiles/larabee-2008.0110.zip", 
+                "url": "https://catseye.tc/distfiles/larabee-2008.0110.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/larabee-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/larabee-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/larabee-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/larabee-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0818", 
-                "url": "http://catseye.tc/distfiles/larabee-1.0-2014.0818.zip", 
+                "url": "https://catseye.tc/distfiles/larabee-1.0-2014.0818.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1663,22 +1663,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/lexeduct-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/lexeduct-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2016.0315", 
-                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2016.0315.zip", 
+                "url": "https://catseye.tc/distfiles/lexeduct-0.1-2016.0315.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2017.0502", 
-                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip", 
+                "url": "https://catseye.tc/distfiles/lexeduct-0.1-2017.0502.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2018.0626", 
-                "url": "http://catseye.tc/distfiles/lexeduct-0.1-2018.0626.zip", 
+                "url": "https://catseye.tc/distfiles/lexeduct-0.1-2018.0626.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1693,12 +1693,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/marysue-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/marysue-1.0.zip", 
                 "version": "1.0"
             },
             {
                 "revision": "2018.1203", 
-                "url": "http://catseye.tc/distfiles/marysue-1.0-2018.1203.zip", 
+                "url": "https://catseye.tc/distfiles/marysue-1.0-2018.1203.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1713,27 +1713,27 @@
         "releases": [
             {
                 "revision": "2007.0930", 
-                "url": "http://catseye.tc/distfiles/maentw-2007.0930.zip", 
+                "url": "https://catseye.tc/distfiles/maentw-2007.0930.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0426", 
-                "url": "http://catseye.tc/distfiles/maentw-1.1-2011.0426.zip", 
+                "url": "https://catseye.tc/distfiles/maentw-1.1-2011.0426.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.0226", 
-                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2013.0226.zip", 
+                "url": "https://catseye.tc/distfiles/maentwrog-1.1-2013.0226.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0923", 
-                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip", 
+                "url": "https://catseye.tc/distfiles/maentwrog-1.1-2014.0923.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2018.0608", 
-                "url": "http://catseye.tc/distfiles/maentwrog-1.1-2018.0608.zip", 
+                "url": "https://catseye.tc/distfiles/maentwrog-1.1-2018.0608.zip", 
                 "version": "1.1"
             }
         ], 
@@ -1747,32 +1747,32 @@
         "releases": [
             {
                 "revision": "2007.1208", 
-                "url": "http://catseye.tc/distfiles/mascarpone-2007.1208.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-2007.1208.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0312", 
-                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2012.0312.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0818", 
-                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2014.0818.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2014.0818.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/mascarpone-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2015.0101.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1786,7 +1786,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/matchbox-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/matchbox-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1801,7 +1801,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/maxixe-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/maxixe-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1815,12 +1815,12 @@
         "releases": [
             {
                 "revision": "2001.0323", 
-                "url": "http://catseye.tc/distfiles/muriel-2001.0323.zip", 
+                "url": "https://catseye.tc/distfiles/muriel-2001.0323.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/muriel-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/muriel-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1831,12 +1831,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/nanogenlab-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/nanogenlab-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0401", 
-                "url": "http://catseye.tc/distfiles/nanogenlab-1.0-2015.0401.zip", 
+                "url": "https://catseye.tc/distfiles/nanogenlab-1.0-2015.0401.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1856,7 +1856,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/netusb-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/netusb-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -1871,12 +1871,12 @@
         "releases": [
             {
                 "revision": "2011.0510", 
-                "url": "http://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip", 
+                "url": "https://catseye.tc/distfiles/nhohnhehr-1.0-2011.0510.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/nhohnhehr-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/nhohnhehr-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1887,7 +1887,7 @@
         "releases": [
             {
                 "revision": "2007.0409", 
-                "url": "http://catseye.tc/distfiles/illgolpp-2007.0409.zip", 
+                "url": "https://catseye.tc/distfiles/illgolpp-2007.0409.zip", 
                 "version": "1.0"
             }
         ]
@@ -1896,7 +1896,7 @@
         "releases": [
             {
                 "revision": "2004.0919", 
-                "url": "http://catseye.tc/distfiles/openflax-2004.0919.zip", 
+                "url": "https://catseye.tc/distfiles/openflax-2004.0919.zip", 
                 "version": "1.0"
             }
         ]
@@ -1908,43 +1908,43 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0804", 
                 "tag": "rel_1_1", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2011.0804.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1011", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2011.1011.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2011.1011.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2012.0619", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2012.0619.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0817", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2014.0817.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2014.0817.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2015.0101.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2017.0428", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2017.0428.zip", 
                 "version": "1.1"
             },
             {
                 "revision": "2018.1029", 
-                "url": "http://catseye.tc/distfiles/pl-goto.net-1.1-2018.1029.zip", 
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2018.1029.zip", 
                 "version": "1.1"
             }
         ], 
@@ -1961,27 +1961,27 @@
         "releases": [
             {
                 "revision": "2011.0527", 
-                "url": "http://catseye.tc/distfiles/pail-1.0-2011.0527.zip", 
+                "url": "https://catseye.tc/distfiles/pail-1.0-2011.0527.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1007", 
-                "url": "http://catseye.tc/distfiles/pail-1.0-2011.1007.zip", 
+                "url": "https://catseye.tc/distfiles/pail-1.0-2011.1007.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/pail-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/pail-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/pail-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/pail-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/pail-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/pail-1.0-2016.0304.zip", 
                 "version": "1.0"
             }
         ], 
@@ -1999,54 +1999,54 @@
             {
                 "revision": "2009.0501", 
                 "tag": "rel_1_0", 
-                "url": "http://catseye.tc/distfiles/pixley-1.0-2009.0501.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-1.0-2009.0501.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.1105", 
                 "tag": "rel_1_1", 
-                "url": "http://catseye.tc/distfiles/pixley-1.1-2010.1105.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-1.1-2010.1105.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1209", 
                 "tag": "rel_2_0", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2011.1209.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2011.1209.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2012.0219", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2012.0219.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2012.0219.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2013.1024", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2013.1024.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2013.1024.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2014.0819.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2015.0101.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2015.0723", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2015.0723.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2015.0723.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2017.1110", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2017.1110.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2017.1110.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2018.0622", 
-                "url": "http://catseye.tc/distfiles/pixley-2.0-2018.0622.zip", 
+                "url": "https://catseye.tc/distfiles/pixley-2.0-2018.0622.zip", 
                 "version": "2.0"
             }
         ], 
@@ -2072,42 +2072,42 @@
         "releases": [
             {
                 "revision": "2008.1206", 
-                "url": "http://catseye.tc/distfiles/quylthulg-2008.1206.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-2008.1206.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0205", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2010.0205.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0517", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2011.0517.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1007", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2011.1007.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2015.0101.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0504", 
-                "url": "http://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip", 
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2016.0504.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2124,37 +2124,37 @@
         "releases": [
             {
                 "revision": "2007.0503", 
-                "url": "http://catseye.tc/distfiles/redgreen-2007.0503.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-2007.0503.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2007.0722", 
-                "url": "http://catseye.tc/distfiles/redgreen-2007.0722.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-2007.0722.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-1.1-2010.0721.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-1.1-2011.1214.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/redgreen-1.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-1.1-2014.0819.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-1.1-2015.0629.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2018.0221", 
-                "url": "http://catseye.tc/distfiles/redgreen-1.1-2018.0221.zip", 
+                "url": "https://catseye.tc/distfiles/redgreen-1.1-2018.0221.zip", 
                 "version": "1.1"
             }
         ], 
@@ -2164,7 +2164,7 @@
         "releases": [
             {
                 "revision": "2001.0201", 
-                "url": "http://catseye.tc/distfiles/rube_ii-2001.0201.zip", 
+                "url": "https://catseye.tc/distfiles/rube_ii-2001.0201.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2178,42 +2178,42 @@
         "releases": [
             {
                 "revision": "1997.0715", 
-                "url": "http://catseye.tc/distfiles/rube-1997.0715.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1997.0715.zip", 
                 "version": "1.02"
             }, 
             {
                 "revision": "2010.0204", 
-                "url": "http://catseye.tc/distfiles/rube-1.3-2010.0204.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.3-2010.0204.zip", 
                 "version": "1.3"
             }, 
             {
                 "revision": "2010.0428", 
-                "url": "http://catseye.tc/distfiles/rube-1.4-2010.0428.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.4-2010.0428.zip", 
                 "version": "1.4"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/rube-1.4-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.4-2010.0721.zip", 
                 "version": "1.4"
             }, 
             {
                 "revision": "2011.0119", 
-                "url": "http://catseye.tc/distfiles/rube-1.5-2011.0119.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.5-2011.0119.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "2012.0826", 
-                "url": "http://catseye.tc/distfiles/rube-1.5-2012.0826.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.5-2012.0826.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/rube-1.5-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.5-2014.0819.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/rube-1.6.zip", 
+                "url": "https://catseye.tc/distfiles/rube-1.6.zip", 
                 "version": "1.6"
             }
         ], 
@@ -2224,12 +2224,12 @@
         "releases": [
             {
                 "revision": "2007.0410", 
-                "url": "http://catseye.tc/distfiles/ribos-2007.0410.zip", 
+                "url": "https://catseye.tc/distfiles/ribos-2007.0410.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0430", 
-                "url": "http://catseye.tc/distfiles/ribos-1.1-2010.0430.zip", 
+                "url": "https://catseye.tc/distfiles/ribos-1.1-2010.0430.zip", 
                 "version": "1.1"
             }
         ]
@@ -2242,17 +2242,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/robin-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/robin-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/robin-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/robin-0.2.zip", 
                 "version": "0.2"
             },
             {
                 "revision": "2018.1029", 
-                "url": "http://catseye.tc/distfiles/robin-0.2-2018.1029.zip", 
+                "url": "https://catseye.tc/distfiles/robin-0.2-2018.1029.zip", 
                 "version": "0.2"
             }
         ], 
@@ -2270,7 +2270,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sickbay-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/sickbay-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2287,12 +2287,12 @@
         "releases": [
             {
                 "revision": "2015.0731", 
-                "url": "http://catseye.tc/distfiles/situ-sol-0.1-2015.0731.zip", 
+                "url": "https://catseye.tc/distfiles/situ-sol-0.1-2015.0731.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2017.0502", 
-                "url": "http://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip", 
+                "url": "https://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip", 
                 "version": "0.1"
             }
         ], 
@@ -2307,12 +2307,12 @@
         "releases": [
             {
                 "revision": "2004.0227", 
-                "url": "http://catseye.tc/distfiles/smetana-2004.0227.zip", 
+                "url": "https://catseye.tc/distfiles/smetana-2004.0227.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/smetana-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/smetana-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2326,32 +2326,32 @@
         "releases": [
             {
                 "revision": "2.0L", 
-                "url": "http://catseye.tc/distfiles/smith-2.0L.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2.0L.zip", 
                 "version": "2.0L"
             }, 
             {
                 "revision": "2007.0722", 
-                "url": "http://catseye.tc/distfiles/smith-2007.0722.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2007.0722.zip", 
                 "version": "2.1"
             }, 
             {
                 "revision": "2011.0922", 
-                "url": "http://catseye.tc/distfiles/smith-2.1-2011.0922.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2.1-2011.0922.zip", 
                 "version": "2.1"
             }, 
             {
                 "revision": "2012.0818", 
-                "url": "http://catseye.tc/distfiles/smith-2.1-2012.0818.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2.1-2012.0818.zip", 
                 "version": "2.1"
             }, 
             {
                 "revision": "2012.0916", 
-                "url": "http://catseye.tc/distfiles/smith-2.1-2012.0916.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2.1-2012.0916.zip", 
                 "version": "2.1"
             }, 
             {
                 "revision": "2013.0227", 
-                "url": "http://catseye.tc/distfiles/smith-2.1-2013.0227.zip", 
+                "url": "https://catseye.tc/distfiles/smith-2.1-2013.0227.zip", 
                 "version": "2.1"
             }
         ], 
@@ -2365,7 +2365,7 @@
         "releases": [
             {
                 "revision": "1998.0716", 
-                "url": "http://catseye.tc/distfiles/sp_asm-1998.0716.zip", 
+                "url": "https://catseye.tc/distfiles/sp_asm-1998.0716.zip", 
                 "version": "1.0"
             }
         ]
@@ -2378,27 +2378,27 @@
         "releases": [
             {
                 "revision": "2003.1104", 
-                "url": "http://catseye.tc/distfiles/sally-2003.1104.zip", 
+                "url": "https://catseye.tc/distfiles/sally-2003.1104.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0428", 
-                "url": "http://catseye.tc/distfiles/sally-1.0-2010.0428.zip", 
+                "url": "https://catseye.tc/distfiles/sally-1.0-2010.0428.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/sally-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/sally-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0818", 
-                "url": "http://catseye.tc/distfiles/sally-1.0-2012.0818.zip", 
+                "url": "https://catseye.tc/distfiles/sally-1.0-2012.0818.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/sally-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/sally-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2412,17 +2412,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/samovar-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/samovar-0.1.zip", 
                 "version": "0.1"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/samovar-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/samovar-0.2.zip", 
                 "version": "0.2"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/samovar-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/samovar-0.3.zip", 
                 "version": "0.3"
             }
         ], 
@@ -2437,12 +2437,12 @@
         "releases": [
             {
                 "revision": "2002.0317", 
-                "url": "http://catseye.tc/distfiles/sbeezg-2002.0317.zip", 
+                "url": "https://catseye.tc/distfiles/sbeezg-2002.0317.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/sbeezg-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/sbeezg-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2456,7 +2456,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2471,22 +2471,22 @@
         "releases": [
             {
                 "revision": "1999.1223", 
-                "url": "http://catseye.tc/distfiles/shelta-1999.1223.zip", 
+                "url": "https://catseye.tc/distfiles/shelta-1999.1223.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2009.0307", 
-                "url": "http://catseye.tc/distfiles/shelta-1.1-2009.0307.zip", 
+                "url": "https://catseye.tc/distfiles/shelta-1.1-2009.0307.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.1130", 
-                "url": "http://catseye.tc/distfiles/shelta-1.2-2013.1130.zip", 
+                "url": "https://catseye.tc/distfiles/shelta-1.2-2013.1130.zip", 
                 "version": "1.2"
             }, 
             {
                 "revision": "2014.0422", 
-                "url": "http://catseye.tc/distfiles/shelta-1.2-2014.0422.zip", 
+                "url": "https://catseye.tc/distfiles/shelta-1.2-2014.0422.zip", 
                 "version": "1.2"
             }
         ], 
@@ -2502,97 +2502,97 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.1230", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.1-2014.1230.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.1-2014.1230.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.5.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.6.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.6.zip", 
                 "version": "0.6"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.7.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.7.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.8.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.8.zip", 
                 "version": "0.8"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.9.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.9.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.10.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.10.zip", 
                 "version": "0.10"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.11.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.11.zip", 
                 "version": "0.11"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.12.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.12.zip", 
                 "version": "0.12"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.13.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.13.zip", 
                 "version": "0.13"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.14.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.14.zip", 
                 "version": "0.14"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.15.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.15.zip", 
                 "version": "0.15"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.16.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.16.zip", 
                 "version": "0.16"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.17.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.17.zip", 
                 "version": "0.17"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/sixtypical-0.18.zip", 
+                "url": "https://catseye.tc/distfiles/sixtypical-0.18.zip", 
                 "version": "0.18"
             }
         ], 
@@ -2620,17 +2620,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/specs-on-spec-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/specs-on-spec-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/specs-on-spec-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/specs-on-spec-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/specs-on-spec-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/specs-on-spec-0.3.zip", 
                 "version": "0.3"
             }
         ], 
@@ -2645,12 +2645,12 @@
         "releases": [
             {
                 "revision": "2000.1006", 
-                "url": "http://catseye.tc/distfiles/squishy2k-2000.1006.zip", 
+                "url": "https://catseye.tc/distfiles/squishy2k-2000.1006.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/squishy2k-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/squishy2k-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2664,17 +2664,17 @@
         "releases": [
             {
                 "revision": "2001.0324", 
-                "url": "http://catseye.tc/distfiles/strelnokoff-2001.0324.zip", 
+                "url": "https://catseye.tc/distfiles/strelnokoff-2001.0324.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0818", 
-                "url": "http://catseye.tc/distfiles/strelnokoff-1.0-2012.0818.zip", 
+                "url": "https://catseye.tc/distfiles/strelnokoff-1.0-2012.0818.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/strelnokoff-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/strelnokoff-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2687,37 +2687,37 @@
         "releases": [
             {
                 "revision": "2004.0227", 
-                "url": "http://catseye.tc/distfiles/swl-2004.0227.zip", 
+                "url": "https://catseye.tc/distfiles/swl-2004.0227.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2007.1216", 
-                "url": "http://catseye.tc/distfiles/swl-2007.1216.zip", 
+                "url": "https://catseye.tc/distfiles/swl-2007.1216.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.0323", 
-                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0323.zip", 
+                "url": "https://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0323.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.0324", 
-                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0324.zip", 
+                "url": "https://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0324.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.0410", 
-                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0410.zip", 
+                "url": "https://catseye.tc/distfiles/super-wumpus-land-1.1-2013.0410.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.1024", 
-                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip", 
+                "url": "https://catseye.tc/distfiles/super-wumpus-land-1.1-2014.1024.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2015.0721", 
-                "url": "http://catseye.tc/distfiles/super-wumpus-land-1.1-2015.0721.zip", 
+                "url": "https://catseye.tc/distfiles/super-wumpus-land-1.1-2015.0721.zip", 
                 "version": "1.1"
             }
         ], 
@@ -2730,7 +2730,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/t-rext-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/t-rext-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -2744,12 +2744,12 @@
         "releases": [
             {
                 "revision": "2006.0528", 
-                "url": "http://catseye.tc/distfiles/tpis-2006.0528.zip", 
+                "url": "https://catseye.tc/distfiles/tpis-2006.0528.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/tpis-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/tpis-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2763,32 +2763,32 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.5.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "2017.0502", 
-                "url": "http://catseye.tc/distfiles/tamsin-0.5-2017.0502.zip", 
+                "url": "https://catseye.tc/distfiles/tamsin-0.5-2017.0502.zip", 
                 "version": "0.5"
             }
         ], 
@@ -2802,22 +2802,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-platform-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/the-platform-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-platform-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/the-platform-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-platform-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/the-platform-0.3.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-platform-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/the-platform-0.4.zip", 
                 "version": "0.4"
             }
         ], 
@@ -2851,7 +2851,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-new-gamerly-realism-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/the-new-gamerly-realism-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2863,7 +2863,7 @@
         "releases": [
             {
                 "revision": "2008.0401", 
-                "url": "http://catseye.tc/distfiles/petulant-2008.0401.zip", 
+                "url": "https://catseye.tc/distfiles/petulant-2008.0401.zip", 
                 "version": "1.0"
             }
         ]
@@ -2875,7 +2875,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/the-swallows-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/the-swallows-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2889,27 +2889,27 @@
         "releases": [
             {
                 "revision": "2004.0301", 
-                "url": "http://catseye.tc/distfiles/thue-2004.0301.zip", 
+                "url": "https://catseye.tc/distfiles/thue-2004.0301.zip", 
                 "version": "1.4"
             }, 
             {
                 "revision": "2010.1218", 
-                "url": "http://catseye.tc/distfiles/thue-1.5-2010.1218.zip", 
+                "url": "https://catseye.tc/distfiles/thue-1.5-2010.1218.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "2012.0916", 
-                "url": "http://catseye.tc/distfiles/thue-1.5-2012.0916.zip", 
+                "url": "https://catseye.tc/distfiles/thue-1.5-2012.0916.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "2012.1028", 
-                "url": "http://catseye.tc/distfiles/thue-1.5-2012.1028.zip", 
+                "url": "https://catseye.tc/distfiles/thue-1.5-2012.1028.zip", 
                 "version": "1.5"
             }, 
             {
                 "revision": "2015.0827", 
-                "url": "http://catseye.tc/distfiles/thue-1.5-2015.0827.zip", 
+                "url": "https://catseye.tc/distfiles/thue-1.5-2015.0827.zip", 
                 "version": "1.5"
             }
         ], 
@@ -2923,17 +2923,17 @@
         "releases": [
             {
                 "revision": "2008.0412", 
-                "url": "http://catseye.tc/distfiles/treacle-2008.0412.zip", 
+                "url": "https://catseye.tc/distfiles/treacle-2008.0412.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0427", 
-                "url": "http://catseye.tc/distfiles/treacle-1.0-2010.0427.zip", 
+                "url": "https://catseye.tc/distfiles/treacle-1.0-2010.0427.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/treacle-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/treacle-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2956,27 +2956,27 @@
         "releases": [
             {
                 "revision": "2009.0315", 
-                "url": "http://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip", 
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2009.0315.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0427", 
-                "url": "http://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip", 
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2010.0427.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0316", 
-                "url": "http://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip", 
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2012.0316.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2013.1014", 
-                "url": "http://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip", 
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2013.1014.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/unlikely-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -2987,7 +2987,7 @@
         "releases": [
             {
                 "revision": "2002.1011", 
-                "url": "http://catseye.tc/distfiles/valgol-2002.1011.zip", 
+                "url": "https://catseye.tc/distfiles/valgol-2002.1011.zip", 
                 "version": "1.0"
             }
         ]
@@ -3000,17 +3000,17 @@
         "releases": [
             {
                 "revision": "2012.0714", 
-                "url": "http://catseye.tc/distfiles/velo-0.1-2012.0714.zip", 
+                "url": "https://catseye.tc/distfiles/velo-0.1-2012.0714.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0817", 
-                "url": "http://catseye.tc/distfiles/velo-0.1-2014.0817.zip", 
+                "url": "https://catseye.tc/distfiles/velo-0.1-2014.0817.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.0103", 
-                "url": "http://catseye.tc/distfiles/velo-0.1-2015.0103.zip", 
+                "url": "https://catseye.tc/distfiles/velo-0.1-2015.0103.zip", 
                 "version": "0.1"
             }
         ], 
@@ -3027,17 +3027,17 @@
         "releases": [
             {
                 "revision": "2001.1211", 
-                "url": "http://catseye.tc/distfiles/version-2001.1211.zip", 
+                "url": "https://catseye.tc/distfiles/version-2001.1211.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0429", 
-                "url": "http://catseye.tc/distfiles/version-1.0-2010.0429.zip", 
+                "url": "https://catseye.tc/distfiles/version-1.0-2010.0429.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/version-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/version-1.0-2014.0819.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3050,7 +3050,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/wang-tilers-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/wang-tilers-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3065,32 +3065,32 @@
         "releases": [
             {
                 "revision": "2010.0629", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2010.0629.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2010.0629.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0116", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2011.0116.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2011.0116.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2015.0629.zip", 
                 "version": "1.0"
             },
             {
                 "revision": "2018.1009", 
-                "url": "http://catseye.tc/distfiles/whothm-1.0-2018.1009.zip", 
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2018.1009.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3104,22 +3104,22 @@
         "releases": [
             {
                 "revision": "2004.0302", 
-                "url": "http://catseye.tc/distfiles/wierd-2004.0302.zip", 
+                "url": "https://catseye.tc/distfiles/wierd-2004.0302.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/wierd-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/wierd-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0209", 
-                "url": "http://catseye.tc/distfiles/wierd-1.0-2015.0209.zip", 
+                "url": "https://catseye.tc/distfiles/wierd-1.0-2015.0209.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/wierd-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/wierd-1.0-2016.0304.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3133,22 +3133,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/wunnel-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/wunnel-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0108", 
-                "url": "http://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip", 
+                "url": "https://catseye.tc/distfiles/wunnel-1.0-2015.0108.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2017.1110", 
-                "url": "http://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
+                "url": "https://catseye.tc/distfiles/wunnel-1.0-2017.1110.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0122", 
-                "url": "http://catseye.tc/distfiles/wunnel-1.0-2018.0122.zip", 
+                "url": "https://catseye.tc/distfiles/wunnel-1.0-2018.0122.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3163,27 +3163,27 @@
         "releases": [
             {
                 "revision": "2007.0602", 
-                "url": "http://catseye.tc/distfiles/xigxag-2007.0602.zip", 
+                "url": "https://catseye.tc/distfiles/xigxag-2007.0602.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/xigxag-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/xigxag-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.1028", 
-                "url": "http://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip", 
+                "url": "https://catseye.tc/distfiles/xigxag-1.0-2012.1028.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2018.0620", 
-                "url": "http://catseye.tc/distfiles/xigxag-1.0-2018.0620.zip", 
+                "url": "https://catseye.tc/distfiles/xigxag-1.0-2018.0620.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3197,22 +3197,22 @@
         "releases": [
             {
                 "revision": "2011.0807", 
-                "url": "http://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip", 
+                "url": "https://catseye.tc/distfiles/xoomonk-0.1-2011.0807.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2013.1014", 
-                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2013.1014.zip", 
+                "url": "https://catseye.tc/distfiles/xoomonk-1.0-2013.1014.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/xoomonk-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.1230", 
-                "url": "http://catseye.tc/distfiles/xoomonk-1.0-2014.1230.zip", 
+                "url": "https://catseye.tc/distfiles/xoomonk-1.0-2014.1230.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3229,12 +3229,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yolk-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/yolk-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2015.0101", 
-                "url": "http://catseye.tc/distfiles/yolk-1.0-2015.0101.zip", 
+                "url": "https://catseye.tc/distfiles/yolk-1.0-2015.0101.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3253,42 +3253,42 @@
             {
                 "revision": "0.0", 
                 "tag": "rel_0_9_2001_0219", 
-                "url": "http://catseye.tc/distfiles/ypsilax-0.9.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-0.9.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2007.1202", 
-                "url": "http://catseye.tc/distfiles/ypsilax-2007.1202.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-2007.1202.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "2010.0430", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.0-2010.0430.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.0428", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.1-2011.0428.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1130", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.1-2011.1130.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2012.0916", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2012.0916.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.1-2012.0916.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0525", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2014.0525.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.1-2014.0525.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0818", 
-                "url": "http://catseye.tc/distfiles/ypsilax-1.1-2014.0818.zip", 
+                "url": "https://catseye.tc/distfiles/ypsilax-1.1-2014.0818.zip", 
                 "version": "1.1"
             }
         ], 
@@ -3302,32 +3302,32 @@
         "releases": [
             {
                 "revision": "2009.1229", 
-                "url": "http://catseye.tc/distfiles/zowie-1.0-2009.1229.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.0-2009.1229.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/zowie-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0325", 
-                "url": "http://catseye.tc/distfiles/zowie-1.0-2012.0325.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.0-2012.0325.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/zowie-1.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.0-2014.0819.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/zowie-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.1.zip", 
                 "version": "1.1"
             },
             {
                 "revision": "2019.0122", 
-                "url": "http://catseye.tc/distfiles/zowie-1.1-2019.0122.zip", 
+                "url": "https://catseye.tc/distfiles/zowie-1.1-2019.0122.zip", 
                 "version": "1.1"
             }
         ], 
@@ -3340,17 +3340,17 @@
         "releases": [
             {
                 "revision": "2007.0506", 
-                "url": "http://catseye.tc/distfiles/zzrk-2007.0506.zip", 
+                "url": "https://catseye.tc/distfiles/zzrk-2007.0506.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0616", 
-                "url": "http://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip", 
+                "url": "https://catseye.tc/distfiles/zzrk-1.0-2012.0616.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2016.0304", 
-                "url": "http://catseye.tc/distfiles/zzrk-1.0-2016.0304.zip", 
+                "url": "https://catseye.tc/distfiles/zzrk-1.0-2016.0304.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3360,7 +3360,7 @@
         "releases": [
             {
                 "revision": "2002.1010", 
-                "url": "http://catseye.tc/distfiles/basedump-2002.1010.zip", 
+                "url": "https://catseye.tc/distfiles/basedump-2002.1010.zip", 
                 "version": "1.0"
             }
         ]
@@ -3373,37 +3373,37 @@
         "releases": [
             {
                 "revision": "2001.0201", 
-                "url": "http://catseye.tc/distfiles/b_juliet-2001.0201.zip", 
+                "url": "https://catseye.tc/distfiles/b_juliet-2001.0201.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2004.0423", 
-                "url": "http://catseye.tc/distfiles/2iota-0.8.zip", 
+                "url": "https://catseye.tc/distfiles/2iota-0.8.zip", 
                 "version": "0.8"
             }, 
             {
                 "revision": "2010.0430", 
-                "url": "http://catseye.tc/distfiles/2iota-1.0-2010.0430.zip", 
+                "url": "https://catseye.tc/distfiles/2iota-1.0-2010.0430.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/2iota-1.0-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/2iota-1.0-2010.0721.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2011.1214", 
-                "url": "http://catseye.tc/distfiles/2iota-1.0-2011.1214.zip", 
+                "url": "https://catseye.tc/distfiles/2iota-1.0-2011.1214.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0714", 
-                "url": "http://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip", 
+                "url": "https://catseye.tc/distfiles/beta-juliet-2.0-2012.0714.zip", 
                 "version": "2.0"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/beta-juliet-2.0-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/beta-juliet-2.0-2014.0819.zip", 
                 "version": "2.0"
             }
         ], 
@@ -3414,7 +3414,7 @@
         "releases": [
             {
                 "revision": "2003.0522", 
-                "url": "http://catseye.tc/distfiles/ce-2003.0522.zip", 
+                "url": "https://catseye.tc/distfiles/ce-2003.0522.zip", 
                 "version": "1.0"
             }
         ]
@@ -3424,7 +3424,7 @@
         "releases": [
             {
                 "revision": "2004.0228", 
-                "url": "http://catseye.tc/distfiles/ec-2004.0228.zip", 
+                "url": "https://catseye.tc/distfiles/ec-2004.0228.zip", 
                 "version": "1.0"
             }
         ]
@@ -3434,7 +3434,7 @@
         "releases": [
             {
                 "revision": "2004.0309", 
-                "url": "http://catseye.tc/distfiles/erlaunch-2004.0309.zip", 
+                "url": "https://catseye.tc/distfiles/erlaunch-2004.0309.zip", 
                 "version": "1.0"
             }
         ]
@@ -3443,7 +3443,7 @@
         "releases": [
             {
                 "revision": "2002.1104", 
-                "url": "http://catseye.tc/distfiles/esoko-2002.1104.zip", 
+                "url": "https://catseye.tc/distfiles/esoko-2002.1104.zip", 
                 "version": "1.0"
             }
         ]
@@ -3455,7 +3455,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/hatoucan-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/hatoucan-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -3470,22 +3470,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/kinoje-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/kinoje-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/kinoje-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/kinoje-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/kinoje-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/kinoje-0.3.zip", 
                 "version": "0.3"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/kinoje-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/kinoje-0.4.zip", 
                 "version": "0.4"
             }
         ], 
@@ -3499,7 +3499,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/mzstorkipiwanbotbotbot-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/mzstorkipiwanbotbotbot-0.1.zip", 
                 "version": "0.1"
             }
         ], 
@@ -3511,7 +3511,7 @@
         "releases": [
             {
                 "revision": "2001.0622", 
-                "url": "http://catseye.tc/distfiles/noise-2001.0622.zip", 
+                "url": "https://catseye.tc/distfiles/noise-2001.0622.zip", 
                 "version": "1.0"
             }
         ]
@@ -3524,57 +3524,57 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/worb-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/worb-1.1.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2007.1123", 
-                "url": "http://catseye.tc/distfiles/worb-2007.1123.zip", 
+                "url": "https://catseye.tc/distfiles/worb-2007.1123.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2010.0721", 
-                "url": "http://catseye.tc/distfiles/worb-1.1-2010.0721.zip", 
+                "url": "https://catseye.tc/distfiles/worb-1.1-2010.0721.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.0428", 
-                "url": "http://catseye.tc/distfiles/worb-1.1-2011.0428.zip", 
+                "url": "https://catseye.tc/distfiles/worb-1.1-2011.0428.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2011.1031", 
-                "url": "http://catseye.tc/distfiles/worb-1.1-2011.1031.zip", 
+                "url": "https://catseye.tc/distfiles/worb-1.1-2011.1031.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2013.0330", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2013.0330.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2013.0330.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2000.0719", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2000.0719.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2000.0719.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2014.0819.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0629.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2015.0930", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2015.0930.zip", 
                 "version": "1.1"
             }, 
             {
                 "revision": "2018.0123", 
-                "url": "http://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2018.0123.zip", 
+                "url": "https://catseye.tc/distfiles/noit-o-mnain-worb-1.1-2018.0123.zip", 
                 "version": "1.1"
             }
         ], 
@@ -3593,7 +3593,7 @@
         "releases": [
             {
                 "revision": "2002.1204", 
-                "url": "http://catseye.tc/distfiles/peruse-2002.1204.zip", 
+                "url": "https://catseye.tc/distfiles/peruse-2002.1204.zip", 
                 "version": "1.0"
             }
         ]
@@ -3605,12 +3605,12 @@
         "releases": [
             {
                 "revision": "2003.0505", 
-                "url": "http://catseye.tc/distfiles/pibfi-2003.0505.zip", 
+                "url": "https://catseye.tc/distfiles/pibfi-2003.0505.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "2012.0826", 
-                "url": "http://catseye.tc/distfiles/pibfi-1.0-2012.0826.zip", 
+                "url": "https://catseye.tc/distfiles/pibfi-1.0-2012.0826.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3620,7 +3620,7 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/realpath-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/realpath-1.0.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3635,12 +3635,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/seedbank-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/seedbank-1.0.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/seedbank-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/seedbank-1.1.zip", 
                 "version": "1.1"
             }
         ], 
@@ -3652,7 +3652,7 @@
         "releases": [
             {
                 "revision": "2005.0623", 
-                "url": "http://catseye.tc/distfiles/sf2tab-2005.0623.zip", 
+                "url": "https://catseye.tc/distfiles/sf2tab-2005.0623.zip", 
                 "version": "1.0"
             }
         ]
@@ -3665,22 +3665,22 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/shelf-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/shelf-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/shelf-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/shelf-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/shelf-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/shelf-0.3.zip", 
                 "version": "0.3"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/shelf-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/shelf-0.4.zip", 
                 "version": "0.4"
             }
         ], 
@@ -3694,12 +3694,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/stringie-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/stringie-1.0.zip", 
                 "version": "1.0"
             },
             {
                 "revision": "2018.1203", 
-                "url": "http://catseye.tc/distfiles/stringie-1.0-2018.1203.zip", 
+                "url": "https://catseye.tc/distfiles/stringie-1.0-2018.1203.zip", 
                 "version": "1.0"
             }
         ], 
@@ -3714,67 +3714,67 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0611", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0611.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0611.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0616", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0616.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0616.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0818", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0818.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0818.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0823", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0823.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0823.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0924", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0924.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0924.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.0930", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.0930.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.0930.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.1229", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.1229.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.1229.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2014.1231", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2014.1231.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2014.1231.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.0127", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.0127.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2015.0127.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.0930", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.0930.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2015.0930.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2015.1203", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2015.1203.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2015.1203.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "2016.0315", 
-                "url": "http://catseye.tc/distfiles/toolshelf-0.1-2016.0315.zip", 
+                "url": "https://catseye.tc/distfiles/toolshelf-0.1-2016.0315.zip", 
                 "version": "0.1"
             }
         ], 
@@ -3788,12 +3788,12 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tree-1.0.zip", 
+                "url": "https://catseye.tc/distfiles/tree-1.0.zip", 
                 "version": "1.0"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/tree-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/tree-1.1.zip", 
                 "version": "1.1"
             }
         ], 
@@ -3805,7 +3805,7 @@
         "releases": [
             {
                 "revision": "2003.0402", 
-                "url": "http://catseye.tc/distfiles/yaeolc-2003.0402.zip", 
+                "url": "https://catseye.tc/distfiles/yaeolc-2003.0402.zip", 
                 "version": "1.0"
             }
         ]
@@ -3817,17 +3817,17 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yastasoti-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/yastasoti-0.1.zip", 
                 "version": "0.1"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yastasoti-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/yastasoti-0.2.zip", 
                 "version": "0.2"
             },
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yastasoti-0.3.zip", 
+                "url": "https://catseye.tc/distfiles/yastasoti-0.3.zip", 
                 "version": "0.3"
             }
         ],
@@ -3855,28 +3855,28 @@
             {
                 "revision": "2011.0624", 
                 "tag": "rel_0_2", 
-                "url": "http://catseye.tc/distfiles/yoob-0.2-2011.0624.zip", 
+                "url": "https://catseye.tc/distfiles/yoob-0.2-2011.0624.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "2011.0920", 
                 "tag": "rel_0_3", 
-                "url": "http://catseye.tc/distfiles/yoob-0.3-2011.0920.zip", 
+                "url": "https://catseye.tc/distfiles/yoob-0.3-2011.0920.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "2014.0819", 
-                "url": "http://catseye.tc/distfiles/yoob-0.3-2014.0819.zip", 
+                "url": "https://catseye.tc/distfiles/yoob-0.3-2014.0819.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "2015.0629", 
-                "url": "http://catseye.tc/distfiles/yoob-0.3-2015.0629.zip", 
+                "url": "https://catseye.tc/distfiles/yoob-0.3-2015.0629.zip", 
                 "version": "0.3"
             },
             {
                 "revision": "2019.1129", 
-                "url": "http://catseye.tc/distfiles/yoob-0.3-2018.1129.zip", 
+                "url": "https://catseye.tc/distfiles/yoob-0.3-2018.1129.zip", 
                 "version": "0.3"
             }
         ], 
@@ -3889,72 +3889,72 @@
         "releases": [
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.1.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.1.zip", 
                 "version": "0.1"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.2.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.2.zip", 
                 "version": "0.2"
             }, 
             {
                 "revision": "2013.0406", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.3-2013.0406.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.3-2013.0406.zip", 
                 "version": "0.3"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.4.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.4.zip", 
                 "version": "0.4"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.5.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.5.zip", 
                 "version": "0.5"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.6.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.6.zip", 
                 "version": "0.6"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.7.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.7.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "2015.0108", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.7-2015.0108.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.7-2015.0108.zip", 
                 "version": "0.7"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.8.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.8.zip", 
                 "version": "0.8"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.9.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.9.zip", 
                 "version": "0.9"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.10.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.10.zip", 
                 "version": "0.10"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.11.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.11.zip", 
                 "version": "0.11"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.12.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.12.zip", 
                 "version": "0.12"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yoob.js-0.13.zip", 
+                "url": "https://catseye.tc/distfiles/yoob.js-0.13.zip", 
                 "version": "0.13"
             }
         ], 
@@ -3968,12 +3968,12 @@
             {
                 "revision": "2012.0610", 
                 "tag": "rel_1_0", 
-                "url": "http://catseye.tc/distfiles/yucca-1.0-2012.0610.zip", 
+                "url": "https://catseye.tc/distfiles/yucca-1.0-2012.0610.zip", 
                 "version": "1.0"
             }, 
             {
                 "revision": "0.0", 
-                "url": "http://catseye.tc/distfiles/yucca-1.1.zip", 
+                "url": "https://catseye.tc/distfiles/yucca-1.1.zip", 
                 "version": "1.1"
             }
         ], 

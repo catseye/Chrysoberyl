@@ -1,7 +1,7 @@
 Languages
 =========
 
-*   image_url: http://static.catseye.tc/images/illustrations/Abacus_(PSF).jpg
+*   image_url: https://static.catseye.tc/images/illustrations/Abacus_(PSF).jpg
 
 This is a list of languages, in chronological order, that have been designed under the
 auspices of Cat's Eye Technologies.
@@ -29,7 +29,7 @@ By selecting sample programs and watching them run, you can gain an appreciation
 language works; by composing your own programs, you can gain an even better appreciation.
 
 You may also be interested in reading about
-[what it was like to design these](http://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md)
+[what it was like to design these](https://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md)
 or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 
 ### Full Moon Fever
@@ -73,7 +73,7 @@ I believe it came from mis-remembering the title of the song
 *   development-stage: archival
 *   computational-class: known not Turing-complete
 *   paradigms: Stack-based
-*   reference-distribution: [Maentwrog distribution](http://catseye.tc/distribution/Maentwrog_distribution)
+*   reference-distribution: [Maentwrog distribution](https://catseye.tc/distribution/Maentwrog_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Maentwrog)
 
 Sample program:
@@ -121,9 +121,9 @@ wherein it is defined thusly:
 *   computational-class: can simulate some push-down automata
 *   influences: Maentwrog, brainfuck, FALSE
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
-*   reference-distribution: [Befunge-93 distribution](http://catseye.tc/distribution/Befunge-93_distribution)
+*   reference-distribution: [Befunge-93 distribution](https://catseye.tc/distribution/Befunge-93_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -164,9 +164,9 @@ many others.  Cited in the New Hacker's Dictionary.
 *   computational-class: believed Turing-complete
 *   influences: brainfuck, Befunge-93
 *   paradigms: Stack-based, 2-dimensional, Angular
-*   reference-distribution: [Wierd distribution](http://catseye.tc/distribution/Wierd_distribution)
+*   reference-distribution: [Wierd distribution](https://catseye.tc/distribution/Wierd_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
-*   online @ [catseye.tc](http://catseye.tc/installation/Wierd (John Colagioia))
+*   online @ [catseye.tc](https://catseye.tc/installation/Wierd (John Colagioia))
 
 Sample program (written by Milo van Handel):
 
@@ -243,7 +243,7 @@ as sharing a single stack.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Metalanguage, Object-oriented
-*   reference-distribution: [ALPACA distribution](http://catseye.tc/distribution/ALPACA_distribution)
+*   reference-distribution: [ALPACA distribution](https://catseye.tc/distribution/ALPACA_distribution)
 
 Sample program:
 
@@ -284,7 +284,7 @@ other languages (or, well, cellular automata — close enough).
 *   computational-class: Turing-complete
 *   influences: [Befunge-93][], [Befunge-97][]
 *   paradigms: Stack-based, Self-modifying
-*   reference-distribution: [Funge-98 distribution](http://catseye.tc/distribution/Funge-98_distribution)
+*   reference-distribution: [Funge-98 distribution](https://catseye.tc/distribution/Funge-98_distribution)
 
 Sample program:
 
@@ -337,7 +337,7 @@ Unefunge-98 is the realization of [Funge-98][] in one dimension.
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Metalanguage
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample program:
 
@@ -355,8 +355,8 @@ multi-dimensional languages.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Stack-based
-*   reference-distribution: [Shelta distribution](http://catseye.tc/distribution/Shelta_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Shelta)
+*   reference-distribution: [Shelta distribution](https://catseye.tc/distribution/Shelta_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Shelta)
 
 Sample program:
 
@@ -415,7 +415,7 @@ becoming the programming language [Var'aq][].
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: [Sally distribution](http://catseye.tc/distribution/Sally_distribution)
+*   reference-distribution: [Sally distribution](https://catseye.tc/distribution/Sally_distribution)
 
 Sample program:
 
@@ -441,7 +441,7 @@ a strict type system, and some unusual rules for parameters and return values.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Imperative
-*   reference-distribution: [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
+*   reference-distribution: [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
 
 Sample program:
@@ -464,13 +464,13 @@ sheer fact that a compiler for it has been hacked together.
 *   implementation-type: compiler
 *   host-language: [ANSI C][]
 *   target-language: [x86 machine code][]
-*   in-distributions: [ILLGOL distribution](http://catseye.tc/distribution/ILLGOL_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
+*   in-distributions: [ILLGOL distribution](https://catseye.tc/distribution/ILLGOL_distribution), [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 ### Illgola-2
 
 *   type: Programming Language
 *   genre: Joke language
-*   in-distributions: [Illgola-2 distribution](http://catseye.tc/distribution/Illgola-2_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
+*   in-distributions: [Illgola-2 distribution](https://catseye.tc/distribution/Illgola-2_distribution), [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [ILLGOL][].
 
@@ -478,7 +478,7 @@ Successor to [ILLGOL][].
 
 *   type: Programming Language
 *   genre: Joke language
-*   in-distributions: [Illberon distribution](http://catseye.tc/distribution/Illberon_distribution), [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
+*   in-distributions: [Illberon distribution](https://catseye.tc/distribution/Illberon_distribution), [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [Illgola-2][].
 
@@ -486,7 +486,7 @@ Successor to [Illgola-2][].
 
 *   type: Programming Language
 *   genre: Joke language
-*   in-distributions: [Illgol: Grand Mal](http://catseye.tc/distribution/Illgol:_Grand_Mal)
+*   in-distributions: [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 
 Successor to [Illberon][].
 
@@ -498,7 +498,7 @@ Successor to [Illberon][].
 *   variant-of: [Befunge-93][]
 *   development-stage: archival
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
-*   reference-distribution: [Apple Befunge distribution](http://catseye.tc/distribution/Apple_Befunge_distribution)
+*   reference-distribution: [Apple Befunge distribution](https://catseye.tc/distribution/Apple_Befunge_distribution)
 
 Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some
@@ -521,7 +521,7 @@ Apple ][+-specific instructions.
 *   computational-class: Turing-complete
 *   influences: SMETANA
 *   paradigms: Imperative, Self-modifying
-*   reference-distribution: [SMITH distribution](http://catseye.tc/distribution/SMITH_distribution)
+*   reference-distribution: [SMITH distribution](https://catseye.tc/distribution/SMITH_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
 
 Sample program:
@@ -557,7 +557,7 @@ has been shown to be [Turing-complete][].
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Graph-rewriting, Imperative
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample program:
 
@@ -579,7 +579,7 @@ graph.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: String-rewriting, State machine
-*   reference-distribution: [Squishy2K distribution](http://catseye.tc/distribution/Squishy2K_distribution)
+*   reference-distribution: [Squishy2K distribution](https://catseye.tc/distribution/Squishy2K_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Squishy2K)
 
 Sample program:
@@ -608,7 +608,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional, Maze-space-rewriting
-*   reference-distribution: [HUNTER distribution](http://catseye.tc/distribution/HUNTER_distribution)
+*   reference-distribution: [HUNTER distribution](https://catseye.tc/distribution/HUNTER_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
 
 Sample program:
@@ -648,7 +648,7 @@ Its abstract starts out like this:
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: ['N-DCNC distribution](http://catseye.tc/distribution/'N-DCNC_distribution)
+*   reference-distribution: ['N-DCNC distribution](https://catseye.tc/distribution/'N-DCNC_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/'N-DCNC)
 
 Sample program:
@@ -688,7 +688,7 @@ Broken.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Non-deterministic
-*   reference-distribution: [Strelnokoff distribution](http://catseye.tc/distribution/Strelnokoff_distribution)
+*   reference-distribution: [Strelnokoff distribution](https://catseye.tc/distribution/Strelnokoff_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
 
 Sample program:
@@ -732,7 +732,7 @@ featured in a parody advertisement on the television show SCTV.
 *   genre: Abstract Artlang
 *   development-stage: not fully complete
 *   computational-class: ???
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample utterance:
 
@@ -754,9 +754,9 @@ The sole design principle was to entirely eliminate word order.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Grid-rewriting, Reflective
-*   reference-distribution: [Ypsilax distribution](http://catseye.tc/distribution/Ypsilax_distribution)
+*   reference-distribution: [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -797,7 +797,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   development-stage: mature
 *   computational-class: unknown computational class
 *   paradigms: Imperative, Regular-expression-based
-*   reference-distribution: [Version distribution](http://catseye.tc/distribution/Version_distribution)
+*   reference-distribution: [Version distribution](https://catseye.tc/distribution/Version_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
 
 Sample program:
@@ -841,7 +841,7 @@ are ignored during execution.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Event-oriented
-*   reference-distribution: [beta-Juliet distribution](http://catseye.tc/distribution/beta-Juliet_distribution)
+*   reference-distribution: [beta-Juliet distribution](https://catseye.tc/distribution/beta-Juliet_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/beta-Juliet)
 
 Sample program:
@@ -893,7 +893,7 @@ specified, allowing the language to be [Turing-complete][].
 *   development-stage: archival
 *   computational-class: ???
 *   paradigms: Functional
-*   reference-distribution: [Sbeezg distribution](http://catseye.tc/distribution/Sbeezg_distribution)
+*   reference-distribution: [Sbeezg distribution](https://catseye.tc/distribution/Sbeezg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Sbeezg)
 
 Sample program:
@@ -924,7 +924,7 @@ single-assignment or they're not...)
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting, Imperative
-*   reference-distribution: [GraNoLa/M distribution](http://catseye.tc/distribution/GraNoLa/M_distribution)
+*   reference-distribution: [GraNoLa/M distribution](https://catseye.tc/distribution/GraNoLa/M_distribution)
 
 Sample program:
 
@@ -950,7 +950,7 @@ same time.
 *   computational-class: ???
 *   influences: Tamerlane
 *   paradigms: Graph-rewriting
-*   reference-distribution: [Kangaroo Iceberg distribution](http://catseye.tc/distribution/Kangaroo_Iceberg_distribution)
+*   reference-distribution: [Kangaroo Iceberg distribution](https://catseye.tc/distribution/Kangaroo_Iceberg_distribution)
 
 Sample program:
 
@@ -981,7 +981,7 @@ implementation and notes that I left behind...
 *   computational-class: Turing-complete
 *   influences: [Befunge-93][]
 *   paradigms: Imperative, State machine
-*   reference-distribution: [Beturing distribution](http://catseye.tc/distribution/Beturing_distribution)
+*   reference-distribution: [Beturing distribution](https://catseye.tc/distribution/Beturing_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Beturing)
 
 Sample program:
@@ -1025,7 +1025,7 @@ graphs, so Beturing is [Turing-complete][].
 *   computational-class: believed Turing-complete
 *   influences: [Lua][]
 *   paradigms: Imperative, Functional
-*   reference-distribution: [Bhuna distribution](http://catseye.tc/distribution/Bhuna_distribution)
+*   reference-distribution: [Bhuna distribution](https://catseye.tc/distribution/Bhuna_distribution)
 
 Sample program:
 
@@ -1054,7 +1054,7 @@ point for branching new languages, than as a useful language in and of itself.
 *   genre: Production Language
 *   development-stage: unfinished
 *   etymology: Egyptian street food
-*   reference-distribution: [Kosheri distribution](http://catseye.tc/distribution/Kosheri_distribution)
+*   reference-distribution: [Kosheri distribution](https://catseye.tc/distribution/Kosheri_distribution)
 
 Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
 
@@ -1073,7 +1073,7 @@ Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
 *   computational-class: Turing-complete
 *   influences: brainfuck
 *   paradigms: Imperative, Algebraic
-*   reference-distribution: [Burro distribution](http://catseye.tc/distribution/Burro_distribution)
+*   reference-distribution: [Burro distribution](https://catseye.tc/distribution/Burro_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Burro)
 
 Sample program:
@@ -1111,7 +1111,7 @@ shortcoming was rectified in summer of 2010.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Term-rewriting
-*   reference-distribution: [Hev distribution](http://catseye.tc/distribution/Hev_distribution)
+*   reference-distribution: [Hev distribution](https://catseye.tc/distribution/Hev_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Hev)
 
 Sample program:
@@ -1139,7 +1139,7 @@ of any dreadful precedence table is required!
 *   computational-class: known not Turing-complete
 *   influences: Burro
 *   paradigms: Imperative, Algebraic
-*   reference-distribution: [Cabra distribution](http://catseye.tc/distribution/Cabra_distribution)
+*   reference-distribution: [Cabra distribution](https://catseye.tc/distribution/Cabra_distribution)
 
 Sample program:
 
@@ -1166,7 +1166,7 @@ operator).
 *   computational-class: Turing-complete
 *   influences: Spoon
 *   paradigms: Imperative
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
 
 Sample program:
@@ -1193,7 +1193,7 @@ which to detect all possible compiler-hanging-templates.)
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Meta-circular, Reflective
-*   reference-distribution: [Emmental distribution](http://catseye.tc/distribution/Emmental_distribution)
+*   reference-distribution: [Emmental distribution](https://catseye.tc/distribution/Emmental_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Emmental)
 
 Sample program:
@@ -1219,7 +1219,7 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Imperative, Functional
-*   reference-distribution: [Iphigeneia distribution](http://catseye.tc/distribution/Iphigeneia_distribution)
+*   reference-distribution: [Iphigeneia distribution](https://catseye.tc/distribution/Iphigeneia_distribution)
 
 Sample program:
 
@@ -1254,7 +1254,7 @@ that convert programs between the two forms.
 *   computational-class: believed Turing-complete
 *   influences: Emmental
 *   paradigms: Meta-circular, Reflective
-*   reference-distribution: [Mascarpone distribution](http://catseye.tc/distribution/Mascarpone_distribution)
+*   reference-distribution: [Mascarpone distribution](https://catseye.tc/distribution/Mascarpone_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Mascarpone)
 
 Sample program:
@@ -1280,7 +1280,7 @@ job of reflective interpreter-modification quite a bit cleaner and richer.
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   reference-distribution: [Larabee distribution](http://catseye.tc/distribution/Larabee_distribution)
+*   reference-distribution: [Larabee distribution](https://catseye.tc/distribution/Larabee_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Larabee)
 
 Sample program:
@@ -1311,7 +1311,7 @@ and abuses it, creating a path that leads only to existential angst and self-des
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Forest-rewriting
-*   reference-distribution: [Arboretuum distribution](http://catseye.tc/distribution/Arboretuum_distribution)
+*   reference-distribution: [Arboretuum distribution](https://catseye.tc/distribution/Arboretuum_distribution)
 
 Sample program:
 
@@ -1357,7 +1357,7 @@ however, this idea was not entirely successful.  Regardless, Arboretuum is
 *   computational-class: believed Turing-complete
 *   influences: Arboretuum
 *   paradigms: Term-rewriting
-*   reference-distribution: [Treacle distribution](http://catseye.tc/distribution/Treacle_distribution)
+*   reference-distribution: [Treacle distribution](https://catseye.tc/distribution/Treacle_distribution)
 
 Sample program:
 
@@ -1386,7 +1386,7 @@ _holes_ inside which subpatterns may match at any depth.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   reference-distribution: [Quylthulg distribution](http://catseye.tc/distribution/Quylthulg_distribution)
+*   reference-distribution: [Quylthulg distribution](https://catseye.tc/distribution/Quylthulg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Quylthulg)
 
 Sample program:
@@ -1443,7 +1443,7 @@ This is actually a language family.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Continuation-passing, Object-oriented, Dependency injection
-*   reference-distribution: [Unlikely distribution](http://catseye.tc/distribution/Unlikely_distribution)
+*   reference-distribution: [Unlikely distribution](https://catseye.tc/distribution/Unlikely_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Unlikely)
 
 Sample program:
@@ -1493,8 +1493,8 @@ class *must* be specified when the object is instantiated.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   reference-distribution: [Pixley distribution](http://catseye.tc/distribution/Pixley_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Pixley)
+*   reference-distribution: [Pixley distribution](https://catseye.tc/distribution/Pixley_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Pixley)
 
 Sample program:
 
@@ -1576,7 +1576,7 @@ Pifxley is a dialect of [Pixley][] which supports an `if` construct instead of `
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Object-oriented
-*   reference-distribution: [Dieter distribution](http://catseye.tc/distribution/Dieter_distribution)
+*   reference-distribution: [Dieter distribution](https://catseye.tc/distribution/Dieter_distribution)
 
 Sample program:
 
@@ -1615,10 +1615,10 @@ safety and optimization considerations.
 *   computational-class: believed Turing-complete
 *   influences: BitChanger
 *   paradigms: Imperative
-*   reference-distribution: [Etcha distribution](http://catseye.tc/distribution/Etcha_distribution)
+*   reference-distribution: [Etcha distribution](https://catseye.tc/distribution/Etcha_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
-*   online @ [catseye.tc](http://catseye.tc/installation/Etcha)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/Etcha)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -1660,9 +1660,9 @@ a role similar to the tape head of a Turing machine.
 *   computational-class: Turing-complete
 *   influences: BitChanger
 *   paradigms: Imperative, Memory-mapped
-*   reference-distribution: [ZOWIE distribution](http://catseye.tc/distribution/ZOWIE_distribution)
+*   reference-distribution: [ZOWIE distribution](https://catseye.tc/distribution/ZOWIE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ZOWIE)
-*   online @ [catseye.tc](http://catseye.tc/installation/ZOWIE)
+*   online @ [catseye.tc](https://catseye.tc/installation/ZOWIE)
 
 Sample program:
 
@@ -1696,8 +1696,8 @@ a memory location to mark the beginning or end of a loop or conditional.
 *   development-stage: mature
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
-*   reference-distribution: [Whothm distribution](http://catseye.tc/distribution/Whothm_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Whothm)
+*   reference-distribution: [Whothm distribution](https://catseye.tc/distribution/Whothm_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Whothm)
 
 Sample program:
 
@@ -1735,7 +1735,7 @@ bitmapped drawings.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
-*   reference-distribution: [Eightebed distribution](http://catseye.tc/distribution/Eightebed_distribution)
+*   reference-distribution: [Eightebed distribution](https://catseye.tc/distribution/Eightebed_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Eightebed)
 
 Sample program:
@@ -1785,7 +1785,7 @@ The name "Eightebed" came from a typo by [Alise][] for the word "enlightened".
 *   development-stage: not fully complete
 *   computational-class: ???
 *   paradigms: Imperative
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Oozlybub and Murphy)
 
 Sample program:
@@ -1816,10 +1816,10 @@ typing, and only-conjectural Turing completeness.
 *   computational-class: Turing-complete
 *   influences: 2-ill, Etcha
 *   paradigms: Imperative
-*   reference-distribution: [Gemooy distribution](http://catseye.tc/distribution/Gemooy_distribution)
+*   reference-distribution: [Gemooy distribution](https://catseye.tc/distribution/Gemooy_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
-*   online @ [catseye.tc](http://catseye.tc/installation/Gemooy)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/Gemooy)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -1872,7 +1872,7 @@ semantics of 2-ill were essentially the same as those of [BitChanger][].
 *   development-stage: mature
 *   computational-class: can simulate some push-down automata
 *   paradigms: 2-dimensional
-*   reference-distribution: [Nhohnhehr distribution](http://catseye.tc/distribution/Nhohnhehr_distribution)
+*   reference-distribution: [Nhohnhehr distribution](https://catseye.tc/distribution/Nhohnhehr_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Nhohnhehr)
 
 Sample program:
@@ -1907,7 +1907,7 @@ before being adjoined to existing rooms, but rooms are otherwise immutable.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: 2-dimensional, Grid-rewriting, Self-modifying
-*   reference-distribution: [Kelxquoia distribution](http://catseye.tc/distribution/Kelxquoia_distribution)
+*   reference-distribution: [Kelxquoia distribution](https://catseye.tc/distribution/Kelxquoia_distribution)
 
 Sample program:
 
@@ -1938,10 +1938,10 @@ were previously erased after execution.
 *   computational-class: believed Turing-complete
 *   influences: 1L, reMorse
 *   paradigms: Turning tarpit
-*   reference-distribution: [Wunnel distribution](http://catseye.tc/distribution/Wunnel_distribution)
+*   reference-distribution: [Wunnel distribution](https://catseye.tc/distribution/Wunnel_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
-*   online @ [catseye.tc](http://catseye.tc/installation/Wunnel)
-*   online @ [catseye.tc](http://catseye.tc/installation/yoob)
+*   online @ [catseye.tc](https://catseye.tc/installation/Wunnel)
+*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Sample program:
 
@@ -2002,7 +2002,7 @@ remote parts of the program.
 *   computational-class: believed Turing-complete
 *   influences: [Pixley][]
 *   paradigms: Functional
-*   reference-distribution: [Pail distribution](http://catseye.tc/distribution/Pail_distribution)
+*   reference-distribution: [Pail distribution](https://catseye.tc/distribution/Pail_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Pail)
 
 Sample program:
@@ -2036,7 +2036,7 @@ names of bindings to be expressed.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, Lazy
-*   reference-distribution: [Xoomonk distribution](http://catseye.tc/distribution/Xoomonk_distribution)
+*   reference-distribution: [Xoomonk distribution](https://catseye.tc/distribution/Xoomonk_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xoomonk)
 
 Sample program:
@@ -2079,7 +2079,7 @@ while it was being developed, against the spec.
 *   computational-class: believed Turing-complete
 *   influences: [Befunge-93][]
 *   paradigms: Functional, 2-dimensional
-*   reference-distribution: [Flobnar distribution](http://catseye.tc/distribution/Flobnar_distribution)
+*   reference-distribution: [Flobnar distribution](https://catseye.tc/distribution/Flobnar_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Flobnar)
 
 Sample program:
@@ -2115,7 +2115,7 @@ proceeds in a much more dataflow-like fashion.
 *   development-stage: unfinished
 *   computational-class: believed Turing-complete
 *   paradigms: Proof checking, Term-rewriting
-*   reference-distribution: [Specs on Spec distribution](http://catseye.tc/distribution/Specs_on_Spec_distribution)
+*   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
 
 Sample program:
 
@@ -2157,7 +2157,7 @@ of term-rewiting systems is largely retained.
 *   genre: Production language
 *   development-stage: unfinished
 *   paradigms: Functional
-*   reference-distribution: [Robin distribution](http://catseye.tc/distribution/Robin_distribution)
+*   reference-distribution: [Robin distribution](https://catseye.tc/distribution/Robin_distribution)
 
 Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
 One distinctive feature of it is that it has an extremely small core semantics,
@@ -2187,7 +2187,7 @@ There are actually 2 implementations, and they have different design goals.
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative, State machine
-*   reference-distribution: [Troupe distribution](http://catseye.tc/distribution/Troupe_distribution)
+*   reference-distribution: [Troupe distribution](https://catseye.tc/distribution/Troupe_distribution)
 
 Troupe is an esolang based on hedgehogs, faery rings, and hills.  It maps
 fairly neatly to the definition of a Turing machine, so it is almost certainly
@@ -2202,7 +2202,7 @@ fairly neatly to the definition of a Turing machine, so it is almost certainly
 *   computational-class: believed Turing-complete
 *   influences: Ruby
 *   paradigms: Object-oriented
-*   reference-distribution: [Velo distribution](http://catseye.tc/distribution/Velo_distribution)
+*   reference-distribution: [Velo distribution](https://catseye.tc/distribution/Velo_distribution)
 
 Sample program:
 
@@ -2236,7 +2236,7 @@ an object, which inherits from the root object in delegation-OO style.
 *   development-stage: mature
 *   computational-class: Primitive recursive
 *   paradigms: Functional
-*   reference-distribution: [Exanoke distribution](http://catseye.tc/distribution/Exanoke_distribution)
+*   reference-distribution: [Exanoke distribution](https://catseye.tc/distribution/Exanoke_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Exanoke)
 
 Sample program:
@@ -2272,7 +2272,7 @@ expressing the primitive recursive functions.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Imperative
-*   reference-distribution: [Cfluviurrh distribution](http://catseye.tc/distribution/Cfluviurrh_distribution)
+*   reference-distribution: [Cfluviurrh distribution](https://catseye.tc/distribution/Cfluviurrh_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Cfluviurrh)
 
 Sample program:
@@ -2312,7 +2312,7 @@ However, this is demonstrably untrue.  The reference interpreter demonstrates it
 *   computational-class: Turing-complete
 *   influences: Wunnel, Half-Broken Car in Heavy Traffic
 *   paradigms: Turning tarpit, 2-dimensional
-*   reference-distribution: [Jolverine distribution](http://catseye.tc/distribution/Jolverine_distribution)
+*   reference-distribution: [Jolverine distribution](https://catseye.tc/distribution/Jolverine_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Jolverine)
 
 Sample program:
@@ -2350,7 +2350,7 @@ the language's vicious, erratic nature.
 *   development-stage: mature
 *   computational-class: Turing-complete
 *   paradigms: Imperative
-*   reference-distribution: [SICKBAY distribution](http://catseye.tc/distribution/SICKBAY_distribution)
+*   reference-distribution: [SICKBAY distribution](https://catseye.tc/distribution/SICKBAY_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SICKBAY)
 
 Sample program:
@@ -2412,7 +2412,7 @@ thus may overlap — and was released as an esolang.
 *   influences: Eightebed, Rust
 *   paradigms: Imperative, Functional
 *   etymology: soap
-*   reference-distribution: [Castile distribution](http://catseye.tc/distribution/Castile_distribution)
+*   reference-distribution: [Castile distribution](https://catseye.tc/distribution/Castile_distribution)
 
 Sample program:
 
@@ -2453,7 +2453,7 @@ Also it's a compiler to Javascript, Ruby, stackmac, almost C...
 *   genre: Machine language
 *   paradigms: Imperative
 *   etymology: portmanteau
-*   reference-distribution: [SixtyPical distribution](http://catseye.tc/distribution/SixtyPical_distribution)
+*   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
 
 Sample program:
 
@@ -2496,7 +2496,7 @@ locations.)
 *   development-stage: unfinished
 *   paradigms: Functional, Logic programming, Metalanguage
 *   etymology: feminine given name
-*   reference-distribution: [Tamsin distribution](http://catseye.tc/distribution/Tamsin_distribution)
+*   reference-distribution: [Tamsin distribution](https://catseye.tc/distribution/Tamsin_distribution)
 
 Sample program:
 
@@ -2537,7 +2537,7 @@ Kind of compiles, too.
 *   development-stage: mature
 *   computational-class: believed Turing-complete
 *   paradigms: Functional
-*   reference-distribution: [Yolk distribution](http://catseye.tc/distribution/Yolk_distribution)
+*   reference-distribution: [Yolk distribution](https://catseye.tc/distribution/Yolk_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Yolk)
 
 Sample program:
@@ -2586,8 +2586,8 @@ calculus) with a tiny meta-circular interpreter.
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: Imperative
-*   reference-distribution: [Matchbox distribution](http://catseye.tc/distribution/Matchbox_distribution)
-*   online @ [catseye.tc](http://catseye.tc/installation/Matchbox)
+*   reference-distribution: [Matchbox distribution](https://catseye.tc/distribution/Matchbox_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Matchbox)
 
 Sample program:
 
@@ -2646,7 +2646,7 @@ which Matchbox can run and show correct.
 *   development-stage: not fully complete
 *   computational-class: Turing-complete
 *   paradigms: Imperative, Stack-based
-*   reference-distribution: [SITU-SOL distribution](http://catseye.tc/distribution/SITU-SOL_distribution)
+*   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
 
 SITU-SOL is a vaguely Forth-like language which was designed and
 implemented (by hand!) during RetroChallenge 2015/07, and entered
@@ -2668,7 +2668,7 @@ into an emulated [Commodore 64][] using [SITU-MON][].
 *   computational-class: unknown computational class
 *   influences: [Madison][]
 *   paradigms: Probabilistic, Logic programming, State machine
-*   reference-distribution: [Samovar distribution](http://catseye.tc/distribution/Samovar_distribution)
+*   reference-distribution: [Samovar distribution](https://catseye.tc/distribution/Samovar_distribution)
 
 Sample program:
 
@@ -2694,7 +2694,7 @@ sugar.
 *   computational-class: believed Turing-complete
 *   influences: [Madison][]
 *   paradigms: Proof checking
-*   reference-distribution: [Maxixe distribution](http://catseye.tc/distribution/Maxixe_distribution)
+*   reference-distribution: [Maxixe distribution](https://catseye.tc/distribution/Maxixe_distribution)
 
 Sample program:
 
@@ -2729,7 +2729,7 @@ combinations thereof).
 *   computational-class: believed Turing-complete
 *   influences: [Carriage][]
 *   paradigms: Functional, Concatenative
-*   reference-distribution: [Equipage distribution](http://catseye.tc/distribution/Equipage_distribution)
+*   reference-distribution: [Equipage distribution](https://catseye.tc/distribution/Equipage_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Equipage)
 
 Sample program:
@@ -2782,7 +2782,7 @@ For languages where no significant work has even ever been started, see
 *   genre: Esolang
 *   paradigms: Object-oriented, Continuation-passing
 *   etymology: neologism
-*   reference-distribution: [Deturgenchry distribution](http://catseye.tc/distribution/Deturgenchry_distribution)
+*   reference-distribution: [Deturgenchry distribution](https://catseye.tc/distribution/Deturgenchry_distribution)
 
 Deturgenchry is an object-oriented language with both `self` and `other`,
 and each of these is a continuation (or something.)
@@ -2800,7 +2800,7 @@ and each of these is a continuation (or something.)
 *   genre: Esolang
 *   paradigms: Imperative, String-rewriting
 *   etymology: mangling of Porphyry
-*   reference-distribution: [Pophery distribution](http://catseye.tc/distribution/Pophery_distribution)
+*   reference-distribution: [Pophery distribution](https://catseye.tc/distribution/Pophery_distribution)
 
 Pophery is an imperative string-rewriting language.  I know right?
 
@@ -2861,7 +2861,7 @@ Pophery is an imperative string-rewriting language.  I know right?
 [reMorse]: http://esolangs.org/wiki/reMorse
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [Perl]: ../article/Project%20Dependencies.md#perl
-[rubbish lister]: http://catseye.tc/node/Perl
+[rubbish lister]: https://catseye.tc/node/Perl
 [Erlang]: ../article/Project%20Dependencies.md#erlang
 [NASM Assembler]: ../article/Project%20Dependencies.md#nasm
 [Java]: ../article/Project%20Dependencies.md#java
@@ -2879,8 +2879,8 @@ Pophery is an imperative string-rewriting language.  I know right?
 [Bhuna]: ../article/Languages.md#bhuna
 [PicoLisp]: https://picolisp.com/wiki/?home
 [Python]: ../article/Project%20Dependencies.md#python
-[Programming Languages as an Artistic Medium]: http://catseye.tc/view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
-[The Aesthetics of Esolangs]: http://catseye.tc/view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
+[Programming Languages as an Artistic Medium]: https://catseye.tc/view/The-Dossier/article/Programming%20Languages%20as%20an%20Artistic%20Medium.md
+[The Aesthetics of Esolangs]: https://catseye.tc/view/The-Dossier/article/The%20Aesthetics%20of%20Esolangs.md
 [esolangs]: ../article/General%20Information.md#esolang
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [80286 machine code]: ../article/Retrocomputing.md#ms-dos

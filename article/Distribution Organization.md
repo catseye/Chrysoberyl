@@ -208,7 +208,7 @@ well:
     one implementation, this is where the reference implementation is
     kept; other implementations should probably be in `impl` instead.
 
-[programming languages]: http://catseye.tc/article/Languages.md
+[programming languages]: https://catseye.tc/article/Languages.md
 [esolangs]: ../article/General%20Information.md#esolang
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [MS-DOS]: ../article/Retrocomputing.md#ms-dos

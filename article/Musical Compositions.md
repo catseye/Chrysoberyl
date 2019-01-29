@@ -1,10 +1,10 @@
 Musical Compositions
 ====================
 
-*   image_url: http://static.catseye.tc/images/illustrations/Accordion_(PSF).jpg
 *   common auspices: What is this I don't even
 *   common authors: Chris Pressey
 *   common type: Musical Composition
+*   image_url: https://static.catseye.tc/images/illustrations/Accordion_(PSF).jpg
 
 This is a list of musical works composed by Chris Pressey.
 
@@ -27,7 +27,7 @@ Early Period
 
 *   genre: Experimental music
 *   inception-date: ca 1987
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Two%20Molecules%20of%20a%20Chip%20Box%20in%20Cosmic%20Relationship%20to%20a%20Yak.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Two%20Molecules%20of%20a%20Chip%20Box%20in%20Cosmic%20Relationship%20to%20a%20Yak.mp3)
 
 Pure experimentational weirdness with the C64's SID chip.
 The phrase "Chip Box" refers to the packaging for Old Dutch potato chips
@@ -38,7 +38,7 @@ The yak may or may not have been a nod to Jeff Minter; I don't recall.
 
 *   genre: Theme music
 *   inception-date: ca 1988
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Theme%20to%20Nukeball.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Theme%20to%20Nukeball.mp3)
 
 This was the theme to a game I was trying to write for the Commodore 64 called "Nukeball"
 (which was never finished).  There was also an [alternate choice](#untitled-video-game-theme).
@@ -50,7 +50,7 @@ loop indefinitely.
 
 *   genre: Theme music
 *   inception-date: ca 1988
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Tears%20on%20my%20Catbox.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Tears%20on%20my%20Catbox.mp3)
 
 Quite short; could be a "game over" theme, or something.
 
@@ -58,7 +58,7 @@ Quite short; could be a "game over" theme, or something.
 
 *   genre: Theme music
 *   inception-date: ca 1989
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Untitled%20Video%20Game%20Theme.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Untitled%20Video%20Game%20Theme.mp3)
 
 This was, I believe, an alternate Theme to Nukeball.  I rather like it.
 (It cuts off sharply at the end because it was supposed to loop, but didn't.)
@@ -77,7 +77,7 @@ using [xmp][] (or modplug123) and lame.
 *   genre: Theme music
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/afterthefact)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20After%20the%20Fact.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20After%20the%20Fact.mp3)
 
 I've been told that this sounds like it should be the theme music for a spy movie.
 
@@ -89,7 +89,7 @@ However, xmp does support this feature.
 *   genre: Sci-fi
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/anagnoresis)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Anagnoresis.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Anagnoresis.mp3)
 
 "Anagnoresis" is either an alternate spelling for, or a typo for,
 "Anagnorisis", which means the moment some profound realization
@@ -103,7 +103,7 @@ wait for it and then go, "oh, *there* it is."
 *   genre: Pop ballad
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/autumnkiss)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Autumn%20Kiss.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Autumn%20Kiss.mp3)
 
 This has been described as vaguely Annie Lennox-like, at least how it
 mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
@@ -112,7 +112,7 @@ mixes a mellow ballad with a funky (perhaps overly funky) percussion track.
 
 *   genre: Jazz fusion
 *   inception-date: ca 1991
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Birdwatching%20[Amiga%20arrangement].mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Birdwatching%20[Amiga%20arrangement].mp3)
 *   instrumentation: Jazz Combo
 *   using-software: DMCS
 
@@ -125,7 +125,7 @@ house after pulling an all-nighter.  It was supposed to be a very mellow tune
 
 *   genre: Experimental music
 *   inception-date: ca 1994
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Drat.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Drat.mp3)
 
 Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
@@ -133,8 +133,8 @@ Experimental Angry Music!  Contains, I believe, two samples of my own voice.
 
 *   genre: Jazz fusion
 *   inception-date: ca 1992
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[Amiga%20dance%20arrangement].mp3) (Amiga dance arrangement)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[JV-30%20fusion%20arrangement].mp3) (JV-30 fusion arrangement)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[Amiga%20dance%20arrangement].mp3) (Amiga dance arrangement)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Go(Figure)%20[JV-30%20fusion%20arrangement].mp3) (JV-30 fusion arrangement)
 
 One of my favourites.  Originally done up in MED (a somewhat techno-ier
 rendition) and redone in Cakewalk (a more jazzy rendition.)  The JV-30
@@ -145,7 +145,7 @@ it seemed as good a way as any to end a song.
 
 *   genre: Dance
 *   inception-date: ca 1992
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Panic.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Panic.mp3)
 
 Experimental dance music with lots of samples.  Samples on the general theme of panicking.
 
@@ -154,7 +154,7 @@ Experimental dance music with lots of samples.  Samples on the general theme of 
 *   genre: Pop ballad
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/rainbird)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Rainbird.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Rainbird.mp3)
 
 Another pop ballad, this one with crude sound effects of a rainstorm in it.
 The "false resolution" (V to vi instead of V to I) at 1:33 has been commented
@@ -165,7 +165,7 @@ on favourably.
 *   genre: Sci-fi
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/redquarks)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Red%20Quarks.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Red%20Quarks.mp3)
 
 A funky little tune with a somewhat strange musical structure — it kind of goes
 all over the place, without building up to anything... kind of a A-A'-A-B-C-D form.
@@ -176,7 +176,7 @@ Yet it doesn't feel like a medley, it feels fairly coherent (at least to me.)
 *   genre: Sci-fi
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/retrograde)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Retrograde.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Retrograde.mp3)
 
 Probably the most conventional of my "Sci-fi" tunes.  One friend of mine
 found the melody horrendously catchy in an evil way such that he could not
@@ -187,7 +187,7 @@ stand listening to it.
 *   genre: Pop
 *   inception-date: ca 1992
 *   entry @ [aminet](http://aminet.net/package/mods/med/youdrivemewild)
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20You%20Drive%20Me%20Wild.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20You%20Drive%20Me%20Wild.mp3)
 
 I've been told this would make a good background music for a platformer,
 although I'm not sure I agree.  I do like the signature chord at the start, though;
@@ -208,7 +208,7 @@ Except where noted, these were recorded from the JV-30 synthesizer itself.
 
 *   genre: Alt rock
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Ice%20Jam.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Ice%20Jam.mp3)
 
 I consciously (though not entirely successfully) tried to write something "Björk-esque" for this one.
 
@@ -216,7 +216,7 @@ I consciously (though not entirely successfully) tried to write something "Björ
 
 *   genre: Alt rock
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Jack%20and%20Jill.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Jack%20and%20Jill.mp3)
 
 This was going to be an actual song, once, with lyrics and everything.
 
@@ -224,7 +224,7 @@ This was going to be an actual song, once, with lyrics and everything.
 
 *   genre: Reggae
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20A%20Moment%20in%20the%20Sun.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20A%20Moment%20in%20the%20Sun.mp3)
 
 My only foray into reggae.  A happy sort of tune;
 it was originally supposed to be followed by Back to the Rain
@@ -234,7 +234,7 @@ in some kind of putative playlist...
 
 *   genre: Swing
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Back%20to%20the%20Rain.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Back%20to%20the%20Rain.mp3)
 
 Very, very short.  Intended to be preceded by [A Moment in the Sun](#a-moment-in-the-sun)
 and serves more as an outro for that tune.  Or, maybe it could be used as the
@@ -244,7 +244,7 @@ and serves more as an outro for that tune.  Or, maybe it could be used as the
 
 *   genre: World beat
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Zoning%20Variance%20No.5.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Zoning%20Variance%20No.5.mp3)
 
 The title is meaningless; it's some kind
 of simple rustic air with a sitar duet jammed into the bridge.
@@ -254,7 +254,7 @@ But it's another one of my favourites, because I like that sort of thing.
 
 *   genre: Experimental music
 *   inception-date: ca 1996
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Smedley%20the%20Medley.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Smedley%20the%20Medley.mp3)
 
 I had three tunes that didn't stand on their own.  They don't go together
 either, so I put them together.  I've been told it's reminiscent of
@@ -265,7 +265,7 @@ it through an entire Zappa song, so I couldn't say, myself.
 
 *   genre: Ragtime
 *   inception-date: ca 1997
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fool.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fool.mp3)
 
 A sort of hokey ragtime ballad thing.
 
@@ -279,7 +279,7 @@ Late Late Period
 
 *   genre: Techno
 *   inception-date: Oct 2012
-*   MP3 @ [catseye.tc](http://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fluorescent%20Atrocious.mp3)
+*   MP3 @ [catseye.tc](https://static.catseye.tc/music/W.i.t.i.d.E%20-%20Fluorescent%20Atrocious.mp3)
 *   composed-on: Firefox
 *   using-software: [Sonant Live][]
 *   development-stage: mature
