@@ -204,7 +204,7 @@ written in Python.
 
 ### SITU-MON
 
-![SITU-MON](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nrdcglfU4p1tvda25_540.png)
+![SITU-MON](https://git.catseye.tc/SITU-SOL/blob/master/doc/bootstrap-zero/images/tumblr_inline_nrdcglfU4p1tvda25_540.png?raw=true)
 
 *   inception-date: Jul 2015
 *   development-stage: mature
@@ -223,7 +223,7 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 
 ### SITU-PAN
 
-![SITU-PAN](https://raw.githubusercontent.com/catseye/SITU-SOL/master/doc/bootstrap-zero/images/tumblr_inline_nr19fai3D41tvda25_540.jpg)
+![SITU-PAN](https://git.catseye.tc/SITU-SOL/blob/master/doc/bootstrap-zero/images/tumblr_inline_nr19fai3D41tvda25_540.jpg?raw=true)
 
 *   inception-date: Jul 2015
 *   development-stage: mature

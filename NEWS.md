@@ -454,7 +454,7 @@ yoob.js and yoob and finally Zzrk.
 
 You can download a pre-built image of The Platform from this torrent:
 
-*   [The-Cats-Eye-Technologies-Platform-0.4.torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent)
+*   [The-Cats-Eye-Technologies-Platform-0.4.torrent](https://git.catseye.tc/The-Platform/blob/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent?raw=true)
 
 ### This feed has been rewritten in Feedmark
 
@@ -909,7 +909,7 @@ been put online: [Eine kleine Glitchfraktal](https://catseye.tc/installation/Ein
 
 ### Version 0.2 of The Platform - now with Torrent
 
-*   summary: Version 0.2 of [The Platform](https://github.com/catseye/The-Platform) — now with [torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent)!
+*   summary: Version 0.2 of [The Platform](https://github.com/catseye/The-Platform) — now with [torrent](https://git.catseye.tc/The-Platform/blob/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent?raw=true)!
 *   date: Fri, 16 Jan 2015 20:52:27 GMT
 
 Version 0.2 of [The Cat's Eye Technologies Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) has been released.
@@ -918,7 +918,7 @@ bumps like that in it.  But the major thing now is that, if you don't
 want to go through the hassle of *building* it, you can *download* a
 pre-built image of it via this torrent right here:
 
-*   [The-Cats-Eye-Technologies-Platform-0.2.torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.2.torrent)
+*   [The-Cats-Eye-Technologies-Platform-0.2.torrent](https://git.catseye.tc/The-Platform/blob/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent?raw=true)
 
 For more information on The Platform, please refer to
 [its repository on Github](https://github.com/catseye/The-Platform)

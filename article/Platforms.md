@@ -35,7 +35,7 @@ It currently builds for the [IBM PC compatible][] architecture, but in
 theory it could be built for other architectures that NetBSD runs on.
 
 A pre-built disk image is available to download via
-[this torrent](https://raw.githubusercontent.com/catseye/The-Platform/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent).
+[this torrent](https://git.catseye.tc/The-Platform/blob/master/torrent/The-Cats-Eye-Technologies-Platform-0.4.torrent?raw=true).
 
 ### BefOS
 
