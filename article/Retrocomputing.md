@@ -76,8 +76,7 @@ XMODEM protocol at 300 baud.
 
 #### SixtyPical
 
-![SixtyPical program](https://pbs.twimg.com/media/CSAznWgUsAEOCwB.png)
-![SixtyPical output](https://pbs.twimg.com/media/CSAznX7UsAAZki4.png)
+![Output of a simple SixtyPical program](https://git.catseye.tc/SixtyPical/blob/master/images/hearts.png?raw=true)
 
 *   main article: *[SixtyPical][]*
 

@@ -317,7 +317,7 @@ and many other formats.
 
 ### MED
 
-*   specification-link: [MED/OctaMED MMD0 and MMD1 file formats](https://raw.githubusercontent.com/cpressey/MMD0-tools/master/doc/MED-Format.txt)
+*   specification-link: [MED/OctaMED MMD0 and MMD1 file formats](http://www.textfiles.com/programming/FORMATS/med-form.txt)
 
 Amiga.  The editor is called MED.  There was a MED Player.
 
