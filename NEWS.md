@@ -5,6 +5,46 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### git.catseye.tc and other website improvements
+
+*   summary: [git.catseye.tc](https://git.catseye.tc/) and other website improvements.
+*   date: Thu, 31 Jan 2019 12:25:47 GMT
+
+As you might know, Cat's Eye Technologies hosts git repositories of its projects on
+[GitHub](https://github.com/).  And as you might also know, several months back,
+GitHub was acquired by [Microsoft](https://microsoft.com/).
+
+We do not regard this, in itself, to be a problem.  There's nothing GitHub-specific
+about git; it's a distributed protocol, and a git repository can be hosted basically
+anywhere.  The GitHub-specific things that GitHub does offer are handy, but we've
+intentionally avoided relying too much on them.  For instance, we've tried to describe
+planned features in TODO lists in the repo itself, instead of opening issues for
+them.  And shall we point out that Microsoft is only one of several 800lb gorillas
+in the tech world these days, and perhaps it's not the one you should be the most
+worried about anymore?
+
+Ah, but I'm editorializing.  The point is, one *can* lessen one's dependency on GitHub
+very easily by hosting one's git repositories elsewhere, and that's just what we've done.
+Deploying an instance of [klaus](https://github.com/jonashaag/klaus), we've set up
+**[git.catseye.tc](https://git.catseye.tc/)**.  You can browse
+repositories from it and clone from it and download zipfiles from it and everything.
+(The repositories we have on GitHub will stay on GitHub, too, so if you want to fork
+them on there or open issues or pull requests there, you can, still.)
+
+We've also done a fair bit of maintenance on the catseye.tc website in conjunction with this.
+
+First — many would say this is long overdue — it's all `https` now.  Don't worry about
+changing any links; it's not required, `http` requests will simply redirect to `https`.
+
+Second, we've released version 0.8 of [Feedmark](https://catseye.tc/node/Feedmark), and
+the website is using it in the backend to read Markdown files directly as Feedmark.
+This lets us do things like format it more nicely in templates.
+
+Lastly, we've cleaned up the [Retrocomputing](http://catseye.tc/article/Retrocomputing)
+article, in particular, moving the things that are dependencies (even if they are
+"retro dependencies") rather than projects to the
+[Project Dependencies](https://catseye.tc/article/Project_Dependencies) article.
+
 ### SixtyPical 0.18 released
 
 *   summary: Version 0.18 of [SixtyPical](https://catseye.tc/node/SixtyPical) has been released.
