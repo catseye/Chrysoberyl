@@ -294,17 +294,6 @@
     },
 
 
-    "City Connection": {
-        "url": "https://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md#city-connection"
-    },
-    "Alphaman": {
-        "url": "https://catseye.tc/view/The-Dossier/article/Role-Playing%20Games%20of%20Note.md#alphaman"
-    },
-    "Write your own Adventure Programs for your Microcomputer": {
-        "url": "https://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md#write-your-own-adventure-programs-for-your-microcomputer"
-    },
-
-
     "Book": {
         "url": "https://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md"
     },
@@ -334,12 +323,6 @@
     "native code": {
         "url": "https://en.wikipedia.org/wiki/Machine_code"
     }, 
-    "Parsec": {
-        "url": "https://wiki.haskell.org/Parsec"
-    },
-    "make": {
-        "url": "http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html"
-    },
 
 
 
