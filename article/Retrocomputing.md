@@ -149,7 +149,7 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 [Shelta]: ../article/Languages.md#shelta
 [ILLGOL]: ../article/Languages.md#illgol
 [Mildred]: ../article/Electronics%20Projects.md#mildred
-[Commodore 64 Programmer's Reference Guide]: ../view/The-Dossier/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
+[Commodore 64 Programmer's Reference Guide]: https://catseye.tc/view/The-Dossier/article/An%20Esolang%20Reading%20List.md#commodore-64-programmers-reference-guide
 [NASM]: ../article/Project%20Dependencies.md#nasm
 [SixtyPical]: ../article/Languages.md#sixtypical
 [SITU-PAN]: ../article/Tools.md#situ-pan

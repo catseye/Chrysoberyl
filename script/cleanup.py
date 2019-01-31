@@ -54,6 +54,7 @@ def regenerate_refdex(articles):
         'misc-refdex/retrocomputing-refdex.json',
         'misc-refdex/languages-refdex.json',
         'misc-refdex/misc-refdex.json',
+        'misc-refdex/dossier-refdex.json',
     ]
     refdex = read_refdex_from(INPUT_REFDEXES)
     accumulate_article_refdex(articles, refdex)
