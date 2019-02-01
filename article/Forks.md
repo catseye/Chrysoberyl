@@ -140,7 +140,7 @@ There was a bug in it that we fixed so we maintain a fork for that.
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [C99]: ../article/Project%20Dependencies.md#c99
-[AmigaDOS 1.3]: ../article/Project%2520Dependencies.md#amiga-500
+[AmigaDOS 1.3]: ../article/Project%20Dependencies.md#amiga-500
 [Pixley]: ../article/Languages.md#pixley
 [Zz]: https://catseye.tc/modules/OpenZz/doc/zzdoc.html
 [Zzrk]: ../article/Games.md#zzrk

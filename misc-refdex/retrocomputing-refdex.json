@@ -1,15 +1,15 @@
 {
     "6502 machine code": {
         "anchor": "6502", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "Amiga": {
         "anchor": "amiga-500", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "AmigaDOS 1.3": {
         "anchor": "amiga-500", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "Bochs": {
         "url": "http://bochs.sourceforge.net/"
@@ -19,42 +19,42 @@
     }, 
     "DOSBox": {
         "anchor": "ms-dos", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "E-UAE": {
         "anchor": "amiga-500", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "FreeDOS": {
         "anchor": "ms-dos", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "MS-DOS Batchfile": {
         "anchor": "ms-dos", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "QEMU": {
         "anchor": "ibm-pc-compatible", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "Z-Machine code": {
         "anchor": "z-machine", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "Z80 machine code": {
         "anchor": "z80", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "v86": {
         "anchor": "ibm-pc-compatible", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }, 
     "x86 machine code": {
         "anchor": "ibm-pc-compatible", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     },
     "80286 machine code": {
         "anchor": "ibm-pc-compatible", 
-        "filename": "article/Project%20Dependencies.md"
+        "filename": "article/Project Dependencies.md"
     }
 }

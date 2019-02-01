@@ -1318,12 +1318,12 @@ Use the navigation buttons to traverse the space of the work.
 [platforms]: ../article/Platforms.md
 [JaC64]: ../article/Forks.md#jac64
 [Zplet]: ../article/Forks.md#zplet
-[Z-Machine code]: ../article/Project%2520Dependencies.md#z-machine
+[Z-Machine code]: ../article/Project%20Dependencies.md#z-machine
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
-[6502 machine code]: ../article/Project%2520Dependencies.md#6502
-[x86 machine code]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
-[v86]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
+[6502 machine code]: ../article/Project%20Dependencies.md#6502
+[x86 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
+[v86]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
 [Python]: ../article/Project%20Dependencies.md#python
@@ -1353,15 +1353,15 @@ Use the navigation buttons to traverse the space of the work.
 [Braktif]: ../article/Automata.md#braktif
 [Circute]: ../article/Automata.md#circute
 [Cyclobots]: ../article/Automata.md#cyclobots
-[DOSBox]: ../article/Project%2520Dependencies.md#ms-dos
+[DOSBox]: ../article/Project%20Dependencies.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
-[FreeDOS]: ../article/Project%2520Dependencies.md#ms-dos
+[FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
 [PATH]: http://esolangs.org/wiki/PATH
-[QEMU]: ../article/Project%2520Dependencies.md#ibm-pc-compatible
+[QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [REDGREEN]: ../article/Automata.md#redgreen
 [SMETANA]: ../article/Automata.md#smetana
