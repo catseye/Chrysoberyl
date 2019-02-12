@@ -1,11 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Create a release distfile from the latest tag in a docked source.
 """
 
 from argparse import ArgumentParser
+import json
 import os
+from os import path
 import re
 import sys
 import subprocess
@@ -58,7 +60,7 @@ def do_it(command, **kwargs):
 def get_it(command):
     return subprocess.Popen(
         command, shell=True, stdout=subprocess.PIPE
-    ).communicate()[0]
+    ).communicate()[0].decode('utf-8')
 
 
 def each_tag():
@@ -81,25 +83,35 @@ def main(args):
 
     options = argparser.parse_args(sys.argv[1:])
 
+    distributions_filename = path.join(path.dirname(path.realpath(sys.argv[0])), '..', 'distribution', 'distributions.json')
+    with open(distributions_filename, 'r') as f:
+        distributions = json.loads(f.read())
+
     latest_tag = options.tag
     if latest_tag is None:
         for tag in each_tag():
             latest_tag = tag
-    print latest_tag
+    print(latest_tag)
 
     (v_maj, v_min, r_maj, r_min, base_projectame) = match_tag(options.distro, latest_tag)
     zip_filename = '{}.zip'.format(base_projectame)
-    print repr((v_maj, v_min, r_maj, r_min, zip_filename))
+    print(repr((v_maj, v_min, r_maj, r_min, zip_filename)))
     dest_dir = os.path.join(os.getenv('HOME'), 'canonical', 'mine', 'catseye.tc', 'distfiles')
     full_filename = os.path.join(dest_dir, zip_filename)
     if os.path.exists(full_filename) and not options.force:
         raise IOError("{} exists".format(full_filename))
     do_it('ls -l {}/{}* || echo First'.format(dest_dir, options.distro))
     command = "git archive --prefix={}/ --format=zip {} -o {}".format(base_projectame, latest_tag, full_filename)
-    print command
+    print(command)
     if not options.dry_run:
         do_it(command)
         do_it("unzip -v {}".format(full_filename))
+
+    # TODO: modify distributions here
+
+    with open(distributions_filename, 'w') as f:
+        f.write(json.dumps(distributions, indent=4, sort_keys=True))
+
     sys.exit(0)
 
 
