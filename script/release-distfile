@@ -80,6 +80,7 @@ def main(args):
     argparser.add_argument('--dry-run', action='store_true', default=False)
     argparser.add_argument('--tag', type=str, default=None)
     argparser.add_argument('--force', action='store_true', default=False)
+    argparser.add_argument('--entry', type=str, default=None)
 
     options = argparser.parse_args(sys.argv[1:])
 
@@ -97,6 +98,9 @@ def main(args):
     zip_filename = '{}.zip'.format(base_projectame)
     print(repr((v_maj, v_min, r_maj, r_min, zip_filename)))
     dest_dir = os.path.join(os.getenv('HOME'), 'canonical', 'mine', 'catseye.tc', 'distfiles')
+    dest_dir = os.path.join(os.getenv('HOME'), 'distfiles')
+    if not os.path.exists(dest_dir):
+        raise IOError("{} not available".format(dest_dir))
     full_filename = os.path.join(dest_dir, zip_filename)
     if os.path.exists(full_filename) and not options.force:
         raise IOError("{} exists".format(full_filename))
@@ -107,7 +111,16 @@ def main(args):
         do_it(command)
         do_it("unzip -v {}".format(full_filename))
 
-    # TODO: modify distributions here
+    if options.entry is not None:
+        version = "{}.{}".format(v_maj, v_min)
+        revision = "{}.{}".format(r_maj, r_min)
+        url = 'https://catseye.tc/distfiles/{}'.format(zip_filename)
+        info = {
+            'version': version,
+            'revision': revision,
+            'url': url,
+        }
+        distributions["{} distribution".format(options.entry)]['releases'].append(info)
 
     with open(distributions_filename, 'w') as f:
         f.write(json.dumps(distributions, indent=4, sort_keys=True))
