@@ -59,10 +59,13 @@ A Commodore 64 emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  It has always ran as a
 desktop application.  It can now run as a JNLP application.
 
-We forked this because we wanted to put [Bubble Escape 2K][] online
+We forked this from [http://jac64.sourceforge.net/](http://jac64.sourceforge.net/)
+because we wanted to put [Bubble Escape 2K][] online
 and this emulator ran as an applet but there were a few bugs in it.
 We fixed those bugs and submitted those fixes upstream, but heard
 nothing from the maintainer.  Thus we keep this fork.
+
+Fork began on June 30, 2011.
 
 ### Zplet
 
