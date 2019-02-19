@@ -69,12 +69,12 @@ Cyclobots is an automaton that consists of a number of little virtual
 "turtle robots" called "cyclobots".  Each cyclobot moves with a constant
 velocity, and tries to follow exactly one other cyclobot, adjusting
 its heading to point towards the cyclobot it is following.
-No cylobot is followed by more than one cyclobot.
+No cyclobot is followed by more than one cyclobot.
 
 A group of cyclobots tends to fall into one of several semi-stable
 patterns.  The simplest of these is just a rotating circle, but
 more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
-patterns are more common.
+patterns are common.
 
 *   implementation name: Cyclobots (Visual Basic)
 *   implementation license: Freely Redistributable
