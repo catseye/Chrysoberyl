@@ -37,12 +37,6 @@ interactive
 
 interactive
 
-### javascript-module
-
-*   optional: true
-
-interactive
-
 ### javascript-urls
 
 *   optional: true
