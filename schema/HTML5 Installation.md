@@ -49,11 +49,11 @@ interactive
 
 interactive
 
-### launch-config
+### launch-command
 
 *   optional: true
 
-launch-config
+launch-command
 
 ### style
 

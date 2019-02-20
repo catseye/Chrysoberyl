@@ -255,8 +255,7 @@ You may wish to read the definition of this cellular automaton:
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/cyclobots/cyclobots.js
-*   script-root: ../modules/html5-gewgaws/cyclobots/yoob/
-*   launch-config: { width: 640, height: 480 }
+*   launch-command: launch('../modules/html5-gewgaws/cyclobots/yoob/', 'installation', { width: 640, height: 480 });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
 
@@ -349,8 +348,7 @@ You may wish to read the definition of this cellular automaton:
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/schroedingers-game-of-life/impl/slife.js/src/slife.js
-*   script-root: ../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/
-*   launch-config: { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' }
+*   launch-command: launch('../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/', 'installation', { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' });
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
@@ -424,8 +422,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/matchbox/src/matchbox-launcher.js
-*   script-root: ../modules/matchbox/src/
-*   launch-config: { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' }
+*   launch-command: launch('../modules/matchbox/src/', 'installation', { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Matchbox)
 
 Instructions:
@@ -435,6 +432,10 @@ to run either of the programs individually, or "Find Race Conditions"
 to compute all interleavings of the two programs and look for race
 conditions between them.
 
+This [Javascript][] implementation of Matchbox uses the *Web Workers*
+facility of your browser to run the evaluation process.  So, if your
+browser does not support Web Workers, it may not function correctly.
+
 ### Pixley
 
 *   installation-of: [Pixley][]
@@ -443,8 +444,7 @@ conditions between them.
 *   animated: false
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
 *   javascript-urls: ../modules/pixley/impl/pixley.js/demo/launch-pixley.js
-*   script-root: ../modules/pixley/impl/pixley.js/
-*   launch-config: { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' }
+*   launch-command: launch('../modules/pixley/impl/pixley.js/', 'installation', { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' });
 *   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixley)
 
@@ -574,8 +574,7 @@ imagination.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
-*   script-root: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/
-*   launch-config: { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' }
+*   launch-command: launch('../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/', 'installation', { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Wierd_(John_Colagioia))
 
 Wierd.
@@ -698,8 +697,7 @@ cards.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
-*   script-root: ../modules/html5-gewgaws/art-restoration-simulator/yoob/
-*   launch-config: { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') }
+*   launch-command: launch('../modules/html5-gewgaws/art-restoration-simulator/yoob/', 'installation', { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') });
 *   online @ [catseye.tc](https://catseye.tc/ix/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
@@ -748,8 +746,7 @@ because that is our best guess at
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/canvas-feedback/demo/canvas-feedback-launcher.js
-*   script-root: ../modules/canvas-feedback/src/
-*   launch-config: { 'imgUrl': 'http://i.imgur.com/SYFLz1X.jpg' }
+*   launch-command: launch('../modules/canvas-feedback/src/', 'installation', { imgUrl: 'http://i.imgur.com/SYFLz1X.jpg' });
 *   style: #installation > div { display: inline-block; vertical-align: top; } #canvas_container { text-align: center; } #canvas_container canvas { display: block; background: white; border: 1px solid black; } #control_panel > div { background: #c0c0c0; text-align: left; min-width: 30em; } #control_panel > div > div { background: #e0e0e0; padding: 3px; text-align: right; } #control_panel > div > div input { width: auto; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Canvas_Feedback)
 
@@ -1012,8 +1009,7 @@ Lexeduct.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/markov-font/markov-font.js
-*   script-root: ../modules/html5-gewgaws/markov-font/yoob/
-*   launch-config: { imgUrl: "../resource/c64_noninverted.png" }
+*   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../resource/c64_noninverted.png" });
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Markov_Font)
 
@@ -1065,8 +1061,7 @@ a source image randomly onto either panel.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/pixed-point/pixed-point.js
-*   script-root: ../modules/html5-gewgaws/pixed-point/yoob/
-*   launch-config: { imgUrl: "../resource/c64_upp.gif" }
+*   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../resource/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
 
@@ -1081,8 +1076,7 @@ but there's no guarantee, you see.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/prairie/prairie.js
-*   script-root: ../modules/html5-gewgaws/prairie/yoob/
-*   launch-config: { 'imgURL': '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' }
+*   launch-command: launch('../modules/html5-gewgaws/prairie/yoob/', 'installation', { imgURL: '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/Prairie)
 
@@ -1201,8 +1195,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/the-frame/the-frame.js
-*   script-root: ../modules/html5-gewgaws/the-frame/yoob/
-*   launch-config: { 'imgURL': '../modules/html5-gewgaws/the-frame/the-frame.png' }
+*   launch-command: launch('../modules/html5-gewgaws/the-frame/yoob/', 'installation', { imgURL: '../modules/html5-gewgaws/the-frame/the-frame.png' });
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Frame)
 
 Note 1. Green things can be dragged.  
