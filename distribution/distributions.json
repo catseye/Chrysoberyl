@@ -625,6 +625,14 @@
         ],
         "reponame": "Corona-Realm-of-Magic"
     },
+    "Cyclobots distribution": {
+        "entries": [
+            "Cyclobots"
+        ],
+        "fixed-tag": "dd0d5f5",
+        "releases": [],
+        "reponame": "Cyclobots"
+    },
     "Deturgenchry distribution": {
         "entries": [
             "Deturgenchry"
