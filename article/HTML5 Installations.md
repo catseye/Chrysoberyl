@@ -421,7 +421,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/https://static.catseye.tc/distfiles/freedos-1.1-illgol-floppy-0.1.img
+*   v86-floppy-image-url: ../resource/freedos-1.1-illgol-floppy-0.1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
 
 This is [ILLGOL][], a communicable disease disguised as a
