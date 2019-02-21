@@ -414,6 +414,38 @@ This in-browser installation of [Gemooy][] is implemented in
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
 
+### ILLGOL
+
+*   installation-of: [ILLGOL][]
+*   installed-implementation: illgol
+*   interactive: true
+*   animated: true
+*   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
+*   v86-floppy-image-url: ../resource/https://static.catseye.tc/distfiles/freedos-1.1-illgol-floppy-0.1.img
+*   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
+
+This is [ILLGOL][], a communicable disease disguised as a
+programming language, running under [FreeDOS][] running
+on a web page via the [HTML5][]-based [IBM PC compatible][]
+emulator, [v86][].
+
+Instructions:
+
+The system running online on v86 is delivered on a 720K floppy image,
+which contains a minimal bootable FreeDOS install, the ILLGOL distribution,
+plus various tools such as the `TED3` text editor.
+License and distribution information is included on the disk image.
+
+You can use these tools to build and run ILLGOL programs.
+See the welcome message, shown after FreeDOS
+boots, for more details.
+
+If v86 doesn't work in your browser, you can
+[download the disk image](https://catseye.tc/distfiles/freedos-1.1-illgol-floppy-0.1.img)
+and use it in an emulator such as [QEMU][] or [DOSBox][]
+or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+a floppy disk somehow...
+
 ### Matchbox
 
 *   installation-of: [Matchbox][]
