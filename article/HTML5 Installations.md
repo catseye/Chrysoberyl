@@ -255,7 +255,7 @@ You may wish to read the definition of this cellular automaton:
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
 *   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
-*   launch-command: launch({ width: 800, height: 600, container: document.getElementById('installation'), controlPanel: document.getElementById('control_panel') });
+*   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
 
@@ -267,7 +267,7 @@ When a revolution occurs, every cyclobot picks a new cyclobot to follow
 at random.
 
 In case the cyclobots leave the viewable area of the playfield,
-dragging on the playfield will scroll it.
+dragging on the playfield will scroll it.  (Possibly not working right now)
 
 ### Jaccia
 
