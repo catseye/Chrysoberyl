@@ -551,6 +551,14 @@
         "releases": [],
         "reponame": "Chrysoberyl"
     },
+    "Chzrxl distribution": {
+        "entries": [
+            "Chzrxl"
+        ],
+        "fixed-tag": "6247279",
+        "releases": [],
+        "reponame": "Chzrxl"
+    },
     "Circute distribution": {
         "entries": [
             "Circute"
@@ -629,7 +637,7 @@
         "entries": [
             "Cyclobots"
         ],
-        "fixed-tag": "b974646",
+        "fixed-tag": "9f848fda",
         "releases": [],
         "reponame": "Cyclobots"
     },

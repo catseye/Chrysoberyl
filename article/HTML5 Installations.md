@@ -199,9 +199,9 @@ You may wish to read the definition of this cellular automaton:
 *   installed-implementation: chzrxl.js
 *   interactive: true
 *   animated: true
-*   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/html5-gewgaws/chzrxl/chzrxl.js
-*   script-root: ../modules/html5-gewgaws/chzrxl/yoob/
+*   mediums: [Javascript][], [HTML5][], [PixiJS][]
+*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
+*   launch-command: launch({ width: 500, height: 500, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   online @ [catseye.tc](https://catseye.tc/ix/Chzrxl)
 
