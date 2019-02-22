@@ -57,13 +57,8 @@ despite its minimalism, it is finite-automata-complete; it is also the
 *   type: Automaton
 *   inception-date: ca 1994
 *   genre: Desk toy
-*   reference-distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference-distribution: [Cyclobots distribution](https://catseye.tc/distribution/Cyclobots_distribution)
 *   online @ [catseye.tc](https://catseye.tc/installation/Cyclobots)
-
-Also
-
-*   reference implementation name: cyclobots.js
-*   reference implementation license: Freely Redistributable
 
 Cyclobots is an automaton that consists of a number of little virtual
 "turtle robots" called "cyclobots".  Each cyclobot moves with a constant
@@ -76,13 +71,8 @@ patterns.  The simplest of these is just a rotating circle, but
 more complex, [trefoil](http://en.wikipedia.org/wiki/Trefoil_knot)-like
 patterns are common.
 
-*   implementation name: Cyclobots (Visual Basic)
-*   implementation license: Freely Redistributable
-*   implementation language: Visual Basic
-*   implementation platform: Windows 3.1
-
 I originally conceived of this automaton, calling it
-an "interactive desktop toy", in or around 1994, and implemented
+an "interactive desktop toy", in 1994, and implemented
 it immediately in Visual Basic.  I remember the year because I wrote the
 first implementation of [SMETANA][] in Visual Basic at about the same time.
 
@@ -90,19 +80,18 @@ The original implementation had a few features which are not present (yet)
 in the HTML5 version: cyclobots could collide with each other, and the user
 could use the mouse to attract/repel them from a chosen point.
 
-#### Reference Implementation: Cyclobots (Visual Basic)
+#### Reference Implementation: cyclobots.js
+
+*   license: Public Domain
+*   host-language: Javascript
+*   host-platform: HTML5
+*   development-stage: mature
+
+#### Implementation: Cyclobots (Visual Basic)
 
 *   license: Freely Redistributable
 *   host-language: Visual Basic
 *   development-stage: lost
-*   interface: GUI
-
-#### Implementation: cyclobots.js
-
-*   license: Freely Redistributable
-*   host-language: Javascript
-*   host-platform: HTML5
-*   development-stage: mature
 
 ### RUBE
 
@@ -437,12 +426,8 @@ Jacciata is a variant of [Jaccia][] which finds the shortest path.
 *   type: Automaton
 *   inception-date: 2013
 *   genre: Desk toy
-*   reference-distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference-distribution: [Chzrxl distribution](https://catseye.tc/distribution/Chzrxl_distribution)
 *   online @ [catseye.tc](https://catseye.tc/installation/Chzrxl)
-
-Also
-
-*   reference implementation name: chzrxl.js
 
 "Chzrxl, the Living Inkblot."  Or is it a sort of self-attracting
 lava lamp?
