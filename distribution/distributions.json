@@ -1706,6 +1706,11 @@
                 "revision": "2018.1203",
                 "url": "https://catseye.tc/distfiles/marysue-1.0-2018.1203.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2019.0222",
+                "url": "https://catseye.tc/distfiles/marysue-1.0-2019.0222.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "MARYSUE",
@@ -2300,6 +2305,11 @@
                 "revision": "2017.0502",
                 "url": "https://catseye.tc/distfiles/situ-sol-0.1-2017.0502.zip",
                 "version": "0.1"
+            },
+            {
+                "revision": "2019.0222",
+                "url": "https://catseye.tc/distfiles/situ-sol-1.0-2019.0222.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "SITU-SOL",

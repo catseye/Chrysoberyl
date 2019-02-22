@@ -98,7 +98,6 @@ def main(args):
     zip_filename = '{}.zip'.format(base_projectame)
     print(repr((v_maj, v_min, r_maj, r_min, zip_filename)))
     dest_dir = os.path.join(os.getenv('HOME'), 'canonical', 'mine', 'catseye.tc', 'distfiles')
-    dest_dir = os.path.join(os.getenv('HOME'), 'distfiles')
     if not os.path.exists(dest_dir):
         raise IOError("{} not available".format(dest_dir))
     full_filename = os.path.join(dest_dir, zip_filename)

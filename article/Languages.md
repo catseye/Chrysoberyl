@@ -437,8 +437,6 @@ a strict type system, and some unusual rules for parameters and return values.
 
 ### ILLGOL
 
-![An example session with ILLGOL](https://static.catseye.tc/images/screenshots/ILLGOL.png)
-
 *   type: Programming Language
 *   inception-date: ca Apr 2000
 *   genre: Joke language
