@@ -447,6 +447,7 @@ a strict type system, and some unusual rules for parameters and return values.
 *   paradigms: Imperative
 *   reference-distribution: [Illgol: Grand Mal](https://catseye.tc/distribution/Illgol:_Grand_Mal)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ILLGOL)
+*   online @ [catseye.tc](https://catseye.tc/installation/ILLGOL)
 
 Sample program:
 

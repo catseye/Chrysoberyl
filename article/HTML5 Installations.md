@@ -417,7 +417,7 @@ it. Or click "Edit" to modify an example program, or create your own program.
 ### ILLGOL
 
 *   installation-of: [ILLGOL][]
-*   installed-implementation: illgol
+*   installed-implementation: illgol.exe
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
@@ -1339,6 +1339,7 @@ Use the navigation buttons to traverse the space of the work.
 [Etcha]: ../article/Languages.md#etcha
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
+[ILLGOL]: ../article/Languages.md#illgol
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
