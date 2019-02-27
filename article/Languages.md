@@ -2771,6 +2771,34 @@ I had not been so concerned about quoting at the time.
 *   implementation-type: interpreter
 *   host-language: [Python][]
 
+### Wanda
+
+*   type: Programming Language
+*   inception-date: Feb 27, 2019
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: believed Turing-complete
+*   paradigms: Concatenative (nominally), String-rewriting
+*   reference-distribution: [Wanda distribution](https://catseye.tc/distribution/Wanda_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wanda)
+
+Sample program:
+
+    $
+    : 0 $ fact -> $ 1 ;
+    : $ fact -> $ dup 1 - fact * ;
+    5 fact
+
+Wanda is a Forth-like, "concatenative" programming language that's arguably not
+concatenative at all, nor even "stack-based", because it's based on a
+string-rewriting semantics.
+
+#### Reference Implementation: wanda.lua
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Lua][]
+
 Works in Progress
 -----------------
 
