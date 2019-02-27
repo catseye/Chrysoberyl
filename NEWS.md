@@ -5,6 +5,22 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Our first esolang of 2019: Wanda
+
+*   summary: Our first esolang of 2019: [Wanda](https://catseye.tc/installation/Wanda).
+*   date: Wed, 27 Feb 2019 11:52:33 GMT
+
+We present [Wanda](https://catseye.tc/installation/Wanda), a Forth-like, "concatenative"
+programming language that's arguably not concatenative at all, nor even "stack-based",
+because it's based on a string-rewriting semantics.
+
+Wanda was actually started in 2009, but never really got off the ground.  But it
+never really went away, either, so here we are, ten years later.
+
+Ah, also, are you slightly surprised, or even alarmed, to hear that this is only our
+*first* esolang of 2019?  It's true, there will be others this year (weather permitting).
+But you'll have to wait for those.
+
 ### git.catseye.tc and other website improvements
 
 *   summary: [git.catseye.tc](https://git.catseye.tc/) and other website improvements.
