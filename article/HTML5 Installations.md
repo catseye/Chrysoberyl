@@ -571,9 +571,13 @@ a floppy disk somehow...
 *   javascript-urls: https://catseye.tc/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
 
-Experimental.  Work-in-progress.  This installation probably doesn't work yet.
+This is an online installation of Velo.
+
+It is running the Lua implementation of Velo (`velo.lua`),
+running under Fengari, a Lua VM written in Javascript.
 
 ### Whothm
 
