@@ -569,6 +569,7 @@ a floppy disk somehow...
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
 *   javascript-urls: https://catseye.tc/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch();
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
 
@@ -1318,6 +1319,7 @@ Use the navigation buttons to traverse the space of the work.
 [6502 machine code]: ../article/Project%20Dependencies.md#6502
 [x86 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [v86]: ../article/Project%20Dependencies.md#ibm-pc-compatible
+[Fengari]: https://fengari.io/
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
 [HTML5]: https://www.w3.org/TR/html5/
 [Python]: ../article/Project%20Dependencies.md#python
@@ -1364,6 +1366,7 @@ Use the navigation buttons to traverse the space of the work.
 [SNUSP]: http://esolangs.org/wiki/SNUSP
 [Sceql]: http://esolangs.org/wiki/Sceql
 [Shelta]: ../article/Languages.md#shelta
+[Velo]: ../article/Languages.md#velo
 [Whothm]: ../article/Languages.md#whothm
 [Wunnel]: ../article/Languages.md#wunnel
 [Ypsilax]: ../article/Languages.md#ypsilax
