@@ -561,6 +561,19 @@ and use it in an emulator such as [QEMU][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
+### Velo
+
+*   installation-of: [Velo][]
+*   installed-implementation: velo.lua
+*   interactive: true
+*   animated: false
+*   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
+*   javascript-urls: https://catseye.tc/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   launch-command: launch();
+*   online @ [catseye.tc](https://catseye.tc/ix/Velo)
+
+Experimental.  Work-in-progress.  This installation probably doesn't work yet.
+
 ### Whothm
 
 *   installation-of: [Whothm][]
