@@ -41,7 +41,13 @@ interactive
 
 *   optional: true
 
-interactive
+List of URLs of Javascript scripts that will be loaded for this installation.
+
+### lua-urls
+
+*   optional: true
+
+List of URLs of Lua scripts that will be loaded for this installation.
 
 ### script-root
 
