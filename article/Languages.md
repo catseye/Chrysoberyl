@@ -2208,6 +2208,7 @@ fairly neatly to the definition of a Turing machine, so it is almost certainly
 *   influences: Ruby
 *   paradigms: Object-oriented
 *   reference-distribution: [Velo distribution](https://catseye.tc/distribution/Velo_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Velo)
 
 Sample program:
 
