@@ -254,7 +254,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
+*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
 *   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
@@ -568,7 +568,7 @@ a floppy disk somehow...
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: https://catseye.tc/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/index.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/index.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
