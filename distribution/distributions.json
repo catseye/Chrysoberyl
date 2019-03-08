@@ -3071,6 +3071,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/wanda-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2019.0308",
+                "url": "https://catseye.tc/distfiles/wanda-1.0-2019.0308.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Wanda",
