@@ -579,6 +579,24 @@ This is an online installation of Velo.
 It is running the Lua implementation of Velo (`velo.lua`),
 running under Fengari, a Lua VM written in Javascript.
 
+### Wanda
+
+*   installation-of: [Wanda][]
+*   installed-implementation: wanda.lua
+*   interactive: true
+*   animated: false
+*   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
+*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
+*   lua-urls: ../modules/Wanda/src/wanda.lua
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
+*   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
+
+This is an online installation of Wanda.
+
+It is running the Lua implementation of Wanda (`wanda.lua`),
+running under Fengari, a Lua VM written in Javascript.
+
 ### Whothm
 
 *   installation-of: [Whothm][]
