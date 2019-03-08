@@ -2782,6 +2782,7 @@ I had not been so concerned about quoting at the time.
 *   paradigms: Concatenative (nominally), String-rewriting
 *   reference-distribution: [Wanda distribution](https://catseye.tc/distribution/Wanda_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wanda)
+*   online @ [catseye.tc](https://catseye.tc/installation/Wanda)
 
 Sample program:
 
