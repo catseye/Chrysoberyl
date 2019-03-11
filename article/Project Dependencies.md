@@ -65,12 +65,17 @@ version numbers they have been tested on, see [The Cat's Eye Technologies Platfo
 
 *   specification-link: [Lua.org](http://lua.org/)
 
+Lua is a lightweight scripting language.
+
 Our Lua projects (barring any that may be in archived projects) are written in Lua 5.1
 and tested with Lua 5.1.4.
 
 Note that the 5.1.x series of Lua is not generally compatible with the 5.0.x series.
 (On the other hand, our 5.1 code appears compatible with 5.2 and 5.3, but we have not
 audited it.)
+
+For running Lua programs on a web page, we use [Fengari](https://fengari.io/), a Lua
+VM written in Javascript.
 
 ### Scheme
 

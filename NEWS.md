@@ -5,12 +5,53 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Cyclobots, Chzrxl, Wanda, Velo, and ILLGOL installations
+
+*   summary: [Cyclobots](https://catseye.tc/installation/Cyclobots), [Chzrxl](https://catseye.tc/installation/Chzrxl), [Wanda](https://catseye.tc/installation/Wanda), [Velo](https://catseye.tc/installation/Velo), and [ILLGOL](https://catseye.tc/installation/ILLGOL) installations updated.
+*   date: Mon, 11 Mar 2019 11:51:31 GMT
+
+Lots of updates to installations.
+
+First, our little dynamical systems [Cyclobots](https://catseye.tc/node/Cyclobots)
+and [Chzrxl](https://catseye.tc/node/Chzrxl) have had their implementations
+re-fitted to use [PixiJS](http://pixijs.com/).  PixiJS uses WebGL for display
+when it is available, so these installations now have the potential for having much nicer
+visuals than the previous versions.  It's only minimally leveraged at this point —
+you can select "Blurred" or "Noisy" visuals — but the potential is there, I tell you.
+
+In the process of switching over to PixiJS, these two projects have
+been given their own reference distributions instead of residing in the
+[HTML5-Gewgaws distribution](https://catseye.tc/distributions/HTML5-Gewgaws%20distribution)
+alongside everything else.
+
+You can see these in action here:
+**[Cyclobots](https://catseye.tc/installation/Cyclobots)** and
+**[Chzrxl](https://catseye.tc/installation/Chzrxl)**.
+
+Second, two of our languages that are implemented in [Lua](http://catseye.tc/node/Lua),
+namely [Wanda](https://catseye.tc/node/Wanda) and [Velo](https://catseye.tc/node/Velo),
+have been made to run on a web page thanks to
+[Fengari](https://fengari.io/), an implementation of the Lua VM in Javascript.
+
+So, you can try these out online here:
+**[Wanda](https://catseye.tc/installation/Wanda)** and
+**[Velo](https://catseye.tc/installation/Velo)**.
+
+Finally, a distribution of [ILLGOL](https://catseye.tc/node/ILLGOL) running under
+[FreeDOS](https://catseye.tc/node/FreeDOS) is now installed online,
+under [v86](https://catseye.tc/node/v86), an emulator for IBM-compatible PC architecture
+in Javascript.  (We actually built this distribution a while ago, but at the time,
+v86 wasn't able to run it correctly.  Now it is.  Kudos to all v86 contributors.)
+
+You can try it out online here:
+**[ILLGOL](https://catseye.tc/installation/ILLGOL)**.
+
 ### Our first esolang of 2019: Wanda
 
-*   summary: Our first esolang of 2019: [Wanda](https://catseye.tc/installation/Wanda).
+*   summary: Our first esolang of 2019: [Wanda](https://catseye.tc/node/Wanda).
 *   date: Wed, 27 Feb 2019 11:52:33 GMT
 
-We present [Wanda](https://catseye.tc/installation/Wanda), a Forth-like, "concatenative"
+We present [Wanda](https://catseye.tc/node/Wanda), a Forth-like, "concatenative"
 programming language that's arguably not concatenative at all, nor even "stack-based",
 because it's based on a string-rewriting semantics.
 
