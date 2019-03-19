@@ -9,7 +9,7 @@ if __name__ == '__main__':
     argparser.add_argument('filenames', metavar='FILENAME', type=str, nargs='+',
                            help='The files to put in the JSON.  If a file is listed '
                                 'more than once, it will only be included the first time.')
-    argparser.add_argument('-v', '--varname', metavar='VARNAME', type=str, default='files',
+    argparser.add_argument('-v', '--varname', metavar='VARNAME', type=str, default='examplePrograms',
                            help='The Javascript variable to assign the JSON value to.')
     options = argparser.parse_args(sys.argv[1:])
 
@@ -22,8 +22,8 @@ if __name__ == '__main__':
         seen.add(filename)
         with open(filename, 'r') as f:
             data.append({
-                'text': filename,
-                'value': f.read()
+                'filename': filename,
+                'contents': f.read()
             })
 
     sys.stdout.write("""\
