@@ -519,6 +519,20 @@ for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
 
+### Quylthulg
+
+*   installation-of: [Quylthulg][]
+*   installed-implementation: qlzqqlzuup.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/hastec/quylthulg-1.0-2019.0321/qlzqqlzuup.js
+*   launch-command: 
+*   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
+
+This is a web-based installation of the Quylthulg programming
+language.
+
 ### Shelta
 
 *   installation-of: [Shelta][]
@@ -1383,6 +1397,7 @@ Use the navigation buttons to traverse the space of the work.
 [PATH]: http://esolangs.org/wiki/PATH
 [QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
+[Quylthulg]: ../article/Languages.md#quylthulg
 [REDGREEN]: ../article/Automata.md#redgreen
 [SMETANA]: ../article/Automata.md#smetana
 [SNUSP]: http://esolangs.org/wiki/SNUSP
