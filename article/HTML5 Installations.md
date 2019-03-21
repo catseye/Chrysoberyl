@@ -180,6 +180,7 @@ For more information on this automaton and its implementation, see
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/braktif/script/braktif.js,../modules/braktif/eg/index.js,../modules/braktif/demo/braktif-launcher.js
 *   script-root: ../modules/braktif/demo/
+*   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Braktif)
 
 This is the [Braktif][] cellular automaton, compiled to Javascript
@@ -232,7 +233,7 @@ organic-seeming emergent motion.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/circute/eg/index.js,../modules/circute/demo/circute-launcher.js
 *   script-root: ../modules/circute/demo/
-*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Circute)
 
 This is the [Circute][] cellular automaton, compiled to Javascript
@@ -278,7 +279,7 @@ dragging on the playfield will scroll it.  (Possibly not working right now)
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/jaccia/eg/index.js,../modules/jaccia/demo/jaccia-launcher.js
 *   script-root: ../modules/jaccia/demo/
-*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jaccia)
 
 This is the [Jaccia][] cellular automaton, compiled to Javascript
@@ -302,7 +303,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/jaccia/eg/index.js,../modules/jaccia/demo/jacciata-launcher.js
 *   script-root: ../modules/jaccia/demo/
-*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; }
+*   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jacciata)
 
 This is the [Jacciata][] cellular automaton, compiled to Javascript
@@ -326,6 +327,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/redgreen/script/redgreen.js,../modules/redgreen/eg/index.js,../modules/redgreen/demo/redgreen-launcher.js
 *   script-root: ../modules/redgreen/demo/
+*   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/REDGREEN)
 
 This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
@@ -692,7 +694,7 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Wunnel/impl/wunnel.js/src/wunnel-launcher.js,../modules/Wunnel/eg/index.js
 *   script-root: ../modules/Wunnel/impl/wunnel.js/src/
-*   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; }
+*   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Wunnel)
 
 This is an HTML5-based implementation of the
