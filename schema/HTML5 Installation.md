@@ -97,6 +97,13 @@ A command you can run locally to run the given JAR.
 
 v86-floppy-image-url
 
+### inline-description
+
+* optional: true
+
+Boolean indicating if the installation's description should be displayed
+on the page alongside the installation.
+
 ### online
 
 *   optional: true

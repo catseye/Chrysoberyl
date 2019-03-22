@@ -530,10 +530,24 @@ console, and the evaluation process never finishing.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/hastec/quylthulg-1.0-2019.0321/qlzqqlzuup.js
 *   launch-command: console.log(1);
+*   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
 
-This is a web-based installation of the Quylthulg programming
-language.
+This is a web-based interpreter for the esoteric
+programming language [Quylthulg][].
+
+Technically, it is `Qlzqqlzuup.hs` (the reference implementation
+of Quylthulg, written in [Haskell][],) compiled to [Javascript][]
+by the [hastec][] compiler, running in an [HTML5][] document.
+
+Select a program from the drop-down selection box
+and click "Run" to run it.  You can also edit
+the program before running it.  Or
+you could clear the textbox and write an entirely
+new program there and run it.
+
+You might want to read
+[the documentation for Quylthulg](https://catseye.tc/view/Quylthulg/README.markdown).
 
 ### Shelta
 
@@ -587,12 +601,24 @@ a floppy disk somehow...
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/index.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
 
-This is an online installation of Velo.
+This is a web-based interpreter for the [Velo][] programming language.
 
-It is running the Lua implementation of Velo (`velo.lua`),
-running under Fengari, a Lua VM written in Javascript.
+Technically, it is `velo.lua` (an implementation
+of Velo in [Lua][]) running under [Fengari][]
+(an implementation of the [Lua][] VM in [Javascript][])
+running in an [HTML5][] document.
+
+Select a program from the drop-down selection box
+and click "Run" to run it.  You might want to edit
+the program in the textbox before running it.  Or
+you could clear the textbox and write an entirely
+new program there and run it.
+
+You might want to read
+[the documentation for Velo](https://catseye.tc/view/Velo/README.markdown).
 
 ### Wanda
 
@@ -716,21 +742,30 @@ will consume them in order, and continue running.
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
 *   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/index.js,../modules/ZOWIE/eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
+*   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
 
-This is an [HTML5][]-based interpreter for the
-esoteric programming language [ZOWIE][].
-The reference implementation of the interpreter, written in [Python][],
-is itself being interpreted by [Skulpt][], written in [Javascript][].
+This is a web-based interpreter for the esoteric
+programming language [ZOWIE][].
 
-Instructions:
+Technically, it is `zowie.py` (the reference implementation
+of ZOWIE, written in [Python][],) running under [Skulpt][]
+(a [Python][] interpreter written in [Javascript][])
+running in an [HTML5][] document.
+
+Select a program from the drop-down selection box
+and click "Run" to run it.  You can also edit
+the program before running it.  Or
+you could clear the textbox and write an entirely
+new program there and run it.
+
+You might want to read
+[the documentation for ZOWIE](https://catseye.tc/view/ZOWIE/README.markdown).
+
+Note:
 
 Input is not yet supported, and errors are not yet handled
 in a user-friendly way, but it does work, as the example sources show.
-
-Select an example program from the dropdown box, then click "Run" to
-run it.  Or edit an example program in the text box, or create your own
-program.
 
 ### A Minimalist Critique of Tetris
 
