@@ -56,6 +56,9 @@
     "hugs": {
         "url": "http://www.haskell.org/hugs/"
     },
+    "Haste": {
+        "url": "https://haste-lang.org/"
+    },
     "Unknown language": {
         "url": "https://en.wikipedia.org/wiki/Linear_A"
     },
@@ -88,6 +91,9 @@
     },
     "lua 5.0.3": {
         "url": "http://www.lua.org/versions.html#5.0"
+    },
+    "Fengari": {
+        "url": "https://fengari.io/"
     },
     "perl 5.8.8": {
         "url": "http://www.perl.org/"

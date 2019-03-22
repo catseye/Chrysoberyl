@@ -1422,7 +1422,6 @@ Use the navigation buttons to traverse the space of the work.
 [Cyclobots]: ../article/Automata.md#cyclobots
 [DOSBox]: ../article/Project%20Dependencies.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
-[Fengari]: https://fengari.io/
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
 [Haste]: https://haste-lang.org/
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
