@@ -529,7 +529,7 @@ console, and the evaluation process never finishing.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/hastec/quylthulg-1.0-2019.0321/qlzqqlzuup.js
-*   launch-command: 
+*   launch-command: console.log(1);
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
 
 This is a web-based installation of the Quylthulg programming
@@ -587,7 +587,6 @@ a floppy disk somehow...
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/index.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
 
 This is an online installation of Velo.
@@ -605,7 +604,6 @@ running under Fengari, a Lua VM written in Javascript.
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
 *   lua-urls: ../modules/Wanda/src/wanda.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
 
 This is an online installation of Wanda.
@@ -718,7 +716,6 @@ will consume them in order, and continue running.
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
 *   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/index.js,../modules/ZOWIE/eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
-*   style: #installation { margin: auto 1em; } #output { border: 1px solid blue; }
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
 
 This is an [HTML5][]-based interpreter for the
