@@ -537,17 +537,18 @@ This is a web-based interpreter for the esoteric
 programming language [Quylthulg][].
 
 Technically, it is `Qlzqqlzuup.hs` (the reference implementation
-of Quylthulg, written in [Haskell][],) compiled to [Javascript][]
+of Quylthulg, written in [Haskell][]) compiled to [Javascript][]
 by the [Haste][] compiler, running in an [HTML5][] document.
 
-Select a program from the drop-down selection box
-and click "Run" to run it.  You can also edit
-the program before running it.  Or
-you could clear the textbox and write an entirely
-new program there and run it.
+Instructions:
 
-You might want to read
-[the documentation for Quylthulg](https://catseye.tc/view/Quylthulg/README.markdown).
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Quylthulg programming language](https://catseye.tc/view/Quylthulg/README.markdown).
 
 ### Shelta
 
@@ -611,14 +612,15 @@ of Velo in [Lua][]) running under [Fengari][]
 (an implementation of the [Lua][] VM in [Javascript][])
 running in an [HTML5][] document.
 
-Select a program from the drop-down selection box
-and click "Run" to run it.  You might want to edit
-the program in the textbox before running it.  Or
-you could clear the textbox and write an entirely
-new program there and run it.
+Instructions:
 
-You might want to read
-[the documentation for Velo](https://catseye.tc/view/Velo/README.markdown).
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Velo programming language](https://catseye.tc/view/Velo/README.markdown).
 
 ### Wanda
 
@@ -630,12 +632,25 @@ You might want to read
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
 *   lua-urls: ../modules/Wanda/src/wanda.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
 
-This is an online installation of Wanda.
+This is a web-based interpreter for the [Wanda][] programming language.
 
-It is running the Lua implementation of Wanda (`wanda.lua`),
-running under Fengari, a Lua VM written in Javascript.
+Technically, it is `wanda.lua` (the reference implementation
+of Wanda, in [Lua][]) running under [Fengari][]
+(an implementation of the [Lua][] VM in [Javascript][])
+running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Wanda programming language](https://catseye.tc/view/Wanda/README.md).
 
 ### Whothm
 
@@ -753,19 +768,18 @@ of ZOWIE, written in [Python][],) running under [Skulpt][]
 (a [Python][] interpreter written in [Javascript][])
 running in an [HTML5][] document.
 
-Select a program from the drop-down selection box
-and click "Run" to run it.  You can also edit
-the program before running it.  Or
-you could clear the textbox and write an entirely
-new program there and run it.
+Note, input is not yet supported, and errors are not yet handled
+in a user-friendly way.
 
-You might want to read
-[the documentation for ZOWIE](https://catseye.tc/view/ZOWIE/README.markdown).
+Instructions:
 
-Note:
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
 
-Input is not yet supported, and errors are not yet handled
-in a user-friendly way, but it does work, as the example sources show.
+You might also want to read
+[the description of the ZOWIE programming language](https://catseye.tc/view/ZOWIE/README.markdown).
 
 ### A Minimalist Critique of Tetris
 
