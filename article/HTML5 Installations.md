@@ -538,7 +538,7 @@ programming language [Quylthulg][].
 
 Technically, it is `Qlzqqlzuup.hs` (the reference implementation
 of Quylthulg, written in [Haskell][],) compiled to [Javascript][]
-by the [hastec][] compiler, running in an [HTML5][] document.
+by the [Haste][] compiler, running in an [HTML5][] document.
 
 Select a program from the drop-down selection box
 and click "Run" to run it.  You can also edit
@@ -1422,7 +1422,9 @@ Use the navigation buttons to traverse the space of the work.
 [Cyclobots]: ../article/Automata.md#cyclobots
 [DOSBox]: ../article/Project%20Dependencies.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
+[Fengari]: https://fengari.io/
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
+[Haste]: https://haste-lang.org/
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [ILLGOL]: ../article/Languages.md#illgol
 [Jaccia]: ../article/Automata.md#jaccia
