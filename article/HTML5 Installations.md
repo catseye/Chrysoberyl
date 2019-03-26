@@ -470,6 +470,35 @@ This [Javascript][] implementation of Matchbox uses the *Web Workers*
 facility of your browser to run the evaluation process.  So, if your
 browser does not support Web Workers, it may not function correctly.
 
+### Pail
+
+*   installation-of: [Pail][]
+*   installed-implementation: pail.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/pail-hastec-launcher.js,https://static.catseye.tc/generated-js/pail-1.0-2019.0326/pail.js
+*   launch-command: console.log(1);
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Pail)
+
+This is a web-based interpreter for the esoteric
+programming language [Pail][].
+
+Technically, it is `Pail.lhs` (the reference implementation
+of Pail, written in Literate [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Pail programming language](https://catseye.tc/view/Pail/README.markdown).
+
 ### Pixley
 
 *   installation-of: [Pixley][]
@@ -1443,6 +1472,7 @@ Use the navigation buttons to traverse the space of the work.
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
+[Pail]: ../article/Languages.md#pail
 [PATH]: http://esolangs.org/wiki/PATH
 [QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
