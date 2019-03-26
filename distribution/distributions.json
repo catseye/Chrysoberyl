@@ -1992,6 +1992,11 @@
                 "revision": "2016.0304",
                 "url": "https://catseye.tc/distfiles/pail-1.0-2016.0304.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2019.0326",
+                "url": "https://catseye.tc/distfiles/pail-1.0-2019.0326.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Pail",
