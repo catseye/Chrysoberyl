@@ -2123,6 +2123,11 @@
                 "revision": "2019.0321",
                 "url": "https://catseye.tc/distfiles/quylthulg-1.0-2019.0321.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2019.0326",
+                "url": "https://catseye.tc/distfiles/quylthulg-1.0-2019.0326.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Quylthulg",
