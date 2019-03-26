@@ -528,7 +528,7 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/hastec/quylthulg-1.0-2019.0321/qlzqqlzuup.js
+*   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/generated-js/quylthulg-1.0-2019.0326/qlzqqlzuup.js
 *   launch-command: console.log(1);
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
