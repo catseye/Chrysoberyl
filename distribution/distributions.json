@@ -3036,6 +3036,11 @@
                 "revision": "2019.0306",
                 "url": "https://catseye.tc/distfiles/velo-0.1-2019.0306.zip",
                 "version": "0.1"
+            },
+            {
+                "revision": "2019.0326",
+                "url": "https://catseye.tc/distfiles/velo-0.1-2019.0326.zip",
+                "version": "0.1"
             }
         ],
         "reponame": "Velo",
