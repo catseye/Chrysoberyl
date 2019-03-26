@@ -599,7 +599,7 @@ a floppy disk somehow...
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.json.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: true
