@@ -398,6 +398,35 @@ Instructions:
 Click "Start" to run the supplied example program.  Or click "Edit" to
 modify it, and create your own program.
 
+### Flobnar
+
+*   installation-of: [Flobnar][]
+*   installed-implementation: flobnar.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Flobnar/eg/examplePrograms.jsonp.js,../modules/Flobnar/demo/flobnar-hastec-launcher.js,https://static.catseye.tc/generated-js/flobnar-1.0-2019.0328/flobnar.js
+*   launch-command: console.log(1);
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
+
+This is a web-based interpreter for the esoteric
+programming language [FLobnar][].
+
+Technically, it is `Flobnar.hs` (the reference implementation
+of Flobnar, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Flobnar programming language](https://catseye.tc/view/Flobnar/README.markdown).
+
 ### Gemooy
 
 *   installation-of: [Gemooy][]
@@ -1465,6 +1494,7 @@ Use the navigation buttons to traverse the space of the work.
 [Cyclobots]: ../article/Automata.md#cyclobots
 [DOSBox]: ../article/Project%20Dependencies.md#ms-dos
 [Etcha]: ../article/Languages.md#etcha
+[Flobnar]: ../article/Languages.md#flobnar
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
 [Haste]: https://haste-lang.org/
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
