@@ -2027,6 +2027,9 @@ while turning several concepts on their heads: use pairs instead of lists,
 quote by default instead of eval by default, and allow not just values but also
 names of bindings to be expressed.
 
+"Pail is an acceptable Bizaaro[sic]-Pixley" is a reference to an article
+called "Ruby is an acceptable Lisp".
+
 #### Reference Implementation: Pail.lhs
 
 *   license: BSD license
