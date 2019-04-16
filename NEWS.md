@@ -5,6 +5,41 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### SixtyPical 0.19 released
+
+*   summary: Version 0.19 of [SixtyPical](https://catseye.tc/node/SixtyPical) has been released.
+*   date: Tue, 16 Apr 2019 12:21:59 GMT
+
+Sometimes you go down a rabbit hole because it opens up under your feet.  That's
+what it felt like this time, anyway; I hadn't thought about
+[SixtyPical](https://catseye.tc/node/SixtyPical) for months, and then suddenly
+I find myself rewriting half of the compiler's internals.
+
+The big thing, I guess, is that I realized the language doesn't need separate
+`buffer` and `table` types; only let tables have more than 256 entries, but
+say only the first 256 can be accessed by index; and let `pointer`s point into
+tables, and say that is how you access entries past the 256th.  Then you can
+just get rid of `buffer` completely.  Which is what I did.
+
+And then it because fairly obvious that "which table is this pointer pointing
+into?" could be tracked in the analysis context just like all the other things
+we're tracking, and after some consideration I decided a lexically-scoped
+block for it would be nice, and so the language now has `point ... into` blocks.
+
+Doing these introduced or revealed a bug whose root cause seemed to simply be
+that hand-rolling immutable objects in Python (or rather, objects that you
+would like to consistently pretend are immutable) is a pain in the neck.
+Addressing that problem triggered another wave of changes, wherein the internal
+representation of type information was refactored into a single context
+(the symbol table) shared amongst the phases of the compiler, in which `namedtuple`s
+are stored.  It was a lot of refactoring, but the massive test suite helped
+keep things together, and it was quite satisfying being able to delete the
+`__hash__` methods from objects, knowing they would now be given appropriate
+ones under the hood.  And that fixed the bug.
+
+Finally, I thought the `loadngo.sh` script was getting a bit grotty, so I
+incorporated the "load-and-go" mechanism into the main `sixtypical` script itself.
+
 ### Cyclobots, Chzrxl, Wanda, Velo, and ILLGOL installations
 
 *   summary: [Cyclobots](https://catseye.tc/installation/Cyclobots), [Chzrxl](https://catseye.tc/installation/Chzrxl), [Wanda](https://catseye.tc/installation/Wanda), [Velo](https://catseye.tc/installation/Velo), and [ILLGOL](https://catseye.tc/installation/ILLGOL) installations updated.
