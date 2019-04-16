@@ -2628,6 +2628,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/sixtypical-0.18.zip",
                 "version": "0.18"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/sixtypical-0.19.zip",
+                "version": "0.19"
             }
         ],
         "reponame": "SixtyPical",
