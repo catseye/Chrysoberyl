@@ -1837,6 +1837,15 @@
         "reponame": "Maxixe",
         "tag-style": "new"
     },
+    "Maze Clouds distribution": {
+        "entries": [
+            "Maze Clouds"
+        ],
+        "reference": true,
+        "releases": [],
+        "reponame": "Maze-Clouds",
+        "tag-style": "new"
+    },
     "Muriel distribution": {
         "entries": [
             "muriel.pl"

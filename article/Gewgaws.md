@@ -254,6 +254,15 @@ real-time.  Can also be used on the command-line.
 
 Uses a 2D Markov chain to generate new glyphs from a character set.
 
+### Maze Clouds
+
+*   inception date: Sep 2017
+*   reference distribution: [Maze Clouds distribution](https://catseye.tc/distribution/Maze_Clouds_distribution)
+*   reference implementation name: maze-clouds.py
+*   online @ [catseye.tc](https://catseye.tc/installation/Maze_Clouds)
+
+A simple generative technique to generate mazy, cloudy forms.
+
 ### Multicolouralism
 
 ![preview](https://static.catseye.tc/images/screenshots/Multicolouralism.jpg)
