@@ -256,6 +256,8 @@ Uses a 2D Markov chain to generate new glyphs from a character set.
 
 ### Maze Clouds
 
+![preview](https://catseye.tc/modules/Maze-Clouds/images/cumulus-violet.png)
+
 *   inception date: Sep 2017
 *   reference distribution: [Maze Clouds distribution](https://catseye.tc/distribution/Maze_Clouds_distribution)
 *   reference implementation name: maze-clouds.py
