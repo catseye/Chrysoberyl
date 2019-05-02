@@ -1,8 +1,6 @@
 Chrysoberyl TODO
 ================
 
-Restore C64-Demo-Depot distribution, but as discontinued.
-
 "discontinued" means: still available but available in a different distribution
 (often The Dipple or whatever.)
 

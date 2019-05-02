@@ -428,6 +428,21 @@
         ],
         "reponame": "Burro"
     },
+    "C64 Demo Depot distribution": {
+        "discontinued": true,
+        "releases": [
+            {
+                "revision": "2012.0826",
+                "url": "https://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0826.zip",
+                "version": "1.1"
+            },
+            {
+                "revision": "2012.0828",
+                "url": "https://catseye.tc/distfiles/c64-demo-depot-1.1-2012.0828.zip",
+                "version": "1.1"
+            }
+        ]
+    },
     "Cabra distribution": {
         "entries": [
             "Cabra"

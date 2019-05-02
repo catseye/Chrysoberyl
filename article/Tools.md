@@ -346,6 +346,10 @@ of the VIC-II chip: the colour of the border of the screen is inverted,
 but only in the middle part of the screen.  Includes well-commented source
 in 6502 assembly language.
 
+Was previously distributed in the [Ribos distribution](https://catseye.tc/distribution/Ribos_distribution)
+and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
+which have both been discontinued.
+
 ### The PETulant Cursor
 
 *   summary: A tiny C64 "display hack"
@@ -354,6 +358,10 @@ in 6502 assembly language.
 *   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
 
 A tiny (44 byte) "display hack" for the Commodore 64.
+
+Was previously distributed in [The PETulant Cursor distribution](https://catseye.tc/distribution/The_PETulant_Cursor_distribution)
+and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
+which have both been discontinued.
 
 Archival Tools
 --------------
