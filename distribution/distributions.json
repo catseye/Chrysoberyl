@@ -2663,12 +2663,8 @@
         "tag-style": "new"
     },
     "Space Madness distribution": {
-        "entries": [
-            "Space Madness"
-        ],
-        "fixed-tag": "f5181d3",
+        "discontinued": true,
         "releases": [],
-        "reponame": "Space-Madness"
     },
     "Specs on Spec distribution": {
         "entries": [
