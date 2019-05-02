@@ -176,24 +176,6 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 *   license: MIT license
 *   host-language: Python
 
-### transmat
-
-*   inception-date: ca 2005
-*   reference-distribution: [https://github.com/cpressey/transmat](https://github.com/cpressey/transmat)
-
-`transmat` is a network synchronization tool written in Python. It is not
-particularly remarkable, but since it has been used in hostile
-environments at points (e.g. unreliable dial-up connections, and
-Cygwin on Vista,) it does go to some lengths to be robust, to support
-lousy protocols (namely FTP), and to minimize transmission time during
-synchronization.
-
-#### Implementation: transmat (Python)
-
-*   reference: true
-*   license: Public Domain
-*   host-language: Python
-
 ### yaeolc
 
 *   inception-date: unknown
