@@ -5,6 +5,35 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Quylthulg, Pail, Flobnar, and Maze Clouds installations
+
+*   summary: [Quylthulg](https://catseye.tc/installation/Quylthulg), [Pail](https://catseye.tc/installation/Pail), [Flobnar](https://catseye.tc/installation/Flobnar), and [Maze Clouds](https://catseye.tc/installation/Maze_Clouds) installations updated.
+*   date: Wed, 08 May 2019 09:32:19 GMT
+
+Lots more updates to installations.
+
+First, we have discovered that it is possible to use the [Haste](https://haste-lang.org/)
+compiler to create [web-based installations](https://catseye.tc/article/HTML5_Installations)
+for little things we have implemented in [Haskell](https://catseye.tc/node/Haskell),
+by adding only a small module to hook up the internals to some HTML5 controls.
+
+Thus we present online installations for three languages we implemented in Haskell:
+**[Quylthulg](https://catseye.tc/installation/Quylthulg)** (where goto's is allowed, but
+only inside data structures), **[Pail](https://catseye.tc/installation/Pail)**
+(if Lisp stands for LISt Processing, Pail stands for PAIr Language), and
+**[Flobnar](https://catseye.tc/installation/Flobnar)** (where
+[Befunge](https://catseye.tc/node/Befunge) went drinking on its 18th birthday and
+got really quite remarkably drunk).
+
+Since we developed a little system for doing these with Haste, we can expect a few other
+of Cat's Eye Technologies Haskell implementations to have online interpreters in
+the near future.
+
+Second, we finally put together a distribution for [Maze Clouds](https://catseye.tc/node/Maze_Clouds)
+(a simple generative technique to generate mazy, cloudy forms) containing implementations
+in both Python and Javascript, and we put the Javascript one online here:
+**[Maze Clouds](https://catseye.tc/installation/Maze_Clouds)**
+
 ### SixtyPical 0.19 released
 
 *   summary: Version 0.19 of [SixtyPical](https://catseye.tc/node/SixtyPical) has been released.
