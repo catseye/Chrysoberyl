@@ -1204,6 +1204,19 @@ Lexeduct.
 Wait a few seconds while it analyzes the characters in the C64 character set.
 Then it will generate some of its own.
 
+### Maze Clouds
+
+*   installation-of: [Maze Clouds][]
+*   installed-implementation: maze-clouds.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [SVG][], [HTML5][]
+*   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
+
+A simple generative technique to generate mazy, cloudy forms.
+
 ### Multicolouralism
 
 *   installation-of: [Multicolouralism][]
