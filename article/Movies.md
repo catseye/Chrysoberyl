@@ -1,8 +1,8 @@
 Movies
 ======
 
-Some of these are animated GIFs (which is a file format for silent movies, no?) while
-others of these are MP4's.
+These were all made using [kinoje][].  Some of these are animated GIFs (which is a file format
+for silent movies, no?) while others of these are MP4's.
 
 ### Uri Geller Psychokinesing an Ashtray
 
@@ -20,7 +20,7 @@ psychokinesis by Uri Geller (not shown) after it was declassified by the
 CIA (and reclassified as fake news) in 2017.
 
 A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
-[Uri Geller Psychokinesing an Ashtray (fake news)](https://pe.ertu.be/videos/watch/c000ee86-3439-4e40-b2b8-c21279d2571e).
+[Uri Geller Psychokinesing an Ashtray (fake news)](https://pe.ertu.be/videos/watch/710e0425-f575-4dde-8c26-dabbbeae5383).
 
 ### Nautical Loop
 
@@ -34,7 +34,7 @@ Movie made in 2017, based on a model I did back around 2007.  This is the
 "long version", and is the longest movie listed in this article.
 
 A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
-[Nautical Loop (long version, 640x400)](https://pe.ertu.be/videos/watch/38825cd0-3a3c-4be0-a0c0-36ce37708d5d).
+[Nautical Loop (long version, 640x400)](https://pe.ertu.be/videos/watch/2f9b85ad-462a-4010-83b6-b5a7a6d0177a).
 
 ### Pulsating Blob
 
@@ -66,3 +66,6 @@ An arrangement of square prisms in a loop with a half-twist, spinning around.
 [![screenshot](https://static.catseye.tc/movies/screenshots/glass-warts.gif.png)](https://static.catseye.tc/movies/glass-warts.gif)
 
 A glass sphere with smaller glass spheres around its perimeter, spinning around.
+
+[kinoje]: ../article/Tools.md#kinoje
+
