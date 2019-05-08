@@ -329,6 +329,9 @@
     "HTML5": {
         "url": "https://www.w3.org/TR/html5/"
     },
+    "SVG": {
+        "url": "https://www.w3.org/Graphics/SVG/"
+    },
     "NetBSD": {
         "url": "http://netbsd.org/"
     },

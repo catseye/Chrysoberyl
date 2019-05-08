@@ -1213,6 +1213,7 @@ Then it will generate some of its own.
 *   mediums: [Javascript][], [SVG][], [HTML5][]
 *   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   style: #installation { height: 600px; width: 600px; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
 
 A simple generative technique to generate mazy, cloudy forms.
@@ -1480,6 +1481,7 @@ Use the navigation buttons to traverse the space of the work.
 [Python]: ../article/Project%20Dependencies.md#python
 [Skulpt]: http://www.skulpt.org/
 [PixiJS]: http://pixijs.com/
+[SVG]: https://www.w3.org/Graphics/SVG/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
@@ -1553,6 +1555,7 @@ Use the navigation buttons to traverse the space of the work.
 [Latcarf]: ../article/Gewgaws.md#latcarf
 [Lexeduct]: ../article/Gewgaws.md#lexeduct
 [Markov Font]: ../article/Gewgaws.md#markov-font
+[Maze Clouds]: ../article/Gewgaws.md#maze-clouds
 [Multicolouralism]: ../article/Gewgaws.md#multicolouralism
 [Noise to Signal No. 1]: ../article/Gewgaws.md#noise-to-signal-no-1
 [Pixed-Point]: ../article/Gewgaws.md#pixed-point
