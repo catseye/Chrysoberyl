@@ -1393,6 +1393,7 @@ _holes_ inside which subpatterns may match at any depth.
 *   paradigms: Functional
 *   reference-distribution: [Quylthulg distribution](https://catseye.tc/distribution/Quylthulg_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Quylthulg)
+*   online @ [catseye.tc](https://catseye.tc/installation/Quylthulg)
 
 Sample program:
 
@@ -2009,6 +2010,7 @@ remote parts of the program.
 *   paradigms: Functional
 *   reference-distribution: [Pail distribution](https://catseye.tc/distribution/Pail_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Pail)
+*   online @ [catseye.tc](https://catseye.tc/installation/Pail)
 
 Sample program:
 
@@ -2089,6 +2091,7 @@ while it was being developed, against the spec.
 *   paradigms: Functional, 2-dimensional
 *   reference-distribution: [Flobnar distribution](https://catseye.tc/distribution/Flobnar_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Flobnar)
+*   online @ [catseye.tc](https://catseye.tc/installation/Flobnar)
 
 Sample program:
 
