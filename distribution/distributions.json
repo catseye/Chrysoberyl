@@ -951,6 +951,7 @@
         "reponame": "FBBI"
     },
     "Falderal distribution": {
+        "dockerhub": "catseye/falderal",
         "entries": [
             "Falderal"
         ],
@@ -1039,6 +1040,7 @@
         "reponame": "Falderal"
     },
     "Feedmark distribution": {
+        "dockerhub": "catseye/feedmark",
         "entries": [
             "Feedmark"
         ],
@@ -2551,6 +2553,7 @@
         "reponame": "Shelta"
     },
     "SixtyPical distribution": {
+        "dockerhub": "catseye/sixtypical",
         "entries": [
             "SixtyPical",
             "Ribos",
@@ -3566,6 +3569,7 @@
         "tag-style": "new"
     },
     "kinoje distribution": {
+        "dockerhub": "catseye/kinoje",
         "entries": [
             "kinoje"
         ],
@@ -3919,6 +3923,7 @@
         ]
     },
     "yastasoti distribution": {
+        "dockerhub": "catseye/yastasoti",
         "entries": [
             "yastasoti"
         ],
