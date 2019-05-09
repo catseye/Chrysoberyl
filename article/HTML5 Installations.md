@@ -1213,7 +1213,7 @@ Then it will generate some of its own.
 *   mediums: [Javascript][], [SVG][], [HTML5][]
 *   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   style: #installation svg { height: 600px; width: 600px; }
+*   style: #installation svg { display: block; height: 600px; width: 600px; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
 
 A simple generative technique to generate mazy, cloudy forms.
