@@ -30,7 +30,10 @@ def rewrite_documents(articles, refdex):
 
         text = feedmark_markdownize(document, schema=schema)
         with open(document.filename, 'w') as f:
-            f.write(text.encode('UTF-8'))
+            try:
+                f.write(text.encode('utf-8'))
+            except:
+                f.write(text)
 
 
 def accumulate_article_refdex(articles, refdex):
@@ -59,7 +62,11 @@ def regenerate_refdex(articles):
     refdex = read_refdex_from(INPUT_REFDEXES)
     accumulate_article_refdex(articles, refdex)
     with open('refdex.json', 'w') as f:
-        f.write(json.dumps(refdex, indent=4, sort_keys=True).encode('UTF-8'))
+        text = json.dumps(refdex, indent=4, sort_keys=True)
+        try:
+            f.write(text.encode('utf-8'))
+        except:
+            f.write(text)
 
 
 if __name__ == '__main__':

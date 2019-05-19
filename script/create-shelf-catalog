@@ -21,7 +21,7 @@ def create_shelf_catalog():
     distributions.update(forks)
 
     infos = {}
-    for (key, node) in sorted(distributions.iteritems()):
+    for (key, node) in sorted(distributions.items()):
         repo = node.get('reponame')
         if not repo:
             #print "# skipping {}".format(key)
@@ -51,11 +51,14 @@ def create_shelf_catalog():
         infos[key] = (repo, tag)
 
     lines = []
-    for (key, (repo, tag)) in sorted(infos.iteritems()):
+    for (key, (repo, tag)) in sorted(infos.items()):
         lines.append('%s@%s' % (key, tag))
     
     for line in sorted(lines):
-        sys.stdout.write(line.encode('utf-8'))
+        try:
+            sys.stdout.write(line.encode('utf-8'))
+        except:
+            sys.stdout.write(line)
         sys.stdout.write('\n')
 
 
