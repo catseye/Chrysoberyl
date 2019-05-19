@@ -1211,7 +1211,7 @@ Then it will generate some of its own.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [SVG][], [HTML5][]
-*   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
+*   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/dam.js,../modules/maze-clouds/demo/dam-widgets.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation svg { display: inline-block; height: 600px; width: 600px; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
