@@ -7,7 +7,7 @@ Retrocomputing
 This document contains stuff done at Cat's Eye Technologies on older computers
 (or more often, an emulation of such a computer on a modern computer).
 
-When a project of Cat's Eye Technologies is built upon some particular retrotechnology
+When a project of ours depends upon some particular retrotechnology,
 we try to have an entry for that dependency in our
 [Project Dependencies](../article/Project%20Dependencies.md) article, where
 we describe what modern alternatives, such as emulators, there are for getting
@@ -31,8 +31,8 @@ instructions.  It was written for the Apple ][+, but should also run on an Apple
 
 **[Dungeons of Ekileugor][]** is a roguelike written for the *unexpanded* [Commodore VIC-20][], which,
 despite the limitations of that platform, supports a respectable set of the usual "dungeon furniture":
-reasonably generated dungeon levels with tunnels and rooms whose contents are hidden until you enter,
-monsters, treasure, potions, traps, chests, combat with experience points, etc.
+reasonably generated dungeon levels with tunnels and rooms (the contents of which are only revealed
+when entered), monsters, treasure, potions, traps, chests, combat with experience points, etc.
 
 #### Bubble Escape
 
@@ -42,9 +42,9 @@ monsters, treasure, potions, traps, chests, combat with experience points, etc.
 
 **[Bubble Escape][]** is a video game written for the Commodore 64 where the player must guide a bubble through
 a multi-screen maze. It was originally designed and implemented in [Commodore BASIC 2.0][] in the mid-80's, and
-rewritten in 6502 assembly language ([Ophis Assembler][]) in the late 00's. The assembly version was pared down
-so that (crunched) it fit into 2K, christened "Bubble Escape 2K", and submitted to the [Mini Game Compo 2009][]
-where it won first place in its class.
+rewritten in the 6502 assembly language [Ophis Assembler][] in the late 00's. The assembly version was pared down
+and crunched so that it fit into 2 kilobytes, christened "Bubble Escape 2K", and submitted to the
+[Mini Game Compo 2009][] where it won first place in its class.
 
 #### DiskSumo
 
@@ -60,19 +60,27 @@ XMODEM protocol at 300 baud.
 
 ![SITU-PAN](https://git.catseye.tc/SITU-SOL/blob/master/doc/bootstrap-zero/images/tumblr_inline_nr19fai3D41tvda25_540.jpg?raw=true)
 
-**[SITU-PAN][]** is a front-panel switches simulator for the [Commodore 64][]. It displays 8 virtual LEDs and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory. Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced. In this way, machine code programs may be entered into memory, and then run. SITU-PAN was written during RetroChallenge 2015/07 for the purposes of entering SITU-MON into an emulated C64.
+**[SITU-PAN][]** is a front-panel switches simulator for the [Commodore 64][]. It displays 8 virtual LEDs
+and 8 virtual dip switches on the screen. The LEDs display the bit pattern at the current address in memory.
+Via the keyboard, the switches may be toggled, a new bit pattern written into memory, and the address advanced.
+In this way, machine code programs may be entered into memory, and then run.
+SITU-PAN was written during [RetroChallenge 2015/07][] for the purposes of entering SITU-MON into an emulated C64.
 
 #### SITU-MON
 
 ![SITU-MON](https://git.catseye.tc/SITU-SOL/blob/master/doc/bootstrap-zero/images/tumblr_inline_nrdcglfU4p1tvda25_540.png?raw=true)
 
-**[SITU-MON][]** is a machine language monitor for [6502][]-based systems, written (by hand!) during RetroChallenge 2015/07 and entered into an emulated Commodore 64 using SITU-PAN.
+**[SITU-MON][]** is a machine language monitor for [6502][]-based systems, written (by hand!) during
+[RetroChallenge 2015/07][] and entered into an emulated Commodore 64 using SITU-PAN.
 
 #### SITU-SOL
 
 ![SITU-SOL](https://git.catseye.tc/SITU-SOL/blob/master/doc/bootstrap-zero/images/tumblr_inline_nrw4gcaz1J1tvda25_540.png?raw=true)
 
-**[SITU-SOL][]** is a vaguely Forth-like language which was designed and implemented (by hand!) during RetroChallenge 2015/07, and entered into an emulated Commodore 64 using SITU-MON.
+**[SITU-SOL][]** is a vaguely Forth-like language which was designed and implemented (by hand!) during
+[RetroChallenge 2015/07][], and entered into an emulated Commodore 64 using SITU-MON. While it might be
+technically usable as a programming system, it fell rather short of its goal, which was to allow the
+computer to be programmed in a way that does not require writing the program out by hand.
 
 #### SixtyPical
 
@@ -80,8 +88,11 @@ XMODEM protocol at 300 baud.
 
 *   main article: *[SixtyPical][]*
 
-**[SixtyPical][]** is a very low-level programming language, similar to [6502][] assembly, which defines a set of
-static analyses via type-checking and abstract interpretation (liveness analysis of variables, i.e. memory locations.)
+**[SixtyPical][]** is a very low-level programming language, similar to [6502][] assembly,
+supporting a sophisticated static analysis which can catch many common mistakes at compile-time.
+Its reference compiler can generate code for several 6502-based platforms, including the
+[Commodore 64][], the [Commodore VIC-20][], the [Apple II][], and the [Atari 2600][].
+Several tiny demos and a demonstration 1K game have been written in it.
 
 #### BefOS
 
@@ -89,8 +100,9 @@ static analyses via type-checking and abstract interpretation (liveness analysis
 
 *   main article: *[BefOS][]*
 
-**[BefOS][]** is an "operating system" for this architecture.
-But it's incomplete and terrible.
+**[BefOS][]** is an "operating system" for the [IBM PC compatible][] architecture.
+The phrase "operating system" is in scare quotes for a very good reason; it's not
+really an operating system at all, it's a glorified sector editor.
 
 #### Shelta
 
@@ -100,14 +112,14 @@ But it's incomplete and terrible.
 
 **[Shelta][]** is an extremely minimal Forth-like language with barely any semantics; it relies on inline
 machine code to write anything resembling an actual program in it. In the spirit of compilers for languages
-such as FALSE and brainfuck, a Shelta-to-8086 compiler was implemented (with help from Ben Olmstead) in
+such as [FALSE][] and [brainfuck][], a Shelta-to-8086 compiler was implemented (with help from Ben Olmstead) in
 less than 512 bytes of 80286 machine code. What's more, it's also been bootstrapped — that is to say, a
 Shelta compiler was written in Shelta, which was compiled with the original compiler, and then compiled
 again with the resulting compiler, producing a wholly self-hosted executable!
 
 Shelta can be built under any system with a [NASM][] assembler,
 but requires [MS-DOS][] (or compatible) to run, and the executables it produces also
-run only under [MS-DOS][] (unless you bypass that part of the stdlib).
+run only under [MS-DOS][] (unless you take exceptional measures).
 
 #### ILLGOL
 
@@ -140,6 +152,7 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 
 [Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [Apple Befunge]: ../article/Languages.md#apple-befunge
+[Atari 2600]: https://catseye.tc/view/The-Dossier/article/Atari%202600%20Games%20of%20Note.md
 [Dungeons of Ekileugor]: ../article/Games.md#dungeons-of-ekileugor
 [Commodore VIC-20]: ../article/Project%20Dependencies.md#commodore-vic-20
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
@@ -166,7 +179,10 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 [Zplet]: ../article/Forks.md#zplet
 [Ophis Assembler]: ../article/Project%20Dependencies.md#ophis-assembler
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
+[RetroChallenge 2015/07]: ../article/Events.md#retrochallenge-201507
 [6502]: ../article/Project%20Dependencies.md#6502
 [Z80]: ../article/Project%20Dependencies.md#z80
 [Z-Machine]: ../article/Project%20Dependencies.md#z-machine
+[FALSE]: http://esolangs.org/wiki/FALSE
+[brainfuck]: http://esolangs.org/wiki/brainfuck
 
