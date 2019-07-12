@@ -101,7 +101,7 @@ Some ancient links that still work:
 
 #### Implementation: ghc
 
-*   home-page: http://www.haskell.org/ghc/
+*   home-page: [https://www.haskell.org/ghc/](https://www.haskell.org/ghc/)
 *   license: BSD-compatible
 *   implementation-type: compiler
 *   host-language: [Haskell][]
@@ -113,7 +113,7 @@ It also has an interpreter, `ghci`.
 
 #### Implementation: hugs
 
-*   home-page: http://www.haskell.org/hugs/
+*   home-page: [https://www.haskell.org/hugs/](https://www.haskell.org/hugs/)
 *   license: [BSD-compatible](https://www.haskell.org/hugs/pages/users_guide/license.html)
 *   implementation-type: interpreter
 *   host-language: [C99][]
@@ -225,7 +225,7 @@ Anyway, here is [a fairly good Ruby tutorial](http://www.fincher.org/tips/Langua
 
 ### Ophis Assembler
 
-*   specification-link: https://github.com/michaelcmartin/Ophis
+*   specification-link: [michaelcmartin/Ophis](https://github.com/michaelcmartin/Ophis)
 
 Ophis is an assembler (and its concomitant assembly language) for the [6502][] and related
 processors, which some of our 6502 code is written in.
@@ -450,7 +450,7 @@ see [Blurry Memories of DOS Programming][].
 
 ### MS-DOS
 
-*   specification-link: https://github.com/Microsoft/MS-DOS
+*   specification-link: [Microsoft/MS-DOS](https://github.com/Microsoft/MS-DOS)
 *   wikipedia: [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS)
 
 Rundown: By [Microsoft](http://microsoft.com/).
@@ -517,20 +517,20 @@ Retro Languages
 
 ### BASIC
 
-*   specification-link: http://en.wikipedia.org/wiki/BASIC
+*   specification-link: [Entry on BASIC at Wikipedia](https://en.wikipedia.org/wiki/BASIC)
 
 There are lots and lots and lots of variants of BASIC.  Some of our projects are
 written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
 
 ### Commodore BASIC 2.0
 
-*   specification-link: https://www.c64-wiki.com/wiki/BASIC
+*   specification-link: [Entry on BASIC at c64-wiki](https://www.c64-wiki.com/wiki/BASIC)
 
 The dialect of BASIC that shipped with the [Commodore 64][] and [Commodore VIC-20][].
 
 ### Applesoft BASIC
 
-*   specification-link: https://en.wikipedia.org/wiki/Applesoft_BASIC
+*   specification-link: [Entry on Applesoft BASIC at Wikipedia](https://en.wikipedia.org/wiki/Applesoft_BASIC)
 
 This was a dialect of BASIC that was available for (in fact, generally shipped with) the [Apple II][].
 There is a [manual online here](http://www.scribd.com/doc/232832/Applesoft-Basic-Programming-Reference-Manual).
