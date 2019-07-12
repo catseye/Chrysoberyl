@@ -8,7 +8,8 @@ systems that they run on, and libraries and tools they might require when run.
 
 Some of these dependencies might be technologies which are, nowadays,
 considered historical.  Legacy.  Retro.  Vintage.  *Old*.  These dependencies
-are listed at the bottom, under "Retro Architectures" and "Retro Languages".
+are listed at the bottom of this article, under
+[Retro Dependencies](#retro-dependencies) and [Retro Languages](#retro-languages).
 For more information about Retrocomputing at Cat's Eye Technologies, see the
 [Retrocomputing](../article/Retrocomputing.md) article.
 
@@ -25,7 +26,7 @@ an `-ansi` flag, as well as a `-pedantic` flag which makes them stick more
 closely to the letter of the ANSI C spec.
 
 Some of our projects can be compiled as either ANSI C or [C99][].  Often, ANSI C
-selectable by setting the environment variable `ANSI` to `YES` while running
+is selectable by setting the environment variable `ANSI` to `YES` while running
 the build command (which is often `make`.)
 
 An older but still interesting link: [C89 at clc-wiki](http://clc-wiki.net/wiki/C89).
@@ -523,9 +524,9 @@ written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
 
 ### Commodore BASIC 2.0
 
-*   specification-link: http://en.wikipedia.org/wiki/BASIC
+*   https://www.c64-wiki.com/wiki/BASIC
 
-BASIC for the [Commodore 64][] and [Commodore VIC-20][].  TODO: find better specification link.
+The dialect of BASIC that shipped with the [Commodore 64][] and [Commodore VIC-20][].
 
 ### Applesoft BASIC
 
