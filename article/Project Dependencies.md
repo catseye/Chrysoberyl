@@ -524,7 +524,7 @@ written in [Commodore BASIC 2.0][].  Others are written in [Applesoft BASIC][].
 
 ### Commodore BASIC 2.0
 
-*   https://www.c64-wiki.com/wiki/BASIC
+*   specification-link: https://www.c64-wiki.com/wiki/BASIC
 
 The dialect of BASIC that shipped with the [Commodore 64][] and [Commodore VIC-20][].
 
