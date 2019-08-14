@@ -603,7 +603,8 @@ by the [Haste][] compiler, running in an [HTML5][] document.
 Instructions:
 
 Type a PL-{GOTO} program into the text box and click
-"Run" to run it.
+"Run" to run it.  Here is an [example program](https://git.catseye.tc/PL-GOTO.NET/blob/master/eg/example.pl-g)
+you could try pasting in.
 
 You might also want to read
 [the description of the PL-{GOTO}.NET compiler](https://catseye.tc/view/PL-GOTO.NET/README.markdown).
