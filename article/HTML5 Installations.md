@@ -587,12 +587,12 @@ console, and the evaluation process never finishing.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
-*   launch-command: console.log(1);
+*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
 
 This is a web-based interpreter for the pedagogical language
-**PL-{GOTO}**, described in Brainerd and Landweber's _Theory of
+[PL-{GOTO}][], described in Brainerd and Landweber's _Theory of
 Computation_ (1974; ISBN 0471095850), in which it is possible to express
 only computations which are primitive recursive.
 
