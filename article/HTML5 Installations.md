@@ -411,7 +411,7 @@ modify it, and create your own program.
 *   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
 
 This is a web-based interpreter for the esoteric
-programming language [FLobnar][].
+programming language [Flobnar][].
 
 Technically, it is `Flobnar.hs` (the reference implementation
 of Flobnar, written in [Haskell][]) compiled to [Javascript][]
@@ -578,6 +578,35 @@ a finite amount of memory available.  In my installation of Firefox,
 for example, wrapping a program in three levels of interpreters
 results in a "stack overflow" error being displayed in the Javascript
 console, and the evaluation process never finishing.
+
+### PL-{GOTO}
+
+*   installation-of: [PL-{GOTO}][]
+*   installed-implementation: [PL-{GOTO}.NET][]
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
+*   launch-command: console.log(1);
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
+
+This is a web-based interpreter for the pedagogical language
+**PL-{GOTO}**, described in Brainerd and Landweber's _Theory of
+Computation_ (1974; ISBN 0471095850), in which it is possible to express
+only computations which are primitive recursive.
+
+Technically, it is [PL-{GOTO}.NET][] (written in [Haskell][])
+compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Type a PL-{GOTO} program into the text box and click
+"Run" to run it.
+
+You might also want to read
+[the description of the PL-{GOTO}.NET compiler](https://catseye.tc/view/PL-GOTO.NET/README.markdown).
 
 ### Quylthulg
 
@@ -1519,6 +1548,8 @@ Use the navigation buttons to traverse the space of the work.
 [LNUSP]: http://esolangs.org/wiki/LNUSP
 [Pail]: ../article/Languages.md#pail
 [PATH]: http://esolangs.org/wiki/PATH
+[PL-{GOTO}]: http://www.worldcat.org/title/theory-of-computation/oclc/694056
+[PL-{GOTO}.NET]: ../article/Language%20Implementations.md#pl-gotonet
 [QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [Quylthulg]: ../article/Languages.md#quylthulg
