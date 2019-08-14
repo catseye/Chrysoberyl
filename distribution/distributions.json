@@ -1986,6 +1986,11 @@
                 "revision": "2018.1029",
                 "url": "https://catseye.tc/distfiles/pl-goto.net-1.1-2018.1029.zip",
                 "version": "1.1"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.2.zip",
+                "version": "1.2"
             }
         ],
         "reponame": "PL-GOTO.NET",
