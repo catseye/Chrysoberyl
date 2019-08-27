@@ -2152,14 +2152,17 @@ Sample program:
         -> branch(S,T)                                     [by IH]
     qed
 
-Madison is a language in which one can state proofs of properties
-of term-rewriting systems.  Classical methods of automated reasoning,
-such as resolution, are not used; indeed, term-rewriting itself is
+Madison is an experiment in designing a language in which one can state
+proofs of properties of term-rewriting systems.  Classical methods of
+automated reasoning, such as resolution, are not used; indeed, term-rewriting itself is
 used to check the proofs.  Both direct proof and proof by induction
 are supported.  Induction in a proof must be across a structure which
 has a well-founded inductive definition.  Such structures can be thought
 of as types, although this is largely nominal; the traditional typelessness
 of term-rewiting systems is largely retained.
+
+This design never got to the point where I thought I could implement it,
+but influenced [Maxixe][].
 
 ### Robin
 
@@ -2170,25 +2173,32 @@ of term-rewiting systems is largely retained.
 *   paradigms: Functional
 *   reference-distribution: [Robin distribution](https://catseye.tc/distribution/Robin_distribution)
 
-Robin is a language drawing from [Pixley][], [Erlang][], and [PicoLisp][].
-One distinctive feature of it is that it has an extremely small core semantics,
-to the point where even closures are defined in terms of macros.
-Another distinctive feature is that it is heavily resource-oriented; almost
-everything, including concurrent processes, is (or should be) a virtual device
+Robin is a functional programming language with eager evaluation, latent typing,
+and a homoiconic syntax (see [Scheme][]), based on a radically simple core semantics
+(see [Pixley][]) in which the macro, rather than the function, is the fundamental
+abstraction (see [PicoLisp][], but we go even further here).
+
+Expressions in Robin are referentially transparent; programs interact with the outside
+world through a reactive framework.
+
+Robin was originally a design for a [Pixley][]-based operating system (or something
+similar to an operating system) which was heavily resource-oriented; almost
+everything, including concurrent processes, was a virtual device
 which must be acquired from a central resource arbiter.  This arbiter may
 satisfy the constraints you specify when requesting a device any way it sees
 fit; so the operating environment has potentially a lot of influence over
 exactly what your program does.
 
-The essential ideas date from back to shortly after Pixley was released.
+Not a lot of that idea remains, but it did influence the fact that Robin should
+be a purely function language which nevertheless interacts with the rest of the
+world through some kind of framework.  After much consideration, the framework
+arrived at is very similar to that used in The Elm Architecture.
 
-#### Reference Implementation: Robin.lhs
+#### Reference Implementation: Language.Robin
 
 *   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
-
-There are actually 2 implementations, and they have different design goals.
 
 ### Troupe
 
