@@ -2971,5 +2971,6 @@ Pophery is an imperative string-rewriting language.  I know right?
 [80286 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Madison]: ../article/Languages.md#madison
+[Equipage]: ../article/Languages.md#equipage
 [x86 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 
