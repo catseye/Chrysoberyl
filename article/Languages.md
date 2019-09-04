@@ -2817,6 +2817,38 @@ string-rewriting semantics.
 *   implementation-type: interpreter
 *   host-language: [Lua][]
 
+### Wagon
+
+*   type: Programming Language
+*   inception-date: Aug 13, 2019
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: Turing-complete
+*   paradigms: Functional, Concatenative
+*   reference-distribution: [Wagon distribution](https://catseye.tc/distribution/Wagon_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Wagon)
+*   online @ [catseye.tc](https://catseye.tc/installation/Wagon)
+
+Sample program:
+
+    p@ I I I SII SII
+
+Wagon is a purely concatentive (in the sense of [Equipage][]) language which
+is "second-order concatenative": instead of functions which take states to states,
+the symbols of the language represent functions which take functions from states
+to states, to functions that take states to states.
+
+The hope in designing it was that the second-order status would allow control
+structures to be embedded in the program.  It does allow this, but it does not
+allow arbitrary control structures.  Nevertheless, it has been shown to be
+Turing-complete, as arbitrary Tag systems can be compiled to Wagon.
+
+#### Reference Implementation: Language.Wagon
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
 Works in Progress
 -----------------
 

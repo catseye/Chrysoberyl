@@ -3135,6 +3135,20 @@
         ],
         "reponame": "Version"
     },
+    "Wagon distribution": {
+        "entries": [
+            "Wagon"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/wagon-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Wagon",
+        "tag-style": "new"
+    },
     "Wanda distribution": {
         "entries": [
             "Wanda"
