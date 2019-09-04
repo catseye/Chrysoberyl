@@ -5,6 +5,20 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Our second esolang of 2019: Wagon
+
+*   summary: Our second esolang of 2019: [Wagon](https://catseye.tc/node/Wagon).
+*   date: Wed, 04 Sep 2019 14:44:11 GMT
+
+Back in February, we did say there would be other esolangs this year,
+so here we go with the second one!
+
+We present [Wagon](https://catseye.tc/node/Wagon), a purely concatenative
+language (in the sense of [Equipage](https://catseye.tc/node/Equipage))
+which is "second-order concatenative": instead of functions which take states to states,
+the symbols of the language represent functions which take functions from states
+to states, to functions that take states to states.
+
 ### Quylthulg, Pail, Flobnar, and Maze Clouds installations
 
 *   summary: [Quylthulg](https://catseye.tc/installation/Quylthulg), [Pail](https://catseye.tc/installation/Pail), [Flobnar](https://catseye.tc/installation/Flobnar), and [Maze Clouds](https://catseye.tc/installation/Maze_Clouds) installations updated.
@@ -377,7 +391,7 @@ path for a 1.0 release.  It has reached that point.
 *   summary: [Equipage](https://catseye.tc/article/Languages.md#equipage), a new esolang, is released.
 *   date: Tue, 12 Jun 2018 09:33:57 GMT
 
-We have designed and released a new eoslang called Equipage.
+We have designed and released a new esolang called Equipage.
 Equipage is a purely concatenative programming languages; it is what
 [Carriage](https://catseye.tc/article/Languages.md#carriage)
 might've been in 2012, had I been less concerned about issues surrounding
