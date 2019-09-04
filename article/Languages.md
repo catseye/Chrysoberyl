@@ -2183,14 +2183,14 @@ world through a reactive framework.
 
 Robin was originally a design for a [Pixley][]-based operating system (or something
 similar to an operating system) which was heavily resource-oriented; almost
-everything, including concurrent processes, was a virtual device
-which must be acquired from a central resource arbiter.  This arbiter may
-satisfy the constraints you specify when requesting a device any way it sees
-fit; so the operating environment has potentially a lot of influence over
-exactly what your program does.
+everything, including every concurrent process, was a virtual device
+which must be acquired from a central resource arbiter.  This arbiter could
+satisfy the constraints specified when requesting a device any way it saw
+fit; so the operating environment potentially had a lot of influence over
+exactly what any given program does.
 
 Not a lot of that idea remains, but it did influence the fact that Robin should
-be a purely function language which nevertheless interacts with the rest of the
+be a purely functional language which nevertheless interacts with the rest of the
 world through some kind of framework.  After much consideration, the framework
 arrived at is very similar to that used in The Elm Architecture.
 
