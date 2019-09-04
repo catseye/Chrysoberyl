@@ -19,6 +19,10 @@ which is "second-order concatenative": instead of functions which take states to
 the symbols of the language represent functions which take functions from states
 to states, to functions that take states to states.
 
+Also, we have recently made a few updates to our probably-not-esoteric
+but-not-exactly-mainstream-either language [Robin](https://catseye.tc/node/Robin),
+bringing it up to 0.4.  Mainly this involved cleaning up its specification.
+
 ### Quylthulg, Pail, Flobnar, and Maze Clouds installations
 
 *   summary: [Quylthulg](https://catseye.tc/installation/Quylthulg), [Pail](https://catseye.tc/installation/Pail), [Flobnar](https://catseye.tc/installation/Flobnar), and [Maze Clouds](https://catseye.tc/installation/Maze_Clouds) installations updated.
