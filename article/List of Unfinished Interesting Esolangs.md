@@ -667,6 +667,41 @@ and you can probably compose esolangs (in truly,
 
 Naturally, you can also create new YO_DAWG objects.
 
+### Deturgenchry
+
+*   etymology: mangling of the words "detergent", "urgency", and "gentry"
+*   genre: Esolang
+*   paradigms: Object-oriented, Continuation-passing
+*   summary: an object-oriented language with both `self` and `other`, and each of these is a continuation
+*   inception-date: 2011
+
+Deturgenchry is an object-oriented language with both `self` and `other`,
+and each of these is a continuation (or something.)
+
+Unlike most of the other languages on this list, work on a Deturgenchry
+reference distribution was actually started: the
+[Deturgenchry distribution](https://catseye.tc/distribution/Deturgenchry_distribution),
+But it has not gone much of anywhere.  Thus it is more suited for
+inclusion in this list than in the list of [the completed][].
+Maybe if I finish it one day I'll move it back there.
+
+### Pophery
+
+*   etymology: mangling of the word "porphyry"
+*   genre: Esolang
+*   paradigms: Imperative, String-rewriting
+*   summary: an imperative string-rewriting language.  I know right?
+*   inception-date: 2010
+
+Pophery is an imperative string-rewriting language.  I know right?
+
+Unlike most of the other languages on this list, work on a Pophery
+reference distribution was actually started: the
+[Pophery distribution](https://catseye.tc/distribution/Pophery_distribution).
+But it has not gone much of anywhere.  Thus it is more suited for
+inclusion in this list than in the list of [the completed][].
+Maybe if I finish it one day I'll move it back there.
+
 
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Burro]: ../article/Languages.md#burro

@@ -19,6 +19,12 @@ subtitle
 
 acronym-for
 
+### etymology
+
+*   optional: true
+
+paradigms
+
 ### genre
 
 genre (nominal)

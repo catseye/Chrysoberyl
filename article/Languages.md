@@ -2849,53 +2849,6 @@ Turing-complete, as arbitrary Tag systems can be compiled to Wagon.
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
-Works in Progress
------------------
-
-*   common development-stage: work in progress
-
-Languages that are still considered works-in-progress at Cat's Eye Technologies.
-Many of these are overdue for being "graduated" to being merely considered "done with".
-
-For languages where no significant work has even ever been started, see
-[LoUIE](List%20of%20Unfinished%20Interesting%20Esolangs.md), instead.
-
-### Deturgenchry
-
-*   type: Programming Language
-*   inception-date: 2011
-*   genre: Esolang
-*   paradigms: Object-oriented, Continuation-passing
-*   etymology: neologism
-*   reference-distribution: [Deturgenchry distribution](https://catseye.tc/distribution/Deturgenchry_distribution)
-
-Deturgenchry is an object-oriented language with both `self` and `other`,
-and each of these is a continuation (or something.)
-
-#### Reference Implementation: Deturgenchry.hs
-
-*   license: Unknown license
-*   implementation-type: interpreter
-*   host-language: [Haskell][]
-
-### Pophery
-
-*   type: Programming Language
-*   inception-date: 2010
-*   genre: Esolang
-*   paradigms: Imperative, String-rewriting
-*   etymology: mangling of Porphyry
-*   reference-distribution: [Pophery distribution](https://catseye.tc/distribution/Pophery_distribution)
-
-Pophery is an imperative string-rewriting language.  I know right?
-
-#### Reference Implementation: pophery.py
-
-*    license: Unknown license
-*    implementation-type: interpreter
-*    host-language: [Python][]
-
-- - - -
 
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill
