@@ -656,6 +656,18 @@
         "releases": [],
         "reponame": "Cyclobots"
     },
+    "DAM distribution": {
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/dam-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "DAM",
+        "tag-style": "new"
+    },
     "Deturgenchry distribution": {
         "entries": [
             "Deturgenchry"
