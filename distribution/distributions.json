@@ -2918,8 +2918,13 @@
         "reponame": "The-Platform",
         "tag-style": "new"
     },
+    "The Cannery": {
+        "fixed-tag": "55fe814",
+        "releases": [],
+        "reponame": "The-Cannery"
+    },
     "The Dipple": {
-        "description": "The Dipple is where code goes when its home planet has been\ndestroyed.  With apologies to Andre Norton.\n",
+        "description": "The Dipple is where code goes when its home planet has been destroyed.  With apologies to Andre Norton.",
         "entries": [
             "sf2tab",
             "valgol.erl",
