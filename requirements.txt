@@ -1,0 +1,2 @@
+Markdown==2.6.8
+-e git://github.com/catseye/Feedmark.git@0.9#egg=feedmark
