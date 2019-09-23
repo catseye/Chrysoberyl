@@ -334,6 +334,7 @@ Wireworld, in ALPACA.
 [Underload]: http://esolangs.org/wiki/Underload
 [1L_AOI]: http://esolangs.org/wiki/1L_AOI
 [Aubergine]: http://esolangs.org/wiki/Aubergine
+[An Odd Rewriting System]: https://esolangs.org/wiki/An_Odd_Rewriting_System
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [2-ill]: http://esolangs.org/wiki/2-ill
 [PL-{GOTO}]: http://www.worldcat.org/title/theory-of-computation/oclc/694056
