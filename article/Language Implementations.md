@@ -63,6 +63,19 @@ This is an interpeter, written in Perl, for Matthew Westcott's
 quine-based language Muriel.  It was probably
 the first full implementation of that language.
 
+### Odd.hs
+
+*   implementation of: [An Odd Rewriting System][]
+*   implementation type: interpreter
+*   host language: [Haskell][]
+*   inception date: ca 2019
+
+I implemented An Odd Rewriting System because it is quite unusual and I
+wanted to understand it better and I wanted to leave behind some kind
+of artefact that might help others who want to understand it better.
+
+Here it is: [An Odd Rewriting System/Odd.hs](https://esolangs.org/wiki/An_Odd_Rewriting_System/Odd.hs).
+
 ### pibfi
 
 *   implementation of: [brainfuck][]
