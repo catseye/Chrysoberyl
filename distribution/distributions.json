@@ -2008,6 +2008,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/pl-goto.net-1.2.zip",
                 "version": "1.2"
+            },
+            {
+                "revision": "2019.0923",
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.2-2019.0923.zip",
+                "version": "1.2"
             }
         ],
         "reponame": "PL-GOTO.NET",
