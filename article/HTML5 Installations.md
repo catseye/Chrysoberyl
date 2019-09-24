@@ -776,8 +776,8 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
-*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
+*   javascript-urls: ../modules/Wagon/eg/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
+*   launch-command: console.log(1);
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
 
