@@ -638,6 +638,35 @@ an entirely new program there and run it.
 You might also want to read
 [the description of the Quylthulg programming language](https://catseye.tc/view/Quylthulg/README.markdown).
 
+### Robin
+
+*   installation-of: [Robin][]
+*   installed-implementation: robin.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/robin.js
+*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Robin)
+
+This is a web-based interpreter for the excessively principled
+functional programming language [Robin][].
+
+Technically, it is `Language.Robin` (the reference implementation
+of Robin, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Robin programming language](https://catseye.tc/view/Robin/README.md).
+
 ### Shelta
 
 *   installation-of: [Shelta][]
