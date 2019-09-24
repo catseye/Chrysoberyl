@@ -740,6 +740,35 @@ an entirely new program there and run it.
 You might also want to read
 [the description of the Wanda programming language](https://catseye.tc/view/Wanda/README.md).
 
+### Wagon
+
+*   installation-of: [Wagon][]
+*   installed-implementation: wagon.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
+*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
+
+This is a web-based interpreter for the second-order concatentive
+programming language [Wagon][].
+
+Technically, it is `Language.Wagon` (the reference implementation
+of Wagon, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Wagon programming language](https://catseye.tc/view/Wagon/README.md).
+
 ### Whothm
 
 *   installation-of: [Whothm][]
