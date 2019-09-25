@@ -406,7 +406,6 @@ modify it, and create your own program.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Flobnar/eg/examplePrograms.jsonp.js,../modules/Flobnar/demo/flobnar-hastec-launcher.js,https://static.catseye.tc/generated-js/flobnar-1.0-2019.0328/flobnar.js
-*   launch-command: console.log(1);
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
 
@@ -507,7 +506,6 @@ browser does not support Web Workers, it may not function correctly.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/pail-hastec-launcher.js,https://static.catseye.tc/generated-js/pail-1.0-2019.0326/pail.js
-*   launch-command: console.log(1);
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
 
@@ -586,8 +584,8 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
-*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
+*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
 
@@ -617,7 +615,6 @@ You might also want to read
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/generated-js/quylthulg-1.0-2019.0326/qlzqqlzuup.js
-*   launch-command: console.log(1);
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
 
@@ -645,8 +642,8 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/robin.js
-*   launch-command: document.getElementById('installation').innerHTML='<textarea id="prog" rows="10" cols="80"></textarea><div><button id="run-button">Run</button></div><pre id="result"></pre>';
+*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.5/robin.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
 
