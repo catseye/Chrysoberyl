@@ -570,7 +570,7 @@
         "entries": [
             "Chzrxl"
         ],
-        "fixed-tag": "467ba3e",
+        "fixed-tag": "48d8585",
         "releases": [],
         "reponame": "Chzrxl"
     },
@@ -652,7 +652,7 @@
         "entries": [
             "Cyclobots"
         ],
-        "fixed-tag": "bc4bbc1",
+        "fixed-tag": "949cd42",
         "releases": [],
         "reponame": "Cyclobots"
     },
@@ -1860,6 +1860,7 @@
         "entries": [
             "Maze Clouds"
         ],
+        "fixed-tag": "9d7e20a",
         "reference": true,
         "releases": [],
         "reponame": "Maze-Clouds",

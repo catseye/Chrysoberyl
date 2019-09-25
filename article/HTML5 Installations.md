@@ -201,7 +201,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam.js,../modules/Chzrxl/demo/dam-widgets.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
+*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
 *   launch-command: launch({ width: 500, height: 500, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   online @ [catseye.tc](https://catseye.tc/ix/Chzrxl)
@@ -255,7 +255,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam.js,../modules/Cyclobots/demo/dam-widgets.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
+*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
 *   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
@@ -1296,7 +1296,7 @@ Then it will generate some of its own.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [SVG][], [HTML5][]
-*   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/dam.js,../modules/maze-clouds/demo/dam-widgets.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
+*   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/dam-plus-widgets-web.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation svg { display: inline-block; height: 600px; width: 600px; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
