@@ -777,7 +777,7 @@ You might also want to read
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Wagon/eg/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
-*   launch-command: console.log(1);
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "reverse0.wagon" });
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
 
