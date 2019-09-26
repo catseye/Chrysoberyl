@@ -857,6 +857,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/equipage-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2019.0926",
+                "url": "https://catseye.tc/distfiles/equipage-1.0-2019.0926.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Equipage",
