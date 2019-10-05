@@ -378,6 +378,35 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+### Equipage
+
+*   installation-of: [Equipage][]
+*   installed-implementation: equipage.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Equipage/eg/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/equipage-1.0-2019.0926/equipage.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "pop-all-positives.equipage" });
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Equipage)
+
+This is a web-based interpreter for the "purely concatentive"
+programming language [Equipage][].
+
+Technically, it is `Language.Equipage` (the reference implementation
+of Equipage, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Equipage programming language](https://catseye.tc/view/Equipage/README.md).
+
 ### Etcha
 
 *   installation-of: [Etcha][]
