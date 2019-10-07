@@ -5,6 +5,38 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### PL-{GOTO}, Robin, Equipage, and Wagon installations
+
+*   summary: [PL-{GOTO}](https://catseye.tc/installation/PL-%7BGOTO%7D), [Robin](https://catseye.tc/installation/Robin), [Equipage](https://catseye.tc/installation/Equipage), and [Wagon](https://catseye.tc/installation/Wagon) installed online.
+*   date: Mon, 07 Oct 2019 09:09:45 GMT
+
+As we mentioned in a previous news item, the [Haste](https://haste-lang.org/)
+compiler allows us to easily create [web-based installations](https://catseye.tc/article/HTML5_Installations)
+for things implemented in [Haskell](https://catseye.tc/node/Haskell).
+
+And some things we've had a penchant for implementing in Haskell
+are programming languages of all stripes — experimental, esoteric, and
+didactic.
+
+So, four more programming languages have come online; you can write
+programs in them and run them right in your web browser.  It isn't a fantastic
+development environment, of course, but you can get a taste for what the
+language is like, without having to download or install anything.
+
+Thus we present online installations for four languages we implemented in Haskell:
+
+*   **[PL-{GOTO}](https://catseye.tc/installation/PL-%7BGOTO%7D)**, a
+    pedagogical language from Brainerd and Landweber's textbook
+    _Theory of Computation_ (1974; ISBN 0471095850), in which it is possible
+    to express only computations which are primitive recursive;
+*   **[Robin](https://catseye.tc/installation/Robin)**, an
+    "excessively principled" functional programming language influenced
+    by Scheme and PicoLisp;
+*   **[Equipage](https://catseye.tc/installation/Equipage)**, a
+    "purely concatenative" esolang; and
+*   **[Wagon](https://catseye.tc/installation/Wagon)**, our latest esolang,
+    which is also our latest variation on the theme of "purely concatenative".
+
 ### Our second esolang of 2019: Wagon
 
 *   summary: Our second esolang of 2019: [Wagon](https://catseye.tc/node/Wagon).
