@@ -194,6 +194,35 @@ it. Or click "Edit" to modify an example program, or create your own program.
 You may wish to read the definition of this cellular automaton:
 [braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
 
+### Carriage
+
+*   installation-of: [Carriage][]
+*   installed-implementation: carriage.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/carriage-0.1/carriage.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
+
+This is a web-based interpreter for the "purely concatentive"
+programming language [Carriage][].
+
+Technically, it is `Language.Carriage` (the reference implementation
+of Carriage, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Carriage programming language](https://catseye.tc/view/Carriage/README.md).
+
 ### Chzrxl
 
 *   installation-of: [Chzrxl][]

@@ -504,6 +504,20 @@
         "reponame": "Canvas-Feedback",
         "tag-style": "new"
     },
+    "Carriage distribution": {
+        "entries": [
+            "Carriage"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/carriage-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Carriage",
+        "tag-style": "new"
+    },
     "Castile distribution": {
         "entries": [
             "Castile"
