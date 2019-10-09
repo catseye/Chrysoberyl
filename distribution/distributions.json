@@ -867,6 +867,16 @@
         "reponame": "Equipage",
         "tag-style": "new"
     },
+    },
+    "Erratic Turtle Graphics distribution": {
+        "entries": [
+            "Erratic Turtle Graphics"
+        ],
+        "fixed-tag": "17d55f3",
+        "reference": true,
+        "reponame": "Erratic-Turtle-Graphics",
+        "tag-style": "new"
+    },
     "Etcha distribution": {
         "entries": [
             "Etcha"

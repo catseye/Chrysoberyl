@@ -1165,6 +1165,39 @@ Colourring.
 Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
 
+### Erratic Turtle Graphics
+
+*   installation-of: [Erratic Turtle Graphics][]
+*   installed-implementation: erratic-turtle-graphics-launcher.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Erratic-Turtle-Graphics/src/erratic-turtle.js,../modules/Erratic-Turtle-Graphics/src/erratic-logo.js,../modules/Erratic-Turtle-Graphics/demo/dam-plus-widgets-web.js,../modules/Erratic-Turtle-Graphics/demo/erratic-turtle-graphics-launcher.js
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   online @ [catseye.tc](https://catseye.tc/ix/Erratic_Turtle_Graphics)
+
+It's turtle graphics, except there's a small
+margin of error.  You might ask for "Turn right 90 degrees"
+but you might get only "Turn right 89.91 degrees".
+
+It uses a faint pen, so if you repeat the drawing instructions
+many times over, you get a nice pencilly noisy effect.
+
+There is support for a rudimentary command language similar to
+Logo, for user-created designs.  The commands are:
+
+    fd NUM             move forward this many pixels
+    rt NUM             rotate right this many degrees
+    lt NUM             rotate left this many degrees
+    setxyr NUM NUM     set the coordinates, as a percentage of the
+                       width and height of the canvas
+    shiftxyr NUM NUM   adjust the coordinates, as a percentage of the
+                       width and height of the canvas
+    seterr NUM NUM     set the error rate for rotations and
+                       movements respectively
+    shifterr NUM NUM   adjust the error rate for rotations and
+                       movements respectively
+
 ### Fibonacci Spiral
 
 *   installation-of: [Fibonacci Spiral][]

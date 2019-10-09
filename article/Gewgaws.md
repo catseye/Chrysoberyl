@@ -129,6 +129,22 @@ possible, or at least, a lot of colour contrast.
 A simple fractal (each rectangle contains four smaller rectangles)
 with colour variance and configurable glitching.
 
+### Erratic Turtle Graphics
+
+![preview](https://catseye.tc/modules/Erratic-Turtle-Graphics/images/chain1.png)
+
+*   inception date: ca 2018
+*   reference distribution: [Erratic Turtle Graphics distribution](https://catseye.tc/distribution/Erratic_Turtle_Graphics_distribution)
+*   reference implementation name: erratic-turtle.js
+*   online @ [catseye.tc](https://catseye.tc/installation/Erratic_Turtle_Graphics)
+
+It's turtle graphics, except there's a small
+margin of error.  You might ask for "Turn right 90 degrees"
+but you might get only "Turn right 89.91 degrees".
+
+It uses a faint pen, so if you repeat the drawing instructions
+many times over, you get a nice pencilly noisy effect.
+
 ### Fibonacci Spiral
 
 ![preview](https://static.catseye.tc/images/screenshots/Fibonacci_Spiral.jpg)
