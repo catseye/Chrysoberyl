@@ -613,7 +613,7 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
+*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
@@ -671,7 +671,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.5/robin.js
+*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.5/robin.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
