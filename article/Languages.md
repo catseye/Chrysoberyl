@@ -2172,6 +2172,18 @@ but influenced [Maxixe][].
 *   development-stage: unfinished
 *   paradigms: Functional
 *   reference-distribution: [Robin distribution](https://catseye.tc/distribution/Robin_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Robin)
+
+Sample program:
+
+    (require multiply)
+    
+    (define fact (fun (self n)
+      (multiply n
+        (if (gt? n 1)
+          (self self (subtract n 1))
+          1))))
+    (display (fact fact 5))
 
 Robin is a functional programming language with eager evaluation, latent typing,
 and a homoiconic syntax (see [Scheme][]), based on a radically simple core semantics
@@ -2405,7 +2417,9 @@ of that.)
 *   development-stage: not fully complete
 *   computational-class: unknown computational class
 *   paradigms: Concatenative
+*   reference-distribution: [Carriage distribution](https://catseye.tc/distribution/Carriage_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Carriage)
+*   online @ [catseye.tc](https://catseye.tc/installation/Carriage)
 
 Sample program:
 
@@ -2755,6 +2769,7 @@ combinations thereof).
 *   paradigms: Functional, Concatenative
 *   reference-distribution: [Equipage distribution](https://catseye.tc/distribution/Equipage_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Equipage)
+*   online @ [catseye.tc](https://catseye.tc/installation/Equipage)
 
 Sample program:
 
@@ -2924,6 +2939,7 @@ Turing-complete, as arbitrary Tag systems can be compiled to Wagon.
 [80286 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Madison]: ../article/Languages.md#madison
+[Maxixe]: ../article/Languages.md#maxixe
 [Equipage]: ../article/Languages.md#equipage
 [x86 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 
