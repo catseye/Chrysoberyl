@@ -179,6 +179,51 @@ The Dossier is also oriented towards long-form, opinion-based
 writing, distinct from Chrysoberyl's
 short-and-trying-to-be-unbiased-blurb approach.
 
+### The Cannery
+
+*   online @ [catseye.tc](https://catseye.tc/view/The-Cannery/README.md)
+*   reference distribution: [The Cannery distribution](https://catseye.tc/distribution/The_Cannery_distribution)
+
+While [Chrysoberyl][] is an attempt to catalogue the
+things of [Cat's Eye Technologies][], there have also been attempts
+to preserve them.  The first such attempt was
+[The Cat's Eye Technologies Platform][], which has seen
+3 releases, and each released contained, at the point of
+time it was released, all the relevant output of Cat's Eye Technologies
+in the form of a single executable [NetBSD][] system containing all that software.
+
+At some point it became less clear that that approach was
+scalable, and the last release of The Platform is now out of date.
+Other approaches were explored.
+
+_The Cannery_ was created to preserve Cat's Eye Technologies'
+software products in [Docker][] images.
+
+While many are excited about Docker as a tool for deploying
+software, we're more interested in it as a tool for preserving
+software.
+
+It's not fantastic in this role, but it has some upsides.
+
+Docker makes it much easier to use software without "installing"
+it permanently; in Docker, a piece of software ships in an
+"image" which is in some sense entirely self-contained; the
+only required software to install first is Docker itself.
+From this image a running "container" can be started which is also
+entirely self-contained; it interacts with the rest of the system
+in a very limited, sandboxed way.  The container can be stopped and
+the image deleted and no trace of the software remains.
+
+Docker is thus a good way to package software with onerous
+requirements.
+
+Hence in The Cannery we've made Docker images for those
+Cat's Eye Technologies products which have the most onerous
+requirements; [kinoje][] in particular typically uses several
+other cumbrous softwares such as Jinja2 and POV-Ray.
+
+Where exactly The Cannery is going, though, remains to be seen.
+
 - - - -
 
 [esoteric programming language]: #esolang
