@@ -35,6 +35,27 @@ is emulated on whatever user interface is really available.
 *   license: BSD license
 *   host-language: [Perl][]
 
+### DAM
+
+*   summary: You've tried the Document Object Model, now try the Document *Awesome* Model
+*   inception-date: ca 2019
+*   development-stage: not fully complete
+*   reference-distribution: [DAM distribution](https://catseye.tc/distribution/DAM_distribution)
+
+`DAM` is a little Javascript library for creating trees of [HTML5][] elements
+in the DOM.  It supercedes the `element-factory` module from [yoob.js][],
+and Cat's Eye Technologies' newer [gewgaws](article/Gewgaws.md) use it
+instead of yoob.js for creating their control panels.  It's rather a lot like
+[hyperscript](https://github.com/hyperhype/hyperscript) except more minimal
+and, of course, awesomer.
+
+#### Implementation: DAM (Javascript)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Javascript][]
+*   host-platform: [HTML5][]
+
 ### DiskSumo
 
 ![DiskSumo main menu](https://static.catseye.tc/images/screenshots/DiskSumo.png)
