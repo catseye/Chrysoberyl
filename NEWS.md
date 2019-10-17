@@ -5,6 +5,30 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Carriage, Erratic Turtle Graphics, and DAM
+
+*   summary: [Carriage](https://catseye.tc/installation/Carriage) finally gets a reference distribution; also [Erratic Turtle Graphics](https://catseye.tc/installation/Erratic_Turtle_Graphics) installed online.
+*   Thu, 17 Oct 2019 11:44:00 GMT
+
+Since 2012, our first "purely concatenative" language,
+[Carriage](https://catseye.tc/node/Carriage), existed only in the form of
+[an article on the esowiki](https://esolangs.org/wiki/Carriage).
+
+It now has a real reference distribution, and it's also installed
+online, alongside its successors [Equipage](https://catseye.tc/installation/Equipage)
+and [Wagon](https://catseye.tc/installation/Wagon), so you can
+[run Carriage programs without leaving your web browser](https://catseye.tc/installation/Carriage).
+
+Elsewhere, we've also installed a gewgaw we concocted a little
+while ago (though not as long ago as Carriage), which we call
+[Erratic Turtle Graphics](https://catseye.tc/installation/Erratic_Turtle_Graphics).
+
+It's possibly also worth mentioning that this gewgaws, and several other of
+our recent online installations, use a tiny Javascript library that we released
+this year, called [DAM](https://catseye.tc/node/DAM), to build their user interfaces.
+It replaces [yoob.js](https://catseye.tc/node/yoob.js)'s "element factory" library,
+and it's what we're switching to as we phase out yoob.js.
+
 ### PL-{GOTO}, Robin, Equipage, and Wagon installations
 
 *   summary: [PL-{GOTO}](https://catseye.tc/installation/PL-%7BGOTO%7D), [Robin](https://catseye.tc/installation/Robin), [Equipage](https://catseye.tc/installation/Equipage), and [Wagon](https://catseye.tc/installation/Wagon) installed online.
