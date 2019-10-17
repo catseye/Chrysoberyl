@@ -333,7 +333,7 @@
         "url": "https://www.w3.org/Graphics/SVG/"
     },
     "NetBSD": {
-        "url": "http://netbsd.org/"
+        "url": "https://netbsd.org/"
     },
     "FreeBSD": {
         "url": "https://www.freebsd.org/"
@@ -349,6 +349,9 @@
     },
     "Firefox": {
         "url": "https://www.mozilla.org/en-US/firefox/"
+    },
+    "Docker": {
+        "url": "https://www.docker.com/"
     },
 
 

@@ -430,7 +430,7 @@ framework, which is in Java.
 [E-UAE]: ../article/Project%20Dependencies.md#amiga-500
 [FreeBSD]: https://www.freebsd.org/
 [Amiga Gondola]: ../article/Archived.md#amiga-gondola
-[NetBSD]: http://netbsd.org/
+[NetBSD]: https://netbsd.org/
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
 [Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64

@@ -73,7 +73,7 @@ It has an article on the esowiki here: [BefOS](http://esolangs.org/wiki/BefOS).
 *   build-requirements: [ANSI C][], [Perl][]
 *   online @ [catseye.tc](https://catseye.tc/installation/BefOS)
 
-[NetBSD]: http://netbsd.org/
+[NetBSD]: https://netbsd.org/
 [shelf]: ../article/Tools.md#shelf
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible

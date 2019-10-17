@@ -256,4 +256,8 @@ Where exactly The Cannery is going, though, remains to be seen.
 [pictures]: ../article/Pictures.md
 [music]: ../article/Musical%20Compositions.md
 [The Dossier]: ../article/General%20Information.md#the-dossier
+[The Cat's Eye Technologies Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
+[NetBSD]: https://netbsd.org/
+[Docker]: https://www.docker.com/
+[kinoje]: ../article/Tools.md#kinoje
 
