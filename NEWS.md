@@ -8,7 +8,7 @@
 ### Carriage, Erratic Turtle Graphics, and DAM
 
 *   summary: [Carriage](https://catseye.tc/installation/Carriage) finally gets a reference distribution; also [Erratic Turtle Graphics](https://catseye.tc/installation/Erratic_Turtle_Graphics) installed online.
-*   Thu, 17 Oct 2019 11:44:00 GMT
+*   date: Thu, 17 Oct 2019 11:44:00 GMT
 
 Since 2012, our first "purely concatenative" language,
 [Carriage](https://catseye.tc/node/Carriage), existed only in the form of
