@@ -556,6 +556,35 @@ This [Javascript][] implementation of Matchbox uses the *Web Workers*
 facility of your browser to run the evaluation process.  So, if your
 browser does not support Web Workers, it may not function correctly.
 
+### Oxcart
+
+*   installation-of: [Oxcart][]
+*   installed-implementation: oxcart.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Oxcart/eg/examplePrograms.jsonp.js,../modules/Oxcart/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/oxcart-1.0/oxcart.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "count-down.oxcart" });
+*   inline-description: true
+*   online @ [catseye.tc](https://catseye.tc/ix/Oxcart)
+
+This is a web-based interpreter for the continuation-passing concatentive
+programming language [Oxcart][].
+
+Technically, it is `Language.Oxcart` (the reference implementation
+of Oxcart, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Oxcart programming language](https://catseye.tc/view/Oxcart/README.md).
+
 ### Pail
 
 *   installation-of: [Pail][]
