@@ -2001,10 +2001,15 @@
         "entries": [
             "Oxcart"
         ],
-        "releases": [],
-        "reponame": "Oxcart",
-        "fixed-tag": "fb06406",
         "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/oxcart-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Oxcart",
         "tag-style": "new"
     },
     "PL-{GOTO}.NET distribution": {
