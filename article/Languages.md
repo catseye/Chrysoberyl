@@ -2864,6 +2864,35 @@ Turing-complete, as arbitrary Tag systems can be compiled to Wagon.
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Oxcart
+
+*   type: Programming Language
+*   inception-date: Oct 28, 2019
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: believed Turing-complete
+*   paradigms: Functional, Concatenative, Continuation-passing
+*   reference-distribution: [Oxcart distribution](https://catseye.tc/distribution/Oxcart_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Oxcart)
+*   online @ [catseye.tc](https://catseye.tc/installation/Oxcart)
+
+Sample program:
+
+    <0^^^^^^^^^^>S:<:v:)%
+
+Oxcart is another purely concatentive (in the sense of [Equipage][]) language;
+but this time it's a continuation-passing concatenative language.
+Instead of functions which take states to states, the symbols of the language represent
+functions which are written in continuation-passing style (CPS), i.e. they
+take two arguments: a state and a continuation.  A special form of function
+composition is used to compose two such functions, and it has an identity and
+forms a monoid like conventional function composition.
+
+#### Reference Implementation: Language.Oxcart
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
 
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill

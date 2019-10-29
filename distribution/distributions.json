@@ -1997,6 +1997,16 @@
             }
         ]
     },
+    "Oxcart distribution": {
+        "entries": [
+            "Oxcart"
+        ],
+        "releases": [],
+        "reponame": "Oxcart",
+        "fixed-tag": "98cb06b",
+        "reference": true,
+        "tag-style": "new"
+    },
     "PL-{GOTO}.NET distribution": {
         "entries": [
             "PL-{GOTO}.NET"
