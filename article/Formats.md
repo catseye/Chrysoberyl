@@ -37,7 +37,7 @@ Feedmark is a file format for embedding curational information in Markdown.
 
 #### Reference Implementation: feedmark (Python)
 
-*   license: Public Domain
+*   license: MIT license
 *   host-language: [Python][]
 
 Links
