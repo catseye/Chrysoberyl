@@ -995,6 +995,7 @@
         "entries": [
             "Falderal"
         ],
+        "pypi": "Falderal",
         "reference": true,
         "releases": [
             {
@@ -1089,6 +1090,7 @@
         "entries": [
             "Feedmark"
         ],
+        "pypi": "Feedmark",
         "reference": true,
         "releases": [
             {
