@@ -5,6 +5,26 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Our third esolang of 2019: Oxcart
+
+*   summary: Our third esolang of 2019: [Oxcart](https://catseye.tc/node/Oxcart).
+*   date: Tue, 05 Nov 2019 12:32:01 GMT
+
+Back in February, when we announced [Wanda](https://catseye.tc/node/Wanda),
+we did say there would be other esolangs this year.
+They haven't been the ones I thought they'd be, back then,
+but they're pretty squarely esolangs, I think.  And this is the third one!
+
+We present [Oxcart](https://catseye.tc/node/Oxcart), a purely concatenative
+language (in the sense of [Equipage](https://catseye.tc/node/Equipage))
+which is based on composing functions written in continuation-passing style.
+Instead of functions which take states to states, the symbols of the language
+represent functions which take an extra argument, a continuation, that
+represents the future of the computation.
+
+It's also installed online, so you can
+[run Oxcart programs without leaving your web browser](https://catseye.tc/installation/Oxcart).
+
 ### Carriage, Erratic Turtle Graphics, and DAM
 
 *   summary: [Carriage](https://catseye.tc/installation/Carriage) finally gets a reference distribution; also [Erratic Turtle Graphics](https://catseye.tc/installation/Erratic_Turtle_Graphics) installed online.
