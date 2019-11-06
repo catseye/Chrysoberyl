@@ -227,7 +227,7 @@ The story isn't *entirely* dialogue, but it might be difficult to find the non-d
 *   inception-date: Nov 2018
 *   submitted-to: [NaNoGenMo 2018][] (completed)
 *   entry @ [github.com/NaNoGenMo/2018](https://github.com/NaNoGenMo/2018/issues/91)
-*   online @ [catseye.tc](https://catseye.tc/modules/NaNoGenMo-2018/generated/ETERLAN%20SEPTEBMER.md)
+*   online @ [catseye.tc](https://catseye.tc/modules/NaNoGenMo-Entries-2018/generated/ETERLAN%20SEPTEBMER.md)
 *   in-distribution: [NaNoGenMo-Entries-2018 distribution](https://catseye.tc/distribution/NaNoGenMo-Entries-2018_distribution)
 
 Written in [Befunge-93][] as a commemoration of the 25th Anniversary of Befunge.
