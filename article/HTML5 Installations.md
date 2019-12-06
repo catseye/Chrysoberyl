@@ -45,7 +45,7 @@ than a megabyte.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/cosmic-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmic-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmic-boulders/src/cosmic-boulders.js
-*   script-root: ../modules/cosmic-boulders/src/
+*   launch-command: attachCosmicBoulders(document.getElementById("installation-canvas"));
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmic_Boulders)
 
 Key mappings:
