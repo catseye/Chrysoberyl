@@ -37,6 +37,26 @@ If this game doesn't seem too impressive to you, try to remember, it's
 only two kilobytes of code!  These days you can't even sneeze in less
 than a megabyte.
 
+### Cosmic Boulders
+
+*   installation-of: [Cosmic Boulders][]
+*   installed-implementation: cosmic-boulders.js
+*   interactive: true
+*   animated: true
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/cosmic-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmic-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmic-boulders/src/cosmic-boulders.js
+*   script-root: ../modules/cosmic-boulders/src/
+*   online @ [catseye.tc](https://catseye.tc/ix/Cosmic_Boulders)
+
+Key mappings:
+
+*   Insert coin: **5**
+*   Start: **1**
+*   Fire: **Ctrl** (left or right)
+*   Thrust: **Up Arrow**
+*   Rotate left: **Left Arrow**
+*   Rotate right: **Right Arrow**
+
 ### Super Wumpus Land
 
 *   installation-of: [Super Wumpus Land][]

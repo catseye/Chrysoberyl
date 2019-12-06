@@ -662,6 +662,11 @@
         ],
         "reponame": "Corona-Realm-of-Magic"
     },
+    "Cosmic Boulders": {
+        "fixed-tag": "814f661",
+        "releases": [],
+        "reponame": "Cosmic-Boulders"
+    },
     "Cyclobots distribution": {
         "entries": [
             "Cyclobots"

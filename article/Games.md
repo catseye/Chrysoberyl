@@ -104,6 +104,25 @@ etc.
 *   host-platform: [Commodore VIC-20][]
 *   controls: keyboard
 
+### Cosmic Boulders
+
+![screenshot](https://catseye.tc/modules/cosmic-boulders/images/cosmic-boulders-screenshot.png)
+
+*   genre: Shoot-em-Up
+*   inception-date: 2019
+*   reference distribution: [Cosmic Boulders distribution](https://catseye.tc/distribution/Cosmic_Boulders_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Cosmic_Boulders)
+
+_Cosmic Boulders_ is an arcade-style HTML5 minigame built with reducers
+and immutable data in ES5 JavaScript.
+
+#### Implementation: cosmic-boulders.js
+
+*   license: Freely Redistributable
+*   host-language: [Javascript][]
+*   host-platform: HTML5
+*   controls: keyboard
+
 ### Super Wumpus Land
 
 ![screenshot](https://catseye.tc/modules/super-wumpus-land/images/Super%20Wumpus%20Land.png)
