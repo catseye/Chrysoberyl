@@ -104,19 +104,19 @@ etc.
 *   host-platform: [Commodore VIC-20][]
 *   controls: keyboard
 
-### Cosmic Boulders
+### Cosmos Boulders
 
-![screenshot](https://catseye.tc/modules/cosmic-boulders/images/cosmic-boulders-screenshot.png)
+![screenshot](https://catseye.tc/modules/cosmos-boulders/images/cosmos-boulders-screenshot.png)
 
 *   genre: Shoot-em-Up
 *   inception-date: 2019
-*   reference distribution: [Cosmic Boulders distribution](https://catseye.tc/distribution/Cosmic_Boulders_distribution)
-*   online @ [catseye.tc](https://catseye.tc/installation/Cosmic_Boulders)
+*   reference distribution: [Cosmos Boulders distribution](https://catseye.tc/distribution/Cosmos_Boulders_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Cosmos_Boulders)
 
-_Cosmic Boulders_ is an arcade-style HTML5 minigame built with reducers
+_Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
 and immutable data in ES5 JavaScript.
 
-#### Implementation: cosmic-boulders.js
+#### Implementation: cosmos-boulders.js
 
 *   license: Freely Redistributable
 *   host-language: [Javascript][]
