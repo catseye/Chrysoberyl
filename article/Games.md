@@ -81,6 +81,25 @@ Interactive Entertainment Modules.)
 *   host-language: [Perl][] 5.8
 *   interface: [ANSI Terminal][]
 
+### Cosmos Boulders
+
+![screenshot](https://catseye.tc/modules/cosmos-boulders/images/cosmos-boulders-screenshot.png)
+
+*   genre: Shoot-em-Up
+*   inception-date: 2019
+*   reference distribution: [Cosmos Boulders distribution](https://catseye.tc/distribution/Cosmos_Boulders_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/Cosmos_Boulders)
+
+_Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
+and immutable data in ES5 JavaScript.
+
+#### Implementation: cosmos-boulders.js
+
+*   license: Freely Redistributable
+*   host-language: [Javascript][]
+*   host-platform: HTML5
+*   controls: keyboard
+
 ### Dungeons of Ekileugor
 
 ![screenshot](https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png)
@@ -102,25 +121,6 @@ etc.
 *   license: Freely Redistributable
 *   host-language: [Commodore BASIC 2.0][]
 *   host-platform: [Commodore VIC-20][]
-*   controls: keyboard
-
-### Cosmos Boulders
-
-![screenshot](https://catseye.tc/modules/cosmos-boulders/images/cosmos-boulders-screenshot.png)
-
-*   genre: Shoot-em-Up
-*   inception-date: 2019
-*   reference distribution: [Cosmos Boulders distribution](https://catseye.tc/distribution/Cosmos_Boulders_distribution)
-*   online @ [catseye.tc](https://catseye.tc/installation/Cosmos_Boulders)
-
-_Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
-and immutable data in ES5 JavaScript.
-
-#### Implementation: cosmos-boulders.js
-
-*   license: Freely Redistributable
-*   host-language: [Javascript][]
-*   host-platform: HTML5
 *   controls: keyboard
 
 ### Super Wumpus Land
