@@ -44,12 +44,15 @@ than a megabyte.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
+*   inline-description: true
 *   javascript-urls: ../modules/cosmos-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmos-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmos-boulders/src/cosmos-boulders.js
 *   launch-command: launch({ container: document.getElementById("installation") });
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmos_Boulders)
 
-This arcade-style video game is playable with keyboard only.
-The key mappings are:
+_Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
+and immutable data in ES5 JavaScript.
+
+It is playable with keyboard only.  The key mappings are:
 
 *   Insert coin: **5**
 *   Start: **1**
