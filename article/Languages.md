@@ -21,10 +21,8 @@ be on this list, it'll be here instead: [Language Implementations](Language%20Im
 If it was implemented by Chris Pressey, but not under the auspices of Cat's Eye Technologies,
 it won't be on this list.
 
-If it is still considered a "work in progress", it will be at the bottom of this list:
-[works in progress](#works-in-progress).
-
-Some of these languages have interpreters that can run online, in your web browser.
+**Some of these languages have interpreters that can run online, in your web browser.**
+(Look for the **Try it Online** button).
 By selecting sample programs and watching them run, you can gain an appreciation of how the
 language works; by composing your own programs, you can gain an even better appreciation.
 
