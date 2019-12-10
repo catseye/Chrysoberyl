@@ -101,15 +101,9 @@ v86-floppy-image-url
 
 * optional: true
 
-Boolean indicating if the installation's description should be displayed
-on the page alongside the installation.
-
-### inline-description-below
-
-* optional: true
-
-Boolean indicating if the installation's description should be displayed
-on the page underneath the installation.
+If present, indicates the installation's description should be displayed
+on the page along with the installation.  It may have the value `right`
+or `below` to indicate where on the page the description should be shown.
 
 ### online
 

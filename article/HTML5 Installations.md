@@ -46,9 +46,8 @@ than a megabyte.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/cosmos-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmos-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmos-boulders/src/cosmos-boulders.js
 *   launch-command: launch({ container: document.getElementById("installation") });
-*   inline-description: true
 *   style: #installation-wrapper { display: block; }
-*   inline-description-below: true
+*   inline-description: below
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmos_Boulders)
 
 _Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
@@ -232,7 +231,7 @@ You may wish to read the definition of this cellular automaton:
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/carriage-0.1/carriage.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
 
 This is a web-based interpreter for the "purely concatentive"
@@ -445,7 +444,7 @@ or create your own.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Equipage/eg/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/equipage-1.0-2019.0926/equipage.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "pop-all-positives.equipage" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Equipage)
 
 This is a web-based interpreter for the "purely concatentive"
@@ -493,7 +492,7 @@ modify it, and create your own program.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Flobnar/eg/examplePrograms.jsonp.js,../modules/Flobnar/demo/flobnar-hastec-launcher.js,https://static.catseye.tc/generated-js/flobnar-1.0-2019.0328/flobnar.js
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
 
 This is a web-based interpreter for the esoteric
@@ -594,7 +593,7 @@ browser does not support Web Workers, it may not function correctly.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Oxcart/eg/examplePrograms.jsonp.js,../modules/Oxcart/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/oxcart-1.0/oxcart.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "count-down.oxcart" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Oxcart)
 
 This is a web-based interpreter for the continuation-passing concatentive
@@ -622,7 +621,7 @@ You might also want to read
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/pail-hastec-launcher.js,https://static.catseye.tc/generated-js/pail-1.0-2019.0326/pail.js
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
 
 This is a web-based interpreter for the esoteric
@@ -702,7 +701,7 @@ console, and the evaluation process never finishing.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
 
 This is a web-based interpreter for the pedagogical language
@@ -731,7 +730,7 @@ You might also want to read
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/generated-js/quylthulg-1.0-2019.0326/qlzqqlzuup.js
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
 
 This is a web-based interpreter for the esoteric
@@ -760,7 +759,7 @@ You might also want to read
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.5/robin.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
 
 This is a web-based interpreter for the excessively principled
@@ -832,7 +831,7 @@ a floppy disk somehow...
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
 
 This is a web-based interpreter for the [Velo][] programming language.
@@ -862,7 +861,7 @@ You might also want to read
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
 *   lua-urls: ../modules/Wanda/src/wanda.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
 
 This is a web-based interpreter for the [Wanda][] programming language.
@@ -891,7 +890,7 @@ You might also want to read
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Wagon/eg/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "reverse0.wagon" });
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
 
 This is a web-based interpreter for the second-order concatentive
@@ -1016,7 +1015,7 @@ will consume them in order, and continue running.
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
 *   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/index.js,../modules/ZOWIE/eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
-*   inline-description: true
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
 
 This is a web-based interpreter for the esoteric
