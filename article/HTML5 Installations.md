@@ -44,9 +44,10 @@ than a megabyte.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   inline-description: true
 *   javascript-urls: ../modules/cosmos-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmos-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmos-boulders/src/cosmos-boulders.js
 *   launch-command: launch({ container: document.getElementById("installation") });
+*   inline-description: true
+*   inline-description-below: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmos_Boulders)
 
 _Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
@@ -60,6 +61,9 @@ It is playable with keyboard only.  The key mappings are:
 *   Thrust: **Up Arrow**
 *   Rotate left: **Left Arrow**
 *   Rotate right: **Right Arrow**
+
+If your keypresses seem to be ignored, try clicking inside
+the canvas to make sure it's got the keyboard focus.
 
 ### Super Wumpus Land
 
