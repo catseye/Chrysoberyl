@@ -47,6 +47,7 @@ than a megabyte.
 *   javascript-urls: ../modules/cosmos-boulders/contrib/immutable-3.8.2/dist/immutable.min.js,../modules/cosmos-boulders/contrib/redux-4.0.1/dist/redux.min.js,../modules/cosmos-boulders/src/cosmos-boulders.js
 *   launch-command: launch({ container: document.getElementById("installation") });
 *   inline-description: true
+*   style: #installation-wrapper { display: block; }
 *   inline-description-below: true
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmos_Boulders)
 
