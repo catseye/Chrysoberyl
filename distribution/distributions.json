@@ -1960,6 +1960,11 @@
         "releases": [],
         "reponame": "NaNoGenMo-Entries-2018"
     },
+    "NaNoGenMo-Entries-2019 distribution": {
+        "fixed-tag": "master",
+        "releases": [],
+        "reponame": "NaNoGenMo-Entries-2019"
+    },
     "NetUSB distribution": {
         "releases": [
             {

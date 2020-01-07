@@ -235,6 +235,39 @@ Written in [Befunge-93][] as a commemoration of the 25th Anniversary of Befunge.
 The generated novel consists of 50,000 really lovely words in short paragraphs.
 You can think of it as a kind of fireworks.
 
+### Anne of Green Garbles
+
+*   inception-date: Nov 2019
+*   submitted-to: [NaNoGenMo 2019][] (completed)
+*   entry @ [github.com/NaNoGenMo/2019](https://github.com/NaNoGenMo/2019/issues/118)
+*   online @ [catseye.tc](https://catseye.tc/modules/NaNoGenMo-Entries-2019/Anne%20of%20Green%20Garbles/generated/Anne%20of%20Green%20Garbles.md)
+*   in-distribution: [NaNoGenMo-Entries-2019 distribution](https://catseye.tc/distribution/NaNoGenMo-Entries-2019_distribution)
+
+What do you get when you cross a Markov chain with a regular grammar?
+Perhaps surprisingly, you get a Markov chain that obeys the rules of the regular grammar.
+
+### The Insidiously Rainbow-Wigged Dr. Fu-Manchu
+
+*   inception-date: Nov 2019
+*   submitted-to: [NaNoGenMo 2019][] (completed)
+*   entry @ [github.com/NaNoGenMo/2019](https://github.com/NaNoGenMo/2019/issues/120)
+*   online @ [catseye.tc](https://catseye.tc/modules/NaNoGenMo-Entries-2019/The%20Insidiously%20Rainbow-Wigged%20Dr.%20Fu-Manchu/generated/The%20Insidiously%20Rainbow-Wigged%20Dr.%20Fu-Manchu.md)
+*   in-distribution: [NaNoGenMo-Entries-2019 distribution](https://catseye.tc/distribution/NaNoGenMo-Entries-2019_distribution)
+
+_The moment I opened the dust-covered tome I could feel the noxious waves of Orientalism oozing out from it.
+Whither the antidote?  I racked my brains for anything that might prove effective, but
+precious time was slipping by!  I had to pick something, and fast.  There was no more that I could do but to try it and hope..._
+
+### The Epic of Goog-a-MESH
+
+*   inception-date: Nov 2019
+*   submitted-to: [NaNoGenMo 2019][] (completed)
+*   entry @ [github.com/NaNoGenMo/2019](https://github.com/NaNoGenMo/2019/issues/125)
+*   online @ [catseye.tc](https://catseye.tc/modules/NaNoGenMo-Entries-2019/The%20Epic%20of%20Goog-a-MESH/generated/The%20Epic%20of%20Goog-a-MESH.md)
+*   in-distribution: [NaNoGenMo-Entries-2019 distribution](https://catseye.tc/distribution/NaNoGenMo-Entries-2019_distribution)
+
+Art in the Age of Quantum Supremacy meets Proof in the Age of Oral Tradition.
+
 Links
 -----
 
@@ -248,6 +281,7 @@ Links
 [NaNoGenMo 2015]: ../article/Events.md#nanogenmo-2015
 [NaNoGenMo 2017]: ../article/Events.md#nanogenmo-2017
 [NaNoGenMo 2018]: ../article/Events.md#nanogenmo-2018
+[NaNoGenMo 2019]: ../article/Events.md#nanogenmo-2019
 [Samovar]: ../article/Languages.md#samovar
 [Julia]: https://julialang.org/
 [Befunge-93]: ../article/Languages.md#befunge-93

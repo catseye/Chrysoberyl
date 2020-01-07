@@ -126,6 +126,16 @@ Here is [a list of completed entries for 2018](https://github.com/NaNoGenMo/2018
 We submitted [The League of Extraordinarily Dull Gentlemen][],
 [The Defeat at Procyon V][], and [ETERLAN SEPTEBMER][].
 
+### NaNoGenMo 2019
+
+*   year: 2019
+
+Here is [a list of completed entries for 2019](https://github.com/NaNoGenMo/2019/issues?q=is:open+is:issue+label:completed).
+
+We submitted [Anne of Green Garbles][],
+[The Insidiously Rainbow-Wigged Dr. Fu-Manchu][], and
+[The Epic of Goog-a-MESH][].
+
 - - - -
 
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
@@ -158,4 +168,7 @@ We submitted [The League of Extraordinarily Dull Gentlemen][],
 [The League of Extraordinarily Dull Gentlemen]: ../article/Texts.md#the-league-of-extraordinarily-dull-gentlemen
 [The Defeat at Procyon V]: ../article/Texts.md#the-defeat-at-procyon-v
 [ETERLAN SEPTEBMER]: ../article/Texts.md#eterlan-septebmer
+[Anne of Green Garbles]: ../article/Texts.md#anne-of-green-garbles
+[The Insidiously Rainbow-Wigged Dr. Fu-Manchu]: ../article/Texts.md#the-insidiously-rainbow-wigged-dr-fu-manchu
+[The Epic of Goog-a-MESH]: ../article/Texts.md#the-epic-of-goog-a-mesh
 
