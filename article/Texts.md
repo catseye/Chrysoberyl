@@ -245,6 +245,8 @@ You can think of it as a kind of fireworks.
 
 What do you get when you cross a Markov chain with a regular grammar?
 Perhaps surprisingly, you get a Markov chain that obeys the rules of the regular grammar.
+You can read all about it in [this write-up about this novel generator](https://catseye.tc/view/NaNoGenMo-Entries-2019/Anne%20of%20Green%20Garbles/README.md),
+which includes some snazzy state transition diagrams as well.
 
 ### The Insidiously Rainbow-Wigged Dr. Fu-Manchu
 
