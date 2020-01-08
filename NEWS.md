@@ -5,6 +5,42 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Falderal, Feedmark, NaNoGenMo 2019, and Cosmos Boulders
+
+*   summary: [Falderal](https://catseye.tc/node/Falderal), [Feedmark](https://catseye.tc/node/Feedmark), [NaNoGenMo 2019](https://catseye.tc/node/NaNoGenMo%202019) and [Cosmos Boulders](https://catseye.tc/node/Cosmos%20Boulders).
+*   date: Wed, 08 Jan 2020 23:30:18 GMT
+
+Tying up some loose ends of 2019 before we move on to 2020.
+
+Firstly, our Markdown-based formats [Falderal](https://catseye.tc/node/Falderal)
+and [Feedmark](https://catseye.tc/node/Feedmark) had some new minor releases.
+
+But more importantly, their Python implementations are now available
+as Python packages: [Falderal on PyPI](https://pypi.org/project/Falderal/) and
+[Feedmark on PyPI](https://pypi.org/project/Feedmark/).
+
+But wait, that's not all!  They're also available as Docker images on Docker Hub:
+[catseye/falderal](https://hub.docker.com/r/catseye/falderal) and
+[catseye/feedmark](https://hub.docker.com/r/catseye/feedmark).
+
+Secondly, at the tail end of 2019 Cat's Eye Technologies participated in [NaNoGenMo 2019](https://catseye.tc/node/NaNoGenMo%202019)
+(we just can't seem to stay away from it) resulting in three generated novels:
+[Anne of Green Garbles](https://catseye.tc/node/Anne%20of%20Green%20Garbles),
+[The Insidiously Rainbow-Wigged Dr. Fu-Manchu](https://catseye.tc/node/The%20Insidiously%20Rainbow-Wigged%20Dr.%20Fu-Manchu), and
+[The Epic of Goog-a-MESH](https://catseye.tc/node/The%20Epic%20of%20Goog-a-MESH).
+
+During the first of those novels arose the somewhat surprising (to me) result that
+the intersection of a Markov chain and a regular grammar is another
+Markov chain — one which obeys the rules of the regular grammar.
+You can read all about it in [this write-up](https://catseye.tc/view/NaNoGenMo-Entries-2019/Anne%20of%20Green%20Garbles/README.md),
+which includes some snazzy state transition diagrams as well.
+
+Finally, [Cosmos Boulders](https://catseye.tc/node/Cosmos%20Boulders) is an arcade-style
+game written in JavaScript using reducers and immutable data structures.  It's not
+particularly original, but it's written in a purely function style.  We hope to
+write a second version using [Nested Modal Transducers](https://github.com/catseye/Nested-Modal-Transducers)
+for comparison.
+
 ### Our third esolang of 2019: Oxcart
 
 *   summary: Our third esolang of 2019: [Oxcart](https://catseye.tc/node/Oxcart).
