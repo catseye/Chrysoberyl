@@ -1152,6 +1152,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/feedmark-0.10.zip",
                 "version": "0.10"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/feedmark-0.11.zip",
+                "version": "0.11"
             }
         ],
         "reponame": "Feedmark",
