@@ -5,6 +5,24 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Version 0.6 of Robin released
+
+*   summary: Version 0.6 of [Robin](https://catseye.tc/node/Robin) released.
+*   date: Mon, 02 Mar 2020 09:12:04 GMT
+
+A new version of Cat's Eye Technologies' "excessively principled"
+Scheme-like programming language [Robin](https://catseye.tc/node/Robin)
+has been released.
+
+The highlight of this release is that exceptions and exception handlers
+have been removed from the language.  Conventional exception handlers
+are in essence dynamically scoped, and thus break referential transparency,
+while lexical exception handlers have limited usefulness.  Exceptions
+have therefore been replaced by "abort values", which are the wrong
+type for almost all operations, and in this manner bubble up to the top
+level of evaluation just as an exception would.  Referential transparency
+has thus been restored to the language.
+
 ### Falderal, Feedmark, NaNoGenMo 2019, and Cosmos Boulders
 
 *   summary: [Falderal](https://catseye.tc/node/Falderal), [Feedmark](https://catseye.tc/node/Feedmark), [NaNoGenMo 2019](https://catseye.tc/node/NaNoGenMo%202019) and [Cosmos Boulders](https://catseye.tc/node/Cosmos%20Boulders).
