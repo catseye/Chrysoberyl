@@ -5,6 +5,24 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Version 0.7 of Robin released
+
+*   summary: Version 0.7 of [Robin](https://catseye.tc/node/Robin) released.
+*   date: Wed, 25 Mar 2020 10:22:26 GMT
+
+A new version of Cat's Eye Technologies' "excessively principled"
+Scheme-like programming language [Robin](https://catseye.tc/node/Robin)
+has been released.
+
+The highlight of this release is that it is now allowed to define a
+symbol after it has already been defined, which is understood as providing
+multiple semantically equivalent definitions for the symbol.  An
+implementation of Robin is allowed to (but not required to) try to disprove
+that the given definitions are semantically equivalent, and indeed the
+reference implementation has a way to run property tests (written using
+QuickCheck) on all such multiple definitions, trying to find cases where
+their behaviours differ.
+
 ### Version 0.6 of Robin released
 
 *   summary: Version 0.6 of [Robin](https://catseye.tc/node/Robin) released.
