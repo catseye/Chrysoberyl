@@ -862,6 +862,11 @@
                 "revision": "2015.0101",
                 "url": "https://catseye.tc/distfiles/emmental-1.0-2015.0101.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2020.0326",
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2020.0326.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Emmental"
