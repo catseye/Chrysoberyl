@@ -434,6 +434,38 @@ Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
+### Emmental
+
+*   installation-of: [Emmental][]
+*   installed-implementation: emmental.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Emmental/eg/examplePrograms.jsonp.js,../modules/Emmental/demo/hastec-io-launcher.js,https://static.catseye.tc/generated-js/emmental-1.0-2020.0326/emmental.js
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Emmental)
+
+This is a web-based interpreter for the esoteric
+programming language [Emmental][].
+
+Technically, it is `Emmental.hs` (the reference implementation
+of Pail, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+Some programs take input.  When running one of these
+programs, you should type all the input into the input box
+before running the program.
+
+You might also want to read
+[the description of the Emmental programming language](https://catseye.tc/view/Emmental/README.md).
+
 ### Equipage
 
 *   installation-of: [Equipage][]
