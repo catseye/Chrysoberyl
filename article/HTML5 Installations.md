@@ -442,6 +442,7 @@ or create your own.
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Emmental/eg/examplePrograms.jsonp.js,../modules/Emmental/demo/hastec-io-launcher.js,https://static.catseye.tc/generated-js/emmental-1.0-2020.0326/emmental.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.emmental" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Emmental)
 
