@@ -789,13 +789,13 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.5/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.5/robin.js
+*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.7/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.7/robin.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
 
 This is a web-based interpreter for the excessively principled
-functional programming language [Robin][].
+functional programming language [Robin][], version 0.7.
 
 Technically, it is `Language.Robin` (the reference implementation
 of Robin, written in [Haskell][]) compiled to [Javascript][]
