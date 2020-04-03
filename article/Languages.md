@@ -1212,7 +1212,7 @@ In fact, this mechanism is required for Emmental to be [Turing-complete][].
 Emmental was followed up by [Mascarpone][], which tried to make this
 self-modifying mechanism cleaner.
 
-#### Reference Implementation: emmental.hs
+#### Reference Implementation: Language.Emmental
 
 *   license: Public Domain
 *   implementation-type: interpreter
@@ -1274,9 +1274,9 @@ interpreter which defines it, like its predecessor [Emmental][].  Unlike Emmenta
 however, in Mascarpone interpreters are first-class objects, making the
 job of reflective interpreter-modification quite a bit cleaner and richer.
 
-#### Reference Implementation: mascarpone.hs
+#### Reference Implementation: Language.Mascarpone
 
-*   license: BSD license
+*   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
