@@ -450,7 +450,7 @@ This is a web-based interpreter for the esoteric
 programming language [Emmental][].
 
 Technically, it is `Emmental.hs` (the reference implementation
-of Pail, written in [Haskell][]) compiled to [Javascript][]
+of Emmental, written in [Haskell][]) compiled to [Javascript][]
 by the [Haste][] compiler, running in an [HTML5][] document.
 
 Instructions:
@@ -593,6 +593,39 @@ If v86 doesn't work in your browser, you can
 and use it in an emulator such as [QEMU][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
+
+### Mascarpone
+
+*   installation-of: [Mascarpone][]
+*   installed-implementation: mascarpone.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Mascarpone/eg/examplePrograms.jsonp.js,../modules/Mascarpone/demo/hastec-io-launcher.js,https://static.catseye.tc/generated-js/mascarpone-1.0-2020.0326/mascarpone.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.mascarpone" });
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Mascarpone)
+
+This is a web-based interpreter for the esoteric
+programming language [Mascarpone][].
+
+Technically, it is `Mascarpone.hs` (the reference implementation
+of Pail, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+Some programs take input.  When running one of these
+programs, you should type all the input into the input box
+before running the program.
+
+You might also want to read
+[the description of the Mascarpone programming language](https://catseye.tc/view/Mascarpone/README.md).
 
 ### Matchbox
 

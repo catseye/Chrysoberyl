@@ -1198,6 +1198,7 @@ which to detect all possible compiler-hanging-templates.)
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Emmental distribution](https://catseye.tc/distribution/Emmental_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Emmental)
+*   online @ [catseye.tc](https://catseye.tc/installation/Emmental)
 
 Sample program:
 
@@ -1207,6 +1208,9 @@ Emmental is a self-modifying programming language.  It is defined
 in terms of a meta-circular interpreter, and this meta-circular interpreter
 provides an operation that redefines operations of the meta-circular interpreter.
 In fact, this mechanism is required for Emmental to be [Turing-complete][].
+
+Emmental was followed up by [Mascarpone][], which tried to make this
+self-modifying mechanism cleaner.
 
 #### Reference Implementation: emmental.hs
 
@@ -1259,6 +1263,7 @@ that convert programs between the two forms.
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Mascarpone distribution](https://catseye.tc/distribution/Mascarpone_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Mascarpone)
+*   online @ [catseye.tc](https://catseye.tc/installation/Mascarpone)
 
 Sample program:
 
