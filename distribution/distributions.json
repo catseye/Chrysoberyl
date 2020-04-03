@@ -1882,6 +1882,11 @@
                 "revision": "2015.0101",
                 "url": "https://catseye.tc/distfiles/mascarpone-1.0-2015.0101.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2020.0403",
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2020.0403.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Mascarpone"
