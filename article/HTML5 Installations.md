@@ -601,7 +601,7 @@ a floppy disk somehow...
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Mascarpone/eg/examplePrograms.jsonp.js,../modules/Mascarpone/demo/hastec-io-launcher.js,https://static.catseye.tc/generated-js/mascarpone-1.0-2020.0326/mascarpone.js
+*   javascript-urls: ../modules/Mascarpone/eg/examplePrograms.jsonp.js,../modules/Mascarpone/demo/hastec-io-launcher.js,https://static.catseye.tc/generated-js/mascarpone-1.0-2020.0403/mascarpone.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.mascarpone" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Mascarpone)
