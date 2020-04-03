@@ -2924,6 +2924,7 @@ forms a monoid like conventional function composition.
 [Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
 [Lua]: ../article/Project%20Dependencies.md#lua
+[Mascarpone]: ../article/Languages.md#mascarpone
 [Marinus]: http://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [Pifxley]: ../article/Languages.md#pifxley
