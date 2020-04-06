@@ -5,6 +5,27 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Web-based interpreters for Emmental and Mascarpone
+
+*   summary: Web-based interpreters for [Emmental](https://catseye.tc/installation/Emmental) and [Mascarpone](https://catseye.tc/installation/Mascarpone).
+*   date: Mon, 06 Apr 2020 13:08:48 GMT
+
+We've made new minor releases of our self-modifying programming languages
+[Emmental](https://catseye.tc/node/Emmental) and
+[Mascarpone](https://catseye.tc/node/Mascarpone).
+
+We've modernized the build systems in both of these language distributions,
+and in the process we've enabled web-based interpreters to be built
+for these languages, by compiling their Haskell reference implementations
+to JavaScript using the Haste compiler.
+
+And we've put those web-based interpreters online at catseye.tc,
+[here (Emmental)](https://catseye.tc/installation/Emmental) and
+[here (Mascarpone)](https://catseye.tc/installation/Mascarpone).
+
+We've also placed the contents of the Mascarpone distribution in the
+public domain, to match the Emmental distribution.
+
 ### Version 0.7 of Robin released
 
 *   summary: Version 0.7 of [Robin](https://catseye.tc/node/Robin) released.
