@@ -266,6 +266,21 @@ of entering [SITU-MON][] into an emulated C64.
 *   host-language: [Commodore BASIC 2.0][]
 *   host-platform: [Commodore 64][]
 
+### tagfarm
+
+*   inception-date: Apr 2020
+*   development-stage: not fully complete
+*   reference-distribution: [tagfarm distribution](https://catseye.tc/distribution/tagfarm_distribution)
+
+`tagfarm` is an ultra-lightweight, filesystem-based categorization system for arbitrary
+files.  Each tag is implemented as a directory full of symbolic links to files with that tag.
+
+#### Implementation: tree (Python)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Python][]
+
 ### The Swallows Engine
 
 *   summary: An engine for generating non-interactive fiction
