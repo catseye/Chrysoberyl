@@ -275,7 +275,7 @@ of entering [SITU-MON][] into an emulated C64.
 `tagfarm` is an ultra-lightweight, filesystem-based categorization system for arbitrary
 files.  Each tag is implemented as a directory full of symbolic links to files with that tag.
 
-#### Implementation: tree (Python)
+#### Implementation: tagfarm (Python)
 
 *   reference: true
 *   license: Public Domain
