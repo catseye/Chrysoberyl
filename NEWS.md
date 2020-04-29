@@ -5,6 +5,20 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### tagfarm, an ultra-lightweight categorization system for arbitrary files
+
+*   summary: [tagfarm](https://catseye.tc/node/tagfarm), an ultra-lightweight categorization system for arbitrary files, has been released.
+*   date: Wed, 29 Apr 2020 14:45:46 GMT
+
+We've designed an ultra-lightweight system for categorizing arbitrary files in
+a filesystem and christened it [`tagfarm`](https://catseye.tc/node/tagfarm).
+
+`tagfarm` associates each file in a file tree with zero or more tags. Each tag
+is implemented as a directory containing symbolic links to the files that
+have that tag. And that, along with a little script to add, remove, and
+repair tags after the files themselves may have moved, is basically all it
+is - hence "ultra-lightweight".
+
 ### Web-based interpreters for Emmental and Mascarpone
 
 *   summary: Web-based interpreters for [Emmental](https://catseye.tc/installation/Emmental) and [Mascarpone](https://catseye.tc/installation/Mascarpone).
