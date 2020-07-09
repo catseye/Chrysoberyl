@@ -7,7 +7,7 @@
 
 ### Tandem, an experimental rewriting language
 
-*   summary: [Tandem](https://catseye.tc/node/Tandem), an experimental rewriting language has been released.
+*   summary: [Tandem](https://catseye.tc/node/Tandem), an experimental rewriting language, has been released.
 *   date: Thu, 09 Jul 2020 15:37:23 GMT
 
 We've designed and released the first version of [Tandem](https://catseye.tc/node/Tandem),
