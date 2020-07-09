@@ -5,6 +5,23 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Tandem, an experimental rewriting language
+
+*   summary: [Tandem](https://catseye.tc/node/Tandem), an experimental rewriting language has been released.
+*   date: Thu, 09 Jul 2020 15:37:23 GMT
+
+We've designed and released the first version of [Tandem](https://catseye.tc/node/Tandem),
+an experimental rewriting language where the rewrite rules form a
+[Kleene algebra](https://en.wikipedia.org/wiki/Kleene_algebra).
+The object being rewritten by a Tandem program is a collection of labelled stacks — a finite mapping
+from strings to strings. The strings are always rewritten at the left edge, so they are effectively stacks.
+
+Writing finite automata, push-down automata, Turing machines, and other automata is quite natural in Tandem,
+because transition rules such as "In state 4, if the next character in the input is `g`, consume it and
+push `$` onto the stack and go to state 9" translate quite straightforwardly to rewrite rules such as
+
+    Q4 → 9 & Ig… → … & K… → $…
+
 ### tagfarm, an ultra-lightweight categorization system for arbitrary files
 
 *   summary: [tagfarm](https://catseye.tc/node/tagfarm), an ultra-lightweight categorization system for arbitrary files, has been released.
