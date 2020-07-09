@@ -2930,6 +2930,12 @@ push `$` onto the stack and go to state 9" translate quite straightforwardly to 
 
     Q4 → 9 & Ig… → … & K… → $…
 
+#### Reference Implementation: Language.Tandem
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill
 [ALPACA]: ../article/Languages.md#alpaca
