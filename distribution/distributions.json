@@ -3015,6 +3015,20 @@
         "reponame": "Tamsin",
         "tag-style": "new"
     },
+    "Tandem distribution": {
+        "entries": [
+            "Tandem"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/tandem-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Tandem",
+        "tag-style": "new"
+    },
     "The Cannery": {
         "fixed-tag": "55fe814",
         "releases": [],

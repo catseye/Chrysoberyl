@@ -2883,7 +2883,7 @@ Sample program:
 
     <0^^^^^^^^^^>S:<:v:)%
 
-Oxcart is another purely concatentive (in the sense of [Equipage][]) language;
+Oxcart is another purely concatenative (in the sense of [Equipage][]) language;
 but this time it's a continuation-passing concatenative language.
 Instead of functions which take states to states, the symbols of the language represent
 functions which are written in continuation-passing style (CPS), i.e. they
@@ -2896,6 +2896,39 @@ forms a monoid like conventional function composition.
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
+
+### Tandem
+
+*   type: Programming Language
+*   inception-date: June 2020
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: Turing-complete
+*   paradigms: String-rewriting
+*   reference-distribution: [Tandem distribution](https://catseye.tc/distribution/Tandem_distribution)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/Tandem)
+
+Sample program:
+
+    {B:I,O}
+    Q → 0 &
+    O → N &
+    (
+      Q0 → 1 & Ic… → … |
+      Q1 → 2 & Ia… → … |
+      Q1 → 2 & Io… → … |
+      Q2 → 3 & It → & O… → Y
+    )*
+
+Tandem is an experimental rewriting language where the rewrite rules form a Kleene algebra.
+The object being rewritten by a Tandem program is a collection of labelled stacks — a finite mapping
+from strings to strings. The strings are always rewritten at the left edge, so they are effectively stacks.
+
+Writing finite automata, push-down automata, Turing machines, and other automata is quite natural in Tandem,
+because transition rules such as "In state 4, if the next character in the input is `g`, consume it and
+push `$` onto the stack and go to state 9" translate quite straightforwardly to rewrite rules such as
+
+    Q4 → 9 & Ig… → … & K… → $…
 
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill
