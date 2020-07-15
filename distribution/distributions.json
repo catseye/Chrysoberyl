@@ -1758,6 +1758,16 @@
         ],
         "reponame": "Larabee"
     },
+    "Latcarf distribution": {
+        "entries": [
+            "Latcarf"
+        ],
+        "fixed-tag": "7817a22",
+        "reference": true,
+        "releases": [],
+        "reponame": "Latcarf",
+        "tag-style": "new"
+    },
     "Lexeduct distribution": {
         "entries": [
             "Lexeduct"

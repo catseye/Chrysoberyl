@@ -237,8 +237,8 @@ as the "see and say" sequence) using turtle graphics: 1 means turn while
 
 ### Latcarf
 
-*   inception date: May 2016
-*   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   inception date: Feb 2018
+*   reference distribution: [Latcarf distribution](https://catseye.tc/distribution/Latcarf_distribution)
 *   reference implementation name: latcarf.js
 *   online @ [catseye.tc](https://catseye.tc/installation/Latcarf)
 

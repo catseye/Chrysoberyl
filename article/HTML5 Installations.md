@@ -1467,11 +1467,17 @@ happens.)
 *   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/html5-gewgaws/latcarf/latcarf.js
-*   script-root: ../modules/html5-gewgaws/latcarf/yoob/
+*   javascript-urls: ../modules/latcarf/src/latcarf.js,../modules/latcarf/demo/dam-plus-widgets-web.js,../modules/latcarf/demo/latcarf-launcher.js
+*   launch-command: launch({ container: document.getElementById('installation') });
 *   online @ [catseye.tc](https://catseye.tc/ix/Latcarf)
 
-Latcarf.
+Most recursive fractals are created top-down: start with a big thing, add some smaller things to it,
+add some even smaller things to those things, etc.
+
+I was curious about what it would be like if a fractal was generated bottom-up: start with many small
+things, connect them to larger things, then connect those to even larger things, etc.
+
+This is the result of implementing that method.
 
 ### Lexeduct
 
