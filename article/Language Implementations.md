@@ -10,34 +10,6 @@ but which were not designed by Cat's Eye Technologies.  For those, see [Language
 
 Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some language projects.
 
-### PL-{GOTO}.NET
-
-*   implementation of: [PL-{GOTO}][]
-*   implementation type: compiler
-*   host language: [Haskell][]
-*   target language: [MSIL][]
-*   inception date: May 2011
-*   in distribution: [PL-{GOTO}.NET distribution](https://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
-*   online @ [catseye.tc](https://catseye.tc/installation/PL-{GOTO})
-
-PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
-from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_.
-PL-{GOTO} can express exactly the
-primitive recursive functions, and thus PL-{GOTO} programs
-always terminate. PL-{GOTO}.NET generates MSIL code which
-can then (using `ilasm`) be turned into a .NET
-executable.  It can also execute PL-{GOTO} programs
-directly.
-
-I've been idly fascinated by the primitive recursive example programming language
-PL-{GOTO} from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_ for some time.
-And for some reason I will never be able to explain, I had the craving to implement a compiler
-which could produce .NET executables by generating MSIL assembly language.  And putting
-those two together — well, that struck me as a respectably absurd match, so that's what I did.
-The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
-to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
-keeping the `←` symbol for assignment.
-
 ### aubergine.hs
 
 *   implementation of: [Aubergine][]
@@ -51,6 +23,20 @@ the language description suggests.  After implementing it, I was familiar
 enough with it to write a sketch of a proof of its [Turing-complete][]ness.
 
 Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergine.hs).
+
+### Cardboard Prolog
+
+*   implementation of: Prolog
+*   implementation type: interpreter
+*   host language: [Scheme][]
+*   inception date: ca 2018
+*   in distribution: [Cardboard Prolog distribution](https://catseye.tc/distribution/Cardboard_Prolog_distribution)
+
+When I was refreshing myself on how a Prolog interpreter works, I found several descriptions and examples
+of Prolog interpreters online, but none were quite what I wanted, so I wrote this.  It's a tiny
+inference engine (~120 lines) written in purely functional R5RS Scheme.  It lacks all the amenties of
+the Prolog language proper, and it uses Scheme literals instead of Prolog syntax, but it does do the
+thing that's at the core of Prolog execution: deduction based on Horn clauses.
 
 ### muriel.pl
 
@@ -91,6 +77,34 @@ Written in Erlang, it contains just about every feature under the sun, including
 I sort of lost interest when I was adding profiling and discovered there were several different
 extant reckonings of a "number of instructions executed" metric for Brainfuck.  I guess it was that
 point that made me recognize just how silly this project was...
+
+### PL-{GOTO}.NET
+
+*   implementation of: [PL-{GOTO}][]
+*   implementation type: compiler
+*   host language: [Haskell][]
+*   target language: [MSIL][]
+*   inception date: May 2011
+*   in distribution: [PL-{GOTO}.NET distribution](https://catseye.tc/distribution/PL-{GOTO}.NET_distribution)
+*   online @ [catseye.tc](https://catseye.tc/installation/PL-{GOTO})
+
+PL-{GOTO}.NET is a compiler for the language PL-{GOTO}
+from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_.
+PL-{GOTO} can express exactly the
+primitive recursive functions, and thus PL-{GOTO} programs
+always terminate. PL-{GOTO}.NET generates MSIL code which
+can then (using `ilasm`) be turned into a .NET
+executable.  It can also execute PL-{GOTO} programs
+directly.
+
+I've been idly fascinated by the primitive recursive example programming language
+PL-{GOTO} from Brainerd and Landweber's _[Theory of Computation](http://www.worldcat.org/title/theory-of-computation/oclc/694056)_ for some time.
+And for some reason I will never be able to explain, I had the craving to implement a compiler
+which could produce .NET executables by generating MSIL assembly language.  And putting
+those two together — well, that struck me as a respectably absurd match, so that's what I did.
+The compiler is written in Haskell and uses Parsec for parsing PL-{GOTO} programs; I tried
+to keep the grammar true to what is presented in the book, not refactoring it to be LL(1), and
+keeping the `←` symbol for assignment.
 
 ### sf2tab
 

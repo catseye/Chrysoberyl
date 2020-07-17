@@ -504,6 +504,16 @@
         "reponame": "Canvas-Feedback",
         "tag-style": "new"
     },
+    "Cardboard Prolog distribution": {
+        "entries": [
+            "Cardboard Prolog"
+        ],
+        "fixed-tag": "c94d588",
+        "reference": true,
+        "releases": [],
+        "reponame": "Cardboard-Prolog",
+        "tag-style": "new"
+    },
     "Carriage distribution": {
         "entries": [
             "Carriage"
