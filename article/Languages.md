@@ -2190,11 +2190,11 @@ Sample program:
 
 Robin is a functional programming language with eager evaluation, latent typing,
 and a homoiconic syntax (see [Scheme][]), based on a radically simple core semantics
-(see [Pixley][]) in which the macro, rather than the function, is the fundamental
-abstraction (see [PicoLisp][], but we go even further here).
+(see [Pixley][]) in which both functions and macros are defined in terms of a more
+basic abstraction, the [fexpr][].
 
 Expressions in Robin are referentially transparent; programs interact with the outside
-world through a reactive framework.
+world through an event-oriented framework.
 
 Robin was originally a design for a [Pixley][]-based operating system (or something
 similar to an operating system) which was heavily resource-oriented; almost
@@ -3014,4 +3014,4 @@ push `$` onto the stack and go to state 9" translate quite straightforwardly to 
 [Maxixe]: ../article/Languages.md#maxixe
 [Equipage]: ../article/Languages.md#equipage
 [x86 machine code]: ../article/Project%20Dependencies.md#ibm-pc-compatible
-
+[fexpr]: https://en.wikipedia.org/wiki/Fexpr
