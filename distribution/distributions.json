@@ -2477,6 +2477,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/robin-0.7.zip",
                 "version": "0.7"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/robin-0.8.zip",
+                "version": "0.8"
             }
         ],
         "reponame": "Robin",
