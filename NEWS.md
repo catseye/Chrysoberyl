@@ -5,6 +5,29 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Version 0.8 of Robin released
+
+*   summary: Version 0.8 of [Robin](https://catseye.tc/node/Robin) has been released.
+*   date: Thu, 20 Aug 2020 10:13:35 GMT
+
+A new version of Cat's Eye Technologies' excessively principled
+Scheme-like programming language [Robin](https://catseye.tc/node/Robin)
+has been released.
+
+This is a fairly major release for Robin, as there is a change of
+terminology: what were previously called "macros" are now called
+by the more obscure, but more accurate term "fexprs".
+
+In Robin, both macros and functions are defined in terms of fexprs.
+
+Fexprs also no longer get passed a `self` argument; instead, to
+achieve recursion, a recursive fexpr must be written.  This is
+analogous to a recursive function.
+
+The Robin Tutorial has also been significantly fleshed out.  It
+aims to be a good overview of the language for programmers who
+are already somewhat familiar with Lisp or Scheme.
+
 ### Tandem, an experimental rewriting language
 
 *   summary: [Tandem](https://catseye.tc/node/Tandem), an experimental rewriting language, has been released.
