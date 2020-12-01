@@ -5,6 +5,26 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Version 0.3 of ellsync released
+
+*   summary: Version 0.3 of [ellsync](https://catseye.tc/node/ellsync) has been released.
+*   date: Tue, 01 Dec 2020 11:27:11 GMT
+
+[`ellsync`](https://catseye.tc/node/ellsync) is an opinionated poka-yoke for rsync,
+for the primary purpose of maintaining a backup system.
+
+Version 0.3 has been released, which, along with some cleanup of the internals,
+provides two more measures for quality assurance.
+
+First, after `rsync` has completed, the system's `sync` command is run.  So
+`ellsync` does not finish until all of the changes have been written to disk.
+
+Second, a `--thorough` option has been added.  This runs `rsync` in a mode
+where it thoroughly checks for differences between files, even if the source
+file's timestamp has not changed.  This can detect files which have become
+corrupted, and also repair the backup file, if the original file has not been
+corrupted as well.
+
 ### Version 0.8 of Robin released
 
 *   summary: Version 0.8 of [Robin](https://catseye.tc/node/Robin) has been released.
