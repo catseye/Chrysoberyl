@@ -1781,13 +1781,16 @@ Use the navigation buttons to traverse the space of the work.
 [v86]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Fengari]: https://fengari.io/
 [Java Web Start]: http://docs.oracle.com/javase/8/docs/technotes/guides/javaws/
+[Haskell]: ../article/Project%20Dependencies.md#haskell
 [HTML5]: https://www.w3.org/TR/html5/
+[Lua]: ../article/Project%20Dependencies.md#lua
 [Python]: ../article/Project%20Dependencies.md#python
 [Skulpt]: http://www.skulpt.org/
 [PixiJS]: http://pixijs.com/
 [SVG]: https://www.w3.org/Graphics/SVG/
 [Nam June Paik]: https://en.wikipedia.org/wiki/Nam_June_Paik
 [Bubble Escape 2K]: ../article/Games.md#bubble-escape
+[Cosmos Boulders]: ../article/Games.md#cosmos-boulders
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [Super Wumpus Land]: ../article/Games.md#super-wumpus-land
@@ -1809,9 +1812,12 @@ Use the navigation buttons to traverse the space of the work.
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Black]: http://esolangs.org/wiki/Black
 [Braktif]: ../article/Automata.md#braktif
+[Carriage]: ../article/Languages.md#carriage
 [Circute]: ../article/Automata.md#circute
 [Cyclobots]: ../article/Automata.md#cyclobots
 [DOSBox]: ../article/Project%20Dependencies.md#ms-dos
+[Emmental]: ../article/Languages.md#emmental
+[Equipage]: ../article/Languages.md#equipage
 [Etcha]: ../article/Languages.md#etcha
 [Flobnar]: ../article/Languages.md#flobnar
 [FreeDOS]: ../article/Project%20Dependencies.md#ms-dos
@@ -1821,10 +1827,13 @@ Use the navigation buttons to traverse the space of the work.
 [Jaccia]: ../article/Automata.md#jaccia
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: http://esolangs.org/wiki/LNUSP
+[Mascarpone]: ../article/Languages.md#mascarpone
+[Oxcart]: ../article/Languages.md#oxcart
 [Pail]: ../article/Languages.md#pail
 [PATH]: http://esolangs.org/wiki/PATH
 [PL-{GOTO}]: http://www.worldcat.org/title/theory-of-computation/oclc/694056
 [PL-{GOTO}.NET]: ../article/Language%20Implementations.md#pl-gotonet
+[Robin]: ../article/Languages.md#robin
 [QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [Qdeql]: http://esolangs.org/wiki/Qdeql
 [Quylthulg]: ../article/Languages.md#quylthulg
@@ -1834,6 +1843,8 @@ Use the navigation buttons to traverse the space of the work.
 [Sceql]: http://esolangs.org/wiki/Sceql
 [Shelta]: ../article/Languages.md#shelta
 [Velo]: ../article/Languages.md#velo
+[Wanda]: ../article/Languages.md#wanda
+[Wagon]: ../article/Languages.md#wagon
 [Whothm]: ../article/Languages.md#whothm
 [Wunnel]: ../article/Languages.md#wunnel
 [Ypsilax]: ../article/Languages.md#ypsilax
@@ -1852,6 +1863,7 @@ Use the navigation buttons to traverse the space of the work.
 [Circus Xamulus]: ../article/Gewgaws.md#circus-xamulus
 [Colourring]: ../article/Gewgaws.md#colourring
 [Eine kleine Glitchfraktal]: ../article/Gewgaws.md#eine-kleine-glitchfraktal
+[Erratic Turtle Graphics]: ../article/Gewgaws.md#erratic-turtle-graphics
 [Fibonacci Spiral]: ../article/Gewgaws.md#fibonacci-spiral
 [Fingerspelling]: ../article/Gewgaws.md#fingerspelling
 [Heronsis hermnonicii]: ../article/Gewgaws.md#heronsis-hermnonicii
