@@ -114,7 +114,7 @@ A circle-based time-lapse space-filler.
 *   reference implementation name: colourring.js
 *   online @ [catseye.tc](https://catseye.tc/installation/Colourring)
 
-An attempt to make some generative art with as much coour contrast as
+An attempt to make some generative art with as much colour contrast as
 possible, or at least, a lot of colour contrast.
 
 ### Eine kleine Glitchfraktal
