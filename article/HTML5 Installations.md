@@ -260,6 +260,7 @@ You might also want to read
 *   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
 *   launch-command: launch({ width: 500, height: 500, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Chzrxl)
 
 Instructions:
@@ -1166,6 +1167,7 @@ Use your mouse (or your finger, on a touch device) to restore the artwork.
 *   javascript-urls: ../modules/html5-gewgaws/bezier-knots/bezier-knots.js
 *   script-root: ../modules/html5-gewgaws/bezier-knots/yoob/
 *   style: #panel-container { display: inline-block; text-align: right; }
+*   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Bézier_Knots)
 
 Changing the number of segments or rings will automatically re-roll the knots.
@@ -1314,6 +1316,7 @@ Colourring.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/eine-kleine-glitchfraktal/eine-kleine-glitchfraktal.js
 *   script-root: ../modules/html5-gewgaws/eine-kleine-glitchfraktal/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Eine_kleine_Glitchfraktal)
 
 Select a mode from from the MODE dropdown to see different styles
