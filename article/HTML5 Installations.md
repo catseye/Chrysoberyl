@@ -1298,6 +1298,7 @@ Simply wait, and the rectangle will fill up with randomly-sized circles
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/colourring/colourring.js
 *   script-root: ../modules/html5-gewgaws/colourring/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Colourring)
 
 Colourring.
