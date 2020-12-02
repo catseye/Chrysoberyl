@@ -1469,7 +1469,7 @@ happens.)
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/latcarf/src/latcarf.js,../modules/latcarf/demo/dam-plus-widgets-web.js,../modules/latcarf/demo/latcarf-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   mainstage-dimensions: 800x600
+*   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Latcarf)
 
 Most recursive fractals are created top-down: start with a big thing, add some smaller things to it,
@@ -1519,7 +1519,7 @@ Then it will generate some of its own.
 *   javascript-urls: ../modules/maze-clouds/src/maze-clouds.js,../modules/maze-clouds/demo/dam-plus-widgets-web.js,../modules/maze-clouds/demo/maze-clouds-svg-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation svg { display: inline-block; height: 600px; width: 600px; }
-*   mainstage-dimensions: 600x600
+*   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
 
 A simple generative technique to generate mazy, cloudy forms.

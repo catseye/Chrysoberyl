@@ -97,11 +97,11 @@ A command you can run locally to run the given JAR.
 
 v86-floppy-image-url
 
-### mainstage-dimensions
+### extra-stylesheets
 
 *   optional: true
 
-mainstage-dimensions
+extra-stylesheets
 
 ### inline-description
 
