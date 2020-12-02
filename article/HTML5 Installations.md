@@ -1458,6 +1458,7 @@ simple at all.
 *   javascript-urls: ../modules/html5-gewgaws/kolakoski-kurve/kolakoski-kurve.js
 *   script-root: ../modules/html5-gewgaws/kolakoski-kurve/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Kolakoski_Kurve)
 
 The segment length can be changed while a curve is being drawn.
@@ -1620,6 +1621,7 @@ Progression.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/radialjective/radialjective.js
 *   script-root: ../modules/html5-gewgaws/radialjective/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Radialjective)
 
 Radialjective.
@@ -1634,6 +1636,7 @@ Radialjective.
 *   javascript-urls: ../modules/html5-gewgaws/rigamaroads/rigamaroads.js
 *   script-root: ../modules/html5-gewgaws/rigamaroads/yoob/
 *   style: #installation canvas { background-color: black; }
+*   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Rigamaroads)
 
 Rigamaroads.
@@ -1647,6 +1650,7 @@ Rigamaroads.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/semicircle-jam/semicircle-jam.js
 *   script-root: ../modules/html5-gewgaws/semicircle-jam/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Semicircle_Jam)
 
 Semicircle Jam.
@@ -1660,6 +1664,7 @@ Semicircle Jam.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/spadgets/spadgets.js
 *   script-root: ../modules/html5-gewgaws/spadgets/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Spadgets)
 
 Spadgets.
@@ -1673,6 +1678,7 @@ Spadgets.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/tentacles-undamped/tentacles-undamped.js
 *   script-root: ../modules/html5-gewgaws/tentacles-undamped/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Tentacles,_Undamped)
 
 Tentacles, Undamped.
@@ -1726,6 +1732,7 @@ of the computer screen.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/the-judgment-of-paris/the-judgment-of-paris.js
 *   script-root: ../modules/html5-gewgaws/the-judgment-of-paris/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Judgment_of_Paris)
 
 The Judgment of Paris.
@@ -1752,6 +1759,7 @@ Two Fifty Six.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/uncle-ankur/uncle-ankur.js
 *   script-root: ../modules/html5-gewgaws/uncle-ankur/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Uncle_Ankur)
 
 Uncle Ankur.
