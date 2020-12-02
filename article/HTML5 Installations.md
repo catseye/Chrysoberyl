@@ -1113,6 +1113,7 @@ You might also want to read
 *   javascript-urls: ../modules/html5-gewgaws/a-minimalist-critique/a-minimalist-critique.js
 *   script-root: ../modules/html5-gewgaws/a-minimalist-critique/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
+*   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
 
 A minimalist critique of Tetris.
@@ -1284,6 +1285,7 @@ process.
 *   javascript-urls: ../modules/html5-gewgaws/circus-xamulus/circus-xamulus.js
 *   script-root: ../modules/html5-gewgaws/circus-xamulus/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   extra-stylesheets: ../stylesheet/mainstage-800x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Circus_Xamulus)
 
 Simply wait, and the rectangle will fill up with randomly-sized circles
@@ -1419,6 +1421,7 @@ Plus it's fun to click on the red balls.
 *   javascript-urls: ../modules/html5-gewgaws/hirsute-miasma/hirsute-miasma.js
 *   script-root: ../modules/html5-gewgaws/hirsute-miasma/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Hirsute_Miasma)
 
 The animation will eventually cycle if you're patient (although it won't
