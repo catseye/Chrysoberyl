@@ -1382,7 +1382,7 @@ The animation is simply a zooming out and back in on the spiral.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/fingerspelling/fingerspelling.js
 *   script-root: ../modules/html5-gewgaws/fingerspelling/yoob/
-*   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; } #about_panel p { margin-top: 2em; }
+*   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; } #about_panel p { line-height: 1.5em; }
 *   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](https://catseye.tc/ix/Fingerspelling)
 
