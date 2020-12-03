@@ -315,6 +315,7 @@ You may wish to read the definition of this cellular automaton:
 *   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
 *   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   extra-stylesheets: ../stylesheet/mainstage-640x480.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
 
 This is an in-browser implementation of [Cyclobots][].
@@ -1441,6 +1442,7 @@ the "terminal" option to prevent this cycling.
 *   javascript-urls: ../modules/html5-gewgaws/hypongtrochoid/hypongtrochoid.js
 *   script-root: ../modules/html5-gewgaws/hypongtrochoid/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Hypongtrochoid)
 
 Each box moves with a constant velocity
@@ -1541,6 +1543,7 @@ A simple generative technique to generate mazy, cloudy forms.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/multicolouralism/multicolouralism.js
 *   script-root: ../modules/html5-gewgaws/multicolouralism/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Multicolouralism)
 
 Each frame, the colour of each cell is chosen randomly from the set
