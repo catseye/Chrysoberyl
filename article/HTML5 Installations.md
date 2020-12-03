@@ -1156,6 +1156,7 @@ cards.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
 *   launch-command: launch('../modules/html5-gewgaws/art-restoration-simulator/yoob/', 'installation', { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') });
+*   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](https://catseye.tc/ix/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
@@ -1334,6 +1335,7 @@ of glitching applied to the rectangles.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Erratic-Turtle-Graphics/src/erratic-turtle.js,../modules/Erratic-Turtle-Graphics/src/erratic-logo.js,../modules/Erratic-Turtle-Graphics/demo/dam-plus-widgets-web.js,../modules/Erratic-Turtle-Graphics/demo/erratic-turtle-graphics-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](https://catseye.tc/ix/Erratic_Turtle_Graphics)
 
 It's turtle graphics, except there's a small
