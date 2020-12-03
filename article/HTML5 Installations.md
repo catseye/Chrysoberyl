@@ -1132,7 +1132,6 @@ A minimalist critique of Tetris.
 *   javascript-urls: ../modules/html5-gewgaws/a-non-random-walk/a-non-random-walk.js
 *   script-root: ../modules/html5-gewgaws/a-non-random-walk/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
-*   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Non-Random_Walk)
 
 Pick a card, any card.  Half are red, half are black.  Each time a
