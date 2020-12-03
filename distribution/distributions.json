@@ -692,6 +692,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/dam-0.1.zip",
                 "version": "0.1"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/dam-0.2.zip",
+                "version": "0.2"
             }
         ],
         "reponame": "DAM",
