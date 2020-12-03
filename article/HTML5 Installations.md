@@ -106,6 +106,7 @@ and run it in Frotz or some other Z-Machine emulator.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/the-new-gamerly-realism/src/the-new-gamerly-realism.js
 *   script-root: ../modules/the-new-gamerly-realism/src/
+*   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_New_Gamerly_Realism)
 
 #### Background
@@ -187,6 +188,7 @@ a floppy disk somehow...
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/wang-tilers/src/backtracking-wang-tiler.js
 *   script-root: ../modules/wang-tilers/src/yoob/
+*   extra-stylesheets: ../stylesheet/mainstage-440x440.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Backtracking_Wang_Tiler)
 
 This is an in-browser implementation, in [Javascript][] and [HTML5][],
@@ -1366,6 +1368,7 @@ Logo, for user-created designs.  The commands are:
 *   javascript-urls: ../modules/html5-gewgaws/fibonacci-spiral/fibonacci-spiral.js
 *   script-root: ../modules/html5-gewgaws/fibonacci-spiral/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
+*   extra-stylesheets: ../stylesheet/mainstage-1000x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Fibonacci_Spiral)
 
 The semicircles alternate being on the left and the right.  The first
@@ -1567,6 +1570,7 @@ of vision, focus and peripheral vision...)
 *   javascript-urls: ../modules/html5-gewgaws/noise-to-signal-1/noise-to-signal-1.js
 *   script-root: ../modules/html5-gewgaws/noise-to-signal-1/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   extra-stylesheets: ../stylesheet/mainstage-600x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Noise_to_Signal_No._1)
 
 The two panels are constructed by randomly distributing the pixels from
@@ -1597,6 +1601,7 @@ but there's no guarantee, you see.
 *   javascript-urls: ../modules/html5-gewgaws/prairie/prairie.js
 *   launch-command: launch('../modules/html5-gewgaws/prairie/yoob/', 'installation', { imgURL: '../modules/html5-gewgaws/prairie/Elevator_1_(PSF).png' });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
+*   extra-stylesheets: ../stylesheet/mainstage-640x390.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Prairie)
 
 Prairie.
@@ -1611,6 +1616,7 @@ Prairie.
 *   javascript-urls: ../modules/html5-gewgaws/progression/progression.js
 *   script-root: ../modules/html5-gewgaws/progression/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
+*   extra-stylesheets: ../stylesheet/mainstage-800x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Progression)
 
 Progression.
