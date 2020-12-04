@@ -614,7 +614,7 @@ This is a web-based interpreter for the esoteric
 programming language [Mascarpone][].
 
 Technically, it is `Mascarpone.hs` (the reference implementation
-of Pail, written in [Haskell][]) compiled to [Javascript][]
+of Mascarpone, written in [Haskell][]) compiled to [Javascript][]
 by the [Haste][] compiler, running in an [HTML5][] document.
 
 Instructions:
