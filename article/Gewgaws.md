@@ -305,12 +305,13 @@ A generated animation involving randomness and not-so-much randomness.
 
 ### Pixed-Point
 
-*   inception date: Sep 2015
+*   inception date: May 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: pixed-point.js
 *   online @ [catseye.tc](https://catseye.tc/installation/Pixed-Point)
 
-Not sure about the inception date, need to look that up.
+A process by which an image containing some text is constructed.  The process does not
+always terminate, but when it does, the image it produces is self-describing.
 
 ### Prairie
 
