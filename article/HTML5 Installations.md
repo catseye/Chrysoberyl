@@ -1147,6 +1147,9 @@ stops at a distance *a* - *a* × 0.75^*n* from the origin, where *a* is
 the starting position of the wheel, and *n* is the number of red (or black)
 cards.
 
+On a mobile device, the experience will be better if you zoom out to see
+the entire page first.
+
 ### Art Restoration Simulator
 
 *   installation-of: [Art Restoration Simulator][]
@@ -1159,6 +1162,9 @@ cards.
 *   online @ [catseye.tc](https://catseye.tc/ix/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
+
+On a mobile device, the experience will be better if you zoom out to see
+the entire page first.
 
 ### Bézier Knots
 
