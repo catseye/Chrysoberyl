@@ -1422,13 +1422,13 @@ only appear inside data structures.
 
 Sample program:
 
-        #########
-        # #     #
-        # # # ###
-        #   #   #
-        ### # # #
-        #   # # #
-        #########
+    #########
+    # #     #
+    # # # ###
+    #   #   #
+    ### # # #
+    #   # # #
+    #########
 
 
 Zame is an automaton which uses the solution of a maze to
@@ -2455,21 +2455,21 @@ thus may overlap — and was released as an esolang.
 
 Sample program:
 
-        fun foo(a, b: integer|string) {
-          r = a;
-          typecase b is integer {
-            r = r + b;
-          };
-          typecase b is string {
-            r = r + len(b);
-          };
-          r
-        }
-        main = fun() {
-          a = foo(a, 333 as integer|string);
-          a = foo(a, "hiya" as integer|string);
-          a /* should output 337 */
-        }
+    fun foo(a, b: integer|string) {
+      r = a;
+      typecase b is integer {
+        r = r + b;
+      };
+      typecase b is string {
+        r = r + len(b);
+      };
+      r
+    }
+    main = fun() {
+      a = foo(a, 333 as integer|string);
+      a = foo(a, "hiya" as integer|string);
+      a /* should output 337 */
+    }
 
 Castile is an unremarkable programming language which exists mainly
 because an unremarkable evaluator/compiler for it was written.  It is
@@ -2496,17 +2496,17 @@ Also it's a compiler to Javascript, Ruby, stackmac, almost C...
 
 Sample program:
 
-        byte table screen @ 1024
-        routine main
-          trashes a, x, z, n, screen
-        {
-            ld x, 0
-            ld a, 83    // 83 = screen code for heart
-            repeat {
-                st a, screen + x
-                inc x
-            } until z
-        }
+    byte table screen @ 1024
+    routine main
+      trashes a, x, z, n, screen
+    {
+        ld x, 0
+        ld a, 83    // 83 = screen code for heart
+        repeat {
+            st a, screen + x
+            inc x
+        } until z
+    }
 
 SixtyPical is a very low-level programming language, similar to 6502
 assembly, which defines a set of static analyses via type-checking and
@@ -2539,13 +2539,13 @@ locations.)
 
 Sample program:
 
-        main = expr0 → E & walk(E).
-        expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
-        expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
-        term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
-        walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
-        walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
-        walk(X) = return ' '+X.
+    main = expr0 → E & walk(E).
+    expr0 = expr1 → E1 & {"+" & expr1 → E2 & E1 ← add(E1,E2)} & E1.
+    expr1 = term → E1 & {"*" & term → E2 & E1 ← mul(E1,E2)} & E1.
+    term = "x" | "y" | "z" | "(" & expr0 → E & ")" & E.
+    walk(add(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' +'.
+    walk(mul(L,R)) = walk(L) → LS & walk(R) → RS & return LS+RS+' *'.
+    walk(X) = return ' '+X.
 
 Tamsin is an oddball little language that can't decide if it's a
 meta-language, a programming language, or a [rubbish lister][].
