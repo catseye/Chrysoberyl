@@ -237,6 +237,8 @@ as the "see and say" sequence) using turtle graphics: 1 means turn while
 
 ### Latcarf
 
+![preview](https://catseye.tc/modules/Latcarf/images/latcarf1.png)
+
 *   inception date: Feb 2018
 *   reference distribution: [Latcarf distribution](https://catseye.tc/distribution/Latcarf_distribution)
 *   reference implementation name: latcarf.js
@@ -252,6 +254,8 @@ This is the result of implementing that method.
 
 ### Lexeduct
 
+![preview](https://static.catseye.tc/images/screenshots/Lexeduct.png)
+
 *   inception date: Apr 2015
 *   reference distribution: [Lexeduct distribution](https://catseye.tc/distribution/Lexeduct_distribution)
 *   reference implementation name: lexeduct-browser.js
@@ -262,6 +266,8 @@ select different filters to apply to the input, the output is updated in
 real-time.  Can also be used on the command-line.
 
 ### Markov Font
+
+![preview](https://static.catseye.tc/images/screenshots/Markov_Font.png)
 
 *   inception date: Apr 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
