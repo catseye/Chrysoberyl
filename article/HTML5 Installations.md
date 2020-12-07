@@ -154,6 +154,11 @@ console and typing `BACKGROUND_COLOR='green'`.
 
 As if there aren't enough remixes of Lewis Carroll's works already.
 
+Instructions:
+
+Just read the text from beginning to end, at a normal reading rate,
+and you may be pleasantly surprised.
+
 ### BefOS
 
 *   installation-of: [BefOS][]
@@ -414,7 +419,9 @@ You may wish to read the definition of this cellular automaton:
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
-Schrödinger's Game of Life.
+This web-based implementation is written in JavaScript.
+
+Select an example configuration and click "Start" to watch it evolve.
 
 ### noit o' mnain worb
 
@@ -583,7 +590,7 @@ emulator, [v86][].
 
 Instructions:
 
-The system running online on v86 is delivered on a 720K floppy image,
+The system that v86 runs is delivered on a 720K floppy image,
 which contains a minimal bootable FreeDOS install, the ILLGOL distribution,
 plus various tools such as the `TED3` text editor.
 License and distribution information is included on the disk image.
@@ -730,7 +737,7 @@ program, or create your own program.
 
 Background:
 
-This is an online implementation of [Pixley][] which, as a bonus, also
+This is a web-based implementation of [Pixley][] which, as a bonus, also
 depicts the Pixley program as a set of coloured, nested rectangles.
 
 This [Javascript][] implementation of Pixley uses the *Web Workers*
@@ -865,7 +872,7 @@ emulator, [v86][] —  so you can bootstrap it right in your browser.
 
 Instructions:
 
-The system running online on v86 is delivered on a 720K floppy image,
+The system that v86 runs is delivered on a 720K floppy image,
 which contains a minimal bootable FreeDOS install, the Shelta distribution,
 plus various tools such as the `TED3` text editor, and `YASM`.
 License and distribution information is included on the disk image.
