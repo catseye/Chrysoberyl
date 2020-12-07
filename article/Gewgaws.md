@@ -57,6 +57,8 @@ of the fascinating world of art restoration.
 
 ### Bézier Knots
 
+![preview](https://static.catseye.tc/images/screenshots/Bézier_Knots.png)
+
 *   inception date: May 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: bezier-knots.js

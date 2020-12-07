@@ -421,7 +421,11 @@ You may wish to read the definition of this cellular automaton:
 
 This web-based implementation is written in JavaScript.
 
-Select an example configuration and click "Start" to watch it evolve.
+Instructions:
+
+Select a example configuration from the "Preset:" dropdown,
+and click "Start" to watch it evolve.  Or click "Edit" to
+provide your own configuration.
 
 ### noit o' mnain worb
 
@@ -1321,7 +1325,10 @@ Simply wait, and the rectangle will fill up with randomly-sized circles
 *   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Colourring)
 
-Colourring.
+Select a mode from from the MODE dropdown to see the different styles
+that are available.  Once you have picked a style, try changing the
+numeric parameters.  Not all parameters apply in all styles.  Changing
+a parameter will cause a new instance of the ring to be generated.
 
 ### Eine kleine Glitchfraktal
 
@@ -1675,7 +1682,10 @@ Rigamaroads.
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Semicircle_Jam)
 
-Semicircle Jam.
+Instructions:
+
+Just sit back and watch as the computer draws the form.  It will stop when
+it is finished.
 
 ### Spadgets
 
