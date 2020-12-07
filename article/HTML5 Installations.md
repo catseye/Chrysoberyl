@@ -1131,7 +1131,9 @@ You might also want to read
 *   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
 
-A minimalist critique of Tetris.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.
 
 ### A Non-Random Walk
 
@@ -1624,7 +1626,10 @@ but there's no guarantee, you see.
 *   extra-stylesheets: ../stylesheet/mainstage-640x390.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Prairie)
 
-Prairie.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+continue indefinitely.
 
 ### Progression
 
@@ -1639,7 +1644,10 @@ Prairie.
 *   extra-stylesheets: ../stylesheet/mainstage-800x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Progression)
 
-Progression.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+eventually become a static form, but it will take a long time to do so.
 
 ### Radialjective
 
@@ -1653,7 +1661,10 @@ Progression.
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Radialjective)
 
-Radialjective.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+continue indefinitely.
 
 ### Rigamaroads
 
@@ -1668,7 +1679,10 @@ Radialjective.
 *   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Rigamaroads)
 
-Rigamaroads.
+Instructions:
+
+Just sit back and watch as the computer generates the form.  It will stop when
+it is finished.
 
 ### Semicircle Jam
 
@@ -1684,7 +1698,7 @@ Rigamaroads.
 
 Instructions:
 
-Just sit back and watch as the computer draws the form.  It will stop when
+Just sit back and watch as the computer generates the form.  It will stop when
 it is finished.
 
 ### Spadgets
@@ -1699,7 +1713,10 @@ it is finished.
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Spadgets)
 
-Spadgets.
+Instructions:
+
+Just sit back and watch as the computer generates the form.  (It is nearly
+instantaneous.)  It will stop when it is finished.
 
 ### Tentacles, Undamped
 
@@ -1713,7 +1730,10 @@ Spadgets.
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Tentacles,_Undamped)
 
-Tentacles, Undamped.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+continue indefinitely.
 
 ### Text Uniquifier
 
@@ -1767,7 +1787,10 @@ of the computer screen.
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Judgment_of_Paris)
 
-The Judgment of Paris.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+continue indefinitely.
 
 ### Two Fifty Six
 
@@ -1794,7 +1817,10 @@ Two Fifty Six.
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Uncle_Ankur)
 
-Uncle Ankur.
+Instructions:
+
+Just sit back and watch the animation that the computer generates.  It will
+continue indefinitely.
 
 ### Woman on Film
 
