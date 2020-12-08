@@ -1527,7 +1527,14 @@ This is the result of implementing that method.
 *   style: textarea { width: 30%; } #container { text-align: center; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Lexeduct)
 
-Lexeduct.
+By default it is in "live mode", meaning, whenever you change the text in
+the left-side textbox, or whenever you change one of the filters, the
+text in the right-side textbox will automatically be updated with the
+new input text and settings.
+
+When you select a filter, inputs will appear below it allowing you to
+configure it.  Several filters need to know the set of characters that
+they should operate on, for example.
 
 ### Markov Font
 
@@ -1558,6 +1565,11 @@ Then it will generate some of its own.
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
 
 A simple generative technique to generate mazy, cloudy forms.
+
+Instructions:
+
+The "Re-roll" button will cause a new maze cloud to be generated.  The other
+controls will only affect the appearance of the current maze cloud.
 
 ### Multicolouralism
 
@@ -1609,6 +1621,9 @@ a source image randomly onto either panel.
 *   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../resource/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
+
+As you adjust the parameters, the computer will attempt to make
+the displayed image self-describing.
 
 There are some combinations where the numbers will "settle down",
 but there's no guarantee, you see.
@@ -1803,7 +1818,10 @@ continue indefinitely.
 *   script-root: ../modules/html5-gewgaws/two-fifty-six/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Two_Fifty_Six)
 
-Two Fifty Six.
+Try adjusting the Speed, Variety, and Noise settings to affect how the
+gewgaw is displayed.  Varieties that are powers of two (2, 4, 8, 16...)
+look more orderly than ones that aren't.  The palette can also be
+changed.
 
 ### Uncle Ankur
 
