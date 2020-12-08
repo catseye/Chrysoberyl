@@ -313,6 +313,8 @@ A generated animation involving randomness and not-so-much randomness.
 
 ### Pixed-Point
 
+![preview](https://static.catseye.tc/images/screenshots/Pixed-Point.png)
+
 *   inception date: May 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: pixed-point.js
@@ -379,6 +381,8 @@ Randomly-assembled street map or circuit or something similar to these.
 
 ### Semicircle Jam
 
+![preview](https://static.catseye.tc/images/screenshots/Semicircle_Jam.png)
+
 *   inception date: May 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: semicircle-jam.js
@@ -387,6 +391,8 @@ Randomly-assembled street map or circuit or something similar to these.
 A path made of semicircles.
 
 ### Spadgets
+
+![preview](https://static.catseye.tc/images/screenshots/Spadgets.png)
 
 *   inception date: Jul 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -413,6 +419,8 @@ soon starts doing things real tentacles never do, because real tentacles have
 damping.
 
 ### Text Uniquifier
+
+![preview](https://static.catseye.tc/images/screenshots/Text_Uniquifier.png)
 
 *   inception date: Nov 2014
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
