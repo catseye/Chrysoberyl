@@ -5,6 +5,26 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### A better experience on mobile, and DAM 0.2
+
+*   summary: Improvements to the [online installations](https://catseye.tc/article/HTML5_Installations.md) on mobile.
+*   date: Thu, 10 Dec 2020 10:43:22 GMT
+
+The `catseye.tc` website has never exactly been "mobile-first" in its design.
+But we've recently taken some steps so that the experience on mobile is less
+bad.  In particular, the [gewgaws](https://catseye.tc/article/Gewgaws.md) are
+much more mobile-friendly now.  Many of them scale themselves down properly
+to the size of your device's screen.  Others, such as
+[A Non-Random Walk](https://catseye.tc/installation/A_Non-Random_Walk)
+and
+[Art Restoration Simulator](https://catseye.tc/installation/Art_Restoration_Simulator),
+now function on mobile, when before they did not.
+
+Incidentally, version 0.2 of [DAM](https://catseye.tc/node/DAM), the
+Document *Awesome* Model, has been released.  Range controls now expose a method
+to set their value programmatically, and the project has a slightly more developed
+build system.
+
 ### Version 0.3 of ellsync released
 
 *   summary: Version 0.3 of [ellsync](https://catseye.tc/node/ellsync) has been released.
