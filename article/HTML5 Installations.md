@@ -52,7 +52,8 @@ than a megabyte.
 _Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
 and immutable data in ES5 JavaScript.
 
-It is playable with keyboard only.  The key mappings are:
+It is playable with keyboard only.  (It will therefore not be playable
+on most mobile devices, as they lack keyboards.)  The key mappings are:
 
 *   Insert coin: **5**
 *   Start: **1**
@@ -74,6 +75,9 @@ the canvas to make sure it's got the keyboard focus.
 *   javascript-urls: ../modules/super-wumpus-land/impl/swl.js/src/swl.js
 *   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Super_Wumpus_Land)
+
+It is playable with keyboard only.  It will therefore not be playable
+on most mobile devices, as they lack keyboards.
 
 If your keystrokes aren't going into the "terminal", make sure you
 click in it first (it's focusable.)
@@ -1228,6 +1232,9 @@ because that is our best guess at
 *   style: #installation > div { display: inline-block; vertical-align: top; } #canvas_container { text-align: center; } #canvas_container canvas { display: block; background: white; border: 1px solid black; } #control_panel > div { background: #c0c0c0; text-align: left; min-width: 30em; } #control_panel > div > div { background: #e0e0e0; padding: 3px; text-align: right; } #control_panel > div > div input { width: auto; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Canvas_Feedback)
 
+_Note: on a mobile device, the experience will be better if you zoom out
+to see the entire page first._
+
 To begin exploring, we suggest you first try different presets
 from the *Presets* drop-down in the control panel on the right.
 
@@ -1853,6 +1860,9 @@ continue indefinitely.
 *   online @ [catseye.tc](https://catseye.tc/ix/Woman_on_Film)
 
 Use the navigation buttons to traverse the space of the work.
+
+On a mobile device, the experience will be better if you zoom out to see
+the entire page first.
 
 - - - -
 
