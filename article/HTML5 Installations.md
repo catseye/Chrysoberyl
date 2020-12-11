@@ -739,6 +739,7 @@ console, and the evaluation process never finishing.
 ### PL-{GOTO}
 
 *   installation-of: [PL-{GOTO}][]
+*   installation-description: This is a web-based interpreter for the pedagogical language [PL-{GOTO}][], as described in Brainerd and Landweber's _Theory of Computation_ (1974; ISBN 0471095850), in which it is only possible to express computations which are primitive recursive.
 *   installed-implementation: [PL-{GOTO}.NET][]
 *   interactive: true
 *   animated: false
@@ -747,11 +748,6 @@ console, and the evaluation process never finishing.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
-
-This is a web-based interpreter for the pedagogical language
-[PL-{GOTO}][], described in Brainerd and Landweber's _Theory of
-Computation_ (1974; ISBN 0471095850), in which it is possible to express
-only computations which are primitive recursive.
 
 Technically, it is [PL-{GOTO}.NET][] (written in [Haskell][])
 compiled to [Javascript][]
@@ -769,6 +765,7 @@ You might also want to read
 ### Quylthulg
 
 *   installation-of: [Quylthulg][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Quylthulg][].
 *   installed-implementation: qlzqqlzuup.js
 *   interactive: true
 *   animated: false
@@ -776,9 +773,6 @@ You might also want to read
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/generated-js/quylthulg-1.0-2019.0326/qlzqqlzuup.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
-
-This is a web-based interpreter for the esoteric
-programming language [Quylthulg][].
 
 Technically, it is `Qlzqqlzuup.hs` (the reference implementation
 of Quylthulg, written in [Haskell][]) compiled to [Javascript][]
@@ -797,6 +791,7 @@ You might also want to read
 ### Robin
 
 *   installation-of: [Robin][]
+*   installation-description: This is a web-based interpreter for the excessively principled functional programming language [Robin][], version 0.7.
 *   installed-implementation: robin.js
 *   interactive: true
 *   animated: false
@@ -805,9 +800,6 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
-
-This is a web-based interpreter for the excessively principled
-functional programming language [Robin][], version 0.7.
 
 Technically, it is `Language.Robin` (the reference implementation
 of Robin, written in [Haskell][]) compiled to [Javascript][]
@@ -826,6 +818,7 @@ You might also want to read
 ### Shelta
 
 *   installation-of: [Shelta][]
+*   installation-description: This is a web-based installation of [Shelta][], a programming language with a tiny compiler and a self-hosted compiler.
 *   installed-implementation: shelta
 *   interactive: true
 *   animated: true
@@ -833,8 +826,7 @@ You might also want to read
 *   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Shelta)
 
-This is [Shelta][], a language with a tiny compiler and a
-self-hosted compiler, running under [FreeDOS][] running
+It is running under [FreeDOS][] running
 on a web page via the [HTML5][]-based [IBM PC compatible][]
 emulator, [v86][] —  so you can bootstrap it right in your browser.
 
@@ -868,6 +860,7 @@ a floppy disk somehow...
 ### Velo
 
 *   installation-of: [Velo][]
+*   installation-description: This is a web-based interpreter for the [Velo][] programming language.
 *   installed-implementation: velo.lua
 *   interactive: true
 *   animated: false
@@ -877,8 +870,6 @@ a floppy disk somehow...
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
-
-This is a web-based interpreter for the [Velo][] programming language.
 
 Technically, it is `velo.lua` (an implementation
 of Velo in [Lua][]) running under [Fengari][]
@@ -898,6 +889,7 @@ You might also want to read
 ### Wanda
 
 *   installation-of: [Wanda][]
+*   installlation-description: This is a web-based interpreter for the [Wanda][] programming language.
 *   installed-implementation: wanda.lua
 *   interactive: true
 *   animated: false
@@ -907,8 +899,6 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
-
-This is a web-based interpreter for the [Wanda][] programming language.
 
 Technically, it is `wanda.lua` (the reference implementation
 of Wanda, in [Lua][]) running under [Fengari][]
@@ -928,6 +918,7 @@ You might also want to read
 ### Wagon
 
 *   installation-of: [Wagon][]
+*   installation-description: This is a web-based interpreter for the second-order concatentive programming language [Wagon][].
 *   installed-implementation: wagon.js
 *   interactive: true
 *   animated: false
@@ -936,9 +927,6 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "reverse0.wagon" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
-
-This is a web-based interpreter for the second-order concatentive
-programming language [Wagon][].
 
 Technically, it is `Language.Wagon` (the reference implementation
 of Wagon, written in [Haskell][]) compiled to [Javascript][]
@@ -1002,7 +990,12 @@ imagination.
 *   launch-command: launch('../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/', 'installation', { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Wierd_(John_Colagioia))
 
-Wierd.
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
 
 ### yoob
 
@@ -1029,6 +1022,7 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 ### Wunnel
 
 *   installation-of: [Wunnel][]
+*   installation-description: This is an HTML5-based implementation of the esoteric programming language [Wunnel][].
 *   installed-implementation: wunnel.js
 *   interactive: true
 *   animated: true
@@ -1037,9 +1031,6 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   script-root: ../modules/Wunnel/impl/wunnel.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Wunnel)
-
-This is an HTML5-based implementation of the
-esoteric programming language [Wunnel][].
 
 Instructions:
 
@@ -1054,6 +1045,7 @@ will consume them in order, and continue running.
 ### ZOWIE
 
 *   installation-of: [ZOWIE][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [ZOWIE][].
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
@@ -1061,9 +1053,6 @@ will consume them in order, and continue running.
 *   script-root: ../modules/ZOWIE/eg/
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
-
-This is a web-based interpreter for the esoteric
-programming language [ZOWIE][].
 
 Technically, it is `zowie.py` (the reference implementation
 of ZOWIE, written in [Python][],) running under [Skulpt][]
@@ -1531,7 +1520,7 @@ Then it will generate some of its own.
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
 
-A simple generative technique to generate mazy, cloudy forms.
+It implements a simple generative technique to generate mazy, cloudy forms.
 
 Instructions:
 
