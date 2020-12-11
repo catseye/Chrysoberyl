@@ -13,6 +13,12 @@ should appear on each entry.
 
 installation of
 
+### installation-description
+
+*   optional: true
+
+A short (one-line) description of the installation, in Markdown.
+
 ### installed-implementation
 
 *   optional: true

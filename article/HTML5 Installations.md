@@ -700,6 +700,7 @@ You might also want to read
 ### Pail
 
 *   installation-of: [Pail][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Pail][].
 *   installed-implementation: pail.js
 *   interactive: true
 *   animated: false
@@ -707,9 +708,6 @@ You might also want to read
 *   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/pail-hastec-launcher.js,https://static.catseye.tc/generated-js/pail-1.0-2019.0326/pail.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
-
-This is a web-based interpreter for the esoteric
-programming language [Pail][].
 
 Technically, it is `Pail.lhs` (the reference implementation
 of Pail, written in Literate [Haskell][]) compiled to [Javascript][]
