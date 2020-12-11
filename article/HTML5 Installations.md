@@ -1310,7 +1310,8 @@ of glitching applied to the rectangles.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Erratic-Turtle-Graphics/src/erratic-turtle.js,../modules/Erratic-Turtle-Graphics/src/erratic-logo.js,../modules/Erratic-Turtle-Graphics/demo/dam-plus-widgets-web.js,../modules/Erratic-Turtle-Graphics/demo/erratic-turtle-graphics-launcher.js
+*   javascript-urls: ../modules/Erratic-Turtle-Graphics/src/erratic-turtle.js,../modules/Erratic-Turtle-Graphics/src/erratic-logo.js,../modules/Erratic-Turtle-Graphics/demo/dam-plus-widgets-0.2.min.js,../modules/Erratic-Turtle-Graphics/demo/erratic-turtle-graphics-launcher.js
+*   style: #canvas_viewport { width: 100%; height: 405px; overflow: scroll; border: 1px solid blue; } textarea { width: 100%; }
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   online @ [catseye.tc](https://catseye.tc/ix/Erratic_Turtle_Graphics)
 
