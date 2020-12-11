@@ -912,6 +912,13 @@
         ],
         "fixed-tag": "12e12e8",
         "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/erratic-turtle-graphics-0.1.zip",
+                "version": "0.1"
+            }
+        ],
         "reponame": "Erratic-Turtle-Graphics",
         "tag-style": "new"
     },
