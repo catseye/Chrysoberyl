@@ -166,6 +166,7 @@ and you may be pleasantly surprised.
 ### BefOS
 
 *   installation-of: [BefOS][]
+*   installation-description: This is a web-based installation of [BefOS][], a Befunge-themed operating system which is neither Befunge, nor an operating system.  (Discuss.)
 *   installed-implementation: BefOS (NASM)
 *   interactive: true
 *   animated: true
@@ -173,8 +174,6 @@ and you may be pleasantly surprised.
 *   v86-floppy-image-url: ../resource/befos-0.10.img
 *   online @ [catseye.tc](https://catseye.tc/ix/BefOS)
 
-This is an HTML5 installation of [BefOS][], a Befunge-themed operating
-system which is neither Befunge, nor an operating system.  (Discuss.)
 It runs on a web page thanks to the
 [HTML5][]-based [IBM PC compatible][] emulator, [v86][].
 
@@ -191,6 +190,7 @@ a floppy disk somehow...
 ### Backtracking Wang Tiler
 
 *   installation-of: [Backtracking Wang Tiler][]
+*   installation-description: This is an in-browser implementation, in [Javascript][] and [HTML5][], of a [Backtracking Wang Tiler][].
 *   installed-implementation: backtracking-wang-tiler.js
 *   interactive: false
 *   animated: true
@@ -199,9 +199,6 @@ a floppy disk somehow...
 *   script-root: ../modules/wang-tilers/src/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-440x440.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Backtracking_Wang_Tiler)
-
-This is an in-browser implementation, in [Javascript][] and [HTML5][],
-of a backtracking Wang tiler.
 
 For more information on Wang tiles, see
 [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
@@ -212,6 +209,7 @@ For more information on this automaton and its implementation, see
 ### Braktif
 
 *   installation-of: [Braktif][]
+*   installation-description: This is the [Braktif][] cellular automaton, compiled to Javascript using [ALPACA][] and animated using [yoob.js][].
 *   installed-implementation: braktif.alp
 *   interactive: true
 *   animated: true
@@ -220,9 +218,6 @@ For more information on this automaton and its implementation, see
 *   script-root: ../modules/braktif/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Braktif)
-
-This is the [Braktif][] cellular automaton, compiled to Javascript
-using [ALPACA][] and animated using [yoob.js][].
 
 Instructions:
 
@@ -235,6 +230,7 @@ You may wish to read the definition of this cellular automaton:
 ### Carriage
 
 *   installation-of: [Carriage][]
+*   installation-description: This is a web-based interpreter for the "purely concatentive" programming language [Carriage][].
 *   installed-implementation: carriage.js
 *   interactive: true
 *   animated: false
@@ -243,9 +239,6 @@ You may wish to read the definition of this cellular automaton:
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
-
-This is a web-based interpreter for the "purely concatentive"
-programming language [Carriage][].
 
 Technically, it is `Language.Carriage` (the reference implementation
 of Carriage, written in [Haskell][]) compiled to [Javascript][]
@@ -295,6 +288,7 @@ organic-seeming emergent motion.
 ### Circute
 
 *   installation-of: [Circute][]
+*   installation-description: This is the [Circute][] cellular automaton, compiled to Javascript using [ALPACA][] and animated using [yoob.js][].
 *   installed-implementation: circute.alp
 *   interactive: true
 *   animated: true
@@ -303,9 +297,6 @@ organic-seeming emergent motion.
 *   script-root: ../modules/circute/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Circute)
-
-This is the [Circute][] cellular automaton, compiled to Javascript
-using [ALPACA][] and animated using [yoob.js][].
 
 Instructions:
 
@@ -329,8 +320,6 @@ You may wish to read the definition of this cellular automaton:
 *   extra-stylesheets: ../stylesheet/mainstage-640x480.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
 
-This is an in-browser implementation of [Cyclobots][].
-
 Instructions:
 
 When a revolution occurs, every cyclobot picks a new cyclobot to follow
@@ -342,6 +331,7 @@ dragging on the playfield will scroll it.  (Possibly not working right now)
 ### Jaccia
 
 *   installation-of: [Jaccia][]
+*   installation-description: This is the [Jaccia][] cellular automaton, compiled to Javascript using [ALPACA][] and animated using [yoob.js][].
 *   installed-implementation: jaccia.alp
 *   interactive: true
 *   animated: true
@@ -350,9 +340,6 @@ dragging on the playfield will scroll it.  (Possibly not working right now)
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jaccia)
-
-This is the [Jaccia][] cellular automaton, compiled to Javascript
-using [ALPACA][] and animated using [yoob.js][].
 
 Instructions:
 
@@ -366,6 +353,7 @@ You may wish to read the definition of this cellular automaton:
 ### Jacciata
 
 *   installation-of: [Jacciata][]
+*   installation-description: This is the [Jacciata][] cellular automaton, compiled to Javascript using [ALPACA][] and animated using [yoob.js][].
 *   installed-implementation: jacciata.alp
 *   interactive: true
 *   animated: true
@@ -374,9 +362,6 @@ You may wish to read the definition of this cellular automaton:
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jacciata)
-
-This is the [Jacciata][] cellular automaton, compiled to Javascript
-using [ALPACA][] and animated using [yoob.js][].
 
 Instructions:
 
@@ -390,6 +375,7 @@ You may wish to read the definition of this cellular automaton:
 ### REDGREEN
 
 *   installation-of: [REDGREEN][]
+*   installation-description: This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][] and animated using [yoob.js][].
 *   installed-implementation: redgreen.alp
 *   interactive: true
 *   animated: true
@@ -398,9 +384,6 @@ You may wish to read the definition of this cellular automaton:
 *   script-root: ../modules/redgreen/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/REDGREEN)
-
-This is the [REDGREEN][] cellular automaton, compiled to Javascript using [ALPACA][]
-and animated using [yoob.js][].
 
 Instructions:
 
@@ -423,8 +406,6 @@ You may wish to read the definition of this cellular automaton:
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
 
-This web-based implementation is written in JavaScript.
-
 Instructions:
 
 Select a example configuration from the "Preset:" dropdown,
@@ -434,6 +415,7 @@ provide your own configuration.
 ### noit o' mnain worb
 
 *   installation-of: [noit o' mnain worb][]
+*   installation-description: This is a web-based implementation of the [noit o' mnain worb][] probabilistic particle automaton, implemented in Javascript on an HTML5 canvas.
 *   installed-implementation: worb.js
 *   interactive: true
 *   animated: true
@@ -442,10 +424,6 @@ provide your own configuration.
 *   script-root: ../modules/noit-o-mnain-worb/impl/worb.js/src/
 *   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/noit_o'_mnain_worb)
-
-This online interpreter for the
-[noit o' mnain worb][] probabilistic particle automaton
-is implemented in Javascript, on an HTML5 canvas.
 
 Instructions:
 
@@ -456,6 +434,7 @@ or create your own.
 ### Emmental
 
 *   installation-of: [Emmental][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Emmental][].
 *   installed-implementation: emmental.js
 *   interactive: true
 *   animated: false
@@ -464,9 +443,6 @@ or create your own.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.emmental" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Emmental)
-
-This is a web-based interpreter for the esoteric
-programming language [Emmental][].
 
 Technically, it is `Emmental.hs` (the reference implementation
 of Emmental, written in [Haskell][]) compiled to [Javascript][]
@@ -489,6 +465,7 @@ You might also want to read
 ### Equipage
 
 *   installation-of: [Equipage][]
+*   installation-description: This is a web-based interpreter for the "purely concatentive" programming language [Equipage][].
 *   installed-implementation: equipage.js
 *   interactive: true
 *   animated: false
@@ -497,9 +474,6 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "pop-all-positives.equipage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Equipage)
-
-This is a web-based interpreter for the "purely concatentive"
-programming language [Equipage][].
 
 Technically, it is `Language.Equipage` (the reference implementation
 of Equipage, written in [Haskell][]) compiled to [Javascript][]
@@ -527,8 +501,7 @@ You might also want to read
 *   style: #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Etcha)
 
-This in-browser installation of [Etcha][] is implemented in
-[Javascript][], using [yoob.js][].
+It is implemented in [Javascript][], using [yoob.js][].
 
 Instructions:
 
@@ -538,6 +511,7 @@ modify it, and create your own program.
 ### Flobnar
 
 *   installation-of: [Flobnar][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Flobnar][].
 *   installed-implementation: flobnar.js
 *   interactive: true
 *   animated: false
@@ -545,9 +519,6 @@ modify it, and create your own program.
 *   javascript-urls: ../modules/Flobnar/eg/examplePrograms.jsonp.js,../modules/Flobnar/demo/flobnar-hastec-launcher.js,https://static.catseye.tc/generated-js/flobnar-1.0-2019.0328/flobnar.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
-
-This is a web-based interpreter for the esoteric
-programming language [Flobnar][].
 
 Technically, it is `Flobnar.hs` (the reference implementation
 of Flobnar, written in [Haskell][]) compiled to [Javascript][]
@@ -575,8 +546,7 @@ You might also want to read
 *   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 420px; height: 420px; overflow: scroll; border: 1px solid black; background-color: #ffffff; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Gemooy)
 
-This in-browser installation of [Gemooy][] is implemented in
-[Javascript][], using [yoob.js][].
+It is implemented in [Javascript][], using [yoob.js][].
 
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
@@ -584,17 +554,13 @@ it. Or click "Edit" to modify an example program, or create your own program.
 ### ILLGOL
 
 *   installation-of: [ILLGOL][]
+*   installation-description: This is [ILLGOL][], a communicable disease disguised as a programming language, running under [FreeDOS][] running on a web page via the [HTML5][]-based [IBM PC compatible][] emulator, [v86][].
 *   installed-implementation: illgol.exe
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../resource/freedos-1.1-illgol-floppy-0.1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
-
-This is [ILLGOL][], a communicable disease disguised as a
-programming language, running under [FreeDOS][] running
-on a web page via the [HTML5][]-based [IBM PC compatible][]
-emulator, [v86][].
 
 Instructions:
 
@@ -616,6 +582,7 @@ a floppy disk somehow...
 ### Mascarpone
 
 *   installation-of: [Mascarpone][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Mascarpone][].
 *   installed-implementation: mascarpone.js
 *   interactive: true
 *   animated: false
@@ -624,9 +591,6 @@ a floppy disk somehow...
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.mascarpone" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Mascarpone)
-
-This is a web-based interpreter for the esoteric
-programming language [Mascarpone][].
 
 Technically, it is `Mascarpone.hs` (the reference implementation
 of Mascarpone, written in [Haskell][]) compiled to [Javascript][]
@@ -671,6 +635,7 @@ browser does not support Web Workers, it may not function correctly.
 ### Oxcart
 
 *   installation-of: [Oxcart][]
+*   installation-description: This is a web-based interpreter for the continuation-passing concatentive programming language [Oxcart][].
 *   installed-implementation: oxcart.js
 *   interactive: true
 *   animated: false
@@ -679,9 +644,6 @@ browser does not support Web Workers, it may not function correctly.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "count-down.oxcart" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Oxcart)
-
-This is a web-based interpreter for the continuation-passing concatentive
-programming language [Oxcart][].
 
 Technically, it is `Language.Oxcart` (the reference implementation
 of Oxcart, written in [Haskell][]) compiled to [Javascript][]
