@@ -889,7 +889,7 @@ You might also want to read
 ### Wanda
 
 *   installation-of: [Wanda][]
-*   installlation-description: This is a web-based interpreter for the [Wanda][] programming language.
+*   installation-description: This is a web-based interpreter for the [Wanda][] programming language.
 *   installed-implementation: wanda.lua
 *   interactive: true
 *   animated: false
