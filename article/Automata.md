@@ -3,9 +3,12 @@ Automata
 
 *   image_url: https://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 
-Unfortunately the distinction between an Automaton and a [Language](Languages.md) or a
-[Gewgaw](Gewgaws.md) is not always cut-and-dried so you might want to see those articles
-as well.
+This is a list of Automata designed by Cat's Eye Technologies, listed in chronological
+order.  For more information on these Automata, [see below](#about-these-automata).
+
+The distinction between an Automaton and a [Language](Languages.md) or a
+[Gewgaw](Gewgaws.md) is not always cut-and-dried, so if you can't find what
+you're looking for here, try those lists as well.
 
 ### SMETANA
 
@@ -503,6 +506,10 @@ For a full account of its development, see
 *   implementation-type: interpreter
 *   host-language: [Javascript][]
 *   host-platform: [HTML5][]
+
+## About these Automata
+
+We should say a few words about these automata here.
 
 - - - -
 

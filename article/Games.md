@@ -8,12 +8,15 @@ Games
 *   display-illustration: false
 *   image_url: https://catseye.tc/modules/dungeons-of-ekileugor/images/dungeons-of-ekileugor.png
 
-Here are some games developed by Cat's Eye Technologies.  A game is anything you can play, but
-most of these are meant to be played on a computer.  Some can even be played online here, in your web browser.
+This is a list of games designed and implemented by Cat's Eye Technologies, listed in alphabetical order.
+For more information on these games, [see below](#about-these-games).
 
-Note that the distinctions between a Game and a [Gewgaw](Gewgaws.md) or even an
-[Automaton](Automata.md) are not always clear,
-and entries here may be categorized somewhat arbitrarily.
+For games implemented by, but not designed by, Cat's Eye Technologies, see
+[Game Implementations](Game%20Implementations.md).
+
+The distinction between a Game and a [Gewgaw](Gewgaws.md) or even an
+[Automaton](Automata.md) is not always cut-and-dried, so if you can't find what
+you're looking for here, try those lists as well.
 
 ### Bubble Escape
 
@@ -221,8 +224,13 @@ _Zzrk_ is a tiny adventure game written in "pure" Zz
 *   implemented-in-meta: true
 *   interface: terminal
 
-See Also
---------
+About these Games
+-----------------
+
+A game is anything you can play, but most of these are meant to be played on a computer.
+Some of them can even be played online, right in your web browser.
+
+See also:
 
 *   [Game Implementations](Game%20Implementations.md)
 *   [Video Games of Note](https://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md) in The Dossier

@@ -4,31 +4,12 @@ Languages
 *   image_url: https://static.catseye.tc/images/illustrations/Abacus_(PSF).jpg
 
 This is a list of languages, in chronological order, that have been designed under the
-auspices of Cat's Eye Technologies.
+auspices of Cat's Eye Technologies.  For more information on these languages,
+[see below](#about-these-languages).
 
-Most of these languages are programming languages, or at least "computer languages" of
-some kind, although some of them have not been implemented on a computer (or may even
-be unimplementable on a computer), and at least one of them is a conlang.  Many of
-them are [esolangs][].
-
-Unfortunately the distinctions between a Language, a [Format](Formats.md), and an
-[Automaton](Automata.md) are not always cut-and-dried so you might want to see those
-articles as well.
-
-If it was implemented by Cat's Eye Technologies, but was designed by someone else, it won't
-be on this list, it'll be here instead: [Language Implementations](Language%20Implementations.md).
-
-If it was implemented by Chris Pressey, but not under the auspices of Cat's Eye Technologies,
-it won't be on this list.
-
-**Some of these languages have interpreters that can run online, in your web browser.**
-(Look for the **Try it Online** button).
-By selecting sample programs and watching them run, you can gain an appreciation of how the
-language works; by composing your own programs, you can gain an even better appreciation.
-
-You may also be interested in reading about
-[what it was like to design these](https://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md)
-or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
+The distinction between a Language, a [Format](Formats.md), and an
+[Automaton](Automata.md) is not always cut-and-dried, so if you can't find what
+you're looking for here, try those lists as well.
 
 ### Full Moon Fever
 
@@ -2935,6 +2916,30 @@ push `$` onto the stack and go to state 9" translate quite straightforwardly to 
 *   license: Public Domain
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
+
+## About these Languages
+
+Most of these languages are programming languages, or at least "computer languages" of
+some kind, although some of them have not been implemented on a computer (or may even
+be unimplementable on a computer), and at least one of them is a conlang.  Many of
+them are [esolangs][].
+
+If it was implemented by Cat's Eye Technologies, but was designed by someone else, it won't
+be on this list, it'll be here instead: [Language Implementations](Language%20Implementations.md).
+
+If it was implemented by Chris Pressey, but not under the auspices of Cat's Eye Technologies,
+it won't be on this list.
+
+**Some of these languages have interpreters that can run online, in your web browser.**
+(Look for the **Try it Online** button).
+By selecting sample programs and watching them run, you can gain an appreciation of how the
+language works; by composing your own programs, you can gain an even better appreciation.
+
+You may also be interested in reading about
+[what it was like to design these](https://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md)
+or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
+
+- - - -
 
 [1L]: http://esolangs.org/wiki/1L
 [2-ill]: http://esolangs.org/wiki/2-ill

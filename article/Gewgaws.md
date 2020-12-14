@@ -7,18 +7,12 @@ Gewgaws
 *   display-illustration: false
 *   image_url: https://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg
 
-In [Chrysoberyl][] parlance, a _gewgaw_ is the digital version of a
-bagatelle (music) or a doodle (visual art).  It almost always involves
-visuals (usually animated), sometimes audio, and occasionally interaction.
+This is a list of Gewgaws made by Cat's Eye Technologies, listed in alphabetical
+order.  For more information on these Gewgaws, [see below](#about-these-gewgaws).
 
-A gewgaw need not be implemented in [HTML5][], but many of
-[Cat's Eye Technologies][]' gewgaws are, and you can can experience
-them here, online, right in your web browser.
-
-Note that the distinctions between a Gewgaw and an [Automaton](Automata.md)
-or even a [Game](Games.md) are not always clear, and entries here may be
-categorized somewhat arbitrarily, and you might want to check those articles
-too.
+The distinction between a Gewgaw and an [Automaton](Automata.md)
+or even a [Game](Games.md) is not always cut-and-dried, so if you can't find what
+you're looking for here, try those lists as well.
 
 ### A Minimalist Critique of Tetris
 
@@ -494,6 +488,16 @@ randomly-constructed transformation matrices.
 
 An interactive, navigable, animated thing based on several tracings of
 a still from a film.
+
+## About these Gewgaws
+
+In [Chrysoberyl][] parlance, a _gewgaw_ is the digital version of a
+bagatelle (music) or a doodle (visual art).  It almost always involves
+visuals (usually animated), sometimes audio, and occasionally interaction.
+
+A gewgaw need not be implemented in [HTML5][], but most of
+[Cat's Eye Technologies][]' gewgaws are, and you can can experience
+them here, online, right in your web browser.
 
 - - - -
 
