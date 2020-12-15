@@ -103,7 +103,7 @@ A circle-based time-lapse space-filler.
 
 ### Colourring
 
-![preview](https://static.catseye.tc/images/screenshots/Colourring.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Colourring.jpg)](https://catseye.tc/installation/Colourring)
 
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
