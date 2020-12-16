@@ -1312,7 +1312,7 @@ of glitching applied to the rectangles.
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Erratic-Turtle-Graphics/src/erratic-turtle.js,../modules/Erratic-Turtle-Graphics/src/erratic-logo.js,../modules/Erratic-Turtle-Graphics/demo/dam-plus-widgets-0.2.min.js,../modules/Erratic-Turtle-Graphics/demo/erratic-turtle-graphics-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
-*   style: #canvas_viewport { width: 100%; height: 405px; overflow: scroll; border: 1px solid blue; } textarea { width: 100%; }
+*   style: #canvas_viewport { width: 100%; height: 420px; background-color: gainsboro; border: 1px solid blue; overflow: scroll; scroll-behavior: auto; scrollbar-width: auto; scrollbar-color: rgb(23, 38, 182) rgb(162, 170, 238); } textarea { width: 100%; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Erratic_Turtle_Graphics)
 
 It's turtle graphics, except there's a small
