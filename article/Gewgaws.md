@@ -16,7 +16,7 @@ you're looking for here, try those lists as well.
 
 ### A Minimalist Critique of Tetris
 
-![preview](https://static.catseye.tc/images/screenshots/A_Minimalist_Critique_of_Tetris.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/A_Minimalist_Critique_of_Tetris.jpg)](https://catseye.tc/installation/A_Minimalist_Critique_of_Tetris)
 
 *   inception date: Mar 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -27,7 +27,7 @@ A minimalist critique of Tetris.
 
 ### A Non-Random Walk
 
-![preview](https://static.catseye.tc/images/screenshots/A_Non-Random_Walk.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/A_Non-Random_Walk.jpg)](https://catseye.tc/installation/A_Non-Random_Walk)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -39,7 +39,7 @@ _Mathematical Circus_ by Martin Gardner.
 
 ### Art Restoration Simulator
 
-![preview](https://static.catseye.tc/images/screenshots/Art_Restoration_Simulator.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Art_Restoration_Simulator.jpg)](https://catseye.tc/installation/Art_Restoration_Simulator)
 
 *   inception date: May 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -51,7 +51,7 @@ of the fascinating world of art restoration.
 
 ### Bézier Knots
 
-![preview](https://static.catseye.tc/images/screenshots/Bézier_Knots.png)
+[![preview](https://static.catseye.tc/images/screenshots/Bézier_Knots.png)](https://catseye.tc/installation/Bézier_Knots)
 
 *   inception date: May 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -62,7 +62,7 @@ Knots made of Bézier curves.
 
 ### Black Hole Poem
 
-![preview](https://static.catseye.tc/images/screenshots/Black_Hole_Poem.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Black_Hole_Poem.jpg)](https://catseye.tc/installation/Black_Hole_Poem)
 
 *   inception date: Jan 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -73,13 +73,13 @@ An interactive concrete poem about black holes.
 
 ### Canvas Feedback
 
-![preview](https://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Canvas_Feedback.jpg)](https://catseye.tc/installation/Canvas_Feedback)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
 *   reference implementation name: canvas-feedback.js
 *   reference implementation license: MIT license
-*   online @ [catseye.tc](https://catseye.tc/installation/Canvas Feedback)
+*   online @ [catseye.tc](https://catseye.tc/installation/Canvas_Feedback)
 
 An application of an analogue-video-like feedback effect to an [HTML5][]
 canvas element, with in-browser controls by which the feedback properties
@@ -92,7 +92,7 @@ of how it works, see
 
 ### Circus Xamulus
 
-![preview](https://static.catseye.tc/images/screenshots/Circus_Xamulus.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Circus_Xamulus.jpg)](https://catseye.tc/installation/Circus_Xamulus)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -115,7 +115,7 @@ possible, or at least, a lot of colour contrast.
 
 ### Eine kleine Glitchfraktal
 
-![preview](https://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Eine_Kleine_Glitchfraktal.jpg)](https://catseye.tc/installation/Eine_kleine_Glitchfraktal)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -127,7 +127,7 @@ with colour variance and configurable glitching.
 
 ### Erratic Turtle Graphics
 
-![preview](https://catseye.tc/modules/Erratic-Turtle-Graphics/images/chain1.png)
+[![preview](https://catseye.tc/modules/Erratic-Turtle-Graphics/images/chain1.png)](https://catseye.tc/installation/Erratic_Turtle_Graphics)
 
 *   inception date: ca 2018
 *   reference distribution: [Erratic Turtle Graphics distribution](https://catseye.tc/distribution/Erratic_Turtle_Graphics_distribution)
@@ -143,7 +143,7 @@ many times over, you get a nice pencilly noisy effect.
 
 ### Fibonacci Spiral
 
-![preview](https://static.catseye.tc/images/screenshots/Fibonacci_Spiral.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Fibonacci_Spiral.jpg)](https://catseye.tc/installation/Fibonacci_Spiral)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -154,7 +154,7 @@ A spiral made up of semicircles with proportions in the Fibonacci sequence.
 
 ### Fingerspelling
 
-![preview](https://static.catseye.tc/images/screenshots/Fingerspelling.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Fingerspelling.jpg)](https://catseye.tc/installation/Fingerspelling)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -169,7 +169,7 @@ This is most certainly a gewgaw.  It should provide you about
 
 ### Heronsis hermnonicii
 
-![preview](https://static.catseye.tc/images/screenshots/Heronsis_hermnonicii.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Heronsis_hermnonicii.jpg)](https://catseye.tc/installation/Heronsis_hermnonicii)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -193,7 +193,7 @@ Plus it's fun to click on the red balls.
 
 ### Hirsute Miasma
 
-![preview](https://static.catseye.tc/images/screenshots/Hirsute_Miasma.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Hirsute_Miasma.jpg)](https://catseye.tc/installation/Hirsute_Miasma)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -205,7 +205,7 @@ and their shower drains.
 
 ### Hypongtrochoid
 
-![preview](https://static.catseye.tc/images/screenshots/Hypongtrochoid.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Hypongtrochoid.jpg)](https://catseye.tc/installation/Hypongtrochoid)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -220,7 +220,7 @@ and [Pong](http://en.wikipedia.org/wiki/Pong)
 
 ### Kolakoski Kurve
 
-![preview](https://static.catseye.tc/images/screenshots/Kolakoski_Kurve.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Kolakoski_Kurve.jpg)](https://catseye.tc/installation/Kolakoski_Kurve)
 
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -233,7 +233,7 @@ as the "see and say" sequence) using turtle graphics: 1 means turn while
 
 ### Latcarf
 
-![preview](https://catseye.tc/modules/Latcarf/images/latcarf1.png)
+[![preview](https://catseye.tc/modules/Latcarf/images/latcarf1.png)](https://catseye.tc/installation/Latcarf)
 
 *   inception date: Feb 2018
 *   reference distribution: [Latcarf distribution](https://catseye.tc/distribution/Latcarf_distribution)
@@ -250,7 +250,7 @@ This is the result of implementing that method.
 
 ### Lexeduct
 
-![preview](https://static.catseye.tc/images/screenshots/Lexeduct.png)
+[![preview](https://static.catseye.tc/images/screenshots/Lexeduct.png)](https://catseye.tc/installation/Lexeduct)
 
 *   inception date: Apr 2015
 *   reference distribution: [Lexeduct distribution](https://catseye.tc/distribution/Lexeduct_distribution)
@@ -263,7 +263,7 @@ real-time.  Can also be used on the command-line.
 
 ### Markov Font
 
-![preview](https://static.catseye.tc/images/screenshots/Markov_Font.png)
+[![preview](https://static.catseye.tc/images/screenshots/Markov_Font.png)](https://catseye.tc/installation/Markov_Font)
 
 *   inception date: Apr 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -274,7 +274,7 @@ Uses a 2D Markov chain to generate new glyphs from a character set.
 
 ### Maze Clouds
 
-![preview](https://catseye.tc/modules/Maze-Clouds/images/cumulus-violet.png)
+[![preview](https://catseye.tc/modules/Maze-Clouds/images/cumulus-violet.png)](https://catseye.tc/installation/Maze_Clouds)
 
 *   inception date: Sep 2017
 *   reference distribution: [Maze Clouds distribution](https://catseye.tc/distribution/Maze_Clouds_distribution)
@@ -285,7 +285,7 @@ A simple generative technique to generate mazy, cloudy forms.
 
 ### Multicolouralism
 
-![preview](https://static.catseye.tc/images/screenshots/Multicolouralism.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Multicolouralism.jpg)](https://catseye.tc/installation/Multicolouralism)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)

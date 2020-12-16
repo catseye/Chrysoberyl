@@ -28,7 +28,12 @@ def rewrite_documents(articles, refdex):
             schema = Schema(schema_document)
             results = schema.check_documents([document])
             if results:
-                raise ValueError(json.dumps(results, indent=4, sort_keys=True))
+                WARN_ONLY = True
+                formatted_results = json.dumps(results, indent=4, sort_keys=True)
+                if WARN_ONLY:
+                    print("WARNING: {}".format(formatted_results)
+                else:
+                    raise ValueError(formatted_results)
 
         text = feedmark_markdownize(document, schema=schema)
         with open(document.filename, 'w') as f:
