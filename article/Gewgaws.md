@@ -296,7 +296,7 @@ Animated op art: an interactive bleeding of colours.
 
 ### Noise to Signal No. 1
 
-![preview](https://static.catseye.tc/images/screenshots/Noise_to_Signal_No._1.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Noise_to_Signal_No._1.jpg)](https://catseye.tc/installation/Noise_to_Signal_No._1)
 
 *   inception date: Apr 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -307,7 +307,7 @@ A generated animation involving randomness and not-so-much randomness.
 
 ### Pixed-Point
 
-![preview](https://static.catseye.tc/images/screenshots/Pixed-Point.png)
+[![preview](https://static.catseye.tc/images/screenshots/Pixed-Point.png)](https://catseye.tc/installation/Pixed-Point)
 
 *   inception date: May 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -319,7 +319,7 @@ always terminate, but when it does, the image it produces is self-describing.
 
 ### Prairie
 
-![preview](https://static.catseye.tc/images/screenshots/Prairie.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Prairie.jpg)](https://catseye.tc/installation/Prairie)
 
 *   inception date: 2012
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -335,7 +335,7 @@ of a grain elevator taken from Wikimedia.
 
 ### Progression
 
-![preview](https://static.catseye.tc/images/screenshots/Progression.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Progression.jpg)](https://catseye.tc/installation/Progression)
 
 *   inception date: 2012
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -353,7 +353,7 @@ iterations, but it's very faint thereafter.
 
 ### Radialjective
 
-![preview](https://static.catseye.tc/images/screenshots/Radialjective.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Radialjective.jpg)](https://catseye.tc/installation/Radialjective)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -364,7 +364,7 @@ An animated mathematical function, depicted in four different ways.
 
 ### Rigamaroads
 
-![preview](https://static.catseye.tc/images/screenshots/Rigamaroads.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Rigamaroads.jpg)](https://catseye.tc/installation/Rigamaroads)
 
 *   inception date: 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -375,7 +375,7 @@ Randomly-assembled street map or circuit or something similar to these.
 
 ### Semicircle Jam
 
-![preview](https://static.catseye.tc/images/screenshots/Semicircle_Jam.png)
+[![preview](https://static.catseye.tc/images/screenshots/Semicircle_Jam.png)](https://catseye.tc/installation/Semicircle_Jam)
 
 *   inception date: May 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -386,7 +386,7 @@ A path made of semicircles.
 
 ### Spadgets
 
-![preview](https://static.catseye.tc/images/screenshots/Spadgets.png)
+[![preview](https://static.catseye.tc/images/screenshots/Spadgets.png)](https://catseye.tc/installation/Spadgets)
 
 *   inception date: Jul 2016
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -401,7 +401,7 @@ it and using it in an unrelated context (say, when building a spadget.)
 
 ### Tentacles, Undamped
 
-![preview](https://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Tentacles,_Undamped.jpg)](https://catseye.tc/installation/Tentacles,_Undamped)
 
 *   inception date: ca Feb 2014
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -414,7 +414,7 @@ damping.
 
 ### Text Uniquifier
 
-![preview](https://static.catseye.tc/images/screenshots/Text_Uniquifier.png)
+[![preview](https://static.catseye.tc/images/screenshots/Text_Uniquifier.png)](https://catseye.tc/installation/Text_Uniquifier)
 
 *   inception date: Nov 2014
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -426,7 +426,7 @@ the text with repeated words removed.
 
 ### The Frame
 
-![preview](https://static.catseye.tc/images/screenshots/The_Frame.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/The_Frame.jpg)](https://catseye.tc/installation/The_Frame)
 
 *   inception date: 2012
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -442,7 +442,7 @@ in Winnipeg, and finished up and released from Cornwall in spring of
 
 ### The Judgment of Paris
 
-![preview](https://static.catseye.tc/images/screenshots/The_Judgment_of_Paris.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/The_Judgment_of_Paris.jpg)](https://catseye.tc/installation/The_Judgment_of_Paris)
 
 *   inception date: 2014
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -454,7 +454,7 @@ A slight reworking of a well-known
 
 ### Two Fifty Six
 
-![preview](https://static.catseye.tc/images/screenshots/Two_Fifty_Six.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Two_Fifty_Six.jpg)](https://catseye.tc/installation/Two_Fifty_Six)
 
 *   inception date: May 2015
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -467,7 +467,7 @@ assignments of colours to digits.
 
 ### Uncle Ankur
 
-![preview](https://static.catseye.tc/images/screenshots/Uncle_Ankur.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Uncle_Ankur.jpg)](https://catseye.tc/installation/Uncle_Ankur)
 
 *   inception date: 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
@@ -479,7 +479,7 @@ randomly-constructed transformation matrices.
 
 ### Woman on Film
 
-![preview](https://static.catseye.tc/images/screenshots/Woman_on_Film.jpg)
+[![preview](https://static.catseye.tc/images/screenshots/Woman_on_Film.jpg)](https://catseye.tc/installation/Woman_on_Film)
 
 *   inception date: ca Apr 2013
 *   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)

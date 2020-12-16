@@ -31,7 +31,7 @@ def rewrite_documents(articles, refdex):
                 WARN_ONLY = True
                 formatted_results = json.dumps(results, indent=4, sort_keys=True)
                 if WARN_ONLY:
-                    print("WARNING: {}".format(formatted_results)
+                    print("WARNING: {}".format(formatted_results))
                 else:
                     raise ValueError(formatted_results)
 
