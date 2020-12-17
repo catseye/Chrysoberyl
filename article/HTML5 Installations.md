@@ -551,6 +551,10 @@ It is implemented in [Javascript][], using [yoob.js][].
 Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
 
+Note that the rendering of the program may be larger than the viewport it is
+displayed in, and on mobile, said viewport might not display
+scrollbars to indicate this.  You can still scroll the program display.
+
 ### ILLGOL
 
 *   installation-of: [ILLGOL][]
@@ -1336,6 +1340,10 @@ Logo, for user-created designs.  The commands are:
                        movements respectively
     shifterr NUM NUM   adjust the error rate for rotations and
                        movements respectively
+
+Note that the canvas may be larger than the viewport that it is
+displayed in, and that on mobile, the viewport may not display
+scrollbars to indicate this.  You can still scroll the canvas.
 
 ### Fibonacci Spiral
 
