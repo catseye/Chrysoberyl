@@ -543,7 +543,7 @@ You might also want to read
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Gemooy/eg/index.js,../modules/Gemooy/src/gemooy-launcher.js
 *   script-root: ../modules/Gemooy/src/
-*   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 420px; height: 420px; overflow: scroll; border: 1px solid black; background-color: #ffffff; }
+*   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 100%; height: 420px; background-color: gainsboro; border: 1px solid black; overflow: scroll; scroll-behavior: auto; scrollbar-width: auto; scrollbar-color: rgb(23, 38, 182) rgb(162, 170, 238); } canvas { background-color: white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Gemooy)
 
 It is implemented in [Javascript][], using [yoob.js][].
