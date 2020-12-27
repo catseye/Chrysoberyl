@@ -1,2 +1,2 @@
 Markdown==2.6.8
-Feedmark==0.11
+-e git+https://github.com/cpressey/Feedmark.git@develop-0.12#egg=Feedmark
