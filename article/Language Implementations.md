@@ -22,7 +22,7 @@ I wanted a version that actually implemented the unbounded integers that
 the language description suggests.  After implementing it, I was familiar
 enough with it to write a sketch of a proof of its [Turing-complete][]ness.
 
-Here it is: [Aubergine/aubergine.hs](http://esolangs.org/wiki/Aubergine/aubergine.hs).
+Here it is: [Aubergine/aubergine.hs](https://esolangs.org/wiki/Aubergine/aubergine.hs).
 
 ### Cardboard Prolog
 
@@ -345,29 +345,29 @@ Wireworld, in ALPACA.
 
 - - - -
 
-[Turing-complete]: http://esolangs.org/wiki/Turing-complete
-[Underload]: http://esolangs.org/wiki/Underload
-[1L_AOI]: http://esolangs.org/wiki/1L_AOI
-[Aubergine]: http://esolangs.org/wiki/Aubergine
+[Turing-complete]: https://esolangs.org/wiki/Turing-complete
+[Underload]: https://esolangs.org/wiki/Underload
+[1L_AOI]: https://esolangs.org/wiki/1L_AOI
+[Aubergine]: https://esolangs.org/wiki/Aubergine
 [An Odd Rewriting System]: https://esolangs.org/wiki/An_Odd_Rewriting_System
-[Qdeql]: http://esolangs.org/wiki/Qdeql
-[2-ill]: http://esolangs.org/wiki/2-ill
+[Qdeql]: https://esolangs.org/wiki/Qdeql
+[2-ill]: https://esolangs.org/wiki/2-ill
 [PL-{GOTO}]: http://www.worldcat.org/title/theory-of-computation/oclc/694056
-[1L_a]: http://esolangs.org/wiki/1L_a
-[Sceql]: http://esolangs.org/wiki/Sceql
-[VALGOL]: http://esolangs.org/wiki/VALGOL
-[BackFlip]: http://esolangs.org/wiki/BackFlip
-[Smallfuck]: http://esolangs.org/wiki/Smallfuck
-[LNUSP]: http://esolangs.org/wiki/LNUSP
-[Muriel]: http://esolangs.org/wiki/Muriel
-[Black]: http://esolangs.org/wiki/Black
-[PATH]: http://esolangs.org/wiki/PATH
-[2L]: http://esolangs.org/wiki/2L
-[brainfuck]: http://esolangs.org/wiki/brainfuck
-[Thue]: http://esolangs.org/wiki/Thue
-[SNUSP]: http://esolangs.org/wiki/SNUSP
-[1L]: http://esolangs.org/wiki/1L
-[Ale]: http://esolangs.org/wiki/Ale
+[1L_a]: https://esolangs.org/wiki/1L_a
+[Sceql]: https://esolangs.org/wiki/Sceql
+[VALGOL]: https://esolangs.org/wiki/VALGOL
+[BackFlip]: https://esolangs.org/wiki/BackFlip
+[Smallfuck]: https://esolangs.org/wiki/Smallfuck
+[LNUSP]: https://esolangs.org/wiki/LNUSP
+[Muriel]: https://esolangs.org/wiki/Muriel
+[Black]: https://esolangs.org/wiki/Black
+[PATH]: https://esolangs.org/wiki/PATH
+[2L]: https://esolangs.org/wiki/2L
+[brainfuck]: https://esolangs.org/wiki/brainfuck
+[Thue]: https://esolangs.org/wiki/Thue
+[SNUSP]: https://esolangs.org/wiki/SNUSP
+[1L]: https://esolangs.org/wiki/1L
+[Ale]: https://esolangs.org/wiki/Ale
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [C99]: ../article/Project%20Dependencies.md#c99
 [Perl]: ../article/Project%20Dependencies.md#perl

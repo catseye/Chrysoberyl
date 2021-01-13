@@ -522,13 +522,13 @@ We should say a few words about these automata here.
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [Java]: ../article/Project%20Dependencies.md#java
 [Rube Goldberg]: https://en.wikipedia.org/wiki/Rube_Goldberg
-[bully automaton]: http://esolangs.org/wiki/Bully%20automaton
+[bully automaton]: https://esolangs.org/wiki/Bully%20automaton
 [RUBE]: ../article/Automata.md#rube
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
-[brainfuck]: http://esolangs.org/wiki/brainfuck
+[brainfuck]: https://esolangs.org/wiki/brainfuck
 [Conway's Game of Life]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [Schrödinger's Cat]: https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat
 [SMETANA]: ../article/Automata.md#smetana
-[non-determinism]: http://esolangs.org/wiki/Category:Nondeterministic
+[non-determinism]: https://esolangs.org/wiki/Category:Nondeterministic
 [cellular automaton]: https://en.wikipedia.org/wiki/Cellular_automaton
 
