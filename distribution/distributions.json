@@ -672,9 +672,17 @@
         ],
         "reponame": "Corona-Realm-of-Magic"
     },
-    "Cosmos Boulders": {
-        "fixed-tag": "084f648",
-        "releases": [],
+    "Cosmos Boulders distribution": {
+        "entries": [
+            "Cosmos Boulders"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/cosmos-boulders-0.1.zip",
+                "version": "0.1"
+            }
+        ],
         "reponame": "Cosmos-Boulders"
     },
     "Cyclobots distribution": {
