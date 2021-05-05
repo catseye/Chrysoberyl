@@ -548,7 +548,7 @@ There was also an "Integer Basic".
 [Etcha]: ../article/Languages.md#etcha
 [Whothm]: ../article/Languages.md#whothm
 [yoob]: ../article/Archived.md#yoob
-[Thue]: http://esolangs.org/wiki/Thue
+[Thue]: https://esolangs.org/wiki/Thue
 [Castile]: ../article/Languages.md#castile
 [Velo]: ../article/Languages.md#velo
 [Lua]: ../article/Project%20Dependencies.md#lua

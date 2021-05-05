@@ -239,13 +239,13 @@ Where exactly The Cannery is going, though, remains to be seen.
 [GitHub]: https://github.com/catseye/
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
-[Phantom Hoover]: http://esolangs.org/wiki/User:Phantom_Hoover
+[Phantom Hoover]: https://esolangs.org/wiki/User:Phantom_Hoover
 [Java]: ../article/Project%20Dependencies.md#java
 [HTML5]: https://www.w3.org/TR/html5/
 [Chrysoberyl]: ../article/General%20Information.md#chrysoberyl
 [Feedmark]: ../article/Formats.md#feedmark
 [Javascript]: ../article/Project%20Dependencies.md#javascript
-[brainfuck]: http://esolangs.org/wiki/brainfuck
+[brainfuck]: https://esolangs.org/wiki/brainfuck
 [languages]: ../article/Languages.md
 [automata]: ../article/Automata.md
 [formats]: ../article/Formats.md

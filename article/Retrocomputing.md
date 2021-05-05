@@ -183,6 +183,6 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 [6502]: ../article/Project%20Dependencies.md#6502
 [Z80]: ../article/Project%20Dependencies.md#z80
 [Z-Machine]: ../article/Project%20Dependencies.md#z-machine
-[FALSE]: http://esolangs.org/wiki/FALSE
-[brainfuck]: http://esolangs.org/wiki/brainfuck
+[FALSE]: https://esolangs.org/wiki/FALSE
+[brainfuck]: https://esolangs.org/wiki/brainfuck
 

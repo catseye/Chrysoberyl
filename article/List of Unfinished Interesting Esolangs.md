@@ -709,14 +709,14 @@ Maybe if I finish it one day I'll move it back there.
 [Erlang]: ../article/Project%20Dependencies.md#erlang
 [Java]: ../article/Project%20Dependencies.md#java
 [Mascarpone]: ../article/Languages.md#mascarpone
-[Muriel]: http://esolangs.org/wiki/Muriel
+[Muriel]: https://esolangs.org/wiki/Muriel
 [SETL]: https://en.wikipedia.org/wiki/SETL
 [Scheme]: ../article/Project%20Dependencies.md#scheme
-[Turing-complete]: http://esolangs.org/wiki/Turing-complete
-[Underload]: http://esolangs.org/wiki/Underload
+[Turing-complete]: https://esolangs.org/wiki/Turing-complete
+[Underload]: https://esolangs.org/wiki/Underload
 [Unlikely]: ../article/Languages.md#unlikely
 [ZOWIE]: ../article/Languages.md#zowie
-[brainfuck]: http://esolangs.org/wiki/brainfuck
+[brainfuck]: https://esolangs.org/wiki/brainfuck
 [esoteric programming languages]: http://esolangs.org/
 [the completed]: https://catseye.tc/node/Chris%20Pressey%27s%20Lingography
 

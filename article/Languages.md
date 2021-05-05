@@ -2941,8 +2941,8 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 
 - - - -
 
-[1L]: http://esolangs.org/wiki/1L
-[2-ill]: http://esolangs.org/wiki/2-ill
+[1L]: https://esolangs.org/wiki/1L
+[2-ill]: https://esolangs.org/wiki/2-ill
 [ALPACA]: ../article/Languages.md#alpaca
 [Alise]: https://github.com/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
@@ -2950,8 +2950,8 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Befunge-97]: ../article/Languages.md#befunge-97
 [Befunge-98]: ../article/Languages.md#befunge-98
-[Ben Olmstead]: http://esolangs.org/wiki/Ben_Olmstead
-[BitChanger]: http://esolangs.org/wiki/BitChanger
+[Ben Olmstead]: https://esolangs.org/wiki/Ben_Olmstead
+[BitChanger]: https://esolangs.org/wiki/BitChanger
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Carriage]: ../article/Languages.md#carriage
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
@@ -2959,17 +2959,17 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards 2001]: ../article/Events.md#esoteric-awards-2001
 [Etcha]: ../article/Languages.md#etcha
-[FALSE]: http://esolangs.org/wiki/FALSE
+[FALSE]: https://esolangs.org/wiki/FALSE
 [Falderal]: ../article/Formats.md#falderal
 [Funge-98]: ../article/Languages.md#funge-98
-[Gregor Richards]: http://esolangs.org/wiki/Gregor_Richards
+[Gregor Richards]: https://esolangs.org/wiki/Gregor_Richards
 [ILLGOL]: ../article/Languages.md#illgol
 [Jan Hammer]: https://en.wikipedia.org/wiki/Jan_Hammer
-[Jeffry Johnston]: http://esolangs.org/wiki/Jeffry%20Johnston
+[Jeffry Johnston]: https://esolangs.org/wiki/Jeffry%20Johnston
 [Jerry Goodman]: https://en.wikipedia.org/wiki/Jerry_Goodman
 [Lua]: ../article/Project%20Dependencies.md#lua
 [Mascarpone]: ../article/Languages.md#mascarpone
-[Marinus]: http://esolangs.org/wiki/User:Marinus
+[Marinus]: https://esolangs.org/wiki/User:Marinus
 [Pixley]: ../article/Languages.md#pixley
 [Pifxley]: ../article/Languages.md#pifxley
 [P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
@@ -2979,16 +2979,16 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [SMITH]: ../article/Languages.md#smith
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [Tamerlane]: ../article/Languages.md#tamerlane
-[Thue]: http://esolangs.org/wiki/Thue
+[Thue]: https://esolangs.org/wiki/Thue
 [Trefunge-98]: ../article/Languages.md#trefunge-98
-[Turing-complete]: http://esolangs.org/wiki/Turing-complete
+[Turing-complete]: https://esolangs.org/wiki/Turing-complete
 [Unefunge-98]: ../article/Languages.md#unefunge-98
-[Var'aq]: http://esolangs.org/wiki/Var'aq
+[Var'aq]: https://esolangs.org/wiki/Var'aq
 [Wierd]: ../article/Languages.md#wierd
 [Wierd (John Colagioia)]: ../article/Languages.md#wierd
 [Wierd (Milo van Handel)]: ../article/Languages.md#wierd
-[brainfuck]: http://esolangs.org/wiki/brainfuck
-[reMorse]: http://esolangs.org/wiki/reMorse
+[brainfuck]: https://esolangs.org/wiki/brainfuck
+[reMorse]: https://esolangs.org/wiki/reMorse
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [Perl]: ../article/Project%20Dependencies.md#perl
 [rubbish lister]: https://catseye.tc/node/Perl
@@ -3000,7 +3000,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob]: ../article/Archived.md#yoob
-[Befunge Mailing List Working Group]: http://esolangs.org/wiki/Befunge
+[Befunge Mailing List Working Group]: https://esolangs.org/wiki/Befunge
 [Shelta]: ../article/Languages.md#shelta
 [Illgola-2]: ../article/Languages.md#illgola-2
 [Illberon]: ../article/Languages.md#illberon
