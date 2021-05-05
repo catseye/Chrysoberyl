@@ -4098,6 +4098,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/tagfarm-0.2.zip",
                 "version": "0.2"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/tagfarm-0.3.zip",
+                "version": "0.3"
             }
         ],
         "reponame": "tagfarm",
