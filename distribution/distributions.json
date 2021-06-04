@@ -3796,6 +3796,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/ellsync-0.4.zip",
                 "version": "0.4"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/ellsync-0.5.zip",
+                "version": "0.5"
             }
         ],
         "reponame": "ellsync",
