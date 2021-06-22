@@ -2394,14 +2394,14 @@
         "reponame": "REDGREEN"
     },
     "RUBE II distribution": {
+        "discontinued": true,
         "releases": [
             {
                 "revision": "2001.0201",
                 "url": "https://catseye.tc/distfiles/rube_ii-2001.0201.zip",
                 "version": "1.0"
             }
-        ],
-        "reponame": "RUBE-II"
+        ]
     },
     "RUBE distribution": {
         "entries": [
