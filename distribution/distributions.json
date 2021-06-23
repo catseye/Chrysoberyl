@@ -2036,6 +2036,7 @@
         "reponame": "NaNoGenMo-Entries-2019"
     },
     "NetUSB distribution": {
+        "discontinued": true,
         "releases": [
             {
                 "revision": "0.0",
@@ -2043,7 +2044,6 @@
                 "version": "0.1"
             }
         ],
-        "reponame": "NetUSB",
         "tag-style": "new"
     },
     "Nhohnhehr distribution": {
