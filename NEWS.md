@@ -5,6 +5,28 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Release of Castile version 0.4
+
+*   summary: Version 0.4 of the [Castile](https://catseye.tc/node/Castile) programming language has been released.
+*   date: Fri, 02 Jul 2021 09:31:42 GMT
+
+After a long time lying fallow, a new version (0.4) of the programming language
+[Castile](https://catseye.tc/node/Castile) has been released.
+
+Mainly, I was disappointed that the C-language-generating backend of the
+compiler was left incomplete.  So I completed it.  Testing `struct`s for
+equality was also unimplemented in several backends.  So I completed that
+part of it too.
+
+The language itself has few changes, outside the tightening of some rules
+regarding comparing `struct`s.
+
+But significantly, the language project has been re-focused.  The language
+is not quite as unremarkable as its documentation previously made it sound.
+Castile is a simple language with union types.  The union types let it do
+a number of tricks, like being safe from null pointers, implementing enums,
+and taking a "Parse, don't validate" approach when programming.
+
 ### A better experience on mobile, and DAM 0.2
 
 *   summary: Improvements to the [online installations](https://catseye.tc/article/HTML5_Installations.md) on mobile.
