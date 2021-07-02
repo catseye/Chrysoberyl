@@ -2427,9 +2427,9 @@ thus may overlap — and was released as an esolang.
 *   type: Programming Language
 *   inception-date: Nov 21, 2012
 *   genre: Experimental language
-*   development-stage: unfinished
+*   development-stage: not fully complete
 *   computational-class: believed Turing-complete
-*   influences: Eightebed, Rust
+*   influences: [ANSI C][], [Eightebed][], [Rust][]
 *   paradigms: Imperative, Functional
 *   etymology: soap
 *   reference-distribution: [Castile distribution](https://catseye.tc/distribution/Castile_distribution)
@@ -2456,15 +2456,14 @@ Castile is an unremarkable programming language which exists mainly
 because an unremarkable evaluator/compiler for it was written.  It is
 a bit like [ANSI C][] except with proper union types (and no typecasts.)  Local
 variables are mutable, but arguments and globals aren't.  The compiler
-supports several backends, including [Javascript][] and [Ruby][].
+supports several backends, including [ANSI C][], [Javascript][], and [Ruby][].
 
-#### Reference Implementation: castile.py
+#### Reference Implementation: castile (Python)
 
-*   license: Unknown license
-*   implementation-type: interpreter
+*   license: BSD license
+*   implementation-type: interpreter+compiler
 *   host-language: [Python][]
-
-Also it's a compiler to Javascript, Ruby, stackmac, almost C...
+*   target-languages: [ANSI C][], [Javascript][], [Ruby][], stackmac
 
 ### SixtyPical
 
@@ -2956,6 +2955,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Carriage]: ../article/Languages.md#carriage
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
+[Eightebed]: ../article/Languages.md#eightebed
 [Emmental]: ../article/Languages.md#emmental
 [Esoteric Awards 2001]: ../article/Events.md#esoteric-awards-2001
 [Etcha]: ../article/Languages.md#etcha
@@ -2975,6 +2975,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
 [RUBE]: ../article/Automata.md#rube
 [Ruby]: ../article/Project%20Dependencies.md#ruby
+[Rust]: http://www.rust-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
 [SMITH]: ../article/Languages.md#smith
 [Scheme]: ../article/Project%20Dependencies.md#scheme
