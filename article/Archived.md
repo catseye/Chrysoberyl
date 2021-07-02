@@ -48,6 +48,33 @@ Utility to translate I/O interactively.
 *   license: BSD license
 *   host-language: C99
 
+### Console::Virtual
+
+*   summary: Package for simulating a virtual console
+*   inception-date: ca 2003
+*   reference-distribution: [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution) (discontinued)
+
+`Console::Virtual` is a simple, lightweight abstraction layer which
+allows a program to interact with the user through a console, which
+is emulated on whatever user interface is really available.
+
+It's bundled with several distributions of esolangs implemented in
+Perl (Ypsilax, noit o' mnain worb, HUNTER).  It also has its own
+distribution, but this is discontinued, as no further work will be
+done on it, and it will not be used in new products.
+
+#### Implementation: Console::Virtual (Perl module)
+
+*   reference: true
+*   in-distributions:
+    *   [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution)
+    *   [Corona: Realm of Magic distribution](https://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
+    *   [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
+    *   [noit o' mnain worb distribution](https://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
+    *   [HUNTER distribution](https://catseye.tc/distribution/HUNTER_distribution)
+*   license: BSD license
+*   host-language: [Perl][]
+
 ### crone
 
 *   summary: Simple, non-polling cron-like scheduler

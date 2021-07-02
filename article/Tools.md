@@ -13,28 +13,6 @@ instead of here.
 
 Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some tools.
 
-### Console::Virtual
-
-*   summary: Package for simulating a virtual console
-*   inception-date: ca 2003
-*   reference-distribution: [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution)
-
-`Console::Virtual` is a simple, lightweight abstraction layer which
-allows a program to interact with the user through a console, which
-is emulated on whatever user interface is really available.
-  
-#### Implementation: Console::Virtual (Perl module)
-
-*   reference: true
-*   in-distributions:
-    *   [Console::Virtual distribution](https://catseye.tc/distribution/Console::Virtual_distribution)
-    *   [Corona: Realm of Magic distribution](https://catseye.tc/distribution/Corona:_Realm_of_Magic_distribution)
-    *   [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
-    *   [noit o' mnain worb distribution](https://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
-    *   [HUNTER distribution](https://catseye.tc/distribution/HUNTER_distribution)
-*   license: BSD license
-*   host-language: [Perl][]
-
 ### DAM
 
 *   summary: You've tried the Document Object Model, now try the Document *Awesome* Model

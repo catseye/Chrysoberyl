@@ -638,6 +638,7 @@
         "reponame": "Circute"
     },
     "Console::Virtual distribution": {
+        "discontinued": true,
         "entries": [
             "Console::Virtual"
         ],
@@ -659,8 +660,7 @@
                 "url": "https://catseye.tc/distfiles/console-virtual-2.0-2013.0219.zip",
                 "version": "2.0"
             }
-        ],
-        "reponame": "Console-Virtual"
+        ]
     },
     "Corona: Realm of Magic distribution": {
         "entries": [
