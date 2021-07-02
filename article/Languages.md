@@ -2452,16 +2452,18 @@ Sample program:
       a /* should output 337 */
     }
 
-Castile is an unremarkable programming language which exists mainly
-because an unremarkable evaluator/compiler for it was written.  It is
-a bit like [ANSI C][] except with proper union types (and no typecasts.)  Local
+Castile is a simple imperative language with union types.  It exists mainly
+because an interpreter-plus-compiler for it was written.  It is
+a bit like [ANSI C][] except with proper union types (and no typecasts.)  Null
+pointer dereferencing is thus prevented because "null" is a separate type in
+the union that must be selected explicitly with a `typecase` form.  Local
 variables are mutable, but arguments and globals aren't.  The compiler
 supports several backends, including [ANSI C][], [Javascript][], and [Ruby][].
 
 #### Reference Implementation: castile (Python)
 
 *   license: BSD license
-*   implementation-type: interpreter+compiler
+*   implementation-type: interpreter-plus-compiler
 *   host-language: [Python][]
 *   target-languages: [ANSI C][], [Javascript][], [Ruby][], stackmac
 

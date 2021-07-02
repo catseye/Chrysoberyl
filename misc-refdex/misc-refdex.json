@@ -440,6 +440,10 @@
         "anchor": "noit-o-mnain-worb", 
         "filename": "article/Languages.md"
     },
+    "castile.py": {
+        "anchor": "castile", 
+        "filename": "article/Languages.md"
+    },
     "slife.js": {
         "anchor": "schrödingers-game-of-life", 
         "filename": "article/Languages.md"
