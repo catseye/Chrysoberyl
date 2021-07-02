@@ -563,6 +563,11 @@
                 "revision": "2016.0331",
                 "url": "https://catseye.tc/distfiles/castile-0.3-2016.0331.zip",
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/castile-0.4.zip",
+                "version": "0.4"
             }
         ],
         "reponame": "Castile"
