@@ -2918,6 +2918,53 @@ push `$` onto the stack and go to state 9" translate quite straightforwardly to 
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Lanthorn
+
+*   type: Programming Language
+*   inception-date: Feb 2021
+*   genre: Esolang
+*   development-stage: mature
+*   computational-class: believed Turing-complete
+*   paradigms: Functional
+*   reference-distribution: [Lanthorn distribution](https://catseye.tc/distribution/Lanthorn_distribution)
+
+Sample program:
+
+    letrec
+        odd  = fun(x) -> if eq(x, 0) then false else even(sub(x, 1))
+        even = fun(x) -> if eq(x, 0) then true else odd(sub(x, 1))
+    in
+        even(6)
+
+Lanthorn is a purely functional toy programming language in which
+`letrec` is mere syntactic sugar.  In it is demonstrated a transformation
+from `letrec` to `let` that is purely syntactic, and which turns the
+sample program shown above, into this:
+
+    let
+      odd$0 = fun(x, odd$1, even$1) -> let
+          odd = fun(x$1) -> odd$1(x$1, odd$1, even$1)
+          even = fun(x$1) -> even$1(x$1, odd$1, even$1)
+        in
+          if eq(x, 0) then false else even(sub(x, 1))
+      even$0 = fun(x, odd$1, even$1) -> let
+          odd = fun(x$1) -> odd$1(x$1, odd$1, even$1)
+          even = fun(x$1) -> even$1(x$1, odd$1, even$1)
+        in
+          if eq(x, 0) then true else odd(sub(x, 1))
+      odd = fun(x) -> odd$0(x, odd$0, even$0)
+      even = fun(x) -> even$0(x, odd$0, even$0)
+    in
+      even(6)
+
+#### Reference Implementation: Language.Lanthorn
+
+*   license: MIT license
+*   implementation-type: interpreter
+*   host-language: [Haskell][]
+
+- - - -
+
 ## About these Languages
 
 Most of these languages are programming languages, or at least "computer languages" of
