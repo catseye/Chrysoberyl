@@ -1779,6 +1779,20 @@
             "Falderal"
         ]
     },
+    "Lanthorn distribution": {
+        "entries": [
+            "Lanthorn"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/lanthorn-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Lanthorn"
+    },
     "Larabee distribution": {
         "entries": [
             "Larabee"
