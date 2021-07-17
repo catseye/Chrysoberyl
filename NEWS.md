@@ -5,6 +5,19 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Lanthorn: `letrec` as syntactic sugar
+
+*   summary: [Lanthorn](https://catseye.tc/node/Lanthorn) demonstrates a `letrec`-removing transformation.
+*   date: Sat, 17 Jul 2021 12:53:05 GMT
+
+Lovely language [Lanthorn](https://catseye.tc/node/Lanthorn) launches.
+
+Look lucidly at its lexical lycanthropy — a leakproof lifting
+of `letrec` to `let` in lieu of lopsided letterbox loads.
+
+A loquacious lucubration in laminar labour for lugubrious laity?
+It's likely!
+
 ### Release of Castile version 0.4
 
 *   summary: Version 0.4 of the [Castile](https://catseye.tc/node/Castile) programming language has been released.
@@ -18,7 +31,7 @@ compiler was left incomplete.  So I completed it.  Testing `struct`s for
 equality was also unimplemented in several backends.  So I completed that
 part of it too.
 
-The language itself has few changes, outside the tightening of some rules
+The language itself has few changes, primarily the tightening of some rules
 regarding comparing `struct`s.
 
 But significantly, the language project has been re-focused.  The language
