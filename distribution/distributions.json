@@ -852,6 +852,16 @@
                 "revision": "2014.0819",
                 "url": "https://catseye.tc/distfiles/eightebed-1.1-2014.0819.zip",
                 "version": "1.1"
+            },
+            {
+                "revision": "2021.0621",
+                "url": "https://catseye.tc/distfiles/eightebed-1.1-2021.0621.zip",
+                "version": "1.1"
+            },
+            {
+                "revision": "2021.0710",
+                "url": "https://catseye.tc/distfiles/eightebed-1.1-2021.0710.zip",
+                "version": "1.1"
             }
         ],
         "reponame": "Eightebed"
