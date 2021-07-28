@@ -565,6 +565,11 @@
                 "version": "0.3"
             },
             {
+                "revision": "2021.0625",
+                "url": "https://catseye.tc/distfiles/castile-0.3-2021.0625.zip",
+                "version": "0.3"
+            },
+            {
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/castile-0.4.zip",
                 "version": "0.4"
