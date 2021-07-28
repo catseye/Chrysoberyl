@@ -779,6 +779,11 @@
                 "revision": "2014.0819",
                 "url": "https://catseye.tc/distfiles/dieter-1.0-2014.0819.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0726",
+                "url": "https://catseye.tc/distfiles/dieter-1.0-2021.0726.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Dieter"
@@ -2745,6 +2750,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/samovar-0.3.zip",
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/samovar-0.4.zip",
+                "version": "0.4"
             }
         ],
         "reponame": "Samovar",
@@ -2778,6 +2788,11 @@
             {
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/schroedingers-game-of-life-1.0.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.0728",
+                "url": "https://catseye.tc/distfiles/schroedingers-game-of-life-1.0-2021.0728.zip",
                 "version": "1.0"
             }
         ],
