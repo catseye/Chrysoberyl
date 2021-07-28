@@ -1399,6 +1399,7 @@
         "reponame": "GraNoLa-M"
     },
     "Guten-gutter distribution": {
+        "discontinued": true,
         "entries": [
             "Guten-gutter"
         ],
@@ -1418,9 +1419,7 @@
                 "url": "https://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip",
                 "version": "0.2"
             }
-        ],
-        "reponame": "Guten-gutter",
-        "tag-style": "new"
+        ]
     },
     "HTML5 Gewgaws distribution": {
         "entries": [
@@ -4060,6 +4059,7 @@
         "tag-style": "new"
     },
     "seedbank distribution": {
+        "discontinued": true,
         "entries": [
             "seedbank"
         ],
@@ -4075,9 +4075,7 @@
                 "url": "https://catseye.tc/distfiles/seedbank-1.1.zip",
                 "version": "1.1"
             }
-        ],
-        "reponame": "seedbank",
-        "tag-style": "new"
+        ]
     },
     "sf2tab distribution": {
         "discontinued": true,

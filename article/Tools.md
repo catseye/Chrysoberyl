@@ -97,22 +97,6 @@ and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.s
 *   license: Public Domain
 *   host-language: [Bourne shell][]
 
-### Guten-gutter
-
-*   summary: Extractor of Project Gutenberg texts
-*   inception-date: 2014
-*   development-stage: mature
-*   reference-distribution: [Guten-gutter distribution](https://catseye.tc/distribution/Guten-gutter_distribution)
-
-Guten-gutter is a command-line tool that removes the boilerplate
-from Project Gutenberg text files.
-
-#### Implementation: guten-gutter (Python)
-
-*   reference: true
-*   license: Public Domain
-*   host-language: [Python][]
-
 ### hatoucan
 
 *   summary: Tokenizer for Commodore BASIC 2.0 programs
@@ -157,23 +141,6 @@ MARYSUE is the story generator used to generate the novel
 [A Time for Destiny][] for [NaNoGenMo 2015][].
 
 #### Implementation: MARYSUE (Python)
-
-*   reference: true
-*   license: Public Domain
-*   host-language: [Python][]
-
-### seedbank
-
-*   summary: Records seeds used in random generation and allows re-use
-*   inception-date: 2014
-*   development-stage: mature
-*   reference-distribution: [seedbank distribution](https://catseye.tc/distribution/seedbank_distribution)
-
-`seedbank` is a Python module which takes care of recording the seed
-used for random generation, and allowing a previously used seed to
-be used again in the future.
-
-#### Implementation: seedbank (Python)
 
 *   reference: true
 *   license: Public Domain

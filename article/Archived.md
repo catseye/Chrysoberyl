@@ -92,19 +92,21 @@ to run, and sleeps exactly that long.
 *   license: BSD license
 *   host-language: Erlang
 
-### noise
+### Guten-gutter
 
-*   summary: A fairly realistic line-noise generator
-*   inception-date: unknown
-*   reference-distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
+*   summary: Extractor of Project Gutenberg texts
+*   inception-date: 2014
+*   development-stage: mature
+*   reference-distribution: [Guten-gutter distribution](https://catseye.tc/distribution/Guten-gutter_distribution)
 
-A fairly realistic line-noise generator.
+Guten-gutter is a command-line tool that removes the boilerplate
+from Project Gutenberg text files.
 
-#### Implementation: noise (Perl)
+#### Implementation: guten-gutter (Python)
 
 *   reference: true
-*   license: BSD license
-*   host-language: Perl
+*   license: Public Domain
+*   host-language: [Python][]
 
 ### luakld
 
@@ -143,6 +145,20 @@ An IRC bot with no purpose or plan.
 mzstorkipiwanbotbotbot, in fact in some way it's a completely different
 bot.  But whatever.)
 
+### noise
+
+*   summary: A fairly realistic line-noise generator
+*   inception-date: unknown
+*   reference-distribution: [The Dipple](https://catseye.tc/distribution/The_Dipple)
+
+A fairly realistic line-noise generator.
+
+#### Implementation: noise (Perl)
+
+*   reference: true
+*   license: BSD license
+*   host-language: Perl
+
 ### Rooibos
 
 *   summary: Simple, single-module parser combinator library
@@ -163,6 +179,23 @@ other projects.
 *   reference: true
 *   license: Public Domain
 *   host-language: Python
+
+### seedbank
+
+*   summary: Records seeds used in random generation and allows re-use
+*   inception-date: 2014
+*   development-stage: mature
+*   reference-distribution: [seedbank distribution](https://catseye.tc/distribution/seedbank_distribution)
+
+`seedbank` is a Python module which takes care of recording the seed
+used for random generation, and allowing a previously used seed to
+be used again in the future.
+
+#### Implementation: seedbank (Python)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Python][]
 
 ### SP_ASM
 
