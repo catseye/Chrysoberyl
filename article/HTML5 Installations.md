@@ -927,7 +927,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Wagon/eg/examplePrograms.jsonp.js,../modules/Wagon/demo/wagon-hastec-launcher.js,https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
+*   javascript-urls: ../modules/Wagon/eg/examplePrograms.jsonp.js,../modules/Wagon/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/wagon-1.0/wagon.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "reverse0.wagon" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
