@@ -604,9 +604,15 @@
         "entries": [
             "Chzrxl"
         ],
-        "fixed-tag": "48d8585",
-        "releases": [],
-        "reponame": "Chzrxl"
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/chzrxl-1.1.zip",
+                "version": "1.1"
+            }
+        ],
+        "reponame": "Chzrxl",
+        "tag-style": "new"
     },
     "Circute distribution": {
         "entries": [
@@ -699,9 +705,15 @@
         "entries": [
             "Cyclobots"
         ],
-        "fixed-tag": "949cd42",
-        "releases": [],
-        "reponame": "Cyclobots"
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/cyclobots-2.1.zip",
+                "version": "2.1"
+            }
+        ],
+        "reponame": "Cyclobots",
+        "tag-style": "new"
     },
     "DAM distribution": {
         "reference": true,
@@ -928,7 +940,6 @@
         "entries": [
             "Erratic Turtle Graphics"
         ],
-        "fixed-tag": "12e12e8",
         "reference": true,
         "releases": [
             {
@@ -1444,7 +1455,6 @@
             "Rigamaroads",
             "Semicircle Jam",
             "B\u00e9zier Knots",
-            "Latcarf",
             "Pixed-Point",
             "Spadgets"
         ],
@@ -1826,9 +1836,14 @@
         "entries": [
             "Latcarf"
         ],
-        "fixed-tag": "7817a22",
         "reference": true,
-        "releases": [],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/latcarf-1.1.zip",
+                "version": "1.1"
+            }
+        ],
         "reponame": "Latcarf",
         "tag-style": "new"
     },
@@ -1999,9 +2014,14 @@
         "entries": [
             "Maze Clouds"
         ],
-        "fixed-tag": "9d7e20a",
         "reference": true,
-        "releases": [],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/maze-clouds-1.0.zip",
+                "version": "1.0"
+            }
+        ],
         "reponame": "Maze-Clouds",
         "tag-style": "new"
     },
