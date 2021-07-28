@@ -3439,6 +3439,11 @@
                 "revision": "2019.0925",
                 "url": "https://catseye.tc/distfiles/wagon-1.0-2019.0925.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0728",
+                "url": "https://catseye.tc/distfiles/wagon-1.0-2021.0728.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Wagon",
