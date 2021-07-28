@@ -33,7 +33,7 @@ FreeBSD 4.x syscons bell hook to run executable.
 
 *   reference: true
 *   license: BSD license
-*   host-language: C99
+*   host-language: [C99][]
 
 ### brace
 
@@ -46,7 +46,7 @@ Utility to translate I/O interactively.
 
 *   reference: true
 *   license: BSD license
-*   host-language: C99
+*   host-language: [C99][]
 
 ### Console::Virtual
 
@@ -90,14 +90,14 @@ to run, and sleeps exactly that long.
 
 *   reference: true
 *   license: BSD license
-*   host-language: Erlang
+*   host-language: [Erlang][]
 
 ### Guten-gutter
 
 *   summary: Extractor of Project Gutenberg texts
 *   inception-date: 2014
-*   development-stage: mature
-*   reference-distribution: [Guten-gutter distribution](https://catseye.tc/distribution/Guten-gutter_distribution)
+*   development-stage: archival
+*   reference-distribution: [guten-gutter-0.2-2016.0316.zip](https://catseye.tc/distfiles/guten-gutter-0.2-2016.0316.zip)
 
 Guten-gutter is a command-line tool that removes the boilerplate
 from Project Gutenberg text files.
@@ -120,7 +120,7 @@ This was a little experiment.  Conclusion: Lua interpreter: not a recommended th
 
 *   reference: true
 *   license: BSD license
-*   host-language: C99
+*   host-language: [C99][]
 
 ### mzstorkipiwanbotbotbot
 
@@ -134,12 +134,12 @@ An IRC bot with no purpose or plan.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Lua
+*   host-language: [Lua][]
 
 #### Implementation: Rtype
 
 *   license: Public Domain
-*   host-language: R
+*   host-language: [R][]
 
 (This is kind of wrong because this bot isn't another implementation of
 mzstorkipiwanbotbotbot, in fact in some way it's a completely different
@@ -157,7 +157,7 @@ A fairly realistic line-noise generator.
 
 *   reference: true
 *   license: BSD license
-*   host-language: Perl
+*   host-language: [Perl][]
 
 ### Rooibos
 
@@ -178,14 +178,14 @@ other projects.
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Python
+*   host-language: [Python][]
 
 ### seedbank
 
 *   summary: Records seeds used in random generation and allows re-use
 *   inception-date: 2014
-*   development-stage: mature
-*   reference-distribution: [seedbank distribution](https://catseye.tc/distribution/seedbank_distribution)
+*   development-stage: archival
+*   reference-distribution: [seedbank-1.1.zip](https://catseye.tc/distfiles/seedbank-1.1.zip)
 
 `seedbank` is a Python module which takes care of recording the seed
 used for random generation, and allowing a previously used seed to
@@ -234,7 +234,7 @@ local git or Mercurial clones, or they can be source distributions from tarballs
 
 *   reference: true
 *   license: MIT license
-*   host-language: Python
+*   host-language: [Python][]
 
 ### yaeolc
 
@@ -273,7 +273,7 @@ Web Start installed — so you can still see it in action
 
 *   reference: true
 *   license: Public Domain
-*   host-language: Java
+*   host-language: [Java][]
 *   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
 Links
@@ -290,5 +290,11 @@ Links
 [E-UAE]: ../article/Project%20Dependencies.md#amiga-500
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Perl]: ../article/Project%20Dependencies.md#perl
+[Python]: ../article/Project%20Dependencies.md#python
+[Java]: ../article/Project%20Dependencies.md#java
+[Lua]: ../article/Project%20Dependencies.md#lua
+[R]: http://www.r-project.org/
+[C99]: ../article/Project%20Dependencies.md#c99
+[Erlang]: ../article/Project%20Dependencies.md#erlang
 [Funicular]: ../article/Tools.md#funicular
 
