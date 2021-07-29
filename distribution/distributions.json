@@ -3754,6 +3754,16 @@
                 "revision": "2019.0122",
                 "url": "https://catseye.tc/distfiles/zowie-1.1-2019.0122.zip",
                 "version": "1.1"
+            },
+            {
+                "revision": "2021.0622",
+                "url": "https://catseye.tc/distfiles/zowie-1.1-2021.0622.zip",
+                "version": "1.1"
+            },
+            {
+                "revision": "2021.0729",
+                "url": "https://catseye.tc/distfiles/zowie-1.1-2021.0729.zip",
+                "version": "1.1"
             }
         ],
         "reponame": "ZOWIE"
