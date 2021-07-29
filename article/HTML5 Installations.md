@@ -1053,7 +1053,7 @@ will consume them in order, and continue running.
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/index.js,../modules/ZOWIE/eg/launch-zowie.js
+*   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/examplePrograms.jsonp.js,../modules/ZOWIE/eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
