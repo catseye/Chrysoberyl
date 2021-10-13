@@ -704,7 +704,8 @@
                 "version": "0.1"
             }
         ],
-        "reponame": "Cosmos-Boulders"
+        "reponame": "Cosmos-Boulders",
+        "tag-style": "new"
     },
     "Cyclobots distribution": {
         "entries": [
