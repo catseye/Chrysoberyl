@@ -1821,7 +1821,8 @@
                 "version": "1.0"
             }
         ],
-        "reponame": "Lanthorn"
+        "reponame": "Lanthorn",
+        "tag-style": "new"
     },
     "Larabee distribution": {
         "entries": [
