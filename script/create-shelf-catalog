@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # encoding: UTF-8
 
+from argparse import ArgumentParser
 import json
 import os
 import re
 import sys
 
 
-def create_shelf_catalog():
+def create_shelf_catalog(options):
     """Create a shelf catalogue from distribution nodes.
 
     """
@@ -18,7 +19,20 @@ def create_shelf_catalog():
     with open('distribution/forks.json', 'r') as f:
         forks = json.loads(f.read())
 
-    distributions.update(forks)
+    if options.include_forks:
+        distributions.update(forks)
+
+    # For now, this fork is always included...
+    distributions.update({
+        "OpenZz distribution": {
+            "entries": [
+                "OpenZz",
+            ],
+            "fixed-tag": "1.0.4-4ce1",
+            "releases": [],
+            "reponame": "OpenZz",
+        },
+    })
 
     infos = {}
     for (key, node) in sorted(distributions.items()):
@@ -63,4 +77,8 @@ def create_shelf_catalog():
 
 
 if __name__ == '__main__':
-    create_shelf_catalog()
+    argparser = ArgumentParser()
+    argparser.add_argument('--include-forks', action='store_true', default=False,
+                           help='Include forks in the generated catalogue.')
+    options = argparser.parse_args(sys.argv[1:])
+    create_shelf_catalog(options)
