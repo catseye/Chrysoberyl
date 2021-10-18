@@ -235,7 +235,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/carriage-0.1/carriage.js
+*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,./modules/Carriage/demo/carriage.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
@@ -470,7 +470,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Equipage/eg/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/equipage-1.0-2019.0926/equipage.js
+*   javascript-urls: ../modules/Equipage/eg/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,../modules/Equipage/demo/equipage.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "pop-all-positives.equipage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Equipage)
