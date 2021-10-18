@@ -2121,6 +2121,16 @@
                 "revision": "2014.0819",
                 "url": "https://catseye.tc/distfiles/nhohnhehr-1.0-2014.0819.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0624",
+                "url": "https://catseye.tc/distfiles/nhohnhehr-1.0-2021.0624.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.0729",
+                "url": "https://catseye.tc/distfiles/nhohnhehr-1.0-2021.0729.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Nhohnhehr"
