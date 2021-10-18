@@ -2174,6 +2174,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/oxcart-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.1018",
+                "url": "https://catseye.tc/distfiles/oxcart-1.0-2021.1018.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Oxcart",
