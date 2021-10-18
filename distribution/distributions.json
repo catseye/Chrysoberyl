@@ -3673,6 +3673,21 @@
                 "revision": "2015.0101",
                 "url": "https://catseye.tc/distfiles/yolk-1.0-2015.0101.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0617",
+                "url": "https://catseye.tc/distfiles/yolk-1.0-2021.0617.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.0622",
+                "url": "https://catseye.tc/distfiles/yolk-1.0-2021.0622.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.0729",
+                "url": "https://catseye.tc/distfiles/yolk-1.0-2021.0729.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Yolk",
