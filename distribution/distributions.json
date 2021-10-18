@@ -3646,6 +3646,11 @@
                 "revision": "2014.1230",
                 "url": "https://catseye.tc/distfiles/xoomonk-1.0-2014.1230.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0822",
+                "url": "https://catseye.tc/distfiles/xoomonk-1.0-2021.0822.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Xoomonk",
@@ -3934,6 +3939,16 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/hatoucan-0.1.zip",
                 "version": "0.1"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/hatoucan-0.2.zip",
+                "version": "0.2"
+            },
+            {
+                "revision": "2021.0729",
+                "url": "https://catseye.tc/distfiles/hatoucan-0.2-2021.0729.zip",
+                "version": "0.2"
             }
         ],
         "reponame": "hatoucan",
