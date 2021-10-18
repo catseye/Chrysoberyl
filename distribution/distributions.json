@@ -1044,6 +1044,11 @@
                 "revision": "2017.0428",
                 "url": "https://catseye.tc/distfiles/exanoke-1.0-2017.0428.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.0919",
+                "url": "https://catseye.tc/distfiles/exanoke-1.0-2021.0919.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Exanoke",
@@ -1735,6 +1740,11 @@
             {
                 "revision": "2013.1010",
                 "url": "https://catseye.tc/distfiles/jolverine-1.0-2013.1010.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.0730",
+                "url": "https://catseye.tc/distfiles/jolverine-1.0-2021.0730.zip",
                 "version": "1.0"
             }
         ],
