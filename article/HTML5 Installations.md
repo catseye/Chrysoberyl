@@ -644,7 +644,7 @@ browser does not support Web Workers, it may not function correctly.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Oxcart/eg/examplePrograms.jsonp.js,../modules/Oxcart/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/oxcart-1.0/oxcart.js
+*   javascript-urls: ../modules/Oxcart/eg/examplePrograms.jsonp.js,../modules/Oxcart/demo/hastec-launcher.js,../modules/Oxcart/demo/oxcart.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "count-down.oxcart" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Oxcart)
