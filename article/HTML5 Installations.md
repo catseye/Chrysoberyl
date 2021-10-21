@@ -864,7 +864,7 @@ a floppy disk somehow...
 ### Tandem
 
 *   installation-of: [Tandem][]
-*   installation-description: This is a web-based interpreter for the continuation-passing concatentive programming language [Tandem][].
+*   installation-description: This is a web-based interpreter for Tandem, a rewriting language where programs form a Kleene algebra.
 *   installed-implementation: tandem.js
 *   interactive: true
 *   animated: false
