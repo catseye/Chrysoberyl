@@ -2889,6 +2889,7 @@ forms a monoid like conventional function composition.
 *   paradigms: String-rewriting
 *   reference-distribution: [Tandem distribution](https://catseye.tc/distribution/Tandem_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Tandem)
+*   online @ [catseye.tc](https://catseye.tc/installation/Tandem)
 
 Sample program:
 
