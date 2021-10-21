@@ -861,6 +861,33 @@ and use it in an emulator such as [QEMU][] or [DOSBox][]
 or, wonder of wonders, a real IBM PC compatible — if you can write it onto
 a floppy disk somehow...
 
+### Tandem
+
+*   installation-of: [Tandem][]
+*   installation-description: This is a web-based interpreter for the continuation-passing concatentive programming language [Tandem][].
+*   installed-implementation: tandem.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Tandem/eg/examplePrograms.jsonp.js,../modules/Tandem/demo/hastec-launcher.js,../modules/Tandem/demo/tandem.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fsa-accept.tandem" });
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Tandem)
+
+Technically, it is `Language.Tandem` (the reference implementation
+of Tandem, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Tandem programming language](https://catseye.tc/view/Tandem/README.md).
+
 ### Velo
 
 *   installation-of: [Velo][]

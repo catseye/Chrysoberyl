@@ -3189,6 +3189,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/tandem-0.1.zip",
                 "version": "0.1"
+            },
+            {
+                "revision": "2021.1007",
+                "url": "https://catseye.tc/distfiles/tandem-0.1-2021.1007.zip",
+                "version": "0.1"
             }
         ],
         "reponame": "Tandem",
