@@ -938,6 +938,11 @@
                 "revision": "2020.0326",
                 "url": "https://catseye.tc/distfiles/emmental-1.0-2020.0326.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.1022",
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2021.1022.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Emmental"
@@ -2016,6 +2021,11 @@
             {
                 "revision": "2020.0403",
                 "url": "https://catseye.tc/distfiles/mascarpone-1.0-2020.0403.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.1022",
+                "url": "https://catseye.tc/distfiles/mascarpone-1.0-2021.1022.zip",
                 "version": "1.0"
             }
         ],
