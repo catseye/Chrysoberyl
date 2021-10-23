@@ -774,7 +774,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,https://static.catseye.tc/generated-js/quylthulg-1.0-2019.0326/qlzqqlzuup.js
+*   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,../modules/Quylthulg/demo/qlzqqlzuup.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
 
