@@ -39,6 +39,7 @@ This is an implementation of _Flip_ in Erlang.
 *   host language: Erlang
 *   interface: terminal
 *   inception date: Jun 30 2002
+*   in distribution: [wumpus-2002.0630.zip](https://static.catseye.tc/distfiles/wumpus-2002.0630.zip)
 
 This is an implementation of Gregory Yob's _Hunt the Wumpus_ in Erlang.
 
