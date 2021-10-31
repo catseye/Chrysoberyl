@@ -748,7 +748,7 @@ console, and the evaluation process never finishing.
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/pl-goto.net-1.2/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/pl-goto.net-1.2/PLexceptGOTOdotNET.js
+*   javascript-urls: ../modules/PL-GOTO.NET/eg/examplePrograms.jsonp.js,../modules/PL-GOTO.NET/demo/hastec-launcher.js,../modules/PL-GOTO.NET/demo/PLexceptGOTOdotNET.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
