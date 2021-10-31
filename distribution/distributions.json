@@ -2259,6 +2259,11 @@
                 "revision": "2019.0923",
                 "url": "https://catseye.tc/distfiles/pl-goto.net-1.2-2019.0923.zip",
                 "version": "1.2"
+            },
+            {
+                "revision": "2021.1031",
+                "url": "https://catseye.tc/distfiles/pl-goto.net-1.2-2021.1031.zip",
+                "version": "1.2"
             }
         ],
         "reponame": "PL-GOTO.NET",
@@ -4070,6 +4075,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/kinoje-0.7.zip",
                 "version": "0.7"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/kinoje-0.8.zip",
+                "version": "0.8"
             }
         ],
         "reponame": "kinoje",
