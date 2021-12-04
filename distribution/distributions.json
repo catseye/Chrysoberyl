@@ -2650,6 +2650,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/sickbay-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.1204",
+                "url": "https://catseye.tc/distfiles/sickbay-1.0-2021.1204.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "SICKBAY",
