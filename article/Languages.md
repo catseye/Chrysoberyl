@@ -2988,7 +2988,7 @@ can fail.
 
 #### Reference Implementation: vinegar (Python)
 
-*   license: Unknown license
+*   license: BSD license
 *   implementation-type: interpreter
 *   host-language: [Python][]
 

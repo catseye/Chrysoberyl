@@ -3487,6 +3487,23 @@
         ],
         "reponame": "Version"
     },
+    "Vinegar distribution": {
+        "entries": [
+            "Vinegar"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/vinegar-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Vinegar",
+        "test-requirements": [
+            "Falderal"
+        ]
+    },
     "Wagon distribution": {
         "entries": [
             "Wagon"
