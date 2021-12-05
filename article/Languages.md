@@ -2964,6 +2964,34 @@ sample program shown above, into this:
 *   implementation-type: interpreter
 *   host-language: [Haskell][]
 
+### Vinegar
+
+*   type: Programming Language
+*   inception-date: Nov 2021
+*   genre: Esolang
+*   development-stage: not fully complete
+*   computational-class: believed Turing-complete
+*   paradigms: Concatenative
+*   reference-distribution: [Vinegar distribution](https://catseye.tc/distribution/Vinegar_distribution)
+
+Sample program:
+
+    fact =& fac1 fac2;
+    fac1 =& dup int[0] gt!;
+    fac2 =| fac3 fac4;
+    fac3 =& dup int[1] eq!;
+    fac4 =& pop dup int[1] sub fact mul;
+    main =& int[5] fact;
+
+Vinegar is a "semi-concatenative" language where every operation
+can fail.
+
+#### Reference Implementation: vinegar (Python)
+
+*   license: Unknown license
+*   implementation-type: interpreter
+*   host-language: [Python][]
+
 - - - -
 
 ## About these Languages
