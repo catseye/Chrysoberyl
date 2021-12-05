@@ -5,6 +5,20 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Vinegar, a semi-concatenative language
+
+*   summary: [Vinegar](https://catseye.tc/node/Vinegar), a "semi-concatenative" language, has been released.
+*   date: Sun, 05 Dec 2021 09:20:56 GMT
+
+[Vinegar](https://catseye.tc/node/Vinegar) is a "semi-concatenative" language
+where every operation can fail.  Semi-concatenative is supposed to mean that,
+unlike a conventional concatenative language where there is a single, implicit,
+associative operator ("concatenate") that composes sequentially, in Vinegar
+there are actually two such operators.  The other, "alternate", is not
+implicit (but the language supports a syntax variation where it kind of is),
+and it is this other operator that handles thing when an operation fails
+(which any of them can.)
+
 ### Lanthorn: `letrec` as syntactic sugar
 
 *   summary: [Lanthorn](https://catseye.tc/node/Lanthorn) demonstrates a `letrec`-removing transformation.

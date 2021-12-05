@@ -2983,8 +2983,14 @@ Sample program:
     fac4 =& pop dup int[1] sub fact mul;
     main =& int[5] fact;
 
-Vinegar is a "semi-concatenative" language where every operation
-can fail.
+Vinegar is a "semi-concatenative" language
+where every operation can fail.  Semi-concatenative is supposed to mean that,
+unlike a conventional concatenative language where there is a single, implicit,
+associative operator ("concatenate") that composes sequentially, in Vinegar
+there are actually two such operators.  The other, "alternate", is not
+implicit (but the language supports a syntax variation where it kind of is),
+and it is this other operator that handles thing when an operation fails
+(which any of them can.)
 
 #### Reference Implementation: vinegar (Python)
 
