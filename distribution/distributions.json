@@ -3500,6 +3500,7 @@
             }
         ],
         "reponame": "Vinegar",
+        "tag-style": "new",
         "test-requirements": [
             "Falderal"
         ]
