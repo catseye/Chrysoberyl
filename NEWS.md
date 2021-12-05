@@ -8,16 +8,18 @@
 ### Vinegar, a semi-concatenative language
 
 *   summary: [Vinegar](https://catseye.tc/node/Vinegar), a "semi-concatenative" language, has been released.
-*   date: Sun, 05 Dec 2021 09:20:56 GMT
+*   date: Sun, 05 Dec 2021 21:08:51 GMT
 
-[Vinegar](https://catseye.tc/node/Vinegar) is a "semi-concatenative" language
-where every operation can fail.  Semi-concatenative is supposed to mean that,
-unlike a conventional concatenative language where there is a single, implicit,
-associative operator ("concatenate") that composes sequentially, in Vinegar
-there are actually two such operators.  The other, "alternate", is not
-implicit (but the language supports a syntax variation where it kind of is),
-and it is this other operator that handles thing when an operation fails
-(which any of them can.)
+[Vinegar](https://catseye.tc/node/Vinegar) is a new esolang from Cat's Eye
+Technologies, released in mid-November.  It is a "semi-concatenative" language
+where every operation can fail.
+
+"Semi-concatenative" is supposed to mean that there isn't just the usual
+implicit "concatenate" program-composing operator, there's also a second
+program-composing operator, "alternate" (notated explicitly by `|`).
+
+This second operator is intended to gracefully handle the case where a
+program operation has failed -- which any of them can.
 
 ### Lanthorn: `letrec` as syntactic sugar
 
