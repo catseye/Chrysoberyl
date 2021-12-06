@@ -2311,6 +2311,11 @@
                 "revision": "2019.1008",
                 "url": "https://catseye.tc/distfiles/pail-1.0-2019.1008.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2021.1206",
+                "url": "https://catseye.tc/distfiles/pail-1.0-2021.1206.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Pail",
