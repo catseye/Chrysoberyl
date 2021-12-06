@@ -671,7 +671,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/pail-hastec-launcher.js,../modules/Pail/demo/pail.js
+*   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/hastec-launcher.js,../modules/Pail/demo/pail.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
 
