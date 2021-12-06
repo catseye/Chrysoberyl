@@ -672,6 +672,7 @@ You might also want to read
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/Pail/eg/examplePrograms.jsonp.js,../modules/Pail/demo/hastec-launcher.js,../modules/Pail/demo/pail.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "cons.pail" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
 
