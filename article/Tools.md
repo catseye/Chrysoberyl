@@ -13,6 +13,9 @@ instead of here.
 
 Note that Cat's Eye Technologies also maintains some [forks](Forks.md) of some tools.
 
+_Note also that there are several novel generators in here, and possibly other kinds of_
+_generators, that should probably be in their own "Generators" article rather than here in "Tools"._
+
 ### DAM
 
 *   summary: You've tried the Document Object Model, now try the Document *Awesome* Model
@@ -51,6 +54,26 @@ the RS-232 port via the XMODEM protocol at 300 baud.
 *   license: Public Domain
 *   host-language: [Commodore BASIC 2.0][]
 *   host-platform: [Commodore 64][]
+
+### Dissociated Parse
+
+*   inception-date: Nov 2021
+*   reference-distribution: [Dissociated Parse distribution](https://catseye.tc/distribution/Dissociated_Parse_distribution)
+
+Dissociated Parse is not really a tool, rather, it is an algorithm;
+specifically it is an adaptation of the [Dissociated Press](https://en.wikipedia.org/wiki/Dissociated_press)
+algorithm to work on parse trees (rather than the sequential list of
+words it conventionally works on).  It was developed during
+[NaNoGenMo 2021][] and was used to generate the novel
+[The Lion, the Witches, and the Weird Road][].
+
+#### Implementation: Dissociated Parse (Python)
+
+*   reference: true
+*   license: Unknown license
+*   host-language: [Python][]
+
+...
 
 ### ellsync
 
@@ -420,4 +443,5 @@ framework, which is in Java.
 [linapple]: ../article/Forks.md#linapple
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob.js]: ../article/Tools.md#yoobjs
-
+[NaNoGenMo 2021]: ../article/Events.md#nanogenmo-2021
+[The Lion, the Witches, and the Weird Road]: ../article/Texts.md#the-lion-the-witches-and-the-weird-road

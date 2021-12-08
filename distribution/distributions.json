@@ -808,6 +808,20 @@
         ],
         "reponame": "DiskSumo"
     },
+    "Dissociated Parse distribution": {
+        "entries": [
+            "Dissociated Parse"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/dissociated-parse-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Dissociated-Parse",
+        "tag-style": "new"
+    },
     "Dungeons of Ekileugor distribution": {
         "entries": [
             "Dungeons of Ekileugor"
