@@ -5,6 +5,19 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### The Grammatical Rollercoaster that is Dissociated Parse
+
+*   summary: [Dissociated Parse](https://catseye.tc/node/Dissociated_Parse), an algorithm devised during [NaNoGenMo 2021](https://catseye.tc/node/NaNoGenMo_2021).
+*   date: Wed, 08 Dec 2021 22:48:09 GMT
+
+For NaNoGenMo this year, Cat's Eye Technologies developed a variation
+on the [Dissociated Press](https://en.wikipedia.org/wiki/Dissociated_press)
+algorithm.  Instead of working on a sequential list of words as it
+conventionally does, it was adapted to work on parse trees instead.
+The result was dubbed [Dissociated Parse](https://catseye.tc/node/Dissociated_Parse),
+and the 50K-word novel [The Lion, the Witches, and the Weird Road](https://catseye.tc/node/The_Lion,_the_Witches,_and_the_Weird_Road) was generated using it, which you can
+[read online here](https://catseye.tc/view/Dissociated-Parse/generated/The%20Lion,%20the%20Witches,%20and%20the%20Weird%20Road.md).
+
 ### Vinegar, a semi-concatenative language
 
 *   summary: [Vinegar](https://catseye.tc/node/Vinegar), a "semi-concatenative" language, has been released.
