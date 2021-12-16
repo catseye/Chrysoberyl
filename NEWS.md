@@ -5,6 +5,16 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Tandem interpreter installed online
+
+*   summary: An interpreter for [Tandem](https://catseye.tc/node/Tandem) is now [available online](https://catseye.tc/installation/Tandem).
+*   date: Thu, 16 Dec 2021 11:43:57 GMT
+
+[Tandem](https://catseye.tc/node/Tandem), our esoteric programming language where
+string-rewriting rules form a Kleene algebra, has finally
+had an HTML installation for it established on Cat's Eye Technologies' website.
+You can [try it in your web browser right here](https://catseye.tc/installation/Tandem).
+
 ### The Grammatical Rollercoaster that is Dissociated Parse
 
 *   summary: [Dissociated Parse](https://catseye.tc/node/Dissociated_Parse), an algorithm devised during [NaNoGenMo 2021](https://catseye.tc/node/NaNoGenMo_2021).
