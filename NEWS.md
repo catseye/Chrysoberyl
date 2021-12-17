@@ -5,6 +5,33 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Recent updates to the ZOWIE distribution
+
+*   summary: A second implementation of [ZOWIE](https://catseye.tc/node/ZOWIE) has been written.
+*   date: Fri, 17 Dec 2021 08:34:11 GMT
+
+This year, a typo was found in the specification of our esoteric programming
+language [ZOWIE](https://catseye.tc/node/ZOWIE) -- a language where every instruction,
+including the structured "repeat" loop, is memory-mapped.  (Thanks Sgeo!)
+
+From this we decided it would be ideal if there was a second implementation of
+the language -- the idea being, with three reference materials
+(the spec and two reference implementations) one could use a "majority rules"
+approach to divine the canonical behaviour.
+
+(Three cheers for coding theory!  Hip hip, hooray!  Hip hip, hooray!
+Hoop hoop, hirray!)
+
+To this end, we wrote a ZOWIE interpreter in Haskell, to go along with the one
+written in Python.
+
+We considered using this new Haskell implementation as the basis for
+[the online installation of ZOWIE](https://catseye.tc/node/ZOWIE), replacing
+the current Skulpt-based installation with it.  That hasn't happened yet, though;
+I'm torn between getting rid of the Skulpt one because Skulpt is kind of goony and
+non-standard, and keeping the Skulpt one because Skulpt is kind of goony and
+non-standard.
+
 ### Tandem interpreter installed online
 
 *   summary: An interpreter for [Tandem](https://catseye.tc/node/Tandem) is now [available online](https://catseye.tc/installation/Tandem).
