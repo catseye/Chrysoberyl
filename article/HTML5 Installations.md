@@ -350,6 +350,9 @@ or create your own.
 You may wish to read the definition of this cellular automaton:
 [jaccia.alp](https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp).
 
+You may also wish to check out this automaton's close relative,
+[Jacciata](https://catseye.tc/installation/Jacciata).
+
 ### Jacciata
 
 *   installation-of: [Jacciata][]
@@ -371,6 +374,9 @@ or create your own.
 
 You may wish to read the definition of this cellular automaton:
 [jacciata.alp](https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp).
+
+You may also wish to check out this automaton's close relative,
+[Jaccia](https://catseye.tc/installation/Jaccia).
 
 ### REDGREEN
 

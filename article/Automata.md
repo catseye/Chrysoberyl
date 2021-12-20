@@ -419,6 +419,7 @@ upon this to find the shortest path through a maze, if one exists and is unique.
 
 *   type: Automaton
 *   genre: Esolang
+*   online @ [catseye.tc](https://catseye.tc/installation/Jacciata)
 
 Jacciata is a variant of [Jaccia][] which finds the shortest path.
 
