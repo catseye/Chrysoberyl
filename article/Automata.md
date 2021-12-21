@@ -145,23 +145,23 @@ force other state changes to occur elsewhere in the playfield.
 
 Sample program:
 
-                                       # #
-                     ......            # #
-                                       #  ~                      #
-                                       #######################   #
-                                      %#                         #
-                           . . .      T #####                    #
-                                      ###   #  :                 #
-                                            #                    #
-                                            #  .                 #
-                                            #                    #
-                                            #                    #
-                                            #  .                 #
-                                            #                    #
-                                            #                    #
-    >>>>>>>>>>>>>>>##<<<<<<<<<<<<<<<<<############################
-                                                    %
-                                                    T
+                       # #
+     ......            # #
+                       #  ~                      #
+                       #######################   #
+                      %#                         #
+           . . .      T #####                    #
+                      ###   #  :                 #
+                            #                    #
+                            #  .                 #
+                            #                    #
+                            #                    #
+                            #  .                 #
+                            #                    #
+                            #                    #
+    #<<<<<<<<<<<<<<<<<############################
+                                    %
+                                    T
 
 REDGREEN is a cellular automaton that simulates a little
 "physical world", much like [RUBE][].
