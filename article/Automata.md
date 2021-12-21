@@ -22,7 +22,7 @@ you're looking for here, try those lists as well.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
 *   online @ [catseye.tc](https://catseye.tc/installation/yoob)
 
-Sample program:
+Sample configuration:
 
     Step 1. Swap step 1 with step 2.
     Step 2. Go to step 2.
@@ -107,7 +107,7 @@ could use the mouse to attract/repel them from a chosen point.
 *   reference-distribution: [RUBE distribution](https://catseye.tc/distribution/RUBE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
 
-Sample program:
+Sample configuration:
 
       0a21646c726f77202c6f6c6c6548
     , :::::::::::::::::::::::::::: ,
@@ -143,7 +143,7 @@ force other state changes to occur elsewhere in the playfield.
 *   entry @ [esolangs.org](https://esolangs.org/wiki/REDGREEN)
 *   online @ [catseye.tc](https://catseye.tc/installation/REDGREEN)
 
-Sample program:
+Sample configuration:
 
                        # #
      ......            # #
