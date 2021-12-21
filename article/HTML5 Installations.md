@@ -204,7 +204,7 @@ For more information on Wang tiles, see
 [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
 
 For more information on this automaton and its implementation, see
-[the README in the Wang Tilers distribution](https://github.com/catseye/Wang-Tilers).
+the entry for [Backtracking Wang Tiler][].
 
 ### Braktif
 

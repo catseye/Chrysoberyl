@@ -1282,7 +1282,7 @@ accessible to us.
 
 The implementation is also in the public domain, so if you want to
 hack on it, feel free.  It resides in the
-[Wang Tilers repository on Github](https://github.com/catseye/Wang-Tilers),
+[Backtracking Wang Tiler repository](https://git.catseye.tc/Backtracking-Wang-Tiler),
 in which you can also find further documentation on it.  And maybe,
 in the future, other implementations and/or other tiling strategies.
 

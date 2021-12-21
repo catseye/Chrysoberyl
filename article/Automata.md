@@ -453,7 +453,7 @@ lava lamp?
 *   development-stage: mature
 *   computational-class: ???
 *   paradigms: 2-dimensional
-*   reference-distribution: [Wang Tilers distribution](https://catseye.tc/distribution/Wang_Tilers_distribution)
+*   reference-distribution: [Backtracking Wang Tiler distribution](https://catseye.tc/distribution/Backtracting_Wang_Tiler_distribution)
 *   online @ [catseye.tc](https://catseye.tc/installation/Backtracking%20Wang%20Tiler)
 
 This backtracking Wang tiler is an automaton which naïvely tiles the

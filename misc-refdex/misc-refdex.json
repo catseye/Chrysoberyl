@@ -416,41 +416,47 @@
         "anchor": "illgol", 
         "filename": "article/Languages.md"
     },
-    "braktif.alp": {
-        "anchor": "braktif", 
-        "filename": "article/Languages.md"
-    },
-    "redgreen.alp": {
-        "anchor": "redgreen", 
-        "filename": "article/Languages.md"
-    },
-    "circute.alp": {
-        "anchor": "circute", 
-        "filename": "article/Languages.md"
-    },
-    "jaccia.alp": {
-        "anchor": "jaccia", 
-        "filename": "article/Languages.md"
-    },
-    "jacciata.alp": {
-        "anchor": "jaccia", 
-        "filename": "article/Languages.md"
-    },
-    "worb.js": {
-        "anchor": "noit-o-mnain-worb", 
-        "filename": "article/Languages.md"
-    },
     "castile.py": {
         "anchor": "castile", 
         "filename": "article/Languages.md"
     },
+
+
+    "braktif.alp": {
+        "anchor": "braktif", 
+        "filename": "article/Automata.md"
+    },
+    "redgreen.alp": {
+        "anchor": "redgreen", 
+        "filename": "article/Automata.md"
+    },
+    "circute.alp": {
+        "anchor": "circute", 
+        "filename": "article/Automata.md"
+    },
+    "jaccia.alp": {
+        "anchor": "jaccia", 
+        "filename": "article/Automata.md"
+    },
+    "jacciata.alp": {
+        "anchor": "jaccia", 
+        "filename": "article/Automata.md"
+    },
+    "worb.js": {
+        "anchor": "noit-o-mnain-worb", 
+        "filename": "article/Automata.md"
+    },
     "slife.js": {
         "anchor": "schrödingers-game-of-life", 
-        "filename": "article/Languages.md"
+        "filename": "article/Automata.md"
     },
     "backtracking-wang-tiler.js": {
         "anchor": "backtracking-wang-tiler", 
-        "filename": "article/Languages.md"
+        "filename": "article/Automata.md"
+    },
+    "Wang Tilers": {
+        "anchor": "backtracking-wang-tiler", 
+        "filename": "article/Automata.md"
     },
 
 

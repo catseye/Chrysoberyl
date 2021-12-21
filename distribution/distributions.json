@@ -3587,7 +3587,7 @@
         "reponame": "Wanda",
         "tag-style": "new"
     },
-    "Wang Tilers distribution": {
+    "Backtracking Wang Tiler distribution": {
         "entries": [
             "Backtracking Wang Tiler"
         ],
@@ -3598,7 +3598,7 @@
                 "version": "1.0"
             }
         ],
-        "reponame": "Wang-Tilers",
+        "reponame": "Backtracking-Wang-Tiler",
         "tag-style": "new"
     },
     "Whothm distribution": {
