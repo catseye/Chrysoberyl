@@ -2708,6 +2708,12 @@ It could be thought of as an "assertion-retraction engine", which itself could b
 thought of as a very stilted style of Prolog programming plus some syntactic
 sugar.
 
+#### Reference Implementation: samovar (Python)
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Python][]
+
 ### Maxixe
 
 *   type: Programming Language
@@ -2742,6 +2748,12 @@ or not.  Since Maxixe has no built-in rules of inference, it is in this manner n
 restricted to using a particular kind of logic — it ought to be possible to implement
 propositional logic, predicate logic, equational logic in it (and fragments and
 combinations thereof).
+
+#### Reference Implementation: maxixe (Python)
+
+*   license: Public Domain
+*   implementation-type: interpreter
+*   host-language: [Python][]
 
 ### Equipage
 
