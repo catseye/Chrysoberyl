@@ -195,8 +195,8 @@ a floppy disk somehow...
 *   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/wang-tilers/src/backtracking-wang-tiler.js
-*   script-root: ../modules/wang-tilers/src/yoob/
+*   javascript-urls: ../modules/backtracking-wang-tiler/src/backtracking-wang-tiler.js
+*   script-root: ../modules/backtracking-wang-tiler/src/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-440x440.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Backtracking_Wang_Tiler)
 
