@@ -149,6 +149,25 @@
         ],
         "reponame": "Arboretuum"
     },
+    "Backtracking Wang Tiler distribution": {
+        "entries": [
+            "Backtracking Wang Tiler"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/wang-tilers-1.0.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2021.1221",
+                "url": "https://catseye.tc/distfiles/backtracking-wang-tiler-1.0-2021.1221.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Backtracking-Wang-Tiler",
+        "tag-style": "new"
+    },
     "Beatnik distribution": {
         "releases": [
             {
@@ -3585,20 +3604,6 @@
             }
         ],
         "reponame": "Wanda",
-        "tag-style": "new"
-    },
-    "Backtracking Wang Tiler distribution": {
-        "entries": [
-            "Backtracking Wang Tiler"
-        ],
-        "releases": [
-            {
-                "revision": "0.0",
-                "url": "https://catseye.tc/distfiles/wang-tilers-1.0.zip",
-                "version": "1.0"
-            }
-        ],
-        "reponame": "Backtracking-Wang-Tiler",
         "tag-style": "new"
     },
     "Whothm distribution": {
