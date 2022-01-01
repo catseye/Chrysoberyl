@@ -802,12 +802,12 @@ You might also want to read
 ### Robin
 
 *   installation-of: [Robin][]
-*   installation-description: This is a web-based interpreter for the excessively principled functional programming language [Robin][], version 0.7.
+*   installation-description: This is a web-based interpreter for the excessively principled functional programming language [Robin][], version 0.8.
 *   installed-implementation: robin.js
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: https://static.catseye.tc/generated-js/robin-0.7/examplePrograms.jsonp.js,../modules/Equipage/demo/hastec-launcher.js,https://static.catseye.tc/generated-js/robin-0.7/robin.js
+*   javascript-urls: ../modules/Robin/eg/examplePrograms.jsonp.js,../modules/Robin/demo/hastec-launcher.js,../modules/Robin/demo/robin.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
@@ -825,6 +825,10 @@ an entirely new program there and run it.
 
 You might also want to read
 [the description of the Robin programming language](https://catseye.tc/view/Robin/README.md).
+
+Note that the instrinsics defined by the language are available,
+but the standard libraries are not -- if desired, they would need
+to be pasted into the textbox above the Robin code that uses them.
 
 ### Shelta
 
