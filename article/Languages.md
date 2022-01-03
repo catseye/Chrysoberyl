@@ -1687,7 +1687,7 @@ a memory location to mark the beginning or end of a loop or conditional.
 *   computational-class: known not Turing-complete
 *   paradigms: Imperative
 *   reference-distribution: [Whothm distribution](https://catseye.tc/distribution/Whothm_distribution)
-*   online @ [catseye.tc](https://catseye.tc/installation/Whothm)
+*   jnlp @ [catseye.tc](https://catseye.tc/installation/Whothm)
 
 Sample program:
 

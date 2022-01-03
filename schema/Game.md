@@ -34,7 +34,14 @@ reference distrbution
 *    optional: true
 *    multiple: true
 
-Multiple may occur.
+URL at which it can be played online.
+
+### jnlp
+
+*   optional: true
+*   multiple: true
+
+Java Network Launching Protocol (landing page for).
 
 ### authors
 

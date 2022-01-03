@@ -61,3 +61,10 @@ in distribution
 *   multiple: true
 
 Online.
+
+### jnlp
+
+*   optional: true
+*   multiple: true
+
+Java Network Launching Protocol (landing page for).

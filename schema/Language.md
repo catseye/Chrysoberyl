@@ -103,6 +103,13 @@ Entry.
 
 Online.
 
+### jnlp
+
+*   optional: true
+*   multiple: true
+
+Java Network Launching Protocol (landing page for).
+
 ### sample program
 
 *   optional: true
