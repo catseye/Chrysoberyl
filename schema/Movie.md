@@ -21,6 +21,10 @@ date
 
 file location
 
+### duration
+
+In minutes and seconds.
+
 ### looping
 
 Boolean.  Whether the movie is intended to loop or not.

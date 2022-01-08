@@ -8,6 +8,7 @@ for silent movies, no?) while others of these are MP4's.
 
 *   inception-date: 2017
 *   file-location: [ashtray9.mp4](https://static.catseye.tc/movies/ashtray9.mp4)
+*   duration: 0 min 2 sec
 *   looping: false
 
 [![screenshot](https://static.catseye.tc/movies/screenshots/ashtray9.jpg)](https://static.catseye.tc/movies/ashtray9.mp4)
@@ -26,6 +27,7 @@ A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
 
 *   inception-date: 2017
 *   file-location: [sea-scene-long-48.mp4](https://static.catseye.tc/movies/sea-scene-long-48.mp4)
+*   duration: 0 min 48 sec
 *   looping: true
 
 [![screenshot](https://static.catseye.tc/movies/screenshots/sea-scene-long-48.jpg)](https://static.catseye.tc/movies/sea-scene-long-48.mp4)
@@ -40,6 +42,7 @@ A higher-quality, streaming version of this movie is hosted on pe.ertu.be:
 
 *   inception-date: 2017
 *   file-location: [blob.gif](https://static.catseye.tc/movies/blob.gif)
+*   duration: 0 min 2 sec
 *   looping: true
 
 [![screenshot](https://static.catseye.tc/movies/screenshots/blob.gif.png)](https://static.catseye.tc/movies/blob.gif)
@@ -51,6 +54,7 @@ by Alexander Enzmann, which is [CC BY 3.0](https://creativecommons.org/licenses/
 
 *   inception-date: 2017
 *   file-location: [moebius.gif](https://static.catseye.tc/movies/moebius.gif)
+*   duration: 0 min 1.44 sec
 *   looping: true
 
 [![screenshot](https://static.catseye.tc/movies/screenshots/moebius.gif.png)](https://static.catseye.tc/movies/moebius.gif)
@@ -61,6 +65,7 @@ An arrangement of square prisms in a loop with a half-twist, spinning around.
 
 *   inception-date: 2017
 *   file-location: [glass-warts.gif](https://static.catseye.tc/movies/glass-warts.gif)
+*   duration: 0 min 2 sec
 *   looping: true
 
 [![screenshot](https://static.catseye.tc/movies/screenshots/glass-warts.gif.png)](https://static.catseye.tc/movies/glass-warts.gif)
