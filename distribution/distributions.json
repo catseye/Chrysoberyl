@@ -3480,6 +3480,11 @@
                 "revision": "2014.0819",
                 "url": "https://catseye.tc/distfiles/unlikely-1.0-2014.0819.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2022.0329",
+                "url": "https://catseye.tc/distfiles/unlikely-1.0-2022.0329.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Unlikely"
