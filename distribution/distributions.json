@@ -1844,6 +1844,21 @@
         "releases": [],
         "reponame": "Kelxquoia"
     },
+    "Kolakoski Kurve distribution": {
+        "entries": [
+            "Kolakoski Kurve"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/kolakoski-kurve-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Kolakoski-Kurve",
+        "tag-style": "new"
+    },
     "Kosheri distribution": {
         "entries": [
             "Kosheri"
