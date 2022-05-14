@@ -1485,7 +1485,7 @@ simple at all.
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Kolakoski-Kurve/src/kolakoski-kurve.js,../modules/Kolakoski-Kurve/demo/dam-plus-widgets-0.2.min.js,../modules/Kolakoski-Kurve/src/kolakoski-kurve-launcher.js
+*   javascript-urls: ../modules/Kolakoski-Kurve/src/kolakoski-kurve.js,../modules/Kolakoski-Kurve/demo/dam-plus-widgets-0.2.min.js,../modules/Kolakoski-Kurve/demo/kolakoski-kurve-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
