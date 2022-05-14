@@ -1488,7 +1488,7 @@ simple at all.
 *   javascript-urls: ../modules/Kolakoski-Kurve/src/kolakoski-kurve.js,../modules/Kolakoski-Kurve/demo/dam-plus-widgets-0.2.min.js,../modules/Kolakoski-Kurve/demo/kolakoski-kurve-launcher.js
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
-*   extra-stylesheets: ../stylesheet/mainstage-800x600.css
+*   extra-stylesheets: ../stylesheet/mainstage-800x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Kolakoski_Kurve)
 
 The segment length can be changed while a curve is being drawn.
