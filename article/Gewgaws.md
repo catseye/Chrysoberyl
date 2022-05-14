@@ -220,10 +220,10 @@ and [Pong](http://en.wikipedia.org/wiki/Pong)
 
 ### Kolakoski Kurve
 
-[![preview](https://static.catseye.tc/images/screenshots/Kolakoski_Kurve.jpg)](https://catseye.tc/installation/Kolakoski_Kurve)
+[![preview](https://catseye.tc/modules/Kolakoski-Kurve/images/Kolakoski_Kurve.jpg)](https://catseye.tc/installation/Kolakoski_Kurve)
 
 *   inception date: 2016
-*   reference distribution: [HTML5 Gewgaws distribution](https://catseye.tc/distribution/HTML5_Gewgaws_distribution)
+*   reference distribution: [Kolakoski Kurve distribution](https://catseye.tc/distribution/Kolakoski_Kurve_distribution)
 *   reference implementation name: kolakoski-kurve.js
 *   online @ [catseye.tc](https://catseye.tc/installation/Kolakoski_Kurve)
 
