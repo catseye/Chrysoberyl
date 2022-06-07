@@ -169,6 +169,21 @@ MARYSUE is the story generator used to generate the novel
 *   license: Public Domain
 *   host-language: [Python][]
 
+### Philomath
+
+*   summary: An LCF-style theorem prover written in ANSI C
+*   inception-date: Feb 2022
+*   development-stage: not fully complete
+*   reference-distribution: [Philomath distribution](https://catseye.tc/distribution/Philomath_distribution)
+
+Philomath is an LCF-style theorem prover written in ANSI C.
+
+#### Implementation: Philomath (ANSI C)
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [ANSI C][]
+
 ### shelf
 
 *   summary: A "package manager" that doesn't actually install anything

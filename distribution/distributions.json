@@ -2261,6 +2261,21 @@
         "reponame": "Oxcart",
         "tag-style": "new"
     },
+    "Philomath distribution": {
+        "entries": [
+            "Philomath"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/philomath-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Philomath",
+        "tag-style": "new"
+    },
     "PL-{GOTO}.NET distribution": {
         "entries": [
             "PL-{GOTO}.NET"
