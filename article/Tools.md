@@ -176,7 +176,8 @@ MARYSUE is the story generator used to generate the novel
 *   development-stage: not fully complete
 *   reference-distribution: [Philomath distribution](https://catseye.tc/distribution/Philomath_distribution)
 
-Philomath is an LCF-style theorem prover written in ANSI C.
+Philomath is an LCF-style theorem prover written in ANSI C.  It supports classical propositional
+logic in a Natural Deduction system with labelled assumptions.
 
 #### Implementation: Philomath (ANSI C)
 
@@ -453,6 +454,7 @@ framework, which is in Java.
 [Lua]: ../article/Project%20Dependencies.md#lua
 [Perl]: ../article/Project%20Dependencies.md#perl
 [Scheme]: ../article/Project%20Dependencies.md#scheme
+[ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [rsync]: https://rsync.samba.org/
 [poka-yoke]: https://en.wikipedia.org/wiki/Poka-yoke
 [linapple]: ../article/Forks.md#linapple
