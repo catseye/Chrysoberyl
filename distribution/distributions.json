@@ -1302,6 +1302,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/feedmark-0.12.zip",
                 "version": "0.12"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/feedmark-0.13.zip",
+                "version": "0.13"
             }
         ],
         "reponame": "Feedmark",
@@ -2261,21 +2266,6 @@
         "reponame": "Oxcart",
         "tag-style": "new"
     },
-    "Philomath distribution": {
-        "entries": [
-            "Philomath"
-        ],
-        "reference": true,
-        "releases": [
-            {
-                "revision": "0.0",
-                "url": "https://catseye.tc/distfiles/philomath-1.0.zip",
-                "version": "1.0"
-            }
-        ],
-        "reponame": "Philomath",
-        "tag-style": "new"
-    },
     "PL-{GOTO}.NET distribution": {
         "entries": [
             "PL-{GOTO}.NET"
@@ -2394,6 +2384,21 @@
         "test-requirements": [
             "Falderal"
         ]
+    },
+    "Philomath distribution": {
+        "entries": [
+            "Philomath"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/philomath-1.0.zip",
+                "version": "1.0"
+            }
+        ],
+        "reponame": "Philomath",
+        "tag-style": "new"
     },
     "Pixley distribution": {
         "entries": [
