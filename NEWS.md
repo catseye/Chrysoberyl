@@ -5,6 +5,27 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Feedmark 0.13 and Falderal 0.14 released
+
+*   summary: [Feedmark](https://catseye.tc/node/Feedmark) 0.13 and [Falderal](https://catseye.tc/node/Falderal) 0.14 have been released.
+*   date: Thu, 01 Sep 2022 19:04:14 GMT
+
+Two releases of two of Cat's Eye Technologies' formats
+(and associated tools) have been made.
+
+The latest version of [Feedmark](https://catseye.tc/node/Feedmark), a structured
+subset of Feedmark designed to support curation and newsfeeds, is now version 0.13.
+
+The latest version of [Falderal](https://catseye.tc/node/Falderal), a format for
+writing literate test suites for programming languages, is now version 0.14
+"Jean Baptiste Point DuSable Lake Shore Drive".  (Falderal versions are named
+after notable locations in the Chicagoland area.)
+
+Both of these formats have tools written in Python, and these packages
+are both available on the Python Package Index, at
+[Feedmark](https://pypi.org/project/Feedmark/) and
+[Falderal](https://pypi.org/project/Falderal/) respectively.
+
 ### Recent updates to the ZOWIE distribution
 
 *   summary: A second implementation of [ZOWIE](https://catseye.tc/node/ZOWIE) has been written.
