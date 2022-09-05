@@ -2400,6 +2400,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/philomath-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2022.0905",
+                "url": "https://catseye.tc/distfiles/philomath-1.0-2022.0905.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Philomath",
