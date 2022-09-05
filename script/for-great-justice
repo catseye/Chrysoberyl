@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+
+from argparse import ArgumentParser
+import json
+import os
+import re
+import sys
+
+
+LANGS = [
+    'Py',
+    'PL',
+    'C',
+    'JS',
+    'HS',
+    'R5',
+    'Lua',
+    'sh',
+    'BASIC',
+    'YASM',
+    'Pixley',
+    'Befunge-93',
+    'ALPACA',
+    'Py2',
+    'Erlang',
+    'Java',
+    'Julia',
+    'Makefile',
+    'Many',
+    'OpenZz',
+    'Ophis',
+    '6502',
+    'R',
+    'Ruby',
+]
+
+
+def main(options):
+
+    sys.stdout.write('Project | ')
+    for lang in LANGS:
+        sys.stdout.write(lang + ' | ')
+    sys.stdout.write('\n')
+
+    sys.stdout.write('--- | ')
+    for lang in LANGS:
+        sys.stdout.write('--- | ')
+    sys.stdout.write('\n')
+
+    reg = {}
+    # langs = set()
+    for line in sys.stdin:
+        match = re.match(r'^([^|\s]*)\s*\|(.*?)$', line)
+        if match and match.group(1):
+            things = match.group(2).split('|')
+            things = set([t.strip() for t in things if t.strip()])
+            for thing in things:
+                if thing in ('(JS)', '--'):
+                    continue
+                # langs.add(thing)
+                if thing not in LANGS:
+                    raise ValueError(thing)
+            reg[match.group(1)] = sorted(things)
+
+    for key, value in sorted(reg.items()):
+        line = '{}'.format(key)
+        for lang in LANGS:
+            if lang in value:
+                line += '| {} '.format(lang)
+            else:
+                line += '| '
+        sys.stdout.write(line + '\n')
+
+
+    # for lang in sorted(langs):
+    #     print(lang)
+
+    # for key, value in sorted(reg.items()):
+    #     # print(key, value)
+    #     pass
+
+
+if __name__ == '__main__':
+    argparser = ArgumentParser()
+    options = argparser.parse_args(sys.argv[1:])
+    main(options)
