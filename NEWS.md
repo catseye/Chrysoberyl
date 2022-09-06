@@ -5,6 +5,25 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Philomath: Write proofs in ANSI C
+
+*   summary: [Philomath](https://catseye.tc/node/Philomath) is an [LCF-style](https://catseye.tc/node/LCF-style-ND) theorem prover in [ANSI C](https://catseye.tc/node/ANSI_C).
+*   date: Tue, 06 Sep 2022 16:40:41 GMT
+
+Ever had an urge to write that natural deduction proof you're working on
+directly in a classic systems programming language like [ANSI C](https://catseye.tc/node/ANSI_C)?
+Well, look no further!  [Philomath](https://catseye.tc/node/Philomath) is an
+[LCF-style](https://catseye.tc/node/LCF-style-ND) theorem prover for
+propositional logic in a natural deduction system, written in ANSI C.
+Values of type `struct theorem` represent proved statements, while
+functions that take `struct theorem`s as arguments and return a new
+`struct theorem` value, implement rules of inference.  Your proof-program
+includes the header file `theorem.h`, which only exposes the
+declaration of `struct theorem`, and not its definition; in this way,
+you can be confident (in ANSI C) that any `struct theorem` your proof-program
+produces indeed represents a theorem with a valid proof, and not just
+something you made up.  In ANSI C.  Smashing, no?
+
 ### Feedmark 0.13 and Falderal 0.14 released
 
 *   summary: [Feedmark](https://catseye.tc/node/Feedmark) 0.13 and [Falderal](https://catseye.tc/node/Falderal) 0.14 have been released.
