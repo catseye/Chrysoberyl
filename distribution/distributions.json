@@ -4341,6 +4341,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/realpath-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2022.0908",
+                "url": "https://catseye.tc/distfiles/realpath-1.0-2022.0908.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "realpath",
