@@ -4155,6 +4155,11 @@
                 "revision": "2021.0729",
                 "url": "https://catseye.tc/distfiles/hatoucan-0.2-2021.0729.zip",
                 "version": "0.2"
+            },
+            {
+                "revision": "2022.0908",
+                "url": "https://catseye.tc/distfiles/hatoucan-0.2-2022.0908.zip",
+                "version": "0.2"
             }
         ],
         "reponame": "hatoucan",
