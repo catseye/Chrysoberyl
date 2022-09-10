@@ -35,8 +35,7 @@ LANGS = [
 ]
 
 
-def main(options):
-
+def dump_project_matrix(reg):
     sys.stdout.write('Project | ')
     for lang in LANGS:
         sys.stdout.write(lang + ' | ')
@@ -46,6 +45,34 @@ def main(options):
     for lang in LANGS:
         sys.stdout.write('--- | ')
     sys.stdout.write('\n')
+
+    for key, value in sorted(reg.items()):
+        line = '{}'.format(key)
+        for lang in LANGS:
+            if lang in value:
+                line += '| {} '.format(lang)
+            else:
+                line += '| '
+        sys.stdout.write(line + '\n')
+
+
+def rewrite_distributions(reg):
+    distributions_filename = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), '..', 'distribution', 'distributions.json')
+    with open(distributions_filename, 'r') as f:
+        distributions = json.loads(f.read())
+
+    for key, value in sorted(reg.items()):
+        reponame, version = key.split('@')
+
+        found_distribution = False
+        for distname, distribution in sorted(distributions.items()):
+            if distribution.get('reponame') == reponame:
+                found_distribution = distributions[distname]
+        assert found_distribution, reponame
+        found_distribution['impllangs'] = sorted(value)
+
+
+def main(options):
 
     reg = {}
     # langs = set()
@@ -62,22 +89,9 @@ def main(options):
                     raise ValueError(thing)
             reg[match.group(1)] = sorted(things)
 
-    for key, value in sorted(reg.items()):
-        line = '{}'.format(key)
-        for lang in LANGS:
-            if lang in value:
-                line += '| {} '.format(lang)
-            else:
-                line += '| '
-        sys.stdout.write(line + '\n')
+    # dump_project_matrix(reg)
 
-
-    # for lang in sorted(langs):
-    #     print(lang)
-
-    # for key, value in sorted(reg.items()):
-    #     # print(key, value)
-    #     pass
+    rewrite_distributions(reg)
 
 
 if __name__ == '__main__':
