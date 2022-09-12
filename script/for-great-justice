@@ -35,8 +35,7 @@ LANGS = [
 ]
 
 
-def main(options):
-
+def dump_project_matrix(reg):
     sys.stdout.write('Project | ')
     for lang in LANGS:
         sys.stdout.write(lang + ' | ')
@@ -47,9 +46,39 @@ def main(options):
         sys.stdout.write('--- | ')
     sys.stdout.write('\n')
 
-    reg = {}
+    for key, value in sorted(reg.items()):
+        line = '{}'.format(key)
+        for lang in LANGS:
+            if lang in value:
+                line += '| {} '.format(lang)
+            else:
+                line += '| '
+        sys.stdout.write(line + '\n')
+
+
+def rewrite_distributions(reg):
+    distributions_filename = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), '..', 'distribution', 'distributions.json')
+    with open(distributions_filename, 'r') as f:
+        distributions = json.loads(f.read())
+
+    for key, value in sorted(reg.items()):
+        reponame, version = key.split('@')
+
+        found_distribution = False
+        for distname, distribution in sorted(distributions.items()):
+            if distribution.get('reponame') == reponame:
+                found_distribution = distributions[distname]
+        assert found_distribution, reponame
+        found_distribution['impllangs'] = sorted(value)
+
+    with open(distributions_filename, 'w') as f:
+        f.write(json.dumps(distributions, indent=4, sort_keys=True))
+
+
+def load_from_markdown_table(reg, file):
+
     # langs = set()
-    for line in sys.stdin:
+    for line in file:
         match = re.match(r'^([^|\s]*)\s*\|(.*?)$', line)
         if match and match.group(1):
             things = match.group(2).split('|')
@@ -62,22 +91,32 @@ def main(options):
                     raise ValueError(thing)
             reg[match.group(1)] = sorted(things)
 
-    for key, value in sorted(reg.items()):
-        line = '{}'.format(key)
-        for lang in LANGS:
-            if lang in value:
-                line += '| {} '.format(lang)
-            else:
-                line += '| '
-        sys.stdout.write(line + '\n')
+
+def load_from_distributions_json(reg):
+
+    distributions_filename = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), '..', 'distribution', 'distributions.json')
+    with open(distributions_filename, 'r') as f:
+        distributions = json.loads(f.read())
+
+    for distname, distribution in sorted(distributions.items()):
+        if not distribution.get('reponame'):
+            continue
+        key = distribution['reponame']
+        # TODO: tack on latest version
+        reg[key] = distribution['impllangs']
 
 
-    # for lang in sorted(langs):
-    #     print(lang)
+def main(options):
 
-    # for key, value in sorted(reg.items()):
-    #     # print(key, value)
-    #     pass
+    reg = {}
+
+    load_from_distributions_json(reg)
+
+    # load_from_markdown_table(reg, sys.stdin)
+
+    dump_project_matrix(reg)
+
+    # rewrite_distributions(reg)
 
 
 if __name__ == '__main__':
