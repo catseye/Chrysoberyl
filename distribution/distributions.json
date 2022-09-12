@@ -602,6 +602,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/castile-0.5.zip",
                 "version": "0.5"
+            },
+            {
+                "revision": "2022.0912",
+                "url": "https://catseye.tc/distfiles/castile-0.5-2022.0912.zip",
+                "version": "0.5"
             }
         ],
         "reponame": "Castile"
@@ -2270,6 +2275,11 @@
             {
                 "revision": "2021.1018",
                 "url": "https://catseye.tc/distfiles/oxcart-1.0-2021.1018.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2022.0912",
+                "url": "https://catseye.tc/distfiles/oxcart-1.0-2022.0912.zip",
                 "version": "1.0"
             }
         ],
