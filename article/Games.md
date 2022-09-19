@@ -244,7 +244,7 @@ See also:
 [Ophis Assembler]: ../article/Project%20Dependencies.md#ophis-assembler
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [Perl]: ../article/Project%20Dependencies.md#perl
-[Hunt the Wumpus]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
+[Hunt the Wumpus]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#hunt-the-wumpus
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 

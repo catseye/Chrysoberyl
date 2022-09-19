@@ -56,9 +56,9 @@ _Sokoban_ is the classic Japanese game about lean manufacturing (well, sort of).
 
 This version stars Rusty the Cat, from Intelligent Humour, as the protagonist.
 
-[Hunt the Wumpus]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#hunt-the-wumpus
-[Sokoban]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#sokoban
-[Flip]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#flip
-[Animals]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md#animals
+[Hunt the Wumpus]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#hunt-the-wumpus
+[Sokoban]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#sokoban
+[Flip]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#flip
+[Animals]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#animals
 [Erlang]: ../article/Project%20Dependencies.md#erlang
 
