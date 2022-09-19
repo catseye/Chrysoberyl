@@ -4127,6 +4127,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/ellsync-0.5.zip",
                 "version": "0.5"
+            },
+            {
+                "revision": "2022.0914",
+                "url": "https://catseye.tc/distfiles/ellsync-0.5-2022.0914.zip",
+                "version": "0.5"
             }
         ],
         "reponame": "ellsync",
@@ -4477,6 +4482,11 @@
             {
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/tagfarm-0.3.zip",
+                "version": "0.3"
+            },
+            {
+                "revision": "2022.0914",
+                "url": "https://catseye.tc/distfiles/tagfarm-0.3-2022.0914.zip",
                 "version": "0.3"
             }
         ],
