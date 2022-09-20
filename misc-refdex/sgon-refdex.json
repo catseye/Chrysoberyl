@@ -32,6 +32,9 @@
     "Big Mac": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Commodore%2064%20Games%20of%20Note.md#big-mac"
     },
+    "Big Mac: The Mad Maintenance Man": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#big-mac-the-mad-maintenance-man"
+    },
     "Bomb Jack": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#bomb-jack"
     },
@@ -116,6 +119,9 @@
     "Equinox": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/8-bit%20Home%20Computer%20Games%20of%20Note.md#equinox"
     },
+    "Escape!": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Computer%20Games%20of%20Note.md#escape"
+    },
     "Everyone's a Wally": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/8-bit%20Home%20Computer%20Games%20of%20Note.md#everyones-a-wally"
     },
@@ -134,11 +140,11 @@
     "Flip": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#flip"
     },
+    "Galactic Empires": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Computer%20Games%20of%20Note.md#galactic-empires"
+    },
     "Galactic Gladiators": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Role-Playing%20Games%20of%20Note.md#galactic-gladiators"
-    },
-    "Galactic conquest": {
-        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Lost%20Games.md#galactic-conquest"
     },
     "Gorf": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#gorf"
@@ -161,6 +167,9 @@
     "Kick": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Arcade%20Games%20of%20Note.md#kick"
     },
+    "Kick-Man": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#kick-man"
+    },
     "King's Quest V": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#kings-quest-v"
     },
@@ -172,9 +181,6 @@
     },
     "Lemonade Stand": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#lemonade-stand"
-    },
-    "Licensed Character Games": {
-        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#licensed-character-games"
     },
     "Liquid Kids": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Arcade%20Games%20of%20Note.md#liquid-kids"
@@ -190,9 +196,6 @@
     },
     "Magic Carpet": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#magic-carpet"
-    },
-    "Maze escape with people": {
-        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Lost%20Games.md#maze-escape-with-people"
     },
     "Mazes and Monsters": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Role-Playing%20Games%20of%20Note.md#mazes-and-monsters"
@@ -245,8 +248,14 @@
     "Sabotage": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Apple%20II%20Games%20of%20Note.md#sabotage"
     },
+    "Sam & Ed Basketball": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#sam-ed-basketball"
+    },
     "Scramble": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#scramble"
+    },
+    "Slinky": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#slinky"
     },
     "Slinky!": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/8-bit%20Home%20Computer%20Games%20of%20Note.md#slinky"
@@ -311,6 +320,9 @@
     "Time and Magik (Trilogy)": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Text%20Adventures%20of%20Note.md#time-and-magik-trilogy"
     },
+    "Trap Door": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#trap-door"
+    },
     "Typhoon Thompson": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Recollected%20Games.md#typhoon-thompson"
     },
@@ -335,8 +347,8 @@
     "Wonder Boy in Monster Land": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Role-Playing%20Games%20of%20Note.md#wonder-boy-in-monster-land"
     },
-    "Would you two like you join me on a fantasia?": {
-        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Lost%20Games.md#would-you-two-like-you-join-me-on-a-fantasia"
+    "Would you two like to join me on a fantasia?": {
+        "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Lost%20Games.md#would-you-two-like-to-join-me-on-a-fantasia"
     },
     "Yars' Revenge": {
         "url": "https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Atari%202600%20Games%20of%20Note.md#yars-revenge"
