@@ -1916,6 +1916,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/lanthorn-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2022.0921",
+                "url": "https://catseye.tc/distfiles/lanthorn-1.0-2022.0921.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Lanthorn",
@@ -3856,6 +3861,11 @@
             {
                 "revision": "2021.0822",
                 "url": "https://catseye.tc/distfiles/xoomonk-1.0-2021.0822.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2022.0920",
+                "url": "https://catseye.tc/distfiles/xoomonk-1.0-2022.0920.zip",
                 "version": "1.0"
             }
         ],
