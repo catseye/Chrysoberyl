@@ -153,6 +153,24 @@ the resulting sequence of images is compiled into the finished movie.
 *   license: Public Domain
 *   host-language: [Python][]
 
+### Lariat
+
+*   inception-date: 2021
+*   development-stage: work in progress
+*   reference-distribution: [Lariat distribution](https://catseye.tc/distribution/Lariat_distribution)
+
+Lariat is an abstract data type for lambda terms, consisting of six operations: `equal`
+and `fresh` (on names), and `app`, `abs`, `var`, and `destruct` (on terms).  It is a
+total data type in the sense that all of the operations are defined on all properly-typed
+input values.  It is a higher-order data type in the sense that `destruct` takes function
+values as parameters.
+
+#### Implementation: Data.Lariat
+
+*   reference: false
+*   license: Unknown license
+*   host-language: [Haskell][]
+
 ### MARYSUE
 
 *   summary: An engine for generating non-interactive fiction

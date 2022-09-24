@@ -1955,6 +1955,26 @@
         ],
         "reponame": "Larabee"
     },
+    "Lariat distribution": {
+        "entries": [
+            "Lariat"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/lariat-0.1.zip",
+                "version": "0.1"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/lariat-0.2.zip",
+                "version": "0.2"
+            }
+        ],
+        "reponame": "Lariat",
+        "tag-style": "new"
+    },
     "Latcarf distribution": {
         "entries": [
             "Latcarf"
