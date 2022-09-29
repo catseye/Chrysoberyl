@@ -233,9 +233,9 @@ Where exactly The Cannery is going, though, remains to be seen.
 [Chris Pressey's Lingography]: https://catseye.tc/article/Languages
 [LoUIE]: https://catseye.tc/article/List%20of%20Unfinished%20Interesting%20Esolangs.md
 [Retrospective: Chris Pressey on Language Design]: https://catseye.tc/view/The-Dossier/article/Retrospective%20on%20Language%20Design.md
-[Chris Pressey's Favourite Video Games]: https://catseye.tc/view/The-Dossier/article/Video%20Games%20of%20Note.md
-[Chris Pressey's Favourite Text Adventures]: https://catseye.tc/view/The-Dossier/article/Text%20Adventures%20of%20Note.md
-[Chris Pressey's Favourite Other Computer Games]: https://catseye.tc/view/The-Dossier/article/Classic%20Computer%20Games.md
+[Chris Pressey's Favourite Video Games]: https://github.com/cpressey/Some-Games-of-Note
+[Chris Pressey's Favourite Text Adventures]: https://github.com/cpressey/Some-Games-of-Note
+[Chris Pressey's Favourite Other Computer Games]: https://github.com/cpressey/Some-Games-of-Note
 [GitHub]: https://github.com/catseye/
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
