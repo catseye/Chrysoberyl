@@ -472,6 +472,7 @@ framework, which is in Java.
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Lua]: ../article/Project%20Dependencies.md#lua
 [Perl]: ../article/Project%20Dependencies.md#perl
+[Haskell]: ../article/Project%20Dependencies.md#haskell
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [rsync]: https://rsync.samba.org/
