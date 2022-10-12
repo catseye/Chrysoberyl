@@ -5,6 +5,33 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Lariat: A Total ADT for Proper Lambda Terms
+
+*   summary: [Lariat](https://catseye.tc/node/Lariat) is a total ADT for proper lambda terms.
+*   date: Wed, 12 Oct 2022 06:48:57 GMT
+
+Y'know what?  Over the years, I've designed lots of strange small programming
+languages, but I never implemented the lambda calculus.  Until now.
+
+And I only did it as a test case for an abstract data type representing
+lambda terms.
+
+And I spent quite some time working on said abstract data type, trying to make
+something that works, in my opinion, nicely.  The result being something that
+is total, in the sense that all operations are always defined, and that
+represents only proper lambda terms -- improperly bound variables cannot be
+introduced.
+
+And I'm not even entirely sure anymore why I wanted to formulate said
+abstract data type for lambda terms.  I believe it may have had something
+to do with macros.
+
+Even though I dislike macros, and avoid them like the plague in my own code.
+
+Well, that's how much sense my life makes.
+
+Anyway, [Lariat](https://catseye.tc/node/Lariat).
+
 ### Philomath: Write proofs in ANSI C
 
 *   summary: [Philomath](https://catseye.tc/node/Philomath) is an [LCF-style](https://catseye.tc/node/LCF-style-ND) theorem prover in [ANSI C](https://catseye.tc/node/ANSI_C).

@@ -161,7 +161,7 @@ the resulting sequence of images is compiled into the finished movie.
 
 Lariat is an abstract data type for proper lambda terms, consisting of four operations:
 `app`, `abs`, `var`, and `destruct`.  Each of the operations produces a proper lambda
-term as its result, i.e. bound terms are never exposed to the user of the ADR.  Lariat is
+term as its result, i.e. bound terms are never exposed to the user of the ADT.  Lariat is
 a total data type in the sense that all of the operations are defined on all
 properly-typed input values.  It is a higher-order data type in the sense that `destruct`
 takes function values as parameters.
