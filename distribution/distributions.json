@@ -1328,6 +1328,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/feedmark-0.13.zip",
                 "version": "0.13"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/feedmark-0.14.zip",
+                "version": "0.14"
             }
         ],
         "reponame": "Feedmark",
