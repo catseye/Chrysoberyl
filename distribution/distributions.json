@@ -534,7 +534,13 @@
         ],
         "fixed-tag": "c94d588",
         "reference": true,
-        "releases": [],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/cardboard-prolog-1.0.zip",
+                "version": "1.0"
+            }
+        ],
         "reponame": "Cardboard-Prolog",
         "tag-style": "new"
     },
