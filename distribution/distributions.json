@@ -2974,6 +2974,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/samovar-0.4.zip",
                 "version": "0.4"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/samovar-0.5.zip",
+                "version": "0.5"
             }
         ],
         "reponame": "Samovar",
