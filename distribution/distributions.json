@@ -3,6 +3,11 @@
         "entries": [
             "'N-DCNC"
         ],
+        "impllangs": [
+            "Befunge-93",
+            "C",
+            "Perl"
+        ],
         "reference": true,
         "releases": [
             {
@@ -18,6 +23,9 @@
             "life.alp",
             "wireworld.alp",
             "ALPACA"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -75,6 +83,9 @@
         "reponame": "ALPACA"
     },
     "Animals distribution": {
+        "impllangs": [
+            "Erlang"
+        ],
         "releases": [
             {
                 "revision": "2004.0919",
@@ -97,6 +108,9 @@
     "Apple Befunge distribution": {
         "entries": [
             "Apple Befunge"
+        ],
+        "impllangs": [
+            "BASIC"
         ],
         "reference": true,
         "releases": [
@@ -123,6 +137,9 @@
     "Arboretuum distribution": {
         "entries": [
             "Arboretuum"
+        ],
+        "impllangs": [
+            "Scheme"
         ],
         "reference": true,
         "releases": [
@@ -158,6 +175,9 @@
         "entries": [
             "Backtracking Wang Tiler"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -174,6 +194,9 @@
         "tag-style": "new"
     },
     "Beatnik distribution": {
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -187,6 +210,9 @@
     "BefOS distribution": {
         "entries": [
             "BefOS"
+        ],
+        "impllangs": [
+            "NASM"
         ],
         "reference": true,
         "releases": [
@@ -221,6 +247,9 @@
     "Befunge-93 distribution": {
         "entries": [
             "Befunge-93"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -271,6 +300,9 @@
         "entries": [
             "Beturing"
         ],
+        "impllangs": [
+            "Lua"
+        ],
         "reference": true,
         "releases": [
             {
@@ -299,6 +331,9 @@
     "Bhuna distribution": {
         "entries": [
             "Bhuna"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -359,6 +394,9 @@
         "entries": [
             "Braktif"
         ],
+        "impllangs": [
+            "ALPACA"
+        ],
         "reference": true,
         "releases": [
             {
@@ -388,6 +426,10 @@
         "entries": [
             "Bubble Escape"
         ],
+        "impllangs": [
+            "BASIC",
+            "Ophis"
+        ],
         "reference": true,
         "releases": [
             {
@@ -416,6 +458,9 @@
     "Burro distribution": {
         "entries": [
             "Burro"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -471,6 +516,9 @@
         "entries": [
             "Cabra"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -502,6 +550,9 @@
         "reponame": "Cabra"
     },
     "Canvas Feedback distribution": {
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -532,6 +583,9 @@
         "entries": [
             "Cardboard Prolog"
         ],
+        "impllangs": [
+            "Scheme"
+        ],
         "reference": true,
         "releases": [
             {
@@ -546,6 +600,9 @@
     "Carriage distribution": {
         "entries": [
             "Carriage"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "releases": [
             {
@@ -570,6 +627,9 @@
     "Castile distribution": {
         "entries": [
             "Castile"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -625,6 +685,9 @@
         "entries": [
             "Cfluviurrh"
         ],
+        "impllangs": [
+            "C"
+        ],
         "reference": true,
         "releases": [
             {
@@ -645,6 +708,7 @@
             "Chrysoberyl"
         ],
         "fixed-tag": "master",
+        "impllangs": [],
         "reference": true,
         "releases": [],
         "reponame": "Chrysoberyl"
@@ -652,6 +716,9 @@
     "Chzrxl distribution": {
         "entries": [
             "Chzrxl"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "releases": [
             {
@@ -666,6 +733,9 @@
     "Circute distribution": {
         "entries": [
             "Circute"
+        ],
+        "impllangs": [
+            "ALPACA"
         ],
         "reference": true,
         "releases": [
@@ -721,6 +791,9 @@
         "entries": [
             "Corona: Realm of Magic"
         ],
+        "impllangs": [
+            "Perl"
+        ],
         "reference": true,
         "releases": [
             {
@@ -741,6 +814,9 @@
         "entries": [
             "Cosmos Boulders"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -755,6 +831,9 @@
         "entries": [
             "Cyclobots"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -766,6 +845,9 @@
         "tag-style": "new"
     },
     "DAM distribution": {
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -787,6 +869,9 @@
             "Deturgenchry"
         ],
         "fixed-tag": "2eb3b4a",
+        "impllangs": [
+            "Python 2.7"
+        ],
         "reference": true,
         "releases": [],
         "reponame": "Deturgenchry",
@@ -797,6 +882,9 @@
     "Dieter distribution": {
         "entries": [
             "Dieter"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -837,6 +925,9 @@
         "entries": [
             "DiskSumo"
         ],
+        "impllangs": [
+            "BASIC"
+        ],
         "reference": true,
         "releases": [
             {
@@ -851,6 +942,9 @@
         "entries": [
             "Dissociated Parse"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -864,6 +958,9 @@
     "Dungeons of Ekileugor distribution": {
         "entries": [
             "Dungeons of Ekileugor"
+        ],
+        "impllangs": [
+            "BASIC"
         ],
         "reference": true,
         "releases": [
@@ -894,6 +991,9 @@
         "entries": [
             "Eightebed",
             "Rooibos"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -936,6 +1036,7 @@
             "LED-386",
             "The 'Kitsilano' Oscillator"
         ],
+        "impllangs": [],
         "releases": [
             {
                 "revision": "0.0",
@@ -959,6 +1060,9 @@
     "Emmental distribution": {
         "entries": [
             "Emmental"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -1004,6 +1108,9 @@
         "entries": [
             "Equipage"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1029,6 +1136,9 @@
         "entries": [
             "Erratic Turtle Graphics"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1043,6 +1153,10 @@
     "Etcha distribution": {
         "entries": [
             "Etcha"
+        ],
+        "impllangs": [
+            "Java",
+            "Javascript"
         ],
         "reference": true,
         "releases": [
@@ -1091,6 +1205,9 @@
         "entries": [
             "Exanoke"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1125,6 +1242,9 @@
         ]
     },
     "FBBI distribution": {
+        "impllangs": [
+            "C"
+        ],
         "releases": [
             {
                 "revision": "2004.0301",
@@ -1154,6 +1274,9 @@
         "dockerhub": "catseye/falderal",
         "entries": [
             "Falderal"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "pypi": "Falderal",
         "reference": true,
@@ -1255,6 +1378,9 @@
         "entries": [
             "Feedmark"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "pypi": "Feedmark",
         "reference": true,
         "releases": [
@@ -1338,6 +1464,9 @@
         "tag-style": "new"
     },
     "Flip distribution": {
+        "impllangs": [
+            "Erlang"
+        ],
         "releases": [
             {
                 "revision": "2002.0731",
@@ -1355,6 +1484,9 @@
     "Flobnar distribution": {
         "entries": [
             "Flobnar"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -1388,6 +1520,7 @@
         "entries": [
             "Funge-98"
         ],
+        "impllangs": [],
         "reference": true,
         "releases": [
             {
@@ -1416,6 +1549,9 @@
     "Funicular distribution": {
         "entries": [
             "Funicular"
+        ],
+        "impllangs": [
+            "Bourne shell"
         ],
         "reference": true,
         "releases": [
@@ -1457,6 +1593,9 @@
         "entries": [
             "Gemooy"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1491,6 +1630,9 @@
     "GraNoLa/M distribution": {
         "entries": [
             "GraNoLa/M"
+        ],
+        "impllangs": [
+            "Erlang"
         ],
         "reference": true,
         "releases": [
@@ -1566,6 +1708,9 @@
             "Spadgets"
         ],
         "fixed-tag": "5fa46e2",
+        "impllangs": [
+            "Javascript"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -1578,6 +1723,9 @@
     "HUNTER distribution": {
         "entries": [
             "HUNTER"
+        ],
+        "impllangs": [
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -1607,6 +1755,9 @@
     "Hev distribution": {
         "entries": [
             "Hev"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -1691,6 +1842,9 @@
             "Open Sores Illgol##"
         ],
         "fixed-tag": "rel_16_tons_and_what_do_you_get",
+        "impllangs": [
+            "C"
+        ],
         "releases": [],
         "reponame": "Illgol-Grand-Mal"
     },
@@ -1715,6 +1869,9 @@
     "Iphigeneia distribution": {
         "entries": [
             "Iphigeneia"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -1757,6 +1914,9 @@
     "Jaccia and Jacciata distribution": {
         "entries": [
             "Jaccia"
+        ],
+        "impllangs": [
+            "ALPACA"
         ],
         "reference": true,
         "releases": [
@@ -1812,6 +1972,9 @@
         "entries": [
             "Jolverine"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1835,6 +1998,9 @@
     "Kangaroo Iceberg distribution": {
         "entries": [
             "Kangaroo Iceberg"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -1869,6 +2035,7 @@
             "Kelxquoia"
         ],
         "fixed-tag": "f833867",
+        "impllangs": [],
         "reference": true,
         "releases": [],
         "reponame": "Kelxquoia"
@@ -1876,6 +2043,9 @@
     "Kolakoski Kurve distribution": {
         "entries": [
             "Kolakoski Kurve"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "reference": true,
         "releases": [
@@ -1891,6 +2061,9 @@
     "Kosheri distribution": {
         "entries": [
             "Kosheri"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -1920,6 +2093,9 @@
         "entries": [
             "Lanthorn"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -1939,6 +2115,9 @@
     "Larabee distribution": {
         "entries": [
             "Larabee"
+        ],
+        "impllangs": [
+            "Scheme"
         ],
         "reference": true,
         "releases": [
@@ -1994,6 +2173,9 @@
         "entries": [
             "Latcarf"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2008,6 +2190,9 @@
     "Lexeduct distribution": {
         "entries": [
             "Lexeduct"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "reference": true,
         "releases": [
@@ -2044,6 +2229,9 @@
         "entries": [
             "MARYSUE"
         ],
+        "impllangs": [
+            "Python 2.7"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2068,6 +2256,9 @@
     "Maentwrog distribution": {
         "entries": [
             "Maentwrog"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -2102,6 +2293,9 @@
     "Mascarpone distribution": {
         "entries": [
             "Mascarpone"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -2152,6 +2346,9 @@
         "entries": [
             "Matchbox"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2166,6 +2363,9 @@
     "Maxixe distribution": {
         "entries": [
             "Maxixe"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -2187,6 +2387,9 @@
         "entries": [
             "Maze Clouds"
         ],
+        "impllangs": [
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2201,6 +2404,9 @@
     "Muriel distribution": {
         "entries": [
             "muriel.pl"
+        ],
+        "impllangs": [
+            "Perl"
         ],
         "releases": [
             {
@@ -2218,6 +2424,11 @@
     },
     "NaNoGenLab": {
         "fixed-tag": "offseason-2015-april",
+        "impllangs": [
+            "Haskell",
+            "Makefile",
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -2234,16 +2445,28 @@
     },
     "NaNoGenMo-Entries-2017 distribution": {
         "fixed-tag": "master",
+        "impllangs": [
+            "Lua",
+            "Python"
+        ],
         "releases": [],
         "reponame": "NaNoGenMo-Entries-2017"
     },
     "NaNoGenMo-Entries-2018 distribution": {
         "fixed-tag": "master",
+        "impllangs": [
+            "Befunge-93",
+            "Julia",
+            "Python"
+        ],
         "releases": [],
         "reponame": "NaNoGenMo-Entries-2018"
     },
     "NaNoGenMo-Entries-2019 distribution": {
         "fixed-tag": "master",
+        "impllangs": [
+            "Python"
+        ],
         "releases": [],
         "reponame": "NaNoGenMo-Entries-2019"
     },
@@ -2261,6 +2484,9 @@
     "Nhohnhehr distribution": {
         "entries": [
             "Nhohnhehr"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -2310,6 +2536,9 @@
         "entries": [
             "Oxcart"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2334,6 +2563,9 @@
     "PL-{GOTO}.NET distribution": {
         "entries": [
             "PL-{GOTO}.NET"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "releases": [
             {
@@ -2402,6 +2634,9 @@
         "entries": [
             "Pail"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2454,6 +2689,9 @@
         "entries": [
             "Philomath"
         ],
+        "impllangs": [
+            "C"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2473,6 +2711,14 @@
     "Pixley distribution": {
         "entries": [
             "Pixley"
+        ],
+        "impllangs": [
+            "C",
+            "Haskell",
+            "Javascript",
+            "Pixley",
+            "Python",
+            "Scheme"
         ],
         "reference": true,
         "releases": [
@@ -2540,6 +2786,9 @@
             "Pophery"
         ],
         "fixed-tag": 1268947,
+        "impllangs": [
+            "Python 2.7"
+        ],
         "reference": true,
         "releases": [],
         "reponame": "Pophery"
@@ -2547,6 +2796,9 @@
     "Quylthulg distribution": {
         "entries": [
             "Quylthulg"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "reference": true,
         "releases": [
@@ -2620,6 +2872,9 @@
         "entries": [
             "REDGREEN"
         ],
+        "impllangs": [
+            "ALPACA"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2673,6 +2928,9 @@
     "RUBE distribution": {
         "entries": [
             "RUBE"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -2738,6 +2996,9 @@
         "entries": [
             "Robin"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2801,6 +3062,9 @@
         "entries": [
             "SICKBAY"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2822,6 +3086,10 @@
             "SITU-PAN",
             "SITU-MON",
             "SITU-SOL"
+        ],
+        "impllangs": [
+            "6502 machine code",
+            "BASIC"
         ],
         "reference": true,
         "releases": [
@@ -2848,6 +3116,9 @@
         "entries": [
             "SMETANA"
         ],
+        "impllangs": [
+            "Perl"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2866,6 +3137,9 @@
     "SMITH distribution": {
         "entries": [
             "SMITH"
+        ],
+        "impllangs": [
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -2919,6 +3193,9 @@
         "entries": [
             "Sally"
         ],
+        "impllangs": [
+            "C"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2952,6 +3229,9 @@
     "Samovar distribution": {
         "entries": [
             "Samovar"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -2988,6 +3268,9 @@
         "entries": [
             "Sbeezg"
         ],
+        "impllangs": [
+            "Erlang"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3006,6 +3289,10 @@
     "Schr\u00f6dinger's Game of Life distribution": {
         "entries": [
             "Schr\u00f6dinger's Game of Life"
+        ],
+        "impllangs": [
+            "Javascript",
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -3026,6 +3313,9 @@
     "Shelta distribution": {
         "entries": [
             "Shelta"
+        ],
+        "impllangs": [
+            "NASM"
         ],
         "reference": true,
         "releases": [
@@ -3058,6 +3348,9 @@
             "SixtyPical",
             "Ribos",
             "The PETulant Cursor"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -3189,6 +3482,7 @@
             "Oozlybub and Murphy",
             "Tamerlane"
         ],
+        "impllangs": [],
         "releases": [
             {
                 "revision": "0.0",
@@ -3213,6 +3507,9 @@
         "entries": [
             "Squishy2K"
         ],
+        "impllangs": [
+            "Perl"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3231,6 +3528,9 @@
     "Strelnokoff distribution": {
         "entries": [
             "Strelnokoff"
+        ],
+        "impllangs": [
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -3255,6 +3555,10 @@
     "Super Wumpus Land distribution": {
         "entries": [
             "Super Wumpus Land"
+        ],
+        "impllangs": [
+            "Javascript",
+            "Perl"
         ],
         "releases": [
             {
@@ -3299,6 +3603,9 @@
         "entries": [
             "T-Rext"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -3323,6 +3630,9 @@
         "entries": [
             "TPiS"
         ],
+        "impllangs": [
+            "Scheme"
+        ],
         "releases": [
             {
                 "revision": "2006.0528",
@@ -3340,6 +3650,9 @@
     "Tamsin distribution": {
         "entries": [
             "Tamsin"
+        ],
+        "impllangs": [
+            "Python 2.7"
         ],
         "reference": true,
         "releases": [
@@ -3381,6 +3694,9 @@
         "entries": [
             "Tandem"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -3403,12 +3719,18 @@
     },
     "The Cannery": {
         "fixed-tag": "55fe814",
+        "impllangs": [
+            "Bourne shell"
+        ],
         "releases": [],
         "reponame": "The-Cannery"
     },
     "The Cat's Eye Technologies Platform distribution": {
         "entries": [
             "The Cat's Eye Technologies Platform"
+        ],
+        "impllangs": [
+            "Bourne shell"
         ],
         "releases": [
             {
@@ -3444,6 +3766,16 @@
             "yaeolc"
         ],
         "fixed-tag": "f867719",
+        "impllangs": [
+            "C",
+            "FIXME",
+            "Haskell",
+            "Javascript",
+            "Lua",
+            "Perl",
+            "Python",
+            "Scheme"
+        ],
         "releases": [],
         "reponame": "Dipple"
     },
@@ -3452,12 +3784,16 @@
             "The Dossier"
         ],
         "fixed-tag": "master",
+        "impllangs": [],
         "releases": [],
         "reponame": "The-Dossier"
     },
     "The New Gamerly Realism distribution": {
         "entries": [
             "The New Gamerly Realism"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "releases": [
             {
@@ -3483,6 +3819,9 @@
         "entries": [
             "The Swallows Engine"
         ],
+        "impllangs": [
+            "Python 2.7"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -3496,6 +3835,11 @@
     "Thue distribution": {
         "entries": [
             "thue.rb"
+        ],
+        "impllangs": [
+            "C",
+            "Python 2.7",
+            "Ruby"
         ],
         "releases": [
             {
@@ -3530,6 +3874,9 @@
         "entries": [
             "Treacle"
         ],
+        "impllangs": [
+            "Scheme"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3555,6 +3902,7 @@
             "Troupe"
         ],
         "fixed-tag": "d9dd637",
+        "impllangs": [],
         "reference": true,
         "releases": [],
         "reponame": "Troupe"
@@ -3562,6 +3910,9 @@
     "Unlikely distribution": {
         "entries": [
             "Unlikely"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -3612,6 +3963,9 @@
         "entries": [
             "Velo"
         ],
+        "impllangs": [
+            "Lua"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3649,6 +4003,9 @@
         "entries": [
             "Version"
         ],
+        "impllangs": [
+            "Perl"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3673,6 +4030,9 @@
         "entries": [
             "Vinegar"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3690,6 +4050,9 @@
     "Wagon distribution": {
         "entries": [
             "Wagon"
+        ],
+        "impllangs": [
+            "Haskell"
         ],
         "releases": [
             {
@@ -3725,6 +4088,9 @@
         "entries": [
             "Wanda"
         ],
+        "impllangs": [
+            "Lua"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -3743,6 +4109,10 @@
     "Whothm distribution": {
         "entries": [
             "Whothm"
+        ],
+        "impllangs": [
+            "Java",
+            "Javascript"
         ],
         "reference": true,
         "releases": [
@@ -3783,6 +4153,10 @@
         "entries": [
             "Wierd"
         ],
+        "impllangs": [
+            "C",
+            "Javascript"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3811,6 +4185,9 @@
     "Wunnel distribution": {
         "entries": [
             "Wunnel"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "reference": true,
         "releases": [
@@ -3841,6 +4218,9 @@
     "Xigxag distribution": {
         "entries": [
             "Xigxag"
+        ],
+        "impllangs": [
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -3875,6 +4255,9 @@
     "Xoomonk distribution": {
         "entries": [
             "Xoomonk"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -3918,6 +4301,9 @@
         "entries": [
             "Yolk"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -3955,6 +4341,10 @@
     "Ypsilax distribution": {
         "entries": [
             "Ypsilax"
+        ],
+        "impllangs": [
+            "Javascript",
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -4005,6 +4395,10 @@
     "ZOWIE distribution": {
         "entries": [
             "ZOWIE"
+        ],
+        "impllangs": [
+            "Haskell",
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -4060,6 +4454,9 @@
         "entries": [
             "Zzrk"
         ],
+        "impllangs": [
+            "OpenZz"
+        ],
         "releases": [
             {
                 "revision": "2007.0506",
@@ -4091,6 +4488,9 @@
     "beta-Juliet distribution": {
         "entries": [
             "beta-Juliet"
+        ],
+        "impllangs": [
+            "C"
         ],
         "reference": true,
         "releases": [
@@ -4156,6 +4556,9 @@
         "entries": [
             "ellsync"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "reference": true,
         "releases": [
             {
@@ -4215,6 +4618,9 @@
         "entries": [
             "hatoucan"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -4244,6 +4650,9 @@
         "dockerhub": "catseye/kinoje",
         "entries": [
             "kinoje"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "reference": true,
         "releases": [
@@ -4295,6 +4704,10 @@
         "entries": [
             "mzstorkipiwanbotbotbot"
         ],
+        "impllangs": [
+            "Lua",
+            "R"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -4318,6 +4731,10 @@
     "noit o' mnain worb distribution": {
         "entries": [
             "noit o' mnain worb"
+        ],
+        "impllangs": [
+            "Javascript",
+            "Perl"
         ],
         "reference": true,
         "releases": [
@@ -4384,6 +4801,9 @@
             "pdf.lua"
         ],
         "fixed-tag": "60fa885",
+        "impllangs": [
+            "Lua"
+        ],
         "releases": [],
         "reponame": "pdf.lua"
     },
@@ -4401,6 +4821,9 @@
         "entries": [
             "pibfi"
         ],
+        "impllangs": [
+            "Erlang"
+        ],
         "releases": [
             {
                 "revision": "2003.0505",
@@ -4416,6 +4839,9 @@
         "reponame": "pibfi"
     },
     "realpath distribution": {
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -4464,6 +4890,9 @@
         "entries": [
             "shelf"
         ],
+        "impllangs": [
+            "Bourne shell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -4504,6 +4933,9 @@
         "entries": [
             "stringie"
         ],
+        "impllangs": [
+            "C"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -4522,6 +4954,9 @@
     "tagfarm distribution": {
         "entries": [
             "tagfarm"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "releases": [
             {
@@ -4551,6 +4986,9 @@
     "toolshelf distribution": {
         "entries": [
             "toolshelf"
+        ],
+        "impllangs": [
+            "Python 2.7"
         ],
         "reference": true,
         "releases": [
@@ -4627,6 +5065,9 @@
         "entries": [
             "tree"
         ],
+        "impllangs": [
+            "Python"
+        ],
         "releases": [
             {
                 "revision": "0.0",
@@ -4661,6 +5102,9 @@
         "dockerhub": "catseye/yastasoti",
         "entries": [
             "yastasoti"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "releases": [
             {
@@ -4699,6 +5143,9 @@
             "tc.catseye.yoob.snusp",
             "tc.catseye.yoob.backflip"
         ],
+        "impllangs": [
+            "Java"
+        ],
         "releases": [
             {
                 "revision": "2011.0624",
@@ -4733,6 +5180,9 @@
     "yoob.js distribution": {
         "entries": [
             "yoob.js"
+        ],
+        "impllangs": [
+            "Javascript"
         ],
         "releases": [
             {
@@ -4811,6 +5261,9 @@
     "yucca distribution": {
         "entries": [
             "yucca"
+        ],
+        "impllangs": [
+            "Python"
         ],
         "releases": [
             {
