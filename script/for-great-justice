@@ -34,6 +34,32 @@ LANGS = [
     'Ruby',
 ]
 
+THINGMAP = {
+    'Py': 'Python',
+    'PL': 'Perl',
+    'C': 'C',
+    'JS': 'Javascript',
+    'HS': 'Haskell',
+    'R5': 'Scheme',
+    'Lua': 'Lua',
+    'sh': 'Bourne shell',
+    'BASIC': 'BASIC',
+    'YASM': 'NASM',
+    'Pixley': 'Pixley',
+    'Befunge-93': 'Befunge-93',
+    'ALPACA': 'ALPACA',
+    'Py2': 'Python 2.7',  # NOTE: no node yet
+    'Erlang': 'Erlang',
+    'Java': 'Java',
+    'Julia': 'Julia',  # NOTE: node redirects to Julia's website
+    'Makefile': 'Makefile',  # NOTE: no node yet
+    'Many': 'FIXME',  # NOTE: ???
+    'OpenZz': 'OpenZz',
+    'Ophis': 'Ophis',  # NOTE: no node yet
+    '6502': '6502 machine code',
+    'R': 'R',  # NOTE: redirects to R's website
+    'Ruby': 'Ruby',
+}
 
 def dump_project_matrix(reg):
     sys.stdout.write('Project | ')
@@ -48,7 +74,7 @@ def dump_project_matrix(reg):
 
     for key, value in sorted(reg.items()):
         line = '{}'.format(key)
-        for lang in LANGS:
+        for lang in THINGMAP.values():
             if lang in value:
                 line += '| {} '.format(lang)
             else:
@@ -83,13 +109,12 @@ def load_from_markdown_table(reg, file):
         if match and match.group(1):
             things = match.group(2).split('|')
             things = set([t.strip() for t in things if t.strip()])
+            mapped_things = []
             for thing in things:
                 if thing in ('(JS)', '--'):
                     continue
-                # langs.add(thing)
-                if thing not in LANGS:
-                    raise ValueError(thing)
-            reg[match.group(1)] = sorted(things)
+                mapped_things.append(THINGMAP[thing])
+            reg[match.group(1)] = sorted(mapped_things)
 
 
 def load_from_distributions_json(reg):
@@ -103,7 +128,10 @@ def load_from_distributions_json(reg):
             continue
         key = distribution['reponame']
         # TODO: tack on latest version
-        reg[key] = distribution['impllangs']
+        if 'impllangs' in distribution:
+            reg[key] = distribution['impllangs']
+        else:
+            sys.stderr.write("WARNING: no impllangs on {}\n".format(distribution))
 
 
 def main(options):
