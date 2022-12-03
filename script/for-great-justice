@@ -7,33 +7,6 @@ import re
 import sys
 
 
-LANGS = [
-    'Py',
-    'PL',
-    'C',
-    'JS',
-    'HS',
-    'R5',
-    'Lua',
-    'sh',
-    'BASIC',
-    'YASM',
-    'Pixley',
-    'Befunge-93',
-    'ALPACA',
-    'Py2',
-    'Erlang',
-    'Java',
-    'Julia',
-    'Makefile',
-    'Many',
-    'OpenZz',
-    'Ophis',
-    '6502',
-    'R',
-    'Ruby',
-]
-
 THINGMAP = {
     'Py': 'Python',
     'PL': 'Perl',
@@ -61,10 +34,21 @@ THINGMAP = {
     'Ruby': 'Ruby',
 }
 
+LANGS = sorted(THINGMAP.values())
+
+DISPMAP = {
+    '6502 machine code': '6502',
+    'Befunge-93': 'Bef93',
+    'Python 2.7': 'Py2',
+    'Bourne shell': 'sh',
+    'Javascript': 'JS',
+}
+
+
 def dump_project_matrix(reg):
     sys.stdout.write('Project | ')
     for lang in LANGS:
-        sys.stdout.write(lang + ' | ')
+        sys.stdout.write(DISPMAP.get(lang, lang) + ' | ')
     sys.stdout.write('\n')
 
     sys.stdout.write('--- | ')
@@ -74,9 +58,9 @@ def dump_project_matrix(reg):
 
     for key, value in sorted(reg.items()):
         line = '{}'.format(key)
-        for lang in THINGMAP.values():
+        for lang in LANGS:
             if lang in value:
-                line += '| {} '.format(lang)
+                line += '| {} '.format(DISPMAP.get(lang, lang))
             else:
                 line += '| '
         sys.stdout.write(line + '\n')
