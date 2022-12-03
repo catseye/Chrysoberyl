@@ -2148,6 +2148,9 @@
         "entries": [
             "Lariat"
         ],
+        "impllangs": [
+            "Haskell"
+        ],
         "reference": true,
         "releases": [
             {
@@ -2388,7 +2391,8 @@
             "Maze Clouds"
         ],
         "impllangs": [
-            "Javascript"
+            "Javascript",
+            "Python"
         ],
         "reference": true,
         "releases": [
