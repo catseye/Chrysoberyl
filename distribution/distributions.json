@@ -3771,13 +3771,17 @@
         ],
         "fixed-tag": "f867719",
         "impllangs": [
+            "Bourne shell",
             "C",
-            "FIXME",
             "Haskell",
+            "Java",
             "Javascript",
+            "Julia",
             "Lua",
+            "NASM",
             "Perl",
             "Python",
+            "Ruby",
             "Scheme"
         ],
         "releases": [],
