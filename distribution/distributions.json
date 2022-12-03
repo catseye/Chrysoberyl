@@ -2789,9 +2789,9 @@
         "entries": [
             "Pophery"
         ],
-        "fixed-tag": 1268947,
+        "fixed-tag": "40b940f",
         "impllangs": [
-            "Python 2.7"
+            "Python"
         ],
         "reference": true,
         "releases": [],
