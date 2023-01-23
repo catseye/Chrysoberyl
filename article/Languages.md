@@ -2136,7 +2136,7 @@ Sample program:
         -> branch(S,T)                                     [by IH]
     qed
 
-Madison is an experiment in designing a language in which one can state
+Madison was an experiment in designing a language in which one can state
 proofs of properties of term-rewriting systems.  Classical methods of
 automated reasoning, such as resolution, are not used; indeed, term-rewriting itself is
 used to check the proofs.  Both direct proof and proof by induction
@@ -2718,11 +2718,11 @@ sugar.
 
 *   type: Proof Language
 *   inception-date: 2016
-*   genre: DSL
+*   genre: Experimental language
 *   development-stage: basically complete
 *   computational-class: believed Turing-complete
 *   influences: [Madison][]
-*   paradigms: Proof checking
+*   paradigms: Proof checking, Natural deduction
 *   reference-distribution: [Maxixe distribution](https://catseye.tc/distribution/Maxixe_distribution)
 
 Sample program:
@@ -3021,12 +3021,30 @@ implicitly... as long as each definition is introduced appropriately.
 *   genre: Minimal language
 *   development-stage: work in progress
 *   computational-class: believed Turing-complete
-*   paradigms: Equational
+*   paradigms: Proof checking, Equational logic
 *   reference-distribution: [Eqthy distribution](https://catseye.tc/distribution/Eqthy_distribution)
 
 Sample proof:
 
-    TK
+    axiom (idright) mul(A, e) = A
+    axiom (idleft)  mul(e, A) = A
+    axiom (assoc)   mul(A, mul(B, C)) = mul(mul(A, B), C)
+    theorem (idcomm)
+        mul(A, e) = mul(e, A)
+    proof
+        A = A
+        mul(A, e) = A           [by idright]
+        mul(A, e) = mul(e, A)   [by idleft]
+    qed
+
+Eqthy is a formalized language for proofs in equational logic.
+Its design attempts to reconcile
+_simplicity of implementation on a machine_ with _human usability_.
+
+On one hand, it is possible (and only somewhat tedious) for humans
+to read Eqthy proofs, and to write them by hand.  On the other hand,
+a checker for Eqthy proofs has been written in Python, in about 550
+lines of code; the core verifier module is less than 200 lines of code.
 
 #### Reference Implementation: eqthy (Python)
 
