@@ -204,6 +204,21 @@ logic in a Natural Deduction system with labelled assumptions.
 *   license: Public Domain
 *   host-language: [ANSI C][]
 
+### relwrite
+
+*   summary: relates strings to strings via a grammar in the Chomsky hierarchy
+*   inception-date: Nov 2022
+*   development-stage: not fully complete
+*   reference-distribution: [relwrite distribution](https://catseye.tc/distribution/relwrite_distribution)
+
+relwrite relates strings to strings via a grammar in the Chomsky hierarchy.
+
+#### Implementation: relwrite
+
+*   reference: true
+*   license: MIT License
+*   host-language: [Python][]
+
 ### shelf
 
 *   summary: A "package manager" that doesn't actually install anything

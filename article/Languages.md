@@ -2716,7 +2716,7 @@ sugar.
 
 ### Maxixe
 
-*   type: Programming Language
+*   type: Proof Language
 *   inception-date: 2016
 *   genre: DSL
 *   development-stage: basically complete
@@ -3012,6 +3012,26 @@ implicitly... as long as each definition is introduced appropriately.
 
 *   license: BSD license
 *   implementation-type: interpreter
+*   host-language: [Python][]
+
+### Eqthy
+
+*   type: Proof Language
+*   inception-date: ca Jun 2022
+*   genre: Minimal language
+*   development-stage: work in progress
+*   computational-class: believed Turing-complete
+*   paradigms: Equational
+*   reference-distribution: [Eqthy distribution](https://catseye.tc/distribution/Eqthy_distribution)
+
+Sample proof:
+
+    TK
+
+#### Reference Implementation: eqthy (Python)
+
+*   reference: true
+*   license: Unknown License
 *   host-language: [Python][]
 
 - - - -

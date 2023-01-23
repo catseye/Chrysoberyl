@@ -1104,6 +1104,24 @@
         ],
         "reponame": "Emmental"
     },
+    "Eqthy distribution": {
+        "entries": [
+            "Eqthy"
+        ],
+        "impllangs": [
+            "Python"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/eqthy-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Eqthy",
+        "tag-style": "new"
+    },
     "Equipage distribution": {
         "entries": [
             "Equipage"
@@ -4863,6 +4881,23 @@
             }
         ],
         "reponame": "realpath",
+        "tag-style": "new"
+    },
+    "relwrite distribution": {
+        "entries": [
+            "relwrite"
+        ],
+        "impllangs": [
+            "Python"
+        ],
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/relwrite-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "relwrite",
         "tag-style": "new"
     },
     "seedbank distribution": {
