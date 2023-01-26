@@ -5,6 +5,35 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### Release of Samovar 0.5
+
+*   summary: Version 0.5 of [Samovar](https://catseye.tc/node/Samovar) has been released.
+*   date: Thu, 26 Jan 2023 19:27:00 GMT
+
+A new version of the [Samovar](https://catseye.tc/node/Samovar)
+distribution has been released.  While there are no changes to the
+Samovar language, the reference implementation (`samovar`, written
+in Python) has some significant updates.
+
+Notably, alongside the existing stochastic generator (which just
+performs random walks through the event-space in the hopes of
+connecting the initial state of the scene to a satisfactory final
+event of the scene) version 0.5 of `samovar` supports two additional
+generation strategies:
+
+*   a breadth-first search-based generator, which is complete, in the
+    sense that it will always find the shortest series of events that
+    leads to the goal, as long as such a series exists.
+*   a depth-first search based generator as well. If the space of
+    world-configurations is finite (I'm not sure if Samovar guarantees
+    this, but it's often the case), this also is a complete generator,
+    and more efficient than the breadth-first one.
+
+Some mildly humorous examples resulting from applying these two strategies to chapters of
+[The League of Extraordinarily Dull Gentlemen](https://catseye.tc/article/Texts.md#the-league-of-extraordinarily-dull-gentlemen)
+are presented in this gist:
+["The League of Efficiently Dull Gentlemen"](https://gist.github.com/cpressey/9450c3b793e81f369a5fa751cc9298cf).
+
 ### Lariat: A Total ADT for Proper Lambda Terms
 
 *   summary: [Lariat](https://catseye.tc/node/Lariat) is a total ADT for proper lambda terms.
