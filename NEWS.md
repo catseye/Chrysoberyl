@@ -5,6 +5,34 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+### relwrite, a tool for relating strings to strings
+
+*   summary: [relwrite](https://catseye.tc/node/relwrite) is a tool for relating strings to strings.
+*   date: Fri, 27 Jan 2023 09:29:29 GMT
+
+Last year, like most years since 2013, Cat's Eye Technologies planned to produce something for
+[NaNoGenMo](https://catseye.tc/node/NaNoGenMo).
+The year 2022 was, actually, the first year I entered and failed to complete anything.
+The reasons for this were simple, and probably not uncommon: my plans were too
+ambitious, and were difficult to scale back to something modest enough to be
+completable in one month.  So it goes.
+
+What I did produce, along the way, is a tool called [`relwrite`](https://catseye.tc/node/relwrite).
+Given a grammar and an input string, `relwrite` will find a set of output strings
+that relate to the input strings, either by _parsing_ the input to obtain a nonterminal,
+or by _generating_ a new string of terminals, at the user's choice.
+
+One thing that makes this interesting is its generality.  The input grammar
+doesn't have to be context-free; it can be literally anywhere in the
+Chomsky hierarchy.
+
+And this poses complications.  `relwrite` can be instructed to perform a naive
+breadth-first search for all the outputs that the input could rewrite to.
+But since that is an infeasibly large space to traverse, it supports a
+more sophisticated [beam search](https://en.wikipedia.org/wiki/Beam_search)
+algorithm, to aggressively trim down the set of possible parses
+(or generations), to allow it to find at least one of a desired length.
+
 ### Release of Samovar 0.5
 
 *   summary: Version 0.5 of [Samovar](https://catseye.tc/node/Samovar) has been released.
