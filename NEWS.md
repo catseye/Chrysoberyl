@@ -5,6 +5,10 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
+_Note, this feeds date back to 2019.  For older news items, please see the_
+**[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
+_article._
+
 ### relwrite, a tool for relating strings to strings
 
 *   summary: [relwrite](https://catseye.tc/node/relwrite) is a tool for relating strings to strings.
