@@ -690,3 +690,9 @@ with the context at the end of the routine.)
 
 Our hope is that these changes will pave the way for optimizations such as tail calls
 and dead code removal.
+
+- - - -
+
+_Older news items from this feed, dating back to 2007, can be found in the_
+**[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
+_article._
