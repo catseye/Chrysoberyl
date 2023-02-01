@@ -5,9 +5,26 @@
 *   link-to-anchors-on: https://catseye.tc/article/News
 *   link-target-url: https://catseye.tc/article/News
 
-_Note, this feeds date back to 2019.  For older news items, please see the_
+_Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
+
+### Eqthy, a formalized language for proofs in equational logic
+
+*   summary: [Eqthy](https://catseye.tc/node/Eqthy) is a formalized language for proofs in equational logic.
+*   date: Wed, 01 Feb 2023 18:29:25 GMT
+
+[Eqthy](https://catseye.tc/node/Eqthy) is a formalized language for proofs
+whose design attempts to reconcile _simplicity of implementation on a machine_
+with _human usability_.  Each line gives an equation which is derived from
+the equation on the previous line, using only the rules of equational logic
+along with any previously defined rules of inference or proved theorems.
+
+This, the first release of the Eqthy distribution (Eqthy 0.1),
+includes a description of the language, a proof checker called `eqthy`
+written in Python 3, and a number of example proofs (including a proof
+of the Socks and Shoes theorem in group theory, and a simple proof
+in Propositional Algebra).
 
 ### relwrite, a tool for relating strings to strings
 
