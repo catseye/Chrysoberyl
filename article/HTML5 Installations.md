@@ -1950,13 +1950,13 @@ the entire page first.
 [brainfuck]: https://esolangs.org/wiki/brainfuck
 [noit o' mnain worb]: ../article/Automata.md#noit-o-mnain-worb
 [yoob]: ../article/Archived.md#yoob
-[Schrödinger's Game of Life]: ../article/Automata.md#schrodingers-game-of-life
+[Schrödinger's Game of Life]: ../article/Automata.md#schr%C3%B6dingers-game-of-life
 [Matchbox]: ../article/Languages.md#matchbox
 [Wierd (John Colagioia)]: ../article/Languages.md#wierd
 [A Minimalist Critique of Tetris]: ../article/Gewgaws.md#a-minimalist-critique-of-tetris
 [A Non-Random Walk]: ../article/Gewgaws.md#a-non-random-walk
 [Art Restoration Simulator]: ../article/Gewgaws.md#art-restoration-simulator
-[Bézier Knots]: ../article/Gewgaws.md#bezier-knots
+[Bézier Knots]: ../article/Gewgaws.md#b%C3%A9zier-knots
 [Black Hole Poem]: ../article/Gewgaws.md#black-hole-poem
 [Canvas Feedback]: ../article/Gewgaws.md#canvas-feedback
 [Circus Xamulus]: ../article/Gewgaws.md#circus-xamulus

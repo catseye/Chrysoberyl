@@ -1,2 +1,2 @@
 Markdown==2.6.8
-Feedmark==0.12
+Feedmark==0.14
