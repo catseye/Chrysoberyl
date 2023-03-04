@@ -235,7 +235,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: false
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,./modules/Carriage/demo/carriage.js
+*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,../modules/Carriage/demo/carriage.js
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
