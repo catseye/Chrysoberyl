@@ -1059,6 +1059,7 @@ Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Burro distribution](https://catseye.tc/distribution/Burro_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Burro)
+*   online @ [catseye.tc](https://catseye.tc/installation/Burro)
 
 Sample program:
 
