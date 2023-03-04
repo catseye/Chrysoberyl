@@ -9,6 +9,34 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Some long-overdue updates to Burro
+
+*   summary: Some long-overdue updates to [Burro](https://catseye.tc/node/Burro).
+*   date: Sat, 04 Mar 2023 19:01:51 GMT
+
+[Burro](https://catseye.tc/node/Burro) is a brainfuck-inspired
+programming language where the set of programs form a group (the
+algebraic structure from group theory); in particular, for
+every program there exists another program which, when
+concatenated to the first program, annihilates it.
+
+Version 2.0 revision 2003.0225 of the Burro distribution has been
+released.  There have been no changes to the language, but several
+other significant updates have been made.  Notably,
+
+*   a more conventional mathematical explanation of what is meant
+    by "programs form a group" has been given (finally!)
+*   a small test suite in Falderal format has been added,
+    demonstrating an extensible idiom for conditionals in Burro.
+*   the supplied proof of Turing-completeness, which was flawed,
+    has been removed from the distribution.  The hope is that
+    a new (and valid) proof, using the extensible idiom mentioned above,
+    will be supplied in the next revision.
+*   the Burro interpreter can be compiled to JavaScript using the
+    Haste compiler, and there is now an
+    [interactive installation of Burro hosted online at catseye.tc](https://catseye.tc/installation/Burro).
+*   the materials are now distributed under a 3-clause BSD license.
+
 ### Eqthy, a formalized language for proofs in equational logic
 
 *   summary: [Eqthy](https://catseye.tc/node/Eqthy) is a formalized language for proofs in equational logic.
