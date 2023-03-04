@@ -227,6 +227,33 @@ it. Or click "Edit" to modify an example program, or create your own program.
 You may wish to read the definition of this cellular automaton:
 [braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
 
+### Burro
+
+*   installation-of: [Burro][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Burro][].
+*   installed-implementation: burro.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Burro/eg/examplePrograms.jsonp.js,../modules/Burro/demo/burro-hastec-launcher.js,../modules/Burro/demo/burro.js
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Burro)
+
+Technically, it is `Burro.lhs` (the reference implementation
+of Burro, written in Literate [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Burro programming language](https://catseye.tc/view/Burro/README.md).
+
 ### Carriage
 
 *   installation-of: [Carriage][]
@@ -694,7 +721,7 @@ running it.  Or you could clear the textbox and write
 an entirely new program there and run it.
 
 You might also want to read
-[the description of the Pail programming language](https://catseye.tc/view/Pail/README.markdown).
+[the description of the Pail programming language](https://catseye.tc/view/Pail/README.md).
 
 ### Pixley
 
@@ -705,7 +732,7 @@ You might also want to read
 *   mediums: [Javascript][], [Web Workers][], [HTML5][]
 *   javascript-urls: ../modules/pixley/impl/pixley.js/demo/launch-pixley.js
 *   launch-command: launch('../modules/pixley/impl/pixley.js/', 'installation', { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' });
-*   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
+*   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .execution-panel pre { max-width: 80em; min-height: 3em; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixley)
 
 Instructions:
@@ -771,7 +798,7 @@ Type a PL-{GOTO} program into the text box and click
 you could try pasting in.
 
 You might also want to read
-[the description of the PL-{GOTO}.NET compiler](https://catseye.tc/view/PL-GOTO.NET/README.markdown).
+[the description of the PL-{GOTO}.NET compiler](https://catseye.tc/view/PL-GOTO.NET/README.md).
 
 ### Quylthulg
 
@@ -797,7 +824,7 @@ running it.  Or you could clear the textbox and write
 an entirely new program there and run it.
 
 You might also want to read
-[the description of the Quylthulg programming language](https://catseye.tc/view/Quylthulg/README.markdown).
+[the description of the Quylthulg programming language](https://catseye.tc/view/Quylthulg/README.md).
 
 ### Robin
 
@@ -1112,7 +1139,7 @@ running it.  Or you could clear the textbox and write
 an entirely new program there and run it.
 
 You might also want to read
-[the description of the ZOWIE programming language](https://catseye.tc/view/ZOWIE/README.markdown).
+[the description of the ZOWIE programming language](https://catseye.tc/view/ZOWIE/README.md).
 
 ### A Minimalist Critique of Tetris
 
