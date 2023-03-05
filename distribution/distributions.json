@@ -1105,6 +1105,11 @@
                 "revision": "2021.1022",
                 "url": "https://catseye.tc/distfiles/emmental-1.0-2021.1022.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2022.0924",
+                "url": "https://catseye.tc/distfiles/emmental-1.0-2022.0924.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Emmental"
