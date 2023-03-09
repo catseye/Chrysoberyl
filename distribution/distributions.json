@@ -3495,6 +3495,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/sixtypical-0.21.zip",
                 "version": "0.21"
+            },
+            {
+                "revision": "2023.0309",
+                "url": "https://catseye.tc/distfiles/sixtypical-0.21-2023.0309.zip",
+                "version": "0.21"
             }
         ],
         "reponame": "SixtyPical",
