@@ -9,6 +9,20 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Release of Eqthy 0.2
+
+*   summary: Version 0.2 of [Eqthy](https://catseye.tc/node/Eqthy) has been released.
+*   date: Thu, 06 Apr 2023 10:55:05 GMT
+
+Version 0.2 of [Eqthy](https://catseye.tc/node/Eqthy) has been released.
+The following small improvement to the language has been made:
+the variables in an axiom or previously-proved theorem can be renamed
+when applying it in a step.  This adds a few lines to the implementation
+of the proof checker, but allows proofs to be simpler.  Error messages
+in the proof checker have also been improved somewhat, and more example
+proofs have been included in the distribution (namely proofs in
+Boolean Algebra and Combinatory Logic).
+
 ### Some long-overdue updates to Burro
 
 *   summary: Some long-overdue updates to [Burro](https://catseye.tc/node/Burro).
