@@ -2722,6 +2722,23 @@
             "Falderal"
         ]
     },
+    "Parc distribution": {
+        "entries": [
+            "Parc"
+        ],
+        "impllangs": [
+            "Haskell"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/parc-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Parc"
+    },
     "Philomath distribution": {
         "entries": [
             "Philomath"

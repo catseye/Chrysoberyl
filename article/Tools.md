@@ -73,8 +73,6 @@ words it conventionally works on).  It was developed during
 *   license: Unknown license
 *   host-language: [Python][]
 
-...
-
 ### ellsync
 
 *   inception-date: 2018
@@ -187,6 +185,22 @@ MARYSUE is the story generator used to generate the novel
 *   reference: true
 *   license: Public Domain
 *   host-language: [Python][]
+
+### Parc
+
+*   summary: The simplest parser combinator library that could possibly work
+*   inception-date: Dec 2022
+*   development-stage: not fully complete
+*   reference-distribution: [Parc distribution](https://catseye.tc/distribution/Parc_distribution)
+
+Parc is a particularly simple parser combinator library, and a series of
+experimental variations on this theme, written in Haskell.
+
+#### Implementation: Parc.hs
+
+*   reference: true
+*   license: MIT License
+*   host-language: [Haskell][]
 
 ### Philomath
 
