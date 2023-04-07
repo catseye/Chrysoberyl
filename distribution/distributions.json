@@ -2737,7 +2737,8 @@
                 "version": "0.1"
             }
         ],
-        "reponame": "Parc"
+        "reponame": "Parc",
+        "tag-style": "new"
     },
     "Philomath distribution": {
         "entries": [
