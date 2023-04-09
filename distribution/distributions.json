@@ -850,6 +850,9 @@
         "tag-style": "new"
     },
     "DAM distribution": {
+        "entries": [
+            "DAM"
+        ],
         "impllangs": [
             "Javascript"
         ],
@@ -867,6 +870,24 @@
             }
         ],
         "reponame": "DAM",
+        "tag-style": "new"
+    },
+    "define-opaque distribution": {
+        "entries": [
+            "define-opaque"
+        ],
+        "impllangs": [
+            "Scheme"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/define-opaque-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "define-opaque",
         "tag-style": "new"
     },
     "Deturgenchry distribution": {
