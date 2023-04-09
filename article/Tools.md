@@ -73,6 +73,27 @@ words it conventionally works on).  It was developed during
 *   license: Unknown license
 *   host-language: [Python][]
 
+### define-opaque
+
+*   inception-date: Jan 2023
+*   reference-distribution: [define-opaque distribution](https://catseye.tc/distribution/define-opaque_distribution)
+
+`define-opaque` is a library for R5RS Scheme that adds a facility for
+creating opaque data types in a simplistic fashion.  It was written
+based on some of the ideas in [Information Hiding in Scheme](https://github.com/cpressey/Information-Hiding-in-Scheme).
+
+It exists partly because I actually wanted to implement some of those
+ideas in Scheme, to support building things such as
+[LCF-style theorem provers](https://github.com/cpressey/LCF-style-ND)
+in Scheme, and abstract data types are otherwise difficult to
+implement in Scheme.
+
+#### Implementation: define-opaque.scm
+
+*   reference: true
+*   license: Public Domain
+*   host-language: [Scheme][]
+
 ### ellsync
 
 *   inception-date: 2018
