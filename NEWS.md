@@ -9,6 +9,30 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Parc: a series of experimental, ultra-simple parser combinator libraries
+
+*   summary: [Parc](https://catseye.tc/node/Parc) is a series of experimental, ultra-simple parser combinator libraries.
+*   date: Sun, 09 Apr 2023 09:20:17 GMT
+
+[Parc](https://catseye.tc/node/Parc) started as "the simplest parser combinator
+library that could possibly work".  Written in Haskell, no fancy types, fits
+on a page.
+
+It was followed by a series of experimental variations on the theme.  These built
+up to having a parser combinator library (called "ParcConsume" here) that is
+putatively able to parse all context-sensitive languages (CSLs), but
+not any language more complex than a CSL.
+
+The driver for formulating ParcConsume was a number of
+observations made during NaNoGenMo 2022 about definite-clause grammars (DCGs),
+primarily that they can express languages more complex than the context-free
+languages (CFLs), but they are not restricted in their complexity beyond that
+(i.e. one can, in Prolog, add clauses to a DCG that make it Turing-complete).
+ParcConsume is an attempt to provide a grammar formalism with a similar
+ability to go beyond the CFL, but with more restricted complexity.
+(Parsing CSLs is a PSPACE-complete problem -- and PSPACE is still an immensely
+large complexity class, but it is at least not Turing-complete.)
+
 ### Release of Eqthy 0.2
 
 *   summary: Version 0.2 of [Eqthy](https://catseye.tc/node/Eqthy) has been released.
