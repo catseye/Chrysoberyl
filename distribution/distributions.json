@@ -1638,6 +1638,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/funicular-0.5.zip",
                 "version": "0.5"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/funicular-0.6.zip",
+                "version": "0.6"
             }
         ],
         "reponame": "Funicular",
