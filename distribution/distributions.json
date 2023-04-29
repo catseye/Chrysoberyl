@@ -1570,6 +1570,24 @@
             "Falderal"
         ]
     },
+    "Fountain distribution": {
+        "entries": [
+            "Fountain"
+        ],
+        "impllangs": [
+            "Haskell"
+        ],
+        "reference": true,
+        "releases": [
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/fountain-0.1.zip",
+                "version": "0.1"
+            }
+        ],
+        "reponame": "Fountain",
+        "tag-style": "new"
+    },
     "Funge-98 distribution": {
         "entries": [
             "Funge-98"
