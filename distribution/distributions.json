@@ -3861,6 +3861,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/the-platform-0.4.zip",
                 "version": "0.4"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/the-platform-0.5.zip",
+                "version": "0.5"
             }
         ],
         "reponame": "The-Platform",
