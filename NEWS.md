@@ -9,6 +9,41 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Version 0.5 of The Platform released
+
+*   summary: Version 0.5 of [The Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) has been released.
+*   date: Fri, 19 May 2023 09:39:39 GMT
+
+On May 19, 2023, version 0.5 of [The Cat's Eye Technologies Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform)
+was announced.
+
+This is 6 years to the day since version 0.4 was released.  What could be
+the explanation for such a long pause?
+
+It's pretty straightforward actually.  Python 2.x reached end-of-life.
+Newer projects developed by Cat's Eye Technologies in Python used
+Python 3.x.  And I didn't want to include both Python 2 and Python 3
+on the The Platform image.
+
+Thus began the arduous journey of upgrading every Cat's Eye Technologies
+project written in Python, from Python 2 to Python 3.
+
+For some of them, it wasn't that bad.  For others, it was pretty
+unpleasant.  Indeed, there was one -- [Tamsin](https://catseye.tc/node/Tamsin), if you must know --
+that is so built around Python 2 assumptions, that it was deemed not worth it
+to convert it.
+
+But in the end we did it.  And in the meantime we accumulated a number
+of other projects.  And we put them all onto a NetBSD 6.1.5 image, and
+we got them all to work, and we simplified a couple of things in the process.
+
+You can find a pre-built image of The Platform 0.5, and instructions for using
+it, on the Internet Archive here:
+
+*    [The Cat's Eye Technologies Platform 0.5](https://archive.org/details/the-cats-eye-technologies-platform-0.5)
+
+and from that page you can download the image directly, or via the torrent.
+
 ### Parc: a series of experimental, ultra-simple parser combinator libraries
 
 *   summary: [Parc](https://catseye.tc/node/Parc) is a series of experimental, ultra-simple parser combinator libraries.
