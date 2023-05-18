@@ -3053,6 +3053,38 @@ lines of code; the core verifier module is less than 200 lines of code.
 *   license: Unknown License
 *   host-language: [Python][]
 
+### Fountain
+
+*   type: Meta-language
+*   inception-date: 2023
+*   genre: Experimental language
+*   development-stage: unfinished
+*   paradigms: Metalanguage
+*   reference-distribution: [Fountain distribution](https://catseye.tc/distribution/Fountain_distribution)
+
+Sample program:
+
+    Goal ::=
+        <. a = 0 .> { "a" <. a += 1 .> } <. a = n .>
+        <. b = 0 .> { "b" <. b += 1 .> } <. b = n .>
+        <. c = 0 .> { "c" <. c += 1 .> } <. c = n .>
+        ;
+
+Fountain is a grammar formalism capable of expressing context-sensitive languages (CSLs),
+and supporting both efficient parsing *and* efficient generation of strings
+in to those languages.
+
+The example grammar above both parses and generates strings of
+the classic CSL `a`^_n_ `b`^_n_ `c`^_n_.  In both directions it
+operates deterministically, and thus efficiently, guided by the
+interspersed semantic constraints.
+
+#### Reference Implementation: fountain
+
+*   license: Unknown license
+*   host-language: [Haskell][]
+*   implementation-type: parser, generator
+
 - - - -
 
 ## About these Languages
