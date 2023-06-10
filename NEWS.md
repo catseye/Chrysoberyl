@@ -9,6 +9,35 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Fountain, a grammar formalism for both parsing and generating CSLs
+
+*   summary: We present [Fountain](https://catseye.tc/node/Fountain), a grammar formalism for both parsing and generating CSLs.
+*   date: Sat, 10 Jun 2023 05:29:18 GMT
+
+We present [Fountain](https://catseye.tc/node/Fountain), a grammar formalism for
+context-sensitive languages.  Fountain strongly resembles an attribute grammar,
+but supports the following properly: from a single grammar, strings may be
+both efficiently parsed and efficiently generated, with a minimum of "programming"
+(i.e., fiddly detail work to support the efficient implementation, rather than to
+merely describe the grammar structure).
+
+To the best of my knowledge, there are no existing attribute grammar systems with
+this property; most are oriented towards efficient parsing only.
+
+The current released version of Fountain is 0.3; after the two initial releases,
+it's at a point where it could be used for simple applications of the idea that
+originally spawned it.
+
+Which was, incidentally, [NaNoGenMo 2022](https://catseye.tc/node/NaNoGenMo).  I wanted to
+write a novel generator that could also parse the novel that it generated, and I
+wanted to write it in a non-ad-hoc way.  I soon realized that if it was written as
+a definite clause grammar in a logic programming or relational programming language,
+these goals would be satisfied.  However, I soon again realized that that approach
+doesn't scale up to 50,000 words -- not without objectionable amounts of
+"programming".  Thus the path towards Fountain was taken, passing through
+[`relwrite`](https://catseye.tc/node/relwrite) and
+[Parc](https://catseye.tc/node/Parc) along the way.
+
 ### Version 0.5 of The Platform released
 
 *   summary: Version 0.5 of [The Platform](https://catseye.tc/node/The%20Cat%27s%20Eye%20Technologies%20Platform) has been released.
