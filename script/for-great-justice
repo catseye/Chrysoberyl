@@ -26,7 +26,6 @@ THINGMAP = {
     'Java': 'Java',
     'Julia': 'Julia',  # NOTE: node redirects to Julia's website
     'Makefile': 'Makefile',  # NOTE: no node yet
-    'Many': 'FIXME',  # NOTE: ???
     'OpenZz': 'OpenZz',
     'Ophis': 'Ophis',  # NOTE: no node yet
     '6502': '6502 machine code',
