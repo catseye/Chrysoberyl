@@ -52,7 +52,9 @@ where it won first place in its class.
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
 *   submitted-to: [Mini Game Compo 2009][]; 1st place in 2K category
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
+*   jnlp-link: https://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
+*   jar-url: https://catseye.tc/applets/jac64.jar
+*   java-command: java -jar jac64.jar -a c64programs/bubble_escape_2k.prg
 *   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
 
 #### Implementation: Bubble Escape 8K
@@ -202,7 +204,9 @@ phenomenon of a generation.  (Possibly.)
 *   license: Freely Redistributable
 *   host-platform: Z-Machine
 *   host-language: Z-Machine code
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
+*   jnlp-link: https://catseye.tc/applets/never_ending_maze_webstart.jnlp
+*   jar-url: https://catseye.tc/applets/zplet.jar
+*   java-command: java -jar zplet.jar never-ending-maze-1.0.z5
 *   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
 *   download @ [static.catseye.tc](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
 
