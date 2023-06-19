@@ -26,7 +26,6 @@ you're looking for here, try those lists as well.
 *   inception-date: ca 1988
 *   reference distribution: [Bubble Escape distribution](https://catseye.tc/distribution/Bubble_Escape_distribution)
 *   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
 
 _Bubble Escape_ is a video game written for the [Commodore 64][] where the
 player must guide a bubble through a multi-screen maze.  It was originally
@@ -194,7 +193,6 @@ reification of the interactions of culture.
 *   genre: Text Adventure
 *   inception-date: ca 2000
 *   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
 
 An Infocom-style text adventure game based on the defining cultural
 phenomenon of a generation.  (Possibly.)
