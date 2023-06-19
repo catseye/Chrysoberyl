@@ -364,7 +364,7 @@ is a port of AppleWin to Linux.  [zophar.net](http://www.zophar.net/apple2.html)
 Rundown: The CPU was a 6502.  [Commodore BASIC 2.0][] was in the ROM; this is the same BASIC that was
 in the Commodore 64.
 
-Emulators: The `xvic` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+Emulators: The `xvic` executable from [VICE][], written in C99 and
 distributed under the GPL, is a generally recommended emulator for the VIC-20.
 
 ### Commodore 64
@@ -378,7 +378,7 @@ The [Commodore 64 Programmer's Reference Guide][] is an invaluable reference, or
 There was also a [User's Guide](https://www.commodore.ca/manuals/c64_users_guide/c64-users_guide-00-toc_introduction.pdf).
 Lots of C64 stuff can also be found at [zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/).
 
-Emulators: The `x64` executable from [VICE](http://vice-emu.sourceforge.net/), written in C99 and
+Emulators: The `x64` executable from [VICE][], written in C99 and
 distributed under the GPL, is a generally recommended emulator for the Commodore 64.
 Also, [JaC64][] is a GPL Java application which emulates a Commodore 64.
 Cat's Eye Technologies uses it to showcase our Commodore 64 games as online installations, using Java Web Start.
@@ -573,4 +573,5 @@ There was also an "Integer Basic".
 [Blurry Memories of DOS Programming]: https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
 [linapple]: ../article/Forks.md#linapple
+[VICE]: https://vice-emu.sourceforge.io/
 

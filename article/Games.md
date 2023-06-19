@@ -40,7 +40,7 @@ Just follow the "online" link shown above.
 
 You can also download the D64 disk image file
 [bubble escape.d64](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
-and run it in VICE x64 or some other Commodore 64 emulator.
+and run it in [VICE][]'s `x64` or some other Commodore 64 emulator.
 
 If this game doesn't seem too impressive to you, try to remember, it's
 only two kilobytes of code!  These days you can't even sneeze in less
@@ -266,4 +266,7 @@ See also:
 [Hunt the Wumpus]: https://github.com/cpressey/Some-Games-of-Note/blob/master/article/Classic%20Computer%20Games.md#hunt-the-wumpus
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [Javascript]: ../article/Project%20Dependencies.md#javascript
+[Frotz]: https://www.ifarchive.org/if-archive/infocom/interpreters/frotz/
+[Zplet]: ../article/Forks.md#zplet
+[VICE]: https://vice-emu.sourceforge.io/
 

@@ -131,7 +131,7 @@ It replaces [Amiga Gondola][].  It can handle such OS/emulator combinations
 as [NetBSD][] under [QEMU][], [FreeDOS][] under [QEMU][],
 [AmigaDOS 1.3][] on an [Amiga 500][] under [E-UAE][],
 [Applesoft BASIC][] on an [Apple II][] under [linapple][],
-and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE](http://vice-emu.sourceforge.net/).
+and [Commodore BASIC 2.0][] on a [Commodore 64][] under [VICE][].
 
 #### Implementation: funicular
 
@@ -514,6 +514,7 @@ framework, which is in Java.
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform
 [yoob]: ../article/Archived.md#yoob
 [QEMU]: ../article/Project%20Dependencies.md#ibm-pc-compatible
+[VICE]: https://vice-emu.sourceforge.io/
 [Bourne shell]: ../article/Project%20Dependencies.md#bourne-shell
 [Apple II]: ../article/Project%20Dependencies.md#apple-ii
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic

@@ -15,7 +15,7 @@
         "url": "https://catseye.tc/view/The-Dossier/article/Atari%202600%20Games%20of%20Note.md"
     },
     "Bochs": {
-        "url": "https://bochs.sourceforge.io/"
+        "url": "https://github.com/bochs-emu/Bochs"
     },
     "Borland C++ compiler": {
         "url": "https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md"
@@ -50,6 +50,9 @@
     "Z80 machine code": {
         "anchor": "z80", 
         "filename": "article/Project Dependencies.md"
+    },
+    "VICE": {
+        "url": "https://vice-emu.sourceforge.io/"
     },
     "v86": {
         "anchor": "ibm-pc-compatible", 
