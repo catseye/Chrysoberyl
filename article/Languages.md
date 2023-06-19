@@ -483,6 +483,7 @@ Successor to [Illberon][].
 *   development-stage: archival
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Apple Befunge distribution](https://catseye.tc/distribution/Apple_Befunge_distribution)
+*   online @ [archive.org](https://archive.org/details/apple-befunge-1.1-2014.0819)
 
 Apple Befunge is a variant of Befunge for the Apple ][+ which resembles
 Befunge-93, with some extra Befunge-96-esque instructions and some

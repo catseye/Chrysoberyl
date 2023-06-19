@@ -25,6 +25,7 @@ you're looking for here, try those lists as well.
 *   genre: Maze-Runner
 *   inception-date: ca 1988
 *   reference distribution: [Bubble Escape distribution](https://catseye.tc/distribution/Bubble_Escape_distribution)
+*   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
 *   jnlp @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
 
 _Bubble Escape_ is a video game written for the [Commodore 64][] where the
@@ -53,6 +54,7 @@ where it won first place in its class.
 *   controls: joystick
 *   submitted-to: [Mini Game Compo 2009][]; 1st place in 2K category
 *   jnlp @ [catseye.tc](https://catseye.tc/installation/Bubble_Escape)
+*   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
 
 #### Implementation: Bubble Escape 8K
 
@@ -191,6 +193,7 @@ reification of the interactions of culture.
 
 *   genre: Text Adventure
 *   inception-date: ca 2000
+*   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
 *   jnlp @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
 
 An Infocom-style text adventure game based on the defining cultural
@@ -202,6 +205,7 @@ phenomenon of a generation.  (Possibly.)
 *   host-platform: Z-Machine
 *   host-language: Z-Machine code
 *   jnlp @ [catseye.tc](https://catseye.tc/installation/The_Never-Ending_Maze)
+*   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
 *   download @ [static.catseye.tc](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
 
 ### Zzrk

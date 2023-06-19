@@ -24,6 +24,7 @@ more machine-read than human-read, but you can just skip over those.
 *   jar-url: https://catseye.tc/applets/jac64.jar
 *   java-command: java -jar jac64.jar -a c64programs/bubble_escape_2k.prg
 *   online @ [catseye.tc](https://catseye.tc/ix/Bubble_Escape)
+*   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
 
 You can play it online in the [JaC64][] emulator using Java Web Start.
 Use your arrow keys to guide the bubble through the maze.  Avoid the
@@ -93,6 +94,7 @@ click in it first (it's focusable.)
 *   jar-url: https://catseye.tc/applets/zplet.jar
 *   java-command: java -jar zplet.jar never-ending-maze-1.0.z5
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Never-Ending_Maze)
+*   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
 
 It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
 Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
