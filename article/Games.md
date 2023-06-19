@@ -35,6 +35,17 @@ The assembly version was pared down so that (crunched) it fit into 2K,
 christened "Bubble Escape 2K", and submitted to the [Mini Game Compo 2009][]
 where it won first place in its class.
 
+It's archived on the Internet Archive, where you can play it in your browser.
+Just follow the "online" link shown above.
+
+You can also download the D64 disk image file
+[bubble escape.d64](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
+and run it in VICE x64 or some other Commodore 64 emulator.
+
+If this game doesn't seem too impressive to you, try to remember, it's
+only two kilobytes of code!  These days you can't even sneeze in less
+than a megabyte.
+
 #### Implementation: Bubble Escape (BASIC)
 
 *   reference: true
@@ -52,10 +63,8 @@ where it won first place in its class.
 *   build-requirements: CRUNCHER AB+
 *   controls: joystick
 *   submitted-to: [Mini Game Compo 2009][]; 1st place in 2K category
-*   jnlp-link: https://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/jac64.jar
-*   java-command: java -jar jac64.jar -a c64programs/bubble_escape_2k.prg
 *   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
+*   download @ [github.com](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
 
 #### Implementation: Bubble Escape 8K
 
@@ -199,14 +208,18 @@ reification of the interactions of culture.
 An Infocom-style text adventure game based on the defining cultural
 phenomenon of a generation.  (Possibly.)
 
+It's archived on the Internet Archive, where you can play it in your browser.
+Just follow the "online" link shown above.
+
+You can also download the Z5 story file
+[never-ending-maze-1.0.z5](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
+and run it in [Frotz][], [Zplet][], or some other Z-Machine emulator.
+
 #### Implementation: never-ending-maze.z5
 
 *   license: Freely Redistributable
 *   host-platform: Z-Machine
 *   host-language: Z-Machine code
-*   jnlp-link: https://catseye.tc/applets/never_ending_maze_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/zplet.jar
-*   java-command: java -jar zplet.jar never-ending-maze-1.0.z5
 *   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
 *   download @ [static.catseye.tc](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
 

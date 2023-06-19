@@ -13,31 +13,6 @@ It contains some instructions for using each of these installations.
 Note: some of the properties on the installation entries are meant to be
 more machine-read than human-read, but you can just skip over those.
 
-### Bubble Escape
-
-*   installation-of: [Bubble Escape 2K][]
-*   installed-implementation: bubble_escape_2k.prg
-*   interactive: true
-*   animated: true
-*   mediums: [6502 machine code][], [JaC64][], [Java Web Start][], [HTML5][]
-*   jnlp-link: https://catseye.tc/applets/bubble_escape_2k_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/jac64.jar
-*   java-command: java -jar jac64.jar -a c64programs/bubble_escape_2k.prg
-*   online @ [catseye.tc](https://catseye.tc/ix/Bubble_Escape)
-*   online @ [archive.org](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.)
-
-You can play it online in the [JaC64][] emulator using Java Web Start.
-Use your arrow keys to guide the bubble through the maze.  Avoid the
-hazards and find the five keys to unlock the exit.
-
-You can also download the D64 disk image file
-[bubble escape.d64](https://github.com/catseye/Bubble-Escape/blob/master/disk/bubble%20escape.d64?raw=true)
-and run it in VICE x64 or some other Commodore 64 emulator.
-
-If this game doesn't seem too impressive to you, try to remember, it's
-only two kilobytes of code!  These days you can't even sneeze in less
-than a megabyte.
-
 ### Cosmos Boulders
 
 *   installation-of: [Cosmos Boulders][]
@@ -82,26 +57,6 @@ on most mobile devices, as they lack keyboards.
 
 If your keystrokes aren't going into the "terminal", make sure you
 click in it first (it's focusable.)
-
-### The Never-Ending Maze
-
-*   installation-of: [The Never-Ending Maze][]
-*   installed-implementation: never-ending-maze.z5
-*   interactive: true
-*   animated: false
-*   mediums: [Z-Machine code][], [Zplet][], [Java Web Start][], [HTML5][]
-*   jnlp-link: https://catseye.tc/applets/never_ending_maze_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/zplet.jar
-*   java-command: java -jar zplet.jar never-ending-maze-1.0.z5
-*   online @ [catseye.tc](https://catseye.tc/ix/The_Never-Ending_Maze)
-*   online @ [archive.org](https://archive.org/details/the_never-ending_maze)
-
-It's a text adventure.  You can play it online in the [Zplet][] emulator using Java Web Start.
-Type commands for the actions that you want to undertake in the game.  For instance, `go east`.
-
-You can also download the Z5 story file
-[never-ending-maze-1.0.z5](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
-and run it in Frotz or some other Z-Machine emulator.
 
 ### The New Gamerly Realism
 
