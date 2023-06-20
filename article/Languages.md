@@ -1713,7 +1713,7 @@ Sample program:
 Whothm is a simple language for describing infinite two-colour
 bitmapped drawings.
 
-#### Reference Implementation: tc.catseye.whothm
+#### Reference Implementation: JWhothm
 
 *   license: BSD license
 *   implementation-type: interpreter
