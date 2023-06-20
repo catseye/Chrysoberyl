@@ -13,7 +13,7 @@ you're looking for here, try those lists as well.
 
 ### Full Moon Fever
 
-*   type: Programming Language
+*   type: Animation Language
 *   inception-date: ca 1993
 *   genre: DSL
 *   development-stage: archived
@@ -1682,7 +1682,7 @@ a memory location to mark the beginning or end of a loop or conditional.
 
 ### Whothm
 
-*   type: Programming Language
+*   type: Drawing Language
 *   inception-date: Jun 28, 2010
 *   genre: Esolang
 *   development-stage: mature
@@ -2106,7 +2106,7 @@ proceeds in a much more dataflow-like fashion.
 
 ### Madison
 
-*   type: Programming Language
+*   type: Proof Language
 *   inception-date: Dec 2, 2011
 *   genre: DSL
 *   development-stage: unfinished
