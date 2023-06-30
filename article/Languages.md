@@ -1719,6 +1719,12 @@ bitmapped drawings.
 *   implementation-type: interpreter
 *   host-language: [Java][]
 
+#### Implementation: whothm.lua
+
+*   license: BSD license
+*   implementation-type: interpreter
+*   host-language: [Lua][]
+
 ### Eightebed
 
 *   type: Programming Language

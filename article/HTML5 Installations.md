@@ -983,24 +983,21 @@ You might also want to read
 *   online @ [catseye.tc](https://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
-This installation contains a Java application which implements Whothm, and lets you
-interactively try out Whothm programs online, using Java Web Start. The implementation
-is only an approximation; only a small portion of the infinite drawing (a couple of
-hundred iterations) is rendered.  The rest is left up to your imagination.
+It is described fully in the documentation in the [Whothm][] distribution.
+
+Technically, this installation is `whothm.lua` (an implementation
+of Whothm in [Lua][]) running under [Fengari][]
+(an implementation of the [Lua][] VM in [Javascript][])
+running in an [HTML5][] document.
 
 Instructions:
 
-Whothm is a simple language for describing infinite shapes. It is
-described fully in the documentation in the [Whothm][] distribution.
+Click "Run" to run the program.  The result is displayed in
+the canvas on the right.
 
-Click "Run" or press Alt+R to run the program.  The result is displayed in
-the canvas on the right.  Page Up and Page Down can be used to zoom in and
-out of the canvas.
-
-Syntax errors often result in an error message in the status bar,
+Syntax errors should result in an error message in the status bar,
 but might not in all cases.  In these cases, consulting your browser's
-Java console, if it has one, might elucidate the cause of the error.
-Or it might not.
+console, might elucidate the cause of the error.  Or it might not.
 
 Obviously, this implementation does not support generating or
 displaying the entire infinite drawing.  In fact, it only runs the loop
