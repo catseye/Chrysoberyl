@@ -979,6 +979,7 @@ You might also want to read
 *   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/whothm/eg/examplePrograms.jsonp.js,../modules/whothm/impl/whothm.lua/demo/whothm-fengari-launcher.js
 *   lua-urls: ../modules/whothm/impl/whothm.lua/src/whothm.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
+*   style: #installation { text-align: left; margin: 1em; } #editor { display: inline-block; } #canvas { border: 1px solid black; margin: 3px; background: white; display: inline-block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
