@@ -971,13 +971,15 @@ You might also want to read
 ### Whothm
 
 *   installation-of: [Whothm][]
-*   installed-implementation: tc.catseye.whothm
+*   installation-description: This is a web-based interpreter for the [Whothm][] drawing language.
+*   installed-implementation: whothm.lua
 *   interactive: true
 *   animated: false
-*   mediums: Java Web Start, HTML5
-*   jnlp-link: https://catseye.tc/applets/whothm_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/whothm.jar
-*   java-command: java -jar whothm.jar
+*   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
+*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/whothm/eg/examplePrograms.jsonp.js,../modules/whothm/impl/whothm.lua/demo/whothm-fengari-launcher.js
+*   lua-urls: ../modules/whothm/impl/whothm.lua/src/whothm.lua
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.

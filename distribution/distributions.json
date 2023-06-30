@@ -4217,6 +4217,7 @@
         "tag-style": "new"
     },
     "Whothm distribution": {
+        "fixed-tag": "develop-2023",
         "entries": [
             "Whothm"
         ],
