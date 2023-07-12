@@ -9,6 +9,41 @@ _Note, this feed dates back to 2019.  For older news items, please see the_
 **[Archived News Items](http://catseye.tc/article/Archived_News_Items)**
 _article._
 
+### Whothm has a new online installation
+
+*   summary: [Whothm](https://catseye.tc/node/Whothm) has a new [online installation](https://catseye.tc/installation/Whothm).
+*   date: Wed, 12 Jul 2023 13:49:51 GMT
+
+Cat's Eye Technologies hasn't implemented many things in
+[Java](https://catseye.tc/node/Java), but it has
+implemented a few, and when it has released them, the final product has
+tended to be a Java Applet.  Nowadays, of course, the Java Applet form is
+as dead as a doornail.  Deader'n' the dodo.  Wouldn't "voom" if you put
+fifty thousand volts through it.  You get the picture.
+
+So our Java Applets, what we had to do, see, was to put them on a sort of
+life support by converting them into JNLPs.  But JNLPs are clunky and
+can't really be said to "run on a web page" given that you need to have
+Java installed locally and your browser needs to be taught that that's
+what "JNLP" means.
+
+So we are undertaking the (slow) process of converting the remaining JNLPs
+into forms that can be said to "run on a web page".
+
+Part of this has been discontinuing some online installations that run
+on Java-based emulators of [old computers](https://catseye.tc/article/Retrocomputing).
+So if you want to try
+[Bubble Escape 2K](https://archive.org/details/Bubble_Escape_2K_2009_Pressey_C.) or
+[Apple Befunge](https://archive.org/details/apple-befunge-1.1-2014.0819) in your
+web browser, you can view their entries on the [Internet Archive](https://archive.org/).
+
+But more excitingly, there is a new implementation of [Whothm](https://catseye.tc/node/Whothm),
+this one written in [Lua](https://catseye.tc/node/Lua) instead of Java.
+So not only does it [run in your web browser](https://catseye.tc/installation/Whothm)
+(thanks to [Fengari](https://catseye.tc/node/Fengari)), it will also run on
+the command line (which the Java version has never supported,
+it being GUI-only).
+
 ### Fountain, a grammar formalism for both parsing and generating CSLs
 
 *   summary: We present [Fountain](https://catseye.tc/node/Fountain), a grammar formalism for both parsing and generating CSLs.
