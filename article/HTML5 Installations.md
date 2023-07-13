@@ -245,7 +245,7 @@ You might also want to read
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
+*   javascript-urls: ../static/contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
 *   launch-command: launch({ width: 500, height: 500, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
@@ -298,7 +298,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
+*   javascript-urls: ../static/contrib/pixi.js-v4.8.5/pixi.min.js,../static/contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
 *   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-640x480.css
