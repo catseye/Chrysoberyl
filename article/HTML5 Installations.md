@@ -1097,6 +1097,41 @@ an entirely new program there and run it.
 You might also want to read
 [the description of the ZOWIE programming language](https://catseye.tc/view/ZOWIE/README.md).
 
+### Zzrk
+
+*   installation-of: [Zzrk][]
+*   installation-description: This is a web-based installation of [Zzrk][], a text adventure game written entirely in Zz (a meta-language normally used for defining compilers.)
+*   installed-implementation: zzrk.zz
+*   interactive: true
+*   animated: true
+*   mediums: Zz, [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img
+*   online @ [catseye.tc](https://catseye.tc/ix/Zzrk)
+
+It is running on [OpenZz][] under [FreeDOS][] running
+on a web page via the [HTML5][]-based [IBM PC compatible][]
+emulator, [v86][] —  so you can bootstrap it right in your browser.
+
+Instructions:
+
+The system that v86 runs is delivered on a 720K floppy image,
+which contains a minimal bootable FreeDOS install, the [OpenZz][]
+interpreter (compiled for MS-DOS using `djgpp`), plus the
+[Zzrk][] `.zz` file.
+
+You can play the game as you would a typical text adventure game.
+If you use a word that is not understood, however, it will become
+clear that OpenZz is treating your input as something to be compiled,
+and will produce for you a syntax error message.  After 10 such
+errors, the "compilation" of your game will abort and you will be
+returned to the MS-DOS Command Prompt.
+
+If v86 doesn't work in your browser, you can
+[download the disk image](https://catseye.tc/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img)
+and use it in an emulator such as [QEMU][] or [DOSBox][]
+or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+a floppy disk somehow...
+
 ### A Minimalist Critique of Tetris
 
 *   installation-of: [A Minimalist Critique of Tetris][]
