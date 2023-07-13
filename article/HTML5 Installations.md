@@ -891,7 +891,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
@@ -920,7 +920,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
 *   lua-urls: ../modules/Wanda/src/wanda.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
@@ -976,7 +976,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/whothm/eg/examplePrograms.jsonp.js,../modules/whothm/impl/whothm.lua/demo/whothm-fengari-launcher.js
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/whothm/eg/examplePrograms.jsonp.js,../modules/whothm/impl/whothm.lua/demo/whothm-fengari-launcher.js
 *   lua-urls: ../modules/whothm/impl/whothm.lua/src/whothm.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation { text-align: left; margin: 1em; } #editor { width: auto; } #canvas { border: 1px solid black; margin: 3px; background: white; float: right }
