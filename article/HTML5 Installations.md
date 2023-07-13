@@ -1115,9 +1115,9 @@ emulator, [v86][] —  so you can bootstrap it right in your browser.
 Instructions:
 
 The system that v86 runs is delivered on a 720K floppy image,
-which contains a minimal bootable FreeDOS install, the [OpenZz][]
-interpreter (compiled for MS-DOS using `djgpp`), plus the
-[Zzrk][] `.zz` file.
+which contains a minimal bootable FreeDOS install, the OpenZz
+interpreter (compiled for MS-DOS using `djgpp`), and the
+`zzrk.zz` file that implements the game Zzrk.
 
 You can play the game as you would a typical text adventure game.
 If you use a word that is not understood, however, it will become
@@ -1911,6 +1911,7 @@ the entire page first.
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [Super Wumpus Land]: ../article/Games.md#super-wumpus-land
+[Zzrk]: ../article/Games.md#zzrk
 [Cheshire Text]: ../article/Texts.md#cheshire-text
 [BefOS]: ../article/Platforms.md#befos
 [Backtracking Wang Tiler]: ../article/Automata.md#backtracking-wang-tiler
@@ -1945,6 +1946,7 @@ the entire page first.
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: https://esolangs.org/wiki/LNUSP
 [Mascarpone]: ../article/Languages.md#mascarpone
+[OpenZz]: ../article/Forks.md#openzz
 [Oxcart]: ../article/Languages.md#oxcart
 [Pail]: ../article/Languages.md#pail
 [PATH]: https://esolangs.org/wiki/PATH
