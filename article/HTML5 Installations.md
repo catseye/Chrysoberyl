@@ -128,7 +128,7 @@ and you may be pleasantly surprised.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/befos-0.10.img
+*   v86-floppy-image-url: ../static/distfiles/befos-0.10.img
 *   online @ [catseye.tc](https://catseye.tc/ix/BefOS)
 
 It runs on a web page thanks to the
@@ -553,7 +553,7 @@ scrollbars to indicate this.  You can still scroll the program display.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/freedos-1.1-illgol-floppy-0.1.img
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.1-illgol-floppy-0.1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
 
 Instructions:
@@ -822,7 +822,7 @@ to be pasted into the textbox above the Robin code that uses them.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.0-shelta-1.2-floppy-2.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Shelta)
 
 It is running under [FreeDOS][] running
@@ -1530,7 +1530,7 @@ they should operate on, for example.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/markov-font/markov-font.js
-*   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../resource/c64_noninverted.png" });
+*   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_noninverted.png" });
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Markov_Font)
 
@@ -1604,7 +1604,7 @@ a source image randomly onto either panel.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/pixed-point/pixed-point.js
-*   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../resource/c64_upp.gif" });
+*   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
 
