@@ -1100,7 +1100,7 @@ You might also want to read
 ### Zzrk
 
 *   installation-of: [Zzrk][]
-*   installation-description: This is a web-based installation of [Zzrk][], a text adventure game written entirely in Zz (a meta-language normally used for defining compilers.)
+*   installation-description: This is a web-based installation of [Zzrk][], a text adventure game written entirely in Zz (a meta-language normally used for defining programming languages.)
 *   installed-implementation: zzrk.zz
 *   interactive: true
 *   animated: true
@@ -1110,7 +1110,12 @@ You might also want to read
 
 It is running on [OpenZz][] under [FreeDOS][] running
 on a web page via the [HTML5][]-based [IBM PC compatible][]
-emulator, [v86][] —  so you can bootstrap it right in your browser.
+emulator, [v86][].
+
+_NOTE: this installation is presently INOPERABLE as v86 does not correctly_
+_emulate some of the instructions in the compiled OpenZz executable._
+_However, the floppy disk image can still be downloaded and used on_
+_a locally-running emulator such as QEMU._
 
 Instructions:
 
