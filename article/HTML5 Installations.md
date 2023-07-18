@@ -1114,8 +1114,9 @@ emulator, [v86][].
 
 _NOTE: this installation is presently INOPERABLE as v86 does not correctly_
 _emulate some of the instructions in the compiled OpenZz executable._
-_However, the floppy disk image can still be downloaded and used on_
-_a locally-running emulator such as QEMU._
+
+_However, Zzrk can still be experienced online, in the_
+**[Zzrk entry on the Internet Archive](https://archive.org/details/zzrk_adventure)**.
 
 Instructions:
 
