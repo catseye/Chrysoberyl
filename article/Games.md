@@ -229,11 +229,12 @@ and run it in [Frotz][], [Zplet][], or some other Z-Machine emulator.
 
 *   subtitle: **Adventures in the Great Unsaturated Grammar**
 *   genre: Text Adventure
-*   inception-date: ca 2005
+*   inception-date: ca 2003
 *   reference distribution: [Zzrk distribution](https://catseye.tc/distribution/Zzrk_distribution)
+*   online @ [archive.org](https://archive.org/details/zzrk_adventure)
 
-_Zzrk_ is a tiny adventure game written in "pure" Zz
-(a meta-language normally used for defining compilers.)
+_Zzrk_ is a tiny adventure game written in "100% pure" Zz
+(a meta-language normally used for defining programming languages.)
 
 #### Implementation: Zzrk (Zz)
 

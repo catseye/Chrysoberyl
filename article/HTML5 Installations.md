@@ -128,7 +128,7 @@ and you may be pleasantly surprised.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/befos-0.10.img
+*   v86-floppy-image-url: ../static/distfiles/befos-0.10.img
 *   online @ [catseye.tc](https://catseye.tc/ix/BefOS)
 
 It runs on a web page thanks to the
@@ -245,7 +245,7 @@ You might also want to read
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
+*   javascript-urls: ../static/contrib/pixi.js-v4.8.5/pixi.min.js,../modules/Chzrxl/src/chzrxl.js,../modules/Chzrxl/demo/dam-plus-widgets-web.js,../modules/Chzrxl/demo/chzrxl-pixi-launcher.js
 *   launch-command: launch({ width: 500, height: 500, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
@@ -298,7 +298,7 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: true
 *   animated: true
 *   mediums: [Javascript][], [HTML5][], [PixiJS][]
-*   javascript-urls: ../contrib/pixi.js-v4.8.5/pixi.min.js,../contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
+*   javascript-urls: ../static/contrib/pixi.js-v4.8.5/pixi.min.js,../static/contrib/pixi-viewport.js-3.4.1/pixi-viewport.min.js,../modules/Cyclobots/src/cyclobots.js,../modules/Cyclobots/demo/dam-plus-widgets-web.js,../modules/Cyclobots/demo/cyclobots-pixi-launcher.js
 *   launch-command: launch({ width: 640, height: 480, container: document.getElementById('installation') });
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-640x480.css
@@ -553,7 +553,7 @@ scrollbars to indicate this.  You can still scroll the program display.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/freedos-1.1-illgol-floppy-0.1.img
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.1-illgol-floppy-0.1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
 
 Instructions:
@@ -822,7 +822,7 @@ to be pasted into the textbox above the Robin code that uses them.
 *   interactive: true
 *   animated: true
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
-*   v86-floppy-image-url: ../resource/freedos-1.0-shelta-1.2-floppy-2.img
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.0-shelta-1.2-floppy-2.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Shelta)
 
 It is running under [FreeDOS][] running
@@ -891,7 +891,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/velo/eg/examplePrograms.jsonp.js,../modules/velo/impl/velo.lua/demo/velo-fengari-launcher.js
 *   lua-urls: ../modules/velo/impl/velo.lua/src/velo.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
@@ -920,7 +920,7 @@ You might also want to read
 *   interactive: true
 *   animated: false
 *   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/Wanda/eg/index.js,../modules/Wanda/demo/wanda-fengari-launcher.js
 *   lua-urls: ../modules/Wanda/src/wanda.lua
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
@@ -971,34 +971,33 @@ You might also want to read
 ### Whothm
 
 *   installation-of: [Whothm][]
-*   installed-implementation: tc.catseye.whothm
+*   installation-description: This is a web-based interpreter for the [Whothm][] drawing language.
+*   installed-implementation: whothm.lua
 *   interactive: true
 *   animated: false
-*   mediums: Java Web Start, HTML5
-*   jnlp-link: https://catseye.tc/applets/whothm_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/whothm.jar
-*   java-command: java -jar whothm.jar
+*   mediums: [Lua][], [Fengari][], [Javascript][], [HTML5][]
+*   javascript-urls: ../static/contrib/fengari-web-v0.1.4/fengari-web.js,../modules/whothm/eg/examplePrograms.jsonp.js,../modules/whothm/impl/whothm.lua/demo/whothm-fengari-launcher.js
+*   lua-urls: ../modules/whothm/impl/whothm.lua/src/whothm.lua
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   style: #installation { text-align: left; margin: 1em; } #editor { width: auto; } #canvas { border: 1px solid black; margin: 3px; background: white; float: right }
 *   online @ [catseye.tc](https://catseye.tc/ix/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
-This installation contains a Java application which implements Whothm, and lets you
-interactively try out Whothm programs online, using Java Web Start. The implementation
-is only an approximation; only a small portion of the infinite drawing (a couple of
-hundred iterations) is rendered.  The rest is left up to your imagination.
+It is described fully in the documentation in the [Whothm][] distribution.
+
+Technically, this installation is `whothm.lua` (an implementation
+of Whothm in [Lua][]) running under [Fengari][]
+(an implementation of the [Lua][] VM in [Javascript][])
+running in an [HTML5][] document.
 
 Instructions:
 
-Whothm is a simple language for describing infinite shapes. It is
-described fully in the documentation in the [Whothm][] distribution.
+Click "Run" to run the program.  The result is displayed in
+the canvas on the right.
 
-Click "Run" or press Alt+R to run the program.  The result is displayed in
-the canvas on the right.  Page Up and Page Down can be used to zoom in and
-out of the canvas.
-
-Syntax errors often result in an error message in the status bar,
+Syntax errors should result in an error message in the status bar,
 but might not in all cases.  In these cases, consulting your browser's
-Java console, if it has one, might elucidate the cause of the error.
-Or it might not.
+console, might elucidate the cause of the error.  Or it might not.
 
 Obviously, this implementation does not support generating or
 displaying the entire infinite drawing.  In fact, it only runs the loop
@@ -1075,7 +1074,7 @@ will consume them in order, and continue running.
 *   interactive: true
 *   animated: false
 *   mediums: [Python][], [Skulpt][], [Javascript][], [HTML5][]
-*   javascript-urls: ../contrib/skulpt-0.11.0/skulpt.min.js,../contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/examplePrograms.jsonp.js,../modules/ZOWIE/eg/launch-zowie.js
+*   javascript-urls: ../static/contrib/skulpt-0.11.0/skulpt.min.js,../static/contrib/skulpt-0.11.0/skulpt-stdlib.js,../modules/ZOWIE/eg/examplePrograms.jsonp.js,../modules/ZOWIE/eg/launch-zowie.js
 *   script-root: ../modules/ZOWIE/eg/
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
@@ -1097,6 +1096,47 @@ an entirely new program there and run it.
 
 You might also want to read
 [the description of the ZOWIE programming language](https://catseye.tc/view/ZOWIE/README.md).
+
+### Zzrk
+
+*   installation-of: [Zzrk][]
+*   installation-description: This is a web-based installation of [Zzrk][], a text adventure game written entirely in Zz (a meta-language normally used for defining programming languages.)
+*   installed-implementation: zzrk.zz
+*   interactive: true
+*   animated: true
+*   mediums: Zz, [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
+*   v86-floppy-image-url: ../static/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img
+*   online @ [catseye.tc](https://catseye.tc/ix/Zzrk)
+
+It is running on [OpenZz][] under [FreeDOS][] running
+on a web page via the [HTML5][]-based [IBM PC compatible][]
+emulator, [v86][].
+
+_NOTE: this installation is presently INOPERABLE as v86 does not correctly_
+_emulate some of the instructions in the compiled OpenZz executable._
+
+_However, Zzrk can still be experienced online, in the_
+**[Zzrk entry on the Internet Archive](https://archive.org/details/zzrk_adventure)**.
+
+Instructions:
+
+The system that v86 runs is delivered on a 720K floppy image,
+which contains a minimal bootable FreeDOS install, the OpenZz
+interpreter (compiled for MS-DOS using `djgpp`), and the
+`zzrk.zz` file that implements the game Zzrk.
+
+You can play the game as you would a typical text adventure game.
+If you use a word that is not understood, however, it will become
+clear that OpenZz is treating your input as something to be compiled,
+and will produce for you a syntax error message.  After 10 such
+errors, the "compilation" of your game will abort and you will be
+returned to the MS-DOS Command Prompt.
+
+If v86 doesn't work in your browser, you can
+[download the disk image](https://catseye.tc/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img)
+and use it in an emulator such as [QEMU][] or [DOSBox][]
+or, wonder of wonders, a real IBM PC compatible — if you can write it onto
+a floppy disk somehow...
 
 ### A Minimalist Critique of Tetris
 
@@ -1531,7 +1571,7 @@ they should operate on, for example.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/markov-font/markov-font.js
-*   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../resource/c64_noninverted.png" });
+*   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_noninverted.png" });
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Markov_Font)
 
@@ -1605,7 +1645,7 @@ a source image randomly onto either panel.
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
 *   javascript-urls: ../modules/html5-gewgaws/pixed-point/pixed-point.js
-*   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../resource/c64_upp.gif" });
+*   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
 
@@ -1877,6 +1917,7 @@ the entire page first.
 [The New Gamerly Realism]: ../article/Games.md#the-new-gamerly-realism
 [The Never-Ending Maze]: ../article/Games.md#the-never-ending-maze
 [Super Wumpus Land]: ../article/Games.md#super-wumpus-land
+[Zzrk]: ../article/Games.md#zzrk
 [Cheshire Text]: ../article/Texts.md#cheshire-text
 [BefOS]: ../article/Platforms.md#befos
 [Backtracking Wang Tiler]: ../article/Automata.md#backtracking-wang-tiler
@@ -1911,6 +1952,7 @@ the entire page first.
 [Jacciata]: ../article/Automata.md#jacciata
 [LNUSP]: https://esolangs.org/wiki/LNUSP
 [Mascarpone]: ../article/Languages.md#mascarpone
+[OpenZz]: ../article/Forks.md#openzz
 [Oxcart]: ../article/Languages.md#oxcart
 [Pail]: ../article/Languages.md#pail
 [PATH]: https://esolangs.org/wiki/PATH

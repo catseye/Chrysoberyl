@@ -4259,6 +4259,11 @@
                 "revision": "2018.1009",
                 "url": "https://catseye.tc/distfiles/whothm-1.0-2018.1009.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2023.0630",
+                "url": "https://catseye.tc/distfiles/whothm-1.0-2023.0630.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Whothm"
