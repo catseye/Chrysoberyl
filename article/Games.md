@@ -122,6 +122,7 @@ and immutable data in ES5 JavaScript.
 *   genre: Roguelike
 *   inception-date: Aug 2012
 *   reference distribution: [Dungeons of Ekileugor distribution](https://catseye.tc/distribution/Dungeons_of_Ekileugor_distribution)
+*   online @ [archive.org](https://archive.org/details/dungeons-of-ekileugor)
 
 _Dungeons of Ekileugor_ is a roguelike written for the [Commodore VIC-20][],
 which, despite the limitations of that platform, supports a respectable
