@@ -115,7 +115,7 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   script-root: ../modules/html5-gewgaws/cheshire-text/yoob/
 *   style: article { margin: 0; } #installation { padding: 2em; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cheshire_Text)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20221207204431/https://catseye.tc/installation/Cheshire_Text
 
 As if there aren't enough remixes of Lewis Carroll's works already.
 
@@ -161,7 +161,7 @@ a floppy disk somehow...
 *   script-root: ../modules/backtracking-wang-tiler/src/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-440x440.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Backtracking_Wang_Tiler)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230627214240/https://catseye.tc/installation/Backtracking_Wang_Tiler
 
 For more information on Wang tiles, see
 [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
@@ -1651,6 +1651,7 @@ Then it will generate some of its own.
 *   style: #installation svg { display: inline-block; height: 600px; width: 600px; }
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
+*   webarchive: https://web.archive.org/web/20230519035027/https://catseye.tc/installation/Maze_Clouds
 
 It implements a simple generative technique to generate mazy, cloudy forms.
 
@@ -1670,6 +1671,7 @@ controls will only affect the appearance of the current maze cloud.
 *   script-root: ../modules/html5-gewgaws/multicolouralism/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Multicolouralism)
+*   webarchive: https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Multicolouralism
 
 Each frame, the colour of each cell is chosen randomly from the set
 {cyan, magenta, yellow, white}.  The probability of each of the
@@ -1694,6 +1696,7 @@ of vision, focus and peripheral vision...)
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-600x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Noise_to_Signal_No._1)
+*   webarchive: https://web.archive.org/web/20210411134253/https://catseye.tc/installation/Noise_to_Signal_No._1
 
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
@@ -1709,6 +1712,7 @@ a source image randomly onto either panel.
 *   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
+*   webarchive: https://web.archive.org/web/20230728094421/https://catseye.tc/installation/Pixed-Point
 
 As you adjust the parameters, the computer will attempt to make
 the displayed image self-describing.
@@ -1728,6 +1732,7 @@ but there's no guarantee, you see.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-640x390.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Prairie)
+*   webarchive: https://web.archive.org/web/20230127213802/https://catseye.tc/installation/Prairie
 
 Instructions:
 
@@ -1746,6 +1751,7 @@ continue indefinitely.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-800x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Progression)
+*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Progression
 
 Instructions:
 
@@ -1763,6 +1769,7 @@ eventually become a static form, but it will take a long time to do so.
 *   script-root: ../modules/html5-gewgaws/radialjective/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Radialjective)
+*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Radialjective
 
 Instructions:
 
@@ -1781,6 +1788,7 @@ continue indefinitely.
 *   style: #installation canvas { background-color: black; }
 *   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Rigamaroads)
+*   webarchive: https://web.archive.org/web/20220810232816/https://catseye.tc/installation/Rigamaroads
 
 Instructions:
 
@@ -1798,6 +1806,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/semicircle-jam/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Semicircle_Jam)
+*   webarchive: TK
 
 Instructions:
 
@@ -1815,6 +1824,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/spadgets/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Spadgets)
+*   webarchive: TK
 
 Instructions:
 
@@ -1832,6 +1842,7 @@ instantaneous.)  It will stop when it is finished.
 *   script-root: ../modules/html5-gewgaws/tentacles-undamped/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Tentacles,_Undamped)
+*   webarchive: TK
 
 Instructions:
 
@@ -1848,6 +1859,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/text-uniquifier/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Text_Uniquifier)
+*   webarchive: TK
 
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
@@ -1873,6 +1885,7 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   javascript-urls: ../modules/html5-gewgaws/the-frame/the-frame.js
 *   launch-command: launch('../modules/html5-gewgaws/the-frame/yoob/', 'installation', { imgURL: '../modules/html5-gewgaws/the-frame/the-frame.png' });
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Frame)
+*   webarchive: https://web.archive.org/web/20230728100049/https://catseye.tc/installation/The_Frame
 
 Note 1. Green things can be dragged.  
 Note 2. Due to technical limitations, things cannot be dragged off
@@ -1889,6 +1902,7 @@ of the computer screen.
 *   script-root: ../modules/html5-gewgaws/the-judgment-of-paris/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Judgment_of_Paris)
+*   webarchive: TK
 
 Instructions:
 
@@ -1905,6 +1919,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/two-fifty-six/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Two_Fifty_Six)
+*   webarchive: TK
 
 Try adjusting the Speed, Variety, and Noise settings to affect how the
 gewgaw is displayed.  Varieties that are powers of two (2, 4, 8, 16...)
@@ -1922,6 +1937,7 @@ changed.
 *   script-root: ../modules/html5-gewgaws/uncle-ankur/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Uncle_Ankur)
+*   webarchive: TK
 
 Instructions:
 
@@ -1939,6 +1955,7 @@ continue indefinitely.
 *   script-root: ../modules/html5-gewgaws/woman-on-film/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](https://catseye.tc/ix/Woman_on_Film)
+*   webarchive: https://web.archive.org/web/20220814011250/https://catseye.tc/installation/Woman_on_Film
 
 Use the navigation buttons to traverse the space of the work.
 
