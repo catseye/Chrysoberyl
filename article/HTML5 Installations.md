@@ -430,7 +430,7 @@ provide your own configuration.
 *   script-root: ../modules/noit-o-mnain-worb/impl/worb.js/src/
 *   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/noit_o'_mnain_worb)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035125/https://catseye.tc/installation/noit_o'_mnain_worb
 
 Instructions:
 
@@ -509,7 +509,7 @@ You might also want to read
 *   script-root: ../modules/Etcha/impl/etcha.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Etcha)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20150926101404/https://catseye.tc/installation/Etcha
 
 It is implemented in [Javascript][], using [yoob.js][].
 
@@ -556,7 +556,7 @@ You might also want to read
 *   script-root: ../modules/Gemooy/src/
 *   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 100%; height: 420px; background-color: gainsboro; border: 1px solid black; overflow: scroll; scroll-behavior: auto; scrollbar-width: auto; scrollbar-color: rgb(23, 38, 182) rgb(162, 170, 238); } canvas { background-color: white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Gemooy)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035049/https://catseye.tc/installation/Gemooy
 
 It is implemented in [Javascript][], using [yoob.js][].
 
@@ -718,7 +718,7 @@ You might also want to read
 *   launch-command: launch('../modules/pixley/impl/pixley.js/', 'installation', { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' });
 *   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .execution-panel pre { max-width: 80em; min-height: 3em; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixley)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20160506063415/https://catseye.tc/installation/Pixley
 
 Instructions:
 
@@ -1191,7 +1191,7 @@ a floppy disk somehow...
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
 *   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230728141933/https://catseye.tc/installation/A_Minimalist_Critique_of_Tetris
 
 Instructions:
 
@@ -1208,7 +1208,7 @@ Just sit back and watch the animation that the computer generates.
 *   script-root: ../modules/html5-gewgaws/a-non-random-walk/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Non-Random_Walk)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230728142413/https://catseye.tc/installation/A_Non-Random_Walk
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
@@ -1236,7 +1236,7 @@ the entire page first.
 *   javascript-urls: ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
 *   launch-command: launch('../modules/html5-gewgaws/art-restoration-simulator/yoob/', 'installation', { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') });
 *   online @ [catseye.tc](https://catseye.tc/ix/Art_Restoration_Simulator)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035024/https://catseye.tc/installation/Art_Restoration_Simulator
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
@@ -1806,7 +1806,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/semicircle-jam/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Semicircle_Jam)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230127200407/https://catseye.tc/installation/Semicircle_Jam
 
 Instructions:
 
@@ -1824,7 +1824,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/spadgets/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Spadgets)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Spadgets
 
 Instructions:
 
@@ -1842,7 +1842,7 @@ instantaneous.)  It will stop when it is finished.
 *   script-root: ../modules/html5-gewgaws/tentacles-undamped/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Tentacles,_Undamped)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230127213426/https://catseye.tc/installation/Tentacles,_Undamped
 
 Instructions:
 
@@ -1859,7 +1859,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/text-uniquifier/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Text_Uniquifier)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Text_Uniquifier
 
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
@@ -1902,7 +1902,7 @@ of the computer screen.
 *   script-root: ../modules/html5-gewgaws/the-judgment-of-paris/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Judgment_of_Paris)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035106/https://catseye.tc/installation/The_Judgment_of_Paris
 
 Instructions:
 
@@ -1919,7 +1919,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/two-fifty-six/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Two_Fifty_Six)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20220814003618/https://catseye.tc/installation/Two_Fifty_Six
 
 Try adjusting the Speed, Variety, and Noise settings to affect how the
 gewgaw is displayed.  Varieties that are powers of two (2, 4, 8, 16...)
@@ -1937,7 +1937,7 @@ changed.
 *   script-root: ../modules/html5-gewgaws/uncle-ankur/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Uncle_Ankur)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20220814011927/https://catseye.tc/installation/Uncle_Ankur
 
 Instructions:
 
