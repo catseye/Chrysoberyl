@@ -1269,7 +1269,7 @@ Changing the number of segments or rings will automatically re-roll the knots.
 *   javascript-urls: ../modules/html5-gewgaws/black-hole-poem/black-hole-poem.js
 *   script-root: ../modules/html5-gewgaws/black-hole-poem/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Black_Hole_Poem)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20210121141240/https://catseye.tc/installation/Black_Hole_Poem
 
 Darker-beige squares can be dragged with your mouse or your finger
 (for what good it will do you.)
@@ -1381,7 +1381,7 @@ process.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-800x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Circus_Xamulus)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Circus_Xamulus
 
 Simply wait, and the rectangle will fill up with randomly-sized circles
 (although it will not become entirely full).
@@ -1491,7 +1491,7 @@ The animation is simply a zooming out and back in on the spiral.
 *   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; } #about_panel p { line-height: 1.5em; }
 *   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](https://catseye.tc/ix/Fingerspelling)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20210411135109/https://catseye.tc/installation/Fingerspelling
 
 If you have a touchscreen, prod the lavender area of the screen with your
 finger.  If you don't have a touchscreen, you may simulate this action
@@ -1507,7 +1507,7 @@ with your mouse pointer.
 *   javascript-urls: ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
 *   script-root: ../modules/html5-gewgaws/heronsis-hermnonicii/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Heronsis_hermnonicii)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230127213920/https://catseye.tc/installation/Heronsis_hermnonicii
 
 *Warning: the following may contain tedious and/or glib
 background and/or analysis.*
