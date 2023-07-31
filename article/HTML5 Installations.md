@@ -509,7 +509,7 @@ You might also want to read
 *   script-root: ../modules/Etcha/impl/etcha.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Etcha)
-*   webarchive: https://web.archive.org/web/20150926101404/https://catseye.tc/installation/Etcha
+*   webarchive: https://web.archive.org/web/20230731170228/https://catseye.tc/installation/Etcha
 
 It is implemented in [Javascript][], using [yoob.js][].
 
@@ -638,7 +638,7 @@ You might also want to read
 *   javascript-urls: ../modules/matchbox/src/matchbox-launcher.js
 *   launch-command: launch('../modules/matchbox/src/', 'installation', { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Matchbox)
-*   webarchive: https://web.archive.org/web/20230728084216/https://catseye.tc/installation/Matchbox (BUT WITH PROBLEMS)
+*   webarchive: https://web.archive.org/web/20230728084216/https://catseye.tc/installation/Matchbox
 
 Instructions:
 
@@ -1095,7 +1095,7 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   script-root: ../modules/Wunnel/impl/wunnel.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Wunnel)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230728141403/https://catseye.tc/installation/Wunnel
 
 Instructions:
 
