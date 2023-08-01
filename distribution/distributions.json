@@ -2432,6 +2432,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/matchbox-1.0.zip",
                 "version": "1.0"
+            },
+            {
+                "revision": "2023.0801",
+                "url": "https://catseye.tc/distfiles/matchbox-1.0-2023.0801.zip",
+                "version": "1.0"
             }
         ],
         "reponame": "Matchbox",
@@ -3400,6 +3405,11 @@
             {
                 "revision": "2021.0728",
                 "url": "https://catseye.tc/distfiles/schroedingers-game-of-life-1.0-2021.0728.zip",
+                "version": "1.0"
+            },
+            {
+                "revision": "2023.0801",
+                "url": "https://catseye.tc/distfiles/schroedingers-game-of-life-1.0-2023.0801.zip",
                 "version": "1.0"
             }
         ],

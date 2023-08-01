@@ -406,8 +406,8 @@ You may wish to read the definition of this cellular automaton:
 *   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/schroedingers-game-of-life/impl/slife.js/src/slife.js
-*   launch-command: launch('../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/', 'installation', { 'sourceRoot': '../modules/schroedingers-game-of-life/eg/' });
+*   javascript-urls: ../modules/schroedingers-game-of-life/eg/examplePrograms.jsonp.js,../modules/schroedingers-game-of-life/impl/slife.js/src/slife.js
+*   launch-command: launch('../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/', 'installation', {});
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
 *   webarchive: https://web.archive.org/web/20230728082123/https://catseye.tc/installation/Schr%C3%B6dinger%27s_Game_of_Life
@@ -430,7 +430,7 @@ provide your own configuration.
 *   script-root: ../modules/noit-o-mnain-worb/impl/worb.js/src/
 *   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/noit_o'_mnain_worb)
-*   webarchive: https://web.archive.org/web/20230519035125/https://catseye.tc/installation/noit_o'_mnain_worb
+*   webarchive: https://web.archive.org/web/20230519035125/https://catseye.tc/installation/noit_o%27_mnain_worb
 
 Instructions:
 
@@ -635,8 +635,8 @@ You might also want to read
 *   interactive: false
 *   animated: true
 *   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/matchbox/src/matchbox-launcher.js
-*   launch-command: launch('../modules/matchbox/src/', 'installation', { 'sourceRoot': '../modules/matchbox/eg/', 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
+*   javascript-urls: ../modules/Matchbox/eg/examplePrograms.jsonp.js,../modules/Matchbox/src/matchbox-launcher.js
+*   launch-command: launch('../modules/matchbox/src/', 'installation', { 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Matchbox)
 *   webarchive: https://web.archive.org/web/20230728084216/https://catseye.tc/installation/Matchbox
 
