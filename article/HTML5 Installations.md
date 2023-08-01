@@ -181,7 +181,7 @@ the entry for [Backtracking Wang Tiler][].
 *   script-root: ../modules/braktif/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Braktif)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230801101804/https://catseye.tc/installation/Braktif
 
 Instructions:
 
@@ -291,7 +291,7 @@ organic-seeming emergent motion.
 *   script-root: ../modules/circute/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Circute)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230801101514/https://catseye.tc/installation/Circute
 
 Instructions:
 
@@ -336,7 +336,7 @@ dragging on the playfield will scroll it.  (Possibly not working right now)
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jaccia)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230801102419/https://catseye.tc/installation/Jaccia
 
 Instructions:
 
@@ -362,7 +362,7 @@ You may also wish to check out this automaton's close relative,
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jacciata)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230801102911/https://catseye.tc/installation/Jacciata
 
 Instructions:
 
@@ -388,7 +388,7 @@ You may also wish to check out this automaton's close relative,
 *   script-root: ../modules/redgreen/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/REDGREEN)
-*   webarchive: TK
+*   webarchive: https://web.archive.org/web/20230801103132/https://catseye.tc/installation/REDGREEN
 
 Instructions:
 
@@ -410,7 +410,7 @@ You may wish to read the definition of this cellular automaton:
 *   launch-command: launch('../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/', 'installation', {});
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
-*   webarchive: https://web.archive.org/web/20230728082123/https://catseye.tc/installation/Schr%C3%B6dinger%27s_Game_of_Life
+*   webarchive: https://web.archive.org/web/20230801103543/https://catseye.tc/installation/Schr%C3%B6dinger%27s_Game_of_Life
 
 Instructions:
 
@@ -638,7 +638,7 @@ You might also want to read
 *   javascript-urls: ../modules/Matchbox/eg/examplePrograms.jsonp.js,../modules/Matchbox/src/matchbox-launcher.js
 *   launch-command: launch('../modules/matchbox/src/', 'installation', { 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Matchbox)
-*   webarchive: https://web.archive.org/web/20230728084216/https://catseye.tc/installation/Matchbox
+*   webarchive: https://web.archive.org/web/20230801103718/https://catseye.tc/installation/Matchbox
 
 Instructions:
 
