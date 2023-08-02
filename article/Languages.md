@@ -508,6 +508,7 @@ Apple ][+-specific instructions.
 *   paradigms: Imperative, Self-modifying
 *   reference-distribution: [SMITH distribution](https://catseye.tc/distribution/SMITH_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
+*   online @ [archive.org](https://archive.org/details/smith-2.0l-dos)
 
 Sample program:
 
@@ -595,6 +596,7 @@ name SQUISHY was proposed and (somewhat unfortunately) stuck.
 *   paradigms: 2-dimensional, Maze-space-rewriting
 *   reference-distribution: [HUNTER distribution](https://catseye.tc/distribution/HUNTER_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/HUNTER)
+*   online @ [archive.org](https://archive.org/details/hunter-rel_1_0_2002_0126-dos)
 
 Sample program:
 
@@ -675,6 +677,7 @@ Broken.
 *   paradigms: Imperative, Non-deterministic
 *   reference-distribution: [Strelnokoff distribution](https://catseye.tc/distribution/Strelnokoff_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Strelnokoff)
+*   online @ [archive.org](https://archive.org/details/strelnokoff-1.0-2001.0324-dos)
 
 Sample program:
 
@@ -784,6 +787,7 @@ in the grid, and therefore rules can match and rewrite other rules.
 *   paradigms: Imperative, Regular-expression-based
 *   reference-distribution: [Version distribution](https://catseye.tc/distribution/Version_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Version)
+*   online @ [archive.org](https://archive.org/details/version-1.0-2001.1211-dos)
 
 Sample program:
 
