@@ -20,7 +20,7 @@ you're looking for here, try those lists as well.
 *   paradigms: Self-modifying
 *   reference-distribution: [SMETANA distribution](https://catseye.tc/distribution/SMETANA_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample configuration:
 
@@ -185,7 +185,7 @@ REDGREEN is a cellular automaton that simulates a little
 *   reference-distribution: [noit o' mnain worb distribution](https://catseye.tc/distribution/noit_o'_mnain_worb_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/noit_o'_mnain_worb)
 *   online @ [catseye.tc](https://catseye.tc/installation/noit_o'_mnain_worb)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample configuration:
 
@@ -240,7 +240,7 @@ it's so lossy that it has more value as just a neat toy to watch.
 *   reference-distribution: [Circute distribution](https://catseye.tc/distribution/Circute_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Circute)
 *   online @ [catseye.tc](https://catseye.tc/installation/Circute)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample configuration:
 

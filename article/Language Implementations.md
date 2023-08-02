@@ -144,7 +144,7 @@ an accident.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -156,7 +156,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -168,7 +168,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -180,7 +180,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -192,7 +192,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -204,7 +204,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -216,7 +216,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -228,7 +228,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -240,7 +240,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -252,7 +252,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: Jun 27, 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -264,7 +264,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -276,7 +276,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 
@@ -288,7 +288,7 @@ Implemented as part of yoob.
 *   host language: [Java][]
 *   inception date: May 2011
 *   in distribution: [yoob distribution](https://catseye.tc/distribution/yoob_distribution)
-*   jnlp @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Implemented as part of yoob.
 

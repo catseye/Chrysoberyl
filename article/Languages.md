@@ -102,7 +102,7 @@ wherein it is defined thusly:
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Befunge-93 distribution](https://catseye.tc/distribution/Befunge-93_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
 
@@ -744,7 +744,7 @@ The sole design principle was to entirely eliminate word order.
 *   paradigms: Grid-rewriting, Reflective
 *   reference-distribution: [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
 
@@ -1614,7 +1614,7 @@ safety and optimization considerations.
 *   reference-distribution: [Etcha distribution](https://catseye.tc/distribution/Etcha_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
 *   online @ [catseye.tc](https://catseye.tc/installation/Etcha)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
 
@@ -1821,7 +1821,7 @@ typing, and only-conjectural Turing completeness.
 *   reference-distribution: [Gemooy distribution](https://catseye.tc/distribution/Gemooy_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
 *   online @ [catseye.tc](https://catseye.tc/installation/Gemooy)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
 
@@ -1943,7 +1943,7 @@ were previously erased after execution.
 *   reference-distribution: [Wunnel distribution](https://catseye.tc/distribution/Wunnel_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
 *   online @ [catseye.tc](https://catseye.tc/installation/Wunnel)
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
 

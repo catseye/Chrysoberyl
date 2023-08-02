@@ -262,19 +262,20 @@ Start application), and to make it easy for designers to rapidly
 implement and showcase their esolangs.
 
 It has an article on the esowiki, [yoob](http://esolangs.org/wiki/yoob),
-but being written in Java, with the intent of being distributed as an
-applet, it's largely considered deprecated these days.
+but being written with the intent of being distributed as a Java
+applet, it's considered deprecated these days.
 
-However, it can still be started from a web page, if you have Java
-Web Start installed — so you can still see it in action
-[here](https://catseye.tc/installation/yoob).
+However, it can still be run on any computer with a Java JRE (version 1.7 or
+greater), and can even still be started from a web page if you have Java
+Web Start installed.  So if you have these things, you can still see it in
+action from [its item on the Internet Archive](https://archive.org/details/yoob-rel_0_3_2018_1128).
 
 #### Implementation: tc.catseye.yoob
 
 *   reference: true
 *   license: Public Domain
 *   host-language: [Java][]
-*   online @ [catseye.tc](https://catseye.tc/installation/yoob)
+*   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Links
 -----
