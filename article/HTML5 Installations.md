@@ -24,7 +24,7 @@ more machine-read than human-read, but you can just skip over those.
 *   launch-command: launch({ container: document.getElementById("installation") });
 *   inline-description: below
 *   online @ [catseye.tc](https://catseye.tc/ix/Cosmos_Boulders)
-*   webarchive: https://web.archive.org/web/20230519035046/https://catseye.tc/installation/Cosmos_Boulders
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035046/https://catseye.tc/installation/Cosmos_Boulders)
 
 _Cosmos Boulders_ is an arcade-style HTML5 minigame built with reducers
 and immutable data in ES5 JavaScript.
@@ -52,7 +52,7 @@ the canvas to make sure it's got the keyboard focus.
 *   javascript-urls: ../modules/super-wumpus-land/impl/swl.js/src/swl.js
 *   script-root: ../modules/super-wumpus-land/impl/swl.js/src/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Super_Wumpus_Land)
-*   webarchive: https://web.archive.org/web/20220814010923/https://catseye.tc/installation/Super_Wumpus_Land
+*   archived @ [web.archive.org](https://web.archive.org/web/20220814010923/https://catseye.tc/installation/Super_Wumpus_Land)
 
 It is playable with keyboard only.  It will therefore not be playable
 on most mobile devices, as they lack keyboards.
@@ -71,7 +71,7 @@ click in it first (it's focusable.)
 *   script-root: ../modules/the-new-gamerly-realism/src/
 *   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_New_Gamerly_Realism)
-*   webarchive: https://web.archive.org/web/20230519035045/https://catseye.tc/installation/The_New_Gamerly_Realism
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035045/https://catseye.tc/installation/The_New_Gamerly_Realism)
 
 #### Background
 
@@ -115,7 +115,7 @@ console and typing `BACKGROUND_COLOR='green'`.
 *   script-root: ../modules/html5-gewgaws/cheshire-text/yoob/
 *   style: article { margin: 0; } #installation { padding: 2em; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Cheshire_Text)
-*   webarchive: https://web.archive.org/web/20221207204431/https://catseye.tc/installation/Cheshire_Text
+*   archived @ [web.archive.org](https://web.archive.org/web/20221207204431/https://catseye.tc/installation/Cheshire_Text)
 
 As if there aren't enough remixes of Lewis Carroll's works already.
 
@@ -134,7 +134,7 @@ and you may be pleasantly surprised.
 *   mediums: [x86 machine code][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../static/distfiles/befos-0.10.img
 *   online @ [catseye.tc](https://catseye.tc/ix/BefOS)
-*   webarchive: https://web.archive.org/web/20230127142145/https://catseye.tc/installation/BefOS
+*   archived @ [web.archive.org](https://web.archive.org/web/20230127142145/https://catseye.tc/installation/BefOS)
 
 It runs on a web page thanks to the
 [HTML5][]-based [IBM PC compatible][] emulator, [v86][].
@@ -161,7 +161,7 @@ a floppy disk somehow...
 *   script-root: ../modules/backtracking-wang-tiler/src/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-440x440.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Backtracking_Wang_Tiler)
-*   webarchive: https://web.archive.org/web/20230627214240/https://catseye.tc/installation/Backtracking_Wang_Tiler
+*   archived @ [web.archive.org](https://web.archive.org/web/20230627214240/https://catseye.tc/installation/Backtracking_Wang_Tiler)
 
 For more information on Wang tiles, see
 [the Wikipedia article on Wang tiles](http://en.wikipedia.org/wiki/Wang_tile).
@@ -181,7 +181,7 @@ the entry for [Backtracking Wang Tiler][].
 *   script-root: ../modules/braktif/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Braktif)
-*   webarchive: https://web.archive.org/web/20230801101804/https://catseye.tc/installation/Braktif
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801101804/https://catseye.tc/installation/Braktif)
 
 Instructions:
 
@@ -203,7 +203,7 @@ You may wish to read the definition of this cellular automaton:
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Burro)
-*   webarchive: https://web.archive.org/web/20230727094619/https://catseye.tc/installation/Burro
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094619/https://catseye.tc/installation/Burro)
 
 Technically, it is `Burro.lhs` (the reference implementation
 of Burro, written in Literate [Haskell][]) compiled to [Javascript][]
@@ -231,7 +231,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
-*   webarchive: https://web.archive.org/web/20230727094508/https://catseye.tc/installation/Carriage
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094508/https://catseye.tc/installation/Carriage)
 
 Technically, it is `Language.Carriage` (the reference implementation
 of Carriage, written in [Haskell][]) compiled to [Javascript][]
@@ -259,7 +259,7 @@ You might also want to read
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid red }
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Chzrxl)
-*   webarchive: https://web.archive.org/web/20230519035023/https://catseye.tc/installation/Chzrxl
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035023/https://catseye.tc/installation/Chzrxl)
 
 Instructions:
 
@@ -291,7 +291,7 @@ organic-seeming emergent motion.
 *   script-root: ../modules/circute/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Circute)
-*   webarchive: https://web.archive.org/web/20230801101514/https://catseye.tc/installation/Circute
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801101514/https://catseye.tc/installation/Circute)
 
 Instructions:
 
@@ -314,7 +314,7 @@ You may wish to read the definition of this cellular automaton:
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-640x480.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Cyclobots)
-*   webarchive: https://web.archive.org/web/20230519035008/https://catseye.tc/installation/Cyclobots
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035008/https://catseye.tc/installation/Cyclobots)
 
 Instructions:
 
@@ -336,7 +336,7 @@ dragging on the playfield will scroll it.  (Possibly not working right now)
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jaccia)
-*   webarchive: https://web.archive.org/web/20230801102419/https://catseye.tc/installation/Jaccia
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801102419/https://catseye.tc/installation/Jaccia)
 
 Instructions:
 
@@ -362,7 +362,7 @@ You may also wish to check out this automaton's close relative,
 *   script-root: ../modules/jaccia/demo/
 *   style: #display_container { display: inline-block; } canvas { background: #ffffff; border: 1px solid black; display: none; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Jacciata)
-*   webarchive: https://web.archive.org/web/20230801102911/https://catseye.tc/installation/Jacciata
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801102911/https://catseye.tc/installation/Jacciata)
 
 Instructions:
 
@@ -388,7 +388,7 @@ You may also wish to check out this automaton's close relative,
 *   script-root: ../modules/redgreen/demo/
 *   style: #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/REDGREEN)
-*   webarchive: https://web.archive.org/web/20230801103132/https://catseye.tc/installation/REDGREEN
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801103132/https://catseye.tc/installation/REDGREEN)
 
 Instructions:
 
@@ -410,7 +410,7 @@ You may wish to read the definition of this cellular automaton:
 *   launch-command: launch('../modules/schroedingers-game-of-life/impl/slife.js/src/yoob/', 'installation', {});
 *   style: label { display: block; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Schrödinger's_Game_of_Life)
-*   webarchive: https://web.archive.org/web/20230801103543/https://catseye.tc/installation/Schr%C3%B6dinger%27s_Game_of_Life
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801103543/https://catseye.tc/installation/Schr%C3%B6dinger%27s_Game_of_Life)
 
 Instructions:
 
@@ -430,7 +430,7 @@ provide your own configuration.
 *   script-root: ../modules/noit-o-mnain-worb/impl/worb.js/src/
 *   style: #load_indicator { border: 1px solid purple; padding: 2px; } #control_panel { text-align: left; display: inline-block; } #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/noit_o'_mnain_worb)
-*   webarchive: https://web.archive.org/web/20230519035125/https://catseye.tc/installation/noit_o%27_mnain_worb
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035125/https://catseye.tc/installation/noit_o%27_mnain_worb)
 
 Instructions:
 
@@ -450,7 +450,7 @@ or create your own.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.emmental" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Emmental)
-*   webarchive: https://web.archive.org/web/20230727094328/https://catseye.tc/installation/Emmental
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094328/https://catseye.tc/installation/Emmental)
 
 Technically, it is `Emmental.hs` (the reference implementation
 of Emmental, written in [Haskell][]) compiled to [Javascript][]
@@ -482,7 +482,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "pop-all-positives.equipage" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Equipage)
-*   webarchive: https://web.archive.org/web/20230727094155/https://catseye.tc/installation/Equipage
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094155/https://catseye.tc/installation/Equipage)
 
 Technically, it is `Language.Equipage` (the reference implementation
 of Equipage, written in [Haskell][]) compiled to [Javascript][]
@@ -509,7 +509,7 @@ You might also want to read
 *   script-root: ../modules/Etcha/impl/etcha.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #playfield_canvas { border: 1px solid blue; margin: 3px; background: white; display: block; } #program_display { border: 1px solid red; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Etcha)
-*   webarchive: https://web.archive.org/web/20230731170228/https://catseye.tc/installation/Etcha
+*   archived @ [web.archive.org](https://web.archive.org/web/20230731170228/https://catseye.tc/installation/Etcha)
 
 It is implemented in [Javascript][], using [yoob.js][].
 
@@ -529,7 +529,7 @@ modify it, and create your own program.
 *   javascript-urls: ../modules/Flobnar/eg/examplePrograms.jsonp.js,../modules/Flobnar/demo/flobnar-hastec-launcher.js,https://static.catseye.tc/generated-js/flobnar-1.0-2019.0328/flobnar.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Flobnar)
-*   webarchive: https://web.archive.org/web/20230727085844/https://catseye.tc/installation/Flobnar
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727085844/https://catseye.tc/installation/Flobnar)
 
 Technically, it is `Flobnar.hs` (the reference implementation
 of Flobnar, written in [Haskell][]) compiled to [Javascript][]
@@ -556,7 +556,7 @@ You might also want to read
 *   script-root: ../modules/Gemooy/src/
 *   style: #installation { text-align: left; margin: 1em; } #canvas_viewport { width: 100%; height: 420px; background-color: gainsboro; border: 1px solid black; overflow: scroll; scroll-behavior: auto; scrollbar-width: auto; scrollbar-color: rgb(23, 38, 182) rgb(162, 170, 238); } canvas { background-color: white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Gemooy)
-*   webarchive: https://web.archive.org/web/20230519035049/https://catseye.tc/installation/Gemooy
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035049/https://catseye.tc/installation/Gemooy)
 
 It is implemented in [Javascript][], using [yoob.js][].
 
@@ -577,7 +577,7 @@ scrollbars to indicate this.  You can still scroll the program display.
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../static/distfiles/freedos-1.1-illgol-floppy-0.1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/ILLGOL)
-*   webarchive: https://web.archive.org/web/20230728081611/https://catseye.tc/installation/ILLGOL
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728081611/https://catseye.tc/installation/ILLGOL)
 
 Instructions:
 
@@ -608,7 +608,7 @@ a floppy disk somehow...
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "hello.mascarpone" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Mascarpone)
-*   webarchive: https://web.archive.org/web/20230727093859/https://catseye.tc/installation/Mascarpone
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727093859/https://catseye.tc/installation/Mascarpone)
 
 Technically, it is `Mascarpone.hs` (the reference implementation
 of Mascarpone, written in [Haskell][]) compiled to [Javascript][]
@@ -638,7 +638,7 @@ You might also want to read
 *   javascript-urls: ../modules/Matchbox/eg/examplePrograms.jsonp.js,../modules/Matchbox/src/matchbox-launcher.js
 *   launch-command: launch('../modules/matchbox/src/', 'installation', { 'workerURL': '../modules/matchbox/src/matchbox-worker.js' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Matchbox)
-*   webarchive: https://web.archive.org/web/20230801103718/https://catseye.tc/installation/Matchbox
+*   archived @ [web.archive.org](https://web.archive.org/web/20230801103718/https://catseye.tc/installation/Matchbox)
 
 Instructions:
 
@@ -663,7 +663,7 @@ browser does not support Web Workers, it may not function correctly.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "count-down.oxcart" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Oxcart)
-*   webarchive: https://web.archive.org/web/20230727093754/https://catseye.tc/installation/Oxcart
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727093754/https://catseye.tc/installation/Oxcart)
 
 Technically, it is `Language.Oxcart` (the reference implementation
 of Oxcart, written in [Haskell][]) compiled to [Javascript][]
@@ -691,7 +691,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "cons.pail" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Pail)
-*   webarchive: https://web.archive.org/web/20230727090712/https://catseye.tc/installation/Pail
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727090712/https://catseye.tc/installation/Pail)
 
 Technically, it is `Pail.lhs` (the reference implementation
 of Pail, written in Literate [Haskell][]) compiled to [Javascript][]
@@ -718,7 +718,7 @@ You might also want to read
 *   launch-command: launch('../modules/pixley/impl/pixley.js/', 'installation', { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' });
 *   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .execution-panel pre { min-height: 1em; white-space: pre-wrap; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixley)
-*   webarchive: https://web.archive.org/web/20160506063415/https://catseye.tc/installation/Pixley
+*   archived @ [web.archive.org](https://web.archive.org/web/20160506063415/https://catseye.tc/installation/Pixley)
 
 Instructions:
 
@@ -771,7 +771,7 @@ console, and the evaluation process never finishing.
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "example.pl-g" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/PL-{GOTO})
-*   webarchive: https://web.archive.org/web/20230727094853/https://catseye.tc/installation/PL-%7BGOTO%7D
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094853/https://catseye.tc/installation/PL-%7BGOTO%7D)
 
 Technically, it is [PL-{GOTO}.NET][] (written in [Haskell][])
 compiled to [Javascript][]
@@ -797,7 +797,7 @@ You might also want to read
 *   javascript-urls: ../modules/Quylthulg/eg/examplePrograms.jsonp.js,../modules/Quylthulg/demo/qlzqqlzuup-hastec-launcher.js,../modules/Quylthulg/demo/qlzqqlzuup.js
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Quylthulg)
-*   webarchive: https://web.archive.org/web/20230727090446/https://catseye.tc/installation/Quylthulg
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727090446/https://catseye.tc/installation/Quylthulg)
 
 Technically, it is `Qlzqqlzuup.hs` (the reference implementation
 of Quylthulg, written in [Haskell][]) compiled to [Javascript][]
@@ -825,7 +825,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fact.robin" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Robin)
-*   webarchive: https://web.archive.org/web/20230727090557/https://catseye.tc/installation/Robin
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727090557/https://catseye.tc/installation/Robin)
 
 Technically, it is `Language.Robin` (the reference implementation
 of Robin, written in [Haskell][]) compiled to [Javascript][]
@@ -855,7 +855,7 @@ to be pasted into the textbox above the Robin code that uses them.
 *   mediums: [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../static/distfiles/freedos-1.0-shelta-1.2-floppy-2.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Shelta)
-*   webarchive: https://web.archive.org/web/20230519035118/https://catseye.tc/installation/Shelta
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035118/https://catseye.tc/installation/Shelta)
 
 It is running under [FreeDOS][] running
 on a web page via the [HTML5][]-based [IBM PC compatible][]
@@ -900,7 +900,7 @@ a floppy disk somehow...
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fsa-accept.tandem" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Tandem)
-*   webarchive: https://web.archive.org/web/20230727090837/https://catseye.tc/installation/Tandem
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727090837/https://catseye.tc/installation/Tandem)
 
 Technically, it is `Language.Tandem` (the reference implementation
 of Tandem, written in [Haskell][]) compiled to [Javascript][]
@@ -929,7 +929,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Velo)
-*   webarchive: https://web.archive.org/web/20230727095710/https://catseye.tc/installation/Velo
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727095710/https://catseye.tc/installation/Velo)
 
 Technically, it is `velo.lua` (an implementation
 of Velo in [Lua][]) running under [Fengari][]
@@ -959,7 +959,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wanda)
-*   webarchive: https://web.archive.org/web/20230519035033/https://catseye.tc/installation/Wanda
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035033/https://catseye.tc/installation/Wanda)
 
 Technically, it is `wanda.lua` (the reference implementation
 of Wanda, in [Lua][]) running under [Fengari][]
@@ -988,7 +988,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation'), initialOption: "reverse0.wagon" });
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/Wagon)
-*   webarchive: https://web.archive.org/web/20230727091017/https://catseye.tc/installation/Wagon
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727091017/https://catseye.tc/installation/Wagon)
 
 Technically, it is `Language.Wagon` (the reference implementation
 of Wagon, written in [Haskell][]) compiled to [Javascript][]
@@ -1017,7 +1017,7 @@ You might also want to read
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #installation { text-align: left; margin: 1em; } #editor { width: auto; } #canvas { border: 1px solid black; margin: 3px; background: white; float: right }
 *   online @ [catseye.tc](https://catseye.tc/ix/Whothm)
-*   webarchive: https://web.archive.org/web/20230727095902/https://catseye.tc/installation/Whothm
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727095902/https://catseye.tc/installation/Whothm)
 
 [Whothm][] is a simple language for describing infinite two-colour bitmapped graphics.
 It is described fully in the documentation in the [Whothm][] distribution.
@@ -1051,7 +1051,6 @@ imagination.
 *   javascript-urls: ../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/wierd-jnc.js
 *   launch-command: launch('../modules/wierd/dialect/wierd-jnc/impl/wierd-jnc.js/src/yoob/', 'installation', { 'sourceRoot': '../modules/wierd/dialect/wierd-jnc/eg/' });
 *   online @ [catseye.tc](https://catseye.tc/ix/Wierd_(John_Colagioia))
-*   webarchive: TK
 
 Instructions:
 
@@ -1071,7 +1070,7 @@ an entirely new program there and run it.
 *   jar-url: https://catseye.tc/applets/yoob.jar
 *   java-command: java -jar yoob.jar -c tc.catseye.yoob.befunge93.Befunge93State/Befunge93
 *   online @ [catseye.tc](https://catseye.tc/ix/yoob)
-*   webarchive: https://archive.org/details/yoob-rel_0_3_2018_1128
+*   archived @ [web.archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 [yoob][] is a public-domain framework for implementing
 [esoteric programming languages][], and allowing them to be
@@ -1095,7 +1094,7 @@ action, and lets you play with all these esolangs online, using Java Web Start.
 *   script-root: ../modules/Wunnel/impl/wunnel.js/src/
 *   style: #installation { text-align: left; margin: 1em; } #display_container { display: flex; } #program_display { display: inline-block; flex: 1 1 auto; } textarea { display: inline-block; flex: 1 1 auto; } #state_display { margin-left: 1em; display: inline-block; flex: 0 1 auto; } #op_table_display { text-align: center; } #tape_display { border: 1px solid black; } #panel_container { display: inline-block; text-align: left; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Wunnel)
-*   webarchive: https://web.archive.org/web/20230728141403/https://catseye.tc/installation/Wunnel
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728141403/https://catseye.tc/installation/Wunnel)
 
 Instructions:
 
@@ -1118,7 +1117,7 @@ will consume them in order, and continue running.
 *   script-root: ../modules/ZOWIE/eg/
 *   inline-description: right
 *   online @ [catseye.tc](https://catseye.tc/ix/ZOWIE)
-*   webarchive: https://web.archive.org/web/20230519035121/https://catseye.tc/installation/ZOWIE
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035121/https://catseye.tc/installation/ZOWIE)
 
 Technically, it is `zowie.py` (the reference implementation
 of ZOWIE, written in [Python][],) running under [Skulpt][]
@@ -1148,7 +1147,7 @@ You might also want to read
 *   mediums: Zz, [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../static/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Zzrk)
-*   webarchive: https://archive.org/details/zzrk_adventure
+*   archived @ [web.archive.org](https://archive.org/details/zzrk_adventure)
 
 It is running on [OpenZz][] under [FreeDOS][] running
 on a web page via the [HTML5][]-based [IBM PC compatible][]
@@ -1191,7 +1190,7 @@ a floppy disk somehow...
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid green }
 *   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Minimalist_Critique_of_Tetris)
-*   webarchive: https://web.archive.org/web/20230728141933/https://catseye.tc/installation/A_Minimalist_Critique_of_Tetris
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728141933/https://catseye.tc/installation/A_Minimalist_Critique_of_Tetris)
 
 Instructions:
 
@@ -1208,7 +1207,7 @@ Just sit back and watch the animation that the computer generates.
 *   script-root: ../modules/html5-gewgaws/a-non-random-walk/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   online @ [catseye.tc](https://catseye.tc/ix/A_Non-Random_Walk)
-*   webarchive: https://web.archive.org/web/20230728142413/https://catseye.tc/installation/A_Non-Random_Walk
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728142413/https://catseye.tc/installation/A_Non-Random_Walk)
 
 Pick a card, any card.  Half are red, half are black.  Each time a
 card is picked, the wheel moves.  The distance moved is always
@@ -1236,7 +1235,7 @@ the entire page first.
 *   javascript-urls: ../modules/html5-gewgaws/art-restoration-simulator/art-restoration-simulator.js
 *   launch-command: launch('../modules/html5-gewgaws/art-restoration-simulator/yoob/', 'installation', { 'artURL': '../modules/html5-gewgaws/art-restoration-simulator/art.jpg', 'controlPanel': document.getElementById('control_panel') });
 *   online @ [catseye.tc](https://catseye.tc/ix/Art_Restoration_Simulator)
-*   webarchive: https://web.archive.org/web/20230519035024/https://catseye.tc/installation/Art_Restoration_Simulator
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035024/https://catseye.tc/installation/Art_Restoration_Simulator)
 
 Use your mouse (or your finger, on a touch device) to restore the artwork.
 
@@ -1255,7 +1254,7 @@ the entire page first.
 *   style: #panel-container { display: inline-block; text-align: right; }
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Bézier_Knots)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/B%C3%A9zier_Knots
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/B%C3%A9zier_Knots)
 
 Changing the number of segments or rings will automatically re-roll the knots.
 
@@ -1269,7 +1268,7 @@ Changing the number of segments or rings will automatically re-roll the knots.
 *   javascript-urls: ../modules/html5-gewgaws/black-hole-poem/black-hole-poem.js
 *   script-root: ../modules/html5-gewgaws/black-hole-poem/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Black_Hole_Poem)
-*   webarchive: https://web.archive.org/web/20210121141240/https://catseye.tc/installation/Black_Hole_Poem
+*   archived @ [web.archive.org](https://web.archive.org/web/20210121141240/https://catseye.tc/installation/Black_Hole_Poem)
 
 Darker-beige squares can be dragged with your mouse or your finger
 (for what good it will do you.)
@@ -1293,7 +1292,7 @@ because that is our best guess at
 *   launch-command: launch('../modules/canvas-feedback/src/', 'installation', { imgUrl: 'http://i.imgur.com/SYFLz1X.jpg' });
 *   style: #installation > div { display: inline-block; vertical-align: top; } #canvas_container { text-align: center; } #canvas_container canvas { display: block; background: white; border: 1px solid black; } #control_panel > div { background: #c0c0c0; text-align: left; min-width: 30em; } #control_panel > div > div { background: #e0e0e0; padding: 3px; text-align: right; } #control_panel > div > div input { width: auto; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Canvas_Feedback)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Canvas_Feedback
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Canvas_Feedback)
 
 _Note: on a mobile device, the experience will be better if you zoom out
 to see the entire page first._
@@ -1330,11 +1329,11 @@ You can minimize frame-dropping by:
 
 *   choosing a relatively small image
 *   finding a sufficiently powerful computer (with sufficiently powerful
-    video hardware, especially) to run it on
+video hardware, especially) to run it on
 *   making sure you have no other programs running, and no other tabs
-    open in your browser
+open in your browser
 *   letting your browser "warm up" a bit after closing other tabs etc.,
-    so that it doesn't have anything pending to clean up after
+so that it doesn't have anything pending to clean up after
 *   **not** moving the mouse pointer.
 
 #### Now my desktop is twisting counter-clockwise!
@@ -1381,7 +1380,7 @@ process.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-800x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Circus_Xamulus)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Circus_Xamulus
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Circus_Xamulus)
 
 Simply wait, and the rectangle will fill up with randomly-sized circles
 (although it will not become entirely full).
@@ -1397,7 +1396,7 @@ Simply wait, and the rectangle will fill up with randomly-sized circles
 *   script-root: ../modules/html5-gewgaws/colourring/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Colourring)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Colourring
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Colourring)
 
 Select a mode from from the MODE dropdown to see the different styles
 that are available.  Once you have picked a style, try changing the
@@ -1415,7 +1414,7 @@ a parameter will cause a new instance of the ring to be generated.
 *   script-root: ../modules/html5-gewgaws/eine-kleine-glitchfraktal/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Eine_kleine_Glitchfraktal)
-*   webarchive: https://web.archive.org/web/20210121152622/https://catseye.tc/installation/Eine_kleine_Glitchfraktal
+*   archived @ [web.archive.org](https://web.archive.org/web/20210121152622/https://catseye.tc/installation/Eine_kleine_Glitchfraktal)
 
 Select a mode from from the MODE dropdown to see different styles
 of glitching applied to the rectangles.
@@ -1431,7 +1430,7 @@ of glitching applied to the rectangles.
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   style: #canvas_viewport { width: 100%; height: 420px; background-color: gainsboro; border: 1px solid blue; overflow: scroll; scroll-behavior: auto; scrollbar-width: auto; scrollbar-color: rgb(23, 38, 182) rgb(162, 170, 238); } textarea { width: 100%; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Erratic_Turtle_Graphics)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Erratic_Turtle_Graphics
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Erratic_Turtle_Graphics)
 
 It's turtle graphics, except there's a small
 margin of error.  You might ask for "Turn right 90 degrees"
@@ -1443,17 +1442,17 @@ many times over, you get a nice pencilly noisy effect.
 There is support for a rudimentary command language similar to
 Logo, for user-created designs.  The commands are:
 
-    fd NUM             move forward this many pixels
-    rt NUM             rotate right this many degrees
-    lt NUM             rotate left this many degrees
-    setxyr NUM NUM     set the coordinates, as a percentage of the
-                       width and height of the canvas
-    shiftxyr NUM NUM   adjust the coordinates, as a percentage of the
-                       width and height of the canvas
-    seterr NUM NUM     set the error rate for rotations and
-                       movements respectively
-    shifterr NUM NUM   adjust the error rate for rotations and
-                       movements respectively
+fd NUM             move forward this many pixels
+rt NUM             rotate right this many degrees
+lt NUM             rotate left this many degrees
+setxyr NUM NUM     set the coordinates, as a percentage of the
+width and height of the canvas
+shiftxyr NUM NUM   adjust the coordinates, as a percentage of the
+width and height of the canvas
+seterr NUM NUM     set the error rate for rotations and
+movements respectively
+shifterr NUM NUM   adjust the error rate for rotations and
+movements respectively
 
 Note that the canvas may be larger than the viewport that it is
 displayed in, and that on mobile, the viewport may not display
@@ -1471,7 +1470,7 @@ scrollbars to indicate this.  You can still scroll the canvas.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-1000x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Fibonacci_Spiral)
-*   webarchive: https://web.archive.org/web/20210126020423/https://catseye.tc/installation/Fibonacci_Spiral (could be a movie)
+*   archived @ [web.archive.org](https://web.archive.org/web/20210126020423/https://catseye.tc/installation/Fibonacci_Spiral (could be a movie)
 
 The semicircles alternate being on the left and the right.  The first
 two terms of the Fibonacci sequence are `1, 1` and these make up the unit
@@ -1491,7 +1490,7 @@ The animation is simply a zooming out and back in on the spiral.
 *   style: body { margin: 0; } article { margin: 0; } #canvas { background: #ccaacc; border: none; } #canvas_container { margin: 0; text-align: inherit; } #about_panel p { line-height: 1.5em; }
 *   viewport: initial-scale=1, user-scalable=no
 *   online @ [catseye.tc](https://catseye.tc/ix/Fingerspelling)
-*   webarchive: https://web.archive.org/web/20210411135109/https://catseye.tc/installation/Fingerspelling
+*   archived @ [web.archive.org](https://web.archive.org/web/20210411135109/https://catseye.tc/installation/Fingerspelling)
 
 If you have a touchscreen, prod the lavender area of the screen with your
 finger.  If you don't have a touchscreen, you may simulate this action
@@ -1507,7 +1506,7 @@ with your mouse pointer.
 *   javascript-urls: ../modules/html5-gewgaws/heronsis-hermnonicii/heronsis-hermnonicii.js
 *   script-root: ../modules/html5-gewgaws/heronsis-hermnonicii/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Heronsis_hermnonicii)
-*   webarchive: https://web.archive.org/web/20230127213920/https://catseye.tc/installation/Heronsis_hermnonicii
+*   archived @ [web.archive.org](https://web.archive.org/web/20230127213920/https://catseye.tc/installation/Heronsis_hermnonicii)
 
 *Warning: the following may contain tedious and/or glib
 background and/or analysis.*
@@ -1534,7 +1533,7 @@ Plus it's fun to click on the red balls.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Hirsute_Miasma)
-*   webarchive: https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Hirsute_Miasma
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Hirsute_Miasma)
 
 The animation will eventually cycle if you're patient (although it won't
 of course cycle exactly, as there is a random element.)  You may enable
@@ -1552,7 +1551,7 @@ the "terminal" option to prevent this cycling.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-600x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Hypongtrochoid)
-*   webarchive: https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Hypongtrochoid
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Hypongtrochoid)
 
 Each box moves with a constant velocity
 relative to the box it is contained in, and bounces around inside it in a
@@ -1571,7 +1570,7 @@ simple at all.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-800x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Kolakoski_Kurve)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Kolakoski_Kurve
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Kolakoski_Kurve)
 
 The segment length can be changed while a curve is being drawn.
 Changing the draw mode will reset the drawing.
@@ -1591,7 +1590,7 @@ happens.)
 *   launch-command: launch({ container: document.getElementById('installation') });
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Latcarf)
-*   webarchive: https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Latcarf
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Latcarf)
 
 Most recursive fractals are created top-down: start with a big thing, add some smaller things to it,
 add some even smaller things to those things, etc.
@@ -1612,7 +1611,6 @@ This is the result of implementing that method.
 *   script-root: ../modules/lexeduct/demo/
 *   style: textarea { width: 30%; } #container { text-align: center; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Lexeduct)
-*   webarchive: TK
 
 By default it is in "live mode", meaning, whenever you change the text in
 the left-side textbox, or whenever you change one of the filters, the
@@ -1634,7 +1632,6 @@ they should operate on, for example.
 *   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_noninverted.png" });
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Markov_Font)
-*   webarchive: TK
 
 Wait a few seconds while it analyzes the characters in the C64 character set.
 Then it will generate some of its own.
@@ -1651,7 +1648,7 @@ Then it will generate some of its own.
 *   style: #installation svg { display: inline-block; height: 600px; width: 600px; }
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Maze_Clouds)
-*   webarchive: https://web.archive.org/web/20230519035027/https://catseye.tc/installation/Maze_Clouds
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035027/https://catseye.tc/installation/Maze_Clouds)
 
 It implements a simple generative technique to generate mazy, cloudy forms.
 
@@ -1671,7 +1668,7 @@ controls will only affect the appearance of the current maze cloud.
 *   script-root: ../modules/html5-gewgaws/multicolouralism/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-400x400.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Multicolouralism)
-*   webarchive: https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Multicolouralism
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Multicolouralism)
 
 Each frame, the colour of each cell is chosen randomly from the set
 {cyan, magenta, yellow, white}.  The probability of each of the
@@ -1696,7 +1693,7 @@ of vision, focus and peripheral vision...)
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-600x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Noise_to_Signal_No._1)
-*   webarchive: https://web.archive.org/web/20210411134253/https://catseye.tc/installation/Noise_to_Signal_No._1
+*   archived @ [web.archive.org](https://web.archive.org/web/20210411134253/https://catseye.tc/installation/Noise_to_Signal_No._1)
 
 The two panels are constructed by randomly distributing the pixels from
 a source image randomly onto either panel.
@@ -1712,7 +1709,7 @@ a source image randomly onto either panel.
 *   launch-command: launch('../modules/html5-gewgaws/pixed-point/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_upp.gif" });
 *   style: #installation canvas { display: inline-block; margin: 2em; } #installation div { display: inline-block; text-align: right; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixed-Point)
-*   webarchive: https://web.archive.org/web/20230728094421/https://catseye.tc/installation/Pixed-Point
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728094421/https://catseye.tc/installation/Pixed-Point)
 
 As you adjust the parameters, the computer will attempt to make
 the displayed image self-describing.
@@ -1732,7 +1729,7 @@ but there's no guarantee, you see.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid blue }
 *   extra-stylesheets: ../stylesheet/mainstage-640x390.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Prairie)
-*   webarchive: https://web.archive.org/web/20230127213802/https://catseye.tc/installation/Prairie
+*   archived @ [web.archive.org](https://web.archive.org/web/20230127213802/https://catseye.tc/installation/Prairie)
 
 Instructions:
 
@@ -1751,7 +1748,7 @@ continue indefinitely.
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-800x200.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Progression)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Progression
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Progression)
 
 Instructions:
 
@@ -1769,7 +1766,7 @@ eventually become a static form, but it will take a long time to do so.
 *   script-root: ../modules/html5-gewgaws/radialjective/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Radialjective)
-*   webarchive: https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Radialjective
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035108/https://catseye.tc/installation/Radialjective)
 
 Instructions:
 
@@ -1788,7 +1785,7 @@ continue indefinitely.
 *   style: #installation canvas { background-color: black; }
 *   extra-stylesheets: ../stylesheet/mainstage-800x800.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Rigamaroads)
-*   webarchive: https://web.archive.org/web/20220810232816/https://catseye.tc/installation/Rigamaroads
+*   archived @ [web.archive.org](https://web.archive.org/web/20220810232816/https://catseye.tc/installation/Rigamaroads)
 
 Instructions:
 
@@ -1806,7 +1803,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/semicircle-jam/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-600x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Semicircle_Jam)
-*   webarchive: https://web.archive.org/web/20230127200407/https://catseye.tc/installation/Semicircle_Jam
+*   archived @ [web.archive.org](https://web.archive.org/web/20230127200407/https://catseye.tc/installation/Semicircle_Jam)
 
 Instructions:
 
@@ -1824,7 +1821,7 @@ it is finished.
 *   script-root: ../modules/html5-gewgaws/spadgets/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-800x600.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Spadgets)
-*   webarchive: https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Spadgets
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035109/https://catseye.tc/installation/Spadgets)
 
 Instructions:
 
@@ -1842,7 +1839,7 @@ instantaneous.)  It will stop when it is finished.
 *   script-root: ../modules/html5-gewgaws/tentacles-undamped/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Tentacles,_Undamped)
-*   webarchive: https://web.archive.org/web/20230127213426/https://catseye.tc/installation/Tentacles,_Undamped
+*   archived @ [web.archive.org](https://web.archive.org/web/20230127213426/https://catseye.tc/installation/Tentacles,_Undamped)
 
 Instructions:
 
@@ -1859,7 +1856,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/text-uniquifier/text-uniquifier.js
 *   script-root: ../modules/html5-gewgaws/text-uniquifier/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Text_Uniquifier)
-*   webarchive: https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Text_Uniquifier
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035107/https://catseye.tc/installation/Text_Uniquifier)
 
 Copy some text of your choosing (from a web page, a local document, etc.)
 and paste it into the text area in the top half of the page.  Then click
@@ -1885,9 +1882,9 @@ free verse), or no breaks at all (output is one long unbroken stream of text.)
 *   javascript-urls: ../modules/html5-gewgaws/the-frame/the-frame.js
 *   launch-command: launch('../modules/html5-gewgaws/the-frame/yoob/', 'installation', { imgURL: '../modules/html5-gewgaws/the-frame/the-frame.png' });
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Frame)
-*   webarchive: https://web.archive.org/web/20230728100049/https://catseye.tc/installation/The_Frame
+*   archived @ [web.archive.org](https://web.archive.org/web/20230728100049/https://catseye.tc/installation/The_Frame)
 
-Note 1. Green things can be dragged.  
+Note 1. Green things can be dragged.
 Note 2. Due to technical limitations, things cannot be dragged off
 of the computer screen.
 
@@ -1902,7 +1899,7 @@ of the computer screen.
 *   script-root: ../modules/html5-gewgaws/the-judgment-of-paris/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/The_Judgment_of_Paris)
-*   webarchive: https://web.archive.org/web/20230519035106/https://catseye.tc/installation/The_Judgment_of_Paris
+*   archived @ [web.archive.org](https://web.archive.org/web/20230519035106/https://catseye.tc/installation/The_Judgment_of_Paris)
 
 Instructions:
 
@@ -1919,7 +1916,7 @@ continue indefinitely.
 *   javascript-urls: ../modules/html5-gewgaws/two-fifty-six/two-fifty-six.js
 *   script-root: ../modules/html5-gewgaws/two-fifty-six/yoob/
 *   online @ [catseye.tc](https://catseye.tc/ix/Two_Fifty_Six)
-*   webarchive: https://web.archive.org/web/20220814003618/https://catseye.tc/installation/Two_Fifty_Six
+*   archived @ [web.archive.org](https://web.archive.org/web/20220814003618/https://catseye.tc/installation/Two_Fifty_Six)
 
 Try adjusting the Speed, Variety, and Noise settings to affect how the
 gewgaw is displayed.  Varieties that are powers of two (2, 4, 8, 16...)
@@ -1937,7 +1934,7 @@ changed.
 *   script-root: ../modules/html5-gewgaws/uncle-ankur/yoob/
 *   extra-stylesheets: ../stylesheet/mainstage-500x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Uncle_Ankur)
-*   webarchive: https://web.archive.org/web/20220814011927/https://catseye.tc/installation/Uncle_Ankur
+*   archived @ [web.archive.org](https://web.archive.org/web/20220814011927/https://catseye.tc/installation/Uncle_Ankur)
 
 Instructions:
 
@@ -1955,7 +1952,7 @@ continue indefinitely.
 *   script-root: ../modules/html5-gewgaws/woman-on-film/yoob/
 *   style: #installation canvas { background-color: #ffffff; border: 1px solid black }
 *   online @ [catseye.tc](https://catseye.tc/ix/Woman_on_Film)
-*   webarchive: https://web.archive.org/web/20220814011250/https://catseye.tc/installation/Woman_on_Film
+*   archived @ [web.archive.org](https://web.archive.org/web/20220814011250/https://catseye.tc/installation/Woman_on_Film)
 
 Use the navigation buttons to traverse the space of the work.
 

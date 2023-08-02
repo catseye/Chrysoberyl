@@ -124,8 +124,9 @@ or `below` to indicate where on the page the description should be shown.
 
 Online.
 
-### webarchive
+### archived
 
-*   optional: false
+*   optional: true
+*   multiple: true
 
-The last known stable archived copy of the installation.
+The last known stable archived copies of the installation.
