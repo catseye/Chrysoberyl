@@ -862,7 +862,7 @@ specified, allowing the language to be [Turing-complete][].
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: C99
+*   host-language: [C99][]
 
 #### Implementation: b_juliet.pl
 
@@ -1030,7 +1030,7 @@ point for branching new languages, than as a useful language in and of itself.
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: C99
+*   host-language: [C99][]
 
 ### Kosheri
 
@@ -1047,7 +1047,7 @@ Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: C99
+*   host-language: [C99][]
 
 ### Burro
 
@@ -1292,7 +1292,7 @@ and abuses it, creating a path that leads only to existential angst and self-des
 
 *   license: BSD license
 *   implementation-type: interpreter
-*   host-language: Scheme
+*   host-language: [Scheme][]
 
 ### Arboretuum
 
@@ -1337,7 +1337,7 @@ however, this idea was not entirely successful.  Regardless, Arboretuum is
 
 *   license: Public Domain
 *   implementation-type: interpreter
-*   host-language: Scheme
+*   host-language: [Scheme][]
 
 ### Treacle
 
@@ -1367,7 +1367,7 @@ _holes_ inside which subpatterns may match at any depth.
 
 *   license: Unknown license
 *   implementation-type: interpreter
-*   host-language: Scheme
+*   host-language: [Scheme][]
 
 ### Quylthulg
 
@@ -1492,7 +1492,7 @@ Sample program:
 
     (let* ((a (lambda (x y) (cons x y)))) (a (quote foo) (quote ())))
 
-Pixley is a very small subset of R5RS Scheme (or, if you prefer, R4RS
+Pixley is a very small subset of R5RS [Scheme][] (or, if you prefer, R4RS
 Scheme), supporting only four datatypes (boolean, cons cell, function, and
 symbol) and only a dozen built-in symbols.  The reference implementation of
 Pixley is written in 124 lines of Pixley (or, if you prefer, 124 lines of
@@ -3130,6 +3130,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Ben Olmstead]: https://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: https://esolangs.org/wiki/BitChanger
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
+[C99]: ../article/Project%20Dependencies.md#c99
 [Carriage]: ../article/Languages.md#carriage
 [Chris Pressey]: ../article/General%20Information.md#chris-pressey
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64
