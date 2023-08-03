@@ -1059,29 +1059,6 @@ Select an example program from the dropdown box and click
 running it.  Or you could clear the textbox and write
 an entirely new program there and run it.
 
-### yoob
-
-*   installation-of: [yoob][]
-*   installed-implementation: tc.catseye.yoob
-*   interactive: true
-*   animated: true
-*   mediums: Java Web Start, HTML5
-*   jnlp-link: https://catseye.tc/applets/yoob_webstart.jnlp
-*   jar-url: https://catseye.tc/applets/yoob.jar
-*   java-command: java -jar yoob.jar -c tc.catseye.yoob.befunge93.Befunge93State/Befunge93
-*   online @ [catseye.tc](https://catseye.tc/ix/yoob)
-*   archived @ [web.archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
-
-[yoob][] is a public-domain framework for implementing
-[esoteric programming languages][], and allowing them to be
-interactively run on programs in a Java application.
-
-Currently, yoob can interpret 21 languages: [1L_AOI][], [1L_a][], [2-ill][], [2L][],
-[Ale][], [BackFlip][], [Befunge-93][], [Black][], [brainfuck][], [Circute][], [Etcha][],
-[Gemooy][], [LNUSP][], [noit o' mnain worb][], [PATH][], [Qdeql][], [Sceql][],
-[SMETANA][], [SNUSP][], [Wunnel][], and [Ypsilax][].  This installation shows yoob in
-action, and lets you play with all these esolangs online, using Java Web Start.
-
 ### Wunnel
 
 *   installation-of: [Wunnel][]
@@ -1147,7 +1124,6 @@ You might also want to read
 *   mediums: Zz, [x86 machine code][], [FreeDOS][], [v86][], [HTML5][]
 *   v86-floppy-image-url: ../static/distfiles/freedos-1.1-zzrk-1.0-2016.0304-floppy-1.img
 *   online @ [catseye.tc](https://catseye.tc/ix/Zzrk)
-*   archived @ [web.archive.org](https://archive.org/details/zzrk_adventure)
 
 It is running on [OpenZz][] under [FreeDOS][] running
 on a web page via the [HTML5][]-based [IBM PC compatible][]
