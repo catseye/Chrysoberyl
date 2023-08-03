@@ -718,7 +718,7 @@ You might also want to read
 *   launch-command: launch('../modules/pixley/impl/pixley.js/', 'installation', { 'workerURL': '../modules/pixley/impl/pixley.js/src/pixley-worker.js' });
 *   style: .flex-container { display: flex; margin-left: 1em; margin-right: 1em; } .execution-panel { display: inline-block; flex: 1 1 auto; } .execution-panel pre { min-height: 1em; white-space: pre-wrap; } .depiction-panel { display: inline-block; flex: 1 1 auto; } canvas { margin-top: 0.5em; margin-bottom: 0.5em; border: 3px solid white; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Pixley)
-*   archived @ [web.archive.org](https://web.archive.org/web/20160506063415/https://catseye.tc/installation/Pixley)
+*   archived @ [web.archive.org](https://web.archive.org/web/20230803111032/https://catseye.tc/installation/Pixley)
 
 Instructions:
 
