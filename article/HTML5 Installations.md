@@ -1611,6 +1611,7 @@ This is the result of implementing that method.
 *   script-root: ../modules/lexeduct/demo/
 *   style: textarea { width: 30%; } #container { text-align: center; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Lexeduct)
+*   archived @ [web.archive.org](https://web.archive.org/web/20230803082801/https://catseye.tc/installation/Lexeduct)
 
 By default it is in "live mode", meaning, whenever you change the text in
 the left-side textbox, or whenever you change one of the filters, the
@@ -1632,6 +1633,7 @@ they should operate on, for example.
 *   launch-command: launch('../modules/html5-gewgaws/markov-font/yoob/', 'installation', { imgUrl: "../static/images/curated/charmaps/c64_noninverted.png" });
 *   style: canvas { width: 18px; height: 18px; } #charset { width: 512px; height: 128px; margin: 10px } #installation { background: #808080; }
 *   online @ [catseye.tc](https://catseye.tc/ix/Markov_Font)
+*   archived @ [web.archive.org](https://web.archive.org/web/20230803092805/https://catseye.tc/installation/Markov_Font)
 
 Wait a few seconds while it analyzes the characters in the C64 character set.
 Then it will generate some of its own.
