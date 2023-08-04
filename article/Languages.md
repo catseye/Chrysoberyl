@@ -98,7 +98,7 @@ wherein it is defined thusly:
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: can simulate some push-down automata
-*   influences: Maentwrog, brainfuck, FALSE
+*   influences: [Maentwrog][], [brainfuck][], [FALSE][]
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Befunge-93 distribution](https://catseye.tc/distribution/Befunge-93_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
@@ -141,7 +141,7 @@ many others.  Cited in the New Hacker's Dictionary.
 *   genre: Esolang
 *   development-stage: not fully complete
 *   computational-class: believed Turing-complete
-*   influences: brainfuck, Befunge-93
+*   influences: [brainfuck][], [Befunge-93][]
 *   paradigms: Stack-based, 2-dimensional, Angular
 *   reference-distribution: [Wierd distribution](https://catseye.tc/distribution/Wierd_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wierd)
@@ -504,7 +504,7 @@ Apple ][+-specific instructions.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: SMETANA
+*   influences: [SMETANA][]
 *   paradigms: Imperative, Self-modifying
 *   reference-distribution: [SMITH distribution](https://catseye.tc/distribution/SMITH_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMITH)
@@ -911,7 +911,7 @@ single-assignment or they're not...)
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: ???
-*   influences: Tamerlane
+*   influences: [Tamerlane][]
 *   paradigms: Graph-rewriting, Imperative
 *   reference-distribution: [GraNoLa/M distribution](https://catseye.tc/distribution/GraNoLa/M_distribution)
 
@@ -937,7 +937,7 @@ same time.
 *   genre: Esolang
 *   development-stage: unfinished
 *   computational-class: ???
-*   influences: Tamerlane
+*   influences: [Tamerlane][]
 *   paradigms: Graph-rewriting
 *   reference-distribution: [Kangaroo Iceberg distribution](https://catseye.tc/distribution/Kangaroo_Iceberg_distribution)
 
@@ -1060,7 +1060,7 @@ Kosheri is a virtual machine design that rose from the ashes of [Bhuna][].
 *   genre: Esolang
 *   development-stage: not fully complete
 *   computational-class: Turing-complete
-*   influences: brainfuck
+*   influences: [brainfuck][]
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Burro distribution](https://catseye.tc/distribution/Burro_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Burro)
@@ -1127,7 +1127,7 @@ of any dreadful precedence table is required!
 *   genre: Esolang
 *   development-stage: not fully complete
 *   computational-class: known not Turing-complete
-*   influences: Burro
+*   influences: [Burro][]
 *   paradigms: Imperative, Algebraic
 *   reference-distribution: [Cabra distribution](https://catseye.tc/distribution/Cabra_distribution)
 
@@ -1154,10 +1154,10 @@ operator).
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: Spoon
+*   influences: [Spoon][]
 *   paradigms: Imperative
 *   reference-distribution: [Specs on Spec distribution](https://catseye.tc/distribution/Specs_on_Spec_distribution)
-*   entry @ [esolangs.org](https://esolangs.org/wiki/You are Reading the Name of this Esolang)
+*   entry @ [esolangs.org](https://esolangs.org/wiki/You%20are%20Reading%20the%20Name%20of%20this%20Esolang)
 
 Sample program:
 
@@ -1246,7 +1246,7 @@ that convert programs between the two forms.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: believed Turing-complete
-*   influences: Emmental
+*   influences: [Emmental][]
 *   paradigms: Meta-circular, Reflective
 *   reference-distribution: [Mascarpone distribution](https://catseye.tc/distribution/Mascarpone_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Mascarpone)
@@ -1350,7 +1350,7 @@ however, this idea was not entirely successful.  Regardless, Arboretuum is
 *   genre: Experimental language
 *   development-stage: mature
 *   computational-class: believed Turing-complete
-*   influences: Arboretuum
+*   influences: [Arboretuum][]
 *   paradigms: Term-rewriting
 *   reference-distribution: [Treacle distribution](https://catseye.tc/distribution/Treacle_distribution)
 
@@ -1609,7 +1609,7 @@ safety and optimization considerations.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: believed Turing-complete
-*   influences: BitChanger
+*   influences: [BitChanger][]
 *   paradigms: Imperative
 *   reference-distribution: [Etcha distribution](https://catseye.tc/distribution/Etcha_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Etcha)
@@ -1654,7 +1654,7 @@ a role similar to the tape head of a Turing machine.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: BitChanger
+*   influences: [BitChanger][], [SMITH][]
 *   paradigms: Imperative, Memory-mapped
 *   reference-distribution: [ZOWIE distribution](https://catseye.tc/distribution/ZOWIE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/ZOWIE)
@@ -1816,7 +1816,7 @@ typing, and only-conjectural Turing completeness.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: Turing-complete
-*   influences: 2-ill, Etcha
+*   influences: [2-ill][], [Etcha][]
 *   paradigms: Imperative
 *   reference-distribution: [Gemooy distribution](https://catseye.tc/distribution/Gemooy_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Gemooy)
@@ -1938,7 +1938,7 @@ were previously erased after execution.
 *   genre: Esolang
 *   development-stage: mature
 *   computational-class: believed Turing-complete
-*   influences: 1L, reMorse
+*   influences: [1L][], [reMorse][]
 *   paradigms: Turning tarpit
 *   reference-distribution: [Wunnel distribution](https://catseye.tc/distribution/Wunnel_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Wunnel)
@@ -3133,6 +3133,8 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Befunge-98]: ../article/Languages.md#befunge-98
 [Ben Olmstead]: https://esolangs.org/wiki/Ben_Olmstead
 [BitChanger]: https://esolangs.org/wiki/BitChanger
+[brainfuck]: https://esolangs.org/wiki/brainfuck
+[Burro]: ../article/Languages.md#burro
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [C99]: ../article/Project%20Dependencies.md#c99
 [Carriage]: ../article/Languages.md#carriage
@@ -3153,6 +3155,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Lua]: ../article/Project%20Dependencies.md#lua
 [Mascarpone]: ../article/Languages.md#mascarpone
 [Marinus]: https://esolangs.org/wiki/User:Marinus
+[Maentwrog]: ../article/Languages.md#maentwrog
 [Pixley]: ../article/Languages.md#pixley
 [Pifxley]: ../article/Languages.md#pifxley
 [P-Normal Pixley]: ../article/Languages.md#p-normal-pixley
@@ -3160,7 +3163,9 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Ruby]: ../article/Project%20Dependencies.md#ruby
 [Rust]: http://www.rust-lang.org/
 [SITU-MON]: ../article/Tools.md#situ-mon
+[SMETANA]: ../article/Automata.md#smetana
 [SMITH]: ../article/Languages.md#smith
+[Spoon]: https://esolangs.org/wiki/Spoon
 [Scheme]: ../article/Project%20Dependencies.md#scheme
 [Tamerlane]: ../article/Languages.md#tamerlane
 [Thue]: https://esolangs.org/wiki/Thue
@@ -3171,7 +3176,6 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [Wierd]: ../article/Languages.md#wierd
 [Wierd (John Colagioia)]: ../article/Languages.md#wierd
 [Wierd (Milo van Handel)]: ../article/Languages.md#wierd
-[brainfuck]: https://esolangs.org/wiki/brainfuck
 [reMorse]: https://esolangs.org/wiki/reMorse
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [Perl]: ../article/Project%20Dependencies.md#perl

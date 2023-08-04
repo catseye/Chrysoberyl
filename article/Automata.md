@@ -20,6 +20,7 @@ you're looking for here, try those lists as well.
 *   paradigms: Self-modifying
 *   reference-distribution: [SMETANA distribution](https://catseye.tc/distribution/SMETANA_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/SMETANA)
+*   online @ [archive.org](https://archive.org/details/smetana-v2004.0227-dos)
 *   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample configuration:
