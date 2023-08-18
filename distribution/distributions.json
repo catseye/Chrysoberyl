@@ -3334,6 +3334,7 @@
         "impllangs": [
             "Python"
         ],
+        "pypi": "samovar-py",
         "reference": true,
         "releases": [
             {
@@ -3360,10 +3361,18 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/samovar-0.5.zip",
                 "version": "0.5"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/samovar-0.6.zip",
+                "version": "0.6"
             }
         ],
         "reponame": "Samovar",
-        "tag-style": "new"
+        "tag-style": "new",
+        "test-requirements": [
+            "Falderal"
+        ]
     },
     "Sbeezg distribution": {
         "entries": [

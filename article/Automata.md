@@ -310,6 +310,7 @@ programming language.
 *   paradigms: String-rewriting
 *   reference-distribution: [Xigxag distribution](https://catseye.tc/distribution/Xigxag_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Xigxag)
+*   online @ [archive.org](https://archive.org/details/xigxag-2007.0602-dos)
 
 Sample configuration:
 
