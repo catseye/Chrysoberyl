@@ -489,6 +489,39 @@ randomly-constructed transformation matrices.
 An interactive, navigable, animated thing based on several tracings of
 a still from a film.
 
+Demos
+-----
+
+### Ribos
+
+*   inception date: April 2007
+*   development-stage: mature
+*   reference distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
+*   reference implementation name: "RIBOS.PRG"
+
+A simple Commodore 64 graphics demo that uses the raster interrupt facility
+of the VIC-II chip: the colour of the border of the screen is inverted,
+but only in the middle part of the screen.  Includes well-commented source
+in 6502 assembly language.
+
+Was previously distributed in the [Ribos distribution](https://catseye.tc/distribution/Ribos_distribution)
+and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
+which have both been discontinued.
+
+### The PETulant Cursor
+
+*   inception date: ca 1989
+*   development-stage: vintage
+*   reference distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
+*   reference implementation name: "BORED CURSOR.ML.PRG"
+*   online @ [archive.org](https://archive.org/details/bored-cursor.ml.prg)
+
+A tiny (44 byte) "display hack" for the Commodore 64.
+
+Was previously distributed in [The PETulant Cursor distribution](https://catseye.tc/distribution/The_PETulant_Cursor_distribution)
+and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
+which have both been discontinued.
+
 ## About these Gewgaws
 
 In [Chrysoberyl][] parlance, a _gewgaw_ is the digital version of a

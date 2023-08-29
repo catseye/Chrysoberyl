@@ -44,6 +44,7 @@ and, of course, awesomer.
 
 *   inception-date: ca 2005
 *   reference-distribution: [DiskSumo distribution](https://catseye.tc/distribution/DiskSumo_distribution)
+*   online @ [archive.org](https://archive.org/details/disksumo)
 
 DiskSumo is a program to transfer disk images off a Commodore 64 over
 the RS-232 port via the XMODEM protocol at 300 baud.
@@ -283,10 +284,12 @@ written in Python.
 *   inception-date: Jul 2015
 *   development-stage: mature
 *   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
+*   online @ [archive.org](https://archive.org/details/situ-mon-c64)
 
 SITU-MON is a machine language monitor for [6502][]-based
 systems, written (by hand!) during RetroChallenge 2015/07 and entered into
-an emulated [Commodore 64][] using [SITU-PAN][].
+an emulated [Commodore 64][] using [SITU-PAN][].  It was in turn used to
+enter [SITU-SOL][].
 
 #### Implementation: SITU-MON (Commodore 64)
 
@@ -302,6 +305,7 @@ an emulated [Commodore 64][] using [SITU-PAN][].
 *   inception-date: Jul 2015
 *   development-stage: mature
 *   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
+*   online @ [archive.org](https://archive.org/details/situ-pan-c64)
 
 SITU-PAN is a *front-panel switches simulator* for the [Commodore 64][].
 It displays 8 virtual LEDs and 8 virtual dip switches on the screen.
@@ -418,40 +422,6 @@ only a `REM`, among a few other modest features.
 *   license: MIT license
 *   host-language: [Python][]
 
-Not-exactly Tools
------------------
-
-More like demos?
-
-### Ribos
-
-*   summary: Well-commented C64 raster interrupt example
-*   inception-date: April 2007
-*   development-stage: mature
-*   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
-
-A simple Commodore 64 graphics demo that uses the raster interrupt facility
-of the VIC-II chip: the colour of the border of the screen is inverted,
-but only in the middle part of the screen.  Includes well-commented source
-in 6502 assembly language.
-
-Was previously distributed in the [Ribos distribution](https://catseye.tc/distribution/Ribos_distribution)
-and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
-which have both been discontinued.
-
-### The PETulant Cursor
-
-*   summary: A tiny C64 "display hack"
-*   inception-date: ca 1989
-*   development-stage: vintage
-*   reference-distribution: [SixtyPical distribution](https://catseye.tc/distribution/SixtyPical_distribution)
-
-A tiny (44 byte) "display hack" for the Commodore 64.
-
-Was previously distributed in [The PETulant Cursor distribution](https://catseye.tc/distribution/The_PETulant_Cursor_distribution)
-and the [C64 Demo Depot distribution](https://catseye.tc/distribution/C64_Demo_Depot_distribution),
-which have both been discontinued.
-
 Archival Tools
 --------------
 
@@ -509,6 +479,7 @@ framework, which is in Java.
 [6502 machine code]: ../article/Project%20Dependencies.md#6502
 [SITU-PAN]: ../article/Tools.md#situ-pan
 [SITU-MON]: ../article/Tools.md#situ-mon
+[SITU-SOL]: ../article/Languages.md#situ-sol
 [Retrocomputing]: https://catseye.tc/article/Retrocomputing
 [Formats]: ../article/Formats.md
 [The Platform]: ../article/Platforms.md#the-cats-eye-technologies-platform

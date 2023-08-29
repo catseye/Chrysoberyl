@@ -107,6 +107,7 @@ could use the mouse to attract/repel them from a chosen point.
 *   paradigms: Bully automaton, 2-dimensional
 *   reference-distribution: [RUBE distribution](https://catseye.tc/distribution/RUBE_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/RUBE)
+*   online @ [archive.org](https://archive.org/details/rube-1.02-dos)
 
 Sample configuration:
 

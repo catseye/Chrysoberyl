@@ -102,6 +102,7 @@ wherein it is defined thusly:
 *   paradigms: Stack-based, 2-dimensional, Self-modifying
 *   reference-distribution: [Befunge-93 distribution](https://catseye.tc/distribution/Befunge-93_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Befunge-93)
+*   online @ [archive.org](https://archive.org/details/bef-2.11-dos)
 *   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
@@ -2304,6 +2305,7 @@ expressing the primitive recursive functions.
 *   paradigms: Imperative
 *   reference-distribution: [Cfluviurrh distribution](https://catseye.tc/distribution/Cfluviurrh_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Cfluviurrh)
+*   online @ [archive.org](https://archive.org/details/cfluviurrh-1.0-2014.0819)
 
 Sample program:
 
@@ -2682,6 +2684,7 @@ which Matchbox can run and show correct.
 *   computational-class: Turing-complete
 *   paradigms: Imperative, Stack-based
 *   reference-distribution: [SITU-SOL distribution](https://catseye.tc/distribution/SITU-SOL_distribution)
+*   online @ [archive.org](https://archive.org/details/situ-sol-c64)
 
 SITU-SOL is a vaguely Forth-like language which was designed and
 implemented (by hand!) during RetroChallenge 2015/07, and entered
