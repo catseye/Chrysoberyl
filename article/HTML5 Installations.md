@@ -1446,7 +1446,7 @@ scrollbars to indicate this.  You can still scroll the canvas.
 *   style: #installation canvas { background-color: #ffffff; border: 2px solid black }
 *   extra-stylesheets: ../stylesheet/mainstage-1000x500.css
 *   online @ [catseye.tc](https://catseye.tc/ix/Fibonacci_Spiral)
-*   archived @ [web.archive.org](https://web.archive.org/web/20210126020423/https://catseye.tc/installation/Fibonacci_Spiral (could be a movie)
+*   archived @ [web.archive.org](https://web.archive.org/web/20210126020423/https://catseye.tc/installation/Fibonacci_Spiral)
 
 The semicircles alternate being on the left and the right.  The first
 two terms of the Fibonacci sequence are `1, 1` and these make up the unit
