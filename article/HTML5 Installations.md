@@ -1,7 +1,6 @@
 HTML5 Installations
 ===================
 
-*   image_url: https://static.catseye.tc/images/illustrations/Perpetual_Motion_Machine.jpg
 *   ok-to-use-as-input-when-creating-a-refdex: false
 
 This is a list of [games][], [platforms][], [automata][], [languages][], and [gewgaws][]
@@ -190,62 +189,6 @@ it. Or click "Edit" to modify an example program, or create your own program.
 
 You may wish to read the definition of this cellular automaton:
 [braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
-
-### Burro
-
-*   installation-of: [Burro][]
-*   installation-description: This is a web-based interpreter for the esoteric programming language [Burro][].
-*   installed-implementation: burro.js
-*   interactive: true
-*   animated: false
-*   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Burro/eg/examplePrograms.jsonp.js,../modules/Burro/demo/burro-hastec-launcher.js,../modules/Burro/demo/burro.js
-*   launch-command: launch({ container: document.getElementById('installation') });
-*   inline-description: right
-*   online @ [catseye.tc](https://catseye.tc/ix/Burro)
-*   archived @ [web.archive.org](https://web.archive.org/web/20230727094619/https://catseye.tc/installation/Burro)
-
-Technically, it is `Burro.lhs` (the reference implementation
-of Burro, written in Literate [Haskell][]) compiled to [Javascript][]
-by the [Haste][] compiler, running in an [HTML5][] document.
-
-Instructions:
-
-Select an example program from the dropdown box and click
-"Run" to run it.  You can also edit the program before
-running it.  Or you could clear the textbox and write
-an entirely new program there and run it.
-
-You might also want to read
-[the description of the Burro programming language](https://catseye.tc/view/Burro/README.md).
-
-### Carriage
-
-*   installation-of: [Carriage][]
-*   installation-description: This is a web-based interpreter for the "purely concatentive" programming language [Carriage][].
-*   installed-implementation: carriage.js
-*   interactive: true
-*   animated: false
-*   mediums: [Javascript][], [HTML5][]
-*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,../modules/Carriage/demo/carriage.js
-*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
-*   inline-description: right
-*   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
-*   archived @ [web.archive.org](https://web.archive.org/web/20230727094508/https://catseye.tc/installation/Carriage)
-
-Technically, it is `Language.Carriage` (the reference implementation
-of Carriage, written in [Haskell][]) compiled to [Javascript][]
-by the [Haste][] compiler, running in an [HTML5][] document.
-
-Instructions:
-
-Select an example program from the dropdown box and click
-"Run" to run it.  You can also edit the program before
-running it.  Or you could clear the textbox and write
-an entirely new program there and run it.
-
-You might also want to read
-[the description of the Carriage programming language](https://catseye.tc/view/Carriage/README.md).
 
 ### Chzrxl
 
@@ -437,6 +380,62 @@ Instructions:
 Select an example configuration from the dropdown box,
 then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
+
+### Burro
+
+*   installation-of: [Burro][]
+*   installation-description: This is a web-based interpreter for the esoteric programming language [Burro][].
+*   installed-implementation: burro.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Burro/eg/examplePrograms.jsonp.js,../modules/Burro/demo/burro-hastec-launcher.js,../modules/Burro/demo/burro.js
+*   launch-command: launch({ container: document.getElementById('installation') });
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Burro)
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094619/https://catseye.tc/installation/Burro)
+
+Technically, it is `Burro.lhs` (the reference implementation
+of Burro, written in Literate [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Burro programming language](https://catseye.tc/view/Burro/README.md).
+
+### Carriage
+
+*   installation-of: [Carriage][]
+*   installation-description: This is a web-based interpreter for the "purely concatentive" programming language [Carriage][].
+*   installed-implementation: carriage.js
+*   interactive: true
+*   animated: false
+*   mediums: [Javascript][], [HTML5][]
+*   javascript-urls: ../modules/Carriage/eg/examplePrograms.jsonp.js,../modules/Carriage/demo/hastec-launcher.js,../modules/Carriage/demo/carriage.js
+*   launch-command: launch({ container: document.getElementById('installation'), initialOption: "fun.carriage" });
+*   inline-description: right
+*   online @ [catseye.tc](https://catseye.tc/ix/Carriage)
+*   archived @ [web.archive.org](https://web.archive.org/web/20230727094508/https://catseye.tc/installation/Carriage)
+
+Technically, it is `Language.Carriage` (the reference implementation
+of Carriage, written in [Haskell][]) compiled to [Javascript][]
+by the [Haste][] compiler, running in an [HTML5][] document.
+
+Instructions:
+
+Select an example program from the dropdown box and click
+"Run" to run it.  You can also edit the program before
+running it.  Or you could clear the textbox and write
+an entirely new program there and run it.
+
+You might also want to read
+[the description of the Carriage programming language](https://catseye.tc/view/Carriage/README.md).
 
 ### Emmental
 
@@ -1989,6 +1988,7 @@ the entire page first.
 [Befunge-93]: ../article/Languages.md#befunge-93
 [Black]: https://esolangs.org/wiki/Black
 [Braktif]: ../article/Automata.md#braktif
+[Burro]: ../article/Languages.md#burro
 [Carriage]: ../article/Languages.md#carriage
 [Circute]: ../article/Automata.md#circute
 [Cyclobots]: ../article/Automata.md#cyclobots
@@ -2020,6 +2020,7 @@ the entire page first.
 [SNUSP]: https://esolangs.org/wiki/SNUSP
 [Sceql]: https://esolangs.org/wiki/Sceql
 [Shelta]: ../article/Languages.md#shelta
+[Tandem]: ../article/Languages.md#tandem
 [Velo]: ../article/Languages.md#velo
 [Wanda]: ../article/Languages.md#wanda
 [Wagon]: ../article/Languages.md#wagon
