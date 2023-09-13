@@ -3366,6 +3366,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/samovar-0.6.zip",
                 "version": "0.6"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/samovar-0.6.zip",
+                "version": "0.6"
             }
         ],
         "reponame": "Samovar",
@@ -4125,6 +4130,11 @@
             {
                 "revision": "2019.0326",
                 "url": "https://catseye.tc/distfiles/velo-0.1-2019.0326.zip",
+                "version": "0.1"
+            },
+            {
+                "revision": "2023.0913",
+                "url": "https://catseye.tc/distfiles/velo-0.1-2023.0913.zip",
                 "version": "0.1"
             }
         ],
