@@ -745,6 +745,7 @@ The sole design principle was to entirely eliminate word order.
 *   paradigms: Grid-rewriting, Reflective
 *   reference-distribution: [Ypsilax distribution](https://catseye.tc/distribution/Ypsilax_distribution)
 *   entry @ [esolangs.org](https://esolangs.org/wiki/Ypsilax)
+*   online @ [archive.org](https://archive.org/details/ypsilax-0.9-dos)
 *   jnlp @ [archive.org](https://archive.org/details/yoob-rel_0_3_2018_1128)
 
 Sample program:
