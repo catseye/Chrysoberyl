@@ -79,24 +79,6 @@ style
 
 viewport
 
-### jnlp-link
-
-*   optional: true
-
-JNLP link.
-
-### jar-url
-
-*   optional: true
-
-URL to the JAR file used.
-
-### java-command
-
-*   optional: true
-
-A command you can run locally to run the given JAR.
-
 ### v86-floppy-image-url
 
 *   optional: true
