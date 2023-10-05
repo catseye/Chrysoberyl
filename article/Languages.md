@@ -1696,6 +1696,7 @@ a memory location to mark the beginning or end of a loop or conditional.
 *   paradigms: Imperative
 *   reference-distribution: [Whothm distribution](https://catseye.tc/distribution/Whothm_distribution)
 *   online @ [catseye.tc](https://catseye.tc/installation/Whothm)
+*   jnlp @ [archive.org](https://archive.org/details/jwhothm-rel_1_0_2018_1009)
 
 Sample program:
 
