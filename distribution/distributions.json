@@ -1580,6 +1580,11 @@
                 "revision": "0.0",
                 "url": "https://catseye.tc/distfiles/fountain-0.3.zip",
                 "version": "0.3"
+            },
+            {
+                "revision": "0.0",
+                "url": "https://catseye.tc/distfiles/fountain-0.4.zip",
+                "version": "0.4"
             }
         ],
         "reponame": "Fountain",
