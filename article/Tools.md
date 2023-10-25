@@ -499,7 +499,7 @@ framework, which is in Java.
 [ANSI C]: ../article/Project%20Dependencies.md#ansi-c
 [rsync]: https://rsync.samba.org/
 [poka-yoke]: https://en.wikipedia.org/wiki/Poka-yoke
-[linapple]: ../article/Forks.md#linapple
+[linapple]: https://github.com/linappleii/linapple
 [HTML5]: https://www.w3.org/TR/html5/
 [yoob.js]: ../article/Tools.md#yoobjs
 [NaNoGenMo 2021]: ../article/Events.md#nanogenmo-2021

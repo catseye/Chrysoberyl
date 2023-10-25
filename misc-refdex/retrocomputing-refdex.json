@@ -35,6 +35,9 @@
     "Frotz": {
         "url": "https://www.ifarchive.org/if-archive/infocom/interpreters/frotz/"
     },
+    "linapple": {
+        "url": "https://github.com/linappleii/linapple"
+    },
     "MS-DOS Batchfile": {
         "anchor": "ms-dos", 
         "filename": "article/Project Dependencies.md"

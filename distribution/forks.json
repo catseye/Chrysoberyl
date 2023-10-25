@@ -41,19 +41,11 @@
     },
     "Zplet distribution": {
         "entries": [
-            "Zplet"
+            "ZPlet"
         ],
         "fixed-tag": "catseye",
         "releases": [],
-        "reponame": "Zplet"
-    },
-    "linapple distribution": {
-        "entries": [
-            "linapple"
-        ],
-        "fixed-tag": "catseye",
-        "releases": [],
-        "reponame": "linapple"
+        "reponame": "ZPlet"
     },
     "klaus distribution": {
         "entries": [

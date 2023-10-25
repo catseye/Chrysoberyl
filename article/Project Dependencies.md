@@ -573,6 +573,6 @@ There was also an "Integer Basic".
 [C++]: http://www.open-std.org/jtc1/sc22/wg21/
 [Blurry Memories of DOS Programming]: https://catseye.tc/view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 [IBM PC compatible]: ../article/Project%20Dependencies.md#ibm-pc-compatible
-[linapple]: ../article/Forks.md#linapple
+[linapple]: https://github.com/linappleii/linapple
 [VICE]: https://vice-emu.sourceforge.io/
 

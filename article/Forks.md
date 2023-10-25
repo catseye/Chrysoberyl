@@ -83,19 +83,6 @@ application.
 
 This was for [The Never-Ending Maze][].
 
-### linapple
-
-*   implementation of: [Apple II][]
-*   implementation type: emulator
-*   license: GPL
-*   host language: [C++][]
-*   inception date: 1994 (as AppleWin)
-*   in distribution: [linapple distribution](https://catseye.tc/distribution/linapple_distribution)
-
-An Apple II emulator.  We maintain a fork only to make it work like
-a proper Unix command-line utility and thus play nicely with
-[Funicular][].
-
 Tools
 -----
 
