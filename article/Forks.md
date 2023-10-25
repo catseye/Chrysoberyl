@@ -67,14 +67,14 @@ nothing from the maintainer.  Thus we keep this fork.
 
 Fork began on June 30, 2011.
 
-### Zplet
+### ZPlet
 
 *   implementation of: [Z-Machine][]
 *   implementation type: emulator
 *   license: Artistic License
 *   host language: [Java][]
 *   inception date: Nov 16, 2001
-*   in distribution: [Zplet distribution](https://catseye.tc/distribution/Zplet_distribution)
+*   in distribution: [ZPlet distribution](https://catseye.tc/distribution/Zplet_distribution)
 
 A Z-Machine emulator written in Java.  Originally it ran as an applet,
 but Java applets are pretty much history now.  We modified it so that

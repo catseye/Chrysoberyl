@@ -47,6 +47,9 @@
         "anchor": "z-machine", 
         "filename": "article/Project Dependencies.md"
     },
+    "Zplet": {
+        "url": "https://catseye.tc/article/Forks.md#zplet"
+    },
     "Z80 machine code": {
         "anchor": "z80", 
         "filename": "article/Project Dependencies.md"

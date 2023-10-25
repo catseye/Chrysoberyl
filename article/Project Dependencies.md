@@ -509,8 +509,8 @@ fiction onto a multitude of home computers.
 
 Here are its [specifications documents](http://inform-fiction.org/zmachine/standards/).
 
-Emulators: [Zplet][] is a Java application which emulates a Z-Machine.
-There are other, much better emulators, such as Frotz.
+Emulators: [ZPlet][] is a Java application which emulates a Z-Machine.
+There are other, much better emulators, such as [Frotz][].
 
 Retro Languages
 ---------------
@@ -557,7 +557,8 @@ There was also an "Integer Basic".
 [xmp]: http://xmp.sourceforge.net/
 [Sonant Tracker]: http://www.pouet.net/prod.php?which=53615
 [Sonant Live]: http://sonantlive.bitsnbites.eu/
-[Zplet]: ../article/Forks.md#zplet
+[ZPlet]: ../article/Forks.md#zplet
+[Frotz]: https://www.ifarchive.org/if-archive/infocom/interpreters/frotz/
 [Commodore BASIC 2.0]: ../article/Project%20Dependencies.md#commodore-basic-20
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Commodore 64]: ../article/Project%20Dependencies.md#commodore-64

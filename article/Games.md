@@ -214,7 +214,7 @@ Just follow the "online" link shown above.
 
 You can also download the Z5 story file
 [never-ending-maze-1.0.z5](https://static.catseye.tc/distfiles/never-ending-maze-1.0.z5)
-and run it in [Frotz][], [Zplet][], or some other Z-Machine emulator.
+and run it in [Frotz][], [ZPlet][], or some other Z-Machine emulator.
 
 #### Implementation: never-ending-maze.z5
 
@@ -269,6 +269,6 @@ See also:
 [ANSI Terminal]: ../article/Project%20Dependencies.md#ansi-terminal
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Frotz]: https://www.ifarchive.org/if-archive/infocom/interpreters/frotz/
-[Zplet]: ../article/Forks.md#zplet
+[ZPlet]: ../article/Forks.md#zplet
 [VICE]: https://vice-emu.sourceforge.io/
 

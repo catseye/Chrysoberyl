@@ -176,7 +176,6 @@ based on the defining cultural phenomenon of a generation. (Possibly.)
 [Applesoft BASIC]: ../article/Project%20Dependencies.md#applesoft-basic
 [Blurry Memories of DOS Programming]: ../view/The-Dossier/article/Blurry%20Memories%20of%20DOS%20Programming.md
 [JaC64]: ../article/Forks.md#jac64
-[Zplet]: ../article/Forks.md#zplet
 [Ophis Assembler]: ../article/Project%20Dependencies.md#ophis-assembler
 [Mini Game Compo 2009]: ../article/Events.md#mini-game-compo-2009
 [RetroChallenge 2015/07]: ../article/Events.md#retrochallenge-201507

@@ -1947,7 +1947,7 @@ the entire page first.
 [gewgaws]: ../article/Gewgaws.md
 [platforms]: ../article/Platforms.md
 [JaC64]: ../article/Forks.md#jac64
-[Zplet]: ../article/Forks.md#zplet
+[Zplet]: https://catseye.tc/article/Forks.md#zplet
 [Z-Machine code]: ../article/Project%20Dependencies.md#z-machine
 [Javascript]: ../article/Project%20Dependencies.md#javascript
 [Web Workers]: https://en.wikipedia.org/wiki/Web_worker
