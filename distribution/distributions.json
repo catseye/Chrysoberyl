@@ -2167,7 +2167,6 @@
                 "version": "0.1"
             }
         ],
-        "reponame": "Kosheri",
         "tag-style": "new",
         "test-requirements": [
             "Falderal"
@@ -3784,8 +3783,7 @@
                 "url": "https://catseye.tc/distfiles/tpis-1.0-2014.0819.zip",
                 "version": "1.0"
             }
-        ],
-        "reponame": "TPiS"
+        ]
     },
     "Tamsin distribution": {
         "entries": [
