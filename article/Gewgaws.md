@@ -85,7 +85,7 @@ An application of an analogue-video-like feedback effect to an [HTML5][]
 canvas element, with in-browser controls by which the feedback properties
 can be adjusted.  For some background and an explanation
 of how it works, see
-[its README document](https://github.com/catseye/Canvas-Feedback/).
+[its README document](https://codeberg.org/catseye/Canvas-Feedback#canvas-feedback).
 
 *   implementation name: Canvas Feedback 1K
 *   implementation license: MIT license

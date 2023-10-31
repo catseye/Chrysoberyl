@@ -496,7 +496,7 @@ This is, in essence, the result of applying
 probably be applied to any cellular automaton with similar results.
 
 For a full account of its development, see
-[its README document](https://github.com/catseye/Schroedingers-Game-of-Life/blob/master/README.md).
+[its README document](https://codeberg.org/catseye/Schroedingers-Game-of-Life/#schr%C3%B6dinger-s-game-of-life).
 
 #### Reference Implementation: slife
 
