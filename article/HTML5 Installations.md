@@ -188,7 +188,7 @@ Select an example program from the dropdown box, then click "Start" to run
 it. Or click "Edit" to modify an example program, or create your own program.
 
 You may wish to read the definition of this cellular automaton:
-[braktif.alp](https://github.com/catseye/Braktif/blob/master/src/braktif.alp).
+[braktif.alp](https://codeberg.org/catseye/Braktif/src/branch/master/src/braktif.alp).
 
 ### Chzrxl
 
@@ -243,7 +243,7 @@ then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
 You may wish to read the definition of this cellular automaton:
-[circute.alp](https://github.com/catseye/Circute/blob/master/src/circute.alp).
+[circute.alp](https://codeberg.org/catseye/Circute/src/branch/master/src/circute.alp).
 
 ### Cyclobots
 
@@ -288,7 +288,7 @@ then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
 You may wish to read the definition of this cellular automaton:
-[jaccia.alp](https://github.com/catseye/Jaccia/blob/master/src/jaccia.alp).
+[jaccia.alp](https://codeberg.org/catseye/Jaccia/src/branch/master/src/jaccia.alp).
 
 You may also wish to check out this automaton's close relative,
 [Jacciata](https://catseye.tc/installation/Jacciata).
@@ -314,7 +314,7 @@ then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
 You may wish to read the definition of this cellular automaton:
-[jacciata.alp](https://github.com/catseye/Jaccia/blob/master/src/jacciata.alp).
+[jacciata.alp](https://codeberg.org/catseye/Jaccia/src/branch/master/src/jacciata.alp).
 
 You may also wish to check out this automaton's close relative,
 [Jaccia](https://catseye.tc/installation/Jaccia).
@@ -340,7 +340,7 @@ then click "Start" to run it.  Or click "Edit" to modify an example,
 or create your own.
 
 You may wish to read the definition of this cellular automaton:
-[redgreen.alp](https://github.com/catseye/REDGREEN/blob/master/src/redgreen.alp).
+[redgreen.alp](https://codeberg.org/catseye/REDGREEN/src/branch/master/src/redgreen.alp).
 
 ### Schrödinger's Game of Life
 
@@ -876,10 +876,10 @@ Documentation for Shelta is also on the disk image, and can be viewed
 with `TYPE` or `EDIT`, but you may find it more convenient to browse
 these files online:
 
-*   [Original Shelta README, 1999](https://github.com/catseye/Shelta/blob/master/doc/readme.txt)
-*   [Making the Snake Eat its Tail: Bootstrapping](https://github.com/catseye/Shelta/blob/master/doc/bootstrp.txt)
-*   [Shelta in NASM, 2009](https://github.com/catseye/Shelta/blob/master/doc/nasm2009.txt)
-*   [Shelta under FreeDOS, 2013](https://github.com/catseye/Shelta/blob/master/doc/fdos2013.txt)
+*   [Original Shelta README, 1999](https://codeberg.org/catseye/Shelta/src/branch/master/doc/readme.txt)
+*   [Making the Snake Eat its Tail: Bootstrapping](https://codeberg.org/catseye/Shelta/src/branch/master/doc/bootstrp.txt)
+*   [Shelta in NASM, 2009](https://codeberg.org/catseye/Shelta/src/branch/master/doc/nasm2009.txt)
+*   [Shelta under FreeDOS, 2013](https://codeberg.org/catseye/Shelta/src/branch/master/doc/fdos2013.txt)
 
 If v86 doesn't work in your browser, you can
 [download the disk image](https://catseye.tc/distfiles/freedos-1.0-shelta-1.2-floppy-2.img)

@@ -135,7 +135,7 @@
         "url": "https://esolangs.org/wiki/Gregor_Richards"
     }, 
     "Alise": {
-        "url": "https://github.com/catseye/Eightebed#legal-issues"
+        "url": "https://codeberg.org/catseye/Eightebed#legal-issues"
     }, 
     "Curtis Coleman": {
         "url": "https://esolangs.org/wiki/Befunge#Etymology"
@@ -360,7 +360,7 @@
     },
 
     "LCF-style-ND": {
-        "url": "https://github.com/cpressey/LCF-style-ND"
+        "url": "https://codeberg.org/catseye/The-Dossier/src/branch/master/article/LCF-style-Natural-Deduction"
     },
 
     "wierd.c": {
@@ -714,10 +714,10 @@
         "url": "https://catseye.tc/view/The-Dossier/article/Some%20Production%20Programming%20Languages.md"
     },
     "Project Matrix": {
-        "url": "https://github.com/catseye/"
+        "url": "https://codeberg.org/catseye/"
     },
     "Implementation": {
-        "url": "https://github.com/catseye/"
+        "url": "https://codeberg.org/catseye/"
     },
     "Programming Language Matrix": {
         "anchor": "top", 

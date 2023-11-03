@@ -41,8 +41,8 @@ We also believe that publically-available source code and
 transparent development processes have an important civic and
 didactic role in modern society.  For this reason, many of our
 software projects have been placed under open-source licenses,
-or have been placed into the public domain, and are stored in
-public repositories such as on [GitHub][].
+or have been placed into the public domain, and a copy is kept
+in a public repository on a site such as [Codeberg][].
 
 ### Chris Pressey
 
@@ -107,7 +107,7 @@ open-source or Public Domain.)
 
 It is the official distribution channel of Cat's Eye Technologies'
 public offerings, and
-[the Cat's Eye Technologies organization on GitHub](https://github.com/catseye/)
+[the Cat's Eye Technologies organization on Codeberg](https://codeberg.org/catseye/)
 is the development "side channel".
 
 In years past, the Cat's Eye Technologies web site was hosted on
@@ -236,7 +236,7 @@ Where exactly The Cannery is going, though, remains to be seen.
 [Chris Pressey's Favourite Video Games]: https://codeberg.org/cpressey/Some-Games-of-Note#some-games-of-note
 [Chris Pressey's Favourite Text Adventures]: https://codeberg.org/cpressey/Some-Games-of-Note#some-games-of-note
 [Chris Pressey's Favourite Other Computer Games]: https://codeberg.org/cpressey/Some-Games-of-Note#some-games-of-note
-[GitHub]: https://github.com/catseye/
+[Codeberg]: https://codeberg.org/catseye/
 [other objectionable constructions]: ../article/Gewgaws.md
 [Cat's Eye Technologies]: ../article/General%20Information.md#cats-eye-technologies
 [Phantom Hoover]: https://esolangs.org/wiki/User:Phantom_Hoover

@@ -3130,7 +3130,7 @@ or [the ones that got away](List%20of%20Unfinished%20Interesting%20Esolangs.md).
 [1L]: https://esolangs.org/wiki/1L
 [2-ill]: https://esolangs.org/wiki/2-ill
 [ALPACA]: ../article/Languages.md#alpaca
-[Alise]: https://github.com/catseye/Eightebed#legal-issues
+[Alise]: https://codeberg.org/catseye/Eightebed#legal-issues
 [Arboretuum]: ../article/Languages.md#arboretuum
 [BASIC]: ../article/Project%20Dependencies.md#basic
 [Befunge-93]: ../article/Languages.md#befunge-93
