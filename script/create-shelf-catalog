@@ -7,15 +7,11 @@ import re
 import sys
 
 
-def load_distributions(include_forks=False):
-    with open('distribution/distributions.json', 'r') as f:
-        distributions = json.loads(f.read())
-
-    with open('distribution/forks.json', 'r') as f:
-        forks = json.loads(f.read())
-
-    if include_forks:
-        distributions.update(forks)
+def load_distributions(distribution_specs):
+    distributions = {}
+    for distribution_spec in distribution_specs:
+        with open(distribution_spec, 'r') as f:
+            distributions.update(json.loads(f.read()))
 
     # For now, this fork is always included...
     distributions.update({
@@ -64,18 +60,18 @@ def obtain_infos(distributions):
     return infos
 
 
-def create_shelf_catalog(include_forks=False):
+def create_shelf_catalog(distribution_specs):
     """Create a shelf catalogue from distribution nodes.
 
     """
 
-    distributions = load_distributions(include_forks=include_forks)
+    distributions = load_distributions(distribution_specs)
     infos = obtain_infos(distributions)
 
     lines = []
     for (key, (repo, tag)) in sorted(infos.items()):
         lines.append('%s@%s' % (repo, tag))
-    
+
     for line in sorted(lines):
         try:
             sys.stdout.write(line.encode('utf-8'))
@@ -86,10 +82,17 @@ def create_shelf_catalog(include_forks=False):
 
 def main(args):
     argparser = ArgumentParser()
-    argparser.add_argument('--include-forks', action='store_true', default=False,
-                           help='Include forks in the generated catalogue.')
+    argparser.add_argument(
+        '--distribution-specs',
+        type=str,
+        default='distribution/distributions.json',
+        help="comma-seperated list of filenames of JSON files that "
+             "describe the distributions from which to create the "
+             "shelf catalogue file"
+    )
     options = argparser.parse_args(args)
-    create_shelf_catalog(include_forks=options.include_forks)
+    distribution_specs = [x.strip() for x in options.distribution_specs.split(',')]
+    create_shelf_catalog(distribution_specs)
 
 
 if __name__ == '__main__':
