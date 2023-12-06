@@ -28,6 +28,15 @@ def load_distributions(distribution_specs):
     return distributions
 
 
+def filter_distributions(distributions, for_repohost):
+    d = {}
+    for key, value in distributions.items():
+        repohosts = value.get("repohosts", [])
+        if for_repohost in repohosts:
+            d[key] = value
+    return d
+
+
 def obtain_infos(distributions):
     infos = {}
     for (key, node) in sorted(distributions.items()):
@@ -60,12 +69,14 @@ def obtain_infos(distributions):
     return infos
 
 
-def create_shelf_catalog(distribution_specs):
+def create_shelf_catalog(distribution_specs, for_repohost=None):
     """Create a shelf catalogue from distribution nodes.
 
     """
 
     distributions = load_distributions(distribution_specs)
+    if for_repohost:
+        distributions = filter_distributions(distributions, for_repohost)
     infos = obtain_infos(distributions)
 
     lines = []
@@ -90,9 +101,16 @@ def main(args):
              "describe the distributions from which to create the "
              "shelf catalogue file"
     )
+    argparser.add_argument(
+        '--for-repohost',
+        type=str,
+        default=None,
+        help="generate a catalogue file for only this repohost"
+    )
+
     options = argparser.parse_args(args)
     distribution_specs = [x.strip() for x in options.distribution_specs.split(',')]
-    create_shelf_catalog(distribution_specs)
+    create_shelf_catalog(distribution_specs, for_repohost=options.for_repohost)
 
 
 if __name__ == '__main__':
