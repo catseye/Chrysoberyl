@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# encoding: UTF-8
 
 from argparse import ArgumentParser
 import json
@@ -8,18 +7,14 @@ import re
 import sys
 
 
-def create_shelf_catalog(options):
-    """Create a shelf catalogue from distribution nodes.
-
-    """
-
+def load_distributions(include_forks=False):
     with open('distribution/distributions.json', 'r') as f:
         distributions = json.loads(f.read())
 
     with open('distribution/forks.json', 'r') as f:
         forks = json.loads(f.read())
 
-    if options.include_forks:
+    if include_forks:
         distributions.update(forks)
 
     # For now, this fork is always included...
@@ -34,6 +29,10 @@ def create_shelf_catalog(options):
         },
     })
 
+    return distributions
+
+
+def obtain_infos(distributions):
     infos = {}
     for (key, node) in sorted(distributions.items()):
         repo = node.get('reponame')
@@ -61,12 +60,21 @@ def create_shelf_catalog(options):
                 tag = 'rel_%s_%s' % (version, revision)
                 if revision == '0_0':
                     tag = 'rel_%s' % version
-        key = repo.lower() if os.getenv('LOWERCASE_REPOS') else repo
         infos[key] = (repo, tag)
+    return infos
+
+
+def create_shelf_catalog(include_forks=False):
+    """Create a shelf catalogue from distribution nodes.
+
+    """
+
+    distributions = load_distributions(include_forks=include_forks)
+    infos = obtain_infos(distributions)
 
     lines = []
     for (key, (repo, tag)) in sorted(infos.items()):
-        lines.append('%s@%s' % (key, tag))
+        lines.append('%s@%s' % (repo, tag))
     
     for line in sorted(lines):
         try:
@@ -76,9 +84,13 @@ def create_shelf_catalog(options):
         sys.stdout.write('\n')
 
 
-if __name__ == '__main__':
+def main(args):
     argparser = ArgumentParser()
     argparser.add_argument('--include-forks', action='store_true', default=False,
                            help='Include forks in the generated catalogue.')
-    options = argparser.parse_args(sys.argv[1:])
-    create_shelf_catalog(options)
+    options = argparser.parse_args(args)
+    create_shelf_catalog(include_forks=options.include_forks)
+
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
